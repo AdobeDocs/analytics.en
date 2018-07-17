@@ -17,6 +17,11 @@ As an Adobe Analytics customer you can now leverage Adobe's powerful analysis ca
 | [**Video Analytics**]()      | Add on providing video measurement for content, audio and advertisements |
 | [**Integrations**]()         | Analytics integrations with other Experience Cloud Solutions |
 
+## Documentation Updates and Release Notes
+
++ [Monthly Release Notes]()
++ [Documentation Updates]()
+
 ## Experience League, Community and Idea Exchange
 
 ### Experience League

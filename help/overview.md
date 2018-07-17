@@ -17,19 +17,23 @@ As an Adobe Analytics customer you can now leverage Adobe's powerful analysis ca
 | [**Video Analytics**]()      | Add on providing video measurement for content, audio and advertisements |
 | [**Integrations**]()         | Analytics integrations with other Experience Cloud Solutions |
 
-## Additional Resources for Adobe Analytics Customers
+## Experience League, Community and Idea Exchange
 
 ### Experience League
 
 To become an Experience Business, you need more than just great tools and online help. You need a partner. Experience League is a new enablement program with guided learning to help you get the most out of Adobe Experience Cloud. Visit the [Experience League](https://landing.adobe.com/experience-league/)
 
-### Community & Feedback
+### Community and Feedback
 
 Whether you're new to Analtyics or a seasoned analyst, the official Adobe Analytics Customer community has experts and content to help you be successful. If you have feedback or feature ideas, our community has an idea exchange too. Visit the [Analytics Customer Community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) today.
 
+You can also ask our community team questions on Twitter [@AdobeExpCare](https://twitter.com/AdobeExpCare)
+
 ### Tutorials and Education
 
-etc etc
+
+
+## Additional Information and Resources
 
 ### Service, Capability & Billing
 

@@ -9,7 +9,7 @@ As an Adobe Analytics customer you can now leverage Adobe's powerful analysis ca
 | User Guide           | Description                                         |
 |----------------------|-----------------------------------------------------|
 | [**Implementation**]()       | Configuring and implementing Analytics              |
-| [**On-boarding**]()          | Learn your first steps in how to use Analytic       |
+| [**On-boarding**]()          | Learn your first steps in how to use Analytics      |
 | [**Administration**]()       | Manage and administer your Analytics implementation |
 | [**Importing Data**]()       | Bring external data into Analytics                  |
 | [**Exporting Data**]()       | Take data out of Analytics for other applications   |

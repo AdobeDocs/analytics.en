@@ -14,6 +14,7 @@ As an Adobe Analytics customer you can now leverage Adobe's powerful analysis ca
 | [**Importing Data**]()       | Bring external data into Analytics                  |
 | [**Exporting Data**]()       | Take data out of Analytics for other applications   |
 | [**Analysis & Reporting**]() | How to analyze data to make actionable insights     |
+| [**Video Analytics**]()      | Analytics add on providing video measurement for content, audio and advertisements |
 
 ## Additional Resources for Adobe Analytics Customers
 

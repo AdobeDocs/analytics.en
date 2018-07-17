@@ -31,7 +31,7 @@ You can also ask our community team questions on Twitter [@AdobeExpCare](https:/
 
 ### Tutorials and Education
 
-
+Learn the basics, or refine your skills with Adobe's [Analytics tutorials](https://helpx.adobe.com/analytics/tutorials.html)
 
 ## Additional Information and Resources
 

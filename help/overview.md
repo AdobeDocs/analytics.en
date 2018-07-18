@@ -1,3 +1,13 @@
+---
+
+title: Adobe Analytics User Guides
+description: Technical documentation user guides for Adobe Analytics
+seo-title: Adobe Analytics documentation user guides
+seo-description: Adobe Analytics documentation user guides
+short-title: Analytics user guides
+
+---
+
 # Adobe Analytics Overview
 
 Adobe Analytics is part of the Adobe Experience Cloud, a suite of solutions which help online marketers apply real-time analytics and detailed segmentation to all their marketing channels.

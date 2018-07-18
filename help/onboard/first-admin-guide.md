@@ -1,3 +1,9 @@
+---
+title: First time administration guide
+description: First time set up and configuration guide for administrators using an Adobe Experience Cloud solution
+
+---
+
 # First time administration guide
 
 A first admin is the starting point in enabling the rest of the organization to use each Experience Cloud solution. Once a contract has been signed, a provisioning team at Adobe prepares for the account to be created. The first admin receives an email with login credentials before the contract's start date. Ensuring the first admin's contact info is given to Adobe and accurate before the contract is signed is highly recommended.

@@ -30,7 +30,7 @@ As an Adobe Analytics customer you can now leverage Adobe's powerful analysis ca
 ## Documentation Updates and Release Notes
 
 + [Monthly Release Notes](../../../release-notes.en/blob/master/release-notes.md)
-+ [Documentation Updates]()
++ [Documentation Updates](doc-updates.md)
 
 ## Experience League, Community and Idea Exchange
 

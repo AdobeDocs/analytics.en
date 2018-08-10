@@ -1,7 +1,7 @@
 ---
 
 cloud: experience-cloud
-product: adobe
+product: adobe analytics
 archtype: end-user
 user-guide: adobe analytics analyze user-guide
 

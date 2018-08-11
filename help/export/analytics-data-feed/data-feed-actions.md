@@ -1,0 +1,21 @@
+---
+description: You can perform a variety of actions on a data feed.
+keywords: Data Feed;actions
+seo-description: You can perform a variety of actions on a data feed.
+seo-title: Data Feed Panel
+solution: Analytics
+title: Data Feed Panel
+uuid: 2099cb42-0578-4891-93b7-72ee634a7214
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# Data Feed Panel
+
+In the Data Feed interface, when you select the check box next to one or more feeds, the available actions display as a collections of buttons above the list. 
+
+![](../assets/actions.png) 
+
+To edit a feed, click the feed name in the list. 

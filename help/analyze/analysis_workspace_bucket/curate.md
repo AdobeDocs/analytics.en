@@ -6,7 +6,7 @@ seo-title: Curate and share a project
 solution: Analytics
 title: Curate and share a project
 topic: Reports and analytics
-uuid: a085e1f2-1fc9-4154-83a3-3a1e2d0364f5
+uuid: d16e4e27-730e-4de1-b30d-23feee0aa5d4
 index: y
 internal: n
 snippet: y
@@ -16,25 +16,25 @@ translate: y
 # Curate and share a project
 
 **Video overview** 
->[!VIDEO](https://vimeo.com/LJJRskdmlOg) ** [!UICONTROL  Workspace] ** > ** [!UICONTROL  Share] **> ** [!UICONTROL  Curate Project Data] ** 
+>[!VIDEO](https://vimeo.com/LJJRskdmlOg) **[!UICONTROL  Workspace]** > **[!UICONTROL  Share]**> **[!UICONTROL  Curate Project Data]** 
 
 1. Specify permission to create and curate projects. 
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [ group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the ** [!UICONTROL  Create / Curate Projects in Analysis Workspace] ** permission enabled, or to the ** [!UICONTROL  All Report Access] ** user group. ( ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Groups] **). 
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [ group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL  Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL  All Report Access]** user group. ( **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Groups]**). 
 
-1. [ Create and save](../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) a project, then click ** [!UICONTROL  Share] ** > ** [!UICONTROL  Curate Project Data] **. 
+1. [ Create and save](../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) a project, then click **[!UICONTROL  Share]** > **[!UICONTROL  Curate Project Data]**. 
 
-1. Drag components you want to share from the draggable component stack on the left to the ** [!UICONTROL  Curated Components] ** field. 
+1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL  Curated Components]** field. 
 
-   ![](../assets/curated-components.png) 
+   ![](assets/curated-components.png) 
 
 
    >[!IMPORTANT]
    >
-   >Curating components is not required for sharing a project. You can share a project with all available, default components, or with the selected components. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using ** [!UICONTROL  Save As] **) prior to curating components. Once you curate the components in a project, the other components are no longer available to you for that project. 
+   >Curating components is not required for sharing a project. You can share a project with all available, default components, or with the selected components. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL  Save As]**) prior to curating components. Once you curate the components in a project, the other components are no longer available to you for that project. 
 
 
-1. Click ** [!UICONTROL  Done] **. 
+1. Click **[!UICONTROL  Done]**. 
 
 The resulting project behaves like a typical project in Analysis Workspace, but only with the specified components to choose from. 
 
@@ -42,11 +42,11 @@ The resulting project behaves like a typical project in Analysis Workspace, but 
 
 Sharing makes this project available to other Analysis Workspace users in your organization. Any curation you have done is reflected when others use the project. 
 
-1. After you curate the components of a report, click ** [!UICONTROL  Share] ** > ** [!UICONTROL  Share Project] **. 
+1. After you curate the components of a report, click **[!UICONTROL  Share]** > **[!UICONTROL  Share Project]**. 
 
 
 
-   ![](../assets/share_component.png) 
+   ![](assets/share_component.png) 
 
 1. Add recipients. 
 
@@ -60,7 +60,7 @@ Sharing makes this project available to other Analysis Workspace users in your o
    >
    >This setting does not persist - it is a singular action at the time of sharing.
 
-1. Click ** [!UICONTROL  Share] **.
+1. Click **[!UICONTROL  Share]**.
 
 <!-- <p> <b>Annotate and tag a project</b> </p> 
 <p>An alternative way to collaborate on a project is to use the Information panel. This panel will be re-introduced in an upcoming release. </p> 

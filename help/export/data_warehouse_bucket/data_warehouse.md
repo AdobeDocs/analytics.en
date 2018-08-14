@@ -5,7 +5,7 @@ seo-title: Data Warehouse
 solution: Analytics
 title: Data Warehouse
 topic: Data warehouse
-uuid: 5be64b6b-aa19-41e5-b0ff-831c416118ed
+uuid: 50e9ff2e-429a-4692-b994-82446f98a172
 index: y
 internal: n
 snippet: y

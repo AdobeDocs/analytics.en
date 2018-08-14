@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Horizontal Bar and Horizontal Bar Stacked
 title: Horizontal Bar and Horizontal Bar Stacked
-uuid: d468c1c7-4597-4044-a945-1bcc0feeb5d4
+uuid: c9695663-2d14-448d-965e-3e2c2bed9d8e
 index: y
 internal: n
 snippet: y
@@ -17,14 +17,14 @@ translate: y
 
 This visualization shows horizontal bars representing various values across one or more metrics. 
 
-![](../../assets/horizontal_bar.png) 
+![](assets/horizontal_bar.png) 
 
 ## Horizontal Bar Stacked {#section_50C08E9E20A94024A6553BC352ADB597}
 
 This visualization is like the [!UICONTROL  Horizontal Bar Chart], but the series bars appear stacked. 
 
-![](../../assets/horizontal-bar-stacked.png) 
+![](assets/horizontal-bar-stacked.png) 
 
 The [!UICONTROL  Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a "100% stacked" visualization: 
 
-![](../../assets/horizstacked100.png) 
+![](assets/horizstacked100.png) 

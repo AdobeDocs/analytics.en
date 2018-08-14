@@ -3,7 +3,7 @@ description: New Features in Adobe Analytics Segmentation.
 seo-description: New Features in Adobe Analytics Segmentation.
 seo-title: What's New in Analytics Segmentation
 title: What's New in Analytics Segmentation
-uuid: 00adea9c-cd6d-45db-8de0-4e9d359d9df9
+uuid: 9f5b5b42-2590-4bf5-9af6-0b50d84a0903
 index: y
 internal: n
 snippet: y

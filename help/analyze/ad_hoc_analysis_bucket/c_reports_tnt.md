@@ -5,7 +5,7 @@ seo-title: Adobe Target
 solution: Analytics
 title: Adobe Target
 topic: Ad hoc analysis
-uuid: b5c0231f-bdeb-4156-8029-ac9529302292
+uuid: 0aad1ed8-7ca1-43b2-8213-a69b382ddf85
 index: y
 internal: n
 snippet: y

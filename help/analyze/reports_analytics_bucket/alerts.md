@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Alerts
 title: Alerts
 topic: Reports and analytics
-uuid: 1cfa7300-ee1f-4f18-92ff-b85b748deecd
+uuid: 21949ec7-28ea-4288-ac5c-82fe336c6d81
 index: y
 internal: n
 snippet: y
@@ -22,21 +22,21 @@ As the new alert system for all of Adobe Analytics, Intelligent Alerts let you c
 * Preview how often an alert will trigger.
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects.
 * Create "stacked" alerts that capture multiple metrics in a single alert.
-You can access this new Alerts system from ** [!UICONTROL  More] ** > ** [!UICONTROL  Alerts] ** in any report in Reports &amp; Analytics. 
+You can access this new Alerts system from **[!UICONTROL  More]** > **[!UICONTROL  Alerts]** in any report in Reports &amp; Analytics. 
 
 For more information, go to the Analysis Workspace documentation on [ Intelligent Alerts ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html). 
 >## Add an Alert {#task_51187E8BF19544DDA9EF2057E6F11D35}
 >Steps that describe how to add an alert in Adobe Analytics.
 <!-- t_add_an_alert.xml -->
-Navigate to the new Alert Builder in the ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** menu. However, you can still access it from within reports in Reports &amp; Analytics: 
+Navigate to the new Alert Builder in the **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** menu. However, you can still access it from within reports in Reports &amp; Analytics: 
 
 >1. In Reports &amp;amp; Analytics, open the report where you want to set an alert.
->1. Click ** [!UICONTROL  More] ** > ** [!UICONTROL  Add Alert] **.
+>1. Click **[!UICONTROL  More]** > **[!UICONTROL  Add Alert]**.
 >1. This will take you to the [ new Alert Builder ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html).
 >## View or Edit Existing Alerts {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 >Short DescriptionTask Context 
 
->1. Go to ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Alerts] **. This takes you to the new [ Alert Manager ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
+>1. Go to **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Alerts]**. This takes you to the new [ Alert Manager ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
 >## Legacy Alerts Migration {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 >Several features of existing Analytics alerts will not be included in the new Alert Manager, which will be released (as part of Analysis Workspace) in the Fall of 2016. The following table lists the deprecated alert features and some alert features that will be migrated to the new Alert Manager in a different form.
 <!-- deprecated_alerts.xml -->

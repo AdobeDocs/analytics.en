@@ -3,7 +3,7 @@ description: The Adobe Mobile Services UI combines mobile app data from your Ado
 seo-description: The Adobe Mobile Services UI combines mobile app data from your Adobe Analytics report suites with the ability to send push notifications and generate in-app messages.
 seo-title: VRS Support in Mobile Services
 title: VRS Support in Mobile Services
-uuid: 47466bf3-1078-4ec2-9b95-ed5487d09357
+uuid: 54443751-6515-4add-a00e-c068fcd2e314
 index: y
 internal: n
 snippet: y

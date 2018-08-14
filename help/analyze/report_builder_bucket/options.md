@@ -5,7 +5,7 @@ seo-title: Report Builder options
 solution: Analytics
 title: Report Builder options
 topic: Report builder
-uuid: 34bb8486-6208-46d6-b139-d86ecc1ca5c9
+uuid: 1eef2466-9d27-4793-b5b2-f6155ddc940c
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Report Builder options
 
-In the Add-Ins toolbar, click ** [!UICONTROL  Options] **.  ![](../assets/options_icon.png) 
+In the Add-Ins toolbar, click **[!UICONTROL  Options]**.  ![](assets/options_icon.png) 
 
 <table id="table_CFBE06044645468F8C883F2370C31F36"> 
  <thead> 

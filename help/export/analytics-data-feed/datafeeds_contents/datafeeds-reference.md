@@ -7,7 +7,7 @@ solution: Analytics
 subtopic: data feeds
 title: Data Column Reference
 topic: Reports and analytics
-uuid: dde225ed-5eb9-4d57-850a-5c3db9bcaa85
+uuid: 8841212b-b365-414e-929f-c901461bbcaa
 index: y
 internal: n
 snippet: y

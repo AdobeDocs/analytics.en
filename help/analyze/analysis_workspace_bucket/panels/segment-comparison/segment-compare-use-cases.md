@@ -4,7 +4,7 @@ keywords: Segment IQ
 seo-description: Segment IQ (Segment Comparison) is one of the most widely used feature in Analysis Workspace, and customers are constantly finding new an innovative ways to drive insights with it. Here are just a handful of successful use cases.
 seo-title: Segment IQ use cases
 title: Segment IQ use cases
-uuid: cb3991d1-4025-4ecb-ba8d-cf4fa17a3357
+uuid: 911fec51-2269-46c1-86a6-7415f8620adb
 index: y
 internal: n
 snippet: y

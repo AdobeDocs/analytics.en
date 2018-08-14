@@ -3,7 +3,7 @@ description: This section contains the key concepts for Adobe Analytics, a brief
 seo-description: This section contains the key concepts for Adobe Analytics, a brief description of the concept, and a specific documentation link with additional detail on the topic.
 seo-title: Adobe Analytics - Key Concepts
 title: Adobe Analytics - Key Concepts
-uuid: 1e582e5d-c0e3-420a-89a4-f2b445a17f2c
+uuid: afa95806-83e5-4fc7-a0b5-0587dba5173b
 index: y
 internal: n
 snippet: y

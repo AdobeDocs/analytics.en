@@ -5,7 +5,7 @@ seo-title: Publishing Segments to the Experience Cloud
 solution: Analytics
 title: Publishing Segments to the Experience Cloud
 topic: Segments
-uuid: b216bb98-b5cb-4673-8906-db24583e346f
+uuid: 32568a6f-ea7b-401c-b4f3-2b65c5c54bc3
 index: y
 internal: n
 snippet: y

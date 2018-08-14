@@ -3,7 +3,7 @@ description: In the calendar, you can specify dates and date ranges, or select a
 seo-description: In the calendar, you can specify dates and date ranges, or select a preset.
 seo-title: Calendar and date ranges
 title: Calendar and date ranges
-uuid: f4347962-f35f-465f-97ca-7501e2838c18
+uuid: 482dfff1-5ca0-4fd8-bccf-cf2fdeb978d7
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ The first click starts a date range selection. Then highlight the range in eithe
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date. 
 
-![](../../assets/aw_calendar.png)aw 
+![](assets/aw_calendar.png)aw 
 
 <table id="table_714893B1A6094202ADC2FF596530E73D"> 
  <thead> 

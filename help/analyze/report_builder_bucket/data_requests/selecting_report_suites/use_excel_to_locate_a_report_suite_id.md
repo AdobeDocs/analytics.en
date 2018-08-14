@@ -5,7 +5,7 @@ seo-title: Use Excel to locate a report suite ID
 solution: Analytics
 title: Use Excel to locate a report suite ID
 topic: Report builder
-uuid: d1372257-ade7-447c-8fe3-96dc7a7c8602
+uuid: e98e65e4-c8be-4ca4-bb76-c3ef3c759557
 index: y
 internal: n
 snippet: y

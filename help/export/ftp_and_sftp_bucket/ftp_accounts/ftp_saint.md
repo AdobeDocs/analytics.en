@@ -5,7 +5,7 @@ seo-description: The classifications (SAINT) FTP option provides more flexibilit
 seo-title: Classifications
 solution: Analytics
 title: Classifications
-uuid: 793c4af5-0c76-403f-ad0c-438a50858b36
+uuid: 9afba9fa-b3ec-4a97-ad7a-13abdc1cac5a
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-description: Adobe supports the export of DataWarehouse requests to SFTP ser
 seo-title: Sending Data Warehouse Requests to SFTP Servers
 solution: Analytics
 title: Sending Data Warehouse Requests to SFTP Servers
-uuid: f80a9e53-d2c8-416f-9cbf-4117549ec424
+uuid: 8001fcb5-c560-4a39-a6d5-e579a7ae657a
 index: y
 internal: n
 snippet: y
@@ -34,12 +34,12 @@ To successfully send a [!DNL  Data Warehouse] request via SFTP:
 1. Obtain the [!DNL  authorized_keys] file by having one of your organization's supported users contact Customer Care.
 1. After this file is obtained, log in to the FTP site under the same credentials that are used for the [!DNL  Data Warehouse] request.
 1. In the root directory, navigate to the folder named [!DNL  .ssh] (if one does not exist, create one) and place the [!DNL  authorized_keys] file there.
-1. Go to the [!DNL  Data Warehouse] request manager. Configure the request as desired, then click ** [!UICONTROL  Advanced Delivery Options] **.
-1. In the pop-up window, click ** [!UICONTROL  FTP] **, then specify the ftp site (including the [!DNL  sftp://] protocol, such as [!DNL  sftp://ftp.omniture.com]) via port 22. Including the [!DNL  sftp://] protocol is only permitted when using SFTP. Regular FTP requests should omit the protocol prefix (such as, [!DNL  ftp.omniture.com] instead of [!DNL  ftp://ftp.omniture.com]). 
+1. Go to the [!DNL  Data Warehouse] request manager. Configure the request as desired, then click **[!UICONTROL  Advanced Delivery Options]**.
+1. In the pop-up window, click **[!UICONTROL  FTP]**, then specify the ftp site (including the [!DNL  sftp://] protocol, such as [!DNL  sftp://ftp.omniture.com]) via port 22. Including the [!DNL  sftp://] protocol is only permitted when using SFTP. Regular FTP requests should omit the protocol prefix (such as, [!DNL  ftp.omniture.com] instead of [!DNL  ftp://ftp.omniture.com]). 
 
 1. Enter the name of the folder you want to place the file in the Folder field. A folder is required.
 1. Enter the same username and password used in Step 2.
-1. Click ** [!UICONTROL  Send] **.
+1. Click **[!UICONTROL  Send]**.
 The sftp PUT command places a temporary file with an extension of .part in the specified directory. When the upload completes the file extension is renamed to the final extension, at which point it is ready for your use. 
 
 Alternatively, [!DNL  sftp+norename://] can be specified instead of [!DNL  sftp://] to upload the file directly with the final name, without a temporary [!DNL  .part] file name during upload. This approach is appropriate when the SFTP server handles file renaming during upload automatically, and there is no chance of the file being processed before upload is complete. 

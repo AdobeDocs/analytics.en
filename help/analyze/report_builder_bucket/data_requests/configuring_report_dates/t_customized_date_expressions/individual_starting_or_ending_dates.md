@@ -5,7 +5,7 @@ seo-title: Individual starting or ending dates
 solution: Analytics
 title: Individual starting or ending dates
 topic: Report builder
-uuid: d0b24540-018f-4bf4-91ab-d18930f83024
+uuid: 78f439d0-ebde-4413-9c47-a399d10fd34b
 index: y
 internal: n
 snippet: y

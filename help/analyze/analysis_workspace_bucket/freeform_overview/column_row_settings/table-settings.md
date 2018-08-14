@@ -3,7 +3,7 @@ description: Row settings vary depending on which component you have dragged int
 seo-description: Row settings vary depending on which component you have dragged into the table.
 seo-title: Row settings
 title: Row settings
-uuid: 3b186859-b07d-45e5-a1eb-d1612d309d41
+uuid: 8a8d3e8c-0834-4c45-94f8-53b7c1b338c4
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ You can also use [ right-click actions in a table](../../../analysis_workspace_b
 
 To access table row settings, click the Settings icon next to a dimension, segment, metric, time period, or a breakdown within each of these: 
 
-![](../../../assets/row-settings.png) 
+![](assets/row-settings.png) 
 
 <table id="table_7ACE6413DB1F40349ED2860020F92E55"> 
  <thead> 
@@ -28,7 +28,7 @@ To access table row settings, click the Settings icon next to a dimension, segme
  <tbody> 
   <tr> 
    <td colname="col1"> <p><a href="../../../analysis_workspace_bucket/analysis-workspace-components/calendar/time_comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Date Comparisons</a> </p> </td> 
-   <td colname="col2"> <p><b>Align dates from each column to all start on the same row. </b> </p> <p>When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1: </p> <p style="text-align: center;"><img placement="break" align="center" href="../../../assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabled by default. </p> </td> 
+   <td colname="col2"> <p><b>Align dates from each column to all start on the same row. </b> </p> <p>When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1: </p> <p style="text-align: center;"><img placement="break" align="center" href="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabled by default. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Percentages </p> </td> 

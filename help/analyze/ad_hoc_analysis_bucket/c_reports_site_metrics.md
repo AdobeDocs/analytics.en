@@ -5,7 +5,7 @@ seo-title: Site Metrics Reports
 solution: Analytics
 title: Site Metrics Reports
 topic: Ad hoc analysis
-uuid: cafbd5f7-0303-432b-86e8-00fbdcb5fc67
+uuid: d5f45bbb-4834-403f-b961-f3ea49655c71
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ You can use the [!UICONTROL  Carts Report] to:
 >## Custom Events Report {#concept_9337B2FB8A3F417BA8689FE7FD64629F}
 >The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.
 <!-- c_reports_custom_events.xml -->
-Because each analytics report suite differs, this set of reports is used differently for each client. A [!UICONTROL  Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if ** [!UICONTROL  event1] ** is set to count the number of times a document is downloaded, then the [!UICONTROL  Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. You can have multiple custom event reports. 
+Because each analytics report suite differs, this set of reports is used differently for each client. A [!UICONTROL  Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL  event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL  Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. You can have multiple custom event reports. 
 >## Conversion Reports {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 >Shows revenue gained from different aspects of your website. You can see reports that show revenue from ad campaigns, revenue from loyal customers compared to revenue from new customers, a breakdown of revenue by product, and many other revenue reports. Conversion reports can also show other success events such as ad clicks, downloads, or other events.
 <!-- c_reports_conversion.xml -->

@@ -5,7 +5,7 @@ seo-title: Building Sequential Segments
 solution: Analytics
 title: Building Sequential Segments
 topic: Segments
-uuid: 97dce140-2ac9-4a8e-ad5d-a3a5478efee6
+uuid: 34cff069-2fcd-4cc7-aef7-8d680d91648c
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Building Sequential Segments
 
-![](../../assets/before-after-sequence.png) 
+![](assets/before-after-sequence.png) 
 
 Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [ After and Within operators ](../../c_segmentation_bucket/seg_workflow/seg_sequential_build.md#concept_07708877D06742998C6237DD9FD194EA). 
 
@@ -22,7 +22,7 @@ Additionally, you can constrain sequential segments to a&nbsp;specific duration 
 
 When creating a segment where “Include Everyone” is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone. 
 
-![](../../assets/sequence-filter.png) 
+![](assets/sequence-filter.png) 
 
 
 
@@ -47,7 +47,7 @@ When creating a segment where “Include Everyone” is set, the segment identif
 
 ## Only Before Sequence and Only After Sequence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-The options ** [!UICONTROL  Only Before Sequence] ** and ** [!UICONTROL  Only After Sequence] ** filter the segment to a subset of data before or after the specified sequence. 
+The options **[!UICONTROL  Only Before Sequence]** and **[!UICONTROL  Only After Sequence]** filter the segment to a subset of data before or after the specified sequence. 
 
 * **Only Before Sequence**: Includes all hits before a sequence + the first hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only Before Sequence” includes the first hit of the last occurrence of the sequence and all prior hits (see example 2). 
 
@@ -75,7 +75,7 @@ Let’s also frame this concept with the Hit Depth dimension.
 
 **Example 3: Hit Depth 3 then 5** 
 
-![](../../assets/hit-depth.png) 
+![](assets/hit-depth.png) 
 
 ## Dimension Constraints {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
@@ -83,7 +83,7 @@ In a “within" clause, in between THEN statements, you can add, for example, �
 
 Setting a ‘Within Dimension’ clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page": 
 
-![](../../assets/sequence-filter4.png) 
+![](assets/sequence-filter4.png) 
 
 <table id="table_5B8D6342FE2B401CBB1FFF52C24354D8"> 
  <tbody> 
@@ -121,7 +121,7 @@ The following are examples of how the segment can be used.
 
 You nest two page rules within a top-level [!UICONTROL  Visitor] container and sequence the page hits using the [!UICONTROL  THEN] operator. 
 
-![](../../assets/segment_sequential_1.png) 
+![](assets/segment_sequential_1.png) 
 
 <a id="section_3386E84A4EB641E999B09F78D47A055C"></a>
 
@@ -140,8 +140,8 @@ The following are examples of how this type of segment can be used:
 
 ## Creating the Segment {#section_E331A7A052234FF6BEE3257EA79A9E3B}
 
-This example nests two ** [!UICONTROL  Visit] ** containers within the top-level ** [!UICONTROL  Visitor] ** container and sequences the segment using the [!UICONTROL  THEN] operator. 
-![](../../assets/visitor_seq_across_visits.png) 
+This example nests two **[!UICONTROL  Visit]** containers within the top-level **[!UICONTROL  Visitor]** container and sequences the segment using the [!UICONTROL  THEN] operator. 
+![](assets/visitor_seq_across_visits.png) 
 <!-- seg_example_mixed_level_sequence.xml -->
 Identify visitors who view two pages across an undetermined number of visits, but then view a third page in a separate visit. 
 
@@ -159,8 +159,8 @@ The following are examples of how this type of segment can be used:
 
 1. Drop two Page dimensions from the left panes within a top-level [!UICONTROL  Visitor] container.
 1. Add the THEN operator between them.
-1. Click ** [!UICONTROL  Options] ** > ** [!UICONTROL  Add container] ** and add a [!UICONTROL  Visit] container underneath the [!UICONTROL  Visitor] level and sequenced using the [!UICONTROL  THEN] operator.
-![](../../assets/mixed_level_checkpoints.png) 
+1. Click **[!UICONTROL  Options]** > **[!UICONTROL  Add container]** and add a [!UICONTROL  Visit] container underneath the [!UICONTROL  Visitor] level and sequenced using the [!UICONTROL  THEN] operator.
+![](assets/mixed_level_checkpoints.png) 
 
 <!-- seg_example_aggregate_checkpoints.xml -->
 Adding multiple [!UICONTROL  Hit] containers within a [!UICONTROL  Visitor] container lets you employ the appropriate operators between the same type of containers, and to use rules and dimensions such as Page and Visit Number to define the page view and provide a sequence dimension within the [!UICONTROL  Hit] container. Applying logic at the Hit-level lets you constrain and combine matches at a same-level of hits within the [!UICONTROL  Visitor] container to build a variety of segment types. 
@@ -181,7 +181,7 @@ The following are examples of how this type of segment can be used:
 1. Add two [!UICONTROL  Hit]-level containers—a dimension with an appropriate numerical dimension joined at the same [!UICONTROL  Hit] level by the [!UICONTROL  AND] and [!UICONTROL  OR] operator.
 1. Within the [!UICONTROL  Visit] container, add another [!UICONTROL  Hit] container and nest two additional [!UICONTROL  Hit] containers joined with an [!UICONTROL  OR] or [!UICONTROL  AND] operator. Sequence these nested [!UICONTROL  Hit] containers with the [!UICONTROL  THEN] operator. 
 
-![](../../assets/aggregate_checkpoints2.png) 
+![](assets/aggregate_checkpoints2.png) 
 
 <!-- seg_example_nest_sequence.xml -->
 By placing checkpoints at both the [!UICONTROL  Visit] and [!UICONTROL  Hit] level, you can constrain the segment to meet requirements within a specific visit as well as a specific hit. 
@@ -192,18 +192,18 @@ By placing checkpoints at both the [!UICONTROL  Visit] and [!UICONTROL  Hit] lev
 
 
 1. Underneath a top-level [!UICONTROL  Visit] container, drag in two page dimensions.
-1. Multi-select both rules, click ** [!UICONTROL  Options] ** > ** [!UICONTROL  Add container from selection] ** and change it to a [!UICONTROL  Visit] container.
+1. Multi-select both rules, click **[!UICONTROL  Options]** > **[!UICONTROL  Add container from selection]** and change it to a [!UICONTROL  Visit] container.
 1. Join them with a [!UICONTROL  THEN] operator.
 1. Create a Hit container as a peer to the [!UICONTROL  Visit] container and drag in a page dimension.
 1. Join the nested sequence in the [!UICONTROL  Visit] container with the [!UICONTROL  Hit] container using another [!UICONTROL  THEN] operator.
-![](../../assets/nesting_sequential_seg.png) 
+![](assets/nesting_sequential_seg.png) 
 
 <!-- seg_example_checkpoints_exclude.xml -->
 Segment rules include all data unless you specifically exclude [!UICONTROL  Visitor], [!UICONTROL  Visit], or [!UICONTROL  Hit] data using the [!UICONTROL  Exclude] rule. It allows you to dismiss common data and create segments with more focus. Or it allows you to create segments excluding found groups to identify the remaining data set, such as creating a rule that includes successful visitors who placed orders and then excluding them to identify "non-purchasers." However, in most cases it is better to create rules that exclude broad values rather than trying to use the [!UICONTROL  Exclude] rule to target specific include values. 
 
 For example: 
 
-* **Exclude pages**. Use a segment rule to strip out a specific page (such as * ` Home Page` *) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. This rule automatically includes all values except the Home Page.
+* **Exclude pages**. Use a segment rule to strip out a specific page (such as *` Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. This rule automatically includes all values except the Home Page.
 * **Exclude referring domains**. Use a rule that includes only referring domains from Google.com and excludes all others.
 * **Identify non-purchasers**. Identify when orders are greater than zero and then exclude the [!UICONTROL  Visitor].
 The [!UICONTROL  Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL  Exclude Checkpoints] can also be included within a [ Logic Group ](../../c_segmentation_bucket/seg_workflow/seg_sequential_build.md#concept_23CE0E6071E14E51B494CD21A9799112) 
@@ -226,7 +226,7 @@ The following are examples of how this type of segment can be used:
 
 Create a segment as you would for a simple, mixed-level, or nested sequential segment and then set the [!UICONTROL  EXCLUDE] operator for the container element. The example below is an aggregate segment where the three [!UICONTROL  Hit] containers are dragged to the canvas, the [!UICONTROL  THEN] operator assigned to join the container logic, then exclude the middle page view container to include only visitors that went from page A to Page C in the sequence. 
 
-![](../../assets/exclude_between_checkpoints.png) 
+![](assets/exclude_between_checkpoints.png) 
 
 <!-- seg_example_exclude_before.xml -->
 If the exclude checkpoint is at the beginning of a sequential segment, then it ensures that an excluded page view did not occur before the first non-excluded hit. 
@@ -244,7 +244,7 @@ The following are examples of how this type of segment can be used:
 
 Create two separate Hit containers within a top-level Visitor container. Then set the [!UICONTROL  EXCLUDE] operator for the first container. 
 
-![](../../assets/exclude_beginning_sequence.png) 
+![](assets/exclude_beginning_sequence.png) 
 
 <!-- seg_example_exclude_simple.xml -->
 If the exclude checkpoint is at the end of a sequence, then it ensures that the checkpoint did not happen between the last non-excluded checkpoint and the end of the visitor sequence. 
@@ -262,14 +262,14 @@ The following are examples of how this type of segment can be used:
 
 Build a simple sequence segment by dragging two [!UICONTROL  Hit] containers to the canvas and connecting them using the [!UICONTROL  THEN] operator. Then assign the [!UICONTROL  EXCLUDE] operator to the second [!UICONTROL  Hit] container in the sequence. 
 
-![](../../assets/exclude_end_sequence.png) 
+![](assets/exclude_end_sequence.png) 
 
 <!-- seg_example_sequence_and.xml -->
 Within a sequential segmentation, it is required that containers are ordered strictly within the [ container hierarchy ](../../c_segmentation_bucket/seg_overview.md#concept_A38E7000056547399E346559D85E2551). The [!UICONTROL  Logic Group] container was designed to be used when higher level containers are required in sequential segments to further filter visitors and to furnish complex, nested, visitor-level constraints to refine the segment. 
 
 |  Standard Container Hierarchy  |
 |---|
-|   ![](../../assets/nesting_container.png)  | Within the [!UICONTROL  Visitor] container, the [!UICONTROL  Visit] and [!UICONTROL  Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
+|   ![](assets/nesting_container.png)  | Within the [!UICONTROL  Visitor] container, the [!UICONTROL  Visit] and [!UICONTROL  Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
 
 
 >[!NOTE]
@@ -280,7 +280,7 @@ A [!UICONTROL  Logic Group] container treats several checkpoints as a group with
 
 |  Logic Container Non-Standard Hierarchy  |
 |---|
-|   ![](../../assets/logic_group_hierarchy.png)  | The standard container hierarchy is also required outside of the [!UICONTROL  Logic Group] container. But inside the [!UICONTROL  Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
+|   ![](assets/logic_group_hierarchy.png)  | The standard container hierarchy is also required outside of the [!UICONTROL  Logic Group] container. But inside the [!UICONTROL  Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
 
 
 ## Building a Logic Group Segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
@@ -290,8 +290,8 @@ Like other containers, the [!UICONTROL  Logic Group] containers can be built in 
 1. Drag dimensions, events, or segments from the left panes.
 1. Change the top container to a [!UICONTROL  Visitor] container.
 1. Change the [!UICONTROL  AND] or [!UICONTROL  OR] operator inserted by default to the THEN operator.
-1. Select the [!UICONTROL  Hit] containers (the Dimension, Event, or Item) and click ** [!UICONTROL  Options] ** > ** [!UICONTROL  Add container from selection] **.
-1. Click the container icon and select ** [!UICONTROL  Logic Group] **.  ![](../../assets/logic_group_checkpoints.png)
+1. Select the [!UICONTROL  Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL  Options]** > **[!UICONTROL  Add container from selection]**.
+1. Click the container icon and select **[!UICONTROL  Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. You can now set the [!UICONTROL  Hit] within the [!UICONTROL  Logic Group] container without regard to hierarchy.
 
 <!-- seg_example_lg_or.xml -->
@@ -303,7 +303,7 @@ Using the [!UICONTROL  Logic Group] lets you meet conditions within that group t
 
 Page B and C are nested in a [!UICONTROL  Logic Group] container within the outer [!UICONTROL  Visitor] container. The [!UICONTROL  Hit] container for A is then followed by the [!UICONTROL  Logic Group] container with B and C identified using the [!UICONTROL  AND] operator. Because it is in the [!UICONTROL  Logic Group], the sequence is not defined and hitting either page B or C makes the argument true. 
 
-![](../../assets/logic_group_any_order2.png) 
+![](assets/logic_group_any_order2.png) 
 
 <!-- seg_example_lg_and.xml -->
 Using the [!UICONTROL  Logic Group] lets you meet conditions within that group that reside outside of the sequence. In this unordered first match segment, the [!UICONTROL  Logic Group] rules are identified first to be either a page view of page B or page C, then the required view of page A. 
@@ -313,7 +313,7 @@ Using the [!UICONTROL  Logic Group] lets you meet conditions within that group t
 ## Creating a Segment {#section_4147B35EF7DC499AA65FC5D269FB76FC}
 
 Page B and page C dimensions are grouped within a [!UICONTROL  Logic Group] container with the [!UICONTROL  OR] operator selected, then the [!UICONTROL  Hit]container identifying a page view of page A as the value. 
-![](../../assets/logic_group_1st_match.png) 
+![](assets/logic_group_1st_match.png) 
 <!-- seg_example_lg_exclude_and.xml -->
 Build segments using the [!UICONTROL  Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. **** 
 
@@ -323,9 +323,9 @@ Build segments using the [!UICONTROL  Logic Group] where multiple page views are
 
 Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes. See [ Building a Logic Group Segment ](../../c_segmentation_bucket/seg_workflow/seg_sequential_build.md#concept_23CE0E6071E14E51B494CD21A9799112). 
 
-After nesting the values within the [!UICONTROL  Logic Group], click the ** [!UICONTROL  Exclude] ** button within the [!UICONTROL  Logic Group] container. 
+After nesting the values within the [!UICONTROL  Logic Group], click the **[!UICONTROL  Exclude]** button within the [!UICONTROL  Logic Group] container. 
 
-![](../../assets/logic_exclude_and.png) 
+![](assets/logic_exclude_and.png) 
 
 <!-- seg_example_logic_group_exclude_or.xml -->
 Build segments using the [!UICONTROL  Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. 
@@ -338,14 +338,14 @@ The initial B and C pages are identified in a [!UICONTROL  Logic Group] containe
 
 Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes. 
 
-After nesting the values within the [!UICONTROL  Logic Group], click the ** [!UICONTROL  Exclude] ** button within the [!UICONTROL  Logic Group] container. 
+After nesting the values within the [!UICONTROL  Logic Group], click the **[!UICONTROL  Exclude]** button within the [!UICONTROL  Logic Group] container. 
 
-![](../../assets/logic_exclude_or.png) 
+![](assets/logic_exclude_or.png) 
 
 <!-- seg_example_time_between.xml -->
 Use the [!UICONTROL  Within] and [!UICONTROL  After] operators built in to the header of each container to define the time, events, and count. 
 
-![](../../assets/then_within_operators.png) 
+![](assets/then_within_operators.png) 
 
 You can limit matching to a specified duration of time by using the [!UICONTROL  Within] and [!UICONTROL  After] containers and specifying a granularity and count. The [!UICONTROL  Within] operator is used to specify a max limit on the amount of time between two checkpoints. The [!UICONTROL  After] operator is used to specify a minimum limit on the amount of time between two checkpoints. 
 
@@ -353,9 +353,9 @@ You can limit matching to a specified duration of time by using the [!UICONTROL 
 
 The duration is specified by a single uppercase letter representing the granularity followed by a number representing the repetition count of the granularity. 
 
-** [!UICONTROL  Within] ** includes the endpoint (less than or equal to). 
+**[!UICONTROL  Within]** includes the endpoint (less than or equal to). 
 
-** [!UICONTROL  After] ** does not include the endpoint (greater than). 
+**[!UICONTROL  After]** does not include the endpoint (greater than). 
 
 <table id="table_964D05B38E434DBB88D472C93F8272AF"> 
  <thead> 
@@ -371,11 +371,11 @@ The duration is specified by a single uppercase letter representing the granular
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> WITHIN </span> </td> 
-   <td colname="col2"> The <span class="wintitle"> Within </span> operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the <span class="wintitle"> Within </span> operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B. <p style="text-align: center;"> <img href="../../assets/After_Within_max.png" id="image_F10FD40D99CD4A66B4AC67197D5F3AD5" /> </p> <p>For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B. </p> </td> 
+   <td colname="col2"> The <span class="wintitle"> Within </span> operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the <span class="wintitle"> Within </span> operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B. <p style="text-align: center;"> <img href="assets/After_Within_max.png" id="image_F10FD40D99CD4A66B4AC67197D5F3AD5" /> </p> <p>For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> AFTER/WITHIN </span> </td> 
-   <td colname="col2"> When using both the <span class="wintitle"> After </span> and <span class="wintitle"> Within </span> operators, it's important to understand that both operators will begin and end in parallel, not sequentially. <p style="text-align: center;"> <img href="../../assets/After_Within_both.png" id="image_0630D84D137546E4B8A1907D16C2CFF8" /> </p> <p>For example, if you build a segment with the container set to 
+   <td colname="col2"> When using both the <span class="wintitle"> After </span> and <span class="wintitle"> Within </span> operators, it's important to understand that both operators will begin and end in parallel, not sequentially. <p style="text-align: center;"> <img href="assets/After_Within_both.png" id="image_0630D84D137546E4B8A1907D16C2CFF8" /> </p> <p>For example, if you build a segment with the container set to 
      <cmdname>
        After = 1 Week(s) and Within = 2 Week(s) 
      </cmdname>, then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Both conditions are enforced from the time of the first page hit. </p> </td> 
@@ -390,11 +390,11 @@ The duration is specified by a single uppercase letter representing the granular
 * Time After can only be applied to a [!UICONTROL  Hit] container because it is the only level for which such fine granularity is defined.
 **Sequence**: Visitors that visited page A then visited page B only after 2 weeks.**** 
 
-![](../../assets/time_between_after_operator.png) 
+![](assets/time_between_after_operator.png) 
 
 **Creating the Segment**: This segment is created by adding a [!UICONTROL  Visitor] container with two [!UICONTROL  Hit] containers. You can then set the [!UICONTROL  THEN] operator, and open the [!UICONTROL  AFTER] operator drop down and set the number of weeks. 
 
-![](../../assets/after_operator.png) 
+![](assets/after_operator.png) 
 
 ## Matches {#section_D2D33234118F47DBA2E2AB7208CF474F}
 
@@ -434,11 +434,11 @@ When given "After 2 weeks", if a hit to page A happens on June 1 2013, at 00:01,
 
 **Sequence**: Visitors who visited page A then visited page B within 5 minutes. 
 
-![](../../assets/time_between_within_operator.png) 
+![](assets/time_between_within_operator.png) 
 
 **Creating the Segment**: This segment is created by adding a [!UICONTROL  Visitor] container, then dragging with two [!UICONTROL  Hit] containers. You can then set the [!UICONTROL  THEN] operator, and open the [!UICONTROL  AFTER] operator drop down and set the interval: hits, page views, visits, minutes, hours, days, weeks, months, quarters, or years. 
 
-![](../../assets/within_operator.png) 
+![](assets/within_operator.png) 
 
 ## Matches {#section_E0A990FE2905445C8783AB2F2E473A4D}
 
@@ -449,11 +449,11 @@ Use [!UICONTROL  Within] and [!UICONTROL  After] to provide a maximum and minimu
 
 **Sequence**: Visitors that visited page A then visited page B after 2 weeks but within 1 month. 
 
-![](../../assets/time_between_using_both_operators.png) 
+![](assets/time_between_using_both_operators.png) 
 
 **Creating the Segment**: Create the segment by sequencing two [!UICONTROL  Hit] containers within a [!UICONTROL  Visitor] container. Then set the [!UICONTROL  After] and [!UICONTROL  Within] operators. 
 
-![](../../assets/within_after_together.png) 
+![](assets/within_after_together.png) 
 
 ## Matches {#section_65923AB563864F18ABC9734130A8A7AA}
 
@@ -461,6 +461,6 @@ Any visitors hitting page A on June 1, 2013 are returning after June 15, 2013 00
 
 The [!UICONTROL  After] and [!UICONTROL  Within] operators can be used together to define a sequential segment. 
 
-![](../../assets/time_between_within_after.png) 
+![](assets/time_between_within_after.png) 
 
 This example depicts a second visit to hit page B after two weeks but within a month. 

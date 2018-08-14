@@ -3,7 +3,7 @@ description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metr
 seo-description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
 seo-title: Calculated Metrics
 title: Calculated Metrics
-uuid: 8e414966-fe8f-4263-a423-62e0a218907c
+uuid: ce8163b2-2b50-4ff4-a7bc-f7ac61e63668
 index: y
 internal: n
 snippet: y
@@ -23,11 +23,11 @@ In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
 ## Filter Calculated Metrics {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** calculated metrics by clicking on the Filter icon:  ![](../../../assets/segment_filter.png) . The Advanced Filters dialog is populated with both standard and calculated metrics. 
+**Filter** calculated metrics by clicking on the Filter icon:  ![](assets/segment_filter.png) . The Advanced Filters dialog is populated with both standard and calculated metrics. 
 
 Available filters include: 
 
-![](../../../assets/advanced_filters_(2).png) 
+![](assets/advanced_filters_(2).png) 
 
 |  Filter Name  | Description  |
 |---|---|
@@ -42,6 +42,6 @@ Available filters include:
 
 ## Apply Calculated Metrics {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click ** [!UICONTROL  Apply] ** to apply them to your request. The selected metric(s) are now added to the report layout. 
+After you have selected the filters, click **[!UICONTROL  Apply]** to apply them to your request. The selected metric(s) are now added to the report layout. 
 
-![](../../../assets/filtering_for_metric.png) 
+![](assets/filtering_for_metric.png) 

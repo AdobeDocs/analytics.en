@@ -5,7 +5,7 @@ seo-description: Active FTP vs. passive FTP controls how the port connections ar
 seo-title: Using Passive FTP Mode
 solution: Analytics
 title: Using Passive FTP Mode
-uuid: b9808434-506c-44d6-8088-99ec07569f06
+uuid: 76ae3687-b704-4124-8bff-afba18392edb
 index: y
 internal: n
 snippet: y

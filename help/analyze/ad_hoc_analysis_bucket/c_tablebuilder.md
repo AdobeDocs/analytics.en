@@ -3,7 +3,7 @@ description: Use the Table Builder to create a report with any configuration of 
 seo-description: Use the Table Builder to create a report with any configuration of metrics, dimensions, and segments. For example, you can add multiple metrics to the Table Builder, then apply segment to all of them at once. You can apply items from the tool panes as rows and breakdowns, or as columns, and easily pivot the table for a different view. After building the table, you can interact directly with the resulting data table for further analysis. Keep in mind that generating a data table from the Table Builder runs a query and creates a new data table.
 seo-title: Table Builder
 title: Table Builder
-uuid: b5d4c498-1ad9-467e-a994-efc5296506f8
+uuid: 626d405d-c5fb-4707-ab18-9f874e18dd55
 index: y
 internal: n
 snippet: y
@@ -36,11 +36,11 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Breakdown Properties</span> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img placement="inline" href="../assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Lets you specify default settings for how many rows and breakdowns you want displayed, based on the order in which you add items. You can specify how many total results per page to display, and how many of those rows to break down. </p> <p>Settings you make in the <span class="wintitle"> Table Builder</span> override the default settings in the <span class="wintitle"> Breakdown Properties</span>. </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img placement="inline" href="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Lets you specify default settings for how many rows and breakdowns you want displayed, based on the order in which you add items. You can specify how many total results per page to display, and how many of those rows to break down. </p> <p>Settings you make in the <span class="wintitle"> Table Builder</span> override the default settings in the <span class="wintitle"> Breakdown Properties</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit Items</span> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img href="../assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../ad_hoc_analysis_bucket/c_reports_configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Break Down Table Data</a>. </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img href="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../ad_hoc_analysis_bucket/c_reports_configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Break Down Table Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Columns</span> </td> 
@@ -56,7 +56,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> Warning </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_619E1068C6084D41853DA3DD6B85DFC9" href="../assets/AlertRed_Illustrative.png" placement="inline" /> </p> <p>Indicates that the <span class="wintitle"> Table Builder</span>'s configuration will not return data, or that no metrics are selected. </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img id="image_619E1068C6084D41853DA3DD6B85DFC9" href="assets/AlertRed_Illustrative.png" placement="inline" /> </p> <p>Indicates that the <span class="wintitle"> Table Builder</span>'s configuration will not return data, or that no metrics are selected. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,9 +68,9 @@ translate: y
 </wintitle>.
 <!-- t_table_builder.xml -->
 
->1. To access the [!UICONTROL  Table Builder], run a supported report, then click ** [!UICONTROL  Table Builder] **.
+>1. To access the [!UICONTROL  Table Builder], run a supported report, then click **[!UICONTROL  Table Builder]**.
 >1. Drag items (dimensions, metrics, segments) from the tool panes to the [!UICONTROL  Table Builder].
 >1. Configure the items as rows, breakdowns, and columns.
->1. Click ** [!UICONTROL  Replace Table] ** to generate the report.
->   Clicking ** [!UICONTROL  Replace Table] ** runs a new query and creates a new data table. Manual edits to the detail table are not reflected in the Table Builder. 
+>1. Click **[!UICONTROL  Replace Table]** to generate the report.
+>   Clicking **[!UICONTROL  Replace Table]** runs a new query and creates a new data table. Manual edits to the detail table are not reflected in the Table Builder. 
 >

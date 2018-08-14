@@ -5,7 +5,7 @@ seo-description: When you create an integration with an Adobe partner using data
 seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
-uuid: 75a93ea4-ae50-40f6-b3ac-55deeb47bf9e
+uuid: f06ed59f-8fdd-4ea6-abe0-761305dd2e69
 index: y
 internal: n
 snippet: y

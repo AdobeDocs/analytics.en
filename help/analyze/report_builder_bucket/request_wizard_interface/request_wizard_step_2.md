@@ -5,7 +5,7 @@ seo-title: Request Wizard Step 2
 solution: Analytics
 title: Request Wizard Step 2
 topic: Report builder
-uuid: 9007958c-fcf0-44e0-8e50-3c1a6799ae84
+uuid: 552a16b5-1078-40ac-a4e0-acecf00328e2
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Identifying Visitors
 solution: Analytics
 title: Identifying Visitors
 topic: Reports and analytics
-uuid: dde7e22d-f382-4be7-b84d-f5f2a8952fa9
+uuid: 938146ef-3c35-4fc9-9862-f7f39e3de74d
 index: y
 internal: n
 snippet: y
@@ -38,11 +38,11 @@ There are several ways a visitor can be identified in Analytics (listed in the f
 
 |  Order Used  | Query Parameter (collection method)  | post_visid_type column value  | Present When  |
 |---|---|---|---|
-|   ![](../../assets/step1_icon.png)  | [ vid (s.visitorID) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom)  | 0  | s.visitorID is set.  |
-|   ![](../../assets/step2_icon.png)  | [ aid (s_vi cookie) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics)  | 3  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a Visitor ID [ grace period ](http://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_grace_period) configured.  |
-|   ![](../../assets/step3_icon.png)  | [ mid (AMCV_ cookie set by Experience Cloud ID service) ](http://marketing.adobe.com/resources/help/en_US/mcvid/)  | 5  | Visitor's browser accepts cookies (first-party), and the Experience Cloud ID service is deployed.  |
-|   ![](../../assets/step4_icon.png)  | [ fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 4  | Visitor's browser accepts cookies (first-party).  |
-|   ![](../../assets/step5_icon.png)  | [ HTTP Mobile Subscriber header ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_mobile)  | 2  | Device is recognized as a mobile device.  |
-|   ![](../../assets/step6_icon.png)  | [ IP Address, User Agent, Gateway IP Address ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 1  | Visitor's browser does not accept cookies.  |
+|   ![](assets/step1_icon.png)  | [ vid (s.visitorID) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom)  | 0  | s.visitorID is set.  |
+|   ![](assets/step2_icon.png)  | [ aid (s_vi cookie) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics)  | 3  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a Visitor ID [ grace period ](http://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_grace_period) configured.  |
+|   ![](assets/step3_icon.png)  | [ mid (AMCV_ cookie set by Experience Cloud ID service) ](http://marketing.adobe.com/resources/help/en_US/mcvid/)  | 5  | Visitor's browser accepts cookies (first-party), and the Experience Cloud ID service is deployed.  |
+|   ![](assets/step4_icon.png)  | [ fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript) ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 4  | Visitor's browser accepts cookies (first-party).  |
+|   ![](assets/step5_icon.png)  | [ HTTP Mobile Subscriber header ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_mobile)  | 2  | Device is recognized as a mobile device.  |
+|   ![](assets/step6_icon.png)  | [ IP Address, User Agent, Gateway IP Address ](http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 1  | Visitor's browser does not accept cookies.  |
 
 In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from that list as the official visitor ID, and split that value across the ` post_visid_high` and ` post_visid_low` columns. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit. 

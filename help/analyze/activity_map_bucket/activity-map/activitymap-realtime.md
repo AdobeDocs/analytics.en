@@ -5,7 +5,7 @@ seo-title: Real-time (Live) page analytics
 solution: Analytics
 title: Real-time (Live) page analytics
 topic: Activity map
-uuid: 4190afdb-8de0-419c-8198-950dcd0b79a9
+uuid: 206029d9-3115-4f79-b582-26acf221b0f0
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ Activity Map now displays analytical data in 1 to 15 minute increments to monito
 
 As a site content owner, part of your job is to understand when to promote and remove content and keep our experience constantly relevant. Real-time data is the lifeblood of this responsibility. If you can understand what links and content are trending right now, you can act quickly and decisively to keep readers and customers engaged with your brand. 
 
-![](../../assets/live_mode.png) 
+![](assets/live_mode.png) 
 
 <!-- Describe what you can do with the feature: - what is the data shown? why do I see trend lines everywhere? how do I choose a period in the trend? what do the overlays represent in live mode? how do you compute the gainers and losers overlays? what is the auto update mode? -->
 

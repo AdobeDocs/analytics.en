@@ -6,7 +6,7 @@ seo-title: Run a cohort analysis report
 solution: Analytics
 title: Run a cohort analysis report
 topic: Reports and analytics
-uuid: cdb4ae6f-aa0c-490f-9b3a-4e11c59e95fd
+uuid: a673a799-df34-4d2d-95e6-42d367a9fffa
 index: y
 internal: n
 snippet: y
@@ -16,16 +16,16 @@ translate: y
 # Run a cohort analysis report
 
 
->1. In Analysis Workspace, click the ** [!UICONTROL  Panels] ** icon in the left rail and drag a ** [!UICONTROL  Blank Panel] ** to the canvas.
+>1. In Analysis Workspace, click the **[!UICONTROL  Panels]** icon in the left rail and drag a **[!UICONTROL  Blank Panel]** to the canvas.
 
->       ![](../../../assets/blank-panel.png)1. Click ** [!UICONTROL  Visualizations] ** in the left rail, then drag a ** [!UICONTROL  Cohort Table] ** to the canvas.
+>       ![](assets/blank-panel.png)1. Click **[!UICONTROL  Visualizations]** in the left rail, then drag a **[!UICONTROL  Cohort Table]** to the canvas.
 
->       ![](../../../assets/cohort_new.png) 
+>       ![](assets/cohort_new.png) 
 >1. Specify a date range.
->1. Add metrics to the ** [!UICONTROL  Inclusion] ** and ** [!UICONTROL  Return] ** fields.
+>1. Add metrics to the **[!UICONTROL  Inclusion]** and **[!UICONTROL  Return]** fields.
 >   These metrics group your users into a granularity buckets, based on an activity (such as placing an order). 
 
->   ![](../../../assets/cohort-table.png) 
+>   ![](assets/cohort-table.png) 
 
 
 
@@ -53,19 +53,19 @@ translate: y
 </table>
 
 >
->1. Click ** [!UICONTROL  Run Report] **.
+>1. Click **[!UICONTROL  Run Report]**.
 
->       ![Step Result](../../../assets/cohort-report.png) 
+>       ![Step Result](assets/cohort-report.png) 
 
->       The report shows visitors who placed an order ( * ` Included` * column), and who returned to your site in subsequent visits. The reduction in visits over time enables you to spot problems and take action. 
+>       The report shows visitors who placed an order ( *` Included`* column), and who returned to your site in subsequent visits. The reduction in visits over time enables you to spot problems and take action. 
 >1. (Optional) Create a segment from a selection.
->   Select cells (contiguous or noncontiguous), then right-click > ** [!UICONTROL  Create Segment From Selection] **. 
+>   Select cells (contiguous or noncontiguous), then right-click > **[!UICONTROL  Create Segment From Selection]**. 
 >
 
->       ![Step Result](../../../assets/cohort-segment-select.png) 
+>       ![Step Result](assets/cohort-segment-select.png) 
 
 >       This example segment would show all the visitors in January 2015, month 1 and 2. 
->1. On the [ Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build), further edit the segment, then click ** [!UICONTROL  Save] **.
+>1. On the [ Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build), further edit the segment, then click **[!UICONTROL  Save]**.
 
 >       The saved segment is available for use in the [!UICONTROL  Segment] panel in Analysis Workspace. 
 >1. Name and save your cohort project.

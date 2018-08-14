@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Freeform table
 title: Freeform table
-uuid: 1c1d28b6-28f7-4003-a2ed-c75023163169
+uuid: e372f903-2dfc-4f02-a556-faf315d95b40
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 In Analysis Workspace, a data table (Freeform Table) is not merely a report table but also an interactive visualization. You can interact with individual rows, a number of selected rows, or the entire table. 
 
-![](../../assets/data-table.png) 
+![](assets/data-table.png) 
 
 You can show up to 400 rows in a table. 
 

@@ -5,7 +5,7 @@ seo-title: Troubleshooting and best practices for Report Builder
 solution: Analytics
 title: Troubleshooting and best practices for Report Builder
 topic: Report builder
-uuid: 408c3a0a-5776-4c5c-b652-4721e03b6336
+uuid: 9bbbd00e-9e32-4f94-8bf0-6eb9dd5d50c7
 index: y
 internal: n
 snippet: y
@@ -185,8 +185,8 @@ Schedule larger, more complex requests in the early morning to allow for manual 
 
 Any scheduled report times out after four hours. The system attempts scheduling three more times, potentially resulting in a failure. (Generally, the larger the data set the longer it takes to run.) These can be seen in [!DNL  Analytics] reporting and Report Builder: 
 
-* [!DNL  Analytics]: ** [!UICONTROL  Favorites] ** > ** [!UICONTROL  Scheduled Reports] **
-* Report Builder: Click ** [!UICONTROL  Management] ** in the [!UICONTROL  Add-ins] tab in Excel.
+* [!DNL  Analytics]: **[!UICONTROL  Favorites]** > **[!UICONTROL  Scheduled Reports]**
+* Report Builder: Click **[!UICONTROL  Management]** in the [!UICONTROL  Add-ins] tab in Excel.
 
 ## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 

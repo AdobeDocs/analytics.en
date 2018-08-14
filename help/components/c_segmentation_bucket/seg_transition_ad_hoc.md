@@ -6,7 +6,7 @@ seo-title: Transition Guide for Ad Hoc Analysis
 solution: Analytics
 title: Transition Guide for Ad Hoc Analysis
 topic: Segments
-uuid: 626bd377-c7c9-4d24-962b-c83a56750a11
+uuid: f1491f04-50c4-4bfa-a65b-71a08fcc1dd2
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Links report
 solution: Analytics
 title: Links report
 topic: Activity map
-uuid: 801556a9-aaa0-44a8-8c99-5c360a65fd63
+uuid: 5a4e9b2a-0167-47fa-ba10-0b61405af08a
 index: y
 internal: n
 snippet: y
@@ -16,11 +16,11 @@ translate: y
 
 The Links On Page report offers a tabular view of the links. Sometimes you might want to see link clicks (or other metrics) ranked in a single view. This allows you to better compare one link to another. Create the Links On Page Report including a ranked list of all the links the page (by link ID), the click information (# and %) and the region in the page. Click the Links in Page report button in the Activity Map toolbar. 
 
-The ** [!UICONTROL  Links On Page] ** report opens below the browser frame in the Activity Map dashboard. 
+The **[!UICONTROL  Links On Page]** report opens below the browser frame in the Activity Map dashboard. 
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
-![](../../../assets/links_in_page.png) 
+![](assets/links_in_page.png) 
 
 In Standard Mode, the "Links on Page" Report shows link data ranging from single day to multi-day, aggregated over the full date range. The following information will be shown for each link: 
 
@@ -63,13 +63,13 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
 
 **Filter Data** 
 
-When you want to zero in on a specific link, you can search for a related term in the ** [!UICONTROL  Filter Data] ** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [ Activity Map Settings](c_Overlay_settings_panel.md#concept_7881624ACCF44F92985D4594080B9800) will be shown. 
+When you want to zero in on a specific link, you can search for a related term in the **[!UICONTROL  Filter Data]** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [ Activity Map Settings](c_Overlay_settings_panel.md#concept_7881624ACCF44F92985D4594080B9800) will be shown. 
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
 In Live mode, the Links on Page report shows trended data spanning several minutes. 
 
-![](../../../assets/links_on_page.png) 
+![](assets/links_on_page.png) 
 
 <table id="table_61D1FB0F02894055A1AB394DE4FE4742"> 
  <thead> 

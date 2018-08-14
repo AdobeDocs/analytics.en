@@ -6,7 +6,7 @@ seo-title: Frequently Asked Questions
 solution: Analytics
 title: Frequently Asked Questions
 topic: Segments
-uuid: 6b4c8f3a-c85e-477e-a012-3addadf26d73
+uuid: 094fab79-5ab5-487b-9ed0-cd775ff9609b
 index: y
 internal: n
 snippet: y
@@ -45,28 +45,28 @@ See the [ Improving Segmentation in Adobe Analytics ](http://blogs.adobe.com/dig
 
 You can access the Segment Builder by: 
 
-* Displaying an existing report and clicking the Segments icon  ![](../assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click ** [!UICONTROL  Add] **, or
-* At the top of the Segment Manager, clicking ** [!UICONTROL  + Add] **.  ![](../assets/add_button.png) or
+* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click **[!UICONTROL  Add]**, or
+* At the top of the Segment Manager, clicking **[!UICONTROL  + Add]**.  ![](assets/add_button.png) or
 * Clicking an existing segment title in the Segment Manager to edit the segment in the Segment Builder.
 **How do I get to the Segment Manager?** 
 
 Access the Segment Manager by: 
 
 
-* Going to  ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** in the top navigation. Then click ** [!UICONTROL  Segments] **, or
-* Displaying an existing report and clicking the Segments icon  ![](../assets/segment_icon.png) in the left navigation. Then click ** [!UICONTROL  Manage] **, or
+* Going to  **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** in the top navigation. Then click **[!UICONTROL  Segments]**, or
+* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL  Manage]**, or
 * Pressing the slash key '/' anywhere in the interface and searching for segment manager.
 
 
 **Where did the legacy segment drop-down go?** 
 
-The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [ Segment Builder ](../c_segmentation_bucket/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](../assets/segment_icon.png) in the left navigation and the segment rail displays. 
+The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [ Segment Builder ](../c_segmentation_bucket/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png) in the left navigation and the segment rail displays. 
 
 **Where did the legacy report suite drop-down go?** 
 
 The report suite drop-down has been moved next to the date selector in the top right-hand corner of each report or dashboard. 
 
-![](../assets/report_suite_selector.png) 
+![](assets/report_suite_selector.png) 
 
 ## Permissions {#section_648DFA3A882146C485A84ED014EEC707}
 
@@ -122,7 +122,7 @@ Your existing segments will continue to work as they did before. Any reports tha
 Most former pre-defined and suite segments will be migrated over as segment templates into the Segment Builder. Segment templates are used to quickly build custom segments with common audiences. Segment templates can't be applied to a report directly, but they can be easily saved to a custom segment. 
 
 Segment templates are marked with a special icon in Segment Builder: 
-![](../assets/seg_templates.png) **What happened to my existing segment folders?** 
+![](assets/seg_templates.png) **What happened to my existing segment folders?** 
 
 Instead of (Ad Hoc Analysis) folders, the Segment Manager uses tags. Your folder names are automatically converted to tags and those tags are applied to the respective segments. 
 
@@ -134,7 +134,7 @@ When you delete a segment, scheduled reports and dashboards that have this segme
 
 Scheduled reports do not update when you edit a segment with the same name. Here is an example: Let's suppose you have 2 segments with the same name in different report suites: 
 
-![](../assets/duplicate_seg_names.png) 
+![](assets/duplicate_seg_names.png) 
 
 You have a bookmark that references the segment for the mainprod report suite. Then you delete that segment because it’s a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the maindev segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. It will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment so it’s more clear whether the bookmark is using the remaining segment. 
 
@@ -349,4 +349,4 @@ The following dimensions were changed to enumerated lists:
 ## Changes to Integer-Based Dimensions that have Known Values {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Integer-based dimensions (such as browser width) with a known set of values were split into enumerated ranges so you can quickly define segments for a specific range. These enumerated lists are appended with " - Bucketed" after the dimension name. The following screen demonstrates how these dimensions are segmented using the previous and new segment builder interfaces: 
-![](../assets/seg_browser_dimension.png) The less than, greater than, and similar operators are now compatible with Data Warehouse segments only. Segments intended to be compatible with all reporting interfaces should use the "Bucketed" version of the metric with the equals operator. 
+![](assets/seg_browser_dimension.png) The less than, greater than, and similar operators are now compatible with Data Warehouse segments only. Segments intended to be compatible with all reporting interfaces should use the "Bucketed" version of the metric with the equals operator. 

@@ -3,7 +3,7 @@ description: An overview of the Reports menu in Reports & Analytics.
 seo-description: An overview of the Reports menu in Reports & Analytics.
 seo-title: Reports Menu
 title: Reports Menu
-uuid: a1ac4f27-6fdc-43dd-84de-21bfc325e47c
+uuid: 6fb9195d-41af-4c8b-a3b7-fcf28644096e
 index: y
 internal: n
 snippet: y
@@ -20,15 +20,15 @@ The Reports Menu provides:
 * Frequently viewed reports
 * Enhanced search
 
-![](../../assets/menu-mainnav.png) My Favorites, Frequently Viewed, and Report History are all report-suite specific. If you change report suites, all three lists will change. 
+![](assets/menu-mainnav.png) My Favorites, Frequently Viewed, and Report History are all report-suite specific. If you change report suites, all three lists will change. 
 
-Reports are navigated using a hierarchical column view. Click ** [!UICONTROL  View All Reports] **, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Press the Escape key to close the menu without changing the current report, or press Enter to load the selected report. 
-![](../../assets/reports-landing.png) For details on individual reports, see [ Report Descriptions ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions). 
+Reports are navigated using a hierarchical column view. Click **[!UICONTROL  View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Press the Escape key to close the menu without changing the current report, or press Enter to load the selected report. 
+![](assets/reports-landing.png) For details on individual reports, see [ Report Descriptions ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions). 
 
 ## Search for Reports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-The Reports menu provides an enhanced search experience. Click ** [!UICONTROL  View All Reports] ** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. The report search has been extended to include everything in the Analytics left navigation (Admin, Components, etc). 
-![](../../assets/menu-search.png) Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report. 
+The Reports menu provides an enhanced search experience. Click **[!UICONTROL  View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. The report search has been extended to include everything in the Analytics left navigation (Admin, Components, etc). 
+![](assets/menu-search.png) Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report. 
 
 >[!NOTE]
 >
@@ -47,19 +47,19 @@ The Reports menu provides an enhanced search experience. Click ** [!UICONTROL  V
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Experience Cloud Solutions Menu <img placement="inline" href="../../assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1"> Experience Cloud Solutions Menu <img placement="inline" href="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Toggle Reports Menu <img placement="inline" href="../../assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1"> Toggle Reports Menu <img placement="inline" href="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> Clicking this button expands or collapses the Reports menu so you can to view a report using the entire width of the browser window. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Segments <img placement="inline" href="../../assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /> </span> </td> 
+   <td colname="col1"> <span class="uicontrol"> Segments <img placement="inline" href="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /> </span> </td> 
    <td colname="col2"> Brings up the segment rail that lets you add or manage segments. You can also access the <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder </a> and <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager </a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="uicontrol"> Metrics <img placement="inline" href="../../assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /> </span> </td> 
+   <td colname="col1"> <span class="uicontrol"> Metrics <img placement="inline" href="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /> </span> </td> 
    <td colname="col2"> Brings up the metrics rail that lets you add or manage metrics and calculated metrics. </td> 
   </tr> 
   <tr> 
@@ -103,11 +103,11 @@ The Reports menu provides an enhanced search experience. Click ** [!UICONTROL  V
    <td colname="col2"> Lets you perform all or some of the following actions: print it, extract data from it, add an alert to it, create a custom report, copy a graph, link to this report, and open a new window. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Report Suite Selector <img placement="inline" href="../../assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1"> Report Suite Selector <img placement="inline" href="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2"> Lets you select <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html" format="https" scope="external"> base report suites </a> or <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external"> virtual report suites </a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Calendar <img placement="inline" href="../../assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1"> Calendar <img placement="inline" href="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2"> Brings up the <a href="../../reports_analytics_bucket/overview_(2)/report_overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local"> calendar </a> so you can determine the reporting period. </td> 
   </tr> 
  </tbody> 

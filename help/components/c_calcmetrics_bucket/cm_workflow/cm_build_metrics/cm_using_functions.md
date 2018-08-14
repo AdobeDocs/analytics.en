@@ -3,7 +3,7 @@ description: Functions let you filter/sort your data and do statistical analysis
 seo-description: Functions let you filter/sort your data and do statistical analysis.
 seo-title: Using Functions
 title: Using Functions
-uuid: 72f18809-ef27-4ee1-b964-6d6945299e0b
+uuid: beea549a-9d08-4789-954f-2147f23f0605
 index: y
 internal: n
 snippet: y

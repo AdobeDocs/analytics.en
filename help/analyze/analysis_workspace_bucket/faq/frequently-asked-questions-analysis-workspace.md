@@ -6,7 +6,7 @@ seo-title: Administration requirements
 solution: Analytics
 title: Administration requirements
 topic: Reports and analytics
-uuid: 5ec23044-eabd-43c6-a45e-a8ed1e1b9f8a
+uuid: 64226e23-0865-48dc-8093-126eedfdf449
 index: y
 internal: n
 snippet: y

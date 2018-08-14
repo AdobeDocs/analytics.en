@@ -5,7 +5,7 @@ seo-title: Paths Reports
 solution: Analytics
 title: Paths Reports
 topic: Ad hoc analysis
-uuid: 43dbff4d-b99e-4880-879d-f1460fff0458
+uuid: da3fe988-f402-440b-b3ce-5ccc6173c5ca
 index: y
 internal: n
 snippet: y
@@ -66,18 +66,18 @@ This report is useful to analyze:
 </wintitle>.
 <!-- t_fallout.xml -->
 
->1. Click ** [!UICONTROL  Reports] ** > ** [!UICONTROL  New Report] ** > ** [!UICONTROL  Fallout.] **
->   Other Fallout reports are found in ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Paths] **. 
+>1. Click **[!UICONTROL  Reports]** > **[!UICONTROL  New Report]** > **[!UICONTROL  Fallout.]**
+>   Other Fallout reports are found in **[!UICONTROL  Reports]** > **[!UICONTROL  Paths]**. 
 >
 >1. (Optional) Drag a segment to the [!UICONTROL  Drop Segment Here] field, if you want to filter the data by a specific segment.
 >1. Drag any dimension item to the [!UICONTROL  Drop Event or Dimension Items Here] field.
->1. Click ** [!UICONTROL  Show Fallout At] **Visit or Visitor level, depending on whether you want to view fallout at the visit level, or across visitor sessions.
+>1. Click **[!UICONTROL  Show Fallout At]**Visit or Visitor level, depending on whether you want to view fallout at the visit level, or across visitor sessions.
 >1. Add dimension items, such as pages, to the report.
 >## Assign Pages to a Fallout Report {#task_B386289703494FA7B5A40FF9F97CB537}
 >Steps to assign pages to a fallout report.
 <!-- t_fallout_assign_pages.xml -->
 
->1. Click ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Paths] ** > ** [!UICONTROL  Pages] ** > ** [!UICONTROL  Pages Fallout] **.
+>1. Click **[!UICONTROL  Reports]** > **[!UICONTROL  Paths]** > **[!UICONTROL  Pages]** > **[!UICONTROL  Pages Fallout]**.
 >1. From the [!UICONTROL  Dimensions] pane, locate the pages to add, then drag them to the [!UICONTROL  Drop Event or Dimension Here] field.
 >## Fallout Report - Field Descriptions {#reference_74255CC8D6134F349FEBFEC72934C866}
 >Field descriptions for the 
@@ -116,11 +116,11 @@ This report is useful to analyze:
    <td colname="col2"> <p>Adds all visits as the initial checkpoint. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Fallout <img id="image_57F85441864348DCA1B043E780611093" href="../assets/fallout_icon.png" /> </p> </td> 
+   <td colname="col1"> <p> Fallout <img id="image_57F85441864348DCA1B043E780611093" href="assets/fallout_icon.png" /> </p> </td> 
    <td colname="col2"> <p>Lets you see the pages viewed after the visitor fell out of the specified checkpoint path. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fallthrough <img id="image_BAEF6A484F624CE88E662A4F4189EAB1" href="../assets/fallthrough_icon.png" /> </p> </td> 
+   <td colname="col1"> <p>Fallthrough <img id="image_BAEF6A484F624CE88E662A4F4189EAB1" href="assets/fallthrough_icon.png" /> </p> </td> 
    <td colname="col2"> <p>Lets you see the pages viewed in the next step of the specified checkpoint path. </p> </td> 
   </tr> 
  </tbody> 

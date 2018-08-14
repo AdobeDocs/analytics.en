@@ -3,7 +3,7 @@ description: Configure users and learn about data sampling.
 seo-description: Configure users and learn about data sampling.
 seo-title: Administration
 title: Administration
-uuid: c986ec87-5eeb-439b-8f53-37bdbb9a030c
+uuid: d9a823a2-2448-4e3f-8fb3-e7247db50969
 index: y
 internal: n
 snippet: y
@@ -23,21 +23,21 @@ When the number of logged-in users exceeds the number of available licenses, a d
 <!-- t_user_licenses.xml -->
 
 >1. Log in to the [!DNL  Experience Cloud].
->1. Click ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] **.
->1. Click ** [!UICONTROL  Edit Groups] **.
+>1. Click **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]**.
+>1. Click **[!UICONTROL  Edit Groups]**.
 >   If your company has purchased user licenses, the [!UICONTROL  Ad Hoc Analysis License Users] group appears in the [!UICONTROL  Group Name] column. The number of available licenses for user logins is also shown. 
 >
->1. Click ** [!UICONTROL  Edit] **.
->1. Under [!UICONTROL  Assign User Logins], select the users you want to add to the group, then click ** [!UICONTROL  Add.] **
->1. Click ** [!UICONTROL  Save Group] **.
+>1. Click **[!UICONTROL  Edit]**.
+>1. Under [!UICONTROL  Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL  Add.]**
+>1. Click **[!UICONTROL  Save Group]**.
 >   The licensing system does not limit the number of users that are added to a group. There is limited concurrent usage to the number of user licenses purchased. 
 >
 >## Manage User Sessions {#task_868C3DD9CB3F45D19B98EEF60F5E0B32}
 >Steps that describe how an administrator can terminate a user's session. This feature does not prevent a terminated user from logging in again.
 <!-- t_managing_users.xml -->
 
->1. In marketing reports and analytics, click ** [!UICONTROL  Adobe Analytics] ** > ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] **, then click ** [!UICONTROL  Manage Users] **.
->1. Locate the user, then click ** [!UICONTROL  Terminate.] **
+>1. In marketing reports and analytics, click **[!UICONTROL  Adobe Analytics]** > **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]**, then click **[!UICONTROL  Manage Users]**.
+>1. Locate the user, then click **[!UICONTROL  Terminate.]**
 >   On the [!UICONTROL  Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list. 
 >
 >## Permissions {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
@@ -48,17 +48,17 @@ You set up access to report suites in the [!DNL  Administration Console]. You ca
 >Steps that describe how to grant non-admin users access to all report suites.
 <!-- t_permissions.xml -->
 
->1. Log in to the ** [!UICONTROL  Experience Cloud] **.
->1. Click ** [!UICONTROL  Adobe Analytics &amp;gt; Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Edit Groups] **.
->1. Click ** [!UICONTROL  All Report Access] **.
->1. In [!UICONTROL  Available Users], select the user, then click ** [!UICONTROL  Add.] **
->1. Click ** [!UICONTROL  Save Group] **.
+>1. Log in to the **[!UICONTROL  Experience Cloud]**.
+>1. Click **[!UICONTROL  Adobe Analytics &amp;gt; Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Edit Groups]**.
+>1. Click **[!UICONTROL  All Report Access]**.
+>1. In [!UICONTROL  Available Users], select the user, then click **[!UICONTROL  Add.]**
+>1. Click **[!UICONTROL  Save Group]**.
 >## Create Permission Groups {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 >Create permission groups for non-admin users for specific report suites.
 <!-- t_permission_groups.xml -->
 
->1. Log in to the ** [!UICONTROL  Experience Cloud] **.
->1. Click ** [!UICONTROL  Adone Analytics &amp;gt; Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Edit Groups] **.
+>1. Log in to the **[!UICONTROL  Experience Cloud]**.
+>1. Click **[!UICONTROL  Adone Analytics &amp;gt; Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Edit Groups]**.
 >1. Create a permissions group for non-admin users that includes the ad hoc analysis-activated report suites that you want accessible to users.
 >   The report suites available to the user are displayed in the [!UICONTROL  Report Cloud] menu when you create a new project. 
 >
@@ -68,9 +68,9 @@ You set up access to report suites in the [!DNL  Administration Console]. You ca
 Ad Hoc Analysis uses HTTP to communicate with the server. It is subject to the same proxy policies as other HTTP traffic. 
 
 >1. In the [!DNL  Windows Control Panel], launch the [!UICONTROL  Java Control Panel].
->1. On the ** [!UICONTROL  General] ** tab, click ** [!UICONTROL  Network Settings] **.
->1. Select ** [!UICONTROL  Use browser settings] **, or manually configure the proxy settings.
->1. Click ** [!UICONTROL  OK] **, then click ** [!UICONTROL  OK] ** on the [!UICONTROL  Java Control Panel].
+>1. On the **[!UICONTROL  General]** tab, click **[!UICONTROL  Network Settings]**.
+>1. Select **[!UICONTROL  Use browser settings]**, or manually configure the proxy settings.
+>1. Click **[!UICONTROL  OK]**, then click **[!UICONTROL  OK]** on the [!UICONTROL  Java Control Panel].
 >## How Data is Sampled {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 >Samples of visitor data is taken to produce meaningful, accurate reporting. The date range is used as the data slice for a loaded project. A slice typically represents the current month, plus the previous two months.
 <!-- c_overview_data_sampling.xml -->

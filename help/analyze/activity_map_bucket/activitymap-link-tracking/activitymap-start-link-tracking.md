@@ -5,7 +5,7 @@ seo-title: Start link tracking
 solution: Analytics
 title: Start link tracking
 topic: Activity map
-uuid: b51a7616-8eb2-4864-a3a7-3b3a167a5d2c
+uuid: e3684a8a-dcbe-4ebb-88d2-0126b720bdc2
 index: y
 internal: n
 snippet: y

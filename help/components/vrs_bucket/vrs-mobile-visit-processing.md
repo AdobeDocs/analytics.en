@@ -3,7 +3,7 @@ description: Context-Aware Sessions in virtual report suites change how Adobe An
 seo-description: Context-Aware Sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 seo-title: Context-Aware Sessions
 title: Context-Aware Sessions
-uuid: bdfa635f-e5ee-49c7-86fa-ec447a8c6b49
+uuid: 183c1180-57c7-40d9-a22e-1a124b75a7fe
 index: y
 internal: n
 snippet: y
@@ -33,11 +33,11 @@ The following examples outline the logic used in determining when a visit starts
 
 If this feature is not enabled for a virtual report suite, background hits are treated the same as any other hit, meaning they start new visits and act just the same as foreground hits. For example, if a background hit occurs less than 30 minutes (the standard session timeout for a report suite) before a set of foreground hits, the background hit is part of the session. 
 
-![](../assets/nogood1.jpg) 
+![](assets/nogood1.jpg) 
 
 If the background hit occurs more than 30 minutes prior to any foreground hits, the background hit creates its own visit, for a total visit count of 2. 
 
-![](../assets/nogood2.jpg) 
+![](assets/nogood2.jpg) 
 
 ** If "Prevent Background Hits from starting a new Visit" is enabled:** 
 
@@ -45,15 +45,15 @@ The following examples illustrate the behavior of background hits when this feat
 
 : A background hit occurs some time period (t) prior to a series of foreground hits. 
 
-![](../assets/nogoodexample1.jpg) 
+![](assets/nogoodexample1.jpg) 
 
 In this example, if *t* is greater than the virtual report suite's configured visit timeout, then the background hit is excluded from the visit formed by the foreground hits. For example, if the virtual report suite visit timeout was set to 15 minutes, and *t* was 20 minutes, the visit formed by this series of hits (shown by the green outline) would exclude the background hit. This means that any eVars set with a "visit" expiration on the background hit would **not** persist into the following visit, and a visit segment container would only include the foreground hits inside the green outline. 
 
-![](../assets/nogoodexample1-2.jpg) 
+![](assets/nogoodexample1-2.jpg) 
 
 Conversely, if *t* is less than the virtual report suite's configured visit timeout, the background hit is included as part of the visit as if it were a foreground hit (shown by the green outline): 
 
-![](../assets/nogoodexample1-3.jpg) 
+![](assets/nogoodexample1-3.jpg) 
 
 This means that: 
 
@@ -66,15 +66,15 @@ In both cases, the total visit count would be 1.
 
 : If a background hit occurs after a series of foreground hits, the behavior is similar: 
 
-![](../assets/nogoodexample2.jpg) 
+![](assets/nogoodexample2.jpg) 
 
 If the background hit occurs after the virtual report suite's configured timeout, the background hit is not part of a session (outlined in green): 
 
-![](../assets/nogoodexample2-1.jpg) 
+![](assets/nogoodexample2-1.jpg) 
 
 Likewise, if the time period *t* was less than the virtual report suite's configured timeout, the background hit is included in the visit formed by the previous foreground hits: 
 
-![](../assets/nogoodexample2-2.jpg) 
+![](assets/nogoodexample2-2.jpg) 
 
 This means that: 
 
@@ -87,37 +87,37 @@ As before, the total visit count in either case would be 1.
 
 : In some circumstances, a background hit can cause what were two separate visits to be combined into a single visit. In the following scenario, a background hit is preceded and followed by a series of foreground hits: 
 
-![](../assets/nogoodexample3.jpg) 
+![](assets/nogoodexample3.jpg) 
 
 If, in this example, *t1* and *t2* are both less than the virtual report suite configured visit timeout, all of these hits would be combined into a single visit, even if *t1* and *t2* together are greater than the visit timeout: 
 
-![](../assets/nogoodexample3-1.jpg) 
+![](assets/nogoodexample3-1.jpg) 
 
 If, however, *t1* and *t2* are greater than the virtual report suite configured timeout, these hits would be separated into two distinct visits: 
 
-![](../assets/nogoodexample3-2.jpg) 
+![](assets/nogoodexample3-2.jpg) 
 
 Likewise (as in our previous examples), if *t1* is less than the timeout and *t2* is less than the timeout the background hit would be included in the first visit: 
 
-![](../assets/nogoodexample3-3.jpg) 
+![](assets/nogoodexample3-3.jpg) 
 
 If *t1* is greater than the timeout and *t2* is less than the timeout, then the background hit would be included in the second visit: 
 
-![](../assets/nogoodexample3-4.jpg) 
+![](assets/nogoodexample3-4.jpg) 
 
 : In scenarios where a series of background hits occur within the virtual report suite visit timeout period, the hits form an invisible "background visit" that does not count toward the visit count and is not accessible using a visit segmentation container. 
 
-![](../assets/nogoodexample4.jpg) 
+![](assets/nogoodexample4.jpg) 
 
 Even though this is not considered a visit, any eVars set that have visit expiration persist their values to the other the background hits in this "background visit". 
 
 : For scenarios where multiple background hits occur in succession following a series of foreground hits, it's possible (depending on the timeout setting) that the background hits keep a visit alive longer than the visit timeout period. For example, if *t1* and *t2* together were greater than the virtual report suite visit timeout but individually less than the timeout, the visit would still extend to include both background hits: 
 
-![](../assets/nogoodexample5.jpg) 
+![](assets/nogoodexample5.jpg) 
 
 Likewise, if a series of background hits happen prior to a series of foreground events, similar behavior occurs: 
 
-![](../assets/nogoodexample5-1.jpg) 
+![](assets/nogoodexample5-1.jpg) 
 
 Background hits behave in this manner in order to preserve any attribution effects from eVars or other variables set during background hits. This allows downstream foreground conversion events to be attributed to actions taken while an app was in the background state. It also allows a visit segment container to include background hits that resulted in a downstream foreground session which is useful for measuring push message effectiveness. 
 

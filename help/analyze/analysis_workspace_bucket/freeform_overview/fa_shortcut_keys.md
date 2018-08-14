@@ -6,7 +6,7 @@ seo-title: Hotkeys available in Analysis Workspace
 solution: Analytics
 title: Hotkeys available in Analysis Workspace
 topic: Reports and analytics
-uuid: 52f4e1da-ed9d-4be6-b62b-f396f3387bb9
+uuid: 4cee9cce-6e58-4b88-a16f-045b023fed35
 index: y
 internal: n
 snippet: y

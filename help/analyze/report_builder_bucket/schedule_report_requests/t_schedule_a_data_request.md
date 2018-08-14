@@ -5,7 +5,7 @@ seo-title: Schedule a data request
 solution: Analytics
 title: Schedule a data request
 topic: Report builder
-uuid: 964edcde-61ba-48d8-b08b-991ec4709dfe
+uuid: 61fa4fc2-4e1a-404e-85ab-b1217af492f4
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,13 @@ translate: y
 **To schedule a data request** 
 
 >1. Generate and save a report.
->1. On the Report Builder Toolbar, click ** [!UICONTROL  Schedule] **.
+>1. On the Report Builder Toolbar, click **[!UICONTROL  Schedule]**.
 
 >       The [!UICONTROL  Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks. 
->1. On the ** [!UICONTROL  Scheduled Reports] ** tab, click ** [!UICONTROL  New] **.
+>1. On the **[!UICONTROL  Scheduled Reports]** tab, click **[!UICONTROL  New]**.
 >1. The Basic Scheduling Wizard displays:
 
->       ![](../../assets/simple-schedule-wizard.png)1. In the [!UICONTROL  Basic Scheduling Wizard], configure the following options:
+>       ![](assets/simple-schedule-wizard.png)1. In the [!UICONTROL  Basic Scheduling Wizard], configure the following options:
 
 
 >    <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
@@ -73,7 +73,7 @@ translate: y
  </tbody> 
 </table>
 
->1. Click ** [!UICONTROL  Advanced Delivery Options] ** to configure file and publishing options:
+>1. Click **[!UICONTROL  Advanced Delivery Options]** to configure file and publishing options:
 
 
 >    <table id="table_1BA8A5600DE94A33B83B096E69CE15F3"> 
@@ -140,6 +140,6 @@ translate: y
  </tbody> 
 </table>
 
->1. Click ** [!UICONTROL  OK] **, then click ** [!UICONTROL  Exit] **.
+>1. Click **[!UICONTROL  OK]**, then click **[!UICONTROL  Exit]**.
 
 >       Report Builder displays the scheduled report in the [ Scheduled Task Manager](../../report_builder_bucket/schedule_report_requests/r_arb_scheduled_reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31). 

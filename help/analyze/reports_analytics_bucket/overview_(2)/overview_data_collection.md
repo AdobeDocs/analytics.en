@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Get started
 title: About Data Collection
 topic: Reports and analytics
-uuid: 451d653a-999f-469f-a7ee-5c43c984769a
+uuid: 60c54225-3637-4a96-84f9-cc985a2cc7f7
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ Every page Adobe tracks has a small snippet of Adobe-authorized JavaScript code.
 
 At a high level, the data collection process flows as follows: 
 
-![](../../assets/data_collection.png) 
+![](assets/data_collection.png) 
 
 
 1. A visitor visits a web page that contains the data collection code.

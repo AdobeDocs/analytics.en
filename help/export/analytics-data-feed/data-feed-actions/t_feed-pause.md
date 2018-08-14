@@ -5,7 +5,7 @@ seo-description: You can pause an active feed.
 seo-title: Pause a Feed
 solution: Analytics
 title: Pause a Feed
-uuid: 918e6f47-9b8a-4423-8154-378d47ee4397
+uuid: 716feecf-379d-403e-af5f-0d2a5ee89338
 index: y
 internal: n
 snippet: y
@@ -17,5 +17,5 @@ translate: y
 When you pause a feed, current jobs will finish processing and no new jobs will be started. The Feed Status is changed to "Inactive." 
 
 >1. Select one or more feeds.
->1. Click ** [!UICONTROL  Pause] **.
+>1. Click **[!UICONTROL  Pause]**.
 

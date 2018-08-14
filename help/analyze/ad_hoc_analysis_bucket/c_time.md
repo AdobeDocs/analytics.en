@@ -3,7 +3,7 @@ description: Time is a reporting dimension useful for trending over hours, days,
 seo-description: Time is a reporting dimension useful for trending over hours, days, weeks, and date ranges. For example, a Products Report displays how much revenue a product made during the selected date range. You can add a Day dimension to see the trend across each day of the reporting period. Time provides granularity settings of Hour, Day, Week, Month, Quarter, and Year. Date range presets include settings such as Today, Yesterday, and Last 7 Days.
 seo-title: Time
 title: Time
-uuid: 82248375-bbf1-410a-8e28-04641eb23f49
+uuid: f64e403f-ab20-452e-9c96-f60cb3487ea5
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 This example shows a trended Day dimension with revenue. 
 
-![](../assets/day_dimension.png) 
+![](assets/day_dimension.png) 
 >## Time - Definitions {#reference_6E718B78E437438E825DB9262086A987}
 >In the Time pane, you can select date ranges and trending presets, then drag your selections to the 
 <wintitle>

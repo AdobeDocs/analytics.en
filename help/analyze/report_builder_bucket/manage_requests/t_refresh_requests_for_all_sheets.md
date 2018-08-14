@@ -5,7 +5,7 @@ seo-title: Refresh requests for all sheets
 solution: Analytics
 title: Refresh requests for all sheets
 topic: Report builder
-uuid: 81fbf92b-c9f4-4053-91e8-ab37ff59cae4
+uuid: 0b9be7e2-8529-4290-acd1-11362828db86
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ In order to refresh all requests, you must have access to all the report suites 
 
 When you refresh multiple requests, the system gathers and prioritizes requests based on whether a request is an original or dependent one. The system displays messages about the refresh progress. The refresh process can take up to several minutes, depending on the amount of data you are requesting. 
 
->1. Click ** [!UICONTROL  Manage] **.
->1. Enable ** [!UICONTROL  All Sheets] **.
->1. Click ** [!UICONTROL  Refresh] **.
->1. Specify a date reference, then click ** [!UICONTROL  OK] **.
+>1. Click **[!UICONTROL  Manage]**.
+>1. Enable **[!UICONTROL  All Sheets]**.
+>1. Click **[!UICONTROL  Refresh]**.
+>1. Specify a date reference, then click **[!UICONTROL  OK]**.

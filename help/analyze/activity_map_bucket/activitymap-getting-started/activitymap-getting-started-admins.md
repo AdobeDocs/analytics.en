@@ -5,7 +5,7 @@ seo-title: Getting started for admins
 solution: Analytics
 title: Getting started for admins
 topic: Activity map
-uuid: 884316cf-8349-4347-925d-401e7c551a07
+uuid: 72c11e57-b024-4bf6-8648-b7faacc83978
 index: y
 internal: n
 snippet: y

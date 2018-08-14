@@ -5,7 +5,7 @@ seo-title: Traffic Sources Reports
 solution: Analytics
 title: Traffic Sources Reports
 topic: Ad hoc analysis
-uuid: e550f71a-b9db-4c35-9331-9cf62289f0b5
+uuid: efe185f4-bd3d-466c-93cf-241bec50b634
 index: y
 internal: n
 snippet: y

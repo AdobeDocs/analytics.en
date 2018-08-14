@@ -5,7 +5,7 @@ seo-description: The Feed Destination section defines how the feed is distribute
 seo-title: Feed Destination
 solution: Analytics
 title: Feed Destination
-uuid: a0e3b7c8-8c54-444e-a9c7-6dc04d6a4b79
+uuid: 11d2e722-6ea0-4ace-89c4-af4ba0d5afb9
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ Data feed data can be delivered to an Adobe or customer hosted FTP location.
 
 If you select to have data uploaded to your FTP server, you must provide Adobe with the appropriate username, password, and upload path. You must implement your own process to manage disk space on the server, as Adobe does not delete any data from the server. 
 
-![](../../assets/dest-ftp.jpg) 
+![](assets/dest-ftp.jpg) 
 
 ## SFTP {#section_8D9215E441474D2BBC56228C2BC926E5}
 
@@ -40,7 +40,7 @@ If you select to have data uploaded to your FTP server, you must provide Adobe w
 <!-- Adobe Customer Care will provide you with a Public key. Verify in recording. -->
 You must implement your own process to manage disk space on the server, as Adobe does not delete any data from the server.
 
-![](../../assets/dest-sftp.jpg) 
+![](assets/dest-sftp.jpg) 
 
 ## Amazon S3 {#section_4191CD7B8D3F419EB850B286B542C14A}
 
@@ -48,7 +48,7 @@ You can upload your files to an Amazon S3 bucket. Amazon automatically encrypts 
 
 If you select to have data uploaded via Amazon S3, you must provide a Bucket name, an Access Key ID, a Secret Key and a folder name. 
 
-![](../../assets/dest-s3.jpg) 
+![](assets/dest-s3.jpg) 
 
 Data Feeds communicates to the following 11 standard AWS regions (using the appropriate signature algorithm where necessary): 
 
@@ -69,7 +69,7 @@ We currently do not support the Beijing, China AWS region (cn-north-1).
 
 You can upload your files to an Azure Blob. 
 
-![](../../assets/azure.png) 
+![](assets/azure.png) 
 
 ## Fields {#section_AD54B41BC7C945DC85F5FB8FCD4A4792}
 

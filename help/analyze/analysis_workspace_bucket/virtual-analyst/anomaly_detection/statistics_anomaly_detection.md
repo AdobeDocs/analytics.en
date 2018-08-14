@@ -3,7 +3,7 @@ description: Anomaly detection in Analysis Workspace uses a series of advanced s
 seo-description: Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
 seo-title: Statistical techniques used in anomaly detection
 title: Statistical techniques used in anomaly detection
-uuid: 454681a3-f10b-456c-83e1-c587831d135b
+uuid: 2463048e-8222-4cb2-912a-ee4bd215a6e1
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ Once the model has been selected and holidays have been identified in the report
 
 Notice the dramatic improvement of performance on Christmas Day and New Year’s Day in the following example: 
 
-![](../../../assets/anomaly_statistics.png) 
+![](assets/anomaly_statistics.png) 
 
 ## Anomaly detection for hourly granularity {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
 

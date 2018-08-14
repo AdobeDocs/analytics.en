@@ -6,7 +6,7 @@ seo-title: Cohort analysis use cases
 solution: Analytics
 title: Cohort analysis use cases
 topic: Reports and analytics
-uuid: 3cc8ae78-1292-4069-bfeb-68df42a001ec
+uuid: 46479886-f84f-4764-9087-fa1225e71606
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ You can create a six-month cohort analysis
 
 **Return metric**: Sessions or Launches 
 
-Visitors do not count as * ` engaged` * in subsequent months unless they are having a session or at least launching the app. Cohort analysis would then show you patterns in usage where * ` App Install` * always occurs on Month 0. You might notice that usage dips in Month 2, regardless of when users installed the app. (For those who installed the app in January 2015, Month 2 is March 2015. For those who installed the app in February 2015, Month 2 is April 2015, and so on.) This analysis allows you send an email or a push message to all users during the second month after they install the app to remind them to use the app. 
+Visitors do not count as *` engaged`* in subsequent months unless they are having a session or at least launching the app. Cohort analysis would then show you patterns in usage where *` App Install`* always occurs on Month 0. You might notice that usage dips in Month 2, regardless of when users installed the app. (For those who installed the app in January 2015, Month 2 is March 2015. For those who installed the app in February 2015, Month 2 is April 2015, and so on.) This analysis allows you send an email or a push message to all users during the second month after they install the app to remind them to use the app. 
 
 ## Subscription use case {#section_FDECB16766CF415BB84AE46BA491FB5F}
 

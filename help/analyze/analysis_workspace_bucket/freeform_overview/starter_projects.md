@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Templates
 title: Templates
-uuid: 1b261476-c1ac-42df-a6b9-e33efceb27b2
+uuid: bc6b4265-b470-400b-acb7-d931de552479
 index: y
 internal: n
 snippet: y
@@ -17,8 +17,8 @@ translate: y
 
 * A blank project (default). For instructions, see [ Create an Analysis Workspace Project ](../../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2).
 * A standard template. These templates are created by Adobe and ship out of the box.
-* A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the Create/Curate Projects in Analysis Workspace permission. (  ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Groups] ** > ** [!UICONTROL  Edit All Report Access] ** > ** [!UICONTROL  Customize Analytics Tools] ** > ** [!UICONTROL  Create/Curate Projects in Analysis Workspace] **
-![](../../assets/start_modal.png) 
+* A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the Create/Curate Projects in Analysis Workspace permission. (  **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Groups]** > **[!UICONTROL  Edit All Report Access]** > **[!UICONTROL  Customize Analytics Tools]** > **[!UICONTROL  Create/Curate Projects in Analysis Workspace]**
+![](assets/start_modal.png) 
 
 * [ Create a custom template ](../../analysis_workspace_bucket/freeform_overview/starter_projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [ Standard templates ](../../analysis_workspace_bucket/freeform_overview/starter_projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
@@ -26,21 +26,21 @@ translate: y
 >Short DescriptionUsers with admin rights can turn any project they create into a custom template. Here's how: 
 
 >1. Open the project.
->1. Go to ** [!UICONTROL  Project] ** > ** [!UICONTROL  Save As Template] **.
+>1. Go to **[!UICONTROL  Project]** > **[!UICONTROL  Save As Template]**.
 
->       ![](../../assets/save_project_template.png) 
+>       ![](assets/save_project_template.png) 
 
 >       The project will be saved under the current project name, followed by the word (Template) in parentheses. Admins can change this name by editing the template. 
 
 
 >       >[!NOTE]
 >       >
->       >By default, project templates are visible to everyone in your organization. You can organize them by applying tags. (Go to ** [!UICONTROL  Project] ** > ** [!UICONTROL  Project Info &amp;amp; Settings] ** to edit tags and descriptions.) 
+>       >By default, project templates are visible to everyone in your organization. You can organize them by applying tags. (Go to **[!UICONTROL  Project]** > **[!UICONTROL  Project Info &amp;amp; Settings]** to edit tags and descriptions.) 
 
 
 >       **Actions you can perform on custom templates** 
 
->       ![](../../assets/custom_templates.png) 
+>       ![](assets/custom_templates.png) 
 
 >    <table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
  <thead> 

@@ -5,7 +5,7 @@ seo-title: Building Segments
 solution: Analytics
 title: Building Segments
 topic: Segments
-uuid: 012873ba-68fe-47e8-850e-3000fdc76115
+uuid: d0219981-ad83-4080-9a50-e142dfcc9e71
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ There are several ways to access the Segment Builder:
      <ignoretag> 
       <span class="uicontrol"> Analytics </span>  &gt; 
       <span class="uicontrol"> Reports </span> 
-     </ignoretag>, open an existing report and click the Segments icon <img placement="inline" href="../../assets/segment_icon.png" width="30px" id="image_BDB37383C57D41A48CD50CA8BB9415EC" /> in the left navigation, then click <span class="uicontrol"> Add </span>. </p> </td> 
+     </ignoretag>, open an existing report and click the Segments icon <img placement="inline" href="assets/segment_icon.png" width="30px" id="image_BDB37383C57D41A48CD50CA8BB9415EC" /> in the left navigation, then click <span class="uicontrol"> Add </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
@@ -84,10 +84,10 @@ The [!UICONTROL  Segment Builder] lets you build and edit segments in the web UI
 
 Access the Segment Builder by 
 
-* Displaying an existing report and clicking the Segments icon  ![](../../assets/segment_icon.png) in the left navigation. In the segment rail that displays, click ** [!UICONTROL  Add] **.
-* From within the Segment Manager, clicking ** [!UICONTROL  + Add] **.
+* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. In the segment rail that displays, click **[!UICONTROL  Add]**.
+* From within the Segment Manager, clicking **[!UICONTROL  + Add]**.
 * Clicking an existing segment title in the Segment Manager to edit the segment in Segment Builder.
-![](../../assets/segment_builder_ui.png) 
+![](assets/segment_builder_ui.png) 
 
 <table id="table_FE6396F0BFDF4B7A9695CBD614F65654"> 
  <thead> 
@@ -216,7 +216,7 @@ Access the Segment Builder by
   <tr> 
    <td colname="col1" valign="top" align="center"> (not shown in screen shot) </td> 
    <td colname="col2" valign="top"> <p> <span class="wintitle"> Publish to Experience Cloud (for &amp;lt;report suite name&amp;gt;) </span> </p> </td> 
-   <td colname="col3"> <p>This option appears only if the report suite that you are saving this segment to is <a href="../../c_segmentation_bucket/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01" format="dita" scope="local"> enabled for the Experience Cloud </a>. By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. </p> <p>Note:  In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe Target. </p> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/segment_publish_to_mac_copy.png" id="image_389C00CDF56C4CDA960C7FEF8816CFD7" /> </p> <p> <p type="important">Note:  You must limit the number of audiences shared from Analytics to 20 to avoid additional processing delays. Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million unique members. Also, due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud. </p> </p> <p> <p type="important">Note:  Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Media Optimizer, and Campaign. </p> </p> </td> 
+   <td colname="col3"> <p>This option appears only if the report suite that you are saving this segment to is <a href="../../c_segmentation_bucket/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01" format="dita" scope="local"> enabled for the Experience Cloud </a>. By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. </p> <p>Note:  In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe Target. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/segment_publish_to_mac_copy.png" id="image_389C00CDF56C4CDA960C7FEF8816CFD7" /> </p> <p> <p type="important">Note:  You must limit the number of audiences shared from Analytics to 20 to avoid additional processing delays. Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million unique members. Also, due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud. </p> </p> <p> <p type="important">Note:  Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Media Optimizer, and Campaign. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -227,38 +227,38 @@ Access the Segment Builder by
 
 1. Simply drag a Dimension, Segment, or Metric Event from the left pane to the [!UICONTROL  Definitions] field. 
 
-   ![](../../assets/drag_n_drop_dimension.png) 
+   ![](assets/drag_n_drop_dimension.png) 
 
-   The default top-level [!UICONTROL  Hit] container is shown after dragging an element to [!UICONTROL  Definitions]. You can change the container type to Visit or Visitor from the ** [!UICONTROL  Show] ** drop-down menu. 
+   The default top-level [!UICONTROL  Hit] container is shown after dragging an element to [!UICONTROL  Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL  Show]** drop-down menu. 
 
 1. Set the [ operator ](../../c_segmentation_bucket/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu.
 1. Enter or select a value for the item selected.
-1. Add additional containers if needed, using ** [!UICONTROL  And] **, ** [!UICONTROL  Or] **, or ** [!UICONTROL  Then] ** rules.
+1. Add additional containers if needed, using **[!UICONTROL  And]**, **[!UICONTROL  Or]**, or **[!UICONTROL  Then]** rules.
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created.
-1. Under ** [!UICONTROL  Tags] **, [ tag ](../../c_segmentation_bucket/seg_workflow/seg_tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
-1. Click ** [!UICONTROL  Save] ** to save the segment.
+1. Under **[!UICONTROL  Tags]**, [ tag ](../../c_segmentation_bucket/seg_workflow/seg_tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
+1. Click **[!UICONTROL  Save]** to save the segment.
 You are now taken to the [ Segment Manager ](../../c_segmentation_bucket/seg_workflow/seg_manage.md#concept_7A2E019317864065B7C641DC3315928F), where you can tag, share, and manage your segment in multiple ways. 
 
 ## Build and Nest Containers {#section_1C38F15703B44474B0718CEF06639EFD}
 
 You can[ build a framework of containers ](../../c_segmentation_bucket/seg_overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) and then place logic rules and operators between. 
-1. Click ** [!UICONTROL  Options &amp;gt; Add Container] **. ![](../../assets/add_container.png) 
+1. Click **[!UICONTROL  Options &amp;gt; Add Container]**. ![](assets/add_container.png) 
 
    A new [!UICONTROL  Hit] container opens without a [!UICONTROL  Hit] (Page View) identified. 
 
-   ![](../../assets/new_container.png) 
+   ![](assets/new_container.png) 
 
 1. Change the container type as needed.
 1. Drag a Dimension, Segment, or Event from the left pane to the container.
-1. Continue to add new containers from the top-level ** [!UICONTROL  Options] ** > ** [!UICONTROL  Add container] ** button at the top of the definition, or add containers from within a container to nest logic. **OR** 
+1. Continue to add new containers from the top-level **[!UICONTROL  Options]** > **[!UICONTROL  Add container]** button at the top of the definition, or add containers from within a container to nest logic. **OR** 
 
-   Select one or more rules and then click ** [!UICONTROL  Options] ** > ** [!UICONTROL  Add container from selection] **. This turns your selection into a separate container. 
+   Select one or more rules and then click **[!UICONTROL  Options]** > **[!UICONTROL  Add container from selection]**. This turns your selection into a separate container. 
 
 For example, you can easily build a segment that includes “everyone who has made a purchase over the past 60 days”. 
 
 You create a Visit container and within it, add the [!UICONTROL  Last 60 days] time range and the metric [!UICONTROL  Orders is greater than or equal to 1], with an AND operator: 
 
-![](../../assets/date-ranges.png) 
+![](assets/date-ranges.png) 
 For example, stacking a "mobile phone users" segment and a "US geography" segment would return data only for mobile phone users in the US. 
 
 Think of these segments as building blocks or modules that you can include in a segment library, for users to use as they see fit. That way, you can dramatically reduce the number of segments needed. For example, assume you have 40 segments: 
@@ -277,13 +277,13 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 1. Go to the Segment Builder.
 1. Provide a title and description for the segment.
-1. Click ** [!UICONTROL  Show Segments] ** to bring up the list of segments in the left navigation.
-1. Drag and drop the segments you want to stack to the segment definition canvas. Here is an example of a segment that stacks the existing segments "Visits from Tablets" and "US Geo": ![](../../assets/seg_stack2.png) 
+1. Click **[!UICONTROL  Show Segments]** to bring up the list of segments in the left navigation.
+1. Drag and drop the segments you want to stack to the segment definition canvas. Here is an example of a segment that stacks the existing segments "Visits from Tablets" and "US Geo": ![](assets/seg_stack2.png) 
 
 1. Save the segment.
-In the Segment Manager, click ** [!UICONTROL  Add] **, which takes you to the Segment Builder. Now click the Segments icon  ![](../../assets/segment_icon.png) to bring up the segment rail. The segment templates appear at the bottom of the segment list. They are distinguishable by a folder icon to the left of the template name: 
+In the Segment Manager, click **[!UICONTROL  Add]**, which takes you to the Segment Builder. Now click the Segments icon  ![](assets/segment_icon.png) to bring up the segment rail. The segment templates appear at the bottom of the segment list. They are distinguishable by a folder icon to the left of the template name: 
 
-![](../../assets/seg_template.png) 
+![](assets/seg_template.png) 
 
 You can drag these templates into the Definitions canvas and use them as they have been defined, or modify them. 
 
@@ -374,20 +374,20 @@ Many customers want to see metrics from visitors who responded to specific campa
 
 Building this segment in the Segment Builder means that from a top-level Visit container, you drag in a campaign dimension, in this case Campaign Name: 
 
-![](../../assets/seg_campaign_visitor.png) 
+![](assets/seg_campaign_visitor.png) 
 
 (Optional) You can also apply a Campaigns tag to this segment, if you wish to easily filter on all your campaign-related segments. 
 For a more detailed example with screenshots, go [ here ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html). 
 
 1. In Analysis Workspace, create a Fallout report that includes the dimension you want to use for your segment.
-1. Right-click the dimension in the Fallout report and select ** [!UICONTROL  Create segment from touchpoint] **.
+1. Right-click the dimension in the Fallout report and select **[!UICONTROL  Create segment from touchpoint]**.
 1. In the [!UICONTROL  Segment Builder], name the segment, enter a description, change rules, add to logic, and then save.
 
 ## Ad Hoc Analysis Features {#section_0C6917B396444E91A54370FFB4AE74A5}
 
 The [!UICONTROL  Segment Builder] for Ad Hoc Analysis includes features built on Java libraries but contains the same features as the web console. Like the web console, it allows you to drop elements from the left panes to the [!UICONTROL  Segment canvas] and then run against the data set. 
 
-![](../../assets/UI_overview.png) 
+![](assets/UI_overview.png) 
 
 |   | Feature  | Description  |
 |---|---|---|
@@ -403,7 +403,7 @@ The [!UICONTROL  Segment Builder] for Ad Hoc Analysis includes features built on
 |  ** 10** | [!UICONTROL  Move handle]  | Highlights a section and lets you reposition it within the [!UICONTROL  Segment canvas].  |
 |  ** 11 ** | [!UICONTROL  And/Or] menu  | Assigns the [!UICONTROL  AND/OR] operator between containers.  |
 |  ** 12** | [!UICONTROL  Segment Canvas]  | The work area is where you build and configure segments, add rules, and nest and sequence containers.  |
-|  ** 13 ** | [!UICONTROL  Execute] button  | Click the [!UICONTROL  Run] icon  ![](../../assets/update_icon.png) to run the segment against the data set. If invalid, the button will not be active and the tool tip will define the error.  |
+|  ** 13 ** | [!UICONTROL  Execute] button  | Click the [!UICONTROL  Run] icon  ![](assets/update_icon.png) to run the segment against the data set. If invalid, the button will not be active and the tool tip will define the error.  |
 |  ** 14** | [!UICONTROL  Report visuals]  | Presents a pie chart to show number and percentage of [!UICONTROL  Page Views], [!UICONTROL  Visits], and [!UICONTROL  Visitors] for a segment run against a data set.  |
 |  ** 15 ** | [!UICONTROL  Save] button  | Saves the segment for reuse or lets you [!UICONTROL  Save As] from the drop-down menu.  |
 
@@ -412,21 +412,21 @@ The [!UICONTROL  Segment Builder] for Ad Hoc Analysis includes features built on
 
 See [ About Segments ](../../c_segmentation_bucket/seg_overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) for additional information. 
 
-1. Open the Segment Builder from the Segments panel in the left sidebar. Click the wrench icon and select ** [!UICONTROL  New Segment] ** from the menu. 
+1. Open the Segment Builder from the Segments panel in the left sidebar. Click the wrench icon and select **[!UICONTROL  New Segment]** from the menu. 
 
-   ![](../../assets/seg_new.png) 
+   ![](assets/seg_new.png) 
 
    The Segment Builder will open. 
 
-1. Drag entities from the Dimension, Dimension element, Event, Templates, or Segment panels from the left sidebar to the Segment Canvas. ![](../../assets/seg_drag.png) 
+1. Drag entities from the Dimension, Dimension element, Event, Templates, or Segment panels from the left sidebar to the Segment Canvas. ![](assets/seg_drag.png) 
 
-1. Enter a value for the dimension.  ![](../../assets/seg_value.png) Enter a value or select value by clicking the magnifying glass icon. A menu will open to select possible value for the dimension. 
+1. Enter a value for the dimension.  ![](assets/seg_value.png) Enter a value or select value by clicking the magnifying glass icon. A menu will open to select possible value for the dimension. 
 
-1. Set the operator from the list of [ operators ](../../c_segmentation_bucket/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA). ![](../../assets/seg_AND.png) 
+1. Set the operator from the list of [ operators ](../../c_segmentation_bucket/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA). ![](assets/seg_AND.png) 
 
-1. Resolve any errors identified by the [!UICONTROL  Error] icon  ![](../../assets/error_icon.png). Mousing over the [!UICONTROL  Error] icon brings up a message identifying the error. 
+1. Resolve any errors identified by the [!UICONTROL  Error] icon  ![](assets/error_icon.png). Mousing over the [!UICONTROL  Error] icon brings up a message identifying the error. 
 
-1. After placing the containers and setting the rules, click the [!UICONTROL  Run] icon  ![](../../assets/update_icon.png) to run the segment against the selected dataset.
-1. View a preview of the results in applying the segment at the bottom of the pane. ![](../../assets/seg_preview.png) 
+1. After placing the containers and setting the rules, click the [!UICONTROL  Run] icon  ![](assets/update_icon.png) to run the segment against the selected dataset.
+1. View a preview of the results in applying the segment at the bottom of the pane. ![](assets/seg_preview.png) 
 
-1. Click the ** [!UICONTROL  Save] ** button to save the segment in the [!UICONTROL  Segments] pane for future use.
+1. Click the **[!UICONTROL  Save]** button to save the segment in the [!UICONTROL  Segments] pane for future use.

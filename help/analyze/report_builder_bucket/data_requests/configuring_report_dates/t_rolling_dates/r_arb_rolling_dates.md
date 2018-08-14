@@ -5,7 +5,7 @@ seo-title: Request Wizard definitions - rolling dates
 solution: Analytics
 title: Request Wizard definitions - rolling dates
 topic: Report builder
-uuid: 134a56cd-a8d8-4e36-9a00-7409828da8e2
+uuid: 4eab3dd9-45a8-46dc-b718-4315434f35bf
 index: y
 internal: n
 snippet: y

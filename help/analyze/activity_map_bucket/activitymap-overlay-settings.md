@@ -5,7 +5,7 @@ seo-title: Configure Activity Map settings
 solution: Analytics
 title: Configure Activity Map settings
 topic: Activity map
-uuid: 84ff9b45-2773-4382-8477-98090928f5cd
+uuid: 839cfeda-82d9-4d29-ab81-e01394f56de7
 index: y
 internal: n
 snippet: y
@@ -18,15 +18,15 @@ Access the Activity Map Settings panel accessed by clicking the gear icon on the
 
 The Settings panel displays different content based on the selected application mode. The Other tab contains general settings. 
 
-|  Standard  | ** [!UICONTROL  Gradient] ** or ** [!UICONTROL  Bubble] ** overlays  |
+|  Standard  | **[!UICONTROL  Gradient]** or **[!UICONTROL  Bubble]** overlays  |
 |---|---|
-|  Live  | ** [!UICONTROL  Gainers &amp;amp; Losers] **, ** [!UICONTROL  Gradient] **, ** [!UICONTROL  Bubble] ** overlays  |
+|  Live  | **[!UICONTROL  Gainers &amp;amp; Losers]**, **[!UICONTROL  Gradient]**, **[!UICONTROL  Bubble]** overlays  |
 |  Other  | Report Suite selection and Language selection  |
 
 
 ## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
 
-![](../assets/settings_standard.png) 
+![](assets/settings_standard.png) 
 
 <table id="table_0244107DE6D142F2A1DA4882E0ED9826"> 
  <thead> 
@@ -80,19 +80,19 @@ The Settings panel displays different content based on the selected application 
 
 ## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
 
-![](../assets/settings_live.png) 
+![](assets/settings_live.png) 
 
 |  Settings  | Description  |
 |---|---|
-|  ** [!UICONTROL  Display Top] ** | Select number of links to display (or all) and the ** [!UICONTROL  Gainers] ** or ** [!UICONTROL  Losers] ** (or both) to display as overlays.  |
-|  ** [!UICONTROL  Exclude bottom (%)] ** | Select to eliminate Gainers-Losers links with sparse data. Filter out the bottom percentage of link changes to view only the links with enough data to show relevant gains or losses. The percentage is computed based on the number of links on that page. For example, filtering out the bottom 10% of a list of 200 links would filter out the last 20 links.  |
-|  ** [!UICONTROL  Auto Update Data] ** | Lets you decide whether the Analytics data shown in the interface should automatically update when a new period is computed, or not.  |
-|  ** [!UICONTROL  Auto Update Period] ** | When checked, refreshes the web page with each new data retrieval so the links in the page can be more closely synced with the collected data.  |
+|  **[!UICONTROL  Display Top]** | Select number of links to display (or all) and the **[!UICONTROL  Gainers]** or **[!UICONTROL  Losers]** (or both) to display as overlays.  |
+|  **[!UICONTROL  Exclude bottom (%)]** | Select to eliminate Gainers-Losers links with sparse data. Filter out the bottom percentage of link changes to view only the links with enough data to show relevant gains or losses. The percentage is computed based on the number of links on that page. For example, filtering out the bottom 10% of a list of 200 links would filter out the last 20 links.  |
+|  **[!UICONTROL  Auto Update Data]** | Lets you decide whether the Analytics data shown in the interface should automatically update when a new period is computed, or not.  |
+|  **[!UICONTROL  Auto Update Period]** | When checked, refreshes the web page with each new data retrieval so the links in the page can be more closely synced with the collected data.  |
 
 
 ## Other settings {#section_697A12F099494D699A4BF498598178C5}
 
-![](../assets/settings_other.png) 
+![](assets/settings_other.png) 
 
 <table id="table_0F560236F8844FA0928CBB9C50D5ABEF"> 
  <tbody> 

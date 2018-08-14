@@ -5,7 +5,7 @@ seo-description: The Data Feed user interface is accessible from the Reports& An
 seo-title: Open the Data Feed Interface
 solution: Analytics
 title: Open the Data Feed Interface
-uuid: 43f1dddc-366d-4e10-899e-2988d02c1d07
+uuid: 6ad7026b-7d44-4dc1-a551-683beca0baf8
 index: y
 internal: n
 snippet: y
@@ -16,6 +16,6 @@ translate: y
 
 
 >1. Open the Admin tab.
->1. Select ** [!UICONTROL  Data Feeds] **.
+>1. Select **[!UICONTROL  Data Feeds]**.
 
->       ![](../../assets/AdminMenu.png) 
+>       ![](assets/AdminMenu.png) 

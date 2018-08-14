@@ -5,7 +5,7 @@ seo-title: Workbook Library
 solution: Analytics
 title: Workbook Library
 topic: Report builder
-uuid: 0bdbf7e5-566c-4241-85c4-dbf0c6b67cad
+uuid: ad52eb6d-7424-4431-b1c4-d1e1dfb0ed95
 index: y
 internal: n
 snippet: y

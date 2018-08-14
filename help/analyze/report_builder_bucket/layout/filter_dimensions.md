@@ -5,7 +5,7 @@ seo-title: Filter dimensions
 solution: Analytics
 title: Filter dimensions
 topic: Report builder
-uuid: 6323b3a1-53b5-40a0-a9b6-ca0801f4e8ac
+uuid: 3b6fa9b8-210b-402b-9375-face5e9a3062
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ The selected filter form is populated based on the element &amp;amp; metric that
 
 ## Define filter - values and special characters {#section_15840216A4044C40974945FAA435AD93}
 
-Information about filters in the ** [!UICONTROL  Most Popular Filter] ** > ** [!UICONTROL  Define Filter] ** panel. 
+Information about filters in the **[!UICONTROL  Most Popular Filter]** > **[!UICONTROL  Define Filter]** panel. 
 
-![](../../assets/define_filter.png) 
+![](assets/define_filter.png) 
 
 The following tables provide examples and information about filters: 
 

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Segments
 title: Segments
-uuid: 6ef9fd24-96e3-4a6a-9b56-04bb3552b58c
+uuid: 75385c2b-aaed-4133-b3c6-e62a3ebafb52
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ translate: y
 
 The segment rail under the Components menu shows segments as well as segment templates, as signified by these icons: 
 
-![](../../assets/segment_icons.png) 
+![](assets/segment_icons.png) 
 
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -35,7 +35,7 @@ Keep in mind that:
 * You **cannot** drop the following component types into the segment zone: calculated metrics and dimensions/metrics from which you cannot build segments.
 * For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: "Hit where eVar1 exists" or "hit where event1 exists".
 * If "unspecified" or "none" are dropped in the segment drop zone, they are automatically converted to a "does not exist" segment so that they are treated correctly in segmentation.
-![](../../assets/segment-dropzone.png) 
+![](assets/segment-dropzone.png) 
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Keep in mind that:
 You can choose to make these segments public (global) by following these steps: 
 
 1. Hover over the segment in the drop zone and click the "i" icon.
-1. In the information panel that displays, click ** [!UICONTROL  Make public] **. ![](../../assets/segment-info.png) 
+1. In the information panel that displays, click **[!UICONTROL  Make public]**. ![](assets/segment-info.png) 
 
 
 ## Other methods for applying segments {#section_10FF2E309BA84618990EA5B473015894}

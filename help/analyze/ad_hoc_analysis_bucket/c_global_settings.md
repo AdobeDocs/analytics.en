@@ -3,7 +3,7 @@ description: Configure global behavioral settings. For example, you can configur
 seo-description: Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
 seo-title: Settings
 title: Settings
-uuid: 67906bbb-eb7d-4089-91e8-094f87cbc631
+uuid: 7df17e77-f9a5-4aca-8c5d-9da5d463c32e
 index: y
 internal: n
 snippet: y
@@ -13,7 +13,7 @@ translate: y
 # Settings
 
 ## Settings {#concept_D21E3D6F13EA4F97913F60C243B72173}
->Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.Click ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Settings] ** to access [!UICONTROL  Global Settings]. 
+>Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.Click **[!UICONTROL  Tools]** > **[!UICONTROL  Settings]** to access [!UICONTROL  Global Settings]. 
 >## General Settings Tab - Definitions {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 >Configure behavioral settings for data sources, project saving, charts, and tables.
 

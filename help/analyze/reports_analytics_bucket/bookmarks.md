@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Bookmarks
 title: Bookmark Manager
 topic: Reports and analytics
-uuid: 5850cd53-badd-409f-b6d8-20a7b81cbfac
+uuid: 2928d888-90d2-4b64-8faf-c4350647015b
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ translate: y
 >This procedure describes how to create a bookmark.
 <!-- t_bookmarks_creating.xml -->
 
->1. Run a report, then click ** [!UICONTROL  Bookmark.] **.
+>1. Run a report, then click **[!UICONTROL  Bookmark.]**.
 
 >       | **Name** | A user friendly name for this bookmark. |
 >       |---|---|
@@ -34,7 +34,7 @@ translate: y
   Bookmark Manager
 </wintitle>. You can edit, delete, and organize your bookmarks and folders from a central location.
 <!-- t_bookmarks_managing.xml -->
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Bookmarks] **. 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Bookmarks]**. 
 
 **My Bookmarks** 
 
@@ -47,27 +47,27 @@ translate: y
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/bookmark_create_folder.png" id="image_EA7729575ABA4CA3A3399594941B3441"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/bookmark_create_folder.png" id="image_EA7729575ABA4CA3A3399594941B3441"> </img> </p> </td> 
    <td colname="col2"> <p> Creates a bookmark folder. Select the bookmark before clicking this option. You cannot create subfolders. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/bookmark_delete_folder.png" id="image_AFB6A02475664785BA90485EA289749A"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/bookmark_delete_folder.png" id="image_AFB6A02475664785BA90485EA289749A"> </img> </p> </td> 
    <td colname="col2"> <p> Deletes a bookmark folder. Select the bookmark before clicking this option. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/bookmark_sort.png" id="image_8B4BE31182004357890B6532CCE5B2C2"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/bookmark_sort.png" id="image_8B4BE31182004357890B6532CCE5B2C2"> </img> </p> </td> 
    <td colname="col2"> <p> Sorts a bookmark folder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/icon_edit_VideoSharing.png" id="image_5B8C0321ED5848ECBE3AF65514AD9A44"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/icon_edit_VideoSharing.png" id="image_5B8C0321ED5848ECBE3AF65514AD9A44"> </img> </p> </td> 
    <td colname="col2"> <p> Lets you edit a bookmark. You can rename the bookmark and specify the bookmark folder in which you want the report to display. You can also specify whether you want the bookmark to display at login. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/icon_delete_VideoSharing.png" id="image_945A859920C44BC08825CC062C10543A"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/icon_delete_VideoSharing.png" id="image_945A859920C44BC08825CC062C10543A"> </img> </p> </td> 
    <td colname="col2"> <p> Deletes a bookmark. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="../assets/bookmark_schedule.png" id="image_B7B23C1C67F04DF096149DCDF8C0FE5F"> </img> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" href="assets/bookmark_schedule.png" id="image_B7B23C1C67F04DF096149DCDF8C0FE5F"> </img> </p> </td> 
    <td colname="col2"> <p> Lets you know that this bookmark is scheduled for delivery. Click this option to configure the schedule, using <span class="wintitle"> Advanced Delivery Options</span>. </p> </td> 
   </tr> 
  </tbody> 

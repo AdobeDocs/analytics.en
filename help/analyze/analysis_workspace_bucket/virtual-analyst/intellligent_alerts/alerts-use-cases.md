@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Intelligent Alerts - use cases
 title: Intelligent Alerts - use cases
-uuid: e0aba07e-175e-4e2b-9a28-2df06c343e66
+uuid: 09857964-d2f2-4387-974a-cd179f854e19
 index: y
 internal: n
 snippet: y
@@ -17,20 +17,20 @@ translate: y
 
 
 <!-- Update screenshots for better readability. -->
-![](../../../assets/alerts_example1.png) 
+![](assets/alerts_example1.png) 
 
 ## Create an alert from a Table Selection {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting ** [!UICONTROL  Create Alert from Selection] **. 
+In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL  Create Alert from Selection]**. 
 
-![](../../../assets/alert_selection.png) 
+![](assets/alert_selection.png) 
 
 This instantly pre-populates the Alert Builder to create an alert with the correct metric/s and filter/s: 
 
-![](../../../assets/prepopulated_alert.png) 
+![](assets/prepopulated_alert.png) 
 
 ## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 Stacking alerts ensures that alerts get combined and you don't get a number of separate alerts. 
 
-![](../../../assets/alerts_example2.png) 
+![](assets/alerts_example2.png) 

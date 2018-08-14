@@ -5,7 +5,7 @@ seo-title: Comparison Operators for Segments
 solution: Analytics
 title: Comparison Operators for Segments
 topic: Segments
-uuid: d941e690-7d1f-425e-b295-0889943f6002
+uuid: 233fc199-2538-445b-9d23-78430e5ee6bc
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 >[!NOTE]
 >
->Operators marked ** [!UICONTROL  (dw only)] ** indicate that they work with Data Warehouse segments only. 
+>Operators marked **[!UICONTROL  (dw only)]** indicate that they work with Data Warehouse segments only. 
 
 
 

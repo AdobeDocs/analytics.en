@@ -3,7 +3,7 @@ description: Metrics are quantitative information about visitor activity, such a
 seo-description: Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, dates, units, orders, revenue, and so on. Metrics and associated data are displayed in the columns of reports.
 seo-title: Metrics
 title: Metrics
-uuid: c49a777e-53f3-4e5d-bf3e-df77d005da29
+uuid: 048afb18-a3c4-4ed4-85f6-7fab34adda96
 index: y
 internal: n
 snippet: y
@@ -32,11 +32,11 @@ While you can create folders, name them, and organize the metrics into them howe
 >Steps that describe how to organize metrics and create metric folders.
 <!-- t_organize_metrics.xml -->
 
->1. In the [!UICONTROL  Metrics] tool pane, click ** [!UICONTROL  More Actions] **. (  ![](../assets/tools_icon.png))
->1. Click ** [!UICONTROL  Organize Metrics] **.
->1. Click ** [!UICONTROL  New] ** to create a folder.
+>1. In the [!UICONTROL  Metrics] tool pane, click **[!UICONTROL  More Actions]**. (  ![](assets/tools_icon.png))
+>1. Click **[!UICONTROL  Organize Metrics]**.
+>1. Click **[!UICONTROL  New]** to create a folder.
 >1. Select metrics in other folders, then drag the selection to the new folder.
->1. Click ** [!UICONTROL  OK] **.
+>1. Click **[!UICONTROL  OK]**.
 
 >   >[!NOTE]
 >   >
@@ -61,7 +61,7 @@ For more information on how Calculated Metrics are built and managed, see the [ 
 
 Here is how you access the Calculated Metric Builder in Ad Hoc Analysis: 
 
-1. In the [!UICONTROL  Metrics] pane, click ** [!UICONTROL  More Options] **, then ** [!UICONTROL  Calculated Metrics Builder] **. ![](../assets/more_options_calc.png) 
+1. In the [!UICONTROL  Metrics] pane, click **[!UICONTROL  More Options]**, then **[!UICONTROL  Calculated Metrics Builder]**. ![](assets/more_options_calc.png) 
 
-1. The Calculated Metric Builder interface lets you drag and drop metrics, segments, and functions to build your custom metrics: ![](../assets/calc_metrics.png) 
+1. The Calculated Metric Builder interface lets you drag and drop metrics, segments, and functions to build your custom metrics: ![](assets/calc_metrics.png) 
 

@@ -5,7 +5,7 @@ seo-title: Filtering Report Data
 solution: Analytics
 title: Filtering Report Data
 topic: Reports and analytics
-uuid: 6eba09bf-a2e8-4ea7-bdae-1019b32478ce
+uuid: a3d6d7f7-4ae2-460e-8271-1a13e187646d
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 >Filters allow you to narrow the report to include or exclude line items that match a filter.
 ## Simple Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](../../assets/filter.png) 
+![](assets/filter.png) 
 
 The simple filter appears on most reports to let you quickly find specific line items. Simple filters do not use any special characters, so ` -, ", ', +` and other special characters match the literal value in the report. You can find line items that contain multiple terms using a space. 
 
@@ -41,7 +41,7 @@ Matches the following pages:
 
 Advanced filters let you control the scope of your search using a collection of filters. You can select to match all filters, or any filters. 
 
-![](../../assets/advanced_filter.png) 
+![](assets/advanced_filter.png) 
 
 **Contains** 
 
@@ -177,11 +177,11 @@ When you access these filters, you can see report metrics for the items specifie
 
 **To create report-specific filters** 
 
->1. Generate a report, such as a [!UICONTROL  Purchase Report] ( ** [!UICONTROL  Site Metrics] ** > ** [!UICONTROL  Purchases] ** > ** [!UICONTROL  Purchase Conversion Funnel] **).
->1. In the report header, click the ** [!UICONTROL  Filter] ** link.
->1. On the [!UICONTROL  Filter Selector] page, click ** [!UICONTROL  Apply a Filter] **, then select a filter type.
->1. To search for an item, type a character string in the ** [!UICONTROL  Search] ** field.
->1. Click ** [!UICONTROL  OK] **.
+>1. Generate a report, such as a [!UICONTROL  Purchase Report] ( **[!UICONTROL  Site Metrics]** > **[!UICONTROL  Purchases]** > **[!UICONTROL  Purchase Conversion Funnel]**).
+>1. In the report header, click the **[!UICONTROL  Filter]** link.
+>1. On the [!UICONTROL  Filter Selector] page, click **[!UICONTROL  Apply a Filter]**, then select a filter type.
+>1. To search for an item, type a character string in the **[!UICONTROL  Search]** field.
+>1. Click **[!UICONTROL  OK]**.
 >## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
 >Steps that describe how to add a correlation filter.
 <!-- t_reports_correlation_filter.xml -->
@@ -192,6 +192,6 @@ You can filter the data shown in a correlation report using any available correl
 **To add a correlation filter** 
 
 >1. Run a report that supports correlations. (See [ Running a Breakdown Report ](../../reports_analytics_bucket/reports_customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
->1. In the report header, click the ** [!UICONTROL  Correlation Filter] ** link.
+>1. In the report header, click the **[!UICONTROL  Correlation Filter]** link.
 >1. Under [!UICONTROL  Filter Rule Creator], select a category to correlate with an item.
->1. Click ** [!UICONTROL  OK.] **
+>1. Click **[!UICONTROL  OK.]**

@@ -6,7 +6,7 @@ seo-title: Statistical tests used in segment comparison
 solution: Analytics
 title: Statistical tests used in segment comparison
 topic: Reports and analytics
-uuid: 5150dbb7-14df-43aa-9a39-1563ef659a64
+uuid: 0ac7f4ae-e96f-43ff-b4bc-3c7edcb357ef
 index: y
 internal: n
 snippet: y

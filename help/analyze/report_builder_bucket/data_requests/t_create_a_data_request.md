@@ -5,7 +5,7 @@ seo-title: Create a data request
 solution: Analytics
 title: Create a data request
 topic: Report builder
-uuid: dd248dac-e4e3-4a03-be15-3f39c1fbc270
+uuid: d9936fbd-d7f5-468f-83e3-569ad1fafc2e
 index: y
 internal: n
 snippet: y
@@ -15,14 +15,14 @@ translate: y
 # Create a data request
 
 
->1. In Excel, click ** [!UICONTROL  Create] **.
+>1. In Excel, click **[!UICONTROL  Create]**.
 >1. In the [!UICONTROL  Request Wizard: Step 1] window, select a [ report suite ](../../report_builder_bucket/data_requests/selecting_report_suites/t_select_report_suites.md#task_59444416F6F042D1998217AE91580913).
 >1. (Optional) Select a segment to apply to the request. Once you have selected one or more segments, they will move to the top of the list.
 
 >       [ Analytics Segmentation Guide ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)1. (Optional) Select a [ publishing list ](../../report_builder_bucket/data_requests/allow_publishing_list_overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) to use for distribution.
 >1. Select a [ report type ](../../report_builder_bucket/data_requests/select_report_types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
 >1. Specify a [ date range ](../../report_builder_bucket/data_requests/configuring_report_dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE) and report [ granularity ](../../report_builder_bucket/data_requests/configuring_report_dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
->1. Click ** [!UICONTROL  Next] **.
+>1. Click **[!UICONTROL  Next]**.
 >1. In the [ Layout - Request Wizard Step 2 ](../../report_builder_bucket/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) window, specify a layout:
 
 >   |  Element  | Description  |
@@ -37,8 +37,8 @@ translate: y
 
 >   See [ Add Metrics and Dimensions ](../../report_builder_bucket/layout/metrics_dimensions/t_add_metrics_and_dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) for more information. 
 >
->1. Select an insertion location for the request (  ![](../../assets/select_cell_icon.png)).
+>1. Select an insertion location for the request (  ![](assets/select_cell_icon.png)).
 >1. After selecting the cell, click the cell selector to return to the [ Request Wizard Step 2 ](../../report_builder_bucket/request_wizard_interface/request_wizard_step_2.md#concept_117A581D42B945CA9750F3059A9A9B39) window.
 >1. Continue configuring layout settings as necessary. (See [ Configure the Layout ](../../report_builder_bucket/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).)
->1. On the [!UICONTROL  Request Wizard: Step 2] window, click ** [!UICONTROL  Finish] ** to process the request.
+>1. On the [!UICONTROL  Request Wizard: Step 2] window, click **[!UICONTROL  Finish]** to process the request.
 >   If you modify a spreadsheet that already contains requests, but instead of clicking [!UICONTROL  Finish], you click [!UICONTROL  Cancel &amp;amp; Refresh], report builder refreshes the edited requests already mapped to the spreadsheet before closing the [!UICONTROL  Request Wizard].>

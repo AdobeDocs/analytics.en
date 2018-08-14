@@ -5,7 +5,7 @@ seo-title: Path and path fallout reports in Report Builder
 solution: Analytics
 title: Path and path fallout reports in Report Builder
 topic: Report builder
-uuid: 01cb1500-72cf-41ae-90e2-0636388707c1
+uuid: 07277a89-31d1-4ffc-98b1-830966cb37a7
 index: y
 internal: n
 snippet: y

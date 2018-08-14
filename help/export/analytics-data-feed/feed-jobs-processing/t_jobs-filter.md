@@ -5,7 +5,7 @@ seo-description: Searching and filtering help you locate a job in the list.
 seo-title: Filter Jobs List
 solution: Analytics
 title: Filter Jobs List
-uuid: 9ec7c5be-4e8d-4991-a77c-e19b0e385c9f
+uuid: 2676a404-24e6-44cd-b3ac-d49f46b77e64
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 >1. Click or hover over the Filter icon to view the filtering options.
 
->       ![](../../assets/jobs-filter.jpg) 
+>       ![](assets/jobs-filter.jpg) 
 
 >       There are several available filtering options: 
 
@@ -31,4 +31,4 @@ translate: y
 
 >1. Enter a search term to search the Jobs list.
 
->       ![](../../assets/search.jpg) 
+>       ![](assets/search.jpg) 

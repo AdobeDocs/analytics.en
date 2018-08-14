@@ -5,7 +5,7 @@ seo-title: Report Types
 solution: Analytics
 title: Report Types
 topic: Reports and analytics
-uuid: fbfd0ba5-2b59-4680-8a68-1788131f6dda
+uuid: cdd8ea96-8504-4c4b-b128-385b6dc8c07f
 index: y
 internal: n
 snippet: y
@@ -40,4 +40,4 @@ translate: y
 
 See [ Report Features](../reports_analytics_bucket/overview_(2)/report_overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features. 
 
-See [ Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions) in * ` Analytics Reference Help` * for descriptions. 
+See [ Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions) in *` Analytics Reference Help`* for descriptions. 

@@ -5,7 +5,7 @@ seo-title: Request Wizard interface
 solution: Analytics
 title: Request Wizard interface
 topic: Report builder
-uuid: b37d8758-16fa-4cc9-b0ee-25a4016356fa
+uuid: 11a943cb-7d07-44e3-9b6a-2cd1d4a2ad56
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-description: Many Adobe Engineering Services engagements involve the exchang
 seo-title: Engineering Services Engagements with FTP
 solution: Analytics
 title: Engineering Services Engagements with FTP
-uuid: 3a9d6e1b-c6fc-4fc6-9d92-ecb8d66206c4
+uuid: 0a5f81a6-07ef-4509-875a-78303e30144f
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ For information on FTP limits and data retention, see [ FTP Limits and Data Rete
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
-Similar to a SAINT upload via FTP, [!UICONTROL  DB VISTA] receives data through an FTP upload. For more information on file formats and the [!UICONTROL  DB VISTA] upload process, refer to the [!UICONTROL  DB VISTA] Introduction to [!UICONTROL  DB VISTA]white paper, which can be found in the Adobe Suite Help site by going to ** [!UICONTROL  Supporting Docs] ** > ** [!UICONTROL  White Papers] **. 
+Similar to a SAINT upload via FTP, [!UICONTROL  DB VISTA] receives data through an FTP upload. For more information on file formats and the [!UICONTROL  DB VISTA] upload process, refer to the [!UICONTROL  DB VISTA] Introduction to [!UICONTROL  DB VISTA]white paper, which can be found in the Adobe Suite Help site by going to **[!UICONTROL  Supporting Docs]** > **[!UICONTROL  White Papers]**. 
 
 ## Custom Engagements {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 

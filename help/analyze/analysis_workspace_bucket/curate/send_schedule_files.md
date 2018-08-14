@@ -3,7 +3,7 @@ description: You can share and curate projects and send project files (in PDF or
 seo-description: You can share and curate projects and send project files (in PDF or CSV formats) immediately or on a schedule.
 seo-title: Share and schedule project files
 title: Share and schedule project files
-uuid: 6cb3d5cd-04f1-45f2-82cf-38bde697f315
+uuid: 01701de6-1de5-4812-884e-9d9fe3038be3
 index: y
 internal: n
 snippet: y
@@ -12,7 +12,7 @@ translate: y
 
 # Share and schedule project files
 
-** [!UICONTROL  Workplace] ** > ** [!UICONTROL  Share] ** 
+**[!UICONTROL  Workplace]** > **[!UICONTROL  Share]** 
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 

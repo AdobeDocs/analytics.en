@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Pagination, filtering and sorting tables
 title: Pagination, filtering and sorting tables
-uuid: 524f1e63-50f0-4a93-b2c8-fed305b034fa
+uuid: 78d51475-55b7-40b7-9ad0-af752e83ffd7
 index: y
 internal: n
 snippet: y
@@ -31,4 +31,4 @@ Clicking the filter icon, then Show Advanced, next to a dimension in a freeform 
 * Does not equal
 * Starts with
 * Ends with
-![](../../assets/advanced-filter.png) 
+![](assets/advanced-filter.png) 

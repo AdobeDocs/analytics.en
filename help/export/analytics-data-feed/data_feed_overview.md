@@ -5,7 +5,7 @@ seo-description: Data that is collected from web sites, mobile apps, or is uploa
 seo-title: Analytics Data Feed Overview
 solution: Analytics
 title: Analytics Data Feed Overview
-uuid: 7310169b-4b14-46a4-bdf9-0e514c6b64aa
+uuid: 1b901fb4-6c78-449a-9ed3-c05ff512144e
 index: y
 internal: n
 snippet: y

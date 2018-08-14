@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Alert Manager
 title: Alert Manager
-uuid: 9c69ed0a-87bc-44aa-9ed7-e8887f37a309
+uuid: 30429fe6-0afe-4e1f-bf94-6925a940dc22
 index: y
 internal: n
 snippet: y
@@ -12,13 +12,13 @@ translate: y
 
 # Alert Manager
 
-![](../../../assets/alert-manager.png) 
+![](assets/alert-manager.png) 
 
-The Alert Manager ( ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Alerts] **) is structured very much like the [ Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) and the [ Calculated Metric Manager](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) and allows you to 
+The Alert Manager ( **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Alerts]**) is structured very much like the [ Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) and the [ Calculated Metric Manager](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) and allows you to 
 
-![](../../../assets/alert-manager-tasks.png) 
+![](assets/alert-manager-tasks.png) 
 
-* Access the Alert Builder by clicking ** [!UICONTROL  + Add] **.
+* Access the Alert Builder by clicking **[!UICONTROL  + Add]**.
 * Tag alerts. This allows you to organize them for ease of use.
 * Delete alerts.
 * Rename alerts.

@@ -5,7 +5,7 @@ seo-title: Report Features
 solution: Analytics
 title: Report Features
 topic: Reports and analytics
-uuid: fd1b04e0-3275-426d-9f1a-8bb602023b24
+uuid: 61c25c86-e57e-4f9f-bac4-d9fbd28e98d0
 index: y
 internal: n
 snippet: y
@@ -27,15 +27,15 @@ This example shows a [!UICONTROL  Pages Report]. The configuration options may v
 
 ## Example Pages Report {#section_288CC85536684C2DB184141358481EF0}
 
-An example of a Pages Report ( ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Site Content] ** > ** [!UICONTROL  Pages Reports] ** > ** [!UICONTROL  Pages] **). 
+An example of a Pages Report ( **[!UICONTROL  Reports]** > **[!UICONTROL  Site Content]** > **[!UICONTROL  Pages Reports]** > **[!UICONTROL  Pages]**). 
 
-![](../../assets/pages_report.png) 
+![](assets/pages_report.png) 
 
 ## Report Toolbar {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Share your report data with the decision makers who can change your site or marketing strategies based on the data. 
 
-![](../../assets/toolbar.png) 
+![](assets/toolbar.png) 
 
 Also refer to [ Customizing a Report ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
 
@@ -43,13 +43,13 @@ Also refer to [ Customizing a Report ](../../reports_analytics_bucket/reports_cu
 
 Displays report settings and lets you configure the report type, select metrics, and more. The available options in this group changes depending on the report you run. 
 
-![](../../assets/settings_header.png) 
+![](assets/settings_header.png) 
 See[ Customizing a Report ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF) for more information. 
 ## Calendar {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Specify the date by clicking the calendar button and selecting a date range. You can also select two time ranges to compare performance. 
 
-![](../../assets/calendar_large.png) 
+![](assets/calendar_large.png) 
 
 See [ Selecting a Date or Date Range ](../../reports_analytics_bucket/reports_customize/customizing_reports_overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [ Comparing Dates ](../../reports_analytics_bucket/reports_customize/customizing_reports_overview.md#task_95155C3700774B709F5FB81AE96B0824). 
 
@@ -57,13 +57,13 @@ See [ Selecting a Date or Date Range ](../../reports_analytics_bucket/reports_cu
 
 Select the type of graph or chart you want to see. 
 
-![](../../assets/graph_type.png) 
+![](assets/graph_type.png) 
 See[ Changing Report Graphs ](../../reports_analytics_bucket/reports_customize/t_reports_graphs.md#task_B290BF0B82124111AA19B3F3ACED500A). 
 ## Graph Display {#section_4C78ADC82C234CC6841AC92C803636F4}
 
 Depending on the type of graph that you have selected, you typically see the top several items from the details list. If your graph is a trended graph showing different time periods, then all of the time periods display 
 
-![](../../assets/graph.png) 
+![](assets/graph.png) 
 
 See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
 
@@ -71,7 +71,7 @@ See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize.md#
 
 Add metrics to your report. Administrators can specify default metrics. 
 
-![](../../assets/metrics.png) 
+![](assets/metrics.png) 
 
 See [ Metrics ](../../reports_analytics_bucket/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686). 
 
@@ -79,7 +79,7 @@ See [ Metrics ](../../reports_analytics_bucket/metrics.md#concept_EB00207C07BD44
 
 The details are the bulk of the report data. In this case, you have pages listed, and they are being measured by Page Views, which is how many times they were loaded during the period. 
 
-![](../../assets/detail.png) 
+![](assets/detail.png) 
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more. 
 

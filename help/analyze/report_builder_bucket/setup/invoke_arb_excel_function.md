@@ -5,7 +5,7 @@ seo-title: Invoke Report Builder functionality from Microsoft Excel functions
 solution: Analytics
 title: Invoke Report Builder functionality from Microsoft Excel functions
 topic: Report builder
-uuid: 7ca4cba6-19a8-4fd6-b2c4-559daad94d30
+uuid: cf866330-4292-4996-a835-1ce5446fd942
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ Here is a table with the list of exposed functions:
 
 To access these functions within report builder, go to [!UICONTROL  Formulas] > [!UICONTROL  Insert Function]. At the bottom of the list of categories, you will find Adobe.ReportBuilder.Bridge: 
 
-![](../../assets/arb_functions.png) 
+![](assets/arb_functions.png) 
 
 ## Using these functions in a formula {#section_034311081C8D4D7AA9275C1435A087CD}
 
@@ -49,9 +49,9 @@ says "If the value in cell P5 is text or is blank, refresh the range that is in 
 You can now assign a macro to a control you created and that control can be a function that refreshes a workbook request. For example, the function AsyncRefreshActiveWorksheet will refresh all requests in a worksheet. Sometimes, though, you may want to refresh only certain requests, not all. 
 
 1. Set the macro parameter.
-1. Right-click the control and select ** [!UICONTROL  Assign Macro] **.
+1. Right-click the control and select **[!UICONTROL  Assign Macro]**.
 1. Enter the report builder function name (no parameters or parentheses.)
-![](../../assets/assign_macro.png) 
+![](assets/assign_macro.png) 
 
 ## Passing parameters to Report Builder functions via format control {#section_ECCA1F4990D244619DFD79138064CEF0}
 
@@ -60,10 +60,10 @@ The two functions that take a parameter can be used with Format Control, but onl
 * AsyncRefreshWorksheet(string worksheetName)
 
 
-1. Right-click the control and select ** [!UICONTROL  Format Control] **. ![](../../assets/format_control.png) 
+1. Right-click the control and select **[!UICONTROL  Format Control]**. ![](assets/format_control.png) 
 
-1. Click the [!UICONTROL  Alt Text] tab. ![](../../assets/alt_text.png) 
+1. Click the [!UICONTROL  Alt Text] tab. ![](assets/alt_text.png) 
 
 1. Under [!UICONTROL  Alternative text], enter the cell range that you want refreshed.
 1. Open the list of report builder parameters under [!UICONTROL  Formulas] > [!UICONTROL  Insert Function]> [!UICONTROL  Adobe.ReportBuilder.Bridge].
-1. Pick one of the two functions that end with AltTextParam and click ** [!UICONTROL  OK] **.
+1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL  OK]**.

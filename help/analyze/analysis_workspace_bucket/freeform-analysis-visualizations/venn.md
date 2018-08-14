@@ -3,7 +3,7 @@ description: The Venn visualization lets you drag in up to 3 segments (from Comp
 seo-description: The Venn visualization lets you drag in up to 3 segments (from Components) and one metric to build a Venn diagram.
 seo-title: Venn
 title: Venn
-uuid: 5b6c675a-9d54-4b6b-8cb3-44428583627d
+uuid: ea1e817c-eac1-440e-9650-80810d07bf6f
 index: y
 internal: n
 snippet: y
@@ -12,14 +12,14 @@ translate: y
 
 # Venn
 
-![](../../assets/venn.png) 
+![](assets/venn.png) 
 
 You can then hover over the segments to gain more insight into percentages, etc. 
 
-![](../../assets/venn_hover.png) 
+![](assets/venn_hover.png) 
 
-To turn the Venn diagram into a Freeform table, click the colored dot next to the ** [!UICONTROL  Venn] ** header and select ** [!UICONTROL  Manage Data Sources] ** > ** [!UICONTROL  Available Data Sources] ** > ** [!UICONTROL  Freeform Table] **. 
+To turn the Venn diagram into a Freeform table, click the colored dot next to the **[!UICONTROL  Venn]** header and select **[!UICONTROL  Manage Data Sources]** > **[!UICONTROL  Available Data Sources]** > **[!UICONTROL  Freeform Table]**. 
 
-To normalize the Venn diagram (take the size out of it), go to its Visualization Settings icon and select ** [!UICONTROL  Normalization] **. 
+To normalize the Venn diagram (take the size out of it), go to its Visualization Settings icon and select **[!UICONTROL  Normalization]**. 
 
-![](../../assets/normalization.png) 
+![](assets/normalization.png) 

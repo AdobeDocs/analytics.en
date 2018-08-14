@@ -3,7 +3,7 @@ description: Shows examples of filtered and weighted metrics.
 seo-description: Shows examples of filtered and weighted metrics.
 seo-title: Filtered and Weighted Metrics
 title: Filtered and Weighted Metrics
-uuid: 00f9a8b7-bde9-4a8c-8f62-bd8abe5e2388
+uuid: 9769b1c9-0b1d-424d-b9ec-c4fa330d3f9b
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 This simple filtered metric shows the bounce rate for only those pages with over 100 visits: 
 
-![](../../../assets/cm_fbr.png) 
+![](assets/cm_fbr.png) 
 
 Keep in mind that this formula is dependent on a consistent time range. If you run a report for a single day, any page with more than 20 visits is worth looking at. If you run it for a month, you may want the filter to include more visits. 
 
@@ -25,10 +25,10 @@ Keep in mind that this formula is dependent on a consistent time range. If you r
 
 This filter shows the Bounce Rate for the top 30 percent of pages, when sorted by visits. 
 
-![](../../../assets/cm_wbr_2.png) 
+![](assets/cm_wbr_2.png) 
 
 ## Weighted Metric {#section_F2D16B14569948289CF1310F9E6E3FC2}
 
 Suppose you want to sort by bounce rate in general, but pages with higher visits should be higher on the list. You could create a Weighted Bounce Rate that looks like this: 
 
-![](../../../assets/cm_wbr.png) 
+![](assets/cm_wbr.png) 

@@ -3,7 +3,7 @@ description: You can view anomalies in a table or in a line chart.
 seo-description: You can view anomalies in a table or in a line chart.
 seo-title: View anomalies in Analysis Workspace
 title: View anomalies in Analysis Workspace
-uuid: a1dc19ac-6b19-4fb4-b9df-d8cb11d9940e
+uuid: 4beef885-a52e-4b9b-9766-f41aba0981c6
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 In a time-series Freeform Table, each row now automatically gets flagged with a dark grey exclamation mark if a data anomaly has been detected. 
 
-![](../../../assets/anomaly_detected.png) 
+![](assets/anomaly_detected.png) 
 
 The vertical grey line in each row indicates the expected value. When you hover over the exclamation mark, the extent to which the anomaly diverges from the expected value is indicated (in + or - %). 
 
@@ -33,12 +33,12 @@ If you click a white dot, it will turn green and it will show you:
 * The Analyze link to start [ Contribution Analysis](../../../analysis_workspace_bucket/virtual-analyst/contribution-analysis.md#concept_0972EDAA28D3412D84A4D35568BF7D30).
 
 
-![](../../../assets/anomaly_linechart.png) 
+![](assets/anomaly_linechart.png) 
 
 If you have multiple metrics in the line chart, we show only the anomalies and you have to hover over each anomaly to see the confidence band for that metric. 
 
 The Anomaly Detection confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. 
 
-You have the option to allow the confidence interval to scale the chart. Just click the Settings (gear) icon and check ** [!UICONTROL  Allow Anomaly Detection to Scale Y Axis] **. 
+You have the option to allow the confidence interval to scale the chart. Just click the Settings (gear) icon and check **[!UICONTROL  Allow Anomaly Detection to Scale Y Axis]**. 
 
-![](../../../assets/scale-y-axis.png) 
+![](assets/scale-y-axis.png) 

@@ -6,7 +6,7 @@ seo-title: Managing Virtual Report Suites
 solution: Analytics
 title: Managing Virtual Report Suites
 topic: Reports and analytics
-uuid: c0ce28b2-6a14-4459-830b-89e0cfd989ad
+uuid: 15928840-b4c6-4c97-ac5f-9612d92b801e
 index: y
 internal: n
 snippet: y
@@ -15,14 +15,14 @@ translate: y
 
 # Managing Virtual Report Suites
 
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Virtual Report Suites] ** 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Virtual Report Suites]** 
 
-![](../../assets/vrs-manage.png) 
+![](assets/vrs-manage.png) 
 
 
 >[!NOTE]
 >
->In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click ** [!UICONTROL  Show All] ** to see everyone else’s. 
+>In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click **[!UICONTROL  Show All]** to see everyone else’s. 
 
 
 

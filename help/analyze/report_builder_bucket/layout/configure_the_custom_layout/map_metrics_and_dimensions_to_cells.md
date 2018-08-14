@@ -5,7 +5,7 @@ seo-title: Map metrics and dimensions to cells
 solution: Analytics
 title: Map metrics and dimensions to cells
 topic: Report builder
-uuid: 86837198-116e-4163-9062-ca794abf0cf3
+uuid: 45bacf23-72c6-44d2-b6c0-4e00d425e191
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ The following sections contain more information:
 
 On the [!UICONTROL  Request Wizard: Step 2], when you enable [!UICONTROL  Custom Layout] for a trended request, you can map the request to a range of cells. 
 
-Click the ** [!UICONTROL  Range Selector] ** ![select_cell_icon.png](../../../assets/select_cell_icon.png) next to the item you want to map. 
+Click the **[!UICONTROL  Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png) next to the item you want to map. 
 
 * ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL  Custom Layout] style request.
 * ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL  Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use this option to have report builder select cells for you.
@@ -39,26 +39,26 @@ Click the ** [!UICONTROL  Range Selector] ** ![select_cell_icon.png](../../../as
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
 
-You select the data by clicking the ** [!UICONTROL  Range Selection] ** icon  ![select_cell_icon.png](../../../assets/select_cell_icon.png) and click-dragging the mouse over the desired range of cells of the spreadsheet. A continuous selection is outlined by a black border. 
+You select the data by clicking the **[!UICONTROL  Range Selection]** icon  ![select_cell_icon.png](assets/select_cell_icon.png) and click-dragging the mouse over the desired range of cells of the spreadsheet. A continuous selection is outlined by a black border. 
 
-![](../../../assets/twenty_cells.gif) 
+![](assets/twenty_cells.gif) 
 
 Separate selected rows have a thin white border around each row. 
 
-![](../../../assets/twoXten_cells_highlighted.gif) 
+![](assets/twoXten_cells_highlighted.gif) 
 
 To map separate rows in one request, use the [!UICONTROL  Control] key, then click and drag the cursor over the desired cells. You would do this if your request calls for four areas with ten cells each, rather than one continuous area with 40 cells together. 
 
-![](../../../assets/map4.png) 
+![](assets/map4.png) 
 
-After you select cells, click the ** [!UICONTROL  Range Selector] ** again on the [!UICONTROL  Range Selection] form to return to the [!UICONTROL  Request Wizard: Step 2]. 
+After you select cells, click the **[!UICONTROL  Range Selector]** again on the [!UICONTROL  Range Selection] form to return to the [!UICONTROL  Request Wizard: Step 2]. 
 
 ## Issues when mapping {#section_CC1BCF841291447EB3A994EB08F3A099}
 
 If you mistakenly choose to map to a cell that already has an active mapping, you will notice that no cell reference appears in the text box next to the range-picker icon. When you click [!UICONTROL  OK], report builder displays the error, "The range selected intersects another request's range. Please change your selection." 
 
 
-* If you still need to use the cell, right-click on the desired cell or cells, and select ** [!UICONTROL  Delete Request] **.
+* If you still need to use the cell, right-click on the desired cell or cells, and select **[!UICONTROL  Delete Request]**.
 
 
 If you want to avoid this message, you can take two approaches: 

@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Schedule
 title: Report Schedule and Distribution
 topic: Reports and analytics
-uuid: 206172f4-d157-4bb5-b312-465b8a798472
+uuid: 47f93c02-f997-42f5-b21e-b251cfc2ffcf
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ Note that these limitations are for individual scheduled and downloaded reports;
 >Steps that describe how to download and email reports in a variety of formats, and schedule a report for delivery.
 <!-- t_send_report.xml -->
 
->1. Run a report, then click ** [!UICONTROL  More] ** > ** [!UICONTROL  Send] **.
+>1. Run a report, then click **[!UICONTROL  More]** > **[!UICONTROL  Send]**.
 >1. Specify delivery options:
 
 >    <table id="choicetable_554B0AD007A442B399686C5B0E68EAAB" keycol="0"> 
@@ -54,7 +54,7 @@ Note that these limitations are for individual scheduled and downloaded reports;
  </tr> 
 </table>
 
->1. Click ** [!UICONTROL  Advanced Delivery Options] ** to specify a delivery schedule.
+>1. Click **[!UICONTROL  Advanced Delivery Options]** to specify a delivery schedule.
 
 >    <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E" keycol="0"> 
  <thead class="chhead sthead"> 
@@ -87,7 +87,7 @@ Note that these limitations are for individual scheduled and downloaded reports;
  </tr> 
 </table>
 
->1. Click ** [!UICONTROL  Scheduling Options] **.
+>1. Click **[!UICONTROL  Scheduling Options]**.
 
 >    <table id="choicetable_589A39087F4C497D8913364FFF0125B7" keycol="0"> 
  <thead class="chhead sthead"> 
@@ -127,23 +127,23 @@ Note that these limitations are for individual scheduled and downloaded reports;
 <!-- t_reports_print.xml -->
 
 >1. Run a report.
->1. Click ** [!UICONTROL  More] ** > ** [!UICONTROL  Print] **.  ![](../assets/print.png)
+>1. Click **[!UICONTROL  More]** > **[!UICONTROL  Print]**.  ![](assets/print.png)
 >## Download a report using basic options {#task_43660107A1C9485D92981CD75B562577}
 >Download detailed information about a specific report in PDF, CSV, Excel, or Raw Data Export formats.
 <!-- t_download-report.xml -->
 
->1. In  ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Reports] ** , select a report to view.
->1. Click ** [!UICONTROL  Download] **.
+>1. In  **[!UICONTROL  Analytics]** > **[!UICONTROL  Reports]** , select a report to view.
+>1. Click **[!UICONTROL  Download]**.
 
->       ![](../assets/download_basic.png) 
+>       ![](assets/download_basic.png) 
 >1. Select the desired format for the report:
->    * ** [!UICONTROL  PDF] **: Specifies that the report will be downloaded in Adobe PDF, which lets you share the report with others, regardless of which computer system the recipient is running. 
+>    * **[!UICONTROL  PDF]**: Specifies that the report will be downloaded in Adobe PDF, which lets you share the report with others, regardless of which computer system the recipient is running. 
 
->    * ** [!UICONTROL  CSV] **: Specifies that the report will be downloaded in [!DNL  .csv] (comma-separated values format). 
+>    * **[!UICONTROL  CSV]**: Specifies that the report will be downloaded in [!DNL  .csv] (comma-separated values format). 
 
->    * ** [!UICONTROL  Excel] **: Specifies that the report will be downloaded in Microsoft Excel format, which lets you share the report with other who can open it in a spreadsheet program. 
+>    * **[!UICONTROL  Excel]**: Specifies that the report will be downloaded in Microsoft Excel format, which lets you share the report with other who can open it in a spreadsheet program. 
 
->    * ** [!UICONTROL  Word] **: Specifies that the report will be downloaded in Microsoft Word format. 
+>    * **[!UICONTROL  Word]**: Specifies that the report will be downloaded in Microsoft Word format. 
 
 
 >   >[!NOTE]
@@ -158,7 +158,7 @@ In the [!UICONTROL  Schedule Reports Manager], you can edit and delete recurring
 
 The [!UICONTROL  Schedule Report Manager] shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop. 
 
->1. To access the manager, click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Scheduled Reports] **.
+>1. To access the manager, click **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Scheduled Reports]**.
 >## Share a report link {#task_9711DDE9E140451B8C914EC5513E21EC}
 >Steps that describe how to share a report by generating a report link (URL) to send to another user.
 <!-- t_reports_share_link.xml -->
@@ -167,7 +167,7 @@ When the recipient clicks the link, the system requests login credentials (compa
 **To share a report link** 
 
 >1. Run a report.
->1. Click ** [!UICONTROL  More] ** > ** [!UICONTROL  Link to This Report] **.
+>1. Click **[!UICONTROL  More]** > **[!UICONTROL  Link to This Report]**.
 >## Unsubscribe from scheduled reports {#concept_6B48360F935740B6851BA85D32DEF637}
 >You can unsubscribe from scheduled reports. You will no longer receive the report even if your user name is re-added to the scheduled report.
 <!-- t_schedule_unsubscribe.xml -->
@@ -178,9 +178,9 @@ When the recipient clicks the link, the system requests login credentials (compa
 
 To unsubscribe from a scheduled report: 
 
-1. Bring up the email with the link to the report from which you want to unsubscribe. ![](../assets/unsubscribe-email.png) 
+1. Bring up the email with the link to the report from which you want to unsubscribe. ![](assets/unsubscribe-email.png) 
 
-1. Click the ** [!UICONTROL  click here] ** link next to ** [!UICONTROL  To cancel automatic delivery of this report] **.
+1. Click the **[!UICONTROL  click here]** link next to **[!UICONTROL  To cancel automatic delivery of this report]**.
 1. Confirm that you want to cancel the report delivery. 
    >[!NOTE]
    >

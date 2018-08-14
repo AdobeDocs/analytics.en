@@ -3,7 +3,7 @@ description: Calculated metrics rights differs between Admin-level users and non
 seo-description: Calculated metrics rights differs between Admin-level users and non-Admins.
 seo-title: Calculated Metrics  Role-Based Rights
 title: Calculated Metrics  Role-Based Rights
-uuid: b7b90eea-49c4-4e25-923e-76220e1d92f9
+uuid: 1a945670-37b1-4fb9-8729-751e4e22285a
 index: y
 internal: n
 snippet: y

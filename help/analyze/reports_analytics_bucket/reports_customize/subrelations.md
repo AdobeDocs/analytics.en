@@ -5,7 +5,7 @@ seo-title: Subrelations
 solution: Analytics
 title: Subrelations
 topic: Reports and analytics
-uuid: 54dd57f8-0d5f-4e59-a98d-2b30eef50e80
+uuid: b6886837-9b4b-4757-90d7-2fb52f8da567
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Subrelations
 
-![](../../assets/subrelations.png) 
+![](assets/subrelations.png) 
 
 ## How Subrelations Work {#section_5BD862BB74FE411B96B59204520E4631}
 
@@ -27,23 +27,23 @@ To help illustrate how subrelations work, consider the following example:
 1. This user searches for 'kittens', and is shown search results (eVar1), and also subscribes to the mailing list (event1).
 If you pulled a Tracking code report, you would see the following: 
 
-![](../../assets/subrel_1.png) 
+![](assets/subrel_1.png) 
 
 If you pulled an eVar1 report, you would see the following: 
 
-![](../../assets/subrel_2.png) 
+![](assets/subrel_2.png) 
 
 If you subrelated the Campaign report by eVar1, you would get the following: 
 
-![](../../assets/subrel_3.png) 
+![](assets/subrel_3.png) 
 
 If you subrelated the eVar1 report by Campaigns, you would get the following: 
 
-![](../../assets/subrel_4.png) 
+![](assets/subrel_4.png) 
 
 Due to the persistent nature of conversion variables, there are two data columns used to store eVar values; the value that is fired, and the value that persists. If we were to look at a raw data export for this example, it would look like this (simplified for this example): 
 
-![](../../assets/subrel_5.png) 
+![](assets/subrel_5.png) 
 
 Our backend works by allowing post_campaign and post_evar1 to persist the values defined in campaign and evar1. Subrelation reports specifically only look at the hits containing success events (rows highlighted in light yellow). They then populate the subrelation reports based on the persisted values (in this case post_campaign and post_evar1, cells highlighted in bright yellow). 
 

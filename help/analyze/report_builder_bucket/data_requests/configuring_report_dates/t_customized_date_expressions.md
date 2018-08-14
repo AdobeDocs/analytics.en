@@ -5,7 +5,7 @@ seo-title: Customized date expressions
 solution: Analytics
 title: Customized date expressions
 topic: Report builder
-uuid: 31aba14f-1fe8-440f-a9c0-ec65059dbc2d
+uuid: d5b8641f-ebd4-4d26-9009-3e9199a8bd75
 index: y
 internal: n
 snippet: y
@@ -18,6 +18,6 @@ It is recommended that you refer to a calendar when building expressions in orde
 
 **To enable custom expressions ** 
 
->1. On the [!UICONTROL  Request Wizard: Step 1], select ** [!UICONTROL  Rolling Dates] **.
->1. Enable ** [!UICONTROL  Custom Expression] **.
->1. Type a special expression in the ** [!UICONTROL  From] ** and ** [!UICONTROL  To] ** fields, following the abbreviations, syntax rules, and examples given below.
+>1. On the [!UICONTROL  Request Wizard: Step 1], select **[!UICONTROL  Rolling Dates]**.
+>1. Enable **[!UICONTROL  Custom Expression]**.
+>1. Type a special expression in the **[!UICONTROL  From]** and **[!UICONTROL  To]** fields, following the abbreviations, syntax rules, and examples given below.

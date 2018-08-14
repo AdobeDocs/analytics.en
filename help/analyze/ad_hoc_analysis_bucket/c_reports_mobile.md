@@ -3,7 +3,7 @@ description: Displays information about websites access from a mobile device. Mo
 seo-description: Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
 seo-title: Mobile Reports
 title: Mobile Reports
-uuid: 08c98c13-8d97-471d-9ac3-e5f4b0637c29
+uuid: 411c99a3-6fa6-40f6-870c-513ce03bce4d
 index: y
 internal: n
 snippet: y
@@ -13,7 +13,7 @@ translate: y
 # Mobile Reports
 
 ## Mobile Reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
->Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.To improve visitor identification for mobile devices, you must be on the carrier's list (white list) for sending subscriber IDs to a domain. (You can view the carrier in the ** [!UICONTROL  Visitor Profile] ** > ** [!UICONTROL  Domains] ** report.) 
+>Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.To improve visitor identification for mobile devices, you must be on the carrier's list (white list) for sending subscriber IDs to a domain. (You can view the carrier in the **[!UICONTROL  Visitor Profile]** > **[!UICONTROL  Domains]** report.) 
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ seo-title: Managing Segments
 solution: Analytics
 title: Managing Segments
 topic: Segments
-uuid: e22826c5-513d-46ba-80ab-100650df2d59
+uuid: 90980b23-811e-40f1-aa80-8f5944991fde
 index: y
 internal: n
 snippet: y
@@ -17,8 +17,8 @@ translate: y
 The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. Access the Segment Manager by 
 
 
-* Going to ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Segments] ** in the top navigation.
-* Displaying an existing report and clicking the Segments icon  ![](../../assets/segment_icon.png) in the left navigation. Then click ** [!UICONTROL  Manage] **.
+* Going to **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Segments]** in the top navigation.
+* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL  Manage]**.
 
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
@@ -27,7 +27,7 @@ This [ Adobe Analytics YouTube video](https://www.youtube.com/watch?v=CdfOq98PTr
 
 ## Segment Manager User Interface {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](../../assets/segment_manager_ui.png) 
+![](assets/segment_manager_ui.png) 
 
 |  #  | UI Feature  | Description  |
 |---|---|---|
@@ -54,6 +54,6 @@ The Segment Organizer in ad hoc analysis shows you all the segments you own and 
 To access the Segment Organizer in [!DNL  ad hoc analysis]: 
 
 
-* Go to the ** [!UICONTROL  Segments] ** tab in the left side panel and then click the wrench icon  ![](../../assets/wrench_icon.png) and select ** [!UICONTROL  Organize Segments] ** from the menu.
+* Go to the **[!UICONTROL  Segments]** tab in the left side panel and then click the wrench icon  ![](assets/wrench_icon.png) and select **[!UICONTROL  Organize Segments]** from the menu.
 
-![](../../assets/ad_hoc_organize_segments.png) Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites. 
+![](assets/ad_hoc_organize_segments.png) Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites. 

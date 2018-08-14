@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Alert Builder
 title: Alert Builder
-uuid: 6813169b-7cd5-4858-a23a-b10258820562
+uuid: 3f312fa1-1c33-46a9-8587-f8175c4d1041
 index: y
 internal: n
 snippet: y
@@ -16,12 +16,12 @@ Access the Alert Builder in one of four ways:
 
 * By using the following shortcut in Analysis Workspace: ` ctrl (or cmd) + shift + a` 
 
-* By going to ** [!UICONTROL  Workspace] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  New Alert] **.
-* By selecting one or more freeform table line items, right-clicking and selecting ** [!UICONTROL  Create Alert from Selection] **.
-* From within a Reports &amp; Analytics report, by going to ** [!UICONTROL  More] ** > ** [!UICONTROL  Add Alert] **.
+* By going to **[!UICONTROL  Workspace]** > **[!UICONTROL  Components]** > **[!UICONTROL  New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL  Create Alert from Selection]**.
+* From within a Reports &amp; Analytics report, by going to **[!UICONTROL  More]** > **[!UICONTROL  Add Alert]**.
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in Analytics: 
 
-![](../../../assets/alert_builder.png) 
+![](assets/alert_builder.png) 
 
 <table id="table_FFAA317BB96D4C389650243F71D99BD4"> 
  <thead> 
@@ -83,4 +83,4 @@ For example, if you set the time granularity to daily, the preview can tell you 
 
 If you find that too many alerts would have been triggered, you can adjust the threshold in the [ Alert Manager](../../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/alert-manager.md#concept_633AE746900B44D2A7045386B526ED8D). 
 
-![](../../../assets/alert_preview.png) 
+![](assets/alert_preview.png) 

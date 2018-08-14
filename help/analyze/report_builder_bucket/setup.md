@@ -5,7 +5,7 @@ seo-title: Report Builder setup
 solution: Analytics
 title: Report Builder setup
 topic: Report builder
-uuid: ac2c29f5-cccd-45a1-ac40-459f0a28a877
+uuid: 4eb40081-f4ab-4840-8147-7de0a98ef1e0
 index: y
 internal: n
 snippet: y

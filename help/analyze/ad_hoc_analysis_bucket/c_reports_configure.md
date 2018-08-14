@@ -3,7 +3,7 @@ description: Learn about the various actions you can perform on a report, such a
 seo-description: Learn about the various actions you can perform on a report, such as configuring charts, graphs, breakdowns, and extracting data.
 seo-title: Configure Existing Reports
 title: Configure Existing Reports
-uuid: 60fd04d1-6ba3-482f-9fd8-43eca894bf8e
+uuid: 609353fe-47f6-4868-871e-c210bded146e
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 ## Report Actions {#concept_26C41C0141A94B19B61D43955A908480}
 >Actions that you can perform on a report, such as copying, saving, printing, renaming, and configuring delivery options.
 <!-- c_report_actions.xml -->
-In a report, click the ** [!UICONTROL  Report Actions] ** drop-down.  ![](../assets/tools_icon.png) 
+In a report, click the **[!UICONTROL  Report Actions]** drop-down.  ![](assets/tools_icon.png) 
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -133,12 +133,12 @@ Certain reports let you break down the table data so that you can see subrelated
 **To break down table data** 
 
 >1. Run a report.
->1. Right-click a line item, then click ** [!UICONTROL  Breakdown] ** &gt; *item.*
+>1. Right-click a line item, then click **[!UICONTROL  Breakdown]** &gt; *item.*
 
 
 >       >[!NOTE]
 >       >
->       >For more flexibility, use the[ Table Builder](../ad_hoc_analysis_bucket/c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click ** [!UICONTROL  Replace Table] ** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity. 
+>       >For more flexibility, use the[ Table Builder](../ad_hoc_analysis_bucket/c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click **[!UICONTROL  Replace Table]** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity. 
 >[!MORE_LIKE_THIS]* [  ](c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E)## Change the Report Type in the Table {#task_B48F97F0F6D5448A969D55238E93F2FB}
 
 <!-- t_reports_changing_types.xml -->
@@ -147,7 +147,7 @@ For ranked reports, you can change the report to a different type of report whil
 **To change the report type in the table** 
 
 >1. Open and configure a ranked report.
->1. Right-click the report name column heading in the table, then click ** [!UICONTROL  Select Report] **, then navigate to the report.
+>1. Right-click the report name column heading in the table, then click **[!UICONTROL  Select Report]**, then navigate to the report.
 >## Copy Data to the Clipboard {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
 <!-- t_reports_clipboard.xml -->
@@ -155,7 +155,7 @@ For ranked reports, you can change the report to a different type of report whil
 >1. Open Excel.
 >   It is recommended that you open Excel prior to copying data, because Excel clears the memory buffer when it starts. 
 >
->1. At the report level, click ** [!UICONTROL  Settings] ** ![](../assets/settings_icon.png), then click ** [!UICONTROL  Copy Report Data] **.
+>1. At the report level, click **[!UICONTROL  Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL  Copy Report Data]**.
 >1. In Excel, select a cell, then paste the data.
 >## Extract Visitor IDs {#task_7223BE8E0389460282825E61BEDC0574}
 
@@ -165,11 +165,11 @@ In marketing reports and analytics, you can set a field to contain user ID data.
 **To extract visitor IDs** 
 
 >1. Add a data warehouse segment to the report.
->1. Right-click the segment and select ** [!UICONTROL  Extract Visitor IDs] **.
+>1. Right-click the segment and select **[!UICONTROL  Extract Visitor IDs]**.
 
 >       The data warehouse application launches. 
 >1. On the [!UICONTROL  Data Warehouse Request] tab, type the filter name.
->1. Click ** [!UICONTROL  Request this Report] **.
+>1. Click **[!UICONTROL  Request this Report]**.
 >## Trend a Row {#task_83C003EDCA7140C3AE9804629DD7A235}
 
 <!-- t_reports_trending_row.xml -->
@@ -178,17 +178,17 @@ When viewing a ranked report, such as a products report, you can see the trend d
 ** To trend a row** 
 
 >1. Run a ranked report.
->1. Click the [!UICONTROL  Trend] icon.  ![](../assets/TrendInspector_Buttcon.png)
+>1. Click the [!UICONTROL  Trend] icon.  ![](assets/TrendInspector_Buttcon.png)
 >   You can select multiple cells to apply to a single trend report. 
 >
->1. To launch a report, click ** [!UICONTROL  Launch Trend Report] **.
+>1. To launch a report, click **[!UICONTROL  Launch Trend Report]**.
 >## Set Column Width {#task_0FCF395B4A8C40508B38B44586FB5969}
 
 <!-- t_column_width.xml -->
 
->1. In the table, right-click the column header, then click ** [!UICONTROL  Column Width] **.
+>1. In the table, right-click the column header, then click **[!UICONTROL  Column Width]**.
 
->    [!UICONTROL  Fit to Screen]1. Specify a width in pixels, then click ** [!UICONTROL  OK] **.
+>    [!UICONTROL  Fit to Screen]1. Specify a width in pixels, then click **[!UICONTROL  OK]**.
 >[!MORE_LIKE_THIS]* [ Table Builder ](c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E)## Custom Reports {#concept_039A45AAEEDC4828B3CDA080717B8E4F}
 >Administrators can configure a report with specific metrics and a specific date range, and then save it to the report menus for everyone to use.
 <!-- c_reports_custom.xml -->

@@ -5,7 +5,7 @@ seo-title: Marking Segments as Favorites
 solution: Analytics
 title: Marking Segments as Favorites
 topic: Segments
-uuid: 3c8053a4-93d8-4954-b5c7-f442c48ddf28
+uuid: f2edd0b3-c725-40ee-a017-320891a16559
 index: y
 internal: n
 snippet: y
@@ -17,4 +17,4 @@ translate: y
 
 >1. In the Segment Manager, check the star next to any segment that you want to mark as a favorite. It should now appear as a yellow star:
 
->       ![](../../assets/favorites.png)1. You can also filter on favorites under ** [!UICONTROL  Filters] ** > ** [!UICONTROL  Other Filters] ** > ** [!UICONTROL  Favorites] **.
+>       ![](assets/favorites.png)1. You can also filter on favorites under **[!UICONTROL  Filters]** > **[!UICONTROL  Other Filters]** > **[!UICONTROL  Favorites]**.

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: FTP and SFTP
 title: FTP and SFTP
-uuid: d9177283-04ac-45b9-a10b-c11e41477f46
+uuid: e4bf4daf-5530-4827-bc93-0ff9c3b79c4b
 index: y
 internal: n
 snippet: y

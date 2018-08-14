@@ -3,7 +3,7 @@ description: Analysis Workspace tables generate "dynamic" rows when you drop a d
 seo-description: Analysis Workspace tables generate "dynamic" rows when you drop a dimension into the table - meaning that all items that correspond to the dimension, for a given metric, are pulled into the table.
 seo-title: Manual vs. dynamic rows
 title: Manual vs. dynamic rows
-uuid: e534c515-600b-4c27-99c1-2880be851879
+uuid: 207ed143-b690-49a2-8ecb-8e3a79f5935f
 index: y
 internal: n
 snippet: y
@@ -21,11 +21,11 @@ In contrast, any time you manually select and drop a specific metric, segment, d
 * Limit how many rows display and enable paging.
 * Add "mixed dimension items". For example, add an item from a browser dimension and another item from a product dimension. Here is an illustration: 
 
-  ![](../../../assets/static_rows.png) 
+  ![](assets/static_rows.png) 
 
 In addition, (only) when you are in a manual row mode, you can now change how the column totals are calculated. Just click the gear icon and toggle between these 2 options: 
 
-![](../../../assets/column-totals.png) 
+![](assets/column-totals.png) 
 
 
 

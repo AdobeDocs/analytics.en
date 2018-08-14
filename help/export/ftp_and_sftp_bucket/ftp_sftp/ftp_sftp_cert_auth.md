@@ -5,7 +5,7 @@ seo-description: Connecting without a password to FTP accounts is only possible 
 seo-title: Connect to Adobe via SFTP Without a Password
 solution: Analytics
 title: Connect to Adobe via SFTP Without a Password
-uuid: 53a41907-50da-46d7-83a8-f7fb83a99257
+uuid: e5dc0569-9dfe-4bd7-8a90-4cd18400177a
 index: y
 internal: n
 snippet: y

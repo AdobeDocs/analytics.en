@@ -5,7 +5,7 @@ seo-title: Selecting and Applying Segments
 solution: Analytics
 title: Selecting and Applying Segments
 topic: Segments
-uuid: a168d0c4-8e78-45da-822f-9d7a3944d848
+uuid: 7437b0a7-e049-4bd1-a753-6af17c5e815c
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 
 
 >1. Bring up the report to which you want to apply a segment, for example the [!UICONTROL  Pages Report].
->1. Click ** [!UICONTROL  Show Segments] ** above the report. The segment rail opens.
+>1. Click **[!UICONTROL  Show Segments]** above the report. The segment rail opens.
 
->       ![](../../assets/segment_rail.png)1. Mark the checkbox next to one or more of the segments or ** [!UICONTROL  Search Segments] ** to find the right segment.
+>       ![](assets/segment_rail.png)1. Mark the checkbox next to one or more of the segments or **[!UICONTROL  Search Segments]** to find the right segment.
 
 
 >       >[!NOTE]
@@ -28,7 +28,7 @@ translate: y
 >       >[!NOTE]
 >       >
 >       >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
->1. You can filter by report suite by selecting the ** [!UICONTROL  (Only) &amp;lt;report suite name&amp;gt;] ** check box. This will show only those segments that were last saved in that report suite.
->1. Click ** [!UICONTROL  Apply Segment] ** and the report will refresh. The segment or segments that are applied now display at the top of the report:
+>1. You can filter by report suite by selecting the **[!UICONTROL  (Only) &amp;lt;report suite name&amp;gt;]** check box. This will show only those segments that were last saved in that report suite.
+>1. Click **[!UICONTROL  Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
->       ![](../../assets/applied_segments.png)
+>       ![](assets/applied_segments.png)

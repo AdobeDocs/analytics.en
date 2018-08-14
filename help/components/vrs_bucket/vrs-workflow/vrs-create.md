@@ -6,7 +6,7 @@ seo-title: Creating Virtual Report Suites
 solution: Analytics
 title: Creating Virtual Report Suites
 topic: Reports and analytics
-uuid: ecd74fcc-b345-421b-85c9-909115c4f67a
+uuid: 92763f1b-a2dc-4181-b200-49d7e068c735
 index: y
 internal: n
 snippet: y
@@ -20,8 +20,8 @@ translate: y
 * Virtual report suites cannot be shared. "Sharing" is done via groups/permissions.
 * In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click “show all” to see everyone else’s.
 
-1. Navigate to ** [!UICONTROL  Components] ** > ** [!UICONTROL  Virtual Report Suites] **.
-1. Click ** [!UICONTROL  Add +] **. ![](../../assets/new_vrs.png) 
+1. Navigate to **[!UICONTROL  Components]** > **[!UICONTROL  Virtual Report Suites]**.
+1. Click **[!UICONTROL  Add +]**. ![](assets/new_vrs.png) 
 
 1. Fill in the fields:
 

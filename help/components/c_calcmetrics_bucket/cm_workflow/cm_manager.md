@@ -3,7 +3,7 @@ description: The Calculated Metric Manager offers many ways of curating metrics,
 seo-description: The Calculated Metric Manager offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 seo-title: Calculated Metric Manager
 title: Calculated Metric Manager
-uuid: 1803a1f2-0f50-426f-9dc2-fabf59311dd3
+uuid: a2204945-d482-489f-b7e7-dc38d91afc4f
 index: y
 internal: n
 snippet: y
@@ -15,10 +15,10 @@ translate: y
 The Calculated Metric Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. This overview presents the user interface and the capabilities of the Calculated Metric Manager. Access it by 
 
 
-* Going to ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** in the left navigation. Then click ** [!UICONTROL  Calculated Metrics] **.
+* Going to **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** in the left navigation. Then click **[!UICONTROL  Calculated Metrics]**.
 
 
-![](../../assets/calcmet_mgr_ui.png) 
+![](assets/calcmet_mgr_ui.png) 
 
 |  #  | UI Feature  | Description  |
 |---|---|---|

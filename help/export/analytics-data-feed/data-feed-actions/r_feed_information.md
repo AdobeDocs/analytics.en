@@ -5,7 +5,7 @@ seo-description: Use the Feed Information section to name the feed, specify the 
 seo-title: Feed Information
 solution: Analytics
 title: Feed Information
-uuid: 034f67b0-ca66-4b67-b85e-f3d0870f535e
+uuid: a10c26ce-ef94-4fef-9def-f2c93290cd95
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 # Feed Information
 
 
->![](../../assets/feed-info.jpg) 
+>![](assets/feed-info.jpg) 
 
 
 

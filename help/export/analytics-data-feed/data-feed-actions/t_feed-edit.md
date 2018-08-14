@@ -5,7 +5,7 @@ seo-description: You can edit some of the fields for a feed.
 seo-title: Edit a Feed
 solution: Analytics
 title: Edit a Feed
-uuid: b84341f1-714e-4608-a5c3-79add2c6f84f
+uuid: 8d0305f4-ce0e-4d40-9d13-da4e3fb04cfa
 index: y
 internal: n
 snippet: y

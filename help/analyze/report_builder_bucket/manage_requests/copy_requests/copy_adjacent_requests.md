@@ -5,7 +5,7 @@ seo-title: Copy adjacent requests
 solution: Analytics
 title: Copy adjacent requests
 topic: Report builder
-uuid: 7f28bdd5-d4ab-4d41-91ff-cb81fb80e0de
+uuid: dc36f935-450a-45d7-85bb-95bd17150543
 index: y
 internal: n
 snippet: y

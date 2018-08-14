@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Schedule
 title: Data Extract
 topic: Reports and analytics
-uuid: c36eefad-570e-483c-a026-e78700f2bae8
+uuid: f4de6c5a-fad9-4d00-b086-8d30978f7a5a
 index: y
 internal: n
 snippet: y
@@ -23,5 +23,5 @@ For example, you could place products along the left side of the report, dates a
 Data Extracts can process a maximum number of 50,000 rows in a single request. 
 >## Extract data from a report {#task_D97E2DA5A99D47C09F738CAF22BAF20C}
 >Steps that describe how to extract data from a report and send it via email.
->1. Run a report, then click ** [!UICONTROL  More] ** > ** [!UICONTROL  Extract Data] **.
+>1. Run a report, then click **[!UICONTROL  More]** > **[!UICONTROL  Extract Data]**.
 >1. Follow the steps in the Data Extract wizard.

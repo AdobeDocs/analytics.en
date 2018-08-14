@@ -5,7 +5,7 @@ seo-title: Activity Map user interface
 solution: Analytics
 title: Activity Map user interface
 topic: Activity map
-uuid: 2fd96ad7-84e6-47f7-800e-8de59647cf5d
+uuid: ff541d36-e41a-4da4-9df4-18984ecd9438
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ translate: y
 
 At the top, you can see your web page with the [ injected tool bar](cm_standard_vs_live.md#concept_A56279C64CAC43EC8326E584508908A7) and [ link overlays](c_GainersandLosersOverlay.md#concept_44D94D7147E449AEA887E74BA325F557). Bubble rankings display over links to let you identify the total number of clicks. 
 
-![](../assets/top_panel.png) 
+![](assets/top_panel.png) 
 
 Additional link details can be accessed by hovering over each link overlay: 
 
@@ -32,4 +32,4 @@ At the bottom of the page, you can see the [ Links on Page](c_Links_report.md#co
 
 The Links on Page Report gives you a spreadsheet view of the links in the current page, including additional click information. The Page Details Report presents analytics data related to the pages that were visited before and after navigating to the currently displayed page. 
 
-![](../assets/bottom_panel.png) 
+![](assets/bottom_panel.png) 

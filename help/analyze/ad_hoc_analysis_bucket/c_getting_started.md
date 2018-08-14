@@ -3,7 +3,7 @@ description: Get started with Ad Hoc Analysis.
 seo-description: Get started with Ad Hoc Analysis.
 seo-title: Getting Started
 title: Getting Started
-uuid: fe11a748-a130-43a9-af36-2bd3b37a0148
+uuid: 3c0a6edd-a3fa-4059-a459-a4edb298b0e5
 index: y
 internal: n
 snippet: y
@@ -85,8 +85,8 @@ If you still have Java 7 installed, you must upgrade before the July 2018 Mainte
 
 * If you are allowed to install programs on your machine: 
     1. Go to www.java.com.
-    1. Click ** [!UICONTROL  Free Java Download] **.
-    1. Click ** [!UICONTROL  Agree and Start Free Download] **.
+    1. Click **[!UICONTROL  Free Java Download]**.
+    1. Click **[!UICONTROL  Agree and Start Free Download]**.
     1. Install the latest Java version specific to your Operating System.
 
 * If you are **not** allowed to install programs on your machine: 
@@ -105,10 +105,10 @@ You can log in from the [!DNL  Experience Cloud] or from a URL. If you log in fr
 <!-- t_login_suite.xml -->
 
 >1. In a browser, navigate to [!DNL  marketing.adobe.com].
->1. Type your company name, your username, and your password. Then click ** [!UICONTROL  Sign In] **.
->1. Click ** [!UICONTROL  Adobe Analytics] ** > ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Ad Hoc Analysis] **.
+>1. Type your company name, your username, and your password. Then click **[!UICONTROL  Sign In]**.
+>1. Click **[!UICONTROL  Adobe Analytics]** > **[!UICONTROL  Tools]** > **[!UICONTROL  Ad Hoc Analysis]**.
 >   If you do not see the**Launch Ad Hoc Analysis** button on this page, make sure the administrator added you to the *Ad Hoc Analysis License User* group in the Admin Tools.>
->1. Click ** [!UICONTROL  Launch Ad Hoc Analysis] **.
+>1. Click **[!UICONTROL  Launch Ad Hoc Analysis]**.
 >1. Save the [!DNL  discover.jnlp] file locally.
 >   You can run this saved file whenever you want to launch Ad Hoc Analysis.>
 >## Projects and Workspaces {#concept_FAE346335B0347A192C6C806C775D72B}
@@ -116,7 +116,7 @@ You can log in from the [!DNL  Experience Cloud] or from a URL. If you log in fr
 <!-- c_projects.xml -->
 You group reports into a *workspace*. A project can contain multiple workspaces, and a workspace can contain multiple reports. The relationship among these items is best understood as a nested one: 
 
-![](../assets/project_workspace.png) 
+![](assets/project_workspace.png) 
 
 You can open only one project at a time. However, you can open multiple workspaces in a project. In each workspace you can have several reports open. 
 
@@ -126,25 +126,25 @@ The default date range for a new project is [!UICONTROL  Last 90 Days].
 <!-- t_project_start.xml -->
 
 >1. Log in.
->1. Open a saved project or click ** [!UICONTROL  Create Project] **.
+>1. Open a saved project or click **[!UICONTROL  Create Project]**.
 >1. Search for a report, or choose a template.
 >## Open a Recently Saved Workspace {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
 >Steps that describe how to open recently saved workspaces.
 <!-- t_recent_workspace.xml -->
 
->1. Click ** [!UICONTROL  File] ** > ** [!UICONTROL  Recent Workspace] **.
+>1. Click **[!UICONTROL  File]** > **[!UICONTROL  Recent Workspace]**.
 >   You can open up to five recent workspaces. Recent workspaces are not available after exiting your session. 
 >
 >## Share Projects {#task_5911780D90164F3A8A677C8BC719750D}
 >Shared projects will be available to all Ad Hoc Analysis users in the company.
 <!-- t_share_projects.xml -->
 
->1. Go to ** [!UICONTROL  File] ** > ** [!UICONTROL  Save As] **.
->1. Select ** [!UICONTROL  Shared Projects] ** from the ** [!UICONTROL  Save in:] **drop-down.
+>1. Go to **[!UICONTROL  File]** > **[!UICONTROL  Save As]**.
+>1. Select **[!UICONTROL  Shared Projects]** from the **[!UICONTROL  Save in:]**drop-down.
 
->       ![](../assets/shared_projects.png)1. Click ** [!UICONTROL  Save] ** to save the project.
+>       ![](assets/shared_projects.png)1. Click **[!UICONTROL  Save]** to save the project.
 
->       ** [!UICONTROL  File] ** > ** [!UICONTROL  Open] ** > ** [!UICONTROL  Shared Projects] **
+>       **[!UICONTROL  File]** > **[!UICONTROL  Open]** > **[!UICONTROL  Shared Projects]**
 >       >[!NOTE]
 >       >
 >       >You can delete your own shared projects in the same dialog box for sharing projects by selecting one or more projects.
@@ -153,18 +153,18 @@ The default date range for a new project is [!UICONTROL  Last 90 Days].
 <!-- t_rename_workspace.xml -->
 
 >1. Right click the workspace name.
->1. Choose ** [!UICONTROL  Rename Workspace] **.
->1. Type a name, then click ** [!UICONTROL  OK] **.
+>1. Choose **[!UICONTROL  Rename Workspace]**.
+>1. Type a name, then click **[!UICONTROL  OK]**.
 >## Open Local Project {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 >Steps that describe how to open a local copy of a project.
 <!-- t_open_local_project.xml -->
 
->1. Click ** [!UICONTROL  File] ** > ** [!UICONTROL  Open Local Copy] **.
->1. Navigate to the local [!DNL  .dproj] file, then click ** [!UICONTROL  Open] **.
+>1. Click **[!UICONTROL  File]** > **[!UICONTROL  Open Local Copy]**.
+>1. Navigate to the local [!DNL  .dproj] file, then click **[!UICONTROL  Open]**.
 >## Report Templates {#concept_370F674C5B4C45368731AA801C5A45F8}
 >Templates are starting points for the type of analysis you want to perform. A template can be a blank canvas, such as a Ranked or Fallout report. Or, the template is a report that starts with default metrics and dimensions.
 <!-- c_templates.xml -->
-You can access templates when creating a project ( ** [!UICONTROL  File] ** > ** [!UICONTROL  New Project] **), or by adding a workspace or report. 
+You can access templates when creating a project ( **[!UICONTROL  File]** > **[!UICONTROL  New Project]**), or by adding a workspace or report. 
 
 <table id="table_D2A36022D0794FF480D232E87B641F75"> 
  <desc>
@@ -212,5 +212,5 @@ You can access templates when creating a project ( ** [!UICONTROL  File] ** > **
 Several ways are available to open a report: 
 
 * On the [!UICONTROL  New Report] page, search for a report or choose a template.
-* Click ** [!UICONTROL  Reports] ** from the menu, then select a report or report template.
-* Launch a report from a dimension: right-click a dimension name, then select ** [!UICONTROL  Run Report] ** > * * ` report name` **.
+* Click **[!UICONTROL  Reports]** from the menu, then select a report or report template.
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL  Run Report]** > * *` report name`**.

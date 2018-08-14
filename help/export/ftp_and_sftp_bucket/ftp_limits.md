@@ -5,7 +5,7 @@ seo-description: All Adobe FTP accounts have a data storage limit of 2 GB (or 63
 seo-title: FTP Limits and Data Retention
 solution: Analytics
 title: FTP Limits and Data Retention
-uuid: ca4b3e72-9f2d-4ed0-a86a-2a87c66ad62b
+uuid: 54b29523-928c-47a5-ac81-87069bc8aa1f
 index: y
 internal: n
 snippet: y

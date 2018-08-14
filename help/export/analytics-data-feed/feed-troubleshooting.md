@@ -5,7 +5,7 @@ seo-description: This section contains information about common issues.
 seo-title: Troubleshooting Data Feeds
 solution: Analytics
 title: Troubleshooting Data Feeds
-uuid: 282191bd-c31d-414d-8138-4cc612fcd1af
+uuid: c587be57-f39a-4e20-be29-4360ffc8046d
 index: y
 internal: n
 snippet: y

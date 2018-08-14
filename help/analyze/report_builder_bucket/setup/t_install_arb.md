@@ -5,7 +5,7 @@ seo-title: Install Report Builder
 solution: Analytics
 title: Install Report Builder
 topic: Report builder
-uuid: edb4d39a-0b2c-4d88-9d7a-dfef51395ad3
+uuid: bd337221-d45b-4e69-bec8-2970e923da35
 index: y
 internal: n
 snippet: y
@@ -22,11 +22,11 @@ translate: y
 
 
 
->1. Click ** [!UICONTROL  Adobe Experience Cloud] ** > ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Report Builder] **.
->1. Click ** [!UICONTROL  Download Now] ** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .
+>1. Click **[!UICONTROL  Adobe Experience Cloud]** > **[!UICONTROL  Analytics]** > **[!UICONTROL  Tools]** > **[!UICONTROL  Report Builder]**.
+>1. Click **[!UICONTROL  Download Now]** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .
 >1. Open the downloaded installer package.
 >1. Follow the installation wizard.
 >1. Open/Restart MS Excel to get the [!UICONTROL  Add-Ins] menu to show up.
->1. Go to ** [!UICONTROL  Add-Ins] ** > ** [!UICONTROL  Sign In] **.
+>1. Go to **[!UICONTROL  Add-Ins]** > **[!UICONTROL  Sign In]**.
 
 >       [ Report Builder Sign-In](../../report_builder_bucket/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)

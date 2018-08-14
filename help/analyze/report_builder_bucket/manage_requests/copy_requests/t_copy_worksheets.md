@@ -5,7 +5,7 @@ seo-title: Copy worksheets
 solution: Analytics
 title: Copy worksheets
 topic: Report builder
-uuid: f6a813a7-564b-4218-9dd9-5622393b7df8
+uuid: e6d8c29e-5d76-4e1a-88c1-81e0faca42c7
 index: y
 internal: n
 snippet: y
@@ -15,8 +15,8 @@ translate: y
 # Copy worksheets
 
 
->1. Right-click a cell anywhere in the spreadsheet and select ** [!UICONTROL  Copy Worksheet w/Requests] **.
->1. Right-click again and select ** [!UICONTROL  Paste Worksheet w/Requests] **.
+>1. Right-click a cell anywhere in the spreadsheet and select **[!UICONTROL  Copy Worksheet w/Requests]**.
+>1. Right-click again and select **[!UICONTROL  Paste Worksheet w/Requests]**.
 
 >       A new worksheet is added to your workbook. By default, the worksheet has the same name as the original worksheet, but has the suffix (2). If you repeat the paste operation, the new worksheet has the suffix (3), and so on. When you paste a spreadsheet that you have copied, the new spreadsheet is located to the right of (immediately after) the active worksheet. 
 

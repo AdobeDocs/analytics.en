@@ -3,7 +3,7 @@ description: Report Time Processing is a virtual report suite setting that allow
 seo-description: Report Time Processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
 seo-title: Report Time Processing
 title: Report Time Processing
-uuid: f8a6615c-1872-448f-a481-cec6f02b1804
+uuid: 017e46e9-dfa0-4e27-b70d-7d6e84f2d1cf
 index: y
 internal: n
 snippet: y
@@ -21,13 +21,13 @@ translate: y
 
 Report Time Processing only affects the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between Report Time Processing and traditional Analytics processing is best understood using the following diagram: 
 
-![](../assets/google1.jpg) 
+![](assets/google1.jpg) 
 
 During Analytics data processing, data flows through the data collection pipeline and into a preprocessing step, which prepares data for reporting. This preprocessing step applies visit expiration logic and eVar persistence logic (among other things) to the data as it is collected. The primary disadvantage of this preprocessing model is that it requires any configuration be done in advance before data is collected. This means that any changes to preprocessing settings apply only to new data from that time forward. This is problematic if data arrives out of order or if settings were misconfigured. 
 
 Report Time Processing is a fundamentally different way of processing Analytics data for reporting. Instead of predetermining processing logic before data is collected, Analytics ignores the data set during the preprocessing step and applies this logic each time a report is run: 
 
-![](../assets/google2.jpg) 
+![](assets/google2.jpg) 
 
 This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers retroactively as if you had applied those settings before the data was collected. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite. 
 

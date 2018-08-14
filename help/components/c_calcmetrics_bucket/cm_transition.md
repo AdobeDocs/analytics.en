@@ -3,7 +3,7 @@ description: These changes to the way calculated metrics work in Analytics may i
 seo-description: These changes to the way calculated metrics work in Analytics may impact you.
 seo-title: Frequently Asked Questions
 title: Frequently Asked Questions
-uuid: 2571cdc3-b27f-4c5b-b742-c6bc7fe1114a
+uuid: c4904fe7-49e4-4dae-b260-5bf923906927
 index: y
 internal: n
 snippet: y
@@ -55,15 +55,15 @@ translate: y
 ## 1. How do I access the Calculated Metric Builder? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
 
-* Click ** [!UICONTROL  + Add] ** at the top of the Calculated Metric Manager, or
-* In any Analytics report, click the Metrics icon  ![](../assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click ** [!UICONTROL  Add] **.
+* Click **[!UICONTROL  + Add]** at the top of the Calculated Metric Manager, or
+* In any Analytics report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL  Add]**.
 
 
 ## 2. How do I access the Calculated Metric Manager? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
 
-* Go to  ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** in the left navigation. Then click ** [!UICONTROL  Calculated Metrics] **.
-* In any Analytics report, click the Metrics icon  ![](../assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click ** [!UICONTROL  Manage] **.
+* Go to  **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** in the left navigation. Then click **[!UICONTROL  Calculated Metrics]**.
+* In any Analytics report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL  Manage]**.
 
 ## 3. Why do I see so many Calculated Metrics with the same name? {#section_E15C5B6CCC58498CAEC3FBDA8988F0A1}
 
@@ -71,7 +71,7 @@ translate: y
 
 Now, metrics are no longer segregated by report suites. If a metric in one report suite had the same name as a metric in a different report suite, they will both be visible in the Calculated Metric Builder as well as the Metric Selector and might appear as duplicate metrics even though they may or may not have the same definition. 
 
-You would see a number of calculated metrics with the same name (but created in different report suites) only if you unchecked the (Only &lt;report suite&gt;) checkbox as shown here:  ![](../assets/report_suite.png) 
+You would see a number of calculated metrics with the same name (but created in different report suites) only if you unchecked the (Only &lt;report suite&gt;) checkbox as shown here:  ![](assets/report_suite.png) 
 
 **What You Need to Do** 
 

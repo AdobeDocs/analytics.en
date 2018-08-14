@@ -5,7 +5,7 @@ seo-title: Combine traffic and commerce metrics in the same request
 solution: Analytics
 title: Combine traffic and commerce metrics in the same request
 topic: Report builder
-uuid: d0fd9f0c-ef9b-4ecc-b6e6-88a599a1f9a6
+uuid: eec72726-e53f-4b0a-97c9-fe1daf9d6ddf
 index: y
 internal: n
 snippet: y
@@ -16,6 +16,6 @@ translate: y
 
 Traffic and commerce metrics are now displayed in the same metric category in Step 2 of the Request Wizard. Previously, these metrics were separated into a Commerce category and a Traffic category. 
 
-The new grouped category is labeled ** [!UICONTROL  Standard] **. . 
+The new grouped category is labeled **[!UICONTROL  Standard]**. . 
 
-![](../../../assets/standard_metrics.png) 
+![](assets/standard_metrics.png) 

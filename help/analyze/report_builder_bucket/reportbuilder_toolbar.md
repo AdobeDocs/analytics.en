@@ -5,7 +5,7 @@ seo-title: Report Builder toolbar
 solution: Analytics
 title: Report Builder toolbar
 topic: Report builder
-uuid: ae186f86-83d4-46a2-8927-a115f339b8e9
+uuid: f625ac45-d1d2-4520-b17a-8d3ff0d7887f
 index: y
 internal: n
 snippet: y
@@ -14,9 +14,9 @@ translate: y
 
 # Report Builder toolbar
 
-After you install Report Builder and launch Excel, click ** [!UICONTROL  Add-Ins] **. 
+After you install Report Builder and launch Excel, click **[!UICONTROL  Add-Ins]**. 
 
-![](../assets/report_builder_toolbar.png) 
+![](assets/report_builder_toolbar.png) 
 
 ** Sign In:** Displays the [!UICONTROL  Login] form so that you can log in with your credentials or as a different user. Also displays your company name after login. See [ Log In To Report Builder](../report_builder_bucket/setup/login/t_loggin_in_to_reportbuilder.md#task_08762953310F4FB0B91C0B1AA5044BAC). 
 
@@ -32,7 +32,7 @@ After you install Report Builder and launch Excel, click ** [!UICONTROL  Add-Ins
 
 **Library: **Launches the [!UICONTROL  Workbook Library] so that you can upload a report builder Excel workbook that you want to share. You can also download and edit shared workbooks. See [ Use the Workbook Library](../report_builder_bucket/workbook_library.md#concept_4F5B1DF7726A4B17B2308D1F0F8301DA). 
 
-**Options:** Lets you specify whether you want to be prompted for the ** [!UICONTROL  As Of] ** (Now) date when refreshing requests, and lets you enable logging for troubleshooting purposes. See [ Options](../report_builder_bucket/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF). 
+**Options:** Lets you specify whether you want to be prompted for the **[!UICONTROL  As Of]** (Now) date when refreshing requests, and lets you enable logging for troubleshooting purposes. See [ Options](../report_builder_bucket/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF). 
 
 **Locked/Unlocked:** You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing. See [ Lock/Unlock Workbooks](../report_builder_bucket/workbook_library/protect_wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83). 
 

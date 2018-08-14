@@ -5,7 +5,7 @@ seo-title: Report Display Settings and Navigation
 solution: Analytics
 title: Report Display Settings and Navigation
 topic: Reports,Reports and analytics
-uuid: 6ca2f49c-1a74-48c4-b38d-2d5f2d0eb944
+uuid: eddc63d5-c4e4-44ed-a194-5169ae6a38b5
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 # Report Display Settings and Navigation
 
 ## Report Display Settings and Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
->Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Report Settings] ** 
+>Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.**[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Report Settings]** 
 
 <table id="table_4D50536CF58B422683DAB5A17750E7D1"> 
  <thead> 

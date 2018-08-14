@@ -5,7 +5,7 @@ seo-title: Activity Map FAQ
 solution: Analytics
 title: Activity Map FAQ
 topic: Activity map
-uuid: 359b4655-2967-4094-a2d3-0115261653fc
+uuid: e859e6d3-ffe8-4532-bb4b-d1d9ed0d5e4b
 index: y
 internal: n
 snippet: y

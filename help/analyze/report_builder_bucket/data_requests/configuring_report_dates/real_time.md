@@ -5,7 +5,7 @@ seo-title: Real-time reports
 solution: Analytics
 title: Real-time reports
 topic: Report builder
-uuid: 67ffa47e-256a-465d-96ea-7ecf88e5bda1
+uuid: 646efb5a-c570-458b-b4d5-2b4582987475
 index: y
 internal: n
 snippet: y

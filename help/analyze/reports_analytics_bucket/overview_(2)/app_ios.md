@@ -5,7 +5,7 @@ seo-title: Adobe Analytics for iOS
 solution: Analytics
 title: Adobe Analytics for iOS
 topic: Reports and analytics
-uuid: 4b388c7c-ebe7-456f-8628-ee9cbf143f84
+uuid: efb96c6c-cd13-4e15-a852-e889decf40c3
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 You can use Analytics for iOS any time or anywhere to view, present, or e-mail real-time trend data. 
 
-![](../../assets/ipad.png) 
+![](assets/ipad.png) 
 
 You can view trend data by day, week, or month, or up to 90 days. The clear, simple-to-use interface lets you quickly access and present trend data reports of up to three metrics. 
 

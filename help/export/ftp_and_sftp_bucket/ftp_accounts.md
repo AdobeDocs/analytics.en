@@ -5,7 +5,7 @@ seo-description: Set up and use Adobe-hosted FTP accounts.
 seo-title: Setting Up FTP Accounts Hosted by Adobe
 solution: Analytics
 title: Setting Up FTP Accounts Hosted by Adobe
-uuid: 67399207-0e57-4a85-90ef-e50b1307c590
+uuid: ab1d52c3-466d-4620-ad0e-75062325a40b
 index: y
 internal: n
 snippet: y

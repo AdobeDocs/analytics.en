@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Dashboards
 title: Dashboard Manager
 topic: Reports and analytics
-uuid: cd9b8a3d-80ca-4f6c-bbb0-9479d4f615ab
+uuid: 1c61244e-1f61-4efc-8f2f-60e0f3545f24
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 # Dashboard Manager
 
 ## Dashboard Manager {#concept_E1301CF138EB477794B00F693B4FCA0F}
->Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.Click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Dashboards] **. 
+>Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.Click **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Dashboards]**. 
 <p class="head"> <b>Dashboard Manager Descriptions</b> </p>
 
 
@@ -59,7 +59,7 @@ translate: y
 >Steps that describe how use the shared dashboard management options.
 <!-- t_dashboard_copy.xml -->
 
->1. Go to ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Dashboards] **.
+>1. Go to **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Dashboards]**.
 >1. Under [!UICONTROL  Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
 >    <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -105,8 +105,8 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 
 **To migrate a version 14.x legacy dashboard** 
 
->1. Click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Manage Dashboards] **.
->1. In the [!UICONTROL  Manage] column, under [!UICONTROL  Legacy Dashboards], click ** [!UICONTROL  Copy to New Dashboard] **.
+>1. Click **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Manage Dashboards]**.
+>1. In the [!UICONTROL  Manage] column, under [!UICONTROL  Legacy Dashboards], click **[!UICONTROL  Copy to New Dashboard]**.
 >   The copied dashboard opens in the dashboard layout editor. 
 
 >   See [ Editing Dashboard and Reportlet Data ](../../reports_analytics_bucket/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460). 
@@ -118,10 +118,10 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 </wintitle> menu.
 <!-- t_dashboard_share.xml -->
 
->1. In the [!UICONTROL  Dashboard Manager], locate the dashboard, then enable ** [!UICONTROL  Shared] **.
->1. Click ** [!UICONTROL  Push To Users] **.  ![](../../assets/push.png)
->1. On the [!UICONTROL  Push Dashboard] page, select the target users or click ** [!UICONTROL  Check All] **.
->1. Click ** [!UICONTROL  Save] **.
+>1. In the [!UICONTROL  Dashboard Manager], locate the dashboard, then enable **[!UICONTROL  Shared]**.
+>1. Click **[!UICONTROL  Push To Users]**.  ![](assets/push.png)
+>1. On the [!UICONTROL  Push Dashboard] page, select the target users or click **[!UICONTROL  Check All]**.
+>1. Click **[!UICONTROL  Save]**.
 >## Schedule a dashboard for delivery {#task_639361A35E044B2DB9D50FCABEC776FF}
 >In the 
 <wintitle>
@@ -130,7 +130,7 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 <!-- t_dashboard_delivery.xml -->
 
 >1. Open a dashboard.
->1. Click ** [!UICONTROL  More] ** > ** [!UICONTROL  Send] **.
+>1. Click **[!UICONTROL  More]** > **[!UICONTROL  Send]**.
 >   See [ Schedule and Distribution ](../../reports_analytics_bucket/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information. 
 >
 >## Archive a dashboard {#task_3B6AB949F0EC4063A08F80F254992117}
@@ -138,8 +138,8 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 <!-- t_dashboard_archive.xml -->
 
 >1. Open a dashboard.
->1. Click ** [!UICONTROL  More] ** > ** [!UICONTROL  Send] **.
->1. In the [!UICONTROL  Email Report] group, enable ** [!UICONTROL  Archive] **.
->1. Specify delivery options, then click ** [!UICONTROL  Send] **.
->   You can view archived dashboards in the Dashboard Manager. Alternatively, open a dashboard and click ** [!UICONTROL  More] ** > ** [!UICONTROL  View Archive] **. 
+>1. Click **[!UICONTROL  More]** > **[!UICONTROL  Send]**.
+>1. In the [!UICONTROL  Email Report] group, enable **[!UICONTROL  Archive]**.
+>1. Specify delivery options, then click **[!UICONTROL  Send]**.
+>   You can view archived dashboards in the Dashboard Manager. Alternatively, open a dashboard and click **[!UICONTROL  More]** > **[!UICONTROL  View Archive]**. 
 >

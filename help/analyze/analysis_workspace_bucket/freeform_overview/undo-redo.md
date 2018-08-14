@@ -3,7 +3,7 @@ description: Changes and enhancements to the Undo option in Analysis Workspace .
 seo-description: Changes and enhancements to the Undo option in Analysis Workspace .
 seo-title: Undo and redo settings
 title: Undo and redo settings
-uuid: 7cba211d-572f-49d5-bfcf-7594a2099cb1
+uuid: a19caff3-3c06-4f4a-bbe6-ad8f3819dda3
 index: y
 internal: n
 snippet: y
@@ -12,11 +12,11 @@ translate: y
 
 # Undo and redo settings
 
-** [!UICONTROL  Workspace] ** > ** [!UICONTROL  [project]] ** > ** [!UICONTROL  Undo/Redo] ** 
+**[!UICONTROL  Workspace]** > **[!UICONTROL  [project]]** > **[!UICONTROL  Undo/Redo]** 
 
-* The ** [!UICONTROL  Redo] ** option (to redo an undo) is in the ** [!UICONTROL  Edit] ** menu.
-* Clicking ** [!UICONTROL  Save] ** does not clear the ** [!UICONTROL  Undo] ** stack.
-* ** [!UICONTROL  New Project] ** or ** [!UICONTROL  Open Existing Project] ** clear the ** [!UICONTROL  Undo] ** stack
+* The **[!UICONTROL  Redo]** option (to redo an undo) is in the **[!UICONTROL  Edit]** menu.
+* Clicking **[!UICONTROL  Save]** does not clear the **[!UICONTROL  Undo]** stack.
+* **[!UICONTROL  New Project]** or **[!UICONTROL  Open Existing Project]** clear the **[!UICONTROL  Undo]** stack
 * You can undo/redo changing the report suite.
 * An undo/redo message displays near the project name - it indicates when an undo or redo is in progress.
 * You can use these [ hotkeys ](../../analysis_workspace_bucket/freeform_overview/fa_shortcut_keys.md#concept_9A6356084DBC4D468E265E7A65B3E051): 

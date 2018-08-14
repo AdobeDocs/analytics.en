@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 seo-description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 seo-title: Calculated and Advanced Calculated (Derived) Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
-uuid: 56316d70-1cf8-4294-8476-73e1a7834102
+uuid: 47f75448-a74f-4354-b412-9e965ac19f18
 index: y
 internal: n
 snippet: y
@@ -111,7 +111,7 @@ Here is a short overview of the Calculated Metrics tools:
   </tr> 
   <tr> 
    <td colname="col1"> Metric Selector rail </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics </span> popup in Reports &amp; Analytics. </p> <p>It lets you search for and add/apply metrics to the report. You can also change the <a href="../c_calcmetrics_bucket/cm_workflow/cm_finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> sort </a> order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite. </p> <p>To access this Metric Selector, click the Metrics icon <img placement="inline" href="../assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> to the left of a report. This is what the Metric Selector looks like: </p> <p style="text-align: center;"> <img placement="break" align="center" href="../assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics </span> popup in Reports &amp; Analytics. </p> <p>It lets you search for and add/apply metrics to the report. You can also change the <a href="../c_calcmetrics_bucket/cm_workflow/cm_finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> sort </a> order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite. </p> <p>To access this Metric Selector, click the Metrics icon <img placement="inline" href="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> to the left of a report. This is what the Metric Selector looks like: </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://marketing.adobe.com/developer/blog/new-calculated-metrics-and-the-apis" format="https" scope="external"> API for Calculated Metrics </a> </td> 

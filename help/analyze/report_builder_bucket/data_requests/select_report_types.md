@@ -5,7 +5,7 @@ seo-title: Report types
 solution: Analytics
 title: Report types
 topic: Report builder
-uuid: c8ffbd14-ac67-4b9c-8361-caa4a135348a
+uuid: 853d5941-8d12-45e4-a4dc-90edfbc2c09e
 index: y
 internal: n
 snippet: y
@@ -18,4 +18,4 @@ You can choose only one base report type for a range of spreadsheet cells. If yo
 
 You can search for reports using the auto-complete search bar. Once you have selected a report from this control, the tree view will automatically select the matching node. 
 
-![](../../assets/search_reports.png) 
+![](assets/search_reports.png) 

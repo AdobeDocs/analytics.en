@@ -3,7 +3,7 @@ description: The new Intelligent Alerts system allows for more granular control 
 seo-description: The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 seo-title: Intelligent Alerts
 title: Intelligent Alerts
-uuid: b732a322-cfec-4196-85d2-049221bf3fcb
+uuid: 9e1e1853-4b0a-4757-9858-0da12c5e5abc
 index: y
 internal: n
 snippet: y
@@ -30,10 +30,10 @@ There are four ways get to the Alert Builder:
 
 * By using the following shortcut in Analysis Workspace: ` ctrl (or cmd) + shift + a` 
 
-* By going directly to the Alert Builder:  ** [!UICONTROL  Workspace] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  New Alert] ** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting ** [!UICONTROL  Create Alert from Selection] **. This will open the Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the table. You can then edit the alert, if needed. ![](../../assets/create-alert-from-selection.png) 
+* By going directly to the Alert Builder:  **[!UICONTROL  Workspace]** > **[!UICONTROL  Components]** > **[!UICONTROL  New Alert]** .
+* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL  Create Alert from Selection]**. This will open the Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the table. You can then edit the alert, if needed. ![](assets/create-alert-from-selection.png) 
 
-* From within a Reports &amp; Analytics report, by going to  ** [!UICONTROL  More] ** > ** [!UICONTROL  Add Alert] ** . This will open the new Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the report. You can then edit the alert, if needed. ![](../../assets/add-alert.png) 
+* From within a Reports &amp; Analytics report, by going to  **[!UICONTROL  More]** > **[!UICONTROL  Add Alert]** . This will open the new Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the report. You can then edit the alert, if needed. ![](assets/add-alert.png) 
 
 
 ## FAQ: how alerts are calculated and triggered {#section_1F3B1DAF21784306953B49AAD4C3DCAB}

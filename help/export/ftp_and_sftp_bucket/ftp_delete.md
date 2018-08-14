@@ -5,7 +5,7 @@ seo-description: The Adobe FTP policy automatically disables access to FTP accou
 seo-title: Deleting FTP Data and FTP Accounts
 solution: Analytics
 title: Deleting FTP Data and FTP Accounts
-uuid: f4767a05-1368-4863-964e-bfe91e81900b
+uuid: c0e010e6-bf37-4c12-a619-fa75900d4382
 index: y
 internal: n
 snippet: y

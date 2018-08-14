@@ -5,7 +5,7 @@ seo-title: Reports Overview
 solution: Analytics
 title: Reports Overview
 topic: Ad hoc analysis
-uuid: 51fca64b-81d4-4fee-a8b9-73020ccab406
+uuid: a76f557b-c0ef-4dd6-a208-51ccfe2756b1
 index: y
 internal: n
 snippet: y
@@ -57,10 +57,10 @@ Additional default statistical calculations can be added to ranked reports based
 
 **To open the statistical calculations for Ranked Reports:** 
 
-1. Select ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Ranked] ** from the menu.
-1. Select ** [!UICONTROL  Settings] **.
-1. Select ** [!UICONTROL  Default Statistics] **.
-** [!UICONTROL  Ignore zeros in statistical calculations] **. Select this option to ignore zeros and ensure that adding another metric won't change the averages already calculated. All the statistics are affected by this setting (although for Sum it has no effect). 
+1. Select **[!UICONTROL  Tools]** > **[!UICONTROL  Ranked]** from the menu.
+1. Select **[!UICONTROL  Settings]**.
+1. Select **[!UICONTROL  Default Statistics]**.
+**[!UICONTROL  Ignore zeros in statistical calculations]**. Select this option to ignore zeros and ensure that adding another metric won't change the averages already calculated. All the statistics are affected by this setting (although for Sum it has no effect). 
 
 <table id="table_B2A4F9D5938D4756A81ACF6F4D77E63D"> 
  <thead> 
@@ -150,8 +150,8 @@ The Mean function is calculated similar to columns of data in Microsoft Excel. I
 >## Statistical Calculation Overlays {#concept_97E1B32DAC734C7B9F8899717283CEEC}
 >Ad hoc analysis now provides overlay visualizations of statistical calculations for reports that display data over time (minutes, hours, days, weeks).
 <!-- c_overlay_calculations.xml -->
-In a report that identifies data over a period of time, the ** [!UICONTROL  Statistics] ** button lets you select calculations that will display as overlays across the report time line. 
-![](../assets/overlay_calculations.png) In addition to standard [ Statistical Calculations](../ad_hoc_analysis_bucket/c_overview_standard_reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays. 
+In a report that identifies data over a period of time, the **[!UICONTROL  Statistics]** button lets you select calculations that will display as overlays across the report time line. 
+![](assets/overlay_calculations.png) In addition to standard [ Statistical Calculations](../ad_hoc_analysis_bucket/c_overview_standard_reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays. 
 >## Group Manager {#concept_E1433974A61144858E87334C006982B2}
 >Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the 
 <wintitle>
@@ -164,4 +164,4 @@ In a report that identifies data over a period of time, the ** [!UICONTROL  Stat
   Checkpoint Selector
 </wintitle> list.
 <!-- c_groups.xml -->
-Click ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Group Manager] **. 
+Click **[!UICONTROL  Tools]** > **[!UICONTROL  Group Manager]**. 

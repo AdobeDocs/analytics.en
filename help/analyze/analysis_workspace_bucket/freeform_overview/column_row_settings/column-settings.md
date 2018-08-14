@@ -3,7 +3,7 @@ description: Column settings let you configure column formatting, some of which 
 seo-description: Column settings let you configure column formatting, some of which can be conditional.
 seo-title: Column settings
 title: Column settings
-uuid: 353f8841-f106-4713-aad3-6e0110b2bf7e
+uuid: 63aa043b-799f-4356-b081-1d81bb2c5569
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ translate: y
 
 To access [!UICONTROL  Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading. 
 
-![](../../../assets/column_settings.png) 
+![](assets/column_settings.png) 
 
 You can edit settings **for multiple columns at once**. Just select multiple columns and click the settings icon of any one of those columns. Any changes that you make apply to all columns with cells selected in them. 
 
@@ -79,7 +79,7 @@ You can edit settings **for multiple columns at once**. Just select multiple col
 
 Conditional formatting applies formatting to upper, midpoint, and lower limits that you can define. Applying conditional formatting (colors, etc) within Freeform tables is also automatically enabled on breakdowns, unless “Custom” limits are selected. 
 
-![](../../../assets/conditional-formatting.png) 
+![](assets/conditional-formatting.png) 
 
 <table id="table_F6D59140C59F488381DC67C928417E51"> 
  <thead> 

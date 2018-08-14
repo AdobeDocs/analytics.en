@@ -5,7 +5,7 @@ seo-title: Planning Segments
 solution: Analytics
 title: Planning Segments
 topic: Segments
-uuid: 4a7fb7e0-8f88-4e94-8920-5a4f2e9db56b
+uuid: 7b92c175-8854-45b2-bb4d-91876a3756ef
 index: y
 internal: n
 snippet: y

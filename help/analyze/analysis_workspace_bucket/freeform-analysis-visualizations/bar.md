@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Bar and bar stacked
 title: Bar and bar stacked
-uuid: 8c839ca7-9798-4dde-aba9-45b98ed6428f
+uuid: 84c3468b-9a3c-4995-aeaf-8232ff0a2e15
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 This visualization shows vertical bars representing various values across one or more metrics. 
 
-![](../../assets/bar.png) 
+![](assets/bar.png) 
 
 A granularity drop-down in the visualization settings lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc. 
 
@@ -25,8 +25,8 @@ A granularity drop-down in the visualization settings lets you change a trended 
 
 This visualization is like a bar chart, but with the series bars stacked on top of each other. 
 
-![](../../assets/bar-stacked.png) 
+![](assets/bar-stacked.png) 
 
 A new visualization setting on bar stacked visualizations turns the chart into a "100% stacked" visualization: 
 
-![](../../assets/stacked_100_percent.png) 
+![](assets/stacked_100_percent.png) 

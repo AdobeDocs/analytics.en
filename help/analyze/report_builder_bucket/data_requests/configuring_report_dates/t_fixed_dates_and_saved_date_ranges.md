@@ -5,7 +5,7 @@ seo-title: Fixed dates and saved date ranges
 solution: Analytics
 title: Fixed dates and saved date ranges
 topic: Report builder
-uuid: c1f163ab-4457-481d-abae-615125ce4ef1
+uuid: 147764b8-7be9-4406-8cae-b85c5db889bd
 index: y
 internal: n
 snippet: y
@@ -15,8 +15,8 @@ translate: y
 # Fixed dates and saved date ranges
 
 
->1. On the Request Wizard: Step 1, choose ** [!UICONTROL  Fixed Dates] **.
+>1. On the Request Wizard: Step 1, choose **[!UICONTROL  Fixed Dates]**.
 >1. Click the date link.
 >1. Select a date, then click **OK**.
->1. To save a date range, click ** [!UICONTROL  Save Date] **.
+>1. To save a date range, click **[!UICONTROL  Save Date]**.
 >1. Configure the options on [!UICONTROL  Save Date Range] form:

@@ -1,7 +1,7 @@
 ---
 seo-title: Analytics Data Feed
 title: Analytics Data Feed
-uuid: f3a097ec-df89-4fcd-a455-1053d490f24b
+uuid: ae623c5e-ea3d-4dc1-b4db-7807aa8ae100
 index: y
 internal: n
 snippet: y

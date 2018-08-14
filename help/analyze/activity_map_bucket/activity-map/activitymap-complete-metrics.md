@@ -5,7 +5,7 @@ seo-title: Complete set of metrics
 solution: Analytics
 title: Complete set of metrics
 topic: Activity map
-uuid: 00580a78-7c81-40fc-ae5e-8b51838b329f
+uuid: 76a6ca28-dd08-40fa-a03e-83cecb67ddc7
 index: y
 internal: n
 snippet: y
@@ -20,6 +20,6 @@ Previous versions of Activity Map offered limited ability to add other metrics t
 
 You can access your full set of metrics that are supported by an eVar in Adobe Analytics through the following drop-down menu in the toolbar: 
 
-![](../../assets/metrics.png) 
+![](assets/metrics.png) 
 
 Please note that in Live Mode, only Link Click metrics are collected. 

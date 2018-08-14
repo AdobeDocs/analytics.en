@@ -5,7 +5,7 @@ seo-title: Common Terms
 solution: Analytics
 title: Common Terms
 topic: Reports and analytics
-uuid: 4eb8eeaa-6ec5-4a49-a4fd-2b557c635da7
+uuid: 30c9e308-8df4-4fe7-a374-b5eb62306522
 index: y
 internal: n
 snippet: y

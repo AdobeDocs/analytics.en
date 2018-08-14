@@ -5,7 +5,7 @@ seo-title: Running report types
 solution: Analytics
 title: Running report types
 topic: Reports,Reports and analytics
-uuid: 215369d1-d3ae-4af6-b052-67be800aca0e
+uuid: af6ebae3-d6b7-45f2-b476-5e6691a39291
 index: y
 internal: n
 snippet: y
@@ -19,8 +19,8 @@ translate: y
 >In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 <!-- t_reports_ranked.xml -->
 
->1. Generate a report, such as a [!UICONTROL  Pages Report] ( ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Site Content] ** > ** [!UICONTROL  Pages] **).
->1. In the report header, click ** [!UICONTROL  Ranked.] **
+>1. Generate a report, such as a [!UICONTROL  Pages Report] ( **[!UICONTROL  Reports]** > **[!UICONTROL  Site Content]** > **[!UICONTROL  Pages]**).
+>1. In the report header, click **[!UICONTROL  Ranked.]**
 >1. To rank the report, click a column heading in the table.
 >   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on). 
 >
@@ -31,12 +31,12 @@ Most Conversion and Traffic reports have a Trended view available. Using the [!U
 
 **To run a trended report** 
 
->1. Run a conversion or traffic report, such as ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Site Content] ** > ** [!UICONTROL  Pages] **.
->1. Under ** [!UICONTROL  Report Type] **, click ** [!UICONTROL  Trended.] **
+>1. Run a conversion or traffic report, such as **[!UICONTROL  Reports]** > **[!UICONTROL  Site Content]** > **[!UICONTROL  Pages]**.
+>1. Under **[!UICONTROL  Report Type]**, click **[!UICONTROL  Trended.]**
 >## Run a Conversion Funnel report {#task_B926A74AA6A641138C2986C1635120CB}
 >Conversion Funnel reports display the percentage of visitors who progressed through a set of events in order to perform a desired action. For example, you can see how many visitors progressed from visiting your web page, through adding items to a cart, and then to purchasing an item. This report also shows the number who fell out along the way.
 <!-- t_reports_conversion_funnel.xml -->
-To run this report, select a report, such as a Pages report ( ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Campaigns] ** > ** [!UICONTROL  Tracking Code] ** > ** [!UICONTROL  Campaign Conversion Funnel] **). 
+To run this report, select a report, such as a Pages report ( **[!UICONTROL  Reports]** > **[!UICONTROL  Campaigns]** > **[!UICONTROL  Tracking Code]** > **[!UICONTROL  Campaign Conversion Funnel]**). 
 
 See [ Conversion Reports ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion) for a description. 
 >## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
@@ -47,14 +47,14 @@ See [ Conversion Reports ](https://marketing.adobe.com/resources/help/en_US/refe
 <!-- t_reports_fallout.xml -->
 Check out the new [ Fallout Analysis ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) panel in Analysis Workspace! 
 
->1. In [!UICONTROL  Adobe Analytics], click ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Paths] ** > ** [!UICONTROL  Pages] ** > ** [!UICONTROL  Fallout] **.
->1. On the [!UICONTROL  Fallout Report] page, click ** [!UICONTROL  Launch the Fallout Report Builder] **.
+>1. In [!UICONTROL  Adobe Analytics], click **[!UICONTROL  Reports]** > **[!UICONTROL  Paths]** > **[!UICONTROL  Pages]** > **[!UICONTROL  Fallout]**.
+>1. On the [!UICONTROL  Fallout Report] page, click **[!UICONTROL  Launch the Fallout Report Builder]**.
 
->       ![Step Result](../../assets/fallout_add_items.png) 
+>       ![Step Result](assets/fallout_add_items.png) 
 >1. On the [!UICONTROL  Define Checkpoints] page, specify the checkpoints that you want to use for the report.
->1. Click ** [!UICONTROL  Run Report] **.
+>1. Click **[!UICONTROL  Run Report]**.
 
->       ![Step Result](../../assets/fallout_report.png) 
+>       ![Step Result](assets/fallout_report.png) 
 >[!MORE_LIKE_THIS]* [  ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 >Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer
 <!-- t_reports_page_flow.xml -->
@@ -62,15 +62,15 @@ Check out the new [ Flow visualization ](https://marketing.adobe.com/resources/h
 
 Run a [ Paths ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths) report. 
 
-For example, click ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Paths] ** > ** [!UICONTROL  Pages] ** > ** [!UICONTROL  Next Page Flow] **. 
+For example, click **[!UICONTROL  Reports]** > **[!UICONTROL  Paths]** > **[!UICONTROL  Pages]** > **[!UICONTROL  Next Page Flow]**. 
 
-![](../../assets/page_flow.png) 
+![](assets/page_flow.png) 
 
 You read this report from left to right, beginning with the selected page. The pages that were viewed after the selected page are illustrated as a branch extending to the right. 
 
 The percentage that each subsequent page was viewed is displayed beside the name of the page. The width of the line connected to each next-page depicts this relative percentage. 
 
-** [!UICONTROL  Path Views] **: Indicates the number of times a page was viewed, when constrained to the displayed paths. 
+**[!UICONTROL  Path Views]**: Indicates the number of times a page was viewed, when constrained to the displayed paths. 
 
 For example, the Privacy Policy page could have 10,000 total page views, but only 500 of those page views occurred immediately following the Home Page. Thus, the term path view is used. 
 
@@ -85,7 +85,7 @@ The relative percentage is depicted by the relative width of the line. By defaul
 </wintitle> report.
 <!-- t_reports_funnel.xml -->
 
->1. Click ** [!UICONTROL  Reports] ** > ** [!UICONTROL  Products] ** &gt; [ Products Conversion Funnel ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+>1. Click **[!UICONTROL  Reports]** > **[!UICONTROL  Products]** &gt; [ Products Conversion Funnel ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
 >## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 >Marketing Channel reporting provides an overview report of the first and last-touch channel allocation, with standard reporting metrics like revenue, orders, and cost. These reports enable you to analyze how much revenue each channel generates.
 <!-- t_reports_marketing_channel.xml -->
@@ -95,7 +95,7 @@ See the [ Marketing Channel ](http://marketing.adobe.com/resources/help/en_US/mc
 <!-- t_anomaly_view.xml -->
 Check out the new [ Anomaly Detection and Contribution Analysis ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) features in Analysis Workspace! 
 
-** [!UICONTROL  Reports] ** > ** [!UICONTROL  Site Metrics] ** > ** [!UICONTROL  Anomaly Detection] ** . 
+**[!UICONTROL  Reports]** > **[!UICONTROL  Site Metrics]** > **[!UICONTROL  Anomaly Detection]** . 
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Summary chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="../../assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
+   <td colname="col1"> <p>Summary chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
       <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Each box represents one anomaly, tracked per day, that corresponds to a metric below. </li> 
@@ -133,7 +133,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Individual metric chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="../../assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
+   <td colname="col1"> <p>Individual metric chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_739C5687013743A29B63089FDA763F45"> 
       <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Displays anomalous data points for individual trended metrics (including calculated metrics) as dots. </li> 
@@ -155,21 +155,21 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
 <!-- t_anomaly_config.xml -->
 You set up Anomaly Detection independently for each report suite. 
 
->1. Navigate to  ** [!UICONTROL  Analytics &amp;gt; Reports &amp;gt; Site Metrics &amp;gt; Anomaly Detection] ** .
+>1. Navigate to  **[!UICONTROL  Analytics &amp;gt; Reports &amp;gt; Site Metrics &amp;gt; Anomaly Detection]** .
 >1. Select the report suite for which you want to track daily anomaly detection. To display a list of report suites, click the Report Suite selector drop-down menu.
->1. To select the metrics and/or define filtered metrics, click ** [!UICONTROL  Edit Metrics] **at the top right of the screen:  ![](../../assets/metrics_icon.png).
+>1. To select the metrics and/or define filtered metrics, click **[!UICONTROL  Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
 
->1. Once the report has been generated, define the ** [!UICONTROL  Training Period] **and the ** [!UICONTROL  View Period] ** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
->   ![](../../assets/view_training_periods.png)>
+>1. Once the report has been generated, define the **[!UICONTROL  Training Period]**and the **[!UICONTROL  View Period]** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
+>   ![](assets/view_training_periods.png)>
 
 >    
 >    * The training period ends right before the view period starts.
 >    * The default for both is 30 days, and you can extend them to 60 or 90 days.
 >    * Extending the training period puts your data in a larger context and may reduce the size of an anomaly.
 >       The Anomaly Detection metrics report refreshes every time you change a parameter. 
->1. (Optional) Apply segments to the report by clicking ** [!UICONTROL  Show Segments] ** and selecting one or more existing segments or creating a new segment and applying it.
+>1. (Optional) Apply segments to the report by clicking **[!UICONTROL  Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
 
->       ![](../../assets/ad_top_menu.png) 
+>       ![](assets/ad_top_menu.png) 
 >       [ Analytics Segmentation Guide ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)1. (Optional) Favorite or bookmark the report.
 >1. (Optional) Change the end date of the View Period. The default is yesterday.
 >1. You can now start interpreting the report. [ Viewing Anomaly Detection charts ](../../reports_analytics_bucket/reports/t_running_report_types.md#task_4808C96327354D789C075823F5C3A049).
@@ -177,13 +177,13 @@ You set up Anomaly Detection independently for each report suite.
 >## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 >Describes how to view and interpret real-time reports.
 <!-- reports_realtime.xml -->
-** [!UICONTROL  Reports &amp;gt; Site Metrics &amp;gt; Real-Time] ** . 
+**[!UICONTROL  Reports &amp;gt; Site Metrics &amp;gt; Real-Time]** . 
 
 Real-Time reporting offers two main reports - an overview report and a detail report. They each consist of a number of reportlets. 
 
 For information on configuring real-time reports, see the [ Analytics Reference Guide ](http://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration). 
 
->1. Take a look at the ** [!UICONTROL  Overview] ** report and its components:  ![](../../assets/rtr_overview_report.png)
+>1. Take a look at the **[!UICONTROL  Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
 >    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
  <thead class="chhead sthead"> 
@@ -253,7 +253,7 @@ For information on configuring real-time reports, see the [ Analytics Reference 
  </tr> 
 </table>
 
->1. Click a list item in the Primary Reportlet to launch the ** [!UICONTROL  Details] ** view for that list item:  ![](../../assets/rtr_detail_report.png)
+>1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL  Details]** view for that list item:  ![](assets/rtr_detail_report.png)
 
 >       | **Item Trend Reportlet** | Presents the trend line of the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
 >       |---|---|

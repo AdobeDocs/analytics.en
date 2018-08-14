@@ -5,7 +5,7 @@ seo-description: Use this section to select which data columns to include in the
 seo-title: Data Column Definitions
 solution: Analytics
 title: Data Column Definitions
-uuid: a84f3ec1-7996-4215-a587-675b83f90426
+uuid: 1355a720-e340-41e2-aba3-fc807bfff48a
 index: y
 internal: n
 snippet: y
@@ -57,7 +57,7 @@ The Data Column Definition section includes the following options:
 
 ## Specify Columns {#section_42BB8910657D4F959375451F2EAD4A58}
 
-Select the desired columns from the Available list, then click ** [!UICONTROL  Add] ** to include the selected columns. 
+Select the desired columns from the Available list, then click **[!UICONTROL  Add]** to include the selected columns. 
 
 The Data Column Definitions section contains the following elements: 
 

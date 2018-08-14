@@ -6,7 +6,7 @@ seo-title: Create an Analysis Workspace project
 solution: Analytics
 title: Create an Analysis Workspace project
 topic: Reports and analytics
-uuid: 0a4f8760-5a96-451e-b1c0-2a5af3f98f2d
+uuid: 138d3095-78a1-4448-9f4e-076b2c82901b
 index: y
 internal: n
 snippet: y
@@ -21,29 +21,29 @@ translate: y
 **To create an Analysis Workspace project** 
 
 >1. Specify user permission to create and curate projects.
->   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the ** [!UICONTROL  Create / Curate Projects in Analysis Workspace] ** permission enabled, or to the ** [!UICONTROL  All Report Access] ** user group. ( ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] ** &gt; [ Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)). 
+>   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL  Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL  All Report Access]** user group. ( **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]** &gt; [ Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)). 
 >
->1. In the [!DNL  Experience Cloud], click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Workspace] **.
+>1. In the [!DNL  Experience Cloud], click **[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]**.
 
->       ![](../../assets/analysis_workspace_menu.png) 
+>       ![](assets/analysis_workspace_menu.png) 
 
->       Alternatively, enter a forward slash (/) to open the report search bar, then type * ` workspace` *. 
+>       Alternatively, enter a forward slash (/) to open the report search bar, then type *` workspace`*. 
 
->       ![](../../assets/analysis-app-search.png) 
->1. Click ** [!UICONTROL  Create New Project] **.
+>       ![](assets/analysis-app-search.png) 
+>1. Click **[!UICONTROL  Create New Project]**.
 
 >    
 >    * A blank project (default). For instructions, see below.
 >    * A standard template. These templates are created by Adobe and ship out of the box. For instructions, see [ Templates](../../analysis_workspace_bucket/freeform_overview/starter_projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
 >    * A custom template. These templates are created by users with admin rights. For instructions, see [ Templates](../../analysis_workspace_bucket/freeform_overview/starter_projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
->       ![](../../assets/start_modal.png) 
->1. To create a project from a blank project, click ** [!UICONTROL  Blank Project] **.
->    * Then click ** [!UICONTROL  Create] **, or
->    * Simply click ** [!UICONTROL  Enter] **.
+>       ![](assets/start_modal.png) 
+>1. To create a project from a blank project, click **[!UICONTROL  Blank Project]**.
+>    * Then click **[!UICONTROL  Create]**, or
+>    * Simply click **[!UICONTROL  Enter]**.
 >   A blank project displays, showing a freeform panel and a data table visualization. 
 >
 
->       ![](../../assets/fa_project_new.png) 
+>       ![](assets/fa_project_new.png) 
 
 >       >[!NOTE]
 >       >
@@ -72,9 +72,9 @@ translate: y
  </tbody> 
 </table>
 
->1. Save your project. Name the project, provide a description (optional, but useful) and tag the project (optional), then click ** [!UICONTROL  Save Project] **.
+>1. Save your project. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL  Save Project]**.
 
->       ![](../../assets/save_project.png)1. You can now right-click and copy a visualization or panel, and then paste ("insert") that copied element into another place within the project, or into a different project.
+>       ![](assets/save_project.png)1. You can now right-click and copy a visualization or panel, and then paste ("insert") that copied element into another place within the project, or into a different project.
 
 
 >       >[!NOTE]
@@ -82,14 +82,14 @@ translate: y
 >       >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
 >## Add Components and Visualizations {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
->1. Build your project by dragging * ` components` * to the project.
+>1. Build your project by dragging *` components`* to the project.
 >   The [!UICONTROL  Component] toolbar displays searchable dimensions, metrics, segments, and date ranges that you use most frequently. 
 
 >   **Dimensions (orange)** 
 
 >   Apply at the project level 
 
->   ![](../../assets/dimensions.png) 
+>   ![](assets/dimensions.png) 
 
 >   Prop#, eVar#, and event# are appended to the dimension names, and you can search on those numbers. Example: "Internal Campaign" shows up in the left rail as "Internal Campaign (evar2)". 
 
@@ -101,15 +101,15 @@ translate: y
 
 >   Apply at the project level. 
 
->   ![](../../assets/metrics.png) 
+>   ![](assets/metrics.png) 
 
->* ` Occurrences` * is the default metric for the data table. 
+>   *` Occurrences`* is the default metric for the data table. 
 
 >   **Segments (blue)** 
 
 >   Draggable only at the panel level, but you can create inline segments in the data table. 
 
->   ![](../../assets/segments.png) 
+>   ![](assets/segments.png) 
 
 >   See [ Use Cases for Analysis Workspace](../../analysis_workspace_bucket/analysis-workspace-features/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B) for more information. 
 
@@ -117,21 +117,21 @@ translate: y
 
 >   Draggable only at the panel level. You can create a project from the Calendar, when configuring a date range. 
 
->   ![](../../assets/date-ranges.png) 
+>   ![](assets/date-ranges.png) 
 >
 >1. Drag [ Visualizations](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) to your project.
 >   **** 
 
 >   The [!UICONTROL  Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [ cohort](../../analysis_workspace_bucket/freeform-analysis-visualizations/cohort-table/cohort_analysis.md#concept_9D240A490265427DA694D18D14EACC0E) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project. 
 
->   ![Step Result](../../assets/visualizations.png) 
+>   ![Step Result](assets/visualizations.png) 
 
->   ![](../../assets/fa_full_panel.png) 
+>   ![](assets/fa_full_panel.png) 
 >
 >## Use the right-click menu to customize your data {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 The right-click menu lets you perform the following actions, depending on which cell in a table you right-click. 
 
-![Step Result](../../assets/fa_data_table_actions.png) 
+![Step Result](assets/fa_data_table_actions.png) 
 
 <!-- <p>Need descriptions... </p> -->
 

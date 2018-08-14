@@ -5,7 +5,7 @@ seo-title: Building Segments
 solution: Analytics
 title: Building Segments
 topic: Ad hoc analysis
-uuid: 03105379-6e26-4915-887d-60c3daf25c3b
+uuid: 682d541d-e8ac-4497-9188-5f8ec5f71a59
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Building Segments
 
-Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [ Segment Manager](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage) used to set up a segment management [ workflow](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow). As always, you can build and save segments in the [ Segment Builder](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build) or [ generate segments from a Fallout report](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_fallout) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](../assets/seg__overview_ad_hoc.png) 
+Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [ Segment Manager](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage) used to set up a segment management [ workflow](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow). As always, you can build and save segments in the [ Segment Builder](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build) or [ generate segments from a Fallout report](http://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_fallout) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png) 
 
 
 

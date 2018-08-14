@@ -5,7 +5,7 @@ seo-title: Classification
 solution: Analytics
 title: Classification
 topic: Report builder
-uuid: eb08e637-cad0-44ed-b525-c0fe098767b2
+uuid: df47e154-f50a-4d5f-9fd7-7a481304b2b8
 index: y
 internal: n
 snippet: y

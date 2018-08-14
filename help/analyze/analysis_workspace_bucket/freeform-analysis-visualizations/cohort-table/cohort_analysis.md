@@ -4,7 +4,7 @@ seo-title: What is cohort analysis?
 solution: Analytics
 title: What is cohort analysis?
 topic: Reports and analytics
-uuid: ef439f89-28d9-49c1-bdec-6fc1cb30a2d0
+uuid: 32c95540-70c8-47f3-962e-0fd311cfcf01
 index: y
 internal: n
 snippet: y
@@ -13,7 +13,7 @@ translate: y
 
 # What is cohort analysis?
 
-A * ` cohort` * is a group of people sharing common characteristics over a specified period. Cohort analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of cohort analysis are available on the web, such as at [ Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).) 
+A *` cohort`* is a group of people sharing common characteristics over a specified period. Cohort analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of cohort analysis are available on the web, such as at [ Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).) 
 
 After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [ Curate and Share](../../../analysis_workspace_bucket/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) 
 
@@ -21,7 +21,7 @@ After creating a cohort report, you can curate its components (specific dimensio
 
 A cohort report returns visitors. Each data cell shows the raw number of visitors in the cohort who did the action during that time period. 
 
-![Step Result](../../../assets/cohort-report.png) 
+![Step Result](assets/cohort-report.png) 
 
 Examples of what you can do with cohort analysis: 
 

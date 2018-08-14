@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Panels
 title: Panels
-uuid: 1bc34afa-1fa6-480e-962e-722683ff74ce
+uuid: 45f377d9-b0c7-4144-bda5-1464efd68d77
 index: y
 internal: n
 snippet: y

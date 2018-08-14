@@ -6,7 +6,7 @@ seo-title: Viewing Virtual Report Suite Information
 solution: Analytics
 title: Viewing Virtual Report Suite Information
 topic: Reports and analytics
-uuid: c91fc9af-c2b4-4de6-ab23-238edf3e8c21
+uuid: 49f552e3-0f92-488f-8328-c25b239e0def
 index: y
 internal: n
 snippet: y
@@ -25,4 +25,4 @@ Clicking the Info icon next to the virtual report suite in the Report Suite sele
 * Total Unique Visitor count.
 
 
-![](../../assets/vrs-info.png) 
+![](assets/vrs-info.png) 

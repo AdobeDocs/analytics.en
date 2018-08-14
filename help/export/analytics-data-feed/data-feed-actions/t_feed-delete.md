@@ -5,7 +5,7 @@ seo-description: Deleting a feed removes it from the Feed list.
 seo-title: Delete a Feed
 solution: Analytics
 title: Delete a Feed
-uuid: 2b0d3ea6-6ca1-4c65-a4ab-03357240aa65
+uuid: 9443d490-022a-409e-85ab-4d4189056379
 index: y
 internal: n
 snippet: y
@@ -16,5 +16,5 @@ translate: y
 
 
 >1. Select one or more feeds.
->1. Click ** [!UICONTROL  Delete] **.
+>1. Click **[!UICONTROL  Delete]**.
 

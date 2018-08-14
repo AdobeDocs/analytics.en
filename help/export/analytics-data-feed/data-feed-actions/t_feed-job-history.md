@@ -5,7 +5,7 @@ seo-description: By default, the job history for the last 30 days is reported fo
 seo-title: View a Feed's Job History
 solution: Analytics
 title: View a Feed's Job History
-uuid: c5de127f-ac75-4993-bf60-67d965ad127a
+uuid: 918836ba-6162-4702-bf3c-8cff8da31e9c
 index: y
 internal: n
 snippet: y
@@ -16,6 +16,6 @@ translate: y
 
 
 >1. Select one or more feeds.
->1. Click ** [!UICONTROL  Job History] **.
+>1. Click **[!UICONTROL  Job History]**.
 
 >       The Jobs page opens and displays the history for the selected feeds. 

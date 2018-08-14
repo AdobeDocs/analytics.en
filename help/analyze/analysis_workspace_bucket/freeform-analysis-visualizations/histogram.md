@@ -3,7 +3,7 @@ description: A histogram is a new visualization type in Analysis Workspace.
 seo-description: A histogram is a new visualization type in Analysis Workspace.
 seo-title: Histogram
 title: Histogram
-uuid: 81736cd2-bcf0-491d-82f0-2c82d80213a4
+uuid: c60f6427-9e23-44bd-8e32-6c290ea2f3b6
 index: y
 internal: n
 snippet: y
@@ -18,10 +18,10 @@ A histogram is similar to a bar chart, but it groups numbers into ranges (bucket
 
 To create a histogram: 
 
-1. Click ** [!UICONTROL  Visualizations] ** in the left rail.
-1. Drag ** [!UICONTROL  Histogram] ** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click ** [!UICONTROL  Build] **.
-![](../../assets/histogram.png) 
+1. Click **[!UICONTROL  Visualizations]** in the left rail.
+1. Drag **[!UICONTROL  Histogram]** to the panel.
+1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL  Build]**.
+![](assets/histogram.png) 
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ To create a histogram:
 
 Here we have used the Page Views Metric per Unique Visitors. The first (left) bucket corresponds to 1 page view per unique visitor, the second bucket to two page views, etc. 
 
-![](../../assets/histogram2.png) 
+![](assets/histogram2.png) 
 
 ## Advanced settings {#section_09D774C584864D4CA6B5672DC2927477}
 
@@ -48,12 +48,12 @@ To adjust your histogram settings, click the Settings ("gear") icon in the upper
 
 ## View and edit histogram data {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to ** [!UICONTROL  Data Source Settings] ** > ** [!UICONTROL  Show Data Source] **. 
+To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL  Data Source Settings]** > **[!UICONTROL  Show Data Source]**. 
 
-![](../../assets/manage-data-source.png) 
+![](assets/manage-data-source.png) 
 
-Pre-built segments that show up in the table are internal segments and won't show up in the Segment selector. Click the "i" icon next to the segment name, then click ** [!UICONTROL  Make public] ** to make the segment public. 
+Pre-built segments that show up in the table are internal segments and won't show up in the Segment selector. Click the "i" icon next to the segment name, then click **[!UICONTROL  Make public]** to make the segment public. 
 
-![](../../assets/prebuilt_segments.png) 
+![](assets/prebuilt_segments.png) 
 
 To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [ here ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform-analysis-visualizations.html). 

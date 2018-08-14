@@ -5,7 +5,7 @@ seo-title: Metrics and Dimensions
 solution: Analytics
 title: Metrics and Dimensions
 topic: Report builder
-uuid: 848d657a-1fbf-4d99-8b77-7982a238921f
+uuid: f09e09f0-3553-4dfe-af31-4abc1c6ebf67
 index: y
 internal: n
 snippet: y

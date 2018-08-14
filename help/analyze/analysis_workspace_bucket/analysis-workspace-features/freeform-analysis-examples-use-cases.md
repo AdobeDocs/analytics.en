@@ -6,7 +6,7 @@ seo-title: Analysis Workspace Use Cases
 solution: Analytics
 title: Analysis Workspace Use Cases
 topic: Reports and analytics
-uuid: 80cff355-ab1f-41f8-a13a-b0ac964af3c4
+uuid: 528deb07-d1e4-464e-97e9-9a245e53da4d
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 You can direct research across your data to answer specific questions and put together narratives about your customer's interactions and audience interests. In a freeform environment you can apply dimensions, metrics, and segments over a time period to directly retrieve targeted data. Craft your analysis to customize for specific questions, and then publish information in rich reports and visualizations to be shared and easily interpreted by even the most time-constrained frontline business user. 
 
-![](../../assets/two-months-summary-project.png) 
+![](assets/two-months-summary-project.png) 
 
 **Examples** 
 
@@ -32,19 +32,19 @@ You can direct research across your data to answer specific questions and put to
 Assume you are a marketing analyst for an outdoor gear retailer and you are tasked with examining how a recent Thanksgiving promotion performed, and with making recommendations on how to improve onsite campaigns. This example shows how you can compare campaign revenue data for different segments and add breakdowns to drill down further into the campaign. 
 
 1. Select the appropriate report suite.
-1. Search, for example, for your Internal Campaign Placements dimension and drag it into the left-hand section of the table canvas (this data will make up the table rows.) ![](../../assets/drag_dimension.png) 
+1. Search, for example, for your Internal Campaign Placements dimension and drag it into the left-hand section of the table canvas (this data will make up the table rows.) ![](assets/drag_dimension.png) 
 
-1. Now click the segment icon on the top left and drag different customer loyalty segments into the right half of the canvas. You are going to compare the segments to each other on the fly. These will constitute the table columns. ![](../../assets/drag_segments.png) 
+1. Now click the segment icon on the top left and drag different customer loyalty segments into the right half of the canvas. You are going to compare the segments to each other on the fly. These will constitute the table columns. ![](assets/drag_segments.png) 
 
-1. Click the Events (Metrics) icon on the top left and add the revenue metric underneath each segment. Notice how the report generates automatically. You can now start comparing campaign revenue for these customer segments. ![](../../assets/drag_metrics.png) 
+1. Click the Events (Metrics) icon on the top left and add the revenue metric underneath each segment. Notice how the report generates automatically. You can now start comparing campaign revenue for these customer segments. ![](assets/drag_metrics.png) 
 
-1. Now, if you would like to see which products were most effective in the left banner slot on your pages, break down Left Banner by Product Name. Just click the Dimensions icon and drag the Product name dimension on top of Left Banner. ![](../../assets/breakdown_prodname.png) 
+1. Now, if you would like to see which products were most effective in the left banner slot on your pages, break down Left Banner by Product Name. Just click the Dimensions icon and drag the Product name dimension on top of Left Banner. ![](assets/breakdown_prodname.png) 
 
-1. But you can drill down even more. You might ask which search terms people used to get to your top-selling product, Norfolk Highland. All you have to do is drag the Internal Search Term dimension on top of the product name: ![](../../assets/breakdown_intsearchterm.png) 
+1. But you can drill down even more. You might ask which search terms people used to get to your top-selling product, Norfolk Highland. All you have to do is drag the Internal Search Term dimension on top of the product name: ![](assets/breakdown_intsearchterm.png) 
 
    A new breakdown result will appear: 
 
-   ![](../../assets/breakdown_result.png) 
+   ![](assets/breakdown_result.png) 
 
    You have already broken down the data in a way that can result in recommendations and cross-sells for your merchandising teams to implement in other campaigns and realize even more revenue for your company. You can do further breakdowns until you get the results you are looking for. 
 

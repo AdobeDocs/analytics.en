@@ -5,7 +5,7 @@ seo-title: Copy requests and worksheets between workbooks
 solution: Analytics
 title: Copy requests and worksheets between workbooks
 topic: Report builder
-uuid: 99a5694b-7a33-461e-b271-a935b92abeb0
+uuid: 06a75b3b-f1b3-430f-a491-51845f8650c5
 index: y
 internal: n
 snippet: y
@@ -15,8 +15,8 @@ translate: y
 # Copy requests and worksheets between workbooks
 
 To do this, you must have at least two workbooks opened in the same instance of Excel: the first source workbook contains a spreadsheet (worksheet) with requests mapped to cells, while the additional target workbooks are the destinations. For each new target workbook, you should log in to the same report suite as the source workbook before you can paste spreadsheets containing requests.
->1. Right-click the spreadsheet in the source workbook and select ** [!UICONTROL  Copy Worksheet w/Requests] **.
->1. In the destination workbook, right-click the spreadsheet and select ** [!UICONTROL  Paste Worksheet w/Requests] **.
+>1. Right-click the spreadsheet in the source workbook and select **[!UICONTROL  Copy Worksheet w/Requests]**.
+>1. In the destination workbook, right-click the spreadsheet and select **[!UICONTROL  Paste Worksheet w/Requests]**.
 
 >       The same instance of Excel means that only a single Excel process ( [!DNL  excel.exe]) is running on your computer at a time. If you launch two instances of Excel and attempt to copy a worksheet from a workbook in the first instance of Excel to a workbook in the second instance of Excel, report builder does not present the option to paste a worksheet in the shortcut menu of the second instance of Excel. 
 

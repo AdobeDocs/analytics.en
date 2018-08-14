@@ -6,7 +6,7 @@ seo-title: Scheduled projects manager
 solution: Analytics
 title: Scheduled projects manager
 topic: Reports and analytics
-uuid: f9a46710-af5f-45e4-b50b-4b3f2f49d364
+uuid: 02607b17-2892-4c6e-a29f-dbc1c0cd222a
 index: y
 internal: n
 snippet: y
@@ -15,15 +15,15 @@ translate: y
 
 # Scheduled projects manager
 
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Scheduled Projects] **. 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Scheduled Projects]**. 
 
-![](../../../assets/components-scheduled-projects.png) 
+![](assets/components-scheduled-projects.png) 
 
 In the Scheduled Projects Manager, you can edit and delete recurring project deliveries. You can create delivery schedules that send your reports via email to a specified address. You can configure these schedules to automatically send the reports at specified intervals for a duration of time or indefinitely, or stop the delivery of a recurring project. 
 
 The Schedule Project Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop. 
 
-![](../../../assets/scheduled-projects.png) 
+![](assets/scheduled-projects.png) 
 
 * Edit scheduled projects.
 * View a project's Schedule ID (used mainly for debugging purposes).

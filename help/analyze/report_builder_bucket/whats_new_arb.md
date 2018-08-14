@@ -3,7 +3,7 @@ description: Lists current and previous releases and their features.
 seo-description: Lists current and previous releases and their features.
 seo-title: What's new in Report Builder
 title: What's new in Report Builder
-uuid: 244b735e-6cc9-442c-96e4-367824daa94a
+uuid: 764b7c1a-2141-4133-b13a-059ae098cfaf
 index: y
 internal: n
 snippet: y

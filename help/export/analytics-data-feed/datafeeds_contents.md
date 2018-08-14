@@ -7,7 +7,7 @@ solution: Analytics
 subtopic: data feeds
 title: Data Feed Contents
 topic: Reports and analytics
-uuid: 268b6c90-1f00-40f1-8838-3a3bdf52d1ee
+uuid: c6ff696a-4c7d-44ad-a13b-adda44b3377c
 index: y
 internal: n
 snippet: y

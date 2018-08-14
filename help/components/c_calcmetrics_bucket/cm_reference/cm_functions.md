@@ -3,7 +3,7 @@ description: cm_functions.xml The Calculated Metrics Builder lets you apply stat
 seo-description: cm_functions.xml The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 seo-title: Reference  Basic Functions
 title: Reference  Basic Functions
-uuid: d810e88c-f3a0-46d1-8976-4dbef78eca61
+uuid: e45ae3b5-0021-48ab-b6ba-81727b704908
 index: y
 internal: n
 snippet: y
@@ -223,7 +223,7 @@ SQRT(metric)
 >## <draft-comment author="ind14750" otherprops="merge"> stdev.xml </draft-comment>Standard Deviation (Table) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 >Returns the standard deviation, or square root of the variance, based on a sample population of data.The equation for STDEV is: 
 
-![](../../assets/std_dev.png) 
+![](assets/std_dev.png) 
 
 where x is the sample mean (*metric*) and *n* is the sample size. 
 
@@ -247,7 +247,7 @@ STDEV(metric)
 >## <draft-comment author="ind14750" otherprops="merge"> variance.xml </draft-comment>Variance (Table) {#concept_269751EDC5A34E689112AE16E04A11B0}
 >Returns the variance based on a sample population of data.The equation for VARIANCE is: 
 
-![](../../assets/variance_eq.png) 
+![](assets/variance_eq.png) 
 
 where x is the sample mean, MEAN(*metric*), and *n* is the sample size. 
 

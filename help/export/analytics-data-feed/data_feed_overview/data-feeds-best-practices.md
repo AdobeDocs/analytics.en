@@ -5,7 +5,7 @@ seo-description: Following are some best practices for data feed processing and 
 seo-title: Best Practices and General Information
 solution: Analytics
 title: Best Practices and General Information
-uuid: c2cfbe00-fadf-46bd-a846-d8b86094e09e
+uuid: e4ea2c9e-1840-4532-be2b-712cca034452
 index: y
 internal: n
 snippet: y

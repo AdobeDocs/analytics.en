@@ -5,7 +5,7 @@ seo-title: Filtering Segments
 solution: Analytics
 title: Filtering Segments
 topic: Segments
-uuid: 0d8fe94a-7f4d-4d52-8720-a7856535e019
+uuid: 15592c78-dc07-472a-aa0b-123a1f22e69d
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 
 Filtering makes it easier to search for segments in the segment rail. 
 
->1. In the Segment Manager, click the ** [!UICONTROL  Filters] ** icon:  ![](../../assets/filter_icon.png)
+>1. In the Segment Manager, click the **[!UICONTROL  Filters]** icon:  ![](assets/filter_icon.png)
 
->       ![](../../assets/filtering.png)1. The following filters are available:
+>       ![](assets/filtering.png)1. The following filters are available:
 
 
 >       |  Filter Name  | Description  |

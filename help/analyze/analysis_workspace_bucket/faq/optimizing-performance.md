@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Optimizing performance
 title: Optimizing performance
-uuid: 877f2b09-7096-408f-b2ab-71a077ed34f2
+uuid: 8f35e262-4ebf-458c-9b6e-4d7463eb3d42
 index: y
 internal: n
 snippet: y

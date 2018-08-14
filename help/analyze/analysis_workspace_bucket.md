@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Analysis Workspace
 title: Analysis Workspace
-uuid: d0c89cc8-e3e4-46f7-aee8-4036300e046b
+uuid: bf7c8106-1985-4f4a-bb3c-bf84d892a900
 index: y
 internal: n
 snippet: y

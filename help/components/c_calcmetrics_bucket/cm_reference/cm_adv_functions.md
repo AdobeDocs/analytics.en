@@ -3,7 +3,7 @@ description: cm_adv_functions.xml Access these functions by checking Show Advanc
 seo-description: cm_adv_functions.xml Access these functions by checking Show Advanced in the Functions drop-down list.
 seo-title: Reference  Advanced Functions
 title: Reference  Advanced Functions
-uuid: 0ff13796-3988-4cc6-a605-c7b8e98762bf
+uuid: 284b7234-b395-42e0-9574-4b4f91df44e2
 index: y
 internal: n
 snippet: y
@@ -60,11 +60,11 @@ Approximate Count Distinct (customer ID eVar) is a common use case for this func
 
 Definition for a new ‘Approximate Customers’ calculated metric: 
 
-![](../../assets/approx-count-distinct.png) 
+![](assets/approx-count-distinct.png) 
 
 This is how the "Approximate Customers" metric could be used in reporting: 
 
-![](../../assets/approx-customers.png) 
+![](assets/approx-customers.png) 
 
 ## Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
@@ -615,7 +615,7 @@ TAN&amp;nbsp;(metric)
 >## <draft-comment author="ind14750" otherprops="merge"> z-score.xml </draft-comment>Z-Score (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 >Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.The equation for Z-score is: 
 
-![](../../assets/z_score.png) 
+![](assets/z_score.png) 
 
 where [!DNL  x] is the raw score, [!DNL  μ] is the mean of the population, and [!DNL  σ] is the standard deviation of the population. 
 

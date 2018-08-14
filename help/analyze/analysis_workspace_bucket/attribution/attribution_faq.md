@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Attribution IQ FAQ
 title: Attribution IQ FAQ
-uuid: c028becf-8fdd-4f70-a5ab-2f1d889a00d3
+uuid: 4d3e18b6-230a-45cb-bdb7-860942f813c3
 index: y
 internal: n
 snippet: y

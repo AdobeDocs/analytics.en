@@ -5,7 +5,7 @@ seo-title: Standard Mode vs. Live Mode
 solution: Analytics
 title: Standard Mode vs. Live Mode
 topic: Activity map
-uuid: f1c3bbb1-b80e-43de-bbd6-2209a1505efb
+uuid: 87087676-719c-4edb-892d-6ccf9691a9e4
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ The two modes can be toggled by clicking the Mode button on the toolbar.
 
 In **Standard Mode**, you can select the date range in the toolbar as shown below. 
 
-![](../../assets/standard_mode.png) 
+![](assets/standard_mode.png) 
 
 In this mode, Commerce metrics that do not have "Participation" enabled are linearly allocated. For example, let's say a user clicks on a link "IPod mini" on the home page, then navigates through 3 more pages. On the 4th page, he purchases an IPod mini for $200. The "IPod mini" link will receive $200 of participation revenue and $50 ($200/4) of revenue (linearly allocated revenue). 
 
@@ -44,4 +44,4 @@ Live mode responds to the needs of publishing organizations. These organizations
 
 
 
-![](../../assets/live_mode.png) 
+![](assets/live_mode.png) 

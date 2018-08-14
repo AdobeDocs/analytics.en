@@ -5,7 +5,7 @@ seo-title: Copy simple requests
 solution: Analytics
 title: Copy simple requests
 topic: Report builder
-uuid: ad25e594-1bda-4497-b176-beea8b9fbb48
+uuid: 941d4ce7-4e7d-46f2-b4f0-3dd85448ec78
 index: y
 internal: n
 snippet: y
@@ -19,11 +19,11 @@ A[ referential request](../../../report_builder_bucket/manage_requests/copy_requ
 >1. Right click one of the cells where the request is mapped, or select a region of cells containing requests.
 
 >       Be consistent in choosing a cell to copy from in the group of cells covered by the request. The preferred choice is the top and left-most cell of the set of cells covered by the request, and work from left to right. This is because the Excel spreadsheet has hundreds of columns and thousands of rows available for rightward and downward expansion. If you do decide to start a request copy from the rightmost or bottom cell in a set of cells associated with a request, the system does not allow you to paste the request if the cells to be pasted will extend beyond the left or top border of the spreadsheet. 
->1. Select ** [!UICONTROL  Copy Request] **.
+>1. Select **[!UICONTROL  Copy Request]**.
 >1. In another part of the spreadsheet, right click on an empty cell (a cell containing no request).
 
 >       To prevent you from losing or corrupting requests you have already created, you cannot paste cells containing requests to cells currently mapped with requests. If you copy or cut cells containing requests, the shortcut menu does not make the [!UICONTROL  Paste Requests] option available when right clicking on cells (or the set of cells) containing requests. You must select a different cell as the destination of the paste operation so that requests do not overlap. This applies whether you select a single cell with a request to paste or a region of cells containing requests. 
->1. Click ** [!UICONTROL  Paste Request] **.
+>1. Click **[!UICONTROL  Paste Request]**.
 
 >       A copy of the original request is placed in the cell(s), in a position or positions relative to the original request. 
 

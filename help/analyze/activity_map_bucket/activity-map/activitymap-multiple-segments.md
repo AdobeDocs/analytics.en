@@ -5,7 +5,7 @@ seo-title: Customer segmentation
 solution: Analytics
 title: Customer segmentation
 topic: Activity map
-uuid: a6485c19-cf42-4c72-9333-4b6217a23a64
+uuid: 00f4dcc1-cae7-4fbd-8424-20b85c6ee32d
 index: y
 internal: n
 snippet: y
@@ -19,14 +19,14 @@ translate: y
 >
 >The Segment control is available only in Standard Mode because the Adobe Analytics platform does not support segmenting real-time data.
 
-You can select one or several of the segments from the ** [!UICONTROL  Segments] **drop-down menu shown below. The segments listed are identical to those you own or that have been shared with you via Reports &amp; Analytics, for the report suite selected. 
+You can select one or several of the segments from the **[!UICONTROL  Segments]**drop-down menu shown below. The segments listed are identical to those you own or that have been shared with you via Reports &amp; Analytics, for the report suite selected. 
 
-![](../../assets/segments.png) 
+![](assets/segments.png) 
 
 When the segment(s) selection has changed, and after closing the segment selector, a new Analytics data retrieval process will be launched for all metrics that are shown in the application. The segment(s) selected are remembered when navigating from page to page. 
 
 When more than one segment is selected, the Segment Selection Label (in a collapsed state) will display "Multiple". The full list of selected segments will be shown when you click the control. 
 
-![](../../assets/two_segments.png) 
+![](assets/two_segments.png) 
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the ** [!UICONTROL  Links on Page] ** and ** [!UICONTROL  Page Details] ** reports. 
+The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL  Links on Page]** and **[!UICONTROL  Page Details]** reports. 

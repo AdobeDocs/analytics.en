@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Use attribution IQ in Analysis Workspace
 title: Use attribution IQ in Analysis Workspace
-uuid: e23aecae-d6e6-44e1-9897-0cbc8fef9539
+uuid: d11ede16-e05b-4774-afad-227c810c1392
 index: y
 internal: n
 snippet: y
@@ -23,22 +23,22 @@ Attribution IQ in Analysis Workspace lets you compare any supported attribution 
 
 Analysis Workspace Freeform Tables support attribution models that can be used on almost any metric. Attribution models can be set on a Freeform Table column metric in Column Settings: 
 
-1. Click the Settings (gear) icon in a Freeform Table column. ![](../../assets/Column_Settings.png) 
+1. Click the Settings (gear) icon in a Freeform Table column. ![](assets/Column_Settings.png) 
 
-1. Under ** [!UICONTROL  Data Settings] **, check ** [!UICONTROL  Use non-default attribution model] **. For more information on the different attribution models, refer to [ Attribution IQ Overview ](../../analysis_workspace_bucket/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871). ![](../../assets/Attribution_Model_Selection.png) 
+1. Under **[!UICONTROL  Data Settings]**, check **[!UICONTROL  Use non-default attribution model]**. For more information on the different attribution models, refer to [ Attribution IQ Overview ](../../analysis_workspace_bucket/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871). ![](assets/Attribution_Model_Selection.png) 
 
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
 Any breakdown within a Freeform Table can also have any attribution model applied to it which can be the same or different from the parent column. For example, you may want to analyze linear Orders on your Marketing Channels dimension but apply U-Shaped Orders to the specific tracking codes within a Channel. To edit the attribution model applied to a breakdown, simply hover over the breakdown model and click “Edit”: 
 
-![](../../assets/breakdown_settings.png) 
+![](assets/breakdown_settings.png) 
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select ** [!UICONTROL  Add comparative attribution model] **: 
+If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL  Add comparative attribution model]**: 
 
-![](../../assets/Comparative_Attribution_Model.png) 
+![](assets/Comparative_Attribution_Model.png) 
 
 This lets you quickly and easily compare one attribution model to another without having to drag in a metric and configure it twice. 
 
@@ -47,13 +47,13 @@ This lets you quickly and easily compare one attribution model to another withou
 The attribution panel is an easy way to build an analysis comparing various attribution models. To access the Attribution Panel, 
 
 1. Click the panel icon on the far left.
-1. Drag the Attribution Panel into your Analysis Workspace Project. ![](../../assets/Attribution_Panel_1.png) 
+1. Drag the Attribution Panel into your Analysis Workspace Project. ![](assets/Attribution_Panel_1.png) 
 
-1. Add a success metric that you want to attribute and add any channel dimension to attribute against (such as Marketing Channels or Internal Promotions). ![](../../assets/attribution_panel2.png) 
+1. Add a success metric that you want to attribute and add any channel dimension to attribute against (such as Marketing Channels or Internal Promotions). ![](assets/attribution_panel2.png) 
 
 1. Select the [ attribution models ](attribution_iq.md#section_4B9E7F83AE0B451A992397E55C3F5871) you wish to compare, and the [ lookback window ](attribution_iq.md#section_A2782BB64171431EB370CDCD4AD8030D). The Attribution Panel will return a rich set of data and visualizations to help you better understand how your Marketing Channels (or other dimensions) work together: 
 
-   ![](../../assets/attr_panel_vizs.png) 
+   ![](assets/attr_panel_vizs.png) 
 
    Here is a description of each visualization: 
 

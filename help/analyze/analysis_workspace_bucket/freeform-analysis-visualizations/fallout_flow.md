@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Fallout
 title: Fallout
-uuid: 25180eb0-634c-4bfe-8f8b-36d3771d35ad
+uuid: d38151f1-a580-4e4b-ab91-d8d1e806f861
 index: y
 internal: n
 snippet: y
@@ -48,15 +48,15 @@ Segments applied to Workspace panels work slightly differently than segments app
 
 Let's take an example of fallout with two steps: 
 
-![](../../assets/fallout_segments1.png) 
+![](assets/fallout_segments1.png) 
 
 If you then apply a segment at the Workspace panel level, the segment combines with the fallout like this: 
 
-![](../../assets/fallout_segments2.png) 
+![](assets/fallout_segments2.png) 
 
 By contrast, when Reports &amp;amp; Analytics and Ad Hoc Analysis calculate the segment, the segment is combined this way: 
 
-![](../../assets/fallout_segments3.png) 
+![](assets/fallout_segments3.png) 
 
 Reports &amp;amp; Analytics and Ad Hoc Analysis combine the segment with each step. When the containers are at the same level as the fallout (e.g. visit or visitor level) this will result in matching the number of visits or visitors. 
 

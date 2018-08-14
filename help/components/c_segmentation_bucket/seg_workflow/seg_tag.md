@@ -5,7 +5,7 @@ seo-title: Tagging Segments
 solution: Analytics
 title: Tagging Segments
 topic: Segments
-uuid: acf329a7-4fc2-42b4-bbce-13f94c6c0d17
+uuid: 5e579c80-f82a-453e-b18f-8f2fd7efefb5
 index: y
 internal: n
 snippet: y
@@ -21,14 +21,14 @@ All users can create tags for segments and apply one or more tags to a segment. 
 * **Workflow** tags: To be approved; Curated for (a specific business unit)
 
 
-1. In the Segment Manager, mark the checkbox next to the segment you want to tag. The segment management tool bar appears: ![](../../assets/segment_mgmt_toolbar.png)
+1. In the Segment Manager, mark the checkbox next to the segment you want to tag. The segment management tool bar appears: ![](assets/segment_mgmt_toolbar.png)
 
-1. Click ** [!UICONTROL  Tag] ** and either 
+1. Click **[!UICONTROL  Tag]** and either 
     * select from existing tags, or
-    * add a new tag and press ** [!UICONTROL  Enter] **. ![](../../assets/tagging_ui.png)
+    * add a new tag and press **[!UICONTROL  Enter]**. ![](assets/tagging_ui.png)
 
 
-1. Click ** [!UICONTROL  Tag] ** again to tag the segment.
+1. Click **[!UICONTROL  Tag]** again to tag the segment.
 The tag should now appear in the Tags column. (Click the gear icon on the top right to manage your columns.) 
 
-You can also filter on tags by going to ** [!UICONTROL  Filters] ** > ** [!UICONTROL  Tags] **. 
+You can also filter on tags by going to **[!UICONTROL  Filters]** > **[!UICONTROL  Tags]**. 

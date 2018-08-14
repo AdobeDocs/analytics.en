@@ -6,7 +6,7 @@ seo-title: Segment comparison (IQ)
 solution: Analytics
 title: Segment comparison (IQ)
 topic: Reports and analytics
-uuid: 9e239424-e3b2-4d35-9a21-50b9e8e1c7d4
+uuid: 4363fc04-d927-4f81-926e-7f49f0f04b90
 index: y
 internal: n
 snippet: y
@@ -27,13 +27,13 @@ For convenience, we’ve added the “everyone else” segment so that you don't
 
 The Size and Overlap visualization illustrates the comparative sizes of each selected segment and how much they overlap with each other. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If two segments do not overlap (for example if using the “everyone else” segment), you’ll also see that reflected in this visual. 
 
-![](../../assets/size-overlap.png) 
+![](assets/size-overlap.png) 
 
 ## Population summaries {#section_21F2B66C60184A71B89E2982A6FB945D}
 
 To the right of the Size and Crossover visual, the Segment Comparison Tool displays the total unique visitor count in each segment and the population of the overlap. 
 
-![](../../assets/population_summaries.png) 
+![](assets/population_summaries.png) 
 
 ## Top metrics {#section_E4A38516424949B79A559DC8793071F2}
 
@@ -50,11 +50,11 @@ The Top Metrics table is similar to any other table you use in Analysis Workspac
 
 You can customize the table any way you want. We’ve also added a new “create visual” icon to each row in the table. Clicking this icon creates a brand new table and visual above the Segment Comparison Tool if you don’t want to clutter the Top Metrics Table and would prefer to continue deeper analysis in a new table. If this metric is not relevant, you can click “X” to remove it from the table altogether. Finally, just as other Freeform Tables, you can paginate through the list of displayed metrics or display the top 10, 20, 50, etc. if you’d like to see more than the default five line items displayed by default. 
 
-![](../../assets/top-metrics.png) 
+![](assets/top-metrics.png) 
 
 To the right of the metrics table is a linked visualization. By default, the Segment Comparison Tool will display the top metric in the table trended over the last 30 days for each segment. If you want to visualize another metric found in the Top Metrics table, just select it by clicking and the visualization to the right will update to show the selected metric. 
 
-![](../../assets/linked-viz.png) 
+![](assets/linked-viz.png) 
 
 ## Top dimension items {#section_439C1782B153427CB4FB85E177146EC0}
 
@@ -67,11 +67,11 @@ Similar to the Top Metrics table, the Segment Comparison Tool provides a Top Dim
 
 For example, if comparing “Segment A” with “Segment B”, the Top Dimension Items table might reveal that 100% of visitors in “Segment A” had the dimension item Browser Type: Google, whereas only 19.6% of “Segment B” had this dimension item. 
 
-![](../../assets/top-dimension-item1.png) 
+![](assets/top-dimension-item1.png) 
 
 To the right of the Top Dimension Items table, the Segment Comparison Tool highlights the top dimension item selected along with other top dimension items from that dimension for comparison: 
 
-![](../../assets/top-dimension-item.png) 
+![](assets/top-dimension-item.png) 
 
 ## Top segments table {#section_6A0C39F930564240AF7A157005C7A80B}
 
@@ -82,11 +82,11 @@ To the right of the Top Dimension Items table, the Segment Comparison Tool highl
 
 The Top Segments table is a useful table showing which segments (other than the two segments selected for comparison) overlap very differently between the two selected segments. For example, when comparing Segment A with Segment B, the Top Segments table may show that a third segment, “Repeat Visitors” overlaps highly with Segment A but does not overlap with Segment B. 
 
-![](../../assets/top-segments.png) 
+![](assets/top-segments.png) 
 
 In addition, the top differentiating additional segment is displayed in an overlap visual to the right of the table: 
 
-![](../../assets/segment-overlap.png) 
+![](assets/segment-overlap.png) 
 
 The overlap visual graphically indicates the difference in overlap between all three segments, and like the other linked visuals, clicking on each additional segment in the table will update the visual to correspond to the selected segment. 
 

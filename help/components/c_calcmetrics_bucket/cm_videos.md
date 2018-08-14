@@ -3,7 +3,7 @@ description: These short videos (8 minutes or less) provide an overview of how t
 seo-description: These short videos (8 minutes or less) provide an overview of how to optimize the use of the Calculated Metric tools.
 seo-title: How-To Videos
 title: How-To Videos
-uuid: acf9f816-dc54-4713-a3d2-e35a4bfcb2e0
+uuid: dd68287f-904c-4bfe-ba96-53e153f98e78
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Format display headers
 solution: Analytics
 title: Format display headers
 topic: Report builder
-uuid: 93175a63-9df9-4e9f-9770-d05503ff551a
+uuid: 9bfedf1b-5042-4cfc-98aa-f24a95cbbcc5
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 
 
 >1. Create a request on the [!UICONTROL  Request Wizard: Step 1].
->1. Click ** [!UICONTROL  Next] **.
+>1. Click **[!UICONTROL  Next]**.
 >1. On the [!UICONTROL  Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
->1. Click ** [!UICONTROL  Format Options] **.
+>1. Click **[!UICONTROL  Format Options]**.
 >1. Configure the [!UICONTROL  Display] options:
 
 >    <table id="choicetable_956FE9AB50664FC784ACAACAE0FD66F7"> 
@@ -62,4 +62,4 @@ translate: y
 
 >   ** Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL  Report] name in the [!UICONTROL  Request Manager]. See [ Name a Request](../../report_builder_bucket/layout/name_a_request.md#concept_37277AFB63EA4541B6FD93A5B713D82D). 
 >
->1. Click ** [!UICONTROL  OK] **.
+>1. Click **[!UICONTROL  OK]**.

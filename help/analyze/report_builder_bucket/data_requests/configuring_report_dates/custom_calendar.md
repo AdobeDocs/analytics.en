@@ -5,7 +5,7 @@ seo-title: Custom calendar
 solution: Analytics
 title: Custom calendar
 topic: Report builder
-uuid: c17a2149-c1dc-491b-9691-c707217f4a55
+uuid: 85df4ba5-1133-41ca-a71f-ff21b6146c91
 index: y
 internal: n
 snippet: y

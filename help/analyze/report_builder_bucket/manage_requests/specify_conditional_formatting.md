@@ -5,7 +5,7 @@ seo-title: Specify conditional formatting
 solution: Analytics
 title: Specify conditional formatting
 topic: Report builder
-uuid: 6506b65e-6e5c-46e6-b245-9b3270c1b7a9
+uuid: d4cdb844-90c0-4c56-99d7-c4a02fd5f5e6
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Specify conditional formatting
 
-On the report builder Toolbar, click ** [!UICONTROL  Format] **. 
+On the report builder Toolbar, click **[!UICONTROL  Format]**. 
 
 Conditional formatting lets you identify cells that contain results or values that you want to monitor. For example, you can apply red shading (or highlighting) to a particular cell if the revenue is below expectations, and blue shading if revenue exceeds amounts that you forecast. If a change in date ranges for requests removes conditions that cause conditional formatting to apply to cell values, the formats that highlight that condition are disabled temporarily. While the conditional formats you specify result in no change in display of cell format, because no conditions are met, they continue to be applied to cells until you remove them. 
 

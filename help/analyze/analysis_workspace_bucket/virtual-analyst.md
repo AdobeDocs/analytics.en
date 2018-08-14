@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Virtual Analyst
 title: Virtual Analyst
-uuid: b367f4a9-525b-4edf-866c-22709c54710d
+uuid: edea7b12-2d99-46bf-994c-3f06b0a5b170
 index: y
 internal: n
 snippet: y

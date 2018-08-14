@@ -5,7 +5,7 @@ seo-title: Import bookmarked reports and dashboard reportlets
 solution: Analytics
 title: Import bookmarked reports and dashboard reportlets
 topic: Report builder
-uuid: a64fc072-a60f-406e-ab37-68db1d21c9cb
+uuid: f25201df-e50e-40fe-b333-52d93d792afe
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ When you select a bookmarked report, the Request Wizard populates all the dimens
 
 This is how the Request Wizard Step 1 shows a dashboard and its reportlets: 
 
-![](../../assets/import_dashboard_reportlet.png) 
+![](assets/import_dashboard_reportlet.png) 
 
-When you click ** [!UICONTROL  Retrieve your Dashboards] ** or ** [!UICONTROL  Retrieve your Bookmarks] **, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet. 
+When you click **[!UICONTROL  Retrieve your Dashboards]** or **[!UICONTROL  Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet. 
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Segmentation Features in Analysis Workspace
 title: Segmentation Features in Analysis Workspace
-uuid: e50824f3-d4f8-4388-8bb0-f8a8328ed9bc
+uuid: 61cd5886-4b2c-4b3a-9d91-12c0ae3a6236
 index: y
 internal: n
 snippet: y

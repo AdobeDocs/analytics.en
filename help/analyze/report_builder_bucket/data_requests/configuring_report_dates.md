@@ -5,7 +5,7 @@ seo-title: Date ranges
 solution: Analytics
 title: Date ranges
 topic: Report builder
-uuid: 82c12315-53ab-4627-a965-d2bd96a87eaf
+uuid: 509fdc1e-6abf-441d-9ead-c9cc6631e5b3
 index: y
 internal: n
 snippet: y

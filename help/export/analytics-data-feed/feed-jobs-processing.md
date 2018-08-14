@@ -5,7 +5,7 @@ seo-description: Use the Jobs tab to view job histories and perform job manageme
 seo-title: Data Feed Jobs
 solution: Analytics
 title: Data Feed Jobs
-uuid: 42236404-6fa2-4aa7-917d-11ac95517f56
+uuid: ac928d69-17ab-4b3c-884c-c55cde87e465
 index: y
 internal: n
 snippet: y
@@ -16,13 +16,13 @@ translate: y
 
 The Jobs list provides information such as job status, when jobs start and when they are completed, how long the job took to run, and so on. 
 
-![](../assets/jobs.jpg) 
+![](assets/jobs.jpg) 
 
 Click on column headings to toggle the order in which the jobs are displayed. 
 
 To set the information you want to display in the Jobs list, click the Settings icon and select the desired column names. 
 
-![](../assets/job-cols.jpg) 
+![](assets/job-cols.jpg) 
 
 Feed Name, Start Time, and Status are required columns and cannot be removed from the Jobs list. 
 

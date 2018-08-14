@@ -5,7 +5,7 @@ seo-title: Customizable overlays
 solution: Analytics
 title: Customizable overlays
 topic: Activity map
-uuid: 5fee3e8c-09c0-462b-a048-e0a046411c93
+uuid: 91d74a37-4d8d-4ea2-b237-09072f0a7c48
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ These metrics are overlaid on top of the page's links as a kind of 'heat map' to
 * What is the value of an individual page?
 * What is the value of an individual element on a page?
 * What is the most valuable 'digital real estate' on a page?
-![](../../assets/gradient.png) 
+![](assets/gradient.png) 
 
 ## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
@@ -44,18 +44,18 @@ The Bubble overlay shows the overlay content (metric, percentage, or rank) in a 
 
 Bubble overlays are shown when you select this overlay in the Overlay Type in the toolbar. . Bubble overlays show for all links that match the selection in [ Activity Map Settings ](c_Overlay_settings_panel.md#concept_7881624ACCF44F92985D4594080B9800) (top 30, top 50, all...). Gradient overlays will be shown if this option not selected. 
 
-![](../../assets/bubble_overlay.png) 
+![](assets/bubble_overlay.png) 
 
 >[!NOTE]
 >
->Bubble overlays for submenus show only when you display the submenu:![](../../assets/bubbles_submenu.png)
+>Bubble overlays for submenus show only when you display the submenu:![](assets/bubbles_submenu.png)
 
 
 
 ## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
-** [!UICONTROL  Gainers and losers overlays] ** are available only in Live mode. They report real-time changes in link activity by comparing the metrics from the current period with metrics from the last period. They give you a visually compelling way to view trending in real-time. 
+**[!UICONTROL  Gainers and losers overlays]** are available only in Live mode. They report real-time changes in link activity by comparing the metrics from the current period with metrics from the last period. They give you a visually compelling way to view trending in real-time. 
 
 This real-time overlay ranks clicks based on changes in the metric value between the previous and current periods. 
 
-![](../../assets/gainers_losers.png) 
+![](assets/gainers_losers.png) 

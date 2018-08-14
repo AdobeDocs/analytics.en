@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Area and area stacked
 title: Area and area stacked
-uuid: 332fc13c-2f13-4628-a787-0e2b54ff7fc5
+uuid: f0891cba-55e7-4590-a6ec-37c5605fc2c1
 index: y
 internal: n
 snippet: y
@@ -17,14 +17,14 @@ translate: y
 
 This visualization is like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. 
 
-![](../../assets/area.png) 
+![](assets/area.png) 
 
 ## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
 This visualization is like an Area Chart, but each series begins at the top of the previous series. 
 
-![](../../assets/area-stacked.png) 
+![](assets/area-stacked.png) 
 
 A new visualization setting on area stacked visualizations turns the chart into a "100% stacked" visualization. 
 
-![](../../assets/areastacked100.png) 
+![](assets/areastacked100.png) 

@@ -5,7 +5,7 @@ seo-title: Edit multiple requests
 solution: Analytics
 title: Edit multiple requests
 topic: Report builder
-uuid: f34fe70e-2455-4c87-b990-8938e5784c34
+uuid: d9ab7a1f-e554-44e6-bfde-5b000c8785ab
 index: y
 internal: n
 snippet: y
@@ -18,24 +18,24 @@ You can change several requests at the same time, based on the request's report 
 
 **To edit multiple requests** 
 
->1. In Excel, click ** [!UICONTROL  Manage] **.
+>1. In Excel, click **[!UICONTROL  Manage]**.
 
 
 >       >[!NOTE]
 >       >
 >       >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL  All Sheets] option on the [!UICONTROL  Request Manager]. By default, this box is checked if there are requests on several worksheets. 
 
->1. On the [!UICONTROL  Request Manager] form, select two or more requests, then click ** [!UICONTROL  Edit Multiple] **.
+>1. On the [!UICONTROL  Request Manager] form, select two or more requests, then click **[!UICONTROL  Edit Multiple]**.
 
 >       The [!UICONTROL  Edit Multiple Requests] form displays columns of information: [!UICONTROL  By Report Suite], [!UICONTROL  By Segment], [!UICONTROL  By Metric], [!UICONTROL  By Date Range and Granularity], and [!UICONTROL  By Group]. 
 >1. To group the display of requests, click any of the following options:
 >    
 >    * ** By Report Suite:** Groups the display of requests by report suite.
 >    * **By Segment**: Groups the requests based on the segment name. >    
->        * **Choose Segment**: Displays if no segments exist for the requests. To add segments, click ** [!UICONTROL  Edit Group] ** and select a segment from the [!UICONTROL  Edit Group] panel.
+>        * **Choose Segment**: Displays if no segments exist for the requests. To add segments, click **[!UICONTROL  Edit Group]** and select a segment from the [!UICONTROL  Edit Group] panel.
 
 >    * **By Metric**: See [ Edit Metrics Across Multiple Requests](../../report_builder_bucket/manage_requests/t_edit_multiple_requests/edit_multiple_metrics.md#concept_1524B059C72C4224AA199411151069AB).
 >    * ** By Date Range and Granularity:** Groups the display of requests by date range and time granularity.
 >    * ** By Group:**Groups the display of requests by set of grouped requests.
 >    
->1. On the [!UICONTROL  Edit Multiple Requests] form, click ** [!UICONTROL  OK] **.
+>1. On the [!UICONTROL  Edit Multiple Requests] form, click **[!UICONTROL  OK]**.

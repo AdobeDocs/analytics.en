@@ -3,7 +3,7 @@ description: Selecting the gear icon next to a metric lets you specify the metri
 seo-description: Selecting the gear icon next to a metric lets you specify the metric type and the metric allocation.
 seo-title: Metric Type and Allocation
 title: Metric Type and Allocation
-uuid: 352266e6-81d7-470e-9a06-064746be7e88
+uuid: 4b695484-3bac-4a47-a37d-020941641a58
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ translate: y
 
 ## Metric Type {#section_34A86FB402F94E988724232283BF18B7}
 
-![](../../../assets/cm_type_alloc.png) 
+![](assets/cm_type_alloc.png) 
 |  Metric Type  | Definition  |
 |---|---|
 |  Standard  | These metrics are the same metrics used in standard Analytics reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |

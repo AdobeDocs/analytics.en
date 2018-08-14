@@ -5,7 +5,7 @@ seo-title: Link tracking methodology
 solution: Analytics
 title: Link tracking methodology
 topic: Activity map
-uuid: 877c1ec1-bca1-4e60-9d1f-a692dda6df63
+uuid: 88e62b6d-d656-4398-90b7-2d3c23b13fb6
 index: y
 internal: n
 snippet: y

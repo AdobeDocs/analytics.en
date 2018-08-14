@@ -5,7 +5,7 @@ seo-title: Sharing Segments
 solution: Analytics
 title: Sharing Segments
 topic: Segments
-uuid: 5da5c511-4e2d-4689-ae1a-4349dc59ae49
+uuid: 189c9010-5a7f-4b6d-8f32-c6f6c7443371
 index: y
 internal: n
 snippet: y
@@ -22,15 +22,15 @@ translate: y
 
 When should you share segments with the entire company versus just a group of users or individuals? Here are some best practices you might follow: 
 
-* As an Admin, share a segment with ** [!UICONTROL  All] ** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [ approved](../../c_segmentation_bucket/seg_workflow/seg_approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
-* As an Admin, share a segment with a specific ** [!UICONTROL  Group] ** if the segment provides good business value for that team. Do not officially approve this type of segment.
+* As an Admin, share a segment with **[!UICONTROL  All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [ approved](../../c_segmentation_bucket/seg_workflow/seg_approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* As an Admin, share a segment with a specific **[!UICONTROL  Group]** if the segment provides good business value for that team. Do not officially approve this type of segment.
 * As an Admin or an individual user, share a segment with other individuals to vet and validate a segment. If it doesn't prove useful, it can be discarded. Do not officially approve this type of segment.
 
 >1. In the Segment Manager, mark the checkbox next to the segment you want to share. The segment management tool bar appears:
 
->       ![](../../assets/segment_mgmt_toolbar.png)1. Click ** [!UICONTROL  Share] **.
->   ![](../../assets/sharing_segments.png)>
+>       ![](assets/segment_mgmt_toolbar.png)1. Click **[!UICONTROL  Share]**.
+>   ![](assets/sharing_segments.png)>
 
->       ** [!UICONTROL  All] **** [!UICONTROL  Groups] **** [!UICONTROL  Users] **** [!UICONTROL  Search] **1. Click ** [!UICONTROL  Share] **.
+>       **[!UICONTROL  All]****[!UICONTROL  Groups]****[!UICONTROL  Users]****[!UICONTROL  Search]**1. Click **[!UICONTROL  Share]**.
 
->       ![](../../assets/share_icon.png)1. You can filter on segments shared with you by going to ** [!UICONTROL  Filters] ** > ** [!UICONTROL  Other Filters] ** > ** [!UICONTROL  Shared with Me] **.
+>       ![](assets/share_icon.png)1. You can filter on segments shared with you by going to **[!UICONTROL  Filters]** > **[!UICONTROL  Other Filters]** > **[!UICONTROL  Shared with Me]**.

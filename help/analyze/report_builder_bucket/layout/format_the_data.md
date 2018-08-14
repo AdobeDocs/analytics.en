@@ -5,7 +5,7 @@ seo-title: Format the date
 solution: Analytics
 title: Format the date
 topic: Report builder
-uuid: 06578ece-26bd-4974-aa36-049fee361967
+uuid: 450d5baa-0248-42f0-b39e-d58effcea037
 index: y
 internal: n
 snippet: y
@@ -14,9 +14,9 @@ translate: y
 
 # Format the date
 
-After you [ add dimensions ](../../report_builder_bucket/layout/metrics_dimensions/t_add_metrics_and_dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) to the Row Labels grid, click ** [!UICONTROL  Format] **. 
+After you [ add dimensions ](../../report_builder_bucket/layout/metrics_dimensions/t_add_metrics_and_dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) to the Row Labels grid, click **[!UICONTROL  Format]**. 
 
-In the ** [!UICONTROL  Format] ** menu, click ** [!UICONTROL  Custom Format] ** to apply customized formats for dates similar to the prepend and postpend feature. For example, you can enter text that always occurs after the date (such as A.D. B.C.E. A.H. etc.). You can add text before the date, such as [!UICONTROL  Start Date] and [!UICONTROL  Start and End Date]. In addition, you can construct a custom date expression from day, month, and year abbreviations, and use a custom separator between parts of the date. All date formats must consist of three abbreviations only enclosed in brackets. 
+In the **[!UICONTROL  Format]** menu, click **[!UICONTROL  Custom Format]** to apply customized formats for dates similar to the prepend and postpend feature. For example, you can enter text that always occurs after the date (such as A.D. B.C.E. A.H. etc.). You can add text before the date, such as [!UICONTROL  Start Date] and [!UICONTROL  Start and End Date]. In addition, you can construct a custom date expression from day, month, and year abbreviations, and use a custom separator between parts of the date. All date formats must consist of three abbreviations only enclosed in brackets. 
 
 The following table describes how you can use date abbreviations in the [!UICONTROL  Custom Format] field: 
 

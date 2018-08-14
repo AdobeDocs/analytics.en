@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Contribution Analysis tokens
 title: Contribution Analysis tokens
-uuid: 31ce7a29-86a0-4847-b19d-f55468feeded
+uuid: c14462bb-168a-4d25-b03c-0548eb808353
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
       <span class="uicontrol"> Admin </span>  &gt; 
       <span class="uicontrol"> Company Settings </span>  &gt; 
       <span class="uicontrol"> View Feature Access Levels </span> 
-     </ignoretag>. There are 2 new items on this page: </p> <p style="text-align: center;"> <img placement="break" align="left" href="../../../assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
+     </ignoretag>. There are 2 new items on this page: </p> <p style="text-align: center;"> <img placement="break" align="left" href="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

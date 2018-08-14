@@ -5,7 +5,7 @@ seo-title: Manage requests
 solution: Analytics
 title: Manage requests
 topic: Report builder
-uuid: 0fea4567-91c0-48e9-bff3-471003f5a24d
+uuid: ee43c646-9e15-4cab-986e-38f248414be5
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 # Manage requests
 
-The [!UICONTROL  Request Manager] displays when you click ** [!UICONTROL  Manage] ** ( ![](../assets/edit_request.gif)) in the report builder Toolbar. 
+The [!UICONTROL  Request Manager] displays when you click **[!UICONTROL  Manage]** ( ![](assets/edit_request.gif)) in the report builder Toolbar. 
 
 >[!NOTE]
 >

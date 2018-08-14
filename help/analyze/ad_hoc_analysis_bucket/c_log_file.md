@@ -5,7 +5,7 @@ seo-title: Log File
 solution: Analytics
 title: Log File
 topic: Ad hoc analysis
-uuid: 5dd76188-4027-44ed-8850-8e855a19ea5e
+uuid: 964175ab-aaf6-4f70-a6db-0ed9249cc0a1
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 
 A quick way to save and view a log file is to: 
 
-1. Click ** [!UICONTROL  Help] ** > ** [!UICONTROL  About Ad Hoc Analysis] **
-1. Click the ** [!UICONTROL  Ad Hoc Analysis] ** logo.
-1. Click ** [!UICONTROL  Save Log File] **.
+1. Click **[!UICONTROL  Help]** > **[!UICONTROL  About Ad Hoc Analysis]**
+1. Click the **[!UICONTROL  Ad Hoc Analysis]** logo.
+1. Click **[!UICONTROL  Save Log File]**.
 
 >[!NOTE]
 >

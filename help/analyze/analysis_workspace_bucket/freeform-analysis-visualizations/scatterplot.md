@@ -3,7 +3,7 @@ description: Shows impressions served and how many unique users have seen those 
 seo-description: Shows impressions served and how many unique users have seen those impressions.
 seo-title: Scatterplot
 title: Scatterplot
-uuid: 8bbb1db9-f9f8-4640-b5ec-07d43c81f7f0
+uuid: 62c63b9e-9e31-4162-aa23-095b3c68fa0f
 index: y
 internal: n
 snippet: y
@@ -14,7 +14,7 @@ translate: y
 
 The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select. 
 
-![](../../assets/scatter.png) 
+![](assets/scatter.png) 
 
 >[!NOTE]
 >

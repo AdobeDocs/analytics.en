@@ -5,7 +5,7 @@ seo-title: Lock/unlock workbooks
 solution: Analytics
 title: Lock/unlock workbooks
 topic: Report builder
-uuid: f5705a51-6664-4919-8190-a8d3f5e37686
+uuid: 18d481a0-d8da-40e8-9255-87abc27b1da6
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 
 As an analyst, locking a workbook lets you protect your workbook requests against tampering by other users within your organization. At the same time, those users can still refresh the requests in the workbook. 
 
-To protect a workbook against editing, click ** [!UICONTROL  Locked] ** on the Report Builder toolbar ( ![](../../assets/locked_icon.png)). 
+To protect a workbook against editing, click **[!UICONTROL  Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)). 
 
-To unprotect a workbook, click ** [!UICONTROL  Unlocked] ** ( ![](../../assets/unlocked_icon.png)). 
+To unprotect a workbook, click **[!UICONTROL  Unlocked]** ( ![](assets/unlocked_icon.png)). 
 
 You can unlock a locked workbook if you have one of the following permissions: 
 
@@ -37,9 +37,9 @@ When a workbook is locked against request editing,
 * Users cannot cut, copy or paste requests. However, users can still use the native Excel Cut/Copy/Paste context menu to cut/copy/paste the content of the request(s).
 * Users can refresh requests, either individually or as a part of a group.
 * If the request uses input values from cells (date range, segment, filters), users can change these values in the cells, and thus indirectly edit the requests by refreshing them.
-If you try to edit a protected workbook (through the context menu, or ** [!UICONTROL  Request Manager] **, or ** [!UICONTROL  Edit Multiple Requests] **), you may or may not be allowed to do so: 
+If you try to edit a protected workbook (through the context menu, or **[!UICONTROL  Request Manager]**, or **[!UICONTROL  Edit Multiple Requests]**), you may or may not be allowed to do so: 
 
-* If you do not have permissions to unlock the request(s), this prompt appears: ![](../../assets/locked_workbook_error.png) 
+* If you do not have permissions to unlock the request(s), this prompt appears: ![](assets/locked_workbook_error.png) 
 
 * If you have the required permissions, no prompt is shown, and you can edit the request.
 

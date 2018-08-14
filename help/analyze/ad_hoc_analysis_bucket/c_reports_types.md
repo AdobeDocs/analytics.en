@@ -5,7 +5,7 @@ seo-title: Report Types
 solution: Analytics
 title: Report Types
 topic: Ad hoc analysis
-uuid: 1688f1ba-0c92-431d-b91c-b686a04af7fc
+uuid: 35d87e44-31e3-4626-8413-9de5142e2c82
 index: y
 internal: n
 snippet: y
@@ -35,10 +35,10 @@ A [!UICONTROL  Products Report] is an example of a trended report. You can see h
 **To trend from cells** 
 
 >1. Open a ranked report.
->1. In the table, locate the cell and click ** [!UICONTROL  Trend] **.  ![](../assets/TrendInspector_Buttcon.png)
->1. To view a full report from the cell, click ** [!UICONTROL  Launch Trend Report] **.
+>1. In the table, locate the cell and click **[!UICONTROL  Trend]**.  ![](assets/TrendInspector_Buttcon.png)
+>1. To view a full report from the cell, click **[!UICONTROL  Launch Trend Report]**.
 
->       Alternatively, right-click the cell, then click ** [!UICONTROL  Trend Cell] **. You can also perform this task after selecting multiple cells. 
+>       Alternatively, right-click the cell, then click **[!UICONTROL  Trend Cell]**. You can also perform this task after selecting multiple cells. 
 >## Totals Report {#concept_48E23FB3BCCD43DFB486A048960800A8}
 
 <!-- c_reports_totals.xml -->

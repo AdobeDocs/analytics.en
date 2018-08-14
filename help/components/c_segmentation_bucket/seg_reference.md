@@ -5,7 +5,7 @@ seo-title: Segment Reference
 solution: Analytics
 title: Segment Reference
 topic: Segments
-uuid: 482a9975-b23b-404a-906e-d327d8485abc
+uuid: cf9b0177-25e5-4035-90f5-833d6c566028
 index: y
 internal: n
 snippet: y

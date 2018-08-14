@@ -5,7 +5,7 @@ seo-title: Interactive controls
 solution: Analytics
 title: Interactive controls
 topic: Report builder
-uuid: bd448155-4fb6-493a-b88c-adc88823a8b3
+uuid: 9aa655f1-d783-4f71-a42e-f78af13ce74a
 index: y
 internal: n
 snippet: y
@@ -35,21 +35,21 @@ Interactive controls were created in response to a common workflow where analyst
 ## Implement interactive date range control {#section_39B228F2D2C44985863D31424C953280}
 
 
-1. In Step 1 of the Request Wizard select, for example, the ** [!UICONTROL  Page] ** report.
-1. Next to the ** [!UICONTROL  Commonly Used Dates] ** drop down, click the ** [!UICONTROL  Control Settings] ** icon: ![](../../assets/date_range_control.png) 
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL  Page]** report.
+1. Next to the **[!UICONTROL  Commonly Used Dates]** drop down, click the **[!UICONTROL  Control Settings]** icon: ![](assets/date_range_control.png) 
 
-1. In the Control Settings dialog, select all the date range items that you want displayed in the interactive control. In addition, specify the upper left cell location of the control. ![](../../assets/control_settings.png) 
+1. In the Control Settings dialog, select all the date range items that you want displayed in the interactive control. In addition, specify the upper left cell location of the control. ![](assets/control_settings.png) 
 
 1. Notice the option to "Automatically refresh linked requests upon item selection”. 
     * If checked, all requests that use this control are refreshed.
     * If not checked, the associated request parameters are updated, but the request is not refreshed.
 
-1. Click ** [!UICONTROL  OK] **. The control appears in the cell location that you specified: ![](../../assets/date_range_control_interactive.png) 
+1. Click **[!UICONTROL  OK]**. The control appears in the cell location that you specified: ![](assets/date_range_control_interactive.png) 
 
 1. You can now change the date range and the request will refresh with that date range.
 1. You can also copy the request and right click to use one of two Paste Request options: 
-    * ** [!UICONTROL  Paste Request] ** > ** [!UICONTROL  Use Absolute Input Cell] **. This means that the copied request will point to the same interactive date range control as the original request.
-    * ** [!UICONTROL  Paste Request] **> ** [!UICONTROL  Use Relative input Cell] **. This mean that the copied request will point to its own control. 
+    * **[!UICONTROL  Paste Request]** > **[!UICONTROL  Use Absolute Input Cell]**. This means that the copied request will point to the same interactive date range control as the original request.
+    * **[!UICONTROL  Paste Request]**> **[!UICONTROL  Use Relative input Cell]**. This mean that the copied request will point to its own control. 
       >[!NOTE]
       >
       >You can use the native Microsoft Excel Cut/Copy/Paste control functionality. Report builder automatically recognizes the newly added controls.
@@ -60,9 +60,9 @@ Interactive controls were created in response to a common workflow where analyst
 
 Implementing the interactive segment control is similar to implementing the date range control. 
 
-1. In Step 1 of the Request Wizard, next to the ** [!UICONTROL  Segment] ** drop-down list, select the Segment Control Settings icon: ![](../../assets/segment_interactive_1.png) 
+1. In Step 1 of the Request Wizard, next to the **[!UICONTROL  Segment]** drop-down list, select the Segment Control Settings icon: ![](assets/segment_interactive_1.png) 
 
-1. In the Segment Control Settings dialog, select the segments you want to include in the drop-down. In addition, specify the upper left cell location of the control. ![](../../assets/segment_drop_down_properties.png) 
+1. In the Segment Control Settings dialog, select the segments you want to include in the drop-down. In addition, specify the upper left cell location of the control. ![](assets/segment_drop_down_properties.png) 
 
-1. The new interactive control will now appear in the workbook: ![](../../assets/segment_interactive_3.png) 
+1. The new interactive control will now appear in the workbook: ![](assets/segment_interactive_3.png) 
 

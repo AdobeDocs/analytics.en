@@ -3,7 +3,7 @@ description: Time parting takes the timestamp of collected hits and breaks it in
 seo-description: Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as "Hour of Day" or "Day of Week".
 seo-title: Time-parting dimensions
 title: Time-parting dimensions
-uuid: 32ca6ee1-0a1b-4468-8eb1-25a7755ec823
+uuid: f7088127-c561-45f5-8864-1d46edf1a6aa
 index: y
 internal: n
 snippet: y

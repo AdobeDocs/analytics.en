@@ -5,7 +5,7 @@ seo-title: Schedule report requests
 solution: Analytics
 title: Schedule report requests
 topic: Report builder
-uuid: 2e64d478-45cb-4d52-a495-0a57cf41ceaa
+uuid: 72dc5626-0a7b-414b-9efe-588b28e9fb1c
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 For example, you can schedule reports to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL  Advanced Delivery Options]. The file size limit is 5 MB for a report upload. 
 
-Additionally, after you create a report schedule in Report Builder, you can view and edit the schedule in ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Reports] **. (See [ Report Schedule and Distribution](http://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Report%20Schedule%20and%20Distribution) in Reports &amp; Analytics help.) 
+Additionally, after you create a report schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL  Analytics]** > **[!UICONTROL  Reports]**. (See [ Report Schedule and Distribution](http://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Report%20Schedule%20and%20Distribution) in Reports &amp; Analytics help.) 
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ Additionally, after you create a report schedule in Report Builder, you can view
 
 >[!NOTE]
 >
->You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to ** [!UICONTROL  Admin] ** > ** [!UICONTROL  Company Settings] ** > ** [!UICONTROL  Report Builder Reports] **. 
+>You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL  Admin]** > **[!UICONTROL  Company Settings]** > **[!UICONTROL  Report Builder Reports]**. 
 
 
 >[!NOTE]

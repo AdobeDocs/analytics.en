@@ -3,7 +3,7 @@ description: You can view and analyze data anomalies contextually, within Analys
 seo-description: You can view and analyze data anomalies contextually, within Analysis Workspace.
 seo-title: Anomaly Detection
 title: Anomaly Detection
-uuid: 69184f2d-62cf-433a-858d-4fd7d25abc24
+uuid: 07d35637-46de-4dd0-837a-f047d413b00b
 index: y
 internal: n
 snippet: y

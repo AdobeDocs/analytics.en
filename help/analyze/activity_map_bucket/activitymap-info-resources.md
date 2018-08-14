@@ -5,7 +5,7 @@ seo-title: Knowledge resources
 solution: Analytics
 title: Knowledge resources
 topic: Activity map
-uuid: ed33d0bc-44b6-43b4-8d38-8a49dd835c91
+uuid: b661068f-c53c-4a1c-9bf7-5b1093180be6
 index: y
 internal: n
 snippet: y

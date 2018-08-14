@@ -5,7 +5,7 @@ seo-title: Specific filters
 solution: Analytics
 title: Specific filters
 topic: Report builder
-uuid: 49db27a3-4856-4d63-8395-ddf4be8767c9
+uuid: c21c66ff-8767-4ebb-86ef-418e7c88bca9
 index: y
 internal: n
 snippet: y
@@ -20,11 +20,11 @@ You can search on specific dimension items by creating a filter that matches exa
 
 >1. Create or edit a request, and advance to the [!UICONTROL  Request Wizard: Step 2].
 
->       ![Step Result](../../../assets/dimension_filter.png) 
->1. On the [!UICONTROL  Request Wizard: Step 2], click the link next to the dimension in the grid, then choose ** [!UICONTROL  Filter] **.
+>       ![Step Result](assets/dimension_filter.png) 
+>1. On the [!UICONTROL  Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL  Filter]**.
 
->       ![Step Result](../../../assets/choose_page_specific01.png) 
->1. Enable ** [!UICONTROL  Specific] **, then enable one of the following options:
+>       ![Step Result](assets/choose_page_specific01.png) 
+>1. Enable **[!UICONTROL  Specific]**, then enable one of the following options:
 >       **From Range of Cells:** Lets you select data from cells. You can select: 
 
 >    
@@ -32,8 +32,8 @@ You can search on specific dimension items by creating a filter that matches exa
 >    * **First Cell of Range:** You only need to select the upper left cell of the range, and then choose a direction for the data. Additionally, if the request has multiple periods, you choose the direction of the periods and choose whether you want to skip a set number of cells between periods.
 
 >       **From List:** Lets you select data from a list to which you can add data.>    
->1. If you enable ** [!UICONTROL  From List] **, select any available listed items or click ** [!UICONTROL  Add] **.
+>1. If you enable **[!UICONTROL  From List]**, select any available listed items or click **[!UICONTROL  Add]**.
 
->       When you click ** [!UICONTROL  Add] **, the [!UICONTROL  Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click ** [!UICONTROL  More ...] **, which displays the [!UICONTROL  Search Form], so that you can create a more detailed search for dimensions. 
->1. On the [!UICONTROL  Select From List], click ** [!UICONTROL  OK] **.
->1. On the [!UICONTROL  Choose Page] form, save your Specific filter if you want, then click ** [!UICONTROL  OK] **.
+>       When you click **[!UICONTROL  Add]**, the [!UICONTROL  Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click **[!UICONTROL  More ...]**, which displays the [!UICONTROL  Search Form], so that you can create a more detailed search for dimensions. 
+>1. On the [!UICONTROL  Select From List], click **[!UICONTROL  OK]**.
+>1. On the [!UICONTROL  Choose Page] form, save your Specific filter if you want, then click **[!UICONTROL  OK]**.

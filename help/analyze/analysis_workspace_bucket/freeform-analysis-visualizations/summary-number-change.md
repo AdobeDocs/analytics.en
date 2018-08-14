@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Summary Number and Summary Change visualizations
 title: Summary Number and Summary Change visualizations
-uuid: a00c9a65-7e56-4ca5-8720-d537a1d675d2
+uuid: d29a966d-03ac-4033-9190-9790a3128e40
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 * If a single cell is selected, it shows the summary for that cell.
 * If more than one cell is selected, it shows the first cell selected.
 * If the column is selected, it picks the first cell value in the column.
-![](../../assets/summary-number.png) 
+![](assets/summary-number.png) 
 
 ** Summary Change** visualization: 
 

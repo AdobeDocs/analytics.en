@@ -5,7 +5,7 @@ seo-description: Learn how to use FTP and SFTP to transfer files between compute
 seo-title: Using FTP and SFTP with the Adobe Experience Cloud
 solution: Analytics
 title: Using FTP and SFTP with the Adobe Experience Cloud
-uuid: e68cf2ff-c5b2-4587-82c6-07612544d94e
+uuid: ae621e66-7a36-4804-aa38-c2539039e999
 index: y
 internal: n
 snippet: y

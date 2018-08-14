@@ -6,7 +6,7 @@ seo-title: Building a project
 solution: Analytics
 title: Building a project
 topic: Reports and analytics
-uuid: e0d09dcb-45ae-44a3-9700-4d0fdebc1f91
+uuid: 88fb0449-bde7-4194-abd1-df3553288c5f
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 # Building a project
 
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Workspace] ** 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]** 
 
 You can create a robust Analytics project based on any combination of visualizations, report components, and data tables. It brings many of the table builder features from Ad Hoc Analysis into Analytics. 
 
@@ -25,9 +25,9 @@ The query goes directly to the reporting engine—you can make changes inline wi
 
 ## Workspace project list page {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to  ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Workspace] ** , the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking ** [!UICONTROL  Set as Landing Page] **. (If you don't see this option, as in the screen shot below, it is already your landing page.) 
+When you first go to  **[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]** , the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL  Set as Landing Page]**. (If you don't see this option, as in the screen shot below, it is already your landing page.) 
 
-![](../assets/sample-project.png) 
+![](assets/sample-project.png) 
 
 The Workspace project list page contains the following information: 
 
@@ -35,19 +35,19 @@ The Workspace project list page contains the following information:
 |---|---|
 |  Project [ Templates ](../analysis_workspace_bucket/freeform_overview/starter_projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)  | You can use these pre-populated project templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.  |
 |  [ Create New Project ](../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2)  | Click this link to start a new project from scratch.  |
-|  Manage Projects  | Clicking this link takes you to the Projects Component Manager (  ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Projects] ** ), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
+|  Manage Projects  | Clicking this link takes you to the Projects Component Manager (  **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Projects]** ), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
 |  View Tutorials  | Takes you to the [ Analysis Workspace YouTube videos ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).  |
 |  Name  | Name of the Workspace project.  |
 |  Created By  | The person who created this project (either you or someone who shared the project with you.)  |
-|  Tags  | Tags that were applied to the project, either in the Projects Component Manager or under  ** [!UICONTROL  Workspace] ** > ** [!UICONTROL  Project] ** > ** [!UICONTROL  Project Info &amp;amp; Settings] ** .  |
+|  Tags  | Tags that were applied to the project, either in the Projects Component Manager or under  **[!UICONTROL  Workspace]** > **[!UICONTROL  Project]** > **[!UICONTROL  Project Info &amp;amp; Settings]** .  |
 |  Last Modified  | Date and time when the project was last modified.  |
 
 
 ## Project info &amp; settings {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-** [!UICONTROL  Workspace] ** > ** [!UICONTROL  Project] ** > ** [!UICONTROL  Project Info &amp;amp; Settings] ** 
+**[!UICONTROL  Workspace]** > **[!UICONTROL  Project]** > **[!UICONTROL  Project Info &amp;amp; Settings]** 
 
-** [!UICONTROL  Project Info &amp;amp; Settings] ** provides project-level information on the currently active project. 
+**[!UICONTROL  Project Info &amp;amp; Settings]** provides project-level information on the currently active project. 
 
 |  Setting  | Description  |
 |---|---|
@@ -61,7 +61,7 @@ The Workspace project list page contains the following information:
 
 ## Projects menu {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
-The top Projects menu looks like this:![](../assets/new-project-menus.png) 
+The top Projects menu looks like this:![](assets/new-project-menus.png) 
 
 The submenus contain the following options. 
 
@@ -85,6 +85,6 @@ The submenus contain the following options.
 
 ## Left rail {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels,[ Visualizations ](../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [ Components ](../analysis_workspace_bucket/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click: ![](../assets/panels.png)  ![](../assets/visualizations.png)  ![](../assets/components.png) 
+The left rail has 3 icons, allowing you access to Panels,[ Visualizations ](../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [ Components ](../analysis_workspace_bucket/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click: ![](assets/panels.png)  ![](assets/visualizations.png)  ![](assets/components.png) 
 
-A ** [!UICONTROL  Blank Panel] ** was added to the list of panels accessible from the left rail. To create a **new Cohort Panel**, drag in a Blank Panel and drag in a Cohort Table visualization. 
+A **[!UICONTROL  Blank Panel]** was added to the list of panels accessible from the left rail. To create a **new Cohort Panel**, drag in a Blank Panel and drag in a Cohort Table visualization. 

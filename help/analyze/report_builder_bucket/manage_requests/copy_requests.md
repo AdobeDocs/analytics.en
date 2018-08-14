@@ -5,7 +5,7 @@ seo-title: Copy requests
 solution: Analytics
 title: Copy requests
 topic: Report builder
-uuid: 06faaf39-9338-4433-93b5-95500015b1b8
+uuid: a32d253e-7e73-42d2-9055-0648e86c0ced
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: In the calendar, you can specify dates and date ranges, or select a
 seo-description: In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.
 seo-title: Dates and Date Ranges
 title: Dates and Date Ranges
-uuid: b9cc9560-4732-45b3-b9b3-5b38f4b2d8ef
+uuid: 8f8a331f-b804-485e-8810-5955f9479088
 index: y
 internal: n
 snippet: y
@@ -13,13 +13,13 @@ translate: y
 # Dates and Date Ranges
 
 ## Dates and Date Ranges {#concept_AB32765013F449908B5964AB622C75FF}
->In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.![](../assets/Delete_Standard.png) An enabled ** [!UICONTROL  Clear Date] ** option indicates that a date range is specified at the report level. 
+>In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.![](assets/Delete_Standard.png) An enabled **[!UICONTROL  Clear Date]** option indicates that a date range is specified at the report level. 
 
 You can also drag dates (and Time dimensions) into the report or the [!UICONTROL  Table Builder]. You can select specific days, weeks, months, years, or a rolling date. If you use the custom calendar in marketing reports and analytics, a report suite inherits those settings and updates the report accordingly. 
 
-When selecting a date range while creating a project, using Pre-Configured on the left will set a rolling date while using the calendar on the right will not. An easy way to tell whether your date range is rolling is the statement “This date range will roll” next to the ** [!UICONTROL  OK] ** button. 
+When selecting a date range while creating a project, using Pre-Configured on the left will set a rolling date while using the calendar on the right will not. An easy way to tell whether your date range is rolling is the statement “This date range will roll” next to the **[!UICONTROL  OK]** button. 
 
-![](../assets/daterange.jpeg) 
+![](assets/daterange.jpeg) 
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ When selecting a date range while creating a project, using Pre-Configured on th
 ** To access historical date slices** 
 
 1. [ Create](../ad_hoc_analysis_bucket/c_getting_started.md#task_918A4539134E4E62B00486DCB8D3D403) or open a project.
-1. Open the [ calendar](../ad_hoc_analysis_bucket/c_dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select ** [!UICONTROL  Quarter] ** or ** [!UICONTROL  Year] **.
+1. Open the [ calendar](../ad_hoc_analysis_bucket/c_dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL  Quarter]** or **[!UICONTROL  Year]**.
 
 >[!NOTE]
 >

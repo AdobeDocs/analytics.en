@@ -5,7 +5,7 @@ seo-description: Instructions to set up secure transfer with Adobe FTP servers.
 seo-title: Connecting to an Adobe FTP Account with SFTP
 solution: Analytics
 title: Connecting to an Adobe FTP Account with SFTP
-uuid: 0d3786df-909a-425a-9b4e-7fe2676d5080
+uuid: eab5ad3f-8ce1-4195-939c-a3375a930c3d
 index: y
 internal: n
 snippet: y

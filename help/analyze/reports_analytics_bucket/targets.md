@@ -5,7 +5,7 @@ seo-title: Targets
 solution: Analytics
 title: Targets
 topic: Reports and analytics
-uuid: 51e41f8c-5ccd-45fa-b0cd-ee70e6e6fd0d
+uuid: 311ef7ba-1038-4be2-9c1d-bfd762c02af0
 index: y
 internal: n
 snippet: y
@@ -21,7 +21,7 @@ For example, you can measure the number of unique visitors to your website, and 
 
 ## Target Field Descriptions {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Targets] **. 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Targets]**. 
 
 Descriptions of the fields and options on the [!UICONTROL  Add/Edit Target] page. 
 
@@ -64,13 +64,13 @@ Descriptions of the fields and options on the [!UICONTROL  Add/Edit Target] page
 >Steps that describe how to add a target.
 <!-- t_add_a_target.xml -->
 
->1. Click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Targets] **.
->1. On the [!UICONTROL  Target Manager] page, click ** [!UICONTROL  Add New] **.
+>1. Click **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Targets]**.
+>1. On the [!UICONTROL  Target Manager] page, click **[!UICONTROL  Add New]**.
 >1. Configure the options described in [ Target Field Descriptions](../reports_analytics_bucket/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
->1. Click ** [!UICONTROL  OK] **.
+>1. Click **[!UICONTROL  OK]**.
 >## Edit a Target {#task_946C558D2ECC4922ABD4A5A6183A095A}
 >Short Description
->1. Click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Components] ** > ** [!UICONTROL  Targets] **.
->1. In the ** [!UICONTROL  Manage] ** column, click the ** [!UICONTROL  Edit] ** icon.
+>1. Click **[!UICONTROL  Analytics]** > **[!UICONTROL  Components]** > **[!UICONTROL  Targets]**.
+>1. In the **[!UICONTROL  Manage]** column, click the **[!UICONTROL  Edit]** icon.
 >1. Configure the options described in [ Target Field Descriptions](../reports_analytics_bucket/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
->1. Click ** [!UICONTROL  OK] **.
+>1. Click **[!UICONTROL  OK]**.

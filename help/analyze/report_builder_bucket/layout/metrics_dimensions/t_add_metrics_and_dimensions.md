@@ -5,7 +5,7 @@ seo-title: Add metrics and dimensions
 solution: Analytics
 title: Add metrics and dimensions
 topic: Report builder
-uuid: 3d1ed54f-4409-44b6-9853-8cee74d89ec7
+uuid: 77170bf9-b505-4914-b07c-f57898b69b84
 index: y
 internal: n
 snippet: y
@@ -15,9 +15,9 @@ translate: y
 # Add metrics and dimensions
 
 
->1. [ Create the data request](../../../report_builder_bucket/data_requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) on the [!UICONTROL  Request Wizard: Step 1], then click ** [!UICONTROL  Next] **.
+>1. [ Create the data request](../../../report_builder_bucket/data_requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) on the [!UICONTROL  Request Wizard: Step 1], then click **[!UICONTROL  Next]**.
 >1. On the [!UICONTROL  Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
->   ![Step Info](../../../assets/adding_metrics.png) 
+>   ![Step Info](assets/adding_metrics.png) 
 >
 >       When you add metrics, they are not removed from the [!UICONTROL  Metrics] tab, because you can display metrics multiple times within a request. For example, you can display the metric subtotal in addition to each value. However, the list of available metrics changes each time you add or remove a dimension. 
 
@@ -25,7 +25,7 @@ translate: y
 
 >       Note that a Search bar is shown on the Metrics tab, just above the Metric list. 
 
->       ![](../../../assets/search_bar_metric.png) 
+>       ![](assets/search_bar_metric.png) 
 
 >       Keep this in mind: 
 >    
@@ -63,4 +63,4 @@ translate: y
 
 >    
 >1. Modify metrics and dimensions by configuring [ format options](../../../report_builder_bucket/layout/t_format_display_headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
->1. Click ** [!UICONTROL  Finish] **.
+>1. Click **[!UICONTROL  Finish]**.

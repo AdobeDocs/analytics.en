@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Get started
 title: Getting Started with Reports and Analytics
 topic: Reports and analytics
-uuid: 4c436e3b-fe9a-4dd1-b291-26250439494c
+uuid: 422f2a85-2627-40d1-abe6-1cdcd935acb4
 index: y
 internal: n
 snippet: y
@@ -42,15 +42,15 @@ After logging in for the first time, change your password. For more information,
 
 >1. On a computer with access to the Internet, start a browser.
 >1. Go to [!DNL  https://my.omniture.com/login/].
->1. On the [!UICONTROL  Sign In] page, complete the following information, then click ** [!UICONTROL  Sign In] **.
+>1. On the [!UICONTROL  Sign In] page, complete the following information, then click **[!UICONTROL  Sign In]**.
 
->       ** [!UICONTROL  Company] **: Specify the company ID. 
+>       **[!UICONTROL  Company]**: Specify the company ID. 
 
->       ** [!UICONTROL  Username] **: Specify your account ID. 
+>       **[!UICONTROL  Username]**: Specify your account ID. 
 
->       ** [!UICONTROL  Password] **: Specify your account password. 
+>       **[!UICONTROL  Password]**: Specify your account password. 
 
->       ** [!UICONTROL  Remember Me] **: Remembers your login settings for future log in attempts. This option makes it possible for anyone with access to your computer to access using your account. 
+>       **[!UICONTROL  Remember Me]**: Remembers your login settings for future log in attempts. This option makes it possible for anyone with access to your computer to access using your account. 
 >1. Select the version of the service to which you want to log in.
 
 >       The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
@@ -60,14 +60,14 @@ After logging in for the first time, change your password. For more information,
 
 >1. On a computer with access to the Internet, start a browser.
 >1. Go to [!DNL  https://my.omniture.com/login/].
->1. On the [!UICONTROL  Sign In] page, click ** [!UICONTROL  Single Sign-On] **.
->1. Complete the following information, then click ** [!UICONTROL  Sign In] **.
+>1. On the [!UICONTROL  Sign In] page, click **[!UICONTROL  Single Sign-On]**.
+>1. Complete the following information, then click **[!UICONTROL  Sign In]**.
 
->       ** [!UICONTROL  Company] **: Specify the company ID. 
+>       **[!UICONTROL  Company]**: Specify the company ID. 
 
->       ** [!UICONTROL  Username] **: Specify your account ID. 
+>       **[!UICONTROL  Username]**: Specify your account ID. 
 
->       ** [!UICONTROL  Password] **: Specify your account password. 
+>       **[!UICONTROL  Password]**: Specify your account password. 
 >1. From the Experience Cloud home page, click **Reports &amp;amp; Analytics **.
 
 >       The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
@@ -78,8 +78,8 @@ After logging in for the first time, change your password. For more information,
 >1. Log in to [!UICONTROL  Reports &amp;amp; Analytics].
 >   The Reports menu displays, or a [ dashboard ](../reports_analytics_bucket/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up. 
 >
->1. Click ** [!UICONTROL  Site Content] ** > ** [!UICONTROL  Pages] ** (for example).
->   ![](../assets/pages_report.png) 
+>1. Click **[!UICONTROL  Site Content]** > **[!UICONTROL  Pages]** (for example).
+>   ![](assets/pages_report.png) 
 >
 >   See [ Report Features ](../reports_analytics_bucket/overview_(2)/report_overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report. 
 >
@@ -88,7 +88,7 @@ After logging in for the first time, change your password. For more information,
 <!-- t_acct_info.xml -->
 You can view and edit contact information, specify a password, view web services information, and exclude this computer from data collection. 
 
-Click the Account icon  ![](../assets/account.png)at the top right, then click the ** [!UICONTROL  Account Settings] ** (wheel) icon next to your login name. 
+Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL  Account Settings]** (wheel) icon next to your login name. 
 
 All users have access to the [!UICONTROL  Account Information] page. The following information is available to view or edit: 
 
@@ -131,7 +131,7 @@ All users have access to the [!UICONTROL  Account Information] page. The followi
 <!-- t_changing_language.xml -->
 
 >1. Log in.
->1. Click the ** [!UICONTROL  View In] ** menu, then click a language:
+>1. Click the **[!UICONTROL  View In]** menu, then click a language:
 
 >    
 >    * English 
@@ -152,4 +152,4 @@ All users have access to the [!UICONTROL  Account Information] page. The followi
 
 >    * Portuguese 
 
->       The most up-to-date documentation is typically the English version. You can access the documentation and the Home Page from the Adobe Experience Cloud. ( ** [!UICONTROL  Help] ** > ** [!UICONTROL  Help Home] **.) 
+>       The most up-to-date documentation is typically the English version. You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL  Help]** > **[!UICONTROL  Help Home]**.) 

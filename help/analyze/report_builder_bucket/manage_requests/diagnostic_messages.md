@@ -5,7 +5,7 @@ seo-title: Diagnostic messages
 solution: Analytics
 title: Diagnostic messages
 topic: Report builder
-uuid: b9d623ed-cc39-43e9-b0c7-9c24a65ea37e
+uuid: 62bbeee6-e16c-42f6-ba52-21531940d827
 index: y
 internal: n
 snippet: y
@@ -14,6 +14,6 @@ translate: y
 
 # Diagnostic messages
 
-![icon_notice_success.gif](../../assets/icon_notice_success.gif) Indicates that the request has been refreshed successfully since opening this workbook. The diagnostic column provides other information about the request, including the time used by the request, the time to map the request, and whether the request uses previously cached information. 
+![icon_notice_success.gif](assets/icon_notice_success.gif) Indicates that the request has been refreshed successfully since opening this workbook. The diagnostic column provides other information about the request, including the time used by the request, the time to map the request, and whether the request uses previously cached information. 
 
-![icon_notice_warn.gif](../../assets/icon_notice_warn.gif) This alert is displayed when a request fails to refresh successfully. The error is noted in the diagnostic column pointing to the likely cause for the failure. Check the [ troubleshooting section](../../report_builder_bucket/troubleshoot.md#concept_DC4DEC4089A14969903A405366E547A4) for help with selected failure messages. 
+![icon_notice_warn.gif](assets/icon_notice_warn.gif) This alert is displayed when a request fails to refresh successfully. The error is noted in the diagnostic column pointing to the likely cause for the failure. Check the [ troubleshooting section](../../report_builder_bucket/troubleshoot.md#concept_DC4DEC4089A14969903A405366E547A4) for help with selected failure messages. 

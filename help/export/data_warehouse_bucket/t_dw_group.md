@@ -5,7 +5,7 @@ seo-title: Add Data Warehouse user group
 solution: Analytics
 title: Add Data Warehouse user group
 topic: Data warehouse
-uuid: a8a611f2-6653-4520-b122-8717f79d5aac
+uuid: f3273d77-f141-426c-be44-994cc1e3a79f
 index: y
 internal: n
 snippet: y
@@ -15,19 +15,19 @@ translate: y
 # Add Data Warehouse user group
 
 
->1. Click ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] **.
->1. Click ** [!UICONTROL  Edit Groups] **.
->1. Click ** [!UICONTROL  Add New User Group] **.
->1. In the ** [!UICONTROL  Define User Group] ** section, type a name in the Group Name field. provide the following group information:
+>1. Click **[!UICONTROL  Analytics]** > **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]**.
+>1. Click **[!UICONTROL  Edit Groups]**.
+>1. Click **[!UICONTROL  Add New User Group]**.
+>1. In the **[!UICONTROL  Define User Group]** section, type a name in the Group Name field. provide the following group information:
 
 >       For example, . 
->1. Type a description in the ** [!UICONTROL  Group Description] ** field.
->1. In the ** [!UICONTROL  Report Suite Access] ** section, select the report suites that you want group members to be able to access.
->1. Under [!UICONTROL  Tools], enable ** [!UICONTROL  All Tools] **.
->   Alternatively, click ** [!UICONTROL  Customize] **, then enable ** [!UICONTROL  Custom Data Warehouse Report] **. 
+>1. Type a description in the **[!UICONTROL  Group Description]** field.
+>1. In the **[!UICONTROL  Report Suite Access]** section, select the report suites that you want group members to be able to access.
+>1. Under [!UICONTROL  Tools], enable **[!UICONTROL  All Tools]**.
+>   Alternatively, click **[!UICONTROL  Customize]**, then enable **[!UICONTROL  Custom Data Warehouse Report]**. 
 >
 >1. Under [!UICONTROL  Assign User Logins], add the desired user logins.
->1. Click ** [!UICONTROL  Save Group] **.
+>1. Click **[!UICONTROL  Save Group]**.
 >   The next time the users added to this group log in, they will see the Data Warehouse option added to the [!UICONTROL  Reports &amp;amp; Analytics] menu. 
 >
 

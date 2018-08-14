@@ -5,7 +5,7 @@ seo-title: Report Builder Sign-In
 solution: Analytics
 title: Report Builder Sign-In
 topic: Report builder
-uuid: 930b7aec-bc9a-49bb-a327-44f5cc17df29
+uuid: d3cca40f-470a-4e8e-aab8-d62539f7ce48
 index: y
 internal: n
 snippet: y
@@ -14,9 +14,9 @@ translate: y
 
 # Report Builder Sign-In
 
-Currently, the following login options are available when you click ** [!UICONTROL  Sign In] ** to Report Builder. 
+Currently, the following login options are available when you click **[!UICONTROL  Sign In]** to Report Builder. 
 
-![](../../assets/login_screen.png) 
+![](assets/login_screen.png) 
 
 * [ Standard](../../report_builder_bucket/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
 * [ Single Sign-On](../../report_builder_bucket/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
@@ -68,9 +68,9 @@ You can also type in a domain and the system will recognize the domain and redir
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-The Experience Cloud login lets you use your Enterprise ID (email and password) to log in to the Adobe Experience Cloud. Click ** [!UICONTROL  Sign In] ** > ** [!UICONTROL  Sign in with an Enterprise ID] ** to be redirected to your company's single sign-on page. For more information on Enterprise ID, click [ here](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis). 
+The Experience Cloud login lets you use your Enterprise ID (email and password) to log in to the Adobe Experience Cloud. Click **[!UICONTROL  Sign In]** > **[!UICONTROL  Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. For more information on Enterprise ID, click [ here](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis). 
 
-![](../../assets/adobe_id_login.png) 
+![](assets/adobe_id_login.png) 
 
 >[!NOTE]
 >

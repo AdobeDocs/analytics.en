@@ -5,7 +5,7 @@ seo-description: Data Feeds are an export of the clickstream data received by Ad
 seo-title: Data Feeds
 solution: Analytics
 title: Data Feeds
-uuid: 5fadfed9-34e1-407e-b230-833e5a71776a
+uuid: 3fb1058f-6a24-472a-9a3a-5187ac9cff80
 index: y
 internal: n
 snippet: y

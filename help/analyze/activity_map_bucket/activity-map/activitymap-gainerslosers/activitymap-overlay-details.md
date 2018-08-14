@@ -5,7 +5,7 @@ seo-title: Overlay details
 solution: Analytics
 title: Overlay details
 topic: Activity map
-uuid: b8377e34-7684-4d33-8b9a-72db0ac138ac
+uuid: dbe98367-f9e6-4ff3-8b25-8bd25b82e3ff
 index: y
 internal: n
 snippet: y
@@ -24,4 +24,4 @@ Overlay details display the following values that are tracked for that link:
 * Show in Links On Page report
 
 
-![](../../../assets/overlay_details.png) 
+![](assets/overlay_details.png) 

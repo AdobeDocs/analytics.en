@@ -4,7 +4,7 @@ seo-description: Provides ranked breakdown reports in Data Warehouse, sorted by 
 seo-title: Sort by Metric
 solution: Analytics
 title: Sort by Metric
-uuid: 8ccff5d9-dc0c-45e0-9c74-120b3f784dc8
+uuid: a398ae1b-4026-4ff0-b369-6b4c4baebd1f
 index: y
 internal: n
 snippet: y

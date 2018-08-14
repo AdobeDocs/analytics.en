@@ -3,7 +3,7 @@ description: Describes the two main ways of finding your metrics  sorting and fi
 seo-description: Describes the two main ways of finding your metrics  sorting and filtering.
 seo-title: Find Metrics
 title: Find Metrics
-uuid: 95e30c41-5b73-4c40-acd1-806a7e095183
+uuid: 0d933f79-b98d-4caa-a74d-9d57e69e42d5
 index: y
 internal: n
 snippet: y
@@ -15,9 +15,9 @@ translate: y
 
 ## Sorting {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-When you open a report and click the Metrics icon  ![](../../assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, the ** [!UICONTROL  Sort By] ** drop-down list in the Metrics Selector shows four sorting options: 
+When you open a report and click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, the **[!UICONTROL  Sort By]** drop-down list in the Metrics Selector shows four sorting options: 
 
-![](../../assets/cm_sort.png) 
+![](assets/cm_sort.png) 
 
 |  Option  | When to use it  |
 |---|---|
@@ -29,9 +29,9 @@ When you open a report and click the Metrics icon  ![](../../assets/metrics_icon
 
 ## Filtering - Advanced Selection {#section_33818CC048C04F098703AC229693F8CA}
 
-When you open a report and click the Metrics icon, then click ** [!UICONTROL  Manage] **. Now click the Filter icon. You can filter in a number of ways. 
+When you open a report and click the Metrics icon, then click **[!UICONTROL  Manage]**. Now click the Filter icon. You can filter in a number of ways. 
 
-![](../../assets/cm_advanced_sel.png) 
+![](assets/cm_advanced_sel.png) 
 
 <table id="table_269081BC9DF54FFDA4E949FFC7488F42"> 
  <thead> 

@@ -5,7 +5,7 @@ seo-title: Manage requests - definitions
 solution: Analytics
 title: Manage requests - definitions
 topic: Report builder
-uuid: 7c061891-c296-41a7-9ec5-42beaf6d8db3
+uuid: a92d80f6-c077-4062-90a9-d819ab74b10a
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Supported systems and requirements
 solution: Analytics
 title: Supported systems and requirements
 topic: Activity map
-uuid: dfc843da-0fde-4b17-846b-d54507d5333e
+uuid: c24ec27a-47c0-45c7-a058-5b8b589673a6
 index: y
 internal: n
 snippet: y

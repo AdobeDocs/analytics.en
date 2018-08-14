@@ -3,7 +3,7 @@ description: With the Calculated Metric builder, anyone can create a participati
 seo-description: With the Calculated Metric builder, anyone can create a participation metric.
 seo-title: Participation Metric
 title: Participation Metric
-uuid: 178c65a9-25f6-409d-a669-2f43dfceb68e
+uuid: f82c439f-8555-4766-afb2-759ca74317aa
 index: y
 internal: n
 snippet: y
@@ -21,7 +21,7 @@ Here is a simple use cases: You are a content owner and you want to see which pa
 
 1. Create a new metric in the Calculated Metric Builder.
 1. Drag the success event "Email sign-up" into the Definition canvas.
-1. Change the [ allocation](../../../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/m_metric_type_alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) of that event to Visit Participation. The definition should look similar to this: ![](../../../assets/participation.png) 
+1. Change the [ allocation](../../../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/m_metric_type_alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) of that event to Visit Participation. The definition should look similar to this: ![](assets/participation.png) 
 
 1. Save the metric.
 1. Share it with the people who need it in your company.

@@ -3,7 +3,7 @@ description: Adobe Analytics Content Packs provide pre-built Power BI dashboards
 seo-description: Adobe Analytics Content Packs provide pre-built Power BI dashboards and a set of Power BI reports that deliver insights about your site traffic and user dimensions. You can use the dashboard and reports provided, or customize them to highlight the information you care most about. The data will be refreshed automatically once per day.
 seo-title: Adobe Analytics content packs for Power BI
 title: Adobe Analytics content packs for Power BI
-uuid: 9c12c715-37d6-43ef-bd28-bccc1e9eb538
+uuid: e7819252-c504-418a-bace-5ceae9998d40
 index: y
 internal: n
 snippet: y

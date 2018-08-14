@@ -7,7 +7,7 @@ solution: Analytics
 subtopic: data feeds
 title: Data Feed Service History
 topic: Reports and analytics
-uuid: 4e42dc86-c463-47c2-9f58-022374baf856
+uuid: b79904c8-f00b-438f-a68b-a0d45bfc6776
 index: y
 internal: n
 snippet: y

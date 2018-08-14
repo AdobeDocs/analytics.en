@@ -5,7 +5,7 @@ seo-title: Export to CSV file
 solution: Analytics
 title: Export to CSV file
 topic: Activity map
-uuid: cef225ba-871c-4853-a60f-4d3011f64748
+uuid: 08266231-0f21-4ee5-9816-1487d0f1a022
 index: y
 internal: n
 snippet: y
@@ -27,4 +27,4 @@ Activity Map generates the filename based on the Adobe Analytics Page name and a
 |  Links on Page Report  | Link information for a specific page in either Standard or Live modes.  |
 
 Here is an example of a CSV file for a page opened as a spreadsheet. 
-![](../../assets/Activity_Map_CSV_report.png) 
+![](assets/Activity_Map_CSV_report.png) 

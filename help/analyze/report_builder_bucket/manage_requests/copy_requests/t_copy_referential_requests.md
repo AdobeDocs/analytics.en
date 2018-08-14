@@ -5,7 +5,7 @@ seo-title: Copy referential requests
 solution: Analytics
 title: Copy referential requests
 topic: Report builder
-uuid: 5d68a8ec-e895-4381-9a45-714c1c35bf1e
+uuid: 25153fe9-0d35-4d13-a88b-0cb59e008ee7
 index: y
 internal: n
 snippet: y
@@ -28,13 +28,13 @@ You can also create requests that reference input filters from requests in diffe
 **To copy referential requests** 
 
 >1. Select the cells containing requests you want to copy, including the input cell or referred to cell.
->1. Right-click within the highlighted cells and select ** [!UICONTROL  Copy Requests] ** from the shortcut menu.
+>1. Right-click within the highlighted cells and select **[!UICONTROL  Copy Requests]** from the shortcut menu.
 
 >       After selecting the area where requests and input cells are located, the system highlights the cells with these elements. 
 >1. Select either one cell or a range of contiguous cells to fill with the pasted requests.
 
 >       Make sure that the cell or cell range that you select contains no other data or requests. 
->1. Right-click the single cell or the top left-most cell in the range of cells and select ** [!UICONTROL  Paste Requests] **.
+>1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL  Paste Requests]**.
 
 >       When pasting requests that include an input cell, the options under [!UICONTROL  Paste Requests] include: 
 

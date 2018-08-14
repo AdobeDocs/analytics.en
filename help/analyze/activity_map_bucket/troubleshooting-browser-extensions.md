@@ -5,7 +5,7 @@ seo-title: Troubleshooting browser extensions
 solution: Analytics
 title: Troubleshooting browser extensions
 topic: Activity map
-uuid: 4090f5d2-b3c3-49cf-8e17-155c24a47f26
+uuid: 0e366bd2-44b3-4360-92ac-ba7a31489f38
 index: y
 internal: n
 snippet: y
@@ -17,8 +17,8 @@ translate: y
 
 |  Browser Type  | Incompatible Setting  |
 |---|---|
-|  Chrome  |  ![](../assets/Chrome1.png)  ![](../assets/Chrome2.png)  ![](../assets/Chrome3.png)  |
-|  Internet Explorer  |  ![](../assets/IE1.png)  |
-|  Safari  |  ![](../assets/Safari1.png)  ![](../assets/Safari2.png)  |
-|  Firefox  |  ![](../assets/Firefox.png)  |
+|  Chrome  |  ![](assets/Chrome1.png)  ![](assets/Chrome2.png)  ![](assets/Chrome3.png)  |
+|  Internet Explorer  |  ![](assets/IE1.png)  |
+|  Safari  |  ![](assets/Safari1.png)  ![](assets/Safari2.png)  |
+|  Firefox  |  ![](assets/Firefox.png)  |
 

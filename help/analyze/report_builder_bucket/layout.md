@@ -5,7 +5,7 @@ seo-title: Layout - Request Wizard Step 2
 solution: Analytics
 title: Layout - Request Wizard Step 2
 topic: Report builder
-uuid: 1afa0d0e-7635-4e28-8ffb-22c4dc6a255f
+uuid: 612f1330-170c-40ce-90e9-929600c79ce3
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Save a workbook with requests
 solution: Analytics
 title: Save a workbook with requests
 topic: Report builder
-uuid: a885ca13-a4a0-4142-80fd-031f6729fca5
+uuid: 277ac5dd-b515-4f8b-aac5-51717ede862f
 index: y
 internal: n
 snippet: y
@@ -29,4 +29,4 @@ Any file name you use must contain 255 characters or less. In addition, the file
 
 Finally, you cannot use Unicode characters beyond the set of extended ASCII characters. 
 
-When saving the file to a location on your local or network drives, you may enter the full path in the text box, or click on the browse button  ![browse_button.gif](../../assets/browse_button.gif) adjacent to the [!UICONTROL  Save As] text box. 
+When saving the file to a location on your local or network drives, you may enter the full path in the text box, or click on the browse button  ![browse_button.gif](assets/browse_button.gif) adjacent to the [!UICONTROL  Save As] text box. 

@@ -5,7 +5,7 @@ seo-title: Use the s.tl() function
 solution: Analytics
 title: Use the s.tl() function
 topic: Activity map
-uuid: e6b1bb0b-07a5-496d-ad28-b6757c2b4003
+uuid: 722dd6e0-9531-43cd-93c8-505f8f74c00f
 index: y
 internal: n
 snippet: y

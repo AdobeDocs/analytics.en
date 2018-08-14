@@ -5,7 +5,7 @@ seo-title: Activity Map reporting in Analytics
 solution: Analytics
 title: Activity Map reporting in Analytics
 topic: Activity map
-uuid: aea2301c-463b-42fc-a57e-dac4b4d04275
+uuid: 45a6a5b8-9ad8-4b8a-bb2a-1318fbcd6ae2
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ Before users can report on Activity Map dimensions, you as the Admin need to
 
 
 * [ Add users to the Activity Map Access Group ](activitymap-enable.md#section_4C7A47BB7DEF4AFFBC276392467F9675).
-* Add report suites you would like to have access to this group. Navigate to  ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Groups] ** > ** [!UICONTROL  Activity Map Access] ** > ** [!UICONTROL  Edit] ** .
+* Add report suites you would like to have access to this group. Navigate to  **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Groups]** > **[!UICONTROL  Activity Map Access]** > **[!UICONTROL  Edit]** .
 * Customize user access to dimensions. See the section below.
 
 ## Analytics Activity Map dimensions {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -42,5 +42,5 @@ You can [ customize user access to dimensions ](https://marketing.adobe.com/reso
 
 
 * These dimensions should be available in Analysis Workspace, Reports &amp; Analytics, and Report Builder, provided that your Analytics implementation is [ enabled for Activity Map ](activitymap-enable.md#concept_4C5A1178C8E040B99CAE7A25473E67D6).
-* In Reports &amp; Analytics, navigate to ** [!UICONTROL  View All Reports] ** > ** [!UICONTROL  Activity Map] **.
+* In Reports &amp; Analytics, navigate to **[!UICONTROL  View All Reports]** > **[!UICONTROL  Activity Map]**.
 * To look at a link and region for a specific page, all you need to do is create a breakdown from the desired Activity Map page into the Activity Map Links &amp;amp; Region.

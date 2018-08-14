@@ -5,7 +5,7 @@ seo-description: SFTP is a secure protocol for transferring data that ensures th
 seo-title: Secure File Transfer Protocol
 solution: Analytics
 title: Secure File Transfer Protocol
-uuid: f24fbbfb-d126-49f4-b225-e7f54ac62a07
+uuid: d71818c8-f6cb-440b-80bf-c83ea7a61e5d
 index: y
 internal: n
 snippet: y

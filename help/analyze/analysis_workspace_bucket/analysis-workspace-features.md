@@ -4,7 +4,7 @@ seo-title: Analysis Workspace overview
 solution: Analytics
 title: Analysis Workspace overview
 topic: Reports and analytics
-uuid: 88caf682-39b2-4914-ab64-4ee8ca631614
+uuid: 7e5811d5-b3db-4d9d-82ca-79dae63490ff
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 Analysis Workspace removes all of the typical limitations of a single Analytics report. It provides a robust, flexible canvas for building custom analysis projects. Drag-and-drop any number of data tables, visualizations, and components (dimensions, metrics, segments, and time granularities) to a project. Instantly create breakdowns and segments, create cohorts for analysis, create alerts, compare segments, do flow and fallout analysis, and curate and schedule reports for sharing with anyone in your business. 
 
-** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Workspace] ** 
+**[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]** 
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -45,7 +45,7 @@ Analysis Workspace provides freedom and flexibility:
 * Drag-and-drop components (dimensions, metrics, segments, and time granularities)
 * Drag and drop multiple visualizations to the project
 * Move, resize, and stack visualizations wherever you want in a project
-![](../assets/fa_project_new.png) 
+![](assets/fa_project_new.png) 
 
 See [ Create an Analysis Workspace project ](../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information. 
 
@@ -53,11 +53,11 @@ See [ Create an Analysis Workspace project ](../analysis_workspace_bucket/freefo
 
 Drag-and-drop as many visualizations onto a project that you want. 
 
-![](../assets/visualizations-multiple.png) 
+![](assets/visualizations-multiple.png) 
 
 Create a project showing the percent of change, with multiple visualizations corresponding to cells in a freeform data table. 
 
-![](../assets/visualizations-multiple02.png) 
+![](assets/visualizations-multiple02.png) 
 
 See [ Create an Analysis Workspace project ](../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information. 
 
@@ -66,52 +66,52 @@ See [ Create an Analysis Workspace project ](../analysis_workspace_bucket/freefo
 In conjunction with the [ rich text editing ](../analysis_workspace_bucket/freeform-analysis-visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. To add intra-linking to your project: 
 
 1. Drag a text visualization into a project, maybe next to a visualization or table that needs some context.
-1. Populate the text box with, for example, a table of content, then highlight an item that you want to link to a panel or visualization, for example Success Metrics. ![](../assets/intra-linking1.png) 
+1. Populate the text box with, for example, a table of content, then highlight an item that you want to link to a panel or visualization, for example Success Metrics. ![](assets/intra-linking1.png) 
 
 1. Scroll to that panel or visualization and right-click the panel's header.
-1. Scroll down and select ** [!UICONTROL  Get Panel Link] ** or ** [!UICONTROL  Get Visualization Link] **: ![](../assets/intra-linking2.png) 
+1. Scroll down and select **[!UICONTROL  Get Panel Link]** or **[!UICONTROL  Get Visualization Link]**: ![](assets/intra-linking2.png) 
 
 1. Copy that link and add it to the Success Metrics hyperlink in the text visualization. Click the checkmark to save the text.
 If you have panels or visualizations collapsed within your project, clicking a link will expand the panel/visualization so that users can see it. 
 
 >[!NOTE]
 >
->You can also use this feature within the ** [!UICONTROL  Edit Description] ** right-click option. 
+>You can also use this feature within the **[!UICONTROL  Edit Description]** right-click option. 
 
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  ** [!UICONTROL  Share] ** > ** [!UICONTROL  Get Project Link] ** and embedding this link in project descriptions, for example. 
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL  Share]** > **[!UICONTROL  Get Project Link]** and embedding this link in project descriptions, for example. 
 
 ## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 Select individual cells and see the visualizations change dynamically. [ Synchronize and lock ](../analysis_workspace_bucket/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) a visualization with selected cells. 
 
-![](../assets/visualize-selected-cells.png) 
+![](assets/visualize-selected-cells.png) 
 
 ## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
 
 Locking visualizations lets you control which freeform data table sources correspond to visualizations. 
 
-![](../assets/manage-data-source.png) 
+![](assets/manage-data-source.png) 
 
 See [ Manage data sources ](../analysis_workspace_bucket/freeform-analysis-visualizations/t_sync_visualization.md#task_A73B065DC3834AFCA422E364A1468099). 
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Create a visualization from selected cells. (Right-click > ** [!UICONTROL  Trend Selection] **.) 
+Create a visualization from selected cells. (Right-click > **[!UICONTROL  Trend Selection]**.) 
 
-![](../assets/trend-selection.png) 
+![](assets/trend-selection.png) 
 
 Trend selections are now **linked** to the table below, so if you select a different row in the table, the trend chart will reflect that row. 
 
-![](../assets/trend-selection2.png) 
+![](assets/trend-selection2.png) 
 
 ## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 As a retailer, you can dive deeper than ever before into your campaigns to understand how to better engage your customers. Break down your data in unlimited ways for your specific needs; build queries using relevant metrics, dimensions, segments, time lines, and other analysis breakdown values. 
 
-![Step Result](../assets/fa_data_table_actions.png) 
+![Step Result](assets/fa_data_table_actions.png) 
 
 See [ Break down dimensions ](../analysis_workspace_bucket/analysis-workspace-components/dimensions/t_breakdown_fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4). 
 
@@ -121,11 +121,11 @@ Select cells in the freeform table and create a segment from the selection.
 
 Compare multiple segments and instantly create and apply segments. You can apply multiple segments to focus on specific customers based on behavior and interaction and then compare and contrast. 
 
-![](../assets/segment_inline.png) 
+![](assets/segment_inline.png) 
 
 Drop a segment to the freeform panel at the project level, and the segment is applied to the entire project. 
 
-![](../assets/segment-panel.png) 
+![](assets/segment-panel.png) 
 
 See [ Segments ](../analysis_workspace_bucket/analysis-workspace-components/t_freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80). 
 
@@ -133,13 +133,13 @@ See [ Segments ](../analysis_workspace_bucket/analysis-workspace-components/t_fr
 
 You can apply tags to projects and components in Analysis Workspace: 
 
-* Apply or create project-level tags in the Information panel. (  ![](../assets/information_icon.png)
+* Apply or create project-level tags in the Information panel. (  ![](assets/information_icon.png)
 * Right-click components to tag (or create tags) from the Components panel.
 * Use # in the Search field to locate tags.
 
 ## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-Perform component-level actions from the Actions menu at the top of the component left rail. Select a component and click ** [!UICONTROL  Actions] ** to view the actions. 
+Perform component-level actions from the Actions menu at the top of the component left rail. Select a component and click **[!UICONTROL  Actions]** to view the actions. 
 
 
 
@@ -242,7 +242,7 @@ Already existing (not new) projects auto-save only when the browser crashes or u
 
 **All Visits** 
 
-A default segment unique to Analysis Workspace. * ` All Visits` * displays totals for the components you add to the table. 
+A default segment unique to Analysis Workspace. *` All Visits`* displays totals for the components you add to the table. 
 
 **Calculated metrics** 
 

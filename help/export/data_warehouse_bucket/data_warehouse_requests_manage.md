@@ -5,7 +5,7 @@ seo-title: Manage Data Warehouse requests
 solution: Analytics
 title: Manage Data Warehouse requests
 topic: Data warehouse
-uuid: 417526db-cfe0-42ae-9d46-c035ddb1e052
+uuid: 2bc4fa42-816a-4a39-b02b-837bffe90ffd
 index: y
 internal: n
 snippet: y
@@ -14,11 +14,11 @@ translate: y
 
 # Manage Data Warehouse requests
 
-In Data Warehouse, select the ** [!UICONTROL  Request Manager] ** tab. 
+In Data Warehouse, select the **[!UICONTROL  Request Manager]** tab. 
 
 Working in this tab lets you 
 * View recent report requests by report name, segment applied, requestor, request date and status.
-* Duplicate requests. Click ** [!UICONTROL  Duplicate] ** next to the request. 
+* Duplicate requests. Click **[!UICONTROL  Duplicate]** next to the request. 
   >[!NOTE]
   >
   >This action duplicates only the request, not the schedule or the delivery details.

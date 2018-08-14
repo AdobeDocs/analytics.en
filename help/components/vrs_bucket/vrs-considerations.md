@@ -6,7 +6,7 @@ seo-title: VRSs and Global/Multi-Suite Tagging Considerations
 solution: Analytics
 title: VRSs and Global/Multi-Suite Tagging Considerations
 topic: Reports and analytics
-uuid: 93def3a0-5737-4db0-8f00-024a1b985a7e
+uuid: cf9dec5f-2feb-4157-89a8-b143de2f9362
 index: y
 internal: n
 snippet: y

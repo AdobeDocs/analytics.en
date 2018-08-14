@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Flow
 title: Flow
-uuid: 84c5fb19-825c-4d6e-9ec6-c953e0aabc36
+uuid: b0acca64-c164-4b1e-a41d-aebeb6f51164
 index: y
 internal: n
 snippet: y
@@ -35,4 +35,4 @@ Each column could show a different dimension. Drag a dimension and drop in a dro
 
 ## Export Flow Diagrams as Part of Project .CSV Files {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project's .CSV file that you can create by going to  ** [!UICONTROL  Project] ** > ** [!UICONTROL  Download CSV] ** . This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. 
+Flow diagrams are part of a project's .CSV file that you can create by going to  **[!UICONTROL  Project]** > **[!UICONTROL  Download CSV]** . This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. 

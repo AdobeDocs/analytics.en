@@ -5,7 +5,7 @@ seo-title: Prepend and postpend text to cells
 solution: Analytics
 title: Prepend and postpend text to cells
 topic: Report builder
-uuid: 75b77121-2ce5-478e-93fe-d3c7b8a8423a
+uuid: 06a73985-2986-46f4-a6cf-fa9962cc5c8f
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Metrics
 solution: Analytics
 title: Metrics
 topic: Reports and analytics
-uuid: d24fe4f5-7b4b-4978-a041-4149f442b53a
+uuid: da0084bf-51c8-4e46-b7da-e35e9375733e
 index: y
 internal: n
 snippet: y
@@ -26,5 +26,5 @@ For definitions, see [ Metrics](https://marketing.adobe.com/resources/help/en_US
 
 >1. Run a report.
 >1. Add the metrics that you would like to save as the default metrics.
->1. Click the ** [!UICONTROL  Add Metrics] ** drop-down list, then select ** [!UICONTROL  Set as Default] **.
+>1. Click the **[!UICONTROL  Add Metrics]** drop-down list, then select **[!UICONTROL  Set as Default]**.
 

@@ -6,7 +6,7 @@ seo-title: What's New in Analysis Workspace
 solution: Analytics
 title: What's New in Analysis Workspace
 topic: Reports and analytics
-uuid: b62c76d2-8ea6-425c-b532-5bb559b32a8a
+uuid: 9afda06d-a649-4b99-8162-d486ab0fdf98
 index: y
 internal: n
 snippet: y
@@ -108,7 +108,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Tips of the Day</b> </p> </td> 
-   <td colname="col2"> <p>We will provide Tips of the Day (along with a short video) in the bottom right-hand corner of the interface. These tips are meant to familiarize you with a multitude of cool Analysis Workspace features. You can choose to dismiss these Tips or access them through <span class="uicontrol"> Help </span> &gt; <span class="uicontrol"> Tips </span> at any time. </p> <p style="text-align: center;"> <img href="../../assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
+   <td colname="col2"> <p>We will provide Tips of the Day (along with a short video) in the bottom right-hand corner of the interface. These tips are meant to familiarize you with a multitude of cool Analysis Workspace features. You can choose to dismiss these Tips or access them through <span class="uicontrol"> Help </span> &gt; <span class="uicontrol"> Tips </span> at any time. </p> <p style="text-align: center;"> <img href="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/analysis-workspace-components/t_freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Segment templates </a> and <a href="../../analysis_workspace_bucket/analysis-workspace-components/apply_create_metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> calculated metrics templates </a></b> </p> </td> 
@@ -144,7 +144,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
-   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p style="text-align: center;"> <img align="left" placement="break" href="../../assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p style="text-align: center;"> <img align="left" placement="break" href="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
@@ -707,7 +707,7 @@ translate: y
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Drag, drop, and rearrange funnel steps (touchpoints) </li> 
      <li id="li_CC85524BC64546CD84794CC02C24CF21">Analyze multi-dimensional fallout (mix and match values from different dimensions and metrics) </li> 
      <li id="li_FA59CEE0211E4894B9109FF6A2FA3F80">Identify next steps to know where customers go immediately after falling out </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
+    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
@@ -716,7 +716,7 @@ translate: y
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualize the customer journey through assets </li> 
      <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">Analyze immediate next steps from entry, exit, or a specific dimension item in the customer journey </li> 
      <li id="li_D13AD928AC434D599D43836FB334B14D">Dynamically create a segment of users by designating a specific point in a chosen path </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
+    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
@@ -726,7 +726,7 @@ translate: y
      <li id="li_9BFE2B4C429D441287F1A37A08E62A40">Preview how often an alert will trigger. </li> 
      <li id="li_08D310196581483DB499C00358835B73">Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects. </li> 
      <li id="li_2ADF9465EE474CDB839ED867662CCE6F">Create "stacked" alerts that capture multiple metrics in a single alert. </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
+    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a></b> </td> 
@@ -734,7 +734,7 @@ translate: y
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Automatically detect statistically significant data anomalies in your data. </li> 
      <li id="li_2FB3D94DEEF14DD5ADA6AD69E15F243D">Run Contribution Analysis against any daily anomaly and embed it in your Analysis Workspace project. </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
+    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform_overview/starter_projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> Starter Projects </a></b> </td> 
@@ -742,11 +742,11 @@ translate: y
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">User Retention </li> 
      <li id="li_7240EE8852FC4642B3AD4837C990A775">Mobile App Acquisition </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
+    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
-   <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p style="text-align: center;"> <img placement="break" align="center" href="../../assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
+   <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Miscellaneous Updates </td> 
@@ -773,7 +773,7 @@ translate: y
 </table>
 
 
-* [ New group permission ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the ** [!UICONTROL  Analytics] ** > ** [!UICONTROL  Workspace] ** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
+* [ New group permission ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
 * The [ Segment Comparison Panel ](../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
 * [ New Projects Menu structure ](../../analysis_workspace_bucket/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [ New left rail ](../../analysis_workspace_bucket/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components
@@ -827,18 +827,18 @@ See [ Release Notes for Analysis Workspace ](analysis-workspace-release-notes.md
 
 You can now undo most actions you take in Analysis Workspace. 
 
-To undo, click ** [!UICONTROL  Undo] ** from the action menu. 
+To undo, click **[!UICONTROL  Undo]** from the action menu. 
 
-![](../../assets/undo.png) 
+![](assets/undo.png) 
 
 You can also use standard Windows and Mac [ keyboard shortcuts ](../../analysis_workspace_bucket/freeform_overview/fa_shortcut_keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (ctrl or cmd + z) for Undo. 
 
-* ` Undo` * is particularly useful when undoing breakdowns in the table. 
+*` Undo`* is particularly useful when undoing breakdowns in the table. 
 
-Actions that are * ` not` * undoable: 
+Actions that are *` not`* undoable: 
 
 
-* Changing the configuration of a [!UICONTROL  Cohort Table] (such as dragging metrics, changing values). However, you can click ** [!UICONTROL  Undo] ** after clicking ** [!UICONTROL  Run] **.
+* Changing the configuration of a [!UICONTROL  Cohort Table] (such as dragging metrics, changing values). However, you can click **[!UICONTROL  Undo]** after clicking **[!UICONTROL  Run]**.
 * Resizing or moving panels and sub-panels.
 
 
@@ -849,9 +849,9 @@ Actions that clear your undo history:
 
 ## Link to This Project {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-In a project, click ** [!UICONTROL  Link to This Project] ** from the Actions menu to email a saved project's URL to other users. Administrative recipients can edit and save a project shared this way. Otherwise, these projects are read only. 
+In a project, click **[!UICONTROL  Link to This Project]** from the Actions menu to email a saved project's URL to other users. Administrative recipients can edit and save a project shared this way. Otherwise, these projects are read only. 
 
-![](../../assets/link-to-this-project.png) 
+![](assets/link-to-this-project.png) 
 
 
 >[!NOTE]
@@ -868,13 +868,13 @@ The following new visualizations are available in the January 2016 release.
 
 You can see how a value you are interested in compares to or measures against other performance ranges (goals). 
 
-![](../../assets/bullet-image.png) 
+![](assets/bullet-image.png) 
 
 The bullet graph features a single, primary measure (for example, current year-to-date revenue), compares that measure to one or more other measures to enrich its meaning (for example, compared to a target revenue), and displays it in the context of qualitative ranges of performance, such as high, mid, and low. You can specify goal ranges in [!UICONTROL  Visualization Settings]. 
 
 **Scatterplot** 
 
-![](../../assets/scatter.png) 
+![](assets/scatter.png) 
 
 Shows impressions served and how many unique users have seen those impressions. The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select. 
 
@@ -886,25 +886,25 @@ Shows impressions served and how many unique users have seen those impressions. 
 
 Displays hierarchical (tree-structured) data as a set of nested rectangles. Each branch of the tree is given a rectangle, which is then tiled with smaller rectangles representing sub-branches. 
 
-![](../../assets/treemap.png) 
+![](assets/treemap.png) 
 
 When the color and size dimensions are correlated in some way with the tree structure, one can often easily see patterns that would be difficult to spot in other ways, such as if a certain color is particularly relevant. A second advantage of treemaps is that, by construction, they make efficient use of space.
 
 ## Save As for Segments, Metrics, and Dates {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-When editing an existing (saved) segment the Analysis Workspace Segment Builder, click ** [!UICONTROL  Save As] ** to make a copy. 
+When editing an existing (saved) segment the Analysis Workspace Segment Builder, click **[!UICONTROL  Save As]** to make a copy. 
 
-![](../../assets/segment-save-as.png) 
+![](assets/segment-save-as.png) 
 
 The new segment displays in the [!UICONTROL  Segments] group in the [!UICONTROL  Components] panel. 
 
-* ` Save As` * is also available for the [!UICONTROL  Calculated Metric Builder] and [!UICONTROL  Date Range Builder]. 
+*` Save As`* is also available for the [!UICONTROL  Calculated Metric Builder] and [!UICONTROL  Date Range Builder]. 
 
 ## Add New Segment Button {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-The ** [!UICONTROL  Add New Segment] ** button has been added to the location where you drag-and-drop segments onto a project. 
+The **[!UICONTROL  Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project. 
 
-![](../../assets/add-new-segment.png) 
+![](assets/add-new-segment.png) 
 
 This enhancement is helpful if you prefer to directly create segments when working in a project, rather than using the [!UICONTROL  Segment] panel to create segments. 
 
@@ -912,7 +912,7 @@ This enhancement is helpful if you prefer to directly create segments when worki
 
 In Column Settings, you can apply conditional formatting to cell data. 
 
-![](../../assets/conditional-formatting.png) 
+![](assets/conditional-formatting.png) 
 
 <table id="table_4285E6982FBD4B66AC95AAF6C5C7B347"> 
  <thead> 
@@ -947,25 +947,25 @@ In Column Settings, you can apply conditional formatting to cell data.
 
 In the [!UICONTROL  Dimensions] component panel, you can hover over the information icon next to a dimension and see a top-five preview. 
 
-![](../../assets/dimension-preview.png) 
+![](assets/dimension-preview.png) 
 
 ## Legend Visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-In [!UICONTROL  Visualization Settings] the ** [!UICONTROL  Legend Visible] ** option shows or hides a visualization's legend. 
+In [!UICONTROL  Visualization Settings] the **[!UICONTROL  Legend Visible]** option shows or hides a visualization's legend. 
 
-![](../../assets/legend-visible.png) 
+![](assets/legend-visible.png) 
 
 ## Anchor Y Axis at Zero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Depending on what the numbers are for a line and area charts, the bottom of the Y-axis might not be zero. Enabling ** [!UICONTROL  Anchor Y Axis at Zero] ** in [!UICONTROL  Visualization Settings] forces the Y-axis to zero, for a more accurate view of trends. The following examples show how a Revenue chart changes with this setting enabled and disabled: 
+Depending on what the numbers are for a line and area charts, the bottom of the Y-axis might not be zero. Enabling **[!UICONTROL  Anchor Y Axis at Zero]** in [!UICONTROL  Visualization Settings] forces the Y-axis to zero, for a more accurate view of trends. The following examples show how a Revenue chart changes with this setting enabled and disabled: 
 
 **Anchor Y Axis at Zero Disabled** 
 
-![](../../assets/anchor_Y_axis_off.png) 
+![](assets/anchor_Y_axis_off.png) 
 
 **Anchor Y Axis at Zero Enabled** 
 
-![](../../assets/anchor_Y_axis.png) 
+![](assets/anchor_Y_axis.png) 
 
 ## Project Name on Tab Title {#section_497C61A030984BCCA2CEA553312C3226}
 
@@ -975,4 +975,4 @@ When saving a project, the title on the browser tab will be displayed as "&amp;l
 
 Administrators can transfer [!UICONTROL  Analysis Workspace] projects from one user to another. 
 
-Navigate to ** [!UICONTROL  Admin] ** > ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Transfer] ** to transfer projects. 
+Navigate to **[!UICONTROL  Admin]** > **[!UICONTROL  User Management]** > **[!UICONTROL  Transfer]** to transfer projects. 

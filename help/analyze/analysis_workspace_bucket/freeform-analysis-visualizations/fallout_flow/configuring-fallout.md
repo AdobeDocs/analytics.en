@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Configure a fallout visualization
 title: Configure a fallout visualization
-uuid: a58083aa-57fc-4157-bacd-293d969e65f1
+uuid: 5e67b5e6-875d-4160-870a-9cb24efadb3c
 index: y
 internal: n
 snippet: y
@@ -21,7 +21,7 @@ There is no limitation on the number of steps you can add or the number of dimen
 You can do pathing on eVars, including merchandising eVars and [ listVars ](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they’re looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt. 
 
 1. Drag a [!UICONTROL  Fallout] visualization from the Visualizations drop-down into a [!UICONTROL  Freeform Table].
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the ** [!UICONTROL  Add TouchPoint] ** field as the first touchpoint. ![](../../../assets/fallout1.png) 
+1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL  Add TouchPoint]** field as the first touchpoint. ![](assets/fallout1.png) 
 
    Hover over a touchpoint to see the fallout and other information about that level, such as the name of the touchpoint, the visitor count at that point, and see the success rate for that touchpoint (as well as compare the success rate to other touchpoints.) 
 
@@ -34,9 +34,9 @@ You can do pathing on eVars, including merchandising eVars and [ listVars ](http
    >[!NOTE]
    >
    >Multiple Segments are joined with AND, but multiple items such as dimension items and metrics are joined with OR.
-   ![](../../../assets/multiple_obj_touchpoint.png) 
+   ![](assets/multiple_obj_touchpoint.png) 
 
-1. You can also **constrain individual touchpoints to the next hit** (as opposed to "eventually") within the path. Underneath each touchpoint, there is a selector with the options "Eventual Path" and "Next Hit", as shown here: ![](../../../assets/next-hit-eventually.png) 
+1. You can also **constrain individual touchpoints to the next hit** (as opposed to "eventually") within the path. Underneath each touchpoint, there is a selector with the options "Eventual Path" and "Next Hit", as shown here: ![](assets/next-hit-eventually.png) 
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 

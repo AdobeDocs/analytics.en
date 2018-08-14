@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Limitations and specifications
 title: Limitations and specifications
-uuid: 1d430170-a0db-49cd-b971-6c65abb2cdcb
+uuid: c3dcfb21-e79c-46ae-8718-574560f6a844
 index: y
 internal: n
 snippet: y
@@ -78,4 +78,4 @@ Keep in mind that
 
 * The label cannot be a combination of letters and numbers that could be mistaken for a row and column address. For example, A100 cannot be a label because it is the address of a cell in a worksheet.
 * The following characters are not valid label characters: '#', '@', '!', '$', '^', '&amp;amp;', '*', '`', '~', ' ' . They will be replaced by an underscore character.
-* When you enter an invalid name, a warning message will be shown that will suggest an auto-generated name. If you click ** [!UICONTROL  Yes] **, this name will be used. If you click ** [!UICONTROL  No] **, the Advanced Wizard UI will let you enter the new name.
+* When you enter an invalid name, a warning message will be shown that will suggest an auto-generated name. If you click **[!UICONTROL  Yes]**, this name will be used. If you click **[!UICONTROL  No]**, the Advanced Wizard UI will let you enter the new name.

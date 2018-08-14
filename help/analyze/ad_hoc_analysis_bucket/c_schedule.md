@@ -5,7 +5,7 @@ seo-title: Scheduling Manager
 solution: Analytics
 title: Scheduling Manager
 topic: Ad hoc analysis
-uuid: c734bfb2-2596-466a-b1ab-e696eeae1485
+uuid: 4ed231af-c26f-4bbc-a2a5-60d112e00c99
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ translate: y
 >
 >When a user account is disabled, any scheduled report deliveries created by that user are suspended.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the ** [!UICONTROL  Edit Items] ** feature in the [ Table Builder](../ad_hoc_analysis_bucket/c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns. 
+To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL  Edit Items]** feature in the [ Table Builder](../ad_hoc_analysis_bucket/c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns. 
 
 
 >[!IMPORTANT]
@@ -37,8 +37,8 @@ To ensure that line items in a breakdown are persistent in saved and scheduled r
 >Steps that describe how to schedule a report for delivery.
 <!-- t_schedule_delivery.xml -->
 
->1. Click ** [!UICONTROL  Tools] **, then click ** [!UICONTROL  Schedule Manager] **.
->1. On the [!UICONTROL  Schedule Manager], click ** [!UICONTROL  New.] **
+>1. Click **[!UICONTROL  Tools]**, then click **[!UICONTROL  Schedule Manager]**.
+>1. On the [!UICONTROL  Schedule Manager], click **[!UICONTROL  New.]**
 >## Delivery Options - Definitions {#reference_CA49AC560258471AAE959BCA243F170C}
 >Definitions for the settings on Delivery Options.
 

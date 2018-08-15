@@ -15,7 +15,7 @@ user-guide: null
 + [Building a project](analysis_workspace_bucket/freeform_overview.md)
     + [Starter Projects](analysis_workspace_bucket/freeform_overview/starter_projects.md)
     + [Create an Analysis Workspace project](analysis_workspace_bucket/freeform_overview/t_freeform_project.md)
-    + [Column and row settings](analysis_workspace_bucket/freeform_overview/column_row_settings.md)
+    + Column and row settings
         + [Column settings](analysis_workspace_bucket/freeform_overview/column_row_settings/column-settings.md)
         + [Row settings](analysis_workspace_bucket/freeform_overview/column_row_settings/table-settings.md)
         + [Manual vs. dynamic rows](analysis_workspace_bucket/freeform_overview/column_row_settings/manual-vs-dynamic-rows.md)

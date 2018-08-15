@@ -1,7 +1,7 @@
 ---
-description: null
-seo-description: null
-seo-title: Project Converter FAQ
+description: Ad Hoc Analysis Project Converter FAQ
+seo-description: Frequently asked questions about the Ad Hoc Analysis Project Converter
+seo-title: Ad Hoc Analysis Project Converter Frequently Asked Quesstions
 title: Project Converter FAQ
 uuid: 5a4843d6-4a76-4701-ac8e-86434f08a502
 index: y
@@ -12,13 +12,15 @@ translate: y
 
 # Project Converter FAQ
 
+Frequently asked questions about the Ad Hoc Analysis Project Converter
+
 ## Project Converter FAQ {#topic_8231595303AD403E9322645A63632D57}
->Short Description
-* [ Known Conversion Issues](../../ad_hoc_analysis_bucket/aha2aw-overview/aha2aw_converter_faq.md#section_39C922A58B2E49C9877B363042801361)
-* [ Conversion FAQ](../../ad_hoc_analysis_bucket/aha2aw-overview/aha2aw_converter_faq.md#section_1E53FE373AF045978F939916124E194E)
+
+Short Description
+* [Known Conversion Issues](../../ad_hoc_analysis_bucket/aha2aw-overview/aha2aw_converter_faq.md#section_39C922A58B2E49C9877B363042801361)
+* [Conversion FAQ](../../ad_hoc_analysis_bucket/aha2aw-overview/aha2aw_converter_faq.md#section_1E53FE373AF045978F939916124E194E)
 
 ## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
-
 
 <table id="table_C9477437CB5C492B8713237E181AFEC6"> 
  <thead> 
@@ -30,7 +32,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Minute granularity with breakdowns or in columns</b> </p> </td> 
-   <td colname="col2"> <p>When minute granularity has breakdowns applied to it or if minute granularity is present in columns, the project cannot be converted to Analysis Workspace. </p> <p>A workaround is to remove the breakdown on minute granularity and remove it from columns, then convert the project. You can then apply breakdowns on minute granularity in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>When minute granularity has breakdowns applied to it or if minute granularity is present in columns, the project cannot be converted to Analysis Workspace. </p> <p>A workaround is to remove the breakdown on minute granularity and remove it from columns, then convert the project. You can then apply breakdowns on minute granularity in Analysis Workspace. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Internal calculated metric used together with a column segment</b> </p> </td> 
@@ -39,9 +41,7 @@ translate: y
  </tbody> 
 </table>
 
-
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
-
+## Conversion FAQ
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -124,4 +124,3 @@ translate: y
   </tr> 
  </tbody> 
 </table>
-

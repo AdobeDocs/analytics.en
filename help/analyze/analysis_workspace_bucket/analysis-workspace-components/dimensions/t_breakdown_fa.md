@@ -6,7 +6,7 @@ seo-title: Break down dimensions
 solution: Analytics
 title: Break down dimensions
 topic: Reports and analytics
-uuid: 73f339f6-4f5c-494a-bdd8-f0e602147a03
+uuid: 1c961870-e451-4da2-8d46-69f0c47c1338
 index: y
 internal: n
 snippet: y

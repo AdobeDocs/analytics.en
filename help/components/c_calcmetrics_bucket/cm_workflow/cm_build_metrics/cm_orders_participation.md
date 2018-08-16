@@ -3,7 +3,7 @@ description: Explains how to create a metric that shows which campaigns assist i
 seo-description: Explains how to create a metric that shows which campaigns assist in conversion.
 seo-title: Order Assists Metric
 title: Order Assists Metric
-uuid: ed31d934-a697-40df-98f1-50ad52d7b940
+uuid: a8f665fd-e122-401f-9b73-71acb29348a4
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Activity Map reporting in Analytics
 solution: Analytics
 title: Activity Map reporting in Analytics
 topic: Activity map
-uuid: 45a6a5b8-9ad8-4b8a-bb2a-1318fbcd6ae2
+uuid: fa96cf54-b3ed-4bd0-b275-f7af6575f0e2
 index: y
 internal: n
 snippet: y

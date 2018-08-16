@@ -7,7 +7,7 @@ solution: Analytics
 subtopic: data feeds
 title: Special Characters
 topic: Reports and analytics
-uuid: 77b38406-c06d-4f96-96f3-5e1449ce4bc6
+uuid: 2b6c0ebc-dbf1-4609-8f3d-c8bae192874f
 index: y
 internal: n
 snippet: y

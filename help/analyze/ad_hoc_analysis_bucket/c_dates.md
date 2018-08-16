@@ -3,7 +3,7 @@ description: In the calendar, you can specify dates and date ranges, or select a
 seo-description: In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.
 seo-title: Dates and Date Ranges
 title: Dates and Date Ranges
-uuid: 8f8a331f-b804-485e-8810-5955f9479088
+uuid: 36ad94c4-d500-450c-8c60-a12cd4dbf064
 index: y
 internal: n
 snippet: y

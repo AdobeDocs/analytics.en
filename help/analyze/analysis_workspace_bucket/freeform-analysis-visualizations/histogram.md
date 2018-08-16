@@ -3,7 +3,7 @@ description: A histogram is a new visualization type in Analysis Workspace.
 seo-description: A histogram is a new visualization type in Analysis Workspace.
 seo-title: Histogram
 title: Histogram
-uuid: c60f6427-9e23-44bd-8e32-6c290ea2f3b6
+uuid: 873a8163-a8c9-4810-aef5-f64acca9ef5a
 index: y
 internal: n
 snippet: y

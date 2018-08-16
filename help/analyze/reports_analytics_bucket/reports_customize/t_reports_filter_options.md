@@ -5,7 +5,7 @@ seo-title: Filtering Report Data
 solution: Analytics
 title: Filtering Report Data
 topic: Reports and analytics
-uuid: a3d6d7f7-4ae2-460e-8271-1a13e187646d
+uuid: 2f31f7e4-3b24-47a1-aada-f204e4370af5
 index: y
 internal: n
 snippet: y

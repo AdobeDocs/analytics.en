@@ -5,7 +5,7 @@ seo-title: Granularity
 solution: Analytics
 title: Granularity
 topic: Report builder
-uuid: 935ac62d-631c-4b57-8313-37083534f4b1
+uuid: 54a13e8b-e875-4827-b102-3ca4b941555c
 index: y
 internal: n
 snippet: y

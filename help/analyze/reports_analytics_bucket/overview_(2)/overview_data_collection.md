@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Get started
 title: About Data Collection
 topic: Reports and analytics
-uuid: 60c54225-3637-4a96-84f9-cc985a2cc7f7
+uuid: af9a1c83-8bbf-4302-af51-4eb00a0d97e7
 index: y
 internal: n
 snippet: y

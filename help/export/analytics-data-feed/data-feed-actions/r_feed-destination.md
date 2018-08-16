@@ -5,7 +5,7 @@ seo-description: The Feed Destination section defines how the feed is distribute
 seo-title: Feed Destination
 solution: Analytics
 title: Feed Destination
-uuid: 11d2e722-6ea0-4ace-89c4-af4ba0d5afb9
+uuid: 366ff48c-f018-4c2c-925a-9f083b2f75c9
 index: y
 internal: n
 snippet: y

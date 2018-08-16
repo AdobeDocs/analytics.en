@@ -6,7 +6,7 @@ seo-title: Getting Started Guide
 solution: Analytics
 title: Getting Started Guide
 topic: Reports and analytics
-uuid: a0838529-d138-4228-b918-458aa0430531
+uuid: b6fe8cd3-a60c-49c7-961c-697f2f251c00
 index: y
 internal: n
 snippet: y
@@ -36,9 +36,9 @@ You can use out-of the-box templates or create your own custom templates.
 * [ Using Participation Metrics ](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
 ![](assets/step3_icon.png) Add other components, such as: 
 
-* [ visualizations ](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+* [ visualizations ](../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
 * [ segments ](../../analysis_workspace_bucket/analysis-workspace-components/t_freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)
-* [ custom date ranges ](../../analysis_workspace_bucket/analysis-workspace-components/calendar.md#concept_7705EA2616284F7185D82F5E872257FE)
+* [ custom date ranges ](../../analysis_workspace_bucket/analysis-workspace-components/calendar/calendar.md#concept_7705EA2616284F7185D82F5E872257FE)
 **Video links:** 
 
 * [ Visualization Types in Analysis Workspace ](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
@@ -46,18 +46,18 @@ You can use out-of the-box templates or create your own custom templates.
 * [ Using Date Ranges and Calendar in Analysis Workspace ](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 ![](assets/step4_icon.png) Track your customers' journey: 
 
-* [ Fallout Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6)
-* [ Flow Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E)
+* [ Fallout Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6)
+* [ Flow Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E)
 **Video links:** 
 
 * [ Fallout Visualization ](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 * [ Flow Visualization ](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 ![](assets/step5_icon.png) Perform advanced analysis: 
 
-* [ Compare Segments (Segment IQ) ](../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+* [ Compare Segments (Segment IQ) ](../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 * [ Cohort Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/cohort-table/cohort_analysis.md#concept_9D240A490265427DA694D18D14EACC0E)
-* [ Anomaly Detection and Contribution Analysis ](../../analysis_workspace_bucket/virtual-analyst/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E)
-* [ Intelligent Alerts ](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+* [ Anomaly Detection and Contribution Analysis ](../../analysis_workspace_bucket/virtual-analyst/anomaly_detection/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E)
+* [ Intelligent Alerts ](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
 **Video links:** 
 
 * [ Segment Comparison ](https://www.youtube.com/watch?v=fO3PNB93U_w&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=38) (4:46)
@@ -67,10 +67,10 @@ You can use out-of the-box templates or create your own custom templates.
 * [ Intelligent Alerts ](https://www.youtube.com/watch?v=UVH9xr_2REA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=65) (5:34)
 ![](assets/step6_icon.png) Manage your projects: 
 
-* [ Compare Segments (Segment IQ) ](../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+* [ Compare Segments (Segment IQ) ](../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 * [ Cohort Analysis ](../../analysis_workspace_bucket/freeform-analysis-visualizations/cohort-table/cohort_analysis.md#concept_9D240A490265427DA694D18D14EACC0E)
-* [ Anomaly Detection and Contribution Analysis ](../../analysis_workspace_bucket/virtual-analyst/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E)
-* [ Intelligent Alerts ](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+* [ Anomaly Detection and Contribution Analysis ](../../analysis_workspace_bucket/virtual-analyst/anomaly_detection/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E)
+* [ Intelligent Alerts ](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
 **Video links:** 
 
 * [ Set Analysis Workspace as your Landing Page ](https://www.youtube.com/watch?v=5wpuF2SZdJg&index=7&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:31)

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Freeform panel
 title: Freeform panel
-uuid: fc1ae572-718e-4524-9b31-009d3f4b390a
+uuid: 0f0db685-27a4-49b0-8d96-f80d3f735969
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Schedule
 title: Report Schedule and Distribution
 topic: Reports and analytics
-uuid: 47f93c02-f997-42f5-b21e-b251cfc2ffcf
+uuid: fd12ee15-d57e-4361-8e4d-b825e11efc56
 index: y
 internal: n
 snippet: y

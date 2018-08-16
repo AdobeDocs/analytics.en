@@ -3,7 +3,7 @@ description: Shows impressions served and how many unique users have seen those 
 seo-description: Shows impressions served and how many unique users have seen those impressions.
 seo-title: Scatterplot
 title: Scatterplot
-uuid: 62c63b9e-9e31-4162-aa23-095b3c68fa0f
+uuid: 95c18bab-56e4-40a8-8e2d-513f3b7716cf
 index: y
 internal: n
 snippet: y

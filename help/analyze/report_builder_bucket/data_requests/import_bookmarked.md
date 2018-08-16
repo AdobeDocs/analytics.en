@@ -5,7 +5,7 @@ seo-title: Import bookmarked reports and dashboard reportlets
 solution: Analytics
 title: Import bookmarked reports and dashboard reportlets
 topic: Report builder
-uuid: f25201df-e50e-40fe-b333-52d93d792afe
+uuid: 3cd84904-e5c1-49ae-a9de-b3c65114095e
 index: y
 internal: n
 snippet: y

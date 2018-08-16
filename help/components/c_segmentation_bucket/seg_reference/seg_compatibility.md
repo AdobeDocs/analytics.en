@@ -5,7 +5,7 @@ seo-title: Data Warehouse Segment Compatibility
 solution: Analytics
 title: Data Warehouse Segment Compatibility
 topic: Segments
-uuid: 7daef44b-6fb8-4cbf-baa3-3ce974a0f344
+uuid: ee8c05a2-def5-4775-bab5-3cd621e63ff8
 index: y
 internal: n
 snippet: y

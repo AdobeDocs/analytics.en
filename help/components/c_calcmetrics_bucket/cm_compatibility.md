@@ -3,7 +3,7 @@ description: Explains the three Product Compatibility options.
 seo-description: Explains the three Product Compatibility options.
 seo-title: Metric Compatibility
 title: Metric Compatibility
-uuid: 4488c90c-7a35-436c-b457-f478f956f954
+uuid: bbc1ebbe-38de-4442-b657-c50b903a4868
 index: y
 internal: n
 snippet: y

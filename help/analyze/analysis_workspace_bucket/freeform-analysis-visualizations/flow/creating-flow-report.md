@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Configure a flow visualization
 title: Configure a flow visualization
-uuid: f2b40dad-ecb1-4386-ad9c-ec2ad7734fbc
+uuid: afb3b4ca-cff5-4e6a-a72d-e43de114c2eb
 index: y
 internal: n
 snippet: y

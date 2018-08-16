@@ -5,7 +5,7 @@ seo-title: Manage Data Warehouse requests
 solution: Analytics
 title: Manage Data Warehouse requests
 topic: Data warehouse
-uuid: 2bc4fa42-816a-4a39-b02b-837bffe90ffd
+uuid: 4acd5d79-397f-411f-8c35-1c9ac5a81592
 index: y
 internal: n
 snippet: y

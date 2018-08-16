@@ -5,7 +5,7 @@ seo-title: Dimensions
 solution: Analytics
 title: Dimensions
 topic: Ad hoc analysis
-uuid: 6f4e5b3e-117e-4b59-90d6-de343003e20b
+uuid: 5381e445-b78d-4645-8dfe-864c6710a84c
 index: y
 internal: n
 snippet: y

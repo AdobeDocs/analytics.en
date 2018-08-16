@@ -5,7 +5,7 @@ seo-title: Customer segmentation
 solution: Analytics
 title: Customer segmentation
 topic: Activity map
-uuid: 00f4dcc1-cae7-4fbd-8424-20b85c6ee32d
+uuid: 1baaf53f-d1a2-4f90-a940-6dd37691de1e
 index: y
 internal: n
 snippet: y

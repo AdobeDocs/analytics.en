@@ -5,7 +5,7 @@ seo-title: Combine traffic and commerce metrics in the same request
 solution: Analytics
 title: Combine traffic and commerce metrics in the same request
 topic: Report builder
-uuid: eec72726-e53f-4b0a-97c9-fe1daf9d6ddf
+uuid: bc4f989d-3565-48a3-a857-dae3afeb113a
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Diagnostic messages
 solution: Analytics
 title: Diagnostic messages
 topic: Report builder
-uuid: 62bbeee6-e16c-42f6-ba52-21531940d827
+uuid: 93171144-6c3a-49b6-b871-2f7df32203f7
 index: y
 internal: n
 snippet: y

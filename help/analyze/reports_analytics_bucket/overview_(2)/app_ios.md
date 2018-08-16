@@ -5,7 +5,7 @@ seo-title: Adobe Analytics for iOS
 solution: Analytics
 title: Adobe Analytics for iOS
 topic: Reports and analytics
-uuid: efb96c6c-cd13-4e15-a852-e889decf40c3
+uuid: 6d1888b7-f635-426a-a2e4-b8e6c31404af
 index: y
 internal: n
 snippet: y

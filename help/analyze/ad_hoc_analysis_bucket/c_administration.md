@@ -3,7 +3,7 @@ description: Configure users and learn about data sampling.
 seo-description: Configure users and learn about data sampling.
 seo-title: Administration
 title: Administration
-uuid: d9a823a2-2448-4e3f-8fb3-e7247db50969
+uuid: 2327878d-b3c6-43cb-9a15-28b5059a5720
 index: y
 internal: n
 snippet: y

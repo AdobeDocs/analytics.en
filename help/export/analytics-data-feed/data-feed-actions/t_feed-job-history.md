@@ -5,7 +5,7 @@ seo-description: By default, the job history for the last 30 days is reported fo
 seo-title: View a Feed's Job History
 solution: Analytics
 title: View a Feed's Job History
-uuid: 918836ba-6162-4702-bf3c-8cff8da31e9c
+uuid: 66ed5dbb-7913-4d12-b118-c2da34791bcd
 index: y
 internal: n
 snippet: y

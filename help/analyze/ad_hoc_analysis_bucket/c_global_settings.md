@@ -3,7 +3,7 @@ description: Configure global behavioral settings. For example, you can configur
 seo-description: Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
 seo-title: Settings
 title: Settings
-uuid: 7df17e77-f9a5-4aca-8c5d-9da5d463c32e
+uuid: a4db85d0-d641-4b2e-94e8-d43b4b0519e7
 index: y
 internal: n
 snippet: y

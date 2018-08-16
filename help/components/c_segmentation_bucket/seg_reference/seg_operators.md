@@ -5,7 +5,7 @@ seo-title: Comparison Operators for Segments
 solution: Analytics
 title: Comparison Operators for Segments
 topic: Segments
-uuid: 233fc199-2538-445b-9d23-78430e5ee6bc
+uuid: e2dfc7c5-8a4f-41c4-8a31-9e4e28229114
 index: y
 internal: n
 snippet: y

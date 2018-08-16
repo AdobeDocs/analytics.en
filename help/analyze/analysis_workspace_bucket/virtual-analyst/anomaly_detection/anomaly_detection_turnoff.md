@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Turn off anomaly detection
 title: Turn off anomaly detection
-uuid: 2121dcba-27af-47e3-a8d7-d9a6f04025d4
+uuid: c5abdf95-1dc7-455f-a0d8-fe122107ae61
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-description: Use Adobe report builder add-in for Microsoft Excel to build cu
 seo-title: Report Builder Delivered Reports
 solution: Analytics
 title: Report Builder Delivered Reports
-uuid: e5010180-9f0e-41f5-a579-54592d3ce3ef
+uuid: 8dc86a7c-908a-4a6f-8fa4-afe9a43ec1fd
 index: y
 internal: n
 snippet: y

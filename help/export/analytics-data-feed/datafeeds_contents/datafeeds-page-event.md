@@ -6,7 +6,7 @@ seo-title: Page Event Lookup
 solution: Analytics
 title: Page Event Lookup
 topic: Reports and analytics
-uuid: ca394b6f-9eb0-446a-8b14-8de3f596d7b7
+uuid: 14ccc6de-6e49-4855-b831-e199ae3d8e8a
 index: y
 internal: n
 snippet: y

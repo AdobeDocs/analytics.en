@@ -3,7 +3,7 @@ description: These changes to the way calculated metrics work in Analytics may i
 seo-description: These changes to the way calculated metrics work in Analytics may impact you.
 seo-title: Frequently Asked Questions
 title: Frequently Asked Questions
-uuid: c4904fe7-49e4-4dae-b260-5bf923906927
+uuid: b3a2f181-0f14-4705-9ab3-7026be6da78c
 index: y
 internal: n
 snippet: y

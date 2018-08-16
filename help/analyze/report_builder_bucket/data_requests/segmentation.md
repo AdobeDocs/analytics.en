@@ -5,7 +5,7 @@ seo-title: Manage segments
 solution: Analytics
 title: Manage segments
 topic: Report builder
-uuid: 912ec222-06f2-429e-b5b9-38ea8091df40
+uuid: c7c34e7f-adb5-40f7-8804-aa7e7014c371
 index: y
 internal: n
 snippet: y

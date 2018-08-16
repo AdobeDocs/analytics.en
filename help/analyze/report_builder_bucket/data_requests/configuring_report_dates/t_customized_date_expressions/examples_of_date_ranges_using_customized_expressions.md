@@ -5,7 +5,7 @@ seo-title: Examples of date ranges using customized expressions
 solution: Analytics
 title: Examples of date ranges using customized expressions
 topic: Report builder
-uuid: 37891421-cad1-4e60-a88b-36a136873859
+uuid: a06d49f8-394b-476e-ac7c-1696dc35f9c4
 index: y
 internal: n
 snippet: y

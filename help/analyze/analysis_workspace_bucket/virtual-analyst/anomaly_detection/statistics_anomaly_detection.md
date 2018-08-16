@@ -3,7 +3,7 @@ description: Anomaly detection in Analysis Workspace uses a series of advanced s
 seo-description: Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
 seo-title: Statistical techniques used in anomaly detection
 title: Statistical techniques used in anomaly detection
-uuid: 2463048e-8222-4cb2-912a-ee4bd215a6e1
+uuid: 8f8561da-a485-4fd9-8646-564936a0b31d
 index: y
 internal: n
 snippet: y

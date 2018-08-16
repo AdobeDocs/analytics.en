@@ -6,7 +6,7 @@ seo-title: Pre and Post Columns
 solution: Analytics
 title: Pre and Post Columns
 topic: Reports and analytics
-uuid: 883d4f3d-dbb6-4199-89e5-c55aceaecd2a
+uuid: 3b8dc88f-6555-46dc-86b4-72b38c524842
 index: y
 internal: n
 snippet: y

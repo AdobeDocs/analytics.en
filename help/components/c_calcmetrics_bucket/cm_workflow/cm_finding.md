@@ -3,7 +3,7 @@ description: Describes the two main ways of finding your metrics  sorting and fi
 seo-description: Describes the two main ways of finding your metrics  sorting and filtering.
 seo-title: Find Metrics
 title: Find Metrics
-uuid: 0d933f79-b98d-4caa-a74d-9d57e69e42d5
+uuid: 1f5df01b-fa5a-443a-b691-36bc7a0ce554
 index: y
 internal: n
 snippet: y

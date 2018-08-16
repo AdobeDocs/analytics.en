@@ -5,7 +5,7 @@ seo-description: You can pause an active feed.
 seo-title: Pause a Feed
 solution: Analytics
 title: Pause a Feed
-uuid: 716feecf-379d-403e-af5f-0d2a5ee89338
+uuid: 306978a6-52a3-408f-9877-314324b3e85b
 index: y
 internal: n
 snippet: y

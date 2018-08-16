@@ -5,7 +5,7 @@ seo-description: Searching and filtering help you locate a job in the list.
 seo-title: Filter Jobs List
 solution: Analytics
 title: Filter Jobs List
-uuid: 2676a404-24e6-44cd-b3ac-d49f46b77e64
+uuid: c2a83d4f-9d4d-45e4-942a-f69e892750d2
 index: y
 internal: n
 snippet: y

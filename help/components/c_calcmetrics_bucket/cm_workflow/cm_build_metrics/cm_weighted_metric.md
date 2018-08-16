@@ -3,7 +3,7 @@ description: Shows examples of filtered and weighted metrics.
 seo-description: Shows examples of filtered and weighted metrics.
 seo-title: Filtered and Weighted Metrics
 title: Filtered and Weighted Metrics
-uuid: 9769b1c9-0b1d-424d-b9ec-c4fa330d3f9b
+uuid: 0f4d1a09-8d43-4d86-85e2-9276fede3e73
 index: y
 internal: n
 snippet: y

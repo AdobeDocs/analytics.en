@@ -5,7 +5,7 @@ seo-title: Considerations
 solution: Analytics
 title: Considerations
 topic: Report builder
-uuid: 2a3ec8d5-9c74-47ba-9232-3a93d65801e1
+uuid: f0d2fd79-6a4c-45b0-8df6-96ed259a837d
 index: y
 internal: n
 snippet: y

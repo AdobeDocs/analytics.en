@@ -5,7 +5,7 @@ seo-title: Troubleshooting browser extensions
 solution: Analytics
 title: Troubleshooting browser extensions
 topic: Activity map
-uuid: 0e366bd2-44b3-4360-92ac-ba7a31489f38
+uuid: b96c7d03-28e4-44a1-9d52-f17828f74608
 index: y
 internal: n
 snippet: y

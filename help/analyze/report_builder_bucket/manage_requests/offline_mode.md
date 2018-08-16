@@ -5,7 +5,7 @@ seo-title: Offline mode for creating and editing requests
 solution: Analytics
 title: Offline mode for creating and editing requests
 topic: Report builder
-uuid: 9b3e931e-5f13-467b-beeb-05b5df611c7c
+uuid: ea1ce5ca-bc9b-482b-b7e9-0d4a275e969c
 index: y
 internal: n
 snippet: y

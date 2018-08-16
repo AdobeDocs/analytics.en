@@ -5,7 +5,7 @@ seo-title: Dates from a cell
 solution: Analytics
 title: Dates from a cell
 topic: Report builder
-uuid: 1f118f07-2c24-4b17-8028-be6c305859ce
+uuid: d9e2ee33-00e6-4b0b-be66-47eeda826115
 index: y
 internal: n
 snippet: y

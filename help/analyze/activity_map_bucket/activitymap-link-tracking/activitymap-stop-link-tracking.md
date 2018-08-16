@@ -5,7 +5,7 @@ seo-title: Stop link tracking
 solution: Analytics
 title: Stop link tracking
 topic: Activity map
-uuid: 8f4b010d-6a11-4524-a305-20e9f6972818
+uuid: 5c235144-4fc2-4fee-9140-7c8c8e79aa2c
 index: y
 internal: n
 snippet: y

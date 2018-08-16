@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 seo-description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 seo-title: Calculated and Advanced Calculated (Derived) Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
-uuid: 47f75448-a74f-4354-b412-9e965ac19f18
+uuid: 9e2820e6-ea8b-4ced-bd7d-e36771c96be5
 index: y
 internal: n
 snippet: y
@@ -34,11 +34,11 @@ Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capab
 
 |  Builder Options  | Calculated Metrics  | Advanced Calculated (Derived) Metrics  |
 |---|---|---|
-|  [ Format types (decimal, time, percent, currency) ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18)  | Yes  | Yes  |
+|  [ Format types (decimal, time, percent, currency) ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18)  | Yes  | Yes  |
 |  [ Allocation changes (default, linear, participation, etc.) ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/m_metric_type_alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
 |  [ Metric types (standard, total) ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/m_metric_type_alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
 |  Basic operators (add, subtract, multiply, divide)  | Yes  | Yes  |
-|  [ Applying segments ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/metrics_with_segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E)  | No  | Yes  |
+|  [ Applying segments ](../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/metrics_with_segments/metrics_with_segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E)  | No  | Yes  |
 |  [ Basic functions (count, abs value, mean, etc) ](../c_calcmetrics_bucket/cm_reference/cm_functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2)  | No  | Yes  |
 |  [ Advanced functions (regression, if/then, t-score, etc) ](../c_calcmetrics_bucket/cm_reference/cm_adv_functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)  | No  | Yes  |
 
@@ -84,7 +84,7 @@ Here is a short overview of the Calculated Metrics tools:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <a href="../c_calcmetrics_bucket/cm_workflow/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> Calculated Metric Builder </a> </td> 
+   <td colname="col1"> <a href="../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> Calculated Metric Builder </a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Create calculated and advanced calculated metrics. </li> 

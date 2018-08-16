@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Use attribution IQ in Analysis Workspace
 title: Use attribution IQ in Analysis Workspace
-uuid: d11ede16-e05b-4774-afad-227c810c1392
+uuid: b86fbca0-e48b-44b3-a5bf-377e04ceb5a1
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ Analysis Workspace Freeform Tables support attribution models that can be used o
 
 1. Click the Settings (gear) icon in a Freeform Table column. ![](assets/Column_Settings.png) 
 
-1. Under **[!UICONTROL  Data Settings]**, check **[!UICONTROL  Use non-default attribution model]**. For more information on the different attribution models, refer to [ Attribution IQ Overview ](../../analysis_workspace_bucket/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871). ![](assets/Attribution_Model_Selection.png) 
+1. Under **[!UICONTROL  Data Settings]**, check **[!UICONTROL  Use non-default attribution model]**. For more information on the different attribution models, refer to [ Attribution IQ Overview ](../../analysis_workspace_bucket/attribution/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871). ![](assets/Attribution_Model_Selection.png) 
 
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}

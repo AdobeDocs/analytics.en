@@ -5,7 +5,7 @@ seo-title: Configure Activity Map settings
 solution: Analytics
 title: Configure Activity Map settings
 topic: Activity map
-uuid: 839cfeda-82d9-4d29-ab81-e01394f56de7
+uuid: 36e5818c-286c-4f43-a985-5fcff13e3c01
 index: y
 internal: n
 snippet: y

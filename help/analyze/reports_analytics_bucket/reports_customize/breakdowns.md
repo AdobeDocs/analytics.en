@@ -5,7 +5,7 @@ seo-title: Breakdowns
 solution: Analytics
 title: Breakdowns
 topic: Reports and analytics
-uuid: 50879cb3-d898-4c72-8e55-ddcb4d168c42
+uuid: 02ece269-3c5f-4ec0-a813-129ac1f0381d
 index: y
 internal: n
 snippet: y

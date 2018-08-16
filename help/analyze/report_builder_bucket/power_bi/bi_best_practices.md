@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Best practices
 title: Best practices
-uuid: bbac01f6-7dfc-42c6-b342-0ae44ae984dc
+uuid: 711729e6-ac27-4bc7-b7a4-7e6476600b79
 index: y
 internal: n
 snippet: y

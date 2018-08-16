@@ -3,7 +3,7 @@ description: Explains how to pull Report Builder-published assets into Power BI 
 seo-description: Explains how to pull Report Builder-published assets into Power BI Desktop
 seo-title: Pull published assets into Power BI Desktop
 title: Pull published assets into Power BI Desktop
-uuid: 672396fc-9fc4-4684-aed8-db17424c8791
+uuid: 9014d89a-0920-40c4-9085-642147543646
 index: y
 internal: n
 snippet: y

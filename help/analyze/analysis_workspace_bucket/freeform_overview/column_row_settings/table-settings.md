@@ -3,7 +3,7 @@ description: Row settings vary depending on which component you have dragged int
 seo-description: Row settings vary depending on which component you have dragged into the table.
 seo-title: Row settings
 title: Row settings
-uuid: 8a8d3e8c-0834-4c45-94f8-53b7c1b338c4
+uuid: 1a8cd411-bbca-4ac2-b4c0-4b9616c2156b
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-description: It is important to understand key terms when using the Analytic
 seo-title: Terminology
 solution: Analytics
 title: Terminology
-uuid: 9d172229-43b2-4760-bf3d-55a15e4b0e74
+uuid: 42d9b39a-c189-4792-bf92-caee94b28478
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Report Types
 solution: Analytics
 title: Report Types
 topic: Ad hoc analysis
-uuid: 35d87e44-31e3-4626-8413-9de5142e2c82
+uuid: c3dd4e62-6f48-40a3-b255-a61bac8c3ca1
 index: y
 internal: n
 snippet: y

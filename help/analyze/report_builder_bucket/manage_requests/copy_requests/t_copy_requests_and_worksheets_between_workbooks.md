@@ -5,7 +5,7 @@ seo-title: Copy requests and worksheets between workbooks
 solution: Analytics
 title: Copy requests and worksheets between workbooks
 topic: Report builder
-uuid: 06a75b3b-f1b3-430f-a491-51845f8650c5
+uuid: 566fe60b-94e2-4613-ae8d-64ec70d5368c
 index: y
 internal: n
 snippet: y

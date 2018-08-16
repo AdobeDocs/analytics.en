@@ -5,7 +5,7 @@ seo-title: Download a workbook
 solution: Analytics
 title: Download a workbook
 topic: Report builder
-uuid: 243efc55-c6fa-46f0-85bd-e27319c9c844
+uuid: 4d5659a5-3b28-43e5-8361-f190d202c730
 index: y
 internal: n
 snippet: y

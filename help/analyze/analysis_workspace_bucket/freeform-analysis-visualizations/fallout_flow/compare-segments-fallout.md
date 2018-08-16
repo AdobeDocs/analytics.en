@@ -4,7 +4,7 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 seo-description: You can create segments from a touchpoint, add segments as touchpoint, and compare key workflows across various segments in Analysis Workspace.
 seo-title: Apply segments in fallout analysis
 title: Apply segments in fallout analysis
-uuid: 3fef8e97-0701-4704-9e31-e3940a821d5f
+uuid: 2317fd49-e298-40e6-a2d2-fc9834b445fc
 index: y
 internal: n
 snippet: y

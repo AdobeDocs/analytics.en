@@ -3,7 +3,7 @@ description: The Calculated Metric Manager offers many ways of curating metrics,
 seo-description: The Calculated Metric Manager offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 seo-title: Calculated Metric Manager
 title: Calculated Metric Manager
-uuid: a2204945-d482-489f-b7e7-dc38d91afc4f
+uuid: 4e487904-78bf-4d06-ba75-dda0f63de1b9
 index: y
 internal: n
 snippet: y

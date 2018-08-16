@@ -3,7 +3,7 @@ description: Changes and enhancements to the Undo option in Analysis Workspace .
 seo-description: Changes and enhancements to the Undo option in Analysis Workspace .
 seo-title: Undo and redo settings
 title: Undo and redo settings
-uuid: a19caff3-3c06-4f4a-bbe6-ad8f3819dda3
+uuid: f6fc4275-fc74-46fd-9767-6aacf07695c2
 index: y
 internal: n
 snippet: y

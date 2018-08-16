@@ -5,7 +5,7 @@ seo-title: Specific filters
 solution: Analytics
 title: Specific filters
 topic: Report builder
-uuid: c21c66ff-8767-4ebb-86ef-418e7c88bca9
+uuid: a3ad3b9d-2f76-4a6f-aa01-989f15315d59
 index: y
 internal: n
 snippet: y

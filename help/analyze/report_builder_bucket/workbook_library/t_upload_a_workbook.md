@@ -5,7 +5,7 @@ seo-title: Upload a workbook
 solution: Analytics
 title: Upload a workbook
 topic: Report builder
-uuid: c1cd1dcd-60ca-4550-8277-bfcaa71927b5
+uuid: 2f33b97d-0ba9-40f2-be32-2d5c0a2fd59a
 index: y
 internal: n
 snippet: y

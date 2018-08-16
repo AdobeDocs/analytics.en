@@ -5,7 +5,7 @@ seo-title: Building Segments
 solution: Analytics
 title: Building Segments
 topic: Ad hoc analysis
-uuid: 682d541d-e8ac-4497-9188-5f8ec5f71a59
+uuid: 8ef059d2-373e-4800-b696-8087593fd311
 index: y
 internal: n
 snippet: y

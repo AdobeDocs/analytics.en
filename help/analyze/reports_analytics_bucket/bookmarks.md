@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Bookmarks
 title: Bookmark Manager
 topic: Reports and analytics
-uuid: 2928d888-90d2-4b64-8faf-c4350647015b
+uuid: 45b854f7-70fc-4931-805f-391892f71cc2
 index: y
 internal: n
 snippet: y

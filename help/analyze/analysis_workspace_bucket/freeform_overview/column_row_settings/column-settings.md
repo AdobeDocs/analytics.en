@@ -3,7 +3,7 @@ description: Column settings let you configure column formatting, some of which 
 seo-description: Column settings let you configure column formatting, some of which can be conditional.
 seo-title: Column settings
 title: Column settings
-uuid: 63aa043b-799f-4356-b081-1d81bb2c5569
+uuid: 12bd46e4-a442-4dff-bc24-88d5ed300e94
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Frequently Asked Questions
 solution: Analytics
 title: Frequently Asked Questions
 topic: Segments
-uuid: 094fab79-5ab5-487b-9ed0-cd775ff9609b
+uuid: 81291257-f1a4-428d-bca4-321339feaf1a
 index: y
 internal: n
 snippet: y
@@ -30,11 +30,11 @@ translate: y
     * Use [ segments as dimensions ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in a comparison.
     * Use segments in [ fallout analysis ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
-* You can [ apply multiple segments to a report or project ](../c_segmentation_bucket/seg_workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F).
+* You can [ apply multiple segments to a report or project ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F).
 * Segments are universal to all report suites.
-* The [ Segment Builder ](../c_segmentation_bucket/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* The [ Segment Manager ](../c_segmentation_bucket/seg_workflow.md#concept_7A2E019317864065B7C641DC3315928F) lets you set up [ workflows ](../c_segmentation_bucket/seg_workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) with segment sharing, tagging, verification, and approval features.
-* You can [ tag segments ](../c_segmentation_bucket/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) to organize and search later instead of using folders. Previously, you used folders (in [!DNL  Ad Hoc Analysis]) to organize your segments.
+* The [ Segment Builder ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
+* The [ Segment Manager ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_7A2E019317864065B7C641DC3315928F) lets you set up [ workflows ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) with segment sharing, tagging, verification, and approval features.
+* You can [ tag segments ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) to organize and search later instead of using folders. Previously, you used folders (in [!DNL  Ad Hoc Analysis]) to organize your segments.
 * You can create [ Sequential Segments ](seg_example_sequential.md#concept_BD13ABA2592E479B82A187B82B80559C) outside of Ad Hoc Analysis.
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 See the [ Improving Segmentation in Adobe Analytics ](http://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details. 
@@ -60,7 +60,7 @@ Access the Segment Manager by:
 
 **Where did the legacy segment drop-down go?** 
 
-The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [ Segment Builder ](../c_segmentation_bucket/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png) in the left navigation and the segment rail displays. 
+The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [ Segment Builder ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png) in the left navigation and the segment rail displays. 
 
 **Where did the legacy report suite drop-down go?** 
 
@@ -74,7 +74,7 @@ The report suite drop-down has been moved next to the date selector in the top r
 
 By default, all users can create and edit personal segments. However, Admins can decide who should have [ permissions to create segments ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user. 
 
-Admins can edit any segment, and share segments with groups and with everyone in the organization. [ More... ](../c_segmentation_bucket/seg_reference.md#concept_69114DCDC4154FD6985B4AAFE38AF2AB) 
+Admins can edit any segment, and share segments with groups and with everyone in the organization. [ More... ](../c_segmentation_bucket/seg_reference/seg_reference.md#concept_69114DCDC4154FD6985B4AAFE38AF2AB) 
 
 **Can I see all segments in my company?** 
 
@@ -92,7 +92,7 @@ Ad Hoc Analysis and Report Builder display only segments built by you or segment
 
 **Why can't I delete this segment? ** 
 
-If the segment was [ published to the Experience Cloud ](../c_segmentation_bucket/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01), you cannot delete it or edit it. However, you can copy it and edit the copied version. 
+If the segment was [ published to the Experience Cloud ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01), you cannot delete it or edit it. However, you can copy it and edit the copied version. 
 
 ## Best Practices {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -110,7 +110,7 @@ Now that segments work in multiple report suites, you might find that you have m
 * Review the segments that you have.
 * Add them to the segment library where applicable.
 * Approve segments that are canonical.
-* Tag segments according to [ best practices ](../c_segmentation_bucket/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50).
+* Tag segments according to [ best practices ](../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50).
 
 
 ## Managing Legacy Segments {#section_76CF47142D1A4FB6A0718AD9073049FE}

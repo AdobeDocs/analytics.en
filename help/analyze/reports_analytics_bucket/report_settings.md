@@ -5,7 +5,7 @@ seo-title: Report Display Settings and Navigation
 solution: Analytics
 title: Report Display Settings and Navigation
 topic: Reports,Reports and analytics
-uuid: eddc63d5-c4e4-44ed-a194-5169ae6a38b5
+uuid: a6caa037-b72c-4370-963a-2cdf57e61279
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: Selecting the gear icon next to a metric lets you specify the metri
 seo-description: Selecting the gear icon next to a metric lets you specify the metric type and the metric allocation.
 seo-title: Metric Type and Allocation
 title: Metric Type and Allocation
-uuid: 4b695484-3bac-4a47-a37d-020941641a58
+uuid: 48b92e07-defb-48f6-bbfb-bc0efd1bf7cf
 index: y
 internal: n
 snippet: y

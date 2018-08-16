@@ -5,7 +5,7 @@ seo-description: When you set up a feed, Some settings determine how often jobs 
 seo-title: Jobs Settings
 solution: Analytics
 title: Jobs Settings
-uuid: c245a5be-781e-4d89-8e57-9b9d78b61768
+uuid: 5cd2a013-5eb8-4d77-a913-4ee2a81bc98f
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Overlay details
 solution: Analytics
 title: Overlay details
 topic: Activity map
-uuid: dbe98367-f9e6-4ff3-8b25-8bd25b82e3ff
+uuid: 35e6f09d-07f1-406d-9852-2a12d464d8ad
 index: y
 internal: n
 snippet: y

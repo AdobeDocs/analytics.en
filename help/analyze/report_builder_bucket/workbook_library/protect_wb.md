@@ -5,7 +5,7 @@ seo-title: Lock/unlock workbooks
 solution: Analytics
 title: Lock/unlock workbooks
 topic: Report builder
-uuid: 18d481a0-d8da-40e8-9255-87abc27b1da6
+uuid: 58dd0057-cd1e-4942-bfd2-ca2b255969fe
 index: y
 internal: n
 snippet: y

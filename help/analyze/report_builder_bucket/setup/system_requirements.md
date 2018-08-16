@@ -5,7 +5,7 @@ seo-title: System requirements
 solution: Analytics
 title: System requirements
 topic: Report builder
-uuid: a560ac47-45f0-4e49-bda1-e1070a5aa064
+uuid: c296c030-2d34-4b71-a60d-16ccd1b5309e
 index: y
 internal: n
 snippet: y

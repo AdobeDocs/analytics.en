@@ -5,7 +5,7 @@ seo-description: Many Adobe Engineering Services engagements involve the exchang
 seo-title: Engineering Services Engagements with FTP
 solution: Analytics
 title: Engineering Services Engagements with FTP
-uuid: 0a5f81a6-07ef-4509-875a-78303e30144f
+uuid: cb067647-6a89-4a06-bdfd-c98fdc9716ec
 index: y
 internal: n
 snippet: y
@@ -24,4 +24,4 @@ Similar to a SAINT upload via FTP, [!UICONTROL  DB VISTA] receives data through 
 
 ## Custom Engagements {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe Engineering Services offers custom projects that use both FTP and SFTP. See Adobe Engineering Services for more information on custom projects. For information on SFTP, see [ Secure File Transfer Protocol](../../ftp_and_sftp_bucket/ftp_sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC). 
+Adobe Engineering Services offers custom projects that use both FTP and SFTP. See Adobe Engineering Services for more information on custom projects. For information on SFTP, see [ Secure File Transfer Protocol](../../ftp_and_sftp_bucket/ftp_sftp/ftp_sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC). 

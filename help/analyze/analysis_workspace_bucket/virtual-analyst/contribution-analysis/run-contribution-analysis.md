@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Run Contribution Analysis
 title: Run Contribution Analysis
-uuid: 2fae20b2-6d11-4f9c-b5dd-5b948f4f24c7
+uuid: e553b6d7-77e7-4bd2-ad0f-1a6791b50c0e
 index: y
 internal: n
 snippet: y
@@ -47,10 +47,10 @@ There are two ways to invoke contribution analysis in a project:
 1. Since contribution analysis is now part of Analysis Workspace, you can take advantage of a number of its features from a table's right-click menu to make your analysis even more meaningful, such as: 
 
     * [ Breaking each dimension item down by another dimension. ](../../../analysis_workspace_bucket/analysis-workspace-components/dimensions/t_breakdown_fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4)
-    * [ Trending one or more rows.](../../../analysis_workspace_bucket/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-    * [ Adding new visualizations.](../../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
-    * [ Creating alerts. ](../../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
-    * [ Creating or comparing segments.](../../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+    * [ Trending one or more rows.](../../../analysis_workspace_bucket/analysis-workspace-features/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+    * [ Adding new visualizations.](../../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+    * [ Creating alerts. ](../../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+    * [ Creating or comparing segments.](../../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
 
 >[!NOTE]

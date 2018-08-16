@@ -5,7 +5,7 @@ seo-title: Select a report suite from an existing request in Excel
 solution: Analytics
 title: Select a report suite from an existing request in Excel
 topic: Report builder
-uuid: efa31da1-8e5c-4918-b6e4-9778cd5edbab
+uuid: dae6def7-c27e-43ea-98b2-041b16eab98b
 index: y
 internal: n
 snippet: y

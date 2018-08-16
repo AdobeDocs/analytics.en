@@ -5,7 +5,7 @@ seo-title: Create a microchart
 solution: Analytics
 title: Create a microchart
 topic: Report builder
-uuid: 0b12a1e7-5a8a-43b9-90dc-be6e9cee13aa
+uuid: 3c79b338-bbca-4993-b079-9f284ea01648
 index: y
 internal: n
 snippet: y
@@ -15,6 +15,6 @@ translate: y
 # Create a microchart
 
 
->1. Create a request in Excel using the [ Custom Layout](../../../report_builder_bucket/layout/configure_the_custom_layout.md#concept_F711B12D6BE74F4880E5F596C2848183).
+>1. Create a request in Excel using the [ Custom Layout](../../../report_builder_bucket/layout/configure_the_custom_layout/configure_the_custom_layout.md#concept_F711B12D6BE74F4880E5F596C2848183).
 >1. Right click the metric value column.
 >1. Select **[!UICONTROL  Change Output Display]**, then the type of microchart and percent display you would like to see.

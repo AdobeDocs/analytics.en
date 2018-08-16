@@ -3,7 +3,7 @@ description: Virtual report suites can be curated to include and exclude compone
 seo-description: Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 seo-title: Virtual Report Suite Component Curation
 title: Virtual Report Suite Component Curation
-uuid: b2621151-8b05-436e-9169-a52412262810
+uuid: 92bd0825-7bcf-41ef-98f9-cf7c5282738d
 index: y
 internal: n
 snippet: y

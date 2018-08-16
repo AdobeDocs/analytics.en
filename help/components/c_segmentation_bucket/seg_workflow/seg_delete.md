@@ -5,7 +5,7 @@ seo-title: Deleting Segments
 solution: Analytics
 title: Deleting Segments
 topic: Segments
-uuid: 8ed06de7-4074-4be4-bf84-00e98d22cc90
+uuid: e05d860b-de38-4f12-9ddc-b855760274af
 index: y
 internal: n
 snippet: y

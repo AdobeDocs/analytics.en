@@ -5,7 +5,7 @@ seo-title: Select a report type
 solution: Analytics
 title: Select a report type
 topic: Report builder
-uuid: ff559423-b610-4f50-b31a-df9667a0f448
+uuid: cd98ee1a-c56e-4935-bbe9-a5d92c5b4a65
 index: y
 internal: n
 snippet: y

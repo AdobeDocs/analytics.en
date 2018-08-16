@@ -5,7 +5,7 @@ seo-title: Create more than one copy of a request
 solution: Analytics
 title: Create more than one copy of a request
 topic: Report builder
-uuid: 549b3b5c-6c97-40e1-8002-cf6242c55fce
+uuid: abd9bfcd-7321-445e-a570-543e29345f69
 index: y
 internal: n
 snippet: y

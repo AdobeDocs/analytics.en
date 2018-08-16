@@ -5,7 +5,7 @@ seo-title: Scheduled Task Manager
 solution: Analytics
 title: Scheduled Task Manager
 topic: Report builder
-uuid: 9270599d-021a-4430-ab36-57bfc89278c3
+uuid: 75d331b9-526e-4994-9ced-9cd67e48e423
 index: y
 internal: n
 snippet: y

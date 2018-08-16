@@ -6,7 +6,7 @@ seo-title: Managing Virtual Report Suites
 solution: Analytics
 title: Managing Virtual Report Suites
 topic: Reports and analytics
-uuid: 15928840-b4c6-4c97-ac5f-9612d92b801e
+uuid: 667fa1f9-9ca4-4ab2-acbd-3a76e393ab01
 index: y
 internal: n
 snippet: y

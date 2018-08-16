@@ -5,7 +5,7 @@ seo-title: Upgrade Report Builder
 solution: Analytics
 title: Upgrade Report Builder
 topic: Report builder
-uuid: 65bca94d-8448-4dd1-91aa-82dc4549b5cc
+uuid: 18406171-3fe8-473e-816a-67994bbd1309
 index: y
 internal: n
 snippet: y

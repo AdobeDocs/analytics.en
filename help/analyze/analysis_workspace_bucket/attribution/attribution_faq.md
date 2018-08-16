@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Attribution IQ FAQ
 title: Attribution IQ FAQ
-uuid: 4d3e18b6-230a-45cb-bdb7-860942f813c3
+uuid: 580f54cd-3447-41c9-b23d-51281008e9b4
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why is the “None” line item sometimes getting more credit than I expected when I use the new attribution models?</b> </p> </td> 
-   <td colname="col2"> <p>A: This is likely due to the reporting window you’ve selected as described <a href="../../analysis_workspace_bucket/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A" format="dita" scope="local"> here </a>. This most often occurs when your reporting window starts on the first day of the month and you’re using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the “None” line item), try including a longer time range in your reporting window. </p> </td> 
+   <td colname="col2"> <p>A: This is likely due to the reporting window you’ve selected as described <a href="../../analysis_workspace_bucket/attribution/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A" format="dita" scope="local"> here </a>. This most often occurs when your reporting window starts on the first day of the month and you’re using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the “None” line item), try including a longer time range in your reporting window. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: I sometimes see dates outside of my reporting window show up in my report when using attribution models. Why?</b> </p> </td> 

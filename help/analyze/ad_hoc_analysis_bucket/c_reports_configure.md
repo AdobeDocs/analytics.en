@@ -3,7 +3,7 @@ description: Learn about the various actions you can perform on a report, such a
 seo-description: Learn about the various actions you can perform on a report, such as configuring charts, graphs, breakdowns, and extracting data.
 seo-title: Configure Existing Reports
 title: Configure Existing Reports
-uuid: 609353fe-47f6-4868-871e-c210bded146e
+uuid: 84e68654-df2d-42ad-822f-689fde63c110
 index: y
 internal: n
 snippet: y

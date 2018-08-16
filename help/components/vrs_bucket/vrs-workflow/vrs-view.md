@@ -6,7 +6,7 @@ seo-title: Viewing Virtual Report Suite Information
 solution: Analytics
 title: Viewing Virtual Report Suite Information
 topic: Reports and analytics
-uuid: 49f552e3-0f92-488f-8328-c25b239e0def
+uuid: 968017cf-896c-4a58-a402-6148d92ce860
 index: y
 internal: n
 snippet: y

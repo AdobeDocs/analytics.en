@@ -5,7 +5,7 @@ seo-title: Request Wizard definitions - preset dates
 solution: Analytics
 title: Request Wizard definitions - preset dates
 topic: Report builder
-uuid: f111b5b9-7d35-4d28-9439-69fa83d38e0a
+uuid: 48c91c5d-256d-4d55-a759-f89955dec5e4
 index: y
 internal: n
 snippet: y
@@ -29,11 +29,11 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p> Saved Date Templates </p> </td> 
-   <td colname="col2"> <p>Displays the date range templates that the current user has created. You can save dates on the <span class="wintitle"> Fixed Dates</span> form. If you saved a date template for use with all report suites, you must enable <span class="wintitle"> Show Saved Date Templates for All Report Suites</span> in order to select it. </p> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_fixed_dates_and_saved_date_ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a>. </p> </td> 
+   <td colname="col2"> <p>Displays the date range templates that the current user has created. You can save dates on the <span class="wintitle"> Fixed Dates</span> form. If you saved a date template for use with all report suites, you must enable <span class="wintitle"> Show Saved Date Templates for All Report Suites</span> in order to select it. </p> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_fixed_dates_and_saved_date_ranges/t_fixed_dates_and_saved_date_ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Show Saved Date Ranged for All Report Suites </p> </td> 
-   <td colname="col2"> <p> Displays templates that have been made available to all report suites. Click <span class="wintitle"> Edit</span> to manage saved date ranges or to rename the currently selected saved date range. </p> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_fixed_dates_and_saved_date_ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a> for more information. </p> </td> 
+   <td colname="col2"> <p> Displays templates that have been made available to all report suites. Click <span class="wintitle"> Edit</span> to manage saved date ranges or to rename the currently selected saved date range. </p> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_fixed_dates_and_saved_date_ranges/t_fixed_dates_and_saved_date_ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

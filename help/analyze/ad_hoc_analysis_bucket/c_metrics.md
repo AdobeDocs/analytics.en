@@ -3,7 +3,7 @@ description: Metrics are quantitative information about visitor activity, such a
 seo-description: Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, dates, units, orders, revenue, and so on. Metrics and associated data are displayed in the columns of reports.
 seo-title: Metrics
 title: Metrics
-uuid: 048afb18-a3c4-4ed4-85f6-7fab34adda96
+uuid: 1f64e9c0-ff19-4b04-9a4f-62456659b9f4
 index: y
 internal: n
 snippet: y

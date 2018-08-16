@@ -6,7 +6,7 @@ seo-title: Create an Analysis Workspace project
 solution: Analytics
 title: Create an Analysis Workspace project
 topic: Reports and analytics
-uuid: 138d3095-78a1-4448-9f4e-076b2c82901b
+uuid: ef244e41-7b12-4fff-b566-f61e7ec6dcf0
 index: y
 internal: n
 snippet: y
@@ -58,11 +58,11 @@ translate: y
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../analysis_workspace_bucket/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> Components</a> </td> 
+   <td colname="col1"><a href="../../analysis_workspace_bucket/analysis-workspace-components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> Components</a> </td> 
    <td colname="col2"> <p>Dimensions, metrics, segments, and date ranges that you can drag into projects. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizations</a> </td> 
+   <td colname="col1"><a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizations</a> </td> 
    <td colname="col2"> <p>Items you can drag to the panel or project areas of the interface. </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +119,7 @@ translate: y
 
 >   ![](assets/date-ranges.png) 
 >
->1. Drag [ Visualizations](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) to your project.
+>1. Drag [ Visualizations](../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) to your project.
 >   **** 
 
 >   The [!UICONTROL  Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [ cohort](../../analysis_workspace_bucket/freeform-analysis-visualizations/cohort-table/cohort_analysis.md#concept_9D240A490265427DA694D18D14EACC0E) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project. 
@@ -139,18 +139,18 @@ The right-click menu lets you perform the following actions, depending on which 
 * [ Compare time periods](../../analysis_workspace_bucket/analysis-workspace-components/calendar/time_comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764)
 * Copy to Clipboard
 * Delete selected
-* [ Create alert from selection](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+* [ Create alert from selection](../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
 * [ Breakdown](../../analysis_workspace_bucket/analysis-workspace-components/dimensions/t_breakdown_fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4) 
     * Dimensions
     * Metrics
     * Segments
     * Time
 
-* [ Visualize](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+* [ Visualize](../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
 * [ Download as CSV](../../analysis_workspace_bucket/curate/download_send.md#concept_BB548979F47F45739679B830428C3025)
-* [ Trend selection](../../analysis_workspace_bucket/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9)
+* [ Trend selection](../../analysis_workspace_bucket/analysis-workspace-features/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9)
 * [ Create segment from selection](../../analysis_workspace_bucket/analysis-workspace-components/t_freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)
-* [ Run in segment comparison](../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+* [ Run in segment comparison](../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 * Display only selected rows
 * Display all rows
 See [ Keyboard and Mouse Interactions Available in Analysis Workspace](../../analysis_workspace_bucket/freeform_overview/fa_shortcut_keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for information about copying and selecting rows. 

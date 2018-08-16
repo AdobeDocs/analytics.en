@@ -5,7 +5,7 @@ seo-title: Common Terms
 solution: Analytics
 title: Common Terms
 topic: Reports and analytics
-uuid: 30c9e308-8df4-4fe7-a374-b5eb62306522
+uuid: 88e31fc2-9f8b-4b2d-bdbc-7a6040e9bd90
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ translate: y
   </tr> 
   <tr> 
    <td> <p> Report </p> </td> 
-   <td> <p>The basis of marketing report functionality. You can run online reports on all data collected. </p> <p>For more information, see <a href="../../reports_analytics_bucket/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> Report Types</a>. </p> </td> 
+   <td> <p>The basis of marketing report functionality. You can run online reports on all data collected. </p> <p>For more information, see <a href="../../reports_analytics_bucket/reports/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> Report Types</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Page View </p> </td> 

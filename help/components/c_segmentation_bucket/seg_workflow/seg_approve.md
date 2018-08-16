@@ -5,7 +5,7 @@ seo-title: Approving Segments
 solution: Analytics
 title: Approving Segments
 topic: Segments
-uuid: 97f50e64-f7ed-401d-8e0f-958d70dcd506
+uuid: 678a5356-0520-4171-a972-2fd912f13a20
 index: y
 internal: n
 snippet: y

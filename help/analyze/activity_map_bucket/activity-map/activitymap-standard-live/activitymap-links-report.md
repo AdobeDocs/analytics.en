@@ -5,7 +5,7 @@ seo-title: Links report
 solution: Analytics
 title: Links report
 topic: Activity map
-uuid: 5a4e9b2a-0167-47fa-ba10-0b61405af08a
+uuid: 2f10b29f-d886-4a3e-8743-81d2ed218dd2
 index: y
 internal: n
 snippet: y

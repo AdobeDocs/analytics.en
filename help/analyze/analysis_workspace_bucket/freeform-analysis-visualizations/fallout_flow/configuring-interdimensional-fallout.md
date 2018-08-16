@@ -3,7 +3,7 @@ description: Fallout in Analysis Workspace lets you to mix and match dimensions 
 seo-description: Fallout in Analysis Workspace lets you to mix and match dimensions and metrics as touchpoints in funnels and workflows. This gives you more flexibility in defining the user steps you want to investigate.
 seo-title: Inter-dimensional fallout
 title: Inter-dimensional fallout
-uuid: c21b02db-0ba1-47d9-bf94-92b637faaa2e
+uuid: 8e367fc7-343a-4fd7-938c-7943bbb965c3
 index: y
 internal: n
 snippet: y

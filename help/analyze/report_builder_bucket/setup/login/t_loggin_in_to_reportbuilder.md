@@ -5,7 +5,7 @@ seo-title: Sign in to Report Builder
 solution: Analytics
 title: Sign in to Report Builder
 topic: Report builder
-uuid: 5d3111ce-8e8e-4b70-a862-eb3451adc21d
+uuid: 53304768-5e98-4810-9e58-430eb76bfe3f
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ translate: y
 >       Other actions that sign you in include: 
 >    
 >    * Clicking **[!UICONTROL  Create]**.
->    * [ Selecting a request in the Request Manager](../../../report_builder_bucket/manage_requests.md#concept_51F3DE9300BD4F3BA71E96ADA6B23CA8), then clicking **[!UICONTROL  Add]** or **[!UICONTROL  Manage]**.
+>    * [ Selecting a request in the Request Manager](../../../report_builder_bucket/manage_requests/manage_requests.md#concept_51F3DE9300BD4F3BA71E96ADA6B23CA8), then clicking **[!UICONTROL  Add]** or **[!UICONTROL  Manage]**.
 >    * Double-clicking on a request in Excel.
 >    
 >1. Complete the fields on the [!UICONTROL  Login] page, then click **[!UICONTROL  OK]**.

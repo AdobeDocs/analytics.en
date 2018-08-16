@@ -3,7 +3,7 @@ description: cm_functions.xml The Calculated Metrics Builder lets you apply stat
 seo-description: cm_functions.xml The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 seo-title: Reference  Basic Functions
 title: Reference  Basic Functions
-uuid: e45ae3b5-0021-48ab-b6ba-81727b704908
+uuid: 0f0ff3c6-4f34-41aa-b1ae-e339373e3b57
 index: y
 internal: n
 snippet: y

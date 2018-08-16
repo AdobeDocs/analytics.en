@@ -5,7 +5,7 @@ seo-title: Building Segments
 solution: Analytics
 title: Building Segments
 topic: Segments
-uuid: d0219981-ad83-4080-9a50-e142dfcc9e71
+uuid: 47111418-776e-4922-b915-63bc0f6464d0
 index: y
 internal: n
 snippet: y
@@ -80,7 +80,7 @@ There are several ways to access the Segment Builder:
 
 ## Web UI Features {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-The [!UICONTROL  Segment Builder] lets you build and edit segments in the web UI (or in a [ Java UI in Ad Hoc Analysis ](../../c_segmentation_bucket/seg_workflow.md#section_E440630183D64999BA2369D1B8048AA6)). You can add rule definitions and containers to refine your segments, stack segments, and nest them to refine them. You can also validate how many page views, visits, and unique visitors result from your current segment definition. Then save the segment for future needs. 
+The [!UICONTROL  Segment Builder] lets you build and edit segments in the web UI (or in a [ Java UI in Ad Hoc Analysis ](../../c_segmentation_bucket/seg_workflow/seg_workflow.md#section_E440630183D64999BA2369D1B8048AA6)). You can add rule definitions and containers to refine your segments, stack segments, and nest them to refine them. You can also validate how many page views, visits, and unique visitors result from your current segment definition. Then save the segment for future needs. 
 
 Access the Segment Builder by 
 
@@ -111,12 +111,12 @@ Access the Segment Builder by
   <tr> 
    <td colname="col1" valign="top" align="center"> <b>3</b> </td> 
    <td colname="col2" valign="top"> <p>Tagging interface </p> </td> 
-   <td colname="col3"> <p>Lets you <a href="../../c_segmentation_bucket/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50" format="dita" scope="local"> tag the segment </a>you are creating by picking from a list of existing tags or creating a new tag. </p> </td> 
+   <td colname="col3"> <p>Lets you <a href="../../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_CD892CEB326C4986A1B67487052DBA50" format="dita" scope="local"> tag the segment </a>you are creating by picking from a list of existing tags or creating a new tag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" valign="top" align="center"> <b>4</b> </td> 
    <td colname="col2" valign="top"> <p> <span class="wintitle"> Definitions </span> canvas </p> </td> 
-   <td colname="col3"> <p>This is where you <a href="../../c_segmentation_bucket/seg_workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4" format="dita" scope="local"> build and configure segments </a>, add rules, and nest and sequence containers. Allows you to provide a description for the new segment by selecting the container and dragging and dropping dimensions, segments, or metrics into the definition. </p> </td> 
+   <td colname="col3"> <p>This is where you <a href="../../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4" format="dita" scope="local"> build and configure segments </a>, add rules, and nest and sequence containers. Allows you to provide a description for the new segment by selecting the container and dragging and dropping dimensions, segments, or metrics into the definition. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" valign="top" align="center"> <b>5</b> </td> 
@@ -216,7 +216,7 @@ Access the Segment Builder by
   <tr> 
    <td colname="col1" valign="top" align="center"> (not shown in screen shot) </td> 
    <td colname="col2" valign="top"> <p> <span class="wintitle"> Publish to Experience Cloud (for &amp;lt;report suite name&amp;gt;) </span> </p> </td> 
-   <td colname="col3"> <p>This option appears only if the report suite that you are saving this segment to is <a href="../../c_segmentation_bucket/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01" format="dita" scope="local"> enabled for the Experience Cloud </a>. By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. </p> <p>Note:  In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe Target. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/segment_publish_to_mac_copy.png" id="image_389C00CDF56C4CDA960C7FEF8816CFD7" /> </p> <p> <p type="important">Note:  You must limit the number of audiences shared from Analytics to 20 to avoid additional processing delays. Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million unique members. Also, due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud. </p> </p> <p> <p type="important">Note:  Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Media Optimizer, and Campaign. </p> </p> </td> 
+   <td colname="col3"> <p>This option appears only if the report suite that you are saving this segment to is <a href="../../c_segmentation_bucket/seg_workflow/seg_workflow.md#concept_1E9FC92437D748C392546542B6511D01" format="dita" scope="local"> enabled for the Experience Cloud </a>. By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. </p> <p>Note:  In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe Target. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/segment_publish_to_mac_copy.png" id="image_389C00CDF56C4CDA960C7FEF8816CFD7" /> </p> <p> <p type="important">Note:  You must limit the number of audiences shared from Analytics to 20 to avoid additional processing delays. Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million unique members. Also, due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud. </p> </p> <p> <p type="important">Note:  Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Media Optimizer, and Campaign. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,7 +231,7 @@ Access the Segment Builder by
 
    The default top-level [!UICONTROL  Hit] container is shown after dragging an element to [!UICONTROL  Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL  Show]** drop-down menu. 
 
-1. Set the [ operator ](../../c_segmentation_bucket/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu.
+1. Set the [ operator ](../../c_segmentation_bucket/seg_reference/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu.
 1. Enter or select a value for the item selected.
 1. Add additional containers if needed, using **[!UICONTROL  And]**, **[!UICONTROL  Or]**, or **[!UICONTROL  Then]** rules.
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created.
@@ -422,7 +422,7 @@ See [ About Segments ](../../c_segmentation_bucket/seg_overview.md#concept_82653
 
 1. Enter a value for the dimension.  ![](assets/seg_value.png) Enter a value or select value by clicking the magnifying glass icon. A menu will open to select possible value for the dimension. 
 
-1. Set the operator from the list of [ operators ](../../c_segmentation_bucket/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA). ![](assets/seg_AND.png) 
+1. Set the operator from the list of [ operators ](../../c_segmentation_bucket/seg_reference/seg_reference.md#concept_A010909595454633B4FDC54C97A9CFFA). ![](assets/seg_AND.png) 
 
 1. Resolve any errors identified by the [!UICONTROL  Error] icon  ![](assets/error_icon.png). Mousing over the [!UICONTROL  Error] icon brings up a message identifying the error. 
 

@@ -5,7 +5,7 @@ seo-title: Map metrics and dimensions to cells
 solution: Analytics
 title: Map metrics and dimensions to cells
 topic: Report builder
-uuid: 45bacf23-72c6-44d2-b6c0-4e00d425e191
+uuid: d987486c-474a-434b-aaac-36f43dbc3c7b
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Getting started for users
 solution: Analytics
 title: Getting started for users
 topic: Activity map
-uuid: cc4c38c3-5426-4018-82bb-2388c56c8f30
+uuid: 6fa81db0-212f-4e02-9f58-fa6e23341dde
 index: y
 internal: n
 snippet: y

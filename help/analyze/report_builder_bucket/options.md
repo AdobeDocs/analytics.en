@@ -5,7 +5,7 @@ seo-title: Report Builder options
 solution: Analytics
 title: Report Builder options
 topic: Report builder
-uuid: 1eef2466-9d27-4793-b5b2-f6155ddc940c
+uuid: 4fcc6301-db52-48bc-a091-d635eb7c31ad
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Invoke Report Builder functionality from Microsoft Excel functions
 solution: Analytics
 title: Invoke Report Builder functionality from Microsoft Excel functions
 topic: Report builder
-uuid: cf866330-4292-4996-a835-1ce5446fd942
+uuid: 8008251a-08bc-4f62-afc1-1b1316aadb74
 index: y
 internal: n
 snippet: y

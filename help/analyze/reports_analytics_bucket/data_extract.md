@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Schedule
 title: Data Extract
 topic: Reports and analytics
-uuid: f4de6c5a-fad9-4d00-b086-8d30978f7a5a
+uuid: 982c0959-bd63-4987-a4ea-c137bed7cfc4
 index: y
 internal: n
 snippet: y

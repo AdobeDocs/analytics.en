@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Limitations and specifications
 title: Limitations and specifications
-uuid: c3dcfb21-e79c-46ae-8718-574560f6a844
+uuid: f8aa9491-de94-4d35-84d4-c36ec01d138b
 index: y
 internal: n
 snippet: y

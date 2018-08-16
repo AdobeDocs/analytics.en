@@ -5,7 +5,7 @@ seo-title: Building Sequential Segments
 solution: Analytics
 title: Building Sequential Segments
 topic: Segments
-uuid: 34cff069-2fcd-4cc7-aef7-8d680d91648c
+uuid: a4c8e4ce-3e36-4214-9248-1af1262186cb
 index: y
 internal: n
 snippet: y

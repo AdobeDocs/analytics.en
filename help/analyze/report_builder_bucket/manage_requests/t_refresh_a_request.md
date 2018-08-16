@@ -5,7 +5,7 @@ seo-title: Refresh a request
 solution: Analytics
 title: Refresh a request
 topic: Report builder
-uuid: ca93223f-47b5-4575-b1c4-5a9b422e43cd
+uuid: a928c09d-da14-4615-afa8-3fde78d38007
 index: y
 internal: n
 snippet: y

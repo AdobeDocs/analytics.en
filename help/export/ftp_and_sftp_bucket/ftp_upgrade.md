@@ -5,7 +5,7 @@ seo-description: Upgrades to Adobe FTP servers can introduce new configurations 
 seo-title: Upgrading Adobe FTP Servers
 solution: Analytics
 title: Upgrading Adobe FTP Servers
-uuid: bbfa1280-3bec-475b-93fc-6fe3a06c08ef
+uuid: 6c8f761d-0389-467f-9a4b-3a3e0824b4fb
 index: y
 internal: n
 snippet: y

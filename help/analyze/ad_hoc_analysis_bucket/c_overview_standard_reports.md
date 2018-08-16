@@ -5,7 +5,7 @@ seo-title: Reports Overview
 solution: Analytics
 title: Reports Overview
 topic: Ad hoc analysis
-uuid: a76f557b-c0ef-4dd6-a208-51ccfe2756b1
+uuid: 24b79d27-ca37-4fae-bfd7-9ba5e0d4fa72
 index: y
 internal: n
 snippet: y

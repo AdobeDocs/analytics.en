@@ -5,7 +5,7 @@ seo-description: Any data that has been deleted from an FTP account cannot be re
 seo-title: Restoring Deleted FTP Data and FTP Accounts
 solution: Analytics
 title: Restoring Deleted FTP Data and FTP Accounts
-uuid: d8a62c71-2867-4cb6-9a24-c57a24b532fd
+uuid: 81977d21-b590-499b-8e9a-97994f8ebd6f
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Filter Path Reports by Adding Dependent Requests
 solution: Analytics
 title: Filter Path Reports by Adding Dependent Requests
 topic: Report builder
-uuid: 98fe50ed-bfbe-4539-a545-b54f7f65e79c
+uuid: 61c1333e-4917-41d9-ab0c-8d0e5e33e93a
 index: y
 internal: n
 snippet: y

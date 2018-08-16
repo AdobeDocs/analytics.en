@@ -5,7 +5,7 @@ seo-title: Tableau data file
 solution: Analytics
 title: Tableau data file
 topic: Data warehouse
-uuid: c33120a1-1555-4e48-986b-032ae596975a
+uuid: 6a8bee4e-c5f6-4a2a-b408-4cdd65b097f4
 index: y
 internal: n
 snippet: y

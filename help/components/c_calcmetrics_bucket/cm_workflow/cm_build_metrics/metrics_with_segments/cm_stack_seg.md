@@ -3,7 +3,7 @@ description: Shows how to stack and replace segments within the Calculated Metri
 seo-description: Shows how to stack and replace segments within the Calculated Metric Builder.
 seo-title: Stacking and Replacing Segments
 title: Stacking and Replacing Segments
-uuid: 0587a0f0-dc02-45a8-add6-b34a6be068a0
+uuid: 65a77586-51c8-41f2-aad6-10d845ded8bf
 index: y
 internal: n
 snippet: y

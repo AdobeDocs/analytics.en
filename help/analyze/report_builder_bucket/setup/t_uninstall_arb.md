@@ -5,7 +5,7 @@ seo-title: Uninstall Report Builder
 solution: Analytics
 title: Uninstall Report Builder
 topic: Report builder
-uuid: 6d0b251c-ba86-416b-a89c-442712f4b87a
+uuid: f03be34f-1c95-454d-aca1-2f1d7c152257
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: Within the Calculated Metric Manager, you can set up a workflow tha
 seo-description: Within the Calculated Metric Manager, you can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
 seo-title: Approve Calculated Metrics
 title: Approve Calculated Metrics
-uuid: cc962f44-7f3e-4543-8e40-3785dc8ae385
+uuid: ec2a7370-85c1-4d74-ac73-cb18ff20c091
 index: y
 internal: n
 snippet: y

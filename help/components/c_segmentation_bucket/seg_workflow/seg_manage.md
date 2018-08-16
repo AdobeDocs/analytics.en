@@ -5,7 +5,7 @@ seo-title: Managing Segments
 solution: Analytics
 title: Managing Segments
 topic: Segments
-uuid: 90980b23-811e-40f1-aa80-8f5944991fde
+uuid: 297b71ee-38d6-41c7-b51d-1df57d1064c7
 index: y
 internal: n
 snippet: y

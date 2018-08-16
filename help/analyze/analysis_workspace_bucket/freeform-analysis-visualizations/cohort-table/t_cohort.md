@@ -6,7 +6,7 @@ seo-title: Run a cohort analysis report
 solution: Analytics
 title: Run a cohort analysis report
 topic: Reports and analytics
-uuid: a673a799-df34-4d2d-95e6-42d367a9fffa
+uuid: 5dc921ff-ebb9-4305-8561-5d642d7875b3
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ translate: y
 
 >       The saved segment is available for use in the [!UICONTROL  Segment] panel in Analysis Workspace. 
 >1. Name and save your cohort project.
->1. (Optional) [ Curate and share](../../../analysis_workspace_bucket/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the project components.
+>1. (Optional) [ Curate and share](../../../analysis_workspace_bucket/curate/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the project components.
 
 >   >[!NOTE]
 >   >

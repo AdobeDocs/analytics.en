@@ -5,7 +5,7 @@ seo-title: Allow Publishing List Overrides
 solution: Analytics
 title: Allow Publishing List Overrides
 topic: Report builder
-uuid: d3f1917f-efb8-4af6-9804-c1d1a1d9404d
+uuid: bd3ee12b-d677-4328-bcb0-781b7cad5e1a
 index: y
 internal: n
 snippet: y

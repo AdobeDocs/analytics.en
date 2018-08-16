@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Get started
 title: Getting Started with Reports and Analytics
 topic: Reports and analytics
-uuid: 422f2a85-2627-40d1-abe6-1cdcd935acb4
+uuid: 6e29601c-da36-4351-b48d-79c60bb80ce1
 index: y
 internal: n
 snippet: y
@@ -76,7 +76,7 @@ After logging in for the first time, change your password. For more information,
 <!-- t_running_report.xml -->
 
 >1. Log in to [!UICONTROL  Reports &amp;amp; Analytics].
->   The Reports menu displays, or a [ dashboard ](../reports_analytics_bucket/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up. 
+>   The Reports menu displays, or a [ dashboard ](../reports_analytics_bucket/dashboard/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up. 
 >
 >1. Click **[!UICONTROL  Site Content]** > **[!UICONTROL  Pages]** (for example).
 >   ![](assets/pages_report.png) 

@@ -5,7 +5,7 @@ seo-description: You can use Analytics to create and manage FTP-based Data Sourc
 seo-title: Data Sources
 solution: Analytics
 title: Data Sources
-uuid: 53992261-9397-4244-b012-37d604f63948
+uuid: 1dba0a37-8819-4a13-b7e2-3b43b3dd56a1
 index: y
 internal: n
 snippet: y

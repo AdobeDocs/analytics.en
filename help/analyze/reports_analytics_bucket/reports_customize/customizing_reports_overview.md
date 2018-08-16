@@ -5,7 +5,7 @@ seo-title: Customizing Reports Overview
 solution: Analytics
 title: Customizing Reports Overview
 topic: Reports and analytics
-uuid: 4f00b48b-3b35-4050-bb8b-fea5e8872606
+uuid: 099d265a-16f6-472f-afce-af6f93c4f53e
 index: y
 internal: n
 snippet: y

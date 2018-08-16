@@ -5,7 +5,7 @@ seo-description: Processing time for any FTP file, whether for classifications o
 seo-title: FTP Processing Times
 solution: Analytics
 title: FTP Processing Times
-uuid: 4116c8f7-ae50-44fb-b6a2-e37b2b0f0667
+uuid: a07f0478-4e89-47d4-aff9-463722c3beca
 index: y
 internal: n
 snippet: y

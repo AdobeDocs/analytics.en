@@ -5,7 +5,7 @@ seo-description: Use this section to select which data columns to include in the
 seo-title: Data Column Definitions
 solution: Analytics
 title: Data Column Definitions
-uuid: 1355a720-e340-41e2-aba3-fc807bfff48a
+uuid: 4ba61d42-6454-4534-b999-701887c121d0
 index: y
 internal: n
 snippet: y

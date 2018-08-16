@@ -5,7 +5,7 @@ seo-title: Metrics
 solution: Analytics
 title: Metrics
 topic: Reports and analytics
-uuid: da0084bf-51c8-4e46-b7da-e35e9375733e
+uuid: 80c2ab17-1d78-4a81-8680-1abaa4091c73
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Segments
 title: Segments
-uuid: 75385c2b-aaed-4133-b3c6-e62a3ebafb52
+uuid: 4c685bc4-1de0-4e31-a95f-cf966e0c5feb
 index: y
 internal: n
 snippet: y
@@ -82,7 +82,7 @@ Several other methods exist for applying segments to a freeform project.
       <span class="uicontrol"> Share </span>  &gt; 
       <span class="uicontrol"> Curate Project Data </span> 
      </ignoretag> </p> </td> 
-   <td colname="col2"> <p>In <a href="../../analysis_workspace_bucket/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Curate &amp;amp; Share </a>, segments that you apply to the project are available in shared analysis for the recipient. </p> </td> 
+   <td colname="col2"> <p>In <a href="../../analysis_workspace_bucket/curate/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Curate &amp;amp; Share </a>, segments that you apply to the project are available in shared analysis for the recipient. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use Segments as Dimensions </p> </td> 

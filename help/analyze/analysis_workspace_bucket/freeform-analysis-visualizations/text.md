@@ -3,7 +3,7 @@ description: Lets you add user-defined text to your Workspace.
 seo-description: Lets you add user-defined text to your Workspace.
 seo-title: Text
 title: Text
-uuid: 7c951f97-4368-4bd0-a16c-8bc79a0a2277
+uuid: 69d71664-1f13-47b0-b6ff-5b6b54a1dbe8
 index: y
 internal: n
 snippet: y

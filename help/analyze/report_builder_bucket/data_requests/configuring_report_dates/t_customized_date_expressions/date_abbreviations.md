@@ -5,7 +5,7 @@ seo-title: Date abbreviations
 solution: Analytics
 title: Date abbreviations
 topic: Report builder
-uuid: 38af0a3a-27c9-44f0-a521-9d457a0f3d7b
+uuid: 3c71a20f-dec8-45ff-a5e7-6b8c287660ff
 index: y
 internal: n
 snippet: y

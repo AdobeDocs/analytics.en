@@ -5,7 +5,7 @@ seo-description: The Adobe Engineering Services group can set up a custom projec
 seo-title: Sending Adobe Data to an External FTP Account with SFTP
 solution: Analytics
 title: Sending Adobe Data to an External FTP Account with SFTP
-uuid: c54b1381-aa95-4991-a5da-502063f42faa
+uuid: de3ba996-e224-4e92-9275-7cd0cecbab5e
 index: y
 internal: n
 snippet: y

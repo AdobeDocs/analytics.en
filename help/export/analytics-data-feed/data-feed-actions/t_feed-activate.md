@@ -5,7 +5,7 @@ seo-description: You can activate a paused or inactive feed.
 seo-title: Activate a Feed
 solution: Analytics
 title: Activate a Feed
-uuid: 1173e7f5-8a13-40ca-8e1d-f673bd41b3ad
+uuid: 5a68fc5f-fe9c-4ea3-9ec0-ef523222aa4f
 index: y
 internal: n
 snippet: y

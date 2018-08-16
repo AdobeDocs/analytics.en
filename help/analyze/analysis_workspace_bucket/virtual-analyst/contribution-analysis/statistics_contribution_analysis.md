@@ -3,7 +3,7 @@ description: Contribution Analysis is an intensive machine learning process desi
 seo-description: Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 seo-title: Statistical techniques used in Contribution Analysis
 title: Statistical techniques used in Contribution Analysis
-uuid: c64512b4-ea36-48c5-b5e9-02d8ef30a8fb
+uuid: e4773c8d-43f9-4b60-9386-4fe3359897a5
 index: y
 internal: n
 snippet: y

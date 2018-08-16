@@ -5,7 +5,7 @@ seo-title: Segment Rights by Role
 solution: Analytics
 title: Segment Rights by Role
 topic: Segments
-uuid: c122382d-18c1-4770-b82e-24ef0ad1f943
+uuid: d3bd1635-d1f0-430b-a41f-9b5f1b485dd1
 index: y
 internal: n
 snippet: y

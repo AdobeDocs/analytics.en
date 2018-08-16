@@ -5,7 +5,7 @@ seo-title: Data Warehouse Requests
 solution: Analytics
 title: Data Warehouse Requests
 topic: Reports and analytics
-uuid: 50a24558-87b1-44d4-8327-cc4f99ec4ffe
+uuid: 2e8df385-ca03-403f-b8a8-aeaaccc7022e
 index: y
 internal: n
 snippet: y

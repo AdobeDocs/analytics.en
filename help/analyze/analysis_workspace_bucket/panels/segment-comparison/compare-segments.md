@@ -6,7 +6,7 @@ seo-title: Compare segments
 solution: Analytics
 title: Compare segments
 topic: Reports and analytics
-uuid: 90bc2fd3-0925-4ba3-b575-8909ef84df2e
+uuid: 516384e4-febd-41a1-9ce3-34b8706327eb
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ translate: y
 
    ![](assets/new-viz2.png) 
 
-1. Interpret the results of your Segment Comparison by reviewing [ new visualizations, tables, and summaries](../../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793).
+1. Interpret the results of your Segment Comparison by reviewing [ new visualizations, tables, and summaries](../../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793).
 
 ## Exclude components from comparison {#section_5E98FFA0744140C08D83700E3F025937}
 

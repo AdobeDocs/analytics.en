@@ -5,7 +5,7 @@ seo-title: Format display headers
 solution: Analytics
 title: Format display headers
 topic: Report builder
-uuid: 9bfedf1b-5042-4cfc-98aa-f24a95cbbcc5
+uuid: 2f9ceb8e-1027-446f-965f-86b45392a7da
 index: y
 internal: n
 snippet: y

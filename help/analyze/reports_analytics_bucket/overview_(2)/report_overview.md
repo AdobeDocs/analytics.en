@@ -5,7 +5,7 @@ seo-title: Report Features
 solution: Analytics
 title: Report Features
 topic: Reports and analytics
-uuid: 61c25c86-e57e-4f9f-bac4-d9fbd28e98d0
+uuid: 4b2b8c6a-27f3-4ae3-a97c-ef9f5af0555e
 index: y
 internal: n
 snippet: y
@@ -37,14 +37,14 @@ Share your report data with the decision makers who can change your site or mark
 
 ![](assets/toolbar.png) 
 
-Also refer to [ Customizing a Report ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
+Also refer to [ Customizing a Report ](../../reports_analytics_bucket/reports_customize/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
 
 ## Report Header &amp; Settings {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Displays report settings and lets you configure the report type, select metrics, and more. The available options in this group changes depending on the report you run. 
 
 ![](assets/settings_header.png) 
-See[ Customizing a Report ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF) for more information. 
+See[ Customizing a Report ](../../reports_analytics_bucket/reports_customize/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF) for more information. 
 ## Calendar {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Specify the date by clicking the calendar button and selecting a date range. You can also select two time ranges to compare performance. 
@@ -65,7 +65,7 @@ Depending on the type of graph that you have selected, you typically see the top
 
 ![](assets/graph.png) 
 
-See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
+See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
 
 ## Metrics {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -83,4 +83,4 @@ The details are the bulk of the report data. In this case, you have pages listed
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more. 
 
-See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 
+See [ Customizing Reports ](../../reports_analytics_bucket/reports_customize/reports_customize.md#concept_F042066264564438BFB35FC46EB638DF). 

@@ -6,7 +6,7 @@ seo-title: Manage data sources
 solution: Analytics
 title: Manage data sources
 topic: Reports and analytics
-uuid: 626efd16-76ce-4f80-a60c-238f2db992f1
+uuid: a9960819-78c5-46ea-9599-e1dfc2dd032a
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ translate: y
 
 Managing a data source lets you show the data source or lock the selection. These settings determine how the visualization changes (or doesn't change) when new data comes in. 
 
->1. [ Create a project](../../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table and a [ visualization](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
+>1. [ Create a project](../../analysis_workspace_bucket/freeform_overview/t_freeform_project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table and a [ visualization](../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
 >1. In the data table, select the cells (data source) you want to associate with the visualization.
 >1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL  Data Source]** dialog. Select **[!UICONTROL  Show Data Source]** or **[!UICONTROL  Lock Selection]**.
 

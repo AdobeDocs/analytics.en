@@ -5,7 +5,7 @@ seo-title: Specify conditional formatting
 solution: Analytics
 title: Specify conditional formatting
 topic: Report builder
-uuid: d4cdb844-90c0-4c56-99d7-c4a02fd5f5e6
+uuid: c1d77933-f5a8-4eda-a35b-62c00a2ec792
 index: y
 internal: n
 snippet: y

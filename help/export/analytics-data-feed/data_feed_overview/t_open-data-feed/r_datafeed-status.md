@@ -5,7 +5,7 @@ seo-description: Feeds can be shown with any of several status labels.
 seo-title: Data Feed Status
 solution: Analytics
 title: Data Feed Status
-uuid: f4479b34-db83-4fd2-a56b-b0c369c19152
+uuid: ba2c9cfc-f265-4756-b558-c18ec1ea3de5
 index: y
 internal: n
 snippet: y

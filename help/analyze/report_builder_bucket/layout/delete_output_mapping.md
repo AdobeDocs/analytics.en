@@ -5,7 +5,7 @@ seo-title: Delete output mapping
 solution: Analytics
 title: Delete output mapping
 topic: Report builder
-uuid: 67e2db62-eaff-49ac-b908-dea4b52d187b
+uuid: 9043cfd4-e68d-4aeb-bf13-fa45404f237f
 index: y
 internal: n
 snippet: y

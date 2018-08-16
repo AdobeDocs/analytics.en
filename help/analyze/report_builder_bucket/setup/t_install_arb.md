@@ -5,7 +5,7 @@ seo-title: Install Report Builder
 solution: Analytics
 title: Install Report Builder
 topic: Report builder
-uuid: bd337221-d45b-4e69-bec8-2970e923da35
+uuid: 2eca1b7e-f11e-4660-9ae7-754e032f61d1
 index: y
 internal: n
 snippet: y
@@ -29,4 +29,4 @@ translate: y
 >1. Open/Restart MS Excel to get the [!UICONTROL  Add-Ins] menu to show up.
 >1. Go to **[!UICONTROL  Add-Ins]** > **[!UICONTROL  Sign In]**.
 
->       [ Report Builder Sign-In](../../report_builder_bucket/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)
+>       [ Report Builder Sign-In](../../report_builder_bucket/setup/login/login.md#concept_67A16213B90D43C7A624C4E43B821981)

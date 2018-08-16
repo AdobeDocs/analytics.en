@@ -3,7 +3,7 @@ description: Shows how to build a simple "Page Views per Visits" metric.
 seo-description: Shows how to build a simple "Page Views per Visits" metric.
 seo-title: Simple "Page Views per Visits" Metric
 title: Simple "Page Views per Visits" Metric
-uuid: b625f4dd-297b-4f94-ba0a-1e104b99c72a
+uuid: 6d96af7c-c375-4ce2-bd01-a16e9be93f22
 index: y
 internal: n
 snippet: y
@@ -12,7 +12,7 @@ translate: y
 
 # Simple "Page Views per Visits" Metric
 
-For a detailed description of the UI components, see [ Building Metrics](../../../c_calcmetrics_bucket/cm_workflow/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18). 
+For a detailed description of the UI components, see [ Building Metrics](../../../c_calcmetrics_bucket/cm_workflow/cm_build_metrics/cm_build_metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18). 
 
 Here's how to build a simple "Page Views per Visits" metric. 
 

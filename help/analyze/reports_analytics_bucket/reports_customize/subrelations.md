@@ -5,7 +5,7 @@ seo-title: Subrelations
 solution: Analytics
 title: Subrelations
 topic: Reports and analytics
-uuid: b6886837-9b4b-4757-90d7-2fb52f8da567
+uuid: f26ab582-fbad-4ac2-bec7-d3f255f1229c
 index: y
 internal: n
 snippet: y

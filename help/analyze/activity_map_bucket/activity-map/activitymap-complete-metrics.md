@@ -5,7 +5,7 @@ seo-title: Complete set of metrics
 solution: Analytics
 title: Complete set of metrics
 topic: Activity map
-uuid: 76a6ca28-dd08-40fa-a03e-83cecb67ddc7
+uuid: 55d0bbb5-73db-4693-8596-04bb650796e1
 index: y
 internal: n
 snippet: y

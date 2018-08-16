@@ -5,7 +5,7 @@ seo-title: Page details
 solution: Analytics
 title: Page details
 topic: Activity map
-uuid: 0fa0d566-b112-4924-bbdd-652d33f06e35
+uuid: 533cff04-44f0-438d-a305-0b05ec643f75
 index: y
 internal: n
 snippet: y

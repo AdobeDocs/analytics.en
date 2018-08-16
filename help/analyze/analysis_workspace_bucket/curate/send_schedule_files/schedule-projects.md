@@ -6,7 +6,7 @@ seo-title: Scheduled projects manager
 solution: Analytics
 title: Scheduled projects manager
 topic: Reports and analytics
-uuid: 02607b17-2892-4c6e-a29f-dbc1c0cd222a
+uuid: 2455d9ab-951c-49c4-a3b4-1abad34d72ab
 index: y
 internal: n
 snippet: y

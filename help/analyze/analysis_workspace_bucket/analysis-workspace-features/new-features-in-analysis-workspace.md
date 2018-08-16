@@ -6,7 +6,7 @@ seo-title: What's New in Analysis Workspace
 solution: Analytics
 title: What's New in Analysis Workspace
 topic: Reports and analytics
-uuid: 9afda06d-a649-4b99-8162-d486ab0fdf98
+uuid: e225e1d7-dab3-40e1-ae20-1e2694e3db63
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ translate: y
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/attribution/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ lets you perform more sophisticated and intelligent analysis on marketing performance. New attribution models can be used on metrics in Analysis Workspace (on any table or on any breakdown) and in calculated metrics. A new Attribution Panel allows for better visualization and comparison. </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ translate: y
    <td colname="col2"> <p>When possible, we now display totals for calculated metrics, including for percentages </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>New <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> date range </a>preset </b> </p> </td> 
+   <td colname="col1"> <p><b>New <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> date range </a>preset </b> </p> </td> 
    <td colname="col2"> <p>Added 'Last 13 full weeks' to the date range presets in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -143,11 +143,11 @@ translate: y
    <td colname="col2"> <p>The new <span class="uicontrol"> Calculate percentage by row </span> setting forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages, such as trending how one dimension value fairs against the rest over time. It is turned on by default when clicking the <span class="uicontrol"> Visualize </span> icon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
    <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p style="text-align: center;"> <img align="left" placement="break" href="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
    <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp;amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to “daily-granularity” Anomaly Detection in Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -233,7 +233,7 @@ translate: y
    <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless “Custom” limits are selected. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Changes to default <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
    <td colname="col2"> <p>By default, the Workspace calendar will now show current month and last month, instead of current month and next month. </p> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ translate: y
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> Copy &amp;amp; paste visualizations/panels </a> across panels &amp; projects </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> Copy &amp;amp; paste visualizations/panels </a> across panels &amp; projects </p> </td> 
    <td colname="col2"> <p>You can now right-click and copy a visualization or panel, and then paste ("insert") that copied element into another place within the project, or into a different project. </p> <p>You can use this capability to create "building blocks" - predefined visualizations/panels - that can be copied into other projects to get started more quickly, with data specific to your business. </p> </td> 
   </tr> 
   <tr> 
@@ -463,15 +463,15 @@ translate: y
    <td colname="col2"> <p>You can now add tags to a project while saving the project. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local"> Tags column in Project list page </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform_overview/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local"> Tags column in Project list page </a> </p> </td> 
    <td colname="col2"> <p>Added a <span class="wintitle"> Tags </span> column to the Workspace project list page. This column displays the tags for each project. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Export Flow visualizations as .CSV files </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Export Flow visualizations as .CSV files </a> </p> </td> 
    <td colname="col2"> <p>You can download Flow visualizations as .csv files, which lets you analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts: Additional confidence intervals </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts: Additional confidence intervals </a> </p> </td> 
    <td colname="col2"> <p>For Anomaly Detection-based alerts, two new confidence levels (99.75% and 99.9%) have been added. The defaults for some granularity selections have also changed: </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">hourly: now 99.75% </li> 
@@ -495,11 +495,11 @@ translate: y
    <td colname="col2"> <p>Lets you change the font settings (bold, italics, and so on) and hyperlink within text box visualizations and panel / visualization descriptions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> Intra-linking (Quick-visualize links) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/analysis-workspace-features/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> Intra-linking (Quick-visualize links) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Legend Label Editing </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Legend Label Editing </a></b> </p> </td> 
    <td colname="col2"> <p>Lets you rename series names in visualization legends (Fallout, Area, Area Stacked, Bar, Bar Stacked, Donut, Histogram, Horizontal Bar, Horizontal Bar Stacked, Line, Scatter, and Venn) to help you make visuals more consumable. </p> <p>Legend editing <b>does not</b> apply to: Treemap, Bullet, Summary Change or Number, Text, Freeform, Histogram, Cohort or Flow visualizations. </p> </td> 
   </tr> 
   <tr> 
@@ -553,7 +553,7 @@ translate: y
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> Calendar </a></b> changes </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/analysis-workspace-components/calendar/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> Calendar </a></b> changes </td> 
    <td colname="col2"> Changes to the calendar to bring it in line with the Reports &amp; Analytics calendar: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">The first click starts a date range selection. Then highlight the range in either direction until the second click, which selects the end of the date range. If the Shift key is held down (or right-click is used) while clicking the first date, it will append to the range. </li> 
@@ -655,7 +655,7 @@ translate: y
    <td colname="col2"> <p>You can now send and download a PDF in Workspace without having to save the project. The name of the PDF file matches the current name of the project. The downloaded PDF includes the unsaved changes in the project. Note that you cannot schedule unsaved projects. (You can also send and download unsaved CSV files, but you cannot schedule them.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Auto-share project components </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analysis_workspace_bucket/curate/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Auto-share project components </a> </p> </td> 
    <td colname="col2"> <p>You now have the option to auto-share project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient’s Workspace. </p> </td> 
   </tr> 
   <tr> 
@@ -701,7 +701,7 @@ translate: y
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout Analysis </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout Analysis </a></b> </td> 
    <td colname="col2"> <p>The new fallout feature will bring marketing funnel functionality to Analysis Workspace. A funnel lets you identify where customers abandon a marketing campaign or divert from a defined conversion path while interacting with your website or cross-channel campaign. Fallout Analysis allows you to build robust funnels with new visualizations and the inherent flexibility that Analysis Workspace provides in order to identify conversion for key success metrics. Fallout Analysis lets you </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Drag, drop, and rearrange funnel steps (touchpoints) </li> 
@@ -710,7 +710,7 @@ translate: y
     </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
    <td colname="col2"> <p>The new flow feature allows you to view customer flow/journey through sites/apps via new, updated and flexible visualizations in Analysis Workspace in order to discover how customers are moving and progressing through their sites/apps. Flow lets you </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualize the customer journey through assets </li> 
@@ -719,7 +719,7 @@ translate: y
     </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/intellligent_alerts/intellligent_alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
    <td colname="col2"> <p>As the new alert system for all of Adobe Analytics, Intelligent Alerts let you create and manage alerts in Analysis Workspace, complete with alert preview and rule contribution. You can: </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">Build alerts based on anomalies (90%, 95%, or 99% thresholds; % change; above/below). </li> 
@@ -729,7 +729,7 @@ translate: y
     </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/virtual-analyst/anomaly_detection/anomaly_detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a></b> </td> 
    <td colname="col2"> <p>Lets you know if a change in trended data is significant, and what caused it. </p> <p>Both Anomaly Detection and Contribution Analysis are now core workflows in Analysis Workspace. </p> <p type="important">Note:  Contribution Analysis is available only to Adobe Analytics Premium customers. </p> <p>You can: </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Automatically detect statistically significant data anomalies in your data. </li> 
@@ -745,7 +745,7 @@ translate: y
     </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
    <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -774,12 +774,12 @@ translate: y
 
 
 * [ New group permission ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL  Analytics]** > **[!UICONTROL  Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
-* The [ Segment Comparison Panel ](../../analysis_workspace_bucket/panels/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
-* [ New Projects Menu structure ](../../analysis_workspace_bucket/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
-* [ New left rail ](../../analysis_workspace_bucket/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components
+* The [ Segment Comparison Panel ](../../analysis_workspace_bucket/panels/segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
+* [ New Projects Menu structure ](../../analysis_workspace_bucket/freeform_overview/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
+* [ New left rail ](../../analysis_workspace_bucket/freeform_overview/freeform_overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components
 * A new [ Venn visualization type ](../../analysis_workspace_bucket/freeform-analysis-visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
-* [ Trend Selection ](../../analysis_workspace_bucket/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
-* [ "Create Visual" icon ](../../analysis_workspace_bucket/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
+* [ Trend Selection ](../../analysis_workspace_bucket/analysis-workspace-features/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
+* [ "Create Visual" icon ](../../analysis_workspace_bucket/freeform-analysis-visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [ Manual Rows ](../../analysis_workspace_bucket/freeform_overview/column_row_settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8) functionality
 * [ Add Segment ](../../analysis_workspace_bucket/analysis-workspace-components/t_freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) drop zone
 * Minor Updates: 

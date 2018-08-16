@@ -5,7 +5,7 @@ seo-description: You can set up a delivery schedule to automatically send report
 seo-title: Ad Hoc Analysis Delivered Reports
 solution: Analytics
 title: Ad Hoc Analysis Delivered Reports
-uuid: 8472ca56-fa34-4b1e-9f6b-a61ce088d147
+uuid: 57f1ab98-fe9e-4207-aa1f-ff095c6d473a
 index: y
 internal: n
 snippet: y

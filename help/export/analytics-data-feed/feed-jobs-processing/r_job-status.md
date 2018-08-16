@@ -5,7 +5,7 @@ seo-description: Jobs can be shown with any of several status labels.
 seo-title: Job Status
 solution: Analytics
 title: Job Status
-uuid: 17b67c16-8aa5-428e-867c-4f64fa1dd87f
+uuid: 8279927d-5d94-4413-97e3-c5d3a1bfe91e
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Frequently Asked Question
 solution: Analytics
 title: Frequently Asked Question
 topic: Reports and analytics
-uuid: 512c63c9-4393-4036-9d24-06533a0b0beb
+uuid: bcdfa841-f448-4ffa-931c-176eab984e7c
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: An inter-dimensional flow lets you examine user paths across variou
 seo-description: An inter-dimensional flow lets you examine user paths across various dimensions.
 seo-title: Inter-dimensional flows
 title: Inter-dimensional flows
-uuid: 90643f46-3055-454f-bb8c-846074919608
+uuid: 3dfe2853-ee32-4f5e-b8d3-a4586c582d30
 index: y
 internal: n
 snippet: y

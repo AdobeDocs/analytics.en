@@ -3,7 +3,7 @@ description: cm_adv_functions.xml Access these functions by checking Show Advanc
 seo-description: cm_adv_functions.xml Access these functions by checking Show Advanced in the Functions drop-down list.
 seo-title: Reference  Advanced Functions
 title: Reference  Advanced Functions
-uuid: 284b7234-b395-42e0-9574-4b4f91df44e2
+uuid: 737b1b5e-474e-470f-b54b-9ac8275996d6
 index: y
 internal: n
 snippet: y

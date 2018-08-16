@@ -3,7 +3,7 @@ description: Displays information about websites access from a mobile device. Mo
 seo-description: Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
 seo-title: Mobile Reports
 title: Mobile Reports
-uuid: 411c99a3-6fa6-40f6-870c-513ce03bce4d
+uuid: 9b3b5312-d5c4-433e-a90c-2388fece5b79
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Selecting and Applying Segments
 solution: Analytics
 title: Selecting and Applying Segments
 topic: Segments
-uuid: 7437b0a7-e049-4bd1-a753-6af17c5e815c
+uuid: 73c7ab62-4c2b-49f2-926f-997212c249a4
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: In the Calculated Metric Manager, tagging segments allows you to or
 seo-description: In the Calculated Metric Manager, tagging segments allows you to organize them.
 seo-title: Tag Calculated Metrics
 title: Tag Calculated Metrics
-uuid: 0db0a6ef-9745-4bbb-8051-b1bed10d20d3
+uuid: 01bef5b3-0cd1-430f-af0e-b5981240d98f
 index: y
 internal: n
 snippet: y

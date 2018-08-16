@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Configure a fallout visualization
 title: Configure a fallout visualization
-uuid: 5e67b5e6-875d-4160-870a-9cb24efadb3c
+uuid: 1200bc8b-252f-4cd0-93d5-674df3a0e6f2
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Filtering Segments
 solution: Analytics
 title: Filtering Segments
 topic: Segments
-uuid: 15592c78-dc07-472a-aa0b-123a1f22e69d
+uuid: 4480344a-26f1-4185-93fc-90482fb7bf17
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Robust link tracking
 solution: Analytics
 title: Robust link tracking
 topic: Activity map
-uuid: 1d11b753-4345-4ac1-9aa5-997fbf40a3d9
+uuid: 8da52ffb-4702-4658-9cc3-8362462ba2e7
 index: y
 internal: n
 snippet: y

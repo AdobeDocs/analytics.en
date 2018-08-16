@@ -5,7 +5,7 @@ seo-title: Link tracking FAQ
 solution: Analytics
 title: Link tracking FAQ
 topic: Activity map
-uuid: bc8da4b4-cdf3-46f5-aedd-0bd8a314bf84
+uuid: 14eb4a00-279d-4bf9-a010-652c17d10c55
 index: y
 internal: n
 snippet: y

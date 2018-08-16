@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Alerts
 title: Alerts
 topic: Reports and analytics
-uuid: 21949ec7-28ea-4288-ac5c-82fe336c6d81
+uuid: 87760b63-d5a7-4fcb-ba16-5fab91ef3087
 index: y
 internal: n
 snippet: y

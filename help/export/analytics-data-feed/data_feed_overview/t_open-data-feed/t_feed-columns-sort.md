@@ -5,7 +5,7 @@ seo-description: You can determine which columns are available and sort them acc
 seo-title: Sort Columns
 solution: Analytics
 title: Sort Columns
-uuid: 1c05b1db-261a-48cd-9cfe-7deb71c7d9a8
+uuid: 96372cd0-8d14-443c-bf40-62ee80129472
 index: y
 internal: n
 snippet: y

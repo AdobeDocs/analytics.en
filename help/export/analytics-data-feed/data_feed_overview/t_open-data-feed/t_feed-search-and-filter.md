@@ -5,7 +5,7 @@ seo-description: Searching and filtering help you locate a feed in the list.
 seo-title: Search and Filter
 solution: Analytics
 title: Search and Filter
-uuid: e67a5ecc-8103-4b8f-9d73-092b08819244
+uuid: d9923d8e-597a-4b5d-805e-ff9ac45e018e
 index: y
 internal: n
 snippet: y

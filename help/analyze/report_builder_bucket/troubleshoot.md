@@ -5,7 +5,7 @@ seo-title: Troubleshooting and best practices for Report Builder
 solution: Analytics
 title: Troubleshooting and best practices for Report Builder
 topic: Report builder
-uuid: 9bbbd00e-9e32-4f94-8bf0-6eb9dd5d50c7
+uuid: 46e8afd8-3621-4f30-83fa-32844bdb878d
 index: y
 internal: n
 snippet: y

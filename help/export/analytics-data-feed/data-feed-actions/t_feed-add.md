@@ -5,7 +5,7 @@ seo-description: Create a new feed.
 seo-title: Add a Feed
 solution: Analytics
 title: Add a Feed
-uuid: 4b01b4ef-25e3-48d8-a47d-5b38da8331e9
+uuid: 7fc006b5-ab7c-4f86-8280-5a578403c3d3
 index: y
 internal: n
 snippet: y

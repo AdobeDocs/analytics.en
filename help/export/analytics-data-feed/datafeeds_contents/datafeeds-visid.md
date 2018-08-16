@@ -6,7 +6,7 @@ seo-title: Identifying Visitors
 solution: Analytics
 title: Identifying Visitors
 topic: Reports and analytics
-uuid: 938146ef-3c35-4fc9-9862-f7f39e3de74d
+uuid: 98faf30f-560f-47cd-8b06-b60664c5878c
 index: y
 internal: n
 snippet: y

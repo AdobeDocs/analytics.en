@@ -5,7 +5,7 @@ seo-title: Add Data Warehouse user group
 solution: Analytics
 title: Add Data Warehouse user group
 topic: Data warehouse
-uuid: f3273d77-f141-426c-be44-994cc1e3a79f
+uuid: 2756cc02-d14e-4cff-9fb9-baaa74065197
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Cohort analysis use cases
 solution: Analytics
 title: Cohort analysis use cases
 topic: Reports and analytics
-uuid: 46479886-f84f-4764-9087-fa1225e71606
+uuid: f42bf40d-240f-4459-aacf-b4152aef54d9
 index: y
 internal: n
 snippet: y

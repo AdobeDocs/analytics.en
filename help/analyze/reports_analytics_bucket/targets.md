@@ -5,7 +5,7 @@ seo-title: Targets
 solution: Analytics
 title: Targets
 topic: Reports and analytics
-uuid: 311ef7ba-1038-4be2-9c1d-bfd762c02af0
+uuid: 8fdadda4-faf1-4e77-9977-5360445c55f0
 index: y
 internal: n
 snippet: y

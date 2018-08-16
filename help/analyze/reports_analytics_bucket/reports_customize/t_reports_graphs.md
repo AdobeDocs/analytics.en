@@ -5,7 +5,7 @@ seo-title: Change report graphs
 solution: Analytics
 title: Change report graphs
 topic: Reports and analytics
-uuid: ae19090e-aa31-4875-9046-8553265d45c5
+uuid: b9ec09ba-f3c3-4614-a4ec-afcf1ca871ca
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Pagination, filtering and sorting tables
 title: Pagination, filtering and sorting tables
-uuid: 78d51475-55b7-40b7-9ad0-af752e83ffd7
+uuid: 33c42653-f065-49ed-81e2-ac2d080a29cb
 index: y
 internal: n
 snippet: y

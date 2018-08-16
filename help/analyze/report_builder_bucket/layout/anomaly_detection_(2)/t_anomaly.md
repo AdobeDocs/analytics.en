@@ -5,7 +5,7 @@ seo-title: Configure an anomaly detection request
 solution: Analytics
 title: Configure an anomaly detection request
 topic: Report builder
-uuid: 39df6b7c-37b0-40b2-8669-0ed454b75c02
+uuid: 0dd27a68-4339-406d-824d-b69d8291f7df
 index: y
 internal: n
 snippet: y
@@ -36,4 +36,4 @@ translate: y
 >       When you select one of these options, the system creates Anomaly Detection copies of the original metric. For example, for the Visit metric, a Lower Bound Visit metric is added to the [!UICONTROL  Metric] group. 
 >1. Click **[!UICONTROL  Finish]** and select the cell for output to Excel.
 
->       See [ Anomaly Detection ](../../../analysis_workspace_bucket/virtual-analyst/anomaly_detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) for definitions. 
+>       See [ Anomaly Detection ](../../../analysis_workspace_bucket/virtual-analyst/anomaly_detection/anomaly_detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) for definitions. 

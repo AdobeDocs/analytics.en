@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Flow settings
 title: Flow settings
-uuid: b6bd22db-d1b0-4efe-ba0a-8079f3af500c
+uuid: 8a19b56d-75a6-47fe-92e1-a389c795432e
 index: y
 internal: n
 snippet: y

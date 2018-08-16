@@ -5,7 +5,7 @@ seo-title: Real-time (Live) page analytics
 solution: Analytics
 title: Real-time (Live) page analytics
 topic: Activity map
-uuid: 206029d9-3115-4f79-b582-26acf221b0f0
+uuid: 81dc50fc-ee8c-4998-9259-11101a82c4b7
 index: y
 internal: n
 snippet: y

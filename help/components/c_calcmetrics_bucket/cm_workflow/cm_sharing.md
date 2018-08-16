@@ -3,7 +3,7 @@ description: Depending on your permissions, you can share metrics with your whol
 seo-description: Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
 seo-title: Share Calculated Metrics
 title: Share Calculated Metrics
-uuid: ceda6307-3de0-45e1-afb1-0826f909bd8f
+uuid: ebb73377-9858-4978-9bd0-babea8b208c7
 index: y
 internal: n
 snippet: y

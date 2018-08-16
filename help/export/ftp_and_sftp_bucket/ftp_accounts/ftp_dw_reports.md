@@ -5,7 +5,7 @@ seo-description: Data warehouse lets you request reports that display advanced d
 seo-title: Data Warehouse Delivered Reports
 solution: Analytics
 title: Data Warehouse Delivered Reports
-uuid: 082c1663-09c6-47f2-b649-d3c3999a0a77
+uuid: b1c83c35-a259-4e65-9159-ac9f54522161
 index: y
 internal: n
 snippet: y

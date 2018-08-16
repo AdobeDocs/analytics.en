@@ -3,7 +3,7 @@ description: Lets you see how a value you are interested in compares to or measu
 seo-description: Lets you see how a value you are interested in compares to or measures against other performance ranges (goals).
 seo-title: Bullet graph
 title: Bullet graph
-uuid: ae7fe568-1915-4b42-9163-0b951327e0f2
+uuid: ecdbbfb9-5348-467b-8602-f50315e67bd2
 index: y
 internal: n
 snippet: y

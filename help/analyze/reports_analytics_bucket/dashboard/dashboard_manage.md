@@ -6,7 +6,7 @@ solution: Analytics
 subtopic: Dashboards
 title: Dashboard Manager
 topic: Reports and analytics
-uuid: 1c61244e-1f61-4efc-8f2f-60e0f3545f24
+uuid: 1a3681bf-cc62-46c7-8865-7ebcfed13bcb
 index: y
 internal: n
 snippet: y
@@ -109,7 +109,7 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 >1. In the [!UICONTROL  Manage] column, under [!UICONTROL  Legacy Dashboards], click **[!UICONTROL  Copy to New Dashboard]**.
 >   The copied dashboard opens in the dashboard layout editor. 
 
->   See [ Editing Dashboard and Reportlet Data ](../../reports_analytics_bucket/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460). 
+>   See [ Editing Dashboard and Reportlet Data ](../../reports_analytics_bucket/dashboard/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460). 
 >
 >## Share a dashboard {#task_2776BDE3FBC64E66B78DB6D6A53AAF49}
 >Steps that describe how an administrator can share (or push) a dashboard to multiple users. When you push dashboards to users, the dashboards become available in user's 

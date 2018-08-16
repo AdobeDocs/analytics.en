@@ -5,7 +5,7 @@ seo-title: Products Reports
 solution: Analytics
 title: Products Reports
 topic: Ad hoc analysis
-uuid: 65ed5564-7e0f-4a95-a99e-fd4361ae1d13
+uuid: f66c876a-faa1-4680-9cd6-297a8006c16d
 index: y
 internal: n
 snippet: y

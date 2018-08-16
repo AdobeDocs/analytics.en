@@ -3,7 +3,7 @@ description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metr
 seo-description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
 seo-title: Calculated Metrics
 title: Calculated Metrics
-uuid: ce8163b2-2b50-4ff4-a7bc-f7ac61e63668
+uuid: d1025642-ef79-4057-81d9-344b16ac8b3f
 index: y
 internal: n
 snippet: y

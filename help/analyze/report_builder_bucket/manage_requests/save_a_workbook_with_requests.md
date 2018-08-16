@@ -5,7 +5,7 @@ seo-title: Save a workbook with requests
 solution: Analytics
 title: Save a workbook with requests
 topic: Report builder
-uuid: 277ac5dd-b515-4f8b-aac5-51717ede862f
+uuid: 22ae678c-c8df-4fed-af21-12279528cf48
 index: y
 internal: n
 snippet: y

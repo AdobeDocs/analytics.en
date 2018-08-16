@@ -5,7 +5,7 @@ seo-title: Tagging Segments
 solution: Analytics
 title: Tagging Segments
 topic: Segments
-uuid: 5e579c80-f82a-453e-b18f-8f2fd7efefb5
+uuid: ce55343a-db4a-4d0e-b7f4-1f6af1fa775e
 index: y
 internal: n
 snippet: y

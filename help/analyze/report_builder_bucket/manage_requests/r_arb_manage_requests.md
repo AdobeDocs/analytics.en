@@ -5,7 +5,7 @@ seo-title: Manage requests - definitions
 solution: Analytics
 title: Manage requests - definitions
 topic: Report builder
-uuid: a92d80f6-c077-4062-90a9-d819ab74b10a
+uuid: 3266716f-fc8a-442f-aa20-14ed62a883ea
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edit </p> </td> 
-   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="../../report_builder_bucket/manage_requests/t_edit_multiple_requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="../../report_builder_bucket/manage_requests/t_edit_multiple_requests/t_edit_multiple_requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delete </p> </td> 

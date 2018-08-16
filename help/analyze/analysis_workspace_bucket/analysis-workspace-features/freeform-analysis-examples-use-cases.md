@@ -6,7 +6,7 @@ seo-title: Analysis Workspace Use Cases
 solution: Analytics
 title: Analysis Workspace Use Cases
 topic: Reports and analytics
-uuid: 528deb07-d1e4-464e-97e9-9a245e53da4d
+uuid: d1b0b11f-5616-4119-8abd-55e6248917dd
 index: y
 internal: n
 snippet: y
@@ -48,5 +48,5 @@ Assume you are a marketing analyst for an outdoor gear retailer and you are task
 
    You have already broken down the data in a way that can result in recommendations and cross-sells for your merchandising teams to implement in other campaigns and realize even more revenue for your company. You can do further breakdowns until you get the results you are looking for. 
 
-   Now you can [ share](../../analysis_workspace_bucket/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the report with those merchandising teams. 
+   Now you can [ share](../../analysis_workspace_bucket/curate/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the report with those merchandising teams. 
 

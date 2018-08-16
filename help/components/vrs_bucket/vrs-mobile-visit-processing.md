@@ -3,7 +3,7 @@ description: Context-Aware Sessions in virtual report suites change how Adobe An
 seo-description: Context-Aware Sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 seo-title: Context-Aware Sessions
 title: Context-Aware Sessions
-uuid: 183c1180-57c7-40d9-a22e-1a124b75a7fe
+uuid: c3def5d9-4536-4596-bccc-9c65765a85f8
 index: y
 internal: n
 snippet: y

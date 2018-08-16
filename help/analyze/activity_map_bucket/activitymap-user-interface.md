@@ -5,7 +5,7 @@ seo-title: Activity Map user interface
 solution: Analytics
 title: Activity Map user interface
 topic: Activity map
-uuid: ff541d36-e41a-4da4-9df4-18984ecd9438
+uuid: db019727-883e-48e3-b957-6463c8bc5d3b
 index: y
 internal: n
 snippet: y

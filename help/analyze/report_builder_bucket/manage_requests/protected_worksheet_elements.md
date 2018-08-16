@@ -5,7 +5,7 @@ seo-title: Protected worksheet elements
 solution: Analytics
 title: Protected worksheet elements
 topic: Report builder
-uuid: d8e4e1eb-7f9b-4d37-a381-ff27ce45f547
+uuid: 4d4fed1f-7f07-4bca-8524-b9d7904078e8
 index: y
 internal: n
 snippet: y

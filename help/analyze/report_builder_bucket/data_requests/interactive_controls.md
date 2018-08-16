@@ -5,7 +5,7 @@ seo-title: Interactive controls
 solution: Analytics
 title: Interactive controls
 topic: Report builder
-uuid: 9aa655f1-d783-4f71-a42e-f78af13ce74a
+uuid: 88dfc043-4b10-45f3-8f07-3c7e0d37511e
 index: y
 internal: n
 snippet: y

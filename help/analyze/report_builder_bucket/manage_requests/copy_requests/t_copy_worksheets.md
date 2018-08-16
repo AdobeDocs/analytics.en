@@ -5,7 +5,7 @@ seo-title: Copy worksheets
 solution: Analytics
 title: Copy worksheets
 topic: Report builder
-uuid: e6d8c29e-5d76-4e1a-88c1-81e0faca42c7
+uuid: 2f5eb83d-4713-44fa-92e7-c68be6b372e3
 index: y
 internal: n
 snippet: y

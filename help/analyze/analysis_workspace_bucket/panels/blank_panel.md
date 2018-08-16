@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Blank panel
 title: Blank panel
-uuid: 262040c9-c1cf-497c-85ca-1f51618d27e7
+uuid: a6255ccf-7787-45e2-8587-ca95ae3fc358
 index: y
 internal: n
 snippet: y

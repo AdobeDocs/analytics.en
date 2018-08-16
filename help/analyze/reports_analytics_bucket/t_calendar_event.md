@@ -5,7 +5,7 @@ seo-title: Calendar Events
 solution: Analytics
 title: Calendar Events
 topic: Reports and analytics
-uuid: 4e263efb-78fc-4e1b-840c-10ef729ff8eb
+uuid: 630c5107-f4d2-4a97-8a09-ad022b26805d
 index: y
 internal: n
 snippet: y

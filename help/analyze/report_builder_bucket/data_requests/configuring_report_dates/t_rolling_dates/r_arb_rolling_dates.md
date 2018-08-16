@@ -5,7 +5,7 @@ seo-title: Request Wizard definitions - rolling dates
 solution: Analytics
 title: Request Wizard definitions - rolling dates
 topic: Report builder
-uuid: 4eab3dd9-45a8-46dc-b718-4315434f35bf
+uuid: 69d5dc89-d8cc-4271-afa7-460c0216d00d
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Customize Expression </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_customized_date_expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> Customized Date Expressions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../../../report_builder_bucket/data_requests/configuring_report_dates/t_customized_date_expressions/t_customized_date_expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> Customized Date Expressions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> As of Date </p> </td> 

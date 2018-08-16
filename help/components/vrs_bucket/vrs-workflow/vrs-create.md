@@ -6,7 +6,7 @@ seo-title: Creating Virtual Report Suites
 solution: Analytics
 title: Creating Virtual Report Suites
 topic: Reports and analytics
-uuid: 92763f1b-a2dc-4181-b200-49d7e068c735
+uuid: 171ae11f-c118-4bfb-b0f4-db7d4e9e23ea
 index: y
 internal: n
 snippet: y

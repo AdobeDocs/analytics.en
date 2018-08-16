@@ -3,7 +3,7 @@ description: You can view anomalies in a table or in a line chart.
 seo-description: You can view anomalies in a table or in a line chart.
 seo-title: View anomalies in Analysis Workspace
 title: View anomalies in Analysis Workspace
-uuid: 4beef885-a52e-4b9b-9766-f41aba0981c6
+uuid: 626eaa20-7a98-45aa-9e40-77688f3d91bd
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ If you click a white dot, it will turn green and it will show you:
 * The date when the anomaly occurred
 * The raw value of the anomaly
 * The percentage value above or below the expected value, which is represented by the solid green line.
-* The Analyze link to start [ Contribution Analysis](../../../analysis_workspace_bucket/virtual-analyst/contribution-analysis.md#concept_0972EDAA28D3412D84A4D35568BF7D30).
+* The Analyze link to start [ Contribution Analysis](../../../analysis_workspace_bucket/virtual-analyst/contribution-analysis/contribution-analysis.md#concept_0972EDAA28D3412D84A4D35568BF7D30).
 
 
 ![](assets/anomaly_linechart.png) 

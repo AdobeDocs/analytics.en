@@ -5,7 +5,7 @@ seo-description: You can rerun one or more jobs from the Jobs list.
 seo-title: Rerun a Job
 solution: Analytics
 title: Rerun a Job
-uuid: a34a9d7f-af8d-4abb-9c26-ebd35013f23f
+uuid: 6f8d0267-2c87-463b-9410-6cece95974ac
 index: y
 internal: n
 snippet: y

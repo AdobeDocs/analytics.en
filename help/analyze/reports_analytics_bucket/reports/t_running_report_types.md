@@ -5,7 +5,7 @@ seo-title: Running report types
 solution: Analytics
 title: Running report types
 topic: Reports,Reports and analytics
-uuid: af6ebae3-d6b7-45f2-b476-5e6691a39291
+uuid: 3039bda2-6ec2-4ce8-b7f4-427dc3349824
 index: y
 internal: n
 snippet: y

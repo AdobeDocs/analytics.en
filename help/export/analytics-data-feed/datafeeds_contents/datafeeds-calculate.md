@@ -6,7 +6,7 @@ seo-title: Calculating Metrics
 solution: Analytics
 title: Calculating Metrics
 topic: Reports and analytics
-uuid: de8e7981-107f-4678-946d-af1a2524b870
+uuid: a2b71542-5b43-42db-9e22-523a92e9133a
 index: y
 internal: n
 snippet: y

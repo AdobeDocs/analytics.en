@@ -5,7 +5,7 @@ seo-title: User access permissions for dimensions and metrics
 solution: Analytics
 title: User access permissions for dimensions and metrics
 topic: Report builder
-uuid: 0536f248-b7a8-4809-aae8-4cc4f1151e9c
+uuid: e25b3c38-a970-48cf-98b6-b503bcf6949a
 index: y
 internal: n
 snippet: y

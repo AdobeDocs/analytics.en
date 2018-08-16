@@ -5,7 +5,7 @@ seo-title: Log File
 solution: Analytics
 title: Log File
 topic: Ad hoc analysis
-uuid: 964175ab-aaf6-4f70-a6db-0ed9249cc0a1
+uuid: df4b0b84-2d9d-4af3-8ae5-d43c0943d332
 index: y
 internal: n
 snippet: y

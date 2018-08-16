@@ -5,7 +5,7 @@ seo-title: Configure a real-time request
 solution: Analytics
 title: Configure a real-time request
 topic: Report builder
-uuid: b1d32885-82c7-4c27-bf5f-c24edcb378ef
+uuid: 079512c6-445c-4f34-acf6-037368c7dc95
 index: y
 internal: n
 snippet: y
@@ -24,4 +24,4 @@ translate: y
 >       ![Step Result](assets/real_time_select_date.png) 
 
 >       Real-time reporting is available only for the last 20 hours. For granularity, you have options of selecting from 1 minute granularity to 30 minutes. 
->1. Click **[!UICONTROL  Next]** and continue [ configuring the request layout ](../../../../report_builder_bucket/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).
+>1. Click **[!UICONTROL  Next]** and continue [ configuring the request layout ](../../../../report_builder_bucket/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).

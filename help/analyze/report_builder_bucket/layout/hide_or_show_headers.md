@@ -5,7 +5,7 @@ seo-title: Hide or show headers
 solution: Analytics
 title: Hide or show headers
 topic: Report builder
-uuid: f55b6249-9e15-407e-9cde-018e97fea568
+uuid: 1a57aab9-d615-40b8-b2f3-92c5f9d79c75
 index: y
 internal: n
 snippet: y

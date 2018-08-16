@@ -5,7 +5,7 @@ seo-title: Sort ascending or descending
 solution: Analytics
 title: Sort ascending or descending
 topic: Report builder
-uuid: 81fcbe32-7ae8-4070-9f1d-4e9d39f51264
+uuid: 45a53664-a6ee-4ee5-bdda-b1eaba8a69dd
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Alert Manager
 title: Alert Manager
-uuid: 30429fe6-0afe-4e1f-bf94-6925a940dc22
+uuid: e481e109-719c-49fb-9e81-c91b613a7fc9
 index: y
 internal: n
 snippet: y

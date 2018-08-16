@@ -6,7 +6,7 @@ seo-title: Data Warehouse Best Practices
 solution: Analytics
 title: Data Warehouse Best Practices
 topic: Data warehouse
-uuid: f97c86aa-7571-40ac-8e8d-c5fcd12c015f
+uuid: 4c536080-6f58-4260-9a75-34a71bf6f610
 index: y
 internal: n
 snippet: y

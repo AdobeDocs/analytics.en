@@ -5,7 +5,7 @@ seo-title: Select a report suite
 solution: Analytics
 title: Select a report suite
 topic: Report builder
-uuid: 962e5de7-7c06-425d-82fc-21a59bd96883
+uuid: 7c617965-d497-4a6b-bbc8-fc0a6d09ce84
 index: y
 internal: n
 snippet: y

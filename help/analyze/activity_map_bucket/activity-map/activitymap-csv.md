@@ -5,7 +5,7 @@ seo-title: Export to CSV file
 solution: Analytics
 title: Export to CSV file
 topic: Activity map
-uuid: 08266231-0f21-4ee5-9816-1487d0f1a022
+uuid: 6ace59dc-183b-4103-9bba-e44172f888cb
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: Date Comparison in Analysis Workspace lets you take any column cont
 seo-description: Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as  year-over-year, quarter-over-quarter, month-over-month, etc.
 seo-title: Date comparison
 title: Date comparison
-uuid: 61a837a2-2127-46a7-9d62-1237ab799e7a
+uuid: b21d12aa-954a-43ad-9ffd-ed6607ce92ce
 index: y
 internal: n
 snippet: y

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Preview dimensions
 title: Preview dimensions
-uuid: 2d8d02fd-7595-45da-bf3d-df21fc0ac189
+uuid: 0c0a3892-a380-4876-b4ab-0ec65d0dad09
 index: y
 internal: n
 snippet: y

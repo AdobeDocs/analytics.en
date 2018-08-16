@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Intelligent Alerts - use cases
 title: Intelligent Alerts - use cases
-uuid: 09857964-d2f2-4387-974a-cd179f854e19
+uuid: 79ad2353-996b-4b62-b923-b3a048b254d8
 index: y
 internal: n
 snippet: y

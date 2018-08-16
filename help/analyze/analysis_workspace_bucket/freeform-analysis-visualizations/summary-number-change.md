@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Summary Number and Summary Change visualizations
 title: Summary Number and Summary Change visualizations
-uuid: d29a966d-03ac-4033-9190-9790a3128e40
+uuid: 9085e067-64de-49b2-85b3-e94e6ea071a1
 index: y
 internal: n
 snippet: y

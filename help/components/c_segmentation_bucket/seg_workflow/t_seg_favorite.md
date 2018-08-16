@@ -5,7 +5,7 @@ seo-title: Marking Segments as Favorites
 solution: Analytics
 title: Marking Segments as Favorites
 topic: Segments
-uuid: f2edd0b3-c725-40ee-a017-320891a16559
+uuid: fcef1bff-0b92-47c0-88f3-c0ec0edd821c
 index: y
 internal: n
 snippet: y

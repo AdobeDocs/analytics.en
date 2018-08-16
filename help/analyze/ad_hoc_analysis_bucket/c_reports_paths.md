@@ -5,7 +5,7 @@ seo-title: Paths Reports
 solution: Analytics
 title: Paths Reports
 topic: Ad hoc analysis
-uuid: da3fe988-f402-440b-b3ce-5ccc6173c5ca
+uuid: 1f2491f9-a8e3-47e8-a00e-16e086a4920e
 index: y
 internal: n
 snippet: y

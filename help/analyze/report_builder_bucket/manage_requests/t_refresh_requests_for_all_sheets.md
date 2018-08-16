@@ -5,7 +5,7 @@ seo-title: Refresh requests for all sheets
 solution: Analytics
 title: Refresh requests for all sheets
 topic: Report builder
-uuid: 0b9be7e2-8529-4290-acd1-11362828db86
+uuid: 02cdf826-4c05-4227-b51d-5fd8f239c65c
 index: y
 internal: n
 snippet: y

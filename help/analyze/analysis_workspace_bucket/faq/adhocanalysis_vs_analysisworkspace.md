@@ -3,7 +3,7 @@ description: Compares Ad Hoc Analysis terminology and tasks to Analysis Workspac
 seo-description: Compares Ad Hoc Analysis terminology and tasks to Analysis Workspace.
 seo-title: Analysis Workspace compared to Ad Hoc Analysis
 title: Analysis Workspace compared to Ad Hoc Analysis
-uuid: 64db095a-cd49-4066-ab35-ca487c9afaa1
+uuid: b85cb0b2-296c-43ab-b450-c6fa68f4fd00
 index: y
 internal: n
 snippet: y
@@ -118,7 +118,7 @@ For a technical comparison of key features and system requirements between these
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use Fallout &amp;amp; Conversion Funnels </p> </td> 
-   <td colname="col2"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout visualizations </a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/fallout_flow/fallout_flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout visualizations </a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Fallout can span a visit or visitor, and "All visits" can optionally be included. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Dimensional items can be connected by an OR operator (similar to groups) and events can be used in the funnel. </li> 
@@ -127,7 +127,7 @@ For a technical comparison of key features and system requirements between these
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examine Flow (Pathing) </p> </td> 
-   <td colname="col2"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow visualizations </a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p> <a href="../../analysis_workspace_bucket/freeform-analysis-visualizations/flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow visualizations </a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow can span a visit or visitor. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Key statistics are shown in terms of % path views. </li> 

@@ -5,7 +5,7 @@ seo-title: Filter a Path Report Using the Request Wizard
 solution: Analytics
 title: Filter a Path Report Using the Request Wizard
 topic: Report builder
-uuid: 293870df-b6ab-4fc3-bd18-784d75e9140c
+uuid: 9f26ac2e-1f83-4b80-9a3d-763e6abef7c9
 index: y
 internal: n
 snippet: y

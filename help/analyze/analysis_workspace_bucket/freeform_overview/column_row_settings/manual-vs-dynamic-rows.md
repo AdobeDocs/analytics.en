@@ -3,7 +3,7 @@ description: Analysis Workspace tables generate "dynamic" rows when you drop a d
 seo-description: Analysis Workspace tables generate "dynamic" rows when you drop a dimension into the table - meaning that all items that correspond to the dimension, for a given metric, are pulled into the table.
 seo-title: Manual vs. dynamic rows
 title: Manual vs. dynamic rows
-uuid: 207ed143-b690-49a2-8ecb-8e3a79f5935f
+uuid: d901a82e-cc8f-418e-af7e-dfcf1afbb000
 index: y
 internal: n
 snippet: y

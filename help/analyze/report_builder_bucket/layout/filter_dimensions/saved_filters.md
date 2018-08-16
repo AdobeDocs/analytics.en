@@ -5,7 +5,7 @@ seo-title: Saved filters
 solution: Analytics
 title: Saved filters
 topic: Report builder
-uuid: 102bb271-01d5-449e-9bbb-ec2b73855d8e
+uuid: 3aa233c0-1b95-4533-8f92-9b82cc909345
 index: y
 internal: n
 snippet: y

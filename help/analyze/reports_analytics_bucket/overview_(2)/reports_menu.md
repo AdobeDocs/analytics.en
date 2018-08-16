@@ -3,7 +3,7 @@ description: An overview of the Reports menu in Reports & Analytics.
 seo-description: An overview of the Reports menu in Reports & Analytics.
 seo-title: Reports Menu
 title: Reports Menu
-uuid: 6fb9195d-41af-4c8b-a3b7-fcf28644096e
+uuid: f26dbf2b-06e6-4911-a5a0-7fad230d423f
 index: y
 internal: n
 snippet: y
@@ -96,7 +96,7 @@ The Reports menu provides an enhanced search experience. Click **[!UICONTROL  Vi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> Dashboard </span>... </td> 
-   <td colname="col2"> Lets you add the report to a <a href="../../reports_analytics_bucket/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard </a>. </td> 
+   <td colname="col2"> Lets you add the report to a <a href="../../reports_analytics_bucket/dashboard/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> More... </span> </td> 

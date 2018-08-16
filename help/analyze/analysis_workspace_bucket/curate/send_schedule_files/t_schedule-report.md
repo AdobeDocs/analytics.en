@@ -6,7 +6,7 @@ seo-title: Send file - schedule a project for delivery
 solution: Analytics
 title: Send file - schedule a project for delivery
 topic: Reports and analytics
-uuid: aea770ce-4204-4048-973e-780d93fdf21d
+uuid: 80d0cad4-60a7-48ba-97ac-4dfc5827c5f6
 index: y
 internal: n
 snippet: y

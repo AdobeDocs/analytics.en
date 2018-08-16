@@ -6,7 +6,7 @@ seo-title: Create custom date ranges
 solution: Analytics
 title: Create custom date ranges
 topic: Reports and analytics
-uuid: 38dfce8e-d6da-44ed-b82c-e2cf31000731
+uuid: 0ac49217-cd6a-4934-891b-f998339f2c5c
 index: y
 internal: n
 snippet: y

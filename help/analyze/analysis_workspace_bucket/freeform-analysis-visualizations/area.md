@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Area and area stacked
 title: Area and area stacked
-uuid: f0891cba-55e7-4590-a6ec-37c5605fc2c1
+uuid: da1cf593-01cf-4a67-bca7-66f3223612d5
 index: y
 internal: n
 snippet: y

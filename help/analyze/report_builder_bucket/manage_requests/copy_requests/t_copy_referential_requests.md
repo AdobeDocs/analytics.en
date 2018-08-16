@@ -5,7 +5,7 @@ seo-title: Copy referential requests
 solution: Analytics
 title: Copy referential requests
 topic: Report builder
-uuid: 25153fe9-0d35-4d13-a88b-0cb59e008ee7
+uuid: a1be05f6-61c4-495b-8b33-78955a21ff41
 index: y
 internal: n
 snippet: y

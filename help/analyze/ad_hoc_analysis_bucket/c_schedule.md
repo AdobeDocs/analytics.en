@@ -5,7 +5,7 @@ seo-title: Scheduling Manager
 solution: Analytics
 title: Scheduling Manager
 topic: Ad hoc analysis
-uuid: 4ed231af-c26f-4bbc-a2a5-60d112e00c99
+uuid: 5d632a76-fbe4-471c-8a8f-ba3eb563c7b4
 index: y
 internal: n
 snippet: y

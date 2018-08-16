@@ -5,7 +5,7 @@ seo-title: Sharing Segments
 solution: Analytics
 title: Sharing Segments
 topic: Segments
-uuid: 189c9010-5a7f-4b6d-8f32-c6f6c7443371
+uuid: a7382ff1-8052-42ce-a6b2-2a6dc3e00b59
 index: y
 internal: n
 snippet: y

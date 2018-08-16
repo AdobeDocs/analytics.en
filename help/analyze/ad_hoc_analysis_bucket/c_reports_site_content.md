@@ -3,7 +3,7 @@ description: Displays information about which pages and areas of your site are m
 seo-description: Displays information about which pages and areas of your site are most active and which servers are getting the most use.
 seo-title: Site Content Reports
 title: Site Content Reports
-uuid: 72a5b1f1-e249-4579-9282-dd9cfa93299a
+uuid: 51e1d517-c129-4d62-b836-2e24e28414ac
 index: y
 internal: n
 snippet: y

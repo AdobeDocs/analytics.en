@@ -5,7 +5,7 @@ seo-title: Request Wizard definitions - fixed dates
 solution: Analytics
 title: Request Wizard definitions - fixed dates
 topic: Report builder
-uuid: 3d06d286-44e9-4f5a-a575-4f2c08a98f58
+uuid: df2f9210-2a56-4403-9da2-6cbf8c12b4c5
 index: y
 internal: n
 snippet: y

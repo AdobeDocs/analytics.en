@@ -3,7 +3,7 @@ description: Use the Table Builder to create a report with any configuration of 
 seo-description: Use the Table Builder to create a report with any configuration of metrics, dimensions, and segments. For example, you can add multiple metrics to the Table Builder, then apply segment to all of them at once. You can apply items from the tool panes as rows and breakdowns, or as columns, and easily pivot the table for a different view. After building the table, you can interact directly with the resulting data table for further analysis. Keep in mind that generating a data table from the Table Builder runs a query and creates a new data table.
 seo-title: Table Builder
 title: Table Builder
-uuid: 626d405d-c5fb-4707-ab18-9f874e18dd55
+uuid: 05179be8-cbd1-4454-8284-e1af79e48bc6
 index: y
 internal: n
 snippet: y

@@ -409,22 +409,22 @@ translate: y
   </tr> 
   <tr> 
    <td> mobilecampaigncontent </td> 
-   <td> Mobile campaign content </td> 
+   <td> The name or ID of the content that displayed the link. Populated by Mobile App Acquisition.</td> 
    <td> - </td> 
   </tr> 
   <tr> 
    <td> mobilecampaignmedium </td> 
-   <td> Mobile campaign medium </td> 
+   <td> Marketing medium, such as banner or email. Populated by Mobile App Acquisition. </td> 
    <td> - </td> 
   </tr> 
   <tr> 
    <td> mobilecampaignname </td> 
-   <td> Mobile campaign name </td> 
+   <td> Name of the campaign, also stored in the campaign variable. Populated by Mobile App Acquisition. </td> 
    <td> - </td> 
   </tr> 
   <tr> 
    <td> mobilecampaignsource </td> 
-   <td> Mobile campaign source </td> 
+   <td> Original referrer, such as newsletter or social media network. Populated by Mobile App Acquisition. </td> 
    <td> - </td> 
   </tr> 
   <tr> 
@@ -460,7 +460,12 @@ translate: y
   <tr> 
    <td> mobileinstalldate </td> 
    <td> Mobile install date. Provides the date of the first time a user opens the mobile app. </td> 
-   <td> - </td> 
+   <td> - </td>
+  <tr>
+   <td>mobileinstalls</td>
+   <td>Also known as first launches. Triggered at the first run after installation or re-installation.</td>
+   <td>-</td>
+  </tr>
   </tr> 
   <tr> 
    <td> mobilelaunchnumber </td> 
@@ -469,7 +474,7 @@ translate: y
   </tr> 
   <tr> 
    <td> mobileltv </td> 
-   <td> Mobile lifetime value </td> 
+   <td> Mobile lifetime value. Populated by trackLifetimeValue methods. </td> 
    <td> - </td> 
   </tr> 
   <tr> 
@@ -488,6 +493,11 @@ translate: y
    <td> - </td> 
   </tr> 
   <tr> 
+   <td> mobileprevsessionlength </td> 
+   <td> Total Session Length. Reports the number of seconds that a previous application session lasted based on how long the application was open and in the foreground.</td> 
+   <td> - </td> 
+  </tr>
+  <tr> 
    <td> mobilepushoptin </td> 
    <td> Indicates if a user has opted in for push messaging on the mobile app </td> 
    <td> - </td> 
@@ -496,12 +506,17 @@ translate: y
    <td> mobilepushpayloadid </td> 
    <td> Identifier for a push message that has been clicked through by the user </td> 
    <td> - </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> mobileresolution </td> 
    <td> Resolution of the mobile device. Width x height in pixels. </td> 
    <td> - </td> 
   </tr> 
+  <tr> 
+   <td> mobileupgrades </td> 
+   <td> Reports the number of app upgrades. Triggers at the first run after upgrade or anytime the version number changes. </td> 
+   <td> - </td> 
+  </tr>
   <tr> 
    <td> monthly_visitor </td> 
    <td> Flag indicating the visitor is unique to the current month. </td> 

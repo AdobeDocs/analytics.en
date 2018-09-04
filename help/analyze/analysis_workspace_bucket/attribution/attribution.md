@@ -41,7 +41,6 @@ Adobe Analytics enhances attribution by letting you:
 * Define attribution beyond paid media: Any dimension, metric, channel or event can be applied to models (e.g. internal search), not just marketing campaigns.
 * Utilize unlimited attribution model comparison: dynamically compare as many models as you want.
 * Avoid implementation changes: With report time processing and context-aware sessions, customer journey context can be built in and applied at run time.
-* Build session definitions that span web and mobile app.
 * Construct the session that best matches your attribution scenario.
 * Break down attribution by segments: Easily compare the performance of your marketing channels across any important segment (e.g. New vs. Repeat customers, Product X vs. Product Y, Loyalty level or CLV).
 * Inspect channel cross-over and multi-touch analysis: Using Venn Diagrams and Histograms, and trend attribution results.

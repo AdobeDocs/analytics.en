@@ -3,6 +3,9 @@ cloud: experience-cloud
 product: adobe
 archtype: end-user
 user-guide: null
+hub: https://helpx.adobe.com/support/analytics.html
+getting-started: https://helpx.adobe.com/analytics/get-started.html
+tutorials: https://helpx.adobe.com/analytics/tutorials.html
 ---
 
 # Table of Contents

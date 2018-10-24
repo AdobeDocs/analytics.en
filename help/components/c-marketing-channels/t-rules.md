@@ -1,0 +1,53 @@
+---
+description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
+seo-description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
+seo-title: Create Marketing Channel processing rules
+solution: Analytics
+subtopic: Marketing channels
+title: Create Marketing Channel processing rules
+topic: Reports and analytics
+uuid: b3b2af6b-59e5-4882-baa1-7680d89905ea
+index: y
+internal: n
+snippet: y
+---
+
+# Create Marketing Channel processing rules
+
+Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
+
+This procedure uses an email rule as an example. The example assumes that you have added an email channel to your list of channels on the Marketing Channel Manager page. 
+
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Select a report suite.
+
+   If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
+
+   See [Run the Automatic Setup](t_auto_setup.md#task_0F694146D48B4647BD7D5F060D394AB7). 
+
+1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+
+   ![Step Result](assets/marketing_channel_rules.png)
+
+1. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
+
+   Here you are not selecting your channel, but a template that populates the rule with a few of the necessary parameters.
+
+   ![Step Result](assets/example_email.png)
+
+   Use Boolean logic (if / then statements) to configure a rule. For example, in an email channel rule, provide the settings or information emphasized in the following rule statement:
+
+   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *`<value>`* **[!UICONTROL exists]**...`
+
+   `"Then identify the channel as **[!UICONTROL Email]**...`
+
+   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *`<value>`*."`
+
+   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*. 
+1. To continue creating rules, click **[!UICONTROL Add Rule]**.
+1. To prioritize rules, drag-and-drop them to the desired position.
+1. Click **[!UICONTROL Save.]**
+
+>[!MORE_LIKE_THIS]
+>
+>* [Frequently Asked Questions and Examples](c_faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44)

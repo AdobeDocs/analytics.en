@@ -1,0 +1,221 @@
+---
+description: The dimensions that you can read and write (unless otherwise noted) using processing rules.
+seo-description: The dimensions that you can read and write (unless otherwise noted) using processing rules.
+seo-title: Dimensions available to processing rules
+solution: Analytics
+subtopic: Processing rules
+title: Dimensions available to processing rules
+topic: Admin tools
+uuid: 9472bc1b-26e1-4035-b51b-d37a464d13f5
+index: y
+internal: n
+snippet: y
+---
+
+# Dimensions available to processing rules
+
+The dimensions that you can read and write (unless otherwise noted) using processing rules.
+
+## Custom Values & Context Data {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+
+<table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Value </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Custom Value </p> </td> 
+   <td colname="col2"> <p>Custom text or values typed directly in the action of a processing rule. These values are available in subsequent conditions and rules. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Concatenated Value </p> </td> 
+   <td colname="col2"> <p>Values created by combining two values. For example, category and page name might be combined to create a subcategory. These values are available in subsequent conditions and rules. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Modified Values </p> </td> 
+   <td colname="col2"> <p>If a variable value is changed using processing rules, the changed value is used in subsequent conditions and rules. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Context Data Variables </p> </td> 
+   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> Context Data Variables</a> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Traffic Variables {#section_225156106F8B41F8BC1E68D58DDC2652}
+
+<table id="table_575F618C59DC4933BC77F935518EAE39"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Variable </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>prop 1-75 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> prop1 - prop75</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Hierarchy 1-5 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> hier1 - hier5</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Site Section </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.channel </span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Server </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.server </span> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Hit Attributes {#section_07E69A86A47741A083FD84F112EB80D0}
+
+<table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Attribute </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Report Suite ID (read-only) </p> </td> 
+   <td colname="col2"> <p>The report suite the processing rule is executed on, which may not be the original report suite specified in AppMeasurement. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page Name </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.pageName</span> </p> <p>Note:  A page view is counted on all hits where page name is not empty. When a link is tracked, the data collection server removes the page name from the hit so that page views are not counted. If you re-insert a page name into these calls using processing rules, a page view will be counted. We recommend checking to make sure that page name is already set before you modify the page name. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page URL </p> </td> 
+   <td colname="col2"> <span class="codeph"> s.pageURL</span> or the current page URL if <span class="codeph"> s.pageURL</span> is not specified. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Query String Parameter </p> </td> 
+   <td colname="col2"> <p>The value of a specified query string parameter in the current URL, or null if no parameter exists. For the URL <b>http://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page Path </p> </td> 
+   <td colname="col2"> <p>The path of the page URL. The path of the URL <b>http://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page Domain </p> </td> 
+   <td colname="col2"> <p>The full hostname, specified in the URL. http://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page Root Domain </p> </td> 
+   <td colname="col2"> <p>The last two sections of the hostname of the page. http://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Page Query String </p> </td> 
+   <td colname="col2"> <p>The full query string of the URL. http://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Referrer* (read-only) </p> </td> 
+   <td colname="col2"> <p>HTTP referrer. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Referring Query String Parameter (read-only) </p> </td> 
+   <td colname="col2"> <p>The value of a specified query string parameter in the referring URL, or null if no parameter exists. For the URL <b>http://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Referring Domain (read-only) </p> </td> 
+   <td colname="col2"> <p>The full hostname of the referrer. http://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Referring Root Domain (read-only) </p> </td> 
+   <td colname="col2"> <p>The last two sections of the hostname of the referrer. http://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Referring Query String (read-only) </p> </td> 
+   <td colname="col2"> <p>Query string parameters contained in the referring URL. http://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>IP Address (read-only) </p> </td> 
+   <td colname="col2"> <p>IP address as reported by the browser. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>User Agent (read-only) </p> </td> 
+   <td colname="col2"> <p>User agent as reported by the browser. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>AppMeasurement Code Version (read-only) </p> </td> 
+   <td colname="col2"> <p>The version of the appMeasurement library used to make the request. When using image beacons, you can populate this with a custom value that is read using processing rules. This value appears at the following location in the URL: </p> <p>http://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Conversion Variables {#section_311856B21B3B49DBAA0539CFA06C409F}
+
+<table id="table_E28729026EDA485989178A3B887B5983"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Variable </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>eVar 1-N </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> evar1</span> - <span class="codeph"> evarN</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Campaign Tracking Code </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.campaign</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Currency Code </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.currencyCode</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>List Variables1-3 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.list1</span> - <span class="codeph"> s.list3</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Purchase ID </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.purchaseID</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Transaction ID </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.transactionID </span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Visitor State </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.state</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Visitor Zip/Postal Code </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s.zip</span> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Success Events {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+
+Processing rules can set events but cannot read them as conditions. 
+
+<table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Event </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Event 1-1000 </p> <p>(For SiteCatalyst 15 customers, Event 1-100.) </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> event1</span> - <span class="codeph"> event1000</span> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>purchase, scView, scAdd, and other cart events </p> </td> 
+   <td colname="col2"> <p>Predefined events. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

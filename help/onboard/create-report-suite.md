@@ -1,11 +1,17 @@
+---
+title: Title of page
+---
+
+# Title of page
+
 A report suite is a silo of data that Adobe Analytics uses to pull reports. An organization can have many report suites, each containing different data sets. While separate report suites were important in the past, having a single report suite has become more advantageous. The introduction to virtual report suites and report time processing allows a user to create their own subsets of data, allowing the flexibility to obtain both global and site-specific data.
 
 This article is designed for system-level administrators or analytics admins to prepare for data collection.
 
-# Prerequisites
+## Prerequisites
 [Adobe Experience Cloud first admin guide](first-admin-guide.md): Ensure a system-level administrator has granted your user access to Adobe Analytics via the Experience Cloud
 
-# Create a report suite
+## Create a report suite
 > Note: There is also a way to create a report suite using the legacy Analytics admin console. Adobe recommends using the report suite setup wizard outlined here.
 
 1. Log in to http://marketing.adobe.com using your Adobe ID credentials.
@@ -18,11 +24,11 @@ This article is designed for system-level administrators or analytics admins to 
 8. Name this report suite the same, except append "- DEV" at the end. Since this report suite will only receive internal traffic, the estimated size can be the smallest.
 9. Click Next to finish creating your dev report suite.
 
-# Troubleshooting
+## Troubleshooting
 - After logging in to the Experience Cloud, the Analytics icon is greyed out.
   - This means your account has not been granted the correct permissions to Analytics. Work with a system-level admin in your organization to ensure you belong to a profile with adequate permissions to access Adobe Analytics.
 - After logging in to Adobe Analytics, the 'Welcome to Adobe Analytics' popup and dropdown is missing.
   - Ensure that you've logged in through the Experience Cloud, and not through my.omniture.com. Users who log in through my.omniture.com do not have the report suite setup wizard available.
 
-# Next steps
+## Next steps
 - [Create and configure a property for Adobe Analytics in Launch](analytics-property-launch.md): Create an area to manage your Analytics implementation

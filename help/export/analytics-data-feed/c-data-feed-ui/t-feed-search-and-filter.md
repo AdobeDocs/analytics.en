@@ -21,9 +21,9 @@ Searching and filtering help you locate a feed in the list.
 
    There are three available filtering options:
 
-* Report suite 
-* Owner 
-* Status
+   * Report suite 
+   * Owner 
+   * Status
 
 1. Enter a search term to search the feeds list.
 

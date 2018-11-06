@@ -1,14 +1,16 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: analytics
+audience: admin
+user-guide-title: Analytics User Guide
+user-guide-url: null
+index: no
 ---
 
 # Table of Contents
 
 + [Analytics Admin Guide](home.md)
-+ [Analytics product comparison](c-analytics-product-comparison/c-analytics-product-comparison.md)
++ Analytics Admin Resources{#admin-resources}
+    + [Analytics product comparison](c-analytics-product-comparison/c-analytics-product-comparison.md)
     + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
     + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
 + [System requirements](c-system-requirements/c-system-requirements.md)

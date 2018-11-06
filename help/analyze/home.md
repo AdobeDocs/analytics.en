@@ -1,1 +1,0 @@
-# Analyze home.md placeholder

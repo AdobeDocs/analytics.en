@@ -1,13 +1,13 @@
 ---
-title: Analytics Admin Help
-seo-title: Analytics product comparison
-description: null
-seo-description: null
+title: Analytics Onboarding Help
+seo-title: Adobe Analytics Onboarding Help
+description: This guide is intended for those who are implementing Adobe Analytics.
+seo-description: This guide is intended for those who are implementing Adobe Analytics.
 ---
 
 # Analytics Admin Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide is intended for those who are implementing Adobe Analytics. 
 
 ## Key articles
 
@@ -31,11 +31,11 @@ This guide is intended for Adobe Analytics administrators. You can browse for he
 
 ## Key Analytics resources
 
+* [Experience League](https://landing.adobe.com/experience-league/)
 * [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
 * [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
 * [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
 * [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
 * [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)

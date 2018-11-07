@@ -18,7 +18,7 @@ Data Warehouse provides a feature that allows you to extract a list of visitor I
 For example, assume that your business sends marketing e-mails to customers and prospects. Each of these e-mail recipients has a unique ID in your e-mail system (such as *`EMAIL Contact ID`*). You set up your e-mails so that when contacts receive an e-mail and click one of its links, the visitor arrives at your website with a campaign ID and a unique EMAIL Contact ID. For example, your e-mail link may resolve to:
 
 ```js
-http://www.test.com/?cid=springmailblast&mid=1363660158
+https://www.test.com/?cid=springmailblast&mid=1363660158
 ```
 
 Setting these in conversion variables (eVars) allows you to see how each e-mail performed (through the campaign ID) and how often each e-mail recipient visited the site (through the EMAIL Contact ID).

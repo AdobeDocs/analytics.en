@@ -38,8 +38,8 @@ If you want to integrate [!DNL Analytics] with Target, the JavaScript include fi
 <body> 
 <!-- Analytics code version: H.20.3. 
 Copyright 1997-2009 Omniture, Inc. More info available at 
-http://www.omniture.com --> 
-<script language="JavaScript" type="text/javascript" src="http://www.yourdomain.com/js/s_code.js"></script> 
+https://www.omniture.com --> 
+<script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 
 <script language="JavaScript" type="text/javascript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 

@@ -22,4 +22,4 @@ After you have copied the appropriate data into the classifications template fil
 
 See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for important information about the structure and limitations of uploaded files.
 
-See [Common Classification Upload Issues](http://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) for troubleshooting help. 
+See [Common Classification Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) for troubleshooting help. 

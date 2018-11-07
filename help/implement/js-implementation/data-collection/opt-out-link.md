@@ -25,9 +25,9 @@ Visitors opt-out by clicking the link on the opt-out page, thereby causing a coo
 
 Adobe offers opt-outs for all implementation types. You are responsible for your own privacy policy and for remaining in compliance with your signed terms. Note that the link to the opt-out page changes based on your implementation type, as outlined here.
 
-If you implement Adobe Analytics products and services with cookies set on domains owned by Adobe (i.e. 207.net or omtrdc.net), you can point your website visitors to the opt-out mechanism provided in the [Adobe Privacy Center](http://www.adobe.com/privacy/opt-out.html) for all sites that use Adobe cookies for Adobe Analytics products and services. The direct link to the Adobe opt-out mechanism is http://collection_domain/optout.html.
+If you implement Adobe Analytics products and services with cookies set on domains owned by Adobe (i.e. 207.net or omtrdc.net), you can point your website visitors to the opt-out mechanism provided in the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for all sites that use Adobe cookies for Adobe Analytics products and services. The direct link to the Adobe opt-out mechanism is https://collection_domain/optout.html.
 
-More information about Adobe Analytics privacy practices can be found at [http://www.adobe.com/privacy/advertising-services.html](http://www.adobe.com/privacy/advertising-services.html).
+More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
 
 * [Opt-out Page URL Structure](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748) 
 * [Example Opt-Out URLs](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E) 
@@ -38,7 +38,7 @@ More information about Adobe Analytics privacy practices can be found at [http:/
 Your opt out page is at the following URL:
 
 ```
-http://collection_domain/optout.html[?optional_parameters]
+https://collection_domain/optout.html[?optional_parameters]
 ```
 
 The `optional_parameters` include:
@@ -61,19 +61,19 @@ The `optional_parameters` include:
 An English web page in a full window containing a link that, when clicked, will prevent the visitor from being tracked on metrics.example.com:
 
 ```
-http://metrics.example.com/optout.html
+https://metrics.example.com/optout.html
 ```
 
 A French web page in a full window, containing a link that, when clicked, will prevent the visitor from being tracked on example.d3.sc.omtrdc.net:
 
 ```
-http://example.d3.sc.omtrdc.net/optout.html?locale=fr_FR
+https://example.d3.sc.omtrdc.net/optout.html?locale=fr_FR
 ```
 
 A German web page, in a popup window, containing a link that, when clicked, will prevent the visitor from being tracked on example.112.2o7.net:
 
 ```
-http://example.112.2o7.net/optout.html?popup=1&locale=de_DE
+https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 ```
 
 ## Branding your Opt-Out URL {#section_674AB62E810B414AB8F1615C0E3061F8}
@@ -81,7 +81,7 @@ http://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 You can provide a link, such as the following somewhere on your website:
 
 ```
- <a href=" http://stats.adobe.com/optout.html?optout=1&confirm_change=1">
+ <a href=" https://stats.adobe.com/optout.html?optout=1&confirm_change=1">
 Click Here to Opt Out! </a>
 ```
 

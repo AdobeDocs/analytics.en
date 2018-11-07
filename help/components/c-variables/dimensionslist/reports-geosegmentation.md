@@ -15,7 +15,7 @@ snippet: y
 
 Displays data about visitor location. GeoSegmentation reports include Countries, Regions, Cities, U.S. States, and U.S. DMA (digital marketing area). GeoSegmentation reports are enabled for all customers.
 
-All metrics that are available to you elsewhere in Reports & Analytics are automatically included in the Countries, Regions, Cities, U.S. States, and DMA reports: conversion and visit-based metrics as well as calculated metrics. For more information, see this Adobe [blog](http://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) post. 
+All metrics that are available to you elsewhere in Reports & Analytics are automatically included in the Countries, Regions, Cities, U.S. States, and DMA reports: conversion and visit-based metrics as well as calculated metrics. For more information, see this Adobe [blog](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) post. 
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 

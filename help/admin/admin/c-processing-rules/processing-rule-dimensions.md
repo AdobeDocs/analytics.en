@@ -40,7 +40,7 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Context Data Variables </p> </td> 
-   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> Context Data Variables</a> </p> </td> 
+   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> Context Data Variables</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,23 +98,23 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Query String Parameter </p> </td> 
-   <td colname="col2"> <p>The value of a specified query string parameter in the current URL, or null if no parameter exists. For the URL <b>http://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
+   <td colname="col2"> <p>The value of a specified query string parameter in the current URL, or null if no parameter exists. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Path </p> </td> 
-   <td colname="col2"> <p>The path of the page URL. The path of the URL <b>http://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>The path of the page URL. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Domain </p> </td> 
-   <td colname="col2"> <p>The full hostname, specified in the URL. http://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>The full hostname, specified in the URL. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Root Domain </p> </td> 
-   <td colname="col2"> <p>The last two sections of the hostname of the page. http://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>The last two sections of the hostname of the page. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Query String </p> </td> 
-   <td colname="col2"> <p>The full query string of the URL. http://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>The full query string of the URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referrer* (read-only) </p> </td> 
@@ -122,19 +122,19 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referring Query String Parameter (read-only) </p> </td> 
-   <td colname="col2"> <p>The value of a specified query string parameter in the referring URL, or null if no parameter exists. For the URL <b>http://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
+   <td colname="col2"> <p>The value of a specified query string parameter in the referring URL, or null if no parameter exists. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referring Domain (read-only) </p> </td> 
-   <td colname="col2"> <p>The full hostname of the referrer. http://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>The full hostname of the referrer. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referring Root Domain (read-only) </p> </td> 
-   <td colname="col2"> <p>The last two sections of the hostname of the referrer. http://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>The last two sections of the hostname of the referrer. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referring Query String (read-only) </p> </td> 
-   <td colname="col2"> <p>Query string parameters contained in the referring URL. http://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>Query string parameters contained in the referring URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP Address (read-only) </p> </td> 
@@ -146,7 +146,7 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>AppMeasurement Code Version (read-only) </p> </td> 
-   <td colname="col2"> <p>The version of the appMeasurement library used to make the request. When using image beacons, you can populate this with a custom value that is read using processing rules. This value appears at the following location in the URL: </p> <p>http://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
+   <td colname="col2"> <p>The version of the appMeasurement library used to make the request. When using image beacons, you can populate this with a custom value that is read using processing rules. This value appears at the following location in the URL: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
   </tr> 
  </tbody> 
 </table>

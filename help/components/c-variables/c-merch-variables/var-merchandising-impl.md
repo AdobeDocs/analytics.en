@@ -113,4 +113,4 @@ Additionally, the current value of the merchandising variable is tied to all sub
 * eVar expires (based on the "Expire After" setting) 
 * The merchandising eVar is overwritten with a new value.
 
-For more information, see " [Advanced Conversion Syntax Merchandising](http://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/)" at [!DNL analyticsdemystified.com]. 
+For more information, see " [Advanced Conversion Syntax Merchandising](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/)" at [!DNL analyticsdemystified.com]. 

@@ -32,7 +32,7 @@ The **[!UICONTROL Maximum iterations]** in the **[!UICONTROL Options]** menu all
 
 ## KMeans algorithms {#section_DD4A29C1F64B4BB8A3A5322E642441B3}
 
-In the [Cluster Builder](http://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster), you can now select **[!UICONTROL Options]** > **[!UICONTROL Algorithm]** to select algorithms when defining clusters.
+In the [Cluster Builder](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster), you can now select **[!UICONTROL Options]** > **[!UICONTROL Algorithm]** to select algorithms when defining clusters.
 
 * **[!UICONTROL KMeans]**. This algorithm uses canopy clustering to define the centers of the cluster. 
 * **[!UICONTROL KMeans++]**. This algorithm expedites cluster building when running against large sets of data.

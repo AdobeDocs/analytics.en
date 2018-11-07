@@ -25,7 +25,7 @@ Adobe Analytics can be embedded within the Facebook Instant Articles to track vi
 When creating your Facebook Instant Article content, you can embed the analytics HTML content within an iFrame. For example:
 
 ```
-<iframe class="no-margin" src="http://[your-domain-here]/analytics.html" height="0"></iframe>
+<iframe class="no-margin" src="https://[your-domain-here]/analytics.html" height="0"></iframe>
 ```
 
 ## 2. Modify your Analytics HTML {#section_76707B51D63A47FF833C2D3FFF8412B4}
@@ -36,8 +36,8 @@ The sample HTML below can be used to capture stats from the instant articles. Th
 <html> 
     <head> 
         <title>Facebook Stats</title> 
-        <script language="javaScript" type="text/javascript" src="http://[your-domain-here]/js/VisitorAPI.js"></script> 
-        <script language="javaScript" type="text/javascript" src="http://[your-domain-here]/js/AppMeasurement.js"></script> 
+        <script language="javaScript" type="text/javascript" src="https://[your-domain-here]/js/VisitorAPI.js"></script> 
+        <script language="javaScript" type="text/javascript" src="https://[your-domain-here]/js/AppMeasurement.js"></script> 
     </head> 
     <body> 
         <script> 
@@ -96,7 +96,7 @@ s.prop10 = "Facebook Instant Article";
 You can also dynamically send variables to the iframe by leveraging query string parameters in the iframe `src` attribute. For example:
 
 ```
-<iframe class="no-margin" src="http://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
+<iframe class="no-margin" src="https://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
 ```
 
 Those query string parameters can subsequently be set in the custom variables section of your analytics HTML JavaScript by using the `Util.getQueryParam` function within the default AppMeasurement library, as follows:

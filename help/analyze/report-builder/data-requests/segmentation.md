@@ -51,7 +51,7 @@ You may have specific combinations of report dimensions that you would like to t
 
    ![](assets/seg_in_context.png)
 
-   For more information on containers, see the [Segmentation Guide](http://marketing.adobe.com/resources/help/en_US/analytics/segment/). 
+   For more information on containers, see the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 
 
 1. The Segment Builder UI will be now launched in Internet Explorer. The Segment Builder UI will be initialized with the container and the filter you specified. 
 1. After you have added a name and description to the segment, save it. 

@@ -30,7 +30,7 @@ For more information on configuring [!DNL Analytics] to automatically select a [
 ## Defining the URL Segment to Match {#section_8099162F75F641CFBE46FD814450EF36}
 
 Given the following sample URL, the portions of the URL are shown below, along with the [!UICONTROL s.dynamicAccountMatch] variable that must be set. (The default - if [!UICONTROL s.dynamicAccountMatch] is not defined - is to search the Host/Domain Name only). 
-Sample URL: http://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321 
+Sample URL: https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321 
 
 |  Portion  | Example (from above)  |
 |---|---|
@@ -39,7 +39,7 @@ Sample URL: http://www.client.com/directory1/directory2/filename.html?param1=123
 |  Query String  | param1=1234&param2=4321  |
 |  Host/Domain and Path  | www.client.com/directory1/directory2/filename.html  |
 |  Path and Query String  | directory1/directory2/filename.html?param1=1234&param2=4321  |
-|  URL  | http://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321  |
+|  URL  | https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321  |
 |  Portion  | s.dynamicAccountmatch  |
 |  Host/Domain Name  | Undefined  |
 |  Path  | window.location.pathname  |

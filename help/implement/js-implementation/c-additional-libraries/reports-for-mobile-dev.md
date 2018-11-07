@@ -22,7 +22,7 @@ Because mobile devices are tracked via a beacon, just like other visitors, most 
 
 These reports only have data if the referrer is populated in the image request sent from the mobile page. The referrer is populated via the "r" query string parameter, as outlined in the Implementing without JavaScript white paper. You must also manually pass the referrer information into the image request.
 
-The ‘r’ query string parameter must include the protocol of the referrer. If the protocol is left off, the referrer report is not populated. For example, use `r=http://msn.com` not `r=msn.com`.
+The ‘r’ query string parameter must include the protocol of the referrer. If the protocol is left off, the referrer report is not populated. For example, use `r=https://msn.com` not `r=msn.com`.
 
 ## Geosegmentation and Domains {#section_2B4E9443AAFE4ECA961F9E993592E628}
 

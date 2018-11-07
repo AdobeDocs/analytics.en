@@ -42,7 +42,7 @@ To export workspaces and individual windows to Microsoft Excel, the following re
 
 >[!NOTE]
 >
->* When you export data as Excel files, you are opening a new instance of Excel. For more information about this process, see [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757). 
+>* When you export data as Excel files, you are opening a new instance of Excel. For more information about this process, see [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757). 
 >* Although Data Workbench supports more than 256 columns and 65,536 rows of data, versions of Microsoft Excel prior to 8.0 do not. 
 >
 

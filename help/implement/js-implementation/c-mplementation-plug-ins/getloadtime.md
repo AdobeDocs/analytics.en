@@ -54,7 +54,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Optional) Add support for older browsers**
 
-To support older browsers that don't provide the [window.performance.timing](http://www.html5rocks.com/en/tutorials/webperformance/basics/) property, include the following line in the HEAD section of the page's HTML near the beginning and prior to invoking .js, .css, or other files:
+To support older browsers that don't provide the [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) property, include the following line in the HEAD section of the page's HTML near the beginning and prior to invoking .js, .css, or other files:
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>

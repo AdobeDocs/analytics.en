@@ -15,7 +15,7 @@ snippet: y
 
 A 3D Scatter Plot graphs the elements of a data dimension (such as Days or Referral Site) on a three-dimensional grid where the x, y, and z axes represent various metrics.
 
-Like [Scatter Plot 2D](http://marketing.adobe.com/resources/help/en_US/insight/client/index.html#Scatter_Plots), this visualization is useful when trying to understand the relationship between large numbers of disparate items employing different metrics.
+Like [Scatter Plot 2D](https://marketing.adobe.com/resources/help/en_US/insight/client/index.html#Scatter_Plots), this visualization is useful when trying to understand the relationship between large numbers of disparate items employing different metrics.
 
 **To employ the 3D scatter plot visualization:**
 

@@ -165,7 +165,7 @@ s.t();
 
 ```
 
-As shown above, you can use or link to your existing [!DNL VisitorAPI.js] and [!DNL AppMeasurement.js] (as in our example), or whatever your existing implementation uses, then add the correct configuration parameters. To capture the correct values into the correct variables, you can use the provided `s.Util.getQueryParam` function to grab the value(s) that you passed in from the `iframeMessage` URL and set the appropriate variables, just as you would on a typical page. If you use tag management software like Adobe's [ [!DNL Dynamic Tag Manager] ](http://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html), the query string parameters should be straightforward to capture. In this case, `s.pageName` is set to the value we passed in the query string parameter `pageName`. Here, the page name would be set to *`Adobe Analytics Example 2`*.
+As shown above, you can use or link to your existing [!DNL VisitorAPI.js] and [!DNL AppMeasurement.js] (as in our example), or whatever your existing implementation uses, then add the correct configuration parameters. To capture the correct values into the correct variables, you can use the provided `s.Util.getQueryParam` function to grab the value(s) that you passed in from the `iframeMessage` URL and set the appropriate variables, just as you would on a typical page. If you use tag management software like Adobe's [ [!DNL Dynamic Tag Manager] ](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html), the query string parameters should be straightforward to capture. In this case, `s.pageName` is set to the value we passed in the query string parameter `pageName`. Here, the page name would be set to *`Adobe Analytics Example 2`*.
 
 >[!IMPORTANT]
 >

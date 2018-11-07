@@ -13,7 +13,7 @@ snippet: y
 
 The Bar Graph in Data Workbench now includes a regression comparison for multiple metrics across multiple graphs.
 
-[Bar graphs](http://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_graphs) in Data Workbench let you regress metrics in one graph to metrics in another graph. If you have multiple graphs, you can compare a metric (as the independent variable) to a graph evaluating other metrics (as dependent variables). This lets you determine the strength of the relationship between one dependent variable (the metric established first) and a series of other changing metrics (regressions with the established dependent metric).
+[Bar graphs](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_graphs) in Data Workbench let you regress metrics in one graph to metrics in another graph. If you have multiple graphs, you can compare a metric (as the independent variable) to a graph evaluating other metrics (as dependent variables). This lets you determine the strength of the relationship between one dependent variable (the metric established first) and a series of other changing metrics (regressions with the established dependent metric).
 
 The regression analysis on a graph visualization allows analysts to perform "what-if" scenarios. For example, if visits increase to this level, what impact will this increase have on revenue?
 

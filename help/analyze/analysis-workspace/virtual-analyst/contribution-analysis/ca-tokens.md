@@ -81,17 +81,17 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
    <td colname="col3" colsep="1"> <p>No tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
    <td colname="col2"> <p>Daily granularity only </p> </td> 
    <td colname="col3"> <p>No tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external"> Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external"> Prime </a> </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>10 tokens per month </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>20 tokens per month </p> </td> 
   </tr> 
@@ -116,7 +116,7 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
    <td colname="col3"> <p>2 tokens per month </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="http://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external"> Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external"> Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>Unlimited tokens </p> </td> 
   </tr> 

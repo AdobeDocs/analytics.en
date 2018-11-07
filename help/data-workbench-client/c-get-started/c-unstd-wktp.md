@@ -49,7 +49,7 @@ The [!UICONTROL Worktop] elements table below describes each element of the [!UI
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Error messages </td> 
-   <td colname="col2"> <p>Error messages display in red below the status. For status code descriptions, see <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" format="http" scope="external"> http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html</a>. </p> <p>For example: 403_Forbidden. </p> </td> 
+   <td colname="col2"> <p>Error messages display in red below the status. For status code descriptions, see <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" format="http" scope="external"> https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html</a>. </p> <p>For example: 403_Forbidden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -59,7 +59,7 @@ You can select the metric format and set the bucket values for a dimension expre
 
    ![](assets/6_4_workstation_metricdim_format_metric.png)
 
-   The format defines how the metric will be presented when opened in a visualization. These formats are selected [printf standards](http://www.cplusplus.com/reference/cstdio/printf/), defined below:
+   The format defines how the metric will be presented when opened in a visualization. These formats are selected [printf standards](https://www.cplusplus.com/reference/cstdio/printf/), defined below:
 
    ```
    %[flags][width][.precision][length][specifier]

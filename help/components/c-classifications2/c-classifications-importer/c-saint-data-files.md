@@ -104,7 +104,7 @@ A data file must adhere to the following structure rules:
 
 >[!MORE_LIKE_THIS]
 >
->* [Common Upload Issues](http://marketing.adobe.com/resources/kb/en_US/analytics/kb/common-saint-upload-issues.html)
+>* [Common Upload Issues](https://marketing.adobe.com/resources/kb/en_US/analytics/kb/common-saint-upload-issues.html)
 
 <!-- 
 
@@ -200,7 +200,7 @@ c_date.xml
 
 Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
 
-For more information, see [Conversion Classifications](http://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
+For more information, see [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
 
 >[!NOTE]
 >
@@ -244,5 +244,5 @@ classification_troubleshooting.xml
 
  -->
 
-* [Common Upload Issues](http://marketing.adobe.com/resources/help/en_US/home/#kb-analytics-common-saint-upload-issues): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
+* [Common Upload Issues](https://marketing.adobe.com/resources/help/en_US/home/#kb-analytics-common-saint-upload-issues): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
 

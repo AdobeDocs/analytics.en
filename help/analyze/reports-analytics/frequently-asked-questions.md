@@ -156,7 +156,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What are IAB Bot rules and where can I get a list of those that are being filtered (when enabled on the report suite)?</b> </p> </td> 
-   <td colname="col2"> <p>A: The IAB database in maintained by a third-party vendor with a standardized database that is updated at regular intervals. Once <a href="https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html" format="https" scope="external"> bot rules </a> are enabled on the report suite, all the bots maintained by IAB automatically get filtered. The database can be accessed here: <a href="http://www.iab.net/sites/spiders/form.php" format="http" scope="external"> http://www.iab.net/sites/spiders/form.php </a>. </p> </td> 
+   <td colname="col2"> <p>A: The IAB database in maintained by a third-party vendor with a standardized database that is updated at regular intervals. Once <a href="https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html" format="https" scope="external"> bot rules </a> are enabled on the report suite, all the bots maintained by IAB automatically get filtered. The database can be accessed here: <a href="https://www.iab.net/sites/spiders/form.php" format="http" scope="external"> https://www.iab.net/sites/spiders/form.php </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What are the main differences between a Tracking Codes report and a marketing channel that is configured to capture campaign variable values?</b> </p> </td> 

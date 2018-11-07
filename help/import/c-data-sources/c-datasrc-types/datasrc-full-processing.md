@@ -109,7 +109,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <span class="filepath"> http://www.mysite.com/index.html) </span>. </p> </td> 
+   <td colname="col3"> <p>Page URL (for example, <span class="filepath"> https://www.mysite.com/index.html) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 

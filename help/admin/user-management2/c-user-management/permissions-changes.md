@@ -148,14 +148,14 @@ The following table lists tasks and where they can take place (depending on a co
   <tr> 
    <td colname="col1"> Create a user </td> 
    <td colname="col2"> <p>Enterprise Dashboard (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="../../../admin/user-management2/c-user-management/t-add-user-account.md#task_60F86F36CB86446699EA7C7E5FB03EA7" format="dita" scope="local"> Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="http://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
-   <td colname="col4"> <p> <a href="http://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit a user </td> 
    <td colname="col2"> <p> <a href="../../../admin/user-management2/c-user-management/t-add-user-account.md#task_60F86F36CB86446699EA7C7E5FB03EA7" format="dita" scope="local"> Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="http://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
-   <td colname="col4"> <p> <a href="http://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Delete a user </td> 

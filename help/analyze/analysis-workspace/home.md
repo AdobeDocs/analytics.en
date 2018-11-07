@@ -128,13 +128,13 @@ We will provide Tips of the Day (along with a short video) in the bottom right-h
 * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) 
 * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Blog) 
 * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/) (Blog) 
-* [Faster Insights with Analysis Workspace](http://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Blog) 
-* [Why You Should Be Using Analysis Workspace](http://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) 
-* [Digital Marketing Blog](http://blogs.adobe.com/digitalmarketing/analytics/) (Home) 
-* [Adobe Analytics Forum](http://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html) 
+* [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Blog) 
+* [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) 
+* [Digital Marketing Blog](https://blogs.adobe.com/digitalmarketing/analytics/) (Home) 
+* [Adobe Analytics Forum](https://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html) 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html) 
-* [Idea Exchange](http://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3) 
-* [Adobe Training and Tutorials](http://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3) 
+* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 
 **Developer**
 

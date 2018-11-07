@@ -22,15 +22,15 @@ There are several requirements that must be met in order for this page to popula
 * If using automatic custom link tracking, all requirements must be met: 
 *
 
-    * [s.trackExternalLinks](http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackexlinks) must be set to *true*. 
+    * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackexlinks) must be set to *true*. 
     
-    * The link the user clicked on must not match any values within the [s.linkInternalFilters](http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) variable. 
-    * If [s.linkInternalFilters](http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) is implemented, the external link must match at least one of the values set in this variable.
+    * The link the user clicked on must not match any values within the [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) variable. 
+    * If [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) is implemented, the external link must match at least one of the values set in this variable.
 
 * If any of the above requirements are not met, the hit will not populate this report.
 
 * 
-* As with all custom link tracking hits, the [s.pageName](http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) variable is stripped from the image request to prevent page-view inflation. 
+* As with all custom link tracking hits, the [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) variable is stripped from the image request to prevent page-view inflation. 
 * You can view this report in trended and ranked formats. 
 * This report can use a search filter to locate specific line items. 
 * You can create [correlations](correlation.md#concept_B33A589E121D4E9BB51DAA8A2C324758) with any other traffic variable via Admin Tools. 

@@ -37,7 +37,7 @@ Only administrators can create a custom report. When you create a custom report,
 
 >[!MORE_LIKE_THIS]
 >
->* [Menu Customizing](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -84,7 +84,7 @@ You cannot compare dates between trended reports.
 
 >[!NOTE]
 >
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](http://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
+>If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
 
 To compare dates between ranked reports in Reports & analytics: 
 

@@ -21,9 +21,9 @@ To improve visitor identification for mobile devices, you must be on the carrier
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](http://mobile.omniture.com/sc15/mobile/) mobile site at mobile.omniture.com.
+>To view reports on a mobile a device, login to the [Experience Cloud](https://mobile.omniture.com/sc15/mobile/) mobile site at mobile.omniture.com.
 
-For more information about mobile tracking, see the [Mobile Solutions](http://www.omniture.com/en/products/online_analytics/sitecatalyst/mobile_solutions) site.
+For more information about mobile tracking, see the [Mobile Solutions](https://www.omniture.com/en/products/online_analytics/sitecatalyst/mobile_solutions) site.
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
@@ -92,7 +92,7 @@ For more information about mobile tracking, see the [Mobile Solutions](http://ww
   </tr> 
   <tr> 
    <td colname="col1"> Java Version Report </td> 
-   <td colname="col2"> <p>Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="http://jcp.org/en/jsr/overview" scope="external" format="html"> Java Community Process</a> website. </p> </td> 
+   <td colname="col2"> <p>Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="https://jcp.org/en/jsr/overview" scope="external" format="html"> Java Community Process</a> website. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bookmark URL Length Report </td> 

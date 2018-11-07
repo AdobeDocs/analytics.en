@@ -58,7 +58,7 @@ Dependent on your solution configuration, some options described in this documen
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [adobe.com/go/thirdparty](http://www.adobe.com/go/thirdparty)
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [adobe.com/go/thirdparty](https://www.adobe.com/go/thirdparty)
 
 © 2018 Adobe Systems Incorporated. All Rights Reserved.
 Published by Adobe Systems Incorporated.

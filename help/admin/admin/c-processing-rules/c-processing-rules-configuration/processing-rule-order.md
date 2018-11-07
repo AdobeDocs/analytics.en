@@ -67,11 +67,11 @@ The following tables list the data that is typically available before and after 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clean URL is added as page name if it is not set </p> </td> 
-   <td colname="col2"> <p>After processing rules and VISTA are applied, the clean URL is added as the page name if there is no page name set. Since this occurs after processing rules are applied, we recommend adding a condition to check if the page name is blank. </p> <p>If you run the <span class="uicontrol"> Site Content</span> &gt; <span class="uicontrol"> Pages Report</span> and you see <span class="codeph"> http://</span> values for page names, it is likely the page name is blank and the URL is being used. </p> <p>You can set up a condition to test for a blank page name, or to test to see if the page name or the page URL contains a specific value. The page name can then be set as needed. </p> </td> 
+   <td colname="col2"> <p>After processing rules and VISTA are applied, the clean URL is added as the page name if there is no page name set. Since this occurs after processing rules are applied, we recommend adding a condition to check if the page name is blank. </p> <p>If you run the <span class="uicontrol"> Site Content</span> &gt; <span class="uicontrol"> Pages Report</span> and you see <span class="codeph"> https://</span> values for page names, it is likely the page name is blank and the URL is being used. </p> <p>You can set up a condition to test for a blank page name, or to test to see if the page name or the page URL contains a specific value. The page name can then be set as needed. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Marketing Channel Processing Rules </p> </td> 
-   <td colname="col2"> <p>You can use processing rules to prepare data for processing by <a href="http://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_rules" format="http" scope="external"> Marketing Channel Processing Rules</a>. </p> </td> 
+   <td colname="col2"> <p>You can use processing rules to prepare data for processing by <a href="https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_rules" format="http" scope="external"> Marketing Channel Processing Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>GEO lookup </p> </td> 

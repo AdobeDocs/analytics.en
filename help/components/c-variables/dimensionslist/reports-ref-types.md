@@ -23,7 +23,7 @@ The list below defines the various types of referrers:
 
 **[!UICONTROL Social networks]**: The referring value must be considered by Adobe to be a social network. See [List of social networks](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
-**Email**: A referring domain is considered as an email referring domain when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. For example, anything coming from [!DNL http://mail.yahoo.com] is not counted as an email referrer because the protocol is [!DNL http://]. Emails from Outlook are reported in the Typed/Bookmarked line, while any referrer with an HTTP protocol where the domain is a known search engine is reported in the Search Engine line.
+**Email**: A referring domain is considered as an email referring domain when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. For example, anything coming from [!DNL https://mail.yahoo.com] is not counted as an email referrer because the protocol is [!DNL https://]. Emails from Outlook are reported in the Typed/Bookmarked line, while any referrer with an HTTP protocol where the domain is a known search engine is reported in the Search Engine line.
 
 **Typed/Bookmarked**: referrers are recorded when visitors type your site’s URL directly into their browser, or if they access your site by selecting bookmarks. Mobile devices report a referrer type of *`typed/bookmarked`* if there is no referrer on the first hit of the visit.
 

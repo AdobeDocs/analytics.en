@@ -24,7 +24,7 @@ You must meet these Experience Cloud solution, service, and code requirements to
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Solution Requirements</b> </p> </td> 
-   <td colname="col2"> <p>Server-side forwarding works with <a href="http://www.adobe.com/data-analytics-cloud/analytics.html" format="http" scope="external"> Analytics</a> and <a href="http://www.adobe.com/data-analytics-cloud/audience-manager.html" format="http" scope="external"> Audience Manager</a> and/or <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html" format="html" scope="external"> Audiences</a>. </p> </td> 
+   <td colname="col2"> <p>Server-side forwarding works with <a href="https://www.adobe.com/data-analytics-cloud/analytics.html" format="http" scope="external"> Analytics</a> and <a href="https://www.adobe.com/data-analytics-cloud/audience-manager.html" format="http" scope="external"> Audience Manager</a> and/or <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html" format="html" scope="external"> Audiences</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Service Requirements</b> </p> </td> 

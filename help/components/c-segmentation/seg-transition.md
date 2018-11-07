@@ -38,7 +38,7 @@ snippet: y
 * You can create [Sequential Segments](seg_example_sequential.md#concept_BD13ABA2592E479B82A187B82B80559C) outside of Ad Hoc Analysis. 
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
-See the [Improving Segmentation in Adobe Analytics](http://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
+See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
 
 ## Accessing the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 

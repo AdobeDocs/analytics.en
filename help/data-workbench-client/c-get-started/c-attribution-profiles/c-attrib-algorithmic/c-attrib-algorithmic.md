@@ -17,7 +17,7 @@ Best-fit attribution is a machine-learning approach to assigning attribution val
 
 ![](assets/attrib_windows_5.png)
 
-For example, if a customer visits your site through an organic search, then engages with a campaign, and then signs up for an email, [rules-based Attribution](http://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib) would identify the first touch or last touch, or evenly distribute success attribution across all touch points using preset attribution models. Where rules-based attribution is defined by the user, the Best Fit attributes sets value through an algorithm by calculating the probability of a conversion as a function of the observed touch points.
+For example, if a customer visits your site through an organic search, then engages with a campaign, and then signs up for an email, [rules-based Attribution](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib) would identify the first touch or last touch, or evenly distribute success attribution across all touch points using preset attribution models. Where rules-based attribution is defined by the user, the Best Fit attributes sets value through an algorithm by calculating the probability of a conversion as a function of the observed touch points.
 
 >[!NOTE]
 >

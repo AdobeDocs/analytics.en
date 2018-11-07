@@ -43,7 +43,7 @@ To open a URI from a visualization, you first must edit the [!DNL Open URI.cfg] 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>Template </p> </td> 
-   <td colname="col2"> <p>The parameters that Data Workbench should use to locate and open the URIs. </p> <p>Example: <span class="filepath"> http://%Site%%URI%</span> </p> <p>The default template shown in the example tells Data Workbench to open a web browser, look for the location defined in the <span class="wintitle"> Site</span> parameter, then locate the URI dimension element you are attempting to open. </p> </td> 
+   <td colname="col2"> <p>The parameters that Data Workbench should use to locate and open the URIs. </p> <p>Example: <span class="filepath"> https://%Site%%URI%</span> </p> <p>The default template shown in the example tells Data Workbench to open a web browser, look for the location defined in the <span class="wintitle"> Site</span> parameter, then locate the URI dimension element you are attempting to open. </p> </td> 
   </tr> 
  </tbody> 
 </table>

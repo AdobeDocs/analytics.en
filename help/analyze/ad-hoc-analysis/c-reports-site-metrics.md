@@ -165,4 +165,4 @@ c_reports_marketing_channel.xml
 
 ** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Channel detail reports let you closely examine the channel detail values from the overview report.
 
-For more in-depth information about configuring the Marketing Channel in marketing reports and analytics, see the [Marketing Channel Help](http://marketing.adobe.com/resources/help/en_US/mchannel/index.html) system. 
+For more in-depth information about configuring the Marketing Channel in marketing reports and analytics, see the [Marketing Channel Help](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) system. 

@@ -26,4 +26,4 @@ The data that you import using the import tool must be in a specific format. Ado
 
 See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
 
-See [Common Saint Upload Issues](http://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents. 
+See [Common Saint Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents. 

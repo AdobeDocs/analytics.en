@@ -99,7 +99,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Query String Parameter </p> </td> 
-   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> http://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> http://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>You can specify only one query string parameter per rule set. To add additional query string parameters, use <span class="uicontrol"> ANY </span>&nbsp;as your operator, then add new query string parameters to the rule. </p> </td> 
+   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>You can specify only one query string parameter per rule set. To add additional query string parameters, use <span class="uicontrol"> ANY </span>&nbsp;as your operator, then add new query string parameters to the rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referrer </p> </td> 

@@ -157,8 +157,8 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
    <td> <b>System Requirements</b> </td> 
    <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" format="https" scope="external"> More... </a> </p> </td> 
    <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" format="https" scope="external"> More... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="http://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs" format="http" scope="external"> More... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="http://marketing.adobe.com/resources/help/en_US/arb/index.html?f=system_requirements" format="http" scope="external"> More... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs" format="http" scope="external"> More... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html?f=system_requirements" format="http" scope="external"> More... </a> </p> </td> 
    <td colname="col06"> Browser and program to open <span class="filepath"> .csv </span> files like MS Excel. Can generate Tableau format files. </td> 
    <td colname="col6"> Windows 64 bit, good graphics adapter for OpenGL 3.2 ( <u> <a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html" format="https" scope="external"> More... </a></u> ) </td> 
   </tr> 

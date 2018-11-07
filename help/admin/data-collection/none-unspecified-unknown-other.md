@@ -64,4 +64,4 @@ Some backend data variables use the value `::unspecified::` in reporting, though
 1. Deselect **[!UICONTROL Show 'None,' 'Unspecified' and 'Typed/Bookmarked' data in report graphs]**. 
 1. Click **[!UICONTROL Save]**.
 
-If you see one of these values that is not explained in any of the above scenarios, ask an [Adobe expert in the community](http://help-forums.adobe.com/content/adobeforums/en.html). 
+If you see one of these values that is not explained in any of the above scenarios, ask an [Adobe expert in the community](https://help-forums.adobe.com/content/adobeforums/en.html). 

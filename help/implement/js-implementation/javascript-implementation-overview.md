@@ -90,12 +90,12 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
     <codeblock class="syntax html">
       &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; 
      
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"&gt;&lt;/script&gt; 
+src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"&gt;&lt;/script&gt; 
     </codeblock> <p> Include AppMeasurement for JavaScript by adding the following line of code in the <span class="codeph"> &lt;head&gt; </span> or <span class="codeph"> &lt;body&gt; </span> tag on each page: </p> 
     <codeblock class="syntax html">
       &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; 
      
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script&gt; 
+src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script&gt; 
     </codeblock> </td> 
   </tr> 
   <tr> 
@@ -125,6 +125,6 @@ If you are concerned about page weight (size) of H Code (AppMeasurement for Java
 
 The following links help explain how you can use GZIP functionality on your site to handle compression of the [!DNL s_code.js] JavaScript code:
 
-[Apache Module mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html)
+[Apache Module mod_deflate](https://httpd.apache.org/docs/2.0/mod/mod_deflate.html)
 
-[Enabling gzip compression with Tomcat and Flex](http://www.cubicleman.com/2007/04/06/enabling-gzip-compression-with-tomcat-and-flex/) 
+[Enabling gzip compression with Tomcat and Flex](https://www.cubicleman.com/2007/04/06/enabling-gzip-compression-with-tomcat-and-flex/) 

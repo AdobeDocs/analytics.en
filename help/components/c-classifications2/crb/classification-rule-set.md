@@ -69,7 +69,7 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (See [Classifications](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Admin Tools help on adding classifications.)
+   (See [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Admin Tools help on adding classifications.)
 
    Variables will display in the [!UICONTROL New Rule Set] panel only after they have at least one classification defined for that variable.
 

@@ -15,7 +15,7 @@ snippet: y
 
 Data workbench now supports the Input Method Editor (IME) as a secondary text entry process for international languages.
 
-IMEs allow you to enter international characters using a variety of methods suited for your local language. Data workbench provides an input dialog box you to use your system IME, including the [Google Input Tool for Windows](http://www.google.com/inputtools/windows/) and the [Windows IME](http://windows.microsoft.com/en-us/windows-8/input-method-editors-windows-8).
+IMEs allow you to enter international characters using a variety of methods suited for your local language. Data workbench provides an input dialog box you to use your system IME, including the [Google Input Tool for Windows](https://www.google.com/inputtools/windows/) and the [Windows IME](https://windows.microsoft.com/en-us/windows-8/input-method-editors-windows-8).
 
 >[!NOTE]
 >

@@ -172,7 +172,7 @@ s.linkInternalFilters="javascript:,mysite.com"
 s.linkLeaveQueryString=false 
  
 //HTML file 
-<a href='http://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
 
 ```
 
@@ -186,7 +186,7 @@ s.linkInternalFilters="javascript:,mysite.com"
 s.linkLeaveQueryString=true 
  
 //HTML  
-<a href='http://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 
 ```
 
@@ -219,7 +219,7 @@ JavaScript H.25 includes an update to ensure that link tracking completes succes
 After this update, download and exit links that are automatically tracked (determined by [!DNL s.trackDownloadLinks]and [!DNL s.trackExternalLinks]) are tracked successfully. If you are tracking custom links using manual JavaScript calls, you need to modify how these calls are made. For example, exit and download links are often tracked using code similar to the following: 
 
 ```js
-<a href="http://anothersite.com" onclick="s.tl(this,'e','AnotherSite',null)">
+<a href="https://anothersite.com" onclick="s.tl(this,'e','AnotherSite',null)">
 ```
 
 Internet Explorer executes the track link call and open the new page. Other browsers might cancel execution of the track link call when the new page opens. This often prevents track link calls from completing.
@@ -229,7 +229,7 @@ To work around this behavior, H.25 (released July 2012) includes an overloaded t
 To use this new method, update calls to [!DNL s.tl] with an additional [!UICONTROL doneAction] parameter, similar to the following:
 
 ```js
-<a href="http://anothersite.com"  
+<a href="https://anothersite.com"  
 onclick="s.tl(this,'e','AnotherSite',null,'navigate');return false">
 ```
 
@@ -281,7 +281,7 @@ pev2=My%20Link
 For example:
 
 ```
-<img src="http://collectiondomain.112.2o7.net/b/ss/reportsuite/1/H.25.3--NS/0?pe=lnk_e&pev1=othersite.com&pev2=Offsite%20Link" width="1" height="1" border="0" />
+<img src="https://collectiondomain.112.2o7.net/b/ss/reportsuite/1/H.25.3--NS/0?pe=lnk_e&pev1=othersite.com&pev2=Offsite%20Link" width="1" height="1" border="0" />
 ```
 
 ## Setting Additional Variables for File Downloads, Exit Links, and Custom Links {#concept_8DD06387D5234A52A6E361572FAA2DF6}
@@ -391,7 +391,7 @@ function trackClickInteraction(name){
 You can use code similar to the following to call these functions:
 
 ```
-<a href=”http://www.your-site.com/some_page.php” onclick=”trackClickInteraction('this.href');”>Link Text</a>
+<a href=”https://www.your-site.com/some_page.php” onclick=”trackClickInteraction('this.href');”>Link Text</a>
 ```
 
 ## Avoiding Duplicate Link Counts {#section_9C3F73DE758F4727943439DED110543C}

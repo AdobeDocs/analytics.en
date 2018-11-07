@@ -26,7 +26,7 @@ Server-side forwarding improves upon data collection because it:
 
 >[!IMPORTANT]
 >
->Prompted by the [EU cookie compliance](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](../../../integrate/c-audience-analytics/c-workflow/ssf-gdpr.md#concept_86B216635E9A49F9B3DBBBD4DFD8AAF6).
+>Prompted by the [EU cookie compliance](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](../../../integrate/c-audience-analytics/c-workflow/ssf-gdpr.md#concept_86B216635E9A49F9B3DBBBD4DFD8AAF6).
 
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 

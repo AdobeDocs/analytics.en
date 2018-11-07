@@ -15,7 +15,7 @@ Data Workbench lets you export files to integrate profiles and audiences as part
 
 <a id="section_731922BC8628479198A41EF3EA72F2FF"></a>
 
-The Master Marketing Profile (MMP) is part of the [Visitor ID service](http://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_service), a core service of the [Adobe Experience Cloud](http://www.adobe.com/solutions/?f=digital-marketing). The MMP allows audiences to be shared across the Experience Cloud using a unique visitor ID (MCID) that is assigned to every visitor and then used by [Audience Manager](http://marketing.adobe.com/resources/help/en_US/em/). The [!DNL ExportIntegration.exe] application ( [!DNL E:\Server\Scripts]) is employed to generate the Profiles and Audiences Export.
+The Master Marketing Profile (MMP) is part of the [Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_service), a core service of the [Adobe Experience Cloud](https://www.adobe.com/solutions/?f=digital-marketing). The MMP allows audiences to be shared across the Experience Cloud using a unique visitor ID (MCID) that is assigned to every visitor and then used by [Audience Manager](https://marketing.adobe.com/resources/help/en_US/em/). The [!DNL ExportIntegration.exe] application ( [!DNL E:\Server\Scripts]) is employed to generate the Profiles and Audiences Export.
 
 >[!NOTE]
 >

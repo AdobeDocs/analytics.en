@@ -16,7 +16,7 @@ snippet: y
 
 Adobe Analytics provides a flexible reporting interface that lets you generate a variety of complex reports. While most reports generate very quickly, you might encounter reports that timeout or fail to generate successfully. To help avoid report generation failures, this section explains many factors that impact report generation speed. Understanding this information can help you structure reports so they are more likely to generate successfully.
 
-Note that these recommendations apply to reports & analytics, ad hoc analysis, and report builder. They do not apply to data warehouse, which provides a separate list of [best practices](http://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse_bp). An additional set of [best practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) is available for the Adobe Analytics Reporting API.
+Note that these recommendations apply to reports & analytics, ad hoc analysis, and report builder. They do not apply to data warehouse, which provides a separate list of [best practices](https://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse_bp). An additional set of [best practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) is available for the Adobe Analytics Reporting API.
 
 ## Report Timeouts and Request Queue {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 

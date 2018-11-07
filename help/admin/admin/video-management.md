@@ -17,4 +17,4 @@ You can designate a set of Custom Conversion Variables (eVars) and Custom Events
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Video Management]**.
 
-See [Measuring Video in Analytics](http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/index.html). 
+See [Measuring Video in Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/index.html). 

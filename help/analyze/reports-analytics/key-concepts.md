@@ -359,7 +359,7 @@ data_collection_and_validation.xml
   <tr> 
    <td colname="col1"> Debugger Options </td> 
    <td colname="col2"> There are several debuggers &amp; packet sniffers available to help validate your implementation. Our preferred debugger is Charles. Others include Adobe Debugger, HTTPFox, Firebug, Omnibug, Fiddler, and HTTPWatch. </td> 
-   <td colname="col3">Adobe Debugger: <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html</a> </p> <p>Charles: </p> <p><a href="http://www.charlesproxy.com/" format="http" scope="external"> http://www.charlesproxy.com/</a> </p> </td> 
+   <td colname="col3">Adobe Debugger: <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html</a> </p> <p>Charles: </p> <p><a href="https://www.charlesproxy.com/" format="http" scope="external"> https://www.charlesproxy.com/</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

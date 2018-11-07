@@ -62,7 +62,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline" href="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder</a> and <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager</a> interfaces from the segment rail. </td> 
+   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder</a> and <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metrics <img placement="inline" href="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -90,11 +90,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Download</span> </td> 
-   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Downloading_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Download Options</a>.) </td> 
+   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. (<a href="https://marketing.adobe.com/resources/help/en_US/survey/index.html#Downloading_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Download Options</a>.) </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Send</span> </td> 
-   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only). (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Emailing_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Delivery Options</a>.) </td> 
+   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only). (<a href="https://marketing.adobe.com/resources/help/en_US/survey/index.html#Emailing_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Delivery Options</a>.) </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Bookmark...</span> </td> 

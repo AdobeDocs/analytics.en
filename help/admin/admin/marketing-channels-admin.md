@@ -17,4 +17,4 @@ Marketing Channels are commonly used to provide insight on how visitors arrive o
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
 
-See [Marketing Channels](http://marketing.adobe.com/resources/help/en_US/mchannel/index.html). 
+See [Marketing Channels](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html). 

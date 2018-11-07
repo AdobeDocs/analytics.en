@@ -96,11 +96,11 @@ For example, if a visitor clicks a link from Site A and arrives at your site, Si
 
 Domains or URLs that are not part of those defined domains and URLs are considered referrers. For example, web page A and web page B are added to the internal URL filter, but web page C is not. In this case, web page C is considered a referrer.
 
-See [Internal URL Filters](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
 
 >[!NOTE]
 >
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. For example, anything coming from [!DNL http://mail.yahoo.com] is not counted as an email referrer because the protocol is [!DNL http://]. Emails from Outlook are reported in the Typed/Bookmarked line, while any referrer with an HTTP protocol where the domain is a known search engine is reported in the Search Engine line.
+>Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. For example, anything coming from [!DNL https://mail.yahoo.com] is not counted as an email referrer because the protocol is [!DNL https://]. Emails from Outlook are reported in the Typed/Bookmarked line, while any referrer with an HTTP protocol where the domain is a known search engine is reported in the Search Engine line.
 
 ## Referrer Type {#concept_689E42D8F96C450DA41C7167C7388198}
 

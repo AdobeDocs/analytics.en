@@ -13,7 +13,7 @@ snippet: y
 
 Trend lines lets you overlay graphs to compare and interpret data.
 
-Like the [Scatter Plot](http://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_scat_plots) visualization, you can now set trend lines on a bar graph visualization to display the rate of change based on linear, exponential, power, or polynomial lines. The Trend Line feature allows you to overlay trend lines on a graph, most commonly over a Time dimension.
+Like the [Scatter Plot](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_scat_plots) visualization, you can now set trend lines on a bar graph visualization to display the rate of change based on linear, exponential, power, or polynomial lines. The Trend Line feature allows you to overlay trend lines on a graph, most commonly over a Time dimension.
 
 For example, in this graph comparison, we can see that Visits are trending up, but Orders are trending down.
 

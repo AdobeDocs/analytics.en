@@ -17,7 +17,7 @@ Configure users and learn about data sampling.
 
 Configure users and learn about data sampling. 
 
-For [!DNL Admin Console] help, see the [Analytics Reference](http://marketing.adobe.com/resources/help/en_US/reference/index.html). 
+For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html). 
 
 ## User Licenses {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -157,5 +157,5 @@ So to keep the number of hits for this 365 day slice below 750,000,000, the data
 
 >[!MORE_LIKE_THIS]
 >
->* [Users](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [Groups](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [Users](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
+>* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)

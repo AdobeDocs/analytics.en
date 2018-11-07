@@ -116,7 +116,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> How do I get an SSL certificate? </td> 
-   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only http:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_cert" format="http" scope="external"> learn more </a> </td> 
+   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only https:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_cert" format="http" scope="external"> learn more </a> </td> 
   </tr> 
   <tr> 
    <td> Where do I find information about the certification expiration notice? </td> 

@@ -19,7 +19,7 @@ Captures the language setting in the visitor's browser, letting you see the reve
 
 We populate this report based on the accept-language portion of the http header request. The language-accept HTTP header is configured as part of each browser’s language preference settings:
 
-[http://www.w3.org/International/questions/qa-lang-priorities.en.php](http://www.w3.org/International/questions/qa-lang-priorities.en.php)
+[https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
 If a browser does not have a language specified, or if the browser returns a language ID=0, the report will show "Unspecified" in the graph. Browser support for this setting can affect the number of "Unspecified" returns.
 

@@ -39,7 +39,7 @@ After you download the library, you must configure the code to send data to the 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> Version</span> </td> 
-   <td colname="col2"> <p>List the latest version of the library. Click the version number to view the <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/" format="http" scope="external"> release history</a>. </p> </td> 
+   <td colname="col2"> <p>List the latest version of the library. Click the version number to view the <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/" format="http" scope="external"> release history</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> Documentation</span> </td> 

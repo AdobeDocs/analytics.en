@@ -360,7 +360,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  a{3,}  | 3 or more of a  |
 |  a{3,6}  | Between 3 and 6 of a  |
 
-A good resource for testing regular expression validity is http://rubular.com/. 
+A good resource for testing regular expression validity is https://rubular.com/. 
 
 ## About Rule Priority {#concept_93527FEB3C9B48FB96FB7DF857E5F980}
 

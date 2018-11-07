@@ -25,7 +25,7 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Clean up misspelled site sections 
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
-| [ ![](assets/proc-rules-training.png)](http://tv.adobe.com/embed/1181/16506/) | [Watch](http://tv.adobe.com/embed/1181/16506/) the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules. |
+| [ ![](assets/proc-rules-training.png)](https://tv.adobe.com/embed/1181/16506/) | [Watch](https://tv.adobe.com/embed/1181/16506/) the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules. |
 |---|---|
 
 ## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
@@ -51,7 +51,7 @@ Context data variables are a new type of variable that are available only to pro
 
 ![](assets/evar-context-map.png)
 
-See [Context Data Variables](http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in Implementation Help.
+See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in Implementation Help.
 
 ## Use Processing Rules to Transform Hit Data and Trigger Events {#section_8284E72E999244E091CD7FB1A22342B6}
 

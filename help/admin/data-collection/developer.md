@@ -29,17 +29,17 @@ The following table outlines the libraries available to collect Analytics data a
  <tbody> 
   <tr> 
    <td colname="col1"> Web Browser </td> 
-   <td colname="col2"> <p>All Experience Cloud customers have access to <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="http" scope="external"> dynamic tag management</a>, which is the standard for deploying JavaScript and HTML page tags for all solutions to your website. </p> <p>Other ways of implementing JavaScript and HTML measurement are described in the <a href="http://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="http" scope="external"> Analytics Implementation Guide</a>. </p> </td> 
+   <td colname="col2"> <p>All Experience Cloud customers have access to <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="http" scope="external"> dynamic tag management</a>, which is the standard for deploying JavaScript and HTML page tags for all solutions to your website. </p> <p>Other ways of implementing JavaScript and HTML measurement are described in the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="http" scope="external"> Analytics Implementation Guide</a>. </p> </td> 
    <td colname="col3"> <p> <b>JavaScript</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Web Server </td> 
    <td colname="col2"> <p>You can use native PHP and Java libraries on your web server to send analytics data. </p> <p>The Data Insertion API lets you send XML data directly to the data collection server using HTTP POST and GET, and Data Sources lets you send delimited hit data to an FTP server where it is imported directly to Analytics. </p> 
     <ul id="ul_B602F4D6610D46D6BA65F943E5BA296C"> 
-     <li id="li_4F0A3CC0E5CD4F5AAEECF60A3D81C737"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/php/oms_sc_appmeasure_php.pdf" format="http" scope="external"> PHP AppMeasurement</a> </li> 
-     <li id="li_D2431479035F45F4AB4CE0AF11B4C89C"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
+     <li id="li_4F0A3CC0E5CD4F5AAEECF60A3D81C737"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/php/oms_sc_appmeasure_php.pdf" format="http" scope="external"> PHP AppMeasurement</a> </li> 
+     <li id="li_D2431479035F45F4AB4CE0AF11B4C89C"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
      <li id="li_74B5B70A2E7349EE9FB9721442D0C845"> <a href="https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api" format="https" scope="external"> Data Insertion API</a> </li> 
-     <li id="li_45F309B87FFC40DF9EF0F263C3FB416A"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/datasources/" format="http" scope="external"> Data Sources</a> </li> 
+     <li id="li_45F309B87FFC40DF9EF0F263C3FB416A"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" format="http" scope="external"> Data Sources</a> </li> 
     </ul> </td> 
    <td colname="col3"> <p> <b>PHP</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> <p> <b>Java</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> <p> <b>Data Insertion API</b>: No download, data is sent using web services API. </p> <p> <b>Data Sources</b>: No download, data is uploaded using FTP or web services API. </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ The following table outlines the libraries available to collect Analytics data a
   </tr> 
   <tr> 
    <td colname="col1"> Flash </td> 
-   <td colname="col2"> <p>Flash apps using ActionScript can be measured on the desktop and on the web. </p> <p> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/oms_sc_appmeasure_flash.pdf" format="http" scope="external"> Flash, Flex, and OSMF AppMeasurement</a> </p> </td> 
+   <td colname="col2"> <p>Flash apps using ActionScript can be measured on the desktop and on the web. </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/oms_sc_appmeasure_flash.pdf" format="http" scope="external"> Flash, Flex, and OSMF AppMeasurement</a> </p> </td> 
    <td colname="col3"> <p> <b>Flash/Flex/OSMF</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ The following table outlines the libraries available to collect Analytics data a
    <td colname="col2"> 
     <ul id="ul_44CAE5F5DEA94EAF9743DDB2863E906F"> 
      <li id="li_02BB8027E4F84E5986066ACCCC3CF261"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/winu/" format="https" scope="external"> Windows 8.1 Universal App Store</a> </li> 
-     <li id="li_A3613B71AD2E47CD96C8943117D75B0B"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/osx/" format="http" scope="external"> OS X AppMeasurement 3.x</a> </li> 
-     <li id="li_2FBE124EF9C943E092C1C5FDA5CDDEB8"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
-     <li id="li_ED11FA429E70488A80C27455401887DF"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/dotnet/oms_sc_appmeasure_dotnet.pdf" format="http" scope="external"> Silverlight, .NET, XBOX, and Windows Phone 7 AppMeasurement</a> </li> 
+     <li id="li_A3613B71AD2E47CD96C8943117D75B0B"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/osx/" format="http" scope="external"> OS X AppMeasurement 3.x</a> </li> 
+     <li id="li_2FBE124EF9C943E092C1C5FDA5CDDEB8"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
+     <li id="li_ED11FA429E70488A80C27455401887DF"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/dotnet/oms_sc_appmeasure_dotnet.pdf" format="http" scope="external"> Silverlight, .NET, XBOX, and Windows Phone 7 AppMeasurement</a> </li> 
     </ul> </td> 
    <td colname="col3"> <p> <b>4.x Windows 8.1 Universal App Store</b>: Configure your app in Adobe Mobile services so you can download a customized package that includes a pre-populated version of the configuration file. </p> <p> <b>3.x Windows 8</b>: See <a href="https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications" format="https" scope="external"> Measuring and Optimizing Mobile Applications</a> on Developer Connection for download links. Make sure you log in to see the downloads. </p> <p> <b>3.x OS X</b>: See <a href="https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications" format="https" scope="external"> Measuring and Optimizing Mobile Applications</a> on Developer Connection for download links. Make sure you log in to see the downloads. </p> <p> <b>Java</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> <p> <b>Silverlight, .NET, XBOX</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> </td> 
   </tr> 
@@ -79,7 +79,7 @@ The following table outlines the libraries available to collect Analytics data a
    <td colname="col1"> Image Tags </td> 
    <td colname="col2"> <p>You can insert image tags directly into HTML content when using a library is not possible. </p> 
     <ul id="ul_D406BCF91A40405F8F4408DCD2CBF8F1"> 
-     <li id="li_B8BE3752096F4273B4B71816267ADCDD"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/implement/?f=implscwojs" format="http" scope="external"> Implementing Analytics without JavaScript</a> </li> 
+     <li id="li_B8BE3752096F4273B4B71816267ADCDD"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=implscwojs" format="http" scope="external"> Implementing Analytics without JavaScript</a> </li> 
     </ul> </td> 
    <td colname="col3"> <p>No additional code required. </p> </td> 
   </tr> 
@@ -87,17 +87,17 @@ The following table outlines the libraries available to collect Analytics data a
    <td colname="col1"> Video </td> 
    <td colname="col2"> <p>Video measurement across all platforms is available in the following guides: </p> 
     <ul id="ul_5C56F82F45264F63ABA184C48B27EE18"> 
-     <li id="li_140B692CA3BE476BA024C37E7AE4872F"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="http" scope="external"> Heartbeat video measurement</a> (latest version) </li> 
-     <li id="li_021D77CB25A54647A71F4AE7144EE788"> <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/" format="http" scope="external"> Milestone video measurement</a> </li> 
+     <li id="li_140B692CA3BE476BA024C37E7AE4872F"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="http" scope="external"> Heartbeat video measurement</a> (latest version) </li> 
+     <li id="li_021D77CB25A54647A71F4AE7144EE788"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/" format="http" scope="external"> Milestone video measurement</a> </li> 
     </ul> </td> 
-   <td colname="col3"> <p> <b>Heartbeat Video</b>: See <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/?f=video_implementation" format="http" scope="external"> Video Heartbeat Developer Guide</a> and follow the instructions for your platform. </p> <p> <b>Milestone Video</b>: See <a href="http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_developer" format="http" scope="external"> Measuring Video for Developers</a> and follow the instructions for your platform. </p> </td> 
+   <td colname="col3"> <p> <b>Heartbeat Video</b>: See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/?f=video_implementation" format="http" scope="external"> Video Heartbeat Developer Guide</a> and follow the instructions for your platform. </p> <p> <b>Milestone Video</b>: See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_developer" format="http" scope="external"> Measuring Video for Developers</a> and follow the instructions for your platform. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Release Notes {#section_3BFF38D0A20443E089F795CB04ADE093}
 
-Release notes for all libraries are available at [AppMeasurement and Mobile Release History](http://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/).
+Release notes for all libraries are available at [AppMeasurement and Mobile Release History](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/).
 
 ## Analytics REST and SOAP Web Services {#section_3EF70897B7874CFCBC93724651FBBD93}
 

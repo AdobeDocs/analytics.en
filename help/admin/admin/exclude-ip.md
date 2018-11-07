@@ -67,7 +67,7 @@ You can use wildcard indicators (&#42;) to exclude a range of addresses. For exa
 
 You can also block data collection from specific IP addresses via a firewall.
 
-See the [IP Addresses Used in the Experience Cloud](http://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses) article.
+See the [IP Addresses Used in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses) article.
 
 ## Impact of IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

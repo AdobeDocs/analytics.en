@@ -74,7 +74,7 @@ Follow these steps to use the Propensity Scoring visualization.
 
    Right-clicking on **[!UICONTROL Model Complete]** will identify the accuracy of the scoring model as defined by the system. Values ranging from 0 percent to 100 percent will identify the likelihood of the visitors matching the **[!UICONTROL Target]** variable.
 
-   The [Confusion Matrix](http://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_confusion_matrix)gives four counts by the combination of Actual Positive (AP), Actual Negative (AN), Predicted Positive (PP), and Predicted Negative (PN). These numbers are obtained by applying the resulted scoring model to the 20% withheld testing data of which we know the true answer. If the score is greater than 50%, it is predicted as a positive case (matching the defined event).
+   The [Confusion Matrix](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_confusion_matrix)gives four counts by the combination of Actual Positive (AP), Actual Negative (AN), Predicted Positive (PP), and Predicted Negative (PN). These numbers are obtained by applying the resulted scoring model to the 20% withheld testing data of which we know the true answer. If the score is greater than 50%, it is predicted as a positive case (matching the defined event).
 
    ![](assets/propensity_lift_gain_1.png)
 

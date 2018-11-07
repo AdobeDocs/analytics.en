@@ -81,7 +81,7 @@ The *`s_account`* variable is normally declared inside the JavaScript file (s_co
 Adobe's [!DNL DigitalPulse Debugger] displays the value of *`s_account`* in the path of the URL that appears just below the word "Image," just after /b/ss/. In some cases, the value of *`s_account`* also appears in the domain, before 112.2o7.net. The value in the path is the only value that determines the destination report suite. The bold text below shows the report suites that data is sent to, as it appears in the debugger. See [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
 
 ```js
-http://mycompany.112.207.net/b/ss/ 
+https://mycompany.112.207.net/b/ss/ 
 <b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
 ```
 
@@ -186,7 +186,7 @@ This variable is used in conjunction with the *`dynamicAccountSelection`* and *`
 
 If none of the rules in *`dynamicAccountList`* matches the URL of the page, the report suite identified in *`s_account`* is used. The rules listed in this variable are applied in a left-to-right order. If the page URL matches more than one rule, the left-most rule is used to determine the report suite. As a result, your more generic rules should be moved to the right of the list.
 
-In the following examples, the page URL is [!DNL http://www.mycompany.com/path1/?prod_id=12345], *`dynamicAccountSelection`* is set to 'true,' and *`s_account`* is set to "mysuitecom." 
+In the following examples, the page URL is [!DNL https://www.mycompany.com/path1/?prod_id=12345], *`dynamicAccountSelection`* is set to 'true,' and *`s_account`* is set to "mysuitecom." 
 
 |  DynamicAccountList Value  | DynamicAccountMatch Value  | Report Suite to Receive Data  |
 |---|---|---|
@@ -912,7 +912,7 @@ The list of filters in *`linkInternalFilters`* applies to the domain and path of
 
 Be careful that all the domains of your site (and any partners who are using your JavaScript file) are included in *`linkInternalFilters`*. If you do not have all domains included in the list, all links on and to those domains are considered exit links, increasing the server calls sent. If you would like multiple domains or companies to use a single AppMeasurement for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. If you have vanity domains that immediately redirect to your main domain, those vanity domains do not need to be included in the list.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL http://www.mysite.com/index.html].
+The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL https://www.mysite.com/index.html].
 
 ```js
 s.trackExternalLinks=true 
@@ -920,10 +920,10 @@ s.linkInternalFilters="mysite.com"
 s.linkExternalFilters="" 
 s.linkLeaveQueryString=false 
 ... 
-<a href="http://www.mysite.com">Not an Exit Link</a> 
+<a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
-<a href="http://www2.site3.com">Exit Link</a> 
-<a href="http://www2.site1.com/partners/">Exit Link</a> 
+<a href="https://www2.site3.com">Exit Link</a> 
+<a href="https://www2.site1.com/partners/">Exit Link</a> 
 
 ```
 
@@ -973,7 +973,7 @@ By default, query strings are excluded from all reports.
 For some exit links and download links, the important portion of the URL can be in the query string, as shown in the following sample URL.
 
 ```js
-http://www.mycompany.com/download.asp?filename=myfile.exe
+https://www.mycompany.com/download.asp?filename=myfile.exe
 ```
 
 The download file name can be defined in the query string and, consequently, the query string is necessary to make the [!UICONTROL File Downloads] report more accurate.
@@ -1061,7 +1061,7 @@ s.events="event1"
 s.eVar1="value A" 
 s.eVar2="value B" 
 s.t() // eVar1, event1 and event2 are recorded 
-<a href="http://google.com">event1 and eVar1 are recorded</a> 
+<a href="https://google.com">event1 and eVar1 are recorded</a> 
 <a href="test.php" onClick="s=s_gi('rs1');s.eVar1='value C';s.events='';s.tl(this,'o')">eVar1 is recorded</a> 
 
 ```
@@ -1187,7 +1187,7 @@ The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to
 
 Most companies find that *`linkInternalFilters`* gives them enough control over exit links that they don't need *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL http://www.mysite.com/index.html].
+The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL https://www.mysite.com/index.html].
 
 ```js
 s.trackExternalLinks=true 
@@ -1195,11 +1195,11 @@ s.linkInternalFilters="javascript:,mysite.com"
 s.linkExternalFilters="site1.com,site2.com,site3.com/partners" 
 s.linkLeaveQueryString=false 
 ... 
-<a href="http://www.mysite.com">Not an Exit Link</a> 
+<a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
-<a href="http://www2.site3.com">Not an Exit Link</a> 
-<a href="http://www.site1.com">Exit Link</a> 
-<a href="http://www2.site3.com/partners/offer.asp">Exit Link</a> 
+<a href="https://www2.site3.com">Not an Exit Link</a> 
+<a href="https://www.site1.com">Exit Link</a> 
+<a href="https://www2.site3.com/partners/offer.asp">Exit Link</a> 
 
 ```
 

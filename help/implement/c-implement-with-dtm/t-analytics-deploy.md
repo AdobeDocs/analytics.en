@@ -22,7 +22,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 1. Download [!DNL Analytics] measurement code:
    1. In [!DNL Adobe Experience Cloud], click **[!UICONTROL Reports & Analytics]** > **[!UICONTROL Admin Tools]**.
    1. Click **[!UICONTROL Code Manager]**.
-   1. Click [JavaScript (new)](http://microsite.omniture.com/t2/help/en_US/sc/implement/?f=appmeasure_mjs) to download the code locally.
+   1. Click [JavaScript (new)](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=appmeasure_mjs) to download the code locally.
 1. In Dynamic Tag Management, [create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
 
    ![](assets/dtm-property.png)

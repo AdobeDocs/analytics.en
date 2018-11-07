@@ -25,9 +25,9 @@ If you want to track additional information, but don’t have enough variables t
 |  Adobe Analytics Product  |  |  |  |
 |---|---|---|---|
 |  Adobe Analytics - Foundation  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Select](http://www.adobe.com/data-analytics-cloud/analytics/select.html)  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Prime](http://www.adobe.com/data-analytics-cloud/analytics/prime.html)  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Ultimate](http://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)  | 75 props  | 250 eVars  | 1000 Events  |
+| Adobe Analytics - [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)  | 75 props  | 200 eVars  | 1000 Events  |
+| Adobe Analytics - [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)  | 75 props  | 200 eVars  | 1000 Events  |
+| Adobe Analytics - [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)  | 75 props  | 250 eVars  | 1000 Events  |
 
 ## Populating Variables and Events {#section_DEA51A22BCBB4B92BDD25814AAD296E4}
 

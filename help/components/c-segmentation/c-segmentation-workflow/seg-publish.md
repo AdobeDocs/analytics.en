@@ -15,7 +15,7 @@ snippet: y
 
 Lets you use the segment for marketing activity in the Audience library, Target, and Audience Management.
 
-This check box in the Segment Builder appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](http://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+This check box in the Segment Builder appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
 
 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. 
 

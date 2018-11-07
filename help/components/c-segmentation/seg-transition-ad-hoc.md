@@ -22,7 +22,7 @@ If you are used to working with the Segment Builder in Ad Hoc Analysis, this FAQ
 * Ad Hoc Analysis includes updates to the Segment Builder and a complete update of the Segment Manager. 
 * You can now tag segments to organize and search later instead of using folders. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
 
-See [ad hoc analysis release notes](http://marketing.adobe.com/resources/help/en_US/dsc/?f=c_release_notes_dsc) for additional information.
+See [ad hoc analysis release notes](https://marketing.adobe.com/resources/help/en_US/dsc/?f=c_release_notes_dsc) for additional information.
 
 ## What happened to my existing segments? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 

@@ -31,7 +31,7 @@ Upon generating code within the [!UICONTROL code manager], you are given the fol
 ```js
 var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
 <script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script> 
-<noscript><img src="http://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" /></noscript> 
+<noscript><img src="https://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" /></noscript> 
 
 ```
 
@@ -46,7 +46,7 @@ This line of code is what actually fires the Javascript function. The [!UICONTRO
 ```js
 <script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script> 
 <noscript><img  
-src="http://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" />
+src="https://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" />
 ```
 
 For any additional questions about the [!UICONTROL s.t()] function, contact your organization's Account Manager. They can arrange a meeting with an Adobe Implementation Consultant, who can provide assistance. 

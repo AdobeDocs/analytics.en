@@ -58,7 +58,7 @@ To configure page overlay for [!UICONTROL Site], you must edit two files:
    window = simpleBorderWindow: 
      client = scrollWindow: 
        client = PageOverlay: 
-         URI Template = string: http://%Domain%%Element%
+         URI Template = string: https://%Domain%%Element%
          URI Parameters = map: 
            Domain = string: domain name
            Element = ref: Element/Name

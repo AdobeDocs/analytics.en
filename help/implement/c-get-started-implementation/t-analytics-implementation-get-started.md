@@ -68,7 +68,7 @@ In this procedure enables you to:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Layer </p> </td> 
-   <td colname="col2"> <p>(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag Management, you will be using a data layer. </p> <p>For a blog on data layers, see <a href="http://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
+   <td colname="col2"> <p>(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag Management, you will be using a data layer. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Repository (Report Suite) </p> </td> 

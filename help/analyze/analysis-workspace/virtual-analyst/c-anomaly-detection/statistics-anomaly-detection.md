@@ -19,7 +19,7 @@ Depending on the date granularity used in the report, 3 different statistical te
 
 For daily granularity reports, the algorithm considers several important factors to deliver the most accurate results possible. First, the algorithm determines which type of model to apply based on available data of which we select between one of two classes - a time-series-based model or an outlier-detection model (called functional filtering).
 
-The time series model selection is based on the following combinations for type of error, trend, and seasonality (ETS) as described by [Hyndman et al. (2008)](http://www.springer.com/us/book/9783540719168). Specifically, the algorithm tries the following combinations:
+The time series model selection is based on the following combinations for type of error, trend, and seasonality (ETS) as described by [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifically, the algorithm tries the following combinations:
 
 1. ANA (additive error, no trend, additive seasonality) 
 1. AAA (additive error, additive trend, additive seasonality) 

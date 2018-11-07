@@ -1537,12 +1537,12 @@ Only URL-compatible characters are allowed as the page URL.
 ## Examples {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
 ```js
-s.pageURL="http://mysite.com/home.jsp?id=1224" 
+s.pageURL="https://mysite.com/home.jsp?id=1224" 
 
 ```
 
 ```js
-s.pageURL="http://www.mysite.com/"
+s.pageURL="https://www.mysite.com/"
 ```
 
 ## Configuration Settings {#section_A8F77DAD88164528ACC5C16C066B47DF}
@@ -1839,7 +1839,7 @@ Only URL-compatible values should be in the *`referrer`*. Make sure the string i
 ## Examples {#section_86FB1577670C4AA18BF3718F0832FCD4}
 
 ```js
-s.referrer="http://www.google.com/search?q=search+string" 
+s.referrer="https://www.google.com/search?q=search+string" 
 s.referrer=<%=referrerVar%> // populated server-side  
 if(s.getQueryParam('ref') 
 s.referrer=s.getQueryParam('ref') 

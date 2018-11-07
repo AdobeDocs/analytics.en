@@ -36,7 +36,7 @@ Bot traffic data is stored in a separate repository for display in the [!UICONTR
  <tbody> 
   <tr> 
    <td colname="col1"> <p>IAB </p> </td> 
-   <td colname="col2"> <p>Selecting <span class="uicontrol"> Include IAB</span> uses the IAB/ABCe International Spiders &amp; Bots List to remove bot traffic. This list is updated monthly by the IAB. </p> <p>To submit a bot to the IAB list, visit <a href="http://www.iab.net/sites/spiders/form.php" scope="external" format="html"> http://www.iab.net/sites/spiders/form.php</a>. </p> <p>Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site. </p> </td> 
+   <td colname="col2"> <p>Selecting <span class="uicontrol"> Include IAB</span> uses the IAB/ABCe International Spiders &amp; Bots List to remove bot traffic. This list is updated monthly by the IAB. </p> <p>To submit a bot to the IAB list, visit <a href="https://www.iab.net/sites/spiders/form.php" scope="external" format="html"> https://www.iab.net/sites/spiders/form.php</a>. </p> <p>Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom Bot Rules </p> </td> 

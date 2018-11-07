@@ -11,7 +11,7 @@ snippet: y
 
 # GDPR/ePrivacy compliance and server-side forwarding
 
-This section explains recent enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
+This section explains recent enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
 
 Server-side forwarding is used to share data from Adobe Analytics to other Experience Cloud Solutions, such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
 

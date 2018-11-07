@@ -1,5 +1,12 @@
-# Table of Contents
+---
+product: analytics
+audience: end-user
+user-guide-title: Analytics Onboarding Guide
+---
 
+# Analytics Onboarding Guide {#onboarding-guide}
+
++ [Onboarding Guide Help](home.md)
 + [First Admin Guide](first-admin-guide.md)
 + [Create a Report Suite](create-report-suite.md)
 + [Create an Analytics property in Adobe Launch](analytics-property-launch.md)

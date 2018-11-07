@@ -31,52 +31,17 @@ To view monthly traffic overview data, locate the month where you want to view t
 
 The resulting [!UICONTROL Monthly Invoice] report includes the following information: 
 
-<table id="table_526AB4C5DEAB48369C6F64BF7EA3EA1A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Column </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Report Suite </span> </p> </td> 
-   <td colname="col2"> <p>The report suite involved in the data collection activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Location</span> </p> </td> 
-   <td colname="col2"> <p>The data center that stores the report suite data: San Jose (California), Dallas (Texas), Pacific Northwest (US), London (UK), or Singapore. In most cases, all company report suites are located in the same data center. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Primary Server Calls </span> </p> </td> 
-   <td colname="col2"> <p>Requests received directly from website visitor browsers or the Data Insertion API. Includes Primary Hits (Page Views), Primary Custom Events, Primary Download Events, and Primary Exit Events. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Secondary Server Calls </span> </p> </td> 
-   <td colname="col2"> <p>Copies of primary server calls created by multi-suite tags or copied/moved by a VISTA rule. </p> <p>If a secondary server call has been moved (not copied) to a different report suite by a VISTA rule, the <span class="wintitle"> Billing</span> page identifies this transfer with a negative number. In this case, the accumulated secondary calls are deducted from the primary server calls. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Total Server Calls </span> </p> </td> 
-   <td colname="col2"> <p>The combined total of primary and secondary server calls for this report suite at the given location. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Page Views </span> </p> </td> 
-   <td colname="col2"> <p>Page view totals for each report suite. You can confirm page view values in <span class="uicontrol"></span> <span class="uicontrol"> Site Metrics</span> &gt; <span class="uicontrol"> Page Views</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Downloads </span> </p> </td> 
-   <td colname="col2"> <p>Download totals for each report suite. You can confirm the download values in <span class="uicontrol"> Site Content</span> &gt; <span class="uicontrol"> Links</span> &gt; <span class="uicontrol"> File Downloads</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Custom Links </span> </p> </td> 
-   <td colname="col2"> <p>Custom link totals for each report suite. You can confirm the custom link values in <span class="uicontrol"> Site Content</span> &gt; <span class="uicontrol"> Links</span> &gt; <span class="uicontrol"> Custom Links</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Exit Links </span> </p> </td> 
-   <td colname="col2"> <p>Exit link totals for each report suite. You can confirm the exit link values in <span class="uicontrol"> Site Content</span> &gt; <span class="uicontrol"> Links</span> &gt; <span class="uicontrol"> Exit Links</span>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Column  | Description  |
+|--- |--- |
+|Report Suite|The report suite involved in the data collection activity.|
+|Location|The data center that stores the report suite data: San Jose (California), Dallas (Texas), Pacific Northwest (US), London (UK), or Singapore. In most cases, all company report suites are located in the same data center.|
+|Primary Server Calls|Requests received directly from website visitor browsers or the Data Insertion API. Includes Primary Hits (Page Views), Primary Custom Events, Primary Download Events, and Primary Exit Events.|
+|Secondary Server Calls|Copies of primary server calls created by multi-suite tags or copied/moved by a VISTA rule.  If a secondary server call has been moved (not copied) to a different report suite by a VISTA rule, the  Billing page identifies this transfer with a negative number. In this case, the accumulated secondary calls are deducted from the primary server calls.|
+|Total Server Calls|The combined total of primary and secondary server calls for this report suite at the given location.|
+|Page Views|Page view totals for each report suite. You can confirm page view values in   Site Metrics >  Page Views.|
+|Downloads|Download totals for each report suite. You can confirm the download values in  Site Content >  Links >  File Downloads.|
+|Custom Links|Custom link totals for each report suite. You can confirm the custom link values in  Site Content >  Links >  Custom Links.|
+|Exit Links|Exit link totals for each report suite. You can confirm the exit link values in  Site Content >  Links >  Exit Links.|
 
 >[!NOTE]
 >

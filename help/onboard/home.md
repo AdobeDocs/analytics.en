@@ -11,9 +11,9 @@ This guide is intended for those who are implementing Adobe Analytics.
 
 ## Key articles
 
-+ [Admin Getting Started](admin/admin.md)
-+ [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-+ [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
+* [Admin Getting Started](admin/admin.md)
+* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
+* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
 
 ## Analytics user guides
 

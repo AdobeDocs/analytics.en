@@ -2,7 +2,6 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
-<!-- user-guide-url: https://www.adobe.com -->
 ---
 
 # Analytics Admin Guide {#admin-guide}

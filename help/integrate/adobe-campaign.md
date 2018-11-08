@@ -23,7 +23,7 @@ This integration between Adobe Analytics and Adobe Campaign
 * Adds 6 new Adobe Campaign dimensions. 
 * Synchronizes data to Analytics every 15 minutes.
 
-## 1. Enable Adobe Campaign Reporting {#section_C685EF10505045708A6536BB13F6CD58}
+## Step 1. Enable Adobe Campaign Reporting {#section_C685EF10505045708A6536BB13F6CD58}
 
 In order to view Campaign data in Analytics, you first have to enable Campaign reporting.
 
@@ -32,7 +32,7 @@ In order to view Campaign data in Analytics, you first have to enable Campaign r
 
    ![](assets/enable-campaign.png)
 
-## 2. View Adobe Campaign Reports {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## Step 2. View Adobe Campaign Reports {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 
 
@@ -51,7 +51,7 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
  </tbody> 
 </table>
 
-## 3. Use Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## Step 3. Use Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
@@ -114,4 +114,3 @@ The following **dimensions** are available from Campaign in Adobe Analytics repo
   </tr> 
  </tbody> 
 </table>
-

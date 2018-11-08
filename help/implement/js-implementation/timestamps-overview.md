@@ -33,7 +33,6 @@ See [Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/refer
 Using the Timestamps Optional feature, you can combine non-timestamped data with timestamped data without incurring data loss. Offline data with timestamps generated from a mobile device can be combined with live, non-timestamped data from a web page—or integrated with data from any platform using a client-side timestamp call.
 
 * **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript ( [ [!DNL s.timestamp]](timestamp.md#concept_D997A2FF4D134C80A614C0BC7A4D7507)) on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app. 
-
 * **Non-timestamp data**. Adobe sets a timestamp on non-timestamped data in a report suite when the data hits the collection servers.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,8 +61,6 @@ Timestamps Optional allows you to integrate and report across multiple report su
   </tr> 
  </tbody> 
 </table>
-
-****
 
 **With Timestamps Optional**, you can integrate non-timestamped data from a live website with offline data from mobile devices, or update your non-timestamped app to a timestamped app. ![](assets/timestamp_v_non6.png)
 
@@ -94,4 +91,3 @@ The following are best practices and a few requirements and restrictions to be a
   ![](assets/timestamp_v_non.png)
 
   In addition, hybrid apps should not set a visitor ID.
-

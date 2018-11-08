@@ -20,7 +20,7 @@ Facebook Instant Articles is a new method for publishers to build fast, interact
 
 Adobe Analytics can be embedded within the Facebook Instant Articles to track visitor behavior as they interact with the content. Because publisher content is within the Facebook app and not on the publisher's websites, the tagging approach is slightly different than a standard Analytics implementation.
 
-## 1. Embed an Analytics HTML page {#section_0DF847F8BA624CF8A239C10003A39E59}
+## Step 1. Embed an Analytics HTML page {#section_0DF847F8BA624CF8A239C10003A39E59}
 
 When creating your Facebook Instant Article content, you can embed the analytics HTML content within an iFrame. For example:
 
@@ -28,7 +28,7 @@ When creating your Facebook Instant Article content, you can embed the analytics
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html" height="0"></iframe>
 ```
 
-## 2. Modify your Analytics HTML {#section_76707B51D63A47FF833C2D3FFF8412B4}
+## Step 2. Modify your Analytics HTML {#section_76707B51D63A47FF833C2D3FFF8412B4}
 
 The sample HTML below can be used to capture stats from the instant articles. This file would typically be hosted on one of your company's web servers. Each time an Instant Article is loaded, it loads the file in an iframe as outlined in step one, which triggers sending the analytics data to Adobe.
 
@@ -66,10 +66,9 @@ The sample HTML below can be used to capture stats from the instant articles. Th
         </script> 
     </body> 
 </html> 
-
 ```
 
-** To modify this sample HTML for your specific implementation**
+**To modify this sample HTML for your specific implementation**
 
 1. It is recommended to host the latest copies of unmodified versions of the VisitorAPI.js and AppMeasurement.js on a common directory on your company's web servers.
 
@@ -85,7 +84,7 @@ The sample HTML below can be used to capture stats from the instant articles. Th
 1. [Set custom variable and event tracking](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B). 
 1. Include the page view image request syntax `( s.t())`.
 
-## 3. Set custom variable and event tracking {#section_932C41BD21154C25B99389299BDF3E0B}
+## Step 3. Set custom variable and event tracking {#section_932C41BD21154C25B99389299BDF3E0B}
 
 Custom variables and events can be tracked within your analytics HTML via different approaches. The first approach is to include JavaScript logic in your custom configuration, similar to what you might do with a standard Analytics implementation. For example, to set the value of a prop, simply use the same syntax that you would use in a normal implementation:
 
@@ -106,7 +105,6 @@ s.pageName = s.Util.getQueryParam("pageName");
 s.campaign = s.Util.getQueryParam("cmpId"); 
 s.eVar1 = s.Util.getQueryParam("eVar1"); 
 s.prop1 = s.Util.getQueryParam("prop1"); 
-
 ```
 
 ## Visitor Tracking {#section_60F0C77659534949831E85B5FD9AE81E}

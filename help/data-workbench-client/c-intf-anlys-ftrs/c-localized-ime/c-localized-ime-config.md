@@ -15,7 +15,7 @@ snippet: y
 
 Complete these tasks to employ the Localized Input Method Editor (IME).
 
-## 1. Update the server. {#section_5D07A081BEFC4EAA8FDF7FEA904E0D48}
+## Step 1. Update the server. {#section_5D07A081BEFC4EAA8FDF7FEA904E0D48}
 
 The administrator must first complete these tasks to update the server components:
 
@@ -24,7 +24,6 @@ The administrator must first complete these tasks to update the server component
 1. Place the [!DNL Insight.zbin] file in the root directory of the Report Server where the [!DNL Insight.exe] is located. Then restart the Report Server.
 
 * If the [!DNL .zbin] file is updated from the server, then you will need to exit and re-launch the client for the new [!DNL .zbin] file to take effect. 
-
 * Restart the Report Server service in addition to the client application for the new [!DNL .zbin] file to take effect after updating. 
 * The base\localization\&#42;.zbin will be synched from the server. It will be your responsibility as the Data Workbench administrator to select and copy a .zbin files and rename it to "insight.zbin". Then place it in the root directory for the client and Report Server.
 
@@ -40,12 +39,10 @@ If a splash screen is requested but missing, Data Workbench will access the Engl
 **Server implementation notes**
 
 * An [!DNL Insight.zbin] file is included in the installation folder that contains the [!DNL insight.exe] file. If you connect to servers that don't support localization, Data Workbench will check first for an updated [!DNL zbin] file in the [!DNL Base/Localization] folder. This folder is automatically updated by the server to add or remove [!DNL .zbin] files in this folder. 
-
 * If you connect to a server that doesn't support IME localization, the [!DNL .zbin] files will be removed from the [!DNL Base/Localization] folder and Data Workbench will employ the [!DNL insight.zbin] file in the installation folder. The backup [!DNL insight.zbin] file can be provided in any supported language. 
-
 * For example, you can access an English dictionary at start-up (by providing no command-line argument), but Data Workbench may access the backup [!DNL insight.zbin] if the server does not support localization. In most cases, a Chinese user will start with [!DNL Insight.exe -zh-cn], but may access a backup [!DNL insight.zbin] if needed that is also in Chinese.
 
-## 2. Update the client. {#section_9653D3FCAF2A4337A97B685857E7AEAC}
+## Step 2. Update the client. {#section_9653D3FCAF2A4337A97B685857E7AEAC}
 
 After updating the server, follow these steps to update each client.
 
@@ -78,4 +75,3 @@ After updating the server, follow these steps to update each client.
    Insight Terminated: The backup dictionary file insight.zbin 
    is missing.
    ```
-

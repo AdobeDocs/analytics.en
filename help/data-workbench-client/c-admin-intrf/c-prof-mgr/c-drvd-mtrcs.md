@@ -29,7 +29,7 @@ You use a [!UICONTROL Metric Editor] to define a new metric by name, formula, an
 
    Note that spaces ( ) are allowed while underscores (_) are not. In addition, you cannot use the following symbols:
 
-   + - &#42; /
+   `+ - * /`
 
    ![](assets/vis_MetricEditor_NewAndEditing.png)
 
@@ -39,28 +39,28 @@ You use a [!UICONTROL Metric Editor] to define a new metric by name, formula, an
 
    The following table provides sample expressions for extended metrics.
 
-<table id="table_ED77997FC08F492490DCAC3C4153781C"> 
- <thead> 
-  <tr valign="top"> 
-   <th colname="col1" class="entry"> Extended Metric Name </th> 
-   <th colname="col2" class="entry"> Expression </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> <p>Percent First Sessions </p> </td> 
-   <td colname="col2"> <p><span class="filepath"> Sessions [Session_Number="1"]/Sessions</span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p>Conversion First Sessions </p> </td> 
-   <td colname="col2"> <p><span class="filepath"> Conversion [Session_Number="1"]</span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p>Average Value Per Visitor </p> </td> 
-   <td colname="col2"> <p><span class="filepath"> Value/Visitors</span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_ED77997FC08F492490DCAC3C4153781C"> 
+     <thead> 
+      <tr valign="top"> 
+       <th colname="col1" class="entry"> Extended Metric Name </th> 
+       <th colname="col2" class="entry"> Expression </th> 
+      </tr>
+     </thead>
+     <tbody> 
+      <tr valign="top"> 
+       <td colname="col1"> <p>Percent First Sessions </p> </td> 
+       <td colname="col2"> <p><span class="filepath"> Sessions [Session_Number="1"]/Sessions</span> </p> </td> 
+      </tr> 
+      <tr valign="top"> 
+       <td colname="col1"> <p>Conversion First Sessions </p> </td> 
+       <td colname="col2"> <p><span class="filepath"> Conversion [Session_Number="1"]</span> </p> </td> 
+      </tr> 
+      <tr valign="top"> 
+       <td colname="col1"> <p>Average Value Per Visitor </p> </td> 
+       <td colname="col2"> <p><span class="filepath"> Value/Visitors</span> </p> </td> 
+      </tr> 
+     </tbody> 
+    </table>
 
    >[!NOTE]
    >
@@ -88,4 +88,3 @@ If you would like all users of the profile to use the metric that you created, y
 1. In the [!UICONTROL Metric Editor], edit and save the metric definition as necessary using Steps 2-4 in [Creating New Derived Metrics](../../../data-workbench-client/c-admin-intrf/c-prof-mgr/c-drvd-mtrcs.md#section_D57B98BF0A9940DABA4920FF7EFC808D).
 
    If you would like all users of the profile to use the metric that you edited, you must publish it to the working profile using the [!UICONTROL Profile Manager]. See [Publishing Files to Your Working Profile](../../../data-workbench-client/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task_A0106E010C834D16BD60EEF4721B6AF9).
-

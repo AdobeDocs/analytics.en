@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# 2D graphs
+# Use 2D graphs
 
 Two-dimensional (2D) graphs display a metric across two dimensions.
 

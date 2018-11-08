@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# 3D scatter plots
+# Use 3D scatter plots
 
 A 3D Scatter Plot graphs the elements of a data dimension (such as Days or Referral Site) on a three-dimensional grid where the x, y, and z axes represent various metrics.
 
@@ -47,8 +47,6 @@ Like [Scatter Plot 2D](https://marketing.adobe.com/resources/help/en_US/insight/
    >    * Drag a metric to one of the three axis labels and drop it to change the selected axis to the dropped metric. 
    >    * Drag a metric anywhere else on the visualization and drop it to change the radius metric for that axis. 
    >    * Drag a dimension to anywhere on the visualization and drop it to change the dimension for the visualization. 
-   >    
-   >
 
 1. Change the Radius Metric. Right-click the title at the top of the page (titled after the selected dimension) and select **[!UICONTROL Change Radius Metric]**.
 
@@ -65,7 +63,5 @@ Like [Scatter Plot 2D](https://marketing.adobe.com/resources/help/en_US/insight/
 1. Select points from the scatter plot.
 
     * **To remove a point or group of points**: Click the point. 
-    * **To add another point or group of points to your selection**: **Ctrl** + **click** a point or **Ctrl** + **drag** across multiple points. 
-    
+    * **To add another point or group of points to your selection**: **Ctrl** + **click** a point or **Ctrl** + **drag** across multiple points.
     * **To remove a point or group of points from your selection**: **Shift** + **click** a point or **Shift** **+** **drag** across several points.
-

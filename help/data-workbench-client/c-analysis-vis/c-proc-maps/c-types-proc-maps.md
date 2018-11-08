@@ -15,7 +15,7 @@ snippet: y
 
 Information about the different types of process maps.
 
-## 2D process maps {#section_EA7FBDB80B1B44AEBCD9E4090B6540BF}
+## Use 2D process maps {#section_EA7FBDB80B1B44AEBCD9E4090B6540BF}
 
 Two-dimensional process maps provide a two-dimensional view of the activity between dimension elements. The size of a node in a 2D process map is proportional to the value of the metric associated with that node. In addition, both the thickness and intensity of an arrow between two nodes are proportional to the average of the metric’s values for those nodes.
 
@@ -35,7 +35,7 @@ The 2D process map in the following example shows nodes corresponding to the nam
 
 In the example, the size of each node and the thickness and intensity of each arrow are proportional to the Ratings metric, which is a count of ratings that a movie received. Therefore, a movie with a large node, such as *Independence Day*, has more ratings than a movie with a small node, such as *Event Horizon*. You also can see that more movie viewers rated *Independence Day* before *Cold Mountain* than rated the same movies in the opposite order. Note that the arrows do not indicate that viewers rated *Independence Day* and then rated *Cold Mountain* immediately afterward, or vice versa. Viewers might have rated other movies in between, but these movies are not shown on this map.
 
-## 2D metric maps {#section_A9B846FC71224058918FBC378315EFFE}
+## Use 2D metric maps {#section_A9B846FC71224058918FBC378315EFFE}
 
 Two-dimensional metric maps are a type of 2D process map that position nodes based on the value of a particular metric. In many cases, the metric used with the 2D metric map is either Conversion or Retention. Conversion and retention maps help you understand what steps in the processes of your customer-facing channels influence customer conversion and retention.
 
@@ -55,7 +55,7 @@ Similarly, retention maps show elements with 0 percent retention at the left of 
 >
 >You cannot move nodes on 2D metric maps horizontally. Metric maps are designed to position nodes left to right based on their metric values.
 
-## 3D process maps {#section_80ACB63EA0994AF1AF7FAEF3C6264E51}
+## Use 3D process maps {#section_80ACB63EA0994AF1AF7FAEF3C6264E51}
 
 Three-dimensional process maps provide a three-dimensional view of the activity between dimension elements. The height of a bar in a 3D process map is proportional to the value of the metric associated with that node. As with 2D process maps, both the thickness and intensity of the connectors between two nodes are proportional to the average of the metric’s values for those nodes. Within a 3D process map, you can do any of the following tasks:
 

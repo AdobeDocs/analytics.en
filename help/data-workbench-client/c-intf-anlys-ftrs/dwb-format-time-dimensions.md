@@ -17,7 +17,7 @@ You can configure the displayed format of time dimensions based on locale in the
 
 For example, in North America you can express the date May 3rd, 2015 as 5/3/15, or ** `%m/%d/%y`**. However, in other parts of the world this could be interpreted as `%d/%m/%y`, or March 5th, 2015 due to an ambiguity in the values. To avoid this situation, an administrator might want to change the displayed format to match the expectations of the users in a locale.
 
-## 1. Override Default Time Dimensions in Standard Time Dimensions.cfg {#section_7D0B24657BEF4B15ABB3CBEA66CB617F}
+## Step 1. Override Default Time Dimensions in Standard Time Dimensions.cfg {#section_7D0B24657BEF4B15ABB3CBEA66CB617F}
 
 To enable this feature, the administrator must override the defaults by either editing the existing time dimensions or by creating new time dimensions with additional parameters.
 
@@ -61,7 +61,7 @@ Transformation Include = TransformationInclude:
 
 ![](assets/6_4_time_format.png)
 
-## 2. Configure the meta.cfg file {#section_5E077D3298DD48FDA7F7BB16AF9EA00C}
+## Step 2. Configure the meta.cfg file {#section_5E077D3298DD48FDA7F7BB16AF9EA00C}
 
 Additionally, it's necessary for the package administrator to add these parameters and their defaults to profile's ** [!DNL meta.cfg]** file. This allows editing from the workstation.
 

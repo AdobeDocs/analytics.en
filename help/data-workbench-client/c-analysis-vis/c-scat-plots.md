@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# 2D scatter plots
+# Use 2D scatter plots
 
 Scatter plots graph the elements of a data dimension (such as Page or City) on a grid in which the x- and y-axes represent different metrics.
 
@@ -29,7 +29,7 @@ The size of each point on the scatter plot is determined by the radius metric. T
 
 ## Select points {#section_4B4D45F39B884D54BB7407B3B2F4EA50}
 
-**To select a single point **
+**To select a single point**
 
 * Click the point.
 

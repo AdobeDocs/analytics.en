@@ -249,6 +249,7 @@ You set up Anomaly Detection independently for each report suite.
 1. You can now start interpreting the report. [Viewing Anomaly Detection charts](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
    Step Result 
+
 ## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 
 Describes how to view and interpret real-time reports.

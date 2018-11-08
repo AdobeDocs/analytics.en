@@ -673,15 +673,15 @@ The return value is the probability of seeing the test statistic x given the deg
 
 1. Use it to find outliers:
 
-```
-t_test( zscore(bouncerate), row-count-1, 2)
-```
+   ```
+   t_test( zscore(bouncerate), row-count-1, 2)
+   ```
 
-2. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
 
-```
-if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
-```
+   ```
+   if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
+   ```
 
 ## <draft-comment author="ind14750" otherprops="merge"> tan.xml </draft-comment>Tangent {#concept_C25E00CB17054263AB0460D9EF94A700}
 

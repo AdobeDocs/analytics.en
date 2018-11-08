@@ -37,7 +37,7 @@ You can drag this custom date range into a column alongside a custom, monthly ro
 
 ![](assets/date-range-two-months-table.png)
 
-## 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 A date range applies to the panel level. To add a date range to your project, click **Actions** > **Add Panel**, and specify a new date range.
 

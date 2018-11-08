@@ -16,7 +16,7 @@ Here are a few common pitfalls when using Report Builder with Power BI.
 * [Failure to Publish to Power BI](../../../analyze/report-builder/c-publish-power-bi/troubleshooting.md#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B) 
 * [Broken Visualizations in Power BI](../../../analyze/report-builder/c-publish-power-bi/troubleshooting.md#section_FFFE200D06F843B2AF093710FD678166)
 
-## 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## Step 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 Scheduled workbooks that require Power BI publishing are dependent on Power BI services to be up and running. Two main reasons for a failure to publish are:
 
@@ -29,7 +29,7 @@ Each Report Builder scheduled task gets three tries per scheduled run:
 * After the second unsuccessful attempt, you will get no message. 
 * After the third unsuccessful attempt, you will get this message: "We were unable to publish this workbook to Power BI."
 
-## 2. Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## Step 2. Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
 
 Here are the top reasons why you could end up with broken visualizations after publishing Report Builder requests to Power BI:
 

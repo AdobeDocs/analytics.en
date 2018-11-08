@@ -23,7 +23,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 [4. Virtual Report Suites](../../analyze/activity-map/activitymap-faq.md#section_BDB0CA9E732F478EAC349A79753A78DB)
 
-## 1. Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## Step 1. Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
 |  **Q: What are the implementation steps for enabling the new Activity Map?** |A: Please review [Enabling Activity Map](activitymap-enable.md#concept_4C5A1178C8E040B99CAE7A25473E67D6)  |
 |---|---|
@@ -33,7 +33,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 |  **Q: Will AppMeasurement be rolled out at the domain level rather than on specific pages?** | A: AppMeasurement is rolled out at the report-suite level. The report-suite level is typically associated with a domain level, but this differs with each implementation.  |
 |  **Q: DTM automatically loads an older version (1.3.4) of the Visitor API than Activity Map wants (1.5.1). Is this a problem?** | A: No. Activity Map functionality is not dependent on the VisitorAPI.  |
 
-## 2. Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Step 2. Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 <table id="table_7EFBE9CC801A4D2FB183407D177193B3"> 
  <tbody> 
@@ -114,13 +114,13 @@ Frequently asked questions for setting up, configuring, and employing features i
  </tbody> 
 </table>
 
-## 3. Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Step 3. Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
 |  **Q: Are segments tied to the individual user segments? Or are shared Admin-level segments available in Activity Map?** | A: Activity Map inherits your Admin-level segments (reporting segments) from Reports & Analytics.  |
 |---|---|
 |  **Q: Do segments work in Live mode?** | A: No, segments do not work in Live mode. The functionality is equivalent to that of real-time reporting in Reports & Analytics.  |
 
-## 4. Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Step 4. Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
 
 |  **Q: Is Activity Map compatible with virtual report suites?** | A: Yes. However, due to virtual report suite limitations, Activity Map's Live Mode is not compatible with virtual report suites.  |
 |---|---|

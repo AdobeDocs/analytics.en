@@ -19,7 +19,8 @@ Drag items from tool panes to add them to the graph or the dimensions field.
 
 Right-click cylinders to edit or remove them. 
 
-#### Options
+## Options
+
 <table id="table_B38BD7AA465B40BABEDC8F66EB3A852F">  
  <thead> 
   <tr> 
@@ -59,7 +60,8 @@ Right-click cylinders to edit or remove them.
  </tbody> 
 </table>
 
-#### Right-Click Options
+## Right-Click Options
+
 <table id="table_BD98971B579D4BF49E1C932A9C876752">  
  <thead> 
   <tr> 
@@ -90,4 +92,3 @@ Right-click cylinders to edit or remove them.
   </tr> 
  </tbody> 
 </table>
-

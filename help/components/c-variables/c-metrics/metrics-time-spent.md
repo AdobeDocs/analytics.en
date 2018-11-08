@@ -248,7 +248,8 @@ Assume the following set of server calls are for a single visitor within a singl
  </tbody> 
 </table>
 
-#### eVar Example:
+### eVar Example
+
 <table id="table_6D0CF0C53DC145D3A53C06EC3012BCC0">  
  <thead> 
   <tr> 
@@ -286,7 +287,8 @@ Assume the following set of server calls are for a single visitor within a singl
  </tbody> 
 </table>
 
-#### Prop Example:
+### Prop Example
+
 <table id="table_1CB4D24A6CAA479C8E59A7C77FFB8226">  
  <thead> 
   <tr> 
@@ -352,4 +354,3 @@ Some additional notes in support of the example:
 
     * For the purposes of Time Spent only, props are “spread forward” from page hits to subsequent link hits as shown above for prop1 on hit 2. This allows the value that was set for prop1 on hit 1 (“A”) to accumulate time spent on hit 2. 
     * eVars accumulate Time Spent on any hit where the eVar is set or persisted. eVar persistence is defined by the eVar settings in Analytics Admin.
-

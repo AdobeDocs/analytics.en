@@ -59,7 +59,6 @@ Access the Segment Builder by
 1. **[!UICONTROL Comparison:]** You can compare and constrain values using selected operators. 
 1. **[!UICONTROL Value:]** The value you entered or selected for the dimension or segment or metric. 
 1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560). 
-
 1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list. 
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators. 
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric. 
@@ -102,10 +101,8 @@ Access the Segment Builder by
 1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu. 
 1. Enter or select a value for the item selected. 
 1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules. 
-
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created. 
 1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one. 
-
 1. Click **[!UICONTROL Save]** to save the segment.
 
 You are now taken to the [Segment Manager](../../../components/c-segmentation/c-segmentation-workflow/seg-manage.md#concept_7A2E019317864065B7C641DC3315928F), where you can tag, share, and manage your segment in multiple ways.
@@ -147,11 +144,13 @@ Task Context
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right.
 
    The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created. 
+
 1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
 
    Step Result 1. Click **[!UICONTROL Save]** to save the segment.
 
    Step Result 
+
 ## Build and nest containers {#task_F45D1D8A3B594CC0A8F42D65872B6E1C}
 
 Build and nest segment containers in Analytics. 
@@ -217,6 +216,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 1. Save the segment.
 
    Step Result 
+
 ## Use segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
 Templates represent the old pre-configured and suite segments. 

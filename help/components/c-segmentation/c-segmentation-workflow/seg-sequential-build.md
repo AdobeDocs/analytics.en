@@ -15,7 +15,7 @@ snippet: y
 
 Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter “Include Everyone”. Sequential segments can be further filtered to a subset of matching hits using the “Only Before Sequence” and “Only After Sequence” options.
 
- ![](assets/before-after-sequence.png)
+![](assets/before-after-sequence.png)
 
 Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
@@ -25,31 +25,17 @@ When creating a segment where “Include Everyone” is set, the segment identif
 
 ![](assets/sequence-filter.png)
 
-<table id="table_941B8D8E10CE4647B322B3F9E542CAF1"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>Matches</b> </td> 
-   <td colname="col2"> 
-    <ul id="ul_C35B665A8E5C4CD386741409637DF976"> 
-     <li id="li_930581DE924840CCB4FF1BBEB445CD7C">A then B </li> 
-     <li id="li_EBB14373D4434F468267A16A8F54A6BB">A then (in a different visit) B </li> 
-     <li id="li_F60F14420EFC4D9DBA3C43C73A930FD0">A then D then B </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Does not Match</b> </td> 
-   <td colname="col2"> B then A </td> 
-  </tr> 
- </tbody> 
-</table>
+| If result... | Sequence |
+|--- |--- |
+| Matches | A then B<br>A then (in a different visit) B<br>A then D then B |
+| Does not Match | B then A |
 
 ## Only Before Sequence and Only After Sequence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 The options **[!UICONTROL Only Before Sequence]** and **[!UICONTROL Only After Sequence]** filter the segment to a subset of data before or after the specified sequence.
 
 * **Only Before Sequence**: Includes all hits before a sequence + the first hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only Before Sequence” includes the first hit of the last occurrence of the sequence and all prior hits (see example 2).
-
-  **Only After Sequence**: Includes all hits after a sequence + the last hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only After” includes last hit of the first occurrence of the sequence and all subsequent hits (see example 2).
+* **Only After Sequence**: Includes all hits after a sequence + the last hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only After” includes last hit of the first occurrence of the sequence and all subsequent hits (see example 2).
 
 For example, consider a sequence of B -> D. The three filters would identify hits as follows:
 
@@ -83,24 +69,10 @@ Setting a ‘Within Dimension’ clause between rules allows a segment to restri
 
 ![](assets/sequence-filter4.png)
 
-<table id="table_5B8D6342FE2B401CBB1FFF52C24354D8"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>Matches</b> </td> 
-   <td colname="col2"> 
-    <ul id="ul_8B2091F1DE6A4838AC7875713DC3D8F2"> 
-     <li id="li_959CBE21381841F199E1779B48EDA6EC">A then B </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Does not Match</b> </td> 
-   <td colname="col2"> 
-    <ul id="ul_49CE55BAE6764495A91A434E19343724"> 
-     <li id="li_A04AAC7036894D3DB540E04478EC2FF2">A then C then B (because B was not within 1 page of A) </li> 
-    </ul> <p>Note:  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| If result... | Sequence |
+|--- |--- |
+| Matches | A then B |
+| Does not Match| A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 <!-- 
 
@@ -196,7 +168,6 @@ The following are examples of how this type of segment can be used:
 
 1. Select the [!UICONTROL Visitor] container as the top-level container. 
 1. Add two [!UICONTROL Hit]-level containers—a dimension with an appropriate numerical dimension joined at the same [!UICONTROL Hit] level by the [!UICONTROL AND] and [!UICONTROL OR] operator. 
-
 1. Within the [!UICONTROL Visit] container, add another [!UICONTROL Hit] container and nest two additional [!UICONTROL Hit] containers joined with an [!UICONTROL OR] or [!UICONTROL AND] operator.
 
    Sequence these nested [!UICONTROL Hit] containers with the [!UICONTROL THEN] operator.
@@ -217,7 +188,6 @@ By placing checkpoints at both the [!UICONTROL Visit] and [!UICONTROL Hit] level
 
 1. Underneath a top-level [!UICONTROL Visit] container, drag in two page dimensions. 
 1. Multi-select both rules, click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** and change it to a [!UICONTROL Visit] container. 
-
 1. Join them with a [!UICONTROL THEN] operator. 
 1. Create a Hit container as a peer to the [!UICONTROL Visit] container and drag in a page dimension. 
 1. Join the nested sequence in the [!UICONTROL Visit] container with the [!UICONTROL Hit] container using another [!UICONTROL THEN] operator.
@@ -235,7 +205,6 @@ Segment rules include all data unless you specifically exclude [!UICONTROL Visit
 For example:
 
 * **Exclude pages**. Use a segment rule to strip out a specific page (such as *`Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. This rule automatically includes all values except the Home Page. 
-
 * **Exclude referring domains**. Use a rule that includes only referring domains from Google.com and excludes all others. 
 * **Identify non-purchasers**. Identify when orders are greater than zero and then exclude the [!UICONTROL Visitor].
 
@@ -322,8 +291,7 @@ Within a sequential segmentation, it is required that containers are ordered str
 
 |  Standard Container Hierarchy  |
 |---|
-|   ![](assets/nesting_container.png)
-
+|   ![](assets/nesting_container.png) |
 |Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
 
 >[!NOTE]
@@ -334,9 +302,8 @@ A [!UICONTROL Logic Group] container treats several checkpoints as a group witho
 
 |  Logic Container Non-Standard Hierarchy  |
 |---|
-|   ![](assets/logic_group_hierarchy.png)
-
-|The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
+|   ![](assets/logic_group_hierarchy.png) |
+| The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
 
 ## Building a Logic Group Segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -345,11 +312,8 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. Drag dimensions, events, or segments from the left panes. 
 1. Change the top container to a [!UICONTROL Visitor] container. 
 1. Change the [!UICONTROL AND] or [!UICONTROL OR] operator inserted by default to the THEN operator. 
-
 1. Select the [!UICONTROL Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. 
-
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
-
 1. You can now set the [!UICONTROL Hit] within the [!UICONTROL Logic Group] container without regard to hierarchy.
 
 <!-- 
@@ -442,31 +406,11 @@ The duration is specified by a single uppercase letter representing the granular
 
 **[!UICONTROL After]** does not include the endpoint (greater than). 
 
-<table id="table_964D05B38E434DBB88D472C93F8272AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Operators </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> AFTER</span> </td> 
-   <td colname="col2" valign="middle" align="left">The <span class="wintitle"> After</span> operator is used to specify a minimum limit on the amount of time between two checkpoints.. <p>When setting the After values, the time limit will begin when the segment is applied. For example, if the <span class="wintitle"> After</span> operator is set on a container to identify visitors who visit page A but don't return to visit page B until after one day, then that day will begin when the visitor leaves page A. </p> <p>For the visitor to be included in the segment, a minimum of 1440 minutes (one day) must transpire after leaving page A to viewing page B. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> WITHIN</span> </td> 
-   <td colname="col2">The <span class="wintitle"> Within</span> operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the <span class="wintitle"> Within</span> operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B. <p style="text-align: center;"><img href="assets/After_Within_max.png" id="image_F10FD40D99CD4A66B4AC67197D5F3AD5" /> </p> <p>For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> AFTER/WITHIN</span> </td> 
-   <td colname="col2">When using both the <span class="wintitle"> After</span> and <span class="wintitle"> Within</span> operators, it's important to understand that both operators will begin and end in parallel, not sequentially. <p style="text-align: center;"><img href="assets/After_Within_both.png" id="image_0630D84D137546E4B8A1907D16C2CFF8" /> </p> <p>For example, if you build a segment with the container set to 
-     <cmdname>
-       After = 1 Week(s) and Within = 2 Week(s)
-     </cmdname>, then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Both conditions are enforced from the time of the first page hit. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Operators | Description |
+|--- |--- |
+|AFTER|The  After operator is used to specify a minimum limit on the amount of time between two checkpoints.. When setting the After values, the time limit will begin when the segment is applied. For example, if the  After operator is set on a container to identify visitors who visit page A but don't return to visit page B until after one day, then that day will begin when the visitor leaves page A.  For the visitor to be included in the segment, a minimum of 1440 minutes (one day) must transpire after leaving page A to viewing page B.|
+|WITHIN|The  Within operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the  Within operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B.   For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B.|
+|AFTER/WITHIN|When using both the  After and  Within operators, it's important to understand that both operators will begin and end in parallel, not sequentially.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Both conditions are enforced from the time of the first page hit.|
 
 <!-- 
 
@@ -489,27 +433,10 @@ seg_example_time_between_after.xml
 
 When given "After 2 weeks", if a hit to page A happens on June 1 2013, at 00:01, then a following hit to page B will match as long as it comes before June 15 2013 00:01 (14 days later).
 
-<table id="table_5E6D4A9AC9B94C4B958780245CC1C77C"> 
- <thead> 
-  <tr> 
-   <th colname="col04" align="center" class="entry"> Hit A </th> 
-   <th colname="col4" align="center" class="entry"> Hit B </th> 
-   <th colname="col5" align="center" class="entry"> Matching </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col04"><b>A</b> hit: June 1, 2013 00:01 </td> 
-   <td colname="col4"><b>B</b> hit: Jun 15, 2013 00:01 </td> 
-   <td colname="col5"><b>Matches</b>: This time constraint matches because it is <i>After</i> June 1, 2013 (two weeks). </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col04"><b>A</b> hit: June 1, 2013 00:01 </td> 
-   <td colname="col4"><b>B</b> hit: June 8, 2013 00:01 <p><b>B</b> hit: June 15, 2013 00:01 </p> </td> 
-   <td colname="col5"> <p><b>Does not match</b>: The first hit on page B does not match because it conflicts with the constraint requiring it after two weeks. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Hit A | Hit B | Matching |
+|--- |--- |--- |
+|**A** hit: June 1, 2013 00:01|**B** hit: Jun 15, 2013 00:01|**Matches:** This time constraint matches because it is After June 1, 2013 (two weeks).|
+|**A** hit: June 1, 2013 00:01|**B** hit: June 8, 2013 00:01 B hit: June 15, 2013 00:01|**Does not match:** The first hit on page B does not match because it conflicts with the constraint requiring it after two weeks.|
 
 <!-- 
 

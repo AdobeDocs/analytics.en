@@ -7,8 +7,8 @@ user-guide-title: Analytics Admin Guide
 # Analytics Admin Guide {#admin-guide}
 
 + [Analytics Admin Help](home.md)
-+ [Analytics product comparison](admin/c-analytics-product-comparison/c-analytics-product-comparison.md)
-    + [Which Adobe Analytics tool should I use?](admin/c-analytics-product-comparison/which-analytics-tool.md)
++ [Analytics product comparison](c-analytics-product-comparison/c-analytics-product-comparison.md)
+    + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
     + [Analytics product comparison and requirements](admin/c-analytics-product-comparison/analytics-product-comparison.md)
 + [System requirements](admin/c-system-requirements/c-system-requirements.md)
     + [System requirements](admin/c-system-requirements/sys-reqs.md)

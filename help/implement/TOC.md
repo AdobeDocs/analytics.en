@@ -7,7 +7,8 @@ user-guide-title: Analytics Implementation Guide
 # Analytics Implementation Guide {#implementation-guide}
 
 + [Analytics Implementation Help](home.md)
-+ [Adobe Analytics implementation](c-implementation/c-implementation.md)
++ Analytics Implementation {#analytics-implementation}
+    + [Implementation Overview](c-implementation/c-implementation.md)
     + [Implementation roadmap](c-implementation/implementation.md)
     + [Popular implementation links](c-implementation/popular-implementation-links.md)
     + [Release notes](c-implementation/rn.md)

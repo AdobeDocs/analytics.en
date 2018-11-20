@@ -32,7 +32,7 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageName.html" format="http" scope="external"> pageName</a> </p> </td> 
    <td> <p>The name of the page. Uniquely identifies the page and URL in plain English. For example: </p> <p> <span class="codeph"> "homepage"</span> </p> </td> 
-   <td colname="col3"> <p> <a href="reports_pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
+   <td colname="col3"> <p> <a href="reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/channel.html" format="http" scope="external"> channel</a> </p> </td> 
@@ -127,7 +127,7 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageURL.html" format="http" scope="external"> pageURL</a> </p> </td> 
    <td> <p>Optionally used to override the URL of the page as recorded in Analyitcs </p> </td> 
-   <td colname="col3"> <p> <a href="reports_pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
+   <td colname="col3"> <p> <a href="reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/referrer.html" format="http" scope="external"> referrer</a> </p> </td> 

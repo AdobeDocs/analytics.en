@@ -35,7 +35,7 @@ Steps that describe how to configure success events.
 
    This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface. [More...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. Provide a description.
 1. Check whether to always record the event.
-1. Enable or disable [participation metrics](metrics_participation.md#concept_8E6B39106A244CB49E055150B291B477).
+1. Enable or disable [participation metrics](metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477).
 
    >[!NOTE]
    >

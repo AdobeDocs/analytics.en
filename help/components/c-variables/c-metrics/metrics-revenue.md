@@ -24,4 +24,4 @@ Revenue is captured on the purchase event, and is defined as the total dollar am
 >[!MORE_LIKE_THIS]
 >
 >* [Visitor Participation - Ad Hoc Analysis](metrics_visitor_participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A)
->* [Participation](metrics_participation.md#concept_8E6B39106A244CB49E055150B291B477)
+>* [Participation](metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477)

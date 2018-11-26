@@ -7,17 +7,17 @@ user-guide-title: Analytics Analyze Guide
 # Analytics Analyze Guide {#analyze-guide}
 
 + [Analytics Analyze Help](home.md)
-+ [Analysis Workspace](analysis-workspace/analysis-workspace.md)
++ Analysis Workspace {#analysis-workspace}
     + [Analysis Workspace overview](analysis-workspace/analysis-workspace-features.md)
     + [Getting Started guide](analysis-workspace/home.md)
     + [Videos about Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
     + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
     + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-    + [Build a Workspace project](analysis-workspace/build-workspace-project/build-workspace-project.md)
+    + Build a Workspace project {#build-workspace-project}
         + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
         + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
         + [Starter Projects](analysis-workspace/build-workspace-project/starter-projects.md)
-        + [Column and row settings](analysis-workspace/build-workspace-project/column-row-settings/column-row-settings.md)
+        + Column and row settings {#column-row-settings}
             + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
             + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
             + [Manual vs. dynamic rows](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
@@ -25,15 +25,15 @@ user-guide-title: Analytics Analyze Guide
         + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
         + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
         + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
-    + [Components](analysis-workspace/components/components.md)
+    + Components {#components}
         + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
-        + [Dimensions](analysis-workspace/components/dimensions/dimensions.md)
+        + Dimensions {#dimensions}
             + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
             + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
             + [Time-parting dimensions](analysis-workspace/components/dimensions/time-parting-dimensions.md)
         + [Metrics](analysis-workspace/components/apply-create-metrics.md)
         + [Segments](analysis-workspace/components/t-freeform-project-segment.md)
-        + [Calendar and date ranges](analysis-workspace/components/calendar-date-ranges/calendar-date-ranges.md)
+        + Calendar and date ranges {#calendar-date-ranges}
             + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
             + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
             + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
@@ -41,17 +41,17 @@ user-guide-title: Analytics Analyze Guide
         + [Visualizations overview](analysis-workspace/freeform-analysis-visualizations.md)
         + [Manage data sources](analysis-workspace/t-sync-visualization.md)
         + [Freeform table](analysis-workspace/freeform-table.md)
-        + [Cohort Table](analysis-workspace/cohort-table/cohort-table.md)
+        + Cohort Table {#cohort-table}
             + [Cohort table overview](analysis-workspace/cohort-table/cohort-table.md)
             + [What is cohort analysis?](analysis-workspace/cohort-table/cohort-analysis.md)
             + [Run a cohort analysis report](analysis-workspace/cohort-table/t-cohort.md)
             + [Cohort analysis use cases](analysis-workspace/cohort-table/cohort-use-cases.md)
-        + [Fallout](analysis-workspace/fallout/fallout.md)
+        + Fallout {#fallout}
             + [Fallout overview](analysis-workspace/fallout/fallout-flow.md)
             + [Configure a fallout visualization](analysis-workspace/fallout/configuring-fallout.md)
             + [Inter-dimensional fallout](analysis-workspace/fallout/configuring-interdimensional-fallout.md)
             + [Apply segments in fallout analysis](analysis-workspace/fallout/compare-segments-fallout.md)
-        + [Flow](analysis-workspace/c-flow/c-flow.md)
+        + Flow] {#flow}
             + [Flow overview](analysis-workspace/c-flow/flow.md)
             + [Configure a flow visualization](analysis-workspace/c-flow/creating-flow-report.md)
             + [Flow settings](analysis-workspace/c-flow/flow-settings.md)
@@ -69,28 +69,29 @@ user-guide-title: Analytics Analyze Guide
         + [Summary Number and Summary Change](analysis-workspace/summary-number-change.md)
         + [Text](analysis-workspace/text.md)
         + [Treemap](analysis-workspace/treemap.md)
-    + [Panels](analysis-workspace/c-panels/c-panels.md)
+    + Panels {#panels}
         + [Panels overview](analysis-workspace/c-panels/panels.md)
         + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
         + [Attribution IQ overview](analysis-workspace/c-panels/attribution.md)
         + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-        + [Segment comparison (IQ)](analysis-workspace/c-panels/c-segment-comparison/c-segment-comparison.md)
+        + Segment comparison (IQ) {#segment-comparison}
             + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
             + [Compare segments](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
             + [Segment IQ use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
             + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-    + [Curate_Share projects](analysis-workspace/curate-share/curate-share.md)
+    + Curate_Share projects {#curate-share}
         + [Curation/Sharing overview](analysis-workspace/curate-share/curate.md)
         + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
         + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
         + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
         + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
-    + [Attribution IQ](analysis-workspace/attribution-iq/attribution-iq.md)
+    + Attribution IQ {#attribution-iq}
         + [Attribution IQ overview](analysis-workspace/attribution-iq/attribution.md)
         + [Use attribution IQ in Analysis Workspace](analysis-workspace/attribution-iq/use-attribution-iq.md)
         + [Use attribution in Calculated Metrics](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
         + [Attribution IQ FAQ](analysis-workspace/attribution-iq/attribution-faq.md)
-    + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
+    + Virtual Analyst {#virtual-analyst}
+        + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
         + [Anomaly Detection](analysis-workspace/virtual-analyst/c-anomaly-detection/c-anomaly-detection.md)
             + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
             + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -100,7 +101,7 @@ user-guide-title: Analytics Analyze Guide
             + [Contribution Analysis overview](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
             + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
             + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-    + [Intelligent Alerts](analysis-workspace/c-intelligent-alerts/c-intelligent-alerts.md)
+    + Intelligent Alerts] {#intelligent-alerts}
         + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
         + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
         + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
@@ -109,8 +110,8 @@ user-guide-title: Analytics Analyze Guide
     + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
     + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-+ [Report Builder](report-builder/report-builder.md)
-    + [Adobe Report Builder help](report-builder/home-(2).md)
++ Report Builder {#report-builder}
+    + [Adobe Report Builder help](report-builder/home.md)
     + [What's new in Report Builder](report-builder/whats-new-arb.md)
     + [Report Builder setup](report-builder/setup/setup.md)
         + [System requirements](report-builder/setup/system-requirements.md)
@@ -124,7 +125,8 @@ user-guide-title: Analytics Analyze Guide
     + [Request Wizard interface](report-builder/request-wizard-interface/request-wizard-interface.md)
         + [Request Wizard Step 1](report-builder/request-wizard-interface/request-wizard-step-1.md)
         + [Request Wizard Step 2](report-builder/request-wizard-interface/request-wizard-step-2.md)
-    + [Data requests - Request Wizard Step 1](report-builder/data-requests/data-requests.md)
+    + Data requests {#data-requests}
+        + [Data requests - Request Wizard Step 1](report-builder/data-requests/data-requests.md)
         + [Create a data request](report-builder/data-requests/t-create-a-data-request.md)
         + [Report suites](report-builder/data-requests/selecting-report-suites/selecting-report-suites.md)
             + [Select a report suite](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)

@@ -18,7 +18,7 @@ Classifications are used to categorize values into groups and report at the grou
 
 Conversion classifications let you classify conversion variables. Once classified, any report that you can generate using the key data can also be generated using the associated data properties.
 
-After enabling classifications, use the [Classification Importer](c_working_with_saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA) to assign specific values to the appropriate classification.
+After enabling classifications, use the [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
 
 ## Conversion Classifications Descriptions {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 

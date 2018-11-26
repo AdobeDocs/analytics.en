@@ -7,19 +7,19 @@ user-guide-title: Analytics Import Guide
 # Analytics Import Guide {#import-guide}
 
 + [Analytics Import Help](home.md)
-+ [Data Sources](c-data-sources/c-data-sources.md)
++ Data Sources {#data-sources}
     + [Data Sources overview](c-data-sources/datasrc-home.md)
     + [How Data Sources works](c-data-sources/datasrc-how-data-sources-works.md)
     + [Requirements and upload limits](c-data-sources/datasrc-requirements.md)
     + [Data Sources processing time](c-data-sources/datasrc-processing-time.md)
     + [Preparing to use Data Sources](c-data-sources/datasrc-preparing.md)
     + [Data Sources Manager](c-data-sources/datasrc-manager.md)
-    + [Data Sources template](c-data-sources/datasrc-template/datasrc-template.md)
+    + Data Sources template {#data-sources-template}
         + [Data Sources template overview](c-data-sources/datasrc-template/datasrc-template-file.md)
         + [Generate an import file template](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
         + [Import file reference](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
     + [Upload a Data Sources file](c-data-sources/t-datasrc-uploading-data.md)
-    + [Data types and categories](c-data-sources/c-datasrc-types/c-datasrc-types.md)
+    + Data types and categories {#data-types-and-categories}
         + [Overview of data types and categories](c-data-sources/c-datasrc-types/datasrc-categories.md)
         + [Web log](c-data-sources/c-datasrc-types/datasrc-web-log.md)
         + [Traffic](c-data-sources/c-datasrc-types/datasrc-traffic.md)
@@ -31,4 +31,3 @@ user-guide-title: Analytics Import Guide
     + [Transaction ID and visitor profiles](c-data-sources/datasrc-tid-visitor-profile.md)
     + [Data Sources FAQ](c-data-sources/datasrc-faq.md)
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
-    + [https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)

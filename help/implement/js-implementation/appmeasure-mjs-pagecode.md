@@ -19,7 +19,7 @@ This section contains example code for your core JavaScript file and the pages o
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/js-implementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A). Enabling the visitor ID service in AppMeasurement before you have included the Visitor API JavaScript file on all site pages could result in duplicate visitor counts. To avoid duplicate visitor counts, make sure that you understand and follow the process described in [Visitor ID Service](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). Enabling the visitor ID service in AppMeasurement before you have included the Visitor API JavaScript file on all site pages could result in duplicate visitor counts. To avoid duplicate visitor counts, make sure that you understand and follow the process described in [Visitor ID Service](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## Example AppMeasurement.js Code {#section_4351543F2D6049218E18B48769D471E2}
 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](../../implement/js-implementation/js-implementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) for instructions. 
+Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions. 

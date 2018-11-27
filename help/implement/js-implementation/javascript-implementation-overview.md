@@ -16,7 +16,7 @@ snippet: y
 
 To begin using Analytics, data must be sent to a report suite to display in reporting.
 
-The easiest and recommended way to send data to [!DNL Analytics] is by using [Dynamic Tag Management](../../implement/c-implement-with-dtm/c-implement-with-dtm.md#concept_90C125C03E024A9A9A1D7F47B3CCF4B5). However, in some cases, you might want to implement Analytics using the older JavaScript method.
+The easiest and recommended way to send data to [!DNL Analytics] is by using [Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md). However, in some cases, you might want to implement Analytics using the older JavaScript method.
 
 >[!NOTE]
 >

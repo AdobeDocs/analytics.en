@@ -7,11 +7,11 @@ user-guide-title: Analytics Components Guide
 # Analytics Components Guide {#components-guide}
 
 + [Analytics Components Help](home.md)
-+ [Segmentation](c-segmentation/c-segmentation.md)
++ [Segmentation]{#segmentation}
     + [Analytics segmentation](c-segmentation/seg-home.md)
     + [About segments and containers](c-segmentation/seg-overview.md)
     + [Segmentation features in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
-    + [Segmentation workflow](c-segmentation/c-segmentation-workflow/c-segmentation-workflow.md)
+    + [Segmentation workflow]{#segmentation-workflow}
         + [Segmentation workflow overview](c-segmentation/c-segmentation-workflow/seg-workflow.md)
         + [Plan segments](c-segmentation/c-segmentation-workflow/seg-plan.md)
         + [Build segments](c-segmentation/c-segmentation-workflow/seg-build.md)
@@ -25,7 +25,7 @@ user-guide-title: Analytics Components Guide
         + [Mark segments as favorites](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
         + [Delete segments](c-segmentation/c-segmentation-workflow/seg-delete.md)
         + [Manage segments](c-segmentation/c-segmentation-workflow/seg-manage.md)
-    + [Segment Reference](c-segmentation/seg-reference/seg-reference.md)
+    + [Segment Reference]{#segment-reference}
         + [Comparison Operators for Segments](c-segmentation/seg-reference/seg-operators.md)
         + [Data Warehouse Segment Compatibility](c-segmentation/seg-reference/seg-compatibility.md)
         + [Segment Rights by Role](c-segmentation/seg-reference/seg-rights.md)

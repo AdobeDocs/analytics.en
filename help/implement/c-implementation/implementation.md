@@ -32,8 +32,8 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
    <td colname="col2"> <p>Common ways to implement Analytics include: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
       <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Launch </a> (Recommended) <p>This guide tells you everything you need to know about using Adobe's website tag and mobile SDK management capabilities and how to implement them. </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/c-implement-with-dtm.md#concept_90C125C03E024A9A9A1D7F47B3CCF4B5" format="dita" scope="local"> Dynamic Tag Management </a> <p>This guide contains Analytics-specific information to guide you through a Dynamic Tag Management implementation. </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/js-implementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A" format="dita" scope="local"> JavaScript </a> <p>This guide contains a description of data collection variables and details on implementing data collection code in JavaScript, including <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="https" scope="external"> video </a>. </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>This guide contains Analytics-specific information to guide you through a Dynamic Tag Management implementation. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>This guide contains a description of data collection variables and details on implementing data collection code in JavaScript, including <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="https" scope="external"> video </a>. </p> </li> 
       <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDKs </a> <p>Use Analytics SDKs to manage: </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
          <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> Mobile apps on iOS </a> </li> 
@@ -78,7 +78,7 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
   <tr> 
    <td colname="col01"> <img href="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Validate the implementation. </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-testing.md#concept_DCDA662572AC484D89333530F53FAA52" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
+   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation.md" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img href="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 

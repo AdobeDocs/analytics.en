@@ -16,7 +16,7 @@ snippet: y
 
 Custom traffic variables, also called props (s.prop) or property variables, are counters that count the number of times each value is sent into Analytics.
 
-When determining which variables are assigned where, it is important to understand the differences between Prop and eVar functionality. Understanding these differences allows your organization to decide which type of variable is best to use. For detailed information, see [Comparing Props and eVars](../../../implement/analytics-terminology-basics/c--props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+When determining which variables are assigned where, it is important to understand the differences between Prop and eVar functionality. Understanding these differences allows your organization to decide which type of variable is best to use. For detailed information, see [Comparing Props and eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
 
 Props also let you correlate custom data with specific traffic-related events. These variables are embedded in the [!DNL Analytics] code on each page of your website. Through [!UICONTROL s.prop] variables, [!DNL Analytics] lets you create custom reports, unique to your organization, industry, and business objectives.
 

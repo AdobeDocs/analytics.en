@@ -37,11 +37,11 @@ Although [!DNL Dynamic Tag Management] greatly simplifies the implementation pro
 For example, you should understanding the following:
 
 * What an [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) is and how it works 
-* When to use a [custom event](../../implement/analytics-terminology-basics/c--props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* When to use a [custom event](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
 
 For information about getting access to Dynamic Tag Management and getting up and running, see [Getting Started](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Dynamic Tag Management Product Documentation.
 
-For more information, see [Implementing Analytics with Dynamic Tag Management](../../implement/c-implement-with-dtm/c-implement-with-dtm.md#concept_90C125C03E024A9A9A1D7F47B3CCF4B5).
+For more information, see [Implementing Analytics with Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -52,4 +52,4 @@ The JavaScript implementation requires:
 * Strong JavaScript skills 
 * Solid understanding of Analytics concepts and terminology
 
-For more information, see [Implementing Analytics Using JavaScript](../../implement/js-implementation/js-implementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A). 
+For more information, see [Implementing Analytics Using JavaScript](../../implement/js-implementation/javascript-implementation-overview.md). 

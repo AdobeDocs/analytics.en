@@ -6,12 +6,12 @@ user-guide-title: Analytics Components Guide
 
 # Analytics Components Guide {#components-guide}
 
-+ [Analytics Components Help](home.md)
-+ [Segmentation]{#segmentation}
++ [Analytics Components Help] (home.md)
++ Segmentation {#segmentation}
     + [Analytics segmentation](c-segmentation/seg-home.md)
     + [About segments and containers](c-segmentation/seg-overview.md)
     + [Segmentation features in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
-    + [Segmentation workflow]{#segmentation-workflow}
+    + Segmentation workflow {#segmentation-workflow}
         + [Segmentation workflow overview](c-segmentation/c-segmentation-workflow/seg-workflow.md)
         + [Plan segments](c-segmentation/c-segmentation-workflow/seg-plan.md)
         + [Build segments](c-segmentation/c-segmentation-workflow/seg-build.md)
@@ -25,7 +25,7 @@ user-guide-title: Analytics Components Guide
         + [Mark segments as favorites](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
         + [Delete segments](c-segmentation/c-segmentation-workflow/seg-delete.md)
         + [Manage segments](c-segmentation/c-segmentation-workflow/seg-manage.md)
-    + [Segment Reference]{#segment-reference}
+    + Segment Reference {#segment-reference}
         + [Comparison Operators for Segments](c-segmentation/seg-reference/seg-operators.md)
         + [Data Warehouse Segment Compatibility](c-segmentation/seg-reference/seg-compatibility.md)
         + [Segment Rights by Role](c-segmentation/seg-reference/seg-rights.md)
@@ -33,11 +33,11 @@ user-guide-title: Analytics Components Guide
     + [Frequently Asked Questions](c-segmentation/seg-transition.md)
     + [What's New in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
     + [Transition Guide for Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
-+ [Calculated Metrics](c-calcmetrics/c-calcmetrics.md)
++ Calculated Metrics (c-calcmetrics/c-calcmetrics.md)
     + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
     + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)
     + [How-to videos](c-calcmetrics/cm-videos.md)
-    + [Workflow]{#calcmetric-workflow}
+    + Calculated Metrics Workflow {#calcmetric-workflow}
         + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
         + [Find metrics](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
         + [Build metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/c-build-metrics.md)
@@ -54,12 +54,12 @@ user-guide-title: Analytics Components Guide
         + [Approve calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
         + [Share calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
         + [Calculated Metric Manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-    + [Metrics reference]{#calcmetrics-reference}
+    + Metrics reference {#calcmetrics-reference}
         + [Reference: basic functions](c-calcmetrics/cm-reference/cm-functions.md)
         + [Reference: advanced functions](c-calcmetrics/cm-reference/cm-adv-functions.md)
-    + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
-    + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
-+ [Virtual Report Suites](vrs/vrs.md)
+        + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
+        + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
++ Virtual Report Suites {#virtual-report-suites}
     + [Virtual report suites overview](vrs/vrs-about.md)
     + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
     + [VRS support in Mobile Services](vrs/vrs-mobile-services.md)
@@ -67,23 +67,23 @@ user-guide-title: Analytics Components Guide
     + [Report time processing](vrs/vrs-report-time-processing.md)
     + [VRS FAQs](vrs/vrs-faq.md)
     + [VRSs and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
-    + [Workflow](vrs/c-workflow-vrs/c-workflow-vrs.md)
+    + VRS Workflow {#vrs-workflow}
         + [Virtual report suite workflow](vrs/c-workflow-vrs/vrs-workflow.md)
         + [Create virtual report suites](vrs/c-workflow-vrs/vrs-create.md)
         + [Manage virtual report suites](vrs/c-workflow-vrs/vrs-manage.md)
         + [View virtual report suite information](vrs/c-workflow-vrs/vrs-view.md)
-+ [Alerts](c-alerts/c-alerts.md)
++ Alerts {#alerts}
     + [Intelligent alerts](c-alerts/intellligent-alerts.md)
     + [Alert Builder](c-alerts/alert-builder.md)
     + [Alert Manager](c-alerts/alert-manager.md)
     + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
-+ [Classifications](c-classifications2/c-classifications2.md)
++ Classifications {#classifications}
     + [About classifications](c-classifications2/c-classifications.md)
     + [About sub-classifications](c-classifications2/c-sub-classifications.md)
     + [Conversion classifications](c-classifications2/conversion-classifications.md)
     + [Traffic classifications](c-classifications2/traffic-classifications.md)
     + [Classification hierarchies](c-classifications2/classification-hierarchies.md)
-    + [Classifications importer (upload)](c-classifications2/c-classifications-importer/c-classifications-importer.md)
+    + Classifications importer (upload) {#classifications-importer}
         + [Classifications importer - overview](c-classifications2/c-classifications-importer/c-working-with-saint.md)
         + [Classification data files](c-classifications2/c-classifications-importer/c-saint-data-files.md)
         + [Delete classification data](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
@@ -93,21 +93,21 @@ user-guide-title: Analytics Components Guide
         + [Browser and FTP import](c-classifications2/c-classifications-importer/import-file.md)
         + [Browser import](c-classifications2/c-classifications-importer/browser-import.md)
         + [FTP import](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
-    + [Classification Rule Builder](c-classifications2/crb/crb.md)
+    + Classification Rule Builder {#classifications-rulebuilder}
         + [Classification Rule Builder workflow](c-classifications2/crb/classification-rule-builder.md)
         + [Classification rule sets](c-classifications2/crb/classification-rule-set.md)
         + [Classification rules](c-classifications2/crb/classification-quickstart-rules.md)
         + [Classification rules - definitions](c-classifications2/crb/classification-rule-definitions.md)
         + [Sub-classifications and the Rule Builder - use case](c-classifications2/crb/sub-classification-rule-builder.md)
-    + [Numeric 2 classifications](c-classifications2/c-numeric-2/c-numeric-2.md)
+    + Numeric 2 classifications {#numeric2-classification}
         + [Numeric 2 classifications overview](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
         + [Create numeric 2 classifications](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
         + [Import numeric 2 classifications](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
         + [Examples](c-classifications2/c-numeric-2/c-examples.md)
     + [Troubleshooting Classifications](c-classifications2/c-classifications-troubleshooting.md)
 + [Calendar events](t-calendar-event.md)
-+ [Variables](c-variables/c-variables.md)
-    + [Dimensions/Reports](c-variables/dimensionslist/dimensionslist.md)
++ Variables {#variables}
+    + Dimensions/Reports {#dimensions-reports}
         + [Dimension Descriptions](c-variables/dimensionslist/reports-descriptions.md)
         + [Reporting Best Practices and Troubleshooting](c-variables/dimensionslist/report-troubleshooting.md)
         + [Account Activity](c-variables/dimensionslist/report-account-activity.md)
@@ -257,7 +257,7 @@ user-guide-title: Analytics Components Guide
         + [Visitor Profile](c-variables/dimensionslist/reports-visitor-profile.md)
         + [Visitor Retention](c-variables/dimensionslist/reports-visitor-retention.md)
         + [Visitors](c-variables/dimensionslist/reports-visitors.md)
-    + [Metrics](c-variables/c-metrics/c-metrics.md)
+    + Metrics {#metrics}
         + [Metrics overview](c-variables/c-metrics/metricslist.md)
         + [Metrics quick reference](c-variables/c-metrics/metrics-overview.md)
         + [Metric calculations](c-variables/c-metrics/metrics-calculations.md)
@@ -306,15 +306,15 @@ user-guide-title: Analytics Components Guide
         + [Weekly Unique Visitors](c-variables/c-metrics/metrics-weekly-unique-visitors.md)
         + [Yearly Unique Visitors](c-variables/c-metrics/metrics-yearly-unique-visitors.md)
         + [Visitor Participation - Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
-    + [Merchandising variables](c-variables/c-merch-variables/c-merch-variables.md)
+    + Merchandising variables {#merchandising-variables}
         + [Overview of merchandising variables](c-variables/c-merch-variables/var-merchandising.md)
         + [Implement a merchandising variable](c-variables/c-merch-variables/var-merchandising-impl.md)
         + [Instances on merchandising variables](c-variables/c-merch-variables/var-merchandising-instances.md)
-+ [Real-time reporting](c-real-time-reporting/c-real-time-reporting.md)
++ Real-time reporting {#real-time-reporting}
     + [Real-time reporting overview](c-real-time-reporting/realtime.md)
     + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
     + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
-+ [Marketing Channels](c-marketing-channels/c-marketing-channels.md)
++ Marketing Channels {#marketing-channels}
     + [Getting Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
     + [About Marketing Channel reports](c-marketing-channels/c-overview.md)
     + [About channels and rules](c-marketing-channels/c-channels-rules.md)

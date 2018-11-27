@@ -7,9 +7,9 @@ user-guide-title: Analytics Integration Guide
 # Analytics Integration Guide {#integration-guide}
 
 + Analytics Integration
- + [Audience Analytics](c-audience-analytics/c-audience-analytics.md)
+ + Audience Analytics {#audience-analytics}
      + [Audience Analytics overview](c-audience-analytics/mc-audiences-aam.md)
-     + [Audience Analytics workflow](c-audience-analytics/c-workflow/c-workflow.md)
+     + Audience Analytics workflow {#audience-analytics-workflow}
          + [Workflow overview](c-audience-analytics/c-workflow/audiences-workflow.md)
          + [Server-side forwarding overview](c-audience-analytics/c-workflow/ssf.md)
          + [GDPR/ePrivacy compliance and server-side forwarding](c-audience-analytics/c-workflow/ssf-gdpr.md)
@@ -23,8 +23,8 @@ user-guide-title: Analytics Integration Guide
      + [Frequently Asked Questions](c-audience-analytics/mc-audiences-faqs.md)
      + [Visitor Count differences](c-audience-analytics/visitor-count-reconciliation.md)
      + [Understand segments in Analytics and Audience Manager](c-audience-analytics/aam-analytics-segments.md)
- + [Advertising Analytics](c-advertising-analytics/c-advertising-analytics.md)
-     + [Advertising Analytics Configuration Workflow](c-advertising-analytics/c-adanalytics-workflow/c-adanalytics-workflow.md)
+ + Advertising Analytics {#advertising-analytics}
+     + Advertising Analytics Configuration Workflow {#advertising-analytics-workflow}
          + [Workflow overview](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
          + [Enable report suite for Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
          + [Set up an Advertising Account](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)

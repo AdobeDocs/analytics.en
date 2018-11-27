@@ -37,7 +37,7 @@ user-guide-title: Analytics Analyze Guide
             + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
             + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
             + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-    + Analytics Analyze
+    + Visualizations {#visualizations}
         + [Visualizations overview](analysis-workspace/freeform-analysis-visualizations.md)
         + [Manage data sources](analysis-workspace/t-sync-visualization.md)
         + [Freeform table](analysis-workspace/freeform-table.md)
@@ -92,16 +92,16 @@ user-guide-title: Analytics Analyze Guide
         + [Attribution IQ FAQ](analysis-workspace/attribution-iq/attribution-faq.md)
     + Virtual Analyst {#virtual-analyst}
         + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
-        + [Anomaly Detection](analysis-workspace/virtual-analyst/c-anomaly-detection/c-anomaly-detection.md)
+        + Anomaly Detection {#anomaly-detection}
             + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
             + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
             + [Turn off anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
             + [Statistical techniques used in anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-        + [Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/contribution-analysis.md)
+        + Contribution Analysis {#contribution-analysis}
             + [Contribution Analysis overview](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
             + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
             + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-    + Intelligent Alerts] {#intelligent-alerts}
+    + Intelligent Alerts {#intelligent-alerts}
         + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
         + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
         + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
@@ -113,7 +113,7 @@ user-guide-title: Analytics Analyze Guide
 + Report Builder {#report-builder}
     + [Adobe Report Builder help](report-builder/home.md)
     + [What's new in Report Builder](report-builder/whats-new-arb.md)
-    + [Report Builder setup](report-builder/setup/setup.md)
+    + Report Builder setup {#report-builder-setup}
         + [System requirements](report-builder/setup/system-requirements.md)
         + [Install Report Builder](report-builder/setup/t-install-arb.md)
         + [Upgrade Report Builder](report-builder/setup/upgrade-arb.md)
@@ -122,19 +122,19 @@ user-guide-title: Analytics Analyze Guide
         + [Uninstall Report Builder](report-builder/setup/t-uninstall-arb.md)
         + [Invoke Report Builder functionality from Microsoft Excel functions](report-builder/setup/invoke-arb-excel-function.md)
     + [Report Builder toolbar](report-builder/reportbuilder-toolbar.md)
-    + [Request Wizard interface](report-builder/request-wizard-interface/request-wizard-interface.md)
+    + Request Wizard interface {#request-wizard-interface}
         + [Request Wizard Step 1](report-builder/request-wizard-interface/request-wizard-step-1.md)
         + [Request Wizard Step 2](report-builder/request-wizard-interface/request-wizard-step-2.md)
     + Data requests {#data-requests}
         + [Data requests - Request Wizard Step 1](report-builder/data-requests/data-requests.md)
         + [Create a data request](report-builder/data-requests/t-create-a-data-request.md)
-        + [Report suites](report-builder/data-requests/selecting-report-suites/selecting-report-suites.md)
+        + Report suites {#report-suites}
             + [Select a report suite](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
             + [Select a report suite from an existing request in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
             + [Use Excel to locate a report suite ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
         + [Manage segments](report-builder/data-requests/segmentation.md)
-        + [Allow Publishing List Overrides](report-builder/data-requests/allow-publishing-list-overrides.md)
-        + [Report types](report-builder/data-requests/c-report-types/c-report-types.md)
+        + [Allow Publishing List overrides](report-builder/data-requests/allow-publishing-list-overrides.md)
+        + Report types {#report-types}
             + [Report types overview](report-builder/data-requests/c-report-types/select-report-types.md)
             + [Path and path fallout reports in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
             + [Filter a Path Report Using the Request Wizard](report-builder/data-requests/c-report-types/path-filter.md)
@@ -142,7 +142,7 @@ user-guide-title: Analytics Analyze Guide
             + [Filter Path Reports by Adding Dependent Requests](report-builder/data-requests/c-report-types/create-toppath-filter.md)
             + [Select a report type](report-builder/data-requests/c-report-types/t-select-report-type.md)
         + [Import bookmarked reports and dashboard reportlets](report-builder/data-requests/import-bookmarked.md)
-        + [Date ranges](report-builder/data-requests/configuring-report-dates/configuring-report-dates.md)
+        + Date ranges {#date-ranges}
             + [Request Wizard definitions - preset dates](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
             + [Fixed dates and saved date ranges](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
             + [Request Wizard definitions - fixed dates](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
@@ -160,8 +160,9 @@ user-guide-title: Analytics Analyze Guide
             + [Granularity](report-builder/data-requests/configuring-report-dates/granularity.md)
             + [Custom calendar](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
         + [Interactive controls](report-builder/data-requests/interactive-controls.md)
-    + [Layout - Request Wizard Step 2](report-builder/layout/layout.md)
-        + [Metrics and dimensions](report-builder/layout/c-metrics-dimensions/c-metrics-dimensions.md)
+    + Layout - Request Wizard Step 2 {#layout}
+        + [Layout overview](report-builder/layout/layout.md)
+        + Metrics and dimensions {#metrics-dimension}
             + [Metrics and dimensions overview](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
             + [Add metrics and dimensions](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
             + [Calculated Metrics](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
@@ -180,12 +181,12 @@ user-guide-title: Analytics Analyze Guide
         + [Configure the custom layout](report-builder/layout/configure-the-custom-layout.md)
         + [Map metrics and dimensions to cells](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
         + [Create a microchart](report-builder/layout/t-create-a-microchart.md)
-        + [Filter dimensions](report-builder/layout/c-filter-dimensions/c-filter-dimensions.md)
+        + Filter dimensions {#filter-dimenson}
             + [Filter dimensions overview](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
             + [Most popular filtering](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
             + [Specific filters](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
             + [Saved filters](report-builder/layout/c-filter-dimensions/saved-filters.md)
-    + [Manage requests](report-builder/manage-requests/manage-requests.md)
+    + Manage requests {#manage-requests}
         + [Manage requests - definitions](report-builder/manage-requests/r-arb-manage-requests.md)
         + [Diagnostic messages](report-builder/manage-requests/diagnostic-messages.md)
         + [Sort ascending or descending](report-builder/manage-requests/sort-ascending-or-descending.md)
@@ -196,7 +197,7 @@ user-guide-title: Analytics Analyze Guide
         + [Refresh requests for all sheets](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
         + [Add dependent requests](report-builder/manage-requests/add-dependent-requests.md)
         + [Classification](report-builder/manage-requests/classification.md)
-        + [Copy requests](report-builder/manage-requests/c-copy-requests/c-copy-requests.md)
+        + Copy requests {#copy-requests}
             + [Copy requests overview](report-builder/manage-requests/c-copy-requests/copy-requests.md)
             + [Copy simple requests](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
             + [Copy adjacent requests](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -211,12 +212,12 @@ user-guide-title: Analytics Analyze Guide
     + [Schedule report requests](report-builder/schedule-report-requests.md)
     + [Schedule a data request](report-builder/t-schedule-a-data-request.md)
     + [Scheduled Task Manager](report-builder/r-arb-scheduled-reports.md)
-    + [Workbook Library](report-builder/workbook-library/workbook-library.md)
+    + Workbook Library {#workbook-library}
         + [Upload a workbook](report-builder/workbook-library/t-upload-a-workbook.md)
         + [Download a workbook](report-builder/workbook-library/t-download-a-workbook.md)
         + [Lock/unlock workbooks](report-builder/workbook-library/protect-wb.md)
         + [Schedule macro-enabled workbooks](report-builder/workbook-library/schedule-macro-wb.md)
-    + [Publish to Power BI with Report Builder 5.5](report-builder/c-publish-power-bi/c-publish-power-bi.md)
+    + Publish to Power BI with Report Builder 5.5 {#publish-powerbi}
         + [Publish to Power BI - Overview](report-builder/c-publish-power-bi/power-bi.md)
         + [Limitations and specifications](report-builder/c-publish-power-bi/specifications-limits.md)
         + [Manually import data to Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -225,7 +226,7 @@ user-guide-title: Analytics Analyze Guide
         + [Troubleshooting Power BI integration](report-builder/c-publish-power-bi/troubleshooting.md)
         + [Adobe Analytics content packs for Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
     + [Troubleshooting and best practices for Report Builder](report-builder/troubleshoot.md)
-+ [Activity Map](activity-map/activity-map.md)
++ Activity Map {#activity-map}
     + [Activity Map overview](activity-map/activity-map.md)
     + [Robust link tracking](activity-map/lnk-tracking-overview.md)
     + [Standard Mode vs. Live Mode](activity-map/activitymap-standard-live.md)
@@ -239,10 +240,10 @@ user-guide-title: Analytics Analyze Guide
     + [Export to CSV file](activity-map/activitymap-csv.md)
     + [Supported systems and requirements](activity-map/activitymap-sysreqs.md)
     + [Activity Map FAQ](activity-map/activitymap-faq.md)
-    + [Getting started](activity-map/activitymap-getting-started/activitymap-getting-started.md)
+    + Getting started {#getting-started}
         + [Getting started for admins](activity-map/activitymap-getting-started/activitymap-getting-started-admins.md)
         + [Getting started for users](activity-map/activitymap-getting-started/activitymap-getting-started-users.md)
-    + [Link tracking](activity-map/activitymap-link-tracking/activitymap-link-tracking.md)
+    + Link tracking {#link-tracking}
         + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
         + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
         + [Differentiate links that reference the same Link ID and region](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
@@ -255,10 +256,10 @@ user-guide-title: Analytics Analyze Guide
     + [AEM Sites and Activity Map integration](activity-map/aem-sites-integration.md)
     + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
     + [Knowledge resources](activity-map/activitymap-info-resources.md)
-+ [Reports and Analytics](reports-analytics/reports-analytics.md)
++ Reports and Analytics {#reports-analytics}
     + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)
     + [Adobe Analytics - key concepts](reports-analytics/key-concepts.md)
-    + [Overview of the reporting interface](reports-analytics/overview-(2)/overview-(2).md)
+    + Overview of the reporting interface {#reporting-interface}
         + [About Data Collection](reports-analytics/overview-(2)/overview-data-collection.md)
         + [Reports Menu](reports-analytics/overview-(2)/reports-menu.md)
         + [Report Features](reports-analytics/overview-(2)/report-overview.md)
@@ -268,7 +269,7 @@ user-guide-title: Analytics Analyze Guide
     + [Report schedule and distribution](reports-analytics/scheduling.md)
     + [Report types](reports-analytics/reports.md)
     + [Run different report types](reports-analytics/t-running-report-types.md)
-    + [Customize reports](reports-analytics/reports-customize/reports-customize.md)
+    + Customize reports {#customize-reports}
         + [Customize reports overview](reports-analytics/reports-customize/customizing-reports-overview.md)
         + [Change report graphs](reports-analytics/reports-customize/t-reports-graphs.md)
         + [Breakdowns](reports-analytics/reports-customize/breakdowns.md)
@@ -285,8 +286,8 @@ user-guide-title: Analytics Analyze Guide
     + [Calendar events](reports-analytics/t-calendar-event.md)
     + [Data Warehouse requests](reports-analytics/data-warehouse.md)
     + [Frequently Asked Questions](reports-analytics/frequently-asked-questions.md)
-+ [Ad Hoc Analysis](ad-hoc-analysis/ad-hoc-analysis.md)
-    + [Ad Hoc Analysis Project Converter](ad-hoc-analysis/c-aha-project-converter/c-aha-project-converter.md)
++ Ad Hoc Analysis {#ad-hoc-analysis}
+    + Ad Hoc Analysis Project Converter {#aha-project-converter}
         + [Ad Hoc Analysis Project Converter overview](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
         + [Convert your projects in Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
         + [View converted projects in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)

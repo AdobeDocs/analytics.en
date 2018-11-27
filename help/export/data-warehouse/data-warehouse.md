@@ -64,7 +64,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Metrics Sort</span> </td> 
-   <td colname="col2">Provides ranked breakdown reports, sorted by descending metric value, similar to what is displayed in the Reports &amp; Analytics user interface, Data Workbench, etc. <a href="../../export/data-warehouse-bucket/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> More...</a> </td> 
+   <td colname="col2">Provides ranked breakdown reports, sorted by descending metric value, similar to what is displayed in the Reports &amp; Analytics user interface, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> More...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Schedule Delivery</span> </td> 

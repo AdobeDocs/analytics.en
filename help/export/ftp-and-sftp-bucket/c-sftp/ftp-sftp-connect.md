@@ -34,4 +34,4 @@ Instructions to set up secure transfer with Adobe FTP servers.
 
 1. Test the connection by logging in to the FTP account using SFTP.
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp-bucket/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846). 
+For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846). 

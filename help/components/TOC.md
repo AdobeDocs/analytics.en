@@ -33,7 +33,7 @@ user-guide-title: Analytics Components Guide
     + [Frequently Asked Questions](c-segmentation/seg-transition.md)
     + [What's New in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
     + [Transition Guide for Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
-+ Calculated Metrics (c-calcmetrics/c-calcmetrics.md)
++ Calculated Metrics {#calculated-metrics}
     + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
     + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)
     + [How-to videos](c-calcmetrics/cm-videos.md)

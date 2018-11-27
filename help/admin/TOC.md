@@ -7,19 +7,20 @@ user-guide-title: Analytics Admin Guide
 # Analytics Admin Guide {#admin-guide}
 
 + [Analytics Admin Help](home.md)
-+ [Analytics product comparison](c-analytics-product-comparison/c-analytics-product-comparison.md)
++ Analytics Admin overview {#admin-overview}
     + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
     + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [System requirements](c-system-requirements/c-system-requirements.md)
-    + [System requirements](c-system-requirements/sys-reqs.md)
-+ [Admin Tools](admin/admin.md)
++ [System requirements](c-system-requirements/sys-reqs.md)
++ Admin Tools {#admin-tools}
     + [Admin Tools](admin/c-admin-tools.md)
     + [Billing](admin/billing-admin.md)
-    + [Bot Rules](admin/bot-rules/bot-rules.md)
+    + Bot Rules {#bot-rules}
+        + [Bot Rules overview](admin/bot-rules/bot-rules.md)
         + [Upload bot rules](admin/bot-rules/t-upload-bot-rules.md)
         + [Create a custom bot rule](admin/bot-rules/t-create-bot-rules.md)
     + [Code Manager](admin/code-manager-admin.md)
-    + [Conversion Variables (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+    + Conversion Variables {#conversion-variables}
+        + [Conversion Variables (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
         + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
         + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
     + [Currency Codes](admin/currency.md)
@@ -37,15 +38,16 @@ user-guide-title: Analytics Admin Guide
     + [Menu Customizing](admin/customize-menus.md)
     + [Metric Visibility](admin/metric-visibility.md)
     + [Mobile Management](admin/mobile-management.md)
-    + [Paid Search Detection](admin/paid-search-detection/paid-search-detection.md)
+    + Paid Search Detection {#paid-search-detection}
+        + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
         + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)
     + [Publishing Lists](admin/publishing-list.md)
     + [Publishing Widget](admin/publishing-widgets-admin.md)
     + [Preferences Manager](admin/preferences-manager.md)
     + [Privacy Settings](admin/privacy-settings.md)
-    + [Processing rules](admin/c-processing-rules/c-processing-rules.md)
+    + Processing rules {#processing-rules}
         + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
-        + [Processing rules configuration](admin/c-processing-rules/c-processing-rules-configuration/c-processing-rules-configuration.md)
+        + Processing rules configuration {#processing-rules-configuration}
             + [How processing rules work](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
             + [Processing Order](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
             + [Create processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
@@ -54,7 +56,8 @@ user-guide-title: Analytics Admin Guide
             + [Restore processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
             + [Copy processing rules to another report suite](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
         + [Dimensions available to processing rules](admin/c-processing-rules/processing-rule-dimensions.md)
-        + [Examples of processing rules](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+        + Processing rules examples {#processing-rules-examples}
+            + [Examples of processing rules](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
             + [Populate a campaign ID from a query string parameter](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
             + [Set the product view event from the product overview page](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
             + [Add a subcategory by concatenating the category and page name](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
@@ -65,11 +68,12 @@ user-guide-title: Analytics Admin Guide
             + [Set an event using a context data variable](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
             + [Remove an event from a hit](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
         + [Processing rules tips and tricks](admin/c-processing-rules/processing-rules-tips.md)
-    + [Real-time reports](admin/realtime/realtime.md)
+    + Real-time reports {#real-time-reports}
+        + [Real-time reports overview](admin/realtime/realtime.md)
         + [Real-time reports configuration](admin/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/realtime/realtime-metrics.md)
     + [Scheduled reports queue](admin/scheduled-reports-admin.md)
-    + [Server-side forwarding](admin/c-server-side-forwarding/c-server-side-forwarding.md)
+    + Server-side forwarding {#server-side-forwarding}
         + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
         + [Requirements for server-side forwarding](admin/c-server-side-forwarding/ssf-requirements.md)
         + [Server-side forwarding data and code reference](admin/c-server-side-forwarding/ssf-reference.md)
@@ -77,19 +81,19 @@ user-guide-title: Analytics Admin Guide
         + [Server-side forwarding FAQ](admin/c-server-side-forwarding/ssf-faq.md)
     + [Simplified reports menu](admin/t-simplified-menu.md)
     + [Social Management](admin/social-management.md)
-    + [Success events](admin/c-success-events/c-success-events.md)
+    + Success events {#success-events}
         + [Success events overview](admin/c-success-events/success-event.md)
         + [Configure success events](admin/c-success-events/t-success-events.md)
         + [About changing the event type](admin/c-success-events/event-type.md)
     + [Timestamps optional](admin/timestamp-optional.md)
-    + [Traffic variables](admin/c-traffic-variables/c-traffic-variables.md)
+    + Traffic variables {#traffic-variables}
         + [Traffic variable (prop) overview](admin/c-traffic-variables/traffic-var.md)
         + [Enable traffic variable reports](admin/c-traffic-variables/t-traffic-variable.md)
-    + [Unique Visitor variable](admin/unique-visitor-variable-admin/unique-visitor-variable-admin.md)
+    + Unique Visitor variable {#unique-visitor-variable}
         + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
         + [Use Case - Extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
     + [Video management](admin/video-management.md)
-+ [Company Settings](company/company.md)
++ Company Settings {#company-settings}
     + [Company Settings overview](company/c-company-settings.md)
     + [Feature access levels](company/feature-access-levels.md)
     + [Web Services](company/web-services-admin.md)
@@ -99,11 +103,11 @@ user-guide-title: Analytics Admin Guide
     + [Co-Branding](company/co-branding-admin.md)
     + [Hide report suites](company/c-hide-report-suites.md)
     + [Security Manager](company/security-manager.md)
-+ [Manage report suites](c-manage-report-suites/c-manage-report-suites.md)
++ Manage report suites {#manage-report-suites}
     + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
     + [Rollup and global report suites](c-manage-report-suites/rollup-report-suite.md)
     + [Create a rollup report suite](c-manage-report-suites/t-rollups.md)
-    + [Report suite templates](c-manage-report-suites/c-report-suite-templates/c-report-suite-templates.md)
+    + Report suite templates {#report-suite-templates}
         + [Report suite templates overview](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
         + [Aggregator portal](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
         + [Commerce](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
@@ -116,32 +120,33 @@ user-guide-title: Analytics Admin Guide
     + [Save a report suite search](c-manage-report-suites/t-report-suite-saved-search.md)
     + [Individual report suite settings](c-manage-report-suites/individual-rs-settings.md)
     + [Download report suite settings](c-manage-report-suites/t-download-rs-settings.md)
-    + [New report suite](c-manage-report-suites/c-new-report-suite/c-new-report-suite.md)
+    + New report suite {#new-report-suite}
         + [New report suite - settings](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
         + [Create a report suite](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
         + [Settings not copied from a source report suite](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
     + [Create a report suite group](c-manage-report-suites/t-create-rs-group.md)
-+ [User and Product Management (Legacy)](user-management2/user-management2.md)
++ User and Product Management (Legacy) {#user-product-management}
     + [User and Product Management](user-management2/user-management.md)
     + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
-    + [User management](user-management2/c-user-management/c-user-management.md)
+    + User management {#user-management}
         + [User management overview](user-management2/c-user-management/users.md)
         + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
         + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
         + [Transfer user account items](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
         + [Add a user to a group](user-management2/c-user-management/t-add-user-to-group.md)
         + [Manage Ad Hoc Analysis users](user-management2/c-user-management/t-manage-dsc-users-admin.md)
-    + [User groups](user-management2/c-user-groups/c-user-groups.md)
+    + User groups {#user-groups}
         + [User group settings](user-management2/c-user-groups/groups.md)
         + [Add a user group](user-management2/c-user-groups/t-user-group.md)
-    + [Customize report access](user-management2/c-customize-report-access/c-customize-report-access.md)
+    + Customize report access {#customize-report-access}
         + [Customize report access - overview](user-management2/c-customize-report-access/groups-customize-report-access.md)
         + [Customize Analytics Tools permissions](user-management2/c-customize-report-access/groups-analytics-tools.md)
         + [Customize Report Suite Tools permissions](user-management2/c-customize-report-access/groups-report-suite-tools.md)
         + [Customize metric permissions](user-management2/c-customize-report-access/groups-metrics.md)
         + [Customize dimension permissions](user-management2/c-customize-report-access/groups-dimensions.md)
     + [Email users](user-management2/t-email-users.md)
-+ [Data Collection](data-collection/data-collection.md)
++ Data Collection {#data-collection}
+    + [Data Collection](data-collection/data-collection.md)
     + [Cookies Used by the Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/)
     + [Currency Support](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/)
     + [Current Data](data-collection/data-latency.md)
@@ -160,7 +165,7 @@ user-guide-title: Analytics Admin Guide
     + [Variables - how they are used in reporting](data-collection/variable-definitions.md)
     + [Analytics Reporting API comparison](data-collection/api-comparison.md)
     + [Developer](data-collection/developer.md)
-+ [Data Governance](c-data-governance/c-data-governance.md)
++ Data Governance {#data-governance}
     + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
     + [Frequently asked questions](c-data-governance/gdpr-faq.md)
     + [Adobe Analytics GDPR workflow](c-data-governance/an-gdpr-workflow.md)
@@ -174,13 +179,13 @@ user-guide-title: Analytics Admin Guide
     + [Labeling Example](c-data-governance/gdpr-labeling-example.md)
     + [GDPR and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
     + [GDPR Terminology](c-data-governance/gdpr-terminology.md)
-+ [Server Call Usage](c-server-call-usage/c-server-call-usage.md)
++ Server Call Usage {#server-call-usage}
     + [Server Call Usage Overview](c-server-call-usage/overage-overview.md)
     + [View current server call usage](c-server-call-usage/server-call-usage-dashboard.md)
     + [View report suite usage](c-server-call-usage/report-suite-usage.md)
     + [Server Call Usage alerts](c-server-call-usage/scu-alerts.md)
     + [Server Call Usage FAQ](c-server-call-usage/overage-faq.md)
-+ [Traffic Management](c-traffic-management/c-traffic-management.md)
++ Traffic Management {#traffic-management}
     + [Manage traffic](c-traffic-management/traffic-management.md)
     + [Traffic Classifications](c-traffic-management/traffic-classifications.md)
     + [Schedule a traffic spike](c-traffic-management/t-traffic-schedule-spike.md)
@@ -188,4 +193,3 @@ user-guide-title: Analytics Admin Guide
     + [Specify permanent traffic increase](c-traffic-management/t-traffic-permanent.md)
     + [Required lead time for traffic increases](c-traffic-management/traffic-lead-time.md)
 + [Admin API](c-admin-api/c-admin-api.md)
-    + [https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md)

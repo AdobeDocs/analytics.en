@@ -167,7 +167,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>Grants permission to <span class="wintitle"> Marketing Channel</span> reports, found in <span class="uicontrol"> Reports</span> &gt; <span class="uicontrol"> Marketing Channel Reports</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../admin/admin/realtime/realtime.md#concept_6E8756BDDAE843F88B6563C09C48B0B6" format="dita" scope="local"> Real-Time Report </a> </p> </td> 
+   <td colname="col1"> <p><a href="../../../admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> Real-Time Report </a> </p> </td> 
    <td colname="col2"> <p>Grants access to the <span class="wintitle"> Real-Time</span> Report. </p> </td> 
   </tr> 
   <tr> 

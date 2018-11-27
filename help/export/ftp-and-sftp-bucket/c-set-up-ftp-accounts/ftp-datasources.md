@@ -21,7 +21,7 @@ The [!UICONTROL Create] tab in the Data Sources Manager lets you configure a new
 
 In the [!UICONTROL Manage Data Sources] window, find your data source and select the FTP Info link. Your FTP login information is displayed in the [!UICONTROL Activate a Data Source] window in the [!UICONTROL Upload/FTP Information] section.
 
-For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp-bucket/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
 
 ## About the .fin File for Classifications and Data Sources Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
 

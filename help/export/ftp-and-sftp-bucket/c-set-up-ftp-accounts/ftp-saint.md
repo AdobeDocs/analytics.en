@@ -21,7 +21,7 @@ The amount of time required for the system to import these files varies, based o
 
 A successful import immediately shows the appropriate changes in an export, while the data changes in Analytics may take up to four hours with a browser import and up to 24 hours with an FTP import.
 
-For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp-bucket/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
 
 ## About the .fin File for Classifications and Data Sources Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
 

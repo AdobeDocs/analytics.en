@@ -9,11 +9,11 @@ snippet: y
 
 # Common implementation mistakes
 
-+ [Putting Analytics code in the head tag](impl-testing/impl-troubleshooting/impl-head-tag.md)
-+ [Using s.linkTrackVars and s.linkTrackEvents](impl-testing/impl-troubleshooting/link-track-vars-events.md)
-+ [Common mistakes in the Products variable](impl-testing/impl-troubleshooting/products-troubleshooting.md)
-+ [Setting the PageType variable incorrectly](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
-+ [Using white space in variable values](impl-testing/impl-troubleshooting/impl-whitespace.md)
-+ [Using quotes](impl-testing/impl-troubleshooting/impl-quotes.md)
-+ [Replacing your Analytics code](impl-testing/impl-troubleshooting/impl-update-code.md)
-+ [Common syntax mistakes](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
++ [Putting Analytics code in the head tag](impl-head-tag.md)
++ [Using s.linkTrackVars and s.linkTrackEvents](link-track-vars-events.md)
++ [Common mistakes in the Products variable](products-troubleshooting.md)
++ [Setting the PageType variable incorrectly](pagetype-troubleshooting.md)
++ [Using white space in variable values](impl-whitespace.md)
++ [Using quotes](impl-quotes.md)
++ [Replacing your Analytics code](impl-update-code.md)
++ [Common syntax mistakes](impl-syntax-troubleshooting.md)

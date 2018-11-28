@@ -62,13 +62,13 @@ First, you need to enable Activity Map reports at a report-suite level.
 
 1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** . 
 
-<!-- 
-<note>
-  If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
- <span class="uicontrol"> Tools </span> > 
- <span class="uicontrol"> Legacy ClickMap Installation </span>. You can then add Non-Admin users to this group. This level of permission combined with the Activity Map Access will provide comprehensive permissions to download and use the tool. 
-</note>
--->
+    <!-- 
+    <note>
+    If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
+    <span class="uicontrol"> Tools </span> > 
+    <span class="uicontrol"> Legacy ClickMap Installation </span>. You can then add Non-Admin users to this group. This level of permission combined with the Activity Map Access will provide comprehensive permissions to download and use the tool. 
+    </note>
+    -->
 
 1. Verify That You are Collecting Activity Map Link Data 
 

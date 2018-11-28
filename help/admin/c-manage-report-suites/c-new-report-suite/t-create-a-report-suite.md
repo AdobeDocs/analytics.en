@@ -29,4 +29,4 @@ Steps that describe how to create a report suite, and to copy a report suite's s
 
 >[!MORE_LIKE_THIS]
 >
->* [Creating Virtual Report Suites](vrs-create.md#concept_442D6A63FE814CB6BA33016493AAB05A)
+>* [Creating Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-create.md)

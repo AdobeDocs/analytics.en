@@ -240,9 +240,13 @@ user-guide-title: Analytics Analyze Guide
     + [Export to CSV file](activity-map/activitymap-csv.md)
     + [Supported systems and requirements](activity-map/activitymap-sysreqs.md)
     + [Activity Map FAQ](activity-map/activitymap-faq.md)
-    + Getting started {#getting-started}
-        + [Getting started for admins](activity-map/activitymap-getting-started/activitymap-getting-started-admins.md)
-        + [Getting started for users](activity-map/activitymap-getting-started/activitymap-getting-started-users.md)
+    + Get started {#getting-started}
+        + [Get started for admins](activity-map/activitymap-getting-started/activitymap-getting-started-admins.md)
+            [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+            [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-sample-implementation-code.md)
+        + [Get started for users](activity-map/activitymap-getting-started/activitymap-getting-started-users.md)
+            [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+            [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
     + Link tracking {#link-tracking}
         + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
         + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)

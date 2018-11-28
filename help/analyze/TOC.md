@@ -242,8 +242,8 @@ user-guide-title: Analytics Analyze Guide
     + [Activity Map FAQ](activity-map/activitymap-faq.md)
     + Get started {#getting-started}
         + [Get started for admins](activity-map/activitymap-getting-started/activitymap-getting-started-admins.md)
-            [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
-            [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-sample-implementation-code.md)
+        + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+        + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-sample-implementation-code.md)
         + [Get started for users](activity-map/activitymap-getting-started/activitymap-getting-started-users.md)
             [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
             [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)

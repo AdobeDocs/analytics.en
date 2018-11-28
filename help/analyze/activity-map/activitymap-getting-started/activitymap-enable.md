@@ -80,4 +80,4 @@ First, you need to enable Activity Map reports at a report-suite level.
    1.  Click a link in your web page.
    1.  Click the top link in the dev console: 
    1.  To verify that the link parameters are being sent, click the Params tab and scroll down to find the Activity Map parameters: 
-    8.  Verify that they reflect the link you clicked on and the region on the correct page.
+   1.  Verify that they reflect the link you clicked on and the region on the correct page.

@@ -19,7 +19,7 @@ A report suite defines the complete, independent reporting on a chosen website, 
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](virtual-report-suites.md#concept_FAD66217A68146B892AB76580DA62616).
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager Descriptions {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

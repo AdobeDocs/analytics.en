@@ -32,12 +32,12 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageName.html" format="http" scope="external"> pageName</a> </p> </td> 
    <td> <p>The name of the page. Uniquely identifies the page and URL in plain English. For example: </p> <p> <span class="codeph"> "homepage"</span> </p> </td> 
-   <td colname="col3"> <p> <a href="reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-pages.md" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="/help/components/c-variables/dimensionslist/reports-paths.md" format="dita" scope="local"> Paths Reports </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/channel.html" format="http" scope="external"> channel</a> </p> </td> 
    <td> <p>The section of the site, or channel. For example: </p> <p> <span class="codeph"> "electronics"</span>, <span class="codeph"> "news"</span> </p> </td> 
-   <td colname="col3"> <p> <a href="reports_site_sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD" format="dita" scope="local"> Site Sections Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-site-sections.md" format="dita" scope="local"> Site Sections Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> contextData</a> </p> </td> 
@@ -47,7 +47,7 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/server.html" format="http" scope="external"> server</a> </p> </td> 
    <td> <p>The server name or vanity domain to be tracked. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_servers.md#concept_A5CABE5BB44E4919BE27E7C4EAD8F6CE" format="dita" scope="local"> Servers Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-servers.md" format="dita" scope="local"> Servers Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/propN.html" format="http" scope="external"> propN</a> (prop1 - prop75) </p> </td> 
@@ -57,12 +57,12 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html" format="http" scope="external"> hierN</a> (hier1 - hier5) </p> </td> 
    <td> <p>Hierarchy variables, used to record visits and visitors for a hierarchically structured site. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_hierarchy.md#concept_845DFC7699C54E4A81C89D7F5396136B" format="dita" scope="local"> Hierarchy Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-hierarchy.md" format="dita" scope="local"> Hierarchy Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/campaign.html" format="http" scope="external"> campaign</a>* </p> </td> 
    <td> <p>Tracks advertising or email click-throughs to the site. Campaigns are also correlated to many values throughout the system, such as to conversion and custom events, referring domains, and search engines. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_tracking_codes.md#concept_CBCAE87060BC4BE1A335DDCA6F4396FB" format="dita" scope="local"> Tracking Codes Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-tracking-codes.md" format="dita" scope="local"> Tracking Codes Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/eVarN.html" format="http" scope="external"> eVarN</a> (eVar1 - eVar75*) </p> </td> 
@@ -82,27 +82,27 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/purchaseID.html" format="http" scope="external"> purchaseID</a>* </p> </td> 
    <td> <p>Up to 20 character code to uniquely identify the purchase, in conjunction with the purchase event </p> </td> 
-   <td colname="col3"> <p> <a href="reports_revenue.md#concept_BDB40C65DF2A4F169ACF92649439224F" format="dita" scope="local"> Revenue </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-revenue.md" format="dita" scope="local"> Revenue </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/state.html" format="http" scope="external"> state</a>* </p> </td> 
    <td> <p>State name or ID, to be used on the order confirmation (Thank You) page, in conjunction with the purchase event </p> </td> 
-   <td colname="col3"> <p> <a href="reports_state.md#concept_5D646CEA14254F3AA253F1E79D4A6471" format="dita" scope="local"> U.S. State </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-state.md" format="dita" scope="local"> U.S. State </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/zip.html" format="http" scope="external"> zip</a>* </p> </td> 
    <td> <p>Zip code, to be used on the order confirmation (Thank You) page, in conjunction with the purchase or other event </p> </td> 
-   <td colname="col3"> <p> <a href="reports_zip.md#concept_726A7EF8C50B49EB9185008C5FF42031" format="dita" scope="local"> Visitor Zip and Postal Codes Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-zip.md" format="dita" scope="local"> Visitor Zip and Postal Codes Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkName.html" format="http" scope="external"> linkName</a> </p> </td> 
    <td> <p>Optionally used to identify the name of a link when sending in custom, download, or exit link data. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_file_downloads.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="reports_custom_links.md#concept_C2640EE109CD456E8FB9DE7BED2B0499" format="dita" scope="local"> Custom Links Report </a> </p> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-file-downloads.md" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="/help/components/c-variables/dimensionslist/reports-custom-links.md" format="dita" scope="local"> Custom Links Report </a> </p> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkType.html" format="http" scope="external"> linkType</a> </p> </td> 
    <td> <p>Used to identify the type of link: Custom, Download, or Exit </p> </td> 
-   <td colname="col3"> <p> <a href="reports_file_downloads.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="reports_custom_links.md#concept_C2640EE109CD456E8FB9DE7BED2B0499" format="dita" scope="local"> Custom Links Report </a> </p> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-file-downloads.md" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="/help/components/c-variables/dimensionslist/reports-custom-links.md" format="dita" scope="local"> Custom Links Report </a> </p> <p> <a href="/help/components/c-variables/dimensionslist/reports-exit-links.md" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/list_props.html" format="http" scope="external"> List Props</a> </td> 
@@ -122,17 +122,17 @@ Analytics variables are usually populated in the HTML code, on each page or temp
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external"> pageType</a> </p> </td> 
    <td> <p>Used on <i>404-Page Not Found</i> error pages </p> </td> 
-   <td colname="col3"> <p> <a href="reports_pages_not_found.md#concept_46A8DB85A4DE428A944C5711B2AE625B" format="dita" scope="local"> Pages Not Found Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-pages-not-found.md" format="dita" scope="local"> Pages Not Found Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageURL.html" format="http" scope="external"> pageURL</a> </p> </td> 
    <td> <p>Optionally used to override the URL of the page as recorded in Analyitcs </p> </td> 
-   <td colname="col3"> <p> <a href="reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-pages.md" format="dita" scope="local"> Pages Report </a> </p> <p> <a href="reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14" format="dita" scope="local"> Paths Reports </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/referrer.html" format="http" scope="external"> referrer</a> </p> </td> 
    <td> <p>Optionally used to override a page's referrer as recorded in Analyitcs </p> </td> 
-   <td colname="col3"> <p> <a href="reports_finding_methods.md#concept_5B8F9F289149440E9553C91EF1E69F0F" format="dita" scope="local"> Finding Methods Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-finding-methods.md" format="dita" scope="local"> Finding Methods Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/transactionID.html" format="http" scope="external"> transactionID</a> </p> </td> 
@@ -171,7 +171,7 @@ Configuration variables, which control data collection, are contained in the [!D
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/currencycode.html" format="http" scope="external"> currencyCode</a> </p> </td> 
    <td> <p>The currency code used in the <span class="varname"> s.products</span> and <span class="varname"> s.events</span> variables. The default is assumed to be USD (U.S. dollars). A list of supported currency codes is available from Adobe. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_revenue.md#concept_BDB40C65DF2A4F169ACF92649439224F" format="dita" scope="local"> Revenue </a> </p> <p>All conversion reports showing revenue or monetary values </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-revenue.md" format="dita" scope="local"> Revenue </a> </p> <p>All conversion reports showing revenue or monetary values </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/cookiedomainperiods.html" format="http" scope="external"> cookieDomainPeriods</a> </p> </td> 
@@ -226,22 +226,22 @@ Configuration variables, which control data collection, are contained in the [!D
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkDownloadFileTypes.html" format="http" scope="external"> linkDownloadFileTypes</a> </p> </td> 
    <td> <p>The list of download file types. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_file_downloads.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> File Downloads Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-file-downloads.md" format="dita" scope="local"> File Downloads Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkInternalFilters.html" format="http" scope="external"> linkInternalFilters</a> </p> </td> 
    <td> <p>Determines which links on your site are exit links, which is any link that takes a visitor away from your site. It is a comma-separated list of filters that represent the links that are part of the site. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-exit-links.md" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkExternalFilters.html" format="http" scope="external"> linkExternalFilters</a> </p> </td> 
    <td> <p>The list of all domains which should be considered external. This is used to <i>limit</i> the number of external links that will be used, not to specify specific links as external. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-exit-links.md" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkLeaveQueryString.html" format="http" scope="external"> linkLeaveQueryString</a> </p> </td> 
    <td> <p>Whether or not the query string of exit links and download links should be included for tracking purposes. </p> </td> 
-   <td colname="col3"> <p> <a href="reports_file_downloads.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="reports_exit_links.md#concept_7F6A0867A4F1483E8AF20554DF348454" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
+   <td colname="col3"> <p> <a href="/help/components/c-variables/dimensionslist/reports-file-downloads.md" format="dita" scope="local"> File Downloads Report </a> </p> <p> <a href="/help/components/c-variables/dimensionslist/reports-exit-links.md" format="dita" scope="local"> Exit Links Report </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/linkTrackVars.html" format="http" scope="external"> linkTrackVars</a> </p> </td> 

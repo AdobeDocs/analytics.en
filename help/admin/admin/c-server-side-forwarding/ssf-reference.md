@@ -23,7 +23,7 @@ Contents:
 
 ## Configuration Variables {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_` identify special, system-level key-value pairs used by our [data collection servers](c_compcollect.md#concept_66CFFEBF5E8B41ED94082D562A93506E) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parameters prefixed with `d_` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
 <table id="table_38CF8F2616C045169A110DEF9C751E38"> 
  <thead> 
@@ -66,7 +66,7 @@ These headers are fields contain information like requests for data and response
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Host </span> </p> </td> 
-   <td colname="col2"> <p>This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as <span class="codeph"> <span class="varname"> host name </span>.demdex.net </span>. </p> <p>See <a href="demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F" format="dita" scope="local"> Understanding Calls to the Demdex Domain </a>. </p> </td> 
+   <td colname="col2"> <p>This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as <span class="codeph"> <span class="varname"> host name </span>.demdex.net </span>. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="dita" scope="external"> Understanding Calls to the Demdex Domain </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> User-Agent </span> </p> </td> 
@@ -100,7 +100,7 @@ These headers are fields contain information like requests for data and response
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5).
+Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
 <table id="table_D679E65573AA421C9C75E575894D7096"> 
  <thead> 

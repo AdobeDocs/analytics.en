@@ -34,7 +34,7 @@ Prior to April 20, 2017, all users (including administrators) had to pass an exa
 
 Now, administrators have rights to use processing rules **by default**. The exam is no longer necessary. Administrators can also grant these rights to non-administrators through the Admin Tools interface. Here's how:
 
-1. If you have not already done so, [create a group](define_user_group.md#concept_DBBCB8275D554B02B4B4E1168BA69A05) that includes only those non-admins that should have authorization to use processing rules. 
+1. If you have not already done so, [create a group](../../../admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules. 
 1. [Add the non-administrator/s to that group](../../../admin/user-management2/c-user-management/t-add-user-to-group.md#task_0EE07E66139C4477B8505F3EB4BB05B8). 
 1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL [group name]]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**. 
 1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.

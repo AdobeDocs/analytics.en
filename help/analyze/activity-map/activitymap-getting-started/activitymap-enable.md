@@ -15,7 +15,7 @@ snippet: y
 
 Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
 
-## Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Step 1 – Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 The Activity Map module is part of the AppMeasurement.js file (located at the top of the file). The AppMeasurement library will load the Activity Map module when instantiated.
 
@@ -41,7 +41,7 @@ Using
 <b>Dynamic Tag Management (DTM)</b>. To do so, enable the code through the DTM repository.
 -->
 
-## Enable Activity Map reports {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Step 2 - Enable Activity Map reports {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 First, you need to enable Activity Map reports at a report-suite level.
 
@@ -52,7 +52,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 
 1. After about an hour, check the [Activity Map Page report](cm_reporting_analytics.md#concept_81460823B3EE43DD8152999F0C96DAF3), which shows all the pages where users clicked on a link.
 
-## Add users to Activity Map access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## Step 3 - Add users to Activity Map access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Click **[!UICONTROL Add Users to Group]**.
 

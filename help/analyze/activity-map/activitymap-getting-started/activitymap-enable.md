@@ -70,8 +70,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 </note>
 -->
 
-
-3. Verify That You are Collecting Activity Map Link Data 
+1. Verify That You are Collecting Activity Map Link Data 
 
    1.  Check in your browser's Developer section whether you are collecting link data.
    1.  Go to one of your web pages that has Analytics tags implemented.

@@ -15,7 +15,7 @@ snippet: y
 
 Internal URL filters identify the referrers that you consider internal to your site. They help traffic sources reports populate data and help filter internal traffic.
 
-A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Reports exclude filtered referrers from the [Referrers Report](reports_referrers.md#concept_40CF9C2D10B94E82819BC65A232F05C3), the [Referring Domains Report](reports-referring-domains.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF), and other Finding Methods reports.
+A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Reports exclude filtered referrers from the [Referrers Report](help/components/c-variables/dimensionslist/reports-referrers.md), the [Referring Domains Report](help/components/c-variables/dimensionslist/reports-referring-domains.md), and other Finding Methods reports.
 
 The most common reason traffic sources reports don't populate data is that the Internal URL Filter List isn't defined. To check which Internal URL Filters have been set up on a report suite, follow these steps. To avoid this, remove the rule listing a period (.) as a filter, and add your own site.
 

@@ -68,7 +68,7 @@ The Success Events page lets you configure the Event variables used on your site
   </tr> 
   <tr> 
    <td colname="col1"> Participation </td> 
-   <td colname="col2">See <a href="metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477" format="dita" scope="local"> Metrics Participation</a>. </td> 
+   <td colname="col2">See <a href="/help/components/c-variables/c-metrics/metrics-participation.md" format="dita" scope="external"> Metrics Participation</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Warning (currency event) </td> 

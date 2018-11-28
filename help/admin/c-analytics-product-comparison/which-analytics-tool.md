@@ -66,7 +66,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 ## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-** [Classifications](c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)** should be used:
+** [Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:
@@ -91,7 +91,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-[ **Customer Attributes** ](reports_customer_attributes.md#concept_FED4C36127D74D10A636FB18B21AD53C) should be used:
+[ **Customer Attributes** ](/help/components/c-variables/dimensionslist/reports-customer-attributes.md) should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud. 
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
@@ -111,7 +111,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * For cross-report-suite views. 
 * If automation through scheduling is desired (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
-** [Data Warehouse](data_warehouse.md#concept_8EDD61F459204364AD214125ED160EC6)** should be used:
+** [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** should be used:
 
 * To access variables otherwise hidden in the UI - IP address, Experience Cloud ID, Analytics Visitor ID, Page URL) 
 * To access more granular data than the UI (denormalized table view) 

@@ -13,10 +13,10 @@ snippet: y
 
 <!-- Write summary -->
 
-+ [Identify the s_account variable in the debugger](impl-testing/impl-validation/impl-testing-account.md)
-+ [JavaScript JS file](impl-testing/impl-validation/impl-js-file.md)
-+ [Code modifications](impl-testing/impl-validation/impl-code-updates.md)
-+ [Variables and values](impl-testing/impl-validation/impl-var-values.md)
-+ [Custom variables](impl-testing/impl-validation/impl-custom-vars.md)
-+ [Implementation acceptance](impl-testing/impl-validation/impl-acceptance.md)
-+ [Data accuracy validation](impl-testing/impl-validation/impl-data-accuracy.md)
++ [Identify the s_account variable in the debugger](impl-testing-account.md)
++ [JavaScript JS file](impl-js-file.md)
++ [Code modifications](impl-code-updates.md)
++ [Variables and values](impl-var-values.md)
++ [Custom variables](impl-custom-vars.md)
++ [Implementation acceptance](impl-acceptance.md)
++ [Data accuracy validation](impl-data-accuracy.md)

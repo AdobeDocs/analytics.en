@@ -12,9 +12,6 @@ This guide is intended for Adobe Analytics administrators. You can browse for he
 ## Key articles
 
 <!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
 
 ## Analytics user guides
 

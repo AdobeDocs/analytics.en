@@ -43,11 +43,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse </p> </td> 
-   <td colname="col2"> <p> Allows a non-admin user to make calls using the <span class="wintitle"> Data Warehouse</span> methods via the Web Services API. </p> <p> <a href="https://marketing.adobe.com/developer/documentation/data-warehouse/c-data-warehouse-api" format="https" scope="external"> Data Warehouse - Developer Documentation</a> </p> <p> <a href="data_warehouse.md#concept_8EDD61F459204364AD214125ED160EC6" format="dita" scope="local"> Data Warehouse - Product Documentation</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Site Catalyst </p> </td> 
-   <td colname="col2"> </td> 
+   <td colname="col2"> <p> Allows a non-admin user to make calls using the <span class="wintitle"> Data Warehouse</span> methods via the Web Services API. </p> <p> <a href="https://marketing.adobe.com/developer/documentation/data-warehouse/c-data-warehouse-api" format="https" scope="external"> Data Warehouse - Developer Documentation</a> </p> <p> <a href="/help/export/data-warehouse/data-warehouse.md" format="dita" scope="local"> Data Warehouse - Product Documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites (Read) </p> </td> 
@@ -140,7 +136,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>Actions that can be tracked, such as product view, checkout, and purchase. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="classification_hierarchies.md#concept_10A956342D7D4C3E9114CCFCE1364741" format="dita" scope="local"> Classification Hierarchies</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/classification-hierarchies.md" format="dita" scope="local"> Classification Hierarchies</a> </p> </td> 
    <td colname="col2"> <p> Consolidated into Classifications (under Tools and Reports). </p> </td> 
   </tr> 
   <tr> 
@@ -183,7 +179,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p> Data warehouse refers to the copy of raw, unprocessed data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="reports_daily_return_visits.md#concept_D17071E0F6174E039C70A20CB5E3D438" format="dita" scope="local"> Daily Return Visits</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-variables/dimensionslist/reports-daily-return-visits.md" format="dita" scope="local"> Daily Return Visits</a> </p> </td> 
    <td colname="col2"> <p> (Legacy) Report that displays the number of visitors to your website more than once on a given day. A day is defined as the last 24-hour period. </p> </td> 
   </tr> 
   <tr> 
@@ -195,10 +191,6 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>You can exclude data from specific IP addresses, such as internal website activities, site testing and employee usage, from your reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="reports_last_100_visitors.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Last 100 Visitors </a> </p> </td> 
-   <td colname="col2"> <p>(Legacy) Displays the IP address and domain of the last 100 visitors to your site. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Legacy ClickMap </p> </td> 
    <td colname="col2"> <p>Grants access to the menu for the legacy ClickMap overlay tool. </p> </td> 
   </tr> 
@@ -207,7 +199,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>Grants installation rights to the legacy ClickMap tool. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="reports_return_visits.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Return Visits</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-variables/dimensionslist/reports-return-visits.md" format="dita" scope="local"> Return Visits</a> </p> </td> 
    <td colname="col2"> <p> A report showing the number of visits where visit number is greater than 1. The Return Visits Report includes non-cookied visitors. </p> </td> 
   </tr> 
   <tr> 

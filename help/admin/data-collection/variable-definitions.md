@@ -23,6 +23,7 @@ Analytics variables are usually populated in the HTML code, on each page or temp
 **NOTE:** &#42; Denotes a conversion variable. These variables require that the conversion module be enabled. 
 
 |Implementation Variable|Description|Reports Populated|
+|--- |--- |--- |
 |[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/pageName.html)|The name of the page. Uniquely identifies the page and URL in plain English. For example:    "homepage"|[Pages Report](/help/components/c-variables/dimensionslist/reports-pages.md)<br></br>[Paths Reports](/help/components/c-variables/dimensionslist/reports-paths.md)|
 |[channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/channel.html)|The section of the site, or channel. For example:    "electronics",  "news"|[Site Sections Report](/help/components/c-variables/dimensionslist/reports-site-sections.md)|
 |[contextData](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)|Available with version 15 and [processing rules](../../admin/admin/c-processing-rules/processing-rules.md).<br></br>contextData variables require no knowledge of the various types of variables Analytics offers (props, eVars, etc).<br></br>An analyst can request a variable name be implemented, and apply processing rules to assign that context data to a variable.|None. Context Data must be mapped to variables for reporting.|
@@ -52,6 +53,7 @@ Analytics variables are usually populated in the HTML code, on each page or temp
 Configuration variables, which control data collection, are contained in the [!DNL .js] file, but they are not considered data collection elements. Configuration variables are not included in marketing reports, but they may affect the data, or the appearance of the reports. Configuration variables include the following. 
 
 |Implementation Variable|Description|Reports Populated|
+|--- |--- |--- |
 |[s\_account](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_account.html)|Report suite IDs. The account(s) that the page view is reported in.|N/A|
 |[charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)|The character set used on the page. The default is assumed to be ISO-8859-1. A list of available character sets is available from Adobe.|N/A|
 |[currencyCode](https://marketing.adobe.com/resources/help/en_US/sc/implement/currencycode.html)|The currency code used in the  s.products and  s.events variables. The default is assumed to be USD (U.S. dollars). A list of supported currency codes is available from Adobe.|[Revenue](/help/components/c-variables/dimensionslist/reports-revenue.md)<br>All conversion reports showing revenue or monetary values|
@@ -78,6 +80,7 @@ Configuration variables, which control data collection, are contained in the [!D
 Automatic variables are obtained by the [!DNL .JS] code either automatically, or they are populated in the [!DNL .JS] file as a result of the control variables explained above. The names of these variables are defined only within the query string of the image request. There is no equivalent HTML-based variable. The automatic variables include the following. 
 
 |Automatic Variable|Description|
+|--- |--- |
 |r (Referring URL)|The referring URL as defined by the browser. This value includes all query string parameters for the referring URL, including search strings and other information.|
 |g (Current URL)|The current page's URL. This value may include all query string parameters, depending upon the account settings and configuration.|
 |ClickMap data (various)|Various information about the page ID, link clicked, including destination URL, link number, etc.|
@@ -97,6 +100,7 @@ Automatic variables are obtained by the [!DNL .JS] code either automatically, or
 Direct variables are those set directly by the browser in the HTTP header of the image request sent to Analytics. These variables are set in each request that is made for any content on the Internet and include some of the most basic user information. The variables are reported directly or indirectly in a number of marketing reports. Direct variables include the following. 
 
 |Direct Variable|Description|
+|--- |--- |
 |IP address|The IP address is the Internet Protocol address of the user's browser or machine. That IP addresses may be pooled among multiple users, and that a single user may also use more than one IP address from page to page.  The user's IP address is resolved to geographic location based on data provided by Digital Envoy through a partnership with Adobe.|
 |domain|The domain from which the user is requesting data. In many cases, this is a company or an Internet Service Provider (ISP) such as AOL.|
 |user agent string|The user agent string indicates the browser and version, and the Operating System used. In some cases, it may also contain major plug-in or customization features (i.e., .NET). The  Browser,  Browser Version, and  Operating System reports are based on the user agent string.|

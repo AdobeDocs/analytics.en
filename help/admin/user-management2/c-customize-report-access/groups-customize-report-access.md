@@ -50,7 +50,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
      <li id="li_B35420302AAB42509BD6AF0FA6349BF8">Anomaly Detection </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">Real-Time Report </li> 
      <li id="li_3797DF9C40D1426588819116362962F5">Analysis Workspace Access </li> 
-    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="define_user_group.md#concept_DBBCB8275D554B02B4B4E1168BA69A05" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
+    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in Define User Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension-Level Permissions </p> </td> 
@@ -62,7 +62,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="permissions_faq.md#section_A3FDD8259F524B21A5489833533D1B28" format="dita" scope="local"> Permissioning Quick Reference</a>. </p> </td> 
+   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="dita" scope="external"> Analytics User Migration to the Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Content Aware </p> </td> 

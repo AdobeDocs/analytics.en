@@ -140,10 +140,6 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>Grants permission to access <span class="wintitle"> Ad Hoc Analysis</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/t_admin_group.html" format="html" scope="external"> Mobile App Admin </a> </p> </td> 
-   <td colname="col2"> <p>Grants access to acquisition links and in-app messages in <span class="keyword"> Mobile Services</span>. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Web Service Access </p> </td> 
    <td colname="col2"> <p>Enables Web Services access for non-administrators. Generates Web Service credentials. </p> </td> 
   </tr> 

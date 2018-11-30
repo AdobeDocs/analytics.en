@@ -52,7 +52,7 @@
             "pattern": "^.*flytohawaiiforfree.com"
         },
         {
-            "pattern": "*ec.europa.eu"
+            "pattern": "^.*europa.eu"
         }
     ]
 }

@@ -18,10 +18,9 @@ Access additional information resources for Adobe Activity Map.
 |  Knowledge Resource  | Details  |
 |---|---|
 |  [Experience Cloud Help]( https://marketing.adobe.com/resources/help/en_US/home/index.html)  | Knowledge portal for all Adobe Experience Cloud documentation  |
-|  Activity Map 3.0 documentation  |(This) Online help for Adobe [!DNL Activity Map] |
+|  Activity Map documentation  |(This) Online help for Adobe [!DNL Activity Map] |
 |  [Analytics documentation](https://marketing.adobe.com/resources/help/en_US/reference/)  | Online help for Adobe Analytics  |
-|  [Training Videos](https://outv.omniture.com/)  | Digital Marketing suite videos  |
-|  [KnowledgeBase](https://omniture-help.custhelp.com/)  | ClientCare knowledge base  |
-|  [Forums](https://help-forums.adobe.com/content/adobeforums/en/analytics-forum/?f=adobe-analytics)  | ClientCare user forums and Community  |
+|  [KnowledgeBase](https://helpx.adobe.com/support/analytics.html)  | ClientCare knowledge base  |
+|  [Forums](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)  | ClientCare user forums and Community  |
 |  [Adobe Analytics Blog](https://blogs.adobe.com/digitalmarketing/analytics/)  | Latest Adobe Analytics blogs from the product managers.  |
 

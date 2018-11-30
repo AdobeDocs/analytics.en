@@ -72,7 +72,7 @@ user-guide-title: Analytics Analyze Guide
     + Panels {#panels}
         + [Panels overview](analysis-workspace/c-panels/panels.md)
         + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
-        + [Attribution IQ overview](analysis-workspace/c-panels/attribution.md)
+        + [Attribution IQ overview](analysis-workspace/attribution-iq/attribution.md)
         + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
         + Segment comparison (IQ) {#segment-comparison}
             + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -170,7 +170,7 @@ user-guide-title: Analytics Analyze Guide
             + [User access permissions for dimensions and metrics](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
             + [Modify metrics - field definitions](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
             + [Customer attributes](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
-        + [Anomaly Detection](report-builder/layout/anomaly-detection-(2).md)
+        + [Anomaly Detection](report-builder/layout/anomaly-detection(2).md)
         + [Configure an anomaly detection request](report-builder/layout/t-anomaly.md)
         + [Format the date](report-builder/layout/format-the-data.md)
         + [Format display headers](report-builder/layout/t-format-display-headers.md)
@@ -241,12 +241,12 @@ user-guide-title: Analytics Analyze Guide
     + [Supported systems and requirements](activity-map/activitymap-sysreqs.md)
     + [Activity Map FAQ](activity-map/activitymap-faq.md)
     + Get started {#getting-started}
-        + [Get started for admins](activity-map/activitymap-getting-started/activitymap-getting-started-admins.md)
-        + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
-        + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-sample-implementation-code.md)
-        + [Get started for users](activity-map/activitymap-getting-started/activitymap-getting-started-users.md)
-            [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-            [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+        + Get started for admins {#get-started-admins}
+            + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+            + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+        + Get started for users {#get-started-users}
+            + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+            + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
     + Link tracking {#link-tracking}
         + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
         + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)

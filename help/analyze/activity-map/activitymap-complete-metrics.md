@@ -19,8 +19,6 @@ Understanding the impact of link clicks on downstream user behavior allows you t
 
 Previous versions of Activity Map offered limited ability to add other metrics to the tool. This version supports all metrics in Adobe Analytics. For more information on Analytics standard metrics, go [here](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
-You can access your full set of metrics that are supported by an eVar in Adobe Analytics through the following drop-down menu in the toolbar:
-
-![](assets/metrics.png)
+You can access your full set of metrics that are supported by an eVar in Adobe Analytics through the  drop-down menu in the toolbar.
 
 Please note that in Live Mode, only Link Click metrics are collected. 

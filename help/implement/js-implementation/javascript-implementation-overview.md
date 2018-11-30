@@ -57,7 +57,7 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
       
 /* 
       
-&nbsp;==============&nbsp;DO&nbsp;NOT&nbsp;ALTER&nbsp;ANYTHING&nbsp;BELOW&nbsp;THIS&nbsp;LINE&nbsp;!&nbsp;============
+== DO NOT ALTER ANYTHING BELOW THIS LINE ==
 
      </codeblock> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 

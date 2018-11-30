@@ -16,38 +16,33 @@ snippet: y
 
 Following these guidelines results in using the same cookie domains, which lets visits be tracked between various types of implementations.
 
-* ** RSID:** The [!UICONTROL report suite ID] 
+* **RSID:** The [!UICONTROL report suite ID]
+* **VNS:** Visitor name space, the subdomain of [!DNL 2o7.net] or [!DNL omtrdc.net] used to store the [!UICONTROL visitor ID] cookie
+* **COOKIEDOMAIN:** Your VNS + trackingServer. Depending on your data center and RDC configuration, these can greatly vary. [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) if you are unsure about you data collection domain.
 
-* ** VNS:** Visitor name space, the subdomain of [!DNL 2o7.net] or [!DNL omtrdc.net] used to store the [!UICONTROL visitor ID] cookie 
+## Javascript
 
-* ** COOKIEDOMAIN:** Your VNS + trackingServer. Depending on your data center and RDC configuration, these can greatly vary. See [Correctly populate the trackingServer and trackingServerSecure variable](https://marketing.adobe.com/resources/kb/en_US/analytics/kb/determining-data-center.html) or [contact Client Care](contact_and_legal.md#concept_34A1CA16F2244D42930BB77846A5ABBB) if you are unsure about you data collection domain.
-
-**Javascript:**
-
-```js
+```javascript
 var s_account="RSID" 
 s.visitorNamespace="VNS" 
 s.trackingServer="VNS.COOKIEDOMAIN.net" 
- 
-<b>Hardcoded image request:</b>
 ```
 
-**AppMeasurement:**
+## AppMeasurement
 
-```js
+```javascript
 var s_account="RSID" 
 s.visitorNamespace="VNS" 
 s.trackingServer="VNS.COOKIEDOMAIN.net" 
- 
-<b>Hardcoded image request:</b>
 ```
 
-**Hardcoded image request:**
+## Hardcoded image request
 
-```
+```javascript
 <img border="0" alt="" src="https://VNS.COOKIEDOMAIN.net/b/ss/RSID/5?ns=VNS" width="1" height="1" /> 
-<!-- Note that the visitor namespace is defined twice in hardcoded image requests; once in the http subdomain, and another using the ns= query string parameter! --> 
+
+<!-- Note that the visitor namespace is defined twice in hardcoded image requests; once in the http subdomain, and another using the ns= query string parameter! -->
 
 ```
 
-If using a first-party cookie implementation, [!DNL VNS.COOKIEDOMAIN.net] can be replaced with the first-party cookie domain used. For example, first-party cookies on [!DNL adobe.com] would be replaced with something similar to [!DNL metrics.adobe.com]. 
+If using a first-party cookie implementation, `VNS.COOKIEDOMAIN.net` can be replaced with the first-party cookie domain used. For example, first-party cookies on `adobe.com` would be replaced with something similar to `metrics.adobe.com`. 

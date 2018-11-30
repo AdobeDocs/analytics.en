@@ -61,7 +61,7 @@ Because the API and interface use the same permissioning system, whatever permis
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Anomaly Detection Report Permission </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Real-Time Report Permission </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace Access Permission </li> 
-    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="define_user_group.md#concept_DBBCB8275D554B02B4B4E1168BA69A05" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
+    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension-Level Permissions </p> </td> 
@@ -73,7 +73,7 @@ Because the API and interface use the same permissioning system, whatever permis
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enterprise Dashboard </p> </td> 
-   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="permissions_faq.md#section_A3FDD8259F524B21A5489833533D1B28" format="dita" scope="local"> Permissioning Quick Reference</a>. </p> </td> 
+   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> Manage product permissions in the Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,9 +103,9 @@ Here is important new information about new and planned updates and how they aff
    <td colname="col2"> <p>The following enhancements to the current <span class="wintitle"> Admin Tools</span> interface are available: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
       <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Permission changes as described in <a href="../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF" format="dita" scope="local"> Administrative Changes - Fall 2016</a>. </li> 
-      <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Removed <a href="permissions_faq.md#section_FC9D2622ECCC4807B24A2A622C72874A" format="dita" scope="local"> defunct traffic reports</a> that were no longer in the menu. </li> 
+      <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Removed defunct traffic reports that were no longer in the menu. </li> 
       <!--<li id="li_B84683093A96404C9AD62280E32F2FA9"><xref href="permissions_faq.xml#concept_4DFA17268861440A80EB2AA1453B811B/section_8304ABBF38354D33A86F517C72AD813A" format="dita" scope="local">Segment are now validated</xref> when used in a report. </li>--> 
-      <li id="li_57234CF27E1D405987DE89312CD62C52">SAINT classifications permissions: Access to SAINT classifications will be determined by access to the variable the classification is for. </li> 
+      <li id="li_57234CF27E1D405987DE89312CD62C52">Classifications permissions: Access to classifications will be determined by access to the variable the classification is for. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

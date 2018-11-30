@@ -18,7 +18,7 @@ Learn about the benefits and constraints of using Timestamps Optional setting.
 
 Timestamps Optional is the default setting for all new report suites.
 
-* Mix timestamped and non-timestamped data in the same global report suite. 
+* Mix timestamped and non-timestamped data in the same global report suite.
 * Send timestamped data from a mobile app to a global report suite. 
 * Upgrade apps to employ timestamps without having to create a new report suite.
 
@@ -32,35 +32,24 @@ See [Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/refer
 
 Using the Timestamps Optional feature, you can combine non-timestamped data with timestamped data without incurring data loss. Offline data with timestamps generated from a mobile device can be combined with live, non-timestamped data from a web page—or integrated with data from any platform using a client-side timestamp call.
 
-* **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript ( [ [!DNL s.timestamp]](timestamp.md#concept_D997A2FF4D134C80A614C0BC7A4D7507)) on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app. 
+* **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
 * **Non-timestamp data**. Adobe sets a timestamp on non-timestamped data in a report suite when the data hits the collection servers.
 
 ![](assets/timestamp_v_non2.png)
 
 A report suite can have one of the following timestamp settings:
 
-* Timestamps not allowed (setting visitorID supported) 
-* Timestamps required (setting visitorID not supported) 
+* Timestamps not allowed (setting visitorID supported)
+* Timestamps required (setting visitorID not supported)
 * Timestamps optional (setting visitorID supported but not on timestamped hits)
 
 ## About Timestamps Optional Features {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 Timestamps Optional allows you to integrate and report across multiple report suites with or without client-side timestamps included. With Timestamps Optional you can update your app to employ timestamps while still using non-timestamped data from the previous app. 
 
-<table id="table_DF81590139424E6B8E06003AE5336D9D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> In previous releases... </th> 
-   <th colname="col2" class="entry"> In addition... </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Timestamped data could not be sent to a non-timestamped global report suite. Consequently, hit data sent from offline devices was dropped when adding to a non-timestamped report suite. </p> <img placement="break" align="center" href="assets/timestamp_v_non4_1.png" id="image_A23F1BE4E52B4752BB6141138846FCE6" /> <p>Consequently, hit data sent from offline data was dropped when adding to a non-timestamped report suite. </p> </td> 
-   <td colname="col2"> <p>Updating an app to collect and use timestamps required you to employ a new report suite. </p> <img placement="break" align="center" href="assets/timestamp_v_non4_2.png" id="image_6BC3F3E1C85A4615A61E7F3256793A7B" /> <p></p> <p>You could not save to the existing report suite or integrate existing data when updating your app to use timestamps. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|In previous releases...|In addition...|
+|--- |--- |
+|Timestamped data could not be sent to a non-timestamped global report suite. Consequently, hit data sent from offline devices was dropped when adding to a non-timestamped report suite. <br/><br/>Consequently, hit data sent from offline data was dropped when adding to a non-timestamped report suite.|Updating an app to collect and use timestamps required you to employ a new report suite. <br/>You could not save to the existing report suite or integrate existing data when updating your app to use timestamps.|
 
 **With Timestamps Optional**, you can integrate non-timestamped data from a live website with offline data from mobile devices, or update your non-timestamped app to a timestamped app. ![](assets/timestamp_v_non6.png)
 

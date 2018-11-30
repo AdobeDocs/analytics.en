@@ -10,10 +10,10 @@
             "pattern": "^.*apache.org"
         },
         {
-            "pattern": "https://www.ehow.com"
+            "pattern": "^.*ehow.com"
         },
         {
-            "pattern": "https://api.demdex.com/v1/partner-sites/"
+            "pattern": "^.*api.demdex.com/v1/partner-sites/"
         },
         {
             "pattern": "^.*omniture.com"
@@ -50,6 +50,9 @@
         },
         {
             "pattern": "^.*flytohawaiiforfree.com"
+        },
+        {
+            "pattern": "*ec.europa.eu"
         }
     ]
 }

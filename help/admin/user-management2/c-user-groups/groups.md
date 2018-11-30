@@ -66,7 +66,7 @@ Descriptions of elements on the Define User Group page.
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test and Target </b>(Grants access to Target reports if your organization uses both Analytics and Target.) </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Web Services </b>(Grants access to API resources for both reporting and administration.) </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metrics</b> (Grants access to metrics used in Reports &amp; Analytics, including default metrics like page views and other metrics like custom events.) <a href="define_user_group.md#section_451BAFC3E2B444A89CEBEB3B8768144E" format="dita" scope="local"> More...</a> </li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metrics</b> (Grants access to metrics used in Reports &amp; Analytics, including default metrics like page views and other metrics like custom events.)</li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(Grants access to various components in the Admin Menu, such as Logs and Report Suite settings.) </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>Report Download</b> (Grants the ability to download reports from within the Analytics UI.) </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Survey</b> (Grants access to Survey reports if your organization also uses the deprecated Adobe Survey capability.) </li> 

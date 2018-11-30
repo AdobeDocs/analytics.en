@@ -25,7 +25,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 ## Step 1. Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
-|  **Q: What are the implementation steps for enabling the new Activity Map?** |A: Please review [Enabling Activity Map](activitymap-enable.md#concept_4C5A1178C8E040B99CAE7A25473E67D6)  |
+|  **Q: What are the implementation steps for enabling the new Activity Map?** |A: Please review [Enable Activity Map](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)  |
 |---|---|
 |  **Q: Do all Analytics customers have access to the Admin Tools ActivityMap Enablement page?** | A: Adobe SiteCatalyst customers do not have access to the Admin Console’s Activity Map Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.  |
 |  **Q: Can the new AppMeasurement code be configured through Dynamic Tag Management (DTM)?** |A: Yes, you can [manually implement](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) the new AppMeasurement code.  |
@@ -101,10 +101,10 @@ Frequently asked questions for setting up, configuring, and employing features i
      <li id="li_3955512D61D040DAA5FE55169C304BD1">A warning message is shown below toolbar indicating that no tag is present. </li> 
     </ul> <p> <b>Web page with incompatible Analytics Tag (AppMeasurement v1.5 or earlier)</b> </p> 
     <ul id="ul_85780A2E509641599E5DCADAB2096428"> 
-     <li id="li_B2FEAD8AE1474EDEB0891EB1B01AEEF8">A warning message is shown indicating that you need to <a href="activitymap-enable.md#section_5D1586289DF2489289B1B6C1C80C300D" format="dita" scope="local"> upgrade the page code to v1.6</a>. </li> 
+     <li id="li_B2FEAD8AE1474EDEB0891EB1B01AEEF8">A warning message is shown indicating that you need to (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) upgrade the page code to v1.6.</li> 
     </ul> <p> <b>Web page with compatible Analytics Tag (AppMeasurement v1.6 or later), but Activity Map reporting was not enabled in Admin Tools</b> </p> 
     <ul id="ul_F16BFD92CE1B4391ABFDE27E454033CE"> 
-     <li id="li_8ABF0A222EFF406CB53B40DA5A8C06CB">A warning message is shown indicating that you need to ask your Admin to <a href="activitymap-enable.md#section_D14F15D2FC0346FCAD8B3B87E6DD33D4" format="dita" scope="local"> enable the Activity Map report</a>. </li> 
+     <li id="li_8ABF0A222EFF406CB53B40DA5A8C06CB">A warning message is shown indicating that you need to ask your Admin to <a href="/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md"> enable the Activity Map report</a>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

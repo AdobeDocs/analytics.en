@@ -39,7 +39,7 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the New Link Tracking Methodology, go <a href="link-tracking-methodology.md#concept_083E026EABA14B3C82648DFBC683AF69" format="dita" scope="local"> here</a>.) </td> 
+   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the [New Link Tracking Methodology] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clicks </td> 
@@ -62,7 +62,7 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
 
 **Filter Data**
 
-When you want to zero in on a specific link, you can search for a related term in the **[!UICONTROL Filter Data]** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [Activity Map Settings](c_Overlay_settings_panel.md#concept_7881624ACCF44F92985D4594080B9800) will be shown.
+When you want to zero in on a specific link, you can search for a related term in the **[!UICONTROL Filter Data]** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
@@ -84,7 +84,7 @@ In Live mode, the Links on Page report shows trended data spanning several minut
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New Link Tracking Methodology, go <a href="link-tracking-methodology.md#concept_083E026EABA14B3C82648DFBC683AF69" format="dita" scope="local"> here</a>. </td> 
+   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New [Link Tracking Methodology] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link Clicks </td> 

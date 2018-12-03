@@ -5,13 +5,13 @@ seo-title: Report Features
 solution: Analytics
 title: Report Features
 topic: Reports and analytics
-uuid: 379f2d8f-74ae-4870-9e6d-737d1771b409
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 index: y
 internal: n
 snippet: y
 ---
 
-# Report Features
+# Report Features{#report-features}
 
 An introduction to the features of a report, including the toolbar, calendar, and detail table.
 
@@ -30,13 +30,13 @@ This example shows a [!UICONTROL Pages Report]. The configuration options may va
 
 An example of a Pages Report ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png)
+![](assets/pages_report.png){width="672px"}
 
 ## Report Toolbar {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Share your report data with the decision makers who can change your site or marketing strategies based on the data.
 
-![](assets/toolbar.png)
+![](assets/toolbar.png){width="672px"}
 
 Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF).
 
@@ -44,7 +44,7 @@ Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-
 
 Displays report settings and lets you configure the report type, select metrics, and more. The available options in this group changes depending on the report you run.
 
-![](assets/settings_header.png)
+![](assets/settings_header.png){width="672px"}
 
 See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF) for more information.  
 
@@ -52,7 +52,7 @@ See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/
 
 Specify the date by clicking the calendar button and selecting a date range. You can also select two time ranges to compare performance.
 
-![](assets/calendar_large.png)
+![](assets/calendar_large.png){width="672px"}
 
 See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
 

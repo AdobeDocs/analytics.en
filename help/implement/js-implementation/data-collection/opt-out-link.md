@@ -25,7 +25,7 @@ Visitors opt-out by clicking the link on the opt-out page, thereby causing a coo
 
 Adobe offers opt-outs for all implementation types. You are responsible for your own privacy policy and for remaining in compliance with your signed terms. Note that the link to the opt-out page changes based on your implementation type, as outlined here.
 
-If you implement Adobe Analytics products and services with cookies set on domains owned by Adobe (i.e. 207.net or omtrdc.net), you can point your website visitors to the opt-out mechanism provided in the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for all sites that use Adobe cookies for Adobe Analytics products and services. The direct link to the Adobe opt-out mechanism is https://collection_domain/optout.html.
+If you implement Adobe Analytics products and services with cookies set on domains owned by Adobe (i.e. 207.net or omtrdc.net), you can point your website visitors to the opt-out mechanism provided in the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for all sites that use Adobe cookies for Adobe Analytics products and services. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
 
 More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
 

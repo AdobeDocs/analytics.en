@@ -359,7 +359,7 @@ This information can be used when debugging using [Packet Analyzers](../../../im
    <td> vid </td> 
    <td> <p>s.visitorID </p> </td> 
    <td> None </td> 
-   <td> The visitor's unique ID as set in the <a href="visitorID.md#concept_CD273CC915CC4ABD8F52E4209FF9557E" format="dita" scope="local"> visitorID </a> variable. </td> 
+   <td> The visitor's unique ID as set in the Visitor ID variable. </td> 
   </tr> 
   <tr> 
    <td> vmk </td> 

@@ -3,13 +3,13 @@ description: An overview of the Reports menu in Reports & Analytics.
 seo-description: An overview of the Reports menu in Reports & Analytics.
 seo-title: Reports Menu
 title: Reports Menu
-uuid: 96e91c7d-16c9-40c9-9515-923a72f56d17
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 index: y
 internal: n
 snippet: y
 ---
 
-# Reports Menu
+# Reports Menu{#reports-menu}
 
 An overview of the Reports menu in Reports & Analytics.
 
@@ -26,7 +26,7 @@ My Favorites, Frequently Viewed, and Report History are all report-suite specifi
 
 Reports are navigated using a hierarchical column view. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Press the Escape key to close the menu without changing the current report, or press Enter to load the selected report. 
 
-![](assets/reports-landing.png)
+![](assets/reports-landing.png){width="672px"}
 
 For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
 
@@ -62,7 +62,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline" href="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder</a> and <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager</a> interfaces from the segment rail. </td> 
+   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder</a> and <a href="http://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metrics <img placement="inline" href="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -90,11 +90,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Download</span> </td> 
-   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. (<a href="https://marketing.adobe.com/resources/help/en_US/survey/index.html#Downloading_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Download Options</a>.) </td> 
+   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Downloading_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Download Options</a>.) </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Send</span> </td> 
-   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only). (<a href="https://marketing.adobe.com/resources/help/en_US/survey/index.html#Emailing_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Delivery Options</a>.) </td> 
+   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only). (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Emailing_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Delivery Options</a>.) </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Bookmark...</span> </td> 

@@ -104,7 +104,7 @@ Frequently asked questions for setting up, configuring, and employing features i
      <li id="li_B2FEAD8AE1474EDEB0891EB1B01AEEF8">A warning message is shown indicating that you need to (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) upgrade the page code to v1.6.</li> 
     </ul> <p> <b>Web page with compatible Analytics Tag (AppMeasurement v1.6 or later), but Activity Map reporting was not enabled in Admin Tools</b> </p> 
     <ul id="ul_F16BFD92CE1B4391ABFDE27E454033CE"> 
-     <li id="li_8ABF0A222EFF406CB53B40DA5A8C06CB">A warning message is shown indicating that you need to ask your Admin to <a href="/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md"> enable the Activity Map report</a>. </li> 
+     <li id="li_8ABF0A222EFF406CB53B40DA5A8C06CB">A warning message is shown indicating that you need to ask your Admin to [Enable the Activity Map report](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") </a>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 ## Step 3. Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
-|  **Q: Are segments tied to the individual user segments? Or are shared Admin-level segments available in Activity Map?** | A: Activity Map inherits your Admin-level segments (reporting segments) from Reports & Analytics.  |
+|  **Q: Are segments tied to the individual user segments? Or are shared Admin-level segments available in Activity Map?** | A: Activity Map inherits your Admin-level segments (reporting segments) from Analytics.  |
 |---|---|
 |  **Q: Do segments work in Live mode?** | A: No, segments do not work in Live mode. The functionality is equivalent to that of real-time reporting in Reports & Analytics.  |
 

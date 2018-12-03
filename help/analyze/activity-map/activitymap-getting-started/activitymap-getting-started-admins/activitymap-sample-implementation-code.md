@@ -75,7 +75,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
  
 AppMeasurement for JavaScript version: 1.6 
 Copyright 1996-2016 Adobe, Inc. All Rights Reserved 
-More info available at http://www.adobe.com/marketing-cloud.html 
+More info available at https://www.adobe.com/marketing-cloud.html 
 */ 
 function AppMeasurement(){var a=this;a.version= 
 ...

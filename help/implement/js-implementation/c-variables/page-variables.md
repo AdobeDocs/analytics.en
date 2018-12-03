@@ -26,10 +26,8 @@ Page variables directly populate a report, such as pageName, List Props, List Va
 The  variable displays the height of the browser window.
 
 <!-- 
-
 browserheight.xml
-
- -->
+-->
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
@@ -1397,7 +1395,7 @@ The *`pageName`* variable should be populated with a value that business users r
 
 Be careful not to allow new-line, -em or -en dashes, or any HTML characters to appear in the page name and other variables. Some browsers send new line characters while others don't, which causes the data in [!DNL Analytics] to be split between two seemingly identical page names. Many word processors and email clients will automatically convert a hyphen into an -en or -em dash when typing. Since -en and -em dashes are illegal characters in [!DNL Analytics] variables (ASCII characters with codes above 127), [!DNL Analytics] won't record the page name containing the illegal character and show the URL instead.
 
-If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page (www.mysite.com and mysite.com are the same page with different URLs).
+If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page `www.mysite.com` and `mysite.com` are the same page with different URLs).
 
 ## Syntax and Possible Values {#section_7A61EE70F1A84D26B414404998C84BA8}
 
@@ -1669,8 +1667,6 @@ On currency event reports, the report total represents the de-duplicated event t
 >if a value for the same Numeric/Currency Event is specified in the *`products`* variable and in the *`events`* variable, the value from the *`events`* is used.
 
 ## Setting products with Merchandising eVars {#section_A3B94C65B3EF4389AB00267D2F2688A1}
-
-See [Merchandising Variables](var_merchandising.md#concept_8B05F9352B354536999CE390E714F86B).
 
 ## Pitfalls, Questions, and Tips {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 

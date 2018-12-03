@@ -1,0 +1,58 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^.*corp.adobe.com"
+        },
+        {
+            "pattern": "^.*digitalu.adobe.com"
+        },
+        {
+            "pattern": "^.*apache.org"
+        },
+        {
+            "pattern": "^.*ehow.com"
+        },
+        {
+            "pattern": "^.*api.demdex.com/v1/partner-sites/"
+        },
+        {
+            "pattern": "^.*omniture.com"
+        },
+        {
+            "pattern": "^.*mycompany.com"
+        },
+        {
+            "pattern": "^.*mysite.com"
+        },
+        {
+            "pattern": "^.*foo.com"
+        },
+        {
+            "pattern": "^.*abc.com"
+        },
+        {
+            "pattern": "^.*example.com"
+        },
+        {
+            "pattern": "^.*mysite.co.jp"
+        },
+        {
+            "pattern": "^.*mysite1.com"
+        },
+        {
+            "pattern": "^.*client.com"
+        },
+        {
+            "pattern": "^.*google.com"
+        },
+        {
+            "pattern": "^.*flywithus.com"
+        },
+        {
+            "pattern": "^.*flytohawaiiforfree.com"
+        },
+        {
+            "pattern": "^.*europa.eu"
+        }
+    ]
+}

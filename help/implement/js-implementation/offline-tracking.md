@@ -18,7 +18,7 @@ The following variables and functions let you store measurement calls when the a
 
 >[!NOTE]
 >
->To enable offline tracking, your report suite must be timestamp-enabled. If timestamps are enabled on your report suite, your `trackOffline` configuration property *must* be true. if your report suite is not timestamp enabled, your `trackOffline` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, [contact Customer Care](contact_and_legal.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+>To enable offline tracking, your report suite must be timestamp-enabled. If timestamps are enabled on your report suite, your `trackOffline` configuration property *must* be true. if your report suite is not timestamp enabled, your `trackOffline` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 When enabled, Offline AppMeasurement behaves in the following way:
 

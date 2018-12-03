@@ -6,13 +6,13 @@ solution: Analytics
 subtopic: Get started
 title: About Data Collection
 topic: Reports and analytics
-uuid: d2780d79-f7ed-405b-bc95-6e68c9586765
+uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 index: y
 internal: n
 snippet: y
 ---
 
-# About Data Collection
+# About Data Collection{#about-data-collection}
 
 Learn about how data is collected for Adobe Analytics.
 
@@ -28,4 +28,4 @@ At a high level, the data collection process flows as follows:
 
 Data collection is very quick and does not noticeably affect page load times. Collected data includes page views that result from clicking the browser **Reload** or **Back** buttons. The JavaScript code runs even when the page is retrieved from cache.
 
-See [Data Collection in Marketing Reports](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=usecase_sending_data_to_sc) in [Analytics Reference Help](https://marketing.adobe.com/resources/help/en_US/reference/index.html). 
+See [Data Collection in Marketing Reports](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=usecase_sending_data_to_sc) in [Analytics Reference Help](https://marketing.adobe.com/resources/help/en_US/reference/index.html). 

@@ -111,6 +111,7 @@ user-guide-title: Analytics Analyze Guide
     + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
 + Report Builder {#report-builder}
+    + [Adobe Report Builder help](report-builder/home-(2).md)
     + [Adobe Report Builder help](report-builder/home.md)
     + [What's new in Report Builder](report-builder/whats-new-arb.md)
     + Report Builder setup {#report-builder-setup}
@@ -170,7 +171,7 @@ user-guide-title: Analytics Analyze Guide
             + [User access permissions for dimensions and metrics](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
             + [Modify metrics - field definitions](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
             + [Customer attributes](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
-        + [Anomaly Detection](report-builder/layout/anomaly-detection(2).md)
+        + [Anomaly Detection](report-builder/layout/anomaly-detection-(2).md)
         + [Configure an anomaly detection request](report-builder/layout/t-anomaly.md)
         + [Format the date](report-builder/layout/format-the-data.md)
         + [Format display headers](report-builder/layout/t-format-display-headers.md)
@@ -264,6 +265,7 @@ user-guide-title: Analytics Analyze Guide
     + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)
     + [Adobe Analytics - key concepts](reports-analytics/key-concepts.md)
     + Overview of the reporting interface {#reporting-interface}
+	+ [Overview of the reporting interface](reports-analytics/overview-(2)/overview-(2).md)
         + [About Data Collection](reports-analytics/overview-(2)/overview-data-collection.md)
         + [Reports Menu](reports-analytics/overview-(2)/reports-menu.md)
         + [Report Features](reports-analytics/overview-(2)/report-overview.md)

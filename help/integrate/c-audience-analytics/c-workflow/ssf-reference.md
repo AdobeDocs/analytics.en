@@ -13,94 +13,33 @@ snippet: y
 
 A comprehensive list and descriptions of the configuration variables, HTTP headers, and data signals in server-side forwarding calls.
 
-Contents:
-
-<ul class="simplelist"> 
- <li> <a href="../../../integrate/c-audience-analytics/c-workflow/ssf-reference.md#section_AD402B5EB9B24BF3B2039DA80FCA901E" format="dita" scope="local"> Configuration Variables </a> </li> 
- <li> <a href="../../../integrate/c-audience-analytics/c-workflow/ssf-reference.md#section_0549705E76004F9585224AEF872066C0" format="dita" scope="local"> HTTP Headers </a> </li> 
- <li> <a href="../../../integrate/c-audience-analytics/c-workflow/ssf-reference.md#section_8F8C39E87BDE48BAA59E25CB7E86215D" format="dita" scope="local"> Customer-Defined Signals </a> </li> 
-</ul>
-
 ## Configuration Variables {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_` identify special, system-level key-value pairs used by our [data collection servers](c_compcollect.md#concept_66CFFEBF5E8B41ED94082D562A93506E) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](c_compcollect.md) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
-<table id="table_38CF8F2616C045169A110DEF9C751E38"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_rs </span> </p> </td> 
-   <td colname="col2"> <p>(Gets set with legacy/tracking-server-based server-side forwarding) </p> <p>Set to the report suites passed in with the hit to Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_dst_filter </span> </p> </td> 
-   <td colname="col2"> <p>(Gets set with report-suite-based server-side forwarding) </p> <p>Set to the report suite IDs passed in with the hit to Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_dst </span> </p> </td> 
-   <td colname="col2"> <p>Set <span class="codeph"> d_dst=1 </span> if the request to Analytics is expecting content about the destination to be sent back to the client. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d_mid </span> </p> </td> 
-   <td colname="col2"> <p>The Experience Cloud ID passed in to Analytics. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Parameter|Description|
+|--- |--- |
+|`d_rs`|(Gets set with legacy/tracking-server-based server-side forwarding) <br/>Set to the report suites passed in with the hit to Analytics.|
+|`d_dst_filter`|(Gets set with report-suite-based server-side forwarding)  <br/>Set to the report suite IDs passed in with the hit to Analytics.|
+|`d_dst`|Set  d_dst=1  <br/>if the request to Analytics is expecting content about the destination to be sent back to the client.|
+|`d_mid`|The Experience Cloud ID passed in to Analytics. See Cookies and the Experience Cloud ID Service .|
 
 ## HTTP Headers {#section_0549705E76004F9585224AEF872066C0}
 
 These headers are fields contain information like requests for data and responses in an HTTP call.
 
-<table id="table_4B5B46AB2C7441A9A73D1B199A2804AD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> HTTP Header </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Host </span> </p> </td> 
-   <td colname="col2"> <p>This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as <span class="codeph"> <span class="varname"> host name </span>.demdex.net </span>. </p> <p>See <a href="demdex-calls.md#concept_77B3D5A068AE413FA78D190D65AD799F" format="dita" scope="local"> Understanding Calls to the Demdex Domain </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> User-Agent </span> </p> </td> 
-   <td colname="col2"> <p>Set to the User-Agent header passed in to Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> X-Original-User-Agent </span> </p> </td> 
-   <td colname="col2"> <p>Only set if an alternate user agent was specified by one of these headers: </p> <p> 
-     <ul id="ul_8A2942C0F1AB41B589004D8A8FC80925"> 
-      <li id="li_9631EEE86E564F8A81E686D1ED445F3B"> <span class="codeph"> X-Device-User-Agent\ </span> </li> 
-      <li id="li_A829E3741FD9461CA25CF764E64BA64E"> <span class="codeph"> X-Original-User-Agent\ </span> </li> 
-      <li id="li_9D0B94485FD3436EBD063EFE0ED357FD"> <span class="codeph"> X-OperaMini-Phone-UA\ </span> </li> 
-      <li id="li_B54F51C695404F29AC7C2603126AC371"> <span class="codeph"> X-Skyfire-Phone\ </span> </li> 
-      <li id="li_B929A0FE4AF54825AFF460EB064B4B17"> <span class="codeph"> X-Bolt-Phone-UA\ </span> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> X-Forwarded-For </span> </p> </td> 
-   <td colname="col2"> <p>Set to the IP address of the requesting client. Analytics will have already parsed the incoming <span class="codeph"> X-Forwarded-For </span> header and determined the correct IP address to use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Accept-Language </span> </p> </td> 
-   <td colname="col2"> <p>Set to the <span class="codeph"> Accept-Language </span> header passed in to Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Referer </span> </p> </td> 
-   <td colname="col2"> <p>Set to the page URL passed in to Analytics or gathered from the <span class="codeph"> Referer </span> header passed in to Analytics. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|HTTP Header|Description|
+|--- |--- |
+|Host|This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as  host name `.demdex.net` .  See  Understanding Calls to the Demdex Domain .|
+|User-Agent|Set to the User-Agent header passed in to Analytics.|
+|X-Original-User-Agent|Only set if an alternate user agent was specified by one of these headers:   <br/>`X-Device-User-Agent\`   <br/>`X-Original-User-Agent\`   <br/>`X-OperaMini-Phone-UA\`   <br/>`X-Skyfire-Phone\`   <br/>`X-Bolt-Phone-UA\`|
+|X-Forwarded-For|Set to the IP address of the requesting client. Analytics will have already parsed the incoming `X-Forwarded-For`  header and determined the correct IP address to use.|
+|Accept-Language|Set to the  Accept-Language  header passed in to Analytics.|
+|Referer|Set to the page URL passed in to Analytics or gathered from the  Referer  header passed in to Analytics.|
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5).
+Parameters prefixed with `c_*` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5).
 
 <table id="table_D679E65573AA421C9C75E575894D7096"> 
  <thead> 
@@ -275,4 +214,3 @@ Parameters prefixed with `c_` identify customer-defined variables. See also [Sup
   </tr> 
  </tbody> 
 </table>
-

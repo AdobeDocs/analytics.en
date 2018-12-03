@@ -5,13 +5,13 @@ seo-title: Adobe Analytics for iOS
 solution: Analytics
 title: Adobe Analytics for iOS
 topic: Reports and analytics
-uuid: ee748d7d-dd31-40de-8161-f0ecbebc6f06
+uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 index: y
 internal: n
 snippet: y
 ---
 
-# Adobe Analytics for iOS
+# Adobe Analytics for iOS{#adobe-analytics-for-ios}
 
 An introduction to the iPad application.
 

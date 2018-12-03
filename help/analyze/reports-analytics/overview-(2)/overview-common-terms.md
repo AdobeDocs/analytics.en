@@ -5,13 +5,13 @@ seo-title: Common Terms
 solution: Analytics
 title: Common Terms
 topic: Reports and analytics
-uuid: 440d31ee-b3a4-474f-8033-d806db0d98e1
+uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 index: y
 internal: n
 snippet: y
 ---
 
-# Common Terms
+# Common Terms{#common-terms}
 
 An introduction to commonly used web analytics terms used in marketing reports.
 

@@ -17,7 +17,7 @@ snippet: y
 Curation lets you limit the components before sharing a project. You can share a project and its components with marketers and other non-analysts in your business. Annotate and apply tags to projects.
 
 **Video overview** 
->[!VIDEO](https://vimeo.com/LJJRskdmlOg)  **[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
+>[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)  **[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
 1. Specify permission to create and curate projects.
 

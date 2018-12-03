@@ -38,7 +38,7 @@ Share your report data with the decision makers who can change your site or mark
 
 ![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF).
+Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Report Header & Settings {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 

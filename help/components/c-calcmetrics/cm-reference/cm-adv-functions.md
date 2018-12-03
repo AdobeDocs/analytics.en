@@ -707,7 +707,7 @@ where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!
 
 >[!NOTE]
 >
->[!DNL μ] (mu) and [!DNL σ](sigma) are calculated from the metric automatically.
+>[!DNL μ] (mu) and [!DNL σ](sigma) are automatically calculated from the metric.
 
 ```
 Z-score(metric)

@@ -110,7 +110,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Does changing the Base Currency of a Report Suite affect historical data?</b> </p> </td> 
-   <td colname="col2"> <p>A: Once the report suite has been created, its currency is unalterable unless an Adobe representative alters the report suite's back end settings. If you created a report suite with the incorrect currency code, have one of your organization's supported users contact Adobe ClientCare. They will be able to correct the setting. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/using/currency-conversion.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: Once the report suite has been created, its currency is unalterable unless an Adobe representative alters the report suite's back end settings. If you created a report suite with the incorrect currency code, have one of your organization's supported users contact Adobe ClientCare. They will be able to correct the setting.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What is Paid Search detection and how do I configure it?</b> </p> </td> 

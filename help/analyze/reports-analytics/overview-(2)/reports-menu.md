@@ -90,11 +90,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Download</span> </td> 
-   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Downloading_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Download Options</a>.) </td> 
+   <td colname="col2">Lets you download the report in PDF, CSV, Excel, and Word formats. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Send</span> </td> 
-   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only). (<a href="http://marketing.adobe.com/resources/help/en_US/survey/index.html#Emailing_a_Report_Using_Advanced_Options" format="http" scope="external"> Advanced Delivery Options</a>.) </td> 
+   <td colname="col2">Lets you email the report immediately or schedule the email on a one-time or recurring basis. Format options include PDF, CSV, Excel, HTML, Word, or Mobile (text only).</td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Bookmark...</span> </td> 

@@ -18,7 +18,7 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
->[!VIDEO](https://vimeo.com/A0EcD2AxvJE) Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+>[!VIDEO](https://www.youtube.com/watch?v=AnguIQIAi_k&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2) Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
 * [Full control over project elements and components](../../analyze/analysis-workspace/analysis-workspace-features.md#section_B7E3EDA3EDEE407D833F4FDB69646EEC) 
 * [Multiple Visualizations in a Project](../../analyze/analysis-workspace/analysis-workspace-features.md#section_B7670740C2D44130B21DAF0873280DA5) 
@@ -223,4 +223,4 @@ A default segment unique to Analysis Workspace. *`All Visits`* displays totals f
 
 Use calculations in the same way you use standard metrics.
 
-See [Calculated Metrics](https://marketing-beta.adobe.com/resources/help/analytics/calcmetrics). 
+See [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/). 

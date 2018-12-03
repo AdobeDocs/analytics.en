@@ -161,11 +161,11 @@ Certain reports let you break down the table data so that you can see subrelated
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click **[!UICONTROL Replace Table]** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity.
+   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click **[!UICONTROL Replace Table]** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity.
 
 >[!MORE_LIKE_THIS]
 >
->* [Table Builder](c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E)
+>* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
 ## Change the Report Type in the Table {#task_B48F97F0F6D5448A969D55238E93F2FB}
 

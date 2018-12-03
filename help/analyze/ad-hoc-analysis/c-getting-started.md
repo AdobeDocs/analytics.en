@@ -93,7 +93,7 @@ If you still have Java 7 installed, you must upgrade before the July 2018 Mainte
 
 * If you are allowed to install programs on your machine:
 
-    1. Go to www.java.com. 
+    1. Go to https://www.java.com. 
     1. Click **[!UICONTROL Free Java Download]**. 
     1. Click **[!UICONTROL Agree and Start Free Download]**. 
     1. Install the latest Java version specific to your Operating System.

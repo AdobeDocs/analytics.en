@@ -15,7 +15,7 @@ snippet: y
 
 Activity Map provides two basic modes to provide complementary reporting of page activity.
 
-* Standard mode, in which the [Links on Page Report](c_Links_report.md#concept_0A8CDEEE91104B2CBEBB55762CCD24D2)shows link data ranging from single day to multi-day, aggregated over the full date range. 
+* Standard mode, in which the [Links on Page Report](/help/analyze/activity-map/activitymap-links-report.md)shows link data ranging from single day to multi-day, aggregated over the full date range. 
 * Live mode displays activity trends in real time.
 
 The two modes can be toggled by clicking the Mode button on the toolbar.

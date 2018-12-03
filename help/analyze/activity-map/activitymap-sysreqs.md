@@ -48,6 +48,6 @@ Activity Map is supported on the following web browsers.
 
 Other requirements:
 
-* AppMeasurement code version 1.6 or higher. [More...](activitymap-enable.md#concept_4C5A1178C8E040B99CAE7A25473E67D6) 
+* AppMeasurement code version 1.6 or higher. [More...](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 
 * Cookies and Javascript must be enabled.
 

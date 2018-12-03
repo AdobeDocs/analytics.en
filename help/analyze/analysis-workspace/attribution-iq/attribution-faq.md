@@ -25,7 +25,7 @@ snippet: y
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: I sometimes see dates outside of my reporting window show up in my report when using attribution models. Why?</b> </p> </td> 
-   <td colname="col2"> <p>A: These extra dates are an artifact of the visitor reporting lookback window described <a href="../../../analyze/analysis-workspace/attribution-iq/attribution-iq.md#section_A2782BB64171431EB370CDCD4AD8030D" format="dita" scope="local"> here </a>. The article <a href="https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html" format="html" scope="external"> Data appearing outside reporting window </a> explains why this currently happens. Adobe Analytics will filter out these extra rows in an upcoming release. </p> </td> 
+   <td colname="col2"> <p>A: These extra dates are an artifact of the visitor reporting lookback window described <a href="../../../analyze/analysis-workspace/attribution-iq/attribution.md" format="dita" scope="local"> here </a>. The article <a href="https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html" format="html" scope="external"> Data appearing outside reporting window </a> explains why this currently happens. Adobe Analytics will filter out these extra rows in an upcoming release. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I use a custom lookback window with my attribution models?</b> </p> </td> 

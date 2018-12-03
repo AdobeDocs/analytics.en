@@ -23,7 +23,7 @@ This example shows the Page Fallout report.
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/configuring-report-dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE).
+1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE).
 1. Click **[!UICONTROL Next]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (In a fallout report, you always have to define path elements, unlike in a path report, where a pattern is pre-applied.)
 

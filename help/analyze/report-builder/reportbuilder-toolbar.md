@@ -23,7 +23,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **Create:** Launches the [!UICONTROL Request Wizard]. If you are not logged in, you are prompted to do so. See [Data Requests](../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89).
 
-**Manage:** Launches the [!UICONTROL Request Manager]. You can view status, edit, refresh, delete, and manage all Report Builder data requests embedded in your Excel workbook. You can perform these functions on individual requests or on multiple requests at one time. See [Manage Requests](../../analyze/report-builder/manage-requests/manage-requests.md#concept_51F3DE9300BD4F3BA71E96ADA6B23CA8).
+**Manage:** Launches the [!UICONTROL Request Manager]. You can view status, edit, refresh, delete, and manage all Report Builder data requests embedded in your Excel workbook. You can perform these functions on individual requests or on multiple requests at one time. See [Manage Requests](../../analyze/report-builder/manage-requests/r-arb-manage-requests.md).
 
 **Refresh:** Refreshes the data for all requests embedded in the Excel workbook. See [Refresh a Request](../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609).
 

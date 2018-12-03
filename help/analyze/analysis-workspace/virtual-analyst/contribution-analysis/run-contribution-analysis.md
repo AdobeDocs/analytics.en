@@ -11,10 +11,7 @@ snippet: y
 
 # Run Contribution Analysis
 
-For more information on how Contribution Analysis in Adobe Analytics works, go [here](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/).
-
-* [Run Contribution Analysis](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_7D2C5E48A5664727941DF4C90976D9DC) 
-* [Exclude Dimensions from Contribution Analysis](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)
+Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 
 ## Run Contribution Analysis {#section_7D2C5E48A5664727941DF4C90976D9DC}
 

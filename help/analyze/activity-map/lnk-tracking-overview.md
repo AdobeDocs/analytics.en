@@ -18,7 +18,7 @@ Activity Map tracks links with a more robust algorithm that:
 * Includes the tracking of page regions to avoid cases of the same link being confused across different devices because the link shows up in different positions on the page; 
 * Ensures link uniqueness, meaning that distinct links cannot be mistaken for one because of issues with LinkID or across different browser makes.
 
-For more on link tracking in Activity Map, go [here](link-tracking.md#concept_E0AC5837CD7F43968E76B7B6D660BEF2).
+For more on link tracking in Activity Map, go [here](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
 ## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 

@@ -420,7 +420,7 @@ New features in Analysis Workspace.
     </ul> <p>For example, if "Hour of Day" is dropped into a table, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="view-anomalies-line-chart.md#concept_4CC1B3CE3AB54D20BB2E4F680B99A9E7" format="dita" scope="local"> Option to allow confidence interval from re-scaling a chart </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/view-anomalies.md" format="dita" scope="local"> Option to allow confidence interval from re-scaling a chart </a> </p> </td> 
    <td colname="col2"> <p>The Anomaly Detection Confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. </p> <p>You now have the option to allow the confidence interval to scale the chart. </p> </td> 
   </tr> 
   <tr> 
@@ -839,7 +839,7 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
-[Fixes for April 2016](analysis-workspace-release-notes.md#section_7388F2BF49F647AD931D24B92E7E421A).
+Fixes for April 2016
 
 * [Undo Actions](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482) 
 * [Link to This Project](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46) 
@@ -852,9 +852,7 @@ New features in Analysis Workspace.
 * [Anchor Y Axis at Zero](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3) 
 * [Project Name on Tab Title](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226) 
 * [Transfer Project Ownership](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3) 
-* [Fixes (Updated for January 21, 2016)](analysis-workspace-release-notes.md#section_7388F2BF49F647AD931D24B92E7E421A)
 
-See [Release Notes for Analysis Workspace](analysis-workspace-release-notes.md#concept_75A24F5D1C9E463FAEC3FC6D90BF23FE) for cumulative information about monthly updates.
 
 ## Undo Actions {#section_12890C393D5E4FC8A3CF050318BD8482}
 

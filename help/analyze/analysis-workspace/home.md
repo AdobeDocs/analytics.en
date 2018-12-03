@@ -48,7 +48,7 @@ Add other components, such as:
 **Video links:**
 
 * [Visualization Types in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57) 
-* [Using Segments in Analysis Workspace](QlUCdQDnni4&index=33&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(6:46) 
+* [Using Segments in Analysis Workspace](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46) 
 * [Using Date Ranges and Calendar in Analysis Workspace](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 ![](assets/step4_icon.png)

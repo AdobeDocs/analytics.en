@@ -106,7 +106,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why did some settings not work after copying Report Suite settings?</b> </p> </td> 
-   <td colname="col2"> <p>A: When creating a new report suite based on an existing report suite in the Admin Console, there are several custom settings that are not copied over, as they are generally contract dependent. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/using/report-suite-settings-not-copied.html#" format="dita" scope="local"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: When creating a new report suite based on an existing report suite in the Admin Console, there are several custom settings that are not copied over, as they are generally contract dependent. <a href="https://marketing.adobe.com/resources/help/en_US/reference/settings_not_copied_from_rs.html" format="dita" scope="local"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Does changing the Base Currency of a Report Suite affect historical data?</b> </p> </td> 

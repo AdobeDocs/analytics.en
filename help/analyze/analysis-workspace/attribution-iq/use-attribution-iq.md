@@ -11,11 +11,6 @@ snippet: y
 
 # Use attribution IQ in Analysis Workspace
 
-* [Use Attribution in Freeform Tables](../../../analyze/analysis-workspace/attribution-iq/use-attribution-iq.md#section_F2F72AE840EB4EA781302A559726E6F4) 
-* [Apply Attribution Models to Breakdowns](../../../analyze/analysis-workspace/attribution-iq/use-attribution-iq.md#section_ED1E7532CF084B5AB0942BD80B4770C9) 
-* [Compare one Attribution Model to Another](../../../analyze/analysis-workspace/attribution-iq/use-attribution-iq.md#section_1D74C09549CC4EC8A952A7392C76D375) 
-* [Attribution Panel and Visualizations](../../../analyze/analysis-workspace/attribution-iq/use-attribution-iq.md#section_6B02F28182F14ECC9FC5020F224726E6)
-
 Attribution IQ in Analysis Workspace lets you compare any supported attribution model to each other, visualize the key marketing sequences leading to conversion with advanced fallout and flow visualizations, trend any marketing channel or campaign easily to see performance over time, and find statistical anomalies in channel/campaign performance, be alerted when performance drops or goes up.
 
 ## Use attribution in freeform tables {#section_F2F72AE840EB4EA781302A559726E6F4}
@@ -57,7 +52,7 @@ The attribution panel is an easy way to build an analysis comparing various attr
 
    ![](assets/attribution_panel2.png)
 
-1. Select the [attribution models](../../../analyze/analysis-workspace/attribution-iq/attribution-iq.md#section_4B9E7F83AE0B451A992397E55C3F5871) you wish to compare, and the [lookback window](../../../analyze/analysis-workspace/attribution-iq/attribution-iq.md#section_A2782BB64171431EB370CDCD4AD8030D).
+1. Select the [attribution models](../../../analyze/analysis-workspace/attribution-iq/attribution.md) you wish to compare, and the [lookback window](../../../analyze/analysis-workspace/attribution-iq/attribution.md).
 
    The Attribution Panel will return a rich set of data and visualizations to help you better understand how your Marketing Channels (or other dimensions) work together:
 

@@ -6,7 +6,7 @@ seo-title: Adobe Report Builder Overview
 # Report Builder Overview
 
 + [What's new in Report Builder](whats-new-arb.md)
-+ [Report Builder setup](setup/setup.md)
++ Report Builder setup
     + [System requirements](setup/system-requirements.md)
     + [Install Report Builder](setup/t-install-arb.md)
     + [Upgrade Report Builder](setup/upgrade-arb.md)
@@ -15,18 +15,18 @@ seo-title: Adobe Report Builder Overview
     + [Uninstall Report Builder](setup/t-uninstall-arb.md)
     + [Invoke Report Builder functionality from Microsoft Excel functions](setup/invoke-arb-excel-function.md)
 + [Report Builder toolbar](reportbuilder-toolbar.md)
-+ [Request Wizard interface](request-wizard-interface/request-wizard-interface.md)
++ Request Wizard interface
     + [Request Wizard Step 1](request-wizard-interface/request-wizard-step-1.md)
     + [Request Wizard Step 2](request-wizard-interface/request-wizard-step-2.md)
 + [Data requests - Request Wizard Step 1](data-requests/data-requests.md)
     + [Create a data request](data-requests/t-create-a-data-request.md)
-    + [Report suites](data-requests/selecting-report-suites/selecting-report-suites.md)
+    + Report suites
         + [Select a report suite](data-requests/selecting-report-suites/t-select-report-suites.md)
         + [Select a report suite from an existing request in Excel](data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
         + [Use Excel to locate a report suite ID](data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
     + [Manage segments](data-requests/segmentation.md)
     + [Allow Publishing List Overrides](data-requests/allow-publishing-list-overrides.md)
-    + [Report types](data-requests/c-report-types/c-report-types.md)
+    + Report types
         + [Report types overview](data-requests/c-report-types/select-report-types.md)
         + [Path and path fallout reports in Report Builder](data-requests/c-report-types/report-path-fallout.md)
         + [Filter a Path Report Using the Request Wizard](data-requests/c-report-types/path-filter.md)
@@ -34,7 +34,7 @@ seo-title: Adobe Report Builder Overview
         + [Filter Path Reports by Adding Dependent Requests](data-requests/c-report-types/create-toppath-filter.md)
         + [Select a report type](data-requests/c-report-types/t-select-report-type.md)
     + [Import bookmarked reports and dashboard reportlets](data-requests/import-bookmarked.md)
-    + [Date ranges](data-requests/configuring-report-dates/configuring-report-dates.md)
+    + Date ranges
         + [Request Wizard definitions - preset dates](data-requests/configuring-report-dates/r-arb-preset-dates.md)
         + [Fixed dates and saved date ranges](data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
         + [Request Wizard definitions - fixed dates](data-requests/configuring-report-dates/r-arb-fixed-dates.md)
@@ -53,7 +53,7 @@ seo-title: Adobe Report Builder Overview
         + [Custom calendar](data-requests/configuring-report-dates/custom-calendar.md)
     + [Interactive controls](data-requests/interactive-controls.md)
 + [Layout - Request Wizard Step 2](layout/layout.md)
-    + [Metrics and dimensions](layout/c-metrics-dimensions/c-metrics-dimensions.md)
+    + Metrics and dimensions
         + [Metrics and dimensions overview](layout/c-metrics-dimensions/metrics-dimensions.md)
         + [Add metrics and dimensions](layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
         + [Calculated Metrics](layout/c-metrics-dimensions/calculated-metrics.md)
@@ -72,12 +72,12 @@ seo-title: Adobe Report Builder Overview
     + [Configure the custom layout](layout/configure-the-custom-layout.md)
     + [Map metrics and dimensions to cells](layout/map-metrics-and-dimensions-to-cells.md)
     + [Create a microchart](layout/t-create-a-microchart.md)
-    + [Filter dimensions](layout/c-filter-dimensions/c-filter-dimensions.md)
+    + Filter dimensions
         + [Filter dimensions overview](layout/c-filter-dimensions/filter-dimensions.md)
         + [Most popular filtering](layout/c-filter-dimensions/t-most-popular-filtering.md)
         + [Specific filters](layout/c-filter-dimensions/t-specific-filters.md)
         + [Saved filters](layout/c-filter-dimensions/saved-filters.md)
-+ [Manage requests](manage-requests/manage-requests.md)
++ Manage requests
     + [Manage requests - definitions](manage-requests/r-arb-manage-requests.md)
     + [Diagnostic messages](manage-requests/diagnostic-messages.md)
     + [Sort ascending or descending](manage-requests/sort-ascending-or-descending.md)
@@ -88,7 +88,7 @@ seo-title: Adobe Report Builder Overview
     + [Refresh requests for all sheets](manage-requests/t-refresh-requests-for-all-sheets.md)
     + [Add dependent requests](manage-requests/add-dependent-requests.md)
     + [Classification](manage-requests/classification.md)
-    + [Copy requests](manage-requests/c-copy-requests/c-copy-requests.md)
+    + Copy requests
         + [Copy requests overview](manage-requests/c-copy-requests/copy-requests.md)
         + [Copy simple requests](manage-requests/c-copy-requests/t-copy-simple-requests.md)
         + [Copy adjacent requests](manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -103,12 +103,12 @@ seo-title: Adobe Report Builder Overview
 + [Schedule report requests](schedule-report-requests.md)
 + [Schedule a data request](t-schedule-a-data-request.md)
 + [Scheduled Task Manager](r-arb-scheduled-reports.md)
-+ [Workbook Library](workbook-library/workbook-library.md)
++ Workbook Library
     + [Upload a workbook](workbook-library/t-upload-a-workbook.md)
     + [Download a workbook](workbook-library/t-download-a-workbook.md)
     + [Lock/unlock workbooks](workbook-library/protect-wb.md)
     + [Schedule macro-enabled workbooks](workbook-library/schedule-macro-wb.md)
-+ [Publish to Power BI with Report Builder 5.5](c-publish-power-bi/c-publish-power-bi.md)
++ Publish to Power BI with Report Builder 5.5
     + [Publish to Power BI - Overview](c-publish-power-bi/power-bi.md)
     + [Limitations and specifications](c-publish-power-bi/specifications-limits.md)
     + [Manually import data to Power BI](c-publish-power-bi/bi-manually-import-data.md)

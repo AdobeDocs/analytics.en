@@ -21,9 +21,9 @@ To improve visitor identification for mobile devices, you must be on the carrier
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://mobile.omniture.com/sc15/mobile/) mobile site at mobile.omniture.com.
+>To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
 
-For more information about mobile tracking, see the [Mobile Solutions](https://www.omniture.com/en/products/online_analytics/sitecatalyst/mobile_solutions) site.
+For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 

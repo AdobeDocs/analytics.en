@@ -26,7 +26,7 @@ s.tl(this,linkType,
 <b>linkName</b>,variableOverrides,doneAction)
 ```
 
-In other words, if you use s.tl to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the s.tl function. It is not pulled from the standard link tracking algorithm that is used for [default tracking](/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map.
+In other words, if you use s.tl to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the s.tl function. It is not pulled from the standard link tracking algorithm that is used for [default tracking](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map.
 
 ## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
 

@@ -29,13 +29,13 @@ Information resources for Ad Hoc Analysis and the Adobe Experience Cloud are lis
   <td class="- topic/stentry stentry"></td> 
   <td class="- topic/stentry stentry"> <p class="head"> <b> Experience Cloud Resources </b> </p> 
    <ul id="ul_A6D32724C6114A5B96038C997C753C4E"> 
-    <li id="li_367C4275943946A89F4157CF73592860"> <a href="http://helpx.adobe.com/marketing-cloud/analytics.html" format="http" scope="external"> Adobe Analytics Community</a> </li> 
-    <li id="li_485ACD946BE844ECB9D72F3F08119C1D"> <a href="http://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes" scope="external" format="html"> Experience Cloud Release Notes</a> </li> 
-    <li id="li_4A3066876B1649B2A0A64F4EC43364E1"> <a href="http://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="http"> Product Documentation Home</a> </li> 
-    <li id="li_599C796CCACC40D7BB757ED5F4A4227D"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer" scope="external" format="https"> Developer</a> </li> 
-    <li id="li_BD0D0DA20EBC460B9DB0010D3B1F39AB"> <a href="http://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3" scope="external" format="html"> Idea Exchange</a> </li> 
-    <li id="li_0067480A82894B6C84CE753C7E9490C3"> <a href="http://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
-    <li id="li_8A875F1A9BFA4BF0B65EA3F5F896E866"> <a href="http://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
+    <li id="li_367C4275943946A89F4157CF73592860"> <a href="https://helpx.adobe.com/marketing-cloud/analytics.html" format="http" scope="external"> Adobe Analytics Community</a> </li> 
+    <li id="li_485ACD946BE844ECB9D72F3F08119C1D"> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes" scope="external" format="html"> Experience Cloud Release Notes</a> </li> 
+    <li id="li_4A3066876B1649B2A0A64F4EC43364E1"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="http"> Product Documentation Home</a> </li> 
+    <li id="li_599C796CCACC40D7BB757ED5F4A4227D"> <a href="https://www.adobe.io/apis/experiencecloud/analytics.html" scope="external" format="https"> Developer</a> </li> 
+    <li id="li_BD0D0DA20EBC460B9DB0010D3B1F39AB"> <a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics" scope="external" format="html"> Idea Exchange</a> </li> 
+    <li id="li_0067480A82894B6C84CE753C7E9490C3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
+    <li id="li_8A875F1A9BFA4BF0B65EA3F5F896E866"> <a href="https://www.adobe.com/analytics/adobe-analytics.html?promoid=GVTYY6CK&mv=other" scope="external" format="html"> Featured Solutions Center</a> </li> 
    </ul> </td> 
  </tr> 
 </table>

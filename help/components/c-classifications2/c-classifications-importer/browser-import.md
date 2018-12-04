@@ -65,7 +65,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. Configure the [Browser Import](browser_export.md#concept_3D930F03840A491D8B37FAAE9C90F5DF) fields.
+1. Configure the **[!UICONTROL Browser Import]** fields.
 1. Click **[!UICONTROL Import File]**.
 1. Watch the status window for processing messages.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.

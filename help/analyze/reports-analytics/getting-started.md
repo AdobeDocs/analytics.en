@@ -79,7 +79,7 @@ t_login_standard.xml
 After logging in for the first time, change your password. For more information, see [Editing an User Account](../../analyze/reports-analytics/getting-started.md#topic_0028683CA91A4526BE987363F8005A60). 
 
 1. On a computer with access to the Internet, start a browser.
-1. Go to [!DNL https://my.omniture.com/login/].
+1. Go to [!DNL https://login.experiencecloud.adobe.com/].
 1. On the [!UICONTROL Sign In] page, complete the following information, then click **[!UICONTROL Sign In]**.
 
    **[!UICONTROL Company]**: Specify the company ID.

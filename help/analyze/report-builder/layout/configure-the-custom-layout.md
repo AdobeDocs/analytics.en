@@ -19,4 +19,4 @@ The following topics are unique to the [!UICONTROL Custom Layout]:
 
 >[!MORE_LIKE_THIS]
 >
->* [Request Wizard Step 2](/help/analyze/report-builder/request-wizard-interface/request-wizard-step_2.md)
+>* [Request Wizard Step 2](/help/analyze/report-builder/request-wizard-interface/request-wizard-step-2.md)

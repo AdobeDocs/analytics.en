@@ -21,7 +21,7 @@ Steps that describe how to log in to Report Builder.
        Other actions that sign you in include:
 
     * Clicking **[!UICONTROL Create]**. 
-    * [Selecting a request in the Request Manager](../../../analyze/report-builder/manage-requests/manage-requests.md#concept_51F3DE9300BD4F3BA71E96ADA6B23CA8), then clicking **[!UICONTROL Add]** or **[!UICONTROL Manage]**. 
+    * [Selecting a request in the Request Manager](../../../analyze/report-builder/manage-requests/r-arb-manage-requests.md), then clicking **[!UICONTROL Add]** or **[!UICONTROL Manage]**. 
     
     * Double-clicking on a request in Excel.
 

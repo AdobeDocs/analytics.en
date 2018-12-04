@@ -71,7 +71,7 @@ Several other methods exist for applying segments to a freeform project.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> New Segment</span> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Segment Builder</span>. See <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build" format="https" scope="external"> Building Segments</a> for more information about segmentation. </p> </td> 
+   <td colname="col2"> <p>Displays the <span class="wintitle"> Segment Builder</span>. See <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external"> Building Segments</a> for more information about segmentation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Share Project </span></span>or </p> <p> <span class="ignoretag"><span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Curate Project Data </span></span> </p> </td> 

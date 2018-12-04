@@ -249,7 +249,7 @@ t_column_width.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [Table Builder](c_tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E)
+>* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
 ## Custom Reports {#concept_039A45AAEEDC4828B3CDA080717B8E4F}
 

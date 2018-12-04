@@ -25,7 +25,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 ## Step 1. Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
-|  **Q: What are the implementation steps for enabling the new Activity Map?** |A: Please review [Enable Activity Map](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)  |
+|  **Q: What are the implementation steps for enabling the new Activity Map?** |A: Please review [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)  |
 |---|---|
 |  **Q: Do all Analytics customers have access to the Admin Tools ActivityMap Enablement page?** | A: Adobe SiteCatalyst customers do not have access to the Admin Console’s Activity Map Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.  |
 |  **Q: Can the new AppMeasurement code be configured through Dynamic Tag Management (DTM)?** |A: Yes, you can [manually implement](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) the new AppMeasurement code.  |

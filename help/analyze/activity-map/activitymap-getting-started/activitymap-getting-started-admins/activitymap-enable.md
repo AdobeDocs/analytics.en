@@ -61,7 +61,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 
    This step adds all the Analytics dimensions that you need to collect data. 
 
-1. After about an hour, check the [Activity Map Page report](/home/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
+1. After about an hour, check the [Activity Map Page report](/help/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
 
 ## Step 3. Add users to Activity Map access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 

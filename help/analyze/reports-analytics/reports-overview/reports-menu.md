@@ -114,7 +114,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1">Calendar <img placement="inline" href="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">Brings up the <a href="../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local"> calendar</a> so you can determine the reporting period. </td> 
+   <td colname="col2">Brings up the <a href="../../../analyze/reports-analytics/reports-overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local"> calendar</a> so you can determine the reporting period. </td> 
   </tr> 
  </tbody> 
 </table>

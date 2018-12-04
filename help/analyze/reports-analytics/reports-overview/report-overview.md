@@ -17,14 +17,14 @@ An introduction to the features of a report, including the toolbar, calendar, an
 
 This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
-* [Example Pages Report](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_288CC85536684C2DB184141358481EF0) 
-* [Report Toolbar](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_0D674177AE6C4A71B07234DB25910ECD) 
-* [Report Header & Settings](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F) 
-* [Calendar](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1) 
-* [Graph Type](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_8B9CBA4096E64FC3B744E2E06EB83C19) 
-* [Graph Display](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_4C78ADC82C234CC6841AC92C803636F4) 
-* [Metrics](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_8B8F9EC72B864E29B91039E7B7381EAD) 
-* [Detail Table](../../../analyze/reports-analytics/overview-(2)/report-overview.md#section_449A5DC848744F65A10DA12E189B835D)
+* [Example Pages Report](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_288CC85536684C2DB184141358481EF0) 
+* [Report Toolbar](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_0D674177AE6C4A71B07234DB25910ECD) 
+* [Report Header & Settings](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F) 
+* [Calendar](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1) 
+* [Graph Type](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_8B9CBA4096E64FC3B744E2E06EB83C19) 
+* [Graph Display](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_4C78ADC82C234CC6841AC92C803636F4) 
+* [Metrics](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_8B8F9EC72B864E29B91039E7B7381EAD) 
+* [Detail Table](../../../analyze/reports-analytics/reports-overview/report-overview.md#section_449A5DC848744F65A10DA12E189B835D)
 
 ## Example Pages Report {#section_288CC85536684C2DB184141358481EF0}
 

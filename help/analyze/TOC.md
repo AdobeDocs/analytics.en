@@ -112,7 +112,6 @@ user-guide-title: Analytics Analyze Guide
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
 + Report Builder {#report-builder}
     + [Adobe Report Builder help](report-builder/home-(2).md)
-    + [Adobe Report Builder help](report-builder/home.md)
     + [What's new in Report Builder](report-builder/whats-new-arb.md)
     + Report Builder setup {#report-builder-setup}
         + [System requirements](report-builder/setup/system-requirements.md)

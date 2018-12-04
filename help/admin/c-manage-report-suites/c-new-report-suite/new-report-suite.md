@@ -19,7 +19,7 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
 
 >[!NOTE]
 >
->The [Virtual Report Suite documentation](vrs-create.md#concept_442D6A63FE814CB6BA33016493AAB05A) shows you how to create virtual report suites.
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 

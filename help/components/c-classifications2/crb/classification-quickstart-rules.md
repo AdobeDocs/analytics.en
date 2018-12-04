@@ -428,7 +428,7 @@ Add rules by matching a condition to a classification, and specifying the action
        >
        >  (See *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.) 
        >
-       >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](t_classification_rule_set.md#task_86F216DFD2534FA181E64ABDF306782B) to create the rule set. 
+       >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set. 
        >
        >
        >

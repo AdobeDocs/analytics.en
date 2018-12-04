@@ -54,48 +54,13 @@ requirements.xml
 * Cookies and JavaScript must be enabled. 
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).
 
-## Logging in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
 
-Learn how to log in using a standard login or through single sign-on.
+Before accessing the interface, work with your Account Manager or Customer Care to set up your company's account.
 
-<!-- 
+## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
 
-login.xml
-
- -->
-
-Before accessing the interface, work with your Account Manager or Customer Care to set up your company's account. 
-
-## Logging in using a standard login {#task_82DC2BD377C24E7EABF4A09493A941E8}
-
-Steps that describe how to log in.
-
-<!-- 
-
-t_login_standard.xml
-
- -->
-
-After logging in for the first time, change your password. For more information, see [Editing an User Account](../../analyze/reports-analytics/getting-started.md#topic_0028683CA91A4526BE987363F8005A60). 
-
-1. On a computer with access to the Internet, start a browser.
-1. Go to [!DNL https://login.experiencecloud.adobe.com/].
-1. On the [!UICONTROL Sign In] page, complete the following information, then click **[!UICONTROL Sign In]**.
-
-   **[!UICONTROL Company]**: Specify the company ID.
-
-   **[!UICONTROL Username]**: Specify your account ID.
-
-   **[!UICONTROL Password]**: Specify your account password.
-
-   **[!UICONTROL Remember Me]**: Remembers your login settings for future log in attempts. This option makes it possible for anyone with access to your computer to access using your account. 
-1. Select the version of the service to which you want to log in.
-
-   The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
-
-## Logging in using single sign-on {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
-
-Steps that describe how to log in using single sign-on.
+Steps that describe how to log in through the Adobe Experience Cloud.
 
 <!-- 
 
@@ -104,7 +69,7 @@ t_login_sso.xml
  -->
 
 1. On a computer with access to the Internet, start a browser.
-1. Go to [!DNL https://my.omniture.com/login/].
+1. Go to [!DNL https://login.experiencecloud.adobe.com/].
 1. On the [!UICONTROL Sign In] page, click **[!UICONTROL Single Sign-On]**.
 1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
@@ -113,7 +78,7 @@ t_login_sso.xml
    **[!UICONTROL Username]**: Specify your account ID.
 
    **[!UICONTROL Password]**: Specify your account password. 
-1. From the Experience Cloud home page, click **Reports & Analytics **.
+1. From the Experience Cloud home page, go to **Analytics > Reports**.
 
    The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
 

@@ -104,7 +104,7 @@ A data file must adhere to the following structure rules:
 
 >[!MORE_LIKE_THIS]
 >
->* [Common Upload Issues](https://marketing.adobe.com/resources/kb/en_US/analytics/kb/common-saint-upload-issues.html)
+>* [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
 <!-- 
 
@@ -244,5 +244,5 @@ classification_troubleshooting.xml
 
  -->
 
-* [Common Upload Issues](https://marketing.adobe.com/resources/help/en_US/home/#kb-analytics-common-saint-upload-issues): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
+* [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
 

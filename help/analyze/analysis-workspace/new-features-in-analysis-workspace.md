@@ -420,7 +420,7 @@ New features in Analysis Workspace.
     </ul> <p>For example, if "Hour of Day" is dropped into a table, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/view-anomalies.md" format="dita" scope="local"> Option to allow confidence interval from re-scaling a chart </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md" format="dita" scope="local"> Option to allow confidence interval from re-scaling a chart </a> </p> </td> 
    <td colname="col2"> <p>The Anomaly Detection Confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. </p> <p>You now have the option to allow the confidence interval to scale the chart. </p> </td> 
   </tr> 
   <tr> 

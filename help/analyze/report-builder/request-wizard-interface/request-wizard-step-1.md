@@ -29,10 +29,10 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Report Type**: Specifies the base report you want to run in your data request. You run one report per request, and that report can have one-to-many dimensions and one-to-many metrics. Metrics and dimensions for a report type are displayed on the [!UICONTROL Request Wizard; Step 2] interface. See [Select Report Types](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC). 
 
-1. **Date Ranges**: Defines the time span covered by the request. Several types of request time periods are available, such as preset, fixed, and rolling. The maximum number of periods is 366. You can also choose a date range specified by a cell, and save date ranges as templates for later use.  See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/configuring-report-dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE) 
+1. **Date Ranges**: Defines the time span covered by the request. Several types of request time periods are available, such as preset, fixed, and rolling. The maximum number of periods is 366. You can also choose a date range specified by a cell, and save date ranges as templates for later use.  See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) 
 
 1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Request](t_create_a_data_request.md#task_65B453C8F015429A8EA73A1B64025B6C)
+>* [Create a Data Request](/help/analyze/report-builder/date-requests/t_create_a_data_request.md)

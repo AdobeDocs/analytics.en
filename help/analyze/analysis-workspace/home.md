@@ -133,7 +133,7 @@ We will provide Tips of the Day (along with a short video) in the bottom right-h
 * [Digital Marketing Blog](https://blogs.adobe.com/digitalmarketing/analytics/) (Home) 
 * [Adobe Analytics Forum](https://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html) 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html) 
-* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3) 
+* [Idea Exchange](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/ideas) 
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 
 **Developer**

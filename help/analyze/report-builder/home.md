@@ -61,7 +61,7 @@ seo-title: Adobe Report Builder Overview
         + [User access permissions for dimensions and metrics](layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
         + [Modify metrics - field definitions](layout/c-metrics-dimensions/r-arb-modify-metrics.md)
         + [Customer attributes](layout/c-metrics-dimensions/c-ustomer-attributes.md)
-    + [Anomaly Detection](layout/anomaly-detection-(2).md)
+    + [Anomaly Detection](layout/anomaly-detection.md)
     + [Configure an anomaly detection request](layout/t-anomaly.md)
     + [Format the date](layout/format-the-data.md)
     + [Format display headers](layout/t-format-display-headers.md)

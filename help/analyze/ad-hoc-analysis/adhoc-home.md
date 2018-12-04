@@ -28,7 +28,7 @@ Information resources for Ad Hoc Analysis and the Adobe Experience Cloud are lis
    </ul> </td> 
   <td class="- topic/stentry stentry"></td> 
   <td class="- topic/stentry stentry"> <p class="head"> <b> Experience Cloud Resources </b> </p> 
-   <ul id="ul_A6D32724C6114A5B96038C997C753C4E"> 
+   <ul id="ul_A6D32724C6114A5B96038C997C753C4E">
     <li id="li_367C4275943946A89F4157CF73592860"> <a href="https://helpx.adobe.com/marketing-cloud/analytics.html" format="http" scope="external"> Adobe Analytics Community</a> </li> 
     <li id="li_485ACD946BE844ECB9D72F3F08119C1D"> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes" scope="external" format="html"> Experience Cloud Release Notes</a> </li> 
     <li id="li_4A3066876B1649B2A0A64F4EC43364E1"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="http"> Product Documentation Home</a> </li> 

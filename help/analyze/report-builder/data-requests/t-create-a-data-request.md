@@ -1,7 +1,7 @@
 ---
-description: Steps to create a basic data request.
-seo-description: Steps to create a basic data request.
-seo-title: Create a data request
+description: Steps to create a basic Report Builder data request.
+seo-description: Steps to create a basic Report Builder data request.
+seo-title: Create a Report Builder data request
 solution: Analytics
 title: Create a data request
 topic: Report builder
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Create a data request
+# Create a Report Builder data request
 
 Steps to create a basic data request.
 
@@ -21,7 +21,7 @@ Steps to create a basic data request.
 
    Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Optional) Select a [publishing list](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) to use for distribution.
 1. Select a [report type](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
-1. Specify a [date range](../../../analyze/report-builder/data-requests/configuring-report-dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE) and report [granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
+1. Specify a [date range](../../../analyze/report-builder/data-requests/custom-calendar.md) and report [granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 1. Click **[!UICONTROL Next]**.
 1. In the [Layout - Request Wizard Step 2](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) window, specify a layout:
 

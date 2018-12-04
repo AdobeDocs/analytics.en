@@ -30,7 +30,7 @@ If you click a white dot, it will turn green and it will show you:
 * The date when the anomaly occurred 
 * The raw value of the anomaly 
 * The percentage value above or below the expected value, which is represented by the solid green line. 
-* The Analyze link to start [Contribution Analysis](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/contribution-analysis.md#concept_0972EDAA28D3412D84A4D35568BF7D30).
+* The Analyze link to start [Contribution Analysis](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 

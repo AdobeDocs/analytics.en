@@ -15,4 +15,4 @@ snippet: y
 
 Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors.
 
-For in-depth information on Adobe Analytics Segmentation, please refer to the [Segmentation Guide](http://marketing.adobe.com/resources/help/en_US/analytics/segment/). 
+For in-depth information on Adobe Analytics Segmentation, please refer to the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 

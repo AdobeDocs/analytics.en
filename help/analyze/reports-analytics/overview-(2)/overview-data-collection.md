@@ -28,4 +28,4 @@ At a high level, the data collection process flows as follows:
 
 Data collection is very quick and does not noticeably affect page load times. Collected data includes page views that result from clicking the browser **Reload** or **Back** buttons. The JavaScript code runs even when the page is retrieved from cache.
 
-See [Data Collection in Marketing Reports](http://marketing.adobe.com/resources/help/en_US/reference/index.html?f=usecase_sending_data_to_sc) in [Analytics Reference Help](https://marketing.adobe.com/resources/help/en_US/reference/index.html). 
+See [Data Collection] (https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html). 

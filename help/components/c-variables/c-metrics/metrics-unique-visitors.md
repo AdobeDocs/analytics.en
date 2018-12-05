@@ -31,4 +31,4 @@ See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../component
 
 >[!MORE_LIKE_THIS]
 >
->* [Daily Unique Visitors](metrics_daily_unique_visitors.md#concept_9EBBB3C8064D4643BC96B5A2D63990D0)
+>* [Daily Unique Visitors](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)

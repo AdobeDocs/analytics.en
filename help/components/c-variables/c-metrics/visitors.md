@@ -30,4 +30,4 @@ Refer to [Identifying Unique Visitors](https://marketing.adobe.com/resources/hel
 
 >[!MORE_LIKE_THIS]
 >
->* [Visitors Report](reports_visitors.md#concept_7371DAB5DA474D03A2D1448F151E011B)
+>* [Visitors Report](/help/components/c-variables/dimensionslist/reports-visitors.md)

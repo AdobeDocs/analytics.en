@@ -46,5 +46,4 @@ When displaying Revenue in the Internal Search Terms Report, you would see the f
 
 >[!MORE_LIKE_THIS]
 >
->* [Metric Calculations](metrics_calculations.md#concept_7442473CADCC4219924B8D850F1C67C8)
->* [Visitor Participation - Ad Hoc Analysis](metrics_visitor_participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A)
+>* [Metric Calculations](/help/components/c-variables/c-metrics/metrics-calculations.md)

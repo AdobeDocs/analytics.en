@@ -25,4 +25,4 @@ The term [!UICONTROL Path View] is used to indicate the number of times a page w
 
 >[!MORE_LIKE_THIS]
 >
->* [Paths Reports](reports_paths.md#topic_39F11BCBEDC3495EA1300149FC6D4F14)
+>* [Paths Reports](/help/components/c-variables/dimensionslist/reports-paths.md)

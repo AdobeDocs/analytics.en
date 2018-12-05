@@ -31,4 +31,4 @@ Two metrics that appear to be similar are listed:
 
 >[!MORE_LIKE_THIS]
 >
->* [Instances](metrics_instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
+>* [Instances](/help/components/c-variables/c-metrics/metrics-instance.md)

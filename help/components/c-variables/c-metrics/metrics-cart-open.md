@@ -23,4 +23,4 @@ The number of times a customer opened a shopping cart by adding the first item. 
 
 >[!MORE_LIKE_THIS]
 >
->* [Shopping Cart Report](reports_shopping_cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339)
+>* [Shopping Cart Report](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)

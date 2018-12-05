@@ -17,4 +17,4 @@ The average number of clicks it takes users to get to a certain page in the webs
 
 >[!MORE_LIKE_THIS]
 >
->* [Page Depth Report](reports_page_depth.md#concept_58DB9CFE4F0042ADB43AB86EF3DC4A7B)
+>* [Page Depth Report](/help/components/c-variables/dimensionslist/reports-page-depth.md)

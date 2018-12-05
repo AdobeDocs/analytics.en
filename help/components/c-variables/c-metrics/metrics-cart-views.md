@@ -23,4 +23,4 @@ Event in which the contents of the shopping cart are viewed by the customer. Thi
 
 >[!MORE_LIKE_THIS]
 >
->* [Shopping Cart Report](reports_shopping_cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339)
+>* [Shopping Cart Report](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)

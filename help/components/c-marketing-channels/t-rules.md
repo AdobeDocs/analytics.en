@@ -23,7 +23,7 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
    If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
 
-   See [Run the Automatic Setup](t_auto_setup.md). 
+   See [Run the Automatic Setup](/help/components/c-marketing-channels/c-channel-autosetup.md).
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
@@ -50,4 +50,4 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
 >[!MORE_LIKE_THIS]
 >
->* [Frequently Asked Questions and Examples](c_faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44)
+>* [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/c-faq.md)

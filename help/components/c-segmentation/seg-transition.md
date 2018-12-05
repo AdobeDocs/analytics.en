@@ -35,7 +35,7 @@ snippet: y
 
 * You can [tag segments](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments. 
 
-* You can create [Sequential Segments](seg_example_sequential.md#concept_BD13ABA2592E479B82A187B82B80559C) outside of Ad Hoc Analysis. 
+* You can create [Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis. 
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
 See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
@@ -82,7 +82,7 @@ The report suite drop-down has been moved next to the date selector in the top r
 
 By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
-Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](../../components/c-segmentation/seg-reference/seg-reference.md#concept_69114DCDC4154FD6985B4AAFE38AF2AB)
+Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](../../components/c-segmentation/seg-reference/seg-rights.md)
 
 **Can I see all segments in my company?**
 

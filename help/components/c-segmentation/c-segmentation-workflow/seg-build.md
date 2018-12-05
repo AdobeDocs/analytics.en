@@ -98,7 +98,7 @@ Access the Segment Builder by
 
    The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu. 
 
-1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu. 
+1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-operators.md) from the drop-down menu. 
 1. Enter or select a value for the item selected. 
 1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules. 
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created. 
@@ -138,7 +138,7 @@ Task Context
    ![](assets/drag_n_drop_dimension.png)
 
    The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu. 
-1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-reference.md#concept_A010909595454633B4FDC54C97A9CFFA) from the drop-down menu.
+1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-operators.md) from the drop-down menu.
 1. Enter or select a value for the item selected.
 1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
 1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right.

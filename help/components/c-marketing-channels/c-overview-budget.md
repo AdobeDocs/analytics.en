@@ -30,10 +30,6 @@ You can assign costs and budgets only to channels. All costs are given a time ra
 
 After you add cost and budget items, you can export the table data to a CSV file. You can also import a CSV file to the Marketing Channel Costs page.
 
->[!NOTE]
->
->&nbsp;If you are familiar with importing classifications, you can add Numeric 2 classifications and upload them for use as cost and budget metrics. See [Numeric 2 Classifications](https://marketing.adobe.com/resources/help/en_US/sc/saint/index.html#Numeric%202%20Classifications).
-
 ## Add cost and budget items {#task_9238A033994440748960DE21593E6388}
 
 Add cost and budget items to Marketing Channels.

@@ -40,4 +40,4 @@ The value of all report line items for a reported period. If a filter is current
 
 >[!MORE_LIKE_THIS]
 >
->* [Totals Report](reports_totals.md#concept_48E23FB3BCCD43DFB486A048960800A8)
+>* [Totals Report](/help/components/c-variables/dimensionslist/reports-totals.md)

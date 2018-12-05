@@ -23,4 +23,4 @@ Instance of the Product View being set. Occurs when the product detail page is v
 
 >[!MORE_LIKE_THIS]
 >
->* [Products Report](reports_products.md#concept_40C7B3C552974DBB995BACBD7A299D19)
+>* [Products Report](/help/components/c-variables/dimensionslist/reports-products.md)

@@ -17,8 +17,8 @@ Measures how various advertising tracking codes affect different conversion even
 
  **General Properties**
 
-* This report references data directly from the [s.campaign](campaign.md#concept_4D6B6C3D593342DDBF5D5581CFB7BA11) variable implemented on your website. 
-* The variable this report is based on is a [conversion variable](conversion_var_admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE). Meaning, it can persist beyond the page view and associate itself with metrics within its specified expiration. 
+* This report references data directly from the [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) variable implemented on your website. 
+* The variable this report is based on is a [conversion variable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Meaning, it can persist beyond the page view and associate itself with metrics within its specified expiration. 
 * The report's default metric is Revenue. You can change this default value in the [!UICONTROL Report Suite Manager] in [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.) 
 
 * This report can be viewed in both trended and ranked formats. 

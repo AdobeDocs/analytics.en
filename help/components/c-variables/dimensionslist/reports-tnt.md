@@ -25,6 +25,6 @@ Examples include:
 * Breaking down Target campaign and recipe data with conversion variables. 
 * Breaking down other reports with Target campaign and recipe traffic data.
 
-By leveraging data in Analytics reports, you can drill into your Target recipes using [subrelations](subrelations.md#concept_F51574CAD94E4AAC9ED884513744443F) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from Target.
+By leveraging data in Analytics reports, you can drill into your Target recipes using [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from Target.
 
 See the [Target](https://help.testandtarget.omniture.com/) help system for more information. 

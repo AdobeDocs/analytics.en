@@ -15,8 +15,8 @@ snippet: y
 
 Descriptions of report categories used in the Experience Cloud.
 
-A ranked report displays a table with ranked items, using numbers and percentages in metrics. For example, a Pages Report ranks the pages on your site based on traffic, and the detail table shows percentages and numbers for metrics like Page Views and Revenue. A horizontal bar chart is the default graph type. Graphs display a color for each metric. Ranked reports can display multiple metrics in a report. 
-A trended report lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period.
+A **ranked report** displays a table with ranked items, using numbers and percentages in metrics. For example, a Pages Report ranks the pages on your site based on traffic, and the detail table shows percentages and numbers for metrics like Page Views and Revenue. A horizontal bar chart is the default graph type. Graphs display a color for each metric. Ranked reports can display multiple metrics in a report. 
+A **trended report** lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period.
 
 In the graph, the vertical axis displays the tracked items. The horizontal axis displays the time granularity. In the table, you can trend from a specific cell, and launch a full report from the cell. The date or time used is based the cell's value.
 

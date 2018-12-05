@@ -17,4 +17,4 @@ Displays which search engines visitors use for paid searches.
 
 >[!MORE_LIKE_THIS]
 >
->* [Search Engines Report](reports_search_engines.md#concept_351CDE4F5FC44371B6B657064E125134)
+>* [Search Engines Report](/help/components/c-variables/dimensionslist/reports-search-engines.md)

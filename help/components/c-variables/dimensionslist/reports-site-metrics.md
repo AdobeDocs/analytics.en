@@ -19,7 +19,7 @@ Site Metrics reports display quantitative information about your website. For ex
 
 [!UICONTROL Site Metrics] reports display quantitative information about your website. For example, they show how many times visitors looked at pages, the numbers of purchases made from specific pages, the time spent on pages, revenue, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports. 
 
-Metric reports are [trended](reports_trended.md#concept_65FEA92704024232BB21A5952939711F) over time. Meaning, you can apply time and day-of-week granularity to these reports.
+Metric reports are [trended](/help/components/c-variables/dimensionslist/reports-types.md) over time. Meaning, you can apply time and day-of-week granularity to these reports.
 
 * [Page Views](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33) 
 * [Visits Report](../../../components/c-variables/dimensionslist/reports-visits.md#concept_50CA55CF2A41430CBC754AEEEE6023A9) 
@@ -29,5 +29,3 @@ Metric reports are [trended](reports_trended.md#concept_65FEA92704024232BB21A595
 * [Shopping Cart](../../../components/c-variables/dimensionslist/reports-shopping-cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339) 
 * [Custom Events](../../../components/c-variables/dimensionslist/reports-custom-events.md#concept_9337B2FB8A3F417BA8689FE7FD64629F) 
 * [Bots](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
-
-For descriptions of all metrics, see [Metrics](../../../components/c-variables/c-metrics/c-metrics.md#concept_ACBB3CB0937649C9876DD93AC9EB843B). 

@@ -78,7 +78,7 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
   <tr> 
    <td colname="col01"> <img href="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Validate the implementation. </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation.md" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
+   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img href="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 

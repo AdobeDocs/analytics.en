@@ -82,7 +82,7 @@ Learn how visits to your web site become a report in Adobe Analytics.
 
 For more details, see:
 
-* [Data Collection](../../implement/js-implementation/data-collection/data-collection.md#concept_398E06232F9B4A15B0FD7D45E6DC4660)
+* [Data Collection](../../implement/js-implementation/data-collection/query-parameters.md)
 * [Create a Data Element](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)

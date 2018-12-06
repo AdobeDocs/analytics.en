@@ -45,7 +45,7 @@ Edit Tool]** > **[!UICONTROL Global Variables]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Variable Prefix </p> </td> 
-   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md</p> </td> 
+   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md)</p> </td> 
   </tr> 
  </tbody> 
 </table>

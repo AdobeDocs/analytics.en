@@ -29,11 +29,11 @@ Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
  <tbody> 
   <tr> 
    <td colname="col1"> Referrer Override </td> 
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>See <a href="referrer.md#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B" format="dita" scope="local"> referrer</a>. </p> </td> 
+   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campaign </td> 
-   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See <a href="campaign.md#concept_C7BF7B8A69D048A6AB482052A98A91F8" format="dita" scope="local"> campaign</a>. </p> </td> 
+   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
  </tbody> 
 </table>

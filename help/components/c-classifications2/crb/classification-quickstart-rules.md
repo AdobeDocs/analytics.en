@@ -53,8 +53,8 @@ about_classification_rules.xml
 
  -->
 
-* [Important Information about Rules](/help/components/c-classifications2/crb/classification-rule-builders.md) 
-* [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builders.md) 
+* [Important Information about Rules](/help/components/c-classifications2/crb/classification-rule-builder.md) 
+* [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builder.md) 
 * [About Rule Priority](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
 >[!NOTE]

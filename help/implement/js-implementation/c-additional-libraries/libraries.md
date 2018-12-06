@@ -49,8 +49,6 @@ The following table outlines the libraries available to collect Analytics data a
      <li id="li_6323CE2240FD490292B39884BB00559C"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/" format="http" scope="external"> Android AppMeasurement 4.x</a> (latest version) </li> 
      <li id="li_AD7A2B3DD96A43FF8DEB003D49A02F5B"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/" format="http" scope="external"> Android AppMeasurement 3.x</a> </li> 
      <li id="li_46CB3ED239BC42419C996BFDF33046AE"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/wp8/" format="http" scope="external"> Windows Phone 8 AppMeasurement 3.x</a> (latest version) </li> 
-     <li id="li_98330B64BE8E40AC9EB071D1852C876E"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/blackberry/oms_sc_appmeasure_blackberry.pdf" format="http" scope="external"> Blackberry AppMeasurement</a> </li> 
-     <li id="li_C6A23DA415A84774AA652A2CAA8C5A5E"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/symbian/" format="http" scope="external"> Symbian AppMeasurement</a> </li> 
      <li id="li_B4B01EDE735B4D6C97AAF468DBB64580"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/dotnet/oms_sc_appmeasure_dotnet.pdf" format="http" scope="external"> Silverlight, .NET, XBOX, and Windows Phone 7 AppMeasurement</a> </li> 
     </ul> </td> 
   </tr> 

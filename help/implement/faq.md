@@ -60,7 +60,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I add cookies to the right subdomain? </p> </td> 
-   <td colname="col3"> The <span class="varname"> cookieDomainPeriods </span> variable determines the domain on which the Analytics cookies s_cc and s_sq are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. <a href="cookiedomainperiods.md#concept_F17A59C7D8F54F5897AD40980B6725EB" format="dita" scope="local"> More... </a> </td> 
+   <td colname="col3"> The <span class="varname"> cookieDomainPeriods </span> variable determines the domain on which the Analytics cookies s_cc and s_sq are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. See [Configuration Variables](/help/implement/js-implementation/c-variables/configuration-variables.md) </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Tracking Server - How do I correctly populate my tracking server? </p> </td> 

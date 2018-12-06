@@ -46,7 +46,7 @@ Displays report settings and lets you configure the report type, select metrics,
 
 ![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF) for more information.  
+See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.  
 
 ## Calendar {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -70,7 +70,7 @@ Depending on the type of graph that you have selected, you typically see the top
 
 ![](assets/graph.png)
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF).
+See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Metrics {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -88,4 +88,4 @@ The details are the bulk of the report data. In this case, you have pages listed
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more.
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/reports-customize.md#concept_F042066264564438BFB35FC46EB638DF). 
+See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md). 

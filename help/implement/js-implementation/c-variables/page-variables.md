@@ -1625,7 +1625,7 @@ The *`products`* variable should always be set in conjunction with a success eve
 |  Quantity  | The number of units purchased. This field must be set with a [!UICONTROL purchase] event to be recorded.  |
 |  Price  | Refers to the combined cost of the total quantity purchased (units x individual unit price), not to the individual price. This field must be set with a [!UICONTROL purchase] event to be recorded.  |
 |  Events  | Currency events associated with the specified product. See [Product-Specific Currency Events](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) and [Order-Wide Currency Events](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0).  |
-|  eVars  | Merchandising eVar values associated with a specific product. See [Merchandising Variables](var_merchandising.md#concept_8B05F9352B354536999CE390E714F86B).  |
+|  eVars  | Merchandising eVar values associated with a specific product. See [Merchandising Variables](/help/components/c-variables/c-merch-variables/var-merchandising.md).  |
 
 The values included in the *`products`* variable are based on the type of event you are recording. The category/product delimiter (;) is required as a place holder when omitting Category. Other delimiters are required only if they are necessary to distinguish which parameter you are including, as shown in the examples on this page.
 

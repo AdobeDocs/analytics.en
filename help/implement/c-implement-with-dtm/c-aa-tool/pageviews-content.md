@@ -29,19 +29,19 @@ Edit Tool]** > **[!UICONTROL Page Views & Content]**
  <tbody> 
   <tr> 
    <td colname="col1"> Page Name </td> 
-   <td colname="col2"> <p>The name of each page on your site. </p> <p>See <a href="pageName.md#concept_5827B499DAC34B5D8445F9D9140CC328" format="dita" scope="local"> pageName</a>. </p> </td> 
+   <td colname="col2"> <p>The name of each page on your site. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Page URL Override </td> 
-   <td colname="col2"> <p> Overrides the actual URL of the page. </p> <p>See <a href="pageURL.md#concept_A15F710CD0174297A2286BF3E7452113" format="dita" scope="local"> pageURL</a>. </p> </td> 
+   <td colname="col2"> <p> Overrides the actual URL of the page. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Channel (Site Section) </td> 
-   <td colname="col2"> <p>Identifies a section of your site. </p> <p>See <a href="channel.md#concept_C7770B8C15724A99B10F8F468AF82D0D" format="dita" scope="local"> channel</a>. </p> </td> 
+   <td colname="col2"> <p>Identifies a section of your site. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hierarchy </td> 
-   <td colname="col2"> <p>Determines the location of a page in your site's hierarchy. </p> <p>See <a href="hierN.md#concept_C4475D1584D544ACB4C0A573EB60FA08" format="dita" scope="local"> hierN</a>. </p> </td> 
+   <td colname="col2"> <p>Determines the location of a page in your site's hierarchy. </p> <p>See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
  </tbody> 
 </table>

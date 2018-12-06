@@ -22,7 +22,7 @@ AppMeasurement for JavaScript is a new library that provides the same core funct
 The following list contains changes you need to understand before switching to this new AppMeasurement version:
 
 * Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A). 
-* The library does not support dynamic account selection ( [dynamicAccountList](dynamicAccountList.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51), [dynamicAccountMatch](dynamicAccountMatch.md#concept_718171E602214CCC9905C749708BBE52), and [dynamicAccountSelection](dynamicAccountSelection.md#concept_FAD499DB357148DB8BD74F08093D3E35)). 
+* The library does not support dynamic account selection ( [dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md). 
 
 * The library and page code can be deployed inside the `<head>` tag. 
 * The Media and Integrate modules are supported using updated module code that is in the JavaScript AppMeasurement download package. The Survey module is not supported. 

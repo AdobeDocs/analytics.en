@@ -15,7 +15,7 @@ A comprehensive list and descriptions of the configuration variables, HTTP heade
 
 ## Configuration Variables {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](c_compcollect.md) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). See also [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
 |Parameter|Description|
 |--- |--- |
@@ -39,7 +39,7 @@ These headers are fields contain information like requests for data and response
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_*` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](dcs-keys.md#concept_5ACDD7D09D0441A6AC26F7D345CD19D5).
+Parameters prefixed with `c_*` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.htmld).
 
 <table id="table_D679E65573AA421C9C75E575894D7096"> 
  <thead> 

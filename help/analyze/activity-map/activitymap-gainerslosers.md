@@ -25,7 +25,7 @@ Activity Map offers three types of overlays:
 
 You can also configure [overlay rendering for dynamic content](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
 
-To make changes to overlays, open the [Overlay Settings Panel](/help/analyze/activity-map/activitymap-overlay_settings.md) and edit available options.
+To make changes to overlays, open the [Overlay Settings Panel](/help/analyze/activity-map/activitymap-overlay-settings.md) and edit available options.
 
 Hovering over an overlay will display its [details](/help/analyze/activity-map/activitymap-overlay_details.md).
 
@@ -45,7 +45,7 @@ These metrics are overlaid on top of the page's links as a kind of 'heat map' to
 
 The Bubble overlay shows the overlay content (metric, percentage, or rank) in a small callout bubble.
 
-Bubble overlays are shown when you select this overlay in the Overlay Type in the toolbar. . Bubble overlays show for all links that match the selection in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay_settings.md) (top 30, top 50, all...). Gradient overlays will be shown if this option not selected.
+Bubble overlays are shown when you select this overlay in the Overlay Type in the toolbar. . Bubble overlays show for all links that match the selection in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Gradient overlays will be shown if this option not selected.
 
 ![](assets/bubble_overlay.png)
 

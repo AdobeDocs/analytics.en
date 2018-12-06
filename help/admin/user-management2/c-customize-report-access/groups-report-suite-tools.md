@@ -43,8 +43,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse </p> </td> 
-   <td colname="col2"> <p> Allows a non-admin user to make calls using the <span class="wintitle"> Data Warehouse</span> methods via the Web Services API. </p> <p> <a href="https://marketing.adobe.com/developer/documentation/data-warehouse/c-data-warehouse-api" format="https" scope="external"> Data Warehouse - Developer Documentation</a> </p> <p> <a href="/help/export/data-warehouse/data-warehouse.md" format="dita" scope="local"> Data Warehouse - Product Documentation</a> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p> Allows a non-admin user to make calls using the <span class="wintitle"> Data Warehouse</span> methods via the Web Services API. </p> <p> <a href="https://marketing.adobe.com/developer/documentation/data-warehouse/c-data-warehouse-api" format="https" scope="external"> [Data Warehouse - Developer Documentation](/help/export/data-warehouse/data-warehouse.md)
   <tr> 
    <td colname="col1"> <p>Report Suites (Read) </p> </td> 
    <td colname="col2"> <p> Allows a non-admin user to use the report suite methods in the API. </p> </td> 

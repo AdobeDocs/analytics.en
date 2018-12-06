@@ -42,17 +42,17 @@ snippet: y
 
 <p class="head"> <b> Experience Cloud resources </b> </p>
 
-* [Adobe Analytics Community](http://helpx.adobe.com/marketing-cloud/analytics.html) 
-* [Experience Cloud Release Notes](http://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes) 
-* [Product Documentation Home](http://marketing.adobe.com/resources/help/en_US/home/index.html) 
+* [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html) 
+* [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes) 
+* [Product Documentation Home](https://marketing.adobe.com/resources/help/en_US/home/index.html) 
 * [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer) 
-* [Idea Exchange](http://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3) 
-* [Adobe Training and Tutorials](http://helpx.adobe.com/learning.html?promoid=KAUDK) 
-* [Featured Solutions Center](http://www.omniture.com/en/products/online_business_optimization)
+* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3) 
+* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK) 
+* [Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)
 
 <p class="- topic/p head"> <b class="+ topic/ph hi-d/b ">Reports &amp; Analytics help</b> </p>
 
 * [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 
-* [Reports & Analytics Help](http://marketing.adobe.com/resources/help/en_US/sc/user/index.html) 
-* [Analytics Reference](http://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.
+* [Reports & Analytics Help](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html) 
+* [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.
 

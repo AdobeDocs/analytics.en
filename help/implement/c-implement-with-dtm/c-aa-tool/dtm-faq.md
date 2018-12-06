@@ -25,7 +25,7 @@ A FAQ about the automatic configuration of the Adobe Analytics deployment. The a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Where do I put my plugins when implementing Adobe Analytics via DTM? </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <span class="codeph"> s_code</span>, plugins can be added in the same editor as the hosted <span class="codeph"> s_code</span>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Both implementation methods should be equally effective. </p> <p>See <a href="https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html" format="html" scope="external"> DTM Switch Plugins</a>. </p> </td> 
+   <td colname="col2"> <p> If using DTM to manually host the <span class="codeph"> s_code</span>, plugins can be added in the same editor as the hosted <span class="codeph"> s_code</span>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Both implementation methods should be equally effective. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? </p> </td> 

@@ -82,15 +82,14 @@ Learn how visits to your web site become a report in Adobe Analytics.
 
 For more details, see:
 
-* [Data Collection](../../implement/js-implementation/data-collection/data-collection.md#concept_398E06232F9B4A15B0FD7D45E6DC4660) in this help documentation 
-* [Create a Data Element](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2) in this help documentation 
-* [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html) in the Analytics Help and Reference guide 
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html) help 
-* [Exclude by IP Address](https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html) in the Analytics Help and Reference guide 
-* [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html) whitepaper 
-* [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html) in Using FTP and sFTP with the Adobe Experience Cloud 
-* [Clickstream Data Feeds help](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/home.html)
-
+* [Data Collection](../../implement/js-implementation/data-collection/data-collection.md#concept_398E06232F9B4A15B0FD7D45E6DC4660)
+* [Create a Data Element](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
+* [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
+* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
+* [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
+* [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html) 
+* [Analytics Data Feed](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
+  
 >[!MORE_LIKE_THIS]
->
->* [Adobe Debugger](debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2)
+>       
+>* [Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)  

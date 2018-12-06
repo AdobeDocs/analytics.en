@@ -52,11 +52,11 @@ Edit Tool]** > **[!UICONTROL General]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tracking Server </p> </td> 
-   <td colname="col2"> <p>The domain at which the image request and cookie is written. </p> <p>See <a href="trackingServer.md#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F" format="dita" scope="local"> trackingServer </a>. </p> </td> 
+   <td colname="col2"> <p>The domain at which the image request and cookie is written. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL Tracking Server </p> </td> 
-   <td colname="col2"> <p>The domain at which the image request and cookie is written. Used for secure pages. If not defined, SSL data goes to <span class="term"> trackingServer </span>. </p> <p>See <a href="trackingServerSecure.md#concept_28132A2606E34A2F87BEC9E7ACADC7DD" format="dita" scope="local"> trackingServerSecure </a>. </p> </td> 
+   <td colname="col2"> <p>The domain at which the image request and cookie is written. Used for secure pages. If not defined, SSL data goes to <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Center </p> </td> 

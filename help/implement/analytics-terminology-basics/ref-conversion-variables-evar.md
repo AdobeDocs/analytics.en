@@ -32,14 +32,14 @@ When an eVar is set to a value for a visitor, Adobe automatically remembers that
 
 >[!NOTE]
 >
->Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables](listN.md#concept_74541AAC659740B9A6B7CA70FBB33D40) (list vars).
+>Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables](/help/implement/js-implementation/c-variables/page-variables.md) (list vars).
 
 For more information about variables, see:
 
 * [Variables for Analytics Implementation and Reporting](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) in this help 
-* [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html) in the Analytics help 
-* [Page Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/page-variables.html#) in this help 
-* [Campaign variable](campaign.md#concept_C7BF7B8A69D048A6AB482052A98A91F8) in this help 
-* [Products Variable](products.md#concept_A4007F6307E4419DAA65E1668A8FEBA2) in this help 
+* [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
+* [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Campaign variable](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Products Variable](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Products Variable](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) in the Mobile SDK documentation
 

@@ -419,13 +419,13 @@ cookiedomainperiods.xml
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. 
 
-The default value for *`cookieDomainPeriods`* is "2". This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain www.mysite.com, *`cookieDomainPeriods`* should be "2". For www.mysite.co.jp, *`cookieDomainPeriods`* should be "3".
+The default value for *`cookieDomainPeriods`* is "2". This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain `www.mysite.com`, *`cookieDomainPeriods`* should be "2". For www.mysite.co.jp, *`cookieDomainPeriods`* should be "3".
 
 If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, the JavaScript file attempts to set cookies on the domain suffix.
 
-For example, if setting *`cookieDomainPeriods`* to "2" on the domain [!DNL www.mysite.co.jp], the `s_cc` and `s_sq` cookies are created on the domain [!DNL co.jp]. Because [!DNL co.jp] is an invalid domain, almost all browsers reject these cookies. As a consequence, visitor click map data is lost, and the [!UICONTROL Visitor Profile] > [!UICONTROL Technology] > [!UICONTROL Cookies] report indicates that almost 100% of visitors reject cookies.
+For example, if setting *`cookieDomainPeriods`* to "2" on the domain `www.mysite.co.jp`, the `s_cc` and `s_sq` cookies are created on the domain `co.jp`. Because `co.jp` is an invalid domain, almost all browsers reject these cookies. As a consequence, visitor click map data is lost, and the [!UICONTROL Visitor Profile] > [!UICONTROL Technology] > [!UICONTROL Cookies] report indicates that almost 100% of visitors reject cookies.
 
-If *`cookieDomainPeriods`* is set to "3" but the domain contains only two periods, the JavaScript file sets the cookies on the subdomain of the site. For example, if setting *`cookieDomainPeriods`* to "3" on the domain [!DNL www2.mysite.com], the `s_cc` and `s_sq` cookies are created on the domain [!DNL www2.mysite.com]. When a visitor goes to another subdomain of your site (such as [!DNL www4.mysite.com]), all cookies set with [!DNL www2.mysite.com] cannot be read.
+If *`cookieDomainPeriods`* is set to "3" but the domain contains only two periods, the JavaScript file sets the cookies on the subdomain of the site. For example, if setting *`cookieDomainPeriods`* to "3" on the domain `www2.mysite.com`, the `s_cc` and `s_sq` cookies are created on the domain `www2.mysite.com`. When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
 
 >[!NOTE]
 >
@@ -485,7 +485,7 @@ The  variable is for cookies set by JavaScript (s_sq, s_cc, plug-ins) that are i
 
 The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* inherits the *`cookieDomainPeriods`* value. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
 
-The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in the domain when the domain begins with "www." For example, www.mysite.com contains two periods, while www.mysite.co.jp contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for mysite.com and three for mysite.co.jp).
+The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in the domain when the domain begins with "www." For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
 
 The AppMeasurement for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including s_sq and s_cc (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected. 
 
@@ -812,7 +812,7 @@ The list of filters in *`linkInternalFilters`* applies to the domain and path of
 
 Be careful that all the domains of your site (and any partners who are using your JavaScript file) are included in *`linkInternalFilters`*. If you do not have all domains included in the list, all links on and to those domains are considered exit links, increasing the server calls sent. If you would like multiple domains or companies to use a single AppMeasurement for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. If you have vanity domains that immediately redirect to your main domain, those vanity domains do not need to be included in the list.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL https://www.mysite.com/index.html].
+The following example illustrates how this variable is used. In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
 ```js
 s.trackExternalLinks=true 
@@ -1064,7 +1064,7 @@ The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to
 
 Most companies find that *`linkInternalFilters`* gives them enough control over exit links that they don't need *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is [!DNL https://www.mysite.com/index.html].
+The following example illustrates how this variable is used. In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
 ```js
 s.trackExternalLinks=true 

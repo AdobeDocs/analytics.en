@@ -15,4 +15,4 @@ snippet: y
 
 Displays the navigation data between servers on your site. When you select a server name from your site, Next Server Flow shows you the number of visitors who navigated from that server to each of the other servers on your site within a single visit or across visits.
 
- For example, if you have specific data on different servers or have mirrored data on separate servers, it shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a [!DNL www.mysite.com] to [!DNL info.mysite.com] or [!DNL sales.mysite.com]. 
+ For example, if you have specific data on different servers or have mirrored data on separate servers, it shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`. 

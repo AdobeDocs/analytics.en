@@ -13,9 +13,6 @@ snippet: y
 
 The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
-* [Overview](../../components/c-alerts/intellligent-alerts.md#section_6AC8CA81DEA94E99B0F192B60D0FDF03) 
-* [FAQ: How Alerts are Calculated and Triggered](../../components/c-alerts/intellligent-alerts.md#section_1F3B1DAF21784306953B49AAD4C3DCAB)
-
 ## Overview {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
 >[!IMPORTANT]

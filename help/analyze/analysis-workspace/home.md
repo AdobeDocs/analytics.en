@@ -131,11 +131,11 @@ We will provide Tips of the Day (along with a short video) in the bottom right-h
 * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Blog) 
 * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) 
 * [Digital Marketing Blog](https://blogs.adobe.com/digitalmarketing/analytics/) (Home) 
-* [Adobe Analytics Forum](https://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html) 
+* [Adobe Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/) 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html) 
 * [Idea Exchange](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/ideas) 
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 
 **Developer**
 
-[Developer Connection](https://marketing.adobe.com/developer) 
+[Adobe I/O - Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics.html) 

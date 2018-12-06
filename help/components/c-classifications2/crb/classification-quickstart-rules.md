@@ -53,8 +53,8 @@ about_classification_rules.xml
 
  -->
 
-* [Important Information about Rules](about_classification_rules.md#section_0BD46702FBEC4D98A4DD2EA0BD428046) 
-* [When Do Rules Not Classify Keys?](about_classification_rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) 
+* [Important Information about Rules](/help/components/c-classifications2/crb/classification-rule-builders.md) 
+* [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builders.md) 
 * [About Rule Priority](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
 >[!NOTE]
@@ -447,7 +447,7 @@ Add rules by matching a condition to a classification, and specifying the action
 
    >[!NOTE]
    >
-   >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See [About Rule Priority](rule_priority.md#concept_93527FEB3C9B48FB96FB7DF857E5F980) for more information about sorting rules.
+   >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See **About Rule Priority** above for more information about sorting rules.
 
 1. [Test your rule set](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.

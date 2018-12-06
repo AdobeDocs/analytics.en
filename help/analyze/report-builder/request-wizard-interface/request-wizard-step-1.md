@@ -35,4 +35,4 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 >[!MORE_LIKE_THIS]
 >
->* [Create a Data Request](/help/analyze/report-builder/date-requests/t_create_a_data_request.md)
+>* [Create a Data Request](/help/analyze/report-builder/data-requests/t_create_a_data_request.md)

@@ -5,7 +5,7 @@ seo-title: Adobe Report Builder Overview
 
 # Report Builder Overview
 
-+ [Report Builder Overview](home-(2).md)
++ [Report Builder Overview](home.md)
 + [What's new in Report Builder](whats-new-arb.md)
 + Report Builder setup
     + [System requirements](setup/system-requirements.md)

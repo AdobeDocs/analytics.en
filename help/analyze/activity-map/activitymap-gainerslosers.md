@@ -27,7 +27,7 @@ You can also configure [overlay rendering for dynamic content](/help/analyze/act
 
 To make changes to overlays, open the [Overlay Settings Panel](/help/analyze/activity-map/activitymap-overlay-settings.md) and edit available options.
 
-Hovering over an overlay will display its [details](/help/analyze/activity-map/activitymap-overlay_details.md).
+Hovering over an overlay will display its [details](/help/analyze/activity-map/activitymap-overlay-details.md).
 
 ## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
 

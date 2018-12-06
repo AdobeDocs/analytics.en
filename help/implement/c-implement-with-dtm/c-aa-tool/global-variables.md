@@ -33,19 +33,19 @@ Edit Tool]** > **[!UICONTROL Global Variables]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server </p> </td> 
-   <td colname="col2"> <p>The predefined variable populates the <span class="wintitle"> Servers</span> report in Adobe Analytics. </p> <p>See <a href="server.md#concept_BF77952603BA454BAFC9A0A81D06A7D2" format="dita" scope="local"> server</a>. </p> </td> 
+   <td colname="col2"> <p>The predefined variable populates the <span class="wintitle"> Servers</span> dimension in Adobe Analytics. See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVars </p> </td> 
-   <td colname="col2"> <p> The eVar variables are used for building custom conversion reports. </p> <p>See <a href="eVarN.md#concept_74FFDDB44B5344E18ABC6F2F99DF4649" format="dita" scope="local"> eVarN</a>. </p> </td> 
+   <td colname="col2"> <p>[eVar variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom conversion reports. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Props </p> </td> 
-   <td colname="col2"> <p>Property (prop) variables are used for building custom traffic reports. </p> <p>See <a href="propN.md#concept_0F10FA2DE69B4029A31EA5E9313AA254" format="dita" scope="local"> propN</a>. </p> </td> 
+   <td colname="col2"> <p>[Prop variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom traffic reports. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Variable Prefix </p> </td> 
-   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is "D=". </p> <p>See <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> Dynamic Variables</a>. </p> </td> 
+   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md</p> </td> 
   </tr> 
  </tbody> 
 </table>

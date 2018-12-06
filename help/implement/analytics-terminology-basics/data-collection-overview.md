@@ -82,15 +82,14 @@ Learn how visits to your web site become a report in Adobe Analytics.
 
 For more details, see:
 
-* [Data Collection](../../implement/js-implementation/data-collection/data-collection/query-parameters.md)
+* [Data Collection](../../implement/js-implementation/data-collection/data-collection.md#concept_398E06232F9B4A15B0FD7D45E6DC4660)
 * [Create a Data Element](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
-* [Exclude by IP Address](https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html)
 * [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
-* [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
-* [Analytics Data Feeds help](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)
-
+* [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html) 
+* [Analytics Data Feed](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
+  
 >[!MORE_LIKE_THIS]
->
->* [Adobe Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)
+>       
+>* [Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)  

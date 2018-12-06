@@ -52,7 +52,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Available Segments</span> </td> 
-   <td colname="col2"> <p>Lets you select the part of the visitor population you want to examine and generate complex segments. You can load pre-configured segments, create new segments, and store segment components in a library to use in building additional segments. </p> <p>You can now stack segments. When selecting multiple segments, the preview area, the Request Manager, and the Request Detail popup show a comma-separated list of names (e.g., Segment1, Segment2). </p> <p>See the [Segmentation Guide]for more information. </p> <p>Note:  You cannot include both a segment filter and a breakdown on the same segment, in the same Data Warehouse report. Doing so will result in an error. </p> </td> 
+   <td colname="col2"> <p>Lets you select the part of the visitor population you want to examine and generate complex segments. You can load pre-configured segments, create new segments, and store segment components in a library to use in building additional segments. </p> <p>You can now stack segments. When selecting multiple segments, the preview area, the Request Manager, and the Request Detail popup show a comma-separated list of names (e.g., Segment1, Segment2). </p> <p>See the [Segmentation Guide](/help/components/c-segmentation/seg-home.md)for more information. </p> <p>Note:  You cannot include both a segment filter and a breakdown on the same segment, in the same Data Warehouse report. Doing so will result in an error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Breakdowns</span> </td> 
@@ -60,7 +60,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Metrics</span> </td> 
-   <td colname="col2">Lets you add <a href="metrics.md#concept_EB00207C07BD4481AB116E62EC24E686" format="dita" scope="local"> metrics</a> on which you want to report. </td> 
+   <td colname="col2">Lets you add metrics that you want to report on. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Metrics Sort</span> </td> 

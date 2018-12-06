@@ -28,7 +28,7 @@ snippet: y
 <p class="- topic/p head"> <b class="+ topic/ph hi-d/b ">Popular help topics</b> </p>
 
 * [Setup, Installation, and Login](../../analyze/report-builder/setup/login.md) 
-* [Feature Overview](help/analyze/report-builder/report-builder-overview.md) 
+* [Feature Overview](/help/analyze/report-builder/report-builder-overview.md) 
 * [Schedule Report Requests](../../analyze/report-builder/schedule-report-requests.md#concept_425CEC16D3B149E09EC341CF12F59FA8) 
 * [Troubleshooting and Best Practices for Report Builder](../../analyze/report-builder/troubleshoot.md#concept_DC4DEC4089A14969903A405366E547A4) 
 * [What are my options for creating custom date ranges?](../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45) 

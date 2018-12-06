@@ -56,7 +56,7 @@ Edit Tool]** > **[!UICONTROL General]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL Tracking Server </p> </td> 
-   <td colname="col2"> <p>The domain at which the image request and cookie is written. Used for secure pages. If not defined, SSL data goes to <span class="term"> trackingServer </span>. </td> 
+   <td colname="col2"> <p>The domain at which the image request and cookie is written. Used for secure pages. If not defined, SSL data goes to <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Center </p> </td> 

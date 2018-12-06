@@ -103,9 +103,7 @@ You can edit an existing Adobe Analytics tool to change its configuration settin
 1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]). 
 1. Click **[!UICONTROL Save Changes]**.
 
-## Enabling Adobe Analytics Premium {#section_AEAA44566B5A46D2922E17A11D7EA217}
-
-If you are an [!DNL Adobe Analytics Premium] customer, dynamic tag management lets you take advantage of advanced features and additional eVars and events. For more information, see [Adobe Analytics Premium](https://wwwimages.adobe.com/content/dam/Adobe/en/solutions/digital-marketing/digital-analytics/pdfs/solution-overview-analytics-premium-ue.pdf).
+## Enable Adobe Analytics Premium {#section_AEAA44566B5A46D2922E17A11D7EA217}
 
 The following table displays the number of eVars and events available in each [!DNL Analytics] account type: 
 

@@ -24,6 +24,6 @@ Common types of events include:
 * Currency events 
 * Custom events
 
-For detailed information, refer to [Configure Events](events.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
+For detailed information, refer to [Configure Success Events](/help/admin/admin/c-success-events/t-success-events.md).
 
 Success events are described in detail in the [Analytics Help and Reference](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html). 

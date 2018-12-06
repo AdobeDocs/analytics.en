@@ -53,6 +53,12 @@
         },
         {
             "pattern": "^.*europa.eu"
-        }
+        },
+        {
+            "pattern": "^.*login.experiencecloud.adobe.com"
+        },
+        {
+            "pattern": "^.*marketing.adobe.com"
+        }          
     ]
 }

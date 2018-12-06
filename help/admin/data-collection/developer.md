@@ -29,7 +29,7 @@ The following table outlines the libraries available to collect Analytics data a
  <tbody> 
   <tr> 
    <td colname="col1"> Web Browser </td> 
-   <td colname="col2"> <p>All Experience Cloud customers have access to <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="http" scope="external"> dynamic tag management</a>, which is the standard for deploying JavaScript and HTML page tags for all solutions to your website. </p> <p>Other ways of implementing JavaScript and HTML measurement are described in the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="http" scope="external"> Analytics Implementation Guide</a>. </p> </td> 
+   <td colname="col2"> <p>All Experience Cloud customers have access to <a href="https://docs.adobelaunch.com/getting-started" format="http" scope="external"> Launch</a>, which is the standard for deploying JavaScript and HTML page tags for all solutions to your website. </p> <p>Other ways of implementing JavaScript and HTML measurement are described in the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="http" scope="external"> Analytics Implementation Guide</a>. </p> </td> 
    <td colname="col3"> <p> <b>JavaScript</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ The following table outlines the libraries available to collect Analytics data a
     <ul id="ul_B602F4D6610D46D6BA65F943E5BA296C"> 
      <li id="li_4F0A3CC0E5CD4F5AAEECF60A3D81C737"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/php/oms_sc_appmeasure_php.pdf" format="http" scope="external"> PHP AppMeasurement</a> </li> 
      <li id="li_D2431479035F45F4AB4CE0AF11B4C89C"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
-     <li id="li_74B5B70A2E7349EE9FB9721442D0C845"> <a href="https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api" format="https" scope="external"> Data Insertion API</a> </li> 
+     <li id="li_74B5B70A2E7349EE9FB9721442D0C845"> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md" format="https" scope="external"> Data Insertion API</a> </li> 
      <li id="li_45F309B87FFC40DF9EF0F263C3FB416A"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" format="http" scope="external"> Data Sources</a> </li> 
     </ul> </td> 
    <td colname="col3"> <p> <b>PHP</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> <p> <b>Java</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> <p> <b>Data Insertion API</b>: No download, data is sent using web services API. </p> <p> <b>Data Sources</b>: No download, data is uploaded using FTP or web services API. </p> </td> 

@@ -610,9 +610,14 @@ Table data describing the columns in the data feed.
   <tr> 
    <td> product_list </td> 
    <td> Product list as passed in through the products variable. Products are delimited by commas while individual product properties are delimited by semicolons. </td> 
-   <td> text </td> 
+   <td> text </td> </tr> 
+  <tr>
   </tr> 
+  <td> post_product_list </td> 
+   <td> Product list as passed in through the products variable. Products are delimited by commas while individual product properties are delimited by semicolons. </td> 
+   <td> mediumtext (16MB). Note: This field type (currently 'text') takes effect on January 7th, 2019. </td> 
   <tr> 
+  </tr>
    <td> product_merchandising </td> 
    <td> Not used. Use product_list instead. </td> 
    <td> None </td> 

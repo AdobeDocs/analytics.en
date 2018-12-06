@@ -62,10 +62,10 @@ Adobe does not recommend leaving the *`pageName`* blank, (which results in using
 
 * The domain and path of a page may not always be displayed identically. For example, the following four URLs return a single page:
 
-    * [!DNL https://www.mysite.com/index.jsp] 
-    * [!DNL https://www.mysite.com] 
-    * [!DNL https://mysite.com/index.jsp] 
-    * [!DNL https://mysite.com/]
+    * `https://www.mysite.com/index.jsp`
+    * `https://www.mysite.com`
+    * `https://mysite.com/index.jsp`
+    * `https://mysite.com/`
 
   If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports. 
 

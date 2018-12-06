@@ -33,7 +33,7 @@ The following table provides at-a-glance information about [!DNL Analytics] vari
 |  charSet  | Translates the character set of the Web page into UTF-8.  |
 |  colorDepth  | Displays the number of bits used to display color on each pixel of the screen.  |
 |  connectionType  | Indicates (in Microsoft Internet Explorer) whether the browser is configured on a LAN or modem connection.  |
-|  cookieDomainPeriods  | Determines the domain on which the [!DNL Analytics] [!UICONTROL visitor ID] (s_vi) cookie will be set by determining the number of periods in the domain of the page URL. For www.mysite.com, *`cookieDomainPeriods`* should be "2." For www.mysite.co.jp, *`cookieDomainPeriods`* should be "3."  |
+|  cookieDomainPeriods  | Determines the domain on which the [!DNL Analytics] [!UICONTROL visitor ID] (s_vi) cookie will be set by determining the number of periods in the domain of the page URL. For `www.mysite.com`, *`cookieDomainPeriods`* should be "2." For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3."  |
 |  cookieLifetime  | Used by both JavaScript and [!DNL Analytics] servers to determine the lifespan of a cookie.  |
 |  cookiesEnabled  | Indicates whether a first-party session cookie could be set by JavaScript.  |
 |  currencyCode  | Determines the conversion rate to be applied to revenue as it enters the [!DNL Analytics] databases. [!DNL Analytics] databases store all monetary amounts in a currency of your choice. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.  |

@@ -38,4 +38,4 @@ Steps that describe how administrators can enable Data Warehouse reporting acces
 
 >[!MORE_LIKE_THIS]
 >
->* [Groups](groups.md#concept_6C565553DCE3417C909234B2F044A02F)
+>* [Groups](/help/admin/user-management2/c-user-groups/groups.md)

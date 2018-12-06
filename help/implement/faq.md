@@ -44,7 +44,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - What is the difference between the Experience Cloud Visitor ID and the Analytics Visitor ID? </p> </td> 
-   <td colname="col3"> <p>The Experience Cloud ID service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_overview.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col3"> <p>The Experience Cloud ID service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - How is the Visitor ID set if cookies are blocked? </p> </td> 
@@ -56,7 +56,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I implement Heartbeat Video Tracking? </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_implementation.html" format="https" scope="external"> This section </a> contains instructions on downloading the video heartbeat SDKs and developer guides for your platform. Make sure you also download the developer guide that is in the docs folder when you download the SDK as it contains the specific implementation instructions for video heartbeat. </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="https" scope="external"> This section </a> contains instructions on downloading the video heartbeat SDKs and developer guides for your platform. Make sure you also download the developer guide that is in the docs folder when you download the SDK as it contains the specific implementation instructions for video heartbeat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I add cookies to the right subdomain? </p> </td> 
@@ -132,7 +132,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> What is a 500 error? </td> 
-   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/insight/qryapi/index.html#The_HTTP_Protocol" format="http" scope="external"> Insight query API </a> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=pageType" format="http" scope="external"> pageType variable </a> </td> 
+   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=pageType" format="http" scope="external"> pageType variable </a> </td> 
   </tr> 
  </tbody> 
 </table>

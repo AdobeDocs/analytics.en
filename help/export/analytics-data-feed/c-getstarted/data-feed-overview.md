@@ -31,4 +31,4 @@ Use the Analytics Data Feed interface to:
 
 The following video shows how to create and manage your own Data Feeds within Adobe Analytics.
 
->[!VIDEO](https://vimeo.com/m_fb--gNtR4) 
+>[!VIDEO](https://www.youtube.com/watch?v=cwDqjmSmtMQ) 

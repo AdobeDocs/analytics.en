@@ -41,27 +41,27 @@ There are occasions when using both props and the *`hier`* variable makes sense.
  <tbody> 
   <tr> 
    <td> Correlations </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_2A70A61A78024204B6CEE4FFF9A0851E" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_2A70A61A78024204B6CEE4FFF9A0851E" /> </p> </td> 
   </tr> 
   <tr> 
    <td> Pathing </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_EE5ED36AC75F4D648F54858D796F82BD" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_EE5ED36AC75F4D648F54858D796F82BD" /> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Page View </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_5BB82776D41642E78C2ECFD71DD33164" /> </p> </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_18F34EE8957946AF9D6C2C9B492CEDB7" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_5BB82776D41642E78C2ECFD71DD33164" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_18F34EE8957946AF9D6C2C9B492CEDB7" /> </p> </td> 
   </tr> 
   <tr> 
    <td> Unique Visitors </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_A475267547B94DB4A1EEFD903B2CA1EB" /> </p> </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_1E9E302D999146128CDBCE13E52BC38C" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_A475267547B94DB4A1EEFD903B2CA1EB" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_1E9E302D999146128CDBCE13E52BC38C" /> </p> </td> 
   </tr> 
   <tr> 
    <td> Classifications </td> 
-   <td> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_FC5FEFE7BA8C4475BA4F31D57302BE6B" /> </p> </td> 
+   <td> <p><img href="assets/check-mark.png" id="image_FC5FEFE7BA8C4475BA4F31D57302BE6B" /> </p> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

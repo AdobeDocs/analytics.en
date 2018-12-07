@@ -32,10 +32,6 @@ You can edit settings **for multiple columns at once**. Just select multiple col
   </tr>
  </thead>
  <tbody> 
-  <tr> 
-   <td colspan="2"> <p><b>Display in Table Cells</b> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p><b>Number</b> </p> </td> 
    <td colname="col2"> <p>Determines if a cell shows/hides the numeric value for the metric. For example, if the metric is Page Views, the numeric value is the number of page views for the row item. </p> </td> 
   </tr> 

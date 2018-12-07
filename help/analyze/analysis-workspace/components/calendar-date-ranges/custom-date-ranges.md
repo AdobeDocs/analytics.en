@@ -18,7 +18,7 @@ Create custom date ranges in Analysis Workspace, and save them as Time component
 
  **[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
 
-A date range applies at the panel level. To add a date range to your project, click **Panels** > ***<select panel>***, and specify a new date range.
+A date range applies at the panel level. To add a date range to your project, click **Panels** > *`<select panel>`*, and specify a new date range.
 
 * [Date Range for "Two Months Ago"](../../../../analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md#section_C4109C57CB444BB2A79CC8082BD67294) 
 * [7-Day Rolling Date Range](../../../../analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md#section_7EF63B2E9FF54D2E9144C4F76956A8DD)

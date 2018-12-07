@@ -52,7 +52,7 @@ t_send_report.xml
 
 1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
 
-   <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E" keycol="0"> 
+   <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E"> 
    <thead class="chhead sthead"> 
    <th class="choptionhd"> Option </th> 
    <th class="chdeschd"> Description </th> 
@@ -81,11 +81,11 @@ t_send_report.xml
    <td class="choption"><strong>Report Destination</strong></td> 
    <td class="chdesc stentry"> <p> <span class="uicontrol"> Email </span>: Lets you configure email address settings, the subject line, and notes. </p> <p> <span class="uicontrol"> FTP </span>: Lets you configure FTP settings, including the Host, Port, Directory, Username, and Password. </p> </td> 
    </tr> 
-   </table>    
+   </table>
     
 1. Click **[!UICONTROL Scheduling Options]**.
 
-   <table id="choicetable_589A39087F4C497D8913364FFF0125B7" keycol="0"> 
+   <table id="choicetable_589A39087F4C497D8913364FFF0125B7"> 
    <thead class="chhead sthead"> 
    <th class="choptionhd"> Option </th> 
    <th class="chdeschd"> Description </th> 

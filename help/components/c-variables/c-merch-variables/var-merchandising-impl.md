@@ -51,7 +51,7 @@ When Product Syntax is enabled, the merchandising category is populated directly
 
 * **Syntax** 
 
-  ```js
+```js
   s.products="category;product;quantity;price;event_incrementer; 
 <codeph outputclass="syntax">
   eVarN=merch_category| 
@@ -59,20 +59,20 @@ When Product Syntax is enabled, the merchandising category is populated directly
    eVarM=merch_category2" 
  </codeph outputclass="syntax"> 
 </codeph outputclass="syntax">
-  ```
+```
 
 * **Example** 
 
-  ```js
+```js
   s.events="prodView" 
   s.products=";Fernie Snow Goggles;;;; 
 <codeph outputclass="syntax">
   eVar1=goggles" 
    In 
 </codeph outputclass="syntax">
-  ```
+```
 
-  The value "goggles" for eVar1 is assigned to the product "Fernie Snow Goggles". All subsequent success events (product adds, checkouts, purchases, and so on) that involve this product are credited to "goggles".
+The value "goggles" for eVar1 is assigned to the product "Fernie Snow Goggles". All subsequent success events (product adds, checkouts, purchases, and so on) that involve this product are credited to "goggles".
 
 ## Implementing Using Conversion Variable Syntax {#section_6AE10F69F4A14636AB050BEA89A34E4E}
 

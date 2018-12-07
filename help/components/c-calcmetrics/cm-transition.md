@@ -68,7 +68,9 @@ These changes to the way calculated metrics work in Analytics may impact you.
 
 Now, metrics are no longer segregated by report suites. If a metric in one report suite had the same name as a metric in a different report suite, they will both be visible in the Calculated Metric Builder as well as the Metric Selector and might appear as duplicate metrics even though they may or may not have the same definition.
 
-You would see a number of calculated metrics with the same name (but created in different report suites) only if you unchecked the (Only <report suite>) checkbox as shown here:  ![](assets/report_suite.png)
+You would see a number of calculated metrics with the same name (but created in different report suites) only if you unchecked the (Only `<report suite>`) checkbox as shown here:
+
+  ![](assets/report_suite.png)
 
 **What You Need to Do**
 

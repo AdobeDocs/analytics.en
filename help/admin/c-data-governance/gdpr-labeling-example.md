@@ -37,68 +37,68 @@ Suppose you have the following hit data:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Variable Name</b> </p> <p><b>(Namespace)</b> </p> </td> 
-   <td colname="col2" align="center"> <p><b>MyProp1</b> </p> <p><b>(user)</b> </p> </td> 
-   <td colname="col3" align="center"> <p><b>Visitor ID</b> </p> <p><b>(AAID)</b> </p> </td> 
-   <td colname="col4" align="center"> <p><b>MyEvar1</b> </p> </td> 
-   <td colname="col5" align="center"> <p><b>MyEvar2</b> </p> </td> 
-   <td colname="col6" align="center"> <p><b>MyEvar3</b> </p> <p><b>(xyz)</b> </p> </td> 
+   <td colname="col2"> <p><b>MyProp1</b> </p> <p><b>(user)</b> </p> </td> 
+   <td colname="col3"> <p><b>Visitor ID</b> </p> <p><b>(AAID)</b> </p> </td> 
+   <td colname="col4"> <p><b>MyEvar1</b> </p> </td> 
+   <td colname="col5"> <p><b>MyEvar2</b> </p> </td> 
+   <td colname="col6"> <p><b>MyEvar3</b> </p> <p><b>(xyz)</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="7"> <p>Hit Data </p> </td> 
-   <td colname="col2" align="center"> Mary </td> 
-   <td colname="col3" align="center"> 77 </td> 
-   <td colname="col4" align="center"> A </td> 
-   <td colname="col5" align="center"> M </td> 
-   <td colname="col6" align="center"> X </td> 
+   <td colname="col2"> Mary </td> 
+   <td colname="col3"> 77 </td> 
+   <td colname="col4"> A </td> 
+   <td colname="col5"> M </td> 
+   <td colname="col6"> X </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> Mary </td> 
-   <td colname="col3" align="center"> 88 </td> 
-   <td colname="col4" align="center"> B </td> 
-   <td colname="col5" align="center"> N </td> 
-   <td colname="col6" align="center"> Y </td> 
+   <td colname="col2"> Mary </td> 
+   <td colname="col3"> 88 </td> 
+   <td colname="col4"> B </td> 
+   <td colname="col5"> N </td> 
+   <td colname="col6"> Y </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> Mary </td> 
-   <td colname="col3" align="center"> 99 </td> 
-   <td colname="col4" align="center"> C </td> 
-   <td colname="col5" align="center"> O </td> 
-   <td colname="col6" align="center"> Z </td> 
+   <td colname="col2"> Mary </td> 
+   <td colname="col3"> 99 </td> 
+   <td colname="col4"> C </td> 
+   <td colname="col5"> O </td> 
+   <td colname="col6"> Z </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> John </td> 
-   <td colname="col3" align="center"> 77 </td> 
-   <td colname="col4" align="center"> D </td> 
-   <td colname="col5" align="center"> P </td> 
-   <td colname="col6" align="center"> W </td> 
+   <td colname="col2"> John </td> 
+   <td colname="col3"> 77 </td> 
+   <td colname="col4"> D </td> 
+   <td colname="col5"> P </td> 
+   <td colname="col6"> W </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> John </td> 
-   <td colname="col3" align="center"> 88 </td> 
-   <td colname="col4" align="center"> E </td> 
-   <td colname="col5" align="center"> N </td> 
-   <td colname="col6" align="center"> U </td> 
+   <td colname="col2"> John </td> 
+   <td colname="col3"> 88 </td> 
+   <td colname="col4"> E </td> 
+   <td colname="col5"> N </td> 
+   <td colname="col6"> U </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> John </td> 
-   <td colname="col3" align="center"> 44 </td> 
-   <td colname="col4" align="center"> F </td> 
-   <td colname="col5" align="center"> Q </td> 
-   <td colname="col6" align="center"> V </td> 
+   <td colname="col2"> John </td> 
+   <td colname="col3"> 44 </td> 
+   <td colname="col4"> F </td> 
+   <td colname="col5"> Q </td> 
+   <td colname="col6"> V </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> John </td> 
-   <td colname="col3" align="center"> 55 </td> 
-   <td colname="col4" align="center"> G </td> 
-   <td colname="col5" align="center"> R </td> 
-   <td colname="col6" align="center"> X </td> 
+   <td colname="col2"> John </td> 
+   <td colname="col3"> 55 </td> 
+   <td colname="col4"> G </td> 
+   <td colname="col5"> R </td> 
+   <td colname="col6"> X </td> 
   </tr> 
   <tr> 
-   <td colname="col2" align="center"> Alice </td> 
-   <td colname="col3" align="center"> 66 </td> 
-   <td colname="col4" align="center"> A </td> 
-   <td colname="col5" align="center"> N </td> 
-   <td colname="col6" align="center"> Z </td> 
+   <td colname="col2"> Alice </td> 
+   <td colname="col3"> 66 </td> 
+   <td colname="col4"> A </td> 
+   <td colname="col5"> N </td> 
+   <td colname="col6"> Z </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,9 +110,9 @@ If I submit an access request, the summary file will contain the values indicate
 <table id="table_BF98326DFA3A493B980485466AE0E910"> 
  <thead> 
   <tr> 
-   <th align="center" class="entry" colspan="2"> API Values </th> 
+   <th class="entry" colspan="2"> API Values </th> 
    <th colname="col3" class="entry"> Returned File Type </th> 
-   <th align="center" class="entry" colspan="5"> Data in Summary Access File </th> 
+   <th class="entry" colspan="5"> Data in Summary Access File </th> 
   </tr>
  </thead>
  <tbody> 
@@ -222,7 +222,7 @@ With a delete request using the API values in the first row of the table, the hi
 <table id="table_B7934409AE0141AB9528ABED98CC033F"> 
  <thead> 
   <tr> 
-   <th align="center" class="entry" colspan="5">AAID=77 <p>expandIDs value does not matter </p> </th> 
+   <th class="entry" colspan="5">AAID=77 <p>expandIDs value does not matter </p> </th> 
   </tr>
  </thead>
  <tbody> 
@@ -234,56 +234,56 @@ With a delete request using the API values in the first row of the table, the hi
    <td colname="col5"><b>MyEvar3</b> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> Mary </td> 
+   <td colname="col1"> Mary </td> 
    <td colname="col2"> 42 </td> 
    <td colname="col3"> A </td> 
    <td colname="col4"> GDPR-7398 </td> 
    <td colname="col5"> GDPR-9152 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> Mary </td> 
+   <td colname="col1"> Mary </td> 
    <td colname="col2"> 88 </td> 
    <td colname="col3"> B </td> 
    <td colname="col4"> N </td> 
    <td colname="col5"> Y </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> Mary </td> 
+   <td colname="col1"> Mary </td> 
    <td colname="col2"> 99 </td> 
    <td colname="col3"> C </td> 
    <td colname="col4"> O </td> 
    <td colname="col5"> Z </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
+   <td colname="col1"> John </td> 
    <td colname="col2"> 42 </td> 
    <td colname="col3"> D </td> 
    <td colname="col4"> GDPR-1866 </td> 
    <td colname="col5"> GDPR-8216 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
+   <td colname="col1"> John </td> 
    <td colname="col2"> 88 </td> 
    <td colname="col3"> E </td> 
    <td colname="col4"> N </td> 
    <td colname="col5"> U </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
+   <td colname="col1"> John </td> 
    <td colname="col2"> 44 </td> 
    <td colname="col3"> F </td> 
    <td colname="col4"> Q </td> 
    <td colname="col5"> V </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
+   <td colname="col1"> John </td> 
    <td colname="col2"> 55 </td> 
    <td colname="col3"> G </td> 
    <td colname="col4"> R </td> 
    <td colname="col5"> X </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> Alice </td> 
+   <td colname="col1"> Alice </td> 
    <td colname="col2"> 66 </td> 
    <td colname="col3"> A </td> 
    <td colname="col4"> N </td> 
@@ -299,7 +299,7 @@ With a delete request using the API values in the first row of the table, the hi
 <table id="table_A11491B0E0FF41AD99407710FBAF0D1D"> 
  <thead> 
   <tr> 
-   <th align="center" class="entry" colspan="5">user=Mary <p>expandIDs=false </p> </th> 
+   <th class="entry" colspan="5">user=Mary <p>expandIDs=false </p> </th> 
   </tr>
  </thead>
  <tbody> 
@@ -376,69 +376,69 @@ With a delete request using the API values in the first row of the table, the hi
 <table id="table_21D0852EE2384F7789B3C0E418429CCA"> 
  <thead> 
   <tr> 
-   <th align="center" class="entry" colspan="5">user=Mary <p>expandIDs=true </p> </th> 
+   <th class="entry" colspan="5">user=Mary <p>expandIDs=true </p> </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" align="center"><b>MyProp1</b> </td> 
-   <td colname="col2" align="center"><b>AAID</b> </td> 
+   <td colname="col1"><b>MyProp1</b> </td> 
+   <td colname="col2"><b>AAID</b> </td> 
    <td colname="col3"><b>MyEvar1</b> </td> 
    <td colname="col4"><b>MyEvar2</b> </td> 
    <td colname="col5"><b>MyEvar3</b> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> GDPR-5782 </td> 
-   <td colname="col2" align="center"> 09 </td> 
+   <td colname="col1"> GDPR-5782 </td> 
+   <td colname="col2"> 09 </td> 
    <td colname="col3"> GDPR-0859 </td> 
    <td colname="col4"> GDPR-8183 </td> 
    <td colname="col5"> GDPR-9152 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> GDPR-5782 </td> 
-   <td colname="col2" align="center"> 16 </td> 
+   <td colname="col1"> GDPR-5782 </td> 
+   <td colname="col2"> 16 </td> 
    <td colname="col3"> GDPR-6104 </td> 
    <td colname="col4"> GDPR-2911 </td> 
    <td colname="col5"> GDPR-6821 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> GDPR-5782 </td> 
-   <td colname="col2" align="center"> 83 </td> 
+   <td colname="col1"> GDPR-5782 </td> 
+   <td colname="col2"> 83 </td> 
    <td colname="col3"> GDPR-2714 </td> 
    <td colname="col4"> GDPR-0219 </td> 
    <td colname="col5"> GDPR-4395 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
-   <td colname="col2" align="center"> 09 </td> 
+   <td colname="col1"> John </td> 
+   <td colname="col2"> 09 </td> 
    <td colname="col3"> D </td> 
    <td colname="col4"> GDPR-8454 </td> 
    <td colname="col5"> GDPR-8216 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
-   <td colname="col2" align="center"> 16 </td> 
+   <td colname="col1"> John </td> 
+   <td colname="col2"> 16 </td> 
    <td colname="col3"> E </td> 
    <td colname="col4"> GDPR-2911 </td> 
    <td colname="col5"> GDPR-2930 </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
-   <td colname="col2" align="center"> 44 </td> 
+   <td colname="col1"> John </td> 
+   <td colname="col2"> 44 </td> 
    <td colname="col3"> F </td> 
    <td colname="col4"> Q </td> 
    <td colname="col5"> V </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> John </td> 
-   <td colname="col2" align="center"> 55 </td> 
+   <td colname="col1"> John </td> 
+   <td colname="col2"> 55 </td> 
    <td colname="col3"> G </td> 
    <td colname="col4"> R </td> 
    <td colname="col5"> X </td> 
   </tr> 
   <tr> 
-   <td colname="col1" align="center"> Alice </td> 
-   <td colname="col2" align="center"> 66 </td> 
+   <td colname="col1"> Alice </td> 
+   <td colname="col2"> 66 </td> 
    <td colname="col3"> A </td> 
    <td colname="col4"> N </td> 
    <td colname="col5"> W </td> 

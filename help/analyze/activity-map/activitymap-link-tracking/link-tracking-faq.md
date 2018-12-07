@@ -18,14 +18,13 @@ Frequently asked questions about link tracking in Activity Map.
 >[!CAUTION]
 >
 >By turning on Activity Map tracking, **you may be** **collecting personally identifiable information (PII) data.** This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
->
->Here are some known cases where PII data might be collected using Activity Map Tracking: 
->
->* `Mailto` links. A mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail. 
->* `User ID` links that may show up in the header/footer of a website once the user has logged in. 
->* For financial institutions, the account number may be shown as a link. Clicking it will collect the text of the link. 
->* Healthcare websites may also have PII data shown as links. Clicking these links will collect the text of the link, thereby collecting PII data. 
->
+
+Here are some known cases where PII data might be collected using Activity Map Tracking: 
+
+* `Mailto` links. A mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail. 
+* `User ID` links that may show up in the header/footer of a website once the user has logged in. 
+* For financial institutions, the account number may be shown as a link. Clicking it will collect the text of the link. 
+* Healthcare websites may also have PII data shown as links. Clicking these links will collect the text of the link, thereby collecting PII data. 
 
 <table id="table_0951EAC617344156BAE43000CCD838AF"> 
  <tbody> 
@@ -49,16 +48,13 @@ Frequently asked questions about link tracking in Activity Map.
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
      <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <span class="codeph"> s.tl() </span> function</b> <p>If the click occurred via an s.tl invocation, then Activity Map will also receive this click event and determine if a linkName string variable was found. During s.tl execution, that linkName will be set as the Activity Map Link ID. The element clicked that originated the s.tl() call will be used to determine the region. Example: </p> <p> 
-       <codeblock>
+       <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
-       </codeblock> </p> </li> 
+       </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via the <span class="codeph"> s_objectID </span> variable</b> <p>Example: </p> <p> 
-       <codeblock>
-         &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; 
-        
-&lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-
-       </codeblock> </p> <p>Important:  Note that a trailing semicolon (;) is required when using s_objectID in Activity Map. </p> </li> 
+       <code>
+         &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
+       </code> </p> <p>Important:  Note that a trailing semicolon (;) is required when using s_objectID in Activity Map. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -66,39 +62,25 @@ Frequently asked questions about link tracking in Activity Map.
    <td colname="col2"> 
     <ol id="ol_697E5CE0B84D4A309DD80670697A02BA"> 
      <li id="li_2C511EFD10F14F438B1F3A1BAB4B45E0"> 
-      <codeblock>
+      <code>
         &lt;a&amp;nbsp;href="/home"&gt;Home&lt;/a&gt; 
-      </codeblock> </li> 
+      </code> </li> 
      <li id="li_76F3DB36ED734132A2386871E6EB4929"> 
-      <codeblock>
+      <code>
         &lt;input&amp;nbsp;type="submit"&amp;nbsp;value="Submit"/&gt; 
-      </codeblock> </li> 
+      </code> </li> 
      <li id="li_10CF9EDA224645169E7CDF74956DB98B"> 
-      <codeblock>
+      <code>
         &lt;input&amp;nbsp;type="image"&amp;nbsp;src="submit-button.png"/&gt; 
-      </codeblock> </li> 
+      </code> </li> 
      <li id="li_9FA171D7F49547E798DE21869F73A402"> 
-      <codeblock>
-        &lt;p&nbsp;onclick="var&nbsp;s_objectID='custom&nbsp;link&nbsp;id';"&gt; 
-       
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; 
-       
-class="subtitle"&gt;1.45USD&lt;/span&gt; 
-       
-&lt;/p&gt;
-
-      </codeblock> </li> 
+      <code>
+        &lt;p&nbsp;onclick="var&nbsp;s_objectID='custom&nbsp;link&nbsp;id';"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
+      </code> </li> 
      <li id="li_C5D77589006E4514AA6F3AEB509A0BAF"> 
-      <codeblock>
-        &lt;div&nbsp;onclick="s.tl(true,'o','custom&nbsp;link&nbsp;id')"&gt; 
-       
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; 
-       
-class="subtitle"&gt;1.45USD&lt;/span&gt; 
-       
-&lt;/div&gt;
-
-      </codeblock> </li> 
+      <code>
+        &lt;div&nbsp;onclick="s.tl(true,'o','custom&nbsp;link&nbsp;id')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/div&gt;
+      </code> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -106,33 +88,21 @@ class="subtitle"&gt;1.45USD&lt;/span&gt;
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Reason: Anchor tag does not have a valid href 
-      <codeblock>
+      <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
-      </codeblock> </li> 
+      </code> </li> 
      <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <span class="codeph"> s_ObjectID </span> nor <span class="codeph"> s.tl() </span> present 
-      <codeblock>
-        &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; 
-       
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; 
-       
-class="subtitle"&gt;1.45USD&lt;/span&gt; 
-       
-&lt;/p&gt;
-
-      </codeblock> </li> 
+      <code>
+        &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
+      </code> </li> 
      <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <span class="codeph"> s_ObjectID </span> nor <span class="codeph"> s.tl() </span> present 
-      <codeblock>
-        &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; 
-       
-&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; 
-       
-&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
-
-      </codeblock> </li> 
+      <code>
+        &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
+      </code> </li> 
      <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Reason: src property is missing a form input element 
-      <codeblock>
+      <code>
         &lt;input&amp;nbsp;type="image"/&gt; 
-      </codeblock> </li> 
+      </code> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

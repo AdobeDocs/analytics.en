@@ -135,7 +135,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
    <td colname="col2"> <p>Actions that can be tracked, such as product view, checkout, and purchase. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-classifications2/classification-hierarchies.md" format="dita" scope="local"> Classification Hierarchies</a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../components/c-classifications2/classification-hierarchies.md" format="dita" scope="local"> Classification Hierarchies</a> </p> </td> 
    <td colname="col2"> <p> Consolidated into Classifications (under Tools and Reports). </p> </td> 
   </tr> 
   <tr> 
@@ -242,4 +242,3 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
   </tr> 
  </tbody> 
 </table>
-

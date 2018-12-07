@@ -25,9 +25,10 @@ Create a group that grants limited administrative rights to users of the Marketi
 1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
 1. Enable the **[!UICONTROL Channels]** and **[!UICONTROL Costs.]**
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
->Field definitions for Define User Groups in Admin Tools: 
->
-><table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
+
+Field definitions for Define User Groups in Admin Tools: 
+
+<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Field </p> </th> 

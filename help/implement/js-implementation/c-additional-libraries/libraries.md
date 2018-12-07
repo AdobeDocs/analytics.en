@@ -70,7 +70,7 @@ The following table outlines the libraries available to collect Analytics data a
    <td colname="col1"> Video </td> 
    <td colname="col2"> <p>Video measurement across all platforms is available in the following guides: </p> 
     <ul id="ul_5C56F82F45264F63ABA184C48B27EE18"> 
-     <li id="li_140B692CA3BE476BA024C37E7AE4872F"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="dita" scope="local"> Heartbeat video measurement</a> (latest version) </li> 
+     <li id="li_140B692CA3BE476BA024C37E7AE4872F"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="http" scope="external"> Heartbeat video measurement</a> (latest version) </li> 
      <li id="li_021D77CB25A54647A71F4AE7144EE788"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/" format="http" scope="external"> Milestone video measurement</a> </li> 
     </ul> </td> 
   </tr> 

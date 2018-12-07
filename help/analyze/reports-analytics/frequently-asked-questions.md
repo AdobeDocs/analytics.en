@@ -16,19 +16,6 @@ Provides answers and troubleshooting suggestions to some of the most frequently 
 
 For frequently asked questions about Analytics Implementation, go [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/faq.html).
 
-* [Account/Access Issues](../../analyze/reports-analytics/frequently-asked-questions.md#section_E1B9D3359C5347369D62B612A8F1F7B0) 
-* [Troubleshooting Reports](../../analyze/reports-analytics/frequently-asked-questions.md#section_0AC7CE1DCA00492EBC83F05DDA0B217C) 
-* [Configuring Reports](../../analyze/reports-analytics/frequently-asked-questions.md#section_DD40BE6889404BE3B36F3E39E1E18612) 
-* [Interpreting Reports](../../analyze/reports-analytics/frequently-asked-questions.md#section_E04ECEAD4C9C4C4C97BA396A8A9FF85B) 
-* [Customizing Reports](../../analyze/reports-analytics/frequently-asked-questions.md#section_B5112FD4631D4A1994A790812684B789) 
-* [Dashboards](../../analyze/reports-analytics/frequently-asked-questions.md#section_B2197214B3C54BC1AC4C39114292686E) 
-* [Events](../../analyze/reports-analytics/frequently-asked-questions.md#section_9CAE843868D741AFA48CEF44E59AFE21) 
-* [Segmentation](../../analyze/reports-analytics/frequently-asked-questions.md#section_90C6137813784A80A266680715613DF2) 
-* [Processing Rules](../../analyze/reports-analytics/frequently-asked-questions.md#section_D2A384C080D04F09905FBC59F4923A39) 
-* [Data Warehouse](../../analyze/reports-analytics/frequently-asked-questions.md#section_67D6B9CC8BE140228441D210ED160314) 
-* [Classifications](../../analyze/reports-analytics/frequently-asked-questions.md#section_1A01444C17CD4145ADC731DD1FB0F058) 
-* [Data Feeds](../../analyze/reports-analytics/frequently-asked-questions.md#section_F1B81518893F4A0C85B5CD2BE44A9998)
-
 ## Account/Access Issues {#section_E1B9D3359C5347369D62B612A8F1F7B0}
 
 <table id="table_E0CB584B7CF74C75B1EEB9AF4C274CBA"> 
@@ -243,11 +230,11 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I determine which segmentation container I should use?</b> </p> </td> 
-   <td colname="col2"> <p>A: Data captured at each level of the Visitor &gt; Visit &gt; Hit container hierarchy affects how you build your segments. </p> <p>If you take the same segment applied to the same report using the same data set, you will get different values based on the container from which you generate the report. Factors such as container reporting level and persistence of values across hits can mean big changes in your reporting accuracy. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_container_reports.html " format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: Data captured at each level of the Visitor &gt; Visit &gt; Hit container hierarchy affects how you build your segments. </p> <p>If you take the same segment applied to the same report using the same data set, you will get different values based on the container from which you generate the report. Factors such as container reporting level and persistence of values across hits can mean big changes in your reporting accuracy. <a href="../../components/c-segmentation/seg-overview.md" format="dita" scope="local"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why are my segments not compatible in Data Warehouse?</b> </p> </td> 
-   <td colname="col2"> <p>A: You will get an error when you try to save a segment in the Data Warehouse folder where the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_compatibility.html " format="https" scope="external"> segment contains elements not compatible with Data Warehouse </a>. <a href="https://helpx.adobe.com/analytics/kb/incompatible-elements-in-segments.html " format="https" scope="external"> More... </a> </p> <p>To resolve this error, do one of two things: </p> 
+   <td colname="col2"> <p>A: You will get an error when you try to save a segment in the Data Warehouse folder where the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_compatibility.html" format="https" scope="external"> segment contains elements not compatible with Data Warehouse </a>. <a href="https://helpx.adobe.com/analytics/kb/incompatible-elements-in-segments.html" format="https" scope="external"> More... </a> </p> <p>To resolve this error, do one of two things: </p> 
     <ul id="ul_128CAA12209342B99C85EF82DB29F896"> 
      <li id="li_8FEAFA4F3882466DAFF6F39657B368B6">Save the segment in a different folder. </li> 
      <li id="li_1260FD102E5C4D84AE2F0A5556F1BAC8">Remove or change the incompatible portions of the segment. </li> 
@@ -262,7 +249,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Do I require a certification to create/modify Processing Rules?</b> </p> </td> 
-   <td colname="col2"> <p>A: Because Processing Rules permanently affect Analytics data, processing rule users must be well trained to prevent accidental deletion or alteration of data. Therefore, all users (including administrators) must pass the Adobe Processing Rule Certification test to acquire access to create and modify processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html#" format="html" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: Because Processing Rules permanently affect Analytics data, processing rule users must be well trained to prevent accidental deletion or alteration of data. Therefore, all users (including administrators) must pass the Adobe Processing Rule Certification test to acquire access to create and modify processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="html" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I get authorized access to processing rules after passing the certification test?</b> </p> </td> 
@@ -270,12 +257,12 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
     <ol id="ol_B44C3EA78F40465780AE5DF366D94FB7"> 
      <li id="li_E280A28132D34E4BBF976B1357F2B94E">Share your username and certificate with the supported user in your company. </li> 
      <li id="li_E49F14DD8A0E45C0A8D4090A4B9C92ED">Have your supported user contact Adobe ClientCare with the request. </li> 
-     <li id="li_7B93E65CC48343919ED10D418EF4AD29">ClientCare will then enable your access to processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/home/?f=http%3a%2f%2fhelpx.adobe.com%2fanalytics%2fkb%2fprocessing-rules-authorization.html#" format="html" scope="external"> More... </a> </li> 
+     <li id="li_7B93E65CC48343919ED10D418EF4AD29">ClientCare will then enable your access to processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/home/?f=http%3a%2f%2fhelpx.adobe.com%2fanalytics%2fkb%2fprocessing-rules-authorization.html" format="html" scope="external"> More... </a> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I use Context Data Variables in Processing Rules?</b> </p> </td> 
-   <td colname="col2"> <p>A: The Context Variables list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking Add variable name context data. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html#" format="html" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: The Context Variables list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking Add variable name context data. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html" format="html" scope="external"> More... </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -344,4 +331,3 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
  </tbody> 
 </table>
-

@@ -23,9 +23,10 @@ Configure user group access to Marketing Channels.
 
 1. Click a custom group name, or click **[!UICONTROL Add New User Group]** to create a user group.
 1. Under Report Access, enable **[!UICONTROL All Access]** or **[!UICONTROL No Access]**.
->There is currently no predefined user group for Marketing Channels. Instead, an Admin-level user must create a custom user group that has access to **[!UICONTROL Advanced Reporting]** > **[!UICONTROL Customize]** > **[!UICONTROL Marketing Channel Reports]**. 
->
-><table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
+
+There is currently no predefined user group for Marketing Channels. Instead, an Admin-level user must create a custom user group that has access to **[!UICONTROL Advanced Reporting]** > **[!UICONTROL Customize]** > **[!UICONTROL Marketing Channel Reports]**. 
+
+<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Field </p> </th> 

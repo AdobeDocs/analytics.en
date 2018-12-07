@@ -39,11 +39,11 @@ The [!UICONTROL Table Builder] is not available for certain pathing reports like
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Breakdown Properties</span> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img placement="inline" href="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Lets you specify default settings for how many rows and breakdowns you want displayed, based on the order in which you add items. You can specify how many total results per page to display, and how many of those rows to break down. </p> <p>Settings you make in the <span class="wintitle"> Table Builder</span> override the default settings in the <span class="wintitle"> Breakdown Properties</span>. </p> </td> 
+   <td colname="col2"> <p><img placement="inline" href="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>Lets you specify default settings for how many rows and breakdowns you want displayed, based on the order in which you add items. You can specify how many total results per page to display, and how many of those rows to break down. </p> <p>Settings you make in the <span class="wintitle"> Table Builder</span> override the default settings in the <span class="wintitle"> Breakdown Properties</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit Items</span> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img href="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Break Down Table Data</a>. </p> </td> 
+   <td colname="col2"> <p><img href="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Break Down Table Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Columns</span> </td> 
@@ -59,7 +59,7 @@ The [!UICONTROL Table Builder] is not available for certain pathing reports like
   </tr> 
   <tr> 
    <td colname="col1"> Warning </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_619E1068C6084D41853DA3DD6B85DFC9" href="assets/AlertRed_Illustrative.png" placement="inline" /> </p> <p>Indicates that the <span class="wintitle"> Table Builder</span>'s configuration will not return data, or that no metrics are selected. </p> </td> 
+   <td colname="col2"> <p><img id="image_619E1068C6084D41853DA3DD6B85DFC9" href="assets/AlertRed_Illustrative.png" placement="inline" /> </p> <p>Indicates that the <span class="wintitle"> Table Builder</span>'s configuration will not return data, or that no metrics are selected. </p> </td> 
   </tr> 
  </tbody> 
 </table>

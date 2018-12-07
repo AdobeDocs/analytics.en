@@ -96,7 +96,7 @@ Clicking the **gear icon** reveals these visualization settings:
   </tr> 
   <tr> 
    <td colname="col1"> Heatmap </td> 
-   <td colname="col2"> <p>Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors. </p> <p style="text-align: center;"> <img align="left" placement="break" href="assets/heatmap.png" width="400px" id="image_D078479492884960B4D839F40FCCC063" /> </p> </td> 
+   <td colname="col2"> <p>Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors. </p> <p><img align="left" placement="break" href="assets/heatmap.png" width="400px" id="image_D078479492884960B4D839F40FCCC063" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Styles: Color Theme </td> 

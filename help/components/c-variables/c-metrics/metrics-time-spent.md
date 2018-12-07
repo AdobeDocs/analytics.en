@@ -170,11 +170,11 @@ The **denominator** is not available as a separate metric in Analytics. For hit-
   </tr> 
   <tr> 
    <td colname="col1"> <p>Which time spent dimension is best used in breakdowns with other dimensions? </p> </td> 
-   <td colname="col2"> <p>The “Time Spent on Page - granular” dimension is a hit-level dimension. Breaking this down by another dimension will tell you the seconds that a hit lasted where the breakdown dimension was also present. </p> <p>In the example below, the search term “classifieds” is associated with hit times of 54 seconds, 59 seconds, etc, perhaps indicating that visitors are spending time reading content returned for that search term. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>The “Time Spent on Page - granular” dimension is a hit-level dimension. Breaking this down by another dimension will tell you the seconds that a hit lasted where the breakdown dimension was also present. </p> <p>In the example below, the search term “classifieds” is associated with hit times of 54 seconds, 59 seconds, etc, perhaps indicating that visitors are spending time reading content returned for that search term. </p> <p><img placement="break" align="center" href="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>What metric is appropriate against the dimension of “Time Spent on Page - granular”? </p> </td> 
-   <td colname="col2"> <p>Any metric. The dimension shows the time spent on the exact hit where the event occurred. Higher time spent means a visitor stayed longer on a page (hit) where the event occurred. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>Any metric. The dimension shows the time spent on the exact hit where the event occurred. Higher time spent means a visitor stayed longer on a page (hit) where the event occurred. </p> <p><img placement="break" align="center" href="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> How does <span class="wintitle"> Average Time Spent on Site </span> differ from <span class="wintitle"> Time Spent per Visit </span>? </td> 

@@ -23,7 +23,7 @@ Welcome to Adobe Analytics and GDPR readiness! This workflow outlines the steps 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="break" align="center" href="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> </p> </td> 
+   <td colname="col1"> <p><img placement="break" align="center" href="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> </p> </td> 
    <td colname="col2"> <p>Ensure that any of your report suites that might contain GDPR-relevant data are mapped to your Experience Cloud (or IMS) organization. </p> <p>GDPR requests are submitted using an Experience Cloud Organization and will be applied to all report suites claimed by that Organization. Requests will not apply to report suites not mapped to that Organization, even if they are part of your login company. </p> </td> 
    <td colname="col3"> <p>Refer to <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external"> Map report suites to an organization</a>. </p> </td> 
   </tr> 

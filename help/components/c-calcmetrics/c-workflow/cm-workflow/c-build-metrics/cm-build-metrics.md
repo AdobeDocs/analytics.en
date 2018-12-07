@@ -143,7 +143,7 @@ There are several ways to get to the Calculated Metric Builder:
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">The formula of how it is calculated. </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">A preview trend of the metric. </li> 
      <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">An edit (pencil) icon at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li> 
-    </ul> <p style="text-align: center;"> <img placement="break" align="center" href="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
+    </ul> <p><img placement="break" align="center" href="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 18 </td> 

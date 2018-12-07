@@ -42,7 +42,7 @@ Because the API and interface use the same permissioning system, whatever permis
  <tbody> 
   <tr> 
    <td colname="col1"> <p id="reportaccess">Changes to the <span class="uicontrol"> Report Access</span> (Customize Groups) </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Add New Group</span> &gt; <span class="uicontrol"> Report Access</span> </p> <p>The <span class="wintitle"> Report Access</span> section on the <span class="wintitle"> Define User Group</span> page has been streamlined to four categories, which enable you to customize permissions at a granular level. </p> <p style="text-align: center;"> <img href="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>Items previously in </p> 
+   <td colname="col2"> <p> <span class="uicontrol"> Add New Group</span> &gt; <span class="uicontrol"> Report Access</span> </p> <p>The <span class="wintitle"> Report Access</span> section on the <span class="wintitle"> Define User Group</span> page has been streamlined to four categories, which enable you to customize permissions at a granular level. </p> <p><img href="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>Items previously in </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
      <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Analytics Tools</a>: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. </p> <p> <b>Note:</b> Company settings from the Customize Admin Console category have been moved to Analytics Tools. </p> </li> 
      <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> Report Suite Tools</a>: Enable user permissions for Web Services, Report Suite Management, Tools and Reports, and Dashboard Items. </p> </li> 
@@ -92,7 +92,7 @@ Here is important new information about new and planned updates and how they aff
  <tbody> 
   <tr> 
    <td colname="col1">What permissions changes came in the <b>July 2016</b> release? </td> 
-   <td colname="col2"> <p> <b>All Report Suite Access</b> </p> <p>When adding report suites to include in a group, you can specify <span class="uicontrol"> All Report Suite Access</span>. This setting applies group permissions to all current and future report suites. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p style="text-align: center;"> <img placement="break" href="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
+   <td colname="col2"> <p> <b>All Report Suite Access</b> </p> <p>When adding report suites to include in a group, you can specify <span class="uicontrol"> All Report Suite Access</span>. This setting applies group permissions to all current and future report suites. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p><img placement="break" href="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Should I use the Enterprise Dashboard to manage users, or the existing Analytics User Management? </p> </td> 
@@ -104,7 +104,6 @@ Here is important new information about new and planned updates and how they aff
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
       <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Permission changes as described in <a href="../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF" format="dita" scope="local"> Administrative Changes - Fall 2016</a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Removed defunct traffic reports that were no longer in the menu. </li> 
-      <!--<li id="li_B84683093A96404C9AD62280E32F2FA9"><xref href="permissions_faq.xml#concept_4DFA17268861440A80EB2AA1453B811B/section_8304ABBF38354D33A86F517C72AD813A" format="dita" scope="local">Segment are now validated</xref> when used in a report. </li>--> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">Classifications permissions: Access to classifications will be determined by access to the variable the classification is for. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -201,4 +200,3 @@ The following table lists tasks and where they can take place (depending on a co
   </tr> 
  </tbody> 
 </table>
-

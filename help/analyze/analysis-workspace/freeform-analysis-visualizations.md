@@ -48,7 +48,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>100% Stacked </p> </td> 
-   <td colname="col2"> <p>This setting on area stacked or bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: </p> <p style="text-align: center;"> <img href="assets/stacked_100_percent.png" align="left" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
+   <td colname="col2"> <p>This setting on area stacked or bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: </p> <p><img href="assets/stacked_100_percent.png" align="left" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Legend Visible </p> </td> 

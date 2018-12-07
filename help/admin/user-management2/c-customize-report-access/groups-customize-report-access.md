@@ -62,7 +62,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="dita" scope="external"> Analytics User Migration to the Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> Analytics User Migration to the Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Content Aware </p> </td> 

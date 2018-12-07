@@ -59,7 +59,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
      <li id="li_1ACEAC0BB9C54687B26B09B8AFFB128C">Go to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span> </span> and select the report suite from the list of available suites. </li> 
      <li id="li_216D84B2986F45D3A8B83F42DC3C9FA9">Go to <span class="ignoretag"> <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> General </span>  &gt; <span class="uicontrol"> Internal URL Filters </span> </span>. </li> 
      <li id="li_FAFFD512CE554200AFAF15E2573F40CB">Remove the rule listing a period (.) as a filter, and add your own site. </li> 
-    </ol> <p>As your site collects data, there are many external factors that can drastically affect data collection or reporting. <a href="https://helpx.adobe.com/analytics/kb/spikes-and-drops.html#" format="dita" scope="local"> Here </a> is a list of potential explanations as to why certain variables or overall traffic dramatically increases or decreases. </p> </td> 
+    </ol> <p>As your site collects data, there are many external factors that can drastically affect data collection or reporting. <a href="https://helpx.adobe.com/analytics/kb/spikes-and-drops.html#" format="html" scope="external"> Here </a> is a list of potential explanations as to why certain variables or overall traffic dramatically increases or decreases. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why am I unable to see a report/event in the menu?</b> </p> </td> 
@@ -106,7 +106,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why did some settings not work after copying Report Suite settings?</b> </p> </td> 
-   <td colname="col2"> <p>A: When creating a new report suite based on an existing report suite in the Admin Console, there are several custom settings that are not copied over, as they are generally contract dependent. <a href="https://marketing.adobe.com/resources/help/en_US/reference/settings_not_copied_from_rs.html" format="dita" scope="local"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: When creating a new report suite based on an existing report suite in the Admin Console, there are several custom settings that are not copied over, as they are generally contract dependent. <a href="https://marketing.adobe.com/resources/help/en_US/reference/settings_not_copied_from_rs.html" format="html" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Does changing the Base Currency of a Report Suite affect historical data?</b> </p> </td> 
@@ -262,7 +262,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Do I require a certification to create/modify Processing Rules?</b> </p> </td> 
-   <td colname="col2"> <p>A: Because Processing Rules permanently affect Analytics data, processing rule users must be well trained to prevent accidental deletion or alteration of data. Therefore, all users (including administrators) must pass the Adobe Processing Rule Certification test to acquire access to create and modify processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html#" format="dita" scope="local"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: Because Processing Rules permanently affect Analytics data, processing rule users must be well trained to prevent accidental deletion or alteration of data. Therefore, all users (including administrators) must pass the Adobe Processing Rule Certification test to acquire access to create and modify processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html#" format="html" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I get authorized access to processing rules after passing the certification test?</b> </p> </td> 
@@ -270,12 +270,12 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
     <ol id="ol_B44C3EA78F40465780AE5DF366D94FB7"> 
      <li id="li_E280A28132D34E4BBF976B1357F2B94E">Share your username and certificate with the supported user in your company. </li> 
      <li id="li_E49F14DD8A0E45C0A8D4090A4B9C92ED">Have your supported user contact Adobe ClientCare with the request. </li> 
-     <li id="li_7B93E65CC48343919ED10D418EF4AD29">ClientCare will then enable your access to processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/home/?f=http%3a%2f%2fhelpx.adobe.com%2fanalytics%2fkb%2fprocessing-rules-authorization.html#" format="dita" scope="local"> More... </a> </li> 
+     <li id="li_7B93E65CC48343919ED10D418EF4AD29">ClientCare will then enable your access to processing rules. <a href="https://marketing.adobe.com/resources/help/en_US/home/?f=http%3a%2f%2fhelpx.adobe.com%2fanalytics%2fkb%2fprocessing-rules-authorization.html#" format="html" scope="external"> More... </a> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I use Context Data Variables in Processing Rules?</b> </p> </td> 
-   <td colname="col2"> <p>A: The Context Variables list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking Add variable name context data. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html#" format="dita" scope="local"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: The Context Variables list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking Add variable name context data. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html#" format="html" scope="external"> More... </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

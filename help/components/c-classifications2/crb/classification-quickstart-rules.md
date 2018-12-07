@@ -151,30 +151,14 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 |  #  | Select Rule Type  | Enter Match Criteria  | Set Classification  | To  |
 |---|---|---|---|---|
-|  1  | Regular Expression  | ^(.+)\:(.+)\:(.+)$  | Campaign Date  | $3  |
+|  1  | Regular Expression  | &Hat;(.+)\:(.+)\:(.+)$  | Campaign Date  | $3  |
 
 **Syntax** 
 
-<table id="table_4FA742E72A2D404280424B2111F395A0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Regular Expression </th> 
-   <th colname="col2" class="entry"> String or Match Result </th> 
-   <th colname="col3" class="entry"> Corresponding Match Groups </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ^(.+)\:(.+)\:(.+)$</span> </p> </td> 
-   <td colname="col2"> <p>em:JuneSale:20130601 </p> </td> 
-   <td colname="col3"> <p>$0: em:JuneSale:20130601 </p> <p>$1: em </p> <p>$2: JuneSale </p> <p>$3: 20130601 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Building the syntax </td> 
-   <td colspan="2"> <p>^ = starts the line </p> <p>() = groups characters and lets you extract matching characters in the parentheses. </p> <p>(.+) = captures one (.) character and (+) any more </p> <p>\ = start of a string. </p> <p>$ = indicates that the preceding character (or character group) is the last in the line. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Regular Expression | String or Match Result | Corresponding Match Groups |
+|--- |--- |--- |
+|`^(.+)\:(.+)\:(.+)$`|em:JuneSale:20130601|`$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601|
+|Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.|
 
 See [Regular Expressions - Reference Table](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) for information about what the characters in a regular expression mean.
 
@@ -193,33 +177,10 @@ One way to use a regular expression is to classify a specific character in a str
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
-<table id="table_7E52B986A50E446DB431B2A2C4AA8958"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> # </th> 
-   <th colname="col1" class="entry"> Select Rule Type </th> 
-   <th colname="col2" class="entry"> Enter Match Criteria </th> 
-   <th colname="col3" class="entry"> Set Classification </th> 
-   <th colname="col4" class="entry"> To </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> Regular Expression </td> 
-   <td colname="col2"> ^.(s).*$ </td> 
-   <td colname="col3"> Brand and Engine </td> 
-   <td colname="col4">$0 <p>(Captures the first two characters for brand name and search engine.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> Regular Expression </td> 
-   <td colname="col2"> ^.(s).*$ </td> 
-   <td colname="col3"> Search Engine </td> 
-   <td colname="col4">$1 <p>(Captures the second character for Google.) </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| # | Select Rule Type | Enter Match Criteria | Set Classification | To |
+|--- |--- |--- |--- |--- |
+||Regular Expression|`^.(s).*$`|Brand and Engine|`$0` (Captures the first two characters for brand name and search engine.)|
+||Regular Expression|`^.(s).*$`|Search Engine|`$1` (Captures the second character for Google.)|
 
 ## Regular Expressions - Matching Tracking Codes of Varying Length {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
@@ -241,67 +202,14 @@ Sample Keys:
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
-<table id="table_BA6AFB62483E48D998E08B4BB7E7F2E0"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> # </th> 
-   <th colname="col1" class="entry"> Select Rule Type </th> 
-   <th colname="col2" class="entry"> Enter Match Criteria </th> 
-   <th colname="col3" class="entry"> Set Classification </th> 
-   <th colname="col4" class="entry"> To </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string <b>a</b>:b </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ^([^\:]+)\:([^\:]+)$</span> </p> </td> 
-   <td colname="col3"> a </td> 
-   <td colname="col4"> $1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string a:<b>b</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ^([^\:]+)\:([^\:]+)$</span> </p> </td> 
-   <td colname="col3"> b </td> 
-   <td colname="col4"> $2 </td> 
-  </tr> 
-  <tr> 
-   <td colspan="5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string <b>a</b>:b:c </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ^([^\:]+)\:([^\:]+)\:([^\:]+)$</span> </p> </td> 
-   <td colname="col3"> a </td> 
-   <td colname="col4"> $1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string a:<b>b</b>:c </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ^([^\:]+)\:([^\:]+)\:([^\:]+)$</span> </p> </td> 
-   <td colname="col3"> b </td> 
-   <td colname="col4"> $2 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string a:b:<b>c</b> </p> </td> 
-   <td colname="col2"> <span class="codeph"> ^([^\:]+)\:([^\:]+)\:([^\:]+)$</span> </td> 
-   <td colname="col3"> c </td> 
-   <td colname="col4"> $3 </td> 
-  </tr> 
-  <tr> 
-   <td colspan="5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> </td> 
-   <td colname="col1"> <p>Regular Expression </p> <p>For match string a:b:c:<b>d</b> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$</span> </p> </td> 
-   <td colname="col3"> d </td> 
-   <td colname="col4"> $4 </td> 
-  </tr> 
- </tbody> 
-</table>
+| # | Select Rule Type | Enter Match Criteria | Set Classification | To |
+|--- |--- |--- |--- |--- |
+||Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|a|`$1`|
+||Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|b|`$2`|
+||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|a|`$1`|
+||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|b|`$2`|
+||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|c|`$3`|
+||Regular Expression  For match string a:b:c:d|`^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$`|d|`$4`|
 
 ## Regular Expressions - "Does Not Contain" Example {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -332,33 +240,34 @@ In this result, `a:b:1313` does not indicate a match.
 
 ## Regular Expressions - Reference Table {#section_0211DCB1760042099CCD3ED7A665D716}
 
-|  (?ms)  | Makes the entire regular expression match against a multi-line input, allowing the . wildcard to match any newline characters  |
+| Expression | Description |
 |---|---|
-|  (?i)  | Makes the entire regular expression case insensitive  |
-|  [abc]  | A single character of: a, b or c  |
-|  [^abc]  | Any single character except: a, b, or c  |
-|  [a-z]  | Any single character in the range a-z  |
-|  [a-zA-Z]  | Any single character in the range a-z or A-Z  |
-|  ^  | Start of line (matches the beginning of the line)  |
-|  $  | Match the end of the line (or before newline at the end)  |
-|  \A  | Start of string  |
-|  \z  | End of string  |
-|  .  | Match any character (except a new line)  |
-|  \s  | Any whitespace character  |
-|  \S  | Any non-whitespace character  |
-|  \d  | Any digit  |
-|  \D  | Any non-digit  |
-|  \w  | Any word character (letter, number, underscore)  |
-|  \W  | Any non-word character  |
-|  \b  | Any word boundary  |
-|  (...)  | Capture everything enclosed  |
-|  (a|b)  | a or b  |
-|  a?  | Zero or one of a  |
-|  a&#42;  | Zero or more of a  |
-|  a+  | One or more of a  |
-|  a{3}  | Exactly 3 of a  |
-|  a{3,}  | 3 or more of a  |
-|  a{3,6}  | Between 3 and 6 of a  |
+|  `(?ms)`  | Makes the entire regular expression match against a multi-line input, allowing the . wildcard to match any newline characters  |
+|  (`?i`)  | Makes the entire regular expression case insensitive  |
+|  [`abc`]  | A single character of: a, b or c  |
+|  [`^abc`]  | Any single character except: a, b, or c  |
+|  [`a-z`]  | Any single character in the range a-z  |
+|  [`a-zA-Z`]  | Any single character in the range a-z or A-Z  |
+|  `^`  | Start of line (matches the beginning of the line)  |
+|  `$`  | Match the end of the line (or before newline at the end)  |
+|  `\A`  | Start of string  |
+|  `\z`  | End of string  |
+|  `.`  | Match any character (except a new line)  |
+|  `\s`  | Any whitespace character  |
+|  `\S`  | Any non-whitespace character  |
+|  `\d`  | Any digit  |
+|  `\D`  | Any non-digit  |
+|  `\w`  | Any word character (letter, number, underscore)  |
+|  `\W`  | Any non-word character  |
+|  `\b`  | Any word boundary  |
+|  `(...)`  | Capture everything enclosed  |
+|  `(a|b)`  | a or b  |
+|  `a?`  | Zero or one of a  |
+|  `a*`  | Zero or more of a  |
+|  `a+`  | One or more of a  |
+|  `a{3}`  | Exactly 3 of a  |
+|  `a{3,}`  | 3 or more of a  |
+|  `a{3,6}`  | Between 3 and 6 of a  |
 
 A good resource for testing regular expression validity is https://rubular.com/. 
 
@@ -416,28 +325,23 @@ Add rules by matching a condition to a classification, and specifying the action
 
 1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
 
-       The **[!UICONTROL Select Report Suites]** page displays.
+   The **[!UICONTROL Select Report Suites]** page displays.
 
-       >[!NOTE]
-       >
-       >Report suites display on this page *`only`* when the following conditions are met:        >
-       >
-       >
-       >* The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools]. 
-       >
-       >
-       >  (See *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.) 
-       >
-       >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set. 
-       >
-       >
-       >
+   >[!NOTE]
+   >
+   Report suites display on this page *`only`* when the following conditions are met:        >
+   
+   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools]. 
+   
+   (See *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.) 
+
+   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set. 
 
 1. Specify whether to overwrite existing values:
 
-       | **Rules overwrite any existing values** | (Default setting) Always overwrite existing classification keys, including classifications uploaded via the importer (SAINT). |
-       |---|---|
-       | **Rules overwrite only unset values** | Only fill in blank (unset) cells. Existing classifications will not be changed. |
+   | **Rules overwrite any existing values** | (Default setting) Always overwrite existing classification keys, including classifications uploaded via the importer (SAINT). |
+   |---|---|
+   | **Rules overwrite only unset values** | Only fill in blank (unset) cells. Existing classifications will not be changed. |
 
 1. [Define the rule or rules](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
@@ -477,8 +381,8 @@ Steps that describe how to test a classification rule or rule set. Running a tes
 
    Sample keys include:
 
-* Tracking codes 
-* Search keywords or phrases
+    * Tracking codes 
+    * Search keywords or phrases
 
    See [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) for information about testing regular expressions. 
 1. Click **[!UICONTROL Run Test]**.

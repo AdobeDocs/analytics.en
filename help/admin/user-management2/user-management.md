@@ -36,7 +36,7 @@ Manage Analytics users, groups, and products in the Admin Console.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Launch the Admin Console </p> </td> 
-   <td colname="col2"> <p>After your user accounts are migrated, you can manage users and products across all solutions in the Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#" format="dita" scope="local"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>For help, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> Manage Experience Cloud users and products</a> for updates to Experience Cloud user and product management in the Admin Console. </p> </td> 
+   <td colname="col2"> <p>After your user accounts are migrated, you can manage users and products across all solutions in the Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#" format="html" scope="external"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>For help, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> Manage Experience Cloud users and products</a> for updates to Experience Cloud user and product management in the Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>

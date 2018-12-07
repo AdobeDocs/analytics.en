@@ -72,7 +72,7 @@ t_dashboard_copy.xml
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
-    <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
+<table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> Option </th> 
   <th class="chdeschd"> Description </th> 
@@ -143,38 +143,38 @@ t_dashboard_share.xml
 
 1. On the [!UICONTROL Push Dashboard] page, select the target users or click **[!UICONTROL Check All]**.
 1. Click **[!UICONTROL Save]**.
->If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. If they did, they cannot see the updates/changes made by you. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager. 
 
->## Schedule a dashboard for delivery {#task_639361A35E044B2DB9D50FCABEC776FF}
+If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. If they did, they cannot see the updates/changes made by you. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager. 
 
->In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. The dashboard delivery options are identical to the report delivery options. 
+## Schedule a dashboard for delivery {#task_639361A35E044B2DB9D50FCABEC776FF}
 
->
-><!-- 
+In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. The dashboard delivery options are identical to the report delivery options. 
+
+
+<!-- 
 
 t_dashboard_delivery.xml
 
  -->
->1. Open a dashboard.
->1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
->
->   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information. 
->
 
->## Archive a dashboard {#task_3B6AB949F0EC4063A08F80F254992117}
+1. Open a dashboard.
+1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
->Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first. 
+   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information. 
 
->
-><!-- 
+## Archive a dashboard {#task_3B6AB949F0EC4063A08F80F254992117}
+
+Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first. 
+
+<!-- 
 
 t_dashboard_archive.xml
 
  -->
->1. Open a dashboard.
->1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
->1. In the [!UICONTROL Email Report] group, enable **[!UICONTROL Archive]**.
->1. Specify delivery options, then click **[!UICONTROL Send]**.
->
->   You can view archived dashboards in the Dashboard Manager. Alternatively, open a dashboard and click **[!UICONTROL More]** > **[!UICONTROL View Archive]**. 
->
+
+1. Open a dashboard.
+1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. In the [!UICONTROL Email Report] group, enable **[!UICONTROL Archive]**.
+1. Specify delivery options, then click **[!UICONTROL Send]**.
+
+   You can view archived dashboards in the Dashboard Manager. Alternatively, open a dashboard and click **[!UICONTROL More]** > **[!UICONTROL View Archive]**. 

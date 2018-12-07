@@ -23,49 +23,16 @@ Time-parting dimensions are based on the time zone of the report suite or virtua
 >[!NOTE]
 >
 >Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html). 
->
->Time-parting dimensions in Analysis Workspace include: 
->
-><table id="table_A4E837CCF7FF44689A9490175C615230"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Dimension </th> 
-   <th colname="col2" class="entry"> Example Values </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Hour of Day </p> </td> 
-   <td colname="col2"> <p>0-23 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AM/PM </p> </td> 
-   <td colname="col2"> <p>AM, PM </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Day of Week </p> </td> 
-   <td colname="col2"> <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Weekend/Weekday </p> </td> 
-   <td colname="col2"> <p>Weekend, Weekday </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Day of Month </p> </td> 
-   <td colname="col2"> <p>1-31 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Month of Year </p> </td> 
-   <td colname="col2"> <p>January-December </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Day of Year </p> </td> 
-   <td colname="col2"> <p>1-366 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Quarter of Year </p> </td> 
-   <td colname="col2"> <p>Q1, Q2, Q3, Q4 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+Time-parting dimensions in Analysis Workspace include: 
+
+| Dimension | Example Values |
+|--- |--- |
+|Hour of Day|0-23|
+|AM/PM|AM, PM|
+|Day of Week|Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday|
+|Weekend/Weekday|Weekend, Weekday|
+|Day of Month|1-31|
+|Month of Year|January-December|
+|Day of Year|1-366|
+|Quarter of Year|Q1, Q2, Q3, Q4|

@@ -35,10 +35,10 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets. >
->* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard. 
->* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**. 
->
+>The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets.
+
+* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard. 
+* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**. 
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
@@ -149,7 +149,7 @@ t_dashboard_content.xml
        >
        >The current limit to the number of pages in a dashboard is 30.
 
-    <table id="table_ECDE94477782487E881F388EB5E98051"> 
+<table id="table_ECDE94477782487E881F388EB5E98051"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Content Menu </th> 
@@ -219,7 +219,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-    <table id="choicetable_FD8D05A9465B43F89148D376DE083B59" keycol="0"> 
+<table id="choicetable_FD8D05A9465B43F89148D376DE083B59" keycol="0"> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>To </p> </th> 
   <th class="chdeschd"> <p>Do this </p> </th> 
@@ -306,4 +306,3 @@ Segments can be applied on two levels: to an entire dashboard or on a specific r
 * **Reportlet level**: Click **[!UICONTROL Layout]**, then the report suite of the reportlet you want to segment. A modal window appears that lets you add or change what segment(s) the reportlet uses. 
 
 * **Dashboard level**: Click the Segment icon in the left navigation, check the segment(s) you want to use, and click Apply. The selected segments override and replace any reportlet-level segments.
-

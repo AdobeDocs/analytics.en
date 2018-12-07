@@ -61,7 +61,7 @@ Because the API and interface use the same permissioning system, whatever permis
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Anomaly Detection Report Permission </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Real-Time Report Permission </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace Access Permission </li> 
-    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
+    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="../c-user-groups/groups.md" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension-Level Permissions </p> </td> 
@@ -92,7 +92,7 @@ Here is important new information about new and planned updates and how they aff
  <tbody> 
   <tr> 
    <td colname="col1">What permissions changes came in the <b>July 2016</b> release? </td> 
-   <td colname="col2"> <p> <b>All Report Suite Access</b> </p> <p>When adding report suites to include in a group, you can specify <span class="uicontrol"> All Report Suite Access</span>. This setting applies group permissions to all current and future report suites. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p style="text-align: center;"> <img placement="break" align="center" href="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
+   <td colname="col2"> <p> <b>All Report Suite Access</b> </p> <p>When adding report suites to include in a group, you can specify <span class="uicontrol"> All Report Suite Access</span>. This setting applies group permissions to all current and future report suites. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p style="text-align: center;"> <img placement="break" href="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Should I use the Enterprise Dashboard to manage users, or the existing Analytics User Management? </p> </td> 

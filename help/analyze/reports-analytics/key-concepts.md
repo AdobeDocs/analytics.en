@@ -334,7 +334,7 @@ data_collection_and_validation.xml
   <tr> 
    <td colname="col1"> App Measurement (s_code) </td> 
    <td colname="col2"> Global variable management </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html#" format="dita" scope="local"> https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html</a> </td> 
+   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html#" format="html" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> App SDKs </td> 
@@ -363,4 +363,3 @@ data_collection_and_validation.xml
   </tr> 
  </tbody> 
 </table>
-

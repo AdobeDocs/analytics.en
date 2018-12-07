@@ -32,7 +32,7 @@ A classification hierarchy allows you to apply a classification to a classificat
 
 ![](assets/sub_class_table.png)
 
-After you have this structure in place, you can use the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Then, you can use the rule builder to keep the main classification table up-to-date.
+After you have this structure in place, you can use the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Then, you can use the rule builder to keep the main classification table up-to-date.
 
 The following task describes how to accomplish this. 
 
@@ -42,7 +42,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md#concept_6C8672C242544D7487E82886BBFABE6E).
+>These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications).
 
@@ -54,10 +54,10 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    You perform this using a regular expression. In this example, the rule to populate *`Broad Campaign code`* would use this regular expression: 
 
-   |  #  | Rule Type  | Match  | Set Classification  | To  |
+   |  `#`  | Rule Type  | Match  | Set Classification  | To  |
    |---|---|---|---|---|
-   |   | Regular Expression  | [^\:]:([^\:]):([^\:])  | Broad Campaign code  | $1  |
-   |   | Regular Expression  | [^\:]:([^\:]):([^\:])  | Creative code  | $2  |
+   |   | Regular Expression  | `[^\:]:([^\:]):([^\:]`)  | Broad Campaign code  | `$1`  |
+   |   | Regular Expression  | `[^\:]:([^\:]):([^\:]`)  | Creative code  | `$2`  |
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    Example: 
 
-   |  Key  | Channel  | Broad Campaign code  | Broad Campaign code^Campaign type  | Broad Campaign code^Campaign Director  | ...  |
+   |  Key  | Channel  | Broad Campaign code  | Broad Campaign code&Hat;Campaign type  | Broad Campaign code&Hat;Campaign Director  | ...  |
    |---|---|---|---|---|---|
    |  &#42;  |  | 111  | Brand  | Suzanne  |  |
    |  &#42;  |  | 222  | Brand  | Frank  |  |

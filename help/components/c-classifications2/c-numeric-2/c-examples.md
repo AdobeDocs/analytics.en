@@ -24,17 +24,17 @@ c_example_1__rate.xml
 
 In this case, you created the classification on the [!UICONTROL Classification Conversion] manager and want to import the January values: 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_jan_var  |  | .2  |
-|  Product2  | Text2  | Cost2_jan_var  |  | .3  |
+|  Product1  | Text1  | `Cost1_jan_var`  |  | `.2`  |
+|  Product2  | Text2  | `Cost2_jan_var`  |  | `.3`  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|   `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/01/01 - 2010/01/31  | revenue  | revenue  |
 |  2010/01/01 - 2010/01/31  | revenue  | revenue  |
 
-In January, Product1 had a cost of 20% of its revenue (shown in ~MyCost^~value~) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, ~MyCost^~id~ is blank.
+In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
 
 ## Result {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -55,14 +55,14 @@ c_example_2__rate.xml
 
  -->
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_jan_var  | 1  | .2  |
-|  Product2  | Text2  | Cost2_jan_var  | 2  | .3  |
-|  Product1  | Text1  | Cost1_feb_var  |  | .15  |
-|  Product2  | Text2  | Cost2_feb_var  |  | .25  |
+|  Product1  | Text1  | `Cost1_jan_var`  | 1  | .2  |
+|  Product2  | Text2  | `Cost2_jan_var`  | 2  | .3  |
+|  Product1  | Text1  | `Cost1_feb_var`  |  | .15  |
+|  Product2  | Text2  | `Cost2_feb_var`  |  | .25  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/01/01 - 2010/01/31  | revenue  | revenue  |
 |  2010/01/01 - 2010/01/31  | revenue  | revenue  |
@@ -110,12 +110,12 @@ c_example_3__fixed.xml
 
 You would therefore import the following data: 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_mar_fixed  |  | 3000.00  |
-|  Product2  | Text2  | Cost2_jan_fixed  |  | 2000.00  |
+|  Product1  | Text1  | `Cost1_mar_fixed`  |  | 3000.00  |
+|  Product2  | Text2  | `Cost2_jan_fixed`  |  | 2000.00  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/03/01 - 2010/03/31  | fixed  | none  |
 |  2010/03/01 - 2010/03/31  | fixed  | none  |
@@ -141,14 +141,14 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 In this example, you add a $500 shipping charge to Product1 for January, and a $600 shipping charge to February. 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_jan_var  | 1  | .2  |
-|  Product1  | Text1  | Cost2_jan_fixed  |  | 500  |
-|  Product1  | Text1  | Cost1_feb_var  | 2  | .15  |
-|  Product1  | Text1  | Cost2_feb_fixed  |  | 600  |
+|  Product1  | Text1  | `Cost1_jan_var`  | 1  | .2  |
+|  Product1  | Text1  | `Cost2_jan_fixed`  |  | 500  |
+|  Product1  | Text1  | `Cost1_feb_var`  | 2  | .15  |
+|  Product1  | Text1  | `Cost2_feb_fixed`  |  | 600  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/01/01 - 2010/01/31  | revenue  | revenue  |
 |  2010/01/01 - 2010/01/31  | fixed  | none  |
@@ -181,11 +181,11 @@ c_example_5__identical_rate_hinge.xml
 
 The following illustrates this example: 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_mar_var  |  | 1  |
+|  Product1  | Text1  | `Cost1_mar_var`  |  | 1  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/03/01 - 2010/03/31  | order  | order  |
 
@@ -209,12 +209,12 @@ c_example_5__fixed_no_hinge.xml
 
  -->
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_mar_fixed  |  | 3000.00  |
-|  Product2  | Text2  | Cost2_mar_fixed  |  | 2000.00  |
+|  Product1  | Text1  | `Cost1_mar_fixed`  |  | 3000.00  |
+|  Product2  | Text2  | `Cost2_mar_fixed`  |  | 2000.00  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/03/01 - 2010/03/31  | fixed  | none  |
 |  2010/03/01 - 2010/03/31  | fixed  | none  |
@@ -241,12 +241,12 @@ c_example_7__fixed_hinge.xml
 
 In this case, you would import the following data: 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
-|  Product1  | Text1  | Cost1_mar_fixed  |  | 3000.00  |
-|  Product2  | Text2  | Cost2_mar_fixed  |  | 2000.00  |
+|  Product1  | Text1  | `Cost1_mar_fixed`  |  | 3000.00  |
+|  Product2  | Text2  | `Cost2_mar_fixed`  |  | 2000.00  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/03/01 - 2010/03/31  | fixed  | revenue  |
 |  2010/03/01 - 2010/03/31  | fixed  | revenue  |
@@ -273,11 +273,11 @@ c_example_7_continued__different_rate_hinge.xml
 
 In this case, you import the following file data: 
 
-|  Key  | MyText  | ~MyCost  | ~MyCost^~id~  | ~MyCost^~value~  |
+|  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
 |  Product1  | Text1  | Cost1_mar_fixed  |  | 3  |
 
-|  ~MyCost^~period~  | ~MyCost^~rate~  | ~MyCost^~hinge~  |
+|  `~MyCost^~period~`  | `~MyCost^~rate~`  | `~MyCost^~hinge~`  |
 |---|---|---|
 |  2010/03/01 - 2010/03/31  | order  | revenue  |
 

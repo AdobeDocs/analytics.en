@@ -55,9 +55,9 @@ Multiple-level classifications are comprised of parent and child classifications
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Parent classifications: **A parent classification is any classification that has an associated child classification. A classification can be both a parent and child classification. The top-level parent classifications correspond to single-level classifications (See [Single-Level Classifications](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**Parent classifications:** A parent classification is any classification that has an associated child classification. A classification can be both a parent and child classification. The top-level parent classifications correspond to single-level classifications (See [Single-Level Classifications](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
 
-**Child classifications: **A child classification is any classification that has another classification as its parent instead of the variable. Child classifications provide additional information about their parent classification. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] classifications also function as metrics in classification reports.
+**Child classifications:** A child classification is any classification that has another classification as its parent instead of the variable. Child classifications provide additional information about their parent classification. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] classifications also function as metrics in classification reports.
 
 Each classification, either parent or child, constitutes one data column in the data file. The column heading for a child classification using the following naming format:
 
@@ -67,7 +67,7 @@ For more information about the data file format, see [Classification Data Files]
 
 For example: 
 
-|  KEY  | PROPERTY 1  | Property 1^Property 1-1  | Property 1^Property 1-2  | Property 2  |
+|  KEY  | PROPERTY 1  | Property 1&Hat;Property 1-1  | Property 1&Hat;Property 1-2  | Property 2  |
 |---|---|---|---|---|
 |  123  | ABC  | Green  | Small  | A12B  |
 |  456  | DEF  | Red  | Large  | C3D4  |
@@ -92,11 +92,11 @@ c_classifications_example.xml
 >
 >Product classification data is limited to data attributes directly related to the product. The data is not limited to how the products are categorized or sold on the website. Data elements like sale categories, site browse nodes, or sale items are not product classification data. Rather, these elements are captured in report conversion variables.
 
-When uploading data files for this product classification, you can upload the classification data as a single file or as multiple files (see below). By separating the color code in file 1 and the color name in file 2, the color name data (which may only be a few rows) needs to be updated only when new color codes are created. This eliminates the color name (CODE^COLOR) field from the more frequently updated file 1 and reduces file size and complexity when generating the data file.
+When uploading data files for this product classification, you can upload the classification data as a single file or as multiple files (see below). By separating the color code in file 1 and the color name in file 2, the color name data (which may only be a few rows) needs to be updated only when new color codes are created. This eliminates the color name (CODE&Hat;COLOR) field from the more frequently updated file 1 and reduces file size and complexity when generating the data file.
 
 ## Product Classification - Single File {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-|  KEY  | PRODUCT NAME  | PRODUCT DETAILS  | GENDER  | SIZE  | CODE  | CODE^COLOR  |
+|  KEY  | PRODUCT NAME  | PRODUCT DETAILS  | GENDER  | SIZE  | CODE  | CODE&Hat;COLOR  |
 |---|---|---|---|---|---|---|
 |  410390013  | Polo-SS  | Men's Polo Shirt, Short Sleeve (M,01)  | M  | M  | 01  | Stone  |
 |  410390014  | Polo-SS  | Men's Polo Shirt, Short Sleeve (L,03)  | M  | L  | 03  | Heather  |
@@ -112,7 +112,7 @@ When uploading data files for this product classification, you can upload the cl
 
 ## Product Classification - Multiple Files (File 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-|  KEY  | CODE  | CODE^COLOR  |
+|  KEY  | CODE  | CODE&Hat;COLOR  |
 |---|---|---|
 |  &#42;  | 01  | Stone  |
 |  &#42;  | 03  | Heather  |

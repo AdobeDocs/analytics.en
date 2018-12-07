@@ -296,7 +296,6 @@ user-guide-title: Analytics Analyze Guide
         + [Convert your projects in Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
         + [View converted projects in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
         + [Project Converter FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-    + [https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html)
     + [Ad Hoc Analysis overview](ad-hoc-analysis/adhoc-home.md)
     + [Getting Started](ad-hoc-analysis/c-getting-started.md)
     + [Administration](ad-hoc-analysis/c-administration.md)

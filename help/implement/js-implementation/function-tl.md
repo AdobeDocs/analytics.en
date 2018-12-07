@@ -25,64 +25,77 @@ If needed, these types of links can be manually tracked using custom link code a
 
 ## s.tl() Parameter Reference {#section_DDF19EE3ACE24EFAB2D65CD4B0D7DBC4}
 
-<table id="table_B93B42A7A9454A18B15108B179DA11F3"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Variable </th> 
-   <th class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> this </td> 
-   <td> <p>The first argument should always be set either to this (default) or true. The argument refers to the object being clicked; when set to "this," it refers to the HREF property of the link. </p> <p>If you are implementing link tracking on an object that has no HREF property, you should always set this argument to "true." </p> <p>Because clicking a link often takes a visitor off the current page, a 500ms delay is used to ensure that an image request is sent to Adobe before the user leaves the page. This delay is only necessary when leaving the page, but is typically present when the <span class="wintitle"> s.tl() </span> function is called. If you want to disable the delay, pass the keyword 'true' as the first parameter when calling the <span class="wintitle"> s.tl() </span> function. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> linkType </td> 
-   <td> <p> 
-     <code>
-       s.tl(this,linkType,linkName,& variableOverrides,& doneAction) 
-     </code> </p> <p>linkType has three possible values, depending on the type of link that you want to capture. If the link is not a download or an exit link, you should choose the Custom links option.  </p>
-    <table id="table_63B2354DD29A4F2CB3660C5BBAB969D2">  
-    </table> </td> 
-  </tr> 
-  <tr> 
-   <td> linkName </td> 
-   <td> This can be any custom value, up to 100 characters. This determines how the link is displayed in the appropriate report. </td> 
-  </tr> 
-  <tr> 
-   <td> variableOverrides </td> 
-   <td> (Optional, pass null if not using) This lets you change variable values for this single call, It is similar to other <span class="keyword"> AppMeasurement </span> libraries. </td> 
-  </tr> 
-  <tr> 
-   <td> useForcedLinkTracking </td> 
-   <td> <p>This flag is used to disable forced link tracking for some browsers. Forced link tracking is enabled by default for FireFox 20+ and WebKit browsers. </p> <p> <b> Default Value</b> </p> <p>true </p> <p> <b> Example</b> </p> <p> 
-     <code>
-       s.useForcedLinkTracking& = false 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> forcedLinkTrackingTimeout </td> 
-   <td> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <span class="wintitle"> doneAction </span> that was passed into <span class="filepath"> s.tl </span>. This value specifies the maximum wait time. If the track link call completes before this timeout, the <span class="wintitle"> doneAction </span> is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout. </p> <p> <b> Default Value</b> </p> <p>250 </p> <p> <b> Example</b> </p> <p> 
-     <code class="syntax javascript">
-       s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> doneAction </td> 
-   <td> <p>An optional parameter to specify a navigation action to execute after the track link call completes when <span class="codeph"> useForcedLinkTracking </span> is enabled. </p> <p> <b> Syntax</b> </p> <p> 
-     <code class="syntax javascript">
-       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-     </code> </p> <p> <b> <span class="wintitle"> doneAction </span> </b> : (optional) Specifies the action to take after the link track call is sent or has timed out, based on the value specified by: 
-     <code class="syntax javascript">
-       s.forcedLinkTrackingTimeout 
-     </code> The <span class="wintitle"> doneAction </span> variable can be the string navigate, which causes the method to set <span class="filepath"> document.location </span> to the href attribute of <span class="wintitle"> linkObject </span>. The <span class="wintitle"> doneAction </span> variable can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="wintitle"> doneAction </span> in an anchor <span class="wintitle"> onClick </span> event, you must return false after the <span class="filepath"> s.tl </span> call to prevent the default browser navigation. </p> <p>To mirror the default behavior and follow the URL specified by the href attribute, provide a string of navigate as the <span class="wintitle"> doneAction </span> . </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="wintitle"> doneAction </span>. </p> <p> <b> Examples</b> </p> 
-    <code class="syntax javascript">
-      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt;&amp;nbsp;&lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt;&amp;nbsp; 
-    </code> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- Meike, I converted a table within to table to this section. Please check against orginal file -Bob -->
+
+**this**
+
+The first argument should always be set either to this (default) or true. The argument refers to the object being clicked; when set to "this," it refers to the HREF property of the link.
+
+If you are implementing link tracking on an object that has no HREF property, you should always set this argument to "true."
+
+Because clicking a link often takes a visitor off the current page, a 500ms delay is used to ensure that an image request is sent to Adobe before the user leaves the page. This delay is only necessary when leaving the page, but is typically present when the s.tl() function is called. If you want to disable the delay, pass the keyword 'true' as the first parameter when calling the s.tl() function.
+
+**linkType**
+
+`s.tl(this,linkType,linkName, variableOverrides, doneAction)`
+
+linkType has three possible values, depending on the type of link that you want to capture. If the link is not a download or an exit link, you should choose the Custom links option.
+
+| Type | linkType value |
+|--- |--- |
+| File Downloads | 'd' |
+| Exit Links | 'e' |
+| Custom Links | 'o' |
+
+**linkName**
+
+This can be any custom value, up to 100 characters. This determines how the link is displayed in the appropriate report.
+
+**variableOverrides**
+
+(Optional, pass null if not using) This lets you change variable values for this single call, It is similar to other AppMeasurement libraries.
+
+**useForcedLinkTracking**
+
+This flag is used to disable forced link tracking for some browsers. Forced link tracking is enabled by default for FireFox 20+ and WebKit browsers.
+
+Default Value = true
+
+Example: `s.useForcedLinkTracking& = false`
+
+**forcedLinkTrackingTimeout**
+
+The maximum number of milliseconds to wait for tracking to finish before performing the doneAction that was passed into `s.tl`. This value specifies the maximum wait time. If the track link call completes before this timeout, the doneAction is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout.
+
+Default Value = 250
+
+Example: `s.forcedLinkTrackingTimeout&nbsp;=&nbsp;500`
+
+**doneAction**
+
+An optional parameter to specify a navigation action to execute after the track link call completes when useForcedLinkTracking is enabled.
+
+Syntax:
+
+`s.tl(linkObject,linkType,linkName,variableOverrides,doneAction)`
+
+doneAction: (optional) Specifies the action to take after the link track call is sent or has timed out, based on the value specified by: 
+
+`s.forcedLinkTrackingTimeout` 
+
+The doneAction variable can be the string navigate, which causes the method to set `document.location` to the href attribute of linkObject . The doneAction variable can also be a function allowing for advanced customization.
+
+If providing a value for doneAction in an anchor onClick event, you must return false after the `s.tl` call to prevent the default browser navigation.
+
+To mirror the default behavior and follow the URL specified by the href attribute, provide a string of navigate as the doneAction .
+
+Optionally, you can provide your own function to handle the navigation event by passing this function as the doneAction .
+
+Examples:
+
+```js
+<a href="..." onclick="s.tl(this,'o','MyLink',null,'navigate');return false">Click Here</a> <a href="#" onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return false">Click Here</a>
+```
 
 **Example**
 
@@ -238,10 +251,8 @@ Passing navigate as the [!UICONTROL doneAction] mirrors the default browser beha
 In JavaScript H.25.4 (released February 2013), the following scope limitations were added to links tracked when `useForcedLinkTracking` is enabled. The automatic forced link tracking applies only to:
 
 * `<A>` and `<AREA>` tags. 
-
 * The tag must have an `HREF` attribute. 
 * The `HREF` can't start with `#`, `about:`, or `javascript:`. 
-
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Link Tracking Using an Image Request {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}

@@ -240,33 +240,34 @@ In this result, `a:b:1313` does not indicate a match.
 
 ## Regular Expressions - Reference Table {#section_0211DCB1760042099CCD3ED7A665D716}
 
-|  (?ms)  | Makes the entire regular expression match against a multi-line input, allowing the . wildcard to match any newline characters  |
+| Expression | Description |
 |---|---|
-|  (?i)  | Makes the entire regular expression case insensitive  |
-|  [abc]  | A single character of: a, b or c  |
-|  [^abc]  | Any single character except: a, b, or c  |
-|  [a-z]  | Any single character in the range a-z  |
-|  [a-zA-Z]  | Any single character in the range a-z or A-Z  |
-|  ^  | Start of line (matches the beginning of the line)  |
-|  $  | Match the end of the line (or before newline at the end)  |
-|  \A  | Start of string  |
-|  \z  | End of string  |
-|  .  | Match any character (except a new line)  |
-|  \s  | Any whitespace character  |
-|  \S  | Any non-whitespace character  |
-|  \d  | Any digit  |
-|  \D  | Any non-digit  |
-|  \w  | Any word character (letter, number, underscore)  |
-|  \W  | Any non-word character  |
-|  \b  | Any word boundary  |
-|  (...)  | Capture everything enclosed  |
-|  (a|b)  | a or b  |
-|  a?  | Zero or one of a  |
-|  a&#42;  | Zero or more of a  |
-|  a+  | One or more of a  |
-|  a{3}  | Exactly 3 of a  |
-|  a{3,}  | 3 or more of a  |
-|  a{3,6}  | Between 3 and 6 of a  |
+|  `(?ms)`  | Makes the entire regular expression match against a multi-line input, allowing the . wildcard to match any newline characters  |
+|  (`?i`)  | Makes the entire regular expression case insensitive  |
+|  [`abc`]  | A single character of: a, b or c  |
+|  [`^abc`]  | Any single character except: a, b, or c  |
+|  [`a-z`]  | Any single character in the range a-z  |
+|  [`a-zA-Z`]  | Any single character in the range a-z or A-Z  |
+|  `^`  | Start of line (matches the beginning of the line)  |
+|  `$`  | Match the end of the line (or before newline at the end)  |
+|  `\A`  | Start of string  |
+|  `\z`  | End of string  |
+|  `.`  | Match any character (except a new line)  |
+|  `\s`  | Any whitespace character  |
+|  `\S`  | Any non-whitespace character  |
+|  `\d`  | Any digit  |
+|  `\D`  | Any non-digit  |
+|  `\w`  | Any word character (letter, number, underscore)  |
+|  `\W`  | Any non-word character  |
+|  `\b`  | Any word boundary  |
+|  `(...)`  | Capture everything enclosed  |
+|  `(a|b)`  | a or b  |
+|  `a?`  | Zero or one of a  |
+|  `a*`  | Zero or more of a  |
+|  `a+`  | One or more of a  |
+|  `a{3}`  | Exactly 3 of a  |
+|  `a{3,}`  | 3 or more of a  |
+|  `a{3,6}`  | Between 3 and 6 of a  |
 
 A good resource for testing regular expression validity is https://rubular.com/. 
 

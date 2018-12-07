@@ -16,7 +16,9 @@ snippet: y
 
 Describes how to calculate common metrics using data feeds.
 
+<!--Meike, I commented out this heading because it contains no content, and I'm troubleshooting a dita error-Bob
 ## Pre vs. Post column {#section_19967AF2FD9D44D6A8EC30F77E71F2ED}
+-->
 
 ## Bots {#section_06753B95800F47668AAF52E7227F27C8}
 
@@ -38,8 +40,6 @@ For more information on events, see [Events](https://marketing.adobe.com/resourc
 
 The following table contains instructions to calculate several common metrics.
 
-<a id="section_229012BB36F74EE592F2AB5CC72D444D"></a>
-
 <table id="table_814EA73C01EE4B2CA3CEB2839E19ADF9"> 
  <thead> 
   <tr> 
@@ -51,10 +51,7 @@ The following table contains instructions to calculate several common metrics.
   <tr> 
    <td colname="col1"> Page Views </td> 
    <td colname="col2"> <p> Page views can be calculated by counting when there is either a value in <span class="codeph"> post_pagename </span> or <span class="codeph"> post_page_url </span>. </p> 
-    <draft-comment>
-      following removed per Bret Gundersen and Glen Schneider AN-135544 
-    </draft-comment> 
-    <!--<p> <ol id="ol_F57BD7DF1AB547109C485B450F326196"> <li id="li_27EFE76F00644E61A6A9922FD0AE9D43">Exclude all rows where <codeph>exclude_hit &gt; 0</codeph>. </li> <li id="li_ACAFAD255FC742E4BAB78FD39B382943">Exclude all rows with <codeph>hit_source = 5,8,9</codeph>. These are summary rows uploaded using data sources. See <xref href="datafeeds_hit_source.xml#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local">Hit Source Lookup</xref>. </li> <li id="li_48F8F7F5BB3B4848911950D2D9CECF8F">Sum the remaining rows that have a value in <codeph>post_pagename</codeph> or <codeph>post_page_url,</codeph> and <codeph>post_page_event = 0</codeph>, which indicates a normal page view. See <xref href="datafeeds-page-event.xml#concept_A3AC076C3728445EB4CC572A6EDA5263" format="dita" scope="local">Page Event Lookup</xref>. </li> </ol> </p>--> <p>You can use similar logic to count custom links: </p> 
+    <p>You can use similar logic to count custom links: </p> 
     <ul id="ul_8DFBEE3ED30C465D8E55B1F3880D5263"> 
      <li id="li_009F2B7E3F9443889AE95B3358169444"> <span class="codeph"> post_page_event = 100 </span> to count custom links. </li> 
      <li id="li_866DA2F5C2404347863CD1417F822FE8"> <span class="codeph"> post_page_event = 101 </span> to count download links. </li> 
@@ -82,9 +79,9 @@ The following table contains instructions to calculate several common metrics.
   <tr> 
    <td colname="col1"> Event instances </td> 
    <td colname="col2"> <p>When an event is set on a hit, <span class="codeph"> post_event_list </span> contains the event. The <span class="codeph"> post_event_list </span> is de-duplicated and is recommended to determine event instances. </p> <p>For example: </p> 
-    <codeblock>
-      post_event_list&amp;nbsp;=&amp;nbsp;1,200 
-    </codeblock> <p>Indicates an instance of <span class="codeph"> purchase </span> and <span class="codeph"> event1 </span>. </p> 
+    <code>
+      post_event_list = 1,200 
+    </code> <p>Indicates an instance of <span class="codeph"> purchase </span> and <span class="codeph"> event1 </span>. </p> 
     <ol id="ol_84B529A668A54686957D1EB36D944467"> 
      <li id="li_F953D7668C704C1AB7970123E369472A">Exclude all rows where <span class="codeph"> exclude_hit &gt; 0 </span>. </li> 
      <li id="li_65B0B504DB654479844EAE490D9283EB">Exclude all rows with <span class="codeph"> hit_source = 5,8,9 </span>. These are summary rows uploaded using data sources. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a>. </li> 
@@ -94,9 +91,9 @@ The following table contains instructions to calculate several common metrics.
   <tr> 
    <td colname="col1"> eVar instances </td> 
    <td colname="col2"> <p>When an eVar is set on a hit, <span class="codeph"> event_list </span> contains an instance of that eVar. </p> <p>For example: </p> 
-    <codeblock>
+    <code>
       post_event_list&amp;nbsp;=&amp;nbsp;100,101,106 
-    </codeblock> <p>Indicates an instance of <span class="codeph"> eVar1 </span>, <span class="codeph"> eVar2 </span>, and <span class="codeph"> eVar7 </span>. This means that a value for these three eVars was set on the hit. </p> <p>To calculate instances for eVars, use the same logic explained in <i>Event instances</i> above, but count the number of times the eVar lookup appears in the <span class="codeph"> post_event_list </span>. </p> </td> 
+    </code> <p>Indicates an instance of <span class="codeph"> eVar1 </span>, <span class="codeph"> eVar2 </span>, and <span class="codeph"> eVar7 </span>. This means that a value for these three eVars was set on the hit. </p> <p>To calculate instances for eVars, use the same logic explained in <i>Event instances</i> above, but count the number of times the eVar lookup appears in the <span class="codeph"> post_event_list </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Time Spent </td> 
@@ -107,11 +104,9 @@ The following table contains instructions to calculate several common metrics.
      <li id="li_08792F3BDFEA4DA29E0983C4BE65D73B">Order hits for each visit by <span class="codeph"> visit_page_num </span>. </li> 
      <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-page-event.md#concept_A3AC076C3728445EB4CC572A6EDA5263" format="dita" scope="local"> page_event </a>, filter the types of hits you want. </li> 
      <li id="li_2C5AC0477CFC409B8F169079354C8226">Find hits where the value you want to track time spent is set. For example: 
-      <codeblock>
-        hit&nbsp;1:&nbsp;post_prop1=red 
-       
-hit&nbsp;2:&nbsp;post_prop1=blue 
-      </codeblock> </li> 
+      <code>
+        hit&nbsp;1:&nbsp;post_prop1=red hit&nbsp;2:&nbsp;post_prop1=blue 
+      </code> </li> 
      <li id="li_20106B322F7B45CE8D2FBD9B0CB3D60D">Subtract the <span class="codeph"> post_cust_hit_time </span> for hit 1 from the <span class="codeph"> post_cust_hit_time </span> for hit 2 to determine the seconds between these two hits. The result is the time spent for <span class="codeph"> post_prop1=red </span>. If this results in a negative number, it indicates that the hit was received out-of-order and the calculation should be discarded. </li> 
     </ol> <p>This logic can be extended to calculate time spent for other values. When calculating time spent, Analytics calculates time spent based on the time the value was set in a <span class="codeph"> track </span> ( <span class="codeph"> page_event=0 </span>) or <span class="codeph"> trackLink </span> ( <span class="codeph"> page_event=10|11|12 </span>) call, to the time of the next page view ( <span class="codeph"> track </span> call). </p> <p>When reporting time spent for a specific period, marketing reports &amp; analytics and ad hoc analysis evaluate hits beyond the reporting period to determine time spent for values within the reporting period, except when the start and/or end date of the time period is on a monthly boundary. Due to the complexity of these calculations, it might be difficult to match the time spent metrics exactly. Data warehouse does not evaluate hits beyond the reporting period. </p> </td> 
   </tr> 
@@ -123,11 +118,10 @@ hit&nbsp;2:&nbsp;post_prop1=blue
      <li id="li_6417C228AC414B01A30F85BE4842ED3C">Exclude all rows with <span class="codeph"> hit_source = 5,8,9 </span>. 5-9 represent summary rows uploaded using data sources. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a>. </li> 
      <li id="li_C48F91C74F5E4286B5F0B285E33AF733">Ignore purchase data for rows where <span class="codeph"> duplicate_purchase = 1 </span>. This flag indicates that the purchase is a duplicate (meaning that a hit with the same <span class="codeph"> purchaseID </span> was already recorded). </li> 
      <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p>The <span class="codeph"> post_product_list </span> uses the same syntax as <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_products" format="http" scope="external"> s.products </a>, so you can parse this string to calculate metrics. For example: </p> 
-      <codeblock>
-        ;Cross&amp;nbsp;Trainers;1;69.95,;Athletic&amp;nbsp;Socks;10;29.99 
-      </codeblock> <p>By parsing this string, you can determine that 1 pair of cross trainers were purchased for $69.95, and that total revenue from this purchase was $99.94. </p> </li> 
+      <code>
+        ;Cross Trainers;1;69.95,;Athletic Socks;10;29.99 
+      </code> <p>By parsing this string, you can determine that 1 pair of cross trainers were purchased for $69.95, and that total revenue from this purchase was $99.94. </p> </li> 
     </ol> <p>Note:  Analytics allows currency events that contain product revenue to be passed in through the events string, so you might need to account for revenue that is not in the products string. See <i>Numeric/Currency Events</i> in <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_events" format="http" scope="external"> s.events </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

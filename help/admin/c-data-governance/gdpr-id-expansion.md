@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# ID Expansion
+# ID Expansion #
 
 The IDs you submit do not always cover all of the hit data that Analytics can associate with the data subject. Analytics can create an expanded set of IDs to include this associated data into the GDPR requests. You can request this option with an optional parameter to each GDPR request you submit, added to the JSON request:
 
@@ -43,3 +43,24 @@ During the first few months after GDPR went live, the vast majority of Analytics
 For a delete request, where ID expansion is not used, if you use a non-cookie ID (any ID other than the ECID or Analytics cookie) to identify hits that should be deleted, and that ID has an ID-DEVICE label, then unique visitor counts in reports will change, because only some instances of the cookie IDs will be anonymized, while others will be left unchanged. If you are not specifying ID expansion, then it is recommended that you either use a cookie ID for requests, or use IDs with an ID-PERSON label.
 
 When Adobe performs ID expansion, it can require an additional full data scan, which will increase the time that it takes Adobe to complete the request, often adding a week to the processing time. 
+
+## Other GDPR request flags ##
+
+In addition to the “expandIDs” flag, Analytics supports two other flags that can be passed as part of a GDPR request. These flags with their default values are:
+
+```
+"analyticsDeleteMethod": “anonymize”
+“priority”: “normal”
+```
+
+In the future, the “analyticsDeleteMethod” may support a value of “purge” in addition to the default value of “anonymize”. When supported, it will cause the entire hit to be delete rather than simply updating the values of hit fields that have DEL labels.
+
+In addition to its default value, the priority field also supports a value of “low”. You should specify this value for requests that are not a result of a data subject request and thus do not have a legal requirement to be completed within 30 days. Note that Adobe discourages the use of the GDPR API for reasons other than data subject initiated requests. The GDPR API is not an appropriate tool for data cleansing or repairs and will have unintended consequences.
+
+>[!NOTE]
+>The GDPR API has been provided to help you fulfill GDPR requests, which are time sensitive. Using this API for >other purposes is not supported by Adobe and may impact Adobe’s ability to provide timely turn-around of high >priority, user-initiated GDPR requests for other Adobe customers. We ask that you do not use the GDPR API for >other purposes such as clearing out data that was accidentally submitted across large groups of visitors.
+>
+>You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a GDPR >deletion request will have their state information reset. The next time the visitor returns to your website, >they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, >referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out >data fields, and highlights one reason why the GDPR API is inappropriate for this use.
+>
+>Please contact your Account Manager (CSM) to coordinate with our Engineering Architect consulting team to >further review & provide level of effort to remove any PII or data issues.
+

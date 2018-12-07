@@ -72,7 +72,7 @@ t_dashboard_copy.xml
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
-    <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
+<table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> Option </th> 
   <th class="chdeschd"> Description </th> 

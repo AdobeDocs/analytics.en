@@ -43,96 +43,80 @@ t_send_report.xml
 1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 1. Specify delivery options:
 
-    <table id="choicetable_554B0AD007A442B399686C5B0E68EAAB" keycol="0"> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>Option </p> </th> 
-  <th class="chdeschd"> <p>Description </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Format</strong></td> 
-  <td class="chdesc stentry"> <p>Select PDF or HTML. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Send To</strong></td> 
-  <td class="chdesc stentry"> <p>Provide an email address to receive the report. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Subject</strong></td> 
-  <td class="chdesc stentry"> <p>Subject of the email. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Scheduling</strong></td> 
-  <td class="chdesc stentry"> <p>Select to send the report immediately or at a different interval. </p> </td> 
- </tr> 
-</table>    
-    
+   | Option  | Description  |
+   |--- |--- |
+   |Format|Select PDF or HTML.|
+   |Send To|Provide an email address to receive the report.|
+   |Subject|Subject of the email.|
+   |Scheduling|Select to send the report immediately or at a different interval.|
+
 1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
 
-    <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E" keycol="0"> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> Option </th> 
-  <th class="chdeschd"> Description </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Report File Name</strong></td> 
-  <td class="chdesc stentry"> <p>Specifies the name of the report. The default format is <span class="codeph"> &lt;report name&gt; for &lt;suite&gt; - &lt;report date range&gt; </span>. </p> <p>To specify a custom name, select <span class="uicontrol"> Custom </span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Report Format</strong></td> 
-  <td class="chdesc stentry"> <p>Lets you specify PDF, CSV, Excel, HTML, Word, or Mobile formats for delivery. If you select CSV, you can also specify the encoding for CSV: </p> <p> 
-    <ul id="ul_4A2EB8D9512246589994052CF482BFD7"> 
-     <li id="li_A4FC4D795A9D4F92AAB187ACDFBA180D"> <p> <span class="uicontrol"> Shift-JIS </span>: Japanese character encoding. </p> </li> 
-     <li id="li_405C7EC97F994D649A50F84466FADA3D"> <p> <span class="uicontrol"> EUC-JP </span>: Extended Unix Code, primarily for Japanese, Korean, and simplified Chinese. </p> </li> 
-    </ul> </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Report Contents</strong></td> 
-  <td class="chdesc stentry"> <p> <span class="uicontrol"> Number of rows in the table </span>: Specifies the number of rows you want visible in the table of the report you are sending. </p> <p> <span class="uicontrol"> Language for header and footer </span>: Specifies the language of the header and footer. </p> <p> <span class="uicontrol"> Comments </span>: Specifies the text that appears at the beginning of the report. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Send Digital Signature File</strong></td> 
-  <td class="chdesc stentry"> <p>When you request a report, such as a bookmarked report or data warehouse requests, you can request a data signature. Adobe’s digital signature doesn't restrict who has access to the data, but the purpose of the Digital Signature File (.sig) is to verify the validity of the delivered report file. Using the digital signature, report recipients can verify that the file came from Adobe and has not been altered. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Report Destination</strong></td> 
-  <td class="chdesc stentry"> <p> <span class="uicontrol"> Email </span>: Lets you configure email address settings, the subject line, and notes. </p> <p> <span class="uicontrol"> FTP </span>: Lets you configure FTP settings, including the Host, Port, Directory, Username, and Password. </p> </td> 
- </tr> 
-</table>    
+   <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E" keycol="0"> 
+   <thead class="chhead sthead"> 
+   <th class="choptionhd"> Option </th> 
+   <th class="chdeschd"> Description </th> 
+   </thead> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Report File Name</strong></td> 
+   <td class="chdesc stentry"> <p>Specifies the name of the report. The default format is <span class="codeph"> &lt;report name&gt; for &lt;suite&gt; - &lt;report date range&gt; </span>. </p> <p>To specify a custom name, select <span class="uicontrol"> Custom </span>. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Report Format</strong></td> 
+   <td class="chdesc stentry"> <p>Lets you specify PDF, CSV, Excel, HTML, Word, or Mobile formats for delivery. If you select CSV, you can also specify the encoding for CSV: </p> <p> 
+      <ul id="ul_4A2EB8D9512246589994052CF482BFD7"> 
+      <li id="li_A4FC4D795A9D4F92AAB187ACDFBA180D"> <p> <span class="uicontrol"> Shift-JIS </span>: Japanese character encoding. </p> </li> 
+      <li id="li_405C7EC97F994D649A50F84466FADA3D"> <p> <span class="uicontrol"> EUC-JP </span>: Extended Unix Code, primarily for Japanese, Korean, and simplified Chinese. </p> </li> 
+      </ul> </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Report Contents</strong></td> 
+   <td class="chdesc stentry"> <p> <span class="uicontrol"> Number of rows in the table </span>: Specifies the number of rows you want visible in the table of the report you are sending. </p> <p> <span class="uicontrol"> Language for header and footer </span>: Specifies the language of the header and footer. </p> <p> <span class="uicontrol"> Comments </span>: Specifies the text that appears at the beginning of the report. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Send Digital Signature File</strong></td> 
+   <td class="chdesc stentry"> <p>When you request a report, such as a bookmarked report or data warehouse requests, you can request a data signature. Adobe’s digital signature doesn't restrict who has access to the data, but the purpose of the Digital Signature File (.sig) is to verify the validity of the delivered report file. Using the digital signature, report recipients can verify that the file came from Adobe and has not been altered. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Report Destination</strong></td> 
+   <td class="chdesc stentry"> <p> <span class="uicontrol"> Email </span>: Lets you configure email address settings, the subject line, and notes. </p> <p> <span class="uicontrol"> FTP </span>: Lets you configure FTP settings, including the Host, Port, Directory, Username, and Password. </p> </td> 
+   </tr> 
+   </table>    
     
 1. Click **[!UICONTROL Scheduling Options]**.
 
-    <table id="choicetable_589A39087F4C497D8913364FFF0125B7" keycol="0"> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> Option </th> 
-  <th class="chdeschd"> Description </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Send Report Now</strong></td> 
-  <td class="chdesc stentry"> <p>Sends the report immediately. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Schedule for Later</strong></td> 
-  <td class="chdesc stentry"> <p>Displays options to specify a time frame and delivery options. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Report Time Frame</strong></td> 
-  <td class="chdesc stentry"> <p> <span class="uicontrol"> Fixed </span>: Prevents the date from advancing as time passes. </p> <p> <span class="uicontrol"> Rolling </span>: Allows the date to advance as time passes. Some considerations: </p> <p> 
-    <ul id="ul_5CDCCBEFEB364800A428614183A0E6A1"> 
-     <li id="li_37B8F32A9E3B4979B5239A58F0C5A71C"> <p>If you select rolling for both the start and end dates, and you select a daily report for the previous day, you receive an email each day with a report for the previous day. </p> </li> 
-     <li id="li_83FFD2400C6A453783CDD9BB3B9BA3F9"> <p>If you select fixed for the starting day, and rolling for the end day, you receive on the first day a report for the previous day. The second day you receive a report for the previous two days, and on the third day you receive a report for the previous three days, and so on. </p> </li> 
-     <li id="li_28F8552D699841BC942058247D39DBB9"> <p>If you select fixed for both the beginning and ending dates, each day you receive an identical report for the days that you specified. </p> </li> 
-     <li id="li_A594A6E2A4044ED6AC0A80F88EB203B3"> <p>You cannot select a rolling start and a fixed finish date. </p> </li> 
-    </ul> </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Delivery Frequency</strong></td> 
-  <td class="chdesc stentry"> <p> <span class="uicontrol"> Hourly </span>: Delivers the email every hour, every other hour, or any other interval of hours. </p> <p> <span class="uicontrol"> Daily </span>: Sends the email every day, every other day, every third day, or any other interval of days. You can also have it sent every weekday. </p> <p> <span class="uicontrol"> Weekly </span>: Sends the email every week, other week, every third week, or any other interval of weeks. You can also specify which day of the week it is sent. </p> <p> <span class="uicontrol"> Monthly </span>: Specifies the interval in numbers of months, and you can also select the day of the month on which it is sent, or the day of the week in a specific week of the month. </p> <p> <span class="uicontrol"> Yearly </span>: Specifies the day of the year on which the report is sent, or you can send on a specific day of the week in any week of the year. </p> <p> <span class="uicontrol"> Time of Day </span>: Applies to the time zone attached to the selected report suite. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>End Delivery Options</strong></td> 
-  <td class="chdesc stentry"> <p> <span class="uicontrol"> Never end </span>: Specifies no end. </p> <p> <span class="uicontrol"> End after &lt;value&gt; occurrences </span>: Specifies the number of occurrences before ending delivery. </p> <p> <span class="uicontrol"> End on </span>: Lets you specify a specific date. </p> <p>If you want to process the data on the same date as the report data, the report contains only data that has been put in the database at the time the report is sent. Because complete processing for a day can take up to 24 hours, complete data might not be available at the time the report is sent. For complete data, always set the processing time for 24 hours after the end of the reporting period. </p> </td> 
- </tr> 
-</table>
+   <table id="choicetable_589A39087F4C497D8913364FFF0125B7" keycol="0"> 
+   <thead class="chhead sthead"> 
+   <th class="choptionhd"> Option </th> 
+   <th class="chdeschd"> Description </th> 
+   </thead> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Send Report Now</strong></td> 
+   <td class="chdesc stentry"> <p>Sends the report immediately. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Schedule for Later</strong></td> 
+   <td class="chdesc stentry"> <p>Displays options to specify a time frame and delivery options. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Report Time Frame</strong></td> 
+   <td class="chdesc stentry"> <p> <span class="uicontrol"> Fixed </span>: Prevents the date from advancing as time passes. </p> <p> <span class="uicontrol"> Rolling </span>: Allows the date to advance as time passes. Some considerations: </p> <p> 
+      <ul id="ul_5CDCCBEFEB364800A428614183A0E6A1"> 
+      <li id="li_37B8F32A9E3B4979B5239A58F0C5A71C"> <p>If you select rolling for both the start and end dates, and you select a daily report for the previous day, you receive an email each day with a report for the previous day. </p> </li> 
+      <li id="li_83FFD2400C6A453783CDD9BB3B9BA3F9"> <p>If you select fixed for the starting day, and rolling for the end day, you receive on the first day a report for the previous day. The second day you receive a report for the previous two days, and on the third day you receive a report for the previous three days, and so on. </p> </li> 
+      <li id="li_28F8552D699841BC942058247D39DBB9"> <p>If you select fixed for both the beginning and ending dates, each day you receive an identical report for the days that you specified. </p> </li> 
+      <li id="li_A594A6E2A4044ED6AC0A80F88EB203B3"> <p>You cannot select a rolling start and a fixed finish date. </p> </li> 
+      </ul> </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>Delivery Frequency</strong></td> 
+   <td class="chdesc stentry"> <p> <span class="uicontrol"> Hourly </span>: Delivers the email every hour, every other hour, or any other interval of hours. </p> <p> <span class="uicontrol"> Daily </span>: Sends the email every day, every other day, every third day, or any other interval of days. You can also have it sent every weekday. </p> <p> <span class="uicontrol"> Weekly </span>: Sends the email every week, other week, every third week, or any other interval of weeks. You can also specify which day of the week it is sent. </p> <p> <span class="uicontrol"> Monthly </span>: Specifies the interval in numbers of months, and you can also select the day of the month on which it is sent, or the day of the week in a specific week of the month. </p> <p> <span class="uicontrol"> Yearly </span>: Specifies the day of the year on which the report is sent, or you can send on a specific day of the week in any week of the year. </p> <p> <span class="uicontrol"> Time of Day </span>: Applies to the time zone attached to the selected report suite. </p> </td> 
+   </tr> 
+   <tr class="chrow strow"> 
+   <td class="choption"><strong>End Delivery Options</strong></td> 
+   <td class="chdesc stentry"> <p> <span class="uicontrol"> Never end </span>: Specifies no end. </p> <p> <span class="uicontrol"> End after &lt;value&gt; occurrences </span>: Specifies the number of occurrences before ending delivery. </p> <p> <span class="uicontrol"> End on </span>: Lets you specify a specific date. </p> <p>If you want to process the data on the same date as the report data, the report contains only data that has been put in the database at the time the report is sent. Because complete processing for a day can take up to 24 hours, complete data might not be available at the time the report is sent. For complete data, always set the processing time for 24 hours after the end of the reporting period. </p> </td> 
+   </tr> 
+   </table>
 
 ## Print a report {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 

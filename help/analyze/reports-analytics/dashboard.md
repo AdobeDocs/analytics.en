@@ -149,7 +149,7 @@ t_dashboard_content.xml
        >
        >The current limit to the number of pages in a dashboard is 30.
 
-    <table id="table_ECDE94477782487E881F388EB5E98051"> 
+<table id="table_ECDE94477782487E881F388EB5E98051"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Content Menu </th> 
@@ -219,7 +219,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-    <table id="choicetable_FD8D05A9465B43F89148D376DE083B59" keycol="0"> 
+<table id="choicetable_FD8D05A9465B43F89148D376DE083B59" keycol="0"> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>To </p> </th> 
   <th class="chdeschd"> <p>Do this </p> </th> 

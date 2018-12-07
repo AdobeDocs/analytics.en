@@ -175,7 +175,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Summary chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
+   <td colname="col1"> <p>Summary chart </p> <p style="text-align: center;"> <img placement="break" href="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
       <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Each box represents one anomaly, tracked per day, that corresponds to a metric below. </li> 
@@ -194,7 +194,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Individual metric chart </p> <p style="text-align: center;"> <img placement="break" align="left" href="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
+   <td colname="col1"> <p>Individual metric chart </p> <p style="text-align: center;"> <img placement="break" href="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_739C5687013743A29B63089FDA763F45"> 
       <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Displays anomalous data points for individual trended metrics (including calculated metrics) as dots. </li> 
@@ -225,9 +225,7 @@ You set up Anomaly Detection independently for each report suite.
 
 1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
 1. Select the report suite for which you want to track daily anomaly detection. To display a list of report suites, click the Report Suite selector drop-down menu.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png)
-
-   .
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
 
    You can pick metrics from the list (including calculated metrics) of all metrics or from a list of tracked metrics. You can also filter on specific terms to narrow down the list. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
 
@@ -247,8 +245,6 @@ You set up Anomaly Detection independently for each report suite.
    See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
 1. (Optional) Change the end date of the View Period. The default is yesterday.
 1. You can now start interpreting the report. [Viewing Anomaly Detection charts](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
-
-   Step Result 
 
 ## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -332,9 +328,8 @@ For information on configuring real-time reports, see the [Analytics Reference G
     
 1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
 
-       | **Item Trend Reportlet** | Presents the trend line of the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
-       |---|---|
-       | **Item Total Reportlet** | Presents a total metric count for the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
-       | **Correlated Secondary 1 Reportlet** | This reportlet is very similar to the Secondary 1 Reportlet. The only difference is the data source used to populate this report: in this example, it shows the correlation (or breakdown) between a specific page (the one you selected in the primary reportlet of the Overview report) and the instances viewed.  |
-       | **Correlated Secondary 2 Reportlet** | This reportlet is very similar to the Secondary 2 Reportlet. The only difference is the data source used to populate this report: in this example, it shows the correlation (or breakdown) between a specific page (the one you selected in the primary reportlet of the Overview report) and the language dimension.  |
-
+   | **Item Trend Reportlet** | Presents the trend line of the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
+   |---|---|
+   | **Item Total Reportlet** | Presents a total metric count for the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
+   | **Correlated Secondary 1 Reportlet** | This reportlet is very similar to the Secondary 1 Reportlet. The only difference is the data source used to populate this report: in this example, it shows the correlation (or breakdown) between a specific page (the one you selected in the primary reportlet of the Overview report) and the instances viewed.  |
+   | **Correlated Secondary 2 Reportlet** | This reportlet is very similar to the Secondary 2 Reportlet. The only difference is the data source used to populate this report: in this example, it shows the correlation (or breakdown) between a specific page (the one you selected in the primary reportlet of the Overview report) and the language dimension.  |

@@ -35,10 +35,10 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets. >
->* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard. 
->* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**. 
->
+>The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets.
+
+* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard. 
+* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**. 
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
@@ -306,4 +306,3 @@ Segments can be applied on two levels: to an entire dashboard or on a specific r
 * **Reportlet level**: Click **[!UICONTROL Layout]**, then the report suite of the reportlet you want to segment. A modal window appears that lets you add or change what segment(s) the reportlet uses. 
 
 * **Dashboard level**: Click the Segment icon in the left navigation, check the segment(s) you want to use, and click Apply. The selected segments override and replace any reportlet-level segments.
-

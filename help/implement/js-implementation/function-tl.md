@@ -40,9 +40,9 @@ If needed, these types of links can be manually tracked using custom link code a
   <tr> 
    <td> linkType </td> 
    <td> <p> 
-     <codeblock class="syntax javascript">
-       s.tl(this,linkType,linkName,&amp;nbsp;variableOverrides,&amp;nbsp;doneAction) 
-     </codeblock> </p> <p>linkType has three possible values, depending on the type of link that you want to capture. If the link is not a download or an exit link, you should choose the Custom links option.  </p>
+     <code>
+       s.tl(this,linkType,linkName,& variableOverrides,& doneAction) 
+     </code> </p> <p>linkType has three possible values, depending on the type of link that you want to capture. If the link is not a download or an exit link, you should choose the Custom links option.  </p>
     <table id="table_63B2354DD29A4F2CB3660C5BBAB969D2">  
     </table> </td> 
   </tr> 
@@ -57,29 +57,29 @@ If needed, these types of links can be manually tracked using custom link code a
   <tr> 
    <td> useForcedLinkTracking </td> 
    <td> <p>This flag is used to disable forced link tracking for some browsers. Forced link tracking is enabled by default for FireFox 20+ and WebKit browsers. </p> <p> <b> Default Value</b> </p> <p>true </p> <p> <b> Example</b> </p> <p> 
-     <codeblock class="syntax javascript">
-       s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
-     </codeblock> </p> </td> 
+     <code>
+       s.useForcedLinkTracking& = false 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td> forcedLinkTrackingTimeout </td> 
    <td> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <span class="wintitle"> doneAction </span> that was passed into <span class="filepath"> s.tl </span>. This value specifies the maximum wait time. If the track link call completes before this timeout, the <span class="wintitle"> doneAction </span> is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout. </p> <p> <b> Default Value</b> </p> <p>250 </p> <p> <b> Example</b> </p> <p> 
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
        s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td> doneAction </td> 
    <td> <p>An optional parameter to specify a navigation action to execute after the track link call completes when <span class="codeph"> useForcedLinkTracking </span> is enabled. </p> <p> <b> Syntax</b> </p> <p> 
-     <codeblock class="syntax javascript">
+     <code class="syntax javascript">
        s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-     </codeblock> </p> <p> <b> <span class="wintitle"> doneAction </span> </b> : (optional) Specifies the action to take after the link track call is sent or has timed out, based on the value specified by: 
-     <codeblock class="syntax javascript">
+     </code> </p> <p> <b> <span class="wintitle"> doneAction </span> </b> : (optional) Specifies the action to take after the link track call is sent or has timed out, based on the value specified by: 
+     <code class="syntax javascript">
        s.forcedLinkTrackingTimeout 
-     </codeblock> The <span class="wintitle"> doneAction </span> variable can be the string navigate, which causes the method to set <span class="filepath"> document.location </span> to the href attribute of <span class="wintitle"> linkObject </span>. The <span class="wintitle"> doneAction </span> variable can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="wintitle"> doneAction </span> in an anchor <span class="wintitle"> onClick </span> event, you must return false after the <span class="filepath"> s.tl </span> call to prevent the default browser navigation. </p> <p>To mirror the default behavior and follow the URL specified by the href attribute, provide a string of navigate as the <span class="wintitle"> doneAction </span> . </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="wintitle"> doneAction </span>. </p> <p> <b> Examples</b> </p> 
-    <codeblock class="syntax javascript">
+     </code> The <span class="wintitle"> doneAction </span> variable can be the string navigate, which causes the method to set <span class="filepath"> document.location </span> to the href attribute of <span class="wintitle"> linkObject </span>. The <span class="wintitle"> doneAction </span> variable can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="wintitle"> doneAction </span> in an anchor <span class="wintitle"> onClick </span> event, you must return false after the <span class="filepath"> s.tl </span> call to prevent the default browser navigation. </p> <p>To mirror the default behavior and follow the URL specified by the href attribute, provide a string of navigate as the <span class="wintitle"> doneAction </span> . </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="wintitle"> doneAction </span>. </p> <p> <b> Examples</b> </p> 
+    <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt;&amp;nbsp;&lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt;&amp;nbsp; 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,7 +362,7 @@ For example, you could insert the following two functions in your `AppMeasuremen
 
 ```js
 /* Set Click Interaction values (with timeout - H25 code and higher*/ 
- 
+
 function trackClickInteraction(name){ 
     var s=s_gi('rsid'); 
     s.linkTrackVars='prop42,prop35'; 
@@ -504,7 +504,7 @@ Inside of `doPlugins`, you can use the following values to modify link tracking 
  </tbody> 
 </table>
 
-** Example**
+**Example**
 
 ```js
 function s_doPlugins(s) { 

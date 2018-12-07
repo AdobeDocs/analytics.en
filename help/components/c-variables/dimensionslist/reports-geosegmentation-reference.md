@@ -17,7 +17,7 @@ The following table lists whether the country has regions or postal codes, which
 
 Yes indicates that the report is populated for that country, No means the report is not populated. 
 
-|  **Country Name ** | **Has Regions ** | **Uses Postal Codes ** |
+|  **Country Name** | **Has Regions** | **Uses Postal Codes** |
 |---|---|---|
 |  unknown  | No  | Yes  |
 |  aruba  | No  | No  |
@@ -272,4 +272,3 @@ Yes indicates that the report is populated for that country, No means the report
 |  south africa  | Yes  | Yes  |
 |  zambia  | Yes  | No  |
 |  zimbabwe  | Yes  | No  |
-

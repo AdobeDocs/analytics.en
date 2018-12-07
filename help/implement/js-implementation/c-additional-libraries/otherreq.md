@@ -32,7 +32,7 @@ You can view sample code to further understand the implementation. The following
   </tr> 
   <tr> 
    <td> Encode Query Parameters </td> 
-   <td> <p> The values for each of the query string parameters must be URL encoded. URL encoding converts characters that are normally illegal when appearing in a query string, such as a space character, into an encoded character beginning with %. For example, a space character is converted into %20. </p> <p>The JavaScript version of this function is called escape (and to decode, unescape). Microsoft IIS Version 5.0 also includes an Escape and Unescape function for encoding query strings. Other Web server scripting languages also provide encoding/decoding utilities. </p> </td> 
+   <td> <p> The values for each of the query string parameters must be URL encoded. URL encoding converts characters that are normally illegal when appearing in a query string, such as a space character, into an encoded character beginning with <code>%</code>. For example, a space character is converted into <code>%20</code>. </p> <p>The JavaScript version of this function is called escape (and to decode, unescape). Microsoft IIS Version 5.0 also includes an Escape and Unescape function for encoding query strings. Other Web server scripting languages also provide encoding/decoding utilities. </p> </td> 
   </tr> 
   <tr> 
    <td> Maximum Variable Length </td> 
@@ -43,12 +43,12 @@ You can view sample code to further understand the implementation. The following
    <td> Characters with character codes above decimal 128 are invalid, as are not-printing character codes under 128. HTML formatting ("&lt;h1&gt;") is also invalid, as are trademark, registered trademark, and copyright symbols. </td> 
   </tr> 
   <tr> 
-   <td> Secure (https:&gt; vs. Non-Secure (https:) Image Requests </td> 
+   <td> Secure (&lt;https:&gt; vs. Non-Secure (&lt;http:&gt;) Image Requests </td> 
    <td> <p>On pages that are accessed via https (secure protocol), the URL portion of the image request changes to accommodate a different set of data collection servers. </p> <p>The following table illustrates the different URLs used for secure and non-secure image requests. </p> <p>  </p>
     <table id="table_4DD27C32DFCD42A392D1A2577CB34ED7">  
-    </table> <p> The * in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe uses several data centers, and it is necessary to implement the correct URL your organization has been assigned. Any code downloaded out of Admin Console within your company account has the correct data center supplied automatically. Code provided from external sources may need to be corrected in order to point to the correct data center. </p> <p> For clients who use multiple report suites, they should be listed only in the directory section, and not the domain section of the URL, as shown below. </p> <p>  </p>
+    </table> <p> The <code>*</code> in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe uses several data centers, and it is necessary to implement the correct URL your organization has been assigned. Any code downloaded out of Admin Console within your company account has the correct data center supplied automatically. Code provided from external sources may need to be corrected in order to point to the correct data center. </p> <p> For clients who use multiple report suites, they should be listed only in the directory section, and not the domain section of the URL, as shown below. </p> <p>  </p>
     <table id="table_8B770D26088F4D83BDDBF19C03BB13F9">  
-    </table> <p> The * in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe uses several data centers, and it is necessary to implement the correct URL to which your organization has been assigned. </p> </td> 
+    </table> <p> The <code>*</code> in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Adobe uses several data centers, and it is necessary to implement the correct URL to which your organization has been assigned. </p> </td> 
   </tr> 
   <tr> 
    <td> URL and Referring URL </td> 
@@ -64,4 +64,3 @@ You can view sample code to further understand the implementation. The following
   </tr> 
  </tbody> 
 </table>
-

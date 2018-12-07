@@ -14,4 +14,4 @@ This report is populated in one of two ways:
 *   Populating the `s.zip` variable in your Analytics Implementation
 *   Configuring automatic zip population based on geoSegmentation data. You can configure zip to be populated only when s.zip is not set. To enable, have a supported user contact Adobe Customer Care.
 
-See [GeoSegmentation Regions and Postal Code usage by Country](/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md)
+See [GeoSegmentation Regions and Postal Code usage by Country](reports-geosegmentation-reference.md)

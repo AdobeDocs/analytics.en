@@ -35,145 +35,38 @@ Click **[!UICONTROL Customize]** to select items to which this group will have a
 
 The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 
 
-<table id="table_F8CF3E5E60DA4FCB89ED85C044F0D0F7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> <b>General</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/billing-admin.md#concept_B66434D0D6274C96988E40833879A0D2" format="dita" scope="local"> Billing</a> </p> </td> 
-   <td colname="col2"> <p>Enables access to billing information, including traffic details for each report suite. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/code-manager-admin.md#concept_621F6BA24BF140388D7FE4B3B556D384" format="dita" scope="local"> Code Manager</a> </p> </td> 
-   <td colname="col2"> <p>Enables permission to download data collection code for web and mobile platforms. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code Manager - Web Services </p> </td> 
-   <td colname="col2"> <p>Allows a non-administrative user to access the Code Manager through Web Services. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/logs.md#concept_8C55FE944C0C4D0E963645366A0DCFDE" format="dita" scope="local"> Logs</a> </p> </td> 
-   <td colname="col2"> <p> Enables permission to log files, which help you see when users log in, their usage, access, report suites, and Admin changes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Logs - Web Services </p> </td> 
-   <td colname="col2"> <p>Allows a non-administrative user to access the Admin Tools logs through Web Services. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a> </p> </td> 
-   <td colname="col2"> <p> Traffic Management page lets you specify expected traffic volume changes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Permission Management </p> </td> 
-   <td colname="col2"> <p> Grants non-admin users access to the User Management pages in Admin Tools. These users have Read permissions but do not have Write permissions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Permissions (Write) - Web Services </p> </td> 
-   <td colname="col2"> <p>Grants non-administrative users read and write permission settings under User Management in Web Services. </p> <p> This setting refers specifically to the indicated permissions actions in the Admin API. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Permissions (Read) - Web Services </p> </td> 
-   <td colname="col2"> <p>Allows a non-administrative user to view permission settings under User Management in Web Services. </p> <p> This setting refers specifically to the indicated permissions actions in the Admin API. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <p> <b>Company Management</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/company/security-manager.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Security</a> </p> </td> 
-   <td colname="col2"> <p> Grants permission to the <span class="wintitle"> Security Manager</span> page to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Support Information </p> </td> 
-   <td colname="col2"> <p>Grants permission to the <span class="wintitle"> Support Information</span> in <span class="wintitle"> Company Settings</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/company/web-services-admin.md#concept_4E89942575B544448D70B1296689629C" format="dita" scope="local"> Web Services</a> </p> </td> 
-   <td colname="col2"> <p>Allows access to the Web Services page in the Admin Tools interface (<span class="uicontrol"> Company Settings</span> &gt; <span class="uicontrol"> Web Services</span>). </p> <p> The Web Services API provides programmatic access to <span class="keyword"> Adobe Analytics</span> services that let you duplicate and augment functionality available through the user interface. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Announcements </p> </td> 
-   <td colname="col2"> <p>Version 14 only. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Single Sign-On (Legacy) </p> </td> 
-   <td colname="col2"> <p> Grants access to the single sign-on page in Admin Tools. </p> <p> <b>Note:</b> Single sign-on in the Adobe Experience Cloud is implemented using <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html" format="html" scope="external"> account linking</a> between the Experience Cloud and solutions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/company/pending-actions-admin.md#concept_285BB239DB8D4BBC8CA9A88C81A6ECCC" format="dita" scope="local"> Pending Actions</a> </p> </td> 
-   <td colname="col2"> <p>Grants permission to manage pending actions in <span class="wintitle"> Company Settings</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/company/co-branding-admin.md#concept_2AFE2EC82A2E429BB0E3AC9D1E6192A4" format="dita" scope="local"> Co-Branding</a> </p> </td> 
-   <td colname="col2"> <p>Grants permission to co-brand <span class="keyword"> Analytics</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/preferences-manager.md#concept_479B1352242D45179B71E14500BE8B40" format="dita" scope="local"> Preferences</a> </p> </td> 
-   <td colname="col2"> <p>Grants permission to the <span class="wintitle"> Preference Manager</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/company/c-hide-report-suites.md#concept_FE86137A33A84B5D982A96F3592AEEB4" format="dita" scope="local"> Hide Report Suites</a> </p> </td> 
-   <td colname="col2"> <p> Grants permission to hide report suites in the <span class="keyword"> Adobe Analytics</span> user interface. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <p> <b>Tools</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <p>These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/clickmap.html" format="html" scope="external"> ClickMap</a> </p> </td> 
-   <td colname="col2"> <p>Displays <span class="wintitle"> ClickMap</span> in the <span class="wintitle"> Tools</span> menu in the header. (<b>Note:</b> Adobe recommends using <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Activity Map</a>.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="html" scope="external"> Current Data</a> </p> </td> 
-   <td colname="col2"> <p>Grants permission to use the Current Data feature in reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/" format="https" scope="external"> Ad Hoc Analysis</a> License Users </p> </td> 
-   <td colname="col2"> <p>Grants permission to access <span class="wintitle"> Ad Hoc Analysis</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Web Service Access </p> </td> 
-   <td colname="col2"> <p>Enables Web Services access for non-administrators. Generates Web Service credentials. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/setup.html" format="html" scope="external"> Report Builder</a> </p> </td> 
-   <td colname="col2"> <p>Grants members of this group access to <span class="wintitle"> Report Builder</span> licenses. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/" format="https" scope="external"> Analysis Workspace</a> Access </p> </td> 
-   <td colname="col2"> <p>Grants users access to Analysis Workspace, the recommended reporting interface for <span class="keyword"> Adobe Analytics</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/" format="https" scope="external"> Reports &amp; Analytics</a> Access </p> </td> 
-   <td colname="col2"> <p>Grants users access to <span class="wintitle"> Reports &amp; Analytics</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="html" scope="external"> Create / Curate Projects</a> in Analysis Workspace </p> </td> 
-   <td colname="col2"> <p>Grants users permission to create and curate projects in <span class="wintitle"> Analysis Workspace</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/" format="https" scope="external"> Calculated Metric Creation</a> </p> </td> 
-   <td colname="col2"> <p>Grants users permission to create calculated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="https" scope="external"> Segment Creation</a> </p> </td> 
-   <td colname="col2"> <p>Grants users permission to create segments. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <p> <b>Data Connectors</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Integrations (Create, Update, or Delete) </p> </td> 
-   <td colname="col2"> <p>Grants permission to create, update, and delete <a href="https://marketing.adobe.com/resources/help/en_US/genesis/" format="https" scope="external"> Data Connector</a> integrations. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Element | Description |
+|--- |--- |
+|**General**||
+|[Billing](../../../admin/admin/billing-admin.md)|Enables access to billing information, including traffic details for each report suite.|
+|[Code Manager](../../../admin/admin/code-manager-admin.md)|Enables permission to download data collection code for web and mobile platforms.|
+|Code Manager - Web Services|Allows a non-administrative user to access the Code Manager through Web Services.|
+|[Logs](../../../admin/admin/logs.md)|Enables permission to log files, which help you see when users log in, their usage, access, report suites, and Admin changes.|
+|Logs - Web Services|Allows a non-administrative user to access the Admin Tools logs through Web Services.|
+|[Traffic Management](../../../admin/c-traffic-management/traffic-management.md)|Traffic Management page lets you specify expected traffic volume changes.|
+|Permission Management|Grants non-admin users access to the User Management pages in Admin Tools. These users have Read permissions but do not have Write permissions.|
+|Permissions (Write) - Web Services|Grants non-administrative users read and write permission settings under User Management in Web Services.<br>This setting refers specifically to the indicated permissions actions in the Admin API.|
+|Permissions (Read) - Web Services|Allows a non-administrative user to view permission settings under User Management in Web Services.<br>This setting refers specifically to the indicated permissions actions in the Admin API.|
+|**Company Management**||
+|[Security](../../../admin/company/security-manager.md)|Grants permission to the  Security Manager page to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.|
+|Support Information|Grants permission to the  Support Information in  Company Settings.|
+|[Web Services](../../../admin/company/web-services-admin.md)|Allows access to the Web Services page in the Admin Tools interface ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>The Web Services API provides programmatic access to  Adobe Analytics services that let you duplicate and augment functionality available through the user interface.|
+|Announcements|Version 14 only.|
+|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools.<br>**Note:** Single sign-on in the Adobe Experience Cloud is implemented using [account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) between the Experience Cloud and solutions.|
+|[Pending Actions](../../../admin/company/pending-actions-admin.md)|Grants permission to manage pending actions in [!UICONTROL Company Settings].|
+|[Co-Branding](../../../admin/company/co-branding-admin.md)|Grants permission to co-brand  Analytics.|
+|[Preferences](../../../admin/admin/preferences-manager.md)|Grants permission to the [!UICONTROL Preference Manager].|
+|[Hide Report Suites](../../../admin/company/c-hide-report-suites.md)|Grants permission to hide report suites in the  Adobe Analytics user interface.|
+|**Tools**|These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics.|
+|[ClickMap](https://marketing.adobe.com/resources/help/en_US/sc/user/clickmap.html)|Displays  ClickMap in the [!UICONTROL Tools] menu in the header.<br>(**Note:** Adobe recommends using [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html).)|
+|[Current Data](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)|Grants permission to use the Current Data feature in reporting.|
+|[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) License Users|Grants permission to access [!UICONTROL Ad Hoc Analysis].|
+|Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
+|[Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
+|[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
+|[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)|Grants users access to  Reports & Analytics.|
+|[Create / Curate Projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html) in Analysis Workspace|Grants users permission to create and curate projects in  Analysis Workspace.|
+|[Calculated Metric Creation](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)|Grants users permission to create calculated metrics.|
+|[Segment Creation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)|Grants users permission to create segments.|
+|**Data Connectors**||
+|Integrations (Create, Update, or Delete)|Grants permission to create, update, and delete  Data Connector integrations.|

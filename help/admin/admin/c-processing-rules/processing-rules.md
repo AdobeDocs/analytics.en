@@ -29,9 +29,8 @@ Processing rules simplify data collection and manage content as it is sent to re
 
 *Watch the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules.*
 
-<!-- Meike, we can't put videos in tables. And I don't think we can use images to link to videos.
-| [ ![](assets/proc-rules-training.png)]/(https://tv.adobe.com/embed/1181/16506/) | [Watch](https://tv.adobe.com/embed/1181/16506/) Watch the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules. |
-|---|---|
+<!-- 
+Meike, we can't put videos in tables. I reformatted the video in a table. Please check against original. -Bob
 -->
 
 ## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}

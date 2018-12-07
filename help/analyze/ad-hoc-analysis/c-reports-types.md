@@ -56,7 +56,9 @@ t_trend_row.xml
 **To trend from cells** 
 
 1. Open a ranked report.
-1. In the table, locate the cell and click **[!UICONTROL Trend]**.  ![](assets/TrendInspector_Buttcon.png)
+1. In the table, locate the cell and click **[!UICONTROL Trend]**.
+
+  ![](assets/TrendInspector_Buttcon.png)
 
 1. To view a full report from the cell, click **[!UICONTROL Launch Trend Report]**.
 
@@ -205,9 +207,9 @@ Drag items from tool panes to add them to the graph or the dimensions field.
 Right click cylinders to edit or remove them.
 
 <table id="table_B38BD7AA465B40BABEDC8F66EB3A852F"> 
- <desc> 
+ <code> 
   <p>Options </p> 
- </desc> 
+ </code> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -247,9 +249,9 @@ Right click cylinders to edit or remove them.
 </table>
 
 <table id="table_BD98971B579D4BF49E1C932A9C876752"> 
- <desc> 
+ <code> 
   <p>Right-Click Options </p> 
- </desc> 
+ </code> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -279,4 +281,3 @@ Right click cylinders to edit or remove them.
   </tr> 
  </tbody> 
 </table>
-

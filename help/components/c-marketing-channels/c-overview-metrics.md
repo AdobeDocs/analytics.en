@@ -22,16 +22,11 @@ How to use metrics in Marketing Channel reports.
 
 ![](assets/metric_edit_icon.png)
 
-: Add (or edit) metrics.
+Add (or edit) metrics.
 
 ![](assets/add_column_icon.png)
 
-: Add a column to the report.
-
-* [First and last-touch metrics](../../components/c-marketing-channels/c-overview-metrics.md#concept_68D9A50204304BA58C1F8013451E7853) 
-* [New Engagements](../../components/c-marketing-channels/c-overview-metrics.md#reference_EF63B28A7E15484D992385C272C71BC2) 
-* [Click-Through](../../components/c-marketing-channels/c-overview-metrics.md#reference_55E2254F02EF4E7EB0AD2838C948347A) 
-* [Add metrics to a Marketing Channel report](../../components/c-marketing-channels/c-overview-metrics.md#task_D381139E00504666AB2402D553CFEA5B)
+Add a column to the report.
 
 ## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
 
@@ -73,28 +68,11 @@ Every success event instance will have exactly one First Touch channel and exact
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
-<table id="table_FD7473F6436945B690E2D72036C17DD8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Metric </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>First-touch channel </p> </td> 
-   <td colname="col2"> <p>The first marketing channel to engage a visitor. Technically, the first-touch channel is an eVar with original expiration. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First-touch visitor </p> </td> 
-   <td colname="col2"> <p>In channel reporting, a first-touch visitor is a Daily Unique Visitor that originated from a channel. The visitor's engagement is stored for the duration of the engagement period with the site, which can last many visits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Last-touch channel </p> </td> 
-   <td colname="col2"> <p>The conversion channel, meaning, the last marketing channel to engage the visitor and result in a conversion. Only one channel is set as the first touch channel. The last touch channel can change with every return visit to the site. Every visit has a first-touch and last-touch channel, but the value of the first-touch channel never changes with subsequent visits. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metric  | Definition  |
+|--- |--- |
+|First-touch channel|The first marketing channel to engage a visitor. Technically, the first-touch channel is an eVar with original expiration.|
+|First-touch visitor|In channel reporting, a first-touch visitor is a Daily Unique Visitor that originated from a channel. The visitor's engagement is stored for the duration of the engagement period with the site, which can last many visits.|
+|Last-touch channel|The conversion channel, meaning, the last marketing channel to engage the visitor and result in a conversion. Only one channel is set as the first touch channel. The last touch channel can change with every return visit to the site. Every visit has a first-touch and last-touch channel, but the value of the first-touch channel never changes with subsequent visits.|
 
 ## Click-through {#reference_55E2254F02EF4E7EB0AD2838C948347A}
 
@@ -117,7 +95,9 @@ The First-Touch Channel report would show 1 new engagement for Paid Search. Each
 Add metrics to the Marketing Channel report. You can add up to four metrics to each column in the report, and as many columns as you want.
 
 1. Open the [!UICONTROL Marketing Channel Report].
-1. Click Add Metrics.  ![](assets/metric_edit_icon.png)
+1. Click Add Metrics.
+
+   ![](assets/metric_edit_icon.png)
 
 1. Under [!UICONTROL Available Metrics], drag-and-drop metrics from the [!UICONTROL Available Metrics] section to the [!UICONTROL Selected Metrics] section.
 

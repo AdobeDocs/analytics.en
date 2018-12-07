@@ -15,8 +15,6 @@ snippet: y
 
 Field descriptions for the Scheduled Task Manager.
 
-<a id="section_69306B8D833F4DF7BBFA53753B0E6C31"></a>
-
 The Scheduled Task Manager lets you see a list of existing scheduled reports, along with their recipients, schedule details, and file formats. It also lets you reactivate scheduled workbooks that failed to run. 
 
 <table id="table_21B07A0B5F1D4435A4E882E45A7A6B6E"> 
@@ -97,4 +95,3 @@ The Scheduled Task Manager lets you see a list of existing scheduled reports, al
   </tr> 
  </tbody> 
 </table>
-

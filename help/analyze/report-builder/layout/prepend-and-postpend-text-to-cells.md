@@ -17,9 +17,6 @@ In Pivot and Custom Layout requests, for numeric or string values, you can prepe
 
 This option is available on the [!UICONTROL Request Wizard: Step 2].
 
-** Prepend Text:** Adds a prefix of numeric or string values in the cell.
+**Prepend Text:** Adds a prefix of numeric or string values in the cell.
 
-** Postpend Text:** Appends a numeric or string values in the cell.
-
-<a id="section_B0E91D2F2F95498B9C688B5CBD21203B"></a>
-
+**Postpend Text:** Appends a numeric or string values in the cell.

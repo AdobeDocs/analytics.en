@@ -48,6 +48,3 @@ After you download the library, you must configure the code to send data to the 
   </tr> 
  </tbody> 
 </table>
-
-<a id="section_FBDEB22473074331B1FB28C692889FA6"></a>
-

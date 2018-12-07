@@ -97,8 +97,6 @@ You nest two page rules within a top-level [!UICONTROL Visitor] container and se
 
 ![](assets/segment_sequential_1.png)
 
-<a id="section_3386E84A4EB641E999B09F78D47A055C"></a>
-
 <!-- 
 
 seg_example_visitor_sequence.xml

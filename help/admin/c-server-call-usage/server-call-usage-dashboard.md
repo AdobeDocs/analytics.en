@@ -11,8 +11,6 @@ snippet: y
 
 # View current server call usage
 
-<a id="section_AC4C1B70615C490FA09719A912ECB244"></a>
-
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Current Usage]** 
 
 >[!IMPORTANT]

@@ -18,7 +18,7 @@ Adobe Analytics support both single-level and multiple-level classifications mod
 
 >[!NOTE]
 >
->Sub-classification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](/help/components/c-classifications2/classification-hierarchies.md).
+>Sub-classification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](classification-hierarchies.md).
 
 <!-- 
 
@@ -117,4 +117,3 @@ When uploading data files for this product classification, you can upload the cl
 |  &#42;  | 01  | Stone  |
 |  &#42;  | 03  | Heather  |
 |  &#42;  | 23  | Aqua  |
-

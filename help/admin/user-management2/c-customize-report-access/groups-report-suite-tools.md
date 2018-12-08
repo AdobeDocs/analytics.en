@@ -80,6 +80,6 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |The settings in Dashboard Items enables access to the following [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports & Analytics:
 <ul><li>My Recommended Reports</li><li>Company Summary Reportlet</li><li>Image  
 </li><li>KPI/Gauge Reportlet</li><li>Report Suite Totals  
-</li><li>Text Reportlet</li><li>Usage Summary Reportlet</li><li>Web Resources</li></ul>|
+</li><li>Text Reportlet</li><li>Usage Summary Reportlet</li><li>Web Resources</li></ul>||
 |**Other**||
 |Social|Controls access to the  Social Management menu in the  Report Suite Manager.|

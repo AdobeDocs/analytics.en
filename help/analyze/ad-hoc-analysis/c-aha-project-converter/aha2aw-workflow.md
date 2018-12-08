@@ -37,7 +37,7 @@ You have 2 options with respect to converting Ad Hoc Analysis projects:
    ![](assets/aha2aw_projects.png)
 
 1. Click **[!UICONTROL Convert]**. 
-1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "Error-Id: <Error-Code>".
+1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
 
    ![](assets/export_summary.png)
 
@@ -46,4 +46,4 @@ You have 2 options with respect to converting Ad Hoc Analysis projects:
 1. In Ad Hoc Analysis, open a project that you want to convert. 
 1. Click **[!UICONTROL Convert current project to Analysis Workspace.]** ![](assets/export_current.png)
 
-1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "Error-Id: <Error-Code>".
+1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".

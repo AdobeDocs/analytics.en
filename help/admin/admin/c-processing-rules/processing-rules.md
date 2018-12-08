@@ -19,8 +19,8 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Set an event on the product overview page 
 * Populate campaign with a query string parameter 
 * Concatenate category and page name in a prop for easier reporting 
-* Copy an eVar into a prop to see paths 
-* Clean up misspelled site sections 
+* Copy an eVar into a prop to see paths
+* Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
 >[!VIDEO](https://tv.adobe.com/embed/1181/16506/)

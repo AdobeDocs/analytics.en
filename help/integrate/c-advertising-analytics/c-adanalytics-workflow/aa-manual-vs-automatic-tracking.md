@@ -47,7 +47,7 @@ The string that needs to be added to your Google account is shown below. You nee
 
 >[!IMPORTANT]
 >
->The <Advertising Analytics ID> value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
+>The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
 
 **Tracking String for Campaigns:**
 
@@ -71,33 +71,33 @@ s_kwcid=AL!
   <tr> 
    <td colname="col1"> <p>{lpurl} example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword} 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>{lpurl} with additional URL parameter example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       {lpurl}?campaign=PPC&amp;s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3rd-party (DoubleClick) {unescapedlpurl} example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3rd-party (DoubleClick) {lpurl} example </p> <p>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +108,7 @@ The string that needs to be added to your Bing account is shown below. You need 
 
 >[!IMPORTANT]
 >
->The <Advertising Analytics ID> value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
+>The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
 
 **Tracking String for Campaigns:** 
 
@@ -132,36 +132,35 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
   <tr> 
    <td colname="col1"> <p> {lpurl} example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       {lpurl}? 
      <b>s_kwcid=AL!9999!10!{AdId}!{OrderItemId}</b>
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>{lpurl} with additional URL parameter example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       {lpurl}?campaign=PPC&amp; 
      <b>s_kwcid=AL!9999!10!{AdId}!{OrderItemId}</b>
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3rd-party (DoubleClick) {unescapedlpurl} example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3rd-party (DoubleClick) {lpurl} example </p> <p>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
-
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,7 +171,7 @@ The string that needs to be added to your Yahoo Gemini account is shown below. A
 
 >[!IMPORTANT]
 >
->The <Advertising Analytics ID> value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
+>The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
 
 ```
 s_kwcid=AL! 
@@ -195,35 +194,35 @@ s_kwcid=AL!
   <tr> 
    <td colname="col1"> <p>Landing page URL example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://www.website.com? 
      <b>s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}</b>
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Landing page URL with additional URL parameter example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://www.website.com?campaign=PPC&amp; 
      <b>s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}</b>
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3rd-party (DoubleClick) landing page example </p> </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url=&nbsp;https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> If the URL goes through a redirect, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </td> 
    <td colname="col2"> 
-    <codeblock>
+    <code>
       https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url=&amp;nbsp;http%3A%2F%2Fwww.website.com%3Fs_kwcid%3DAL!9999!105!{adid}!{network}!{keywordid} 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>

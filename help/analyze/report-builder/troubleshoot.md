@@ -38,67 +38,42 @@ You will experience the following side effect when opening a ARB v5.1 workbook w
 
 Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to report builder depending on your settings within [!DNL Analytics] or your network. 
 
-<table id="table_7A2070A17B70448981A85CF77176EBF2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Invalid Login Company </td> 
-   <td colname="col2">This error most commonly occurs when either the login company is improperly entered, or if there are network activity issues. Do the following: 
-    <ul id="ul_2F65EB64EF2040AEB0DD519C3053E37B"> 
-     <li id="li_8601336246B64A6696A0DB6EF349D5D8">Check the login company spelling to ensure that there is not a typo or an errant space. </li> 
-     <li id="li_ECD83E29D1A04B828FA9AAEE38029672">Log in to <span class="keyword"> Analytics</span> with the same login company to ensure that it is correct. If you are not able to log in with those credentials, contact one of your organization's administrators to obtain the correct login company. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Firewall </td> 
-   <td colname="col2"> Report Builder uses ports 80 and 443. Ensure that these ports are allowed through your organization's firewall. See also Adobe's Internal IP Addresses for additional firewall exclusions. </td> 
-  </tr> 
- </tbody> 
-</table>
+**Invalid Login Company**
+
+This error most commonly occurs when either the login company is improperly entered, or if there are network activity issues. Do the following:
+
+*   Check the login company spelling to ensure that there is not a typo or an errant space.
+*   Log in to Analytics with the same login company to ensure that it is correct. If you are not able to log in with those credentials, contact one of your organization's administrators to obtain the correct login company.
+
+**Firewall**
+
+Report Builder uses ports 80 and 443. Ensure that these ports are allowed through your organization's firewall. See also Adobe's Internal IP Addresses for additional firewall exclusions.
 
 ## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
 
 The following factors can increase request complexity and result in slower processing: 
 
-<table id="table_7B2E48E1D78F49668A70476E211926D3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Factors that can slow down deliveries </td> 
-   <td colname="col2"> 
-    <ul id="ul_61FFD31E3F04424393F3F886C9547526"> 
-     <li id="li_6497332FDF07488AAAC587863651BF8D">Too many bookmarks, dashboards, and Report Builder workbooks were scheduled within a few hours </li> 
-     <li id="li_CBE0E455CEBE4FF99ADE317E00A96BA1">Too many Report Builder workbooks were scheduled at around the same time. When this occurs, the report API queue becomes backlogged. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Factors that can slow down workbook runtime </td> 
-   <td colname="col2"> 
-    <ul id="ul_F3383A91CBF24621999763E2BA57995F"> 
-     <li id="li_57F37C48A87D4174ABB65C020979A5BB">Significant increase in classifications. </li> 
-     <li id="li_F0D9EC30C7C9446FAA3DE05C408B5E1E">Increasing the request date range over time. <p><b>Example</b>: Suppose you create a trended request using the <span class="wintitle"> Current Year</span> setting, broken down by <span class="wintitle"> Day</span> granularity. At the end of the year, the request will return more periods than the one created at the beginning of the year. </p> <p>(January 1 - January 30 versus January 1 - December 31.) </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Causes that result in workbook delivery failure </td> 
-   <td colname="col2"> Complex Excel formulas in a workbook, particularly ones that involve date and time. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Cells returning 0s (no values) </td> 
-   <td colname="col2"> An apostrophe or single quote in the Excel sheet name will cause report builder to return no values. (This is a Microsoft Excel limitation.) </td> 
-  </tr> 
- </tbody> 
-</table>
+**Factors that can slow down deliveries**
+
+*   Too many bookmarks, dashboards, and Report Builder workbooks were scheduled within a few hours
+*   Too many Report Builder workbooks were scheduled at around the same time. When this occurs, the report API queue becomes backlogged.
+
+**Factors that can slow down workbook runtime**
+
+*   Significant increase in classifications.
+*   Increasing the request date range over time.
+    
+    **Example**: Suppose you create a trended request using the Current Year setting, broken down by Day granularity. At the end of the year, the request will return more periods than the one created at the beginning of the year.
+    
+    `(January 1 - January 30 versus January 1 - December 31.)`
+
+**Causes that result in workbook delivery failure**
+
+Complex Excel formulas in a workbook, particularly ones that involve date and time.
+
+**Cells returning 0s (no values)**
+
+An apostrophe or single quote in the Excel sheet name will cause report builder to return no values. (This is a Microsoft Excel limitation.)
 
 **Individual request performance**
 
@@ -196,31 +171,31 @@ A list of error messages that could occur occasionally while you are using Repor
 >
 >This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
 
-** *This feature can only be applied on an open workbook.* **
+**This feature can only be applied on an open workbook.**
 
 If no workbooks (spreadsheet documents) are open in Excel, and you click one of the icons in the report builder toolbar, this message is displayed. In addition, the toolbar becomes disabled until you open a spreadsheet. However, you can click the on-line help icon while the toolbar is still enabled without causing this error.
 
-** *You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].* **
+**You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].**
 
 While the [!UICONTROL Request Manager] and the [!UICONTROL Request Wizard] are linked functionally, it is not possible to start working with the [!UICONTROL Request Manager] before completing or cancelling actions taken in the [!UICONTROL Request Wizard].
 
-** *There is no request associated with this range.* **
+**There is no request associated with this range.**
 
 This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
 
 To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. If a request is associated with cells, the cells will show up highlighted when the request is selected in the table.
 
-** *The selected Range is not valid. Please select another Range.* **
+**The selected Range is not valid. Please select another Range.**
 
 If a cell of the spreadsheet is selected and already has a request mapped to it, this error occurs. Either delete the request mapped to the cells or choose another range of cells to map.
 
 When you want to delete cells, it is important to locate cells containing requests and delete the request before deleting the cells (removing rows or columns).
 
-** *Please Exit the Excel Cell with focus before using this feature.* **
+**Please Exit the Excel Cell with focus before using this feature.**
 
 If you are in *edit mode* in an Excel cell and click one of the Report Builder icons, this error message appears. Edit mode in an Excel cell means that the cell is selected and the cursor appears inside the cell. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
 
-** *The range selected intersects another request's range. Please change your selection.* **
+**The range selected intersects another request's range. Please change your selection.**
 
 If you have already mapped a set of cells to the spreadsheet, this error is displayed.
 

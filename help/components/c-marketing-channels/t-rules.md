@@ -37,11 +37,11 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
    Use Boolean logic (if / then statements) to configure a rule. For example, in an email channel rule, provide the settings or information emphasized in the following rule statement:
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *`<value>`* **[!UICONTROL exists]**...`
+   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
 
    `"Then identify the channel as **[!UICONTROL Email]**...`
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *`<value>`*."`
+   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
    In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*. 
 1. To continue creating rules, click **[!UICONTROL Add Rule]**.

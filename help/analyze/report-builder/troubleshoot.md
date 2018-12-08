@@ -79,54 +79,15 @@ An apostrophe or single quote in the Excel sheet name will cause report builder 
 
 Processing speed can be affected by the following settings: 
 
-<table id="table_7B4281D2E9B9493FB0932F69C0573AA5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Faster Performance </th> 
-   <th colname="col3" class="entry"> Slower Performance </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Breakdowns and the breakdown order </td> 
-   <td colname="col2"> Few </td> 
-   <td colname="col3"> Many </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colspan="2"> <b>Example</b>: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Date range </td> 
-   <td colname="col2"> Small range </td> 
-   <td colname="col3"> Wide range </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Filtering </td> 
-   <td colname="col2"> Specific filtering </td> 
-   <td colname="col3"> Most Popular filtering </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Granularity </td> 
-   <td colname="col2"> Aggregated </td> 
-   <td colname="col3"> 
-    <ul id="ul_16955051AAA64C58B97DFEA18D70521C"> 
-     <li id="li_919E9C3082CA4E649D7F7E603784FFE7">Hourly </li> 
-     <li id="li_837DAEF7B7F64B549C88EB208091D495">Daily </li> 
-     <li id="li_CB9E0DB1315140A584EE25A57D6CA9FC ">Weekly </li> 
-     <li id="li_446DB7356BFE40298509350809BF2209">Monthly </li> 
-     <li id="li_4E85CB239D91497F959A7E2D7468A27C">Quarterly </li> 
-     <li id="li_E641534E051A4EBEBEAD9F766AD285DE">Yearly </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Number of entries </td> 
-   <td colname="col2"> Small data set </td> 
-   <td colname="col3"> Large data set </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Faster Performance | Slower Performance |
+|--- |--- |--- |
+|Breakdowns and the breakdown order|Few|Many|
+||Example: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly.|
+|Date range|Small range|Wide range|
+|Filtering|Specific filtering|Most Popular filtering|
+|Granularity|Aggregated|Hourly<ul><li>Daily</li><li>Weekly</li><li>Monthly</li><li>Quarterly</li><li>Yearly</li></ul>|
+|Number of entries|Small data set|Large data set|
+
 
 **Scheduling time**
 
@@ -134,26 +95,9 @@ Stagger scheduling over 24-hour period (see table below). Existing bookmarks , d
 
 Schedule larger, more complex requests in the early morning to allow for manual pulls and refreshing to occur during the business day. 
 
-<table id="table_A10D4EE572814DF3A4C14A6BFADB0B3C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Scheduling Time </th> 
-   <th colname="col2" class="entry"> 1 a.m. - 2 a.m. </th> 
-   <th colname="col3" class="entry"> 2 a.m. - 7 a.m. </th> 
-   <th colname="col4" class="entry"> 7 a.m. - 6 p.m. </th> 
-   <th colname="col5" class="entry"> 6 p.m. - Midnight </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Report Builder usage </td> 
-   <td colname="col2"> Quiet </td> 
-   <td colname="col3"> Very busy </td> 
-   <td colname="col4"> <p>Client-side usage. </p> <p> Higher volumes of users refreshing locally and requesting to "Send immediately." </p> <p>Additionally, verify whether the API queue is cleared when scheduled workbooks time out. </p> </td> 
-   <td colname="col5"> Not busy </td> 
-  </tr> 
- </tbody> 
-</table>
+| Scheduling Time | 1 a.m. - 2 a.m. | 2 a.m. - 7 a.m. | 7 a.m. - 6 p.m. | 6 p.m. - Midnight |
+|--- |--- |--- |--- |--- |
+|Report Builder usage|Quiet|Very busy|Client-side usage.<br>Higher volumes of users refreshing locally and requesting to "Send immediately."<br>Additionally, verify whether the API queue is cleared when scheduled workbooks time out.|Not busy|
 
 **Timeouts**
 

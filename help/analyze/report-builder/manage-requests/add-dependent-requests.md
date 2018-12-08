@@ -15,8 +15,6 @@ snippet: y
 
 A dependent request is a request that is dependent upon an existing request.
 
-<a id="section_D6725B6C432C400FB08CF4A0D527538E"></a>
-
 For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]

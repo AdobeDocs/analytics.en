@@ -13,8 +13,6 @@ snippet: y
 
 ## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
-<a id="section_0E8F816B8D0740CAA44470B7E2842936"></a>
-
 Before you convert your projects, note the following:
 
 * To convert projects, you must be logged in to Ad Hoc Analysis as an administrator, or as a non-administrator with permission to use Analysis Workspace. 
@@ -49,4 +47,3 @@ You have 2 options with respect to converting Ad Hoc Analysis projects:
 1. Click **[!UICONTROL Convert current project to Analysis Workspace.]** ![](assets/export_current.png)
 
 1. A [!UICONTROL Conversion Summary] now lists all the projects that have been converted, along with a status columns that indicates Success or Failure to convert, along with the error code. Contact Adobe Client Care for further diagnosis with the "Error-Id: <Error-Code>".
-

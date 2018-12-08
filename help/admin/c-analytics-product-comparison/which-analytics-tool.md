@@ -46,16 +46,14 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * To visualize points of interest on a map. 
 * For Lifetime value metrics.
 
-** [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html)**should be used:
+**[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html)**should be used:
 
 * If true table builder functionality is desired. For example, a) Analysis Workspace is not able to support what you need to build, b) you want to be able to control when your table rebuilds, c) you want the table to remember the various breakdown levels you would like applied to all rows, d) you want to order metric rows manually 
 * To export 50,000 rows of data 
 * If tab organization of project work is desired. 
 * To use the Site Analysis report (3D-pathing report).
 
-<a id="section_28C7B23C56644BF89FE79B734E8E8DA6"></a>
-
-** [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** should be used:
+**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** should be used:
 
 * As the most flexible Analytics tool option (down to visitor-level, hit-level analysis). 
 * To create a multi-channel dataset of online and offline interactions from CRM to POS to Web. 
@@ -66,7 +64,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 ## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-** [Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
+**[Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:
@@ -74,7 +72,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
     * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it". 
     * Browser importer: use when you don’t have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
 
-** [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)** should be used:
+**[Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)** should be used:
 
 * When there is offline data you want permanently written into Adobe Analytics 
 * Options
@@ -87,23 +85,23 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-** [Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** should be used:
+**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** should be used:
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-[ **Customer Attributes** ](/help/components/c-variables/dimensionslist/reports-customer-attributes.md) should be used:
+**[Customer Attributes](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud. 
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
 
-** [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/)** should be used:
+**[Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/)** should be used:
 
 * If you want to incorporate Adobe Audience Manager (AAM) audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, or ad impression data into any Analytics workflow. 
 * If you want uploaded CRM data to be time based, because this integration sends new information to Analytics hit by hit.
 
 ## Exporting Data from Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
-** [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)** should be used:
+**[Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)** should be used:
 
 * If the customized layout options of Workspace are limiting (anything is possible in Report Builder, within the limits of Excel). 
 * To loosely tie in user inputs or offline data sources (impressions, cost) to Adobe data. More permanent solution for tying in data is Data Sources (see Importing Data to Analytics). 
@@ -111,7 +109,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * For cross-report-suite views. 
 * If automation through scheduling is desired (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
-** [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** should be used:
+**[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** should be used:
 
 * To access variables otherwise hidden in the UI - IP address, Experience Cloud ID, Analytics Visitor ID, Page URL) 
 * To access more granular data than the UI (denormalized table view) 
@@ -125,7 +123,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * If the client wants Adobe data stored in a client-side database, at the most granular level we can send. 
 * If the client wants to develop a Business Intelligence (BI) tool or input hit-level Adobe data into a 3rd-party tool.
 
-** [Reporting APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** should be used when the other visualization options do not meet your needs. The 3 API options include:
+**[Reporting APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** should be used when the other visualization options do not meet your needs. The 3 API options include:
 
 * **Fully Processed**: when you want feature-rich data (including visits, visitors, and segments). This is typical Analytics UI summarized data, available within ~30-90 minutes. Can be used through Report Builder. 
 * **Real-Time**: when you want to view a few metrics and dimensions with seconds of latency. This is limited, partially processed, summarized data that is available within ~30 seconds. Includes unique algorithms of most popular, gainers, and losers. Can be used through Report Builder. 

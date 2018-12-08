@@ -48,18 +48,9 @@ The following steps walk you through a basic Analytics implementation.
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>In <span class="codeph"> VisitorAPI.js </span>, add the following visitor ID initialization code at the beginning of the file: </p> 
-     <codeblock class="syntax javascript">
-       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("INSERT-MCORG-ID-HERE"); 
-      
-visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer 
-      
-visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure 
-      
-/* 
-      
-== DO NOT ALTER ANYTHING BELOW THIS LINE ==
-
-     </codeblock> 
+     <code class="syntax javascript">
+       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("INSERT-MCORG-ID-HERE"); visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure /* == DO NOT ALTER ANYTHING BELOW THIS LINE ==
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <span class="codeph"> "INSERT-MCORG-ID-HERE" </span> - (Required) This Adobe Experience Cloud Organization ID is sent to your administrator when your company is provisioned for the Adobe Experience Cloud. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <span class="codeph"> "INSERT-TRACKING-SERVER-HERE" </span> - (Required) Your Analytics tracking server. </li> 
@@ -87,16 +78,12 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
    <td colname="col01"> <img href="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Reference <span class="codeph"> AppMeasurement.js </span> and <span class="codeph"> VisitorAPI.js </span> on all site pages. </td> 
    <td colname="col2"> <p> Include the Visitor ID Service by adding the following line of code in the <span class="codeph"> &lt;head&gt; </span> or &lt;body&gt; tag on each page. <span class="codeph"> VisitorAPI.js </span> must be included before <span class="codeph"> AppMeasurement.js </span>: </p> 
-    <codeblock class="syntax html">
-      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; 
-     
-src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"&gt;&lt;/script&gt; 
-    </codeblock> <p> Include AppMeasurement for JavaScript by adding the following line of code in the <span class="codeph"> &lt;head&gt; </span> or <span class="codeph"> &lt;body&gt; </span> tag on each page: </p> 
-    <codeblock class="syntax html">
-      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; 
-     
-src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script&gt; 
-    </codeblock> </td> 
+    <code class="syntax html">
+      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"&gt;&lt;/script&gt; 
+    </code> <p> Include AppMeasurement for JavaScript by adding the following line of code in the <span class="codeph"> &lt;head&gt; </span> or <span class="codeph"> &lt;body&gt; </span> tag on each page: </p> 
+    <code class="syntax html">
+      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp; src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script&gt; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img href="assets/step6_icon.png" id="image_1C4293CA98F04EE2ADA69EAB95BDE8B1" /> </td> 

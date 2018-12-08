@@ -241,9 +241,9 @@ c_templates.xml
 You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report. 
 
 <table id="table_D2A36022D0794FF480D232E87B641F75"> 
- <desc>
+ <code>
    Types of Templates 
- </desc> 
+ </code> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ranked </p> </td> 
@@ -294,5 +294,4 @@ Several ways are available to open a report:
 
 * On the [!UICONTROL New Report] page, search for a report or choose a template. 
 * Click **[!UICONTROL Reports]** from the menu, then select a report or report template. 
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > * *`report name`**.
-
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.

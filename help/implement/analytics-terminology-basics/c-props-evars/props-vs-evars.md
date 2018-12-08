@@ -39,93 +39,93 @@ The following are the main differences between props and eVars:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Average Page Depth </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_165C1BF1574247CEA9190ADCABF79D69" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_165C1BF1574247CEA9190ADCABF79D69" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Average Time Spent </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_9F0F396E11B442959EC3E5D4D508496D" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_9F0F396E11B442959EC3E5D4D508496D" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bounce Rate </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_A268EAF747EA45F8A6A93A1B66667A06" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_A268EAF747EA45F8A6A93A1B66667A06" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bounces </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_471A02B78FD842BB97ED3FF4A5908B03" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_D2F11B5687484D9EBF6D1DEB3F303A20" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_471A02B78FD842BB97ED3FF4A5908B03" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_D2F11B5687484D9EBF6D1DEB3F303A20" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calculated Metrics </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_7FAB1CF2ACC44D9198C648D3FC9E52D9" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_8BCC2EE92CC04778809D1BD48D2623D7" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_7FAB1CF2ACC44D9198C648D3FC9E52D9" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_8BCC2EE92CC04778809D1BD48D2623D7" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom Conversion Events </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_D75C764B83AE4491A7E68C459FED1300" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_D75C764B83AE4491A7E68C459FED1300" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Entries </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_E9A1FCDFCB924D75ABFAEBD5570D4EE0" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_F5E57974B5A64F3FA3A145428420EB23" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_E9A1FCDFCB924D75ABFAEBD5570D4EE0" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_F5E57974B5A64F3FA3A145428420EB23" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exits </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_BE343F94EAD74D54B6ABC80E8A76A9BD" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_3183B2BB62C24B048EDED3295F2BEC85" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_BE343F94EAD74D54B6ABC80E8A76A9BD" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_3183B2BB62C24B048EDED3295F2BEC85" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Instances </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_8733F5AC189E43DAA8D1847416EA68C8" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_B10AB2898F3D4EBA947FADB27B118143" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_8733F5AC189E43DAA8D1847416EA68C8" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_B10AB2898F3D4EBA947FADB27B118143" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Views </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_8BD2B23FBDA64A648BED40A2993F7C1C" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_CBDFD74340FA4973847033C1F956F0AC" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_8BD2B23FBDA64A648BED40A2993F7C1C" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_CBDFD74340FA4973847033C1F956F0AC" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Participation Metrics </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_E63F978830FB46809E62654F37C4C182" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_6AB756A4598F4452887D29AD4971985A" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_E63F978830FB46809E62654F37C4C182" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_6AB756A4598F4452887D29AD4971985A" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Purchase Metrics </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_8F8AB7CD02764245BA73CA1E6B69BAE1" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_8F8AB7CD02764245BA73CA1E6B69BAE1" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reloads </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_FBE0C84E01004937B7B408198A33A9E7" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_FBE0C84E01004937B7B408198A33A9E7" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Shopping Cart Metrics </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_123993465D734EABB311730ED03263F6" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_123993465D734EABB311730ED03263F6" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Single Access </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_038C6991E3F341B18E7A355D17C88895" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_038C6991E3F341B18E7A355D17C88895" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Total Time Spent </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_090587D29F1649319033D5A15B34B138" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_841DF09FD32A44B1B1B876F4E0CE29AC" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_090587D29F1649319033D5A15B34B138" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_841DF09FD32A44B1B1B876F4E0CE29AC" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unique Visitors </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_38556E6A43B04E2E8A01855452D30A83" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_F5D4BDE1AA9C4C58A6402418390EEC52" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_38556E6A43B04E2E8A01855452D30A83" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_F5D4BDE1AA9C4C58A6402418390EEC52" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visits </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_017BB279C5824028870360A5D4D27556" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"><img href="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
+   <td colname="col2"> <p><img href="assets/check-mark.png" id="image_017BB279C5824028870360A5D4D27556" /> </p> </td> 
+   <td colname="col3"> <p><img href="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

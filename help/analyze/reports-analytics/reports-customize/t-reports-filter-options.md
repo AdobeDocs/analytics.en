@@ -58,13 +58,15 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/#kb-none-unspecified-and-unknown) from reports using does not contain. 
 
-|  Does not contain  | `none`  |
+| Filter | Example |
 |---|---|
+|  Does not contain  | `none`  |
 
 For a more exact filter, you can use an Advanced (Special Characters) filter: 
 
-|  Advanced (Special Character)  | `-^none$`  |
+|  Item  | Description  |
 |---|---|
+|  Advanced (Special Character)  | `-^none$`  |
 |  Advanced (Special Character)  | `-"keyword unavailable"`  |
 
 For example, the following line item is filtered by the "Does not contain" criteria, but is not filtered by the "Advanced (Special Character)" criteria:
@@ -77,8 +79,9 @@ help:Rename the None classification key
 
 Matches if any terms, separated by spaces, are found in the line item. The following filter shows all pages that contain "mens" or "sale": 
 
-|  Contains One Of  | `mens sale`  |
+|  Iteam  | Example  |
 |---|---|
+|  Contains One Of  | `mens sale`  |
 
 Matches the following pages: 
 

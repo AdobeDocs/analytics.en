@@ -16,8 +16,6 @@ snippet: y
 
 The tables below display the report to variable mapping, or the reports and the variables that are used in them.
 
-<a id="section_3DEC97FB4CCE43A09094C177D7BD0D87"></a>
-
 **Conversion Reports** The following table lists the conversion variables that are used to populate each report: 
 
 |  Purchases  |
@@ -230,4 +228,3 @@ The following table lists the pathing variables that are used to populate each r
 |  Next Page Flow  | s.pageName (or other pathed variable)  | Also depends on internal business rules  |
 |  PathFinder  | s.pageName (or other pathed variable)  | Also depends on internal business rules  |
 |  Fall-out  | s.pageName (or other pathed variable)  | Also depends on internal business rules  |
-

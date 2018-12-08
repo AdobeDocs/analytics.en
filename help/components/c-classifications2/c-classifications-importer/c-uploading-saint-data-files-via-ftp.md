@@ -55,34 +55,36 @@ For more information about creating an FTP account, see [Create an FTP account](
 1. After uploading the data file, upload a FIN file that indicates the file is ready to process.
 
    The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
->At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration. 
 
->## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
+At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration. 
 
->Before uploading data via FTP, create an FTP account. >
-><!-- 
+## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
+
+Before uploading data via FTP, create an FTP account. >
+
+<!-- 
 
 t_create_an_ftp_account.xml
 
  -->
->See [FTP and sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) for additional details on Adobe FTP servers. 
->
->1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
->1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
->1. On the **[!UICONTROL Import File]** tab, click **[!UICONTROL Add New]**.
->1. Specify the FTP account details:
->
->   |  Element  | Description  |
->   |---|---|
->   |  Name  | The FTP account name.  |
->   |  Data Set to be Classified  | From the drop-down list, select the data set (marketing report variable) that you want to classify.  |
->   |  Select Report Suites  | Select the report suites where you want to classify the selected data set. To select multiple report suites, the classifications for each of the selected report suites must be identical.  |
->   |  Overwrite Data on Conflicts  | Select this option to overwrite duplicate data. This option is useful if you are updating existing classifications. If you are adding additional classifications, this option is not recommended.  |
->   |  After Import is Complete  | Select this option to automatically export the updated data set to the same FTP account once Specify the email address to receive notifications about this FTP account once the import is complete.  |
->   |  Notification Recipient  | Specify the email address to receive notifications about this FTP account.  |
->   |  Authorize  | (Required) Authorizes Adobe to automatically import all data files sent to the new FTP account.  |
 
->
->1. Click **[!UICONTROL Save]**.
->>Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account. 
+See [FTP and sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) for additional details on Adobe FTP servers. 
 
+1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. On the **[!UICONTROL Import File]** tab, click **[!UICONTROL Add New]**.
+1. Specify the FTP account details:
+
+   |  Element  | Description  |
+   |---|---|
+   |  Name  | The FTP account name.  |
+   |  Data Set to be Classified  | From the drop-down list, select the data set (marketing report variable) that you want to classify.  |
+   |  Select Report Suites  | Select the report suites where you want to classify the selected data set. To select multiple report suites, the classifications for each of the selected report suites must be identical.  |
+   |  Overwrite Data on Conflicts  | Select this option to overwrite duplicate data. This option is useful if you are updating existing classifications. If you are adding additional classifications, this option is not recommended.  |
+   |  After Import is Complete  | Select this option to automatically export the updated data set to the same FTP account once Specify the email address to receive notifications about this FTP account once the import is complete.  |
+   |  Notification Recipient  | Specify the email address to receive notifications about this FTP account.  |
+   |  Authorize  | (Required) Authorizes Adobe to automatically import all data files sent to the new FTP account.  |
+
+1. Click **[!UICONTROL Save]**.
+
+Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account. 

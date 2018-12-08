@@ -88,4 +88,3 @@ For example, if you set the time granularity to daily, the preview can tell you 
 If you find that too many alerts would have been triggered, you can adjust the threshold in the [Alert Manager](../../../analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#concept_633AE746900B44D2A7045386B526ED8D).
 
 ![](assets/alert_preview.png)
-

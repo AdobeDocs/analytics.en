@@ -23,7 +23,7 @@ Dynamic variables are also useful for viewing data under various reporting condi
 
 >[!NOTE]
 >
->Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use D=<cookie value>.
+>Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
 
 A significant benefit of dynamic variables is the ability to capture long strings of data in multiple variables without actually passing the long string repeatedly. Some browsers limit the maximum length of HTTP GET requests (including the Adobe image request). Using dynamic variables ensures that all data is captured by reducing the length of the request to Adobe servers in cases where data is duplicated across several variables.
 
@@ -68,11 +68,11 @@ Note that the `D=[variable]` value should be in quotes. The [!DNL Analytics] cod
 
 >[!NOTE]
 >
->When using the image request to track links, the type of link (download=lnk_d, exit=lnk_e, or custom link=lnk_o) must be defined, as does the Link URL/Name (pev2). Links require manual implementation by inserting code within the <a href> tag.
+>When using the image request to track links, the type of link (download=lnk_d, exit=lnk_e, or custom link=lnk_o) must be defined, as does the Link URL/Name (pev2). Links require manual implementation by inserting code within the `<a href>` tag.
 
 >[!NOTE]
 >
->Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use D=<cookie value>.
+>Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -84,44 +84,44 @@ Note that the `D=[variable]` value should be in quotes. The [!DNL Analytics] cod
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.eVar1="D=pageName" 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p>Captures the pageName value in eVar1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.prop1='D=v2+":"+c2'&amp;nbsp; 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p>Concatenates eVar2:prop2 into prop1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.prop1=s.eVar1="D=g"&amp;nbsp; 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p>Passes the page URL into both prop1 and eVar1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.eVar1="D=v0" 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p>Captures the campaign in eVar 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
-      &amp;nbsp;s.prop1='D=User-Agent+"&amp;nbsp;-&amp;nbsp;"+Accept-Language' 
-    </codeblock> </td> 
+    <code class="syntax javascript">
+      s.prop1='D=User-Agent+" ;- "+Accept-Language' 
+    </code> </td> 
    <td colname="col2"> <p>Concatenates the user agent and accept language headers in prop1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code>
       s.prop1="D=User-Agent" 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p>Captures the user agent in prop1, </p> </td> 
   </tr> 
  </tbody> 
@@ -137,53 +137,45 @@ Note that the `D=[variable]` value should be in quotes. The [!DNL Analytics] cod
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 
-     
-/b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign 
-     
-/b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is 
-     
-/b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
-
-    </codeblock> </td> 
+    <code class="syntax javascript">
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+    </code> </td> 
    <td colname="col2"> <p>Four ways to set prop1 to a campaign </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code>
       /b/ss/rsid/?gn=Home&amp;D=~~&amp;c2=~~x-up-subno 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p> Pulls the x-up-subno header into prop2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
-      &amp;c1=D%3DUser-Agent 
-    </codeblock> </td> 
+    <code>
+      c1=D%3DUser-Agent 
+    </code> </td> 
    <td colname="col2"> <p> Makes prop1 a dynamic variable filled in with the HTTP header User-Agent </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       &amp;c1=D%3D%22test%22 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p> Makes prop1 a dynamic variable filled in with the string "test". This becomes more useful when used with concatenation which utilizes the + operator. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       &amp;c1=D%3D%22US%3A%20%22%2BUser-Agent 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p> Makes prop1 a dynamic variable filled in with the User-Agent prefixed by "UA:" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       &amp;vid=D%3DX-TM-ANTID 
-    </codeblock> </td> 
+    </code> </td> 
    <td colname="col2"> <p> This example searches for a unique header, which in this case is X-TM-ANTID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

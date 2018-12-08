@@ -112,6 +112,3 @@ HTTP request and response headers are used to collect additional data beyond wha
 >[!NOTE]
 >
 >Other HTTP headers may be set in the response for internal status monitoring. Some of these headers might be returned to the browser, but it is not necessary that they receive them.
-
-<a id="section_2CF682D1F5CE4067A498012C3CF57517"></a>
-

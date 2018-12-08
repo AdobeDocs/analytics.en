@@ -42,32 +42,20 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
-<table id="table_614C9C807CD24207AD517AF14DC7B060"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Dashboard </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Dashboards</span> &gt; <span class="uicontrol"> Shared Dashboards</span> &gt; <span class="uicontrol"> Local Sites</span> </p> </td> 
-   <td colname="col2"> <p>This customizable dashboard provides you a way to drop reportlets into the template provided. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Dashboards</span> &gt; <span class="uicontrol"> Shared Dashboards</span> &gt; <span class="uicontrol"> Site Operations Dashboard</span> </p> </td> 
-   <td colname="col2"> <p>This dashboard provides you an overview of key metrics related to your website operations. Reports on this dashboard include: </p> 
-    <ul id="ul_1AEA656105114BB18967E486A560DB81"> 
-     <li id="li_F90064DCF73448699090FD7B5324B8E8"> Exit Pages </li> 
-     <li id="li_F2D41DCFC6D44FCA878D753D0FF18CB3"> Most Popular Pages </li> 
-     <li id="li_FBBB9614A0A745048AA69204855975B8">Most Popular Site Sections </li> 
-     <li id="li_1C24270FB34342AE9ED3D3D0E360C6E6">KPI/Gauge Reportlet </li> 
-     <li id="li_0F6F79A7F0454202A6E6C9066A82E424">Text Reportlet </li> 
-     <li id="li_A60E048B24D9439682E5A3CCA8B17F1D">Company Summary Reportlet </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Local Sites]**
+
+This customizable dashboard provides you a way to drop reportlets into the template provided.
+
+**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Site Operations Dashboard]**
+
+This dashboard provides you an overview of key metrics related to your website operations. Reports on this dashboard include:
+
+*   Exit Pages
+*   Most Popular Pages
+*   Most Popular Site Sections
+*   KPI/Gauge Reportlet
+*   Text Reportlet
+*   Company Summary Reportlet
 
 Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
 
@@ -91,9 +79,9 @@ Before adding a report (as a reportlet) to a dashboard, define the dashboard's l
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
 1. Configure the dashboard page layout:
 
-    * **[!UICONTROL Add Page]**: Adds a blank page to the dashboard, on which you can drag content to create reportlets. 
-    * **[!UICONTROL Paper]**: Lets you specify a paper size, such as landscape, portrait, and A4. 
-    * **[!UICONTROL Find Content]**: Lets you search for content in the [!UICONTROL Add Content] and [!UICONTROL Dashboard Contents] menus.
+   * **[!UICONTROL Add Page]**: Adds a blank page to the dashboard, on which you can drag content to create reportlets. 
+   * **[!UICONTROL Paper]**: Lets you specify a paper size, such as landscape, portrait, and A4. 
+   * **[!UICONTROL Find Content]**: Lets you search for content in the [!UICONTROL Add Content] and [!UICONTROL Dashboard Contents] menus.
 
 1. Add available content to the dashboard by dragging items to the reportlet canvas.
 
@@ -119,8 +107,8 @@ t_dashboard_add_report.xml
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
 1. (Optional) Configure the date range.
 
-    * **[!UICONTROL Rolling]**: Changes the date as time passes, according to the time span (daily, monthly, and so on). For example, if today is January 17, you might set the dates for January 15 - 16. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26. 
-    * **[!UICONTROL Fixed]**: Prevents the date from moving forward as time passes.
+   * **[!UICONTROL Rolling]**: Changes the date as time passes, according to the time span (daily, monthly, and so on). For example, if today is January 17, you might set the dates for January 15 - 16. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26. 
+   * **[!UICONTROL Fixed]**: Prevents the date from moving forward as time passes.
 
 1. (Optional) Override the publishing distribution list.
 
@@ -143,64 +131,47 @@ t_dashboard_content.xml
 1. Open a dashboard, then click **[!UICONTROL Layout]**.
 1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
 
-       The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
+   The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
 
-       >[!NOTE]
-       >
-       >The current limit to the number of pages in a dashboard is 30.
+   >[!NOTE]
+   >
+   >The current limit to the number of pages in a dashboard is 30.
 
-<table id="table_ECDE94477782487E881F388EB5E98051"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Content Menu </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Custom Reportlets </p> </td> 
-   <td colname="col2"> <p>Data Content: </p> 
-    <ul id="ul_687CCFB0C0674C50A0F54CCC4061B918"> 
-     <li id="li_7329199D234845AABD07B7284847E21D"> <p> <span class="uicontrol"> Company Summary</span>: Displays page views for multiple report suites and metrics that you select. </p> </li> 
-     <li id="li_8AECAE2F25034CC9AD8A6D601DB15CAF"> <p> <span class="uicontrol"> Metric Gauge</span>: Displays a gauge that tells you where your metrics figures are in relation to the thresholds you specify. </p> <p>You can select a metric, graph type, color range, and threshold values. If the count of the metric rises above the <span class="uicontrol"> Greater Than</span> threshold, the gauge indicates this in the reportlet, using the color above the <span class="uicontrol"> Greater Than</span> field. If the count of the metric is below the <span class="uicontrol"> Less Than</span> threshold, the gauge indicates this in the reportlet, using the color above the <span class="uicontrol"> Less Than</span> field. The values you specify in these fields is the countable value of the metric, such as number of page views, dollar amounts, cart views, and so on. (Do not use special characters.) </p> </li> 
-     <li id="li_CDA2AFCECA224AF396792185DC1F981F"> <p> <span class="uicontrol"> Report Suite Summary</span>: Displays a selected metric and its total or high and low values for a report suite. </p> </li> 
-     <li id="li_3396AA404EFC4C0CAEC4FEAF025DE65F"> <p> <span class="uicontrol"> Usage Summary</span>: Shows data on interface access by people in your organization. This reportlet can show data by username access, report access, or report suite access. </p> <p>You can create the following <span class="wintitle"> User Content</span> reportlets by providing URLs. If an image or other resource URL does not begin with <span class="filepath"> https://</span>, Internet Explorer users might see a warning about mixed content. You can disable the warning for mixed content in your browser security settings. </p> </li> 
-    </ul> <p>User Content: </p> 
-    <ul id="ul_10317D27438F473DB37BE7C0E6315805"> 
-     <li id="li_57B7B11650FD4CA88EBEB17C33E82BDC"> <p> <span class="uicontrol"> External Report</span>: Lets you add an external report in <span class="filepath"> .xml</span> and <span class="filepath"> .csv</span> formats. </p> </li> 
-     <li id="li_8FD98E7DB845421F9F3FA60DB59F45E9"> <p> <span class="uicontrol"> HTML</span>: Lets you add a custom HTML reportlet. The URL must use <span class="filepath"> HTTP</span> or <span class="filepath"> HTTPS</span>. Otherwise, you see a 
-       <msgph>
-         Specified URL could not be retrieved
-       </msgph> error. In the document's content, all tags with attributes using the <span class="codeph"> data:</span> and <span class="codeph"> javascript:</span> protocols are removed. Scripts, frames, applets, event handlers, flash, and other embedded objects are removed. If resources are specified using non <span class="filepath"> HTTPS</span>, IE users are issued a warning about mixed content. </p> </li> 
-     <li id="li_DD8109DFBA0945DAB3DE39B0B5653E80"> <p> <span class="uicontrol"> Image</span>: Lets you create a dashboard from an image URL. If the URL uses the <span class="filepath"> HTTP</span> protocol, Internet Explorer issues a mixed content warning. Using a URL with <span class="filepath"> HTTPS</span> removes the warning. All other protocols issue a 
-       <msgph>
-         Specified URL could not be retrieved
-       </msgph> error. </p> </li> 
-     <li id="li_D0BA588BDD234744851AF8DE43A9EBBA"> <p> <span class="uicontrol"> RSS</span>: Lets you add an RSS web feed. Must be <span class="filepath"> HTTP</span> or <span class="filepath"> HTTPS</span>. Otherwise, you see a 
-       <msgph>
-         Specified URL could not be retrieved
-       </msgph> error. </p> </li> 
-     <li id="li_8800FA0610B94EAF95399326AA3FA958"> <p> <span class="uicontrol"> Text</span>: Lets you use XHTML code to create your own data. Use <span class="filepath"> HTTP</span> or <span class="filepath"> HTTPS</span> for a URL. Images used in the text reportlet content that have the <span class="filepath"> HTTP</span> protocol result in IE users receiving a warning about mixed content. Images included using other protocols do not display in the reportlet. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>My Dashboards </p> </td> 
-   <td colname="col2"> <p>Lists your upgraded dashboards from which you can move content to the new dashboard. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Legacy Dashboards </p> </td> 
-   <td colname="col2"> <p>Lists your shared dashboards from which you can move content to the new dashboard. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Shared Dashboards </p> </td> 
-   <td colname="col2"> <p>Lists legacy dashboards from which you can move content to the new dashboard. Legacy dashboards are useful if you want to preserve dashboard formatting from previous versions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dashboard Contents </p> </td> 
-   <td colname="col2"> <p>Displays items you already added to the dashboard. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   **Custom Reportlets**
+
+   *Data Content:*
+
+   *   Company Summary: Displays page views for multiple report suites and metrics that you select.
+   *   Metric Gauge: Displays a gauge that tells you where your metrics figures are in relation to the thresholds you specify.
+       
+       You can select a metric, graph type, color range, and threshold values. If the count of the metric rises above the Greater Than threshold, the gauge indicates this in the reportlet, using the color above the Greater Than field. If the count of the metric is below the Less Than threshold, the gauge indicates this in the reportlet, using the color above the Less Than field. The values you specify in these fields is the countable value of the metric, such as number of page views, dollar amounts, cart views, and so on. (Do not use special characters.)
+   *   Report Suite Summary: Displays a selected metric and its total or high and low values for a report suite.
+   *   Usage Summary: Shows data on interface access by people in your organization. This reportlet can show data by username access, report access, or report suite access.
+       You can create the following User Content reportlets by providing URLs. If an image or other resource URL does not begin with https://, Internet Explorer users might see a warning about mixed content. You can disable the warning for mixed content in your browser security settings.
+
+   *User Content:*
+
+   *   External Report: Lets you add an external report in .xml and .csv formats.
+   *   HTML: Lets you add a custom HTML reportlet. The URL must use HTTP or HTTPS. Otherwise, you see a `Specified URL could not be retrieved` error. In the document's content, all tags with attributes using the data: and javascript: protocols are removed. Scripts, frames, applets, event handlers, flash, and other embedded objects are removed. If resources are specified using non HTTPS, IE users are issued a warning about mixed content.
+   *   Image: Lets you create a dashboard from an image URL. If the URL uses the HTTP protocol, Internet Explorer issues a mixed content warning. Using a URL with HTTPS removes the warning. All other protocols issue a `Specified URL could not be retrieved` error.
+   *   RSS: Lets you add an RSS web feed. Must be HTTP or HTTPS. Otherwise, you see a `Specified URL could not be retrieved` error.
+   *   Text: Lets you use XHTML code to create your own data. Use HTTP or HTTPS for a URL. Images used in the text reportlet content that have the HTTP protocol result in IE users receiving a warning about mixed content. Images included using other protocols do not display in the reportlet.
+
+   **My Dashboards**
+
+   Lists your upgraded dashboards from which you can move content to the new dashboard.
+
+   **Legacy Dashboards**
+
+   Lists your shared dashboards from which you can move content to the new dashboard.
+
+   **Shared Dashboards**
+
+   Lists legacy dashboards from which you can move content to the new dashboard. Legacy dashboards are useful if you want to preserve dashboard formatting from previous versions.
+
+   **Dashboard Contents**
+
+   Displays items you already added to the dashboard.
 
 1. Click **[!UICONTROL Save.]**
 
@@ -219,60 +190,20 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-<table id="choicetable_FD8D05A9465B43F89148D376DE083B59" keycol="0"> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>To </p> </th> 
-  <th class="chdeschd"> <p>Do this </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Change a dashboard's report suite</strong></td> 
-  <td class="chdesc stentry"> <p>Click the menu in the Experience Cloud header, then select a report suite. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Change a reportlet's report suite</strong></td> 
-  <td class="chdesc stentry"> <p>In the reportlet, click the report suite name, then select a report suite from the <span class="uicontrol"> Report Suite</span> menu. . </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Apply a segment to a dashboard</strong></td> 
-  <td class="chdesc stentry"> <p>In the Experience Cloud header, click <span class="uicontrol"> Show Segments</span>, then select a segment. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Apply a segment to a reportlet</strong></td> 
-  <td class="chdesc stentry"> <p>In the dashboard, click <span class="uicontrol"> Layout</span> to edit a dashboard. </p> <p> In the reportlet, click the report suite name, then select a value from the <span class="uicontrol"> Segment</span> field and click <span class="uicontrol"> Update.</span> </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Lock a report suite (prevents changing the report suite in a reportlet)</strong></td> 
-  <td class="chdesc stentry">In the reportlet, click the report suite name, then enable <span class="uicontrol"> Lock Report Suite</span>. Click <span class="uicontrol"> Update.</span></td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Change a reporting date</strong></td> 
-  <td class="chdesc stentry"> <p>For a dashboard, click the calendar. (All the reportlets in the dashboard reflect the change.) </p> <p>For a reportlet, click the date link, then configure the calendar. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Name a dashboard</strong></td> 
-  <td class="chdesc stentry"> <p>Open a dashboard, then click <span class="uicontrol"> More</span> &gt; <span class="uicontrol"> Rename</span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>View a dashboard archive</strong></td> 
-  <td class="chdesc stentry"> <p>Click <span class="uicontrol"> More</span> &gt; <span class="uicontrol"> View Archive</span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Set the dashboard as a landing page</strong></td> 
-  <td class="chdesc stentry"> <p>In a dashboard, click <span class="uicontrol"> More</span> &gt; <span class="uicontrol"> Set As Landing Page</span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Download a dashboard</strong></td> 
-  <td class="chdesc stentry"> <p>In a dashboard, click <span class="uicontrol"> More</span> &gt; <span class="uicontrol"> Download</span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Print a dashboard</strong></td> 
-  <td class="chdesc stentry"> <p>In a dashboard, click <span class="uicontrol"> More</span> &gt; <span class="uicontrol"> Print</span>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Save a dashboard</strong></td> 
-  <td class="chdesc stentry"> <p>In a dashboard, click <span class="uicontrol"> Save As</span>, then specify a name. </p> </td> 
- </tr> 
-</table>
+| To  | Do this  |
+|--- |--- |
+|Change a dashboard's report suite|Click the menu in the Experience Cloud header, then select a report suite.|
+|Change a reportlet's report suite|In the reportlet, click the report suite name, then select a report suite from the [!UICONTROL Report Suite] menu.|
+|Apply a segment to a dashboard|In the Experience Cloud header, click [!UICONTROL Show Segments], then select a segment.|
+|Apply a segment to a reportlet|In the dashboard, click  Layout to edit a dashboard.   In the reportlet, click the report suite name, then select a value from the  Segment field and click  Update.|
+|Lock a report suite (prevents changing the report suite in a reportlet)|In the reportlet, click the report suite name, then enable [!UICONTROL Lock Report Suite]. Click  Update.|
+|Change a reporting date|For a dashboard, click the calendar. (All the reportlets in the dashboard reflect the change.)<br>For a reportlet, click the date link, then configure the calendar.|
+|Name a dashboard|Open a dashboard, then click  [!UICONTROL More] >  [!UICONTROL Rename].|
+|View a dashboard archive|Click  [!UICONTROL More] >  [!UICONTROL View Archive].|
+|Set the dashboard as a landing page|In a dashboard, click  [!UICONTROL More] > [!UICONTROL Set As Landing Page].|
+|Download a dashboard|In a dashboard, click  [!UICONTROL More] >  Download.|
+|Print a dashboard|In a dashboard, click  [!UICONTROL More] >  Print.|
+|Save a dashboard|In a dashboard, click  Save As, then specify a name.|
 
 ## Co-brand a dashboard {#task_603BDE7700B945699AF5514C2DEB81F7}
 
@@ -304,5 +235,4 @@ segments_dashboards.xml
 Segments can be applied on two levels: to an entire dashboard or on a specific reportlet.
 
 * **Reportlet level**: Click **[!UICONTROL Layout]**, then the report suite of the reportlet you want to segment. A modal window appears that lets you add or change what segment(s) the reportlet uses. 
-
 * **Dashboard level**: Click the Segment icon in the left navigation, check the segment(s) you want to use, and click Apply. The selected segments override and replace any reportlet-level segments.

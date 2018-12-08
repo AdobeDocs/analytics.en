@@ -33,12 +33,13 @@ help search
 
 Matches the following pages: 
 
-|  `help:Search`  |
-|---|
-|  `help:Paid Search Detection`  |
-|  `help:Configure paid search detection`  |
-|  `help:Search Keywords Report`  |
-|  `help:Internal Search Term`  |
+```
+help:Search
+help:Paid Search Detection
+help:Configure paid search detection
+help:Search Keywords Report
+help:Internal Search Term
+```
 
 ## Advanced Filters {#section_E016626C084640E8A066B2FDA5B932BF}
 
@@ -58,16 +59,12 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/#kb-none-unspecified-and-unknown) from reports using does not contain. 
 
-| Filter | Example |
-|---|---|
-|  Does not contain  | `none`  |
+Does not contain: `none`
 
 For a more exact filter, you can use an Advanced (Special Characters) filter: 
 
-|  Item  | Description  |
-|---|---|
-|  Advanced (Special Character)  | `-^none$`  |
-|  Advanced (Special Character)  | `-"keyword unavailable"`  |
+* Advanced (Special Character): `-^none$`
+* Advanced (Special Character): `-"keyword unavailable"`
 
 For example, the following line item is filtered by the "Does not contain" criteria, but is not filtered by the "Advanced (Special Character)" criteria:
 
@@ -79,99 +76,69 @@ help:Rename the None classification key
 
 Matches if any terms, separated by spaces, are found in the line item. The following filter shows all pages that contain "mens" or "sale": 
 
-|  Iteam  | Example  |
-|---|---|
-|  Contains One Of  | `mens sale`  |
+Contains One Of: `mens sale`
 
 Matches the following pages: 
 
-|  `Womens`  |
-|---|
-|  `Mens`  |
-|  `Mens:Desk & Travel`  |
-|  `Jewelry & Accessories:Accessories:Hats:Mens`  |
-|  `Sale & Values`  |
+```
+Womens
+Mens
+Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
+Sale & Values
+```
 
 **Equals**
 
 Matches if the entire line item, including spaces and other characters, match the specified phrase. 
 
-|  Equals  | `mens:desk & travel`  |
-|---|---|
+Equals: `mens:desk & travel`
 
-|  `Mens:Desk & Travel`  |
-|---|
+`Mens:Desk & Travel`
 
 **Starts With**
 
 Matches if the line item, including spaces and other characters, starts with the specified phrase. 
 
-|  Starts With  | `mens`  |
-|---|---|
+Starts With: `mens`
 
 Matches the following pages: 
 
-|  `Mens`  |
-|---|
-|  `Mens:Desk & Travel`  |
-|  `Mens:Apparel`  |
-|  `Mens Perfume Spray`  |
-|  `Mens Hemp/Bamboo Flip Flops`  |
+```
+Mens
+Mens:Desk & Travel
+Mens:Apparel
+Mens Perfume Spray
+Mens Hemp/Bamboo Flip Flops
+```
 
 **Ends With**
 
 Matches if the line item, including spaces and other characters, ends with the specified phrase. 
 
-|  Ends With  | `jean`  |
-|---|---|
+Ends With: `jean`
 
 Matches the following pages: 
 
-|  `Bell Bottom Jean`  |
-|---|
-|  `Velvet Dream Skinny Leg Jean`  |
-|  `Dark Slimmer Jean`  |
-|  `Bling Belt High Waist Jean`  |
-|  `Ocean Blue Jean`  |
+```
+Bell Bottom Jean
+Velvet Dream Skinny Leg Jean
+Dark Slimmer Jean
+Bling Belt High Waist Jean
+Ocean Blue Jean
+```
 
 ## Advanced (Special Character) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
 Advanced let you perform wildcard and other complex searches. 
 
-<table id="table_E8F41C8B5B9846C49E58C1AEAD722685"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Advanced (Special Character) </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> " " </span> </td> 
-   <td colname="col2"> Match <b>exact phrase</b>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> * </span> </td> 
-   <td colname="col2"> <b>Wild card</b>, greedy matching. For example, <span class="codeph"> r*p </span> matches "Registration Signup". </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> ^ </span> </td> 
-   <td colname="col2"> <b>Starts with</b>. Do not include a space between the special character and the search phrase. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> $ </span> </td> 
-   <td colname="col2"> <b>Ends with</b>. Do not include a space between the special character and the search phrase. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> - </span> </td> 
-   <td colname="col2"> <b>Not</b>. Do not include a space between the special character and the search phrase. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> | </span> </td> 
-   <td colname="col2"> <p> <b>Or</b> </p> <p>Note:  you must include a space on each side of the pipe character, " | ". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Advanced (Special Character) | Description |
+|--- |--- |
+|`" "`|Match exact phrase.|
+|`*`|Wild card, greedy matching. <br>For example, `r*p`  matches "Registration Signup".|
+|`^`|Starts with. <br>Do not include a space between the special character and the search phrase.|
+|`$`|Ends with. <br>Do not include a space between the special character and the search phrase.|
+|`-`|Not. <br>Do not include a space between the special character and the search phrase.|
+|`|`|Or<br>Note:  you must include a space on each side of the pipe character, `" | "`.|
 
 ## Create report-specific filters {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 

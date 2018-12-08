@@ -93,14 +93,14 @@ If you still have Java 7 installed, you must upgrade before the July 2018 Mainte
 
 * If you are allowed to install programs on your machine:
 
-    1. Go to https://www.java.com. 
-    1. Click **[!UICONTROL Free Java Download]**. 
-    1. Click **[!UICONTROL Agree and Start Free Download]**. 
-    1. Install the latest Java version specific to your Operating System.
+  1. Go to https://www.java.com. 
+  1. Click **[!UICONTROL Free Java Download]**. 
+  1. Click **[!UICONTROL Agree and Start Free Download]**. 
+  1. Install the latest Java version specific to your Operating System.
 
 * If you are **not** allowed to install programs on your machine:
 
-    1. Work with your IT department to get the latest version of Java installed.
+  1. Work with your IT department to get the latest version of Java installed.
 
 ## Launch Ad Hoc Analysis {#concept_B1CE3C1E6D1A4311B9835BEB69812E55}
 
@@ -240,45 +240,16 @@ c_templates.xml
 
 You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report. 
 
-<table id="table_D2A36022D0794FF480D232E87B641F75"> 
- <code>
-   Types of Templates 
- </code> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ranked </p> </td> 
-   <td colname="col2"> <p>Provides a blank canvas where you can construct a table. For example, a <span class="wintitle"> Pages</span> report ranks the pages on your site based on traffic. The detail table shows percentages and numbers for metrics like Page Views and Revenue. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Trended </p> </td> 
-   <td colname="col2"> <p>Lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Totals </p> </td> 
-   <td colname="col2"> <p>An executive-level report that shows bottom-line figures. It contains data for Total Revenue, Page Views, and Orders. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Fallout </p> </td> 
-   <td colname="col2"> <p>Lets you construct a funnel that displays conversion and fallout rates between checkpoints. For example, you can track a visitor's fallout points during a buying process. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Flow </p> </td> 
-   <td colname="col2"> <p>Shows the most common paths users take across pages, site sections, and servers. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Conversion Funnel </p> </td> 
-   <td colname="col2"> <p>Shows conversion percentages between specific metric events. You can use this report to understand the number of click-throughs that generate sales, and the number of units sold. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Site Analysis </p> </td> 
-   <td colname="col2"> <p>A three dimensional site pathing tool that displays how visitors move through specified pages and events. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Virtual Focus Group </p> </td> 
-   <td colname="col2"> <p>Takes a visit at random from your visits and shows you an extensive amount of data about the visit. You can use the report to create focus groups from your visitor population. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Template|Description|
+|--- |--- |
+|Ranked|Provides a blank canvas where you can construct a table. For example, a  Pages report ranks the pages on your site based on traffic. The detail table shows percentages and numbers for metrics like Page Views and Revenue.|
+|Trended|Lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period.|
+|Totals|An executive-level report that shows bottom-line figures. It contains data for Total Revenue, Page Views, and Orders.|
+|Fallout|Lets you construct a funnel that displays conversion and fallout rates between checkpoints. For example, you can track a visitor's fallout points during a buying process.|
+|Flow|Shows the most common paths users take across pages, site sections, and servers.|
+|Conversion Funnel|Shows conversion percentages between specific metric events. You can use this report to understand the number of click-throughs that generate sales, and the number of units sold.|
+|Site Analysis|A three dimensional site pathing tool that displays how visitors move through specified pages and events.|
+|Virtual Focus Group|Takes a visit at random from your visits and shows you an extensive amount of data about the visit. You can use the report to create focus groups from your visitor population.|
 
 ## Open a Report {#task_0AC455CDA198497AA546622FB05F300D}
 

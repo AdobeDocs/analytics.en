@@ -20,12 +20,12 @@ This guide is intended for Adobe Analytics administrators. You can browse for he
 | User Guide | Description |
 |--- |---|
 | [Analysis Workspace Guide](../analyze/home.md) | This guide includes information. |
-| Admin Guide | This guide includes information. |
-| Implementation Guide | This guide includes information. |
-| Components Guide | This guide includes information. |
-| Export Guide | This guide includes information. |
-| Import Guide | This guide includes information. |
-| Integration Guide | This guide includes information. |
+| *[Admin Guide](../admin/home.md)* | *This guide includes information.* |
+| [Implementation Guide](../implement/home.md) | This guide includes information. |
+| [Components Guide](../components/home.md) | This guide includes information. |
+| [Export Guide](../export/home.md) | This guide includes information. |
+| [Import Guide](../import/home.md) | This guide includes information. |
+| [Integration Guide](../integrate/home.md) | This guide includes information. |
 | Data Workbench Guide | This guide includes information. |
 | Video Analytics Guide | This guide includes information. |
 
@@ -39,4 +39,3 @@ This guide is intended for Adobe Analytics administrators. You can browse for he
 * [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-

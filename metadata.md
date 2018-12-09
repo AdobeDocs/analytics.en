@@ -3,7 +3,9 @@ cloud: experience-cloud
 solution-title: Analytics
 solution-hub-url: https://helpx.adobe.com/support/analytics.html
 solution-image: assets/analytics-icon-24.png
+getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.en
 ---

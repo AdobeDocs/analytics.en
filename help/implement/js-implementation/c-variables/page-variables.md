@@ -1481,7 +1481,7 @@ None
 
 ## Pitfalls, Questions, and Tips {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "500 Error: <URL>" where <URL> is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server. 
+To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server. 
 
 ## pageURL {#concept_A15F710CD0174297A2286BF3E7452113}
 

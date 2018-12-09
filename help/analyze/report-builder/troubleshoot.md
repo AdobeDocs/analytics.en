@@ -38,120 +38,56 @@ You will experience the following side effect when opening a ARB v5.1 workbook w
 
 Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to report builder depending on your settings within [!DNL Analytics] or your network. 
 
-<table id="table_7A2070A17B70448981A85CF77176EBF2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Invalid Login Company </td> 
-   <td colname="col2">This error most commonly occurs when either the login company is improperly entered, or if there are network activity issues. Do the following: 
-    <ul id="ul_2F65EB64EF2040AEB0DD519C3053E37B"> 
-     <li id="li_8601336246B64A6696A0DB6EF349D5D8">Check the login company spelling to ensure that there is not a typo or an errant space. </li> 
-     <li id="li_ECD83E29D1A04B828FA9AAEE38029672">Log in to <span class="keyword"> Analytics</span> with the same login company to ensure that it is correct. If you are not able to log in with those credentials, contact one of your organization's administrators to obtain the correct login company. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Firewall </td> 
-   <td colname="col2"> Report Builder uses ports 80 and 443. Ensure that these ports are allowed through your organization's firewall. See also Adobe's Internal IP Addresses for additional firewall exclusions. </td> 
-  </tr> 
- </tbody> 
-</table>
+**Invalid Login Company**
+
+This error most commonly occurs when either the login company is improperly entered, or if there are network activity issues. Do the following:
+
+*   Check the login company spelling to ensure that there is not a typo or an errant space.
+*   Log in to Analytics with the same login company to ensure that it is correct. If you are not able to log in with those credentials, contact one of your organization's administrators to obtain the correct login company.
+
+**Firewall**
+
+Report Builder uses ports 80 and 443. Ensure that these ports are allowed through your organization's firewall. See also Adobe's Internal IP Addresses for additional firewall exclusions.
 
 ## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
 
 The following factors can increase request complexity and result in slower processing: 
 
-<table id="table_7B2E48E1D78F49668A70476E211926D3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Item </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Factors that can slow down deliveries </td> 
-   <td colname="col2"> 
-    <ul id="ul_61FFD31E3F04424393F3F886C9547526"> 
-     <li id="li_6497332FDF07488AAAC587863651BF8D">Too many bookmarks, dashboards, and Report Builder workbooks were scheduled within a few hours </li> 
-     <li id="li_CBE0E455CEBE4FF99ADE317E00A96BA1">Too many Report Builder workbooks were scheduled at around the same time. When this occurs, the report API queue becomes backlogged. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Factors that can slow down workbook runtime </td> 
-   <td colname="col2"> 
-    <ul id="ul_F3383A91CBF24621999763E2BA57995F"> 
-     <li id="li_57F37C48A87D4174ABB65C020979A5BB">Significant increase in classifications. </li> 
-     <li id="li_F0D9EC30C7C9446FAA3DE05C408B5E1E">Increasing the request date range over time. <p><b>Example</b>: Suppose you create a trended request using the <span class="wintitle"> Current Year</span> setting, broken down by <span class="wintitle"> Day</span> granularity. At the end of the year, the request will return more periods than the one created at the beginning of the year. </p> <p>(January 1 - January 30 versus January 1 - December 31.) </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Causes that result in workbook delivery failure </td> 
-   <td colname="col2"> Complex Excel formulas in a workbook, particularly ones that involve date and time. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Cells returning 0s (no values) </td> 
-   <td colname="col2"> An apostrophe or single quote in the Excel sheet name will cause report builder to return no values. (This is a Microsoft Excel limitation.) </td> 
-  </tr> 
- </tbody> 
-</table>
+**Factors that can slow down deliveries**
+
+*   Too many bookmarks, dashboards, and Report Builder workbooks were scheduled within a few hours
+*   Too many Report Builder workbooks were scheduled at around the same time. When this occurs, the report API queue becomes backlogged.
+
+**Factors that can slow down workbook runtime**
+
+*   Significant increase in classifications.
+*   Increasing the request date range over time.
+    
+    **Example**: Suppose you create a trended request using the Current Year setting, broken down by Day granularity. At the end of the year, the request will return more periods than the one created at the beginning of the year.
+    
+    `(January 1 - January 30 versus January 1 - December 31.)`
+
+**Causes that result in workbook delivery failure**
+
+Complex Excel formulas in a workbook, particularly ones that involve date and time.
+
+**Cells returning 0s (no values)**
+
+An apostrophe or single quote in the Excel sheet name will cause report builder to return no values. (This is a Microsoft Excel limitation.)
 
 **Individual request performance**
 
 Processing speed can be affected by the following settings: 
 
-<table id="table_7B4281D2E9B9493FB0932F69C0573AA5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Faster Performance </th> 
-   <th colname="col3" class="entry"> Slower Performance </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Breakdowns and the breakdown order </td> 
-   <td colname="col2"> Few </td> 
-   <td colname="col3"> Many </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colspan="2"> <b>Example</b>: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Date range </td> 
-   <td colname="col2"> Small range </td> 
-   <td colname="col3"> Wide range </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Filtering </td> 
-   <td colname="col2"> Specific filtering </td> 
-   <td colname="col3"> Most Popular filtering </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Granularity </td> 
-   <td colname="col2"> Aggregated </td> 
-   <td colname="col3"> 
-    <ul id="ul_16955051AAA64C58B97DFEA18D70521C"> 
-     <li id="li_919E9C3082CA4E649D7F7E603784FFE7">Hourly </li> 
-     <li id="li_837DAEF7B7F64B549C88EB208091D495">Daily </li> 
-     <li id="li_CB9E0DB1315140A584EE25A57D6CA9FC ">Weekly </li> 
-     <li id="li_446DB7356BFE40298509350809BF2209">Monthly </li> 
-     <li id="li_4E85CB239D91497F959A7E2D7468A27C">Quarterly </li> 
-     <li id="li_E641534E051A4EBEBEAD9F766AD285DE">Yearly </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Number of entries </td> 
-   <td colname="col2"> Small data set </td> 
-   <td colname="col3"> Large data set </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Faster Performance | Slower Performance |
+|--- |--- |--- |
+|Breakdowns and the breakdown order|Few|Many|
+||Example: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly.|
+|Date range|Small range|Wide range|
+|Filtering|Specific filtering|Most Popular filtering|
+|Granularity|Aggregated|Hourly<ul><li>Daily</li><li>Weekly</li><li>Monthly</li><li>Quarterly</li><li>Yearly</li></ul>|
+|Number of entries|Small data set|Large data set|
+
 
 **Scheduling time**
 
@@ -159,26 +95,9 @@ Stagger scheduling over 24-hour period (see table below). Existing bookmarks , d
 
 Schedule larger, more complex requests in the early morning to allow for manual pulls and refreshing to occur during the business day. 
 
-<table id="table_A10D4EE572814DF3A4C14A6BFADB0B3C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Scheduling Time </th> 
-   <th colname="col2" class="entry"> 1 a.m. - 2 a.m. </th> 
-   <th colname="col3" class="entry"> 2 a.m. - 7 a.m. </th> 
-   <th colname="col4" class="entry"> 7 a.m. - 6 p.m. </th> 
-   <th colname="col5" class="entry"> 6 p.m. - Midnight </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Report Builder usage </td> 
-   <td colname="col2"> Quiet </td> 
-   <td colname="col3"> Very busy </td> 
-   <td colname="col4"> <p>Client-side usage. </p> <p> Higher volumes of users refreshing locally and requesting to "Send immediately." </p> <p>Additionally, verify whether the API queue is cleared when scheduled workbooks time out. </p> </td> 
-   <td colname="col5"> Not busy </td> 
-  </tr> 
- </tbody> 
-</table>
+| Scheduling Time | 1 a.m. - 2 a.m. | 2 a.m. - 7 a.m. | 7 a.m. - 6 p.m. | 6 p.m. - Midnight |
+|--- |--- |--- |--- |--- |
+|Report Builder usage|Quiet|Very busy|Client-side usage.<br>Higher volumes of users refreshing locally and requesting to "Send immediately."<br>Additionally, verify whether the API queue is cleared when scheduled workbooks time out.|Not busy|
 
 **Timeouts**
 
@@ -196,31 +115,31 @@ A list of error messages that could occur occasionally while you are using Repor
 >
 >This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
 
-** *This feature can only be applied on an open workbook.* **
+**This feature can only be applied on an open workbook.**
 
 If no workbooks (spreadsheet documents) are open in Excel, and you click one of the icons in the report builder toolbar, this message is displayed. In addition, the toolbar becomes disabled until you open a spreadsheet. However, you can click the on-line help icon while the toolbar is still enabled without causing this error.
 
-** *You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].* **
+**You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].**
 
 While the [!UICONTROL Request Manager] and the [!UICONTROL Request Wizard] are linked functionally, it is not possible to start working with the [!UICONTROL Request Manager] before completing or cancelling actions taken in the [!UICONTROL Request Wizard].
 
-** *There is no request associated with this range.* **
+**There is no request associated with this range.**
 
 This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
 
 To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. If a request is associated with cells, the cells will show up highlighted when the request is selected in the table.
 
-** *The selected Range is not valid. Please select another Range.* **
+**The selected Range is not valid. Please select another Range.**
 
 If a cell of the spreadsheet is selected and already has a request mapped to it, this error occurs. Either delete the request mapped to the cells or choose another range of cells to map.
 
 When you want to delete cells, it is important to locate cells containing requests and delete the request before deleting the cells (removing rows or columns).
 
-** *Please Exit the Excel Cell with focus before using this feature.* **
+**Please Exit the Excel Cell with focus before using this feature.**
 
 If you are in *edit mode* in an Excel cell and click one of the Report Builder icons, this error message appears. Edit mode in an Excel cell means that the cell is selected and the cursor appears inside the cell. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
 
-** *The range selected intersects another request's range. Please change your selection.* **
+**The range selected intersects another request's range. Please change your selection.**
 
 If you have already mapped a set of cells to the spreadsheet, this error is displayed.
 

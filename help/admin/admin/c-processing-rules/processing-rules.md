@@ -23,12 +23,15 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
+<!-- 
+Meike, we can't put videos in tables. I reformatted the video in a table. Please check against original. -Bob
+
+IMPORTANT: I had to comment out this video due to a Jenkins validation bug. 
+
 >[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
 
 *Watch the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules.*
 
-<!-- 
-Meike, we can't put videos in tables. I reformatted the video in a table. Please check against original. -Bob
 -->
 
 ## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}

@@ -77,9 +77,6 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |Classifications|Combines the following permissions: 'Traffic Classifications', 'Video Classifications', 'Conversion Classifications', 'Classification Hierarchies', 'Classifications Manager' and 'Classifications Importer/Exporter & Rule Builder'.  Note:  With this permission, users edit classifications for all report suites, not just the selected one/s.|
 |[Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html)|Grants rights to use Contribution Analysis in Analysis Workspace.|
 |**Dashboard Items**||
-|The settings in Dashboard Items enables access to the following [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports & Analytics:
-<ul><li>My Recommended Reports</li><li>Company Summary Reportlet</li><li>Image  
-</li><li>KPI/Gauge Reportlet</li><li>Report Suite Totals  
-</li><li>Text Reportlet</li><li>Usage Summary Reportlet</li><li>Web Resources</li></ul>|
+|The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports & Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources||
 |**Other**||
 |Social|Controls access to the  Social Management menu in the  Report Suite Manager.|

@@ -627,7 +627,7 @@ New features in Analysis Workspace.
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Added the ability to enable/disable alerts. </li> 
-     <li id="li_F7415EE7DF29417FAF416594E36A38A4">Added a “enabled/disabled” column. </li> 
+     <li id="li_F7415EE7DF29417FAF416594E36A38A4">Added an enabled/disabled column. </li> 
      <li id="li_61B3A60A2AFB4BD0AA4D83803AB95B1E">Added a filter for enabled/disabled alerts. </li> 
     </ul> </td> 
   </tr> 
@@ -804,10 +804,8 @@ New features in Analysis Workspace.
 </table>
 
 * [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group. 
-
 * The [Segment Comparison Panel](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to. 
 * [New Projects Menu structure](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization. 
-
 * [New left rail](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components 
 * A new [Venn visualization type](../../analyze/analysis-workspace/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram. 
 * [Trend Selection](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked. 
@@ -842,7 +840,7 @@ New features in Analysis Workspace.
 Fixes for April 2016
 
 * [Undo Actions](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482) 
-* [Link to This Project](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46) 
+* [Link to This Project](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
 * [Bullet Graph, Scatterplot, and Treemap Visualizations](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6) 
 * [Save As for Segments, Metrics, and Dates](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE) 
 * [Add New Segment Button](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4) 
@@ -995,7 +993,7 @@ Depending on what the numbers are for a line and area charts, the bottom of the 
 
 ## Project Name on Tab Title {#section_497C61A030984BCCA2CEA553312C3226}
 
-When saving a project, the title on the browser tab will be displayed as "<Project Name> - Analysis Workspace". This enhancement is helpful if you open multiple projects in multiple browser tabs.
+When saving a project, the title on the browser tab will be displayed as "`<Project Name>` - Analysis Workspace". This enhancement is helpful if you open multiple projects in multiple browser tabs.
 
 ## Transfer Project Ownership {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 

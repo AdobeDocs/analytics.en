@@ -56,47 +56,15 @@ s_kwcid=AL!
 
 ![](assets/Google.png)
 
-**Examples** of tracking codes in various tracking template formats: 
+Examples of tracking codes in various tracking template formats: 
 
-<table id="table_94171CCE70F84A599D044A26570A13C2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Notes </th> 
-   <th colname="col2" class="entry"> Tracking String </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>{lpurl} example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword} 
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>{lpurl} with additional URL parameter example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      {lpurl}?campaign=PPC&amp;s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
+| Notes | Tracking String |
+|--- |--- |
+|`{lpurl}` example|`{lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}`|
+|`{lpurl}` with additional URL parameter example|`{lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}`|
+|3rd-party (DoubleClick) `{unescapedlpurl}` example|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`|
+|3rd-party (DoubleClick) `{lpurl}` example<br>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`|
 
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3rd-party (DoubleClick) {unescapedlpurl} example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3rd-party (DoubleClick) {lpurl} example </p> <p>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
-    </code> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Add Manual Tracking to Bing Account {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
@@ -115,48 +83,14 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 ![](assets/Bing.png)
 
-**Examples** of tracking codes in various tracking template formats: 
+Examples of tracking codes in various tracking template formats: 
 
-<table id="table_BF4B7C0039794F6AA454FD916A665092"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Notes </th> 
-   <th colname="col2" class="entry"> Tracking String </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> {lpurl} example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      {lpurl}? 
-     <b>s_kwcid=AL!9999!10!{AdId}!{OrderItemId}</b>
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>{lpurl} with additional URL parameter example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      {lpurl}?campaign=PPC&amp; 
-     <b>s_kwcid=AL!9999!10!{AdId}!{OrderItemId}</b>
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3rd-party (DoubleClick) {unescapedlpurl} example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3rd-party (DoubleClick) {lpurl} example </p> <p>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
-    </code> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Notes | Tracking String |
+|--- |--- |
+|`{lpurl}` example|`{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`|
+|`{lpurl}` with additional URL parameter example|`{lpurl}?campaign=PPC&`<br>`s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`|
+|3rd-party (DoubleClick) `{unescapedlpurl}` example|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`|
+|3rd-party (DoubleClick) `{lpurl}` example<br>If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}`|
 
 ## Add Manual Tracking to Yahoo Gemini Account {#section_A45EA79F7DD04359984476002692D4EE}
 
@@ -169,50 +103,15 @@ The string that needs to be added to your Yahoo Gemini account is shown below. A
 ```
 s_kwcid=AL! 
 <b><Advertising Analytics ID></b>!105!{adid}!{network}!{keywordid} 
-
 ```
 
 ![](assets/Yahoo.png)
 
 **Examples of tracking codes in various destination URL formats:** 
 
-<table id="table_2A457396F726434380272ED26DB2434B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Notes </th> 
-   <th colname="col2" class="entry"> Tracking String </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Landing page URL example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://www.website.com? 
-     <b>s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}</b>
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Landing page URL with additional URL parameter example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://www.website.com?campaign=PPC&amp; 
-     <b>s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}</b>
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3rd-party (DoubleClick) landing page example </p> </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url=&nbsp;https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> If the URL goes through a redirect, you need to encode the string enough times so that it persists through the redirect to the final landing page URL. </td> 
-   <td colname="col2"> 
-    <code>
-      https://clickserve.dartsearch.net/link/click?{_dssagcrid}&amp;{_dssftfiid}&amp;ds_e_adid={creative}&amp;ds_e_matchtype={ifsearch:search}{ifcontent:content}&amp;ds_e_device={device}&amp;ds_e_network={network}&amp;{ifpla:ds_e_product_group_id={product_partition_id}&amp;ds_e_product_id={product_id}&amp;ds_e_product_merchant_id={merchant_id}&amp;ds_e_product_country={product_country}&amp;ds_e_product_language={product_language}&amp;ds_e_product_channel={product_channel}&amp;ds_e_product_store_id={product_store_id}}&amp;ds_url_v=2&amp;ds_dest_url=&amp;nbsp;http%3A%2F%2Fwww.website.com%3Fs_kwcid%3DAL!9999!105!{adid}!{network}!{keywordid} 
-    </code> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Notes | Tracking String |
+|--- |--- |
+|Landing page URL example|`https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}`|
+|Landing page URL with additional URL parameter example|`https://www.website.com?campaign=PPC&`<br>`s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}`|
+|3rd-party (DoubleClick) landing page example|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url= https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}`|
+|If the URL goes through a redirect, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.|`https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url=&nbsp;http%3A%2F%2Fwww.website.com%3Fs_kwcid%3DAL!9999!105!{adid}!{network}!{keywordid}`|

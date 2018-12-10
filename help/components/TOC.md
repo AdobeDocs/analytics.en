@@ -6,7 +6,7 @@ user-guide-title: Analytics Components Guide
 
 # Analytics Components Guide {#components-guide}
 
-+ [Analytics Components Help] (home.md)
++ [Analytics Components Help](home.md)
 + Segmentation {#segmentation}
     + [Analytics segmentation](c-segmentation/seg-home.md)
     + [About segments and containers](c-segmentation/seg-overview.md)

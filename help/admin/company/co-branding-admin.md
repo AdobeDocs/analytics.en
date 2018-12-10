@@ -15,7 +15,7 @@ snippet: y
 
 The Manage Co-Branding Image page lets you display your company logo in downloaded reports.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Co-Brand the Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Co-Brand the Adobe Experience Cloud]**
 
 Use the following image guidelines for the best results:
 

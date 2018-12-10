@@ -14,8 +14,7 @@ snippet: y
 
 You can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metric Builder, and Segment Builder.
 
-1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**** > ** **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]** . [More...](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
-
+1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**** > ** **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**. [More...](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
 1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
 
 This setting does not impact the data collection for that metric; it affects only its visibility in the user interface. This is how the settings affect the visibility of the metrics in the user interface: 

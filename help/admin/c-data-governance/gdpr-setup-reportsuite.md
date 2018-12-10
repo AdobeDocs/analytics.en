@@ -27,14 +27,14 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
    ![](assets/variables.png)
 
-    * **Standard Dimensions** (Adobe Analytics out-of-the-box dimensions) 
-    * **Standard Metrics** (Adobe Analytics out-of-the-box metrics) 
-    * ** Conversion Events** (Custom success events) 
-    * **Merchandising Conversion Dimensions** (Merchandising eVars) 
-    * **Conversion Dimensions** (non-merchandising eVars) 
-    * **Custom Traffic Dimensions** (props) 
-    * **Solution Dimensions and Events** (Dimensions/events related to solutions such as Mobile, Video, Activity Map, etc., and integrations with solutions such as Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.) 
-    * **Data Processing Dimensions** (variables not exposed directly in reporting through the Adobe Analytics UI, but available to you through Data Feeds and/or Data Warehouse requests)
+   * **Standard Dimensions** (Adobe Analytics out-of-the-box dimensions) 
+   * **Standard Metrics** (Adobe Analytics out-of-the-box metrics) 
+   * **Conversion Events** (Custom success events) 
+   * **Merchandising Conversion Dimensions** (Merchandising eVars) 
+   * **Conversion Dimensions** (non-merchandising eVars) 
+   * **Custom Traffic Dimensions** (props) 
+   * **Solution Dimensions and Events** (Dimensions/events related to solutions such as Mobile, Video, Activity Map, etc., and integrations with solutions such as Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.) 
+   * **Data Processing Dimensions** (variables not exposed directly in reporting through the Adobe Analytics UI, but available to you through Data Feeds and/or Data Warehouse requests)
 
 1. (Optional) Click the information (i) icon next to each variable to better understand its most common values over the last 90 days. (This functionality is not available for Data Processing Dimensions, because they are not available in the Analytics UI.)
 

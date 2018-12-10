@@ -21,7 +21,7 @@ Not to be mistaken with global report suites, rollups provide a convenient place
 
 **Global report suite**: Implementation is altered to send image requests across domains into a single global report suite, in addition to individual report suites.
 
-** Rollup report suite**: Created in Admin Tools. Takes the sum of each metric at the end of every day.
+**Rollup report suite**: Created in Admin Tools. Takes the sum of each metric at the end of every day.
 
 * Rollups are free to use and do not increment any server calls. 
 * Rollups provide total data, but do not report individual values in reports. For example, eVar1 values are not included, but its aggregate total can be. 

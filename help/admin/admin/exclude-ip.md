@@ -15,11 +15,7 @@ snippet: y
 
 You can exclude data from specific IP addresses, such as internal website activities, site testing and employee usage, from your reports. Excluding data improves report accuracy by excluding IP address data. Additionally, you can remove data from denial of service or other malicious events that can skew report data. You can configure exclusion or by using your firewall.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
-
-* [Exclude By Cookie](../../admin/admin/exclude-ip.md#section_FB5A20AB5E514DA6BC596CC67F6A3A4C) 
-* [Exclude by IP Address](../../admin/admin/exclude-ip.md#section_609FB6461529409D840111A32FEF5C3D) 
-* [Exclude by Firewall](../../admin/admin/exclude-ip.md#section_3E7BFB71ADD941D39F923DB9557AD9CD)
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
 >[!NOTE]
 >

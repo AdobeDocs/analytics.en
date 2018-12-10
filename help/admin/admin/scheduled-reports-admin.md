@@ -15,7 +15,7 @@ snippet: y
 
 Lets Admin-level users see and manage scheduled reports across the organization.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
 
 Admin-level capabilities in the Scheduled Reports Manager include:
 
@@ -53,4 +53,3 @@ The Report Queue also gives you the ability to "Skip a scheduled report once". J
 Having the **[!UICONTROL Schedule ID]** exposed in the Report Queue interface helps when you need to contact Adobe Client Care for resolution of a scheduled reports issue.
 
 ![](assets/schedule_id.png)
-

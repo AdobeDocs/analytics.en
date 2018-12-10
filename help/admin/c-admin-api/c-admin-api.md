@@ -11,5 +11,4 @@ snippet: y
 
 # Admin API
 
-<!-- Context? Better link? -->
-[https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md)
+[Admin API 1.4 on GitHub](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md)

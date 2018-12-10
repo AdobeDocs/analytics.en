@@ -15,7 +15,7 @@ snippet: y
 
 Combine both timestamped and non-timestamped data into a single report suite.
 
- Timestamps Optional lets you:
+Timestamps Optional lets you:
 
 * Mix timestamped and non-timestamped data in the same global report suite. 
 * Send timestamped data from a mobile app to a global report suite. 

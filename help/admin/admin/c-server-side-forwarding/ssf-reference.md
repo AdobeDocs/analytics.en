@@ -28,6 +28,8 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 These headers are fields contain information like requests for data and responses in an HTTP call.
 
+<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
+
 |HTTP Header|Description|
 |--- |--- |
 |Host|This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as   `host name .demdex.net` .  See  Understanding Calls to the Demdex Domain .|

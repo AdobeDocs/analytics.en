@@ -15,4 +15,6 @@ snippet: y
 
 If you have Adobe Social enabled, this option allows you to classify Social variables.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Social Management]** > **[!UICONTROL Social Classifications.]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Social Management]** > **[!UICONTROL Social Classifications.]** 
+
+<!--Meike, link to social user guide?-->

@@ -15,7 +15,7 @@ snippet: y
 
 Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Logs]**
 
 ## Admin Log {#section_8ADE8A7204A8401C968ABC20AECA381D}
 

@@ -16,7 +16,7 @@ snippet: y
 
 Steps that describe how to assign user groups to a report suite.
 
-The [!UICONTROL Report Suites] page lets you view and configure company report suites. Analytics manages report suite access through group membership. For first-time setup, create the needed groups (assigning report suites to each group), then assign user accounts to the appropriate [groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) 
+The [!UICONTROL Report Suites] page lets you view and configure company report suites. Analytics manages report suite access through group membership. For first-time setup, create the needed groups (assigning report suites to each group), then assign user accounts to the appropriate [groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Report Suites]**.

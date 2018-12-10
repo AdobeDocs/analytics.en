@@ -19,7 +19,7 @@ Steps that describe how to add a user group.
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Add New User Group]**, then complete the fields and options described in [Define User Groups](../../../admin/user-management2/c-user-groups/groups.md#concept_DBBCB8275D554B02B4B4E1168BA69A05).
 
-       Quick links:
+    Quick links:
 
     * [Analytics Tools](../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC): Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. 
     * [Report Suite Tools](../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF): Enable user permissions for API Access, Report Suite Management, Tools and Reports, and Dashboard Items. 

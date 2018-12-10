@@ -19,4 +19,4 @@ To access [!UICONTROL Traffic Management]:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, then select a report suite. 
 
-1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>*`.
+1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>`*.

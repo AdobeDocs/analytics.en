@@ -7,6 +7,22 @@ user-guide-title: Analytics Implementation Guide
 # Analytics Implementation Guide {#implementation-guide}
 
 + [Analytics Implementation Help](home.md)
++ [AppMeasurement Release Notes](home/home.md)
+   + [AppMeasurement for JavaScript](home/c-release-notes-mjs.md)
+   + [JavaScript H Code - Legacy](home/c-release-notes-javascript.md)
+   + [Flash-Flex](home/c-release-notes-flash.md)
+   + [iOS](home/c-release-notes-ios.md)
+   + [Android](home/c-release-notes-android.md)
+   + [PhoneGap](home/c-release-notes-phonegap.md)
+   + [Windows 8.1 Universal App Store](home/c-release-notes-winu.md)
+   + [Windows Phone 8](home/c-release-notes-wp8.md)
+   + [WinRT for Windows 8](home/c-release-notes-winrt.md)
+   + [Mac OS X](home/c-release-notes-osx.md)
+   + [Windows Silverlight, NET, IIS, XBOX](home/c-release-notes-net.md)
+   + [Java](home/c-release-notes-java.md)
+   + [BlackBerry](home/c-release-notes-blackberry.md)
+   + [Symbian](home/c-release-notes-symbian.md)
+   + [PHP](home/c-release-notes-php.md)
 + Analytics Implementation {#analytics-implementation}
     + [Implementation Overview](c-implementation/c-implementation.md)
     + [Implementation roadmap](c-implementation/implementation.md)

@@ -457,13 +457,13 @@ Release Date: **April 23, 2014**
 
 Release Date: **April 17, 2014**
 
-* - New - Bluetooth beacon tracking. 
-* - New - Apps that are timestamp enabled, crash hits are backdated to the correct session. 
-* - New - Apps that are timestamp enabled, previous session is sent in a hit that is backdated to the correct session. (no longer previous session). 
-* - New - Hit batching. 
-* - Fixed google play referrer tracking with a configurable timeout to allow for delayed google referrer data. 
-* - Resolved StrictMode warnings that could occur in specific scenarios. 
-* - Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
+*  New - Bluetooth beacon tracking. 
+*  New - Apps that are timestamp enabled, crash hits are backdated to the correct session. 
+*  New - Apps that are timestamp enabled, previous session is sent in a hit that is backdated to the correct session. (no longer previous session). 
+*  New - Hit batching. 
+*  Fixed google play referrer tracking with a configurable timeout to allow for delayed google referrer data. 
+*  Resolved StrictMode warnings that could occur in specific scenarios. 
+*  Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 

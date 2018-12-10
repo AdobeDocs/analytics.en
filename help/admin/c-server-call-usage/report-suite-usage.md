@@ -13,7 +13,7 @@ snippet: y
 
 The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
 
 >[!IMPORTANT]
 >
@@ -73,32 +73,32 @@ This option lets you download current usage data, and data from time periods pri
 
    ![](assets/download_report.png)
 
-<table id="table_7ADC98C9C6D94303AF4814EA4698A183"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Report Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>File Name </p> </td> 
-   <td colname="col2"> <p>Hardcoded name: Usage Report &lt;<i>day and time of report creation</i>&gt;.csv </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Included Report Suites </p> </td> 
-   <td colname="col2"> <p>Any report suites you selected on the Report Server Usage page are included in this list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Included Call Types </p> </td> 
-   <td colname="col2"> <p>Specify any combination of these: <span class="uicontrol"> All Calls </span> (Default), <span class="uicontrol"> Primary </span>, <span class="uicontrol"> Secondary </span>, <span class="uicontrol"> Mobile Primary </span>, <span class="uicontrol"> Mobile Secondary </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Time Range </p> </td> 
-   <td colname="col2"> <p>You can choose the current usage period or specify a custom range. </p> <p>For a custom range, specify the <span class="uicontrol"> Range Start </span> and the <span class="uicontrol"> Range End </span>. Note that you cannot download usage data prior to January 2015. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_7ADC98C9C6D94303AF4814EA4698A183"> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> Report Element </th> 
+    <th colname="col2" class="entry"> Description </th> 
+    </tr> 
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p>File Name </p> </td> 
+    <td colname="col2"> <p>Hardcoded name: Usage Report &lt;<i>day and time of report creation</i>&gt;.csv </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Included Report Suites </p> </td> 
+    <td colname="col2"> <p>Any report suites you selected on the Report Server Usage page are included in this list. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Included Call Types </p> </td> 
+    <td colname="col2"> <p>Specify any combination of these: <span class="uicontrol"> All Calls </span> (Default), <span class="uicontrol"> Primary </span>, <span class="uicontrol"> Secondary </span>, <span class="uicontrol"> Mobile Primary </span>, <span class="uicontrol"> Mobile Secondary </span>. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Time Range </p> </td> 
+    <td colname="col2"> <p>You can choose the current usage period or specify a custom range. </p> <p>For a custom range, specify the <span class="uicontrol"> Range Start </span> and the <span class="uicontrol"> Range End </span>. Note that you cannot download usage data prior to January 2015. </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Download]**.
 

@@ -19,10 +19,6 @@ These methods include reporting on information from offline systems via the Data
 
 ![](assets/moving_data.png)
 
-* [Input Options](../../admin/data-collection/usecase-sending-data-to-sc.md#section_6525FDEDA5734D0E994AFB78DF555A69) 
-* [Output Options](../../admin/data-collection/usecase-sending-data-to-sc.md#section_6775F66245A747CD951F9A0E604923D6) 
-* [Third-Party Data Connectors](../../admin/data-collection/usecase-sending-data-to-sc.md#section_5B8E40F04F764A2A9B4180FE8C8A1C20)
-
 ## Input Options {#section_6525FDEDA5734D0E994AFB78DF555A69}
 
 For a list of input options, see [Which Adobe Tool Should I Use?](../../admin/c-analytics-product-comparison/which-analytics-tool.md#concept_E7D62115EB5B49959887B338F20CBC1A)

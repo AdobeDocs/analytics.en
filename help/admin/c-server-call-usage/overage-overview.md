@@ -11,11 +11,6 @@ snippet: y
 
 # Server Call Usage Overview
 
-* [Why Monitor and Alert to Server Call Usage?](../../admin/c-server-call-usage/overage-overview.md#section_060C29BF1D00444B85892AD1FCF55290) 
-* [Prerequisites](../../admin/c-server-call-usage/overage-overview.md#section_49AE590FFC7C4E8A83C640C4AAA581AA) 
-* [Important Terminology](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D) 
-* [Billing Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)
-
 ## Why Monitor and Alert to Server Call Usage? {#section_060C29BF1D00444B85892AD1FCF55290}
 
 Adobe Analytics Server Call Usage addresses your requests for transparency into both browser and mobile server call usage data. It lets you access:

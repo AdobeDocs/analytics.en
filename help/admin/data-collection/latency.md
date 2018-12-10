@@ -46,12 +46,12 @@ Several strategies exist to prevent latency or decrease recovery time when it oc
 * Notify Adobe of expected traffic spikes: While it is impossible to anticipate every traffic spike to your site, there may be cases where you are expecting to receive a significant increase in traffic (such as during a particularly successful holiday period or shortly after a large campaign push). In these cases, Adobe provides a way for your organization to inform us of expected traffic increases so that we can allocate additional processing resources to your report suite. 
 * Consider processing load when activating new features: Some features are more processing intensive than others. The more features enabled on a report suite, the more difficult it is to recover from latency. When enabling features on a report suite, keep in mind the following features that increase the amount of data to process:
 
-    * Implementing many success events on the same page 
-    * More than 5 events with participation enabled 
-    * Commerce Visits and Visitors 
-    * Complex VISTA rules 
-    * More than 20 values in the products variable 
-    * Event serialization
+  * Implementing many success events on the same page 
+  * More than 5 events with participation enabled 
+  * Commerce Visits and Visitors 
+  * Complex VISTA rules 
+  * More than 20 values in the products variable 
+  * Event serialization
 
 * Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules) can greatly reduce latency if your report suite is frequented by bots or spiders. It is recommended to use the IAB bot list, as it is updated and maintained by the [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Additionally a user can customize their own bot rules to complement those from the IAB.
 

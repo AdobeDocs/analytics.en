@@ -66,7 +66,7 @@ Affected versions are [!DNL AppMeasurement] for Flash version 4.0 and earlier on
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. We will continue to support data collection from existing AS2-based projects. However, we highly recommend that customers upgrade their implementations to AS3 and incorporate the latest security features of [!DNL AppMeasurement] for Flash.
 
-[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the [!DNL Analytics] Console [More…](http://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
+[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the [!DNL Analytics] Console [More…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -216,7 +216,7 @@ Release Date: **September 13, 2012**
 **Important change to variable binding**: In version 3.5, an option to disable variable binding was added for customers who need to start and end literal string values with curly braces. Variable binding using curly braces is used primarily when configuring OSMF video players using XML tags: 
 
 ```
-<autoTrackMediaName>{media.player.metadata(http://www.corp1.com/,episodeID)}</autoTrackMediaName>
+<autoTrackMediaName>{media.player.metadata(https://www.corp1.com/,episodeID)}</autoTrackMediaName>
 ```
 
 A new attribute, called `autoBind`, is available to override the default behavior in XML tags:
@@ -262,7 +262,7 @@ s.autoBindVariablesByValue = true;
 
 Release Date: **July 19, 2012**
 
-* Added a master-only meta policy, see [http://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html](http://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html).
+* Added a master-only meta policy, see [https://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html](https://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html).
 
 ## Version 3.4.8 {#section_7501E04F6A854D50BFF0F287607A796F}
 

@@ -22,7 +22,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 >[!NOTE]
 >
->The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../home/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. No further development will occur on this SDK.
+>The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. No further development will occur on this SDK.
 
 ## Version 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 

@@ -11,17 +11,6 @@ snippet: y
 
 # GDPR Labels for Analytics Variables
 
-* [Why Label Your Data?](../../admin/c-data-governance/gdpr-labels.md#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3) 
-* [Identity Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC) 
-* [Sensitive Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC) 
-* [Data Governance Labels (GDPR)](../../admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B) 
-* [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7) 
-* [Variable Types and the GDPR/DULE Labels they support](../../admin/c-data-governance/gdpr-labels.md#section_CE7C3EDE1344466A98BC45E394B40762) 
-* [Variables to which Labels other than ACC-ALL/ACC-PERSON can be assigned](../../admin/c-data-governance/gdpr-labels.md#section_4FA003003D1B4E2EBCFCDB1A7CD4A824) 
-* [Deletion Handling](../../admin/c-data-governance/gdpr-labels.md#section_F3DEE591671A4B16A8E043F91C137ECB) 
-* [Variables that Don’t Support the Expected Delete Labels](../../admin/c-data-governance/gdpr-labels.md#section_956B766EFFEC427E87E6CFF3A4217E86) 
-* [Date Fields for Access Requests](../../admin/c-data-governance/gdpr-labels.md#section_6678FB4FF42B481C9B78E64F61782397)
-
 ## Why Label Your Data? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
 Many Adobe customers have legal teams that have reviewed the GDPR law and that have drawn their own conclusions about how data should be handled in order to conform with GDPR. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for GDPR data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for GDPR data processing for their unique data. This allows each unique customer to process GDPR requests in the way that makes most sense for their brand and their unique data set.

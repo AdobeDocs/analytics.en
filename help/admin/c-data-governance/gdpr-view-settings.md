@@ -59,7 +59,7 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Export to CSV </p> </td> 
-   <td colname="col2"> <p>If you mark the checkbox next to one or more of the report suites, the <span class="uicontrol"> Export to CSV </span> option displays. This option lets you download a CSV file containing all current label definitions for all variables for all selected report suites. </p> <p>We recommend that your legal team review your labeling choices and this option facilitates this review. Instead of needing to perform the review while logged into the Data Governance UI, you can share the .CSV file with them. </p> <p><img align="center" placement="break" href="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
+   <td colname="col2"> <p>If you mark the checkbox next to one or more of the report suites, the <span class="uicontrol"> Export to CSV </span> option displays. This option lets you download a CSV file containing all current label definitions for all variables for all selected report suites. </p> <p>We recommend that your legal team review your labeling choices and this option facilitates this review. Instead of needing to perform the review while logged into the Data Governance UI, you can share the .CSV file with them. </p> <p><img placement="break" href="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

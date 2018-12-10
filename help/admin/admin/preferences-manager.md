@@ -15,7 +15,7 @@ snippet: y
 
 The Preferences Manager page lets you configure how to render Excel and comma-separated value (CSV) report output.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Preferences]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Preferences]**
 
 * Use deprecated date format for CSV (Aug 30, 2013) 
 * Use ISO 8601 date format for CSV (2013-08-30)

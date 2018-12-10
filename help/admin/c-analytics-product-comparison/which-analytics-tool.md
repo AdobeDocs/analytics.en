@@ -22,9 +22,9 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-** [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
+**[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
-** [Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)** should be used:
+**[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate. 
 * For accurate counting of A4T Activity Impressions & Conversions. 
@@ -37,7 +37,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off. 
 * To leverage Publishing Lists in scheduled reporting .
 
-** [Mobile Services UI](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) **should be used:
+**[Mobile Services UI](https://marketing.adobe.com/resources/help/en_US/mobile/home.html)** should be used:
 
 * If a siloed view of Mobile App data is desired. 
 * To manage the implementation of your mobile app SDK. 
@@ -46,7 +46,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * To visualize points of interest on a map. 
 * For Lifetime value metrics.
 
-**[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html)**should be used:
+**[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html)** should be used:
 
 * If true table builder functionality is desired. For example, a) Analysis Workspace is not able to support what you need to build, b) you want to be able to control when your table rebuilds, c) you want the table to remember the various breakdown levels you would like applied to all rows, d) you want to order metric rows manually 
 * To export 50,000 rows of data 
@@ -81,7 +81,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
     * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 
     * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
-** [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(formerly known as Genesis)** should be used:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(formerly known as Genesis)** should be used:
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
@@ -127,7 +127,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 * **Fully Processed**: when you want feature-rich data (including visits, visitors, and segments). This is typical Analytics UI summarized data, available within ~30-90 minutes. Can be used through Report Builder. 
 * **Real-Time**: when you want to view a few metrics and dimensions with seconds of latency. This is limited, partially processed, summarized data that is available within ~30 seconds. Includes unique algorithms of most popular, gainers, and losers. Can be used through Report Builder. 
-* ** [!UICONTROL Live Stream]**: when you want a stream of partially-processed hit-level Analytics data within seconds of collection. This is partially processed data, available within ~30 seconds. Available for Analytics Premium only. Requires some way to visualize the data, typically through an Engineering Services engagement.
+* **[!UICONTROL Live Stream]**: when you want a stream of partially-processed hit-level Analytics data within seconds of collection. This is partially processed data, available within ~30 seconds. Available for Analytics Premium only. Requires some way to visualize the data, typically through an Engineering Services engagement.
 
 ## Custom Solutions {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -141,4 +141,3 @@ Engineering Services should be used when:
 * You have complex data ETL (Extract-Transform-Load) requirements. 
 * You want custom branding. 
 * You want to visualize [!UICONTROL Analytics Live Stream].
-

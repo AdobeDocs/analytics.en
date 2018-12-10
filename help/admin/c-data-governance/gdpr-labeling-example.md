@@ -11,10 +11,6 @@ snippet: y
 
 # Labeling Example
 
-* [Sample Hit Data](../../admin/c-data-governance/gdpr-labeling-example.md#section_94DE6BC0026F46D7AD7061C5625C8D52) 
-* [Sample Access Request](../../admin/c-data-governance/gdpr-labeling-example.md#section_BDA817FD2415420DAAC835825484BA9D) 
-* [Sample Delete Request](../../admin/c-data-governance/gdpr-labeling-example.md#section_6C75F70F5D574BE7AA540981E8B7EA26)
-
 ## Sample Hit Data {#section_94DE6BC0026F46D7AD7061C5625C8D52}
 
 Suppose you have the following hit data:
@@ -23,7 +19,7 @@ Suppose you have the following hit data:
 * The second row is the name of the variable. If it has an ID label, it contains the assigned namespace in parentheses. 
 * Hit data starts in the third row.
 
-<!-- Meike, converted html tables for fix elusive validation error. Bob -->
+<!-- Meike, I converted html tables for fix elusive validation error. Bob -->
 
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON  | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL  | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL  | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL  |
 |:---:|:---:|:---:|:---:|:---:|:---:|

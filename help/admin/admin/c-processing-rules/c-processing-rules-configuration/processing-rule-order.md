@@ -13,7 +13,7 @@ uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 
 To effectively use processing rules it is essential to understand when they are applied during data collection.
 
- ![](assets/analytics_processing_order_test.png)
+![](assets/analytics_processing_order_test.png)
 
 The following tables list the data that is typically available before and after processing rules are applied: 
 

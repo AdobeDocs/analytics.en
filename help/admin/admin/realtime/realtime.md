@@ -36,10 +36,10 @@ As an Administrator, you can
 * Use any custom event, shopping cart event, or instance. 
 * View up to 2 hours of historical real-time data and modify this setting:
 
-    * Last 15 minutes: 1-minute granularity 
-    * Last 30 minutes: 1-minute granularity 
-    * Last 1 hour: 2-minute granularity 
-    * Last 2 hours: 4-minute granularity
+  * Last 15 minutes: 1-minute granularity 
+  * Last 30 minutes: 1-minute granularity 
+  * Last 1 hour: 2-minute granularity 
+  * Last 2 hours: 4-minute granularity
 
 * Compare, for example, last week's values to last year's values (as well as to the total of today.)
 

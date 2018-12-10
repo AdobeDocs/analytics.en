@@ -15,14 +15,6 @@ snippet: y
 >
 >This page describes functionality that will be available at a later date.
 
-* [Overview](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_BD70882995894C1CA19C205C49FEC23C) 
-* [Manage Consumer Consent](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_3012015E7E8942519FB9279CF7057EAB) 
-* [Validate Users and Their Data](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_AFB2CC225AA94AF6A3CE9F24EF788358) 
-* [Submit Requests](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_F70F4D91B7FF4242876338A66D2125C3) 
-* [Sample JSON Request](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) 
-* [Response Times](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_93F554F65DBB48A18B75EB5784056C96) 
-* [Testing GDPR Processing on Your Data](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_FBA843DBFAE64D979D8DB8A3C56784D7)
-
 ## Overview {#section_BD70882995894C1CA19C205C49FEC23C}
 
 If your customers (consumers/data subjects) want to know what data you maintain about them or decide they want to be deleted from your Analytics properties, you as the data controller are responsible for responding to those requests. The data controller determines how your organization will interact with data subjects (e.g., through a data subject user portal) and manages interactions with the data subject. It also is the controller's responsibility to close the loop with the data subject when the request is fulfilled. In other words, Adobe Experience Cloud, as the data processor, will not accept requests directly from data subjects or return data directly to them. Rather, Adobe will receive requests from and return data to only you as the data controller.
@@ -135,13 +127,13 @@ The data returned for an access request provides you, the data controller, with 
 
 * Person Files - Derived from hits containing a matched ID-PERSON label
 
-    * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL or ACC-PERSON label, sorted by timestamp. 
-    * An HTML summary file with one entry for every ACC-ALL or ACC-PERSON label. Each entry lists all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
+  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL or ACC-PERSON label, sorted by timestamp. 
+  * An HTML summary file with one entry for every ACC-ALL or ACC-PERSON label. Each entry lists all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
 
 * Device Files - Derived from hits where one of the fields matched a specified ID-DEVICE but none matched a specified ID-PERSON
 
-    * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL label, sorted by timestamp. 
-    * HTML summary file with one entry for every ACC-ALL label. Each entry will list all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
+  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL label, sorted by timestamp. 
+  * HTML summary file with one entry for every ACC-ALL label. Each entry will list all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits.
 
@@ -163,4 +155,3 @@ There are a few ways that you can still test your GDPR processing prior to apply
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites.
 
   For example, you can prefix each namespace with “qa-“ in your test report suites. When you submit GDPR requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.
-

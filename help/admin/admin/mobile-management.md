@@ -59,7 +59,7 @@ Classifications are used to categorize values into groups and report at the grou
 | Classification | Definition |
 |--- |--- |
 |First Launch Date|Date of first launch after installation or re-installation.   MM/DD/YYYY|
-|App ID|Stores the Application name and version in the following format:   [AppName] [BundleVersion]  For example, myapp 1.1.|
+|App ID|Stores the Application name and version in the following format:   `[AppName] [BundleVersion]`  For example, `myapp 1.1.`|
 |Launch Number|Number of times the application was launched or brought out of the background.|
 |Days Since First Use|Number of days since first run.|
 |Days Since Last Use|Number of days since last use.|

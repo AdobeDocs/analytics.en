@@ -15,6 +15,6 @@ snippet: y
 
 Marketing Channels are commonly used to provide insight on how visitors arrive on your site. You can create and customize Marketing Channel Processing Rules based on what channels you want to track, and how you want to track them.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
 
 See [Marketing Channels](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html). 

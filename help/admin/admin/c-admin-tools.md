@@ -17,3 +17,4 @@ snippet: y
 >
 >Do not to open multiple Admin Console tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
 
+<!-- Meike, consider adding links to key topics in this overview. -->

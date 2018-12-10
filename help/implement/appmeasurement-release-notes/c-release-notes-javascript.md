@@ -91,7 +91,7 @@ Release Date: **September 18, 2014**
 
 * Added a `tagContainerMarker` variable that allows the implementation to specify up to 4 characters that are appended to the version string along with an additional dash character delimiter. This is used by dynamic tag management.
 
-  ```js
+```js
   //  
 <keyword>
   JavaScript 
@@ -100,7 +100,7 @@ Release Date: **September 18, 2014**
     
   // Data Collection request 
   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-  ```
+```
 
 ## H.27.3 {#section_B38C61EE3BEA49CAA7A664395C85E4CF}
 
@@ -140,9 +140,9 @@ Release Date: **July 18, 2013**
 
 * The hash/fragment is now ignored by automatic link tracking. Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
 
-  ```js
+```js
   <a href="index.htm#anchor.pdf">Test Link</a>
-  ```
+```
 
   Now the hash / fragment is ignored so the link is tracked only when the filename ends in an extension that matches.
 
@@ -189,14 +189,14 @@ Release Date: **January 2013**
 * Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors). 
 * Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
 
-  ```js
+```js
   s.doPlugins = function(s) { 
        s.campaign = s.getQueryParam("cid"); 
        if ((!s.campaign) && (!s.events)) { 
             s.abort = true; 
        } 
   };
-  ```
+```
 
   This lets you centralize the logic you use to identify activity that you do not want to track, such as some custom links or external links in display ads.
 
@@ -213,25 +213,25 @@ Release Date: **September 2012**
 
 * Forced URL encoding for the following characters: 
 
-  ```
+```
   ~ 
   ! 
   * 
   ( 
   ) 
   '
-  ```
+```
 
   This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie. 
 
 * Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event: 
 
-  ```
+```
   If(media.event==”CLOSE”) { 
   … 
   } 
   
-  ```
+```
 
 ## H.25 {#section_BE76FEDFE03B44658808B0BDF779DE97}
 
@@ -242,7 +242,7 @@ Made an update to ensure that link tracking completes successfully on WebKit bro
 For example, exit and download links are often tracked using code similar to the following:
 
 ```js
-<a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null)">
+  <a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null)">
 ```
 
 FireFox and Internet Explorer execute the track link call and open the new page. However, WebKit browsers might cancel execution of the track link call when the new page opens. This often prevents track link calls from completing when using WebKit browsers.
@@ -252,10 +252,9 @@ To workaround this behavior, H.25 includes an overloaded track link method ( `s.
 To use this new method, update calls to `s.tl` with an additional `doneAction` parameter, similar to the following:
 
 ```js
-<a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null 
-<codeph outputclass="syntax">
-  ,'navigate');return false"> 
-</codeph outputclass="syntax">
+  <a href="http://anothersite.com" onclick="s.tl(this,'o','link name',null 
+  <codeph outputclass="syntax"> ,'navigate');return false"> 
+  </codeph outputclass="syntax">
 ```
 
 Passing 'navigate' as the `doneAction` mirrors the default browser behavior and opens the URL specified by the `href` attribute when the tracking call completes.
@@ -273,29 +272,29 @@ The following table summarizes the configuration variables and updates made to H
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>This flag is used to disable forced link tracking for WebKit browsers. Forced link tracking is enabled by default for WebKit browsers and is ignored by other browsers. </p> <p> <b>Default Value</b> </p> <p> <span class="codeph"> true </span> </p> <p> <b>Example</b> </p> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <span class="codeph"> doneAction </span> that was passed into <span class="codeph"> s.tl </span>. This value specifies the maximum wait time. If the track link call completes before this timeout the <span class="codeph"> doneAction </span> is executed immediately. If you notice that track link calls are not completing you might need to increase this timeout. </p> <p> <b>Default Value</b> </p> <p>250 </p> <p> <b>Example</b> </p> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink ( <span class="codeph"> s.tl </span>) </td> 
    <td colname="col2"> <p>Tracks exit, download, and custom links. Provides an optional parameter to specify a navigation action to execute after the track link call completes on WebKit browsers. </p> <p> <b>Syntax</b> </p> 
-    <codeblock class="syntax javascript">
+    <code class="syntax javascript">
       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-    </codeblock> <p> <b>doneAction</b>: (optional) Specifies the action to take after the link track call is sent or has timed out (based on the value specified by <span class="codeph"> s.forcedLinkTrackingTimeout </span>). The <span class="codeph"> doneAction </span> can be the string 'navigate', which causes the method to set <span class="codeph"> document.location </span> to the <span class="codeph"> href </span> attribute of <span class="codeph"> linkObject </span>. The <span class="codeph"> doneAction </span> can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="codeph"> doneAction </span> in an anchor <span class="codeph"> onclick </span> event, you must return <span class="codeph"> false </span> after the <span class="codeph"> s.tl </span> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <span class="codeph"> href </span> attribute, provide a string of 'navigate' as the <span class="codeph"> doneAction </span>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="codeph"> doneAction </span>. </p> <p> <b>Examples</b> </p> 
-    <codeblock class="syntax javascript">
+    </code> <p> <b>doneAction</b>: (optional) Specifies the action to take after the link track call is sent or has timed out (based on the value specified by <span class="codeph"> s.forcedLinkTrackingTimeout </span>). The <span class="codeph"> doneAction </span> can be the string 'navigate', which causes the method to set <span class="codeph"> document.location </span> to the <span class="codeph"> href </span> attribute of <span class="codeph"> linkObject </span>. The <span class="codeph"> doneAction </span> can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="codeph"> doneAction </span> in an anchor <span class="codeph"> onclick </span> event, you must return <span class="codeph"> false </span> after the <span class="codeph"> s.tl </span> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <span class="codeph"> href </span> attribute, provide a string of 'navigate' as the <span class="codeph"> doneAction </span>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="codeph"> doneAction </span>. </p> <p> <b>Examples</b> </p> 
+    <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </codeblock> 
-    <codeblock class="syntax javascript">
+    </code> 
+    <code class="syntax javascript">
       &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -307,23 +306,20 @@ Release Date: **April 2012**
 This update is recommended for all customers.
 
 * Made an enhancement to detect when a page is prerendered using Google Chrome Prerender ( [https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages. 
-
 * Added the `timestamp` variable to the [!DNL JavaScript] library for customers who want to customize timestamp data similar to other [!DNL AppMeasurement] libraries. 
 
-  ```js
+```js
   s.timestamp=Math.round((new Date()).getTime()/1000); 
   s.timestamp="2012-04-20T12:49:31-0700";
-  ```
+```
 
 ## H.24.3 {#section_F3D471B201F54C089320D3CE6D441DC0}
 
 Release Date: **February 2012**
 
 * Fixed an issue that caused extra data to be included in the image request for customers using Javascript `Object.prototype` overrides. All `Object.prototype` usage is now skipped when handling context data variables. 
-
 * Fixed an issue that caused the `pe` query parameter to be passed twice with the same value in some circumstances. 
 * Fix to [!DNL ClickMap] tracking in [!DNL JavaScript] to ignore clicks to the body tag, even when the tag has an `onClick` event handler. 
-
 * Added time stamp to variables used with light tracking calls ( `trackLight`).
 
 ## H.24.2 {#section_91CF07C2BC9B4C8BA0235DFDFB95A4D9}
@@ -332,7 +328,6 @@ Release Date: **January 2012**
 
 * Updated video tracking with a new method to track complete video views. 
 * Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE. 
-
 * Fixed a bug where context data variables were not included in link server calls, despite being referenced in `linkTrackVars`. Context data variables are used with Processing Rules.
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
@@ -402,4 +397,3 @@ Release Date: **April 2011**
 * Removed support for setting Media.trackWhilePlaying to false. It will always be true. 
 * Added debugTracking flag to enable logging of requests send to Firebug console just like the other platforms. 
 * Make sure "+" is always URL-encoded regardless of browser.
-

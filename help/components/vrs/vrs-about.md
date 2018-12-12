@@ -51,49 +51,16 @@ Virtual report suites have the following limitations:
 
 ## Virtual Report Suites vs. Multisuite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-<table id="table_9031118A5F79494698FD824F2B3C0EC9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Capability </p> </th> 
-   <th colname="col2" class="entry"> <p>Virtual Report Suite </p> </th> 
-   <th colname="col3" class="entry"> <p>Multisuite Tagging </p> </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Offers real-time or "Current Data" reporting </p> </td> 
-   <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Works in all Analytics Tools (Analysis Workspace, Report Builder, Ad Hoc Analysis, etc.) </p> </td> 
-   <td colname="col2"> <p>Yes </p> <p> <p>Note:  You can edit and identify them as virtual report suites only in Reports &amp; Analytics. However, you can select them in report suite drop-downs in the other tools. </p> </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Can upload data to it (via classifications, data feeds, etc.) </p> </td> 
-   <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics... </p> </td> 
-   <td colname="col2"> <p>Yes </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Can be individually added to Permissions Groups </p> </td> 
-   <td colname="col2"> <p>Yes </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Can use Admin functions to modify individual settings on this report suite (Admin &gt; Report Suites) </p> </td> 
-   <td colname="col2"> <p>No (Settings are inherited from parent) </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Capability  | Virtual Report Suite  | Multisuite Tagging  |
+|--- |--- |--- |
+|Offers real-time or "Current Data" reporting|No|Yes|
+|Works in all Analytics Tools (Analysis Workspace, Report Builder, Ad Hoc Analysis, etc.)|Yes.   Note:  You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools.|Yes|
+|Can upload data to it (via classifications, data feeds, etc.)|No|Yes|
+|Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics...|Yes|Yes|
+|Can be individually added to Permissions Groups|Yes|Yes|
+|Can use Admin functions to modify individual settings on this report suite (Admin > Report Suites)|No (Settings are inherited from parent)|Yes|
 
-## Combining Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In some cases, there are benefits to using both virtual report suites and multisuite tagging.
 

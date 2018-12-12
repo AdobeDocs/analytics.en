@@ -28,7 +28,7 @@ To enable component curation,
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible only in Analysis Workspace and is not accessible in the following:
+   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
 
     * Reports & Analytics 
     * Ad Hoc Analysis 

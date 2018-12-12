@@ -18,8 +18,8 @@ Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that 
 >
 >In July 2018, Adobe Analytics introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
->* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models will be migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” will not be deprecated - only the two allocation models that appear in calculated metrics will be). 
->* In addition, we will be correcting the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports and Analytics, the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
+>* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models have been migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” will not be deprecated - only the two allocation models that appear in calculated metrics will be). 
+>* In addition, we have corrected the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in Analysis Workspace, Reports and Analytics, the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works as of July 19, 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
 >
 
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your Adobe Analytics implementation. The custom metrics available in each Analytics package are:
@@ -37,7 +37,7 @@ Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capab
 | [Attribution changes (default, linear, participation, etc.)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
 | [Metric types (standard, total)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
 |  Basic operators (add, subtract, multiply, divide)  | Yes  | Yes  |
-| [Applying segments](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E)  | No  | Yes  |
+| [Apply segments](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E)  | No  | Yes  |
 | [Basic functions (count, abs value, mean, etc)](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2)  | No  | Yes  |
 | [Advanced functions (regression, if/then, t-score, etc)](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)  | No  | Yes  |
 
@@ -112,8 +112,8 @@ Here is a short overview of the Calculated Metrics tools:
    <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in Reports &amp; Analytics. </p> <p>It lets you search for and add/apply metrics to the report. You can also change the <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> sort</a> order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite. </p> <p>To access this Metric Selector, click the Metrics icon <img placement="inline" href="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> to the left of a report. This is what the Metric Selector looks like: </p> <p><img placement="break" align="center" href="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://marketing.adobe.com/developer/blog/new-calculated-metrics-and-the-apis" format="https" scope="external"> API for Calculated Metrics</a> </td> 
-   <td colname="col2"> <p>Part of the Admin API set. </p> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> API for Calculated Metrics</a> </td> 
+   <td colname="col2"> <p>Part of the Adobe Analytics 2.0 API set. </p> </td> 
   </tr> 
  </tbody> 
 </table>

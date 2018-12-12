@@ -13,8 +13,9 @@ snippet: y
 
 Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
 
-|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin console.  |
+|  Role | Permissions |
 |---|---|
+|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin console.  |
 |  Non-Administrator  | Can share metrics only with individual users.  |
 
 When should you share metrics with the entire company versus just a group of users or individuals? Here are some best practices you might follow:

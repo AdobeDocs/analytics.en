@@ -27,7 +27,7 @@ Learn about the steps to take for creating calculated metrics.
   </tr> 
   <tr> 
    <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step2_icon.png" id="image_E08CFAF3C6304149ADD1969295719374" /> <a href="../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> Build</a> Calculated Metrics </p> </td> 
-   <td colname="col2" valign="top" align="left"> <p>Build and edit calculated and advanced calculated metrics for use in Adobe Analytics components. </p> <p>See <a href="../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> examples</a> of how to build calculated metrics. </p> </td> 
+   <td colname="col2" valign="top" align="left"> <p>Build and edit calculated and advanced calculated metrics for use in [!DNL Analytics] components. </p> <p>See <a href="../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> examples</a> of how to build calculated metrics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step3_icon.png" id="image_47F7BD9D28124244AED0DAE49C279BDA" /> <a href="../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md#concept_EBFF204FD1004706B474487085652D89" format="dita" scope="local"> Tag</a> Calculated Metrics </p> </td> 
@@ -43,7 +43,7 @@ Learn about the steps to take for creating calculated metrics.
   </tr> 
   <tr> 
    <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step6_icon.png" id="image_5B467C413445415C8DF0DA5F518B3663" /> <a href="../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md#concept_534DC78100A64B72854F335C84A16B34" format="dita" scope="local"> Share</a> Calculated Metrics </p> </td> 
-   <td colname="col2" valign="top" align="left"> <p>Share your metrics with the intended audience in other Analytics tools and to Adobe Target and the Adobe Experience Cloud. </p> </td> 
+   <td colname="col2" valign="top" align="left"> <p>Share your metrics with the intended audience in other [!DNL Analytics] tools and to Adobe Target and the Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step7_icon.png" id="image_B5AD3F1CB9AD4F9F8312B731FA81223D" /> Filter Calculated Metrics </p> </td> 

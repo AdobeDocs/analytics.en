@@ -23,23 +23,23 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 
 |  Metric Type  | Definition  |
 |---|---|
-|  Standard  | These metrics are the same metrics used in standard Analytics reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+|  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
 |  Total  | Use the total for the reporting period in every line item. If a formula consisted of a single total metric, it displays the same total number on every line item. Total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
 ## Column Attribution Model {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
 >[!IMPORTANT]
 >
->In July 2018, Adobe Analytics introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
+>In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
 >* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) documentation. 
 >* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models will be migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” will not be deprecated - only the two allocation models that appear in calculated metrics will be). 
->* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports and Analytics, the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works (as of July 19, 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
+>* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works (as of July 19, 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
 >
 
 ## How Linear Allocation works (as of July 19, 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-In July 2018h, Adobe Analytics changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Ad Hoc Analysis, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change will primarily impact eVars and other dimensions that have persistence. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
+In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports & Analytics], Report Builder, Activity Map, and the Reporting APIs. The change will primarily impact eVars and other dimensions that have persistence. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports & Analytics]). Other reports using linear allocation will continue to use the existing method of linear allocation.
 
 The following example illustrates how calculated metrics with linear allocation will change in reporting: 
 
@@ -117,7 +117,7 @@ For the first touch eVar above, all $10 would be given to A. For the prop: A = 1
 
 **Summary of how linear allocation works as of July 19, 2018**
 
-After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, Analytics now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50. 
+After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50. 
 
 |  Values  | New Last Touch eVar  | New First Touch eVar  | New Prop  |
 |---|---|---|---|
@@ -128,7 +128,7 @@ After July 19th, we corrected this behavior in calculated metrics. Instead of us
 
 <!-- 
 
-<p>Additionally, as part of this change, Analytics is <b>changing how multiple sequential successes</b> are treated. In the following example, 7 hits occurred in the same visit with two orders, one $10 order on hit 4, and one $5 order on hit 7: </p> 
+<p>Additionally, as part of this change, [!DNL Analytics] is <b>changing how multiple sequential successes</b> are treated. In the following example, 7 hits occurred in the same visit with two orders, one $10 order on hit 4, and one $5 order on hit 7: </p> 
 <table id="table_4647AA466D1447F6961DDC10468FCCE1"> 
  <tgroup cols="8">
   <colspec colnum="1" colname="col1" colwidth="1.00*" />
@@ -245,7 +245,7 @@ After July 19th, we corrected this behavior in calculated metrics. Instead of us
  </tgroup> 
 </table> 
 <p> </p> 
-<p><b>After July 19, 2018</b>, Analytics will treat each sequence of conversions independently, meaning linear attribution will no longer carry forward from one conversion to another. In the previous example, attribution will always be treated the same way (regardless of the eVar allocation settings as stated above) and will be calculated as follows: A = (1/2) * 10 = $5, B = (1/2) * 10 = $5, and C = (1/1) * 5 = $5. To summarize: </p> 
+<p><b>After July 19, 2018</b>, [!DNL Analytics] will treat each sequence of conversions independently, meaning linear attribution will no longer carry forward from one conversion to another. In the previous example, attribution will always be treated the same way (regardless of the eVar allocation settings as stated above) and will be calculated as follows: A = (1/2) * 10 = $5, B = (1/2) * 10 = $5, and C = (1/1) * 5 = $5. To summarize: </p> 
 <table id="table_2D39CCD158BF488EA404324DF50B9579"> 
  <tgroup cols="4">
   <colspec colnum="1" colname="col1" colwidth="*" />

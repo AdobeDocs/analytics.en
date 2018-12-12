@@ -124,7 +124,7 @@ c_key.xml
 
  -->
 
-Each value must be unique across the entire system. The value in this field corresponds to a value assigned to the Analytics variable in your Web site’s JavaScript beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+Each value must be unique across the entire system. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site’s [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
 
 <!-- 
 
@@ -204,19 +204,19 @@ For more information, see [Conversion Classifications](https://marketing.adobe.c
 
 >[!NOTE]
 >
->In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
+>In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
 
-## Using dates in conjunction with classifications {#section_966A07B228CD4643B258E73FB8BA150A}
+## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-Classifications can be used to assign date ranges to your campaigns or other conversion classifications, which allows more accurate campaign measurement. After specifying a value's date range, any matching value that occurs outside the date range will not be classified. This is useful for campaign measurement that wishes to utilize the exact dates a campaign was Live, and not all hits matching the campaign itself. In order to successfully classify a value with a date range, the following must be met:
+[!UICONTROL Classifications] can be used to assign date ranges to your campaigns or other conversion [!UICONTROL classifications], which allows more accurate campaign measurement. After specifying a value's date range, any matching value that occurs outside the date range will not be classified. This is useful for campaign measurement that wishes to utilize the exact dates a campaign was Live, and not all hits matching the campaign itself. In order to successfully classify a value with a date range, the following must be met:
 
-* The classification must be based on a conversion variable. 
-* The classification used must be set as Date-Enabled or Numeric 2. 
+* The [!UICONTROL classification] must be based on a conversion variable. 
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2. 
 * The involved date range must contain a start date and (optionally) an end date.
 
 To classify campaigns based on date range:
 
-1. Log in to Analytics and go to Admin | Classifications. 
+1. Log in to [!DNL Analytics] and go to Admin > Classifications. 
 1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File. 
 1. Open this file in Microsoft Excel or another spreadsheet editor you are familiar with. 
 1. One of the columns will end with
@@ -232,7 +232,7 @@ To classify campaigns based on date range:
     * If the month or day is a single digit, that there is a leading zero. 
     * There is a start date range; the end date range is optional.
 
-1. Save the file, and upload it to Adobe Analytics by going to Admin | Classifications | Import File.
+1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
 
 >[!NOTE]
 >

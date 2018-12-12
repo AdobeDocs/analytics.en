@@ -17,9 +17,9 @@ The new Intelligent Alerts system allows for more granular control over alerts a
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
+>Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe Analytics. Intelligent Alerts let you
+The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Intelligent Alerts let you
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below). 
 * Preview how often an alert will trigger. 
@@ -38,7 +38,7 @@ There are four ways get to the Alert Builder:
 
   ![](assets/create-alert-from-selection.png)
 
-* From within a Reports & Analytics report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This will open the new Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the report. You can then edit the alert, if needed.
+* From within a [!UICONTROL Reports & Analytics] report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This will open the new Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the report. You can then edit the alert, if needed.
 
   ![](assets/add-alert.png)
 
@@ -74,7 +74,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I get a table of the “expected values” that comprise the dotted line, or some sort of output of what those values are? </b> </p> </td> 
-   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external"> Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> Reports &amp; Analytics anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external"> Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports & Analytics] anomaly detection </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

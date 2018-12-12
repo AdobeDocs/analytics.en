@@ -104,8 +104,8 @@ Nothing. However, the new Admin owner should exercise caution when modifying or 
 
 Global calculated metrics can no longer be shared across login companies. They are no longer bound or tied to a specific report suite but are instead tied to a specific login company. Calculated metrics that were shared across login companies
 
-* Will be migrated to all the login companies with access to that report suite. 
-* Will default to "shared with Everyone". 
+* Were migrated to all the login companies with access to that report suite. 
+* Default to "shared with Everyone". 
 * Will be copies independent from all the other login companies.
 
 >[!NOTE]
@@ -142,7 +142,7 @@ You use a base Unique Visitor metric on a report with a segment. You can create 
 
 Previously, saving a calculated metric with the (1.3 or 1.4) API method ReportSuite.SaveCalculatedMetrics was the same as creating or updating a calculated metric in the Admin Console. The same applied to ReportSuite.DeleteCalculatedMetrics. Also, the list of calculated metrics displayed in the Admin Console or when calling ReportSuite.GetCalculatedMetrics was the same.
 
-Going forth, the ReportSuite CalculatedMetrics API methods (1.3 or 1.4) will continue to save, delete and retrieve calculated metrics using the old store. Existing calculated metrics will be migrated over and will be visible in the new Calculated Metrics Builder. **New calculated metrics created with the API methods will be visible only in the API. They will still be usable in the Reporting API.**
+Now, the ReportSuite CalculatedMetrics API methods (1.3 or 1.4) will continue to save, delete and retrieve calculated metrics using the old store. Existing calculated metrics will be migrated over and will be visible in the new Calculated Metrics Builder. **New calculated metrics created with the API methods will be visible only in the API. They will still be usable in the Reporting API.**
 
 **What You Need to Do**
 
@@ -188,11 +188,11 @@ Calculated metrics created in Ad Hoc analysis could previously contain inline se
 
 **What You Need to Do**
 
-You will be required to explicitly save the segment. Existing calculated metrics with inline segment definitions will continue to run correctly and can be viewed in Ad Hoc Analysis, but they cannot be saved without explicitly saving the segment.
+You need to explicitly save the segment. Existing calculated metrics with inline segment definitions will continue to run correctly and can be viewed in Ad Hoc Analysis, but they cannot be saved without explicitly saving the segment.
 
 ## Step 18. (Report Builder only) Why have calculated metrics disappeared from my requests? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
-If the request was created in v5.2 and it contains calculated metrics, those metrics are not visible in version 5.1 (or earlier versions). This is because calculated metrics now use Global IDs (non report-suite-specific IDs).
+If the request was created in v5.2 and it contains calculated metrics, those metrics are not visible in v5.1 (or earlier versions). This is because calculated metrics now use Global IDs (non report-suite-specific IDs).
 
 **What You Need to Do**
 

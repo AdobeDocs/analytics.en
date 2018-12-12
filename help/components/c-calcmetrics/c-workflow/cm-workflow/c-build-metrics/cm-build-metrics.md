@@ -16,7 +16,7 @@ The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Me
 There are several ways to get to the Calculated Metric Builder:
 
 * In Analysis Workspace, open a project and click  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** . 
-* In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**. 
+* In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**. 
 
 * Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), or 
 
@@ -58,7 +58,7 @@ There are several ways to get to the Calculated Metric Builder:
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> <span class="uicontrol"> Show Upward Trend As... </span> </td> 
-   <td colname="col3"> <p>This metric polarity setting shows whether Analytics should consider an upward trend in the metric as good (green) or bad (red). As a result, the report's graph will show as green or red when it's going up. </p> </td> 
+   <td colname="col3"> <p>This metric polarity setting shows whether [!DNL Analytics] should consider an upward trend in the metric as good (green) or bad (red). As a result, the report's graph will show as green or red when it's going up. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 

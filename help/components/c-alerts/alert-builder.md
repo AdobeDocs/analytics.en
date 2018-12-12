@@ -13,7 +13,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
+>Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
 Access the Alert Builder in one of four ways:
 
@@ -22,9 +22,9 @@ Access the Alert Builder in one of four ways:
   `ctrl (or cmd) + shift + a` 
 * By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**. 
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 
-* From within a Reports & Analytics report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* From within a [!UICONTROL Reports & Analytics] report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in Analytics:
+The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
 
 ![](assets/alert_builder.png)
 
@@ -42,7 +42,7 @@ Specify when you want the metric to be checked: Hourly, Daily, Weekly, or Monthl
 
 **Recipients**
 
-Specify where the alert can be sent. An alert can be sent to an Analytics user, an Analytics group, a raw email address, or to a phone number.
+Specify where the alert can be sent. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
 
 >[!IMPORTANT]
 >

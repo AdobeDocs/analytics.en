@@ -11,7 +11,7 @@ snippet: y
 
 # Frequently Asked Questions
 
-These changes to the way calculated metrics work in Analytics may impact you.
+These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
  [1. How do I access the Calculated Metric Builder?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
@@ -60,7 +60,7 @@ These changes to the way calculated metrics work in Analytics may impact you.
 
 * Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**. 
 
-* In any Analytics report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL Manage]**.
+* In any [!DNL Analytics] report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL Manage]**.
 
 ## Step 3. Why do I see so many Calculated Metrics with the same name? {#section_E15C5B6CCC58498CAEC3FBDA8988F0A1}
 
@@ -114,11 +114,11 @@ Global calculated metrics can no longer be shared across login companies. They a
 
 ## Step 6. What happened to Calculated Metrics with a Numeric or Numeric2 Classification? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
-(Previously, calculated metrics with a Numeric or Numeric2 classification were only visible in Reports & Analytics, Report Builder, and the APIs.)
+(Previously, calculated metrics with a Numeric or Numeric2 classification were only visible in [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], and the APIs.)
 
-Now, calculated metrics with a Numeric or Numeric2 classification will continue to be visible in Reports & Analytics, Report Builder, and the APIs. However, they will not be supported in any report with a segment applied.
+Now, calculated metrics with a Numeric or Numeric2 classification will continue to be visible in [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], and the APIs. However, they will not be supported in any report with a segment applied.
 
-In addition, calculated metrics with a Numeric or Numeric2 classification will not be supported in the following components: Ad Hoc Analysis, Analysis Workspace, Real-Time reports, Anomaly Detection, and Contribution Analysis. When you create or edit a calculated metric with a Numeric or Numeric2 classification, you will see a compatibility warning that the calculated metric is not compatible with certain areas of the product.
+In addition, calculated metrics with a Numeric or Numeric2 classification will not be supported in the following components: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] reports, [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. When you create or edit a calculated metric with a Numeric or Numeric2 classification, you will see a compatibility warning that the calculated metric is not compatible with certain areas of the product.
 
 **What You Need to Do**
 
@@ -126,15 +126,15 @@ Avoid creating calculated metrics with Numeric1 or Numeric2 classifications if t
 
 ## Step 7. What happened to Life-Time Metrics? {#section_AEDB02EF24584DAD8731BED9DDCE4F48}
 
-Life-Time metrics (a.k.a. all-time metrics) are no longer supported and no longer visible in the Reports & Analytics UI or any other UI. They cannot be queried by the Report API.
+Life-Time metrics (a.k.a. all-time metrics) are no longer supported and no longer visible in the [!UICONTROL Reports & Analytics] UI or any other UI. They cannot be queried by the Report API.
 
 Any bookmarks, dashboards, scheduled reports, or alerts that contained an all-time metric will continue to run without that metric as long as at least one other valid metric is also on the report. If the only metric on the bookmark, dashboard, scheduled report, or alert is an all-time metric, the report will no longer run.
 
 ## Step 8. What do I need to know about Calculated Metrics based on Daily/Weekly/Monthly/Quarterly/Yearly Unique Visitor metrics? {#section_E9A77EBB41CE4881B196CC1C282B2DF3}
 
-Calculated metrics based on Unique Visitor metrics will be visible in the following Analytics components: Reports & analytics, Report Builder, and Reporting API.
+Calculated metrics based on Unique Visitor metrics will be visible in the following [!DNL Analytics] components: [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], and Reporting API.
 
-However, these metrics will not be supported in the following components: Segments, Analysis Workspace, Real-Time reports, Anomaly Detection, and Contribution Analysis. When you create or edit a calculated metric based on Unique Visitors metrics, you will see a compatibility warning that the metric is not compatible with certain areas of the product.
+However, these metrics will not be supported in the following components: [!UICONTROL Segments], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] reports, [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. When you create or edit a calculated metric based on Unique Visitors metrics, you will see a compatibility warning that the metric is not compatible with certain areas of the product.
 
 You use a base Unique Visitor metric on a report with a segment. You can create a Calculated Metric based on a Unique Visitor metric; however, that calculated metric cannot be applied to a report with a segment, nor can that calculated metric have a segment embedded in it.
 
@@ -200,7 +200,7 @@ You need to upgrade to v5.2 to be able to see these metrics.
 
 ## Step 19. How do Calculated Metrics Totals work? {#section_57BA3A299C7948ABB82B0392A9B0F33E}
 
-When Reports & Analytics shows a calculated metrics total in R&A, it's just applying the formula to the total. For example, the total for the calculated metric Orders/Visit takes the Total Orders and divides them by the Total Visits. In some cases, however, the calculated metric total is not just the sum of line items, but a total for the site.
+When [!UICONTROL Reports & Analytics] shows a calculated metrics total in [!UICONTROL Reports & Analytics], it's just applying the formula to the total. For example, the total for the calculated metric Orders/Visit takes the Total Orders and divides them by the Total Visits. In some cases, however, the calculated metric total is not just the sum of line items, but a total for the site.
 
 Example 1: Visitors for a search term: the same visitor may have searched for multiple terms, so in this case, total visitors do not equal the sum of the line items.
 

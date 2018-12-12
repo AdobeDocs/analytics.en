@@ -45,7 +45,7 @@ Let's explore the first question: How does content browsing behavior compare bet
 
    ![](assets/workspace-pages.png)
 
-1. Or, in Reports & Analytics, open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
 
    ![](assets/pages-report.png)
 

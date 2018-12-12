@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Export Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide discusses various data export methods, such as data feeds and Data Warehouse.
 
 ## Key Analytics Export articles
 

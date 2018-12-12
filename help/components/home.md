@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Components Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts.
 
 ## Key Analytics Components articles
 

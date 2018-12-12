@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Integration Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target.
 
 ## Key Analytics Integration articles
 

@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Import Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors.
 
 ## Key Analytics Import articles
 

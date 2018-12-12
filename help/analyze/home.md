@@ -7,7 +7,7 @@ seo-description: null
 
 # Analysis Workspace Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
 
 ## Key Analysis Workspace articles
 

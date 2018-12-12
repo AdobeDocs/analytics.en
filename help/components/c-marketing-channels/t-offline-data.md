@@ -32,7 +32,7 @@ To classify offline channel data, activate the data in Data Sources, then downlo
 
 See "Working with Data Sources" in the [Data Sources User Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html).
 
-**To add offline data** 
+**Add offline data** 
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 1. On the Data Sources page, click **[!UICONTROL Create.]**

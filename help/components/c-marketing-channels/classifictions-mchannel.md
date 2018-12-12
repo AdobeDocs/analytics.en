@@ -32,29 +32,11 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 ## Marketing Channel Classifications - Definitions {#section_38D2F8BBA47D444780B65BD84156532D}
 
-<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Term </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Text Classifications </p> </td> 
-   <td colname="col2"> <p>Specifies the type of classification category that lets you group variable data for reporting purposes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The name of the classification. The classification you add appears as the <span class="wintitle"> Channel Breakdown </span> option in the <span class="wintitle"> Marketing Channel Manager </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Options </p> </td> 
-   <td colname="col2"> <p>The name of the classification. The classification you add appears as the <span class="wintitle"> Channel Breakdown </span> option in the <span class="wintitle"> Marketing Channel Manager </span>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Term  | Definition  |
+|--- |--- |
+|Text Classifications|Specifies the type of classification category that lets you group variable data for reporting purposes.|
+|Name|The name of the classification. The classification you add appears as the  Channel Breakdown  option in the  Marketing Channel Manager .|
+|Options|The name of the classification. The classification you add appears as the  Channel Breakdown  option in the  Marketing Channel Manager .|
 ## Create marketing channel classifications {#task_BCA5597281574E339E71F3BBC1BE3DFA}
 
 Create classifications for the [!UICONTROL Marketing Channel] report.

@@ -40,7 +40,7 @@ snippet: y
 
 See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
 
-## Accessing the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **How do I get to the Segment Builder?**
 
@@ -148,11 +148,9 @@ You have a bookmark that references the segment for the mainprod report suite. T
 
 **What happens to Data Warehouse segments?**
 
-All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Ad Hoc Analysis and Reports & Analytics.
+All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace, Ad Hoc Analysis and Reports & Analytics.
 
 You can create or edit a new Data Warehouse segments in the segment builder/manager. The Product Compatibility mechanism in the Segment Builder automatically determines whether a segment is compatible with Data Warehouse.
-
-The v14 Data Warehouse segmentation user interface was phased out in May 2014.
 
 **What happens to Favorites Segments (Ad Hoc Analysis)?**
 

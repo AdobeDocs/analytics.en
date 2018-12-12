@@ -41,7 +41,13 @@ If you have exceeded your uniques for the month, you will not see the correspond
 
 Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF). 
 
-## Import classifications via FTP <draft-comment> t_upload_a_saint_data_file_via_ftp.xml </draft-comment> {#task_132C36830B69418B8C929E39838EF01D}
+## Import classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
+
+<!-- 
+
+t_upload_a_saint_data_file_via_ftp.xml
+
+ -->
 
 Steps that describe how to use an FTP account to import classifications into Adobe Analytics. 
 

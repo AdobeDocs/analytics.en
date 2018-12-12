@@ -28,21 +28,7 @@ Create a group that grants limited administrative rights to users of the Marketi
 
 Field definitions for Define User Groups in Admin Tools: 
 
-<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Channels </p> </td> 
-   <td colname="col2"> <p>Grants users access to the Marketing Channel setup features, except for costs and budgets. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Costs </p> </td> 
-   <td colname="col2"> <p>Grants access to cost and budget setup features in Marketing Channels. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field  | Definition  |
+|--- |--- |
+|Channels|Grants users access to the Marketing Channel setup features, except for costs and budgets.|
+|Costs|Grants access to cost and budget setup features in Marketing Channels.|

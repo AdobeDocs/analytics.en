@@ -48,38 +48,13 @@ Add cost and budget items to Marketing Channels.
 
 Field definitions for Marketing Channel Costs or Budgets.
 
-<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The name of the cost or budget item. (This value is the <span class="uicontrol"> Key</span> value if you are using SAINT.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Channel </p> </td> 
-   <td colname="col2"> <p>The channel to which you want to associate this amount. Specify whether the cost or budget applies to a First Touch channel or Last Touch channel. Think of a first-touch cost amount as a one-time new engagement. A last-touch cost amount is for click-throughs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Range </p> </td> 
-   <td colname="col2"> <p>The time that you want to use for this amount. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p> The type of cost or budget, either a Rate or a One-Time Cost. The Rate specifies an ongoing cost, such as an amount per click. A One-Time Cost lets you specify a Distribute By amount. For example, if you distribute the cost by clicks, the affiliate with 60% of the total clicks is attributed 60% of the total cost. The <span class="uicontrol"> Distributed by</span> value is the metric used when you are breaking down numeric classifications. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Export File </p> </td> 
-   <td colname="col2"> <p>Lets you export the table data to a CSV file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Import File </p> </td> 
-   <td colname="col2"> <p>Lets you import a CSV file to the <span class="wintitle"> Marketing Channel Costs</span> page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+
+| Field  | Definition  |
+|--- |--- |
+|Name|The name of the cost or budget item. (This value is the  Key value if you are using SAINT.)|
+|Channel|The channel to which you want to associate this amount. Specify whether the cost or budget applies to a First Touch channel or Last Touch channel. Think of a first-touch cost amount as a one-time new engagement. A last-touch cost amount is for click-throughs.|
+|Date Range|The time that you want to use for this amount.|
+|Type|The type of cost or budget, either a Rate or a One-Time Cost. The Rate specifies an ongoing cost, such as an amount per click. A One-Time Cost lets you specify a Distribute By amount. For example, if you distribute the cost by clicks, the affiliate with 60% of the total clicks is attributed 60% of the total cost. The  Distributed by value is the metric used when you are breaking down numeric classifications.|
+|Export File|Lets you export the table data to a CSV file.|
+|Import File|Lets you import a CSV file to the  Marketing Channel Costs page.|

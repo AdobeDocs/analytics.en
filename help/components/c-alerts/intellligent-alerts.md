@@ -19,7 +19,7 @@ The new Intelligent Alerts system allows for more granular control over alerts a
 >
 >Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Analytics. Intelligent Alerts let you
+The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe Analytics. Intelligent Alerts let you
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below). 
 * Preview how often an alert will trigger. 
@@ -56,7 +56,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How far back does the alert's anomaly detection go to determine data anomalies?</b> </p> </td> 
-   <td colname="col2"> <p>The training period varies based on the granularity selected. See [Statistical Techniques used in Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) for more detail. Here is a summary: </p> 
+   <td colname="col2"> <p>The training period varies based on the granularity selected. See [Statistical Techniques used in Anomaly Detection]   (/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) for more detail. Here is a summary: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Monthly = 15 months + same range last year </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Weekly = 15 weeks + same range last year </li> 

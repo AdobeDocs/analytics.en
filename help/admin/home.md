@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Admin Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance.
 
 ## Key articles
 

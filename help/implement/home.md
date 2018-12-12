@@ -1,13 +1,13 @@
 ---
-title: Analytics Import Help
-seo-title: Analytics Import Help
+title: Analytics Implementation Help
+seo-title: Analytics Implementation Help
 description: null
 seo-description: null
 ---
 
-# Analytics Import Guide
+# Analytics Implementation Guide
 
-This guide is intended for Adobe Analytics administrators. You can browse for help on Admin tools and other administrative tasks.
+This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch.
 
 ## Key Analytics Import articles
 
@@ -23,10 +23,10 @@ This guide is intended for Adobe Analytics administrators. You can browse for he
 |--- |---|
 | [Analysis Workspace Guide](../analyze/home.md) | This guide includes information. |
 | [Admin Guide](../admin/home.md) | This guide includes information. |
-| [Implementation Guide](../implement/home.md) | This guide includes information. |
+| *[Implementation Guide](../implement/home.md)* | *This guide includes information.* |
 | [Components Guide](../components/home.md) | This guide includes information. |
 | [Export Guide](../export/home.md) | This guide includes information. |
-| *[Import Guide](../import/home.md)* | *This guide includes information.* |
+| [Import Guide](../import/home.md) | This guide includes information. |
 | [Integration Guide](../integrate/home.md) | This guide includes information. |
 | Data Workbench Guide | This guide includes information. |
 | Video Analytics Guide | This guide includes information. |

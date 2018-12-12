@@ -17,11 +17,11 @@ Calculated metrics rights differs between Admin-level users and non-Admins.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col02" class="entry"> Creating </th> 
-   <th colname="col2" class="entry"> Sharing </th> 
-   <th colname="col3" class="entry"> Viewing/Managing </th> 
-   <th colname="col4" class="entry"> Approving </th> 
-   <th colname="col5" class="entry"> Applying </th> 
+   <th colname="col02" class="entry"> Create </th> 
+   <th colname="col2" class="entry"> Share </th> 
+   <th colname="col3" class="entry"> View/Manage </th> 
+   <th colname="col4" class="entry"> Approve </th> 
+   <th colname="col5" class="entry"> Apply </th> 
   </tr> 
  </thead>
  <tbody> 

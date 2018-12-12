@@ -19,11 +19,11 @@ This document describes what you need to do in Adobe Analytics to support your d
 >
 >The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning GDPR.
 
-On May 25, 2018, the European Union's General Data Protection Regulation (GDPR) goes into effect. For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+On May 25, 2018, the European Union's General Data Protection Regulation (GDPR) went into effect. For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 When Adobe is providing software and services to an enterprise, Adobe is acting as a data processor for any personal data it receives and stores on behalf of our customers, as part of providing the services. As a data processor, Adobe processes personal data in accordance with your company’s permission and instructions (for example, as set out in your agreement with Adobe).
 
-As the data controller, you will determine the personal data that Adobe processes and stores on your behalf. If you use Adobe Experience Cloud solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe Experience Cloud account. For a list of examples, see [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html#collect).
+As the data controller, you determine the personal data that Adobe processes and stores on your behalf. If you use Adobe Experience Cloud solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe Experience Cloud account. For a list of examples, see [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html#collect).
 
 ![](assets/gdpr_ready.png)
 

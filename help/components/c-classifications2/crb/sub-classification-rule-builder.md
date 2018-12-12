@@ -36,7 +36,13 @@ After you have this structure in place, you can use the [Classifications Rule Bu
 
 The following task describes how to accomplish this. 
 
-## Set up Sub-Classifications using the Rule Builder <draft-comment> t_rule_builder_subclass.xml </draft-comment> {#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
+
+<!-- 
+
+t_rule_builder_subclass.xml
+
+ -->
 
 Example steps that describe how you can upload sub-classifications using the Rule Builder.
 

@@ -29,7 +29,7 @@ Segment functionality now mostly differs between Admin-level users and non-Admin
   <tr> 
    <td colname="col1"> <b>Admin-level users</b> </td> 
    <td colname="col2"> Can share with entire company, with user groups, and with individual users. </td> 
-   <td colname="col3"> <span class="keyword"> Marketing reports &amp; analytics </span>: Can view/edit/delete/etc. their own and other users' segments. <p> <span class="keyword"> Ad hoc analysis </span> and <span class="keyword"> report builder </span>: Can view/edit/delete/etc. their own segments and those shared with them. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: Can view/edit/delete/etc. their own and other users' segments. <p> <span class="keyword"> Ad Hoc Analysis </span> and <span class="keyword"> Report Builder </span>: Can view/edit/delete/etc. their own segments and those shared with them. </p> </td> 
    <td colname="col4"> Can approve segments as canonical. </td> 
    <td colname="col5"> Can apply any segment across the whole organization. </td> 
   </tr> 
@@ -42,4 +42,5 @@ Segment functionality now mostly differs between Admin-level users and non-Admin
   </tr> 
  </tbody> 
 </table>
+
 

@@ -37,28 +37,10 @@ Add a column to the report.
 
 ## Available Reports {#section_8A95A56AE24E4F34BBA069361D6354B9}
 
-The following [!UICONTROL Marketing Channel] reports are available in the Experience Cloud. 
+The following [!UICONTROL Marketing Channel] reports are available in the Experience Cloud.
 
-<table id="table_8AA4D85C3F7C4F34BA6116136C06EAC3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Report </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Channel Overview </p> </td> 
-   <td colname="col2"> <p>The overview report is a summary report that displays pie charts and graphs that depict trends over the selected time period. You can add first and last-touch metrics, or create calculated metrics for this report. You can also drill into the first and last-touch channel and detail reports from the overview table. Other Marketing Channel reports provide ways to look deeper into the data summarized on this report. </p> <p>When you expand a channel in the report, you can see breakdown reporting for the channel's values. Channel Values are unclassified values in the channel detail. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First or Last-Touch Channel </p> </td> 
-   <td colname="col2"> <p>Displays metrics showing data about a specific first-touch or last-touch channel. In these reports, you can break down a channel and show the details of each channel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First or Last-Touch Channel Detail </p> </td> 
-   <td colname="col2"> <p>Displays details such as page names and referrers, which is taken from the channel values you set up in the <span class="uicontrol"> Set the channel's value to</span> option when <a href="../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08" type="task" format="dita" scope="local"> configuring rules</a>. Channel detail reports let you closely examine the channel detail values from the overview report. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Report  | Description  |
+|--- |--- |
+|Channel Overview|The overview report is a summary report that displays pie charts and graphs that depict trends over the selected time period. You can add first and last-touch metrics, or create calculated metrics for this report. You can also drill into the first and last-touch channel and detail reports from the overview table. Other Marketing Channel reports provide ways to look deeper into the data summarized on this report.  When you expand a channel in the report, you can see breakdown reporting for the channel's values. Channel Values are unclassified values in the channel detail.|
+|First or Last-Touch Channel|Displays metrics showing data about a specific first-touch or last-touch channel. In these reports, you can break down a channel and show the details of each channel.|
+|First or Last-Touch Channel Detail|Displays details such as page names and referrers, which is taken from the channel values you set up in the  Set the channel's value to option when  configuring rules. Channel detail reports let you closely examine the channel detail values from the overview report.|

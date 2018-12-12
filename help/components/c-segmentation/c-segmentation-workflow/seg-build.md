@@ -129,10 +129,6 @@ You can [build a framework of containers](../../../components/c-segmentation/seg
 
 ## Build a segment {#task_D5CB734E892D451DABFA62F8844F1778}
 
-Build a segment in Analytics. 
-
-Task Context 
-
 1. Drag a Dimension, Segment, or Metric Event from the left pane to the **[!UICONTROL Definitions]** field.
 
    ![](assets/drag_n_drop_dimension.png)

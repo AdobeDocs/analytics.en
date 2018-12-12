@@ -20,7 +20,7 @@ Steps that describe how to escape classification data in the classification file
 
    If v2.1 is enabled, you will see a line similar to:
 
-   ```
+
    ## SC SiteCatalyst SAINT Import File v:2.1
    ```
 

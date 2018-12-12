@@ -22,28 +22,11 @@ Merchandising can be enabled for any custom eVar on the **[!UICONTROL Admin Tool
 
 ![](assets/merch-enable.png)
 
-<table id="table_193CD04849D048C5BA11810AF8488D20"> 
- <thead> 
-  <tr valign="top"> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr valign="top"> 
-   <td colname="col1"> Expire After </td> 
-   <td colname="col2"> <p>Determines how long merchandising values should persist. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> Merchandising </td> 
-   <td colname="col2"> <p> <a href="../../../components/c-variables/c-merch-variables/var-merchandising-impl.md#section_2774578D09CE40A093CB0D0A294DBF7C" format="dita" scope="local"> Product Syntax </a>: The value is set within <span class="codeph"> s.products </span>. </p> <p> <a href="../../../components/c-variables/c-merch-variables/var-merchandising-impl.md#section_6AE10F69F4A14636AB050BEA89A34E4E" format="dita" scope="local"> Conversion Variable Syntax </a>: The value is set in the designated merchandising <span class="codeph"> s.eVar </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> Merchandising Binding Event (Conversion variable syntax only) </td> 
-   <td colname="col2"> <p>Indicates when a product should be tied to the current merchandising category. Multiple events may be selected by holding down Ctrl and clicking on multiple items in the list. </p> <p> <p>Note:  When "Product Syntax" is selected, you can not choose an event (it is disabled, but not grayed out). You can select an event only when the "Conversion Variable Syntax" is selected. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Description |
+|--- |--- |
+|Expire After|Determines how long merchandising values should persist.|
+|Merchandising|Product Syntax : The value is set within s.products.    Conversion Variable Syntax : The value is set in the designated merchandising  s.eVar.|
+|Merchandising Binding Event (Conversion variable syntax only)|Indicates when a product should be tied to the current merchandising category. Multiple events may be selected by holding down Ctrl and clicking on multiple items in the list.   Note:  When "Product Syntax" is selected, you can not choose an event (it is disabled, but not grayed out). You can select an event only when the "Conversion Variable Syntax" is selected.|
 
 ## Implementing Using Product Syntax {#section_2774578D09CE40A093CB0D0A294DBF7C}
 

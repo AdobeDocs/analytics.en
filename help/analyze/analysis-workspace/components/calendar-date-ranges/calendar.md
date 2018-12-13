@@ -33,7 +33,7 @@ aw
  <tbody> 
   <tr> 
    <td colname="col1"> Selected Days </td> 
-   <td colname="col2"> </td> 
+   <td colname="col2">Selected days/weeks/months/years.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Use Rolling Dates </td> 

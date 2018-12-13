@@ -31,28 +31,11 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
    ![](assets/cohort-table.png)
 
-<table id="table_AFC2D9DD11584D5FAF6723FB052C838A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Granularity </td> 
-   <td colname="col2"> <p>The time granularity of Day, Week, Month, Quarter, or Year. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Inclusion Metric </td> 
-   <td colname="col2"> <p> The metric that places a user in a cohort. For example, if the inclusion metric is Orders, only users who placed an order during the time range of the cohort analysis will be included in the initial cohorts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Return Metric </td> 
-   <td colname="col2"> <p> The metric that indicates the user has been retained. For example, if the return metric is Video Views, only users who viewed videos during subsequent time periods (after the period in which they were added to a cohort) will be represented as retained. Another metric that quantifies retention is Visits. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Description |
+|--- |--- |
+|Granularity|The time granularity of Day, Week, Month, Quarter, or Year.|
+|Inclusion Metric|The metric that places a user in a cohort. For example, if the inclusion metric is Orders, only users who placed an order during the time range of the cohort analysis will be included in the initial cohorts.|
+|Return Metric|The metric that indicates the user has been retained. For example, if the return metric is Video Views, only users who viewed videos during subsequent time periods (after the period in which they were added to a cohort) will be represented as retained. Another metric that quantifies retention is Visits.|
 
 1. Click **[!UICONTROL Run Report]**.
 

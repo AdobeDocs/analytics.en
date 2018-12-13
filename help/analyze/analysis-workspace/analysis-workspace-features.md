@@ -20,17 +20,6 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 >[!VIDEO](https://www.youtube.com/watch?v=AnguIQIAi_k&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2) Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-* [Full control over project elements and components](../../analyze/analysis-workspace/analysis-workspace-features.md#section_B7E3EDA3EDEE407D833F4FDB69646EEC) 
-* [Multiple Visualizations in a Project](../../analyze/analysis-workspace/analysis-workspace-features.md#section_B7670740C2D44130B21DAF0873280DA5) 
-* [Intra-Linking to Panels and Visualizations](../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086) 
-* [Link to Other Projects](../../analyze/analysis-workspace/analysis-workspace-features.md#section_AE886C367C3E4F189B65B1BD9BCDBD8C) 
-* [Dynamic Visualisation of Selected Cells](../../analyze/analysis-workspace/analysis-workspace-features.md#section_182CEC285E4547EBA4608D5F70C9D5D7) 
-* [Static Visualization Sync with Data Tables](../../analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 
-* [Trend Visualizations from Selected Cells](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
-* [Dimensions and Dimension Item Breakdowns](../../analyze/analysis-workspace/analysis-workspace-features.md#section_1380C1F9E51E4BFB8C5D35E7A53BC70D) 
-* [Segments from Table Selections](../../analyze/analysis-workspace/analysis-workspace-features.md#section_73BC3688089B426D969B3D5B606DA970) 
-* [Project and Component Tagging](../../analyze/analysis-workspace/analysis-workspace-features.md#section_F54D688132A541F2982326D5E022B90D) 
-* [Project Actions](../../analyze/analysis-workspace/analysis-workspace-features.md#section_CBF4D0A5F63E4B0883077B8D852B800B)
 
 >[!NOTE]
 >
@@ -145,36 +134,13 @@ You can apply tags to projects and components in Analysis Workspace:
 
 Perform component-level actions from the Actions menu at the top of the component left rail. Select a component and click **[!UICONTROL Actions]** to view the actions.
 
-<table id="table_652668ED7188492293446E1D691C4AC9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Component Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Tag </td> 
-   <td colname="col2"> Organize or manage components by applying tags to them. <p>It then shows up in the respective component manager, such as <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Segments </span> </span>, or <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Projects </span> </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Favorite </td> 
-   <td colname="col2"> Add the component to your list of favorites. It then shows up in the respective component manager, such as <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Segments </span> </span>, or <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Projects </span> </span>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Approve </td> 
-   <td colname="col2"> Approve the component to make it canonical. It then shows up in the respective component manager, such as <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Segments </span> </span>, or <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Components </span>  &gt; <span class="uicontrol"> Projects </span> </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Share </td> 
-   <td colname="col2"> Applies only to segments. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Delete </td> 
-   <td colname="col2"> Applies only to segments. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Component Action | Description |
+|--- |--- |
+|Tag|Organize or manage components by applying tags to them. It then shows up in the respective component manager, such as   Analytics   >  Components   >  Segments  , or   Analytics   >  Components   >  Projects|
+|Favorite|Add the component to your list of favorites. It then shows up in the respective component manager, such as   Analytics   >  Components   >  Segments  , or   Analytics   >  Components   >  Projects  .|
+|Approve|Approve the component to make it canonical. It then shows up in the respective component manager, such as   Analytics   >  Components   >  Segments  , or   Analytics   >  Components   >  Projects|
+|Share|Applies only to segments.|
+|Delete|Applies only to segments.|
 
 See [Visualizations](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
 

@@ -14,12 +14,6 @@ snippet: y
 
 Segment IQ (Segment Comparison) is one of the most widely used feature in Analysis Workspace, and customers are constantly finding new an innovative ways to drive insights with it. Here are just a handful of successful use cases.
 
-* [Use case 1: compare mobile vs desktop implementations](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md#section_B3A5983E58D0470895C030EA527C4966) 
-* [Use case 2: compare customers who use a certain feature to those who don't](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md#section_878B08FDD70A45E186C1F28EBA296636) 
-* [Use case 3: compare news site visitors to other site section visitors](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md#section_0EAFC90C450244058B161200AC9901B8) 
-* [Use case 4: compare visitors from paid search to everyone else](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md#section_73912670409349CAB131FE9D8B4FB11C) 
-* [Use case 5: compare Fitbit purchasers to everyone else](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md#section_9142B8A270764545B0A516AA309F1785)
-
 ## Use case 1: compare mobile vs desktop implementations {#section_B3A5983E58D0470895C030EA527C4966}
 
 **"We compared hits from one site to another site and quickly found a number of tagging inconsistencies. This way, we avoided data problems before product release."**
@@ -57,20 +51,9 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 **How to set up this comparison:** 
 
-<table id="table_C834641ECC6C449FAB8ADC50FEBD78A5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segment 1 </th> 
-   <th colname="col3" class="entry"> Segment 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Use/Create a visitor-level segment for Visitors who interacted with the price comparison tool. </p> </td> 
-   <td colname="col3"> <p>Use the <span class="wintitle"> Everyone Else </span> segment that gets generated automatically and encompasses everyone not included in Segment 1. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Segment 1 | Segment 2 |
+|--- |--- |
+|Use/Create a visitor-level segment for Visitors who interacted with the price comparison tool.|Use the  Everyone Else  segment that gets generated automatically and encompasses everyone not included in Segment 1.|
 
 ## Use case 3: compare news site visitors to other site section visitors {#section_0EAFC90C450244058B161200AC9901B8}
 
@@ -80,20 +63,9 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 **How to set up this comparison:** 
 
-<table id="table_684B6D60376B4632B3CF49156A2C95DF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segment 1 </th> 
-   <th colname="col3" class="entry"> Segment 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Use/Create a visitor-level segment for Visitors to the News site section. </p> </td> 
-   <td colname="col3"> <p>Use the <span class="wintitle"> Everyone Else </span> segment that gets generated automatically and encompasses everyone not included in Segment 1. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Segment 1 | Segment 2 |
+|--- |--- |
+|Use/Create a visitor-level segment for Visitors to the News site section.|Use the  Everyone Else  segment that gets generated automatically and encompasses everyone not included in Segment 1.|
 
 ## Use case 4: compare visitors from paid search to everyone else {#section_73912670409349CAB131FE9D8B4FB11C}
 
@@ -101,22 +73,11 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 **Scenario:** A major B2B services company wanted to understand the type of traffic that paid search keywords were bringing to their site. Paid search had not resulted in a lot of conversions directly, and the marketing executive was considering decreasing budget for it. The marketing team created a segment of visitors who came to the site via paid search and compared them to all other visitors using Segment IQ. They discovered that although these visitors were not as likely to convert directly, they were however 3 times more likely to up-sell on a previously purchased service. The marketing team was then able to focus their budget on just the up-sell related keywords and saw a 56% increase in service up-sells.
 
-**How to set up this comparison:** 
+**How to set up this comparison:**
 
-<table id="table_29358DCCAE874E97B277EBC65A28B869"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segment 1 </th> 
-   <th colname="col3" class="entry"> Segment 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Use/Create a visitor-level segment for Visitors referred by Natural Search or who came from an SEM campaign. </p> </td> 
-   <td colname="col3"> <p>Use the <span class="wintitle"> Everyone Else </span> segment that gets generated automatically and encompasses everyone not included in Segment 1. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Segment 1 | Segment 2 |
+|--- |--- |
+|Use/Create a visitor-level segment for Visitors referred by Natural Search or who came from an SEM campaign.|Use the  Everyone Else  segment that gets generated automatically and encompasses everyone not included in Segment 1.|
 
 ## Use case 5: compare Fitbit purchasers to everyone else {#section_9142B8A270764545B0A516AA309F1785}
 

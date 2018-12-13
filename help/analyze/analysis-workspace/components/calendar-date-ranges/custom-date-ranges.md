@@ -20,9 +20,6 @@ Create custom date ranges in Analysis Workspace, and save them as Time component
 
 A date range applies at the panel level. To add a date range to your project, click **Panels** > *`<select panel>`*, and specify a new date range.
 
-* [Date Range for "Two Months Ago"](../../../../analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md#section_C4109C57CB444BB2A79CC8082BD67294) 
-* [7-Day Rolling Date Range](../../../../analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md#section_7EF63B2E9FF54D2E9144C4F76956A8DD)
-
 ## Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 The following custom date range shows a date range for "two months ago," with a Summary Change visualization showing directional change.
@@ -49,8 +46,8 @@ For example, you can create a date range that specifies a 7-day rolling window t
 
 Use *`rolling daily`*.
 
-The Start settings would be *`current day minus 14 days`*.
+* The Start settings would be *`current day minus 14 days`*.
 
-The End settings would be *`current day minus 7 days`*.
+* The End settings would be *`current day minus 7 days`*.
 
 This date range can be a component that you drag onto any freeform table. 

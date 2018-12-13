@@ -67,7 +67,7 @@ The submenus contain the following options.
 
 >[!NOTE]
 >
->Options with an asterisk (&#42;) display only with **saved** projects.
+>Options marked by an asterisk (&#42;) display only with **saved** projects.
 
 |  Project  | Edit  | Insert  | Components  | Share  | Help  |
 |---|---|---|---|---|---|

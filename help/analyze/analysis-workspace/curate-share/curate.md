@@ -19,6 +19,8 @@ Curation lets you limit the components before sharing a project. You can share a
 **Video overview** 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)  **[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
+## Curate project data
+
 1. Specify permission to create and curate projects.
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**). 
@@ -36,7 +38,7 @@ Curation lets you limit the components before sharing a project. You can share a
 
 The resulting project behaves like a typical project in Analysis Workspace, but only with the specified components to choose from.
 
-**Share a curated project**
+## Share a curated project
 
 Sharing makes this project available to other Analysis Workspace users in your organization. Any curation you have done is reflected when others use the project.
 

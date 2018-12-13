@@ -9,13 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Segments
-
-## Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
-
-* [Segment Rail](../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#section_3B07D458C43E42FDAF242BB3ACAF3E90) 
-* [Create Segments](../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#section_693CFADA668B4542B982446C2B4CF0F5) 
-* [Other Methods for Applying Segments](../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#section_10FF2E309BA84618990EA5B473015894)
+# Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
 ## Segment rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 

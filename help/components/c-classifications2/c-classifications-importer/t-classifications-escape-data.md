@@ -16,13 +16,11 @@ snippet: y
 
 Steps that describe how to escape classification data in the classification file.
 
+<!--Meike, please check this page against orginal. It might be missing information. -->
+
 1. Ensure that the classification file format is v2.1.
 
    If v2.1 is enabled, you will see a line similar to:
-
-
-   ## SC SiteCatalyst SAINT Import File v:2.1
-   ```
 
    >[!NOTE]
    >
@@ -41,4 +39,4 @@ Steps that describe how to escape classification data in the classification file
    ```
    "My String ""of data"""
    ```
-
+   

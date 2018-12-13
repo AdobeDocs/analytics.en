@@ -19,48 +19,16 @@ For a technical comparison of key features and system requirements between these
 
 ## Comparison of Key Terminology {#section_6109406B83B043A18E46D38F130B1D2E}
 
-<table id="table_880839B620E540FF8FE2993F77ECAAD7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis </th> 
-   <th colname="col2" class="entry"> Analysis Workspace </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Project </p> </td> 
-   <td colname="col2"> <p>Workspace or Project </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Workspace </p> </td> 
-   <td colname="col2"> <p>Panel </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report </p> </td> 
-   <td colname="col2"> <p>Freeform Table </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Charts/Graph </p> </td> 
-   <td colname="col2"> <p>Visualization </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hierarchy: Project &gt; Workspaces &gt; Reports </p> </td> 
-   <td colname="col2"> <p>Hierarchy: Project &gt; Panels &gt; Tables </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ranked, Trended, Totals Report templates </p> </td> 
-   <td colname="col2"> <p>Freeform Table visualization </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Flow template </p> </td> 
-   <td colname="col2"> <p>Flow visualization </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Fallout </p> </td> 
-   <td colname="col2"> <p>Fallout visualization </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Ad Hoc Analysis | Analysis Workspace |
+|--- |--- |
+|Project|Workspace or Project|
+|Workspace|Panel|
+|Report|Freeform Table|
+|Charts/Graph|Visualization|
+|Hierarchy: Project > Workspaces > Reports|Hierarchy: Project > Panels > Tables|
+|Ranked, Trended, Totals Report templates|Freeform Table visualization|
+|Flow template|Flow visualization|
+|Fallout|Fallout visualization|
 
 ## Comparison of Key Tasks {#section_F31446F1DFA742D794A30D713E223440}
 

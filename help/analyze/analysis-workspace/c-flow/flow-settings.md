@@ -39,42 +39,12 @@ snippet: y
 
 Right-click on a node to see several options:
 
-<table id="table_348305802F4644B9BAE9D77216C7E0E7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Focus on this node </td> 
-   <td colname="col2"> <p>Change the focus to the selected node. The focus node appears at the center of the Flow diagram. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Start Over </td> 
-   <td colname="col2"> <p>Returns you to the Freeform diagram builder, where you can build a new Flow diagram. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Create Segment from this point in flow </td> 
-   <td colname="col2"> <p>Create a segment. This takes you into the Segment Builder, where you can configure the new segment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Breakdown </td> 
-   <td colname="col2"> <p>Break the node down by available Dimensions, Metrics, or Time. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Trend </td> 
-   <td colname="col2"> <p>Create a trended diagram for the node. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Expand entire column </td> 
-   <td colname="col2"> <p>Expand a column to show all nodes. By default, only the top five nodes display. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Collapse entire column </td> 
-   <td colname="col2"> <p>Hide all nodes in a column. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Option | Description |
+|--- |--- |
+|Focus on this node|Change the focus to the selected node. The focus node appears at the center of the Flow diagram.|
+|Start Over|Returns you to the Freeform diagram builder, where you can build a new Flow diagram.|
+|Create Segment from this point in flow|Create a segment. This takes you into the Segment Builder, where you can configure the new segment.|
+|Breakdown|Break the node down by available Dimensions, Metrics, or Time.|
+|Trend|Create a trended diagram for the node.|
+|Expand entire column|Expand a column to show all nodes. By default, only the top five nodes display.|
+|Collapse entire column|Hide all nodes in a column.|

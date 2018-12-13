@@ -28,5 +28,3 @@ Send an Analysis Workspace project via email, or schedule it for delivery.
 1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
 1. (Optional) Click **[!UICONTROL Show Scheduling Options]** to specify a delivery schedule, then click **[!UICONTROL Send on Schedule]**.
 1. Manage scheduled projects in **[!UICONTROL Components]** > [Scheduled Projects](../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C).
-
-   Step Result 

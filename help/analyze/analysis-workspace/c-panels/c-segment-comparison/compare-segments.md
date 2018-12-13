@@ -20,9 +20,6 @@ Explains how to compare segments in Analysis Workspace.
 >
 >You can also compare segments within a [fallout analysis](../../../../analyze/analysis-workspace/fallout/compare-segments-fallout.md#section_E0B761A69B1545908B52E05379277B56).
 
-* [Compare Segments](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_8F2BFC45131C49B4A2E08A063CD7A91F) 
-* [Exclude Components from Comparison](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937)
-
 ## Compare segments {#section_8F2BFC45131C49B4A2E08A063CD7A91F}
 
 1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** and open a project. 

@@ -24,7 +24,7 @@ Keep in mind:
 * There are five pre-set color palettes to choose from. The default palette and the one below have been optimized for optimal contrast and are both more color-blind accessible. 
 * The third to the fifth color palettes below the top two have been optimized for color harmony.
 
-**To change your color palette: **
+## Change your color palette:
 
 1. Navigate to **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. 
 1. From the **[!UICONTROL Project Color Palette]** dropdown, you can pick one of five pre-set color schemes.

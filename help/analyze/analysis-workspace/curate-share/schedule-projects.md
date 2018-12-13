@@ -22,7 +22,7 @@ Manage scheduled Analysis Workspace projects.
 
 In the Scheduled Projects Manager, you can edit and delete recurring project deliveries. You can create delivery schedules that send your reports via email to a specified address. You can configure these schedules to automatically send the reports at specified intervals for a duration of time or indefinitely, or stop the delivery of a recurring project.
 
-The Schedule Project Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
+The Scheduled Projects Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
 
 ![](assets/scheduled-projects.png)
 

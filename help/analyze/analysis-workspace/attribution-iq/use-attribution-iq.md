@@ -58,44 +58,14 @@ The attribution panel is an easy way to build an analysis comparing various attr
 
    ![](assets/attr_panel_vizs.png)
 
-   Here is a description of each visualization: 
+   Here is a description of each visualization:
 
-<table id="table_8194713497794034A4F20768D866D540"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Visualization </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Total Metric </p> </td> 
-   <td colname="col2"> <p>The total number of conversions that occurred over the reporting time window. These are the conversions that are attributed across the dimension you selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Metric Attribution Comparison Bar Chart </p> </td> 
-   <td colname="col2"> <p>Lets you visually compare the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model that was selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Metric Attribution Freeform Table </p> </td> 
-   <td colname="col2"> <p>Shows the same data as the bar chart - selecting different columns or rows in this table will filter the bar chart as well as several of the other visualizations in the panel. This table acts just as any other Freeform Table in Workspace - allowing you to add metrics, segments, breakdowns, etc. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dimension Overlap Chart </p> </td> 
-   <td colname="col2"> <p>A Venn Diagram showing the top three dimension items (e.g. Channels) and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items (e.g. Channels). Selecting other rows in the Freeform table will update the visualization to reflect your selection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Marketing Touchpoints Per Journey </p> </td> 
-   <td colname="col2"> <p>A Histogram indicating the number of marketing (or any dimension) touchpoints a Visitor had in the reporting date range. This is useful to see how impactful multi-touch attribution is for your dataset. If nearly all visitors have only a single touchpoint, different attribution models will not be very different from one another in their results. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Marketing Channel Performance Detail </p> </td> 
-   <td colname="col2"> <p>Lets you to compare up to three attribution models visually using a scatter plot. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Marketing Channel Flow </p> </td> 
-   <td colname="col2"> <p>Lets you see which channels are interacted with most commonly, and in what order across a visitor’s journey. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Visualization | Description |
+|--- |--- |
+|Total Metric|The total number of conversions that occurred over the reporting time window. These are the conversions that are attributed across the dimension you selected.|
+|Metric Attribution Comparison Bar Chart|Lets you visually compare the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model that was selected.|
+|Metric Attribution Freeform Table|Shows the same data as the bar chart - selecting different columns or rows in this table will filter the bar chart as well as several of the other visualizations in the panel. This table acts just as any other Freeform Table in Workspace - allowing you to add metrics, segments, breakdowns, etc.|
+|Dimension Overlap Chart|A Venn Diagram showing the top three dimension items (e.g. Channels) and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items (e.g. Channels). Selecting other rows in the Freeform table will update the visualization to reflect your selection.|
+|Marketing Touchpoints Per Journey|A Histogram indicating the number of marketing (or any dimension) touchpoints a Visitor had in the reporting date range. This is useful to see how impactful multi-touch attribution is for your dataset. If nearly all visitors have only a single touchpoint, different attribution models will not be very different from one another in their results.|
+|Marketing Channel Performance Detail|Lets you to compare up to three attribution models visually using a scatter plot.|
+|Marketing Channel Flow|Lets you see which channels are interacted with most commonly, and in what order across a visitor’s journey.|

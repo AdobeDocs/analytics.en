@@ -12,7 +12,7 @@ snippet: y
 
 # Target Lift and Confidence
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in Target Classic in the past.
+Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 

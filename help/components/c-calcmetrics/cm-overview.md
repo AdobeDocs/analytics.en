@@ -66,7 +66,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 * [!UICONTROL Segments] 
 * [!UICONTROL Real-Time] reports 
 * [!UICONTROL Current Data] reports 
-* Analytics for Target
+* [!DNL Analytics] for [!DNL Target]
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 

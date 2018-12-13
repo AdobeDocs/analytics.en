@@ -14,7 +14,7 @@ snippet: y
 
 # Transaction and customer integration
 
-Data sources provides two additional ways to integrate events that occur offline to your online data.
+Data Sources provides two additional ways to integrate events that occur offline to your online data.
 
 * [Enable Transaction ID Recording](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) 
 * [Transaction Integration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D) 

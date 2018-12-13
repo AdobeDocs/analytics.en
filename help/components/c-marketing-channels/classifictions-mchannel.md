@@ -37,6 +37,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 |Text Classifications|Specifies the type of classification category that lets you group variable data for reporting purposes.|
 |Name|The name of the classification. The classification you add appears as the  Channel Breakdown  option in the  Marketing Channel Manager .|
 |Options|The name of the classification. The classification you add appears as the  Channel Breakdown  option in the  Marketing Channel Manager .|
+
 ## Create marketing channel classifications {#task_BCA5597281574E339E71F3BBC1BE3DFA}
 
 Create classifications for the [!UICONTROL Marketing Channel] report.

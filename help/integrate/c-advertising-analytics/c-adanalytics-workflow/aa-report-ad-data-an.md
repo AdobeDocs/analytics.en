@@ -31,68 +31,21 @@ This template lets anyone who implements this Search Engine integration get acce
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
-<table id="table_3EE6A56CCE6F4AA8AA0C61FD3C0169EE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Table/Visualization </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Trends </p> </td> 
-   <td colname="col2"> <p>Daily trended overview for AMO Impressions, AMO Clicks, and AMO Cost. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Platforms </p> </td> 
-   <td colname="col2"> <p>Donut chart for cost of top 3 platforms (Google, Microsoft, Yahoo). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Platform Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top platforms broken down by AMO Impressions, AMO Clicks, AMO Costs, AMO Avg. Position, AMO Avg. Quality Score. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Accounts </p> </td> 
-   <td colname="col2"> <p>Stacked area of cost. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top accounts broken down by the associated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaigns </p> </td> 
-   <td colname="col2"> <p>Bar chart of campaign cost. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaign Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top campaigns broken down by the associated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Groups </p> </td> 
-   <td colname="col2"> <p>Tree map of cost. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Group Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top advertising groups broken down by the associated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ads </p> </td> 
-   <td colname="col2"> <p>Horizontal bar chart of impressions, clicks, and cost. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top ads broken down by the associated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Keywords </p> </td> 
-   <td colname="col2"> <p>Scatter chart of impressions, clicks, and cost for all keyword/match type combinations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Keyword Totals </p> </td> 
-   <td colname="col2"> <p>Freeform table of the top keyword/match type combinations broken down by the associated metrics. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Table/Visualization | Description |
+|--- |--- |
+|Advertising Trends|Daily trended overview for AMO Impressions, AMO Clicks, and AMO Cost.|
+|Ad Platforms|Donut chart for cost of top 3 platforms (Google, Microsoft, Yahoo).|
+|Ad Platform Totals|Freeform table of the top platforms broken down by AMO Impressions, AMO Clicks, AMO Costs, AMO Avg. Position, AMO Avg. Quality Score.|
+|Accounts|Stacked area of cost.|
+|Account Totals|Freeform table of the top accounts broken down by the associated metrics.|
+|Campaigns|Bar chart of campaign cost.|
+|Campaign Totals|Freeform table of the top campaigns broken down by the associated metrics.|
+|Groups|Tree map of cost.|
+|Group Totals|Freeform table of the top advertising groups broken down by the associated metrics.|
+|Ads|Horizontal bar chart of impressions, clicks, and cost.|
+|Ad Totals|Freeform table of the top ads broken down by the associated metrics.|
+|Keywords|Scatter chart of impressions, clicks, and cost for all keyword/match type combinations.|
+|Keyword Totals|Freeform table of the top keyword/match type combinations broken down by the associated metrics.|
 
 ## Reports & Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 

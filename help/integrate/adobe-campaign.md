@@ -80,37 +80,11 @@ The following **metrics** are available from Campaign in Adobe Analytics report 
 
 The following **dimensions** are available from Campaign in Adobe Analytics report suites: 
 
-<table id="table_0CD9446C49DE47A0B0C99AD9DCCAE99D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Dimension Name </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Campaign ID </p> </td> 
-   <td colname="col2"> <p>ID of all campaigns for which KPI's have been sent during duration </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaign Label </p> </td> 
-   <td colname="col2"> <p>Labels of Campaign IDs </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delivery ID </p> </td> 
-   <td colname="col2"> <p>ID of all deliveries for which KPI's have been sent during duration. Also includes IDs of master deliveries of recurring delivery and transaction delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery. </p> <p>The Delivery ID displays results for all deliveries, DM1 through DM5. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delivery Label </p> </td> 
-   <td colname="col2"> <p>Labels of Delivery IDs </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Executed Delivery ID : </p> </td> 
-   <td colname="col2"> <p>IDs of only executed deliveries. No ID of recurring/ transactional master delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery. Executed Delivery ID displays results for all deliveries starting from DM2 to DM5 - the deliveries which have actually been executed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Executed Delivery Label </p> </td> 
-   <td colname="col2"> <p>Labels of Executed Delivery IDs </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Dimension Name | Definition |
+|--- |--- |
+|Campaign ID|ID of all campaigns for which KPI's have been sent during duration|
+|Campaign Label|Labels of Campaign IDs|
+|Delivery ID|ID of all deliveries for which KPI's have been sent during duration. Also includes IDs of master deliveries of recurring delivery and transaction delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery.  The Delivery ID displays results for all deliveries, DM1 through DM5.|
+|Delivery Label|Labels of Delivery IDs|
+|Executed Delivery ID|IDs of only executed deliveries. No ID of recurring/ transactional master delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery. Executed Delivery ID displays results for all deliveries starting from DM2 to DM5 - the deliveries which have actually been executed.|
+|Executed Delivery Label|Labels of Executed Delivery IDs|

@@ -13,5 +13,5 @@ snippet: y
 
 # Target Activities
 
-Shows the list of activities (campaigns) you have configured in Target. Requires that the Analytics for Target integration be enabled.
+Shows the list of activities (campaigns) you have configured in Target. Requires that the [!DNL Analytics] for [!DNL Target] integration be enabled.
 

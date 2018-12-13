@@ -29,5 +29,5 @@ By publishing a segment to the Experience Cloud, you can use the segment for mar
 
 >[!IMPORTANT]
 >
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], Media Optimizer, and Campaign.
+>Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Adobe Campaign], and [!DNL Campaign].
 

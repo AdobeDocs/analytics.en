@@ -36,7 +36,7 @@ The following considerations apply ONLY to cases where you are considering chang
 
 ## Users at your company need to be able to share segments to the Experience Cloud for targeting from virtual report suites. {#section_42BC8FB63E3444E3893913C43D19D032}
 
-**Use case**: Users have access to virtual report suites only, but you want them to be able to create and share segments from Adobe Analytics to Adobe Experience Cloud for targeting in Adobe Target.
+**Use case**: Users have access to virtual report suites only, but you want them to be able to create and share segments from Adobe Analytics to Adobe Experience Cloud for targeting in Adobe [!DNL Target].
 
 * Sharing segments to Adobe Experience Cloud is not supported for virtual report suites. 
 * Users who need to be able to share a segment to Experience Cloud must have access to the global/parent report suite.

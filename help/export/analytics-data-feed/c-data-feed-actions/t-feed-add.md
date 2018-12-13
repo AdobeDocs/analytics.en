@@ -20,8 +20,8 @@ Create a new feed.
 
 1. Enter the [feed destination](../../../export/analytics-data-feed/c-data-feed-actions/r-feed-destination.md#reference_77A63788FA284AD6AC5B29F2300CE995) information.
 
-   Step Result 1. Define the [data columns](../../../export/analytics-data-feed/c-df-contents/r-data-column-definitions.md#reference_F522E997D9FF486EA28A27B25763F204).
+1. Define the [data columns](../../../export/analytics-data-feed/c-df-contents/r-data-column-definitions.md#reference_F522E997D9FF486EA28A27B25763F204).
 
-   Step Result 1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-   Step Result 
+  

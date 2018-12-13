@@ -13,9 +13,9 @@ snippet: y
 
 # Data Feeds
 
-Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom Data Feeds.
+Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md).
 
-If you have purchased Adobe data warehouse, [!UICONTROL Standard Data Feeds] can be set up through your Adobe Account Manager. They can be sent to any FTP account (either one set up by Adobe or an external FTP). Adobe Engineering Services offers custom [!UICONTROL Data Feeds] that can be sent by virtually any means.
+If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. They can be sent to any FTP account (either one set up by Adobe or an external FTP). Adobe Engineering Services offers custom [!UICONTROL Data Feeds] that can be sent by virtually any means.
 
 [!UICONTROL Data Feed]FTP accounts allow 2 GB or 63 files (by default). All other standard FTP accounts are 50MB by default. In cases where clients are using the FTP account for its proper intended use, some users with high traffic amounts can quickly fill up these accounts. When an FTP account is full, no additional files can be pushed to them. Therefore, any files being delivered to that FTP account ( [!UICONTROL Data Feeds], data warehouse requests, and so forth) are not delivered. This is one reason it is important to manage your Adobe FTP account by removing files that have been received and downloaded.
 

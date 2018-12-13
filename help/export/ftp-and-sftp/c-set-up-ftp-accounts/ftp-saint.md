@@ -13,7 +13,7 @@ snippet: y
 
 # Classifications
 
-The classifications (SAINT) FTP option provides more flexibility in uploading large classification data sets, including the ability to upload data into multiple report suites and to upload data sets larger than 50,000 rows.
+The classifications FTP option provides more flexibility in uploading large classification data sets, including the ability to upload data into multiple report suites and to upload data sets larger than 50,000 rows.
 
 See [classifications](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) for steps on how to download classification data via FTP and how to upload data files via FTP (including the steps to create an FTP account).
 

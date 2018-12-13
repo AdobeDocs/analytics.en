@@ -33,22 +33,7 @@ r_time_panel.xml
 
  -->
 
-<table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Date Ranges </p> </td> 
-   <td colname="col2"> <p> Lets you select one or more time periods and drag them to the Table Builder or report grid. View time periods as breakdowns in rows, or as column headers. You can select periods like day, week, month, or custom date ranges. If you use a Custom Calendar in <span class="keyword"> SiteCatalyst</span>, your report suites inherit those settings. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Trending </p> </td> 
-   <td colname="col2"> <p> Lets you trend reporting over hour, day, week, month, and so on. When you drag items from Trending to the report, you are viewing data over a time setting that is governed by the specified date range from the calendar. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Field  | Definition  |
+|--- |--- |
+|Date Ranges|Lets you select one or more time periods and drag them to the Table Builder or report grid. View time periods as breakdowns in rows, or as column headers. You can select periods like day, week, month, or custom date ranges. If you use a Custom Calendar in  SiteCatalyst, your report suites inherit those settings.|
+|Trending|Lets you trend reporting over hour, day, week, month, and so on. When you drag items from Trending to the report, you are viewing data over a time setting that is governed by the specified date range from the calendar.|

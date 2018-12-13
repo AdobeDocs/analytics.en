@@ -190,7 +190,7 @@ t_reports_clipboard.xml
 
  -->
 
-1. Open Excel.
+1. Open Microsoft Excel.
 
    It is recommended that you open Excel prior to copying data, because Excel clears the memory buffer when it starts. 
 
@@ -205,14 +205,14 @@ t_reports_extract_ID.xml
 
  -->
 
-In marketing reports and analytics, you can set a field to contain user ID data. If you configured this option, the [!UICONTROL Extract Visitor IDs] option becomes available. If you do not enable this option, but you decide to enable it later, you cannot go back and extract historical visitor IDs.
+In Reports &amp; Analytics, you can set a field to contain user ID data. If you configured this option, the [!UICONTROL Extract Visitor IDs] option becomes available. If you do not enable this option, but you decide to enable it later, you cannot go back and extract historical visitor IDs.
 
 **To extract visitor IDs** 
 
-1. Add a data warehouse segment to the report.
+1. Add a Data Warehouse segment to the report.
 1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
 
-   The data warehouse application launches. 
+   The Data Warehouse application launches. 
 1. On the [!UICONTROL Data Warehouse Request] tab, type the filter name.
 1. Click **[!UICONTROL Request this Report]**.
 

@@ -66,24 +66,10 @@ r_dsc_ranked_tab.xml
 
  -->
 
-<table id="table_6E69CBBDA5AC4D0BBF53AB0F9988FF68"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Column Settings </p> </td> 
-   <td colname="col2"> <p>Configure how you want to display cell data in tables, and bar graphs in charts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Select Default Metrics </p> </td> 
-   <td colname="col2"> <p>Select default metrics for Traffic and Conversion reports, in addition to the metrics available for all reports. </p> <p> <span class="uicontrol"> Include Report Specific Default</span>: Specifies whether to include default metrics when customizing the view. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field  | Definition  |
+|--- |--- |
+|Column Settings|Configure how you want to display cell data in tables, and bar graphs in charts.|
+|Select Default Metrics|Select default metrics for Traffic and Conversion reports, in addition to the metrics available for all reports.    Include Report Specific Default: Specifies whether to include default metrics when customizing the view.|
 
 ## Site Analysis Tab - Definitions {#reference_9DD37C8EF718409E990E149596282FF8}
 
@@ -95,24 +81,10 @@ r_dsc_site_analysis_tab.xml
 
  -->
 
-<table id="table_68B7667B97C74A4D97BB71217B8D807D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Metrics </p> </td> 
-   <td colname="col2"> <p>Select the metrics represented by cylinder width and cylinder height. Determine which metric is displayed using color, and determine the colors that represent low value and high value for that metric. You can establish the metrics for the X and Y axis, and add any other metrics you want in to appear in the report’s pop-up text. You can also invert any of the selected metrics for the display. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> General and Alerts </p> </td> 
-   <td colname="col2"> <p>Enable and disable certain graphical elements of the report. You can configure alerts that display in the report when metrics associated with the pages represented by cylinders pass a specific value. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field  | Definition  |
+|--- |--- |
+|Metrics|Select the metrics represented by cylinder width and cylinder height. Determine which metric is displayed using color, and determine the colors that represent low value and high value for that metric. You can establish the metrics for the X and Y axis, and add any other metrics you want in to appear in the report’s pop-up text. You can also invert any of the selected metrics for the display.|
+|General and Alerts|Enable and disable certain graphical elements of the report. You can configure alerts that display in the report when metrics associated with the pages represented by cylinders pass a specific value.|
 
 ## Font and Locale Tab - Definitions {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
 
@@ -124,22 +96,7 @@ r_dsc_font_locale.xml
 
  -->
 
-<table id="table_CF3ECB0ED368491A8739BD52216F5BD8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Field </p> </th> 
-   <th colname="col2" class="entry"> <p>Definition </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Select a locale </p> </td> 
-   <td colname="col2"> <p> Lets you specify the language to display in the user interface. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Select a font </p> </td> 
-   <td colname="col2"> <p>Lets you specify a font in which to display. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Field  | Definition  |
+|--- |--- |
+|Select a locale|Lets you specify the language to display in the user interface.|
+|Select a font|Lets you specify a font in which to display.|

@@ -113,42 +113,12 @@ r_dsc_fallout.xml
 
  -->
 
-<table id="table_FC8D35F455DB4B9D9390C822E1113C51"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Show Fallout At Visit or Visitor Level </p> </td> 
-   <td colname="col2"> <p>Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level, across visits. Site Analysis, Flow, and Fallout reports are enabled for visitor pathing. Changing this setting reruns the report, constraining the data to the selection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Total Success </p> </td> 
-   <td colname="col2"> <p>A total indicator of success. This value reflects the value in the last checkpoint of the path. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Total Success % </p> </td> 
-   <td colname="col2"> <p> A cumulative total of the percentage of visitors arriving at each checkpoint. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Checkpoint % </p> </td> 
-   <td colname="col2"> <p> The percentage of success between checkpoints. (Not cumulative.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include All Visits </p> </td> 
-   <td colname="col2"> <p>Adds all visits as the initial checkpoint. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Fallout <img id="image_57F85441864348DCA1B043E780611093" href="assets/fallout_icon.png" /> </p> </td> 
-   <td colname="col2"> <p>Lets you see the pages viewed after the visitor fell out of the specified checkpoint path. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Fallthrough <img id="image_BAEF6A484F624CE88E662A4F4189EAB1" href="assets/fallthrough_icon.png" /> </p> </td> 
-   <td colname="col2"> <p>Lets you see the pages viewed in the next step of the specified checkpoint path. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Field | Description |
+|--- |--- |
+|Show Fallout At Visit or Visitor Level|Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level, across visits. Site Analysis, Flow, and Fallout reports are enabled for visitor pathing. Changing this setting reruns the report, constraining the data to the selection.|
+|Total Success|A total indicator of success. This value reflects the value in the last checkpoint of the path.|
+|Total Success %|A cumulative total of the percentage of visitors arriving at each checkpoint.|
+|Checkpoint %|The percentage of success between checkpoints. (Not cumulative.)|
+|Include All Visits|Adds all visits as the initial checkpoint.|
+|Fallout|Lets you see the pages viewed after the visitor fell out of the specified checkpoint path.|
+|Fallthrough|Lets you see the pages viewed in the next step of the specified checkpoint path.|

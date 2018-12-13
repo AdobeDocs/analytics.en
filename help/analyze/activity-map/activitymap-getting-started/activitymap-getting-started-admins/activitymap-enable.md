@@ -36,22 +36,6 @@ Activity Map data cannot be collected unless you update to this version (or high
 
 1. Break this report down by **[!UICONTROL Activity Map Link by Region]** to see the link/region for that page:  ![](assets/am_breakdown.png){width="400px"}
 
-<!-- 
-
-Using 
-<b>Dynamic Tag Management (DTM)</b>. To do so, enable the code through the DTM repository.
-
- -->
-
-<!-- 
-
-This is in an email from Priyanka: 
-<p>Once the DTM team believes the feature is ready, we will be pushing it to production. So, it will be available at https://dtm.adobe.com </p> 
-<p>DTM admin needs to enable this feature (switch it on) explicitly, only for the beta customers. </p> 
-<p>Now, that the Activity Map feature is enabled for the beta customer, he can go into the adobe analytics tool within DTM and enable Activity Map as per step 2 in the document (see email from Priyanka) where he needs to check the configuration mode and app measurement library version etc. </p>
-
- -->
-
 ## Step 2. Enable Activity Map reports {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 First, you need to enable Activity Map reports at a report-suite level.

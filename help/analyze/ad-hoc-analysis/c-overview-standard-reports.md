@@ -83,48 +83,16 @@ Additional default statistical calculations can be added to ranked reports based
 
 **[!UICONTROL Ignore zeros in statistical calculations]**. Select this option to ignore zeros and ensure that adding another metric won't change the averages already calculated. All the statistics are affected by this setting (although for Sum it has no effect). 
 
-<table id="table_B2A4F9D5938D4756A81ACF6F4D77E63D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" align="center" class="entry"> Calculation </th> 
-   <th colname="col2" align="center" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Max </td> 
-   <td colname="col2" valign="middle"> <p>Identifies the maximum value across all rows for a specified dataset. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Min </td> 
-   <td colname="col2"> <p>Identifies the minimum value across all rows for a specified dataset. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Sum </td> 
-   <td colname="col2"> <p>A calculation of all the values for each row in the dataset. </p> <p>For example, the sum aggregates all visits by a visitor rather than counting the visitor only once (regardless of the number of visits). It is a comprehensive total of collected data points. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mean </td> 
-   <td colname="col2"> <p>The mean is the arithmetic average of the values of rows in a dataset, calculated by the sum divided by the count (sum/count). The mean is influenced by outlying data, unlike the median which is generally used for skewed distributions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Standard Deviation </td> 
-   <td colname="col2"> The standard deviation shows how much variation exists from the expected mean. A lower standard deviation shows the data points close to the mean. A higher standard deviation shows that the data points are spread across a large range of values. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Median </td> 
-   <td colname="col2"> The median is the numerical value separating the higher half of a data from the lower half for the rows in a dataset. Unlike the mean, it is generally used to avoid outlying values. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Quartiles </td> 
-   <td colname="col2"> <p>A quartile is the set of values in the dataset identified by three points that divide the data set into four equal groups, each comprising a quarter of the dataset. The first quartile is the 25th percentile, and the third quartile is the 75th percentile. (The second quartile is the Median and the fourth quartile is the Sum.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Count </td> 
-   <td colname="col2" valign="middle" align="left"> <p>Returns the number of rows in a dataset. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Calculation | Description |
+|--- |--- |
+|Max|Identifies the maximum value across all rows for a specified dataset.|
+|Min|Identifies the minimum value across all rows for a specified dataset.|
+|Sum|A calculation of all the values for each row in the dataset.  For example, the sum aggregates all visits by a visitor rather than counting the visitor only once (regardless of the number of visits). It is a comprehensive total of collected data points.|
+|Mean|The mean is the arithmetic average of the values of rows in a dataset, calculated by the sum divided by the count (sum/count). The mean is influenced by outlying data, unlike the median which is generally used for skewed distributions.|
+|Standard Deviation|The standard deviation shows how much variation exists from the expected mean. A lower standard deviation shows the data points close to the mean. A higher standard deviation shows that the data points are spread across a large range of values.|
+|Median|The median is the numerical value separating the higher half of a data from the lower half for the rows in a dataset. Unlike the mean, it is generally used to avoid outlying values.|
+|Quartiles|A quartile is the set of values in the dataset identified by three points that divide the data set into four equal groups, each comprising a quarter of the dataset. The first quartile is the 25th percentile, and the third quartile is the 75th percentile. (The second quartile is the Median and the fourth quartile is the Sum.)|
+|Count|Returns the number of rows in a dataset.|
 
 ## Example of Mean vs. Metric Total Calculations {#section_7C49196503964FB0A429FA347BC92D09}
 

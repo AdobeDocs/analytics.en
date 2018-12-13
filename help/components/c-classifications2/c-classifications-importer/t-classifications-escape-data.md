@@ -26,17 +26,16 @@ Steps that describe how to escape classification data in the classification file
    >
    >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
 
-1. Surround the field containing special characters in double quotes (").
+1. Surround the field containing special characters in double quotes (`"`).
 
-   A double quote character can appear in an escaped cell by replacing it with two double quote characters (""). For example:
+A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). For example:
 
-   ```
-   My String "of data"
-   ```
+```
+My String "of data"
+```
 
-   Escaped would be:
+Escaped would be:
 
-   ```
-   "My String ""of data"""
-   ```
-   
+```
+"My String ""of data"""
+```

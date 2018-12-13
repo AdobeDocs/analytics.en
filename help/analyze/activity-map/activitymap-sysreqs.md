@@ -15,32 +15,12 @@ snippet: y
 
 Activity Map is supported on the following web browsers.
 
-<table id="table_F108A48A7C3C4E70AD11D8F09BE0D701"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Supported Browsers </th> 
-   <th colname="col2" class="entry"> Versions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Internet Explorer </td> 
-   <td colname="col2"> Latest version </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Firefox </td> 
-   <td colname="col2"> Latest version </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Chrome </td> 
-   <td colname="col2">Latest version <p>Note:  The Activity Map Chrome plugin is a "developer mode" plugin only at this time. When you launch this plugin, you will get a message that encourages you to disable developer mode extensions. This message will be displayed each time the plugin is launched. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Safari </td> 
-   <td colname="col2"> Latest version </td> 
-  </tr> 
- </tbody> 
-</table>
+| Supported Browsers | Versions |
+|--- |--- |
+|Internet Explorer|Latest version|
+|Firefox|Latest version|
+|Chrome|Latest version. Note:  The Activity Map Chrome plugin is a "developer mode" plugin only at this time. When you launch this plugin, you will get a message that encourages you to disable developer mode extensions. This message will be displayed each time the plugin is launched.|
+|Safari|Latest version|
 
 >[!NOTE]
 >

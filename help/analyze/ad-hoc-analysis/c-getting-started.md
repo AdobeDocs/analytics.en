@@ -9,13 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Getting Started
-
-Get started with Ad Hoc Analysis.
-
-## Getting Started {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
-
-Get started with Ad Hoc Analysis. 
+#Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 You can perform instantaneous, advanced analysis on website activity. You can view multiple reports simultaneously and apply segments across multiple dimensions. You can analyze the data from both micro and macro perspectives to view their impact on your important business metrics.
 

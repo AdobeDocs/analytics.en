@@ -35,38 +35,11 @@ In the [!UICONTROL Dimensions] pane, you can search for dimensions and drag them
 
 You can sort them based on the following categories: 
 
-<table id="table_05FC781212F34CDE9A9A7560161E2AF8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Traffic </p> </td> 
-   <td colname="col2"> <p>Includes browser items, <span class="keyword"> Target</span> campaigns, geography, custom links, custom traffic properties, domains, downloads, referrers, referring domains, and so on. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Conversion </p> </td> 
-   <td colname="col2"> <p>Includes campaigns, categories, custom eVars, products, tracking code, and so on. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Props </p> </td> 
-   <td colname="col2"> <p>Includes custom traffic properties, such as entry and exit pages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Evars </p> </td> 
-   <td colname="col2"> <p>Includes eVars used as success metrics in data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hierarchy </p> </td> 
-   <td colname="col2"> <p>Includes variables from hierarchies, used to determine the location of a page in your site's hierarchy. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pathable </p> </td> 
-   <td colname="col2"> <p>Includes any item that can be shown in a path, such as pages, download links, exit links, keywords, and referring domains. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Dimension Category| Description |
+|--- |--- |
+|Traffic|Includes browser items,  Target campaigns, geography, custom links, custom traffic properties, domains, downloads, referrers, referring domains, and so on.|
+|Conversion|Includes campaigns, categories, custom eVars, products, tracking code, and so on.|
+|Props|Includes custom traffic properties, such as entry and exit pages.|
+|Evars|Includes eVars used as success metrics in data collection.|
+|Hierarchy|Includes variables from hierarchies, used to determine the location of a page in your site's hierarchy.|
+|Pathable|Includes any item that can be shown in a path, such as pages, download links, exit links, keywords, and referring domains.|

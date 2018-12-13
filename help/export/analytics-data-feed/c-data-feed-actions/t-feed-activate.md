@@ -19,5 +19,3 @@ Activating a feed restarts processing from the moment it was paused. For example
 
 1. Select one or more paused or inactive feeds.
 1. Click **[!UICONTROL Activate]**.
-
-   Step Result 

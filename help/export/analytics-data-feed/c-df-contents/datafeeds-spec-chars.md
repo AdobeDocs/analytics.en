@@ -25,61 +25,19 @@ Information about special characters used in the data feed.
 
 The following characters have a special meaning in the hit_data file: 
 
-<table id="table_56C79E6C25FE4B0CADFED2F5FEC165AD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col02" class="entry"> Meaning </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \t </span> (tab character) </td> 
-   <td colname="col02"> End of column </td> 
-   <td colname="col2"> <p>Marks the end of a data field. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \n </span> (newline character) </td> 
-   <td colname="col02"> End of row </td> 
-   <td colname="col2"> <p>Marks the end of a data row. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \ </span> (backslash character) </td> 
-   <td colname="col02"> Escape character </td> 
-   <td colname="col2"> <p>Escapes tab, newline, and backslash when the character was part of the value sent during data collection. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Character | Meaning | Description |
+|--- |--- |--- |
+|\t  (tab character)|End of column|Marks the end of a data field.|
+|\n  (newline character)|End of row|Marks the end of a data row.|
+|\  (backslash character)|Escape character|Escapes tab, newline, and backslash when the character was part of the value sent during data collection.|
 
 When any of the special characters are preceded by a backslash, they represent a literal character. 
 
-<table id="table_D25C109057F14EA4B0B8968EEC2FCDF1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col02" class="entry"> Meaning </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \\t </span> </td> 
-   <td colname="col02"> Tab </td> 
-   <td colname="col2"> <p>Literal tab character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \\n </span> </td> 
-   <td colname="col02"> Newline </td> 
-   <td colname="col2"> <p>Literal newline. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> \\ </span> </td> 
-   <td colname="col02"> Backslash </td> 
-   <td colname="col2"> <p>Literal backslash character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Character | Meaning | Description |
+|--- |--- |--- |
+|\\t|Tab|Literal tab character. This character was part of the value sent in during data collection.|
+|\\n|Newline|Literal newline. This character was part of the value sent in during data collection.|
+|\\|Backslash|Literal backslash character. This character was part of the value sent in during data collection.|
 
 ## Special characters in multi-valued variables (events_list, products_list, mvvars) {#section_056F8D540FFC4F24A001DC74331C2AAC}
 
@@ -114,37 +72,12 @@ The following characters have a special meaning in multi-valued variables:
 
 When any of the special characters are preceded by a caret, they represent a literal character.
 
-<table id="table_974911F5274B4746B38354621C9B6CD5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col02" class="entry"> Meaning </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> ^, </span> </td> 
-   <td colname="col02"> Comma </td> 
-   <td colname="col2"> <p>Literal comma character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> ^; </span> </td> 
-   <td colname="col02"> Semicolon </td> 
-   <td colname="col2"> <p>Literal semicolon character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> ^= </span> </td> 
-   <td colname="col02"> Equals </td> 
-   <td colname="col2"> <p>Literal equals character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="codeph"> ^^ </span> </td> 
-   <td colname="col02"> Caret </td> 
-   <td colname="col2"> <p>Literal caret character. This character was part of the value sent in during data collection. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Character | Meaning | Description |
+|--- |--- |--- |
+|^,|Comma|Literal comma character. This character was part of the value sent in during data collection.|
+|^;|Semicolon|Literal semicolon character. This character was part of the value sent in during data collection.|
+|^=|Equals|Literal equals character. This character was part of the value sent in during data collection.|
+|^^|Caret|Literal caret character. This character was part of the value sent in during data collection.|
 
 ## Sample workflow {#section_97F8C2925A35433DA2E7E8BE60037E37}
 

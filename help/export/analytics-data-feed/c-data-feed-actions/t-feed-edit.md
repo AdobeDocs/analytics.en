@@ -23,5 +23,3 @@ You can edit some of the fields for a feed.
 
 1. Click on a feed name.
 1. Edit the details for that feed.
-
-   Step Result 

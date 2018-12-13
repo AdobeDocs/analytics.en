@@ -13,7 +13,7 @@ snippet: y
 
 # Data Warehouse overview
 
-Data warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent via FTP, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
+Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent via FTP, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
 
 Adobe enables Data Warehouse for administrator-level users only, for specific report suites. (It can be enabled for global and child report suites, but not for rollup report suites.) The administrator can create a group that has access to Data Warehouse, and then associate non-administrator level users to that group.
 
@@ -23,7 +23,7 @@ Data Warehouse can process an unlimited number of rows in a single request for i
 
 >[!NOTE]
 >
->Data Warehouse reports the first value encountered in the reporting period. (Prior to October, 2015, it reported versions of case-insensitive variables that were not encountered in the data at all.)
+>Data Warehouse reports the first value encountered in the reporting period.
 
 ## Data Warehouse Requests Descriptions {#section_F21C78ED36884C389C852E876AF5CDE8}
 

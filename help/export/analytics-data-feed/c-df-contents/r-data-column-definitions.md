@@ -23,32 +23,12 @@ Use this section to select which data columns to include in the feed and how the
 
 The Data Column Definition section includes the following options:
 
-<table id="table_1822A22360D643738E3D08E3E19B2A22"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Remove Escaped Characters </p> </td> 
-   <td colname="col2"> <p>Select whether to remove escaped characters from the feed content. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include Data Manifest </p> </td> 
-   <td colname="col2"> <p>Select whether to include a data manifest at the beginning of each delivered feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Compression Format </p> </td> 
-   <td colname="col2"> <p>Select the compression format for the generated feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Packaging Type </p> </td> 
-   <td colname="col2"> <p>Specify how the feed is sent. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Option | Description |
+|--- |--- |
+|Remove Escaped Characters|Select whether to remove escaped characters from the feed content.|
+|Include Data Manifest|Select whether to include a data manifest at the beginning of each delivered feed.|
+|Compression Format|Select the compression format for the generated feed.|
+|Packaging Type|Specify how the feed is sent.|
 
 ## Specify Columns {#section_42BB8910657D4F959375451F2EAD4A58}
 
@@ -56,28 +36,11 @@ Select the desired columns from the Available list, then click **[!UICONTROL Add
 
 The Data Column Definitions section contains the following elements:
 
-<table id="table_EE9A899E70794A8C86FAF7B51A1743B8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Select Column Templates </p> </td> 
-   <td colname="col2"> <p>Choose from the list of predefined Data Columns definitions. </p> <p>After you select a column definition template, the "Included Columns" list contains columns from the selected template. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Available Columns List </p> </td> 
-   <td colname="col2"> <p>Choose from the list of all possible Dimension and Metrics IDs that can be included in a data feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Included Columns </p> </td> 
-   <td colname="col2"> <p>Choose from the list of columns included in the data feed. </p> <p>The Delete icon appears when hovering above an included column. </p> <p>Drag and drop to move columns up and down in the Included Columns list. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Field | Description |
+|--- |--- |
+|Select Column Templates|Choose from the list of predefined Data Columns definitions.  After you select a column definition template, the "Included Columns" list contains columns from the selected template.|
+|Available Columns List|Choose from the list of all possible Dimension and Metrics IDs that can be included in a data feed.|
+|Included Columns|Choose from the list of columns included in the data feed.  The Delete icon appears when hovering above an included column.  Drag and drop to move columns up and down in the Included Columns list.|
 
 ## Download CSV {#section_10F5B6A05D15469394FAEA68BF14BA0D}
 

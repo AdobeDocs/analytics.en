@@ -15,7 +15,7 @@ snippet: y
 
 Administrative steps for setting up Real-Time reports.
 
-Setting up real-time reports within Reports & Analytics consists of selecting the report suite and configuring up to 3 reports for it. 
+Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of selecting the report suite and configuring up to 3 reports for it. 
 
 1. Select the report suite for which you want to enable real-time reports.
 

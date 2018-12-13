@@ -16,6 +16,6 @@ snippet: y
 
 How to run the Marketing Channel Report.
 
-1. Log in to the Reports & Analytics.
+1. Log in to the [!UICONTROL Reports & Analytics].
 1. Select the appropriate report suite.
 1. Under [!UICONTROL Reports], click **[!UICONTROL Marketing Channels]**.

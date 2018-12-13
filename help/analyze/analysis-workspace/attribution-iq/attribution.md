@@ -67,25 +67,25 @@ To illustrate the impact of attribution lookback windows, we’ll apply a Linear
 
 When using the **visit attribution lookback window**, each visit has its conversion distributed independently:
 
-* The $10 from the first visit would be split equally among Search, Display, Social, and Email, each receiving $2.50. 
-* On the second visit, Search and Email would each receive half of the $5 conversion, so Email and Search would each receive another $2.50. 
-* Finally, on the final visit, Email would receive all of the credit for the $2 conversion.
+* The /$10 from the first visit would be split equally among Search, Display, Social, and Email, each receiving /$2.50. 
+* On the second visit, Search and Email would each receive half of the /$5 conversion, so Email and Search would each receive another /$2.50. 
+* Finally, on the final visit, Email would receive all of the credit for the /$2 conversion.
 
 In the **visitor lookback window**, all of the conversions are considered together, however the calculation is slightly more complex due to fact that there are multiple conversions.
 
-* The first $10 conversion would be split equally among Search, Display, Social, and Email. 
-* The second $5 conversion would then be split among the channels present in that visit as well as the previous channels from the previous visit: Search = (2/6) &#42; $5 = $1.67, Display = (1/6) &#42; $5 = $0.83, Social = (1/6) &#42; $5 = $0.83, Email = (2/6) &#42; $5 = $1.67. 
-* Finally, the last conversion would be split across all the channels for the visitor: Search = (2/7) &#42; $2 = $0.57, Display = (1/7) &#42; $2 = $0.29, Social = (1/7) &#42; $2 = $0.29, Email = (3/7) &#42; $2 = $0.86.
+* The first /$10 conversion would be split equally among Search, Display, Social, and Email. 
+* The second /$5 conversion would then be split among the channels present in that visit as well as the previous channels from the previous visit: Search = (2/6) &#42; /$5 = /$1.67, Display = (1/6) &#42; /$5 = /$0.83, Social = (1/6) &#42; /$5 = /$0.83, Email = (2/6) &#42; /$5 = /$1.67. 
+* Finally, the last conversion would be split across all the channels for the visitor: Search = (2/7) &#42; /$2 = /$0.57, Display = (1/7) &#42; /$2 = /$0.29, Social = (1/7) &#42; /$2 = /$0.29, Email = (3/7) &#42; /$2 = /$0.86.
 
 Here is a summary of the results in table form:  
 
 |  Channel  | Revenue (Linear | Visit)  | Revenue (Linear | Visitor)  |
 |---|---|---|
-|  Search  | $5.00  | $4.74  |
-|  Display  | $2.50  | $3.62  |
-|  Social  | $2.50  | $3.62  |
-|  Email  | $7.00  | $5.02  |
-|  Total  | $17.00  | $17.00  |
+|  Search  | /$5.00  | /$4.74  |
+|  Display  | /$2.50  | /$3.62  |
+|  Social  | /$2.50  | /$3.62  |
+|  Email  | /$7.00  | /$5.02  |
+|  Total  | /$17.00  | /$17.00  |
 
 This difference in the attribution lookback window works similarly with all attribution models described below.
 

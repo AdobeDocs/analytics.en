@@ -88,90 +88,28 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 >
 >The classifications for these metrics are updated daily. As such, if you make changes to the meta data in a search engine, you may not see those changes reflect until the following day when the classifications are updated.
 
-<table id="table_29D5750859954DDF8EAA85AF04B8BF1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Classification (Dimension) Name </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Keyword MatchType (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Platform (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The search engine name. Values can include Google AdWords, Microsoft Bing Ads, or Yahoo Gemini. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The name of the search engine account that is being tracked. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaign (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The name of the campaign in your search engine account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Group (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The name of the ad group in your search engine campaigns. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Ad Title + Ad Description that is used on your ad. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Keyword (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Keyword value from you search engine account </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Match Type (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Keyword Match Type assigned to your keyword. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Type (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The type of ad being served, which is typically “Text Ad”. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Title (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Title object used in your Ad. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Description (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Ad Description object used in your Ad. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Display URL (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The Ad Display URL object used in your Ad. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ad Destination URL (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The landing page URL or Final URL assigned to your Ad. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Network (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The network the Ad is being served on. For Advertising Analytics, this value is always “Search”. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Placement (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The managed placement website (for content networks). Only managed placements use this dimension. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Product Target (AMO ID) </p> </td> 
-   <td colname="col2"> <p>The name of product target used on PLA ads (not the actual product purchased). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Optimization (AMO ID) </p> </td> 
-   <td colname="col2"> <p>This is not used by Advertising Analytics. It is used only by Advertising Cloud customers. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Device (AMO ID) </p> </td> 
-   <td colname="col2"> <p>Not used today. Placeholder for potential future product enhancement to indicated target device type (e.g. mobile, desktop) of ad (not the actual device of visitor). </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Classification (Dimension) Name | Definition |
+|--- |--- |
+|Keyword MatchType (AMO ID)|The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
+|Ad Platform (AMO ID)|The search engine name. Values can include Google AdWords, Microsoft Bing Ads, or Yahoo Gemini.|
+|Account (AMO ID)|The name of the search engine account that is being tracked.|
+|Campaign (AMO ID)|The name of the campaign in your search engine account.|
+|Ad Group (AMO ID)|The name of the ad group in your search engine campaigns.|
+|Ad (AMO ID)|The Ad Title + Ad Description that is used on your ad.|
+|Keyword (AMO ID)|The Keyword value from you search engine account|
+|Match Type (AMO ID)|The Keyword Match Type assigned to your keyword. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
+|Ad Type (AMO ID)|The type of ad being served, which is typically “Text Ad”.|
+|Ad Title (AMO ID)|The Title object used in your Ad.|
+|Ad Description (AMO ID)|The Ad Description object used in your Ad.|
+|Ad Display URL (AMO ID)|The Ad Display URL object used in your Ad.|
+|Ad Destination URL (AMO ID)|The landing page URL or Final URL assigned to your Ad.|
+|Network (AMO ID)|The network the Ad is being served on. For Advertising Analytics, this value is always “Search”.|
+|Placement (AMO ID)|The managed placement website (for content networks). Only managed placements use this dimension.|
+|Product Target (AMO ID)|The name of product target used on PLA ads (not the actual product purchased).|
+|Optimization (AMO ID)|This is not used by Advertising Analytics. It is used only by Advertising Cloud customers.|
+|Device (AMO ID)|Not used today. Placeholder for potential future product enhancement to indicated target device type (e.g. mobile, desktop) of ad (not the actual device of visitor).|
 
-**Metrics **
+**Metrics**
 
 >[!IMPORTANT]
 >
@@ -181,34 +119,10 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 >
 >There is an AMO ID Instances metric that is set when the AMO ID is set on a landing page (i.e. a Clickthrough). This metric is captured in real time with the landing page hit and is available for breakdowns with other dimensions also set on the landing page.
 
-<table id="table_F59CD05341C9403D8690017BE241FE4E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric Name </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>AMO Impressions </p> </td> 
-   <td colname="col2"> <p>The number of ad impressions as reported by the search engine. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO Clicks </p> </td> 
-   <td colname="col2"> <p> The number of clicks on ads as reported by the search engine. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO Cost </p> </td> 
-   <td colname="col2"> <p> The cost paid for each keyword/ad as reported by the search engine. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Avg. Pos </p> </td> 
-   <td colname="col2"> <p>A calculated metric that reflects the average position of the ads as reported by the search engine. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Avg. Quality Score </p> </td> 
-   <td colname="col2"> <p> A calculated metric that reflects the average quality score as reported by the search engine. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Metric Name | Definition |
+|--- |--- |
+|AMO Impressions|The number of ad impressions as reported by the search engine.|
+|AMO Clicks|The number of clicks on ads as reported by the search engine.|
+|AMO Cost|The cost paid for each keyword/ad as reported by the search engine.|
+|Avg. Pos|A calculated metric that reflects the average position of the ads as reported by the search engine.|
+|Avg. Quality Score|A calculated metric that reflects the average quality score as reported by the search engine.|

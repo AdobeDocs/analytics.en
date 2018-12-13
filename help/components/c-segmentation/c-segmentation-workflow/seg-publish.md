@@ -1,6 +1,6 @@
 ---
-description: Lets you use the segment for marketing activity in the Audience library, Target, and Audience Management.
-seo-description: Lets you use the segment for marketing activity in the Audience library, Target, and Audience Management.
+description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
+seo-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
 seo-title: Publish segments to the Experience Cloud
 solution: Analytics
 title: Publish segments to the Experience Cloud
@@ -13,15 +13,15 @@ snippet: y
 
 # Publish segments to the Experience Cloud
 
-Lets you use the segment for marketing activity in the Audience library, Target, and Audience Management.
+Lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager].
 
 This check box in the Segment Builder appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
 
-By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the Audience library, Target, and Audience Manager. A segment title and description are required. 
+By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. A segment title and description are required. 
 
 >[!NOTE]
 >
->In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe Target.
+>In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe [!DNL Target].
 
 >[!IMPORTANT]
 >
@@ -29,5 +29,5 @@ By publishing a segment to the Experience Cloud, you can use the segment for mar
 
 >[!IMPORTANT]
 >
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Media Optimizer, and Campaign.
+>Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], Media Optimizer, and Campaign.
 

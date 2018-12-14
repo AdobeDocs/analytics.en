@@ -21,11 +21,11 @@ If you mistakenly map incompatible locations on the spreadsheet, report builder 
 
 The following sections contain more information:
 
-* [Selecting a Range of Cells](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6) 
+* [Select a Range of Cells](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6) 
 * [Techniques for Selecting Cells](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22) 
 * [Issues When Mapping](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
-## Selecting a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
+## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 On the [!UICONTROL Request Wizard: Step 2], when you enable [!UICONTROL Custom Layout] for a trended request, you can map the request to a range of cells.
 

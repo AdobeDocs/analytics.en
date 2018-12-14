@@ -15,11 +15,6 @@ snippet: y
 
 Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
 
-* [Report Builder 5.0 Users and Opening 5.1 Workbooks](../../analyze/report-builder/troubleshoot.md#section_C29898775999453FABB5FB0E098415C8) 
-* [Authentication Issues in Report Builder](../../analyze/report-builder/troubleshoot.md#section_FD79104DF1414FE2B36591606C963DE6) 
-* [Recommendations for Optimizing Requests](../../analyze/report-builder/troubleshoot.md#section_33EF919255BF46CD97105D8ACB43573F) 
-* [Error Message Descriptions](../../analyze/report-builder/troubleshoot.md#section_3DF3A1EEDAD149CB941BEABEF948A4A5)
-
 ## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
 
 Adobe changed the separator between dimensions and classifications from an underscore character (_) to ||. This change has compatibility implications for a Report Builder 5.0 user who opens a Report Builder v5.1 workbook with classification requests. Each time a workbook from a version older than v5.1 is opened, all its serialized classifications requests will be converted to this format.

@@ -37,7 +37,7 @@ To access these functions within report builder, go to [!UICONTROL Formulas] > [
 
 ![](assets/arb_functions.png)
 
-## Using these functions in a formula {#section_034311081C8D4D7AA9275C1435A087CD}
+## Use these functions in a formula {#section_034311081C8D4D7AA9275C1435A087CD}
 
 For example, the formula 
 
@@ -47,7 +47,7 @@ For example, the formula
 
 says "If the value in cell P5 is text or is blank, refresh the range that is in cell P9."
 
-## Using Report Builder functions with format control {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## Use Report Builder functions with format control {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 You can now assign a macro to a control you created and that control can be a function that refreshes a workbook request. For example, the function AsyncRefreshActiveWorksheet will refresh all requests in a worksheet. Sometimes, though, you may want to refresh only certain requests, not all.
 
@@ -57,7 +57,7 @@ You can now assign a macro to a control you created and that control can be a fu
 
 ![](assets/assign_macro.png)
 
-## Passing parameters to Report Builder functions via format control {#section_ECCA1F4990D244619DFD79138064CEF0}
+## Pass parameters to Report Builder functions via format control {#section_ECCA1F4990D244619DFD79138064CEF0}
 
 The two functions that take a parameter can be used with Format Control, but only via the Alt Text field:
 

@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Classification
+# Classifications
 
 Classification breakdowns are used to map analytics reporting data to related properties. Classifications can be used for a variety of purposes but are most commonly used for classifying campaign tracking codes (both internal and external) and product IDs.
 

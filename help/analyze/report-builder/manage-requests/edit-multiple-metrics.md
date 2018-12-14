@@ -13,12 +13,6 @@ snippet: y
 
 The Edit Metrics Across Multiple Requests feature lets you easily add, remove, or replace metrics in a pre-existing request or across a group of requests.
 
-[Add Metrics](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#section_3FBDA9668039404895059618D70FCBCD)
-
-[Replace Metric](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#section_D773AAC7B30C4FBEBDB66B203C217818)
-
-[Remove Metrics](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#section_D3CD5BAC7670416593B633B2B8423C60)
-
 ## Add metrics {#section_3FBDA9668039404895059618D70FCBCD}
 
 Keep in mind that

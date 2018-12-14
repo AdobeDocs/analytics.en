@@ -11,7 +11,7 @@ snippet: y
 
 # Summary Number and Summary Change
 
-##Summary Number visualization
+## Summary Number visualization
 
 * Selects the total of the column if no cell is selected. 
 * If a single cell is selected, it shows the summary for that cell. 
@@ -20,7 +20,7 @@ snippet: y
 
 ![](assets/summary-number.png)
 
-##Summary Change visualization
+## Summary Change visualization
 
 * If no cell is selected, it compares the first two cell values in the column. 
 * If one cell is selected, it shows 0, because it compares the cell value to itself. 

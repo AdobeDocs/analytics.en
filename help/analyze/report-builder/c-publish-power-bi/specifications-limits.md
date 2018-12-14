@@ -11,10 +11,6 @@ snippet: y
 
 # Limitations and specifications
 
-* [Power BI Publishing Restrictions](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#section_D4BDD70B20F94A0FAE53531CA528AE42) 
-* [Editing a Report Builder Request after Publishing to Power BI...](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#section_6989E74F68DD43F08D37C36B6777DB50) 
-* [Changing the Name of a Power BI Report](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#section_2E7893A78B914EBFACB2B08CBD9E472E)
-
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
 >[!NOTE]

@@ -13,9 +13,6 @@ snippet: y
 
 Here are a few common pitfalls when using Report Builder with Power BI.
 
-* [Failure to Publish to Power BI](../../../analyze/report-builder/c-publish-power-bi/troubleshooting.md#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B) 
-* [Broken Visualizations in Power BI](../../../analyze/report-builder/c-publish-power-bi/troubleshooting.md#section_FFFE200D06F843B2AF093710FD678166)
-
 ## Step 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 Scheduled workbooks that require Power BI publishing are dependent on Power BI services to be up and running. Two main reasons for a failure to publish are:

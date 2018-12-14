@@ -15,70 +15,19 @@ snippet: y
 
 Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
 
-<table id="table_0A4F5BDC7E104BC88C6479D2ACC28A60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry">Path Report Name in Reports &amp; Analytics <p>(Paths &gt; <span class="varname"> dimension</span> &gt;) </p> </th> 
-   <th colname="col2" class="entry"> Supported in Report Builder? </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1">Next/Previous <span class="varname"> dimension</span> Flow </td> 
-   <td colname="col2"> Not provided as a standalone report. Can be reproduced with several requests with the Path dimension and using a filter. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1">Next/Previous <span class="varname"> dimension</span> </td> 
-   <td colname="col2"> Not provided as a standalone report. Can be reproduced with a Path report and using a filter. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Fallout </td> 
-   <td colname="col2">Supported and provided as a standalone report (<span class="uicontrol"> Paths</span> &gt; <span class="varname"> dimension</span> &gt; <span class="varname"> dimension</span> <span class="uicontrol"> Fallout</span>). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Full Paths </td> 
-   <td colname="col2"> Not supported. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> PathFinder </td> 
-   <td colname="col2"> Not provided as a standalone report. Can be reproduced as a Path report using a filter. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Path Length </td> 
-   <td colname="col2"> Supported only for the Page dimension. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1">Page Analysis &gt; <span class="varname"> dimension</span> Summary </td> 
-   <td colname="col2"> Not provided as a standalone report. Can be reproduced with several requests with the Path dimension and using a filter. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Page Analysis &gt; Reloads </td> 
-   <td colname="col2">Not provided as a standalone report. Can be reproduced with a dimension report using the <span class="uicontrol"> Reloads</span> metric. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1">Page Analysis &gt; <span class="varname"> dimension</span> Depth </td> 
-   <td colname="col2"> Supported only for the Page dimension. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1">Page Analysis &gt; Time Spent on <span class="varname"> dimension</span> </td> 
-   <td colname="col2"> Not supported. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Entries and Exits &gt; Entry Pages </td> 
-   <td colname="col2">Not provided as a standalone report. Can be reproduced as a Path report using the pre-defined filter <span class="uicontrol"> Entered Site</span>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Entries and Exits &gt; Original Entry Pages </td> 
-   <td colname="col2"> Supported only for the Page dimension. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Entries and Exits &gt; Single Page Visits </td> 
-   <td colname="col2"> Not provided as a standalone report. Can be reproduced as a Path report using a pre-defined filter. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1">Entries and Exits &gt; Exit <span class="varname"> dimension</span> </td> 
-   <td colname="col2">Not provided as a standalone report. Can be reproduced as a Path report using the pre-defined filter <span class="uicontrol"> Exited Site</span>. </td> 
-  </tr> 
- </tbody> 
-</table>
-
+|Path Report Name in Reports & Analytics (Paths >  dimension >)  | Supported in Report Builder? |
+|--- |--- |
+|Next/Previous  dimension Flow|Not provided as a standalone report. Can be reproduced with several requests with the Path dimension and using a filter.|
+|Next/Previous  dimension|Not provided as a standalone report. Can be reproduced with a Path report and using a filter.|
+|Fallout|Supported and provided as a standalone report ( Paths >  dimension >  dimension  Fallout).|
+|Full Paths|Not supported.|
+|PathFinder|Not provided as a standalone report. Can be reproduced as a Path report using a filter.|
+|Path Length|Supported only for the Page dimension.|
+|Page Analysis >  dimension Summary|Not provided as a standalone report. Can be reproduced with several requests with the Path dimension and using a filter.|
+|Page Analysis > Reloads|Not provided as a standalone report. Can be reproduced with a dimension report using the  Reloads metric.|
+|Page Analysis >  dimension Depth|Supported only for the Page dimension.|
+|Page Analysis > Time Spent on  dimension|Not supported.|
+|Entries and Exits > Entry Pages|Not provided as a standalone report. Can be reproduced as a Path report using the pre-defined filter  Entered Site.|
+|Entries and Exits > Original Entry Pages|Supported only for the Page dimension.|
+|Entries and Exits > Single Page Visits|Not provided as a standalone report. Can be reproduced as a Path report using a pre-defined filter.|
+|Entries and Exits > Exit  dimension|Not provided as a standalone report. Can be reproduced as a Path report using the pre-defined filter  Exited Site.|

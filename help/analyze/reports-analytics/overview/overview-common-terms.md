@@ -13,7 +13,7 @@ snippet: y
 
 # Common Terms{#common-terms}
 
-An introduction to commonly used web analytics terms used in marketing reports.
+An introduction to commonly used Adobe Anlytics terms used.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 

@@ -11,11 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Filtering Report Data
-
-Filters allow you to narrow the report to include or exclude line items that match a filter.
-
-## Filtering Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Filters allow you to narrow the report to include or exclude line items that match a filter.
 

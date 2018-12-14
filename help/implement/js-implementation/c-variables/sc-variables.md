@@ -27,7 +27,7 @@ For a listing of how each variable appears in Analytics reports, see [Variables 
 
 ## How to Set Variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+[!DNL AppMeasurement] requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
 
 Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. This leaves the ClickMap module in an indeterminate state, which results in the first tracking call appending the string "undefined" to the Adobe Analytics beacon, affecting the currency code.
 

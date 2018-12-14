@@ -29,7 +29,7 @@ Some of the goals of using these configuration variables are:
 
 >[!NOTE]
 >
->AppMeasurement requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
 ## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
 
@@ -149,7 +149,7 @@ None
 dynamicAccountList.xml
 -->
 
-AppMeasurement for JavaScript can dynamically select a report suite to which it sends data. The  variable contains the rules used to determine the destination report suite.
+[!DNL AppMeasurement] for JavaScript can dynamically select a report suite to which it sends data. The  variable contains the rules used to determine the destination report suite.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -487,7 +487,7 @@ The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you 
 
 The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in the domain when the domain begins with "www." For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
 
-The AppMeasurement for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including s_sq and s_cc (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected. 
+The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including s_sq and s_cc (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected. 
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -810,7 +810,7 @@ The *`linkInternalFilters`* variable is used to determine whether a link is an e
 
 The list of filters in *`linkInternalFilters`* applies to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). The filters are always applied to the absolute path of the URL, even if a relative path is used as the href value.
 
-Be careful that all the domains of your site (and any partners who are using your JavaScript file) are included in *`linkInternalFilters`*. If you do not have all domains included in the list, all links on and to those domains are considered exit links, increasing the server calls sent. If you would like multiple domains or companies to use a single AppMeasurement for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. If you have vanity domains that immediately redirect to your main domain, those vanity domains do not need to be included in the list.
+Be careful that all the domains of your site (and any partners who are using your JavaScript file) are included in *`linkInternalFilters`*. If you do not have all domains included in the list, all links on and to those domains are considered exit links, increasing the server calls sent. If you would like multiple domains or companies to use a single [!DNL AppMeasurement] for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. If you have vanity domains that immediately redirect to your main domain, those vanity domains do not need to be included in the list.
 
 The following example illustrates how this variable is used. In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -851,7 +851,7 @@ None
 
 ## Pitfalls, Questions, and Tips {#section_E83A6F8B6EE44D51A2800D83F8BB264F}
 
-* Include all domains that the AppMeasurement for JavaScript file may be served under in the filter list. 
+* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list. 
 * Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect. 
 
 * Periodically review partner contracts to determine if they contain restrictions on link tracking. For example, you might be prohibited from tracking links that appear in partner display ads. Filter partner links by adding their domain to *`linkInternalFilters`*:

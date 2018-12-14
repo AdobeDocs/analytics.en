@@ -56,7 +56,7 @@ In addition, the plugin can optionally use the performanceEntries object to reco
 
 >[!NOTE]
 >
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should be done only by a developer with experience using and implementing Adobe Analytics. This plugin is compatible only with AppMeasurement tracking libraries.
+>The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should be done only by a developer with experience using and implementing Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 **Config Section (before doPlugins):**
 

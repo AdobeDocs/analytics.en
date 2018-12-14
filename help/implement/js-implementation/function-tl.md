@@ -15,11 +15,11 @@ snippet: y
 
 # The s.tl() Function - Link Tracking
 
-File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file.
+File downloads and exit links can be automatically tracked based on parameters set in the [!DNL AppMeasurement] for JavaScript file.
 
 ## The s.tl() Function - Link Tracking {#concept_EA13689CB8EE4F308FC89A1293046D5E}
 
-File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file. 
+File downloads and exit links can be automatically tracked based on parameters set in the [!DNL AppMeasurement] for JavaScript file. 
 
 If needed, these types of links can be manually tracked using custom link code as explained below. In addition, custom link code can be used to track generic custom links that can be used for a variety of tracking and reporting needs.
 
@@ -53,7 +53,7 @@ This can be any custom value, up to 100 characters. This determines how the link
 
 **variableOverrides**
 
-(Optional, pass null if not using) This lets you change variable values for this single call, It is similar to other AppMeasurement libraries.
+(Optional, pass null if not using) This lets you change variable values for this single call, It is similar to other [!DNL AppMeasurement] libraries.
 
 **useForcedLinkTracking**
 
@@ -219,7 +219,7 @@ link_manual.xml
 
 Custom link code is typically implemented by adding an [!UICONTROL onClick] event handler to a link or by adding code to an existing routine. It can be implemented from essentially any JavaScript event handler or function.
 
-Link Tracking consists of calling the AppMeasurement for JavaScript function whenever the user performs actions that generate data you want to capture. This function, [!UICONTROL s.tl()], is either called directly in an event handler, such as [!UICONTROL onClick] or [!UICONTROL onChange], or from within a separate function. This [!UICONTROL s.tl()] function has five arguments. The first three are required:
+Link Tracking consists of calling the [!DNL AppMeasurement] for JavaScript function whenever the user performs actions that generate data you want to capture. This function, [!UICONTROL s.tl()], is either called directly in an event handler, such as [!UICONTROL onClick] or [!UICONTROL onChange], or from within a separate function. This [!UICONTROL s.tl()] function has five arguments. The first three are required:
 
 ```js
 s.tl(this,linkType,linkName, variableOverrides, doneAction)
@@ -437,7 +437,7 @@ The last two lines of the code above modify the behavior of custom link code so 
 
 ## Popup Windows with useForcedLinkTracking {#concept_0AC4BA3A64B84CCB8D9A6021A022D1C3}
 
-When `useForcedLinkTracking` is enabled, AppMeasurement overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. AppMeasurement executes the track link call and handles the navigation event manually, instead of using the default browser action.
+When `useForcedLinkTracking` is enabled, [!DNL AppMeasurement] overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. [!DNL AppMeasurement] executes the track link call and handles the navigation event manually, instead of using the default browser action.
 
 <!-- 
 
@@ -445,7 +445,7 @@ link_popups.xml
 
  -->
 
-When tracking some links that open a popup window, the Chrome built-in popup blocker might prevent AppMeasurement from opening a popup window that would normally be allowed. To avoid this, add a `target="_blank"` attribute to calls that open a window:
+When tracking some links that open a popup window, the Chrome built-in popup blocker might prevent [!DNL AppMeasurement] from opening a popup window that would normally be allowed. To avoid this, add a `target="_blank"` attribute to calls that open a window:
 
 ```
 <a href="./popup.html" target="_blank" onClick="<a href="./popup.html" onclick="s.tl(this,'o','popup',null,'navigate');javascript:window.open('./popup.html','popup','width=550,height=450'); 

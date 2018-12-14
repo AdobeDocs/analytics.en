@@ -15,7 +15,7 @@ snippet: y
 
 # AppMeasurement plug-in support
 
-Plug-in support has changed in the new version of JavaScript AppMeasurement.
+Plug-in support has changed in the new version of JavaScript [!DNL AppMeasurement].
 
 ## Tested Plug-ins {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 
@@ -46,7 +46,7 @@ The following plug-ins should continue to work since the underlying functionalit
 
 ## Unsupported Plug-ins {#section_73AF0EE257A44DCE9232F85A95AB8884}
 
-These plug-ins are not supported and no longer function due to their use of functionality that no longer exists in the new AppMeasurement for JavaScript library.
+These plug-ins are not supported and no longer function due to their use of functionality that no longer exists in the new [!DNL AppMeasurement] for JavaScript library.
 
 * callBack 
 * channelExtract 

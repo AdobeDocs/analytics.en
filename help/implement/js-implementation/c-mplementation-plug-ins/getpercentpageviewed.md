@@ -25,7 +25,7 @@ Measures a visitor's scroll activity to see how much of a page they view before 
 
 ## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**Returns:** Nothing. Instead, it sets the following variables within the AppMeasurement object:
+**Returns:** Nothing. Instead, it sets the following variables within the [!DNL AppMeasurement] object:
 
 * s._ppvPreviousPage: The name of the previous page viewed (as final measurements aren't available until a new page loads)
 * s._ppvHighestPercentViewed: The highest percent of the previous page that the visitor viewed (height-wise); in other words, the furthest point that the visitor scrolled down on the previous page

@@ -25,11 +25,11 @@ The difference when throwing [!UICONTROL AJAX] into the mix is first understandi
 ## Deploying the Code {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
 There are two functions in the JavaScript code that allow you to send data. There are some distinct guidelines that should be followed to know which method should be used to send data. 
-If an image request was previously made on the same page, you must first clear the values of the previously-set variables. Use the `clearVars()` funtion in AppMeasurement for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+If an image request was previously made on the same page, you must first clear the values of the previously-set variables. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
 
 >[!NOTE]
 >
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using AppMeasurement for JavaScript, you can call `s.clearVars()`. If you are using H code, write a simple routine to set variables to an empty string.
+>Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. If you are using H code, write a simple routine to set variables to an empty string.
 
 ```js
 s.clearVars(); 

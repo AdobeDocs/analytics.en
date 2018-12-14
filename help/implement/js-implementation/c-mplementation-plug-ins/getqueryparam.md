@@ -21,13 +21,13 @@ Returns the value of a specified query string parameter, if found in the current
 >
 >This plug-in is used by H code only. [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) provides this functionality natively using [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your AppMeasurement for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. The plug-in detects the specified query string, if present, and populates the chosen variable with its value. If no query string parameter is found with that value, an empty string is returned. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. The plug-in detects the specified query string, if present, and populates the chosen variable with its value. If no query string parameter is found with that value, an empty string is returned. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your AppMeasurement for JavaScript code before the examples below will work.
+>The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your AppMeasurement for JavaScript code:
+If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
 
 `s.campaign=s.getQueryParam('cid')`
 

@@ -185,7 +185,7 @@ Release Date: **January 31, 2013**
 * Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs. 
 
 * Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors). 
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the AppMeasurement library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
+* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
 
   ```js
   s.doPlugins = function(s) { 
@@ -229,7 +229,7 @@ Setting `autoBind` to `false` causes the value to be considered a literal string
 
 **Impact on ActionScript Code**
 
-Though not commonly used, this syntax is also available to bind AppMeasurement variables in your ActionScript code. If you are unsure whether or not you are using variable binding, search your code for AppMeasurement variable values that start and end with curly braces. For example:
+Though not commonly used, this syntax is also available to bind [!DNL AppMeasurement] variables in your ActionScript code. If you are unsure whether or not you are using variable binding, search your code for [!DNL AppMeasurement] variable values that start and end with curly braces. For example:
 
 ```
 s.eVar1 = "{source}";

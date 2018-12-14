@@ -14,7 +14,7 @@ snippet: y
 
 # AppMeasurement for JavaScript{#appmeasurement-for-javascript}
 
-Cumulative release notes for AppMeasurement for JavaScript.
+Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 <!-- 
 

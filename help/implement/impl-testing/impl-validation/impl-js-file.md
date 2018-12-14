@@ -21,7 +21,7 @@ Verify that the .JS file is correctly referenced from the page. The path can be 
 src="https://www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-If some pages of the site are loaded in a secure protocol (https:), and reference the AppMeasurement for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. This example adopts the protocol of the current page and prevents the warning that "some elements are non-secure."
+If some pages of the site are loaded in a secure protocol (https:), and reference the [!DNL AppMeasurement] for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. This example adopts the protocol of the current page and prevents the warning that "some elements are non-secure."
 
 ```js
 <script language="JavaScript" 

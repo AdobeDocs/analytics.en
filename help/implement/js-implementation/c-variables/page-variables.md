@@ -995,7 +995,7 @@ mediaLength.xml
 
 ** autoTrack Method: **
 
-If using [!UICONTROL s.Media.autoTrack], the [!UICONTROL mediaLength] variable does not need to be implemented explicitly. It is determined automatically by the AppMeasurement for JavaScript code.
+If using [!UICONTROL s.Media.autoTrack], the [!UICONTROL mediaLength] variable does not need to be implemented explicitly. It is determined automatically by the [!DNL AppMeasurement] for JavaScript code.
 
 **Manual Tracking Method:**
 
@@ -1051,7 +1051,7 @@ It is only available via the [!UICONTROL Data Insertion API] and [!UICONTROL Ful
 
 **autoTrack Method:**
 
-If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* variable does not need to be implemented explicitly. It is determined automatically by the AppMeasurement for JavaScript code.
+If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* variable does not need to be implemented explicitly. It is determined automatically by the [!DNL AppMeasurement] for JavaScript code.
 
 **Manual Tracking Method:**
 
@@ -1213,7 +1213,7 @@ mediaSession.xml
 
 **autoTrack Method:**
 
-If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* does not need to be implemented explicitly. It will be determined automatically by the AppMeasurement for JavaScript code.
+If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* does not need to be implemented explicitly. It will be determined automatically by the [!DNL AppMeasurement] for JavaScript code.
 
 **Manual Tracking Method:**
 
@@ -2042,7 +2042,7 @@ None
 
 ## timestamp {#concept_D997A2FF4D134C80A614C0BC7A4D7507}
 
-This variable lets you customize the timestamp of a hit similar to the AppMeasurement libraries for other platforms.
+This variable lets you customize the timestamp of a hit similar to the [!DNL AppMeasurement] libraries for other platforms.
 
 <!-- 
 

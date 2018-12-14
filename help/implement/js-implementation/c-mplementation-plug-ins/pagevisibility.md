@@ -28,7 +28,7 @@ It is required that you use the getPreviousValue plug-in to track the previous p
 
 >[!NOTE]
 >
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing Analytics. This plug-in is compatible only with AppMeasurement tracking libraries.
+>The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## Required Supporting Plug-ins {#section_0CA7624F4A7B4B5F851A4300937887AD}
 

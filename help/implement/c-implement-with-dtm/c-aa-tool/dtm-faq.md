@@ -13,7 +13,7 @@ snippet: y
 
 # FAQs about the Adobe Analytics Tool
 
-A FAQ about the automatic configuration of the Adobe Analytics deployment. The automatic configuration method manages the AppMeasurement code for you.
+A FAQ about the automatic configuration of the Adobe Analytics deployment. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 

@@ -61,7 +61,7 @@ Redirects can cause the browser to blank out the true referring URL. Consider th
 
 ## Implement redirects {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
-In order to capture [!DNL Analytics] data from redirects, four minor alterations need to be made to the code that creates the redirect and the AppMeasurement for JavaScript file.
+In order to capture [!DNL Analytics] data from redirects, four minor alterations need to be made to the code that creates the redirect and the [!DNL AppMeasurement] for JavaScript file.
 
 <!-- 
 

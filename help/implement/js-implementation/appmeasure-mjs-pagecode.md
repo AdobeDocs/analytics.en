@@ -27,7 +27,7 @@ This section contains example code for your core JavaScript file and the pages o
 >
 >Configuration variables should be set above the *`doPlugins`* function.
 
-For new implementations, you can paste the following global configuration code at the beginning of [!DNL AppMeasurement.js] to get started:
+For new implementations, you can paste the following global configuration code at the beginning of AppMeasurement.js to get started:
 
 ```js
 //initialize AppMeasurement 

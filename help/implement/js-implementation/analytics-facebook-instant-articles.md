@@ -98,7 +98,7 @@ You can also dynamically send variables to the iframe by leveraging query string
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
 ```
 
-Those query string parameters can subsequently be set in the custom variables section of your analytics HTML JavaScript by using the `Util.getQueryParam` function within the default AppMeasurement library, as follows:
+Those query string parameters can subsequently be set in the custom variables section of your analytics HTML JavaScript by using the `Util.getQueryParam` function within the default [!DNL AppMeasurement] library, as follows:
 
 ```
 s.pageName = s.Util.getQueryParam("pageName"); 

@@ -19,7 +19,7 @@ The following table contains a list of tasks you need to perform to migrate your
 
 >[!NOTE]
 >
->We recommend migrating to the [Experience Cloud ID Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to AppMeasurement for JavaScript.
+>We recommend migrating to the [Experience Cloud ID Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
 
 <table id="table_9CB8D4441B294A6485C00A515338CA47"> 
  <thead> 

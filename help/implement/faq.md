@@ -72,7 +72,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can the loading of the external Adobe JavaScript cause a reduction in performance? </p> </td> 
-   <td colname="col3"> <p> The JavaScript file is cached in the visitor's browser after it is initially loaded, and is typically downloaded no more than once per session. The file is not downloaded on each page, even though it is used by every page on the site. On most web sites, users average more than a few page views per session, so transferring JavaScript that is used multiple times into this file can result in less overall downloaded data. </p> <p> JavaScript for AppMeasurement Compression: If you are concerned about the page weight (size) of Adobe's JavaScript client, Adobe recommends that you consider compressing the file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression to compress and decompress the core <span class="filepath"> s_code.js </span> JavaScript file. </p> </td> 
+   <td colname="col3"> <p> The JavaScript file is cached in the visitor's browser after it is initially loaded, and is typically downloaded no more than once per session. The file is not downloaded on each page, even though it is used by every page on the site. On most web sites, users average more than a few page views per session, so transferring JavaScript that is used multiple times into this file can result in less overall downloaded data. </p> <p> JavaScript for [!DNL AppMeasurement] Compression: If you are concerned about the page weight (size) of Adobe's JavaScript client, Adobe recommends that you consider compressing the file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression to compress and decompress the core <span class="filepath"> s_code.js </span> JavaScript file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can the sending of data from the browser to Adobe services reduce performance? </p> </td> 
@@ -88,7 +88,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> Which is the latest version of s_code file? </td> 
-   <td> This section contains a release history for AppMeasurement libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/?f=c_release_notes_javascript" format="http" scope="external"> learn more </a> </td> 
+   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/?f=c_release_notes_javascript" format="http" scope="external"> learn more </a> </td> 
   </tr> 
   <tr> 
    <td> How do I debug s_code file? </td> 

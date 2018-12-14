@@ -15,17 +15,17 @@ snippet: y
 
 # About AppMeasurement for JavaScript
 
-AppMeasurement for JavaScript is a new library that provides the same core functionality of s_code.js, but is lighter and faster for use on both mobile and desktop sites.
+[!DNL AppMeasurement] for JavaScript is a new library that provides the same core functionality of s_code.js, but is lighter and faster for use on both mobile and desktop sites.
 
 ## Things to know before you migrate {#section_B8E7B39E8469468883BA0B41234F21C4}
 
-The following list contains changes you need to understand before switching to this new AppMeasurement version:
+The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
 
 * Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A). 
 * The library does not support dynamic account selection ( [dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md). 
 
 * The library and page code can be deployed inside the `<head>` tag. 
-* The Media and Integrate modules are supported using updated module code that is in the JavaScript AppMeasurement download package. The Survey module is not supported. 
+* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. The Survey module is not supported. 
 * Your existing page code is compatible with the new version. 
 * The library provides native utilities to get query parameters, read and write cookies, and perform advanced link tracking.
 
@@ -35,22 +35,22 @@ See the [FAQ](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3
 
 ## Initialization process {#section_F6D5680F6D134B6AB1F01C6235860635}
 
-Call `s_gi()`, passing the report suite ID to initialize an AppMeasurement instance:
+Call `s_gi()`, passing the report suite ID to initialize an [!DNL AppMeasurement] instance:
 
 ```js
 var s_account="INSERT-RSID-HERE"
 var s=s_gi(s_account)
 ```
 
-When `s_gi` is called, if an AppMeasurement instance does not exist for the specified `s_account`, a new instance is created. Otherwise the existing instance is returned. This helps avoid creating duplicate objects for the same account.
+When `s_gi` is called, if an [!DNL AppMeasurement] instance does not exist for the specified `s_account`, a new instance is created. Otherwise the existing instance is returned. This helps avoid creating duplicate objects for the same account.
 
-## Retrieve an AppMeasurement instance {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
+## Retrieve an [!DNL AppMeasurement] instance {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-Throughout your code, call the global [s_gi() function](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) to retrieve an existing AppMeasurement instance.
+Throughout your code, call the global [s_gi() function](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) to retrieve an existing [!DNL AppMeasurement] instance.
 
 ## Utilities {#section_0F47694DD0214645A24C94AB6A4142A0}
 
-JavaScript AppMeasurement provides the following built-in utilities:
+JavaScript [!DNL AppMeasurement] provides the following built-in utilities:
 
 * [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D) 
 * [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2) 

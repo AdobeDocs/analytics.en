@@ -14,7 +14,7 @@ snippet: y
 
 # Getting Started guide
 
-How to get started using Adobe Analytics.
+How to get started using Analysis Workspace.
 
  ![](assets/step1_icon.png) (Optional) Get started with a [project template](../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5).
 
@@ -37,9 +37,7 @@ You can use out-of the-box templates or create your own custom templates.
 * [Creating Metrics, Segments, and Dates](https://www.youtube.com/watch?v=XXJuNAte8E8&index=25&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51) 
 * [Using Participation Metrics](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
 
-![](assets/step3_icon.png)
-
-Add other components, such as:
+![](assets/step3_icon.png) Add other components, such as:
 
 * [visualizations](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 
 * [segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) 
@@ -51,9 +49,7 @@ Add other components, such as:
 * [Using Segments in Analysis Workspace](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46) 
 * [Using Date Ranges and Calendar in Analysis Workspace](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
-![](assets/step4_icon.png)
-
-Track your customers' journey:
+![](assets/step4_icon.png) Track your customers' journey:
 
 * [Fallout Analysis](../../analyze/analysis-workspace/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6) 
 * [Flow Analysis](../../analyze/analysis-workspace/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E)
@@ -63,9 +59,7 @@ Track your customers' journey:
 * [Fallout Visualization](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15) 
 * [Flow Visualization](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
-![](assets/step5_icon.png)
-
-Perform advanced analysis:
+![](assets/step5_icon.png) Perform advanced analysis:
 
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
 * [Cohort Analysis](../../analyze/analysis-workspace/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
@@ -80,9 +74,7 @@ Perform advanced analysis:
 * [Contribution Analysis](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20) 
 * [Intelligent Alerts](https://www.youtube.com/watch?v=UVH9xr_2REA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=65) (5:34)
 
-![](assets/step6_icon.png)
-
-Manage your projects:
+![](assets/step6_icon.png) Manage your projects:
 
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
 * [Cohort Analysis](../../analyze/analysis-workspace/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
@@ -95,9 +87,7 @@ Manage your projects:
 * [Curation and Sharing](https://www.youtube.com/watch?v=LJJRskdmlOg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=58)(5:08) 
 * [Scheduled and Downloadable Projects](https://www.youtube.com/watch?v=MknvINlnJF4&index=62&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:28)
 
-![](assets/step7_icon.png)
-
-Grant access to non-Admin users.
+![](assets/step7_icon.png) Grant access to non-Admin users.
 
 See *`Assign Analytics access permissions to a product profile`* in [Manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 

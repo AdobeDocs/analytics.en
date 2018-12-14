@@ -11,7 +11,7 @@ snippet: y
 
 # Summary Number and Summary Change
 
-**Summary Number** visualization:
+##Summary Number visualization
 
 * Selects the total of the column if no cell is selected. 
 * If a single cell is selected, it shows the summary for that cell. 
@@ -20,7 +20,7 @@ snippet: y
 
 ![](assets/summary-number.png)
 
-** Summary Change** visualization:
+##Summary Change visualization
 
 * If no cell is selected, it compares the first two cell values in the column. 
 * If one cell is selected, it shows 0, because it compares the cell value to itself. 
@@ -37,34 +37,10 @@ snippet: y
 
 Click the gear icon next to the visualization to configure the Summary settings: 
 
-<table id="table_A8179879E15A4ECC91DCEA26927F03CF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Percentages </td> 
-   <td colname="col2"> Use percentages instead of raw numbers. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Legend Visible </td> 
-   <td colname="col2"> Shows the metrics used. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Summary Number Options: Abbreviate Value </p> </td> 
-   <td colname="col2"> You can choose from 0 to 3 decimal places for abbreviated values. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Summary Change Options: Show Percent Change </p> </td> 
-   <td colname="col2"> Shows the change, in percent, between the 2 numbers. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Summary Change Options: Show Raw Difference </p> </td> 
-   <td colname="col2"> Shows the raw difference between the 2 numbers. </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Setting | Definition |
+|--- |--- |
+|Percentages|Use percentages instead of raw numbers.|
+|Legend Visible|Shows the metrics used.|
+|Summary Number Options: Abbreviate Value|You can choose from 0 to 3 decimal places for abbreviated values.|
+|Summary Change Options: Show Percent Change|Shows the change, in percent, between the 2 numbers.|
+|Summary Change Options: Show Raw Difference|Shows the raw difference between the 2 numbers.|

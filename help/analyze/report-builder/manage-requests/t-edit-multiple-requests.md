@@ -30,14 +30,14 @@ You can change several requests at the same time, based on the request's report 
    The [!UICONTROL Edit Multiple Requests] form displays columns of information: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity], and [!UICONTROL By Group]. 
 1. To group the display of requests, click any of the following options:
 
-    * ** By Report Suite:** Groups the display of requests by report suite. 
+    * **By Report Suite:** Groups the display of requests by report suite. 
     * **By Segment**: Groups the requests based on the segment name.
 
         * **Choose Segment**: Displays if no segments exist for the requests. To add segments, click **[!UICONTROL Edit Group]** and select a segment from the [!UICONTROL Edit Group] panel.
 
     * **By Metric**: See [Edit Metrics Across Multiple Requests](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB). 
     
-    * ** By Date Range and Granularity:** Groups the display of requests by date range and time granularity. 
-    * ** By Group:**Groups the display of requests by set of grouped requests.
+    * **By Date Range and Granularity:** Groups the display of requests by date range and time granularity. 
+    * **By Group:** Groups the display of requests by set of grouped requests.
 
 1. On the [!UICONTROL Edit Multiple Requests] form, click **[!UICONTROL OK]**.

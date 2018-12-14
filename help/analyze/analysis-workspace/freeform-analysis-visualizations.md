@@ -64,7 +64,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalization </p> </td> 
-   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization </a> in Analytics Reference help. </p> </td> 
+   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Display Dual Axis </p> </td> 
@@ -89,60 +89,19 @@ Settings that are contextual to a graph can be accessed when right-clicking next
 
 ![](assets/right-click_menu.png)
 
-<table id="table_BBF33115E1604D8EABB2461A312E03C9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Insert Copied Visualization/Panel </p> </td> 
-   <td colname="col2"> <p>Lets you paste ("insert") that copied element into another place within the project, or into a completely different project. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Copy Visualization/Panel </p> </td> 
-   <td colname="col2"> <p>Lets you right-click and copy a visualization or panel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Duplicate Visualization/Panel </p> </td> 
-   <td colname="col2"> <p>Makes an exact duplicate of the current visualization, which you can then modify. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Collapse all Panels </p> </td> 
-   <td colname="col2"> <p>Collapses all project panels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Collapse all Visualizations in Panel </p> </td> 
-   <td colname="col2"> <p>Collapses all visualizations in this project panel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Expand all Panels </p> </td> 
-   <td colname="col2"> <p>Expands all project panels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Expand all Visualizations in Panel </p> </td> 
-   <td colname="col2"> <p>Expands all visualizations in this project panel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Edit Description </p> </td> 
-   <td colname="col2"> <p>Add (or edit) a text description for the visualization/panel. This description appears in <span class="uicontrol"> Project </span> &gt; <span class="uicontrol"> Project Info &amp; Settings </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Get Panel Link </p> </td> 
-   <td colname="col2"> <p>Lets you direct someone to a specific panel within a project. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Get Visualization Link </p> </td> 
-   <td colname="col2"> <p>Lets you copy and share this link to send others directly to this visualization. Users will be required to log in. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Start Over </p> </td> 
-   <td colname="col2"> <p>(Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization and opens a new panel where you can re-configure it. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Description |
+|--- |--- |
+|Insert Copied Visualization/Panel|Lets you paste ("insert") that copied element into another place within the project, or into a completely different project.|
+|Copy Visualization/Panel|Lets you right-click and copy a visualization or panel.|
+|Duplicate Visualization/Panel|Makes an exact duplicate of the current visualization, which you can then modify.|
+|Collapse all Panels|Collapses all project panels.|
+|Collapse all Visualizations in Panel|Collapses all visualizations in this project panel.|
+|Expand all Panels|Expands all project panels.|
+|Expand all Visualizations in Panel|Expands all visualizations in this project panel.|
+|Edit Description|Add (or edit) a text description for the visualization/panel. This description appears in  Project  >  Project Info & Settings .|
+|Get Panel Link|Lets you direct someone to a specific panel within a project.|
+|Get Visualization Link|Lets you copy and share this link to send others directly to this visualization. Users will be required to log in.|
+|Start Over|(Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization and opens a new panel where you can re-configure it.|
 
 ## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 

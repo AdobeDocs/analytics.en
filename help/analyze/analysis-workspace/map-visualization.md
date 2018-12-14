@@ -11,18 +11,14 @@ snippet: y
 
 # Map
 
-* [Overview](../../analyze/analysis-workspace/map-visualization.md#section_19F740FAF08D47B1AF1EF239A74FC75C) 
-* [Build a Map Visualization](../../analyze/analysis-workspace/map-visualization.md#section_61BBFA3A7BFD48DA8D305A69D9416299) 
-* [Map Visualization Settings](../../analyze/analysis-workspace/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)
-
 ## Overview {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
 The Map Visualization in Analysis Workspace
 
-* Is a new visualization type that allows you to build a visual map of any metric (including calculated metrics). 
+* Lets you build a visual map of any metric (including calculated metrics). 
 * Is useful for identifying and comparing metric data across different geographic regions. 
 * Can support 2 data sources: latitude/longitude from mobile usage or geographic dimension for web usage. 
-* Now supports PDF export. 
+* Supports PDF export. 
 * Leverages WebGL for graphics display. If your graphics drivers do not support WebGL rendering, you may need to update your drivers.
 
 ## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
@@ -74,7 +70,7 @@ The Map Visualization in Analysis Workspace
 
 ## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-There are 2 sets of settings for Map:
+2 sets of settings exist for Map:
 
 The **wrench icon** at the top right brings back the initial dialog where you can change the metric and the data source:
 
@@ -82,38 +78,11 @@ The **wrench icon** at the top right brings back the initial dialog where you ca
 
 Clicking the **gear icon** reveals these visualization settings: 
 
-<table id="table_548CA0656C784C0DB114A54E580E0E0E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Bubbles </td> 
-   <td colname="col2"> <p>Plots events using bubbles. A bubble chart is a multi-variable graph that is a cross between a scatterplot and a proportional area chart. This is the default view. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Heatmap </td> 
-   <td colname="col2"> <p>Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors. </p> <p><img align="left" placement="break" href="assets/heatmap.png" width="400px" id="image_D078479492884960B4D839F40FCCC063" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Styles: Color Theme </td> 
-   <td colname="col2"> <p>Shows the color scheme for the heat map and bubbles. You can choose among Coral, Reds, Greens or Blues. Default is Coral. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Styles: Map Style </td> 
-   <td colname="col2"> <p>You can choose among Basic, Streets, Bright, Light, Dark, and Satellite. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Cluster Radius </td> 
-   <td colname="col2"> <p>Groups data points together that are within the specified number of pixels. Default is 50. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Custom Max Value </td> 
-   <td colname="col2"> <p>Lets you alter the threshold for the max value for the map - adjusting this value adjusts the scale for the bubbles/heatmap values (color and size) relative to the custom max value set. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Setting | Description |
+|--- |--- |
+|Bubbles|Plots events using bubbles. A bubble chart is a multi-variable graph that is a cross between a scatterplot and a proportional area chart. This is the default view.|
+|Heatmap|Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors.|
+|Styles: Color Theme|Shows the color scheme for the heat map and bubbles. You can choose among Coral, Reds, Greens or Blues. Default is Coral.|
+|Styles: Map Style|You can choose among Basic, Streets, Bright, Light, Dark, and Satellite.|
+|Cluster Radius|Groups data points together that are within the specified number of pixels. Default is 50.|
+|Custom Max Value|Lets you alter the threshold for the max value for the map - adjusting this value adjusts the scale for the bubbles/heatmap values (color and size) relative to the custom max value set.|

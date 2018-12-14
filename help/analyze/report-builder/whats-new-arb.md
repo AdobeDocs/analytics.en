@@ -40,7 +40,7 @@ Combining the report-generation capability of Report Builder with the visualizat
   >
   >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* ** Enhanced login security** In addition to a [new login screen](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), the Standard Report Builder login features a more secure authentication process, based on the OAuth authorization framework.
+* **Enhanced login security** In addition to a [new login screen](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), the Standard Report Builder login features a more secure authentication process, based on the OAuth authorization framework.
 
 * [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) 
 * [Experience Cloud Audiences in Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html) 

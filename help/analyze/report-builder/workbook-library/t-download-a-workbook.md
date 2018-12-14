@@ -20,6 +20,6 @@ Download and edit shared workbooks.
 1. Save the file.
 >The following options are available only to owners of a workbook: 
 >
->* ** Edit:** Downloads and opens a workbook for edit. If you want to upload a workbook that you downloaded for edit, you must do so manually. 
->* ** Delete:** Lets you delete a workbook that you uploaded. You must be the owner of the workbook in order to delete it. 
+>* **Edit:** Downloads and opens a workbook for edit. If you want to upload a workbook that you downloaded for edit, you must do so manually. 
+>* **Delete:** Lets you delete a workbook that you uploaded. You must be the owner of the workbook in order to delete it. 
 >

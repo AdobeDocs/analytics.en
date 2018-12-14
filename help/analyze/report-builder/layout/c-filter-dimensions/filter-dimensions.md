@@ -147,4 +147,3 @@ The following tables provide examples and information about filters:
   </tr> 
  </tbody> 
 </table>
-

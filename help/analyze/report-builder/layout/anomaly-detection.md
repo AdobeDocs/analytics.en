@@ -77,22 +77,7 @@ Because the training period varies based on the start of the reporting period, y
 
 For example, if you run a report for January 1-14, and then run a report for January 7-21, you might see different prediction data for the same metric between January 7-14 in the two different reports. This is a result of the difference in training periods. 
 
-<table id="table_3FBDF5E55AB94BC1B7E09FDCBE9BDF96"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Reporting Range </p> </th> 
-   <th colname="col2" class="entry"> <p>Training Period </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>January 1-14 </p> </td> 
-   <td colname="col2"> <p>November 27 - December 31 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>January 7-21 </p> </td> 
-   <td colname="col2"> <p>December 4 - January 6 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Reporting Range  | Training Period  |
+|--- |--- |
+|January 1-14|November 27 - December 31|
+|January 7-21|December 4 - January 6|

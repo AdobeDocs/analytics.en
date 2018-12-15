@@ -26,24 +26,10 @@ We recommend defining no more than 500 bot rules per report suite. The user inte
 
 Bot traffic data is stored in a separate repository for display in the [!UICONTROL Bots] and [!UICONTROL Bot Pages] reports. 
 
-<table id="table_88C4F89E8E6648BE89AAB7B06D42EF8A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Rule Type </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>IAB </p> </td> 
-   <td colname="col2"> <p>Selecting <span class="uicontrol"> Include IAB</span> uses the IAB/ABCe International Spiders &amp; Bots List to remove bot traffic. This list is updated monthly by the IAB. </p> <p>To submit a bot to the IAB list, visit <a href="https://www.iab.net/sites/spiders/form.php" scope="external" format="html"> https://www.iab.net/sites/spiders/form.php</a>. </p> <p>Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Bot Rules </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../admin/admin/bot-rules/t-create-bot-rules.md#task_3AB4C2531AE3435CACD49C57F3065333" type="task" format="dita" scope="local"> Create a custom bot rule</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Rule Type  | Description  |
+|--- |--- |
+|IAB|Selecting [!UICONTROL Include IAB] uses the IAB/ABCe International Spiders &amp; Bots List to remove bot traffic. This list is updated monthly by the IAB. <br>To submit a bot to the IAB list, visit  [IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site.|
+|Custom Bot Rules|See [Create a custom bot rule](../../../admin/admin/bot-rules/t-create-bot-rules.md).|
 
 ## Impact of Bot Rules on Data Collection {#section_F01A3130E7A04A9993371CF26F6586F2}
 

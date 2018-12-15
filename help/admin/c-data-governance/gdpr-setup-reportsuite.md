@@ -52,7 +52,7 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
    ![](assets/identity_labels.png)
 
-1. Open the **Sensitive Data ** section to set Sensitive Data Labels, which categorize geolocation data. For more information on these options, refer to [Sensitive Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC).
+1. Open the **Sensitive Data** section to set Sensitive Data Labels, which categorize geolocation data. For more information on these options, refer to [Sensitive Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC).
 
    ![](assets/sensitive_data.png)
 

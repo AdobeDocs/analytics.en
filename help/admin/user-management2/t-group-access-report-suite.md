@@ -23,7 +23,7 @@ The [!UICONTROL Report Suites] page lets you view and configure company report s
 1. Select a report suite.
 1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
 
-   **[!UICONTROL Available Groups:]**Displays all currently defined groups. Select the desired groups, then click **[!UICONTROL Add]**. The assigned groups appear in the Group Containing field (on the right).
+   **[!UICONTROL Available Groups:]** Displays all currently defined groups. Select the desired groups, then click **[!UICONTROL Add]**. The assigned groups appear in the Group Containing field (on the right).
 
    **[!UICONTROL Group Containing:]** Displays all groups currently assigned to the report suite. To remove a group, select it, then click **[!UICONTROL Remove]**. 
 1. Click **[!UICONTROL Save Changes]**.

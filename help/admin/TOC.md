@@ -121,8 +121,8 @@ user-guide-title: Analytics Admin Guide
     + [Individual report suite settings](c-manage-report-suites/individual-rs-settings.md)
     + [Download report suite settings](c-manage-report-suites/t-download-rs-settings.md)
     + New report suite {#new-report-suite}
-        + [New report suite - settings](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
         + [Create a report suite](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+        + [New report suite - settings](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
         + [Settings not copied from a source report suite](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
     + [Create a report suite group](c-manage-report-suites/t-create-rs-group.md)
 + User and Product Management (Legacy) {#user-product-management}
@@ -130,14 +130,14 @@ user-guide-title: Analytics Admin Guide
     + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
     + User management {#user-management}
         + [User management overview](user-management2/c-user-management/users.md)
-        + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
         + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
+        + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
         + [Transfer user account items](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
         + [Add a user to a group](user-management2/c-user-management/t-add-user-to-group.md)
         + [Manage Ad Hoc Analysis users](user-management2/c-user-management/t-manage-dsc-users-admin.md)
     + User groups {#user-groups}
-        + [User group settings](user-management2/c-user-groups/groups.md)
         + [Add a user group](user-management2/c-user-groups/t-user-group.md)
+        + [User group settings](user-management2/c-user-groups/groups.md)
     + Customize report access {#customize-report-access}
         + [Customize report access - overview](user-management2/c-customize-report-access/groups-customize-report-access.md)
         + [Customize Analytics Tools permissions](user-management2/c-customize-report-access/groups-analytics-tools.md)

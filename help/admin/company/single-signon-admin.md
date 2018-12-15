@@ -15,4 +15,4 @@ snippet: y
 
 Single sign-on in the Adobe Experience Cloud is implemented through the Admin Console.
 
-See [Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) in for help. 
+See [Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for help. 

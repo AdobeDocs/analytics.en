@@ -21,15 +21,15 @@ This guide features all the analysis tools you can use in Adobe Analytics. First
 
 | User Guide | Description |
 |--- |---|
-| *[Analysis Workspace Guide](../analyze/home.md)* | *This guide includes information.* |
-| [Admin Guide](../admin/home.md) | This guide includes information. |
-| [Implementation Guide](../implement/home.md) | This guide includes information. |
-| [Components Guide](../components/home.md) | This guide includes information. |
-| [Export Guide](../export/home.md) | This guide includes information. |
-| [Import Guide](../import/home.md) | This guide includes information. |
-| [Integration Guide](../integrate/home.md) | This guide includes information. |
-| Data Workbench Guide | This guide includes information. |
-| Video Analytics Guide | This guide includes information. |
+| *[Analysis Workspace Guide](../analyze/home.md)* | *This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.* |
+| [Admin Guide](../admin/home.md) | This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
+| [Implementation Guide](../implement/home.md) | This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |
+| [Components Guide](../components/home.md) | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |
+| [Export Guide](../export/home.md) | This guide discusses various data export methods, such as data feeds and Data Warehouse. |
+| [Import Guide](../import/home.md) | This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |
+| [Integration Guide](../integrate/home.md) | This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. |
+| Data Workbench Guide |  |
+| Video Analytics Guide |  |
 
 ## Key Analytics resources
 

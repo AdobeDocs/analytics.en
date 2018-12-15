@@ -75,7 +75,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 **[Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)** should be used:
 
 * When there is offline data you want permanently written into Adobe Analytics 
-* Options
+* Options:
 
     * Summary: simple data uploads, by day or limited dimensions 
     * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 

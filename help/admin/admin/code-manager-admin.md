@@ -21,30 +21,9 @@ After you download the library, you must configure the code to send data to the 
 
 ## Code Manager Page Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-<table id="table_E48D50926E6B492183300CA58A886927"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Column </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Name</span> </td> 
-   <td colname="col2"> <p>The name matches the platform where you want to enable data collection. Native libraries are provided for each platform listed in this column. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Type</span> </td> 
-   <td colname="col2"> <p>Type of applications that can be measured using each library. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Version</span> </td> 
-   <td colname="col2"> <p>List the latest version of the library. Click the version number to view the <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/" format="http" scope="external"> release history</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Documentation</span> </td> 
-   <td colname="col2"> <p>View the library reference documentation. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Column  | Description  |
+|--- |--- |
+|[!UICONTROL Name]|The name matches the platform where you want to enable data collection. Native libraries are provided for each platform listed in this column.|
+|[!UICONTROL Type]|Type of applications that can be measured using each library.|
+|[!UICONTROL Version]|List the latest version of the library. Click the version number to view the [release history[(https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/)].|
+|[!UICONTROL Documentation]|View the library reference documentation.|

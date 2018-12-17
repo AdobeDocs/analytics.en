@@ -45,7 +45,7 @@ requirements.xml
 * Browsers:
 
     * Preferred: Latest versions of Firefox, Chrome, Safari, or Edge. 
-    * Latest version of Microsoft Internet Explorer 11     
+    * Latest version of Microsoft Internet Explorer 11
     
       >[!NOTE]
       >

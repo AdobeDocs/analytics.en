@@ -50,5 +50,5 @@ snippet: y
 + [Success events overview](c-success-events/success-event.md)
 + [Timestamps optional](timestamp-optional.md)
 + [Traffic variable (prop) overview](c-traffic-variables/traffic-var.md)
-+ [Specify the Unique Visitor variable](unique-visitor-variable-t-unique-visitor-variable.md)
++ [Specify the Unique Visitor variable](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Video management](video-management.md)

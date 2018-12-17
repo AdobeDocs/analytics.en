@@ -20,7 +20,7 @@ snippet: y
 + [Billing](billing-admin.md)
 + [Bot Rules overview](bot-rules/bot-rules.md)
 + [Code Manager](code-manager-admin.md)
-+ [Conversion Variables (eVar)](conversion-var-conversion-var-admin.md)
++ [Conversion Variables (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Currency Codes](currency.md)
 + [Custom Report Descriptions](custom-desc-admin.md)
 + [Customize Calendar](custom-calendar.md)

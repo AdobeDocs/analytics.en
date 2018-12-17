@@ -100,7 +100,7 @@ t_running_report.xml
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/reports-overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report. 
+   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report. 
 
 ## Edit a user's account settings {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
 

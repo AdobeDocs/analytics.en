@@ -73,4 +73,3 @@ Additional GDPR Resources:
 * [GDPR Common Terms](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf) 
 * Experience Cloud GDPR [Care Package](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) 
 * Experiential Privacy [Blog Post](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)
-

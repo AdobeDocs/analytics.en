@@ -334,7 +334,7 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>When resizing the left-most column, Workspace now maintains the width percentages of the rest of the columns (not simply adjust the next column width on the right). This change speeds up table creation for both analysis and sharing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Display <a href="../../analyze/analysis-workspace/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> 400 rows </a> in a table </p> </td> 
+   <td colname="col1"> <p>Display <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> 400 rows </a> in a table </p> </td> 
    <td colname="col2"> <p>You can now display 400 rows in a table (up from 200), to allow for 365-day trends. </p> </td> 
   </tr> 
   <tr> 

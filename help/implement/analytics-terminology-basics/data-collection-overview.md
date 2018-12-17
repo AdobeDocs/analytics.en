@@ -16,7 +16,11 @@ snippet: y
 
 Learn how visits to your web site become a report in Adobe Analytics.
 
- Adobe has created multiple ways to send data into Analytics. These methods include tracking information in real-time from:
+Analytics data collection is accomplished by making a special image request to Adobe data collection servers. In most implementations, JavaScript code is placed on the web pages being tracked. When a tagged web page loads in a visitor's browser, the browser executes our JavaScript code, performing logic to capture visitor information and populate tags correctly. The last step of JavaScript processing is an image request to an Analytics data collection server which collects the data being submitted and returns a small transparent image to the visitor's browser.
+
+As the typical bottleneck in browser processing is the time it takes to download page elements (images, et cetera) from web servers, the time required for the browser to execute the JavaScript code is negligible. However, the last step where the visitor's browser requests an image from the Adobe data collection server does add to the total page download time. The overall affect on page download time depends on the website visitor's proximity (typically in Internet hops, not geographic distance) to Adobe data collection servers. 
+
+Adobe has created multiple ways to send data into Analytics. These methods include tracking information in real-time from:
 
 * Applications that can access the Internet 
 * Campaigns 

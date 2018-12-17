@@ -30,7 +30,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
 
 >[!IMPORTANT]
 >
->Which visualization settings are visible depends on the visualization. Not all settings apply to all visualizations. In addition, some advanced settings appear **only** for specific visualizations, such as the [Histogram settings](../../analyze/analysis-workspace/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Which visualization settings are visible depends on the visualization. Not all settings apply to all visualizations. In addition, some advanced settings appear **only** for specific visualizations, such as the [Histogram settings](../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 

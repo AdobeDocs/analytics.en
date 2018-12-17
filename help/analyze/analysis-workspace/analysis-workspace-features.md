@@ -51,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. To add intra-linking to your project:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. To add intra-linking to your project:
 
 1. Drag a text visualization into a project, maybe next to a visualization or table that needs some context. 
 1. Populate the text box with, for example, a table of content, then highlight an item that you want to link to a panel or visualization, for example Success Metrics.
@@ -87,7 +87,7 @@ Locking visualizations lets you control which freeform data table sources corres
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](../../analyze/analysis-workspace/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
+See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -142,7 +142,7 @@ Perform component-level actions from the Actions menu at the top of the componen
 |Share|Applies only to segments.|
 |Delete|Applies only to segments.|
 
-See [Visualizations](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
+See [Visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 

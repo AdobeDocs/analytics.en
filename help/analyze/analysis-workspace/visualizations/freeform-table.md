@@ -21,7 +21,7 @@ You can interact with the table in unique ways:
 
 * [Create an alert](../../analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md#concept_D11C9EB858FB49F48E8D974B579E2978) from the table selection 
 * Run [breakdowns](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4) and create inline segments (right-click) 
-* Run [visualizations](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) on specific cells 
+* Run [visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) on specific cells 
 * Export rows to [CSV](../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025) 
 * Run [Trend](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) visualizations from selected cells 
 * Create [segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) from selection 

@@ -81,4 +81,4 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 
 >[!MORE_LIKE_THIS]
 >
->* [Manage data sources](/help/analyze/analysis-workspace/t-sync-visualization.md)
+>* [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)

@@ -15,7 +15,7 @@ This visualization represents metrics using a line in order to show how values c
 
 ![](assets/line.png)
 
-A granularity drop-down in the [visualization settings](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc.
+A granularity drop-down in the [visualization settings](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc.
 
 ![](assets/viz-granularity.png)
 

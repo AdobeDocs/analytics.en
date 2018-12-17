@@ -18,7 +18,7 @@ Explains how to compare segments in Analysis Workspace.
 
 >[!NOTE]
 >
->You can also compare segments within a [fallout analysis](../../../../analyze/analysis-workspace/fallout/compare-segments-fallout.md#section_E0B761A69B1545908B52E05379277B56).
+>You can also compare segments within a [fallout analysis](../../../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#section_E0B761A69B1545908B52E05379277B56).
 
 ## Compare segments {#section_8F2BFC45131C49B4A2E08A063CD7A91F}
 

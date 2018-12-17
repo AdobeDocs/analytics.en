@@ -83,7 +83,7 @@ The submenus contain the following options.
 
 ## Left Rail {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](../../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [Components](../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+The left rail has 3 icons, allowing you access to Panels, [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [Components](../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 

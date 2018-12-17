@@ -21,11 +21,11 @@ It lets you:
 
 >[!NOTE]
 >
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](../../../analyze/analysis-workspace/fallout/fallout-flow.md#section_654F37A398C24DDDB1552A543EE29AA9).
+>For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](../../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#section_654F37A398C24DDDB1552A543EE29AA9).
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-You can show the [flow between dimensions](../../../analyze/analysis-workspace/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Men page, then to the Shoes department.
+You can show the [flow between dimensions](../../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Men page, then to the Shoes department.
 
 Each column could show a different dimension. Drag a dimension and drop in a drop zone to add that dimension to the diagram.
 

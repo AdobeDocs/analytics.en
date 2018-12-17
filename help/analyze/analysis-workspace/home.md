@@ -39,7 +39,7 @@ You can use out-of the-box templates or create your own custom templates.
 
 ![](assets/step3_icon.png) Add other components, such as:
 
-* [visualizations](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 
+* [visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 
 * [segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) 
 * [custom date ranges](../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE)
 
@@ -51,8 +51,8 @@ You can use out-of the-box templates or create your own custom templates.
 
 ![](assets/step4_icon.png) Track your customers' journey:
 
-* [Fallout Analysis](../../analyze/analysis-workspace/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6) 
-* [Flow Analysis](../../analyze/analysis-workspace/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E)
+* [Fallout Analysis](../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6) 
+* [Flow Analysis](../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E)
 
 **Video links:**
 
@@ -62,7 +62,7 @@ You can use out-of the-box templates or create your own custom templates.
 ![](assets/step5_icon.png) Perform advanced analysis:
 
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
-* [Cohort Analysis](../../analyze/analysis-workspace/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
+* [Cohort Analysis](../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
 * [Anomaly Detection and Contribution Analysis](../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E) 
 * [Intelligent Alerts](../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
 
@@ -77,7 +77,7 @@ You can use out-of the-box templates or create your own custom templates.
 ![](assets/step6_icon.png) Manage your projects:
 
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
-* [Cohort Analysis](../../analyze/analysis-workspace/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
+* [Cohort Analysis](../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
 * [Anomaly Detection and Contribution Analysis](../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E) 
 * [Intelligent Alerts](../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
 

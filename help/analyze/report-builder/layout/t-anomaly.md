@@ -30,7 +30,7 @@ Steps that describe how to create an anomaly detection request in report builder
 
    ![Step Result](assets/anomaly_select.png)
 
-1. Select **[!UICONTROL Anomaly Detection]** > **[!UICONTROL <selection>]**.
+1. Select **[!UICONTROL Anomaly Detection]** > **[!UICONTROL `<selection>`]**.
 
    ![Step Info](assets/anomaly_visit.png)
 

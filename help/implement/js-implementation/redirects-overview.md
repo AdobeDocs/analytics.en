@@ -217,4 +217,4 @@ hp=N
 [AQE]
 ```
 
-After verifying that the Adobe Debugger displays these variables, it is always helpful to confirm that the search terms and the original referring domain (prior to the redirect) are registering traffic in reports. 
+After verifying that the Adobe [!UICONTROL Debugger] displays these variables, it is always helpful to confirm that the search terms and the original referring domain (prior to the redirect) are registering traffic in reports. 

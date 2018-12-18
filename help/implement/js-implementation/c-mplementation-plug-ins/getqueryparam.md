@@ -31,7 +31,7 @@ If you wanted to use *`s.campaign`* to capture campaign tracking codes available
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. This could be seen using the [!DNL DigitalPulse] Debugger, which should show *v0=123456* as part of the image request.
+In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. This could be seen using the [!DNL DigitalPulse] [!UICONTROL Debugger], which should show *v0=123456* as part of the image request.
 
 >[!NOTE]
 >

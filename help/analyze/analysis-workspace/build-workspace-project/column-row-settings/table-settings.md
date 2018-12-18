@@ -13,7 +13,7 @@ snippet: y
 
 Row settings vary depending on which component you have dragged into the table.
 
-You can also use [right-click actions in a table](../../../../analyze/analysis-workspace/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) to manage selected row(s).
+You can also use [right-click actions in a table](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) to manage selected row(s).
 
 To access table row settings, click the Settings icon next to a dimension, segment, metric, time period, or a breakdown within each of these:
 

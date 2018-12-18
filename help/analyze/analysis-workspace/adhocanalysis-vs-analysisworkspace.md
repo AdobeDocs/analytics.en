@@ -68,20 +68,20 @@ For a technical comparison of key features and system requirements between these
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use Fallout &amp; Conversion Funnels </p> </td> 
-   <td colname="col2"> <p><a href="../../analyze/analysis-workspace/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout visualizations</a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p><a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout visualizations</a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Fallout can span a visit or visitor, and "All visits" can optionally be included. Fallout can be quickly trended through the right-click menu. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Dimensional items can be connected by an OR operator (similar to groups) and events can be used in the funnel. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Fallthrough and Fallout next steps can also be rendered through the right-click menu. </li> 
-    </ol> <p>Additionally, Fallout in Analysis Workspace allows for <a href="../../analyze/analysis-workspace/fallout/configuring-interdimensional-fallout.md#concept_FBA8B0DE02DB4764AEAA0E7F52D02026" format="dita" scope="local"> mixed dimensions</a> within steps, an improvement over Ad Hoc Analysis. Mixed dimensions within steps are handled with an AND operator. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8" format="https" scope="external"> Video: Fallout and Funnels</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag" format="https" scope="external"> Video: Using Multiple Fallout Dimensions</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ" format="https" scope="external"> Video: Comparing Segments in Fallout</a> </p> </td> 
+    </ol> <p>Additionally, Fallout in Analysis Workspace allows for <a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md#concept_FBA8B0DE02DB4764AEAA0E7F52D02026" format="dita" scope="local"> mixed dimensions</a> within steps, an improvement over Ad Hoc Analysis. Mixed dimensions within steps are handled with an AND operator. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8" format="https" scope="external"> Video: Fallout and Funnels</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag" format="https" scope="external"> Video: Using Multiple Fallout Dimensions</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ" format="https" scope="external"> Video: Comparing Segments in Fallout</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examine Flow (Pathing) </p> </td> 
-   <td colname="col2"> <p><a href="../../analyze/analysis-workspace/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow visualizations</a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p><a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow visualizations</a> are available in Analysis Workspace under the Visualization component menu. Similar to Ad Hoc Analysis: </p> 
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow can span a visit or visitor. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Key statistics are shown in terms of % path views. </li> 
-    </ul> <p>Additionally, Flow allows for <a href="../../analyze/analysis-workspace/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> mixed dimensions</a> and the ability to right-click and create a segment, an improvement over Ad Hoc Analysis. </p> <p>Currently, Flow in Analysis Workspace <b>cannot</b>: </p> 
+    </ul> <p>Additionally, Flow allows for <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> mixed dimensions</a> and the ability to right-click and create a segment, an improvement over Ad Hoc Analysis. </p> <p>Currently, Flow in Analysis Workspace <b>cannot</b>: </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Turn off repeat instances. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Allow users to choose a success event. </li> 

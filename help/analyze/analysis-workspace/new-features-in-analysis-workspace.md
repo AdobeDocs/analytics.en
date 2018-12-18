@@ -204,7 +204,7 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>The new <span class="uicontrol"> Calculate percentage by row </span> setting forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages, such as trending how one dimension value fairs against the rest over time. It is turned on by default when clicking the <span class="uicontrol"> Visualize </span> icon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
    <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break" href="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>To make it easier to quickly create calculated metrics, <span class="uicontrol"> Create metric from selection </span> has been added to the right-click menu in Freeform Tables. This option displays when one or more header column cells are selected. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map visualization enhancements </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map visualization enhancements </a> </p> </td> 
    <td colname="col2"> <p>To be able to show period-over-period (such as, year-over-year) comparisons in the Map visualization, we have added these enhancements: </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
      <li id="li_746E329037764644A9CCF79161C26350">The Map visualization can now show negative numbers. For example, if you are plotting a year-over-year metric, the map can show -33% over New York. </li> 
@@ -318,7 +318,7 @@ New features in Analysis Workspace.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> Copy &amp; paste visualizations/panels </a> across panels &amp; projects </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> Copy &amp; paste visualizations/panels </a> across panels &amp; projects </p> </td> 
    <td colname="col2"> <p>You can now right-click and copy a visualization or panel, and then paste ("insert") that copied element into another place within the project, or into a different project. </p> <p>You can use this capability to create "building blocks" - predefined visualizations/panels - that can be copied into other projects to get started more quickly, with data specific to your business. </p> </td> 
   </tr> 
   <tr> 
@@ -334,11 +334,11 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>When resizing the left-most column, Workspace now maintains the width percentages of the rest of the columns (not simply adjust the next column width on the right). This change speeds up table creation for both analysis and sharing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Display <a href="../../analyze/analysis-workspace/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> 400 rows </a> in a table </p> </td> 
+   <td colname="col1"> <p>Display <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> 400 rows </a> in a table </p> </td> 
    <td colname="col2"> <p>You can now display 400 rows in a table (up from 200), to allow for 365-day trends. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map Visualization </a> support in PDF </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map Visualization </a> support in PDF </p> </td> 
    <td colname="col2"> <p>The Map visualization, introduced in October 2017, can now be rendered in PDF. </p> </td> 
   </tr> 
   <tr> 
@@ -388,11 +388,11 @@ New features in Analysis Workspace.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map Visualization </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Map Visualization </a> </p> </td> 
    <td colname="col2"> <p>The new&amp;nbsp;Map Visualization&amp;nbsp;lets you easily view your customer interactions within the context of their location. From a macro (global) view to a micro (city) view, you can easily zoom in and out of various hierarchy levels in the visualization to see clusters of users across regions. </p> <p>You can visualize location data via IP address (for non-mobile data sets) or you can bring latitude and&amp;nbsp;longitude data (for customers using the Mobile SDK) to life in Analysis Workspace.&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> Granularity selector for trended visualizations </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> Granularity selector for trended visualizations </a> </p> </td> 
    <td colname="col2"> <p>You can now easily toggle between time granularities when the dimension in the data source is a time dimension. You can switch granularities from a drop-down in the visualization settings. </p> </td> 
   </tr> 
   <tr> 
@@ -400,7 +400,7 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>Previously, you could drop only dimension items, date ranges, or segments into segment drop zones. You can now drop a full dimension or event into the segment drop zone. In both cases, Analysis Workspace will create "exists" hit segments. </p> <p>Examples: "Hit where eVar1 exists" or "Hit where event1 exists". </p> <p>Note:  You cannot drop calculated metrics into a segment zone. Only those dimensions/metrics for which you can build segments qualify for the segment zone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Connected visualizations listed in Data Source Settings </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Connected visualizations listed in Data Source Settings </a> </p> </td> 
    <td colname="col2"> <p>If there are visualizations connected to a freeform or cohort table, the top left dot (Data Source Settings) will now list the connected visualizations. Hovering will highlight the linked visualization, and clicking it will take you to it. </p> <p>In addition, there is a "Show/Hide Data Table" checkbox that lets you show or hide the data table. </p> </td> 
   </tr> 
   <tr> 
@@ -466,11 +466,11 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>You can now change the settings on multiple columns at once. Just select multiple columns and click the settings icon of any one of those columns. Any changes that you make apply to all columns with cells selected in them. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> Flow: Inter-dimensional Labeling </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> Flow: Inter-dimensional Labeling </a> </p> </td> 
    <td colname="col2"> <p>A new dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> Histogram Hit Counting Method </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> Histogram Hit Counting Method </a> </p> </td> 
    <td colname="col2"> <p>Previously, there were 2 counting methods in a Histogram visualization: Visit and Visitor (default). </p> <p>You can now use a third counting method, "Hit", as a segment container. “Occurrences” is used as the y-axis metric in the freeform table. </p> </td> 
   </tr> 
   <tr> 
@@ -482,7 +482,7 @@ New features in Analysis Workspace.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local"> Updated names for Summary Change display types </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local"> Updated names for Summary Change display types </a> </p> </td> 
    <td colname="col2"> <p>Two current Summary Change Options were renamed to clarify their meaning: </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">Show Change &gt; Show Percent Change </li> 
@@ -490,7 +490,7 @@ New features in Analysis Workspace.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local"> Extended decimal places for abbreviated Summary Number/Changes </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local"> Extended decimal places for abbreviated Summary Number/Changes </a> </p> </td> 
    <td colname="col2"> <p>Previously, abbreviated Summary number/change visualizations showed 0 decimal places. </p> <p>You can now choose 0-3 decimal places to enhance your reporting. </p> </td> 
   </tr> 
  </tbody> 
@@ -513,7 +513,7 @@ New features in Analysis Workspace.
    <td colname="col2"> <p>Added a <span class="wintitle"> Tags </span> column to the Workspace project list page. This column displays the tags for each project. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Export Flow visualizations as .CSV files </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Export Flow visualizations as .CSV files </a> </p> </td> 
    <td colname="col2"> <p>You can download Flow visualizations as .csv files, which lets you analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. </p> </td> 
   </tr> 
   <tr> 
@@ -536,7 +536,7 @@ New features in Analysis Workspace.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> Rich Text Editor </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> Rich Text Editor </a></b> </p> </td> 
    <td colname="col2"> <p>Lets you change the font settings (bold, italics, and so on) and hyperlink within text box visualizations and panel / visualization descriptions. </p> </td> 
   </tr> 
   <tr> 
@@ -544,11 +544,11 @@ New features in Analysis Workspace.
    <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Legend Label Editing </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Legend Label Editing </a></b> </p> </td> 
    <td colname="col2"> <p>Lets you rename series names in visualization legends (Fallout, Area, Area Stacked, Bar, Bar Stacked, Donut, Histogram, Horizontal Bar, Horizontal Bar Stacked, Line, Scatter, and Venn) to help you make visuals more consumable. </p> <p>Legend editing <b>does not</b> apply to: Treemap, Bullet, Summary Change or Number, Text, Freeform, Histogram, Cohort or Flow visualizations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Updates to “Manage Data Sources” </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Updates to “Manage Data Sources” </a></b> </p> </td> 
    <td colname="col2"> <p>We’ve redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td> 
   </tr> 
   <tr> 
@@ -575,7 +575,7 @@ New features in Analysis Workspace.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local"> Fallout </a></b> enhancements </td> 
+   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local"> Fallout </a></b> enhancements </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Unlimited segments for comparison </li> 
@@ -586,7 +586,7 @@ New features in Analysis Workspace.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../analyze/analysis-workspace/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"> <b>Flow</b> </a> enhancements </td> 
+   <td colname="col1"> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"> <b>Flow</b> </a> enhancements </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Added a new visualization setting called <span class="wintitle"> Disable Label Truncation </span> (default = unchecked). </li> 
@@ -732,7 +732,7 @@ New features in Analysis Workspace.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout Analysis </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Fallout Analysis </a></b> </td> 
    <td colname="col2"> <p>The new fallout feature will bring marketing funnel functionality to Analysis Workspace. A funnel lets you identify where customers abandon a marketing campaign or divert from a defined conversion path while interacting with your website or cross-channel campaign. Fallout Analysis allows you to build robust funnels with new visualizations and the inherent flexibility that Analysis Workspace provides in order to identify conversion for key success metrics. Fallout Analysis lets you </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Drag, drop, and rearrange funnel steps (touchpoints) </li> 
@@ -741,7 +741,7 @@ New features in Analysis Workspace.
     </ul> <p><img placement="break" href="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
    <td colname="col2"> <p>The new flow feature allows you to view customer flow/journey through sites/apps via new, updated and flexible visualizations in Analysis Workspace in order to discover how customers are moving and progressing through their sites/apps. Flow lets you </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualize the customer journey through assets </li> 
@@ -776,7 +776,7 @@ New features in Analysis Workspace.
     </ul> <p><img placement="break" href="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
+   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
    <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p><img placement="break" href="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -807,9 +807,9 @@ New features in Analysis Workspace.
 * The [Segment Comparison Panel](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to. 
 * [New Projects Menu structure](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization. 
 * [New left rail](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components 
-* A new [Venn visualization type](../../analyze/analysis-workspace/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram. 
+* A new [Venn visualization type](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram. 
 * [Trend Selection](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked. 
-* ["Create Visual" icon](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...). 
+* ["Create Visual" icon](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...). 
 * Expanded [Manual Rows](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8) functionality 
 * [Add Segment](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) drop zone 
 * Minor Updates:

@@ -72,11 +72,11 @@ This article familiarizes you with the Analysis Workspace interface elements and
    <td colname="col2"> <p>Dimensions, metrics, segments, and date ranges that you can drag into projects. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizations</a> </td> 
+   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizations</a> </td> 
    <td colname="col2"> <p>Items you can drag to the panel or project areas of the interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> Freeform Panel </a> </td> 
+   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> Freeform Panel </a> </td> 
    <td colname="col2"> <p>The canvas or workspace with which you interact in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -129,9 +129,9 @@ This article familiarizes you with the Analysis Workspace interface elements and
  </tbody> 
 </table>
 
-   ** [Visualizations](../../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
+   ** [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
 
-   The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](../../../analyze/analysis-workspace/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project.
+   The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project.
 
    ![Step Result](assets/visualizations.png)
 
@@ -184,7 +184,7 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualize</a> </td> 
+   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualize</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

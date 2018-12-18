@@ -20,7 +20,7 @@ Synchronizing visualizations lets you control which data table or data source co
 
 Managing a data source lets you show the data source or lock the selection. These settings determine how the visualization changes (or doesn't change) when new data comes in. 
 
-1. [Create a project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table and a [visualization](../../analyze/analysis-workspace/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
+1. [Create a project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table and a [visualization](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
 1. In the data table, select the cells (data source) you want to associate with the visualization.
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
@@ -51,16 +51,16 @@ Managing a data source lets you show the data source or lock the selection. Thes
  </tbody> 
 </table>
 
->This new architecture, introduced in July 2017, differs from the previous one in that Analysis Workspace no longer creates a duplicate hidden table that stores the locked selection for you. Now, the data source points to the table that you created the visualization from. 
->
->**Example use cases:** 
->
->* You can create a summary visualization and lock it to a cell in the table you created it from. When you enable "Show Data Source", it shows you exactly where this information is coming from in the table. The source data will be greyed out: 
->
->  ![](assets/data-source2.png)>
->* You can add lots of visualizations and source them from different cells in the same table, as shown here. The table is the same as in the example above, but the sourced cell (and metric) is different: 
->
->  ![](assets/data-source3.png)>
->* You can see whether there are visualizations connected to a freeform or cohort table by clicking the top left dot (Data Source Settings). Hovering will highlight the linked visualization, and clicking it will take you to it. 
->
->  ![](assets/linked-visualizations.png)>
+This new architecture, introduced in July 2017, differs from the previous one in that Analysis Workspace no longer creates a duplicate hidden table that stores the locked selection for you. Now, the data source points to the table that you created the visualization from. 
+
+**Example use cases:** 
+
+* You can create a summary visualization and lock it to a cell in the table you created it from. When you enable "Show Data Source", it shows you exactly where this information is coming from in the table. The source data will be greyed out: 
+
+  ![](assets/data-source2.png)>
+* You can add lots of visualizations and source them from different cells in the same table, as shown here. The table is the same as in the example above, but the sourced cell (and metric) is different: 
+
+  ![](assets/data-source3.png)>
+* You can see whether there are visualizations connected to a freeform or cohort table by clicking the top left dot (Data Source Settings). Hovering will highlight the linked visualization, and clicking it will take you to it. 
+
+  ![](assets/linked-visualizations.png)>

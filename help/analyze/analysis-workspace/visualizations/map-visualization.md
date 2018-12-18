@@ -61,7 +61,7 @@ The Map Visualization in Analysis Workspace
 
     * **Rotate** the map in 2D or 3D by holding the [!UICONTROL Ctrl] key and moving the map. 
     
-    * **Toggle** to a different view, such as the heat map, using the [settings](../../analyze/analysis-workspace/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) described below. Note that the bubble view is the default setting.
+    * **Toggle** to a different view, such as the heat map, using the [settings](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) described below. Note that the bubble view is the default setting.
 
 1. **Save** the project to save all map settings (coordinates, zoom, rotation). 
 1. The freeform table, below the visualization, can be populated by dragging in location dimensions and metrics from the left rail:

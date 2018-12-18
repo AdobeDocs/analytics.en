@@ -74,7 +74,7 @@ Access the Segment Builder by
 
    Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports & Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports & Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
-**[!UICONTROL Publish to Experience Cloud (for <report suite name>)]**: (Not shown on screen) This option appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. A segment title and description are required.
+**[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Not shown on screen) This option appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. A segment title and description are required.
 
 >[!NOTE]
 >

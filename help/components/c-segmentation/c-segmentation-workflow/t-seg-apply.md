@@ -30,8 +30,7 @@ How to apply one or more segments to a report from the segment rail.
    >
    >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
 
-1. You can filter by report suite by selecting the **[!UICONTROL (Only) <report suite name>]** check box. This will show only those segments that were last saved in that report suite.
+1. You can filter by report suite by selecting the **[!UICONTROL (Only) `<report suite name>`]** check box. This will show only those segments that were last saved in that report suite.
 1. Click **[!UICONTROL Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
    ![](assets/applied_segments.png)
-

@@ -310,7 +310,7 @@ Release Date: **May 21, 2015**
 
 **Known Issue**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: [!DNL //fast.<subdomain>.demdex.net/dest5.html] and [!DNL //fast.<subdomain>.demdex.net/dest4.html]. The correct behavior, as seen in other browsers, is to only load [!DNL //fast.<subdomain>.demdex.net/dest5.html].
+In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -489,4 +489,3 @@ See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/e
 >[!NOTE]
 >
 >Some plug-ins are not supported in this new version. See [Plug-in Support](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) for details.
-

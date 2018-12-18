@@ -503,7 +503,7 @@ Release Date: **October 16, 2014**
 
 Release Date: **September 18, 2014**
 
-* Resolved potential crash that could occur if Audience Manager Submit Signal call or Target Load Request call failed due to an unknown network error.
+* Resolved potential crash that could occur if Audience Manager Submit Signal call or [!DNL Target] Load Request call failed due to an unknown network error.
 
 ## Version 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
@@ -554,7 +554,7 @@ Release Date: **27 September, 2013**
 * Timed events 
 * Opt-in/opt-out management 
 * Audience Manager Support 
-* Lifecycle metrics passed to Target as mbox parameters 
+* Lifecycle metrics passed to [!DNL Target] as mbox parameters 
 * Standardized on context data and processing rules
 
 ## Version 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
@@ -575,7 +575,7 @@ Release Date: **16 August, 2013**
 Release Date: **6 August, 2013**
 
 * Added support for Adobe Audience Manager. 
-* Lifecycle data is now sent with Target Mbox requests when lifecycle tracking is enabled.
+* Lifecycle data is now sent with [!DNL Target] Mbox requests when lifecycle tracking is enabled.
 
 ## Version 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
 
@@ -621,7 +621,7 @@ Release Date: **October 2012**
 
 * Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session. 
 * Fixed an issue in the media module that caused events set on the measurement object to overwrite events set by the media module. 
-* Fixed an issue that caused an exception when allocating an mbox through the Test&Target integration.
+* Fixed an issue that caused an exception when allocating an mbox through the [!DNL Target] integration.
 
 ## Version 3.1.0 {#section_0F3E939885DE4DF1B7430DF5F5749AD2}
 

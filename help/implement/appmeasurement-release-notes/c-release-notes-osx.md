@@ -42,7 +42,7 @@ Release Date: **16 August, 2013**
 Release Date: **5 Aug, 2013**
 
 * Added support for Adobe Audience Manager. 
-* Lifecycle data will now be sent with Target Mbox requests.
+* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
 
 ## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 

@@ -510,7 +510,7 @@ Release Date: **27 September, 2013**
 * Timed events 
 * Opt-in/opt-out management 
 * Audience Manager Support 
-* Lifecycle metrics passed to Target as mbox parameters 
+* Lifecycle metrics passed to [!DNL Target] as mbox parameters 
 * Standardized on context data and processing rules
 
 ## Version 3.2.3 {#section_E3464DDC3B4844CF9CC5FC3E35C5C785}

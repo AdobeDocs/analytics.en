@@ -29,9 +29,9 @@ Adobe recommends that you provide your website visitors with easy-to-find and ea
 
 Visitors can learn more about how Adobe generally uses information it collects in connection with providing our products and services to our customers in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). However, because you exclusively control how to implement our services on your web sites, it is up to you to describe to your website visitors the specific ways in which they use our products and services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
 
-## Opt-outs for Adobe Analytics (including Reports & Analytics, Data Warehouse, Ad Hoc Analysis) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
+## Opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
 
-Adobe offers three types of opt-outs for Adobe Analytics (including Reports & Analytics, Data Warehouse, Ad Hoc Analysis):
+Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
 * If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors. 
 * Adobe also provides an opt-out mechanism to the public for websites using cookies set from Adobe’s 2o7.net and omtrdc.net domains. This opt-out mechanism can be accessed from the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html). 

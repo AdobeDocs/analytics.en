@@ -212,7 +212,7 @@ Once your Digital Assistant App is implemented you can use the full power of Ado
 
 ## Monitoring Intents {#section_6632D9F2EF9045A7A1A4263D3561C78F}
 
-Most Apps have several intents and different things you can do. You could easily use Analysis Workspace to keep track of the top intents by instances and by users
+Most Apps have several intents and different things you can do. You could easily use [!UICONTROL Analysis Workspace] to keep track of the top intents by instances and by users
 
 <!-- 
 

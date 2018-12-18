@@ -45,7 +45,7 @@ If you want to track additional information, but don’t have enough variables t
 
 ## Frequently Asked Questions {#section_E915B03236BD47DCA065F1FC5A6E30C6}
 
-* **Will all Adobe Analytics interfaces have immediate access to these new variables?** These interfaces will have immediate access: Analysis Workspace, Reports & Analytics, Report Builder, Ad Hoc Analysis, APIs, and Data Workbench. 
+* **Will all Adobe Analytics interfaces have immediate access to these new variables?** These interfaces will have immediate access: [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Ad Hoc Analysis], APIs, and [!UICONTROL Data Workbench]. 
 
 * **Will these additional eVars and events automatically show up in my data feeds?** Data feeds will have access to the new variables and events once enabled. New eVar columns will not appear until you choose to include them. However, new events will appear in the event_list column as soon as they’re enabled, and the events lookup table contains the event names for those event IDs. Do not enable new events unless you are ready to consume them in Data Feeds. 
 

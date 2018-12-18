@@ -15,6 +15,6 @@ snippet: y
 
 # trackTNT
 
-Collects the information for the Target to Analytics integration. This plug-in is replaced by the Adobe Analytics and Adobe target integration.
+Collects the information for the [!DNL Target] to [!DNL Analytics] integration. This plug-in is replaced by the Adobe Analytics and Adobe target integration.
 
 See [Adobe Analytics and Adobe Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/). 

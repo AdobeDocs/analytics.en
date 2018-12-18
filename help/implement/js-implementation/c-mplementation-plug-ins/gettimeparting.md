@@ -15,7 +15,7 @@ snippet: y
 
 # getTimeParting
 
-The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. Analysis Workspace offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of Analysis Workspace.
+The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. [!UICONTROL Analysis Workspace] offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
 
 This plug-in captures the date and time information available in the user's web browser. It obtains the hour of the day and the day of the week from this information. It then converts this data to the time zone of your choosing. It also accounts for Daylight Savings Time.
 

@@ -139,7 +139,7 @@ With the release of version 15, the capabilities between Props and eVars are muc
 Props hold a couple advantages of eVars, some of which can be circumvented:
 
 * Prop data is collected and available in reporting almost instantly. eVars can take upwards of 30 minutes to appear in report suite data. 
-* All Props can have flowchart-like reports enabled, which let you see the path visitors take to your site. These pathing flow reports are available for both Props and eVars in Ad Hoc Analysis. 
+* All Props can have flowchart-like reports enabled, which let you see the path visitors take to your site. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis]. 
 * Props can be correlated multiple levels, where eVars can only be subrelated once. This limitation can be mitigated by using segmentation, giving identical data as correlations. 
 * Participation metrics allow you to see what prop values participated before a success event.
 

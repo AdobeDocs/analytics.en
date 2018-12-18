@@ -1882,7 +1882,7 @@ s_objectID.xml
 
  -->
 
-By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use Activity Map to report on a link type or location, rather than the link URL.
+By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
 
 >[!NOTE]
 >
@@ -1890,13 +1890,13 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
-|  100 Bytes  | OID  | Activity Map, ClickMap  | The Absolute URL of a Clicked Link  |
+|  100 Bytes  | OID  | [!UICONTROL Activity Map], [!UICONTROL ClickMap]  | The Absolute URL of a Clicked Link  |
 
 There are three common reasons to use *`s_objectID`*:
 
 * To aggregate visitor activity that changes often during a day. 
-* To separate link activity that Activity Map combines. 
-* To improve the accuracy of Activity Map data reporting.
+* To separate link activity that [!UICONTROL Activity Map] combines. 
+* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
 
 ## Aggregate Clicks on Highly Dynamic Links {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
@@ -1904,9 +1904,9 @@ If your site is highly dynamic, and links on some pages change throughout the da
 
 ## Separate Clicks Combined {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-If the *`pageName`* variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use *`s_objectID`* to separate links that appear on multiple versions of that page template. For example, if you have a template page for all products on your site, it is likely that there is a link to your home page and to a search box from that template on all pages. If you want to see how those links are used on an individual product basis (rather than a template basis), you can populate *`s_objectID`* with a product specific value such as "prod 123789 home page" or "prod 123789 search." Once completed, Activity Map reports on those links at an individual product basis.
+If the *`pageName`* variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use *`s_objectID`* to separate links that appear on multiple versions of that page template. For example, if you have a template page for all products on your site, it is likely that there is a link to your home page and to a search box from that template on all pages. If you want to see how those links are used on an individual product basis (rather than a template basis), you can populate *`s_objectID`* with a product specific value such as "prod 123789 home page" or "prod 123789 search." Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-## Improving Activity Map Accuracy {#section_08B3406821294DCCABEEB99C90CF5C52}
+## Improving [!UICONTROL Activity Map] Accuracy {#section_08B3406821294DCCABEEB99C90CF5C52}
 
 In some cases, browsers other than Internet Explorer, Firefox, Netscape, Opera, and Safari are not reported. Although this is a small percentage, it accounts for some clicks and other metrics. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. The following is an example of how to update your links to use *`s_objectID`*:
 

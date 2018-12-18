@@ -16,23 +16,23 @@ snippet: y
 
 There are multiple ways to implement Adobe Analytics.
 
-* [!DNL Launch] (Recommended) 
-* [!DNL Dynamic Tag Management] 
+* [!UICONTROL Launch] (Recommended) 
+* [!UICONTROL Dynamic Tag Management] 
 * JavaScript
 
-## Launch {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
+## [!UICONTROL Launch, by Adobe] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
 
-Launch is the next generation of website tag and mobile SDK management capabilities from Adobe. Launch gives you a simple way to deploy and manage all of the analytics, marketing, and advertising integrations necessary to power relevant customer experiences.
+[!UICONTROL Launch] is the next generation of website tag and mobile SDK management capabilities from Adobe. [!UICONTROL Launch] gives you a simple way to deploy and manage all of the analytics, marketing, and advertising integrations necessary to power relevant customer experiences.
 
-Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to web and mobile Launch customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
+[!UICONTROL Launch] empowers anyone to build and maintain their own integrations with [!DNL Launch], called Extensions. These extensions are available to web and mobile [!UICONTROL Launch] customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
 
 For more information, see [Getting Started with Launch](https://docs.adobelaunch.com/getting-started).
 
-## Dynamic Tag Management {#section_22E3F3F928894A6A8D77E6953E6CA51C}
+## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
-[!DNL Dynamic Tag Management (DTM)]automates much of the detail work required to implement [!DNL Analytics]. Enter the required information in a form-based interface, and [!DNL Dynamic Tag Management] generates the code you need to add to your pages.
+[!UICONTROL Dynamic Tag Management] automates much of the detail work required to implement [!DNL Analytics]. Enter the required information in a form-based interface, and [!DNL Dynamic Tag Management] generates the code you need to add to your pages.
 
-Although [!DNL Dynamic Tag Management] greatly simplifies the implementation process, you should be familiar with [basic [!DNL Analytics] terminology](../../implement/analytics-terminology-basics/analytics-terminology-basics.md#concept_4A3368DE509E41969497405ED0DC0CEF) before you begin. It is also useful to be familiar with JavaScript.
+Although [!UICONTROL Dynamic Tag Management] greatly simplifies the implementation process, you should be familiar with [basic [!DNL Analytics] terminology](../../implement/analytics-terminology-basics/analytics-terminology-basics.md#concept_4A3368DE509E41969497405ED0DC0CEF) before you begin. It is also useful to be familiar with JavaScript.
 
 For example, you should understanding the following:
 

@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Implementation Guide
 
-This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch.
+This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Launch].
 
 ## Key Analytics Import articles
 
@@ -23,7 +23,7 @@ This guide walks you through different Adobe Analytics implementation methods, f
 |--- |---|
 | [Analysis Workspace Guide](../analyze/home.md) | This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on [!UICONTROL Analysis Workspace], the premier analysis and visualization tool for Analytics. |
 | [Admin Guide](../admin/home.md) | This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
-| *[Implementation Guide](../implement/home.md)* | *This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch.* |
+| *[Implementation Guide](../implement/home.md)* | *This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Launch].* |
 | [Components Guide](../components/home.md) | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |
 | [Export Guide](../export/home.md) | This guide discusses various data export methods, such as data feeds and Data Warehouse. |
 | [Import Guide](../import/home.md) | This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |

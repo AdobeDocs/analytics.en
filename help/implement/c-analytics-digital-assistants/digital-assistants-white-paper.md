@@ -120,7 +120,7 @@ When implementing Analytics on a conversation, there are two things you should d
 1. **Reach out to Audience Manager:** Get the relevant segments that a user is a part of so that you can customize the response. (For example, this person currently qualifies for the multi-channel discount.) 
 1. **Send in a new session or launch event:** When you send the first response to Analytics, include a launch event. Usually, this can be sent by setting context data of `a.LaunchEvent=1`.
 
-**Code Sample for Launch**
+**Code Sample for [!DNL Launch, by Adobe]**
 
 ```
 GET /b/ss/[rsid]/0?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1 

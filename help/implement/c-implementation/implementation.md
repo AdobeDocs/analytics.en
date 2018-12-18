@@ -90,6 +90,6 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
 
 ## More Information {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-For information about the differences between Launch, Dynamic Tag Management and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+For information about the differences between [!UICONTROL Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
 
 For a concise overview of the getting started process and help on quickly setting up your first Analytics report suite, see [Getting Started with Analytics Implementation](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Getting Started with Analytics guide. 

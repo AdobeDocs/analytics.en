@@ -25,9 +25,9 @@ This guide walks you through different Adobe Analytics implementation methods, f
 | [Admin Guide](../admin/home.md) | This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
 | *[Implementation Guide](../implement/home.md)* | *This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Launch].* |
 | [Components Guide](../components/home.md) | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |
-| [Export Guide](../export/home.md) | This guide discusses various data export methods, such as data feeds and Data Warehouse. |
+| [Export Guide](../export/home.md) | This guide discusses various data export methods, such as data feeds and [!UICONTROL Data Warehouse]. |
 | [Import Guide](../import/home.md) | This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |
-| [Integration Guide](../integrate/home.md) | This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. |
+| [Integration Guide](../integrate/home.md) | This guide helps you configure integrations with other Adobe [!DNL Experience Cloud] solutions, such as Audience Manager, Advertising Cloud, or Target. |
 | Data Workbench Guide |  |
 | Video Analytics Guide |  |
 

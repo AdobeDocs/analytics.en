@@ -122,7 +122,7 @@ In this procedure enables you to:
 
    >[!NOTE]
    >
-   >The Real-Time report requires some configuration prior to running. See [Configure Real-Time Report](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
+   >The [!UICONTROL Real-Time] report requires some configuration prior to running. See [Configure Real-Time Report](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
 <p class="head"> <b>Example Real-Time Report</b> </p>
 

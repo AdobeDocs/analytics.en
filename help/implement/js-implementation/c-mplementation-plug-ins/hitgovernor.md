@@ -25,13 +25,13 @@ Using this plugin allows for that traffic to automatically be blocked for the re
 
 The plugin increments a cookie value each time an image request is sent to your tracking servers, and tracks this over a rolling time frame. The default time frame is one minute, although that time frame can be overridden. (See [Implementation](../../../implement/js-implementation/c-mplementation-plug-ins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2), below.) If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. The default hit threshold can also be overridden.
 
-If desired, from that point forward, traffic can be prevented from being collected for that specific visitor for a default period of sixty days. Blocking the traffic requires an additional line of code in your doPlugins function, as outlined below. The time frame can be adjusted as well. The logic allows time to either include that visitor's IP address, User Agent, or Experience Cloud Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. If this traffic is identified as fraudulent by the plugin after sixty days, the traffic is again flagged as an exception and is not collected for another sixty days.
+If desired, from that point forward, traffic can be prevented from being collected for that specific visitor for a default period of sixty days. Blocking the traffic requires an additional line of code in your doPlugins function, as outlined below. The time frame can be adjusted as well. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. If this traffic is identified as fraudulent by the plugin after sixty days, the traffic is again flagged as an exception and is not collected for another sixty days.
 
 ## Reporting {#section_E742F19B528041808454744DB2C7007C}
 
 No default variables or events need to be set up. However, we strongly recommend that you set up processing rules logic to set variables and events accordingly. Those custom variables and events might include:
 
-* Experience Cloud Visitor ID 
+* [!DNL Experience Cloud] Visitor ID 
 * IP Address 
 * User Agent 
 * Flagged Exception Event

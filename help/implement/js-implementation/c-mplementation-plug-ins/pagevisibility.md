@@ -110,7 +110,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * A very small percentage of users will not pass percentage of page viewed data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari. 
 * Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics. 
-* Calculated metrics can be created to aid in summarizing and understanding visitor behavior associated with these metrics:
+* [!UICONTROL Calculated Metrics] can be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
     * **Page Visibility Ratio **(Total Page Visibility Seconds / Total Page Seconds) 
     * **Total Hidden Seconds **(Total Page Seconds - Total Page Visibility Seconds) 

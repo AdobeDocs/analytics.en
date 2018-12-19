@@ -11,9 +11,9 @@ snippet: y
 
 # Logging in
 
-## Log in to Adobe Experience Cloud {#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
+## Log in to Adobe [!DNL Experience Cloud] {#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
 
-To learn how to log in to Adobe Experience Cloud to get access to Analytics, refer to [Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) in the Experience Cloud help.
+To learn how to log in to Adobe [!DNL Experience Cloud] to get access to Analytics, refer to [Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) in the [!DNL Experience Cloud] help.
 
 ## Experience Cloud Debugger {#section_4E57672E89E3419FA8D71C8224CEFB72}
 

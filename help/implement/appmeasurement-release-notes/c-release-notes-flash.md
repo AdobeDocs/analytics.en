@@ -105,7 +105,7 @@ Version 3.9.2:
 
 * Inclusion of Visitor API 1.3.5. 
 * Changed to not perform automatic referrer tracking after first tracking call, so the 2nd, 3rd, etc., tracking call (usually link tracking) will not double count the referrer when *`s.referrer`* was manually set before the first tracking call. (AN-92647) 
-* Removal of deprecated Heartbeat video tracking embedded in the Media module. The supported Heartbeat video tracking has been moved to a separate Video [!DNL Analytics] library.
+* Removal of deprecated [!UICONTROL Heartbeat] video tracking embedded in the Media module. The supported [!UICONTROL Heartbeat] video tracking has been moved to a separate Video [!DNL Analytics] library.
 
 ## September 18, 2014 {#section_80939868A2284961BF620851B000294F}
 
@@ -138,19 +138,19 @@ Release Date: **April 17, 2014**
 
 Release Date: **March 13, 2014**
 
-* Multiple bug fixes to Heartbeat video tracking.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## Version 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 Release Date: **February 6, 2014**
 
-* Multiple bug fixes to Heartbeat video tracking.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## Version 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 Release Date: **November 14, 2013**
 
-* Multiple bug fixes to Heartbeat video tracking.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## Version 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 

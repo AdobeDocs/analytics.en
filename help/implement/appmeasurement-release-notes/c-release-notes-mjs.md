@@ -41,7 +41,7 @@ Release Date: **05/24/2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the Experience Cloud ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483) 
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332) 

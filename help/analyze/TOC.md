@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 ---
 
-# Analytics Analyze Guide {#analyze-guide}
+# Analytics Analyze Guide {#analyze}
 
 + [Analytics Analyze Help](home.md)
 + Analysis Workspace {#analysis-workspace}

@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 ---
 
-# [!DNL Analytics] Components Guide {#components-guide}
+# [!DNL Analytics] Components Guide {#components}
 
 + [Analytics Components Help](home.md)
 + Segmentation {#segmentation}

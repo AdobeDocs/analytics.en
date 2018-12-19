@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 ---
 
-# Analytics Admin Guide {#admin-guide}
+# Analytics Admin Guide {#admin}
 
 + [Analytics Admin Help](home.md)
 + Analytics Admin overview {#admin-overview}

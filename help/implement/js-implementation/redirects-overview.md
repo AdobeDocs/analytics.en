@@ -154,7 +154,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Verify the referrer with the Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
+## Verify the referrer with the Adobe [!UICONTROL Debugger] {#section_B3E85941982E4E1698B271375AD669B9}
 
 <!-- 
 

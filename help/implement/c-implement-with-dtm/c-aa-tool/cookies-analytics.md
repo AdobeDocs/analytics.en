@@ -13,7 +13,7 @@ snippet: y
 
 # Cookies
 
-Field descriptions for the Cookies global settings used for deploying Dynamic Tag Management in Adobe Analytics.
+Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
  **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
 

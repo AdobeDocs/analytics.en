@@ -13,7 +13,7 @@ snippet: y
 
 # Referrers and campaigns
 
-Field descriptions in Dynamic Tag Management for referrers and campaign options when deploying Dynamic Tag Management in Adobe Analytics.
+Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
  **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
 

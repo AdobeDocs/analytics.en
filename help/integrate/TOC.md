@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 ---
 
-# Analytics Integration Guide {#integration-guide}
+# Analytics Integration Guide {#integration}
 
 + Analytics Integration
  + Audience Analytics {#audience-analytics}

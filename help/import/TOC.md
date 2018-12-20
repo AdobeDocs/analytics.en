@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Import Guide
 ---
 
-# Analytics Import Guide {#import-guide}
+# Analytics Import Guide {#import}
 
 + [Analytics Import Help](home.md)
 + Data Sources {#data-sources}

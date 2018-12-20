@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Export Guide
 ---
 
-# Analytics Export Guide {#export-guide}
+# Analytics Export Guide {#export}
 
 + [Analytics Export Help](home.md)
 + Analytics Data Feed {#analytics-data-feed}

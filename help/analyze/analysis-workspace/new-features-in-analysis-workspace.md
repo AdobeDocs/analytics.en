@@ -170,7 +170,7 @@ New features in Analysis Workspace.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Tips of the Day</b> </p> </td> 
-   <td colname="col2"> <p>We will provide Tips of the Day (along with a short video) in the bottom right-hand corner of the interface. These tips are meant to familiarize you with a multitude of cool Analysis Workspace features. You can choose to dismiss these Tips or access them through <span class="uicontrol"> Help </span> &gt; <span class="uicontrol"> Tips </span> at any time. </p> <p><img href="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
+   <td colname="col2"> <p>We will provide Tips of the Day (along with a short video) in the bottom right-hand corner of the interface. These tips are meant to familiarize you with a multitude of cool Analysis Workspace features. You can choose to dismiss these Tips or access them through <span class="uicontrol"> Help </span> &gt; <span class="uicontrol"> Tips </span> at any time. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Segment templates </a> and <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> calculated metrics templates </a></b> </p> </td> 
@@ -205,7 +205,7 @@ New features in Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> "100% Stacked" Visualization Setting </a> </p> </td> 
-   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break" href="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
@@ -738,7 +738,7 @@ New features in Analysis Workspace.
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Drag, drop, and rearrange funnel steps (touchpoints) </li> 
      <li id="li_CC85524BC64546CD84794CC02C24CF21">Analyze multi-dimensional fallout (mix and match values from different dimensions and metrics) </li> 
      <li id="li_FA59CEE0211E4894B9109FF6A2FA3F80">Identify next steps to know where customers go immediately after falling out </li> 
-    </ul> <p><img placement="break" href="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
+    </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Flow Visualization </a></b> </td> 
@@ -747,7 +747,7 @@ New features in Analysis Workspace.
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualize the customer journey through assets </li> 
      <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">Analyze immediate next steps from entry, exit, or a specific dimension item in the customer journey </li> 
      <li id="li_D13AD928AC434D599D43836FB334B14D">Dynamically create a segment of users by designating a specific point in a chosen path </li> 
-    </ul> <p><img placement="break" href="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
+    </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
@@ -757,7 +757,7 @@ New features in Analysis Workspace.
      <li id="li_9BFE2B4C429D441287F1A37A08E62A40">Preview how often an alert will trigger. </li> 
      <li id="li_08D310196581483DB499C00358835B73">Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects. </li> 
      <li id="li_2ADF9465EE474CDB839ED867662CCE6F">Create "stacked" alerts that capture multiple metrics in a single alert. </li> 
-    </ul> <p><img placement="break" href="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
+    </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a></b> </td> 
@@ -765,7 +765,7 @@ New features in Analysis Workspace.
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Automatically detect statistically significant data anomalies in your data. </li> 
      <li id="li_2FB3D94DEEF14DD5ADA6AD69E15F243D">Run Contribution Analysis against any daily anomaly and embed it in your Analysis Workspace project. </li> 
-    </ul> <p><img placement="break" href="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
+    </ul> <p><img placement="break"  src="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> Starter Projects </a></b> </td> 
@@ -773,11 +773,11 @@ New features in Analysis Workspace.
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">User Retention </li> 
      <li id="li_7240EE8852FC4642B3AD4837C990A775">Mobile App Acquisition </li> 
-    </ul> <p><img placement="break" href="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
+    </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local"> Histogram Visualization </a></b> </td> 
-   <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p><img placement="break" href="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
+   <td colname="col2"> <p>Histograms let users see distributions of users across any success event. You can customize the buckets and bucket sizes to accommodate any distribution and to identify high-value and low-value users. </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Miscellaneous Updates </td> 

@@ -29,7 +29,7 @@ To access table row settings, click the Settings icon next to a dimension, segme
  <tbody> 
   <tr> 
    <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Date Comparisons</a> </p> </td> 
-   <td colname="col2"> <p><b>Align dates from each column to all start on the same row. </b> </p> <p>When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1: </p> <p><img placement="break" href="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabled by default. </p> </td> 
+   <td colname="col2"> <p><b>Align dates from each column to all start on the same row. </b> </p> <p>When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabled by default. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Percentages </p> </td> 

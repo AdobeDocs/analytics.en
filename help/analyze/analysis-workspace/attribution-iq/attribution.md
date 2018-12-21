@@ -104,61 +104,61 @@ Analysis Workspace supports ten different attribution models: First Touch, Last 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/last_touch.PNG" id="image_7D574182B1564109B0F1C3DD4FD9E8E9" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/last_touch.PNG" id="image_7D574182B1564109B0F1C3DD4FD9E8E9" /> </p> </td> 
    <td colname="col2"> <p>Last Touch </p> </td> 
    <td colname="col3"> <p>The Last Touch model gives 100% credit to the touchpoint occurring immediately before conversion. From the case above, the Email channel would get credit for all $17 in either a visit or visitor lookback because Email occurred just before all three conversions. </p> </td> 
    <td colname="col4"> <p>This is the most basic and common attribution model and is frequently used for conversions with a short consideration cycle. </p> <p>Last Touch is commonly used by teams managing search marketing or analyzing internal search keywords. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/first_touch.png" id="image_D8CD48CB39D64A0386CBA38397BB69B0" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/first_touch.png" id="image_D8CD48CB39D64A0386CBA38397BB69B0" /> </p> </td> 
    <td colname="col2"> <p>First Touch </p> </td> 
    <td colname="col3"> <p>The First Touch model gives 100% credit to the touch point occurring first in the attribution lookback window. </p> <p>From the example above using the visit lookback, $10 + $5 = $15 would be given to the Search channel, and $2 would be given to the Email channel. With a visitor lookback, all $17 would be given to the Search channel because it occurred first across all hits in the reporting window. </p> </td> 
    <td colname="col4"> <p>This is another common attribution model useful for analyzing marketing channels intended to drive brand awareness or drive customer acquisition. </p> <p>First Touch is frequently used by Display or Social marketing teams but is also great for assessing onsite product recommendation effectiveness. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/same_touch.png" id="image_7E093A65BA4048F0B46E1110D9569C84" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/same_touch.png" id="image_7E093A65BA4048F0B46E1110D9569C84" /> </p> </td> 
    <td colname="col2"> <p>Same Touch </p> </td> 
    <td colname="col3"> <p>The Same Touch model gives 100% credit to the very hit where the conversion occurred. </p> <p>In our example above, each conversion happened on a subsequent hit from the previous marketing touchpoint, therefore all $17 would be given to the “None” line item in the report. </p> </td> 
    <td colname="col4"> <p>This is a helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams will often use this to assess the effectiveness of a page where conversion occurs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/linear.png" id="image_FB96E57837EE47B5B6AE0066CC6DCF45" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/linear.png" id="image_FB96E57837EE47B5B6AE0066CC6DCF45" /> </p> </td> 
    <td colname="col2"> <p>Linear </p> </td> 
    <td colname="col3"> <p>The Linear model is a multi-touch model that gives equal credit to every hit that occurred leading up to a conversion. </p> <p>In scenarios where multiple orders arise within the same visit or visitor lookback, equal credit is distributed among all channels that happened before conversion. </p> </td> 
    <td colname="col4"> <p>This model is useful for conversions with longer consideration cycles or user experiences that need more frequent/consistent customer engagement. </p> <p>Linear attribution is often used by teams measuring mobile app notification effectiveness or with subscription-based products. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/u_shaped.png" id="image_625BB199056D453E8DA8FA283A990DDD" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/u_shaped.png" id="image_625BB199056D453E8DA8FA283A990DDD" /> </p> </td> 
    <td colname="col2"> <p>U-Shaped </p> </td> 
    <td colname="col3"> <p>The U-Shaped model gives 40% credit to the first interaction, 40% credit to the last interaction, and shares the remaining 20% among any interactions in between. </p> <p>In attribution lookbacks with only one touchpoint, 100% of the credit is given to the single touchpoint, and in cases with only two, 50% credit is given to each. </p> </td> 
    <td colname="col4"> <p>This is a great model for those who value interactions that occurred first or last (introduced or closed) in a conversion, but still wish to recognize the assisting interactions. </p> <p>U-Shaped attribution is often used by teams who take a more balanced approach but want to give more credit to channels that found or closed a conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/j_shaped.png" id="image_D062FD7277A947BC9802F8BDFC139427" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/j_shaped.png" id="image_D062FD7277A947BC9802F8BDFC139427" /> </p> </td> 
    <td colname="col2"> <p>J-Shaped </p> </td> 
    <td colname="col3"> <p>The J Shaped model gives 60% credit to the last interaction, 20% credit to the first interaction, and shares the remaining 20% among any interactions in between. </p> <p>In attribution lookbacks with only one touchpoint, 100% credit is given to the single touchpoint, and in cases with only two, 75% is given to the last touchpoint, and 25% is given to the first. </p> </td> 
    <td colname="col4"> <p>Similar to U-shaped, this is a great model for those who value interactions that occurred first or last (introduced or closed) in a conversion, but which to emphasize the interaction that closed on the conversion. </p> <p>J-Shaped attribution is often used by teams who take a more balanced approach and want to give more credit to channels that closed a conversion </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/inverse_j.png" id="image_20FFD4C9C9714901B3F54C049D129BC6" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/inverse_j.png" id="image_20FFD4C9C9714901B3F54C049D129BC6" /> </p> </td> 
    <td colname="col2"> <p>Inverse J </p> </td> 
    <td colname="col3"> <p>The Inverse J model gives 60% credit to the first interaction, 20% credit to the last interaction, and shares the remaining 20% among any interactions in between. </p> <p>In attribution lookbacks with only one touchpoint, 100% credit is given to the single touchpoint, and in cases with only two, 75% is given to the first touchpoint, and 25% is given to the last. </p> </td> 
    <td colname="col4"> <p>Similar to U-shaped, this is a great model for those who value interactions that occurred first or last (introduced or closed) in a conversion, but wish to emphasize the interaction that initiated the conversion. </p> <p>Inverse J attribution is often used by teams who take a more balanced approach and want to give more credit to channels that initiated a conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/custom.png" id="image_D46A787AC72248C7B28C402F5515B099" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/custom.png" id="image_D46A787AC72248C7B28C402F5515B099" /> </p> </td> 
    <td colname="col2"> <p>Custom </p> </td> 
    <td colname="col3"> <p>The custom model is a position-based model that allows you to specify the weights you want to give to the first (starter), last (closer), and middle (player) interactions. </p> <p>The values specified are normalized to 100% even if the numbers entered do not add to 100. In attribution lookbacks with only one touchpoint, 100% credit is given to the single touchpoint, and in cases with only two, the “player” parameter is ignored, and the first and last interactions are weighted by the “starter” and “closer” model parameter weightings, normalized to 100%. </p> </td> 
    <td colname="col4"> <p>If your organization is uncomfortable with the defaults provided by Adobe Analytics, a custom model allows you to specify the weights that make the most sense to your organization. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/time_decay.png" id="image_7976721B60454944BF516FCF8484D3A2" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/time_decay.png" id="image_7976721B60454944BF516FCF8484D3A2" /> </p> </td> 
    <td colname="col2"> <p>Time Decay </p> </td> 
    <td colname="col3"> <p>The Time Decay model follows an exponential decay with a custom half-life parameter (default is seven days). </p> <p>The weight of each channel depends on the amount of time that passed between the touchpoint and the eventual conversion and is determined by the formula 2^(-t/halflife) where t is the amount of time between a touchpoint and conversion. For lookbacks with a single touchpoint, 100% credit is given to the one touchpoint, and for lookbacks with two touchpoints, credit is proportional to the time from conversion. </p> </td> 
    <td colname="col4"> <p>This is a good model for teams that run promotions across a predetermined number of days who wish to emphasize channels that occurred more recently. </p> <p>Time Decay attribution is often used by teams running video advertising or teams scheduling their marketing around a significant event with a predetermined date (such as a conference or sporting event). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/participation.png" id="image_19DD3CA5C0F24F05835D8522C6708DE4" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/participation.png" id="image_19DD3CA5C0F24F05835D8522C6708DE4" /> </p> </td> 
    <td colname="col2"> <p>Participation </p> </td> 
    <td colname="col3"> <p>Participation gives 100% credit to all unique touchpoints or channels within an attribution lookback window. With Participation, the total number of conversions will be inflated in your report compared to other attribution models. Note that participation deduplicates channels that occur multiple times within a single attribution lookback window before giving credit. </p> <p>From our example above, and provided a visitor lookback window, Search, Display, Social, and Email would each receive $17. Using the same example with a visit lookback window, Search would receive $15, Display would receive $10, Social would receive $10, and Email would receive $17. </p> </td> 
    <td colname="col4"> <p>This model is excellent for analysis and discovery to understand how often your end users or customers are exposed to any particular channel, page, or interaction. </p> <p>Media teams will often use this model to calculate content velocity, and retail organizations will often use this model to understand which parts of their app or website are on the critical path of conversion. </p> </td> 

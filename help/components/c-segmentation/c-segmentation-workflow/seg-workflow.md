@@ -36,35 +36,35 @@ seg_workflow.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step1_icon.png" id="image_ABA2B0CAE02B4D92860D304A9B4A0933" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-plan.md#concept_D8BE6AB8D8E540E58C3462F9E02F4847" format="dita" scope="local"> Planning Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step1_icon.png" id="image_ABA2B0CAE02B4D92860D304A9B4A0933" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-plan.md#concept_D8BE6AB8D8E540E58C3462F9E02F4847" format="dita" scope="local"> Planning Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Have you asked all the right questions before building segments and setting up a segment management environment? Have you designed the segment with its intended purpose and distinct usage in mind? </p> <p>See the Segment Planning Checklist for help in planning and organizing your segments. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step2_icon.png" id="image_E08CFAF3C6304149ADD1969295719374" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4" format="dita" scope="local"> Building Segments </a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step2_icon.png" id="image_E08CFAF3C6304149ADD1969295719374" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4" format="dita" scope="local"> Building Segments </a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Build and edit segments for use in all Analytics capabilities. </p> <p>See <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560" format="dita" scope="local"> Building Sequential Segments</a> for how to build segments with the THEN operator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step3_icon.png" id="image_47F7BD9D28124244AED0DAE49C279BDA" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50" format="dita" scope="local"> Tagging Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step3_icon.png" id="image_47F7BD9D28124244AED0DAE49C279BDA" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50" format="dita" scope="local"> Tagging Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Tag segments for ease of organization and sharing. Tagging replaces folder hierarchies in <span class="keyword"> ad hoc analysis</span>. See how to plan and assign tags for simple and advanced searches and organization. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step4_icon.png" id="image_EBE21C67B34646D2949D3429485C555C" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953" format="dita" scope="local"> Approving Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step4_icon.png" id="image_EBE21C67B34646D2949D3429485C555C" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953" format="dita" scope="local"> Approving Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Approve segments to make them canonical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step5_icon.png" id="image_55B8B2032C034F199291F5BCEE32F585" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-apply.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F" format="dita" scope="local"> Applying Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step5_icon.png" id="image_55B8B2032C034F199291F5BCEE32F585" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-apply.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F" format="dita" scope="local"> Applying Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>You can apply segments directly from a report, from the segment rail (<span class="uicontrol"> Show Segments</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step6_icon.png" id="image_5B467C413445415C8DF0DA5F518B3663" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5" format="dita" scope="local"> Share Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step6_icon.png" id="image_5B467C413445415C8DF0DA5F518B3663" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-share.md#task_7DC54643083E42C28F918E4F0845C5A5" format="dita" scope="local"> Share Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Share your segments with the intended audience in other Analytics tools and to Adobe Target and the Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step7_icon.png" id="image_B5AD3F1CB9AD4F9F8312B731FA81223D" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-filter.md#task_B59946C6D38945629C1FEACF80A85746" format="dita" scope="local"> Filtering Segments</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step7_icon.png" id="image_B5AD3F1CB9AD4F9F8312B731FA81223D" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-filter.md#task_B59946C6D38945629C1FEACF80A85746" format="dita" scope="local"> Filtering Segments</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left" href="assets/step8_icon.png" id="image_1AC6288982A8463C91B809644AA979FC" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5" format="dita" scope="local"> Marking Segment as Favorites</a> </p> </td> 
+   <td colname="col1" valign="middle" align="left"> <p><img placement="break" align="left"  src="assets/step8_icon.png" id="image_1AC6288982A8463C91B809644AA979FC" /> <a href="../../../components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md#task_F45DFA3FBF0C4082B46A0D032CB20FC5" format="dita" scope="local"> Marking Segment as Favorites</a> </p> </td> 
    <td colname="col2" valign="top" align="left"> <p>Marking segments as favorites is another way to organize them for ease of use. </p> </td> 
   </tr> 
   <tr> 

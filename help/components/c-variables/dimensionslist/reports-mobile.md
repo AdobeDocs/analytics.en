@@ -48,7 +48,7 @@ The following mobile reports are available:
   </tr> 
   <tr> 
    <td colname="col1"> Screen Size </td> 
-   <td colname="col2"> <p> Groups mobile device hits to your site by the screen size of the device. The report shows each screen size, the number of visitors to your site that used each screen size, and each screen size as a percentage of the total views. The Screen Size report shows both the height and width of the screen size as compared to the Screen Height report and Screen Width report. </p> <p>The mobile screen size report is currently static per device. Regardless of screen orientation, each device has a fixed screen resolution in the report. You can see this by breaking down Screen Size by Mobile Device. </p><img placement="break" align="center" href="assets/mobile-screen-sizes.png" id="image_A6DB4558376042A5822B892C7CEA1A7C" /> </td> 
+   <td colname="col2"> <p> Groups mobile device hits to your site by the screen size of the device. The report shows each screen size, the number of visitors to your site that used each screen size, and each screen size as a percentage of the total views. The Screen Size report shows both the height and width of the screen size as compared to the Screen Height report and Screen Width report. </p> <p>The mobile screen size report is currently static per device. Regardless of screen orientation, each device has a fixed screen resolution in the report. You can see this by breaking down Screen Size by Mobile Device. </p><img placement="break" align="center"  src="assets/mobile-screen-sizes.png" id="image_A6DB4558376042A5822B892C7CEA1A7C" /> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Screen Height </td> 

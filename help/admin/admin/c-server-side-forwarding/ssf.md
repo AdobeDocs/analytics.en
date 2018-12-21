@@ -36,7 +36,7 @@ To understand where your organization is in terms of implementing server-side fo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/step1_icon.png" id="image_9E7E759DF38A4AF584FB87171AA954D2" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/step1_icon.png" id="image_9E7E759DF38A4AF584FB87171AA954D2" /> </p> </td> 
    <td colname="col2"> <p>Verify whether Experience Cloud ID (MID)service is implemented, by inspecting the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html" format="html" scope="external"> Analytics tracking request </a>. </p> </td> 
    <td colname="col3"> <p>On the <span class="uicontrol"> Request </span> tab, verify that a MID value is being set. This tells you that Experience Cloud ID service is implemented correctly, which is a pre-requisite for server-side forwarding. </p> 
     <ul id="ul_BB3331B9E4294C8483A9E54908B3BDD8"> 
@@ -45,7 +45,7 @@ To understand where your organization is in terms of implementing server-side fo
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/step2_icon.png" id="image_F83BEDD80FE343E6A1F4010F5D9C3F57" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/step2_icon.png" id="image_F83BEDD80FE343E6A1F4010F5D9C3F57" /> </p> </td> 
    <td colname="col2"> <p>Verify whether you already have a version of server-side forwarding implemented, by <a href="../../../admin/admin/c-server-side-forwarding/ssf-verify.md#concept_E2E585082D91422296924B9B6FCA97CC" format="dita" scope="local"> inspecting the Analytics tracking request </a>. </p> </td> 
    <td colname="col3"> <p>In the “Response” tab, check that the response contains Audience Manager data. If you see: </p> 
     <ul id="ul_155BD7A4AE334E82B77C4CA1AC3AA8BF"> 
@@ -63,7 +63,7 @@ To understand where your organization is in terms of implementing server-side fo
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img href="assets/step3_icon.png" id="image_FA535B68EF684D82A3FFEE67771EFFF9" /> </p> </td> 
+   <td colname="col1"> <p><img  src="assets/step3_icon.png" id="image_FA535B68EF684D82A3FFEE67771EFFF9" /> </p> </td> 
    <td colname="col2"> <p>Verify whether you have server-side forwarding implemented at the report-suite level, rather than the legacy tracking server approach. </p> </td> 
    <td colname="col3"> <p>Server-side forwarding at the report-suite level is recommended over the legacy tracking server approach because you can control at a finer level what data gets shared from Analytics. It is also a pre-requisite for this Audience Analytics integration. </p> <p>Go to <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> (select report suites) </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> General </span>  &gt; <span class="uicontrol"> Server Side Forwarding </span> </span>. If the checkbox is: </p> 
     <ul id="ul_C394EBED4763431CB16095B54EA6C267"> 

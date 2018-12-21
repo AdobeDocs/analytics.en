@@ -112,19 +112,19 @@ This article familiarizes you with the Analysis Workspace interface elements and
  <tbody> 
   <tr> 
    <td colname="col1"> Dimensions (orange) </td> 
-   <td colname="col2"> <p>Apply at the project level </p> <p><img href="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar#, and event# are appended to the dimension names, and you can search on those numbers. Example: "Internal Campaign" shows up in the left rail as "Internal Campaign (evar2)". </p> <p> Note that the prop, eVar, and event numbers do not show in the table (to keep the titles short). </p> <p>There is a default sort order for some out-of-the-box dimensions, when they are dragged into a freeform table or when they are viewed in the left rail. For example, when "Hour of Day" is dropped into a table or viewed in the left rail, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td> 
+   <td colname="col2"> <p>Apply at the project level </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar#, and event# are appended to the dimension names, and you can search on those numbers. Example: "Internal Campaign" shows up in the left rail as "Internal Campaign (evar2)". </p> <p> Note that the prop, eVar, and event numbers do not show in the table (to keep the titles short). </p> <p>There is a default sort order for some out-of-the-box dimensions, when they are dragged into a freeform table or when they are viewed in the left rail. For example, when "Hour of Day" is dropped into a table or viewed in the left rail, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Metrics (green) </td> 
-   <td colname="col2"> <p>Apply at the project level. </p> <p><img href="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
+   <td colname="col2"> <p>Apply at the project level. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segments (blue) </td> 
-   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img href="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Date ranges and granularities (purple) </td> 
-   <td colname="col2"> <p>Draggable only at the panel level. You can create a project from the Calendar, when configuring a date range. </p> <p><img href="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
+   <td colname="col2"> <p>Draggable only at the panel level. You can create a project from the Calendar, when configuring a date range. </p> <p><img  src="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

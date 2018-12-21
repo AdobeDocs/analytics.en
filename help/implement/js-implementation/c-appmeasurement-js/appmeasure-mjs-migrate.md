@@ -32,37 +32,37 @@ The following table contains a list of tasks you need to perform to migrate your
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" width="26px" height="21px" /> </td> 
    <td colname="col1"> Check plug-in compatibility </td> 
    <td colname="col2"> <span class="filepath"> s_code.js</span> </td> 
    <td colname="col3">Some plug-ins are longer supported. See <a href="../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A" format="dita" scope="local"> AppMeasurement Plug-in Support</a> . </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step2_icon.png" id="image_FEC5908E05B8457F828A2BCBCE079061" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_FEC5908E05B8457F828A2BCBCE079061" width="26px" height="21px" /> </td> 
    <td colname="col1"> Download the new AppMeasurement </td> 
    <td colname="col2"> Admin Console &gt; Code Manager </td> 
    <td colname="col3"> <p> The download zip contains a minified <span class="filepath"> AppMeasurement.js</span> file, and Javascript files for the Media and Integrate modules. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step3_icon.png" id="image_543F5EC1759741FCB02C110B45C41867" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_543F5EC1759741FCB02C110B45C41867" width="26px" height="21px" /> </td> 
    <td colname="col1">Copy your <span class="filepath"> s_code.js</span> customization to <span class="codeph"> AppMeasurement.js</span>. </td> 
    <td colname="col2"> <span class="filepath"> s_code.js</span> and <span class="filepath"> AppMeasurement.js</span> </td> 
    <td colname="col3"> <p>Move all code that appears before the <span class="codeph"> DO NOT ALTER ANYTHING BELOW THIS LINE</span> section in <span class="filepath"> s_code.js</span> to the beginning of <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step4_icon.png" id="image_C65A6858FB294E2796B93054BEA72BBD" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_C65A6858FB294E2796B93054BEA72BBD" width="26px" height="21px" /> </td> 
    <td colname="col1"> (Optional) Update plug-ins </td> 
    <td colname="col2"> <span class="filepath"> AppMeasurement.js</span> </td> 
    <td colname="col3"> <p>If you are using the getQueryParam plug-in, update these calls to use the new utility, <a href="../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5" format="dita" scope="local"> Util.getQueryParam</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step5_icon.png" id="image_3D0FEDBE7FD8481E8E5F9054F742187E" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_3D0FEDBE7FD8481E8E5F9054F742187E" width="26px" height="21px" /> </td> 
    <td colname="col1"> (Optional) Update Media and Integrate modules </td> 
    <td colname="col2"> <p> <span class="filepath"> AppMeasurement.js</span> </p> </td> 
    <td colname="col3"> <p>If you are using either of these modules, copy and paste the code from <span class="filepath"> AppMeasurement_Module_Media.js</span> and/or <span class="filepath"> AppMeasurement_Module_Integrate.js</span> and paste it just before the <span class="codeph"> DO NOT ALTER ANYTHING BELOW THIS LINE</span> in <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step6_icon.png" id="image_FCA028848A374C4BA1AF88C6141C9778" width="26px" height="21px" /> </td> 
+   <td colname="col01"> <img  src="assets/step6_icon.png" id="image_FCA028848A374C4BA1AF88C6141C9778" width="26px" height="21px" /> </td> 
    <td colname="col1"> Deploy new JavaScript </td> 
    <td colname="col2"> Your website </td> 
    <td colname="col3"> <p>The new JavaScript file can be deployed according to your standard process. Your existing page code is compatible with this version. </p> </td> 

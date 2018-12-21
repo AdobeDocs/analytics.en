@@ -54,7 +54,7 @@ Answers to questions you might have when implementing Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: I've created a new Analytics destination, but I don't see it in the Destination Mappings section of my available segments. Where did that destination go or how do I find it?</b> </p> </td> 
-   <td colname="col2"> <p>An Analytics destination disappears from a segment's Destination Mappings section when you select the <span class="uicontrol"> Automatically map all current and future segments </span> option in <span class="uicontrol"> Segment Mappings </span>. </p> <p><img placement="break" align="left" href="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>To prevent this, select <span class="uicontrol"> Manually map segments </span> instead of the automatic option. </p> </td> 
+   <td colname="col2"> <p>An Analytics destination disappears from a segment's Destination Mappings section when you select the <span class="uicontrol"> Automatically map all current and future segments </span> option in <span class="uicontrol"> Segment Mappings </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>To prevent this, select <span class="uicontrol"> Manually map segments </span> instead of the automatic option. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Q: Will this give me all of the information from AAM, in Analytics?</b> </p> </td> 

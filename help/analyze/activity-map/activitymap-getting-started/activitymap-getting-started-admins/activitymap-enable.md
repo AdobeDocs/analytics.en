@@ -78,8 +78,8 @@ First, you need to enable Activity Map reports at a report-suite level.
    <li id="li_E3B8159197F54844B0B523AEC7E4BB27">Select the Network tab. </li> 
    <li id="li_4A1DBA7465CD4E54BFCBFBBA0C506785">Search on <span class="codeph"> /b/ss </span> to capture the tag requests. </li> 
    <li id="li_587AD51A69074895B6C3927CFBC66CD7">Click a link in your web page. </li> 
-   <li id="li_456E9B9760B6414F978A195B8F47D9A3">Click the top link in the dev console: <img placement="break" align="center" href="assets/dev_console.png" width="500px" id="image_12C58DABB4C6410F8C2E1AE75BD683CA" /> </li> 
-   <li id="li_4E45292A17D84A11AF1ECE9750FB4D99">To verify that the link parameters are being sent, click the <span class="wintitle"> Params </span> tab and scroll down to find the Activity Map parameters: <img placement="break" align="center" href="assets/cm_params.png" width="250px" id="image_926374535B1A48059D43C14FDB697D78" /> </li> 
+   <li id="li_456E9B9760B6414F978A195B8F47D9A3">Click the top link in the dev console: <img placement="break" align="center"  src="assets/dev_console.png" width="500px" id="image_12C58DABB4C6410F8C2E1AE75BD683CA" /> </li> 
+   <li id="li_4E45292A17D84A11AF1ECE9750FB4D99">To verify that the link parameters are being sent, click the <span class="wintitle"> Params </span> tab and scroll down to find the Activity Map parameters: <img placement="break" align="center"  src="assets/cm_params.png" width="250px" id="image_926374535B1A48059D43C14FDB697D78" /> </li> 
    <li id="li_33349274966A48D99C0978CE6E8B1AB1">Verify that they reflect the link you clicked on and the region on the correct page. </li> 
   </ol> </li> 
 </ol>

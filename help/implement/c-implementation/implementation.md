@@ -27,7 +27,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
+   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col1"> Choose an implementation method. </td> 
    <td colname="col2"> <p>Common ways to implement Analytics include: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
@@ -42,7 +42,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
+   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> Set up the Experience Cloud ID service. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
     <draft-comment> 
@@ -67,7 +67,7 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
     </draft-comment> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
+   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col1"> Use the chosen implementation method to update and deploy page code. </td> 
    <td colname="col2"> <p>Place the page code just after the opening <span class="codeph"> &lt;body&gt; </span> tag on each page you want to track. At a minimum, update the following variables: </p> 
     <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
@@ -76,12 +76,12 @@ visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&n
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Validate the implementation. </td> 
    <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Use the Adobe Experience Cloud debugger to verify that data is being sent. </td> 
    <td colname="col2"> <p>Install the <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
   </tr> 

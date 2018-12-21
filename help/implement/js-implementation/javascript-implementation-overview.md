@@ -38,12 +38,12 @@ The following steps walk you through a basic Analytics implementation.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
+   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col1"> Download AppMeasurement for JavaScript and the Visitor ID service. </td> 
    <td colname="col2"> <p>The download is available in <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external"> Code Manager </a>. </p> <p>This download zip contains several files. <span class="codeph"> AppMeasurement.js </span> and <span class="codeph"> VisitorAPI.js </span> are the relevant files when implementing Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
+   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> Set up the Experience Cloud ID service. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
     <draft-comment> 
@@ -59,7 +59,7 @@ The following steps walk you through a basic Analytics implementation.
     </draft-comment> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
+   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col1"> Update <span class="codeph"> AppMeasurement.js </span>. </td> 
    <td colname="col2"> <p>Copy the <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local"> Example AppMeasurement.js Code </a> and paste it at the beginning of your <span class="codeph"> AppMeasurement.js </span> file. At a minimum, update the following variables: </p> 
     <ul id="ul_62FA640BD2604E589650A92158272615"> 
@@ -70,12 +70,12 @@ The following steps walk you through a basic Analytics implementation.
     </ul> <p> See <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/determining-data-center.html" format="https" scope="external"> Correctly populate the trackingServer and trackingServerSecure variable </a> or contact Client Care if you are unsure about any of these values. If they are not set correctly, data will not be collected by your implementation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Host <span class="codeph"> AppMeasurement.js </span> and <span class="codeph"> VisitorAPI.js </span>. </td> 
    <td colname="col2"> <p>These core JavaScript files must be hosted on a web server that is accessible to all pages on your site. You need the path to these files in the next step. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Reference <span class="codeph"> AppMeasurement.js </span> and <span class="codeph"> VisitorAPI.js </span> on all site pages. </td> 
    <td colname="col2"> <p> Include the Visitor ID Service by adding the following line of code in the <span class="codeph"> &lt;head&gt; </span> or &lt;body&gt; tag on each page. <span class="codeph"> VisitorAPI.js </span> must be included before <span class="codeph"> AppMeasurement.js </span>: </p> 
     <code class="syntax html">
@@ -86,7 +86,7 @@ The following steps walk you through a basic Analytics implementation.
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step6_icon.png" id="image_1C4293CA98F04EE2ADA69EAB95BDE8B1" /> </td> 
+   <td colname="col01"> <img  src="assets/step6_icon.png" id="image_1C4293CA98F04EE2ADA69EAB95BDE8B1" /> </td> 
    <td colname="col1"> Update and deploy page code. </td> 
    <td colname="col2"> <p>Copy the <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_042412C29CC249E298F19B2BC2F43CE7" format="dita" scope="local"> Example Page Code </a> and paste it just after the opening <span class="codeph"> &lt;body&gt; </span> tag on each page you want to track. At a minimum, update the following variables: </p> 
     <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
@@ -95,7 +95,7 @@ The following steps walk you through a basic Analytics implementation.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img href="assets/step7_icon.png" id="image_A423CBF386AF4E5986E8CBB6E31CD3E5" /> </td> 
+   <td colname="col01"> <img  src="assets/step7_icon.png" id="image_A423CBF386AF4E5986E8CBB6E31CD3E5" /> </td> 
    <td colname="col1"> Use the DigitalPulse Debugger to verify that data is being sent. </td> 
    <td colname="col2"> <p>Install the <a href="../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2" format="dita" scope="local"> Adobe Debugger </a> bookmarklet. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
   </tr> 

@@ -175,7 +175,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Summary chart </p> <p><img placement="break" href="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
+   <td colname="col1"> <p>Summary chart </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
       <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Each box represents one anomaly, tracked per day, that corresponds to a metric below. </li> 
@@ -194,7 +194,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Individual metric chart </p> <p><img placement="break" href="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
+   <td colname="col1"> <p>Individual metric chart </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_739C5687013743A29B63089FDA763F45"> 
       <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Displays anomalous data points for individual trended metrics (including calculated metrics) as dots. </li> 

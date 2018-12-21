@@ -53,7 +53,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I know how many tokens my company is entitled to per month, and how many we have used in the current month?</b> </p> </td> 
-   <td colname="col2"> <p>Go to <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <span class="uicontrol"> View Feature Access Levels</span></span>. There are 2 new items on this page: </p> <p><img placement="break" href="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>Go to <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <span class="uicontrol"> View Feature Access Levels</span></span>. There are 2 new items on this page: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

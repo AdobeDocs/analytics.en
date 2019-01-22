@@ -333,7 +333,7 @@ GDPR/DULE labeling affects four broad classes of Analytics variables. Not all va
    <td colname="col1"> <p>Data Processing Dimensions </p> </td> 
    <td colname="col2"> <p>Custom Visitor ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>You cannot remove the ID or DEL labels (se to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you don’t use the custom visitor ID, then the setting does not matter. </p> </td> 
+   <td colname="col4"> <p>You cannot remove the ID or DEL labels (set to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you don’t use the custom visitor ID, then the setting does not matter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -463,7 +463,7 @@ There are five standard variables that contain timestamps:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Date Time </p> </td> 
-   <td colname="col2"> <p>Same value as Custom Hit Time UTC, but in the time zone of the report suite, rather than GMT. (Due to a bug, this value is not currently visible in the labeling UI, and always has a value of ACC-ALL. This should be fixed in July 2018) </p> </td> 
+   <td colname="col2"> <p>Same value as Custom Hit Time UTC, but in the time zone of the report suite, rather than GMT.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>First Hit Time GMT </p> </td> 
@@ -471,7 +471,7 @@ There are five standard variables that contain timestamps:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visit Start Time UTC </p> </td> 
-   <td colname="col2"> <p>The Custom Hit Time UTC value for the first hit received for the current visit for this visitor ID. (Due to a bug, this variable is displayed in the UI as First Visit Start Time UTC). </p> </td> 
+   <td colname="col2"> <p>The Custom Hit Time UTC value for the first hit received for the current visit for this visitor ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>

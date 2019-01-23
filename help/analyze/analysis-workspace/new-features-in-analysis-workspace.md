@@ -177,7 +177,7 @@ New features and enhancements released on June 14, 2018.
  </tbody> 
 </table>
 
-##May 2018
+## May 2018
 
 New features and enhancements released on May 10, 2018.
 

@@ -20,7 +20,7 @@ New features and enhancements released on January 17, 2019.
 
 | Feature | Description |
 |--- |--- |
-|Cohort Analysis|Major improvements to Cohort Analysis let you:|
+|Cohort Analysis|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
 |View Density|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
 |Support for multi-valued variables in Attribution IQ|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
 |Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|

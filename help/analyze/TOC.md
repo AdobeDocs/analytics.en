@@ -42,7 +42,6 @@ user-guide-title: Analytics Analyze Guide
         + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)
         + [Freeform table](analysis-workspace/visualizations/freeform-table.md)
         + Cohort Table {#cohort-table}
-            + [Cohort table overview](analysis-workspace/visualizations/cohort-table/cohort-table.md)
             + [What is cohort analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
             + [Run a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
             + [Cohort analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)

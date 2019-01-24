@@ -12,32 +12,25 @@ internal: n
 snippet: y
 ---
 
-# Run a cohort analysis report
+# Configure a Cohort Analysis report
 
 Create a cohort and run a cohort analysis report in Analysis Workspace.
 
-1. In Analysis Workspace, click the **[!UICONTROL Panels]** icon in the left rail and drag a **[!UICONTROL Blank Panel]** to the canvas.
-
-   ![](assets/blank-panel.png)
-
-1. Click **[!UICONTROL Visualizations]** in the left rail, then drag a **[!UICONTROL Cohort Table]** to the canvas.
-
-   ![](assets/cohort_new.png)
-
-1. Specify a date range.
-1. Add metrics to the **[!UICONTROL Inclusion]** and **[!UICONTROL Return]** fields.
-
-   These metrics group your users into a granularity buckets, based on an activity (such as placing an order).
+1. In Analysis Workspace, click the **[!UICONTROL Visualizations]** icon in the left rail and drag a **[!UICONTROL Cohort Table]** to the canvas.
 
    ![](assets/cohort-table.png)
 
+1. Define the **[!UICONTROL Inclusion Criteria]**, **[!UICONTROL Return Criteria]**, **[!UICONTROL Cohort Type]**, and **[!UICONTROL Settings]** as defined in the table below.
+
 | Element | Description |
 |--- |--- |
-|Granularity|The time granularity of Day, Week, Month, Quarter, or Year.|
-|Inclusion Metric|The metric that places a user in a cohort. For example, if the inclusion metric is Orders, only users who placed an order during the time range of the cohort analysis will be included in the initial cohorts.|
-|Return Metric|The metric that indicates the user has been retained. For example, if the return metric is Video Views, only users who viewed videos during subsequent time periods (after the period in which they were added to a cohort) will be represented as retained. Another metric that quantifies retention is Visits.|
+|**[!UICONTROL Inclusion Criteria]**|You can apply up to 10 inclusion segments and up to 3 inclusion metrics. The metric specifies what places a user in a cohort. For example, if the inclusion metric is Orders, only users who placed an order during the time range of the cohort analysis will be included in the initial cohort.<br>The default operator between metrics is AND, but you can change it to OR. In addition, you can add numeric filtering to these metrics. For example: "Visits >= 1".</br>|
+|**[!UICONTROL Return Criteria]**|You can apply up to 10 return segments and up to 3 return metrics. The metric indicates whether the user has been retained (retention) or not (churn). For example, if the return metric is Video Views, only users who viewed videos during subsequent time periods (after the period in which they were added to a cohort) will be represented as retained. Another metric that quantifies retention is Visits.|
+|**[!UICONTROL Granularity]**|The time granularity of Day, Week, Month, Quarter, or Year.|
+|**[!UICONTROL Type]**|**[!UICONTROL Retention]**(default): A retention cohort measures how well your visitor cohorts return to your property over time. This is the standard cohort that we have always had and indicates return and repeat user behavior. A Retention Cohort is indicated by the color green in the table.<br>**[!UICONTROL Churn]**: A churn (also known as "attrition" or "fallout") cohort measures how your visitor cohorts fall out of your property over time. Churn = 1 - Retention. Churn is a good measure of stickiness as well as opportunity by showing you how frequently customers do not come back. You can use churn to analyze and identify areas of focus: which cohort segments could use some attention. A Churn Cohort is indicated by the color red in the table (similar to fallout in our **[!UICONTROL Flow]** visualization).</br>|
+|**[!UICONTROL Settings]**|**[!UICONTROL Rolling Calculation]**: Calculate retention or churn based on the previous column, rather than the Included column (default). Rolling Calculation changes the calculation method for your "return" periods. The normal calculation independently finds users who meet "return" criteria and were part of the inclusion period, regardless of whether or not they were in the cohort for the previous period. Instead, Rolling Calculation finds users who meet "return" criteria and were part of the previous period. Therefore, Rolling Calculation filters and funnels the users who continually meet the "return" criteria period over period.</br><br>**[!UICONTROL Latency Table]**: A latency table measures the time that has elapsed before and after the inclusion event occurred. Latency is great to use for pre/post analysis. For example, if you have an upcoming product or campaign launch and you want to track behavior before as well as see how it performs after, the Latency table will display the pre and post behavior side by side to see the direct impact. The pre-inclusion cells in the Latency Table are calculated by users who meet the "inclusion" criteria on the inclusion period and then meet the "return" criteria in the periods before the inclusion period. Note that Latency tables and Custom Dimension Cohort cannot be used together.</br><br>**[!UICONTROL Custom Dimension Cohort]**: Create cohorts based on the selected dimension, rather than time-based cohorts (default). Many customers want to analyze their cohorts by something other than time and the new Custom Dimension Cohort feature provides you with the flexibility to build cohorts based on dimensions of their choosing. Use dimensions such as marketing channel, campaign, product, page, region, or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.</br><br>After choosing the Custom Dimension Cohort option, you can drag and drop whichever dimension you want into the drop zone. This allows you to compare similar dimension items across the same time period. For example, you can compare performance of cities side by side, products, campaigns, etc. It will return your top 14 dimension items. However, you can use a filter (access it by hovering on the right of the dimension that was dragged on) to display only desired dimension items. A Custom Dimension Cohort cannot be used with the Latency Table feature.</br>|
 
-1. Click **[!UICONTROL Run Report]**.
+1. Click **[!UICONTROL Build]**.
 
    ![Step Result](assets/cohort-report.png)
 
@@ -46,10 +39,7 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
    Select cells (contiguous or noncontiguous), then right-click > **[!UICONTROL Create Segment From Selection]**.
 
-   ![Step Result](assets/cohort-segment-select.png)
-
-   This example segment would show all the visitors in January 2015, month 1 and 2. 
-1. On the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build), further edit the segment, then click **[!UICONTROL Save]**.
+1. In the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build), further edit the segment, then click **[!UICONTROL Save]**.
 
    The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace. 
 1. Name and save your cohort project.

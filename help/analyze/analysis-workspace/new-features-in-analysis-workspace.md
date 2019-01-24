@@ -14,27 +14,29 @@ snippet: y
 
 # What's New in Analysis Workspace
 
-New features in Analysis Workspace.
+## January 2019
 
-* [October 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_4D674C82129F4A3A982278DFCAA28E29) 
-* [September 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_AB1896F08E4544668A3FA68C39AC8761) 
-* [August 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_CCCDE76A43B6435892A5302CC04E82C3) 
-* [July 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_F3B9E7CF4291444A965434E18BE4426F) 
-* [June 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_623B8FAB089F4B2683166C84571FC71C) 
-* [May 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_74817B73F06249B8A9C5DFBF2A46E350) 
-* [April 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_2821DC6C667C4253BAE79B49829BE497) 
-* [March 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_FA836308DB4B492DB6F2745A38201753) 
-* [February 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_A4F17B21A32C477BB5B5F54DDB1AC292) 
-* [January 2018](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_688893A2B2454F25AFFD35D7C2381C6E) 
-* [November 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_F9C68F31C0C8433E8A384900AF685B24) 
-* [October 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_E3BCBFEF27404FA1B158E624437AF322) 
-* [September 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_4764E08F588C4CF3BF61FE7A616C29C5) 
-* [August 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_A720CD094B8A412495B32EB6B45C604A) 
-* [July 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_865A09050E1A4DCDB5FC586817A4B331) 
-* [June 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_1A32FD4BE9BD4E9FA66016F4175F34BC) 
-* [April 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_518B461499D5479FA64F1029A6DA7732) 
-* [February 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_4EAB18CDCF9D4570BF0BDDEE97A93C3E) 
-* [January 2017](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_1A8B75DA3E2A4EB5B291DC3865455934)
+New features and enhancements released on January 17, 2019.
+
+| Feature | Description |
+|--- |--- |
+|Cohort Analysis|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
+|View Density|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
+|Support for multi-valued variables in Attribution IQ|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
+|Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|
+
+
+## November 2018
+
+New features and enhancements released on November 1, 2018.
+
+| Feature | Description |
+|--- |--- |
+|VRS and project curation - enhancements|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
+
+## October 2018
+
+New features and enhancements released on October 11, 2018.
 
 <table id="table_3DDC812B2F66416F868004416D248BF3"> 
  <thead> 
@@ -60,6 +62,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## September 2018
+
+New features and enhancements released on September 13, 2018.
+
 <table id="table_137719BFA03C44A78FDE872DF8B228A4"> 
  <thead> 
   <tr> 
@@ -82,6 +88,9 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+## August 2018
+
+New features and enhancements released on August 9, 2018. 
 
 <table id="table_DD77C02344414DCD9AC0A6A22E648B72"> 
  <thead> 
@@ -101,6 +110,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## July 2018
+
+New features and enhancements released on July 19, 2018. 
 
 <table id="table_336E121310204DC492EA004F40830B0F"> 
  <thead> 
@@ -135,6 +148,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## June 2018
+
+New features and enhancements released on June 14, 2018. 
+
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
   <tr> 
@@ -159,6 +176,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## May 2018
+
+New features and enhancements released on May 10, 2018.
 
 <table id="table_EE4C690A178B4F80BDAF2BB4424D6020"> 
  <thead> 
@@ -187,6 +208,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## April 2018
+
+New features and enhancements released on April 12, 2018.
+
 <table id="table_B9E784CD14A1453EB360FCCDC612250F"> 
  <thead> 
   <tr> 
@@ -213,6 +238,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## March 2018
+
+New features and enhancements released on March 8, 2018.
 
 <table id="table_580CF2C1322E4FB78870BE2B1F497B2F"> 
  <thead> 
@@ -249,6 +278,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## February 2018
+
+New feature and enhancements released on February 8, 2018.
 
 <table id="table_824BBE4A554B4DB092ADA9044383D0FA"> 
  <thead> 
@@ -293,6 +326,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## January 2018
+
+New features and enhancements released on January 18, 2018.
 
 <table id="table_7A2E678577F94BDABB1276C826E6554F"> 
  <thead> 
@@ -364,6 +401,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## November 2017
+
+New feature released on November 09, 2017. 
+
 <table id="table_C502E81253634E6CBAE7F12C7B62F7B6"> 
  <thead> 
   <tr> 
@@ -378,6 +419,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## October 2017
+
+New features released on October 26, 2017.
 
 <table id="table_892279F2B4AF4DB38C64AA9AFC5657A7"> 
  <thead> 
@@ -439,6 +484,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## September 2017
+
+New features released on September 21, 2017.
+
 <table id="table_DC0DA93B8A3B481080FCB2BA8F985753"> 
  <thead> 
   <tr> 
@@ -496,6 +545,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## August 2017
+
+New features released on August 17, 2017.
+
 <table id="table_C29887097C894B1C91AD7086F0DAEC73"> 
  <thead> 
   <tr> 
@@ -526,6 +579,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## July 2017
+
+New features released on July 20, 2017. 
 
 <table id="table_64E3A9960F314E2F9FFC738696EACDF7"> 
  <thead> 
@@ -565,6 +622,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## June 2017
+
+New features released on June 8, 2017.
 
 <table id="table_5B859A64363A44A98FC55E7AFB3C1D0C"> 
  <thead> 
@@ -643,6 +704,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## April 2017
+
+New features released on April 20, 2017.
+
 <table id="table_53EEFB870ED943F5BFD71FAB2DBCE49B"> 
  <thead> 
   <tr> 
@@ -662,6 +727,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## February 2017
+
+New feature released on February 16, 2017: 
+
 <table id="table_227D3668E9FD4FF4A1906FC619DCAFBF"> 
  <thead> 
   <tr> 
@@ -676,6 +745,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## January 2017
+
+New feature released on January 19, 2017: 
 
 <table id="table_0AB06B81BFA34521A9BF1150E64663C3"> 
  <thead> 
@@ -708,6 +781,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## November 2016
+
+New feature released on November 10, 2016: 
+
 <table id="table_9B2B9CC7A3574A99A716BF1C9745E32B"> 
  <thead> 
   <tr> 
@@ -722,6 +799,10 @@ New features in Analysis Workspace.
   </tr> 
  </tbody> 
 </table>
+
+## October 2016
+
+New features released on October 20, 2016: 
 
 <table id="table_56258080C60F480AA83E1D5DE7D2C782"> 
  <thead> 
@@ -803,6 +884,10 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
+## June 2016
+
+New features released on June 16, 2016: 
+
 * [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group. 
 * The [Segment Comparison Panel](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to. 
 * [New Projects Menu structure](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization. 
@@ -817,6 +902,10 @@ New features in Analysis Workspace.
     * Ability to delete all visualizations in a panel, and all panels in a project. (Previously, you had to keep at least one visualization or one panel.) 
     * Changes to the [shortcut keys](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (hotkeys) that can facilitate work with Analysis Workspace. 
     * Style changes: Smaller fonts in visualizations; color swatches on rows; moved the date selector down (on panels).
+
+## April 2016
+
+New features released on April 21, 2016: 
 
 <table id="table_2649645FDED84B71952F741ABB3FC20E"> 
  <thead> 
@@ -837,7 +926,9 @@ New features in Analysis Workspace.
  </tbody> 
 </table>
 
-Fixes for April 2016
+## January 2016
+
+New features released on January 21, 2016. 
 
 * [Undo Actions](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482) 
 * [Link to This Project](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)

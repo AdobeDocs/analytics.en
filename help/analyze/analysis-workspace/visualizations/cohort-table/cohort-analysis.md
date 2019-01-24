@@ -12,11 +12,11 @@ snippet: y
 
 # What is cohort analysis?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of cohort analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)
 
-Examples of what you can do with cohort analysis:
+Examples of what you can do with Cohort Analysis:
 
 * Launch campaigns designed to spur a desired action. 
 * Shift marketing budget at exactly the right time in the customer lifecycle. 
@@ -40,7 +40,7 @@ A retention cohort report returns visitors: each data cell shows the raw number 
 
 ### Churn Table
 
-A Churn cohort is the inverse of a retention table and shows the visitor who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
+A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/churn-report.png)
 

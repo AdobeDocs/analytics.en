@@ -188,4 +188,31 @@ This is useful for teams who have one attribution model at the Channel level (to
 
 ## “None” in Attribution {#section_BC71DA030E45487AA3C3F6ED247A3C4A}
 
-The “none” line item is a catch-all line item that represents all conversions that occurred where no dimension value was present. Traditionally, the “none” line item has only existed on eVar reports or other dimensions that have persistence. When attribution models are applied, a “none” line item may appear where it may not have existed previously. This most commonly occurs when applying attribution models to props that introduce a “none” line item that was not present previously. 
+The “none” line item is a catch-all line item that represents all conversions that occurred where no dimension value was present. Traditionally, the “none” line item has only existed on eVar reports or other dimensions that have persistence. When attribution models are applied, a “none” line item may appear where it may not have existed previously. This most commonly occurs when applying attribution models to props that introduce a “none” line item that was not present previously.
+
+## Attribution for Multi-Valued Variables
+
+Some dimensions in Analytics can contain multiple values on a single hit such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level. Using U-Shaped (40/20/40) attribution as an example for a single visit: 
+
+| Hit Number | Multi-Valued Variable | Conversion Event | Percent of Credit for the Hit (U-shaped) 
+|--- |--- |---|---|
+|1|A,B,C|-|40%|
+|2|D|-|20%|
+|3|E,F|1|40%
+
+In this case A, B, and C were all set at the same time on hit 1, D was set alone on hit 2, and E and F were set on hit 3.
+
+Attribution IQ gives all of the percent credit for the hit to any values present on the hit. In our previous example, A, B, and C will all receive 40% or .4 conversions, D will receive 20% or .2 conversions, and E and F will each receive 40% of conversions or .4. A report using U-Shaped attribution on the hits above would produce the following report: 
+
+| Multi-Valued Variable |Conversions (U-shaped/Visit)| 
+|--- |---|
+|A|.4|
+|B|.4|
+|C|.4|
+|D|.2|
+|E|.4|
+|F|.4|
+|Total|1|
+
+ >[!NOTE]
+ >Due to the hit-level allocation of attribution models, the sum of each line item of your report may not equal the total due to each value receiving the total percent credit belonging to the hit in which it was contained. 

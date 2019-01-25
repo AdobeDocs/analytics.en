@@ -47,7 +47,7 @@ System requirements for Analysis Workspace.
    <td colname="col2"> <p> Browsers: </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
      <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferred: Latest versions of Firefox, Chrome, Safari, or Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Latest version of Microsoft Internet Explorer 11. <p>Note:  In January 2016, Adobe ended support for Internet Explorer 9 and 10. You can continue to use earlier browser versions, but Adobe will not be testing against earlier versions, and will not fix any issues with them. Your browser experience may degrade over time, and you run a security risk by using such a browser. Adobe strongly recommends that you upgrade to a supported version. </p> </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Latest version of Microsoft Internet Explorer 11. <p> Note:  Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
      <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> Cookies and JavaScript must be enabled. </li> 

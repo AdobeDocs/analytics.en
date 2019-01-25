@@ -25,6 +25,7 @@ user-guide-title: Analytics Analyze Guide
         + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
         + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
         + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
+        + [View Density](analysis-workspace/build-workspace-project/view-density.md)
     + Components {#components}
         + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
         + Dimensions {#dimensions}

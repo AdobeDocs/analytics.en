@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Color Palettes
+# Visualization Color Palette
 
 You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect Summary Change, conditional formatting in Freeform tables, and the Map visualization.
 
@@ -21,7 +21,7 @@ You can change the visualization color palette used in Workspace by choosing a d
 
 Keep in mind:
 
-* There are five pre-set color palettes to choose from. The default palette and the one below have been optimized for optimal contrast and are both more color-blind accessible. 
+* There are five pre-set color palettes to choose from. The default palette and the one below have been optimized for optimal contrast and are both more accessible for those who are color blind.
 * The third to the fifth color palettes below the top two have been optimized for color harmony.
 
 ## Change your color palette:

@@ -45,6 +45,8 @@ The Workspace project list page contains the following information:
 
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
 
+![](assets/projectinfo.png)
+
 **[!UICONTROL Project Info & Settings]** provides project-level information on the currently active project. 
 
 |  Setting  | Description  |
@@ -56,6 +58,7 @@ The Workspace project list page contains the following information:
 |  Description  | A description is useful for clarifying the purpose of a project. You can double-click the description to edit it.  |
 |  Count repeat instances in project  | Specifies whether repeat instances are counted in reports. If you have multiple sequential values for the same variable, you can count them either as one or as multiple instances of the variable.  |
 |  Visualization Color Scheme  | You can change the color scheme used in Workspace, by choosing from a different color palette or by specifying your own palette. This feature affects many things in Workspace, including most visualizations.  |
+| View Density | Lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. |
 
 ## Projects Menu {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 

@@ -79,7 +79,7 @@ In the **visitor lookback window**, all of the conversions are considered togeth
 
 Here is a summary of the results in table form:  
 
-|  Channel  | Revenue (Linear | Visit)  | Revenue (Linear | Visitor)  |
+|  Channel  | Revenue (Linear / Visit)  | Revenue (Linear / Visitor)  |
 |---|---|---|
 |  Search  | /$5.00  | /$4.74  |
 |  Display  | /$2.50  | /$3.62  |
@@ -198,7 +198,7 @@ Some dimensions in Analytics can contain multiple values on a single hit such as
 |--- |--- |---|---|
 |1|A,B,C|-|40%|
 |2|D|-|20%|
-|3|E,F|1|40%
+|3|E,F|1|40%|
 
 In this case A, B, and C were all set at the same time on hit 1, D was set alone on hit 2, and E and F were set on hit 3.
 

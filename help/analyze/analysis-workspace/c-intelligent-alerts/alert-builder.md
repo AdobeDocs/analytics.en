@@ -66,12 +66,11 @@ Set the alert's expiration date.
   *   anomaly exists
   *   anomaly is above expected
   *   anomaly is below expected
-  *   anomaly exceeds
   *   is above or equals
   *   is below or equals
   *   changes by
-* "Anomaly exceeds" is a new condition that goes beyond the existing (static) thresholds. It pulls in Anomaly Detection algorithms that dynamically define the trigger. You can set a threshold of 90%, 95%, 99%, 99.75%, and 99.9%.
-* Hourly granularities are set at a 99.75% threshold, and daily granularities at 99%.
+  *   You can set a threshold of 90%, 95%, 99%, 99.75%, and 99.9%.
+
   Note that you can also use calculated metrics.
 
 *... With These Filters*

@@ -194,7 +194,7 @@ The “none” line item is a catch-all line item that represents all conversion
 
 Some dimensions in Analytics can contain multiple values on a single hit such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level. Using U-Shaped (40/20/40) attribution as an example for a single visit: 
 
-| Hit Number | Multi-Valued Variable | Conversion Event | Percent of Credit for the Hit (U-shaped) 
+| Hit Number | Multi-Valued Variable | Conversion Event | Percent of Credit for the Hit (U-shaped) |
 |--- |--- |---|---|
 |1|A,B,C|-|40%|
 |2|D|-|20%|

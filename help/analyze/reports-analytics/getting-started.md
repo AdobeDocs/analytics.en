@@ -49,7 +49,7 @@ requirements.xml
     
       >[!NOTE]
       >
-      >In January 2016, Adobe ended support for Internet Explorer 9 and 10. You can continue to use earlier browser versions, but Adobe will not be testing against earlier versions, and will not fix any issues with them. Your browser experience may degrade over time, and you run a security risk by using such a browser. Adobe strongly recommends that you upgrade to a supported version.
+      >Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
 
 * Cookies and JavaScript must be enabled. 
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).

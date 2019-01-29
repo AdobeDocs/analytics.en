@@ -161,7 +161,7 @@ Table data describing the columns in the data feed.
 |post_ columns|Contains the value ultimately used in reports. Each post column is populated after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases.|See respective non-post column|
 |prev_page|Not used. Adobe proprietary identifier of the previous page.|int(10) unsigned|
 |product_list|Product list as passed in through the products variable. Products are delimited by commas while individual product properties are delimited by semicolons.|text|
-|post_product_list|Product list as passed in through the products variable. Products are delimited by commas while individual product properties are delimited by semicolons.|mediumtext (16MB). Note: This field type (currently 'text') takes effect on January 7th, 2019.|
+|post_product_list|Product list as passed in through the products variable. Products are delimited by commas while individual product properties are delimited by semicolons.|mediumtext (16MB). Note: This field type (currently 'text') takes effect on February 7th, 2019.|
 |product_merchandising|Not used. Use product_list instead.|None|
 |prop1-prop75|Custom traffic variables 1-75.|varchar(100)|
 |purchaseid|Unique identifier for a purchase, as set using the s_purchaseID variable. Used by the duplicate_purchase column.|varchar(20)|

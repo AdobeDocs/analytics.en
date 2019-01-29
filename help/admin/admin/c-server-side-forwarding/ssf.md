@@ -24,6 +24,9 @@ Server-side forwarding improves upon data collection because it:
 >
 >Current Audience Manager customers who use Analytics should migrate to server-side forwarding. New Adobe Analytics and Audience Manager customers should implement server-side forwarding (instead of DIL) as the default data collection and transfer method.
 
+>[!IMPORTANT]
+>Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see GDPR_ePrivacy compliance and server-side forwarding.
+
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 
 <table id="table_1202921AB8D34AC58C0FED2E665AA8EF"> 

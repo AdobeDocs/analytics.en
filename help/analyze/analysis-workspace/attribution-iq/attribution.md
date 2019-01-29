@@ -204,7 +204,7 @@ In this case A, B, and C were all set at the same time on hit 1, D was set alone
 
 Attribution IQ gives all of the percent credit for the hit to any values present on the hit. In our previous example, A, B, and C will all receive 40% or .4 conversions, D will receive 20% or .2 conversions, and E and F will each receive 40% of conversions or .4. A report using U-Shaped attribution on the hits above would produce the following report: 
 
-| Multi-Valued Variable |Conversions (U-shaped/Visit)| 
+| Multi-Valued Variable |Conversions (U-shaped/Visit)|
 |--- |---|
 |A|.4|
 |B|.4|

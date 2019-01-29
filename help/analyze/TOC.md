@@ -101,11 +101,11 @@ user-guide-title: Analytics Analyze Guide
             + [Contribution Analysis overview](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
             + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
             + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-    + Intelligent Alerts {#intelligent-alerts}
-        + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-        + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-        + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-        + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+        + Intelligent Alerts {#intelligent-alerts}
+            + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+            + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+            + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+            + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
     + [Frequently asked questions](analysis-workspace/faq.md)
     + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
     + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)

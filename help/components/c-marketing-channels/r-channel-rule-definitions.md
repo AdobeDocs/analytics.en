@@ -31,6 +31,14 @@ This reference table defines the fields, options, and hit attributes you can sel
   <tr> 
    <td colname="col1"> <p>Any </p> </td> 
    <td colname="col2"> <p>Activates this channel when any of the rules in the rule set are true. This option is available only if more than one rule exists in the numbered rule. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>AMO ID </p> </td> 
+   <td colname="col2"> <p>The primary tracking code used by the Advertising Cloud and Advertising Analytics integrations. When one of these integrations is enabled, then the tracking code prefix can be used to identify Advertising Cloud specific channels. Use "AMO ID" starts with "AL" for Search, "AC" for Display, or "AO" for Social. When the AMO ID is used in marketing channels the click/cost/impression metrics can be attributed to the correct channel (when not configured, these metrics will go to Direct or None). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>AMO ED ID </p> </td> 
+   <td colname="col2"> <p>The secondary tracking code used by Advertising Cloud. The main purpose of this tracking code is to serve as the key for sending data back to Ad Cloud. It can however also be used to identify display ClickThroughs vs. display ViewThroughs if you desire to see these as two separate marketing channels. This can be done by setting the marketing channel logic for "AMO EF ID" ends with ":d" for Display ClickThroughs or "AMO EF ID" ends with ":i" for Display ViewThroughs. If you do not desire to split Display into two channels, then use the AMO ID dimension instead. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conversion Variables </p> </td> 

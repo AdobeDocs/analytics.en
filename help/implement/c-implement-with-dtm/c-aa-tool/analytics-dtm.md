@@ -1,7 +1,7 @@
 ---
-description: Deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+description: Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
-seo-description: Deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+seo-description: Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 seo-title: Add Adobe Analytics tool
 solution: Analytics
 title: Add Adobe Analytics tool
@@ -14,11 +14,11 @@ snippet: y
 
 # Add Adobe Analytics tool
 
-Deploy Adobe Analytics (Standard and Premium) using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
+Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 
 >[!NOTE]
 >
->For improved visitor tracking, it is strongly recommended that you enable [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>For improved visitor tracking, we strongly recommend that you enable [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -102,24 +102,3 @@ You can edit an existing Adobe Analytics tool to change its configuration settin
 
 1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]). 
 1. Click **[!UICONTROL Save Changes]**.
-
-## Enable Adobe Analytics Premium {#section_AEAA44566B5A46D2922E17A11D7EA217}
-
-The following table displays the number of eVars and events available in each [!DNL Analytics] account type: 
-
-|   | [!DNL Adobe Analytics (Point Product)]  | [!DNL Adobe Analytics] (Standard)  | [!DNL Adobe Analytics Premium]  |
-|---|---|---|---|
-| **eVars** | 75  | 100  | 250  |
-| **Events** | 100  | 1,000  | 1,000  |
-
-You add the [!DNL Adobe Analytics Premium] tool using dynamic tag management the same way you add [!DNL Adobe Analytics] (Standard). In order to get the [!DNL Analytics Premium] functionality (if applicable), you must do the following:
-
-* Use the [!UICONTROL Automatic] configuration method (explained above). 
-* Use the [!UICONTROL Experience Cloud] or [!UICONTROL Web Services] authentication method (explained above).
-
-There is no "switch" to enable [!UICONTROL Analytics Premium] functionality. Verification is done behind the scenes by API checks via the automatic configuration. The additional eVars are added to the UI if the account is authenticated as an [!UICONTROL Analytics Premium] customer.
-
->[!NOTE]
->
->If you downgrade to standard [!UICONTROL Analytics] in the future, the added premium eVars that are out of the standard range will be grayed out in both tools/rules. You can view any configured variables that are now out of range and make any necessary changes to an in-range variable. You cannot add or edit any of these out-of-range variables, but you will be able to view them and delete them.
-

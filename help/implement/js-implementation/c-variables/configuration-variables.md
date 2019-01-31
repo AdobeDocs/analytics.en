@@ -346,11 +346,7 @@ If the *`charSet`* variable contains an incorrect value, the data in all other v
 |--- |--- |--- |--- |
 |N/A|CE|N/A|""|
 
-The *`charSet`* variable is used to identify the character set of the page. For more information on character sets, see the [Multi-byte Character Sets](https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/) white paper before using the charSet variable.
-
 ## Syntax and Possible Values {#section_EBC2176067A04D9E814CF78A86DC80FA}
-
-The *`charSet`* variable may only contain one of a predefined set of values, as listed in [Multi-byte Character Sets](https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/).
 
 ```js
 s.charSet="character_set"
@@ -365,12 +361,6 @@ s.charSet="ISO-8859-1"
 ```js
 s.charSet="SJIS"
 ```
-
-## Pitfalls, Questions, and Tips {#section_E348298D2C634100AF62DFBA2EC446AF}
-
-* The value of *`charSet`* must match the possible values listed in [Multi-byte Character Sets](https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/). 
-
-* The value of *`charSet`* should reflect the character set of the page.
 
 ## s.currencyCode {#concept_CE216F1610E2499D8178DB9A8EB97C63}
 

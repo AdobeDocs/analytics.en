@@ -13,21 +13,17 @@ snippet: y
 
 Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
 
-* [Analysis Workspace: Paid Search Template](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#section_8173F42B2C784F41B9FD82CBB66F9ADF) 
-* [Reports & Analytics](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#section_BB2E75DF909C49EA8D4E92D14D6DFD85) 
-* [Report Builder](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#section_8E0371CF81144C33990D909685D1726E)
-
 >[!NOTE]
 >
 >You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports. Note also that Analytics reporting will not return data for hourly granularity, because the AMO data does not support hourly granularity.
 
-## Analysis Workspace: Paid Search Template {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Analysis Workspace: Search Engines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-This template lets anyone who implements this Search Engine integration get access to copious Search engine data within Analytics. You can access it via **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Marketing Performance]** > **[!UICONTROL Paid Search Performance.]**
+This template lets anyone who implements this Search Engine integration get access to copious Search engine data within Analytics. You can access it via **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** > **[!UICONTROL Search Engines.]**
 
 >[!NOTE]
 >
->The Marketing Performance Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Paid Search Performance template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
+>The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

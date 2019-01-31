@@ -17,7 +17,7 @@ Here are instructions on helping you to locate your account IDs for Google, Bing
 
 >[!IMPORTANT]
 >
->Google AdWords uses two types of accounts: a) MCC (My Client Center) Account and b) Standard Account. For this integration with Adobe Analytics, **you must use a Standard Account login, not an MCC Account login**. The reason is that MCC accounts act as an "umbrella" account that can access multiple AdWords accounts with a single login, whereas the Standard account login can access only one AdWords account per login.
+>Google AdWords uses two types of accounts: a) MCC (My Client Center) Account and b) Standard Account. For this integration with Adobe Analytics, **you must use a Standard Account login, not an MCC Account login**. The reason is that an MCC account acts as an "umbrella" account that can access multiple AdWords accounts with a single login, whereas the Standard account login can access only one AdWords account per login.
 
 Click the Account icon on the top right to view the AdWords account number (Customer ID).
 

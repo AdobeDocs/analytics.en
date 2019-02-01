@@ -21,7 +21,7 @@ The following shows how enabling the "Metrics Sort" option will reorder rows in 
 There are four possible ways that Data Warehouse reports may be organized with "Metrics Sort", based on how date granularity, reporting dimensions, or metrics are configured, and whether "Max rows" is set:
 
 * **Layout 1**: Line items are sorted in dictionary order (default). If "Max rows" is set, only the first N rows are provided in the report. 
-* ** Layout 2**: Data Warehouse applies a metric sort over all rows in the report. Ties in the first metric value are broken by the 2nd metric, and then the 3rd, and so on. When all metrics are tied, the standard dictionary ordering of breakdown line items is applied. 
+* **Layout 2**: Data Warehouse applies a metric sort over all rows in the report. Ties in the first metric value are broken by the 2nd metric, and then the 3rd, and so on. When all metrics are tied, the standard dictionary ordering of breakdown line items is applied. 
 * **Layout 3**: As Layout 2, with only the top N rows (i.e., the number set in "max rows") being output in the report. 
 * **Layout 4**: As Layout 2, with the exception that line items for each date granularity period are grouped together and sorted within that respective time range.
 

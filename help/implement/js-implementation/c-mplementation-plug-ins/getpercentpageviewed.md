@@ -61,7 +61,7 @@ The getPercentPageViewed plugin creates a cookie, called s_ppv, that is passed f
 if(s._ppvPreviousPage) 
 { 
 s.prop1 = s._ppvPreviousPage; 
-s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;	  
+s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercentViewed="s._ppvInitialPercentViewed;	  
 }  
 ```
 

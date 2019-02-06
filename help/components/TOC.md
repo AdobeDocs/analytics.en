@@ -109,7 +109,7 @@ user-guide-title: Analytics Components Guide
 + Variables {#variables}
     + Dimensions/Reports {#dimensions-reports}
         + [Dimension Descriptions](c-variables/dimensionslist/reports-descriptions.md)
-        + [Reporting Best Practices and Troubleshooting](c-variables/dimensionslist/report-troubleshooting.md)
+        + [Dimension Compatibility](c-variables/dimensionslist/dimension-compatibility.md)
         + [Account Activity](c-variables/dimensionslist/report-account-activity.md)
         + [Anomaly Detection](c-variables/dimensionslist/anomaly.md)
         + [Report Categories](c-variables/dimensionslist/reports-types.md)

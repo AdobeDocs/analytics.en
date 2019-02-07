@@ -178,65 +178,65 @@ Please keep in mind that
 
 Reports & Analytics contains multiple pre-configured reports that either do not map to a specific dimension, or the report uses a class of dimensions. These reports are listed here:
 
-- Bookmark URL Length
-- Browsers
-- Browser Types
-- Campaign Conversion Funnel
-- Cart Conversion Funnel
-- Cities
-- Clicks to Page
-- Countries
-- Cross Sell
-- Custom Events Funnel
-- Decoration Mail Support
-- Device Number Transmit (ON/OFF)
-- Domains
-- DRM
-- Entry Pages
-- Exit Pages
-- Fallout
-- Full Paths
-- ICities
-- Information Services
-- Java Version
-- Languages
-- Longest Paths
-- Media Concurrent Viewers
-- Media Daypart
-- Media Detail
-- Media Overview
-- Monitor Resolutions
-- Net Protocols
-- Netscape Plug-Ins
-- Next Page
-- Next Page Flow
-- Operating Systems
-- Operating System Types
-- Page Depth
-- Page Summary
-- PathFinder
-- Previous Page Flow
-- Previous Page
-- PTT
-- Products Conversion Funnel
-- Purchase Conversion Funnel
-- Referring Domains
-- Regions
-- Reloads
-- Search Engines - All
-- Search Engines - Natural
-- Search Engines - Paid
-- Search Keywords - All
-- Search Keywords - Natural
-- Search Keywords - Paid
-- Target Activity Details
-- Time Spent on Page
-- Time Zones
-- Top Level Domains
-- U.S. DMA
-- U.S. States
-- Visit Number
-- Visitor Home Page
+* Bookmark URL Length
+* Browsers
+* Browser Types
+* Campaign Conversion Funnel
+* Cart Conversion Funnel
+* Cities
+* Clicks to Page
+* Countries
+* Cross Sell
+* Custom Events Funnel
+* Decoration Mail Support
+* Device Number Transmit (ON/OFF)
+* Domains
+* DRM
+* Entry Pages
+* Exit Pages
+* Fallout
+* Full Paths
+* ICities
+* Information Services
+* Java Version
+* Languages
+* Longest Paths
+* Media Concurrent Viewers
+* Media Daypart
+* Media Detail
+* Media Overview
+* Monitor Resolutions
+* Net Protocols
+* Netscape Plug-Ins
+* Next Page
+* Next Page Flow
+* Operating Systems
+* Operating System Types
+* Page Depth
+* Page Summary
+* PathFinder
+* Previous Page Flow
+* Previous Page
+* PTT
+* Products Conversion Funnel
+* Purchase Conversion Funnel
+* Referring Domains
+* Regions
+* Reloads
+* Search Engines - All
+* Search Engines - Natural
+* Search Engines - Paid
+* Search Keywords - All
+* Search Keywords - Natural
+* Search Keywords - Paid
+* Target Activity Details
+* Time Spent on Page
+* Time Zones
+* Top Level Domains
+* U.S. DMA
+* U.S. States
+* Visit Number
+* Visitor Home Page
 
 ## Content-aware dimensions supported by both Reports & Analytics and Analysis Workspace
 

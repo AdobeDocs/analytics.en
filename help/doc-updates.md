@@ -21,4 +21,4 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 |----------|----------------------------------|
 | Feb. 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md).|
 | Feb. 1, 2019 | Major update to the [getPercentPageViewed](/help/implement/js-implementation/c-mplementation-plug-ins/getpercentpageviewed.md) implementation plug-in.|
-| Jan. 17, 2019| Major update to [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md).
+| Jan. 17, 2019| Major update to [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md).|

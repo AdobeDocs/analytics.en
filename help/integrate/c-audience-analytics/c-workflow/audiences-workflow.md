@@ -26,7 +26,7 @@ How to provision, share, and use the audience data.
   <tr> 
    <td colname="col1"> <p><img placement="break" align="center"  src="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> </p> </td> 
    <td colname="col2"> <p>Turn on server-side forwarding. </p> </td> 
-   <td colname="col3"> <p>See <a href="../../../integrate/c-audience-analytics/c-workflow/ssf.md#concept_9563FCADF29748928E770EC5221B2685" format="dita" scope="local"> Server-Side Forwarding</a>. </p> </td> 
+   <td colname="col3"> <p>See <a href="/help/admin/admin/c-server-side-forwarding/ssf.md" format="dita" scope="local"> Server-Side Forwarding</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="break" align="center"  src="assets/step2_icon.png" id="image_372B2C65DFAD46E39AE4D715313ABD0E" /> </p> </td> 

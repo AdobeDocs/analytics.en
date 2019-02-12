@@ -56,7 +56,7 @@ The Success Events page lets you configure the Event variables used on your site
   </tr> 
   <tr> 
    <td colname="col1"> Polarity </td> 
-   <td colname="col2"> <p>Metric polarity allows you to indicate whether Adobe Analytics should consider it good or bad if a given custom event (metric) goes up. It will allow Adobe Analytics to show directional indicators (arrows) for various metrics to add context (for example, week over week comparisons. </p> <p>Examples: if "Bugs Submitted" goes up week over week, should Adobe Analytics consider that good, or bad? An increase in Email Registrations is probably good. But an increase in Form Submission Errors is probably bad. </p> </td> 
+   <td colname="col2"> <p>Metric polarity allows you to indicate whether Adobe Analytics should consider it good or bad if a given custom event (metric) goes up. It will allow Adobe Analytics to show directional indicators (arrows) for various metrics to add context (for example, week over week comparisons. </p> <p>Examples: if "Bugs Submitted" goes up week over week, should Adobe Analytics consider that good, or bad? An increase in Email Registrations is probably good. But an increase in Form Submission Errors is probably bad. </p> <p>In Analysis Workspace, polarity is applied to: Freeform Table conditional formatting, Summary Change visualizations, and the Map visualization's Positive/Negative color scheme.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Description </td> 

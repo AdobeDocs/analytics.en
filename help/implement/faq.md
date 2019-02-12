@@ -24,7 +24,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I manage Analytics users and groups? </p> </td> 
-   <td colname="col3"> <p>For information about managing users and groups, refer to <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> Manage Experience Cloud users and products </a> in the Adobe Experience Cloud help. </p> </td> 
+   <td colname="col3"> <p>For information about managing users and groups, refer to <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external"> User and Product Management </a> in the Adobe Experience Cloud help. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>eVar Expiration - Why are the eVars getting attributed to ‘None’ in the reports? </p> </td> 
@@ -132,7 +132,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> What is a 500 error? </td> 
-   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=pageType" format="http" scope="external"> pageType variable </a> </td> 
+   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=pageType" format="http" scope="external">See pageType variable </a> </td> 
   </tr> 
  </tbody> 
 </table>

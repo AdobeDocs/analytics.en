@@ -13,6 +13,9 @@ snippet: y
 
 # Entries and Exits
 
+>[!NOTE]
+>For hits with multiple values in the products variable, Entries and Exits apply to all product values in a hit instead of only the first one.
+
 The Entry Page report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visits.
 
 You can view:
@@ -23,7 +26,7 @@ You can view:
 
 * **Original Entry Pages**: Shows the first page viewed for first-time visitors to your site. Each user is counted only once unless they delete their cookies or are not being tracked with cookies. 
 * **Single Page Visits**: Shows pages that are most often both the entry and exit pages for visitor browsing sessions. 
-* ** Exit Pages**: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site. Exit pages have a visit breakdown scope, meaning they persist across all hits for a visit.
+* **Exit Pages**: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site. Exit pages have a visit breakdown scope, meaning they persist across all hits for a visit.
 
 **Metrics on an Entry Pages Report**
 

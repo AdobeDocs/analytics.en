@@ -55,7 +55,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
  </tbody> 
 </table>
 
-1. In the [!UICONTROL Tracking] section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data. 
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data. 
    Fill in the **[!UICONTROL Tracking Settings]** following these guidelines: 
 
 <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
@@ -85,7 +85,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
 
    >[!IMPORTANT]
    >
-   >Only report suites that have been [mapped to an Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) will be available for selection. If you do not see your report suite listed, refer to Troubleshooting Advertising Analytics.
+   >Only report suites that have been [mapped to an Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) will be available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    For the **[!UICONTROL Mapping Settings]** following these guidelines: 
 
@@ -111,5 +111,5 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
 
 >[!NOTE]
 >
->You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports.
+>You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
 

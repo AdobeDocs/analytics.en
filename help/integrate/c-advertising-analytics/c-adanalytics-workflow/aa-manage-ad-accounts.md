@@ -25,7 +25,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Actions</b> </p> </td> 
-   <td colname="col2"> <p><b>Actions display only if you have selected at least one advertising account. </b> </p> </td> 
+   <td colname="col2"> <p><b>Note: Actions display only if you have selected at least one advertising account. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Add </p> </td> 

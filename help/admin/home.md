@@ -18,7 +18,7 @@ This guide covers all Adobe Analytics Admin configuration tasks, such as setting
 ## Analytics user guides
 
 | User Guide | Description |
-|--- |---|
+|--- |--- |
 | [Analysis Workspace Guide](../analyze/home.md) | This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics. |
 | *[Admin Guide](../admin/home.md)* | *This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance.* |
 | [Implementation Guide](../implement/home.md) | This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |

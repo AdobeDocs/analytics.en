@@ -23,14 +23,14 @@ The following table outlines the libraries available to collect Analytics data a
   <tr> 
    <th colname="col1" class="entry"> Platform </th> 
    <th colname="col2" class="entry"> Data Collection Options </th> 
-   <th colname="col3" class="entry"> How to Download </th> 
+   <th colname="col3" class="entry"> How to Download </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Web Browser </td> 
    <td colname="col2"> <p>All Experience Cloud customers have access to <a href="https://docs.adobelaunch.com/getting-started" format="http" scope="external"> Launch</a>, which is the standard for deploying JavaScript and HTML page tags for all solutions to your website. </p> <p>Other ways of implementing JavaScript and HTML measurement are described in the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="http" scope="external"> Analytics Implementation Guide</a>. </p> </td> 
-   <td colname="col3"> <p> <b>JavaScript</b>: <a href="https://sc.omniture.com/login/" format="https" scope="external"> Log in to Analytics</a> &gt; Admin &gt; Code Manager. </p> </td> 
+   <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Web Server </td> 
@@ -79,7 +79,7 @@ The following table outlines the libraries available to collect Analytics data a
    <td colname="col1"> Image Tags </td> 
    <td colname="col2"> <p>You can insert image tags directly into HTML content when using a library is not possible. </p> 
     <ul id="ul_D406BCF91A40405F8F4408DCD2CBF8F1"> 
-     <li id="li_B8BE3752096F4273B4B71816267ADCDD"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=implscwojs" format="http" scope="external"> Implementing Analytics without JavaScript</a> </li> 
+     <li id="li_B8BE3752096F4273B4B71816267ADCDD"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=implscwojs" format="http" scope="external"> Implement Analytics without JavaScript</a> </li> 
     </ul> </td> 
    <td colname="col3"> <p>No additional code required. </p> </td> 
   </tr> 

@@ -100,7 +100,7 @@ Answers to questions you might have when implementing Audience Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Why do I see "Audience limit reached" in my Analytics report (and “1” in my Audience ID report)?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Why do I see "Audience limit reached" in my Analytics report? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>By default, the Audience Analytics integration for AAM sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 AAM segments on a single hit, the <b>150 most recently qualified segments</b> are sent to Analytics, while the remaining list is truncated. </p> <p>An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as “Audience limit reached” in the Audience Name dimension and “-1” in the Audience ID dimension. </p> <p>While it is unlikely that a visitor qualifies for more than 150 segments on a particular hit, it may happen a small percentage of the time. If you experience “Audience limit reached” in your reporting, you have two options: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Continue to let the integration work in its out-of-the-box state, sending the 150 most recently qualified segments for a particular visitor. </li> 

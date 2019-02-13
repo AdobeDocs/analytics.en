@@ -58,11 +58,11 @@ The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed
 **Sample Call 1**
 
 ```
-if(s.pageName) s.getPercentPageViewed(); 
-if(s._ppvPreviousPage) 
-{ 
-s.prop1 = s._ppvPreviousPage; 
-s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercentViewed="s._ppvInitialPercentViewed;	  
+if(s.pageName) s.getPercentPageViewed();
+if(s._ppvPreviousPage)
+{
+s.prop1 = s._ppvPreviousPage;
+s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercentViewed="s._ppvInitialPercentViewed;
 }  
 ```
 
@@ -84,9 +84,9 @@ Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather
 The following code determines if s.prop5 has been set and, if so, stores its value as the "previous page" to correlate with the Highest Percentage Viewed and the Initial Percentage Viewed dimensions. The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
 
 ```
-if(s._ppvPreviousPage) 
-{ 
-s.prop1 = s._ppvPreviousPage; 
+if(s._ppvPreviousPage)
+{
+s.prop1 = s._ppvPreviousPage;
 s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
 }  
 ```

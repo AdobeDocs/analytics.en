@@ -64,7 +64,7 @@ You can use out-of the-box templates or create your own custom templates.
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
 * [Cohort Analysis](../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
 * [Anomaly Detection and Contribution Analysis](../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E) 
-* [Intelligent Alerts](../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+* [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 
 **Video links:**
 
@@ -79,7 +79,7 @@ You can use out-of the-box templates or create your own custom templates.
 * [Compare Segments (Segment IQ)](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 
 * [Cohort Analysis](../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) 
 * [Anomaly Detection and Contribution Analysis](../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E) 
-* [Intelligent Alerts](../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42)
+* [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 
 **Video links:**
 

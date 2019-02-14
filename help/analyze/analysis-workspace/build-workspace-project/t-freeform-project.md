@@ -170,7 +170,7 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Create alert from selection</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Create alert from selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

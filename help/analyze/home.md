@@ -5,11 +5,11 @@ description: null
 seo-description: null
 ---
 
-# Analysis Workspace Guide
+# Analyze Guide
 
 This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
 
-## Key Analysis Workspace articles
+## Key Analyze articles
 
 <!--
 * [Admin Getting Started](admin/c-admin-tools.md)
@@ -21,7 +21,7 @@ This guide features all the analysis tools you can use in Adobe Analytics. First
 
 | User Guide | Description |
 |--- |---|
-| *[Analysis Workspace Guide](../analyze/home.md)* | *This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.* |
+| *[Analyze Guide](../analyze/home.md)* | *This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.* |
 | [Admin Guide](../admin/home.md) | This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
 | [Implementation Guide](../implement/home.md) | This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |
 | [Components Guide](../components/home.md) | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |

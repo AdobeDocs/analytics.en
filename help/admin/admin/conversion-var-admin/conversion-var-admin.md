@@ -7,9 +7,6 @@ solution: Analytics
 title: Conversion Variables (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion Variables (eVar)

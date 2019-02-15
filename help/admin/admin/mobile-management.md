@@ -6,9 +6,6 @@ solution: Analytics
 title: Mobile Management
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Management

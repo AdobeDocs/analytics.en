@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Events
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Events

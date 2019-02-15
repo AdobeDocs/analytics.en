@@ -6,9 +6,6 @@ solution: Analytics
 title: Manage traffic
 topic: Admin tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage traffic

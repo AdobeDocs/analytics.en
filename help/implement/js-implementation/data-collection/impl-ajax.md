@@ -7,9 +7,6 @@ solution: Analytics
 title: Implementing with AJAX
 topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing with AJAX

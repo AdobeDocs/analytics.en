@@ -6,9 +6,6 @@ solution: Analytics
 title: Filter segments
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter segments

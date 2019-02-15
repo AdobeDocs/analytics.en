@@ -6,9 +6,6 @@ solution: Analytics
 title: Page Summary
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Summary

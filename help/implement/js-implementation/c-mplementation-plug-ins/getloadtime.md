@@ -7,9 +7,6 @@ solution: Analytics
 title: getLoadTime
 topic: Developer and implementation
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-index: y
-internal: n
-snippet: y
 ---
 
 # getLoadTime

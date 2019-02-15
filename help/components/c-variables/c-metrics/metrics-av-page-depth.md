@@ -6,9 +6,6 @@ solution: Analytics
 title: Average Page Depth
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-index: y
-internal: n
-snippet: y
 ---
 
 # Average Page Depth

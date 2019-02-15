@@ -6,9 +6,6 @@ solution: Analytics
 title: Uninstall Report Builder
 topic: Report builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
-index: y
-internal: n
-snippet: y
 ---
 
 # Uninstall Report Builder

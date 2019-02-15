@@ -6,9 +6,6 @@ solution: Analytics
 title: Customer segmentation
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-index: y
-internal: n
-snippet: y
 ---
 
 # Customer segmentation

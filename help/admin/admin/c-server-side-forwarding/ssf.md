@@ -5,9 +5,6 @@ seo-title: Server-side forwarding overview
 solution: Audience Manager
 title: Server-side forwarding overview
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-index: y
-internal: n
-snippet: y
 ---
 
 # Server-side forwarding overview

@@ -6,9 +6,6 @@ seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Connectors

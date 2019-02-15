@@ -4,9 +4,6 @@ seo-description: Add or manage server all usage alerts. When you set up an alert
 seo-title: Server Call Usage alerts
 title: Server Call Usage alerts
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-index: y
-internal: n
-snippet: y
 ---
 
 # Server Call Usage alerts

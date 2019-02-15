@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: doPlugins Function
 topic: Developer and implementation
 uuid: 367d5550-f8e2-477d-8681-18ae9665d699
-index: y
-internal: n
-snippet: y
 ---
 
 # doPlugins Function

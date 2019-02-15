@@ -6,9 +6,6 @@ solution: Analytics
 title: Time Spent on Site Section
 topic: Reports
 uuid: e8820dc6-7ecd-4d4c-9a40-96f008c5ddd3
-index: y
-internal: n
-snippet: y
 ---
 
 # Time Spent on Site Section

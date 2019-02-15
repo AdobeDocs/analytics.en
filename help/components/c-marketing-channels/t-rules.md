@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Create Marketing Channel processing rules
 topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Marketing Channel processing rules

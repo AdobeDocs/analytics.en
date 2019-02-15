@@ -6,9 +6,6 @@ solution: Analytics
 title: Configure real-time reports
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure real-time reports

@@ -4,9 +4,6 @@ seo-description: A site or application walk-through is a key step in the impleme
 seo-title: Review website or application
 title: Review website or application
 uuid: 52adfc08-5cae-47cc-8d9d-4b66f597728a
-index: y
-internal: n
-snippet: y
 ---
 
 # Review website or application

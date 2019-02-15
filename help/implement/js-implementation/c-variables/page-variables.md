@@ -8,9 +8,6 @@ subtopic: Variables
 title: Page variables
 topic: Developer and implementation
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
-index: y
-internal: n
-snippet: y
 ---
 
 # Page variables

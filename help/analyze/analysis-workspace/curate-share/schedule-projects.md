@@ -7,9 +7,6 @@ solution: Analytics
 title: Scheduled projects manager
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-index: y
-internal: n
-snippet: y
 ---
 
 # Scheduled projects manager

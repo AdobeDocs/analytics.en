@@ -6,9 +6,6 @@ solution: Analytics
 title: Most popular filtering
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-index: y
-internal: n
-snippet: y
 ---
 
 # Most popular filtering

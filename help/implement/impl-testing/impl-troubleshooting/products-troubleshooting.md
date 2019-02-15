@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Common mistakes in the Products variable
 topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
-index: y
-internal: n
-snippet: y
 ---
 
 # Common mistakes in the Products variable

@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Processing rules tips and tricks
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing rules tips and tricks

@@ -8,9 +8,6 @@ subtopic: data feeds
 title: Data Feed contents - overview
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Feed contents - overview

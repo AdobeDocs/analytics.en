@@ -6,9 +6,6 @@ seo-title: Ad Hoc Analysis delivered reports
 solution: Analytics
 title: Ad Hoc Analysis delivered reports
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
-index: y
-internal: n
-snippet: y
 ---
 
 # Ad Hoc Analysis delivered reports

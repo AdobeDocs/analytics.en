@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Traffic
 topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Traffic

@@ -4,9 +4,6 @@ seo-description: Analytics and Audience Manager both use segments. However, an A
 seo-title: Understand segments in Analytics and Audience Manager
 title: Understand segments in Analytics and Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-index: y
-internal: n
-snippet: y
 ---
 
 # Understand segments in Analytics and Audience Manager

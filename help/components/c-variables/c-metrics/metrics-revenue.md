@@ -6,9 +6,6 @@ solution: Analytics
 title: Revenue
 topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
-index: y
-internal: n
-snippet: y
 ---
 
 # Revenue

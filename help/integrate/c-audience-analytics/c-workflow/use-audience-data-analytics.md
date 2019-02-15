@@ -5,9 +5,6 @@ seo-title: Use the audience data in Analytics
 solution: Marketing Cloud
 title: Use the audience data in Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Use the audience data in Analytics

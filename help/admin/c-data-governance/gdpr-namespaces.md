@@ -4,9 +4,6 @@ seo-description: Each ID that you want to be able to search for is assigned a na
 seo-title: Namespaces
 title: Namespaces
 uuid: cab61844-3209-4980-b14c-6859de777606
-index: y
-internal: n
-snippet: y
 ---
 
 # Namespaces

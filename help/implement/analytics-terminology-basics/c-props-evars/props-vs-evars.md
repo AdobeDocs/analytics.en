@@ -7,9 +7,6 @@ solution: Analytics
 title: Comparing Props and eVars
 topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Comparing Props and eVars

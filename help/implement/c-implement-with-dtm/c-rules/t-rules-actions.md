@@ -6,9 +6,6 @@ seo-title: Set up actions for the condition to trigger
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Set up actions for the condition to trigger
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up actions for the condition to trigger

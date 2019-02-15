@@ -7,9 +7,6 @@ solution: Analytics
 title: Visit
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Visit

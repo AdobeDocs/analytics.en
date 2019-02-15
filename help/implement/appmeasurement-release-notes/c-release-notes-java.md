@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Java
 topic: Developer and implementation
 uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
-index: y
-internal: n
-snippet: y
 ---
 
 # Java{#java}

@@ -7,9 +7,6 @@ solution: Analytics
 title: Implementation acceptance
 topic: Developer and implementation
 uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementation acceptance

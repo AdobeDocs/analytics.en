@@ -6,9 +6,6 @@ solution: Analytics
 title: Data Warehouse overview
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Warehouse overview

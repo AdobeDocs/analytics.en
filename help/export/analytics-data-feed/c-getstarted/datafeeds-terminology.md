@@ -6,9 +6,6 @@ seo-title: Terminology
 solution: Analytics
 title: Terminology
 uuid: 87368708-aaac-40a5-bd00-b0964bcf3507
-index: y
-internal: n
-snippet: y
 ---
 
 # Terminology

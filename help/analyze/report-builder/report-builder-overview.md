@@ -4,9 +4,6 @@ solution: Analytics
 title: Adobe Report Builder help
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Report Builder help{#adobe-report-builder-help}

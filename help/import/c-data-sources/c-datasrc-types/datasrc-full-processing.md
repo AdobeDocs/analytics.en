@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Full processing
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-index: y
-internal: n
-snippet: y
 ---
 
 # Full processing

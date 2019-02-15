@@ -6,9 +6,6 @@ seo-title: Test rules for library download or FTP
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Test rules for library download or FTP
 uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
-index: y
-internal: n
-snippet: y
 ---
 
 # Test rules for library download or FTP

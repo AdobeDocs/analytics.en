@@ -7,9 +7,6 @@ solution: Analytics
 title: Hide report suites
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
-index: y
-internal: n
-snippet: y
 ---
 
 # Hide report suites

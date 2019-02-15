@@ -6,9 +6,6 @@ solution: Analytics
 title: Troubleshooting and best practices for Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting and best practices for Report Builder

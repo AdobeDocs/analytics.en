@@ -7,9 +7,6 @@ solution: Analytics
 title: Alerts
 topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Alerts

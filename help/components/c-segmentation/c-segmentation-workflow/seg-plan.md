@@ -6,9 +6,6 @@ solution: Analytics
 title: Plan segments
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-index: y
-internal: n
-snippet: y
 ---
 
 # Plan segments

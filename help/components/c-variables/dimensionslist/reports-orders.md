@@ -6,9 +6,6 @@ solution: Analytics
 title: Orders
 topic: Reports
 uuid: de7786c5-8fa3-4d96-977d-4a6b1d033028
-index: y
-internal: n
-snippet: y
 ---
 
 # Orders

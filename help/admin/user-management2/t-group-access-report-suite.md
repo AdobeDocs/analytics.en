@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Assign user groups to a report suite
 topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Assign user groups to a report suite

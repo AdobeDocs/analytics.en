@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: About Marketing Channel reports
 topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
-index: y
-internal: n
-snippet: y
 ---
 
 # About Marketing Channel reports

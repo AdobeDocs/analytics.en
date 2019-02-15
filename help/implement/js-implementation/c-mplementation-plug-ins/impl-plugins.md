@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: Use implementation plug-ins
 topic: Developer and implementation
 uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
-index: y
-internal: n
-snippet: y
 ---
 
 # Use implementation plug-ins

@@ -4,9 +4,6 @@ seo-description: The People metric is an Adobe Analytics reporting metric that h
 seo-title: People
 title: People
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
-index: y
-internal: n
-snippet: y
 ---
 
 # People

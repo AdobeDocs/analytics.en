@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: Example page code and global configuration
 topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
-index: y
-internal: n
-snippet: y
 ---
 
 # Example page code and global configuration

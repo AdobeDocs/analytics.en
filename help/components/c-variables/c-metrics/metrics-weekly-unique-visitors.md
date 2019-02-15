@@ -6,9 +6,6 @@ solution: Analytics
 title: Weekly Unique Visitors
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
-index: y
-internal: n
-snippet: y
 ---
 
 # Weekly Unique Visitors

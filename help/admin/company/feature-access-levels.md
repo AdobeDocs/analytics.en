@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Feature access levels
 title: Feature access levels
 uuid: bd8e457e-ac81-4ae6-b4b1-ae582a025024
-index: y
-internal: n
-snippet: y
 ---
 
 # Feature access levels

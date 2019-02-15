@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Metrics
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Metrics

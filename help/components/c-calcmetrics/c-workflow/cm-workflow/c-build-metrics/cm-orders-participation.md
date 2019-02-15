@@ -4,9 +4,6 @@ seo-description: Explains how to create a metric that shows which Marketing Chan
 seo-title: Order Assists Metric
 title: Order Assists Metric
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-index: y
-internal: n
-snippet: y
 ---
 
 # Order Assists Metric

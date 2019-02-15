@@ -4,9 +4,6 @@ seo-description: The s.hitGovernor plugin tracks the total number of Analytics i
 seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-index: y
-internal: n
-snippet: y
 ---
 
 # hitGovernor

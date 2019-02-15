@@ -7,9 +7,6 @@ solution: Analytics
 title: Create virtual report suites
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-index: y
-internal: n
-snippet: y
 ---
 
 # Create virtual report suites

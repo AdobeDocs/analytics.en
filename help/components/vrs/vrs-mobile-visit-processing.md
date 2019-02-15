@@ -4,9 +4,6 @@ seo-description: Context-aware sessions in virtual report suites change how Adob
 seo-title: Context-aware sessions
 title: Context-aware sessions
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-index: y
-internal: n
-snippet: y
 ---
 
 # Context-aware sessions

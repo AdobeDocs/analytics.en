@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification rules
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification rules

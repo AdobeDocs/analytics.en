@@ -6,9 +6,6 @@ seo-title: Create conditions for page-load rules
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Create conditions for page-load rules
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-index: y
-internal: n
-snippet: y
 ---
 
 # Create conditions for page-load rules

@@ -6,9 +6,6 @@ solution: Analytics
 title: Totals
 topic: Reports
 uuid: 575c3dba-6372-42cf-84ab-9cdadefa2e0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Totals

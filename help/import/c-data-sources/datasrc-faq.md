@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Data Sources FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Sources FAQ

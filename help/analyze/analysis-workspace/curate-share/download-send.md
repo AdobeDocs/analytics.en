@@ -4,9 +4,6 @@ seo-description: You can download saved and unsaved projects in PDF and CSV form
 seo-title: Download PDF or CSV files
 title: Download PDF or CSV files
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Download PDF or CSV files

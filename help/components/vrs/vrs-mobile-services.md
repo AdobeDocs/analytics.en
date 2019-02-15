@@ -4,9 +4,6 @@ seo-description: The Adobe Mobile Services UI combines mobile app data from your
 seo-title: VRS support in Mobile Services
 title: VRS support in Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
-index: y
-internal: n
-snippet: y
 ---
 
 # VRS support in Mobile Services

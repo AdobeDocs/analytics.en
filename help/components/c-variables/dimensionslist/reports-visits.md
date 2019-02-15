@@ -6,9 +6,6 @@ solution: Analytics
 title: Visits
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Visits

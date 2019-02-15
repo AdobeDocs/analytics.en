@@ -7,9 +7,6 @@ subtopic: Get started
 title: Getting started with Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting started with Reports and Analytics

@@ -6,9 +6,6 @@ solution: Analytics
 title: Import bookmarked reports and dashboard reportlets
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
-index: y
-internal: n
-snippet: y
 ---
 
 # Import bookmarked reports and dashboard reportlets

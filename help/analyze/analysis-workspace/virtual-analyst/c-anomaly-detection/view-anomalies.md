@@ -4,9 +4,6 @@ seo-description: You can view anomalies in a table or in a line chart.
 seo-title: View anomalies in Analysis Workspace
 title: View anomalies in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-index: y
-internal: n
-snippet: y
 ---
 
 # View anomalies in Analysis Workspace

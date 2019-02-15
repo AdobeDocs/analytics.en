@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Processing rules overview
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing rules overview

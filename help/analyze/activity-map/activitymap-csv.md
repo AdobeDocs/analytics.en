@@ -6,9 +6,6 @@ solution: Analytics
 title: Export to CSV file
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-index: y
-internal: n
-snippet: y
 ---
 
 # Export to CSV file

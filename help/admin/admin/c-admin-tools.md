@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Admin Tools
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-index: y
-internal: n
-snippet: y
 ---
 
 # Admin Tools

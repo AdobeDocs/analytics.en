@@ -7,9 +7,6 @@ solution: Analytics
 title: Custom Visitor ID
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Visitor ID

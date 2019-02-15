@@ -6,9 +6,6 @@ solution: Analytics
 title: Filter a Fallout Report Using the Request Wizard
 topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter a Fallout Report Using the Request Wizard

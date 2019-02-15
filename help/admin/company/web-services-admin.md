@@ -6,9 +6,6 @@ solution: Analytics
 title: Web Services
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-index: y
-internal: n
-snippet: y
 ---
 
 # Web Services

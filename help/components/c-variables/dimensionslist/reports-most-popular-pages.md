@@ -6,9 +6,6 @@ solution: Analytics
 title: Most Popular Pages
 topic: Reports
 uuid: 6ad02e5d-7ed7-4a63-b963-3c683b27fb5a
-index: y
-internal: n
-snippet: y
 ---
 
 # Most Popular Pages

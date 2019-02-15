@@ -6,9 +6,6 @@ solution: Analytics
 title: Activity Map user interface
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Map user interface

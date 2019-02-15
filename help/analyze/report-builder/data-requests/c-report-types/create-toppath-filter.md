@@ -6,9 +6,6 @@ solution: Analytics
 title: Filter Path Reports by Adding Dependent Requests
 topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter Path Reports by Adding Dependent Requests

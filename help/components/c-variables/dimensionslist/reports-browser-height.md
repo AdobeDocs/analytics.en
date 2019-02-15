@@ -6,9 +6,6 @@ solution: Analytics
 title: Browser Height
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser Height

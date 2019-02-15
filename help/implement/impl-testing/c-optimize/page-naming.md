@@ -7,9 +7,6 @@ solution: Analytics
 title: Page naming
 topic: Developer and implementation
 uuid: b4438314-eb45-4009-aa66-f062701ea07c
-index: y
-internal: n
-snippet: y
 ---
 
 # Page naming

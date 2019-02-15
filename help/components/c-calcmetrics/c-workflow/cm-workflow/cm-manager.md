@@ -4,9 +4,6 @@ seo-description: The Calculated Metric Manager offers many ways of curating metr
 seo-title: Calculated Metric Manager
 title: Calculated Metric Manager
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated Metric Manager

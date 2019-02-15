@@ -6,9 +6,6 @@ solution: Analytics
 title: Exits
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
-index: y
-internal: n
-snippet: y
 ---
 
 # Exits

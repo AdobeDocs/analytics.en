@@ -6,9 +6,6 @@ solution: Analytics
 title: Install Activity Map browser plug-ins
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
-index: y
-internal: n
-snippet: y
 ---
 
 # Install Activity Map browser plug-ins{#install-activity-map-browser-plug-ins}

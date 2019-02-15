@@ -6,9 +6,6 @@ solution: Analytics
 title: Interactive controls
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive controls

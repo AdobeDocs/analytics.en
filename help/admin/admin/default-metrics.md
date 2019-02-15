@@ -6,9 +6,6 @@ solution: Analytics
 title: Default Metrics
 topic: Admin tools
 uuid: 85d50082-aab6-4c4f-b88b-77c9a35b3f6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Default Metrics

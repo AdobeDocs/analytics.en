@@ -4,9 +4,6 @@ seo-description: The Calculated Metrics Builder lets you apply statistical and m
 seo-title: Reference  basic functions
 title: Reference  basic functions
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference: basic functions

@@ -8,9 +8,6 @@ subtopic: Debugger
 title: Packet analyzers
 topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-index: y
-internal: n
-snippet: y
 ---
 
 # Packet analyzers

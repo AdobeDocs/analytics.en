@@ -4,9 +4,6 @@ seo-description: The Hit Type dimension signifies whether an app was in the fore
 seo-title: Hit Type
 title: Hit Type
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
-index: y
-internal: n
-snippet: y
 ---
 
 # Hit Type

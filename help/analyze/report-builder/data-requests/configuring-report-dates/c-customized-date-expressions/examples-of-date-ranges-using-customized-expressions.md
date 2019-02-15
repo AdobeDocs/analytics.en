@@ -6,9 +6,6 @@ solution: Analytics
 title: Examples of date ranges using customized expressions
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of date ranges using customized expressions

@@ -8,9 +8,6 @@ subtopic: data feeds
 title: Special characters
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Special characters

@@ -7,9 +7,6 @@ solution: Analytics
 title: Reports and Report Suites
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports and Report Suites

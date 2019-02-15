@@ -6,9 +6,6 @@ solution: Analytics
 title: Create more than one copy of a request
 topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Create more than one copy of a request

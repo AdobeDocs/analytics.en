@@ -6,9 +6,6 @@ seo-title: Manually implement Adobe Analytics (legacy)
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Manually implement Adobe Analytics (legacy)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-index: y
-internal: n
-snippet: y
 ---
 
 # Manually implement Adobe Analytics (legacy)

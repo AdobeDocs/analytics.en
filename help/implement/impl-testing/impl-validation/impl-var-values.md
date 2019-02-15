@@ -7,9 +7,6 @@ solution: Analytics
 title: Variables and values
 topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Variables and values

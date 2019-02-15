@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Configure user group access
 topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure user group access

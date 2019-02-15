@@ -7,9 +7,6 @@ solution: Analytics
 title: Pathing by campaign or tracking code
 topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-index: y
-internal: n
-snippet: y
 ---
 
 # Pathing by campaign or tracking code

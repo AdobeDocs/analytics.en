@@ -4,9 +4,6 @@ seo-description: Lists current and previous releases and their features.
 seo-title: What's new in Report Builder
 title: What's new in Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-index: y
-internal: n
-snippet: y
 ---
 
 # What's new in Report Builder

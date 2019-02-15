@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification data files
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification data files

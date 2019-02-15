@@ -6,9 +6,6 @@ solution: Analytics
 title: Page Depth
 topic: Metrics
 uuid: 28ca3652-049e-46a8-a2a1-fe440d0e38a8
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Depth

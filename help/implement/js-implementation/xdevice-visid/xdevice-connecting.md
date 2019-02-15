@@ -8,9 +8,6 @@ subtopic: Visitors
 title: Connect users across devices
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-index: y
-internal: n
-snippet: y
 ---
 
 # Connect users across devices

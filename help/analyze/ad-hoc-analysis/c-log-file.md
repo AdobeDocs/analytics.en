@@ -6,9 +6,6 @@ solution: Analytics
 title: Log file
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
-index: y
-internal: n
-snippet: y
 ---
 
 # Log file

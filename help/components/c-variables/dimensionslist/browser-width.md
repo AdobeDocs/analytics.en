@@ -6,9 +6,6 @@ solution: Analytics
 title: Browser Width/Height
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser Width/Height

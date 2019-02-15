@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Limitations and specifications
 title: Limitations and specifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
-index: y
-internal: n
-snippet: y
 ---
 
 # Limitations and specifications

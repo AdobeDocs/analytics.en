@@ -7,9 +7,6 @@ solution: Analytics
 title: Using s.linkTrackVars and s.linkTrackEvents
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
-index: y
-internal: n
-snippet: y
 ---
 
 # Using s.linkTrackVars and s.linkTrackEvents

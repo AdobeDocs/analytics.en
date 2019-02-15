@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getAndPersistValue
 topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
-index: y
-internal: n
-snippet: y
 ---
 
 # getAndPersistValue

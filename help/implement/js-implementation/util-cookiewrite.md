@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
 topic: Developer and implementation
 uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
-index: y
-internal: n
-snippet: y
 ---
 
 # Util.cookieWrite

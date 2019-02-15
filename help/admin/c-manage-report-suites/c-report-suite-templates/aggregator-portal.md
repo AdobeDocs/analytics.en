@@ -6,9 +6,6 @@ solution: Analytics
 title: Aggregator portal
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-index: y
-internal: n
-snippet: y
 ---
 
 # Aggregator portal

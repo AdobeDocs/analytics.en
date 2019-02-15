@@ -6,9 +6,6 @@ solution: Analytics
 title: Data Warehouse requests
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Warehouse requests

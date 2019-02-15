@@ -4,9 +4,6 @@ seo-description: Tracking determines how Search Engine data is tracked by your A
 seo-title: Tracking  Manual Mode and Auto Mode
 title: Tracking  Manual Mode and Auto Mode
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking: Manual Mode and Auto Mode

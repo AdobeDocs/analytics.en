@@ -7,9 +7,6 @@ solution: Analytics
 title: Create a Workspace project
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a Workspace project

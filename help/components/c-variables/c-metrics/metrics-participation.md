@@ -6,9 +6,6 @@ solution: Analytics
 title: Participation
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Participation

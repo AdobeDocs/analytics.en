@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getPreviousValue
 topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
-index: y
-internal: n
-snippet: y
 ---
 
 # getPreviousValue

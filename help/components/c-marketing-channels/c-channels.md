@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Manage marketing channels
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage marketing channels

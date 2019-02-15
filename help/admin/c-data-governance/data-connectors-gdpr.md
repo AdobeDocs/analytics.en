@@ -4,9 +4,6 @@ seo-description: This page lists all the Partner variables in the Data Connector
 seo-title: GDPR and Data Connectors (Genesis)
 title: GDPR and Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-index: y
-internal: n
-snippet: y
 ---
 
 # GDPR and Data Connectors (Genesis)

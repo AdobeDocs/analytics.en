@@ -6,9 +6,6 @@ solution: Analytics
 title: Real-time reporting overview
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Real-time reporting overview

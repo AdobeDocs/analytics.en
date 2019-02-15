@@ -5,9 +5,6 @@ seo-title: Data retention FAQ
 solution: Analytics
 title: Data retention FAQ
 uuid: 2640ee21-2c10-4753-a7c7-cee5bb6bc0d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Data retention FAQ

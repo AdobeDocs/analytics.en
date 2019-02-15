@@ -7,9 +7,6 @@ solution: Analytics
 title: Custom variables
 topic: Developer and implementation
 uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom variables

@@ -7,9 +7,6 @@ solution: Analytics
 title: Add header and footer code
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-index: y
-internal: n
-snippet: y
 ---
 
 # Add header and footer code

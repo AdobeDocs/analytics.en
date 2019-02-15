@@ -4,9 +4,6 @@ seo-description: Adobe uses proven methodologies and enlists professional help t
 seo-title: Technical questionnaire
 title: Technical questionnaire
 uuid: a7385e29-ab8e-419c-adbe-28738a37b121
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical questionnaire

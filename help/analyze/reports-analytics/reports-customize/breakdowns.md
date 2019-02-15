@@ -6,9 +6,6 @@ solution: Analytics
 title: Breakdowns
 topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Breakdowns

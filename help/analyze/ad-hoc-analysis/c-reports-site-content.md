@@ -4,9 +4,6 @@ seo-description: Displays information about which pages and areas of your site a
 seo-title: Site Content reports
 title: Site Content reports
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Content reports

@@ -4,9 +4,6 @@ seo-description: Targets reports let you measure your website performance and tr
 seo-title: Targets
 title: Targets
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Targets

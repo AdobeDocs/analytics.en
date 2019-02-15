@@ -6,9 +6,6 @@ solution: Analytics
 title: Pending actions
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
-index: y
-internal: n
-snippet: y
 ---
 
 # Pending actions

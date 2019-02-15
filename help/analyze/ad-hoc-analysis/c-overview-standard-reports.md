@@ -6,9 +6,6 @@ solution: Analytics
 title: Reports overview
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports overview

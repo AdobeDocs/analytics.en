@@ -6,9 +6,6 @@ seo-title: Sort columns
 solution: Analytics
 title: Sort columns
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
-index: y
-internal: n
-snippet: y
 ---
 
 # Sort columns

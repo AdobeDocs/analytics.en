@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Setting the PageType variable incorrectly
 topic: Developer and implementation
 uuid: eafaf58e-ba07-416f-89b9-694687cc4802
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting the PageType variable incorrectly

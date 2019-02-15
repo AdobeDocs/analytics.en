@@ -4,9 +4,6 @@ seo-description: Configure global behavioral settings. For example, you can conf
 seo-title: Settings
 title: Settings
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Settings

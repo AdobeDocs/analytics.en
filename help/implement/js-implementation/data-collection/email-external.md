@@ -7,9 +7,6 @@ solution: Analytics
 title: External email tracking
 topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
-index: y
-internal: n
-snippet: y
 ---
 
 # External email tracking

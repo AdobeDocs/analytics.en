@@ -6,9 +6,6 @@ seo-title: Connect to an Adobe FTP account with SFTP
 solution: Analytics
 title: Connect to an Adobe FTP account with SFTP
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-index: y
-internal: n
-snippet: y
 ---
 
 # Connect to an Adobe FTP account with SFTP

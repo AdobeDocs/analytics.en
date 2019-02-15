@@ -6,9 +6,6 @@ solution: Analytics
 title: Report types
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Report types

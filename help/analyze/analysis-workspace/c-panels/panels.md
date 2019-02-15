@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Panels overview
 title: Panels overview
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-index: y
-internal: n
-snippet: y
 ---
 
 # Panels overview

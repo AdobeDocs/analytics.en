@@ -7,9 +7,6 @@ solution: Analytics
 title: Choose an implementation method
 topic: Developer and implementation
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
-index: y
-internal: n
-snippet: y
 ---
 
 # Choose an implementation method

@@ -7,9 +7,6 @@ solution: Analytics
 title: Conversion variables (eVars)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion variables (eVars)

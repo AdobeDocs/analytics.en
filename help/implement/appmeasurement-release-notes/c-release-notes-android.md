@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-index: y
-internal: n
-snippet: y
 ---
 
 # Android{#android}

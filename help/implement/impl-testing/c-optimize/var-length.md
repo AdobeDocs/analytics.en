@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Variable length
 topic: Developer and implementation
 uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
-index: y
-internal: n
-snippet: y
 ---
 
 # Variable length

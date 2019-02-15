@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Apply template report suite settings to multiple report suites
 topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
-index: y
-internal: n
-snippet: y
 ---
 
 # Apply template report suite settings to multiple report suites

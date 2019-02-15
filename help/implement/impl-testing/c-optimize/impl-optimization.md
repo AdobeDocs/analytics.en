@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Optimization overview
 topic: Developer and implementation
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-index: y
-internal: n
-snippet: y
 ---
 
 # Optimization overview

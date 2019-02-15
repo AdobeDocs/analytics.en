@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Dimensions available to processing rules
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-index: y
-internal: n
-snippet: y
 ---
 
 # Dimensions available to processing rules

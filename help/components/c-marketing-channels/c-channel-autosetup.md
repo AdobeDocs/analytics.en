@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Automatic setup
 topic: Reports and analytics
 uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
-index: y
-internal: n
-snippet: y
 ---
 
 # Automatic setup

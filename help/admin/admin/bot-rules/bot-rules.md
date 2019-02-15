@@ -7,9 +7,6 @@ subtopic: Bot rules
 title: Bot Rules
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-index: y
-internal: n
-snippet: y
 ---
 
 # Bot Rules

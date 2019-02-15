@@ -7,9 +7,6 @@ subtopic: Bot rules
 title: Upload bot rules
 topic: Admin tools
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
-index: y
-internal: n
-snippet: y
 ---
 
 # Upload bot rules

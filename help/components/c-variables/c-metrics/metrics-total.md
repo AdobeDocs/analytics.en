@@ -6,9 +6,6 @@ solution: Analytics
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-index: y
-internal: n
-snippet: y
 ---
 
 # Total

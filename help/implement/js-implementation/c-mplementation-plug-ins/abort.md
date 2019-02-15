@@ -7,9 +7,6 @@ solution: Analytics
 title: s.abort flag
 topic: Developer and implementation
 uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
-index: y
-internal: n
-snippet: y
 ---
 
 # s.abort flag

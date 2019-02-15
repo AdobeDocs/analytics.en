@@ -6,9 +6,6 @@ solution: Analytics
 title: Build segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-index: y
-internal: n
-snippet: y
 ---
 
 # Build segments

@@ -6,9 +6,6 @@ solution: Analytics
 title: Scheduled reports queue
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-index: y
-internal: n
-snippet: y
 ---
 
 # Scheduled reports queue

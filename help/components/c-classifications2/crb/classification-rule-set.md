@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification rule sets
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification rule sets

@@ -7,9 +7,6 @@ solution: Analytics
 title: Using Timestamps Optional
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Timestamps Optional

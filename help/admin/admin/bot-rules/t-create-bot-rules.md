@@ -7,9 +7,6 @@ subtopic: Bot rules
 title: Create a custom bot rule
 topic: Admin tools
 uuid: abbc5c7e-912f-4660-a02b-0431a740ec70
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a custom bot rule

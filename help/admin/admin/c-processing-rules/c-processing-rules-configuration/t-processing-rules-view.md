@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: View active processing rules
 topic: Admin tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
-index: y
-internal: n
-snippet: y
 ---
 
 # View active processing rules

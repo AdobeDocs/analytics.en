@@ -7,9 +7,6 @@ solution: Analytics
 title: Identify visitors
 topic: Reports and analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Identify visitors

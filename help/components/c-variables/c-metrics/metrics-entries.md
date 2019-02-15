@@ -6,9 +6,6 @@ solution: Analytics
 title: Entries
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Entries

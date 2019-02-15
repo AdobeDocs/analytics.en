@@ -7,9 +7,6 @@ solution: Analytics
 title: What's New in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
-index: y
-internal: n
-snippet: y
 ---
 
 # What's New in Analysis Workspace

@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Flash-Flex
 topic: Developer and implementation
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Flash-Flex{#flash-flex}

@@ -7,9 +7,6 @@ subtopic: Schedule
 title: Report schedule and distribution
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-index: y
-internal: n
-snippet: y
 ---
 
 # Report schedule and distribution

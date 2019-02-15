@@ -7,9 +7,6 @@ solution: Analytics
 title: Manage virtual report suites
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage virtual report suites

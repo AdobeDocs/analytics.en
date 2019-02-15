@@ -6,9 +6,6 @@ seo-title: Add a Feed
 solution: Analytics
 title: Add a Feed
 uuid: e6767e2d-3283-4cdd-a972-475517f820bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Add a Feed

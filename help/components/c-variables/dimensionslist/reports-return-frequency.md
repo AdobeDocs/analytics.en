@@ -6,9 +6,6 @@ solution: Analytics
 title: Return Frequency
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-index: y
-internal: n
-snippet: y
 ---
 
 # Return Frequency

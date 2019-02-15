@@ -6,9 +6,6 @@ solution: Analytics
 title: Screen Width
 topic: Reports
 uuid: 2a3258fb-c973-4a0a-b7d8-e916fcd5a30d
-index: y
-internal: n
-snippet: y
 ---
 
 # Screen Width

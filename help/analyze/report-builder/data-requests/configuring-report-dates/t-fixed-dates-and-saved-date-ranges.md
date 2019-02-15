@@ -6,9 +6,6 @@ solution: Analytics
 title: Fixed dates and saved date ranges
 topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
-index: y
-internal: n
-snippet: y
 ---
 
 # Fixed dates and saved date ranges

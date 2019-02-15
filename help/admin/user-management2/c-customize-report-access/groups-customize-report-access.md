@@ -8,9 +8,6 @@ subtopic: Users and groups
 title: Customize report access - overview
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize report access - overview

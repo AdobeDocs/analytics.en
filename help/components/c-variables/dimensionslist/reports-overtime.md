@@ -6,9 +6,6 @@ solution: Analytics
 title: Over Time
 topic: Reports
 uuid: 4cd8492b-319e-4a55-8d99-70dd6ec9b4ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Over Time

@@ -8,9 +8,6 @@ subtopic: Users and groups
 title: Customize dimension permissions
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize dimension permissions

@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Create numeric 2 classifications
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
-index: y
-internal: n
-snippet: y
 ---
 
 # Create numeric 2 classifications

@@ -6,9 +6,6 @@ solution: Analytics
 title: Digital Rights Management (DRM)
 topic: Reports
 uuid: 8064b942-8f5c-433a-a793-1e16496ab59c
-index: y
-internal: n
-snippet: y
 ---
 
 # Digital Rights Management (DRM)

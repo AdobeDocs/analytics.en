@@ -6,9 +6,6 @@ solution: Analytics
 title: Edit multiple requests
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Edit multiple requests

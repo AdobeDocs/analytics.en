@@ -7,9 +7,6 @@ solution: Analytics
 title: DTM implementation overview
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-index: y
-internal: n
-snippet: y
 ---
 
 # DTM implementation overview

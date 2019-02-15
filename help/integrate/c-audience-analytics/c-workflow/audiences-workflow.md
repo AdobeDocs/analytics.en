@@ -5,9 +5,6 @@ seo-title: Workflow overview
 solution: Marketing Cloud
 title: Workflow overview
 uuid: 211e079b-46ee-4238-856d-7cac40620717
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow overview

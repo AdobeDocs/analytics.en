@@ -6,9 +6,6 @@ solution: Analytics
 title: Traffic
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic

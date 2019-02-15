@@ -6,9 +6,6 @@ seo-title: Job status
 solution: Analytics
 title: Job status
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Job status

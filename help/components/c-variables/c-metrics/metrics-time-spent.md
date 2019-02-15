@@ -6,9 +6,6 @@ solution: Analytics
 title: Time Spent
 topic: Metrics
 uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
-index: y
-internal: n
-snippet: y
 ---
 
 # Time Spent

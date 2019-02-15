@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Set the product view event from the product overview page
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-index: y
-internal: n
-snippet: y
 ---
 
 # Set the product view event from the product overview page

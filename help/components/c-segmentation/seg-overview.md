@@ -6,9 +6,6 @@ solution: Analytics
 title: About segments and containers
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-index: y
-internal: n
-snippet: y
 ---
 
 # About segments and containers

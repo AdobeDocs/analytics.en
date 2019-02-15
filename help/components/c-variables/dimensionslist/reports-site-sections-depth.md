@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Sections Depth
 topic: Reports
 uuid: 117ec0ed-ade0-4382-8756-d7d5ea3530bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Sections Depth

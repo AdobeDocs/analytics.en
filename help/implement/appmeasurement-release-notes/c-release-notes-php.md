@@ -7,9 +7,6 @@ subtopic: Release notes
 title: PHP
 topic: Developer and implementation
 uuid: 65a644ef-8e50-406b-8b12-0582495d130a
-index: y
-internal: n
-snippet: y
 ---
 
 # PHP{#php}

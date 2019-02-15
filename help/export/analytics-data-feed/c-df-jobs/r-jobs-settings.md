@@ -6,9 +6,6 @@ seo-title: Jobs settings
 solution: Analytics
 title: Jobs settings
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
-index: y
-internal: n
-snippet: y
 ---
 
 # Jobs settings

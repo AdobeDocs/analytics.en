@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Attribution IQ FAQ
 title: Attribution IQ FAQ
 uuid: 90961172-869d-4ed3-aba5-52374e53b603
-index: y
-internal: n
-snippet: y
 ---
 
 # Attribution IQ FAQ

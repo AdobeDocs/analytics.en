@@ -6,9 +6,6 @@ solution: Analytics
 title: Bots
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
-index: y
-internal: n
-snippet: y
 ---
 
 # Bots

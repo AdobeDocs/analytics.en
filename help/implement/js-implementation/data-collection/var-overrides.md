@@ -8,9 +8,6 @@ subtopic: Variables
 title: Variable overrides
 topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Variable overrides

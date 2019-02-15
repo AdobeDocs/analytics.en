@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: Migrating to AppMeasurement for JavaScript
 topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating to AppMeasurement for JavaScript

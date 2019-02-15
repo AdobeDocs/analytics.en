@@ -6,9 +6,6 @@ solution: Analytics
 title: Manage segments
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage segments

@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Email users
 topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
-index: y
-internal: n
-snippet: y
 ---
 
 # Email users

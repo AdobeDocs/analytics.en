@@ -6,9 +6,6 @@ solution: Analytics
 title: Next Page
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
-index: y
-internal: n
-snippet: y
 ---
 
 # Next Page

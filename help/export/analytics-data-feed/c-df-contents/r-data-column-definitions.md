@@ -6,9 +6,6 @@ seo-title: Data column definitions
 solution: Analytics
 title: Data column definitions
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
-index: y
-internal: n
-snippet: y
 ---
 
 # Data column definitions

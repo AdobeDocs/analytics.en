@@ -6,9 +6,6 @@ solution: Analytics
 title: Servers
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
-index: y
-internal: n
-snippet: y
 ---
 
 # Servers

@@ -6,9 +6,6 @@ solution: Analytics
 title: Granularity
 topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Granularity

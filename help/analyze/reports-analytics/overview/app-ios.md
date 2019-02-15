@@ -6,9 +6,6 @@ solution: Analytics
 title: Adobe Analytics for iOS
 topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics for iOS{#adobe-analytics-for-ios}

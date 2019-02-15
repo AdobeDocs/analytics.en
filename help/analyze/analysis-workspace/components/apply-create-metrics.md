@@ -4,9 +4,6 @@ seo-description: There are two ways to use metrics in Analysis Workspace.
 seo-title: Metrics
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics

@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Use attribution in Calculated Metrics
 title: Use attribution in Calculated Metrics
 uuid: fc51cae3-4e40-4964-b281-eefb48e9e0fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Use attribution in Calculated Metrics

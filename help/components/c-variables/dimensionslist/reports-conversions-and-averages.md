@@ -6,9 +6,6 @@ solution: Analytics
 title: Conversions and Averages
 topic: Reports
 uuid: 693b12b8-bca7-4972-a7b6-a7059701f574
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversions and Averages

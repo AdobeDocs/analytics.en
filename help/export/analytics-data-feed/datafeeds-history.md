@@ -8,9 +8,6 @@ subtopic: data feeds
 title: Data Feed release notes
 topic: Reports and analytics
 uuid: 4b2b2165-d8b3-4dc0-98a8-0121de7e26a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Feed release notes

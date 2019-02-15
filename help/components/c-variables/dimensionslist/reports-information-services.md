@@ -6,9 +6,6 @@ solution: Analytics
 title: Information Services
 topic: Reports
 uuid: 22ee7291-11d0-4d1a-8a94-8b4e6ed5e298
-index: y
-internal: n
-snippet: y
 ---
 
 # Information Services

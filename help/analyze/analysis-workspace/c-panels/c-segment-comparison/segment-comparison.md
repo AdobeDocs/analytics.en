@@ -7,9 +7,6 @@ solution: Analytics
 title: Segment IQ overview
 topic: Reports and analytics
 uuid: 80b8343a-8e09-4234-9510-1eecce18567f
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment IQ overview

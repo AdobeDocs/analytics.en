@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: Util.cookieRead
 topic: Developer and implementation
 uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
-index: y
-internal: n
-snippet: y
 ---
 
 # Util.cookieRead

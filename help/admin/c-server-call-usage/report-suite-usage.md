@@ -4,9 +4,6 @@ seo-description: The Report Suite Usage tab provides server usage data for each 
 seo-title: View report suite usage
 title: View report suite usage
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-index: y
-internal: n
-snippet: y
 ---
 
 # View report suite usage

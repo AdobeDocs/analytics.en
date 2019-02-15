@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Browser and FTP import
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser and FTP import

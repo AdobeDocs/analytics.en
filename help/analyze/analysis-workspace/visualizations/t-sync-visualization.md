@@ -7,9 +7,6 @@ solution: Analytics
 title: Manage data sources
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage data sources

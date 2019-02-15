@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Builder toolbar
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Builder toolbar

@@ -7,9 +7,6 @@ solution: Analytics
 title: Implementation example
 topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementation example

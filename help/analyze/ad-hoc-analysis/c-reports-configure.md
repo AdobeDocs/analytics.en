@@ -4,9 +4,6 @@ seo-description: Learn about the various actions you can perform on a report, su
 seo-title: Configure existing reports
 title: Configure existing reports
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure existing reports

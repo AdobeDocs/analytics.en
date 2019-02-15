@@ -4,9 +4,6 @@ seo-description: Days Since Last Visit is an Analytics dimension that ships out 
 seo-title: Days Since Last Visit
 title: Days Since Last Visit
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
-index: y
-internal: n
-snippet: y
 ---
 
 # Days Since Last Visit

@@ -6,9 +6,6 @@ solution: Analytics
 title: Subrelations
 topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Subrelations

@@ -4,9 +4,6 @@ seo-description: Components in Analysis Workspace consist of metrics, dimensions
 seo-title: Components overview
 title: Components overview
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-index: y
-internal: n
-snippet: y
 ---
 
 # Components overview

@@ -7,9 +7,6 @@ solution: Analytics
 title: VRSs and global/multi-suite tagging considerations
 topic: Reports and analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-index: y
-internal: n
-snippet: y
 ---
 
 # VRSs and global/multi-suite tagging considerations

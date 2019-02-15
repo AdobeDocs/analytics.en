@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Populate internal search terms using a query string parameter
 topic: Admin tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Populate internal search terms using a query string parameter

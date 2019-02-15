@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Visitor engagement expiration
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor engagement expiration

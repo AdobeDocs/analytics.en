@@ -7,9 +7,6 @@ solution: Analytics
 title: Implement without JavaScript guidelines
 topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement without JavaScript guidelines

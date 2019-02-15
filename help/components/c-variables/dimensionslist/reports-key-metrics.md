@@ -6,9 +6,6 @@ solution: Analytics
 title: Key Metrics
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
-index: y
-internal: n
-snippet: y
 ---
 
 # Key Metrics

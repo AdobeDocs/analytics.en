@@ -5,9 +5,6 @@ seo-title: Calculated metrics
 solution: Analytics
 title: Calculated metrics
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated metrics

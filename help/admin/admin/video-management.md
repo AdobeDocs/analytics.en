@@ -6,9 +6,6 @@ solution: Analytics
 title: Video management
 topic: Admin tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Video management

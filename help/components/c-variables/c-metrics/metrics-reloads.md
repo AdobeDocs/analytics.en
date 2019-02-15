@@ -6,9 +6,6 @@ solution: Analytics
 title: Reloads
 topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
-index: y
-internal: n
-snippet: y
 ---
 
 # Reloads

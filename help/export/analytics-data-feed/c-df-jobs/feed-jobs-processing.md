@@ -6,9 +6,6 @@ seo-title: Data Feed jobs - overview
 solution: Analytics
 title: Data Feed jobs - overview
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Feed jobs - overview

@@ -6,9 +6,6 @@ solution: Analytics
 title: Paid Search Detection
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-index: y
-internal: n
-snippet: y
 ---
 
 # Paid Search Detection

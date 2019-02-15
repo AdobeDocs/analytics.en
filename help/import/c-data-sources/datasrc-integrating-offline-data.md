@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Transaction and customer integration
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Transaction and customer integration

@@ -6,9 +6,6 @@ solution: Analytics
 title: Classification
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifications

@@ -6,9 +6,6 @@ solution: Analytics
 title: Save a workbook with requests
 topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
-index: y
-internal: n
-snippet: y
 ---
 
 # Save a workbook with requests

@@ -4,9 +4,6 @@ seo-description: Report Builder 5.2 supports Adobe Analytics Unified Calculated 
 seo-title: Calculated Metrics
 title: Calculated Metrics
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated Metrics

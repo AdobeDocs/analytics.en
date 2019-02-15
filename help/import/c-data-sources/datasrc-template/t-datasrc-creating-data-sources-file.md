@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Generate an import file template
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Generate an import file template

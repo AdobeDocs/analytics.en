@@ -4,9 +4,6 @@ seo-description: Use the Table Builder to create a report with any configuration
 seo-title: Table Builder
 title: Table Builder
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Table Builder

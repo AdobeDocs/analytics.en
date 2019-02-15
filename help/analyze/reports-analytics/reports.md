@@ -6,9 +6,6 @@ solution: Analytics
 title: Report types
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-index: y
-internal: n
-snippet: y
 ---
 
 # Report types

@@ -6,9 +6,6 @@ solution: Analytics
 title: Specific filters
 topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Specific filters

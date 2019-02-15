@@ -7,9 +7,6 @@ subtopic: Variables
 title: Variables - how they are used in reporting
 topic: Developer and implementation,Reports
 uuid: bd6b697a-c11a-434c-9d75-d46ecfec49ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Variables - how they are used in reporting

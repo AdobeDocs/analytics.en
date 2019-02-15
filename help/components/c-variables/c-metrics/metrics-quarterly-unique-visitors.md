@@ -6,9 +6,6 @@ solution: Analytics
 title: Quarterly Unique Visitors
 topic: Metrics
 uuid: a61e982d-a0c6-4915-9bed-1e203ee2cfee
-index: y
-internal: n
-snippet: y
 ---
 
 # Quarterly Unique Visitors

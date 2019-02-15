@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Report Descriptions
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Report Descriptions

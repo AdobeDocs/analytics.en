@@ -6,9 +6,6 @@ solution: Analytics
 title: Entries and Exits
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Entries and Exits

@@ -7,9 +7,6 @@ solution: Analytics
 title: Geo-segmentation data
 topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
-index: y
-internal: n
-snippet: y
 ---
 
 # Geo-segmentation data

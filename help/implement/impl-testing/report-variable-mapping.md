@@ -7,9 +7,6 @@ solution: Analytics
 title: Report to variable mapping
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Report to variable mapping

@@ -6,9 +6,6 @@ solution: Analytics
 title: Build segments
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-index: y
-internal: n
-snippet: y
 ---
 
 # Build segments

@@ -5,9 +5,6 @@ seo-title: Target Lift and Confidence
 solution: Analytics
 title: Target Lift and Confidence
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Lift and Confidence

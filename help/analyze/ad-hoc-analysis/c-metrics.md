@@ -4,9 +4,6 @@ seo-description: Metrics are quantitative information about visitor activity, su
 seo-title: Metrics
 title: Metrics
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics

@@ -7,9 +7,6 @@ solution: Analytics
 title: Counting content hierarchies
 topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-index: y
-internal: n
-snippet: y
 ---
 
 # Counting content hierarchies

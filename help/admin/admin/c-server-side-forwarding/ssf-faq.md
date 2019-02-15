@@ -4,9 +4,6 @@ seo-description: Frequently asked questions about features, functionality, and i
 seo-title: Server-side forwarding FAQ
 title: Server-side forwarding FAQ
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-index: y
-internal: n
-snippet: y
 ---
 
 # Server-side forwarding FAQ

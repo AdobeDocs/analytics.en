@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Frequently asked questions and examples
 topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
-index: y
-internal: n
-snippet: y
 ---
 
 # Frequently asked questions and examples

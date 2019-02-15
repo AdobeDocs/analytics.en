@@ -7,9 +7,6 @@ solution: Analytics
 title: Move from page template to page template
 topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
-index: y
-internal: n
-snippet: y
 ---
 
 # Move from page template to page template

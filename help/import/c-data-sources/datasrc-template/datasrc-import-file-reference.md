@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Import file reference
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-index: y
-internal: n
-snippet: y
 ---
 
 # Import file reference

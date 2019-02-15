@@ -7,9 +7,6 @@ solution: Analytics
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-index: y
-internal: n
-snippet: y
 ---
 
 # General

@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Labeling best practices
 title: Labeling best practices
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Labeling best practices

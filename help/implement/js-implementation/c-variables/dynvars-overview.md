@@ -8,9 +8,6 @@ subtopic: Variables
 title: Dynamic variables
 topic: Developer and implementation
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic variables

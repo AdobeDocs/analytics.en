@@ -4,9 +4,6 @@ seo-description: A comprehensive list and descriptions of the configuration vari
 seo-title: Server-side forwarding data and code reference
 title: Server-side forwarding data and code reference
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-index: y
-internal: n
-snippet: y
 ---
 
 # Server-side forwarding data and code reference

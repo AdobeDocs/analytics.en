@@ -6,9 +6,6 @@ seo-title: Insert core AppMeasurement code
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Insert core AppMeasurement code
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-index: y
-internal: n
-snippet: y
 ---
 
 # Insert core AppMeasurement code

@@ -6,9 +6,6 @@ solution: Analytics
 title: Page View
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-index: y
-internal: n
-snippet: y
 ---
 
 # Page View

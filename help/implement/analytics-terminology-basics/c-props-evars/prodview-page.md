@@ -7,9 +7,6 @@ solution: Analytics
 title: Detailed product view page
 topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
-index: y
-internal: n
-snippet: y
 ---
 
 # Detailed product view page

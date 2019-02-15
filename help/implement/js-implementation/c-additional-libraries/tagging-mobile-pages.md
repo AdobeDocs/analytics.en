@@ -7,9 +7,6 @@ solution: Analytics
 title: Tagging pages for mobile protocols
 topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
-index: y
-internal: n
-snippet: y
 ---
 
 # Tagging pages for mobile protocols

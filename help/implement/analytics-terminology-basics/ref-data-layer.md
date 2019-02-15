@@ -7,9 +7,6 @@ solution: Analytics
 title: Data Layer
 topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Layer

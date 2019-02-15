@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: How processing rules work
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-index: y
-internal: n
-snippet: y
 ---
 
 # How processing rules work

@@ -6,9 +6,6 @@ solution: Analytics
 title: Metrics overview
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics overview

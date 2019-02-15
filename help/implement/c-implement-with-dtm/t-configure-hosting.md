@@ -7,9 +7,6 @@ solution: Analytics
 title: Configure hosting options
 topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure hosting options

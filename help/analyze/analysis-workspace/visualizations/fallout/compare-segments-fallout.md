@@ -5,9 +5,6 @@ seo-description: You can create segments from a touchpoint, add segments as touc
 seo-title: Apply segments in fallout analysis
 title: Apply segments in fallout analysis
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Apply segments in fallout analysis

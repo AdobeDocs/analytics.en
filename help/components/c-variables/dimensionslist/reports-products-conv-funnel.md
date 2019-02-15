@@ -6,9 +6,6 @@ solution: Analytics
 title: Products Conversion Funnel
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
-index: y
-internal: n
-snippet: y
 ---
 
 # Products Conversion Funnel

@@ -6,9 +6,6 @@ solution: Analytics
 title: Next Page Flow
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-index: y
-internal: n
-snippet: y
 ---
 
 # Next Page Flow

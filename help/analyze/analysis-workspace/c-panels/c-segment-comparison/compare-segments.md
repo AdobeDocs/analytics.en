@@ -7,9 +7,6 @@ solution: Analytics
 title: Compare segments
 topic: Reports and analytics
 uuid: c037fd1b-1513-42cf-8550-a15d420e595d
-index: y
-internal: n
-snippet: y
 ---
 
 # Compare segments

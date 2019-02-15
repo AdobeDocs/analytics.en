@@ -6,9 +6,6 @@ seo-title: Feed Information
 solution: Analytics
 title: Feed Information
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
-index: y
-internal: n
-snippet: y
 ---
 
 # Feed Information

@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Classifications in Marketing Channels
 topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifications in Marketing Channels

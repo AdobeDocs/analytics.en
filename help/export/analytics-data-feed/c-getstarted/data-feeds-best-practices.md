@@ -6,9 +6,6 @@ seo-title: Best Practices and General Information
 solution: Analytics
 title: Best Practices and General Information
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices and General Information

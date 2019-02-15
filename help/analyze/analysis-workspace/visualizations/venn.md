@@ -4,9 +4,6 @@ seo-description: The Venn visualization lets you drag in up to 3 segments (from 
 seo-title: Venn
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-index: y
-internal: n
-snippet: y
 ---
 
 # Venn

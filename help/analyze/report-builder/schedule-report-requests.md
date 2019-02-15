@@ -6,9 +6,6 @@ solution: Analytics
 title: Schedule report requests
 topic: Report builder
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
-index: y
-internal: n
-snippet: y
 ---
 
 # Schedule report requests

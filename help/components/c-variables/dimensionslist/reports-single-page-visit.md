@@ -6,9 +6,6 @@ solution: Analytics
 title: Single Page Visit
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Page Visit

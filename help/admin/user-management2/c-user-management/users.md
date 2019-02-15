@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: User management overview
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-index: y
-internal: n
-snippet: y
 ---
 
 # User management overview

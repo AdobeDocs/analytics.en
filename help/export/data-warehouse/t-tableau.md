@@ -6,9 +6,6 @@ solution: Analytics
 title: Tableau data file
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
-index: y
-internal: n
-snippet: y
 ---
 
 # Tableau data file

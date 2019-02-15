@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Troubleshooting Classifications
 topic: Admin tools
 uuid: e8273635-28b7-4264-aca5-c5307f313e81
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Classifications

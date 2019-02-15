@@ -7,9 +7,6 @@ subtopic: Classifications
 title: FTP import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-index: y
-internal: n
-snippet: y
 ---
 
 # FTP import

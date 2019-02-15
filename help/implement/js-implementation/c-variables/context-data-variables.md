@@ -8,9 +8,6 @@ subtopic: Variables
 title: Context data variables
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
-index: y
-internal: n
-snippet: y
 ---
 
 # Context data variables

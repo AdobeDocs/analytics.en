@@ -6,9 +6,6 @@ seo-title: Send Adobe data to an external FTP account with SFTP
 solution: Analytics
 title: Send Adobe data to an external FTP account with SFTP
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
-index: y
-internal: n
-snippet: y
 ---
 
 # Send Adobe data to an external FTP account with SFTP

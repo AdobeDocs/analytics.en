@@ -7,9 +7,6 @@ solution: Analytics
 title: Collect data from form elements
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
-index: y
-internal: n
-snippet: y
 ---
 
 # Collect data from form elements

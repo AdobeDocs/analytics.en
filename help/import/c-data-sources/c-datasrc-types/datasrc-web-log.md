@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Web log
 topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Web log

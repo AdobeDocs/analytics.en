@@ -6,9 +6,6 @@ solution: Analytics
 title: Complete set of metrics
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
-index: y
-internal: n
-snippet: y
 ---
 
 # Complete set of metrics

@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Clean up values in a report
 topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
-index: y
-internal: n
-snippet: y
 ---
 
 # Clean up values in a report

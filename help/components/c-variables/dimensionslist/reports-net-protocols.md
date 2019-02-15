@@ -6,9 +6,6 @@ solution: Analytics
 title: Net Protocols
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
-index: y
-internal: n
-snippet: y
 ---
 
 # Net Protocols

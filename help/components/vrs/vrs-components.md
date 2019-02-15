@@ -4,9 +4,6 @@ seo-description: Virtual report suites can be curated to include and exclude com
 seo-title: Virtual Report Suite Component Curation
 title: Virtual Report Suite Component Curation
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-index: y
-internal: n
-snippet: y
 ---
 
 # Virtual Report Suite Component Curation

@@ -4,9 +4,6 @@ seo-description: Your Adobe Consultant will discuss the technical specifications
 seo-title: Technical specification
 title: Technical specification
 uuid: f7190778-7b27-48ae-8ad7-2276f9a8d416
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical specification

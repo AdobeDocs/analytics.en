@@ -8,9 +8,6 @@ subtopic: Visitors
 title: Data impact of cross-device visitor identification
 topic: Developer and implementation
 uuid: 1db4d149-cd50-4b41-a850-988901f25051
-index: y
-internal: n
-snippet: y
 ---
 
 # Data impact of cross-device visitor identification

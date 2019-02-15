@@ -6,9 +6,6 @@ solution: Analytics
 title: Single sign-on
 topic: Admin tools
 uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
-index: y
-internal: n
-snippet: y
 ---
 
 # Single sign-on

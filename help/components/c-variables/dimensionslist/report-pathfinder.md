@@ -5,9 +5,6 @@ seo-title: PathFinder
 solution: Analytics
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
-index: y
-internal: n
-snippet: y
 ---
 
 # PathFinder

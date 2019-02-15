@@ -6,9 +6,6 @@ solution: Analytics
 title: Default template
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-index: y
-internal: n
-snippet: y
 ---
 
 # Default template

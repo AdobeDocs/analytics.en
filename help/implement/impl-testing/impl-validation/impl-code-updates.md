@@ -7,9 +7,6 @@ solution: Analytics
 title: Code modifications
 topic: Developer and implementation
 uuid: efac045e-15f5-45f6-a21a-de6c4b0a8185
-index: y
-internal: n
-snippet: y
 ---
 
 # Code modifications

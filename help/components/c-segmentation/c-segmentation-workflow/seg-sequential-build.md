@@ -6,9 +6,6 @@ solution: Analytics
 title: Build sequential segments
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-index: y
-internal: n
-snippet: y
 ---
 
 # Build sequential segments

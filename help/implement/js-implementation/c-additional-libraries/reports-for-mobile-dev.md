@@ -7,9 +7,6 @@ solution: Analytics
 title: Reports for devices using mobile protocols
 topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports for devices using mobile protocols

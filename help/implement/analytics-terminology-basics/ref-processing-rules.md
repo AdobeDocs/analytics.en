@@ -7,9 +7,6 @@ solution: Analytics
 title: Processing Rules
 topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing Rules

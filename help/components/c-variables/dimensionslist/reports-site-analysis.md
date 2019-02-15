@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Analysis
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Analysis

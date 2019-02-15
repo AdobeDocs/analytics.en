@@ -6,9 +6,6 @@ solution: Analytics
 title: Exit Links
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
-index: y
-internal: n
-snippet: y
 ---
 
 # Exit Links

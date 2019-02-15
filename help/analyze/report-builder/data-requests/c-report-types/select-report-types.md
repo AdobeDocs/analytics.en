@@ -6,9 +6,6 @@ solution: Analytics
 title: Report types overview
 topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
-index: y
-internal: n
-snippet: y
 ---
 
 # Report types overview

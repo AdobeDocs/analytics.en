@@ -6,9 +6,6 @@ solution: Analytics
 title: Browser Types
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser Types

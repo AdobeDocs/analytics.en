@@ -6,9 +6,6 @@ solution: Analytics
 title: Most Popular Servers
 topic: Reports
 uuid: dd7e1346-4fa6-4258-9bcc-00acf67c3238
-index: y
-internal: n
-snippet: y
 ---
 
 # Most Popular Servers

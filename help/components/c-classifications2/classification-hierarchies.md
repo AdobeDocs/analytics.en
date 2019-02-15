@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification hierarchies
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification hierarchies

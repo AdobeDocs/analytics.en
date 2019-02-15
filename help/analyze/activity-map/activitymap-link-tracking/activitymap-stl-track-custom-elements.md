@@ -6,9 +6,6 @@ solution: Analytics
 title: Use the s.tl() function
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
-index: y
-internal: n
-snippet: y
 ---
 
 # Use the s.tl() function

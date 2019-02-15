@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Set an event using a context data variable
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-index: y
-internal: n
-snippet: y
 ---
 
 # Set an event using a context data variable

@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification Rule Builder workflow
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification Rule Builder workflow

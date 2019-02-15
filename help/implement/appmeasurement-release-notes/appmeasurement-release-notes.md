@@ -7,9 +7,6 @@ subtopic: Release notes
 title: AppMeasurement Release Notes
 topic: Developer and implementation
 uuid: 89d06844-5c02-422e-b6f4-3b8e1bc017bf
-index: y
-internal: n
-snippet: y
 ---
 
 # AppMeasurement Release Notes{#appmeasurement-release-notes}

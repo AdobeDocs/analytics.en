@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getValOnce
 topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-index: y
-internal: n
-snippet: y
 ---
 
 # getValOnce

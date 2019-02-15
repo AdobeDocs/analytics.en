@@ -6,9 +6,6 @@ solution: Analytics
 title: Screen Size
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Screen Size

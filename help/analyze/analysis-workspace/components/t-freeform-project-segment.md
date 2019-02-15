@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Segments
 title: Segments
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}

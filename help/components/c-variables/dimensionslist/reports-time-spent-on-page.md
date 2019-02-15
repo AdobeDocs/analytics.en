@@ -6,9 +6,6 @@ solution: Analytics
 title: Time Spent on Page
 topic: Reports
 uuid: 0a875fa4-da31-4370-a44b-955f22273cf4
-index: y
-internal: n
-snippet: y
 ---
 
 # Time Spent on Page

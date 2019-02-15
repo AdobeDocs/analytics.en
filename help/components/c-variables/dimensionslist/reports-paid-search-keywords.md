@@ -6,9 +6,6 @@ solution: Analytics
 title: Paid Search Keywords
 topic: Reports
 uuid: e8a2c075-e6e4-41ce-8e1f-0b77d278e9aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Paid Search Keywords

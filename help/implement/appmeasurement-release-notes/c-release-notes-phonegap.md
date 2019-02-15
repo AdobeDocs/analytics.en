@@ -7,9 +7,6 @@ subtopic: Release notes
 title: PhoneGap
 topic: Developer and implementation
 uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
-index: y
-internal: n
-snippet: y
 ---
 
 # PhoneGap{#phonegap}

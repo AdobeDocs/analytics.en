@@ -6,9 +6,6 @@ solution: Analytics
 title: Customize Calendar
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize Calendar

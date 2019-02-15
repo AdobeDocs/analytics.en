@@ -6,9 +6,6 @@ solution: Analytics
 title: Units
 topic: Metrics
 uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
-index: y
-internal: n
-snippet: y
 ---
 
 # Units

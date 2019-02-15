@@ -6,9 +6,6 @@ solution: Analytics
 title: Differentiate links that reference the same Link ID and region
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-index: y
-internal: n
-snippet: y
 ---
 
 # Differentiate links that reference the same Link ID and region

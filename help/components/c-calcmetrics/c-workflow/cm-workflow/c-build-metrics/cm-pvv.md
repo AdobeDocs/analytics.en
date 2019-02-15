@@ -4,9 +4,6 @@ seo-description: Shows how to build a simple "Page Views per Visits" metric.
 seo-title: Build a simple "Page Views per Visits" metric
 title: Build a simple "Page Views per Visits" metric
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-index: y
-internal: n
-snippet: y
 ---
 
 # Build a simple "Page Views per Visits" metric

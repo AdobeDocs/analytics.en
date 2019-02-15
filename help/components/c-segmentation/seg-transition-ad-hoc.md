@@ -7,9 +7,6 @@ solution: Analytics
 title: Transition Guide for Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Transition Guide for Ad Hoc Analysis

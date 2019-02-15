@@ -6,9 +6,6 @@ solution: Analytics
 title: Group Management
 topic: Admin tools
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
-index: y
-internal: n
-snippet: y
 ---
 
 # Group Management

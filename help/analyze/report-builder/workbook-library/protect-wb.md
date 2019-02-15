@@ -6,9 +6,6 @@ solution: Analytics
 title: Lock/unlock workbooks
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
-index: y
-internal: n
-snippet: y
 ---
 
 # Lock/unlock workbooks

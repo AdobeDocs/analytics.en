@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Numeric 2 classifications overview
 topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
-index: y
-internal: n
-snippet: y
 ---
 
 # Numeric 2 classifications overview

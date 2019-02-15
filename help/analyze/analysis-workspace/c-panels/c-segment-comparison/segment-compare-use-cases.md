@@ -5,9 +5,6 @@ seo-description: Segment IQ (Segment Comparison) is one of the most widely used 
 seo-title: Segment IQ use cases
 title: Segment IQ use cases
 uuid: 2a98b96b-5529-4c7f-a787-27920603d5b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment IQ use cases

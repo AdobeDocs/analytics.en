@@ -7,9 +7,6 @@ solution: Analytics
 title: Data collection HTTP headers
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-index: y
-internal: n
-snippet: y
 ---
 
 # Data collection HTTP headers

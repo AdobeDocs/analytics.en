@@ -6,9 +6,6 @@ seo-title: Data Feeds
 solution: Analytics
 title: Data Feeds
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Feeds

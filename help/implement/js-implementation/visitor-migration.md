@@ -7,9 +7,6 @@ solution: Analytics
 title: Visitor migration
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor migration

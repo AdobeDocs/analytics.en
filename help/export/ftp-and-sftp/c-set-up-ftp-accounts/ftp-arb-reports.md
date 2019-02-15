@@ -6,9 +6,6 @@ seo-title: Report Builder delivered reports
 solution: Analytics
 title: Report Builder delivered reports
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Builder delivered reports

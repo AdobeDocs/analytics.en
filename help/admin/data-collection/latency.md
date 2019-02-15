@@ -8,9 +8,6 @@ subtopic: Current data
 title: Data availability troubleshooting
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Data availability troubleshooting

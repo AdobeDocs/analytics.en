@@ -7,9 +7,6 @@ solution: Analytics
 title: Break down dimensions
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-index: y
-internal: n
-snippet: y
 ---
 
 # Break down dimensions

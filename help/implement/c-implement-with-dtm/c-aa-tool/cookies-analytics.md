@@ -6,9 +6,6 @@ seo-title: Cookies
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-index: y
-internal: n
-snippet: y
 ---
 
 # Cookies

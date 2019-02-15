@@ -7,9 +7,6 @@ solution: Analytics
 title: View virtual report suite information
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-index: y
-internal: n
-snippet: y
 ---
 
 # View virtual report suite information

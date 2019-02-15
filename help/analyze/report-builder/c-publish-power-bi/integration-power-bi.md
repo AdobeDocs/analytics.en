@@ -4,9 +4,6 @@ seo-description: Adobe Analytics Content Packs provide pre-built Power BI dashbo
 seo-title: Adobe Analytics content packs for Power BI
 title: Adobe Analytics content packs for Power BI
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics content packs for Power BI

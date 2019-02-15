@@ -7,9 +7,6 @@ solution: Analytics
 title: FAQs about Analytics implementation
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
-index: y
-internal: n
-snippet: y
 ---
 
 # FAQs about Analytics implementation

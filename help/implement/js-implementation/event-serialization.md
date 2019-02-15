@@ -7,9 +7,6 @@ solution: Analytics
 title: Event serialization overview
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-index: y
-internal: n
-snippet: y
 ---
 
 # Event serialization overview

@@ -6,9 +6,6 @@ solution: Analytics
 title: Cart Removals
 topic: Metrics
 uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
-index: y
-internal: n
-snippet: y
 ---
 
 # Cart Removals

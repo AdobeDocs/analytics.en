@@ -6,9 +6,6 @@ solution: Analytics
 title: Create a Data Warehouse request
 topic: Data warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a Data Warehouse request

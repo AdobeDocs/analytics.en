@@ -6,9 +6,6 @@ solution: Analytics
 title: General Account Settings
 topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
-index: y
-internal: n
-snippet: y
 ---
 
 # General Account Settings

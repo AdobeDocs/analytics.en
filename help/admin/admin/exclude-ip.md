@@ -6,9 +6,6 @@ solution: Analytics
 title: Exclude By IP Address
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Exclude By IP Address

@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Run Marketing Channel reports
 topic: Reports and analytics
 uuid: 95a7aa1e-570b-4d63-a493-91c2337bb715
-index: y
-internal: n
-snippet: y
 ---
 
 # Run Marketing Channel reports

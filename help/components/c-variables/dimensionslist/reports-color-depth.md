@@ -6,9 +6,6 @@ solution: Analytics
 title: Color Depth
 topic: Reports
 uuid: 6143a37c-2452-4107-a855-d97aebd9f778
-index: y
-internal: n
-snippet: y
 ---
 
 # Color Depth

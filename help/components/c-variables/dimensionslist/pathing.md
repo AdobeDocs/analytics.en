@@ -6,9 +6,6 @@ solution: Analytics
 title: Pathing
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-index: y
-internal: n
-snippet: y
 ---
 
 # Pathing

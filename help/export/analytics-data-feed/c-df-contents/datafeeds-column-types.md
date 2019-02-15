@@ -7,9 +7,6 @@ solution: Analytics
 title: Pre and post columns
 topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Pre and post columns

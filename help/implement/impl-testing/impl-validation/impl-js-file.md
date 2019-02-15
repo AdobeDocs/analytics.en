@@ -7,9 +7,6 @@ solution: Analytics
 title: JavaScript JS file
 topic: Developer and implementation
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript JS file

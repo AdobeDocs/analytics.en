@@ -7,9 +7,6 @@ solution: Analytics
 title: Success events overview
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-index: y
-internal: n
-snippet: y
 ---
 
 # Success events overview

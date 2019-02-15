@@ -6,9 +6,6 @@ seo-title: Secure File Transfer Protocol - overview
 solution: Analytics
 title: Secure File Transfer Protocol - overview
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-index: y
-internal: n
-snippet: y
 ---
 
 # Secure File Transfer Protocol - overview

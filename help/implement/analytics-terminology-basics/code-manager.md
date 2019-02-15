@@ -7,9 +7,6 @@ solution: Analytics
 title: Code Manager
 topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Code Manager

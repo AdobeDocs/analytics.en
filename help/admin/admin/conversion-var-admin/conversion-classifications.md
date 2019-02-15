@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Conversion classifications
 topic: Admin tools
 uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion classifications

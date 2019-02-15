@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Examples of processing rules
 topic: Admin tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of processing rules

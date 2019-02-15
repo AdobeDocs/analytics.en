@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Add an opt-out link
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
-index: y
-internal: n
-snippet: y
 ---
 
 # Add an opt-out link

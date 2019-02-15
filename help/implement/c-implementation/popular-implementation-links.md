@@ -4,9 +4,6 @@ seo-description: During implementation, you might find the following documents u
 seo-title: Popular implementation links
 title: Popular implementation links
 uuid: 4441aa4c-0bb7-4797-91b9-cd201aad99f2
-index: y
-internal: n
-snippet: y
 ---
 
 # Popular implementation links

@@ -6,9 +6,6 @@ seo-title: Restore deleted FTP data and FTP accounts
 solution: Analytics
 title: Restore deleted FTP data and FTP accounts
 uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
-index: y
-internal: n
-snippet: y
 ---
 
 # Restore deleted FTP data and FTP accounts

@@ -6,9 +6,6 @@ solution: Analytics
 title: Publishing Lists
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing Lists

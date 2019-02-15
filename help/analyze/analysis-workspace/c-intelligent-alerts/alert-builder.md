@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Alert Builder
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-index: y
-internal: n
-snippet: y
 ---
 
 # Alert Builder

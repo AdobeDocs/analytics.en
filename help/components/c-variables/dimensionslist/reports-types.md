@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Categories
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Categories

@@ -6,9 +6,6 @@ solution: Analytics
 title: Delete output mapping
 topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete output mapping

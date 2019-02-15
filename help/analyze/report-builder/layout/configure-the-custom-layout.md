@@ -6,9 +6,6 @@ solution: Analytics
 title: Configure the custom layout
 topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the custom layout

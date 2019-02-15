@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Labeling Example
 title: Labeling Example
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-index: y
-internal: n
-snippet: y
 ---
 
 # Labeling Example

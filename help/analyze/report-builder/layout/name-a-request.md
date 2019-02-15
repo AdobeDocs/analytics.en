@@ -6,9 +6,6 @@ solution: Analytics
 title: Name a request
 topic: Report builder
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
-index: y
-internal: n
-snippet: y
 ---
 
 # Name a request

@@ -6,9 +6,6 @@ seo-title: Activate a Feed
 solution: Analytics
 title: Activate a Feed
 uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Activate a Feed

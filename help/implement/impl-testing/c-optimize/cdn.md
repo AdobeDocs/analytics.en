@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Content Delivery Services/Networks
 topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Delivery Services/Networks

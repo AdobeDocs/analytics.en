@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Replacing your Analytics code
 topic: Developer and implementation
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
-index: y
-internal: n
-snippet: y
 ---
 
 # Replacing your Analytics code

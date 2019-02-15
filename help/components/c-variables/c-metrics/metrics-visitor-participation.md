@@ -6,9 +6,6 @@ solution: Analytics
 title: Visitor Participation - Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Participation - Ad Hoc Analysis

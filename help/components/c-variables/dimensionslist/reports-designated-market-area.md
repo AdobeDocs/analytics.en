@@ -6,9 +6,6 @@ solution: Analytics
 title: Designated Market Area (DMA)
 topic: Reports
 uuid: c1fea458-9a90-4440-b62f-d8d85090e9f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Designated Market Area (DMA)

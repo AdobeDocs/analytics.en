@@ -6,9 +6,6 @@ solution: Analytics
 title: Format display headers
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-index: y
-internal: n
-snippet: y
 ---
 
 # Format display headers

@@ -6,9 +6,6 @@ solution: Analytics
 title: Cart Additions
 topic: Metrics
 uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
-index: y
-internal: n
-snippet: y
 ---
 
 # Cart Additions

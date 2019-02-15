@@ -8,9 +8,6 @@ subtopic: Current data
 title: Current Data
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Current Data

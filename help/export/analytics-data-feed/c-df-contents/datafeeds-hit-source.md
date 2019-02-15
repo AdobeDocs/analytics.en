@@ -7,9 +7,6 @@ solution: Analytics
 title: Hit Source Lookup
 topic: Reports and analytics
 uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
-index: y
-internal: n
-snippet: y
 ---
 
 # Hit Source Lookup

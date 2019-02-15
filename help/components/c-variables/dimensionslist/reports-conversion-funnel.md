@@ -6,9 +6,6 @@ solution: Analytics
 title: Conversion Funnel
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion Funnel

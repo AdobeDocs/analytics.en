@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: About channels and rules
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
-index: y
-internal: n
-snippet: y
 ---
 
 # About channels and rules

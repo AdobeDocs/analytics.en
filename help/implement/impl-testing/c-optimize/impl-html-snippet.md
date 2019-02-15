@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: HTML code snippet
 topic: Developer and implementation
 uuid: 3f57da82-4d41-47a2-9fcb-74b9b08068ba
-index: y
-internal: n
-snippet: y
 ---
 
 # HTML code snippet

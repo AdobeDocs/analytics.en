@@ -6,9 +6,6 @@ solution: Analytics
 title: Hierarchy
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
-index: y
-internal: n
-snippet: y
 ---
 
 # Hierarchy

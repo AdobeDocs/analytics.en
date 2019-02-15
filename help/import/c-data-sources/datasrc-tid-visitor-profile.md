@@ -6,9 +6,6 @@ solution: Analytics
 title: Transaction ID and visitor profiles
 topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
-index: y
-internal: n
-snippet: y
 ---
 
 # Transaction ID and visitor profiles

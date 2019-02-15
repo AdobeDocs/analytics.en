@@ -6,9 +6,6 @@ solution: Analytics
 title: Previous Server Flow
 topic: Reports
 uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
-index: y
-internal: n
-snippet: y
 ---
 
 # Previous Server Flow

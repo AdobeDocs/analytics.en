@@ -7,9 +7,6 @@ solution: Analytics
 title: Analysis Workspace use cases
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-index: y
-internal: n
-snippet: y
 ---
 
 # Analysis Workspace use cases

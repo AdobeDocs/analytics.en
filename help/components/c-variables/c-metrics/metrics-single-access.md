@@ -6,9 +6,6 @@ solution: Analytics
 title: Single Access
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Access

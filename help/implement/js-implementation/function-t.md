@@ -8,9 +8,6 @@ subtopic: Functions
 title: The s.t() Function - Page Tracking
 topic: Developer and implementation
 uuid: 67696e46-1e0d-4200-bfad-4217d1023948
-index: y
-internal: n
-snippet: y
 ---
 
 # The s.t() Function - Page Tracking

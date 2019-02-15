@@ -6,9 +6,6 @@ solution: Analytics
 title: Checkouts
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Checkouts

@@ -6,9 +6,6 @@ solution: Analytics
 title: Settings not copied from a source report suite
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-index: y
-internal: n
-snippet: y
 ---
 
 # Settings not copied from a source report suite

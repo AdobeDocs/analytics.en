@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Summary Number and Summary Change
 title: Summary Number and Summary Change
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-index: y
-internal: n
-snippet: y
 ---
 
 # Summary Number and Summary Change

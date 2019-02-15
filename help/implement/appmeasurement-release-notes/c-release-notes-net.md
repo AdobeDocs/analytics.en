@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Developer and implementation
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Windows Silverlight, NET, IIS, XBOX{#windows-silverlight-net-iis-xbox}

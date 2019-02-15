@@ -6,9 +6,6 @@ solution: Analytics
 title: Daily Unique Visitors
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Daily Unique Visitors

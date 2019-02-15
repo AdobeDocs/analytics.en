@@ -7,9 +7,6 @@ solution: Analytics
 title: Run a cohort analysis report
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure a Cohort Analysis report

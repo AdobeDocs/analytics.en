@@ -7,9 +7,6 @@ solution: Analytics
 title: Hotkeys available in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
-index: y
-internal: n
-snippet: y
 ---
 
 # Hotkeys available in Analysis Workspace

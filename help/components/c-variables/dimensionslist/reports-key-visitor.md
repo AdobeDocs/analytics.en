@@ -6,9 +6,6 @@ solution: Analytics
 title: Key Visitors
 topic: Reports
 uuid: 77cf330f-1f2f-460f-b0b4-b537e5d222ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Key Visitors

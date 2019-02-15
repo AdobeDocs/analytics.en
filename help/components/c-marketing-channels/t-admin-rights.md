@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Grant limited administrative rights
 topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
-index: y
-internal: n
-snippet: y
 ---
 
 # Grant limited administrative rights

@@ -6,9 +6,6 @@ solution: Analytics
 title: Sort ascending or descending
 topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
-index: y
-internal: n
-snippet: y
 ---
 
 # Sort ascending or descending

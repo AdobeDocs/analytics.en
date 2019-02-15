@@ -4,9 +4,6 @@ seo-description: Shows impressions served and how many unique users have seen th
 seo-title: Scatterplot
 title: Scatterplot
 uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Scatterplot

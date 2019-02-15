@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Add offline data
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
-index: y
-internal: n
-snippet: y
 ---
 
 # Add offline data

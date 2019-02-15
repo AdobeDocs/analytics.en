@@ -6,9 +6,6 @@ solution: Analytics
 title: Troubleshooting browser extensions
 topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting browser extensions

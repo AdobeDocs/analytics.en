@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Map
 title: Map
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-index: y
-internal: n
-snippet: y
 ---
 
 # Map

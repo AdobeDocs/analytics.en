@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Data retention policy
 title: Data retention policy
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
-index: y
-internal: n
-snippet: y
 ---
 
 # Data retention policy

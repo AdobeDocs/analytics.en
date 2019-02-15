@@ -6,9 +6,6 @@ solution: Analytics
 title: Page details
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-index: y
-internal: n
-snippet: y
 ---
 
 # Page details

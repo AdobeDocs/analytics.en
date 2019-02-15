@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Optimize Workspace performance
 title: Optimize Workspace performance
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Optimize Workspace performance

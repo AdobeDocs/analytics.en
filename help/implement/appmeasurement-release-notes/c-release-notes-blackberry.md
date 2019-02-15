@@ -7,9 +7,6 @@ subtopic: Release notes
 title: BlackBerry
 topic: Developer and implementation
 uuid: 1e4e037f-2a8b-4051-9327-c9949efff7b7
-index: y
-internal: n
-snippet: y
 ---
 
 # BlackBerry{#blackberry}

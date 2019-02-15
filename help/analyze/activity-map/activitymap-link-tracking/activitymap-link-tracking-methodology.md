@@ -6,9 +6,6 @@ solution: Analytics
 title: Link tracking methodology
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-index: y
-internal: n
-snippet: y
 ---
 
 # Link tracking methodology

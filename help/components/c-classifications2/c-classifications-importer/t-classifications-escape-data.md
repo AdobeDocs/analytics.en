@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Escape classification data
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Escape classification data

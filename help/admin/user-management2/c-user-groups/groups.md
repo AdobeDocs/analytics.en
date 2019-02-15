@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: User group settings
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
-index: y
-internal: n
-snippet: y
 ---
 
 # User group settings

@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Server Call Usage Overview
 title: Server Call Usage Overview
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Server Call Usage Overview

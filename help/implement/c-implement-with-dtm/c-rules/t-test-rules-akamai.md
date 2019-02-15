@@ -6,9 +6,6 @@ seo-title: Test unpublished rules for Akamai hosting
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Test unpublished rules for Akamai hosting
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-index: y
-internal: n
-snippet: y
 ---
 
 # Test unpublished rules for Akamai hosting

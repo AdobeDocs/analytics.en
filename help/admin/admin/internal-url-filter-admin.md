@@ -6,9 +6,6 @@ solution: Analytics
 title: Internal URL Filters
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-index: y
-internal: n
-snippet: y
 ---
 
 # Internal URL Filters

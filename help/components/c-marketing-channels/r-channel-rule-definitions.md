@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Marketing Channel processing rules - definitions
 topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Channel processing rules - definitions

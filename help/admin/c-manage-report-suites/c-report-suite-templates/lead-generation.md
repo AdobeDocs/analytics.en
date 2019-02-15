@@ -6,9 +6,6 @@ solution: Analytics
 title: Lead Generation
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-index: y
-internal: n
-snippet: y
 ---
 
 # Lead Generation

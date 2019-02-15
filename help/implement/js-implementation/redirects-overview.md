@@ -8,9 +8,6 @@ subtopic: Redirects
 title: Redirects and aliases
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-index: y
-internal: n
-snippet: y
 ---
 
 # Redirects and aliases

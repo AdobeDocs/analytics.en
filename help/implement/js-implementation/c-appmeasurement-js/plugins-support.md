@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: AppMeasurement plug-in support
 topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
-index: y
-internal: n
-snippet: y
 ---
 
 # AppMeasurement plug-in support

@@ -7,9 +7,6 @@ solution: Analytics
 title: The s_gi() Function
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
-index: y
-internal: n
-snippet: y
 ---
 
 # The s_gi() Function

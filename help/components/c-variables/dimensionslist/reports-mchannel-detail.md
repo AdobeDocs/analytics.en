@@ -6,9 +6,6 @@ solution: Analytics
 title: Marketing Channel Detail - First and Last Touch
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Channel Detail - First and Last Touch

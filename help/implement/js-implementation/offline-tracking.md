@@ -7,9 +7,6 @@ solution: Analytics
 title: Offline tracking
 topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-index: y
-internal: n
-snippet: y
 ---
 
 # Offline tracking

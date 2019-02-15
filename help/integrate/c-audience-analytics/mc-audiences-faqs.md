@@ -5,9 +5,6 @@ seo-title: Frequently Asked Questions
 solution: Marketing Cloud
 title: Frequently Asked Questions
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-index: y
-internal: n
-snippet: y
 ---
 
 # Frequently Asked Questions

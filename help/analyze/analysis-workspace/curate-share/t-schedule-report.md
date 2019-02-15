@@ -7,9 +7,6 @@ solution: Analytics
 title: Send file - schedule a project for delivery
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
-index: y
-internal: n
-snippet: y
 ---
 
 # Send file - schedule a project for delivery

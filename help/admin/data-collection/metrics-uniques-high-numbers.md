@@ -6,9 +6,6 @@ solution: Analytics
 title: Reporting high numbers of unique values (low-traffic)
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting high numbers of unique values (low-traffic)

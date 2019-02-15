@@ -6,9 +6,6 @@ seo-title: Classifications
 solution: Analytics
 title: Classifications
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifications

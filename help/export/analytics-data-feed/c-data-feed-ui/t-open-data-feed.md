@@ -6,9 +6,6 @@ seo-title: Open the Data Feed interface
 solution: Analytics
 title: Open the Data Feed interface
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
-index: y
-internal: n
-snippet: y
 ---
 
 # Open the Data Feed interface

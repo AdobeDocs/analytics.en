@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Overview of data types and categories
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of data types and categories

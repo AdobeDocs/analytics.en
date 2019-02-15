@@ -6,9 +6,6 @@ solution: Analytics
 title: Products
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
-index: y
-internal: n
-snippet: y
 ---
 
 # Products

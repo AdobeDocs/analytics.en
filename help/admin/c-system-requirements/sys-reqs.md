@@ -5,9 +5,6 @@ seo-title: System requirements
 solution: Analytics
 title: System requirements
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
-index: y
-internal: n
-snippet: y
 ---
 
 # System requirements

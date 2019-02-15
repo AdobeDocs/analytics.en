@@ -6,9 +6,6 @@ solution: Analytics
 title: Bounce Rate
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
-index: y
-internal: n
-snippet: y
 ---
 
 # Bounce Rate

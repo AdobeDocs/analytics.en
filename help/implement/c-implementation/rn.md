@@ -4,9 +4,6 @@ seo-description: Release notes can be found at the following locations
 seo-title: Release notes
 title: Release notes
 uuid: 07f8a612-e1ba-4bcc-a547-8c34eb1a7c88
-index: y
-internal: n
-snippet: y
 ---
 
 # Release notes

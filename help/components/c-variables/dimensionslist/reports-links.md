@@ -6,9 +6,6 @@ solution: Analytics
 title: Links
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Links

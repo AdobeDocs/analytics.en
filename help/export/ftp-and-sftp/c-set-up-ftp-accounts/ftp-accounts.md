@@ -6,9 +6,6 @@ seo-title: Set up FTP accounts - overview
 solution: Analytics
 title: Set up FTP accounts - overview
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up FTP accounts - overview

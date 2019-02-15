@@ -7,9 +7,6 @@ solution: Analytics
 title: Add Adobe Analytics tool
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Adobe Analytics tool

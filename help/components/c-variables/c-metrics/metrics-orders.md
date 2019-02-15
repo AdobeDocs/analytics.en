@@ -6,9 +6,6 @@ solution: Analytics
 title: Orders
 topic: Metrics
 uuid: b20ad038-370b-4343-a394-434d3c4bd111
-index: y
-internal: n
-snippet: y
 ---
 
 # Orders

@@ -5,9 +5,6 @@ seo-title: Estimate past server calls and schedule a traffic spike
 solution: Analytics
 title: Estimate past server calls and schedule a traffic spike
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Estimate past server calls and schedule a traffic spike

@@ -7,9 +7,6 @@ solution: Analytics
 title: Getting Started guide
 topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started guide

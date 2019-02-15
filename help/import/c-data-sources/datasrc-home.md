@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Data Sources overview
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Sources overview

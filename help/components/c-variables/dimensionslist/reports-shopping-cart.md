@@ -6,9 +6,6 @@ solution: Analytics
 title: Shopping Cart
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Shopping Cart

@@ -4,9 +4,6 @@ seo-description: This help page contains recommended use cases for each Adobe An
 seo-title: Which Adobe Analytics tool should I use?
 title: Which Adobe Analytics tool should I use?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-index: y
-internal: n
-snippet: y
 ---
 
 # Which Adobe Analytics tool should I use?

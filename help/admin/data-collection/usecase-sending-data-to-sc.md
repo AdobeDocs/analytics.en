@@ -6,9 +6,6 @@ solution: Analytics
 title: Data collection in Adobe Analytics
 topic: Developer and implementation
 uuid: 180f9d93-2ad8-406b-9e70-d801978d28fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Data collection in Adobe Analytics

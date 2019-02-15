@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Preparing to use Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Preparing to use Data Sources

@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: About AppMeasurement for JavaScript
 topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
-index: y
-internal: n
-snippet: y
 ---
 
 # About AppMeasurement for JavaScript

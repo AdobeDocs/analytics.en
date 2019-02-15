@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Tables
 topic: Developer and implementation
 uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
-index: y
-internal: n
-snippet: y
 ---
 
 # Tables

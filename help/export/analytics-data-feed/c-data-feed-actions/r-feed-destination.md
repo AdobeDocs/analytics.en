@@ -6,9 +6,6 @@ seo-title: Feed Destination
 solution: Analytics
 title: Feed Destination
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
-index: y
-internal: n
-snippet: y
 ---
 
 # Feed Destination

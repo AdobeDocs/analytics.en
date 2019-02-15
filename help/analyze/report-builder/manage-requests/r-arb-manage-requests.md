@@ -6,9 +6,6 @@ solution: Analytics
 title: Manage requests - definitions
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage requests - definitions

@@ -6,9 +6,6 @@ solution: Analytics
 title: Cart Open
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-index: y
-internal: n
-snippet: y
 ---
 
 # Cart Open

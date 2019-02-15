@@ -4,9 +4,6 @@ seo-description: Analysis Workspace tables generate "dynamic" rows when you drop
 seo-title: Manual vs. dynamic rows
 title: Manual vs. dynamic rows
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Manual vs. dynamic rows

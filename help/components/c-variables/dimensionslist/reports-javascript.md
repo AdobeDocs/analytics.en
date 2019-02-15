@@ -6,9 +6,6 @@ solution: Analytics
 title: JavaScript Support
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript Support

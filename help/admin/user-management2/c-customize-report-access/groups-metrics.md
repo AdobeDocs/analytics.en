@@ -8,9 +8,6 @@ subtopic: Users and groups
 title: Customize metric permissions
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize metric permissions

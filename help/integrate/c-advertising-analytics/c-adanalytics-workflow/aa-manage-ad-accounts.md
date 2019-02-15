@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Manage advertising accounts
 title: Manage advertising accounts
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage advertising accounts

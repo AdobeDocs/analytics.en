@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Examples
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples

@@ -8,9 +8,6 @@ subtopic: Visitors
 title: Identify unique visitors
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Identify unique visitors

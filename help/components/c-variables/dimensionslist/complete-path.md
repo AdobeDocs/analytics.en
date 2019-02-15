@@ -6,9 +6,6 @@ solution: Analytics
 title: Complete Path
 topic: Reports
 uuid: ea5f0f6c-8e2a-448e-8096-b0d6339360ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Complete Path

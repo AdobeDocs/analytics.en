@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Getting Started with Marketing Channels
 topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with Marketing Channels

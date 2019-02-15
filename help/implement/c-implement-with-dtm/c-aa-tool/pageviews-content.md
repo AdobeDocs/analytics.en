@@ -6,9 +6,6 @@ seo-title: Page views and content
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Page views and content
 uuid: 6d019304-5892-475b-9887-00f86983f859
-index: y
-internal: n
-snippet: y
 ---
 
 # Page views and content

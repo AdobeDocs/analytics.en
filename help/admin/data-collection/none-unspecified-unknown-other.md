@@ -5,9 +5,6 @@ seo-title: None, Unspecified, Unknown, and Other in reporting
 solution: Analytics
 title: None, Unspecified, Unknown, and Other in reporting
 uuid: 8f99f3d3-6294-47e6-aead-4b616088b2e5
-index: y
-internal: n
-snippet: y
 ---
 
 # None, Unspecified, Unknown, and Other in reporting

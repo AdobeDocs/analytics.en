@@ -6,9 +6,6 @@ solution: Analytics
 title: Use Excel to locate a report suite ID
 topic: Report builder
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Excel to locate a report suite ID

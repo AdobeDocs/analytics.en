@@ -7,9 +7,6 @@ subtopic: Release notes
 title: JavaScript H Code - Legacy
 topic: Developer and implementation
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript H Code - Legacy{#javascript-h-code-legacy}

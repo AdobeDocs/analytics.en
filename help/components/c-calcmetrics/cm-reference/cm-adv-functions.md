@@ -4,9 +4,6 @@ seo-description: Access these functions by checking Show Advanced in the Functio
 seo-title: Reference  advanced functions
 title: Reference  advanced functions
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference: advanced functions

@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: File compression
 topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
-index: y
-internal: n
-snippet: y
 ---
 
 # File compression

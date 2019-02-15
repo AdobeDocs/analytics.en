@@ -4,9 +4,6 @@ seo-description: null
 seo-title: GDPR Labels for Analytics Variables
 title: GDPR Labels for Analytics Variables
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-index: y
-internal: n
-snippet: y
 ---
 
 # GDPR Labels for Analytics Variables

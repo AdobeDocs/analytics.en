@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getVisitNum
 topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
-index: y
-internal: n
-snippet: y
 ---
 
 # getVisitNum

@@ -6,9 +6,6 @@ solution: Analytics
 title: Data Warehouse Segment Compatibility
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Warehouse Segment Compatibility

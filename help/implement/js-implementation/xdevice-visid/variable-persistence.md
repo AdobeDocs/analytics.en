@@ -7,9 +7,6 @@ solution: Analytics
 title: Attribution and persistence
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-index: y
-internal: n
-snippet: y
 ---
 
 # Attribution and persistence

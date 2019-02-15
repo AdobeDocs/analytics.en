@@ -6,9 +6,6 @@ seo-title: Data Sources
 solution: Analytics
 title: Data Sources
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Sources

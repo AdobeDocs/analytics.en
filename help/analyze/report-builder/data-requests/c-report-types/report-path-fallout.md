@@ -6,9 +6,6 @@ solution: Analytics
 title: Path and path fallout reports in Report Builder
 topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Path and path fallout reports in Report Builder

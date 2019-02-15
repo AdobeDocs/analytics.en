@@ -4,9 +4,6 @@ seo-description: The Calculated Metrics Builder provides a canvas to drag and dr
 seo-title: Build Metrics
 title: Build Metrics
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Build Metrics

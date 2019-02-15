@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Create processing rules
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-index: y
-internal: n
-snippet: y
 ---
 
 # Create processing rules

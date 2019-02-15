@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Common errors
 topic: Developer and implementation
 uuid: 04345355-60cc-4678-81c3-390c86752df1
-index: y
-internal: n
-snippet: y
 ---
 
 # Common errors

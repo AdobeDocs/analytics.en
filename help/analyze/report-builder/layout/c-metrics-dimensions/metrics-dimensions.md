@@ -6,9 +6,6 @@ solution: Analytics
 title: Metrics and dimensions overview
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics and dimensions overview

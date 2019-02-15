@@ -6,9 +6,6 @@ solution: Analytics
 title: Products reports
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-index: y
-internal: n
-snippet: y
 ---
 
 # Products reports

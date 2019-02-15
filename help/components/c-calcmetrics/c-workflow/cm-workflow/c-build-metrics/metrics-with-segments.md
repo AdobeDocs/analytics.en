@@ -4,9 +4,6 @@ seo-description: Segmenting on individual metrics allows you to make metric comp
 seo-title: Segmented metrics
 title: Segmented metrics
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-index: y
-internal: n
-snippet: y
 ---
 
 # Segmented metrics

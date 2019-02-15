@@ -7,9 +7,6 @@ solution: Analytics
 title: Segments
 topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
-index: y
-internal: n
-snippet: y
 ---
 
 # Segments

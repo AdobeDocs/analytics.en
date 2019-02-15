@@ -4,9 +4,6 @@ seo-description: Virtual report suites segment your Adobe Analytics data so you 
 seo-title: Virtual report suites overview
 title: Virtual report suites overview
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-index: y
-internal: n
-snippet: y
 ---
 
 # Virtual report suites overview

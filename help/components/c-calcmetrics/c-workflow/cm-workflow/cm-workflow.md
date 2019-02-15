@@ -4,9 +4,6 @@ seo-description: Learn about the steps to take for creating calculated metrics.
 seo-title: Calculated metrics workflow
 title: Calculated metrics workflow
 uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated metrics workflow

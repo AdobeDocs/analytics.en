@@ -6,9 +6,6 @@ solution: Analytics
 title: Hide or show headers
 topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Hide or show headers

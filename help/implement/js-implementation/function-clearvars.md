@@ -7,9 +7,6 @@ solution: Analytics
 title: The s.clearVars() Function
 topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
-index: y
-internal: n
-snippet: y
 ---
 
 # The s.clearVars() Function

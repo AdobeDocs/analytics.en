@@ -7,9 +7,6 @@ solution: Analytics
 title: Click-throughs
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
-index: y
-internal: n
-snippet: y
 ---
 
 # Click-throughs

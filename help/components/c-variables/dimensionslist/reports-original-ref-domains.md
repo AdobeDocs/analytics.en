@@ -6,9 +6,6 @@ solution: Analytics
 title: Original Referring Domains
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Original Referring Domains

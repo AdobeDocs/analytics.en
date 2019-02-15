@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Metrics used in Marketing Channel reports
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics used in Marketing Channel reports

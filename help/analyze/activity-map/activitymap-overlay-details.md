@@ -6,9 +6,6 @@ solution: Analytics
 title: Overlay details
 topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-index: y
-internal: n
-snippet: y
 ---
 
 # Overlay details

@@ -6,9 +6,6 @@ solution: Analytics
 title: Metric calculations
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-index: y
-internal: n
-snippet: y
 ---
 
 # Metric calculations

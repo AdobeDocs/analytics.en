@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Import numeric 2 classifications
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-index: y
-internal: n
-snippet: y
 ---
 
 # Import numeric 2 classifications

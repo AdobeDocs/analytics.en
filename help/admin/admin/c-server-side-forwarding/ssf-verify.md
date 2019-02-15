@@ -5,9 +5,6 @@ seo-title: How to verify your server-side forwarding implementation
 solution: Audience Manager
 title: How to verify your server-side forwarding implementation
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-index: y
-internal: n
-snippet: y
 ---
 
 # How to verify your server-side forwarding implementation

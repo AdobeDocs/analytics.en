@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Using quotes
 topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Using quotes

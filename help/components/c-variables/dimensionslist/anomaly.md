@@ -7,9 +7,6 @@ solution: Analytics
 title: Anomaly Detection
 topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
-index: y
-internal: n
-snippet: y
 ---
 
 # Anomaly Detection

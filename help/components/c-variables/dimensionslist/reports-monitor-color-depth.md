@@ -6,9 +6,6 @@ solution: Analytics
 title: Monitor Color Depth
 topic: Reports
 uuid: 508b2e13-43ae-463d-bfca-7dda77807aa3
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitor Color Depth

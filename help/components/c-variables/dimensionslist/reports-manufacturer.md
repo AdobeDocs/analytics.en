@@ -6,9 +6,6 @@ solution: Analytics
 title: Manufacturer
 topic: Reports
 uuid: 561403bb-2d87-4bda-a98e-41667be655e5
-index: y
-internal: n
-snippet: y
 ---
 
 # Manufacturer

@@ -6,9 +6,6 @@ solution: Analytics
 title: Paid Search Engines
 topic: Reports
 uuid: 82f27eea-f72b-48a9-ba5d-5968c212b536
-index: y
-internal: n
-snippet: y
 ---
 
 # Paid Search Engines

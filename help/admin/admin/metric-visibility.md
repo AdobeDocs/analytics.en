@@ -5,9 +5,6 @@ seo-title: Metric Visibility
 solution: Analytics
 title: Metric Visibility
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Metric Visibility

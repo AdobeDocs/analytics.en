@@ -4,9 +4,6 @@ seo-description: In the Calculated Metric Manager, tagging segments allows you t
 seo-title: Tag calculated metrics
 title: Tag calculated metrics
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-index: y
-internal: n
-snippet: y
 ---
 
 # Tag calculated metrics

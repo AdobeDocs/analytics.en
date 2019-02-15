@@ -6,9 +6,6 @@ solution: Analytics
 title: Finding Methods
 topic: Reports
 uuid: f748419e-4cea-4868-ae1a-9bd7e6f177c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Finding Methods

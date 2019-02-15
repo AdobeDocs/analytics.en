@@ -5,9 +5,6 @@ seo-title: Analytics Reporting API comparison
 solution: Analytics
 title: Analytics Reporting API comparison
 uuid: a32ec47c-010d-43ad-9b1b-7b5eebb515a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Reporting API comparison

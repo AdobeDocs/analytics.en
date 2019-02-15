@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getNewRepeat
 topic: Developer and implementation
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-index: y
-internal: n
-snippet: y
 ---
 
 # getNewRepeat

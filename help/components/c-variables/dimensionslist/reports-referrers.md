@@ -6,9 +6,6 @@ solution: Analytics
 title: Referrers
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
-index: y
-internal: n
-snippet: y
 ---
 
 # Referrers

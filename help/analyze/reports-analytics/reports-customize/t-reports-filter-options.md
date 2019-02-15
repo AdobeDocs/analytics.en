@@ -6,9 +6,6 @@ solution: Analytics
 title: Filtering Report Data
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}

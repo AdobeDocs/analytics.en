@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Calculated metrics used Marketing Channel reports
 topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated metrics used Marketing Channel reports

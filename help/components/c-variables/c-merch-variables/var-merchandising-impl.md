@@ -7,9 +7,6 @@ solution: Analytics
 title: Implement a merchandising variable
 topic: Developer and implementation
 uuid: 49e97dd0-e56b-4d34-b274-8113b24cb905
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement a merchandising variable

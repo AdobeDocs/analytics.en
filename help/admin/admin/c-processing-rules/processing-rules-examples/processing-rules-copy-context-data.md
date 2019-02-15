@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Copy a context data variable to an eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Copy a context data variable to an eVar

@@ -4,9 +4,6 @@ seo-description: Row settings vary depending on which component you have dragged
 seo-title: Row settings
 title: Row settings
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-index: y
-internal: n
-snippet: y
 ---
 
 # Row settings

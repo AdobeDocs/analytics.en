@@ -6,9 +6,6 @@ seo-title: Data Warehouse delivered reports
 solution: Analytics
 title: Data Warehouse delivered reports
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Warehouse delivered reports

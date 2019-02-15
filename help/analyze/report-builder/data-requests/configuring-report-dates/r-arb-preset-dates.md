@@ -6,9 +6,6 @@ solution: Analytics
 title: Request Wizard definitions - preset dates
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Request Wizard definitions - preset dates

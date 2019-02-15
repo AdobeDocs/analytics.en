@@ -7,9 +7,6 @@ solution: Analytics
 title: Analytics code
 topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics code

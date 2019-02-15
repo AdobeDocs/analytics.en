@@ -7,9 +7,6 @@ solution: Analytics
 title: Data accuracy validation
 topic: Developer and implementation
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-index: y
-internal: n
-snippet: y
 ---
 
 # Data accuracy validation

@@ -6,9 +6,6 @@ solution: Analytics
 title: Calendar events
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Calendar events

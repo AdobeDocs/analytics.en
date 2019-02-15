@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Submit Access and Delete Requests
 title: Submit Access and Delete Requests
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-index: y
-internal: n
-snippet: y
 ---
 
 # Submit Access and Delete Requests

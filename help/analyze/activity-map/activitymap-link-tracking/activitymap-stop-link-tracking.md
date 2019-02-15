@@ -6,9 +6,6 @@ solution: Analytics
 title: Stop link tracking
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-index: y
-internal: n
-snippet: y
 ---
 
 # Stop link tracking

@@ -6,9 +6,6 @@ solution: Analytics
 title: Report display settings and navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-index: y
-internal: n
-snippet: y
 ---
 
 # Report display settings and navigation

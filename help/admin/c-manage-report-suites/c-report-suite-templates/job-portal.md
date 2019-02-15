@@ -6,9 +6,6 @@ solution: Analytics
 title: Job portal
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
-index: y
-internal: n
-snippet: y
 ---
 
 # Job portal

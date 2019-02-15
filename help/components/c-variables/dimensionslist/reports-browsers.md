@@ -6,9 +6,6 @@ solution: Analytics
 title: Browser
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser

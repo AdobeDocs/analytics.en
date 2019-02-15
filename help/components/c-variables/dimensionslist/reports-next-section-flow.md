@@ -6,9 +6,6 @@ solution: Analytics
 title: Next Section Flow
 topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
-index: y
-internal: n
-snippet: y
 ---
 
 # Next Section Flow

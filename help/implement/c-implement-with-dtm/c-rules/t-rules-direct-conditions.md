@@ -6,9 +6,6 @@ seo-title: Create conditions for direct-call rules
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Create conditions for direct-call rules
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-index: y
-internal: n
-snippet: y
 ---
 
 # Create conditions for direct-call rules

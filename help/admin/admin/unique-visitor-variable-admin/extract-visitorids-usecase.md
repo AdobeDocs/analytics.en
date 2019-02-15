@@ -6,9 +6,6 @@ solution: Analytics
 title: Use Case - Extracting Visitor IDs
 topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Case - Extracting Visitor IDs

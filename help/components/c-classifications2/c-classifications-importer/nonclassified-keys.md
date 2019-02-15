@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Non-classified keys
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-index: y
-internal: n
-snippet: y
 ---
 
 # Non-classified keys

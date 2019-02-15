@@ -6,9 +6,6 @@ solution: Analytics
 title: Filter a Path Report Using the Request Wizard
 topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter a Path Report Using the Request Wizard

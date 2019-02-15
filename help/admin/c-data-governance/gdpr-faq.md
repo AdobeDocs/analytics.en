@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Frequently asked questions
 title: Frequently asked questions
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-index: y
-internal: n
-snippet: y
 ---
 
 # Frequently asked questions

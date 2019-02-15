@@ -6,9 +6,6 @@ solution: Analytics
 title: Browser URL Length
 topic: Reports
 uuid: 30ab11bf-34be-486f-aab3-0ee9be4e56b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser URL Length

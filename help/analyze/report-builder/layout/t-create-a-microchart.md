@@ -6,9 +6,6 @@ solution: Analytics
 title: Create a microchart
 topic: Report builder
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a microchart

@@ -7,9 +7,6 @@ solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-index: y
-internal: n
-snippet: y
 ---
 
 # performanceTiming

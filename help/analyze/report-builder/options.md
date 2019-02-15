@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Builder options
 topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Builder options

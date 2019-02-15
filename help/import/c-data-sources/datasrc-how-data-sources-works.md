@@ -7,9 +7,6 @@ subtopic: Data sources
 title: How Data Sources works
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-index: y
-internal: n
-snippet: y
 ---
 
 # How Data Sources works

@@ -7,9 +7,6 @@ solution: Analytics
 title: Events
 topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Events

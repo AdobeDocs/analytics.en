@@ -6,9 +6,6 @@ solution: Analytics
 title: Diagnostic messages
 topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
-index: y
-internal: n
-snippet: y
 ---
 
 # Diagnostic messages

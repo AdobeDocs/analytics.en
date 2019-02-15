@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Javascript library file
 topic: Developer and implementation
 uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Javascript library file

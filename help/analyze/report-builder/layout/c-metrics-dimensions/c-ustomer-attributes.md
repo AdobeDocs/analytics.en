@@ -4,9 +4,6 @@ seo-description: Customer attributes are stored in new type of element called Vi
 seo-title: Customer attributes
 title: Customer attributes
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Customer attributes

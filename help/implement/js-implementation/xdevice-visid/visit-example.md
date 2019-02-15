@@ -8,9 +8,6 @@ subtopic: Visitors
 title: Example visit
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Example visit

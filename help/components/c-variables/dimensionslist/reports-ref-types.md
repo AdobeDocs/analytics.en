@@ -6,9 +6,6 @@ solution: Analytics
 title: Referrer Type
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-index: y
-internal: n
-snippet: y
 ---
 
 # Referrer Type

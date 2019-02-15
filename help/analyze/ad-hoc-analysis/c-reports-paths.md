@@ -6,9 +6,6 @@ solution: Analytics
 title: Paths reports
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-index: y
-internal: n
-snippet: y
 ---
 
 # Paths reports

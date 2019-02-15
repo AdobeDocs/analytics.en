@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Copy processing rules to another report suite
 topic: Admin tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
-index: y
-internal: n
-snippet: y
 ---
 
 # Copy processing rules to another report suite

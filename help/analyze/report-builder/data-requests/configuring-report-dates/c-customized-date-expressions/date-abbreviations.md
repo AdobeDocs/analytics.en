@@ -6,9 +6,6 @@ solution: Analytics
 title: Date abbreviations
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Date abbreviations

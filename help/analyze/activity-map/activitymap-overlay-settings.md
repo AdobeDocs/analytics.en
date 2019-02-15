@@ -6,9 +6,6 @@ solution: Analytics
 title: Configure Activity Map settings
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Activity Map settings

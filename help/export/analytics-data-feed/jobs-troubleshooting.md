@@ -6,9 +6,6 @@ seo-title: Troubleshoot jobs
 solution: Analytics
 title: Troubleshoot jobs
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot jobs

@@ -6,9 +6,6 @@ solution: Analytics
 title: Knowledge resources
 topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
-index: y
-internal: n
-snippet: y
 ---
 
 # Knowledge resources

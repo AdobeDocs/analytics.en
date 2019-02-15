@@ -4,9 +4,6 @@ seo-description: Labeling report suite data means that you assign identity, sens
 seo-title: Label report suite data
 title: Label report suite data
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-index: y
-internal: n
-snippet: y
 ---
 
 # Label report suite data

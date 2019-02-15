@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Mac OS X
 topic: Developer and implementation
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-index: y
-internal: n
-snippet: y
 ---
 
 # Mac OS X{#mac-os-x}

@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: trackTNT
 topic: Developer and implementation
 uuid: 84f019c1-d3d1-4434-9cce-0459d745acf6
-index: y
-internal: n
-snippet: y
 ---
 
 # trackTNT

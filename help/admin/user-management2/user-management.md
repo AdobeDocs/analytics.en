@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: User and Product Management
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-index: y
-internal: n
-snippet: y
 ---
 
 # User and Product Management

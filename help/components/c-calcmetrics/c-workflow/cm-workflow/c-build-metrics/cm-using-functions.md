@@ -4,9 +4,6 @@ seo-description: Functions let you filter/sort your data and do statistical anal
 seo-title: Use functions
 title: Use functions
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Use functions

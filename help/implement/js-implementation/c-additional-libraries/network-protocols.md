@@ -7,9 +7,6 @@ solution: Analytics
 title: Mobile network protocols
 topic: Developer and implementation
 uuid: b453677c-7449-4174-a243-a0eb024b319d
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile network protocols

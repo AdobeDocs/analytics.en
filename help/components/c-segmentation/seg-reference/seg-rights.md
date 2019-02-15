@@ -6,9 +6,6 @@ solution: Analytics
 title: Segment Rights by Role
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment Rights by Role

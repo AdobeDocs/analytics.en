@@ -7,9 +7,6 @@ solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
-index: y
-internal: n
-snippet: y
 ---
 
 # getPageVisibility

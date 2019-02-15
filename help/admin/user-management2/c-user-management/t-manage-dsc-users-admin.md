@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Manage Ad Hoc Analysis users
 topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Ad Hoc Analysis users

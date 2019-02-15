@@ -4,9 +4,6 @@ seo-description: Shows how to stack and replace segments within the Calculated M
 seo-title: Stack and replace segments
 title: Stack and replace segments
 uuid: f6d4db9e-d982-4731-b342-7e49dee02035
-index: y
-internal: n
-snippet: y
 ---
 
 # Stack and replace segments

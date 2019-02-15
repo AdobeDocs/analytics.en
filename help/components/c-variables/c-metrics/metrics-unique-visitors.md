@@ -6,9 +6,6 @@ solution: Analytics
 title: Unique Visitors
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-index: y
-internal: n
-snippet: y
 ---
 
 # Unique Visitors

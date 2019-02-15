@@ -7,9 +7,6 @@ subtopic: Release notes
 title: iOS
 topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS{#ios}

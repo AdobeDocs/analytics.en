@@ -6,9 +6,6 @@ solution: Analytics
 title: Search Keywords
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-index: y
-internal: n
-snippet: y
 ---
 
 # Search Keywords

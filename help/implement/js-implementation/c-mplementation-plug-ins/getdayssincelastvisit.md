@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getDaysSinceLastVisit
 topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-index: y
-internal: n
-snippet: y
 ---
 
 # getDaysSinceLastVisit

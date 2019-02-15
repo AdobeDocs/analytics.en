@@ -6,9 +6,6 @@ solution: Analytics
 title: Previous Section Flow
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Previous Section Flow

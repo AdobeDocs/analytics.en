@@ -6,9 +6,6 @@ solution: Analytics
 title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Target

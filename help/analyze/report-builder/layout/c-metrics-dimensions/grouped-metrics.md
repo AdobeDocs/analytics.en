@@ -6,9 +6,6 @@ solution: Analytics
 title: Combine traffic and commerce metrics in the same request
 topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-index: y
-internal: n
-snippet: y
 ---
 
 # Combine traffic and commerce metrics in the same request

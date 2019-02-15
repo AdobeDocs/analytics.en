@@ -6,9 +6,6 @@ solution: Analytics
 title: Days Since Last Purchase
 topic: Reports
 uuid: 7abd7f10-f16c-454b-99d3-7dd08db7892e
-index: y
-internal: n
-snippet: y
 ---
 
 # Days Since Last Purchase

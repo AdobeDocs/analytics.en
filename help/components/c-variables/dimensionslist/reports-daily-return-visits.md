@@ -6,9 +6,6 @@ solution: Analytics
 title: Daily Return Visits
 topic: Reports
 uuid: 8a881347-392e-4b8a-9745-825b103d7104
-index: y
-internal: n
-snippet: y
 ---
 
 # Daily Return Visits

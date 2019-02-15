@@ -6,9 +6,6 @@ solution: Analytics
 title: Mobile Views
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Views

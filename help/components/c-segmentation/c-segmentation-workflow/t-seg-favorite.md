@@ -6,9 +6,6 @@ solution: Analytics
 title: Mark segments as favorites
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-index: y
-internal: n
-snippet: y
 ---
 
 # Mark segments as favorites

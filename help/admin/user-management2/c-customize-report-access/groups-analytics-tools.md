@@ -8,9 +8,6 @@ subtopic: Users and groups
 title: Customize Analytics Tools permissions
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize Analytics Tools permissions

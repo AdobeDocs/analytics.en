@@ -6,9 +6,6 @@ solution: Analytics
 title: Scheduling Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-index: y
-internal: n
-snippet: y
 ---
 
 # Scheduling Manager

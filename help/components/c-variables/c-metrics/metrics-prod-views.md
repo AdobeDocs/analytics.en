@@ -6,9 +6,6 @@ solution: Analytics
 title: Product Views
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
-index: y
-internal: n
-snippet: y
 ---
 
 # Product Views

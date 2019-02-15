@@ -6,9 +6,6 @@ seo-title: FTP limits and data retention
 solution: Analytics
 title: FTP limits and data retention
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-index: y
-internal: n
-snippet: y
 ---
 
 # FTP limits and data retention

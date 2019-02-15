@@ -6,9 +6,6 @@ seo-title: Delete FTP data and FTP accounts
 solution: Analytics
 title: Delete FTP data and FTP accounts
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete FTP data and FTP accounts

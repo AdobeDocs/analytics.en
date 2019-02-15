@@ -7,9 +7,6 @@ solution: Analytics
 title: Implement Analytics using HTML image tags
 topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Analytics using HTML image tags

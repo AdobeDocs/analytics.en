@@ -6,9 +6,6 @@ solution: Analytics
 title: Commerce
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
-index: y
-internal: n
-snippet: y
 ---
 
 # Commerce

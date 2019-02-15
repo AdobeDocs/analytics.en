@@ -4,9 +4,6 @@ seo-description: This section contains the key concepts for Adobe Analytics, a b
 seo-title: Adobe Analytics - key concepts
 title: Adobe Analytics - key concepts
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics - key concepts

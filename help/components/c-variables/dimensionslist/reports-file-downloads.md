@@ -6,9 +6,6 @@ solution: Analytics
 title: File Downloads
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-index: y
-internal: n
-snippet: y
 ---
 
 # File Downloads

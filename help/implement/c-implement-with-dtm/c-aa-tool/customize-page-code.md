@@ -6,9 +6,6 @@ seo-title: Customize page code
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Customize page code
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize page code

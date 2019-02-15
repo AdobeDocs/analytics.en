@@ -8,9 +8,6 @@ subtopic: Variables
 title: Variables and limitations
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-index: y
-internal: n
-snippet: y
 ---
 
 # Variables and limitations

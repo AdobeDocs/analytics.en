@@ -7,9 +7,6 @@ solution: Analytics
 title: JavaScript implementation overview
 topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript implementation overview

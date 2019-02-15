@@ -6,9 +6,6 @@ solution: Analytics
 title: Share segments
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-index: y
-internal: n
-snippet: y
 ---
 
 # Share segments

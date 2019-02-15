@@ -6,9 +6,6 @@ solution: Analytics
 title: Monthly Unique Visitors
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Monthly Unique Visitors

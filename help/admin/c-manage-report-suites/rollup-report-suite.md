@@ -6,9 +6,6 @@ solution: Analytics
 title: Rollup and global report suites
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-index: y
-internal: n
-snippet: y
 ---
 
 # Rollup and global report suites

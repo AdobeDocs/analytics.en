@@ -6,9 +6,6 @@ solution: Analytics
 title: Customizable overlays
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizable overlays

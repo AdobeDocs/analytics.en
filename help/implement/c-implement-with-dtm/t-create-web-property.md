@@ -7,9 +7,6 @@ solution: Analytics
 title: Create web property
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Create web property

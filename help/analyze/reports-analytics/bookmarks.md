@@ -7,9 +7,6 @@ subtopic: Bookmarks
 title: Bookmark Manager
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-index: y
-internal: n
-snippet: y
 ---
 
 # Bookmark Manager

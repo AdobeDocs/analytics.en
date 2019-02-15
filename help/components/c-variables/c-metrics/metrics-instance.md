@@ -7,9 +7,6 @@ solution: Analytics
 title: Instances
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
-index: y
-internal: n
-snippet: y
 ---
 
 # Instances

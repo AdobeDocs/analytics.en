@@ -6,9 +6,6 @@ seo-title: FTP processing times
 solution: Analytics
 title: FTP processing times
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
-index: y
-internal: n
-snippet: y
 ---
 
 # FTP processing times

@@ -6,9 +6,6 @@ solution: Analytics
 title: Individual report suite settings
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-index: y
-internal: n
-snippet: y
 ---
 
 # Individual report suite settings

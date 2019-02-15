@@ -6,9 +6,6 @@ seo-title: Upgrade Adobe FTP servers
 solution: Analytics
 title: Upgrade Adobe FTP servers
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrade Adobe FTP servers

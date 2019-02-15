@@ -6,9 +6,6 @@ solution: Analytics
 title: Dimension Descriptions
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-index: y
-internal: n
-snippet: y
 ---
 
 # Dimension Descriptions

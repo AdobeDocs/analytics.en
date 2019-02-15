@@ -6,9 +6,6 @@ solution: Analytics
 title: Supported real-time metrics and dimensions
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported real-time metrics and dimensions

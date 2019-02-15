@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Sub-classifications and the Rule Builder - use case
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
-index: y
-internal: n
-snippet: y
 ---
 
 # Sub-classifications and the Rule Builder - use case

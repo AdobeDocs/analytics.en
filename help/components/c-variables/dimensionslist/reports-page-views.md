@@ -6,9 +6,6 @@ solution: Analytics
 title: Page Views
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Views

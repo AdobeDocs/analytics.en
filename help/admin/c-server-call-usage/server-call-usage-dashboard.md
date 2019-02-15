@@ -4,9 +4,6 @@ seo-description: null
 seo-title: View current server call usage
 title: View current server call usage
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-index: y
-internal: n
-snippet: y
 ---
 
 # View current server call usage

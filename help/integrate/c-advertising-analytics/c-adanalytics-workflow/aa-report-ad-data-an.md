@@ -4,9 +4,6 @@ seo-description: Details on the Analysis Workspace template, and reporting in Re
 seo-title: Report on advertising data in Adobe Analytics
 title: Report on advertising data in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-index: y
-internal: n
-snippet: y
 ---
 
 # Report on advertising data in Adobe Analytics

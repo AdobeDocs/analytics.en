@@ -6,9 +6,6 @@ solution: Analytics
 title: Searches
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
-index: y
-internal: n
-snippet: y
 ---
 
 # Searches

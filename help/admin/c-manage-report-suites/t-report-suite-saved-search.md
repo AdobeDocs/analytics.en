@@ -6,9 +6,6 @@ solution: Analytics
 title: Save a report suite search
 topic: Admin tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
-index: y
-internal: n
-snippet: y
 ---
 
 # Save a report suite search

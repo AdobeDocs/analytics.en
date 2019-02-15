@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Features
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Features{#report-features}

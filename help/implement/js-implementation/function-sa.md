@@ -8,9 +8,6 @@ subtopic: Functions
 title: The s.sa() Function
 topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-index: y
-internal: n
-snippet: y
 ---
 
 # The s.sa() Function

@@ -4,9 +4,6 @@ seo-description: There are visitor metrics in Adobe Analytics and Adobe Audience
 seo-title: Visitor Count differences
 title: Visitor Count differences
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Count differences

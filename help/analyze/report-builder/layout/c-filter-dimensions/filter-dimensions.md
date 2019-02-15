@@ -6,9 +6,6 @@ solution: Analytics
 title: Filter dimensions overview
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-index: y
-internal: n
-snippet: y
 ---
 
 # Filter dimensions overview

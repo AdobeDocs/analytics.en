@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Requirements and upload limits
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-index: y
-internal: n
-snippet: y
 ---
 
 # Requirements and upload limits

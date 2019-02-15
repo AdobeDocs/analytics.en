@@ -7,9 +7,6 @@ solution: Analytics
 title: Identify the s_account variable in the debugger
 topic: Developer and implementation
 uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Identify the s_account variable in the debugger

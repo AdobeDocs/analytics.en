@@ -4,9 +4,6 @@ seo-description: null
 seo-title: GDPR/ePrivacy compliance and server-side forwarding
 title: GDPR/ePrivacy compliance and server-side forwarding
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-index: y
-internal: n
-snippet: y
 ---
 
 # GDPR/ePrivacy compliance and server-side forwarding

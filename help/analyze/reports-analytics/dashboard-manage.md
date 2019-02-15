@@ -7,9 +7,6 @@ subtopic: Dashboards
 title: Dashboard Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-index: y
-internal: n
-snippet: y
 ---
 
 # Dashboard Manager

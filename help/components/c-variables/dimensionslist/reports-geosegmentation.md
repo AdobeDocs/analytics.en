@@ -6,9 +6,6 @@ solution: Analytics
 title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-index: y
-internal: n
-snippet: y
 ---
 
 # GeoSegmentation

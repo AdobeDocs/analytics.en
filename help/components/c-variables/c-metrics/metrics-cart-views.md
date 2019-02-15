@@ -6,9 +6,6 @@ solution: Analytics
 title: Cart Views
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
-index: y
-internal: n
-snippet: y
 ---
 
 # Cart Views

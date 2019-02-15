@@ -7,9 +7,6 @@ solution: Analytics
 title: Virtual report suite workflow
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-index: y
-internal: n
-snippet: y
 ---
 
 # Virtual report suite workflow

@@ -5,9 +5,6 @@ seo-title: Audience Analytics overview
 solution: Marketing Cloud
 title: Audience Analytics overview
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience Analytics overview

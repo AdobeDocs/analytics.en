@@ -6,9 +6,6 @@ solution: Analytics
 title: Link tracking FAQ
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Link tracking FAQ

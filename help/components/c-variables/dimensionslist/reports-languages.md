@@ -6,9 +6,6 @@ solution: Analytics
 title: Language
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Language

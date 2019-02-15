@@ -5,9 +5,6 @@ seo-description: This integration was introduced in Adobe Experience Manager 6.3
 seo-title: AEM Sites and Activity Map integration
 title: AEM Sites and Activity Map integration
 uuid: 22664cd9-c5d4-40bd-b5bf-26ed1b8d1490
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Sites and Activity Map integration

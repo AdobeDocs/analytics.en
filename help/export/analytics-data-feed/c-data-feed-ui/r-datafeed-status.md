@@ -6,9 +6,6 @@ seo-title: Data Feed status
 solution: Analytics
 title: Data Feed status
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Feed status

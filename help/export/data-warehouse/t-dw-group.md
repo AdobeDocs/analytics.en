@@ -6,9 +6,6 @@ solution: Analytics
 title: Add Data Warehouse user group
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Data Warehouse user group

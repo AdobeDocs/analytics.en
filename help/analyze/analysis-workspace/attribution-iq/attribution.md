@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Attribution IQ overview
 title: Attribution IQ overview
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Attribution IQ overview

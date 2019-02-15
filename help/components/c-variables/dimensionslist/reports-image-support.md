@@ -6,9 +6,6 @@ solution: Analytics
 title: Image Support
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Support

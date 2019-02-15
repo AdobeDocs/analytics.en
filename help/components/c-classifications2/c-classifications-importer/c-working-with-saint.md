@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classifications importer - overview
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifications importer - overview

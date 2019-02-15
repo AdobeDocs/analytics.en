@@ -7,9 +7,6 @@ subtopic: Schedule
 title: Data extract
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-index: y
-internal: n
-snippet: y
 ---
 
 # Data extract

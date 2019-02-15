@@ -6,9 +6,6 @@ solution: Analytics
 title: Add dependent requests
 topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
-index: y
-internal: n
-snippet: y
 ---
 
 # Add dependent requests

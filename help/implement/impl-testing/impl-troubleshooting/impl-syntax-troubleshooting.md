@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Common syntax mistakes
 topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
-index: y
-internal: n
-snippet: y
 ---
 
 # Common syntax mistakes

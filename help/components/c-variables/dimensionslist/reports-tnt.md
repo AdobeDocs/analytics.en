@@ -6,9 +6,6 @@ solution: Analytics
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
-index: y
-internal: n
-snippet: y
 ---
 
 # Target

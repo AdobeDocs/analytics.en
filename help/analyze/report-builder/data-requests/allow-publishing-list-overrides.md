@@ -6,9 +6,6 @@ solution: Analytics
 title: Allow Publishing List Overrides
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Allow Publishing List Overrides

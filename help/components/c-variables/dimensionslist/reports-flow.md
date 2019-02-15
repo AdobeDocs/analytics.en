@@ -6,9 +6,6 @@ solution: Analytics
 title: Flow
 topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Flow

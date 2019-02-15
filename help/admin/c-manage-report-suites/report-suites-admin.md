@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Suite Manager

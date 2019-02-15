@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-index: y
-internal: n
-snippet: y
 ---
 
 # getQueryParam

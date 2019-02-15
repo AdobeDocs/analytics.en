@@ -6,9 +6,6 @@ solution: Analytics
 title: New report suite - settings
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-index: y
-internal: n
-snippet: y
 ---
 
 # New report suite - settings

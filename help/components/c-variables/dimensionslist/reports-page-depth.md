@@ -6,9 +6,6 @@ solution: Analytics
 title: Page Depth
 topic: Reports
 uuid: 8631229e-1575-409f-a155-c799b8cb65b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Depth

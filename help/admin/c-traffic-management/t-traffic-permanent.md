@@ -6,9 +6,6 @@ solution: Analytics
 title: Specify permanent traffic increase
 topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
-index: y
-internal: n
-snippet: y
 ---
 
 # Specify permanent traffic increase

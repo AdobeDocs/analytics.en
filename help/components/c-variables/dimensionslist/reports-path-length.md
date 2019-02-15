@@ -6,9 +6,6 @@ solution: Analytics
 title: Path Length
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-index: y
-internal: n
-snippet: y
 ---
 
 # Path Length

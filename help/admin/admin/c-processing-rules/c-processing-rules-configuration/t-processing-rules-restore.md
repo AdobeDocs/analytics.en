@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Restore processing rules
 topic: Admin tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
-index: y
-internal: n
-snippet: y
 ---
 
 # Restore processing rules

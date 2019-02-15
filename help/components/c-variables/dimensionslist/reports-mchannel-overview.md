@@ -6,9 +6,6 @@ solution: Analytics
 title: Marketing Channel Overview
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Channel Overview

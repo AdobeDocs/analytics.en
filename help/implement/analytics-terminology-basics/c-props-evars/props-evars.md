@@ -7,9 +7,6 @@ solution: Analytics
 title: Overview of props and eVars
 topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of props and eVars

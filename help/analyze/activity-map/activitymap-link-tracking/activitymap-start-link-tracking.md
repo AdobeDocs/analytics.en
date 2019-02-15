@@ -6,9 +6,6 @@ solution: Analytics
 title: Start link tracking
 topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
-index: y
-internal: n
-snippet: y
 ---
 
 # Start link tracking

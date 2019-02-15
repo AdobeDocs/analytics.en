@@ -6,9 +6,6 @@ solution: Analytics
 title: Analytics Segmentation
 topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Segmentation{#analytics-segmentation}

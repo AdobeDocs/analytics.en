@@ -6,9 +6,6 @@ solution: Analytics
 title: Copy simple requests
 topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
-index: y
-internal: n
-snippet: y
 ---
 
 # Copy simple requests

@@ -6,9 +6,6 @@ solution: Analytics
 title: Enable traffic variable reports
 topic: Admin tools
 uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable traffic variable reports

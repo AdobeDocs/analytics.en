@@ -7,9 +7,6 @@ solution: Analytics
 title: Additional eVars and events
 topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Additional eVars and events

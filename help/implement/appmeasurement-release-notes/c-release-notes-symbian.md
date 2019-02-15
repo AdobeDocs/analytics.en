@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Symbian
 topic: Developer and implementation
 uuid: 000c0b76-00f9-40a5-b9b8-c67798ce705e
-index: y
-internal: n
-snippet: y
 ---
 
 # Symbian{#symbian}

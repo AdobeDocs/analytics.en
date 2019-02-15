@@ -6,9 +6,6 @@ solution: Analytics
 title: New Engagements
 topic: Metrics
 uuid: 2d1dc194-10f3-4bfd-ba60-2a57fc2ad2a8
-index: y
-internal: n
-snippet: y
 ---
 
 # New Engagements

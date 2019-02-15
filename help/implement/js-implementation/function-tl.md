@@ -8,9 +8,6 @@ subtopic: Link tracking
 title: The s.tl() Function - Link Tracking
 topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
-index: y
-internal: n
-snippet: y
 ---
 
 # The s.tl() Function - Link Tracking

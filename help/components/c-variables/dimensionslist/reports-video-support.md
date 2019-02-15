@@ -6,9 +6,6 @@ solution: Analytics
 title: Video Support
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Support

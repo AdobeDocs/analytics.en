@@ -6,9 +6,6 @@ solution: Analytics
 title: Select a report suite
 topic: Report builder
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
-index: y
-internal: n
-snippet: y
 ---
 
 # Select a report suite

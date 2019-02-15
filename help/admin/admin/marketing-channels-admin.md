@@ -6,9 +6,6 @@ solution: Analytics
 title: Marketing Channels
 topic: Admin tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Channels

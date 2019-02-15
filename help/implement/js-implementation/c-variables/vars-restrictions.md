@@ -8,9 +8,6 @@ subtopic: Variables
 title: Illegal JavaScript characters
 topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
-index: y
-internal: n
-snippet: y
 ---
 
 # Illegal JavaScript characters

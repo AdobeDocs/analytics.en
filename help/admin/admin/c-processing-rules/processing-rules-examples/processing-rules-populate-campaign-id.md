@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Populate a campaign ID from a query string parameter
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-index: y
-internal: n
-snippet: y
 ---
 
 # Populate a campaign ID from a query string parameter

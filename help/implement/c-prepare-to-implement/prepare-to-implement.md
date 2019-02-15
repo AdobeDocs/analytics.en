@@ -4,9 +4,6 @@ seo-description: The following sections contain tasks you should complete and in
 seo-title: Prepare to implement Analytics
 title: Prepare to implement Analytics
 uuid: 77491158-2ef2-4627-a815-51d414ee2464
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepare to implement Analytics

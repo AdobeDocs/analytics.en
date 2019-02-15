@@ -6,9 +6,6 @@ solution: Analytics
 title: Connection Type
 topic: Reports
 uuid: acd458d7-b1df-412f-bb04-3886d393c2f0
-index: y
-internal: n
-snippet: y
 ---
 
 # Connection Type

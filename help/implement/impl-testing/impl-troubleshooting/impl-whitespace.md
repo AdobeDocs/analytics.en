@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Using white space in variable values
 topic: Developer and implementation
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
-index: y
-internal: n
-snippet: y
 ---
 
 # Using white space in variable values

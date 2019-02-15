@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Convert your projects in Ad Hoc Analysis
 title: Convert your projects in Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-index: y
-internal: n
-snippet: y
 ---
 
 # Convert your projects in Ad Hoc Analysis

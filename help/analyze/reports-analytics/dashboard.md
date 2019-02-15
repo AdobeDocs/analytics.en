@@ -7,9 +7,6 @@ subtopic: Dashboards
 title: Dashboards and reportlets
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-index: y
-internal: n
-snippet: y
 ---
 
 # Dashboards and reportlets

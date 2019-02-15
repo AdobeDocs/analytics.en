@@ -6,9 +6,6 @@ solution: Analytics
 title: Format the date
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Format the date

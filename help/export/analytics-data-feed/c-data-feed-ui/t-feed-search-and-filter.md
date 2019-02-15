@@ -6,9 +6,6 @@ seo-title: Search and filter
 solution: Analytics
 title: Search and filter
 uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
-index: y
-internal: n
-snippet: y
 ---
 
 # Search and filter

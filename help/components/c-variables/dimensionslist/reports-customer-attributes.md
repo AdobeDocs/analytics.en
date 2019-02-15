@@ -5,9 +5,6 @@ seo-title: Customer Attributes
 solution: Marketing Cloud,Analytics
 title: Customer Attributes
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-index: y
-internal: n
-snippet: y
 ---
 
 # Customer Attributes

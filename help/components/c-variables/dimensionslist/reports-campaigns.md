@@ -6,9 +6,6 @@ solution: Analytics
 title: Campaigns
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaigns

@@ -7,9 +7,6 @@ solution: Analytics
 title: Verify header and footer code
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-index: y
-internal: n
-snippet: y
 ---
 
 # Verify header and footer code

@@ -6,9 +6,6 @@ solution: Analytics
 title: Request Wizard Step 2
 topic: Report builder
 uuid: ea908468-68f0-4d2e-9963-a52670fc3d3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Request Wizard Step 2

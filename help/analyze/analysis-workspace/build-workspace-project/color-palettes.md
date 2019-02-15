@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Color Palettes
 title: Color Palettes
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-index: y
-internal: n
-snippet: y
 ---
 
 # Visualization Color Palette

@@ -6,9 +6,6 @@ solution: Analytics
 title: Technology
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
-index: y
-internal: n
-snippet: y
 ---
 
 # Technology

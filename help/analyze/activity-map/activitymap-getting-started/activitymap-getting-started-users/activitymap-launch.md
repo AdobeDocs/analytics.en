@@ -6,9 +6,6 @@ solution: Analytics
 title: Launch Activity Map
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-index: y
-internal: n
-snippet: y
 ---
 
 # Launch Activity Map{#launch-activity-map}

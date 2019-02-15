@@ -6,9 +6,6 @@ solution: Analytics
 title: GeoSegmentation Regions and Postal Code usage by Country
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-index: y
-internal: n
-snippet: y
 ---
 
 # GeoSegmentation Regions and Postal Code usage by Country

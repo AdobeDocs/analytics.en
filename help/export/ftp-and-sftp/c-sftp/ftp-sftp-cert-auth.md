@@ -6,9 +6,6 @@ seo-title: Connect to Adobe via SFTP without a password
 solution: Analytics
 title: Connect to Adobe via SFTP without a password
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-index: y
-internal: n
-snippet: y
 ---
 
 # Connect to Adobe via SFTP without a password

@@ -7,9 +7,6 @@ subtopic: Release notes
 title: AppMeasurement for JavaScript
 topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
-index: y
-internal: n
-snippet: y
 ---
 
 # AppMeasurement for JavaScript{#appmeasurement-for-javascript}

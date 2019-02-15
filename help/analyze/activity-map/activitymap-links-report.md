@@ -6,9 +6,6 @@ solution: Analytics
 title: Links report
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-index: y
-internal: n
-snippet: y
 ---
 
 # Links report

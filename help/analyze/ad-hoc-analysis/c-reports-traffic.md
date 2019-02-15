@@ -6,9 +6,6 @@ solution: Analytics
 title: Traffic Sources reports
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic Sources reports

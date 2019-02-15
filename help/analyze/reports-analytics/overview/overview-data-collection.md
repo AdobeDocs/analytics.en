@@ -7,9 +7,6 @@ subtopic: Get started
 title: About Data Collection
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-index: y
-internal: n
-snippet: y
 ---
 
 # About Data Collection{#about-data-collection}

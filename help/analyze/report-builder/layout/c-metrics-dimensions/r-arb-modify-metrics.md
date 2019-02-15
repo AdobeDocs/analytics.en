@@ -6,9 +6,6 @@ solution: Analytics
 title: Modify metrics - field definitions
 topic: Report builder
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Modify metrics - field definitions

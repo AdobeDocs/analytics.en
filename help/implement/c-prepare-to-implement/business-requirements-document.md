@@ -4,9 +4,6 @@ seo-description: The Business Requirements Document (BRD) is used to document th
 seo-title: Business Requirements document
 title: Business Requirements document
 uuid: 989469c1-b025-4719-9dff-d295082ef4f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Business Requirements document

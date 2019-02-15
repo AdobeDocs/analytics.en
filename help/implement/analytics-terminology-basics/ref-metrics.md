@@ -7,9 +7,6 @@ solution: Analytics
 title: Metrics
 topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-index: y
-internal: n
-snippet: y
 ---
 
 # Metrics

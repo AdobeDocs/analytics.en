@@ -8,9 +8,6 @@ subtopic: Visitors
 title: Visits
 topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Visits

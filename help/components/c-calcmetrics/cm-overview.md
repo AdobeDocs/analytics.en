@@ -5,9 +5,6 @@ seo-description: Calculated and Advanced Calculated (or Derived) Metrics are cus
 seo-title: Calculated and Advanced Calculated (Derived) Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated and Advanced Calculated (Derived) Metrics

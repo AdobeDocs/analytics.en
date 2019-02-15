@@ -7,9 +7,6 @@ solution: Analytics
 title: Identify mobile devices
 topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
-index: y
-internal: n
-snippet: y
 ---
 
 # Identify mobile devices

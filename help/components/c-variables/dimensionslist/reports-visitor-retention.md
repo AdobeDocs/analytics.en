@@ -6,9 +6,6 @@ solution: Analytics
 title: Visitor Retention
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Retention

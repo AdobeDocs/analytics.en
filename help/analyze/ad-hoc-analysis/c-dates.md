@@ -4,9 +4,6 @@ seo-description: In the calendar, you can specify dates and date ranges, or sele
 seo-title: Dates and date ranges
 title: Dates and date ranges
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
-index: y
-internal: n
-snippet: y
 ---
 
 # Dates and date ranges

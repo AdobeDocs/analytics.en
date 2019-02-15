@@ -6,9 +6,6 @@ solution: Analytics
 title: Publishing Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing Widget

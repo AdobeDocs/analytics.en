@@ -6,9 +6,6 @@ solution: Analytics
 title: Path Views
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
-index: y
-internal: n
-snippet: y
 ---
 
 # Path Views

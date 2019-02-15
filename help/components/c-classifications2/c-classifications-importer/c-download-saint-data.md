@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Classification template
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-index: y
-internal: n
-snippet: y
 ---
 
 # Classification template

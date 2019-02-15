@@ -6,9 +6,6 @@ solution: Analytics
 title: Schedule a traffic spike
 topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
-index: y
-internal: n
-snippet: y
 ---
 
 # Schedule a traffic spike

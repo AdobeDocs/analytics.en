@@ -4,9 +4,6 @@ seo-description: Contribution Analysis is an intensive machine learning process 
 seo-title: Statistical techniques used in Contribution Analysis
 title: Statistical techniques used in Contribution Analysis
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-index: y
-internal: n
-snippet: y
 ---
 
 # Statistical techniques used in Contribution Analysis

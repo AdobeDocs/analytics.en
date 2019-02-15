@@ -6,9 +6,6 @@ solution: Analytics
 title: Report suite templates overview
 topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Report suite templates overview

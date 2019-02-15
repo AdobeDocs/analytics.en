@@ -6,9 +6,6 @@ solution: Analytics
 title: Rolling dates
 topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
-index: y
-internal: n
-snippet: y
 ---
 
 # Rolling dates

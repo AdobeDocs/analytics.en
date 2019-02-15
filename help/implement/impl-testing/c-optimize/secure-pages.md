@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Secure pages
 topic: Developer and implementation
 uuid: d63e4356-0203-4d10-838a-791d12f9333a
-index: y
-internal: n
-snippet: y
 ---
 
 # Secure pages

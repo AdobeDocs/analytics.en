@@ -7,9 +7,6 @@ solution: Analytics
 title: Putting Analytics code in the head tag
 topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
-index: y
-internal: n
-snippet: y
 ---
 
 # Putting Analytics code in the head tag

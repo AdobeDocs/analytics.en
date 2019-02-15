@@ -7,9 +7,6 @@ solution: Analytics
 title: AJAX-Track rich media applications
 topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
-index: y
-internal: n
-snippet: y
 ---
 
 # AJAX-Track rich media applications

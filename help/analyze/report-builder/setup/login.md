@@ -6,9 +6,6 @@ solution: Analytics
 title: Report Builder Sign-In
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Builder Sign-In

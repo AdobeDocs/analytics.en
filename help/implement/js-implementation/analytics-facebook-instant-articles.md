@@ -7,9 +7,6 @@ solution: Analytics
 title: Facebook Instant Articles
 topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-index: y
-internal: n
-snippet: y
 ---
 
 # Facebook Instant Articles

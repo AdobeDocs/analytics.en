@@ -6,9 +6,6 @@ solution: Analytics
 title: Menu Customizing
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
-index: y
-internal: n
-snippet: y
 ---
 
 # Menu Customizing

@@ -6,9 +6,6 @@ solution: Analytics
 title: Billing
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-index: y
-internal: n
-snippet: y
 ---
 
 # Billing

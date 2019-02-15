@@ -4,9 +4,6 @@ seo-description: Get started with Ad Hoc Analysis.
 seo-title: Getting Started
 title: Getting Started
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-index: y
-internal: n
-snippet: y
 ---
 
 # Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}

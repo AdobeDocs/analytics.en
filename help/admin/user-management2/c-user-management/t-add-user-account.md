@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Add a user account
 topic: Admin tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Add a user account

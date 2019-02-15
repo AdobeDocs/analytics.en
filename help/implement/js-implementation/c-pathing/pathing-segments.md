@@ -7,9 +7,6 @@ solution: Analytics
 title: Segment paths by user type
 topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
-index: y
-internal: n
-snippet: y
 ---
 
 # Segment paths by user type

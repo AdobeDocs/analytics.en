@@ -4,9 +4,6 @@ seo-description: Anomaly detection in Analysis Workspace uses a series of advanc
 seo-title: Statistical techniques used in anomaly detection
 title: Statistical techniques used in anomaly detection
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-index: y
-internal: n
-snippet: y
 ---
 
 # Statistical techniques used in anomaly detection

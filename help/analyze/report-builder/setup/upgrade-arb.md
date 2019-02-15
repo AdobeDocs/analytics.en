@@ -6,9 +6,6 @@ solution: Analytics
 title: Upgrade Report Builder
 topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrade Report Builder

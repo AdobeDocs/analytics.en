@@ -6,9 +6,6 @@ seo-title: Data availability, security, and recovery whitepapers
 solution: Analytics
 title: Data availability, security, and recovery whitepapers
 uuid: 3f962bf2-8fca-429b-ac67-6343cc7ea500
-index: y
-internal: n
-snippet: y
 ---
 
 # Data availability, security, and recovery whitepapers

@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Adobe Analytics GDPR workflow
 title: Adobe Analytics GDPR workflow
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics GDPR workflow

@@ -4,9 +4,6 @@ seo-description: There are six pillars of digital analytics that can help you un
 seo-title: Business Governance questionnaire
 title: Business Governance questionnaire
 uuid: 3bb7e087-319a-4217-9706-bfff0bb44dc8
-index: y
-internal: n
-snippet: y
 ---
 
 # Business Governance questionnaire

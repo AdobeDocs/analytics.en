@@ -6,9 +6,6 @@ seo-title: Create conditions for event-based rules
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Create conditions for event-based rules
 uuid: a847391c-5aec-4d64-8a35-388587731598
-index: y
-internal: n
-snippet: y
 ---
 
 # Create conditions for event-based rules

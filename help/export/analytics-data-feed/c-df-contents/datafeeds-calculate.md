@@ -7,9 +7,6 @@ solution: Analytics
 title: Calculate metrics
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculate metrics

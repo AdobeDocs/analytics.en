@@ -6,9 +6,6 @@ solution: Analytics
 title: Pages
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-index: y
-internal: n
-snippet: y
 ---
 
 # Pages

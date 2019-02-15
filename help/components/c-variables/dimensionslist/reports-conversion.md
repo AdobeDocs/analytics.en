@@ -6,9 +6,6 @@ solution: Analytics
 title: Conversion
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion

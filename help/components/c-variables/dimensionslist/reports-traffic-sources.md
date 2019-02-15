@@ -6,9 +6,6 @@ solution: Analytics
 title: Traffic Sources
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic Sources

@@ -6,9 +6,6 @@ solution: Analytics
 title: Customize reports overview
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize reports overview

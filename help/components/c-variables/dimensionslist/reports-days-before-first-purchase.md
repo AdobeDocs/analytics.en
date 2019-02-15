@@ -6,9 +6,6 @@ solution: Analytics
 title: Days Before First Purchase
 topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
-index: y
-internal: n
-snippet: y
 ---
 
 # Days Before First Purchase

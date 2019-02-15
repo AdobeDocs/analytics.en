@@ -6,9 +6,6 @@ solution: Analytics
 title: Real-time (Live) page analytics
 topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Real-time (Live) page analytics

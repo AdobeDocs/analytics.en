@@ -7,9 +7,6 @@ solution: Analytics
 title: Move from section to section
 topic: Developer and implementation
 uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
-index: y
-internal: n
-snippet: y
 ---
 
 # Move from section to section

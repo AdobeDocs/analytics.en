@@ -6,9 +6,6 @@ solution: Analytics
 title: Traffic variable (prop) overview
 topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic variable (prop) overview

@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Traffic classifications
 topic: Admin tools
 uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic classifications

@@ -6,9 +6,6 @@ solution: Analytics
 title: Yearly Unique Visitors
 topic: Metrics
 uuid: 80015631-b100-4e47-a493-e9c10563f99d
-index: y
-internal: n
-snippet: y
 ---
 
 # Yearly Unique Visitors

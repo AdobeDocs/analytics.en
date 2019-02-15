@@ -4,9 +4,6 @@ seo-description: Time is a reporting dimension useful for trending over hours, d
 seo-title: Time
 title: Time
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
-index: y
-internal: n
-snippet: y
 ---
 
 # Time

@@ -6,9 +6,6 @@ solution: Analytics
 title: Run different report types
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-index: y
-internal: n
-snippet: y
 ---
 
 # Run different report types

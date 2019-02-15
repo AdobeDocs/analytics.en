@@ -6,9 +6,6 @@ solution: Analytics
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile

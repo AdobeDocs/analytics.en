@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Add a subcategory by concatenating the category and page name
 topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-index: y
-internal: n
-snippet: y
 ---
 
 # Add a subcategory by concatenating the category and page name

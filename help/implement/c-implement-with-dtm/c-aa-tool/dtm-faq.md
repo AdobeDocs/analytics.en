@@ -6,9 +6,6 @@ seo-title: FAQs about the Adobe Analytics Tool
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQs about the Adobe Analytics Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-index: y
-internal: n
-snippet: y
 ---
 
 # FAQs about the Adobe Analytics Tool

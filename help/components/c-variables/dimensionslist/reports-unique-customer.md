@@ -6,9 +6,6 @@ solution: Analytics
 title: Unique Customers
 topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
-index: y
-internal: n
-snippet: y
 ---
 
 # Unique Customers

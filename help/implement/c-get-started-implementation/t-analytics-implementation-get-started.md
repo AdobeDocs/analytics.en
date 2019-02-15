@@ -8,9 +8,6 @@ subtopic: Analysis Workspace
 title: Simplified implementation modal
 topic: Reports and analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-index: y
-internal: n
-snippet: y
 ---
 
 # Simplified implementation modal

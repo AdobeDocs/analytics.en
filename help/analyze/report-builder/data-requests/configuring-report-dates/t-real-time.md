@@ -6,9 +6,6 @@ solution: Analytics
 title: Configure a real-time request
 topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure a real-time request

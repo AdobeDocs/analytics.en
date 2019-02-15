@@ -6,9 +6,6 @@ solution: Analytics
 title: Customized date expressions - overview
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
-index: y
-internal: n
-snippet: y
 ---
 
 # Customized date expressions - overview

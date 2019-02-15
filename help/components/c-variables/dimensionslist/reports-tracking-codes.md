@@ -6,9 +6,6 @@ solution: Analytics
 title: Tracking Codes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Codes

@@ -6,9 +6,6 @@ solution: Analytics
 title: Screen Height
 topic: Reports
 uuid: d7e50b3a-073b-42af-81b5-1512f169a505
-index: y
-internal: n
-snippet: y
 ---
 
 # Screen Height

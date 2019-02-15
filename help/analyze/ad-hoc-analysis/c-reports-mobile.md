@@ -4,9 +4,6 @@ seo-description: Displays information about websites access from a mobile device
 seo-title: Mobile reports
 title: Mobile reports
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile reports

@@ -4,9 +4,6 @@ seo-description: Time parting takes the timestamp of collected hits and breaks i
 seo-title: Time-parting dimensions
 title: Time-parting dimensions
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-index: y
-internal: n
-snippet: y
 ---
 
 # Time-parting dimensions

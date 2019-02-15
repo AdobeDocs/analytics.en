@@ -4,9 +4,6 @@ seo-description: Calculated metrics rights differs between Admin-level users and
 seo-title: Calculated metrics  role-based rights
 title: Calculated metrics  role-based rights
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculated metrics: role-based rights

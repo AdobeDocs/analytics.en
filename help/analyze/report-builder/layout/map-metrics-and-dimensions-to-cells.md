@@ -6,9 +6,6 @@ solution: Analytics
 title: Map metrics and dimensions to cells
 topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Map metrics and dimensions to cells

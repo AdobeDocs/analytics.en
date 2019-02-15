@@ -6,9 +6,6 @@ solution: Analytics
 title: Copy adjacent requests
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
-index: y
-internal: n
-snippet: y
 ---
 
 # Copy adjacent requests

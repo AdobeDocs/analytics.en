@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: JavaScript file location and concurrence
 topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript file location and concurrence

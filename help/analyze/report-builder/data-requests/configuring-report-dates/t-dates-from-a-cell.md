@@ -6,9 +6,6 @@ solution: Analytics
 title: Dates from a cell
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
-index: y
-internal: n
-snippet: y
 ---
 
 # Dates from a cell

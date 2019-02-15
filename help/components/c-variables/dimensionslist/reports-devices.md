@@ -6,9 +6,6 @@ solution: Analytics
 title: Devices
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
-index: y
-internal: n
-snippet: y
 ---
 
 # Devices

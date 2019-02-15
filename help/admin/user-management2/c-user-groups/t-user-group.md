@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Add a user group
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
-index: y
-internal: n
-snippet: y
 ---
 
 # Add a user group

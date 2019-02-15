@@ -6,9 +6,6 @@ solution: Analytics
 title: Tag segments
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Tag segments

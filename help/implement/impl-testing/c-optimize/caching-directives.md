@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Caching directives
 topic: Developer and implementation
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
-index: y
-internal: n
-snippet: y
 ---
 
 # Caching directives

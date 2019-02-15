@@ -7,9 +7,6 @@ solution: Analytics
 title: Create segments
 topic: Developer and implementation
 uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
-index: y
-internal: n
-snippet: y
 ---
 
 # Create segments

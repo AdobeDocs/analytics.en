@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Metrics reports
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Metrics reports

@@ -4,9 +4,6 @@ seo-description: Shows how to remove/discard an event from a hit using Processin
 seo-title: Remove an event from a hit
 title: Remove an event from a hit
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Remove an event from a hit

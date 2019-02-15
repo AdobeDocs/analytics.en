@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Metrics
 topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Metrics

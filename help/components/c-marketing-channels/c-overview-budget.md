@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Costs and budgets
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Costs and budgets

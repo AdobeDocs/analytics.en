@@ -4,9 +4,6 @@ seo-description: Within the Calculated Metric Manager, you can set up a workflow
 seo-title: Approve calculated metrics
 title: Approve calculated metrics
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Approve calculated metrics

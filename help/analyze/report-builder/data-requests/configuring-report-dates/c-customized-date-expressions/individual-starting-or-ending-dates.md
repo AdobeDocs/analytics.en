@@ -6,9 +6,6 @@ solution: Analytics
 title: Individual starting or ending dates
 topic: Report builder
 uuid: b161948c-c71c-4757-8348-15577fc61042
-index: y
-internal: n
-snippet: y
 ---
 
 # Individual starting or ending dates

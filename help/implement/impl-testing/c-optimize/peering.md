@@ -8,9 +8,6 @@ subtopic: Troubleshooting
 title: Peering
 topic: Developer and implementation
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
-index: y
-internal: n
-snippet: y
 ---
 
 # Peering

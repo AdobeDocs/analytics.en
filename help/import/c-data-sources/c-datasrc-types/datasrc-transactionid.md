@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Transaction ID
 topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Transaction ID

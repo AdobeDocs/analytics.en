@@ -7,9 +7,6 @@ solution: Analytics
 title: Mobile protocol network gateway
 topic: Developer and implementation
 uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile protocol network gateway

@@ -4,9 +4,6 @@ seo-description: Learn about segmentation features in Analysis Workspace.
 seo-title: Segmentation features in Analysis Workspace
 title: Segmentation features in Analysis Workspace
 uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Segmentation features in Analysis Workspace

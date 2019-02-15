@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: View processing rule history
 topic: Admin tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
-index: y
-internal: n
-snippet: y
 ---
 
 # View processing rule history

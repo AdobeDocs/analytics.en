@@ -7,9 +7,6 @@ subtopic: Release notes
 title: Windows Phone 8
 topic: Developer and implementation
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Windows Phone 8{#windows-phone}

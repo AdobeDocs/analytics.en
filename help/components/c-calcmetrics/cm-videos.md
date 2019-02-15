@@ -4,9 +4,6 @@ seo-description: These short videos (8 minutes or less) provide an overview of h
 seo-title: How-to videos
 title: How-to videos
 uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
-index: y
-internal: n
-snippet: y
 ---
 
 # How-to videos

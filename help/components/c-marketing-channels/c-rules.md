@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Processing rules for Marketing Channels
 topic: Reports and analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing rules for Marketing Channels

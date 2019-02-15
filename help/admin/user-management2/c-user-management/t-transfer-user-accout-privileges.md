@@ -7,9 +7,6 @@ subtopic: Users and groups
 title: Transfer user account items
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-index: y
-internal: n
-snippet: y
 ---
 
 # Transfer user account items

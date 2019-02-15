@@ -6,9 +6,6 @@ solution: Analytics
 title: Operating Systems
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-index: y
-internal: n
-snippet: y
 ---
 
 # Operating Systems

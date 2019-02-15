@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Insight
 topic: Reports
 uuid: bdfe3578-765a-42d2-98ea-d575743f8be2
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Insight

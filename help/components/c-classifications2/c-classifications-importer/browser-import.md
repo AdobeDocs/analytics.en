@@ -7,9 +7,6 @@ subtopic: Classifications
 title: Browser import
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser import

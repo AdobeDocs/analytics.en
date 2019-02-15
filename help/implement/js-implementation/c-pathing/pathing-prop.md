@@ -7,9 +7,6 @@ solution: Analytics
 title: Enable pathing on a prop
 topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable pathing on a prop

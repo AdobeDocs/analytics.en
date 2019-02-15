@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Data Sources Manager
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Sources Manager

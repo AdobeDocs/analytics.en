@@ -6,9 +6,6 @@ solution: Analytics
 title: Prepend and postpend text to cells
 topic: Report builder
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepend and postpend text to cells

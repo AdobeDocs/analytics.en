@@ -4,9 +4,6 @@ seo-description: Depending on your permissions, you can share metrics with your 
 seo-title: Share calculated metrics
 title: Share calculated metrics
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-index: y
-internal: n
-snippet: y
 ---
 
 # Share calculated metrics

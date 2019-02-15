@@ -7,9 +7,6 @@ subtopic: Release notes
 title: WinRT for Windows 8
 topic: Developer and implementation
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-index: y
-internal: n
-snippet: y
 ---
 
 # WinRT for Windows 8{#winrt-for-windows}

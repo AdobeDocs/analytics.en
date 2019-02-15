@@ -4,9 +4,6 @@ seo-description: You can view and analyze data anomalies contextually, within An
 seo-title: Anomaly Detection overview
 title: Anomaly Detection overview
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-index: y
-internal: n
-snippet: y
 ---
 
 # Anomaly Detection overview

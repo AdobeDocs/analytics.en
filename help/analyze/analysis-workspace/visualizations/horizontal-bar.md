@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Horizontal Bar and Horizontal Bar Stacked
 title: Horizontal Bar and Horizontal Bar Stacked
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-index: y
-internal: n
-snippet: y
 ---
 
 # Horizontal Bar and Horizontal Bar Stacked

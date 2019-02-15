@@ -6,9 +6,6 @@ solution: Analytics
 title: Upload a workbook
 topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
-index: y
-internal: n
-snippet: y
 ---
 
 # Upload a workbook

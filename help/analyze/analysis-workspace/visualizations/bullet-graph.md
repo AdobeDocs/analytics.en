@@ -4,9 +4,6 @@ seo-description: Lets you see how a value you are interested in compares to or m
 seo-title: Bullet graph
 title: Bullet graph
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-index: y
-internal: n
-snippet: y
 ---
 
 # Bullet graph

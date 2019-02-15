@@ -4,9 +4,6 @@ seo-description: Date Comparison in Analysis Workspace lets you take any column 
 seo-title: Date comparison
 title: Date comparison
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-index: y
-internal: n
-snippet: y
 ---
 
 # Date comparison

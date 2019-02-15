@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
-index: y
-internal: n
-snippet: y
 ---
 
 # getPercentPageViewed

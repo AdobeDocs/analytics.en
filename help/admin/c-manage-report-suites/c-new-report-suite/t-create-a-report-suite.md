@@ -6,9 +6,6 @@ solution: Analytics
 title: Create a report suite
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a report suite

@@ -6,9 +6,6 @@ seo-title: Analytics Data Feed overview
 solution: Analytics
 title: Analytics Data Feed overview
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Data Feed overview

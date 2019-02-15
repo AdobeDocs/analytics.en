@@ -6,9 +6,6 @@ solution: Analytics
 title: Finding Methods
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-index: y
-internal: n
-snippet: y
 ---
 
 # Finding Methods

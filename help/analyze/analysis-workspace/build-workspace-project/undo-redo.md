@@ -4,9 +4,6 @@ seo-description: Changes and enhancements to the Undo option in Analysis Workspa
 seo-title: Undo and redo settings
 title: Undo and redo settings
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Undo and redo settings

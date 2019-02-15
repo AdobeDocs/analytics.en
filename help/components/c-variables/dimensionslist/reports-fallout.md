@@ -6,9 +6,6 @@ solution: Analytics
 title: Fallout
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Fallout

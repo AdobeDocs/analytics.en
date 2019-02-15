@@ -5,9 +5,6 @@ seo-title: Sort by Metric
 solution: Analytics
 title: Sort by Metric
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-index: y
-internal: n
-snippet: y
 ---
 
 # Sort by Metric

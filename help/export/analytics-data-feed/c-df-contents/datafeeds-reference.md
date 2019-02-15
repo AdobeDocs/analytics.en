@@ -8,9 +8,6 @@ subtopic: data feeds
 title: Data column reference
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-index: y
-internal: n
-snippet: y
 ---
 
 # Data column reference

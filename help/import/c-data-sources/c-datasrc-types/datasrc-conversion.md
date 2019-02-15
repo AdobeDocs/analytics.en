@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Conversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion

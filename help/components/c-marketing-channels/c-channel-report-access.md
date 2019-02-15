@@ -7,9 +7,6 @@ subtopic: Marketing channels
 title: Report Access
 topic: Reports and analytics
 uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
-index: y
-internal: n
-snippet: y
 ---
 
 # Report Access

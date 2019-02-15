@@ -5,9 +5,6 @@ solution: Analytics
 title: Analysis Workspace overview
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-index: y
-internal: n
-snippet: y
 ---
 
 # Analysis Workspace overview

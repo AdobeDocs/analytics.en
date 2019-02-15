@@ -6,9 +6,6 @@ solution: Analytics
 title: Standard Mode vs. Live Mode
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-index: y
-internal: n
-snippet: y
 ---
 
 # Standard Mode vs. Live Mode

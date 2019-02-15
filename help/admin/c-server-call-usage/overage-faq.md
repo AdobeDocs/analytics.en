@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Server Call Usage FAQ
 title: Server Call Usage FAQ
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-index: y
-internal: n
-snippet: y
 ---
 
 # Server Call Usage FAQ

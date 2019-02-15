@@ -6,9 +6,6 @@ solution: Analytics
 title: Refresh a request
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
-index: y
-internal: n
-snippet: y
 ---
 
 # Refresh a request

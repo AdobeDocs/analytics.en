@@ -6,9 +6,6 @@ solution: Analytics
 title: Comparison Operators for Segments
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-index: y
-internal: n
-snippet: y
 ---
 
 # Comparison Operators for Segments

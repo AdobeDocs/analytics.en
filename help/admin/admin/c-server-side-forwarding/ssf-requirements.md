@@ -5,9 +5,6 @@ seo-title: Requirements for server-side forwarding
 solution: Audience Manager
 title: Requirements for server-side forwarding
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Requirements for server-side forwarding

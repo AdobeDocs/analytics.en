@@ -6,9 +6,6 @@ solution: Analytics
 title: Delete segments
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete segments

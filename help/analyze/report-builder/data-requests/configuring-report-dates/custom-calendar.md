@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom calendar
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom calendar

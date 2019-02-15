@@ -7,9 +7,6 @@ subtopic: Classifications
 title: About classifications
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-index: y
-internal: n
-snippet: y
 ---
 
 # About classifications

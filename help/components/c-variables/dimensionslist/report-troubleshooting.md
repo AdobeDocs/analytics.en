@@ -7,9 +7,6 @@ solution: Analytics
 title: Reporting Best Practices and Troubleshooting
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting Best Practices and Troubleshooting

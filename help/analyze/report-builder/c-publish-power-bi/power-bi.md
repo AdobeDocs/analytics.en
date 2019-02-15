@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Publish to Power BI - Overview
 title: Publish to Power BI - Overview
 uuid: ad688817-6e3c-45da-983d-48c123465309
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish to Power BI - Overview

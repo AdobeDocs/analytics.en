@@ -6,9 +6,6 @@ solution: Analytics
 title: Dimensions
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-index: y
-internal: n
-snippet: y
 ---
 
 # Dimensions

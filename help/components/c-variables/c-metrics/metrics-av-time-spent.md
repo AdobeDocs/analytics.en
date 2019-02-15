@@ -6,9 +6,6 @@ solution: Analytics
 title: Average Time Spent
 topic: Metrics
 uuid: 593d05a4-806a-4def-a47c-926817ccffad
-index: y
-internal: n
-snippet: y
 ---
 
 # Average Time Spent

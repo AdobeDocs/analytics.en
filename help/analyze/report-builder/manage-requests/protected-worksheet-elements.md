@@ -6,9 +6,6 @@ solution: Analytics
 title: Protected worksheet elements
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Protected worksheet elements

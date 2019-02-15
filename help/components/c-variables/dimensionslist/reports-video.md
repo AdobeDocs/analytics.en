@@ -6,9 +6,6 @@ solution: Analytics
 title: Video
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Video

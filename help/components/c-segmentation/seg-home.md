@@ -7,9 +7,6 @@ solution: Analytics
 title: Analytics segmentation
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics segmentation

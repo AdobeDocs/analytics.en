@@ -7,9 +7,6 @@ subtopic: Processing rules
 title: Determine a path by copying an eVar value to a prop
 topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
-index: y
-internal: n
-snippet: y
 ---
 
 # Determine a path by copying an eVar value to a prop

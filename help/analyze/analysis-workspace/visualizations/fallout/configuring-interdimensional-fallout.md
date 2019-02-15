@@ -4,9 +4,6 @@ seo-description: Fallout in Analysis Workspace lets you to mix and match dimensi
 seo-title: Inter-dimensional fallout
 title: Inter-dimensional fallout
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-index: y
-internal: n
-snippet: y
 ---
 
 # Inter-dimensional fallout

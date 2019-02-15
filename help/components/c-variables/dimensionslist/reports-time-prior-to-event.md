@@ -6,9 +6,6 @@ solution: Analytics
 title: Time Prior to Event
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Time Prior to Event

@@ -6,9 +6,6 @@ solution: Analytics
 title: Add metrics and dimensions
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-index: y
-internal: n
-snippet: y
 ---
 
 # Add metrics and dimensions

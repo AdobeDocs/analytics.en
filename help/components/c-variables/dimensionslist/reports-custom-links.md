@@ -6,9 +6,6 @@ solution: Analytics
 title: Custom Link
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Link

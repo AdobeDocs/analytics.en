@@ -6,9 +6,6 @@ solution: Analytics
 title: Change report graphs
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-index: y
-internal: n
-snippet: y
 ---
 
 # Change report graphs

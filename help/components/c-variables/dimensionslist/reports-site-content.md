@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Content
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Content

@@ -6,9 +6,6 @@ solution: Analytics
 title: Device Types
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Device Types

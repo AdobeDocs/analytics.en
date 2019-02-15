@@ -7,9 +7,6 @@ solution: Analytics
 title: Track across different implementation types
 topic: Developer and implementation
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Track across different implementation types

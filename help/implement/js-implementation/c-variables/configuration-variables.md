@@ -8,9 +8,6 @@ subtopic: Variables
 title: Configuration variables
 topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration variables

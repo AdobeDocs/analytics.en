@@ -6,9 +6,6 @@ solution: Analytics
 title: Mobile Carrier
 topic: Reports
 uuid: 85cc65ce-772e-4a86-bf11-ee85ca693134
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Carrier

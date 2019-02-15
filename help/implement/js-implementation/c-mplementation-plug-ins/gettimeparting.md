@@ -8,9 +8,6 @@ subtopic: Plug-ins
 title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
-index: y
-internal: n
-snippet: y
 ---
 
 # getTimeParting

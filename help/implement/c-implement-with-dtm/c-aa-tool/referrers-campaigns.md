@@ -6,9 +6,6 @@ seo-title: Referrers and campaigns
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Referrers and campaigns
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-index: y
-internal: n
-snippet: y
 ---
 
 # Referrers and campaigns

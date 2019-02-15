@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Best practices
 title: Best practices
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices

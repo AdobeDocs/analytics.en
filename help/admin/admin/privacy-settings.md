@@ -6,9 +6,6 @@ solution: Analytics
 title: Privacy Settings
 topic: Admin tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy Settings

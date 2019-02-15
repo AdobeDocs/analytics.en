@@ -6,9 +6,6 @@ solution: Analytics
 title: Occurrences
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
-index: y
-internal: n
-snippet: y
 ---
 
 # Occurrences

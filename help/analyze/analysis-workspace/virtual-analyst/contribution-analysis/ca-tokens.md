@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Contribution Analysis overview
 title: Contribution Analysis overview
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-index: y
-internal: n
-snippet: y
 ---
 
 # Contribution Analysis overview

@@ -6,9 +6,6 @@ solution: Analytics
 title: Site Sections Summary
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Sections Summary

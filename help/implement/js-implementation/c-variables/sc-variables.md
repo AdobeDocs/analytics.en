@@ -8,9 +8,6 @@ subtopic: Variables
 title: Overview of variables
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of variables

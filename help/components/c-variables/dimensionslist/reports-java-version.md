@@ -6,9 +6,6 @@ solution: Analytics
 title: JavaScript Version
 topic: Reports
 uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript Version

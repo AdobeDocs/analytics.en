@@ -7,9 +7,6 @@ solution: Analytics
 title: Data Warehouse best practices
 topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Warehouse best practices

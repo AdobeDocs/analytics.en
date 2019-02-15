@@ -6,9 +6,6 @@ solution: Analytics
 title: Saved filters
 topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
-index: y
-internal: n
-snippet: y
 ---
 
 # Saved filters

@@ -6,9 +6,6 @@ solution: Analytics
 title: Device Number Transit
 topic: Reports
 uuid: 96742bf4-3b26-4cf7-8599-925aabee7e87
-index: y
-internal: n
-snippet: y
 ---
 
 # Device Number Transit

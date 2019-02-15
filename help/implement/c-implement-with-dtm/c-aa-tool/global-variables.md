@@ -6,9 +6,6 @@ seo-title: Global variables
 solution: Marketing Cloud,Analytics,Dynamic Tag Management
 title: Global variables
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-index: y
-internal: n
-snippet: y
 ---
 
 # Global variables

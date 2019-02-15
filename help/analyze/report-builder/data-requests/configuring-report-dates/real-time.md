@@ -6,9 +6,6 @@ solution: Analytics
 title: Real-time reports
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
-index: y
-internal: n
-snippet: y
 ---
 
 # Real-time reports

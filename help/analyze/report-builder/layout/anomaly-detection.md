@@ -6,9 +6,6 @@ solution: Analytics
 title: Anomaly Detection
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-index: y
-internal: n
-snippet: y
 ---
 
 # Anomaly Detection{#anomaly-detection}

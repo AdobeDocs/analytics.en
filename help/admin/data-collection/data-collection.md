@@ -6,9 +6,6 @@ solution: Analytics
 title: Data Collection
 topic: Developer and implementation
 uuid: 70cbfedc-58d4-433d-9a41-ee1a45cc8007
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Collection

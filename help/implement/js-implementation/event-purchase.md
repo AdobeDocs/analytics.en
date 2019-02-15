@@ -7,9 +7,6 @@ solution: Analytics
 title: Purchase events
 topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
-index: y
-internal: n
-snippet: y
 ---
 
 # Purchase events

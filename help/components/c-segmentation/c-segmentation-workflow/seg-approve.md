@@ -6,9 +6,6 @@ solution: Analytics
 title: Approve segments
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-index: y
-internal: n
-snippet: y
 ---
 
 # Approve segments

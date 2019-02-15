@@ -7,9 +7,6 @@ solution: Analytics
 title: Curation/Sharing overview
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-index: y
-internal: n
-snippet: y
 ---
 
 # Curation/Sharing overview

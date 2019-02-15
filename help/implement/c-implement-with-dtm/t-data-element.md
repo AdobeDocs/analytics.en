@@ -6,9 +6,6 @@ seo-title: Create a data element
 solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
 title: Create a data element
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a data element

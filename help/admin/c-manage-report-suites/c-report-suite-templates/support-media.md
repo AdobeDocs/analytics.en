@@ -6,9 +6,6 @@ solution: Analytics
 title: Support Media
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
-index: y
-internal: n
-snippet: y
 ---
 
 # Support Media

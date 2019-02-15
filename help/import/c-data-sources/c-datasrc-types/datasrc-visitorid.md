@@ -7,9 +7,6 @@ subtopic: Data sources
 title: Visitor ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor ID

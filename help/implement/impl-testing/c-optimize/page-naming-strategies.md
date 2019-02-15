@@ -7,9 +7,6 @@ solution: Analytics
 title: Page naming strategies
 topic: Developer and implementation
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Page naming strategies

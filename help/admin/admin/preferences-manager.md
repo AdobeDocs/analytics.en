@@ -6,9 +6,6 @@ solution: Analytics
 title: Preferences Manager
 topic: Admin tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
-index: y
-internal: n
-snippet: y
 ---
 
 # Preferences Manager

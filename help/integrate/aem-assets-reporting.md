@@ -6,9 +6,6 @@ solution: Analytics
 title: AEM Assets reporting
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Assets reporting

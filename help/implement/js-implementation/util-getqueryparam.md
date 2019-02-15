@@ -8,9 +8,6 @@ subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: Developer and implementation
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-index: y
-internal: n
-snippet: y
 ---
 
 # Util.getQueryParam

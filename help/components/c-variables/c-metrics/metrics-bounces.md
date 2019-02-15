@@ -7,9 +7,6 @@ solution: Analytics
 title: Bounces
 topic: Metrics
 uuid: 0a5efe5f-467e-4d40-951a-5b462149e482
-index: y
-internal: n
-snippet: y
 ---
 
 # Bounces

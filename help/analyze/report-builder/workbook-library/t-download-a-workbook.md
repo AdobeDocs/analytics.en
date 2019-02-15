@@ -6,9 +6,6 @@ solution: Analytics
 title: Download a workbook
 topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
-index: y
-internal: n
-snippet: y
 ---
 
 # Download a workbook

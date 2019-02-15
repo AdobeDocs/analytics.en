@@ -4,9 +4,6 @@ seo-description: The new Intelligent Alerts system allows for more granular cont
 seo-title: Intelligent Alerts overview
 title: Intelligent Alerts overview
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-index: y
-internal: n
-snippet: y
 ---
 
 # Intelligent Alerts overview

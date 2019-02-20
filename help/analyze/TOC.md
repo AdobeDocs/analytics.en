@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 ---
 
-# Analytics Analysis Guide {#analyze}
+# Analytics Tools Guide {#analyze}
 
-+ [Analytics Analysis Help](home.md)
++ [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
     + [Analysis Workspace overview](analysis-workspace/analysis-workspace-features.md)
     + [Getting Started guide](analysis-workspace/home.md)

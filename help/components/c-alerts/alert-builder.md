@@ -87,6 +87,6 @@ The interactive alert preview shows you how often, approximately, an alert will 
 
 For example, if you set the time granularity to daily, the preview can tell you that the alert would have been triggered for a certain metric x times during the last 30 or 31 days.
 
-If you find that too many alerts would have been triggered, you can adjust the threshold in the [Alert Manager](../../components/c-alerts/alert-manager.md#concept_633AE746900B44D2A7045386B526ED8D).
+If you find that too many alerts would have been triggered, you can adjust the threshold in the [Alert Manager](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)

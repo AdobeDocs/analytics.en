@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 ---
 
-# Analytics Analyze Guide {#analyze}
+# Analytics Analysis Guide {#analyze}
 
-+ [Analytics Analyze Help](home.md)
++ [Analytics Analysis Help](home.md)
 + Analysis Workspace {#analysis-workspace}
     + [Analysis Workspace overview](analysis-workspace/analysis-workspace-features.md)
     + [Getting Started guide](analysis-workspace/home.md)
@@ -103,10 +103,10 @@ user-guide-title: Analytics Analyze Guide
             + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
             + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
         + Intelligent Alerts {#intelligent-alerts}
-            + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-            + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-            + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-            + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+            + [Intelligent Alerts overview](/help/components/c-alerts/intellligent-alerts.md)
+            + [Alert Builder](/help/components/c-alerts/alert-builder.md)
+            + [Alert Manager](/help/components/c-alerts/alert-manager.md)
+            + [Intelligent Alerts - use cases](/help/components/c-alerts/alerts-use-cases.md)
     + [Frequently asked questions](analysis-workspace/faq.md)
     + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
     + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)

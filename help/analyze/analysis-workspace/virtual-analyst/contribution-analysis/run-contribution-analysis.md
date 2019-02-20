@@ -44,7 +44,7 @@ There are two ways to invoke contribution analysis in a project:
     * [Breaking each dimension item down by another dimension.](../../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4) 
     * [Trending one or more rows.](../../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
     * [Adding new visualizations.](../../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 
-    * [Creating alerts.](../../../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42) 
+    * [Creating alerts.](/help/components/c-alerts/intellligent-alerts.md) 
     * [Creating or comparing segments.](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
 >[!NOTE]

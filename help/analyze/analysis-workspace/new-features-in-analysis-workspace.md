@@ -466,7 +466,7 @@ New features released on October 26, 2017.
    <td colname="col2"> <p>The Anomaly Detection Confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. </p> <p>You now have the option to allow the confidence interval to scale the chart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#concept_633AE746900B44D2A7045386B526ED8D" format="dita" scope="local"> Alerts: Added <b>Renew</b> Option </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> Alerts: Added <b>Renew</b> Option </a> </p> </td> 
    <td colname="col2"> <p>In the Alert Manager, when one or more alerts are selected, they can be renewed by clicking <span class="uicontrol"> Renew </span>. </p> <p>This extends their expiration dates to 1 year from the day <span class="uicontrol"> Renew </span> was clicked, regardless of their original expiration date. </p> </td> 
   </tr> 
   <tr> 
@@ -567,7 +567,7 @@ New features released on August 17, 2017.
    <td colname="col2"> <p>You can download Flow visualizations as .csv files, which lets you analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts: Additional confidence intervals </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Intelligent Alerts: Additional confidence intervals </a> </p> </td> 
    <td colname="col2"> <p>For Anomaly Detection-based alerts, two new confidence levels (99.75% and 99.9%) have been added. The defaults for some granularity selections have also changed: </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">hourly: now 99.75% </li> 
@@ -681,7 +681,7 @@ New features released on June 8, 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#concept_633AE746900B44D2A7045386B526ED8D" format="dita" scope="local"> Alert Manager </a> </b>enhancements </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> Alert Manager </a> </b>enhancements </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Added the ability to enable/disable alerts. </li> 
@@ -828,7 +828,7 @@ New features released on October 20, 2016:
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md#concept_3B41B293C0C444038A9F3068A7676D42" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Intelligent Alerts </a></b> </td> 
    <td colname="col2"> <p>As the new alert system for all of Adobe Analytics, Intelligent Alerts let you create and manage alerts in Analysis Workspace, complete with alert preview and rule contribution. You can: </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">Build alerts based on anomalies (90%, 95%, or 99% thresholds; % change; above/below). </li> 

@@ -11,6 +11,7 @@ uuid: bd6b697a-c11a-434c-9d75-d46ecfec49ef
 
 # Variables - how they are used in reporting
 
+
 Descriptions of variables and how each is used in reporting.
 
 ## Variables {#section_193C396A80F944E4A5D44ABA75046383}

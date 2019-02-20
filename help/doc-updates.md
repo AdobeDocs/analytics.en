@@ -15,6 +15,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 * For a comprehensive list of new features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 * For more detail on Analysis Workspace New Features, see [this topic](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
 
+
 ## Update Details
 
 | Date     | Update                           |

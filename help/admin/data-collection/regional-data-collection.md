@@ -33,7 +33,7 @@ The following list describes the data collection process used by Adobe:
 
 ## Benefits of Regional Data Collection
 
-| Benefit |	Description |
+| Benefit | Description |
 |---------|-----------|
 | Performance | With RDC, your visitors will be connecting to the closest DCC. This means the response times on your page will decrease (lower is better), resulting in more accurate tracking and faster loading times. More detailed information on response time can be found in Performance Improvements with RDC.|
 | Security | Without RDC, only HTTPS hits are encrypted between the browser and the data collection center. When using RDC, the hit is encrypted after it hits the data collection center. This means that all data sent from the data collection center to the data processing center is encrypted. |

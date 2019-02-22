@@ -157,7 +157,7 @@ user-guide-title: Analytics Admin Guide
     + [Data retention FAQ](data-collection/data-retention-client-table-faq.md)
     + [None, Unspecified, Unknown, and Other in reporting](data-collection/none-unspecified-unknown-other.md)
     + [Privacy overview](data-collection/c-privacy-overview.md)
-    + [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)
+    + [Regional Data Collection](data-collection/regional-data-collection.md)
     + [Reporting high numbers of unique values (low-traffic)](data-collection/metrics-uniques-high-numbers.md)
     + [Variables - how they are used in reporting](data-collection/variable-definitions.md)
     + [Analytics Reporting API comparison](data-collection/api-comparison.md)

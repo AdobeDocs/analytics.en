@@ -26,7 +26,7 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 Analysis Workspace provides freedom and flexibility:
 
-* Drag-and-drop components (dimensions, metrics, segments, and time granularities) 
+* Drag-and-drop components (dimensions, metrics, segments, and time granularities)
 * Drag and drop multiple visualizations to the project 
 * Move, resize, and stack visualizations wherever you want in a project
 

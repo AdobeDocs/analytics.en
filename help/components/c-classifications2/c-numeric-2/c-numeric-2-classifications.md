@@ -13,6 +13,10 @@ uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 
 Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Marketing Cloud via the importer.
 
+>[!IMPORTANT]
+>
+>The ability to import Numeric 2 and Date-Enabled classifications has been removed from the codebase. This change will take effect with the June 2019 Maintenance Release. If you have Numeric or Date-Enabled columns in your import file, those cells will be silently ignored, and any other data within that file will be imported as normal. Existing classifications can still be exported through the standard classification workflow, and will continue to be available in reporting.
+
 >[!NOTE]
 >
 >In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.

@@ -11,6 +11,10 @@ uuid: 82a3034c-e002-4991-900f-22dd45d54910
 
 # Import numeric 2 classifications
 
+>[!IMPORTANT]
+>
+>The ability to import Numeric 2 and Date-Enabled classifications has been removed from the codebase. This change will take effect with the June 2019 Maintenance Release. If you have Numeric or Date-Enabled columns in your import file, those cells will be silently ignored, and any other data within that file will be imported as normal. Existing classifications can still be exported through the standard classification workflow, and will continue to be available in reporting.
+
 The import and export file includes six columns for each numeric 2 classification.
 
 The following definitions assume that your numeric 2 classification name is MyCost.

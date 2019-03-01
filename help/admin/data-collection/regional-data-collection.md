@@ -14,12 +14,14 @@ RDC is the default data collection method for Adobe Analytics. It includes Data 
 RDC currently includes the following locations (subject to change):
 
 ## 3rd Party data collection
+
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Default | San Jose, Virginia, London, Singapore, Hong Kong, Sydney, Amsterdam |
 | China Only | Beijing |
 
 ## First Party data collection
+
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Standard | San Jose, Virginia, London, Singapore |

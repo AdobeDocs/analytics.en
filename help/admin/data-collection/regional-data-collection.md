@@ -11,33 +11,40 @@ Learn about regional data collection (RDC) and how to change your collection net
 
 RDC is the default data collection method for Adobe Analytics. It includes Data Collection Centers (DCC) that are geographically distributed to optimize data speed, reduce latency, and minimize data loss associated with Adobe image requests. After data is collected at DCC sites, it is sent to the DPC associated with its report suite. Therefore, a hit collected by a DCC in Singapore might be sent to Oregon for processing, even though there is a DCC at that site.
 
-RDC includes the following networks:
+RDC currently includes the following locations (subject to change):
 
-| Collection Network | DCC Locations | DPC Locations |
-|---------------------|-----------|-----------|
-| Standard | San Jose, Virginia, London, Singapore | Singapore |
-| All 10 | Standard DCCs plus additional DCCs in Hongkong, Sydney, Amsterdam | London |
-| US Only | San Jose, Virginia | San Jose |
-| EU Only | London, Amsterdam | London |
-| APAC Only | Hongkong, Sydney, Singapore | Singapore |
-| China Only | Within China | Within China |
-| India Only | Within India | Within India |
+## 3rd Party data collection
+
+| RDC Type | Data Collection Centers |
+|---------------------|-------------------|
+| Default | San Jose, Virginia, London, Singapore, Hong Kong, Sydney, Amsterdam |
+| China Only | Beijing |
+
+## First Party data collection
+
+| RDC Type | Data Collection Centers |
+|---------------------|-------------------|
+| Standard | San Jose, Virginia, London, Singapore |
+| All | Standard plus Hong Kong, Sydney, Amsterdam |
+| US Only | San Jose, Virginia |
+| EU Only | London, Amsterdam |
+| India Only | Mumbai |
 
 ## How Regional Data Collection Works
 
 The following list describes the data collection process used by Adobe:
 
-* When a hit is sent, the Adobe image request automatically routes to the DCC nearest the visitor.
-* The DCC uses a secure data pipe to immediately forward the data to the DPC, where it is processed and made available to the products in the Adobe Marketing Cloud.
-* The RDC domain also routes Data Insertion API requests through the nearest DCC.
+* DNS automatically resolves the collection hostname to the IP address of the Data Collection Center nearest the visitor.
+* The vistor sends the data to that location.
+* The data is immediately forwarded over a secure connection to the right Data Processing Center, where it is processed and made available to the products in the Adobe Marketing Cloud.
 
 ## Benefits of Regional Data Collection
 
 | Benefit | Description |
 |---------|-----------|
 | Performance | With RDC, your visitors will be connecting to the closest DCC. This means the response times on your page will decrease (lower is better), resulting in more accurate tracking and faster loading times. More detailed information on response time can be found in Performance Improvements with RDC.|
-| Security | Without RDC, only HTTPS hits are encrypted between the browser and the data collection center. When using RDC, the hit is encrypted after it hits the data collection center. This means that all data sent from the data collection center to the data processing center is encrypted. |
-| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure behaves as follows: <br><br> - Attempts are made to route data to your data processing center through another DCC. <br><br> - Saves data locally, then forwards it to the DPC when communications are restored. Due to limits on storage space, this option is available only for short-term disruptions.<br><br> - For major disruptions, the Adobe Network Operations team reconfigures the global DNS system used by RDC to forward your data through another data collection center.<br><br> *Note: Data is not stored at DCCs unless there is a network failure between the DCC and the DPC. If a network failure occurs, the data is stored only until the connection is restored.* |
+| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC ensuring service continuity.|
+| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored.|
 
 ## Documentation Revision History
  

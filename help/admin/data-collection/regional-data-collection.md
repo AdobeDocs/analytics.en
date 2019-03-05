@@ -13,13 +13,15 @@ To improve data collection performance, all remaining customers have been conver
 
 RDC currently includes the following locations (subject to change):
 
-## Third-party data collection
+## Third-party data collection'
+
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Default | San Jose, Virginia, London, Singapore, Hong Kong, Sydney, Amsterdam |
 | China Only | Beijing |
 
 ## First-party data collection
+
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Standard | San Jose, Virginia, London, Singapore |

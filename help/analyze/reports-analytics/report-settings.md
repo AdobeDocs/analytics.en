@@ -18,43 +18,28 @@ Settings that define how all reports appear and information that aps the default
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
 
-<!--Meike, there's a better version of this table in a different file, with links-bob -->
+<!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
-| Element | Description |
+|Element|Description|
 |--- |--- |
-|General||
-|Billing|Enables access to billing information, including traffic details for each report suite.|
-|Code Manager|Enables permission to download data collection code for web and mobile platforms.|
-|Code Manager - Web Services|Allows a non-administrative user to access the Code Manager through Web Services.|
-|Logs|Enables permission to log files, which help you see when users log in, their usage, access, report suites, and Admin changes.|
-|Logs - Web Services|Allows a non-administrative user to access the Admin Tools logs through Web Services.|
-|Traffic Management|Traffic Management page lets you specify expected traffic volume changes.|
-|Permission Management|Grants non-admin users access to the User Management pages in Admin Tools. These users have Read permissions but do not have Write permissions.|
-|Permissions (Write) - Web Services|Grants non-administrative users read and write permission settings under User Management in Web Services.<br>This setting refers specifically to the indicated permissions actions in the Admin API.|
-|Permissions (Read) - Web Services|Allows a non-administrative user to view permission settings under User Management in Web Services.<br>This setting refers specifically to the indicated permissions actions in the Admin API.|
-|Company Management||
-|Security|Grants permission to the  Security Manager page to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.|
-|Support Information|Grants permission to the  Support Information in  Company Settings.|
-|Web Services|Allows access to the Web Services page in the Admin Tools interface ( Company Settings >  Web Services).<br>The Web Services API provides programmatic access to  Adobe Analytics services that let you duplicate and augment functionality available through the user interface.|
-|Announcements|Version 14 only.|
-|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools. <br> Note: Single sign-on in the Adobe Experience Cloud is implemented using  account linking between the Experience Cloud and solutions.|
-|Pending Actions|Grants permission to manage pending actions in  Company Settings.|
-|Co-Branding|Grants permission to co-brand  Analytics.|
-|Preferences|Grants permission to the  Preference Manager.|
-|Hide Report Suites|Grants permission to hide report suites in the  Adobe Analytics user interface.|
-|Tools|These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics.|
-|ClickMap|Displays  ClickMap in the  Tools menu in the header. (Note: Adobe recommends using  Activity Map.)|
-|Current Data|Grants permission to use the Current Data feature in reporting.|
-|Ad Hoc Analysis License Users|Grants permission to access  Ad Hoc Analysis.|
-|Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
-|Report Builder|Grants members of this group access to  Report Builder licenses.|
-|Analysis Workspace Access|Grants users access to Analysis Workspace, the recommended reporting interface for  Adobe Analytics.|
-|Reports & Analytics Access|Grants users access to  Reports & Analytics.|
-|Create / Curate Projects in Analysis Workspace|Grants users permission to create and curate projects in  Analysis Workspace.|
-|Calculated Metric Creation|Grants users permission to create calculated metrics.|
-|Segment Creation|Grants users permission to create segments.|
-|Data Connectors||
-|Integrations (Create, Update, or Delete)|Grants permission to create, update, and delete  Data Connector integrations.|
+|**General Settings**||
+|Include related metrics section|Related metrics are closely related to the report you are currently viewing (for example, the top five pages in the page views report).|
+|Show internet average in details section|Expresses the average value for a given statistic, taken across several thousand business websites. When enabled, this section appears as a separate column in the report summary and report details sections. This feature is used only by the traffic reports in the technology group, as well as the search engines, languages, and domains reports.|
+|Show Adobe's default menu structure|Ignores the settings in the Admin Tools, where administrators customize report menus to fit user preferences, returning the report menu to default settings.|
+|Force column widths when displaying reports|Forces report column widths to an aesthetically pleasing consistency. This setting is useful when more than three metrics are displayed.|
+|**Graphs and Charts**||
+|Highlight weekends on trending graphs|Vertically highlights the weekend dates of trended report graphs. Trended reports can be much easier to evaluate when the weekends are identified.|
+|Include forecast in graph and summary|Estimates how much a particular statistic will occur in the future. The forecast appears in the report summary section when enabled.|
+|Include Calendar Events in Reports|Tracks site performance relative to specific events. When enabled, these events appear on your reports.|
+|Use Flash graphs|Enables Flash graphs in your reports. Flash graphs provide sharper, more interactive images for reports, but do not allow you to easily copy or save the images. For quick image copying or saving functionality, disable this option (images will be in .gif format). If you deselect this option, the copy graph button does not appear in the report toolbar.|
+|Show "All Others" data in selected graphs|Displays all others below the top five grouped in a single object. (Bar charts show the top five web pages or other data within your report.)|
+|Show "None", "Unspecified" and "Typed/Bookmarked" data in report graphs|Shows metrics where no value received credit for the metric specified.|
+|Show sparklines on ranked reports|Displays a sparkline in the totals field of ranked reports. This provides a quick view of the overall trend without generating a separate report.|
+|**Acceleration**||
+|Enable Report Accelerator to view reports more quickly|Enables the report accelerator, which uses a time- based algorithm to cache recently requested reports and examines only the mostfrequently occurring unique items, resulting in even faster delivery of reports. By caching requested reports for 15 minutes, the report accelerator can retrieve those reports for subsequent requests almost instantaneously. This setting is helpful when browsing back and forth, printing reports, or for frequent access to the same reports. When disabled, the system regenerates reports each time they are requested.|
+|Enable Dashboard Accelerator and display available cached versions|Enables the dashboard accelerator, which stores a cached version of your dashboard for subsequent viewing. By caching a view of your dashboard for 24 hours, the dashboard accelerator is able to retrieve that view almost instantaneously because the intensive database querying and processing is done ahead of time. If the available cached version is more than 24 hours old, a new dashboard is generated and a new, cached version created. Likewise, a new, cached version is created whenever you update the dashboard (or any reportlet displayed on the dashboard). The cache is user-based. Other users viewing a shared dashboard see a version based on their own use of dashboard accelerator and updating of the dashboard.|
+|Enable network acceleration for improved report performance|Speeds delivery of the data to your location by optimizing the path between the Adobe infrastructure and your environment.|
+|Language/Currency/Encoding|**Thousands Separator**: Select a separator for every thousands (decimal or comma). Many countries use a decimal to separate the thousands number. (This separator is applied to all numbers throughout the system, not just currency.)<br>**Use the report suite's default currency**: Specifies whether to use the report suite's default currency.<br>**Currency**: The currency to which you want to convert your data. When a value is selected in this setting, the data stored in the database is not affected, but is shown as a converted value based on the current day's currency conversion rate. When currency options are not configured (set to the defaults) no currency conversion takes place, and all values are stored and displayed in U.S. dollars (USD). To convert the currency when the data is processed (before it is displayed), contact your account manager. <br>**Scheduled Report Encoding**: SHIFT-JIS for Japanese character encoding. EUC-JP for extended Unix Code, primarily for Japanese, Korean, and simplified Chinese. <br>**CSV Separator Character**: The character you want to use to separate CSV values.|
 
 ## Navigation Menu {#concept_1525EE52F8094535B4240F03B70DD75D}
 

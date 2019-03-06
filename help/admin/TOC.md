@@ -157,7 +157,7 @@ user-guide-title: Analytics Admin Guide
     + [Data retention FAQ](data-collection/data-retention-client-table-faq.md)
     + [None, Unspecified, Unknown, and Other in reporting](data-collection/none-unspecified-unknown-other.md)
     + [Privacy overview](data-collection/c-privacy-overview.md)
-    + Regional Data Collection {#rdc}
+    + Regional Data Collection {#regional-data-collection}
         +[Regional Data Collection overview](data-collection/regional-data-collection/regional-data-collection.md)
         +[Regional Data Collection for China](data-collection/regional-data-collection/rdc-china.md)
         +[Determine if you are using first- or third-party cookies](data-collection/regional-data-collection/determine-cookies.md)

@@ -7,9 +7,9 @@ seo-description:
 
 # Regional Data Collection for China
 
-Adobe's Regional Data Collection (RDC) in mainland China enables customers within China to send data directly to a Data Collection Center (DCC) within China, instead of other locations globally. This improves page load times and data accuracy over sending the data to DCCs outside of China. China RDC includes complete redundancies to eliminate single points of failure and has no dependencies on other device services or Adobe data center connectivity.
+Adobe's Regional Data Collection (RDC) in mainland China enables customers within China to send data directly to a Data Collection Center (DCC) within China, instead of other locations globally. This improves page load times and data accuracy over sending the data to DCCs outside of China.
 
-## Setting the Tracking Server for China
+## Setting the tracking server for China
 
 Tracking can be brought on to China RDC at any point that is convenient for your service. For any digital property (such as a mobile app or web page) you want routed to China RDC, change the tracking server to:
 
@@ -17,7 +17,7 @@ Tracking can be brought on to China RDC at any point that is convenient for your
 
 Be sure to insert the proper namespace. This is typically found at the beginning of your existing tracking server. For example: `<namespace>.sc.adobedc.cn`--although any namespace value will work. You can also point a non-SSL first-party [CNAME](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cname.html) record to this new location.
 
-Do not set your global namespace to China RDC if any part of your user network is outside of China. This will negatively affect the speed for your users outside China because it forces data collection to go to China and back for a response.
+Do not set your trackingServer value globally, for all properties and geographies, to the China RDC if any substantial part of your customer base is outside of China. The trackingServer should be set to the China RDC value only for customers who are in China. Otherwise, it will negatively affect the speed for your users outside China because it forces data collection to go to China and back for a response.
 
 ## Indentifying users in China
 
@@ -27,7 +27,7 @@ Regardless of where your digital property is hosted, or which language it uses, 
 
 * Using site structure or the browser language (the `navigator.language / accept-language` header). The advantage of this method is lower cost and possibly better performance. The disadvantage of this method is that Chinese-speaking visitors visiting outside of China are subject to negatively-affected speeds.
 
-* Using a hosting solution based in China. This will also increase speed substantially.
+* Using a hosting solution based in China and setting the trackingServer to China RDC based on your host. This will also increase speed substantially.
 
 ## Current limitations
 

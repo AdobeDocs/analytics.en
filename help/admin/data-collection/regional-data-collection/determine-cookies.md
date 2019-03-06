@@ -28,9 +28,6 @@ To determine if you are using first- or third-party cookies:
    ![Debugger interface](assets/debugger.png "Hover text")
 
 1. Click the Bookmarklet to display the debugger.
-You should see a new window containing debugging information, such as in the following example:
-
-   ![Debugger interface](assets/debugger2.png "Hover text")
 
 1. Locate the SiteCatalyst Image section.
 

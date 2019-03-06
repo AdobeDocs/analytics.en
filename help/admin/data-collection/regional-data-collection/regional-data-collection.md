@@ -2,7 +2,7 @@
 title: Regional Data Collection
 seo-title: Adobe Analytics Regional Data Collection
 description: Information on Regional Data Collection
-seo-description: 
+seo-description: Information on Regional Data Collection
 ---
 
 # Regional Data Collection
@@ -50,4 +50,4 @@ The following list describes the data collection process used by Adobe:
  
 | Update | Description |
 |--------|---------|
-| February 20, 2019 | Revisions throughout. Added RDC network information. |
+| February 20, 2019 | Revisions throughout. Added RDC network information.|

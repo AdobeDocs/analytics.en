@@ -10,11 +10,9 @@ uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 
 # Report display settings and navigation
 
-Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
+Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
 
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
-
-Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu. 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
 

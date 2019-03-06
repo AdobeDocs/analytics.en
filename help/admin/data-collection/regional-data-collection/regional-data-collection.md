@@ -46,7 +46,7 @@ The following list describes the data collection process used by Adobe:
 | Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC ensuring service continuity. |
 | Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored.|
 
-## Documentation Revision History
+## Documentation revision history
  
 | Update | Description |
 |--------|---------|

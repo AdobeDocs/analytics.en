@@ -5,13 +5,15 @@ description:
 seo-description: 
 ---
 
-# RDC Environment Characteristics
+# RDC environment characteristics
+
+The Regional Data Collection (RDC) environment includes characteristics as described below.
 
 ## Performance improvements
 
 For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/). 
 
-Generally, users can expect response time improvements with RDC as follows:
+Generally, users have experienced response time improvements with RDC as follows:
 
 | Regions | Response Time Removed by RDC |
 | --- | --- |
@@ -31,26 +33,14 @@ Generally, users can expect response time improvements with RDC as follows:
 | Western US | 20% |
 | Global | 50% |
 
-## First- or Third-Party Cookies
+## First- or third-Party cookies
 
 Depending on your implementation, you might be using first- or third-party cookies. You can learn more about first-party cookies [here](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 
-## Secure Pages
+## Secure pages
 
-If your site contains pages that use the https: protocol, you have secured pages. These types of pages are typically used with ecommerce or login/account pages.
-
-Secure pages require an SSL certificate for tracking. If your web property is currently using first-party cookies, you should have already created an FPSSL implementation with [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html). If your web property is using third-party cookies, your secure pages use a SSL certificate owned by Adobe, which allows data to be sent to our data collection servers securely without an FPSSL implementation.
-
-## RDC detection method
-
-If your web property uses first-party SSL that [CNAMES](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cname.html) to `2o7.net` your hostname is not fully enabled for RDC. Contact [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) if you want to move your hostname to RDC.
+If your site contains pages that use the https protocol, you have secured pages. Most of the page views tracked by Adobe Analytics are secured using the https protocol. Secure pages require an SSL certificate for tracking. If your web property is using third-party cookies, your secure pages use an SSL certificate owned by Adobe, which allows data to be sent to our data collection servers securely without an FPSSL implementation.
 
 ## DNS changes (CNAME update)
 
 A [CNAME](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cname.html) update is a change made to your company's DNS server. Your IT department or network operations team typically handles this operation. If your scenario requires this change, you should contact Customer Care for the new Adobe hostname.
-
-If your site does not have secure pages and therefore no FPSSL implementation, an incorrect hostname could result in unrecoverable data loss.
-
-## Additional considerations
-
-If your implementation is part of an intranet site and relies on white-listing the `2o7.net` domain, you will need to also white-list the `omtrdc.net` version of the hostname on your firewall.

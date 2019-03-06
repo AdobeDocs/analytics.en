@@ -163,7 +163,6 @@ user-guide-title: Analytics Admin Guide
         +[Determine if you are using first- or third-party cookies](data-collection/regional-data-collection/determine-cookies.md)
         +[RDC environment characteristics](data-collection/regional-data-collection/rdc-environment-characteristics.md)
         +[SSL certificate licensing](data-collection/regional-data-collection/ssl-cert-licensing.md)
-        +[Contact and legal information](data-collection/regional-data-collection/contact-legal-info.md)
     + [Reporting high numbers of unique values (low-traffic)](data-collection/metrics-uniques-high-numbers.md)
     + [Variables - how they are used in reporting](data-collection/variable-definitions.md)
     + [Analytics Reporting API comparison](data-collection/api-comparison.md)

@@ -50,8 +50,4 @@ The following list describes the data collection process used by Adobe:
  
 | Update | Description |
 |--------|---------|
-| February 20, 2019 | Revisions throughout. Added RDC network information.|
-| December 1, 2015 | Added Test if your Site Is Enabled for Regional Data Collection. |
-| September 18, 2015 | Revisions throughout. |
-| September 4, 2014 | Added details on the Marketing Cloud Visitor ID Service. This service sets a first-party cookie using JavaScript, so you no longer need to migrate to a CNAME to get the benefits of first party cookies. With the introduction of this service, we no longer recommend all customers implement a CNAME along with RDC migration, instead we recommend most customers migrating to the Marketing Cloud Visitor ID service to get first-party cookies. See Visitor ID Service Migration Decision Points for details. |
-| November 13, 2012 | We now require that SSL certificates be licensed for installation on up to 10 servers. |
+| February 20, 2019 | Complete rewrite. Added RDC network information.|

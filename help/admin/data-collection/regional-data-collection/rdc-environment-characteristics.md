@@ -33,7 +33,7 @@ Generally, users have experienced response time improvements with RDC as follows
 | Western US | 20% |
 | Global | 50% |
 
-## First- or third-Party cookies
+## First- or third-party cookies
 
 Depending on your implementation, you might be using first- or third-party cookies. You can learn more about first-party cookies [here](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 

@@ -13,7 +13,7 @@ For regional data collection, learn how to determine if you are using first- or 
 
 A first-party cookie is a cookie that is set on the domain you are currently visiting. For example, if you were on `www.adobe.com`, the cookie would be set on the adobe.com domain.
 
-A third-party cookie is a cookie set on any domain other then the domain currently being visited. For example, If you were visiting `www.adobe.com` and the cookie was set on the `omtrdc.com` domain, that would be considered a third party cookie.
+A third-party cookie is a cookie set on any domain other than the domain currently being visited. For example, if you were visiting `www.adobe.com` and the cookie was set on the `omtrdc.com` domain, that would be considered a third party cookie.
 
 For more information about cookies and how they pertain to Analytics, see [About First-Party Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 

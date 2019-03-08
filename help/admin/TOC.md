@@ -160,7 +160,6 @@ user-guide-title: Analytics Admin Guide
     + Regional Data Collection {#regional-data-collection}
         + [Regional Data Collection overview](data-collection/regional-data-collection/regional-data-collection.md)
         + [Regional Data Collection for China](data-collection/regional-data-collection/rdc-china.md)
-        + [Determine if you are using first- or third-party cookies](data-collection/regional-data-collection/determine-cookies.md)
         + [RDC environment characteristics](data-collection/regional-data-collection/rdc-environment-characteristics.md)
         + [SSL certificate licensing](data-collection/regional-data-collection/ssl-cert-licensing.md)
     + [Reporting high numbers of unique values (low-traffic)](data-collection/metrics-uniques-high-numbers.md)

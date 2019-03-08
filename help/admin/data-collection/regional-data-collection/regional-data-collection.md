@@ -20,6 +20,8 @@ RDC currently includes the following locations (subject to change):
 | Default | San Jose, Virginia, London, Singapore, Hong Kong, Sydney, Amsterdam |
 | China Only | Beijing |
 
+Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+
 ## First-party data collection
 
 | RDC Type | Data Collection Centers |

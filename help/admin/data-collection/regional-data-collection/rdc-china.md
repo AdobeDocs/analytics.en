@@ -35,7 +35,7 @@ The current limitations of China RDC:
 
 1. China RDC does not support first party SSL ([s.trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html) in your JavaScript), or [Server-Side Forwarding](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) to Adobe Audience Manager. 
 
-1. Although [A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_account_reqs.html) and [ECID](https://marketing.adobe.com/resources/help/en_US/dtm/macid.html) are supported, the Target and Demdex domains are not currently in mainland China and will not have the same speed or reliability benefits as those within the China RDC.
+1. Although [A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) and [ECID](https://marketing.adobe.com/resources/help/en_US/mcvid/) are supported, the Target and Demdex domains are not currently in mainland China and will not have the same speed or reliability benefits as those within the China RDC.
 
 ## Adobe’s commitment to China
 

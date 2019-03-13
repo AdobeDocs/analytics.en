@@ -30,7 +30,7 @@ If you are unsure whether the use cases described apply to you and your organiza
 
 Using virtual report suites to replace multi-suite tagging is recommended if: 
 
-### Publishing segments from Adobe Analytics to the rest of Adobe Experience Cloud is required only at the global-report-suite level, and all users who publish segments have access to the global report suite.
+## Publishing segments from Adobe Analytics to the rest of Adobe Experience Cloud is required only at the global-report-suite level, and all users who publish segments have access to the global report suite.
 
 Summary:
 
@@ -41,7 +41,7 @@ Currently, segments cannot be published to Adobe Experience Cloud from a virtual
 
 For example, your users may have access to virtual report suites for their geographical regions only, but you want them to be able to create and share segments from Adobe Analytics to Adobe Experience Cloud for targeting in Adobe Target. In this case, these users would not be able to publish segments, and you should consider using multi-suite tagging to ensure that users can publish segments.
 
-### You don't need real-time (or "Current Data") reporting at the virtual-report-suite level.
+## You don't need real-time (or "Current Data") reporting at the virtual-report-suite level.
 
 Summary:
 
@@ -53,7 +53,7 @@ Summary:
 * Consider using multi-suite tagging to ensure that each user sees only the real-time data that they should be allowed to see, or
 * Grant these users access to a true report suite (global) if they should be allowed access to your complete data set.
 
-### You do not exceed unique value limits for key dimensions in your global report suite(s), or you do not care if your users see "Low Traffic" in their virtual report suites.
+## You do not exceed unique value limits for key dimensions in your global report suite(s), or you do not care if your users see "Low Traffic" in their virtual report suites.
 
 Summary:
 
@@ -72,7 +72,7 @@ If you know that you regularly exceed unique value limits in your global report 
 
 Also note that Adobe Customer Care can increase unique value limits for a global report suite on a limited basis for a small number of dimensions, which may eliminate this problem entirely. Consult your account team and Customer Care for more information. 
 
-### You can use your available set of custom dimensions (eVars and props) and metrics (events) in your global report suite to track all critical data points across all properties.
+## You can use your available set of custom dimensions (eVars and props) and metrics (events) in your global report suite to track all critical data points across all properties.
 
 Summary:
 
@@ -93,7 +93,7 @@ If consolidating these custom dimensions and events is not feasible, Adobe recom
 >
 >With the introduction of [virtual report suite curation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), you can now change the name of a given dimension or >metric on a per-VRS basis. If you segment your virtual report suite cleanly, this means that you can now use the >same eVar, prop, or event to capture different things in different virtual report suites. However, passing two >different types of data into the same dimension or metric will make that data point practically unusable in the >global report suite. It could also lead to problems with attribution, as in this example: if a user receives two >values for eVar10, one that is an 'Internal Campaign' on property A and the other which is a 'Page Name' on >property B, this means that success is now split across 'Internal Campaign' and 'Page Name', which should >operate on different levels. Therefore, Adobe does not generally recommend using VRS curation as a workaround >for this particular problem.
 
-### The segments you use with virtual report suites do not divide the data in ways that may confuse your users.
+## The segments you use with virtual report suites do not divide the data in ways that may confuse your users.
 
 Summary:
 
@@ -108,7 +108,7 @@ A similar example deals with 'Visit Number'. In the virtual report suite for bra
 
 Adobe recommends using multi-suite tagging in these scenarios or in other situations where part of a customer’s journey may occur outside of a virtual report suite in a way that may confuse your users. Multi-suite tagging lets you track a journey at a cross-property level in a global report suite but also provides individual teams with their own complete view of the journey at an individual property level. 
 
-### You and your users do not need to be able to view transactions in various national currencies.
+## You and your users do not need to be able to view transactions in various national currencies.
 
 Summary:
 
@@ -123,7 +123,7 @@ This lets you send data into Adobe Analytics in different currencies at the same
 >
 >While virtual report suites do not allow you to convert revenue data into another currency at a historical rate, >you can still convert currency in a virtual report suite on an ad-hoc basis. You can apply the current day’s >exchange rate to historical data by going to Components > Report Settings. 
 
-### You can use a single Data Feed to receive all of your data from a global report suite.
+## You can use a single Data Feed to receive all of your data from a global report suite.
 
  Summary:
 
@@ -138,7 +138,7 @@ Note, however, that some pre-calculated fields in the Data Feed may need to be r
 
 If your organization has a strong need for individual Data Feeds at a brand, property, region, etc. level, you may wish to consider using multi-suite tagging. 
 
-### You do not use an Exchange (data connectors) integration that allows only one partner account per report suite, and you do not have multiple partner accounts that you want to integrate.
+## You do not use an Exchange (data connectors) integration that allows only one partner account per report suite, and you do not have multiple partner accounts that you want to integrate.
 
 Summary:
 
@@ -159,7 +159,7 @@ As a result, multi-suite tagging is the preferred approach if different teams in
 >
 >Any “pre-click” (summarized/aggregated) metrics that are imported from an Adobe Exchange partner are not >available for segmentation, and therefore may not be visible in a virtual report suite. Examples of such metrics >include emails sent or display ad impressions, both of which occur off-site/off-app and are imported into Adobe >Analytics in an aggregated form.
 
-### You do not rely heavily on Summary Data Sources at a property, brand, region, etc. level.
+## You do not rely heavily on Summary Data Sources at a property, brand, region, etc. level.
 
 Summary:
 

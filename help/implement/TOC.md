@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Implementation Guide
+user-guide-url: /content/help/en/analytics/implementation/home.html
 ---
 
 # Analytics Implementation Guide {#implementation}

@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
+user-guide-url: /content/help/en/analytics/components/home.html
 ---
 
 # [!DNL Analytics] Components Guide {#components}

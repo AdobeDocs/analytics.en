@@ -2,6 +2,7 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 ---
 
 # Analytics Admin Guide {#admin}

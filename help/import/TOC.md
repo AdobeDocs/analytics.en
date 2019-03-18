@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
+user-guide-url: /content/help/en/analytics/import/home.html
 ---
 
 # Analytics Import Guide {#import}

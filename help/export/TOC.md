@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
 ---
 
 # Analytics Export Guide {#export}

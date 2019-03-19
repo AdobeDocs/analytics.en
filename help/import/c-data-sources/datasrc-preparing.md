@@ -9,7 +9,7 @@ topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 ---
 
-# Preparing to use Data Sources
+# Prepare to use Data Sources
 
 Steps you can take to prepare to use data sources
 

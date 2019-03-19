@@ -15,10 +15,6 @@ Create, manage, and view the use of data sources in a report suite.
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
-* [Create Tab](../../import/c-data-sources/datasrc-manager.md#section_74603FDA3D8842E49F1A51624A06DE20) 
-* [Manage Tab](../../import/c-data-sources/datasrc-manager.md#section_DD559A6701CA45F1A85E56F840F48DBE) 
-* [File Log Tab](../../import/c-data-sources/datasrc-manager.md#section_B7AC7EE8CAD740A59DD53CF1919373F0)
-
 ## Create Tab {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 The [!UICONTROL Create] tab lets you configure a new data source for the currently selected report suite. When you activate a data source, the [!UICONTROL Data Sources Wizard] guides you through the process of creating a Data Sources template, and creates an FTP location for uploading data.

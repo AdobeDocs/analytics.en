@@ -59,6 +59,6 @@ Use the Data Source template to create a Data Sources file that contains data th
 
 **.FIN file**
 
-When you have finished filling out your Data Source file, you can FTP it into marketing reports. However, an additional file is needed in order for your data to be processed. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+When you have finished filling out your Data Source file, you can FTP it into Analytics. However, an additional file is needed in order for your data to be processed. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed. 

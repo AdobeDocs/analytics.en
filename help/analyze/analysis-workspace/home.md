@@ -86,7 +86,7 @@ You can use out-of the-box templates or create your own custom templates.
 
 ![](assets/step7_icon.png) Grant access to non-Admin users.
 
-See *`Assign Analytics access permissions to a product profile`* in [Manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+* See *`Assign Analytics access permissions to a product profile`* in [Manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 **Video links:**
 
@@ -96,9 +96,7 @@ See *`Assign Analytics access permissions to a product profile`* in [Manage Expe
 
 **More Video Tutorials**
 
-[Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (YouTube)
-
-Scroll down to the latest videos!
+[Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). Scroll down to the latest videos!
 
 **Tips of the Day**
 
@@ -110,7 +108,7 @@ We will provide Tips of the Day (along with a short video) in the bottom right-h
 * [Release Notes - All Experience Cloud Solutions](https://marketing.adobe.com/resources/help/en_US/whatsnew/) 
 * [Experience Cloud Help Home](https://marketing.adobe.com/resources/help/en_US/home/)
 
-**Blogs and Community Resources **
+**Blogs and Community Resources**
 
 * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) 
 * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Blog) 

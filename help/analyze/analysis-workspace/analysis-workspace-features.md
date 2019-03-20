@@ -15,8 +15,9 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
->[!VIDEO](https://www.youtube.com/watch?v=AnguIQIAi_k&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2) Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+>[!VIDEO](https://www.youtube.com/watch?v=AnguIQIAi_k&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2)
 
+Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
 >[!NOTE]
 >
@@ -157,14 +158,14 @@ Components
 
 There is no technical limit on the number of freeform tables and visualizations that you can add to the panel. Also, you can run a new visualization (or export to CSV) each freeform table or selected rows of a table.
 
-**Column arranging, sorting, and copying **
+**Column arranging, sorting, and copying**
 
 * Sort date range presets (does not include custom date ranges). 
 * CTRL (or Command) + click + drag a column copies the column, and when you drag the copy, it is pasted into the new position in the table.
 
 See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
 
-**Selections and actions **
+**Selections and actions**
 
 You can select rows and columns similar to the way you can select them in Excel. Then, you can take actions on those selections. For example:
 

@@ -17,9 +17,9 @@ New features and enhancements released on January 17, 2019.
 
 | Feature | Description |
 |--- |--- |
-|Cohort Analysis|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
-|View Density|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
-|Support for multi-valued variables in Attribution IQ|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
+|[Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
+|[View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
+|[Support for multi-valued variables in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
 |Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|
 
 
@@ -29,7 +29,7 @@ New features and enhancements released on November 1, 2018.
 
 | Feature | Description |
 |--- |--- |
-|VRS and project curation - enhancements|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
+|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
 
 ## October 2018
 
@@ -99,7 +99,7 @@ New features and enhancements released on August 9, 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Drop Zone Guides</b> </p> </td> 
-   <td colname="col2"> <p>These guides help you more easily understand what each drag &amp; drop action will do. For example, when you hover over a column, we will show things like Add, Replace, Filter By, and Breakdown. </p> <p>We also added yellow/red guides that alert you when you are taking an action that is not recommended or prohibited, such as stacking two metrics on top of one another (which leads to invalid data). </p> </td> 
+   <td colname="col2"> <p>These guides help you more easily understand what each drag and drop action will do. For example, when you hover over a column, we will show things like Add, Replace, Filter By, and Breakdown. </p> <p>We also added yellow/red guides that alert you when you are taking an action that is not recommended or prohibited, such as stacking two metrics on top of one another (which leads to invalid data). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Add Blank Panel Option</b> </p> </td> 

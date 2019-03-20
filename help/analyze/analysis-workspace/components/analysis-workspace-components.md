@@ -24,34 +24,10 @@ You can manage components (individually or by selecting more than one) in a numb
 >
 >These actions do not apply to Time components.
 
-<table id="table_652668ED7188492293446E1D691C4AC9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Component Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Tag </td> 
-   <td colname="col2">Organize or manage components by applying tags to them. <p>It then shows up in the respective component manager, such as <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Segments</span></span>, or <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Projects</span></span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Favorite </td> 
-   <td colname="col2">Add the component to your list of favorites. It then shows up in the respective component manager, such as <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Segments</span></span>, or <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Projects</span></span>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Approve </td> 
-   <td colname="col2">Approve the component to make it canonical. It then shows up in the respective component manager, such as <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Segments</span></span>, or <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Projects</span></span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Share </td> 
-   <td colname="col2"> Applies only to segments. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Delete </td> 
-   <td colname="col2"> Applies only to segments. </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Component Action | Description |
+|--- |--- |
+|Tag|Organize or manage components by applying tags to them. It then shows up in the respective component manager, such as  Analytics >  Components >  Segments, or  Analytics >  Components >  Projects|
+|Favorite|Add the component to your list of favorites. It then shows up in the respective component manager, such as  Analytics >  Components >  Segments, or  Analytics >  Components >  Projects.|
+|Approve|Approve the component to make it canonical. It then shows up in the respective component manager, such as  Analytics >  Components >  Segments, or  Analytics >  Components >  Projects|
+|Share|Applies only to segments.|
+|Delete|Applies only to segments.|

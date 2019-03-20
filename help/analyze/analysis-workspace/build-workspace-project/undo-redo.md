@@ -8,9 +8,7 @@ uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 
 # Undo and redo settings
 
-Changes and enhancements to the Undo option in Analysis Workspace .
-
-**[!UICONTROL Workspace]** > **[!UICONTROL [project]]** > **[!UICONTROL Undo/Redo]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
 * The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu. 
 

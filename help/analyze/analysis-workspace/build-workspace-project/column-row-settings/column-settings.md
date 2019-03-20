@@ -10,9 +10,6 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 
 Column settings let you configure column formatting, some of which can be conditional.
 
-* [Column settings](../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_C5A9C13553BF4BFDAD7FACE0139AECA3) 
-* [Conditional formatting](../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB)
-
 ## Column settings {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
 To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
@@ -40,41 +37,13 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 
 ![](assets/conditional-formatting.png)
 
-<table id="table_F6D59140C59F488381DC67C928417E51"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Conditional Formatting </b> </p> </td> 
-   <td colname="col2"> <p> Applies the following colors to cells, based on data values: </p> 
-    <ul id="ul_C5576513EB0242F081A3E6202C87C8B5"> 
-     <li id="li_71D49604ADFA4015986E2221A9ABAAF9">Green: high values </li> 
-     <li id="li_2640E80446F947CF8669C9BB57FB8B25">Yellow: midpoint values </li> 
-     <li id="li_34FB34158E264C028EAB9E537C14A65C">Red: low values </li> 
-    </ul> <p>Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Use Percent Limits </b> </p> </td> 
-   <td colname="col2"> <p>Allows you to use upper, midpoint, and lower limits based on percentage values for each metric. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Auto-generated </b> </p> </td> 
-   <td colname="col2"> <p>Automatically generates limits for conditional formatting. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Custom</b> </p> </td> 
-   <td colname="col2"> <p>You can manually assign the values for the <span class="uicontrol"> Upper</span>, <span class="uicontrol"> Midpoint</span>, and <span class="uicontrol"> Lower Limit</span> fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Table Cell Preview</b> </p> </td> 
-   <td colname="col2"> <p>Shows a preview of how each cell appears with the currently selected formatting options applied. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Description |
+|--- |--- |
+|Conditional Formatting|Applies the following colors to cells, based on data values: <ul><li>Green: high values</li><li>Yellow: midpoint values</li><li>Red: low values</li></ul><br>Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis).|
+|Use Percent Limits|Allows you to use upper, midpoint, and lower limits based on percentage values for each metric. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.)|
+|Auto-generated|Automatically generates limits for conditional formatting. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits.|
+|Custom|You can manually assign the values for the  Upper,  Midpoint, and  Lower Limit fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor.|
+|Table Cell Preview|Shows a preview of how each cell appears with the currently selected formatting options applied.|
 
 >[!MORE_LIKE_THIS]
 >

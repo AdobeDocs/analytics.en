@@ -17,7 +17,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + Build a Workspace project {#build-workspace-project}
         + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
         + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
-        + [Starter Projects](analysis-workspace/build-workspace-project/starter-projects.md)
+        + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
         + Column and row settings {#column-row-settings}
             + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
             + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)

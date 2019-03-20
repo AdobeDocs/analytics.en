@@ -39,7 +39,7 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 
 | Element | Description |
 |--- |--- |
-|Conditional Formatting|Applies the following colors to cells, based on data values:<li>Green: high values</li><li>Yellow: midpoint values</li><li>Red: low values</li><p>Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis).</p>|
+|Conditional Formatting|Applies the following colors to cells, based on data values: <ul><li>Green: high values</li><li>Yellow: midpoint values</li><li>Red: low values</li></ul><br>Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis).|
 |Use Percent Limits|Allows you to use upper, midpoint, and lower limits based on percentage values for each metric. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.)|
 |Auto-generated|Automatically generates limits for conditional formatting. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits.|
 |Custom|You can manually assign the values for the  Upper,  Midpoint, and  Lower Limit fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor.|

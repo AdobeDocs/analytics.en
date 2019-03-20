@@ -6,7 +6,7 @@ title: Use attribution IQ in Analysis Workspace
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 ---
 
-# Use attribution IQ in Analysis Workspace
+# Use Attribution IQ in Analysis Workspace
 
 Attribution IQ in Analysis Workspace lets you compare any supported attribution model to each other, visualize the key marketing sequences leading to conversion with advanced fallout and flow visualizations, trend any marketing channel or campaign easily to see performance over time, and find statistical anomalies in channel/campaign performance, be alerted when performance drops or goes up.
 

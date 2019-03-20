@@ -12,6 +12,8 @@ uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 >
 >Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
 
+## Access Alert Builder
+
 Access the Alert Builder in one of four ways:
 
 * By using the following shortcut in Analysis Workspace:
@@ -20,6 +22,8 @@ Access the Alert Builder in one of four ways:
 * By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**. 
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 
 * From within a Reports & Analytics report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+
+## Build Alerts
 
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in Analytics:
 
@@ -79,7 +83,7 @@ Set the alert's expiration date.
 
 You can add AND or OR rules by clicking the gear icon.
 
-## Alert Preview {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 The interactive alert preview shows you how often, approximately, an alert will fire based on past experience.
 

@@ -11,7 +11,7 @@ uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 
 A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)
+After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
 Examples of what you can do with Cohort Analysis:
 
@@ -27,7 +27,7 @@ Cohort Analysis is available for all Analytics customers with access rights to A
 
 ## Cohort Analysis capabilities
 
-In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis within Analysis Workspace. It allows for much more fine-tuned control over the cohorts you are building. Here are the featured enhancements:
+In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. It allows for much more fine-tuned control over the cohorts you are building. Here are the featured enhancements:
 
 ### Retention Table
 
@@ -59,5 +59,5 @@ Create cohorts based on a selected dimension, and not time-based cohorts, which 
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-For instructions on how to set up and run a cohort report, go to Configure a Cohort Analysis report.
+For instructions on how to set up and run a cohort report, go to [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 

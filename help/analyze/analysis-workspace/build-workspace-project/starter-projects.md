@@ -36,7 +36,7 @@ Users with admin rights can turn any project they create into a custom template.
    >
    >By default, project templates are visible to everyone in your organization. You can organize them by applying tags. (Go to **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** to edit tags and descriptions.)
 
-   **Actions you can perform on custom templates**
+### Actions you can perform on custom templates
 
    ![](assets/custom_templates.png)
 
@@ -87,12 +87,12 @@ You can use these pre-populated templates as they are or adapt them to your need
 
 Here are available templates and the questions that each template helps answer:
 
-**Media**
+### Media
 
 * **Content Consumption**: Which content is being consumed the most and is engaging users? 
 * **Recency - Frequency - Loyalty**: Who are my loyal readers?
 
-**Mobile**
+### Mobile
 
 >[!IMPORTANT]
 >
@@ -107,19 +107,19 @@ Here are available templates and the questions that each template helps answer:
 * **Retention:** Who are my loyal users and what do they do? 
 * **Journeys:** What are the prominent usage patterns for my app?
 
-**Retail**
+### Retail
 
 * **Campaign Performance:** What campaigns are driving the most revenue? 
 * **Products:** Which products are performing the best?
 
-**Web**
+### Web
 
 * **Acquisition:** What are the top traffic drivers to my website? 
-* ** Content Consumption:** What are the top places people go on my site? 
+* **Content Consumption:** What are the top places people go on my site? 
 * **Retention:** What types of users are likely to be loyal users of my site? 
 * **Technology:** What technology are people using to access my site?
 
-**People**
+### People
 
 >[!NOTE]
 >

@@ -11,15 +11,11 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 
 # Create a Workspace project
 
-Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
-
-## Create a Workspace project {#task_C2C698ACC7954062A28E4784911E6CF2}
-
 Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel. 
 
 This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project. For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
 
-**To create an Analysis Workspace project** 
+## Create a project
 
 1. Specify user permission to create and curate projects.
 

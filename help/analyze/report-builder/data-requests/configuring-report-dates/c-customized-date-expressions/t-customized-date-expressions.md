@@ -19,5 +19,3 @@ It is recommended that you refer to a calendar when building expressions in orde
 1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
 1. Enable **[!UICONTROL Custom Expression]**.
 1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
->The following topics provide more information about customized date expressions: 
-

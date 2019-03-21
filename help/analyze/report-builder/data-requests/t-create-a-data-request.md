@@ -34,9 +34,7 @@ Steps to create a basic data request.
 
    See [Add Metrics and Dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) for more information. 
 
-1. Select an insertion location for the request ( ![](assets/select_cell_icon.png)
-
-   ).
+1. Select an insertion location for the request ( ![](assets/select_cell_icon.png).
 1. After selecting the cell, click the cell selector to return to the [Request Wizard Step 2](../../../analyze/report-builder/request-wizard-interface/request-wizard-step-2.md#concept_117A581D42B945CA9750F3059A9A9B39) window.
 1. Continue configuring layout settings as necessary. (See [Configure the Layout](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).)
 1. On the [!UICONTROL Request Wizard: Step 2] window, click **[!UICONTROL Finish]** to process the request.

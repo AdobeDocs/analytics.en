@@ -39,9 +39,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. On the [!UICONTROL Define Filter] form, configure the conditions appropriate for your needs.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png)
-
-   : Lets you locate a condition defined in the value of a cell.
+   ![select_cell_icon.png](assets/select_cell_icon.png): Lets you locate a condition defined in the value of a cell.
 
    ** Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add. 
 
@@ -51,5 +49,3 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. On the [!UICONTROL Choose Page] form, click **[!UICONTROL Save]** to save the expression.
 1. Click **[!UICONTROL OK]**.
-
-   Step Info

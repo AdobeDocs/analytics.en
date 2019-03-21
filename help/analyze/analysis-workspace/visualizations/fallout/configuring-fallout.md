@@ -57,63 +57,18 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
 
 ## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
-<table id="table_53DC928BEDD24430B9DE732B085D848A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1">Fallout Container 
-    <ul id="ul_76D62CA27D8145699591B88744A1C5D0"> 
-     <li id="li_1C5F78E68AB949D4A85B5E12393A79D7">Visit </li> 
-     <li id="li_324A093DC82F4C4EA973FC6AEA70CAFD">Visitor </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>Lets you switch between Visit and Visitor to analyze visitor pathing. The default is Visitor. </p> <p>These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show "All Visitor" as the first touchpoint </p> </td> 
-   <td colname="col2"> <p>You can deselect this if you'd rather not have "All Visitors" as the first touchpoint. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Description |
+|--- |--- |
+|Fallout Container <ul><li>Visit</li><li>Visitor</li></ul>|Lets you switch between Visit and Visitor to analyze visitor pathing. The default is Visitor.  These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.|
+|Show "All Visitors" as the first touchpoint|You can deselect this if you'd rather not have "All Visitors" as the first touchpoint.|
 
-When you **right-click on a touchpoint**, the following options appear:
+When you **right-click a touchpoint**, the following options appear:
 
-<table id="table_30BA52827DC04146923D07C593FBCD62"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Trend touchpoint </td> 
-   <td colname="col2"> <p>See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Trend touchpoint (%) </td> 
-   <td colname="col2"> <p>Trends the total fallout percentage. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Trend all touchpoints (%) </td> 
-   <td colname="col2"> <p>Trends all the touchpoint percentages in the fallout (except "All Visits", if it's included), on the same chart. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Breakdown fallthrough at this touchpoint </td> 
-   <td colname="col2"> <p>View what visitors did between two touchpoints if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Breakdown fallout at this touchpoint </td> 
-   <td colname="col2"> <p>View what people who did not make it through the funnel did immediately after the selected step. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Create segment from touchpoint </td> 
-   <td colname="col2"> <p>Create a new segment from the selected touchpoint. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Option | Description |
+|--- |--- |
+|Trend touchpoint|See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data.|
+|Trend touchpoint (%)|Trends the total fallout percentage.|
+|Trend all touchpoints (%)|Trends all the touchpoint percentages in the fallout (except "All Visits", if it's included), on the same chart.|
+|Breakdown fallthrough at this touchpoint|View what visitors did between two touchpoints if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
+|Breakdown fallout at this touchpoint|View what people who did not make it through the funnel did immediately after the selected step.|
+|Create segment from touchpoint|Create a new segment from the selected touchpoint.|

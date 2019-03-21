@@ -45,14 +45,14 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
         + [Freeform table](analysis-workspace/visualizations/freeform-table.md)
         + Cohort Table {#cohort-table}
             + [What is cohort analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-            + [Run a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+            + [Configure a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
             + [Cohort analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
         + Fallout {#fallout}
             + [Fallout overview](analysis-workspace/visualizations/fallout/fallout-flow.md)
             + [Configure a fallout visualization](analysis-workspace/visualizations/fallout/configuring-fallout.md)
             + [Inter-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
             + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-        + Flow] {#flow}
+        + Flow {#flow}
             + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
             + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
             + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
@@ -73,14 +73,14 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + Panels {#panels}
         + [Panels overview](analysis-workspace/c-panels/panels.md)
         + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
-        + [Attribution IQ overview](analysis-workspace/attribution-iq/attribution.md)
+        + [Attribution](analysis-workspace/attribution-iq/attribution.md)
         + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
         + Segment comparison (IQ) {#segment-comparison}
             + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
             + [Compare segments](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
             + [Segment IQ use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
             + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-    + Curate_Share projects {#curate-share}
+    + Curate or Share projects {#curate-share}
         + [Curation/Sharing overview](analysis-workspace/curate-share/curate.md)
         + [VRS and project curation](analysis-workspace/curate-share/curate-projects-vrs.md)
         + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)

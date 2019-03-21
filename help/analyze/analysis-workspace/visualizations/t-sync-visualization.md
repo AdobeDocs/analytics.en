@@ -25,30 +25,13 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
    Synchronizing a visualization to a table cell creates a new (hidden) table and color-codes the synchronized visualization with that table. 
 
-<table id="table_ED9C1142DD474140830C43466E825C4B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Linked Visualizations </p> </td> 
-   <td colname="col2"> <p>If there are visualizations connected to a freeform or cohort table, the top left dot opens to list the connected visualizations and have a "show" checkbox option to show/hide the table. </p> <p>Hovering highlights the linked visualization, and clicking it takes you to it. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Data Source </p> </td> 
-   <td colname="col2"> <p>Lets you show (by enabling the checkbox) or hide (by disabling) the data table that corresponds to the visualization. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Lock Selection </p> </td> 
-   <td colname="col2"> <p>Enable this setting to lock the visualization to the data currently selected in the corresponding data table. Once enabled, choose between: </p> <p><b>Selected Positions</b>: Choose this option if you want the visualization to stay locked on the positions that are selected in the corresponding data table. These positions will continue to be visualized, even if the specific items in these positions change. For example, choose this option if you want to show the top five campaign names in this visualization at all times, no matter which campaign names show up in the top five. </p> <p><b>Selected Items</b>: Choose this option if you want the visualization to stay locked on the specific items currently selected in the corresponding data table. These items will continue to be visualized, even if they change their ranking among items in the table. For example, choose this option if you want to show the same five specific campaign names in this visualization at all times, no matter where those campaign names rank. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Description |
+|--- |--- |
+|Linked Visualizations|If there are visualizations connected to a freeform or cohort table, the top left dot opens to list the connected visualizations and have a "show" checkbox option to show/hide the table.  Hovering highlights the linked visualization, and clicking it takes you to it.|
+|Show Data Source|Lets you show (by enabling the checkbox) or hide (by disabling) the data table that corresponds to the visualization.|
+|Lock Selection|Enable this setting to lock the visualization to the data currently selected in the corresponding data table. Once enabled, choose between:  <ul><li>**Selected Positions**: Choose this option if you want the visualization to stay locked on the positions that are selected in the corresponding data table. These positions will continue to be visualized, even if the specific items in these positions change. For example, choose this option if you want to show the top five campaign names in this visualization at all times, no matter which campaign names show up in the top five.</li> <li>**Selected Items**: Choose this option if you want the visualization to stay locked on the specific items currently selected in the corresponding data table. These items will continue to be visualized, even if they change their ranking among items in the table. For example, choose this option if you want to show the same five specific campaign names in this visualization at all times, no matter where those campaign names rank.</li></ul>|
 
-This new architecture, introduced in July 2017, differs from the previous one in that Analysis Workspace no longer creates a duplicate hidden table that stores the locked selection for you. Now, the data source points to the table that you created the visualization from. 
+This architecture differs from the previous one in that Analysis Workspace no longer creates a duplicate hidden table that stores the locked selection for you. Now, the data source points to the table that you created the visualization from. 
 
 **Example use cases:** 
 

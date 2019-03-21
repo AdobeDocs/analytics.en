@@ -21,6 +21,22 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Reports & Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Code Manager]**.
 
+## Version 2.12.0
+
+Release Date: **02/22/2019**
+
+* Updated Audience Management module to DIL 9.1. (AN-175255)
+* GTM Security Policy not allowing Activity Map Module. (AN-174679)
+* Improved AppMeasurement to honor opt-out when the Experience Cloud ID Service is not approved in opt-in. (AN-175259)
+
+## Version 2.11.0
+
+Release Date: **02/11/2019**
+
+* Added support for the new Adobe Opt-in services functionality in AppMeasurement. (AN-163546)
+* Added support for storing link tracking data on session-storage. (AN-162272)
+* Added support for media stream type for Audio Analytics. (AN-173265)
+
 ## Version 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
 
 Release Date: **09/20/2018**

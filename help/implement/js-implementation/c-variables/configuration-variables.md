@@ -38,7 +38,7 @@ The  variable determines the report suite where data is stored and reported.
 
 If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. The report suite ID is determined by Adobe.
 
-**Parameters** 
+### Parameters
 
 |Max Size|Debugger Parameter|Reports Populated|Default Value|
 |--- |--- |--- |--- |
@@ -59,7 +59,7 @@ https://mycompany.112.207.net/b/ss/
 <b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
 ```
 
-## Syntax and Possible Values {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
+### Syntax and Possible Values {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
 
 The report suite ID is an alphanumeric string of ASCII characters, no more than 40 bytes in length. The only non-alphanumeric character allowed is a hyphen. Spaces, periods, commas and other punctuation are not allowed. The `s_account` variable may contain multiple report suites, all of which receive data from that page.
 
@@ -69,7 +69,7 @@ var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 
 All values of `s_account` must be provided or approved by Adobe.
 
-## Examples {#section_16580A9101B64560A58C7745397FB42F}
+### Examples {#section_16580A9101B64560A58C7745397FB42F}
 
 ```js
 var s_account="mycompanycom"
@@ -79,11 +79,11 @@ var s_account="mycompanycom"
 var s_account="mycompanycom,mycompanysection"
 ```
 
-## Configuring the Variable in Analytics {#section_7DFB2CCF02F045AFB1AD4F376638393B}
+### Configuring the Variable in Analytics {#section_7DFB2CCF02F045AFB1AD4F376638393B}
 
 The friendly name associated with each report suite ID can be changed by Adobe [!DNL Customer Care]. The friendly name can be seen in [!DNL Analytics] in the site drop-down box in the top, left section of the screen.
 
-## Pitfalls, Questions, and Tips {#section_BFFDA5C0AF31442494B0E02F0925CF93}
+### Pitfalls, Questions, and Tips {#section_BFFDA5C0AF31442494B0E02F0925CF93}
 
 * If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
 * When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
@@ -113,7 +113,7 @@ The  variable lets you dynamically select the report suite based on the URL of e
 >
 >Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
 
-## Syntax and Possible Values {#section_36E5D0E2170345F5A652B44CE85DFED1}
+### Syntax and Possible Values {#section_36E5D0E2170345F5A652B44CE85DFED1}
 
 ```js
 s.dynamicAccountSelection=[true|false]
@@ -121,7 +121,7 @@ s.dynamicAccountSelection=[true|false]
 
 Only 'true' and 'false' are allowed as values of *`dynamicAccountSelection`*.
 
-## Examples {#section_E8CE8BA62C7545889531495E2521663D}
+### Examples {#section_E8CE8BA62C7545889531495E2521663D}
 
 ```js
 s.dynamicAccountSelection=true
@@ -131,11 +131,11 @@ s.dynamicAccountSelection=true
 s.dynamicAccountSelection=false
 ```
 
-## Configuration Settings {#section_F052FA38144B4F84B015A263A8E711CF}
+### Configuration Settings {#section_F052FA38144B4F84B015A263A8E711CF}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_62F0B0895BC84A05840AEEED0643DE60}
+### Pitfalls, Questions, and Tips {#section_62F0B0895BC84A05840AEEED0643DE60}
 
 * Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). 
 * Always use the [!DNL DigitalPulse Debugger] to determine which report suite is receiving data from each page.
@@ -165,7 +165,7 @@ In the following examples, the page URL is `www.mycompany.com/path1/?prod_id=123
 |  "mysuite1=path5"  | window.location.pathname  | mysuitecom, mysuite1  |
 |  "myprodsuite=prod_id"  | window.location.search?window.location.search:"?")  | myprodsuite  |
 
-## Syntax and Possible Values {#section_7360E4354ED345E8BAAE210DBD58A7EC}
+### Syntax and Possible Values {#section_7360E4354ED345E8BAAE210DBD58A7EC}
 
 The `dynamicAccountList` variable is a semicolon-separated list of name=value pairs (rules). Each piece of the list should contain the following items:
 
@@ -179,7 +179,7 @@ s.dynamicAccountList=rs1[,rs2]=domain1.com[,domain2.com/path][;...]
 
 Only standard ASCII characters should be used in the string (no spaces).
 
-## Examples {#section_49936D14EF6D45859B666C9E7A4CBA9E}
+### Examples {#section_49936D14EF6D45859B666C9E7A4CBA9E}
 
 ```js
 s.dynamicAccountList="mysuite2=www2.mycompany.com;mysuite1=mycompany.com"
@@ -189,11 +189,11 @@ s.dynamicAccountList="mysuite2=www2.mycompany.com;mysuite1=mycompany.com"
 s.dynamicAccountList="ms1,ms2=site1.com;ms1,ms3=site3.com"
 ```
 
-## Configuration Settings {#section_9F99CD741BC7449B8CCC108094B2EB85}
+### Configuration Settings {#section_9F99CD741BC7449B8CCC108094B2EB85}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_3E10534FCC05457AB67147BB480C8BB3}
+### Pitfalls, Questions, and Tips {#section_3E10534FCC05457AB67147BB480C8BB3}
 
 * Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). 
 * If the page URL matches multiple rules, the furthest rule on the left is used. 
@@ -220,7 +220,7 @@ The rules found in `dynamicAccountList` are applied to the value of `dynamicAcco
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | window.location.host  |
 
-## Syntax and Possible Values {#section_95CD81972C22419B80A921CA137D3841}
+### Syntax and Possible Values {#section_95CD81972C22419B80A921CA137D3841}
 
 The `dynamicAccountMatch` variable is usually populated by the Adobe consultant who provides the AppMeasurement for JavaScript file. However, the values listed below may be applied at any time.
 
@@ -237,7 +237,7 @@ s.dynamicAccountMatch=[DOM object]
 |  Path and Query String  | window.location.pathname+(window.location.search?window.location.search:"?")  |
 |  Full URL  | window.location.href  |
 
-## Examples {#section_924687CCE255421AA2223A3D4B8B6A30}
+### Examples {#section_924687CCE255421AA2223A3D4B8B6A30}
 
 ```js
 s.dynamicAccountMatch=window.location.pathname
@@ -247,11 +247,11 @@ s.dynamicAccountMatch=window.location.pathname
 s.dynamicAccountMatch=window.location.host+window.location.pathname
 ```
 
-## Configuration Settings {#section_43BCE13B1ADD4D418DF7CBB9DD7A6472}
+### Configuration Settings {#section_43BCE13B1ADD4D418DF7CBB9DD7A6472}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_EF9B2977BC21497D8C5EEB9BAD731E17}
+### Pitfalls, Questions, and Tips {#section_EF9B2977BC21497D8C5EEB9BAD731E17}
 
 * Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). 
 * When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`). 
@@ -272,7 +272,7 @@ Cookies, request headers, and image query string parameters are available to be 
 |---|---|---|---|
 |  N/A  | D=  | Any  | D=  |
 
-## Syntax and Possible Values {#section_D0669899567F46B6A081C7661362BA81}
+### Syntax and Possible Values {#section_D0669899567F46B6A081C7661362BA81}
 
 ```js
 s.prop1="D=User-Agent”
@@ -284,7 +284,7 @@ OR USE CUSTOM FLAG FOR DYNAMIC VARIABLES
 s.dynamicVariablePrefix=".."
 ```
 
-## Examples {#section_DD148560F9E8416EBCF159194FA427AC}
+### Examples {#section_DD148560F9E8416EBCF159194FA427AC}
 
 ```js
 s.prop1="D=User-Agent”
@@ -300,7 +300,7 @@ s.dynamicVariablePrefix=".."
 s.prop1="..User-Agent"
 ```
 
-## Pitfalls, Questions, and Tips {#section_6889908FBD78488D955F67DDB17617B1}
+### Pitfalls, Questions, and Tips {#section_6889908FBD78488D955F67DDB17617B1}
 
 * Dynamic variables can be used to significantly reduce the total length of the URL by copying values into other variables. 
 * Dynamic variables can be used to collect data from headers and cookies not otherwise available for data collection.
@@ -343,13 +343,13 @@ If the *`charSet`* variable contains an incorrect value, the data in all other v
 |--- |--- |--- |--- |
 |N/A|CE|N/A|""|
 
-## Syntax and Possible Values {#section_EBC2176067A04D9E814CF78A86DC80FA}
+### Syntax and Possible Values {#section_EBC2176067A04D9E814CF78A86DC80FA}
 
 ```js
 s.charSet="character_set"
 ```
 
-## Examples {#section_406DE0A2B58441DB8512F5B3BE5D9CB5}
+### Examples {#section_406DE0A2B58441DB8512F5B3BE5D9CB5}
 
 ```js
 s.charSet="ISO-8859-1"
@@ -379,7 +379,7 @@ Populating the *`currencyCode`* variable on the HTML page instead of in the Java
 
 Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). For more details on how currencies are managed, see [Multi-Currency Support](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/)..
 
-## Syntax and Possible Values {#section_7CD68F08AB4848EE9B0D19DCC3F1BECE}
+### Syntax and Possible Values {#section_7CD68F08AB4848EE9B0D19DCC3F1BECE}
 
 ```js
 s.currencyCode="currency_code"
@@ -387,7 +387,7 @@ s.currencyCode="currency_code"
 
 Only the currency codes listed in [Multi-Currency Support](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/) are allowed.
 
-## Examples {#section_D55ED45369544C8AAA02B3193752636C}
+### Examples {#section_D55ED45369544C8AAA02B3193752636C}
 
 ```js
 s.currencyCode="GBP"
@@ -397,11 +397,11 @@ s.currencyCode="GBP"
 s.currencyCode="EUR"
 ```
 
-## Configuration Settings {#section_D05E29F545A04958B1C0A82248BCA1B0}
+### Configuration Settings {#section_D05E29F545A04958B1C0A82248BCA1B0}
 
 Adobe [!DNL Customer Care] can change the default currency setting for your report suite. When you change the base currency for a report suite, the existing revenue in the system is not converted. All new revenue values will be converted accordingly.
 
-## Pitfalls, Questions, and Tips {#section_08A80A87B54A4861905953A6FA61FF8F}
+### Pitfalls, Questions, and Tips {#section_08A80A87B54A4861905953A6FA61FF8F}
 
 * If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly. 
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics. 
@@ -450,7 +450,7 @@ See also [s.fpCookieDomainPeriods](../../../implement/js-implementation/c-variab
 >
 >Some cloud computing services are considered Top-Level Domains, which do not allow cookies to be written. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) If you implement on those services, you could potentially be affected by Analytics privacy setting that removes users who have blocked all cookies if you don't have your own domain set up (for example, if you're testing your implementation). In this case, any hit where the system has determined that cookies are disabled, non-functional, or inaccessible is opted out and thus excluded from reporting.
 
-## Examples {#section_4218BE29FA5E49F58975A2094329B268}
+### Examples {#section_4218BE29FA5E49F58975A2094329B268}
 
 Setting the variable manually: 
 
@@ -477,7 +477,7 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
     {s.cookieDomainPeriods = "3";}
 ```
 
-## Pitfalls, Questions, and Tips {#section_F3BE3F039E5C4359B694DBB61369822C}
+### Pitfalls, Questions, and Tips {#section_F3BE3F039E5C4359B694DBB61369822C}
 
 * If you notice that visitor click map data is absent, or that the [!UICONTROL Traffic] > [!UICONTROL Technology] > [!UICONTROL Cookies] report shows a large percentage of visitors who reject cookies, check that the value of *`cookieDomainPeriods`* is correct. 
 
@@ -502,7 +502,7 @@ The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`*
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | cookieDomainPeriods  |
 
-## Sample Code for Setting Cookie Domain Variables {#section_5200A92D40384C82998606E800B69E13}
+### Sample Code for Setting Cookie Domain Variables {#section_5200A92D40384C82998606E800B69E13}
 
 ```js
 s.fpCookieDomainPeriods="2" 
@@ -512,7 +512,7 @@ if(d.indexOf('.co.uk')>-1||d.indexOf('.com.au')>-1)
 
 ```
 
-## Syntax and Possible Values {#section_87923F4C12E74AF99CC9AFC0FFD77D49}
+### Syntax and Possible Values {#section_87923F4C12E74AF99CC9AFC0FFD77D49}
 
 The *`cookieDomainPeriods`* variable is expected to be a string, as shown below.
 
@@ -520,7 +520,7 @@ The *`cookieDomainPeriods`* variable is expected to be a string, as shown below.
 s.fpCookieDomainPeriods="3"
 ```
 
-## Examples {#section_EF7355718AD849BF963EE9F6F9F79891}
+### Examples {#section_EF7355718AD849BF963EE9F6F9F79891}
 
 ```js
 s.fpCookieDomainPeriods="3"
@@ -530,7 +530,7 @@ s.fpCookieDomainPeriods="3"
 s.fpCookieDomainPeriods="2"
 ```
 
-## Configuration Settings {#section_DB65D9BC4F3048C8AD08F9A7CD8FCFC0}
+### Configuration Settings {#section_DB65D9BC4F3048C8AD08F9A7CD8FCFC0}
 
 None 
 
@@ -552,7 +552,7 @@ If *`cookieLifetime`* is set, it overrides any other cookie expirations for both
 * Cookies 
 * JavaScript Settings and Plugins
 
-## Syntax and Possible Values {#section_09D4D122451B45FAB2C9398600EC66F1}
+### Syntax and Possible Values {#section_09D4D122451B45FAB2C9398600EC66F1}
 
 ```js
 s.cookieLifetime="value"
@@ -565,7 +565,7 @@ The possible values are listed as follows:
 * "SESSION" 
 * An integer representing the number of seconds until expiration
 
-## Examples {#section_91499F70C8B14D3292FCF1B60F04E30A}
+### Examples {#section_91499F70C8B14D3292FCF1B60F04E30A}
 
 ```js
 s.cookieLifetime="SESSION"
@@ -575,11 +575,11 @@ s.cookieLifetime="SESSION"
 s.cookieLifetime="86400" // one day in seconds
 ```
 
-## Configuration Settings {#section_7BDAD4CFE8414C9BA5717A8C8B1BDD34}
+### Configuration Settings {#section_7BDAD4CFE8414C9BA5717A8C8B1BDD34}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_23E24877F6554E0D9F8C8B7A9C2994B2}
+### Pitfalls, Questions, and Tips {#section_23E24877F6554E0D9F8C8B7A9C2994B2}
 
 *`cookieLifetime`* affects [!DNL Analytics] tracking. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*. 
 
@@ -600,7 +600,7 @@ The *`s_doPlugins`* function is called each time any of the following occurs:
 
 The *`doPlugins`* function is used to run customized routines to gather or alter data. If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. For example, if your object name is s_mc, the *`s_doPlugins`* function should be called s_mc_doPlugins.
 
-## Syntax and Possible Values {#section_5CFB94598521455E80947964A306EA89}
+### Syntax and Possible Values {#section_5CFB94598521455E80947964A306EA89}
 
 The *`s_doPlugins`* function should not be in quotes, and *`doPlugins`* should always be assigned to the exact name of the *`s_doPlugins`* function (if that function is renamed).
 
@@ -608,7 +608,7 @@ The *`s_doPlugins`* function should not be in quotes, and *`doPlugins`* should a
 s.doPlugins=s_doPlugins;
 ```
 
-## Examples {#section_A5CF0054C56745268A1313CCC7730022}
+### Examples {#section_A5CF0054C56745268A1313CCC7730022}
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -618,11 +618,11 @@ s.doPlugins=s_doPlugins;
 s_mc.doPlugins=s_mc_doPlugins;
 ```
 
-## Configuration Settings {#section_641F0EC55E3349E5A3F8671446797074}
+### Configuration Settings {#section_641F0EC55E3349E5A3F8671446797074}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_0C7FB61CF0C946EF8A7D1B686D36E6ED}
+### Pitfalls, Questions, and Tips {#section_0C7FB61CF0C946EF8A7D1B686D36E6ED}
 
 * The only reason to change the object name (such as from s to s_mc) is if you share content with or pull content from other customers. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function. 
 
@@ -644,11 +644,11 @@ If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determ
 
 The *`trackDownloadLinks`* variable should only be set to 'false' if there are no links to downloadable files on your site, or you don't care to track the number of clicks on downloadable files. If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. The data that is sent with a download link includes the link download URL, and visitor click map data for that link. If *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
 
-## Syntax and Possible Values {#section_828492CC2A144BC68D18C30CF397EEFC}
+### Syntax and Possible Values {#section_828492CC2A144BC68D18C30CF397EEFC}
 
 The *`trackDownloadLinks`* variable is expected to be either 'true' or 'false.'
 
-## Examples {#section_BE2FA1873EBD4C5CA95E98B922B10280}
+### Examples {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
 ```js
 s.trackDownloadLinks=true 
@@ -659,11 +659,11 @@ s.trackDownloadLinks=true
 s.trackDownloadLinks=false
 ```
 
-## Configuration Settings {#section_9A5F69966BAF433A8DA2BCF655A652D1}
+### Configuration Settings {#section_9A5F69966BAF433A8DA2BCF655A652D1}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_B3764520D81143968F96CB69AADD457F}
+### Pitfalls, Questions, and Tips {#section_B3764520D81143968F96CB69AADD457F}
 
 * When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map. 
 * When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.
@@ -682,7 +682,7 @@ If  is 'true,'  and  are used to determine whether any link clicked is an exit l
 
 The *`trackExternalLinks`* variable should only be set to 'false' if there are no exit links on your site, or if you don't care to track the number of clicks on those exit links. An exit link is any link that takes a visitor off of your site. If *`trackExternalLinks`* is 'true,' then when you click an exit link, tracking data is immediately sent. The data that is sent with an exit link includes the link URL, link name, and visitor click map data for that link. If *`trackExternalLinks`* is 'false,' then visitor click map data for exit links on your site is likely to be under reported.
 
-## Syntax and Possible Values {#section_267748949A7544658E1D838AAEF964B2}
+### Syntax and Possible Values {#section_267748949A7544658E1D838AAEF964B2}
 
 The *`trackExternalLinks`* variable is expected to be either 'true' or 'false.'
 
@@ -690,7 +690,7 @@ The *`trackExternalLinks`* variable is expected to be either 'true' or 'false.'
 s.trackExternalLinks=true|false
 ```
 
-## Examples {#section_EF18DB05884240F5B5062631E68E10A7}
+### Examples {#section_EF18DB05884240F5B5062631E68E10A7}
 
 ```js
 s.trackExternalLinks=true 
@@ -701,11 +701,11 @@ s.trackExternalLinks=true
 s.trackExternalLinks=false
 ```
 
-## Configuration Settings {#section_C8748CFE36324FAFB14C23E3E1FB5082}
+### Configuration Settings {#section_C8748CFE36324FAFB14C23E3E1FB5082}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_FE2C3AF17DA24EA8A944BF1D394FB5BC}
+### Pitfalls, Questions, and Tips {#section_FE2C3AF17DA24EA8A944BF1D394FB5BC}
 
 * When *`trackExternalLinks`* is 'false,' links that take people away from your site are likely to be under reported in visitor click map. 
 * When *`trackExternalLinks`* is 'true,' data is sent each time a visitor clicks on an exit link (before link target loads).
@@ -724,7 +724,7 @@ If *`trackInlineStats`* is 'true,' data about the page and link clicked are stor
 |---|---|---|---|
 |  N/A  | N/A  | ClickMap  | False  |
 
-## Syntax and Possible Values {#section_46B2C1DD0D104A01A9C239929420CD90}
+### Syntax and Possible Values {#section_46B2C1DD0D104A01A9C239929420CD90}
 
 ```js
 s.trackInlineStats=true|false
@@ -732,7 +732,7 @@ s.trackInlineStats=true|false
 
 The *`trackInlineStats`* variable is expected to be either 'true' or 'false.'
 
-## Examples {#section_F146770917A3493AB8007626913CD6AB}
+### Examples {#section_F146770917A3493AB8007626913CD6AB}
 
 ```js
 s.trackInlineStats=true
@@ -742,7 +742,7 @@ s.trackInlineStats=true
 s.trackInlineStats=false
 ```
 
-## Configuration Settings {#section_FB2CDB07CDCE454786D96A66E4D8EDCD}
+### Configuration Settings {#section_FB2CDB07CDCE454786D96A66E4D8EDCD}
 
 None 
 
@@ -766,7 +766,7 @@ Only left-mouse-clicks on a link are counted in the [!UICONTROL File Downloads] 
 
 The *`linkDownloadFileTypes`* variable may be used to track clicks to RSS feeds. If you have links to RSS feeds with a .xml or other extension, appending ",xml" to the *`linkDownloadFileTypes`* list allows you to see how often each RSS link is clicked.
 
-## Syntax and Possible Values {#section_E0B3F3817BBF4B11AFAABEF8BB951E5A}
+### Syntax and Possible Values {#section_E0B3F3817BBF4B11AFAABEF8BB951E5A}
 
 Only include file extensions (no spaces).
 
@@ -776,7 +776,7 @@ s.linkDownloadFileTypes="type1[,type2[,type3[...]]]"
 
 Any file extension may be included in the list. Be careful not to include a common file extension, such as htm or aspx, in *`linkDownloadFileTypes`*. Doing so causes an extra image request to be sent for each click, which will be billed as a primary server call.
 
-## Examples {#section_C53F1AF768434CEBA65F3D255BC470AD}
+### Examples {#section_C53F1AF768434CEBA65F3D255BC470AD}
 
 ```js
 s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls"
@@ -786,11 +786,11 @@ s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls"
 s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls,xml"
 ```
 
-## Configuration Settings {#section_CE24D5852E4D441A958A4EDDB82382A7}
+### Configuration Settings {#section_CE24D5852E4D441A958A4EDDB82382A7}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_786CF22D5553429EB6524B13774793BC}
+### Pitfalls, Questions, and Tips {#section_786CF22D5553429EB6524B13774793BC}
 
 * Only left-clicks on download files cause the URL to appear in the [!UICONTROL File Downloads] report. 
 * Including a common file extension in *`linkDownloadFileTypes`* may significantly increase the total server calls sent to Adobe's servers. 
@@ -836,7 +836,7 @@ s.linkLeaveQueryString=false
 
 ```
 
-## Syntax and Possible Values {#section_810966F09912415B96EA9C2EDAE0CEA0}
+### Syntax and Possible Values {#section_810966F09912415B96EA9C2EDAE0CEA0}
 
 The *`linkInternalFilters`* variable is a comma-separated list of ASCII characters. No spaces are allowed.
 
@@ -844,7 +844,7 @@ The *`linkInternalFilters`* variable is a comma-separated list of ASCII characte
 s.linkInternalFilters="site1.com[,site2.com[,site3.net[...]]]"
 ```
 
-## Examples {#section_491F48556DC247889D54C66FC431B4EC}
+### Examples {#section_491F48556DC247889D54C66FC431B4EC}
 
 ```js
 s.linkInternalFilters="mysite.com"
@@ -854,11 +854,11 @@ s.linkInternalFilters="mysite.com"
 s.linkInternalFilters="mysite.com,mysite.net,vanity1.com"
 ```
 
-## Configuration Settings {#section_546AC1FACB664ABFBCF312990097C987}
+### Configuration Settings {#section_546AC1FACB664ABFBCF312990097C987}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_E83A6F8B6EE44D51A2800D83F8BB264F}
+### Pitfalls, Questions, and Tips {#section_E83A6F8B6EE44D51A2800D83F8BB264F}
 
 * Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list. 
 * Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect. 
@@ -895,19 +895,19 @@ The *`linkLeaveQueryString`* variable determines whether or not the query string
 >
 >Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
 
-## Syntax {#section_C40CF036B71A496D92574C6E46DE8302}
+### Syntax {#section_C40CF036B71A496D92574C6E46DE8302}
 
 ```js
 s.linkLeaveQueryString=[false/true]
 ```
 
-## Examples {#section_E42CEC8DDE624A4B979F4F6C8094A7F9}
+### Examples {#section_E42CEC8DDE624A4B979F4F6C8094A7F9}
 
 ```js
 s.linkLeaveQueryString=false
 ```
 
-## Possible Values {#section_E13211451B664B909B1BFDD050472F18}
+### Possible Values {#section_E13211451B664B909B1BFDD050472F18}
 
 ```js
 s.linkLeaveQueryString=false
@@ -917,11 +917,11 @@ s.linkLeaveQueryString=false
 s.linkLeaveQueryString=true
 ```
 
-## Configuring the Variable {#section_835FD74D3CA9425A9D091CACF88A6F1F}
+### Configuring the Variable {#section_835FD74D3CA9425A9D091CACF88A6F1F}
 
 No configuration is necessary for this variable.
 
-## Pitfalls, Questions, and Tips {#section_085E79D1A7F74F5D95F82D34FB82AEC4}
+### Pitfalls, Questions, and Tips {#section_085E79D1A7F74F5D95F82D34FB82AEC4}
 
 * Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links. 
 * The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
@@ -958,7 +958,7 @@ s.t() // eVar1, event1 and event2 are recorded
 
 Because the link to google.com is an exit link (unless you are Google), event1 and eVar1 are sent with the exit link data, increasing the instances associated with eVar1 and the number of times event1 is fired. In the link to [!DNL test.php], [!UICONTROL eVar1] is sent with a value of 'value C' because that is the current value of [!UICONTROL eVar1] at the time that *`tl()`* is called.
 
-## Syntax and Possible Values {#section_DCC239F5CFE74959856764DAB1862BA7}
+### Syntax and Possible Values {#section_DCC239F5CFE74959856764DAB1862BA7}
 
 The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of variable names, without the object name prefix. Use 'eVar1' instead of 's.eVar1.'
 
@@ -968,7 +968,7 @@ s.linkTrackVars="variable_name[,variable_name[...]]"
 
 The *`linkTrackVars`* variable may contain only variables that are sent to [!DNL Analytics], namely: *`events`*, *`campaign`*, *`purchaseID`*, *`products`*, [!UICONTROL eVar1-75], [!UICONTROL prop1-75], [!UICONTROL hier1-5], *`channel`*, *`server`*, *`state`*, *`zip`*, and *`pageType`*.
 
-## Examples {#section_546BAAC7373A41BF8583B280EAAB607C}
+### Examples {#section_546BAAC7373A41BF8583B280EAAB607C}
 
 ```js
 s.linkTrackVars="events,prop1,eVar49"
@@ -978,11 +978,11 @@ s.linkTrackVars="events,prop1,eVar49"
 s.linkTrackVars="products"
 ```
 
-## Configuration Settings {#section_E387604B8A434A7F89A82A886649A89D}
+### Configuration Settings {#section_E387604B8A434A7F89A82A886649A89D}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_99E0783A608C4462945F35D21AB4AC2B}
+### Pitfalls, Questions, and Tips {#section_99E0783A608C4462945F35D21AB4AC2B}
 
 * If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls. 
 * Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked. 
@@ -1019,7 +1019,7 @@ The *`linkTrackEvents`* variable contains the events that should be sent with [!
 |---|---|---|---|
 |  N/A  | N/A  | Conversion  | "None"  |
 
-## Syntax and Possible Values {#section_89BA2425FBDC400A8C8B7FCDE7D67D63}
+### Syntax and Possible Values {#section_89BA2425FBDC400A8C8B7FCDE7D67D63}
 
 The *`linkTrackEvents`* variable is a comma-separated list of events (no spaces).
 
@@ -1029,7 +1029,7 @@ s.linkTrackEvents="event1[,event2[,event3[...]]]"
 
 Only event names are allowed in *`linkTrackEvents`*. These events are listed in [Events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). If a space appears before or after the event name, the event can not be sent with any link image requests.
 
-## Examples {#section_AB7F952E522A4DCC92944EBF74C26BDD}
+### Examples {#section_AB7F952E522A4DCC92944EBF74C26BDD}
 
 ```js
 s.linkTrackEvents="purchase,event1"
@@ -1039,11 +1039,11 @@ s.linkTrackEvents="purchase,event1"
 s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 ```
 
-## Configuration Settings {#section_D938A47346D94A0C9E98FB327F2EF349}
+### Configuration Settings {#section_D938A47346D94A0C9E98FB327F2EF349}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_DBB68BECC9D44380816113DB2566C38C}
+### Pitfalls, Questions, and Tips {#section_DBB68BECC9D44380816113DB2566C38C}
 
 * The JavaScript file only uses *`linkTrackEvents`* if *`linkTrackVars`* contains the "events" variable. "events" should be included in *`linkTrackVars`* only when *`linkTrackEvents`* is defined. 
 
@@ -1089,7 +1089,7 @@ s.linkLeaveQueryString=false
 
 ```
 
-## Syntax and Possible Values {#section_E35DAAAE8BDE44CEB8F6763EF1344693}
+### Syntax and Possible Values {#section_E35DAAAE8BDE44CEB8F6763EF1344693}
 
 The *`linkExternalFilters`* variable is a comma-separated list of ASCII characters. No spaces are allowed.
 
@@ -1099,7 +1099,7 @@ s.linkExternalFilters="site1.com[,site2.com[,site3.net[...]]]"
 
 Any portion of a URL might be included in *`linkExternalFilters`*, separated by commas.
 
-## Examples {#section_1D2F13EEC28942868C2F4207ADF2DDE0}
+### Examples {#section_1D2F13EEC28942868C2F4207ADF2DDE0}
 
 ```js
 s.linkExternalFilters="partnersite.com,partnertwo.net/path/"
@@ -1109,11 +1109,11 @@ s.linkExternalFilters="partnersite.com,partnertwo.net/path/"
 s.linkExternalFilters=""
 ```
 
-## Configuration Settings {#section_2D0CA911855B4B3698145FC18D5021C3}
+### Configuration Settings {#section_2D0CA911855B4B3698145FC18D5021C3}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_8B40E6F539E3473B934A8DB7C5086D73}
+### Pitfalls, Questions, and Tips {#section_8B40E6F539E3473B934A8DB7C5086D73}
 
 * Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links. 
 
@@ -1135,7 +1135,7 @@ When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called p
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | True  |
 
-## Syntax and Possible Values {#section_BAD0F150047A4B7FB1214491B939A1FC}
+### Syntax and Possible Values {#section_BAD0F150047A4B7FB1214491B939A1FC}
 
 ```js
 s.usePlugins=true|false
@@ -1143,7 +1143,7 @@ s.usePlugins=true|false
 
 The [!UICONTROL usePlugins] variable is expected to be either 'true' or 'false.'
 
-## Examples {#section_1423CC3026384B1A9F78B272166B1DF5}
+### Examples {#section_1423CC3026384B1A9F78B272166B1DF5}
 
 ```js
 s.usePlugins=true
@@ -1155,6 +1155,6 @@ s.usePlugins=false
 
 The [!UICONTROL usePlugins] variable should only be false (or not declared) if the *`s_doPlugins`* function is not declared in your JavaScript file.
 
-## Configuration Settings {#section_DFD41717134147E988B6AFC7DE5BB9E3}
+### Configuration Settings {#section_DFD41717134147E988B6AFC7DE5BB9E3}
 
 None

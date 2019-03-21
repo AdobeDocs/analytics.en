@@ -14,6 +14,5 @@ The Custom Layout provides most of the functionality of the Pivot Layout, but le
 
 The following topics are unique to the [!UICONTROL Custom Layout]: 
 
->[!MORE_LIKE_THIS]
->
->* [Request Wizard Step 2](/help/analyze/report-builder/request-wizard-interface/request-wizard-step-2.md)
+* [Map metrics and dimensions to cells](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+* [Create a microchart](/help/analyze/report-builder/layout/t-create-a-microchart.md)

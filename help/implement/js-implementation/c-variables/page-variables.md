@@ -137,7 +137,7 @@ For example, a visitor enters your site by clicking a paid search keyword. When 
 
 To avoid this inflation of click-throughs, Adobe recommends using the [!UICONTROL getValOnce] plugin to force each campaign click-through to be counted only once per session. For more information on the [!UICONTROL getValOnce] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-## Syntax and Possible Values {#section_91A141841A6D4711A1EE08A6145A301D}
+### Syntax and Possible Values {#section_91A141841A6D4711A1EE08A6145A301D}
 
 ```js
 s.campaign="112233"
@@ -145,11 +145,11 @@ s.campaign="112233"
 
 The *`campaign`* variable has the same limitations as all other variables. Adobe recommends limiting the value to standard ASCII characters.
 
-## Case Sensitivity {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
+### Case Sensitivity {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
 
 eVars are case insensitive, but they are displayed in the capitalization of the first occurrence. For example, if the first instance of eVar1 is set to "Logged In," but all subsequent instances are passed as "logged in," reports always show "Logged In" as the value of the eVar.
 
-## Examples {#section_705A25D05F6848E29C78320247AECB5F}
+### Examples {#section_705A25D05F6848E29C78320247AECB5F}
 
 ```js
 s.campaign="112233"
@@ -159,11 +159,11 @@ s.campaign="112233"
 s.campaign=s.getQueryParam('cid');
 ```
 
-## Configuration Settings {#section_4083F281968443169EAF8C0E8529D7BC}
+### Configuration Settings {#section_4083F281968443169EAF8C0E8529D7BC}
 
 Each campaign value remains active for a user, and receives credit for that user's activities and success events until it expires. You can change the expiration of the campaign variable in the [!DNL Admin Console].
 
-## Pitfalls, Questions, and Tips {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
+### Pitfalls, Questions, and Tips {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
 * To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
 
@@ -190,7 +190,7 @@ Adobe recommends populating the channel variable on every page. You can also tur
 
 When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
 
-## Syntax and Possible Values {#section_ED90592730B64242A737F4090F1DCEE4}
+### Syntax and Possible Values {#section_ED90592730B64242A737F4090F1DCEE4}
 
 ```js
 s.channel="value"
@@ -198,7 +198,7 @@ s.channel="value"
 
 The *`channel`* variable has no extra limitations on its values.
 
-## Examples {#section_2527B2BB1CFD46CB952178ABF7A9028A}
+### Examples {#section_2527B2BB1CFD46CB952178ABF7A9028A}
 
 ```js
 s.channel="Electronics"
@@ -208,7 +208,7 @@ s.channel="Electronics"
 s.channel="Media"
 ```
 
-## Pitfalls, Questions, and Tips {#section_61941D5E4E644B59A267A4F44FD5DE8C}
+### Pitfalls, Questions, and Tips {#section_61941D5E4E644B59A267A4F44FD5DE8C}
 
 If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value. 
 
@@ -314,7 +314,7 @@ When an eVar is set to a value for a visitor, the value is remembered until it e
 |---|---|---|---|
 |  255 Bytes  | V1-v75 ( [or v100 or v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))  | Custom Conversion  | ""  |
 
-## Expiration {#section_6DB5882B960D4660AE248B91B76883C4}
+### Expiration {#section_6DB5882B960D4660AE248B91B76883C4}
 
 [!UICONTROL eVars] expire after a time period you specify. After the eVar expires, it no longer receives credit for success events. eVars can also be configured to expire on success events. For example, if you have an internal promotion that expires at the end of a visit, the internal promotion receives credit only for purchases or registrations that occur during the visit in which they were activated.
 
@@ -325,19 +325,19 @@ There are two ways to expire an eVar:
 
 If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Doing so will help keep internal promotion values out of June's reports.
 
-## Case Sensitivity {#section_6E9145B7FCC2438E95BB35AAE3857412}
+### Case Sensitivity {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
 eVars are case insensitive, but they are displayed in the capitalization of the first occurrence. For example, if the first instance of eVar1 is set to "Logged In," but all subsequent instances are passed as "logged in," reports always show "Logged In" as the value of the eVar.
 
-## Counters {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+### Counters {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
 
 While eVars are most often used to hold string values, they may also be configured to act as counters. eVars are useful as counters when you are trying to count the number of actions a user takes before an event. For example, you may use an eVar to capture the number of internal searches before purchase. Each time a visitor searches, the eVar should contain a value of '+1.' If a visitor searches four times before a purchase, you will see an instance for each total count: 1.00, 2.00, 3.00, and 4.00. However, only the 4.00 receives credit for the purchase event (Orders and Revenue Metrics). Only positive numbers are allowed as values of an eVar counter.
 
-## Subrelations {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+### Subrelations {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
 
 A common requirement for a [!UICONTROL Custom eVar] report is the ability to break down one [!UICONTROL Custom eVar] report by another. For example, if one eVar contains gender, and another contains salary, you may ask the following question: of the female visitors to my site, how much revenue was generated by women who make more than $50,000 per year. Any eVar that is fully sub-related allows this type of break down in reports. For example, if the gender eVar has full subrelations enabled, all other custom eVar reports can be broken down by gender, and gender can be broken down by all others. To see the relationship between two reports, only one of them needs full subrelations enabled. By default, [!UICONTROL Campaigns], [!UICONTROL Products], and [!UICONTROL Category] reports are fully sub-related (any eVar can be broken down by campaign or products).
 
-## Syntax and Possible Values {#section_BD46438B14F3488FB9AC42994C317B06}
+### Syntax and Possible Values {#section_BD46438B14F3488FB9AC42994C317B06}
 
 While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
 
@@ -347,7 +347,7 @@ s.eVarX="value"
 
 When not used as a counter, eVars have the same limitations as all other variables. If the eVar is a "counter," it is expected to receive numeric values like "1" or "2.5." If more than two decimal places are given, the eVar counter rounds to two decimal places. An eVar counter may not contain negative numbers.
 
-## Examples {#section_B37F4B0D56734DA3AB02BB218825BA4E}
+### Examples {#section_B37F4B0D56734DA3AB02BB218825BA4E}
 
 ```js
 s.eVar1="logged in"
@@ -357,7 +357,7 @@ s.eVar1="logged in"
 s.eVar23="internal spring promo 4"
 ```
 
-## Configuration Settings {#section_BD1FE63001C84D3DB69F3DEE243960B6}
+### Configuration Settings {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
 eVars can be configured in the [!DNL Admin Console]. All eVars can be configured with a [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Allocation], [!UICONTROL Expire After Setting], or [!UICONTROL Reset]. Each configuration setting is addressed separately. 
 
@@ -392,12 +392,12 @@ eVars can be configured in the [!DNL Admin Console]. All eVars can be configured
  </tbody> 
 </table>
 
-## Pitfalls, Questions, and Tips {#section_DA6912C802E445F986C6DE4234C6C737}
+### Pitfalls, Questions, and Tips {#section_DA6912C802E445F986C6DE4234C6C737}
 
 * Unlike [!UICONTROL prop] variables, eVar variables are not allowed to be lists of delimited values. If you populate an eVar with a list of values, for example "one,two,three," then that exact string appears in reports. 
 * eVar counters may not contain negative numbers.
 
-## Configure Events {#concept_FFD115543D54401B98FE683BD7D5B3FE}
+## Events {#concept_FFD115543D54401B98FE683BD7D5B3FE}
 
 The  variable is used to record common shopping cart success events as well as custom success events.
 
@@ -432,11 +432,11 @@ By default, success events are configured as *counter* events. Counter events co
 
 A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
 
-## Configuring the Variable {#section_9195286C34C54B02B2598E2B856492C3}
+### Configuring the Variable {#section_9195286C34C54B02B2598E2B856492C3}
 
 The [!UICONTROL s.events] variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the [!DNL Admin Console].
 
-## Possible Values {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
+### Possible Values {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
 The following is a list of possible values for the events variable: 
 
@@ -451,7 +451,7 @@ The following is a list of possible values for the events variable:
 |  purchase  | Completion of a purchase (order)  | Orders  |
 |  event1 - event1000 (event100 for point product)  | Custom events  | Custom Events  |
 
-## Syntax and Examples {#section_45A159DF00114066B8551DDEB15E084C}
+### Syntax and Examples {#section_45A159DF00114066B8551DDEB15E084C}
 
 Counter events are set by placing the desired events in the [!UICONTROL s.events] variable, in a comma-separated list (if multiple events are to be passed).
 
@@ -484,19 +484,19 @@ s.events="scRemove=3,event6,event2=4"
 Implementing counter events with assigned integer values treat the event as if it fired multiple times within the image request. Counter events do not allow decimals- it is recommended to use numeric events instead if this functionality is required. 
 Numeric and currency events must be included in the [!UICONTROL s.events] variable, though they typically receive their numerical value (e.g., 24.99) in the [!UICONTROL s.products] variable. This allows you to tie specific numeric and currency values to individual product entries.
 
-## Event Serialization {#section_A89488EF4471405AAFC4D6DD05E77621}
+### Event Serialization {#section_A89488EF4471405AAFC4D6DD05E77621}
 
 By default, an event is counted every time the event is set on your site.
 
 See [Event Serialization](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705) for more information.
 
-## Syntax {#section_8559D42D3F344AF3BB3C0125F78C4989}
+### Syntax {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
 ```js
 s.events="event1:3167fhjkah"
 ```
 
-## Examples {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
+### Examples {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
 
 ```js
 s.events="scAdd:003717174"
@@ -532,7 +532,7 @@ Make sure that none of your section names have the delimiter in them. For exampl
 
 Contact Adobe Customer Care about changing the delimiter for an existing hierarchy. Delimiters may also consist of multiple characters, such as || or /|\, which are less likely to appear in a hierarchy section.
 
-## Syntax and Possible Values {#section_0739948A68A2420DAB1CBEA3115A5A66}
+### Syntax and Possible Values {#section_0739948A68A2420DAB1CBEA3115A5A66}
 
 Do not put a space between each delimiter. In the following example syntax, N is a number between one and five.
 
@@ -542,7 +542,7 @@ s.hierN="Level 1[<delimiter>Level 2[<delimiter>Level 3[...]]]"
 
 Do not use the delimiter except to delimit the levels of the hierarchy. The delimiter may be any character or characters of your choice.
 
-## Examples {#section_38E0929F88DD45B6ACDF473DF155971D}
+### Examples {#section_38E0929F88DD45B6ACDF473DF155971D}
 
 ```js
 s.hier1="Toys|Boys 6+|Legos|Super Block Tub"
@@ -552,11 +552,11 @@ s.hier1="Toys|Boys 6+|Legos|Super Block Tub"
 s.hier4="Sports/Local Sports/Baseball"
 ```
 
-## Configuration Settings {#section_E823FB3CAD744D2480EBCE2DF9B134CC}
+### Configuration Settings {#section_E823FB3CAD744D2480EBCE2DF9B134CC}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_104E5BD320764BDEA5FA8D13A70C78E3}
+### Pitfalls, Questions, and Tips {#section_104E5BD320764BDEA5FA8D13A70C78E3}
 
 * The delimiter may not be changed after the hierarchy is set up. If the delimiter for your hierarchy must be changed, contact Adobe Customer Care. 
 * The number of levels may not be changed after the hierarchy is set up.
@@ -666,7 +666,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
 
 [!UICONTROL Custom Links] refer to links that send tracking data. The *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
 
-## Syntax and Possible Values {#section_C8D89834C98B4C7A858C947293C4148E}
+### Syntax and Possible Values {#section_C8D89834C98B4C7A858C947293C4148E}
 
 ```js
 s.linkName="Link Name"
@@ -674,7 +674,7 @@ s.linkName="Link Name"
 
 There are no limitations on *`linkName`* outside of the standard variable limitations.
 
-## Examples {#section_5F68766210184E82A23D2A6ECD80BA0B}
+### Examples {#section_5F68766210184E82A23D2A6ECD80BA0B}
 
 ```js
 s.linkName="Nav Bar Home Link"
@@ -684,11 +684,11 @@ s.linkName="Nav Bar Home Link"
 s.linkName="Partner Link to A.com"
 ```
 
-## Configuration Settings {#section_F15FF429FC274F708D50DF79D4668EA3}
+### Configuration Settings {#section_F15FF429FC274F708D50DF79D4668EA3}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_170A78452A7340B5B229713AC1FB71FA}
+### Pitfalls, Questions, and Tips {#section_170A78452A7340B5B229713AC1FB71FA}
 
 * The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function. 
 
@@ -729,7 +729,7 @@ Custom links send data to [!DNL Analytics]. The *`linkType`* variable (or the se
 
 For exit and download Links, the *`linkType`* variable is automatically populated depending on whether the link clicked is an exit or download link. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting *`linkType`* to 'o,' 'e,' or 'd,' the *`linkName`* or link URL is sent to the [!UICONTROL Custom Links], [!UICONTROL Exit Links], or [!UICONTROL File Downloads] report respectively.
 
-## Syntax and Possible Values {#section_18DB3A8083FB4F75B970055ED336DA4E}
+### Syntax and Possible Values {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
 The *`linkType`* variable syntax depends on whether you use XML or a query string.
 
@@ -741,7 +741,7 @@ s.tl(this,’o’,’Link Name’);
 
 If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
 
-## Examples {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
+### Examples {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
 
 ```js
 <a href="index.html" onClick=" 
@@ -751,11 +751,11 @@ If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `ln
 
 ```
 
-## Configuration Settings {#section_59738AD1B5E94294B8D36F4E772DEDB3}
+### Configuration Settings {#section_59738AD1B5E94294B8D36F4E772DEDB3}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_F0D01DDE3FDA486C987162DA50A79C45}
+### Pitfalls, Questions, and Tips {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
 * If *`linkType`* is not specified, custom links ('o') is assumed.
 
@@ -769,7 +769,7 @@ list_props.xml
 
  -->
 
-**Considerations**
+### Considerations
 
 * List props are enabled only on traffic variables ( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)). 
 * Pathing and correlations cannot be enabled for list props. 
@@ -781,7 +781,7 @@ list_props.xml
 
 A prop can be changed into a list prop on the Admin Tools > Report Suite > Traffic Variables page by enabling List Support and then selecting a delimiter. Popular delimiters are colons, semi-colons, commas, or pipes. The delimiter can technically be any of the first 127 ASCII characters.
 
-## Implementation Examples {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+### Implementation Examples {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
 
 When you request enabling of list props, indicate the delimiter that you would like to use. After the *`s.prop`* of your choice is enabled, multiple values can be set in the variable as shown in the following examples:
 
@@ -817,7 +817,7 @@ listN.xml
 
  -->
 
-Considerations:
+### Considerations:
 
 * List Vars remember their specific values by referencing the VisitorID cookie in the visitor's browser. 
 * A limit of 250 maximum values are stored at one time per visitor. If 250 values per visitor are exceeded, the latest 250 values are used. Expiration for these values is based on the configured expiration for the variable. 
@@ -829,7 +829,7 @@ Considerations:
 * If duplicate values are defined in the same image request, list vars deduplicate all instances of those values. 
 * The most granular list vars can be segmented is on a hit (or page view) level. If you have a list var with three values in the same image request, any segment rules that match one value will pull all three into reporting. Conversely, if an exclude rule is defined that matches a single value, all three values are excluded.
 
-## Configuration {#section_8CADFF581D2447518BA3F7F79B2D80A9}
+### Configuration {#section_8CADFF581D2447518BA3F7F79B2D80A9}
 
 You can access the configuration in the Admin Console and update it without Adobe Client Care having to get involved:
 
@@ -865,7 +865,7 @@ You can access the configuration in the Admin Console and update it without Adob
 
 To set up or edit List Vars, go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]** .
 
-## Implementation Examples {#section_564AFE6A2F524BFEB372EC0F7FEBA656}
+### Implementation Examples {#section_564AFE6A2F524BFEB372EC0F7FEBA656}
 
 Each of the following examples use a comma for the value delimiter.
 
@@ -935,13 +935,13 @@ maxDelay.xml
 
  -->
 
-**Implementation Example**
+### Implementation Example
 
 ```
 s.maxDelay="750";
 ```
 
-**Properties**
+### Properties
 
 * This variable is an optional event metric populated via the JavaScript implemented on your site. 
 * If the DFA host does not respond within the given amount of time, the event designated to Timeout runs (assigned via the Genesis integration wizard). 
@@ -988,7 +988,7 @@ mediaLength.xml
  </tbody> 
 </table>
 
-## Syntax and Possible Values {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
+### Syntax and Possible Values {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
 ** autoTrack Method: **
 
@@ -1008,7 +1008,7 @@ Possible Values:
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
 ```
 
-## Examples {#section_048B2D31BB584647A5D335AE94E5A599}
+### Examples {#section_048B2D31BB584647A5D335AE94E5A599}
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
@@ -1023,7 +1023,7 @@ Resulting pev3 parameter syntax: pev3= [Asset Name]--**--[Total length of asset]
 Possible pev3 values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media Player 11.0.5721.5230--**--288--**--1207893838--**--S0E0S0E256S0E32
 ```
 
-## Pitfalls, Questions, and Tips {#section_1CEDC78FEF4940E9BC02A2AF1EE2FB01}
+### Pitfalls, Questions, and Tips {#section_1CEDC78FEF4940E9BC02A2AF1EE2FB01}
 
 * You must call the media tracking methods only if the player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
 * If not tracking using [!UICONTROL autoTrack], be sure to set the length in seconds.
@@ -1044,7 +1044,7 @@ It is only available via the [!UICONTROL Data Insertion API] and [!UICONTROL Ful
 |---|---|---|---|
 |  64 KB  | pev3  | Videos; Next Video Flow; Previous Video Flow; Video Segments Viewed; Time Spent on Video  | None  |
 
-## Syntax and Possible Values {#section_F97A2253BBD24FEBBC225F233A319F5D}
+### Syntax and Possible Values {#section_F97A2253BBD24FEBBC225F233A319F5D}
 
 **autoTrack Method:**
 
@@ -1089,7 +1089,7 @@ s.Media.play("de_bofr_1045Making_400k", "414")
 s.Media.close("de_bofr_1045Making_400k")
 ```
 
-## Examples {#section_4B9584265B1A47289818141B2A88021D}
+### Examples {#section_4B9584265B1A47289818141B2A88021D}
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230") 
@@ -1120,7 +1120,7 @@ Possible pev3 Values:
   
 ```
 
-## Pitfalls, Questions, and Tips {#section_941A445BB52E4063B0F6920E61BB90DE}
+### Pitfalls, Questions, and Tips {#section_941A445BB52E4063B0F6920E61BB90DE}
 
 * You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
 * This variable is stored as a mySQL TEXT variable as opposed to VARCHAR(100).
@@ -1139,7 +1139,7 @@ mediaPlayer.xml
 |---|---|---|---|
 |  100 Bytes  | pev3  | Video Players  | None  |
 
-## Syntax and Possible Values {#section_EAA55A3A45B5405F903E3BE6ACAB143F}
+### Syntax and Possible Values {#section_EAA55A3A45B5405F903E3BE6ACAB143F}
 
 **autoTrack Method:**
 
@@ -1159,7 +1159,7 @@ Possible Values:
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
 ```
 
-## Examples {#section_64967E1333D542CCB6CF62F0A1E0EF88}
+### Examples {#section_64967E1333D542CCB6CF62F0A1E0EF88}
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
@@ -1173,7 +1173,7 @@ Resulting pev3 parameter syntax: pev3=[Asset Name]--**--[Total length of asset]-
 Possible pev3 Values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media Player 11.0.5721.5230--**--288--**--1207893838--**--S0E0S0E256S0E32
 ```
 
-## Pitfalls, Questions, and Tips {#section_0020E031338F4A4880B9AC5B9A85BEF5}
+### Pitfalls, Questions, and Tips {#section_0020E031338F4A4880B9AC5B9A85BEF5}
 
 You must call the media tracking methods only if player cannot be tracked using [!DNL s.Media.autoTrack] = true. 
 
@@ -1206,7 +1206,7 @@ mediaSession.xml
  </tbody> 
 </table>
 
-## Syntax and Possible Values {#section_9A63266633C4427CB4A6549E4D887B85}
+### Syntax and Possible Values {#section_9A63266633C4427CB4A6549E4D887B85}
 
 **autoTrack Method:**
 
@@ -1244,7 +1244,7 @@ s.Media.play("de_bofr_1045Making_400k", "0")
 s.Media.play("de_bofr_1045Making_400k", "414")
 ```
 
-## Examples {#section_3446EC37E017407FA3F43C9BDAEA0B85}
+### Examples {#section_3446EC37E017407FA3F43C9BDAEA0B85}
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230") 
@@ -1267,7 +1267,7 @@ Resulting pev3 parameter syntax: pev3=[Asset Name]--**--[Total length of asset]-
 Possible pev3 Values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media Player 11.0.5721.5230--**--288--**--1207893838--**--S0E0S0E256S0E32 
 ```
 
-## Pitfalls, Questions, and Tips {#section_1BCEB037AB724B6EBE87420BD3604B88}
+### Pitfalls, Questions, and Tips {#section_1BCEB037AB724B6EBE87420BD3604B88}
 
 You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
 
@@ -1287,17 +1287,17 @@ It is only applicable with JavaScript and [!UICONTROL ActionSource].
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | s.Media.trackEvents="None"  |
 
-## Syntax and Possible Values {#section_66A978EF56914BEAAE73359A268A1B4A}
+### Syntax and Possible Values {#section_66A978EF56914BEAAE73359A268A1B4A}
 
 Event names such as event1 or purchase.
 
-## Examples {#section_140A55D80EA24011954F9383CF312237}
+### Examples {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
 s.Media.trackEvents=”event1,purchase”
 ```
 
-## Pitfalls, Questions, and Tips {#section_030B11C64EE84D46A85CA550DB732D28}
+### Pitfalls, Questions, and Tips {#section_030B11C64EE84D46A85CA550DB732D28}
 
 Make sure to populate [!UICONTROL trackVars] with "events" whenever this variable is populated. 
 
@@ -1317,17 +1317,17 @@ It is only applicable with JavaScript and [!UICONTROL ActionSource].
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | s.Media.trackVars="None"  |
 
-## Syntax and Possible Values {#section_7374684A7EB34AE685E8C40A66CFD289}
+### Syntax and Possible Values {#section_7374684A7EB34AE685E8C40A66CFD289}
 
 Variable names such as [!UICONTROL propN], *`eVarN`*, *`events`*, *`channel`*, and so forth.
 
-## Examples {#section_48653222ABA14AB0A3C4471659971FAA}
+### Examples {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
 s.Media.trackVars=”prop2,events,eVar3”
 ```
 
-## Pitfalls, Questions, and Tips {#section_615AE1B696124B00B78F651B03813EAB}
+### Pitfalls, Questions, and Tips {#section_615AE1B696124B00B78F651B03813EAB}
 
 * Even if eVar3 is specified in [!UICONTROL trackVars], it is sent with the media hit.
 
@@ -1347,7 +1347,7 @@ See [Mobile network protocols](../../../implement/js-implementation/c-additional
 |---|---|---|---|
 |  N/A  | /5/ or /1/ in path of image url  | N/A  | None  |
 
-## Syntax and Possible Values {#section_7F1C58090C454882BA9D3D66C9263A76}
+### Syntax and Possible Values {#section_7F1C58090C454882BA9D3D66C9263A76}
 
 ```js
 s.mobile="any_string" //subscriber id used first, produces /5/ in path of image url 
@@ -1355,7 +1355,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 ```
 
-## Pitfalls, Questions, and Tips {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
+### Pitfalls, Questions, and Tips {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
 Use cross-visitor identification to mitigate possible spikes in visitor traffic when using the *`s.mobile`* variable with the JavaScript cookie implementation. 
 
@@ -1394,7 +1394,7 @@ Be careful not to allow new-line, -em or -en dashes, or any HTML characters to a
 
 If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page `www.mysite.com` and `mysite.com` are the same page with different URLs).
 
-## Syntax and Possible Values {#section_7A61EE70F1A84D26B414404998C84BA8}
+### Syntax and Possible Values {#section_7A61EE70F1A84D26B414404998C84BA8}
 
 The *`pageName`* variable should contain a useful identifier for business users of [!DNL Analytics].
 
@@ -1404,7 +1404,7 @@ s.pageName="page_name"
 
 There are no limitations on *`pageName`* outside of the standard variable limitations.
 
-## Examples {#section_8BB4F86F84E246A08B72DEC47FFC0765}
+### Examples {#section_8BB4F86F84E246A08B72DEC47FFC0765}
 
 ```js
 s.pageName="Search Results" 
@@ -1415,11 +1415,11 @@ s.pageName="Search Results"
 s.pageName="Standard Offer List"
 ```
 
-## Configuration Settings {#section_58CBC68C805344A999EB47455FEBA8D5}
+### Configuration Settings {#section_58CBC68C805344A999EB47455FEBA8D5}
 
 Administrators have the ability to change the visible page name in [!DNL Analytics] with the [!UICONTROL Name Pages] tool, which is potentially dangerous and may negatively affect your reports. Please contact Adobe [!DNL Customer Care] before using the [!UICONTROL Name Pages] tool.
 
-## Pitfalls, Questions, and Tips {#section_BB41DC9682C34385B9CAA80D5257C113}
+### Pitfalls, Questions, and Tips {#section_BB41DC9682C34385B9CAA80D5257C113}
 
 Make sure the *`pageName`* doesn't contain illegal characters. 
 
@@ -1458,7 +1458,7 @@ Do not use the page name variable on 404 error pages. The *`pageType`* variable 
 
 In most cases, the 404 Error page is a static page that is hard-coded. In these cases, it is important that the reference to the .JS file is set to an appropriate global or relative path/directory.
 
-## Syntax and Possible Values {#section_C1C59968226446559B05F6EE7374D525}
+### Syntax and Possible Values {#section_C1C59968226446559B05F6EE7374D525}
 
 The only allowable value of *`pageType`* is "errorPage" as shown below.
 
@@ -1466,17 +1466,17 @@ The only allowable value of *`pageType`* is "errorPage" as shown below.
 s.pageType="errorPage"
 ```
 
-## Examples {#section_6CE22FCB835B4A19B633B7F67E73A115}
+### Examples {#section_6CE22FCB835B4A19B633B7F67E73A115}
 
 ```js
 s.pageType="errorPage"
 ```
 
-## Configuration Settings {#section_3B304A6D3A6C48F2BE90B4DA92A39DDB}
+### Configuration Settings {#section_3B304A6D3A6C48F2BE90B4DA92A39DDB}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_943681AB01FE47BEAC72E93CB60C53C8}
+### Pitfalls, Questions, and Tips {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
 To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server. 
 
@@ -1515,7 +1515,7 @@ In rare cases, the URL of the page is not the URL that you would like reported i
 >
 >Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
 
-## Syntax and Possible Values {#section_22AF3BF7C2F743549967B0C760A095C0}
+### Syntax and Possible Values {#section_22AF3BF7C2F743549967B0C760A095C0}
 
 The *`pageURL`* variable must be a valid URL, with a valid protocol. The domain will be forced to display in lower-case before being populated in reports, and the query string may be stripped, depending on [!DNL Analytics] settings.
 
@@ -1529,7 +1529,7 @@ Only URL-compatible characters are allowed as the page URL.
 >
 >It is strongly advised that you contact your Adobe consultant or [!DNL Customer Care] before using the *`pageURL`* variable for custom purposes.
 
-## Examples {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
+### Examples {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
 ```js
 s.pageURL="https://mysite.com/home.jsp?id=1224" 
@@ -1540,7 +1540,7 @@ s.pageURL="https://mysite.com/home.jsp?id=1224"
 s.pageURL="https://www.mysite.com/"
 ```
 
-## Configuration Settings {#section_A8F77DAD88164528ACC5C16C066B47DF}
+### Configuration Settings {#section_A8F77DAD88164528ACC5C16C066B47DF}
 
 None 
 
@@ -1578,7 +1578,7 @@ products.xml
 
 >[!IMPORTANT]
 >
->We updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. This update may cause an increase in *`prodView`* events. *`prodViews`* will increase only when: 
+>In January of 2016, we updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. This update may cause an increase in *`prodView`* events. *`prodViews`* will increase only when: 
 >
 >1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events. 
 >
@@ -1609,7 +1609,7 @@ The *`products`* variable should always be set in conjunction with a success eve
  </tbody> 
 </table>
 
-## Syntax of the Products Variable {#section_ABA3682985E540E6AA67A510176CCFFC}
+### Syntax of the Products Variable {#section_ABA3682985E540E6AA67A510176CCFFC}
 
 ```js
 "Category;Product;Quantity;Price;eventN=X[|eventN2=X2];eVarN=merch_category[|eVarN2=merch_category2]"
@@ -1626,15 +1626,15 @@ The *`products`* variable should always be set in conjunction with a success eve
 
 The values included in the *`products`* variable are based on the type of event you are recording. The category/product delimiter (;) is required as a place holder when omitting Category. Other delimiters are required only if they are necessary to distinguish which parameter you are including, as shown in the examples on this page.
 
-## Setting products with Non-Purchase Events {#section_D5E689D4AAE941EC851CA9B98328A4DE}
+### Setting products with Non-Purchase Events {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
 The *`products`* variable must be set in conjunction with a success event.
 
-## Setting products with a Purchase Event {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
+### Setting products with a Purchase Event {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
 
 The *`purchase`* event should be set on the final confirmation ("Thank You!") page of the order process. The product name, category, quantity, and price are all captured in the *`products`* variable. Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
 
-## Product-Specific Currency Events {#section_F814DF053C0D463A97DA039E6323720C}
+### Product-Specific Currency Events {#section_F814DF053C0D463A97DA039E6323720C}
 
 If a currency event receives a value in the *`products`* variable instead of the events variable, it applies only to that value. This is useful to track product-specific discounts, product shipping, and similar values. For example, if you configured event 1 to track product shipping, a product with a "4.50" shipping charge might appear similar to the following:
 
@@ -1645,7 +1645,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 In this example, the value of 4.50 is associated directly with the "Running Shoes" product. If you add event1 to the products report, you'll see "4.50" listed for the "Running Shoes" line item. Similar to Price, this value should reflect the total for the quantity listed. If you have 2 items with a 4.50 shipping charge each, event1 should be "9.00".
 
-## Order-Wide Currency Events {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
+### Order-Wide Currency Events {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
 
 If a currency event receives a value in the events list instead of the *`products`* variable, it applies to all products in the *`products`* variable. This is useful to track order-wide discounts, shipping, and similar values, without modifying the product price or by tracking it in the product list separately.
 
@@ -1663,9 +1663,9 @@ On currency event reports, the report total represents the de-duplicated event t
 >
 >if a value for the same Numeric/Currency Event is specified in the *`products`* variable and in the *`events`* variable, the value from the *`events`* is used.
 
-## Setting products with Merchandising eVars {#section_A3B94C65B3EF4389AB00267D2F2688A1}
+### Setting products with Merchandising eVars {#section_A3B94C65B3EF4389AB00267D2F2688A1}
 
-## Pitfalls, Questions, and Tips {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
+### Pitfalls, Questions, and Tips {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
 * The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). If no [!UICONTROL success] event is specified, the default event is [!UICONTROL prodView]. 
 
@@ -1673,7 +1673,7 @@ On currency event reports, the report total represents the de-duplicated event t
 * Strip all HTML characters (registered symbols, trademarks, and so forth). 
 * Strip currency symbols ($) from the price.
 
-## Examples {#section_FCC6EF43D3534ECB9A95CDB05820F564}
+### Examples {#section_FCC6EF43D3534ECB9A95CDB05820F564}
 
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
@@ -1735,7 +1735,7 @@ The props variable may be used as counters (to count the number of times a page 
 |---|---|---|---|
 |  100 bytes  | c1-c75  | Custom Traffic  | ""  |
 
-## Syntax and Possible Values {#section_4D3013AF2979426B9589CA2BB9D254CD}
+### Syntax and Possible Values {#section_4D3013AF2979426B9589CA2BB9D254CD}
 
 ```js
 s.propN="value"
@@ -1743,7 +1743,7 @@ s.propN="value"
 
 There are no limitations on [!UICONTROL property] variables outside of the standard variable limitations.
 
-## Examples {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+### Examples {#section_FFBB916DA9F44B668D5FAB7C511F6182}
 
 ```js
 s.prop2="editorial" 
@@ -1754,7 +1754,7 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-## Configuration Settings {#section_25FDEB6ECA8242A2A44EE540C083078A}
+### Configuration Settings {#section_25FDEB6ECA8242A2A44EE540C083078A}
 
 Contact Adobe [!DNL Customer Care] about showing [!UICONTROL Visit], [!UICONTROL Visitor], and [!UICONTROL Path] metrics for [!UICONTROL prop] variables. 
 
@@ -1778,7 +1778,7 @@ When a visitor purchases an item from your site, *`purchaseID`* is populated on 
 
 In addition to keeping the purchase data from being counted twice, the *`purchaseID`*, when used, keeps all conversion data from being double counted in reports.
 
-## Syntax and Possible Values {#section_E352CE2370D54BA69A368E1F63A9C32D}
+### Syntax and Possible Values {#section_E352CE2370D54BA69A368E1F63A9C32D}
 
 ```js
 s.purchaseID="unique_id"
@@ -1786,18 +1786,18 @@ s.purchaseID="unique_id"
 
 The *`purchaseID`* must be 20 characters or fewer, and be standard ASCII.
 
-## Examples {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
+### Examples {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
 
 ```js
 s.purchaseID="11223344" 
 s.purchaseID="a8g784hjq1mnp3"
 ```
 
-## Configuration Settings {#section_1808631C96674380BF9C4A6D9A2C568E}
+### Configuration Settings {#section_1808631C96674380BF9C4A6D9A2C568E}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_F5D010F234ED43F19AD1FCD2CD64E060}
+### Pitfalls, Questions, and Tips {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
 The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports. 
 
@@ -1821,7 +1821,7 @@ Many companies use redirects in many places throughout their websites. For examp
 
 For [!DNL Analytics] to record a referrer, it must be "well formed," meaning that it must follow the standard URL format, with a protocol and appropriate location.
 
-## Syntax and Possible Values {#section_A0365D76789C4F4A959E81FE5A9D491D}
+### Syntax and Possible Values {#section_A0365D76789C4F4A959E81FE5A9D491D}
 
 ```js
 s.referrer="URL"
@@ -1829,7 +1829,7 @@ s.referrer="URL"
 
 Only URL-compatible values should be in the *`referrer`*. Make sure the string is URL encoded (no spaces).
 
-## Examples {#section_86FB1577670C4AA18BF3718F0832FCD4}
+### Examples {#section_86FB1577670C4AA18BF3718F0832FCD4}
 
 ```js
 s.referrer="https://www.google.com/search?q=search+string" 
@@ -1839,11 +1839,11 @@ s.referrer=s.getQueryParam('ref')
 
 ```
 
-## Configuration Settings {#section_7AAEF28A7CBC446984F32C0659EFBF8D}
+### Configuration Settings {#section_7AAEF28A7CBC446984F32C0659EFBF8D}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_B42BF7FBA1094FF9805707FEA810CFE1}
+### Pitfalls, Questions, and Tips {#section_B42BF7FBA1094FF9805707FEA810CFE1}
 
 The *`referrer`* must look like a standard URL and include a protocol. 
 
@@ -1895,15 +1895,15 @@ There are three common reasons to use *`s_objectID`*:
 * To separate link activity that [!UICONTROL Activity Map] combines. 
 * To improve the accuracy of [!UICONTROL Activity Map] data reporting.
 
-## Aggregate Clicks on Highly Dynamic Links {#section_BA730A0393B149DDBCAA272C3C23A1C5}
+### Aggregate Clicks on Highly Dynamic Links {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
 If your site is highly dynamic, and links on some pages change throughout the day, *`s_objectID`* may used to identify the location of a link on the page. If *`s_objectID`* is set to "top left 1" or "top left 2," which represents the first link in the top left of the page for example, then all links that appear in that location (or that have *`s_objectID`* set to the same value) are reported together with visitor click map. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
 
-## Separate Clicks Combined {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
+### Separate Clicks Combined {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
 If the *`pageName`* variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use *`s_objectID`* to separate links that appear on multiple versions of that page template. For example, if you have a template page for all products on your site, it is likely that there is a link to your home page and to a search box from that template on all pages. If you want to see how those links are used on an individual product basis (rather than a template basis), you can populate *`s_objectID`* with a product specific value such as "prod 123789 home page" or "prod 123789 search." Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-## Improving [!UICONTROL Activity Map] Accuracy {#section_08B3406821294DCCABEEB99C90CF5C52}
+### Improving [!UICONTROL Activity Map] Accuracy {#section_08B3406821294DCCABEEB99C90CF5C52}
 
 In some cases, browsers other than Internet Explorer, Firefox, Netscape, Opera, and Safari are not reported. Although this is a small percentage, it accounts for some clicks and other metrics. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. The following is an example of how to update your links to use *`s_objectID`*:
 
@@ -1913,7 +1913,7 @@ In some cases, browsers other than Internet Explorer, Firefox, Netscape, Opera, 
 
 ```
 
-## Syntax and Possible Values {#section_85841DF9F06A4680953D9B2A884A1A5A}
+### Syntax and Possible Values {#section_85841DF9F06A4680953D9B2A884A1A5A}
 
 s_objectID may contain any text identifier.
 
@@ -1924,7 +1924,7 @@ s_objectID="unique_id"
 
 There are no limitations on *`s_objectID`* outside of the standard variable limitations.
 
-## Examples {#section_33F119D532CA4ACAA3426253C42030BB}
+### Examples {#section_33F119D532CA4ACAA3426253C42030BB}
 
 ```js
 s_objectID="top left 2" 
@@ -1935,7 +1935,7 @@ s_objectID="top left 2"
 s_objectID="prod 123789 search"
 ```
 
-## Configuration Settings {#section_95396657D55B41ECB66B83D0534EA827}
+### Configuration Settings {#section_95396657D55B41ECB66B83D0534EA827}
 
 None 
 
@@ -1967,7 +1967,7 @@ s.server="server 14"
 
 While the [!UICONTROL Most Popular Servers] report may be used as a load balancing quick reference, it is not a precise measure of server load. For example, back-button traffic does not increase server load, but is shown in reports. The report does not show which servers are serving images or large downloads.
 
-## Syntax and Possible Values {#section_48E4B9BFEBFF4409A246D86EC0C0FB13}
+### Syntax and Possible Values {#section_48E4B9BFEBFF4409A246D86EC0C0FB13}
 
 ```js
 s.server="server_name"
@@ -1975,7 +1975,7 @@ s.server="server_name"
 
 There are no limitations on the *`server`* variable outside of the standard variable limitations.
 
-## Examples {#section_78B9EE3C27FB491384869E3D0BD503D6}
+### Examples {#section_78B9EE3C27FB491384869E3D0BD503D6}
 
 ```js
 s.server="server 18" 
@@ -1983,11 +1983,11 @@ s.server=window.location.hostname
 
 ```
 
-## Configuration Settings {#section_969DB379D5BD469FBEE8D505D3000E49}
+### Configuration Settings {#section_969DB379D5BD469FBEE8D505D3000E49}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_42A28F9B01574F38891D9D54B411D8FE}
+### Pitfalls, Questions, and Tips {#section_42A28F9B01574F38891D9D54B411D8FE}
 
 The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages. 
 
@@ -2009,7 +2009,7 @@ They are like eVars in that they capture events, but unlike eVars, they don't pe
 
 Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. For conversion sites, Adobe recommends using the billing address as the source for the Zip Code, but you may choose to use the shipping address instead (assuming there is only one shipping address for the order). A media site may choose to use *`zip`* and *`state`* for registration or ad click-through tracking.
 
-## Syntax and Possible Values {#section_EDD1F5F9EDBC457898E61695F08C1744}
+### Syntax and Possible Values {#section_EDD1F5F9EDBC457898E61695F08C1744}
 
 ```js
 s.state="state"
@@ -2017,7 +2017,7 @@ s.state="state"
 
 The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
 
-## Examples {#section_D181B163F79A41D199CA4C70765E583F}
+### Examples {#section_D181B163F79A41D199CA4C70765E583F}
 
 ```js
 s.state="california" 
@@ -2028,11 +2028,11 @@ s.state="california"
 s.state="prince edward island"
 ```
 
-## Configuration Settings {#section_DB0D6DC3F4764AC59C11B10D27D2806C}
+### Configuration Settings {#section_DB0D6DC3F4764AC59C11B10D27D2806C}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_02F1620D0BB14AA6A838966FDB9A234F}
+### Pitfalls, Questions, and Tips {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
 * Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process). 
 * The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
@@ -2051,7 +2051,7 @@ timestamp.xml
 |---|---|---|---|
 |  4 bytes  | Date/Time  | Not reported directly.  | Set by data collection servers.  |
 
-## Syntax {#section_1DF752B1202C4412A301AC7CC10874DF}
+### Syntax {#section_1DF752B1202C4412A301AC7CC10874DF}
 
 ```js
 s.timestamp="UNIX or ISO-8601 format timestamp"
@@ -2067,7 +2067,7 @@ The *`timestamp`* variable must be in the format explained in the next section.
 >
 >You can also use the [Timestamps Optional](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)setting to mix timestamped and non-timestamped data in the same global report suite, send timestamped data from a mobile app to a global report suite, and upgrade apps to employ timestamps without having to create a new report suite.
 
-## Timestamp Formats {#section_C12CBCECCD7047D38EF63A5800761CE9}
+### Timestamp Formats {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
 Timestamps must be in UNIX (seconds since Jan 1st 1970) or ISO-8601 format, with the following restrictions on the accepted ISO-8601 format:
 
@@ -2079,7 +2079,7 @@ Timestamps must be in UNIX (seconds since Jan 1st 1970) or ISO-8601 format, with
 
 UNIX timestamps continue to be supported (seconds since Jan 1st 1970).
 
-## Examples {#section_FA19C53D70DE4CF2AF259A5B968B84C3}
+### Examples {#section_FA19C53D70DE4CF2AF259A5B968B84C3}
 
 ```js
 s.timestamp=Math.round((new Date()).getTime()/1000);
@@ -2098,11 +2098,11 @@ The following list contains examples of valid ISO-8601 format timestamps:
 2013-01-01T12:30
 ```
 
-## Configuration Settings {#section_5275D206F2CB4009B3681E8C4457124A}
+### Configuration Settings {#section_5275D206F2CB4009B3681E8C4457124A}
 
 A report suite must be enabled to accept custom timestamps by Customer Care before you can use this variable. After custom timestamps are enabled, all hits sent to the report suite must contain a timestamp or they are discarded.
 
-## Pitfalls, Questions, and Tips {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
+### Pitfalls, Questions, and Tips {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Timestamps are primarily used to track offline data on mobile platforms. Custom timestamps are typically disabled unless you are collecting both web and offline app data in the same report suite. 
 * Data is timestamped when offline data is enabled in the mobile SDK (default setting) or anytime a report suite is configured to accept time-stamped data. Data collected offline on mobile devices may be sent hours or weeks after the date when it happened. These hits may be queued within the Analytics platform for minutes or hours longer than hits without timestamps:
@@ -2163,7 +2163,7 @@ Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!U
 |---|---|---|---|
 |  100 bytes  | xact  | n/a  | ""  |
 
-## Enabling Transaction ID Storage {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+### Enabling Transaction ID Storage {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
 Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. This setting is located at 
 
@@ -2177,7 +2177,7 @@ To see whether *`transactionID Storage`* is enabled for a report suite, go to
 Analytics > Admin > Data Sources > Manage
 ```
 
-## Syntax and Possible Values {#section_0C18329203DC45E989DBAE70C0FB4801}
+### Syntax and Possible Values {#section_0C18329203DC45E989DBAE70C0FB4801}
 
 ```js
 s.transactionID="unique_id"
@@ -2185,7 +2185,7 @@ s.transactionID="unique_id"
 
 The *`transactionID`* should contain only alphanumeric characters. If multiple [!UICONTROL transactionIDs] should be recorded in a single hit, you can use a comma to delimit multiple values.
 
-## Examples {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
+### Examples {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
 
 ```js
 s.transactionID="11123456"
@@ -2199,7 +2199,7 @@ s.transactionID="lead_12345xyz"
 s.transactionID=s.purchaseID
 ```
 
-## Pitfalls, Questions, and Tips {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
+### Pitfalls, Questions, and Tips {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
 * If *`transactionID`* recording is not enabled, *`transactionID`* values will be discarded and unavailable for use with [!UICONTROL Integration Data Sources]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*. 
 
@@ -2231,7 +2231,7 @@ This is the order of use: s.visitorID > s_vi > s_fid > IP/UA.
 |---|---|---|---|
 |  100 bytes  | vid  | n/a  | ""  |
 
-## Syntax and Possible Values {#section_5F768C7AE6824557997E92B295C09280}
+### Syntax and Possible Values {#section_5F768C7AE6824557997E92B295C09280}
 
 ```js
 s.visitorID="visitor_id"
@@ -2241,13 +2241,13 @@ s.visitorID="visitor_id"
 >
 >The *`visitorID`* variable should not contain a hyphen.
 
-## Examples {#section_F7F07FEFAC3644A5A084D166ACE1315E}
+### Examples {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
 ```js
 s.visitorID="abc123"
 ```
 
-## Configuration Settings {#section_582B376FE55C4BCA8F978E0F62B5DB54}
+### Configuration Settings {#section_582B376FE55C4BCA8F978E0F62B5DB54}
 
 None 
 
@@ -2271,7 +2271,7 @@ If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter 
 
 The reason for using the *`visitorNamespace`* variable is to avoid the possibility of overloading a browser's cookie limit. Internet Explorer imposes a limit of 20 cookies per domain. By using the *`visitorNamespace`* variable, other companies' [!DNL Analytics] cookies will not conflict with your visitors' cookies.
 
-## Syntax and Possible Values {#section_EE247FE371784CA4B6058182181F3EA1}
+### Syntax and Possible Values {#section_EE247FE371784CA4B6058182181F3EA1}
 
 The value of *`visitorNamespace`* must be provided by Adobe and is a string of ASCII characters that don't contain commas, periods, spaces, or special characters.
 
@@ -2279,11 +2279,11 @@ The value of *`visitorNamespace`* must be provided by Adobe and is a string of A
 s.visitorNamespace="company_specific_value"
 ```
 
-## Visitor Identification across Report Suites {#section_7AC5A97FC8C045DD8850245A62BB09F4}
+### Visitor Identification across Report Suites {#section_7AC5A97FC8C045DD8850245A62BB09F4}
 
 If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. If you specify `visitorNamespace`, the same `s_vi` cookie will be used for all report suites that send data to the specified `trackingServer`. If you have implemented multi-suite tagging, make sure you specify the visitor namespace so the same cookie is used by each report suite.  
 
-## Examples {#section_89A95852AB9446E794AD3283B8800B09}
+### Examples {#section_89A95852AB9446E794AD3283B8800B09}
 
 ```js
 s.visitorNamespace="company_name"
@@ -2293,7 +2293,7 @@ s.visitorNamespace="company_name"
 s.visitorNamespace="Adobe"
 ```
 
-## Configuration Settings {#section_1128A2531ECC43DFA6749ECC21F050A2}
+### Configuration Settings {#section_1128A2531ECC43DFA6749ECC21F050A2}
 
 None 
 
@@ -2315,7 +2315,7 @@ They are like eVars in that they capture events, but unlike eVars, they don't pe
 
 Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. Adobe recommends using the billing address as the source for the Zip Code. You may choose to use the shipping address instead (assuming there is only one shipping address for the order). A media site may choose to use *`zip`* and *`state`* for registration or ad click-through tracking.
 
-## Syntax and Possible Values {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
+### Syntax and Possible Values {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
 ```js
 s.zip="zip_code"
@@ -2323,7 +2323,7 @@ s.zip="zip_code"
 
 The *`zip`* variable does not impose any value or format restrictions. There are no limitations on *`zip`* outside of the standard variable limitations.
 
-## Examples {#section_F25C0D0CC3C04B81892A662CD605C593}
+### Examples {#section_F25C0D0CC3C04B81892A662CD605C593}
 
 ```js
 s.zip="92806"
@@ -2333,11 +2333,11 @@ s.zip="92806"
 s.zip="92806-4115"
 ```
 
-## Configuration Settings {#section_7987084EECC34DD38B643B94F82385CA}
+### Configuration Settings {#section_7987084EECC34DD38B643B94F82385CA}
 
 None
 
-## Pitfalls, Questions, and Tips {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
+### Pitfalls, Questions, and Tips {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
 * Populate [!UICONTROL zip]on every page in which a relevant event is fired (such as each page of the checkout process). 
 * The *`zip`* and *`state`* variables act like eVars that expire on the Page View.

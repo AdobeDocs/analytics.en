@@ -10,24 +10,25 @@ uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 
 Lists current and previous releases and their features.
 
-* [Report Builder 5.6](../../analyze/report-builder/whats-new-arb.md#concept_62D436996B604A1BAE3B61D8FFCEE3AE) 
-* [Report Builder 5.5](../../analyze/report-builder/whats-new-arb.md#concept_BED5D0A139CC478F842E0A0C1CC15543) 
-* [Report Builder 5.4](../../analyze/report-builder/whats-new-arb.md#concept_74434111954D4352924AB69E963196A0) 
-* [Report Builder 5.3](../../analyze/report-builder/whats-new-arb.md#concept_9037E13EC3D24283A67CF0669BF91028) 
-* [Report Builder 5.2](../../analyze/report-builder/whats-new-arb.md#concept_9E6C366559604C0498AF1FB3C0AF7ABE)
+## Report Builder 5.6
 
 **Edit Metrics across Multiple Requests**
 
 The Edit Multiple Metrics feature lets you easily add, remove, or replace metrics in a pre-existing group of requests.
 
 For more information, see [Edit Metrics Across Multiple Requests](../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB). 
-**Publishing to Power BI with Report Builder 5.5**
+
+## Report Builder 5.5
+
+**Publish to Power BI with Report Builder 5.5**
 
 Microsoft Power BI is a suite of business analytics dashboards to analyze data and share insights. The Adobe Analytics integration with Power BI lets you visualize Report Builder Analytics data within Microsoft Power BI and easily share it across your organization.
 
 Previously you, as an Analyst, would schedule Report Builder workbooks to be disseminated via email (or ftp). You can now give your business user stakeholders access (from within their Power BI accounts) to accurate and up-to-date data in a web-based environment that is accessible across platforms and devices.
 
 Combining the report-generation capability of Report Builder with the visualization features of Power BI makes information more accessible to everyone in your organization. With Power BI, you can also integrate Adobe Analytics with other data sources (e.g. point of sale, CRM) to discover unique customer insights, associations, and opportunities. [More...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
+
+## Report Builder 5.4
 
 * **Better management and editing of segments across multiple requests.** New options under [!UICONTROL Edit Multiple Requests] let you add, remove, replace, and replace all segment(s) within multiple target requests. [More...](../../analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93) 
 
@@ -39,9 +40,13 @@ Combining the report-generation capability of Report Builder with the visualizat
 
 * **Enhanced login security** In addition to a [new login screen](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), the Standard Report Builder login features a more secure authentication process, based on the OAuth authorization framework.
 
+## Report Builder 5.3
+
 * [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) 
 * [Experience Cloud Audiences in Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html) 
 * [AEM Assets Reporting](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
+
+## Report Builder 5.2
 
 * **Calculated Metrics** Report Builder 5.2 supports Adobe Analytics [Unified Calculated Metrics](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite. 
 

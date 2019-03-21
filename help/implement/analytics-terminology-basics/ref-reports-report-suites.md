@@ -31,9 +31,9 @@ You can run an *Analytics report* after implementing Adobe Analytics. Reporting 
 
 High-level report types include:
 
-* ** [Traffic](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html):** Gives you in-depth insight into how visitors interact with your website, and your customized traffic statistics. 
-* ** [Conversion](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html):** Displays information about success indicators that you define. 
-* ** [Paths](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html):** Enable you to track and record entire browsing paths of visitors.
+* [Traffic](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html): Gives you in-depth insight into how visitors interact with your website, and your customized traffic statistics. 
+* [Conversion](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html): Displays information about success indicators that you define. 
+* [Paths](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html): Enable you to track and record entire browsing paths of visitors.
 
 You can use [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) to remove the typical limitations of a single Analytics report. It provides a robust, flexible canvas for building custom analysis projects. Drag-and-drop any number of data tables, visualizations, and components (dimensions, metrics, segments, and time granularities) to a project. Instantly create breakdowns and segments, create cohorts for analysis, create alerts, create segments, and curate reports for sharing with anyone in your business. 
 

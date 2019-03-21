@@ -22,6 +22,10 @@ Data Warehouse can process an unlimited number of rows in a single request for i
 >
 >Data Warehouse reports the first value encountered in the reporting period.
 
+>[!IMPORTANT]
+>
+>When segmenting on classified values, Analysis Workspace and Data Warehouse treat 'unspecified' values differently. 'Unspecified' in Workspace refers to values that are not classified, whereas 'Unspecified' in Data Warehouse refers to values that you classified as "Unspecified".
+
 ## Data Warehouse Requests Descriptions {#section_F21C78ED36884C389C852E876AF5CDE8}
 
 This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab. 

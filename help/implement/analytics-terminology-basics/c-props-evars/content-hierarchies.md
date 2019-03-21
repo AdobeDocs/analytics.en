@@ -13,7 +13,7 @@ uuid: d41df92d-65fb-44de-bf46-8fac24303dad
 
 A common usage of content hierarchies is to show the different paths visitors have taken from a certain page, level, and so forth.
 
-*** How should I track my [!UICONTROL content hierarchy]?* **
+**How should I track my [!UICONTROL content hierarchy]?**
 
 You must first understand the reporting requirements for tracking [!UICONTROL content hierarchies]. If the requirements for tracking the hierarchy are very detailed, often times the hierarchy ( *`hier`*) variable is recommended. Hierarchies usually require a strict, predefined taxonomy where the same child node rarely lives under multiple parent nodes. Consider the following example:
 

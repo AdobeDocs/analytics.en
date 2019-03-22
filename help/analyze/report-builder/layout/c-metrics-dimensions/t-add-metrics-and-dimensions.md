@@ -51,7 +51,7 @@ Steps to add metrics and dimensions to a request.
 
        On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. When you drop a dimension to the layout grids, it is removed from the tree view and recalculates the list of remaining dimensions available.
 
-       The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (See [Configure Report Dates](../../../../analyze/report-builder/data-requests/configuring-report-dates/configuring-report-dates.md#concept_4419F6B0BC274DC7A07086DA56703DFE).) Valid values are:
+       The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (Valid values are:
 
     * Hour 
     * Day 

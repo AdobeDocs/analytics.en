@@ -94,7 +94,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
         + [Set up actions for the condition to trigger](c-implement-with-dtm/c-rules/t-rules-actions.md)
         + [Test unpublished rules for Akamai hosting](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
         + [Test rules for library download or FTP](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
-+ [Implement Analytics using JavaScript {#javascript-implementation}
++ Implement Analytics using JavaScript {#javascript-implementation}
     + [JavaScript implementation overview](js-implementation/javascript-implementation-overview.md)
     + [Example page code and global configuration](js-implementation/appmeasure-mjs-pagecode.md)
     + AppMeasurement for JavaScript {#appmeasurement-js}

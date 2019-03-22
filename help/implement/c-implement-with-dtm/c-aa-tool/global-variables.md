@@ -16,7 +16,7 @@ These variables fire on all page load rule beacons. You can accomplish the same 
 
 ## Global Variables - Field Descriptions {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL  `Property`]** > **[!UICONTROL   ![](assets/settings_gear.png) Edit Tool]** > **[!UICONTROL Global Variables]** 
+ **[!UICONTROL _Property_]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Global Variables]** 
 
 <table id="table_04BEB6895A4F4D46A2F0B202179173AF"> 
  <thead> 

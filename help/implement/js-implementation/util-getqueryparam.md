@@ -38,7 +38,7 @@ s.Util.getQueryParam(key, [url], [delim])
 
 **Returns:**
 
-This function returns the value of the query-string variable or an empty string if it's not found.
+The function will return an empty string "" if no key is supplied, or if none of the URL options exists, or if the key is not found in the URL. If a fragment delimiter # is found in the URL, everything following the fragment delimiter is not considered. If the key exists and is assigned to a value, the value is URL decoded and returned.
 
 **Example:**
 

@@ -51,25 +51,25 @@ s_kwcid=AL!
 
 Examples of tracking codes in various tracking template formats: 
 
-#### `{lpurl}` 
+**`{lpurl}`**
 
 ```
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-#### `{lpurl}` with additional URL parameter 
+**`{lpurl}` with additional URL parameter**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-#### 3rd-party (DoubleClick) `{unescapedlpurl}` 
+**3rd-party (DoubleClick) `{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-#### 3rd-party (DoubleClick) `{lpurl}` 
+**3rd-party (DoubleClick) `{lpurl}`**
 
 If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.
 
@@ -95,25 +95,25 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 Examples of tracking codes in various tracking template formats: 
 
-#### {lpurl} 
+**{lpurl}**
 
 ```
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
 ```
 
-#### `{lpurl}` with additional URL parameter
+**`{lpurl}` with additional URL parameter**
 
 ```
 {lpurl}?campaign=PPC&
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-#### 3rd-party (DoubleClick) `{unescapedlpurl}
+**3rd-party (DoubleClick) `{unescapedlpurl}**
 
 ```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-#### 3rd-party (DoubleClick) `{lpurl}` 
+**3rd-party (DoubleClick) `{lpurl}`**
 
 If the URL goes through a redirect and is not using an “unescapedlpurl” value, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.
 
@@ -138,24 +138,24 @@ s_kwcid=AL!
 
 **Examples of tracking codes in various destination URL formats:** 
 
-#### Landing page URL example
+**Landing page URL example**
 
 `https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}`
 
-#### Landing page URL with additional URL parameter example
+**Landing page URL with additional URL parameter example**
 
 ```
 https://www.website.com?campaign=PPC&
 s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
 ```
 
-#### 3rd-party (DoubleClick) landing page example
+**3rd-party (DoubleClick) landing page example**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url= https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
 ```
 
-#### Redirect
+**Redirect**
 
 If the URL goes through a redirect, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.
 

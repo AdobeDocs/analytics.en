@@ -16,4 +16,4 @@ Classification breakdowns are used to map analytics reporting data to related pr
 
 You access classifications in the same way you access the other reports of a report suite, and the dimensions are displayed as a top-level report within the group. If a report has classifications, a menu subgroup is created to collect the report and all its classifications in the same location. The report displays as the last entry in the list among the classifications.
 
-See [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference Help for information about how Reports and Analytics uses classifications. 
+See [Classifications](/help/components/c-classifications2/c-classifications.md). 

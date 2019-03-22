@@ -25,6 +25,8 @@ You can schedule reports to send according to the time and file format that you 
 
 1. In the [!UICONTROL Basic Scheduling Wizard], configure the following options:
 
+* **Select Report**: The name of the report. For new scheduled reports, this field is populated with the active workbook name.
+
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
   <tr> 

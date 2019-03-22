@@ -16,10 +16,10 @@ For reports with correlation breakdowns enabled within the report table, you can
 
 >[!NOTE]
 >
->You can also add breakdown request while creating the original request. See [Create a Data Request](../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C).
+>You can also add breakdown request while creating the original request. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >
 >Adobe Report Builder enforces request dependencies only within the same worksheet, not across worksheets. Restricting to dependencies within a single worksheet ensures timeliness of execution.
 
-See [Breakdown Reports](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=breakdown) in Analytics Reference Help. 
+See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md). 

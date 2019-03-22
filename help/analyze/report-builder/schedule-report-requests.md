@@ -14,7 +14,7 @@ You can schedule report requests, specify advanced delivery options, specify rec
 
 For example, you can schedule reports to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a report upload.
 
-Additionally, after you create a report schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Report%20Schedule%20and%20Distribution) in Reports & Analytics help.)
+Additionally, after you create a report schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports & Analytics help.)
 
 >[!NOTE]
 >

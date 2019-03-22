@@ -16,7 +16,7 @@ As a non-Admin user, you may have previously created workbooks with requests tha
 
 For example, if you refresh a request that includes dimensions or metrics to which you have no access, you will get a Restricted Permission Error:
 
-![](assets/arb_restrc_perm.jpeg)
+![](assets/arb_restrc_perm.png)
 
 Follow these instructions for **each** Report Builder workbook that you maintain:
 

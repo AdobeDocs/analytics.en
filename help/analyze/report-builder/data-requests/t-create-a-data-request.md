@@ -33,12 +33,3 @@ Steps to create a basic data request.
    The [dimensions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=dimensions) available in Step 2 depend on the base report you selected in Step 1, and on the configuration of your report suite. The dimensions are items that correlate, sub-relate, or are a classification of the original report type metric you selected on the [!UICONTROL Request Wizard: Step 1] window. Adding more than one dimension in Step 2 is how you create a breakdown in your data request.
 
    See [Add Metrics and Dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) for more information. 
-
-1. Select an insertion location for the request ( ![](assets/select_cell_icon.png)
-
-   ).
-1. After selecting the cell, click the cell selector to return to the Request Wizard Step 2.
-1. Continue configuring layout settings as necessary. (See [Configure the Layout](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).)
-1. On the [!UICONTROL Request Wizard: Step 2] window, click **[!UICONTROL Finish]** to process the request.
-
-   If you modify a spreadsheet that already contains requests, but instead of clicking [!UICONTROL Finish], you click [!UICONTROL Cancel & Refresh], report builder refreshes the edited requests already mapped to the spreadsheet before closing the [!UICONTROL Request Wizard].

@@ -21,7 +21,7 @@ You must first understand the reporting requirements for tracking [!UICONTROL co
 
 All Sites > Regions > Countries > Language > Category
 
-In this example, the hierarchy could begin to break down at the language level. If a requirement is to report on overall "English" traffic, you can run into the problem where English appears under USA, England, Australia, and so forth. Hierarchies allow you to only drill down. In order to slice horizontally across multiple hierarchies, the best practice is to use a [!UICONTROL custom traffic variable] (prop).
+In this example, the hierarchy could begin to break down at the language level. If a requirement is to report on overall English traffic, you can run into the problem where _English_ appears under USA, England, Australia, and so forth. Hierarchies allow you to only drill down. In order to slice horizontally across multiple hierarchies, the best practice is to use a [!UICONTROL custom traffic variable] (prop).
 
 If you want to provide users with the ability to drill down through the site (similar to how users would browse the site) and report on [!UICONTROL Unique Visitors] at each level of the hierarchy, the hierarchy variable is recommended.
 

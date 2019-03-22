@@ -12,9 +12,7 @@ uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
- **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Cookies]** 
+ **[!UICONTROL  `Property`]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Cookies]** 
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 

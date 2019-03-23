@@ -57,7 +57,6 @@ In this procedure enables you to:
    |Estimated Page Views|Roughly the number of page views your site receives per day.|
    |Base Currency|The currency in which you do business.|
 
-
 1. Click **[!UICONTROL Next]**.
 
    The system creates a report suite. 
@@ -66,8 +65,8 @@ In this procedure enables you to:
 
    | Element | Description |
    |--- |--- |
-   |Deploy|Launches  Dynamic Tag Management, where you can log in and deploy Analytics. This process automatically implements the          AppMeasurement.js file and the Experience Cloud ID service ( VisitorAPI.js).   Important: In a new browser tab, a help page is          displayed that walks you through  Adobe Analytics deployment via Dynamic Tag Management.|
-   |Download|Downloads the installation file, named  INSTALL-ME <report suite name>.js. This option is for experienced users who understand  JavaScript Implementation.   Important: Downloading the code does not constitute deploying  Analytics. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services.|
+   |Deploy|Launches  Dynamic Tag Management, where you can log in and deploy Analytics. This process automatically implements the AppMeasurement.js file and the Experience Cloud ID service ( VisitorAPI.js).<br>**Important**: In a new browser tab, a help page is displayed that walks you through  Adobe Analytics deployment via Dynamic Tag Management.|
+   |Download|Downloads the installation file, named `INSTALL-ME <report suite name>.js`. This option is for experienced users who understand  JavaScript Implementation. <br>**Important**: Downloading the code does not constitute deploying  Analytics. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services.|
 
 1. Run a report.
 
@@ -79,7 +78,7 @@ In this procedure enables you to:
    >
    >The [!UICONTROL Real-Time] report requires some configuration prior to running. See [Configure Real-Time Report](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
-<p class="head"> <b>Example Real-Time Report</b> </p>
+**Example Real-Time Report**
 
    ![](assets/real-time-report.png)
 

@@ -16,32 +16,11 @@ These variables fire on all page load rule beacons. You can accomplish the same 
 
 ## Global Variables - Field Descriptions {#section_2917F62FCC8D43F982B2612A702DEF81}
 
- **[!UICONTROL _Property_]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Global Variables]** 
+ **[!UICONTROL Property]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Global Variables]** 
 
-<table id="table_04BEB6895A4F4D46A2F0B202179173AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Server </p> </td> 
-   <td colname="col2"> <p>The predefined variable populates the <span class="wintitle"> Servers</span> dimension in Adobe Analytics. See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVars </p> </td> 
-   <td colname="col2"> <p>[eVar variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom conversion reports. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Props </p> </td> 
-   <td colname="col2"> <p>[Prop variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom traffic reports. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dynamic Variable Prefix </p> </td> 
-   <td colname="col2"> <p> A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md)</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Element | Description |
+|--- |--- |
+|Server|The predefined variable populates the  Servers dimension in Adobe Analytics. See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)|
+|eVars|[eVar variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom conversion reports.|
+|Props|[Prop variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom traffic reports.|
+|Dynamic Variable Prefix|A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md)|

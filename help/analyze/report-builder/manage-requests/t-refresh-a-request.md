@@ -21,7 +21,7 @@ If you increase a request's date range and then refresh the request, report buil
 
    **Now Date:** The date on which you want to base the refresh. Also known as the [!UICONTROL As Of] date.
 
-   ** Set to Current date on Future Refresh Actions:** Enabling this option tells report builder to always use the current date as the [!UICONTROL Now] (or [!UICONTROL As Of]) date. You can revert this setting by clicking [!UICONTROL Options] in the toolbar. 
+   **Set to Current date on Future Refresh Actions:** Enabling this option tells report builder to always use the current date as the [!UICONTROL Now] (or [!UICONTROL As Of]) date. You can revert this setting by clicking [!UICONTROL Options] in the toolbar. 
 1. Click **[!UICONTROL OK]**.
 
    When a refresh is successful, the system reports this with a green icon on the [!UICONTROL Request Manager]. 

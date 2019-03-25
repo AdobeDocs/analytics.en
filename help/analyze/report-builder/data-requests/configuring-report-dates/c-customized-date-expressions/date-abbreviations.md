@@ -22,9 +22,8 @@ For information about using proper syntax, see [Syntax Notes](../../../../../ana
 
 In the following list, *[UNIT]* indicates any integer multiplier.
 
-* * [UNIT]* d = day 
-* * [UNIT]* w = week 
-* * [UNIT]* m = month 
-* * [UNIT]* q = quarter 
-* * [UNIT]* y = year
-
+* [UNIT] d = day 
+* [UNIT] w = week 
+* [UNIT] m = month 
+* [UNIT] q = quarter 
+* [UNIT] y = year

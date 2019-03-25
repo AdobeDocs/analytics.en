@@ -124,9 +124,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
         + [Uninstall Report Builder](report-builder/setup/t-uninstall-arb.md)
         + [Invoke Report Builder functionality from Microsoft Excel functions](report-builder/setup/invoke-arb-excel-function.md)
     + [Report Builder toolbar](report-builder/reportbuilder-toolbar.md)
-    + Request Wizard interface {#request-wizard-interface}
-        + [Request Wizard Step 1](report-builder/request-wizard-interface/request-wizard-step-1.md)
-        + [Request Wizard Step 2](report-builder/request-wizard-interface/request-wizard-step-2.md)
     + Data requests {#data-requests}
         + [Data requests - Request Wizard Step 1](report-builder/data-requests/data-requests.md)
         + [Create a data request](report-builder/data-requests/t-create-a-data-request.md)

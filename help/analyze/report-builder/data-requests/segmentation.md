@@ -12,15 +12,7 @@ uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 
 How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
 
-Report Builder features a segmentation panel in Step 1 of the Request Wizard that lets you
-
-* [Add or edit segments](../../../analyze/report-builder/data-requests/segmentation.md#section_B2BC136F9A53498D90C7C2ECC5DB892B) 
-* [Create in-context segments](../../../analyze/report-builder/data-requests/segmentation.md#section_6DD2C663B2854469AA1075438F907678) 
-* [Search for and apply segments](../../../analyze/report-builder/data-requests/segmentation.md#section_CACA269B48E94CFD91C2D5A15E9C77B7) 
-* [Filter segments](../../../analyze/report-builder/data-requests/segmentation.md#section_376E986D3E684999A7CDB08E53854159) 
-* [Add a segment control to a workbook](../../../analyze/report-builder/data-requests/segmentation.md#section_E3E5149A8464441FA5445A98DBD520AC) 
-* [Refresh the list of segments](../../../analyze/report-builder/data-requests/segmentation.md#section_22E4A86789444B4A998532396B476EFB) 
-* [Manage segments across requests](../../../analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+Report Builder features a segmentation panel in Step 1 of the Request Wizard that lets you create and manage segments.
 
 ![](assets/seg_dialog.png)
 
@@ -57,9 +49,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Any segments that were created in Reports & Analytics, Ad Hoc Analysis, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png)
-
-).
+Any segments that were created in Reports & Analytics, Ad Hoc Analysis, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
@@ -110,9 +100,7 @@ Adding a segment control lets you switch segments from within a workbook instead
 
 ## Refresh the list of segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Any time you add a new segment or edit an existing one, you should click the Refresh icon ( ![](assets/refresh_icon.png)
-
-) to refresh the cached list of segments.
+Any time you add a new segment or edit an existing one, you should click the Refresh icon ( ![](assets/refresh_icon.png) to refresh the cached list of segments.
 
 ## Manage segments across requests {#section_C3D63FCBE1A94369A319243313B03C93}
 

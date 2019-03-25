@@ -16,9 +16,6 @@ seo-title: Adobe Report Builder Overview
     + [Uninstall Report Builder](setup/t-uninstall-arb.md)
     + [Invoke Report Builder functionality from Microsoft Excel functions](setup/invoke-arb-excel-function.md)
 + [Report Builder toolbar](reportbuilder-toolbar.md)
-+ Request Wizard interface
-    + [Request Wizard Step 1](request-wizard-interface/request-wizard-step-1.md)
-    + [Request Wizard Step 2](request-wizard-interface/request-wizard-step-2.md)
 + [Data requests - Request Wizard Step 1](data-requests/data-requests.md)
     + [Create a data request](data-requests/t-create-a-data-request.md)
     + Report suites

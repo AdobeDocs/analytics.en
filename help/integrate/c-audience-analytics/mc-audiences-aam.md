@@ -13,10 +13,6 @@ Adobe Audience Manager (AAM) is a powerful data management platform that helps y
 
 With the Audience Analytics integration in place, you can incorporate AAM audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, and ad impression data into any Analytics workflow.
 
-* [Key Benefits](../../integrate/c-audience-analytics/mc-audiences-aam.md#section_94816D17283349E0BA28521BE55BB868) 
-* [How it Works](../../integrate/c-audience-analytics/mc-audiences-aam.md#section_CECDF5A0FEC64264B206EFEF54F19EF2) 
-* [Prerequisites](../../integrate/c-audience-analytics/mc-audiences-aam.md#section_A345DC31F7D44EAE9DC1AB53E824C0CC)
-
 ## Key Benefits {#section_94816D17283349E0BA28521BE55BB868}
 
 The Audience Analytics integration features the following key benefits:

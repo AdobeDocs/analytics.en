@@ -12,7 +12,9 @@ uuid: 6d019304-5892-475b-9887-00f86983f859
 
 Field descriptions in Dynamic Tag Management for page views and content settings when deploying Analytics.
 
- **[!UICONTROL _Property_]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Page Views & Content]** 
+ **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
+
+Edit Tool]** > **[!UICONTROL Page Views & Content]** 
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F"> 
  <thead> 

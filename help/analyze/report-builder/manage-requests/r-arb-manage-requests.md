@@ -16,9 +16,7 @@ Field descriptions for Manage Requests in Report Builder.
 
 The [!UICONTROL Request Manager] provides a detailed view of the status of all requests you have built for all sheets or just one sheet of the active workbook. You can also add, edit, refresh, and delete a request (functions typically associated with the [!UICONTROL Request Wizard] and [!UICONTROL Request Manager]) by right-clicking on an available cell in the Excel spreadsheet that contains previous requests.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif)
-
-) in the report builder Toolbar.
+The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
 
 >[!NOTE]
 >

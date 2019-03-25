@@ -18,7 +18,7 @@ user-guide-url: /content/help/en/analytics/integration/home.html
     + [Verify your server-side forwarding implementation - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
     + [Server-side forwarding data and code reference - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
     + [Server-side forwarding FAQ - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-    + [Create analytics destination](https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html)
+    + [Create analytics destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
     + [Use the audience data in Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
     + [Audience Analytics use cases](c-audience-analytics/aam-audience-use-cases.md)
     + [Frequently Asked Questions](c-audience-analytics/mc-audiences-faqs.md)

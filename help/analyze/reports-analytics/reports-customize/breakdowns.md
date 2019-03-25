@@ -12,10 +12,6 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 
 Use breakdowns when you want to know more about how a report item or segment relates to other reports. This is often called “breaking down” a report by another report.
 
-## Breakdowns {#concept_B28E568FDE754E84A0751A76DB08ED44}
-
-Use breakdowns when you want to know more about how a report item or segment relates to other reports. This is often called “breaking down” a report by another report. 
-
 An example is a breakdown of a custom traffic report called Age Group, in which you have gathered site visitors’ ages from a survey. This report allows you to see which age group is responsible for the most traffic on your site. However, if you have gone to the trouble of capturing something like the age of a visitor, you might want to know about more than just page views. You can generate a breakdown report about which search engine they use, what keywords they use, or where they are located geographically. You are correlating the age group and the search engine.
 
 If you break down a report by *`Referrer Type`*, you might see a data point for *`Inside Your Site`*. This value indicates a referrer page that is on the Internal URL Filters list. See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter) in the Admin Reference.

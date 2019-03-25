@@ -51,7 +51,7 @@ In this procedure enables you to:
    |--- |--- |
    |Property Type|Is your implementation for web, mobile, or both?|
    |Industries|Specify how your company makes money (products, customer services, leads, brand awareness, and ads).|
-   |Data Layer|(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag    Management, you will be using a data layer.  For a blog on data layers, see  Data Layer: From Buzzword to Best Practice.|
+   |Data Layer|(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag    Management, you will be using a data layer.  For a blog on data layers, see  [Data Layer: From Buzzword to Best Practice](https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/).|
    |Data Repository (Report Suite)|A  report suite is a discrete data set that typically corresponds to a single property (site or app)    or brand. Each report suite has its own set of reports and metrics.|
    |Time Zone|Your local time zone. (Automatically detected.)|
    |Estimated Page Views|Roughly the number of page views your site receives per day.|
@@ -66,8 +66,8 @@ In this procedure enables you to:
 
    | Element | Description |
    |--- |--- |
-   |Deploy|Launches  Dynamic Tag Management, where you can log in and deploy Analytics. This process automatically implements the          AppMeasurement.js file and the Experience Cloud ID service ( VisitorAPI.js).   Important: In a new browser tab, a help page is          displayed that walks you through  Adobe Analytics deployment via Dynamic Tag Management.|
-   |Download|Downloads the installation file, named  INSTALL-ME <report suite name>.js. This option is for experienced users who understand  JavaScript Implementation.   Important: Downloading the code does not constitute deploying  Analytics. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services.|
+   |Deploy|Launches  Dynamic Tag Management, where you can log in and deploy Analytics. This process automatically implements the          AppMeasurement.js file and the Experience Cloud ID service ( VisitorAPI.js). **Important:** In a new browser tab, a help page is          displayed that walks you through Adobe Analytics deployment via Dynamic Tag Management.|
+   |Download|Downloads the installation file, named  INSTALL-ME <report suite name>.js. This option is for experienced users who understand JavaScript Implementation. **Important:** Downloading the code does not constitute deploying Analytics. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services.|
 
 1. Run a report.
 

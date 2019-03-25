@@ -47,15 +47,44 @@ In this procedure enables you to:
 
 1. Specify the following basic information about your business:
 
-   | Element | Description |
-   |--- |--- |
-   |Property Type|Is your implementation for web, mobile, or both?|
-   |Industries|Specify how your company makes money (products, customer services, leads, brand awareness, and ads).|
-   |Data Layer|(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag    Management, you will be using a data layer.  For a blog on data layers, see  Data Layer: From Buzzword to Best Practice.|
-   |Data Repository (Report Suite)|A  report suite is a discrete data set that typically corresponds to a single property (site or app)    or brand. Each report suite has its own set of reports and metrics.|
-   |Time Zone|Your local time zone. (Automatically detected.)|
-   |Estimated Page Views|Roughly the number of page views your site receives per day.|
-   |Base Currency|The currency in which you do business.|
+<table id="table_1741878A1B284CB78D297D531DC703D6"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Element </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Property Type </p> </td> 
+   <td colname="col2"> <p>Is your implementation for web, mobile, or both? </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Industries </p> </td> 
+   <td colname="col2"> <p>Specify how your company makes money (products, customer services, leads, brand awareness, and ads). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Data Layer </p> </td> 
+   <td colname="col2"> <p>(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag Management, you will be using a data layer. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Data Repository (Report Suite) </p> </td> 
+   <td colname="col2"> <p> A <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external"> report suite</a> is a discrete data set that typically corresponds to a single property (site or app) or brand. Each report suite has its own set of reports and metrics. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Time Zone </p> </td> 
+   <td colname="col2"> <p>Your local time zone. (Automatically detected.) </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Estimated Page Views </p> </td> 
+   <td colname="col2"> <p>Roughly the number of page views your site receives per day. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Base Currency </p> </td> 
+   <td colname="col2"> <p>The currency in which you do business. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 1. Click **[!UICONTROL Next]**.
 
@@ -63,10 +92,24 @@ In this procedure enables you to:
 
 1. To begin deployment, click **[!UICONTROL Next]**, then click one of the following options:
 
-   | Element | Description |
-   |--- |--- |
-   |Deploy|Launches  Dynamic Tag Management, where you can log in and deploy Analytics. This process automatically implements the AppMeasurement.js file and the Experience Cloud ID service ( VisitorAPI.js).<br>**Important**: In a new browser tab, a help page is displayed that walks you through  Adobe Analytics deployment via Dynamic Tag Management.|
-   |Download|Downloads the installation file, named `INSTALL-ME <report suite name>.js`. This option is for experienced users who understand  JavaScript Implementation. <br>**Important**: Downloading the code does not constitute deploying  Analytics. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services.|
+<table id="table_71C7F7B9677346CD8D5130519D32464B"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Element </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Deploy </p> </td> 
+   <td colname="col2"> <p> Launches <span class="keyword"> Dynamic Tag Management</span>, where you can log in and deploy Analytics. This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Experience Cloud ID service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>Important: In a new browser tab, a help page is displayed that walks you through <span class="keyword"> Adobe Analytics</span> deployment via Dynamic Tag Management. </p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Download </p> </td> 
+   <td colname="col2"> <p> Downloads the installation file, named <span class="filepath"> INSTALL-ME &lt;report suite name&gt;.js</span>. This option is for experienced users who understand <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external"> JavaScript Implementation</a>. </p> <p> <p>Important: Downloading the code does not constitute deploying <span class="keyword"> Analytics</span>. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services. </p> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 1. Run a report.
 
@@ -81,4 +124,3 @@ In this procedure enables you to:
 **Example Real-Time Report**
 
    ![](assets/real-time-report.png)
-

@@ -12,7 +12,7 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 
 Frequently asked questions for setting up, configuring, and employing features in Activity Map.
 
-## Step 1. Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
 **Q: What are the implementation steps for enabling the new Activity Map?**
 
@@ -38,7 +38,7 @@ A: AppMeasurement is rolled out at the report-suite level. The report-suite leve
 
 A: No. Activity Map functionality is not dependent on the VisitorAPI.
 
-## Step 2. Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **Q: Can I use Activity Map if I did not previously use Visitor ClickMap on my website?**
 
@@ -125,7 +125,7 @@ A warning message is shown indicating that you need to ask your Admin to \[Enabl
 
 A: No.
 
-## Step 3. Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
 **Q: Are segments tied to the individual user segments? Or are shared Admin-level segments available in Activity Map?**
 
@@ -135,7 +135,7 @@ A: Activity Map inherits your Admin-level segments (reporting segments) from Ana
 
 A: No, segments do not work in Live mode. The functionality is equivalent to that of real-time reporting in Reports & Analytics.
 
-## Step 4. Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
 
 **Q: Is Activity Map compatible with virtual report suites?**
 

@@ -12,7 +12,7 @@ uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 
 Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 
- **[!UICONTROL Property]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Library Management]**
+ **[!UICONTROL  *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
 >[!NOTE]
 >

@@ -14,7 +14,9 @@ Use field descriptions in Dynamic Tag Management to customize page code when dep
 
  Add plugins to ensure that the code runs at the same time as the Analytics tool. For more information about the Analytics plugins, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL  `Property`]** > **[!UICONTROL   ![](assets/settings_gear.png)Edit Tool]** > **[!UICONTROL Customize Page Code]** 
+**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
+
+Edit Tool]** > **[!UICONTROL Customize Page Code]** 
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 

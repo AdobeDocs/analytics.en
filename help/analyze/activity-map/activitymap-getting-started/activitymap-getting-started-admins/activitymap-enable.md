@@ -54,32 +54,8 @@ First, you need to enable Activity Map reports at a report-suite level.
 
 1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** . 
 
-   <!-- 
-
 <note>
   If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
  <span class="uicontrol"> Tools </span> > 
  <span class="uicontrol"> Legacy ClickMap Installation </span>. You can then add Non-Admin users to this group. This level of permission combined with the Activity Map Access will provide comprehensive permissions to download and use the tool. 
 </note>
-
- -->
-
-<!-- 
-
-3. Verify That You are Collecting Activity Map Link Data 
-<ol id="ol_6AEA6B8B052A4EE0A90438F7EC87D413"> 
- <li id="li_501EFD2AC99B43C2BD2FA5D97CF10280">Check in your browser's Developer section whether you are collecting link data. (This example uses the Firefox UI.) 
-  <ol id="ol_88D8C3468E7E43DCA4F36544307F3C55"> 
-   <li id="li_C5AAFC27BCDD497988D00913AAD5A00C">Go to one of your web pages that has Analytics tags implemented. </li> 
-   <li id="li_F9220FD0004647189A98C3E0D79E1FC8">Navigate to the developer console: <span class="uicontrol"> Open menu </span> > <span class="uicontrol"> Developer </span> > <span class="uicontrol"> Web console </span>. </li> 
-   <li id="li_E3B8159197F54844B0B523AEC7E4BB27">Select the Network tab. </li> 
-   <li id="li_4A1DBA7465CD4E54BFCBFBBA0C506785">Search on <span class="codeph"> /b/ss </span> to capture the tag requests. </li> 
-   <li id="li_587AD51A69074895B6C3927CFBC66CD7">Click a link in your web page. </li> 
-   <li id="li_456E9B9760B6414F978A195B8F47D9A3">Click the top link in the dev console: <img placement="break" align="center"  src="assets/dev_console.png" width="500px" id="image_12C58DABB4C6410F8C2E1AE75BD683CA" /> </li> 
-   <li id="li_4E45292A17D84A11AF1ECE9750FB4D99">To verify that the link parameters are being sent, click the <span class="wintitle"> Params </span> tab and scroll down to find the Activity Map parameters: <img placement="break" align="center"  src="assets/cm_params.png" width="250px" id="image_926374535B1A48059D43C14FDB697D78" /> </li> 
-   <li id="li_33349274966A48D99C0978CE6E8B1AB1">Verify that they reflect the link you clicked on and the region on the correct page. </li> 
-  </ol> </li> 
-</ol>
-
- -->
-

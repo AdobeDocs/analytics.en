@@ -28,15 +28,15 @@ See [Import File Reference](../../../import/c-data-sources/datasrc-template/data
 
    Step Result 1. Select template generation options in the Data Source Activation Wizard.
 
-| Wizard Page | Field | Description |
-|--- |--- |--- |
-|1|Name|The template name that Analytics displays in The Data Sources Manager.|
-|1|Email|The email address that receives all notifications related to the use of this Data Source template.|
-|1|Associated Fees Checkbox|Select the checkbox to indicate your acceptance of the fees associated with using this Data Source template.|
-|2|Choose Metrics|Select the metrics to import using this Data Source. Analytics recommends certain metrics based on the Data Source Category and Type selected in Step 3.  To specify a different metric, type its name in a blank field, then select the check box to enable the metric.|
-|3|Map Metrics|Select a Analytics Event to receive each imported metric selected in Wizard page 2.  These should be new, unassigned Events that you have previously assigned names that correspond to the imported metric data they will receive through Data Sources.  If an eVar, Product, or Tracking Code variable is a destination variable, and the uploaded values match existing captured values, the uploaded events essentially add metrics to existing values. For example, you might create an “Offline Orders” metric with a Products data dimension that already has Product Views, Checkouts, and Orders as existing metrics.|
-|4|Choose Data Dimensions|Select the data dimensions to breakdown the imported metrics from this Data Source. Analytics recommends certain data dimensions based on the Data Source Type selected in Step 3.  To specify a different data dimension, type its name in a blank field, then select the check box to enable the data dimension.|
-|5|Map Data Dimensions|Select a standard report or eVar to receive each imported data dimension selected in Wizard page 4.|
+    | Wizard Page | Field | Description |
+    |--- |--- |--- |
+    |1|Name|The template name that Analytics displays in The Data Sources Manager.|
+    |1|Email|The email address that receives all notifications related to the use of this Data Source template.|
+    |1|Associated Fees Checkbox|Select the checkbox to indicate your acceptance of the fees associated with using this Data Source template.|
+    |2|Choose Metrics|Select the metrics to import using this Data Source. Analytics recommends certain metrics based on the Data Source Category and Type selected in Step 3.  To specify a different metric, type its name in a blank field, then select the check box to enable the metric.|
+    |3|Map Metrics|Select a Analytics Event to receive each imported metric selected in Wizard page 2.  These should be new, unassigned Events that you have previously assigned names that correspond to the imported metric data they will receive through Data Sources.  If an eVar, Product, or Tracking Code variable is a destination variable, and the uploaded values match existing captured values, the uploaded events essentially add metrics to existing values. For example, you might create an “Offline Orders” metric with a Products data dimension that already has Product Views, Checkouts, and Orders as existing metrics.|
+    |4|Choose Data Dimensions|Select the data dimensions to breakdown the imported metrics from this Data Source. Analytics recommends certain data dimensions based on the Data Source Type selected in Step 3.  To specify a different data dimension, type its name in a blank field, then select the check box to enable the data dimension.|
+    |5|Map Data Dimensions|Select a standard report or eVar to receive each imported data dimension selected in Wizard page 4.|
 
 1. After the template is generated, copy data into the appropriate columns of the Data Source template, making sure to adhere to the data format required for that data column.
 

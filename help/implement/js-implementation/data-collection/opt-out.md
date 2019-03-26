@@ -26,7 +26,7 @@ Adobe recommends that you provide your website visitors with easy-to-find and ea
 
 Visitors can learn more about how Adobe generally uses information it collects in connection with providing our products and services to our customers in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). However, because you exclusively control how to implement our services on your web sites, it is up to you to describe to your website visitors the specific ways in which they use our products and services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
 
-## Opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
+## Opt-outs for Adobe Analytics (including Reports & Analytics, Data Warehouse, Ad Hoc Analysis) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 

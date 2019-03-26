@@ -17,11 +17,11 @@ The following variables and functions let you store measurement calls when the a
 >
 >To enable offline tracking, your report suite must be timestamp-enabled. If timestamps are enabled on your report suite, your `trackOffline` configuration property *must* be true. if your report suite is not timestamp enabled, your `trackOffline` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
-When enabled, Offline [!DNL AppMeasurement] behaves in the following way:
+When enabled, Offline AppMeasurement behaves in the following way:
 
 * The application sends a server call, but the data transmission fails. 
-* [!DNL AppMeasurement] generates a timestamp for the current hit. 
-* [!DNL AppMeasurement] buffers the hit data, and backs up buffered hit data to persistent storage to prevent data loss.
+* AppMeasurement generates a timestamp for the current hit. 
+* AppMeasurement buffers the hit data, and backs up buffered hit data to persistent storage to prevent data loss.
 
 At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, AppMeasurement attempts to send the buffered hit data, maintaining the original hit order. If the data transmission fails, it continues to buffer the hit data (This continues while the device is offline). 
 

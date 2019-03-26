@@ -19,7 +19,7 @@ uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
 
 * Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A). 
-* The library does not support dynamic account selection ( [dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md). 
+* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)). 
 
 * The library and page code can be deployed inside the `<head>` tag. 
 * The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. The Survey module is not supported. 
@@ -41,7 +41,7 @@ var s=s_gi(s_account)
 
 When `s_gi` is called, if an [!DNL AppMeasurement] instance does not exist for the specified `s_account`, a new instance is created. Otherwise the existing instance is returned. This helps avoid creating duplicate objects for the same account.
 
-## Retrieve an [!DNL AppMeasurement] instance {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
+## Retrieve an AppMeasurement instance {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
 Throughout your code, call the global [s_gi() function](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) to retrieve an existing [!DNL AppMeasurement] instance.
 

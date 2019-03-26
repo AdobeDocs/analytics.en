@@ -6,13 +6,13 @@ title: Experience Cloud Debugger
 uuid: e4b35a89-a41f-44a8-9e3f-6e872c4487c1
 ---
 
-# [!DNL Experience Cloud] [!UICONTROL Debugger]
+# Experience Cloud Debugger
 
 Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the [!DNL Analytics Cloud], Adobe [!DNL Target], [!DNL Advertising Cloud], [!DNL Experience Cloud] ID Service, [!UICONTROL Dynamic Tag Management], and [!UICONTROL Launch, by Adobe].
 
-## [!DNL Experience Cloud] [!UICONTROL Debugger] {#topic_E05CEAF0682E483A9AB147D774CF2188}
+## Experience Cloud Debugger {#topic_E05CEAF0682E483A9AB147D774CF2188}
 
-Install the Adobe [!DNL Experience Cloud] [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Experience Cloud ID Service, Dynamic Tag Management, and Launch, by Adobe.
+Install the Adobe Experience Cloud [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Experience Cloud ID Service, Dynamic Tag Management, and Launch, by Adobe.
 
 >[!IMPORTANT]
 >
@@ -28,12 +28,12 @@ The [!UICONTROL DigitalPulse Debugger] is officially supported for use in all re
 
 ## Install the debugger in Chrome {#task_0CEF858083B64F7DB9790567282F7248}
 
-Install the [!DNL Experience Cloud] [!UICONTROL Debugger] extension in the Google Chrome browser.
+Install the Experience Cloud Debugger extension in the Google Chrome browser.
 
 1. Navigate to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
 1. Follow the instructions to add the extension to Chrome.
 
-## Install the [!UICONTROL Debugger] in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
 
 How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
 
@@ -43,13 +43,11 @@ How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla
 1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
 1. Click **[!UICONTROL Add]**.
 
-## Install the [!UICONTROL Debugger] in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
 
 How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ( ![Image](assets/icon_add_to_favorites_bar.png)
-
-   ) icon.
+1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
 
    If the [!UICONTROL Favorites Bar] is hidden, right-click the browser header, then click [!UICONTROL Favorites Bar].
 

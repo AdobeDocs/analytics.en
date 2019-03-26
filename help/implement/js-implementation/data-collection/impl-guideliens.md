@@ -25,7 +25,7 @@ s.visitorNamespace="VNS"
 s.trackingServer="VNS.COOKIEDOMAIN.net" 
 ```
 
-## [!DNL AppMeasurement]
+## AppMeasurement
 
 ```javascript
 var s_account="RSID" 

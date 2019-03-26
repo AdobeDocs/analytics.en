@@ -16,20 +16,19 @@ For information about automatic implementation management, see [Add Adobe Analyt
 
 If you want to change a manual configuration to automatic, edit a tool and click **[!UICONTROL Enable Automatic Configuration]**. 
 
-1. Download [!DNL Analytics] measurement code:
-   1. In [!DNL Adobe Experience Cloud], click **[!UICONTROL Reports & Analytics]** > **[!UICONTROL Admin Tools]**.
-   1. Click **[!UICONTROL Code Manager]**.
-   1. Click [JavaScript (new)](https://microsite.omniture.com/t2/help/en_US/sc/implement/?f=appmeasure_mjs) to download the code locally.
+1. Download Analytics measurement code:
+   1. In Analytics, click **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
+   1. Click **[!UICONTROL JavaScript (new)]** to download the code locally.
 1. In [!UICONTROL Dynamic Tag Management], [create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
 
    ![](assets/dtm-property.png)
 
-   After you create the web property, it is available for editing on the [!UICONTROL Web Properties] tab on the [!UICONTROL Dashboard]. Activating the web property is not required 
+   After you create the web property, it is available for editing on the [!UICONTROL Web Properties] tab on the [!UICONTROL Dashboard]. Activating the web property is not required.
 
-1. Add an [!DNL Adobe Analytics] tool to the property:
-   1. On the [!UICONTROL Web Properties] tab, click the property.
-   1. On the [!UICONTROL Overview] tab, click **[!UICONTROL Add a Tool]**.
-   1. From the [!UICONTROL Tool Type] menu, select **[!UICONTROL Adobe Analytics]**.
+1. Add an Analytics tool to the property:
+   1. On the **[!UICONTROL Web Properties]** tab, click the property.
+   1. On the **[!UICONTROL Overview]** tab, click **[!UICONTROL Add a Tool]**.
+   1. From the **[!UICONTROL Tool Type]** menu, select **[!UICONTROL Adobe Analytics]**.
 
       ![](assets/dtm-add-analytics-tool.png)
 
@@ -46,11 +45,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 
    The installed tool displays on the [!UICONTROL Overview] tab.
 
-   ![](assets/settings_gear.png)
-
-1. To configure the code, click **[!UICONTROL Settings]** ( ![](assets/settings_gear.png)
-
-   ).
+1. To configure the code, click **[!UICONTROL Settings]** ![](assets/settings_gear.png).
 
    At a minimum, click **[!UICONTROL Cookies]** and configure your tracking server and SSL tracking server. 
 
@@ -61,7 +56,7 @@ If you want to change a manual configuration to automatic, edit a tool and click
 1. [Add the header and footer code](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5) on the Embed tab.
 
    For staging, you can leave the default Amazon hosting option. You can change it if needed before your production rollout. 
-1. (Optional) Click **[!UICONTROL Settings]** ( ![](assets/settings_gear.png)) on the Options tab, and configure the [!UICONTROL Adobe Analytics] code.
+1. (Optional) Click **[!UICONTROL Settings]** ![](assets/settings_gear.png) on the Options tab, and configure the Adobe Analytics code.
 
    >[!NOTE]
    >

@@ -15,7 +15,7 @@ Segmenting paths by user type is a common request for trying to understand how s
 
 You can concatenate the user type and page name into a [!UICONTROL sprop] and enable pathing on the [!UICONTROL sprop].
 
-For example, let's say you have two user types: "Registered" users and "Non-Registered" users. You need to distinguish between these two user types on each page and put these values into your designated [!UICONTROL sprop]. When you populate the prop, it should display as shown below:
+For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. You need to distinguish between these two user types on each page and put these values into your designated [!UICONTROL sprop]. When you populate the prop, it should display as shown below:
 
 ```js
  s.prop1=”Registered : “ + s.pageName;

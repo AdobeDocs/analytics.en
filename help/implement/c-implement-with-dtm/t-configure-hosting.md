@@ -17,7 +17,7 @@ You can deploy [!UICONTROL Dynamic Tag Management] using one or more of the avai
 
 For detailed information about hosting, see [Embed Code and Hosting Options](https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html) in the [!UICONTROL Dynamic Tag Management] Product Documentation. 
 
-1. On the Embed tab, select a hosting option.
+On the Embed tab, select a hosting option.
 
 <table id="table_229298207DB64838B6F2477DFFAE073F"> 
  <thead> 

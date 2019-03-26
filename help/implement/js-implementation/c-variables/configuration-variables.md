@@ -12,9 +12,9 @@ uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 
 # Configuration variables
 
-Configuration variables control the way data is captured and processed in reporting. The most-common configuration variables that are typically set in the main global JavaScript ([!DNL AppMeasurement.js]). These variables can be set within the Reports & Analytics page-level code and links when appropriate.
+Configuration variables control the way data is captured and processed in reporting. The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). These variables can be set within the Analytics page-level code and links when appropriate.
 
-Not all of these variables appear in the code by default when you generate code through the [!UICONTROL Admin Tool] > [!UICONTROL Code Manager]. Some of these configuration variables may not be applicable to your site's implementation needs.
+Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** > **[!UICONTROL Code Manager]**. Some of these configuration variables may not be applicable to your site's implementation needs.
 
 Some of the goals of using these configuration variables are:
 

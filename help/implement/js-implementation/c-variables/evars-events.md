@@ -30,11 +30,11 @@ If you want to track additional information, but don’t have enough variables t
 
 * Variables can be populated in the data collection library if you are using these versions of [!DNL AppMeasurement]:
 
-    * [!DNL AppMeasurement] for JavaScript version 1.4+ 
-    * [!DNL AppMeasurement] for Flash version 3.9+ 
-    * [!DNL AppMeasurement] for Java version 1.2.8+ 
-    * [!DNL AppMeasurement] for Silverlight/.NET version 1.4.2+ 
-    * [!DNL AppMeasurement] for PHP version 1.2.2+
+    * AppMeasurement for JavaScript version 1.4+ 
+    * AppMeasurement for Flash version 3.9+ 
+    * AppMeasurement for Java version 1.2.8+ 
+    * AppMeasurement for Silverlight/.NET version 1.4.2+ 
+    * AppMeasurement for PHP version 1.2.2+
 
 * If you are on an earlier version of code, or on JavaScript H.&#42;, you can populate context data and use processing rules to populate variables. 
 * All versions of data collection code can populate events 101-1000. 

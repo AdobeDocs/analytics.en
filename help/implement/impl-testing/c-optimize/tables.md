@@ -16,7 +16,7 @@ Many Web browsers do not start displaying the contents of a table until the brow
 
 If the entire contents of the page are inside one big table, the browser must compile the entire contents of the page before anything is displayed.
 
-Placing the call to the JavaScript library file outside table tags ensures that the call to the [!DNL Analytics] servers does not impact the displaying of the page content.
+Placing the call to the JavaScript library file outside table tags ensures that the call to the Analytics servers does not impact the displaying of the page content.
 
 >[!NOTE]
 >

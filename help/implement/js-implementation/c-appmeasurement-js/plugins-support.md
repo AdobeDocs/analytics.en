@@ -12,7 +12,7 @@ uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 
 # AppMeasurement plug-in support
 
-Plug-in support has changed in the new version of JavaScript [!DNL AppMeasurement].
+Plug-in support has changed in the new version of JavaScript AppMeasurement.
 
 ## Tested Plug-ins {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 

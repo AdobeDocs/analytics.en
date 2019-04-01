@@ -60,7 +60,7 @@ If you see data differences between the Publishing Widget and the reporting inte
   </tr> 
   <tr> 
    <td colname="col1"> Destination </td> 
-   <td colname="col2"> <p>Specify the destination for the widget. </p> <p> Destinations must be in a valid URL format, including the <span class="codeph"> https://</span> or <span class="codeph"> https://</span> prefix. Publishing widget Destinations are inclusive, meaning that the Publishing widget functions on all URLs that include the specified Destination. For example, a Destination of <span class="codeph"> https://www.corp1.com/sales/</span> allows Publishing widgets on all Web pages at or below the sales page on the <span class="codeph"> www.corp1.com</span> Web site. </p> </td> 
+   <td colname="col2"> <p>Specify the destination for the widget. </p> <p> Destinations must be in a valid URL format, including the <code> https://</code> or <code> https://</code> prefix. Publishing widget Destinations are inclusive, meaning that the Publishing widget functions on all URLs that include the specified Destination. For example, a Destination of <code> https://www.corp1.com/sales/</code> allows Publishing widgets on all Web pages at or below the sales page on the <code> www.corp1.com</code> Web site. </p> </td> 
   </tr> 
  </tbody> 
 </table>

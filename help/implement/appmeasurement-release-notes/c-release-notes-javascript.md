@@ -268,24 +268,24 @@ The following table summarizes the configuration variables and updates made to H
  <tbody> 
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
-   <td colname="col2"> <p>This flag is used to disable forced link tracking for WebKit browsers. Forced link tracking is enabled by default for WebKit browsers and is ignored by other browsers. </p> <p> <b>Default Value</b> </p> <p> <span class="codeph"> true </span> </p> <p> <b>Example</b> </p> 
+   <td colname="col2"> <p>This flag is used to disable forced link tracking for WebKit browsers. Forced link tracking is enabled by default for WebKit browsers and is ignored by other browsers. </p> <p> <b>Default Value</b> </p> <p> <code> true </code> </p> <p> <b>Example</b> </p> 
     <code class="syntax javascript">
       s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
     </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
-   <td colname="col2"> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <span class="codeph"> doneAction </span> that was passed into <span class="codeph"> s.tl </span>. This value specifies the maximum wait time. If the track link call completes before this timeout the <span class="codeph"> doneAction </span> is executed immediately. If you notice that track link calls are not completing you might need to increase this timeout. </p> <p> <b>Default Value</b> </p> <p>250 </p> <p> <b>Example</b> </p> 
+   <td colname="col2"> <p>The maximum number of milliseconds to wait for tracking to finish before performing the <code> doneAction </code> that was passed into <code> s.tl </code>. This value specifies the maximum wait time. If the track link call completes before this timeout the <code> doneAction </code> is executed immediately. If you notice that track link calls are not completing you might need to increase this timeout. </p> <p> <b>Default Value</b> </p> <p>250 </p> <p> <b>Example</b> </p> 
     <code class="syntax javascript">
       s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> trackLink ( <span class="codeph"> s.tl </span>) </td> 
+   <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
    <td colname="col2"> <p>Tracks exit, download, and custom links. Provides an optional parameter to specify a navigation action to execute after the track link call completes on WebKit browsers. </p> <p> <b>Syntax</b> </p> 
     <code class="syntax javascript">
       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-    </code> <p> <b>doneAction</b>: (optional) Specifies the action to take after the link track call is sent or has timed out (based on the value specified by <span class="codeph"> s.forcedLinkTrackingTimeout </span>). The <span class="codeph"> doneAction </span> can be the string 'navigate', which causes the method to set <span class="codeph"> document.location </span> to the <span class="codeph"> href </span> attribute of <span class="codeph"> linkObject </span>. The <span class="codeph"> doneAction </span> can also be a function allowing for advanced customization. </p> <p>If providing a value for <span class="codeph"> doneAction </span> in an anchor <span class="codeph"> onclick </span> event, you must return <span class="codeph"> false </span> after the <span class="codeph"> s.tl </span> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <span class="codeph"> href </span> attribute, provide a string of 'navigate' as the <span class="codeph"> doneAction </span>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <span class="codeph"> doneAction </span>. </p> <p> <b>Examples</b> </p> 
+    </code> <p> <b>doneAction</b>: (optional) Specifies the action to take after the link track call is sent or has timed out (based on the value specified by <code> s.forcedLinkTrackingTimeout </code>). The <code> doneAction </code> can be the string 'navigate', which causes the method to set <code> document.location </code> to the <code> href </code> attribute of <code> linkObject </code>. The <code> doneAction</code> can also be a function allowing for advanced customization. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Examples</b> </p> 
     <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
     </code> 

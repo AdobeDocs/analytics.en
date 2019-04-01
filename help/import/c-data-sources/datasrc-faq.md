@@ -64,12 +64,12 @@ Sample file:
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Date </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Event15 </span> </p> </td> 
+   <td colname="col1"> <p> <code> Date </code> </p> </td> 
+   <td colname="col2"> <p> <code> Event15 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 01/01/2013 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 553 </span> </p> </td> 
+   <td colname="col1"> <p> <code> 01/01/2013 </code> </p> </td> 
+   <td colname="col2"> <p> <code> 553 </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

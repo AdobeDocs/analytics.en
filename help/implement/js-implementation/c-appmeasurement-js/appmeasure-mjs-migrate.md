@@ -42,9 +42,9 @@ The following table contains a list of tasks you need to perform to migrate your
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_543F5EC1759741FCB02C110B45C41867" width="26px" height="21px" /> </td> 
-   <td colname="col1">Copy your <span class="filepath"> s_code.js</span> customization to <span class="codeph"> AppMeasurement.js</span>. </td> 
+   <td colname="col1">Copy your <span class="filepath"> s_code.js</span> customization to <code> AppMeasurement.js</code>. </td> 
    <td colname="col2"> <span class="filepath"> s_code.js</span> and <span class="filepath"> AppMeasurement.js</span> </td> 
-   <td colname="col3"> <p>Move all code that appears before the <span class="codeph"> DO NOT ALTER ANYTHING BELOW THIS LINE</span> section in <span class="filepath"> s_code.js</span> to the beginning of <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
+   <td colname="col3"> <p>Move all code that appears before the <code> DO NOT ALTER ANYTHING BELOW THIS LINE</code> section in <span class="filepath"> s_code.js</span> to the beginning of <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_C65A6858FB294E2796B93054BEA72BBD" width="26px" height="21px" /> </td> 
@@ -56,7 +56,7 @@ The following table contains a list of tasks you need to perform to migrate your
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_3D0FEDBE7FD8481E8E5F9054F742187E" width="26px" height="21px" /> </td> 
    <td colname="col1"> (Optional) Update Media and Integrate modules </td> 
    <td colname="col2"> <p> <span class="filepath"> AppMeasurement.js</span> </p> </td> 
-   <td colname="col3"> <p>If you are using either of these modules, copy and paste the code from <span class="filepath"> AppMeasurement_Module_Media.js</span> and/or <span class="filepath"> AppMeasurement_Module_Integrate.js</span> and paste it just before the <span class="codeph"> DO NOT ALTER ANYTHING BELOW THIS LINE</span> in <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
+   <td colname="col3"> <p>If you are using either of these modules, copy and paste the code from <span class="filepath"> AppMeasurement_Module_Media.js</span> and/or <span class="filepath"> AppMeasurement_Module_Integrate.js</span> and paste it just before the <code> DO NOT ALTER ANYTHING BELOW THIS LINE</code> in <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step6_icon.png" id="image_FCA028848A374C4BA1AF88C6141C9778" width="26px" height="21px" /> </td> 

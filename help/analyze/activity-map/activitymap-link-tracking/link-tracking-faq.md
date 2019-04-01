@@ -44,11 +44,11 @@ Here are some known cases where PII data might be collected using Activity Map T
    <td colname="col1"> <b>Q: How does Activity Map track other visual HTML elements?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <span class="codeph"> s.tl() </span> function</b> <p>If the click occurred via an s.tl invocation, then Activity Map will also receive this click event and determine if a linkName string variable was found. During s.tl execution, that linkName will be set as the Activity Map Link ID. The element clicked that originated the s.tl() call will be used to determine the region. Example: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <code> s.tl() </code> function</b> <p>If the click occurred via an s.tl invocation, then Activity Map will also receive this click event and determine if a linkName string variable was found. During s.tl execution, that linkName will be set as the Activity Map Link ID. The element clicked that originated the s.tl() call will be used to determine the region. Example: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via the <span class="codeph"> s_objectID </span> variable</b> <p>Example: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via the <code> s_objectID </code> variable</b> <p>Example: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Important:  Note that a trailing semicolon (;) is required when using s_objectID in Activity Map. </p> </li> 
@@ -88,11 +88,11 @@ Here are some known cases where PII data might be collected using Activity Map T
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <span class="codeph"> s_ObjectID </span> nor <span class="codeph"> s.tl() </span> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <span class="codeph"> s_ObjectID </span> nor <span class="codeph"> s.tl() </span> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 

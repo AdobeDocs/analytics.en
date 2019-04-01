@@ -912,13 +912,13 @@ This result would show three line items with $50 each in revenue. (Top Banner Ad
  <tbody> 
   <tr> 
    <td colname="col1"> Page 1 </td> 
-   <td colname="col2"> <span class="codeph"> s.list1=”value1,value2,value3”; </span> </td> 
+   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
    <td colname="col3"> (not set) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Page 2 </td> 
-   <td colname="col2"> <span class="codeph"> s.list1=”value4,value5,value6”; </span> </td> 
-   <td colname="col3"> <p> <span class="codeph"> s.events=”purchase”; </span> </p> <p> <span class="codeph"> s.products=”;product;1;200” </span> </p> </td> 
+   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
+   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1678,43 +1678,43 @@ On currency event reports, the report total represents the de-duplicated event t
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.products=”Category;ABC123” </span> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.products=”Category2;ABC123,;ABC456” </span> </td> 
+   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.products=”Category3;ABC123;1;10” </span> </td> 
+   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </span> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1” </span> <p> <span class="codeph"> s.products="Category;ABC123;;;event1=1.99" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2,event3” </span> <p> <span class="codeph"> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> s.events=”event1,event2,event3=9.95” </span> <p> <span class="codeph"> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </span> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

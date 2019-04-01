@@ -49,7 +49,7 @@ Going forward, Adobe will begin applying data retention as currently specified i
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> What Is the data retention window?</b> </p> </td> 
-   <td colname="col2"> <p> The data retention policy defines a rolling data retention window in which complete data can be viewed and reported. The data retention window is determined as follows: </p> <p><span class="codeph"> start date</span> = current date - data retention period </p> <p><span class="codeph"> end date</span> = current date </p> <p> Data is included in the data retention window if the timestamp of the data is between the start date and end date. The timestamp is defined as the date of the transaction represented by the data, which may or may not match the date that the data was received by Adobe. </p> </td> 
+   <td colname="col2"> <p> The data retention policy defines a rolling data retention window in which complete data can be viewed and reported. The data retention window is determined as follows: </p> <p><code> start date</code> = current date - data retention period </p> <p><code> end date</code> = current date </p> <p> Data is included in the data retention window if the timestamp of the data is between the start date and end date. The timestamp is defined as the date of the transaction represented by the data, which may or may not match the date that the data was received by Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Can my company request that data be deleted sooner than 25 months?</b> </p> </td> 

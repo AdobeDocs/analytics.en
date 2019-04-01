@@ -87,15 +87,15 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Visitor ID Service </p> </td> 
-   <td colname="2"> <p> Added timestamp and Marketing Cloud Organization ID to <span class="codeph"> adobe_mc</span> parameter. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Marketing Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuration </p> </td> 
-   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <span class="codeph"> setAdvertisingIdentifier:</span> will be ignored. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
-   <td colname="2"> <p>When calling <span class="codeph"> trackAdobeDeepLink</span>, variables prefixed with "<span class="codeph"> adb</span>" and "<span class="codeph"> ctx</span>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisition </p> </td> 
@@ -118,11 +118,11 @@ The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisition </p> </td> 
-   <td colname="2"> <p> The SDK now supports custom acquisition data to be returned appropriately by <span class="codeph"> AdobeDataCallback</span> invocations. </p> </td> 
+   <td colname="2"> <p> The SDK now supports custom acquisition data to be returned appropriately by <code> AdobeDataCallback</code> invocations. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p><span class="keyword"> Visitor ID Service</span> parameters are now passed in <span class="keyword"> Target</span> requests via <span class="codeph"> mboxParams</span>. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Visitor ID Service</span> parameters are now passed in <span class="keyword"> Target</span> requests via <code> mboxParams</code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,7 +190,7 @@ The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes
    <td colname="1"> <p>Target methods </p> </td> 
    <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> method: </p> <p> 
      <ul id="ul_93CDE46E39C9431DA9104664F175708B"> 
-      <li id="li_903FAC68526B4B7CB6555DC577CE493A"><span class="codeph"> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:</span> </li> 
+      <li id="li_903FAC68526B4B7CB6555DC577CE493A"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -212,31 +212,31 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
    <td colname="1"> <p>Target methods </p> </td> 
    <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> methods: </p> <p> 
      <ul id="ul_D0594A9ABFD8448186DED87599A0E50E"> 
-      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><span class="codeph"> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:</span> </li> 
-      <li id="li_C0FADBB3CEE141AE951CBD49F3A52642"><span class="codeph"> targetThirdPartyID</span> </li> 
-      <li id="li_3E1B3725D9EE4ECE9DB0EB1A9E7682A4"><span class="codeph"> targetSetThirdPartyID:</span> </li> 
-      <li id="li_659E295610F541819DD7486FC5177012"><span class="codeph"> targetPcID</span> </li> 
-      <li id="li_B00ADCF98B6D4694BB7664DB42CDFF99"><span class="codeph"> targetSessionID</span> </li> 
+      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:</code> </li> 
+      <li id="li_C0FADBB3CEE141AE951CBD49F3A52642"><code> targetThirdPartyID</code> </li> 
+      <li id="li_3E1B3725D9EE4ECE9DB0EB1A9E7682A4"><code> targetSetThirdPartyID:</code> </li> 
+      <li id="li_659E295610F541819DD7486FC5177012"><code> targetPcID</code> </li> 
+      <li id="li_B00ADCF98B6D4694BB7664DB42CDFF99"><code> targetSessionID</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>TVJS methods </p> </td> 
    <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> TVJS methods: </p> <p> 
      <ul id="ul_AED76A2B99534CF3A472AC0381B2618C"> 
-      <li id="li_AA731652996C4A19A8E02D5D6B8BDC93"><span class="codeph"> targetThirdPartyID</span> </li> 
-      <li id="li_744A63A62A8045E49C75F9D7AED5D75E"><span class="codeph"> targetSetThirdPartyID</span> </li> 
-      <li id="li_72BC8D96FE0549A695D90B924FA80A02"> <span class="codeph"> targetPcID</span> </li> 
-      <li id="li_FB7A9435B9994DB89FA80C2B2218C047"> <span class="codeph"> targetSessionID</span> </li> 
+      <li id="li_AA731652996C4A19A8E02D5D6B8BDC93"><code> targetThirdPartyID</code> </li> 
+      <li id="li_744A63A62A8045E49C75F9D7AED5D75E"><code> targetSetThirdPartyID</code> </li> 
+      <li id="li_72BC8D96FE0549A695D90B924FA80A02"> <code> targetPcID</code> </li> 
+      <li id="li_FB7A9435B9994DB89FA80C2B2218C047"> <code> targetSessionID</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target for TVML/TVJS </p> </td> 
-   <td colname="2"> <p>You can now use the following property names when configuring your <span class="codeph"> ADBTarget</span> element: </p> <p> 
+   <td colname="2"> <p>You can now use the following property names when configuring your <code> ADBTarget</code> element: </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
-      <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><span class="codeph"> id</span> </li> 
-      <li id="li_069D996CED534EE88A1EC82684E470D5"><span class="codeph"> total</span> </li> 
-      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <span class="codeph"> purchasedProductIds</span> </li> 
-      <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <span class="codeph"> mboxParameters</span> </li> 
+      <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
+      <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
+      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code> purchasedProductIds</code> </li> 
+      <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <code> mboxParameters</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +294,7 @@ The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Opt-out and privacy settings </p> </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> SDK 4.8.5, privacy settings set via the <span class="codeph"> setPrivacyStatus</span> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>, and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> SDK 4.8.5, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>, and <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -315,25 +315,25 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
    <td colname="1"> New Marketing Cloud Visitor ID Service methods </td> 
    <td colname="2"> <p>Added the following new methods: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
-     <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><span class="codeph"> visitorSyncIdentifiers:authenticationState:</span> </li> 
-     <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><span class="codeph"> visitorSyncIdentifierWithType:identifier:authenticationState: </span> </li> 
-     <li id="li_C116F0DA8E2A449A8B76637961C2100C"><span class="codeph"> visitorGetIDs</span> </li> 
-    </ul> <p>Changed the <span class="codeph"> visitorSyncIdentifiers:identifiers</span> method to <span class="codeph"> visitorSyncIdentifiers:</span> </p> </td> 
+     <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
+     <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
+     <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
+    </ul> <p>Changed the <code> visitorSyncIdentifiers:identifiers</code> method to <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> New TVJS methods </td> 
    <td colname="2"> <p>Added the following new methods: </p> 
     <ul id="ul_4C7F4BB1CF744444ABAA9F13BA98749E"> 
-     <li id="li_5DAB089D115843CCA0A53873D6D676F0"><span class="codeph"> visitorSyncIdentifiersAuthenticationState</span> </li> 
-     <li id="li_EDE2D1301E8648DB88A18D8C9F6A22C5"><span class="codeph"> visitorSyncIdentifierWithTypeIdentifierAuthenticationState</span> </li> 
-     <li id="li_2CCED3C707774597934A2F08BC690B15"><span class="codeph"> visitorGetIDsJs</span> </li> 
+     <li id="li_5DAB089D115843CCA0A53873D6D676F0"><code> visitorSyncIdentifiersAuthenticationState</code> </li> 
+     <li id="li_EDE2D1301E8648DB88A18D8C9F6A22C5"><code> visitorSyncIdentifierWithTypeIdentifierAuthenticationState</code> </li> 
+     <li id="li_2CCED3C707774597934A2F08BC690B15"><code> visitorGetIDsJs</code> </li> 
     </ul> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> New ADBMobile JSON Config variable </td> 
    <td colname="2"> <p>Added the following variable: </p> 
     <ul id="ul_95065BC06FD540D2937D11111799F77F"> 
-     <li id="li_7C8C68A41FBA4D098D6803E71D4CCF7A"><span class="codeph"> analyticsForwardingEnabled</span> </li> 
+     <li id="li_7C8C68A41FBA4D098D6803E71D4CCF7A"><code> analyticsForwardingEnabled</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -426,9 +426,9 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
    <td colname="1"> <p>Identifiers </p> </td> 
    <td colname="2"> <p>Added the following new identifiers: </p> <p> 
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
-      <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <span class="codeph"> setPushIdentifier</span> </li> 
-      <li id="li_B7893FB0453340EDB4290BC0B47BF096"><span class="codeph"> setAdvertisingIdentifier</span> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">The <span class="codeph"> trackPushMessageClickThrough</span> </li> 
+      <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
+      <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">The <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -452,7 +452,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS</span> Extension </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple provides a set of APIs that lets the Watch app communicate with the containing app (sending requests to the containing app and then receiving responses). </p> <p>Although you can send tracking data as a dictionary from the Watch app to the containing app and then call any tracking method on the containing app to send the data, this solution has limitations. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <span class="codeph"> TrackActionInBackground</span>, <span class="codeph"> TrackLocation</span>, and <span class="codeph"> TrackBeacon</span>. Calling other tracking methods interferes with lifecycle data, so you should use only these three methods to send the data from Watch app. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
+   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple provides a set of APIs that lets the Watch app communicate with the containing app (sending requests to the containing app and then receiving responses). </p> <p>Although you can send tracking data as a dictionary from the Watch app to the containing app and then call any tracking method on the containing app to send the data, this solution has limitations. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. Calling other tracking methods interferes with lifecycle data, so you should use only these three methods to send the data from Watch app. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,7 +473,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <span class="codeph"> trackBeacon</span> and <span class="codeph"> clearCurrentBeacon</span> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

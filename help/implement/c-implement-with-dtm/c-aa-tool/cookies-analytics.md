@@ -34,11 +34,11 @@ Edit Tool]** > **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> Domain Periods </td> 
-   <td colname="col2"> <p>The domain on which the Analytics cookie <span class="codeph"> s_cc</span> and <span class="codeph"> s_sq</span> are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. </p> </td> 
+   <td colname="col2"> <p>The domain on which the Analytics cookie <code> s_cc</code> and <code> s_sq</code> are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> FP Domain Periods </td> 
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<span class="codeph"> s_sq</span>, <span class="codeph"> s_cc</span>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>See <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>See <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transaction ID </td> 

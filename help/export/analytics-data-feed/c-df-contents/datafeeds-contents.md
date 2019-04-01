@@ -111,9 +111,9 @@ The time (HHMMSS) indicated in a file name always indicates the beginning of the
      <li id="li_717873DBBF264422A39217E1A8829742">a single compressed data file. </li> 
      <li id="li_9F75D42FD56E4CC89C4683D32E59337B">A manifest file. </li> 
     </ul> <p>The data file is delivered with the following name: </p> 
-    <codeblock>
+    <code>
       &lt;report_suite&gt;_&lt;YYYY-mm-dd&gt;.&lt;compression_suffix&gt;
-    </codeblock> <p> Where <span class="codeph"> &lt;compression_suffix&gt;</span> is either <span class="codeph"> tar.gz</span> or <span class="codeph"> zip</span>. </p> <p>When extracted, the data file contains a single <span class="filepath"> hit_data.tsv</span> file with all data for that day, as well as the compressed lookup files described above. </p> <p>The hit data file size varies greatly depending on the number of variables actively used and amount of traffic on the report suite. However, on average, a row of data is approximately 500B (compressed) or 2KB (uncompressed). Multiplying this by the number of server calls can provide a rough estimate on how large a data feed file will be. </p> </td> 
+    </code> <p> Where <code> &lt;compression_suffix&gt;</code> is either <code> tar.gz</code> or <code> zip</code>. </p> <p>When extracted, the data file contains a single <span class="filepath"> hit_data.tsv</span> file with all data for that day, as well as the compressed lookup files described above. </p> <p>The hit data file size varies greatly depending on the number of variables actively used and amount of traffic on the report suite. However, on average, a row of data is approximately 500B (compressed) or 2KB (uncompressed). Multiplying this by the number of server calls can provide a rough estimate on how large a data feed file will be. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Daily, multiple file </td> 
@@ -122,9 +122,9 @@ The time (HHMMSS) indicated in a file name always indicates the beginning of the
      <li id="li_227315384B954A5784FA370D9B30E2AF">One or more compressed data files, broken into 2 GB chunks. </li> 
      <li id="li_4169D889CEA3446CB5FAA08FD60AA0D0">A manifest file. </li> 
     </ul> <p>Each data file is delivered with the following name: </p> 
-    <codeblock>
+    <code>
       &lt;index&gt;-&lt;report_suite&gt;_&lt;YYYY-mm-dd&gt;.&lt;compression_suffix&gt;
-    </codeblock> <p> Where <span class="codeph"> &lt;index&gt;</span> is an incrementing file index from <i>1</i> to <i>n</i>, given <i>n</i> files, and <span class="codeph"> &lt;compression_suffix&gt;</span> is either <span class="codeph"> tar.gz</span> or <span class="codeph"> zip</span>. </p> <p>When extracted, each data file contains a single <span class="filepath"> hit_data.tsv</span> that contains approximately 2 GB of uncompressed data, as well as the compressed lookup files described above. </p> </td> 
+    </code> <p> Where <code> &lt;index&gt;</code> is an incrementing file index from <i>1</i> to <i>n</i>, given <i>n</i> files, and <code> &lt;compression_suffix&gt;</code> is either <code> tar.gz</code> or <code> zip</code>. </p> <p>When extracted, each data file contains a single <span class="filepath"> hit_data.tsv</span> that contains approximately 2 GB of uncompressed data, as well as the compressed lookup files described above. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hourly, single file </td> 
@@ -133,9 +133,9 @@ The time (HHMMSS) indicated in a file name always indicates the beginning of the
      <li id="li_072BBC4BA9B84C61B4E8EFA35F54707B">a single data file. </li> 
      <li id="li_E2D05E9DAE814309B6BC91798BB29FBB">A manifest file. </li> 
     </ul> <p>The data file is delivered with the following name: </p> 
-    <codeblock>
+    <code>
       &lt;report_suite&gt;_&lt;YYYY-mm-dd&gt;-&lt;HHMMSS&gt;.&lt;compression_suffix&gt;
-    </codeblock> <p> Where <span class="codeph"> &lt;compression_suffix&gt;</span> is either <span class="codeph"> tar.gz</span> or <span class="codeph"> zip</span>. </p> <p>When extracted, the data file contains a single <span class="filepath"> hit_data.tsv</span> file with all data for that hour. The compressed lookup files described above are delivered only with the data for the first hour of each day. </p> </td> 
+    </code> <p> Where <code> &lt;compression_suffix&gt;</code> is either <code> tar.gz</code> or <code> zip</code>. </p> <p>When extracted, the data file contains a single <span class="filepath"> hit_data.tsv</span> file with all data for that hour. The compressed lookup files described above are delivered only with the data for the first hour of each day. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hourly, multiple file </td> 
@@ -144,9 +144,9 @@ The time (HHMMSS) indicated in a file name always indicates the beginning of the
      <li id="li_C0DF059D1E6843C8A38E24CA1B59D99C">One or more compressed data files, broken into 2 GB chunks. </li> 
      <li id="li_604266DA9B8A4000905C44C95DA65D14">A manifest file. </li> 
     </ul> <p>Each data file is delivered with the following name: </p> 
-    <codeblock>
+    <code>
       &lt;index&gt;-&lt;report_suite&gt;_&lt;YYYY-mm-dd&gt;-&lt;HHMMSS&gt;.tsv.&lt;compression_suffix&gt;
-    </codeblock> <p>Where <span class="codeph"> &lt;index&gt;</span> is an incrementing file index from <i>1</i> to <i>n</i>, given <i>n</i> files, and <span class="codeph"> &lt;compression_suffix&gt;</span> is either <span class="codeph"> gz</span> or <span class="codeph"> zip</span> </p> <p>When extracted, each data file contains a single <span class="filepath"> hit_data.tsv</span> that contains approximately 2 GB of uncompressed data. The compressed lookup files described above are delivered only with the data for the first hour of each day. </p> </td> 
+    </code> <p>Where <code> &lt;index&gt;</code> is an incrementing file index from <i>1</i> to <i>n</i>, given <i>n</i> files, and <code> &lt;compression_suffix&gt;</code> is either <code> gz</code> or <code> zip</code> </p> <p>When extracted, each data file contains a single <span class="filepath"> hit_data.tsv</span> that contains approximately 2 GB of uncompressed data. The compressed lookup files described above are delivered only with the data for the first hour of each day. </p> </td> 
   </tr> 
  </tbody> 
 </table>

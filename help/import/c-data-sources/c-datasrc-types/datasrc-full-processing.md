@@ -47,13 +47,13 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <span class="codeph"> currency code </span>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Revenue currency code (for example, USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <span class="codeph"> YYYY-MM-DDThh:mm:ss±UTC_offset </span> (for example, <span class="codeph"> 2013-09-01T12:00:00-07:00 </span>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
@@ -64,9 +64,9 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external"> s.events </a> variable. </p> <p>For example: </p> 
-    <codeblock>
+    <code>
       scAdd,event1,event7 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -111,7 +111,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <span class="codeph"> "Sports;Ball;1;5.95") </span>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 

@@ -74,10 +74,10 @@ This information can be used when debugging using [Packet Analyzers](../../../im
    <td> Color quality (in bits) </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> c. <span class="varname"> [key] </span> </span> </td> 
+   <td> <code> c. <span class="varname"> [key] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>None </p> </td> 
-   <td> <p>Key-values pairs are specified in one of the following formats: </p> <p> <span class="codeph"> &lt;my.a&gt;red&lt;/my.a&gt; </span> </p> <p>or: </p> <p> <span class="codeph"> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </span> </p> <p>Each of these examples result in a context data value of <span class="codeph"> my.a = red </span>. Multiple key-value pairs can be specified. </p> <p>In the query string, this context data variable would appear as <span class="codeph"> c.my.a=red </span> </p> </td> 
+   <td> <p>Key-values pairs are specified in one of the following formats: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>or: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Each of these examples result in a context data value of <code> my.a = red </code>. Multiple key-value pairs can be specified. </p> <p>In the query string, this context data variable would appear as <code> c.my.a=red </code> </p> </td> 
   </tr> 
   <tr> 
    <td> c1-c75 </td> 
@@ -128,7 +128,7 @@ This information can be used when debugging using [Packet Analyzers](../../../im
    <td> Connection Type (Modem, LAN, etc; can only populate in IE browsers) </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> D </span> </td> 
+   <td> <code> D </code> </td> 
    <td> dynamicVariablePrefix </td> 
    <td> None </td> 
    <td> <p>See <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> Dynamic Variables </a>. </p> </td> 
@@ -317,19 +317,19 @@ This information can be used when debugging using [Packet Analyzers](../../../im
    <td> t </td> 
    <td> (automatic, sent with every hit that does not have a custom timestamp) </td> 
    <td> None </td> 
-   <td> <p>The <span class="codeph"> t </span> parameter is in the following format: </p> 
-    <codeblock>
+   <td> <p>The <code> t </code> parameter is in the following format: </p> 
+    <code>
       dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
-    </codeblock> <p>Where D is a number in the range <span class="codeph"> 0-6 </span> specifying the day of the week, and <span class="codeph"> OFFSET </span> represents: </p> 
-    <codeblock>
+    </code> <p>Where D is a number in the range <code> 0-6 </code> specifying the day of the week, and <code> OFFSET </code> represents: </p> 
+    <code>
       offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
-    </codeblock> <p> For example: </p> 
-    <codeblock>
+    </code> <p> For example: </p> 
+    <code>
       23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
-    </codeblock> </td> 
+    </code> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> ts </span> </td> 
+   <td> <code> ts </code> </td> 
    <td> <p>timestamp </p> </td> 
    <td> None </td> 
    <td> <p>The custom timestamp calculated and sent in with the hit. Typically used for offline tracking. </p> </td> 

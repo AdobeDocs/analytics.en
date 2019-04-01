@@ -25,12 +25,12 @@ Lookup table to determine the type of a hit based on the page_event value.
   <tr> 
    <td colname="col1"> Page views </td> 
    <td colname="col02"> same as post </td> 
-   <td colname="col2"> <p>0 for all page views ( <span class="codeph"> s.t() </span> calls) </p> <p>0 for <span class="codeph"> trackState </span> calls from the mobile SDKs. </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 for <code> trackState </code> calls from the mobile SDKs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link tracking </td> 
-   <td colname="col02"> <p>10 for "other link" </p> <p>10 for <span class="codeph"> trackAction </span> and lifecycle calls from the Mobile SDKs. </p> <p>11 for "download link" </p> <p>12 for "external or exit link" </p> </td> 
-   <td colname="col2"> <p>100 for "other link" </p> <p>100 for <span class="codeph"> trackAction </span> and lifecycle calls from the Mobile SDKs. </p> <p>101 for "download link" </p> <p>102 for "external or exit link" </p> </td> 
+   <td colname="col02"> <p>10 for "other link" </p> <p>10 for <code> trackAction </code> and lifecycle calls from the Mobile SDKs. </p> <p>11 for "download link" </p> <p>12 for "external or exit link" </p> </td> 
+   <td colname="col2"> <p>100 for "other link" </p> <p>100 for <code> trackAction </code> and lifecycle calls from the Mobile SDKs. </p> <p>101 for "download link" </p> <p>102 for "external or exit link" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Milestone Video </td> 

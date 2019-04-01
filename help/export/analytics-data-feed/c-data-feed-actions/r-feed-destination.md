@@ -99,7 +99,7 @@ The following table shows all options for all distribution channels. The availab
   </tr> 
   <tr> 
    <td colname="col1"> <p> Host </p> </td> 
-   <td colname="col2"> <p>Specify the FTP or SFTP host location. </p> <p>This value must comply to the proper ftp/sftp format, <span class="codeph"> ftp.domain.com/subdomain</span> or <span class="codeph"> sftp.domain.com/subdomain</span>. </p> <p> The standard ports 21 and 22 for FTP and sFTP are required. </p> </td> 
+   <td colname="col2"> <p>Specify the FTP or SFTP host location. </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> The standard ports 21 and 22 for FTP and sFTP are required. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Password </p> <p>Confirm Password </p> </td> 

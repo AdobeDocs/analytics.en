@@ -55,11 +55,11 @@ Since processing rules are applied only when data is collected, it is important 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Supported names and characters </p> </td> 
-   <td colname="col2"> <p>Context data variable names can contain only alphanumeric characters, underscores and dots. Any additional characters are stripped out. Context cata variables do not have a numeric designation. Rather, they are named. </p> <p>For example, the context data variable <span class="codeph"> login_page-home </span> automatically becomes <span class="codeph"> login_pagehome </span>. All data sent to the <span class="codeph"> login_page-home </span> variable is allocated under <span class="codeph"> login_pagehome </span>. </p> </td> 
+   <td colname="col2"> <p>Context data variable names can contain only alphanumeric characters, underscores and dots. Any additional characters are stripped out. Context cata variables do not have a numeric designation. Rather, they are named. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
-   <td colname="col2"> <p>A good practice is to prefix your variables with your company name, site name, or a similar value to make sure the name is unique across your report suite. </p> <p>Context data variables can be named similar to other JavaScript variables. Be aware that the namespace <span class="codeph"> a.* </span> is reserved for use by Adobe products in context variable names. For example, the AppMeasurement Library for iOS uses <span class="codeph"> a.InstallEvent </span> to measure application installations. </p> </td> 
+   <td colname="col2"> <p>A good practice is to prefix your variables with your company name, site name, or a similar value to make sure the name is unique across your report suite. </p> <p>Context data variables can be named similar to other JavaScript variables. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. For example, the AppMeasurement Library for iOS uses <code> a.InstallEvent </code> to measure application installations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 

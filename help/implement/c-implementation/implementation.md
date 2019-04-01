@@ -43,33 +43,28 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
    <td colname="col1"> Set up the Experience Cloud ID service. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
     <draft-comment> 
-     <p>In <span class="codeph"> VisitorAPI.js </span>, add the following visitor ID initialization code at the beginning of the file: </p> 
-     <codeblock class="syntax javascript">
+     <p>In <code> VisitorAPI.js </code>, add the following visitor ID initialization code at the beginning of the file: </p> 
+     <code class="syntax javascript">
        var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("INSERT-MCORG-ID-HERE"); 
-      
-visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer 
-      
-visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure 
-      
-/* 
-      
-&nbsp;==============&nbsp;DO&nbsp;NOT&nbsp;ALTER&nbsp;ANYTHING&nbsp;BELOW&nbsp;THIS&nbsp;LINE&nbsp;!&nbsp;============
-
-     </codeblock> 
+      visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer 
+      visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure 
+      /* 
+      &nbsp;==============&nbsp;DO&nbsp;NOT&nbsp;ALTER&nbsp;ANYTHING&nbsp;BELOW&nbsp;THIS&nbsp;LINE&nbsp;!&nbsp;============
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
-      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <span class="codeph"> "INSERT-MCORG-ID-HERE" </span> - (Required) This Adobe Experience Cloud Organization ID is sent to your administrator when your company is provisioned for the Adobe Experience Cloud. </li> 
-      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <span class="codeph"> "INSERT-TRACKING-SERVER-HERE" </span> - (Required) Your Analytics tracking server. </li> 
-      <li id="li_C578420458D649228E54D9809AF62627"> <span class="codeph"> "INSERT-SECURE-TRACKING-SERVER-HERE" </span> - (Required if ssl is enabled) Your Analytics secure tracking server. </li> 
+      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT-MCORG-ID-HERE" </code> - (Required) This Adobe Experience Cloud Organization ID is sent to your administrator when your company is provisioned for the Adobe Experience Cloud. </li> 
+      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (Required) Your Analytics tracking server. </li> 
+      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE" </code> - (Required if ssl is enabled) Your Analytics secure tracking server. </li> 
      </ul> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col1"> Use the chosen implementation method to update and deploy page code. </td> 
-   <td colname="col2"> <p>Place the page code just after the opening <span class="codeph"> &lt;body&gt; </span> tag on each page you want to track. At a minimum, update the following variables: </p> 
+   <td colname="col2"> <p>Place the page code just after the opening <code> &lt;body&gt; </code> tag on each page you want to track. At a minimum, update the following variables: </p> 
     <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
-     <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <span class="codeph"> var s=s_gi("INSERT-RSID-HERE") </span> </li> 
-     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <span class="codeph"> s.pageName="INSERT-NAME-HERE" // for example, s.pageName=document.title </span> </li> 
+     <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <code> var s=s_gi("INSERT-RSID-HERE") </code> </li> 
+     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // for example, s.pageName=document.title </code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

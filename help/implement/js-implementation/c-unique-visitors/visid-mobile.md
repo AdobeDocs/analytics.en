@@ -28,7 +28,7 @@ The following table lists out the order of the ID methods used based on the retu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> /1/</span> </td> 
+   <td colname="col1"> <code> /1/</code> </td> 
    <td colname="col2"> <p>Default: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">Custom visitor ID </li> 
@@ -38,8 +38,8 @@ The following table lists out the order of the ID methods used based on the retu
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> /5/ /5.1/ /5.5/</span> </td> 
-   <td colname="col2"> <p>Device was identified as a wireless device, or <span class="codeph"> /5/</span> was manually sent in the image request: </p> 
+   <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
+   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">Custom visitor ID </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">Subscriber ID Header </li> 

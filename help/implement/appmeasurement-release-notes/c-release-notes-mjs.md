@@ -343,7 +343,7 @@ Release Date: **April 16, 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>The <span class="codeph"> trackBeacon </span> and <span class="codeph"> clearCurrentBeacon </span> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

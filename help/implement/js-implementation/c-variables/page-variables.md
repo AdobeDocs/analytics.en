@@ -1908,7 +1908,7 @@ If the *`pageName`* variable on your site is used to show the section or templat
 In some cases, browsers other than Internet Explorer, Firefox, Netscape, Opera, and Safari are not reported. Although this is a small percentage, it accounts for some clicks and other metrics. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. The following is an example of how to update your links to use *`s_objectID`*:
 
 ```js
-<a href="/art.jsp?id=559" onClick="s_objectID='top left 1'">Article 559</a> 
+<a href="/art.jsp?id=559" onClick="s_objectID='top left 1';">Article 559</a> 
 <a href="/home.jsp" onClick="s_objectID='prod 123789 home page';">Home</a> 
 
 ```

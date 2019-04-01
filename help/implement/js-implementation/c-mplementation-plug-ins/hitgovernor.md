@@ -71,17 +71,17 @@ To implement the hitGovernor plugin:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.hl = 60; </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
    <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hit Time Threshold </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.ht = 10; </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
    <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclusion Threshold </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.he = 60; </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
    <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
   </tr> 
  </tbody> 

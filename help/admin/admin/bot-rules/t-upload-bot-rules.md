@@ -18,12 +18,12 @@ Create a CSV file with the following columns in the order presented:
 <table id="table_770891EF9E4A49F695977BB6446736B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Bot Name</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IP Start </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> IP End </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Agent Match Rule (contains or starts with)</span> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> Agent Include (100 char limit)</span> </p> </td> 
-   <td colname="col6"> <p> <span class="codeph"> Agent Exclude (255 char limit)</span> </p> </td> 
+   <td colname="col1"> <p> <code> Bot Name</code> </p> </td> 
+   <td colname="col2"> <p> <code> IP Start </code> </p> </td> 
+   <td colname="col3"> <p> <code> IP End </code> </p> </td> 
+   <td colname="col4"> <p> <code> Agent Match Rule (contains or starts with)</code> </p> </td> 
+   <td colname="col5"> <p> <code> Agent Include (100 char limit)</code> </p> </td> 
+   <td colname="col6"> <p> <code> Agent Exclude (255 char limit)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

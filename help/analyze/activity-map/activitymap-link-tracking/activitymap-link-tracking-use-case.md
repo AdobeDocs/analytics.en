@@ -25,27 +25,18 @@ As an example, let's say you have multiple "Buy" links that are identified by Ac
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <codeblock>
+    <code>
       &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     
-&nbsp;&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-    </codeblock> </td> 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel <p> </p> <p> </p> <p>recommendation Panel </p> <p> </p> <p> </p> <p>recommendation Panel </p> </td> 
   </tr> 
@@ -73,27 +64,18 @@ By creating a unique object ID for a link or link location on a page, you can ei
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <codeblock>
+    <code>
       &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     
-&nbsp;&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&lt;div&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
-    </codeblock> </td> 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
   </tr> 
@@ -119,27 +101,18 @@ You can customize the region by ensuring that each "buy" link has its own Region
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <codeblock>
+    <code>
       &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     
-&nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     
-&nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-    </codeblock> </td> 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 

@@ -56,7 +56,7 @@ t_send_report.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report File Name</strong></td> 
-   <td class="chdesc stentry"> <p>Specifies the name of the report. The default format is <span class="codeph"> &lt;report name&gt; for &lt;suite&gt; - &lt;report date range&gt; </span>. </p> <p>To specify a custom name, select <span class="uicontrol"> Custom </span>. </p> </td> 
+   <td class="chdesc stentry"> <p>Specifies the name of the report. The default format is <code> &lt;report name&gt; for &lt;suite&gt; - &lt;report date range&gt; </code>. </p> <p>To specify a custom name, select <span class="uicontrol"> Custom </span>. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report Format</strong></td> 

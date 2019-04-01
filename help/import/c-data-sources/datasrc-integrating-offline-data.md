@@ -29,7 +29,7 @@ Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL [S
 
 <p>When contacting Customer Care, be prepared to provide the following information: </p> 
 <ul id="ul_C425C7A074484650AFCCF0425E8E3F47"> 
- <li id="li_7640C0C4DF0C49749A3C37E5461DC22F">Report Suite ID of the data source for which you need transaction ID recording enabled. <p>In Data Sources, the report suite ID is the first part of the login appended by a random number that identifies the specific data source that was set up. For example, <span class="codeph"> RSID-drmossdev5 Login-drmossdev5_0001343430</span>. </p> </li> 
+ <li id="li_7640C0C4DF0C49749A3C37E5461DC22F">Report Suite ID of the data source for which you need transaction ID recording enabled. <p>In Data Sources, the report suite ID is the first part of the login appended by a random number that identifies the specific data source that was set up. For example, <code> RSID-drmossdev5 Login-drmossdev5_0001343430</code>. </p> </li> 
  <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="../../import/c-data-sources/datasrc-tid-visitor-profile.md#concept_0AF92491E8274BF69E66DB36E5F54A0F" format="dita" scope="local"> Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
 </ul>
 

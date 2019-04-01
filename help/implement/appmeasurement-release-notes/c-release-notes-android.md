@@ -87,11 +87,11 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Visitor ID Service </p> </td> 
-   <td colname="2"> <p>Added timestamp and Marketing Cloud Organization ID to <span class="codeph"> adobe_mc</span> parameter. </p> </td> 
+   <td colname="2"> <p>Added timestamp and Marketing Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
-   <td colname="2"> <p>When calling <span class="codeph"> trackAdobeDeepLink</span>, variables prefixed with "<span class="codeph"> adb</span>" and "<span class="codeph"> ctx</span>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,15 +110,15 @@ The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Acquisition </p> </td> 
-   <td colname="2"> The SDK now supports custom acquisition data to be returned appropriately by <span class="codeph"> AdobeDataCallback</span> invocations. </td> 
+   <td colname="2"> The SDK now supports custom acquisition data to be returned appropriately by <code> AdobeDataCallback</code> invocations. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Acquisition </p> </td> 
-   <td colname="2"> The SDK now stores Google Play Referrer variables and custom variables and returns them appropriately in <span class="codeph"> AdobeDataCallback</span> invocations. </td> 
+   <td colname="2"> The SDK now stores Google Play Referrer variables and custom variables and returns them appropriately in <code> AdobeDataCallback</code> invocations. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> Visitor ID Service parameters are now passed in <span class="keyword"> Target</span> requests via <span class="codeph"> mboxParams</span>. </td> 
+   <td colname="2"> Visitor ID Service parameters are now passed in <span class="keyword"> Target</span> requests via <code> mboxParams</code>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,7 +147,7 @@ The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following cha
    <td colname="1"> <p>Tracking Deep Links </p> </td> 
    <td colname="2"> <p>New feature: Added the ability to enable tracking of 3rd party deferred deep links. </p> <p> 
      <ul id="ul_DA54F09098A546B6A320E6B9F2937DAD"> 
-      <li id="li_B483AEBE02F34E21B2CC731FC77448E8"><span class="codeph"> processAdobeDeepLink</span> </li> 
+      <li id="li_B483AEBE02F34E21B2CC731FC77448E8"><code> processAdobeDeepLink</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -188,7 +188,7 @@ The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following cha
    <td colname="1"> <p>Target methods </p> </td> 
    <td colname="2"> <p>You can now use the following new <span class="keyword"> Target</span> method: </p> <p> 
      <ul id="ul_D0594A9ABFD8448186DED87599A0E50E"> 
-      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><span class="codeph"> loadRequest</span> </li> 
+      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><code> loadRequest</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -208,7 +208,7 @@ The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Target methods </td> 
-   <td colname="2"> <p>Added new syntax and example for the <span class="codeph"> loadRequest</span> method. </p> <p>Added the following new <span class="keyword"> Target</span> methods: </p> <p> 
+   <td colname="2"> <p>Added new syntax and example for the <code> loadRequest</code> method. </p> <p>Added the following new <span class="keyword"> Target</span> methods: </p> <p> 
      <ul id="ul_B32C3B3931764F21948E36384B775642"> 
       <li id="li_3421E7F78F3A4DDA8FF004903FC8C75E">setThirdPartyID </li> 
       <li id="li_0836075699C5480EB3D6B742FCF6D508">getThirdPartyID </li> 
@@ -250,7 +250,7 @@ The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following 
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Opt-out and privacy settings </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> Android</span> SDK 4.8.3, privacy settings set via the <span class="codeph"> setPrivacyStatus</span> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> , and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>Starting with <span class="keyword"> Android</span> SDK 4.8.3, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> , and <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,16 +271,16 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
    <td colname="1"> New Marketing Cloud Visitor ID Service methods </td> 
    <td colname="2"> <p>Added the following methods: </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
-     <li id="li_72B94B8CECB94229827BFCB06671DFC9"><span class="codeph"> syncIdentifer</span> </li> 
-     <li id="li_CD0C6B6CEA064FDD8B109E01AEC63F5C"><span class="codeph"> syncIdentifiers</span> </li> 
-     <li id="li_620A2D94F97A4451919F0867CA82B25D"><span class="codeph"> getIdentifiers</span> </li> 
+     <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
+     <li id="li_CD0C6B6CEA064FDD8B109E01AEC63F5C"><code> syncIdentifiers</code> </li> 
+     <li id="li_620A2D94F97A4451919F0867CA82B25D"><code> getIdentifiers</code> </li> 
     </ul> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> New ADBMobile JSON Config variable </td> 
    <td colname="2"> <p>Added the following variable: </p> 
     <ul id="ul_7FF76521C59343A4ABC9573C3CD5DC38"> 
-     <li id="li_1381E3EF082B4D7DBD131D8EC62F94D2"><span class="codeph"> analyticsForwardingEnabled</span> </li> 
+     <li id="li_1381E3EF082B4D7DBD131D8EC62F94D2"><code> analyticsForwardingEnabled</code> </li> 
     </ul> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -361,8 +361,8 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
    <td colname="1"> <p>Identifiers </p> </td> 
    <td colname="2"> <p>Added the following new identifiers: </p> <p> 
      <ul id="ul_84AD959FC65C445BB119F69657AB4AF8"> 
-      <li id="li_418FD9EE570F491F9704F72AC70EEE8D"><span class="codeph"> setPushIdentifier</span> </li> 
-      <li id="li_B350606A504449E5AAE208B1E590E2CA"> <span class="codeph"> submitAdvertisingIdentifierTask</span> </li> 
+      <li id="li_418FD9EE570F491F9704F72AC70EEE8D"><code> setPushIdentifier</code> </li> 
+      <li id="li_B350606A504449E5AAE208B1E590E2CA"> <code> submitAdvertisingIdentifierTask</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -405,7 +405,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <span class="codeph"> trackBeacon</span> and <span class="codeph"> clearCurrentBeacon</span> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

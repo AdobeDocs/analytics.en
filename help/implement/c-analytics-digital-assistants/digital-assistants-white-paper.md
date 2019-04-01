@@ -253,13 +253,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing Spoofify" </p> </td> 
    <td colname="col3"> <p> Play </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.a.LaunchEvent=1&amp;c.Intent=Play&amp;pageName=PlayApp&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_E80B0BBEBE764023BB9B49FE5F15B918"> 
       <li id="li_9BC2CCABB0ED4246A57C37633666CDE2">Visitor ID </li> 
@@ -274,13 +272,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay what song do you want?" </p> </td> 
    <td colname="col3"> <p> ChangeSong </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangeSong&amp;pageName=&nbsp;AskForSong&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_AE8CF669F06547FDA68801F20BD8CBCE"> 
       <li id="li_5A03E41891AF4F37A3BE05BC11F197BC">Visitor ID </li> 
@@ -295,13 +291,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing 'My Heart Will Go On' by Celine Dion" </p> </td> 
    <td colname="col3"> <p> ChangeSong </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;ActionPlaySong&amp;c.SongID=[012345]&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_2AFEE1E928A8499E96B1BC6C5CC21F81"> 
       <li id="li_4BDF8093373A4DA1BB24A608FAC5B7CF">Visitor ID </li> 
@@ -316,13 +310,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay what playlist do you want?" </p> </td> 
    <td colname="col3"> <p> ChangePlaylist </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;AskForPlaylist&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_913CF31C3EB34BDB819AD54D28F9DE5D"> 
       <li id="li_93036A142FB34A73A95B8AB114EA99C3">Visitor ID </li> 
@@ -337,13 +329,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing Usher" </p> </td> 
    <td colname="col3"> <p> ChangePlaylist </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;ActionPlayPlaylist&amp;c.Playlist=Usher&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_B70E7C9BEFA54C2FA8B7485F9BC7CEE7"> 
       <li id="li_2B0319D20189497D8C9981F871D4FBC4">Visitor ID </li> 
@@ -358,13 +348,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> *no response, music turns off </p> </td> 
    <td colname="col3"> <p> Off </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=Off&amp;pageName=TurnsOffMusic&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_BCA19F2A98CC42788A23E668B260F553"> 
       <li id="li_12A9DA8684B2479D90F3C357AE4F1D15">Visitor ID </li> 
@@ -394,13 +382,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> *no response </p> </td> 
    <td colname="col3"> <p> Install </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;amp;c.a.InstallEvent=1&amp;c.a.InstallDate=2017-04-24&amp;c.a.AppID=Spoofify1.0&amp;c.OSType=Alexa&amp;c.Intent=Install&amp;pageName=Install&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_83A7731E5EA84477906AF4BFB3B50F48"> 
       <li id="li_A23A342B0D5745B3854B90ADFDD15EB2">Visitor ID </li> 
@@ -415,13 +401,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing Spoofify" </p> </td> 
    <td colname="col3"> <p> Play </p> </td> 
    <td colname="col4"> <p> 
-     <codeblock>
+     <code>
        GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.a.LaunchEvent=1&amp;c.Intent=Play&amp;pageName=PlayApp&nbsp;&nbsp;HTTP/1.1 
-      
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-      
-&nbsp;Cache-Control:&nbsp;no-cache 
-     </codeblock> </p> </td> 
+      &nbsp;Host:&nbsp;sc.omtrdc.net 
+      &nbsp;Cache-Control:&nbsp;no-cache 
+     </code> </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_8FCA2B1357A8496DAF563775F019404F"> 
       <li id="li_78E84586A5284164B5B577B68A113394">Visitor ID </li> 
@@ -436,13 +420,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay what song do you want?" </p> </td> 
    <td colname="col3"> <p>ChangeSong </p> </td> 
    <td colname="col4"> 
-    <codeblock>
+    <code>
       GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangeSong&amp;pageName=&nbsp;AskForSong&nbsp;&nbsp;HTTP/1.1 
-     
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-     
-&nbsp;Cache-Control:&nbsp;no-cache 
-    </codeblock> </td> 
+     &nbsp;Host:&nbsp;sc.omtrdc.net 
+     &nbsp;Cache-Control:&nbsp;no-cache 
+    </code> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_C0FCB407A1344527A532A1EAEF0387E4"> 
       <li id="li_8905BCF15F0F493D90B5F1135AEC149C">Visitor ID </li> 
@@ -457,13 +439,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing 'My Heart Will Go On' by Celine Dion" </p> </td> 
    <td colname="col3"> <p> ChangeSong </p> </td> 
    <td colname="col4"> 
-    <codeblock>
+    <code>
       GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;ActionPlaySong&amp;c.SongID=[012345]&nbsp;&nbsp;HTTP/1.1 
-     
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-     
-&nbsp;Cache-Control:&nbsp;no-cache 
-    </codeblock> </td> 
+     &nbsp;Host:&nbsp;sc.omtrdc.net 
+     &nbsp;Cache-Control:&nbsp;no-cache 
+    </code> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_5D782E44875144BF96877897E1180D18"> 
       <li id="li_CB5009ED407A4D4ABF3AAFE73133CC66">Visitor ID </li> 
@@ -478,13 +458,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay what playlist do you want?" </p> </td> 
    <td colname="col3"> <p> ChangePlaylist </p> </td> 
    <td colname="col4"> 
-    <codeblock>
+    <code>
       GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;AskForPlaylist&nbsp;&nbsp;HTTP/1.1 
-     
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-     
-&nbsp;Cache-Control:&nbsp;no-cache 
-    </codeblock> </td> 
+     &nbsp;Host:&nbsp;sc.omtrdc.net 
+     &nbsp;Cache-Control:&nbsp;no-cache 
+    </code> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_7167AE13BBC64CC99E4A81B1FF6C9208"> 
       <li id="li_15554F7C8AC3487797A2FB65C8C1E636">Visitor ID </li> 
@@ -499,13 +477,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> "okay playing Usher" </p> </td> 
    <td colname="col3"> <p> ChangePlaylist </p> </td> 
    <td colname="col4"> 
-    <codeblock>
+    <code>
       GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=ChangePlaylist&amp;pageName=&nbsp;ActionPlayPlaylist&amp;c.Playlist=Usher&nbsp;&nbsp;HTTP/1.1 
-     
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-     
-&nbsp;Cache-Control:&nbsp;no-cache 
-    </codeblock> </td> 
+     &nbsp;Host:&nbsp;sc.omtrdc.net 
+     &nbsp;Cache-Control:&nbsp;no-cache 
+    </code> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_BE5815D13CFA48408B4612D220356518"> 
       <li id="li_716EA824A56241A282FD1774A51CF52C">Visitor ID </li> 
@@ -520,14 +496,11 @@ One of the most powerful things to do is look at the flow of intents. This is he
    <td colname="col2"> <p> *no response, music turns off </p> </td> 
    <td colname="col3"> <p> Off </p> </td> 
    <td colname="col4"> 
-    <codeblock>
+    <code>
       GET&nbsp;/b/ss/[rsid]/0?vid=[UserID]&amp;c.a.AppID=Spoofify1.0&amp;c.Intent=Off&amp;pageName=TurnsOffMusic&nbsp;&nbsp;HTTP/1.1 
-     
-&nbsp;Host:&nbsp;sc.omtrdc.net 
-     
-&nbsp;Cache-Control:&nbsp;no-cache
-
-    </codeblock> </td> 
+     &nbsp;Host:&nbsp;sc.omtrdc.net 
+     &nbsp;Cache-Control:&nbsp;no-cache
+    </code> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_C623E19496DD466DA299AD610CE5ED1D"> 
       <li id="li_6A7AEF89A74C431C84D107E4F23AE223">Visitor ID </li> 

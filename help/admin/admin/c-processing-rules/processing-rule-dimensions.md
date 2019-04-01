@@ -54,19 +54,19 @@ The dimensions that you can read and write (unless otherwise noted) using proces
  <tbody> 
   <tr> 
    <td colname="col1"> <p>prop 1-75 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> prop1 - prop75</span> </p> </td> 
+   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hierarchy 1-5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> hier1 - hier5</span> </p> </td> 
+   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Site Section </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.channel </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.server </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +87,11 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Name </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.pageName</span> </p> <p>Note:  A page view is counted on all hits where page name is not empty. When a link is tracked, the data collection server removes the page name from the hit so that page views are not counted. If you re-insert a page name into these calls using processing rules, a page view will be counted. We recommend checking to make sure that page name is already set before you modify the page name. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Note:  A page view is counted on all hits where page name is not empty. When a link is tracked, the data collection server removes the page name from the hit so that page views are not counted. If you re-insert a page name into these calls using processing rules, a page view will be counted. We recommend checking to make sure that page name is already set before you modify the page name. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page URL </p> </td> 
-   <td colname="col2"> <span class="codeph"> s.pageURL</span> or the current page URL if <span class="codeph"> s.pageURL</span> is not specified. </td> 
+   <td colname="col2"> <code> s.pageURL</code> or the current page URL if <code> s.pageURL</code> is not specified. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Query String Parameter </p> </td> 
@@ -160,35 +160,35 @@ The dimensions that you can read and write (unless otherwise noted) using proces
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> evar1</span> - <span class="codeph"> evarN</span> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campaign Tracking Code </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.campaign</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Currency Code </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.currencyCode</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>List Variables1-3 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.list1</span> - <span class="codeph"> s.list3</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Purchase ID </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.purchaseID</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Transaction ID </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.transactionID </span> </p> </td> 
+   <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor State </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.state</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.state</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor Zip/Postal Code </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s.zip</span> </p> </td> 
+   <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -207,7 +207,7 @@ Processing rules can set events but cannot read them as conditions.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Event 1-1000 </p> <p>(For SiteCatalyst 15 customers, Event 1-100.) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> event1</span> - <span class="codeph"> event1000</span> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase, scView, scAdd, and other cart events </p> </td> 

@@ -28,7 +28,7 @@ Edit Tool]** > **[!UICONTROL Customize Page Code]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Open Editor </p> </td> 
-   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <span class="codeph"> s.t()</span> call, which is contained in the <span class="codeph"> s_code</span>. </p> </td> 
+   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Execute </p> </td> 

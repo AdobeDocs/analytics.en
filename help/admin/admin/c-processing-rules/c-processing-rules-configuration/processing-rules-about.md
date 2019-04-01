@@ -85,7 +85,7 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Context data variable names can contain only alphanumeric characters, underscores and dots. Any additional characters are stripped out. </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <span class="codeph"> login_page-home</span> automatically becomes <span class="codeph"> login_pagehome</span>. All data sent to the <span class="codeph"> login_page-home</span> variable is allocated under <span class="codeph"> login_pagehome</span>. </p> <p>Context data variables that contain unsupported characters cannot be added in the Processing Rules interface. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Context data variables that contain unsupported characters cannot be added in the Processing Rules interface. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caret (^) is a special character in the processing rules system. </p> </td> 

@@ -50,19 +50,19 @@ The following characters have a special meaning in multi-valued variables:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> , </span> (comma character) </td> 
+   <td colname="col1"> <code> , </code> (comma character) </td> 
    <td colname="col02"> End of value </td> 
    <td colname="col2"> <p>Separates product strings, event IDs, or other values in multi-valued variables. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> ; </span> (semicolon character) </td> 
+   <td colname="col1"> <code> ; </code> (semicolon character) </td> 
    <td colname="col02"> End of sub-value within an individual product value </td> 
-   <td colname="col2"> <p>Separates values associated with an individual product in the <span class="codeph"> product_list </span>. </p> </td> 
+   <td colname="col2"> <p>Separates values associated with an individual product in the <code> product_list </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> = </span> (equals character) </td> 
+   <td colname="col1"> <code> = </code> (equals character) </td> 
    <td colname="col02"> Value assignment </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <span class="codeph"> event_list </span>. </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

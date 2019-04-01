@@ -30,12 +30,12 @@ Field descriptions for the General settings in dynamic tag manager, for deployin
      <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> If the cookie does not exist or if the cookie exists and is set to anything but <span class="term"> true </span>, the loading of the tool is skipped when this setting is enabled. Meaning, any portion of a rule that uses the tool will not apply. </p> <p>If a rule has analytics with EU compliance on and third-party code, and the cookie is set to <span class="term"> false </span>, the third-party code still runs. However, the analytics variables will not be set. </p> </li> 
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> If the cookie exists but it is set to <span class="term"> true </span>, the tool loads normally. </li> 
     </ul> <p>You are responsible for setting the <span class="filepath"> sat_track </span> (or custom named) cookie to <span class="term"> false </span> if a visitor opts out. You can accomplish this using custom code: </p> <p> 
-     <codeblock>
+     <code>
        _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
-     </codeblock> </p> <p> You must also have a mechanism to set that cookie to <span class="term"> true </span> if you want a visitor to be able to opt in later: </p> <p> 
-     <codeblock>
+     </code> </p> <p> You must also have a mechanism to set that cookie to <span class="term"> true </span> if you want a visitor to be able to opt in later: </p> <p> 
+     <code>
        _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Character Set </p> </td> 

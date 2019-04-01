@@ -30,7 +30,7 @@ The following table describes the fields and options you use to [configure paid 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Query string</span> </td> 
-   <td colname="col2"> <p>Specifies a case-sensitive rule set to either contain or not contain a specific value. This value should be the query string parameter, omitting the <span class="codeph"> ?</span>. </p> <p>Note: Paid Search Detection is case sensitive. For example, a rule that specifies <span class="term"> PID</span> as a query string parameter does not display <span class="term"> pid</span> in reporting. If your organization uses mixed cases, place the exact values as separate rules, so all desired query string parameters can be caught. </p> </td> 
+   <td colname="col2"> <p>Specifies a case-sensitive rule set to either contain or not contain a specific value. This value should be the query string parameter, omitting the <code> ?</code>. </p> <p>Note: Paid Search Detection is case sensitive. For example, a rule that specifies <span class="term"> PID</span> as a query string parameter does not display <span class="term"> pid</span> in reporting. If your organization uses mixed cases, place the exact values as separate rules, so all desired query string parameters can be caught. </p> </td> 
   </tr> 
  </tbody> 
 </table>

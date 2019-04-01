@@ -491,18 +491,18 @@ Inside of `doPlugins`, you can use the following values to modify link tracking 
      <li id="li_52B6F2B124024DEFB422D1E9E97254C0">d (download) </li> 
      <li id="li_E842C2E64F034181A364C639C30451FD">e (exit) </li> 
      <li id="li_3263F378CE65407E81B6C5C597CED1E8">o (custom/other) </li> 
-    </ul> <p>This is the <span class="codeph"> pe </span> parameter in the image request. </p> </td> 
-   <td colname="col3"> <p>If set with <span class="codeph"> linkURL </span> or <span class="codeph"> linkName </span>, a server call is sent as a download, custom, or exit link. </p> </td> 
+    </ul> <p>This is the <code> pe </code> parameter in the image request. </p> </td> 
+   <td colname="col3"> <p>If set with <code> linkURL </code> or <code> linkName </code>, a server call is sent as a download, custom, or exit link. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> linkName </td> 
-   <td colname="col2"> <p>The name that will appear in the custom, download or exit link report. Truncated at 100 characters. Can be set to any string. </p> <p>This is the <span class="codeph"> pev2 </span> parameter in the image request. </p> </td> 
-   <td colname="col3"> <p> If set with <span class="codeph"> linkType </span> , an image request will be sent as a download, custom or exit link </p> </td> 
+   <td colname="col2"> <p>The name that will appear in the custom, download or exit link report. Truncated at 100 characters. Can be set to any string. </p> <p>This is the <code> pev2 </code> parameter in the image request. </p> </td> 
+   <td colname="col3"> <p> If set with <code> linkType </code> , an image request will be sent as a download, custom or exit link </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> linkURL </td> 
-   <td colname="col2"> <p>The URL of the link, which acts as the name if a linkName does not exist. Can be set to any URL string. </p> <p>This is the <span class="codeph"> pev1 </span> parameter in the image request. </p> </td> 
-   <td colname="col3"> <p>If set with <span class="codeph"> linkType </span>,&nbsp;an image request will be sent as a download, custom or exit link </p> </td> 
+   <td colname="col2"> <p>The URL of the link, which acts as the name if a linkName does not exist. Can be set to any URL string. </p> <p>This is the <code> pev1 </code> parameter in the image request. </p> </td> 
+   <td colname="col3"> <p>If set with <code> linkType </code>,&nbsp;an image request will be sent as a download, custom or exit link </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> linkObject </td> 

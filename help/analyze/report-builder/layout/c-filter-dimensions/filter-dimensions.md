@@ -88,7 +88,7 @@ The following tables provide examples and information about filters:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advanced (special characters) </p> </td> 
-   <td colname="col02"> <p>Lets you regex characters: </p> <p> <span class="codeph"> "", ^, -, *, $, | </span> </p> </td> 
+   <td colname="col02"> <p>Lets you regex characters: </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Home*Page$" | sports </p> </td> 
    <td colname="col3"> <p> This defines a filter that starts with <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>Also, any page with <span class="term"> sports</span> in it. </p> <p>A few example matches: </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 

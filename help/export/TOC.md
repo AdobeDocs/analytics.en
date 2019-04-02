@@ -63,7 +63,6 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + Set up Adobe-hosted FTP accounts {#set-up-ftp-accounts}
         + [Set up FTP accounts - overview](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
         + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
-        + [https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)
         + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
         + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
         + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)

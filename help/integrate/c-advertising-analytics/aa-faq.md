@@ -17,39 +17,32 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 <table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
  <thead> 
   <tr> 
-   <th colname="col01" class="entry"> </th> 
    <th colname="col1" class="entry"> Question </th> 
    <th colname="col2" class="entry"> Answer </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Media Optimizer (AMO) customer</b> to access this functionality? </p> </td> 
    <td colname="col2"> <p>A: No, this functionality is available for non-Advertising Cloud and non-AMO customers. </p> <p>AMO customers can leverage the existing Analytics-AMO integration; they will not be able to use Ad Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p>Q: Which <b>Adobe Analytics SKUs</b> entitle you to the use of Advertising Analytics? </p> </td> 
    <td colname="col2"> <p>A: Advertising Analytics is available for Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external"> Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external"> Prime </a>, and <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external"> Ultimate </a> SKUs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p>Q: Do we have to <b>pay extra</b> to use Advertising Analytics? </p> </td> 
    <td colname="col2"> <p>A: No, outside of proper SKU provisioning Advertising Analytics does not incur extra cost. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p>Q: Will Advertising Analytics count against my <b>server call usage</b>? </p> </td> 
    <td colname="col2"> <p>A: No, Advertising Analytics uses a special data source type which does not incur server call costs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p>Q: If I <b>already use Advertising Cloud/AMO</b>, can I still use the Advertising Analytics functionality? </p> </td> 
    <td colname="col2"> <p>A: Any compatible search engine account will pass into Advertising Analytics and will be displayed as read-only. All edits or updates should be handled in Advertising Cloud/AMO. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p>Q: I own the correct SKU, but I <b>cannot access</b> Advertising Analytics, why is that? </p> </td> 
    <td colname="col2"> <p>A: Advertising Analytics is available only for Adobe Analytics administrators; however, admins may grant access to non-admins. Please contact your administrator for access rights. </p> </td> 
   </tr> 
@@ -68,32 +61,26 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p>Q: Which <b>search engine accounts</b> are included in Advertising Analytics? </p> </td> 
    <td colname="col2"> <p>A: Search engine accounts include Google AdWords, Microsoft Bing, and Yahoo! Gemini. </p> <p>Note:  The Yahoo Gemini search engine is not available to customers who are assigned to the Adobe Media Optimizer (AMO) Europe Data Center. As a result, Analytics customers in the Singapore and London Analytics Data Centers are impacted and will not see Yahoo Gemini as one of the options. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p>Q: Where do I go to <b>access</b> Advertising Analytics? </p> </td> 
    <td colname="col2"> <p>A: After logging in to Adobe Analytics, navigate to the <span class="uicontrol"> Admin </span> menu. Then select the new menu option <span class="uicontrol"> Advertising Analytics </span> to add your search engine accounts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p>Q: How is the <b>data collected and passed into Analytics</b>? </p> </td> 
    <td colname="col2"> <p>A: Advertising Analytics utilizes a series of custom APIs to pass data from search engines via the Adobe Advertising Cloud into Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p>Q: What <b>search data</b> do I get with this integration? </p> </td> 
    <td colname="col2"> <p>A: You will get 1) Impressions, 2) Clicks, 3) Costs, 4) Quality Score, and 5) Average Position directly from the search engines as well as a 6) AMO ID Instances (Click Instances). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p>Q: Can I <b>break my Advertising Analytics data down</b> by other Analytics data (metrics/dimensions)? </p> </td> 
    <td colname="col2"> <p>A: No, the raw search data will come in as an independent data set. However, there is an Instances version of the click data that can be broken down by other Analytics data. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>6 </p> </td> 
    <td colname="col1"> <p>Q: What is the definition of the various <b>status indicators</b> for my accounts (Pending, Active, Paused, etc.)? </p> </td> 
    <td colname="col2"> <p>A: Each of these status indicators identifies the lifecycle stage of each search engine account. </p> 
     <ul id="ul_F68AD377B2F04A47B20355B2FF4CF345"> 
@@ -103,47 +90,38 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>7 </p> </td> 
    <td colname="col1"> <p>Q: I am trying to <b>map my Advertising Analytics accounts to a specific report suite</b>, but it is not available in the Report Suite modal. Why? </p> </td> 
    <td colname="col2"> <p>A: Before you can assign a report suite to an Advertising Analytics account, the desired report suite needs to be <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local"> provisioned for Advertising Analytics reporting </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>8 </p> </td> 
    <td colname="col1"> <p>Q: Is it possible to assign a <b>Virtual Report Suite</b> (VRS) to an Advertising Analytics account? </p> </td> 
    <td colname="col2"> <p>A: Virtual Report Suites do not collect data, so you cannot directly map an Advertising Analytics account to a VRS. </p> <p>However, you can map the Advertising Analytics account to the parent Report Suite of the VRS that you want to see data in. </p> <p>The Search Engine metrics (click/cost/impressions) may not show up in the VRS unless you include an “or” condition in your segment logic based on the AMO ID (or its classification). Example: Adding “all hits where AMO ID exists” would include the search engine metrics in the segment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>9 </p> </td> 
    <td colname="col1"> <p>Q: Are Advertising Analytics metrics reportable in the <b>Marketing Channels</b> report? </p> </td> 
    <td colname="col2"> <p>A: No, the they are not included in the Marketing Channels report. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>10 </p> </td> 
    <td colname="col1"> <p>Q: <b>When</b> does the search data get pulled into Analytics? </p> </td> 
    <td colname="col2"> <p>A: The search data is pulled from the search engines around 6AM (06:00) in the time zone of your Analytics data center. This is when the AMO data is collected and inserted into the report suite. It is then converted into the report suite time zone as part of inserting the data into Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>11 </p> </td> 
    <td colname="col1"> <p>Q: What can be <b>captured before the click</b>? Do we bring impressions, cost, average position, etc. even without the click? </p> </td> 
    <td colname="col2"> <p>A: The AMO ID will capture the Search engine metrics: Impressions, Cost, Clicks, Average Position, and Average Quality Score. If there are no clicks, but there are impressions, then the impression/position/quality score data will still be sent to Analytics. Typically, if there are no clicks, then there is also no cost. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>12 </p> </td> 
    <td colname="col1"> <p>Q: What level is this data being captured at? <b>Visitor? Hit?</b> </p> </td> 
    <td colname="col2"> <p>A: The Search engine metrics are captured at the hit level and connected to the AMO ID (and its classifications). It is summary level data and not connected to visits/visitors. As such, the search engine metrics can only be used in segments that are hit-level scope and are based on the AMO ID (or its classifications). </p> <p>The AMO ID is also captured on the landing page in the hit for that page (which connects it to the visit/visitor) and will persist downstream to get credit for other Analytics metrics (until it expires or is overwritten by a new AMO ID). It is fully incorporated into the data set like any other eVar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>13 </p> </td> 
    <td colname="col1"> <p>Q: Do we only capture google.com or <b>country versions</b> (like google.co.uk, google.it, google.fr, or google.de) as well? </p> </td> 
    <td colname="col2"> <p>A: The Ad Platform classification captures the values: “Google Adwords”, “Yahoo Gemini”, and “MSN adCenter” (soon to be changed to “Bing Ads”). </p> <p>A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with “UK_” would provide you with only data for the UK). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>14 </p> </td> 
    <td colname="col1"> <p>Q: The metric "AMO Cost" is the cost paid for each keyword/ad as reported by the search engine. Is this Net cost or Gross cost? </p> </td> 
    <td colname="col2"> <p>A: "AMO cost" is only the cost paid to the search engines. It does not include any agency or search optimization/management platform fees. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>15 </p> </td> 
    <td colname="col1"> <p>Q: Are there plans to include other advertising channels such as <b>Display</b> or <b>Social</b>? </p> </td> 
    <td colname="col2"> <p>A: No, currently we do not have plans for these other channels on the roadmap. </p> </td> 
   </tr> 
@@ -155,14 +133,12 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
   <tr> 
-   <th colname="col01" class="entry"> </th> 
    <th colname="col1" class="entry"> Question </th> 
    <th colname="col2" class="entry"> Answer </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p>Q: When setting up my Advertising account, it states that<b> Auto Tracking</b> can lead to unintended consequences. What kinds of consequences may occur? </p> </td> 
    <td colname="col2"> <p>A: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
@@ -171,7 +147,6 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p>Q: If I set up Manual or Automatic Tracking initially, <b>can I switch</b> to the other tracking mode later on? What are the implications? </p> </td> 
    <td colname="col2"> <p>A: Yes you can switch, but you will need to remove the old tracking logic before making the switch. This may result in some downtime of tracking on the day the switch is made (especially if moving from manual to automatic). Also note that as Yahoo does not have tracking templates, making these changes to the ad URL will generate new ad IDs which may impact reporting in Yahoo Gemini’s interface. As such, it is recommended to not switch unless absolutely necessary. </p> 
     <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 

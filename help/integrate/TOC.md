@@ -16,7 +16,6 @@ user-guide-url: /content/help/en/analytics/integration/home.html
     + [GDPR/ePrivacy compliance and server-side forwarding - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
     + [Requirements for server-side forwarding -Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
     + [Verify your server-side forwarding implementation - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-    + [Server-side forwarding data and code reference - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
     + [Server-side forwarding FAQ - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
     + [Create analytics destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
     + [Use the audience data in Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)

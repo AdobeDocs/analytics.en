@@ -14,5 +14,3 @@ Deleting a feed removes it from the Feed list.
 
 1. Select one or more feeds.
 1. Click **[!UICONTROL Delete]**.
-
-   Step Result 

@@ -14,19 +14,19 @@ Searching and filtering help you locate a job in the list.
 
 1. Click or hover over the Filter icon to view the filtering options.
 
-   ![](assets/jobs-filter.jpg)
+   ![Job Filter](assets/jobs-filter.jpg)
 
    There are several available filtering options:
 
-* Report suite 
-* Feed ID 
-* Status 
-* Start Time 
-* Completion Time 
-* Requested Date
+   * Report suite
+   * Feed ID
+   * Status
+   * Start Time
+   * Completion Time
+   * Requested Date
 
 1. Enter a search term to search the Jobs list.
 
-   ![](assets/search.jpg)
+   ![Search](assets/search.jpg)
 
-You can combine filtering and searching to help you find your jobs. Multiple filters and search terms are joined with an AND operation. 
+You can combine filtering and searching to help you find your jobs. Multiple filters and search terms are joined with an AND operation.

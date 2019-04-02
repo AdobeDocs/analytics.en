@@ -10,20 +10,20 @@ uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 
 # Search and filter
 
-Searching and filtering help you locate a feed in the list.
+Searching and filtering helps you locate a feed in the list.
 
 1. Click or hover over the Filter icon to view the filtering options.
 
-   ![](assets/filters.jpg)
+   ![Filters](assets/filters.jpg)
 
    There are three available filtering options:
 
-* Report suite 
-* Owner 
-* Status
+      * Report suite
+      * Owner
+      * Status
 
 1. Enter a search term to search the feeds list.
 
-   ![](assets/search.jpg)
+   ![Search](assets/search.jpg)
 
 You can combine filtering and searching to help you find your feeds. Combined filters are joined by an AND operator. 

@@ -298,6 +298,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Ad Hoc Analysis overview](ad-hoc-analysis/adhoc-home.md)
     + [Getting Started](ad-hoc-analysis/c-getting-started.md)
     + [Administration](ad-hoc-analysis/c-administration.md)
+    + [Run Ad Hoc Analysis with Java 11](ad-hoc-analysis/adhoc-java.md)
     + [Configure existing reports](ad-hoc-analysis/c-reports-configure.md)
     + [Dates and date ranges](ad-hoc-analysis/c-dates.md)
     + [Dimensions](ad-hoc-analysis/c-dimensions.md)

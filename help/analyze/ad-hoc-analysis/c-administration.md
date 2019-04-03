@@ -112,7 +112,7 @@ Running Ad Hoc Analysis with Java 11 is slightly different than running it with 
 1. Go to **[!UICONTROL Analytics > Tools > Ad Hoc Analysis]**.
 1. Click **[!UICONTROL Download Ad Hoc Analysis (Java 11)]**. This downloads a zip file.
 1. Unzip the downloaded file.
-1. **Select the .bat (PC) or .sh (Mac) file**. Select the appropriate data center file by looking at the number following “sc” in the Adobe Analytics URL. 3 = LON, 4 = SIN, 5 = PNW. If you use a PC, verify whether you are running a 32-bit or a 64-bit Windows operating system by going to ‘About your PC’. Then select the appropriate .bat file.
+1. **Select the .bat (PC) or .sh (Mac) file**. Select the appropriate data center file by looking at the number following “sc” in the Adobe Analytics URL. (3 = LON, 4 = SIN, 5 = PNW) If you use a PC, verify whether you are running a 32-bit or a 64-bit Windows operating system by going to ‘About your PC’. Then select the appropriate .bat file.
 1. **Run the selected file**. For PC: Doubleclick the .bat file. For Mac: Right-click the .sh file, then select **[!UICONTROL Open With > Other... > Utilities > (Enable all applications) > select Terminal > Open]**.
 1. Log in to Ad Hoc Analysis. 
 

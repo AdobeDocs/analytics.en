@@ -11,6 +11,10 @@ uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 
 # Add a user group
 
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+
 Steps that describe how to add a user group.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.

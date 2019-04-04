@@ -12,7 +12,7 @@ uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 
 You can provide custom report descriptions for eVars, props, classifications and events. The descriptions are visible to all of your end users.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL  *`variable`*]**
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variable*]**
 
 >[!NOTE]
 >

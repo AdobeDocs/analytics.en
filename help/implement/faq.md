@@ -61,7 +61,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Tracking Server - How do I correctly populate my tracking server? </p> </td> 
-   <td colname="col3"> <p>When you configure an implementation to send data to Adobe Analytics servers, you must send it to the correct location. Failure to do so causes inflated visitor counting or data loss. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/determining-data-center.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col3"> <p>When you configure an implementation to send data to Adobe Analytics servers, you must send it to the correct location. Failure to do so causes inflated visitor counting or data loss. <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can a failure to load the external Adobe JavaScript, whether due to internet connection, proxy, firewall, or service interruption at Adobe, affect performance? </p> </td> 

@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Components Guide
 
+![Banner](../../assets/doc_banner_components.png)
+
 Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts.
 
 ## Key Analytics Components articles

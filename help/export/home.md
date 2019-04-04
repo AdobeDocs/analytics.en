@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Export Guide
 
+![Banner](../../assets/doc_banner_export.png)
+
 This guide discusses various data export methods, such as data feeds and Data Warehouse.
 
 ## Key Analytics Export articles

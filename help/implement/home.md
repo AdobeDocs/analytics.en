@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Implementation Guide
 
+![Banner](../../assets/doc_banner_implement.png)
+
 This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Launch].
 
 ## Key Analytics Import articles

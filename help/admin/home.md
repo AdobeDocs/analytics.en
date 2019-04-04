@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Admin Guide
 
+![Banner](../../assets/doc_banner_admin.png)
+
 This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance.
 
 ## Key articles

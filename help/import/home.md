@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Import Guide
 
+![Banner](../../assets/doc_banner_import.png)
+
 This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors.
 
 ## Key Analytics Import articles

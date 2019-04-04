@@ -15,10 +15,6 @@ Processing rules let you make changes to data based on defined conditions. When 
 
 Processing rules are applied to data as it is collected, and rules are applied to all data that comes through the AppMeasurement libraries and through the Data Insertion API. Processing rules also apply to the full and log data sources. These sources contain data that represents a *`hit`* or an action that a user takes. Processing rules do not apply to other data sources.
 
-* [Important Concepts](../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md#section_EB138775E7C64C74B0D1D3213F7A823C) 
-* [Processing Rule Conditions](../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md#section_387390EEE9BA4DA98698522A84326DB4) 
-* [Processing Rule Actions](../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md#section_E2285C9D008442C7BF136E52A9A4CC06)
-
 ## Important Concepts {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
 The following table contains key concepts you need to understand when using processing rules: 

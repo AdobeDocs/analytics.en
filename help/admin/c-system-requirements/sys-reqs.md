@@ -13,7 +13,9 @@ This topic provides details on the system requirements for each Adobe Analytics 
 
 **Experience Cloud Core Services**
 
-* Microsoft's latest Internet Explorer. (Microsoft is [ending support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) for Internet Explorer 8, 9, and 10. As such, we will not fix issues reported against these specific versions of Internet Explorer.) 
+Adobe supports the latest major version of these browsers:
+
+* Microsoft Edge. (Adobe ended support for Microsoft Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to the latest major version of Microsoft Edge or of another supported browser, as soon as possible.) 
 * Google Chrome 
 * Mozilla Firefox 
 * Apple Safari

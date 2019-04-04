@@ -12,9 +12,6 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 
 Steps on running the different report types.
 
-## Run different report types {#concept_74224660B2394605A70E9BD8C785E729}
-
-Steps on running the different report types. 
 
 ## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 

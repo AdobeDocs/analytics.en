@@ -10,7 +10,7 @@ uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 
 # Publishing Widget
 
-A Publishing Widget is a container that lets you embed marketing reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to marketing reports can view pertinent data.
+A Publishing Widget is a container that lets you embed Analytics reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to Analytics reports can view pertinent data.
 
 For example, you could provide a dashboard so company executives can view the number of page visitors, the number of unique page visitors, and so on.
 
@@ -22,7 +22,7 @@ For example, you could provide a dashboard so company executives can view the nu
 
 Because Publishing Widget can potentially drive high traffic volumes, Adobe reserves the right, at its sole discretion, to disable a company's Publishing widgets for improper use or excessive traffic that is causing an impact to overall performance.
 
-**Troubleshooting - Publishing Widget Cache**
+## Troubleshooting - Publishing Widget Cache
 
 The first time any user sees the deployed publishing widget, the widget runs the report. After the report is run, the results are added to a cache and are valid for 1 hour. Any subsequent user who views the publishing widget within the next hour will see the cached version (it will return instantly). After an hour has passed, any subsequent user who views the publishing widget will force it to run the report again, and then these results are cached, and so on. That way, the data is guaranteed to be at most one hour old.
 
@@ -38,30 +38,9 @@ If you see data differences between the Publishing Widget and the reporting inte
 
 ## Publishing Widgets Descriptions {#section_D67478AECCA946B19A3E4C7071EB4871}
 
-<table id="table_3050E38B58714BB9AA2BE73F40EEA835"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Name </td> 
-   <td colname="col2"> The name for the widget. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Description </td> 
-   <td colname="col2"> (Optional) Specify a description for the widget. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report </td> 
-   <td colname="col2"> <p>From the top Report drop-down list, select a folder or a dashboard. From the bottom Report drop-down list, select a reportlet or bookmark. </p> <p>These reports do not require visitor authentication. When a visitor loads a web page that includes a Publishing Widget, the widget automatically displays the associated report using current reporting data. Changes to a Publishing Widget, such as changing the associated report, automatically updates the report output for all web pages that use that widget, without you having to redeploy the web pages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Destination </td> 
-   <td colname="col2"> <p>Specify the destination for the widget. </p> <p> Destinations must be in a valid URL format, including the <code> https://</code> or <code> https://</code> prefix. Publishing widget Destinations are inclusive, meaning that the Publishing widget functions on all URLs that include the specified Destination. For example, a Destination of <code> https://www.corp1.com/sales/</code> allows Publishing widgets on all Web pages at or below the sales page on the <code> www.corp1.com</code> Web site. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Element | Description |
+|--- |--- |
+|Name|The name for the widget.|
+|Description|(Optional) Specify a description for the widget.|
+|Report|From the top Report drop-down list, select a folder or a dashboard. From the bottom Report drop-down list, select a reportlet or bookmark.  These reports do not require visitor authentication. <br>When a visitor loads a web page that includes a Publishing Widget, the widget automatically displays the associated report using current reporting data. Changes to a Publishing Widget, such as changing the associated report, automatically updates the report output for all web pages that use that widget, without you having to redeploy the web pages.</br>|
+|Destination|Specify the destination for the widget.   Destinations must be in a valid URL format, including the https:// or https:// prefix. Publishing widget Destinations are inclusive, meaning that the Publishing widget functions on all URLs that include the specified Destination. <br>For example, a Destination of https://www.corp1.com/sales/ allows Publishing widgets on all Web pages at or below the sales page on the  www.corp1.com Web site.</br>|

@@ -42,14 +42,14 @@ Each row in the import file can contain only one of the following bot definition
 
 * **IP range match**: Define a range of IP addresses using the IP Start and IP End columns. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. Match Rule, Agent Include, and Agent Exclude must be empty.
 
-**Multiple Rules Combined with OR**
+## Multiple Rules Combined with OR
 
 To match a bot using a combination of rules joined with an OR (for example, user agent or IP address), provide an identical name for all rules that you want to combine in the bot name field. AND matches are not supported.
 
-**Overwrite All Rules with an Upload File**
+## Overwrite All Rules with an Upload File
 
 Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 
-**Exporting Rules**
+## Export Rules
 
 The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format. 

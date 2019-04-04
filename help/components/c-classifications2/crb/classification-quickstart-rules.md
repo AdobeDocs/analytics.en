@@ -34,11 +34,11 @@ For example, assume that a tracking code for an email campaign ID is:
 
 You can set up three rules in a rule set that identify the parts of the string, then classify the values: 
 
-|  #  | Select Rule Type  | Enter Match Criteria  | Set Classification  | To  |
-|---|---|---|---|---|
-|  1  | Starts With  | em:  | Channel  | Email  |
-|  2  | Ends With  | Sale  | Type  | Sale  |
-|  3  | Contains  | 2013  | Year  | 2013  |
+| Select Rule Type  | Enter Match Criteria  | Set Classification  | To  |
+|---|---|---|---|
+| Starts With  | em:  | Channel  | Email  |
+| Ends With  | Sale  | Type  | Sale  |
+| Contains  | 2013  | Year  | 2013  |
 
 ## How Rules Are Processed {#concept_A67A23F523844D37898583C632DB9D25}
 
@@ -146,9 +146,9 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
-|  #  | Select Rule Type  | Enter Match Criteria  | Set Classification  | To  |
-|---|---|---|---|---|
-|  1  | Regular Expression  | &Hat;(.+)\:(.+)\:(.+)$  | Campaign Date  | $3  |
+| Select Rule Type  | Enter Match Criteria  | Set Classification  | To  |
+|---|---|---|---|
+| Regular Expression  | &Hat;(.+)\:(.+)\:(.+)$  | Campaign Date  | $3  |
 
 **Syntax** 
 
@@ -174,10 +174,10 @@ One way to use a regular expression is to classify a specific character in a str
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
-| # | Select Rule Type | Enter Match Criteria | Set Classification | To |
-|--- |--- |--- |--- |--- |
-||Regular Expression|`^.(s).*$`|Brand and Engine|`$0` (Captures the first two characters for brand name and search engine.)|
-||Regular Expression|`^.(s).*$`|Search Engine|`$1` (Captures the second character for Google.)|
+| Select Rule Type | Enter Match Criteria | Set Classification | To |
+|--- |--- |--- |--- |
+|Regular Expression|`^.(s).*$`|Brand and Engine|`$0` (Captures the first two characters for brand name and search engine.)|
+|Regular Expression|`^.(s).*$`|Search Engine|`$1` (Captures the second character for Google.)|
 
 ## Regular Expressions - Matching Tracking Codes of Varying Length {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
@@ -199,14 +199,14 @@ Sample Keys:
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
-| # | Select Rule Type | Enter Match Criteria | Set Classification | To |
-|--- |--- |--- |--- |--- |
-||Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|a|`$1`|
-||Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|b|`$2`|
-||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|a|`$1`|
-||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|b|`$2`|
-||Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|c|`$3`|
-||Regular Expression  For match string a:b:c:d|`^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$`|d|`$4`|
+| Select Rule Type | Enter Match Criteria | Set Classification | To |
+|--- |--- |--- |--- |
+|Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|a|`$1`|
+|Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|b|`$2`|
+|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|a|`$1`|
+|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|b|`$2`|
+|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|c|`$3`|
+|Regular Expression  For match string a:b:c:d|`^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$`|d|`$4`|
 
 ## Regular Expressions - "Does Not Contain" Example {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -408,4 +408,4 @@ Steps that describe how to validate and activate classification rules.
 
    This option lets you overwrite existing classifications for affected keys.
 
-   See [Rules Page](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) for a definition of this option. 
+   See [Rules Page](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) for a definition of this option.

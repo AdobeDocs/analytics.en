@@ -26,39 +26,32 @@ There are several ways to get to the Calculated Metric Builder:
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> # </th> 
    <th colname="col2" class="entry"> Field </th> 
    <th colname="col3" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 1 </td> 
    <td colname="col2"> <span class="uicontrol"> Title </span> </td> 
    <td colname="col3"> <p>Naming the metric is mandatory. You cannot save the metric unless it is named. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 2 </td> 
    <td colname="col2"> <span class="uicontrol"> Description </span> </td> 
    <td colname="col3"> <p>Give it a user-friendly description to show what it's used for and to distinguish it from similar ones. </p> <p>The description also appears within a report. It's best NOT to put the formula into the description - instead, describe what this metric should and should not be used for. (The formula is generated as you build the metric, underneath the Summary heading. As a result, there is no need to add the formula to the description.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 3 </td> 
    <td colname="col2"> <span class="uicontrol"> Format </span> </td> 
    <td colname="col3"> <p>Choices include Decimal, Time, Percent, and Currency. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 4 </td> 
    <td colname="col2"> <span class="uicontrol"> Decimal Places </span> </td> 
    <td colname="col3"> <p>Shows how many decimal places will be shown in the report. The maximum number of decimal places you can specify is 10. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 5 </td> 
    <td colname="col2"> <span class="uicontrol"> Show Upward Trend As... </span> </td> 
    <td colname="col3"> <p>This metric polarity setting shows whether [!DNL Analytics] should consider an upward trend in the metric as good (green) or bad (red). As a result, the report's graph will show as green or red when it's going up. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 6 </td> 
    <td colname="col2"> <span class="uicontrol"> Tags </span> </td> 
    <td colname="col3"> <p>Tagging is a good way to organize metrics. All users can create tags and apply one or more tags to a metric. However, you can see tags only for those segments that you own or that have been shared with you. What kinds of tags should you create? Here are some suggestions for useful tags: 
      <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
@@ -69,12 +62,10 @@ There are several ways to get to the Calculated Metric Builder:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 7 </td> 
    <td colname="col2"> <span class="uicontrol"> Summary </span> </td> 
    <td colname="col3"> <p>The <span class="uicontrol"> Summary </span> formula updates anytime you make a change to the metric definition. This formula also shows up in the metrics rail on the left when you hover over a metric and click the <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 8 </td> 
    <td colname="col2"> <span class="uicontrol"> Definition </span> </td> 
    <td colname="col3"> <p>This is where you drag in metrics/calculated metrics, segments, and/or functions to build the calculated metric. </p> <p> 
      <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
@@ -83,22 +74,18 @@ There are several ways to get to the Calculated Metric Builder:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 9 </td> 
    <td colname="col2"> <span class="uicontrol"> Operator </span> </td> 
    <td colname="col3"> <p>Divided by ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 10 </td> 
    <td colname="col2"> <span class="uicontrol"> Preview </span> </td> 
    <td colname="col3"> <p>Provides a quick read on any possible errors. The preview covers the last 90 days. This is a way of initially gauging whether you have selected the right components for your metric. An unexpected result would mean you need to take a second look at the metric definition. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 11 </td> 
    <td colname="col2"> <span class="uicontrol"> Product Compatibility </span> </td> 
    <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> More... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 12 </td> 
    <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
    <td colname="col3"> <p>For all types of calculated metrics, you can add containers and static numbers to the definition. For advanced calculated metrics, you can also add segments and functions. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
@@ -108,27 +95,22 @@ There are several ways to get to the Calculated Metric Builder:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 13 </td> 
    <td colname="col2"> Gear icon ( <span class="uicontrol"> Metric Type </span>, <span class="uicontrol"> Attribution </span>) </td> 
    <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E" format="dita" scope="local"> metric type and attribution models </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 14 </td> 
    <td colname="col2"> <span class="uicontrol"> + New </span> </td> 
    <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="https" scope="external"> Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 15 </td> 
    <td colname="col2"> <p>Search Components </p> </td> 
    <td colname="col3"> <p>This search bar lets you search for dimensions, metrics, segments (advanced calculated metrics only), and functions (advanced calculated metrics only). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 16 </td> 
    <td colname="col2"> <p>List of Dimensions </p> </td> 
    <td colname="col3"> <p>Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. “Page = Homepage”, you can drag in Page and select Homepage directly from the Calculated Metric Builder. </p> <p>This results in a much more streamlined workflow for creating segmented calculated metrics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 17 </td> 
    <td colname="col2"> <p>List of Metrics </p> </td> 
    <td colname="col3"> <p>Metrics come in 3 categories: </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
@@ -143,17 +125,14 @@ There are several ways to get to the Calculated Metric Builder:
     </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 18 </td> 
    <td colname="col2"> <p>List of Segments </p> </td> 
    <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 19 </td> 
    <td colname="col2"> <p>List of Functions </p> </td> 
    <td colname="col3"> <p>(Advanced calculated metrics only) Functions are divided into two lists: <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 20 </td> 
    <td colname="col2"> <p>Report Suite selector </p> </td> 
    <td colname="col3"> <p>Lets you switch to a different report suite. </p> </td> 
   </tr> 

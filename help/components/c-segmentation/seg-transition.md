@@ -95,7 +95,7 @@ Admins can see all segments within the Analysis Workspace and [!DNL Reports & An
 
 Ad Hoc Analysis and Report Builder display only segments built by you or segments that have been shared specifically with you.
 
-**Why can't I delete this segment? **
+**Why can't I delete this segment?**
 
 If the segment was [published to the Experience Cloud](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01), you cannot delete it or edit it. However, you can copy it and edit the copied version.
 
@@ -157,11 +157,11 @@ They should not be confused with the Favorites feature in the Segment Manager th
 
 **What happens to Pre-Configured Segments?**
 
-* **Single Page Visits ** 
-* **Visits from Mobile Devices ** 
-* **Visits from Natural Search** 
-* **Visits from Paid Search ** 
-* **Visits with Visitor ID Cookie **
+* **Single Page Visits**
+* **Visits from Mobile Devices**
+* **Visits from Natural Search**
+* **Visits from Paid Search**
+* **Visits with Visitor ID Cookie**
 
 These segments will be migrated over as segment templates into the Segment Builder.
 
@@ -169,15 +169,15 @@ Existing reports that have these segments applied will continue to work correctl
 
 **What happens to Experience Cloud (Suite) segments: **
 
-* Non-Purchasers 
-* Purchasers 
-* First Time Visits 
-* Visits from Social Sites 
-* Visits of More than 10 Minutes&#42; 
-* Visits with 5+ Previous Visits&#42; 
-* Visits from Facebook&#42;
+* Non-Purchasers
+* Purchasers
+* First Time Visits
+* Visits from Social Sites
+* Visits of More than 10 Minutes*
+* Visits with 5+ Previous Visits*
+* Visits from Facebook*
 
-Most of these segments (except the ones marked with an asterisk &#42;) will be migrated over as segment templates into the segment builder. Additionally, several new segment templates have been added.
+Most of these segments (except the ones marked with an asterisk *) will be migrated over as segment templates into the segment builder. Additionally, several new segment templates have been added.
 
 Existing reports that have these segments applied will continue to work correctly.
 

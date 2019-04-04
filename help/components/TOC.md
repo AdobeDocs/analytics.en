@@ -41,7 +41,6 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + Calculated Metrics Workflow {#calcmetric-workflow}
         + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
         + [Find metrics](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-        + [Build metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/c-build-metrics.md)
         + [Build Metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
         + [Metric Type and Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
         + [Build a simple "Page Views per Visits" metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)

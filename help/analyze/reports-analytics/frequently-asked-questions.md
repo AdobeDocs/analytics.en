@@ -19,7 +19,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: My Analytics/Experience Cloud account has been locked, how do I unlock it? </b> </p> </td> 
-   <td colname="col2"> <p>A: To reactivate the account, contact your organization's Adobe administrator to <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/locked-accounts.html" format="https" scope="external"> unlock the account </a>. </p> </td> 
+   <td colname="col2"> <p>A: To reactivate the account, contact your organization's Adobe administrator to <a href="https://helpx.adobe.com/analytics/kb/locked-accounts.html" format="https" scope="external"> unlock the account </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I reset the password for a user?</b> </p> </td> 
@@ -109,7 +109,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why do my line items totals not match the report total?</b> </p> </td> 
-   <td colname="col2"> <p>Sometimes, the sum of line items may be higher than the report total. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/sum-line-items-different-from-total.html" format="https" scope="external"> More... </a> </p> <p>Sometimes, the report total may be higher than sum of line items. Here are some potential reasons: </p> 
+   <td colname="col2"> <p>Sometimes, the sum of line items may be higher than the report total. <a href="https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html" format="https" scope="external"> More... </a> </p> <p>Sometimes, the report total may be higher than sum of line items. Here are some potential reasons: </p> 
     <ul id="ul_317BFED9F90D412C9268AC98EC2E4A8F"> 
      <li id="li_450B3D07B66C4187B51D1C1C6E46D50B">Some reports, especially in previous versions of Adobe Analytics, report total metrics across the entire site as opposed to the specific variable you are looking at. </li> 
      <li id="li_AB78F4BC869B43E082AECCC9409CFEB6">If you exclude the None line item from reporting, it can make the sum of line items less than the total. </li> 
@@ -118,7 +118,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do the metrics "page views", "instances", and "occurrences" differ?</b> </p> </td> 
-   <td colname="col2"> <p>A: <b>Page views</b> display the number of times a variable was defined or persisted across all s.t() function calls within the given date range. </p> <p><b>Instances</b> show the number of times a given variable was defined in any image request, including s.t() and s.tl() functions. </p> <p><b>Occurrences</b>: This metric is exclusive to Ad Hoc Analysis, which counts the number times a variable was defined or persisted across both s.t() and s.tl() functions. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/Comparing-pageviews-and-instances.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: <b>Page views</b> display the number of times a variable was defined or persisted across all s.t() function calls within the given date range. </p> <p><b>Instances</b> show the number of times a given variable was defined in any image request, including s.t() and s.tl() functions. </p> <p><b>Occurrences</b>: This metric is exclusive to Ad Hoc Analysis, which counts the number times a variable was defined or persisted across both s.t() and s.tl() functions. <a href="https://helpx.adobe.com/analytics/kb/Comparing-pageviews-and-instances.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What do None, Unspecified, Other, or Unknown line items in reports mean?</b> </p> </td> 
@@ -144,7 +144,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What are the main differences between a Tracking Codes report and a marketing channel that is configured to capture campaign variable values?</b> </p> </td> 
-   <td colname="col2"> <p>A: There are four main differences: a) Allocation, b) Prior marketing channels bucket data before the given rule, c) Other marketing channels can steal last-touch credit, and d) Expiration differences. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/comparing-tracking-codes-and-marketing-channels.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>A: There are four main differences: a) Allocation, b) Prior marketing channels bucket data before the given rule, c) Other marketing channels can steal last-touch credit, and d) Expiration differences. <a href="https://helpx.adobe.com/analytics/kb/comparing-tracking-codes-and-marketing-channels.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -211,7 +211,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How are eVars populated and allocated? </b> </p> </td> 
-   <td colname="col2"> <p>A: Allocation determines how Analytics assigns credit for a success event if a variable receives multiple values before the event. <a href="https://marketing.adobe.com/resources/help/kb/en_US/analytics/kb/compare-first-last-linear-allocations.html" format="https" scope="external"> More... </a> Supported values include: </p> 
+   <td colname="col2"> <p>A: Allocation determines how Analytics assigns credit for a success event if a variable receives multiple values before the event. <a href="https://helpx.adobe.com/analytics/kb/compare-first-last-linear-allocations.html" format="https" scope="external"> More... </a> Supported values include: </p> 
     <ul id="ul_14B2BE604DAD4B2A8056B7C3F34B4A98"> 
      <li id="li_87E62BCDC5EA4F00BFDB1CD3424F6224">Most Recent: The last eVar value always receives credit for success events until that eVar expires. </li> 
      <li id="li_F2C7A81583D64C69BCE51F17EDEECC99">Original Value: The first eVar always receives credit for success events until that eVar expires. </li> 

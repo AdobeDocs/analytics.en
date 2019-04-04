@@ -17,9 +17,7 @@ Marketing Channels revolve around First and Last Touch metrics, which are compon
 
 **Getting Started Tasks**
 
-![](assets/step1_icon.png)
-
-Define each channel based on your business requirements.
+![](assets/step1_icon.png) Define each channel based on your business requirements.
 
 Defining the channels you use is one of the most important components of Marketing Channels. Defining the channels can require collaboration between several individuals in your organization. Here are a few questions to consider:
 

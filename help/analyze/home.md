@@ -7,6 +7,8 @@ seo-description: null
 
 # Analytics Tools Guide
 
+![Banner](../../assets/doc_banner_analyze.png)
+
 This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
 
 ## Key Analyze articles

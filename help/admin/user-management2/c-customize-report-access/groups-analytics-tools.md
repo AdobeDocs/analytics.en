@@ -11,6 +11,7 @@ uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 ---
 
 # Customize Analytics Tools permissions
+
 >[!IMPORTANT]
 >
 >User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.

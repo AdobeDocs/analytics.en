@@ -11,6 +11,12 @@ uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 ---
 
 # Customize Analytics Tools permissions
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration.
 
@@ -20,7 +26,7 @@ Enable user permissions for General items (billing, logs, etc.), Company Managem
 >
 >The Fall 2016 release (October 20) brought changes to group management. See [Administrative Changes - Fall 2016](../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF) for a summary of changes.
 
-**Report Access - Analytics Tools**
+## Report Access - Analytics Tools
 
 ![](assets/report-access-analytics-tools.png)
 
@@ -28,7 +34,7 @@ Click **[!UICONTROL Customize]** to select items to which this group will have a
 
 ![](assets/customize-analytics-tools.png)
 
-**Field Descriptions**
+## Field Descriptions
 
 The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 
 

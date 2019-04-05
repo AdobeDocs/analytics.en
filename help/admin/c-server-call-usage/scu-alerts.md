@@ -8,11 +8,13 @@ uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 
 # Server Call Usage alerts
 
-Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
+When you set up an alert, it applies to all report suites in all login companies of a Billing company.
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** will be added to the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+## Overview
 
-It is pre-populated with **1 default alert** that would show up within any login company that has access to the Server Call Usage feature. This alerts will trigger a notification addressed to all their admins if one of the following criteria is satisfied:
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. This alerts triggers a notification addressed to all the login company's admins if one of the following criteria is satisfied:
 
 * "Any" server call usage that "is above or equals" 100% for any server-call type you are entitled to, OR 
 * "Any" server call usage that "is above or equals" 90% for any server-call type you are entitled to, OR 

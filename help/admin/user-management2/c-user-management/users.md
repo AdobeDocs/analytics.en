@@ -11,6 +11,10 @@ uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 
 # User management overview
 
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+
 Manage report users and groups on the User Management page lets you manage users and groups, and control access to reports, tools and report suites.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Users]**

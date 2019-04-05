@@ -12,6 +12,10 @@ uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 
 # Customize dimension permissions
 
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+
 Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports.
 
  **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**

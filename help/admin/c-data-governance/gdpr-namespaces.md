@@ -20,7 +20,7 @@ Refer to the [Experience Cloud GDPR API documentation](https://www.adobe.io/apis
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 
-**Cookie ID**
+## Cookie ID
 
 Legacy Analytics Tracking Cookie, also known as the Adobe Analytics ID (AAID):
 
@@ -36,7 +36,7 @@ The value must be specified as two hexadecimal numbers separate by a dash. All h
 
 It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
 
-**Legacy Analytics Tracking Cookie: Deprecated form**
+## Legacy Analytics Tracking Cookie: Deprecated form
 
 ```
 {
@@ -50,7 +50,7 @@ Deprecated form:
 
 The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn’t have enough digits.
 
-**Experience Cloud ID Service Cookie**
+## Experience Cloud ID Service Cookie
 
 ```
 {
@@ -76,7 +76,7 @@ You will most commonly collect these cookie IDs using the new [privacy JavaScrip
 
 This JavaScript code populates the JSON with other key/value pairs besides those listed above (namespace, type, value), but the fields listed above are the most important for Analytics GDPR processing and the only ones you need to provide if you collect the IDs in some other way.
 
-**Custom Visitor ID**
+## Custom Visitor ID
 
 ```
 {
@@ -88,7 +88,7 @@ This JavaScript code populates the JSON with other key/value pairs besides those
 
 The namespace is also predefined for the custom visitor ID.
 
-**IDs in Custom Variables**
+## IDs in Custom Variables
 
 ```
 {

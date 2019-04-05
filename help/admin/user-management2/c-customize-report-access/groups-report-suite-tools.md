@@ -12,6 +12,10 @@ uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 
 # Customize Report Suite Tools permissions
 
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+
 Enable user permissions for API Access, Report Suite Management, Tools and Reports, and Dashboard Items.
 
  **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
@@ -20,7 +24,7 @@ The [!UICONTROL Customize Report Suite Tools] page grants members of a group acc
 
 ![](assets/report-suite-tools.png)
 
-**Field Descriptions**
+## Field Descriptions
 
 The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 
 

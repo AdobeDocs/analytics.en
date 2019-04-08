@@ -24,7 +24,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## Version 2.13.0
 
-Release date: **April 10, 2019**
+Release Date: **April 10, 2019**
 
 Fix for many reported problems with clearVars. The problem occurs when hits are sent out before the tracker is ready. When the tracker becomes ready, the library can set variables that have already been cleared or changed. (AN-176931, AN-176629, DTM-12758).
 

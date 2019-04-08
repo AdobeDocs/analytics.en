@@ -13,7 +13,7 @@ uuid: 49836551-9162-4dc4-b1d4-5c3d0f549dcd
 Ad Hoc Analysis helps you identify high-value customer segments with unlimited real-time visitor information, allowing you to drill down into the data to get deep, precise, and comprehensive views of your customers.
 
 >[!Important]
->On August 6, 2018, Adobe announced the intention to end-of-life Ad Hoc Analysis. An end-of-life date will be shared once available. For more information, including which versions of Java will be compatible during this period, visit adobe.ly/discoverworkspace.
+>On August 6, 2018, Adobe announced the intention to end-of-life Ad Hoc Analysis. An end-of-life date will be shared once available. For more information, including which versions of Java will be compatible during this period, visit [adobe.ly/discoverworkspace](adobe.ly/discoverworkspace).
 
 ## New and Popular Topics
 

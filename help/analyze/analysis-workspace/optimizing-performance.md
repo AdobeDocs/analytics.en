@@ -8,8 +8,6 @@ uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 
 # Optimize Workspace performance
 
-## Best practices for optimizing Analysis Workspace performance factors {#section_24952C84A7CA4F19A5671E8E1729AB64}
-
 Certain factors can influence the performance of a project within Analysis Workspace. It’s important to know what those contributors are before you start building a project so that you can plan & build the project in the most optimal way. Below is a list of factors that will impact performance & best practices for optimizing your projects. Analysis Workspace performance is one of Adobe’s top priorities and something we are continuing to improve each day. 
 
 <table id="table_E9EFB7BF73CD41CD9F6975C7FD14B7C2"> 

@@ -58,7 +58,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 
-   <td colname="col2"> <p>Lists one of the 3 supported account types: Google Adwords, Bing Ads, or Yahoo Gemini. </p> </td> 
+   <td colname="col2"> <p>Lists one of the 2 supported account types: Google Adwords or Bing Ads. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Status </p> </td> 

@@ -14,7 +14,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
 **[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)** should be used:
 
@@ -38,7 +38,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * To visualize points of interest on a map. 
 * For Lifetime value metrics.
 
-**[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html)** should be used:
+**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 
 * If true table builder functionality is desired. For example, a) Analysis Workspace is not able to support what you need to build, b) you want to be able to control when your table rebuilds, c) you want the table to remember the various breakdown levels you would like applied to all rows, d) you want to order metric rows manually 
 * To export 50,000 rows of data 

@@ -8,13 +8,9 @@ uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 
 # Tracking: Manual Mode and Auto Mode
 
-Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
-
-## Tracking: Manual Mode and Auto Mode {#topic_965B69533E6B4461A4A8A4F648CE6156}
-
 Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data. 
 
-Two tracking modes are supported: [Auto Mode](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_C4C6107838C947CFBB7F4E0CB94264F0) and [Manual Mode](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33). 
+Two tracking modes are supported: Auto Mode and Manual Mode. 
 
 ## Auto Mode Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
@@ -119,46 +115,4 @@ If the URL goes through a redirect and is not using an “unescapedlpurl” valu
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
-```
-
-### Add Manual Tracking to Yahoo Gemini Account {#section_A45EA79F7DD04359984476002692D4EE}
-
-The string that needs to be added to your Yahoo Gemini account is shown below. Add the string to the end of all your destination URLs.
-
->[!IMPORTANT]
->
->The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. You can get your specific account ID string from the account set up screen under the "Tracking" section.
-
-```
-s_kwcid=AL! 
-<b><Advertising Analytics ID></b>!105!{adid}!{network}!{keywordid} 
-```
-
-![](assets/Yahoo.png)
-
-**Examples of tracking codes in various destination URL formats:** 
-
-**Landing page URL example**
-
-`https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}`
-
-**Landing page URL with additional URL parameter example**
-
-```
-https://www.website.com?campaign=PPC&
-s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
-```
-
-**3rd-party (DoubleClick) landing page example**
-
-```
-https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url= https://www.website.com?s_kwcid=AL!9999!105!{adid}!{network}!{keywordid}
-```
-
-**Redirect**
-
-If the URL goes through a redirect, you need to encode the string enough times so that it persists through the redirect to the final landing page URL.
-
-```
-https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url=&nbsp;http%3A%2F%2Fwww.website.com%3Fs_kwcid%3DAL!9999!105!{adid}!{network}!{keywordid}
 ```

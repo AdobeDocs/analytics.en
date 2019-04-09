@@ -27,7 +27,7 @@ This template lets anyone who implements this Search Engine integration get acce
 | Table/Visualization | Description |
 |--- |--- |
 |Advertising Trends|Daily trended overview for AMO Impressions, AMO Clicks, and AMO Cost.|
-|Ad Platforms|Donut chart for cost of top 3 platforms (Google, Microsoft, Yahoo).|
+|Ad Platforms|Donut chart for cost of top 2 platforms (Google, Bing).|
 |Ad Platform Totals|Freeform table of the top platforms broken down by AMO Impressions, AMO Clicks, AMO Costs, AMO Avg. Position, AMO Avg. Quality Score.|
 |Accounts|Stacked area of cost.|
 |Account Totals|Freeform table of the top accounts broken down by the associated metrics.|

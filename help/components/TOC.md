@@ -107,6 +107,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Troubleshooting Classifications](c-classifications2/c-classifications-troubleshooting.md)
 + [Calendar events](t-calendar-event.md)
 + Variables {#variables}
+    + [Variables overview](c-variables/c-variables.md)
     + Dimensions/Reports {#dimensions-reports}
         + [Dimension Descriptions](c-variables/dimensionslist/reports-descriptions.md)
         + [Dimension Compatibility](c-variables/dimensionslist/dimension-compatibility.md)

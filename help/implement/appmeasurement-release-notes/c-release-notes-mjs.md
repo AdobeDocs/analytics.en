@@ -21,7 +21,6 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
-
 ## Version 2.13.0
 
 Release Date: **April 10, 2019**

@@ -11,7 +11,7 @@ uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 
 # Manage Ad Hoc Analysis users
 
-Steps that describe how to add, edit, or delete ad hoc analysis users.
+Steps that describe how to add, edit, or delete Ad Hoc Analysis users.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Manage Ad Hoc Analysis Users]**.

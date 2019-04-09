@@ -19,7 +19,7 @@ uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
  <tbody> 
   <tr> 
    <td colname="col1"> <p><img placement="break" align="center"  src="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> </p> </td> 
-   <td colname="col2"> <p>Map any Analytics report suite where you want to view Google/Bing/Yahoo search data to your Experience Cloud organization. </p> </td> 
+   <td colname="col2"> <p>Map any Analytics report suite where you want to view Google/Bing search data to your Experience Cloud organization. </p> </td> 
    <td colname="col3">See <a format="html" scope="external" href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"> Map report suites to an organization</a>. </td> 
   </tr> 
   <tr> 

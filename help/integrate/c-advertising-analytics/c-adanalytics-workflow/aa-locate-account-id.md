@@ -1,6 +1,6 @@
 ---
-description: Here are instructions on helping you to locate your account IDs for Google, Bing and Yahoo.
-seo-description: Here are instructions on helping you to locate your account IDs for Google, Bing and Yahoo.
+description: Here are instructions on helping you to locate your account IDs for Google and Bing.
+seo-description: Here are instructions on helping you to locate your account IDs for Google and Bing.
 seo-title: Locate your account IDs
 title: Locate your account IDs
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
@@ -8,7 +8,7 @@ uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 
 # Locate your account IDs
 
-Here are instructions on helping you to locate your account IDs for Google, Bing and Yahoo.
+Here are instructions on helping you to locate your account IDs for Google and Bing.
 
 ## Google AdWords {#section_2A62AD448BD949889DB77C2AF3E04C33}
 
@@ -29,10 +29,3 @@ The Account ID and Customer ID are both required. They are listed on the Account
 >The Account Number is not the same as the Account ID.
 
 ![](assets/bing_id.png)
-
-## Yahoo Gemini {#section_44347B6F7BEF47B5BEAC30CED7CBD12E}
-
-Look for the Account number under the Billing Information.
-
-![](assets/yahoo_id.png)
-

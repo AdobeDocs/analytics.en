@@ -11,6 +11,10 @@ uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 
 # Transfer user account items
 
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+
 Steps that describe how to assign user account items (dashboards, calculated metrics, calendar events, alerts, bookmarks, segments, Analysis Workspace projects, and scheduled projects) from one user account to that of another user.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.

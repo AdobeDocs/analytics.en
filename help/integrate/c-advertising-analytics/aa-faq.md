@@ -8,10 +8,6 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 
 # Frequently Asked Questions
 
-* [Access/Entitlements](../../integrate/c-advertising-analytics/aa-faq.md#section_5F558C5981F747F0AF375A9E4B75C93C) 
-* [Using Advertising Analytics](../../integrate/c-advertising-analytics/aa-faq.md#section_3A70C6C4D5A842B2981F0257A01F95FF) 
-* [Auto vs. Manual Tracking](../../integrate/c-advertising-analytics/aa-faq.md#section_7437C4698A6D482EB7ED94A948390119)
-
 ## Access/Entitlements {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
 <table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
@@ -62,7 +58,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Q: Which <b>search engine accounts</b> are included in Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Search engine accounts include Google AdWords, Microsoft Bing, and Yahoo! Gemini. </p> <p>Note:  The Yahoo Gemini search engine is not available to customers who are assigned to the Adobe Media Optimizer (AMO) Europe Data Center. As a result, Analytics customers in the Singapore and London Analytics Data Centers are impacted and will not see Yahoo Gemini as one of the options. </p> </td> 
+   <td colname="col2"> <p>A: Search engine accounts include Google AdWords and Microsoft Bing. </p> <p>Note: Yahoo Gemini was absorbed by Microsoft Bing on March 31, 2019. As a result, the Yahoo Gemini advertising account option is no longer available. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Where do I go to <b>access</b> Advertising Analytics? </p> </td> 
@@ -115,7 +111,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Do we only capture google.com or <b>country versions</b> (like google.co.uk, google.it, google.fr, or google.de) as well? </p> </td> 
-   <td colname="col2"> <p>A: The Ad Platform classification captures the values: “Google Adwords”, “Yahoo Gemini”, and “MSN adCenter” (soon to be changed to “Bing Ads”). </p> <p>A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with “UK_” would provide you with only data for the UK). </p> </td> 
+   <td colname="col2"> <p>A: The Ad Platform classification captures these values: “Google Adwords”, and “Bing Ads”. </p> <p>A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with “UK_” would provide you with only data for the UK). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: The metric "AMO Cost" is the cost paid for each keyword/ad as reported by the search engine. Is this Net cost or Gross cost? </p> </td> 
@@ -148,7 +144,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: If I set up Manual or Automatic Tracking initially, <b>can I switch</b> to the other tracking mode later on? What are the implications? </p> </td> 
-   <td colname="col2"> <p>A: Yes you can switch, but you will need to remove the old tracking logic before making the switch. This may result in some downtime of tracking on the day the switch is made (especially if moving from manual to automatic). Also note that as Yahoo does not have tracking templates, making these changes to the ad URL will generate new ad IDs which may impact reporting in Yahoo Gemini’s interface. As such, it is recommended to not switch unless absolutely necessary. </p> 
+   <td colname="col2"> <p>A: Yes you can switch, but you will need to remove the old tracking logic before making the switch. This may result in some downtime of tracking on the day the switch is made (especially if moving from manual to automatic). As such, it is recommended to not switch unless absolutely necessary. </p> 
     <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
      <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Switching from Manual to Automatic</b>: Remove the manual additions to the tracking templates and then switch the toggle in the Advertising Analytics UI from manual to Automatic and save the setting. Note that it may take up to x hours for the system to populate the automatic tracking codes. </li> 
      <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Switching from Automatic to Manual</b>: Update the toggle from manual to automatic in the Advertising Analytics setup UI and then deploy the manual tracking codes as quickly as possible. While deploying the manual tracking codes, if you see the automatic tracking codes in the Search Engine tracking templates, remove them. </li> 

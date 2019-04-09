@@ -8,19 +8,11 @@ uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 
 # Advertising Analytics overview
 
-* [What is Advertising Analytics?](../../integrate/c-advertising-analytics/overview.md#section_4ECF201EF23346D996FC556011BAADA5) 
-* [Prerequisites](../../integrate/c-advertising-analytics/overview.md#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299) 
-* [Advertising Analytics Permissions](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) 
-* [Advertising Analytics Dimensions and Metrics](../../integrate/c-advertising-analytics/overview.md#section_C0DF4A08EA9E46ADABE9E465AFC11E32) 
-* [Advertising Analytics Workflow](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md#concept_848C1B27FB614028B556AE9D4E2CDFAF)
-
-## What is Advertising Analytics? {#section_4ECF201EF23346D996FC556011BAADA5}
-
-Advertising Analytics lets you see all your Google, Bing, and Yahoo Gemini Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA, Microsoft Bing Ads, or Yahoo Gemini data would have to be viewed in Adobe Media Optimizer (AMO) or in Google/Bing/Yahoo. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
+Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Media Optimizer (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
 
 >[!NOTE]
 >
->The Yahoo Gemini search engine is not available to customers who are assigned to the Adobe Media Optimizer (AMO) Europe Data Center. As a result, Analytics customers in the Singapore and London Analytics Data Centers are impacted and will not see Yahoo Gemini as one of the options.
+>Yahoo Gemini was absorbed by Microsoft Bing on March 31, 2019. As a result, the Yahoo Gemini advertising account option is no longer available.
 
 By bringing the data from these search engines together in Adobe Analytics, you can analyze that same data by using the power of Analysis Workspace. A new [Paid Search Performance](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) template in Workspace facilitates this analysis.
 
@@ -37,8 +29,8 @@ This integration is aimed at the following audiences:
 
 * This functionality is available for non-Advertising Cloud and non-AMO customers. 
 * You must be an Adobe Analytics Administrator to have access to Advertising Analytics. Subsequently, you can [grant access permissions](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) to non-admins. 
-* Any Analytics report suite where you want to view Google/Bing/Yahoo search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html). 
-* For any report suite where you want to view Google/Bing/Yahoo search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**). 
+* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html). 
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**). 
 
 * You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password. 
 * In the case of Bing Ads, you also need the Bing Customer ID. 
@@ -88,7 +80,7 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 | Classification (Dimension) Name | Definition |
 |--- |--- |
 |Keyword MatchType (AMO ID)|The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
-|Ad Platform (AMO ID)|The search engine name. Values can include Google AdWords, Microsoft Bing Ads, or Yahoo Gemini.|
+|Ad Platform (AMO ID)|The search engine name. Values can include Google AdWords or Microsoft Bing Ads.|
 |Account (AMO ID)|The name of the search engine account that is being tracked.|
 |Campaign (AMO ID)|The name of the campaign in your search engine account.|
 |Ad Group (AMO ID)|The name of the ad group in your search engine campaigns.|

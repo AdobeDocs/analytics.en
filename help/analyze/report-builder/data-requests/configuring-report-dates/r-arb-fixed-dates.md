@@ -10,7 +10,7 @@ uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 
 # Request Wizard definitions - fixed dates
 
-Definitions for fixed dates in report builder.
+Definitions for fixed dates in Report Builder.
 
 | Field | Definition |
 |--- |--- |

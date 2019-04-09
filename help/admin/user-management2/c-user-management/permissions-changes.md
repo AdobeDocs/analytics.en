@@ -12,12 +12,9 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 
 # User and Group permission changes
 
-<!-- 
-
-<p>Customize Company Tools will change to Analytics Tools </p> 
-<p>Go here https://wiki.corp.adobe.com/display/scservices/Analytics+Permissions+in+EntD for more gotchas on permissioning from Michael Malmgren on 9/1. </p>
-
- -->
+>[!IMPORTANT]
+>
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ## What Changed? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 

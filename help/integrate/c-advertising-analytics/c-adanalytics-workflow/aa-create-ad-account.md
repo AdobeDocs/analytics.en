@@ -31,7 +31,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> <p>You have 3 options: Google AdWords, Microsoft Bing, and Yahoo Gemini. </p> <p>Note: The Yahoo Gemini search engine is not available to customers who are assigned to the Adobe Media Optimizer (AMO) Europe Data Center. As a result, Analytics customers in the Singapore and London Analytics Data Centers are impacted and will not see Yahoo Gemini as one of the options under <span class="uicontrol"> Type</span>. </p> </td> 
+      <td colname="col2"> <p>You have 2 options: Google AdWords and Microsoft Bing Ads. </p> <p>Note: Yahoo Gemini was absorbed by Microsoft Bing on March 31, 2019. As a result, the Yahoo Gemini advertising account option is no longer available.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Account name </p> </td> 
@@ -39,9 +39,8 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth Token </p> </td> 
-      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Yahoo/Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p> 
+      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p> 
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_24FC6E3737FC438BA13CD7330949A192">Yahoo Gemini: Provide Yahoo Account ID. </li> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
         </ul> <p>Refer to <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display 

@@ -12,7 +12,7 @@ Certain factors can influence the performance of a project within Analysis Works
 
 ## Complexity of Segment Logic
 
-Intricate segments can have a significant impact on project performance. Factors that add complexity to a segment (in approximate order of impact) include:
+Intricate segments can have a significant impact on project performance. Factors that add complexity to a segment (in descending order of impact) include:
 
 * Operators of “contains,”, "contains any of", “matches,” “starts with,” or “ends with"
 * Sequential segmentation, especially when dimension restrictions (Within/After) are used

@@ -11,6 +11,14 @@ uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 
 # What's New in Analysis Workspace
 
+## April 2019
+
+Enhancement released on April 11, 2019.
+
+| Enhancement | Description |
+|--- |--- |
+| Enhancements to optimization best practices | [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
+
 ## January 2019
 
 New features and enhancements released on January 17, 2019.
@@ -21,7 +29,6 @@ New features and enhancements released on January 17, 2019.
 |[View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
 |[Support for multi-valued variables in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
 |Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|
-
 
 ## November 2018
 

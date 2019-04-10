@@ -10,7 +10,7 @@ uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 
 # Jobs settings
 
-When you set up a feed, Some settings determine how often jobs are processed.
+When you set up a feed, some settings determine how often jobs are processed.
 
 Use the following settings to configure job processing times. These settings are set at the feed level, not the job level.
 

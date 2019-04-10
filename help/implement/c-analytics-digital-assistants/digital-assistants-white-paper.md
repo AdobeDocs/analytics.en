@@ -8,8 +8,6 @@ uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 
 # Implement Analytics for Digital Assistants
 
-## Implement Analytics for Digital Assistants {#topic_CB8A578E23DA438F9324593BFE7C13D4}
-
 <!-- 
 
 <p>https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper </p> 
@@ -46,8 +44,6 @@ There are two times during the life-cycle of a request that can be helpful to ca
 
 1. When the request is sent to the "App." If you need additional context about the user before you respond to the request, you should leverage the Audience Manager capability to get the segments that they belong to. 
 1. After the response is returned from the app. If you are just interested in recording what happened with the customer for future optimization, send a request to Adobe Analytics after the response has been returned. This way you have the full context of what the request was and how the system responded.
-
-## Analytics Implementation for Digital Assistants {#concept_CFA6129F775D45429EFCCFC59B803C63}
 
 ## New Installs {#section_FD63267479DB47C2A081244A3E65A0CC}
 

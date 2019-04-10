@@ -10,7 +10,7 @@ uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 
 # Common Terms{#common-terms}
 
-An introduction to commonly used Adobe Anlytics terms used.
+An introduction to commonly used Adobe Analytics terms used.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 

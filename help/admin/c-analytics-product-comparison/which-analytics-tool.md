@@ -16,7 +16,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
-**[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)** should be used:
+**[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate. 
 * For accurate counting of A4T Activity Impressions & Conversions. 
@@ -29,7 +29,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off. 
 * To leverage Publishing Lists in scheduled reporting .
 
-**[Mobile Services UI](https://marketing.adobe.com/resources/help/en_US/mobile/home.html)** should be used:
+**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** should be used:
 
 * If a siloed view of Mobile App data is desired. 
 * To manage the implementation of your mobile app SDK. 
@@ -64,7 +64,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
     * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it". 
     * Browser importer: use when you don’t have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
 
-**[Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)** should be used:
+**[Data Sources](/help/import/c-data-sources/datasrc-home.md)** should be used:
 
 * When there is offline data you want permanently written into Adobe Analytics 
 * Options:
@@ -86,14 +86,14 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud. 
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
 
-**[Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/)** should be used:
+**[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** should be used:
 
 * If you want to incorporate Adobe Audience Manager (AAM) audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, or ad impression data into any Analytics workflow. 
 * If you want uploaded CRM data to be time based, because this integration sends new information to Analytics hit by hit.
 
 ## Exporting Data from Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
-**[Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)** should be used:
+**[Report Builder](/help/analyze/report-builder/home.md)** should be used:
 
 * If the customized layout options of Workspace are limiting (anything is possible in Report Builder, within the limits of Excel). 
 * To loosely tie in user inputs or offline data sources (impressions, cost) to Adobe data. More permanent solution for tying in data is Data Sources (see Importing Data to Analytics). 
@@ -109,7 +109,7 @@ For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analyti
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
 * To access all unique dimension values if you are running into “Low Traffic” in Adobe Analytics
 
-**Analytics Data Feed** should be used:
+**[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 
 * To utilize the most granular data feed we can provide (visitor ID, hit). 
 * If the client wants Adobe data stored in a client-side database, at the most granular level we can send. 

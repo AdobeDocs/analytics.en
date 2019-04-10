@@ -12,10 +12,6 @@ uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 
 Use this section to select which data columns to include in the feed and how the feed data should be processed and packaged before delivery.
 
-* [Data Column Options](../../../export/analytics-data-feed/c-df-contents/r-data-column-definitions.md#section_AD12773C162240B1AE454FA1F000F445) 
-* [Specify Columns](../../../export/analytics-data-feed/c-df-contents/r-data-column-definitions.md#section_42BB8910657D4F959375451F2EAD4A58) 
-* [Download CSV](../../../export/analytics-data-feed/c-df-contents/r-data-column-definitions.md#section_10F5B6A05D15469394FAEA68BF14BA0D)
-
 ## Data Column Options {#section_AD12773C162240B1AE454FA1F000F445}
 
 The Data Column Definition section includes the following options:

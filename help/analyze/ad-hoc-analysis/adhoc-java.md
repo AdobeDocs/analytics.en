@@ -7,14 +7,14 @@ title: Run Ad Hoc Analysis with Java 11
 
 # Run Ad Hoc Analysis with Java 11
 
-Running Ad Hoc Analysis with Java 11 is slightly different than running it with Java 8. Before proceeding, check with your IT team to understand which version of Java you have installed. If your organization is using Java 11, follow the installation instructions below.
+You need to follow additional steps when running Ad Hoc Analysis with Java 11 compared to running it with Java 8.
 
 ## Prerequisites
 
 Work with your IT team to ensure that the following is in place:
 
-* Java 11 must be installed, with JAVA_HOME environment variable set
-* JavaFX must be installed, with the *PATH_TO_FX_SDK* environment variable pointed to the JavaFX SDK directory. For example, *PATH_TO_FX_SDK=/homedir/javafx-sdk-11.0.2*
+* Java 11 must be installed, with *JAVA_HOME* environment variable set
+* JavaFX must be installed, with the *PATH_TO_FX_SDK* environment variable pointed to the JavaFX SDK directory. For example, *PATH_TO_FX_SDK=/homedir/javafx-sdk-11.0.2* on a Mac, or *PATH_TO_FX_SDK=C:\Users\username\javafx-sdk-11.0.2* on a PC.
 
 ## Install Ad Hoc Analysis for Java 11
 
@@ -27,7 +27,7 @@ Work with your IT team to ensure that the following is in place:
 
 >[!Note]
 >
-> Federated and Enterprise ID authentication methods are not supported in the Java 11 version of Ad Hoc Analysis.
+> Federated and Enterprise ID authentication methods are not compatible with the Java 11 version of Ad Hoc Analysis.
 
 ## Unsupported Features in Ad Hoc Analysis (Java 11)
 
@@ -35,7 +35,7 @@ There are a few known limitations in the Java 11 version compatible with Ad Hoc 
 
 * Federated & Enterprise ID authentication methods are not supported.
 * Linux operating systems are not supported.
-* When using a Mac, do not use the Mac application menu (including cmd + Q). This may cause Ad Hoc Analysis to close without warning. Instead, use the menu inside Ad Hoc Analysis.
+* When using a Mac, do not use the Mac application menu (including *cmd + Q*). This may cause Ad Hoc Analysis to close without warning. Instead, use the menu inside Ad Hoc Analysis.
 
 ## FAQ
 
@@ -43,4 +43,4 @@ There are a few known limitations in the Java 11 version compatible with Ad Hoc 
 
 ![](/help/analyze/ad-hoc-analysis/assets/error-java.png)
 
-A: If you get this error, work with your IT team to set the JAVA_HOME environment variable which is required to run Ad Hoc Analysis in Java 11. 
+A: If you get this error, work with your IT team to set the *JAVA_HOME* environment variable which is required to run Ad Hoc Analysis in Java 11. 

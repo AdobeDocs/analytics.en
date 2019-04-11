@@ -23,3 +23,15 @@ The name of the PDF or CSV file matches the current name of the project. For uns
 1. Create or open a project. 
 1. Click **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
 
+On April 11, 2019, several changes were made to **[!CSV downloads]** (and **[!Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data. 
+* The thousands separator is no longer included. (The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**). 
+* No currency symbols are shown.
+* No percent symbols are shown. 
+* Percentages are in decimal form; e.g., 75% is represented as 0.75.
+* Time is shown in seconds.
+* Cohort Tables show raw values only; percentages are removed.
+* If a number is invalid, an empty cell is displayed.
+
+>[!Note:]
+>
+> Numeric values that use a comma as the decimal separator will continue to be quoted in the exported CSV.

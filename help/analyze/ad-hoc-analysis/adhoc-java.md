@@ -9,6 +9,13 @@ title: Run Ad Hoc Analysis with Java 11
 
 Running Ad Hoc Analysis with Java 11 is slightly different than running it with Java 8. Before proceeding, check with your IT team to understand which version of Java you have installed. If your organization is using Java 11, follow the installation instructions below.
 
+## Prerequisites
+
+Work with your IT team to ensure that the following is in place:
+
+* Java 11 must be installed, with JAVA_HOME environment variable set
+* JavaFX must be installed, with the *PATH_TO_FX_SDK* environment variable pointed to the JavaFX SDK directory. For example, *PATH_TO_FX_SDK=/homedir/javafx-sdk-11.0.2*
+
 ## Install Ad Hoc Analysis for Java 11
 
 1. Go to **[!UICONTROL Analytics > Tools > Ad Hoc Analysis]**.

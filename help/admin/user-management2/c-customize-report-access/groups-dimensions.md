@@ -90,15 +90,15 @@ The following items are dimensions that you can permission.
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/c_vhl_ratings-partner-integ.html" format="html" scope="external"> Comscore </a> </p> </td> 
+   <td colname="col1"> <p> Comscore </p> </td> 
+   <td colname="col2"> <p>This Partner integration is no longer active. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html" format="html" scope="external"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Partner integrations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/c_vhl_ratings-partner-integ.html" format="html" scope="external"> Nielsen </a> </p> </td> 
-   <td colname="col2"> <p>Partner integrations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/social/" format="https" scope="external"> Social </a> </p> </td> 
+   <td colname="col1"> <p> Social </p> </td> 
    <td colname="col2"> <p>Not used. </p> </td> 
   </tr> 
  </tbody> 

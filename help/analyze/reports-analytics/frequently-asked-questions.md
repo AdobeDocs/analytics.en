@@ -71,7 +71,7 @@ For frequently asked questions about Analytics Implementation, go [here](https:/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why is the Reports &amp; Analytics Interface slow/lagging/timing out?</b> </p> </td> 
-   <td colname="col2"> <p>The following factors contribute to longer report generation times. Increasing one of these factors might not result in a timeout for that report, but it might delay other reports in the report suite queue and cause a subsequent report to timeout: Report Time Range, Number of metrics, Number of breakdowns, Segment complexity, Number of unique values. <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_troubleshooting.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col2"> <p>The following factors contribute to longer report generation times. Increasing one of these factors might not result in a timeout for that report, but it might delay other reports in the report suite queue and cause a subsequent report to timeout: Report Time Range, Number of metrics, Number of breakdowns, Segment complexity, Number of unique values. <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-troubleshooting.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why do I see no referrer traffic in reports? How do I filter out internal traffic?</b> </p> </td> 

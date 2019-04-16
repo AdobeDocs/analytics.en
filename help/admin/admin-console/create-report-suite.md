@@ -35,8 +35,6 @@ Name this report suite the same, except append "- DEV" at the end. Since this re
 
 This means that your account has not been granted the correct permissions to Analytics. Work with a system-level admin in your organization to ensure you belong to a profile with adequate permissions to access Adobe Analytics.
 
----
-
 **After logging in to Adobe Analytics, the 'Welcome to Adobe Analytics' popup and dropdown is missing.**
 
 Ensure that you've logged in through the Experience Cloud, and not through my.omniture.com. User who log in through my.omniture.com do not have the report suite setup wizard available.

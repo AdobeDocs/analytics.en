@@ -13,7 +13,7 @@ This guide explains how to get data into Analytics through data sources, the ins
 
 ## Key Analytics Import articles
 
-- [Data Sources](c-data-sources/datasrc-home.md)
+* [Data Sources](c-data-sources/datasrc-home.md)
 
 ## Analytics user guides
 
@@ -28,7 +28,6 @@ This guide explains how to get data into Analytics through data sources, the ins
 | [Integration Guide](../integrate/home.md) | This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. |
 | [Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) | This guide provides instructions on the Media SDK and the Media Collection API. |
 | [Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/)|Provide instruction on the Data Workbench Client, Installation, Dataset Configuration, etc.|
-
 
 ## Key Analytics resources
 

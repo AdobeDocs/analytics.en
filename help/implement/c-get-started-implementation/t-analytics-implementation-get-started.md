@@ -37,7 +37,7 @@ In this procedure enables you to:
 
 **To run the simplified implementation modal** 
 
-1. Log in to the [!DNL Adobe Experience Cloud] ( [!DNL *`<your company>`*.marketing.adobe.com]).
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    When you access [!DNL Analytics], the system determines if you have a report suite. If not, the [!UICONTROL Getting Started with Adobe Analytics] page displays.
 

@@ -13,11 +13,8 @@ This guide helps you configure integrations with other Adobe Experience Cloud so
 
 ## Key Analytics Integration articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+* [Advertising Analytics](c-advertising-analytics/overview.md)
+* [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
 
 ## Analytics user guides
 

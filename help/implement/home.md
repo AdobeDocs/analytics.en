@@ -13,11 +13,9 @@ This guide walks you through different Adobe Analytics implementation methods, f
 
 ## Key Analytics Import articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+* [Create a property in Launch](implement-with-launch/create-analytics-property.md)
+* [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
+* [AppMeasurement library release notes](appmeasurement-release-notes/appmeasurement-release-notes.md)
 
 ## Analytics user guides
 
@@ -31,7 +29,7 @@ This guide walks you through different Adobe Analytics implementation methods, f
 | [Import Guide](../import/home.md) | This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |
 | [Integration Guide](../integrate/home.md) | This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. |
 | [Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) | This guide provides instructions on the Media SDK and the Media Collection API. |
-| [Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/)|Provide instruction on the Data Workbench Client, Installation, Dataset Configuration, etc.|
+| [Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/) | Provide instruction on the Data Workbench Client, Installation, Dataset Configuration, etc.|
 
 ## Key Analytics resources
 

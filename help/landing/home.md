@@ -13,7 +13,9 @@ Banner
 
 | &nbsp; | &nbsp; | &nbsp; |
 |--- |--- |--- |
-|[![Analytics](assets/analytics-icon-24.png)](/help/admin/home.md) |[![Target](assets/analytics-icon-24.png)](/help/analyze/home.md) |[![Audience Manager](assets/aam-icon-24.png)](/help/components/home.md) |
+|[![Admin](assets/admin-thumb-placeholder.png)](/help/admin/home.md) |[![Analyze](assets/analyze-thumb-placeholder.png)](/help/analyze/home.md) |[![Components](assets/components-thumb-placeholder.png)](/help/components/home.md) |
+|[![Import](assets/import-thumb-placeholder.png)](/help/import/home.md) |[![Export](assets/export-thumb-placeholder.png)](/help/export/home.md) |[![Integration](assets/integration-thumb-placeholder.png)](/help/integrate/home.md) |
+|[![Implementation](assets/implementation-thumb-placeholder.png)](/help/implement/home.md) |[![Data Workbench](assets/dataworkbench-thumb-placeholder.png)](https://marketing.adobe.com/resources/help/en_US/insight/) |[![Media](assets/media-thumb-placeholder.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) |
 
 ## Key Analytics resources
 

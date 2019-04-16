@@ -10,5 +10,5 @@ uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 
 See these resources for Analytics reporting APIs.
 
-* [Analytics Reporting API Comparison](c-reporting-api/api-comparison.md)
+* [Analytics Reporting API Comparison](api-comparison.md)
 * [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)

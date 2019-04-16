@@ -13,11 +13,7 @@ This guide explains how to get data into Analytics through data sources, the ins
 
 ## Key Analytics Import articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+- [Data Sources](c-data-sources/datasrc-home.md)
 
 ## Analytics user guides
 

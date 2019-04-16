@@ -13,11 +13,11 @@ Analytics components help you fine tune and empower your customer journey analys
 
 ## Key Analytics Components articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+- [Dimension Reference](c-variables/dimensionslist/report-descriptions.md)
+- [Metrics Reference](c-variables/c-metrics/metricslist.md)
+- [Calculated Metrics](c-calcmetrics/cm-overview.md)
+- [Segmentation](c-segmentation/seg-home.md)
+- [Marketing Channels](c-marketing-channels/c-overview.md)
 
 ## Analytics user guides
 
@@ -35,11 +35,11 @@ Analytics components help you fine tune and empower your customer journey analys
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+- [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
+- [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
+- [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+- [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
+- [Experience League](https://landing.adobe.com/experience-league/)
+- [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+- [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+- [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)

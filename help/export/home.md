@@ -13,11 +13,9 @@ This guide discusses various data export methods, such as data feeds and Data Wa
 
 ## Key Analytics Export articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+- [Data Feeds](analytics-data-feed/c-getstarted/data-feed-overview.md)
+- [Data Warehouse](data-warehouse/data-warehouse.md)
+- [Exporting to FTP](ftp-and-sftp/ftp-overview.md)
 
 ## Analytics user guides
 
@@ -35,11 +33,11 @@ This guide discusses various data export methods, such as data feeds and Data Wa
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+- [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
+- [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
+- [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+- [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
+- [Experience League](https://landing.adobe.com/experience-league/)
+- [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+- [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+- [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)

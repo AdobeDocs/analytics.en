@@ -21,9 +21,9 @@ Banner
 
 | User Guide | Description |
 |--- |--- |
-|[![Analyze](assets/analyze-50.png)](/help/analysis/home.md)<br>[Analytics Tools Guide](/help/analyze/home.md) | The Tools Guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics. |
+|[![Analyze](assets/analyze-50.png)](/help/analyze/home.md)<br>[Analytics Tools Guide](/help/analyze/home.md) | The Tools Guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics. |
 |[![Admin](assets/admin-50.png)](/help/admin/home.md)<br>[Admin Guide](/help/admin/home.md) | The Admin guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
-|[![Implementation](assets/implementation-50.png)](/help/implementation/home.md)<br>[Implementation Guide](/help/implement/home.md) | The Implementation walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |
+|[![Implementation](assets/implementation-50.png)](/help/implement/home.md)<br>[Implementation Guide](/help/implement/home.md) | The Implementation walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |
 |[![Components](assets/components-50.png)](/help/components/home.md)<br>[Components Guide](/help/components/home.md) | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |
 |[![Export](assets/export-50.png)](/help/export/home.md) <br>[Export Guide](/help/export/home.md) | The Export guide discusses various data export methods, such as data feeds and Data Warehouse. |
 |[![Import](assets/import-50.png)](/help/import/home.md) <br>[Import Guide](/help/import/home.md) | The Import guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |

@@ -11,7 +11,7 @@ Adobe Experience Platform Launch is the tool you can use to integrate Experience
 
 ## Prerequisites
 
-[Create a report suite](create-report-suite.md): Create a silo for Analytics data to be collected
+[Create a report suite](../../admin/admin-console/create-report-suite.md): Create a silo for Analytics data to be collected
 
 ## Create a property and install vital extensions
 
@@ -78,4 +78,4 @@ Rules map data elements to Analytics variable values, and determine when those v
 
 ## Next steps
 
-- [Deploy your Analytics implementation to your dev environment](deploy-dev.md): Get Analytics code working in a test environment.
+- Deploy your Analytics implementation to your dev environment: Get Analytics code working in a test environment.

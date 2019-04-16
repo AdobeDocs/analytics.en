@@ -19,7 +19,7 @@ This article is designed for system-level administrators or analytics admins to 
 
 > [!NOTE]Note: There is also a way to create a report suite in Adobe Analytics using the legacy admin. Adobe recommends using the report suite setup wizard outlined here.
 
-1. Log in to [marketing.adobe.com](https://marketing.adobe.com) using your Adobe ID credentials.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 1. Click the 9-square icon in the upper right, then click the colored Analytics logo.
 1. You should see a 'Welcome to Adobe Analytics' modal window automatically pop up. If you don't, click the help icon in the upper right, then select 'Welcome to Adobe Analytics'.
 1. In the modal window, click Start Setup.

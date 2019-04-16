@@ -13,7 +13,7 @@ Analytics components help you fine tune and empower your customer journey analys
 
 ## Key Analytics Components articles
 
-- [Dimension Reference](c-variables/dimensionslist/report-descriptions.md)
+- [Dimension Reference](c-variables/dimensionslist/reports-descriptions.md)
 - [Metrics Reference](c-variables/c-metrics/metricslist.md)
 - [Calculated Metrics](c-calcmetrics/cm-overview.md)
 - [Segmentation](c-segmentation/seg-home.md)

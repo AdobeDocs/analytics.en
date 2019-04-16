@@ -13,11 +13,9 @@ This guide features all the analysis tools you can use in Adobe Analytics. First
 
 ## Key Analyze articles
 
-<!--
-* [Admin Getting Started](admin/c-admin-tools.md)
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Analytics FAQ](https://marketing.adobe.com/resources/help/en_US/sc/user/frequently-asked-questions.html)
--->
+- [Analysis Workspace Getting Started](analysis-workspace/home.md)
+- [Report Builder Getting Started](report-builder/home.md)
+- [Activity Map Getting Started](activity-map/activity-map.md)
 
 ## Analytics user guides
 
@@ -35,11 +33,11 @@ This guide features all the analysis tools you can use in Adobe Analytics. First
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+- [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
+- [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
+- [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+- [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
+- [Experience League](https://landing.adobe.com/experience-league/)
+- [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+- [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+- [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)

@@ -13,7 +13,7 @@ This guide discusses various data export methods, such as data feeds and Data Wa
 
 ## Key Analytics Export articles
 
-- [Data Feeds](analytics-data-feed/c-getstarted/data-feed-overview.md)
+- [Data Feeds - Data Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 - [Data Warehouse](data-warehouse/data-warehouse.md)
 - [Exporting to FTP](ftp-and-sftp/ftp-overview.md)
 

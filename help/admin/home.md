@@ -13,10 +13,10 @@ This guide covers all Adobe Analytics Admin configuration tasks, such as setting
 
 ## Key articles
 
-- [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md)
-- [Admin Getting Started](admin/c-admin-tools.md)
-- [Developer documentation](data-collection/developer.md)
-- [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
+* [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md)
+* [Admin Getting Started](admin/c-admin-tools.md)
+* [Developer documentation](data-collection/developer.md)
+* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
 
 ## Analytics user guides
 
@@ -34,11 +34,11 @@ This guide covers all Adobe Analytics Admin configuration tasks, such as setting
 
 ## Key Analytics resources
 
-- [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-- [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-- [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-- [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-- [Experience League](https://landing.adobe.com/experience-league/)
-- [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-- [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-- [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
+* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
+* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
+* [Experience League](https://landing.adobe.com/experience-league/)
+* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)

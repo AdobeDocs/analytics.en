@@ -1,13 +1,11 @@
 ---
 title: Analytics User Guides
 seo-title: Analytics user guides
-description: null
-seo-description: null
+description: Analytics user guides and resources
+seo-description: Analytics user guides and resources
 ---
 
 # Adobe Analytics Documentation
-
-## Analytics User Guides
 
 <table>
 <thead>

@@ -25,7 +25,7 @@ seo-description: Analytics user guides and resources
 </tr>
 <tr>
 <td valign="middle"><a href="/help/implement/home.md"><img alt="Implementation" src="assets/implement_50px.png" /></a>&emsp;<a href="/help/implement/home.md">Implementation Guide</a></td>
-<td valign="middle">The Implementation walks you through different Adobe Analytics implementation methods, from JavaScript to Launch.</td>
+<td valign="middle">The Implementation guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch.</td>
 </tr>
 <tr>
 <td valign="middle"><a href="/help/components/home.md"><img alt="Components" src="assets/components_50px.png" /></a>&emsp;<a href="/help/components/home.md">Components Guide</a></td>
@@ -49,7 +49,7 @@ seo-description: Analytics user guides and resources
 </tr>
 <tr>
 <td valign="middle"><a href="https://marketing.adobe.com/resources/help/en_US/insight/"><img alt="DWB" src="assets/workbench_50px.png" /></a>&emsp;<a href="https://marketing.adobe.com/resources/help/en_US/insight/">Data Workbench Guides</a></td>
-<td valign="middle">The Data Workbench Guide provides instructions on the Data Workbench Client, Installation, Dataset Configuration, and more.</td>
+<td valign="middle">The Data Workbench guide provides instructions on the Data Workbench Client, Installation, Dataset Configuration, and more.</td>
 </tr>
 </tbody>
 </table>

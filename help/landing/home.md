@@ -7,6 +7,26 @@ seo-description: Analytics user guides and resources
 
 # Adobe Analytics Documentation
 
+[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md)
+
+[![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md)
+
+[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md)
+
+[![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md)
+
+[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md)
+
+[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md)
+
+[![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md)
+
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/)
+
+## Table Layout
+
 <table>
 <thead>
 <tr>
@@ -53,26 +73,6 @@ seo-description: Analytics user guides and resources
 </tr>
 </tbody>
 </table>
-
-## Another Layout
-
-[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md)
-
-[![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md)
-
-[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md)
-
-[![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md)
-
-[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md)
-
-[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md)
-
-[![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md)
-
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
-
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/)
 
 <!--
 ## Analytics User Guides Table Grid

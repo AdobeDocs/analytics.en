@@ -88,7 +88,7 @@ Dig into each of the core features of the Adobe Analytics toolset.
 
 ### What is the Analytics Community?
 
-[Join the growing Adobe Analytics Community of expert users](http://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html) around the world. They range from people new to Analytics to seasoned experts.  We are there to help you from questions about capabilities through to helping with development questions. We hold regular Expert sessions with internal and external expert users and help produce articles and tutorials for you.
+[Join the growing Adobe Analytics Community of expert users](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics) around the world. They range from people new to Analytics to seasoned experts.  We are there to help you from questions about capabilities through to helping with development questions. We hold regular Expert sessions with internal and external expert users and help produce articles and tutorials for you.
 
 Join the community today for access to the best content, people and knowledge. It's open to everyone.
 
@@ -152,10 +152,6 @@ If you capture enterprise customer data in a customer relationship management (C
 
 Analytics segments can be published to the Marketing Cloud and used in Adobe Target, for audience marketing activities. [Learn more about publishing Analytics segments to the Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)
 
-### Viewing Use Case Recipes
-
-[Use Case Recipes](/marketing-cloud/how-to/use-cases.html) show you how to implement and deploy cross-solution workflows and integrations.
-
 ## Contact options
 
 ### Support delegates can get assisted support via:
@@ -167,20 +163,20 @@ Analytics segments can be published to the Marketing Cloud and used in Adobe 
 
 **Phone:** 1-800-497-0335 (US & Canada).
 
-Get [phone numbers for other regions](/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).
+Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).
 
 **Email:**
 
-1.  Include [case details](/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
+1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you’re a **support delegate**? Find out if this [user type applies to you](/experience-cloud/supported-users.html) and learn about our [enterprise support terms](/support/programs/enterprise-support-terms.html).  
+Not sure if you’re a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
 
 ### Community
 
 Join the conversation
 
-[Visit the Adobe Analytics community.](http://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html)
+[Visit the Adobe Analytics community.](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 
 ### Related Forums
 
@@ -195,19 +191,17 @@ Join the conversation
 
 ### Videos and Learning
 
-*   [Feature Videos](/analytics/kt/index/analytics-videos.html)
-*   [Video Tutorials](/analytics/tutorials.html)
-
-![](/content/dam/help/mnemonics/mc_analytics_RGB.svg)
+*   [Feature Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
+*   [Video Tutorials](https://helpx.adobe.com/analytics/tutorials.html)
 
 ### Ask the Community
 
 Post questions and get answers from experts.
 
-[Ask now](http://help-forums.adobe.com/content/adobeforums/en/analytics-forum/adobe-analytics.html)
+[Ask now](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 
 ### Contact Us
 
 Real help from real people.
 
-[Start now](/contact/enterprise-support.ec.html#analytics)
+[Start now](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)

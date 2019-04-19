@@ -94,6 +94,9 @@ user-guide-url: /content/help/en/analytics/admin/home.html
         + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
         + [Use Case - Extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
     + [Video management](admin/video-management.md)
++ Experience Cloud Admin Console {#admin-console}
+    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
+    + [Create a report suite](admin-console/create-report-suite.md)
 + Company Settings {#company-settings}
     + [Company Settings overview](company/c-company-settings.md)
     + [Feature access levels](company/feature-access-levels.md)

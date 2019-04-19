@@ -7,6 +7,10 @@ title: Run Ad Hoc Analysis with Java 11
 
 # Run Ad Hoc Analysis with Java 11
 
+>[!Important]
+>
+>This functionality is not yet implemented, but will be coming soon.
+
 You need to follow additional steps when running Ad Hoc Analysis with Java 11 compared to running it with Java 8.
 
 ## Prerequisites
@@ -36,6 +40,7 @@ There are a few known limitations in the Java 11 version compatible with Ad Hoc 
 * Federated & Enterprise ID authentication methods are not supported.
 * Linux operating systems are not supported.
 * When using a Mac, do not use the Mac application menu (including *cmd + Q*). This may cause Ad Hoc Analysis to close without warning. Instead, use the menu inside Ad Hoc Analysis.
+* The Site Analysis visualization is not supported when running Ad Hoc Analysis on MacOS.
 
 ## FAQ
 

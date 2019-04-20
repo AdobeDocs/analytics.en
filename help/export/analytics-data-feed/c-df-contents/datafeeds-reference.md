@@ -45,6 +45,13 @@ Table data describing the columns in the data feed.
 >
 >Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases.
 
+**Ranges**
+
+`smallint(5)` range is -32768 to 32767
+`smallint(5) unsigned` range is 0 to 65535.
+`int(11)` range is -2147483648 to 2147483647
+`int(10) unsigned` range is 0 to 4294967295
+
 | Column name | Column description | Data type |
 |--- |--- |--- |
 |accept_language|Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request.|varchar(20)|
@@ -52,7 +59,7 @@ Table data describing the columns in the data feed.
 |aemassetsource|Identifies the source of the asset event. Used in Adobe Experience Manager.|varchar(255)|
 |aemclickedassetid|Asset ID of an Adobe Experience Manager asset. Increments Click Events.|varchar(255)|
 |browser|Numeric ID of the browser. References the browser.tsv lookup table.|smallint(5) unsigned|
-|browser_height|Height in pixels of the browser window.|smallint(5) unsigned|
+|browser_height|Height in pixels of the browser window.|int(10) unsigned|
 |browser_width|Width in pixels of the browser window.|smallint(5) unsigned|
 |c_color|Bit depth of the color palette. Used as part of calculating the Color Depth dimension. Uses the JavaScript function screen.colorDepth().|varchar(20)|
 |campaign|Variable used in the Tracking Code dimension.|varchar(255)|
@@ -140,7 +147,7 @@ Table data describing the columns in the data feed.
 |mvvar1-3|List variable values. Contains a delimited list of custom values depending on implementation.|text|
 |namespace|Not used. Part of a scrapped feature many years ago.|varchar(50)|
 |new_visit|Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity.|tinyint(3) unsigned|
-|os|Numeric ID representing the operating system of the visitor. Based on the user_agent column. Uses os lookup.|smallint(5) unsigned|
+|os|Numeric ID representing the operating system of the visitor. Based on the user_agent column. Uses os lookup.|int(10) unsigned|
 |p_plugins|No longer used. List of plugins available to the browser. Used the JavaScript function navigator.plugins().|text|
 |page_event|The type of hit that is sent in the image request (standard hit, download link, custom link, exit link).|tinyint(3) unsigned|
 |page_event_var1|Only used in link tracking image requests. The URL of the download link, exit link, or custom link clicked.|varchar(255)|

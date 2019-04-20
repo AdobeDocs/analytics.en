@@ -34,13 +34,13 @@ Data elements are references to specific parts of your site to collect variable 
 2. Click the Launch property that you intend to implement on your site.
 3. Click the Data Elements tab, then click Create New Data Element.
 4. Give the data element the following settings:
-   - Name: Page Name
-   - Extension: Core
-   - Data Element Type: JavaScript Variable
-   - Path to variable: `window.document.title`
+   * Name: Page Name
+   * Extension: Core
+   * Data Element Type: JavaScript Variable
+   * Path to variable: `window.document.title`
       > [!NOTE] Note: This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
-   - Clean text checked
-   - Duration: Pageview
+   * Clean text checked
+   * Duration: Pageview
 5. Click Save.
 
 ## Create rules for Adobe Analytics
@@ -51,31 +51,31 @@ Rules map data elements to Analytics variable values, and determine when those v
 1. Click the Launch property that you intend to implement on your site.
 1. Click Create New Rule and name it `Global Rule`.
 1. Click Add next to events, and enter the following settings:
-   - Extension: Core
-   - Event Type: Library Loaded (Page Top)
-   - Name: Core - Library Loaded (Page Top)
-   - Order: 50
+   * Extension: Core
+   * Event Type: Library Loaded (Page Top)
+   * Name: Core - Library Loaded (Page Top)
+   * Order: 50
 1. Click Keep Changes.
 1. Under Actions, click Add, and enter the following settings:
-   - Extension: Adobe Analytics
-   - Action Type: Set Variables
-   - Page Name: click the container icon, and select the `Page Name` data element.
-   - Campaign: Query parameter with a value of `cid`
+   * Extension: Adobe Analytics
+   * Action Type: Set Variables
+   * Page Name: click the container icon, and select the `Page Name` data element.
+   * Campaign: Query parameter with a value of `cid`
 1. Click Keep Changes.
 1. Click the Plus sign next to actions to add another action, and enter the following settings:
-   - Extension: Adobe Analytics
-   - Action Type: Send Beacon
-   - Name: Adobe Analytics - Send Beacon
-   - Tracking: s.t()
+   * Extension: Adobe Analytics
+   * Action Type: Send Beacon
+   * Name: Adobe Analytics - Send Beacon
+   * Tracking: s.t()
 1. Click Keep Changes.
 1. Verify that you have the event and two actions set, then click Save.
 
 ## Documentation and additional resources
 
-- [Adobe Analytics extension documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Full documentation specific to the Adobe Analytics extension in Adobe Experience Platform Launch.
-- [Getting Started with Launch](https://docs.adobelaunch.com/getting-started): Full documentation for Launch, including a more in-depth getting started guide
-- [Adobe Experience Platform Launch YouTube channel](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Learn how to use Launch through videos
+* [Adobe Analytics extension documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Full documentation specific to the Adobe Analytics extension in Adobe Experience Platform Launch.
+* [Getting Started with Launch](https://docs.adobelaunch.com/getting-started): Full documentation for Launch, including a more in-depth getting started guide
+* [Adobe Experience Platform Launch YouTube channel](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Learn how to use Launch through videos
 
 ## Next steps
 
-- Deploy your Analytics implementation to your dev environment: Get Analytics code working in a test environment.
+* Deploy your Analytics implementation to your dev environment: Get Analytics code working in a test environment.

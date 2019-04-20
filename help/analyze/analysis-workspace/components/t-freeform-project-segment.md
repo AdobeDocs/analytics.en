@@ -14,6 +14,8 @@ The segment rail under the Components menu shows segments as well as segment tem
 
 ![](assets/segment_icons.png)
 
+[Using Segments in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 You can create instant segments by dropping any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the segment drop zone at the top of a panel.

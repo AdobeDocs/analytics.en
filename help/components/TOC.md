@@ -111,6 +111,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + Dimensions/Reports {#dimensions-reports}
         + [Dimension Descriptions](c-variables/dimensionslist/reports-descriptions.md)
         + [Dimension Compatibility](c-variables/dimensionslist/dimension-compatibility.md)
+        + [Best Practices and Troubleshooting](c-variables/dimensionslist/report-troubleshooting.md)
         + [Account Activity](c-variables/dimensionslist/report-account-activity.md)
         + [Anomaly Detection](c-variables/dimensionslist/anomaly.md)
         + [Report Categories](c-variables/dimensionslist/reports-types.md)

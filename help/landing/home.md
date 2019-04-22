@@ -108,3 +108,76 @@ seo-description: Analytics user guides and resources
 * [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+
+<!-- Copied from Helpx hub page. Let's simplify and keep what's useful -->
+
+
+## New to Adobe Analytics
+
+### I'm trying to implement Analytics, where do I start?
+
+Getting the most out of Adobe Analytics starts with how you implement. [Follow our Getting Started guide](/help/analyze/reports-analytics/getting-started.md) to understand your next steps.
+
+### How do I know which Analytics tool to use?
+
+Spoilt for choice or confused on what to use? [Follow our documentation](/help/admin/c-analytics-product-comparison/which-analytics-tool.md) to help you learn the tool set.
+
+### Is there a guide to Adobe Analytics terminology?
+
+If you're new to Adobe Analytics some of the terminology may be confusing. We have a [useful glossary](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html) to help decipher the language of analytics.
+
+### Do you have video tutorials for Adobe Analytics?
+
+Yes we do! Many quick guides can be found in our documentation and articles directly, but we also have an [index of all the official Adobe Analytics training videos](http://www.adobe.com/training/video.html#analytics) on our training hub.
+
+### Where can I learn about training classes and certifications?
+
+Expand your learning with [in-person & virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics).
+
+## Analytics Reporting & Features
+
+### What reporting tools do you have in Analytics?
+
+Here is a comprehensive list of all the reporting capabilities in Adobe Analytics.
+
+*   [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
+*   [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/index.html)
+*   [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
+*   [Mobile Services UI](https://marketing.adobe.com/resources/help/en_US/mobile/home.html)
+*   [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+*   [Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
+*   [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/)
+
+### How do I know which reporting tool to use?
+
+At first pass, choosing between the tools can seem quite overwhelming. We have produced a [guide to help you determine which tools you need to use](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html).
+
+### What are the technical differences between each Adobe Analytics tool?
+
+Need to dig into the differences between each Adobe Analytics tool? [We have a guide for that.](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+
+### Do you have an Analytics feature list?
+
+Dig into each of the core features of the Adobe Analytics toolset.
+
+*   [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)     
+*   [Anomaly Detection](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)
+*   [APIs](https://marketing.adobe.com/developer/documentation)
+*   [Bot filtering](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html)    
+*   [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)     
+*   [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)    
+*   [Cohort Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html)
+*   [Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)   
+*   [Data Connectors](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace.html) 
+*   [Data Feeds](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/)       
+*   [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html)  
+*   [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)
+*   [Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)
+*   [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)       
+*   [Mobile App SDK](https://marketing.adobe.com/resources/help/en_US/mobile/)  
+*   [Real-time reporting](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
+*   [Segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)
+*   [Segment Comparison](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)
+*   [Video Tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)     
+*   [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
+

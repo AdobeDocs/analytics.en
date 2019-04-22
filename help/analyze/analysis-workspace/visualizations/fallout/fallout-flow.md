@@ -31,6 +31,8 @@ A fallout visualization is useful for analyzing:
 * General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item. 
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
 
+[Fallout Visualization on YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
 Segments applied to Workspace panels work slightly differently than segments applied to fallout and flow reports in Reports & Analytics or Ad Hoc Analysis. Most of the time, they provide exactly the same results. The main difference is that Reports & Analytics and Ad Hoc Analysis apply the segment at each step of the sequence. This can result in slightly different outcomes.

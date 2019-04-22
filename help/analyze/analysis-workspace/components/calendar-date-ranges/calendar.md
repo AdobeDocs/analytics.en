@@ -18,6 +18,9 @@ You can also drag dates (and time dimensions) into a Workspace project. You can 
 
 ![](assets/aw_calendar.png)
 
+[Using Date Ranges and Calendar in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+
+
 | Setting | Description |
 |--- |--- |
 |Selected Days|Selected days/weeks/months/years.|

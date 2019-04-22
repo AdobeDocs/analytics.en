@@ -24,3 +24,4 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 
 ![](assets/calc_metrics.png)
 
+[Using Participation Metrics on YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)

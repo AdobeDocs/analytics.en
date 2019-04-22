@@ -85,6 +85,8 @@ When you first open a Workspace, templates are available in the left rail. Analy
 
 You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.
 
+[Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+
 Here are available templates and the questions that each template helps answer:
 
 ### Media

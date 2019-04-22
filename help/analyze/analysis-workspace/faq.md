@@ -35,11 +35,7 @@ uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
   <tr> 
    <td colname="col1"> <p>Can I use Analysis Workspace for Data Warehouse? </p> </td> 
    <td colname="col2"> <p>Analysis Workspace is not recommended for bulk data export. It is a visualization workspace creating dashboard-like analysis projects. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Are participation metrics available in Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>No, not yet. Use calculated metrics instead. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p>How can I optimize performance of Analysis Workspace? </p> </td> 
    <td colname="col2"> <p>See <a href="../../analyze/analysis-workspace/optimizing-performance.md#concept_A272AD0B5BC843879663D1F01B1F57C4" format="dita" scope="local"> Optimizing Performance</a>. </p> </td> 

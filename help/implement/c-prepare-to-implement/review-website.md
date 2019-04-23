@@ -6,7 +6,11 @@ title: Review website or application
 uuid: 52adfc08-5cae-47cc-8d9d-4b66f597728a
 ---
 
-# Review website or application
+<!-- This page has a very sales-y vibe to it, and does not really provide much value besides a rundown on what happens if they choose to involve consulting. -->
+
+(Redirects to [Create a solution design document](../prepare/solution-design.md))
+
+<!-- # Review website or application
 
 A site or application walk-through is a key step in the implementation process, in which you lead your Implementation Consultant through the site and explain the technical factors and business flows.
 
@@ -69,4 +73,6 @@ Technical:
 * Hosted conversion process 
 * Currency and time zone settings 
 * Hybrid app details
+
+-->
 

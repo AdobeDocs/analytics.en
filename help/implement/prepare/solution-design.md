@@ -42,7 +42,7 @@ There are also several Adobe partners who specialize in helping with the creatio
 
 > [!NOTE] Note
 >
-> The following links are not owned by Adobe, though members of the Analytics community have found them helpful. They do not serve as an official source, but rather helpful information to expand knowledge on this topic.
+> Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
 
 * [7 Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) by ObservePoint
 * [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) by Analytics Demystified

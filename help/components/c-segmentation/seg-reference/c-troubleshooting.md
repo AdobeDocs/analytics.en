@@ -1,12 +1,12 @@
 ---
 description: null
 seo-description: null
-seo-title: Troubleshooting
-title: Troubleshooting
+seo-title: Segmentation Troubleshooting
+title: Segmentation Troubleshooting
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 ---
 
-# Troubleshooting
+# Segmentation Troubleshooting
 
 ## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 

@@ -7,11 +7,11 @@ seo-description: Analytics user guides and resources
 
 # Adobe Analytics Documentation
 
-[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Analysis Workspace and other analysis tools
+[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Administration tasks for configuring report suites, data governance, server call usage, and more
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Administration tasks for configuring report suites, users, and more
 
-[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Analytics setup methods, from JavaScript to Launch
+[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Analytics setup methods, from Launch to JavaScript
 
 [![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md) &ndash; Components include segments, calculated metrics, virtual report suites, and alerts
 
@@ -118,7 +118,7 @@ seo-description: Analytics user guides and resources
 * [Getting Started with Reports and Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Glossary](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html)
 
-### Video tutorials and training
+## Video tutorials and training
 
 * [Analytics implementation videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
 * [Analytics training videos](http://www.adobe.com/training/video.html#analytics)
@@ -126,12 +126,10 @@ seo-description: Analytics user guides and resources
 * [Adobe Experience Cloud Webinar Series](https://www.adobe.com/sea/events/aec-webinars.html)  
 * [Experience League](https://landing.adobe.com/experience-league/)  
 
-## Analytics reporting & features
+## Analytics reporting
 
 * [Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)
 * [Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
-
-### Reporting tools
 
 Here is a comprehensive list of all the reporting capabilities in Adobe Analytics.
 
@@ -143,9 +141,10 @@ Here is a comprehensive list of all the reporting capabilities in Adobe Analytic
 *   [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 *   [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
-### Analytics feature list
+<!-- Keeping around for now
 
-<!-- Please review this list. Still valid? Complete? Is this really useful? -->
+### Analytics feature list
+?
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
@@ -187,3 +186,4 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
 Not sure if you’re a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+ -->

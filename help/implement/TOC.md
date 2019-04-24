@@ -55,13 +55,9 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
         + [What is a custom event?](analytics-terminology-basics/c-props-evars/event-custom.md)
         + [Hash collisions](analytics-terminology-basics/c-props-evars/hash-collisions.md)
 + [FAQs about Analytics implementation](faq.md)
-+ Prepare to implement {#prepare-to-implement}
-    + [Prepare to implement Analytics](c-prepare-to-implement/prepare-to-implement.md)
-    + [Business Requirements document](c-prepare-to-implement/business-requirements-document.md)
-    + [Business Governance questionnaire](c-prepare-to-implement/business-governance.md)
-    + [Technical questionnaire](c-prepare-to-implement/technical-questionnaire.md)
-    + [Review website or application](c-prepare-to-implement/review-website.md)
-    + [Technical specification](c-prepare-to-implement/technical-specification.md)
++ Prepare to implement {#prepare}
+    + [Create a solution design document](prepare/solution-design.md)
+    + [Create a data layer](prepare/data-layer.md)
 + [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
 + [Get started with Analytics implementation](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + [https://docs.adobelaunch.com/](https://docs.adobelaunch.com/)

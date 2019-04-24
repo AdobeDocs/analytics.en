@@ -13,6 +13,8 @@ uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 
 Learn about visualizations and visualization settings in Analysis Workspace.
 
+[Visualization Types in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
 To display the Visualizations panel, click **[!UICONTROL Visualizations]** in the side panel.

@@ -15,6 +15,8 @@ The Segment Comparison (Segment IQ) Tool discovers the most statistically signif
 
 Analysts can spend many hours or even days searching for relevant differences between segments across broad swaths of your company’s metrics and dimensions. Not only is this analysis tedious and time consuming, you can never be sure whether you haven’t missed a key difference insight about a segment that would make a big impact to your targeted marketing efforts.
 
+[Segment Comparison on YouTube](https://www.youtube.com/watch?v=fO3PNB93U_w&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=38) (4:46)
+
 Here are some key new concepts, visualizations, and tables that are introduced with the Segment Comparison tool:
 
 ## “Everyone else” segment {#section_30AEE8181E5D46D9AB27F7CA3815D0CD}

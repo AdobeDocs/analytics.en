@@ -10,6 +10,8 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 
 The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
+[Intelligent Alerts on YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=65) (5:34)
+
 ## Overview {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
 The new Alert Builder and Alert Manager in Analysis Workspace replace the existing alert functionality in Reports & Analytics. Intelligent Alerts let you

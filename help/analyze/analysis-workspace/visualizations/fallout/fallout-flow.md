@@ -4,9 +4,6 @@ seo-description: null
 seo-title: Fallout overview
 title: Fallout overview
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-index: y
-internal: n
-snippet: yp
 ---
 
 # Fallout overview

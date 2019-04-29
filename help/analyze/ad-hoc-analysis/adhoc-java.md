@@ -7,10 +7,6 @@ title: Run Ad Hoc Analysis with Java 11
 
 # Run Ad Hoc Analysis with Java 11
 
->[!Important]
->
->This functionality is not yet implemented, but will be coming soon.
-
 You need to follow additional steps when running Ad Hoc Analysis with Java 11 compared to running it with Java 8.
 
 ## Prerequisites

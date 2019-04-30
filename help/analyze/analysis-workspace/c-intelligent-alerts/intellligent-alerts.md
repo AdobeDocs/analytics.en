@@ -8,6 +8,9 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 
 # Intelligent Alerts overview
 
+>[!Important]
+>Using time-stamped data to create alerts could cause alerts >to fire incorrectly. We therefore recommend leveraging >non-time-stamped data for Intelligent Alerts.
+
 The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
 [Intelligent Alerts on YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=65) (5:34)

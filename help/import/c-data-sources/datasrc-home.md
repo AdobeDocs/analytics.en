@@ -20,7 +20,6 @@ By integrating offline data, you can leverage data sources to integrate:
 * Product Returns 
 * Leads 
 * Web Logs 
-* Traffic Metrics
 
 Data integration helps you understand transactions as a whole. Think of how your customers interact with your site.
 

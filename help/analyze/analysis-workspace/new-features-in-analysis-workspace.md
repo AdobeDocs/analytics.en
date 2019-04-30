@@ -11,6 +11,14 @@ uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 
 # What's New in Analysis Workspace
 
+## May 2019
+
+Enhancement released on May 09, 2019.
+
+| Enhancement | Description |
+|--- |--- |
+|A new setting was added to the Flow visualization settings: Include Repeat Instances.|[Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+
 ## April 2019
 
 Enhancement released on April 11, 2019.

@@ -259,6 +259,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
         + [Visitor Profile](c-variables/dimensionslist/reports-visitor-profile.md)
         + [Visitor Retention](c-variables/dimensionslist/reports-visitor-retention.md)
         + [Visitors](c-variables/dimensionslist/reports-visitors.md)
+        + [Zip](c-variables/dimensionslist/reports-zip.md)
     + Metrics {#metrics}
         + [Metrics overview](c-variables/c-metrics/metricslist.md)
         + [Metrics quick reference](c-variables/c-metrics/metrics-overview.md)

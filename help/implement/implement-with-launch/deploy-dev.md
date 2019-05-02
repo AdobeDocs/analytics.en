@@ -5,7 +5,7 @@ description: Learn how to use Adobe Experience Platform Launch to deploy Adobe A
 seo-description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your development environment.
 ---
 
-# Deploy your Analytics implementation to your dev environment
+# Deploy an Analytics implementation to a development environment
 
 Once a property has been created and configured in Launch, the libraries are ready to be deployed and code implemented on your site.
 

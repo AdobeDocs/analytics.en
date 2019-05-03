@@ -16,7 +16,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
         + [Create a basic report in Analysis Workspace for GA users](ga-to-aa/reports/create-report.md)
         + [Real-time](ga-to-aa/reports/realtime-reports.md)
         + [Audience](ga-to-aa/reports/audience-reports.md)
-        + [Acquisition](ga-to-aa/reports/acquistion-reports.md)
+        + [Acquisition](ga-to-aa/reports/acquisition-reports.md)
         + [Behavior](ga-to-aa/reports/behavior-reports.md)
         + [Conversions](ga-to-aa/reports/conversions-reports.md)
     + [Frequently asked questions](ga-to-aa/faq.md)

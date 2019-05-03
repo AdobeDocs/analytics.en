@@ -9,9 +9,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
 
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
-    + [Analysis Workspace overview](analysis-workspace/analysis-workspace-features.md)
-    + [Getting Started guide](analysis-workspace/home.md)
-    + [Videos about Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+    + [Analysis Workspace help](analysis-workspace/home.md)
+    + [Analysis Workspace features](analysis-workspace/analysis-workspace-features.md)
     + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
     + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
     + Build a Workspace project {#build-workspace-project}
@@ -104,16 +103,16 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
             + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
             + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
         + Intelligent Alerts {#intelligent-alerts}
-            + [Intelligent Alerts overview](/help/components/c-alerts/intellligent-alerts.md)
-            + [Alert Builder](/help/components/c-alerts/alert-builder.md)
-            + [Alert Manager](/help/components/c-alerts/alert-manager.md)
-            + [Intelligent Alerts - use cases](/help/components/c-alerts/alerts-use-cases.md)
+            + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
+            + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+            + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+            + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
     + [Frequently asked questions](analysis-workspace/faq.md)
     + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
     + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
 + Report Builder {#report-builder}
-    + [Adobe Report Builder help](report-builder/report-builder-overview.md)
+    + [Adobe Report Builder help](report-builder/home.md)
     + [What's new in Report Builder](report-builder/whats-new-arb.md)
     + Report Builder setup {#report-builder-setup}
         + [System requirements](report-builder/setup/system-requirements.md)

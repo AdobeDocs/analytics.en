@@ -1,116 +1,52 @@
 ---
-title: Report Builder Overview
-seo-title: Adobe Report Builder Overview
+seo-title: Adobe Report Builder help
+solution: Analytics
+title: Adobe Report Builder help
+topic: Report builder
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 ---
 
-# Report Builder Overview
+# Adobe Report Builder help {#adobe-report-builder-help}
 
-+ [Report Builder Overview](report-builder-overview.md)
-+ [What's new in Report Builder](whats-new-arb.md)
-+ Report Builder setup
-    + [System requirements](setup/system-requirements.md)
-    + [Install Report Builder](setup/t-install-arb.md)
-    + [Upgrade Report Builder](setup/upgrade-arb.md)
-    + [Report Builder Sign-In](setup/login.md)
-    + [Sign in to Report Builder](setup/t-loggin-in-to-reportbuilder.md)
-    + [Uninstall Report Builder](setup/t-uninstall-arb.md)
-    + [Invoke Report Builder functionality from Microsoft Excel functions](setup/invoke-arb-excel-function.md)
-+ [Report Builder toolbar](reportbuilder-toolbar.md)
-+ [Data requests - Request Wizard Step 1](data-requests/data-requests.md)
-    + [Create a data request](data-requests/t-create-a-data-request.md)
-    + Report suites
-        + [Select a report suite](data-requests/selecting-report-suites/t-select-report-suites.md)
-        + [Select a report suite from an existing request in Excel](data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
-        + [Use Excel to locate a report suite ID](data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
-    + [Manage segments](data-requests/segmentation.md)
-    + [Allow Publishing List Overrides](data-requests/allow-publishing-list-overrides.md)
-    + Report types
-        + [Report types overview](data-requests/c-report-types/select-report-types.md)
-        + [Path and path fallout reports in Report Builder](data-requests/c-report-types/report-path-fallout.md)
-        + [Filter a Path Report Using the Request Wizard](data-requests/c-report-types/path-filter.md)
-        + [Filter a Fallout Report Using the Request Wizard](data-requests/c-report-types/fallout-filter.md)
-        + [Filter Path Reports by Adding Dependent Requests](data-requests/c-report-types/create-toppath-filter.md)
-        + [Select a report type](data-requests/c-report-types/t-select-report-type.md)
-    + [Import bookmarked reports and dashboard reportlets](data-requests/import-bookmarked.md)
-    + Date ranges
-        + [Request Wizard definitions - preset dates](data-requests/configuring-report-dates/r-arb-preset-dates.md)
-        + [Fixed dates and saved date ranges](data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
-        + [Request Wizard definitions - fixed dates](data-requests/configuring-report-dates/r-arb-fixed-dates.md)
-        + [Rolling dates](data-requests/configuring-report-dates/t-rolling-dates.md)
-        + [Request Wizard definitions - rolling dates](data-requests/configuring-report-dates/r-arb-rolling-dates.md)
-        + [Real-time reports](data-requests/configuring-report-dates/real-time.md)
-        + [Configure a real-time request](data-requests/configuring-report-dates/t-real-time.md)
-        + [Customized date expressions - overview](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
-            + [Date abbreviations](data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
-            + [Individual starting or ending dates](data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
-            + [Examples of date ranges using customized expressions](data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
-            + [Considerations](data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
-        + [Dates from a cell](data-requests/configuring-report-dates/t-dates-from-a-cell.md)
-        + [Granularity](data-requests/configuring-report-dates/granularity.md)
-        + [Custom calendar](data-requests/configuring-report-dates/custom-calendar.md)
-    + [Interactive controls](data-requests/interactive-controls.md)
-+ [Layout - Request Wizard Step 2](layout/layout.md)
-    + Metrics and dimensions
-        + [Metrics and dimensions overview](layout/c-metrics-dimensions/metrics-dimensions.md)
-        + [Add metrics and dimensions](layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-        + [Calculated Metrics](layout/c-metrics-dimensions/calculated-metrics.md)
-        + [Combine traffic and commerce metrics in the same request](layout/c-metrics-dimensions/grouped-metrics.md)
-        + [User access permissions for dimensions and metrics](layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-        + [Modify metrics - field definitions](layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-        + [Customer attributes](layout/c-metrics-dimensions/c-ustomer-attributes.md)
-    + [Anomaly Detection](layout/anomaly-detection.md)
-    + [Configure an anomaly detection request](layout/t-anomaly.md)
-    + [Format the date](layout/format-the-data.md)
-    + [Format display headers](layout/t-format-display-headers.md)
-    + [Hide or show headers](layout/hide-or-show-headers.md)
-    + [Delete output mapping](layout/delete-output-mapping.md)
-    + [Name a request](layout/name-a-request.md)
-    + [Prepend and postpend text to cells](layout/prepend-and-postpend-text-to-cells.md)
-    + [Configure the custom layout](layout/configure-the-custom-layout.md)
-    + [Map metrics and dimensions to cells](layout/map-metrics-and-dimensions-to-cells.md)
-    + [Create a microchart](layout/t-create-a-microchart.md)
-    + Filter dimensions
-        + [Filter dimensions overview](layout/c-filter-dimensions/filter-dimensions.md)
-        + [Most popular filtering](layout/c-filter-dimensions/t-most-popular-filtering.md)
-        + [Specific filters](layout/c-filter-dimensions/t-specific-filters.md)
-        + [Saved filters](layout/c-filter-dimensions/saved-filters.md)
-+ Manage requests
-    + [Manage requests - definitions](manage-requests/r-arb-manage-requests.md)
-    + [Diagnostic messages](manage-requests/diagnostic-messages.md)
-    + [Sort ascending or descending](manage-requests/sort-ascending-or-descending.md)
-    + [Protected worksheet elements](manage-requests/protected-worksheet-elements.md)
-    + [Edit multiple requests](manage-requests/t-edit-multiple-requests.md)
-    + [Edit metrics across multiple requests](manage-requests/edit-multiple-metrics.md)
-    + [Refresh a request](manage-requests/t-refresh-a-request.md)
-    + [Refresh requests for all sheets](manage-requests/t-refresh-requests-for-all-sheets.md)
-    + [Add dependent requests](manage-requests/add-dependent-requests.md)
-    + [Classification](manage-requests/classification.md)
-    + Copy requests
-        + [Copy requests overview](manage-requests/c-copy-requests/copy-requests.md)
-        + [Copy simple requests](manage-requests/c-copy-requests/t-copy-simple-requests.md)
-        + [Copy adjacent requests](manage-requests/c-copy-requests/copy-adjacent-requests.md)
-        + [Copy worksheets](manage-requests/c-copy-requests/t-copy-worksheets.md)
-        + [Copy requests and worksheets between workbooks](manage-requests/c-copy-requests/t-copy-requests-and-worksheets-between-workbooks.md)
-        + [Create more than one copy of a request](manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
-        + [Copy referential requests](manage-requests/c-copy-requests/t-copy-referential-requests.md)
-    + [Save a workbook with requests](manage-requests/save-a-workbook-with-requests.md)
-    + [Specify conditional formatting](manage-requests/specify-conditional-formatting.md)
-    + [Offline mode for creating and editing requests](manage-requests/offline-mode.md)
-+ [Report Builder options](options.md)
-+ [Schedule report requests](schedule-report-requests.md)
-+ [Schedule a data request](t-schedule-a-data-request.md)
-+ [Scheduled Task Manager](r-arb-scheduled-reports.md)
-+ Workbook Library
-    + [Upload a workbook](workbook-library/t-upload-a-workbook.md)
-    + [Download a workbook](workbook-library/t-download-a-workbook.md)
-    + [Lock/unlock workbooks](workbook-library/protect-wb.md)
-    + [Schedule macro-enabled workbooks](workbook-library/schedule-macro-wb.md)
-+ Publish to Power BI with Report Builder 5.5
-    + [Publish to Power BI - Overview](c-publish-power-bi/power-bi.md)
-    + [Limitations and specifications](c-publish-power-bi/specifications-limits.md)
-    + [Manually import data to Power BI](c-publish-power-bi/bi-manually-import-data.md)
-    + [Pull published assets into Power BI Desktop](c-publish-power-bi/bi-publish-to-desktop.md)
-    + [Best practices](c-publish-power-bi/bi-best-practices.md)
-    + [Troubleshooting Power BI integration](c-publish-power-bi/troubleshooting.md)
-    + [Adobe Analytics content packs for Power BI](c-publish-power-bi/integration-power-bi.md)
-+ [Troubleshooting and best practices for Report Builder](troubleshoot.md)
+ [!DNL Adobe] Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from reporting and analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
+
+<!-- >>[!IMPORTANT]
+>
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>
+>See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+
+>[!IMPORTANT]
+>
+>Due to the end of support for TLS 1.0, we recommended that Adobe Report Builder (ARB) users download ARB v5.6.21 prior to September 13, 2018. After that date, prior versions of ARB will not be supported. -->
+
+<!-- Tutorial goes here -->
+
+## Popular help topics
+
+* [Setup, Installation, and Login](setup/login.md)
+* [Schedule Report Requests](schedule-report-requests.md)
+* [Troubleshooting and Best Practices for Report Builder](troubleshoot.md)
+* [What are my options for creating custom date ranges?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+* [Why can't I see my segments in Report Builder?](data-requests/segmentation.md)
+
+## Common questions and troubleshooting
+
+* [How do I create a data request?](data-requests/t-create-a-data-request.md)
+* [Troubleshooting and Best Practices for Report Builder](troubleshoot.md)
+
+## Experience Cloud resources
+
+* [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
+* [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
+* [Product Documentation Home](https://marketing.adobe.com/resources/help/en_US/home/index.html)
+* [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
+* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)
+
+## Reports & Analytics help
+
+* [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
+* [Reports & Analytics Help](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
+* [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.

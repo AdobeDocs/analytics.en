@@ -133,13 +133,13 @@ seo-description: Analytics user guides and resources
 
 Here is a comprehensive list of all the reporting capabilities in Adobe Analytics.
 
-*   [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
-*   [Report Builder](/help/analyze/report-builder/report-builder-overview.md)
-*   [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
+*   [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
+*   [Report Builder](../analyze/report-builder/home.md)
+*   [Data Warehouse](../export/data-warehouse/data-warehouse.md)
 *   [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 *   [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-*   [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
-*   [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
+*   [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
+*   [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
 
 <!-- Keeping around for now
 

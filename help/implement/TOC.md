@@ -58,9 +58,12 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
 + Prepare to implement {#prepare}
     + [Create a solution design document](prepare/solution-design.md)
     + [Create a data layer](prepare/data-layer.md)
-+ [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
+    + [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
 + [Get started with Analytics implementation](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ [https://docs.adobelaunch.com/](https://docs.adobelaunch.com/)
++ Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
+    + [Create an Analytics property in Launch](implement-with-launch/create-analytics-property.md)
+    + [Deploy an implementation to a development environment](implement-with-launch/deploy-dev.md)
+    + [Validate a development implementation and publish to production](implement-with-launch/validate-publish-prod.md)
 + Implement Analytics with DTM {#implement-analytics-with-dtm}
     + [Dynamic Tag Management implementation overview](c-implement-with-dtm/dtm-implementation-overview.md)
     + [Create web property](c-implement-with-dtm/t-create-web-property.md)

@@ -8,7 +8,7 @@ user-guide-url: /content/help/en/analytics/landing/home.html
 # Analytics Documentation {#landing}
 
 + [Home](home.md)
-+ [Troubleshooting Analytics](troubleshooting.md)
++ [Documentation Updates](doc-updates.md)
 
 <!--
 + Analytics Guides{#analytics-guides}

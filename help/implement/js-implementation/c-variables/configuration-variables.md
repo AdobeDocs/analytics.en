@@ -38,7 +38,7 @@ The  variable determines the report suite where data is stored and reported.
 
 If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. The report suite ID is determined by Adobe.
 
-### Parameters
+**Parameters**
 
 |Max Size|Debugger Parameter|Reports Populated|Default Value|
 |--- |--- |--- |--- |
@@ -59,7 +59,7 @@ https://mycompany.112.207.net/b/ss/
 <b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
 ```
 
-### Syntax and Possible Values {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
+**Syntax and Possible Values** {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
 
 The report suite ID is an alphanumeric string of ASCII characters, no more than 40 bytes in length. The only non-alphanumeric character allowed is a hyphen. Spaces, periods, commas and other punctuation are not allowed. The `s_account` variable may contain multiple report suites, all of which receive data from that page.
 
@@ -69,7 +69,7 @@ var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 
 All values of `s_account` must be provided or approved by Adobe.
 
-### Examples {#section_16580A9101B64560A58C7745397FB42F}
+**Examples** {#section_16580A9101B64560A58C7745397FB42F}
 
 ```js
 var s_account="mycompanycom"
@@ -79,11 +79,11 @@ var s_account="mycompanycom"
 var s_account="mycompanycom,mycompanysection"
 ```
 
-### Configuring the Variable in Analytics {#section_7DFB2CCF02F045AFB1AD4F376638393B}
+**Configuring the Variable in Analytics** {#section_7DFB2CCF02F045AFB1AD4F376638393B}
 
 The friendly name associated with each report suite ID can be changed by Adobe [!DNL Customer Care]. The friendly name can be seen in [!DNL Analytics] in the site drop-down box in the top, left section of the screen.
 
-### Pitfalls, Questions, and Tips {#section_BFFDA5C0AF31442494B0E02F0925CF93}
+**Pitfalls, Questions, and Tips** {#section_BFFDA5C0AF31442494B0E02F0925CF93}
 
 * If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
 * When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.

@@ -46,12 +46,8 @@ uuid: 90961172-869d-4ed3-aba5-52374e53b603
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Are any dimensions or metrics not supported by Attribution IQ?</b> </p> </td> 
-   <td colname="col2"> <p>A: Yes, currently Attribution IQ is <u>not</u> supported on the following dimensions: </p> 
-    <ul id="ul_908A04791EDC4363902939DBCE8EC151"> 
-     <li id="li_6A0C3506C1004CF5AB9BABF4C1924BB6"> listVars </li> 
-     <li id="li_3A889F947290444A819DA0BF21E92298">reserved listVars </li> 
-     <li id="li_74AC07FB956A4505B7B5A3E8781E5832">A4T dimensions </li> 
-    </ul> <p>Metrics that are <u>not</u> supported (primarily because they wouldn’t make sense) include: </p> 
+   <td colname="col2"> <p>A: Attribution IQ is supported on all dimensions.</p> 
+    <p>Metrics that are <u>not</u> supported (primarily because they wouldn’t make sense) include: </p> 
     <ul id="ul_B12A1291DEEF41FDBAD110C4A9265234"> 
      <li id="li_245571C5377C45ADBAE6F735B91FCD1F"> Unique Visitors </li> 
      <li id="li_000CA7680A0745D9860CA7D5F62288D4">Visits </li> 

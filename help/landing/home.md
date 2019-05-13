@@ -25,24 +25,13 @@ seo-description: Analytics user guides and resources
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/) &ndash; Data Workbench Client, Installation, Dataset Configuration, and more
 
+| New and Featured Items | Key Analytics Resources |
+| --- | --- |
+| <ul><li>[Regional Data Collection](/help/admin/data-collection/regional-data-collection/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
 
-## Key Analytics resources
+## Analytics reporting capabilities
 
-* [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)
-* [Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Customer Care](https://helpx.adobe.com/support/analytics.html)
-
-
-## Analytics reporting
-
-* [Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)
-* [Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
-
-Here is a comprehensive list of all the reporting capabilities in Adobe Analytics.
+Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
 * [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
 * [Report Builder](../analyze/report-builder/home.md)
@@ -52,7 +41,7 @@ Here is a comprehensive list of all the reporting capabilities in Adobe Analytic
 * [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
 
-<!-- Keeping around for now
+<!-- Keep around for now
 
 ### Analytics feature list
 ?

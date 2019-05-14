@@ -190,8 +190,8 @@ To remove secondary report suites:
 
 * In Launch, hit the "x" next to any report suites you no longer wish to use.
 * In DTM, locate the property and Adobe Analytics tool in question. In the Production Account ID and Staging Account ID fields, remove any report suite IDs that you no longer wish to use.
-* In JavaScript, locate the s.account variable and remove any report suites that you no longer wish to use.
+* In legacy JavaScript implementations, locate the `s.account` variable and remove any report suites that you no longer wish to use.
 
 Leave only your global/parent report suite IDs to collect data from your sites and apps. In the Adobe Analytics interface, you can hide legacy report suites from your users by going to Admin > Company Settings.
 
-If you are unable to edit your implementation, work with your Adobe account team. They can explore options for preventing your secondary server calls from being processed by Adobe Analytics. 
+If you are unable to edit your implementation, work with your Adobe account team. They can explore options for preventing your secondary server calls from being processed by Adobe Analytics.

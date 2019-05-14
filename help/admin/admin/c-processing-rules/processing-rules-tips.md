@@ -23,7 +23,7 @@ For any criteria based on a search, such as if prop1 contains “news,” go to 
 
 **Testing Rules that Read Variables**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the s_account variable to a dev report suite. If your rules are based on referrer, referring domain, and so on, take some sample URLs from the live referrers report, set the `s.referrer` variable with one of those values and load the page. Likewise, if the rule is based on the page URL value, you can set `s.pageURL`. This same process can be used for any variables.
+Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. If your rules are based on referrer, referring domain, and so on, take some sample URLs from the live referrers report, set the `s.referrer` variable with one of those values and load the page. Likewise, if the rule is based on the page URL value, you can set `s.pageURL`. This same process can be used for any variables.
 
 **Using a Dev Report Suite**
 

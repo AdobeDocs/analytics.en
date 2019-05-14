@@ -52,7 +52,7 @@ Configuration variables, which control data collection, are contained in the [!D
 
 |Implementation Variable|Description|Reports Populated|
 |--- |--- |--- |
-|[s\_account](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_account.html)|Report suite IDs. The account(s) that the page view is reported in.|N/A|
+|[s.account](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_account.html)|Report suite IDs. The account(s) that the page view is reported in.|N/A|
 |[charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)|The character set used on the page. The default is assumed to be ISO-8859-1. A list of available character sets is available from Adobe.|N/A|
 |[currencyCode](https://marketing.adobe.com/resources/help/en_US/sc/implement/currencycode.html)|The currency code used in the  s.products and  s.events variables. The default is assumed to be USD (U.S. dollars). A list of supported currency codes is available from Adobe.|[Revenue](/help/components/c-variables/dimensionslist/reports-revenue.md)<br>All conversion reports showing revenue or monetary values|
 |[cookieDomainPeriods](https://marketing.adobe.com/resources/help/en_US/sc/implement/cookiedomainperiods.html)|The number of sections in a domain on which the visitor ID cookie is set.|Affects multiple reports as it controls how the visitor ID is stored and handled.|

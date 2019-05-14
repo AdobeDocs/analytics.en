@@ -30,7 +30,7 @@ Use this report to:
 
 Marketing reports capture information on files downloaded from any page of your site that contains JavaScript code. However, certain variables must be present and set correctly so that file download information can be reported. If this report is not displaying data, or does not show the expected values, follow the steps below to validate your implementation.
 
-1. On your site, locate the global JavaScript file. This is frequently named [!DNL s_code.js], but may have been renamed. If it has been renamed, you can search the JavaScript files on your site for the value *`s_account`*, which is a part of the JavaScript code. 
+1. On your site, locate the global JavaScript file. This is frequently named [!DNL s_code.js], but may have been renamed. If it has been renamed, you can search the JavaScript files on your site for the value *`s.account`*, which is a part of the JavaScript code. 
 
 1. In the file, locate the [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackdownllinks) variable. Ensure that it is set to *true* 
 

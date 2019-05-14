@@ -77,7 +77,7 @@ This information can be used when debugging using [Packet Analyzers](../../../im
    <td> <code> c. <span class="varname"> [key] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>None </p> </td> 
-   <td> <p>Key-values pairs are specified in one of the following formats: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>or: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Each of these examples result in a context data value of <code> my.a = red </code>. Multiple key-value pairs can be specified. </p> <p>In the query string, this context data variable would appear as <code> c.my.a=red </code> </p> </td> 
+   <td> <p>Key-values pairs are specified in one of the following formats: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>or: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Each of these examples result in a context data value of <code> my.a = red </code>. Multiple key-value pairs can be specified. </p> <p>In the query string, this context data variable would appear as <code> c.&my.a=red </code> </p> </td> 
   </tr> 
   <tr> 
    <td> c1-c75 </td> 

@@ -39,7 +39,7 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 7. Click Save to go back to your workspace.
 8. Drag the newly defined calculated metric onto the workspace.
 
-    Learn more about [Calculated Metrics](components\c-variables\c-metrics\calculated-metric.md) in the Components user guide.
+    Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
 
 **Avg. Session Duration** is approximately equal to `Time Spent per Visit (seconds)`. Learn more about [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md) metrics in the Components user guide.
 

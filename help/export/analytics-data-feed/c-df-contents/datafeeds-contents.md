@@ -65,22 +65,20 @@ The lookup files are delivered together in a compressed zip named according to t
 <report_suite_id>_<YYYY-mm-dd>-<HHMMSS>-lookup_data.<compression_suffix>
 ```
 
-* [!DNL column_headers.tsv] (customized for this data feed) 
-* [!DNL browser.tsv] 
-* [!DNL browser_type.tsv] 
-* [!DNL color_depth.tsv] 
-* [!DNL connection_type.tsv] 
-* [!DNL country.tsv] 
-* [!DNL javascript_version.tsv] 
-* [!DNL languages.tsv] 
-* [!DNL operating_systems.tsv] 
-* [!DNL plugins.tsv] 
-* [!DNL resolution.tsv] 
-* [!DNL referrer_type.tsv] 
-* [!DNL search_engines.tsv] 
+* [!DNL column_headers.tsv] (customized for this data feed)
+* [!DNL browser.tsv]
+* [!DNL browser_type.tsv]
+* [!DNL color_depth.tsv]
+* [!DNL connection_type.tsv]
+* [!DNL country.tsv]
+* [!DNL javascript_version.tsv]
+* [!DNL languages.tsv]
+* [!DNL operating_systems.tsv]
+* [!DNL plugins.tsv]
+* [!DNL resolution.tsv]
+* [!DNL referrer_type.tsv]
+* [!DNL search_engines.tsv]
 * [!DNL event_lookup.tsv] (customized for this data feed)
-
-For hourly delivery, lookup files are delivered only with the data for the first hour of each day.
 
 ## Hit Data Files {#section_B0745236104E41F2BA625D24AB442636}
 

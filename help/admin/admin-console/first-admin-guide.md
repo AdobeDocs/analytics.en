@@ -54,4 +54,4 @@ Product admin access for Launch is nearly identical to granting product admin ac
 
 [Create a Report Suite](create-report-suite.md): Have your Analytics admin login to the tool and create a report suite for data collection
 
-Create a property in Launch: Have your Launch admin login to the tool and create a property to implement on your site
+[Create a property in Launch](../../implement/implement-with-launch/create-analytics-property.md): Have your Launch admin login to the tool and create a property to implement on your site

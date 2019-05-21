@@ -14,10 +14,6 @@ uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 
 Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
 
-## Page variables {#concept_37933DFF2FC547A0A3B296D5E646B6A3}
-
-Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. 
-
 ## browserHeight {#concept_DB87062001824369A56AA1E7969EC02A}
 
 The  variable displays the height of the browser window.

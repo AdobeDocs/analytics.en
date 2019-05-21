@@ -26,7 +26,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [Symbian](appmeasurement-release-notes/c-release-notes-symbian.md)
     + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Analytics Implementation {#analytics-implementation}
-    + [Implementation Overview](c-implementation/c-implementation.md)
     + [Implementation roadmap](c-implementation/implementation.md)
     + [Popular implementation links](c-implementation/popular-implementation-links.md)
     + [Release notes](c-implementation/rn.md)

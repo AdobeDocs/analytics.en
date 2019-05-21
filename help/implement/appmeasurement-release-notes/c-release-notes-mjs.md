@@ -21,6 +21,13 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
+## Version 2.14.0
+
+Release Date: **May 21, 2019**
+
+* Fixed management of the state of parameters on the tracker when multiple hits are pending. (AN-176931, AN-176629, DTM-12758)
+* Updated AppMeasurement to include Visitor.js 4.3.0 (AN-180049)
+
 ## Version 2.13.0
 
 Release Date: **April 10, 2019**

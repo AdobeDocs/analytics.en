@@ -25,7 +25,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 Release Date: **May 21, 2019**
 
-* Fixed management of the state of parameters on the tracker when multiple hits are pending. (AN-176931, AN-176629, DTM-12758)
+* Fixed issues with management of the state of tracker parameters when multiple hits are pending. (AN-176931, AN-176629, DTM-12758)
 * Updated AppMeasurement to include Visitor.js 4.3.0 (AN-180049)
 
 ## Version 2.13.0

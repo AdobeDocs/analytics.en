@@ -11,7 +11,7 @@ uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 
 # General
 
-Field descriptions for the General settings in dynamic tag manager, for deploying Adobe Analytics.
+Field descriptions for the General settings in DTM, for deploying Adobe Analytics.
 
 **[!UICONTROL &lt;Property&gt;]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL General]** 
 

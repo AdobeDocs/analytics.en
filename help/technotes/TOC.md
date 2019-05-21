@@ -5,7 +5,7 @@ user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 ---
 
-# Analytics Documentation {#landing}
+# Analytics Documentation {#technotes}
 
 + [Analytics tech notes help](home.md)
 + [Adobe Analytics for Google Analytics users] {#ga-to-aa}

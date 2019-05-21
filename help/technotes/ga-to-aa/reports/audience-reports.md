@@ -7,6 +7,8 @@ description: Learn how to create audience-based reports using Analysis Workspace
 
 Audience reports show information about the types of people that visit your site.
 
+This page assumes the user has a basic knowledge of using Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+
 ## Active Users
 
 Active users show the cumulative number of users to your site in the prior 1, 7, 14, or 28 days. While Adobe does not have the exact calculation used in Google Analytics, you can use the metric Unique Visitors to see a deduplicated count of users to your site based on the selected date range.
@@ -176,5 +178,6 @@ Benchmarking reports allow you to see how facets of your data compare to industr
 The flow report is available on both platforms. To create a flow report:
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
-2. Click the Components icon on the left, then drag the `Pages` dimension into the space labeled 'Dimension or item' in the center
-3. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages.
+2. Locate the `Pages` dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
+4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns.

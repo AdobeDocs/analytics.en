@@ -18,52 +18,38 @@ The following table contains a list of tasks you need to perform to migrate your
 >
 >We recommend migrating to the [Experience Cloud ID Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
 
-<table id="table_9CB8D4441B294A6485C00A515338CA47"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> Step </th> 
-   <th colname="col1" class="entry"> Task </th> 
-   <th colname="col2" class="entry"> Where </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" width="26px" height="21px" /> </td> 
-   <td colname="col1"> Check plug-in compatibility </td> 
-   <td colname="col2"> <span class="filepath"> s_code.js</span> </td> 
-   <td colname="col3">Some plug-ins are longer supported. See <a href="../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A" format="dita" scope="local"> AppMeasurement Plug-in Support</a> . </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_FEC5908E05B8457F828A2BCBCE079061" width="26px" height="21px" /> </td> 
-   <td colname="col1"> Download the new AppMeasurement </td> 
-   <td colname="col2"> Admin Console &gt; Code Manager </td> 
-   <td colname="col3"> <p> The download zip contains a minified <span class="filepath"> AppMeasurement.js</span> file, and Javascript files for the Media and Integrate modules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_543F5EC1759741FCB02C110B45C41867" width="26px" height="21px" /> </td> 
-   <td colname="col1">Copy your <span class="filepath"> s_code.js</span> customization to <code> AppMeasurement.js</code>. </td> 
-   <td colname="col2"> <span class="filepath"> s_code.js</span> and <span class="filepath"> AppMeasurement.js</span> </td> 
-   <td colname="col3"> <p>Move all code that appears before the <code> DO NOT ALTER ANYTHING BELOW THIS LINE</code> section in <span class="filepath"> s_code.js</span> to the beginning of <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_C65A6858FB294E2796B93054BEA72BBD" width="26px" height="21px" /> </td> 
-   <td colname="col1"> (Optional) Update plug-ins </td> 
-   <td colname="col2"> <span class="filepath"> AppMeasurement.js</span> </td> 
-   <td colname="col3"> <p>If you are using the getQueryParam plug-in, update these calls to use the new utility, <a href="../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5" format="dita" scope="local"> Util.getQueryParam</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_3D0FEDBE7FD8481E8E5F9054F742187E" width="26px" height="21px" /> </td> 
-   <td colname="col1"> (Optional) Update Media and Integrate modules </td> 
-   <td colname="col2"> <p> <span class="filepath"> AppMeasurement.js</span> </p> </td> 
-   <td colname="col3"> <p>If you are using either of these modules, copy and paste the code from <span class="filepath"> AppMeasurement_Module_Media.js</span> and/or <span class="filepath"> AppMeasurement_Module_Integrate.js</span> and paste it just before the <code> DO NOT ALTER ANYTHING BELOW THIS LINE</code> in <span class="filepath"> AppMeasurement.js</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step6_icon.png" id="image_FCA028848A374C4BA1AF88C6141C9778" width="26px" height="21px" /> </td> 
-   <td colname="col1"> Deploy new JavaScript </td> 
-   <td colname="col2"> Your website </td> 
-   <td colname="col3"> <p>The new JavaScript file can be deployed according to your standard process. Your existing page code is compatible with this version. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+![](assets/step1_icon.png) Check plug-in compatibility
 
+Where: s\_code.js
+
+Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A) .
+
+![](assets/step2_icon.png) Download the new AppMeasurement
+
+Where: Admin > Code Manager
+
+The download zip contains a minified AppMeasurement.js file, and Javascript files for the Media and Integrate modules.
+
+![](assets/step3_icon.png) Copy your s\_code.js customization to `AppMeasurement.js`.
+
+Where: s\_code.js and AppMeasurement.js
+
+Move all code that appears before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in s\_code.js to the beginning of AppMeasurement.js.
+
+![](assets/step4_icon.png) (Optional) Update plug-ins
+
+Where: AppMeasurement.js
+
+If you are using the getQueryParam plug-in, update these calls to use the new utility, [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+
+![](assets/step5_icon.png) (Optional) Update Media and Integrate modules
+
+Where: AppMeasurement.js
+
+If you are using either of these modules, copy and paste the code from AppMeasurement\_Module\_Media.js and/or AppMeasurement\_Module\_Integrate.js and paste it just before the `DO NOT ALTER ANYTHING BELOW THIS LINE` in AppMeasurement.js.
+
+![](assets/step6_icon.png) Deploy new JavaScript
+
+Where: Your website
+
+The new JavaScript file can be deployed according to your standard process. Your existing page code is compatible with this version.

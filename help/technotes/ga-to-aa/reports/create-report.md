@@ -14,12 +14,13 @@ Because Analysis Workspace works more like a canvas than prefabricated reports, 
 
 ## Key terms used in Workspace
 
-* **Visualizations** are the most basic building blocks of workspace. Their purpose is to represent data in different formats. Most of the time that format is a table, but other times it can be other things like a donut or line chart. Many reports in Google Analytics are made of the equivalent of two visualizations: a line chart and freeform table.
+* **Panels** are the overarching building blocks of workspace. In almost all scenarios, a Freeform panel is used.
+* **Visualizations** make up all freeform panels. Their purpose is to represent data in different formats. Most of the time that format is a table, but other times it can be things like a donut or line chart. Many reports in Google Analytics are made of the equivalent of two visualizations: a line chart and freeform table.
 * **Components** are placed in a visualization to return data. Components can be mixed in many different ways to meet reporting needs.
   * **Dimensions** are variable values, and typically contain text. Examples include page name, referrer, or geo country. They are most commonly listed as rows in a table.
-  * **Metrics** typically signify an event of some sort. Examples include common events such as a page view, or something more significant like a purchase or registration. They are most commonly seen as columns in tables to show the number of times that event occurred per dimension.
+  * **Metrics** typically signify an event or conversion of some sort. Examples include common events such as a page view, or something more significant like a purchase or registration. They are most commonly seen as columns in tables to show the number of times that event occurred per dimension.
   * **Segments** are a subset of your data, and behave similarly to segments in Google Analytics. They allow you to make customized filters, allowing you to focus on a specific part of your data.
-  * **Date ranges** let you organize data by when the event occurred. They are the backbone of viewing trends over time, and are typically paired with a metric.
+  * **Date ranges** let you organize data by when an event occurred. They are the backbone of viewing trends over time, and are typically paired with a metric.
 
 ## Create a basic report in Workspace
 
@@ -33,7 +34,7 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 6. On the left, a list of dimensions, metrics, segments, and date ranges is shown. Locate the Pages dimension (colored orange), and drag it onto the canvas labeled 'Drop a Dimension Here'.
 7. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
 8. A table in Google Analytics typically contains 7-8 metrics. Locate the Bounce Rate metric (colored green), and drag it next to the Occurrences metric header. If you drag the Bounce Rate metric next to Occurrences, both metrics are displayed side-by-side.
-9. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers.
+9. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
 
     ![New metric](../assets/new_metric.png)
 

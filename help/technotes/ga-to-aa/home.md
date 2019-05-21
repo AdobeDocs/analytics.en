@@ -24,6 +24,6 @@ Once you are familiar with components in Analysis Workspace, you can learn how t
 
 * [Create Real-Time reports in Adobe Analytics](reports/realtime-reports.md)
 * [Create Audience reports in Adobe Analytics](reports/audience-reports.md)
-* [Create Acquisition reports in Adobe Analytics](reports/audience-reports.md)
+* [Create Acquisition reports in Adobe Analytics](reports/acquisition-reports.md)
 * [Create Behavior reports in Adobe Analytics](reports/behavior-reports.md)
 * [Create Conversions reports in Adobe Analytics](reports/conversions-reports.md)

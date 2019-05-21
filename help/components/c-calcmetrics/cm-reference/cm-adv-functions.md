@@ -8,17 +8,13 @@ uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 
 # Reference: advanced functions
 
-Access these functions by checking Show Advanced in the Functions drop-down list.
-
-## Reference: advanced functions {#concept_A5FB9127D70F4E1AA02D1ACBF4F54174}
-
 <!-- 
 
 cm_adv_functions.xml
 
  -->
 
-Access these functions by checking Show Advanced in the Functions drop-down list.
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## Table Functions versus Row Functions {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -32,7 +28,7 @@ For example, if you have a Revenue metric, and then add a Page Views metric to t
 
 On the other hand, if you have two metrics that you are interested in, it may not be fair to say that one has a higher average or minimum because some of its rows were zeros, so you would not check the parameter to include the zeros. 
 
-## <draft-comment author="ind14750" otherprops="merge"> and.xml </draft-comment>AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
 
@@ -49,7 +45,7 @@ AND(logical_test1,[logical_test2],...)
 |  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
 |  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
-## <draft-comment author="ind14750" otherprops="merge"> count-distinct-metric.xml </draft-comment>Approximate Count Distinct (dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
+## Approximate Count Distinct (dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
 Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
@@ -83,7 +79,7 @@ Approximate Count Distinct() is an improvement over Count() and RowCount() funct
 
 This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts. 
 
-## <draft-comment author="ind14750" otherprops="merge"> count-acos.xml </draft-comment>Arc Cosine (Row) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
+## Arc Cosine (Row) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
 Returns the arccosine, or inverse of the cosine, of a metric. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi. If you want to convert the result from radians to degrees, multiply it by 180/PI( ).
 
@@ -95,7 +91,7 @@ ACOS(metric)
 |---|---|
 |  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## <draft-comment author="ind14750" otherprops="merge"> count-asin.xml </draft-comment>Arc Sine (Row) {#concept_90F00DEC46BA47F8A21493647D9668CD}
+## Arc Sine (Row) {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
 Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arcsine in degrees, multiply the result by 180/PI( ).
 
@@ -107,7 +103,7 @@ ASIN(metric)
 |---|---|
 |  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## <draft-comment author="ind14750" otherprops="merge"> atan.xml </draft-comment>Arc Tangent (Row) {#concept_3408520673774A10998E9BD8B909E90C}
+## Arc Tangent (Row) {#concept_3408520673774A10998E9BD8B909E90C}
 
 Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arctangent in degrees, multiply the result by 180/PI( ).
 
@@ -119,7 +115,7 @@ ATAN(metric)
 |---|---|
 |  *metric* | The cosine of the angle you want from -1 to 1. |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred-exp.xml </draft-comment>Exponential Regression: Predicted Y (Row) {#concept_25615693312B4A7AB09A2921083502AD}
+## Exponential Regression: Predicted Y (Row) {#concept_25615693312B4A7AB09A2921083502AD}
 
 Calculates the predicted y-values (metric_Y), given the known x-values (metric_X) using the "least squares" method for calculating the line of best fit based on .
 
@@ -132,7 +128,7 @@ ESTIMATE.EXP(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> cdf-t.xml </draft-comment>Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
+## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
 Returns the percentage of values in a student's t-distribution with n degrees of freedom that have a z-score less than x.
 
@@ -144,7 +140,7 @@ cdf_t( -2, 7 ) ? 0.0227501
 cdf_t( x, ∞ ) ? cdf_z( x )
 ```
 
-## <draft-comment author="ind14750" otherprops="merge"> cdf-z.xml </draft-comment>Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
+## Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
 
 Returns the percentage of values in a normal distribution that have a z-score less than x.
 
@@ -157,7 +153,7 @@ cdf_z( -3 ) ? 0.0013499
  
 ```
 
-## <draft-comment author="ind14750" otherprops="merge"> ceil.xml </draft-comment>Ceiling (Row) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
+## Ceiling (Row) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
 Returns the smallest integer not less than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula CEILING( *Revenue*) to round revenue up to the nearest dollar, or $570.
 
@@ -169,7 +165,7 @@ CEILING(metric)
 |---|---|
 |  *metric* | The metric that you want to round.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> cos.xml </draft-comment>Cosine (Row) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
+## Cosine (Row) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
 Returns the cosine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
@@ -181,7 +177,7 @@ COS(metric)
 |---|---|
 |  *metric* | The angle in radians for which you want the cosine.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> cube-root.xml </draft-comment>Cube Root {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
+## Cube Root {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
 Returns the positive cube root of a number. The cube root of a number is the value of that number raised to the power of 1/3.
 
@@ -193,7 +189,7 @@ CBRT(metric)
 |---|---|
 |  *metric* | The metric for which you want the cube root.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> cumul.xml </draft-comment>Cumulative {#concept_3D3347797B6344CE88B394C3E39318ED}
+## Cumulative {#concept_3D3347797B6344CE88B394C3E39318ED}
 
 Returns the sum of x for the last N rows (as ordered by the dimension, using hash values for string based fields). 
 
@@ -208,7 +204,7 @@ If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's on
  
 ```
 
-## <draft-comment author="ind14750" otherprops="merge"> cumul-avg.xml </draft-comment>Cumulative Average {#concept_ABB650962DC64FD58A79C305282D3E61}
+## Cumulative Average {#concept_ABB650962DC64FD58A79C305282D3E61}
 
 Returns the average of the last N rows. 
 
@@ -222,11 +218,11 @@ If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's on
 cumul(revenue)/cumul(visitor)
 ```
 
-## <draft-comment author="ind14750" otherprops="merge"> eq.xml </draft-comment>Equal {#concept_A3B97152B5F74E04A97018B35734BEEB}
+## Equal {#concept_A3B97152B5F74E04A97018B35734BEEB}
 
 Returns items that match exactly for a numeric or string value.
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr-exp.xml </draft-comment>Exponential Regression_ Correlation Coefficient (Table) {#concept_C18BBFA43C1A499293290DF49566D8D8}
+## Exponential Regression_ Correlation Coefficient (Table) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
 Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
 
@@ -239,7 +235,7 @@ CORREL.EXP(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
 |  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept-exp.xml </draft-comment>Exponential Regression: Intercept (Table) {#concept_0047206C827841AD936A3BE58EEE1514}
+## Exponential Regression: Intercept (Table) {#concept_0047206C827841AD936A3BE58EEE1514}
 
 Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
 
@@ -252,7 +248,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-exp.xml </draft-comment>Exponential Regression: Slope (Table) {#concept_230991B0371E44308C52853EFA656F04}
+## Exponential Regression: Slope (Table) {#concept_230991B0371E44308C52853EFA656F04}
 
 Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
 
@@ -265,7 +261,7 @@ SLOPE.EXP(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> floor.xml </draft-comment>Floor (Row) {#concept_D368150EC3684077B284EE471463FC31}
+## Floor (Row) {#concept_D368150EC3684077B284EE471463FC31}
 
 Returns the largest integer not greater than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula FLOOR( *Revenue*) to round revenue down to the nearest dollar, or $569.
 
@@ -277,15 +273,15 @@ FLOOR(metric)
 |---|---|
 |  *metric* | The metric you want to round.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> gt.xml </draft-comment>Greater Than {#concept_A83734A0C0C14646B76D2CC5E677C644}
+## Greater Than {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
 Returns items whose numeric count is greater than the value entered.
 
-## <draft-comment author="ind14750" otherprops="merge"> ge.xml </draft-comment>Greater Than or Equal {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
+## Greater Than or Equal {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
 
 Returns items whose numeric count is greater than or equal to the value entered.
 
-## <draft-comment author="ind14750" otherprops="merge"> cosh.xml </draft-comment>Hyperbolic Cosine (Row) {#concept_79DD5681CE9640BDBA3C3F527343CA98}
+## Hyperbolic Cosine (Row) {#concept_79DD5681CE9640BDBA3C3F527343CA98}
 
 Returns the hyperbolic cosine of a number.
 
@@ -297,7 +293,7 @@ COSH(metric)
 |---|---|
 |  *metric* | The angle in radians for which you want to find the hyperbolic cosine.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> sinh.xml </draft-comment>Hyperbolic Sine (Row) {#concept_96230731600C45E3A4E823FE155ABA85}
+## Hyperbolic Sine (Row) {#concept_96230731600C45E3A4E823FE155ABA85}
 
 Returns the hyperbolic sine of a number.
 
@@ -309,7 +305,7 @@ SINH(metric)
 |---|---|
 |  *metric* | The angle in radians for which you want to find the hyperbolic sine.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> tanh.xml </draft-comment>Hyperbolic Tangent (Row) {#concept_BD249013732F462B9863629D142BCA6A}
+## Hyperbolic Tangent (Row) {#concept_BD249013732F462B9863629D142BCA6A}
 
 Returns the hyperbolic tangent of a number.
 
@@ -321,7 +317,7 @@ TANH(metric)
 |---|---|
 |  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> if.xml </draft-comment>IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
 The IF function returns one value if a condition you specify evaluates to TRUE, and another value if that condition evaluates to FALSE.
 
@@ -335,31 +331,31 @@ IF(logical_test, [value_if_true], [value_if_false])
 |  *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.)  |
 |  *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.)  |
 
-## <draft-comment author="ind14750" otherprops="merge"> lt.xml </draft-comment>Less Than {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
+## Less Than {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
 Returns items whose numeric count is less than the value entered.
 
-## <draft-comment author="ind14750" otherprops="merge"> le.xml </draft-comment>Less Than or Equal {#concept_99D12154DE4848B1B0A6327C4322D288}
+## Less Than or Equal {#concept_99D12154DE4848B1B0A6327C4322D288}
 
 Returns items whose numeric count is less than or equal to the value entered.
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr-linear.xml </draft-comment>Linear regression_ Correlation Coefficient {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
+## Linear regression_ Correlation Coefficient {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
 
 Y = a X + b. Returns the correlation coefficient
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept-linear.xml </draft-comment>Linear regression_ Intercept {#concept_E44A8D78B802442DB855A07609FC7E99}
+## Linear regression_ Intercept {#concept_E44A8D78B802442DB855A07609FC7E99}
 
 Y = a X + b. Returns b.
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred-linear.xml </draft-comment>Linear regression_ Predicted Y {#concept_9612B9BF106D4D278648D2DF92E98EFC}
+## Linear regression_ Predicted Y {#concept_9612B9BF106D4D278648D2DF92E98EFC}
 
 Y = a X + b. Returns Y.
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-linear.xml </draft-comment>Linear regression_ Slope {#concept_12352982082A4DDF824366B073B4C213}
+## Linear regression_ Slope {#concept_12352982082A4DDF824366B073B4C213}
 
 Y = a X + b. Returns a.
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-log10.xml </draft-comment>Log Base 10 (Row) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
+## Log Base 10 (Row) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
 Returns the base-10 logarithm of a number.
 
@@ -371,7 +367,7 @@ LOG10(metric)
 |---|---|
 |  *metric* | The positive real number for which you want the base-10 logarithm.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr_log.xml </draft-comment>Log regression: Correlation coefficient (Table) {#concept_F3EB35016B754E74BE41766E46FDC246}
+## Log regression: Correlation coefficient (Table) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
 Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the CORREL equation.
 
@@ -384,7 +380,7 @@ CORREL.LOG(metric_X,metric_Y)
 |  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
 |  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept_log.xml </draft-comment>Log regression: Intercept (Table) {#concept_75A3282EDF54417897063DC26D4FA363}
+## Log regression: Intercept (Table) {#concept_75A3282EDF54417897063DC26D4FA363}
 
 Returns the intercept *b* as the least squares regression between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the INTERCEPT equation.
 
@@ -397,7 +393,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred_log2.xml </draft-comment>Log Regression: Predicted Y (Row) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
+## Log Regression: Predicted Y (Row) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
 Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. It is calculated using the ESTIMATE equation.
 
@@ -412,7 +408,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-log.xml </draft-comment>Log regression: Slope (Table) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
+## Log regression: Slope (Table) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
 Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the SLOPE equation.
 
@@ -425,7 +421,7 @@ SLOPE.LOG(metric_A, metric_B)
 |  *metric_A* | A metric that you would like to designate as the dependent data.  |
 |  *metric_B* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> log.xml </draft-comment>Natural Log {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
+## Natural Log {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
 Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
 
@@ -437,7 +433,7 @@ LN(metric)
 |---|---|
 |  *metric* | The positive real number for which you want the natural logarithm.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> not.xml </draft-comment>NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Returns 1 if the number is 0 or returns 0 if another number.
 
@@ -451,11 +447,11 @@ NOT(logical)
 
 Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values. 
 
-## <draft-comment author="ind14750" otherprops="merge"> ne.xml </draft-comment>Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
+## Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
 
 Returns all items that do not contain the exact match of the value entered.
 
-## <draft-comment author="ind14750" otherprops="merge"> or.xml </draft-comment>Or (Row) {#concept_AF81A33A376C4849A4C14F3A380639D2}
+## Or (Row) {#concept_AF81A33A376C4849A4C14F3A380639D2}
 
 Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
 
@@ -472,7 +468,7 @@ OR(logical_test1,[logical_test2],...)
 |  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
 |  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
 
-## <draft-comment author="ind14750" otherprops="merge"> pi.xml </draft-comment>Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
+## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
 Returns the constant PI, 3.14159265358979, accurate to 15 digits.
 
@@ -482,7 +478,7 @@ PI()
 
 The [!DNL PI]function has no arguments. 
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr-power.xml </draft-comment>Power regression: Correlation coefficient (Table) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
+## Power regression: Correlation coefficient (Table) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
 Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
@@ -495,7 +491,7 @@ CORREL.POWER(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
 |  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept-power.xml </draft-comment>Power regression: Intercept (Table) {#concept_7781C85597D64D578E19B212BDD1764F}
+## Power regression: Intercept (Table) {#concept_7781C85597D64D578E19B212BDD1764F}
 
 Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
@@ -508,7 +504,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred-power.xml </draft-comment>Power regression: Predicted Y (Row) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
+## Power regression: Predicted Y (Row) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
 Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
 
@@ -521,7 +517,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-power.xml </draft-comment>Power regression: Slope (Table) {#concept_5B9E71B989234694BEB5EEF29148766C}
+## Power regression: Slope (Table) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
 Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
 
@@ -534,7 +530,7 @@ SLOPE.POWER(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr-quadratic.xml </draft-comment>Quadratic regression: Correlation coefficient (Table) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
+## Quadratic regression: Correlation coefficient (Table) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
 Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
@@ -547,7 +543,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
 |  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept-quadratic.xml </draft-comment>Quadratic regression: Intercept (Table) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
+## Quadratic regression: Intercept (Table) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
 Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
 
@@ -560,7 +556,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred-quadratic.xml </draft-comment>Quadratic regression: Predicted Y (Row) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
+## Quadratic regression: Predicted Y (Row) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
 Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
 
@@ -573,7 +569,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 |  *metric_A* | A metric that you would like to designate as the dependent data.  |
 |  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-quadratic.xml </draft-comment>Quadratic regression: Slope (Table) {#concept_0023321DA8E84E6D9BCB06883CA41645}
+## Quadratic regression: Slope (Table) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
 Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
 
@@ -586,7 +582,7 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-corr-reciprocal.xml </draft-comment>Reciprocal regression: Correlation coefficient (Table) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
+## Reciprocal regression: Correlation coefficient (Table) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
 Returns the correlation coefficient, *r*, between two metric columns (*metric_X)* and *metric_Y*) for [!DNL Y = a/X+b].
 
@@ -599,7 +595,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
 |  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-intercept-reciprocal.xml </draft-comment>Reciprocal regression: Intercept (Table) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
+## Reciprocal regression: Intercept (Table) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
 Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
@@ -612,7 +608,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-pred-reciprocal.xml </draft-comment>Reciprocal regression: Predicted Y (Row) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
+## Reciprocal regression: Predicted Y (Row) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
 Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
 
@@ -625,7 +621,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> ls-slope-reciprocal.xml </draft-comment>Reciprocal regression: Slope (Table) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
+## Reciprocal regression: Slope (Table) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
 Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
 
@@ -638,7 +634,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 |  *metric_X* | A metric that you would like to designate as the dependent data.  |
 |  *metric_Y* | A metric that you would like to designate as the independent data.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> sin.xml </draft-comment>Sine (Row) {#concept_21C8C3AA835947A28B53A4E756A7451E}
+## Sine (Row) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
 Returns the sine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
@@ -650,11 +646,11 @@ SIN(metric)
 |---|---|
 |  *metric* | The angle in radians for which you want the sine.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> t-score.xml </draft-comment>T-Score {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
+## T-Score {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
 Alias for Z-Score, namely the deviation from the mean divided by the standard deviation 
 
-## <draft-comment author="ind14750" otherprops="merge"> t-test.xml </draft-comment>T-Test {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
+## T-Test {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
 Performs an m-tailed t-test with t-score of col and n degrees of freedom. 
 
@@ -680,7 +676,7 @@ The return value is the probability of seeing the test statistic x given the deg
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
    ```
 
-## <draft-comment author="ind14750" otherprops="merge"> tan.xml </draft-comment>Tangent {#concept_C25E00CB17054263AB0460D9EF94A700}
+## Tangent {#concept_C25E00CB17054263AB0460D9EF94A700}
 
 Returns the tangent of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
 
@@ -692,7 +688,7 @@ TAN (metric)
 |---|---|
 |  *metric* | The angle in radians for which you want the tangent.  |
 
-## <draft-comment author="ind14750" otherprops="merge"> z-score.xml </draft-comment>Z-Score (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
+## Z-Score (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
 Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations. 
 
@@ -723,7 +719,7 @@ Z-score(metric)
  </tbody> 
 </table>
 
-## <draft-comment author="ind14750" otherprops="merge"> z-test.xml </draft-comment>Z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
+## Z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
 Performs an n-tailed Z-test with Z-score of A. 
 

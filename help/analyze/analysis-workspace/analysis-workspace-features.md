@@ -15,7 +15,7 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
->[!VIDEO](https://www.youtube.com/watch?v=AnguIQIAi_k&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2)
+>[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=2&t=0s)
 
 Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 

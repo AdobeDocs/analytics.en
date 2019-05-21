@@ -14,82 +14,12 @@ uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 
 Example containing a sample of server calls sent in a common customer interaction.
 
-<table id="table_BD711278026C4F729119F1FDF4945087"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Server Call </th> 
-   <th class="entry"> Action </th> 
-   <th class="entry"> Visitor ID Cookie </th> 
-   <th class="entry"> Visitor ID Variable </th> 
-   <th class="entry"> Effective Visitor ID </th> 
-   <th class="entry"> Visit Page Number </th> 
-   <th class="entry"> Visit Number </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> 1 </td> 
-   <td> A visitor clicks a link in a marketing email and visits your site from home computer. This visitor has visited your site 7 other times in the past. </td> 
-   <td> 1 </td> 
-   <td> - </td> 
-   <td> 1 </td> 
-   <td> 1 </td> 
-   <td> 8 </td> 
-  </tr> 
-  <tr> 
-   <td> 2-8 </td> 
-   <td> Visits 7 additional pages on your site. </td> 
-   <td> 1 </td> 
-   <td> - </td> 
-   <td> 1 </td> 
-   <td> 2-8 </td> 
-   <td> 8 </td> 
-  </tr> 
-  <tr> 
-   <td> 9 </td> 
-   <td> Authenticates on home computer. </td> 
-   <td> 1 </td> 
-   <td> CID1 </td> 
-   <td> CID1 </td> 
-   <td> 9* <p>* This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1. </p> </td> 
-   <td> 8 </td> 
-  </tr> 
-  <tr> 
-   <td> 10 </td> 
-   <td> Visits 1 additional page. </td> 
-   <td> 1 </td> 
-   <td> CID1 </td> 
-   <td> CID1 </td> 
-   <td> 10 </td> 
-   <td> 8 </td> 
-  </tr> 
-  <tr> 
-   <td> 11 </td> 
-   <td> Opens site from laptop at office. This visitor has not visited your site before using this device. </td> 
-   <td> 2 </td> 
-   <td> - </td> 
-   <td> 2 </td> 
-   <td> 1 </td> 
-   <td> 1 </td> 
-  </tr> 
-  <tr> 
-   <td> 12 </td> 
-   <td> Authenticates on laptop. </td> 
-   <td> 2 </td> 
-   <td> CID1 </td> 
-   <td> CID1 </td> 
-   <td> 1 </td> 
-   <td> 9 </td> 
-  </tr> 
-  <tr> 
-   <td> 13 </td> 
-   <td> Views 1 additional page. </td> 
-   <td> 2 </td> 
-   <td> CID1 </td> 
-   <td> CID1 </td> 
-   <td> 2 </td> 
-   <td> 9 </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Server Call | Action | Visitor ID Cookie | Visitor ID Variable | Effective Visitor ID | Visit Page Number | Visit Number |
+|--- |--- |--- |--- |--- |--- |--- |
+|1|A visitor clicks a link in a marketing email and visits your site from home computer. This visitor has visited your site 7 other times in the past.|1|-|1|1|8|
+|2-8|Visits 7 additional pages on your site.|1|-|1|2-8|8|
+|9|Authenticates on home computer.|1|CID1|CID1|9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br>|8|
+|10|Visits 1 additional page.|1|CID1|CID1|10|8|
+|11|Opens site from laptop at office. This visitor has not visited your site before using this device.|2|-|2|1|1|
+|12|Authenticates on laptop.|2|CID1|CID1|1|9|
+|13|Views 1 additional page.|2|CID1|CID1|2|9|

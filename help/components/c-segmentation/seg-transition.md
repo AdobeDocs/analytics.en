@@ -11,11 +11,7 @@ uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 
 # Frequently Asked Questions
 
-* [Features](../../components/c-segmentation/seg-transition.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
-* [Accessing the Segmentation Tools](../../components/c-segmentation/seg-transition.md#section_088AD0E4E21943DFA8CF7206AEC485DD) 
-* [Permissions](../../components/c-segmentation/seg-transition.md#section_648DFA3A882146C485A84ED014EEC707) 
-* [Best Practices](../../components/c-segmentation/seg-transition.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C) 
-* [Managing Legacy Segments](../../components/c-segmentation/seg-transition.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+Answers frequent questions on segmentation features, access, permissions, best practices, and managing legacy segments.
 
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 

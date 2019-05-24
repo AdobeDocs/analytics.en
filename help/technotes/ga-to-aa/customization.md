@@ -7,7 +7,7 @@ description: Learn how to customize reports in Adobe Analytics
 
 In third-party platforms such as Google Analytics, several customization options are available. These customizations allow a user to create dashboards, custom reports, saved reports, and custom alerts. Because Analysis Workspace allows users to build reports from a blank canvas, most customizations are built directly into the tool.
 
-This page assumes the user has a basic knowledge of using Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+This page assumes the user has a basic knowledge of using Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](reports/create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
 
 ## Dashboards
 

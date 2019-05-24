@@ -5,12 +5,14 @@ description: Learn key concepts to obtain reports, geared towards users familiar
 
 # Transitioning from a third-party analytics platform to Adobe Analytics
 
+This user guide is geared towards acquainting users familiar with Google Analytics to become more familiar with Adobe Analytics. It assumes that the organization has a working implementation that sends data to Adobe data collection servers. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](../../../admin/admin-console/first-admin-guide.md).
+
 Both Google Analytics and Adobe Analytics are powerful platforms to obtain valuable insights to your website performance. Each have their own processing architecture and user interface, giving each platform unique advantages. This guide is designed to help acclimate a user experienced with Google Analytics towards Adobe Analytics.
 
 In Adobe Analytics, there are two main way to pull basics reports after logging in to the Adobe Experience Cloud:
 
-* **Reports & Analytics** is the historical method to pulling basic reports. The left hand menu provides a list of prefabricated reports, and allows the user to navigate to a report they want and get data. Segments and metrics can provide additional customizations. Users who are experienced with Google Analytics might find this layout more familiar than Analysis Workspace.
-* **Analysis Workspace** is the current recommended method to pull most reports. The left menu allows the user to drag and drop components to build their own report. It allows much more freedom to meet exact reporting needs, though it is less familiar to Google Analytics users.
+* **Reports & Analytics** is the historical method to pulling basic reports. The left hand menu provides a list of prefabricated reports, and allows the user to navigate to a report they want and get data. Segments and metrics can provide additional customizations. Users who are experienced with Google Analytics reports might find this layout familiar.
+* **Analysis Workspace** is the current recommended method to pull most reports. The left menu allows the user to drag and drop components to build their own report. It allows much more freedom to meet exact reporting needs. Users who are experienced with creating Google Analytics dashboards and custom reports might find this layout familiar.
 
 Most reports can be created in both Reports & Analytics and Analysis Workspace. However, some reports can only be pulled using one platform or the other. In most cases, Adobe recommends using Analysis Workspace, unless a specific feature is only available in Reports & Analytics.
 
@@ -27,3 +29,5 @@ Once you are familiar with components in Analysis Workspace, you can learn how t
 * [Create Acquisition reports in Adobe Analytics](reports/acquisition-reports.md)
 * [Create Behavior reports in Adobe Analytics](reports/behavior-reports.md)
 * [Create Conversions reports in Adobe Analytics](reports/conversions-reports.md)
+
+After learning to pull reports, understanding [processing and architecture differences](processing-differences.md) can help reconcile the different numbers obtained between platforms. An [FAQ](faq.md) is also available.

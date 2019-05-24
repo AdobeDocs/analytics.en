@@ -12,12 +12,3 @@ Every Analytics platform has different ways of collecting, handling, and storing
 If your organization is adamant about having historical data ported over to Adobe, contact your organization's Account Manager. An implementation consultant can work with your organization to translate a Google Analytics data export into a data source that can be ingested by Adobe data collection servers.
 
 Adobe does not recommend porting historical data, as it is a complex process and is cost-prohibitive to your organization. Visitor identification is also impossible to seamlessly port to Adobe, as visitor information is stored in different cookies and different formats between platforms.
-
-**How does Bounce Rate differ between platforms?**
-
-(Answer here)
-
-**How do Visits/Sessions differ between platforms?**
-
-(Answer here)
-

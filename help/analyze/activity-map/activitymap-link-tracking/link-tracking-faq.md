@@ -38,7 +38,7 @@ Here are some known cases where PII data might be collected using Activity Map T
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Is this an INPUT tag or SUBMIT button with a value or child text? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Is this an INPUT tag with type IMAGE and a src property? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Is this a &lt;Button&gt;? </li> 
-    </ul> <p>If the answer is <b>Yes</b> to any of the questions above, then the element is treated as a link and will be tracked. </p> <p>Important:  Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing "type='button'" on the button tags and adding role="button" or submit="button" instead. </p> </td> 
+    </ul> <p>If the answer is <b>Yes</b> to any of the questions above, then the element is treated as a link and will be tracked. </p> <p>Important:  Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing "type='button'" on the button tags and adding role="button" or submit="button" instead. </p> <p>Important: An anchor tags with an href that starts with "#" is considered an internal target location by AppMeasurement, not a link (since you do not leave the page.) By default, Activity Map does not track these internal target locations. It tracks only links that navigate the user to a new page.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Q: How does Activity Map track other visual HTML elements?</b> </td> 

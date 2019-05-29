@@ -17,6 +17,10 @@ Rather than maintaining and uploading classifications each time your tracking co
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
+>[!NOTE]
+>
+>The Rule Builder has a limit of 10M unique values per key, per month.
+
 Here are the high-level steps you take to implement classification rules: 
 
 | Step | Where Performed | Description |

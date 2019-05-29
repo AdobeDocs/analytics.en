@@ -8,7 +8,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 # Analytics Documentation {#technotes}
 
 + [Analytics tech notes help](home.md)
-+ [Adobe Analytics for Google Analytics users] {#ga-to-aa}
++ Adobe Analytics for Google Analytics users {#ga-to-aa}
   + [Adobe Analytics for Google Analytics users help](ga-to-aa/home.md)
   + [Accounts and report suites](ga-to-aa/accounts.md)
   + [Customize reporting views](ga-to-aa/customization.md)

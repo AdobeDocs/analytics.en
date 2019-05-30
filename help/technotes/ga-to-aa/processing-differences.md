@@ -9,8 +9,24 @@ Although Adobe Analytics and Google Analytics are both Analytics tools, the way 
 
 ## Bounce Rate
 
-(Answer here)
+Bounce Rate is a common KPI that is used to help measure the effectiveness and the relevance of landing pages in most analytics tools. This is commonly defined as visits that enter the website but do not include a click to another page.
 
-## Visits/Sessions
+* In Adobe Analytics, Bounce Rate is calculated using the formula **Bounces divided by Entries**.
+* In Google Analytics, Bounce Rate is calculated using the formula **Single-page sessions divided by Sessions**.
 
-(Answer here)
+On both platforms, if multiple hits are sent in the same visit or session, it is not considered a bounce. In Adobe Analytics, custom links are available and fairly common which can prevent a visit from counting as a bounce. Google Analytics does not typically send more than one data request on the same page.
+
+To achieve better parity between reporting tools, use the Single Page Visits metric in Adobe Analytics instead of Bounces as part of a calculated metric. The Single Page Visits metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
+
+See the [Bounce Rate](../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for more information.
+
+## Visits and Sessions
+
+Visits (known as sessions in Google Analytics) are a group of page views made by the same user in a short amount of time. Visits on both platforms typically expire after 30 minutes of inactivity. Both platforms allow customization on when a visit expires. There are several scenarios that can cause differences on each platform.
+
+* **End of day:** All sessions in Google Analytics expire after 11:59 PM on a given day. If the user is still active on your site after 12 AM, a new session is created. Adobe Analytics continue visits into the following day as part of the same visit.
+* **Different campaigns:** A new session in Google Analytics starts if a user's campaign source changes. If a new Tracking Code value is seen in Adobe Analytics, it is considered part of the same visit.
+* **Manual session override:** A new session in Google Analytics starts if you use `sessionControl` to manually start or end a session. Visits cannot be manually ended in Adobe Analytics.
+* **Outlier visit detection in Adobe Analytics:** A new visit in Adobe Analytics automatically starts if a user reaches 12 hours of continuous activity, 2500 hits, or 100 hits within 100 seconds. Each of these detection criteria are typically triggered by bot activity.
+
+See the [Visits](../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for more information.

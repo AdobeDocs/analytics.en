@@ -88,7 +88,7 @@ You can customize the region by ensuring that each "buy" link has its own Region
 
 >[!NOTE]
 >
->You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "customRegionIDAttr?".
+>You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 

@@ -11,9 +11,9 @@ This page assumes the user has a basic knowledge of using Analysis Workspace. Se
 
 ## Goals reports
 
-Goals provide a way to measure how well your site fulfills targeted objectives. This feature is available in Adobe Analytics, and is known as Targets.
+Goals provide a Google Analytics users with a way to define a website's conversion. Goals are the default way to create Funnels, reverse Behavioral Flow, Multi-Channel Funnels, and Attribution are created in Google Analytics. However, Goals are difficult to work with because they are not retroactive, are based on only a page, event, time spent, or average number of pages, and can only be set up in the admin page. 
 
-Both goals in Google Analytics and targets in Adobe Analytics require additional setup to use. See [Targets](../../../analyze/reports-analytics/targets.md) in the Reports & Analytics user guide for more information.
+In Adobe Analytics, the concept of a Goal is not required since metrics (standard or calculated) can be applied in Funnels (Fallout in Adobe), reverse Behavioral Flow (Flow in Adobe), Multi-Channel Funnels (Marketing Channels in Adobe), and Attribution (Attribution IQ). Calculated metrics in Adobe Analytics are retroactive too, making them even more useful to you.
 
 ## Ecommerce reports
 

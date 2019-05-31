@@ -15,6 +15,26 @@ Goals provide a Google Analytics users with a way to define a website's conversi
 
 In Adobe Analytics, the concept of a Goal is not required since metrics (standard or calculated) can be applied in Funnels (Fallout in Adobe), reverse Behavioral Flow (Flow in Adobe), Multi-Channel Funnels (Marketing Channels in Adobe), and Attribution (Attribution IQ). Calculated metrics in Adobe Analytics are retroactive too, making them even more useful to you.
 
+### Funnel Visualization
+
+The Funnel Visualization report in Google Analytics is built to help analysts prescriptively analyze data - focusing on a particular series of steps required to convert. For example, before making a purchase, a visitor on an ecommerce site would need to access the shopping cart, billing and shipping page, payment page, and order review page. In Google Analytics, these steps are defined in the Goal setup in the administration console and are not retroactive - meaning data will only populate in the Funnel Visualization report starting on the day you define the Funnel steps in the administration console.
+
+In Analysis Workspace, the Fallout visualization will be your preferred method for accomplishing this analysis. Most importantly, the Fallout visualization does not need to be set up in the admin console like in Google Analytics. Instead, they are defined on the fly, using a potential mixture of metrics, dimensions, and segments. Since they are built in real time, the data is completely retroactive, meaning you always have the flexibility to change the components of the Fallout.
+
+
+### Goal Flow and Reverse Goal Path
+
+The Goal Flow report in Google Analytics is built to help you answer questions about the flow towards a conversion. It helps answer questions like:
+- Are there a lot of unexpected exits frmo a step in the middle of the funnel?
+- Is there one segment of traffic that acts differently than other segments?
+These questions and more are asked by analysts every day. 
+
+The Reverse Goal Path report is used to show the 3 previous pages to a Goal's completion.
+
+These two reports are perhaps the only reports in Google Analytics that allow analysts to start their analysis with a conversion and work backwards. However, in the Goal Flow report, that analysis is limited to just the Goal's funnel plus 1 dimension in the admin console. In the Reverse Goal Path report, the analysis is limited to just the 3 previous pages to the Goal's completion and no other dimensions can be used.
+
+In Analysis Workspace, the Fallout visualization can be used to to answer similar questions and more. Most importantly, the Fallout visualization does not need to be set up in the admin console like in Google Analytics. Instead, they are defined on the fly, using a potential mixture of metrics, dimensions, and segments. Since they are built in real time, the data is completely retroactive, meaning you always have the flexibility to change the components of the Fallout.
+
 ## Ecommerce reports
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known is Products reports.

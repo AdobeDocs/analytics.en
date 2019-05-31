@@ -61,7 +61,7 @@ To create a calculated metric:
 4. Once the calculated metric contains the desired formula, click Save to go back to your workspace.
 5. Drag the newly defined calculated metric onto the workspace.
 
-    Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+    Learn more about [Calculated Metrics](../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
 
 ## Custom Alerts
 

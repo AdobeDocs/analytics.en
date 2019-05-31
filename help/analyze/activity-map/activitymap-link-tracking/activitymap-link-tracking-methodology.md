@@ -81,7 +81,7 @@ Below, you can view some sample HTML using the default region ID attribute, "id"
 If you want, you can tag elements with an arbitrary string identifier, in this case " lpos", and then add attributes with the name "lpos".
 
 ```
-s.Activity Map.regionIDAttribute="lpos"; 
+s.ActivityMap.regionIDAttribute="lpos"; 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
@@ -124,12 +124,12 @@ Note that these variables are listed for reference purposes only. Activity Map s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s.Activity Map.regionIDAttribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> Defaults to the "id" parameter. You can set this to another parameter. </td> 
    <td colname="col3"> String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of s.linkObject, i.e. <b>the element that was clicked</b>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s.Activity Map.link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
     <code>
       //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
@@ -137,7 +137,7 @@ Note that these variables are listed for reference purposes only. Activity Map s
    <td colname="col3"> Function that receives the clicked HTMLElement and should return a string value that represents <b>the link that was clicked</b>. <p>If the return value is false (null, undefined, empty string, 0), no link is tracked. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s.Activity Map.region </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
     <code>
       //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 

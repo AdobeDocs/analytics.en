@@ -49,6 +49,20 @@ In addition to PDF, Analysis Workspace offers a CSV export.
 
 When creating a custom report in Google Analytics, the fields required are similar to the workflow in building out a visualization in workspace. Dimensions, Metrics, and Filter definitions are similar between platforms. In Analysis Workspace, instead of selecting dimensions and metrics from a list, dimensions and metrics are dragged onto a freeform table.
 
+### Calculated metrics in custom reports
+
+Custom reports is one of the few areas in Google Analytics that allows the use of calculated metrics. Because Analysis Workspace operates like a canvas, calculated metrics work retroactively and in any context.
+
+To create a calculated metric:
+
+1. Click the `+` icon near the metric list to open the Calculated Metric Builder.
+2. Give your calculated metric a name and specify a format.
+3. Drag metric components to into the definition area, and use the dropdowns between each component to designate an operator.
+4. Once the calculated metric contains the desired formula, click Save to go back to your workspace.
+5. Drag the newly defined calculated metric onto the workspace.
+
+    Learn more about [Calculated Metrics](../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+
 ## Custom Alerts
 
 Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Intelligent Alerts](../../components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.

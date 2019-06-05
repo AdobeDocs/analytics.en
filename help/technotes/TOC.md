@@ -14,6 +14,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
   + [Customize reporting views](ga-to-aa/customization.md)
   + Google Analytics reports {#reports}
     + [Create a basic report in Analysis Workspace for GA users](ga-to-aa/reports/create-report.md)
+    + [Common metrics used on other Analytics platforms](ga-to-aa/reports/common-metrics.md)
     + [Real-time](ga-to-aa/reports/realtime-reports.md)
     + [Audience](ga-to-aa/reports/audience-reports.md)
     + [Acquisition](ga-to-aa/reports/acquisition-reports.md)

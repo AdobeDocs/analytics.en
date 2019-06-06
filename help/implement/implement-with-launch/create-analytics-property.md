@@ -78,4 +78,4 @@ Rules map data elements to Analytics variable values, and determine when those v
 
 ## Next steps
 
-* Deploy your Analytics implementation to your dev environment: Get Analytics code working in a test environment.
+[Deploy your Analytics implementation to your dev environment](deploy-dev.md): Get Analytics code working in a test environment.

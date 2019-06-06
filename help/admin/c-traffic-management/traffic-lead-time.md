@@ -18,6 +18,8 @@ Use the following guidelines to determine how far in advance you must submit a t
 
 ## Hardware Allocation Lead Times {#section_DA62ED50BD604963A4BDB1D601A94838}
 
+
+
 <table id="table_A67CC3B164F740088797BD8913244E47"> 
  <thead> 
   <tr> 
@@ -35,7 +37,7 @@ Use the following guidelines to determine how far in advance you must submit a t
   <tr> 
    <td colname="col1"> 1,000,000 - 5,000,000 </td> 
    <td colname="col2"> Two BUSINESS days </td> 
-   <td colname="col3" morerows="3"> All traffic increases targeted for November-December should be submitted by September 15th. This is to allow time to purchase capacity if necessary to accommodate holiday traffic. </td> 
+   <td colname="col3" morerows="3"> All traffic increases targeted for November-December should be submitted by September 1. This is to allow time to purchase capacity if necessary to accommodate holiday traffic. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5,000,000 - 10,000,000 </td> 

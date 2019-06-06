@@ -72,4 +72,4 @@ A common reason is because elements already exist in other libraries pushed to s
 
 ## Next Steps
 
-- [Validate your Analytics implementation and publish to production](validate-publish-prod.md): Start getting value out of Adobe Analytics.
+[Validate your Analytics implementation and publish to production](validate-publish-prod.md): Start getting value out of Adobe Analytics.

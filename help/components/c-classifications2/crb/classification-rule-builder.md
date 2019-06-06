@@ -13,13 +13,19 @@ uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 
 Rather than maintaining and uploading classifications each time your tracking codes change, you can create automatic, rule-based classifications and apply them across multiple report suites. Rules are processed at frequent intervals, depending on your volume of classification related traffic.
 
+## Important Notice before you get started
+
+Keep this in mind before you start using classification rules: 
+
+* Our current classification system can only export up to 10MM rows at a time.
+* When classification rule builder (CRB) requests an export, it pulls both classified AND unclassified values, with unclassified values coming through at the end of the export. This means that, over time, you could fill up 10MM of classified values - without ever getting to the unclassified values.
+* Because the architecture is set up in a way that CRB could be pulling from "n" number of servers, this can lead to inconsistencies as to which servers get picked up and in what order. For that reason, it is very difficult to get to unclassified values.
+
+This is the **workaround** for those who have more than 10MM classified values for a dimension: You will need to export unclassified values via FTP, in 10MM batches, and manually classify them.
+
 ## Getting Started with Classification Rules {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
-
->[!NOTE]
->
->The Rule Builder has a limit of 10M unique values per key, per month.
 
 Here are the high-level steps you take to implement classification rules: 
 

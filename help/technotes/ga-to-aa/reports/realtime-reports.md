@@ -57,8 +57,7 @@ Real-time content tells you what pages your visitors are currently viewing. To c
 
 Real-time events tells you which events are happening the most on your site. Custom events can be used as metrics alongside any dimension. However, the differences in how events are handled between platforms prevents an aggregated view of all events in real-time.
 
-> [!NOTE]
-> When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+> [!NOTE] When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
 
 ## Real-time Conversions
 
@@ -72,5 +71,4 @@ Real-time conversions present data differently between platforms. Goals (Targets
    * For the two secondary dimensions, use the preferred additional data that you'd like to see for this traffic. Secondary dimensions do not have to be specific to conversions.
 3. Click [!UICONTROL Save and View Report].
 
-> [!NOTE]
-> If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+> [!NOTE] If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.

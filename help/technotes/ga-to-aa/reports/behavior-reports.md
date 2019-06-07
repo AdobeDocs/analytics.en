@@ -14,7 +14,7 @@ This page assumes the user has a basic knowledge of using Analysis Workspace. Se
 The behavior flow report can be recreated using the Flow visualization.
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
-2. Locate the `Pages` dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
 3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
@@ -22,8 +22,8 @@ The behavior flow report can be recreated using the Flow visualization.
 
 The pages report shows the performance of individual pages on your site.
 
-1. In the Components menu, locate the `Pages` dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created `Occurrences` metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Site Content - Content Drilldown
 
@@ -31,21 +31,21 @@ The content drilldown report lets you take a look at page traffic by URL structu
 
 ## Site Content - Landing Pages
 
-The landing pages report shows the top landing pages on your site. Landing pages are available in Analysis Workspace as the `Entry Page` dimension.
+The landing pages report shows the top landing pages on your site. Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the Components menu, locate the `Entry Page` dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created `Occurrences` metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-Adobe recommends using the `Visits` metric for this dimension.
+Adobe recommends using the **Visits** metric for this dimension.
 
 ## Site Content - Exit Pages
 
 The exit pages report shows the top pages that became the last page of an individual's visit. It is available in Analysis Workspace under the same name.
 
-1. In the Components menu, locate the `Exit Page` dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created `Occurrences` metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-Adobe recommends using the `Visits` metric for this dimension.
+Adobe recommends using the **Visits** metric for this dimension.
 
 ## Site Speed reports
 

@@ -11,23 +11,27 @@ seo-description: Analytics user guides and resources
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Administration tasks for configuring report suites, data governance, server call usage, and more.
 
-[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Analytics setup methods, from Launch to DTM to JavaScript
+[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 
-[![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md) &ndash; Components include segments, calculated metrics, virtual report suites, alerts, and more
+[![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md) &ndash; Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 
-[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md) &ndash; Data export methods such as data feeds and Data Warehouse
+[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md) &ndash; Get data out of Adobe Analytics through Data Warehouse, Data Feeds, and more.
 
-[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md) &ndash; Get data through data sources, the insertion API, or through data connectors
+[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md) &ndash; Bring data into Analytics from outside sources, either in bulk or real-time. Includes Data Sources, Data Insertion API, and Data Connectors.
 
 [![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md) &ndash; Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Media SDK and the Media Collection API
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Implement Analytics on audio or video sources. Includes the Media SDK and the Media Collection API.
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/) &ndash; Data Workbench Client, Installation, Dataset Configuration, and more
+
+[![Technotes](assets/technotes_50px.png)](../technotes/home.md)&emsp;[Analytics Tech Notes](../technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 
 | New and Featured Items | Key Analytics Resources |
 | --- | --- |
 | <ul><li>[Regional Data Collection](/help/admin/data-collection/regional-data-collection/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
+
+<!-- Keep around for now
 
 ## Analytics reporting capabilities
 
@@ -41,10 +45,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
 
-<!-- Keep around for now
-
 ### Analytics feature list
-?
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
@@ -74,7 +75,7 @@ Support delegates can get assisted support via:
 **In-Product:**
 
 1.  [Sign in to Adobe Analytics.](https://sc.omniture.com/login/)
-1.  Navigate to **Help** > **Customer Care**.  
+2.  Navigate to **Help** > **Customer Care**.  
 
 **Phone:** 1-800-497-0335 (US & Canada).
 

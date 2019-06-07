@@ -30,7 +30,7 @@ Bot traffic data is stored in a separate repository for display in the [!UICONTR
 
 ## Impact of Bot Rules on Data Collection {#section_F01A3130E7A04A9993371CF26F6586F2}
 
-Bot Rules are applied to all analytics data. Data removed by Bot Rules is visible only in the Bots and Bot Pages Reports. ASI Slots honor bot rules on historical data if they are enabled at the time of reprocessing.
+Bot Rules are applied to all analytics data. Data removed by Bot Rules is visible only in the Bots and Bot Pages Reports.
 
 VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
 

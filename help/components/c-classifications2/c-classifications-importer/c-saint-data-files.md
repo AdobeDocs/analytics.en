@@ -43,13 +43,9 @@ A data file must adhere to the following structure rules:
 
 * Classifications cannot contain a caret (^) since this character is used to denote a sub-classification. 
 * Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*. 
-
-* Character limits are enforced to classify report data.
-
-  For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. 
+* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. 
 * Tab-delimited data file (create the template file using any spreadsheet application or text editor). 
 * Either a [!DNL .tab] or [!DNL .txt] file extension. 
-
 * A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #. 
 * A double-pound sign followed by SC (## SC) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines. 
 * Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters. 

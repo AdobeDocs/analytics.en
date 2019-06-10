@@ -34,11 +34,11 @@ To launch and evaluate a prototype:
 
 ![prototype name](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-2. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
+1. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
 
 ![previews options](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-3. Work with the prototype. When working in the protype environment:
+1. Work with the prototype. When working in the protype environment:
 
 * Projects created within the prototype environment cannot be saved or shared.
 

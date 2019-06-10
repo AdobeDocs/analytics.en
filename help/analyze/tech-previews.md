@@ -5,6 +5,7 @@ description: Preview prototype projects for Adobe Analytics
 seo-description: Preview prototypes for Adobe Analytics
 ---
 
+
 # Technology Previews User Guide
 
 Technology Previews allows for faster prototyping of early stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Technology Previews to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
@@ -40,8 +41,11 @@ To launch and evaluate a prototype:
 3. Work with the prototype. When working in the protype environment:
 
 * Projects created within the prototype environment cannot be saved or shared.
+
 * In a prototype you can evaluate the data with any dimensions, metrics, segments and visualizations that you otherwise have access to within Workspace.
+
 * Any changes you make within a prototype will not affect data collection or processing.
+
 * Changes made through creation or modification of segments, calculated metrics, and alerts persist outside of the prototype environment.
 
 ## Leave feedback

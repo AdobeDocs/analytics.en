@@ -181,7 +181,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
     + [Adobe Analytics GDPR workflow](c-data-governance/an-gdpr-workflow.md)
     + [View/manage report suite's Data Governance settings](c-data-governance/gdpr-view-settings.md)
     + [Label report suite data](c-data-governance/gdpr-setup-reportsuite.md)
-    + [Submit access and relete Requests](c-data-governance/gdpr-submit-access-delete.md)
+    + [Submit access and delete requests](c-data-governance/gdpr-submit-access-delete.md)
     + [GDPR labels for Analytics variables](c-data-governance/gdpr-labels.md)
     + [Namespaces](c-data-governance/gdpr-namespaces.md)
     + [ID expansion](c-data-governance/gdpr-id-expansion.md)

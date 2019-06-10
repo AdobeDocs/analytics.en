@@ -58,7 +58,6 @@ To try a different prototype, or to exit the prototype environment, click the **
 
 4. Click **Sumbit** to return to the main Previews portal.
 
-
 ## Additonal Information
 
 * Some prototypes within Technology Previews become Analtyics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.

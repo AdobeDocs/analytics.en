@@ -19,11 +19,7 @@ See [General File Structure](../../../components/c-classifications2/c-classifica
 
 See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
 
-<!-- 
-
-c_general_file_structure.xml
-
- -->
+## General file structure
 
 The following illustration is a sample data file:
 
@@ -47,13 +43,9 @@ A data file must adhere to the following structure rules:
 
 * Classifications cannot contain a caret (^) since this character is used to denote a sub-classification. 
 * Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*. 
-
-* Character limits are enforced to classify report data.
-
-  For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. 
+* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. 
 * Tab-delimited data file (create the template file using any spreadsheet application or text editor). 
 * Either a [!DNL .tab] or [!DNL .txt] file extension. 
-
 * A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #. 
 * A double-pound sign followed by SC (## SC) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines. 
 * Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters. 
@@ -103,11 +95,7 @@ A data file must adhere to the following structure rules:
 >
 >* [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
-<!-- 
-
-c_column_heading_format.xml
-
- -->
+## Column heading format
 
 >[!NOTE]
 >
@@ -115,19 +103,11 @@ c_column_heading_format.xml
 
 Classification files support the following column headings:
 
-<!-- 
-
-c_key.xml
-
- -->
+### Key
 
 Each value must be unique across the entire system. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site’s [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
 
-<!-- 
-
-c_classification.xml
-
- -->
+### Classification column heading
 
 For example, reports and analytics automatically include two classifications for [!UICONTROL Campaign] variables: [!UICONTROL Campaigns] and [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
@@ -137,27 +117,15 @@ For example, reports and analytics automatically include two classifications for
 
 Additionally, the data file supports the following additional heading conventions to identify sub-classifications and other specialized data columns:
 
-<!-- 
-
-c_sub-classification_heading.xml
-
- -->
+### Sub-classification heading
 
 For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
 
-<!-- 
-
-c_classification_metric_headings.xml
-
- -->
+### Classification metric headings
 
 For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
 
-<!-- 
-
-c_per_modifier_headings.xml
-
- -->
+### PER modifier heading
 
 *`Per Modifier`* headings are denoted by adding *`~per`* to the classification metric heading. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe supports the following *`PER Modifier`* keywords:
 
@@ -189,11 +157,7 @@ These characters have special meaning in a data file. Where possible, avoid usin
 
 **Example:** If Campaign B that costs approximately $2 per click, the [!UICONTROL Campaigns^~Cost] column contains 2 and the **[!UICONTROL Campaigns^~Cost~per]** column contains [!UICONTROL CLICK]. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 &#42; [number of clicks]) on the fly for the date range of the report. This gives you a total cost calculation based on the number of clicks performed with Campaign B.
 
-<!-- 
-
-c_date.xml
-
- -->
+### Date
 
 Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
 
@@ -235,11 +199,7 @@ To classify campaigns based on date range:
 >
 >A specific key value cannot have more than one date range.
 
-<!-- 
-
-classification_troubleshooting.xml
-
- -->
+## Troubleshooting classifications
 
 * [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
 

@@ -56,7 +56,7 @@ To try a different prototype, or to exit the prototype environment, click the **
 
 ![feedback_survey](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
 
-4. Click **Sumbit** to return to the main Previews portal.
+Click **Sumbit** to return to the main Previews portal.
 
 ## Additonal Information
 

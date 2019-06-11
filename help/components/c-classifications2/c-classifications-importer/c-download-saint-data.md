@@ -35,7 +35,7 @@ The template includes the currently defined classifications (column headings) of
 
 For more information about the data file structure, see [About Classification Data Files](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735). 
 
-## Download a classifications data template (optional) <draft-comment> t_download_a_saint_data_template.xml </draft-comment> {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
+## Download a classifications data template (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 The template provides the file format you must follow for classifications.
 

@@ -8,13 +8,15 @@ topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 ---
 
-# Build segments
+# Segment Builder
 
 The Segment Builder provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
 
-## Build segments {#topic_A34215FC00A8411FAE9DF680872E3740}
-
 The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits. 
+
+>[!IMPORTANT]
+>
+>We introduced dimension attribution models in the June 2019 release. See #6 under Web UI Fetaures below.
 
 There are several ways to access the Segment Builder:
 
@@ -51,6 +53,13 @@ Access the Segment Builder by
     * **[!UICONTROL + Add container:]** Lets you add a new container (below the top-level container) to the segment definition. 
     * **[!UICONTROL + Add container from selection:]** Lets you create a new container from the element/s that you (multi-) selected in the Definitions field. 
     * **[!UICONTROL Exclude:]** Lets you define the segment by excluding one or more dimensions, segments, or metrics.
+
+   **[!UICONTROL Attribution Models:]** For dimension segmentation. Dimension models are particularly useful in sequential segmentation, such as in those that support Flow visualizations:
+    * **[!UICONTROL Repeating]** ((default)): Includes instances and persisted values for the dimension.
+    * **[!UICONTROL Instance]**: Includes instances for the dimension.
+    * **[!UICONTROL Non-repeating instance]**: Includes unique instances (non-repeating) for the dimension.
+    
+    ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensions:]** Dimension are dragged and dropped from the Dimensions list (orange sidebar). 
 1. **[!UICONTROL Comparison:]** You can compare and constrain values using selected operators. 
@@ -123,48 +132,6 @@ You can [build a framework of containers](../../../components/c-segmentation/seg
    **OR**
 
    Select one or more rules and then click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. This turns your selection into a separate container.
-
-## Build a segment {#task_D5CB734E892D451DABFA62F8844F1778}
-
-1. Drag a Dimension, Segment, or Metric Event from the left pane to the **[!UICONTROL Definitions]** field.
-
-   ![](assets/drag_n_drop_dimension.png)
-
-   The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu. 
-1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-operators.md) from the drop-down menu.
-1. Enter or select a value for the item selected.
-1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
-1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right.
-
-   The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created. 
-
-1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
-
-   Step Result 1. Click **[!UICONTROL Save]** to save the segment.
-
-   Step Result 
-
-## Build and nest containers {#task_F45D1D8A3B594CC0A8F42D65872B6E1C}
-
-Build and nest segment containers in Analytics. 
-
-You can [build a framework of containers](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) and then place logic rules and operators between. 
-
-1. Click **[!UICONTROL Options]** > **[!UICONTROL Add Container]**.
-
-   ![](assets/add_container.png)
-
-   A new [!UICONTROL Hit] container opens without a [!UICONTROL Hit] (Page View) identified.
-
-   ![](assets/new_container.png)
-
-1. Change the container type as needed.
-1. Drag a Dimension, Segment, or Event from the left pane to the container.
-1. Continue to add new containers from the top-level **[!UICONTROL Options]** > **[!UICONTROL Add container]** button at the top of the definition, or add containers from within a container to nest logic.
-
-   Or,
-
-   Select one or more rules and then click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. This turns your selection into a separate container. 
 
 ## Use date ranges in segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
@@ -305,7 +272,7 @@ You can drag these templates into the Definitions canvas and use them as they ha
  </tbody> 
 </table>
 
-## Example: campaign visitors segment {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
+## Example: Campaign visitors segment {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
 
 Shows an example of this frequently used segment. 
 

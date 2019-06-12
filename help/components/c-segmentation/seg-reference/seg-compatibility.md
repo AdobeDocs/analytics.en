@@ -10,14 +10,14 @@ uuid: 370258c5-8614-4434-871c-41753ed77f5c
 
 # Data Warehouse Segment Compatibility
 
-Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
+Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
-   <th colname="col3" class="entry"> Data Warehouse </th> 
+   <th colname="col2" class="entry"> [!DNL Analysis Workspace], [!DNL Reports &amp; Analytics], [!DNL Ad Hoc Analysis] </th> 
+   <th colname="col3" class="entry"> [!DNL Data Warehouse] </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -43,7 +43,7 @@ Not all segments created in the Segment Builder are compatible with Data Warehou
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensions</b> </td> 
-   <td colname="col2">Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics and Ad Hoc Analysis: 
+   <td colname="col2">Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in [!DNL Analysis Workspace], [!DNL Reports &amp; Analytics] and [!DNL Ad Hoc Analysis]: 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Entry Server </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Entry Category </li> 
@@ -56,7 +56,7 @@ Not all segments created in the Segment Builder are compatible with Data Warehou
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">Page URL </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">Visitor ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud Visitor ID </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>The following dimensions <b>cannot </b>be used in [!DNL Data Warehouse] segments: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">All Search Page Rank </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">AM/PM </li> 

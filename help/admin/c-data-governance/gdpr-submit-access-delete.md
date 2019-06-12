@@ -8,9 +8,6 @@ uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 
 # Submit Access and Delete Requests
 
->[!NOTE]
->
->This page describes functionality that will be available at a later date.
 
 ## Overview {#section_BD70882995894C1CA19C205C49FEC23C}
 

@@ -11,9 +11,9 @@ uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 | Setting | Description |
 |--- |--- |
 | Flow Container |<ul><li>Visit</li><li>Visitor</li></ul> Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.|
-|Flow Options |<ul><li>Wrap Labels</li></ul> Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box.  Default = unchecked.<ul><li>Include Repeat Instances</li></ul> Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions.|
+|Flow Options |<ul><li>Wrap Labels</li></ul> Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box.  Default = unchecked.<ul><li>Include Repeat Instances</li></ul> Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc.|
 
-**Right-click a node to see several options:**
+### Right-click options
 
 | Option | Description |
 |--- |--- |

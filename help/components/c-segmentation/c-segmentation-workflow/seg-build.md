@@ -16,7 +16,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimen
 
 >[!IMPORTANT]
 >
->We introduced dimension attribution models in the June 2019 release. See #6 under Web UI Fetaures below.
+>We introduced dimension attribution models in the June 2019 release. See #6 under Web UI Features below.
 
 There are several ways to access the Segment Builder:
 

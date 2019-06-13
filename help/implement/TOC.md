@@ -27,7 +27,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Analytics Implementation {#analytics-implementation}
   + [Implementation roadmap](c-implementation/implementation.md)
-  + [GHOST - Implementation roadmap](c-implementation/c-implementation.md)
   + [Popular implementation links](c-implementation/popular-implementation-links.md)
   + [Release notes](c-implementation/rn.md)
 + Analytics Basics {#analytics-basics}

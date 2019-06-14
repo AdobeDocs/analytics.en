@@ -66,7 +66,7 @@ Because the API and interface use the same permissioning system, whatever permis
     </ul> <p>See <a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col1"> <p>Admin Console </p> </td> 
    <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> Manage product permissions in the Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -89,8 +89,8 @@ Here is important new information about new and planned updates and how they aff
    <td colname="col2"> <p> <b>All Report Suite Access</b> </p> <p>When adding report suites to include in a group, you can specify <span class="uicontrol"> All Report Suite Access</span>. This setting applies group permissions to all current and future report suites. </p> <p>To enable this feature, navigate to <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Add New User Group</span>, then select <span class="uicontrol"> All Report Suite Access</span>. </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Should I use the Enterprise Dashboard to manage users, or the existing Analytics User Management? </p> </td> 
-   <td colname="col2"> <p>Changes made in Analytics &gt; Admin &gt; User Management are not reflected in the Enterprise Dashboard. Therefore, only new customers who already use the Enterprise Dashboard for user and group management should continue doing so. A migration for existing Analytics group management to the Enterprise Dashboard is planned. </p> </td> 
+   <td colname="col1"> <p>Should I use the Admin Console to manage users, or the existing Analytics User Management? </p> </td> 
+   <td colname="col2"> <p>Changes made in Analytics &gt; Admin &gt; User Management are not reflected in the Admin Console. Therefore, only new customers who already use the Admin Console for user and group management should continue doing so. A migration for existing Analytics group management to the Admin Console is planned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>What Permissions changes were made in the <b>October 2016</b> release? </p> </td> 
@@ -126,7 +126,7 @@ The following table lists tasks and where they can take place (depending on a co
 
 >[!NOTE]
 >
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. If the email invitation is not accepted, users are still Analytics users and cannot be managed in the Enterprise Dashboard. (The exception is if the migration is using [enterprise or federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). In this case, the user is migrated when the administrator migrates users on a user-by-user basis.)
+>A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. If the email invitation is not accepted, users are still Analytics users and cannot be managed in the Admin Console. (The exception is if the migration is using [enterprise or federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). In this case, the user is migrated when the administrator migrates users on a user-by-user basis.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
@@ -140,57 +140,57 @@ The following table lists tasks and where they can take place (depending on a co
  <tbody> 
   <tr> 
    <td colname="col1"> Create a user </td> 
-   <td colname="col2"> <p>Enterprise Dashboard (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="../../../admin/user-management2/c-user-management/t-add-user-account.md#task_60F86F36CB86446699EA7C7E5FB03EA7" format="dita" scope="local"> Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="../../../admin/user-management2/c-user-management/t-add-user-account.md#task_60F86F36CB86446699EA7C7E5FB03EA7" format="dita" scope="local"> Admin Tools</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit a user </td> 
    <td colname="col2"> <p> <a href="../../../admin/user-management2/c-user-management/t-add-user-account.md#task_60F86F36CB86446699EA7C7E5FB03EA7" format="dita" scope="local"> Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Enterprise Dashboard</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> Admin Console</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Delete a user </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - For Experience Cloud users </p> <p>Admin Tools - for all users, but for Experience Cloud users, only deletes the mapped Analytics user, not the Experience Cloud account. </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard - For Migrated Users. </p> <p>Admin Tools - For Analytics-only Users. </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> <p> Admin Tools - After deleting a Experience Cloud user, or un-linking their account in Enterprise Dashboard, you can delete the Analytics login from Admin Tools. </p> </td> 
+   <td colname="col2"> <p>Admin Console - For Experience Cloud users </p> <p>Admin Tools - for all users, but for Experience Cloud users, only deletes the mapped Analytics user, not the Experience Cloud account. </p> </td> 
+   <td colname="col3"> <p>Admin Console - For Migrated Users. </p> <p>Admin Tools - For Analytics-only Users. </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> <p> Admin Tools - After deleting a Experience Cloud user, or un-linking their account in Admin Console, you can delete the Analytics login from Admin Tools. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Log in to Analytics </td> 
    <td colname="col2"> <p> <b>Experience Cloud: </b> <span class="filepath"> marketing.adobe.com</span>. Only available for Experience Cloud users. </p> <p> <b>Analytics (legacy):</b> <span class="filepath"> sc.omniture.com</span>. For Analytics only users, and for Experience Cloud users with their Analytics credentials </p> </td> 
    <td colname="col3"> <p> <span class="filepath"> marketing.adobe.com</span> - only available for Experience Cloud users. </p> <p> <span class="filepath"> sc.omniture.com</span> - For analytics only users, and for Experience Cloud users with their Analytics credentials. </p> <p>During migration, admins can turn off <span class="filepath"> omniture.com</span> login ability for specific users. </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Create a group </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - When a group is created in Enterprise Dashboard, a mapped group in Analytics will appear in the Admin Tools, but this mapped group cannot have its name changed from Admin Tools, or be deleted from Admin Tools. </p> <p>Admin Tools. </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> create product configuration</a>) </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> create product configuration</a>) </p> </td> 
+   <td colname="col2"> <p>Admin Console - When a group is created in Admin Console, a mapped group in Analytics will appear in the Admin Tools, but this mapped group cannot have its name changed from Admin Tools, or be deleted from Admin Tools. </p> <p>Admin Tools. </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> create product configuration</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> create product configuration</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit users in a group </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - Only for Experience Cloud users </p> <p>Admin Tools - both Analytics-only users, and Experience Cloud user membership to groups can be edited from Admin Tools. However, if a Experience Cloud user is part of a group in Enterprise Dashboard, they cannot be removed from the group in Admin Tools. </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard - Experience Cloud users only </p> <p> Admin Tools - Analytics-only logins can still be added to/removed from groups in Admin Tools. </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col2"> <p>Admin Console - Only for Experience Cloud users </p> <p>Admin Tools - both Analytics-only users, and Experience Cloud user membership to groups can be edited from Admin Tools. However, if a Experience Cloud user is part of a group in Admin Console, they cannot be removed from the group in Admin Tools. </p> </td> 
+   <td colname="col3"> <p>Admin Console - Experience Cloud users only </p> <p> Admin Tools - Analytics-only logins can still be added to/removed from groups in Admin Tools. </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit permissions for a group </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - You can edit groups created in Enterprise Dashboard. </p> <p>Admin Tools - You can edit permissions for any group. </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col2"> <p>Admin Console - You can edit groups created in Admin Console. </p> <p>Admin Tools - You can edit permissions for any group. </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Delete group </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - You can delete only groups created in Enterprise Dashboard. </p> <p>Admin Tools - You can delete only groups created from Admin Tools. </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col2"> <p>Admin Console - You can delete only groups created in Admin Console. </p> <p>Admin Tools - You can delete only groups created from Admin Tools. </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Change admin status for user </td> 
-   <td colname="col2"> <p>Enterprise Dashboard - Only for Experience Cloud users. </p> <p>Admin Tools </p> </td> 
-   <td colname="col3"> <p>Enterprise Dashboard - Only for Experience Cloud users. </p> <p>Admin Tools - Only for Analytics users. </p> </td> 
-   <td colname="col4"> <p>Enterprise Dashboard </p> </td> 
+   <td colname="col2"> <p>Admin Console - Only for Experience Cloud users. </p> <p>Admin Tools </p> </td> 
+   <td colname="col3"> <p>Admin Console - Only for Experience Cloud users. </p> <p>Admin Tools - Only for Analytics users. </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
  </tbody> 
 </table>

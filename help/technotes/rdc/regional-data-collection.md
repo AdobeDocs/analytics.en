@@ -9,7 +9,7 @@ seo-description: Information on Regional Data Collection
 
 Learn about regional data collection (RDC) and how to change your collection network, if needed.
 
-To improve data collection performance, all remaining Adobe Experience Cloud customers have been converted to Regional Data Collection (RDC) so that collection occurs as close to your end users as possible. This improves the site/app performance and ensures that data is collected as quickly as possible to optimize the end user experience. Once data from your digital properties is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC), where it is processed and made available to products in the Adobe Experience Cloud. RDC has been the default for new implementations since 2009. 
+To improve data collection performance, all Adobe Experience Cloud customers have been converted to Regional Data Collection (RDC) so that collection occurs as close to your end users as possible. This improves your site/app performance and ensures that data is collected as quickly as possible to optimize the end user experience. Once data from your digital properties is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC), where it is processed and made available to products in the Adobe Experience Cloud. RDC has been the default for new implementations since 2009.
 
 RDC currently includes the following locations (subject to change):
 
@@ -49,7 +49,7 @@ The following list describes the data collection process used by Adobe:
 | Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored.|
 
 ## Documentation revision history
- 
+
 | Update | Description |
 |--------|---------|
 | February 20, 2019 | Complete rewrite. Added RDC network information.|

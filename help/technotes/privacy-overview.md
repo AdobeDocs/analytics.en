@@ -134,4 +134,3 @@ The following EMEA data centers currently host Adobe Analytics data:
   </tr> 
  </tbody> 
 </table>
-

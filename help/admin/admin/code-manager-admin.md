@@ -14,7 +14,7 @@ Code manager lets you download data collection code for web and mobile platforms
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
-After you download the library, you must configure the code to send data to the correct tracking server and report suite. Additional implementation resources are available at [Developer & Implementation](../../admin/data-collection/developer.md#concept_0151FC2D93434EE6BB3300D7F1A33E4A).
+After you download the library, you must configure the code to send data to the correct tracking server and report suite. Additional implementation resources are available in the [Implement](../../implement/home.md) user guide.
 
 ## Code Manager Page Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 

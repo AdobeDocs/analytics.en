@@ -15,7 +15,6 @@ This guide covers all Adobe Analytics Admin configuration tasks, such as setting
 
 * [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md)
 * [Admin Getting Started](admin/c-admin-tools.md)
-* [Developer documentation](data-collection/developer.md)
 * [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
 
 ## More Analytics user guides

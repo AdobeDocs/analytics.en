@@ -30,7 +30,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Popular implementation links](c-implementation/popular-implementation-links.md)
   + [Release notes](c-implementation/rn.md)
 + Analytics Basics {#analytics-basics}
-  + [Analytics Terminology](analytics-terminology-basics/analytics-terminology-basics.md)
   + [Alerts](analytics-terminology-basics/ref-alerts.md)
   + [Analytics code](analytics-terminology-basics/ref-analytics-code.md)
   + [Classifications](analytics-terminology-basics/ref-classifications.md)

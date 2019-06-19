@@ -32,9 +32,9 @@ Categories provide a way to group data sources from a user’s perspective. When
    <td colname="col3"> <p>Most Web servers generate log files that record every page served. Using this data source, you can process the log files from most Web server data and add this data to your reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Media Optimizer Bulk Upload </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud Bulk Upload </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversion </a> </p> </td> 
-   <td colname="col3"> <p>Provides manual and excel-automated bulk uploads in Media Optimizer. </p> </td> 
+   <td colname="col3"> <p>Provides manual and excel-automated bulk uploads in Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Site-level Traffic Data Source </p> </td> 

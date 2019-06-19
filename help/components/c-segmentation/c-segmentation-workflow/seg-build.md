@@ -94,7 +94,7 @@ Access the Segment Builder by
 
 >[!IMPORTANT]
 >
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Media Optimizer], and [!DNL Campaign].
+>Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
 
 ## Build segments {#section_050E3343533E45C3923242398E0E0213}
 

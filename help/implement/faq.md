@@ -41,7 +41,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - What is the difference between the Experience Cloud Visitor ID and the Analytics Visitor ID? </p> </td> 
-   <td colname="col3"> <p>The Experience Cloud ID service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col3"> <p>The Identity Service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - How is the Visitor ID set if cookies are blocked? </p> </td> 

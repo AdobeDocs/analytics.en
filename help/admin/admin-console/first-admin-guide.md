@@ -13,9 +13,9 @@ A first admin is the starting point in enabling the rest of the organization to 
 
 If your organization has purchased Adobe Analytics, there are several key roles to consider:
 
-- **Analytics admins:** These users have full access to everything in Adobe Analytics, including report suite settings and user permissions. Depending on how your organization is structured, different people or teams can be responsible for different facets of Analytics administration. For example, one person is responsible for the designation of what variables to use in an implementation. Another person can be responsible for enabling users to correctly pull reports by ensuring everyone has the correct permissions. Identify at least one user who can be responsible for Analytics report suite settings and user permissions, and they can invite other Analytics admins from there.
-- **Launch admins:** These users have full access to everything in Launch, including publishing permissions, creating containers, and user permissions. These users are not necessarily programmers, but having at least a beginner's knowledge of HTML, CSS, and JavaScript is beneficial. They are responsible for working with your organization's website owners to get the Launch code implemented on your site. Identify at least one user who can be responsible for your organization's implementation, and they can invite other Launch admins from there.
-- **Website owners:** These individuals or teams are responsible for the coding and development of your website. They do not require accounts, but they want to work with Launch admins to get the Launch code and implement it on your website.
+- **Adobe Analytics admins:** These users have full access to everything in Adobe Analytics, including report suite settings and user permissions. Depending on how your organization is structured, different people or teams can be responsible for different facets of Analytics administration. For example, one person is responsible for the designation of what variables to use in an implementation. Another person can be responsible for enabling users to correctly pull reports by ensuring everyone has the correct permissions. Identify at least one user who can be responsible for Analytics report suite settings and user permissions, and they can invite other Analytics admins from there.
+- **Adobe Experience Platform Launch admins:** These users have full access to everything in Experience Platform Launch, including publishing permissions, creating containers, and user permissions. These users are not necessarily programmers, but having at least a beginner's knowledge of HTML, CSS, and JavaScript is beneficial. They are responsible for working with your organization's website owners to get the Experience Platform Launch code implemented on your site. Identify at least one user who can be responsible for your organization's implementation, and they can invite other Experience Platform Launch admins from there.
+- **Website owners:** These individuals or teams are responsible for the coding and development of your website. They do not require accounts, but they want to work with Experience Platform Launch admins to get the Experience Platform Launch code and implement it on your website.
 - **End users:** these users typically view reports and seek answers to business questions. Analytics admins grant these users permissions to work in the product.
 
 As a first admin, your role can overlap in one or more of these roles. As long as each of these basic responsibilities are covered, you can grant permissions to get others in your organization up and running.
@@ -35,23 +35,23 @@ System-level admins do not have direct access to products, however they can give
 1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click Save.
 1. The user now has full access to Adobe Analytics.
 
-## Granting product admin access for Launch
+## Granting product admin access for Experience Platform Launch
 
-Product admin access for Launch is nearly identical to granting product admin access for Analytics.
+Product admin access for Experience Platform Launch is nearly identical to granting product admin access for Analytics.
 
 1. Log in to the Admin Console with your Adobe ID credentials.
-1. Click the Products tab at the top. All products purchased by your organization are on the left. Click Launch by Adobe, then click the New Profile button.
-1. Name this profile 'Launch full admin access', then click Done.
+1. Click the Products tab at the top. All products purchased by your organization are on the left. Click Experience Platform Launch by Adobe, then click the New Profile button.
+1. Name this profile 'Experience Platform Launch full admin access', then click Done.
 1. Back on the Product Profiles page, click the newly created profile, then click the Permissions tab.
 1. Click one of the permission line items. If Auto-include is available, enable it. If auto-include is not available, click Add all. Both options move all permission items to the right column.
 1. Click save. Repeat the above step for all permission categories.
 1. Once all permission categories are granted to the profile, go back to the Overview page by clicking Overview at the top.
-1. Under the Launch by Adobe tile, click 'Assign Users'.
+1. Under the Experience Platform Launch by Adobe tile, click 'Assign Users'.
 1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click Save.
-1. The user now has full access to Launch.
+1. The user now has full access to Experience Platform Launch.
 
 ## Next Steps
 
 [Create a Report Suite](create-report-suite.md): Have your Analytics admin login to the tool and create a report suite for data collection
 
-[Create a property in Launch](../../implement/implement-with-launch/create-analytics-property.md): Have your Launch admin login to the tool and create a property to implement on your site
+[Create a property in Experience Platform Launch](../../implement/implement-with-launch/create-analytics-property.md): Have your Experience Platform Launch admin login to the tool and create a property to implement on your site

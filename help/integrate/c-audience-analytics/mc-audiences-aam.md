@@ -41,7 +41,7 @@ Ensure that the following prerequisites are in place:
 
 * You are a customer of both Audience Manager and Adobe Analytics. 
 * You are an Audience Manager admin. 
-* You are using the Experience Cloud ID Service v1.5 or later. 
+* You are using the Identity Service v1.5 or later. 
 * AAM and Adobe Analytics report suites are [mapped to the same Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html). 
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 

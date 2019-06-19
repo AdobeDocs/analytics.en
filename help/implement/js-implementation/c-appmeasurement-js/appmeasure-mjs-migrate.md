@@ -16,7 +16,7 @@ The following table contains a list of tasks you need to perform to migrate your
 
 >[!NOTE]
 >
->We recommend migrating to the [Experience Cloud ID Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
+>We recommend migrating to the [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
 
 ![](assets/step1_icon.png) Check plug-in compatibility
 

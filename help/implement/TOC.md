@@ -30,7 +30,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Popular implementation links](c-implementation/popular-implementation-links.md)
   + [Release notes](c-implementation/rn.md)
 + Analytics Basics {#analytics-basics}
-  + [Analytics Terminology](analytics-terminology-basics/analytics-terminology-basics.md)
   + [Alerts](analytics-terminology-basics/ref-alerts.md)
   + [Analytics code](analytics-terminology-basics/ref-analytics-code.md)
   + [Classifications](analytics-terminology-basics/ref-classifications.md)
@@ -60,7 +59,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
 + [Get started with Analytics implementation](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
-  + [Create an Analytics property in Launch](implement-with-launch/create-analytics-property.md)
+  + [Create an Analytics property in Experience Platform Launch](implement-with-launch/create-analytics-property.md)
   + [Deploy an implementation to a development environment](implement-with-launch/deploy-dev.md)
   + [Validate a development implementation and publish to production](implement-with-launch/validate-publish-prod.md)
 + Implement Analytics with DTM {#implement-analytics-with-dtm}
@@ -179,7 +178,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + Unique visitors {#unique-visitors}
     + [Identify unique visitors](js-implementation/c-unique-visitors/visid-overview.md)
     + [Custom Visitor ID](js-implementation/c-unique-visitors/visid-custom.md)
-    + [Experience Cloud ID Service](js-implementation/c-unique-visitors/visid-service.md)
+    + [Identity Service](js-implementation/c-unique-visitors/visid-service.md)
     + [Analytics Visitor ID](js-implementation/c-unique-visitors/visid-analytics.md)
     + [Fallback ID methods](js-implementation/c-unique-visitors/visid-fallback.md)
     + [Identify mobile devices](js-implementation/c-unique-visitors/visid-mobile.md)

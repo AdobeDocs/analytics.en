@@ -66,7 +66,7 @@ The type of visualization (e.g. fallout vs a freeform table) added to a project 
 
 If you notice that your projects aren't loading as quickly as you'd like, try replacing some segments with eVars and filters, where possible.
 
-If you find yourself constantly using segments and calculated metrics for data points that are important to your business, consider improving your implementation to capture these data points more directly. The use of a tag manager like Adobe Launch and Adobe’s processing rules can make implementation changes quick & easy to implement. To better understand how to simplify intricate segments, see 'Complexity of Segment Logic' above. 
+If you find yourself constantly using segments and calculated metrics for data points that are important to your business, consider improving your implementation to capture these data points more directly. The use of a tag manager like Adobe Experience Platform Launch and Adobe’s processing rules can make implementation changes quick & easy to implement. To better understand how to simplify intricate segments, see 'Complexity of Segment Logic' above. 
 
 ## Number of panels
 

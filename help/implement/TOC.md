@@ -60,7 +60,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
 + [Get started with Analytics implementation](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
-  + [Create an Analytics property in Launch](implement-with-launch/create-analytics-property.md)
+  + [Create an Analytics property in Experience Platform Launch](implement-with-launch/create-analytics-property.md)
   + [Deploy an implementation to a development environment](implement-with-launch/deploy-dev.md)
   + [Validate a development implementation and publish to production](implement-with-launch/validate-publish-prod.md)
 + Implement Analytics with DTM {#implement-analytics-with-dtm}

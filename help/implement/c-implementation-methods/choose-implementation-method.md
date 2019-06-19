@@ -13,17 +13,17 @@ uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 
 There are multiple ways to implement Adobe Analytics.
 
-* [!UICONTROL Launch] (Recommended) 
+* [!UICONTROL Adobe Experience Platform Launch] (Recommended) 
 * [!UICONTROL Dynamic Tag Management] 
 * JavaScript
 
-## [!UICONTROL Launch, by Adobe] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
+## [!UICONTROL Experience Platform Launch, by Adobe] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
 
-[!UICONTROL Launch] is the next generation of website tag and mobile SDK management capabilities from Adobe. [!UICONTROL Launch] gives you a simple way to deploy and manage all of the analytics, marketing, and advertising integrations necessary to power relevant customer experiences.
+[!UICONTROL Experience Platform Launch] is the next generation of website tag and mobile SDK management capabilities from Adobe. [!UICONTROL Experience Platform Launch] gives you a simple way to deploy and manage all of the analytics, marketing, and advertising integrations necessary to power relevant customer experiences.
 
-[!UICONTROL Launch] empowers anyone to build and maintain their own integrations with [!DNL Launch], called Extensions. These extensions are available to web and mobile [!UICONTROL Launch] customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
+[!UICONTROL Experience Platform Launch] empowers anyone to build and maintain their own integrations with [!DNL Experience Platform Launch], called Extensions. These extensions are available to web and mobile [!UICONTROL Experience Platform Launch] customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
 
-For more information, see [Getting Started with Launch](https://docs.adobelaunch.com/getting-started).
+For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
@@ -42,7 +42,7 @@ For more information, see [Implementing Analytics with Dynamic Tag Management](.
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
-The JavaScript implementation method requires you to configure the JavaScript codes on your pages manually. Much of this effort can be simplified if you use the Dynamic Tag Management implementation method. However, some users might require the JavaScript method.
+The JavaScript implementation method requires you to configure the JavaScript codes on your pages manually. Much of this effort can be simplified if you use the Expereience Platform Launch or the Dynamic Tag Management implementation methods. However, some users might require the JavaScript method.
 
 The JavaScript implementation requires:
 

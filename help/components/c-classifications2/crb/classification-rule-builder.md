@@ -17,11 +17,11 @@ Rather than maintaining and uploading classifications each time your tracking co
 
 Keep this in mind before you start using classification rules: 
 
-* Our current classification system can only export up to 10MM rows at a time.
-* When classification rule builder (CRB) requests an export, it pulls both classified AND unclassified values, with unclassified values coming through at the end of the export. This means that, over time, you could fill up 10MM of classified values - without ever getting to the unclassified values.
+* Our current classification system can only export up to 10 million rows at a time.
+* When classification rule builder (CRB) requests an export, it pulls both classified AND unclassified values, with unclassified values coming through at the end of the export. This means that, over time, you could fill up 10 million classified values - without ever getting to the unclassified values.
 * Because the architecture is set up in a way that CRB could be pulling from "n" number of servers, this can lead to inconsistencies as to which servers get picked up and in what order. For that reason, it is very difficult to get to unclassified values.
 
-This is the **workaround** for those who have more than 10MM classified values for a dimension: You will need to export unclassified values via FTP, in 10MM batches, and manually classify them.
+This is the **workaround** for those who have more than 10 million classified values for a dimension: You will need to export unclassified values via FTP, in 10-million batches, and manually classify them.
 
 ## Getting Started with Classification Rules {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 

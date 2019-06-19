@@ -17,7 +17,7 @@ There are multiple ways to implement Adobe Analytics.
 * [!UICONTROL Dynamic Tag Management] 
 * JavaScript
 
-## [!UICONTROL Experience Platform Launch, by Adobe] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
+## [!UICONTROL Adobe Experience Platform Launch] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
 
 [!UICONTROL Experience Platform Launch] is the next generation of website tag and mobile SDK management capabilities from Adobe. [!UICONTROL Experience Platform Launch] gives you a simple way to deploy and manage all of the analytics, marketing, and advertising integrations necessary to power relevant customer experiences.
 
@@ -28,10 +28,7 @@ For more information, see [Getting Started with Experience Platform Launch](http
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
 [!UICONTROL Dynamic Tag Management] automates much of the detail work required to implement [!DNL Analytics]. Enter the required information in a form-based interface, and [!DNL Dynamic Tag Management] generates the code you need to add to your pages.
-
-Although [!UICONTROL Dynamic Tag Management] greatly simplifies the implementation process, you should be familiar with [basic [!DNL Analytics] terminology](../../implement/analytics-terminology-basics/analytics-terminology-basics.md#concept_4A3368DE509E41969497405ED0DC0CEF) before you begin. It is also useful to be familiar with JavaScript.
-
-For example, you should understanding the following:
+It is useful to be familiar with JavaScript, and to understand basic Analytics terminology, such as
 
 * What an [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) is and how it works 
 * When to use a [custom event](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)

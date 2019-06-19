@@ -12,8 +12,6 @@ uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 
 Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
 
-See [Mobile App Development & AppMeasurement Libraries](../../admin/data-collection/developer.md#concept_0151FC2D93434EE6BB3300D7F1A33E4A) for details on capturing lifecycle metrics in your mobile app.
-
 This integration between Adobe Analytics and Mobile Services
 
 * Lets you share your KPI (Key Performance Indicator) data from Mobile Services to Adobe Analytics. 

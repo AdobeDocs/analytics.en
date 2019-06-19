@@ -30,10 +30,10 @@ To understand where your organization is in terms of implementing server-side fo
 
 Verify whether Experience Cloud ID (MID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
 
-On the Request tab, verify that a MID value is being set. This tells you that Experience Cloud ID service is implemented correctly, which is a pre-requisite for server-side forwarding.
+On the Request tab, verify that a MID value is being set. This tells you that Identity Service is implemented correctly, which is a pre-requisite for server-side forwarding.
 
 * If you see a MID value, continue to step 2.
-* If you do not see a MID value, [implement Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
 ## ![step2_icon.png image](assets/step2_icon.png) Verify server-side forwarding implementation version
 

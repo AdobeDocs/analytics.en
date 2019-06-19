@@ -17,7 +17,7 @@ Server-side forwarding works with [Analytics](https://www.adobe.com/data-analyti
 
 ## Service Requirements
 
-Server-side forwarding requires the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). The Experience Cloud ID service provides a universal ID that identifies site visitors across all the solutions in the Experience Cloud. You need to implement the ID service before server-side forwarding will work.
+Server-side forwarding requires the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). The Identity Service provides a universal ID that identifies site visitors across all the solutions in the Experience Cloud. You need to implement the ID service before server-side forwarding will work.
 
 ## Code Versions
 

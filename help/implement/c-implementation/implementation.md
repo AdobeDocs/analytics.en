@@ -40,8 +40,8 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1"> Set up the Experience Cloud ID service. </td> 
-   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
+   <td colname="col1"> Set up the Identity Service. </td> 
+   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, add the following visitor ID initialization code at the beginning of the file: </p> 
      <code class="syntax javascript">

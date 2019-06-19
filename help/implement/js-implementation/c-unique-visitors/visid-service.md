@@ -1,16 +1,16 @@
 ---
-description: The Experience Cloud ID service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+description: The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 keywords: Analytics Implementation
-seo-description: The Experience Cloud ID service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
-seo-title: Experience Cloud ID Service
+seo-description: The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+seo-title: Identity Service
 solution: Analytics
-title: Experience Cloud ID Service
+title: Identity Service
 topic: Developer and implementation
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 ---
 
-# Experience Cloud ID Service
+# Identity Service
 
-The Experience Cloud ID service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-See [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) for product documentation about this service. 
+See [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) for product documentation about this service. 

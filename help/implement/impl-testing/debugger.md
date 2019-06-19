@@ -1,6 +1,6 @@
 ---
-description: Install the Adobe Experience Cloud Debugger. The debugger inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Experience Cloud ID Service, Dynamic Tag Management, and Experience Platform Launch.
-seo-description: Install the Adobe Experience Cloud Debugger. The debugger inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Experience Cloud ID Service, Dynamic Tag Management, and Experience Platform Launch.
+description: Install the Adobe Experience Cloud Debugger. The debugger inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management, and Experience Platform Launch.
+seo-description: Install the Adobe Experience Cloud Debugger. The debugger inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management, and Experience Platform Launch.
 seo-title: Experience Cloud Debugger
 title: Experience Cloud Debugger
 uuid: e4b35a89-a41f-44a8-9e3f-6e872c4487c1
@@ -12,7 +12,7 @@ Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. The [!UICONTR
 
 ## Experience Cloud Debugger {#topic_E05CEAF0682E483A9AB147D774CF2188}
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Experience Cloud ID Service, Dynamic Tag Management, and Experience Platform Launch.
+Install the Adobe Experience Cloud [!UICONTROL Debugger]. The [!UICONTROL Debugger] inspects tags for the Analytics Cloud, Adobe Target, Advertising Cloud, Identity Service, Dynamic Tag Management, and Experience Platform Launch.
 
 >[!IMPORTANT]
 >

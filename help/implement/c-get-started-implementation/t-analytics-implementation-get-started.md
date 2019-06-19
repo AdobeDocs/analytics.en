@@ -27,7 +27,7 @@ New users can quickly create your first [!DNL Analytics] report suite (data repo
 In this procedure enables you to:
 
 * Quickly create your first [report suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html). 
-* Deploy [!DNL Analytics] and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
 
 * Run reports on basic page-level data.
 
@@ -102,7 +102,7 @@ In this procedure enables you to:
      <tbody> 
       <tr> 
        <td colname="col1"> <p>Deploy </p> </td> 
-       <td colname="col2"> <p> Launches <span class="keyword"> Dynamic Tag Management</span>, where you can log in and deploy Analytics. This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Experience Cloud ID service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>Important: In a new browser tab, a help page is displayed that walks you through <span class="keyword"> Adobe Analytics</span> deployment via Dynamic Tag Management. </p> </p> </td> 
+       <td colname="col2"> <p> Launches <span class="keyword"> Dynamic Tag Management</span>, where you can log in and deploy Analytics. This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Identity Service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>Important: In a new browser tab, a help page is displayed that walks you through <span class="keyword"> Adobe Analytics</span> deployment via Dynamic Tag Management. </p> </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Download </p> </td> 

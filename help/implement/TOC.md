@@ -178,7 +178,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + Unique visitors {#unique-visitors}
     + [Identify unique visitors](js-implementation/c-unique-visitors/visid-overview.md)
     + [Custom Visitor ID](js-implementation/c-unique-visitors/visid-custom.md)
-    + [Experience Cloud ID Service](js-implementation/c-unique-visitors/visid-service.md)
+    + [Identity Service](js-implementation/c-unique-visitors/visid-service.md)
     + [Analytics Visitor ID](js-implementation/c-unique-visitors/visid-analytics.md)
     + [Fallback ID methods](js-implementation/c-unique-visitors/visid-fallback.md)
     + [Identify mobile devices](js-implementation/c-unique-visitors/visid-mobile.md)

@@ -51,12 +51,12 @@ Because metrics are sums in a report table, you should [create a calculated metr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Why is it preferable to use the Experience Cloud ID service to set the Customer ID instead of populating the Customer ID in a prop or eVar? </p> </td> 
-   <td colname="col2"> <p>Using the Experience Cloud ID service offers a number of benefits: </p> 
+   <td colname="col1"> <p>Why is it preferable to use the Identity Service to set the Customer ID instead of populating the Customer ID in a prop or eVar? </p> </td> 
+   <td colname="col2"> <p>Using the Identity Service offers a number of benefits: </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">If you do not set the Customer ID with the Experience Cloud ID service, the customer records are available only to Adobe Analytics. If you want to use the customer records for real-time targeting, you must use the Experience Cloud ID service. </li> 
-     <li id="li_228358684E474A298E39578D427BF932">Using the Experience Cloud ID service to set the Customer ID reduces the time it takes to synchronize IDs with the Experience Cloud. If you put the Customer ID in a prop or eVar, the Customer IDs are sent to the Experience Cloud via back-end server synchronization that occurs in batches. The Experience Cloud ID service synchronizes the Customer ID with the Experience Cloud immediately. </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Using the Experience Cloud ID service instead of a prop or eVar frees up that prop or eVar for other uses. </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">If you do not set the Customer ID with the Identity Service, the customer records are available only to Adobe Analytics. If you want to use the customer records for real-time targeting, you must use the Identity Service. </li> 
+     <li id="li_228358684E474A298E39578D427BF932">Using the Identity Service to set the Customer ID reduces the time it takes to synchronize IDs with the Experience Cloud. If you put the Customer ID in a prop or eVar, the Customer IDs are sent to the Experience Cloud via back-end server synchronization that occurs in batches. The Identity Service synchronizes the Customer ID with the Experience Cloud immediately. </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Using the Identity Service instead of a prop or eVar frees up that prop or eVar for other uses. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -16,6 +16,6 @@ During implementation, you might find the following documents useful:
 * [Analytics Variables](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) 
 * [Processing Rules](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules) 
 * [VISTA rules](https://marketing.adobe.com/resources/help/en_US/reference/?f=VISTA) (in Admin Help) 
-* [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) documentation 
+* [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) documentation 
 * [Experience Cloud & Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services) documentation
 

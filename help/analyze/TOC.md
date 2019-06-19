@@ -280,6 +280,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Filtering Report Data](reports-analytics/reports-customize/t-reports-filter-options.md)
   + [Analytics Segmentation](reports-analytics/segmentation.md)
   + [Bookmark Manager](reports-analytics/bookmarks.md)
+  + [Current Data](reports-analytics/current-data.md)
   + [Dashboards and reportlets](reports-analytics/dashboard.md)
   + [Dashboard Manager](reports-analytics/dashboard-manage.md)
   + [Data extract](reports-analytics/data-extract.md)

@@ -9,6 +9,8 @@ seo-description:
 
 Adobe's Regional Data Collection (RDC) in mainland China enables customers within China to send data directly to a Data Collection Center (DCC) within China, instead of other locations globally. This improves page load times and data accuracy over sending the data to DCCs outside of China.
 
+>[!IMPORTANT] There is an additional cost associated with use of the China RDC node. Before implementing data collection in China using the RDC node described in this document, please contact your organization's account manager to ensure that you are correctly entitled to this functionality.
+
 ## Setting the tracking server for China
 
 Tracking can be brought on to China RDC at any point that is convenient for your service. For any digital property (such as a mobile app or web page) you want routed to China RDC, change the tracking server to:

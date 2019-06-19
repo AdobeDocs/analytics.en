@@ -188,7 +188,7 @@ After you have read through the considerations above and have decided to remove 
 
 To remove secondary report suites:
 
-* In Launch, hit the "x" next to any report suites you no longer wish to use.
+* In Adobe Experience Platform Launch, hit the "x" next to any report suites you no longer wish to use.
 * In DTM, locate the property and Adobe Analytics tool in question. In the Production Account ID and Staging Account ID fields, remove any report suite IDs that you no longer wish to use.
 * In legacy JavaScript implementations, locate the `s.account` variable and remove any report suites that you no longer wish to use.
 

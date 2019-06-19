@@ -15,7 +15,7 @@ Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analyt
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 

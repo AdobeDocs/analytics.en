@@ -40,7 +40,7 @@ Release Date: **02/22/2019**
 
 * Updated Audience Management module to DIL 9.1. (AN-175255)
 * GTM Security Policy not allowing Activity Map Module. (AN-174679)
-* Improved AppMeasurement to honor opt-out when the Experience Cloud ID Service is not approved in opt-in. (AN-175259)
+* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
 
 ## Version 2.11.0
 

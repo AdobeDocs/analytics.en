@@ -10,7 +10,7 @@ uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 
 ## New Users {#section_77433E4FC5ED4C6BAFC1E72EB61C4503}
 
-If you are new to Adobe Analytics, you can quickly create your first Analytics report suite (data repository) using the [Getting Started with Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/) guide. Then, you can deploy Analytics code using [Launch](https://docs.adobelaunch.com/).
+If you are new to Adobe Analytics, you can quickly create your first Analytics report suite (data repository) using the [Getting Started with Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/) guide. Then, you can deploy Analytics code using [Experience Platform Launch](https://docs.adobelaunch.com/).
 
 ## Implementation Roadmap {#section_E3DD8D199B744FFB9E9B386A44220206}
 
@@ -28,7 +28,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
    <td colname="col1"> Choose an implementation method. </td> 
    <td colname="col2"> <p>Common ways to implement Analytics include: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Launch </a> (Recommended) <p>This guide tells you everything you need to know about using Adobe's website tag and mobile SDK management capabilities and how to implement them. </p> </li> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch </a> (Recommended) <p>This guide tells you everything you need to know about using Adobe's website tag and mobile SDK management capabilities and how to implement them. </p> </li> 
       <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>This guide contains Analytics-specific information to guide you through a Dynamic Tag Management implementation. </p> </li> 
       <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>This guide contains a description of data collection variables and details on implementing data collection code in JavaScript, including <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="https" scope="external"> video </a>. </p> </li> 
       <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDKs </a> <p>Use Analytics SDKs to manage: </p> <p> 
@@ -40,8 +40,8 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1"> Set up the Experience Cloud ID service. </td> 
-   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Experience Cloud ID Service for Analytics </a>. </p> 
+   <td colname="col1"> Set up the Identity Service. </td> 
+   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, add the following visitor ID initialization code at the beginning of the file: </p> 
      <code class="syntax javascript">
@@ -82,6 +82,6 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
 
 ## More Information {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-For information about the differences between [!UICONTROL Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
 
 For a concise overview of the getting started process and help on quickly setting up your first Analytics report suite, see [Getting Started with Analytics Implementation](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Getting Started with Analytics guide. 

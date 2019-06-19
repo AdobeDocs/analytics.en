@@ -10,15 +10,15 @@ uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 
 Available in Analysis Workspace and the Segment Builder.
 
-Shows the number of visitors that have a Experience Cloud ID. You can understand which pages have the Experience Cloud ID service deployed, and you can understand how many visitors can be shared with other Experience Cloud solutions. You can also use this metric in segments that are shared to the Experience Cloud.
+Shows the number of visitors that have a Experience Cloud ID. You can understand which pages have the Identity Service deployed, and you can understand how many visitors can be shared with other Experience Cloud solutions. You can also use this metric in segments that are shared to the Experience Cloud.
 
 >[!IMPORTANT]
 >
->For this metric to appear, you have to have the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/) running for the report suite.
+>For this metric to appear, you have to have the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) running for the report suite.
 
 ## Debug your Experience Cloud ID Setup {#section_679E62142A3E46548FF8FBDA46568005}
 
-The [!UICONTROL Visitors with Experience Cloud ID] metric is a useful metric in Adobe Analytics intended to help you find and debug your [!UICONTROL Experience Cloud ID Service]setup. The metric is a count of the number of visitors in a report suite that have been assigned a Experience Cloud ID from the Experience Cloud ID Service. This metric can be very useful in diagnosing why certain Experience Cloud integrations may not be sharing as many visitors as expected, or identifying areas of your site that may not have MCID deployed yet.
+The [!UICONTROL Visitors with Experience Cloud ID] metric is a useful metric in Adobe Analytics intended to help you find and debug your [!UICONTROL Identity Service]setup. The metric is a count of the number of visitors in a report suite that have been assigned a Experience Cloud ID from the Identity Service. This metric can be very useful in diagnosing why certain Experience Cloud integrations may not be sharing as many visitors as expected, or identifying areas of your site that may not have MCID deployed yet.
 
 To use the Visitors with Experience Cloud ID metric, simply drag it in to any report as a metric, such as this [!UICONTROL Pages] report:
 
@@ -32,7 +32,7 @@ By adding the calculated metric to the report, you can sort the Pages report so 
 
 ![](assets/metric-mcvid3.png)
 
-Now you can quickly see that the “Product Quick Views” pages are not properly implemented with the Experience Cloud ID Service and should be updated as soon as possible. A similar report can be constructed around any type of dimension such as browser type, site section, or content types.
+Now you can quickly see that the “Product Quick Views” pages are not properly implemented with the Identity Service and should be updated as soon as possible. A similar report can be constructed around any type of dimension such as browser type, site section, or content types.
 
 Once you’ve identified pages that have visitors without an MCID, you should be able to take that back to your implementation team so that they can fix those pages.
 

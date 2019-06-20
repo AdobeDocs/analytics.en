@@ -143,7 +143,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [External email tracking](js-implementation/data-collection/email-external.md)
     + [Implement Adobe opt-outs](js-implementation/data-collection/opt-out.md)
     + [Add an opt-out link](js-implementation/data-collection/opt-out-link.md)
-  + Implementation plug-ins {#implementation-plug-ins}
+  + Implementation plug-ins {#plugins}
     + [Use implementation plug-ins](js-implementation/plugins/impl-plugins.md)
     + [Call plug-ins with doPlugins function](js-implementation/plugins/plugins-calling.md)
     + [s.abort flag](js-implementation/plugins/abort.md)

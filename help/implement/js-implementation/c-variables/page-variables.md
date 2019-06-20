@@ -123,7 +123,7 @@ Every element in a marketing campaign should have an associated unique tracking 
 
 There are two main ways to populate the *`campaign`* variable:
 
-* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
+* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
 
 * Assign a value to the *`campaign`* variable in the HTML on the Web page.
 
@@ -131,7 +131,7 @@ With either method of populating the *`campaign`* variable, the Back button traf
 
 For example, a visitor enters your site by clicking a paid search keyword. When the visitor arrives on the landing page, the URL contains a query string parameter identifying the tracking code for the keyword. The visitor then clicks a link to another page, but then immediately clicks the Back button to return to the landing page. When the visitor arrives a second time on the landing page, the URL with the query string parameter identifies the tracking code again. And a second click-through is registered, thereby falsely inflating the number of click-throughs.
 
-To avoid this inflation of click-throughs, Adobe recommends using the [!UICONTROL getValOnce] plugin to force each campaign click-through to be counted only once per session. For more information on the [!UICONTROL getValOnce] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+To avoid this inflation of click-throughs, Adobe recommends using the [!UICONTROL getValOnce] plugin to force each campaign click-through to be counted only once per session. For more information on the [!UICONTROL getValOnce] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
 **Syntax and Possible Values** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ Each campaign value remains active for a user, and receives credit for that user
 
 **Pitfalls, Questions, and Tips** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/c-mplementation-plug-ins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
+* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
 
 * For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/?f=campaign). 
 * Use the [!DNL DigitalPulse Debugger] to see the actual value of campaigns (v0 in the debugger). If v0 does not appear in the debugger, no campaign data is recorded for that page.

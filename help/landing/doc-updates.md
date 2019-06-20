@@ -25,6 +25,6 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | April 11, 2019 | Updates to [Optimize Workspace Performance](../analyze/analysis-workspace/optimizing-performance.md). |
 | March 14, 2019 | Major Update to [Regional Data Collection](../technotes/rdc/regional-data-collection.md). |
 | Feb. 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](../admin/admin/general-acct-settings-admin.md).|
-| Feb. 1, 2019 | Major update to the [getPercentPageViewed](../implement/js-implementation/c-mplementation-plug-ins/getpercentpageviewed.md) implementation plug-in. |
+| Feb. 1, 2019 | Major update to the [getPercentPageViewed](../implement/js-implementation/plugins/getpercentpageviewed.md) implementation plug-in. |
 | Jan. 17, 2019 | New project setting in Analysis Workspace, [View Density](../analyze/analysis-workspace/build-workspace-project/view-density.md). |
 | Jan. 17, 2019| Major update to [Cohort Analysis](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |

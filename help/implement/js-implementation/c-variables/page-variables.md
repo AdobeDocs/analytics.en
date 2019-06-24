@@ -1597,7 +1597,7 @@ The *`products`* variable should always be set in conjunction with a success eve
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>The " <span class="wintitle"> Product </span>" and " <span class="wintitle"> Category </span>" sections of products each have a limit of 100 bytes. Adobe does not impose a size limit on products, though most browsers impose a size limit on the total URL length of image requests. </p> </td> 
+   <td> <p>The " <span class="wintitle"> products </span>" string has a maximum size of 64k. </p> </td> 
    <td> products </td> 
    <td> Products <p>Categories (optional) </p> <p>Revenue (optional) </p> <p>Units (optional) </p> <p>Custom Events (optional) </p> <p>eVars (optional) </p> </td> 
    <td> " " </td> 

@@ -26,40 +26,16 @@ The Report Suite Usage dashboard
 
 ![](assets/report-suite-usage.png)
 
-<table id="table_C2775A6364E140B6BE35E8DBBE384152"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Column </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite Name </p> </td> 
-   <td colname="col2"> <p>Friendly name of the report suite </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>All Calls (% of Total) </p> </td> 
-   <td colname="col2"> <p>All server calls incurred in the current usage period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Primary Calls (%) </p> </td> 
-   <td colname="col2"> <p>All primary server calls (and their percentage of total) incurred in the current usage period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Secondary Calls (%) </p> </td> 
-   <td colname="col2"> <p>All secondary server calls (and their percentage of total) incurred in the current usage period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Mobile Primary (%) </p> </td> 
-   <td colname="col2"> <p>All mobile primary server calls (and their percentage of total) incurred in the current usage period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Mobile Secondary (%) </p> </td> 
-   <td colname="col2"> <p>All mobile secondary server calls (and their percentage of total) incurred in the current usage period. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Column | Definition |
+|--- |--- |
+|Report Suite ID|The report suite ID specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after a report suite is created.|
+|Report Suite Name|Friendly name of the report suite|
+|All Calls (% of Total)|All server calls incurred in the current usage period.|
+|Primary Calls (%)|All primary server calls (and their percentage of total) incurred in the current usage period.|
+|Secondary Calls (%)|All secondary server calls (and their percentage of total) incurred in the current usage period.|
+|Mobile Primary (%)|All mobile primary server calls (and their percentage of total) incurred in the current usage period.|
+|Mobile Secondary (%)|All mobile secondary server calls (and their percentage of total) incurred in the current usage period.|
+
 
 ## Download Usage Report {#section_D7345660B5E043CD8850954216509A3D}
 
@@ -70,32 +46,12 @@ This option lets you download current usage data, and data from time periods pri
 
    ![](assets/download_report.png)
 
-    <table id="table_7ADC98C9C6D94303AF4814EA4698A183"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Report Element </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr> 
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p>File Name </p> </td> 
-    <td colname="col2"> <p>Hardcoded name: Usage Report &lt;<i>day and time of report creation</i>&gt;.csv </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>Included Report Suites </p> </td> 
-    <td colname="col2"> <p>Any report suites you selected on the Report Server Usage page are included in this list. </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>Included Call Types </p> </td> 
-    <td colname="col2"> <p>Specify any combination of these: <span class="uicontrol"> All Calls </span> (Default), <span class="uicontrol"> Primary </span>, <span class="uicontrol"> Secondary </span>, <span class="uicontrol"> Mobile Primary </span>, <span class="uicontrol"> Mobile Secondary </span>. </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>Time Range </p> </td> 
-    <td colname="col2"> <p>You can choose the current usage period or specify a custom range. </p> <p>For a custom range, specify the <span class="uicontrol"> Range Start </span> and the <span class="uicontrol"> Range End </span>. Note that you cannot download usage data prior to January 2015. </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+| Report Element | Description |
+|--- |--- |
+|File Name|Hardcoded name: Usage Report `day and time of report creation.csv`|
+|Included Report Suites|Any report suites you selected on the Report Server Usage page are included in this list.|
+|Included Call Types|Specify any combination of these:  All Calls (Default), Primary, Secondary,  Mobile Primary, Mobile Secondary.|
+|Time Range|You can choose the current usage period or specify a custom range.  For a custom range, specify the  Range Start and the  Range End. <br>**Note:** You cannot download usage data prior to January 2015 </br>.|
 
 1. Click **[!UICONTROL Download]**.
 

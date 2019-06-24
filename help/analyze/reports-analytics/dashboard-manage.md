@@ -13,6 +13,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
 
+>[!IMPORTANT]
+>
+>Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
+
 ## Dashboard Manager {#concept_E1301CF138EB477794B00F693B4FCA0F}
 
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery. 

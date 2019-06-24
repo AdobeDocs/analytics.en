@@ -16,7 +16,7 @@ Returns the value of a specified query string parameter, if found in the current
 
  Because important data (such as campaign tracking codes, internal search keywords, etc.) is available in the query string on a page, getQueryParam helps capture the data into Analytics variables.
 
-This utility replaces the [getQueryParam](../../implement/js-implementation/c-mplementation-plug-ins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) plug-in.
+This utility replaces the [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) plug-in.
 
 **Syntax:**
 

@@ -1,8 +1,9 @@
 ---
-title: Analytics User Guides
-seo-title: Analytics user guides
+title: Adobe Analytics technical documentation guides
+seo-title: Full list of Adobe Analytics technical documentation and self-help user guides
 description: Analytics user guides and resources
-seo-description: Analytics user guides and resources
+seo-description: Full list of Adobe Analytics tech docs, release notes and self-help user guides.
+
 ---
 
 # Adobe Analytics Documentation

@@ -30,8 +30,8 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + [Edit a Feed](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
   + Data Feed jobs {#data-feed-jobs}
     + [Data Feed jobs - overview](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-    + [Jobs settings](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
     + [Filter jobs list](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
+    + [Jobs settings](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
     + [Job status](analytics-data-feed/c-df-jobs/r-job-status.md)
     + [Rerun a job](analytics-data-feed/c-df-jobs/t-job-rerun.md)
   + Data Feed contents {#data-feed-contents}
@@ -44,6 +44,7 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + [Hit Source Lookup](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
     + [Pre and post columns](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
+    + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
     + [Jobs FAQ](analytics-data-feed/c-df-contents/jobs-faq.md)
   + [Troubleshoot Data Feeds](analytics-data-feed/feed-troubleshooting.md)
   + [Troubleshoot jobs](analytics-data-feed/jobs-troubleshooting.md)

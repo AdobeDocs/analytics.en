@@ -51,7 +51,7 @@ The following table lists the tasks required for visitor migration:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immediately after updating your Analytics code</b>: Test your site to verify that the redirect to the previous data collection domain is occurring. </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that when you access your site for the first time, or after clearing cookies, you see three 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. If any of these redirects fail, contact Customer Care immediately to ensure that the migration is configured correctly. </p> </td> 
+   <td colname="col3"> <p>Use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. If any of these redirects fail, contact Customer Care immediately to ensure that the migration is configured correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>For the entire migration period</b>: Keep the DNS record for the previous hostname active. </p> </td> 

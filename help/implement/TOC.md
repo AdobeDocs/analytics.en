@@ -100,7 +100,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [AppMeasurement plug-in support](js-implementation/c-appmeasurement-js/plugins-support.md)
   + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)
   + [Facebook Instant Articles](js-implementation/analytics-facebook-instant-articles.md)
-  + [Additional web and mobile measurement libraries {#additional-libraries}
+  + Additional web and mobile measurement libraries {#additional-libraries}
     + [Overview of additional libraries](js-implementation/c-additional-libraries/libraries.md)
     + [Implement Analytics using HTML image tags](js-implementation/c-additional-libraries/implscwojs.md)
     + [Implement without JavaScript guidelines](js-implementation/c-additional-libraries/otherreq.md)
@@ -162,6 +162,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [getVisitNum](js-implementation/plugins/getvisitnum.md)
     + [getVisitStart](js-implementation/plugins/getvisitstart.md)
     + [hitGovernor](js-implementation/plugins/hitgovernor.md)
+    + [Integrate Module](js-implementation/plugins/integrate.md)
     + [Internal Traffic](js-implementation/plugins/internal-traffic.md)
     + [performanceTiming](js-implementation/plugins/performancetiming.md)
     + [trackTNT](js-implementation/plugins/tracktnt.md)

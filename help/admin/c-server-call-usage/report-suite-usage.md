@@ -28,7 +28,6 @@ The Report Suite Usage dashboard
 
 | Column | Definition |
 |--- |--- |
-|Report Suite ID|The report suite ID specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after a report suite is created.|
 |Report Suite Name|Friendly name of the report suite|
 |All Calls (% of Total)|All server calls incurred in the current usage period.|
 |Primary Calls (%)|All primary server calls (and their percentage of total) incurred in the current usage period.|
@@ -55,3 +54,6 @@ This option lets you download current usage data, and data from time periods pri
 
 1. Click **[!UICONTROL Download]**.
 
+Here is a screenshot of what the downloaded .csv file looks like. It includes a column for the report suite ID. The report suite ID specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after a report suite is created.
+
+![](assets/download-usage.png)

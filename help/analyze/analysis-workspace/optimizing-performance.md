@@ -26,8 +26,8 @@ Intricate segments can have a significant impact on project performance. Factors
 While some of the complexity factors cannot be prevented, think about opportunities to reduce the complexity of your segments. In general, the more specific you can be with your segment criteria, the better. For example:
 
 * With containers, using a single container at the top of the segment will be faster than a series of nested containers.
-* With operators, "equals" will be faster than “contains”.
-* With many criteria, AND operators will be faster than a series of OR operators.
+* With operators, "equals" will be faster than “contains”, and "equals any of" will be faster than "contains any of".
+* With many criteria, AND operators will be faster than a series of OR operators. Also, look for opportunities to reduce many OR statements into a single "equals any of" statement.
 
 In addition, [classifications](/help/components/c-classifications2/c-classifications.md) can help consolidate many values into concise groups from which you can then create segments. Segmentation on classification groups provides performance benefits over segments that contain many OR statements or “contains” criteria. 
 

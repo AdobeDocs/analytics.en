@@ -10,7 +10,7 @@ uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 
 # Real-time reporting overview
 
-Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
+Real-time reporting displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
 >[!NOTE]
 >

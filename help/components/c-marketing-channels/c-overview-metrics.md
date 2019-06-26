@@ -67,7 +67,7 @@ Every success event instance will have exactly one First Touch channel and exact
 
 | Metric  | Definition  |
 |--- |--- |
-|First-touch channel|The first marketing channel to engage a visitor. Technically, the first-touch channel is an eVar with original expiration.|
+|First-touch channel|The first marketing channel to engage a visitor. Technically, the first-touch channel is an eVar with original allocation.|
 |First-touch visitor|In channel reporting, a first-touch visitor is a Daily Unique Visitor that originated from a channel. The visitor's engagement is stored for the duration of the engagement period with the site, which can last many visits.|
 |Last-touch channel|The conversion channel, meaning, the last marketing channel to engage the visitor and result in a conversion. Only one channel is set as the first touch channel. The last touch channel can change with every return visit to the site. Every visit has a first-touch and last-touch channel, but the value of the first-touch channel never changes with subsequent visits.|
 

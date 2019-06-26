@@ -55,3 +55,4 @@ This option lets you download current usage data, and data from time periods pri
 
 1. Click **[!UICONTROL Download]**.
 
+Here is a screenshot of what the 

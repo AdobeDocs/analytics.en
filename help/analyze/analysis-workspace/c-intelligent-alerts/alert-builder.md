@@ -51,6 +51,10 @@ Specify where the alert can be sent. An alert can be sent to an Analytics user, 
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
+The e-mail that a user would receive once an alert has been triggered looks similar to this:
+
+![](assets/alerts-email.PNG)
+
 **Expiration Date**
 
 Set the alert's expiration date.

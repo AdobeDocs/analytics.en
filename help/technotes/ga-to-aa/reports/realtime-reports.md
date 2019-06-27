@@ -7,6 +7,8 @@ description: Learn how to pull real-time reports in Adobe Analytics, geared towa
 
 Real-time reports show what's happening on your site right now. These types of reports are especially valuable to see immediate results of updates you make to your site. For example, a company running a sale on Black Friday can gauge traffic to specific pages and determine which sales to prioritize based on performance in that moment.
 
+<!-- insert screenshot of real time report here -->
+
 Real-time reports are one of the few features that have not yet been introduced to Analysis Workspace. Use Reports & Analytics to obtain this data. They require some simple configuration to begin collecting data.
 
 To reach the real-time report configuration page (Admin permissions required):
@@ -16,6 +18,8 @@ To reach the real-time report configuration page (Admin permissions required):
 3. If the report suite does not yet have real-time enabled, a message is displayed with a link to configure the report suite. If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report's title.
 
 Adobe allows up to three real-time reports to collect data simultaneously. Each must be configured before they begin collecting data in real-time.
+
+<!-- insert screenshot of completed real time report configuration here -->
 
 ## Real-time Locations
 
@@ -55,13 +59,13 @@ Real-time content tells you what pages your visitors are currently viewing. To c
 
 ## Real-time Events
 
-Real-time events tells you which events are happening the most on your site. Custom events can be used as metrics alongside any dimension. However, the differences in how events are handled between platforms prevents an aggregated view of all events in real-time.
+Real-time events tells you which events are happening the most on your site. In Google Analytics, an event captures the number of times a specific action (generally an action that is unrelated to a page view) has occurred. GA events are sent with a Category, Label, and Action. In Adobe Analytics, custom events are metrics that are given friendly names in the admin console and can be analyzed alongside any dimension. If you are looking for a dimension in Adobe Analytics that is similar to Google Analytics events, consider applying the Custom Link dimension, which is often used as a catch-all for collecting data that is unrelated to page views (in addition to Exit Links - for Exits - and Download Links - for Downloads).
 
 > [!NOTE] When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
 
 ## Real-time Conversions
 
-Real-time conversions present data differently between platforms. Goals (Targets in Adobe Analytics) are not available, however you can see tracking code and campaign performance in real-time.
+Real-time conversions present data differently between platforms. Goals in Google Analytics are akin to metrics and success events in Adobe Analytics. You can use most metrics in Adobe Analytics (both custom metrics like success events and standard metrics like revenue) in Real Time Reports. Similar to Google Analytics, you can also apply dimensions like product name, tracking code, and campaign performance in real-time reports.
 
 1. Click [!UICONTROL Configure] near the real-time report's title.
 2. Under one of the real-time report slots:

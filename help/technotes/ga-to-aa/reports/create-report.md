@@ -38,11 +38,23 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 
     ![New metric](../assets/new_metric.png)
 
+
+## Start with a pre-built report template in Workspace
+
+Create the Content Consumption template (similar to the All Pages report in Google Analytics) by accessing a project template.
+1. Click the 'Create New Project' button.
+2. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates. 
+3. Browse each of the visualizations that have been pre-built: Entry Page Flow, Top Pages Table, Exit Page Flow, Entry Site Section Flow, and Top Site Sections Table.
+
+<!-- Consider a screenshot of either selecting the template, or the above-the-fold content in the resulting template-->
+
 ## Experiment with the tool
 
 Since Analysis Workspace is a reporting tool, it has no impact on data collection. There are no repercussions to indiscriminately dragging components into a project to see what works. Drag different combinations of dimensions and metrics into your workspace project to see what is available to you.
 
 If you accidentally drag an invalid component to your workspace project or would like to go back a step, press ctrl+Z (Windows) or cmd+Z (Mac) to undo the last action made. You can also start with a clean slate by clicking *[!UICONTROL Project] > [!UICONTROL New]* in the upper left menu.
+
+Adobe has placed a lot of functionality in Analysis Workspace in the right-click context menu. Most visualizations and components can be right-clicked for more detailed analysis and interaction. Consider right-clicking components of the following Workspace elements: Components in the Left Rail, Freeform Tables, Flow, Fallout, Venn diagrams, Cohort Tables, and more.
 
 ## Understand what dimensions and metrics to use
 

@@ -29,15 +29,21 @@ In Analysis Workspace, this data can be viewed using the Fallout visualization.
 
 The Fallout visualization is not limited to just the Pages dimension. Any dimension, metric, or segment can be used to tailor your fallout report to meet your organization's needs.
 
+<!-- Consider a screenshot of a basic Fallout -->
+
 ## Ecommerce reports
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
+
+<!-- Consider directing users to the Products (Retail) template -->
 
 Both Ecommerce reports in Google Analytics and Product reports in Adobe Analytics require customized implementation changes to use. See the [Products](../../../components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 
 Multi-channel funnel reports provide additional marketing channel data beyond what acquisition reports provide. These reports focus on how visitors convert, instead of how visitors arrive to your site.
+
+<!-- Consider mentioning the Campaign Performance (Retail) and Acquisition (Web) templates-->
 
 > [!NOTE]
 >
@@ -61,6 +67,8 @@ The top conversion paths report shows the top channel paths a user takes before 
 5. In the resulting report, locate the 'Channel Flow' visualization. This flow shows the top paths a visitor touched prior to a purchase.
 
 This flow visualization is interactive. Click each channel to expand the flow in either direction.
+
+<!-- Consider a screenshot of this flow viz-->
 
 ### Multi-Channel - Time Lag
 

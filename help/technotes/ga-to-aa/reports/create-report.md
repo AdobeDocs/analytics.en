@@ -38,7 +38,6 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 
     ![New metric](../assets/new_metric.png)
 
-
 ## Start with a pre-built report template in Workspace
 
 Create the Content Consumption template (similar to the All Pages report in Google Analytics) by accessing a project template.
@@ -54,7 +53,7 @@ Since Analysis Workspace is a reporting tool, it has no impact on data collectio
 
 If you accidentally drag an invalid component to your workspace project or would like to go back a step, press ctrl+Z (Windows) or cmd+Z (Mac) to undo the last action made. You can also start with a clean slate by clicking *[!UICONTROL Project] > [!UICONTROL New]* in the upper left menu.
 
-Adobe has placed a lot of functionality in Analysis Workspace in the right-click context menu. Most visualizations and components can be right-clicked for more detailed analysis and interaction. Consider right-clicking components of the following Workspace elements: Components in the Left Rail, Freeform Tables, Flow, Fallout, Venn diagrams, Cohort Tables, and more.
+Adobe has placed a lot of functionality in Analysis Workspace in the right-click context menu. Most visualizations and components can be right-clicked for more detailed analysis and interaction. Consider right-clicking components in your workspace to see what options are available.
 
 ## Understand what dimensions and metrics to use
 

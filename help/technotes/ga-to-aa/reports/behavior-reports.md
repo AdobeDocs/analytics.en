@@ -14,9 +14,11 @@ This page assumes the user has a basic knowledge of using Analysis Workspace. Se
 The behavior flow report can be recreated using the Flow visualization.
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+2. Locate the **Page** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
 3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
+
+<!-- Consider a screenshot of the Flow viz with Page dimension -->
 
 ## Site Content - All Pages
 
@@ -25,9 +27,13 @@ The pages report shows the performance of individual pages on your site.
 1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
+<!-- Another consideration here would be to direct users to build the Content Consumption (Web) template. It's pretty identical to the All Pages report, plus some Flow diagrams -->
+
 ## Site Content - Content Drilldown
 
 The content drilldown report lets you take a look at page traffic by URL structure. Additional implementation is required for use in Analysis Workspace. Adobe recommends working with an implementation consultant to ensure this data is accurately collected.
+
+<!-- Do you think it's worth mentioning that customers can start with Site Section, then break down by Page? Obviously that too will be implementation-dependent -->
 
 ## Site Content - Landing Pages
 

@@ -51,13 +51,12 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
 ## Conversions metrics
 
-**Goal Conversion Rate**, **Goal Completions**, and **Goal Value** require additional implementation on both platforms. If your Report Suite has data associated with product purchases, consider the following steps:
+**Goal Conversion Rate**, **Goal Completions**, and **Goal Value** require additional implementation on both platforms. If your implementation already accommodates the products dimension and purchase event, consider the following steps:
 
 1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
-2. Create a Calculated Metric of **Orders per Visit** by highlighting the headers of both metric (by using CTRL on a PC, or CMD on a Mac) and right-clicking to **Create Metric From Selection**, then click **Divide**. This new metric will be similar to a Goal Conversion Rate.
-3. If decimal places are necessary, edit the Calculated Metric by clicking the Info button in the metric header, and then the pencil. Add 1 or 2 Decimal Places in the Calculated Metric Builder window.
+1. Create a calculated metric of **Orders per Visit**. Use ctrl+click (Windows) or cmd+click (Mac) on both metric headers to highlight them. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. This new metric is similar to a Goal Conversion Rate.
+1. If decimal places are necessary, edit the Calculated Metric. Click the Info button in the metric header, then the pencil icon. Add 1 or 2 Decimal Places in the Calculated Metric Builder window, then click Save.
 
 <!-- Consider a screenshot showing the right-click context menu with Create metric from selection highlighted for Orders and Visit -->
 
 Adobe recommends working with an implementation consultant to obtain additional data in reporting.
-

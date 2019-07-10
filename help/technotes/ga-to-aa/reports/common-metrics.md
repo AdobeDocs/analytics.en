@@ -59,4 +59,4 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
 <!-- Consider a screenshot showing the right-click context menu with Create metric from selection highlighted for Orders and Visit -->
 
-Adobe recommends working with an implementation consultant to obtain additional data in reporting.
+If your implementation does not yet accommodate product or conversion data, Adobe recommends working with an implementation consultant to ensure data quality and integrity.

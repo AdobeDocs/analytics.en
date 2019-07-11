@@ -39,7 +39,7 @@ Suppose that instead of viewing campaigns just by the tracking code, you want to
 
 Reporting and analytics includes pre-defined classifications for the tracking code variable, which offers classification-based reports called Creative Elements and Campaigns. You must manually configure classifications for all other conversion and traffic variables.
 
-See [Traffic Classifications](../../components/c-classifications2/traffic-classifications.md#concept_028079B29A9C412AA68910A87E11176F) and [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications).
+See [Traffic Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) and [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications).
 
 The following table describes the different types of classifications that are available, and the variable types that support them. Review the information in [General File Structure](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) before uploading data files. 
 

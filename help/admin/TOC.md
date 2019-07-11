@@ -90,6 +90,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + Traffic variables {#traffic-variables}
     + [Traffic variable (prop) overview](admin/c-traffic-variables/traffic-var.md)
     + [Enable traffic variable reports](admin/c-traffic-variables/t-traffic-variable.md)
+    + [Traffic classifications](admin/c-traffic-variables/traffic-classifications.md)
   + Unique Visitor variable {#unique-visitor-variable}
     + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
     + [Use Case - Extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
@@ -176,7 +177,6 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Server call usage FAQ](c-server-call-usage/overage-faq.md)
 + Traffic Management {#traffic-management}
   + [Manage traffic](c-traffic-management/traffic-management.md)
-  + [Traffic classifications](c-traffic-management/traffic-classifications.md)
   + [Schedule a traffic spike](c-traffic-management/t-traffic-schedule-spike.md)
   + [Estimate past server calls and schedule a traffic spike](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
   + [Specify permanent traffic increase](c-traffic-management/t-traffic-permanent.md)

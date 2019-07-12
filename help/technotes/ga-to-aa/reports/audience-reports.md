@@ -32,7 +32,7 @@ Cohort Analysis shows how often the same users return to your site.
 To create a cohort table:
 
 1. Click the Visualization icon on the left, and drag the Cohort Table visualization onto the workspace.
-2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria. 
+2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
 3. Click Build.
 
 See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.

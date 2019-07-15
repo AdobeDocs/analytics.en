@@ -28,7 +28,7 @@ If needed, these types of links can be manually tracked using custom link code a
 
 The first argument should always be set either to this (default) or true. The argument refers to the object being clicked; when set to "this," it refers to the HREF property of the link.
 
-If you are implementing link tracking on an object that has no HREF property, you should always set this argument to "true."
+If you are implementing link tracking on an object that has no HREF property, you should always set this argument to "this."
 
 Because clicking a link often takes a visitor off the current page, a 500ms delay is used to ensure that an image request is sent to Adobe before the user leaves the page. This delay is only necessary when leaving the page, but is typically present when the s.tl() function is called. If you want to disable the delay, pass the keyword 'true' as the first parameter when calling the s.tl() function.
 

@@ -1,36 +1,35 @@
 ---
-title: Technology Previews User Guide
-seo-title: Technology Previews for Adobe Analytics
+title: Labs User Guide
+seo-title: Labs for Adobe Analytics
 description: Preview prototype projects for Adobe Analytics
 seo-description: Preview prototypes for Adobe Analytics
 ---
 
 
-# Technology Previews User Guide
+# Labs User Guide
 
-Technology Previews allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Technology Previews to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
+Labs allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Labs to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
 
 ## Requirements
 
-Technology Previews is automatically enabled for all admins. Other team members should contact their product administrators and request access. 
+Labs is automatically enabled for all admins. Other team members should contact their product administrators and request access. 
 
 If you have not already done so, read and sign the applicable Non-Disclosure Agreement and Terms & Conditions forms.
 
-## Access the Previews Portal
+## Access the Labs Portal
 
-To access Previews:
+To access Labs:
 
-1. If you do not already have access to Workspace and Previews, ask your administrator for permissions.
+1. If you do not already have access to Workspace and Labs, ask your administrator for permissions.
 
-1. Click the **Previews** tab.
+1. Click the **Labs** tab.
 
-   ![previews_tab](https://user-images.githubusercontent.com/29133525/58670161-52427500-82fb-11e9-8d93-0905106d957a.png)
 
 ## Evaluate a prototype
 
 To launch and evaluate a prototype:
 
-1. On the Previews screen, click the **Launch** button of the prototype you want to see. When the prototype is launched, you will see its name in the upper left of the prototype environment.
+1. On the Labs screen, click the **Launch** button of the prototype you want to see. When the prototype is launched, you will see its name in the upper left of the prototype environment.
 
    ![prototype name](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
@@ -60,10 +59,10 @@ To launch and evaluate a prototype:
 
    ![feedback_survey](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
 
-1. Click **Sumbit** to return to the main Previews portal.
+1. Click **Submit** to return to the main Previews portal.
 
-## Additional Information
+## Additional information
 
-* Some prototypes within Technology Previews become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
+* Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
 
 * Technology Previews is available to all SKU entitlements.

@@ -12,6 +12,10 @@ uuid: 1db4d149-cd50-4b41-a850-988901f25051
 
 # Data impact of cross-device visitor identification
 
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+
 Overview of how enabling cross-device visitor identification affects the data that you see in reports.
 
  To understand how this feature affects data collection, it is useful to understand the visitor data fields in a visitor profile: 

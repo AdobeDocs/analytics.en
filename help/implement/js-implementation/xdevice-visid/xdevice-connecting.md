@@ -12,9 +12,11 @@ uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 
 # Connect users across devices
 
-Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the visitor ID variable, s.visitorID, to associate a user across devices.
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
-For information about identifying visitors across devices, refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the visitor ID variable, s.visitorID, to associate a user across devices.
 
 When you provide a [!UICONTROL visitor ID] variable with a hit, the system checks for any other visitor profiles that have a matching [!UICONTROL visitor ID]. If one exists, the visitor profile that is already in the system is used from that point forward and the previous visitor profile is no longer used.
 

@@ -24,26 +24,22 @@ In Analysis Workspace, this data can be viewed using the Fallout visualization.
 1. Click the visualizations icon on the left, and drag a Fallout visualization onto the workspace above the freeform table
 2. Click the components icon on the left, then locate the **Pages** dimension.
 3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension values are colored yellow.
-4. Locate the desired page to act as the first touchpoint, and drag it into the space labeled 'Add Touchpoint' in the visualization
+4. Locate the desired page to act as the first touchpoint, and drag it into the space labeled 'Add Touchpoint' in the visualization.
 5. Continue adding desired touchpoints by dragging page values onto the visualization.
 
 The Fallout visualization is not limited to just the Pages dimension. Any dimension, metric, or segment can be used to tailor your fallout report to meet your organization's needs.
 
-<!-- Consider a screenshot of a basic Fallout -->
+![Fallout visualization](../assets/fallout.png)
 
 ## Ecommerce reports
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
 
-<!-- Consider directing users to the Products (Retail) template -->
-
-Both Ecommerce reports in Google Analytics and Product reports in Adobe Analytics require customized implementation changes to use. See the [Products](../../../components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
+Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](../../../components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 
 Multi-channel funnel reports provide additional marketing channel data beyond what acquisition reports provide. These reports focus on how visitors convert, instead of how visitors arrive to your site.
-
-<!-- Consider mentioning the Campaign Performance (Retail) and Acquisition (Web) templates-->
 
 > [!NOTE]
 >
@@ -68,7 +64,7 @@ The top conversion paths report shows the top channel paths a user takes before 
 
 This flow visualization is interactive. Click each channel to expand the flow in either direction.
 
-<!-- Consider a screenshot of this flow viz-->
+![Flow visualization](../assets/flow.png)
 
 ### Multi-Channel - Time Lag
 

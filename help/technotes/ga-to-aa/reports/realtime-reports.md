@@ -7,7 +7,7 @@ description: Learn how to pull real-time reports in Adobe Analytics, geared towa
 
 Real-time reports show what's happening on your site right now. These types of reports are especially valuable to see immediate results of updates you make to your site. For example, a company running a sale on Black Friday can gauge traffic to specific pages and determine which sales to prioritize based on performance in that moment.
 
-<!-- insert screenshot of real time report here -->
+![Real-time report](../assets/realtime.png)
 
 Real-time reports are one of the few features that have not yet been introduced to Analysis Workspace. Use Reports & Analytics to obtain this data. They require some simple configuration to begin collecting data.
 
@@ -19,7 +19,7 @@ To reach the real-time report configuration page (Admin permissions required):
 
 Adobe allows up to three real-time reports to collect data simultaneously. Each must be configured before they begin collecting data in real-time.
 
-<!-- insert screenshot of completed real time report configuration here -->
+![Real-time report configuration](../assets/realtime_config.png)
 
 ## Real-time Locations
 

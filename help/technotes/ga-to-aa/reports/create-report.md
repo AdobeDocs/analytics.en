@@ -41,11 +41,12 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 ## Start with a pre-built report template in Workspace
 
 Create the Content Consumption template (similar to the All Pages report in Google Analytics) by accessing a project template.
+
 1. Click the 'Create New Project' button.
-2. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates. 
+2. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates.
 3. Browse each of the visualizations that have been pre-built: Entry Page Flow, Top Pages Table, Exit Page Flow, Entry Site Section Flow, and Top Site Sections Table.
 
-<!-- Consider a screenshot of either selecting the template, or the above-the-fold content in the resulting template-->
+    ![Template selection](../assets/content_consumption_template.png)
 
 ## Experiment with the tool
 

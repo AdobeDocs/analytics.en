@@ -46,7 +46,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I restrict access to Contribution Analysis?</b> </p> </td> 
-   <td colname="col2"> <p>You should give permission to use Contribution Analysis only to users that have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I know how many tokens my company is entitled to per month, and how many we have used in the current month?</b> </p> </td> 
@@ -54,6 +54,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
  </tbody> 
 </table>
+
 
 ## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 

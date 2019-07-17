@@ -65,4 +65,4 @@ To launch and evaluate a prototype:
 
 * Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
 
-* Technology Previews is available to all SKU entitlements.
+* Labs is available to all SKU entitlements.

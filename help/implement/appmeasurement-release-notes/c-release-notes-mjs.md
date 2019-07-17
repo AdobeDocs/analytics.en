@@ -21,6 +21,13 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
+## Version 2.15.0
+
+Release Date: **July 15, 2019**
+
+* Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
+* Added DIL 9.2 to AppMeasurement (AN-182472)
+
 ## Version 2.14.0
 
 Release Date: **May 21, 2019**

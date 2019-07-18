@@ -320,8 +320,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Scheduling Manager](ad-hoc-analysis/c-schedule.md)
   + [Table Builder](ad-hoc-analysis/c-tablebuilder.md)
   + [Time](ad-hoc-analysis/c-time.md)
-+ Analytics Labs {#tech-previews}
-  + [Labs](tech-previews/overview.md)
++ Technology Previews {#tech-previews}
+  + [Technology Preview overview](tech-previews/overview.md)
 + Analytics Reporting API {#analytics-reporting-api}
   + [Analytics Reporting API Overview](c-reporting-api/c-reporting-api.md)
   + [Analytics Reporting API Comparison](c-reporting-api/api-comparison.md)

@@ -63,7 +63,7 @@ To launch and evaluate a prototype:
 
 ## Additional information
 
-* Labs is currently released to a few beta customers only but will be widely-released later.
+* Labs is currently released to as early access to a limited number of customers, but will be widely-released later.
 
 * Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
 

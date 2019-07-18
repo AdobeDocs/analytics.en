@@ -51,14 +51,13 @@ To launch and evaluate a prototype:
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
    
-   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
-
+   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. Click **Submit** to send your feedback.
 
 1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. Any changes made to a prototype project are lost upon exiting the prototype environment.
 
-   ![feedback_survey](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
+   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
 1. Click **Submit** to return to the main Previews portal.
 

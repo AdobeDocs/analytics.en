@@ -12,6 +12,10 @@ uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 
 # Visitors
 
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+
 Analytics counts each unique effective visitor ID as a unique visitor.
 
  If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 3 times: at hits 1, 9, and 10. This occurs because the effective [!UICONTROL visitor ID] is the same for both server calls, and occurs even though the visits might be several hours apart and on different devices.

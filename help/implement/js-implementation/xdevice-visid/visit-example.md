@@ -12,6 +12,10 @@ uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 
 # Example visit
 
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+
 Example containing a sample of server calls sent in a common customer interaction.
 
 | Server Call | Action | Visitor ID Cookie | Visitor ID Variable | Effective Visitor ID | Visit Page Number | Visit Number |

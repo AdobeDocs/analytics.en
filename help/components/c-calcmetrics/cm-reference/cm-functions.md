@@ -102,9 +102,9 @@ EXP(metric)
 
 Power Operator
 
-```
-pow(x,y) = x^y = x*x*x*… (y times)
-```
+<pre>
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+</pre>
 
 ## Mean (Table) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -322,10 +322,10 @@ As an example, let's say you have a three-item column:
 
 3
 
-The average of this column is 2. The variance for the column will be ((1 - 2)&Hat;2 + (2 - 2)&Hat;2 + (3 - 2)&Hat;2)/3 = 2/3. In Ad Hoc Analysis this will look like this:
+The average of this column is 2. The variance for the column will be ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis this will look like this:
 
 1 2/3
 
 2 2/3
 
-3 2/3 
+3 2/3

@@ -95,10 +95,6 @@ The friendly name associated with each report suite ID can be changed by Adobe [
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
 
-<!-- 
-dynamicAccountSelection.xml
--->
-
 The  variable lets you dynamically select the report suite based on the URL of each page.
 
 >[!NOTE]
@@ -627,6 +623,22 @@ None
 * The only reason to change the object name (such as from s to s_mc) is if you share content with or pull content from other customers. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function. 
 
 * If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. While the best solution is to use a different object name than other JavaScript files on the same page, doing so is not required.
+
+## s.registerPreTrackCallback and s.registerPostTrackCallback
+
+These functions take as parameters: the callback (a function), and the parameters to that function. For example:
+
+```s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
+    console.log("pre track callback"); 
+    console.dir(requestUrl); // Request URL 
+    console.dir(a); // param1 
+    console.dir(b); // param2 
+    console.dir(c); // param3 
+}, "param1", "param2", "param3");```
+
+The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback. 
+
+The order in which these callbacks are called is not guaranteed. Callbacks registered in the pre function are invoked after the final tracking URL is created. The post callbacks are called upon a successful tracking call (if the tracking call fails, these functions are not called). Any callback registered with `registerPreTrackCallback` do not affect the tracking call. Also, calling any of the tracking methods in any registered callback is not recommended and could cause an infinite loop.
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 

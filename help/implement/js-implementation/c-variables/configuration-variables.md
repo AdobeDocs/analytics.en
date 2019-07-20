@@ -628,13 +628,16 @@ None
 
 These functions take as parameters: the callback (a function), and the parameters to that function. For example:
 
-```s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
+```
+s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
     console.log("pre track callback"); 
     console.dir(requestUrl); // Request URL 
     console.dir(a); // param1 
     console.dir(b); // param2 
     console.dir(c); // param3 
-}, "param1", "param2", "param3");```
+}, "param1", "param2", "param3");
+
+```
 
 The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback. 
 

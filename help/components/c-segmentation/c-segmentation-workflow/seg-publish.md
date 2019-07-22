@@ -32,22 +32,44 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 |  What's available  | When it's available | Where it's available |
 |---|---|---|
-| Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL Audience Library], [!DNL Target] |
+| Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
 | Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
 | Trait and membership population | within 24 hours | [!DNL Audience Manager] |
 
-## Publish segments created in Analytics
+## Publish segments in [!UICONTROL Segment Builder]
 
 1. Navigate to [!UICONTROL Analytics > Workspace > Components > Segments] > +
 1. Create a segment in the [!UICONTROL Segment Builder]. 
 1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
 1. Check [!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)].
 
+![](assets/publish-ec.png)
 
-
-
+|  Element | Description |
+|---|---|
+| Publish this segment to the Experience Cloud (for *report suite*) | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in Target, for example, Analytics begins sending IDs for visitors that qualify for that Experience Cloud and Target audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| Audience Creation Window | The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
+| Create in Audience Library | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
+| x of 75 Published | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
+| Save | Saves this segment. |
 
 ## Unpublish segments
 
-## View and manage segments in Analytics
+To unpublish a segment, just **unclick** the checkbox that you used to publish it.
 
+## View segment publishing status in the [!UICONTROL Segment Manager]
+
+1. Navigate to [!UICONTROL Analytics > Components > Segments].
+1. Notice the new [!UICONTROL Published] column. Yes/No refers to whether the segment has been published to the Experience Cloud or not.
+
+![](assets/publish-status.png)
+
+## View the segment in the Audience Manager Visitor Profile Viewer
+
+TBD
+
+## View the segment traits in Audience Manager
+
+In AAM, the list of visitors with ECIDs for a given segment are evaluated in a streaming fashion as Analytics shares segments with Experience Cloud.
+
+1. 

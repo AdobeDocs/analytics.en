@@ -19,7 +19,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Media Optimizer (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
    <td colname="col2"> <p>A: No, this functionality is available for non-Advertising Cloud and non-AMO customers. </p> <p>AMO customers can leverage the existing Analytics-AMO integration; they will not be able to use Ad Analytics. </p> </td> 
   </tr> 
   <tr> 

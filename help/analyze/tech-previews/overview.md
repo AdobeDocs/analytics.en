@@ -8,6 +8,8 @@ seo-description: Preview prototypes for Adobe Analytics
 
 # Labs User Guide
 
+Note: Labs is currently released as early access to a limited number of customers, but will be widely-released later.
+
 Labs allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Labs to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
 
 ## Requirements
@@ -57,12 +59,12 @@ To launch and evaluate a prototype:
 
 1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. Any changes made to a prototype project are lost upon exiting the prototype environment.
 
-   ![feedback_survey](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
+   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
 1. Click **Submit** to return to the main Previews portal.
 
 ## Additional information
 
 * Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
+* Labs is available to all SKU entitlements.
 
-* Technology Previews is available to all SKU entitlements.

@@ -10,7 +10,7 @@ uuid: 370258c5-8614-4434-871c-41753ed77f5c
 
 # Data Warehouse Segment Compatibility
 
-Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
+Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 

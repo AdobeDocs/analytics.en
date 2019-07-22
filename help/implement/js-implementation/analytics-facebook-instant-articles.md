@@ -106,7 +106,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## Visitor Tracking {#section_60F0C77659534949831E85B5FD9AE81E}
 
-As long as the Analytics HTML page is hosted on your web server, Adobe can support your existing privacy policy across all Facebook Instant Articles. This means that if an end user has opted out of tracking on your primary site, they will also be opted out of tracking on all your Facebook Instant Articles, with no additional steps required. Using this utility page also means that the Experience Cloud ID service (visitor ID) is supported so that you can integrate the metrics and variables captured on your Facebook Instant Articles with the rest of the Experience Cloud. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+As long as the Analytics HTML page is hosted on your web server, Adobe can support your existing privacy policy across all Facebook Instant Articles. This means that if an end user has opted out of tracking on your primary site, they will also be opted out of tracking on all your Facebook Instant Articles, with no additional steps required. Using this utility page also means that the Identity Service (visitor ID) is supported so that you can integrate the metrics and variables captured on your Facebook Instant Articles with the rest of the Experience Cloud. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
 
 ## Tracking Limitations {#section_1EE1BB069A3148DB9446371AFE196567}
 

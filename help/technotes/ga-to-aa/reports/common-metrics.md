@@ -24,6 +24,8 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
 **Sessions** is approximately equal to **Visits** in Analysis Workspace. See the [Visits](../../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
 
+![Acquisition metrics](../assets/acquisition_metrics.png)
+
 ## Behavior metrics
 
 **Bounce Rate** is readily available in Analysis Workspace as a metric. See the [Bounce Rate](../../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for additional information.
@@ -36,6 +38,9 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 4. Set the format to Decimal, and set the number of decimal places to 2.
 5. Drag the **Page views** metric and **Visits** metric into the definition area.
 6. Arrange the definition so the formula is **Page Views divided by Visits**.
+
+    ![Page views per visit](../assets/page_views_per_visit.png)
+
 7. Click Save to go back to your workspace.
 8. Drag the newly defined calculated metric onto the workspace.
 
@@ -45,4 +50,12 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
 ## Conversions metrics
 
-**Goal Conversion Rate**, **Goal Completions**, and **Goal Value** require additional implementation on both platforms. Adobe recommends working with an implementation consultant to obtain this data in reporting.
+**Goal Conversion Rate**, **Goal Completions**, and **Goal Value** require additional implementation on both platforms. If your implementation already accommodates the products dimension and purchase event, consider the following steps:
+
+1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
+1. Create a calculated metric of **Orders per Visit**. Use ctrl+click (Windows) or cmd+click (Mac) on both metric headers to highlight them. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. This new metric is similar to a Goal Conversion Rate.
+1. If decimal places are necessary, edit the Calculated Metric. Click the Info button in the metric header, then the pencil icon. Add 1 or 2 Decimal Places in the Calculated Metric Builder window, then click Save.
+
+    ![Orders per visit](../assets/orders_per_visit.png)
+
+If your implementation does not yet accommodate product or conversion data, Adobe recommends working with an implementation consultant to ensure data quality and integrity.

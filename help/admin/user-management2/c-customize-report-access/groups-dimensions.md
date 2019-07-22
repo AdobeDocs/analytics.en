@@ -34,7 +34,7 @@ Understand the following information about the Dimension category for permission
 
 * eVars 1-250 are individually permissioned. 
 * All traffic reports are dimensions. 
-* Video & Mobile reports are dimensions, as well as other Analytics solutions reports (Experience Manager, Media Optimizer, Social, and do on.) 
+* Video & Mobile reports are dimensions, as well as other Analytics solutions reports (Experience Manager, Advertising Cloud, Social, and do on.) 
 * Pathing reports are available if a user has access to the parent dimension. 
 * All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default. 
 * Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the [variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) on which the classification is based.
@@ -79,7 +79,7 @@ The following items are dimensions that you can permission.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/" format="https" scope="external"> AMO </a> </p> </td> 
-   <td colname="col2"> <p>Adobe Media Optimizer </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Activity Map </a> </p> </td> 

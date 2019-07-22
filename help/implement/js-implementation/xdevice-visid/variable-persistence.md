@@ -11,6 +11,10 @@ uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 
 # Attribution and persistence
 
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+
 When visitor profiles are merged after being associated with the same visitor ID variable, attribution is not changed in the historical data set.
 
 * When the variable `s.visitorID` is set and sent on a hit, the system checks for any other visitor profiles that have a matching visitor ID. 

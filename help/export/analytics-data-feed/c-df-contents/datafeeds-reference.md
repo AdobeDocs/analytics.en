@@ -259,7 +259,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | visid_low | Used in combination with visid_high to uniquely identify a visit.| bigint unsigned|
 | visid_new | Flag to identify if the hit contains a newly generated visitor ID. | char(1)|
 | visid_timestamp | If visitor ID was newly generated, provides the timestamp (in Unix time) of when the visitor ID was generated. | int|
-| visid_type| Numeric ID representing what method was used to identify the visitor. <br>0: Custom visitorID <br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (s_vi) <br>4: Fallback cookie value (s_fid) <br>5: Experience Cloud ID Service | tinyint unsigned |
+| visid_type| Numeric ID representing what method was used to identify the visitor. <br>0: Custom visitorID <br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (s_vi) <br>4: Fallback cookie value (s_fid) <br>5: Identity Service | tinyint unsigned |
 | visit_keywords| Variable used in the Search Keyword dimension. This column uses a non-standard character limit to accommodate back-end logic used by Adobe.| varchar(244) |
 | visit_num | Variable used in the Visit Number dimension. Starts at 1, and increments each time a new visit starts per visitor. | int unsigned |
 | visit_page_num| Variable used in the Hit Depth dimension. Increases by 1 for each hit the user generates. Resets each visit. | int unsigned |

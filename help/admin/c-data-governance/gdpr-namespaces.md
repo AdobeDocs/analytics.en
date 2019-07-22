@@ -50,7 +50,7 @@ Deprecated form:
 
 The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn’t have enough digits.
 
-## Experience Cloud ID Service Cookie
+## Identity Service Cookie
 
 ```
 {

@@ -95,10 +95,6 @@ The friendly name associated with each report suite ID can be changed by Adobe [
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
 
-<!-- 
-dynamicAccountSelection.xml
--->
-
 The  variable lets you dynamically select the report suite based on the URL of each page.
 
 >[!NOTE]
@@ -628,6 +624,25 @@ None
 
 * If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. While the best solution is to use a different object name than other JavaScript files on the same page, doing so is not required.
 
+## s.registerPreTrackCallback and s.registerPostTrackCallback
+
+These functions take as parameters: the callback (a function), and the parameters to that function. For example:
+
+```
+s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
+    console.log("pre track callback"); 
+    console.dir(requestUrl); // Request URL 
+    console.dir(a); // param1 
+    console.dir(b); // param2 
+    console.dir(c); // param3 
+}, "param1", "param2", "param3");
+
+```
+
+The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback. 
+
+The order in which these callbacks are called is not guaranteed. Callbacks registered in the pre function are invoked after the final tracking URL is created. The post callbacks are called upon a successful tracking call (if the tracking call fails, these functions are not called). Any callback registered with `registerPreTrackCallback` do not affect the tracking call. Also, calling any of the tracking methods in any registered callback is not recommended and could cause an infinite loop.
+
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
 <!-- 
@@ -650,12 +665,14 @@ The *`trackDownloadLinks`* variable is expected to be either 'true' or 'false.'
 
 **Examples** {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
-```js
+```
+js
 s.trackDownloadLinks=true 
 
 ```
 
-```js
+```
+js
 s.trackDownloadLinks=false
 ```
 
@@ -686,19 +703,24 @@ The *`trackExternalLinks`* variable should only be set to 'false' if there are n
 
 The *`trackExternalLinks`* variable is expected to be either 'true' or 'false.'
 
-```js
+```
+js
 s.trackExternalLinks=true|false
+
 ```
 
 **Examples** {#section_EF18DB05884240F5B5062631E68E10A7}
 
-```js
+```
+js
 s.trackExternalLinks=true 
 
 ```
 
-```js
+```
+js
 s.trackExternalLinks=false
+
 ```
 
 **Configuration Settings** {#section_C8748CFE36324FAFB14C23E3E1FB5082}
@@ -726,8 +748,10 @@ If *`trackInlineStats`* is 'true,' data about the page and link clicked are stor
 
 **Syntax and Possible Values** {#section_46B2C1DD0D104A01A9C239929420CD90}
 
-```js
+```
+js
 s.trackInlineStats=true|false
+
 ```
 
 The *`trackInlineStats`* variable is expected to be either 'true' or 'false.'

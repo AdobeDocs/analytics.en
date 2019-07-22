@@ -433,7 +433,7 @@ This section intends to clarify information about Analytics variables that donâ€
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> The Adobe Media Optimizer ID is a solution variable that has an unmodifiable DEL-DEVICE label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details. </p> </td> 
+   <td colname="col2"> <p> The Adobe Advertising Cloud ID is a solution variable that has an unmodifiable DEL-DEVICE label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details. </p> </td> 
   </tr> 
  </tbody> 
 </table>

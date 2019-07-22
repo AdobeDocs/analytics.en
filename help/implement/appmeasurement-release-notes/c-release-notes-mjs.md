@@ -21,6 +21,13 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
+## Version 2.15.0
+
+Release Date: **July 15, 2019**
+
+* Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
+* Added DIL 9.2 to AppMeasurement (AN-182472)
+
 ## Version 2.14.0
 
 Release Date: **May 21, 2019**
@@ -40,7 +47,7 @@ Release Date: **02/22/2019**
 
 * Updated Audience Management module to DIL 9.1. (AN-175255)
 * GTM Security Policy not allowing Activity Map Module. (AN-174679)
-* Improved AppMeasurement to honor opt-out when the Experience Cloud ID Service is not approved in opt-in. (AN-175259)
+* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
 
 ## Version 2.11.0
 

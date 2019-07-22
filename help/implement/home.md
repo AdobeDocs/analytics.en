@@ -9,14 +9,14 @@ seo-description: null
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Launch].
+This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Adobe Experience Platform Launch].
 
 ## Key Analytics Import articles
 
-* [Create a property in Launch](implement-with-launch/create-analytics-property.md)
+* [Create a property in Experience Platform Launch](implement-with-launch/create-analytics-property.md)
 * [Choose an implementation method](c-implementation-methods/choose-implementation-method.md)
 * [AppMeasurement library release notes](appmeasurement-release-notes/appmeasurement-release-notes.md)
-* [Adobe Debugger](impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2) 
+* [Adobe Debugger](impl-testing/debugger.md)
 
 ## More Analytics user guides
 

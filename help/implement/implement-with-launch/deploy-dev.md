@@ -34,7 +34,7 @@ Despite all the changes and configurations made so far, no code has actually bee
 2. Click the Launch property that you intend to implement on your site.
 3. Click the Publishing tab, then click Add New Library.
 4. Name the library 'Initial changes', and select your development environment.
-5. Click Add All Changed Resources, which automatically lists Adobe Analytics, Experience Cloud ID service, and Core.
+5. Click Add All Changed Resources, which automatically lists Adobe Analytics, Identity Service, and Core.
 6. Click Save.
 7. Back on the publishing workflow screen, click the dropdown next to your new library, and click Build for Development. After a few seconds, the yellow dot on the library turns green, indicating the build was successful.
 8. Go to the Environments tab, then click on your development environment.

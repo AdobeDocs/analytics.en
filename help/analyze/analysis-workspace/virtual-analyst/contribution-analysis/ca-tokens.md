@@ -8,6 +8,26 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 
 # Contribution Analysis overview
 
+Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments.
+
+Something happened. Why? Your Anomaly Detection report shows an unusual spike in orders and you want to know why. What happened out of the ordinary? Who is responding to what campaign or referral? Did something go viral? What are the specific factors that contributed to this anomaly? And perhaps most importantly: How can I capture important information about my customer and repeat this performance? (Or, if a dip in a metric or rise in a negative metric occurred, how can I avoid it in the future?)
+
+Contribution Analysis helps you evaluate your data immediately to answer why an anomaly happened. It breaks down the contributions to an anomaly in seconds in what used to take weeks, providing patterns for audience segments and helping you develop a narrative for customer interactions. You can employ Contribution Analysis strategically to identify and capture meaningful associations to develop new audience segments, or use it tactically to identify out-of-bound or fraudulent activity that triggers an alert.
+
+[Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifies data spikes and extreme statistical dips based on selected metrics and selected audience segments. It sets an historical norm based on a training period and then plots extreme offsets that correlate to specific events. It can report a precipitous rise in a positive Orders metric or a rise in a negative Bounces metric, or dips in both, capturing statistically relevant data points to be evaluated by Contribution Analysis. Once a statistical anomaly is identified, Contribution Analysis lets you drill down and evaluate relevant marketing and campaign variables across all anomalous data points. It runs advanced algorithms and machine-learning processes to evaluate associations that contributed to a significant spike or dip. These calculations are then displayed in interactive visualizations designed to give you varying perspectives to help answer why something happened, and what to do about it.
+
+Contribution Analysis helps you develop a narrative to describe why an anomaly occurred and how to respond to it, capturing relevant metrics and identifying hidden points that give you an overall reason for audience interactions and trending customer interests. Sometimes an anomaly is easy to see and correct, such as an errant order for 2,000 kayaks. Sometimes it's complex, like identifying an emerging trend across a time period in a region reacting only to a specific targeted campaign. Piecing together contributing items across metrics for various dimensions and their associations gives you an overall idea of your audience interactions and helps provide context for anomalous data points.
+
+Here's a few ideas:
+
+* Identity re-marketing potential by monitoring changes in product demand.
+* Enhance customer experience by reacting to specific audience interests.
+* Identify fraudulent orders early as an out-of-bounds report.
+* Protect yourself from corporate espionage by identifying high usage and downloads.
+* Monitor operations such as reporting missing javascript tags.
+
+After a comprehensive analysis of an anomaly, a Contribution Summary is generated for Top Items ordered by total occurrences and the item's percentage of the contributing values. A normalized Contribution Score lets you easily compare, contrast, and associate with other significant dimension items.
+
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
 >[!IMPORTANT]
@@ -46,7 +66,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I restrict access to Contribution Analysis?</b> </p> </td> 
-   <td colname="col2"> <p>You should give permission to use Contribution Analysis only to users that have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I know how many tokens my company is entitled to per month, and how many we have used in the current month?</b> </p> </td> 
@@ -54,6 +74,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
  </tbody> 
 </table>
+
 
 ## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 

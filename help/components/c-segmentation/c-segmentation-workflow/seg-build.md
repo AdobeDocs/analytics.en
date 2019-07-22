@@ -16,7 +16,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimen
 
 >[!IMPORTANT]
 >
->We introduced dimension attribution models in the June 2019 release. See #6 under Web UI Fetaures below.
+>We introduced dimension attribution models in the June 2019 release. See #6 under Web UI Features below.
 
 There are several ways to access the Segment Builder:
 
@@ -94,7 +94,7 @@ Access the Segment Builder by
 
 >[!IMPORTANT]
 >
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Media Optimizer], and [!DNL Campaign].
+>Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
 
 ## Build segments {#section_050E3343533E45C3923242398E0E0213}
 

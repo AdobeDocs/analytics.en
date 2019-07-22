@@ -22,7 +22,7 @@ Properties are overarching containers you use to manage tags. Extensions let you
 1. Give your Property a name, such as the title of your website, and enter the domain you intend to implement Analytics on. Click Save.
 1. Click your newly created property to enter its settings.
 1. Click the Extensions tab, then click Catalog.
-1. Locate Experience Cloud ID Service, then click Install.
+1. Locate Identity Service, then click Install.
 1. All settings, including Experience Cloud Organization ID, should be already filled out. Click Save.
 1. Back in the extensions catalog, locate Adobe Analytics and click Install.
 

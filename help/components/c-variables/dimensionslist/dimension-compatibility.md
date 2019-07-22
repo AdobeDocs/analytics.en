@@ -349,7 +349,7 @@ Reports & Analytics contains multiple pre-configured reports that either do not 
 |Entry Beacon Proximity|entrymobilebeaconproximity|
 |Exit Beacon Proximity|exitmobilebeaconproximity|
 
-### Adobe Media Optimizer (AMO)
+### Adobe Advertising Cloud (AMO)
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |

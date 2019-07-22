@@ -48,7 +48,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Video Settings](../../../admin/admin/video-management.md)|Permissions to designate a set of Custom Conversion Variables (eVars) and Custom Events for use in tracking and reporting on video.|
 |[Video Classifications](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_config.html)|Permission to designate a set of Custom Conversion Variables (eVars) and Custom Events for use in tracking and reporting on video.|
 |[Traffic Variables](../../../admin/admin/c-traffic-variables/traffic-var.md)|Permission to correlate custom data with specific traffic-related events.|
-|[Traffic Classifications](../../../admin/c-traffic-management/traffic-classifications.md)|Consolidated into Classifications (under Tools and Reports).|
+|[Traffic Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md)|Consolidated into Classifications (under Tools and Reports).|
 |[Channels](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)|Grants permission to  Marketing Channel settings in  Report Suite Manager >  Edit Settings >  Marketing Channels.|
 |[Costs](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html)|Enables permission to  Marketing Channels >  Marketing Channel Costs in the  Report Suite Manager.|
 |[Conversion Variables](../../../admin/admin/conversion-var-admin/conversion-var-admin.md)|The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on selected web pages of your site. Its primary purpose is to segment conversion success metrics in custom marketing reports.|

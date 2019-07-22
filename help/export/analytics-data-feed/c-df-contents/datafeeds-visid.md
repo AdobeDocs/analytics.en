@@ -11,7 +11,7 @@ uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 
 # Identify visitors
 
-Analytics provides several mechanisms by which visitors can be identified (listed in [Identifying Visitors](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Experience Cloud ID service.
+Analytics provides several mechanisms by which visitors can be identified (listed in [Identifying Visitors](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **To identify unique visitors:**
 
@@ -39,7 +39,7 @@ There are several ways a visitor can be identified in Analytics (listed in the f
 |---|---|---|---|
 |   ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom)  | 0  | s.visitorID is set.| 
 |   ![](assets/step2_icon.png) | [aid (s_vi cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics)  | 3  |Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a Visitor ID [grace period](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_grace_period) configured. |
-|   ![](assets/step3_icon.png) | [mid (AMCV_ cookie set by Experience Cloud ID service)](https://marketing.adobe.com/resources/help/en_US/mcvid/)  | 5  | Visitor's browser accepts cookies (first-party), and the Experience Cloud ID service is deployed.  |
+|   ![](assets/step3_icon.png) | [mid (AMCV_ cookie set by Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/)  | 5  | Visitor's browser accepts cookies (first-party), and the Identity Service is deployed.  |
 |   ![](assets/step4_icon.png) | [fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 4  | Visitor's browser accepts cookies (first-party).  |
 |   ![](assets/step5_icon.png) | [HTTP Mobile Subscriber header](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_mobile)  | 2  | Device is recognized as a mobile device.  |
 |   ![](assets/step6_icon.png) | [IP Address, User Agent, Gateway IP Address](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback)  | 1  | Visitor's browser does not accept cookies.  |

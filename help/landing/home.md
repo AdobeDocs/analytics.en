@@ -1,8 +1,9 @@
 ---
-title: Analytics User Guides
-seo-title: Analytics user guides
+title: Adobe Analytics technical documentation guides
+seo-title: Full list of Adobe Analytics technical documentation and self-help user guides
 description: Analytics user guides and resources
-seo-description: Analytics user guides and resources
+seo-description: Full list of Adobe Analytics tech docs, release notes and self-help user guides.
+
 ---
 
 # Adobe Analytics Documentation
@@ -29,7 +30,7 @@ seo-description: Analytics user guides and resources
 
 | New and Featured Items | Key Analytics Resources |
 | --- | --- |
-| <ul><li>[Regional Data Collection](/help/admin/data-collection/regional-data-collection/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
+| <ul><li>[Regional Data Collection](../technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
 
 <!-- Keep around for now
 
@@ -49,7 +50,6 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-*   [APIs](/help/admin/data-collection/developer.md)
 *   [Bot filtering](/help/admin/admin/bot-rules/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
 *   [Classifications](/help/components/c-classifications2/c-classifications.md)

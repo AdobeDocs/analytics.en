@@ -665,12 +665,14 @@ The *`trackDownloadLinks`* variable is expected to be either 'true' or 'false.'
 
 **Examples** {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
-```js
+```
+js
 s.trackDownloadLinks=true 
 
 ```
 
-```js
+```
+js
 s.trackDownloadLinks=false
 ```
 
@@ -701,19 +703,24 @@ The *`trackExternalLinks`* variable should only be set to 'false' if there are n
 
 The *`trackExternalLinks`* variable is expected to be either 'true' or 'false.'
 
-```js
+```
+js
 s.trackExternalLinks=true|false
+
 ```
 
 **Examples** {#section_EF18DB05884240F5B5062631E68E10A7}
 
-```js
+```
+js
 s.trackExternalLinks=true 
 
 ```
 
-```js
+```
+js
 s.trackExternalLinks=false
+
 ```
 
 **Configuration Settings** {#section_C8748CFE36324FAFB14C23E3E1FB5082}
@@ -741,8 +748,10 @@ If *`trackInlineStats`* is 'true,' data about the page and link clicked are stor
 
 **Syntax and Possible Values** {#section_46B2C1DD0D104A01A9C239929420CD90}
 
-```js
+```
+js
 s.trackInlineStats=true|false
+
 ```
 
 The *`trackInlineStats`* variable is expected to be either 'true' or 'false.'

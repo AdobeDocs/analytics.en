@@ -52,7 +52,7 @@ To launch and evaluate a prototype:
 ## Leave feedback
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
-   
+
    ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. Click **Submit** to send your feedback.
@@ -66,5 +66,5 @@ To launch and evaluate a prototype:
 ## Additional information
 
 * Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
-
 * Labs is available to all SKU entitlements.
+

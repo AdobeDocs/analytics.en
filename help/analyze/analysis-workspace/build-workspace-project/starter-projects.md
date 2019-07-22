@@ -89,9 +89,21 @@ You can use these pre-populated templates as they are or adapt them to your need
 
 Here are available templates and the questions that each template helps answer:
 
+### Advertising
+
+>[!IMPORTANT]
+>
+>Advertising templates are available only if your report suite is enabled for Advertising Cloud.
+
+* **Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
+
+### Commerce
+
+* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### Media
 
-* **Content Consumption**: Which content is being consumed the most and is engaging users? 
+* **Audio Consumption**: Which content is being consumed the most and is engaging users? 
 * **Recency - Frequency - Loyalty**: Who are my loyal readers?
 
 ### Mobile

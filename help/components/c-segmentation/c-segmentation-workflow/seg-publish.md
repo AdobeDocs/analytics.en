@@ -64,12 +64,46 @@ To unpublish a segment, just **unclick** the checkbox that you used to publish i
 
 ![](assets/publish-status.png)
 
-## View the segment in the Audience Manager Visitor Profile Viewer
+## Retrieve the [!DNL Audience Manager] UUID and use Visitor Profile Viewer
 
-TBD
+There are 2 ways to capture the AAM UUID currently associated with the browser:
 
-## View the segment traits in Audience Manager
+* Adobe Experience Cloud Debugger
+* Native developer tool in browsers (e.g., Chrome Developer Tools)
+
+The following screenshots show you how to retrieve the AAM UUID on your browser and use it in
+Audience Manager Visitor Profile Viewer to validate trait & segment membership.
+
+### Method 1: Use Adobe Experieence CLoud Debugger
+
+1. Download and install [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
+1. Launch the debugger when loading a page.
+1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
+(`50814298273775797762943354787774730612` in the example below)
+
+![](assets/debugger.jpg)
+
+### Method 2: Use Chrome Developer Tools (or other browser developer tools)
+
+1. Launch Chrome Developer Tools before loading a page
+1. Load the page and check Applications > Cookies. The AAM UUID should be set in the 3rd-party
+Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
+on the browser (`50814298273775797762943354787774730612` in the example below)
+
+## View the segment traits in [!DNL Audience Manager]
 
 In AAM, the list of visitors with ECIDs for a given segment are evaluated in a streaming fashion as Analytics shares segments with Experience Cloud.
 
-1. 
+1. In [!DNL Audience Manager], go to [!UICONTROL Audience Data > Traits > Analytics Traits]. You will see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
+1. Select the folder for the report suite in which you previously created the segment you wanted to share with [!DNL Audience Manager]. You will see the segment/audience you created. When you share a segment, 2 things happen in [!DNL Audience Manager]:
+* A trait gets created, first with no data in it. Approx. 8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with [!DNL Audience Manager] and other Experience Cloud solutions.
+
+![](assets/aam-traits.png)
+
+* A one-trait segment gets created. It uses the data source that is associated with the report suite where you published the segment.
+
+## View the segment in [!DNL Adobe Target]
+
+The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
+], click [!UICONTROL Audiences].
+1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.

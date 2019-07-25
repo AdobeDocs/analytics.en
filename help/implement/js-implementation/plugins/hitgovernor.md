@@ -51,9 +51,8 @@ To implement the hitGovernor plugin:
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
    Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.

@@ -99,7 +99,7 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
 on the browser (`50814298273775797762943354787774730612` in the example below).
 
-![](assets/ggogle-uuid.png)
+![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 

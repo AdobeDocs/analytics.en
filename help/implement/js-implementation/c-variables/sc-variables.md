@@ -12,15 +12,10 @@ uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 
 # Overview of variables
 
-Analytics provides a number of variables to collect Analytics data. For example, the value in the pageName variable is the name of the Web page being reported. This section lists the variables that are supported by AppMeasurment.
+Analytics provides a number of variables to collect Analytics data. For example, the value in the pageName variable is the name of the Web page being reported. This section lists the variables that are supported by AppMeasurement.
 
-For a listing of how each variable appears in Analytics reports, see [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## How to Set Variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 

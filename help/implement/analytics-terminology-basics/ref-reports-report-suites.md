@@ -39,8 +39,8 @@ You can use [Analysis Workspace](https://marketing.adobe.com/resources/help/en_U
 
 <p class="head"> <b>See Also</b> </p>
 
-* [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 
-* [Reports and Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) help 
+* [Analysis Workspace Help](/help/analyze/analysis-workspace/analysis-workspace-features.md) 
+* [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md) 
 * [Real-Time Reports](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html) 
 * [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) help 
 * [Data Extracts](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html) 
@@ -49,8 +49,8 @@ You can use [Analysis Workspace](https://marketing.adobe.com/resources/help/en_U
 * [Analytics Product Comparison and Requirements](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html) 
 * [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) 
 * [Dashboards and Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) 
-* [Bookmarks](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html) 
-* [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) 
-* [Anomaly Detection](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html) 
-* [Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [Bookmarks](/help/analyze/reports-analytics/bookmarks.md) 
+* [Virtual Report Suites](/help/components/vrs/vrs-about.md) 
+* [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 
+* [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 

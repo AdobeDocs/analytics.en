@@ -10,7 +10,7 @@ uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 
 Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
 
- For more detailed information on how to upload customer attributes, see the [Experience Cloud help](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+ For more detailed information on how to upload customer attributes, see the [Experience Cloud help](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html).
 
 * If it’s configured as a metric, VisAttr is exposed both as “dimension” and metric.
 

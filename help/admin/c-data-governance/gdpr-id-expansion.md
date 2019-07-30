@@ -6,7 +6,7 @@ title: ID Expansion
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 ---
 
-# ID Expansion #
+# ID Expansion
 
 The IDs you submit do not always cover all of the hit data that Analytics can associate with the data subject. Analytics can create an expanded set of IDs to include this associated data into the GDPR requests. You can request this option with an optional parameter to each GDPR request you submit, added to the JSON request:
 
@@ -41,7 +41,7 @@ For a delete request, where ID expansion is not used, if you use a non-cookie ID
 
 When Adobe performs ID expansion, it can require an additional full data scan, which will increase the time that it takes Adobe to complete the request, often adding a week to the processing time. 
 
-## Other GDPR request flags ##
+## Other GDPR request flags
 
 In addition to the “expandIDs” flag, Analytics supports two other flags that can be passed as part of a GDPR request. These flags with their default values are:
 

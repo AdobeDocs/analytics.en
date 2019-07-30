@@ -8,7 +8,7 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 # Adobe Analytics Documentation
 
-[![Analyze](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
+[![Tools](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Administration tasks for configuring report suites, data governance, server call usage, and more.
 

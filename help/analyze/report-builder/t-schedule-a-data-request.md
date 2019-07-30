@@ -8,13 +8,21 @@ topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 ---
 
-# Schedule a data request
+# Schedule a workbook
 
-You can schedule reports to send according to the time and file format that you define.
+You can schedule workbooks, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure workbooks that you want to send at a specific time or in intervals. You can also specify the file format in which to send the workbook.
 
- **To schedule a data request** 
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a report upload.
 
-1. Generate and save a report.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports & Analytics help.)
+
+>[!NOTE]
+>
+>You must have Excel 2007 or the compatibility pack installed in order to schedule a workbook. You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. A workbook that has been scheduled (or uploaded to the Workbook Library) and has not been touched (updated, replaced) in more than 28 months will be deleted.
+
+ **To schedule a workbook** 
+
+1. Generate and save a workbook.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks. 
@@ -25,7 +33,7 @@ You can schedule reports to send according to the time and file format that you 
 
 1. In the [!UICONTROL Basic Scheduling Wizard], configure the following options:
 
-* **Select Report**: The name of the report. For new scheduled reports, this field is populated with the active workbook name.
+* **Select Report**: The name of the workbook. For new scheduled workbooks, this field is populated with the active workbook name.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -53,7 +61,7 @@ You can schedule reports to send according to the time and file format that you 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Send to: Email </p> </td> 
-   <td colname="col2"> <p>The email recipient of the report. </p> </td> 
+   <td colname="col2"> <p>The email recipient of the workbook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Send to: Publishing List </p> </td> 
@@ -69,7 +77,7 @@ You can schedule reports to send according to the time and file format that you 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scheduling </p> </td> 
-   <td colname="col2"> <p> Lets you specify when to send the report. (Immediately, hourly, daily, weekly, monthly, and yearly.) </p> </td> 
+   <td colname="col2"> <p> Lets you specify when to send the workbook. (Immediately, hourly, daily, weekly, monthly, and yearly.) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,15 +98,15 @@ You can schedule reports to send according to the time and file format that you 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delivery Time </p> </td> 
-   <td colname="col2"> <p>Lets you schedule the report immediately or for a later time. The time of day is relative to the time zone specified on your computer. </p> </td> 
+   <td colname="col2"> <p>Lets you schedule the workbook immediately or for a later time. The time of day is relative to the time zone specified on your computer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Recurrence Pattern </p> </td> 
-   <td colname="col2"> <p>Sends the report based on your selections. </p> </td> 
+   <td colname="col2"> <p>Sends the workbook based on your selections. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Range of Recurrence </p> </td> 
-   <td colname="col2"> <p>Lets you specify when to start and stop receiving the report. </p> <p> <p>Note:  Scheduling a report on the first day of any current period (week, month, quarter, or year) returns data only for the first day. </p> </p> </td> 
+   <td colname="col2"> <p>Lets you specify when to start and stop receiving the workbook. </p> <p> <p>Note:  Scheduling a workbook on the first day of any current period (week, month, quarter, or year) returns data only for the first day. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>File Options</b> tab </p> </td> 
@@ -114,7 +122,7 @@ You can schedule reports to send according to the time and file format that you 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Publishing List </p> </td> 
-   <td colname="col2"> <p> If you send the scheduled report to multiple publishing lists, the report runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list. </p> </td> 
+   <td colname="col2"> <p> If you send the scheduled workbook to multiple publishing lists, the workbook runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File Contents Language </p> </td> 
@@ -142,4 +150,5 @@ You can schedule reports to send according to the time and file format that you 
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Report Builder displays the scheduled report in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31). 
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31). 
+

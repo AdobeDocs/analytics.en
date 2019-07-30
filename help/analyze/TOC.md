@@ -209,7 +209,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Offline mode for creating and editing requests](report-builder/manage-requests/offline-mode.md)
   + [Report Builder options](report-builder/options.md)
   + [Schedule report requests](report-builder/schedule-report-requests.md)
-  + [Schedule a data request](report-builder/t-schedule-a-data-request.md)
+  + [Schedule a workbook](report-builder/t-schedule-a-data-request.md)
   + [Scheduled Task Manager](report-builder/r-arb-scheduled-reports.md)
   + Workbook Library {#workbook-library}
     + [Upload a workbook](report-builder/workbook-library/t-upload-a-workbook.md)

@@ -14,7 +14,7 @@ This section contains the key concepts for Adobe Analytics, a brief description 
 
 | Product | Description | Documentation Link |
 |--- |--- |--- |
-|Analysis Workspace|Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports &amp; Analytics|[adobe.ly/aaworkspacedocs](adobe.ly/aaworkspacedocs)
+|Analysis Workspace|Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports &amp; Analytics|[adobe.ly/aaworkspacedocs](adobe.ly/aaworkspacedocs)|
 |Reports &amp; Analytics (formerly SiteCatalyst)|Browser solution for reporting and analysis. Starter tool in the Analytics package. |[https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)|
 |Report Builder|Excel add-in that lets you build customized requests from Adobe Analytics data, and visualize them using Microsoft Excel.|[https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html)|
 |Ad Hoc Analysis (formerly Discover)|Java-based tool for advanced digital analysis. Slated for end-of-life in Q3 2019.|[https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html)|

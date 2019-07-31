@@ -10,119 +10,35 @@ uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 
 This section contains the key concepts for Adobe Analytics, a brief description of the concept, and a specific documentation link with additional detail on the topic.
 
-## Adobe Analytics - key concepts {#concept_AC30B00A424E4A8492A4CA7B4E7D998C}
+## Analytics tools {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-This section contains the key concepts for Adobe Analytics, a brief description of the concept, and a specific documentation link with additional detail on the topic. 
-
-## Analytics products {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
-
-<!-- 
-
-analytics_products.xml
-
- -->
-
-<table id="table_5F47895B01CE42E98C2C89508377E1E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Product </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col3" class="entry"> Documentation Link </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Reports &amp; Analytics (formerly SiteCatalyst) </td> 
-   <td colname="col2"> <p>A hosted, subscription-based solution for real-time website reporting and analysis. Starter tool in the Analytics package. </p> <p>Accessed at: <a href="https://sc.omniture.com/login/" format="https" scope="external"> https://sc.omniture.com/login/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/sc/user/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Connectors (formerly Genesis) </td> 
-   <td colname="col2"> Lets you import tracking data from third-party applications into Analytics, to give end-to-end visibility into performance in one central location. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works" format="https" scope="external"> https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Warehouse </td> 
-   <td colname="col2"> Raw, unprocessed data for storage and custom reports, which you can run by filtering the data. Not hit level. </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report Builder </td> 
-   <td colname="col2"> Add-in for Microsoft Excel that provides functionality to build customized requests from Reporting and Analytics data within Excel worksheets. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/arb/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad Hoc Analysis (formerly Discover) </td> 
-   <td colname="col2"> Offers more report flexibility than Reports &amp; Analytics. Helps identify high-value customer segments with unlimited real-time visitor information, allowing for drill down into the data to get deep, precise, and comprehensive views of your customers. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/dsc/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dynamic Tag Management (DTM) </td> 
-   <td colname="col2"> Helps you manage your Analytics, Target, and other tags across all of your sites, regardless of your number of domains. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dtm/dtm_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/dtm/dtm_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p>Brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, letting you understand and improve user engagement with your applications. </p> <p>Accessed at: <a href="https://mobilemarketing.adobe.com/" format="https" scope="external"> https://mobilemarketing.adobe.com/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/mobile/</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Workbench (formerly Insight) </td> 
-   <td colname="col2">Designed to collect, process, analyze, and visualize data from both online and offline customer interactions across multiple channels. <p><i>Part of Analytics Premium only.</i> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/insight/client/" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/insight/client/</a> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Product | Description | Documentation Link |
+|--- |--- |--- |
+|Analysis Workspace|Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports &amp; Analytics|[adobe.ly/aaworkspacedocs](adobe.ly/aaworkspacedocs)
+|Reports &amp; Analytics (formerly SiteCatalyst)|Browser solution for reporting and analysis. Starter tool in the Analytics package. |[https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)|
+|Report Builder|Excel add-in that lets you build customized requests from Adobe Analytics data, and visualize them using Microsoft Excel.|[https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html)|
+|Ad Hoc Analysis (formerly Discover)|Java-based tool for advanced digital analysis. Slated for end-of-life in Q3 2019.|[https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html)|
+|Data Workbench (formerly Insight)|Designed to collect, process, analyze, and visualize data from both online and offline customer interactions across multiple channels.|[https://marketing.adobe.com/resources/help/en_US/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/)|
+|Data Warehouse|Raw, unprocessed data for storage and custom reports, which you can run by filtering the data. Not hit level.|[https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)|
+|Adobe Mobile Services|Brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, letting you understand and improve user engagement with your applications.  Accessed at:  https://mobilemarketing.adobe.com/|[https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)|
+|Adobe Exchange Data Connectors (formerly Genesis)|Import tracking data from third-party applications into Analytics, to give end-to-end visibility into performance in one central location.|[https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works)|
+|Dynamic Tag Management (DTM)|Helps you manage your Analytics, Target, and other tags across all of your sites, regardless of your number of domains.|[https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html)|
+|Adobe Launch|The next generation of website tag and mobile SDK management capabilities from Adobe.|[https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html)|
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
-<!-- 
+Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html) for an expanded glossary of Adobe Analytics terms. 
 
-key_terminology.xml
+| Term | Description | Documentation Link |
+|--- |--- |--- |
+|Props (Custom Traffic)|Dimensions used to track page-by-page site traffic activity. Props do not persist between pages. Key applications of traffic variables: <ul><li>Simple counting to find ‘most popular’ of a specific value</li><li>Visibility into how users are pathing through your site </li></ul><br>Examples of traffic variables: Page Name, Site Sections, Browsers</br>|[https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html)|
+|eVar (Custom Conversion)|Dimensions that persist for a period of time that is customized by you. Expiration options include event expiration, visit expiration, or X-day expiration and should be driven by the type of analysis that will be performed on that variable.<br>Key differences between eVars and props:</br><ul><li>Props are often used for pathing analysis because persistence is removed.</li><li>eVars are often used for conversion analysis.</li></ul><br>Examples of conversion variables: Internal Search Terms, Internal Promotions, External Campaigns (s.campaign)</br>|[https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)|
+|Events/Metrics (s.events)|Metrics that measure key actions that we want to our visitors to take on our site. There are 3 types of events: Counter, Numeric, and Currency. Events are most useful when added to conversion variable (eVar) reports. The eVar provides the qualitative information about what happened and the Event gives quantitative information about what happened. <br>Key differences between eVars and events:</br><ul><li>eVars tell us who, what, or which affected conversion</li><li>Events measure how many conversions took place</li></ul><br>Examples of conversion events: Orders, Application Starts, Leads, Revenue.</br>| [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)|
 
- -->
 
-Click [here](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html) for an expanded glossary of Adobe Analytics terms. 
 
-<table id="table_84ACDB415EE74A13B1BAD5D03626C7B1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Term </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-   <th colname="col3" class="entry"> Documentation Link </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Report Suite </td> 
-   <td colname="col2">Most fundamental level of segmentation in Analytics reporting - each report suite refers to a dataset that is considered a single site for reporting needs. Report suites are typically broken down into development/QA (internal testing site) &amp; production (public site). <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external"> Virtual reports suites</a> let you restrict data access for users based on specific segments by applying a segment to a report suite and creating a new view (virtual report suite) based on that combination. Virtual report suites can be accessed just like a base report suite. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suite_gloss.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/report_suite_gloss.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Global Report Suite </td> 
-   <td colname="col2"> A view of all properties in one report suite. To create a global suite, multi-suite tagging is implemented, which sends image requests into a 'global' report suite in addition to individual report suites. </td> 
-   <td colname="col3">Global report suite: <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/rollup_report_suite.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/rollup_report_suite.html</a> </p> <p>Multi-suite tagging: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/multisuite_tagging.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/multisuite_tagging.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Segmentation </td> 
-   <td colname="col2"> Ability to build, manage, share, and apply powerful, focused audience segments to your Analytics reports. Segments are shared across Analytics products and can be shared across the Experience Cloud. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Admin Tools </td> 
-   <td colname="col2"> An area of Analytics where Administrators can manage the settings of the tool &amp; variables, and access advanced tool features. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/admin.html</a> </td> 
-  </tr> 
- </tbody> 
-</table>
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
-
-<!-- 
-
-key_reports.xml
-
- -->
+## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
 <table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
  <thead> 

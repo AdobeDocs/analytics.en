@@ -7,6 +7,7 @@ description: Glossary for Adobe Analytics, defining common terms used.
 
 Use this glossary to understand the context of many terms Adobe Analytics uses.
 
+* **Activity map:** A browser plug-in that shows what areas on your site were clicked on the most. See [Activity Map](../analyze/activity-map/activity-map.md) in the Analyze user guide.
 * **Admin console:** Can refer to:
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](../admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](../admin/admin-console/home.md) in the Admin user guide.
@@ -25,13 +26,17 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
   * The Channel variable, which populates the Site Sections dimension. See [Page variables](../implement/js-implementation/c-variables/page-variables.md) in the Implement user guide.
   * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](../components/c-marketing-channels/c-overview.md) in the Components user guide.
 * **Classification:** A feature in Adobe Analytics that allows the grouping of dimension values. See [Classifications](../components/c-classifications2/c-classifications.md) in the Components user guide.
+* **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity map.
 * **Clickstream data feed:** See Data feed.
+* **Cohort:** A group of people sharing common characteristics over a given period of time. See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analyze user guide.
+* **Collection server:** See Data collection server.
 * **Conversion variable:** Colloquially known as eVars. Stores a custom value, and preserves the variable value until it expires. See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Current data:** An option in some reports that allows the inclusion of recently collected data that hasn't fully processed yet. See [Current data](../analyze/reports-analytics/current-data.md) in the Analyze user guide.
 * **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/js-implementation/function-tl.md) in the Implement user guide. See also Hit.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
+* **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
 * **Data connectors:** A complete development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Most data connectors use a similar workflow used in Data Sources. See Data Connectors in the Import user guide.
 * **Data feed:** A raw data export that lists every hit as a row and variables as separate columns. Most commonly used to export Adobe Analytics data to a third-party database. See [Data feeds](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
 * **Data sources:** Allows a user to upload data from a file into Adobe Analytics. The file is typically pulled from an FTP site. See [Data Sources](../import/c-data-sources/datasrc-home.md) in the Import user guide.
@@ -46,7 +51,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Flow:** A type of visualization in Analysis Workspace that shows what paths users took on your site. See [Flow visualization](../analyze/analysis-workspace/visualizations/c-flow/flow.md) in the Analyze user guide.
 * **Genesis:** No longer used as a term. The former name of Data Connectors.
 * **Global report suite:** An informal term designated to a report suite that collects hits from multiple sites.
-* **H Code:** A predecessor to AppMeasurement. In prior versions of Adobe Analytics, code versions were measured by "H version", such as H24, H23.1, etc.
+* **H Code:** A predecessor to AppMeasurement. In prior versions of Adobe Analytics, code versions were measured by "H version", such as H.27.5, H.26, etc.
 * **Hit:** A single image request sent to Adobe data collection servers. Page views and custom links can both be referred to as hits.
 * **Image request:** A transparent 1x1 pixel image used to communicate with Adobe data collection servers. A website requests this invisible image with a long query string containing data; Adobe returns the invisible image and parses the query string received.
 * **Insight:** Can refer to:
@@ -58,23 +63,30 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **List prop:** A setting that converts a typical traffic variable to support multiple values in the same hit. Any custom traffic variable can become a list prop if the setting is enabled. See [Page variables](../implement/js-implementation/c-variables/page-variables.md) in the Implement user guide.
 * **List var:** A distinct variable separate to conversion variables. List vars support multiple values in the same hit, and variable values are preserved in a visit, similar to conversion variables. Only three list vars are available to an organization. See [Page variables](../implement/js-implementation/c-variables/page-variables.md) in the Implement user guide.
 * **Login company:** A collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of their organization.
+* **Marketing channel:** A feature in Adobe Analytics that categorizes hits by how they arrived to your site. The logic used to categorize hits can be customized using Marketing channel processing rules. See [Getting started with Marketing Channels](../components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Metric:** A component type that contains quantitative data. Metric values typically contain numbers, such as Page Views, Visits, and Revenue. A dimension is typically its counterpart.
 * **Multi-suite tagging:** The practice of sending the same hit to multiple report suites. With the introduction to virtual report suites, this practice is largely no longer necessary. Most multi-suite tagging efforts help accommodate a global report suite.
 * **Normalization:** A way to organize a visualization that takes all metrics and forces them to equal proportions, allowing an easier comparison of trends.
+* **Occurrences:** A type of metric that shows how many hits a dimension value was set or persisted. See [Occurrences](../components/c-variables/c-metrics/metrics-occurrences.md) in the Components user guide.
 * **Omniture:** No longer used as a term. The organization that owned Adobe Analytics prior to being acquired by Adobe in 2009.
 * **Pathing:** See Flow.
-* **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.
-* **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](../admin/admin/realtime/realtime.md) in the Admin user guide.
-* **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
-* **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
 * **Page view:** A type of hit that increments page views. See [Page views](../components/c-variables/c-metrics/metrics-page-view.md) in the Components user guide. See also Hit.
+* **Persistence:** An abstract concept for conversion variables that allows the linking between a variable value and event happening on separate hits. See also Expiration.
+* **Primary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, the first report suite is a primary server call while the rest are secondary server calls. This rule applies to all hit types, including page view and link tracking. See also Secondary server calls.
 * **Processing rules:** Can refer to:
   * Processing rules, a way to alter data collection using certain rules in the Admin Console. See [Processing rules](../admin/admin/c-processing-rules/processing-rules.md) in the Admin user guide.
   * Marketing channel processing rules, a set of rules that determines which marketing channel a hit belongs in. See [Marketing channel processing rules](../admin/admin/marketing-channels-admin.md) in the Admin user guide.
 * **Prop:** See Traffic variable.
+* **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.
+* **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](../admin/admin/realtime/realtime.md) in the Admin user guide.
+* **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
+* **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.
+* **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
 * **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [s.t()](../implement/js-implementation/function-t.md) in the Implement user guide.
 * **s<span>.</span>tl():** The name of the function in an AppMeasurement library that sends a link tracking image request. Some AppMeasurement libraries use `s.trackLink()` instead. See [s.tl()](../implement/js-implementation/function-tl.md) in the Implement user guide.
+* **s_code.js:** The name of the JavaScript file used in historical versions of Adobe Analytics. The current name of the JavaScript file used is AppMeasurement.js.
 * **Satellite:** No longer used as a term. The former product name for Dynamic Tag Management.
+* **Secondary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, all report suites after the first listed are secondary server calls. See also Primary server calls.
 * **Segment:** Allows you to focus on specific subset of your data. See [Segmentation](../components/c-segmentation/seg-overview.md) in the Components user guide.
 * **Segment container:** The part of a segment that determines how much data to bring in. Containers can be based on page view, visit, or visitor. See [Segmentation](../components/c-segmentation/seg-overview.md) in the Components user guide.
 * **Serialization:** See Event serialization.

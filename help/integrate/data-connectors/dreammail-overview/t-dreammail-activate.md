@@ -13,7 +13,7 @@ snippet: y
 
 Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 
-1. Start [Data Connectors]() and click **[!UICONTROL + Add New]** to [add a new integration](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
+1. Start [Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
 1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
 1. Complete the Integration Wizard using the information in the following table:
 
@@ -38,8 +38,7 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 |TotalClicks| The Clicked event lets you see the number of visitors who clicked the email message.|
 |Segments|This integration creates the partner-defined segments displayed in the Partner Segments section. Additionally, you can select existing Report Suite-Level segments to include in the integration.|
 |Access Requests| Enable the recommended access privileges.|
-|Data Collection|Select **JavaScript Plug-in** if you want to use the s_code.js plug-in as the collection model for this integration (see ).
-Select **Automated Solution** if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. If you select this option, specify the unique identifiers used for this integration:
+|Data Collection|Select **JavaScript Plug-in** if you want to use the s_code.js plug-in as the collection model for this integration (see ). Select **Automated Solution** if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. If you select this option, specify the unique identifiers used for this integration:
 <ul><li>Message ID Query String Parameter: This value represents the Message ID appended tothe landing page URL by your email partner.</li>
 <li>Recipient ID Query String Parameter: This value represents the Recipient ID appendedto the landing page URL by your email partner.</li></ul>|
 |Dashboard and Bookmark Generation|Automatically generate a dashboard and bookmarks for the integration.|

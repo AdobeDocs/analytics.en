@@ -107,7 +107,7 @@ To configure the integration:
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Data Collection: JavaScript Plug-in </p> </td> 
-   <td colname="col3"> <p>Select <b>JavaScript Plug-in</b> if you want to use the plug-in as the collection model for this integration, then click <b>Next</b> to proceed to Step 7 of the Wizard. </p> <p> <p>Note:  The Automated Solution is the default selection. </p> </p> <p>Contact your Adobe Consultant to get a copy of the JavaScript Plug-in used for this integration. You can also copy and paste the plug-in contained in <a href="delivra-plug-in-code.md#concept_28E7C834A6804A949AA9306F8896B36E" type="concept" format="dita" scope="local"> Analytics Plug-In Code</a>. </p> </td> 
+   <td colname="col3"> <p>Select <b>JavaScript Plug-in</b> if you want to use the plug-in as the collection model for this integration, then click <b>Next</b> to proceed to Step 7 of the Wizard. </p> <p> <p>Note:  The Automated Solution is the default selection. </p> </p> <p>Contact your Adobe Consultant to get a copy of the JavaScript Plug-in used for this integration. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 

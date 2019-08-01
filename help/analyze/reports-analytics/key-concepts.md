@@ -43,10 +43,6 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Visualizations|Rich visuals that can help bring data to life in your projects.|[Visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)|
 |Curation|Ability to limit the components accessible in a project or Virtual Report Suite.|[VRS curation](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[Project curation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[Comparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)|
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 ## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
 <table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
@@ -146,12 +142,6 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
-<!-- 
-
-key_metrics.xml
-
- -->
-
 |  Metric Name  | Definition  | Documentation Link  |
 |---|---|---|
 |  Full Metric List  | Definition of all metrics in Adobe Analytics.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)  |
@@ -163,12 +153,6 @@ key_metrics.xml
 
 ## Import options {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
-<!-- 
-
-import_options.xml
-
- -->
-
 |  Option  | Description  | Documentation Link  |
 |---|---|---|
 |  Classification Importer  | Import metadata against captured dimensions via browser or FTP upload. Manual method compared to Rule Builder.  | [https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)  |
@@ -178,11 +162,6 @@ import_options.xml
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-<!-- 
-
-export_options.xml
-
- -->
 
 <table id="table_99867D82082D4756872FC3ABD83A33A1"> 
  <thead> 
@@ -227,12 +206,6 @@ export_options.xml
 </table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
-
-<!-- 
-
-data_collection_and_validation.xml
-
- -->
 
 <table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
  <thead> 

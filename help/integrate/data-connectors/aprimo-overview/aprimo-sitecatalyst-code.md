@@ -9,7 +9,7 @@ internal: n
 snippet: y
 ---
 
-# Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
 

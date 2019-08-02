@@ -30,6 +30,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Clickstream data feed:** See Data feed.
 * **Cohort:** A group of people sharing common characteristics over a given period of time. See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analyze user guide.
 * **Collection server:** See Data collection server.
+* **Context data variables:** Temporary variables used solely in processing rules. Context data variable values are permanently lost if a processing rule does not copy them to a conversion or traffic variable. See [Context data variables](../implement/js-implementation/c-variables/context-data-variables.md) in the Implement user guide.
 * **Conversion variable:** Colloquially known as eVars. Stores a custom value, and preserves the variable value until it expires. See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Current data:** An option in some reports that allows the inclusion of recently collected data that hasn't fully processed yet. See [Current data](../analyze/reports-analytics/current-data.md) in the Analyze user guide.
@@ -93,6 +94,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Server call:** Alternate name for an image request or hit, used mostly in context of billing.
 * **Single access:** A visit where a dimension had only a single unique value. The visit can have multiple hits, as long as there are not multiple unique values. See [Single access](../components/c-variables/c-metrics/metrics-single-access.md) in the Components user guide. See also Bounce.
 * **SiteCatalyst:** No longer used as a term. The former product name for Adobe Analytics.
+* **Solution design document:** Also known as a solution design reference, or SDR. An internal document maintained by an organization that outlines how custom variables are used, and the logic used to populate them. See [Create a solution design document](../implement/prepare/solution-design.md) in the Implement user guide.
 * **Subrelation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, subrelations granted the ability to break down conversion variables. See [Break down dimensions](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Success event:** A tracked action a user took. Your organization determines what events to track, and which success event variables you use to track it. See [Custom events](../components/c-variables/c-metrics/metrics-custom.md) in the Components user guide.
 * **Supported user:** See Customer support delegate.

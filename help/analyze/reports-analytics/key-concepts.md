@@ -89,8 +89,8 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 |  Option  | Description  | Documentation Link  |
 |---|---|---|
-|UI downloads and scheduling|Export data from Analysis Workspace as CSV or PDF|[Download PDF or CSV files](/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)|
-|Report Builder|See Analytics tools.| |
+|UI downloads and scheduling|Export data from Analysis Workspace as CSV or PDF|[Download PDF or CSV files](/help/analyze/analysis-workspace/curate-share/download-send.md)|
+|Report Builder|See Analytics tools.|
 |Analytics API|Create your own customized queries of Analytics data.|<ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul>|
 |Data Warehouse|See Analytics tools.| |
 |Analytics Data Feed|Most granular way to get data out of Analytics. Set up a hit-level feed out of Analytics.|[Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)|

@@ -43,7 +43,7 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Visualizations|Rich visuals that can help bring data to life in your projects.|[Visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)|
 |Curation|Ability to limit the components accessible in a project or Virtual Report Suite.|[VRS curation](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[Project curation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[Comparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)|
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Key reports
 
 | Report | Description | Documentation Link |
 |--- |--- |--- |
@@ -64,7 +64,6 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Visitor Profile|Reports that help you see purchasing patterns of customers from various profile categories, including countries, states, ZIP/postal codes and domains.|[Visitor Profile](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html)|
 |Visitor Retention|Displays information about your customer loyalty, such as how many & how often visitors return to your site.|[Visitor Retention](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html)|
 |Project Link, Sharing and Scheduling|Methods to save and/or share your work with other in the Analytics interface.|[Send and schedule files](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html)|
-
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
@@ -90,12 +89,12 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| Options | Description | |
-|--- |--- |--- |
-|UI downloads and scheduling|Export data from Analysis Workspace as CSV or PDF|[Download PDF or CSV files](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)|
-|Report Builder|See  Analytics tools.|-|
+|  Option  | Description  | Documentation Link  |
+|---|---|---|
+|UI downloads and scheduling|Export data from Analysis Workspace as CSV or PDF|[Download PDF or CSV files](/help/analyze/analysis-workspace/curate-share/download-send.md)|
+|Report Builder|See Analytics tools.|
 |Analytics API|Create your own customized queries of Analytics data.|<ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul>|
-|Data Warehouse|See  Analytics tools.|-|
+|Data Warehouse|See Analytics tools.| |
 |Analytics Data Feed|Most granular way to get data out of Analytics. Set up a hit-level feed out of Analytics.|[Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)|
 
 

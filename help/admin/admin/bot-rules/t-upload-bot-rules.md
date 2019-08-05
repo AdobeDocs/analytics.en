@@ -13,7 +13,7 @@ uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 
 To bulk import bot rules, you can upload a CSV file that defines the rules.
 
-Create a CSV file with the following columns in the order presented: 
+Create a CSV file with the following columns, in the order presented: 
 
 | Column 1 | Column 2 |Column 3|Column 4|Column 5|
 |--- |--- |---|---|---|

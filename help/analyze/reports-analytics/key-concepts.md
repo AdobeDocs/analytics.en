@@ -43,7 +43,7 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Visualizations|Rich visuals that can help bring data to life in your projects.|[Visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)|
 |Curation|Ability to limit the components accessible in a project or Virtual Report Suite.|[VRS curation](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[Project curation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[Comparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)|
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Key reports
 
 | Report | Description | Documentation Link |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Cohort Analysis|A cohort is a group of people sharing common characteristics over a specified period. Cohort analysis aides in analyzing retention & churn of your users.|[Cohort Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html)|
 |Customer Journey Reports|Displays information about the path your users take through your site or app. Prop, eVars and events can be used in this analysis in Analysis Workspace.|[Analysis Workspace Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Analysis Workspace Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[Reports &amp; Analytics pathing](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)|
 |Marketing Channels|Reports that help you learn which external channels drive users to your site and which are most effective at driving conversion. First & Last touch attribution views are provided. This is the preferred external traffic source report in Adobe Analytics (rather than Campaigns or Traffic Sources) because it is the most comprehensive look at both paid and organic channels.|[Marketing Channels](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html)|
-|Mobile|Displays information about websites accessed from a mobile device or tablet.|[Mobile report](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html)|
+|Mobile|Displays information about websites accessed from a mobile device or tablet.|[Mobile report|(https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html)|
 |Mobile App|Displays basic usage information related to your mobile apps. These reports are available once our SDK is implemented & reporting is turned on.  Additionally, Adobe Mobile Services has created a separate mobile app interface that provides more comprehensive app data, enabling you to understand and improve user engagement with your apps.  Access the interface [here](https://mobilemarketing.adobe.com).|[Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)|Products|Identifies how individual products and groups of products (categories) contribute to your various conversion metrics, such as Revenue or Checkouts.|[Products report](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html)|
 |Segment Comparison|Discovers the most statistically significant differences among segments through an automated analysis of every single metric and dimension you have access to.|[Segment Comparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)|
 |Site Content report|Displays information about which pages and areas of your site are most active and which servers are getting the most use.|[Site Content report](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html)|
@@ -69,21 +69,23 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 |  Metric Name  | Definition  | Documentation Link  |
 |---|---|---|
-|  Full Metric List  | Definition of all metrics in Adobe Analytics.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)  |
-|  Unique Visitors  | The number of unduplicated visitors to the website over the course of a specified time period.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html)  |
-|  Visits  | A sequence of page views in a sitting. The visit begins when a person first views a page on the site and ends after 30 minutes of inactivity.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)  |
-|  Page Views  | A page view occurs when a visitor views a page on your web site.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html)  |
-|  Instances  | The number of times a variable was defined. Each time Adobe Analytics sees a value within a variable, instances are incremented by one in that respective report.  | [https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html)  |
-|  Calculated Metrics  | Custom metrics that you can create from existing metrics. For example, if you have the revenue and the number of visits, you can create a custom metric for average revenue per visit or revenue divided by visits (revenue/visits).  | [https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)  |
+|  Full Metric List  | Definition of all metrics in Adobe Analytics.  | [Metrics overview](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html)  |
+|  Unique Visitors  | The number of unduplicated visitors to the website over the course of a specified time period.  | [Unique Visitors](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html)  |
+|  Visits  | A sequence of page views in a sitting. The visit begins when a person first views a page on the site and ends after 30 minutes of inactivity.  | [Visits](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html)  |
+|  Page Views  | A page view occurs when a visitor views a page on your web site.  | [Page Views](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html)  |
+|  Instances  | The number of times a variable was defined. Each time Adobe Analytics sees a value within a variable, instances are incremented by one in that respective report.  | [Instances](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html)  |
+|  Occurrences  | The number of times a variable was defined or persisted.  | [Occurrences](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html)  |
 
 ## Import options {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
 |  Option  | Description  | Documentation Link  |
 |---|---|---|
-|  Classification Importer  | Import metadata against captured dimensions via browser or FTP upload. Manual method compared to Rule Builder.  | [https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)  |
-|  Rule Builder  | Automatically create metadata classifications of dimensions based on user-defined rules.  | [https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)  |
-|  Data Sources  | Import offline metrics into Analytics against dimensions or simply by day.  | [https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html](https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html)  |
-|  Data Connectors  |See [Products](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B).  |  |
+|  Classification Importer  | Import metadata against captured dimensions via browser or FTP upload. Manual method compared to Rule Builder.  | [Classification Importer](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)  |
+|  Rule Builder  | Automatically create metadata classifications of dimensions based on user-defined rules.  | [Classification Rule Builder](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)  |
+| Customer Attributes|CRM data uploaded to the Experience Cloud for use in  Adobe Analytics and Adobe Target.|[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)|
+|  Data Sources  | Impor offline metrics into Analytics against dimensions or simply by day.  | [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html)|
+|  Adobe Exchange Data Connectors  |See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B).  |  |
+| Native Integrations | Audience Analytics & Advertising Analytics. |See “Key Reports” section.|
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
@@ -95,16 +97,17 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Data Warehouse|See Analytics tools.| |
 |Analytics Data Feed|Most granular way to get data out of Analytics. Set up a hit-level feed out of Analytics.|[Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)|
 
+
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
-|  Method/Resource  | Description  | Documentation Link  |
-|---|---|---|
-|Developer Resources|Documentation that outlines the libraries available to collect Analytics data across all available platforms (web, mobile app, video, flash, etc)|[Developer documentation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)|
+| Method/Resource | Description | Documentation Link |
+|--- |--- |--- |
+|Developer Resources|Documentation that outlines the libraries available to collect Analytics data across all available platforms (web, mobile app, video, flash, etc)|[Developer docs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)|
 |Implementation Guide|A description of data collection variables and details on implementing data collection code in JavaScript.|[Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)|
-|App Measurement (s_code)|Global variable management|[AppMeasurement for JavaScript documentation](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)|
+|App Measurement (s_code)|Global variable management|[AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)|
 |App SDKs|Customized package that includes a pre-populated version of the configuration file for Apps.|<ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul>|
-|VISTA|Enables you to apply server-side logic to alter or segment data as it is collected.|[VISTA rules documentation](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html)|
-|Processing Rules|Ability to set, modify, and copy variables in the Analytics UI, to alter the data collected.|[Processing Rules documentation](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)|
-|Debugger Options|There are several debuggers & packet sniffers available to help validate your implementation, including the Adobe Experience Cloud debugger.|[Adobe Debugger download](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)|
+|DTM and Adobe Launch|See Analytics Tools.||
+|VISTA|Enables you to apply server-side logic to alter or segment data as it is collected. | [VISTA rules](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html)|
+|Processing Rules|Ability to set, modify, and copy variables in the Analytics UI, to alter the data collected.|[Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)|
+|Debugger Options|There are several debuggers & packet sniffers available to help validate your implementation, including the Adobe Experience Cloud debugger.|[Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)|
 |Data Insertion API|The Data Insertion API provides a mechanism for server-side data collection and submission to Experience Cloud servers. Instead of using JavaScript beacons on each Web page to transmit visitor data to Experience Cloud servers, server-side data collection collects data based solely on Web browser requests and Web server responses.|[Steps to implement Adobe Analytics data insertion API using POST](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)|
- 

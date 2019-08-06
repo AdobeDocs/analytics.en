@@ -17,6 +17,6 @@ Ad Hoc Analysis helps you identify high-value customer segments with unlimited r
 
 ## New and Popular Topics
 
-* You can now seamlessly convert your Ad Hoc Analysis projects to Analysis Workspace projects. Click <a href="https://marketing.adobe.com/resources/help/en_US/analytics/aha2aw/" format="https" scope="external"> here</a> to find out how!
-* Check out the section on <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="https" scope="external"> Ad Hoc Analysis vs. Analysis Workspace</a>: Analysis Workspace brings much of the Ad Hoc Analysis functionality into the browser workflow. While some terminology and features remain the same between the products, there are some new terms and approaches to analysis that are introduced in Analysis Workspace.
-* <a href="../../analyze/ad-hoc-analysis/c-administration.md#concept_C607CDE3472F431F8BFBA894DA6FA1FE" format="dita" scope="local"> Administration</a>: Configure users and learn about data sampling.
+* You can now seamlessly convert your Ad Hoc Analysis projects to Analysis Workspace projects. Go to [Ad Hoc Analysis Project Converter overview](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) to find out how!
+* Check out the section on [Ad Hoc Analysis vs. Analysis Workspace](help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md): Analysis Workspace brings much of the Ad Hoc Analysis functionality into the browser workflow. While some terminology and features remain the same between the products, there are some new terms and approaches to analysis that are introduced in Analysis Workspace.
+* [Administration](/help/analyze/ad-hoc-analysis/c-administration.md): Learn how to configure users and sample data.

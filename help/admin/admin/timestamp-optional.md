@@ -18,7 +18,7 @@ Timestamps Optional lets you:
 * Send timestamped data from a mobile app to a global report suite. 
 * Upgrade apps to use offline tracking without having to create a new report suite.
 
-See [Using Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) for best practices when using timestamps in your report suite.
+See [Using Timestamps Optional](/help/implement/js-implementation/timestamps-overview.md) for best practices when using timestamps in your report suite.
 
 >[!IMPORTANT]
 >

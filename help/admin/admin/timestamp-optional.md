@@ -18,7 +18,7 @@ Timestamps Optional lets you:
 * Send timestamped data from a mobile app to a global report suite. 
 * Upgrade apps to use offline tracking without having to create a new report suite.
 
-See [Using Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) for best practices when using timestamps in your report suite.
+See [Using Timestamps Optional](/help/implement/js-implementation/timestamps-overview.md) for best practices when using timestamps in your report suite.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ See [Using Timestamps Optional](https://marketing.adobe.com/resources/help/en_US
 
 >[!NOTE]
 >
->Timestamp-enabled session data is kept for up to 92 days.
+>Timestamp-enabled session data is kept for up to 92 days. This means that a visit/session will be “held open” for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not. 
 
 ## New Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 

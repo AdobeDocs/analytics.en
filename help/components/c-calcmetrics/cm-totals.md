@@ -1,8 +1,8 @@
 ---
 title: Calculated Metrics totals
-seo-title: How calculated metrics totals are calculated
+seo-title: Calculated Metrics totals
 description: Learn how calculated metrics totals differ in Analytics tools
-seo-description:
+seo-description: How calculated metrics totals are calculated
 ---
 
 # Calculated metrics totals

@@ -27,9 +27,9 @@ Since there's no logical and concrete method to determine if a calculated metric
 * Create a data request within ReportBuilder.
 * Use Analysis Workspace (see below).
 
-## Calculated metric totals in [DNL Analysis Workspace]
+## Calculated metric totals in [!DNL Analysis Workspace]
 
-In Analysis Workspace, under certain circumstances, calculated metrics are summed to display a total :
+In Analysis Workspace, under certain circumstances, calculated metrics are summed to display a total:
 
 * When there are [static rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) and the [!UICONTROL Calculate totals by summing the values currently in each column] option (default) is selected.
 * In the [Donut visualization](/help/analyze/analysis-workspace/visualizations/donut.md).

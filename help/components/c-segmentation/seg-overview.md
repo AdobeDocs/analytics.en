@@ -41,7 +41,7 @@ Segments can be based in the following values:
 * Visitors based on exits and entries—visitors from Facebook, a defined landing page, referring domain. 
 * Visitors based on custom variables—form field, defined categories, customer ID.
 
-When building audience segments in the Segment Builder, you define conditions using the [!UICONTROL AND] and [!UICONTROL OR]operators between containers.
+When building audience segments in the Segment Builder, you define conditions using the [!UICONTROL AND] and [!UICONTROL OR] operators between containers.
 
 ![](assets/standard_segment_containers.png)
 

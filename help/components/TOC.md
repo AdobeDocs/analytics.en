@@ -59,6 +59,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Reference: advanced functions](c-calcmetrics/cm-reference/cm-adv-functions.md)
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
+    + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual Report Suite Component Curation](vrs/vrs-components.md)

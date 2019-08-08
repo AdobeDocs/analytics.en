@@ -29,6 +29,6 @@ In addition, (only) when you are in a static row mode, you can now change how th
 
 |  Option  | Description  |
 |---|---|
-|  Calculate totals by summing the values currently in each column.  | This option calculates only the rows currently in the table. (Client-side calculation)  |
+|  (Default) Calculate totals by summing the values currently in each column.  | This option calculates only the rows currently in the table. (Client-side calculation)  |
 |  Calculate totals based on all rows for each metric.  | This option includes all dimension items for this dimension, even those not listed in the table. (Server-side calculation)  |
 

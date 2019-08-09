@@ -21,6 +21,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
+## Version 2.16.0
+
+Release Date: **August 8, 2019**
+
+| Feature    | Description  |
+| -----------| ---------- |
+| `sendBeacon` support for exit links  | Implemented `sendBeacon` support in [!UICONTROL AppMeasurement] for exit links. This will improve exit link tracking and will likely result in increased traffic. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. That is if a page unloads with `sendBeacon`, the request will still be completed. This is very useful for exit links because it will make it much more likely that the exit link request will be completed.|  
+| ECID/fid values | ECID/fid values are now cached on the first hit even though OptIn settings change. |
+| DIL 9.3  | Updated  Audience Management Module to DIL 9.3 |
+| Scroll reach tracking  | Exposed switch in s.ActivityMap.trackScrollReach to turn scroll reach tracking on or off. |
+| Visitor ID Service 4.4.0 | Upgraded AppMeasurement to use Visitor ID Service 4.4.0. |
+
 ## Version 2.15.0
 
 Release Date: **July 15, 2019**

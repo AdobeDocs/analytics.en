@@ -66,9 +66,9 @@ With a delete request using the API values in the first row of the table, the hi
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
->[!NOTE]
+> Note
 >
->Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
+> Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
 
 |user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|
 |--- |---|---|---|---|
@@ -82,9 +82,9 @@ With a delete request using the API values in the first row of the table, the hi
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
->[!NOTE]
+> Note
 >
->Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with “GDPR-“, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+> Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with “GDPR-“, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 |user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|
 |--- |---|---|---|---|
@@ -98,9 +98,12 @@ With a delete request using the API values in the first row of the table, the hi
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
-Note the following:
-
-* Cells on rows containing user=Mary and a DEL-DEVICE or DEL-PERSON label are impacted, as well as cells with a DEL-DEVICE label on rows containing any Visitor ID that occurred on a row containing user=Mary. 
-* MyEvar2 in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows, so ID expansion includes them for device-level deletes. 
-* The values of MyEvar2 in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request. 
-* MyEvar3 behaves very differently than it did without ID expansion, because without ID expansion, no ID-DEVICES matched. Now AAID matches on the first five rows. 
+> Note the following:
+>
+> Cells on rows containing user=Mary and a DEL-DEVICE or DEL-PERSON label are impacted, as well as cells with a DEL-DEVICE label on rows containing any Visitor ID that occurred on a row containing user=Mary. 
+>
+> MyEvar2 in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows, so ID expansion includes them for device-level deletes. 
+>
+> The values of MyEvar2 in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request. 
+>
+> MyEvar3 behaves very differently than it did without ID expansion, because without ID expansion, no ID-DEVICES matched. Now AAID matches on the first five rows. 

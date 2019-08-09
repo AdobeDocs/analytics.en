@@ -9,9 +9,9 @@ seo-description: How calculated metrics totals are calculated
 
 How calculated metric totals are displayed differs between [DNL Reports &amp; Analytics] and [DNL Analysis Workspace]. This section explains the differences.
 
-## Calculated metrics totals in [!DNL Reports &amp; Analytics]
+## Calculated metrics totals in [!DNL Reports & Analytics]
 
-When you view reports in [!DNL Reports &amp; Analytics], calculated metrics always display `n/a` under the total. Since all calculated metrics are user-defined, there are many circumstances where this total doesn't make sense. Consider the following example:
+When you view reports in [!DNL Reports & Analytics], calculated metrics always display `n/a` under the total. Since all calculated metrics are user-defined, there are many circumstances where this total doesn't make sense. Consider the following example:
 
 Your organization has created the calculated metric [orders] / [visits] to determine the percentage of visits that purchased something on your site. If you brought this metric into a products report, several products are attributed to a single order. And, several products are attributed to a single visit. If a calculated metric total was included in this report, the following questions arise:
 

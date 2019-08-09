@@ -9,9 +9,9 @@ seo-description: How calculated metrics totals are calculated
 
 How calculated metric totals are displayed differs between [DNL Reports &amp; Analytics] and [DNL Analysis Workspace]. This section explains the differences.
 
-## Calculated metrics totals in [!DNL Reports &amp; Analytics]
+## Calculated metrics totals in [!DNL Reports & Analytics]
 
-When you view reports in [!DNL Reports &amp; Analytics], calculated metrics always display `n/a` under the total. Since all calculated metrics are user-defined, there are many circumstances where this total doesn't make sense. Consider the following example:
+When you view reports in [!DNL Reports & Analytics], calculated metrics always display `n/a` under the total. Since all calculated metrics are user-defined, there are many circumstances where this total doesn't make sense. Consider the following example:
 
 Your organization has created the calculated metric [orders] / [visits] to determine the percentage of visits that purchased something on your site. If you brought this metric into a products report, several products are attributed to a single order. And, several products are attributed to a single visit. If a calculated metric total was included in this report, the following questions arise:
 
@@ -31,6 +31,6 @@ Since there's no logical and concrete method to determine if a calculated metric
 
 In Analysis Workspace, under certain circumstances, calculated metrics are summed to display a total:
 
-* When there are [static rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) and the [!UICONTROL Calculate totals by summing the values currently in each column] option (default) is selected.
+* When there are [static rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) and the **[!UICONTROL Calculate totals by summing the values currently in each column]** option (default) is selected.
 * In the [Donut visualization](/help/analyze/analysis-workspace/visualizations/donut.md).
 * In the [Summary Change visualization](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).

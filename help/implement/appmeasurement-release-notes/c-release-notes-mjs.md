@@ -23,7 +23,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## Version 2.16.0
 
-Release Date: **August 8, 2019**
+Release Date: **August 15, 2019**
 
 | Feature    | Description  |
 | -----------| ---------- |

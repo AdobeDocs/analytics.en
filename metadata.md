@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+product: adobe analytics
 solution-title: Analytics
 solution-hub-url: https://helpx.adobe.com/support/analytics.html
 solution-image: assets/analytics-icon-24.png

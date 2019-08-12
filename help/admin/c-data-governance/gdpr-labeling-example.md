@@ -33,7 +33,7 @@ Suppose you have the following hit data:
 
 If I submit an access request, the summary file will contain the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true. 
 
-| API Values| API Values|Returned File Type | Data in <br>Summary Access File </br>| Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|
+| API Values| API Values|Returned File Type | Data in <br>Summary Access File | Data in <br>Summary Access File|Data in <br>Summary Access File|Data in <br>Summary Access File|Data in <br>Summary Access File|
 |--- |--- |--- |---|---|---|---|---|
 |**Namespace/ID**|**expandIDs**||**MyProp1**|**Visitor ID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |AAID=77|false|device|Variable not present|77|Variable not present|M, P|X, W|
@@ -52,7 +52,7 @@ Notice that the setting for expandIDs does not make any difference to the output
 
 With a delete request using the API values in the first row of the table, the hit table will be updated to look something like this: 
 
-|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|
+|AAID=77 expandIDs value<br>does not matter|AAID=77 expandIDs value<br>does not matter|AAID=77 expandIDs value<br>does not matter|AAID=77 expandIDs value<br>does not matter|AAID=77 expandIDs value<br>does not matter|
 |---|---|---|---|---|
 |**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |Mary|42|A|GDPR-7398|GDPR-9152|
@@ -68,7 +68,7 @@ With a delete request using the API values in the first row of the table, the hi
 >
 >Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
 
-|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|
+|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|
 |--- |---|---|---|---|
 |**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |GDPR-0523|77|GDPR-1866|GDPR-3681|X|
@@ -84,7 +84,7 @@ With a delete request using the API values in the first row of the table, the hi
 >
 >Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with “GDPR-“, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
-|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|
+|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|
 |--- |---|---|---|---|
 |**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |GDPR-5782|09|GDPR-0859|GDPR-8183|GDPR-9152|

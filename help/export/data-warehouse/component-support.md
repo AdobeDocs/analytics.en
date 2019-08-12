@@ -13,10 +13,9 @@ Some dimensions and metrics can be used in Data Warehouse whereas they are not a
 
 ### Dimensions supported exclusively
 
-* Experience Cloud Visitor ID:
-* IP:
-* Page URL:
-* Purchase IDs:
+* Experience Cloud Visitor ID: For implementations that use the Experience Cloud ID Service (ECID), a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
+* Page URL: The page URL the hit occurred on.
+* Purchase IDs: Unique identifier for a purchase, set using the purchaseID variable.
 * Visitor ID: Provides the unique identifier for the visitor. This value is the same as concatenated value of `visid_high` and `visid_low` columns in data feeds. See [Data column reference](../analytics-data-feed/c-df-contents/datafeeds-reference.md) under Data Feeds for more information.
 
 ### Metrics supported exclusively
@@ -55,7 +54,7 @@ Some dimensions and metrics are not supported in Data Warehouse.
 * All Search Page Rank
 * Hierarchy variables
 * Hit Type
-* Pages not Found (segments only)
+* Pages not Found (available as a dimension; not supported for segmentation)
 * Paid Search
 * Single Page Visits
 * Tracking Opt-out Reason

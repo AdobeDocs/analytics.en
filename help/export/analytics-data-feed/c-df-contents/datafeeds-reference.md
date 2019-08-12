@@ -273,3 +273,109 @@ Use this page to learn what data is contained in each column. Most implementatio
 | weekly_visitor| Flag to determine if the hit is a new weekly visitor.| tinyint unsigned |
 | yearly_visitor| Flag to determine if the hit is a new yearly visitor.| tinyint unsigned |
 | zip | Used to populate the Zip Code dimension. | varchar(50)|
+
+## Empty columns
+
+The following list of columns are unused and do not contain data:
+
+* mobileacquisitionclicks
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobileappperformanceaffectedusers
+* mobileappperformanceappid<span>.</span>app-perf-app-name
+* mobileappperformanceappid<span>.</span>app-perf-platform
+* mobileappperformancecrashes
+* mobileappperformancecrashid<span>.</span>app-perf-crash-name
+* mobileappperformanceloads
+* mobileappstoreavgrating
+* mobileappstoredownloads
+* mobileappstoreinapprevenue
+* mobileappstoreinapproyalties
+* mobileappstoreobjectid<span>.</span>app-store-user
+* mobileappstoreobjectid<span>.</span>application-name
+* mobileappstoreobjectid<span>.</span>application-version
+* mobileappstoreobjectid<span>.</span>appstore-name
+* mobileappstoreobjectid<span>.</span>category-name
+* mobileappstoreobjectid<span>.</span>country-name
+* mobileappstoreobjectid<span>.</span>device-manufacturer
+* mobileappstoreobjectid<span>.</span>device-name
+* mobileappstoreobjectid<span>.</span>in-app-name
+* mobileappstoreobjectid<span>.</span>platform-name-version
+* mobileappstoreobjectid<span>.</span>rank-category-type
+* mobileappstoreobjectid<span>.</span>region-name
+* mobileappstoreobjectid<span>.</span>review-comment
+* mobileappstoreobjectid<span>.</span>review-title
+* mobileappstoreoneoffrevenue
+* mobileappstoreoneoffroyalties
+* mobileappstorepurchases
+* mobileappstorerank
+* mobileappstorerankdivisor
+* mobileappstorerating
+* mobileappstoreratingdivisor
+* mobileavgprevsessionlength
+* mobilecrashes
+* mobilecrashrate
+* mobiledailyengagedusers
+* mobiledeeplinkid<span>.</span>name
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessageclicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>name
+* mobilemessageid<span>.</span>type
+* mobilemessageimpressions
+* mobilemessagepushpayloadid<span><span>.</span></span>name
+* mobilemessageviews
+* mobilemonthlyengagedusers
+* mobileplacedwelltime
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* mobilerelaunchcampaigntrackingcode<span><span>.</span></span>name
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment (deprecated)
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* sociallink (deprecated)
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* socialproperty (deprecated)
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* socialtermslist (deprecated)
+* socialtotalsentiment
+* sourceid
+* videoauthorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videouniquetimeplayed

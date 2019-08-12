@@ -16,11 +16,9 @@ Suppose you have the following hit data:
 * The second row is the name of the variable. If it has an ID label, it contains the assigned namespace in parentheses. 
 * Hit data starts in the third row.
 
-<!-- Meike, I converted html tables for fix elusive validation error. Bob -->
-
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON  | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL  | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL  | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL  |
 |---|---|---|---|---|---|
-|Variable Name<br>(Namespace)|MyProp1<br>(user)|Visitor ID<br>(AAID)|MyEvar1|MyEvar2|MyEvar3<br>(xyz)|
+|**Variable Name<br>(Namespace)**|**MyProp1<br>(user)**|**Visitor ID<br>(AAID)**|**MyEvar1**|**MyEvar2**|**MyEvar3<br>(xyz)**|
 |Hit Data|Mary|77|A|M|X|
 | |Mary|88|B|N|Y|
 | |Mary|99|C|O|Z|
@@ -37,7 +35,7 @@ If I submit an access request, the summary file will contain the values indicate
 
 | API Values| API Values|Returned File Type | Data in <br>Summary Access File </br>| Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|Data in <br>Summary Access File</br>|
 |--- |--- |--- |---|---|---|---|---|
-|Namespace/ID|expandIDs||MyProp1|Visitor ID|MyEvar1|MyEvar2|MyEvar3|
+|**Namespace/ID**|**expandIDs**||**MyProp1**|**Visitor ID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |AAID=77|false|device|Variable not present|77|Variable not present|M, P|X, W|
 |AAID=77|true|device|Variable not present|77|Variable not present|M, P|X, W|
 |user=Mary|false|person|Mary|77, 88, 99|A, B, C|M, N, O|X, Y, Z|
@@ -56,7 +54,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 |AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|AAID=77 expandIDs value<br>does not matter</br>|
 |---|---|---|---|---|
-|MyProp1|AAID|MyEvar1|MyEvar2|MyEvar3|
+|**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |Mary|42|A|GDPR-7398|GDPR-9152|
 |Mary|88|B|N|Y|
 |Mary|99|C|O|Z|
@@ -72,7 +70,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 |user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|user=Mary<br>expandIDs=false</br>|
 |--- |---|---|---|---|
-|MyProp1|AAID|MyEvar1|MyEvar2|MyEvar3|
+|**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |GDPR-0523|77|GDPR-1866|GDPR-3681|X|
 |GDPR-0523|88|GDPR-2178|GDPR-1975|Y|
 |GDPR-0523|99|GDPR-9045|GDPR-2864|Z|
@@ -88,7 +86,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 |user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|user=Mary<br>expandIDs=true</br>|
 |--- |---|---|---|---|
-|MyProp1|AAID|MyEvar1|MyEvar2|MyEvar3|
+|**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
 |GDPR-5782|09|GDPR-0859|GDPR-8183|GDPR-9152|
 |GDPR-5782|16|GDPR-6104|GDPR-2911|GDPR-6821|
 |GDPR-5782|83|GDPR-2714|GDPR-0219|GDPR-4395|
@@ -100,7 +98,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 Note the following:
 
-* Cells on rows containing user=Mary and a DEL-DEVICE or DEL-PERSON label are impacted, as well as cells with a DEL-DEVICE label on rows containing any Visitor ID that occurred on a row containing user=Mary. 
-* MyEvar2 in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows, so ID expansion includes them for device-level deletes. 
-* The values of MyEvar2 in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request. 
-* MyEvar3 behaves very differently than it did without ID expansion, because without ID expansion, no ID-DEVICES matched. Now AAID matches on the first five rows. 
+* Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`. 
+* `MyEvar2` in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows, so ID expansion includes them for device-level deletes. 
+* The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request. 
+* `MyEvar3` behaves very differently than it did without ID expansion, because without ID expansion, no `ID-DEVICES` matched. Now AAID matches on the first five rows. 

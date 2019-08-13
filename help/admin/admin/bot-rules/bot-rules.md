@@ -19,14 +19,14 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** > **[!UICO
 
 Removing bot traffic typically reduces the volume of traffic and conversion metrics. Many customers find that removing bot traffic results in increased conversion rates and increases in other usability metrics. Before removing bot traffic, communicate with stakeholders to make sure they can make the necessary adjustments to key performance indicators as a result of this change. If possible, it is recommended to first remove bot traffic from a small report suite to estimate the potential impact.
 
->[!NOTE] We recommend defining no more than 500 bot rules per report suite. The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the [Import File](../../../admin/admin/bot-rules/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) and Export Bot Rules options.
+>[!NOTE] We recommend defining no more than 500 bot rules per report suite. The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the [Import File](../../../admin/admin/bot-removal/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) and Export Bot Rules options.
 
 Bot traffic data is stored in a separate repository for display in the [!UICONTROL Bots] and [!UICONTROL Bot Pages] reports. 
 
 | Rule Type  | Description  |
 |--- |--- |
 |IAB|Selecting [!UICONTROL Include IAB] uses the IAB's (International Advertising Bureau's) International Spiders &amp; Bots List to remove bot traffic. This list is updated monthly by the IAB. <br>To submit a bot to the IAB list, visit [IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site.|
-|Custom Bot Rules|See [Create a custom bot rule](../../../admin/admin/bot-rules/t-create-bot-rules.md).|
+|Custom Bot Rules|See [Create a custom bot rule](../../../admin/admin/bot-removal/t-create-bot-rules.md).|
 
 ## Impact of Bot Rules on Data Collection {#section_F01A3130E7A04A9993371CF26F6586F2}
 

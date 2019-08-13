@@ -15,10 +15,10 @@ user-guide-url: /content/help/en/analytics/admin/home.html
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
-  + Bot rules {#bot-rules}
-    + [Bot rules overview](admin/bot-rules/bot-rules.md)
-    + [Upload bot rules](admin/bot-rules/t-upload-bot-rules.md)
-    + [Create a custom bot rule](admin/bot-rules/t-create-bot-rules.md)
+  + Bot removal {#bot-removal}
+    + [Bot rules overview](admin/bot-removal/bot-rules.md)
+    + [Upload bot rules](admin/bot-removal/t-upload-bot-rules.md)
+    + [Create a custom bot rule](admin/bot-removal/t-create-bot-rules.md)
   + [Code Manager](admin/code-manager-admin.md)
   + Conversion variables {#conversion-variables}
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)

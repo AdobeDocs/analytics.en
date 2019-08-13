@@ -13,20 +13,11 @@ uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 
 To bulk import bot rules, you can upload a CSV file that defines the rules.
 
-Create a CSV file with the following columns in the order presented: 
+Create a CSV file with the following columns, in the order presented: 
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> Bot Name</code> </p> </td> 
-   <td colname="col2"> <p> <code> IP Start </code> </p> </td> 
-   <td colname="col3"> <p> <code> IP End </code> </p> </td> 
-   <td colname="col4"> <p> <code> Agent Match Rule (contains or starts with)</code> </p> </td> 
-   <td colname="col5"> <p> <code> Agent Include (100 char limit)</code> </p> </td> 
-   <td colname="col6"> <p> <code> Agent Exclude (255 char limit)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Column 1|Column 2|Column 3|Column 4|Column 5|
+|---|---|---|---|---|
+|Bot Name|IP Start|IP End|Agent Match Rule<br>(`contains` or `starts with`)|Agent Exclude<br>(255 char limit)|
 
 You can define three types of bot rules:
 

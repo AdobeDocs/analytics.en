@@ -80,7 +80,7 @@ Below is a list of metrics and dimensions that are not currently supported when 
    <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AMO reserved metrics/dimensions </p> </td> 
+   <td colname="col1"> <p> Analytics for Advertising Cloud reserved metrics/dimensions </p> </td> 
    <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
   </tr> 
   <tr> 

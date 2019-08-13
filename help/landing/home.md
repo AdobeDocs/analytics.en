@@ -50,7 +50,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-*   [Bot filtering](/help/admin/admin/bot-rules/bot-rules.md)
+*   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
 *   [Classifications](/help/components/c-classifications2/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

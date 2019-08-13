@@ -14,12 +14,18 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For a comprehensive list of new features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 * For more detail on Analysis Workspace New Features, see [this topic](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
-* For information on Media Analytics updates, see 
+* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Update Details
 
-| Date     | Update                           |
-|----------|----------------------------------|
+| Date|Description |
+|---|---|
+| Aug 8, 2019| New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md)|
+| Aug 8, 2019|Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md)|
+| Aug 5, 2019| Updates to [Key Concepts](/help/analyze/reports-analytics/key-concepts.md)|
+| Aug 2, 2019|Major update to [Analytics glossary](/help/technotes/terms.md)|
+| July 22, 2019|Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation.|
+| July 18, 2019| Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|
 | Jun 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](../technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | April 11, 2019 | Updates to [Optimize Workspace Performance](../analyze/analysis-workspace/optimizing-performance.md). |

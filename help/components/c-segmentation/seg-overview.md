@@ -242,16 +242,16 @@ In summary, understanding how segmentation works on various data breakdowns is k
 
 ## Reporting based on the Container {#section_D0604748F2794327B8C668617A31EC18}
 
-Every break down of segment data has a scope to which it is applied. Most report breakdowns are based on page views, however, many valuable segments are based on the Visit container, and to a lesser degree the Visitor container. It is important to understand reporting based on the scope of your container.
+Every breakdown of segment data has a scope to which it is applied. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. It is important to understand reporting based on the scope of your container.
 
 Based on the *Page = Winter Coats* segment example used previously, the issues listed below define other aspects of your segment based on how the container data is applied and how the scope of the data should match the segment type.
 
-**Segment container based on matching segment rule **
+**Segment container based on matching segment rule**
 
 Applying the segment container against a natural scope of data brings expected results where the line items match the segment rule.
 
-* **Hit container where page equals "Winter Coat"**: Viewing a Page report with this segment returns only the values equaling "Winter Coat." All other pages are excluded from reporting. 
-* **Visit container where entry page equals "Winter Apparel"**: Viewing an Entry Page report with this segment only returns the second visit because its entry page matches the segment rule. 
+* **Hit container where page equals "Winter Coat"**: Viewing a *Page* report with this segment returns only the values equaling "Winter Coat." All other pages are excluded from reporting. 
+* **Visit container where entry page equals "Winter Apparel"**: Viewing an *Entry Page* report with this segment only returns the second visit because its entry page matches the segment rule. 
 * **Visit container where visit number equals 1**: Viewing a Visit All page views from the first visit are included in the report because it matches the segment rule.
 
 **Page Views at the Visit container level**

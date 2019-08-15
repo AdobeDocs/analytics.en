@@ -12,21 +12,9 @@ uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 
 Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
 
-## About segments and containers {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
-
-Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
-
-<!-- 
-
-seg_overview.xml
-
- -->
-
 Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit] and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the [!DNL Adobe Experience Cloud]. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
 
 You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34).
-
-Segments let you identify visitors based on characteristics and sequence of page views.
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -36,10 +24,10 @@ Segments identify who your visitors are (country, gender, coffee shop), what dev
 
 Segments can be based in the following values:
 
-* Visitors based on attributes—browser type, device, number of visits, country, gender. 
-* Visitors based on interactions—campaigns, keyword search, search engine. 
-* Visitors based on exits and entries—visitors from Facebook, a defined landing page, referring domain. 
-* Visitors based on custom variables—form field, defined categories, customer ID.
+* Visitors based on attributes: browser type, device, number of visits, country, gender. 
+* Visitors based on interactions: campaigns, keyword search, search engine. 
+* Visitors based on exits and entries: visitors from Facebook, a defined landing page, referring domain. 
+* Visitors based on custom variables: form field, defined categories, customer ID.
 
 When building audience segments in the Segment Builder, you define conditions using the [!UICONTROL AND] and [!UICONTROL OR] operators between containers.
 
@@ -66,16 +54,6 @@ Sequential segments can be based on the following hit values:
 
 A sequential segment filters data sets based on user actions using the [!UICONTROL THEN] operator. 
 
-## About Segment Containers {#concept_A38E7000056547399E346559D85E2551}
-
-A Segment sets conditions to filter a visitor based on his or her attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment Builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor > Visit > Hit containers.
-
-<!-- 
-
-seg_container_overview.xml
-
- -->
-
 ## How-To Video {#section_89D6184890AF4086A8056BFBB0B68C29}
 
 This YouTube Video give a short overview of what segment containers are and how to use them. 
@@ -84,13 +62,15 @@ This YouTube Video give a short overview of what segment containers are and how 
 |---|---|
 |  Segment Containers  | [Segment Containers in Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&index=2&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)  |
 
-## About Containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+
+A Segment sets conditions to filter a visitor based on his or her attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment Builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
 
 The container architecture employed in the Segment Builder defines **[!UICONTROL Visitor]** as the outermost container, containing overarching data specific for the visitor across visits and page views. A nested **[!UICONTROL Visit]** container lets you set rules to break down the visitor's data based on visits, and a nested **[!UICONTROL Hit]** container lets you break down visitor information based on individual page views. Each container lets you report across a visitor's history, interactions broken down by visits, or break down individual hits. 
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
-**Visitor Container**
+**Visitor container**
 
 The Visitor container includes every visit and page view for visitors within a specified time frame. A segment at the Visitor level returns the page that meets the condition plus all other pages viewed by the visitor (and only constrained by defined date ranges). As the most broadly-defined container, reports generated at the Visitor container level will return page views across all visits and lets you generate a multi-visit analysis. Consequently, the Visitor container is the most susceptible to change based on defined date ranges.
 
@@ -100,7 +80,7 @@ Visitor containers can include values based on a visitor's overall history:
 * Original Entry Page 
 * Original Referring Domains
 
-**Visit Container**
+**Visit container**
 
 The Visit container lets you identify page interactions, campaigns, or conversions for a specific web session. The Visit container is the most commonly used container because it captures behaviors for the entire visit session once the rule is met and lets you define which visits you want to include or exclude in building and applying a segment. It can help you answer the question of how many visitors viewed the News and Sports section in the same visit? Or pages that attributed to a successful conversion to a sale?
 
@@ -112,7 +92,7 @@ Visit containers include values based on occurrence per visit:
 * Participation Metrics 
 * Linearly allocated metrics
 
-**Hit Container**
+**Hit container**
 
 The Hit container defines which page hits you would like to include or exclude from a segment. It is the most narrow of the containers available to let you identify specific clicks and page view where a condition is true, letting you view a single tracking code, or isolate behavior within a particular section of your site. You may also want to pinpoint a specific value when an action occurs, such as the marketing channel when an order was placed.
 
@@ -127,11 +107,11 @@ Hit containers include values based single page breakdowns:
   >
   >If you use this container on a value that persists, such as an evar, it will pull in every hit where that value is persisting. In the case of a tracking code that expires after a week, that value could be persisting across multiple visits.
 
-**Logic Group Container**
+**Logic Group container**
 
 The Logic Group container allows you to provide a separate container within the segment rules to filter entities not based on hierarchy. For example, you may want to provide a container nested within the segment that filters based on Visitor. This type of logic requires you to break the hierarchy (as you are already have a top-level Visitor container) to filter only for selected visitors. This can be accomplished using the Logic Group container. See [Logic Group examples](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) for additional information.
 
-## Nesting Containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 When creating segment containers within other containers, you are in essence creating a segment within a segment. The following logic is used with nested containers:
 
@@ -164,7 +144,7 @@ will build a segment that behaves in this order:
 1. The segment would then look at all your data again, searching to see if any visitors made an an order. 
 1. Both sets of data would then be applied to the report.
 
-## Containers for Sequential Segments {#section_324AF503F51A4A62806151FE440F3B2E}
+## Containers for sequential segments {#section_324AF503F51A4A62806151FE440F3B2E}
 
 Sequential segmentation employs the same basic containers, including [!UICONTROL Visitors], [!UICONTROL Visits], and [!UICONTROL Hits] (including page views or other dimensions) nested hierarchically.
 
@@ -180,19 +160,13 @@ The only exception to this hierarchy of containers is when using the [Logic Grou
 
 ![](assets/logic_group_hierarchy.png)
 
-## Reports based on Container Data {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Reports based on container data {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Containers allow you to filter different data differently based on reporting values when breaking down segments and applying them to reports.
 
-<!-- 
-
-seg_container_reports.xml
-
- -->
-
 Data captured at each level of the Visitor > Visit > Hit containers hierarchy affects how you build your segments. If you take the same segment applied to the same report using the same data set, you will get different values based on the container from which you generate the report. Factors such as container reporting level and persistence of values across hits can mean big changes in your reporting accuracy.
 
-## Basics of Container Data {#section_9576D970F912450191AFB5B83F7F1656}
+## Basics of container data {#section_9576D970F912450191AFB5B83F7F1656}
 
 For example, the visitor depicted below visited a site on the first visit, landed on the Home page and then visited three additional pages and converted the visit to a sale. On a separate visit, the visitor landed this time through Product page, then to the Home page, back to the Product page, and then closed the session after looking at Winter Hats. Based in the data captured for each container for the segment, different values will be shown in the report.
 
@@ -204,7 +178,7 @@ Based on the container selected, the report displays different results.
 
 ![](assets/container_overview.png)
 
-**Reporting from the Hit Container**
+**Reporting from the Hit container**
 
 When this condition is within a Hit container, then the report lists only pages where *Page = Winter Coats* is true. Since only one page matches this condition in a container of only one page, only the Winter Coats page is displayed. 
 
@@ -218,7 +192,7 @@ Reporting from the Hit container, you can see how reporting from different conta
 >
 >Regardless of how you view the data—from the Hit, Visit, or Visitor containers—they all have the same number of visitors, 63, 541, in this example. Regardless of how you generate the report, the initial visitor condition—Visitors who viewed the Winter Coats page—remains intact. It is the subset of data from which you are reporting at the different levels.
 
-**Reporting from the Visit Container**
+**Reporting from the Visit container**
 
 If this same condition is within a Visit container, then the report lists all pages in the visit where *Page equals Winter Coats* is true. It filters the Winter Coats page, but also captures all other pages in the visit where the condition is true. Because the visitor also visited the Home, Product, and Purchase pages within the visit where the condition was met, these additional pages are listed in the report when reported using Visitor container data.
 
@@ -228,7 +202,7 @@ Showing segment values from the Visit container, you can see that the number of 
 
 ![](assets/container_report_Visit.png)
 
-**Reporting from the Visitor Container**
+**Reporting from the Visitor container**
 
 If this same condition is within a Visitor container, the report lists all pages viewed by any visitor where *Page equals Winter Coats* is true. This means that if a visitor viewed the Winter Coats page, then all of the pages in the Visitor container—including page views in other visits—will be listed. Consequently, pages that don't match the condition will be listed in the report because the visitor viewed them at a previous time. All pages in the Visitor container will be listed in the report, even if they occurred previously and do not specifically meet the conditions.
 
@@ -240,7 +214,7 @@ Showing segments from the Visitor container, you can see that the Page Views and
 
 In summary, understanding how segmentation works on various data breakdowns is key to interpreting the data it returns.
 
-## Reporting based on the Container {#section_D0604748F2794327B8C668617A31EC18}
+## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
 
 Every breakdown of segment data has a scope to which it is applied. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. It is important to understand reporting based on the scope of your container.
 
@@ -271,15 +245,9 @@ Using segment with a smaller container than the breakdown scope returns unexpect
 * **Hit container where Page equals "Purchase"**: If using page views as a metric, only the Purchase page is displayed (as expected). If using a Revenue Participation report, then all pages in the first visit receive $100, since participation metrics are visit-based. 
 * **Hit container where Page equals "Winter Coat"**: If using page views as a metric, only the Winter Coat page is displayed (as expected). If using a Revenue Participation report, no pages receive credit because this dimension requires a persistent dimension. The page view that actually made the purchase (the Purchase page) is not included in the Hit container, so no revenue participation is given to any item. However, running a report from the Visit container would include all page views in that visit and would distribute revenue participation ($100) across all pages viewed in the session.
 
-## Persistence across Containers {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
+## Persistence across containers {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
 Filtering by dimensions that persist across a range of pages, such as a Campaign eVar or a Referring dimension, affects the data collected at the container level and needs to be understood for reporting accuracy.
-
-<!-- 
-
-seg_container_persistence.xml
-
- -->
 
 Segment data can vary based on the persistence of a dimension or applied variable across selected pages. Some dimensions, such as the Page dimension, provide unique values at the page level and are filtered based on data from the Hit container. (See the [Reports based on Container Data](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87) example). Other dimensions, such as the Referring Domain dimension, persist across multiple pages for a visit. Some dimensions or applied variables, such as Visit Duration, span across a visitor's entire history. 
 
@@ -293,7 +261,7 @@ The *Referring Domain equals aol.com* segment below is applied to the **Pages Re
 
 In a new visit, the visitor is referred from another site. Consequently, all pages in the new visit are assigned the new referring domain value for each page view.
 
-**Reporting from the Hit Container**
+**Reporting from the Hit container**
 
 Because all page views within the same visit are assigned the same Referring Domain value, reporting at the Hit container level where *Referring Domain = "aol.com"* returns all pages listed in the table below.
 
@@ -303,7 +271,7 @@ Showing data from the Hit container, just over 92,000 page views were viewed in 
 
 ![](assets/container_report_persist_PV.png)
 
-**Reporting from the Visit Container**
+**Reporting from the Visit container**
 
 If this same condition is filtered in the Visit container for a Pages report, then all pages in the visit where *Referring Domain = "aol.com"* is true. Because the value of the referring domain is set at the visit level, reports at the Page View and Visit levels are the same.
 
@@ -313,7 +281,7 @@ In this example, because all pages have the same referring domain value based on
 
 ![](assets/container_report_persist_Visit.png)
 
-**Reporting from the Visitor Container**
+**Reporting from the Visitor container**
 
 From the Visitor container, the Page report lists all pages viewed by any visitor where *Referring Domain equals "aol.com"* is true. Consequently, if a visitor had *"aol.com"* as a referring domain at anytime in the history (within the defined time period), then all of the pages in the Visitor container—including page views in other visits—will be listed. Even pages that don't match the primary condition will be listed in the report because these pages are included in the Visitor container. All pages in the Visitor container will be listed in the report, even if they occurred previously and do not specifically meet the conditions.
 

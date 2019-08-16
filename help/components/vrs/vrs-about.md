@@ -41,10 +41,10 @@ Virtual report suites help:
 Virtual report suites have the following limitations:
 
 * Any limitations of segments apply to virtual report suites
-
-  A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own data warehouse and its own data feed, using multiple report suites results in some benefits that segments do not provide. 
-* Real-time report 
-* Settings and variable names can't be customized like in a full report suite
+* A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own data warehouse and its own data feed, using multiple report suites results in some benefits that segments do not provide. 
+* Real-time reporting is not available
+* Segments created in the context of a virtual report suite cannot be shared to other Experience Cloud solutions
+* Certain report suite settings can't be customized like in a full report suite
 
 ## Virtual Report Suites vs. Multisuite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 

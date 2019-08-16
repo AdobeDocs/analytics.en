@@ -9,7 +9,13 @@ seo-description: null
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target.
+Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. It includes:
+
+* **Audience Analytics:** Integrate Adobe Audience Manager with Adobe Analytics.
+* **Advertising Analytics:** See paid search data side-by-side with Adobe Analytics data.
+* **Analytics for Target:** A4T integrates Adobe Analytics and Adobe Target together.
+* **Adobe Campaign reporting:** Integrate Adobe Analytics with Adobe Campaign.
+* **AEM Assets reporting:** Enables the collection of impressions and clicks on assets served from Adobe Experience Manager.
 
 ## Key Analytics Integration articles
 
@@ -22,11 +28,7 @@ This guide helps you configure integrations with other Adobe Experience Cloud so
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)

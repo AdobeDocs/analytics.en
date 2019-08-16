@@ -20,14 +20,14 @@ Some dimensions and metrics can be used in Data Warehouse whereas they are not a
 
 ### Metrics supported exclusively
 
-* Visits: This metric in context of Data Warehouse exclude non-persistent cookie visits.
+* Visits: This metric in context of Data Warehouse excludes non-persistent cookie visits.
 * Visits - All Visitors: This metric in context of Data Warehouse has closer parity with the visits metric in other tools within Adobe Analytics.
 
 ## Components not supported in Data Warehouse
 
 Some dimensions and metrics are not supported in Data Warehouse.
 
-> [!IMPORTANT] If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
+> [!NOTE] If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
 
 ### Dimensions not supported
 

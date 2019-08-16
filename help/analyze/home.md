@@ -9,7 +9,14 @@ seo-description: null
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
+This guide features all the analysis tools you can use in Adobe Analytics.
+
+* **Analysis Workspace:** The foremost feature in Adobe Analytics. Workspace provides a canvas where you can drag components to meet reporting needs.
+* **Activity Map:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
+* **Ad Hoc Analysis:** A standalone Java application with robust reporting capabilities. This tool is no longer updated, and will eventually be sunset in the future.
+* **Reporting API:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
+* **Report Builder:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
+* **Reports & Analytics:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs.
 
 ## Key Analytics Tools articles
 
@@ -23,11 +30,7 @@ This guide features all the analysis tools you can use in Adobe Analytics. First
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)

@@ -109,8 +109,12 @@ You can also see namespaces that you have previously defined for other variables
 >[!NOTE]
 >
 >You cannot use the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the GDPR API, unless this is also the namespace you specified when applying the ID-DEVICE or ID-PERSON label to this variable. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites in these cases:
+>
+>*   The ID is in different eVars in some of the report suites, or
+>*   The friendly names don’t match (such as when the friendly name has been localized for a specific report suite)
 
-*   The ID is in different eVars in some of the report suites, or
-*   The friendly names don’t match (such as when the friendly name has been localized for a specific report suite)
+>[!NOTE]
+>
+>The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID, respectively and should not be used as namespaces for custom traffic or conversion variables.
 
 For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7). 

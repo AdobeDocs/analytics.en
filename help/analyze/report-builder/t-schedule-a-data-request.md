@@ -12,13 +12,23 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 
 You can schedule workbooks, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure workbooks that you want to send at a specific time or in intervals. You can also specify the file format in which to send the workbook.
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a report upload.
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a workbook upload.
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports & Analytics help.)
 
 >[!NOTE]
 >
 >You must have Excel 2007 or the compatibility pack installed in order to schedule a workbook. You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. A workbook that has been scheduled (or uploaded to the Workbook Library) and has not been touched (updated, replaced) in more than 28 months will be deleted.
+
+>[!NOTE]
+>
+>The "Delivery Time"/"Time of Day" entered by the user specifies the time that the workbook should begin processing, not the time that it will actually be delivered. The actual time that the workbook will be delivered is based primarily on how long it takes to process (complex and large workbooks take longer to process than simpler workbooks). For example, if a workbook takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day". 
+>In addition, there are a number of other factors that can further increase the delay before the workbook is actually delivered:
+>
+> * **Running many different schedules of the same type at the same time** can overload the system. The Scheduling system only allows a few (5-10) workbooks of any one type to run concurrently, so when more than 5-10 are all scheduled at once, some will need to wait in line for other workbooks to finish before they can begin processing. This issue can be mitigated by scheduling a company's workbooks at staggered times throughout the day or hour, rather than simultaneously.
+> * Aside from the specific workbook type, workbooks will also wait in line if the company has **more than 15-20 of any type of workbook scheduled at once (across all different workbook types)**. This can be mitigated by staggering schedule times instead of having many run at the exact same time.
+> * **Issues in downstream services** that the Scheduler relies on can also affect delivery of workbooks. For example, if you are independently using the APIs to run workbooks and fill up the API request queue, then your scheduled workbooks may deliver slowly while you compete for that resource.
+> * **Report suite latency** (a delay in data collection) can also delay some scheduled workbooks.
 
  **To schedule a workbook** 
 
@@ -49,7 +59,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Select </p> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Select Report</span> page. You can select a report from the server (where all your previously scheduled workbooks are stored), or from your local machine. If you select a workbook from the local drive in <span class="filepath"> .xls</span> format, the system converts the file to <span class="filepath"> .xlsx</span>. As part of that conversion, the file is opened in Excel and made active. If the selected workbook for the scheduled report has the same filename as the workbook currently open in Excel, the system selects the local file instead of the previously uploaded file. If you select a report from the scheduling repository, a copy of the workbook is created on the server, with its filename updated with 1, and the newly created scheduled report uses the copied workbook. </p> </td> 
+   <td colname="col2"> <p>Displays the <span class="wintitle"> Select Report</span> page. You can select a report from the server (where all your previously scheduled workbooks are stored), or from your local machine. If you select a workbook from the local drive in <span class="filepath"> .xls</span> format, the system converts the file to <span class="filepath"> .xlsx</span>. As part of that conversion, the file is opened in Excel and made active. If the selected workbook for the scheduled report has the same filename as the workbook currently open in Excel, the system selects the local file instead of the previously uploaded file. If you select a report from the scheduling repository, a copy of the workbook is created on the server, with its filename updated with 1. The newly created scheduled report uses the copied workbook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customize </p> </td> 

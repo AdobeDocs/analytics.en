@@ -109,7 +109,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
   + [Frequently asked questions](analysis-workspace/faq.md)
   + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-  + [Optimize Workspace performance](analysis-workspace/optimizing-performance.md)
+  + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
   + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
   + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}

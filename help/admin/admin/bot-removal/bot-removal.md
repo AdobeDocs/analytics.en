@@ -9,11 +9,11 @@ seo-description: 3 ways to remove bots in Adobe Analytics
 
 In Adobe Analytics, you have multiple options for removing bot traffic from reporting:
 
-* The [default bot filtering](/help/admin/admin/bot-removal/bot-rules.md) method in Adobe Analytics is to create bot rules that are based on the IAB bot list, which is updated monthly and compiles its list from many sources, including CDNs and major internet properties. It includes thousands of known bots including all of your favorites: Google, Bing, Gomez, etc. This list covers the overwhelming majority of use cases and needs around bot filtration.
+* The default bot filtering method in Adobe Analytics is to [create bot rules](/help/admin/admin/bot-removal/bot-rules.md) that are based on the IAB bot list. This list is updated monthly and compiles its list from many sources, including CDNs and major internet properties. It includes thousands of known bots including all of your favorites: Google, Bing, Mozilla, etc. This list covers the overwhelming majority of use cases and needs around bot filtration.
 
 * 
 
-* In addition, since bots are advancing quickly, Adobe offers several other powerful features that, when combined properly, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools:
+* In addition, since bots are advancing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools:
 
 ## Step 1: Pass your visitors’ Experience Cloud ID into a new declared ID
 

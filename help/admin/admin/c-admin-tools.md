@@ -10,12 +10,10 @@ uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** 
 
->[!IMPORTANT]
->
->Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
+>[!IMPORTANT] Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
 
 + [Billing](billing-admin.md)
-+ [Bot Rules overview](bot-rules/bot-rules.md)
++ [Bot Rules overview](bot-removal/bot-rules.md)
 + [Code Manager](code-manager-admin.md)
 + [Conversion Variables (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Currency Codes](currency.md)

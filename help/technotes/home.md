@@ -16,11 +16,7 @@ This guide provides helpful information on topics that don't belong to a specifi
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)

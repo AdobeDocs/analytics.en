@@ -8,13 +8,13 @@ seo-description: Preview prototypes for Adobe Analytics
 
 # Labs User Guide
 
-Note: Labs is currently released as early access to a limited number of customers, but will be widely-released later.
+>[!NOTE] Labs is currently released as early access to a limited number of customers, but will be widely-released later.
 
 Labs allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Labs to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
 
 ## Requirements
 
-Labs is automatically enabled for all admins. Other team members should contact their product administrators and request access. 
+Labs is automatically enabled for all admins. Other team members should contact their product administrators and request access.
 
 If you have not already done so, read and sign the applicable Non-Disclosure Agreement and Terms & Conditions forms.
 
@@ -25,7 +25,6 @@ To access Labs:
 1. If you do not already have access to Workspace and Labs, ask your administrator for permissions.
 
 1. Click the **Labs** tab.
-
 
 ## Evaluate a prototype
 
@@ -39,7 +38,7 @@ To launch and evaluate a prototype:
 
    ![previews options](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Work with the prototype. When working in the protype environment:
+1. Work with the prototype. When working in the prototype environment:
 
 * Projects created within the prototype environment cannot be saved or shared.
 
@@ -67,4 +66,3 @@ To launch and evaluate a prototype:
 
 * Some prototypes within Labs become Analytics features, others may not. Your feedback drives the decision, so review the prototypes and let Adobe know how valuable you find them.
 * Labs is available to all SKU entitlements.
-

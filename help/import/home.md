@@ -9,7 +9,11 @@ seo-description: null
 
 ![Banner](../../assets/doc_banner_import.png)
 
-This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors.
+This guide explains how to get data into Analytics. It includes:
+
+* **Data sources:** Upload a file to a designated Adobe FTP site. Adobe retrieves the file and includes the data in your report suite.
+* **Data insertion API:** Send data directly to Adobe's data collection through an API.
+* **Data connectors:** Work with a supported 3rd party to bring their data into Adobe Analytics to enrich your report suite.
 
 ## Key Analytics Import articles
 
@@ -21,11 +25,7 @@ This guide explains how to get data into Analytics through data sources, the ins
 
 ## Key Analytics resources
 
-* [Getting Started](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud Learn & Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contact Support](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)

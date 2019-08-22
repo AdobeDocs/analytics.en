@@ -43,12 +43,13 @@ Remember to use Experience Cloud Visitor ID as your dimension and apply the Bots
 
 ## Step 4: Pass this list back to Adobe as a Customer Attribute
 
-Once the Data Warehouse report arrives, you’ll have a list of ECIDs that need to be filtered from historical data. Copy and paste these ECIDs into a blank CSV file with just two columns, ECID and Bot Flag:
+Once the Data Warehouse report arrives, you’ll have a list of ECIDs that need to be filtered from historical data. Copy and paste these ECIDs into a blank .CSV file with just two columns, ECID and Bot Flag:
 
-
+![](assets/bot-csv-4.png)
 
 Make sure the first column header matches the name you gave to the new declared ID above. Use this .CSV file as your Customer Attribute import file, then subscribe your report suite(s) to the Customer Attribute as described in this [blog post](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Step 5: Create a segment that leverages the new Customer Attribute
 
 Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new “Bot Flag” customer attribute dimension:
+

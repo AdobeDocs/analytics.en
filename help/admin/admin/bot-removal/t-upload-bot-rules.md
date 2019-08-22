@@ -15,9 +15,9 @@ To bulk import bot rules, you can upload a CSV file that defines the rules.
 
 Create a CSV file with the following columns, in the order presented: 
 
-|Column 1|Column 2|Column 3|Column 4|Column 5|
-|---|---|---|---|---|
-|Bot Name|IP Start|IP End|Agent Match Rule<br>(`contains` or `starts with`)|Agent Exclude<br>(255 char limit)|
+| Column 1 | Column 2 |Column 3|Column 4|Column 5|
+|--- |--- |---|---|---|
+|Bot Name|IP Start|IP End|Agent Match Rule<br>(contains or starts with)</br>|Agent Exclude<br>(255-character limit)</br>|
 
 You can define three types of bot rules:
 

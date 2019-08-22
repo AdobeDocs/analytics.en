@@ -10,7 +10,7 @@ uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 
 Certain factors can influence the performance of a project within Analysis Workspace. It’s important to know what those contributors are before you start building a project so that you can plan & build the project in the most optimal way. Below is a list of factors that will impact performance & best practices for optimizing your projects. Analysis Workspace performance is one of Adobe’s top priorities and something we are continuing to improve each day. 
 
-## Complexity of Segment Logic
+## Complexity of segment logic
 
 Intricate segments can have a significant impact on project performance. Factors that add complexity to a segment (in descending order of impact) include:
 
@@ -21,7 +21,7 @@ Intricate segments can have a significant impact on project performance. Factors
 * Many OR operators (instead of AND)
 * Nested containers that vary in scope (e.g., "Hit" inside of "Visit" inside of "Visitor")
 
-**Best practice for logic complexity**
+**Best practices for logic complexity**
 
 While some of the complexity factors cannot be prevented, think about opportunities to reduce the complexity of your segments. In general, the more specific you can be with your segment criteria, the better. For example:
 
@@ -35,7 +35,7 @@ In addition, [classifications](/help/components/c-classifications2/c-classificat
 
 The range of data requested throughout a project will influence Analysis Workspace performance.
 
-**Best practice for data range**
+**Best practices for data range**
 
 Where possible, don’t pull in more data than you need.
 
@@ -91,9 +91,11 @@ The size of the report suite may seem like a driving factor, but in reality it o
 
 The number of users accessing Analysis Workspace or specific projects at the same time does not have a substantial effect on Analysis Workspace performance, if users are accessing different report suites. If concurrent users are accessing the same report suite, performance will be impacted.
 
-## Address common errors
+## Common error messages in Analysis Workspace
 
-|Error Message|Why does this occur?|
+You may encounter errors when interacting with Analysis Workspace. Errors can occur for several reasons and listed below are the most common ones.
+
+|Error message|Why does this occur?|
 |---|---|
 |`The report suite is experiencing unusually heavy reporting. Please try again later.`| Your organization is trying to run too many concurrent requests against a specific report suite. Contributors to this error are API requests, scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. We recommend that your requests and schedules for the report suite be spread more evenly throughout the day.|
 |`A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.`|Adobe is experiencing an issue that needs to be resolved. We recommend that you submit the error code through a Customer Care request.|

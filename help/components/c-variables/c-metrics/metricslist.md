@@ -14,4 +14,6 @@ Metrics are the foundation of reports and help you view and understand data rela
 
 Metrics and associated data are displayed in the columns of reports. Traffic metrics show data about the volume of visitors. Conversion metrics show data about success events, such as purchases, downloads, or any other action that you want users to take on your website.
 
+Here is an overview of the [standard Analytics metrics](/help/components/c-variables/c-metrics/metrics-overview.md).
+
 [Calculated metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) are created by combining metrics. 

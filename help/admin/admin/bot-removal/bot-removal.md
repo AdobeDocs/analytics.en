@@ -7,7 +7,7 @@ seo-description: 3 ways to remove bots in Adobe Analytics
 
 # Bot removal in Adobe Analytics
 
-In Adobe Analytics, you have 3 main options for removing bot traffic from reporting:
+In Adobe Analytics, you have multiple options for removing bot traffic from reporting:
 
 1. The default bot filtering method in Adobe Analytics is to [create bot rules](/help/admin/admin/bot-removal/bot-rules.md) that are based on the IAB bot list. This list is updated monthly and compiles its list from many sources, including CDNs and major internet properties. It includes thousands of known bots including all of your favorites: Google, Bing, Mozilla, etc. This list covers the overwhelming majority of use cases and needs around bot filtration.
 
@@ -21,7 +21,7 @@ To start, you’ll want to create a new declared ID in the [Audiences core servi
 
 screenshot here
 
-Here’s a screenshot of how this ID can be captured via Data Element. Be sure to populated your Adobe MCOrg ID into the Data Element correctly.
+Here is how this ID can be captured via Data Element. Be sure to populated your Adobe ECOrg ID into the Data Element correctly.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 

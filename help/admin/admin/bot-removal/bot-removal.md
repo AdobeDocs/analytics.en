@@ -35,7 +35,7 @@ Once this Data Element is set up, follow [these instructions](https://docs.adobe
 
 ### Step 2: Use segmentation to identify bots
 
-Now that you have your visitor’s ECID passed into a declared ID, it’s time to use segmentation in Analysis Workspace to identify visitors that are acting like bots. Bots are often defined by their behavior: single access visits, unusual user-agents, unknown device/browser information, no referrers, new visitors, unusual landing pages, etc. Use the powers of Workspace drilldowns and segmentation to identify the bots that have evaded IAB filtering and your report suite bot rules. For example, here’s a screenshot of a segment that you could use:
+Now that you have your visitor’s ECID passed into a declared ID, you can use [segmentation in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) to identify visitors who are acting like bots. Bots are often defined by their behavior: single access visits, unusual user agents, unknown device/browser information, no referrers, new visitors, unusual landing pages, etc. Use the powers of Workspace drill-downs and segmentation to identify the bots that have evaded IAB filtering and your report suite bot rules. For example, here’s a screenshot of a segment that you could use:
 
 ![](assets/bot-filter-seg1.png)
 

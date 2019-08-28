@@ -45,35 +45,9 @@ You can choose to make these segments public (global) by following these steps:
 
 Several other methods exist for applying segments to a freeform project. 
 
-<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Create segment from selection </p> </td> 
-   <td colname="col2"> <p>Create an inline segment. Select rows, right-click the selection, then create an inline segment. This segment applies only to the open project and is not saved as an Analytics segment. </p> <p> 
-     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
-      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">Select rows </li> 
-      <li id="li_C2245B3EA81F4FAC88A33647922535AF">Right-click the selection </li> 
-      <li id="li_AB4F8988B9A84920ABA06A91094625F6">Click <span class="uicontrol"> Create segment from selection</span>. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> New Segment</span> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Segment Builder</span>. See <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external"> Building Segments</a> for more information about segmentation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Share Project </span></span>or </p> <p> <span class="ignoretag"><span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Curate Project Data </span></span> </p> </td> 
-   <td colname="col2"> <p>In <a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Curate &amp; Share</a>, segments that you apply to the project are available in shared analysis for the recipient. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Use Segments as Dimensions </p> </td> 
-   <td colname="col2"> <p>Video: <a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external"> Using Segments as Dimensions in Analysis Workspace</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Action | Description |
+|--- |--- |
+|Create segment from selection|Create an inline segment. Select rows, right-click the selection, then create an inline segment. This segment applies only to the open project and is not saved as an Analytics segment. 1. Select rows.  2. Right-click the selection.  3. Click *Create segment from selection*.|
+|Components > New Segment|Displays the Segment Builder. See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation.|
+|Share > Share Project or Share > Curate Project Data|In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient.|
+|Use Segments as Dimensions|Video: [Using Segments as Dimensions in Analysis Workspace](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39)|

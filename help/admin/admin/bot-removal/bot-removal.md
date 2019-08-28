@@ -53,3 +53,17 @@ Make sure the first column header matches the name you gave to the new declared 
 
 Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new “Bot Flag” customer attribute dimension:
 
+![](assets/bot-filter-seg2.png)
+
+## Step 6: Use this segment as your Virtual Report Suite filter
+
+Finally, you should create a Virtual Report Suite that leverages this segment to filter out the identified bots:
+
+![](assets/bot-vrs.png)
+
+This newly-segmented Virtual Report Suite will now result in a significantly cleaner set of data with the identified bots completely removed.
+
+## Step 7: Repeat steps 2, 3, and 4 regularly
+
+Set at least a monthly reminder to identify and filter new bots, perhaps prior to regularly scheduled analysis.
+

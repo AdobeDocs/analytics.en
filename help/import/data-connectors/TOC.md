@@ -7,7 +7,8 @@ user-guide: null
 
 # Table of Contents {#table-of-contents}
 
-+ Silverpop Data Connector for Adobe Analytics
++ Get Started with Analytics Data Connectors
++ appFigures Data Connector for Adobe Analytics {#appfigures}
    + [appFigures Data Connector for Adobe Analytics](appfigures-overview/appfigures-overview.md)
       + [Key Benefits and Features](appfigures-overview/appfigures-benefits.md)
       + [Before You Activate This Integration](appfigures-overview/appfigures-before-activation/appfigures-before-activation.md)
@@ -18,7 +19,7 @@ user-guide: null
       + [Configure the Integration](appfigures-overview/t-appfigures-integration.md)
       + [Metrics and Dimensions](appfigures-overview/appfigures-metrics.md)
       + [Segmenting App Data](appfigures-overview/appfigures-segment-filter.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Aprimo Data Connector for Adobe Analytics {#aprimo}
    + [Aprimo Data Connector for Adobe Analytics](aprimo-overview/aprimo-overview.md)
       + [Key Benefits and Features](aprimo-overview/aprimo-benefits.md)
       + [Dynamic Marketing Segments](aprimo-overview/aprimo-marketing-segments.md)
@@ -27,7 +28,7 @@ user-guide: null
          + [Adobe Analytics Variables](aprimo-overview/aprimo-requirements/aprimo-variables.md)
       + [Activate the Integration](aprimo-overview/t-aprimo-activate.md)
       + [Adobe Analytics Plug-In Code](aprimo-overview/aprimo-sitecatalyst-code.md)
-+ Silverpop Data Connector for Adobe Analytics
++ ContactLab Data Connector for Adobe Analytics {#contactlab}
    + [ContactLab Data Connector for Adobe Analytics](c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
       + [Integration Overview](c-contactlab-data-connector-for-adobe-analytics/contactlab-integration-overview.md)
       + [Key Benefits and Features](c-contactlab-data-connector-for-adobe-analytics/contactlab-key-benefits-and-features.md)
@@ -35,7 +36,7 @@ user-guide: null
       + [Deploying the Integration](c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/contactlab-deploying-the-integration.md)
          + [Completing the Adobe Integration Wizard](c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/t-contactlab-completing-the-adobe-integration-wizard.md)
          + [Verifying the Integration](c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/t-contactlab-verifying-the-integration.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Datran Data Connector for Adobe Analytics {#datran}
    + [Datran Data Connector for Adobe Analytics](datran-integration-overview/datran-integration-overview.md)
       + [Key Benefits](datran-integration-overview/datran-key-benefits.md)
       + [Dynamic Marketing Segments](datran-integration-overview/datran-dynamic-marketing-segments.md)
@@ -46,7 +47,7 @@ user-guide: null
          + [Datran for Adobe Genesis Integration](datran-integration-overview/datran-before-activating/datran-prereqs.md)
       + [Preparing for the Data Connectors Email Integration](datran-integration-overview/datran-configuring-integration.md)
       + [Running the Data Connectors Integration Wizard](datran-integration-overview/t-datran-wizard.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Delivra Data Connector for Adobe Analytics {#delivra}
    + [Delivra Data Connector for Adobe Analytics](delivra-integration-overview/delivra-integration-overview.md)
       + [Key Benefits](delivra-integration-overview/delivra-key-benefits.md)
       + [Dynamic Marketing Segments](delivra-integration-overview/delivra-dynamic-marketing-segments.md)
@@ -57,7 +58,7 @@ user-guide: null
          + [Delivra for Adobe Genesis Integration](delivra-integration-overview/delivra-before-activating-this-integration/delivra-for-adobe-genesis-integration.md)
       + [Preparing for the Data Connectors Email Integration](delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
       + [Running the Data Connectors Integration Wizard](delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Demandbase Data Connector for Adobe Analytics {#demandbase}
    + [Demandbase Data Connector for Adobe Analytics](demandbase-home/demandbase-home.md)
       + [Key Benefits and Features](demandbase-home/demandbase-benefits-and-features.md)
       + [Integration Prerequisites](demandbase-home/demandbase-prerequisites.md)
@@ -73,7 +74,7 @@ user-guide: null
       + [Demandbase Dimensions](demandbase-home/demandbase-dimensions/demandbase-dimensions.md)
          + [Demandbase Standard Dimensions](demandbase-home/demandbase-dimensions/demandbase-standard-dimensions.md)
          + [Demandbase Custom Dimensions](demandbase-home/demandbase-dimensions/demandbase-custom-dimensions.md)
-+ Silverpop Data Connector for Adobe Analytics
++ DFA Data Connector for Adobe Analytics {#dfa}
    + [DFA Data Connector for Adobe Analytics](dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Key Benefits](dfa-data-connector-analytics/dfa-benefits.md)
       + [Ad Serving Integration Overview](dfa-data-connector-analytics/dfa-ad-serving-integration-overview.md)
@@ -96,7 +97,7 @@ user-guide: null
          + [Metric Definitions](dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-metric-definitions.md)
          + [Possible Reasons for Discrepancies](dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-possible-reasons.md)
       + [Frequently Asked Questions](dfa-data-connector-analytics/dfa-faq.md)
-+ Silverpop Data Connector for Adobe Analytics
++ DreamMail Data Connector for Adobe Analytics {#dreamMail}
    + [DreamMail Data Connector for Adobe Analytics](dreammail-overview/dreammail-overview.md)
       + [Key Benefits and Features](dreammail-overview/dreammail-benefits.md)
       + [Dynamic Marketing Segments](dreammail-overview/dreammail-marketing-segments.md)
@@ -105,7 +106,7 @@ user-guide: null
          + [Analytics Integration Variables](dreammail-overview/dreammail-requirements/dreammail-variables.md)
       + [Activate the Integration](dreammail-overview/t-dreammail-activate.md)
       + [Analytics Plug-In Code](dreammail-overview/dreammail-analytics-code.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Dynamic Signal VoiceStorm Data Connector for Adobe Analytics {#dynamicsignal}
    + [Dynamic Signal VoiceStorm Data Connector for Adobe Analytics](dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
       + [Key Benefits and Features](dynamic-signal-for-analytics/dynamic-signal-benefits.md)
       + [Integration Prerequisites](dynamic-signal-for-analytics/dynamic-signal-integration-prerequisites.md)
@@ -116,7 +117,7 @@ user-guide: null
          + [Viewing Traffic and Conversion Metrics by Dynamic Signal Dimensions](dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-metrics.md)
          + [Segmenting by Dynamic Signal Dimensions](dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-segmenting-dimensions.md)
          + [Integrated Reporting Dimensions](dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-reporting-dimensions.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Emarsys Data Connector for Adobe Analytics {#emarsys}
    + [Emarsys Data Connector for Adobe Analytics](emarsys-overview/emarsys-overview.md)
       + [Key Benefits](emarsys-overview/emarsys-benefits.md)
       + [Dynamic Marketing Segments](emarsys-overview/emarsys-dynamic-marketing-segments.md)
@@ -128,7 +129,7 @@ user-guide: null
       + [Preparing for the Data Connectors Email Integration](emarsys-overview/emarsys-configure-integration.md)
       + [Analytics Variables](emarsys-overview/emarsys-variables.md)
       + [Running the Data Connectors Integration Wizard](emarsys-overview/emarsys-wizard.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Kampyle Data Connector for Adobe Analytics {#kampyle}
    + [Kampyle Data Connector for Adobe Analytics](kampyle-home/kampyle-home.md)
       + [Key Benefits and Features](kampyle-home/kampyle-benefits.md)
       + [Integration Prerequisites](kampyle-home/kampyle-prereqs.md)
@@ -140,7 +141,7 @@ user-guide: null
       + [Using the Integration](kampyle-home/kampyle-integration/kampyle-integration.md)
          + [Mix Feedback and Onsite Behavior Data](kampyle-home/kampyle-integration/kampyle-feedback.md)
          + [Segment by Feedback Dimension](kampyle-home/kampyle-integration/kampyle-segment-dimension.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Lyris Data Connector for Adobe Analytics {#lyris}
    + [Lyris Data Connector for Adobe Analytics](lyris-overview/lyris-overview.md)
       + [Key Benefits and Features](lyris-overview/lyris-benefits.md)
       + [Integration Prerequisites](lyris-overview/lyris-prereqs.md)
@@ -150,7 +151,7 @@ user-guide: null
          + [Configuration within the Lyris EmailLabs](lyris-overview/lyris-deploy-integration/lyris-configuration.md)
          + [Verifying the Integration](lyris-overview/lyris-deploy-integration/lyris-verify-integration.md)
          + [Query String Param Plug-In Code](lyris-overview/lyris-deploy-integration/lyris-plugin-code.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Neolane Ozon Data Connector for Adobe Analytics {#neolane}
    + [Neolane Ozon Data Connector for Adobe Analytics](neolane-overview/neolane-overview.md)
       + [Key Benefits and Features](neolane-overview/neolane-benefits.md)
       + [Dynamic Marketing Segments](neolane-overview/neolane-marketing-segments.md)
@@ -159,8 +160,8 @@ user-guide: null
          + [Adobe Analytics Integration Variables](neolane-overview/neolane-requirements/neolane-variables.md)
       + [Activate the Integration](neolane-overview/neolane-activate.md)
       + [Adobe Analytics Plug-In Code](neolane-overview/neolane-plugin-code.md)
-+ Silverpop Data Connector for Adobe Analytics
-   + [optivo® broadmail Data Connector for Adobe Analytics](optivo-overview/optivo-overview.md)
++ optivo broadmail Data Connector for Adobe Analytics {#optivo}
+   + [optivo broadmail Data Connector for Adobe Analytics](optivo-overview/optivo-overview.md)
       + [Key Benefits and Features](optivo-overview/optivo-benefits.md)
       + [Dynamic Marketing Segments](optivo-overview/optivo-marketing-segments.md)
       + [Before You Activate](optivo-overview/optivo-requirements/optivo-requirements.md)
@@ -168,7 +169,7 @@ user-guide: null
          + [Adobe Analytics Variables](optivo-overview/optivo-requirements/optivo-variables.md)
       + [Activate the Integration](optivo-overview/optivo-activate.md)
       + [Adobe Analytics Plug-In Code](optivo-overview/optivo-plugin-code.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Qualtrics Data Connector for Adobe Analytics {#qualtrics}
    + [Qualtrics Data Connector for Adobe Analytics](qualtrics-overview/qualtrics-overview.md)
       + [Key Benefits and Features](qualtrics-overview/qualtrics-benefits.md)
       + [Before you Activate this Connector](qualtrics-overview/qualtrics-prereqs.md)
@@ -179,7 +180,7 @@ user-guide: null
       + [Using the Integration](qualtrics-overview/qualtrics-integration.md)
       + [Looking up your Qualtrics Organization ID](qualtrics-overview/qualtrics-org-id.md)
       + [Generating your Qualtrics Adobe Analytics Token](qualtrics-overview/qualtrics-token.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Responsys Data Connector for Adobe Analytics {#responsys}
    + [Responsys Data Connector for Adobe Analytics](responsys-home/responsys-home.md)
       + [Integration Overview](responsys-home/responsys-overview.md)
       + [Key Benefits](responsys-home/responsys-benefits.md)
@@ -188,7 +189,7 @@ user-guide: null
          + [Completing the Adobe Integration Wizard](responsys-home/responsys-deploy/responsys-wizard.md)
          + [Configuring within the Responsys System](responsys-home/responsys-deploy/responsys-configure.md)
       + [Verifying the Integration](responsys-home/responsys-verify.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Selligent Data Connector for Adobe Analytics {#selligent}
    + [Selligent Data Connector for Adobe Analytics](selligent-overview/selligent-overview.md)
       + [Key Benefits and Features](selligent-overview/selligent-benefits.md)
       + [Before you Activate this Integration](selligent-overview/selligent-activation/selligent-activation.md)
@@ -200,7 +201,7 @@ user-guide: null
          + [Configuration within Selligent](selligent-overview/selligent-deploy-integration/selligent-configuration.md)
          + [Verifying the Integration](selligent-overview/selligent-deploy-integration/selligent-verify-integration.md)
       + [Query String Param Plug-In Code](selligent-overview/selligent-plugin-code.md)
-+ Silverpop Data Connector for Adobe Analytics
++ Silverpop Data Connector for Adobe Analytics {#silverpop}
    + [Silverpop Data Connector for Adobe Analytics](silverpop-overview/silverpop-overview.md)
       + [Key Benefits and Features](silverpop-overview/silverpop-benefits.md)
       + [Updates for Silverpop 2.0](silverpop-overview/silverpop-whatsnew.md)

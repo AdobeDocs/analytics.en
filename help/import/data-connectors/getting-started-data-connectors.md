@@ -102,4 +102,3 @@ s.events="purchase";
 | Remarketing segment files are not received. | If you are not receiving your files, have one of your organization's supported users contact ClientCare to investigate the cause of reports not successfully being received. |
 
 **Important:** It is common for consultants to also set up a data warehouse request as a daily scheduled report in addition to your standard data connectors integration remarketing segment file. This data warehouse request would include data connectors variables as well as non-data connectors variables, and the request can be scheduled based only on your organization's specific request. To prevent confusion when troubleshooting, specify whether the file in question is the actual remarketing segment file, or a data warehouse request containing non-genesis variables.
-

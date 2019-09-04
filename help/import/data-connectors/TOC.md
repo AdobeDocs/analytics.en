@@ -7,7 +7,8 @@ user-guide: null
 
 # Table of Contents {#table-of-contents}
 
-+ Get Started with Analytics Data Connectors
++ Data Connectors {#dataconnectors}
++ [Get Started with Analytics Data Connectors](getting-started-data-connectors.md)
 + appFigures Data Connector for Adobe Analytics {#appfigures}
    + [appFigures Data Connector for Adobe Analytics](appfigures-overview/appfigures-overview.md)
       + [Key Benefits and Features](appfigures-overview/appfigures-benefits.md)

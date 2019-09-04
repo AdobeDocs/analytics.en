@@ -12,11 +12,7 @@ user-guide: null
 + appFigures Data Connector for Adobe Analytics {#appfigures}
    + [appFigures Data Connector for Adobe Analytics](appfigures-overview/appfigures-overview.md)
       + [Key Benefits and Features](appfigures-overview/appfigures-benefits.md)
-      + [Before You Activate This Integration](appfigures-overview/appfigures-before-activation/appfigures-before-activation.md)
-         + [Adobe Analytics Requirements](appfigures-overview/appfigures-before-activation/appfigures-analytics-requirements.md)
-         + [appFigures Requirements](appfigures-overview/appfigures-before-activation/appfigures-requirements.md)
-         + [Pricing](appfigures-overview/appfigures-before-activation/appfigures-pricing.md)
-         + [Analytics Integration Variables](appfigures-overview/appfigures-before-activation/appfigures-variables.md)
+      + [Before You Activate This Integration](appfigures-overview/appfigures-before-activation.md)
       + [Configure the Integration](appfigures-overview/t-appfigures-integration.md)
       + [Metrics and Dimensions](appfigures-overview/appfigures-metrics.md)
       + [Segmenting App Data](appfigures-overview/appfigures-segment-filter.md)

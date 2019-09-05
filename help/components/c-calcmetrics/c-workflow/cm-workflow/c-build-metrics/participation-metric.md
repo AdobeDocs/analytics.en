@@ -8,7 +8,7 @@ uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 
 # Participation Metric
 
-Here is a simple use case: You are a content owner and you want to see which pages contributed to (participated in) visits that contained an order. Here's how:
+Here is a simple use case: You are a content owner and you want to see which pages contributed to (i.e., participated in) visits that contained an order. Here's how:
 
 >[!NOTE]
 >

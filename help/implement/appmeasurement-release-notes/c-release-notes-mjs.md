@@ -21,6 +21,15 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
+## Versions 2.17.0 
+
+Release date: **August 23, 201**
+
+| Feature/Fix    | Description  |
+| -----------| ---------- |
+| Added Baidu support| Added support for Baidu query string reordering.|
+| Fix | Fixed an issue that caused stale visitor values in hits that were queued while waiting for opt-in.|
+
 ## Version 2.16.0
 
 Release Date: **August 15, 2019**

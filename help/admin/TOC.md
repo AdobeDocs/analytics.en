@@ -16,6 +16,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + Bot removal {#bot-removal}
+    + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
     + [Upload bot rules](admin/bot-removal/t-upload-bot-rules.md)
     + [Create a custom bot rule](admin/bot-removal/t-create-bot-rules.md)

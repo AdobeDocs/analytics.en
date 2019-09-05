@@ -102,15 +102,12 @@ The namespace is also predefined for the custom visitor ID.
 }
 ```
 
-For IDs in custom traffic or conversion variables (props or eVars), you should label the variable with an ID-DEVICE or ID-PERSON label and then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
+For IDs in custom traffic or conversion variables (props or eVars), label the variable with an ID-DEVICE or ID-PERSON label, then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](gdpr-labels.md).
 
 You can also see namespaces that you have previously defined for other variables or report suites and reuse one of those, so that the same namespace can easily be used for all your report suites that store that type of ID. It is also possible to assign the same namespace to multiple variables within a report suite. For example, some customers store a CRM ID in a traffic variable and a conversion variable (depending on the page, it is sometimes in one or the other or both), and they could assign the namespace "CRM ID" to both variables.
 
->[!NOTE]
->
->You cannot use the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the GDPR API, unless this is also the namespace you specified when applying the ID-DEVICE or ID-PERSON label to this variable. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites in these cases:
+> [!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the GDPR API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don’t match (such as when the friendly name has been localized for a specific report suite).
 
-*   The ID is in different eVars in some of the report suites, or
-*   The friendly names don’t match (such as when the friendly name has been localized for a specific report suite)
+> [!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
 For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7). 

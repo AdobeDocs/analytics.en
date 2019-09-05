@@ -45,7 +45,7 @@ The ability for Cross-Device Analytics to stitch devices together depends on a w
 * Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
 * Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
 * Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
-* Reporting granularity: The more finely you slice and dice your data, the lower compression may become. For example, compression that is summarized by day is generally lower than compression summarized by month. This is because the chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Likewise, segmenting, filterint or breaking down data may also show a lower compression ratio.
+* Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
 
 To see your organization's compression for a given time period:
 

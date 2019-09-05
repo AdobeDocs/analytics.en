@@ -1,16 +1,16 @@
 ---
 description: null
 seo-description: null
-seo-title: Optimize Workspace performance
-title: Optimize Workspace performance
+seo-title: Optimize Analysis Workspace performance
+title: Optimize Analysis Workspace performance
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 ---
 
-# Optimize Workspace performance
+# Optimize Analysis Workspace performance
 
 Certain factors can influence the performance of a project within Analysis Workspace. It’s important to know what those contributors are before you start building a project so that you can plan & build the project in the most optimal way. Below is a list of factors that will impact performance & best practices for optimizing your projects. Analysis Workspace performance is one of Adobe’s top priorities and something we are continuing to improve each day. 
 
-## Complexity of Segment Logic
+## Complexity of segment logic
 
 Intricate segments can have a significant impact on project performance. Factors that add complexity to a segment (in descending order of impact) include:
 
@@ -19,9 +19,9 @@ Intricate segments can have a significant impact on project performance. Factors
 * Number of unique dimension items within dimensions used in the segment (e.g., Page = 'A' when Page has 10 unique items will be faster than Page = 'A' when Page has 100000 unique items)
 * Number of different dimensions used (e.g., Page = 'Home' and Page = 'Search results' will be faster than eVar 1 = 'red' and eVar 2 = 'blue')
 * Many OR operators (instead of AND)
-* Nested containers that vary in scope (e.g., Hit inside of Visit inside of Visitor)
+* Nested containers that vary in scope (e.g., "Hit" inside of "Visit" inside of "Visitor")
 
-### Best Practice
+**Best practices for logic complexity**
 
 While some of the complexity factors cannot be prevented, think about opportunities to reduce the complexity of your segments. In general, the more specific you can be with your segment criteria, the better. For example:
 
@@ -35,7 +35,7 @@ In addition, [classifications](/help/components/c-classifications2/c-classificat
 
 The range of data requested throughout a project will influence Analysis Workspace performance.
 
-### Best Practice
+**Best practices for data range**
 
 Where possible, don’t pull in more data than you need.
 
@@ -47,7 +47,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 The number of graph visualizations contained in one project will affect overall responsiveness of Analysis Workspace. 
 
-### Best Practice
+**Best practice for number of visualizations**
 
 Decrease the number of visualizations in your project. Analysis Workspace is doing a lot of processing behind the scenes for each visual that you add, so prioritize the visuals that are most important to the consumer of the report and break out supporting visuals into a separate, more detailed project if needed.
 
@@ -62,7 +62,7 @@ The type of visualization (e.g. fallout vs a freeform table) added to a project 
 * Filters applied to rows in freeform tables
 * Number of metrics included, especially calculated metrics that use segments
 
-### Best Practice
+**Best practice for visualization complexity**
 
 If you notice that your projects aren't loading as quickly as you'd like, try replacing some segments with eVars and filters, where possible.
 
@@ -72,11 +72,11 @@ If you find yourself constantly using segments and calculated metrics for data p
 
 One panel can contain many visualizations, and as a result, the number of panels can also influence the overall responsiveness of Analysis Workspace.
 
-### Best Practice
+**Best practice for number of panels**
 
 Don’t try to add everything into one project, but rather create distinct projects that serve a specific purpose or group of stakeholders. Use tags to organize projects into key themes and share related projects with groups of stakeholders.
 
-If more organization of projects is desired, remember that [direct linking](https://www.youtube.com/watch?v=6IOEewflG2U) to your project is an option. Create an internal index of projects so that stakeholders can more easily find what they need. Additionally, Adobe is actively looking into bringing more organization options to Analysis Workspace.
+If more organization of projects is desired, remember that [direct linking](https://www.youtube.com/watch?v=6IOEewflG2U) to your project is an option. Create an internal index of projects so that stakeholders can more easily find what they need.
 
 If many panels are needed in one Workspace, collapse panels before saving and sharing. When a project is loaded, Analysis Workspace will only load content for the expanded panels. Collapsed panels will not be loaded until the user expands them. This approach helps in two ways:
 
@@ -87,6 +87,19 @@ If many panels are needed in one Workspace, collapse panels before saving and sh
 
 The size of the report suite may seem like a driving factor, but in reality it only plays a small role in project performance due to how Adobe handles data processing
 
-## Number of people concurrently accessing Analysis Workspace
+## Number of users concurrently accessing Analysis Workspace
 
-The number of people accessing Analysis Workspace or specific projects at the same time does not have a substantial effect on Analysis Workspace performance.
+The number of users accessing Analysis Workspace or specific projects at the same time does not have a substantial effect on Analysis Workspace performance, if users are accessing different report suites. If concurrent users are accessing the same report suite, performance will be impacted.
+
+## Common error messages in Analysis Workspace
+
+You may encounter errors when interacting with Analysis Workspace. Errors can occur for several reasons and listed below are the most common ones.
+
+|Error message|Why does this occur?|
+|---|---|
+|`The report suite is experiencing unusually heavy reporting. Please try again later.`| Your organization is trying to run too many concurrent requests against a specific report suite. Contributors to this error are API requests, scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. We recommend that your requests and schedules for the report suite be spread more evenly throughout the day.|
+|`A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.`|Adobe is experiencing an issue that needs to be resolved. We recommend that you submit the error code through a Customer Care request.|
+|`The request is too complex.`|Your reporting request is too large and cannot be executed. Contributors to this error are timeouts due to the request's size, too many matched items in a segment or search filter, too many metrics included, incompatible dimension and metric combinations, etc. We recommended that you simplify your request.|
+|`One of the segments or the search in this visualization contains a text search that returned too many results.`|We recommend narrowing your search text criteria and trying the request again.|
+|`This dimension does not currently support non-default attribution models.`|We recommend replacing the dimension in your table with one that is compatible with [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html).|
+|`Your request failed as a result of too many columns or pre-configured rows.`|We recommend removing some of the columns or rows, or consider splitting them into separate visualizations.|

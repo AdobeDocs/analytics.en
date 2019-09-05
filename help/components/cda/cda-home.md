@@ -39,7 +39,11 @@ As of September 2019, Cross-Device Analytics requires the following. Work with t
 
 Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used.
 
+* CDA is available through Analysis Workspace only.
 * Stitching cannot occur across IMS organizations. Make sure that you are not using multiple IMS Orgs in your implementation.
+* Stitching cannot occur across report suites as described in Prerequisites above.
+* CDA is not currently compatible with Customer Attributes. Customer Attributes cannot be used to create a CDA virtual report suite, within cross-device segments, or for reporting within an Analysis workspace project that is based on a CDA virtual report suite.
+* CDA requires either Co-op Graph or Private Graph. 3rd-party device graphs are not supported.
 * Legacy Analytics ID's are not supported. Only visitors with Experience Cloud ID's are stitched.
 * Customer Care does not yet fully support this feature. The [Cross-Device Analytics forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) can be used for support on this feature, which includes active and direct involvement from Adobe Product Managers.
 * Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.

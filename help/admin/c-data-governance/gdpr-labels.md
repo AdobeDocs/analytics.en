@@ -241,6 +241,8 @@ It is acceptable to use the same namespace for different variables within the sa
 
 As another example, you might have a CRM ID that is sometimes sent in via eVar1 and sometimes sent in via prop7. You then have a processing rule that copies the value from eVar1, if it exists, into eVar3. Otherwise it copies the value from prop7 into eVar3. In this scenario, eVar3 will always contain the CRM ID if it is known, so only eVar3 requires an ID-PERSON label.
 
+> [!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
+
 ## Variable Types and the GDPR/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
 GDPR/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels. 

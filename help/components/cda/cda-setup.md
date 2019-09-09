@@ -9,20 +9,26 @@ description: Learn how to set up Cross-Device Analytics after you meet the prere
 
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
 
-## Enable Cross-Device Analytics
+## Choose the cross-device report suite that will be enabled for CDA
+
+When your organization is provisioned to use CDA, you choose which report suite to use. This choice can be communicated through your Adobe Account Manager. Adobe then enables your chosen report suite for CDA processing.
+
+## Create a cross-device virtual report suite to see the cross-device view
+
+Administrators with access to create virtual report suites can create CDA virtual report suites as follows:
 
 1. Navigate to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) and log in using your AdobeID credentials.
 2. Click the 9-grid icon at the top, then click Analytics.
 3. Hover over Components at the top, then click Virtual Report Suites.
 4. Click Add.
-5. Enter a name for your virtual report suite, and ensure the correct report suite is selected.
+5. Enter a name for your virtual report suite, and ensure that the CDA-enabled report suite is selected.
 6. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
 7. Click the checkbox 'Stitch User Visits Across Devices'.
-8. Click Continue, then click Save.
+8. Click Continue, finish configuring the virtual report suite, then click Save.
 
 ![CDA checkbox](assets/cda-checkbox.png)
 
-## Additions and changes to Cross-Device virtual report suites
+## Additions and changes to cross-device virtual report suites
 
 When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
@@ -33,12 +39,13 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 ## The Compression calculated metric
 
-The ability for Cross-Device Analytics to stitch devices together depends on a wide range of factors. The effectiveness of the feature's ability to stitch data is called compression. Factors that contribute to compression include:
+The ability for Cross-Device Analytics to stitch devices together depends on a wide range of factors. The effectiveness of the feature's ability to stitch data can be measured with a calculated metric called compression. Factors that contribute to compression include:
 
-* Using the device co-op or private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
+* Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
 * Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
-* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A higher percentage of visitors to your site using an ECID correlates to higher compression rates.
+* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
 * Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
+* Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
 
 To see your organization's compression for a given time period:
 

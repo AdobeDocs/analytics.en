@@ -11,7 +11,12 @@ In Adobe Analytics, you have multiple options for removing bot traffic from repo
 
 ## Use Bot Rules
 
-The default bot filtering method in Adobe Analytics is to [create bot rules](/help/admin/admin/bot-removal/bot-rules.md) that are based on the IAB bot list. This list is updated monthly and compiles its list from many sources, including CDNs and major internet properties. It includes thousands of known bots including all of your favorites: Google, Bing, Mozilla, etc. This list covers the overwhelming majority of use cases and needs around bot filtration.
+Both standard and custom bot filtering methods are supported in Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules:
+
+| Rule type  | Description  |
+|--- |--- |
+|Standard IAB bot rules|Selecting 'Enable IAB Bot Filtering Rules' uses the [IAB's](https://www.iab.com/) (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Most customers select this option at a minimum.|
+|Custom bot rules|You can define and add custom bot rules based on user agents, IP addresses or IP ranges.|
 
 ## Use the `hitGovernor` implementation plug-in
 

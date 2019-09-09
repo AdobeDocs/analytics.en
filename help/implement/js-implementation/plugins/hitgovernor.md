@@ -10,10 +10,6 @@ uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 
 The s.hitGovernor plugin tracks the total number of Analytics image requests sent during a predefined rolling time frame, and can perform additional logic as required if that total exceeds a certain threshold.
 
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
-
-The s.hitGovernor plugin tracks the total number of Analytics image requests sent during a predefined rolling time frame, and can perform additional logic as required if that total exceeds a certain threshold. 
-
 Although traffic from bots, spiders, specific user agents, or a specific list of IP addresses can be identified as bot traffic or otherwise excluded from reporting, there can be traffic that is captured in your report suites that should not otherwise be counted. For example, a high number of clicks or page views during an unreasonable amount of time (i.e. approximately one request per second) could potentially be duplicitous traffic.
 
 Using this plugin allows for that traffic to automatically be blocked for the remainder of that visitor's lifetime, and that traffic can also be dynamically identified within reports.

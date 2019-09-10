@@ -18,8 +18,6 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + Bot removal {#bot-removal}
     + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
-    + [Upload bot rules](admin/bot-removal/t-upload-bot-rules.md)
-    + [Create a custom bot rule](admin/bot-removal/t-create-bot-rules.md)
   + [Code Manager](admin/code-manager-admin.md)
   + Conversion variables {#conversion-variables}
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)

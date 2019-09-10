@@ -73,6 +73,10 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Create virtual report suites](vrs/c-workflow-vrs/vrs-create.md)
     + [Manage virtual report suites](vrs/c-workflow-vrs/vrs-manage.md)
     + [View virtual report suite information](vrs/c-workflow-vrs/vrs-view.md)
++ Cross-Device Analytics {#cda}
+  + [Cross-Device Analytics Overview](cda/cda-home.md)
+  + [Setting up Cross-Device Analytics](cda/cda-setup.md)
+  + [Cross-Device Analytics FAQ](cda/cda-faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)
   + [Alert Builder](c-alerts/alert-builder.md)

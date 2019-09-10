@@ -34,11 +34,13 @@ The variable value will be set to “internal” or “external”.
 
 Add this code below the doPlugins section of your AppMeasurement library. 
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
 ## Other Notes
 

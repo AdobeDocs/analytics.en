@@ -1,3 +1,10 @@
+---
+title: PWAs for Analytics
+seo-title: PWAs for Analytics
+description: Progressive web apps for Adobe Analytics
+seo-description: Use PWAs with Analytics
+---
+
 # PWAs for Analytics
 
 This guide describes how to use Adobe Analytics with Progressive Web Apps (PWAs).

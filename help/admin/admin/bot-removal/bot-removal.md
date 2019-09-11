@@ -11,7 +11,7 @@ In Adobe Analytics, you have multiple options for removing bot traffic from repo
 
 ## Use Bot Rules
 
-Both standard and custom bot filtering methods are supported in ![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+Both standard and custom bot filtering methods are supported in ![UICONTROL Analytics] > ![UICONTROL Admin] > ![UICONTROL Report Suites] > ![UICONTROL Edit Settings] > ![UICONTROL General] > ![UICONTROL Bot Rules]:
 
 | Rule type  | Description  |
 |--- |--- |

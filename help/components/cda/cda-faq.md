@@ -5,6 +5,8 @@ description: Frequently asked questions for Cross-Device Analytics
 
 # Frequently asked questions
 
+> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
+
 **How can I use CDA to see how people move from one device type to another?**
 
 You can use a Flow visualization with the Mobile Device Type dimension.

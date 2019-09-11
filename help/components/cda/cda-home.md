@@ -5,6 +5,8 @@ description: Cross-Device Analytics changes your data from being device-focused 
 
 # Cross-Device Analytics
 
+> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
+
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. This feature uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to identify which devices belong to individuals, and stitch them together. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Using CDA you can answer questions such as:
  
 * How many people are interacting with my brand? How many and what types of devices do they use? How do they overlap?

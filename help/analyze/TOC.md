@@ -322,6 +322,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Time](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
   + [Labs overview](tech-previews/overview.md)
++ Progressive web apps {#pwa}
+  + [Progressive web apps](pwa/pwa.md)
 + Analytics Reporting API {#analytics-reporting-api}
   + [Analytics Reporting API Overview](c-reporting-api/c-reporting-api.md)
   + [Analytics Reporting API Comparison](c-reporting-api/api-comparison.md)

@@ -19,8 +19,8 @@ Doing so will ensure that the appropriate best practices or pre-requisites are i
 
 Review the following information about this data connectors integration as it relates to Adobe Analytics:
 
-* **Report-Suite Specific:** Be advised that this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration and that the report suite contains data. 
-* **Available and configured Analytics variables:** This integration requires 10 custom events and 1 custom eVar. See [Analytics Integration Variables](../appfigures-overview/appfigures-before-activation.md#analytics-integration-variables). 
+* **Report-Suite Specific:** Be advised that this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration and that the report suite contains data.
+* **Available and configured Analytics variables:** This integration requires 10 custom events and 1 custom eVar. See [Analytics Integration Variables](appfigures-before-activation.md#analytics-integration-variables).
 
 * **Report Suite initialized with Live data:** If you are creating a brand new report suite for this integration it needs to have received some (at least one hit) data via live tracking appFigures requirements. If live data has not been recorded, the report suite will not be ready to receive integrated App Store data.
 

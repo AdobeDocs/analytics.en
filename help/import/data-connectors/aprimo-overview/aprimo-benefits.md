@@ -9,11 +9,3 @@ internal: n
 snippet: y
 ---
 
-# Key Benefits and Features{#key-benefits-and-features}
-
-This integration includes the following key benefits:
-
-* Consolidate email marketing and analytics data into one reporting interface. 
-* Optimize email campaigns by conversion and contribution to revenue and site success. 
-* Re-market to key visitors and market segments based on dynamic marketing segments.
-

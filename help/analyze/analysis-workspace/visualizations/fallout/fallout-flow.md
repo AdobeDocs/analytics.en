@@ -40,7 +40,7 @@ Let's take an example of fallout with two steps:
 
 If you then apply a segment at the Workspace panel level, the segment combines with the fallout like this:
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 By contrast, when Reports & Analytics and Ad Hoc Analysis calculate the segment, the segment is combined this way:
 

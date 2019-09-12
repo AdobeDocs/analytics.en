@@ -20,9 +20,9 @@ Doing so will ensure that the appropriate best practices or pre-requisites are i
 Review the following information about this data connectors integration as it relates to Adobe Analytics:
 
 * **Report-Suite Specific:** Be advised that this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration and that the report suite contains data. 
-* **Available and configured Analytics variables:** This integration requires 10 custom events and 1 custom eVar. See [Analytics Integration Variables](../../appfigures-overview/appfigures-before-activation/appfigures-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2). 
+* **Available and configured Analytics variables:** This integration requires 10 custom events and 1 custom eVar. See [Analytics Integration Variables](../appfigures-overview/appfigures-before-activation#section-3ca8dc46bab0436cba0c9ef827c8356a). 
 
-* **Report Suite initialized with Live data:** If you are creating a brand new report suite for this integration it needs to have received some (at least one hit) data via "live" tracking (instructions in [Adobe Analytics Requirements](#appfigures-requirements)). If "live" data has not been recorded, the report suite will not be ready to receive integrated App Store data.
+* **Report Suite initialized with Live data:** If you are creating a brand new report suite for this integration it needs to have received some (at least one hit) data via live tracking appFigures requirements. If live data has not been recorded, the report suite will not be ready to receive integrated App Store data.
 
 * **Existing integration with App store:** This integration back fills data for 13 months. In order to avoid any overlap with any previous App store data provider you might have had, please reach out to your appFigures representative. Let them know the last date you received data. appFigures will adjust the back fill period accordingly.
 
@@ -31,7 +31,7 @@ Review the following information about this data connectors integration as it re
 Review the following information about this data connectors integration as it relates to appFigures:
 
 * **Current Customer of appFigures:** This integration requires you to be a user of both Adobe and appFigures. If you are not currently a user of the appFigures Enterprise Plan, you will not have the information necessary to complete the integration wizard. Please visit appFigures on the web for more information. 
-* **appFigures Account Key:** An appFigures Account Key is required to activate the appFigures Data Connector. This account key can be generated in the “Add-ons” section. Refer to [Configure the Integration](../appfigures-overview/t-appfigures-integration.md#configure-the-integration) for more information. 
+* **appFigures Account Key:** An appFigures Account Key is required to activate the appFigures Data Connector. This account key can be generated in the “Add-ons” section. Refer to [Configure the Integration](../appfigures-overview/t-appfigures-integration.md) for more information.
 
 * **Data Finalization**: Download, sales, and ranking information is synchronized each day for the previous 7 days. After 7 days data is considered final and is no longer updated.
 

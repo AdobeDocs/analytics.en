@@ -181,7 +181,7 @@ For example:
 
 The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] can also be included within a [Logic Group](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## Exclude between checkpoints
+### Exclude between checkpoints
 
 Enforce logic to segment visitors where a checkpoint did not explicitly occur between two other checkpoints.
 
@@ -200,7 +200,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 ![](assets/exclude_between_checkpoints.png)
 
-## Exclude at beginning of sequence
+### Exclude at beginning of sequence
 
 If the exclude checkpoint is at the beginning of a sequential segment, then it ensures that an excluded page view did not occur before the first non-excluded hit.
 
@@ -219,7 +219,7 @@ Create two separate Hit containers within a top-level Visitor container. Then se
 
 ![](assets/exclude_beginning_sequence.png)
 
-## Exclude at end of sequence
+### Exclude at end of sequence
 
 If the exclude checkpoint is at the end of a sequence, then it ensures that the checkpoint did not happen between the last non-excluded checkpoint and the end of the visitor sequence.
 
@@ -240,7 +240,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Logic Group containers
 
-Within a sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). The [!UICONTROL Logic Group] container was designed to be used when higher level containers are required in sequential segments to further filter visitors and to furnish complex, nested, visitor-level constraints to refine the segment. 
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). The [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. In other words, we don't care about the order of the checkpoints within that group. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints. 
 
 |  Standard Container Hierarchy  |
 |---|
@@ -251,14 +251,12 @@ Within a sequential segmentation, it is required that containers are ordered str
 >
 >A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
 
-A [!UICONTROL Logic Group] container treats several checkpoints as a group without ordering. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit] and [!UICONTROL Hit]-level checkpoints. 
-
 |  Logic Container Non-Standard Hierarchy  |
 |---|
 |   ![](assets/logic_group_hierarchy.png) |
 | The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
 Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
 
@@ -269,7 +267,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. You can now set the [!UICONTROL Hit] within the [!UICONTROL Logic Group] container without regard to hierarchy.
 
-## Logic Group checkpoints in any order
+### Logic Group checkpoints in any order
 
 Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
@@ -281,7 +279,7 @@ Page B and C are nested in a [!UICONTROL Logic Group] container within the outer
 
 ![](assets/logic_group_any_order2.png)
 
-## Logic Group first match
+### Logic Group first match
 
 Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. In this unordered first match segment, the [!UICONTROL Logic Group] rules are identified first to be either a page view of page B or page C, then the required view of page A.
 
@@ -293,7 +291,7 @@ Page B and page C dimensions are grouped within a [!UICONTROL Logic Group] conta
 
 ![](assets/logic_group_1st_match.png)
 
-## Logic Group exclude AND
+### Logic Group exclude AND
 
 Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
 
@@ -307,7 +305,7 @@ After nesting the values within the [!UICONTROL Logic Group], click the **[!UICO
 
 ![](assets/logic_exclude_and.png)
 
-## Logic Group exclude OR
+### Logic Group exclude OR
 
 Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed.
 
@@ -331,7 +329,7 @@ Use the [!UICONTROL Within] and [!UICONTROL After] operators built in to the hea
 
 You can limit matching to a specified duration of time by using the [!UICONTROL Within] and [!UICONTROL After] containers and specifying a granularity and count. The [!UICONTROL Within] operator is used to specify a max limit on the amount of time between two checkpoints. The [!UICONTROL After] operator is used to specify a minimum limit on the amount of time between two checkpoints.
 
-## After and Within Operators {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After and Within Operators {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 The duration is specified by a single uppercase letter representing the granularity followed by a number representing the repetition count of the granularity.
 
@@ -345,7 +343,7 @@ The duration is specified by a single uppercase letter representing the granular
 |WITHIN|The  Within operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the  Within operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B.   For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B.|
 |AFTER/WITHIN|When using both the  After and  Within operators, it's important to understand that both operators will begin and end in parallel, not sequentially.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Both conditions are enforced from the time of the first page hit.|
 
-## Use the After operator
+### Use the After operator
 
 * Time After lets you track by year, month, day, hour, and minute to match visits. 
 * Time After can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
@@ -367,7 +365,7 @@ When given "After 2 weeks", if a hit to page A happens on June 1 2019, at 00:01,
 |**A** hit: June 1, 2019 00:01|**B** hit: Jun 15, 2019 00:01|**Matches:** This time constraint matches because it is After June 1, 2019 (two weeks).|
 |**A** hit: June 1, 2019 00:01|**B** hit: June 8, 2019 00:01 B hit: June 15, 2019 00:01|**Does not match:** The first hit on page B does not match because it conflicts with the constraint requiring it after two weeks.|
 
-## Use the Within operator
+### Use the Within operator
 
 * [!UICONTROL Within] lets you track by year, month, day, hour, and minute to match visits. 
 * [!UICONTROL Within] can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
@@ -388,7 +386,7 @@ When given "After 2 weeks", if a hit to page A happens on June 1 2019, at 00:01,
 
 Matches must occur within the time limit. For the expression , if a visitor hits page A happens at 00:01, then a following hit to page B will match as long as it comes on or before 00:06 (five minutes later, including the same minute). Hits within the same minute will also match.
 
-## The Within and After operators
+### The Within and After operators
 
 Use [!UICONTROL Within] and [!UICONTROL After] to provide a maximum and minimum endpoint at both ends of a segment.
 

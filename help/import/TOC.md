@@ -45,13 +45,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Activate the Integration](data-connectors/aprimo-overview/t-aprimo-activate.md)
       + [Adobe Analytics Plug-In Code](data-connectors/aprimo-overview/aprimo-sitecatalyst-code.md)
    + ContactLab Data Connector for Adobe Analytics {#contactlab}
-      + [ContactLab Data Connector for Adobe Analytics](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
-         + [Integration Overview](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-integration-overview.md)
-         + [Key Benefits and Features](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-key-benefits-and-features.md)
-         + [Integration Prerequisites](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-integration-prerequisites.md)
-         + [Deploying the Integration](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/contactlab-deploying-the-integration.md)
-            + [Completing the Adobe Integration Wizard](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/t-contactlab-completing-the-adobe-integration-wizard.md)
-            + [Verifying the Integration](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/t-contactlab-verifying-the-integration.md)
+     + [ContactLab Data Connector for Adobe Analytics](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
+     + [Deploying the Integration](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/contactlab-deploying-the-integration.md)
    + Datran Data Connector for Adobe Analytics {#datran}
       + [Datran Data Connector for Adobe Analytics](data-connectors/datran-integration-overview/datran-integration-overview.md)
          + [Key Benefits](data-connectors/datran-integration-overview/datran-key-benefits.md)

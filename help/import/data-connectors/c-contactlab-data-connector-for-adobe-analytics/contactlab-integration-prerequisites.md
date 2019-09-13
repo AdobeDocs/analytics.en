@@ -14,10 +14,5 @@ snippet: y
 
 Lists prerequisites for Adobe Analytics customers.
 
-## Prerequisites for Adobe Customers {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
-* Must be a current customer of Adobe Analytics. 
-* Must have Admin privileges. 
-* Must have 2 available and enabled eVars within your report suite. 
-* Must have 5 available events enabled within your report suite.
 

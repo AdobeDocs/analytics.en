@@ -16,7 +16,7 @@ You can exclude data from specific IP addresses, such as internal website activi
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Hits excluded by IP address are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
 
 ## Exclude By Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 

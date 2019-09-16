@@ -15,7 +15,7 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 
 | Rule type  | Description  |
 |--- |--- |
-|Standard IAB bot rules|Selecting 'Enable IAB Bot Filtering Rules' uses the [IAB's](https://www.iab.com/) (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Most customers select this option at a minimum.|
+|Standard IAB bot rules|Selecting **[!UICONTROL Enable IAB Bot Filtering Rules]** uses the [IAB's](https://www.iab.com/) (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Most customers select this option at a minimum.|
 |Custom bot rules|You can define and add custom bot rules based on user agents, IP addresses or IP ranges.|
 
 For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rules.md).
@@ -26,7 +26,7 @@ Use the [s.hitGovernor implementation plug-in](https://docs.adobe.com/content/he
 
 ## Use a combination of Adobe Tools
 
-In addition, since bots are advancing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools.
+In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools.
 
 ### Step 1: Pass your visitors’ Experience Cloud ID into a new declared ID
 
@@ -46,7 +46,7 @@ Now that you have your visitor’s ECID passed into a declared ID, you can use [
 
 ![](assets/bot-filter-seg1.png)
 
-### Step 3: Export all the ECIDs from the segment via Data Warehouse
+### Step 3: Export all [!DNL Experience Cloud IDs] from the segment via Data Warehouse
 
 Now that you have identified the bots using segments, the next step is to leverage Data Warehouse to extract all the Experience Cloud IDs associated with this segment. This is how you should set up your [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) request:
 
@@ -67,7 +67,7 @@ Use this .CSV file as your Customer Attribute import file, then subscribe your r
 
 ### Step 5: Create a segment that leverages the new Customer Attribute
 
-Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new “Bot Flag” customer attribute dimension and an ![UICONTROL Exclude] container:
+Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new “Bot Flag” customer attribute dimension and a [!UICONTROL Exclude] container:
 
 ![](assets/bot-filter-seg2.png)
 

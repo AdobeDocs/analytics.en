@@ -30,8 +30,6 @@ Enable user permissions for General items (billing, logs, etc.), Company Managem
 
 Click **[!UICONTROL Customize]** to select items to which this group will have access.
 
-![](assets/customize-analytics-tools.png)
-
 ## Field Descriptions
 
 The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 

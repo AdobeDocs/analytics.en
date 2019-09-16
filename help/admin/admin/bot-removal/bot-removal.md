@@ -22,7 +22,7 @@ For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rule
 
 ## Use the `hitGovernor` implementation plug-in
 
-Use the [s.hitGovernor implementation plug-in](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html), which removes visitors who behave like bots by sending dozens or hundreds of hits per minute.
+Use the [s.hitGovernor implementation plug-in](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html), which removes visitors who behave like bots, meaning these visitors send dozens or hundreds of hits per minute.
 
 ## Use a combination of Adobe Tools
 

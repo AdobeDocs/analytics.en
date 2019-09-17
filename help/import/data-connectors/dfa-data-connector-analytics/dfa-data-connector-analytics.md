@@ -22,3 +22,57 @@ The DoubleClick for Advertisers (DFA) integration solves this problem by using A
 
 ![](assets/data-connectors-home.png)
 
+## Key Benefits{#key-benefits}
+
+Key Benefits of the Data Connector - DFA integration include:
+
+* **Increased conversion**: Gain directional insight to optimize ad campaign placement and on-site conversion based on post-click visitor behavior and preferences. 
+* **Shared location for data**: Combine DoubleClick DFA click-through and view -through data with Reports & Analytics to improve cross-organizational collaboration and abilities to make objective decisions. 
+* **Value-added analysis**: Automated integration between DFA and Adobe Reports & Analytics allows advertisers and agencies to spend less time crunching data and more time analyzing reports and taking action. 
+* **Deeper customer insight**: Gain greater insight into where visitors are coming from and what they are doing on your site. 
+* **Lifetime success metrics**: Measure the effectiveness of your acquisition campaigns across the entire visitor life cycle. 
+* **Integrated Reporting**: Automatically synchronize data between DFA and Reports & Analytics for streamlined business processes and reporting. 
+* **Lifetime Visitor Analysis**: Measure campaign effectiveness by multiple user-defined success events and lifetime value. 
+* **Cost Metrics**: Optimize return on investment by comparing DFA cost figures and revenue generated from those costs in a single system.
+
+## Ad Serving Integration Overview{#ad-serving-integration-overview}
+
+There are several ways in which this integration captures data about the ad-driven visitor. The first way is via clicking on an ad and arriving on a tagged landing page, called a click through:
+
+ ![](assets/Diagram1.png)
+
+The visitor arrives upon a publisher’s site, which hosts the Ad. This Ad has a unique identifier, called the Ad ID. Ads comprise a Placement plus a Creative, which describe where the Ad is on the Publisher’s site and what content was shown to the visitor. When the visitor fetches this Ad, placement, or creative from the DFA content servers, it tracks an Impression to the DFA Floodlight Servers for this visitor (1).
+
+If the visitor clicks on the ad (2), the Floodlight Server is queried, which counts a click, then 302 redirects (3) the visitor to the Landing Page. When the visitor has arrived upon the Landing page, this is termed a click-through. This page contains Adobe tracking code which queries data from the DFA Floodlight Server.
+
+If the visitor does not actually arrive on the Landing Page after the Floodlight Server has tracked a click, this is not termed a click-through. Some ads and implementations may not actually cause the visitor’s browser to obey the 302 redirect. For further discussion on this topic, see [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f).
+
+The next metric captured by this integration occurs when the visitor receives the Ad impression, does not click, yet sometime in the near future arrives upon the Landing page by another means.
+
+![](assets/Viewthrough.png)
+
+This scenario is termed a view-through. The difference in this scenario with the click-through scenario is that the visitor does not click on the Ad, but instead continues to other activities before coming to the Landing page (2). In the simplest case, the visitor types in the landing page’s URL in the browser. In other cases, the visitor continues browsing but later uses a search engine, which drives the visitor to the landing page. In any case, the user arrives upon the landing page. 
+
+## Adobe Integration: Real-Time Data Collection{#adobe-integration-real-time-data-collection}
+
+The following figure shows how data collection works.
+
+ ![](assets/DFA_data_collection.png)
+
+The data collection portion of the Adobe integration begins when the visitor arrives to the landing page (1). The Adobe data collection code running on the landing page has no knowledge of the history the visitor has had with served ads. The Google DFA team has coordinated a service running on the DFA Floodlight Server to allow the Adobe code to query ad information about the visitor currently on the site (2). To obtain this data, it temporarily delays the Adobe image beacon, and requests the data from the Floodlight Server.
+
+Once the data arrives, or takes too long, it fires the hit to the Adobe tracking servers (3).
+
+The Integrate module is a special core Adobe JavaScript module which causes the Adobe image beacon to delay, waiting on a 3rd party request for a specific amount of time ( *`s.maxDelay`*). *`s.maxDelay`* defines how long the Integrate module will wait for data from the DFA Floodlight Server before firing the image tag to the visitor’s browser. This behavior is important so that basic visitor data is still collected, even when the DFA Floodlight Servers are down or heavily loaded. If the Floodlight data arrives before *`s.maxDelay`* has expired, the Adobe tracking data will be fired immediately, and will contain the additional DFA data.
+
+When a timeout occurs, the page code can specify an Adobe Reports & Analytics Event to be used as a Timeout Event. This event is useful when diagnosing problems with the integration, or when adjusting *`s.maxDelay`*. In cases where there are excessive timeouts, increase *`s.maxDelay`*. *`s.maxDelay`* can be set too high, however, in which cases visitors could have the potential of leaving the site prior to the *`s.maxDelay`* timer expiring. For more discussion on this topic, see [Tuning s.maxDelay](../dfa-data-connector-analytics/dfa-integration/dfa-tuning-s-maxlelay.md#concept-6deb28eee18e414db220d6009d449f0d).
+
+Sometimes the Floodlight Server responds with errors about the visitor. This usually occurs when the Floodlight Server does not know anything about the visitor, because the visitor has not yet seen any ads, or does not have a DFA visitor cookie. The page code can specify a Custom Conversion variable (eVar) which will collect these errors, and can aide in troubleshooting implementation problems or point out issues with the Google transaction. The most common errors are No History, No Cookie, Query Error, and Opted Out, as described in the following table: 
+
+|  Error  | Name  | Description  |
+|---|---|---|
+|  nh  | No History  | The visitor has not viewed or clicked any ads.  |
+|  nc  | No Cookie  | The visitor does not have a DFA visitor cookie.  |
+|  qe  | Query Error  | There was an error querying data for the Floodlight Server.  |
+|  oo  | Opted Out  | The visitor opted-out of Google impression/click tracking.  |
+

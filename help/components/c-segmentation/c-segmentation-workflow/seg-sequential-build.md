@@ -250,12 +250,12 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 |Container Hierarchy|Illustration|Definition|
 |---|---|---|
-|  Standard Container Hierarchy|   ![](assets/nesting_container.png) |Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
+|  Standard Container Hierarchy| ![](assets/nesting_container.png) |Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
 |  Logic Container Hierarchy  | ![](assets/logic_group_hierarchy.png) |The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
+Like other containers, [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
 
 1. Drag dimensions, events, or segments from the left panes. 
 1. Change the top container to a [!UICONTROL Visitor] container. 

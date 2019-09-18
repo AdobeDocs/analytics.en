@@ -37,11 +37,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
+**[!UICONTROL Search Keywords - All]**: Displays a breakdown of each search keyword that has been used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
+**[!UICONTROL Search Keywords - Paid]**: Displays a breakdown of each paid search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site. 
+**[!UICONTROL Search Keywords - Natural]**: Displays a breakdown of each natural search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site. 
 
 ## Search Engines {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -53,11 +53,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
+**[!UICONTROL Search Engines - All]**: Displays which search engines that people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
+**[!UICONTROL Search Engines - Paid]**: Displays which paid-keyword search engines that people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site. 
+**[!UICONTROL Search Engines - Natural]**: Displays which natural-keyword search engines people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site. 
 
 ## Referring Domains {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -128,7 +128,7 @@ The following line items might display when running this report:
 
 ** No Java Script**: There was no JavaScript so the type was unidentifiable (unknown). This means that there was no referrer information provided by a client on a browser, which does not report being able to support Javascript. These are not counted as "referrer instances" but can be seen when reporting other metrics.
 
-**USENET (newsgroup)**: This means that the URL of a referrer started with [!DNL news://]. As such, the referrer link was posted on a Usenet newsgroup rather than a web page.
+**USENET (newsgroup)**: This means that the URL of a referrer started with `news://`. As such, the referrer link was posted on a Usenet newsgroup rather than a web page.
 
 >[!NOTE]
 >

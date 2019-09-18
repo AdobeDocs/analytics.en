@@ -240,9 +240,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Logic Group containers
 
-Logic Group containers are required to group conditions into a single sequential segment checkpoint. The non-sequential containers (hit, visit, visitor) do not require their conditions to be met within the overall sequence, producing unintuitive results if used adjacent to a THEN operator. The special Logic Group container is available only in sequential segmentation, to ensure its conditions are met after any prior sequential checkpoint and before any following sequential checkpoint. The conditions within the Logic Group checkpoint itself may be met in any order.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). By contrast, the [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. In other words, we don't care about the order of the checkpoints within that group. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Logic Group containers are required to group conditions into a single sequential segment checkpoint. The special Logic Group container is available only in sequential segmentation, to ensure its conditions are met after any prior sequential checkpoint and before any following sequential checkpoint. The conditions within the Logic Group checkpoint itself may be met in any order. By contrast, non-sequential containers (hit, visit, visitor) do not require their conditions to be met within the overall sequence, producing unintuitive results if used with a THEN operator. 
+The [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. In other words, we don't care about the order of the checkpoints within that group. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -275,6 +274,12 @@ Using the [!UICONTROL Logic Group] lets you meet conditions within that group th
 Page B and C are nested in a [!UICONTROL Logic Group] container within the outer [!UICONTROL Visitor] container. The [!UICONTROL Hit] container for A is then followed by the [!UICONTROL Logic Group] container with B and C identified using the [!UICONTROL AND] operator. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting either page B or C makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**Another example**: Visitors who visited page B or page C, then visited page A:
+
+![](assets/logic_group_any_order3.png)
+
+The segment must match at lease one of the logic group's checkpoints (B or C). Also, logic group conditions may be met in the same hit or across multiple hits.​
 
 ### Logic Group first match
 
@@ -317,6 +322,12 @@ Build this segment by dragging Dimensions, Events, and pre-built Segments from t
 After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
 
 ![](assets/logic_exclude_or.png)
+
+### Logic Group best practices
+
+Logic groups may seem daunting, but here are some best practices to 
+
+* 
 
 ## Build time-within and time-after segments
 

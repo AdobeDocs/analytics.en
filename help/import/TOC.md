@@ -79,15 +79,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Analytics Plug-In Code](data-connectors/dreammail-overview/dreammail-analytics-code.md)
    + Dynamic Signal VoiceStorm Data Connector for Adobe Analytics {#dynamicsignal}
       + [Dynamic Signal VoiceStorm Data Connector for Adobe Analytics](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
-         + [Key Benefits and Features](data-connectors/dynamic-signal-for-analytics/dynamic-signal-benefits.md)
-         + [Integration Prerequisites](data-connectors/dynamic-signal-for-analytics/dynamic-signal-integration-prerequisites.md)
-         + [Deploying the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration/dynamic-signal-deploy-integration.md)
-            + [Completing the Adobe Integration Wizard](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration/t-dynamic-signal-wizard.md)
-            + [Verifying the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration/t-dynamic-signal-verify-integration.md)
-         + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-use-integration.md)
-            + [Viewing Traffic and Conversion Metrics by Dynamic Signal Dimensions](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-metrics.md)
-            + [Segmenting by Dynamic Signal Dimensions](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-segmenting-dimensions.md)
-            + [Integrated Reporting Dimensions](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-reporting-dimensions.md)
+      + [Deploying the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration/dynamic-signal-deploy-integration.md)
+      + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-use-integration.md)
    + Emarsys Data Connector for Adobe Analytics {#emarsys}
       + [Emarsys Data Connector for Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
          + [Key Benefits](data-connectors/emarsys-overview/emarsys-benefits.md)

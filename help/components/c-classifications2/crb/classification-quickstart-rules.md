@@ -142,7 +142,7 @@ How the regular expression correlates to the campaign ID:
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
@@ -170,7 +170,7 @@ One way to use a regular expression is to classify a specific character in a str
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
@@ -195,7 +195,7 @@ Sample Keys:
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 

@@ -30,10 +30,6 @@ Some of the goals of using these configuration variables are:
 
 ## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
 
-<!--
-s_account.xml
--->
-
 The  variable determines the report suite where data is stored and reported.
 
 If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. The report suite ID is determined by Adobe.
@@ -138,10 +134,6 @@ None
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
 
-<!-- 
-dynamicAccountList.xml
--->
-
 [!DNL AppMeasurement] for JavaScript can dynamically select a report suite to which it sends data. The  variable contains the rules used to determine the destination report suite.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
@@ -202,10 +194,6 @@ None
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
 
-<!-- 
-dynamicAccountMatch.xml
--->
-
 The  variable uses the DOM object to retrieve the section of the URL to which all rules in  are applied.
 
 This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Since the default value is [!DNL window.location.host], this variable is not required for [!UICONTROL Dynamic Account Selection] to work. For additional information, see [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
@@ -256,10 +244,6 @@ None
 
 ## s.dynamicVariablePrefix {#concept_38C1F2452DDB47FCA8F458BE1398E276}
 
-<!-- 
-dynamicVariablePrefix.xml
--->
-
 The  variable allows deployment to flag variables, which should be populated dynamically. 
 
 Cookies, request headers, and image query string parameters are available to be populated dynamically. 
@@ -302,10 +286,6 @@ s.prop1="..User-Agent"
 * Dynamic variables can be used to collect data from headers and cookies not otherwise available for data collection.
 
 ## s.charSet {#concept_E65B9A8F75C3482C87D0D455805F89BD}
-
-<!-- 
-charset.xml
--->
 
 The charSet property, which is normally set in the JavaScript file, is used by Analytics to convert incoming data into UTF-8 for storage and reporting by Analytics.
 
@@ -357,10 +337,6 @@ s.charSet="SJIS"
 
 ## s.currencyCode {#concept_CE216F1610E2499D8178DB9A8EB97C63}
 
-<!-- 
-currencycode.xml
--->
-
 The  variable determines the conversion rate to be applied to revenue. 
 
 All monetary amounts are stored in a currency of your choice. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied. 
@@ -373,15 +349,13 @@ If your site allows visitors to purchase in multiple currencies, you should use 
 
 Populating the *`currencyCode`* variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the *`currencyCode`* to equal the base currency of your report suite. You then convert all revenue before sending it into [!DNL Analytics].
 
-Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). For more details on how currencies are managed, see [Multi-Currency Support](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/)..
+Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
 
 **Syntax and Possible Values** {#section_7CD68F08AB4848EE9B0D19DCC3F1BECE}
 
 ```js
 s.currencyCode="currency_code"
 ```
-
-Only the currency codes listed in [Multi-Currency Support](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/) are allowed.
 
 **Examples** {#section_D55ED45369544C8AAA02B3193752636C}
 
@@ -406,10 +380,6 @@ Adobe [!DNL Customer Care] can change the default currency setting for your repo
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
-<!-- 
-cookiedomain.xml
--->
-
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set. 
 
 Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostnam`e. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. For example, you could set cookies at the fully qualified page-name using:
@@ -417,10 +387,6 @@ Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `win
 `s.cookieDomain = window.location.hostname;` 
 
 ## s.cookieDomainPeriods {#concept_F17A59C7D8F54F5897AD40980B6725EB}
-
-<!-- 
-cookiedomainperiods.xml
--->
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie. 
 
@@ -482,10 +448,6 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 
 ## s.fpCookieDomainPeriods {#concept_0A25BD152B0744989E7C662A95448274}
 
-<!-- 
-fpCookieDomainPeriods.xml
--->
-
 The  variable is for cookies set by JavaScript (s_sq, s_cc, plug-ins) that are inherently first-party cookies even if your implementation uses the third-party 2o7.net or omtrdc.net domains. 
 
 The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* inherits the *`cookieDomainPeriods`* value. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
@@ -532,10 +494,6 @@ None
 
 ## s.cookieLifetime {#concept_8347C6648B0E4D4996E2F223C34B9A3D}
 
-<!-- 
-cookielifetime.xml
--->
-
 The  variable is used by both JavaScript and data collection servers in determining the lifespan of a cookie.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
@@ -580,10 +538,6 @@ None
 *`cookieLifetime`* affects [!DNL Analytics] tracking. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*. 
 
 ## s.doPlugins {#concept_676EAE4FAFCF4B018876390FC874EFDA}
-
-<!-- 
-doPlugins.xml
--->
 
 The  variable is a reference to the  function, and allows the  function to be called at the appropriate location within the JavaScript file. 
 
@@ -645,10 +599,6 @@ The order in which these callbacks are called is not guaranteed. Callbacks regis
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
-<!-- 
-trackDownloadLinks.xml
--->
-
 Set  to 'true' if you would like to track links to downloadable files on your site. 
 
 If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determine which links are downloadable files. 
@@ -686,10 +636,6 @@ None
 * When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.
 
 ## s.trackExternalLinks {#concept_E1321318696841648A54CF77F6C4A7AF}
-
-<!-- 
-trackExternalLinks.xml
--->
 
 If  is 'true,'  and  are used to determine whether any link clicked is an exit link.
 
@@ -734,10 +680,6 @@ None
 
 ## s.trackInlineStats {#concept_E3A811D9761E4917935F6CD9059C7FCC}
 
-<!-- 
-trackInlineStats.xml
--->
-
 The  variable determines whether ClickMap data is gathered. 
 
 If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null. 
@@ -771,10 +713,6 @@ s.trackInlineStats=false
 None 
 
 ## s.linkDownloadFileTypes {#concept_06CC14C69DFD4887A5E6967A157A9E05}
-
-<!-- 
-linkDownloadFileTypes.xml
--->
 
 The  variable is a comma-separated list of file extensions. 
 
@@ -822,10 +760,6 @@ None
 * Links that use JavaScript (such as javascript:openLink( )) are not counted in file downloads.
 
 ## s.linkInternalFilters {#concept_D53C1186762E4AAE82451712B0801CAD}
-
-<!-- 
-linkInternalFilters.xml
--->
 
 The  variable is used to determine which links on your site are exit links. 
 
@@ -895,10 +829,6 @@ s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
 
 ## s.linkLeaveQueryString {#concept_118C280E29394DB5A16DBBF41EB4D742}
 
-<!-- 
-linkLeaveQueryString.xml
--->
-
 By default, query strings are excluded from all reports. 
 
 For some exit links and download links, the important portion of the URL can be in the query string, as shown in the following sample URL.
@@ -951,10 +881,6 @@ No configuration is necessary for this variable.
 * The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
 
 ## s.linkTrackVars {#concept_A6B117826C15402EBD0781A94C8065B9}
-
-<!-- 
-linkTrackVars.xml
--->
 
 The  variable is a comma-separated list of variables that are sent with custom, exit, and download links. 
 
@@ -1016,10 +942,6 @@ None
 
 ## s.linkTrackEvents {#concept_34D029097A674D0A97690C9569590EF5}
 
-<!-- 
-linkTrackEvents.xml
--->
-
 The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link. 
 
 If an event is not in *`linkTrackEvents`*, it is not sent to [!DNL Analytics], even if it is populated in the [!UICONTROL onClick] event of a link, as shown in the following example:
@@ -1076,10 +998,6 @@ None
 * If *`linkTrackEvents`* contains spaces between event names, the events are not recorded.
 
 ## s.linkExternalFilters {#concept_92A59169DCE443EBAE81A373B27BB6DD}
-
-<!-- 
-linkExternalFilters.xml
--->
 
 If your site contains many links to external sites, and you do not want to track all exit links, use  to report on a specific subset of exit links.
 
@@ -1146,10 +1064,6 @@ None
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.
 
 ## s.usePlugins {#concept_81836470A25C41228CE04084565F667D}
-
-<!-- 
-s_usePlugins.xml
--->
 
 If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.' 
 

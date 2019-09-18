@@ -106,13 +106,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL Languages]**: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. This report differs from the [!UICONTROL Full Domains] report in that the Full Domains report registers the full ISP domain, whereas this report lists the secondary domain.
+**[!UICONTROL Domains]**: Lists the organizations and ISPs your visitors use to access your site. This report differs from the [!UICONTROL Full Domains] report in that the Full Domains report registers the full ISP domain, whereas this report lists the secondary domain.
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. Domains ending in Commercial (.com), Network (.net), Education (.edu), Government (.gov) and Organization (.org) are usually based in the United States, and are listed separately from the rest of the domains.
+**[!UICONTROL Top Level Domains]**: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. Domains ending in Commercial (.com), Network (.net), Education (.edu), Government (.gov) and Organization (.org) are usually based in the United States, and are listed separately from the rest of the domains.
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics. 
+**[!UICONTROL Visitor ZIP/Postal Code]**: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics. 
 
 ## GeoSegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 

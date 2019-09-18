@@ -24,7 +24,7 @@ Examples of dimensions include:
 * Monitor resolution 
 * Custom eVars and s.prop values
 
-** [!UICONTROL Dimensions] Pane**
+**[!UICONTROL Dimensions] Pane**
 
 The [!UICONTROL Dimension] pane lists and organizes all the product dimensions from your marketing reports and analytics implementation. You can base reports on any dimension item. You can break down dimensions by other dimensions to analyze and compare nearly anything.
 

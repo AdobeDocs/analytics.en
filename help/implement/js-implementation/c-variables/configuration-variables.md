@@ -378,6 +378,8 @@ Adobe [!DNL Customer Care] can change the default currency setting for your repo
 * Currency events should not be used for non-currency purposes. If you need to count arbitrary or dynamic values that are not currency, use the [!UICONTROL numeric] event type. 
 * When the *`currencyCode`* variable is empty, no conversion is applied.
 
+For more information, see [Currency Codes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
+
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set. 

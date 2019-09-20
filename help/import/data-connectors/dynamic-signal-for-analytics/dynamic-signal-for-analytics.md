@@ -31,7 +31,7 @@ Lists prerequisites for Adobe and Dynamic Signal customers.
 ### Prerequisites for Adobe Customers {#section-b8a0b4f9b41649a68513f80397fb10e0}
 
 * Must be a current Adobe Analytics customer. 
-* Must be an Adobe Marketing Cloud admin user with permissions to enable Data Connectors. 
+* Must be an Adobe Experience Cloud admin user with permissions to enable Data Connectors. 
 * Must have at least 1 available and enabled eVar variable within your report suite.
 
 ### Prerequisites for Dynamic Signal Customers {#section-468ccc1d532e4e738c9e610650ad3fff}

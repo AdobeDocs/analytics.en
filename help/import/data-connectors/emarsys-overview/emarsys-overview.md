@@ -73,7 +73,7 @@ Before activating this integration, review the following items against your depl
 Doing so will ensure the appropriate best practices or pre-requisites are in place prior to activation, which will result in an optimal and successful integration. Review the following information about this Data Connectors integration as it relates to emarsys:
 
 * **Valid emarsys Account:** In order to use the Data Connectors email integration, a client must have a valid emarsys account. 
-* **Current Customer of emarsys:** This integration requires you to be a customer of both Adobe and emarsys. If you are not currently a customer of emarsys, you will not have the information necessary to complete the integration wizard. If you are currently a customer of emarsys, you will need your emarsys Account ID, or the unique identifier assigned to your organization, in order to complete the integration wizard. 
+* **Current Customer of emarsys:** This integration requires you to be a customer of both Adobe and emarsys. If you are not currently a customer of emarsys, you will not have the information necessary to complete the integration wizard. If you are currently a customer of emarsys, you will need your emarsys Account ID, or the unique identifier assigned to your organization, in order to complete the integration wizard.
 * After completing the Data Connectors wizard, contact your emarsys Account Manager to activate the integration in your emarsys eMarketing Suite.
 
 ### Adobe Analytics{#adobe-analytics}

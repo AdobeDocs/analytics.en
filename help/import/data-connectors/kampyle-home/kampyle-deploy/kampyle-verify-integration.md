@@ -16,7 +16,7 @@ Validate that the integration is successfully transferring data by completing a 
 
 ## Integration Activity Log {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Marketing Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
+View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
 >[!NOTE]
 >

@@ -83,15 +83,9 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-use-integration.md)
    + Emarsys Data Connector for Adobe Analytics {#emarsys}
       + [Emarsys Data Connector for Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
-
-
-        
-         
-            + [Adobe Analytics](data-connectors/emarsys-overview/emarsys-before-activating/emarsys-analytics.md)
-            + [emarsys Integration](data-connectors/emarsys-overview/emarsys-before-activating/emarsys-integration.md)
-         + [Preparing for the Data Connectors Email Integration](data-connectors/emarsys-overview/emarsys-configure-integration.md)
-         + [Analytics Variables](data-connectors/emarsys-overview/emarsys-variables.md)
-         + [Running the Data Connectors Integration Wizard](data-connectors/emarsys-overview/emarsys-wizard.md)
+      + [Preparing for the Data Connectors Email Integration](data-connectors/emarsys-overview/emarsys-configure-integration.md)
+      + [Analytics Variables](data-connectors/emarsys-overview/emarsys-variables.md)
+      + [Running the Data Connectors Integration Wizard](data-connectors/emarsys-overview/emarsys-wizard.md)
    + Kampyle Data Connector for Adobe Analytics {#kampyle}
       + [Kampyle Data Connector for Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
          + [Key Benefits and Features](data-connectors/kampyle-home/kampyle-benefits.md)

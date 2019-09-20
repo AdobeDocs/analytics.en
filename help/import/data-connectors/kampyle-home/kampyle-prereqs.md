@@ -24,7 +24,7 @@ Prerequisites to consider before you can activate the data connector.
 ## Prerequisites for Kampyle customers: {#section-4bbbca50e74d4f218414ae0cc535b8e9}
 
 * You must be a current customer of Kampyle for Websites. 
-* You must be an Adobe Marketing Cloud admin user with permissions to enable data connectors. 
+* You must be an Adobe Experience Cloud admin user with permissions to enable data connectors. 
 * You must be able to retrieve the Kampyle Private Key from the Kampyle Feedback Form management UI.
 
   [Retrieve the Kampyle Private Key](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)

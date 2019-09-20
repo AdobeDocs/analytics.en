@@ -1,6 +1,6 @@
 ---
-description: View your ContactLab integration setup within the Adobe Marketing Cloud
-seo-description: View your ContactLab integration setup within the Adobe Marketing Cloud
+description: View your ContactLab integration setup within the Adobe Experience Cloud
+seo-description: View your ContactLab integration setup within the Adobe Experience Cloud
 seo-title: Verifying the Integration
 solution: Analytics
 title: Verifying the Integration

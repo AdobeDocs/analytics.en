@@ -18,7 +18,7 @@ Deploying this integration is a simple process that requires the following actio
 
 Steps to complete the integration wizard in the Data Connectors interface.
 
-1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Marketing Cloud.
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
 1. Launch the ContactLab integration wizard.
 1. Choose the desired Report Suite and provide a name for the integration.
 1. Configure the following items:
@@ -52,10 +52,10 @@ Steps to complete the integration wizard in the Data Connectors interface.
 
 ## Verify the Integration{#verifying-the-integration}
 
-View your ContactLab integration setup within the Adobe Marketing Cloud
+View your ContactLab integration setup within the Adobe Experience Cloud
 
 1. View the integration activity log.
-   1. In the Adobe Marketing Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
+   1. In the Adobe Experience Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
 
       ![](assets/integration_activity_log.png)
    

@@ -151,7 +151,7 @@ To enable the DFA integration on your Web site, you must update your JavaScript 
 
 ### Integrate Module for DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-The DFA integration leverages the Adobe Marketing Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). The Integrate Module comes as part of the .zip file when you download the AppMeasurement for Javascript code from the [Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Contact your Adobe Consultant only if you need additional help finding it.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). The Integrate Module comes as part of the .zip file when you download the AppMeasurement for Javascript code from the [Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Contact your Adobe Consultant only if you need additional help finding it.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 

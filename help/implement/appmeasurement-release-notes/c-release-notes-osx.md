@@ -2,7 +2,7 @@
 description: null
 seo-description: null
 seo-title: Mac OS X
-solution: Analytics,Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: Mac OS X
 topic: Developer and implementation

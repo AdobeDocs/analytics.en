@@ -21,7 +21,7 @@ Mobile library downloads are available on [GitHub](https://github.com/Adobe-Mark
 
 Release Date: **November 4, 2013**
 
-Initial release of the 4.x version for BlackBerry 10. See [Marketing Cloud for Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
+Initial release of the 4.x version for BlackBerry 10. See [Experience Cloud for Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
 
 ## Version 1.3 {#section_990A8910DE304E29BAD9EC770B72BB97}
 

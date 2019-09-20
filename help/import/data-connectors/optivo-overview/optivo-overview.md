@@ -21,6 +21,6 @@ This integration also exchanges metrics of successful email campaigns from [!DNL
 
 ## Data Connectors Laboratory Program {#section-51f9864851b64d96873127b9ac9c9a2b}
 
-This program is a fast track method for Adobe's third party platform partners to build integrations and deliver them to our joint market. The integrations are completely developed by our partners and made available on the Adobe Marketing Cloud following community methodologies. They are made available without additional charge to Adobe customers of the Adobe Analytics and other Solutions and are provided on an as-is basis with no implied warranties from Adobe due to the third party nature of the integrations.
+This program is a fast track method for Adobe's third party platform partners to build integrations and deliver them to our joint market. The integrations are completely developed by our partners and made available on the Adobe Experience Cloud following community methodologies. They are made available without additional charge to Adobe customers of the Adobe Analytics and other Solutions and are provided on an as-is basis with no implied warranties from Adobe due to the third party nature of the integrations.
 
 If you have questions regarding your current service, warrantee or licensing, please contact your Adobe Account Manager. 

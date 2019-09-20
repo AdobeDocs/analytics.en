@@ -129,7 +129,7 @@ Release Date: **June 19, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [Marketing Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Version 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 

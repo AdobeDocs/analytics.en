@@ -2,7 +2,7 @@
 description: Cumulative release notes for iOS.
 seo-description: Cumulative release notes for iOS.
 seo-title: iOS
-solution: Analytics,Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: iOS
 topic: Developer and implementation
@@ -87,7 +87,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Visitor ID Service </p> </td> 
-   <td colname="2"> <p> Added timestamp and Marketing Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuration </p> </td> 
@@ -312,7 +312,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> New Marketing Cloud Visitor ID Service methods </td> 
+   <td colname="1"> New Experience Cloud Visitor ID Service methods </td> 
    <td colname="2"> <p>Added the following new methods: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -482,7 +482,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 Release Date: **November 24, 2014**
 
-* New - Adobe Marketing Cloud ID integration 
+* New - Adobe Experience Cloud ID integration 
 * Improved debug logs for clarity
 
 ## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -543,7 +543,7 @@ Release Date: **January 30, 2014**
 
 Release Date: **27 September, 2013**
 
-[!DNL iOS] SDK 4.x for Marketing Cloud Solutions is now available providing the following new features:
+[!DNL iOS] SDK 4.x for Experience Cloud Solutions is now available providing the following new features:
 
 * Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe. 
 * Geo-location & points-of-interest 

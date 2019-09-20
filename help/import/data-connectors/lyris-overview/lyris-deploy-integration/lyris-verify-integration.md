@@ -24,6 +24,6 @@ Once all deployment steps have been completed, you can validate that the integra
 
    ![](assets/integration_info.png)
 
-1. Now view your Lyris message reports with the appropriate metrics. In the Adobe Marketing Cloud, select **[!UICONTROL Reports & Analytics]**.
+1. Now view your Lyris message reports with the appropriate metrics. In the Adobe Experience Cloud, select **[!UICONTROL Reports & Analytics]**.
 1. Select the appropriate Report Suite.
 1. Under **[!UICONTROL Custom Conversions]**, select the **[!UICONTROL Message ID Reports]** and choose **[!UICONTROL Message ID/Message Name]**.

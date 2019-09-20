@@ -13,7 +13,7 @@ snippet: y
 
 To activate the integration, you must complete the configuration wizard within the Data Connectors interface.
 
-1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Marketing Cloud. 
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud. 
 1. Launch the Demandbase 2.0 integration wizard. 
 1. Choose the desired Report Suite and provide a name for the integration. 
 1. Configure the following items: 

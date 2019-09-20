@@ -1,6 +1,6 @@
 ---
-description: View your ContactLab integration setup within the Adobe Marketing Cloud
-seo-description: View your ContactLab integration setup within the Adobe Marketing Cloud
+description: View your ContactLab integration setup within the Adobe Experience Cloud
+seo-description: View your ContactLab integration setup within the Adobe Experience Cloud
 seo-title: Verifying the Integration
 solution: Analytics
 title: Verifying the Integration
@@ -12,10 +12,10 @@ snippet: y
 
 # Verifying the Integration{#verifying-the-integration}
 
-View your ContactLab integration setup within the Adobe Marketing Cloud
+View your ContactLab integration setup within the Adobe Experience Cloud
 
 1. View the integration activity log.
-   1. In the Adobe Marketing Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
+   1. In the Adobe Experience Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
 
       ![](assets/integration_activity_log.png)   
    

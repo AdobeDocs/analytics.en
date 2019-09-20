@@ -14,7 +14,7 @@ snippet: y
 
 Steps to complete the integration wizard in the Data Connectors interface.
 
-1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Marketing Cloud.
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
 1. Launch the ContactLab integration wizard.
 1. Choose the desired Report Suite and provide a name for the integration.
 1. Configure the following items:

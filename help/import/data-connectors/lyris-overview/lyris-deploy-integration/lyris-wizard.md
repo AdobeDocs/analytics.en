@@ -16,11 +16,11 @@ Steps to use the integration wizard.
 
 To activate the integration, you must complete the Lyris integration wizard within the Data Connectors interface. 
 
-1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Marketing Cloud.
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
 
    ![](assets/data_connectors.png)
 
-1. Under **[!UICONTROL Add Integration]**, drag and drop the Lyris plugin into the Adobe Marketing Cloud. This opens up the Lyris Data Connector Integration.
+1. Under **[!UICONTROL Add Integration]**, drag and drop the Lyris plugin into the Adobe Experience Cloud. This opens up the Lyris Data Connector Integration.
 
    ![](assets/add_integration.png)
 

@@ -3,7 +3,7 @@ description: Create conditions for direct-call rules.
 keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
 seo-description: Create conditions for direct-call rules.
 seo-title: Create conditions for direct-call rules
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Create conditions for direct-call rules
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 ---

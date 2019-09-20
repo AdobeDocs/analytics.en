@@ -2,7 +2,7 @@
 description: null
 seo-description: null
 seo-title: WinRT for Windows 8
-solution: Analytics,Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: WinRT for Windows 8
 topic: Developer and implementation

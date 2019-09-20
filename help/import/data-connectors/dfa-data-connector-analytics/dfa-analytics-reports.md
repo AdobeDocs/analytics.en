@@ -32,7 +32,7 @@ Once DFA and Adobe® collection servers can communicate, you can generate report
 
 To generate a DFA report:
 
-1. Log in to Adobe Marketing Cloud. 
+1. Log in to Adobe Experience Cloud. 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports & Analytics]**. Make sure you have selected the report suite where you installed the DFA integration. 
 
 1. In the left-side navigation, select the Conversion variable that captures the DFA click-through data, then select the desired DFA report. 

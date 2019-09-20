@@ -122,7 +122,7 @@ Release Date: **June 11, 2014**
 
 Release Date: **May 22, 2014**
 
-* Support for the [Marketing Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
 * Support for the [Analytics for Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}

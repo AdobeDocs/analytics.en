@@ -14,7 +14,7 @@ snippet: y
 
 To activate the integration, you must complete the configuration wizard within the Data Connectors interface.
 
-1. Log in to the Adobe Marketing Cloud.
+1. Log in to the Adobe Experience Cloud.
 1. Navigate to **[!UICONTROL Data Connectors]** (formerly Genesis).
 1. Launch the Kampyle integration wizard.
 1. Select the desired report suite and provide a name for the integration.

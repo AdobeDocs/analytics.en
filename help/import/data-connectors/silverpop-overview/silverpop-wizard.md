@@ -15,7 +15,7 @@ The Data Connectors Integration Wizard steps you through the Data Connectors int
 
 To configure the integration: 
 
-1. In the Adobe Marketing Cloud, select Data Connectors™ from the products drop down list.
+1. In the Adobe Experience Cloud, select Data Connectors™ from the products drop down list.
 1. Click **[!UICONTROL Add New]** and select **[!UICONTROL By Name]** in the **[!UICONTROL Show]** drop down list.
 1. Find the **Silverpop Engage 2.0** icon and drag it to an empty plug-in slot in your Analytics report suite to launch the Data Connectors Integration Wizard.
 1. On the Silverpop Integration introduction page, review the text, then select the check box to accept the fees associated with the integration.

@@ -258,15 +258,17 @@ Logic groups may seem daunting - here are some best practices on how to use them
 If you want to group sequential checkpoints, then your “container” is Logic Group. However, if those sequential checkpoints must occur within a single hit or visit scope, then a 'hit' or a 'visit' containers are required. (Of course, 'hit' does not make sense for a group of sequential checkpoints, when one hit may credit no more than one checkpoint).
 
 **Do Logic Groups simplify building sequential segments?** 
-Yes, they can. Let's assume you are trying to answer this question: Did a visitor see pages B, C, or D after page A? You can build this segment without a Logic Group container, but it's complex and laborious: 
-Visitor Container [Page A THEN Page B THEN Page C THEN Page D]  or
-Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or
-Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or
-Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or
-Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or
-Visitor Container [Page A THEN Page D THEN Page C THEN Page B]
+Yes, they can. Let's assume you are trying to answer this question: **Did a visitor see page B, or page C, or page D after page A?** 
 
-A Logic Group container greatly simplifies the segment, as shown here:
+You can build this segment without a Logic Group container, but it's complex and laborious: 
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+A Logic Group container greatly simplifies building this segment, as shown here:
 
 ![](assets/logic-grp-example.png)
 

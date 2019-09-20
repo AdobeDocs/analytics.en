@@ -3,7 +3,7 @@ description: Steps that describe how to create rules in Dynamic Tag Management.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
 seo-description: Steps that describe how to create rules in Dynamic Tag Management.
 seo-title: Create new rule
-solution: Marketing Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Create new rule
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 ---

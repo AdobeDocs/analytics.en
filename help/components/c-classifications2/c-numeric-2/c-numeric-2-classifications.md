@@ -1,6 +1,6 @@
 ---
-description: Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Marketing Cloud via the importer.
-seo-description: Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Marketing Cloud via the importer.
+description: Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Experience Cloud via the importer.
+seo-description: Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Experience Cloud via the importer.
 seo-title: Numeric 2 classifications overview
 solution: Analytics
 subtopic: Classifications
@@ -11,7 +11,7 @@ uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 
 # Numeric 2 classifications overview
 
-Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Marketing Cloud via the importer.
+Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Experience Cloud via the importer.
 
 >[!IMPORTANT]
 >

@@ -1,6 +1,6 @@
 ---
-description: Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Marketing Cloud
-seo-description: Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Marketing Cloud
+description: Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Experience Cloud
+seo-description: Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Experience Cloud
 seo-title: Verifying the Integration
 solution: Analytics
 title: Verifying the Integration
@@ -12,10 +12,10 @@ snippet: y
 
 # Verifying the Integration{#verifying-the-integration}
 
-Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Marketing Cloud
+Steps to view your Dynamic Signal VoiceStorm integration setup within the Adobe Experience Cloud
 
 1. View your Dynamic Signal integration setup in the integration activity log.
-   1. In the Adobe Marketing Cloud, navigate to  **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]** .
+   1. In the Adobe Experience Cloud, navigate to  **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]** .
 
       ![](assets/integration_activity_log.png)   
    

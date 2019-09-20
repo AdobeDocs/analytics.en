@@ -238,7 +238,7 @@ Updated: **8/18/2016**
 
 >[!NOTE]
 >
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -248,7 +248,7 @@ Updated: **8/4/2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Marketing Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
 ## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
@@ -429,7 +429,7 @@ Release Date: **September 18, 2014**
 
   >[!IMPORTANT]
   >
-  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Marketing Cloud.
+  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
 
 ## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -463,7 +463,7 @@ Release Date: **May 22, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [Marketing Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Version 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 

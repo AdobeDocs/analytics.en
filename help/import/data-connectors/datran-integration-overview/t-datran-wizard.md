@@ -15,7 +15,7 @@ The Data Connectors Integration Wizard steps you through the Data Connectors int
 
 To configure the integration: 
 
-1. Log in to the Marketing Cloud.
+1. Log in to the Experience Cloud.
 1. On the Adobe Analytics home page, click the Data Connectors™ icon on the pinwheel or tool bar.
 1. On the Data Connectors page, select the Report Suite where you want to configure the integration.
 

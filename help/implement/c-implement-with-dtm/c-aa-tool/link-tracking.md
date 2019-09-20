@@ -3,7 +3,7 @@ description: Field descriptions in Dynamic Tag Management for link tracking when
 keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
 seo-description: Field descriptions in Dynamic Tag Management for link tracking when deploying Analytics.
 seo-title: Link tracking
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Link tracking
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 ---

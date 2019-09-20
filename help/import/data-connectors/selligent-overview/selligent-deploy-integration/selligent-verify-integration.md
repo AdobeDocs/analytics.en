@@ -26,7 +26,7 @@ Navigate to your Selligent Integration within Data Connectors. Under the **[!UIC
 
 View your Selligent Message reports with appropriate metrics.
 
-1. Go to Report & Analytics under Adobe Marketing Cloud. 
+1. Go to Report & Analytics under Adobe Experience Cloud. 
 1. Select the appropriate Report Suite. 
 1. Under **[!UICONTROL Custom Conversion]**, select the **[!UICONTROL Message ID Reports]** and choose **[!UICONTROL Message ID/Message Name]**.
 

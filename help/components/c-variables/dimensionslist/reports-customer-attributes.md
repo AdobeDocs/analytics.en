@@ -2,7 +2,7 @@
 description: An Analytics FAQ for customer attributes, and how to run the Customer Attributes report.
 seo-description: An Analytics FAQ for customer attributes, and how to run the Customer Attributes report.
 seo-title: Customer Attributes
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Customer Attributes
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 ---

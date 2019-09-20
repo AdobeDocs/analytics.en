@@ -13,9 +13,9 @@ snippet: y
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 
-1. Log in to the [!DNL Adobe Marketing Cloud].
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. Ensure that the desired report suite is active in the [!DNL Report Suite] menu.
-1. Click **[!UICONTROL Adobe Marketing Cloud]** > **[!UICONTROL Data Connectors]**.
+1. Click **[!UICONTROL Adobe Experience Cloud]** > **[!UICONTROL Data Connectors]**.
 
    >[!NOTE]
    >

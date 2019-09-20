@@ -15,7 +15,7 @@ snippet: y
 After deployment, you should validate that the integration is successfully transferring data through the following checks.
 
 1. View the integration activity log.
-   1. In the Adobe Marketing Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
+   1. In the Adobe Experience Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
 
       ![](assets/integration_activity_log.png)   
    

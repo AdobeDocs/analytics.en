@@ -14,11 +14,11 @@ snippet: y
 
 To activate the integration you must complete the Selligent integration wizard within the Data Connectors interface.
 
-1. Navigate to the Data Connectors area within the Adobe Marketing Cloud.
+1. Navigate to the Data Connectors area within the Adobe Experience Cloud.
 
    ![](assets/selligent-data_connectors.png)
 
-1. Under **[!UICONTROL Add Integrations]**, drag and drop the Selligent plugin into Adobe Marketing Cloud.
+1. Under **[!UICONTROL Add Integrations]**, drag and drop the Selligent plugin into Adobe Experience Cloud.
 
    ![](assets/selligent-add_integration.png)
 

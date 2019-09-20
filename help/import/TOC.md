@@ -83,11 +83,10 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-use-integration.md)
    + Emarsys Data Connector for Adobe Analytics {#emarsys}
       + [Emarsys Data Connector for Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
-         + [Key Benefits](data-connectors/emarsys-overview/emarsys-benefits.md)
-         + [Dynamic Marketing Segments](data-connectors/emarsys-overview/emarsys-dynamic-marketing-segments.md)
-         + [Integration Procedure and Prerequisites](data-connectors/emarsys-overview/emarsys-procedure-prereqs.md)
-         + [Pricing](data-connectors/emarsys-overview/emarsys-pricing.md)
-         + [What You Should Know Before Activating This Integration](data-connectors/emarsys-overview/emarsys-before-activating/emarsys-before-activating.md)
+
+
+        
+         
             + [Adobe Analytics](data-connectors/emarsys-overview/emarsys-before-activating/emarsys-analytics.md)
             + [emarsys Integration](data-connectors/emarsys-overview/emarsys-before-activating/emarsys-integration.md)
          + [Preparing for the Data Connectors Email Integration](data-connectors/emarsys-overview/emarsys-configure-integration.md)

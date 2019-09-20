@@ -13,7 +13,7 @@ uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 
 This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
 
-## Testing Processing Rules {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Test Processing Rules {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 This section contains some guidelines to help test processing rules before they are deployed to production.
 
@@ -35,7 +35,7 @@ When you create a rule, consider the case when a value is empty. If you do not a
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-It is also important to consider the processing order. In the following example, it appears that the Previous Pagename custom evar will be set to the URL if the Page Name is not present. However, the URL is placed into the page name after processing rules are applied, so in this case, the Page Name is empty if it is not set on the page.
+It is also important to consider the processing order. In the following example, it appears that the Previous Pagename custom eVar will be set to the URL if the Page Name is not present. However, the URL is placed into the page name after processing rules are applied, so in this case, the Page Name is empty if it is not set on the page.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 

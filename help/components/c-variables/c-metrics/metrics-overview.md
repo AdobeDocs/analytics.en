@@ -16,6 +16,10 @@ Lists the standard metrics in Adobe Analytics.
 >
 >Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (custom event).
 
+>[!IMPORTANT]
+>
+>Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Hence, the metric type is only relevant to tolls such as Reports & Analytics, Web Services 1.4, and Report Builder.) 
+
 | Metric Name | Description | Type|
 |--- |--- |---|
 |Average Page Depth|Displays on average how far within a visit each value was fired. This metric is valuable in determining how far within a visit your audience reaches a given page or prop value. Average Page Depth is available on any variable with pathing enabled.|Traffic|

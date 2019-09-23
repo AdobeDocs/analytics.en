@@ -88,16 +88,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Running the Data Connectors Integration Wizard](data-connectors/emarsys-overview/emarsys-wizard.md)
    + Kampyle Data Connector for Adobe Analytics {#kampyle}
       + [Kampyle Data Connector for Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
-         + [Key Benefits and Features](data-connectors/kampyle-home/kampyle-benefits.md)
-         + [Integration Prerequisites](data-connectors/kampyle-home/kampyle-prereqs.md)
-         + [Retrieve the Kampyle Private Key](data-connectors/kampyle-home/kampyle-private-key.md)
-         + [Deploying the Integration](data-connectors/kampyle-home/kampyle-deploy/kampyle-deploy.md)
-            + [Complete the Adobe Integration Wizard](data-connectors/kampyle-home/kampyle-deploy/kampyle-wizard.md)
-            + [Deploy the Integration Configuration Object](data-connectors/kampyle-home/kampyle-deploy/kampyle-configuration-object.md)
-            + [Verify the Integration](data-connectors/kampyle-home/kampyle-deploy/kampyle-verify-integration.md)
-         + [Using the Integration](data-connectors/kampyle-home/kampyle-integration/kampyle-integration.md)
-            + [Mix Feedback and Onsite Behavior Data](data-connectors/kampyle-home/kampyle-integration/kampyle-feedback.md)
-            + [Segment by Feedback Dimension](data-connectors/kampyle-home/kampyle-integration/kampyle-segment-dimension.md)
+      + [Deploying the Integration](data-connectors/kampyle-home/kampyle-deploy/kampyle-deploy.md)
+      + [Using the Integration](data-connectors/kampyle-home/kampyle-integration/kampyle-integration.md)
    + Lyris Data Connector for Adobe Analytics {#lyris}
       + [Lyris Data Connector for Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
          + [Key Benefits and Features](data-connectors/lyris-overview/lyris-benefits.md)

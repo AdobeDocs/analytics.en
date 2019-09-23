@@ -36,7 +36,7 @@ A primary feature of this integration is the ability to create Adobe Analytics s
 
 ![](assets/segment2.png)
 
-# Integrated Reporting Dimensions{#integrated-reporting-dimensions}
+## Integrated Reporting Dimensions{#integrated-reporting-dimensions}
 
 Lists the Dynamic Signal reporting dimensions that are included with this integration.
 

@@ -92,14 +92,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Using the Integration](data-connectors/kampyle-home/kampyle-integration/kampyle-integration.md)
    + Lyris Data Connector for Adobe Analytics {#lyris}
       + [Lyris Data Connector for Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
-         + [Key Benefits and Features](data-connectors/lyris-overview/lyris-benefits.md)
-         + [Integration Prerequisites](data-connectors/lyris-overview/lyris-prereqs.md)
-         + [Configure Adobe Analytics variables for Lyris](data-connectors/lyris-overview/lyris-analytics-variables.md)
-         + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration/lyris-deploy-integration.md)
-            + [Completing the Integration Wizard](data-connectors/lyris-overview/lyris-deploy-integration/lyris-wizard.md)
-            + [Configuration within the Lyris EmailLabs](data-connectors/lyris-overview/lyris-deploy-integration/lyris-configuration.md)
-            + [Verifying the Integration](data-connectors/lyris-overview/lyris-deploy-integration/lyris-verify-integration.md)
-            + [Query String Param Plug-In Code](data-connectors/lyris-overview/lyris-deploy-integration/lyris-plugin-code.md)
+      + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration/lyris-deploy-integration.md)
    + Neolane Ozon Data Connector for Adobe Analytics {#neolane}
       + [Neolane Ozon Data Connector for Adobe Analytics](data-connectors/neolane-overview/neolane-overview.md)
          + [Key Benefits and Features](data-connectors/neolane-overview/neolane-benefits.md)

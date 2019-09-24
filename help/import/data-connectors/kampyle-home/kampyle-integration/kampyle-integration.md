@@ -37,4 +37,3 @@ A primary feature of this integration is the ability to create Adobe Analytics s
 This segment can then be applied to practically any report - one example is the Time Spent per Visit Report seen here.
 
 ![](assets/time_spent_per_visit.png)
-

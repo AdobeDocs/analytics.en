@@ -95,13 +95,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration/lyris-deploy-integration.md)
    + Neolane Ozon Data Connector for Adobe Analytics {#neolane}
       + [Neolane Ozon Data Connector for Adobe Analytics](data-connectors/neolane-overview/neolane-overview.md)
-         + [Key Benefits and Features](data-connectors/neolane-overview/neolane-benefits.md)
-         + [Dynamic Marketing Segments](data-connectors/neolane-overview/neolane-marketing-segments.md)
-         + [Before You Activate](data-connectors/neolane-overview/neolane-requirements/neolane-requirements.md)
-            + [Pricing](data-connectors/neolane-overview/neolane-requirements/neolane-pricing.md)
-            + [Adobe Analytics Integration Variables](data-connectors/neolane-overview/neolane-requirements/neolane-variables.md)
-         + [Activate the Integration](data-connectors/neolane-overview/neolane-activate.md)
-         + [Adobe Analytics Plug-In Code](data-connectors/neolane-overview/neolane-plugin-code.md)
+      + [Activate the Integration](data-connectors/neolane-overview/neolane-activate.md)
+      + [Adobe Analytics Plug-In Code](data-connectors/neolane-overview/neolane-plugin-code.md)
    + optivo broadmail Data Connector for Adobe Analytics {#optivo}
       + [optivo broadmail Data Connector for Adobe Analytics](data-connectors/optivo-overview/optivo-overview.md)
          + [Key Benefits and Features](data-connectors/optivo-overview/optivo-benefits.md)

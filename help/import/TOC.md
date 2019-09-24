@@ -58,10 +58,10 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Running the Data Connectors Integration Wizard](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
    + Demandbase Data Connector for Adobe Analytics {#demandbase}
       + [Demandbase Data Connector for Adobe Analytics](data-connectors/demandbase-home/demandbase-home.md)
-      + [Deploying the Integration](data-connectors/demandbase-home/demandbase-deploying/demandbase-deploying.md)
-      + [Using the Integration](data-connectors/demandbase-home/demandbase-using-integration/demandbase-using-integration.md)
-      + [Demandbase Standard Dimensions](data-connectors/demandbase-home/demandbase-dimensions/demandbase-standard-dimensions.md)
-      + [Demandbase Custom Dimensions](data-connectors/demandbase-home/demandbase-dimensions/demandbase-custom-dimensions.md)
+      + [Deploying the Integration](data-connectors/demandbase-home/demandbase-deploying.md)
+      + [Using the Integration](data-connectors/demandbase-home/demandbase-using-integration.md)
+      + [Demandbase Standard Dimensions](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
+      + [Demandbase Custom Dimensions](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + DFA Data Connector for Adobe Analytics {#dfa}
       + [DFA Data Connector for Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Prerequisites](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)

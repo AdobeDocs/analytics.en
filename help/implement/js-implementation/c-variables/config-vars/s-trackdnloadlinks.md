@@ -42,4 +42,5 @@ None
 ## Pitfalls, Questions, and Tips
 
 * When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map. 
+
 * When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.

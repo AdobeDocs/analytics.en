@@ -6,11 +6,11 @@ solution:
 title: Dynamic variables
 ---
 
-# s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
+# s.dynamicAccountMatch
 
 The  variable uses the DOM object to retrieve the section of the URL to which all rules in  are applied.
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Since the default value is [!DNL window.location.host], this variable is not required for [!UICONTROL Dynamic Account Selection] to work. For additional information, see [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
+This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Since the default value is [!DNL window.location.host], this variable is not required for [!UICONTROL Dynamic Account Selection] to work. For additional information, see [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 The rules found in `dynamicAccountList` are applied to the value of `dynamicAccountMatch`. If `dynamicAccountMatch` only contains [!DNL window.location.host] (default), the rules in `dynamicAccountList` apply only to the domain of the page. 
 
@@ -51,7 +51,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). 
+* Dynamic account selection is not supported by [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+
 * When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`). 
 
 * When a page is translated via a web-based translation engine, such as Google, the [!UICONTROL Dynamic Account Selection] does not work as designed. For more precise tracking, populate the [!UICONTROL s_account]variable server-side.

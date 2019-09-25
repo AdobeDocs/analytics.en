@@ -14,7 +14,7 @@ The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you 
 
 The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in the domain when the domain begins with "www." For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
 
-The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including s_sq and s_cc (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected. 
+The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected. 
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|

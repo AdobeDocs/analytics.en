@@ -46,6 +46,6 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* Dynamic account selection is not supported by [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Always use the [!DNL DigitalPulse Debugger] to determine which report suite is receiving data from each page.

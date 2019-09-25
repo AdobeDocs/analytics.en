@@ -20,7 +20,7 @@ If your site allows visitors to purchase in multiple currencies, you should use 
 
 Populating the *`currencyCode`* variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the *`currencyCode`* to equal the base currency of your report suite. You then convert all revenue before sending it into [!DNL Analytics].
 
-Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
+Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
 
 ## Syntax and Possible Values
 

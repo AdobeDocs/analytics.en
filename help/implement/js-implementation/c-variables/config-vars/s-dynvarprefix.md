@@ -47,4 +47,5 @@ s.prop1="..User-Agent"
 ## Pitfalls, Questions, and Tips
 
 * Dynamic variables can be used to significantly reduce the total length of the URL by copying values into other variables. 
+
 * Dynamic variables can be used to collect data from headers and cookies not otherwise available for data collection.

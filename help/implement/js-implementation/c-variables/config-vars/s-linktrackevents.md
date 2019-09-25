@@ -39,7 +39,7 @@ The *`linkTrackEvents`* variable is a comma-separated list of events (no spaces)
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
-Only event names are allowed in *`linkTrackEvents`*. These events are listed in [Events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). If a space appears before or after the event name, the event can not be sent with any link image requests.
+Only event names are allowed in *`linkTrackEvents`*. These events are listed in [Events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). If a space appears before or after the event name, the event can not be sent with any link image requests.
 
 ## Examples
 

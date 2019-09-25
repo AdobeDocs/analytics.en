@@ -47,4 +47,5 @@ None
 ## Pitfalls, Questions, and Tips
 
 * When *`trackExternalLinks`* is 'false,' links that take people away from your site are likely to be under reported in visitor click map. 
+
 * When *`trackExternalLinks`* is 'true,' data is sent each time a visitor clicks on an exit link (before link target loads).

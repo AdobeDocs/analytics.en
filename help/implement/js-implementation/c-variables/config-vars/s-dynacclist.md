@@ -57,7 +57,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). 
+* Dynamic account selection is not supported by [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html). 
+
 * If the page URL matches multiple rules, the furthest rule on the left is used. 
 * If no rules match, the default report suite is used. 
 * If your page is saved to someone's hard drive or translated via a web-based translation engine (such as Google's translated pages), the dynamic account selection probably won't work. For more precise tracking, populate the `s_account` variable server-side. 

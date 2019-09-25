@@ -114,7 +114,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [Overview of variables](js-implementation/c-variables/sc-variables.md)
       + [Configuration variables list](js-implementation/c-variables/configuration-variables.md)
       + Configuration variables {#config-var}
-        + [s.account](js-implementation/c-variables/s-account.md)
+        + [s.account](js-implementation/c-variables/config-vars/s-account.md)
     + [Context data variables](js-implementation/c-variables/context-data-variables.md)
     + [Dynamic variables](js-implementation/c-variables/dynvars-overview.md)
     + [Page variables](js-implementation/c-variables/page-variables.md)

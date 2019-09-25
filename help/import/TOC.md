@@ -99,13 +99,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Adobe Analytics Plug-In Code](data-connectors/neolane-overview/neolane-plugin-code.md)
    + optivo broadmail Data Connector for Adobe Analytics {#optivo}
       + [optivo broadmail Data Connector for Adobe Analytics](data-connectors/optivo-overview/optivo-overview.md)
-         + [Key Benefits and Features](data-connectors/optivo-overview/optivo-benefits.md)
-         + [Dynamic Marketing Segments](data-connectors/optivo-overview/optivo-marketing-segments.md)
-         + [Before You Activate](data-connectors/optivo-overview/optivo-requirements/optivo-requirements.md)
-            + [Pricing](data-connectors/optivo-overview/optivo-requirements/optivo-pricing.md)
-            + [Adobe Analytics Variables](data-connectors/optivo-overview/optivo-requirements/optivo-variables.md)
-         + [Activate the Integration](data-connectors/optivo-overview/optivo-activate.md)
-         + [Adobe Analytics Plug-In Code](data-connectors/optivo-overview/optivo-plugin-code.md)
+      + [Activate the Integration](data-connectors/optivo-overview/optivo-activate.md)
+      + [Adobe Analytics Plug-In Code](data-connectors/optivo-overview/optivo-plugin-code.md)
    + Qualtrics Data Connector for Adobe Analytics {#qualtrics}
       + [Qualtrics Data Connector for Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-overview.md)
          + [Key Benefits and Features](data-connectors/qualtrics-overview/qualtrics-benefits.md)

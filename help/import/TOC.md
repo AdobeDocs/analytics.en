@@ -73,8 +73,6 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Frequently Asked Questions](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
    + DreamMail Data Connector for Adobe Analytics {#dreammail}
       + [DreamMail Data Connector for Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
-      + [Key Benefits and Features](data-connectors/dreammail-overview/dreammail-benefits.md)
-      + [Dynamic Marketing Segments](data-connectors/dreammail-overview/dreammail-marketing-segments.md)
       + [Activate the Integration](data-connectors/dreammail-overview/t-dreammail-activate.md)
       + [Analytics Plug-In Code](data-connectors/dreammail-overview/dreammail-analytics-code.md)
    + Dynamic Signal VoiceStorm Data Connector for Adobe Analytics {#dynamicsignal}

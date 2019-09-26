@@ -22,7 +22,7 @@ See [Using Timestamps Optional](/help/implement/js-implementation/timestamps-ove
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. This can lead to out-of-order data and negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. This can lead to out-of-order data and negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
 >[!NOTE]
 >

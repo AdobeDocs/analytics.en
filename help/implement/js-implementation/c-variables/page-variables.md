@@ -163,7 +163,7 @@ Each campaign value remains active for a user, and receives credit for that user
 
 * To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
 
-* For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/?f=campaign). 
+* For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html). 
 * Use the [!DNL DigitalPulse Debugger] to see the actual value of campaigns (v0 in the debugger). If v0 does not appear in the debugger, no campaign data is recorded for that page.
 
 ## channel {#concept_C7770B8C15724A99B10F8F468AF82D0D}

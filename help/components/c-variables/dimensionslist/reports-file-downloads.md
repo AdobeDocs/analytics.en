@@ -32,8 +32,8 @@ Marketing reports capture information on files downloaded from any page of your 
 
 1. On your site, locate the global JavaScript file. This is frequently named [!DNL s_code.js], but may have been renamed. If it has been renamed, you can search the JavaScript files on your site for the value *`s.account`*, which is a part of the JavaScript code. 
 
-1. In the file, locate the [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackdownllinks) variable. Ensure that it is set to *true* 
+1. In the file, locate the [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) variable. Ensure that it is set to *true* 
 
-1. Locate the [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkdownfiletypes) variable. Ensure that all of the desired file extensions are present in this list. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Locate the [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) variable. Ensure that all of the desired file extensions are present in this list. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
 
 If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization's supported users should contact Customer Care. 

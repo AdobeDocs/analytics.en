@@ -34,4 +34,4 @@ For example:
 
 ![](assets/set-context-data.png)
 
-See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in Implementation Help. 
+See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in Implementation Help. 

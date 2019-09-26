@@ -70,7 +70,7 @@ The following are best practices and a few requirements and restrictions to be a
 
   ![](assets/timestamp_v_non8.png)
 
-* Using timestamps when setting a [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) is not recommended. It can lead to out-of-order data.
+* Using timestamps when setting a [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session. 
 

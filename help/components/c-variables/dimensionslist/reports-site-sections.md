@@ -12,14 +12,14 @@ uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 
 Shows the areas of your site that are accessed most by your visitors. Site Sections can include groups of products, similar to categories, which you define. For example, you might have a Cameras group of pages, a Computers group, and so on. Data for the Conversion Site Sections Report is imported from the Site Section Report in the Traffic group, which receives its information from the channel variable in the tracking code. You can use this report to identify the greatest impact on site statistics from items in varying site sections.
 
-* This report references data directly from the [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) variable implemented on your website. 
+* This report references data directly from the [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) variable implemented on your website. 
 * This report can be viewed in both trended and ranked formats. 
 * This report can use a search filter to locate specific line items. 
 * Classifications can be used in this report, allowing you to rename and consolidate line items. 
 * Correlations can be created with any other traffic variable via Admin Tools. 
 * This report can utilize the following metrics:
 
-    * **Pageviews**: the number of times the [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) variable or URL was defined (set as the default metric) 
+    * **Pageviews**: the number of times the [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) variable or URL was defined (set as the default metric) 
     
     * **All pathing metrics**: Visits, Average Page Depth, Average Time Spent on Page, Entries, Exits, Reloads, and Single Access 
     * Depending on your organization's and report suite settings: Daily, Weekly, Monthly and Quarterly Unique Visitors can be enabled on this report. 

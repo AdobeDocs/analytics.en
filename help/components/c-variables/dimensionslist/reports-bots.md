@@ -16,4 +16,4 @@ Displays which spiders and bots have visited your site during a given time perio
 
 >[!MORE_LIKE_THIS]
 >
->* [Bot Rules](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules)
+>* [Bot Rules](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)

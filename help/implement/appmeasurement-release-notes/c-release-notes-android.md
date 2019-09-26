@@ -593,7 +593,7 @@ Release Date: **November 2012**
 
 Release Date: **October 2012**
 
-* Added support for [Google Play Campaign Tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer).
+* Added support for [Google Play Campaign Tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html).
 
 ## Version 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 

@@ -19,7 +19,7 @@ Describes how to calculate common metrics using data feeds.
 
 ## Bots {#section_06753B95800F47668AAF52E7227F27C8}
 
-Bots are excluded from data feeds according to the [bot rules](https://marketing.adobe.com/resources/help/en_US/reference/?f=bot_rules) defined for your report suite.
+Bots are excluded from data feeds according to the [bot rules](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) defined for your report suite.
 
 ## Date filtering {#section_3BFF4F7EED1F4FA69EBF12BF98B347E8}
 
@@ -27,11 +27,11 @@ Include rows from the date range you want included by filtering the `date_time` 
 
 ## Event string {#section_87B686512EFD4A6CA072165CB28A130A}
 
-The event string in `event_list` and `post_event_list` contains a comma-delimited list of events, which may have a value and/or a unique ID. We recommend doing all processing on the `post_event_list` because it is de-duplicated and has already applied logic to remove duplicate events with the same ID (see [Event Serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_event_serialization)).
+The event string in `event_list` and `post_event_list` contains a comma-delimited list of events, which may have a value and/or a unique ID. We recommend doing all processing on the `post_event_list` because it is de-duplicated and has already applied logic to remove duplicate events with the same ID (see [Event Serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_event_serialization.html)).
 
 For event ID to name mapping, see the event lookup delivered with your data feed.
 
-For more information on events, see [Events](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_events).
+For more information on events, see [Events](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html).
 
 ## Formulas for common metrics {#section_E26A01C234484857BF8C74443222AE41}
 

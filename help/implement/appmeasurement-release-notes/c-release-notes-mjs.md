@@ -429,7 +429,7 @@ Release Date: **September 18, 2014**
 
   >[!IMPORTANT]
   >
-  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -438,7 +438,7 @@ Release Date: **August 21, 2014**
 * Removed tracking of browser plug-ins ( `p` query parameter) as plug-ins are no longer reported in version 15. 
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Added support for [additional eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) (76 - 250) and events (101-1000). 
+Added support for [additional eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) and events (101-1000). 
 
 >[!NOTE]
 >
@@ -494,7 +494,7 @@ Release Date: **November 15, 2013**
 Release Date: **November 14, 2013**
 
 * Added support for [heartbeat video measurement](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). 
-* [!DNL VisitorAPI.js] was added to support [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* [!DNL VisitorAPI.js] was added to support [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 
 ## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -538,8 +538,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * Native support to get query parameters, read and write cookies, and perform advanced link tracking. 
 * Small and fast enough to be used with mobile sites, and robust enough to be used on the full desktop web, allowing you to leverage a single library across all web environments.
 
-See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) in the [!DNL Analytics] Implementation Guide.
+See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) in the [!DNL Analytics] Implementation Guide.
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. See [Plug-in Support](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) for details.
+>Some plug-ins are not supported in this new version. See [Plug-in Support](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) for details.

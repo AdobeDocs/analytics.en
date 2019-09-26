@@ -53,7 +53,7 @@ Before starting the Data Connectors integration for , complete the following req
 ## Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
 * **Report Suite Specific:** Be advised this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration. 
-* **Available and configured Adobe Analytics variables:** This integration requires custom events and custom eVars. See [Adobe Analytics Integration Variables](../../optivo-overview/optivo-requirements/optivo-variables.md#concept-8ebd2bde4a1c4b0aad2987e050ffbbfc). 
+* **Available and configured Adobe Analytics variables:** This integration requires custom events and custom eVars.  
 
 * **Authorized Representative:** Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above. 
 * **Message ID:** The integration requires that we capture and store a "Message ID" within a Adobe Analytics variable (eVar). These IDs are needed to identify the mailings you sent. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard. 
@@ -84,4 +84,4 @@ This integration is available to [!DNL ~Partner~] customers, however additional 
 
 This integration requires Adobe Analytics variables to track metrics.
 
-After identifying the Event and eVars to use with this integration, they must be enabled in the Analytics Admin Console (see [Report Suites](http://microsite.omniture.com/t2/help/en_US/reference/index.html?f=report_suites_admin) for instructions).
+After identifying the Event and eVars to use with this integration, they must be enabled in the Analytics Admin Console (see [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) for instructions).

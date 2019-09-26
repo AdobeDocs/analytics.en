@@ -13,7 +13,7 @@ snippet: y
 
 The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
 
-After identifying the Event and eVars to use with the Silverpop integration, use the Adobe Analytics Admin Console to enable them (see [Report Suites](http://microsite.omniture.com/t2/help/en_US/reference/index.html?f=report_suites_admin)).
+After identifying the Event and eVars to use with the Silverpop integration, use the Adobe Analytics Admin Console to enable them (see [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)).
 
 The following table describes the Analytics variables needed for the Silverpop integration.
 

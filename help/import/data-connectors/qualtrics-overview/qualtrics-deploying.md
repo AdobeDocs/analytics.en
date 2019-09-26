@@ -20,7 +20,7 @@ Deploying this integration is a simple process that requires the following actio
 
 To activate the integration you must complete the Qualtrics integration wizard within the Data Connectors interface
 
-1. Navigate to data connectors and launch the Qualtrics integration wizard. ([Data Connectors Help](http://microsite.omniture.com/t2/help/en_US/genesis/)).
+1. Navigate to data connectors and launch the Qualtrics integration wizard. 
 1. Select the report suite that you want to use for this integration and provide a name.
 
    Complete the integration wizard, providing the information described in the following steps. 1. **Wizard Step 1**

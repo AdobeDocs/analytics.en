@@ -103,7 +103,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Adobe Analytics Plug-In Code](data-connectors/optivo-overview/optivo-plugin-code.md)
    + Qualtrics Data Connector for Adobe Analytics {#qualtrics}
       + [Qualtrics Data Connector for Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-overview.md)
-      + [Deploying the Integration](data-connectors/qualtrics-overview/qualtrics-deploying/qualtrics-deploying.md)
+      + [Deploying the Integration](data-connectors/qualtrics-overview/qualtrics-overview/qualtrics-deploying.md)
       + [Using the Integration](data-connectors/qualtrics-overview/qualtrics-integration.md)
       + [Looking up your Qualtrics Organization ID](data-connectors/qualtrics-overview/qualtrics-org-id.md)
       + [Generating your Qualtrics Adobe Analytics Token](data-connectors/qualtrics-overview/qualtrics-token.md)

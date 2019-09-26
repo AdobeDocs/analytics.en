@@ -33,8 +33,6 @@ Prerequisites to consider before you can activate the data connector.
 * You must be an Adobe Experience Cloud admin user with permissions to enable data connectors. 
 * You must be able to retrieve the Kampyle Private Key from the Kampyle Feedback Form management UI.
 
-  [Retrieve the Kampyle Private Key](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
-
 ## Retrieve the Kampyle Private Key{#retrieve-the-kampyle-private-key}
 
 Steps to retrieve the key within the Kampyle interface.

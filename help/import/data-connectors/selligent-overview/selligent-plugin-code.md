@@ -14,7 +14,7 @@ snippet: y
 
 Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
 
-Once you know the [eVars that you have reserved](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238), replace eVarN with the relevant eVar, for example eVar10.
+Once you know the eVars that you have reserved, replace eVarN with the relevant eVar, for example eVar10.
 
 ```
 /* 

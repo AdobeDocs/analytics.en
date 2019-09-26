@@ -28,8 +28,8 @@ To activate the integration you must complete the Qualtrics integration wizard w
    |  Email Address  | The primary contact email address.  |
    |---|---|
    |  Description  | (Optional) Description for this integration setup.  |
-   |  Qualtrics Organization ID  | [Looking up your Qualtrics Organization ID](../../qualtrics-overview/qualtrics-org-id.md#task-47ea30d6dcd24893986a5e5b8dcf5e96)  |
-   |  Adobe SiteCatalyst Token  | [Generating your Qualtrics Adobe Analytics Token](../../qualtrics-overview/qualtrics-token.md#task-e32eacbc91614008b84e6b2f0b92d372)  |
+   |  Qualtrics Organization ID  | [Looking up your Qualtrics Organization ID](../qualtrics-overview/qualtrics-org-id.md)  |
+   |  Adobe SiteCatalyst Token  | [Generating your Qualtrics Adobe Analytics Token](../qualtrics-overview/qualtrics-token.md)  |
 
 1. **Wizard Step 2 - Variable Mappings **
 

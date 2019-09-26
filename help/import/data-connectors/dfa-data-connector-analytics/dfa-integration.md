@@ -70,7 +70,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 3 </td> 
    <td colname="col2"> DFA Ad Variable </td> 
-   <td colname="col3"> The Analytics eVar that receives DFA campaign attribute, impressions, and clicks data. Typically, this is the Tracking Code eVar ( <span class="varname"> s.campaign </span>), but you can choose any available eVar. Data Connectors also adds the following DFA-related classifications to the selected eVar: <p><b>Campaigns</b>: A collection of ads served to multiple sites that carry common messaging. </p> <p><b>Site Name</b>: The site where the ad was served. </p> <p><b>Ad Name</b>: The Ad name, as defined in your DFA account. </p> <p><b>Site Placement Name</b>: The Web site and page where the Ad was served. </p> <p><b>Delivery Tool</b>: DoubleClick for Advertisers. </p> <p><b>Channel</b>: Banner Ad. </p> <p><b>Cost Structure</b>: CPM, CPC, or Fixed, based on the cost structure of the ad. </p> <p><b>Creative Name</b>: The name of the creative associated with an ad/placement/creative ID. </p> <p><b>DFA &gt; SearchCenter Deduplication</b>: Specifies that DFA should place values in Searchcenter variables when DFA Click-throughs or View-throughs occur. For more information, see <a href="../../dfa-data-connector-analytics/dfa-integration-features.md#concept-ff93289d1662410e98f62c200394b3e3" format="dita" scope="local"> SearchCenter Deduplication </a> . </p> </td> 
+   <td colname="col3"> The Analytics eVar that receives DFA campaign attribute, impressions, and clicks data. Typically, this is the Tracking Code eVar ( <span class="varname"> s.campaign </span>), but you can choose any available eVar. Data Connectors also adds the following DFA-related classifications to the selected eVar: <p><b>Campaigns</b>: A collection of ads served to multiple sites that carry common messaging. </p> <p><b>Site Name</b>: The site where the ad was served. </p> <p><b>Ad Name</b>: The Ad name, as defined in your DFA account. </p> <p><b>Site Placement Name</b>: The Web site and page where the Ad was served. </p> <p><b>Delivery Tool</b>: DoubleClick for Advertisers. </p> <p><b>Channel</b>: Banner Ad. </p> <p><b>Cost Structure</b>: CPM, CPC, or Fixed, based on the cost structure of the ad. </p> <p><b>Creative Name</b>: The name of the creative associated with an ad/placement/creative ID. </p> <p><b>DFA &gt; SearchCenter Deduplication</b>: Specifies that DFA should place values in Searchcenter variables when DFA Click-throughs or View-throughs occur. </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 4 </td> 
@@ -80,7 +80,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Clicks </td> 
-   <td colname="col3"> Select the custom Event that receives DFA Clicks metric data. Clicks indicates the number of times visitors clicked on the ad as measured by DFA’s redirect. The Clicks metric correlates with the Analytics Click-throughs metric. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected. For more information, see <a href="../../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-metric-definitions.md#concept-2d5cd5ddd2594bb386a16a2764f30982" format="dita" scope="local"> Metric Definitions </a>. </p> </td> 
+   <td colname="col3"> Select the custom Event that receives DFA Clicks metric data. Clicks indicates the number of times visitors clicked on the ad as measured by DFA’s redirect. The Clicks metric correlates with the Analytics Click-throughs metric. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -111,7 +111,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> Timeout Event </td> 
-   <td colname="col3"> <p>The Analytics Counter Event that increments each time the <span class="varname"> s.maxDelay </span> timer expires, and no response was received from the DFA servers. Use this event to configure the <span class="varname"> s.maxDelay </span> variable (see <a href="../../dfa-data-connector-analytics/dfa-integration/dfa-tuning-s-maxlelay.md#concept-6deb28eee18e414db220d6009d449f0d" format="dita" scope="local"> Tuning s.maxDelay </a>.) </p> </td> 
+   <td colname="col3"> <p>The Analytics Counter Event that increments each time the <span class="varname"> s.maxDelay </span> timer expires, and no response was received from the DFA servers. Use this event to configure the <span class="varname"> s.maxDelay </span> variable Tuning s.maxDelay </a>.) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,11 +130,11 @@ Although it is rare, some domains have reached the maximum cookie capacity for s
 
 If you have already been tracking Ad campaigns with Adobe Analytics prior to the DFA integration, it is possible that all campaigns (email, search, or banner) use the same query string parameter to identify the referring campaign ID on the landing page.
 
-To understand when to request view-through and click-through data from DFA data for your DFA Ad campaigns, Data Connectors needs to identify when a visitor has clicked on a DFA campaign banner ad. To make this possible, you must add a differentiated query-string parameter to the DFA Ad campaign’s landing page URL so Data Connectors can distinguish between DFA Ad campaign pages and other ad campaign pages that you might have on your Web site. The `dfa_overrideParam` in the JavaScript plug-in (see [Update Your Web Site's Data Collection Code](../../../dfa-data-connector-analytics/dfa-integration/dfa-web-site-updates/dfa-update-data-collection-code.md#concept-8c108723ea0b4cc9a8c5cdc2d05894e3)) used for DFA.
+To understand when to request view-through and click-through data from DFA data for your DFA Ad campaigns, Data Connectors needs to identify when a visitor has clicked on a DFA campaign banner ad. To make this possible, you must add a differentiated query-string parameter to the DFA Ad campaign’s landing page URL so Data Connectors can distinguish between DFA Ad campaign pages and other ad campaign pages that you might have on your Web site. The `dfa_overrideParam` in the JavaScript plug-in used for DFA.
 
 >[!CAUTION]
 >
->Although the Campaign variable can be used for other campaigns, do not use it for DFA campaigns. If you set the Campaign variable to a DFA campaign landing page, Adobe cannot tie impressions and clicks to DFA campaign click-throughs. Once per visit, Adobe collection servers check DFA servers for a previous click- or view-through. Because of this, include the DFA plug-in code (see [Update Your Web Site's Data Collection Code](../../../dfa-data-connector-analytics/dfa-integration/dfa-web-site-updates/dfa-update-data-collection-code.md#concept-8c108723ea0b4cc9a8c5cdc2d05894e3)) only on common landing pages to avoid unnecessary redirects that can slow page-load times, particularly for users with slower Internet connections.
+>Although the Campaign variable can be used for other campaigns, do not use it for DFA campaigns. If you set the Campaign variable to a DFA campaign landing page, Adobe cannot tie impressions and clicks to DFA campaign click-throughs. Once per visit, Adobe collection servers check DFA servers for a previous click- or view-through. Because of this, include the DFA plug-in code only on common landing pages to avoid unnecessary redirects that can slow page-load times, particularly for users with slower Internet connections.
 
 ## Update Your Web Site's Data Collection Code{#update-your-web-site-s-data-collection-code}
 
@@ -151,7 +151,7 @@ To enable the DFA integration on your Web site, you must update your JavaScript 
 
 ### Integrate Module for DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). The Integrate Module comes as part of the .zip file when you download the AppMeasurement for Javascript code from the [Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Contact your Adobe Consultant only if you need additional help finding it.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). The Integrate Module comes as part of the .zip file when you download the AppMeasurement for Javascript code from the Code Manager. Contact your Adobe Consultant only if you need additional help finding it.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 

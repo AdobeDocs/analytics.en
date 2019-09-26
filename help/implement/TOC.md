@@ -124,7 +124,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
       + [s.cookieDomain](js-implementation/c-variables/config-vars/s-cookdom.md)
       + [s.cookieDomainPeriods](js-implementation/c-variables/config-vars/s-cookdomperiods.md)
       + [s.fpcookieDomainPeriods](js-implementation/c-variables/config-vars/s-fpcookdomperiods.md)
-      + [s.cookieLifetime](js-implementation/c-variables/config-vars/s-lifetime.md)
+      + [s.cookieLifetime](js-implementation/c-variables/config-vars/s-cooklifetime.md)
       + [s.doPlugins](js-implementation/c-variables/config-vars/s-doplugins.md)
       + [s.registerPreTrackCallback](js-implementation/c-variables/config-vars/s-regpretrackcback.md)
       + [s.registerPostTrackCallback](js-implementation/c-variables/config-vars/s-regpretrackcback.md)

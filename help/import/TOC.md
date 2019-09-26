@@ -71,7 +71,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Analytics Reports Using DFA Data](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [Reconciling Metric Discrepancies](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md)
       + [Frequently Asked Questions](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
-   + DreamMail Data Connector for Adobe Analytics {#dreamMail}
+   + DreamMail Data Connector for Adobe Analytics {#dreammail}
       + [DreamMail Data Connector for Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
       + [Key Benefits and Features](data-connectors/dreammail-overview/dreammail-benefits.md)
       + [Dynamic Marketing Segments](data-connectors/dreammail-overview/dreammail-marketing-segments.md)

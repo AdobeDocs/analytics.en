@@ -26,4 +26,3 @@ If you selected the JavaScript Plug-In data collection method, copy the followin
 >[!NOTE]
 >
 >The plugin above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plugin above are not available within your Analytics deployment, simply replace them with those that are available.
-

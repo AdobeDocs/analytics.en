@@ -92,7 +92,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Using the Integration](data-connectors/kampyle-home/kampyle-integration/kampyle-integration.md)
    + Lyris Data Connector for Adobe Analytics {#lyris}
       + [Lyris Data Connector for Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
-      + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration/lyris-deploy-integration.md)
+      + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration.md)
    + Neolane Ozon Data Connector for Adobe Analytics {#neolane}
       + [Neolane Ozon Data Connector for Adobe Analytics](data-connectors/neolane-overview/neolane-overview.md)
       + [Activate the Integration](data-connectors/neolane-overview/neolane-activate.md)
@@ -103,7 +103,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Adobe Analytics Plug-In Code](data-connectors/optivo-overview/optivo-plugin-code.md)
    + Qualtrics Data Connector for Adobe Analytics {#qualtrics}
       + [Qualtrics Data Connector for Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-overview.md)
-      + [Deploying the Integration](data-connectors/qualtrics-overview/qualtrics-overview/qualtrics-deploying.md)
+      + [Deploying the Integration](data-connectors/qualtrics-overview/qualtrics-deploying.md)
       + [Using the Integration](data-connectors/qualtrics-overview/qualtrics-integration.md)
       + [Looking up your Qualtrics Organization ID](data-connectors/qualtrics-overview/qualtrics-org-id.md)
       + [Generating your Qualtrics Adobe Analytics Token](data-connectors/qualtrics-overview/qualtrics-token.md)

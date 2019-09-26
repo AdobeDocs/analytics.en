@@ -46,7 +46,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Adobe Analytics Plug-In Code](data-connectors/aprimo-overview/aprimo-sitecatalyst-code.md)
    + ContactLab Data Connector for Adobe Analytics {#contactlab}
      + [ContactLab Data Connector for Adobe Analytics](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
-     + [Deploying the Integration](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration/contactlab-deploying-the-integration.md)
+     + [Deploying the Integration](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration.md)
    + Datran Data Connector for Adobe Analytics {#datran}
       + [Datran Data Connector for Adobe Analytics](data-connectors/datran-integration-overview/datran-integration-overview.md)
       + [Preparing for the Data Connectors Email Integration](data-connectors/datran-integration-overview/datran-configuring-integration.md)
@@ -67,9 +67,9 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Prerequisites](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Integration Features](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
       + [Analytics Variables and Events](data-connectors/dfa-data-connector-analytics/dfa-analytics-variables-and-events.md)
-      + [DFA Integration](data-connectors/dfa-data-connector-analytics/dfa-integration/dfa-integration.md)
+      + [DFA Integration](data-connectors/dfa-data-connector-analytics/dfa-integration.md)
       + [Analytics Reports Using DFA Data](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
-      + [Reconciling Metric Discrepancies](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md)
+      + [Reconciling Metric Discrepancies](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [Frequently Asked Questions](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
    + DreamMail Data Connector for Adobe Analytics {#dreammail}
       + [DreamMail Data Connector for Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
@@ -79,8 +79,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Analytics Plug-In Code](data-connectors/dreammail-overview/dreammail-analytics-code.md)
    + Dynamic Signal VoiceStorm Data Connector for Adobe Analytics {#dynamicsignal}
       + [Dynamic Signal VoiceStorm Data Connector for Adobe Analytics](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
-      + [Deploying the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration/dynamic-signal-deploy-integration.md)
-      + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration/dynamic-signal-use-integration.md)
+      + [Deploying the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration.md)
+      + [Using the Integration](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
    + Emarsys Data Connector for Adobe Analytics {#emarsys}
       + [Emarsys Data Connector for Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
       + [Preparing for the Data Connectors Email Integration](data-connectors/emarsys-overview/emarsys-configure-integration.md)
@@ -88,8 +88,8 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Running the Data Connectors Integration Wizard](data-connectors/emarsys-overview/emarsys-wizard.md)
    + Kampyle Data Connector for Adobe Analytics {#kampyle}
       + [Kampyle Data Connector for Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
-      + [Deploying the Integration](data-connectors/kampyle-home/kampyle-deploy/kampyle-deploy.md)
-      + [Using the Integration](data-connectors/kampyle-home/kampyle-integration/kampyle-integration.md)
+      + [Deploying the Integration](data-connectors/kampyle-home/kampyle-deploy.md)
+      + [Using the Integration](data-connectors/kampyle-home/kampyle-integration.md)
    + Lyris Data Connector for Adobe Analytics {#lyris}
       + [Lyris Data Connector for Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
       + [Deploying the Integration](data-connectors/lyris-overview/lyris-deploy-integration.md)
@@ -113,7 +113,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Verifying the Integration](data-connectors/responsys-home/responsys-verify.md)
    + Selligent Data Connector for Adobe Analytics {#selligent}
       + [Selligent Data Connector for Adobe Analytics](data-connectors/selligent-overview/selligent-overview.md)
-      + [Deploying the Integration](data-connectors/selligent-overview/selligent-deploy-integration/selligent-deploy-integration.md)
+      + [Deploying the Integration](data-connectors/selligent-overview/selligent-deploy-integration.md)
       + [Query String Param Plug-In Code](data-connectors/selligent-overview/selligent-plugin-code.md)
    + Silverpop Data Connector for Adobe Analytics {#silverpop}
       + [Silverpop Data Connector for Adobe Analytics](data-connectors/silverpop-overview/silverpop-overview.md)

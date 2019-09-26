@@ -30,11 +30,11 @@ To activate the integration you must complete the Selligent integration wizard w
 
 1. **Integration Settings**: Choose the desired Report Suite and provide a name for the integration under **[!UICONTROL Integration Settings]**.
 
-1. Under **[!UICONTROL Custom Values]**, fill in all your [Selligent account-related information](../../selligent-overview/selligent-activation/selligent-prereqs-seligent.md#concept-071c594b1bcc465cbce7a6fda3f1d829).
+1. Under **[!UICONTROL Custom Values]**, fill in all your Selligent account-related information.
 
    ![](assets/selligent-general_settings.png)
 
-1. **Variable mapping**: Choose the appropriate [reserved eVars and events](../../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238) from the drop down menus:
+1. **Variable mapping**: Choose the appropriate reserved eVars and events from the drop down menus:
 
    ![](assets/selligent-variables.png)
 

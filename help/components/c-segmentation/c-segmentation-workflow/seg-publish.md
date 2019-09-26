@@ -48,9 +48,12 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 1. Create a segment in the [!UICONTROL Segment Builder].
 1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
-1. Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
 
 ![](assets/publish-ec.png)
+
+>[!IMPORTANT]
+>
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
 
 |  Element | Description |
 |---|---|

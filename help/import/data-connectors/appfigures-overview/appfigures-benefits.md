@@ -21,4 +21,3 @@ This integration offers the following key benefits.
   >Please contact appFigures if you had any previous integration with the App Store data provider to avoid overlap.
 
 * Dedicated variables for app store data, so you do not need to use custom commerce variables and events.
-

@@ -62,11 +62,7 @@ For help with specific configuration variables, refer to the following links:
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html): Determine whether any link clicked is an exit link.
 
-<<<<<<< Updated upstream
-* [strackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Determine whether ClickMap data is gathered.
-=======
 * [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html): Determine whether ClickMap data is gathered.
->>>>>>> Stashed changes
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Include a comma-separated list of file extensions.
 

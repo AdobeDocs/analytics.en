@@ -113,7 +113,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visits from Paid Search </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visits with Visitor ID Cookie </li> 
     </ul> </td> 
-   <td colname="col2"> <p>These segments will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external"> segment templates</a> into the segment builder. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
+   <td colname="col2"> <p>These segments will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> segment templates</a> into the segment builder. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite) segments: 
@@ -126,7 +126,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visits with 5+ Previous Visits* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visits from Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Most of these segments (except the ones marked with an asterisk *) will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external"> segment templates</a> into the segment builder. Additionally, several new segment templates have been added. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
+   <td colname="col2"> <p> Most of these segments (except the ones marked with an asterisk *) will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> segment templates</a> into the segment builder. Additionally, several new segment templates have been added. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Admin segments <p>(also known as "Global" segments) </p> </td> 

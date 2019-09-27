@@ -65,7 +65,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can a failure to load the external Adobe JavaScript, whether due to internet connection, proxy, firewall, or service interruption at Adobe, affect performance? </p> </td> 
-   <td colname="col3"> <p>No. The JavaScript file is not hosted on Adobe servers, so an Adobe outage will not affect the JavaScript execution. If dynamic tag management is employed, the JavaScript file is hosted by Akamai, or on a server location determined by customers. </p> <p>See <i>Will Dynamic Tag Management reduce my website's performance?</i> at the <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external"> Dynamic Tag Management FAQ </a>. </p> <p>Additionally, you can host your own core dynamic tag management file if you are not comfortable relying on Akamai's CDN. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/?f=deployment" format="https" scope="external"> Embed Code and Hosting Options </a>. </p> </td> 
+   <td colname="col3"> <p>No. The JavaScript file is not hosted on Adobe servers, so an Adobe outage will not affect the JavaScript execution. If dynamic tag management is employed, the JavaScript file is hosted by Akamai, or on a server location determined by customers. </p> <p>See <i>Will Dynamic Tag Management reduce my website's performance?</i> at the <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external"> Dynamic Tag Management FAQ </a>. </p> <p>Additionally, you can host your own core dynamic tag management file if you are not comfortable relying on Akamai's CDN. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html" format="https" scope="external"> Embed Code and Hosting Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can the loading of the external Adobe JavaScript cause a reduction in performance? </p> </td> 
@@ -85,51 +85,51 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> Which is the latest version of s_code file? </td> 
-   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/?f=c_release_notes_javascript" format="http" scope="external"> [More...] </a> </td> 
+   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I debug s_code file? </td> 
-   <td> The Adobe Debugger (previously DigitalPulse Debugger) is a free tool provided by Adobe that lets you view the data being collected from your site on any given page. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=debugger" format="http" scope="external"> [More...] </a> </td> 
+   <td> The Adobe Debugger (previously DigitalPulse Debugger) is a free tool provided by Adobe that lets you view the data being collected from your site on any given page. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track different link types? </td> 
-   <td> File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=function_tl" format="http" scope="external"> [More...] </a> </td> 
+   <td> File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track video ? </td> 
-   <td> JavaScript can be used to track a wide variety of players. To track using JavaScript, you add code to the web page that contains your player and track the player using event handlers. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="http" scope="external"> [More...] </a> </td> 
+   <td> JavaScript can be used to track a wide variety of players. To track using JavaScript, you add code to the web page that contains your player and track the player using event handlers. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track a mobile App? </td> 
-   <td> Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=acquisition" format="http" scope="external"> iOS </a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=acquisition" format="http" scope="external"> Android </a> </td> 
+   <td> Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html" format="http" scope="external"> iOS </a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html" format="http" scope="external"> Android </a> </td> 
   </tr> 
   <tr> 
    <td> How do I implement video tracking? </td> 
-   <td> You can track media players by creating functions attached to the video player event handlers This lets you call Media.open, Media.play, Media.stop, and Media.close at the appropriate times. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js_events" format="http" scope="external"> [More...] </a> </td> 
+   <td> You can track media players by creating functions attached to the video player event handlers This lets you call Media.open, Media.play, Media.stop, and Media.close at the appropriate times. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I set up the First Party Cookie? </td> 
-   <td> Analytics uses cookies to provide information on variables and components that do not persist between image requests and browser sessions. These harmless cookies originate from a domain hosted by Adobe, known as third-party cookies. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_cert" format="http" scope="external"> [More...] </a> </td> 
+   <td> Analytics uses cookies to provide information on variables and components that do not persist between image requests and browser sessions. These harmless cookies originate from a domain hosted by Adobe, known as third-party cookies. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I get an SSL certificate? </td> 
-   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only https:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_cert" format="http" scope="external"> [More...] </a> </td> 
+   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only https:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> Where do I find information about the certification expiration notice? </td> 
-   <td> SSL certificates expire each year, meaning that Adobe requires an updated certificate request each time this happens. The FPC specialist provides sufficient warning when this occurs, however, it is recommended to be proactive in monitoring the expiration and providing Adobe with this updated certificate. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_renewals" format="http" scope="external"> [More...] </a> </td> 
+   <td> SSL certificates expire each year, meaning that Adobe requires an updated certificate request each time this happens. The FPC specialist provides sufficient warning when this occurs, however, it is recommended to be proactive in monitoring the expiration and providing Adobe with this updated certificate. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> What are plugins? </td> 
-   <td> AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions. Contact your Account Manager if you want to capture data using JavaScript but are unsure how to proceed. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=impl_plugins" format="http" scope="external"> [More...] </a> </td> 
+   <td> AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions. Contact your Account Manager if you want to capture data using JavaScript but are unsure how to proceed. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> Information about data insertion API? </td> 
-   <td> Adobe has created multiple ways to send data into Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc" format="http" scope="external"> [More...] </a> </td> 
+   <td> Adobe has created multiple ways to send data into Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html" format="http" scope="external"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> What is a 500 error? </td> 
-   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=pageType" format="http" scope="external">See pageType variable </a> </td> 
+   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external">See pageType variable </a> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -265,7 +265,7 @@ For information on configuring real-time reports, see the [Analytics Reference G
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Select Report Suite</strong></td> 
-   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external"> Real-Time Reports Configuration </a>. </td> 
+   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external"> Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Switch among reports</strong></td> 

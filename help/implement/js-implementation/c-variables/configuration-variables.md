@@ -28,9 +28,9 @@ Some of the goals of using these configuration variables are:
 >
 >[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-For help with specific configuration variables, refer to the following links:
+For help with specific configuration variables, click any of the following links:
 
-* [s_account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Specify the report suite where data is stored and reported.
+* [s.account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Specify the report suite where data is stored and reported.
 
 * [s.dynamicAccountSelection](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynaccsel.html): Dynamically select the report suite based on the URL of each page.
 

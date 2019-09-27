@@ -89,7 +89,7 @@ For the marketing channel rule, the [!UICONTROL Paid Search] settings are as fol
 
 ![](assets/example_paid_search.png)
 
-See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) in Admin for more information.
+See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in Admin for more information.
 
 ## Natural Search {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -101,7 +101,7 @@ For the marketing channel rule, the Natural Search settings are as follows:
 
 ![](assets/example_natural_search.png)
 
-See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) in the Admin for more information.
+See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in the Admin for more information.
 
 ## Affiliates {#section_8D142C7074CD4DEC87DF55B691107622}
 

@@ -15,6 +15,6 @@ Cumulative release notes for PhoneGap.
 
 If you are building apps with [!DNL PhoneGap], you can use [!DNL AppMeasurement] libraries for [!DNL iOS] or [!DNL Android] to measure the app. See [PhoneGap iOS and Android Plug-ins for Adobe Analytics](https://marketing.adobe.com/developer/gallery/beta-phonegap-ios-and-android-plug-ins-for-sitecatalyst).
 
-[iOS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/index.html?f=phonegap).
+[iOS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/phonegap.html).
 
-[Android documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=phonegap). 
+[Android documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/phonegap.html). 

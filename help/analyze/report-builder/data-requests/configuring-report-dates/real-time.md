@@ -21,9 +21,9 @@ You can:
 * Use any custom event, shopping cart event, or instance. 
 * View up to 20 hours of historical, real-time data.
 
-Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration).
+Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.
+>[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://marketing.adobe.com/resources/help/en_US/arb/options.html) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.
 

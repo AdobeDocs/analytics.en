@@ -16,8 +16,8 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 
 **Report Properties**
 
-* This report references the number of times the [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) function has been called on your site. 
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report. 
+* This report references the number of times the [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) function has been called on your site. 
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report. 
 
 * Because image requests are sent when the user refreshes the page or clicks the back button, this report also includes these actions. 
 * Hourly breakdowns are based on the report suite's time zone. 

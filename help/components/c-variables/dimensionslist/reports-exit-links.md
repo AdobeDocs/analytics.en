@@ -19,15 +19,15 @@ There are several requirements that must be met in order for this page to popula
 * If using automatic custom link tracking, all requirements must be met: 
 *
 
-    * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackexlinks) must be set to *true*. 
+    * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) must be set to *true*. 
     
-    * The link the user clicked on must not match any values within the [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) variable. 
-    * If [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) is implemented, the external link must match at least one of the values set in this variable.
+    * The link the user clicked on must not match any values within the [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) variable. 
+    * If [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) is implemented, the external link must match at least one of the values set in this variable.
 
 * If any of the above requirements are not met, the hit will not populate this report.
 
 * 
-* As with all custom link tracking hits, the [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) variable is stripped from the image request to prevent page-view inflation. 
+* As with all custom link tracking hits, the [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) variable is stripped from the image request to prevent page-view inflation. 
 * You can view this report in trended and ranked formats. 
 * This report can use a search filter to locate specific line items. 
 * You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools. 

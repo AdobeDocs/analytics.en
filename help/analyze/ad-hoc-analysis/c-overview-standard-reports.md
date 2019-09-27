@@ -57,7 +57,7 @@ c_reports_campaigns.xml
 
  -->
 
-These reports are usually customized and thus different for every analyst. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) in the [!DNL Admin Console] help for more information. 
+These reports are usually customized and thus different for every analyst. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information. 
 
 ## Statistical Calculations {#concept_83FF70DB7895435E985699FE9012D585}
 

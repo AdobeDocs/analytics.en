@@ -21,7 +21,7 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/" format="https" scope="external"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse" format="https" scope="external"> Data Warehouse </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse </a> </td> 
    <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/" format="https" scope="external"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
@@ -72,8 +72,8 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   <tr> 
    <td> <b>Funnel/Pathing</b> </td> 
    <td> Yes <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="https" scope="external"> Fallout </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html" format="https" scope="external"> Flow </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=reports" format="https" scope="external"> Yes </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/?f=c_reports_paths" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html" format="https" scope="external"> Yes </a> </td> 
    <td> Yes </td> 
    <td colname="col06"> No </td> 
    <td colname="col6"> Yes </td> 
@@ -89,7 +89,7 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   </tr> 
   <tr> 
    <td> <b>Cohort Analysis</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=cohort_analysis" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html" format="https" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> No </td> 
    <td> No </td> 
@@ -107,7 +107,7 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   </tr> 
   <tr> 
    <td> <b>Enhanced Visualization Options</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=analysis-workspace-features" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> Yes </td> 
    <td> Yes </td> 
@@ -116,16 +116,16 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   </tr> 
   <tr> 
    <td> <b>Customizable Layout</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=analysis-workspace-features" format="https" scope="external"> Yes </a> </td> 
-   <td> Yes - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=dashboard" format="https" scope="external"> Dashboards </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> Yes </a> </td> 
+   <td> Yes - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external"> Dashboards </a> </td> 
    <td> No </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/?f=configure_the_custom_layout" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html" format="https" scope="external"> Yes </a> </td> 
    <td colname="col06"> <p> Sort results by breakdown or by metrics. </p> </td> 
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
    <td> <b>Project Curation (Simplify reports for non-analysts)</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=curate" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> No </td> 
    <td> Yes </td> 
@@ -134,8 +134,8 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   </tr> 
   <tr> 
    <td> <b>Project Sharing</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=curate" format="https" scope="external"> Yes </a>; all/any users </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=scheduling" format="https" scope="external"> Yes </a>; all/any users </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> Yes </a>; all/any users </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> Yes </a>; all/any users </td> 
    <td> Only with Ad Hoc Analysis users </td> 
    <td> Yes; all/any users </td> 
    <td colname="col06"> No </td> 
@@ -144,18 +144,18 @@ For information on which Adobe Analytics product to use, go [here](../../admin/c
   <tr> 
    <td> <b>Scheduled Report Delivery</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html" format="https" scope="external"> Yes </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=scheduling" format="https" scope="external"> Yes </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/?f=c_schedule" format="https" scope="external"> Yes </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/?f=schedule_report_requests" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html" format="https" scope="external"> Yes </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html" format="https" scope="external"> Yes </a> </td> 
    <td colname="col06"> Yes </td> 
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
    <td> <b>System Requirements</b> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" format="https" scope="external"> More... </a> </p> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" format="https" scope="external"> More... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs" format="http" scope="external"> More... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html?f=system_requirements" format="http" scope="external"> More... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html" format="http" scope="external"> More... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html" format="http" scope="external"> More... </a> </p> </td> 
    <td colname="col06"> Browser and program to open <span class="filepath"> .csv </span> files like MS Excel. Can generate Tableau format files. </td> 
    <td colname="col6"> Windows 64 bit, good graphics adapter for OpenGL 3.2 ( <u> <a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html" format="https" scope="external"> More... </a></u> ) </td> 
   </tr> 

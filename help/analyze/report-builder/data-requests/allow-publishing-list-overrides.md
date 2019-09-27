@@ -14,7 +14,7 @@ When you schedule a report, you can choose a publishing list to use for distribu
 
 Publishing lists are set up in Analytics Admin tools.
 
-See [Publishing List Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list) in the Analytics Reference.
+See [Publishing List Manager](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html) in the Analytics Reference.
 
 To enable this feature, navigate to the [!UICONTROL Request Wizard: Step 1] window.
 

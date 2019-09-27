@@ -93,7 +93,7 @@ For example, if a visitor clicks a link from Site A and arrives at your site, Si
 
 Domains or URLs that are not part of those defined domains and URLs are considered referrers. For example, web page A and web page B are added to the internal URL filter, but web page C is not. In this case, web page C is considered a referrer.
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
 >[!NOTE]
 >

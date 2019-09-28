@@ -17,16 +17,14 @@ There are several requirements that must be met in order for this page to popula
 * If using manual custom link tracking, an *`s.tl()`* request must be fired with the middle parameter set to *e*. 
 
 * If using automatic custom link tracking, all requirements must be met: 
-*
 
     * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) must be set to *true*. 
     
     * The link the user clicked on must not match any values within the [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) variable. 
-    * If [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) is implemented, the external link must match at least one of the values set in this variable.
+    * If [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html) is implemented, the external link must match at least one of the values set in this variable.
 
 * If any of the above requirements are not met, the hit will not populate this report.
-
-* 
+ 
 * As with all custom link tracking hits, the [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) variable is stripped from the image request to prevent page-view inflation. 
 * You can view this report in trended and ranked formats. 
 * This report can use a search filter to locate specific line items. 

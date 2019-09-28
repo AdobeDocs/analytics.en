@@ -35,7 +35,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
 + Data Connectors {#dataconnectors}
    + [Get Started with Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
    + appFigures Data Connector for Adobe Analytics {#appfigures}
-      + [Key Benefits and Features](data-connectors/appfigures-overview/appfigures-benefits.md)
+      + [appFigures Overview](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Before You Activate This Integration](data-connectors/appfigures-overview/appfigures-before-activation.md)
       + [Configure the Integration](data-connectors/appfigures-overview/t-appfigures-integration.md)
       + [Metrics and Dimensions](data-connectors/appfigures-overview/appfigures-metrics.md)

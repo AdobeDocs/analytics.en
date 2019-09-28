@@ -16,7 +16,15 @@ This Adobe data connectors integration combines the power of the appFigures inte
 
 In the world of mobile apps, the most important performance metrics are split between two data sets:
 
-* The user behavior you can track directly 
+* The user behavior you can track directly.
 * The activity only visible to the app stores.
 
-By combining these two Analytics data sets, you can have a complete picture of how your apps are creating value for your organization. 
+By combining these two Analytics data sets, you can have a complete picture of how your apps are creating value for your organization.
+
+## Key Benefits and Features{#key-benefits-and-features}
+
+This integration offers the following key benefits.
+
+* Automated daily syncing of app store dimensions and metrics between appFigures and Adobe Analytics.
+* Historic data backfill for up to 13 months prior to integration activation. Please contact appFigures if you had any previous integration with the App Store data provider to avoid overlap.
+* Dedicated variables for app store data, so you do not need to use custom commerce variables and events.

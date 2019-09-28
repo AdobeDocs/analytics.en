@@ -13,7 +13,7 @@ snippet: y
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 
-To configure the integration: 
+To configure the integration:
 
 1. Log in to the Experience Cloud.
 1. On the Analytics home page, click the Data Connectors™ icon on the pinwheel or tool bar.
@@ -126,4 +126,3 @@ To configure the integration:
   </tr> 
  </tbody> 
 </table>
-

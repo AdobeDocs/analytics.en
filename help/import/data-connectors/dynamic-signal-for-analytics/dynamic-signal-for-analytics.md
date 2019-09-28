@@ -36,6 +36,5 @@ Lists prerequisites for Adobe and Dynamic Signal customers.
 
 ### Prerequisites for Dynamic Signal Customers {#section-468ccc1d532e4e738c9e610650ad3fff}
 
-* Must be a current VoiceStorm customer. 
+* Must be a current VoiceStorm customer.
 * Must have a valid VoiceStorm Community ID.
-

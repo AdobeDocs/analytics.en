@@ -53,7 +53,6 @@ user-guide-url: /content/help/en/analytics/import/home.html
       + [Running the Data Connectors Integration Wizard](data-connectors/datran-integration-overview/t-datran-wizard.md)
    + Delivra Data Connector for Adobe Analytics {#delivra}
       + [Delivra Data Connector for Adobe Analytics](data-connectors/delivra-integration-overview/delivra-integration-overview.md)
-     delivra-before-activating-this-integration/delivra-for-adobe-genesis-integration.md)
       + [Preparing for the Data Connectors Email Integration](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
       + [Running the Data Connectors Integration Wizard](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
    + Demandbase Data Connector for Adobe Analytics {#demandbase}

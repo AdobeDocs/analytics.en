@@ -24,7 +24,7 @@ This email integration supports dynamic marketing segments to help you drive you
 | **Cart Abandonment Profile** | Help visitors convert to customers through fine-tuned campaigns specifically designed for those who are hesitant to complete carts.  |
 | **Purchases Profile** | Increase repeat orders and average order value through campaigns targeted by visitor purchase patterns.  |
 | **Product/Content View Behavioral Profile** | Reach prospective customers through marketing segments based on product views and content access profiling.  |
-| **Custom Re-Marketing Segments ** | Customers can also create and schedule custom re-marketing segments specific to the needs of their users.  |
+| **Custom Re-Marketing Segments** | Customers can also create and schedule custom re-marketing segments specific to the needs of their users.  |
 
 ## Before you Activate this Integration{#before-you-activate-this-integration}
 
@@ -123,7 +123,7 @@ You will require the following information about your Selligent account during t
 
   The URL can be derived from the URL used to log on to the Selligent Marketing solution. Replace the “/simweb/login.aspx” part of the url with “/automation/omniture.asmx”
 
-  E.g: http://<client-specific install url>/automation/omniture.asmx 
+  E.g: `http://<client-specific install url>/automation/omniture.asmx` 
 
 * **Query String Parameters:** These are appended in the landing page URL for Message ID and Recipient ID(Visitor ID). These are always MID and RID for Message ID and Recipient ID respectively. 
 

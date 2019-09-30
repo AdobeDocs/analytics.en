@@ -27,6 +27,10 @@ Cohort Analysis is available for all Analytics customers with access rights to A
 
 [Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
+>[!IMPORTANT]
+>
+>Cohort Analysis does not support calculated metrics. 
+
 ## Cohort Analysis capabilities
 
 In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. It allows for much more fine-tuned control over the cohorts you are building. Here are the featured enhancements:

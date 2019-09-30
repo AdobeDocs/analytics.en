@@ -23,7 +23,9 @@ Examples of what you can do with Cohort Analysis:
 * Recognize when to end a trial or an offer, to maximize value.
 * Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
 
-Cohort Analysis is available for all Analytics customers with access rights to Analysis Workspace.
+Cohort Analysis is available for all Analytics customers with access rights to Analysis Workspace. 
+
+Cohort Analysis does not support calculated metrics. 
 
 [Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 

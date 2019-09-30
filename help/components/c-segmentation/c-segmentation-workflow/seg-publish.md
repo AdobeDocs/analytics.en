@@ -53,7 +53,9 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 >[!IMPORTANT]
 >
->Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
+>
+>![](assets/seg-vis-ecid.png)
 
 |  Element | Description |
 |---|---|

@@ -20,12 +20,14 @@ To activate the integration, you must complete the configuration wizard within t
 1. Launch the Kampyle integration wizard.
 1. Select the desired report suite and provide a name for the integration.
 1. Configure the following items:
+
    1. **[!UICONTROL Email address]** - the primary contact's email address.
    1. **[!UICONTROL Description]** - (optional) description for this integration setup.
    1. **[!UICONTROL Kampyle Key]** - Find this key in the Kampyle application under **[!UICONTROL Feedback Form]** > **[!UICONTROL Feedback Form Customization]**.
    1. **[!UICONTROL Tracking Server]** - the tracking server (domain) setting that you use to track Adobe Analytics data.
    1. **[!UICONTROL Tracking Server Secure]** - if your tracking server is different for secure/https traffic, then provide that setting here.
 1. Configure the following **[!UICONTROL Variable Mappings]** items:
+
    1. **[!UICONTROL Kampyle Feedback ID]** -Select an available eVar variable from your report suite
    1. **[!UICONTROL Feedback Grade]** - Select an available success event (type “counter”) from your report suite.
    1. **[!UICONTROL Feedback Items]** - Select an available success event (type “counter”) from your report suite.
@@ -53,9 +55,9 @@ In many cases, the easiest way to deploy the integration configuration object is
 
 1. Deploy the code using one of the following methods:
 
-       | **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. |
-       |---|---|
-       | **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
+   | **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. |
+   |---|---|
+   | **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
 
 ## Verify the Integration{#verify-the-integration}
 

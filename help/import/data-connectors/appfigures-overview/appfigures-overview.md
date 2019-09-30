@@ -25,3 +25,10 @@ This integration offers the following key benefits.
 * Automated daily syncing of app store dimensions and metrics between appFigures and Adobe Analytics.
 * Historic data backfill for up to 13 months prior to integration activation. Please contact appFigures if you had any previous integration with the App Store data provider to avoid overlap.
 * Dedicated variables for app store data, so you do not need to use custom commerce variables and events.
+
+**Related Articles**
+
+* [Before You Activate This Integration](appfigures-before-activation.md)
+* [Configure the Integration](t-appfigures-integration.md)
+* [Metrics and Dimensions](appfigures-metrics.md)
+* [Segmenting App Data](appfigures-segment-filter.md)

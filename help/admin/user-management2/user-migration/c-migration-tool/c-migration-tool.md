@@ -4,9 +4,6 @@ seo-description: What you need to know about the Analytics user ID migration to 
 seo-title: Analytics User Migration to the Admin Console
 title: Analytics User Migration to the Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics User Migration to the Admin Console{#analytics-user-migration-to-the-admin-console}

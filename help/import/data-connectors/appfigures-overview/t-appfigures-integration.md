@@ -4,9 +4,6 @@ seo-description: The data connectors Integration Wizard steps you through the da
 seo-title: Configure the Integration
 title: Configure the Integration
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Integration{#configure-the-integration}

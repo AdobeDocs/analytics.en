@@ -4,9 +4,6 @@ seo-description: Before activating this integration, review the following items 
 seo-title: Before You Activate This Integration
 title: Before You Activate This Integration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
-index: y
-internal: n
-snippet: y
 ---
 
 # Before You Activate This Integration {#before-you-activate-this-integration}

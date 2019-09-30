@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: Delivra Data Connector for Adobe Analytics
 title: Delivra Data Connector for Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivra Data Connector for Adobe Analytics{#delivra-data-connector-for-adobe-analytics}

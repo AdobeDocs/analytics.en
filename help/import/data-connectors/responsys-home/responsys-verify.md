@@ -5,9 +5,6 @@ seo-title: Verifying the Integration
 solution: Analytics
 title: Verifying the Integration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Verifying the Integration{#verifying-the-integration}

@@ -7,9 +7,6 @@ solution: Analytics
 title: Frequently Asked Questions
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
-index: y
-internal: n
-snippet: y
 ---
 
 # Frequently Asked Questions{#frequently-asked-questions}

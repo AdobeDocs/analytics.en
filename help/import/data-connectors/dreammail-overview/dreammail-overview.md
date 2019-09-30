@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: DreamMail Data Connector for Adobe Analytics
 title: DreamMail Data Connector for Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-index: y
-internal: n
-snippet: y
 ---
 
 # DreamMail Data Connector for Adobe Analytics{#dreammail-data-connector-for-adobe-analytics}

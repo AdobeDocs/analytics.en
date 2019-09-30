@@ -5,9 +5,6 @@ seo-description: This Adobe data connectors integration combines the power of th
 seo-title: appFigures Data Connector for Adobe Analytics
 title: appFigures Data Connector for Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
-index: y
-internal: n
-snippet: y
 ---
 
 # appFigures Data Connector for Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}

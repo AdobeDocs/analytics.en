@@ -4,9 +4,6 @@ seo-description: The Data Connectors integration for emarsys uses Analytics vari
 seo-title: Analytics Variables
 title: Analytics Variables
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Variables{#analytics-variables}

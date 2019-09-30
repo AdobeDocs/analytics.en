@@ -5,9 +5,6 @@ seo-title: Using the Integration
 solution: Analytics
 title: Using the Integration
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Integration{#using-the-integration}

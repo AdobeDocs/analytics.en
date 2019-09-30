@@ -7,9 +7,6 @@ solution: Analytics
 title: Reconciling Metric Discrepancies
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Reconciling Metric Discrepancies{#reconciling-metric-discrepancies}
@@ -47,19 +44,18 @@ This discrepancy can result in large difference in the data collected by Analyti
 * DFA sends data to Adobe data collection servers in a nightly batch, so impression data in Analytics can be up to 2 days behind the DFA reports.
 * Adobe uses SAINT classifications to classify imported DFA tracking codes into various levels of aggregations (campaign name, placement name, ad name, etc.) If the discrepancy appears when running a classification report, perform a simple test to see if the classifications have not yet caught up with imported metrics:
 
-* In the classification report, locate a line item called “None”.
-* Do a breakdown of this line item by the same variable, using the raw DFA ID report (such as Campaign ID).
-* In this report, take note of any unclassified DFA tracking codes which are in the form DFA:XXXXX:XXXXX.
-* If many of these tracking codes exist, investigate the nightly SAINT classification process.
+    * In the classification report, locate a line item called “None”.
+    * Do a breakdown of this line item by the same variable, using the raw DFA ID report (such as Campaign ID).
+    * In this report, take note of any unclassified DFA tracking codes which are in the form `DFA:XXXXX:XXXXX`.
+    * If many of these tracking codes exist, investigate the nightly SAINT classification process.
 
 ### Why might DFA clicks be higher than Adobe Analytics click-throughs? {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA records a click before the visitor lands on the customer website. Analytics records Click-Throughs after the landing page loads and executes the Adobe JavaScript beacon. Typically, discrepancies are had because either the visitor is not arriving to the landing page after DFA tracks a click, or the `s.maxDelay` timer is being hit.
-* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example “?CID=1”). Failing to set this parameter will cause the Adobe Analytics JavaScript to miss any click-throughs which happen after the first hit of the visit.
+* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example “`?CID=1`”). Failing to set this parameter will cause the Adobe Analytics JavaScript to miss any click-throughs which happen after the first hit of the visit.
 * Ensure all placements and creatives have a landing page which is tagged with the JavaScript and has the DFA Integrate module, and that the Floodlight Configuration ID on that landing page matches the Floodlight configuration ID of the served ads. Often, discrepancies come because the landing page for ads are set to third party site, or the served ads. 
 * If you use Rich Media ads or Flash (swf) ads, make sure that whenever the DFA clicktracker is hit, that the visitor's browser is also being redirected to the Landing page with the `clickThroughParam` included in the query string. Failure to redirect the browser will not cause a click-through to be recorded.
-* Timeouts represent instances where DFA data might have been available but the JavaScript did not receive a response in time. When a visitor arrives on the landing page, Adobe JavaScript requests the visitor's information from DFA's fls.doubleclick.net service. The `s.maxDelay` parameter determines how long the JavaScript waits for the Floodlight Service (FLS) data. If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information.  
-
+* Timeouts represent instances where DFA data might have been available but the JavaScript did not receive a response in time. When a visitor arrives on the landing page, Adobe JavaScript requests the visitor's information from DFA's fls.doubleclick.net service. The `s.maxDelay` parameter determines how long the JavaScript waits for the Floodlight Service (FLS) data. If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information. 
 * Bot traffic might inflate the DFA click numbers. Bots may have functionality to click on an ad but may not have the complexity to execute an Analytics beacon or fire the synchronous script tag to load the Floodlight servers request data. If these bots are not removed from the Clicks figure, this might be a source of discrepancy.
 * Visitors which leave the page prior to `s.maxDelay` expiring, and DFA data returning, will be lost; no DFA or visitor data will be collected for them.
 * Analytics attempts to identify and remove duplicate Click-throughs so they are counted only once per campaign per visit. DFA counts visitors who click “Back” and pass through the ad redirect multiple times as additional ACM Clicks, while Analytics does not count these as multiple Click-throughs.

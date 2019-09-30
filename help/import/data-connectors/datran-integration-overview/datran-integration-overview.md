@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors email integration combines behavio
 seo-title: Datran Data Connector for Adobe Analytics
 title: Datran Data Connector for Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
-index: y
-internal: n
-snippet: y
 ---
 
 # Datran Data Connector for Adobe Analytics {#datran-data-connector-for-adobe-analytics}

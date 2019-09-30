@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: Emarsys Data Connector for Adobe Analytics
 title: Emarsys Data Connector for Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Emarsys Data Connector for Adobe Analytics{#emarsys-data-connector-for-adobe-analytics}

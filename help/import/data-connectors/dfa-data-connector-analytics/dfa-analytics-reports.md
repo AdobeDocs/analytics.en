@@ -7,9 +7,6 @@ solution: Analytics
 title: Analytics Reports Using DFA Data
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Reports Using DFA Data{#analytics-reports-using-dfa-data}

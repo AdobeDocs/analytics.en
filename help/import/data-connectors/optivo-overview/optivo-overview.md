@@ -4,9 +4,6 @@ seo-description: This integration combines the power of email marketing software
 seo-title: optivo® broadmail Data Connector for Adobe Analytics
 title: optivo® broadmail Data Connector for Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-index: y
-internal: n
-snippet: y
 ---
 
 # optivo® broadmail Data Connector for Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}

@@ -7,9 +7,6 @@ subtopic: Qualtrics
 title: Using the Integration
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Integration{#using-the-integration}

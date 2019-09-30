@@ -5,9 +5,6 @@ seo-title: Query String Param Plug-In Code
 solution: Analytics
 title: Query String Param Plug-In Code
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Query String Param Plug-In Code{#query-string-param-plug-in-code}

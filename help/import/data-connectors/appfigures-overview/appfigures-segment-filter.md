@@ -4,9 +4,6 @@ seo-description: An appFigures integration is often used to collect data for mul
 seo-title: Segmenting App Data
 title: Segmenting App Data
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-index: y
-internal: n
-snippet: y
 ---
 
 # Segmenting App Data{#segmenting-app-data}

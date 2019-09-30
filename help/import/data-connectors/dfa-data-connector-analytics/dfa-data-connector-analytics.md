@@ -7,9 +7,6 @@ solution: Analytics
 title: DFA Data Connector for Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-index: y
-internal: n
-snippet: y
 ---
 
 # DFA Data Connector for Adobe Analytics{#dfa-data-connector-for-adobe-analytics}

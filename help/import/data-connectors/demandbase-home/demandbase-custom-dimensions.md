@@ -4,9 +4,6 @@ seo-description: Lists optional dimension identifiers that can be given in Step 
 seo-title: Demandbase Custom Dimensions
 title: Demandbase Custom Dimensions
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-index: y
-internal: n
-snippet: y
 ---
 
 # Demandbase Custom Dimensions{#demandbase-custom-dimensions}

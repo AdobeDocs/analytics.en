@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: Aprimo Data Connector for Adobe Analytics
 title: Aprimo Data Connector for Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-index: y
-internal: n
-snippet: y
 ---
 
 # Aprimo Data Connector for Adobe Analytics{#aprimo-data-connector-for-adobe-analytics}

@@ -7,9 +7,6 @@ solution: Analytics
 title: Analytics Variables and Events
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Variables and Events{#analytics-variables-and-events}

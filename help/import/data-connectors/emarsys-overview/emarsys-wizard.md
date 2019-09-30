@@ -4,9 +4,6 @@ seo-description: The Data Connectors Integration Wizard steps you through the Da
 seo-title: Running the Data Connectors Integration Wizard
 title: Running the Data Connectors Integration Wizard
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 ---
 
 # Running the Data Connectors Integration Wizard{#running-the-data-connectors-integration-wizard}

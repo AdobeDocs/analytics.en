@@ -5,9 +5,6 @@ seo-title: Lyris Data Connector for Adobe Analytics
 solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
-index: y
-internal: n
-snippet: y
 ---
 
 # Lyris Data Connector for Adobe Analytics{#lyris-data-connector-for-adobe-analytics}

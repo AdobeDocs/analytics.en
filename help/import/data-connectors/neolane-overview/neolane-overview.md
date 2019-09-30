@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: Neolane Ozon Data Connector for Adobe Analytics
 title: Neolane Ozon Data Connector for Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
-index: y
-internal: n
-snippet: y
 ---
 
 # Neolane Ozon Data Connector for Adobe Analytics{#neolane-ozon-data-connector-for-adobe-analytics}

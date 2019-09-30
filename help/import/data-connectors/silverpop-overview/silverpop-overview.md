@@ -4,9 +4,6 @@ seo-description: This Adobe® Data Connectors™ email integration combines beha
 seo-title: Silverpop Data Connector for Adobe Analytics
 title: Silverpop Data Connector for Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
-index: y
-internal: n
-snippet: y
 ---
 
 # Silverpop Data Connector for Adobe Analytics{#silverpop-data-connector-for-adobe-analytics}

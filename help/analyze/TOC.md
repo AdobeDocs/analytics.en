@@ -26,6 +26,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
+    + [Workspace Totals](analysis-workspace/build-workspace-project/workspace-totals.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + Dimensions {#dimensions}

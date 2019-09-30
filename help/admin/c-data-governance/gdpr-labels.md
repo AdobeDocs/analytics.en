@@ -28,7 +28,7 @@ The Adobe Analytics GDPR implementation supports the following labels for identi
 
 Identity data "I" labels are used to categorize data that can identify or contact a specific person. 
 
-<table id="table_6B5368D714424E52835D5DFE189BD080"> 
+<table id="table_6B5368D714424E52835D5DFE189BD080" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Label </th> 
@@ -62,7 +62,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
 
 Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information. 
 
-<table id="table_A778A508620545CCB37830E5CF1C75B7"> 
+<table id="table_A778A508620545CCB37830E5CF1C75B7" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Label </th> 
@@ -87,7 +87,7 @@ Data Governance labels provide users the ability to classify data that reflects 
 
 **GDPR Access Labels** 
 
-<table id="table_663EFF43A454498386F7F3E60875E0F8"> 
+<table id="table_663EFF43A454498386F7F3E60875E0F8" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Label </th> 
@@ -118,7 +118,7 @@ While few variables will receive any of the other labels, it is expected that ac
 
 **GDPR Delete Labels** 
 
-<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
+<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Label </th> 
@@ -161,7 +161,7 @@ While few variables will receive any of the other labels, it is expected that ac
 
 **GDPR Identity Labels** 
 
-<table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
+<table id="table_F6BBC868457443A19A7B693BD6C55B4B" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Label </th> 
@@ -247,7 +247,7 @@ As another example, you might have a CRM ID that is sometimes sent in via eVar1 
 
 GDPR/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels. 
 
-<table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
+<table id="table_95D4416B3A8A40C28B2610D0003456E6" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Variable Type </th> 
@@ -291,7 +291,7 @@ GDPR/DULE labeling affects four broad classes of Analytics variables. Not all va
 
 ## Variables to which Labels other than ACC-ALL/ACC-PERSON can be assigned/modified {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
-<table id="table_0972910DB2D7473588F23EA47988381D"> 
+<table id="table_0972910DB2D7473588F23EA47988381D" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Group </th> 
@@ -358,7 +358,7 @@ Adobe Analytics support for GDPR deletion requests is designed to minimize impac
 
 The following table describes how various variables are “deleted”. This is not a complete list. 
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
+<table id="table_A329C2E2645F4685BC208826D070A5F6" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Variables </th> 
@@ -397,7 +397,7 @@ The following table describes how various variables are “deleted”. This is n
 
 This section intends to clarify information about Analytics variables that don’t support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don’t require deletion, or why they don’t require a specific deletion label. 
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
+<table id="table_6FECF3D654514862912D371E6BE4143B" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Variable </th> 
@@ -444,7 +444,7 @@ This section intends to clarify information about Analytics variables that don�
 
 There are five standard variables that contain timestamps: 
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
+<table id="table_49A9255366254F799E1682C30CBD98EB" border="1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Time Stamp </th> 

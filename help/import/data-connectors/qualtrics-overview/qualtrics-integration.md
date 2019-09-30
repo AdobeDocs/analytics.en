@@ -7,9 +7,6 @@ subtopic: Qualtrics
 title: Using the Integration
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Integration{#using-the-integration}
@@ -22,7 +19,7 @@ After the deployment is complete, you can begin using the additional capabilitie
 
 The following are actions to take to get value from this integration from within Adobe Analytics.
 
-1. Create a Segment using survey response data (see [Create a segment](http://microsite.omniture.com/t2/help/en_US/sc/user/index.html?f=t_segment.html)). 
+1. Create a Segment using survey response data (see [Create a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)). 
 1. Apply the Segment to key reports.
 
 ## Example {#section-07051d0d60a44408a4e108034586c42f}

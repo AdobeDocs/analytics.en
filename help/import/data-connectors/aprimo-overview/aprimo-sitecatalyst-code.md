@@ -4,9 +4,6 @@ seo-description: If you selected the JavaScript Plug-In data collection method, 
 seo-title: Adobe Analytics Plug-In Code
 title: Adobe Analytics Plug-In Code
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}

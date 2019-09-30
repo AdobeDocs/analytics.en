@@ -4,9 +4,6 @@ seo-description: Use the Adobe Data Connectors Configuration Wizard to set up th
 seo-title: Activate the Integration
 title: Activate the Integration
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Activate the Integration {#activate-the-integration}

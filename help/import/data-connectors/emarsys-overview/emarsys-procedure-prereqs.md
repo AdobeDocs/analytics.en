@@ -4,9 +4,6 @@ seo-description: Using a “plug and play” wizard, intuitive step-by-step proc
 seo-title: Integration Procedure and Prerequisites
 title: Integration Procedure and Prerequisites
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration Procedure and Prerequisites{#integration-procedure-and-prerequisites}

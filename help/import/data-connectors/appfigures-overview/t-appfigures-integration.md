@@ -4,9 +4,6 @@ seo-description: The data connectors Integration Wizard steps you through the da
 seo-title: Configure the Integration
 title: Configure the Integration
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Integration{#configure-the-integration}
@@ -16,7 +13,7 @@ The data connectors Integration Wizard steps you through the data connectors int
 To configure the integration: 
 
 1. [Generate](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) the Integration Account Key from AppFigures.
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** as an Admin user and click **[!UICONTROL + Add New]** to [add a new integration](http://microsite.omniture.com/t2/help/en_US/genesis/index.html?f=t_add_integration).
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** as an Admin user and click **[!UICONTROL + Add New]** to add a new integration.
 1. In the **[!UICONTROL Show]** list, select by name and drag the **appFigures** integration to an empty plug-in slot.
 1. On the AppFigures Integration introduction page, review the text, select the check box to accept the fees associated with the integration, then click **Next**.
 1. Select the Report Suite that you want to use for this integration.

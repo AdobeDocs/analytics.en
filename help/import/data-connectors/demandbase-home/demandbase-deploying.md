@@ -217,11 +217,11 @@ The Demandbase Data Connector indicates when an attribute is “Not Available”
 * Demandbase detects that the visitor is coming from an IP address that does not belong to a company. 
 * An Account Watch attribute (beginning with “watch_list”) is used, but the company is not in your Account Watch list.
 
-**Why does “[n/a]” appear more often for certain attributes? **
+**Why does “`[n/a]`” appear more often for certain attributes?**
 
 Demandbase classifies all IP addresses and provides the audience and audience_segment attributes even when the visitor is not coming from a company IP. When audience returns values such as “Residential”, “Wireless”, and “Hospitality”, the rest of the attributes are likely not available.
 
-At times, a visitor’s audience will be “SMB”, but other attributes will show “[n/a]”. This means Demandbase is able to classify the visitor as a small business, but the full company profile is not available. This typically happens for the smallest companies, when more than one small business is using the same service provider or block of IP addresses.
+At times, a visitor’s audience will be “SMB”, but other attributes will show “`[n/a]`”. This means Demandbase is able to classify the visitor as a small business, but the full company profile is not available. This typically happens for the smallest companies, when more than one small business is using the same service provider or block of IP addresses.
 
 ### Developer Considerations {#section-d33fff55bc4b4db99f82dee418ef1bc2}
 

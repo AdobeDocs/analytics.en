@@ -26,7 +26,7 @@ To configure the integration:
  <thead> 
   <tr valign="top"> 
    <th colname="col2" class="entry"> <p> <b>Field</b> </p> </th> 
-   <th colname="col03" valign="top" align="left" class="entry"> <p> <b>Configuration Section</b> </p> </th> 
+   <th colname="col03" class="entry"> <p> <b>Configuration Section</b> </p> </th> 
    <th colname="col3" class="entry"> <p> <b>Description</b> </p> </th> 
   </tr> 
  </thead>

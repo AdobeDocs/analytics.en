@@ -7,9 +7,6 @@ solution: Analytics
 title: Integration Features
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration Features{#integration-features}

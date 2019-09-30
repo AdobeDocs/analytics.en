@@ -4,9 +4,6 @@ seo-description: If you selected the JavaScript Plug-In data collection method, 
 seo-title: Analytics Plug-In Code
 title: Analytics Plug-In Code
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Plug-In Code{#analytics-plug-in-code}
@@ -26,4 +23,3 @@ If you selected the JavaScript Plug-In data collection method, copy the followin
 >[!NOTE]
 >
 >The plugin above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plugin above are not available within your Analytics deployment, simply replace them with those that are available.
-

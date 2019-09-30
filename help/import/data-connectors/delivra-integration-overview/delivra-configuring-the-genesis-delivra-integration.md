@@ -4,9 +4,6 @@ seo-description: Tasks and information you must have before you run the Data Con
 seo-title: Preparing for the Data Connectors Email Integration
 title: Preparing for the Data Connectors Email Integration
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Preparing for the Data Connectors Email Integration{#preparing-for-the-data-connectors-email-integration}

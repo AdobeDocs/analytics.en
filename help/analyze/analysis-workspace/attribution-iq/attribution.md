@@ -214,7 +214,7 @@ Attribution IQ gives all of the percent credit for the hit to any values present
  >[!NOTE]
  >Due to the hit-level allocation of attribution models, the sum of each line item of your report may not equal the total due to each value receiving the total percent credit belonging to the hit in which it was contained. 
 
- ## Attribution with segmentation
+## Attribution with segmentation
 
 Attribution always runs before segmentation, and segmentation runs before report filters are applied. These principles also apply to virtual report suites (VRS) that have a segments applied.
 

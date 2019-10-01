@@ -18,16 +18,14 @@ Instead of explicitly assigning values to props and eVars in your code, you can 
 
 >[!NOTE]
 >
->Context data variables are not case sensitive. For example, the following 2 variables are effectively identical: >
->```>
+>Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->```>
->and 
->
->```>
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
+>```
 
 Using context data helps prevent you from making code updates to support different report suite configurations.
 

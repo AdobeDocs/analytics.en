@@ -29,10 +29,6 @@ Under **[!UICONTROL Column Settings]**, there are options to **[!UICONTROL Show 
 
 ![](assets/static-rows.png)
 
-## Exported totals
-
-When data is either copied and pasted from a freeform table or downloaded via CSV, the total row will reflect the [!UICONTROL Table Total] only.
-
 ## Frequently asked questions
 
 |Questions|Answer|

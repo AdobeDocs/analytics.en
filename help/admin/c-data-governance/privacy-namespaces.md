@@ -10,13 +10,13 @@ uuid: cab61844-3209-4980-b14c-6859de777606
 
 Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites.
 
-The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a GDPR request. When a GDPR request is submitted, the request will include a JSON section specifying the data subject IDs to use for the request. Multiple IDs can be included as part of a single request for a data subject. The JSON includes:
+The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a Data Privacy request. When a Data Privacy request is submitted, the request will include a JSON section specifying the data subject IDs to use for the request. Multiple IDs can be included as part of a single request for a data subject. The JSON includes:
 
 * A "namespace" field containing the namespace string. 
 * A "type" field that for most Adobe Analytics requests contains the value "analytics". 
 * A "value" field containing the ID that Analytics should search for in the associated namespace variables from each of your report suites.
 
-Refer to the [Experience Cloud GDPR API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details. 
+Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details. 
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 
@@ -70,11 +70,11 @@ It is also acceptable to use: `“namespaceId”: 4` instead of or in addition t
 >
 >These IDs are the only IDs supported by Analytics that use a "type" value other than "analytics".
 
-If the format of the value portion of any of these cookie IDs does not follow the format described for that ID, then the GDPR request will fail, with an error of “Value not formatted correctly.”
+If the format of the value portion of any of these cookie IDs does not follow the format described for that ID, then the Data Privacy request will fail, with an error of “Value not formatted correctly.”
 
 You will most commonly collect these cookie IDs using the new [privacy JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), which will automatically provide all of the relevant key/value pairs for these JSON IDs.
 
-This JavaScript code populates the JSON with other key/value pairs besides those listed above (namespace, type, value), but the fields listed above are the most important for Analytics GDPR processing and the only ones you need to provide if you collect the IDs in some other way.
+This JavaScript code populates the JSON with other key/value pairs besides those listed above (namespace, type, value), but the fields listed above are the most important for Analytics Data Privacy processing and the only ones you need to provide if you collect the IDs in some other way.
 
 ## Custom Visitor ID
 
@@ -102,12 +102,12 @@ The namespace is also predefined for the custom visitor ID.
 }
 ```
 
-For IDs in custom traffic or conversion variables (props or eVars), label the variable with an ID-DEVICE or ID-PERSON label, then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](gdpr-labels.md).
+For IDs in custom traffic or conversion variables (props or eVars), label the variable with an ID-DEVICE or ID-PERSON label, then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](privacy-labels.md).
 
 You can also see namespaces that you have previously defined for other variables or report suites and reuse one of those, so that the same namespace can easily be used for all your report suites that store that type of ID. It is also possible to assign the same namespace to multiple variables within a report suite. For example, some customers store a CRM ID in a traffic variable and a conversion variable (depending on the page, it is sometimes in one or the other or both), and they could assign the namespace "CRM ID" to both variables.
 
-> [!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the GDPR API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don’t match (such as when the friendly name has been localized for a specific report suite).
+> [!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the Data Privacy API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don’t match (such as when the friendly name has been localized for a specific report suite).
 
 > [!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7). 
+For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](../../admin/c-data-governance/privacy-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7). 

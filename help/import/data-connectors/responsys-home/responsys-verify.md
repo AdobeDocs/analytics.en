@@ -12,7 +12,6 @@ uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 After deployment, you should validate that the integration is successfully transferring data through the following checks.
 
 1. View the integration activity log.
-
    1. In the Adobe Experience Cloud, navigate to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**.
 
       ![](assets/integration_activity_log.png)   

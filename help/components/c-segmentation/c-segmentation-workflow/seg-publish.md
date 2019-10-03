@@ -23,6 +23,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 * Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
 * Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* Ensure that your organization is using Experience Cloud IDs.
 * Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
@@ -31,7 +32,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
 * **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members. 
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager], go [here](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, go [here](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Segment publishing timeline
 
@@ -39,24 +40,30 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 |---|---|---|
 | Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
 | Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
-| Trait and membership population | Within 24 hours | [!DNL Audience Manager] |
+| Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
 
 ## Publish segments in [!UICONTROL Segment Builder]
 
-1. Navigate to [!UICONTROL Analytics > Workspace > Components > Segments] > +
-1. Create a segment in the [!UICONTROL Segment Builder]. 
+1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments] > +**
+1. Create a segment in the [!UICONTROL Segment Builder].
 1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
-1. Check [!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)].
+1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
 ![](assets/publish-ec.png)
 
+>[!IMPORTANT]
+>
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
+>
+>![](assets/seg-vis-ecid.png)
+
 |  Element | Description |
 |---|---|
-| Publish this segment to the Experience Cloud (for `<report suite>`) | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
-| Audience Creation Window | The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
-| Create in Audience Library | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
-| x of 75 Published | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
-| Save | Saves this segment. |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| **[!UICONTROL Audience Creation Window]**| The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
+| **[!UICONTROL Create in Audience Library]** | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
+| **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
+| **[!UICONTROL Save]** | Saves this segment. |
 
 ## Unpublish or delete segments
 
@@ -75,14 +82,14 @@ To delete a segment that has been published to the Experience Cloud, you have to
 
 ## Retrieve the [!DNL Audience Manager] UUID
 
-There are 2 ways to capture the AAM UUID currently associated with the browser:
+There are two ways to capture the AAM UUID currently associated with the browser:
 
 * Adobe Experience Cloud Debugger
 * Native developer tool in browsers (e.g., Chrome Developer Tools)
 
 The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait & segment membership.
 
-**Method 1: Use Adobe Experieence CLoud Debugger**
+**Method 1: Use Adobe Experience CLoud Debugger**
 
 1. Download and install [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
@@ -123,3 +130,4 @@ In AAM, the list of visitors with ECIDs for a given segment are evaluated in a s
 The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
 ], click [!UICONTROL Audiences].
 1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
+

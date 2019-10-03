@@ -16,7 +16,7 @@ Configure user group access to Marketing Channels.
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   See [User Management](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) in the *Admin Help*. 
+   See [User Management](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) in the *Admin Help*. 
 
 1. Click a custom group name, or click **[!UICONTROL Add New User Group]** to create a user group.
 1. Under Report Access, enable **[!UICONTROL All Access]** or **[!UICONTROL No Access]**.

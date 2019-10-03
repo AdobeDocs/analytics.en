@@ -54,7 +54,7 @@ These settings contain editing options for basic report suite functionality, suc
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transaction ID Storage</span> </td> 
-   <td colname="col2"> <p>Enables you to use <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external"> Transaction ID</a> data sources. </p> </td> 
+   <td colname="col2"> <p>Enables you to use <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external"> Transaction ID</a> data sources. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Activate Ad Hoc Analysis</span> </td> 

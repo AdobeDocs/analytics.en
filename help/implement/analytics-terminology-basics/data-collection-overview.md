@@ -69,7 +69,7 @@ Adobe has created multiple ways to send data into Analytics. These methods inclu
 
    ![](assets/how-data-is-collected-5.png)
 
-   A [report suite](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin) defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. 
+   A [report suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. 
 
 1. Report suite data populates the reports that you can access in a web browser.
 

@@ -3,7 +3,7 @@ description: Field descriptions and information about variables when using Dynam
 keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
 seo-description: Field descriptions and information about variables when using Dynamic Tag Management to deploy Adobe Analytics.
 seo-title: Global variables
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Global variables
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 ---

@@ -144,7 +144,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | new_visit | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | os| Numeric ID representing the operating system of the visitor. Based on the user_agent column. Uses os lookup. | int unsigned |
 | p_plugins | No longer used. List of plugins available to the browser. Used the JavaScript function navigator.plugins().| text |
-| page_event| The type of hit that is sent in the image request (standard hit, download link, custom link, exit link). | tinyint unsigned |
+| page_event| The type of hit that is sent in the image request (standard hit, download link, custom link, exit link). See [Page event lookup](datafeeds-page-event.md). | tinyint unsigned |
 | page_event_var1 | Only used in link tracking image requests. The URL of the download link, exit link, or custom link clicked.| text |
 | page_event_var2 | Only used in link tracking image requests. The custom name (if specified) of the link. | varchar(100) |
 | page_event_var3 | No longer used. Contained Survey and Media module data. Populated legacy video reports in previous versions of Adobe Analytics.| text |

@@ -20,7 +20,7 @@ Some out-of-the-box reports contain both Traffic and Conversion metrics (such as
 
 * [!UICONTROL Custom Conversion] reports are based on eVars (conversion variables). 
 * Conversion variables can persist beyond the page view and be associated with metrics within its specified expiration. 
-* The reports' default metrics are revenue. To change default metrics, see [Selecting Default Report Metrics](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default). 
+* The reports' default metrics are revenue. To change default metrics, see [Selecting Default Report Metrics](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html). 
 * View these reports in both trended and ranked formats. 
 * You can use Classifications in these reports, to rename and consolidate line items. 
 * These reports can be broken down by the following if basic subrelations are enabled:

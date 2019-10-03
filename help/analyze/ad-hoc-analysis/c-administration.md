@@ -150,5 +150,5 @@ So to keep the number of hits for this 365 day slice below 750,000,000, the data
 
 >[!MORE_LIKE_THIS]
 >
->* [Users](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [Users](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)

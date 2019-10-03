@@ -13,7 +13,7 @@ Lets you assess the success of campaigns in Adobe Analytics in the same way you 
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 
-The Adobe Target documentation contains more information on [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue) and [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval).
+The Adobe Target documentation contains more information on [Lift](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) and [Confidence](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 To calculate Lift and Confidence:
 

@@ -39,9 +39,7 @@ After completing the integration wizard, you must deploy the integration configu
 
 In many cases, the easiest way to deploy the integration configuration object is to include it with your Adobe Analytics deployment code.
 
->[!NOTE]
->
->If you use Adobe TagManager or Dynamic Tag Management to deploy Adobe Analytics, you can easily add the integration configuration object through that tool.
+> [!NOTE] If you use Adobe TagManager or Dynamic Tag Management to deploy Adobe Analytics, you can easily add the integration configuration object through that tool.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Download and save the **[!UICONTROL Kampyle Integration Code (JS)]** resource. The code looks similar to this:
@@ -52,10 +50,9 @@ In many cases, the easiest way to deploy the integration configuration object is
    ```
 
 1. Deploy the code using one of the following methods:
-
-       | **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. |
-       |---|---|
-       | **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
+   | **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. |
+   |---|---|
+   | **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
 
 ## Verify the Integration{#verify-the-integration}
 
@@ -65,9 +62,7 @@ Validate that the integration is successfully transferring data by completing a 
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
->[!NOTE]
->
->Log entries should appear within 24 hours of successful deployment.
+> [!NOTE] Log entries should appear within 24 hours of successful deployment.
 
 ![](assets/integration_activity_log.png)
 
@@ -75,9 +70,7 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 View your Kampyle feedback reports with Adobe Analytics by navigating to the Kampyle reporting within the appropriate menu structure.
 
->[!NOTE]
->
->Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
+> [!NOTE] Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
 
 ![](assets/adobe_reporting_data.png)
 

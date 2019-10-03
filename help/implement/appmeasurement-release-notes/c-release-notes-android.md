@@ -2,7 +2,7 @@
 description: Cumulative release notes for Android mobile library.
 seo-description: Cumulative release notes for Android mobile library.
 seo-title: Android
-solution: Analytics,Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: Android
 topic: Developer and implementation
@@ -87,7 +87,7 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Visitor ID Service </p> </td> 
-   <td colname="2"> <p>Added timestamp and Marketing Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep Linking </p> </td> 
@@ -268,7 +268,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> New Marketing Cloud Visitor ID Service methods </td> 
+   <td colname="1"> New Experience Cloud Visitor ID Service methods </td> 
    <td colname="2"> <p>Added the following methods: </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -414,7 +414,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 Release Date: **November 24, 2014**
 
-* New - Adobe Marketing Cloud ID integration 
+* New - Adobe Experience Cloud ID integration 
 * Improved debug logs for clarity 
 * Resolved potential crash when checking for in-app messages
 
@@ -499,7 +499,7 @@ Release Date: **14 November, 2013**
 
 Release Date: **27 September, 2013**
 
-[!DNL Android] SDK 4.x for Marketing Cloud Solutions is now available providing the following new features:
+[!DNL Android] SDK 4.x for Experience Cloud Solutions is now available providing the following new features:
 
 * Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe. 
 * Geo-location & points-of-interest 
@@ -593,7 +593,7 @@ Release Date: **November 2012**
 
 Release Date: **October 2012**
 
-* Added support for [Google Play Campaign Tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer).
+* Added support for [Google Play Campaign Tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html).
 
 ## Version 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 

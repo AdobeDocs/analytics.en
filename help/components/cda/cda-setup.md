@@ -5,9 +5,11 @@ description: Learn how to set up Cross-Device Analytics after you meet the prere
 
 # Setting up Cross-Device Analytics
 
-> [!IMPORTANT] All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See [Cross-Device Analytics](cda-home.md) for prerequisites and limitations.
+> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
 
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
+
+> [!IMPORTANT] All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See [Cross-Device Analytics](cda-home.md) for prerequisites and limitations.
 
 ## Choose the cross-device report suite that will be enabled for CDA
 
@@ -53,13 +55,13 @@ To see your organization's compression for a given time period:
 2. Start with a Blank Project, then click Create.
 3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
 4. Drag the People metric onto the canvas directly to the right of the Unique Devices metric header, so the two metrics are side-by-side.
-5. Click the '+' symbol next to available metrics on the left to open the Calculated Metric builder.
+5. Click the '`+`' symbol next to available metrics on the left to open the Calculated Metric builder.
 6. Give this calculated metric the following settings:
    * Name: Cross-Device Compression
    * Format: Percent
    * Decimal Places: 2
    * Definition: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!NOTE] Click 'Add' in the top right corner of the definition area to add a static number. Drag People and Unique Devices from the list of available metrics on the left.
+      > [!TIP] Click 'Add' in the top right corner of the definition area to add a static number. Drag People and Unique Devices from the list of available metrics on the left.
 7. Click Save.
 8. Drag the new calculated metric onto the canvas directly to the right of the People metric header, so all three metrics are side-by-side.
 9. Optional: The workspace loads the Day dimension by default. Drag an alternate date dimension, such as week or month, on top of the Day dimension if a different time granularity is desired.

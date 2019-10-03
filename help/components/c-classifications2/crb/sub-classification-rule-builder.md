@@ -47,7 +47,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 >
 >These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications).
+1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
    Example:
 

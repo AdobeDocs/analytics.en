@@ -21,7 +21,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference help.
+>Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >

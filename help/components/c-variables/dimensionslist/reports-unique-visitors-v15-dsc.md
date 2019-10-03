@@ -125,7 +125,7 @@ Also, each date receives credit for having that visitor on that date.
  </tbody> 
 </table>
 
-** [!UICONTROL Unique Visitors Report] Broken Down by *`Page`*.**
+**[!UICONTROL Unique Visitors Report] Broken Down by *`Page`*.**
 
 You can select a page for [!UICONTROL Unique Visitors Report]. In the following report, the visitor visits page A on these dates: 
 

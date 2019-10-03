@@ -32,9 +32,9 @@ Threshold limits are 500,000 and 1 million unique values by default. These limit
 * The variable you would like to increase the threshold for
 * Both the first and second threshold desired
 
-This change can come with an additional cost, and is dependent on contract. Changes to thresholds can also impact report performance. Adobe highly recommends using good judgment when requesting an increase to unique values in a variable.
+Changes to thresholds can impact report performance. Adobe highly recommends using good judgment when requesting an increase to unique values in a variable.
 
-Low-traffic thresholds are not visible in the Analytics UI. Have a supported user in your organization contact Customer Care if you would like more information on existing thresholds.
+Low-traffic thresholds are not visible in the Analytics UI. Please have a supported user in your organization contact Adobe Customer Care if you would like more information on existing thresholds.
 
 ## Low-traffic using components and other capabilities
 

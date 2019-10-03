@@ -22,10 +22,10 @@ Adobe supports the latest major version of these browsers:
 
 **Solution and Product Requirements**
 
-* [Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (includes Adobe Social) 
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements) 
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs) 
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install) 
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers) 
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
+* [Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html) (includes Adobe Social) 
+* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html) 
+* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html) 
+* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html) 
+* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/r_supported_browsers.html) 
+* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_supported_browsers.html)
 

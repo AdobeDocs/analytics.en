@@ -25,7 +25,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 After you determine the appropriate metric-to-event mappings for the Data Sources data, rename the events with descriptive names appropriate for the associated Data Sources metric.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in Admin Tools Help.
+See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in Admin Tools Help.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ After you define the data dimensions to use with a data source, integrate the di
 
 When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure you name them appropriately.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in Analytics Help.
+See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in Analytics Help.
 
 ## Campaign Tracking Code {#section_468222796FF449ABAA90D88EB3264CB1}
 

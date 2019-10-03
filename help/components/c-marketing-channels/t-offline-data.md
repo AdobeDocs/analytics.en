@@ -17,9 +17,9 @@ Online Channels let you categorize data for visitors who come through sources li
 
 **Integrate data sources into Marketing Channel reports**
 
-If you want to integrate [data sourced data](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_faq) into Marketing Channel reports, keep in mind the following:
+If you want to integrate [data sourced data](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) into Marketing Channel reports, keep in mind the following:
 
-* Any standard hits passed in to analytics reports with a [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID) are processed through marketing channel processing rules as normal. 
+* Any standard hits passed in to analytics reports with a [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) are processed through marketing channel processing rules as normal. 
 * Any `transactionID` data sources passed into analytics are automatically associate with the same marketing channel on which the standard hit was processed. 
 * Any other data sourced data does not go through marketing channel processing rules.
 

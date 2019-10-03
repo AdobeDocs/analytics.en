@@ -44,7 +44,7 @@ Measures how various advertising tracking codes affect different conversion even
 
 * Click **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized. 
 
-* This report can also be broken down by all [List Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var). 
+* This report can also be broken down by all [List Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html). 
 * Page Views, Visits, and Unique Visitors are available as metrics. 
 * This report can make use of segments.
 

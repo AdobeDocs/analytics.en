@@ -3,7 +3,7 @@ description: Field descriptions in Dynamic Tag Management for referrers and camp
 keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
 seo-description: Field descriptions in Dynamic Tag Management for referrers and campaign options when deploying Dynamic Tag Management in Adobe Analytics.
 seo-title: Referrers and campaigns
-solution: Marketing Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referrers and campaigns
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 ---

@@ -15,7 +15,7 @@ Cumulative release notes for Legacy JavaScript H code.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -122,7 +122,7 @@ Release Date: **June 11, 2014**
 
 Release Date: **May 22, 2014**
 
-* Support for the [Marketing Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
 * Support for the [Analytics for Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -147,7 +147,7 @@ Release Date: **July 18, 2013**
 
 Release Date: **April 29, 2013**
 
-* the `useForcedLinkTracking` option that is described in [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) now applies to Firefox 20+ (previously this applied to WebKit browsers only). 
+* the `useForcedLinkTracking` option that is described in [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) now applies to Firefox 20+ (previously this applied to WebKit browsers only). 
 
 * Image object ID generation is now unique between instances. This prevents collisions when more than one instance is on the same page.
 
@@ -183,7 +183,7 @@ Release Date: **January 2013**
 * Fixed handling URL decoding for strings that are encoded with a mixed use of `escape` and `encodeURIComponent`. 
 
 * Fixed an issue in WebKit browsers where link tracking fails if the first server call on the page times out. 
-* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors). 
+* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html). 
 * Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
 
 ```js

@@ -34,7 +34,7 @@ Only administrators can create a custom report. When you create a custom report,
 
 >[!MORE_LIKE_THIS]
 >
->* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 

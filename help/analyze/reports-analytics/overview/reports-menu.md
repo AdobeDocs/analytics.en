@@ -25,7 +25,7 @@ Reports are navigated using a hierarchical column view. Click **[!UICONTROL View
 
 ![](assets/reports-landing.png){width="672px"}
 
-For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
+For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
 
 ## Search for Reports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -118,4 +118,4 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
 
 ## Customizing the All Reports Menu {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus) in Admin Help. 
+Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in Admin Help. 

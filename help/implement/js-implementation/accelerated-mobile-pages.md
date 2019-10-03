@@ -86,7 +86,7 @@ In the `click` trigger, you can specify a selector to ensure that whenever the s
 
 Additionally, `amp-analytics` supports a number of variable substitutions so that AMP can provide data values that it is aware of. You can learn all about those and more by visiting: [amp-analytics variable documentation](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md).
 
-Be aware that if you want to incorporate any technology or DOM variables (such as browser, screen size, device, referrer, etc.) you will have to explicitly add them to any request, as they are not automatically generated for you. Documentation on each of our available query string parameters used for tracking can be found [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters).
+Be aware that if you want to incorporate any technology or DOM variables (such as browser, screen size, device, referrer, etc.) you will have to explicitly add them to any request, as they are not automatically generated for you. Documentation on each of our available query string parameters used for tracking can be found [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html).
 
 If you inspect the hits created by amp-analytics, you will notice that in each request, Adobe has included the `vid` query parameter. We set the `vid` based on a built-in AMP function to set a custom Analytics cookie ID named `adobe_amp_id`. This ID is independent of any other ID being set by [!DNL Adobe Analytics] elsewhere (e.g. `s_vi cookie`) and creates new visitors in any report suite the hits are sent to.
 

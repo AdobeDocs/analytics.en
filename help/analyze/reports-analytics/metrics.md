@@ -20,7 +20,7 @@ Metrics and associated data are displayed in the columns of reports. Traffic met
 
 [Calculated metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) are created by combining metrics.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics). 
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html). 
 
 ## Select default report metrics {#task_9537A607288A4450AE07EC7C070B47C6}
 

@@ -19,7 +19,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
 
 1. Specify user permission to create and curate projects.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)). 
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)). 
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 

@@ -297,7 +297,7 @@ Important information about the migration process and how it impacts current use
   </tr> 
   <tr> 
    <td colname="col1"> <p>Last Access (Last Login) </p> </td> 
-   <td colname="col2"> <p> Details around a users' last-login date and time will be available in the Analytics Users and Assets link and not the Admin Console. The last-login date in Analytics is specific to when users actually accessed Analytics from within Marketing Cloud and does not reflect the date/time when they logged into the Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> Details around a users' last-login date and time will be available in the Analytics Users and Assets link and not the Admin Console. The last-login date in Analytics is specific to when users actually accessed Analytics from within Experience Cloud and does not reflect the date/time when they logged into the Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User Management APIs <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external"> Adobe-supported identity types</a> </p> </td> 

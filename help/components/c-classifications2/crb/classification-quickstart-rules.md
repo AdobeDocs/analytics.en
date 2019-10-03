@@ -60,7 +60,7 @@ about_classification_rules.xml
 
 ## Important Information about Rules {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools]. 
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools]. 
 
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D). 
 
@@ -142,7 +142,7 @@ How the regular expression correlates to the campaign ID:
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
@@ -170,7 +170,7 @@ One way to use a regular expression is to classify a specific character in a str
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 
@@ -195,7 +195,7 @@ Sample Keys:
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Rule Builder] **
+**[!UICONTROL Rule Builder]**
 
 In the [!UICONTROL Rule Builder], configure the rule as follows: 
 

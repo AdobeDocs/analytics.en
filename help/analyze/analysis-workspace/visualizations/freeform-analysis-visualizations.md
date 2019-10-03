@@ -63,7 +63,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalization </p> </td> 
-   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalization</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Display Dual Axis </p> </td> 

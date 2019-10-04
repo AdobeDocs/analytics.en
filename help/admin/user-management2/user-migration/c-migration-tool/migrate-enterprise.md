@@ -4,9 +4,6 @@ seo-description: How to migrate Analytics user accounts as Enterprise or Federat
 seo-title: Migrate Analytics user accounts for Enterprise and Federated IDs
 title: Migrate Analytics user accounts for Enterprise and Federated IDs
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrate Analytics user accounts for Enterprise and Federated IDs{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}

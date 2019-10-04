@@ -4,9 +4,6 @@ seo-description: null
 seo-title: APIs Affected by the Migration
 title: APIs Affected by the Migration
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs Affected by the Migration{#apis-affected-by-the-migration}

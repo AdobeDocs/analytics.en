@@ -257,7 +257,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [AEM Sites and Activity Map integration](activity-map/aem-sites-integration.md)
   + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
   + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}

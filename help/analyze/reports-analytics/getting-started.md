@@ -47,7 +47,7 @@ Browser and system requirements to log in to the Reports & Analytics interface.
 
 ## Log in to Reports and Analytics
 
-Before accessing the interface, work with your Account Manager or Customer Care to set up your company's account.
+Before accessing the interface, work with your Account Manager or Adobe Customer Care to set up your company's account.
 
 ## Log in using the Experience Cloud
 

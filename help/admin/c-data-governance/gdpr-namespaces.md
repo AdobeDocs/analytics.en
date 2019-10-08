@@ -102,7 +102,7 @@ The namespace is also predefined for the custom visitor ID.
 }
 ```
 
-For IDs in custom traffic or conversion variables (props or eVars), label the variable with an ID-DEVICE or ID-PERSON label, then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](gdpr-labels.md).
+For IDs in custom traffic or conversion variables (props or eVars), label the variable with an ID-DEVICE or ID-PERSON label, then assign your own namespace name to that type of ID. See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](gdpr-labels.md)
 
 You can also see namespaces that you have previously defined for other variables or report suites and reuse one of those, so that the same namespace can easily be used for all your report suites that store that type of ID. It is also possible to assign the same namespace to multiple variables within a report suite. For example, some customers store a CRM ID in a traffic variable and a conversion variable (depending on the page, it is sometimes in one or the other or both), and they could assign the namespace "CRM ID" to both variables.
 
@@ -110,4 +110,4 @@ You can also see namespaces that you have previously defined for other variables
 
 > [!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7). 
+For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)

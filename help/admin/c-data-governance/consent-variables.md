@@ -1,3 +1,12 @@
+---
+description: Variables for consent management in Data Privacy.
+seo-description: Variables for consent management in Data Privacy.
+seo-title: Consent Management Variables
+solution: Analytics
+title: Consent Management Variables
+topic: Admin tools
+---
+
 # Consent Management Variables
 
 To provide additional assistance in managing privacy data, a set of reserved variables are available to be used in conjunction with specific context data variables. 
@@ -26,11 +35,22 @@ The Consent Management Variables can be enabled through a new Privacy setting av
 
 Each report suite can be configured to:
 1. In Reports & Analytics click Admin > Report Suites.
-2. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings > Privacy] 
+1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings > Privacy Management] 
 
-    `![](replace with correct screen grab)`
+    ![](assets/rsm-priv-select.png)
 
-3. Need to see final UI for next steps
+1.	Click the [!UICONTROL Enable Data Privacy Reports] button.  Note: Once enabled these variables cannot be turned off. 
+
+    ![](assets/rsm-priv-enable.png)
+
+1. Once enabled, you will see a confirmation message. 
+
+    ![](assets/rsm-priv-config.png)
+
+1. The reserved variables are now available for reporting.  See Consent Management Opt-Out and Consent Management Opt-In.
+
+    ![](assets/rsm-priv-reports.png)
+
 
 ## Implementation
 

@@ -1,3 +1,11 @@
+---
+description: This document describes what you need to do in Adobe Analytics to support your data subjects' CCPA access and delete rights.
+seo-description: This document describes what you need to do in Adobe Analytics to support your data subjects' CCPA access and delete rights.
+seo-title: Adobe Analytics and CCPA
+title: Adobe Analytics and CCPA
+uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+---
+
 # Adobe Analytics and CCPA
 
 This document describes what you need to do in Adobe Analytics to support your data subjects' CCPA access and delete rights.
@@ -27,9 +35,9 @@ See [Label Report Suite Data](/help//admin/c-data-governance/gdpr-setup-reportsu
 
 ## Prerequisites
 
-* Familiarize yourself with [Privacy terminology](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7).
+* Familiarize yourself with [Privacy terminology.](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)
 * Link your login company to an Experience Cloud organization, if it isn't already. Contact Adobe Customer Care and refer to [Organizations and account linking.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
-* Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
+* Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * Set a data retention policy for each report suite so that CCPA Delete and Access requests can be honored.
 
    Adobe Analytics cannot assist you with processing requests to the Privacy Services API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Customer Success Manager in order to set your data retention period.

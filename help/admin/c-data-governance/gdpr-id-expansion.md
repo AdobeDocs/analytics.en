@@ -14,7 +14,7 @@ The IDs you submit do not always cover all of the hit data that Analytics can as
 "expandIds": true
 ```
 
-See the [Sample JSON Request](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation](https://www.adobe.io/apis/experienceplatform/gdpr.html). 
+See the [Sample JSON Request](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation](https://www.adobe.io/apis/experienceplatform/gdpr.html). 
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 

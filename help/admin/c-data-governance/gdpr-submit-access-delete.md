@@ -23,7 +23,7 @@ You, as the data controller, are responsible for obtaining explicit consent from
 
 You, as the data controller, are responsible for verifying that the data subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the data subject and that they don’t inadvertently receive data about other data subjects.
 
-This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present ( [ID Expansion](../../admin/c-data-governance/privacy-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present ( [ID Expansion](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits. You can decide which of these files to return to the data subject. Or you may extract some of this data and combine with data from other systems before returning it to the data subject.
 
@@ -107,7 +107,7 @@ Notice there are three blocks in the user’s section, representing three separa
 Keep in mind that
 
 * The value “5D7236525AA6D9580A495C6C@AdobeOrg” in the “companyContexts” section must be updated with the value of your own Experience Cloud organization. 
-* The “type” and “namespace” fields are described in more detail in the [Namespaces](../../admin/c-data-governance/privacy-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) section. 
+* The “type” and “namespace” fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) section. 
 * The “description” fields are ignored. 
 * The “key” fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe’s system to those in your own systems.
 

@@ -9,16 +9,16 @@ These consent management variables provide an easy to use framework for capturin
    * Reserved Variable: List Prop
    * Type: Comma delimited string
    * Contains:
-      * contextData.['cm.ssf']=1 displayed as SSF
-      * contextData.['opt.dmp']=N displayed as DMP
-      * contextData.['opt.sell']=N displayed as SELL
+      * `contextData.['cm.ssf']=1` displayed as SSF
+      * `contextData.['opt.dmp']=N` displayed as DMP
+      * `contextData.['opt.sell']=N` displayed as SELL
 
 * Consent Management Opt-In
    * Reserved Variable: List Prop
    * Type: Comma delimited string
    * Contains:
-      * contextData.['opt.dmp']=Y displayed as DMP
-      * contextData.['opt.sell']=Y displayed as SELL
+      * `contextData.['opt.dmp']=Y` displayed as DMP
+      * `contextData.['opt.sell']=Y` displayed as SELL
 
 ## Reporting
 
@@ -40,21 +40,22 @@ See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementa
 
 ### SSF
 
-   * Context Data: contextData.['cm.ssf']
-   * Accepted Values:  
-      * `1` - When sending the value `1`, this indicates that Server Side Forwarding is in an opt-out state. The value `1` paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-      * No other values are accepted for this parameter
+* Context Data: `contextData.['cm.ssf']`
+* Accepted Values:  
+   * `1` - When sending the value `1`, this indicates that Server Side Forwarding is in an opt-out state. The value `1` paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * No other values are accepted for this parameter
 
 ### DMP
-   * Context Data: contextData.['opt.dmp']
-   * Accepted Values:  
-      * `N` - When sending the value `N`, this indicates that the consumer is opting out of sharing to data management platforms. Note this does not current block sharing to AAM.  Use SSF for that functionality.
-      * `Y` - When sending the value `Y`, this indicates that the consumer is opting in to sharing to data management platforms.
+
+* Context Data: `contextData.['opt.dmp']`
+* Accepted Values:  
+   * `N` - When sending the value `N`, this indicates that the consumer is opting out of sharing to data management platforms. Note this does not current block sharing to AAM.  Use SSF for that functionality.
+   * `Y` - When sending the value `Y`, this indicates that the consumer is opting in to sharing to data management platforms.
 
 ### SELL
 
-   * Context Data: contextData.['opt.sell']
-   * Accepted Values:  
-      * `N` - When sending the value `N`, this indicates that the consumer is opting out of the sharing or selling of the data to third parties.
-      * `Y` - When sending the value `Y`, this indicates that the consumer is opting in to the sharing or selling of the data to third parties.
+* Context Data: `contextData.['opt.sell']`
+* Accepted Values:  
+   * `N` - When sending the value `N`, this indicates that the consumer is opting out of the sharing or selling of the data to third parties.
+   * `Y` - When sending the value `Y`, this indicates that the consumer is opting in to the sharing or selling of the data to third parties.
 

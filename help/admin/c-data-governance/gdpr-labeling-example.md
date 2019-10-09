@@ -54,10 +54,10 @@ With a delete request using the API values in the first row of the table, the hi
 |AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-|Mary|42|A|GDPR-7398|GDPR-9152|
+|Mary|42|A|Privacy-7398|Privacy-9152|
 |Mary|88|B|N|Y|
 |Mary|99|C|O|Z|
-|John|42|D|GDPR-1866|GDPR-8216|
+|John|42|D|Privacy-1866|Privacy-8216|
 |John|88|E|N|U|
 |John|44|F|Q|V|
 |John|55|G|R|X|
@@ -68,25 +68,25 @@ With a delete request using the API values in the first row of the table, the hi
 |user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|
 |--- |---|---|---|---|
 |**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
-|GDPR-0523|77|GDPR-1866|GDPR-3681|X|
-|GDPR-0523|88|GDPR-2178|GDPR-1975|Y|
-|GDPR-0523|99|GDPR-9045|GDPR-2864|Z|
+|Privacy-0523|77|Privacy-1866|Privacy-3681|X|
+|Privacy-0523|88|Privacy-2178|Privacy-1975|Y|
+|Privacy-0523|99|Privacy-9045|Privacy-2864|Z|
 |John|77|D|P|W|
 |John|88|E|N|U|
 |John|44|F|Q|V|
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
->[!NOTE] Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with “GDPR-“, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+>[!NOTE] Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 |user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|
 |--- |---|---|---|---|
 |**MyProp1**|**AAID**|**MyEvar1**|**MyEvar2**|**MyEvar3**|
-|GDPR-5782|09|GDPR-0859|GDPR-8183|GDPR-9152|
-|GDPR-5782|16|GDPR-6104|GDPR-2911|GDPR-6821|
-|GDPR-5782|83|GDPR-2714|GDPR-0219|GDPR-4395|
-|John|09|D|GDPR-8454|GDPR-8216|
-|John|16|E|GDPR-2911|GDPR-2930|
+|Privacy-5782|09|Privacy-0859|Privacy-8183|Privacy-9152|
+|Privacy-5782|16|Privacy-6104|Privacy-2911|Privacy-6821|
+|Privacy-5782|83|Privacy-2714|Privacy-0219|Privacy-4395|
+|John|09|D|Privacy-8454|Privacy-8216|
+|John|16|E|Privacy-2911|Privacy-2930|
 |John|44|F|Q|V|
 |John|55|G|R|X|
 |Alice|66|A|N|W|

@@ -23,21 +23,21 @@ You, as the data controller, are responsible for obtaining explicit consent from
 
 You, as the data controller, are responsible for verifying that the data subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the data subject and that they don’t inadvertently receive data about other data subjects.
 
-This includes reviewing the data returned by Adobe Analytics as part of a GDPR access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present ( [ID Expansion](../../admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present ( [ID Expansion](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits. You can decide which of these files to return to the data subject. Or you may extract some of this data and combine with data from other systems before returning it to the data subject.
 
 ## Submit Requests {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-You can submit GDPR access and delete requests through our [GDPR UI portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) or via our [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+You can submit Data Privacy access and delete requests through our [Data Privacy UI portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) or via our [Data Privacy API.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 >[!NOTE]
 >
->The GDPR API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
+>The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
 
 ## Sample JSON Request {#section_DB9DE6492FE740918F91D413E7BAB88F}
 
-Here is the JSON that might be submitted through the GDPR API or UI, requesting GDPR processing for three users.
+Here is the JSON that might be submitted through the Data Privacy API or UI, requesting Data Privacy processing for three users.
 
 ```
 { 
@@ -49,7 +49,7 @@ Here is the JSON that might be submitted through the GDPR API or UI, requesting 
     ], 
     "users": [ 
         { 
-            "key": "GDPR-1234", 
+            "key": "Data Privacy-1234", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -62,7 +62,7 @@ Here is the JSON that might be submitted through the GDPR API or UI, requesting 
             ] 
         }, 
         { 
-            "key": "GDPR-1235", 
+            "key": "Data Privacy-1235", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -75,7 +75,7 @@ Here is the JSON that might be submitted through the GDPR API or UI, requesting 
             ] 
         }, 
         { 
-            "key": "GDPR-1236", 
+            "key": "Data Privacy-1236", 
             "action": ["access","delete"], 
             "userIDs": [ 
                 { 
@@ -107,9 +107,9 @@ Notice there are three blocks in the user’s section, representing three separa
 Keep in mind that
 
 * The value “5D7236525AA6D9580A495C6C@AdobeOrg” in the “companyContexts” section must be updated with the value of your own Experience Cloud organization. 
-* The “type” and “namespace” fields are described in more detail in the [Namespaces](../../admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) section. 
+* The “type” and “namespace” fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) section. 
 * The “description” fields are ignored. 
-* The “key” fields can contain any value that you want. If you have an internal ID that you are using for tracking GDPR requests, you could place that value here, to make it easier to match requests in Adobe’s system to those in your own systems.
+* The “key” fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe’s system to those in your own systems.
 
 ## Response Details {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -135,17 +135,17 @@ You can decide which of these to return to the data subject. Or you may extract 
 
 **Delete Response Details**
 
-No data is returned for delete requests - only a status to the GDPR API that the request was completed successfully.
+No data is returned for delete requests - only a status to the Data Privacy API that the request was completed successfully.
 
-## Testing GDPR Processing on Your Data {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## Testing Data Privacy Processing on Your Data {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 Typically, Analytics customers will set up some test report suites to verify functionality before it is released to the general public. Pre-production websites or apps will send data into these test/dev/QA report suites to evaluate how things will work when the code releases before real traffic is sent to the production report suites.
 
-However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. The reason for this is that a GDPR request is automatically applied to all report suites in the Experience Cloud organization, which is often all report suites for your company.
+However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. The reason for this is that a Data Privacy request is automatically applied to all report suites in the Experience Cloud organization, which is often all report suites for your company.
 
-There are a few ways that you can still test your GDPR processing prior to applying it to all your report suites:
+There are a few ways that you can still test your Data Privacy processing prior to applying it to all your report suites:
 
-* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your GDPR testing and your normal Experience Cloud organization for actual GDPR processing. 
+* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing. 
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites.
 
-  For example, you can prefix each namespace with “qa-“ in your test report suites. When you submit GDPR requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.
+  For example, you can prefix each namespace with “qa-“ in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.

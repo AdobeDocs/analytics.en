@@ -136,7 +136,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
       + [s.linkLeaveQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
       + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
       + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
-      + [s.useBeacon](js-implementation/c-variables/config-vars/s-useBeacon.md)
+      + [s.useBeacon](js-implementation/c-variables/config-vars/s-usebeacon.md)
       + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
     + [Context data variables](js-implementation/c-variables/context-data-variables.md)
     + [Dynamic variables](js-implementation/c-variables/dynvars-overview.md)

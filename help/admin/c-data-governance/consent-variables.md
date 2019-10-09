@@ -37,19 +37,19 @@ Each report suite can be configured to:
 1. In Reports & Analytics click Admin > Report Suites.
 1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings > Privacy Management] 
 
-    ![](assets/rsm-priv-select.png)
+    ![](assets/rsm-privacy-select.png)
 
 1.	Click the [!UICONTROL Enable Data Privacy Reports] button.  Note: Once enabled these variables cannot be turned off. 
 
-    ![](assets/rsm-priv-enable.png)
+    ![](assets/rsm-privacy-enable.png)
 
 1. Once enabled, you will see a confirmation message. 
 
-    ![](assets/rsm-priv-config.png)
+    ![](assets/rsm-privacy-config.png)
 
 1. The reserved variables are now available for reporting.  See Consent Management Opt-Out and Consent Management Opt-In.
 
-    ![](assets/rsm-priv-reports.png)
+    ![](assets/rsm-privacy-reports.png)
 
 ## Implementation
 

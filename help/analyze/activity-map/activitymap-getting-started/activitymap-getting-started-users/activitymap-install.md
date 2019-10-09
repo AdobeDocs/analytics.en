@@ -18,7 +18,7 @@ Activity Map browser plug-ins:
 * Are launched by a button or menu item in the browser toolbar. 
 * Are compatible only with the latest versions of these desktop browsers: Internet Explorer, Firefox, Chrome, and Safari. 
 * Support the **[!UICONTROL Remember my login]** feature. 
-* **Can** inject the Activity Map toolbar on web pages that do not contain Analytics page code. Will show an error message if the page does not contain the Analytics page code. 
+* **Can inject** the Activity Map toolbar on web pages that do not contain Analytics page code. Will show an error message if the page does not contain the Analytics page code. 
 * Require you to go through a browser plug-in installation process.
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}

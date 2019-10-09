@@ -51,7 +51,6 @@ Each report suite can be configured to:
 
     ![](assets/rsm-priv-reports.png)
 
-
 ## Implementation
 
 Three context data variables have been pre-defined to work with the consent management reserved variables.  It is up to each implementation engineer to determine how to manage and persist the setting of these variables.  
@@ -78,4 +77,3 @@ See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementa
 * Accepted Values:  
    * `N` - When sending the value `N`, this indicates that the consumer is opting out of the sharing or selling of the data to third parties.
    * `Y` - When sending the value `Y`, this indicates that the consumer is opting in to the sharing or selling of the data to third parties.
-

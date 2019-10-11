@@ -17,7 +17,6 @@ Activity Map is supported on the following web browsers.
 |Internet Explorer|Latest version|
 |Firefox|Latest version|
 |Chrome|Latest version. Note:  The Activity Map Chrome plugin is a "developer mode" plugin only at this time. When you launch this plugin, you will get a message that encourages you to disable developer mode extensions. This message will be displayed each time the plugin is launched.|
-|Safari|Latest version|
 
 >[!NOTE]
 >

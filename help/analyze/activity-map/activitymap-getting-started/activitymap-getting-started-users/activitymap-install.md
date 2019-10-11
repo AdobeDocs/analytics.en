@@ -16,7 +16,7 @@ Activity Map browser plug-ins:
 
 * Are injected manually as an Analytics page tag. 
 * Are launched by a button or menu item in the browser toolbar. 
-* Are compatible only with the latest versions of these desktop browsers: Internet Explorer, Firefox, Chrome, and Safari. 
+* Are compatible only with the latest versions of these desktop browsers: Internet Explorer, Firefox, and Chrome. 
 * Support the **[!UICONTROL Remember my login]** feature. 
 * **Can inject** the Activity Map toolbar on web pages that do not contain Analytics page code. Will show an error message if the page does not contain the Analytics page code. 
 * Require you to go through a browser plug-in installation process.
@@ -58,11 +58,3 @@ Activity Map browser plug-ins:
 1. Click **[!UICONTROL Yes]** on the popup to allow the program to make changes to the computer. 
 1. Follow the instructions in the installation wizard. 
 1. If Activity Map was successfully installed, you will see a notification in Internet Explorer saying that the Activity Map Toolbar is ready for use. Enable it to begin using the application. You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) from your page.
-
-## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
-
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Activity Map]**. 
-
-1. Navigate to <https://safari-extensions.apple.com/>.
-1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) from your page.

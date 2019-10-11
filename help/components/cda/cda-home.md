@@ -30,9 +30,9 @@ As of September 2019, Cross-Device Analytics requires the following. Work with t
   * A contract must be signed with Adobe that includes Adobe Analytics Ultimate. 
   * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in the Device Co-op user guide.
   * Your organization must agree to allow Adobe to process and store Analytics data on Microsoft Azure servers. Adobe uses Azure to store device graph data and perform device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe's presence in Microsoft Azure.
-* Cross-Device Analytics is enabled on a per-report suite basis. Your report suite requires the following:
-  * At this time, a report suite cannot have more than 100 million hits per day. This threshold will increase over the coming months.
-  * A "cross-device" report suite, meaning all data across devices must be sent to the same report suite. Some organizations refer to this as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. Cross-Device Analytics does not work across report suites.
+* Cross-Device Analytics is enabled on a per-report suite basis. Report suites that have been enabled for CDA require the following:
+  * The report suite cannot have more than 100 million hits per day. This threshold will increase over the coming months.
+  * The report suite should contain cross-device data, meaning data from multiple device types (web, app, etc.) Some organizations refer to this as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. Cross-Device Analytics does not work across report suites. It does not combine multiple report suites.
 * Your implementation must meet the following requirements:
   * The latest version of the Experience Cloud ID Service must be deployed. See the [Home Page](https://docs.adobe.com/content/help/en/id-service/using/home.html) in the Experience Cloud Identity Service user guide. Most implementations using Adobe Experience Platform Launch likely already have ECID deployed.
   * Call the `setCustomerIDs` function whenever an individual can be identified, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. See [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) in the Experience Cloud Identity Service user guide.
@@ -42,8 +42,9 @@ As of September 2019, Cross-Device Analytics requires the following. Work with t
 Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used.
 
 * CDA is available through Analysis Workspace only.
-* Stitching cannot occur across IMS organizations. Make sure that you are not using multiple IMS Orgs in your implementation.
 * Stitching cannot occur across report suites as described in Prerequisites above.
+* For many reasons outside of CDA, Adobe Analytics report suites can be mapped to a single IMS org only. Since CDA stitches devices within a given report suite, CDA cannot be used to stitch data across multiple IMS orgs.
+* Adobe Private Graphs are also associated with a single IMS org only.
 * CDA is not currently compatible with Customer Attributes. Customer Attributes cannot be used to create a CDA virtual report suite, within cross-device segments, or for reporting within an Analysis workspace project that is based on a CDA virtual report suite.
 * CDA requires either Co-op Graph or Private Graph. 3rd-party device graphs are not supported.
 * Legacy Analytics ID's are not supported. Only visitors with Experience Cloud ID's are stitched.

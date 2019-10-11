@@ -22,9 +22,9 @@ If you would like to reduce or extend the default data retention period, contact
 * There is no charge for reducing the default data retention period.
 * Extending data retention beyond the default retention period of 25 months requires the purchase of extensions, which are available in increments of one year each. Up to eight extensions can be purchased, for a total of 10 years 1 month (2 years 1 month for default retention, plus 8 years purchased).
 
-## Data retention and GDPR
+## Data retention and Data Privacy
 
-Adobe, in its role as your data processor, must take appropriate measures to assist its customers in fulfilling access, deletion, and other requests from individuals. Applying appropriate, secure, and timely deletion policies is an important part of complying with this obligation. GDPR applies to all customers that market to or process information of EU citizens. Therefore, GDPR is a worldwide regulatory change.
+Adobe, in its role as your data processor, must take appropriate measures to assist its customers in fulfilling access, deletion, and other requests from individuals. Applying appropriate, secure, and timely deletion policies is an important part of complying with this obligation. GDPR applies to all customers that market to or process information of EU citizens. CCPA applies to all customers that market to or process information of California citizens. Therefore, Data Privacy is a worldwide regulatory change.
 
 ## Data deletion
 

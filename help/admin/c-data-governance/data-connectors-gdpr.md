@@ -1,22 +1,22 @@
 ---
 description: This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 seo-description: This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
-seo-title: GDPR and Data Connectors (Genesis)
-title: GDPR and Data Connectors (Genesis)
+seo-title: Data Privacy and Data Connectors (Genesis)
+title: Data Privacy and Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 ---
 
-# GDPR and Data Connectors (Genesis)
+# Data Privacy and Data Connectors (Genesis)
 
 This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
-This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a GDPR request.
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
 
 If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 

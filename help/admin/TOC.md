@@ -45,6 +45,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Publishing Widget](admin/publishing-widgets-admin.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy settings](admin/privacy-settings.md)
+  + [Privacy settings](admin/privacy-reporting.md)
   + Processing rules {#processing-rules}
     + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
     + Processing rules configuration {#processing-rules-configuration}
@@ -156,18 +157,20 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Email users](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
   + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
+  + [Adobe Analytics and CCPA](c-data-governance/an-ccpa-overview.md)
   + [Frequently asked questions](c-data-governance/gdpr-faq.md)
-  + [Adobe Analytics GDPR workflow](c-data-governance/an-gdpr-workflow.md)
+  + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
   + [View/manage report suite's Data Governance settings](c-data-governance/gdpr-view-settings.md)
   + [Label report suite data](c-data-governance/gdpr-setup-reportsuite.md)
   + [Submit access and delete requests](c-data-governance/gdpr-submit-access-delete.md)
-  + [GDPR labels for Analytics variables](c-data-governance/gdpr-labels.md)
+  + [Data Privacy labels for Analytics variables](c-data-governance/gdpr-labels.md)
   + [Namespaces](c-data-governance/gdpr-namespaces.md)
   + [ID expansion](c-data-governance/gdpr-id-expansion.md)
   + [Labeling best practices](c-data-governance/gdpr-analytics-ids.md)
   + [Labeling example](c-data-governance/gdpr-labeling-example.md)
-  + [GDPR and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-  + [GDPR terminology](c-data-governance/gdpr-terminology.md)
+  + [Data Privacy and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
+  + [Data Privacy terminology](c-data-governance/gdpr-terminology.md)
+  + [Consent Management Variables](c-data-governance/consent-variables.md)
 + Server Call Usage {#server-call-usage}
   + [Server call usage overview](c-server-call-usage/overage-overview.md)
   + [View current server call usage](c-server-call-usage/server-call-usage-dashboard.md)

@@ -25,7 +25,7 @@ A background hit is a type of hit sent to Analytics from the Adobe Mobile SDK ve
 
 The following examples outline the logic used in determining when a visit starts and ends for any visitor when the "Prevent Background Hits from starting a new Visit" setting is or is not enabled for a virtual report suite.
 
-** If "Prevent Background Hits from starting a new Visit" is not enabled:**
+**If "Prevent Background Hits from starting a new Visit" is not enabled:**
 
 If this feature is not enabled for a virtual report suite, background hits are treated the same as any other hit, meaning they start new visits and act just the same as foreground hits. For example, if a background hit occurs less than 30 minutes (the standard session timeout for a report suite) before a set of foreground hits, the background hit is part of the session.
 
@@ -35,7 +35,7 @@ If the background hit occurs more than 30 minutes prior to any foreground hits, 
 
 ![](assets/nogood2.jpg)
 
-** If "Prevent Background Hits from starting a new Visit" is enabled:**
+**If "Prevent Background Hits from starting a new Visit" is enabled:**
 
 The following examples illustrate the behavior of background hits when this feature is enabled.
 

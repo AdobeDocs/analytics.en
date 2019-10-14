@@ -53,7 +53,7 @@ Any segments that were created in Reports & Analytics, Ad Hoc Analysis, Report B
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
 
    ![](assets/seg_list.png)
 

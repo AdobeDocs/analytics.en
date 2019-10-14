@@ -49,7 +49,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Show Upward Trend As... </span> </td> 
-   <td colname="col3"> <p>This metric polarity setting shows whether [!DNL Analytics] should consider an upward trend in the metric as good (green) or bad (red). As a result, the report's graph will show as green or red when it's going up. </p> </td> 
+   <td colname="col3"> <p>This metric polarity setting shows whether Analytics should consider an upward trend in the metric as good (green) or bad (red). As a result, the report's graph will show as green or red when it's going up. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Tags </span> </td> 

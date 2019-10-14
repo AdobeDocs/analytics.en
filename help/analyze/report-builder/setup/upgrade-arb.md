@@ -39,7 +39,7 @@ A: No, all your settings, including authentication settings, will continue to wo
    >
    >If this button is greyed out, no new version of Report Builder is available.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. In the future, this will start the update process automatically when a new version becomes available. 
+1. Optionally select the **[!UICONTROL Update when a new version is available]** checkbox. In the future, this will start the update process automatically when a new version becomes available. 
 1. When the setup screen appears, click **[!UICONTROL Next >]**.
 
    ![](assets/setup.png)

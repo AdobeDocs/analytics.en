@@ -183,7 +183,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** > **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]** drop-down.
 
    ![](assets/shared_projects.png)
 

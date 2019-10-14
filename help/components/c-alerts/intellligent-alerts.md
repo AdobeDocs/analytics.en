@@ -53,7 +53,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How far back does the alert's anomaly detection go to determine data anomalies?</b> </p> </td> 
-   <td colname="col2"> <p>The training period varies based on the granularity selected. See [Statistical Techniques used in Anomaly Detection]   (/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) for more detail. Here is a summary: </p> 
+   <td colname="col2"> <p>The training period varies based on the granularity selected. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Here is a summary: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Monthly = 15 months + same range last year </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Weekly = 15 weeks + same range last year </li> 
@@ -71,7 +71,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I get a table of the “expected values” that comprise the dotted line, or some sort of output of what those values are? </b> </p> </td> 
-   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external"> Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports & Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external"> Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> <span class="uicontrol">Reports & Analytics</span> anomaly detection </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -219,9 +219,9 @@ You set up Anomaly Detection independently for each report suite.
 
 1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
 1. Select the report suite for which you want to track daily anomaly detection. To display a list of report suites, click the Report Suite selector drop-down menu.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   You can pick metrics from the list (including calculated metrics) of all metrics or from a list of tracked metrics. You can also filter on specific terms to narrow down the list. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
+   You can pick metrics from the list (including calculated metrics) of all metrics or from a list of tracked metrics. You can also filter on specific terms to narrow down the list. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
 
    ![](assets/view_training_periods.png)
 

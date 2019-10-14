@@ -25,10 +25,9 @@ var s=s_gi('rsid1,rsid2')
 
 The following table outlines what is returned by subsequent calls: 
 
-|  ** Subsequent Call to s_gi** | ** Description of Object Returned** |
+|  **Subsequent Call to s_gi** | **Description of Object Returned** |
 |---|---|
 |  `s=s_gi('rsid1,rsid2')`  | The same object referenced earlier.  |
 |  `s=s_gi('rsid1')`  | A copy of the object created earlier, but not the original.  |
 |  `s=s_gi('rsid1,rsid3')`  | A copy of the object created earlier, but not the original.  |
 |  `s=s_gi('rsid3')`  | A new, empty object, with no config variables set (e.g. linkTrackVars is empty, as is linkDownloadFileTypes).  |
-

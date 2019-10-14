@@ -126,7 +126,7 @@ The following line items might display when running this report:
 
 **Inside Your Site**: These items are URLs that are tagged by the internal URL filters. These items are not counted as referrer instances but can be seen when reporting on other metrics.
 
-** No Java Script**: There was no JavaScript so the type was unidentifiable (unknown). This means that there was no referrer information provided by a client on a browser, which does not report being able to support Javascript. These are not counted as "referrer instances" but can be seen when reporting other metrics.
+**No Java Script**: There was no JavaScript so the type was unidentifiable (unknown). This means that there was no referrer information provided by a client on a browser, which does not report being able to support Javascript. These are not counted as "referrer instances" but can be seen when reporting other metrics.
 
 **USENET (newsgroup)**: This means that the URL of a referrer started with `news://`. As such, the referrer link was posted on a Usenet newsgroup rather than a web page.
 

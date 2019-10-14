@@ -26,6 +26,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
+    + [Workspace Totals](analysis-workspace/build-workspace-project/workspace-totals.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + Dimensions {#dimensions}
@@ -256,7 +257,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [AEM Sites and Activity Map integration](activity-map/aem-sites-integration.md)
   + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
   + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}

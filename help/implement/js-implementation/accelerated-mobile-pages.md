@@ -34,7 +34,7 @@ In addition, to dramatically reduce page weight and speed page load time, AMPs r
 
 To solve these problems, Adobe has collaborated with AMP partners and publishers on two options that a publisher can choose from to best suit their business needs, both using the `amp-analytics` tag. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. The following table gives you an idea of the pros and cons of each approach. 
 
-|   | **"adobeanalytics" template** | ** "adobeanalytics_nativeConfig" template** |
+|   | **"adobeanalytics" template** | **"adobeanalytics_nativeConfig" template** |
 |---|---|---|
 |  Visitor/visit counts (in existing report suite)  | High inflation  | Minimal inflation  |
 |  Using a separate report suite  | Recommended  | Not necessary  |

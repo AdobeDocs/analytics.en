@@ -109,9 +109,9 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 * Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics. 
 * [!UICONTROL Calculated Metrics] can be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
-    * **Page Visibility Ratio **(Total Page Visibility Seconds / Total Page Seconds) 
-    * **Total Hidden Seconds **(Total Page Seconds - Total Page Visibility Seconds) 
-    * ** Average Page Visibility Seconds **(Total Page Visibility Seconds/Total Page Visibility Instances) 
+    * **Page Visibility Ratio** (Total Page Visibility Seconds / Total Page Seconds) 
+    * **Total Hidden Seconds** (Total Page Seconds - Total Page Visibility Seconds) 
+    * **Average Page Visibility Seconds** (Total Page Visibility Seconds/Total Page Visibility Instances) 
     * **Average Page Hidden Seconds** ((Total Page Seconds - Total Page Visibility Seconds)/Total Page Visibility Instances)
 
 * Due to the way the plug-in rounds up the seconds, there can be a 1-2 second difference between the total page visibility seconds and total seconds, with total seconds being higher. (To be resolved in a future update) 
@@ -119,15 +119,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Frequently Asked Questions {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**Will this plug-in make additional server calls? **
+**Will this plug-in make additional server calls?**
 
 The plugin will only record page visibility values on subsequent page view server calls. No additional server calls are used in conjunction with it.
 
-**If I do not want to capture total page seconds or total page visibility instances, can I leave those out of the event list? **
+**If I do not want to capture total page seconds or total page visibility instances, can I leave those out of the event list?**
 
 Yes, the total page seconds and total visibility instances are optional events and can be left out of the list if desired.
 
-**Will the events captured make sense if I use them in reports other than the Previous Page Name? **
+**Will the events captured make sense if I use them in reports other than the Previous Page Name?**
 
 Since the plugin records values on the subsequent image request only other eVars that have been captured in a ‘previous page’ context could be applied, i.e. ‘Previous Page URL’.
 

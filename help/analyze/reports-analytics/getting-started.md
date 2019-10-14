@@ -9,11 +9,11 @@ topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 ---
 
-# Getting started with Reports and Analytics
+# Getting started with Reports & Analytics
 
-Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
+Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## Getting started with Reports & Analytics
 
 Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information. 
 
@@ -29,15 +29,9 @@ Reporting provides insights into your traditional web-based channels as well as 
 * How much time they spent watching a video 
 * Which browsers and devices they used to visit your site
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## Browser and system requirements
 
 Browser and system requirements to log in to the Reports & Analytics interface.
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * Browsers:
 
@@ -51,19 +45,13 @@ requirements.xml
 * Cookies and JavaScript must be enabled. 
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## Log in to Reports and Analytics
 
-Before accessing the interface, work with your Account Manager or Customer Care to set up your company's account.
+Before accessing the interface, work with your Account Manager or Adobe Customer Care to set up your company's account.
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## Log in using the Experience Cloud
 
 Steps that describe how to log in through the Adobe Experience Cloud.
-
-<!-- 
-
-t_login_sso.xml
-
- -->
 
 1. On a computer with access to the Internet, start a browser.
 1. Go to [!DNL https://login.experiencecloud.adobe.com/].
@@ -79,15 +67,9 @@ t_login_sso.xml
 
    The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
 
-## Run a report {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## Run a report
 
 Steps that describe how to generate a report.
-
-<!-- 
-
-t_running_report.xml
-
- -->
 
 1. Log in to [!UICONTROL Reports & Analytics].
 
@@ -99,19 +81,13 @@ t_running_report.xml
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report. 
 
-## Edit a user's account settings {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
+## Edit a user's account settings
 
 Information about editing user accounts, resetting user passwords, and editing contact information.
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 You can view and edit contact information, specify a password, view web services information, and exclude this computer from data collection.
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 All users have access to the [!UICONTROL Account Information] page. The following information is available to view or edit: 
 
@@ -149,27 +125,11 @@ All users have access to the [!UICONTROL Account Information] page. The followin
  </tbody> 
 </table>
 
-## Change the interface language {#task_E20F9C7713C444998C883CFF93DC848A}
+## Change the interface language
 
 Steps that describe how to change the interface language. You can view the Reports and Analytics interface in the language of your choice.
 
-<!-- 
+1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
+1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
-t_changing_language.xml
-
- -->
-
-1. Log in.
-1. Click the **[!UICONTROL View In]** menu, then click a language:
-
-* English 
-* French 
-* Traditional Chinese 
-* Simplified Chinese 
-* German 
-* Japanese 
-* Korean 
-* Spanish 
-* Portuguese
-
-   The most up-to-date documentation is typically the English version. You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.) 
+You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.) 

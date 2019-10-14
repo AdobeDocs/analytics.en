@@ -5,16 +5,13 @@ seo-title: Query String Param Plug-In Code
 solution: Analytics
 title: Query String Param Plug-In Code
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Query String Param Plug-In Code{#query-string-param-plug-in-code}
 
 Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
 
-Once you know the [eVars that you have reserved](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238), replace eVarN with the relevant eVar, for example eVar10.
+Once you know the eVars that you have reserved, replace eVarN with the relevant eVar, for example eVar10.
 
 ```
 /* 

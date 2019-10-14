@@ -7,9 +7,6 @@ subtopic: Qualtrics
 title: Looking up your Qualtrics Organization ID
 topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Looking up your Qualtrics Organization ID{#looking-up-your-qualtrics-organization-id}

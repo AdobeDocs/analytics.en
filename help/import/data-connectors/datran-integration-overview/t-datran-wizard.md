@@ -4,16 +4,13 @@ seo-description: The Data Connectors Integration Wizard steps you through the Da
 seo-title: Running the Data Connectors Integration Wizard
 title: Running the Data Connectors Integration Wizard
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Running the Data Connectors Integration Wizard{#running-the-data-connectors-integration-wizard}
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 
-To configure the integration: 
+To configure the integration:
 
 1. Log in to the Experience Cloud.
 1. On the Adobe Analytics home page, click the Data Connectors™ icon on the pinwheel or tool bar.
@@ -28,7 +25,7 @@ To configure the integration:
 
 1. On the Datran Integration introduction page, review the text, then select the check box to accept the fees associated with the integration, then click **Next**.
 
-   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and Datran fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure. 
+   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and Datran fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure.
 1. On each page of the Data Connectors Integration Wizard, provide the required information, as described in the following table:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
@@ -122,4 +119,3 @@ To configure the integration:
   </tr> 
  </tbody> 
 </table>
-

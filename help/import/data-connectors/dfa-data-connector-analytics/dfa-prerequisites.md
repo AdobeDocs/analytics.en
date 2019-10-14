@@ -7,16 +7,13 @@ solution: Analytics
 title: Prerequisites
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites{#prerequisites}
 
 Before starting the Adobe Data Connectors integration for DFA, do the following:
 
-* Decide whether to integrate against version 1.5 of the integration, or to wait for version 2.0. This decision is dependent upon which features are utilized in your DFA account, and the time frame in which you want to integrate. See [About Version 2.0](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664) for more information. 
+* Decide whether to integrate against version 1.5 of the integration, or to wait for version 2.0. This decision is dependent upon which features are utilized in your DFA account, and the time frame in which you want to integrate.  
 * Decide how DFA Advertisers will map to Adobe Analytics report suites. For example, if you have multiple DFA Advertisers and multiple report suites, you will need to decide which Advertisers pair with which report suites. 
 * Implement Adobe data collection code on all the pages you want to track, using version H.22 or later of the data collection code. 
 * Know the Advertiser ID for a DFA account that is part of the Floodlight Configuration you want to integrate. The integration automatically imports all of the Advertisers that lie within the Floodlight Configuration. 

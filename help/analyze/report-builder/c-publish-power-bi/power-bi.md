@@ -75,7 +75,7 @@ Instead of importing the entire workbook, you can import only the content of all
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**. 
 
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**. 
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -113,7 +113,7 @@ You can turn all your requests into dataset tables and build visualizations on t
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**. 
 
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**. 
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
+1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Click **[!UICONTROL OK]**.
 

@@ -29,7 +29,7 @@ For reports trended over time, you can graphically display events and see whethe
 1. (Optional) Calendar events are user specific unless shared. To share this event, select **[!UICONTROL Share]**.
 1. (Optional) Push the calendar event to users. Calendar Events that have been marked as Shared now have an option to be "pushed" to other users. Pushing a Calendar Event will cause it to show up on the recipient users' trended and overtime graphs.
    1. Click **[!UICONTROL Push To Users]**.
-   1. **[!UICONTROL Check All]**or check the box next to the user name/s.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Click **[!UICONTROL Save]**.
 
    This makes Calendar Events much more usable. Analysts now have the ability to force an overlay onto their users' reports to provide more context. 

@@ -48,7 +48,7 @@ Measures how various advertising tracking codes affect different conversion even
 * Page Views, Visits, and Unique Visitors are available as metrics. 
 * This report can make use of segments.
 
-** Ad Hoc Analysis Properties**
+**Ad Hoc Analysis Properties**
 
 * In addition to most out-of-the-box conversion variables, you can break down the Tracking Code report by all other reports within the reporting interface. 
 * In addition to eCommerce and custom events, you can use all conversion and traffic metrics, as well as use different allocation for all conversion metrics. 

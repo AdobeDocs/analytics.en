@@ -42,6 +42,5 @@ Activity Map lets you set up different views to visually identify the accelerati
 * [Configure Activity Map settings](activitymap-overlay-settings.md)
 * [Activity Map user interface](activitymap-user-interface.md)
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
-* [AEM Sites and Activity Map integration](aem-sites-integration.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
 * [Knowledge resources](activitymap-info-resources.md)

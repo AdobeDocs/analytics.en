@@ -40,7 +40,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 |---|---|---|
 | Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
 | Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
-| Trait and membership population | Within 24 hours | [!DNL Audience Manager] |
+| Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
 
 ## Publish segments in [!UICONTROL Segment Builder]
 
@@ -53,7 +53,9 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 >[!IMPORTANT]
 >
->Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
+>
+>![](assets/seg-vis-ecid.png)
 
 |  Element | Description |
 |---|---|

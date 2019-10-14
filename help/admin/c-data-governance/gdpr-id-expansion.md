@@ -14,7 +14,7 @@ The IDs you submit do not always cover all of the hit data that Analytics can as
 "expandIds": true
 ```
 
-See the [Sample JSON Request](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html) 
+See the [Sample JSON Request](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html) 
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -43,19 +43,19 @@ When Adobe performs ID expansion, it can require an additional full data scan, w
 
 ## Other Data Privacy request flags
 
-In addition to the “expandIDs” flag, Analytics supports two other flags that can be passed as part of a Data Privacy request. These flags with their default values are:
+In addition to the "expandIDs" flag, Analytics supports two other flags that can be passed as part of a Data Privacy request. These flags with their default values are:
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-In the future, the “analyticsDeleteMethod” may support a value of “purge” in addition to the default value of “anonymize”. When supported, it will cause the entire hit to be delete rather than simply updating the values of hit fields that have DEL labels.
+In the future, the "analyticsDeleteMethod" may support a value of "purge" in addition to the default value of "anonymize". When supported, it will cause the entire hit to be delete rather than simply updating the values of hit fields that have DEL labels.
 
-In addition to its default value, the priority field also supports a value of “low”. You should specify this value for requests that are not a result of a data subject request and thus do not have a legal requirement to be completed within 30 days. Note that Adobe discourages the use of the Privacy Service API for reasons other than data subject initiated requests. The Privacy Service API is not an appropriate tool for data cleansing or repairs and will have unintended consequences.
+In addition to its default value, the priority field also supports a value of "low". You should specify this value for requests that are not a result of a data subject request and thus do not have a legal requirement to be completed within 30 days. Note that Adobe discourages the use of the Privacy Service API for reasons other than data subject initiated requests. The Privacy Service API is not an appropriate tool for data cleansing or repairs and will have unintended consequences.
 
 [!NOTE]
-The [Privacy Service API](https://www.adobe.io/apis/experienceplatform/gdpr.html) has been provided to help you fulfill Data Privacy requests, which are time sensitive. Using this API for other purposes is not supported by Adobe and may impact Adobe’s ability to provide timely turn-around of high priority, user-initiated Data Privacy requests for other Adobe customers. We ask that you do not use the Privacy Service API for other purposes such as clearing out data that was accidentally submitted across large groups of visitors.
+The [Privacy Service API](https://www.adobe.io/apis/experienceplatform/gdpr.html) has been provided to help you fulfill Data Privacy requests, which are time sensitive. Using this API for other purposes is not supported by Adobe and may impact Adobe's ability to provide timely turn-around of high priority, user-initiated Data Privacy requests for other Adobe customers. We ask that you do not use the Privacy Service API for other purposes such as clearing out data that was accidentally submitted across large groups of visitors.
 
 You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out data fields, and highlights one reason why the Privacy Service API is inappropriate for this use.
 

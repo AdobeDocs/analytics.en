@@ -48,13 +48,13 @@ uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 
 **Group of Undertakings** - a controlling undertaking and its controlled undertakings
 
-**Identity Management Services (IMS)** - Adobe’s implementation of Federated ID and OAuth 2.0 for authentication of Adobe ID users and authorization for Adobe resources. You must integrate IMS with your Adobe application or service to enable your users to log in and access Adobe services. Users can log in directly with Renga (Adobe’s identity services provider), or log in through a trusted third party authentication domain (such as Google, Facebook, or a corporate/organization LDAP).
+**Identity Management Services (IMS)** - Adobe's implementation of Federated ID and OAuth 2.0 for authentication of Adobe ID users and authorization for Adobe resources. You must integrate IMS with your Adobe application or service to enable your users to log in and access Adobe services. Users can log in directly with Renga (Adobe's identity services provider), or log in through a trusted third party authentication domain (such as Google, Facebook, or a corporate/organization LDAP).
 
-**Experience Cloud organization ID** - refers to an Adobe authorization token for service-to-service authentication, which does not require user login. It is issued to an IMS client, and has no associated user. An IMS client needs a service token to authorize back-channel requests between services. (The term “system token” is occasionally used to mean service token.)
+**Experience Cloud organization ID** - refers to an Adobe authorization token for service-to-service authentication, which does not require user login. It is issued to an IMS client, and has no associated user. An IMS client needs a service token to authorize back-channel requests between services. (The term "system token" is occasionally used to mean service token.)
 
 **Main Establishment** - the place within the Union that the main decisions surrounding data processing are made; with regard to the processor
 
-**Personal Data** - any information related to a natural person or ‘Data Subject’, that can be used to directly or indirectly identify the person
+**Personal Data** - any information related to a natural person or ‘Data Subject', that can be used to directly or indirectly identify the person
 
 **Personal Data Breach** - a breach of security leading to the accidental or unlawful access to, destruction, misuse, etc. of personal data
 

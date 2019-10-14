@@ -21,9 +21,9 @@ You, as the data controller, are responsible for obtaining explicit consent from
 
 ## Validate Users and Their Data {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-You, as the data controller, are responsible for verifying that the data subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the data subject and that they don’t inadvertently receive data about other data subjects.
+You, as the data controller, are responsible for verifying that the data subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the data subject and that they don't inadvertently receive data about other data subjects.
 
-This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present ( [ID Expansion](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present. See [ID Expansion.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits. You can decide which of these files to return to the data subject. Or you may extract some of this data and combine with data from other systems before returning it to the data subject.
 
@@ -35,7 +35,7 @@ You can submit Data Privacy access and delete requests through our [Data Privacy
 >
 >The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
 
-## Sample JSON Request {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## Sample JSON Request {#sample-json-request}
 
 Here is the JSON that might be submitted through the Data Privacy API or UI, requesting Data Privacy processing for three users.
 
@@ -98,7 +98,7 @@ Here is the JSON that might be submitted through the Data Privacy API or UI, req
 
 ```
 
-Notice there are three blocks in the user’s section, representing three separate requests, presumably for three separate data subjects.
+Notice there are three blocks in the user's section, representing three separate requests, presumably for three separate data subjects.
 
 * The first request is an access request using a traditional Adobe Analytics cookie ID (AAID). 
 * The second request is also an access request but is using an MCID/ECID cookie. 
@@ -106,10 +106,10 @@ Notice there are three blocks in the user’s section, representing three separa
 
 Keep in mind that
 
-* The value “5D7236525AA6D9580A495C6C@AdobeOrg” in the “companyContexts” section must be updated with the value of your own Experience Cloud organization. 
-* The “type” and “namespace” fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) section. 
-* The “description” fields are ignored. 
-* The “key” fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe’s system to those in your own systems.
+* The value "5D7236525AA6D9580A495C6C@AdobeOrg" in the "companyContexts" section must be updated with the value of your own Experience Cloud organization. 
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section. 
+* The "description" fields are ignored. 
+* The "key" fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe's system to those in your own systems.
 
 ## Response Details {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -148,4 +148,4 @@ There are a few ways that you can still test your Data Privacy processing prior 
 * One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing. 
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites.
 
-  For example, you can prefix each namespace with “qa-“ in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.
+  For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.

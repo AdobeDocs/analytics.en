@@ -16,7 +16,7 @@ If you are using an integration of any of the below connectors, you can simply c
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 

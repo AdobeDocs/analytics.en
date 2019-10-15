@@ -986,7 +986,7 @@ mediaLength.xml
 
 **Syntax and Possible Values** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrack Method: **
+**autoTrack Method:**
 
 If using [!UICONTROL s.Media.autoTrack], the [!UICONTROL mediaLength] variable does not need to be implemented explicitly. It is determined automatically by the AppMeasurement for JavaScript code.
 

@@ -223,7 +223,7 @@ t_reports_trending_row.xml
 
 When viewing a ranked report, such as a products report, you can see the trend data for a value. For example, you can see that a product made $10,000 in gross revenue for the selected time period. If you want to see how much revenue that product generated for each day of the time period, you can show a trend graph for the product, or open a separate trended report.
 
-** To trend a row** 
+**To trend a row** 
 
 1. Run a ranked report.
 1. Click the [!UICONTROL Trend] icon.  ![](assets/TrendInspector_Buttcon.png)

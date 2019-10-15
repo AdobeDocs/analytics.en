@@ -99,7 +99,7 @@ c_reports_purchases.xml
 * **Revenue**: Lets you view gross profits for selected time periods. Examples could include revenue during the month of March, purchases made last week, or revenue for today. 
 * **Orders**: Shows the number of orders made on your website during the specified time period. Orders can have multiple products in them. 
 * **Units**: Shows the total units that were ordered for the specified time period. 
-* ** Purchase Conversion Funnel**: Ideal for showing conversion events on your site if they occur in a specific order, such as in a retail setting. A funnel report shows you the conversion metrics for each step of the conversion process as well as Orders, Revue, and Units.
+* **Purchase Conversion Funnel**: Ideal for showing conversion events on your site if they occur in a specific order, such as in a retail setting. A funnel report shows you the conversion metrics for each step of the conversion process as well as Orders, Revue, and Units.
 
 ## Shopping Cart Report {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 

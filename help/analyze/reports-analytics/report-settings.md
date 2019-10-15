@@ -131,9 +131,9 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Custom Conversion** |  |  |
 |   | Custom Conversion 1-10  | Conversion > Custom Conversion > Custom Conversion 1-10  |
 |   | Custom Conversion 11-20  | Conversion > Custom Conversion > Custom Conversion 11-20  |
-|  **Custom Traffic ** |  |  |
+|  **Custom Traffic** |  |  |
 |   | Custom Traffic 1-10  | Content > Custom Traffic > Custom Traffic 1-10  |
-|  **Test&Target ** |  | Conversion > Test&Target  |
+|  **Test&Target** |  | Conversion > Test&Target  |
 |  **Survey** |  | Audience > Survey  |
 |  **Marketing Channels** |  |  |
 |   | Channel Overview Report  | Traffic Sources > Marketing Channels > Channel Overview Report  |
@@ -144,7 +144,7 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Mobile App** |  |  |
 |   | Mobile App Overview  | Content > Mobile App > Mobile App Overview  |
 |   | Lifecycle Reports  | Content > Mobile App > Lifecycle Reports  |
-|  **Custom Reports ** |  |  |
+|  **Custom Reports** |  |  |
 |   | Custom reports show up only of you have any set up.  | Custom Reports  |
 |   |  |  |
 

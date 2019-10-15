@@ -21,8 +21,7 @@ Keep in mind that
 
 To add one or more metrics:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **[!UICONTROL [choose metric]]** > **[!UICONTROL Edit Group]** **[!UICONTROL]** to select the group of requests to modify.) 
-
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
 1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
 
    ![](assets/add_metric.png)

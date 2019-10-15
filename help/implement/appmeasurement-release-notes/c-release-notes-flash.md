@@ -25,19 +25,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
-**Version 4.0.3 **
+**Version 4.0.3**
 
 * Inclusion of Visitor API 1.6.1.
 
 ## August 18, 2016 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 - Update**
+**4.0.2 - Update**
 
 Inclusion of Visitor API 1.6.0.
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-** 4.0.1 - Update**
+**4.0.1 - Update**
 
 Inclusion of Visitor API 1.5.6
 

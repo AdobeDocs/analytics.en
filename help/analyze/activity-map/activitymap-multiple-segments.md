@@ -16,7 +16,7 @@ Lets you apply a multiple-segment filter within Activity Map.
 >
 >The Segment control is available only in Standard Mode because the Adobe Analytics platform does not support segmenting real-time data.
 
-You can select one or several of the segments from the **[!UICONTROL Segments]**drop-down menu shown below. The segments listed are identical to those you own or that have been shared with you via Reports & Analytics, for the report suite selected.
+You can select one or several of the segments from the **[!UICONTROL Segments]** drop-down menu shown below. The segments listed are identical to those you own or that have been shared with you via Reports & Analytics, for the report suite selected.
 
 ![](assets/segments.png)
 

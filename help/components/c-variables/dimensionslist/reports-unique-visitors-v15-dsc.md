@@ -259,7 +259,7 @@ The metric totals can change based on the date range of the report. Marketing re
 
 You can use segmentation to change the date range to include later dates instead of earlier dates. For example, assume that the date range is still January 2 through January 3 (as shown in the preceding table). If you apply a segment where Page = C, January 2 would not pass the segment, and the first hit of the Weekly Unique Visitor would be on January 3. If instead you applied a segment where Page = D, then both January 2 and January 3 would be excluded. No results would be shown for the Weekly Unique Visitor and they would be excluded from the total.
 
-**Period-Based Unique Visitors Reports **
+**Period-Based Unique Visitors Reports**
 
 These reports use a particular page, prop, and attribute (example: where Page = A).
 

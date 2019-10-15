@@ -23,10 +23,11 @@ Administrators with access to create virtual report suites can create CDA virtua
 2. Click the 9-grid icon at the top, then click Analytics.
 3. Hover over Components at the top, then click Virtual Report Suites.
 4. Click Add.
-5. Enter a name for your virtual report suite, and ensure that the CDA-enabled report suite is selected. You may optionally apply a segment to the virtual report suite. For example, you may want to apply a segment that limits the virtual report suite to dates after CDA was turned on and stitching began. This way, users will see only stitched date ranges within the VRS.
-6. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
-7. Click the checkbox 'Stitch User Visits Across Devices'.
-8. Click Continue, finish configuring the virtual report suite, then click Save.
+5. Enter a name for your virtual report suite, and ensure that the CDA-enabled report suite is selected.
+6. (Optional) Apply a segment to the virtual report suite. For example, you can apply a segment that limits the virtual report suite to dates after CDA was turned on and stitching began. This segment allows users to see only stitched date ranges within the VRS.
+7. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
+8. Click the checkbox 'Stitch User Visits Across Devices'.
+9. Click Continue, finish configuring the virtual report suite, then click Save.
 
 ![CDA checkbox](assets/cda-checkbox.png)
 

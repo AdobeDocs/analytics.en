@@ -16,7 +16,7 @@ The Web Services APIs provide programmatic access to marketing reports and other
 
 ## Manage Web Services
 
-In User Management > [Groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) you can update the Web Service Access group to include those users that need access to the Web Services APIs.
+In User Management > [Groups](/help/admin/user-management2/c-user-groups/groups.md) you can update the Web Service Access group to include those users that need access to the Web Services APIs.
 
 ## WSDL: Download the Web Services API WSDL for Web services developers.
 

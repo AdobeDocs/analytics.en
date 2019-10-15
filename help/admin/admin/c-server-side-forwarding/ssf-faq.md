@@ -31,4 +31,4 @@ Frequently asked questions about features, functionality, and issues related to 
 
 >[!MORE_LIKE_THIS]
 >
->* [Server-Side Forwarding](ssf.md#concept_9563FCADF29748928E770EC5221B2685)
+>* [Server-Side Forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md)

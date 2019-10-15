@@ -12,7 +12,7 @@ uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 
 You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
 
-Descriptions of the elements used when [creating a report suite](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+Descriptions of the elements used when [creating a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live Date </p> </td> 
-   <td colname="col2">Informs Adobe of the date that you expect this report suite to become active. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informs Adobe of the date that you expect this report suite to become active. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Estimated Page Views Per Day</span> </td> 

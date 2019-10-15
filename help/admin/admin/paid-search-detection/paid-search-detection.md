@@ -14,7 +14,7 @@ Paid Search Detection differentiates paid from natural searches in the Search En
 
 ## Paid Search Detection - Descriptions {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
-The following table describes the fields and options you use to [configure paid search detection](../../../admin/admin/paid-search-detection/t-paid-search-detection.md#task_D0BBDB78771E4BDBB495A004A080D647). 
+The following table describes the fields and options you use to [configure paid search detection](/help/admin/admin/paid-search-detection/t-paid-search-detection.md). 
 
 | Elements | Description |
 |--- |--- |

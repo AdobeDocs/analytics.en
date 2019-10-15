@@ -19,4 +19,4 @@ Active processing rules are viewed in admin.
 
    All active Processing Rules for the Report Suite are listed.
 
-   [View processing rule history](../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md#task_0024B490E86C4B9C80F58779C05CE563)
+   [View processing rule history](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

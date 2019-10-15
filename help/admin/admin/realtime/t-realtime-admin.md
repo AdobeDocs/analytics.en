@@ -33,7 +33,7 @@ Setting up real-time reports within Reports & Analytics consists of selecting th
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../../admin/admin/realtime/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](/help/admin/admin/realtime/realtime-metrics.md).
 
    If you have created classifications, they appear indented under the dimension for which they are defined:
 

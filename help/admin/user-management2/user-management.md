@@ -64,7 +64,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Add New User</span> </td> 
-   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Users</a>. </p> </td> 
+   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Download Report</span> </td> 
@@ -72,7 +72,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Login</span> </td> 
-   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Users</a>. </p> </td> 
+   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> First Name</span> </td> 
@@ -108,7 +108,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
-   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Users</a>. </p> </td> 
+   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
@@ -116,7 +116,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transfer</span> </td> 
-   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> Transfer user account privileges</a>. </p> </td> 
+   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Transfer user account privileges</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Login as this user</span> </td> 

@@ -34,7 +34,7 @@ Legacy Analytics Tracking Cookie, also known as the Adobe Analytics ID (AAID):
 
 The value must be specified as two hexadecimal numbers separate by a dash. All hexadecimal digits that are alphabetic characters must be specified using upper case. The hexadecimal values should not have any leading zeros (note the difference from the same value specified in the deprecated form, where the leading zeros are required).
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+It is also acceptable to use `"namespaceId": 10` instead of or in addition to `"namespace": "AAID"` and you may see some other Adobe products use that form.
 
 ## Legacy Analytics Tracking Cookie: Deprecated form
 
@@ -48,7 +48,7 @@ It is also acceptable to use `“namespaceId”: 10` instead of or in addition t
 
 Deprecated form:
 
-The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn’t have enough digits.
+The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn't have enough digits.
 
 ## Identity Service Cookie
 
@@ -62,7 +62,7 @@ The value should be specified as two 16-digit hexadecimal numbers or as two 19-d
 
 The value must be specified as a 38-digit decimal number. If you are pulling this number from the two mcvisid\_high/low or post\_msvisid\_high/low columns from a data feed or Data Warehouse report, you must zero pad each of the two numbers to 19 digits and then concatenate them with the high value first.
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+It is also acceptable to use: `"namespaceId": 4` instead of or in addition to `"namespace": "ECID"` and you may see some other Adobe products use that form.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ It is also acceptable to use: `“namespaceId”: 4` instead of or in addition t
 >
 >These IDs are the only IDs supported by Analytics that use a "type" value other than "analytics".
 
-If the format of the value portion of any of these cookie IDs does not follow the format described for that ID, then the Data Privacy request will fail, with an error of “Value not formatted correctly.”
+If the format of the value portion of any of these cookie IDs does not follow the format described for that ID, then the Data Privacy request will fail, with an error of "Value not formatted correctly."
 
 You will most commonly collect these cookie IDs using the new [privacy JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), which will automatically provide all of the relevant key/value pairs for these JSON IDs.
 
@@ -106,8 +106,8 @@ For IDs in custom traffic or conversion variables (props or eVars), label the va
 
 You can also see namespaces that you have previously defined for other variables or report suites and reuse one of those, so that the same namespace can easily be used for all your report suites that store that type of ID. It is also possible to assign the same namespace to multiple variables within a report suite. For example, some customers store a CRM ID in a traffic variable and a conversion variable (depending on the page, it is sometimes in one or the other or both), and they could assign the namespace "CRM ID" to both variables.
 
-> [!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable’s number (such as eVar12) when specifying the namespace to the Data Privacy API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don’t match (such as when the friendly name has been localized for a specific report suite).
+> [!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable's number (such as eVar12) when specifying the namespace to the Data Privacy API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don't match (such as when the friendly name has been localized for a specific report suite).
 
 > [!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)
+For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)

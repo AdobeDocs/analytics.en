@@ -10,7 +10,7 @@ uuid: f90bf78a-5603-4bef-b714-13215301187c
 
 How to migrate Analytics user accounts as Enterprise or Federated IDs to the Admin Console.
 
-## Prerequisites {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## Prerequisites {#prereqs}
 
 Prerequisites to managing users in the Admin Console. 
 
@@ -121,7 +121,7 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Ensure that domains in <span class="term"> Domain</span> and <span class="term"> Email</span> column are matching the domain(s) established in the <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"> prerequisites</a>. </p> </td> 
+   <td colname="col2"> <p>Ensure that domains in <span class="term"> Domain</span> and <span class="term"> Email</span> column are matching the domain(s) established in the <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> prerequisites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Country Code </p> </td> 
@@ -136,8 +136,8 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
    >
    >Other columns, such as *`Product Configurations`* and *`Admin Roles`* can be blank.
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)).
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)).
 1. Click **[!UICONTROL Migrate]** > **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Step Info](assets/migrate-as-enterprise.png)

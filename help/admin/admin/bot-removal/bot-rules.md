@@ -117,13 +117,13 @@ The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined i
 
 Bot Rules are applied to all analytics data. Data removed by Bot Rules is visible only in the Bots and Bot Pages Reports.
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **High-Hit Visit Processing:** If more than 100 hits occur in a visit, reporting determines if the time of the visit in seconds is less than or equal to the number of hits in the visit. In this situation, due to the cost of processing long, intense visits, reporting starts over with a new visit. High-hit visits are typically caused by bot attacks and are not considered normal visitor browsing.
 
 >[!NOTE]
 >
->Hits marked as *`bots`* are billed as [server calls](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
+>Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 

@@ -19,14 +19,16 @@ What you need to know about the Analytics user ID migration to the Admin Console
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
+<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
 On this page:
 
-* [What is the user ID migration?](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
-* [What to know before migrating user IDs (FAQ)](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
-* [What to know during the migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
-* [What to know after the migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
-* [Unsupported Analytics features in the Admin Console](../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
-* [How to notify your users about the migration](../c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
+* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
+* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
+* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
+* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
+* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+-->
 
 For general help on Admin Console topics (not related to the Analytics migration), see [Admin Console User Guide](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 

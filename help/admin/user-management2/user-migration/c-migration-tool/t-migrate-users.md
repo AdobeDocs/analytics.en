@@ -42,7 +42,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
   </tr> 
   <tr> 
    <td colname="col1"> <p>Legacy Login Disabled </p> </td> 
-   <td colname="col2"> <p>Legacy login using a company ID is disabled. Users will now access the Experience Cloud using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Legacy login using a company ID is disabled. Users will now access the Experience Cloud using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -29,7 +29,7 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 
 ## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97). 
+Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md). 
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 

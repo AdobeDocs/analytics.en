@@ -12,7 +12,7 @@ uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 
 # The s.tl() Function - Link Tracking
 
-If your organization prefers to have more control over the links to track and their behavior, manual link tracking is recommended. Use the s.tl() function to manually send link tracking image requests with the exact content desired. If basic link tracking is all that is needed, see `s.trackDownloadLinks` and `s.trackExitLinks` under [Configuration variables](c-variables/configuration-variables.md). Custom links cannot automatically be tracked.
+If your organization prefers to have more control over the links to track and their behavior, manual link tracking is recommended. Use the s.tl() function to manually send link tracking image requests with the exact content desired. If basic link tracking is all that is needed, see `s.trackDownloadLinks` and `s.trackExternalLinks` under [Configuration variables](c-variables/configuration-variables.md). Custom links cannot automatically be tracked.
 
 > [!NOTE] Link tracking code is often very specific to your site and reporting needs. Adobe recommends prior implementation experience or an implementation consultant to understand how to use this feature based on your business needs.
 

@@ -334,11 +334,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin
 
 **Subject:** Coming Soon - A new way to login to Adobe Analytics and Adobe Experience Cloud.
 
-** Body:** Hello Adobe Analytics users!
+**Body:** Hello Adobe Analytics users!
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). With this migration, your Adobe Analytics account will be upgraded to enable access to Analytics via the Adobe Experience Cloud. While the method to access Analytics will change, all your existing permissions to your report suites and tools will be preserved.
 
-** Next steps:** We will begin to migrate users beginning on <INSERT DATE>. Watch for a welcome message with your new login addressed to the email id listed under your analytics account. If you have not setup an [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) linked to your email address, you will be asked to setup an account .
+**Next steps:** We will begin to migrate users beginning on <INSERT DATE>. Watch for a welcome message with your new login addressed to the email id listed under your analytics account. If you have not setup an [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) linked to your email address, you will be asked to setup an account .
 
 **Helpful resources:**
 

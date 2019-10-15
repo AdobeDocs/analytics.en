@@ -163,7 +163,7 @@ These segments will be migrated over as segment templates into the Segment Build
 
 Existing reports that have these segments applied will continue to work correctly.
 
-**What happens to Experience Cloud (Suite) segments: **
+**What happens to Experience Cloud (Suite) segments:**
 
 * Non-Purchasers
 * Purchasers

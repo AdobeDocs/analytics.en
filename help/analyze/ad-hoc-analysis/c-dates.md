@@ -36,7 +36,7 @@ c_legacy_data.xml
 
  -->
 
-** To access historical date slices**
+**To access historical date slices**
 
 1. [Create](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403) or open a project. 
 1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.

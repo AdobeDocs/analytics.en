@@ -188,8 +188,7 @@ Use the DigitalPulse debugger tool to verify that Demandbase dimension data is b
 
 ![](assets/debugger1.png)
 
-**Target Mbox includes the Demandbase Profile parameters: **
-
+**Target Mbox includes the Demandbase Profile parameters:**
 You will see this only if you have Target implemented on the page AND you have this integration configured for Adobe Target - see Step 4 in the Adobe integration wizard.
 
 ![](assets/debugger2.png)

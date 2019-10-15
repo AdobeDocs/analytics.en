@@ -23,7 +23,7 @@ The following definitions assume that your numeric 2 classification name is MyCo
 
 **~MyCost^~id~:** The ID for editing an existing row. When you add a new row, this should be blank. An ID is automatically assigned when you export from the Classification Manager.
 
-**~MyCost^~value~: **The value for the row. If the rate column is fixed, then this is a flat value distributed over the whole period. If the rate column is an event, then this is the multiplier for that event. This entry should not contain commas.
+**~MyCost^~value~:** The value for the row. If the rate column is fixed, then this is a flat value distributed over the whole period. If the rate column is an event, then this is the multiplier for that event. This entry should not contain commas.
 
 **~MyCost^~period~:** The period of time to which this row corresponds. This must include a beginning and ending date, separated by a dash. The dash must be enclosed in spaces. The definition should be formatted as follows:
 

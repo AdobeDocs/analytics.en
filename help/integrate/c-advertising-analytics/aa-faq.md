@@ -95,7 +95,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Are Advertising Analytics metrics reportable in the <b>Marketing Channels</b> report? </p> </td> 
-   <td colname="col2"> <p>A: No, the they are not included in the Marketing Channels report. </p> </td> 
+   <td colname="col2"> <p>A: No, they are not included in the Marketing Channels report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>When</b> does the search data get pulled into Analytics? </p> </td> 

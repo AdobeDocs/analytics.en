@@ -55,7 +55,7 @@ Because the API and interface use the same permissioning system, whatever permis
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Anomaly Detection Report Permission </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Real-Time Report Permission </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace Access Permission </li> 
-    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
+    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Define User Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension-Level Permissions </p> </td> 

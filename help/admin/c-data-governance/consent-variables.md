@@ -1,16 +1,16 @@
 ---
-description: Variables for consent management in Data Privacy.
-seo-description: Variables for consent management in Data Privacy.
-seo-title: Consent Management Variables
+description: Variables for privacy reporting in Data Privacy.
+seo-description: Variables for privacy reporting in Data Privacy.
+seo-title: Privacy Reporting Variables
 solution: Analytics
-title: Consent Management Variables
+title: Privacy Reporting Variables
 topic: Admin tools
 ---
 
-# Consent Management Variables
+# Privacy Reporting Variables
 
 To provide additional assistance in managing privacy data, a set of reserved variables are available to be used in conjunction with specific context data variables. 
-These consent management variables provide an easy-to-use framework for capturing the consent status on each analytics hit.
+These privacy reporting variables provide an easy-to-use framework for capturing the privacy status on each analytics hit.
 
 ## Variables
 
@@ -31,7 +31,7 @@ These consent management variables provide an easy-to-use framework for capturin
 
 ## Reporting
 
-You can enable the Consent Management Variables through a new Privacy setting available within the Analytics Admin Console.
+You can enable the Privacy Reporting Variables through a new Privacy setting available within the Analytics Admin Console.
 
 Each report suite can be configured as follows:
 1. In Reports & Analytics click **[!UICONTROL Admin > Report Suites.]**
@@ -53,7 +53,7 @@ Each report suite can be configured as follows:
 
 ## Implementation
 
-Three context data variables have been pre-defined to work with the consent management reserved variables.  It is up to each implementation engineer to determine how to manage and persist the setting of these variables.  
+Three context data variables have been pre-defined to work with the privacy reporting management reserved variables.  It is up to each implementation engineer to determine how to manage and persist the setting of these variables.  
 
 See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) for general guidance on implementing context data variables.
 

@@ -19,6 +19,6 @@ Segments are based on:
 * Visitors 
 * Visits
 
-For information about using segments for cross-device visitor identification, see [Create Segments](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
+For information about using segments for cross-device visitor identification, see [Create Segments](/help/implement/js-implementation/xdevice-visid/segments.md).
 
 For in-depth information on Adobe Analytics Segmentation, please refer to the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 

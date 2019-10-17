@@ -34,7 +34,7 @@ Paths reports include standard in-depth and optional advanced analysis reports t
 
 ![](assets/fallout_graphic.png)
 
-See [Fallout Report](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+See [Fallout Report](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Lets you further dissect your full paths into fragments, yielding the precise patterns that are instrumental to optimizing your site. The Pathfinder wizard lets you specify selection criteria that is used to generate the report, so that you can analyze the path fragments and query for ones that begin with a certain page, end with a certain page, or even ones that begin with one page and end with another.
 

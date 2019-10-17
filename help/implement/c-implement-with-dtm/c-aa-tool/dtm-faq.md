@@ -43,7 +43,7 @@ A FAQ about the automatic configuration of the Adobe Analytics deployment. The a
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+See [Add Adobe Analytics Tool](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md) for configuration information.
 
 ## Potential Pitfalls {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 

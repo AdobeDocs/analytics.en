@@ -83,8 +83,8 @@ Adobe has created multiple ways to send data into Analytics. These methods inclu
 
 For more details, see:
 
-* [Data Collection](../../implement/js-implementation/data-collection/query-parameters.md)
-* [Create a Data Element](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
+* [Data Collection](/help/implement/js-implementation/data-collection/query-parameters.md)
+* [Create a Data Element](/help/implement/c-implement-with-dtm/t-data-element.md)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)

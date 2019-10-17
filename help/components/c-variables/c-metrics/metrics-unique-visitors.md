@@ -24,7 +24,7 @@ Version 15 removes duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors
 |  Conversion  | A visitor is a person that comes to your website. Is counted when a conversion-related event or action occurs.  |
 |  Ad Hoc Analysis  | A visitor is a person that comes to your website. Does not require a persistent cookie.  |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md).
 
 >[!MORE_LIKE_THIS]
 >

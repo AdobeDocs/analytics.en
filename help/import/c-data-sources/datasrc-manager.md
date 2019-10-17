@@ -19,7 +19,7 @@ Create, manage, and view the use of data sources in a report suite.
 
 The [!UICONTROL Create] tab lets you configure a new data source for the currently selected report suite. When you activate a data source, the [!UICONTROL Data Sources Wizard] guides you through the process of creating a Data Sources template, and creates an FTP location for uploading data.
 
-The selection you make on the Create tab determines the initial fields in the template that is created. See [Generating an Import File Template](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+The selection you make on the Create tab determines the initial fields in the template that is created. See [Generating an Import File Template](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Manage Tab {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -37,7 +37,7 @@ The selection you make on the Create tab determines the initial fields in the te
   </tr> 
   <tr> 
    <td colname="col1"> <p>Complete Processing </p> </td> 
-   <td colname="col2"> <p>Instructs Data Sources to close any open visits in the file and finish processing of the Data Sources file as if it is complete. This is useful when you have visits that span multiple Data Sources files. This applies only to <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Full Processing</a>. </p> </td> 
+   <td colname="col2"> <p>Instructs Data Sources to close any open visits in the file and finish processing of the Data Sources file as if it is complete. This is useful when you have visits that span multiple Data Sources files. This applies only to <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Full Processing</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deactivate </p> </td> 
@@ -45,7 +45,7 @@ The selection you make on the Create tab determines the initial fields in the te
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stop processing on errors/warnings </p> </td> 
-   <td colname="col2"> <p> Instructs the Data Sources Processing Engine to stop processing when it encounters an error. The data source does not resume processing until you select Restart Processing. The Stop processing on warnings option applies only to <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Full Processing</a>. </p> <p>When Data Sources encounters a file error, it notifies you of the error. The system moves the Data Sources file with the error into a folder called <span class="filepath"> files_with_errors</span> on the FTP server. After you have resolved the problem, resubmit the Data Sources file for processing. </p> </td> 
+   <td colname="col2"> <p> Instructs the Data Sources Processing Engine to stop processing when it encounters an error. The data source does not resume processing until you select Restart Processing. The Stop processing on warnings option applies only to <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Full Processing</a>. </p> <p>When Data Sources encounters a file error, it notifies you of the error. The system moves the Data Sources file with the error into a folder called <span class="filepath"> files_with_errors</span> on the FTP server. After you have resolved the problem, resubmit the Data Sources file for processing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configure </p> </td> 

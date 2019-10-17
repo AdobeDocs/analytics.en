@@ -23,4 +23,4 @@ The Data Feed landing page lists all the feeds currently defined for your compan
 
 If no feeds have been set up, the page shows a **[!UICONTROL Create New Data Feed]** button. 
 
-To view your [jobs](../../../export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md#task_0D05F2D1B41B4E4A95B570DC78014480), click **[!UICONTROL Jobs]**. To return to the feeds view, click **[!UICONTROL Feeds]**.
+To view your [jobs](/help/export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md), click **[!UICONTROL Jobs]**. To return to the feeds view, click **[!UICONTROL Feeds]**.

@@ -18,13 +18,13 @@ Combining the report-generation capability of Report Builder with the visualizat
 
 The integration with Adobe Report Builder lets you
 
-* [Publish Scheduled Report Builder workbooks to Power BI](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687) 
-* [Publish all Formatted Tables in the Workbook as Power BI Dataset Tables](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A) 
-* [Publish all Report Builder Requests as Power BI Dataset Tables](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Publish Scheduled Report Builder workbooks to Power BI](/help/analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687) 
+* [Publish all Formatted Tables in the Workbook as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A) 
+* [Publish all Report Builder Requests as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
 
 ## System requirements {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installed](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3) 
+* Adobe Report Builder 5.5 [installed](/help/analyze/report-builder/setup/t-install-arb.md) 
 * Active Microsoft account that enables you to sign in to Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -79,7 +79,7 @@ Instead of importing the entire workbook, you can import only the content of all
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Optional) You can customize the name of the published asset in Power BI. This can be useful if you use versioning as part of the workbook name (e.g., myworkbook_v1.1.xlsx) and you don't want the version number to show up in the name of the published Power BI asset. It has the added advantage that the published asset will not change if the version number changes. (View [specifications](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD) here.)
+1. (Optional) You can customize the name of the published asset in Power BI. This can be useful if you use versioning as part of the workbook name (e.g., myworkbook_v1.1.xlsx) and you don't want the version number to show up in the name of the published Power BI asset. It has the added advantage that the published asset will not change if the version number changes. (View [specifications](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) here.)
 
 **View the table data in Power BI**
 

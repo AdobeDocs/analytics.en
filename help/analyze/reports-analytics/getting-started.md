@@ -73,13 +73,13 @@ Steps that describe how to generate a report.
 
 1. Log in to [!UICONTROL Reports & Analytics].
 
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up. 
+   The Reports menu displays, or a [dashboard](/help/analyze/reports-analytics/dashboard.md) displays, if you have set one up. 
 
 1. Click **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report. 
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report. 
 
 ## Edit a user's account settings
 
@@ -112,11 +112,11 @@ All users have access to the [!UICONTROL Account Information] page. The followin
   </tr> 
   <tr> 
    <td> <p> Login </p> </td> 
-   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external"> How to reset Reports &amp; Analytics account password</a>. </p> </td> 
+   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" > How to reset Reports &amp; Analytics account password</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Web Service </p> </td> 
-   <td> <p>Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the <a href="https://marketing.adobe.com/developer" scope="external" format="https"> Developer Connection</a>. </p> <p> <p>Note:  This information is displayed only if the account is authorized as a web services user. </p> </p> </td> 
+   <td> <p>Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>. </p> <p> <p>Note:  This information is displayed only if the account is authorized as a web services user. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Exclude this Computer </p> </td> 

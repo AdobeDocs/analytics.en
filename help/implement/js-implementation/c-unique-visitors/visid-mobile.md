@@ -13,7 +13,7 @@ uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 
 Most mobile devices accept browser cookies. However, in cases when devices do not accept cookies, another method is used to uniquely identify wireless devices.
 
-Adobe has identified a number of HTTP [subscriber ID headers](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) that uniquely identify a majority of mobile devices. Those headers often include the device phone number (or a hashed version of the number), or other identifiers. The majority of current devices have one or more of the headers that uniquely identify the device, and all Adobe data collection servers automatically use those headers in place of a Visitor ID.
+Adobe has identified a number of HTTP [subscriber ID headers](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) that uniquely identify a majority of mobile devices. Those headers often include the device phone number (or a hashed version of the number), or other identifiers. The majority of current devices have one or more of the headers that uniquely identify the device, and all Adobe data collection servers automatically use those headers in place of a Visitor ID.
 
 In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). However, if the device is recognized as a mobile device based on the HTTP headers, a '5' is passed in place of the '1', which indicates that a wbmp format image should be returned and that our list of recognized wireless headers (not a cookie) should be used to identify the device.
 
@@ -84,4 +84,4 @@ The following list of headers is used to identify wireless devices. The algorith
 
 For example "callinglineid" would match "X-Up-Calling-Line-ID" and "nokia-callinglineid." The header type tells us what to expect in the header. The order of header priority is listed here (if a "callinglineid" header is present it is used instead of "subno").
 
-You can use [Dynamic Variables](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) to extract specific values from a header. 
+You can use [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md) to extract specific values from a header. 

@@ -36,5 +36,5 @@ s.clearVars()
 
 >[!NOTE]
 >
->`clearVars()` is included in [AppMeasurement for JavaScript](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) but is not available in H code and previous versions.
+>`clearVars()` is included in [AppMeasurement for JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) but is not available in H code and previous versions.
 

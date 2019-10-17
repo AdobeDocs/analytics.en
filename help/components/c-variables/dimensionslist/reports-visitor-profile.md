@@ -39,6 +39,6 @@ Reports that help you see purchasing patterns of customers from various profile 
  </tbody> 
 </table>
 
-[GeoSegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md#concept_1B9CB209CFD94398B09C913D11648802)
+[GeoSegmentation](/help/components/c-variables/dimensionslist/reports-geosegmentation.md)
 
-[Technology](../../../components/c-variables/dimensionslist/reports-technology.md#concept_BD66B540E4AE49D999289B48445A9AFE) 
+[Technology](/help/components/c-variables/dimensionslist/reports-technology.md) 

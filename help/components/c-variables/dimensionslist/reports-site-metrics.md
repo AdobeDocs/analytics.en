@@ -18,11 +18,11 @@ Site Metrics reports display quantitative information about your website. For ex
 
 Metric reports are [trended](/help/components/c-variables/dimensionslist/reports-types.md) over time. Meaning, you can apply time and day-of-week granularity to these reports.
 
-* [Page Views](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33) 
-* [Visits Report](../../../components/c-variables/dimensionslist/reports-visits.md#concept_50CA55CF2A41430CBC754AEEEE6023A9) 
-* [Visitors Report](../../../components/c-variables/dimensionslist/reports-visitors.md#concept_7371DAB5DA474D03A2D1448F151E011B) 
-* [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) 
-* [Time Prior to Event](../../../components/c-variables/dimensionslist/reports-time-prior-to-event.md#concept_00820DACA2F24EE6A83B0FB211BE6907) 
-* [Shopping Cart](../../../components/c-variables/dimensionslist/reports-shopping-cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339) 
-* [Custom Events](../../../components/c-variables/dimensionslist/reports-custom-events.md#concept_9337B2FB8A3F417BA8689FE7FD64629F) 
-* [Bots](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
+* [Page Views](/help/components/c-variables/dimensionslist/reports-page-views.md) 
+* [Visits Report](/help/components/c-variables/dimensionslist/reports-visits.md) 
+* [Visitors Report](/help/components/c-variables/dimensionslist/reports-visitors.md) 
+* [Time Spent per Visit](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) 
+* [Time Prior to Event](/help/components/c-variables/dimensionslist/reports-time-prior-to-event.md) 
+* [Shopping Cart](/help/components/c-variables/dimensionslist/reports-shopping-cart.md) 
+* [Custom Events](/help/components/c-variables/dimensionslist/reports-custom-events.md) 
+* [Bots](/help/components/c-variables/dimensionslist/reports-bots.md)

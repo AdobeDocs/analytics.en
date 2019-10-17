@@ -17,7 +17,7 @@ Synchronizing visualizations lets you control which data table or data source co
 
 Managing a data source lets you show the data source or lock the selection. These settings determine how the visualization changes (or doesn't change) when new data comes in. 
 
-1. [Create a project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table and a [visualization](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
+1. [Create a project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) with a data table and a [visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. In the data table, select the cells (data source) you want to associate with the visualization.
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 

@@ -50,4 +50,4 @@ Page names are case sensitive, and differences create additional page records. "
 >
 >Multiple page records cannot be combined within reports.
 
-Validate that links are reported in the [!UICONTROL Custom Links] report. Ensure that the correct parameters are passed to the [!UICONTROL tl] function. For more information on [!UICONTROL custom links], see [Link Tracking](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E). 
+Validate that links are reported in the [!UICONTROL Custom Links] report. Ensure that the correct parameters are passed to the [!UICONTROL tl] function. For more information on [!UICONTROL custom links], see [Link Tracking](/help/implement/js-implementation/function-tl.md). 

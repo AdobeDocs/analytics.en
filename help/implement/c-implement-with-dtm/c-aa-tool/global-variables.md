@@ -12,7 +12,7 @@ uuid: d759320a-96ee-4073-b5fd-5257b7033003
 
 Field descriptions and information about variables when using Dynamic Tag Management to deploy Adobe Analytics.
 
-These variables fire on all page load rule beacons. You can accomplish the same effect by using a [Page-Load rule](../../../implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706) set to fire on all pages. These variables might not fire in [Direct-Call](../../../implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09) and [Event-Based](../../../implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC) rules.
+These variables fire on all page load rule beacons. You can accomplish the same effect by using a [Page-Load rule](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) set to fire on all pages. These variables might not fire in [Direct-Call](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md) and [Event-Based](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md) rules.
 
 ## Global Variables - Field Descriptions {#section_2917F62FCC8D43F982B2612A702DEF81}
 

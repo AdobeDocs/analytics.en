@@ -12,14 +12,14 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 
 You can choose whether to create a project from:
 
-* A blank project (default). For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2). 
+* A blank project (default). For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md). 
 * A standard template. These templates are created by Adobe and ship out of the box. 
 * A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the "Save as Template" permission. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Create a custom template](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835) 
-* [Standard templates](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Create a custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
+* [Standard templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
 

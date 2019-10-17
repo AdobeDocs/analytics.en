@@ -43,7 +43,7 @@ To the right of the Size and Crossover visual, the Segment Comparison Tool displ
 
 The top metrics table displays the statistically most differentiating metrics between the two segments you’ve selected. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. The metrics are also shown on a per-visitor basis, meaning that if “Visits” appears in the table, the corresponding numbers in the table represent the average number of visits per visitor in each segment. We also provide a difference score indicating how different this metric is between these two segments. A score of 1 represents a large statistical difference, whereas a score of 0 represents no statistical difference.
 
-For details on how the difference scores of each table are calculated, refer to [Statistical Tests Used in Segment Comparison](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4).
+For details on how the difference scores of each table are calculated, refer to [Statistical Tests Used in Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md).
 
 The Top Metrics table is similar to any other table you use in Analysis Workspace. You can drag any metric you’re interested in into the table, and we’ll show you how it compares.
 
@@ -87,4 +87,4 @@ In addition, the top differentiating additional segment is displayed in an overl
 
 The overlap visual graphically indicates the difference in overlap between all three segments, and like the other linked visuals, clicking on each additional segment in the table will update the visual to correspond to the selected segment.
 
-Click here for more information on the [statistical tests](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4) used in comparing segments. 
+Click here for more information on the [statistical tests](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md) used in comparing segments. 

@@ -13,7 +13,7 @@ uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 
 Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
 
-See [Integrating Offline Data](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 

@@ -11,15 +11,15 @@ uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 
 # Identify visitors
 
-Analytics provides several mechanisms by which visitors can be identified (listed in [Identifying Visitors](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
+Analytics provides several mechanisms by which visitors can be identified (listed in [Identifying Visitors](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **To identify unique visitors:**
 
 1. Exclude all rows where `exclude_hit > 0`. 
-1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See [Hit Source Lookup](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42) 
+1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See [Hit Source Lookup](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md) 
 1. Combine `post_visid_high` with `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-If you would like to determine which mechanism was used to determine the visitor ID value (for example, to calculate cookie acceptance), the `post_visid_type` contains a lookup key that indicates which ID method was used. The lookup keys are listed along with the visitor ID mechanisms in the [table below](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
+If you would like to determine which mechanism was used to determine the visitor ID value (for example, to calculate cookie acceptance), the `post_visid_type` contains a lookup key that indicates which ID method was used. The lookup keys are listed along with the visitor ID mechanisms in the [table below](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 

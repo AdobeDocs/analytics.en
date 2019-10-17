@@ -33,7 +33,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](/help/components/c-real-time-reporting/realtime-metrics.md).
 
    If you have created classifications, they appear indented under the dimension for which they are defined:
 
@@ -43,7 +43,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
    >
    >For a single Real-Time report, we do not currently support enabling duplicate dimensions, even if a different classification is selected for each dimension.
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >

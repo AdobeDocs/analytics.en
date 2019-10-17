@@ -26,7 +26,7 @@ Classification rules are convenient for:
 * **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can earn how the Display campaigns are performing against email campaigns. 
 
 * **Tracking codes**: Create classification rules to categorize key values derived from strings in tracking codes, and match them to specific criteria you define. 
-* **Search terms**: Use [regular expressions](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) and wildcards to simplify classifying of search terms. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **Search terms**: Use [regular expressions](/help/components/c-classifications2/crb/classification-quickstart-rules.md) and wildcards to simplify classifying of search terms. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
 
 For example, assume that a tracking code for an email campaign ID is:
 
@@ -52,7 +52,7 @@ about_classification_rules.xml
 
 * [Important Information about Rules](/help/components/c-classifications2/crb/classification-rule-builder.md) 
 * [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builder.md) 
-* [About Rule Priority](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
+* [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
 >
@@ -62,30 +62,30 @@ about_classification_rules.xml
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools]. 
 
-* **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D). 
+* **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md). 
 
 * **Report suites**: You cannot choose a classification until at least one report suite is selected. You cannot apply the report suite until you have created the rule set and assigned a variable.
 
-  When you test the rule set, use keys (the variable being classified) from the report to see how they will be impacted by the rule set. (The [key](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443) is the variable being classified, or the first column in the classification upload table.) 
+  When you test the rule set, use keys (the variable being classified) from the report to see how they will be impacted by the rule set. (The [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) is the variable being classified, or the first column in the classification upload table.) 
 
-* **Rule priority**: If a key matches multiple rules that set the same classification (in the [!UICONTROL Set Classification] column), the last rule that matches the classification is used. See [About Rule Priority](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980). 
+* **Rule priority**: If a key matches multiple rules that set the same classification (in the [!UICONTROL Set Classification] column), the last rule that matches the classification is used. See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md). 
 
 * **Limits on number of rules**: No set limit exists for the number of rules you can create. However, a large number of rules may impact browser performance. 
 * **Processing**: Rules are processed at frequent intervals, depending on your volume of classification related traffic.
 
   Active rules process every four hours, examining classification data going back typically one month. The rules automatically check for new values and upload the classifications using the importer. 
 
-* **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) If necessary, you can delete or remove existing classifications, using the importer.
+* **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) If necessary, you can delete or remove existing classifications, using the importer.
 
 ## When Do Rules Not Classify Keys? {#section_4481E88CA28246B6B19EA16E2D83A3A8}
 
-When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443)(variable) if:
+When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)(variable) if:
 
-* The key is already classified and you do not select [Overwrite Classifications](../../../components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications).
+* The key is already classified and you do not select [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications).
 
-  You can overwrite classifications when [adding and activating](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) a rule, and when activating a data connectors integration. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].) 
+  You can overwrite classifications when [adding and activating](/help/components/c-classifications2/crb/classification-quickstart-rules.md) a rule, and when activating a data connectors integration. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].) 
 
-* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](../../../components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications). 
+* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications). 
 * The key is not classified and the key is never passed into [!DNL Adobe Analytics] after the time frame beginning about one month ago. 
 
   >[!NOTE]
@@ -104,11 +104,11 @@ regex_classification_rules.xml
 
  -->
 
-* [Regular Expression - Tracking Code Example](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669) 
-* [Regular Expression - Classifying a Specific Character](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF) 
-* [Regular Expressions - Matching Tracking Codes of Varying Length](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2) 
-* [Regular Expressions - "Does Not Contain" Example](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C) 
-* [Regular Expressions - Reference Table](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
+* [Regular Expression - Tracking Code Example](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669) 
+* [Regular Expression - Classifying a Specific Character](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF) 
+* [Regular Expressions - Matching Tracking Codes of Varying Length](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2) 
+* [Regular Expressions - "Does Not Contain" Example](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C) 
+* [Regular Expressions - Reference Table](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
 >[!NOTE]
 >
@@ -157,7 +157,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 |`^(.+)\:(.+)\:(.+)$`|em:JuneSale:20130601|`$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601|
 |Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.|
 
-See [Regular Expressions - Reference Table](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) for information about what the characters in a regular expression mean.
+See [Regular Expressions - Reference Table](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) for information about what the characters in a regular expression mean.
 
 ## Regular Expression - Classifying a Specific Character {#section_5D300C03FA484BADACBFCA983E738ACF}
 
@@ -313,9 +313,9 @@ Add rules by matching a condition to a classification, and specifying the action
 
 >[!NOTE]
 >
->In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [sub-classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+>In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [sub-classifications](/help/components/c-classifications2/c-sub-classifications.md).
 
-1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Create a Classification Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -330,7 +330,7 @@ Add rules by matching a condition to a classification, and specifying the action
    
    * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools]. 
    
-   (See *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.) 
+   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.) 
 
    * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set. 
 
@@ -340,22 +340,22 @@ Add rules by matching a condition to a classification, and specifying the action
    |---|---|
    | **Rules overwrite only unset values** | Only fill in blank (unset) cells. Existing classifications will not be changed. |
 
-1. [Define the rule or rules](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
+1. [Define the rule or rules](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
    ![Step Result](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
    >[!NOTE]
    >
    >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See **About Rule Priority** above for more information about sorting rules.
 
-1. [Test your rule set](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158).
+1. [Test your rule set](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
 
    Activating a rule automatically builds the file and uploads it for you.
 
-   Field definitions: See [Classification Rule Builder](../../../components/c-classifications2/crb/classification-rule-definitions.md#concept_6CAEFB1CA4564E2CA5808097C11EF468) for complete definitions of interface options on this page. 
+   Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page. 
 
 ## Test a Classification Rule Set {#task_618A1E7CC8664E728F312250E8367158}
 
@@ -367,7 +367,7 @@ t_classifications_test_rule.xml
 
 Steps that describe how to test a classification rule or rule set. Running a test checks all the rules in a set.
 
-1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Create a Classification Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) .
 1. On the [!UICONTROL Classification Rule Builder], click the rule set name.
 1. Ensure that the rule set is associated with a report suite.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -381,7 +381,7 @@ Steps that describe how to test a classification rule or rule set. Running a tes
     * Tracking codes 
     * Search keywords or phrases
 
-   See [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) for information about testing regular expressions. 
+   See [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for information about testing regular expressions. 
 1. Click **[!UICONTROL Run Test]**.
 
    Rules that match are displayed in the [!UICONTROL Results] table. 
@@ -399,7 +399,7 @@ t_validate_rules.xml
 
 Steps that describe how to validate and activate classification rules.
 
-1. [Create a Classification Rule Set](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) , then [add classification rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) to the set.
+1. [Create a Classification Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) , then [add classification rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md) to the set.
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
@@ -408,4 +408,4 @@ Steps that describe how to validate and activate classification rules.
 
    This option lets you overwrite existing classifications for affected keys.
 
-   See [Rules Page](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) for a definition of this option.
+   See [Rules Page](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) for a definition of this option.

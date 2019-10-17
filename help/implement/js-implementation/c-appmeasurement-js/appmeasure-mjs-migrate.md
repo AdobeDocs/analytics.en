@@ -16,13 +16,13 @@ The following table contains a list of tasks you need to perform to migrate your
 
 >[!NOTE]
 >
->We recommend migrating to the [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
+>We recommend migrating to the [Identity Service](/help/implement/js-implementation/c-unique-visitors/visid-service.md) when you migrate to [!DNL AppMeasurement] for JavaScript.
 
 ![](assets/step1_icon.png) Check plug-in compatibility
 
 Where: s\_code.js
 
-Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A) .
+Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) .
 
 ![](assets/step2_icon.png) Download the new AppMeasurement
 
@@ -40,7 +40,7 @@ Move all code that appears before the `DO NOT ALTER ANYTHING BELOW THIS LINE` se
 
 Where: AppMeasurement.js
 
-If you are using the getQueryParam plug-in, update these calls to use the new utility, [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+If you are using the getQueryParam plug-in, update these calls to use the new utility, [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 ![](assets/step5_icon.png) (Optional) Update Media and Integrate modules
 

@@ -85,11 +85,11 @@ The following mobile reports are available:
   </tr> 
   <tr> 
    <td colname="col1"> Operating System (deprecated) </td> 
-   <td colname="col2"> <p> Groups mobile devices based on the mobile operating system running on the device. Mobile operating systems include Windows, RIM, iOS, Symbian, and so forth. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>Note: This report was deprecated when the Technology &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Operating Systems</a> report was updated to include all operating systems, including mobile. You can create a segment where "mobile device" exists and apply it to the Technology &gt; Operating Systems report to view only mobile operating systems. </p> </td> 
+   <td colname="col2"> <p> Groups mobile devices based on the mobile operating system running on the device. Mobile operating systems include Windows, RIM, iOS, Symbian, and so forth. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>Note: This report was deprecated when the Technology &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Operating Systems</a> report was updated to include all operating systems, including mobile. You can create a segment where "mobile device" exists and apply it to the Technology &gt; Operating Systems report to view only mobile operating systems. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java Version </td> 
-   <td colname="col2"> <p> Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="https://jcp.org/en/jsr/overview" scope="external" format="html"> Java Community Process</a> website. </p> </td> 
+   <td colname="col2"> <p> Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="https://jcp.org/en/jsr/overview"  format="html"> Java Community Process</a> website. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bookmark URL Length </td> 

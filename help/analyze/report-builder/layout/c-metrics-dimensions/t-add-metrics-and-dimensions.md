@@ -12,7 +12,7 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 
 Steps to add metrics and dimensions to a request.
 
-1. [Create the data request](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) on the [!UICONTROL Request Wizard: Step 1], then click **[!UICONTROL Next]**.
+1. [Create the data request](/help/analyze/report-builder/data-requests/data-requests.md) on the [!UICONTROL Request Wizard: Step 1], then click **[!UICONTROL Next]**.
 1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
 
    ![Step Info](assets/adding_metrics.png)
@@ -60,7 +60,7 @@ The [!UICONTROL Date] dimension is added automatically. Available date dimension
     * Year 
     * Date range (when no granularity is specified)
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
+1. Modify metrics and dimensions by configuring [format options](/help/analyze/report-builder/layout/t-format-display-headers.md) and filters.
 1. Click **[!UICONTROL Finish]**.
 In the following example, dimensions relate to the [!UICONTROL Page] metric. Here, the [!UICONTROL Referring Domain] dimension creates a breakdown report between [!UICONTROL Page] and [!UICONTROL Referring Domain]. The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report. 
 

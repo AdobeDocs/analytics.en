@@ -14,7 +14,7 @@ Sequential segments are created by using the THEN operator, instead of AND or OR
 
 ![](assets/before-after-sequence.png)
 
-Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ## Include Everyone {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -179,7 +179,7 @@ For example:
 * **Exclude referring domains**. Use a rule that includes only referring domains from Google.com and excludes all others. 
 * **Identify non-purchasers**. Identify when orders are greater than zero and then exclude the [!UICONTROL Visitor].
 
-The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] can also be included within a [Logic Group](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] can also be included within a [Logic Group](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### Exclude between checkpoints
 
@@ -322,7 +322,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **Create this segment** 
 
-Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes. See [Building a Logic Group Segment](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes. See [Building a Logic Group Segment](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
 
@@ -423,7 +423,7 @@ Use [!UICONTROL Within] and [!UICONTROL After] to provide a maximum and minimum 
 
 **Matches**
 
-Any visitors hitting page A on June 1, 2019 are returning after June 15, 2019 00:01, but *before* July 1, 2019 are included in the segment. Compare with [Time Between Exclusions](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8).
+Any visitors hitting page A on June 1, 2019 are returning after June 15, 2019 00:01, but *before* July 1, 2019 are included in the segment. Compare with [Time Between Exclusions](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 The [!UICONTROL After] and [!UICONTROL Within] operators can be used together to define a sequential segment.
 

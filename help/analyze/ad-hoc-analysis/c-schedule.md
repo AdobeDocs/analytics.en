@@ -20,7 +20,7 @@ You can customize the delivery schedule for reports. You can stop the delivery a
 >
 >When a user account is disabled, any scheduled report deliveries created by that user are suspended.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to create fixed dimension lists in breakdowns.
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ You can send your information as displayed in the currently selected report to t
   </tr> 
   <tr> 
    <td colname="col1"> <p> Advanced </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File Destination </p> </td> 

@@ -10,7 +10,7 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 
 Row settings vary depending on which component you have dragged into the table.
 
-You can also use [right-click actions in a table](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) to manage selected row(s).
+You can also use [right-click actions in a table](/help/analyze/analysis-workspace/visualizations/freeform-table.md) to manage selected row(s).
 
 To access table row settings, click the Settings icon next to a dimension, segment, metric, time period, or a breakdown within each of these:
 
@@ -25,7 +25,7 @@ To access table row settings, click the Settings icon next to a dimension, segme
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Date Comparisons</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Date Comparisons</a> </p> </td> 
    <td colname="col2"> <p><b>Align dates from each column to all start on the same row. </b> </p> <p>When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Disabled by default. </p> </td> 
   </tr> 
   <tr> 
@@ -34,7 +34,7 @@ To access table row settings, click the Settings icon next to a dimension, segme
   </tr> 
   <tr> 
    <td colname="col1"> <p>Column Totals </p> </td> 
-   <td colname="col2"> <p>These settings show up only with <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> manual (static) rows</a> (when you have selected a finite set of items), not with dynamic rows (when you drop in a dimension that shows all items). <p>Note: For <i>metric</i> manual rows, the setting is disabled, since it doesn't make sense to sum any metrics besides the current rows in a table. </p> </p> <p><b>Calculate Totals by summing the values currently in each column (enabled by default):</b> </p> <p>This option calculates only the rows currently in the table. (Client-side calculation) </p> <p><b>Calculate totals based on all rows for each metric (disabled by default):</b> </p> <p>This option includes all dimension items for this dimension, even those not listed in the table. (Server-side calculation) </p> </td> 
+   <td colname="col2"> <p>These settings show up only with <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > manual (static) rows</a> (when you have selected a finite set of items), not with dynamic rows (when you drop in a dimension that shows all items). <p>Note: For <i>metric</i> manual rows, the setting is disabled, since it doesn't make sense to sum any metrics besides the current rows in a table. </p> </p> <p><b>Calculate Totals by summing the values currently in each column (enabled by default):</b> </p> <p>This option calculates only the rows currently in the table. (Client-side calculation) </p> <p><b>Calculate totals based on all rows for each metric (disabled by default):</b> </p> <p>This option includes all dimension items for this dimension, even those not listed in the table. (Server-side calculation) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Breakdowns </p> </td> 

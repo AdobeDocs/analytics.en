@@ -47,4 +47,4 @@ the day of the current week starting on Sunday, November 23 minus seven days = t
 
 the day of the current week starting on Sunday, November 23 minus one day = Saturday, November 22
 
-In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).) 
+In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).) 

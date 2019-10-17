@@ -13,7 +13,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 
 Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel. 
 
-This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project. For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project. For specific use cases, see [Use Cases for Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Create a project
 
@@ -34,8 +34,8 @@ This article familiarizes you with the Analysis Workspace interface elements and
    You can choose whether to create a project from
 
 * A blank project (default). For instructions, see below. 
-* A standard template. These templates are created by Adobe and ship out of the box. For instructions, see [Templates](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) 
-* A custom template. These templates are created by users with admin rights. For instructions, see [Templates](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
+* A standard template. These templates are created by Adobe and ship out of the box. For instructions, see [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
+* A custom template. These templates are created by users with admin rights. For instructions, see [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
 
@@ -61,15 +61,15 @@ This article familiarizes you with the Analysis Workspace interface elements and
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> Components</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Components</a> </td> 
    <td colname="col2"> <p>Dimensions, metrics, segments, and date ranges that you can drag into projects. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualizations</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualizations</a> </td> 
    <td colname="col2"> <p>Items you can drag to the panel or project areas of the interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> Freeform Panel </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Freeform Panel </a> </td> 
    <td colname="col2"> <p>The canvas or workspace with which you interact in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -113,7 +113,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
   </tr> 
   <tr> 
    <td colname="col1"> Segments (blue) </td> 
-   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Use Cases for Analysis Workspace</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Date ranges and granularities (purple) </td> 
@@ -122,9 +122,9 @@ This article familiarizes you with the Analysis Workspace interface elements and
  </tbody> 
 </table>
 
-   **[Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
+   **[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-   The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project.
+   The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. You can drag-and-drop multiple visualizations into your project.
 
    ![Step Result](assets/visualizations.png)
 
@@ -147,11 +147,11 @@ The right-click menu lets you perform the following actions, depending on which 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Add time period column</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Add time period column</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Compare time periods</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Compare time periods</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -163,11 +163,11 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Create alert from selection</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > Create alert from selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4" format="dita" scope="local"> Breakdown</a> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Breakdown</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensions </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Metrics </li> 
@@ -177,23 +177,23 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualize</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualize</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local"> Download as CSV</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > Download as CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9" format="dita" scope="local"> Trend selection</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Trend selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Create segment from selection</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Create segment from selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793" format="dita" scope="local"> Run in segment comparison</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > Run in segment comparison</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -207,4 +207,4 @@ The right-click menu lets you perform the following actions, depending on which 
  </tbody> 
 </table>
 
-See [Keyboard and Mouse Interactions Available in Analysis Workspace](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for information about copying and selecting rows. 
+See [Keyboard and Mouse Interactions Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for information about copying and selecting rows. 

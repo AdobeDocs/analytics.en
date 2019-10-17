@@ -10,7 +10,7 @@ uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 
 Functions let you filter/sort your data and do statistical analysis.
 
-For a list of all functions, refer to [Basic Functions](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) and [Advanced Functions](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174).
+For a list of all functions, refer to [Basic Functions](/help/components/c-calcmetrics/cm-reference/cm-functions.md) and [Advanced Functions](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >

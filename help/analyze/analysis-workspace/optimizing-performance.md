@@ -41,7 +41,7 @@ Where possible, don’t pull in more data than you need.
 
 Remember that date ranges (purple components) override the panel date range. As a result, if you are using different date ranges as columns (e.g. last month, last week and yesterday columns), the panel date range does not have to span all of the column date ranges. It can simply be set to yesterday, because the data ranges used in the freeform table will override the panel. For more information on working with date ranges in Analysis Workspace, watch [this video](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. For example, if you need to show last month's data compared to same month last year, rather than setting the panel to the last 13 months of data, simply use the compare time periods option to show year-over-year performance.
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. For example, if you need to show last month's data compared to same month last year, rather than setting the panel to the last 13 months of data, simply use the compare time periods option to show year-over-year performance.
 
 ## Number of visualizations
 

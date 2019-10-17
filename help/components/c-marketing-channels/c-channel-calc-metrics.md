@@ -27,7 +27,7 @@ Add a calculated metric from the Marketing Channel Overview Report. You can add 
 
 1. Open a [!UICONTROL Marketing Channel Overview Report].
 
-   See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84). 
+   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md). 
 
 1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
 

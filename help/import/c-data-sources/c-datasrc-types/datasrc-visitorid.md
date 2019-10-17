@@ -13,7 +13,7 @@ uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 
 Visitor IDs can be integrated by selecting the Generic (Transaction ID) category.
 
-See [Integrate Offline Data](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6). 
+See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md). 
 
 <p class="head"> <b>Visitor ID Dimensions</b> </p>
 

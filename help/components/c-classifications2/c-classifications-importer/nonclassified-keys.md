@@ -36,4 +36,4 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
    To follow the example in this documentation, you might type "non-mobile campaign" in a column named [!UICONTROL Mobile Campaign Name].
 
    This entry renames *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report. 
-1. [Import the data](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) back into the system.
+1. [Import the data](/help/components/c-classifications2/c-classifications-importer/import-file.md) back into the system.

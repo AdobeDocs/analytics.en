@@ -20,9 +20,9 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 Here are guidelines for creating channels:
 
 * Plan ahead by making a list of all your channels, so that all of your visitor hits are categorized to the right channel. 
-* Always include channels for the categories of [Internal](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) hits and [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) hits.
+* Always include channels for the categories of [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) hits and [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) hits.
 
-Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) page. You associate rules with channels when creating the rule. 
+Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) page. You associate rules with channels when creating the rule. 
 
 ## Add marketing channels {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
 
@@ -37,11 +37,11 @@ Add marketing channels in the Marketing Channel Manager.
 
    If you select multiple report suites, select a template that copies settings from the template to the selected report suites.
 
-   See [Apply template report suite settings to multiple report suites](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC). 
+   See [Apply template report suite settings to multiple report suites](/help/components/c-marketing-channels/t-template.md). 
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays. 
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays. 
 
 1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 
@@ -50,7 +50,7 @@ Add marketing channels in the Marketing Channel Manager.
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08). 
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md). 
 
 ## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
 
@@ -82,7 +82,7 @@ Field definitions for the [!UICONTROL Marketing Channel Manager] page.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p> Specifies how the user came to your site. You can select <span class="uicontrol"> Online</span> or <span class="uicontrol"> Offline</span>. Use Online channels for visitors who come through a search engine or email campaign. Offline channels apply to visitors who found your site through newspaper coupons or magazine advertisements. Offline channels usually include data imported through reporting Data Sources. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http"> Data Sources</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Specifies how the user came to your site. You can select <span class="uicontrol"> Online</span> or <span class="uicontrol"> Offline</span>. Use Online channels for visitors who come through a search engine or email campaign. Offline channels apply to visitors who found your site through newspaper coupons or magazine advertisements. Offline channels usually include data imported through reporting Data Sources. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  > Data Sources</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Color </p> </td> 

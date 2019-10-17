@@ -12,7 +12,7 @@ uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 
 A trended report that displays the number of times your website pages were viewed for the selected time period (hour, day, week, month, quarter, or year). This report allows you to track page views for each page on your site, as well as an aggregate of page views for your entire site.
 
-A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26) is a request for a full page document rather than an element of a page, such as an image or video. For example, if a single visitor views 15 pages during a visit, 15 page views are counted. If a visitor views the same page three times during a visit, three page views are counted.
+A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. For example, if a single visitor views 15 pages during a visit, 15 page views are counted. If a visitor views the same page three times during a visit, three page views are counted.
 
 **Report Properties**
 

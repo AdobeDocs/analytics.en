@@ -15,7 +15,7 @@ Explains how to compare segments in Analysis Workspace.
 
 >[!NOTE]
 >
->You can also compare segments within a [fallout analysis](../../../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#section_E0B761A69B1545908B52E05379277B56).
+>You can also compare segments within a [fallout analysis](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md#section_E0B761A69B1545908B52E05379277B56).
 
 ## Compare segments {#section_8F2BFC45131C49B4A2E08A063CD7A91F}
 
@@ -34,7 +34,7 @@ Explains how to compare segments in Analysis Workspace.
 
    ![](assets/everyone-else.png)
 
-1. Click **[!UICONTROL Show Advanced Options]** to exclude components (dimensions, metrics, or segments) from your segment comparison analysis. For more information, see [Exclude Components from Comparison](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937). 
+1. Click **[!UICONTROL Show Advanced Options]** to exclude components (dimensions, metrics, or segments) from your segment comparison analysis. For more information, see [Exclude Components from Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937). 
 
 1. After you've selected the right "Compare Against" segment, click **[!UICONTROL Build]**.
 
@@ -46,7 +46,7 @@ Explains how to compare segments in Analysis Workspace.
 
    ![](assets/new-viz2.png)
 
-1. Interpret the results of your Segment Comparison by reviewing [new visualizations, tables, and summaries](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793).
+1. Interpret the results of your Segment Comparison by reviewing [new visualizations, tables, and summaries](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
 
 ## Exclude components from comparison {#section_5E98FFA0744140C08D83700E3F025937}
 

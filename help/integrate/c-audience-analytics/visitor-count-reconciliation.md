@@ -21,11 +21,11 @@ The visitor metrics are:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" > AAM: Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment during the lookback period. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" > AAM: Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment and reached your properties during the lookback period. </p> </td> 
   </tr> 
   <tr> 
@@ -68,4 +68,4 @@ AAM Real-time Segment Population and Analytics Visitors with Experience Cloud ID
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation. 
+See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation. 

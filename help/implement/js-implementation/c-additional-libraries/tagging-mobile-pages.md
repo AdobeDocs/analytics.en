@@ -48,4 +48,4 @@ If the default image type is not supported on a particular device, no data is re
 
 * `/5.5/` always returns a WBMP image.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49). 
+See [Identifying Visitors using Mobile Protocols](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md). 

@@ -19,7 +19,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 >[!NOTE]
 >
->The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. No further development will occur on this SDK.
+>The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. No further development will occur on this SDK.
 
 ## Version 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 

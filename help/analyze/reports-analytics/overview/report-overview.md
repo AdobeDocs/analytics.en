@@ -26,7 +26,7 @@ Share your report data with the decision makers who can change your site or mark
 
 ![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Also refer to [Customizing a Report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Report Header & Settings {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -34,7 +34,7 @@ Displays report settings and lets you configure the report type, select metrics,
 
 ![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.  
+See [Customizing a Report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.  
 
 ## Calendar {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -42,7 +42,7 @@ Specify the date by clicking the calendar button and selecting a date range. You
 
 ![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+See [Selecting a Date or Date Range](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) and [Comparing Dates](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Graph Type {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -50,7 +50,7 @@ Select the type of graph or chart you want to see.
 
 ![](assets/graph_type.png)
 
-See [Changing Report Graphs](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).  
+See [Changing Report Graphs](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md).  
 
 ## Graph Display {#section_4C78ADC82C234CC6841AC92C803636F4}
 
@@ -58,7 +58,7 @@ Depending on the type of graph that you have selected, you typically see the top
 
 ![](assets/graph.png)
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+See [Customizing Reports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Metrics {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -66,7 +66,7 @@ Add metrics to your report. Administrators can specify default metrics.
 
 ![](assets/metrics.png)
 
-See [Metrics](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+See [Metrics](/help/analyze/reports-analytics/metrics.md).
 
 ## Detail Table {#section_449A5DC848744F65A10DA12E189B835D}
 
@@ -76,4 +76,4 @@ The details are the bulk of the report data. In this case, you have pages listed
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more.
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md). 
+See [Customizing Reports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md). 

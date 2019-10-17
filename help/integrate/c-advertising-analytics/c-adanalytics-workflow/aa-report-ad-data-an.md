@@ -20,7 +20,7 @@ This template lets anyone who implements this Search Engine integration get acce
 
 >[!NOTE]
 >
->The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
+>The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) screen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

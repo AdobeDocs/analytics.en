@@ -39,11 +39,11 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
   </tr> 
   <tr> 
    <td colname="col1"> Shared </td> 
-   <td colname="col2"> <p>Shows whether the dashboard is shared. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_2776BDE3FBC64E66B78DB6D6A53AAF49" format="dita" scope="local"> Share a dashboard </a> </p> </td> 
+   <td colname="col2"> <p>Shows whether the dashboard is shared. </p> <p>See <a href="/help/analyze/reports-analytics/dashboard-manage.md"  > Share a dashboard </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Scheduled </td> 
-   <td colname="col2"> <p>Lets you schedule the dashboard for delivery. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_639361A35E044B2DB9D50FCABEC776FF" format="dita" scope="local"> Schedule a dashboard for delivery </a>. </p> </td> 
+   <td colname="col2"> <p>Lets you schedule the dashboard for delivery. </p> <p>See <a href="/help/analyze/reports-analytics/dashboard-manage.md"  > Schedule a dashboard for delivery </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> View Archive </td> 
@@ -51,7 +51,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
   </tr> 
   <tr> 
    <td colname="col1"> Push to Users </td> 
-   <td colname="col2"> <p>Lets you share a dashboard. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_2776BDE3FBC64E66B78DB6D6A53AAF49" format="dita" scope="local"> Share a dashboard </a> </p> </td> 
+   <td colname="col2"> <p>Lets you share a dashboard. </p> <p>See <a href="/help/analyze/reports-analytics/dashboard-manage.md"  > Share a dashboard </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Manage </td> 
@@ -127,7 +127,7 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 
    The copied dashboard opens in the dashboard layout editor.
 
-   See [Editing Dashboard and Reportlet Data](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460). 
+   See [Editing Dashboard and Reportlet Data](/help/analyze/reports-analytics/dashboard.md). 
 
 ## Share a dashboard {#task_2776BDE3FBC64E66B78DB6D6A53AAF49}
 
@@ -161,7 +161,7 @@ t_dashboard_delivery.xml
 1. Open a dashboard.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information. 
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information. 
 
 ## Archive a dashboard {#task_3B6AB949F0EC4063A08F80F254992117}
 

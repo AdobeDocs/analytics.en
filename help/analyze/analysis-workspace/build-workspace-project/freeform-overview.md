@@ -29,8 +29,8 @@ The Workspace project list page contains the following information:
 
 |  Element  | Description  |
 |---|---|
-| Project [Templates](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)  | You can use these pre-populated project templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.  |
-| [Create New Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)  | Click this link to start a new project from scratch.  |
+| Project [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)  | You can use these pre-populated project templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.  |
+| [Create New Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)  | Click this link to start a new project from scratch.  |
 |  Manage Projects  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
 |  View Tutorials  |Takes you to the [Analysis Workspace YouTube videos](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).  |
 |  Name  | Name of the Workspace project.  |
@@ -83,7 +83,7 @@ The submenus contain the following options.
 
 ## Left Rail {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [Components](../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 

@@ -26,7 +26,7 @@ Shows the areas of your site that are accessed most by your visitors. Site Secti
     * **All standard eCommerce metrics**: Revenue, Orders, Units, Carts, Cart Views, Checkouts, Cart Additions, and Cart Removals 
     * **All custom events**: Events 1-80, and Events 81-100 if on H22 code or higher.
 
-All conversion events in the [!UICONTROL Site Sections Report] use last allocation. You will see conversion divided across pages that do not contain success events within your implementation. This is different than the [Pages Report](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), which uses linear allocation.
+All conversion events in the [!UICONTROL Site Sections Report] use last allocation. You will see conversion divided across pages that do not contain success events within your implementation. This is different than the [Pages Report](/help/components/c-variables/dimensionslist/reports-pages.md), which uses linear allocation.
 
 **Product Specific Information** 
 

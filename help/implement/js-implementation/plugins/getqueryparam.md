@@ -16,7 +16,7 @@ Returns the value of a specified query string parameter, if found in the current
 
 >[!IMPORTANT]
 >
->This plug-in is used by H code only. [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) provides this functionality natively using [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>This plug-in is used by H code only. [AppMeasurement for JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) provides this functionality natively using [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. The plug-in detects the specified query string, if present, and populates the chosen variable with its value. If no query string parameter is found with that value, an empty string is returned. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
 

@@ -16,6 +16,6 @@ These reports are usually customized and thus different for every analyst.
 
 **Related Reports**
 
-[Campaign Conversion Funnel](../../../components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md#concept_DEF0050F45F74EC8BB08CDA03BB03A59)
+[Campaign Conversion Funnel](/help/components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md)
 
-[Tracking Codes Report](../../../components/c-variables/dimensionslist/reports-tracking-codes.md#concept_CBCAE87060BC4BE1A335DDCA6F4396FB) 
+[Tracking Codes Report](/help/components/c-variables/dimensionslist/reports-tracking-codes.md) 

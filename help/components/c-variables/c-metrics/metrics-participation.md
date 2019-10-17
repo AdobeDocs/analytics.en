@@ -12,7 +12,7 @@ uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 
 Participation metrics assign full credit from success events to all values of an eVar that were passed during a visit. Participation metrics are useful to determine which pages, campaigns, or other custom variable values are contributing most to the success of your site. Participation is visit based. All eVar values in a visit prior to and including the hit when an event occurs receive participation credit regardless of the expiration setting.
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 Participation metrics have two settings per conversion event:
 

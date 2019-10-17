@@ -13,7 +13,7 @@ uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 Insert AppMeasurement code when manually deploying Dynamic Tag Management in Adobe Analytics.
 
 1. On the [!DNL Adobe Analytics] tool page, expand the **[!UICONTROL General]** section, then click **[!UICONTROL Open Editor]**.
-1. Unzip the [!DNL AppMeasurement_JavaScript*.zip] file you downloaded in [deploy Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
+1. Unzip the [!DNL AppMeasurement_JavaScript*.zip] file you downloaded in [deploy Adobe Analytics](/help/implement/c-implement-with-dtm/t-analytics-deploy.md).
 
    If you opt for custom library, when you open the window it will already have the most recent code version present. There is no need to download the zip from the Admin Console. 
 1. Open [!DNL AppMeasurement.js] in a text editor.

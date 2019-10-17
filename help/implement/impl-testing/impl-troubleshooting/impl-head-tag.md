@@ -15,7 +15,7 @@ Analytics code creates an image object, a non-visible image that does not show u
 
 >[!NOTE]
 >
->This section applies only to the legacy s_code.js implementation. [AppMeasurement for JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) supports deploying the library and page code in the `<head>` tag.
+>This section applies only to the legacy s_code.js implementation. [AppMeasurement for JavaScript 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) supports deploying the library and page code in the `<head>` tag.
 
 Previously, a common implementation practice was to place the Analytics JavaScript code between the <head> and </head> tags. By placing the code between these tags it prevented the 1 x 1 pixel image that was returned by the request that sent data into Adobe servers from affecting page layout in any way. Putting code in the document head means the code appears earlier in the code. This lets it execute sooner, which lets you count page views for partial page loads more effectively.
 

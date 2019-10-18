@@ -110,7 +110,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#configuration-vars}}
+## Configuration variables {#configuration-vars}
 
 Note that these variables are listed for reference purposes only. Activity Map should be configured properly out of the box, but you can customize your implementation using these variables. 
 

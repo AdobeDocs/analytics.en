@@ -65,12 +65,12 @@ To manage alerts:
 
    | Action | Definition |
    |--- |--- |
-   |+ Add|Access the [Alert Builder](../../admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
+   |+ Add|Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
    |Tag|Tag alerts to organize them for ease of use.|
    |Delete|You can delete all alerts except default alerts.|
    |Rename|You can rename all alerts except default alerts.|
    |Approve|Approve alerts to make them "official."|
    |Enable/Disable|You can enable or disable all alerts, even the default ones.|
    |Renew|When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date.|
-   |Export to CSV|See [Download Usage Report](../../admin/c-server-call-usage/report-suite-usage.md)|
+   |Export to CSV|See [Download Usage Report](/help/admin/c-server-call-usage/report-suite-usage.md)|
    

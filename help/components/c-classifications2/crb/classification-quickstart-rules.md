@@ -13,10 +13,6 @@ uuid: 08685919-216d-448b-b886-3adf5ff5405e
 
 Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
-
-Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys. 
-
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
 The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. A rule matches criteria you specify, then performs an action.
@@ -85,7 +81,7 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
   You can overwrite classifications when [adding and activating](/help/components/c-classifications2/crb/classification-quickstart-rules.md) a rule, and when activating a data connectors integration. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].) 
 
-* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications). 
+* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md). 
 * The key is not classified and the key is never passed into [!DNL Adobe Analytics] after the time frame beginning about one month ago. 
 
   >[!NOTE]
@@ -94,7 +90,7 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
 ![](assets/overwrite_keys.png)
 
-## Regular Expressions in Classification Rules {#concept_8A63F9BCF9484963962E14E6286D312D}
+## Regular Expressions in Classification Rules {#regex-in-classification-fules}}
 
 Use regular expressions to match consistently formatted string values with a classification. For example, you can create a classification from specific characters in a tracking code. You can match particular characters, words, or patterns of characters.
 

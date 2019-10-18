@@ -16,10 +16,10 @@ Lets Admin-level users see and manage scheduled reports across the organization.
 
 Admin-level capabilities in the Scheduled Reports Manager include:
 
-* The option to [Show all Scheduled Reports](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) in your organization. 
-* [Advanced Filtering Capabilities](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) across your organization. 
-* The new [Report Queue](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) tab that lists all reports that are queued for execution on reporting servers. 
-* Exposing the [Schedule ID](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in the Report Queue interface.
+* The option to [Show all Scheduled Reports](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) in your organization. 
+* [Advanced Filtering Capabilities](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) across your organization. 
+* The new [Report Queue](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) tab that lists all reports that are queued for execution on reporting servers. 
+* Exposing the [Schedule ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in the Report Queue interface.
 
 ## Show all Scheduled Reports {#section_3F167CAAEEC24140B476CF95B7402690}
 

@@ -19,4 +19,4 @@ Steps that describe how to add a user account.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Add New User]**.
-1. Complete the fields specified in [User Account Descriptions](../../../admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
+1. Complete the fields specified in [User Account Descriptions](/help/admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).

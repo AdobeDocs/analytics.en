@@ -14,6 +14,6 @@ Segmentation guidelines for appFigures data:
 
 * Must use page view containers only.
 * Must use only [AppFigures dimensions](../appfigures-overview/appfigures-metrics.md) in filtering rules.
-* Can use multiple segment rules as long as only [AppFigures dimensions](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) are referenced.
+* Can use multiple segment rules as long as only [AppFigures dimensions](help/import/data-connectors/appfigures-overview/appfigures-segment-filter.md) are referenced.
 * Can use both the Include and Exclude canvas.
 * Segments apply only to Adobe Analytics v15.

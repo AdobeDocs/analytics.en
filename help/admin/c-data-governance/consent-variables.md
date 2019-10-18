@@ -59,21 +59,21 @@ See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementa
 
 ### SSF
 
-* Context Data: contextData.['cm.ssf']
+* Context Data: `contextData.['cm.ssf']`
 * Accepted Values:  
    * 1 - When sending the value "1", this indicates that Server Side Forwarding is in an opt-out state. The value "1" paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * No other values are accepted for this parameter.
 
 ### DMP
 
-* Context Data: contextData.['opt.dmp']
+* Context Data: `contextData.['opt.dmp']`
 * Accepted Values:  
    * N – When sending the value "N", this indicates that the consumer is opting out of sharing to data management platforms. **Note:** Setting this variable to "N" does not currently block sharing to AAM, however, blocking calls to AAM functionality will be added in early 2020. For now Adobe recommends setting both `c.cm.ssf=1` and `c.opt.dmp=N` to block hits from being sent to AAM.
    * Y - When sending the value "Y", this indicates that the consumer is opting in to sharing to data management platforms.
 
 ### SELL
 
-* Context Data: contextData.['opt.sell']
+* Context Data: `contextData.['opt.sell']`
 * Accepted Values:  
    * N - When sending the value "N", this indicates that the consumer is opting out of the sharing or selling of the data to third parties.
    * Y - When sending the value "Y", this indicates that the consumer is opting in to the sharing or selling of the data to third parties.

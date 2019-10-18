@@ -21,39 +21,39 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I manage Analytics users and groups? </p> </td> 
-   <td colname="col3"> <p>For information about managing users and groups, refer to <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external"> User and Product Management </a> in the Adobe Experience Cloud help. </p> </td> 
+   <td colname="col3"> <p>For information about managing users and groups, refer to <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html"> User and Product Management </a> in the Adobe Experience Cloud help. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>eVar Expiration - Why are the eVars getting attributed to ‘None’ in the reports? </p> </td> 
-   <td colname="col3"> <p> <span class="uicontrol"> Expire After </span> specifies a time period, or event, after which the eVar value expires (no longer receives credit for success events). If a success event occurs after eVar expiration, the None value receives credit for the event (no eVar was active). If you select an event as an expiration value, the variable expires only if the event occurs. If the event does not occur, the variable never expires. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p> <span class="uicontrol"> Expire After </span> specifies a time period, or event, after which the eVar value expires (no longer receives credit for success events). If a success event occurs after eVar expiration, the None value receives credit for the event (no eVar was active). If you select an event as an expiration value, the variable expires only if the event occurs. If the event does not occur, the variable never expires. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Custom Event Visibility - Why do Custom Events not appear in the reports menu? </p> </td> 
-   <td colname="col3"> <p>In the Visibility column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder. This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface. <a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>In the Visibility column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder. This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface. <a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Timestamps - What do I need to consider before changing timestamp settings? </p> </td> 
-   <td colname="col3"> <p>Using the Timestamps Optional feature, you can combine non-timestamped data with timestamped data without incurring data loss. Offline data with timestamps generated from a mobile device can be combined with live, non-timestamped data from a web page—or integrated with data from any platform using a client-side timestamp call. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>Using the Timestamps Optional feature, you can combine non-timestamped data with timestamped data without incurring data loss. Offline data with timestamps generated from a mobile device can be combined with live, non-timestamped data from a web page—or integrated with data from any platform using a client-side timestamp call. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - How does the Visitor ID grace period work and how is it enabled? </p> </td> 
-   <td colname="col3"> <p>If you have multiple JavaScript files that are sending data to the same report suite, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>If you have multiple JavaScript files that are sending data to the same report suite, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - What is the difference between the Experience Cloud Visitor ID and the Analytics Visitor ID? </p> </td> 
-   <td colname="col3"> <p>The Identity Service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>The Identity Service assigns a unique, persistent identifier to all your site visitors. With this ID, visitors and their data can be shared among other solutions in the Experience Cloud. Also, this ID can replace or work with solution-specific IDs such as the Analytics Visitor ID. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Visitor ID - How is the Visitor ID set if cookies are blocked? </p> </td> 
-   <td colname="col3"> <p>If the standard s_vi cookie is unavailable, a fallback cookie is created on the domain of the website with a randomly generated unique ID. This cookie, named s_fid, is set with a 2-year expiration and is used as the fallback identification method going forward. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>If the standard s_vi cookie is unavailable, a fallback cookie is created on the domain of the website with a randomly generated unique ID. This cookie, named s_fid, is set with a 2-year expiration and is used as the fallback identification method going forward. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dynamic Tag Management - Why does my DTM rule not fire? </p> </td> 
-   <td colname="col3"> <p>If your event-based rule does not fire, then there is likely an issue with the selector or condition of the rule. Locate the element on your site where the desired event action occurs, right click and select Inspect element. Inspect the highlighted script in the box that opens and ensure you are targeting the correct element. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>If your event-based rule does not fire, then there is likely an issue with the selector or condition of the rule. Locate the element on your site where the desired event action occurs, right click and select Inspect element. Inspect the highlighted script in the box that opens and ensure you are targeting the correct element. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I implement Heartbeat Video Tracking? </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="https" scope="external"> This section </a> contains instructions on downloading the video heartbeat SDKs and developer guides for your platform. Make sure you also download the developer guide that is in the docs folder when you download the SDK as it contains the specific implementation instructions for video heartbeat. </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/"> This section </a> contains instructions on downloading the video heartbeat SDKs and developer guides for your platform. Make sure you also download the developer guide that is in the docs folder when you download the SDK as it contains the specific implementation instructions for video heartbeat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>How do I add cookies to the right subdomain? </p> </td> 
@@ -61,11 +61,11 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> <p>Tracking Server - How do I correctly populate my tracking server? </p> </td> 
-   <td colname="col3"> <p>When you configure an implementation to send data to Adobe Analytics servers, you must send it to the correct location. Failure to do so causes inflated visitor counting or data loss. <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> [More...] </a> </p> </td> 
+   <td colname="col3"> <p>When you configure an implementation to send data to Adobe Analytics servers, you must send it to the correct location. Failure to do so causes inflated visitor counting or data loss. <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html"> [More...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can a failure to load the external Adobe JavaScript, whether due to internet connection, proxy, firewall, or service interruption at Adobe, affect performance? </p> </td> 
-   <td colname="col3"> <p>No. The JavaScript file is not hosted on Adobe servers, so an Adobe outage will not affect the JavaScript execution. If dynamic tag management is employed, the JavaScript file is hosted by Akamai, or on a server location determined by customers. </p> <p>See <i>Will Dynamic Tag Management reduce my website's performance?</i> at the <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external"> Dynamic Tag Management FAQ </a>. </p> <p>Additionally, you can host your own core dynamic tag management file if you are not comfortable relying on Akamai's CDN. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html" format="https" scope="external"> Embed Code and Hosting Options </a>. </p> </td> 
+   <td colname="col3"> <p>No. The JavaScript file is not hosted on Adobe servers, so an Adobe outage will not affect the JavaScript execution. If dynamic tag management is employed, the JavaScript file is hosted by Akamai, or on a server location determined by customers. </p> <p>See <i>Will Dynamic Tag Management reduce my website's performance?</i> at the <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html"> Dynamic Tag Management FAQ </a>. </p> <p>Additionally, you can host your own core dynamic tag management file if you are not comfortable relying on Akamai's CDN. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html"> Embed Code and Hosting Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Performance - Can the loading of the external Adobe JavaScript cause a reduction in performance? </p> </td> 
@@ -81,55 +81,55 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td colname="col2"> How can I change collected data, based on defined conditions of my own? </td> 
-   <td colname="col3"> Use processing rules to simplify data collection and manage content as it is sent to reporting. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> [More...] </a> </td> 
+   <td colname="col3"> Use processing rules to simplify data collection and manage content as it is sent to reporting. <a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> Which is the latest version of s_code file? </td> 
-   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I debug s_code file? </td> 
-   <td> The Adobe Debugger (previously DigitalPulse Debugger) is a free tool provided by Adobe that lets you view the data being collected from your site on any given page. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> The Adobe Debugger (previously DigitalPulse Debugger) is a free tool provided by Adobe that lets you view the data being collected from your site on any given page. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track different link types? </td> 
-   <td> File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track video ? </td> 
-   <td> JavaScript can be used to track a wide variety of players. To track using JavaScript, you add code to the web page that contains your player and track the player using event handlers. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> JavaScript can be used to track a wide variety of players. To track using JavaScript, you add code to the web page that contains your player and track the player using event handlers. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I track a mobile App? </td> 
-   <td> Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html" format="http" scope="external"> iOS </a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html" format="http" scope="external"> Android </a> </td> 
+   <td> Acquisition links with unique tracking codes can be generated in Adobe Mobile services. When a user downloads and runs an app from the Apple App Store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services. <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html"> iOS </a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html"> Android </a> </td> 
   </tr> 
   <tr> 
    <td> How do I implement video tracking? </td> 
-   <td> You can track media players by creating functions attached to the video player event handlers This lets you call Media.open, Media.play, Media.stop, and Media.close at the appropriate times. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> You can track media players by creating functions attached to the video player event handlers This lets you call Media.open, Media.play, Media.stop, and Media.close at the appropriate times. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I set up the First Party Cookie? </td> 
-   <td> Analytics uses cookies to provide information on variables and components that do not persist between image requests and browser sessions. These harmless cookies originate from a domain hosted by Adobe, known as third-party cookies. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> Analytics uses cookies to provide information on variables and components that do not persist between image requests and browser sessions. These harmless cookies originate from a domain hosted by Adobe, known as third-party cookies. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I get an SSL certificate? </td> 
-   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only https:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> Determine whether your site uses https:// protocol. If it does, requesting a CSR and purchasing an SSL certificate is required. Note: An SSL certificate is not required if you do not have any secure pages or content. This entire step may be skipped if you use only https:// protocol on your site. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> Where do I find information about the certification expiration notice? </td> 
-   <td> SSL certificates expire each year, meaning that Adobe requires an updated certificate request each time this happens. The FPC specialist provides sufficient warning when this occurs, however, it is recommended to be proactive in monitoring the expiration and providing Adobe with this updated certificate. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> SSL certificates expire each year, meaning that Adobe requires an updated certificate request each time this happens. The FPC specialist provides sufficient warning when this occurs, however, it is recommended to be proactive in monitoring the expiration and providing Adobe with this updated certificate. <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> What are plugins? </td> 
-   <td> AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions. Contact your Account Manager if you want to capture data using JavaScript but are unsure how to proceed. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions. Contact your Account Manager if you want to capture data using JavaScript but are unsure how to proceed. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> Information about data insertion API? </td> 
-   <td> Adobe has created multiple ways to send data into Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html" format="http" scope="external"> [More...] </a> </td> 
+   <td> Adobe has created multiple ways to send data into Analytics. <a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> What is a 500 error? </td> 
-   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external">See pageType variable </a> </td> 
+   <td> Information about the internal server error which caused a "500 Query Error" status. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html">See pageType variable </a> </td> 
   </tr> 
  </tbody> 
 </table>

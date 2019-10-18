@@ -31,7 +31,7 @@ Create a data element in Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Specifies where the data is pulled from, such as JS Object, CSS Selector, Cookie, URL Parameter, or Custom Script. </p> <p>Depending on which type you select, different options display. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html" format="html" > Types of Data Elements</a> in the Dynamic Tag Management Product Documentation for more information and examples. </p> </td> 
+      <td class="chdesc stentry"> <p> Specifies where the data is pulled from, such as JS Object, CSS Selector, Cookie, URL Parameter, or Custom Script. </p> <p>Depending on which type you select, different options display. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html"> Types of Data Elements</a> in the Dynamic Tag Management Product Documentation for more information and examples. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Default Value</strong></td> 

@@ -30,7 +30,7 @@ On the Embed tab, select a hosting option.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> The simplest hosting option to implement. </p> <p>Globally distributed delivery network. </p> <p>Adds additional third-party infrastructure dependencies (DNS lookup, Akamai availability). </p> <p>For more detailed information, see <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html" format="html" scope="external"> Akamai</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
+   <td colname="col2"> <p> The simplest hosting option to implement. </p> <p>Globally distributed delivery network. </p> <p>Adds additional third-party infrastructure dependencies (DNS lookup, Akamai availability). </p> <p>For more detailed information, see <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html"> Akamai</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">Dynamic Tag Management generates custom JavaScript libraries. </li> 
@@ -40,7 +40,7 @@ On the Embed tab, select a hosting option.
   </tr> 
   <tr> 
    <td colname="col1"> Self-hosting: FTP Delivery </td> 
-   <td colname="col2"> <p>A <span class="term"> push</span> approach, whereby Dynamic Tag Management exports custom JavaScript libraries directly to the web content server host via the FTP protocol. </p> <p>This solution requires an FTP server and credentials to be available on the web content server to publish changes to the custom Dynamic Tag Management libraries. </p> <p>For more detailed information, see <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html" format="html" scope="external"> FTP</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
+   <td colname="col2"> <p>A <span class="term"> push</span> approach, whereby Dynamic Tag Management exports custom JavaScript libraries directly to the web content server host via the FTP protocol. </p> <p>This solution requires an FTP server and credentials to be available on the web content server to publish changes to the custom Dynamic Tag Management libraries. </p> <p>For more detailed information, see <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html"> FTP</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_60348F9C991D4F2B9457006B0F98C834"> 
      <li id="li_24A141C3C7074BF9897C022A22CAE78C">Dynamic Tag Management generates custom JavaScript libraries. </li> 
@@ -51,7 +51,7 @@ On the Embed tab, select a hosting option.
   <tr> 
    <td colname="col1"> Self-hosting: Library Download </td> 
    <td colname="col2"> <p>A <span class="term"> pull</span> approach, whereby the application exports custom JavaScript libraries
-     <!-- to Amazon S3-->. There, the libraries can be accessed by a hosted server-side process. </p> <p>Additionally, the libraries are available via web download directly from the Dynamic Tag Management interface. </p> <p>This solution requires either a manual retrieval and publication of the Dynamic Tag Management libraries or the creation of an automated process that pulls the libraries from Akamai onto the web content server. </p> <p>This approach takes the most time to set up, but is also the most secure and flexible option. </p> <p>To check if the latest version of your library file is being referenced, use the command </p> <p>For more detailed information, see<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html" format="html" scope="external"> Library Download</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
+     <!-- to Amazon S3-->. There, the libraries can be accessed by a hosted server-side process. </p> <p>Additionally, the libraries are available via web download directly from the Dynamic Tag Management interface. </p> <p>This solution requires either a manual retrieval and publication of the Dynamic Tag Management libraries or the creation of an automated process that pulls the libraries from Akamai onto the web content server. </p> <p>This approach takes the most time to set up, but is also the most secure and flexible option. </p> <p>To check if the latest version of your library file is being referenced, use the command </p> <p>For more detailed information, see<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html"> Library Download</a> in the Dynamic Tag Management Product Documentation. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">Dynamic Tag Management generates custom JavaScript libraries. </li> 

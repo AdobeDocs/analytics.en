@@ -23,7 +23,7 @@ HTTP request and response headers are used to collect additional data beyond wha
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Reading cookies previously created by our data collection servers. </p> <p> As of 2014, Adobe servers will discard all cookies that accompany a server call except those set by Adobe. See <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external"> Cookies Used in the Experience Cloud</a> for the full list of Adobe's cookies. </p> </td> 
+   <td> <p>Reading cookies previously created by our data collection servers. </p> <p> As of 2014, Adobe servers will discard all cookies that accompany a server call except those set by Adobe. See <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/"> Cookies Used in the Experience Cloud</a> for the full list of Adobe's cookies. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 

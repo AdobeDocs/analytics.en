@@ -65,11 +65,11 @@ In this procedure enables you to:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Data Layer </p> </td> 
-       <td colname="col2"> <p>(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag Management, you will be using a data layer. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
+       <td colname="col2"> <p>(Recommended) A JavaScript array which is used to store information. If you perform the automatic setup using Dynamic Tag Management, you will be using a data layer. </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Data Repository (Report Suite) </p> </td> 
-       <td colname="col2"> <p> A <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external"> report suite</a> is a discrete data set that typically corresponds to a single property (site or app) or brand. Each report suite has its own set of reports and metrics. </p> </td> 
+       <td colname="col2"> <p> A <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html"> report suite</a> is a discrete data set that typically corresponds to a single property (site or app) or brand. Each report suite has its own set of reports and metrics. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Time Zone </p> </td> 
@@ -106,7 +106,7 @@ In this procedure enables you to:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Download </p> </td> 
-       <td colname="col2"> <p> Downloads the installation file, named <span class="filepath"> INSTALL-ME &lt;report suite name&gt;.js</span>. This option is for experienced users who understand <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external"> JavaScript Implementation</a>. </p> <p> <p>Important: Downloading the code does not constitute deploying <span class="keyword"> Analytics</span>. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services. </p> </p> </td> 
+       <td colname="col2"> <p> Downloads the installation file, named <span class="filepath"> INSTALL-ME &lt;report suite name&gt;.js</span>. This option is for experienced users who understand <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html"> JavaScript Implementation</a>. </p> <p> <p>Important: Downloading the code does not constitute deploying <span class="keyword"> Analytics</span>. This is a manual deployment that you perform on the pages of your site, or through Adobe consulting services. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>

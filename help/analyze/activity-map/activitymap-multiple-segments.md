@@ -1,6 +1,6 @@
 ---
-description: Lets you apply a multiple-segment filter within Activity Map.
-seo-description: Lets you apply a multiple-segment filter within Activity Map.
+description: Lets you apply a multiple-segment filter within [!DNL Activity Map].
+seo-description: Lets you apply a multiple-segment filter within [!DNL Activity Map].
 seo-title: Customer segmentation
 solution: Analytics
 title: Customer segmentation
@@ -10,7 +10,7 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 
 # Customer segmentation
 
-Lets you apply a multiple-segment filter within Activity Map.
+Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 >[!NOTE]
 >
@@ -26,4 +26,4 @@ When more than one segment is selected, the Segment Selection Label (in a collap
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports. 
+The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports. 

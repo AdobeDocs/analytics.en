@@ -12,7 +12,7 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 
 You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .
 
-As an example, let's say you have multiple "Buy" links that are identified by Activity Map under the same Link ID and Region: 
+As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region: 
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -47,11 +47,11 @@ How can you customize your web page and tagging to differentiate the values of t
 
 ## Customize the Link ID Using s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-By creating a unique object ID for a link or link location on a page, you can either improve Activity Map tracking or use Activity Map to report on a link type or location, rather than the link URL. Click [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) for more information on the s_objectID variable.
+By creating a unique object ID for a link or link location on a page, you can either improve [!DNL Activity Map] tracking or use [!DNL Activity Map] to report on a link type or location, rather than the link URL. Click [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) for more information on the s_objectID variable.
 
 >[!IMPORTANT]
 >
->Note that a trailing semicolon (;) is required when using s_objectID in Activity Map.
+>Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 

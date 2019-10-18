@@ -1,6 +1,6 @@
 ---
-description: Steps for starting link tracking in Activity Map or Legacy ClickMap.
-seo-description: Steps for starting link tracking in Activity Map or Legacy ClickMap.
+description: Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
+seo-description: Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
 seo-title: Start link tracking
 solution: Analytics
 title: Start link tracking
@@ -10,7 +10,7 @@ uuid: 425cb287-f76e-4430-802f-288499711ba9
 
 # Start link tracking
 
-Steps for starting link tracking in Activity Map or Legacy ClickMap.
+Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -21,7 +21,7 @@ Steps for starting link tracking in Activity Map or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
+   <td colname="col1"> [!DNL Activity Map] </td> 
    <td colname="col2"> Add the following content from the Appmeasurement.js file: 
     <code>
      /*

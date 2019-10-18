@@ -13,7 +13,7 @@ uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 
 Lists the available measurement libraries.
 
-The following table outlines the libraries available to collect Analytics data across all available platforms. For more information, see [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html). 
+The following table outlines the libraries available to collect Analytics data across all available platforms. For more information, see [Data Collection in Analytics.](/help/import/home.md)
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 

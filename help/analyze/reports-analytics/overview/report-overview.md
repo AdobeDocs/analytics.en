@@ -8,7 +8,7 @@ topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 ---
 
-# Report Features{#report-features}
+# Report Features
 
 An introduction to the features of a report, including the toolbar, calendar, and detail table.
 
@@ -46,19 +46,19 @@ See [Selecting a Date or Date Range](/help/analyze/reports-analytics/reports-cus
 
 ## Graph Type {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-Select the type of graph or chart you want to see.
+Select the type of graph or chart you want to see:
 
 ![](assets/graph_type.png)
 
-See [Changing Report Graphs](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md).  
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Graph Display {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-Depending on the type of graph that you have selected, you typically see the top several items from the details list. If your graph is a trended graph showing different time periods, then all of the time periods display
+Depending on the type of graph that you have selected, you typically see the top several items from the details list. If your graph is a trended graph showing different time periods, then all of the time periods display:
 
 ![](assets/graph.png)
 
-See [Customizing Reports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+See [Customizing Reports.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Metrics {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -66,14 +66,14 @@ Add metrics to your report. Administrators can specify default metrics.
 
 ![](assets/metrics.png)
 
-See [Metrics](/help/analyze/reports-analytics/metrics.md).
+See [Metrics.](/help/analyze/reports-analytics/metrics.md)
 
 ## Detail Table {#section_449A5DC848744F65A10DA12E189B835D}
 
-The details are the bulk of the report data. In this case, you have pages listed, and they are being measured by Page Views, which is how many times they were loaded during the period.
+The details are the bulk of the report data. In this case, you have pages listed, and they are being measured by Page Views, which is how many times they were loaded during the period:
 
 ![](assets/detail.png)
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more.
 
-See [Customizing Reports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md). 
+See [Customizing Reports.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)

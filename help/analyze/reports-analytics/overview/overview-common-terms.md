@@ -8,7 +8,7 @@ topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 ---
 
-# Common Terms{#common-terms}
+# Common Terms
 
 An introduction to commonly used Adobe Analytics terms used.
 
@@ -26,7 +26,7 @@ An introduction to commonly used Adobe Analytics terms used.
   </tr> 
   <tr> 
    <td> <p>Metric </p> </td> 
-   <td> <p>Quantitative information about activity on your website, such as Views, Click-throughs, Reloads, Average Time Spent, Date, Units, and so on. </p> <p>For more information, see <a  href="/help/analyze/reports-analytics/metrics.md"  > Metrics</a>. </p> </td> 
+   <td> <p>Quantitative information about activity on your website, such as Views, Click-throughs, Reloads, Average Time Spent, Date, Units, and so on. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Dimension </p> </td> 
@@ -34,7 +34,7 @@ An introduction to commonly used Adobe Analytics terms used.
   </tr> 
   <tr> 
    <td> <p> Report </p> </td> 
-   <td> <p>The basis of marketing report functionality. You can run online reports on all data collected. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"   > Report Types</a>. </p> </td> 
+   <td> <p>The basis of marketing report functionality. You can run online reports on all data collected. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Page View </p> </td> 

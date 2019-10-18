@@ -13,7 +13,7 @@ uuid: 845c1743-1264-4090-bccc-78830477f52e
 
 Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products.
 
-Analytics segmentation includes the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) to construct segments and run a pre-test, and the [Segment Manager](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md#section_7FDCD12949BE4741A402DB83AB7B37DF) to collect, tag, approve, set security, and share segments across your organization. 
+Analytics segmentation includes the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) to construct segments and run a pre-test, and the [Segment Manager](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) to collect, tag, approve, set security, and share segments across your organization. 
 
 ![](assets/seg__overview.png)
 

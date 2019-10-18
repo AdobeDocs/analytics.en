@@ -115,7 +115,7 @@ Now that segments work in multiple report suites, you might find that you have m
 
 **What happened to my existing segments?**
 
-Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly. [More...](/help/components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)
+Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly. [More...](/help/components/c-segmentation/seg-transition.md)
 
 Most former pre-defined and suite segments will be migrated over as segment templates into the Segment Builder. Segment templates are used to quickly build custom segments with common audiences. Segment templates can't be applied to a report directly, but they can be easily saved to a custom segment.
 

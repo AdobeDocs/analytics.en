@@ -31,7 +31,7 @@ Editing a Report Builder request after publishing it to Power BI may cause probl
   **Here is an example of how the visualization WILL break:**
 
     1. In Report Builder, create a workbook with one request, using the Page dimension and the Page Views metric. 
-    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) to be published to Power BI. 
+    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) to be published to Power BI. 
     1. In Power BI, create a visualization for Page and Page Views. 
     1. Now edit the workbook by removing Page Views from the request. 
     1. Edit the schedule with the updated workbook and re-publish the request to Power BI. 
@@ -44,7 +44,7 @@ Editing a Report Builder request after publishing it to Power BI may cause probl
   **Here is an example of how the visualization will NOT break:**
 
     1. In Report Builder, create a workbook with one request, using the Page dimension and the Page Views metric. 
-    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) to be published to Power BI. 
+    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) to be published to Power BI. 
     1. In Power BI, create a visualization for Page and Page Views. 
     1. Now edit the workbook in Report Builder, adding the Visit metric while keeping Page and Page Views. 
     1. Edit the schedule with the updated workbook and re-publish the request to Power BI. 

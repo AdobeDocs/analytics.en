@@ -18,9 +18,9 @@ Combining the report-generation capability of Report Builder with the visualizat
 
 The integration with Adobe Report Builder lets you
 
-* [Publish Scheduled Report Builder workbooks to Power BI](/help/analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687) 
-* [Publish all Formatted Tables in the Workbook as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A) 
-* [Publish all Report Builder Requests as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Publish Scheduled Report Builder workbooks to Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) 
+* [Publish all Formatted Tables in the Workbook as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publish all Report Builder Requests as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## System requirements {#section_0B71092D853446F38FA36447DAC0D32B}
 

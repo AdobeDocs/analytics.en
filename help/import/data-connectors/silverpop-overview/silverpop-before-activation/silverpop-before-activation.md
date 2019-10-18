@@ -17,7 +17,7 @@ Doing so will ensure the appropriate best practices or pre-requisites are in pla
 Review the following information about this Data Connectors integration as it relates to Adobe Analytics:
 
 * **Report Suite Specific:** Be advised this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration. 
-* **Available and configured Analytics variables:** This integration requires 5 custom events and 2 custom eVars, and optionally 3 additional events and 3 additional eVars. See [Analytics Integration Variables](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2). 
+* **Available and configured Analytics variables:** This integration requires 5 custom events and 2 custom eVars, and optionally 3 additional events and 3 additional eVars. See [Analytics Integration Variables](/help/import/data-connectors/silverpop-overview/silverpop-variables.md). 
 
 * **Authorized Representative:** Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above. 
 * **Data Warehouse™:** This integration requires the Data Warehouse to be enabled in order to generate remarketing segments. If you have not enabled the Data Warehouse, contact Adobe for details. 

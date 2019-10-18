@@ -22,4 +22,4 @@ This Data Connectors integration requires the following:
 
 * An active emarsys account
 
-For step-by-step integration instructions, see [Running the Data Connectors Integration Wizard](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a). 
+For step-by-step integration instructions, see [Running the Data Connectors Integration Wizard](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md) 

@@ -21,7 +21,7 @@ You can choose whether to create a project from:
 * [Create a custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
 * [Standard templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Create a custom template {#create-custom-template}
 
 Users with admin rights can turn any project they create into a custom template. Here's how: 
 

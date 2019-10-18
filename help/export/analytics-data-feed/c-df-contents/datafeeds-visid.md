@@ -19,7 +19,7 @@ Analytics provides several mechanisms by which visitors can be identified (liste
 1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See [Hit Source Lookup](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md) 
 1. Combine `post_visid_high` with `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-If you would like to determine which mechanism was used to determine the visitor ID value (for example, to calculate cookie acceptance), the `post_visid_type` contains a lookup key that indicates which ID method was used. The lookup keys are listed along with the visitor ID mechanisms in the [table below](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
+If you would like to determine which mechanism was used to determine the visitor ID value (for example, to calculate cookie acceptance), the `post_visid_type` contains a lookup key that indicates which ID method was used. The lookup keys are listed along with the visitor ID mechanisms in the [table below](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids).
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -31,7 +31,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 >
 > When using the Adobe Analytics visitor ID as a key for other systems, always use `post_visid_high` and `post_visid_low`. These fields are the only visitor ID fields guaranteed to have a value with every row in the data feed.
 
-## Analytics Visitor IDs {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## Analytics Visitor IDs {#aa-vids}
 
 There are several ways a visitor can be identified in Analytics (listed in the following table in order of preference): 
 

@@ -12,7 +12,7 @@ uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 
 Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
 
-## Segmentation workflow overview {#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF}
+## Segmentation workflow overview 
 
 Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
 

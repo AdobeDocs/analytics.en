@@ -81,7 +81,7 @@ about_classification_rules.xml
 
 When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)(variable) if:
 
-* The key is already classified and you do not select [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md#overwrite_classifications).
+* The key is already classified and you do not select [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md).
 
   You can overwrite classifications when [adding and activating](/help/components/c-classifications2/crb/classification-quickstart-rules.md) a rule, and when activating a data connectors integration. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].) 
 

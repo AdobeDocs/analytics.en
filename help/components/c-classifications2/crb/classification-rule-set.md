@@ -85,6 +85,6 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
    The report suite and variable list is populated with all classified variables available in all the report suites in your log-in company. A single variable in a report suite can belong to only one rule set.
 
-   See *`Variable`* in the definitions for the [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) page for more information. 
+   See *`Variable`* in the definitions for the [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) page for more information. 
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
 1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.

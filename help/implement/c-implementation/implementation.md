@@ -75,7 +75,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Use the Adobe Experience Cloud debugger to verify that data is being sent. </td> 
-   <td colname="col2"> <p>Install the <a href="/help/implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188"  > Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
+   <td colname="col2"> <p>Install the <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -91,10 +91,10 @@ Descriptions of elements on the Define User Group page.
      </ul> </p> </td> 
    <td colname="col2"> <p>Group members can access a subset of the reports in the report group. Click <span class="uicontrol"> Customize</span> to open a page where you can select the specific reports in the report group that group members can access. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics Tools</a>: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Report Suite Tools</a>: Enable user permissions for API Access, Report Suite Management, Tools and Reports, and Dashboard Items. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Metrics</a>: Enable permissions for traffic, conversion, custom events, solution events, content aware, and so on. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensions</a>: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"  > Analytics Tools</a>: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"  > Report Suite Tools</a>: Enable user permissions for API Access, Report Suite Management, Tools and Reports, and Dashboard Items. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"  > Metrics</a>: Enable permissions for traffic, conversion, custom events, solution events, content aware, and so on. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"  > Dimensions</a>: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Descriptions of elements on the Define User Group page.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Permissions are supported for customers who have active <span class="keyword"> TagManager</span> containers. Not available for new users. </p> <p>Adobe recommends <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external"> Dynamic Tag Management</a> for deployment. </p> </td> 
+   <td colname="col2"> <p>Permissions are supported for customers who have active <span class="keyword"> TagManager</span> containers. Not available for new users. </p> <p>Adobe recommends <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html"  > Dynamic Tag Management</a> for deployment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Assign User Logins</b> </td> 

@@ -30,7 +30,7 @@ These settings contain editing options for basic report suite functionality, suc
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
-   <td colname="col2"> <p>Specifies the report suite's main website. The Base URL does not affect referrer filtering. Use <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> internal URL filters</a> instead. </p> </td> 
+   <td colname="col2"> <p>Specifies the report suite's main website. The Base URL does not affect referrer filtering. Use <a href="/help/admin/admin/internal-url-filter-admin.md"> internal URL filters</a> instead. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Time Zone</span> </td> 
@@ -50,11 +50,11 @@ These settings contain editing options for basic report suite functionality, suc
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP Obfuscation</span> </td> 
-   <td colname="col2"> <p>Turns IP addresses into non-recognizable strings, essentially removing them from Adobe data stores. When IP Obfuscation is enabled, the original IP addresses are permanently lost. </p> <p>Note:  The IP addresses are obfuscated everywhere in Analytics, including Data Warehouse. However, the IP setting in Target is controlled separately, so this setting has no impact on Target. </p> <p>If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don'’t need to change anything when they enable IP obfuscation. </p> <p>Checking <span class="uicontrol"> Disabled</span> leaves the IP address in the data. </p> <p>Checking <span class="uicontrol"> Obfuscate IP address</span> changes the IP to a hashed value (e.g., 234abc6493872038). </p> <p>Checking <span class="uicontrol"> Remove IP address</span> replaces the IP address with x.x.x.x in the data, after geo-lookup. </p> <p>Note: This setting might require changes to custom <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> bot rules</a> or<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>Turns IP addresses into non-recognizable strings, essentially removing them from Adobe data stores. When IP Obfuscation is enabled, the original IP addresses are permanently lost. </p> <p>Note:  The IP addresses are obfuscated everywhere in Analytics, including Data Warehouse. However, the IP setting in Target is controlled separately, so this setting has no impact on Target. </p> <p>If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don'’t need to change anything when they enable IP obfuscation. </p> <p>Checking <span class="uicontrol"> Disabled</span> leaves the IP address in the data. </p> <p>Checking <span class="uicontrol"> Obfuscate IP address</span> changes the IP to a hashed value (e.g., 234abc6493872038). </p> <p>Checking <span class="uicontrol"> Remove IP address</span> replaces the IP address with x.x.x.x in the data, after geo-lookup. </p> <p>Note: This setting might require changes to custom <a href="/help/admin/admin/bot-removal/bot-rules.md"  > bot rules</a> or<a href="/help/admin/admin/exclude-ip.md"  > IP exclusions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transaction ID Storage</span> </td> 
-   <td colname="col2"> <p>Enables you to use <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external"> Transaction ID</a> data sources. </p> </td> 
+   <td colname="col2"> <p>Enables you to use <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html"  > Transaction ID</a> data sources. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Activate Ad Hoc Analysis</span> </td> 

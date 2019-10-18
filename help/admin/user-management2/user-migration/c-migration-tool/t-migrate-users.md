@@ -42,7 +42,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
   </tr> 
   <tr> 
    <td colname="col1"> <p>Legacy Login Disabled </p> </td> 
-   <td colname="col2"> <p>Legacy login using a company ID is disabled. Users will now access the Experience Cloud using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Legacy login using a company ID is disabled. Users will now access the Experience Cloud using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md"  > Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,11 +61,11 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Domains are specific to the email IDs of the current Analytics user base. A domain can be claimed only by a single organization, and only system administrators can claim a domain. For more information, see <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html" format="html" scope="external"> Request access to a claimed domain</a>. </p> </td> 
+   <td colname="col2"> <p>Domains are specific to the email IDs of the current Analytics user base. A domain can be claimed only by a single organization, and only system administrators can claim a domain. For more information, see <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html"  > Request access to a claimed domain</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domain Claimed </p> </td> 
-   <td colname="col2"> <p>If you want to migrate users as Enterprise or Federated IDs, you must be a System Administrator and claim an available domain via the Admin Console before migrating users. Learn more <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external"> here</a>. </p> <p>If you do not want to claim domains for Enterprise or Federated IDs, skip this step and migrate users as Adobe IDs. Learn more about ID types <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external"> here</a>. </p> </td> 
+   <td colname="col2"> <p>If you want to migrate users as Enterprise or Federated IDs, you must be a System Administrator and claim an available domain via the Admin Console before migrating users. Learn more <a href="https://helpx.adobe.com/enterprise/help/identity.html"  > here</a>. </p> <p>If you do not want to claim domains for Enterprise or Federated IDs, skip this step and migrate users as Adobe IDs. Learn more about ID types <a href="https://helpx.adobe.com/enterprise/help/identity.html"  > here</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

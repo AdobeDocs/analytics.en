@@ -42,7 +42,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom groups </p> </td> 
-   <td colname="col2"> <p> Custom groups have replaced predefined groups. Existing predefined groups will be migrated to custom groups, using the same group name. Any custom groups that you have created, including their settings, will be preserved. However, you will notice that the location of settings will have moved. For example, Company settings (in Customize Admin Console) are now in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Customize Analytics Tools</a>. </p> <p> Users belonging to <span class="term"> All Report Access</span> have been migrated to a custom group with access to: </p> 
+   <td colname="col2"> <p> Custom groups have replaced predefined groups. Existing predefined groups will be migrated to custom groups, using the same group name. Any custom groups that you have created, including their settings, will be preserved. However, you will notice that the location of settings will have moved. For example, Company settings (in Customize Admin Console) are now in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"  > Customize Analytics Tools</a>. </p> <p> Users belonging to <span class="term"> All Report Access</span> have been migrated to a custom group with access to: </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">All Dimensions </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">All Metrics </li> 
@@ -58,12 +58,12 @@ For example, you can create a group with access to multiple Analytics tools ( [!
    <td colname="col2"> <p>You can customize permissions to include or exclude access to dimensions (in addition to metrics). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external"> variable</a> on which the classification is based. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"  > variable</a> on which the classification is based. </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"  > Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> Analytics User Migration to the Admin Console</a>. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"  > Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"  > provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"  > Analytics User Migration to the Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Content Aware </p> </td> 

@@ -1,18 +1,18 @@
 ---
-description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
-seo-description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
-seo-title: Configure Activity Map settings
+description: The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+seo-description: The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+seo-title: Configure [!DNL Activity Map] settings
 solution: Analytics
-title: Configure Activity Map settings
+title: Configure [!DNL Activity Map] settings
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 ---
 
-# Configure Activity Map settings
+# Configure [!DNL Activity Map] settings
 
-The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
 
-Access the Activity Map Settings panel accessed by clicking the gear icon on the Activity Map toolbar.
+Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
 
 The Settings panel displays different content based on the selected application mode. The Other tab contains general settings. 
 
@@ -93,7 +93,7 @@ The Settings panel displays different content based on the selected application 
  <tbody> 
   <tr> 
    <td colname="col1"> Report Suite </td> 
-   <td colname="col2"> <p>The list of report suites that are accessible to you is no longer limited to the report suites defined in the web page tag. You can now substitute the selected report suite (corresponding to one of the tags on the page) with another report suite. This new report suite does not need to be linked to a tag on the page. If you change the selected report suite in the Activity Map Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Important: Virtual Report Suites are not compatible with Live Mode, only with Standard mode. If you are in Live Mode for a Standard Report Suite, but select a Virtual Report Suite in this dialog, once you click <span class="uicontrol"> OK</span> here, the Standard Mode will be displayed. </p> </p> <p>In addition, the Calendar control will be reinitialized to match the report suite's calendar type (Gregorian, retail, custom...). </p> </td> 
+   <td colname="col2"> <p>The list of report suites that are accessible to you is no longer limited to the report suites defined in the web page tag. You can now substitute the selected report suite (corresponding to one of the tags on the page) with another report suite. This new report suite does not need to be linked to a tag on the page. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Important: Virtual Report Suites are not compatible with Live Mode, only with Standard mode. If you are in Live Mode for a Standard Report Suite, but select a Virtual Report Suite in this dialog, once you click <span class="uicontrol"> OK</span> here, the Standard Mode will be displayed. </p> </p> <p>In addition, the Calendar control will be reinitialized to match the report suite's calendar type (Gregorian, retail, custom...). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Language </td> 

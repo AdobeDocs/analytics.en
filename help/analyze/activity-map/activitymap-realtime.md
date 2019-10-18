@@ -12,7 +12,7 @@ uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 
 Real-time page analytics (Live Mode) lets you obtain results with minute granularity in real time.
 
-Activity Map now displays analytical data in 1 to 15 minute increments to monitor link popularity based on micro-trends for selected pages. This is especially important for publishing enterprises in tracking and responding to increasing or diminishing interest in stories and to monitor real-time traffic flow.
+[!DNL Activity Map] now displays analytical data in 1 to 15 minute increments to monitor link popularity based on micro-trends for selected pages. This is especially important for publishing enterprises in tracking and responding to increasing or diminishing interest in stories and to monitor real-time traffic flow.
 
 As a site content owner, part of your job is to understand when to promote and remove content and keep our experience constantly relevant. Real-time data is the lifeblood of this responsibility. If you can understand what links and content are trending right now, you can act quickly and decisively to keep readers and customers engaged with your brand.
 

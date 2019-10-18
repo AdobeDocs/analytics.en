@@ -38,15 +38,15 @@ Because the API and interface use the same permissioning system, whatever permis
    <td colname="col1"> <p id="reportaccess">Changes to the <span class="uicontrol"> Report Access</span> (Customize Groups) </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Add New Group</span> &gt; <span class="uicontrol"> Report Access</span> </p> <p>The <span class="wintitle"> Report Access</span> section on the <span class="wintitle"> Define User Group</span> page has been streamlined to four categories, which enable you to customize permissions at a granular level. </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>Items previously in </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"  > Analytics Tools</a>: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. </p> <p> <b>Note:</b> Company settings from the Customize Admin Console category have been moved to Analytics Tools. </p> </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"  > Report Suite Tools</a>: Enable user permissions for Web Services, Report Suite Management, Tools and Reports, and Dashboard Items. </p> </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"  > Metrics</a>: Enable permissions for traffic, conversion, custom events, solution events, content aware, and so on. </p> </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"  > Dimensions</a>: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports. </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics Tools</a>: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration. </p> <p> <b>Note:</b> Company settings from the Customize Admin Console category have been moved to Analytics Tools. </p> </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Report Suite Tools</a>: Enable user permissions for Web Services, Report Suite Management, Tools and Reports, and Dashboard Items. </p> </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metrics</a>: Enable permissions for traffic, conversion, custom events, solution events, content aware, and so on. </p> </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensions</a>: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports. </p> </li> 
     </ul> <p>For example, you can create a group with access to multiple Analytics tools (<span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Reports &amp; Analytics</span>, and <span class="wintitle"> Report Builder</span>), with permission to specific metrics and dimensions (including eVars), and capabilities like segment or calculated metrics creation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Changes to Predefined Groups </p> </td> 
-   <td colname="col2"> <p> <b>Administrator access:</b> Predefined groups are no longer required for administrators. Administrators now have access to all items (tools, metrics, dimensions), as well as Web Service access, Report Builder, Activity Map, and Ad Hoc Analysis. </p> <p>Going forward, the purpose of groups is to grant or restrict access to non-administrative users. </p> <p> <b>Custom groups:</b> Custom groups have replaced predefined groups. Existing predefined groups will be migrated to custom groups, using the same group name. Any custom groups that you have created, including their settings, will be preserved. However, you will notice that the location of settings will have moved. For example, Company settings (in Customize Admin Console) are now in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"  > Customize Analytics Tools</a>. </p> <p> Users belonging to <span class="term"> All Report Access</span> have been migrated to a custom group with access to: </p> 
+   <td colname="col2"> <p> <b>Administrator access:</b> Predefined groups are no longer required for administrators. Administrators now have access to all items (tools, metrics, dimensions), as well as Web Service access, Report Builder, Activity Map, and Ad Hoc Analysis. </p> <p>Going forward, the purpose of groups is to grant or restrict access to non-administrative users. </p> <p> <b>Custom groups:</b> Custom groups have replaced predefined groups. Existing predefined groups will be migrated to custom groups, using the same group name. Any custom groups that you have created, including their settings, will be preserved. However, you will notice that the location of settings will have moved. For example, Company settings (in Customize Admin Console) are now in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Customize Analytics Tools</a>. </p> <p> Users belonging to <span class="term"> All Report Access</span> have been migrated to a custom group with access to: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">All Dimensions </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">All Metrics </li> 
@@ -55,19 +55,19 @@ Because the API and interface use the same permissioning system, whatever permis
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Anomaly Detection Report Permission </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Real-Time Report Permission </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace Access Permission </li> 
-    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="/help/admin/user-management2/c-user-groups/groups.md"  > Define User Groups</a>. </p> </td> 
+    </ul> <p>Administrators can delete custom groups and create their own, as all settings that were previously available in predefined groups are available for customization under the <span class="wintitle"> Report Access</span> settings in <a href="/help/admin/user-management2/c-user-groups/groups.md"> Define User Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension-Level Permissions </p> </td> 
    <td colname="col2"> <p>You can customize permissions to include or exclude access to dimensions (in addition to metrics). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"  > variable</a> on which the classification is based. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"  > Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"> variable</a> on which the classification is based. </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"  > provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"  > Manage product permissions in the Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Recommended only for new customers or customers with companies <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"> provisioned in the Experience Cloud</a>. A migration for existing <span class="keyword"> Analytics</span> customers to the <span class="keyword"> Experience Cloud</span> identity management system is planned. </p> <p>More information is available in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> Manage product permissions in the Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ Here is important new information about new and planned updates and how they aff
    <td colname="col1"> <p>What Permissions changes were made in the <b>October 2016</b> release? </p> </td> 
    <td colname="col2"> <p>The following enhancements to the current <span class="wintitle"> Admin Tools</span> interface are available: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Permission changes as described in <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"  > Administrative Changes - Fall 2016</a>. </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Permission changes as described in <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> Administrative Changes - Fall 2016</a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Removed defunct traffic reports that were no longer in the menu. </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">Classifications permissions: Access to classifications will be determined by access to the variable the classification is for. </li> 
      </ul> </p> </td> 
@@ -140,15 +140,15 @@ The following table lists tasks and where they can take place (depending on a co
  <tbody> 
   <tr> 
    <td colname="col1"> Create a user </td> 
-   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"  > product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"  > Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"  > Admin Console</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"  > Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Admin Tools</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit a user </td> 
-   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"  > Admin Tools</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"  > Admin Console</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"  > Admin Console</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Admin Tools</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Admin Tools - Editing in the Admin Tools for migrated users is limited to API-key management, and deleting / transferring assets. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Admin Tools - Editing is limited to API-key management, and deleting /transferring assets. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Delete a user </td> 
@@ -165,8 +165,8 @@ The following table lists tasks and where they can take place (depending on a co
   <tr> 
    <td colname="col1"> Create a group </td> 
    <td colname="col2"> <p>Admin Console - When a group is created in Admin Console, a mapped group in Analytics will appear in the Admin Tools, but this mapped group cannot have its name changed from Admin Tools, or be deleted from Admin Tools. </p> <p>Admin Tools. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"  > create product configuration</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"  > create product configuration</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> create product configuration</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> create product configuration</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit users in a group </td> 

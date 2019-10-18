@@ -29,11 +29,11 @@ Manage Analytics users, groups, and products in the Admin Console.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Migrate Analytics user IDs to the Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe is assisting Analytics administrators to migrate user IDs to the Adobe Admin Console. This effort will occur in waves. When it is your turn to migrate your users, Adobe will notify Analytics administrators via email with instructions. At that time, a <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html"  > migration tool</a> will be available in Analytics User Management to simplify this task. </p> <p>Important: On the day of your users' migration, your former permission groups are automatically copied to the Admin Console. You will no longer be able to invite new users or create new groups in Analytics Admin Tools. Review the FAQ and help in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"  > Analytics User Migration to the Admin Console</a> for information about how to prepare for the migration and about administrative features that are affected. </p> </td> 
+   <td colname="col2"> <p> Adobe is assisting Analytics administrators to migrate user IDs to the Adobe Admin Console. This effort will occur in waves. When it is your turn to migrate your users, Adobe will notify Analytics administrators via email with instructions. At that time, a <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html"> migration tool</a> will be available in Analytics User Management to simplify this task. </p> <p>Important: On the day of your users' migration, your former permission groups are automatically copied to the Admin Console. You will no longer be able to invite new users or create new groups in Analytics Admin Tools. Review the FAQ and help in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics User Migration to the Admin Console</a> for information about how to prepare for the migration and about administrative features that are affected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Launch the Admin Console </p> </td> 
-   <td colname="col2"> <p>After your user accounts are migrated, you can manage users and products across all solutions in the Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"  > https://adminconsole.adobe.com/enterprise/</a>. </p> <p>For help, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"  > Manage Experience Cloud users and products</a> for updates to Experience Cloud user and product management in the Admin Console. </p> </td> 
+   <td colname="col2"> <p>After your user accounts are migrated, you can manage users and products across all solutions in the Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>For help, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> Manage Experience Cloud users and products</a> for updates to Experience Cloud user and product management in the Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Add New User</span> </td> 
-   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"  > Users</a>. </p> </td> 
+   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Download Report</span> </td> 
@@ -72,7 +72,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Login</span> </td> 
-   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"  > Users</a>. </p> </td> 
+   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> First Name</span> </td> 
@@ -108,7 +108,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
-   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"  > Users</a>. </p> </td> 
+   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
@@ -116,7 +116,7 @@ The following table describes elements on the [!UICONTROL Users] tab in [!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transfer</span> </td> 
-   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"  > Transfer user account privileges</a>. </p> </td> 
+   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Transfer user account privileges</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Login as this user</span> </td> 

@@ -54,19 +54,19 @@ The following items are dimensions that you can permission.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"  > eVars </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVars </a> </p> </td> 
    <td colname="col2"> <p>eVars 1-250 are individually permissioned. eVars are custom conversion variables that you use to segment conversion success metrics in custom reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"  > Props </a> </p> </td> 
-   <td colname="col2"> <p>Props are custom traffic variables. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"  > Traffic props and conversion eVars </a> in Analytics Implementation. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Props </a> </p> </td> 
+   <td colname="col2"> <p>Props are custom traffic variables. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Traffic props and conversion eVars </a> in Analytics Implementation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"  > Hierarchy </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Hierarchy </a> </p> </td> 
    <td colname="col2"> <p> The hierarchy (hierN) variable determines the location of a page in your site's hierarchy or page structure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"  > Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Similar to how List Props function, list variables allow multiple values within the same image request. </p> </td> 
   </tr> 
   <tr> 
@@ -74,19 +74,19 @@ The following items are dimensions that you can permission.
    <td colname="col2"> <p>Refers to standard (out-of-the-box) dimensions in Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"  > AEM </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
    <td colname="col2"> <p>Adobe Experience Manager </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"  > AMO </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"> AMO </a> </p> </td> 
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"  > Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Activity Map reporting dimensions: Activity Map Page; Activity Map Link; Activity Map Region; Activity Map Link By Region; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/"  > Mobile </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/"> Mobile </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -94,8 +94,8 @@ The following items are dimensions that you can permission.
    <td colname="col2"> <p>This Partner integration is no longer active. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html"  > Nielsen </a> </p> </td> 
-   <td colname="col2"> <p>Partner integrations. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html"> Nielsen </a> </p> </td> 
+   <td colname="col2"> <p>This Partner integration is no longer active. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Social </p> </td> 

@@ -24,28 +24,28 @@ Welcome to Adobe Analytics and Data Privacy readiness! This workflow outlines th
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step2_icon.png" id="image_372B2C65DFAD46E39AE4D715313ABD0E"/> Set your data retention policy. </p> </td> 
-   <td colname="col3"> <p>A data retention policy needs to be in place in order for Adobe to service Data Privacy data access/delete requests. </p> <p>For more information, see this <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html"  > Analytics Data Retention FAQ</a>. </p> </td> 
+   <td colname="col3"> <p>A data retention policy needs to be in place in order for Adobe to service Data Privacy data access/delete requests. </p> <p>For more information, see this <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html"> Analytics Data Retention FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step3_icon.png" id="image_30DB956290CC4E64A7085B46364BE059" /> Familiarize yourself with DULE/Data Privacy labels, Adobe Analytics IDs, namespaces, and ID expansion. </p> </td> 
    <td colname="col3"> <p> Read these topics in this documentation set: 
      <ul id="ul_F6E94B9281D446DB8F1F859F6056543B"> 
-      <li id="li_6389D094B4B04CA181E5F077BF8C0F8E"><!--<a href="/help/admin/c-data-governance/gdpr-labels.md"  > Data Privacy Labels for Analytics Variables</a>--> </li> 
+      <li id="li_6389D094B4B04CA181E5F077BF8C0F8E"><!--<a href="/help/admin/c-data-governance/gdpr-labels.md"> Data Privacy Labels for Analytics Variables</a>--> </li> 
       <li id="li_CEEF2106E37845A49E0EA1225D5CFF14">List Item </li> 
-      <li id="li_0B79CEBD074A4C68923EE9C9766D4B9D"><!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md"  > Labeling Best Practices</a>--> </li> 
+      <li id="li_0B79CEBD074A4C68923EE9C9766D4B9D"><!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md"> Labeling Best Practices</a>--> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img  src="assets/step4_icon.png" id="image_FE2039B8345248BCA303B44C10B68EA1" placement="break" /> Assign identity, sensitivity, and data governance labels to each variable in a report suite. </p> <p>Note:  Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels. </p> </td> 
-   <td colname="col3"> <p> Follow the instructions in <!--<a href="/help/admin/c-data-governance/gdpr-setup-reportsuite.md"  > Label Report Suite Data</a>-->. </p> </td> 
+   <td colname="col3"> <p> Follow the instructions in <!--<a href="/help/admin/c-data-governance/gdpr-setup-reportsuite.md"> Label Report Suite Data</a>-->. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" /> Connect to the Adobe Data Privacy API and submit Access and Delete Requests. </p> </td> 
-   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"  > Adobe Experience Cloud Data Privacy API</a>. </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md"  > Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
+   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Adobe Experience Cloud Data Privacy API</a>. </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md"> Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> View and manage your report suite's Data Privacy settings. </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <!--<a href="/help/admin/c-data-governance/gdpr-view-settings.md"  > View Report Suite's Data Governance Settings</a>-->. </p> </td> 
+   <td colname="col3"> <p>Follow the instructions in <!--<a href="/help/admin/c-data-governance/gdpr-view-settings.md"> View Report Suite's Data Governance Settings</a>-->. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -49,13 +49,13 @@ Here is a short primer on essential terminology for Server Call Usage:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Login Company </p> </td> 
-   <td colname="col2"> <p>One billing company can have <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html"  > multiple login companies </a>. A login company is a collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of the organization. This is especially useful for large organizations that deal with different business units where many report suites are not applicable to others in the company. </p> <p>Often, these are the regional subsidiaries of a company. This example shows login companies and their associated report suites: </p> 
+   <td colname="col2"> <p>One billing company can have <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html"> multiple login companies </a>. A login company is a collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of the organization. This is especially useful for large organizations that deal with different business units where many report suites are not applicable to others in the company. </p> <p>Often, these are the regional subsidiaries of a company. This example shows login companies and their associated report suites: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"  > permission</a>. </p> </td> 
+    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"> permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud organization </p> </td> 

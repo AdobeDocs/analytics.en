@@ -48,7 +48,7 @@ Descriptions of the elements used when [creating a report suite](/help/admin/c-m
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live Date </p> </td> 
-   <td colname="col2">Informs Adobe of the date that you expect this report suite to become active. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"  > Traffic Management</a>. </td> 
+   <td colname="col2">Informs Adobe of the date that you expect this report suite to become active. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Estimated Page Views Per Day</span> </td> 

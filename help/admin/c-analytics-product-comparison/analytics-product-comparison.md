@@ -11,7 +11,7 @@ uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 
 System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
 
-For information on which Adobe Analytics product to use, go [here](../../admin/c-analytics-product-comparison/which-analytics-tool.md#concept_E7D62115EB5B49959887B338F20CBC1A). 
+For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md). 
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 

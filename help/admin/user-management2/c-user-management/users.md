@@ -78,7 +78,7 @@ Creates a default dashboard for a specified report suite.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> User</span> </td> 
-   <td colname="col2"> <p> Grants the user only the selected group permissions. Select the desired groups in the <span class="uicontrol"> Available Groups</span> field (on the left), then click <span class="uicontrol"> Add</span>. The assigned groups appear in the <span class="uicontrol"> Assigned Groups</span> field (on the right). For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Grants the user only the selected group permissions. Select the desired groups in the <span class="uicontrol"> Available Groups</span> field (on the left), then click <span class="uicontrol"> Add</span>. The assigned groups appear in the <span class="uicontrol"> Assigned Groups</span> field (on the right). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

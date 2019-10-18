@@ -1,6 +1,6 @@
 ---
-description: Frequently asked questions about link tracking in Activity Map.
-seo-description: Frequently asked questions about link tracking in Activity Map.
+description: Frequently asked questions about link tracking in [!DNL Activity Map].
+seo-description: Frequently asked questions about link tracking in [!DNL Activity Map].
 seo-title: Link tracking FAQ
 solution: Analytics
 title: Link tracking FAQ
@@ -10,13 +10,13 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 
 # Link tracking FAQ
 
-Frequently asked questions about link tracking in Activity Map.
+Frequently asked questions about link tracking in [!DNL Activity Map].
 
 >[!CAUTION]
 >
->By turning on Activity Map tracking, **you may be** **collecting personally identifiable information (PII) data.** This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
+>By turning on [!DNL Activity Map] tracking, **you may be** **collecting personally identifiable information (PII) data.** This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
 
-Here are some known cases where PII data might be collected using Activity Map Tracking: 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking: 
 
 * `Mailto` links. A mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail. 
 * `User ID` links that may show up in the header/footer of a website once the user has logged in. 
@@ -27,7 +27,7 @@ Here are some known cases where PII data might be collected using Activity Map T
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Q: When does link tracking occur?</b> <p> </p> </td> 
-   <td colname="col2"> A: Activity Map link and region identification occurs when users click on a page. </td> 
+   <td colname="col2"> A: [!DNL Activity Map] link and region identification occurs when users click on a page. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Q: What is tracked by default?</b> <p> </p> </td> 
@@ -38,20 +38,20 @@ Here are some known cases where PII data might be collected using Activity Map T
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Is this an INPUT tag or SUBMIT button with a value or child text? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Is this an INPUT tag with type IMAGE and a src property? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Is this a &lt;Button&gt;? </li> 
-    </ul> <p>If the answer is <b>Yes</b> to any of the questions above, then the element is treated as a link and will be tracked. </p> <p>Important:  Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing "type='button'" on the button tags and adding role="button" or submit="button" instead. </p> <p>Important: An anchor tags with an href that starts with "#" is considered an internal target location by AppMeasurement, not a link (since you do not leave the page.) By default, Activity Map does not track these internal target locations. It tracks only links that navigate the user to a new page.</p></td> 
+    </ul> <p>If the answer is <b>Yes</b> to any of the questions above, then the element is treated as a link and will be tracked. </p> <p>Important:  Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing "type='button'" on the button tags and adding role="button" or submit="button" instead. </p> <p>Important: An anchor tags with an href that starts with "#" is considered an internal target location by AppMeasurement, not a link (since you do not leave the page.) By default, [!DNL Activity Map] does not track these internal target locations. It tracks only links that navigate the user to a new page.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Q: How does Activity Map track other visual HTML elements?</b> </td> 
+   <td colname="col1"> <b>Q: How does [!DNL Activity Map] track other visual HTML elements?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <code> s.tl() </code> function</b> <p>If the click occurred via an s.tl invocation, then Activity Map will also receive this click event and determine if a linkName string variable was found. During s.tl execution, that linkName will be set as the Activity Map Link ID. The element clicked that originated the s.tl() call will be used to determine the region. Example: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <code> s.tl() </code> function</b> <p>If the click occurred via an s.tl invocation, then [!DNL Activity Map] will also receive this click event and determine if a linkName string variable was found. During s.tl execution, that linkName will be set as the [!DNL Activity Map] Link ID. The element clicked that originated the s.tl() call will be used to determine the region. Example: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via the <code> s_objectID </code> variable</b> <p>Example: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>Important:  Note that a trailing semicolon (;) is required when using s_objectID in Activity Map. </p> </li> 
+       </code> </p> <p>Important:  Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map]. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 

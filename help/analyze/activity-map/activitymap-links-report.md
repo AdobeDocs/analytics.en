@@ -12,9 +12,9 @@ uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 
 The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
 
-The Links On Page report offers a tabular view of the links. Sometimes you might want to see link clicks (or other metrics) ranked in a single view. This allows you to better compare one link to another. Create the Links On Page Report including a ranked list of all the links the page (by link ID), the click information (# and %) and the region in the page. Click the Links in Page report button in the Activity Map toolbar.
+The Links On Page report offers a tabular view of the links. Sometimes you might want to see link clicks (or other metrics) ranked in a single view. This allows you to better compare one link to another. Create the Links On Page Report including a ranked list of all the links the page (by link ID), the click information (# and %) and the region in the page. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-The **[!UICONTROL Links On Page]** report opens below the browser frame in the Activity Map dashboard.
+The **[!UICONTROL Links On Page]** report opens below the browser frame in the [!DNL Activity Map] dashboard.
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -59,7 +59,7 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
 
 **Filter Data**
 
-When you want to zero in on a specific link, you can search for a related term in the **[!UICONTROL Filter Data]** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+When you want to zero in on a specific link, you can search for a related term in the **[!UICONTROL Filter Data]** field. Only the links that match the search will have overlays. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 

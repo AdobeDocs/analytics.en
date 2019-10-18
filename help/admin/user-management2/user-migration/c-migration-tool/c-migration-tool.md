@@ -19,14 +19,16 @@ What you need to know about the Analytics user ID migration to the Admin Console
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
+<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
 On this page:
 
-* [What is the user ID migration?](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
-* [What to know before migrating user IDs (FAQ)](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
-* [What to know during the migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
-* [What to know after the migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
-* [Unsupported Analytics features in the Admin Console](../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
-* [How to notify your users about the migration](../c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
+* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
+* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
+* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
+* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
+* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+-->
 
 For general help on Admin Console topics (not related to the Analytics migration), see [Admin Console User Guide](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
@@ -117,7 +119,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>How do I migrate user IDs? </p> </td> 
-   <td colname="col2"> <p> Click <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> Migrate User IDs</a> on the Admin page, under User Management. Use the tool to add users to product profiles in the Admin Console (replicated from permission groups in Analytics). You can migrate user IDs at your own pace. </p> <p>Administration privileges are required. Once the migration is complete, it cannot be reversed. </p> <p>On the end date of the migration, <span class="filepath"> my.omniture.com</span> access will be disabled for users within their login company. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>Note:  Adobe recommends taking the opportunity to perform an audit of your users and groups before migrating. Delete old and unused accounts, or accounts that should no longer have access to the product (such as employees no longer with the organization). </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> Click <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> Migrate User IDs</a> on the Admin page, under User Management. Use the tool to add users to product profiles in the Admin Console (replicated from permission groups in Analytics). You can migrate user IDs at your own pace. </p> <p>Administration privileges are required. Once the migration is complete, it cannot be reversed. </p> <p>On the end date of the migration, <span class="filepath"> my.omniture.com</span> access will be disabled for users within their login company. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>Note:  Adobe recommends taking the opportunity to perform an audit of your users and groups before migrating. Delete old and unused accounts, or accounts that should no longer have access to the product (such as employees no longer with the organization). </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Will the migration affect my Analytics implementation or how data is collected? </p> </td> 
@@ -231,7 +233,7 @@ Important information about the migration process and how it impacts current use
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">Asset transfer </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">User expiration </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">User logs </li> 
-    </ul> <p>These will remain available to you in Analytics user management. </p> <p>See <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local"> Unsupported Analytics features in the Admin Console</a> for more information. </p> </td> 
+    </ul> <p>These will remain available to you in Analytics user management. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local"> Unsupported Analytics features in the Admin Console</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>We created several configurations in the Admin Console and mapped them to Analytics permission groups. What will happen to those configurations when the migration begins? </p> </td> 

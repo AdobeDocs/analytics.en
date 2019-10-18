@@ -10,7 +10,7 @@ uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 
 This help page contains recommended use cases for each Adobe Analytics tool. Tools should be considered in the order they are listed. If a certain tool does not meet the need, move to the next one for consideration.
 
-For more on Adobe Analytics Product Comparisons, go [here](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D).
+For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 

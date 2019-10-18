@@ -25,7 +25,7 @@ The Current Usage dashboard
 
   >[!NOTE]
   >
-  >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](../../admin/c-server-call-usage/report-suite-usage.md#concept_E50FA5BD93404EB8B2FE954F658FDAFD) tab and download the usage data for a previous period.
+  >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
 
 * Lists the percentage of calls used (in percentages and raw data), and the percentage of the usage period spent (in percentages and raw data). 
 * By default, is updated daily, with a 5-day processing latency. 
@@ -35,7 +35,7 @@ The Current Usage dashboard
 
 |  UI Term  | Definition  |
 |---|---|
-|  Current Period Usage (green)  |The current period is based on the [usage period](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D).  |
+|  Current Period Usage (green)  |The current period is based on the [usage period](/help/admin/c-server-call-usage/overage-overview.md).  |
 |  Previous Period Usage (blue)  | The previous period is defined as the current usage period minus 1 year.  |
 |  Usage Limit (red)  | Your contractual usage limit for this usage period.  |
 

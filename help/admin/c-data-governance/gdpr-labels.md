@@ -24,7 +24,7 @@ The Adobe Analytics Data Privacy implementation supports the following labels fo
 >
 >The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to Data Privacy. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
 
-## Identity Data Labels (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## Identity Data Labels (DULE) {#identity-data-labels}
 
 Identity data "I" labels are used to categorize data that can identify or contact a specific person. 
 
@@ -58,7 +58,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
  </tbody> 
 </table>
 
-## Sensitive Data Labels (DULE) {#section_533E1406F3F24A01B51D94139B94CAEC}
+## Sensitive Data Labels (DULE) {#sensitive-data-labels}
 
 Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information. 
 
@@ -431,7 +431,7 @@ This section intends to clarify information about Analytics variables that don't
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> These have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. </p> </td> 
+   <td colname="col2"> <p> These have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 

@@ -12,7 +12,7 @@ uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 
 The Permanent Traffic sections lets you change expected traffic levels so Adobe can reassign resources to handle the new traffic level.
 
-Please read the information about [Required Lead Time for Traffic Increases](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) before you specify a permanent traffic increase. 
+Please read the information about [Required Lead Time for Traffic Increases](/help/admin/c-traffic-management/traffic-lead-time.md) before you specify a permanent traffic increase. 
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

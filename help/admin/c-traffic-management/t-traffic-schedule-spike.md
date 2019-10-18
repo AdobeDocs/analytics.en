@@ -12,7 +12,7 @@ uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 
 The Schedule Spike section lets you alert Adobe of temporary traffic spikes so that appropriate resources can be allocated to handle them.
 
-Please read the information about [Required Lead Time for Traffic Increases](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) before you schedule a traffic spike. 
+Please read the information about [Required Lead Time for Traffic Increases](/help/admin/c-traffic-management/traffic-lead-time.md) before you schedule a traffic spike. 
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

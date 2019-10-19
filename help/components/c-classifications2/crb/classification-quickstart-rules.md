@@ -36,7 +36,7 @@ You can set up three rules in a rule set that identify the parts of the string, 
 | Ends With  | Sale  | Type  | Sale  |
 | Contains  | 2013  | Year  | 2013  |
 
-## How Rules Are Processed {#concept_A67A23F523844D37898583C632DB9D25}
+## How Rules Are Processed {#how-rules-are-processed}
 
 Important information about how classification rules are processed.
 
@@ -54,7 +54,7 @@ about_classification_rules.xml
 >
 >The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
 
-## Important Information about Rules {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
+## Important Information about Rules 
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools]. 
 
@@ -73,7 +73,7 @@ about_classification_rules.xml
 
 * **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) If necessary, you can delete or remove existing classifications, using the importer.
 
-## When Do Rules Not Classify Keys? {#section_4481E88CA28246B6B19EA16E2D83A3A8}
+## When Do Rules Not Classify Keys? 
 
 When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)(variable) if:
 
@@ -90,7 +90,7 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
 ![](assets/overwrite_keys.png)
 
-## Regular Expressions in Classification Rules {#regex-in-classification-fules}}
+## Regular Expressions in Classification Rules {#regex-in-classification-rules}}
 
 Use regular expressions to match consistently formatted string values with a classification. For example, you can create a classification from specific characters in a tracking code. You can match particular characters, words, or patterns of characters.
 
@@ -264,7 +264,7 @@ In this result, `a:b:1313` does not indicate a match.
 
 A good resource for testing regular expression validity is https://rubular.com/. 
 
-## About Rule Priority {#concept_93527FEB3C9B48FB96FB7DF857E5F980}
+## About Rule Priority 
 
 If a key is matched to multiple rules, and it sets the same classification column shown in the [!UICONTROL Set Classification] column, the last rule is used. As such, you might want to rank the most important last in your rule set.
 
@@ -295,7 +295,7 @@ Similarly, suppose you set up two rules in a set for the following search terms:
 
 A user searches for *`Cowboys vs. Broncos`*. If the rule builder finds a conflict in rule matching, the classification for the second rule (Denver) applies to this search. 
 
-## Add a Classification Rule to a Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## Add a Classification Rule to a Rule Set {#add-classification-to-rule-set}
 
 <!-- 
 
@@ -353,7 +353,7 @@ Add rules by matching a condition to a classification, and specifying the action
 
    Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page. 
 
-## Test a Classification Rule Set {#task_618A1E7CC8664E728F312250E8367158}
+## Test a Classification Rule Set 
 
 <!-- 
 
@@ -385,7 +385,7 @@ Steps that describe how to test a classification rule or rule set. Running a tes
 
    See for more information about using rules to overwrite existing classifications. 
 
-## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
+## Validate and Activate Classification Rules 
 
 <!-- 
 

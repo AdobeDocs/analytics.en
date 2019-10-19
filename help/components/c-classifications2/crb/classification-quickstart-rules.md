@@ -90,7 +90,7 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
 ![](assets/overwrite_keys.png)
 
-## Regular Expressions in Classification Rules {#regex-in-classification-rules}}
+## Regular Expressions in Classification Rules {#regex-in-classification-rules}
 
 Use regular expressions to match consistently formatted string values with a classification. For example, you can create a classification from specific characters in a tracking code. You can match particular characters, words, or patterns of characters.
 

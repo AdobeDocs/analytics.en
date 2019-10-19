@@ -58,7 +58,7 @@ This page displays the rules in a rule set.
    <td colname="col2"> <p>When you activate and validate rules, you can specify whether the rules should overwrite existing classifications for affected keys. (Only classified keys that have been previously passed into <span class="keyword"> Adobe Analytics</span> within the time period you specify are affected.) </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) Existing classifications are never overwritten unless you enable this option. </p> <p><b>Dev Center</b>: Partners can create classification rules in the <span class="wintitle"> Dev Center</span>. These rules are deployed when the customer activates an integration. In the <span class="wintitle"> Dev Center</span>, the <span class="uicontrol"> Overwrite Since</span> option lets the partner specify whether the customer can determine the overwrite value when activating or editing an integration. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md" format="dita" scope="local"> How Rules Are Processed</a> for more information about rule processing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Add Rule </a> </td> 
+   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md" format="dita" scope="local"> Add Rule </a> </td> 
    <td colname="col2"> <p>Lets you add rules to the rule set. </p> <p>Note:  If a value is matched twice or more in a set of rules, the system uses the last rule to classify the value. </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ This page displays the rules in a rule set.
    <td colname="col2"> Duplicates (copies) a rule set, so that you can apply the rule set to another variable, or to the same variable in a different report suite. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158" format="dita" scope="local"> Test Rule Set </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md" format="dita" scope="local"> Test Rule Set </a> </p> </td> 
    <td colname="col2"> <p>Lets you test the validity of a rule set. </p> </td> 
   </tr> 
   <tr> 

@@ -71,7 +71,7 @@ about_classification_rules.xml
 
   Active rules process every four hours, examining classification data going back typically one month. The rules automatically check for new values and upload the classifications using the importer. 
 
-* **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) If necessary, you can delete or remove existing classifications, using the importer.
+* **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-quickstart-rules.md) If necessary, you can delete or remove existing classifications, using the importer.
 
 ## When Do Rules Not Classify Keys? 
 

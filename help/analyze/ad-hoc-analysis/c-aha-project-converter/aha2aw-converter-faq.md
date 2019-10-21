@@ -10,8 +10,8 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 
 ## Project Converter FAQ {#topic_8231595303AD403E9322645A63632D57}
 
-* [Known Conversion Issues](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361) 
-* [Conversion FAQ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [Known Conversion Issues](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361) 
+* [Conversion FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
 ## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
 

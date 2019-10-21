@@ -15,7 +15,7 @@ This topic provides answers to common questions.
 
 ## How can we tie offline data to online events? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-For transaction ID data sources to tie offline data to online events, you must enable Transaction ID Recording. See [Transaction ID Recording](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) for more information.
+For transaction ID data sources to tie offline data to online events, you must enable Transaction ID Recording. See [Transaction ID Recording](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) for more information.
 
 ## How much does it cost to use the Data Source feature? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 

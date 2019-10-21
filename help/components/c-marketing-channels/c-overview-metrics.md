@@ -29,7 +29,7 @@ Add a column to the report.
 
 First-touch and last-touch are channel attributes that let you see how many new engagements (or metric data like product views, revenue, and orders) result from a visitor's activity in the channel. 
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). It notes the first channel the user came through, as well as the most recent channel. It then gives credit of the success event to each appropriate channel.
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). It notes the first channel the user came through, as well as the most recent channel. It then gives credit of the success event to each appropriate channel.
 
 <!-- 
 

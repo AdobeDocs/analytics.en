@@ -13,11 +13,11 @@ uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 
 Steps you can take to prepare to use data sources
 
-* [Identify and Name the Metrics](../../import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135) 
-* [Identify the Data Dimensions](../../import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A) 
-* [Campaign Tracking Code](../../import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1) 
-* [Transaction ID](../../import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7) 
-* [Identify a Valid Date Range for Data Source Data](../../import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identify and Name the Metrics](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135) 
+* [Identify the Data Dimensions](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A) 
+* [Campaign Tracking Code](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1) 
+* [Transaction ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7) 
+* [Identify a Valid Date Range for Data Source Data](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identify and Name the Metrics {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 

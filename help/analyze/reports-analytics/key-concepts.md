@@ -84,7 +84,7 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |  Rule Builder  | Automatically create metadata classifications of dimensions based on user-defined rules.  | [Classification Rule Builder](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)  |
 | Customer Attributes|CRM data uploaded to the Experience Cloud for use in  Adobe Analytics and Adobe Target.|[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)|
 |  Data Sources  | Impor offline metrics into Analytics against dimensions or simply by day.  | [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html)|
-|  Adobe Exchange Data Connectors  |See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B).  |  |
+|  Adobe Exchange Data Connectors  |See [Adobe Analytics Tools](/help/analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B).  |  |
 | Native Integrations | Audience Analytics & Advertising Analytics. |See “Key Reports” section.|
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}

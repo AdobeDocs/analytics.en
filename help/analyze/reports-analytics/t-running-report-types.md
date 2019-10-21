@@ -238,7 +238,7 @@ You set up Anomaly Detection independently for each report suite.
 
    See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
 1. (Optional) Change the end date of the View Period. The default is yesterday.
-1. You can now start interpreting the report. [Viewing Anomaly Detection charts](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. You can now start interpreting the report. [Viewing Anomaly Detection charts](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 

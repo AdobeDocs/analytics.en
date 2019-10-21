@@ -12,7 +12,7 @@ Targets reports let you measure your website performance and track progress agai
 
 >[!NOTE]
 >
->These reports should not be confused with the Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) report.
+>These reports should not be confused with the Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) report.
 
 To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL [your target name]]**
 

@@ -15,8 +15,8 @@ An Analytics FAQ for customer attributes, and how to run the Customer Attributes
 
 If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a customer attribute data source in the Experience Cloud. After the data is uploaded, you can run the Customer Attributes report in Reports & Analytics.
 
-* [Customer Attributes and Reporting Metrics in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D) 
-* [FAQ - Customer Attributes in Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
+* [Customer Attributes and Reporting Metrics in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D) 
+* [FAQ - Customer Attributes in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
 See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in Experience Cloud help for information about uploading customer attribute data.
 

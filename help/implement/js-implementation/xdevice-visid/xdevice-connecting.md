@@ -22,7 +22,7 @@ When you provide a [!UICONTROL visitor ID] variable with a hit, the system check
 
 The [!UICONTROL visitor ID] is typically set after authentication, or after a visitor performs some other action that enables you to uniquely identify them independently of the device that is used. We recommend creating a hash of the username or an internal ID that does not contain any personally identifiable information.
 
-In the [previous example](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), after the customer signs on from each device, they are all associated with the same user profile. If the visitor later signs out on a device, stitching continues to work since the [!UICONTROL visitor ID]s that are stored in a cookie on each device are already associated with the same visitor profile. We recommend populating the [!UICONTROL s.visitorID] variable whenever possible in case the [!UICONTROL visitor ID] cookie is deleted.
+In the [previous example](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), after the customer signs on from each device, they are all associated with the same user profile. If the visitor later signs out on a device, stitching continues to work since the [!UICONTROL visitor ID]s that are stored in a cookie on each device are already associated with the same visitor profile. We recommend populating the [!UICONTROL s.visitorID] variable whenever possible in case the [!UICONTROL visitor ID] cookie is deleted.
 
 ## Unique Visitor and Visits Counts {#section_70330AB6724C4E419A4BD0BDD54641AC}
 

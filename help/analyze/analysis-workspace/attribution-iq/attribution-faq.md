@@ -18,11 +18,11 @@ uuid: 90961172-869d-4ed3-aba5-52374e53b603
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why is the “None” line item sometimes getting more credit than I expected when I use the new attribution models?</b> </p> </td> 
-   <td colname="col2"> <p>A: This is likely due to the reporting window you’ve selected as described <a href="../../../analyze/analysis-workspace/attribution-iq/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A"  > here </a>. This most often occurs when your reporting window starts on the first day of the month and you’re using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the “None” line item), try including a longer time range in your reporting window. </p> </td> 
+   <td colname="col2"> <p>A: This is likely due to the reporting window you’ve selected as described <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A"  > here </a>. This most often occurs when your reporting window starts on the first day of the month and you’re using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the “None” line item), try including a longer time range in your reporting window. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: I sometimes see dates outside of my reporting window show up in my report when using attribution models. Why?</b> </p> </td> 
-   <td colname="col2"> <p>A: These extra dates are an artifact of the visitor reporting lookback window described <a href="../../../analyze/analysis-workspace/attribution-iq/attribution.md"  > here </a>. The article <a href="https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html"  > Data appearing outside reporting window </a> explains why this currently happens. Adobe Analytics will filter out these extra rows in an upcoming release. </p> </td> 
+   <td colname="col2"> <p>A: These extra dates are an artifact of the visitor reporting lookback window described <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > here </a>. The article <a href="https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html"  > Data appearing outside reporting window </a> explains why this currently happens. Adobe Analytics will filter out these extra rows in an upcoming release. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I use a custom lookback window with my attribution models?</b> </p> </td> 

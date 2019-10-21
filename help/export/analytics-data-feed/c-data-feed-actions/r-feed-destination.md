@@ -91,7 +91,7 @@ The following table shows all options for all distribution channels. The availab
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bucket </p> </td> 
-   <td colname="col2"> <p>Enter the Amazon S3 Bucket location. </p> <p>This value should match the proper S3 bucket format. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Note: See <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > BucketOwnerFullControl setting for Amazon S3 data feeds</a>, below, for details about the Amazon S3 settings. </p> </p> </td> 
+   <td colname="col2"> <p>Enter the Amazon S3 Bucket location. </p> <p>This value should match the proper S3 bucket format. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Note: See <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > BucketOwnerFullControl setting for Amazon S3 data feeds</a>, below, for details about the Amazon S3 settings. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Container </p> </td> 
@@ -107,7 +107,7 @@ The following table shows all options for all distribution channels. The availab
   </tr> 
   <tr> 
    <td colname="col1"> <p>Path </p> </td> 
-   <td colname="col2"> <p>Select the path to the host or bucket. This path must exist prior to feed creation. </p> <p> <p>Note: See <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > BucketOwnerFullControl setting for Amazon S3 data feeds</a>, below, for details about the Amazon S3 settings. </p> </p> </td> 
+   <td colname="col2"> <p>Select the path to the host or bucket. This path must exist prior to feed creation. </p> <p> <p>Note: See <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  > BucketOwnerFullControl setting for Amazon S3 data feeds</a>, below, for details about the Amazon S3 settings. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 

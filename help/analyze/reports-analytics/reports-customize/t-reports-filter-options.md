@@ -171,7 +171,7 @@ You can filter the data shown in a correlation report using any available correl
 
 **To add a correlation filter** 
 
-1. Run a report that supports correlations. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Run a report that supports correlations. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Under [!UICONTROL Filter Rule Creator], select a category to correlate with an item.
 1. Click **[!UICONTROL OK.]**

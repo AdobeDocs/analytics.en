@@ -21,7 +21,7 @@ Cost represents what you spend on the channel. Budget represents the amount avai
 
 A useful way to view your ROI is to create a calculated metric that shows revenue minus costs. Or create one that shows the total cost along with a breakdown of cost per new engagement. For example, you can run a [!UICONTROL First-Touch Channel] report showing new engagements. Then add a First-Touch Cost metric that shows you the cost per new engagement, by creating a calculated metric.
 
-See [Calculated metrics used Marketing Channel reports](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+See [Calculated metrics used Marketing Channel reports](/help/components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 You can assign costs and budgets only to channels. All costs are given a time range over which they apply in reporting. When costs are associated with a channel directly, an allocation metric is chosen to show how costs break down across campaigns within a channel.
 

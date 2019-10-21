@@ -18,7 +18,7 @@ Analysis Workspace Freeform Tables support attribution models that can be used o
 
    ![](assets/Column_Settings.png)
 
-1. Under **[!UICONTROL Data Settings]**, check **[!UICONTROL Use non-default attribution model]**. For more information on the different attribution models, refer to [Attribution IQ Overview](../../../analyze/analysis-workspace/attribution-iq/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871).
+1. Under **[!UICONTROL Data Settings]**, check **[!UICONTROL Use non-default attribution model]**. For more information on the different attribution models, refer to [Attribution IQ Overview](/help/analyze/analysis-workspace/attribution-iq/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871).
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -49,7 +49,7 @@ The attribution panel is an easy way to build an analysis comparing various attr
 
    ![](assets/attribution_panel2.png)
 
-1. Select the [attribution models](../../../analyze/analysis-workspace/attribution-iq/attribution.md) you wish to compare, and the [lookback window](../../../analyze/analysis-workspace/attribution-iq/attribution.md).
+1. Select the [attribution models](/help/analyze/analysis-workspace/attribution-iq/attribution.md) you wish to compare, and the [lookback window](/help/analyze/analysis-workspace/attribution-iq/attribution.md).
 
    The Attribution Panel will return a rich set of data and visualizations to help you better understand how your Marketing Channels (or other dimensions) work together:
 

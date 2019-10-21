@@ -15,8 +15,8 @@ Data Sources supports the following variables when processing data as a standard
 
 Full Processing data sources data is processed as if it were received by Adobe servers at the time specified (each hit contains a timestamp).
 
-* [Visitor Profile](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
-* [Column Reference](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [Visitor Profile](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
+* [Column Reference](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Visitor Profile {#section_6065627D0C144506965F562C80AE67F8}
 

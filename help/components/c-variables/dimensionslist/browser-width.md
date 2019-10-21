@@ -13,7 +13,7 @@ uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 Metrics that refer to the horizontal/vertical distance of the data in the browser window only. More specifically, the browser
 
 Adobe Analytics uses the browser height and width only from the first hit of a visit. The rest of the hits do not get the attribution for the same visit. 
-The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
 
 For example, when you break down browser width or height by mobile resolution, you need to be aware of these distinctions:
 

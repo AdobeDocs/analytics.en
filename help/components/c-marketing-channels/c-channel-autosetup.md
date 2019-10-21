@@ -31,12 +31,12 @@ How to run the Marketing Channels automatic setup.
 
    >[!NOTE]
    >
-   >The [!UICONTROL Marketing Channels: Auto Setup] page displays automatically when you access channel configuration applications in Admin Tools. (See [Marketing Channel Manager](../../components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F).) This page does not display if your report suite contains one or more marketing channels. You cannot access this page again unless you select another report suite that does not contain marketing channels.
+   >The [!UICONTROL Marketing Channels: Auto Setup] page displays automatically when you access channel configuration applications in Admin Tools. (See [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F).) This page does not display if your report suite contains one or more marketing channels. You cannot access this page again unless you select another report suite that does not contain marketing channels.
 
 1. Make sure the channels that you want to create are selected.
 
    When selected, **[!UICONTROL Email]**, **[!UICONTROL Display]**, and **[!UICONTROL Affiliate]** are required fields.
 
-   See [Marketing Channel Manager](../../components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F). 
+   See [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F). 
 
 1. Click **[!UICONTROL Save]**.

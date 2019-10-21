@@ -34,8 +34,8 @@ redirects_sc.xml
 
 The following examples illustrate how browsing is affected without and with redirects:
 
-* [Example: Browsing Without Redirects](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D) 
-* [Example: Browsing With Redirects](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [Example: Browsing Without Redirects](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D) 
+* [Example: Browsing With Redirects](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## Example: Browsing Without Redirects {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -54,7 +54,7 @@ Redirects can cause the browser to blank out the true referring URL. Consider th
 1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaiiforfree.com/]. This *vanity* domain is configured to redirect the user to `https://www.flywithus.com/`. 
 1. The user clicks on the link `https://www.flytohawaiiforfree.com/` and is redirected by the server to your main site, `https://www.flywithus.com`. When the redirection occurs, the data that is important to [!DNL Analytics] data collection is lost because the browser clears the referring URL. Thus, the original search information used in the [!DNL Analytics] reports (for example, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is lost.
 
-[Implementing Redirects](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) discusses how to leverage [!DNL Analytics] variables to capture the data lost in the redirect. Specifically, the section discusses how to fix the "discount airline tickets" situation described above.
+[Implementing Redirects](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) discusses how to leverage [!DNL Analytics] variables to capture the data lost in the redirect. Specifically, the section discusses how to fix the "discount airline tickets" situation described above.
 
 ## Implement redirects {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 

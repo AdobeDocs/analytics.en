@@ -26,11 +26,11 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/) &ndash; Data Workbench Client, Installation, Dataset Configuration, and more
 
-[![Technotes](assets/technotes_50px.png)](../technotes/home.md)&emsp;[Analytics Tech Notes](../technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+[![Technotes](assets/technotes_50px.png)](/help/technotes/home.md)&emsp;[Analytics Tech Notes](/help/technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 
 | New and Featured Items | Key Analytics Resources |
 | --- | --- |
-| <ul><li>[Regional Data Collection](../technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
+| <ul><li>[Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
 
 <!-- Keep around for now
 
@@ -38,13 +38,13 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
-* [Report Builder](../analyze/report-builder/home.md)
-* [Data Warehouse](../export/data-warehouse/data-warehouse.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Report Builder](/help/analyze/report-builder/home.md)
+* [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-* [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
+* [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
+* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 

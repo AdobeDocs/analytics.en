@@ -18,17 +18,17 @@ Ad Hoc Analysis includes familiar features for building segments, plus new featu
 
 For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) documentation.
 
-* [New Features](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
+* [New Features](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
 * [Segment Definition Changes](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html) 
-* [What happened to my existing segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE) 
-* [What happened to my existing segment folders?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30) 
-* [Can I manage all Analytics' segments in the Segment Manager?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489) 
-* [What is a Hit Container? Is it different from a Page View Container?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256) 
-* [What rights and privileges do I need to use, create, and manage segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707) 
-* [What should I do with duplicate segments that have the...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C) 
-* [How does Adobe recommend that I clean up segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49) 
-* [Why can't I delete this segment?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D) 
-* [More on what happens to your existing segments](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [What happened to my existing segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE) 
+* [What happened to my existing segment folders?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30) 
+* [Can I manage all Analytics' segments in the Segment Manager?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489) 
+* [What is a Hit Container? Is it different from a Page View Container?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256) 
+* [What rights and privileges do I need to use, create, and manage segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707) 
+* [What should I do with duplicate segments that have the...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C) 
+* [How does Adobe recommend that I clean up segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49) 
+* [Why can't I delete this segment?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D) 
+* [More on what happens to your existing segments](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 

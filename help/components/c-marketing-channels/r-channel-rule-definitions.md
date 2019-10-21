@@ -68,7 +68,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referrer Does Not Match Internal URL Filters </p> </td> 
-   <td colname="col2"> <p>The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section"  > No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" type="section"  > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignore hits matching internal URL filters </p> </td> 
@@ -143,6 +143,3 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
  </tbody> 
 </table>
-
-
-

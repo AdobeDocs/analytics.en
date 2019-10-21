@@ -18,7 +18,7 @@ Here are important guidelines for creating rules:
 * Sort the rules in the order that you want them to be processed. 
 * At the end of your list, include a catch-all rule, such as Other. This rule identifies external traffic but not internal traffic.
 
-  See [No Channel Identified](/help/components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7).
+   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
 
 >[!NOTE]
 >

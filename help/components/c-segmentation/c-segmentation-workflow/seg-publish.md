@@ -20,7 +20,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 >[!NOTE]
 >
->Adobe Campaign behaves differently in that incurs an additional 24-hour latency on top of the 8-hour latency.
+>Adobe Campaign (Classic and Standard behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
 
 
 ## Prerequisites

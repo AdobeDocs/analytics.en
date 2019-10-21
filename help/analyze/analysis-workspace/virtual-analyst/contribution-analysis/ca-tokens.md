@@ -66,7 +66,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I restrict access to Contribution Analysis?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a>. You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How do I know how many tokens my company is entitled to per month, and how many we have used in the current month?</b> </p> </td> 
@@ -99,17 +99,17 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
    <td colname="col3" colsep="1"> <p>No tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>Daily granularity only </p> </td> 
    <td colname="col3"> <p>No tokens </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external"> Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>10 tokens per month </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>20 tokens per month </p> </td> 
   </tr> 
@@ -134,7 +134,7 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
    <td colname="col3"> <p>2 tokens per month </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external"> Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  > Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>Unlimited tokens </p> </td> 
   </tr> 

@@ -86,7 +86,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, refer to </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, refer to </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -123,7 +123,7 @@ The following EMEA data centers currently host Adobe Analytics data:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table" format="http" scope="external"> Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 

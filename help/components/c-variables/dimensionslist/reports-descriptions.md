@@ -44,7 +44,7 @@ Dimensions are descriptions or characteristics of metric data that can be viewed
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html" format="html" scope="external"> Extended dimensions</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > Extended dimensions</a> </td> 
   </tr> 
  </tbody> 
 </table>

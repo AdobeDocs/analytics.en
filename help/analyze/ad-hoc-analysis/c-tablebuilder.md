@@ -40,7 +40,7 @@ The [!UICONTROL Table Builder] is not available for certain pathing reports like
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit Items</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Break Down Table Data</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Choose a list of dimension items to create a fixed list for breakdowns. When you add items to this list, they become persistent in a saved report and will not be collapsed when you open a saved or scheduled report. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Break Down Table Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Columns</span> </td> 

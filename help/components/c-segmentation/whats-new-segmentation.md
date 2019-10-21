@@ -71,7 +71,7 @@ New Features in Adobe Analytics Segmentation.
    <td colname="col2"> <p>In a “within" clause, in between THEN statements, you can add, for example, “within 1 search keyword instance”, “within 1 eVar 47 instance”. This constrains the segment to within one instance of a dimension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" > Use segments in Fallout analysis </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  > Use segments in Fallout analysis </a> </p> </td> 
    <td colname="col2"> <p>You can create segments from a touchpoint, add segments as touchpoints, and compare key workflows across various segments in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 

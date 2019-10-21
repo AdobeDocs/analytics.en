@@ -58,7 +58,7 @@ Before you start creating virtual report suites, here are a few things to keep i
   </tr> 
   <tr> 
    <td colname="col1"> Segments </td> 
-   <td colname="col2"> <p>You can add just one segment or you can <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external"> stack segments</a>. </p> <p> <p>Note:  When stacking two segments, they are joined by an AND statement. This cannot be changed to an OR statement. </p> </p> <p>When you try to delete or modify a segment that is currently used in a virtual report suite, a warning displays. </p> </td> 
+   <td colname="col2"> <p>You can add just one segment or you can <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  > stack segments</a>. </p> <p> <p>Note:  When stacking two segments, they are joined by an AND statement. This cannot be changed to an OR statement. </p> </p> <p>When you try to delete or modify a segment that is currently used in a virtual report suite, a warning displays. </p> </td> 
   </tr> 
  </tbody> 
 </table>

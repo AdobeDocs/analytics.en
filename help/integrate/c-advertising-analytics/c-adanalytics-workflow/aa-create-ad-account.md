@@ -95,7 +95,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Report Suite Mapping </p> </td> 
-      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
+      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
       </tr> 
     </tbody> 
     </table>

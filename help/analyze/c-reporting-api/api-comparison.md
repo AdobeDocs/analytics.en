@@ -34,7 +34,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Fully-processed, finalized data that is used for pulling large data exports. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf" format="https" scope="external"> Latency</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latency</a> </p> </td> 
    <td colname="col2"> 30-90 Minutes </td> 
    <td colname="col3"> * Seconds -10 minutes </td> 
    <td colname="col4"> Seconds -10 minutes </td> 
@@ -48,7 +48,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Full </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/" format="https" scope="external"> Reporting Interfaces</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Reporting Interfaces</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Real-time report in Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> API only </td> 
@@ -84,10 +84,10 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
   </tr> 
   <tr> 
    <td colname="col1"> <b>Documentation</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> Web Services</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> Real-Time Reports</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> Livestream Overview</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web Services</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Real-Time Reports</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream Overview</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -89,7 +89,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Java Version Report </td> 
-   <td colname="col2"> <p>Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="https://jcp.org/en/jsr/overview" scope="external" format="html"> Java Community Process</a> website. </p> </td> 
+   <td colname="col2"> <p>Groups mobile devices based on the Java version that they support. The Java Version report identifies the Java version by the Java Specification Request (JSR) supported by the device. The report also includes an Unknown group for unidentified mobile operating systems. </p> <p>You can find out more about a given JSR at the <a href="https://jcp.org/en/jsr/overview"  > Java Community Process</a> website. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bookmark URL Length Report </td> 

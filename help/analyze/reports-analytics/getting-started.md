@@ -112,7 +112,7 @@ All users have access to the [!UICONTROL Account Information] page. The followin
   </tr> 
   <tr> 
    <td> <p> Login </p> </td> 
-   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" > How to reset Reports &amp; Analytics account password</a>. </p> </td> 
+   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  > How to reset Reports &amp; Analytics account password</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Web Service </p> </td> 

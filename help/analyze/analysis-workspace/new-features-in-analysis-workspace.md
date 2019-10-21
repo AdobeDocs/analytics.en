@@ -96,7 +96,7 @@ New features and enhancements released on September 13, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>New template: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html" format="html" > Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -395,7 +395,7 @@ New features and enhancements released on January 18, 2018.
    <td colname="col2"> <p>Previously, when you copied a project or did a “save as”, all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Contribution Analysis: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" > Token Notification </a> </p> </td> 
+   <td colname="col1"> <p>Contribution Analysis: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > Token Notification </a> </p> </td> 
    <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left.&amp;nbsp; </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. )&nbsp; </p> </td> 
   </tr> 
   <tr> 
@@ -730,7 +730,7 @@ New features released on April 20, 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > People Template </a> </p> </td> 
-   <td colname="col2"> <p>Note:  The People template and its associated People metric is available for use only as part of the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html" format="html" > Adobe Experience Cloud Device Co-op </a>. </p> <p>The template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. </p> </td> 
+   <td colname="col2"> <p>Note:  The People template and its associated People metric is available for use only as part of the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  > Adobe Experience Cloud Device Co-op </a>. </p> <p>The template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Improvements to Undo/Redo option </p> </td> 

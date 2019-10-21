@@ -24,7 +24,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Which <b>Adobe Analytics SKUs</b> entitle you to the use of Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics is available for Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" > Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" > Prime </a>, and <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" > Ultimate </a> SKUs. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics is available for Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  > Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  > Prime </a>, and <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  > Ultimate </a> SKUs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Do we have to <b>pay extra</b> to use Advertising Analytics? </p> </td> 

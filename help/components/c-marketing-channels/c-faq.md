@@ -28,7 +28,7 @@ Read about best practices and examples of how to populate various rules you can 
 
 See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
-## Frequently asked questions {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## Frequently asked questions {#faq}
 
 Every implementation of marketing channel processing rules can differ, depending on your tracking codes. Configuring rules that provide results you are looking for can require some creative thinking to solve problems.
 
@@ -63,9 +63,9 @@ Every implementation of marketing channel processing rules can differ, depending
 
   Make sure that you have a channel for these three possibilities. For example, create rules that say:
 
-1. **[!UICONTROL Referrer]** and **[!UICONTROL Does Not Exist]** and **[!UICONTROL Is First Page of Visit]**. (See [Direct.](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A))
+1. **[!UICONTROL Referrer]** and **[!UICONTROL Does Not Exist]** and **[!UICONTROL Is First Page of Visit]**. (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
 
-  2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. (See [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947).)
+  2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. (See [Internal](/help/components/c-marketing-channels/c-faq.md).)
 
   3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
@@ -83,7 +83,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 >
 >There might be still some channel traffic that can fall into the No Channel Identified category. For example: A visitor comes to the site and bookmarks a page and in the same visit comes back the page via the bookmark. Since this is not the first page of the visit, it will go neither in the Direct channel nor in the Other channel because there is no referring domain.
 
-## Paid Search {#section_E934BFE182E4404A93FE07AFEAE64DC1}
+## Paid Search {#paid-search}
 
 A paid search is a word or phrase that you pay a search engine for placement in search results. To match paid search detection rules, the marketing channel uses settings configured on the [!UICONTROL Paid Search Detection] page. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). The destination URL matches the existing paid search detection rule for that search engine.
 
@@ -93,7 +93,7 @@ For the marketing channel rule, the [!UICONTROL Paid Search] settings are as fol
 
 See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in Admin for more information.
 
-## Natural Search {#section_A4C6B8F0360449BE94F0128FF7C71386}
+## Natural Search {#natural-search}
 
 A natural search occurs when visitors find your website through a Web search, where the search engine ranked your site without you paying for the listing. You can control the destination URL the search engine uses to link to your site. This URL allows Analytics to identify whether a search is natural.
 
@@ -105,31 +105,31 @@ For the marketing channel rule, the Natural Search settings are as follows:
 
 See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in the Admin for more information.
 
-## Affiliates {#section_8D142C7074CD4DEC87DF55B691107622}
+## Affiliates {#afilliates}
 
 An affiliate rule identifies visitors that originate from a specified set of referring domains. In the rule, you list the domains of affiliates you would like to track, as follows:
 
 ![](assets/example_affiliates.png)
 
-## Social Networks {#section_492B72A3B261479D9C84F631E90C03D8}
+## Social Networks {#social-networks}
 
 This rule identifies visitors that originate from a social network, such as Facebook&#42;. The settings can be as follows:
 
 ![](assets/example_social.png)
 
-## Display {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
+## Display {#display}
 
 This rule identifies visitors originating from banner advertisements. It is identified by a query string parameter in the destination URL, in this case *`Ad_01`*.
 
 ![](assets/example_display.png)
 
-## Internal {#section_179A2BE5C8E24719A9E5C0DC09AF0947}
+## Internal {#internal}
 
 This rule identifies visitors that originate with a referrer that matches the internal URL filters for the report suite.
 
 ![](assets/example_internal.png)
 
-## Email {#section_4A927BE947B748E39595F4525B7280DE}
+## Email {#email}
 
 To set up this rule, you provide the query string parameter for your email campaign. In this example, the parameter is *`eml`*:
 
@@ -139,7 +139,7 @@ If your rule contains Tracking Codes, enter one value per line, as shown here:
 
 ![](assets/tracking_code.png)
 
-## Direct {#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A}
+## Direct {#direct}
 
 This rule identifies visitors that have no referring domain. This rule includes visitors that come to your site directly, such as from a Favorites link or by pasting a link in their browser.
 

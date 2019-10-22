@@ -17,7 +17,7 @@ Think of a channel as a container for visits. The rules assign visits to the pro
 
 ![](assets/buckets_2.png)
 
-Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) that you can edit to suit your needs.
+Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-channel-autosetup.md) that you can edit to suit your needs.
 
 >[!NOTE]
 >
@@ -27,10 +27,10 @@ Adobe provides several predefined channels during an [automatic setup](/help/com
 
 Review the following topics:
 
-* [Prerequisites](/help/components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2) 
-* [Important processing notes](/help/components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Prerequisites](/help/components/c-marketing-channels/c-channels-rules.md#prereqs) 
+* [Important processing notes](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## Prerequisites {#section_9913D2932E3140C099B7978CA95378B2}
+## Prerequisites {#prereqs}
 
 If necessary, contact Customer Care to assist you with these prerequisites:
 
@@ -44,7 +44,7 @@ If necessary, contact Customer Care to assist you with these prerequisites:
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * The system processes the rules in the order you specify, and when a rule is met, the system stops processing the remaining rules. 
 * Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted. 

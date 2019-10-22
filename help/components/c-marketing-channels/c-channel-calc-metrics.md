@@ -13,10 +13,6 @@ uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 
 Add calculated metrics to Marketing Channel reports in Analytics.
 
-## Calculated metrics used Marketing Channel reports {#calc-metrics}
-
-Add calculated metrics to Marketing Channel reports in Analytics. 
-
 Calculated metrics created in reports and analytics are available in the [!UICONTROL Marketing Channel] report, with first-touch and last-touch equivalents. For example, if you have created a calculated metric called Revenue per Order, that metric is available on the Marketing Channel report as *`First Touch Revenue per Order`* and *`Last Touch Revenue per Order`*.
 
 You can create calculated metrics directly from the [!UICONTROL Marketing Channel Report]. Calculated metrics allow you to make useful comparisons between first-touch and last-touch channel metrics. For example, you can display the difference between first and last touch revenue. 

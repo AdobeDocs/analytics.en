@@ -13,10 +13,6 @@ uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 
 Add or enable marketing channels in the Marketing Channel Manager. For report suites that have no marketing channels, an automatic setup lets you create several channels for you, along with their rules. You can edit predefined channels to suit your needs, or create your own (up to a total of 25).
 
-## Manage marketing channels {#manage-mktg-channels}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. For report suites that have no marketing channels, an automatic setup lets you create several channels for you, along with their rules. You can edit predefined channels to suit your needs, or create your own (up to a total of 25). 
-
 Here are guidelines for creating channels:
 
 * Plan ahead by making a list of all your channels, so that all of your visitor hits are categorized to the right channel. 

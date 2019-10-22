@@ -13,10 +13,6 @@ uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 
 Learn how to assign cost and budget amounts to channels.
 
-## Costs and budgets {#costs-and-budgets}
-
-Learn how to assign cost and budget amounts to channels. 
-
 Cost represents what you spend on the channel. Budget represents the amount available to spend.
 
 A useful way to view your ROI is to create a calculated metric that shows revenue minus costs. Or create one that shows the total cost along with a breakdown of cost per new engagement. For example, you can run a [!UICONTROL First-Touch Channel] report showing new engagements. Then add a First-Touch Cost metric that shows you the cost per new engagement, by creating a calculated metric.
@@ -44,8 +40,6 @@ Add cost and budget items to Marketing Channels.
 ## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 Field definitions for Marketing Channel Costs or Budgets.
-
-
 
 | Field  | Definition  |
 |--- |--- |

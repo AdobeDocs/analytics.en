@@ -13,10 +13,6 @@ uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
 
 Run the one-time setup for the Marketing Channel report.
 
-## Automatic setup {#auto-setup}
-
-Run the one-time setup for the Marketing Channel report. 
-
 The Marketing Channel report comes with a one-time setup page to get you started. It provides several marketing channels that you can use for tracking. You can skip this setup if you feel comfortable creating channels and rules. However, Adobe recommends that you allow the wizard to create the channels for you. The automatic setup lets you see how rules are constructed, or edit them for your own purposes. You can disable or delete the predefined channels at any time. 
 
 ## Run the automatic setup for Marketing Channels {#run-auto-setup}

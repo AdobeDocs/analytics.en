@@ -37,7 +37,7 @@ Every implementation of marketing channel processing rules can differ, depending
 * Use the process of elimination. If your Email and Affiliates channels use the same query string parameter, but you have only a few email tracking codes, you can specify the email tracking codes in a rule set defining email. Then, you classify all other tracking codes with *`affiliates.`* 
 * In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
 
-**Question**:&nbsp;Referring domains contain more data than I expect.
+**Question**: Referring domains contain more data than I expect.
 
 * Referring domains might be too high in the processing rule list. It should be one of the last (or the last) rule sets, because processing order is important.
 

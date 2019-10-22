@@ -13,10 +13,6 @@ uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 
 How to use metrics in Marketing Channel reports.
 
-## Metrics used in Marketing Channel reports {#metrics-in-mktg-channel}
-
-How to use metrics in Marketing Channel reports. 
-
 ![](assets/metric_edit_icon.png)
 
 Add (or edit) metrics.

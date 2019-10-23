@@ -40,10 +40,10 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Retention Policy </p> </td> 
-   <td colname="col2"> <p>The Analytics Data Privacy implementation requires that you have a data retention policy in place. </p> <p>This setting shows whether </p> 
-    <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
-     <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">a data retention policy is in place for this report suite, and </li> 
-     <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">how long the data is retained by Adobe before it is deleted. The default data retention period is 25 months. </li> 
+   <td colname="col2"> <p>The Analytics Data Privacy implementation requires that you have a data retention policy in place. </p> <p>This setting shows whether: </p> 
+    <ul> 
+     <li>A data retention policy is in place for this report suite, and </li> 
+     <li>How long the data is retained by Adobe before it is deleted. The default data retention period is 25 months. </li> 
     </ul> <p>Note:  Adobe Analytics cannot assist you with processing requests to the Data Privacy API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set. Please contact your Customer Success Manager in order to set your data retention period. </p> </td> 
   </tr> 
   <tr> 

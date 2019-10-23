@@ -5,4 +5,4 @@ description: Redirect
 
 # Redirect
 
-See [Using Attribution IQ](../c-panels/attribution/use-attribution-iq.md).
+See [Using Attribution IQ](../c-panels/attribution/use-attribution.md).

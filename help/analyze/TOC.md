@@ -73,11 +73,14 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
-    + [Attribution](analysis-workspace/attribution-iq/attribution.md)
+    + Attribution {attribution}
+      + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
+      + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)
+      + [Attribution FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-    + Segment comparison (IQ) {#segment-comparison}
+    + Segment comparison {#segment-comparison}
       + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-      + [Compare segments](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+      + [Temporary Page](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
       + [Segment IQ use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
@@ -88,10 +91,10 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
   + Attribution IQ {#attribution-iq}
-    + [Attribution IQ overview](analysis-workspace/attribution-iq/attribution.md)
-    + [Use attribution IQ in Analysis Workspace](analysis-workspace/attribution-iq/use-attribution-iq.md)
-    + [Use attribution in Calculated Metrics](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-    + [Attribution IQ FAQ](analysis-workspace/attribution-iq/attribution-faq.md)
+    + [Temporary page](analysis-workspace/attribution-iq/attribution.md)
+    + [Temporary page](analysis-workspace/attribution-iq/use-attribution-iq.md)
+    + [Temporary page](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+    + [Temporary page](analysis-workspace/attribution-iq/attribution-faq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
     + Anomaly Detection {#anomaly-detection}

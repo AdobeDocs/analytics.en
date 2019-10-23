@@ -75,7 +75,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 ### Add Manual Tracking to Bing Account {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-The string that needs to be added to your Bing account is shown below. You need to add the string to all your tracking templates used throughout your account.
+The string that needs to be added to your Bing account is shown below. You need to add the string to all the final URL suffixes used throughout your account.
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 ![](assets/Bing.png)
 
-Examples of tracking codes in various tracking template formats: 
+Examples of tracking codes in various final URL suffix formats: 
 
 **{lpurl}**
 

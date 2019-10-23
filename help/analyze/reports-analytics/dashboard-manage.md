@@ -17,58 +17,23 @@ Use the Dashboard Manager to copy, share, archive, and schedule dashboards for d
 >
 >Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
 
-## Dashboard Manager {#concept_E1301CF138EB477794B00F693B4FCA0F}
+## Dashboard Manager
 
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery. 
 
 Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**. 
 
-<p class="head"> <b>Dashboard Manager Descriptions</b> </p>
+| Element | Description |
+|--- |--- |
+|Shared|Shows whether the dashboard is shared.|
+|Scheduled|Lets you schedule the dashboard for delivery.|
+|View Archive|Lets you view the dashboard archive. This functionality will no longer be available in January, 2020.|
+|Push to Users|Lets you share a dashboard.|
+|Manage|Lets you edit, copy, and delete a dashboard.|
 
-<table id="table_EEE9323474DB432EB40EE33E1A85EE50"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Dashboard Player </td> 
-   <td colname="col2"> <p>SiteCatalyst 14 servers will no longer respond to Dashboard Player data requests. Any dashboards currently being displayed in Dashboard Player can be accessed in the standard Reports &amp; Analytics interface or recreated as a Real-Time Dashboard. Real-Time dashboards are specifically designed for continual display and include a full-screen mode to allow you to display on TVs or other large screen devices. </p> <p>User action required: You need to discontinue use of Dashboard Player. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Shared </td> 
-   <td colname="col2"> <p>Shows whether the dashboard is shared. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_2776BDE3FBC64E66B78DB6D6A53AAF49" format="dita" scope="local"> Share a dashboard </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Scheduled </td> 
-   <td colname="col2"> <p>Lets you schedule the dashboard for delivery. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_639361A35E044B2DB9D50FCABEC776FF" format="dita" scope="local"> Schedule a dashboard for delivery </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> View Archive </td> 
-   <td colname="col2"> <p>Lets you view the dashboard archive. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Push to Users </td> 
-   <td colname="col2"> <p>Lets you share a dashboard. </p> <p>See <a href="../../analyze/reports-analytics/dashboard-manage.md#task_2776BDE3FBC64E66B78DB6D6A53AAF49" format="dita" scope="local"> Share a dashboard </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Manage </td> 
-   <td colname="col2"> <p>Lets you edit, copy, and delete a dashboard. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Manage shared dashboards {#task_06BA6636471B4252A8A4DA2E99B9DFCF}
+## Manage shared dashboards
 
 Steps that describe how use the shared dashboard management options.
-
-<!-- 
-
-t_dashboard_copy.xml
-
- -->
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
@@ -100,15 +65,9 @@ t_dashboard_copy.xml
  </tr> 
 </table>
 
-## Migrate a legacy dashboard {#task_64E4A29DB99644FA82EB3372243F1417}
+## Migrate a legacy dashboard
 
 Existing legacy dashboards will continue to be run and you can still edit, download, and schedule them; however, you can no longer create new legacy dashboards. You are strongly encouraged to upgrade existing legacy dashboards to the newer dashboard format.
-
-<!-- 
-
-t_dashboard_migrate_legacy.xml
-
- -->
 
 >[!NOTE]
 >
@@ -129,15 +88,9 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 
    See [Editing Dashboard and Reportlet Data](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460). 
 
-## Share a dashboard {#task_2776BDE3FBC64E66B78DB6D6A53AAF49}
+## Share a dashboard
 
 Steps that describe how an administrator can share (or push) a dashboard to multiple users. When you push dashboards to users, the dashboards become available in user's [!UICONTROL Shared Dashboards] menu.
-
-<!-- 
-
-t_dashboard_share.xml
-
- -->
 
 1. In the [!UICONTROL Dashboard Manager], locate the dashboard, then enable **[!UICONTROL Shared]**.
 1. Click **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -147,31 +100,22 @@ t_dashboard_share.xml
 
 If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. If they did, they cannot see the updates/changes made by you. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager. 
 
-## Schedule a dashboard for delivery {#task_639361A35E044B2DB9D50FCABEC776FF}
+## Schedule a dashboard for delivery
 
 In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. The dashboard delivery options are identical to the report delivery options. 
-
-
-<!-- 
-
-t_dashboard_delivery.xml
-
- -->
 
 1. Open a dashboard.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information. 
 
-## Archive a dashboard {#task_3B6AB949F0EC4063A08F80F254992117}
+## Archive a dashboard
+
+>[!NOTE]
+>
+>This functionality will no longer be available in January, 2020.
 
 Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first. 
-
-<!-- 
-
-t_dashboard_archive.xml
-
- -->
 
 1. Open a dashboard.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.

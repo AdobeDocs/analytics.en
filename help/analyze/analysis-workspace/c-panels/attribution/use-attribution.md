@@ -49,7 +49,7 @@ The attribution panel is an easy way to build an analysis comparing various attr
 
    ![](assets/attribution_panel2.png)
 
-2. Select the [attribution models](attribution.md) you wish to compare, and the lookback window.
+1. Select the [attribution models](attribution.md) you wish to compare, and the lookback window.
 
    The Attribution Panel will return a rich set of data and visualizations to help you better understand how your Marketing Channels (or other dimensions) work together:
 

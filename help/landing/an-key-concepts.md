@@ -96,7 +96,6 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 |Data Warehouse|See Analytics tools.| |
 |Analytics Data Feed|Most granular way to get data out of Analytics. Set up a hit-level feed out of Analytics.|[Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)|
 
-
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
 | Method/Resource | Description | Documentation Link |

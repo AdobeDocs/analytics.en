@@ -18,7 +18,7 @@ Lists the standard metrics in Adobe Analytics.
 
 >[!IMPORTANT]
 >
->Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Hence, the metric type is only relevant to tolls such as Reports & Analytics, Web Services 1.4, and Report Builder.) 
+>Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Hence, the metric type is only relevant to tools such as Reports & Analytics, Web Services 1.4, and Report Builder.) 
 
 | Metric Name | Description | Type|
 |--- |--- |---|

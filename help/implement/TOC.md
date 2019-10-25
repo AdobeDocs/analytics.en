@@ -9,7 +9,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
 
 + [Analytics Implementation Help](home.md)
 + AppMeasurement Release Notes {#appmeasurement-release-notes}
-  + [AppMeasurement Release Notes](appmeasurement-release-notes/appmeasurement-release-notes.md)
   + [AppMeasurement for JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
   + [JavaScript H Code - Legacy](appmeasurement-release-notes/c-release-notes-javascript.md)
   + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)

@@ -14,11 +14,9 @@ A Publishing Widget is a container that lets you embed Analytics reports (bookma
 
 For example, you could provide a dashboard so company executives can view the number of page visitors, the number of unique page visitors, and so on.
 
->[!CAUTION]
+> [!CAUTION] No authentication is required to view data published through the Publishing Widget. Because of this, you should consider published data to be no more secure than data sent to an email group or list server. Use the widget only in compliance with your organization's security standards, existing contractual requirements, and applicable law. The Publishing Widget provides the ability to restrict, by IP address or domain path, where you can publish data. However, these mechanisms are intended solely to prevent unintended data distribution, and are not an effective way to secure access to data distributed through the Publishing Widget.
 >
->No authentication is required to view data published through the Publishing Widget. Because of this, you should consider published data to be no more secure than data sent to an email group or list server. Use the widget only in compliance with your organization's security standards, existing contractual requirements, and applicable law. The Publishing Widget provides the ability to restrict, by IP address or domain path, where you can publish data. However, these mechanisms are intended solely to prevent unintended data distribution, and are not an effective way to secure access to data distributed through the Publishing Widget.
->
->Adobe assumes no responsibility or liability for data exposed through the Publishing Widget.
+> Adobe assumes no responsibility or liability for data exposed through the Publishing Widget.
 
 Because Publishing Widget can potentially drive high traffic volumes, Adobe reserves the right, at its sole discretion, to disable a company's Publishing widgets for improper use or excessive traffic that is causing an impact to overall performance.
 

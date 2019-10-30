@@ -36,8 +36,7 @@ Adobe is unable to provide the detailed IAB bot list to customers, though you ca
 
 ## Custom bot rules
 
->[!Note]
->The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options.
+>[!Note] The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options.
 
 Custom bot rules let you filter traffic based conditions you define.
 

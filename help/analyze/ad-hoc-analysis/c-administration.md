@@ -147,8 +147,3 @@ As another example, if you have 10 million hits a day, with a data slice for 365
 * (10,000,000 x 365) / 750,000,000 = 4.8
 
 So to keep the number of hits for this 365 day slice below 750,000,000, the data could be sampled at 4.8:1. Using whole numbers, the sample rate is 5:1.
-
->[!MORE_LIKE_THIS]
->
->* [Users](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)

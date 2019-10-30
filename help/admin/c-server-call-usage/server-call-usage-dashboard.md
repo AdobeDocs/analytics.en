@@ -10,9 +10,7 @@ uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Current Usage]** 
 
->[!IMPORTANT]
->
->Any usage and commitment numbers you see are cumulative across all your login companies and report suites.
+> [!IMPORTANT] Any usage and commitment numbers you see are cumulative across all your login companies and report suites.
 
 The Current Usage dashboard
 
@@ -23,9 +21,7 @@ The Current Usage dashboard
 
 * Compares your current period's usage to last year's usage (blue line). Obviously, the blue line will only appear if your company has server call usage data from the previous year.
 
-  >[!NOTE]
-  >
-  >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
+  > [!NOTE] If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
 
 * Lists the percentage of calls used (in percentages and raw data), and the percentage of the usage period spent (in percentages and raw data).
 * By default, is updated daily, with a 5-day processing latency.
@@ -38,4 +34,3 @@ The Current Usage dashboard
 |  Current Period Usage (green)  |The current period is based on the [usage period](/help/admin/c-server-call-usage/overage-overview.md).  |
 |  Previous Period Usage (blue)  | The previous period is defined as the current usage period minus 1 year.  |
 |  Usage Limit (red)  | Your contractual usage limit for this usage period.  |
-

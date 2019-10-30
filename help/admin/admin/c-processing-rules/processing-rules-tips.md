@@ -19,7 +19,7 @@ This section contains some guidelines to help test processing rules before they 
 
 **Testing Rules That Read Search Terms**
 
-For any criteria based on a search, such as if prop1 contains "news," go to the prop 1 report and search for "news" and see if there are any matches you were not expecting.
+For any criteria based on a search, such as if prop1 contains "news", go to the prop 1 report and search for "news" and see if there are any matches you were not expecting.
 
 **Testing Rules that Read Variables**
 
@@ -58,4 +58,3 @@ Search terms pulled from a query string must be encoded correctly or they won't 
 Select the correct matching condition to find the most restrictive condition that matches correctly. You can search for values in a report before creating a rule to make sure there are no unintended matches. For example, you should search the Prop2 report to find all locations where this condition matches before enabling this rule.
 
 ![](assets/tips-startswith.png)
-

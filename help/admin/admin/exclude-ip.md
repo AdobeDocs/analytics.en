@@ -28,9 +28,9 @@ This feature allows you and your colleagues to visit your site without skewing y
 
 > [!NOTE] Exclusion by computer works only if:
 >
->* You access your web site from the same work station.
->* Your cookies are enabled in the browser you are using.
->* Your cookies are not deleted. If cookies are deleted, you must exclude yourself again.
+> * You access your web site from the same work station.
+> * Your cookies are enabled in the browser you are using.
+> * Your cookies are not deleted. If cookies are deleted, you must exclude yourself again.
 
 ## Exclude by IP Address {#section_609FB6461529409D840111A32FEF5C3D}
 
@@ -38,7 +38,7 @@ An IP address is an Internet address. All Internet users are assigned numerical 
 
 Page views are counted and unique page visitors are identified through IP addresses. By excluding IP addresses from being counted, you can prevent Adobe from tracking frequent visitors. This feature can allow you and your colleagues to visit your site without skewing your traffic data. You may exclude up to 50 different IP addresses.
 
-You can use wildcard indicators (&#42;) to exclude a range of addresses. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. You may exclude up to 50 different IP addresses.
+You can use wildcard indicators (&#42;) to exclude a range of addresses. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. You can exclude up to 50 different IP addresses.
 
 ## Exclude by Firewall {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 

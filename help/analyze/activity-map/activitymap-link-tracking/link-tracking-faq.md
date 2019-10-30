@@ -12,11 +12,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 
 Frequently asked questions about link tracking in [!DNL Activity Map].
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, **you may be** **collecting personally identifiable information (PII) data.** This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+> [!CAUTION] By turning on [!DNL Activity Map] tracking, **you may be** **collecting personally identifiable information (PII) data.** This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking: 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
 * `Mailto` links. A mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail.
 * `User ID` links that may show up in the header/footer of a website once the user has logged in.
@@ -104,4 +102,3 @@ Here are some known cases where PII data might be collected using [!DNL Activity
   </tr> 
  </tbody> 
 </table>
-

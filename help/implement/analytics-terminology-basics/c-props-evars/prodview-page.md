@@ -36,15 +36,13 @@ s.products=";diamond earrings (54321)"
 ```js
 s.events="scOpen,scAdd" 
 s.products=";SKU" 
-
 ```
 
 ## First Checkout Page {#section_E15607A9AECB44F79631926C853CF64E}
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
-
+s.products=";SKU" 
 ```
 
 ## Confirmation Page {#section_E006943CD5FD42358086581CA44B9660}
@@ -52,7 +50,6 @@ s.products=”;SKU"
 ```js
 s.events="purchase" 
 s.products=";SKU" 
-
 ```
 
 >[!NOTE]

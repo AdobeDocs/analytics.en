@@ -20,9 +20,7 @@ See [Create a freeform analysis project](../../../analyze/analysis-workspace/bui
 
 You can manage components (individually or by selecting more than one) in a number of ways. Right-click a component or click **[!UICONTROL Actions]** at the top of the component list.
 
->[!NOTE]
->
->These actions do not apply to Time components.
+> [!NOTE] These actions do not apply to Time components.
 
 | Component Action | Description |
 |--- |--- |

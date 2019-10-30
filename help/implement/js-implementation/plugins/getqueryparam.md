@@ -20,9 +20,7 @@ Returns the value of a specified query string parameter, if found in the current
 
 Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. The plug-in detects the specified query string, if present, and populates the chosen variable with its value. If no query string parameter is found with that value, an empty string is returned. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
 
->[!NOTE]
->
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+> [!NOTE] The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
 
 If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
 
@@ -30,9 +28,7 @@ If you wanted to use *`s.campaign`* to capture campaign tracking codes available
 
 In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. This could be seen using the [!DNL DigitalPulse] [!UICONTROL Debugger], which should show *v0=123456* as part of the image request.
 
->[!NOTE]
->
->The parameter *`cid`* and others are used here as examples. You can replace them with any query string parameters that exist on your site.
+> [!NOTE] The parameter *`cid`* and others are used here as examples. You can replace them with any query string parameters that exist on your site.
 
 The *`getQueryParam`* plug-in has two additional arguments (options) that can be used to capture data into Analytics variables:
 
@@ -70,9 +66,7 @@ The flag "f" should be used in this third argument with frames, when the necessa
 
 When using frames and the *f* parameter, it is recommended that the *`getValOnce`* plug-in be used to prevent the campaign tracking code to be sent with each page view.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 **Plug-in Code**
 

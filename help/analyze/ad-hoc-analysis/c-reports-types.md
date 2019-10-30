@@ -22,7 +22,7 @@ c_reports_ranked.xml
 
  -->
 
-Ranked graphs default to five items, but you can graph up to thirty items in the chart options. 
+Ranked graphs default to five items, but you can graph up to thirty items in the chart options.
 
 ## Trended Reports {#concept_65FEA92704024232BB21A5952939711F}
 
@@ -38,7 +38,7 @@ In the graph, the vertical axis displays the tracked items. The horizontal axis 
 
 You can also select multiple cells and launch a trended report, based on a selected granularity. When you trend from multiple cells, the report columns display data for the entire reporting period.
 
-A [!UICONTROL Products Report] is an example of a trended report. You can see how much revenue a product made during the selected period. If your reporting period is a week, you can see how much revenue that product generated for each day of the time period, you can show a trend graph for a specific product on that day, or open a separate trended report for the selection. 
+A [!UICONTROL Products Report] is an example of a trended report. You can see how much revenue a product made during the selected period. If your reporting period is a week, you can see how much revenue that product generated for each day of the time period, you can show a trend graph for a specific product on that day, or open a separate trended report for the selection.
 
 ## Trend from Cells {#task_AD9275BED5CE4D61AC25778D144406A4}
 
@@ -59,7 +59,7 @@ t_trend_row.xml
 
 1. To view a full report from the cell, click **[!UICONTROL Launch Trend Report]**.
 
-   Alternatively, right-click the cell, then click **[!UICONTROL Trend Cell]**. You can also perform this task after selecting multiple cells. 
+   Alternatively, right-click the cell, then click **[!UICONTROL Trend Cell]**. You can also perform this task after selecting multiple cells.
 
 ## Totals Report {#concept_48E23FB3BCCD43DFB486A048960800A8}
 
@@ -69,7 +69,7 @@ c_reports_totals.xml
 
  -->
 
-An executive-level report that shows bottom-line figures. It contains data for total revenue, page views, and orders. You can segment the report and add additional metrics to view additional data. 
+An executive-level report that shows bottom-line figures. It contains data for total revenue, page views, and orders. You can segment the report and add additional metrics to view additional data.
 
 ## Flow Reports {#concept_3E417D018F1B4566973F694B01E6439F}
 
@@ -87,7 +87,7 @@ The [!UICONTROL Next Flow] report group has three reports: [!UICONTROL Next Page
 
 **Previous Flow**
 
-Previous Flow reports are similar to Next Flow reports, except rather than seeing where visitors went after a selected page, you see where visitors were before visiting a specified page. The controls for using the report are identical to the controls for the Next Flow reports. 
+Previous Flow reports are similar to Next Flow reports, except rather than seeing where visitors went after a selected page, you see where visitors were before visiting a specified page. The controls for using the report are identical to the controls for the Next Flow reports.
 
 ## Next Pages Flow {#concept_F7565234927942BEAF75D5D94A7AB47D}
 
@@ -103,8 +103,8 @@ By default, this report displays the top 10 pages that users went to following t
 
 Use this report to:
 
-* Understand what steps are taken most frequently after viewing a selected page. 
-* Optimize your site path design to funnel your traffic to a desired goal page. 
+* Understand what steps are taken most frequently after viewing a selected page.
+* Optimize your site path design to funnel your traffic to a desired goal page.
 * Identify where visitors are going instead of your desired goal pages.
 
 ## Next Server Flow {#concept_DB8C20E18AEA4051903C47A16C0E9C4E}
@@ -117,7 +117,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`. 
+For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
 
 ## Next Section Flow {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -129,7 +129,7 @@ c_reports_next_section_flow.xml
 
  -->
 
-For example, an online retailer might have site sections for its products and site sections for product brands. In this case, a product web page can fall under multiple sight sections. Though a product page has only been viewed once, the [!UICONTROL Next Section Flow] report shows a page view for each sight section associated with the page. 
+For example, an online retailer might have site sections for its products and site sections for product brands. In this case, a product web page can fall under multiple sight sections. Though a product page has only been viewed once, the [!UICONTROL Next Section Flow] report shows a page view for each sight section associated with the page.
 
 ## Previous Page Flow {#concept_ADEAEBAE3F37401B977A27E03B5A523B}
 
@@ -143,7 +143,7 @@ c_reports_previous_page_flow.xml
 
 Use this report to:
 
-* Understand what steps are taken most frequently before viewing a selected page. 
+* Understand what steps are taken most frequently before viewing a selected page.
 * Optimize your site path design to funnel your traffic to a desired goal page.
 
 ## Previous Section Flow {#concept_30688D97B48449E1958866BAF376FA8C}
@@ -156,7 +156,7 @@ c_reports_previous_section_flow.xml
 
  -->
 
-For example, an online retailer might have site sections for its products and site sections for product brands. In this case, a product web page can fall under multiple sight sections. Though a product page has only been viewed once, the [!UICONTROL Previous Section Flow] report shows a page view for each sight section associated with the page. 
+For example, an online retailer might have site sections for its products and site sections for product brands. In this case, a product web page can fall under multiple sight sections. Though a product page has only been viewed once, the [!UICONTROL Previous Section Flow] report shows a page view for each sight section associated with the page.
 
 ## Previous Server Flow {#concept_8E43208CAF2C4C358F19D4669B73822F}
 
@@ -182,12 +182,12 @@ c_reports_conversion_funnel.xml
 
 The following funnel reports are available:
 
-* [!UICONTROL Purchase Conversion Funnel]: Shows Visits (Report-Specific), Carts, Orders, Units, and Revenue. 
-* [!UICONTROL Cart Conversion Funnel]: Displays Visits (Report-Specific), Carts, Checkouts, Orders, and Revenue. 
-* [!UICONTROL Custom Event Funnel]: Displays custom events on your site. It shows custom events 1-5 by default. 
+* [!UICONTROL Purchase Conversion Funnel]: Shows Visits (Report-Specific), Carts, Orders, Units, and Revenue.
+* [!UICONTROL Cart Conversion Funnel]: Displays Visits (Report-Specific), Carts, Checkouts, Orders, and Revenue.
+* [!UICONTROL Custom Event Funnel]: Displays custom events on your site. It shows custom events 1-5 by default.
 * [!UICONTROL Campaign Conversion Funnel]: Shows Click-throughs, Checkouts, Orders, and Revenue.
 
-The report table shows statistics for average sales per click-through, and average units sold per click-through. You can add metrics and custom events from other reporting groups to these reports. These funnels have many similarities but are based on different variables and events. You can use these reports to see what percentages and general trends of users fire specific events you specify. You can see where users are not following through to events, which provides insight to that specific point in the conversion process. 
+The report table shows statistics for average sales per click-through, and average units sold per click-through. You can add metrics and custom events from other reporting groups to these reports. These funnels have many similarities but are based on different variables and events. You can use these reports to see what percentages and general trends of users fire specific events you specify. You can see where users are not following through to events, which provides insight to that specific point in the conversion process.
 
 ## Site Analysis Report {#concept_65694C6BDE424714B7975764F95497A4}
 

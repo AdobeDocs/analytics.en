@@ -10,7 +10,7 @@ uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 
 ## Ad Sales and Content Decisions {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-As a Media Publisher, you can provide not only size but audience effectiveness metrics to your ad sales team. You can also determine what content resonates best with specific demographic segments, like "Women in their 30s who are 1st-time moms.”
+As a Media Publisher, you can provide not only size but audience effectiveness metrics to your ad sales team. You can also determine what content resonates best with specific demographic segments, like "Women in their 30s who are 1st-time moms."
 
 ## Re-Targeting Opportunities {#section_29C46BA00B3D43CE8A433EA64072D952}
 
@@ -26,4 +26,4 @@ As a B2B Retailer, you can now deeply analyze the behavior of your prospect audi
 
 ## Demographic Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-As a Destination Resort, you can use [Histograms in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties. 
+As a Destination Resort, you can use [Histograms in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.

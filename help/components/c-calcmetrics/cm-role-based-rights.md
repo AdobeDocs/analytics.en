@@ -34,7 +34,7 @@ Calculated metrics rights differs between Admin-level users and non-Admins.
    <td colname="col1"> <b>Non-Admin-level users</b> </td> 
    <td colname="col02"> By default, users can create calculated metrics. However, these rights may be limited by Administrators. </td> 
    <td colname="col2"> Can share with individual users only </td> 
-   <td colname="col3"> Can view/edit/delete/etc. only their own calculated metrics. <p>Non-admin users must have access to all the component events to be able to see a shared metrics (the permissions in the Admin console are still enforced). </p> <p>If a dashboard or scheduled report is shared with a non-admin user and they don’t have the metric shared with them, the report will run with the metric applied (assuming they have permissions to view the events). However, they will not be able to see the definition or edit the metric. </p> </td> 
+   <td colname="col3"> Can view/edit/delete/etc. only their own calculated metrics. <p>Non-admin users must have access to all the component events to be able to see a shared metrics (the permissions in the Admin console are still enforced). </p> <p>If a dashboard or scheduled report is shared with a non-admin user and they don't have the metric shared with them, the report will run with the metric applied (assuming they have permissions to view the events). However, they will not be able to see the definition or edit the metric. </p> </td> 
    <td colname="col4"> Can only consume approved calculated metrics; cannot mark as approved. </td> 
    <td colname="col5"> Can apply their own calculated metrics and segments that have been shared with them. </td> 
   </tr> 

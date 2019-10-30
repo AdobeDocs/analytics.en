@@ -15,8 +15,8 @@ Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that 
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
->* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models were migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” has not been deprecated - only the two allocation models that appear in calculated metrics have been). 
->* In addition, we corrected the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
+>* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models were migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" has not been deprecated - only the two allocation models that appear in calculated metrics have been).
+>* In addition, we corrected the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
@@ -41,12 +41,12 @@ Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capab
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. 
-* Create segmented metrics that are derived at report run time, [without having to change the implementation](https://youtu.be/CuQTm9RaUpY). These can be viewed historically because they are based on segments. 
-* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company. 
-* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. 
-* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item. 
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa. 
+* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Create segmented metrics that are derived at report run time, [without having to change the implementation](https://youtu.be/CuQTm9RaUpY). These can be viewed historically because they are based on segments.
+* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
+* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session.
+* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
+* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
 
   >[!NOTE]
   >

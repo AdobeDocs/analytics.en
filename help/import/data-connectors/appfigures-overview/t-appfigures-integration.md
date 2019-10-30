@@ -19,7 +19,7 @@ To configure the integration:
 1. Select the Report Suite that you want to use for this integration.
 1. Provide a friendly name to identify this integration, then click **[!UICONTROL Create and Configure this Integration]**.
 
-   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and appFigures fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure. 
+   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and appFigures fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure.
 1. On each page of the data connectors Integration Wizard, provide the required information, as described in the following table:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 

@@ -14,7 +14,7 @@ uuid: eafaf58e-ba07-416f-89b9-694687cc4802
 
 The pageType variable is used only to designate a 404 (Page Not Found) error page.
 
- It has only one possible value, which is errorPage. 
+ It has only one possible value, which is errorPage.
 
 ```js
 pageType="errorPage"
@@ -26,4 +26,4 @@ On a 404 error page, the *`pageName`* variable should not be populated. The *`pa
 pageType=""
 ```
 
-It is best to delete the variable completely from pages containing content. This practice is recommended to avoid confusion regarding the purpose of the variable. 
+It is best to delete the variable completely from pages containing content. This practice is recommended to avoid confusion regarding the purpose of the variable.

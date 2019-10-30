@@ -42,7 +42,7 @@ Full details on the Navigation Timing object can be found here:
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-In addition, the plugin can optionally use the performanceEntries object to record the asset name, asset load time start, and asset load time duration details for each individual asset loaded on a given page. A large amount of information is recorded with this plugin, and as such it requires that the DOM storage object is enabled in order to store the page load information between page views. Please be sure that your company’s privacy policy allows for the use of the DOM storage object before enabling this functionality. It also requires the use of a listVar to track all assets.
+In addition, the plugin can optionally use the performanceEntries object to record the asset name, asset load time start, and asset load time duration details for each individual asset loaded on a given page. A large amount of information is recorded with this plugin, and as such it requires that the DOM storage object is enabled in order to store the page load information between page views. Please be sure that your company's privacy policy allows for the use of the DOM storage object before enabling this functionality. It also requires the use of a listVar to track all assets.
 
 ## Required Supporting Plug-Ins {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -51,9 +51,7 @@ In addition, the plugin can optionally use the performanceEntries object to reco
 
 ## Plug-In Code and Implementation {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should be done only by a developer with experience using and implementing Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should be done only by a developer with experience using and implementing Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 **Config Section (before doPlugins):**
 
@@ -74,9 +72,7 @@ s.ptc = false;
 
 To initialize the plug-in, one line of code is required in the `doPlugins` section of your s_code, preferably after you have designated the `s.pageName`variable. If you wish to utilize the asset load time functionality within the plug-in, you must pass in the name of the list variable to be used. Otherwise, only the performance timing entries will be tracked in the events you previously specified in the `s.pte` variable.
 
->[!NOTE]
->
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. We recommend comparing these performance entries with either the previous page name or the previous page URL value.
+> [!NOTE] In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. We recommend comparing these performance entries with either the previous page name or the previous page URL value.
 
 *Sample Calls*
 
@@ -150,10 +146,10 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 
 ## Notes {#section_131C5D97A0094880AFC3A2BBE0BC9DE4}
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment. 
-* Because the plug-in passes the performance data as they are associated with the previous page, data is not collected for the final page view of the visit. 
-* If you are tracking asset timing, this plug-in relies on the ability to set DOM storage values in the user's web browser. If the user does not accept cookies and have DOM storage enabled, the plug-in will not pass data into Analytics. 
-* A very small percentage of users will not pass navigation timing data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result - particularly with a small portion of mobile browsers. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari. 
+* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment.
+* Because the plug-in passes the performance data as they are associated with the previous page, data is not collected for the final page view of the visit.
+* If you are tracking asset timing, this plug-in relies on the ability to set DOM storage values in the user's web browser. If the user does not accept cookies and have DOM storage enabled, the plug-in will not pass data into Analytics.
+* A very small percentage of users will not pass navigation timing data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result - particularly with a small portion of mobile browsers. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari.
 * [!UICONTROL Calculated Metrics] should be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
     * Average Redirect Timing (Redirect Timing/Performance Timing Instances) 

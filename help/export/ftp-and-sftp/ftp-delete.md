@@ -22,6 +22,6 @@ These policies remain in effect for all FTP accounts moving forward from the Jul
 
 To assist us in this process, and to ensure the enhanced FTP environment continues to provide secure and reliable data transfer for our customers, we ask our customers to do the following:
 
-* Remove outgoing data from the FTP system after that data has been successfully transferred to your in-house environment. Adobe identifies and removes any files left on the system after 90 days. 
+* Remove outgoing data from the FTP system after that data has been successfully transferred to your in-house environment. Adobe identifies and removes any files left on the system after 90 days.
 * Notify Adobe when FTP accounts are no longer needed so they can be deactivated and removed.
 

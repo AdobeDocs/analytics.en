@@ -18,9 +18,7 @@ Data Warehouse automatically zips any file that exceeds 1 MB in size. The maximu
 
 Data Warehouse can process an unlimited number of rows in a single request for individual scheduled and downloaded reports.
 
->[!NOTE]
->
->Data Warehouse reports the first value encountered in the reporting period.
+> [!NOTE] Data Warehouse reports the first value encountered in the reporting period.
 
 >[!IMPORTANT]
 >
@@ -28,7 +26,7 @@ Data Warehouse can process an unlimited number of rows in a single request for i
 
 ## Data Warehouse Requests Descriptions {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab. 
+This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 

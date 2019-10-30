@@ -19,27 +19,27 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 Possible reasons:
 
-* Reverse nesting - for example, nesting a Visitor container under a Visit container. 
-* The report does not support segmentation. 
+* Reverse nesting - for example, nesting a Visitor container under a Visit container.
+* The report does not support segmentation.
 * There is no data matching the segmentation criteria.
 
 ## Why can't I see the segment I created in the Segment Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Possible reasons:
 
-* Some dimensions are available only in Data Warehouse and not in the Segment Manager. 
-* Segment is not compatible with Reports & Analytics. 
-* Segment is checked only for a specific report suite. 
-* A shared segment might have been deleted by another user. 
-* Segments could not loaded due to a data center or Browser Cache issue. 
-* The segment has not been saved. 
+* Some dimensions are available only in Data Warehouse and not in the Segment Manager.
+* Segment is not compatible with Reports & Analytics.
+* Segment is checked only for a specific report suite.
+* A shared segment might have been deleted by another user.
+* Segments could not loaded due to a data center or Browser Cache issue.
+* The segment has not been saved.
 * IP address may be blocked at the user's end.
 
 ## Why does the Page Data shown after applying a segment seem incorrect? {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Possible reasons:
 
-* Rules/Operators are incorrect for the required result. 
-* Incorrect application of containers to the segment. 
+* Rules/Operators are incorrect for the required result.
+* Incorrect application of containers to the segment.
 * Traffic variables used to segment are not set properly or are expired.
 

@@ -20,7 +20,7 @@ The admin log reports all changes made by administrators in admin tools. The log
 
 ## Usage and Access Log {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
-The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user account level. For example, it tracks open, create, update, unshare and delete actions in Analysis Workspace. This allows for better visibility into who is using Workspace, and how often. 
+The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user account level. For example, it tracks open, create, update, unshare and delete actions in Analysis Workspace. This allows for better visibility into who is using Workspace, and how often.
 
 |  Element  | Description  |
 |---|---|
@@ -39,7 +39,7 @@ The Report Suite Change log displays changes made to your report suites outside 
 Tools that can modify a report suite from outside the [!UICONTROL Admin Tools] include:
 
 * Classifications uploads made in a web browser (Classifications uploads made via FTP are not included in the change log) 
-* Changes made in earlier versions. 
+* Changes made in earlier versions.
 * Changes made by an account representative or Customer Care using internal tools
 
 |  Element  | Description  |

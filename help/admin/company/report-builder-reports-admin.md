@@ -18,4 +18,4 @@ You can grant report builder access to any [!DNL Analytics] user by adding them 
 
 The [!UICONTROL Scheduled Task Usage] information table displays all users with report builder access privileges.
 
-See [Groups](/help/admin/user-management2/c-user-groups/groups.md). 
+See [Groups](/help/admin/user-management2/c-user-groups/groups.md).

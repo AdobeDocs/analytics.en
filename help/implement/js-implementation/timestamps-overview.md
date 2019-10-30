@@ -16,12 +16,10 @@ Learn about the benefits and constraints of using Timestamps Optional setting.
 Timestamps Optional is the default setting for all new report suites.
 
 * Mix timestamped and non-timestamped data in the same global report suite.
-* Send timestamped data from a mobile app to a global report suite. 
+* Send timestamped data from a mobile app to a global report suite.
 * Upgrade apps to employ timestamps without having to create a new report suite.
 
->[!NOTE]
->
->Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
+> [!NOTE] Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
 See [Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) for additional setup information.
 
@@ -42,7 +40,7 @@ A report suite can have one of the following timestamp settings:
 
 ## About Timestamps Optional Features {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
-Timestamps Optional allows you to integrate and report across multiple report suites with or without client-side timestamps included. With Timestamps Optional you can update your app to employ timestamps while still using non-timestamped data from the previous app. 
+Timestamps Optional allows you to integrate and report across multiple report suites with or without client-side timestamps included. With Timestamps Optional you can update your app to employ timestamps while still using non-timestamped data from the previous app.
 
 |In previous releases...|In addition...|
 |--- |--- |
@@ -52,7 +50,7 @@ Timestamps Optional allows you to integrate and report across multiple report su
 
 ## Combining Data into a Global Report Suite {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
-Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources. 
+Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources.
 
 ![](assets/timestamp_v_non9.png)
 
@@ -66,13 +64,13 @@ The following are best practices and a few requirements and restrictions to be a
 
 * In general, timestamps for a given visitor or visit must arrive at Adobe in the correct chronological order.
 
-  Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports. 
+  Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
   ![](assets/timestamp_v_non8.png)
 
 * Using timestamps when setting a [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) is not recommended. It can lead to out-of-order data.
 
-* Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session. 
+* Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
 
   ![](assets/timestamp_v_non.png)
 

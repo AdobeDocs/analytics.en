@@ -13,7 +13,7 @@ uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 
 The table below displays variable to report mapping for the variables used to populate Analytics reports.
 
-Each variable is listed with the reports that use the variable listed next to it. 
+Each variable is listed with the reports that use the variable listed next to it.
 
 <table id="table_16443E46AC0E46509F8533D26EDE1BCC"> 
  <thead> 

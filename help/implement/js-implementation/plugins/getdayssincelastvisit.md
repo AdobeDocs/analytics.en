@@ -26,9 +26,7 @@ This return frequency data can be used to answer the following questions:
 
 The plug-in can also generate values used for segmentation. For example, you can create a segment to view all of the data for only those visits that were preceded by 30 or more days of non-visitation by the user.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code and Implementation {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -45,7 +43,7 @@ s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
 **PLUGINS SECTION** 
-Add the following code to the area of the [!DNL s_code.js] file labeled *PLUGINS SECTION*. Do not make any changes to this portion of the plug-in code. 
+Add the following code to the area of the [!DNL s_code.js] file labeled *PLUGINS SECTION*. Do not make any changes to this portion of the plug-in code.
 
 ```js
 /* 
@@ -69,7 +67,7 @@ s.getDaysSinceLastVisit=new Function("c",""
 
 **Notes**
 
-* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
+* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.
 * The plug-in categorizes users by return frequency into the following groups:
 
     * First Visit 

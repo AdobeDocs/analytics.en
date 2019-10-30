@@ -20,7 +20,7 @@ A: Please review [Enable Activity Map](/help/analyze/activity-map/activitymap-ge
 
 **Q: Do all Analytics customers have access to the Admin Tools ActivityMap Enablement page?**
 
-A: Adobe SiteCatalyst customers do not have access to the Admin Console’s Activity Map Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.
+A: Adobe SiteCatalyst customers do not have access to the Admin Console's Activity Map Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.
 
 **Q: Can the new AppMeasurement code be configured through Dynamic Tag Management (DTM)?**
 
@@ -75,7 +75,7 @@ The Metric drop-down lets you limit the list of calculated metrics to the ones a
 
 **Q: How does the Activity Map All Links Report compare with Reports & Analytics Activity Map reporting?**
 
-A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = “visitedpage”, broken down by Activity Map Link&Region in `<list of link&regions present in the page at rendering time>`.
+A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = "visitedpage", broken down by Activity Map Link&Region in `<list of link&regions present in the page at rendering time>`.
 
 To get an equivalent report in Reports & Analytics, you would need to first navigate to the Activity Map Page report. There, you would filter for the visited pagename in Activity Map. The visited Pagename is shown in the left column in the Activity Map Page Details Bottom Panel. Once the page has been found, you can break down from that page and choose Activity Map Links & Regions as a secondary dimension.
 

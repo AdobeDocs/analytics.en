@@ -13,7 +13,7 @@ Identifying internal and external traffic promotes greater accuracy in all types
 
 ## How does the Internal Traffic plugin work?
 
-The plugin attempts to load a file that would only be available within your internal network/intranet, i.e. a 1x1 transparent pixel. If it is loaded successfully, traffic for that visitor would be identified as internal. Anything else would be external traffic. 
+The plugin attempts to load a file that would only be available within your internal network/intranet, i.e. a 1x1 transparent pixel. If it is loaded successfully, traffic for that visitor would be identified as internal. Anything else would be external traffic.
 
 ## Considerations
 
@@ -23,16 +23,16 @@ The plugin attempts to load a file that would only be available within your inte
 
 ## Implementation
 
-1. Add your Intranet Pixel: You can add any type of file on your intranet that the plugin would attempt to access. A 1x1 transparent pixel is recommended. It should be placed in a location on your Intranet that is widely accessible from within your internal network(s). 
-1. Configure an eVar: An eVar will need to be added within your destination report suite. It should have an expiration of “Visit” and allocation of “Original Value (First)”.
+1. Add your Intranet Pixel: You can add any type of file on your intranet that the plugin would attempt to access. A 1x1 transparent pixel is recommended. It should be placed in a location on your Intranet that is widely accessible from within your internal network(s).
+1. Configure an eVar: An eVar will need to be added within your destination report suite. It should have an expiration of "Visit" and allocation of "Original Value (First)".
 1. Define the internal URL: Within the AppMeasurement configuration variables and before doPlugins is instantiated, define the internal URL variable (s.intURL) for the pixel or other file can be used for the traffic check. For example: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
 1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”. 
-1. Add the Plugin Source Code: Include the plugin code below the doPlugins section of your AppMeasurement file. 
+The variable value will be set to "internal" or "external".
+1. Add the Plugin Source Code: Include the plugin code below the doPlugins section of your AppMeasurement file.
 
 ## Plugin source code
 
-Add this code below the doPlugins section of your AppMeasurement library. 
+Add this code below the doPlugins section of your AppMeasurement library.
 
 ```JavaScript
 s.intCheck=new Function("",""

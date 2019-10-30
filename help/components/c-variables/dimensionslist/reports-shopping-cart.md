@@ -14,6 +14,6 @@ Displays the number of shopping carts that are opened during the specified time 
 
 You can use [!UICONTROL Shopping Cart] to:
 
-* Determine patterns, highs, or lows in the number of carts opened on your site. 
+* Determine patterns, highs, or lows in the number of carts opened on your site.
 * Examine specific time periods learn more information about the metrics that specifically contributed to the opening of the cart.
 

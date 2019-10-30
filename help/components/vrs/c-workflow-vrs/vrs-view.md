@@ -17,9 +17,9 @@ Click the i (Info) icon next to the report suite name to get info about it.
 
 Clicking the Info icon next to the virtual report suite in the Report Suite selector provides this information:
 
-* The name of the parent report suite. 
-* The name of any segments applied to it. 
-* A simple preview of the report suite with the applied segment. 
+* The name of the parent report suite.
+* The name of any segments applied to it.
+* A simple preview of the report suite with the applied segment.
 * Total Unique Visitor count.
 
 ![](assets/vrs-info.png)

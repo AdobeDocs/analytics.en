@@ -24,9 +24,7 @@ Place the following code within the *`s_doPlugins()`* function, which is located
 
 `s.prop1=s.getVisitNum();`
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 **PLUGINS SECTION**: Add the following code to the area of the [!DNL s_code.js] file labeled PLUGINS SECTION. Do not make any changes to this portion of the plug-in code.
 
@@ -58,16 +56,16 @@ s.endof=new Function("x",""
 
 * tp = (string, optional) Tracking period. use "d" for day, "w" for week, "m" for month, or a number for a custom number of days.
 
-    * If day, week, or month is selected then the visit number will reset at the end of the day/week/month. 
-    * If a custom number of days is selected then the visit number will reset after that number of days. 
+    * If day, week, or month is selected then the visit number will reset at the end of the day/week/month.
+    * If a custom number of days is selected then the visit number will reset after that number of days.
     * If no value is provided then "m" will be used.
 
-* c = (string, optional) Specify the persistent cookie name. Default is 's_vnum'. 
+* c = (string, optional) Specify the persistent cookie name. Default is 's_vnum'.
 * c2 = (string, optional) Specify the session cookie name. Default is 's_invisit'
 
 **Returns**
 
-* returns the visit number (1,2,3,etc) of the visit. This number is incremented only on the first page of each visit. 
+* returns the visit number (1,2,3,etc) of the visit. This number is incremented only on the first page of each visit.
 * returns "unknown visit number" if the plug-in is unable to identify the visit number (cookies are blocked).
 
 **Examples**
@@ -81,6 +79,6 @@ s.prop1=s.getVisitNum('d'); //resets daily
 
 **Notes**
 
-* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
+* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.
 * This plug-in relies on the ability to set cookies in the user's web browser. If the user does not accept cookies, all visits will appear to be first visits.
 

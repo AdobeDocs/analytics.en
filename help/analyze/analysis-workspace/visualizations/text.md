@@ -22,4 +22,4 @@ After dragging a Text visualization into a panel and adding text, you can format
 
 ![](assets/rich-text2.png)
 
-Highlight text and click the hyperlink icon in the formatting menu to add hyperlinks. 
+Highlight text and click the hyperlink icon in the formatting menu to add hyperlinks.

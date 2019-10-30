@@ -37,7 +37,7 @@ Let's explore the first question: How does content browsing behavior compare bet
 
    ![](assets/german-visitors.png)
 
-1. Repeat Step 3 with the International Visitors segment and the Unique Visitors metric to create an International Visitors metric. 
+1. Repeat Step 3 with the International Visitors segment and the Unique Visitors metric to create an International Visitors metric.
 1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
 
    ![](assets/workspace-pages.png)
@@ -50,7 +50,7 @@ Let's explore the first question: How does content browsing behavior compare bet
 
 You can introduce another level of inquiry by comparing visitor browsing behavior in normalized percentages. To do so, create, two new metrics, "% of Total German Visitors" and "% of Total International Visitors":
 
-1. Drop the German (or International) Visitors segment into the canvas. 
+1. Drop the German (or International) Visitors segment into the canvas.
 1. Drop another German (or International) Visitors segment below. However, this time, click its configuration (gear) icon to select the Metric Type "Total". The Format should be "Percent". The operator should be "divided by". You end up with this metric definition:
 
    ![](assets/cm_metric_total.png)
@@ -71,12 +71,12 @@ If you want to see the biggest differences between US and International browsing
 
    ![](assets/cm_container_us.png)
 
-1. Create another container below and drop the "% of Total International Visitors" metric into it. 
+1. Create another container below and drop the "% of Total International Visitors" metric into it.
 1. Change the operator between the 2 containers to a minus (-).
 
    ![](assets/cm_container_intl.png)
 
-1. Save the metric (make sure you have named it something like "Difference in % between US and Int'l."). 
+1. Save the metric (make sure you have named it something like "Difference in % between US and Int'l.").
 1. When applied to the report, you can easily where the greatest differences in percentages are, and you can sort the report accordingly.
 
    ![](assets/cm_diff_percent.png)

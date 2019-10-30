@@ -25,7 +25,7 @@ Steps that describe how to configure success events.
    >
    >Before you change an event type, see [Change event type](/help/admin/admin/c-success-events/event-type.md).
 
-   See [Success Events Page - Descriptions](/help/admin/admin/c-success-events/success-event.md) for information about these elements. 
+   See [Success Events Page - Descriptions](/help/admin/admin/c-success-events/success-event.md) for information about these elements.
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.

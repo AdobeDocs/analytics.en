@@ -15,15 +15,13 @@ To begin using Analytics, data must be sent to a report suite to display in repo
 
 The easiest and recommended way to send data to [!DNL Analytics] is by using [Launch](/help/implement/implement-with-launch/create-analytics-property.md). However, in some cases, you might want to implement Analytics using the older JavaScript method.
 
->[!NOTE]
->
->This section describes the legacy method of implementing Analytics. All Analytics customers have access to [Launch](/help/implement/implement-with-launch/create-analytics-property.md), which is the standard method to deploy Experience Cloud tags.
+> [!NOTE] This section describes the legacy method of implementing Analytics. All Analytics customers have access to [Launch](/help/implement/implement-with-launch/create-analytics-property.md), which is the standard method to deploy Experience Cloud tags.
 
 ## Implementation Steps {#section_73961BAD5BB4430A95E073DE5C026277}
 
 To successfully implement a page with code to collect data, you must have access to your hosting servers to upload new content to your website. It is also useful to have an existing site to implement code.
 
-The following steps walk you through a basic Analytics implementation. 
+The following steps walk you through a basic Analytics implementation.
 
 | Task | Description |
 |--- |--- |

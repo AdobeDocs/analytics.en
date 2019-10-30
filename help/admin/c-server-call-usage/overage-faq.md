@@ -46,7 +46,7 @@ uuid: 43340481-2e49-446b-bec7-86fcadeb4233
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: My contract does not include a provision for secondary server calls but I still see them under the Current Usage and Report Suite Usage tabs. Does this mean I will start incurring overages?</b> </p> </td> 
-   <td colname="col2"> <p>A: Whether you would start incurring overages when you send in secondary server calls without being provisioned for them depends on your contract. In some cases, secondary-server-call consumption might count against your commitment for primary server calls, depleting them at a rate faster than you anticipated. In other cases, you could be billed for secondary server calls even if you haven’t consumed all your primary server calls. Please refer to your contract or contact your Customer Success Manager to confirm. </p> </td> 
+   <td colname="col2"> <p>A: Whether you would start incurring overages when you send in secondary server calls without being provisioned for them depends on your contract. In some cases, secondary-server-call consumption might count against your commitment for primary server calls, depleting them at a rate faster than you anticipated. In other cases, you could be billed for secondary server calls even if you haven't consumed all your primary server calls. Please refer to your contract or contact your Customer Success Manager to confirm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: My contract/usage period just began, and I am already receiving alerts about exceeding my secondary server call commitment. Is this a bug and will I start being billed overages? </b> </p> </td> 

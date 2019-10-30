@@ -14,9 +14,9 @@ You can even add segments within a touchpoint. For example, you might want to co
 
 There is no limitation on the number of steps you can add or the number of dimensions used.
 
-You can do pathing on eVars, including merchandising eVars and [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they’re looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
+You can do pathing on eVars, including merchandising eVars and [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
 
-1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table]. 
+1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 
 1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
 
@@ -26,7 +26,7 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
 
    The circled numbers in the gray portion of the bar show the fallout between touchpoints (not the overall fallout to that point). The Touchpoint % shows the successful fallthrough from the previous step to the current step in the fallout report.
 
-   You can also add a single page to the fallout report, rather than the entire dimension. Click the right arrow ">" on the page dimension to pick the specific page to add to the fallout report. 
+   You can also add a single page to the fallout report, rather than the entire dimension. Click the right arrow ">" on the page dimension to pick the specific page to add to the fallout report.
 
 1. Continue adding touchpoints until your sequence is complete.
 

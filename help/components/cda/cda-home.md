@@ -27,7 +27,7 @@ As of September 2019, Cross-Device Analytics requires the following. Work with t
 
 * Your organization's data must reside within Adobe's Pacific Northwest data center. Support for data centers in other regions of the world is planned.
 * Contact your organization's Account Manager to establish these key points:
-  * A contract must be signed with Adobe that includes Adobe Analytics Ultimate. 
+  * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
   * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in the Device Co-op user guide.
   * Your organization must agree to allow Adobe to process and store Analytics data on Microsoft Azure servers. Adobe uses Azure to store device graph data and perform device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe's presence in Microsoft Azure.
 * Cross-Device Analytics is enabled on a per-report suite basis. Report suites that have been enabled for CDA require the following:

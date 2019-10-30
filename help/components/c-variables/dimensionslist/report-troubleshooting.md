@@ -14,7 +14,7 @@ uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 Adobe Analytics provides a flexible reporting interface that lets you generate a variety of complex reports. While most reports generate very quickly, you might encounter reports that timeout or fail to generate successfully. To help avoid report generation failures, this section explains many factors that impact report generation speed. Understanding this information can help you structure reports so they are more likely to generate successfully.
 
 >[!Note]
->These recommendations apply to Reports & Analytics, Ad Hoc Analysis, and Report Builder. 
+>These recommendations apply to Reports & Analytics, Ad Hoc Analysis, and Report Builder.
 >They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not >apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). An additional set of 
 >[best practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) is available for the Adobe Analytics Reporting API.
 
@@ -56,7 +56,7 @@ Reports that contain hundreds of thousands of unique values generate more slowly
 
 In addition to reducing the time range, number of metrics, and number of breakdowns in a report, the following guidelines help increase reliability of report delivery:
 
-* Use Data Warehouse to request reports that contain many breakdowns or metrics. Data Warehouse is designed to generate these types of reports. 
-* Schedule reports to run during non-peak hours. This increases the likelihood of a report returning because the request queue for a report suite is more likely to be empty during those times. 
+* Use Data Warehouse to request reports that contain many breakdowns or metrics. Data Warehouse is designed to generate these types of reports.
+* Schedule reports to run during non-peak hours. This increases the likelihood of a report returning because the request queue for a report suite is more likely to be empty during those times.
 * Report Builder can be used to break reports into smaller time ranges and requests that contain fewer metrics. You can then use native Excel functionality to merge data from various requests into a single report.
 

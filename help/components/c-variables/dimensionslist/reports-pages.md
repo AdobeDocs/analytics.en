@@ -14,7 +14,7 @@ Ranks the pages on your site based on the pages that receive the most traffic. I
 
 ## Allocation, Expiration, and Special Values {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
-Note that in Reports & Analytics, metrics on the Pages Report use linear allocation. For example, revenue is split between all pages viewed before a purchase event. This can cause confusion for some metrics that you might expect to occur only on one page, such as a shopping cart addition. 
+Note that in Reports & Analytics, metrics on the Pages Report use linear allocation. For example, revenue is split between all pages viewed before a purchase event. This can cause confusion for some metrics that you might expect to occur only on one page, such as a shopping cart addition.
 
 <table id="table_EC7423532C7E44DE97B7FC0321585A2B"> 
  <thead> 
@@ -83,7 +83,7 @@ Even if the event is sent on an s.tl call, the page viewed prior to the event th
 
 ## Notes {#section_47B0F4746D4847AC9E8697127063F4D0}
 
-* If no page name exists, the URL is used. 
-* If you have a hit with no page name, page URL, or event list (no commerce event), the hit is excluded. 
+* If no page name exists, the URL is used.
+* If you have a hit with no page name, page URL, or event list (no commerce event), the hit is excluded.
 * Breakdowns on pages show all pages that had a value persisted.
 

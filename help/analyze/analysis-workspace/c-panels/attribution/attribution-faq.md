@@ -30,7 +30,7 @@ Attribution is recalculated at report runtime, so there is no difference between
 
 No. Attribution models use report time processing, which is only available in Analysis Workspace. See [Report time processing](../../../../components/vrs/vrs-report-time-processing.md) for more information.
 
-**Are attribution models only available if I’m using a virtual report suite with report time processing enabled?**
+**Are attribution models only available if I'm using a virtual report suite with report time processing enabled?**
 
 Attribution models are available outside of virtual report suites. While they use report time processing on the backend, attribution models are available to both standard report suites and virtual report suites.
 

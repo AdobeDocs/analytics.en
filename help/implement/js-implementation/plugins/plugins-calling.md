@@ -41,9 +41,7 @@ function s_doPlugins(s) {
 s.doPlugins=s_doPlugins
 ```
 
->[!NOTE]
->
->H code and earlier versions use a different syntax to support some very old browsers (such as IE 4 and 5).
+> [!NOTE] H code and earlier versions use a different syntax to support some very old browsers (such as IE 4 and 5).
 
 ## Renaming the doPlugins Function {#section_70B7D58E057B48058E25907AB3726725}
 
@@ -98,7 +96,7 @@ To find out whether a plug-in is included in your JavaScript file and ready for 
 s.getQueryParam=new Function("qp","d","" 
 +"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 
 ```

@@ -40,7 +40,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites > [select report suite] > Edit Settings > Activity Map]** > **[!UICONTROL Activity Map Reporting]** . 
 1. Activity Map collects the link data in Activity Map reports. For the activation to happen, you must first activate the variables by clicking **[!UICONTROL Enable Activity Map Reports]**.
 
-   This step adds all the Analytics dimensions that you need to collect data. 
+   This step adds all the Analytics dimensions that you need to collect data.
 
 1. After about an hour, check the [Activity Map Page report](/help/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
 
@@ -48,14 +48,10 @@ First, you need to enable Activity Map reports at a report-suite level.
 
 1. Click **[!UICONTROL Add Users to Group]**.
 
-   This will take you to the group management page in the Admin Console. 
+   This will take you to the group management page in the Admin Console.
 
-1. [Add users to this group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and **[!UICONTROL Save Group]**. 
+1. [Add users to this group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and **[!UICONTROL Save Group]**.
 
-1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** . 
+1. This allow your Admin users to download Activity Map from  **Adobe Analytics** > **[!UICONTROL Tools]** > **ActivityMap** .
 
-<note>
-  If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
- <span class="uicontrol"> Tools </span> > 
- <span class="uicontrol"> Legacy ClickMap Installation </span>. You can then add Non-Admin users to this group. This level of permission combined with the Activity Map Access will provide comprehensive permissions to download and use the tool. 
-</note>
+> [!NOTE] If you want non-admin users to download Activity Map, create a new user group that provides permission to 'Tools' and 'Legacy ClickMap Installation'. This level of permission combined with the Activity Map Access provides permissions to download and use the tool.

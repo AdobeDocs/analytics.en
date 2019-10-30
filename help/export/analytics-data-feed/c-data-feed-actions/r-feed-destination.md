@@ -31,7 +31,7 @@ If you select to have data uploaded to your FTP server, you must provide Adobe w
 
 Data feed data can be delivered to an Adobe or customer hosted sFTP location.
 
-If you select to have data uploaded to your FTP server, you must provide Adobe with the appropriate username and upload path. 
+If you select to have data uploaded to your FTP server, you must provide Adobe with the appropriate username and upload path.
 
 <!-- 
 

@@ -42,7 +42,7 @@ Activity Map browser plug-ins:
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**. 
 1. Click **[!UICONTROL Allow]** when this message appears: ![](assets/firefox_install2.png)
 
-1. Click **[!UICONTROL Install Now]**. 
+1. Click **[!UICONTROL Install Now]**.
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Activity Map should be listed as one of the Firefox Add-ons. 

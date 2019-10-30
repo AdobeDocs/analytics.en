@@ -13,7 +13,7 @@ uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 
 The following tables lists the query parameter that contains the value for each analytics variable that is sent to data collection.
 
-This information can be used when debugging using [Packet Analyzers](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), when manually constructing image requests, or when using [Dynamic Variables](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262). 
+This information can be used when debugging using [Packet Analyzers](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), when manually constructing image requests, or when using [Dynamic Variables](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 

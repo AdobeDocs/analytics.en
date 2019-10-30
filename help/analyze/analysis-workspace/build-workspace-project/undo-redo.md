@@ -10,14 +10,14 @@ uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu. 
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* Clicking **[!UICONTROL Save]** does not clear the **[!UICONTROL Undo]** stack. 
+* Clicking **[!UICONTROL Save]** does not clear the **[!UICONTROL Undo]** stack.
 
 * **[!UICONTROL New Project]** or **[!UICONTROL Open Existing Project]** clear the **[!UICONTROL Undo]** stack 
 
-* You can undo/redo changing the report suite. 
-* An undo/redo message displays near the project name - it indicates when an undo or redo is in progress. 
+* You can undo/redo changing the report suite.
+* An undo/redo message displays near the project name - it indicates when an undo or redo is in progress.
 * You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
     * CTRL(CMD)+Z for Undo 

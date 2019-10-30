@@ -16,4 +16,4 @@ By specifying the hierarchy depth (the default is 10 levels), you can view the o
 
 To improve consistency throughout Analytics, the Hierarchy Views metric is being renamed to Page Views, and an Instances metric is now available in the Hierarchy report.
 
-Before August 2015, the Hierarchy Views metric was equivalent to Instances. From 20 August 2015 to 15 October 2015, the Hierarchy Views metric was equivalent to Page Views as a result of a change in the system. Removing the Hierarchy Views metric entirely will ensure that you have a better understanding of the data it represents, because you will be able to use either Page Views or Instances explicitly. 
+Before August 2015, the Hierarchy Views metric was equivalent to Instances. From 20 August 2015 to 15 October 2015, the Hierarchy Views metric was equivalent to Page Views as a result of a change in the system. Removing the Hierarchy Views metric entirely will ensure that you have a better understanding of the data it represents, because you will be able to use either Page Views or Instances explicitly.

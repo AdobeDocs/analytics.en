@@ -23,7 +23,7 @@ To activate the integration you must complete the Selligent integration wizard w
 
    ![](assets/selligent-add_integration.png)
 
-   This will open up the Selligent Data Connector Integration. 
+   This will open up the Selligent Data Connector Integration.
 
 1. **Integration Settings**: Choose the desired Report Suite and provide a name for the integration under **[!UICONTROL Integration Settings]**.
 
@@ -35,10 +35,10 @@ To activate the integration you must complete the Selligent integration wizard w
 
    ![](assets/selligent-variables.png)
 
-1. **Data Settings**: You may choose your own segments under **[!UICONTROL Your Segments]** apart from the 3 automated **[!UICONTROL Partner]** segments. 
+1. **Data Settings**: You may choose your own segments under **[!UICONTROL Your Segments]** apart from the 3 automated **[!UICONTROL Partner]** segments.
 
-1. This integration may require downloading a few data point to your Selligent account. You may choose to give access for the same under **[!UICONTROL Access Request]**. 
-1. Under **[!UICONTROL Data Collection]**, choose an automated or manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. If you choose an automated solution, enter your query string parameter for Message ID and Recipient ID which is MID and RID respectively. For JavaScript Plug-in, contact your Adobe Consultant. 
+1. This integration may require downloading a few data point to your Selligent account. You may choose to give access for the same under **[!UICONTROL Access Request]**.
+1. Under **[!UICONTROL Data Collection]**, choose an automated or manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. If you choose an automated solution, enter your query string parameter for Message ID and Recipient ID which is MID and RID respectively. For JavaScript Plug-in, contact your Adobe Consultant.
 1. **Report Settings**: Under **[!UICONTROL Dashboard Generation]**, check the box to have the Selligent dashboard automatically generated for you.
 
    ![](assets/selligent-report_settings.png)
@@ -71,6 +71,6 @@ Navigate to your Selligent Integration within Data Connectors. Under the **[!UIC
 
 View your Selligent Message reports with appropriate metrics.
 
-1. Go to Report & Analytics under Adobe Experience Cloud. 
-1. Select the appropriate Report Suite. 
+1. Go to Report & Analytics under Adobe Experience Cloud.
+1. Select the appropriate Report Suite.
 1. Under **[!UICONTROL Custom Conversion]**, select the **[!UICONTROL Message ID Reports]** and choose **[!UICONTROL Message ID/Message Name]**.

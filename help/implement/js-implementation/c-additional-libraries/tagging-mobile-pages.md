@@ -43,9 +43,9 @@ It is important that the /5/ always appears correctly in the path. This is used 
 
 If the default image type is not supported on a particular device, no data is returned. To avoid this, you can force the Adobe data collection server to return a particular graphic type that the mobile device supports. The code following the report suite name specifies the image type:
 
-* `/5/` returns the default image type. 
-* `/5.1/` or `/1/` always returns a GIF image. 
+* `/5/` returns the default image type.
+* `/5.1/` or `/1/` always returns a GIF image.
 
 * `/5.5/` always returns a WBMP image.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49). 
+See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).

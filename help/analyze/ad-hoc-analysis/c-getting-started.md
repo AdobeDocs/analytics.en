@@ -13,7 +13,7 @@ uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 
 You can perform instantaneous, advanced analysis on website activity. You can view multiple reports simultaneously and apply segments across multiple dimensions. You can analyze the data from both micro and macro perspectives to view their impact on your important business metrics.
 
-These features enable you to answer questions about site traffic, visitor demographics, revenue, and product movement. You can then filter, sort, and segment your data to find the answers to precise questions. The results are returned almost instantaneously, enabling you to quickly analyze the effects of a combination of factors. 
+These features enable you to answer questions about site traffic, visitor demographics, revenue, and product movement. You can then filter, sort, and segment your data to find the answers to precise questions. The results are returned almost instantaneously, enabling you to quickly analyze the effects of a combination of factors.
 
 <table id="table_C9C0444687FC418580F996E1D2ADB61A"> 
  <thead> 
@@ -62,13 +62,11 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
+> [!NOTE] As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
 
 * Video card supporting OpenGL 2.0 
 * Cookies: Required 
-* Operating System: Windows and Mac OS. 
+* Operating System: Windows and Mac OS.
 * Macromedia Flash Player: version 6 or later 
 * Monitor Resolution: 800x600 (1024x768 recommended) 
 * Color Depth: 16-bit or greater 
@@ -87,9 +85,9 @@ If you still have Java 7 installed, you must upgrade before the July 2018 Mainte
 
 * If you are allowed to install programs on your machine:
 
-  1. Go to https://www.java.com. 
-  1. Click **[!UICONTROL Free Java Download]**. 
-  1. Click **[!UICONTROL Agree and Start Free Download]**. 
+  1. Go to https://www.java.com.
+  1. Click **[!UICONTROL Free Java Download]**.
+  1. Click **[!UICONTROL Agree and Start Free Download]**.
   1. Install the latest Java version specific to your Operating System.
 
 * If you are **not** allowed to install programs on your machine:
@@ -104,7 +102,7 @@ c_login.xml
 
  -->
 
-You can log in from the [!DNL Experience Cloud] or from a URL. If you log in from Reports and Analytics, you are automatically logged in. Logging in using a URL is necessary only if you access the ad hoc analysis URL from another location, such as a link or from a favorites menu. 
+You can log in from the [!DNL Experience Cloud] or from a URL. If you log in from Reports and Analytics, you are automatically logged in. Logging in using a URL is necessary only if you access the ad hoc analysis URL from another location, such as a link or from a favorites menu.
 
 ## Log In from the Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
@@ -142,7 +140,7 @@ You group reports into a *workspace*. A project can contain multiple workspaces,
 
 You can open only one project at a time. However, you can open multiple workspaces in a project. In each workspace you can have several reports open.
 
-The default date range for a new project is [!UICONTROL Last 90 Days]. 
+The default date range for a new project is [!UICONTROL Last 90 Days].
 
 ## Start a Project {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -170,7 +168,7 @@ t_recent_workspace.xml
 
 1. Click **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
 
-   You can open up to five recent workspaces. Recent workspaces are not available after exiting your session. 
+   You can open up to five recent workspaces. Recent workspaces are not available after exiting your session.
 
 ## Share Projects {#task_5911780D90164F3A8A677C8BC719750D}
 
@@ -189,7 +187,7 @@ t_share_projects.xml
 
 1. Click **[!UICONTROL Save]** to save the project.
 
-   Shared projects can be opened via **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**. 
+   Shared projects can be opened via **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**.
 
    >[!NOTE]
    >
@@ -232,7 +230,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report. 
+You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
 
 |Template|Description|
 |--- |--- |
@@ -257,6 +255,6 @@ t_reports_opening.xml
 
 Several ways are available to open a report:
 
-* On the [!UICONTROL New Report] page, search for a report or choose a template. 
-* Click **[!UICONTROL Reports]** from the menu, then select a report or report template. 
+* On the [!UICONTROL New Report] page, search for a report or choose a template.
+* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
 * Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.

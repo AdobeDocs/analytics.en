@@ -12,7 +12,7 @@ uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 
 Steps that describe how to designate which eVar contains your visitor identifier.
 
-This variable designates an eVar to contain your unique visitor identifier. This variable lets you report on customer activity using your own unique identifier. 
+This variable designates an eVar to contain your unique visitor identifier. This variable lets you report on customer activity using your own unique identifier.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

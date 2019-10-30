@@ -93,9 +93,7 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 Release Date: **05/24/2018**
 
->[!NOTE]
->
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+> [!NOTE] Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483) 
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332) 
@@ -236,9 +234,7 @@ Updated: **8/18/2016**
 * Updated [!DNL AppMeasurement] to read and write AMCV cookies. (AN-127098) 
 * Inclusion of Visitor API 1.7.0.
 
->[!NOTE]
->
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+> [!NOTE] Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -254,14 +250,14 @@ Updated: **8/4/2016**
 
 Release Date: **July 21, 2016**
 
-* Inclusion of Visitor API 1.6.0. 
+* Inclusion of Visitor API 1.6.0.
 * Fixed an issue causing [!DNL AppMeasurement] to call the wrong obfuscated method in the Visitor API. (AN-126006) 
 * Fixed an issue causing the [!DNL JavaScript] error: "Attribute only valid on v:image". (AN-124009)
 
 <!-- 
 
 <note type="important">
-  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa. 
+  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa.
 </note>
 
  -->
@@ -307,7 +303,7 @@ Release Date: **January 21, 2016**
 
 Release Date: **November 5, 2015**
 
-* Inclusion of Visitor API 1.5.3. 
+* Inclusion of Visitor API 1.5.3.
 * Fixed detection of IE11 for URL Truncation 2047 (AN-114914)
 
 ## Version 1.5.1 {#section_432F3C69DDBB49C983D7CB0876C2152F}
@@ -332,7 +328,7 @@ Release Date: **July 16, 2015**
 
 Release Date: **June 18, 2015**
 
-* Support for Visitor API 1.5, which uses the *`getCustomerIDs`* method to gather Customer IDs and authenticated state, and sends the IDs in with data collection requests. 
+* Support for Visitor API 1.5, which uses the *`getCustomerIDs`* method to gather Customer IDs and authenticated state, and sends the IDs in with data collection requests.
 * Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1) 
 * Fixed the known issue described in release 1.4.5.
 
@@ -359,7 +355,7 @@ Release Date: **May 21, 2015**
  </tbody> 
 </table>
 
-* Inclusion of Visitor API 1.4. 
+* Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 
 **Known Issue**
@@ -395,15 +391,15 @@ A minor fix to clear the light-server call profile ID after the `trackLight` cal
 
 Release Date: **February 19, 2015**
 
-* Made all handling of delayed tracking calls consistent, which fixes issues with backed-up variables during the delay, such as the clicked object. 
-* Changed to not do automatic referrer tracking after the first tracking call so the 2nd, 3rd, etc tracking call (usually link tracking) will not double-count the referrer when *`s.referrer`* was manually set before the first tracking call. 
+* Made all handling of delayed tracking calls consistent, which fixes issues with backed-up variables during the delay, such as the clicked object.
+* Changed to not do automatic referrer tracking after the first tracking call so the 2nd, 3rd, etc tracking call (usually link tracking) will not double-count the referrer when *`s.referrer`* was manually set before the first tracking call.
 * The distribution zip was updated to include Visitor API 1.3.5.
 
 ## Version 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
 
 Release Date: **January 15, 2015**
 
-* Fixed handling of WebKit prerender handling to prevent tracking of pre-rendered pages that are not viewed. 
+* Fixed handling of WebKit prerender handling to prevent tracking of pre-rendered pages that are not viewed.
 * The distribution zip was updated to include Visitor API 1.3.4 and an updated **[!UICONTROL AudienceManagement]** module that includes DIL version 5.5.
 
 ## Version 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
@@ -420,11 +416,11 @@ Release Date: **September 18, 2014**
   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
   ```
 
-  The 4 characters are limited to characters that are allowed in URL file paths, such as alpha-numeric and period. 
+  The 4 characters are limited to characters that are allowed in URL file paths, such as alpha-numeric and period.
 
-* On pages that are dual-tagged with H Code, fixed a loop that might occur during automatic link tracking (download and exit) with when forced link tracking is enabled (default in Webkit browsers). Additionally, added a general safeguard around automatic link tracking to prevent similar loops. This safeguard limits automatic link tracking of repeated clicks to the *same* object to once every 10 seconds. This safeguard applies only to automatic link tracking, so manual link tracking (s.tl) calls are not limited. Clicks to different objects are also not impacted by this safeguard and will be tracked. 
-* Fixed handling of clicked object when a delay is needed. 
-* Fixed an issue that caused a double page-view count when s.t was called from a link onclick function, if the Visitor API does not have the needed values yet. 
+* On pages that are dual-tagged with H Code, fixed a loop that might occur during automatic link tracking (download and exit) with when forced link tracking is enabled (default in Webkit browsers). Additionally, added a general safeguard around automatic link tracking to prevent similar loops. This safeguard limits automatic link tracking of repeated clicks to the *same* object to once every 10 seconds. This safeguard applies only to automatic link tracking, so manual link tracking (s.tl) calls are not limited. Clicks to different objects are also not impacted by this safeguard and will be tracked.
+* Fixed handling of clicked object when a delay is needed.
+* Fixed an issue that caused a double page-view count when s.t was called from a link onclick function, if the Visitor API does not have the needed values yet.
 * HTTP POST support.
 
   >[!IMPORTANT]
@@ -435,14 +431,12 @@ Release Date: **September 18, 2014**
 
 Release Date: **August 21, 2014**
 
-* Removed tracking of browser plug-ins ( `p` query parameter) as plug-ins are no longer reported in version 15. 
+* Removed tracking of browser plug-ins ( `p` query parameter) as plug-ins are no longer reported in version 15.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Added support for [additional eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) and events (101-1000). 
+Added support for [additional eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) and events (101-1000).
 
->[!NOTE]
->
->H-Code does not support the additional eVars and events.
+> [!NOTE] H-Code does not support the additional eVars and events.
 
 [!DNL JavaScript]  
 
@@ -450,7 +444,7 @@ Added support for [additional eVars](https://marketing.adobe.com/resources/help/
 
 Release Date: **June 19, 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors. 
+* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * Support for new features in visitor ID service 1.3.
 
 ## Version 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
@@ -493,26 +487,26 @@ Release Date: **November 15, 2013**
 
 Release Date: **November 14, 2013**
 
-* Added support for [heartbeat video measurement](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). 
+* Added support for [heartbeat video measurement](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
 * [!DNL VisitorAPI.js] was added to support [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 
 ## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
-* Prevented a link tracking call from being sent from Opera browsers for links that start with "opera:" ("opera:" is similar to "about:" and "chrome:" in other browsers). 
+* Prevented a link tracking call from being sent from Opera browsers for links that start with "opera:" ("opera:" is similar to "about:" and "chrome:" in other browsers).
 * Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
 
 ## Version 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
 
 Release Date: **September 18, 2013**
 
-* Fixed support for placing the library and page code in the `head` tag. 
+* Fixed support for placing the library and page code in the `head` tag.
 * Added missing module `onLoad` support.
 
 ## Version 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
 
 Release Date: **August 15, 2013**
 
-* Added support for deployment through Adobe tag management. 
+* Added support for deployment through Adobe tag management.
 * Fixed an issue that prevented hierarchy variables from being set on the [!DNL AppMeasurement] object.
 
 ## Version 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
@@ -533,13 +527,11 @@ Release Date: **May 23, 2013**
 
 A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code Manager. This library provides the same core functionality of [!DNL s_code.js], but is lighter and faster for use on both mobile and desktop sites.
 
-* 3-7x faster than the H.25 code. 
-* Only 21k uncompressed and 8k gzipped (H.25 code is 33k uncompressed and 13k gzipped). 
-* Native support to get query parameters, read and write cookies, and perform advanced link tracking. 
+* 3-7x faster than the H.25 code.
+* Only 21k uncompressed and 8k gzipped (H.25 code is 33k uncompressed and 13k gzipped).
+* Native support to get query parameters, read and write cookies, and perform advanced link tracking.
 * Small and fast enough to be used with mobile sites, and robust enough to be used on the full desktop web, allowing you to leverage a single library across all web environments.
 
 See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) in the [!DNL Analytics] Implementation Guide.
 
->[!NOTE]
->
->Some plug-ins are not supported in this new version. See [Plug-in Support](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) for details.
+> [!NOTE] Some plug-ins are not supported in this new version. See [Plug-in Support](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) for details.

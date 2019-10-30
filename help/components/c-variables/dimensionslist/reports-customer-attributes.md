@@ -34,8 +34,8 @@ For example:
 
 If you specify a string as *`age`*, the system creates the following metrics and dimensions:
 
-* Age dimension: Lets you run a report based on the Age attribute. 
-* Age metric: A metric you can add to a report, such as a Unique Visitors report. 
+* Age dimension: Lets you run a report based on the Age attribute.
+* Age metric: A metric you can add to a report, such as a Unique Visitors report.
 * Count of Age metric: Lets you understand, for example, if visitors specified an *`age`* value on a form.
 
 Because metrics are sums in a report table, you should [create a calculated metric](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) that tells you the average age. The formula for this metric is `Age / Count of Age`.

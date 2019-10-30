@@ -15,13 +15,11 @@ Use classifications to categorize values into related groups and to report at th
 
 ## Classifications in Marketing Channels {#topic_18E1471F1A584B358E57E191074A7243}
 
-Use classifications to categorize values into related groups and to report at the group level. For example, you can classify all Paid Search campaigns into a category like Video Cards. Then you can report on the success of that category relative to metrics like Instances (or click-throughs). 
+Use classifications to categorize values into related groups and to report at the group level. For example, you can classify all Paid Search campaigns into a category like Video Cards. Then you can report on the success of that category relative to metrics like Instances (or click-throughs).
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. Channel Values are unclassified values in the channel detail.
 
->[!NOTE]
->
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
+> [!NOTE] Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >

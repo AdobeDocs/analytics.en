@@ -16,7 +16,5 @@ Customers can compress the JavaScript library file by using standards-based enco
 
 Typical compression algorithms can reduce the size of the JavaScript file by 40-60% or more.
 
->[!NOTE]
->
->Not all browsers support all file compression standards or interpret the compressed files in the same manner. Adobe does not guarantee reliable file compression in all environments. Customers should test compression in their supported browsers and configurations before deploying.
+> [!NOTE] Not all browsers support all file compression standards or interpret the compressed files in the same manner. Adobe does not guarantee reliable file compression in all environments. Customers should test compression in their supported browsers and configurations before deploying.
 

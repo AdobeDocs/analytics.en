@@ -14,9 +14,9 @@ Adobe Analytics® provides organizations with actionable, real-time intelligence
 
 Before you can configure the integration for your email account, you will need to have the following in place:
 
-* Know which email address you want to use to receive notification concerning the integrated operations. 
-* Know your Account ID (the unique identifier assigned to your organization by Delivra). 
-* Identify or create the custom variable that you will use to capture the Recipient ID/Visitor ID. 
-* Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable). 
+* Know which email address you want to use to receive notification concerning the integrated operations.
+* Know your Account ID (the unique identifier assigned to your organization by Delivra).
+* Identify or create the custom variable that you will use to capture the Recipient ID/Visitor ID.
+* Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable).
 * Identify and enable the custom events you will use to collect additional email campaign data. This integration uses several custom events to store data from Delivra, including Sent, Delivered, Opened, Clicked, Unsubscribed, Total Bounces, and Shares.
 

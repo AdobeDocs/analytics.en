@@ -23,7 +23,5 @@ Advanced pathing is available in [!DNL Ad hoc analysis]. Ad hoc analysis provide
 
 When pathing is enabled for a prop, you get a new set of pathing reports that are found below the standard pathing reports. Pathing reports tell you the order that it saw the pages come in for that visitor. When you enable pathing on a prop, it does the same thing: it tells you the order of the prop values it saw come in for the user. This order of values is displayed in different ways depending on the path report you are viewing.
 
->[!NOTE]
->
->To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
+> [!NOTE] To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
 

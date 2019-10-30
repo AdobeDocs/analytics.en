@@ -49,4 +49,4 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-*`cookieLifetime`* affects [!DNL Analytics] tracking. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*. 
+*`cookieLifetime`* affects [!DNL Analytics] tracking. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.

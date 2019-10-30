@@ -16,4 +16,4 @@ Exit pages have a visit breakdown scope, meaning they persist across all hits fo
 
 When applied to a dimension, Exits are counted on the last value of a visit, which may happen on any hit during the visit. If there is no value on the last hit, the Exit is attributed to the most recent value.
 
-If an exit occurs outside the reporting range for a visit inside the reporting range, it will be included as long as it is not along a month boundary (inside the dataset). 
+If an exit occurs outside the reporting range for a visit inside the reporting range, it will be included as long as it is not along a month boundary (inside the dataset).

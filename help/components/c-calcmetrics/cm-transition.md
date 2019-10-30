@@ -34,11 +34,11 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [What happens to a user's calculated metrics if that user was deleted?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Why do I see “Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Why were changes that I made to my legacy calculated metrics not saved?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Why don’t my calculated metrics show up in the Marketing Channels report?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Why don't my calculated metrics show up in the Marketing Channels report?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Why do some of the calculated metrics show formulas without the parentheses I added?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
@@ -55,7 +55,7 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 ## How do I access the Calculated Metric Manager? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**. 
+* Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**.
 
 * In any [!DNL Analytics] report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL Manage]**.
 
@@ -95,13 +95,11 @@ Nothing. However, the new Admin owner should exercise caution when modifying or 
 
 Global calculated metrics can no longer be shared across login companies. They are no longer bound or tied to a specific report suite but are instead tied to a specific login company. Calculated metrics that were shared across login companies
 
-* Were migrated to all the login companies with access to that report suite. 
-* Default to "shared with Everyone". 
+* Were migrated to all the login companies with access to that report suite.
+* Default to "shared with Everyone".
 * Will be copies independent from all the other login companies.
 
->[!NOTE]
->
->If the calculated metric was used in a bookmark, dashboard, alert, or scheduled report, editing the new copy will NOT affect the old persisted calculated metric.
+> [!NOTE] If the calculated metric was used in a bookmark, dashboard, alert, or scheduled report, editing the new copy will NOT affect the old persisted calculated metric.
 
 ## What happened to Calculated Metrics with a Numeric or Numeric2 Classification? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -151,9 +149,9 @@ Current data does not support calculated metrics that contain segments or statis
 
 Any calculated metrics that this user created are also deleted. However, deleted calculated metrics will still work as part of saved bookmarks, dashboards, or scheduled reports.
 
-## Why do I see “Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-The user interface displays “unknown” if the calculated metric contains base metrics or dimensions that don’t exist for the selected report suite.
+The user interface displays "unknown" if the calculated metric contains base metrics or dimensions that don't exist for the selected report suite.
 
 ## Why were changes that I made to my legacy calculated metrics not saved? {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -163,15 +161,15 @@ This might be due to the timing of the migration to the new calculated metric da
 
 You will have to redo the changes you made to your legacy metrics.
 
-## Why don’t my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Previously, all calculated metrics were listed in the metric selector on Marketing Channels reports with a First Touch and Last Touch option.)
 
-Now, only those calculated metrics that have their allocation type specifically set to First Touch or Last Touch in the Calculated Metrics builder will be available in the metric selector on Marketing Channels reports. Note that any calculated metrics already applied to Marketing Channel reports will continue to be applied and work as they did before. To create a calculated metric for Marketing Channels, click the configuration icon in the metric builder and select either First Touch or Last Touch as the allocation type. Remember that doing this will make the calculated metric compatible only with Marketing Channel reports and it won’t be usable on any other report.
+Now, only those calculated metrics that have their allocation type specifically set to First Touch or Last Touch in the Calculated Metrics builder will be available in the metric selector on Marketing Channels reports. Note that any calculated metrics already applied to Marketing Channel reports will continue to be applied and work as they did before. To create a calculated metric for Marketing Channels, click the configuration icon in the metric builder and select either First Touch or Last Touch as the allocation type. Remember that doing this will make the calculated metric compatible only with Marketing Channel reports and it won't be usable on any other report.
 
 ## Why do some of the calculated metrics show formulas without the parentheses I added? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-During the migration, Adobe stripped out superfluous parentheses from some formulas. Only parentheses that do not affect how the metric is calculated were removed. This won’t change the data - it just simplifies the formula.
+During the migration, Adobe stripped out superfluous parentheses from some formulas. Only parentheses that do not affect how the metric is calculated were removed. This won't change the data - it just simplifies the formula.
 
 ## (Ad Hoc Analysis only) Are Calculated Metrics with embedded or inline segment definitions still supported? {#section_B25C924A282F49388AB604E3D826F44C}
 
@@ -195,4 +193,4 @@ When [!UICONTROL Reports & Analytics] shows a calculated metrics total in [!UICO
 
 Example 1: Visitors for a search term: the same visitor may have searched for multiple terms, so in this case, total visitors do not equal the sum of the line items.
 
-Example 2: Page views on products: in the cart, there may be multiple products, so as a result, there are multiple page views for the cart. For more information on comparing the sum of line items to report totals, see [this knowledge base article](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html). 
+Example 2: Page views on products: in the cart, there may be multiple products, so as a result, there are multiple page views for the cart. For more information on comparing the sum of line items to report totals, see [this knowledge base article](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html).

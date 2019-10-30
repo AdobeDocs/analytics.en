@@ -14,4 +14,4 @@ Data Warehouse refers to the copy of raw, unprocessed data for storage and custo
 
 <!-- I edited this link so it doesn't point to marketing.adobe.com. Please check -Bob -->
 
-See [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) for more help. 
+See [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) for more help.

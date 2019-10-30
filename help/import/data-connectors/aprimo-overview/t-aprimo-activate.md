@@ -17,7 +17,7 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 | Field | Description |
 |--- |--- |
 |Report Suite|The report suite that receives the data from this integration.|
-|Integration Name|Specify the integration name that Data Connectors displays in the report suite’s Active Integration List.|
+|Integration Name|Specify the integration name that Data Connectors displays in the report suite's Active Integration List.|
 |Account ID|Specify your Aprimo Account ID.|
 |Recipient ID|This ID is an encoded or numeric representation of an email address from the Aprimo system. This "Recipient ID" is associated with downstream visitor behavior on the site Recipient ID (cart abandons, purchases, etc.) that is pulled into the Aprimo system and can be leveraged for remarketing purposes.|
 |Clicked|(Required) Specify the Adobe Analytics event that stores the email Clicked data imported from the email system. The Clicked event lets you see the number of visitors who clicked the email message.|

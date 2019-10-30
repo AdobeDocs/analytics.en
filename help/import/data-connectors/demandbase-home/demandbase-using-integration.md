@@ -10,9 +10,7 @@ uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 
 Once the integration is deployed, you can begin using the additional capabilities that it provides.
 
->[!NOTE]
->
->It can take 24-48 hours to begin seeing some of the Demandbase data within Adobe Analytics reporting.
+> [!NOTE] It can take 24-48 hours to begin seeing some of the Demandbase data within Adobe Analytics reporting.
 
 Here are some actions you can take to get value from this integration from within Adobe Analytics: 
 

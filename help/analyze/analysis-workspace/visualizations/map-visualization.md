@@ -12,10 +12,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 
 The Map Visualization in Analysis Workspace
 
-* Lets you build a visual map of any metric (including calculated metrics). 
-* Is useful for identifying and comparing metric data across different geographic regions. 
-* Can support 2 data sources: latitude/longitude from mobile usage or geographic dimension for web usage. 
-* Supports PDF export. 
+* Lets you build a visual map of any metric (including calculated metrics).
+* Is useful for identifying and comparing metric data across different geographic regions.
+* Can support 2 data sources: latitude/longitude from mobile usage or geographic dimension for web usage.
+* Supports PDF export.
 * Leverages WebGL for graphics display. If your graphics drivers do not support WebGL rendering, you may need to update your drivers.
 
 ## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
@@ -24,7 +24,7 @@ The Map Visualization in Analysis Workspace
 
    ![](assets/map-viz1.png)
 
-1. Drag in a metric from the list of metrics (including calculated metrics). 
+1. Drag in a metric from the list of metrics (including calculated metrics).
 1. Specify the data source you want to draw from. (This dialog appears only if you have location tracking enabled for mobile app data.) 
 
 <table id="table_CD54B433464B4282A7524FB187016C47"> 
@@ -48,19 +48,19 @@ The Map Visualization in Analysis Workspace
 
 1. You can now
 
-    * **Zoom** into this map to magnify certain areas by double-clicking the map or by using your scroll wheel. The map zooms according to where you have placed your cursor. Through zoom interaction, the required dimension (country > state > city) is automatically updated, based on the zoom level. 
-    * **Compare** two or more map visualizations in the same project by placing them side by side. 
+    * **Zoom** into this map to magnify certain areas by double-clicking the map or by using your scroll wheel. The map zooms according to where you have placed your cursor. Through zoom interaction, the required dimension (country > state > city) is automatically updated, based on the zoom level.
+    * **Compare** two or more map visualizations in the same project by placing them side by side.
     * **Show period-over-period (such as, year-over-year) comparisons**:
 
-        * Show negative numbers: For example, if you are plotting a year-over-year metric, the map can show -33% over New York. 
-        * With metrics that are of type "percent", clustering averages the percentages together. 
+        * Show negative numbers: For example, if you are plotting a year-over-year metric, the map can show -33% over New York.
+        * With metrics that are of type "percent", clustering averages the percentages together.
         * A green/red color scheme: Positive/Negative
 
-    * **Rotate** the map in 2D or 3D by holding the [!UICONTROL Ctrl] key and moving the map. 
+    * **Rotate** the map in 2D or 3D by holding the [!UICONTROL Ctrl] key and moving the map.
     
     * **Toggle** to a different view, such as the heat map, using the [settings](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) described below. Note that the bubble view is the default setting.
 
-1. **Save** the project to save all map settings (coordinates, zoom, rotation). 
+1. **Save** the project to save all map settings (coordinates, zoom, rotation).
 1. The freeform table, below the visualization, can be populated by dragging in location dimensions and metrics from the left rail:
 
    ![](assets/location-dimensions.png)

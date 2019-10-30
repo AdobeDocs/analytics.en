@@ -53,7 +53,7 @@ Conversely, if *t* is less than the virtual report suite's configured visit time
 
 This means that:
 
-* Any eVars set with "visit" expiration on the background hit persist their values onto the other hits in this visit. 
+* Any eVars set with "visit" expiration on the background hit persist their values onto the other hits in this visit.
 * Any values set in the background hit are included in the visit level segment container logic evaluation.
 
 In both cases, the total visit count would be 1.
@@ -72,7 +72,7 @@ Likewise, if the time period *t* was less than the virtual report suite's config
 
 This means that:
 
-* Any eVars set with "visit" expiration on the previous foreground hits persist their values onto the background hit in this visit. 
+* Any eVars set with "visit" expiration on the previous foreground hits persist their values onto the background hit in this visit.
 * Any values set in the background hit are included in the visit level segment container logic evaluation.
 
 As before, the total visit count in either case would be 1.
@@ -125,7 +125,7 @@ Time spent is still calculated in an analogous way to how it is without backgrou
 
 Because background hit processing is only available to virtual report suites using Report Time Processing, Adobe Analytics supports two ways of processing background hits in order to preserve the visit counts in the base report suite which does not use Report Time Processing. To access this setting navigate to the Adobe Analytics Admin Console, go the settings of the applicable base report suite, then navigate to "Mobile Management" menu, then to the "Mobile Application Reporting" sub menu.
 
-1. "Legacy Processing On": This is the default setting for all report suites. Leaving legacy processing on processes background hits as normal hits in our processing pipeline as far as the non-Report Time Attribution base report suite is concerned. This means that any background hits that appear in the base report suite increment visits as a normal hit. If you do not want background hits to appear in your base report suite, change this setting to "Off". 
+1. "Legacy Processing On": This is the default setting for all report suites. Leaving legacy processing on processes background hits as normal hits in our processing pipeline as far as the non-Report Time Attribution base report suite is concerned. This means that any background hits that appear in the base report suite increment visits as a normal hit. If you do not want background hits to appear in your base report suite, change this setting to "Off".
 1. "Legacy Processing Off": With legacy processing for background hits off, any background hits sent to the base report suite are ignored by the base Report Suite and are only accessible when a virtual report suite created on this base report suite is configured to use Report Time Processing. This means that any data captured by background hits sent to this base report suite only appear in a Report Time Processing enabled virtual report suite.
 
    This setting is intended for customers that wish to take advantage of the new background hit processing without altering the visit counts of their base report suite.
@@ -134,4 +134,4 @@ In either case, background hits are billed at the same cost as any other hit sen
 
 ## Starting New Visits Upon Each App Launch {#section_9DA9A8B9758248A6B311EFBA06AECA80}
 
-In addition to the background hit processing, virtual report suites can force a new visit to start whenever the mobile SDK sends an app launch event. With this setting enabled, any time an App Launch event is sent from the SDK, it forces a new visit to start regardless of whether an open visit has reached its timeout . The hit containing the app launch event is included as the first hit in the next visit, and increments the visit count and creates a distinct visit container for segmentation. 
+In addition to the background hit processing, virtual report suites can force a new visit to start whenever the mobile SDK sends an app launch event. With this setting enabled, any time an App Launch event is sent from the SDK, it forces a new visit to start regardless of whether an open visit has reached its timeout . The hit containing the app launch event is included as the first hit in the next visit, and increments the visit count and creates a distinct visit container for segmentation.

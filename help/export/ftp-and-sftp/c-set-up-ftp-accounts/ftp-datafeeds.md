@@ -18,4 +18,4 @@ If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you
 
 When an FTP account is full, you should download and remove the current files, and let Adobe know the space has been cleared. Adobe can then resend files that have not been delivered. Some tools, such as data warehouse, lets users resend these files. Resending may not require Adobe involvement. If your FTP account appears to be filling up frequently, contact Adobe Customer Care, which can suggest delivery alternatives that can include increasing the FTP space and file number quota on the account.
 
-For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E). 
+For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).

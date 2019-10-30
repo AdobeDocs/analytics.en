@@ -14,4 +14,4 @@ Refers to the vertical distance of the data in the browser window only. The tool
 
  Adobe Analytics uses the browser height and width only from the first hit of a visit. The rest of the hits do not get the attribution for the same visit.
 
-For more information, see [Browser Width/Height](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18). 
+For more information, see [Browser Width/Height](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18).

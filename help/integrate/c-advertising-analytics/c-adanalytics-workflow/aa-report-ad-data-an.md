@@ -10,17 +10,13 @@ uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 
 Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
 
->[!NOTE]
->
->You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports. Note also that Analytics reporting will not return data for hourly granularity, because the AMO data does not support hourly granularity.
+> [!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports. Note also that Analytics reporting will not return data for hourly granularity, because the AMO data does not support hourly granularity.
 
 ## Analysis Workspace: Search Engines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
 This template lets anyone who implements this Search Engine integration get access to copious Search engine data within Analytics. You can access it via **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** > **[!UICONTROL Search Engines.]**
 
->[!NOTE]
->
->The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
+> [!NOTE] The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -48,4 +44,4 @@ As soon as you have set up an Advertising Analytics account, the Advertising Ana
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available. 
+As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available.

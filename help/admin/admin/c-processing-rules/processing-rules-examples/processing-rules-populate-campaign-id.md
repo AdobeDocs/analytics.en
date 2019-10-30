@@ -15,7 +15,7 @@ You can populate a variable using a query string parameter.
 
 In most cases you use a plugin to populate variables from the query string. If a typo or similar issue prevents the value from being populated, you can populate the variable using processing rules.
 
-You should always check to see if a value is empty or contains the expected value before you overwrite it. 
+You should always check to see if a value is empty or contains the expected value before you overwrite it.
 
 |  Rule Set  | Value  |
 |---|---|

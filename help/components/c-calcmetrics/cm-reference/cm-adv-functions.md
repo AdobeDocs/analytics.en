@@ -26,15 +26,13 @@ It tells whether to include zeros in the computation. Sometimes zero means "noth
 
 For example, if you have a Revenue metric, and then add a Page Views metric to the report, there are suddenly more rows for your revenue which are all zero. You probably don't want this to affect any MEAN, MIN, QUARTILE, etc. calculations that you have on the revenue column. In this case, you would check the include-zeros parameter.
 
-On the other hand, if you have two metrics that you are interested in, it may not be fair to say that one has a higher average or minimum because some of its rows were zeros, so you would not check the parameter to include the zeros. 
+On the other hand, if you have two metrics that you are interested in, it may not be fair to say that one has a higher average or minimum because some of its rows were zeros, so you would not check the parameter to include the zeros.
 
 ## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
 
->[!NOTE]
->
->0 (zero) means False, and any other value is True.
+> [!NOTE] 0 (zero) means False, and any other value is True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -61,7 +59,7 @@ Approximate Count Distinct (dimension)
 
 Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
-Definition for a new ‘Approximate Customers’ calculated metric:
+Definition for a new 'Approximate Customers' calculated metric:
 
 ![](assets/approx-count-distinct.png)
 
@@ -77,7 +75,7 @@ Like Count() and RowCount(), Approximate Count Distinct() is subject to ["unique
 
 Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
 
-This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts. 
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
 
 ## Arc Cosine (Row) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
@@ -191,7 +189,7 @@ CBRT(metric)
 
 ## Cumulative {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-Returns the sum of x for the last N rows (as ordered by the dimension, using hash values for string based fields). 
+Returns the sum of x for the last N rows (as ordered by the dimension, using hash values for string based fields).
 
 If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's only useful on dimensions that have a natural order like date or path length.
 
@@ -206,13 +204,11 @@ If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's on
 
 ## Cumulative Average {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-Returns the average of the last N rows. 
+Returns the average of the last N rows.
 
 If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's only useful on dimensions that have a natural order like date or path length.
 
->[!NOTE]
->
->This does not work as you might expect with rate metrics like revenue/visitor: it averages the rates instead of summing revenue over the last N and summing visitors over the last N and then dividing them. Instead, use
+> [!NOTE] This does not work as you might expect with rate metrics like revenue/visitor: it averages the rates instead of summing revenue over the last N and summing visitors over the last N and then dividing them. Instead, use
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -445,7 +441,7 @@ NOT(logical)
 |---|---|
 |  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
 
-Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values. 
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
 
 ## Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,9 +451,7 @@ Returns all items that do not contain the exact match of the value entered.
 
 Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
 
->[!NOTE]
->
->0 (zero) means False, and any other value is True.
+> [!NOTE] 0 (zero) means False, and any other value is True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -476,7 +470,7 @@ Returns the constant PI, 3.14159265358979, accurate to 15 digits.
 PI()
 ```
 
-The [!DNL PI]function has no arguments. 
+The [!DNL PI]function has no arguments.
 
 ## Power regression: Correlation coefficient (Table) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
@@ -652,7 +646,7 @@ Alias for Z-Score, namely the deviation from the mean divided by the standard de
 
 ## T-Test {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
-Performs an m-tailed t-test with t-score of col and n degrees of freedom. 
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
 
 The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
@@ -690,7 +684,7 @@ TAN (metric)
 
 ## Z-Score (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations. 
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
 The equation for Z-score is:
 
@@ -698,9 +692,7 @@ The equation for Z-score is:
 
 where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!DNL σ] is the standard deviation of the population.
 
->[!NOTE]
->
->[!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
+> [!NOTE] [!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
 
 Z-score(metric)
 
@@ -721,11 +713,9 @@ Z-score(metric)
 
 ## Z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-Performs an n-tailed Z-test with Z-score of A. 
+Performs an n-tailed Z-test with Z-score of A.
 
 Returns the probability that the current row could be seen by chance in the column.
 
->[!NOTE]
->
->Assumes that the values are normally distributed.
+> [!NOTE] Assumes that the values are normally distributed.
 

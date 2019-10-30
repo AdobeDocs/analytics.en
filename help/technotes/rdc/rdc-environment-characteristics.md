@@ -11,7 +11,7 @@ The Regional Data Collection (RDC) environment includes characteristics as descr
 
 ## Performance improvements
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/). 
+For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
 
 Generally, users have experienced response time improvements with RDC as follows:
 

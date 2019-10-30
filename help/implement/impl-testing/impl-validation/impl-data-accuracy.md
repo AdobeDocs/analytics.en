@@ -17,13 +17,11 @@ The validation process should be completed by Adobe personnel, preferably by the
 
 The preferred data points for this validation, in order of preference, are listed as follows:
 
-* (Econversion sites) Comparison of econversion orders for a single day. 
-* Comparison of known success events, especially logged data where IP address and other browser information generally stored in web server logs can be compared to the data collected. 
+* (Econversion sites) Comparison of econversion orders for a single day.
+* Comparison of known success events, especially logged data where IP address and other browser information generally stored in web server logs can be compared to the data collected.
 * Comparison of page views.
 
->[!NOTE]
->
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. These pages represent a greater difference to browser-based data collection than other visited pages.
+> [!NOTE] Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. These pages represent a greater difference to browser-based data collection than other visited pages.
 
 All three types of validation require a debug log or data feed for the time period in question. This is generally one day or less.
 
@@ -33,11 +31,11 @@ When comparing page views for a single time period, it is expected that the page
 
 Data accuracy comparisons need to take into account the following items:
 
-* QA or other types of internal testing that may be filtered by IP addresses or VISTA rules. 
-* Smart tags that only generate tags for certain types of orders or traffic. 
-* Queries for comparison must take into account what is being measured by the website (not including returns, orders placed by customer service personnel, or other special conditions). 
-* Ensure that the time zone differences between the query and the report suite match. 
-* Custom Keynote or similar traffic (Keynote Transaction, etc.) that measure the ordering process and may be reflected in tags, but removed from ordering systems. 
-* Account for the client's de-duping processes. 
+* QA or other types of internal testing that may be filtered by IP addresses or VISTA rules.
+* Smart tags that only generate tags for certain types of orders or traffic.
+* Queries for comparison must take into account what is being measured by the website (not including returns, orders placed by customer service personnel, or other special conditions).
+* Ensure that the time zone differences between the query and the report suite match.
+* Custom Keynote or similar traffic (Keynote Transaction, etc.) that measure the ordering process and may be reflected in tags, but removed from ordering systems.
+* Account for the client's de-duping processes.
 * Reloads of the order page (Orders are de-duplicated based on *`purchaseID`*).
 

@@ -16,19 +16,17 @@ You can customize the delivery schedule for reports. You can stop the delivery a
 
 You can customize the delivery schedule for reports. You can stop the delivery at a certain time, or specify the number of times you want to send a report. New schedules use the date range defined in the report. For example, if you create a report for the last 90 days and schedule it to run daily, you receive a report for the last 90 days each day. If you create a report with a static date range from the calendar, you'll see the same report each time it is sent.
 
->[!NOTE]
->
->When a user account is disabled, any scheduled report deliveries created by that user are suspended.
+> [!NOTE] When a user account is disabled, any scheduled report deliveries created by that user are suspended.
 
 To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
 
 >[!IMPORTANT]
 >
->Ad Hoc Analysis lets you quickly define and schedule reports for specific, timely, ad hoc reporting needs. It is not designed for full exports of data with a massive number or rows, columns, metric evaluations, or extensive breakdowns using data extracts. 
+>Ad Hoc Analysis lets you quickly define and schedule reports for specific, timely, ad hoc reporting needs. It is not designed for full exports of data with a massive number or rows, columns, metric evaluations, or extensive breakdowns using data extracts.
 >
->Practical constraints for scheduled reporting in Ad Hoc Analysis are based on this principle: If your report doesn't build within ten minutes (the timeout for Ad Hoc Analysis), then your report is most likely too complex. 
+>Practical constraints for scheduled reporting in Ad Hoc Analysis are based on this principle: If your report doesn't build within ten minutes (the timeout for Ad Hoc Analysis), then your report is most likely too complex.
 >
->Most likely your report has too many metrics, too many dimension element breakdowns, too many rows or columns, or other extremes that make it too long a report generation process for Ad Hoc Analysis. This type of report needs to be run in Data Warehouse, an Adobe Analytics capability made for full data extraction running offline with report generation that can take many hours or days. 
+>Most likely your report has too many metrics, too many dimension element breakdowns, too many rows or columns, or other extremes that make it too long a report generation process for Ad Hoc Analysis. This type of report needs to be run in Data Warehouse, an Adobe Analytics capability made for full data extraction running offline with report generation that can take many hours or days.
 >
 >For example, Ad Hoc Analysis can handle 50,000 rows of data, but breaking down that data for ten browser types means 50,0000 times 10, an exponential increase that may be too complex for an ad hoc reporting tool. Additional breakdowns again increase the rows of data exponentially. Defining the actual number or rows, columns, and breakdowns to constrain for Ad Hoc Analysis reporting cannot be defined in stark terms but is a combination of all these factors.
 
@@ -55,7 +53,7 @@ r_delivery_options.xml
 
  -->
 
-You can send your information as displayed in the currently selected report to the format you select. You can send it one time or set up a delivery schedule, and specify the file format you prefer. You can create and send a digital signature to assure the receiver of the file that it is authentic. You can send the file to an email address or upload it to an FTP server. 
+You can send your information as displayed in the currently selected report to the format you select. You can send it one time or set up a delivery schedule, and specify the file format you prefer. You can create and send a digital signature to assure the receiver of the file that it is authentic. You can send the file to an email address or upload it to an FTP server.
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 

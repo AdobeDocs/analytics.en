@@ -1,6 +1,6 @@
 ---
-description: [!DNL Activity Map] provides two basic modes to provide complementary reporting of page activity.
-seo-description: [!DNL Activity Map] provides two basic modes to provide complementary reporting of page activity.
+description: Activity Map provides two basic modes to provide complementary reporting of page activity.
+seo-description: Activity Map provides two basic modes to provide complementary reporting of page activity.
 seo-title: Standard Mode vs. Live Mode
 solution: Analytics
 title: Standard Mode vs. Live Mode
@@ -10,7 +10,7 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 
 # Standard Mode vs. Live Mode
 
-[!DNL Activity Map] provides two basic modes to provide complementary reporting of page activity.
+Activity Map provides two basic modes to provide complementary reporting of page activity.
 
 * Standard mode, in which the [Links on Page Report](/help/analyze/activity-map/activitymap-links-report.md)shows link data ranging from single day to multi-day, aggregated over the full date range. 
 * Live mode displays activity trends in real time.
@@ -27,7 +27,7 @@ In this mode, Commerce metrics that do not have "Participation" enabled are line
 
 Q: What if a page has links with the same link name in separate regions? Do the two links receive credit separately since they have different regions but the same link name on a page?
 
-A: It depends on how you aggregate the link data. In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. In this case, because the region differs, the link|region would be distinct, and therefore any allocated revenue for the first link|region will be different from all allocated revenue for the second link. But in the Adobe Analytics UI, you can look at just the link ID report (instead of Link|Region report) for a given page (page broken down by Link). In that case, the revenue would be aggregated across both regions.
+A: It depends on how you aggregate the link data. In Activity Map, we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. In this case, because the region differs, the link|region would be distinct, and therefore any allocated revenue for the first link|region will be different from all allocated revenue for the second link. But in the Adobe Analytics UI, you can look at just the link ID report (instead of Link|Region report) for a given page (page broken down by Link). In that case, the revenue would be aggregated across both regions.
 
 ## Live Mode {#section_D619B77D89A840F0B1C2DEA2715A516A}
 

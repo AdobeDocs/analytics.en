@@ -1,16 +1,16 @@
 ---
-description: The [!DNL Activity Map] UI is comprised of two parts 
-seo-description: The [!DNL Activity Map] UI is comprised of two parts 
-seo-title: [!DNL Activity Map] user interface
+description: The Activity Map UI is comprised of two parts 
+seo-description: The Activity Map UI is comprised of two parts 
+seo-title: Activity Map user interface
 solution: Analytics
-title: [!DNL Activity Map] user interface
+title: Activity Map user interface
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 ---
 
-# [!DNL Activity Map] user interface
+# Activity Map user interface
 
-The [!DNL Activity Map] UI is comprised of two parts:
+The Activity Map UI is comprised of two parts:
 
 * The top window with the web page, and the injected overlays and toolbar. 
 * A bottom panel for reports.

@@ -17,25 +17,13 @@ Many organizations deploy additional network features to enhance security, such 
 
 To determine if the corporate network you're connected to is causing issues with using Adobe Analytics, use your Experience Cloud login credentials on a device outside of your corporate network. Examples of devices can be through your home network or a mobile device's data plan. If you are able to successfully move from page to page without being logged out, your organization's network is likely the reason why you get logged out of Adobe Analytics.
 
-## Issues due to IP pooling
-
-Some networks use a practice called IP pooling, where a device's IP address can frequently change within a range used by the organization. As part of Adobe's security practices, if an IP addresses changes mid-session, that session is expired.
-
-If your organization uses IP pooling, use the following instructions to have your IP ranges added to Adobe's whitelist:
-
-1. Work with your organization's IT team to obtain a list of IP ranges used in your organization
-2. Have a customer support delegate contact Adobe Customer Care and provide Adobe with the IP ranges
-3. The agent enters the IP ranges into a whitelist to prevent sessions from expiring if both addresses are within the provided ranges
-
 ## Issues due to proxy
 
-Adobe uses an authorization header when making requests to Adobe. Some proxies, such as Bluecoat (now owned by Symantec), strip critical authorization header information used by Adobe Analytics. When Adobe does not see the authorization header, the session is expired.
+Adobe uses an authorization header when making requests to Adobe. Some proxies, such as Bluecoat (now owned by Symantec), strip critical authorization header information used by Adobe Analytics. When Adobe does not see the authorization header, the session expires.
 
 To resolve this issue, Adobe recommends working with your organization's IT team to allow the authorization header through your organization's proxy.
 
-> [!NOTE] Note
->
-> Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
+> [!NOTE] Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
 
 Information on Symantec proxies and authentication headers can be found here:
 

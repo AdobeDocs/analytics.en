@@ -1,30 +1,30 @@
 ---
-description: [!DNL Activity Map] is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
-seo-description: [!DNL Activity Map] is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
-seo-title: [!DNL Activity Map] overview
+description: Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
+seo-description: Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
+seo-title: Activity Map overview
 solution: Analytics
-title: [!DNL Activity Map] overview
+title: Activity Map overview
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 ---
 
-# [!DNL Activity Map] overview
+# Activity Map overview
 
-[!DNL Activity Map] is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
+Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
 
-[!DNL Activity Map] lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.
+Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.
 
 **Getting started for admins**
 
-* [Enable [!DNL Activity Map]](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+* [Enable Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Sample Implementation Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
 **Getting started for users**
 
-* [Install [!DNL Activity Map] browser plug-ins](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Launch [!DNL Activity Map]](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Install Activity Map browser plug-ins](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Launch Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**[!DNL Activity Map] features**
+**Activity Map features**
 
 * [Robust link tracking](lnk-tracking-overview.md)
 * [Standard Mode vs. Live Mode](activitymap-standard-live.md)
@@ -37,10 +37,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 * [Overlay details](activitymap-overlay-details.md)
 * [Export to CSV file](activitymap-csv.md)
 * [Supported systems and requirements](activitymap-sysreqs.md)
-* [[!DNL Activity Map] FAQ](activitymap-faq.md)
+* [Activity Map FAQ](activitymap-faq.md)
 * [Link tracking methodology](activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-* [Configure [!DNL Activity Map] settings](activitymap-overlay-settings.md)
-* [[!DNL Activity Map] user interface](activitymap-user-interface.md)
-* [[!DNL Activity Map] reporting in Analytics](activitymap-reporting-analytics.md)
+* [Configure Activity Map settings](activitymap-overlay-settings.md)
+* [Activity Map user interface](activitymap-user-interface.md)
+* [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
 * [Knowledge resources](activitymap-info-resources.md)

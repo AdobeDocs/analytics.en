@@ -12,9 +12,9 @@ uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 
 ## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
 
-The following is an example of how the AppMeasurement library and the [!DNL Activity Map] module are combined in the [!DNL AppMeasurement.js] file.
+The following is an example of how the AppMeasurement library and the Activity Map module are combined in the [!DNL AppMeasurement.js] file.
 
-Note that code sections that are relevant to this [!DNL Activity Map] implementation are **bolded**.
+Note that code sections that are relevant to this Activity Map implementation are **bolded**.
 
 ```
 <b>// Initialize AppMeasurement 
@@ -55,17 +55,17 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 // https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
-<b>/****************************** START [!DNL Activity Map] MODULE *****************************/ 
+<b>/****************************** START Activity Map MODULE *****************************/ 
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
-  can remove the following block of code from your AppMeasurement.js file.
-  Additional documentation on how to configure [!DNL Activity Map] is available at: 
+  can remove the following block of code from your AppMeasurement.js file. 
+  Additional documentation on how to configure Activity Map is available at: 
   https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html 
  */ 
- function AppMeasurement_Module_[!DNL Activity Map](g){func 
- ...
- /* END [!DNL Activity Map] MODULE */ 
+ function AppMeasurement_Module_Activity Map(g){func 
+ ... 
+ /* END Activity Map MODULE */ 
  </b> 
 /* 
  ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 

@@ -1,6 +1,6 @@
 ---
-description: Lists the browser parameters that are not compatible with the use of [!DNL Activity Map]. You should disable these settings.
-seo-description: Lists the browser parameters that are not compatible with the use of [!DNL Activity Map]. You should disable these settings.
+description: Lists the browser parameters that are not compatible with the use of Activity Map. You should disable these settings.
+seo-description: Lists the browser parameters that are not compatible with the use of Activity Map. You should disable these settings.
 seo-title: Troubleshooting browser extensions
 solution: Analytics
 title: Troubleshooting browser extensions
@@ -10,7 +10,7 @@ uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 
 # Troubleshoot browser extensions
 
-Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. You should disable these settings.
+Shows the browser parameters that are not compatible with the use of Activity Map. You should disable these settings.
 
 ## Chrome
 

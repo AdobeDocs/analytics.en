@@ -12,9 +12,9 @@ uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 
 Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
 
-Overlays let you visualize click data directly on the page. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports & Analytics.
+Overlays let you visualize click data directly on the page. This is what separates a visual analysis tool like Activity Map from mostly tabular and graphical tools like Reports & Analytics.
 
-[!DNL Activity Map] offers three types of overlays:
+Activity Map offers three types of overlays:
 
 * Gradient Overlay (Heatmap) 
 * Bubble Overlay 
@@ -42,7 +42,7 @@ These metrics are overlaid on top of the page's links as a kind of 'heat map' to
 
 The Bubble overlay shows the overlay content (metric, percentage, or rank) in a small callout bubble.
 
-Bubble overlays are shown when you select this overlay in the Overlay Type in the toolbar. . Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Gradient overlays will be shown if this option not selected.
+Bubble overlays are shown when you select this overlay in the Overlay Type in the toolbar. . Bubble overlays show for all links that match the selection in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Gradient overlays will be shown if this option not selected.
 
 ![](assets/bubble_overlay.png)
 

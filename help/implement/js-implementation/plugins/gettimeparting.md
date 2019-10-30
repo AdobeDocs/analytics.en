@@ -16,9 +16,7 @@ The getTimeParting plug-in populates custom variables with hour of day, day of w
 
 This plug-in captures the date and time information available in the user's web browser. It obtains the hour of the day and the day of the week from this information. It then converts this data to the time zone of your choosing. It also accounts for Daylight Savings Time.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -80,7 +78,7 @@ Note for Southern Hemisphere clients: in the array DST values are DST end, DST s
 var tp = s.getTimeParting(h,z);
 ```
 
-* h = (required) Hemisphere - Specify what hemisphere you are converting the time to. This is a value of 'n' or 's'. This is used to determine how to use the DST array passed. If 'n' is passed the plugin uses the dates when DST is on. If 's' is passed the plugin uses the dates when DST is off. 
+* h = (required) Hemisphere - Specify what hemisphere you are converting the time to. This is a value of 'n' or 's'. This is used to determine how to use the DST array passed. If 'n' is passed the plugin uses the dates when DST is on. If 's' is passed the plugin uses the dates when DST is off.
 * z = (optional) Time Zone - If you would like the data to be based upon a specific time period, then that will need to be specified as the hours different from GMT here. Note this should be the GMT during non DST. If no value is specified, it defaults to GMT (i.e. '-5' for US Eastern Time)
 
 **Returns**
@@ -123,6 +121,6 @@ s.getTimeParting=new Function("h","z",""
 
 **Notes**
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying to production. 
+* Always test plug-in installations to ensure that data collection is as expected before deploying to production.
 * Configuration variables must be set for plugin to work correctly.
 

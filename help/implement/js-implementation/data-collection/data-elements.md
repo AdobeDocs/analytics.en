@@ -39,4 +39,4 @@ s.eVar1="<?=$_POST['music_genre'];?>"
 
 The [!UICONTROL eVar1] variable receives a copy of whatever value was submitted to your server through the form, as specified in the value= property.
 
-If you need additional information regarding this custom implementation method, contact your organization's Account Manager. They can arrange a meeting with one of our Implementation Consultants to provide the help you need. 
+If you need additional information regarding this custom implementation method, contact your organization's Account Manager. They can arrange a meeting with one of our Implementation Consultants to provide the help you need.

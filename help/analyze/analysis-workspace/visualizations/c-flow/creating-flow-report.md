@@ -38,4 +38,4 @@ By default, the diagram shows the top five flows. If you click on the **[!UICONT
 
 There are no limits on how much you can explore within the Flow diagram.
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 
+You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.

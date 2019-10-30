@@ -8,9 +8,9 @@ title: Dynamic variables
 
 # s.trackDownLoadLinks
 
-Set  to 'true' if you would like to track links to downloadable files on your site. 
+Set  to 'true' if you would like to track links to downloadable files on your site.
 
-If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determine which links are downloadable files. 
+If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determine which links are downloadable files.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -41,6 +41,6 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map. 
+* When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map.
 
 * When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.

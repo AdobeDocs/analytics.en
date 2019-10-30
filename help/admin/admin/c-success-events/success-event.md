@@ -29,7 +29,7 @@ The [s.events](https://marketing.adobe.com/resources/help/en_US/sc/implement/eve
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
-The Success Events page lets you configure the Event variables used on your site. You can add up to 1,000 success events. Events 81-1,000 only work if on H22 code or higher. 
+The Success Events page lets you configure the Event variables used on your site. You can add up to 1,000 success events. Events 81-1,000 only work if on H22 code or higher.
 
 | Element | Description |
 |--- |--- |

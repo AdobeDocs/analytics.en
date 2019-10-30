@@ -51,8 +51,8 @@ There is a small chance that the integration could cause data collection issues 
 
 To avoid these issues, ensure that:
 
-* Report suite IDs are correctly entered in the tool. 
-* Report suite IDs in the tool match the IDs in the [!DNL AppMeasurement] code. 
-* The currency code, character set, tracking server, and SSL tracking server configuration fields are correctly set with supported values. 
+* Report suite IDs are correctly entered in the tool.
+* Report suite IDs in the tool match the IDs in the [!DNL AppMeasurement] code.
+* The currency code, character set, tracking server, and SSL tracking server configuration fields are correctly set with supported values.
 * Custom code is defined in [!DNL Library Management].
 

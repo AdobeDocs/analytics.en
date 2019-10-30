@@ -14,7 +14,7 @@ Site Metrics reports display quantitative information about your website. For ex
 
 ## Site Metrics {#topic_969F46C070B0465DB629FCAD12C18238}
 
-[!UICONTROL Site Metrics] reports display quantitative information about your website. For example, they show how many times visitors looked at pages, the numbers of purchases made from specific pages, the time spent on pages, revenue, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports. 
+[!UICONTROL Site Metrics] reports display quantitative information about your website. For example, they show how many times visitors looked at pages, the numbers of purchases made from specific pages, the time spent on pages, revenue, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
 
 Metric reports are [trended](/help/components/c-variables/dimensionslist/reports-types.md) over time. Meaning, you can apply time and day-of-week granularity to these reports.
 

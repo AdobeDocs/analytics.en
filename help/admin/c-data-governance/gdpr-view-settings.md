@@ -10,7 +10,7 @@ uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 
 The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
 
-1. Log in to Adobe Experience Cloud. 
+1. Log in to Adobe Experience Cloud.
 1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance.]** 
 
    You will see all the report suites that are part of your login company:

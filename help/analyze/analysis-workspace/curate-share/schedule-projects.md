@@ -23,11 +23,11 @@ The Scheduled Projects Manager shows the items that a specific user has created.
 
 ![](assets/scheduled-projects.png)
 
-* Edit scheduled projects. 
-* View a project's Schedule ID (used mainly for debugging purposes). 
-* Search for scheduled projects. 
-* Tag scheduled projects. 
-* Specify/change the owner of a scheduled projects. 
+* Edit scheduled projects.
+* View a project's Schedule ID (used mainly for debugging purposes).
+* Search for scheduled projects.
+* Tag scheduled projects.
+* Specify/change the owner of a scheduled projects.
 * Add other filters, such as Approved, Failed, Favorites, Mine, Show All, and Expired Projects.
 
 * Define a scheduled projects expiration date.

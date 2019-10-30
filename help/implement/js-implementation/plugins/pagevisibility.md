@@ -13,9 +13,7 @@ uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 
 Records the number of seconds your page was the active tab within the browser, and passes that value into a metric on the next page view.
 
->[!NOTE]
->
->This is a beta version of the plugin, and additional updates may be forthcoming.
+> [!NOTE] This is a beta version of the plugin, and additional updates may be forthcoming.
 
 This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
@@ -23,9 +21,7 @@ This plug-in also records the total seconds the page was within the browser (bot
 
 It is required that you use the getPreviousValue plug-in to track the previous page name associated with the page visibility events. Tracking these values helps you better understand visitor engagement and more accurately track visitor behavior on your sites.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## Required Supporting Plug-ins {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -100,13 +96,13 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Notes {#section_47964BB9D0A24BFEB4B2498A41D8B017}
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment. 
-* Because the plug-in passes the page visibility seconds and total seconds as they are associated with the previous page, data is not collected for the final page view of the visit. 
-* This plug-in relies on the ability to set cookies in the user's web browser. If the user does not accept first-party cookies, the plug-in will not pass data into Analytics. 
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`. 
+* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment.
+* Because the plug-in passes the page visibility seconds and total seconds as they are associated with the previous page, data is not collected for the final page view of the visit.
+* This plug-in relies on the ability to set cookies in the user's web browser. If the user does not accept first-party cookies, the plug-in will not pass data into Analytics.
+* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
 
-* A very small percentage of users will not pass percentage of page viewed data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari. 
-* Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics. 
+* A very small percentage of users will not pass percentage of page viewed data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari.
+* Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics.
 * [!UICONTROL Calculated Metrics] can be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
     * **Page Visibility Ratio** (Total Page Visibility Seconds / Total Page Seconds) 
@@ -115,7 +111,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
     * **Average Page Hidden Seconds** ((Total Page Seconds - Total Page Visibility Seconds)/Total Page Visibility Instances)
 
 * Due to the way the plug-in rounds up the seconds, there can be a 1-2 second difference between the total page visibility seconds and total seconds, with total seconds being higher. (To be resolved in a future update) 
-* Using the getVisitStart plug-in should account for visitors that have a new visit start after a period of 30+ minutes of inactivity. This is not working as designed; however, there will likely be a workaround when we incorporate the “total active seconds” in a future iteration of the plug-in.
+* Using the getVisitStart plug-in should account for visitors that have a new visit start after a period of 30+ minutes of inactivity. This is not working as designed; however, there will likely be a workaround when we incorporate the "total active seconds" in a future iteration of the plug-in.
 
 ## Frequently Asked Questions {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -129,8 +125,8 @@ Yes, the total page seconds and total visibility instances are optional events a
 
 **Will the events captured make sense if I use them in reports other than the Previous Page Name?**
 
-Since the plugin records values on the subsequent image request only other eVars that have been captured in a ‘previous page’ context could be applied, i.e. ‘Previous Page URL’.
+Since the plugin records values on the subsequent image request only other eVars that have been captured in a 'previous page' context could be applied, i.e. 'Previous Page URL'.
 
 **Will the plug-in send the visibility time on an s.tl() call, or only on an s.t() call?**
 
-The visibility time is only recorded with s.t() calls. 
+The visibility time is only recorded with s.t() calls.

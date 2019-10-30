@@ -25,13 +25,9 @@ For page B, enter a similar value in [!UICONTROL s.prop]1 for Windows Media Play
 s.prop1="WindowsMP"
 ```
 
->[!NOTE]
->
->Adobe offers up to 75 [!UICONTROL s.prop] variables for you to use.
+> [!NOTE] Adobe offers up to 75 [!UICONTROL s.prop] variables for you to use.
 
 As visitors come to your site and visit the pages containing the Real Player or Windows Media Player, [!DNL Analytics] is able to segment the users based on which pages they visited. The [!UICONTROL Custom Traffic] report then shows the number of visits to each page.
 
->[!NOTE]
->
->The name of the [!UICONTROL Custom Traffic] report can be customized. For example, the [!UICONTROL Custom Traffic] report can be renamed to "Player Types Report."
+> [!NOTE] The name of the [!UICONTROL Custom Traffic] report can be customized. For example, the [!UICONTROL Custom Traffic] report can be renamed to "Player Types Report."
 

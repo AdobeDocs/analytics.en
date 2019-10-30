@@ -23,7 +23,7 @@ The following metrics are synchronized as part of the appFigures integration.
 |  App Store Royalties (in app)  | Deprecated.  |
 |  App Store Royalties (one off)  | Deprecated.  |
 
-The following reserved classification dimensions are created by the data connectors wizard for the AppFigures Object ID reserved eVar. 
+The following reserved classification dimensions are created by the data connectors wizard for the AppFigures Object ID reserved eVar.
 
 |  Classification Dimension  | Description  |
 |---|---|
@@ -47,7 +47,7 @@ The following calculated metric is created by the data connectors wizard:
 
 ## Relevant Dimensions for Each AppFigures Metric {#section-cd356d3dce04412893beed345305c247}
 
-The following table shows which report dimensions relate to which metrics. 
+The following table shows which report dimensions relate to which metrics.
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 

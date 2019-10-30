@@ -24,9 +24,7 @@ This utility replaces the [getQueryParam](../../implement/js-implementation/plug
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->The syntax for the utility differs from the syntax for the plug-in.
+> [!NOTE] The syntax for the utility differs from the syntax for the plug-in.
 
 **Parameters:** 
 

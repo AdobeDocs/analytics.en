@@ -24,11 +24,11 @@ Here is an example of a simplified project: Suppose you have several versions of
 
 Keep this in mind:
 
-* You can drop in multiple components (or dimension items), and then switch between them in a dropdown to filter the panel contents. 
-* You can also create multiple drop-down lists on the same panel. 
-* You can customize the title of the drop-down list by clicking the title and modifying it, or remove the title altogether by clicking the x next to it. 
-* You can create drop-down filters using any component type: dimensions, date ranges, segments, and metrics. Note that drop-down date ranges will always override the panel date ranges. 
-* We maintain the component colors from the left rail: yellow for dimension item dropdowns, green for metrics, blue for segments, and purple for date ranges. 
+* You can drop in multiple components (or dimension items), and then switch between them in a dropdown to filter the panel contents.
+* You can also create multiple drop-down lists on the same panel.
+* You can customize the title of the drop-down list by clicking the title and modifying it, or remove the title altogether by clicking the x next to it.
+* You can create drop-down filters using any component type: dimensions, date ranges, segments, and metrics. Note that drop-down date ranges will always override the panel date ranges.
+* We maintain the component colors from the left rail: yellow for dimension item dropdowns, green for metrics, blue for segments, and purple for date ranges.
 * The dropzone will still create hit-level segments for items dragged in as segments. You can modify these as usual by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
 
 **To create and use drop-down filters:**

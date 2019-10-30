@@ -15,14 +15,14 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 
 As the new alert system for all of Adobe Analytics, Intelligent Alerts let you create and manage alerts, complete with alert preview and rule contribution. You can
 
-* Build alerts based on anomalies (90%, 95%, or 99% thresholds; % change; above/below). 
-* Preview how often an alert will trigger. 
-* Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects. 
+* Build alerts based on anomalies (90%, 95%, or 99% thresholds; % change; above/below).
+* Preview how often an alert will trigger.
+* Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects.
 * Create "stacked" alerts that capture multiple metrics in a single alert.
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports & Analytics.
 
-For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html). 
+For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
 
 ## Add an Alert {#task_51187E8BF19544DDA9EF2057E6F11D35}
 

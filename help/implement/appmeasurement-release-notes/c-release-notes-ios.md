@@ -13,9 +13,7 @@ uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 
 Cumulative release notes for iOS.
 
->[!NOTE]
->
->To find the current library version, turn on debug logging.
+> [!NOTE] To find the current library version, turn on debug logging.
 
 Mobile library downloads are available on [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) and on [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
@@ -129,7 +127,7 @@ The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
 
 **Bug Fixes**
 
-* Fixed an issue that could cause a crash when trying to sync new ID to the VisitorID service at the same time as sending tracking hits to [!DNL Adobe Analytics]. 
+* Fixed an issue that could cause a crash when trying to sync new ID to the VisitorID service at the same time as sending tracking hits to [!DNL Adobe Analytics].
 * Fixed an issue that was causing build warnings when targeting [!DNL iOS] versions older than 8.
 
 ## Version 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
@@ -489,11 +487,11 @@ Release Date: **November 24, 2014**
 
 Release Date: **October 16, 2014**
 
-* New - In App Messaging Capabilities. 
-* New - Location for config file can now be specified during app startup. 
-* New - Points of Interest can now be updated automatically without requiring a new config file. 
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests. 
-* Cleared up log messages, added more verbose logging when debugLogging is enabled. 
+* New - In App Messaging Capabilities.
+* New - Location for config file can now be specified during app startup.
+* New - Points of Interest can now be updated automatically without requiring a new config file.
+* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* Cleared up log messages, added more verbose logging when debugLogging is enabled.
 * Multiple performance and stability enhancements.
 
 ## Version 4.1.3 {#section_8D679B676F604E0B9A64748569185368}
@@ -514,9 +512,9 @@ Release Date: **August 4, 2014**
 
 Release Date: **April 17, 2014**
 
-* Bluetooth beacon tracking. 
-* App acquisition analytics. 
-* Apps that are timestamp enabled, crash hits are backdated to the correct session. 
+* Bluetooth beacon tracking.
+* App acquisition analytics.
+* Apps that are timestamp enabled, crash hits are backdated to the correct session.
 * Apps that are timestamp enabled, previous session is sent in a hit that is backdated to the correct session. (no longer previous session) 
 * Hit batching.
 
@@ -530,7 +528,7 @@ Release Date: **February 20, 2014**
 
 Release Date: **January 30, 2014**
 
-* Resolved issue that could cause multiple hits to be sent when database was corrupted. 
+* Resolved issue that could cause multiple hits to be sent when database was corrupted.
 * Resolved issue that could cause large session length averages if a device had incorrect time settings.
 
 ## Version 3.3.2 {#section_6D12768F20C44BA4A0D1EA607D367147}
@@ -545,7 +543,7 @@ Release Date: **27 September, 2013**
 
 [!DNL iOS] SDK 4.x for Experience Cloud Solutions is now available providing the following new features:
 
-* Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe. 
+* Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe.
 * Geo-location & points-of-interest 
 * Lifetime value 
 * Timed events 
@@ -564,14 +562,14 @@ Release Date: **23 September, 2013**
 
 Release Date: **16 August, 2013**
 
-* Optimized by removing unused code. 
+* Optimized by removing unused code.
 * Fixed potential crash that could occur when clearVars was used in a threaded scenario.
 
 ## Version 3.2 {#section_A51E0EB26EF246DABE27234C77598D99}
 
 Release Date: **6 August, 2013**
 
-* Added support for Adobe Audience Manager. 
+* Added support for Adobe Audience Manager.
 * Lifecycle data is now sent with [!DNL Target] Mbox requests when lifecycle tracking is enabled.
 
 ## Version 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
@@ -608,16 +606,16 @@ Release Date: **21 February, 2013**
 
 Release Date: **November 2012**
 
-* Fixed a potential EXEC_BAD_Access issue when setting the Products variable manually. 
-* Fixed a potential invalid selector crash when an mbox timed out. 
+* Fixed a potential EXEC_BAD_Access issue when setting the Products variable manually.
+* Fixed a potential invalid selector crash when an mbox timed out.
 * Added ad tracking support to media measurement.
 
 ## Version 3.1.2 {#section_25C8A6B67AB9487BA5DEB4DB196AE4BC}
 
 Release Date: **October 2012**
 
-* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session. 
-* Fixed an issue in the media module that caused events set on the measurement object to overwrite events set by the media module. 
+* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session.
+* Fixed an issue in the media module that caused events set on the measurement object to overwrite events set by the media module.
 * Fixed an issue that caused an exception when allocating an mbox through the [!DNL Target] integration.
 
 ## Version 3.1.0 {#section_0F3E939885DE4DF1B7430DF5F5749AD2}
@@ -644,7 +642,7 @@ Initial release.
 **Enhancements**
 
 * Added "Auto-Tracking" functionality 
-* Reduced library size to appx. 90k in final build. 
+* Reduced library size to appx. 90k in final build.
 * Added "trackEvents" and "trackAppState" methods 
 * Improved context data support and functionality. (Recommend using context data for all information sent) 
 * Simplified tracking so a basic tracking implementation can be done in 5 minutes.
@@ -707,8 +705,8 @@ The following release notes apply to the 2.x version of [!DNL AppMeasurement] fo
 
 Release Date: **April 2012**
 
-* Added support for video measurement. 
-* Resolved issues regarding linktrackvars and context data. 
+* Added support for video measurement.
+* Resolved issues regarding linktrackvars and context data.
 * Made several additional performance enhancements.
 
 ## Version 2.1.11 {#section_F0AF2D4E5F504D798EEB95BE8FE61B4C}
@@ -721,23 +719,23 @@ Release Date: **March 2012**
 
 Release Date: **February 2012**
 
-* Fixed an issue that caused an EXC_BAD_ACCESS exception in some circumstances when multiple threads attempted to simultaneously make a tracking call. 
+* Fixed an issue that caused an EXC_BAD_ACCESS exception in some circumstances when multiple threads attempted to simultaneously make a tracking call.
 * Added time stamp to variables used with light tracking calls (trackLight).
 
 ## Version 2.1.8 {#section_ACC6974CE3F741E58786CA8048F04521}
 
 Release Date: **January 2012**
 
-* Significantly increased performance of tracking thread. 
-* Moved offline hit storage to a location that is not synchronized to iCloud to conform to iCloud best practices. 
+* Significantly increased performance of tracking thread.
+* Moved offline hit storage to a location that is not synchronized to iCloud to conform to iCloud best practices.
 * Updated the library to the Apple fat binary format so you no longer need to include the specific library for your build architecture.
 
 ## Version 2.1.6 {#section_63B4967C537847C28D33EBB92CC15695}
 
 Release Date: **November 2011**
 
-* Added support for [!DNL iOS] 5. 
-* [!DNL AppMeasurement] for [!DNL iOS] was updated to no longer use the deprecated UDID value as the default value for visitorID. If you set a custom visitorID in your application (for example, `s.visitorID = @12345`), then you are unaffected by this change. If you do not set a custom visitorID, instead of using the UDID as the value for visitorID, a random visitorID is generated on initial launch and then stored in a user defaults key. This key is used by [!DNL AppMeasurement] from that point forward. This key is also saved and restored during the standard application backup process. 
+* Added support for [!DNL iOS] 5.
+* [!DNL AppMeasurement] for [!DNL iOS] was updated to no longer use the deprecated UDID value as the default value for visitorID. If you set a custom visitorID in your application (for example, `s.visitorID = @12345`), then you are unaffected by this change. If you do not set a custom visitorID, instead of using the UDID as the value for visitorID, a random visitorID is generated on initial launch and then stored in a user defaults key. This key is used by [!DNL AppMeasurement] from that point forward. This key is also saved and restored during the standard application backup process.
 
 * Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. This helps prevent these hits from recording page views with the default value of "application name/version" name.
 
@@ -757,7 +755,7 @@ Release Date: **September 2011**
 
 Release Date: **August 2011**
 
-* Ability to search report suites and metrics when running a report. 
-* Support for context data that drives server-side processing rules (v15 only). 
+* Ability to search report suites and metrics when running a report.
+* Support for context data that drives server-side processing rules (v15 only).
 * Support for light server calls (currently in beta).
 

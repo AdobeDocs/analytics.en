@@ -58,4 +58,4 @@ Now I want to see to which pages those campaigns are driving traffic, so I drag 
 
 ![](assets/multi-dimensional-flow9.png)
 
-You can then break this result down by other dimensions or metrics, such as revenue, visits, etc. 
+You can then break this result down by other dimensions or metrics, such as revenue, visits, etc.

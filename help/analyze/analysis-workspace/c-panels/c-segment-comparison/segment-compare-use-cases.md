@@ -12,7 +12,7 @@ The segment comparison panel is a widely-used feature in Analysis Workspace. Cus
 
 > *"We compared hits from one site to another site and quickly found a number of tagging inconsistencies. This way, we avoided data problems before product release."*
 
-A product manager in charge of a mobile website and a desktop website was tasked with making sure tags were consistent across mobile and desktop. To make sure he hadn’t missed anything important, he used the segment comparison panel to compare hits coming from their mobile site to hits coming from their desktop site. He noticed that there were no checkout events on the mobile website and got the correct tags in place before the mobile site was released. As a result, the product manager avoided a data disaster due to the mobile site not having recorded any conversions.
+A product manager in charge of a mobile website and a desktop website was tasked with making sure tags were consistent across mobile and desktop. To make sure he hadn't missed anything important, he used the segment comparison panel to compare hits coming from their mobile site to hits coming from their desktop site. He noticed that there were no checkout events on the mobile website and got the correct tags in place before the mobile site was released. As a result, the product manager avoided a data disaster due to the mobile site not having recorded any conversions.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -50,7 +50,7 @@ A major B2B services company wanted to understand the type of traffic that paid 
 
 ## Use case 5: compare Fitbit purchasers to everyone else
 
-> *"We found that people buying Fitbits were 6 times more likely to get an ‘out of stock’ message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"*
+> *"We found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"*
 
 A major online retailer was interested in how one of the hottest holiday products, Fitbit, was selling and what made Fitbit purchasers unique among other customers. Using segment comparison, they found that users purchasing Fitbits were 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team directed these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and satisfied more of their holiday demand.
 

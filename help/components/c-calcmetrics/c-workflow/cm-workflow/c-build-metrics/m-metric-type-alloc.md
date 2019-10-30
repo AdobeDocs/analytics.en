@@ -29,9 +29,9 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 >
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
->* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) documentation. 
->* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models will be migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” will not be deprecated - only the two allocation models that appear in calculated metrics will be). 
->* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works (as of July 19, 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
+>* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) documentation.
+>* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models will be migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" will not be deprecated - only the two allocation models that appear in calculated metrics will be).
+>* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation works (as of July 19, 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 ## How Linear Allocation works (as of July 19, 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
@@ -114,7 +114,7 @@ For the first touch eVar above, all $10 would be given to A. For the prop: A = 1
 
 **Summary of how linear allocation works as of July 19, 2018**
 
-After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50. 
+After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50.
 
 |  Values  | New Last Touch eVar  | New First Touch eVar  | New Prop  |
 |---|---|---|---|

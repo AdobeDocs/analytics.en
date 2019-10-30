@@ -20,4 +20,4 @@ The Next Flow report group has three reports: Next Page Flow, Next Section Flow,
 
 Previous Flow reports are similar to Next Flow reports, except rather than seeing where visitors went after a selected page, you see where visitors were before visiting a specified page. The controls for using the report are identical to the controls for the Next Flow reports.
 
-For information on how Flow works in **Analysis Workspace**, see [Customer Journey - Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md). 
+For information on how Flow works in **Analysis Workspace**, see [Customer Journey - Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).

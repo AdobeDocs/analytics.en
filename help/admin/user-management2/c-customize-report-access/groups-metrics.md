@@ -36,4 +36,4 @@ See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) fo
 
 ## Content Aware
 
-Content Aware includes variables that let you manage the permissions on metrics related to Experience Cloud solution integrations. You can manage permissions on [!DNL Social], [!DNL Mobile], or any other data that was inserted through a [!DNL Experience Cloud] integration. These will be enabled by default. 
+Content Aware includes variables that let you manage the permissions on metrics related to Experience Cloud solution integrations. You can manage permissions on [!DNL Social], [!DNL Mobile], or any other data that was inserted through a [!DNL Experience Cloud] integration. These will be enabled by default.

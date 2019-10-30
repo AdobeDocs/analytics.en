@@ -76,4 +76,4 @@ The details are the bulk of the report data. In this case, you have pages listed
 
 In the detail table, you can filter data, create breakdowns, add metrics, and more.
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md). 
+See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).

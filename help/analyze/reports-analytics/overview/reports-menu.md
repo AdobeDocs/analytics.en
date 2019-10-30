@@ -21,7 +21,7 @@ The Reports Menu provides:
 
 My Favorites, Frequently Viewed, and Report History are all report-suite specific. If you change report suites, all three lists will change.
 
-Reports are navigated using a hierarchical column view. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Press the Escape key to close the menu without changing the current report, or press Enter to load the selected report. 
+Reports are navigated using a hierarchical column view. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Press the Escape key to close the menu without changing the current report, or press Enter to load the selected report.
 
 ![](assets/reports-landing.png){width="672px"}
 
@@ -29,15 +29,13 @@ For details on individual reports, see [Report Descriptions](https://marketing.a
 
 ## Search for Reports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-The Reports menu provides an enhanced search experience. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. The report search has been extended to include everything in the Analytics left navigation (Admin, Components, etc). 
+The Reports menu provides an enhanced search experience. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. The report search has been extended to include everything in the Analytics left navigation (Admin, Components, etc).
 
 ![](assets/menu-search.png)
 
 Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report.
 
->[!NOTE]
->
->You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
+> [!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
 
 ## Navigation Overview {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +116,4 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
 
 ## Customizing the All Reports Menu {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in Admin Help. 
+Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in Admin Help.

@@ -18,7 +18,7 @@ This section is intended for Adobe Analytics Administrators. It focuses on the n
 
 [!DNL Activity Map] bases its link tracking on these two IDs:
 
-* Primary ID: this is the recognizable parameter of the link. 
+* Primary ID: this is the recognizable parameter of the link.
 * Link Region: this is a secondary parameter that allows users to specify a string that is representative of the overall link area in the page or region. This parameter can be automatically generated if it is not provided by the user.
 
 ## Primary ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
@@ -41,9 +41,9 @@ Link action is the action taken by the web page when the link is clicked - usual
 
 As a result, we use InnerText with these benefits over using Link Action (URL):
 
-* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text. 
-* It ensures consistency of the Primary ID across devices and browser types. 
-* It is not affected by a link repositioning on the page. 
+* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text.
+* It ensures consistency of the Primary ID across devices and browser types.
+* It is not affected by a link repositioning on the page.
 * It improves readability, so users can start analyzing Link tracking reports outside [!DNL Activity Map].
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
@@ -52,18 +52,18 @@ This new attribute allows users to specify a string that is representative of th
 
 For example, for a "Contact Us" link that is located in the menu section of the web page, the user may want to pass a "Menu" region parameter. Similarly, for a "Contact Us" link located in the footer of the web page, the region parameter may be set to "footer".
 
-The Link Region value is not set on the link itself, but on one HTML element up the DOM HTML tree that encompasses that region. 
+The Link Region value is not set on the link itself, but on one HTML element up the DOM HTML tree that encompasses that region.
 Using Link Region has these benefits:
 
-* It helps differentiate links with the same primary ID. 
-* Trending on a region is less affected by the dynamic aspect of the web page. 
-* Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting). 
-* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: “Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
+* It helps differentiate links with the same primary ID.
+* Trending on a region is less affected by the dynamic aspect of the web page.
+* Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting).
+* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: "Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
 * In itself, Region is a relevant dimension to analyze highly dynamic web pages. This is because it removes the noise due to continuously changing links: a "Latest News" Region in the CNN landing page may have a lot of changing links. But the region will always be there. So it might be interesting to trend at the Region level over many days.
 
 **Customized Region Tracking**
 
-You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different “IDs” on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
+You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different "IDs" on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
 
 Below, you can view some sample HTML using the default region ID attribute, "id".
 
@@ -112,7 +112,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 
 ## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
 
-Note that these variables are listed for reference purposes only. [!DNL Activity Map] should be configured properly out of the box, but you can customize your implementation using these variables. 
+Note that these variables are listed for reference purposes only. [!DNL Activity Map] should be configured properly out of the box, but you can customize your implementation using these variables.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 

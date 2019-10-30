@@ -15,7 +15,7 @@ Learn how to assign cost and budget amounts to channels.
 
 ## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-Learn how to assign cost and budget amounts to channels. 
+Learn how to assign cost and budget amounts to channels.
 
 Cost represents what you spend on the channel. Budget represents the amount available to spend.
 
@@ -37,7 +37,7 @@ Add cost and budget items to Marketing Channels.
 1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
 1. Click **[!UICONTROL Save.]**
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**. 
+   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 

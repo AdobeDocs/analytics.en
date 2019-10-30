@@ -12,7 +12,7 @@ Shows how to remove/discard an event from a hit using Processing Rule, without i
 
 ## Remove an event from a hit {#topic_9548385BFE344FC08CA99718A24FC093}
 
-Shows how to remove/discard an event from a hit using Processing Rule, without implementing a change on the page. 
+Shows how to remove/discard an event from a hit using Processing Rule, without implementing a change on the page.
 
 Configure a Processing Rule to set the event to custom value = 0, as shown in the image below:
 

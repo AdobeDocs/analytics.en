@@ -14,7 +14,7 @@ Displays information about the places on the Web that drive traffic to your site
 
 ## Traffic Sources {#topic_6718F8EFD5984DC5839B9E8F6CC45EDA}
 
-Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you. 
+Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you.
 
 The reports in this menu fall into three basic categories:
 
@@ -56,11 +56,11 @@ The reports in this menu fall into three basic categories:
   </tr> 
   <tr> 
    <td colname="col1"> All Search Page Rankings </td> 
-   <td colname="col2"> <p> Displays the rank of your site from among all listings for your visitor’s searches, including paid and natural search page ranking data. </p> <p>For example, a user who comes to your site from a search engine might have seen you on the third of one hundred pages of results. This can help you quickly see and optimize search engine efforts. Data for this report can be viewed for all but the <span class="wintitle"> Hourly</span> time period. </p> </td> 
+   <td colname="col2"> <p> Displays the rank of your site from among all listings for your visitor's searches, including paid and natural search page ranking data. </p> <p>For example, a user who comes to your site from a search engine might have seen you on the third of one hundred pages of results. This can help you quickly see and optimize search engine efforts. Data for this report can be viewed for all but the <span class="wintitle"> Hourly</span> time period. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Referring Domains </td> 
-   <td colname="col2"> <p> Shows the domains that referred the customers that most impacted your site’s success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories. </p> </td> 
+   <td colname="col2"> <p> Shows the domains that referred the customers that most impacted your site's success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Original Referring Domains </td> 
@@ -72,12 +72,12 @@ The reports in this menu fall into three basic categories:
   </tr> 
   <tr> 
    <td colname="col1"> Referrer Types </td> 
-   <td colname="col2"> <p> By tracking and recording the visitors’ referring sites for each visit, you can determine how visitors found out about your site for each visit. The list below defines the various types of referrers. </p> 
+   <td colname="col2"> <p> By tracking and recording the visitors' referring sites for each visit, you can determine how visitors found out about your site for each visit. The list below defines the various types of referrers. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Hard drive referrers are recorded when visitors click a link in an HTML document located on their own hard drive and arrive at your site as a result. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Other website referrers are recorded when visitors click a link located on a page on another website (not defined as part of your site) and arrive at your website. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Search engine referrers are recorded when visitors use a search engine to access your site. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Typed / Bookmarked referrers are recorded when visitors type your site’s URL directly into their browser, or if they access your site by selecting bookmarks. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Typed / Bookmarked referrers are recorded when visitors type your site's URL directly into their browser, or if they access your site by selecting bookmarks. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

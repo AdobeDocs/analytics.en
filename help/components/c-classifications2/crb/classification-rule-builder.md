@@ -39,12 +39,10 @@ Here are the high-level steps you take to implement classification rules:
 | Step 6: [Activate valid rules](../../../components/c-classifications2/crb/classification-rule-definitions.md).|[!DNL Rules Page]|Once rules are valid, activate the rule set.  You can overwrite existing keys, if necessary. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md).|
 | Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md).|[!DNL Rules Page]|Delete unwanted rules from a set.<br>Note:  Deleting rules does not delete classified data uploaded.  See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data.|
 
->[!NOTE]
->
->Groups with permissions to use the classification import tool can use classification rules. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+> [!NOTE] Groups with permissions to use the classification import tool can use classification rules. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Additional Resources**
 
 **Blog**: For additional information about this feature, see the Digital Marketing Blog: [Rule-based Classifications](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29).
 
-**Video**: Visit [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) to view the [!UICONTROL Classifications Overview] video. 
+**Video**: Visit [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) to view the [!UICONTROL Classifications Overview] video.

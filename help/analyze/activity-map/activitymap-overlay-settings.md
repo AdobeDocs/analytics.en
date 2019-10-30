@@ -14,7 +14,7 @@ The [!DNL Activity Map] Setting Panel lets you modify the settings and propertie
 
 Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
 
-The Settings panel displays different content based on the selected application mode. The Other tab contains general settings. 
+The Settings panel displays different content based on the selected application mode. The Other tab contains general settings.
 
 |  Standard  | **[!UICONTROL Gradient]** or **[!UICONTROL Bubble]** overlays  |
 |---|---|

@@ -14,7 +14,7 @@ Field descriptions for report suite General Account Settings in Admin.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**
 
-These settings contain editing options for basic report suite functionality, such as name and time zone. 
+These settings contain editing options for basic report suite functionality, such as name and time zone.
 
 <table id="table_5448A694DC0A48D2B20C7F1332509F6E"> 
  <thead> 
@@ -50,7 +50,7 @@ These settings contain editing options for basic report suite functionality, suc
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP Obfuscation</span> </td> 
-   <td colname="col2"> <p>Turns IP addresses into non-recognizable strings, essentially removing them from Adobe data stores. When IP Obfuscation is enabled, the original IP addresses are permanently lost. </p> <p>Note:  The IP addresses are obfuscated everywhere in Analytics, including Data Warehouse. However, the IP setting in Target is controlled separately, so this setting has no impact on Target. </p> <p>If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don'’t need to change anything when they enable IP obfuscation. </p> <p>Checking <span class="uicontrol"> Disabled</span> leaves the IP address in the data. </p> <p>Checking <span class="uicontrol"> Obfuscate IP address</span> changes the IP to a hashed value (e.g., 234abc6493872038). </p> <p>Checking <span class="uicontrol"> Remove IP address</span> replaces the IP address with x.x.x.x in the data, after geo-lookup. </p> <p>Note: This setting might require changes to custom <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> bot rules</a> or<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>Turns IP addresses into non-recognizable strings, essentially removing them from Adobe data stores. When IP Obfuscation is enabled, the original IP addresses are permanently lost. </p> <p>Note:  The IP addresses are obfuscated everywhere in Analytics, including Data Warehouse. However, the IP setting in Target is controlled separately, so this setting has no impact on Target. </p> <p>If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don''t need to change anything when they enable IP obfuscation. </p> <p>Checking <span class="uicontrol"> Disabled</span> leaves the IP address in the data. </p> <p>Checking <span class="uicontrol"> Obfuscate IP address</span> changes the IP to a hashed value (e.g., 234abc6493872038). </p> <p>Checking <span class="uicontrol"> Remove IP address</span> replaces the IP address with x.x.x.x in the data, after geo-lookup. </p> <p>Note: This setting might require changes to custom <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> bot rules</a> or<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transaction ID Storage</span> </td> 

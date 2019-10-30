@@ -50,7 +50,7 @@ Displays information about your customer loyalty. You can see how many and how o
   </tr> 
   <tr> 
    <td colname="col1"> Days Since Last Purchase </td> 
-   <td colname="col2"> <p>Displays the most common number of days that pass between customers’ repeat purchases, and allows you to view the time periods that contributed most to your site’s key success metrics, such as Revenue and Orders. </p> </td> 
+   <td colname="col2"> <p>Displays the most common number of days that pass between customers' repeat purchases, and allows you to view the time periods that contributed most to your site's key success metrics, such as Revenue and Orders. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Daily Unique Customer </td> 

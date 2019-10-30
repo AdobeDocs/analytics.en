@@ -32,6 +32,6 @@ You can search on specific dimension items by creating a filter that matches exa
    * **From List:** Lets you select data from a list to which you can add data.    
 1. If you enable **[!UICONTROL From List]**, select any available listed items or click **[!UICONTROL Add]**.
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click **[!UICONTROL More ...]**, which displays the [!UICONTROL Search Form], so that you can create a more detailed search for dimensions. 
+   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click **[!UICONTROL More ...]**, which displays the [!UICONTROL Search Form], so that you can create a more detailed search for dimensions.
 1. On the [!UICONTROL Select From List], click **[!UICONTROL OK]**.
 1. On the [!UICONTROL Choose Page] form, save your Specific filter if you want, then click **[!UICONTROL OK]**.

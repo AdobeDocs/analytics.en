@@ -26,7 +26,7 @@ The right side shows the top four Next Pages, and the number of exits.
 
 If a URL was tracked for any internal pages displayed in this section, the page will be displayed as a link. Thus, you can click on that page and continue down the path of pages with the most affinity. This report thus allows you to interactively navigate your web properties from a web analytics perspective.
 
-The Page Flow Report is available only in Standard Mode. 
+The Page Flow Report is available only in Standard Mode.
 
 |  **Page Flow** | **Description** |
 |---|---|

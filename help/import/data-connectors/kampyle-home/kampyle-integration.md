@@ -11,9 +11,7 @@ uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 
 Once deployed, you can begin using the additional capabilities that this integration provides. The following are actions to take to get value from this integration from within Adobe Analytics.
 
->[!NOTE]
->
->It can take 24-48 hours to begin seeing Kampyle response data within your Adobe Analytics reporting.
+> [!NOTE] It can take 24-48 hours to begin seeing Kampyle response data within your Adobe Analytics reporting.
 
 ## Mix Feedback and Onsite Behavior Data{#mix-feedback-and-onsite-behavior-data}
 
@@ -27,7 +25,7 @@ Using Adobe Reports & Analytics, you can drill into numerous feedback dimensions
 
 You can create segments based on feedback dimensions.
 
-A primary feature of this integration is the ability to create Adobe Analytics segments based on the Kampyle feedback dimensions. For example, you can build a segment that will include only Visits where a Grade of 1 or 2 was given. You might call this “Feedback Grade - LOW”. This segment definition would look like this:
+A primary feature of this integration is the ability to create Adobe Analytics segments based on the Kampyle feedback dimensions. For example, you can build a segment that will include only Visits where a Grade of 1 or 2 was given. You might call this "Feedback Grade - LOW". This segment definition would look like this:
 
 ![](assets/segment_feedback.png)
 

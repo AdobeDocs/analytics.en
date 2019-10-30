@@ -37,4 +37,4 @@ Information about the basic report types, including Traffic, Conversion, and Pat
 
 See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features.
 
-See [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) in *`Analytics Reference Help`* for descriptions. 
+See [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) in *`Analytics Reference Help`* for descriptions.

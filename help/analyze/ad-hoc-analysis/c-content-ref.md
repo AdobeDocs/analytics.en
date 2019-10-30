@@ -32,13 +32,13 @@ For information and instructions on building and managing segments in the Unifie
 
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* [Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) are universal to all report suites. Previously, segments were report-suite specific. 
-* The [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) lets you set up [workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) with segment sharing, tagging, verification, and approval features. 
+* [Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) are universal to all report suites. Previously, segments were report-suite specific.
+* The [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) lets you set up [workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) with segment sharing, tagging, verification, and approval features.
 
-* The [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) has been updated to simplify segment creation. 
-* You can [tag segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) to organize and search later instead of using folders. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments. 
+* The [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) has been updated to simplify segment creation.
+* You can [tag segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) to organize and search later instead of using folders. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
 
-* You can create [Sequential Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) outside of Ad Hoc Analysis. 
+* You can create [Sequential Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) outside of Ad Hoc Analysis.
 * 
 
   >[!NOTE]
@@ -80,10 +80,10 @@ Since segments work in multiple report suites, you might find that you have mult
 
 ## How does Adobe recommend that I clean up segments? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
-* Tag all segments with legacy tag. 
-* Review the segments that you have. 
-* Add them to the segment library where applicable. 
-* Approve segments that are canonical. 
+* Tag all segments with legacy tag.
+* Review the segments that you have.
+* Add them to the segment library where applicable.
+* Approve segments that are canonical.
 * Tag segments according to best practices.
 
 ## Why can't I delete this segment? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
@@ -130,7 +130,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
   </tr> 
   <tr> 
    <td colname="col1">Admin segments <p>(also known as "Global" segments) </p> </td> 
-   <td colname="col2"> <p> <b>Admin</b> segments will be migrated into the new segment interface and will show up as segments shared with everyone. </p> <p>The owner of these segments is set to the admin with the oldest account in the login company’s list of admin users, however, all Admins can delete, edit and share these segments. </p> <p>The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone. </p> </td> 
+   <td colname="col2"> <p> <b>Admin</b> segments will be migrated into the new segment interface and will show up as segments shared with everyone. </p> <p>The owner of these segments is set to the admin with the oldest account in the login company's list of admin users, however, all Admins can delete, edit and share these segments. </p> <p>The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone. </p> </td> 
   </tr> 
  </tbody> 
 </table>

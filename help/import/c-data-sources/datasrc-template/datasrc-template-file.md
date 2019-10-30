@@ -30,4 +30,4 @@ Once created, you can download the template, input your data into the template, 
 
 The Data Source template is a [!DNL .txt] file that you can open with any text editor. However, it is easiest to work with the template using Microsoft Excel or another spreadsheet application. The template content varies based on your selections in the [!UICONTROL Data Source Activation Wizard].
 
-See [Import File Reference](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) for additional details. 
+See [Import File Reference](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) for additional details.

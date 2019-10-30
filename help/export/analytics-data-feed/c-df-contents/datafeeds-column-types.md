@@ -25,8 +25,8 @@ When processing the data feed, you can lowercase values for comparison purposes,
 
 If you see different case variations of the same value between the pre and post columns (for example, "snow" in the pre column, and "Snow" in the post column), it indicates that you are passing in both uppercase and lowercase versions of the same value across your site. The case variation in the post column was previously passed in and is stored in the virtual cookie, or was processed around the same time for that report suite. For example:
 
-Hit 1: s.list1="Tabby,Persian,Siamese”;
+Hit 1: s.list1="Tabby,Persian,Siamese";
 
-Hit 2: s.list1=“tabby,persian,siamese”;
+Hit 2: s.list1="tabby,persian,siamese";
 
-When hit 2 is reported in the data feed, the pre column will contain the exact casing passed in (tabby,persian,siamese), but the value from hit 1 is likely persisted for that visit and will be reported in the post column (which will be Tabby,Persian,Siamese) since hit 1 and 2 contain the exact same value when a case-insensitive comparison is performed. 
+When hit 2 is reported in the data feed, the pre column will contain the exact casing passed in (tabby,persian,siamese), but the value from hit 1 is likely persisted for that visit and will be reported in the post column (which will be Tabby,Persian,Siamese) since hit 1 and 2 contain the exact same value when a case-insensitive comparison is performed.

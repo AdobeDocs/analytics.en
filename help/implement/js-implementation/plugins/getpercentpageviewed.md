@@ -19,7 +19,7 @@ The getPercentPageViewed plugin measures a visitor's scroll activity to see how 
 
 ## Prerequisites
 
-You must have AppMeasurement and the handlePPVevents helper plugin to run the getPercentPageViewed plugin. 
+You must have AppMeasurement and the handlePPVevents helper plugin to run the getPercentPageViewed plugin.
 
 ## Implementation
 
@@ -72,7 +72,7 @@ The code sample above:
    * The code also sets s.prop2 equal to the Highest Percentage Viewed of the previous page and the Initial Percentage Viewed of the previous page.
 
 >[!NOTE]
->If an entire page is visible when it first loads, both the Highest Percentage Viewed and the Initial Percentage Viewed dimensions would be equal to 100. However, if an entire page is not visible when it first loads, but the visitor never scrolls down the page before moving on to the next page, then both the Highest Percentage Viewed and the Initial Percentage Viewed dimensions would be equal to the same value. 
+>If an entire page is visible when it first loads, both the Highest Percentage Viewed and the Initial Percentage Viewed dimensions would be equal to 100. However, if an entire page is not visible when it first loads, but the visitor never scrolls down the page before moving on to the next page, then both the Highest Percentage Viewed and the Initial Percentage Viewed dimensions would be equal to the same value.
 
 **Sample Call 2**
 

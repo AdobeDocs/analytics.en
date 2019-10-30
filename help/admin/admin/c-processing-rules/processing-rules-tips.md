@@ -19,7 +19,7 @@ This section contains some guidelines to help test processing rules before they 
 
 **Testing Rules That Read Search Terms**
 
-For any criteria based on a search, such as if prop1 contains “news,” go to the prop 1 report and search for “news” and see if there are any matches you were not expecting.
+For any criteria based on a search, such as if prop1 contains "news," go to the prop 1 report and search for "news" and see if there are any matches you were not expecting.
 
 **Testing Rules that Read Variables**
 
@@ -27,7 +27,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Using a Dev Report Suite**
 
-We recommend configuring processing rules on a dev report suite to make sure they’re working correctly. If possible, we recommend copying the rules to a small production report suite before broad deployment.
+We recommend configuring processing rules on a dev report suite to make sure they're working correctly. If possible, we recommend copying the rules to a small production report suite before broad deployment.
 
 ## Check for Empty Values {#section_EE84A5525E26415787930723B0CAAE0F}
 

@@ -37,7 +37,7 @@ There are several steps to follow in order to successfully display email campaig
     * sc_cid=EM033007 > "EM" flags email campaign 
     * sc_cid=GG987123 > "GG" signifies Google and is a paid search campaign
 
-   Contact Adobe [!DNL Customer Care] for details on setting up and using tracking codes. 
+   Contact Adobe [!DNL Customer Care] for details on setting up and using tracking codes.
 
 1. Add query string parameters to HTML email links.
 
@@ -75,18 +75,18 @@ There are several steps to follow in order to successfully display email campaig
     
        Each query string parameter that needs to be copied into a variable should have one [!UICONTROL getQueryParam] call. In the example above, the query string parameter [!UICONTROL sc_cid] is copied into *`campaign`*.
 
-       Only the first call to [!UICONTROL getQueryParam] is required to capture click-throughs. Contact Adobe [!DNL Customer Care] to implement this function and ensure that your version of the JavaScript file contains the [!UICONTROL getQueryParam] plug-in. 
+       Only the first call to [!UICONTROL getQueryParam] is required to capture click-throughs. Contact Adobe [!DNL Customer Care] to implement this function and ensure that your version of the JavaScript file contains the [!UICONTROL getQueryParam] plug-in.
     
     1. Make sure the Code to Paste JavaScript tags are on all landing pages. This Code to Paste must reference the version of [!DNL s_code.js] altered in Part A.
 
        The following points are important to remember when updating the JavaScript library. These points are listed below.
 
-        * The query string parameter [!UICONTROL sc_cid] must be visible in the URL on the final landing page otherwise no click-through conversion is recorded. 
+        * The query string parameter [!UICONTROL sc_cid] must be visible in the URL on the final landing page otherwise no click-through conversion is recorded.
         * The [!UICONTROL sc_cid] parameter is an example of a query string parameter. Any query string parameter can be used and captured by the [!UICONTROL getQueryParam] plug-in. Make sure that the query string parameters are used only for campaign tracking. Any time the parameters appear in a query string, their values are copied into *`campaign`*.
 
 1. Use [!UICONTROL SAINT] to classify campaign tracking codes.
 
-   The [!UICONTROL SAINT Campaign Management Tool] can be used to convert tracking codes into user-friendly names. It can also be used to summarize the success of each email campaign. Step 5, below, outlines the process required to set up an email campaign. 
+   The [!UICONTROL SAINT Campaign Management Tool] can be used to convert tracking codes into user-friendly names. It can also be used to summarize the success of each email campaign. Step 5, below, outlines the process required to set up an email campaign.
 
 1. See pathing by email campaign (optional).
 
@@ -94,7 +94,7 @@ There are several steps to follow in order to successfully display email campaig
 
     1. Consult Adobe [!DNL Customer Care] about turning on pathing for a [!UICONTROL Custom Insight] variable (prop) 
     
-    1. On all pages, copy the page name into the designated [!DNL s.prop]. 
+    1. On all pages, copy the page name into the designated [!DNL s.prop].
     1. On the email landing page, append the name of the email campaign to the prop. The result displays as shown below:     
     
        ```js    

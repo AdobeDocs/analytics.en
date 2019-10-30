@@ -16,8 +16,8 @@ Administrative steps for enabling AEM Assets reporting in Analytics.
 
 Enables Analytics to collect impressions and clicks on Assets served up from AEM Asset Insights. This integration
 
-* Enables reporting in Analytics. 
+* Enables reporting in Analytics.
 * Adds new dimensions to the Asset Variables in Analysis Workspace and Ad Hoc Analysis: Asset ID, Asset Source, and Clicked Asset ID 
 * Adds new dimensions to the Asset Events: Asset Clicks and Asset Impressions
 
-For data to be populated, refer to the [AEM Asset Insights documentation](https://docs.adobe.com/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/asset-insights.html) for complete implementation instructions. 
+For data to be populated, refer to the [AEM Asset Insights documentation](https://docs.adobe.com/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/asset-insights.html) for complete implementation instructions.

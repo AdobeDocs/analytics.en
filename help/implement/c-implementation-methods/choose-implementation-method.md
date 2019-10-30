@@ -46,4 +46,4 @@ The JavaScript implementation requires:
 * Strong JavaScript skills 
 * Solid understanding of Analytics concepts and terminology
 
-For more information, see [Implementing Analytics Using JavaScript](../../implement/js-implementation/javascript-implementation-overview.md). 
+For more information, see [Implementing Analytics Using JavaScript](../../implement/js-implementation/javascript-implementation-overview.md).

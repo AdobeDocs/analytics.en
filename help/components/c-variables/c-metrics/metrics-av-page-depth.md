@@ -14,7 +14,7 @@ Displays on average how far within a visit each value was fired. This metric is 
 
 For example, if a visit contains the following path: Page A > Page B > Page C > Page D > Page E > Page F, the depth is an index of where the page is. For example, "Page A" has a depth of 0, while "Page F." has a depth of five. The average is based on a combination of all visits. A page depth with a value of less than one (such as 0.9) is the mean value of all pages visited prior to the page in question.
 
-[!UICONTROL Page Depth] helps you understand where a given page typically falls in a user path, regardless of previous or next pages in this path. As such, it helps to provide insight into how the page fits into the overall picture of the user's experience on your site. This insight can be best seen on a [!UICONTROL Pages] report. 
+[!UICONTROL Page Depth] helps you understand where a given page typically falls in a user path, regardless of previous or next pages in this path. As such, it helps to provide insight into how the page fits into the overall picture of the user's experience on your site. This insight can be best seen on a [!UICONTROL Pages] report.
 
 <table id="table_E92B185A487C40E28C70EA30EDF73A40"> 
  <thead> 

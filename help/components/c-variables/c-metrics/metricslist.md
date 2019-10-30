@@ -16,4 +16,4 @@ Metrics and associated data are displayed in the columns of reports. Traffic met
 
 Here is an overview of the [standard Analytics metrics](/help/components/c-variables/c-metrics/metrics-overview.md).
 
-[Calculated metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) are created by combining metrics. 
+[Calculated metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) are created by combining metrics.

@@ -20,5 +20,5 @@ Steps that describe how to create a rollup report suite.
 
    **[!UICONTROL Report Suite Title:]** The report suite title that appears in the Site menu.
 
-   **[!UICONTROL Time Zone:]** The time zone where data is reported. 
+   **[!UICONTROL Time Zone:]** The time zone where data is reported.
 1. Click **[!UICONTROL Create Rollup]**.

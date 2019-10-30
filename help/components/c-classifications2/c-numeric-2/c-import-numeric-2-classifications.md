@@ -31,7 +31,7 @@ YYYY/MM/DD - YYYY/MM/DD
 
 **~MyCost^~rate~:** The event to multiply by the [!UICONTROL Value] column. Valid values are:
 
-* fixed - used to indicate that value is a flat value to be spread over the period. 
+* fixed - used to indicate that value is a flat value to be spread over the period.
 * revenue 
 * order 
 * unit 
@@ -46,4 +46,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event 2 
 * etc
 
-**~MyCost^~hinge~:** The event to use to distribute the value during a breakdown. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none]. 
+**~MyCost^~hinge~:** The event to use to distribute the value during a breakdown. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].

@@ -14,9 +14,7 @@ This feature lets you customize the report menus that a user sees in Reports & A
 
 The menu changes apply to all users who access the report suite. However, users can restore a menu's default configuration while using the report suite.
 
->[!NOTE]
->
->Any change in menu structure does not affect Report Builder and Ad Hoc Analysis. Renaming a report will, however, be reflected in both tools.
+> [!NOTE] Any change in menu structure does not affect Report Builder and Ad Hoc Analysis. Renaming a report will, however, be reflected in both tools.
 
 ## Menu Customization Descriptions {#section_B0D224DACB914A378902A4E0E1234889}
 

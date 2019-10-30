@@ -34,4 +34,4 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **Locked/Unlocked:** You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing. See [Lock/Unlock Workbooks](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
-**Help:** Launches the Report Builder help documentation you are currently looking at. 
+**Help:** Launches the Report Builder help documentation you are currently looking at.

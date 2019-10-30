@@ -44,7 +44,7 @@ The Workspace project list page contains the following information:
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** provides project-level information on the currently active project. 
+**[!UICONTROL Project Info & Settings]** provides project-level information on the currently active project.
 
 |  Setting  | Description  |
 |---|---|
@@ -65,9 +65,7 @@ The top Projects menu looks like this:
 
 The submenus contain the following options.
 
->[!NOTE]
->
->Options marked by an asterisk (&#42;) display only with **saved** projects.
+> [!NOTE] Options marked by an asterisk (&#42;) display only with **saved** projects.
 
 |  Project  | Edit  | Insert  | Components  | Share  | Help  |
 |---|---|---|---|---|---|
@@ -87,4 +85,4 @@ The left rail has 3 icons, allowing you access to Panels, [Visualizations](../..
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-A **[!UICONTROL Blank Panel]** was added to the list of panels accessible from the left rail. To create a **new Cohort Panel**, drag in a Blank Panel and drag in a Cohort Table visualization. 
+A **[!UICONTROL Blank Panel]** was added to the list of panels accessible from the left rail. To create a **new Cohort Panel**, drag in a Blank Panel and drag in a Cohort Table visualization.

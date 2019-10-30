@@ -84,4 +84,4 @@ The following list of headers is used to identify wireless devices. The algorith
 
 For example "callinglineid" would match "X-Up-Calling-Line-ID" and "nokia-callinglineid." The header type tells us what to expect in the header. The order of header priority is listed here (if a "callinglineid" header is present it is used instead of "subno").
 
-You can use [Dynamic Variables](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) to extract specific values from a header. 
+You can use [Dynamic Variables](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) to extract specific values from a header.

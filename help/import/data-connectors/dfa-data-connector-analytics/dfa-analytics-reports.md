@@ -33,7 +33,7 @@ To generate a DFA report:
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports & Analytics]**. Make sure you have selected the report suite where you installed the DFA integration.
 
 1. In the left-side navigation, select the Conversion variable that captures the DFA click-through data, then select the desired DFA report.
-1. Click **[!UICONTROL Add Metrics]**. This opens the Metric Selector dialog box. 
+1. Click **[!UICONTROL Add Metrics]**. This opens the Metric Selector dialog box.
 1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
 
    The resulting report displays Impressions, Clicks, and Revenue data so you can see how your DFA services translate into bottom-line revenue.
@@ -48,5 +48,5 @@ This report has the following important features:
 * The graph displays data for each metric as a percentage of the metric total, rather than using the actual numbers for each metric. You can change this in the **[!UICONTROL Configure Report]** dialog box.
 * Below the graph, the DFA_Ad Name report lists the report details for each of the DFA Ads, and displays both numeric and percentage data for the Ad performance.
 * Select a specific DFA Ad Name to open a menu of options for getting more information about that particular DFA ad.
-* Each metric column includes a color key that corresponds to the metric’s assigned color in the graph.
+* Each metric column includes a color key that corresponds to the metric's assigned color in the graph.
 * The report is ordered by the Revenue metric with highest revenue Ad at the top. You can change the report ordering clicking on a different column (metric) label.

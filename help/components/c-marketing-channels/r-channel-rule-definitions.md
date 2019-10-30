@@ -80,7 +80,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page </p> </td> 
-   <td colname="col2"> <p>The page name of a web page on your site that is tagged using Adobe’s web beacon. This value is equivalent to <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col2"> <p>The page name of a web page on your site that is tagged using Adobe's web beacon. This value is equivalent to <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Domain </p> </td> 
@@ -139,7 +139,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Set the channel's value to </p> </td> 
-   <td colname="col2"> <p>In addition to knowing which marketing channel brings a visitor to your site, you can know which banner ad, search keyword, or email campaign within the channel is getting credit for a visitor’s site activity. This ID is a channel value that is stored along with the channel. Often this value is a campaign ID embedded in the landing page or the referring URL; in other cases it is the search engine and search keyword combination, or the referring URL that most correctly identifies the visitor from a particular channel. </p> </td> 
+   <td colname="col2"> <p>In addition to knowing which marketing channel brings a visitor to your site, you can know which banner ad, search keyword, or email campaign within the channel is getting credit for a visitor's site activity. This ID is a channel value that is stored along with the channel. Often this value is a campaign ID embedded in the landing page or the referring URL; in other cases it is the search engine and search keyword combination, or the referring URL that most correctly identifies the visitor from a particular channel. </p> </td> 
   </tr> 
  </tbody> 
 </table>

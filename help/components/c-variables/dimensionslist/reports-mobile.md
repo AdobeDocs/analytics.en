@@ -16,9 +16,7 @@ Displays information about web sites access from a mobile device. Mobile reports
 
 Displays information about web sites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
 
->[!NOTE]
->
->The Mobile Reports display mobile web traffic only. Mobile app data collected using the native iOS, Android, and other SDKs appear in the Mobile App Reports, and are displayed only when enabled in Admin Tools.
+> [!NOTE] The Mobile Reports display mobile web traffic only. Mobile app data collected using the native iOS, Android, and other SDKs appear in the Mobile App Reports, and are displayed only when enabled in Admin Tools.
 
 The following mobile reports are available: 
 
@@ -57,19 +55,19 @@ The following mobile reports are available:
   </tr> 
   <tr> 
    <td colname="col1"> Cookie Support </td> 
-   <td colname="col2"> <p>Groups mobile device hits by whether they support cookies or not. Visitors are divided into groups the support cookies and groups that do not. The type of mobile device is identified in the user agent string. Adobe maintains a list of mobile devices that are known to support cookies. If the mobile device listed in the user agent string is also listed in Adobe’s list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>Groups mobile device hits by whether they support cookies or not. Visitors are divided into groups the support cookies and groups that do not. The type of mobile device is identified in the user agent string. Adobe maintains a list of mobile devices that are known to support cookies. If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Image Support </td> 
-   <td colname="col2"> <p> Groups mobile devices based on the types of images they support. </p> <p>For example, if a visitor’s phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. If the phone supports more than one image format, then a visit to a site might result in multiple increments for that visit. In other words, if your phone supports <span class="filepath"> .jpeg</span>, <span class="filepath"> .png</span>, and <span class="filepath"> .gif</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
+   <td colname="col2"> <p> Groups mobile devices based on the types of images they support. </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. If the phone supports more than one image format, then a visit to a site might result in multiple increments for that visit. In other words, if your phone supports <span class="filepath"> .jpeg</span>, <span class="filepath"> .png</span>, and <span class="filepath"> .gif</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Color Depth </td> 
-   <td colname="col2"> <p> Groups mobile device hits by the number of colors supported. The report shows the total number of visitors to your site who used a mobile device, and breaks them into groups based on the number of colors configured in their mobile devices. </p> <p>For example, if your visitor’s mobile phone supports 24 colors, then the report increments the line item corresponding to 24 colors. </p> </td> 
+   <td colname="col2"> <p> Groups mobile device hits by the number of colors supported. The report shows the total number of visitors to your site who used a mobile device, and breaks them into groups based on the number of colors configured in their mobile devices. </p> <p>For example, if your visitor's mobile phone supports 24 colors, then the report increments the line item corresponding to 24 colors. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Audio Support </td> 
-   <td colname="col2"> <p> Groups mobile devices based on the types of audio formats they support. </p> <p>For example, if a visitor’s phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. If the phone supports more than one image format, a visit to a site might result in increments for each supported audio type. In other words, if a phone supports <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>, and <span class="filepath"> .amr</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
+   <td colname="col2"> <p> Groups mobile devices based on the types of audio formats they support. </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. If the phone supports more than one image format, a visit to a site might result in increments for each supported audio type. In other words, if a phone supports <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>, and <span class="filepath"> .amr</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Video Support </td> 

@@ -21,7 +21,7 @@ Steps that describe how to delete or remove classification data.
 
    Alternatively, use [!DNL ~deletekey~]. This command treats the classification as if it never occurred for the specified key. It completely removes it and any column data from the lookup tables.
 
-   **Caveat**: You only need one column containing [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. This command removes all metadata from the row. Adobe interprets this as though the key was never classified, and displays it in the [None](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) category. 
+   **Caveat**: You only need one column containing [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. This command removes all metadata from the row. Adobe interprets this as though the key was never classified, and displays it in the [None](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) category.
 
 1. Save the file, and upload it using the [!UICONTROL Import File] tab.
 
@@ -35,7 +35,7 @@ Steps that describe how to delete or remove classification data.
     * [!DNL ~ empty ~] 
     * [!DNL ~Empty~]
 
-* You cannot delete values within the key column. This is data passed directly into reporting and is permanent. 
-* If you are removing a classification value that has subclassifications, they are also removed. Classifications cannot exist without a key value, and a subclassification's parent is its key value. 
+* You cannot delete values within the key column. This is data passed directly into reporting and is permanent.
+* If you are removing a classification value that has subclassifications, they are also removed. Classifications cannot exist without a key value, and a subclassification's parent is its key value.
 * It is possible to remove subclassification data while leaving its parent classification intact.
 

@@ -15,7 +15,7 @@ How to use metrics in Marketing Channel reports.
 
 ## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
-How to use metrics in Marketing Channel reports. 
+How to use metrics in Marketing Channel reports.
 
 ![](assets/metric_edit_icon.png)
 
@@ -27,14 +27,14 @@ Add a column to the report.
 
 ## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
 
-First-touch and last-touch are channel attributes that let you see how many new engagements (or metric data like product views, revenue, and orders) result from a visitor's activity in the channel. 
+First-touch and last-touch are channel attributes that let you see how many new engagements (or metric data like product views, revenue, and orders) result from a visitor's activity in the channel.
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). It notes the first channel the user came through, as well as the most recent channel. It then gives credit of the success event to each appropriate channel.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -59,9 +59,7 @@ The Paid Search channel is credited for $100 as the first-touch channel for reve
 
 Every success event instance will have exactly one First Touch channel and exactly one Last Touch channel. This means that if you add up a given metric column for any success event, it will always exactly equal the total for the same time period. This total will also exactly equal the total number of events in the appropriate [!UICONTROL Site Metrics] > [!UICONTROL Custom Events] report. Non-success event metrics, such as visits and visitors, will not match up 1 to 1, as multiple channels can fire in the same visit.
 
->[!NOTE]
->
->This report uses the first-touch or last-touch version of each metric. Thus, the data shown in a [!UICONTROL Marketing Channel] report might not match the data shown in other reports.
+> [!NOTE] This report uses the first-touch or last-touch version of each metric. Thus, the data shown in a [!UICONTROL Marketing Channel] report might not match the data shown in other reports.
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
@@ -73,7 +71,7 @@ Every success event instance will have exactly one First Touch channel and exact
 
 ## Click-through {#reference_55E2254F02EF4E7EB0AD2838C948347A}
 
-A click-through is an instance on the last-touch channel. It is an eVar with the most recent allocation. 
+A click-through is an instance on the last-touch channel. It is an eVar with the most recent allocation.
 
 For example, assume that a visitor comes to your website once a day, with each visit originating from a different marketing channel:
 
@@ -85,7 +83,7 @@ For example, assume that a visitor comes to your website once a day, with each v
 * Day 6: Display 
 * Day 7: Natural Search
 
-The First-Touch Channel report would show 1 new engagement for Paid Search. Each other channel would show 0 new engagements. The Last-Touch Channel report would show 2 click-throughs for Paid Search; 3 for Display; and 2 for Natural Search. 
+The First-Touch Channel report would show 1 new engagement for Paid Search. Each other channel would show 0 new engagements. The Last-Touch Channel report would show 2 click-throughs for Paid Search; 3 for Display; and 2 for Natural Search.
 
 ## Add metrics to a Marketing Channel report {#task_D381139E00504666AB2402D553CFEA5B}
 

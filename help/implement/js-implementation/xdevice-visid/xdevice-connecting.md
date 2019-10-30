@@ -42,4 +42,4 @@ Each new device or browser authenticated will add 1 unique visitor.
 
 **On subsequent data connections**
 
-On subsequent data connections to authenticated devices unique visitors are not incremented. 
+On subsequent data connections to authenticated devices unique visitors are not incremented.

@@ -20,9 +20,7 @@ Use this plug-in to answer the following questions:
 * Do return visitors generate higher conversion per capita than new visitors? What is this ratio? 
 * Do my marketing campaigns cause persistence across visits? For example, do users who click through my campaigns then return later?
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -36,7 +34,7 @@ Place the following code within the *`s_doPlugins()`* function, which is located
 
 *`s.getNewRepeat`* has two optional arguments:
 
-1. The first optional argument is the number of days that the cookie should last. The default value if this argument is omitted is 30 days. 
+1. The first optional argument is the number of days that the cookie should last. The default value if this argument is omitted is 30 days.
 1. The second optional argument is the cookie name. A default value is used if this argument is omitted.
 
 **PLUGINS SECTION**: Add the following code to the area of the [!DNL s_code.js] file labeled PLUGINS SECTION. Do not make any changes to this portion of the plug-in code.
@@ -59,4 +57,4 @@ s.split=new Function("l","d",""
 +"++]=l.substring(0,i);l=l.substring(i+d.length);}return a");
 ```
 
-Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
+Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.

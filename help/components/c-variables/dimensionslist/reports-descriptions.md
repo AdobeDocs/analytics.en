@@ -12,7 +12,7 @@ uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 
 Definitions of the pre-defined reports available in Reports & Analytics, and of dimensions available on other Analytics tools, such as Analysis Workspace.
 
-Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a report. They are non-numeric values and dates that break down or are a classification of the original report type metric. 
+Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a report. They are non-numeric values and dates that break down or are a classification of the original report type metric.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 

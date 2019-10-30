@@ -21,11 +21,11 @@ For a detailed summary of the Dynamic Tag Management implementation steps, refer
 
 This guide leads you through the following steps to implement Analytics using DTM:
 
-1. [Create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). 
-1. [Configure your hosting options](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC). 
-1. [Add header and footer code to each managed page](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5). 
-1. [Add the Adobe Analytics Tool](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8). 
-1. Create [data elements](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2), [rules and conditions](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB), and [actions](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121). 
+1. [Create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+1. [Configure your hosting options](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC).
+1. [Add header and footer code to each managed page](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
+1. [Add the Adobe Analytics Tool](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+1. Create [data elements](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2), [rules and conditions](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB), and [actions](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121).
 
 1. Publish tools and rules to the production server.
 

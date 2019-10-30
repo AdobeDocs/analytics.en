@@ -54,7 +54,7 @@ uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 
 **Main Establishment** - the place within the Union that the main decisions surrounding data processing are made; with regard to the processor
 
-**Personal Data** - any information related to a natural person or ‘Data Subject', that can be used to directly or indirectly identify the person
+**Personal Data** - any information related to a natural person or 'Data Subject', that can be used to directly or indirectly identify the person
 
 **Personal Data Breach** - a breach of security leading to the accidental or unlawful access to, destruction, misuse, etc. of personal data
 
@@ -82,4 +82,4 @@ uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 
 **Supervisory Authority** - a public authority which is established by a member state in accordance with article 46
 
-**Trilogues** - informal negotiations between the European Commission, the European Parliament, and the Council of the European Union usually held following the first readings of proposed legislation in order to more quickly agree to a compromise text to be adopted. 
+**Trilogues** - informal negotiations between the European Commission, the European Parliament, and the Council of the European Union usually held following the first readings of proposed legislation in order to more quickly agree to a compromise text to be adopted.

@@ -28,7 +28,7 @@ The following characters have a special meaning in the hit_data file:
 |\n  (newline character)|End of row|Marks the end of a data row.|
 |\  (backslash character)|Escape character|Escapes tab, newline, and backslash when the character was part of the value sent during data collection.|
 
-When any of the special characters are preceded by a backslash, they represent a literal character. 
+When any of the special characters are preceded by a backslash, they represent a literal character.
 
 | Character | Meaning | Description |
 |--- |--- |--- |
@@ -112,11 +112,11 @@ en
 
 To avoid this, use a solution similar to the following:
 
-1. Starting at the beginning of the file, read until you locate a tab, newline, backslash or caret character. 
+1. Starting at the beginning of the file, read until you locate a tab, newline, backslash or caret character.
 1. Perform an action based on the special character encountered:
 
-    * Tab - insert the string up that point into a data store cell and continue. 
-    * Newline - complete the data store row. 
-    * Backslash - read the next character, insert the appropriate string literal, and continue. 
+    * Tab - insert the string up that point into a data store cell and continue.
+    * Newline - complete the data store row.
+    * Backslash - read the next character, insert the appropriate string literal, and continue.
     * Caret - read the next character, insert the appropriate string literal, and continue.
 

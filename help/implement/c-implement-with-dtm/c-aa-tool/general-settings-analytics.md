@@ -31,10 +31,10 @@ Field descriptions for the General settings in DTM, for deploying Adobe Analytic
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> If the cookie exists but it is set to <span class="term"> true </span>, the tool loads normally. </li> 
     </ul> <p>You are responsible for setting the <span class="filepath"> sat_track </span> (or custom named) cookie to <span class="term"> false </span> if a visitor opts out. You can accomplish this using custom code: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> You must also have a mechanism to set that cookie to <span class="term"> true </span> if you want a visitor to be able to opt in later: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 

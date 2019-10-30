@@ -45,4 +45,4 @@ The first value displays correctly, but the second displays white space before t
 
 This implementation error causes your variable values to be fragmented across multiple line items. [!DNL SAINT] does not allow leading white space in a key value. This means that it cannot be used to group multiple line items as a work-around if this issue is affecting your site. The only way to fix the problem is to pre-process the desired variable value (in this case, the document.title property) to remove any leading (or trailing) white space.
 
-The example above uses the [!UICONTROL s.pageName] variable with the document.title property. Adobe does not recommend using document.title as the page name, nor does this issue only affect the [!UICONTROL s.pageName] variable. Any variable that has leading/trailing white space in its value can be affected. 
+The example above uses the [!UICONTROL s.pageName] variable with the document.title property. Adobe does not recommend using document.title as the page name, nor does this issue only affect the [!UICONTROL s.pageName] variable. Any variable that has leading/trailing white space in its value can be affected.

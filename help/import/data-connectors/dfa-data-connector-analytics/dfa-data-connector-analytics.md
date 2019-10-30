@@ -11,7 +11,7 @@ uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 
 # DFA Data Connector for Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
-In today’s increasingly complex and competitive online marketplace, online advertisers and agencies must continually improve their understanding of the online marketing environment, and their return on advertising spend. Although advertisers, agencies, and publishers all possess individual tools to help accomplish these objectives, manually aggregating data from disparate data systems and processes can severely hamper the effectiveness of on-line marketing campaigns, resulting in less-than-optimal campaign performance, data discrepancies and confusion.
+In today's increasingly complex and competitive online marketplace, online advertisers and agencies must continually improve their understanding of the online marketing environment, and their return on advertising spend. Although advertisers, agencies, and publishers all possess individual tools to help accomplish these objectives, manually aggregating data from disparate data systems and processes can severely hamper the effectiveness of on-line marketing campaigns, resulting in less-than-optimal campaign performance, data discrepancies and confusion.
 
 The DoubleClick for Advertisers (DFA) integration solves this problem by using Adobe® Data Connectors™ to allow DoubleClick DFA to automatically pass data to Reports & Analytics.
 
@@ -23,13 +23,13 @@ The DoubleClick for Advertisers (DFA) integration solves this problem by using A
 
 Key Benefits of the Data Connector - DFA integration include:
 
-* **Increased conversion**: Gain directional insight to optimize ad campaign placement and on-site conversion based on post-click visitor behavior and preferences. 
-* **Shared location for data**: Combine DoubleClick DFA click-through and view -through data with Reports & Analytics to improve cross-organizational collaboration and abilities to make objective decisions. 
-* **Value-added analysis**: Automated integration between DFA and Adobe Reports & Analytics allows advertisers and agencies to spend less time crunching data and more time analyzing reports and taking action. 
-* **Deeper customer insight**: Gain greater insight into where visitors are coming from and what they are doing on your site. 
-* **Lifetime success metrics**: Measure the effectiveness of your acquisition campaigns across the entire visitor life cycle. 
-* **Integrated Reporting**: Automatically synchronize data between DFA and Reports & Analytics for streamlined business processes and reporting. 
-* **Lifetime Visitor Analysis**: Measure campaign effectiveness by multiple user-defined success events and lifetime value. 
+* **Increased conversion**: Gain directional insight to optimize ad campaign placement and on-site conversion based on post-click visitor behavior and preferences.
+* **Shared location for data**: Combine DoubleClick DFA click-through and view -through data with Reports & Analytics to improve cross-organizational collaboration and abilities to make objective decisions.
+* **Value-added analysis**: Automated integration between DFA and Adobe Reports & Analytics allows advertisers and agencies to spend less time crunching data and more time analyzing reports and taking action.
+* **Deeper customer insight**: Gain greater insight into where visitors are coming from and what they are doing on your site.
+* **Lifetime success metrics**: Measure the effectiveness of your acquisition campaigns across the entire visitor life cycle.
+* **Integrated Reporting**: Automatically synchronize data between DFA and Reports & Analytics for streamlined business processes and reporting.
+* **Lifetime Visitor Analysis**: Measure campaign effectiveness by multiple user-defined success events and lifetime value.
 * **Cost Metrics**: Optimize return on investment by comparing DFA cost figures and revenue generated from those costs in a single system.
 
 ## Ad Serving Integration Overview{#ad-serving-integration-overview}
@@ -38,17 +38,17 @@ There are several ways in which this integration captures data about the ad-driv
 
  ![](assets/Diagram1.png)
 
-The visitor arrives upon a publisher’s site, which hosts the Ad. This Ad has a unique identifier, called the Ad ID. Ads comprise a Placement plus a Creative, which describe where the Ad is on the Publisher’s site and what content was shown to the visitor. When the visitor fetches this Ad, placement, or creative from the DFA content servers, it tracks an Impression to the DFA Floodlight Servers for this visitor (1).
+The visitor arrives upon a publisher's site, which hosts the Ad. This Ad has a unique identifier, called the Ad ID. Ads comprise a Placement plus a Creative, which describe where the Ad is on the Publisher's site and what content was shown to the visitor. When the visitor fetches this Ad, placement, or creative from the DFA content servers, it tracks an Impression to the DFA Floodlight Servers for this visitor (1).
 
 If the visitor clicks on the ad (2), the Floodlight Server is queried, which counts a click, then 302 redirects (3) the visitor to the Landing Page. When the visitor has arrived upon the Landing page, this is termed a click-through. This page contains Adobe tracking code which queries data from the DFA Floodlight Server.
 
-If the visitor does not actually arrive on the Landing Page after the Floodlight Server has tracked a click, this is not termed a click-through. Some ads and implementations may not actually cause the visitor’s browser to obey the 302 redirect. For further discussion on this topic, see [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+If the visitor does not actually arrive on the Landing Page after the Floodlight Server has tracked a click, this is not termed a click-through. Some ads and implementations may not actually cause the visitor's browser to obey the 302 redirect. For further discussion on this topic, see [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
 
 The next metric captured by this integration occurs when the visitor receives the Ad impression, does not click, yet sometime in the near future arrives upon the Landing page by another means.
 
 ![](assets/Viewthrough.png)
 
-This scenario is termed a view-through. The difference in this scenario with the click-through scenario is that the visitor does not click on the Ad, but instead continues to other activities before coming to the Landing page (2). In the simplest case, the visitor types in the landing page’s URL in the browser. In other cases, the visitor continues browsing but later uses a search engine, which drives the visitor to the landing page. In any case, the user arrives upon the landing page. 
+This scenario is termed a view-through. The difference in this scenario with the click-through scenario is that the visitor does not click on the Ad, but instead continues to other activities before coming to the Landing page (2). In the simplest case, the visitor types in the landing page's URL in the browser. In other cases, the visitor continues browsing but later uses a search engine, which drives the visitor to the landing page. In any case, the user arrives upon the landing page.
 
 ## Adobe Integration: Real-Time Data Collection{#adobe-integration-real-time-data-collection}
 
@@ -60,7 +60,7 @@ The data collection portion of the Adobe integration begins when the visitor arr
 
 Once the data arrives, or takes too long, it fires the hit to the Adobe tracking servers (3).
 
-The Integrate module is a special core Adobe JavaScript module which causes the Adobe image beacon to delay, waiting on a 3rd party request for a specific amount of time (`s.maxDelay`). `s.maxDelay` defines how long the Integrate module will wait for data from the DFA Floodlight Server before firing the image tag to the visitor’s browser. This behavior is important so that basic visitor data is still collected, even when the DFA Floodlight Servers are down or heavily loaded. If the Floodlight data arrives before `s.maxDelay` has expired, the Adobe tracking data will be fired immediately, and will contain the additional DFA data.
+The Integrate module is a special core Adobe JavaScript module which causes the Adobe image beacon to delay, waiting on a 3rd party request for a specific amount of time (`s.maxDelay`). `s.maxDelay` defines how long the Integrate module will wait for data from the DFA Floodlight Server before firing the image tag to the visitor's browser. This behavior is important so that basic visitor data is still collected, even when the DFA Floodlight Servers are down or heavily loaded. If the Floodlight data arrives before `s.maxDelay` has expired, the Adobe tracking data will be fired immediately, and will contain the additional DFA data.
 
 When a timeout occurs, the page code can specify an Adobe Reports & Analytics Event to be used as a Timeout Event. This event is useful when diagnosing problems with the integration, or when adjusting `s.maxDelay`. In cases where there are excessive timeouts, increase `s.maxDelay`. `s.maxDelay` can be set too high, however, in which cases visitors could have the potential of leaving the site prior to the `s.maxDelay` timer expiring. .
 
@@ -75,13 +75,13 @@ Sometimes the Floodlight Server responds with errors about the visitor. This usu
 
 ## Adobe Integration: Nightly Data Import{#adobe-integration-nightly-data-import}
 
-The data collection portion of the integration collects click-through and view-through data about site visitors. To obtain DFA click, impression, and cost metrics, there is a nightly process coordinated by Google and Adobe to import this additional data to the integrated report suite. These metrics are imported through Data Sources, meaning they are available in aggregate only, and are not at the visit level. 
+The data collection portion of the integration collects click-through and view-through data about site visitors. To obtain DFA click, impression, and cost metrics, there is a nightly process coordinated by Google and Adobe to import this additional data to the integrated report suite. These metrics are imported through Data Sources, meaning they are available in aggregate only, and are not at the visit level.
 
 ## Version Differences{#version-differences}
 
 There are currently three versions of the DFA integration, versions 1.0, 1.5, and 2.0.
 
-The following table summarizes the features in each version of the integration. 
+The following table summarizes the features in each version of the integration.
 
 |  Feature  | Version 1.0  | Version 1.5  | Version 2.0  |
 |---|---|---|---|

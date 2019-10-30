@@ -55,7 +55,7 @@ Refer to the following table for examples on this page. The same visitor is repr
 
 ## Unique Visitors Report - Trended Metric {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Unique Visitors] reports behave similarly in Ad Hoc Analysis. For each hit where the visit occurs, the visitor is counted on that hit. Each page receives credit having the visitor on that page. 
+[!UICONTROL Unique Visitors] reports behave similarly in Ad Hoc Analysis. For each hit where the visit occurs, the visitor is counted on that hit. Each page receives credit having the visitor on that page.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -92,7 +92,7 @@ Refer to the following table for examples on this page. The same visitor is repr
  </tbody> 
 </table>
 
-Also, each date receives credit for having that visitor on that date. 
+Also, each date receives credit for having that visitor on that date.
 
 <table id="table_E0D06D9434444947BDA818F61A580B65"> 
  <thead> 
@@ -164,7 +164,7 @@ You can select a page for [!UICONTROL Unique Visitors Report]. In the following 
 
 You can run Hourly, Daily, Weekly, Monthly, Quarterly, and Yearly [!UICONTROL Unique Visitors Reports] (trended).
 
-Period-based unique visitors are counted only on the first visit during the specified period. For example, Hourly Unique Visitors are counted for the first visit during the specified hour. Daily Unique Visitors are counted for the first visit on the specified day. 
+Period-based unique visitors are counted only on the first visit during the specified period. For example, Hourly Unique Visitors are counted for the first visit during the specified hour. Daily Unique Visitors are counted for the first visit on the specified day.
 
 <table id="table_FF14F05CDFDA4F2E92A62D9D751A1CAA"> 
  <thead> 
@@ -197,7 +197,7 @@ Period-based unique visitors are counted only on the first visit during the spec
  </tbody> 
 </table>
 
-The following report would display for Daily Unique Visitors. 
+The following report would display for Daily Unique Visitors.
 
 <table id="table_4E44BC4722064501A5B648BE80ED8E60"> 
  <thead> 
@@ -333,7 +333,7 @@ For weekly unique visitors where Page = B, the only date that it occurs on is Ja
 
 ## Period-Based Unique Visitor Metrics on Non-Trended Reports {#section_90B784F4E49F4930B3F0923B95958BA2}
 
-You can add period-based Unique Visitor metrics to non-trended reports, such as a Weekly Unique Visitors metric on a [!UICONTROL Pages Report]. 
+You can add period-based Unique Visitor metrics to non-trended reports, such as a Weekly Unique Visitors metric on a [!UICONTROL Pages Report].
 
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
@@ -447,4 +447,4 @@ If you break down Page A by eVars T, U, January 2 is excluded because Page A was
 
 Persistent cookies stay on a visitor's computer between visits so that Adobe can identify visitors in subsequent visits. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** > **[!UICONTROL Persistent Cookies]**.
 
-The graph as well as the details view below show both persistent-cookie visitors and non-persistent-cookie visitors. Most often, the number of non-persistent-cookie visitors is negligible. 
+The graph as well as the details view below show both persistent-cookie visitors and non-persistent-cookie visitors. Most often, the number of non-persistent-cookie visitors is negligible.

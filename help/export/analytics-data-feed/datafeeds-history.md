@@ -22,4 +22,4 @@ Complete update and rewrite of the Data Column Reference.
 
 There is now a user interface for data feeds and job management. Until now, Data Feed administrators had to rely on Adobe Customer Care to get a status update on their Data Feed jobs. This is no longer the case. The Data Feed user interface is now available to all Adobe Analytics administrators.
 
-With this release, the name of the service has changed from Clickstream Data Feeds to Analytics Data Feed. 
+With this release, the name of the service has changed from Clickstream Data Feeds to Analytics Data Feed.

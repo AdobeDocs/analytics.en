@@ -63,7 +63,7 @@ The selection you make on the Create tab determines the initial fields in the te
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> The current status of the file. Possible status values include the following: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In Queue (step 1 of 3): The file exists, but has not begun processing. If the file doesn’t appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In Queue (step 1 of 3): The file exists, but has not begun processing. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Preparing (step 2 of 3): The file is being checked for errors or warnings </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Processing (step 3 of 3): The file is being processed </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Failed: The file was not processed due to errors </li> 
@@ -75,4 +75,4 @@ The selection you make on the Create tab determines the initial fields in the te
 
 ## File Log Tab {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-The file log includes a search feature that lets you search for information by Data Source Name, Data Source Type, file name, date received, or status. 
+The file log includes a search feature that lets you search for information by Data Source Name, Data Source Type, file name, date received, or status.

@@ -22,4 +22,4 @@ Occasionally, generic [!DNL s_code.js] files that have not been generated from A
 
 ## Plug-ins {#section_53650E52D6A54A4795F95E491E7548D1}
 
-Some customers implement plug-ins to enhance their Adobe experience. When you replace your code, do not forget that you have plug-ins as part of that code. The code created in the [!UICONTROL Code Manager] does not have any plug-in code with it, so all plug-ins need to migrate manually to the newer code base. Make a copy of your existing code just in case something happens, and you need to revert to your previous code. 
+Some customers implement plug-ins to enhance their Adobe experience. When you replace your code, do not forget that you have plug-ins as part of that code. The code created in the [!UICONTROL Code Manager] does not have any plug-in code with it, so all plug-ins need to migrate manually to the newer code base. Make a copy of your existing code just in case something happens, and you need to revert to your previous code.

@@ -16,9 +16,7 @@ Context data variables let you define custom variables on each page that can be 
 
 Instead of explicitly assigning values to props and eVars in your code, you can send data in context data variables that are mapped using processing rules. Processing rules provide a powerful graphical interface to make changes to data as it is received. Based on the values sent in context data, you can set events, copy values to eVars and props, and execute additional conditional statements.
 
->[!NOTE]
->
->Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
+> [!NOTE] Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -99,4 +97,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-For an example, see [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) in Analytics Reference. 
+For an example, see [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) in Analytics Reference.

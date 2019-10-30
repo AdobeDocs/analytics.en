@@ -21,6 +21,6 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 ```
 
-The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback. 
+The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback.
 
 The order in which these callbacks are called is not guaranteed. Callbacks registered in the pre function are invoked after the final tracking URL is created. The post callbacks are called upon a successful tracking call (if the tracking call fails, these functions are not called). Any callback registered with `registerPreTrackCallback` do not affect the tracking call. Also, calling any of the tracking methods in any registered callback is not recommended and could cause an infinite loop.

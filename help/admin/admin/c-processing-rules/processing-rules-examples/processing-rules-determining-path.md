@@ -13,7 +13,7 @@ uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 
 You can copy the value of an eVar to a prop to enable pathing.
 
-When setting values, the variable on the left receives the value (even if it is empty) from the variable on the right. 
+When setting values, the variable on the left receives the value (even if it is empty) from the variable on the right.
 
 |  Rule Set  | Value  |
 |---|---|

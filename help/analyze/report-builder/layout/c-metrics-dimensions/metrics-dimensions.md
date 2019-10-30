@@ -14,10 +14,10 @@ You can add metrics and dimensions to the Request Wizard: Step 2 to define the A
 
 Metrics are numeric values. They consist of quantitative information about activity on your website, such as [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs], [!UICONTROL Reloads], [!UICONTROL Average Time Spent], [!UICONTROL Date], [!UICONTROL Units], and so on. Report Builder organizes metrics in several groups, which follow standard grouping in Analytics:
 
-* Standard Traffic: Displays the metric based on the line item specified. For example, in a Pages report, the Visits metric displays the number of visits to that specific page. 
-* Standard Commerce: Metrics such as Revenue, Orders, and Checkouts. 
-* Total metrics: Displays the metric based on the reporting date range, regardless of line item. This metric is identical to the total at the bottom of its respective analytics report. 
+* Standard Traffic: Displays the metric based on the line item specified. For example, in a Pages report, the Visits metric displays the number of visits to that specific page.
+* Standard Commerce: Metrics such as Revenue, Orders, and Checkouts.
+* Total metrics: Displays the metric based on the reporting date range, regardless of line item. This metric is identical to the total at the bottom of its respective analytics report.
 * Participation 
 * Calculated
 
-Dimensions are non-numeric values and dates, such as gender, month, age, loyalty, monitor resolution, and so on. Dimensions are descriptions or characteristics of metric data that can be viewed and compared, such as in breakdown reports. 
+Dimensions are non-numeric values and dates, such as gender, month, age, loyalty, monitor resolution, and so on. Dimensions are descriptions or characteristics of metric data that can be viewed and compared, such as in breakdown reports.

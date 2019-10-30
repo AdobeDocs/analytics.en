@@ -13,7 +13,7 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 
 Break down dimensions and dimension items in Analysis Workspace.
 
-Break down your data in unlimited ways for your specific needs; build queries using relevant metrics, dimensions, segments, time lines, and other analysis breakdown values. 
+Break down your data in unlimited ways for your specific needs; build queries using relevant metrics, dimensions, segments, time lines, and other analysis breakdown values.
 
 1. [Create a project](../../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) with a data table.
 1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** > *`<item>`*.

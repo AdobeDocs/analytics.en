@@ -59,15 +59,13 @@ This plug-in is useful for:
  </tbody> 
 </table>
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Implementation {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 Follow these steps to implement the APL plug-in.
 
-1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant. 
+1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant.
 1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
 
 Here is how the code might look on your site:

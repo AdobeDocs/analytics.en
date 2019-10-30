@@ -20,9 +20,7 @@ Enable user permissions for General items (billing, logs, etc.), Company Managem
 
  **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL All Report Access]** > **[!UICONTROL Analytics Tools]** > **[!UICONTROL Customize]**
 
->[!NOTE]
->
->The Fall 2016 release (October 20) brought changes to group management. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] The Fall 2016 release (October 20) brought changes to group management. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## Report Access - Analytics Tools
 
@@ -32,7 +30,7 @@ Click **[!UICONTROL Customize]** to select items to which this group will have a
 
 ## Field Descriptions
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Element | Description |
 |--- |--- |

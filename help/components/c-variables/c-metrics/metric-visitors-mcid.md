@@ -32,14 +32,14 @@ By adding the calculated metric to the report, you can sort the Pages report so 
 
 ![](assets/metric-mcvid3.png)
 
-Now you can quickly see that the “Product Quick Views” pages are not properly implemented with the Identity Service and should be updated as soon as possible. A similar report can be constructed around any type of dimension such as browser type, site section, or content types.
+Now you can quickly see that the "Product Quick Views" pages are not properly implemented with the Identity Service and should be updated as soon as possible. A similar report can be constructed around any type of dimension such as browser type, site section, or content types.
 
-Once you’ve identified pages that have visitors without an MCID, you should be able to take that back to your implementation team so that they can fix those pages.
+Once you've identified pages that have visitors without an MCID, you should be able to take that back to your implementation team so that they can fix those pages.
 
 In some cases, you may find that a small number of MCIDs are not set for some visitors even though the MCID Service has been implemented on the page. In those cases, this is most likely due to a common misconfiguration of the Analytics JavaScript or DTM configuration in which the AppMeasurement function is called before providing a report suite. To avoid this, make sure you [insert core AppMeasurement code](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html) properly.
 
-Be aware that any segments based on the “Product Quick Views” page (as shown above) that you share with the Experience Cloud will likely have a very low match rate with other Experience Cloud solutions. To check the MCID coverage for any segment, you can construct a report like this:
+Be aware that any segments based on the "Product Quick Views" page (as shown above) that you share with the Experience Cloud will likely have a very low match rate with other Experience Cloud solutions. To check the MCID coverage for any segment, you can construct a report like this:
 
 ![](assets/metric-mcvid4.png)
 
-From this table, which compares the number of Unique Visitors to the Visitors with a Experience Cloud ID, it’s easy to see that “Segment 1” does not have 100% MCID coverage, whereas “Segment 2” does. This means that if I were to share Segment 1 with the Experience Cloud, only 2,186 of the total 3,859 visitors would be eligible for sharing. 
+From this table, which compares the number of Unique Visitors to the Visitors with a Experience Cloud ID, it's easy to see that "Segment 1" does not have 100% MCID coverage, whereas "Segment 2" does. This means that if I were to share Segment 1 with the Experience Cloud, only 2,186 of the total 3,859 visitors would be eligible for sharing.

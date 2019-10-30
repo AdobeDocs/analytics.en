@@ -17,8 +17,6 @@ For example, a visitor went to page A, then page B, then page C. Pathing is one 
 
 Out-of-the-box Analytics provides pathing at the page level. The basic idea behind pathing is you are shown the order of pages that users saw during their visits. This data is presented in several different reports that format the data in different ways, depending on what you are trying to see.
 
->[!NOTE]
->
->To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
+> [!NOTE] To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
 
 Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).

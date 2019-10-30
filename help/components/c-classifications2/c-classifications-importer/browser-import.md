@@ -66,5 +66,5 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Click **[!UICONTROL Import File]**.
 1. Watch the status window for processing messages.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
->A successful import immediately displays the appropriate changes in an export. However, data changes in reports take up to four hours when using a browser import and up to 24 hours when using an FTP import. 
+>A successful import immediately displays the appropriate changes in an export. However, data changes in reports take up to four hours when using a browser import and up to 24 hours when using an FTP import.
 

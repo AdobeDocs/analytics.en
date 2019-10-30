@@ -16,7 +16,7 @@ Conditions determine when an event-based rule is triggered.
 
    ![](assets/condition-event-based.png)
 
-   For more information, see [Event Types](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) in the Adobe Tag Management Product Documentation. 
+   For more information, see [Event Types](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) in the Adobe Tag Management Product Documentation.
 
 1. Enable the following options as necessary:
 
@@ -27,13 +27,13 @@ Conditions determine when an event-based rule is triggered.
 
    For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. It is important to understand where the event is actually bound, and target it specifically to make sure that the rule fires correctly.
 
-   *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements. 
+   *Bubbling* means that the event is first captured and handled by the inner most element and then propagated to outer elements.
 
 1. Indicate the name of the tag you want to track, and additional properties the tag has that you want to match.
 
    ![](assets/condition-event-based2.png)
 
-   See [Using the CSS Selector](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) in the Dynamic Tag Management Product Documentation for information about finding the correct element tag. 
+   See [Using the CSS Selector](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) in the Dynamic Tag Management Product Documentation for information about finding the correct element tag.
 
 1. Select and set up any additional criteria or condition types you wish to bind to the rule.
 

@@ -17,4 +17,4 @@ If you are building apps with [!DNL PhoneGap], you can use [!DNL AppMeasurement]
 
 [iOS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/phonegap.html).
 
-[Android documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/phonegap.html). 
+[Android documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/phonegap.html).

@@ -16,7 +16,7 @@ As a user, you may need to merge link click data with other data sources or perf
 
 Click the Export icon on the [!DNL Activity Map] toolbar.
 
-[!DNL Activity Map] generates the filename based on the Adobe Analytics Page name and appends a date and timestamp to it: Pagename_DateTime.csv. This file will be saved under the default Download directory for the corresponding browser. 
+[!DNL Activity Map] generates the filename based on the Adobe Analytics Page name and appends a date and timestamp to it: Pagename_DateTime.csv. This file will be saved under the default Download directory for the corresponding browser.
 
 |  Export information  | Description  |
 |---|---|

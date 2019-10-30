@@ -19,7 +19,7 @@ For most fields, the string is first converted to all lower case (reducing the n
 
 Hash collisions can manifest in reporting as follows:
 
-* If you are trending a value and you see a spike for a month, it is likely that another values for that variable got hashed to the same value as the value you are looking at. 
+* If you are trending a value and you see a spike for a month, it is likely that another values for that variable got hashed to the same value as the value you are looking at.
 * The same things happens for segments for a specific value.
 
 <p class="head"> <b>Hash Collision Example</b> </p>
@@ -80,4 +80,4 @@ If you build a segment that looks for visits where eVar62="value 500", Analytics
 
 When the same segment runs again, it looks for the hash of "value 500", finds 123, and the report returns all visits that contain hash 123. Now, visits that occurred on February 18 will be included in the results.
 
-This situation can create problems when using Analytics. Adobe continues to investigate ways to reduce the likelihood of these hash collisions in the future. Suggestions to avoid this situation are to find ways to spread the unique values between variables, remove unnecessary values with processing rules, or otherwise reduce the number of values per variable. 
+This situation can create problems when using Analytics. Adobe continues to investigate ways to reduce the likelihood of these hash collisions in the future. Suggestions to avoid this situation are to find ways to spread the unique values between variables, remove unnecessary values with processing rules, or otherwise reduce the number of values per variable.

@@ -18,4 +18,4 @@ In this guide, most terms are defined in context. However, understanding the fol
 
 *`data feed (lowercase)`*: A defined set of parameters and values used to collect a set of data.
 
-*`job`*: An instance of the data feed that runs and results in the delivery of one or more files containing the data. 
+*`job`*: An instance of the data feed that runs and results in the delivery of one or more files containing the data.

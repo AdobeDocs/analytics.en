@@ -20,4 +20,4 @@ To learn how to log in to Adobe [!DNL Experience Cloud] to get access to Analyti
 
 The Adobe Debugger (previously DigitalPulse Debugger) is a free tool provided by Adobe that lets you view the data being collected from your site on any given page.
 
-See [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). 
+See [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).

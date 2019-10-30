@@ -15,9 +15,9 @@ Run the one-time setup for the Marketing Channel report.
 
 ## Automatic setup {#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B}
 
-Run the one-time setup for the Marketing Channel report. 
+Run the one-time setup for the Marketing Channel report.
 
-The Marketing Channel report comes with a one-time setup page to get you started. It provides several marketing channels that you can use for tracking. You can skip this setup if you feel comfortable creating channels and rules. However, Adobe recommends that you allow the wizard to create the channels for you. The automatic setup lets you see how rules are constructed, or edit them for your own purposes. You can disable or delete the predefined channels at any time. 
+The Marketing Channel report comes with a one-time setup page to get you started. It provides several marketing channels that you can use for tracking. You can skip this setup if you feel comfortable creating channels and rules. However, Adobe recommends that you allow the wizard to create the channels for you. The automatic setup lets you see how rules are constructed, or edit them for your own purposes. You can disable or delete the predefined channels at any time.
 
 ## Run the automatic setup for Marketing Channels {#task_0F694146D48B4647BD7D5F060D394AB7}
 
@@ -37,6 +37,6 @@ How to run the Marketing Channels automatic setup.
 
    When selected, **[!UICONTROL Email]**, **[!UICONTROL Display]**, and **[!UICONTROL Affiliate]** are required fields.
 
-   See [Marketing Channel Manager](../../components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F). 
+   See [Marketing Channel Manager](../../components/c-marketing-channels/c-channels.md#topic_45CF1C6A783B4F96ABF6317EAB6A854F).
 
 1. Click **[!UICONTROL Save]**.

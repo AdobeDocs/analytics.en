@@ -21,5 +21,5 @@ Steps that describe how to configure real-time request dates.
 
    ![Step Result](assets/real_time_select_date.png)
 
-   Real-time reporting is available only for the last 20 hours. For granularity, you have options of selecting from 1 minute granularity to 30 minutes. 
+   Real-time reporting is available only for the last 20 hours. For granularity, you have options of selecting from 1 minute granularity to 30 minutes.
 1. Click **[!UICONTROL Next]** and continue [configuring the request layout](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).

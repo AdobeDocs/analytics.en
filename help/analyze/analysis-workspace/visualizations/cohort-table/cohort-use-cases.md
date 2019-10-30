@@ -57,7 +57,7 @@ A multinational media company uses targeted campaigns to drive users to their va
 
 ## Product Launch use case
 
-A large apparel retailer has many specific customer segments that drive large portions of revenue for their business. Each segment has specific products designed and created with the segment in mind. With each product launch, they want to know how the new product has boosted sales to various cohorts over time. Using the new Latency Table setting in Cohort tables, they are able to analyze a given customer segment’s pre-launch and post-launch behavior and revenue. Using this information, they can identify which products are driving new revenue and which are not gaining traction with customers.
+A large apparel retailer has many specific customer segments that drive large portions of revenue for their business. Each segment has specific products designed and created with the segment in mind. With each product launch, they want to know how the new product has boosted sales to various cohorts over time. Using the new Latency Table setting in Cohort tables, they are able to analyze a given customer segment's pre-launch and post-launch behavior and revenue. Using this information, they can identify which products are driving new revenue and which are not gaining traction with customers.
 
 ## Individual Stickiness - Most Loyal Users use case
 

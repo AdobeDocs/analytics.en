@@ -31,9 +31,7 @@ Each file combines data from all your report suites, automatically removing extr
 
 You can submit Data Privacy access and delete requests through our [Data Privacy UI portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) or via our [Data Privacy API.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE]
->
->The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
+> [!NOTE] The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
 
 ## Sample JSON Request {#sample-json-request}
 
@@ -100,15 +98,15 @@ Here is the JSON that might be submitted through the Data Privacy API or UI, req
 
 Notice there are three blocks in the user's section, representing three separate requests, presumably for three separate data subjects.
 
-* The first request is an access request using a traditional Adobe Analytics cookie ID (AAID). 
-* The second request is also an access request but is using an MCID/ECID cookie. 
+* The first request is an access request using a traditional Adobe Analytics cookie ID (AAID).
+* The second request is also an access request but is using an MCID/ECID cookie.
 * The third request is requesting both access and delete for the specified IDs. While ID Expansion is specified for all of the requests, it will have the biggest impact on this third request, as it is the only one that uses non-cookie IDs. As a result, this request will also discover cookie IDs associated with any devices with the specified CRM-ID or email address, and expand the request to include those IDs as well.
 
 Keep in mind that
 
-* The value "5D7236525AA6D9580A495C6C@AdobeOrg" in the "companyContexts" section must be updated with the value of your own Experience Cloud organization. 
-* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section. 
-* The "description" fields are ignored. 
+* The value "5D7236525AA6D9580A495C6C@AdobeOrg" in the "companyContexts" section must be updated with the value of your own Experience Cloud organization.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* The "description" fields are ignored.
 * The "key" fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe's system to those in your own systems.
 
 ## Response Details {#section_93F554F65DBB48A18B75EB5784056C96}
@@ -121,12 +119,12 @@ The data returned for an access request provides you, the data controller, with 
 
 * Person Files - Derived from hits containing a matched ID-PERSON label
 
-  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL or ACC-PERSON label, sorted by timestamp. 
+  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL or ACC-PERSON label, sorted by timestamp.
   * An HTML summary file with one entry for every ACC-ALL or ACC-PERSON label. Each entry lists all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
 
 * Device Files - Derived from hits where one of the fields matched a specified ID-DEVICE but none matched a specified ID-PERSON
 
-  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL label, sorted by timestamp. 
+  * A .CSV file with one row for every matching hit, and one column for every field with an ACC-ALL label, sorted by timestamp.
   * HTML summary file with one entry for every ACC-ALL label. Each entry will list all unique values for that field and the number of times each occurred. Fields containing timestamps are rounded to specify only unique days.
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits.
@@ -145,7 +143,7 @@ However, with a normal configuration, GPDR request processing cannot be tested f
 
 There are a few ways that you can still test your Data Privacy processing prior to applying it to all your report suites:
 
-* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing. 
+* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing.
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites.
 
   For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces, because these are hardcoded and you cannot specify alternate names for them in your test report suites**.

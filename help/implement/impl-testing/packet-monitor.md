@@ -25,9 +25,7 @@ In very rare cases, the debugger will report an image request although no reques
 
 While Adobe does not provide an official packet monitor, there are a wide range of them on the internet. The following are some packet monitors others have found useful.
 
->[!NOTE]
->
->These lists are not meant to be comprehensive, but rather information on frequently used monitors. If you have a packet monitor you successfully use and find useful, feel free to provide feedback using the [!UICONTROL Feedback] button on the right side of this window.
+> [!NOTE] These lists are not meant to be comprehensive, but rather information on frequently used monitors. If you have a packet monitor you successfully use and find useful, feel free to provide feedback using the [!UICONTROL Feedback] button on the right side of this window.
 
 |  Firefox  | Internet Explorer  | Chrome  | Standalone Programs  |
 |---|---|---|---|
@@ -37,9 +35,7 @@ While Adobe does not provide an official packet monitor, there are a wide range 
 |  [HttpWatch](https://www.httpwatch.com/)  |  |  |  |
 |  [Firebug](https://getfirebug.com/)  |  |  |  |
 
->[!NOTE]
->
->Adobe does NOT support or troubleshoot any issues you may experience with these packet monitors. Consult the packet monitor's originating site for assistance instead.
+> [!NOTE] Adobe does NOT support or troubleshoot any issues you may experience with these packet monitors. Consult the packet monitor's originating site for assistance instead.
 
 <!-- 
 
@@ -53,4 +49,4 @@ Adobe's response to the image request is simply a blank 1x1 transparent image, w
 
 Packet monitors integrated as a plug-in rarely see the full response. They tend to see the request as aborted because the full response was not received. These monitors also rarely make a distinction between whether it was the request or response that was aborted. A stand alone packet monitor typically has more detailed messages and reports the status more accurately. For example, a user may get a message in *Charles* saying "Client closed connection before receiving entire response." This means the data did reach our servers, just the browser moved on to the next page before the 1x1 pixel was received.
 
-If an external packet sniffer is reporting that the data collection request is aborted, rather than the response, this is a cause for concern. Adobe [!DNL Customer Care] can provide help in troubleshooting. 
+If an external packet sniffer is reporting that the data collection request is aborted, rather than the response, this is a cause for concern. Adobe [!DNL Customer Care] can provide help in troubleshooting.

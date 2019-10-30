@@ -21,4 +21,4 @@ If this report is not available in the default location, please check with your 
 
 **How Roll-up Report Suites Display Time Zones**
 
-Roll-up report suites roll up data for child report suites with different time zones. The roll-up report suite is set for a single time zone, and transposes the relative corresponding time zones for each child report suite. For example, if the roll-up report suite shows 7:00 p.m., and three child report suites were included, each set to Eastern Standard Time (EST), Mountain Standard Time (MST), and Pacific Standard Time (PST), the roll-up would show page views that occurred at 7:00 p.m. in the respective time zones. 
+Roll-up report suites roll up data for child report suites with different time zones. The roll-up report suite is set for a single time zone, and transposes the relative corresponding time zones for each child report suite. For example, if the roll-up report suite shows 7:00 p.m., and three child report suites were included, each set to Eastern Standard Time (EST), Mountain Standard Time (MST), and Pacific Standard Time (PST), the roll-up would show page views that occurred at 7:00 p.m. in the respective time zones.

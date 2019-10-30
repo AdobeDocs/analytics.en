@@ -14,4 +14,4 @@ The Manage Pending Actions page lets you view a list of pending actions in your 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Pending Actions]**
 
-Pending Actions displays requests that are not immediately applied to your report suites. These requests typically require additional action from Adobe. For example, a request for a 20-item correlation or a large increase in traffic might require additional hardware. Assigning these requests a status of pending lets Adobe prepare for the requested change to prevent disruption to your data collection process. 
+Pending Actions displays requests that are not immediately applied to your report suites. These requests typically require additional action from Adobe. For example, a request for a 20-item correlation or a large increase in traffic might require additional hardware. Assigning these requests a status of pending lets Adobe prepare for the requested change to prevent disruption to your data collection process.

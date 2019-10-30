@@ -14,8 +14,8 @@ Adobe Analytics® provides organizations with actionable, real-time intelligence
 
 Before you can configure the integration for your email account, you will need to have the following in place:
 
-* Know which email address you want to use to receive notification concerning the integrated operations. 
-* Know your Account ID (the unique identifier assigned to your organization by Datran). 
-* Identify or create the custom variable that you will use to capture the Recipient ID/Visitor ID. 
+* Know which email address you want to use to receive notification concerning the integrated operations.
+* Know your Account ID (the unique identifier assigned to your organization by Datran).
+* Identify or create the custom variable that you will use to capture the Recipient ID/Visitor ID.
 * Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable).
 

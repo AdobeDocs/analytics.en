@@ -13,4 +13,4 @@ uuid: 7acbeaed-2d9d-4a99-a249-d898958d080e
 
 Release Date: **January 15, 2015**
 
-Initial release. 
+Initial release.

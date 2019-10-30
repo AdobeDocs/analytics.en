@@ -12,7 +12,7 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 
 [!DNL Activity Map] provides two basic modes to provide complementary reporting of page activity.
 
-* Standard mode, in which the [Links on Page Report](/help/analyze/activity-map/activitymap-links-report.md)shows link data ranging from single day to multi-day, aggregated over the full date range. 
+* Standard mode, in which the [Links on Page Report](/help/analyze/activity-map/activitymap-links-report.md)shows link data ranging from single day to multi-day, aggregated over the full date range.
 * Live mode displays activity trends in real time.
 
 The two modes can be toggled by clicking the Mode button on the toolbar.

@@ -12,7 +12,7 @@ uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 
 The Segment Builder lets you compare and constrain values using selected operators.
 
-There are three categories of operators: Standard, Data Warehouse, and Distinct Count. 
+There are three categories of operators: Standard, Data Warehouse, and Distinct Count.
 
 The only supported wildcard character is the asterisk: &#42;. If you need to search for &#42;, you can escape it with a backslash.
 

@@ -10,7 +10,7 @@ title: Dynamic variables
 
 If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.' 
 
-When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called prior to each image request. 
+When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called prior to each image request.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|

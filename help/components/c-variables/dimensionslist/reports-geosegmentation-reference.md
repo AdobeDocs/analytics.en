@@ -12,7 +12,7 @@ uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 
 The following table lists whether the country has regions or postal codes, which indicates whether we will populate the regions or zip codes report.
 
-Yes indicates that the report is populated for that country, No means the report is not populated. 
+Yes indicates that the report is populated for that country, No means the report is not populated.
 
 |  **Country Name** | **Has Regions** | **Uses Postal Codes** |
 |---|---|---|

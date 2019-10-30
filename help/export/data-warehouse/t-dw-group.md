@@ -17,12 +17,12 @@ Steps that describe how administrators can enable Data Warehouse reporting acces
 1. Click **[!UICONTROL Add New User Group]**.
 1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. provide the following group information:
 
-   For example, `Data Warehouse Access`. 
+   For example, `Data Warehouse Access`.
 1. Type a description in the **[!UICONTROL Group Description]** field.
 1. In the **[!UICONTROL Report Suite Access]** section, select the report suites that you want group members to be able to access.
 1. Under [!UICONTROL Tools], enable **[!UICONTROL All Tools]**.
 
-   Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**. 
+   Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**.
 
 1. Under [!UICONTROL Assign User Logins], add the desired user logins.
 1. Click **[!UICONTROL Save Group]**.

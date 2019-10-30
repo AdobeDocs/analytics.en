@@ -112,4 +112,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions. 
+Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.

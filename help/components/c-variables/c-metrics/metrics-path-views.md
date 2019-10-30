@@ -12,7 +12,7 @@ uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 
 The Path Views metric is based on pathing data, which is tracked for all users who accept persistent cookies.
 
-The term [!UICONTROL Path View] is used to indicate the number of times a page was viewed, given the constraints of the displayed path(s). This metric reports the number of page views for the given page that occurred within the selected path. This metric is available on the [!UICONTROL Paths] report. [!UICONTROL Path Views] shows you how many times a particular sequence of pages were viewed. 
+The term [!UICONTROL Path View] is used to indicate the number of times a page was viewed, given the constraints of the displayed path(s). This metric reports the number of page views for the given page that occurred within the selected path. This metric is available on the [!UICONTROL Paths] report. [!UICONTROL Path Views] shows you how many times a particular sequence of pages were viewed.
 
 |  Uses  | Description  |
 |---|---|

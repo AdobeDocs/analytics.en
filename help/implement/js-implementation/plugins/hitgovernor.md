@@ -31,7 +31,7 @@ No default variables or events need to be set up. However, we strongly recommend
 
 Creating segments for those variables would then allow you to create segments and virtual report suites to view the overall site impact of those ambiguous hits.
 
-We recommend using the values captured in the reporting to update the bot rules, DB VISTA rules, or company IP exclusions. 
+We recommend using the values captured in the reporting to update the bot rules, DB VISTA rules, or company IP exclusions.
 
 ## Implementation {#task_D4BDB524AA294C139AFCAE2B61FEA3F2}
 
@@ -101,7 +101,7 @@ To implement the hitGovernor plugin:
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   If this code is not included, traffic from that visitor will be flagged but not blocked.
 
 ## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 

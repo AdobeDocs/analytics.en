@@ -8,9 +8,9 @@ uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 
 # Administration
 
-Configure users and learn about data sampling. 
+Configure users and learn about data sampling.
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html). 
+For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
 
 ## User Licenses {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -22,7 +22,7 @@ c_user_license.html
 
  -->
 
-When the number of logged-in users exceeds the number of available licenses, a dialog box notifies the user that all available licenses are in use. The user's position in the queue is shown along with a link to recheck the queue position. When a license becomes available, the user is notified with an email and a pop-up dialog box indicating that ad hoc analysis is available for access. The user then has 15 minutes to respond before losing the position in the queue. 
+When the number of logged-in users exceeds the number of available licenses, a dialog box notifies the user that all available licenses are in use. The user's position in the queue is shown along with a link to recheck the queue position. When a license becomes available, the user is notified with an email and a pop-up dialog box indicating that ad hoc analysis is available for access. The user then has 15 minutes to respond before losing the position in the queue.
 
 ## Grant User Licenses {#task_22AE669703EC48BA9685414538D8B1FA}
 
@@ -38,13 +38,13 @@ t_user_licenses.xml
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
-   If your company has purchased user licenses, the [!UICONTROL Ad Hoc Analysis License Users] group appears in the [!UICONTROL Group Name] column. The number of available licenses for user logins is also shown. 
+   If your company has purchased user licenses, the [!UICONTROL Ad Hoc Analysis License Users] group appears in the [!UICONTROL Group Name] column. The number of available licenses for user logins is also shown.
 
 1. Click **[!UICONTROL Edit]**.
 1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
 1. Click **[!UICONTROL Save Group]**.
 
-   The licensing system does not limit the number of users that are added to a group. There is limited concurrent usage to the number of user licenses purchased. 
+   The licensing system does not limit the number of users that are added to a group. There is limited concurrent usage to the number of user licenses purchased.
 
 ## Manage User Sessions {#task_868C3DD9CB3F45D19B98EEF60F5E0B32}
 
@@ -59,7 +59,7 @@ t_managing_users.xml
 1. Click **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**, then click **[!UICONTROL Manage Users]**.
 1. Locate the user, then click **[!UICONTROL Terminate.]**
 
-   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list. 
+   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
 
 ## Permissions {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -69,7 +69,7 @@ c_permissions.xml
 
  -->
 
-You set up access to report suites in the [!DNL Administration Console]. You can configure permission at the report suite level. For example, if you have multiple report suites enabled, but you do not want to grant all users access to all report suites, you can create groups with specific report suites, and then assign those users to the applicable group. 
+You set up access to report suites in the [!DNL Administration Console]. You can configure permission at the report suite level. For example, if you have multiple report suites enabled, but you do not want to grant all users access to all report suites, you can create groups with specific report suites, and then assign those users to the applicable group.
 
 ## Add a User to the All Report Access Group {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
@@ -101,7 +101,7 @@ t_permission_groups.xml
 1. Click **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 1. Create a permissions group for non-admin users that includes the ad hoc analysis-activated report suites that you want accessible to users.
 
-   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project. 
+   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
 
 ## Set Up Proxy Policies in Java {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -113,7 +113,7 @@ t_proxy_policies.xml
 
  -->
 
-Ad Hoc Analysis uses HTTP to communicate with the server. It is subject to the same proxy policies as other HTTP traffic. 
+Ad Hoc Analysis uses HTTP to communicate with the server. It is subject to the same proxy policies as other HTTP traffic.
 
 1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
 1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
@@ -146,9 +146,4 @@ As another example, if you have 10 million hits a day, with a data slice for 365
 
 * (10,000,000 x 365) / 750,000,000 = 4.8
 
-So to keep the number of hits for this 365 day slice below 750,000,000, the data could be sampled at 4.8:1. Using whole numbers, the sample rate is 5:1. 
-
->[!MORE_LIKE_THIS]
->
->* [Users](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
+So to keep the number of hits for this 365 day slice below 750,000,000, the data could be sampled at 4.8:1. Using whole numbers, the sample rate is 5:1.

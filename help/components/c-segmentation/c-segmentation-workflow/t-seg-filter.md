@@ -12,7 +12,7 @@ uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 
 Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
 
-Filtering makes it easier to search for segments in the segment rail. 
+Filtering makes it easier to search for segments in the segment rail.
 
 1. In the Segment Manager, click the **[!UICONTROL Filters]** icon:  ![](assets/filter_icon.png)
 

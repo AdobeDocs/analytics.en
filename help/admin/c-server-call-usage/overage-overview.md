@@ -17,14 +17,14 @@ Adobe Analytics Server Call Usage addresses your requests for transparency into 
 
 The main benefits of Server Call Usage include:
 
-* **Visibility** into your server call consumption and commitment data, including mobile consumption vis a vis your contractual server call usage limit. 
+* **Visibility** into your server call consumption and commitment data, including mobile consumption vis a vis your contractual server call usage limit.
 * **Alerts** to notify you of the risk or occurrence of an overage and prepare for/act on the possibility of incurring overages.
 
 Previously, while you could access monthly server call consumption data under  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Billing]** , this data was only updated 6 days after billing had closed for that month. Further, the data did not include mobile consumption. This feature will also replace the current **[!UICONTROL Billing Information]** report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** .
 
 ## Prerequisites {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissions**: To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator. 
+* **Permissions**: To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator.
 * **Permissions**: Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Important Terminology {#section_CBA348A039F34563B097CD8890AB358D}
@@ -80,9 +80,7 @@ Here is a short primer on essential terminology for Server Call Usage:
 
 The Server Call Usage permission is automatically granted to Analytics Admins. It lets users view the dashboard and create server call alerts. Admins can choose to grant this permission to non-admins.
 
->[!NOTE]
->
->Your company can choose which login companies have access to Server Call Usage.
+> [!NOTE] Your company can choose which login companies have access to Server Call Usage.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 

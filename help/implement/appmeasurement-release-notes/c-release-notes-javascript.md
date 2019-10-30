@@ -13,9 +13,7 @@ uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 
 Cumulative release notes for Legacy JavaScript H code.
 
->[!NOTE]
->
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
+> [!NOTE] To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -75,7 +73,7 @@ Release Date: **April 16, 2015**
 
 Release Date: **February 19th, 2015**
 
-* Inclusion of Visitor API 1.3.5. 
+* Inclusion of Visitor API 1.3.5.
 * Changed to not perform automatic referrer tracking after first tracking call, so the 2nd, 3rd, etc., tracking call (usually link tracking) will not double count the referrer when *`s.referrer`* was manually set before the first tracking call. (AN-92647)
 
 ## H.27.4 - Update {#section_ED38D59E83B4417180877F7C10BE4582}
@@ -109,7 +107,7 @@ Release Date: **August 21, 2014**
 
 Release Date: **June 19, 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors. 
+* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * Support for new features in visitor ID service 1.3.
 
 ## H.27.1 {#section_CC2556C734EE4BAAB71D6A93095DB38F}
@@ -122,7 +120,7 @@ Release Date: **June 11, 2014**
 
 Release Date: **May 22, 2014**
 
-* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Support for the [Analytics for Target integration](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -147,7 +145,7 @@ Release Date: **July 18, 2013**
 
 Release Date: **April 29, 2013**
 
-* the `useForcedLinkTracking` option that is described in [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) now applies to Firefox 20+ (previously this applied to WebKit browsers only). 
+* the `useForcedLinkTracking` option that is described in [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) now applies to Firefox 20+ (previously this applied to WebKit browsers only).
 
 * Image object ID generation is now unique between instances. This prevents collisions when more than one instance is on the same page.
 
@@ -155,7 +153,7 @@ Release Date: **April 29, 2013**
 
 Release Date: **April 19, 2013**
 
-* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices. 
+* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices.
 
 * In video auto tracking on Media Player, fixed an issue in scrubbing that caused time played to not be tracked correctly.
 
@@ -163,7 +161,7 @@ Release Date: **April 19, 2013**
 
 Release Date: **February 2013**
 
-* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`. 
+* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
 
 * Refined scope of click events affected by `useForcedLinkTracking`. The automatic forced link tracking applies only to:
 
@@ -178,13 +176,13 @@ Release Date: **February 2013**
 
 Release Date: **January 2013**
 
-* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs. 
+* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs.
 
-* Fixed handling URL decoding for strings that are encoded with a mixed use of `escape` and `encodeURIComponent`. 
+* Fixed handling URL decoding for strings that are encoded with a mixed use of `escape` and `encodeURIComponent`.
 
-* Fixed an issue in WebKit browsers where link tracking fails if the first server call on the page times out. 
-* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html). 
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
+* Fixed an issue in WebKit browsers where link tracking fails if the first server call on the page times out.
+* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
+* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`.
 
 ```js
   s.doPlugins = function(s) { 
@@ -201,7 +199,7 @@ Release Date: **January 2013**
 
 Release Date: **October 2012**
 
-* Added support for reporting an additional version number in the [!DNL JavaScript] version report. Previously this version was limited to 2 characters (for example, 1.8). Support was added for a 3 character version number (for example, 1.8.5). 
+* Added support for reporting an additional version number in the [!DNL JavaScript] version report. Previously this version was limited to 2 characters (for example, 1.8). Support was added for a 3 character version number (for example, 1.8.5).
 * Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
@@ -219,12 +217,12 @@ Release Date: **September 2012**
   '
 ```
 
-  This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie. 
+  This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie.
 
 * Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event: 
 
 ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   
@@ -256,7 +254,7 @@ To use this new method, update calls to `s.tl` with an additional `doneAction` p
 
 Passing 'navigate' as the `doneAction` mirrors the default browser behavior and opens the URL specified by the `href` attribute when the tracking call completes.
 
-The following table summarizes the configuration variables and updates made to H.25 to support this functionality. 
+The following table summarizes the configuration variables and updates made to H.25 to support this functionality.
 
 <table id="table_E67157D710874146B26EFB7D84762542"> 
  <thead> 
@@ -302,8 +300,8 @@ Release Date: **April 2012**
 
 This update is recommended for all customers.
 
-* Made an enhancement to detect when a page is prerendered using Google Chrome Prerender ( [https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages. 
-* Added the `timestamp` variable to the [!DNL JavaScript] library for customers who want to customize timestamp data similar to other [!DNL AppMeasurement] libraries. 
+* Made an enhancement to detect when a page is prerendered using Google Chrome Prerender ( [https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
+* Added the `timestamp` variable to the [!DNL JavaScript] library for customers who want to customize timestamp data similar to other [!DNL AppMeasurement] libraries.
 
 ```js
   s.timestamp=Math.round((new Date()).getTime()/1000); 
@@ -314,17 +312,17 @@ This update is recommended for all customers.
 
 Release Date: **February 2012**
 
-* Fixed an issue that caused extra data to be included in the image request for customers using Javascript `Object.prototype` overrides. All `Object.prototype` usage is now skipped when handling context data variables. 
-* Fixed an issue that caused the `pe` query parameter to be passed twice with the same value in some circumstances. 
-* Fix to [!DNL ClickMap] tracking in [!DNL JavaScript] to ignore clicks to the body tag, even when the tag has an `onClick` event handler. 
+* Fixed an issue that caused extra data to be included in the image request for customers using Javascript `Object.prototype` overrides. All `Object.prototype` usage is now skipped when handling context data variables.
+* Fixed an issue that caused the `pe` query parameter to be passed twice with the same value in some circumstances.
+* Fix to [!DNL ClickMap] tracking in [!DNL JavaScript] to ignore clicks to the body tag, even when the tag has an `onClick` event handler.
 * Added time stamp to variables used with light tracking calls ( `trackLight`).
 
 ## H.24.2 {#section_91CF07C2BC9B4C8BA0235DFDFB95A4D9}
 
 Release Date: **January 2012**
 
-* Updated video tracking with a new method to track complete video views. 
-* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE. 
+* Updated video tracking with a new method to track complete video views.
+* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE.
 * Fixed a bug where context data variables were not included in link server calls, despite being referenced in `linkTrackVars`. Context data variables are used with Processing Rules.
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
@@ -373,24 +371,24 @@ Release Date: **July 2011**
 
 Release Date: **June 2011**
 
-* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements. 
+* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements.
 * Referral strings that are over 255 characters are now truncated by shortening the path rather than the query string. This fixes issues were query string parameters were truncated and not collected.
 
 ## H.23.3 {#section_EAB0602E07EE4A5CA6521351F461D22D}
 
 Release Date: **May 2011**
 
-* Fixed an issue that prevented the video tracking (pev3) variable from being sent. 
+* Fixed an issue that prevented the video tracking (pev3) variable from being sent.
 * Fixed an issue that prevented the `s_gi` call from enabling code to be compatible with both G and H code. When you pass a 1 as the second parameter to this call the code is now configured to be compatible with both versions.
 
 ## H.23.2 {#section_274143E83A8D42F1AD40CAE4326E99CE}
 
 Release Date: **April 2011**
 
-* Support for contextData that drives server-side processing rules (v15 only). 
-* Support for light server calls (v15 only). 
-* Support for assigning a value other than 1 to a counter event in the events list. 
-* Support for new method of tracking video using conversion eVars and events (currently in beta). 
-* Removed support for setting Media.trackWhilePlaying to false. It will always be true. 
-* Added debugTracking flag to enable logging of requests send to Firebug console just like the other platforms. 
+* Support for contextData that drives server-side processing rules (v15 only).
+* Support for light server calls (v15 only).
+* Support for assigning a value other than 1 to a counter event in the events list.
+* Support for new method of tracking video using conversion eVars and events (currently in beta).
+* Removed support for setting Media.trackWhilePlaying to false. It will always be true.
+* Added debugTracking flag to enable logging of requests send to Firebug console just like the other platforms.
 * Make sure "+" is always URL-encoded regardless of browser.

@@ -9,7 +9,7 @@ uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 
 # Deploying the Integration{#deploying-the-integration}
 
-Deploying this integration is a simple process consists of completing the Adobe Integration Wizard, deploying the plugin code (javascript), and verifying the integration. 
+Deploying this integration is a simple process consists of completing the Adobe Integration Wizard, deploying the plugin code (javascript), and verifying the integration.
 
 ## Complete the Adobe Integration Wizard{#complete-the-adobe-integration-wizard}
 
@@ -27,9 +27,9 @@ To activate the integration, you must complete the configuration wizard within t
    1. **[!UICONTROL Tracking Server Secure]** - if your tracking server is different for secure/https traffic, then provide that setting here.
 1. Configure the following **[!UICONTROL Variable Mappings]** items:
    1. **[!UICONTROL Kampyle Feedback ID]** -Select an available eVar variable from your report suite
-   1. **[!UICONTROL Feedback Grade]** - Select an available success event (type “counter”) from your report suite.
-   1. **[!UICONTROL Feedback Items]** - Select an available success event (type “counter”) from your report suite.
-   1. **[!UICONTROL Feedback with Grade]** - Select an available success event (type “counter”) from your report suite.
+   1. **[!UICONTROL Feedback Grade]** - Select an available success event (type "counter") from your report suite.
+   1. **[!UICONTROL Feedback Items]** - Select an available success event (type "counter") from your report suite.
+   1. **[!UICONTROL Feedback with Grade]** - Select an available success event (type "counter") from your report suite.
 1. Check the box to have the Kampyle Integration dashboard automatically created for you (recommended).
 1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 

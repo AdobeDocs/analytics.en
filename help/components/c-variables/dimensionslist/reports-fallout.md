@@ -14,8 +14,8 @@ Shows where visitors leave (fallout) and continue through (fallthrough) a pre-sp
 
 This report is useful to analyze:
 
-* Conversion rates through specific processes on your site (such as a purchase or registration process). 
-* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item. 
+* Conversion rates through specific processes on your site (such as a purchase or registration process).
+* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
 
 **Analysis Workspace**
@@ -30,4 +30,4 @@ See [Running a Fallout Report](https://marketing.adobe.com/resources/help/en_US/
 
 Analyze fallout data at the Visit or Visitor level. You can also see a trended path that shows you a graph of your fallout over a specific period. You can set single or groups of pages as the report checkpoints, or add any dimension or metric in any combination or sequence. You can also use categories that you configure in marketing reports as checkpoints in this report.
 
-See [Fallout Report](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) in Help for configuration information. 
+See [Fallout Report](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) in Help for configuration information.

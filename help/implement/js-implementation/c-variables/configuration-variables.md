@@ -24,9 +24,7 @@ Some of the goals of using these configuration variables are:
 * Link tracking (number of downloaded files, links to external sites.
 * Track custom links for unique purposes.
 
->[!NOTE]
->
->[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+> [!NOTE] [!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
 For help with specific configuration variables, click any of the following links:
 
@@ -40,7 +38,7 @@ For help with specific configuration variables, click any of the following links
 
 * [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynvarprefix.html): Deploy flagging for dynamically-populated variables.
 
-* [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html): Convert incoming data to UTF-8 for storage and reporting by Analytics. 
+* [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html): Convert incoming data to UTF-8 for storage and reporting by Analytics.
 
 * [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-currcode.html): Determine the conversion rate to apply to revenue.
 

@@ -8,9 +8,9 @@ title: Dynamic variables
 
 # s.currencyCode
 
-The  variable determines the conversion rate to be applied to revenue. 
+The  variable determines the conversion rate to be applied to revenue.
 
-All monetary amounts are stored in a currency of your choice. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied. 
+All monetary amounts are stored in a currency of your choice. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
 
 |Max Size|Debugger Parameter|Reports Populated|Default Value|
 |--- |--- |--- |--- |
@@ -44,9 +44,9 @@ Adobe [!DNL Customer Care] can change the default currency setting for your repo
 
 ## Pitfalls, Questions, and Tips
 
-* If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly. 
-* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics. 
-* Currency events should not be used for non-currency purposes. If you need to count arbitrary or dynamic values that are not currency, use the [!UICONTROL numeric] event type. 
+* If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly.
+* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
+* Currency events should not be used for non-currency purposes. If you need to count arbitrary or dynamic values that are not currency, use the [!UICONTROL numeric] event type.
 * When the *`currencyCode`* variable is empty, no conversion is applied.
 
 For more information, see [Currency Codes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).

@@ -14,7 +14,7 @@ Displays information about which pages and areas of your site are most active an
 
 ## Site Content {#topic_FD13C8F186514D16A52275BC68084F41}
 
-Displays information about which pages and areas of your site are most active and which servers are getting the most use. 
+Displays information about which pages and areas of your site are most active and which servers are getting the most use.
 
 **Site Content Reports**
 

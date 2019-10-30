@@ -14,9 +14,7 @@ uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 
 The following table contains a list of tasks you need to perform to migrate your implementation.
 
->[!NOTE]
->
->We recommend migrating to the [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
+> [!NOTE] We recommend migrating to the [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) when you migrate to [!DNL AppMeasurement] for JavaScript.
 
 ![](assets/step1_icon.png) Check plug-in compatibility
 

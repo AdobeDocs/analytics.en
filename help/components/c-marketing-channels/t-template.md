@@ -13,9 +13,7 @@ uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 
 How to use a master report suite as a template for testing your marketing channel configuration. To save time, you can apply this template to one or more production report suites in a mass update. You perform this task for channels and rule sets separately.
 
->[!NOTE]
->
->Apply channels from a template before you apply rule sets. Your channels must be the same across all report suites when performing this procedure.
+> [!NOTE] Apply channels from a template before you apply rule sets. Your channels must be the same across all report suites when performing this procedure.
 
 **Apply template report suite settings to multiple report suites** 
 
@@ -31,5 +29,5 @@ How to use a master report suite as a template for testing your marketing channe
    1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
    1. Click **[!UICONTROL Save]**.
    
-      If the Save button is disabled in this step, enable it by expanding one of the rules. 
+      If the Save button is disabled in this step, enable it by expanding one of the rules.
    

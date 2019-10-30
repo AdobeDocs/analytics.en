@@ -14,14 +14,14 @@ Displays information about the order in which pages of your website are accessed
 
 ## Paths reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
-Displays information about the order in which pages of your website are accessed. You can gather information about where a visitor goes before and after any page visited on your site. 
+Displays information about the order in which pages of your website are accessed. You can gather information about where a visitor goes before and after any page visited on your site.
 
 Paths reports include standard in-depth and optional advanced analysis reports that reveal the click-stream of pages viewed. You can uncover full paths, longest paths, and most popular paths; explain page flow, fallout, and dropout graphically; show new and changing patterns over time; and analyze entry and exit paths.
 
 **[!UICONTROL Next Page Flow]** or **[!UICONTROL Next Site Flow]**: Displays a two-level-deep branching graphic of a selected page (or section, department, and so on), that your visitors view after moving away from the selected page. Use this report to analyze and identify the steps your visitors take most often after viewing a selected page. You can:
 
-* Understand what steps are taken most frequently after viewing a selected page. 
-* Optimize your site path design to funnel your traffic to a desired goal page. 
+* Understand what steps are taken most frequently after viewing a selected page.
+* Optimize your site path design to funnel your traffic to a desired goal page.
 * Identify where visitors are going instead of your desired goal pages.
 
 **[!UICONTROL Next Page]** (or next categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed after seeing a selected page. For example, when selecting and reporting on your entire site, the report shows you the top ten landing pages, with the five most popular next pages listed below each landing page. This data can help you understand which content, features, and other data, most often compel your visitors to move through your site.
@@ -38,16 +38,16 @@ See [Fallout Report](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0E
 
 **[!UICONTROL Page Analysis]**: Contains a subset of reports that let you analyze the following:
 
-* **[!UICONTROL Page Summary / Site Category Summary]**: Tells you everything you need to know about the page report. It collects and organizes page-specific information about a single page and presents it in a single report. 
-* **[!UICONTROL Reloads]**: Shows the number of times individual pages were reloaded by visitors. 
-* **[!UICONTROL Time Spent on Page / Site Category]**: Displays the length of time that visitors browse individual pages in your site. The time spent is divided into ten categories: less than 15 seconds, 15-30 seconds, 30-60 seconds, 1-3 minutes, 3-5 minutes, 5-10 minutes, 10-15 minutes, 15-20 minutes, 20-30 minutes and greater than 30 minutes. 
+* **[!UICONTROL Page Summary / Site Category Summary]**: Tells you everything you need to know about the page report. It collects and organizes page-specific information about a single page and presents it in a single report.
+* **[!UICONTROL Reloads]**: Shows the number of times individual pages were reloaded by visitors.
+* **[!UICONTROL Time Spent on Page / Site Category]**: Displays the length of time that visitors browse individual pages in your site. The time spent is divided into ten categories: less than 15 seconds, 15-30 seconds, 30-60 seconds, 1-3 minutes, 3-5 minutes, 5-10 minutes, 10-15 minutes, 15-20 minutes, 20-30 minutes and greater than 30 minutes.
 * **[!UICONTROL Clicks to Page]**: Identifies the number of clicks visitors used to access each page in your site. Depth for a page is measured by counting the number of pages viewed before it.
 
 **[!UICONTROL Entries & Exits]**: The [!UICONTROL Entry Page] report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visitors. You can view:
 
-* **[!UICONTROL Entry Pages]** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. You can use this report to identify which of your web pages are the most frequent points of entry, optimize the primary entry points on your site, and drive entry traffic to your key messages. 
-* **[!UICONTROL Original Entry Pages]**: Shows the first page viewed for first-time visitors to your site. Each user is counted only once unless they delete their cookies or are not being tracked with cookies. 
-* **[!UICONTROL Single Page Visits]**: Shows pages that are most often both the entry and exit pages for visitor browsing sessions. 
+* **[!UICONTROL Entry Pages]** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. You can use this report to identify which of your web pages are the most frequent points of entry, optimize the primary entry points on your site, and drive entry traffic to your key messages.
+* **[!UICONTROL Original Entry Pages]**: Shows the first page viewed for first-time visitors to your site. Each user is counted only once unless they delete their cookies or are not being tracked with cookies.
+* **[!UICONTROL Single Page Visits]**: Shows pages that are most often both the entry and exit pages for visitor browsing sessions.
 * **[!UICONTROL Exit Pages]**: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site.
 
 ## Fallout Report {#concept_0ED452F3B1D04A19A59DD04D76D20347}
@@ -64,8 +64,8 @@ You can analyze fallout data at the Visit or Visitor level. You can also see a t
 
 This report is useful to analyze:
 
-* Conversion rates through specific processes on your site (such as a purchase or registration process). 
-* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item. 
+* Conversion rates through specific processes on your site (such as a purchase or registration process).
+* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
 
 ## Run a Fallout Report {#task_3594E8BE55964C1C8B0BEC8DEABF82D3}
@@ -80,7 +80,7 @@ t_fallout.xml
 
 1. Click **[!UICONTROL Reports]** > **[!UICONTROL New Report]** > **[!UICONTROL Fallout.]**
 
-   Other Fallout reports are found in **[!UICONTROL Reports]** > **[!UICONTROL Paths]**. 
+   Other Fallout reports are found in **[!UICONTROL Reports]** > **[!UICONTROL Paths]**.
 
 1. (Optional) Drag a segment to the [!UICONTROL Drop Segment Here] field, if you want to filter the data by a specific segment.
 1. Drag any dimension item to the [!UICONTROL Drop Event or Dimension Items Here] field.

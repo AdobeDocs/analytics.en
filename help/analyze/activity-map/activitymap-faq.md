@@ -20,7 +20,7 @@ A: Please review [Enable [!DNL Activity Map]](/help/analyze/activity-map/activit
 
 **Q: Do all Analytics customers have access to the Admin Tools ActivityMap Enablement page?**
 
-A: Adobe SiteCatalyst customers do not have access to the Admin Console’s [!DNL Activity Map] Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.
+A: Adobe SiteCatalyst customers do not have access to the Admin Console's [!DNL Activity Map] Enablement page. Only companies under Adobe Analytics Standard and Adobe Analytics Premium contract have access to this configuration page.
 
 **Q: Can the new AppMeasurement code be configured through Dynamic Tag Management (DTM)?**
 
@@ -75,7 +75,7 @@ The Metric drop-down lets you limit the list of calculated metrics to the ones a
 
 **Q: How does the [!DNL Activity Map] All Links Report compare with Reports & Analytics [!DNL Activity Map] reporting?**
 
-A: To pull the All Links Report in [!DNL Activity Map], we create a breakdown request as follows: [!DNL Activity Map] Page = “visitedpage”, broken down by [!DNL Activity Map] Link&Region in `<list of link&regions present in the page at rendering time>`.
+A: To pull the All Links Report in [!DNL Activity Map], we create a breakdown request as follows: [!DNL Activity Map] Page = "visitedpage", broken down by [!DNL Activity Map] Link&Region in `<list of link&regions present in the page at rendering time>`.
 
 To get an equivalent report in Reports & Analytics, you would need to first navigate to the [!DNL Activity Map] Page report. There, you would filter for the visited pagename in [!DNL Activity Map]. The visited Pagename is shown in the left column in the [!DNL Activity Map] Page Details Bottom Panel. Once the page has been found, you can break down from that page and choose [!DNL Activity Map] Links & Regions as a secondary dimension.
 

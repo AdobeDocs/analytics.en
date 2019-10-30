@@ -53,7 +53,7 @@ s.dynamicAccountList="suiteid1,suiteid2=client.com"
 
 ## Dynamic Account Match {#section_647AB47B38D640D6BCC853FDA4E4342D}
 
-Do not put the [!UICONTROL dynamic account match] variables in quotes. The options are displayed below. 
+Do not put the [!UICONTROL dynamic account match] variables in quotes. The options are displayed below.
 
 |  Host/Domain Name  | None  |
 |---|---|

@@ -23,4 +23,4 @@ For example:
 
 **Dynamic Device Data**
 
-This report uses dynamic device data that is continually being updated as new devices are released and identified. For example, a new tablet that is released during the current month might be misidentified since it doesn't yet exist in the device database. When the device database is updated with the new device, any changes as a result are applied to all reporting dates. Therefore, you might see slight variations on this report for historical dates over time. As a general rule, the most current report will have the most accurate data for any reporting period. 
+This report uses dynamic device data that is continually being updated as new devices are released and identified. For example, a new tablet that is released during the current month might be misidentified since it doesn't yet exist in the device database. When the device database is updated with the new device, any changes as a result are applied to all reporting dates. Therefore, you might see slight variations on this report for historical dates over time. As a general rule, the most current report will have the most accurate data for any reporting period.

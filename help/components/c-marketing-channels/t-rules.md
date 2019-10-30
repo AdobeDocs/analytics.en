@@ -13,7 +13,7 @@ uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 
 Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
 
-This procedure uses an email rule as an example. The example assumes that you have added an email channel to your list of channels on the Marketing Channel Manager page. 
+This procedure uses an email rule as an example. The example assumes that you have added an email channel to your list of channels on the Marketing Channel Manager page.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.
@@ -40,7 +40,7 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*. 
+   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
 1. To continue creating rules, click **[!UICONTROL Add Rule]**.
 1. To prioritize rules, drag-and-drop them to the desired position.
 1. Click **[!UICONTROL Save.]**

@@ -26,7 +26,7 @@ For more information on configuring [!DNL Analytics] to automatically select a [
 
 ## Defining the URL Segment to Match {#section_8099162F75F641CFBE46FD814450EF36}
 
-Given the following sample URL, the portions of the URL are shown below, along with the `s.dynamicAccountMatch` variable that must be set. (The default - if `s.dynamicAccountMatch` is not defined - is to search the Host/Domain Name only). 
+Given the following sample URL, the portions of the URL are shown below, along with the `s.dynamicAccountMatch` variable that must be set. (The default - if `s.dynamicAccountMatch` is not defined - is to search the Host/Domain Name only).
 Sample URL: `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321` 
 
 |  Portion  | Example (from above)  |

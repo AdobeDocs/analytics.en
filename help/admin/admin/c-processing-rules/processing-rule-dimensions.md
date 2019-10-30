@@ -195,7 +195,7 @@ The dimensions that you can read and write (unless otherwise noted) using proces
 
 ## Success Events {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
 
-Processing rules can set events but cannot read them as conditions. 
+Processing rules can set events but cannot read them as conditions.
 
 <table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
  <thead> 

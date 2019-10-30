@@ -15,9 +15,7 @@ Gets the page load time in tenths of a second and lets you store the value in a 
 
 To use this plugin, you insert the function code, then call the function twice in your [!DNL s_code.js] file. Once at the beginning of the file, and then again in the `doPlugins` section. This plugin is intentionally not defined as a method of the s object. Doing so would have added to the calculated page load time.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code and Implementation {#section_968AC379C3004C359A85AFED5A48D5AE}
 

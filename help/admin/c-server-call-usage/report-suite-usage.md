@@ -18,10 +18,10 @@ The Report Suite Usage tab provides server usage data for each report suite in a
 
 The Report Suite Usage dashboard
 
-* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your Experience Cloud organization. 
-* Shows percentage of overall usage per server call category. 
-* Is updated daily. 
-* Is downloadable. 
+* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your Experience Cloud organization.
+* Shows percentage of overall usage per server call category.
+* Is updated daily.
+* Is downloadable.
 * Lets you access the **[!UICONTROL Manage Alerts]** UI.
 
 ![](assets/report-suite-usage.png)
@@ -40,7 +40,7 @@ The Report Suite Usage dashboard
 
 This option lets you download current usage data, and data from time periods prior to the current usage period (going back to January 2015). The report downloads as a .csv file.
 
-1. Select at least one report suite. 
+1. Select at least one report suite.
 1. Click **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)

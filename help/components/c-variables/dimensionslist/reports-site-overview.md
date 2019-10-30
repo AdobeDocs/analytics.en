@@ -16,4 +16,4 @@ The Site Metrics > Site Overview report displays at login and lets you immediate
 
 Click **[!UICONTROL Layout]** in the toolbar to customize this report and save it as a dashboard.
 
-If you designate a dashboard to display as the landing page, this report does not display automatically. 
+If you designate a dashboard to display as the landing page, this report does not display automatically.

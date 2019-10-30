@@ -14,4 +14,4 @@ Displays the amount of time that passes before a selected conversion event occur
 
 In ad hoc analysis, this report is found under **[!UICONTROL Paths]** > **[!UICONTROL General]** > **[!UICONTROL Time Prior to Event]**.
 
-In marketing reports, it is found under **[!UICONTROL Site Metrics]** > **[!UICONTROL Time Prior to Event]**. 
+In marketing reports, it is found under **[!UICONTROL Site Metrics]** > **[!UICONTROL Time Prior to Event]**.

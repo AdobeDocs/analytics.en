@@ -12,7 +12,7 @@ Microsoft Power BI is a suite of business analytics dashboards to analyze data a
 
 Previously you, as an Analyst, would schedule Report Builder workbooks to be disseminated via email (or ftp). You can now give your business user stakeholders access (from within their Power BI accounts) to accurate and up-to-date data in a web-based environment that is accessible across platforms and devices.
 
-Combining the report-generation capability of Report Builder with the visualization features of Power BI makes information more accessible to everyone in your organization. With Power BI, you can also integrate Adobe Analytics with other data sources (e.g. point of sale, CRM) to discover unique customer insights, associations, and opportunities. 
+Combining the report-generation capability of Report Builder with the visualization features of Power BI makes information more accessible to everyone in your organization. With Power BI, you can also integrate Adobe Analytics with other data sources (e.g. point of sale, CRM) to discover unique customer insights, associations, and opportunities.
 
 ![](assets/aaplusbi.png)
 
@@ -33,16 +33,16 @@ Scheduled workbooks are formatted Excel spreadsheets populated with data from Ad
 
 **Publish workbook in Report Builder**
 
-1. In Report Builder, generate and save a workbook. 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**. 
+1. In Report Builder, generate and save a workbook.
+1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. In the Basic Scheduling Wizard, check the box next to **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
 
    ![](assets/simple-schedule-wizard.png)
 
-1. Specify your email and send immediately or specify the scheduling frequency (hourly, daily, etc.). 
-1. Click **[!UICONTROL OK]** to publish. 
-1. You will now be asked to log in to your Microsoft account. Provide your credentials. 
+1. Specify your email and send immediately or specify the scheduling frequency (hourly, daily, etc.).
+1. Click **[!UICONTROL OK]** to publish.
+1. You will now be asked to log in to your Microsoft account. Provide your credentials.
 1. The Report Builder workbook gets scheduled and published to Power BI.
 
    With each scheduled instance, and after the Report Builder scheduling process has refreshed the workbook with updated Analytics data, the workbook will be published to Microsoft Power BI.
@@ -59,9 +59,7 @@ Scheduled workbooks are formatted Excel spreadsheets populated with data from Ad
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->If the workbook contains a macro, the “Publish All Formatted Tables in the Workbook as Power BI Dataset Tables” will be disabled.
+> [!NOTE] If the workbook contains a macro, the "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables" will be disabled.
 
 Instead of importing the entire workbook, you can import only the content of all formatted tables within the workbook.
 
@@ -69,12 +67,12 @@ Instead of importing the entire workbook, you can import only the content of all
 
 **Publish a formatted table in Report Builder**
 
-1. In Report Builder, generate a table of data that includes a header row, followed by a row of data. 
-1. Select the table and select **[!UICONTROL Format as Table]** from the [!UICONTROL Home] menu. The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu. 
+1. In Report Builder, generate a table of data that includes a header row, followed by a row of data.
+1. Select the table and select **[!UICONTROL Format as Table]** from the [!UICONTROL Home] menu. The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**. 
+1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
-1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**. 
+1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
 1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
@@ -109,10 +107,10 @@ You can turn all your requests into dataset tables and build visualizations on t
 >
 >If the workbook contains more than 100 requests, only the first 100 requests will be published to Power BI. Plus, for each requests that is published to Power BI, only the first 10,000 rows of data will be published. So while these requests will be successfully delivered through scheduling, the scope of publishing to Power BI is limited.
 
-1. In Report Builder, open or create a workbook with Report Builder requests. 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**. 
+1. In Report Builder, open or create a workbook with Report Builder requests.
+1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
-1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**. 
+1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
 1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Click **[!UICONTROL OK]**.
@@ -121,7 +119,7 @@ You can turn all your requests into dataset tables and build visualizations on t
 
 Each scheduled Report Builder request will be published as a table in the dataset. Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu. 
+1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
 1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
 

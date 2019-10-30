@@ -19,9 +19,7 @@ Props also let you correlate custom data with specific traffic-related events. T
 
 For example, if you are an automobile manufacturer, you may be interested in seeing "Most Popular Car Model" to complement your "Pages" report. You can accomplish this by allocating one of your traffic properties to represent car model. Then implement your code to pass in car model on the appropriate pages.
 
->[!NOTE]
->
->[!DNL Analytics] supports up to 75 [!UICONTROL s.prop] variables.
+> [!NOTE] [!DNL Analytics] supports up to 75 [!UICONTROL s.prop] variables.
 
 Props are used in pathing reports or in correlation reports. For example, [!UICONTROL property] variables can be used to show content type, sub-section, or template name. The resulting [!UICONTROL Custom Traffic] reports show which content type, sub-section, or template is viewed most often.
 
@@ -38,4 +36,4 @@ In a conversion site, eVars may be used to track how logged-in visitors compare 
 
 For additional information, see [Traffic Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in the Analytics Help and Reference.
 
-For information about setting up properties in Digital Tag Management, see [Create Web Property](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). 
+For information about setting up properties in Digital Tag Management, see [Create Web Property](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).

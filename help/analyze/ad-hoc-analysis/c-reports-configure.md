@@ -133,7 +133,7 @@ c_reports_bubble.xml
 
  -->
 
-Bubble charts offer metrics analysis for up to five separate dimensions. The bubble chart dynamically changes to reflect changes in the report data. The bubble chart is available for any ranked report. 
+Bubble charts offer metrics analysis for up to five separate dimensions. The bubble chart dynamically changes to reflect changes in the report data. The bubble chart is available for any ranked report.
 
 |  Element  | Description  |
 |---|---|
@@ -189,7 +189,7 @@ t_reports_clipboard.xml
 
 1. Open Microsoft Excel.
 
-   It is recommended that you open Excel prior to copying data, because Excel clears the memory buffer when it starts. 
+   It is recommended that you open Excel prior to copying data, because Excel clears the memory buffer when it starts.
 
 1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
 1. In Excel, select a cell, then paste the data.
@@ -209,7 +209,7 @@ In Reports &amp; Analytics, you can set a field to contain user ID data. If you 
 1. Add a Data Warehouse segment to the report.
 1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
 
-   The Data Warehouse application launches. 
+   The Data Warehouse application launches.
 1. On the [!UICONTROL Data Warehouse Request] tab, type the filter name.
 1. Click **[!UICONTROL Request this Report]**.
 
@@ -228,7 +228,7 @@ When viewing a ranked report, such as a products report, you can see the trend d
 1. Run a ranked report.
 1. Click the [!UICONTROL Trend] icon.  ![](assets/TrendInspector_Buttcon.png)
 
-   You can select multiple cells to apply to a single trend report. 
+   You can select multiple cells to apply to a single trend report.
 
 1. To launch a report, click **[!UICONTROL Launch Trend Report]**.
 
@@ -260,4 +260,4 @@ c_reports_custom.xml
 
 Custom reports can bring increased value to you as an analyst, because they have been deemed worthy of being in everyone's marketing reports and analytics menu. If you see reports in your interface that don't match someone else's (such as in Training), your admin may have set up some of these custom reports.
 
-Additionally, you can save reports that are important to you. These reports are called bookmarks. You can also put several reports onto one canvas to get a quick look at your most important reports. These are called dashboards and are also user-specific. The interface displays a bar above the graph listing your bookmarks and dashboards. 
+Additionally, you can save reports that are important to you. These reports are called bookmarks. You can also put several reports onto one canvas to get a quick look at your most important reports. These are called dashboards and are also user-specific. The interface displays a bar above the graph listing your bookmarks and dashboards.

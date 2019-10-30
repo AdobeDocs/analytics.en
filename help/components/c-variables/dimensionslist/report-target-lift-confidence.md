@@ -17,9 +17,9 @@ The Adobe Target documentation contains more information on [Lift](https://marke
 
 To calculate Lift and Confidence:
 
-1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details. 
-1. Under Report Type, select **[!UICONTROL Lift and Confidence]**. 
-1. Click **[!UICONTROL Show Metrics]** to add one metric. You cannot add more than one metric for this type of report, since it is best practice to evaluate a test by only one metric. More metrics would only add noise and reduce the signal of the test. 
+1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details.
+1. Under Report Type, select **[!UICONTROL Lift and Confidence]**.
+1. Click **[!UICONTROL Show Metrics]** to add one metric. You cannot add more than one metric for this type of report, since it is best practice to evaluate a test by only one metric. More metrics would only add noise and reduce the signal of the test.
 1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. Most of the time, this will be the default, Visitors.
 
 1. The report will add these metrics, including the ratio between metric and normalizing metric.

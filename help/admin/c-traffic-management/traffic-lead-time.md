@@ -14,7 +14,7 @@ Adobe requires advance notice for new account setups, traffic spikes and traffic
 
 Allocation of hardware is driven by alerts submitted through the reports & analytics user interface.
 
-> [!IMPORTANT] Adobe cannot accommodate “placeholder” traffic change requests. Unless otherwise indicated, adhere to the suggested lead time as closely as possible, including not sending an alert too early. See [Schedule a traffic spike](../../admin/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](../../admin/c-traffic-management/t-traffic-permanent.md).
+> [!IMPORTANT] Adobe cannot accommodate "placeholder" traffic change requests. Unless otherwise indicated, adhere to the suggested lead time as closely as possible, including not sending an alert too early. See [Schedule a traffic spike](../../admin/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](../../admin/c-traffic-management/t-traffic-permanent.md).
 
 Use the following guidelines to determine how far in advance you must submit a traffic alert:
 
@@ -67,4 +67,4 @@ Other things to consider:
 
 ## Hardware De-Allocation Due to Unrealized Traffic
 
-Hardware for new accounts, traffic spikes and traffic increases will be de-allocated if the projected traffic in the client alert does not materialize within 4 weeks of the “Go live date”. If the traffic is still anticipated, a new client alert must be generated as a traffic increase.
+Hardware for new accounts, traffic spikes and traffic increases will be de-allocated if the projected traffic in the client alert does not materialize within 4 weeks of the "Go live date". If the traffic is still anticipated, a new client alert must be generated as a traffic increase.

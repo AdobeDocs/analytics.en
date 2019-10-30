@@ -13,8 +13,8 @@ Server-side forwarding is designed for customers who want to share data from Ana
 
 Server-side forwarding improves upon data collection because it:
 
-* Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site. 
-* Lets you take advantage of data sharing among Experience Cloud solutions. 
+* Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site.
+* Lets you take advantage of data sharing among Experience Cloud solutions.
 * Conforms with our best practices for Audience Manager code implementation and deployment.
 
 >[!TIP]
@@ -39,10 +39,10 @@ On the Request tab, verify that a MID value is being set. This tells you that Id
 
 Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
-In the “Response” tab, check that the response contains Audience Manager data. If you see:
+In the "Response" tab, check that the response contains Audience Manager data. If you see:
 
-* A **JSON response from Audience Manager that includes items such as “postbacks” or “dcs_region”**: you have some form of server-side forwarding already enabled. Continue to step 3.
-* The **“status":"SUCCESS”**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Continue to step 3.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Continue to step 3.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Continue to step 3.
 * A **2 x 2 image**: you do not have server-side forwarding or the Audience Management Module implemented. To correct this:
 
   * **AAM Customers with DIL**: coordinate the following 2 items in close conjunction:
@@ -66,7 +66,5 @@ Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**)
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
+> [!NOTE] Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
 

@@ -7,7 +7,7 @@ description: Attribution IQ is a set of features in Adobe Analytics that provide
 
 Attribution IQ is a set of features in Adobe Analytics that provides additional insight on how marketing efforts contribute to a conversion.
 
-A given customer journey isn’t linear and often unpredictable. Each customer proceeds at their own pace; often they double back, stall, restart, or engage in other non-linear behavior. These organic actions make it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together.
+A given customer journey isn't linear and often unpredictable. Each customer proceeds at their own pace; often they double back, stall, restart, or engage in other non-linear behavior. These organic actions make it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together.
 
 Adobe Analytics Attribution IQ enables modern intelligence teams to understand how meaningful engagement takes place across the customer journey, identifying inflection points that lead customers to target outcomes. Understanding this aspect of the customer journey effectively optimizes marketing initiatives.
 

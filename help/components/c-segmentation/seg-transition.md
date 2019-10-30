@@ -17,18 +17,18 @@ Answers frequent questions on segmentation features, access, permissions, best p
 
 * Segmentation in Analysis Workspace:
 
-    * You can [compare segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html). 
-    * Use [segments as dimensions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in a comparison. 
+    * You can [compare segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
+    * Use [segments as dimensions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in a comparison.
     * Use segments in [fallout analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
-* You can [apply multiple segments to a report or project](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F). 
-* Segments are universal to all report suites. 
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation. 
-* The [Segment Manager](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F) lets you set up [workflows](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) with segment sharing, tagging, verification, and approval features. 
+* You can [apply multiple segments to a report or project](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F).
+* Segments are universal to all report suites.
+* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
+* The [Segment Manager](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F) lets you set up [workflows](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) with segment sharing, tagging, verification, and approval features.
 
-* You can [tag segments](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments. 
+* You can [tag segments](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
-* You can create [Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis. 
+* You can create [Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis.
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
 See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
@@ -105,10 +105,10 @@ Now that segments work in multiple report suites, you might find that you have m
 
 **What does Adobe recommend with regards to cleaning up segments?**
 
-* Tag all segments with legacy tag. 
-* Review the segments that you have. 
-* Add them to the segment library where applicable. 
-* Approve segments that are canonical. 
+* Tag all segments with legacy tag.
+* Review the segments that you have.
+* Add them to the segment library where applicable.
+* Approve segments that are canonical.
 * Tag segments according to [best practices](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50).
 
 ## Managing Legacy Segments {#section_76CF47142D1A4FB6A0718AD9073049FE}
@@ -137,7 +137,7 @@ Scheduled reports do not update when you edit a segment with the same name. Here
 
 ![](assets/duplicate_seg_names.png)
 
-You have a bookmark that references the segment for the mainprod report suite. Then you delete that segment because it’s a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the maindev segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. It will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment so it’s more clear whether the bookmark is using the remaining segment.
+You have a bookmark that references the segment for the mainprod report suite. Then you delete that segment because it's a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the maindev segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. It will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment so it's more clear whether the bookmark is using the remaining segment.
 
 **What happens to Data Warehouse segments?**
 
@@ -181,7 +181,7 @@ Existing reports that have these segments applied will continue to work correctl
 
 **Admin** segments will be migrated into the new segment interface and will show up as segments shared with everyone.
 
-The owner of these segments is set to the admin with the oldest account in the login company’s list of admin users, however, all Admins can delete, edit and share these segments.
+The owner of these segments is set to the admin with the oldest account in the login company's list of admin users, however, all Admins can delete, edit and share these segments.
 
 The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone.
 
@@ -197,7 +197,7 @@ Existing segments that use logic that has changed as described in this document 
 
 The following tips will help you migrate common dimensions:
 
-* Geo-city/region/country - search for and select specific cities, regions or countries instead of using a partial match. 
+* Geo-city/region/country - search for and select specific cities, regions or countries instead of using a partial match.
 * Browsers - use the Browser Types dimension to get all browsers in a type, e.g. Google Chrome 
 * Operating Systems - use the OS Types dimensions to get all operating systems in a type, e.g. Microsoft Windows.
 
@@ -207,7 +207,7 @@ The following tips will help you migrate common dimensions:
 
 ## New and Renamed Dimensions {#section_73CF121B64A24DEF8E6499F3167BF742}
 
-The following table contains a list of dimensions that were renamed in Segment Builder. 
+The following table contains a list of dimensions that were renamed in Segment Builder.
 
 <table id="table_1A8C1940FD0446FA8414C6A7DE66E44C"> 
  <thead> 
@@ -354,4 +354,4 @@ Integer-based dimensions (such as browser width) with a known set of values were
 
 ![](assets/seg_browser_dimension.png)
 
-The less than, greater than, and similar operators are now compatible with Data Warehouse segments only. Segments intended to be compatible with all reporting interfaces should use the "Bucketed" version of the metric with the equals operator. 
+The less than, greater than, and similar operators are now compatible with Data Warehouse segments only. Segments intended to be compatible with all reporting interfaces should use the "Bucketed" version of the metric with the equals operator.

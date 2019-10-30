@@ -17,8 +17,8 @@ Depending on your permissions, you can share metrics with your whole organizatio
 
 When should you share metrics with the entire company versus just a group of users or individuals? Here are some best practices you might follow:
 
-* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an approved metric. 
-* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team. 
+* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an approved metric.
+* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team.
 * As an Admin or an individual user, share a metric with other individuals to vet and validate it. If it doesn't prove useful, it can be discarded. Do not officially approve this type of metric.
 
 1. In the Calculated Metric Manager, mark the checkbox next to the metric you want to share. The task bar appears:

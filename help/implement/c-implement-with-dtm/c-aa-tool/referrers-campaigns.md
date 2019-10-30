@@ -37,4 +37,4 @@ Use the DTM interface to choose whether you want to use a Query String or Value 
 
 ![](assets/dtm-queryparam.png)
 
-You can either enter your query string directly in the interface, or you can reference a separate data element if you have other means of tracking a campaign. 
+You can either enter your query string directly in the interface, or you can reference a separate data element if you have other means of tracking a campaign.

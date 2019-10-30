@@ -16,4 +16,4 @@ In the Data Feed interface, when you select the check box next to one or more fe
 
 ![](assets/actions.png)
 
-To edit a feed, click the feed name in the list. 
+To edit a feed, click the feed name in the list.

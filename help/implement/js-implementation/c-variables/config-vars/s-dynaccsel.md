@@ -10,17 +10,13 @@ title: Dynamic variables
 
 The  variable lets you dynamically select the report suite based on the URL of each page.
 
->[!NOTE]
->
->`dynamicAccountSelection` does not work with custom link tracking.
+> [!NOTE] `dynamicAccountSelection` does not work with custom link tracking.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | False  |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE] Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
 
 ## Syntax and Possible Values
 

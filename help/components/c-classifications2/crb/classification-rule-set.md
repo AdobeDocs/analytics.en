@@ -21,7 +21,7 @@ A rule set is a group of classification rules for a specific variable. You apply
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-The following fields and options are available on the [!UICONTROL Classifications Rule Builder]. 
+The following fields and options are available on the [!UICONTROL Classifications Rule Builder].
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -70,7 +70,7 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
    Variables will display in the [!UICONTROL New Rule Set] panel only after they have at least one classification defined for that variable.
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**). Then select the variable, then click **[!UICONTROL Add Classification]**. 
+   You can create classifications on a variable in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**). Then select the variable, then click **[!UICONTROL Add Classification]**.
 
 1. To create the rule set, click **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]** > **[!UICONTROL Add Rule Set]**.
 
@@ -85,6 +85,6 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
    The report suite and variable list is populated with all classified variables available in all the report suites in your log-in company. A single variable in a report suite can belong to only one rule set.
 
-   See *`Variable`* in the definitions for the [Classification Rule Builder](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) page for more information. 
+   See *`Variable`* in the definitions for the [Classification Rule Builder](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) page for more information.
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
 1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the rule set.

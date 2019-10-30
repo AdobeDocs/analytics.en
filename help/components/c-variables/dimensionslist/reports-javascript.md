@@ -12,9 +12,7 @@ uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 
 Shows metrics based on whether the device has JavaScript enabled, disabled, or whether it is counted as "unidentified".
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
 
 The JavaScript report correspond to the column javascript in the raw data.
 
@@ -30,4 +28,4 @@ Here is an example:
 |  2  | 1.6  | 0  |
 |  3  | 1.6  | 0  |
 
-As a result, it does not matter if you had a javascript version specified at some point in the visit - it will always be displayed as not Javascript because the first hit did not contain any value for j_jscript. 
+As a result, it does not matter if you had a javascript version specified at some point in the visit - it will always be displayed as not Javascript because the first hit did not contain any value for j_jscript.

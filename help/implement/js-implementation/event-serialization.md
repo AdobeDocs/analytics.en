@@ -15,12 +15,10 @@ Event serialization is the process of implementing measures to prevent duplicate
 
 [!UICONTROL Event serialization] is useful in the following instances:
 
-* A page may be reloaded or refreshed and repeatedly send an event. [!UICONTROL Event serialization] prevents events from being recounted by using a serial number for each event. 
+* A page may be reloaded or refreshed and repeatedly send an event. [!UICONTROL Event serialization] prevents events from being recounted by using a serial number for each event.
 * The user saves the page to his/her machine for later review. This scenario is quite common on purchase confirmation pages to review purchase receipts. [!UICONTROL Event serialization] prevents the subsequent page reloads from re-counting the events.
 
->[!NOTE]
->
->Data Sources does not support event serialization or de-duplication.
+> [!NOTE] Data Sources does not support event serialization or de-duplication.
 
 This document describes the process used to implement [!UICONTROL Event serialization] for [!UICONTROL conversion] and [!UICONTROL custom] events. To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** > **[!UICONTROL Report Suite]** > **[!UICONTROL [select report suite]]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Success Events]** . Then select which events you want recorded in the [!UICONTROL Unique Event Recording] column.
 
@@ -44,7 +42,7 @@ To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONT
 
 The only event that cannot have event serialization enabled is the purchase event, as this uses the s.purchaseID variable. All other eCommerce events and custom events can have these settings enabled.
 
-* Use a unique identifier to let an event fire once per unique ID. 
+* Use a unique identifier to let an event fire once per unique ID.
 * Send multiple events, then use configure Analytics to let an event fire once per visit.
 
 To implement [!UICONTROL Event serialization], provide a unique ID for the event, for example event1:1234ABCD.
@@ -65,16 +63,16 @@ Once [!UICONTROL Event serialization] is implemented, and [!DNL Analytics] recei
 
 Note the following when selecting serialization IDs:
 
-* Serialization IDs must be 20 characters or less. 
-* Serialization IDs must be alphanumeric characters. 
-* Serialization IDs are separate for each success event. Therefore, you can use the same ID for multiple success events if needed, just not for the same success event. 
-* Serialization IDs are tied to the report suite, so if you are using multi-suite tagging to send data to multiple report suites, keep this in mind. 
-* Serialization IDs never expire, so even if the same ID is used years later, the success event will not be counted again. 
-* Cookie deletion does not prevent Event ID serialization because serialization IDs are stored on Adobe servers and are not cookie-based. 
+* Serialization IDs must be 20 characters or less.
+* Serialization IDs must be alphanumeric characters.
+* Serialization IDs are separate for each success event. Therefore, you can use the same ID for multiple success events if needed, just not for the same success event.
+* Serialization IDs are tied to the report suite, so if you are using multi-suite tagging to send data to multiple report suites, keep this in mind.
+* Serialization IDs never expire, so even if the same ID is used years later, the success event will not be counted again.
+* Cookie deletion does not prevent Event ID serialization because serialization IDs are stored on Adobe servers and are not cookie-based.
 * The one success event with which it is not possible to use Event ID serialization is the Purchase event, which uses a special s.purchaseID variable for serialization.
 
 ## Event Serialization - Once per Visit {#section_C919D44F321A47FBBF043D0C57A2A050}
 
 [!DNL Analytics] offers a feature to let an event only fire once per visit.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** > **[!UICONTROL Report Suite]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]** . 
+This can be enabled from the UI:  **[!UICONTROL Admin]** > **[!UICONTROL Report Suite]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]** .

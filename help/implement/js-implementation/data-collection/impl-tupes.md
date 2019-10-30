@@ -20,4 +20,4 @@ If you use more than one type of implementation (such as JavaScript and hardcode
 * *`s.trackingServer`* 
 * *`s.trackingServerSecure`* (if using SSL)
 
-If each of these do not match across implementations, users may be tracked as separate visitors. 
+If each of these do not match across implementations, users may be tracked as separate visitors.

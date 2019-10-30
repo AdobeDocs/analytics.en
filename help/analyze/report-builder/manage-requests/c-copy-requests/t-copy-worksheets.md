@@ -17,4 +17,4 @@ Copy one spreadsheet to another in the same workbook.
 
    A new worksheet is added to your workbook. By default, the worksheet has the same name as the original worksheet, but has the suffix (2). If you repeat the paste operation, the new worksheet has the suffix (3), and so on. When you paste a spreadsheet that you have copied, the new spreadsheet is located to the right of (immediately after) the active worksheet.
 
-   Unlike copying and pasting requests, Report Builder copies and pastes directly entered cell contents (such as labels for column headers, rows, or formatting) when copying spreadsheets. 
+   Unlike copying and pasting requests, Report Builder copies and pastes directly entered cell contents (such as labels for column headers, rows, or formatting) when copying spreadsheets.

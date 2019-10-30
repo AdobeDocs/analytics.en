@@ -12,19 +12,19 @@ For more information on how to configure this integration, go to the [Adobe Camp
 
 This integration between Adobe Analytics and Adobe Campaign
 
-* Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics. 
-* Enriches tracking formulas with Adobe Analytics parameters. 
+* Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics.
+* Enriches tracking formulas with Adobe Analytics parameters.
 * Adds a new report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]** 
-* Adds 5 new Adobe Campaign classifications. 
-* Adds 10 new Adobe Campaign metrics. 
-* Adds 6 new Adobe Campaign dimensions. 
+* Adds 5 new Adobe Campaign classifications.
+* Adds 10 new Adobe Campaign metrics.
+* Adds 6 new Adobe Campaign dimensions.
 * Synchronizes data to Analytics every 15 minutes.
 
 ## Step 1. Enable Adobe Campaign Reporting {#section_C685EF10505045708A6536BB13F6CD58}
 
 In order to view Campaign data in Analytics, you first have to enable Campaign reporting.
 
-1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]** . 
+1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]** .
 1. Click **[!UICONTROL Enable Campaign Reporting]**.
 
    ![](assets/enable-campaign.png)

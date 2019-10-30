@@ -146,7 +146,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
  </tbody> 
 </table>
 
-The following table contains traffic variables that are populated automatically when using the JavaScript libraries. These properties do not have associated variables but can be imported using data sources. 
+The following table contains traffic variables that are populated automatically when using the JavaScript libraries. These properties do not have associated variables but can be imported using data sources.
 
 <table id="table_FDBC5BD225644AA09078C0570BE709FE"> 
  <thead> 

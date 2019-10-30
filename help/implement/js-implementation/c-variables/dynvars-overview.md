@@ -18,9 +18,7 @@ Dynamic variables are used when capturing the same data (for example, campaign t
 
 Dynamic variables are also useful for viewing data under various reporting conditions. A campaign tracking code can be captured in multiple eVars with various allocation and cookie expiration settings. This lets users choose the way they want to attribute conversion metrics to these campaigns.
 
->[!NOTE]
->
->Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
+> [!NOTE] Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
 
 A significant benefit of dynamic variables is the ability to capture long strings of data in multiple variables without actually passing the long string repeatedly. Some browsers limit the maximum length of HTTP GET requests (including the Adobe image request). Using dynamic variables ensures that all data is captured by reducing the length of the request to Adobe servers in cases where data is duplicated across several variables.
 
@@ -40,13 +38,13 @@ The variable abbreviation used must match the variable parameter name passed in 
 
 The following information applies to dynamic variables:
 
-* Dynamic variables work with all versions of AppMeasurement code. 
-* Dynamic variables are case sensitive. 
-* Dynamic variables support literal strings contained in quotes. 
-* Dynamic variable replacement occurs before processing rules, VISTA, and other processing. 
-* The dynamic variable prefix "D=" must be at the start of the variable value not in the middle. For example, use `c2='D="test7"+User-Agent'` rather than `c2='"test7"+D=User-Agent'` . 
+* Dynamic variables work with all versions of AppMeasurement code.
+* Dynamic variables are case sensitive.
+* Dynamic variables support literal strings contained in quotes.
+* Dynamic variable replacement occurs before processing rules, VISTA, and other processing.
+* The dynamic variable prefix "D=" must be at the start of the variable value not in the middle. For example, use `c2='D="test7"+User-Agent'` rather than `c2='"test7"+D=User-Agent'` .
 
-* As with all implementation techniques, Adobe strongly recommends testing dynamic variable implementations heavily in a development environment before deploying to production. Because the full strings that are copied are not visible in client-side debugging tools, review the affected Analytics reports to confirm successful implementation. 
+* As with all implementation techniques, Adobe strongly recommends testing dynamic variable implementations heavily in a development environment before deploying to production. Because the full strings that are copied are not visible in client-side debugging tools, review the affected Analytics reports to confirm successful implementation.
 * When copying values between variables with different maximum lengths, note that copying a value that exceeds the maximum length of the destination variable causes truncation. For example, [!UICONTROL Custom Traffic] variables have 100-character limits and [!UICONTROL Custom Conversion] variables have 255-characters limits. When copying a 150-character value from s.eVar1 to s.prop1 using dynamic variables, this value is truncated in the [!UICONTROL Custom Traffic] report at 100 characters.
 
 ## Dynamic Variable Examples {#section_5CE4468D978540FBA384B9D6477C92EC}
@@ -63,13 +61,9 @@ In the Adobe image request that occurs on the page view, if you are using dynami
 
 Note that the `D=[variable]` value should be in quotes. The Analytics code treats this as a string. The string will be URL encoded when passed into Analytics (as you will see if viewing the request in the DigitalPulse Debugger or a similar utility). This is normal. Adobe's servers recognize the `D=[variable]` construction and will copy the appropriate value when they encounter this string.
 
->[!NOTE]
->
->When using the image request to track links, the type of link (download=lnk_d, exit=lnk_e, or custom link=lnk_o) must be defined, as does the Link URL/Name (pev2). Links require manual implementation by inserting code within the `<a href>` tag.
+> [!NOTE] When using the image request to track links, the type of link (download=lnk_d, exit=lnk_e, or custom link=lnk_o) must be defined, as does the Link URL/Name (pev2). Links require manual implementation by inserting code within the `<a href>` tag.
 
->[!NOTE]
->
->Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
+> [!NOTE] Dynamic variables are not supported in conjunction with cookies (s_cc, s_sq, s_fid, s_vi and any cookie that is set by a plugin). You can not use `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 

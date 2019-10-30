@@ -12,8 +12,8 @@ uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 
 Suppose you have the following hit data:
 
-* The first row contains the labels for each variable. 
-* The second row is the name of the variable. If it has an ID label, it contains the assigned namespace in parentheses. 
+* The first row contains the labels for each variable.
+* The second row is the name of the variable. If it has an ID label, it contains the assigned namespace in parentheses.
 * Hit data starts in the third row.
 
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL  | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL  |
@@ -30,7 +30,7 @@ Suppose you have the following hit data:
 
 ## Sample Access Request
 
-If I submit an access request, the summary file will contain the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true. 
+If I submit an access request, the summary file will contain the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true.
 
 | API Values | API Values | Returned File Type | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File |
 |--- |--- |--- |---|---|---|---|---|

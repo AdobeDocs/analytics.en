@@ -15,7 +15,7 @@ Data Sources supports the following conversion data dimensions and metrics for d
 
 ## Conversion Dimensions and Metrics {#section_FA1731B232B246DABEDF5A5D84159084}
 
-If you specify a View event, you must also specify the corresponding data dimension (eVar). For example, if you include eVar2 views, then you must list eVar2 with a value. The number of custom events and eVar views supported by a report suite is contract-dependent, and varies between companies. 
+If you specify a View event, you must also specify the corresponding data dimension (eVar). For example, if you include eVar2 views, then you must list eVar2 with a value. The number of custom events and eVar views supported by a report suite is contract-dependent, and varies between companies.
 
 <p class="head"> <b>Conversion Dimensions</b> </p>
 

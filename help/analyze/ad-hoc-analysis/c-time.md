@@ -12,7 +12,7 @@ Time is a reporting dimension useful for trending over hours, days, weeks, and d
 
 ## Time {#concept_CB64A0A2150C471FB0B0B42516905887}
 
-Time is a reporting dimension useful for trending over hours, days, weeks, and date ranges. For example, a Products Report displays how much revenue a product made during the selected date range. You can add a Day dimension to see the trend across each day of the reporting period. Time provides granularity settings of Hour, Day, Week, Month, Quarter, and Year. Date range presets include settings such as Today, Yesterday, and Last 7 Days. 
+Time is a reporting dimension useful for trending over hours, days, weeks, and date ranges. For example, a Products Report displays how much revenue a product made during the selected date range. You can add a Day dimension to see the trend across each day of the reporting period. Time provides granularity settings of Hour, Day, Week, Month, Quarter, and Year. Date range presets include settings such as Today, Yesterday, and Last 7 Days.
 
 To add Time dimensions, drag one or multiple date ranges from the Time tool pane to the report table or the Table Builder.
 

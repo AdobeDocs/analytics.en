@@ -49,7 +49,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Date ranges in segments </p> </td> 
-   <td colname="col2"> <p>Lets you build segments that contain rolling date ranges in order to answer questions about ongoing campaigns or events. For example, now you can easily build a segment that includes “everyone who has made a purchase over the past 60 days.” </p> <p> <p>Note:  This feature is not available in Ad Hoc Analysis. </p> </p> </td> 
+   <td colname="col2"> <p>Lets you build segments that contain rolling date ranges in order to answer questions about ongoing campaigns or events. For example, now you can easily build a segment that includes "everyone who has made a purchase over the past 60 days." </p> <p> <p>Note:  This feature is not available in Ad Hoc Analysis. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ New Features in Adobe Analytics Segmentation.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimension constraints with Sequential Segments </p> </td> 
-   <td colname="col2"> <p>In a “within" clause, in between THEN statements, you can add, for example, “within 1 search keyword instance”, “within 1 eVar 47 instance”. This constrains the segment to within one instance of a dimension. </p> </td> 
+   <td colname="col2"> <p>In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external"> Use segments in Fallout analysis </a> </p> </td> 
@@ -132,7 +132,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: Breakdown by segment </p> </td> 
-   <td colname="col2"> <p>Added support for <span class="wintitle"> Breakdown by Segment</span>. In addition to breakdowns by Standard (Items) and Custom (Insights), you can now break down reports by segments. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Line items with membership in the segment will report a value of “1”, and items outside of the segment report “0”. </p> </td> 
+   <td colname="col2"> <p>Added support for <span class="wintitle"> Breakdown by Segment</span>. In addition to breakdowns by Standard (Items) and Custom (Insights), you can now break down reports by segments. When you select the <span class="wintitle"> Segments</span> tab, the list will be populated with the same set of segments offered in the <span class="wintitle"> Available segments </span>drop-down list. </p> <p>Line items with membership in the segment will report a value of "1", and items outside of the segment report "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,7 +224,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Support for "matches" and "does not match" in Data Warehouse segments </p> </td> 
-   <td colname="col2"> <p>Data Warehouse now supports “matches” and “does not match” in segment definitions. (Reports &amp; Analytics and Ad Hoc Analysis already support this.) </p> <p>Segments that were previously incompatible with Data Warehouse because Data Warehouse did not support “matches” and “does not match” will become compatible after the release (assuming that’s the only reason the segment was incompatible.) Additional segments may appear in the Data Warehouse segment list after the release. </p> </td> 
+   <td colname="col2"> <p>Data Warehouse now supports "matches" and "does not match" in segment definitions. (Reports &amp; Analytics and Ad Hoc Analysis already support this.) </p> <p>Segments that were previously incompatible with Data Warehouse because Data Warehouse did not support "matches" and "does not match" will become compatible after the release (assuming that's the only reason the segment was incompatible.) Additional segments may appear in the Data Warehouse segment list after the release. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save in Web Services API </p> </td> 

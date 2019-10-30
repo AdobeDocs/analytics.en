@@ -12,7 +12,7 @@ uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 
 The Segment Builder provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
 
-The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits. 
+The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
 
 >[!IMPORTANT]
 >
@@ -20,10 +20,10 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metric Dimen
 
 There are several ways to access the Segment Builder:
 
-* **Analytics top navigation:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**. 
-* **[!UICONTROL Analysis Workspace]:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**. 
-* **[!UICONTROL Reports & Analytics]:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open an existing report and click the Segments icon  ![](assets/segment_icon.png) in the left navigation, then click **[!UICONTROL Add]**. 
-* **[!UICONTROL Ad Hoc Analysis]:** [Build Segments in Ad Hoc Analysis](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6). 
+* **Analytics top navigation:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
+* **[!UICONTROL Analysis Workspace]:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
+* **[!UICONTROL Reports & Analytics]:** Click **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open an existing report and click the Segments icon  ![](assets/segment_icon.png) in the left navigation, then click **[!UICONTROL Add]**.
+* **[!UICONTROL Ad Hoc Analysis]:** [Build Segments in Ad Hoc Analysis](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6).
 * **[!UICONTROL Report Builder]:** [Add or edit segments in Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
@@ -36,22 +36,22 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 
 Access the Segment Builder by
 
-* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. In the segment rail that displays, click **[!UICONTROL Add]**. 
+* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. In the segment rail that displays, click **[!UICONTROL Add]**.
 
-* From within the Segment Manager, clicking **[!UICONTROL + Add]**. 
+* From within the Segment Manager, clicking **[!UICONTROL + Add]**.
 * Clicking an existing segment title in the Segment Manager to edit the segment in Segment Builder.
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Title:]** Lets you name or rename the segment. 
-1. **[!UICONTROL Description:]** Provide a description for the segment. You must provide a description if you want to share the segment. 
-1. **[!UICONTROL Tags:]** [Tag the segment](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) you are creating by picking from a list of existing tags or creating a new tag. 
-1. **[!UICONTROL Definitions:]** This is where you [build and configure segments](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), add rules, and nest and sequence containers. Allows you to provide a description for the new segment by selecting the container and dragging and dropping dimensions, segments, or metrics into the definition. 
-1. **[!UICONTROL Show:]** (Top Container selector.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). The default top-level container is the Hit container. 
+1. **[!UICONTROL Title:]** Lets you name or rename the segment.
+1. **[!UICONTROL Description:]** Provide a description for the segment. You must provide a description if you want to share the segment.
+1. **[!UICONTROL Tags:]** [Tag the segment](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) you are creating by picking from a list of existing tags or creating a new tag.
+1. **[!UICONTROL Definitions:]** This is where you [build and configure segments](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), add rules, and nest and sequence containers. Allows you to provide a description for the new segment by selecting the container and dragging and dropping dimensions, segments, or metrics into the definition.
+1. **[!UICONTROL Show:]** (Top Container selector.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). The default top-level container is the Hit container.
 1. **[!UICONTROL Options:]** (gear) icon
 
-    * **[!UICONTROL + Add container:]** Lets you add a new container (below the top-level container) to the segment definition. 
-    * **[!UICONTROL + Add container from selection:]** Lets you create a new container from the element/s that you (multi-) selected in the Definitions field. 
+    * **[!UICONTROL + Add container:]** Lets you add a new container (below the top-level container) to the segment definition.
+    * **[!UICONTROL + Add container from selection:]** Lets you create a new container from the element/s that you (multi-) selected in the Definitions field.
     * **[!UICONTROL Exclude:]** Lets you define the segment by excluding one or more dimensions, segments, or metrics.
 
    **[!UICONTROL Attribution Models:]** For dimension segmentation. Dimension models are particularly useful in sequential segmentation, such as in those that support Flow visualizations:
@@ -61,30 +61,28 @@ Access the Segment Builder by
     
     ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Dimensions:]** Dimension are dragged and dropped from the Dimensions list (orange sidebar). 
-1. **[!UICONTROL Comparison:]** You can compare and constrain values using selected operators. 
-1. **[!UICONTROL Value:]** The value you entered or selected for the dimension or segment or metric. 
-1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560). 
-1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list. 
-1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators. 
-1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric. 
-1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition. 
-1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment. 
-1. **[!UICONTROL Search:]** Searches the list of dimensions, segments, or metrics. 
-1. **[!UICONTROL Dimensions:]** (List) Click the header to expand. 
-1. **[!UICONTROL Metrics:]** Click the header to expand. 
-1. **[!UICONTROL Segments:]** Click the header to expand. 
-1. **[!UICONTROL Report suite selector:]** Lets you select the reports suite that this segment will be saved under. You can still utilize the segment in all report suites. 
-1. **[!UICONTROL Segment Preview:]** Lets you preview the key metrics to see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see if you apply this segment. Shows 3 concentric circles and a list to show the number and percentage of matches for [!UICONTROL Hits], [!UICONTROL Visits], and [!UICONTROL Visitors] for a segment run against a data set. This chart is updated immediately after you create or make changes to your segment definition. 
+1. **[!UICONTROL Dimensions:]** Dimension are dragged and dropped from the Dimensions list (orange sidebar).
+1. **[!UICONTROL Comparison:]** You can compare and constrain values using selected operators.
+1. **[!UICONTROL Value:]** The value you entered or selected for the dimension or segment or metric.
+1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
+1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list.
+1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.
+1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
+1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
+1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
+1. **[!UICONTROL Search:]** Searches the list of dimensions, segments, or metrics.
+1. **[!UICONTROL Dimensions:]** (List) Click the header to expand.
+1. **[!UICONTROL Metrics:]** Click the header to expand.
+1. **[!UICONTROL Segments:]** Click the header to expand.
+1. **[!UICONTROL Report suite selector:]** Lets you select the reports suite that this segment will be saved under. You can still utilize the segment in all report suites.
+1. **[!UICONTROL Segment Preview:]** Lets you preview the key metrics to see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see if you apply this segment. Shows 3 concentric circles and a list to show the number and percentage of matches for [!UICONTROL Hits], [!UICONTROL Visits], and [!UICONTROL Visitors] for a segment run against a data set. This chart is updated immediately after you create or make changes to your segment definition.
 1. **[!UICONTROL Product Compatibility:]** Provides a list of which Adobe Analytics products (Analysis Workspace, [!UICONTROL Reports & Analytics], Ad Hoc Analysis, Data Warehouse) with which the segment you created is compatible. Most segments are compatible with all products. However, not all operators and dimensions are compatible with all Analytics products, especially [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). This chart is updated immediately after you make changes to your segment definition.
 
    Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports & Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports & Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
 **[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Not shown on screen) This option appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. A segment title and description are required.
 
->[!NOTE]
->
->In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe [!DNL Target].
+> [!NOTE] In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe [!DNL Target].
 
 ![](assets/segment_publish_to_mac_copy.png)
 
@@ -102,13 +100,13 @@ Access the Segment Builder by
 
    ![](assets/drag_n_drop_dimension.png)
 
-   The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu. 
+   The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu.
 
-1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-operators.md) from the drop-down menu. 
-1. Enter or select a value for the item selected. 
-1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules. 
-1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created. 
-1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one. 
+1. Set the [operator](../../../components/c-segmentation/seg-reference/seg-operators.md) from the drop-down menu.
+1. Enter or select a value for the item selected.
+1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
+1. After placing the containers and setting the rules, see the results of the segment in the validation chart at the top right. The validator indicates the percentage and absolute number of page views, visits, and unique visitors that match the segment you created.
+1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
 1. Click **[!UICONTROL Save]** to save the segment.
 
 You are now taken to the [Segment Manager](../../../components/c-segmentation/c-segmentation-workflow/seg-manage.md#concept_7A2E019317864065B7C641DC3315928F), where you can tag, share, and manage your segment in multiple ways.
@@ -125,8 +123,8 @@ You can [build a framework of containers](../../../components/c-segmentation/seg
 
    ![](assets/new_container.png)
 
-1. Change the container type as needed. 
-1. Drag a Dimension, Segment, or Event from the left pane to the container. 
+1. Change the container type as needed.
+1. Drag a Dimension, Segment, or Event from the left pane to the container.
 1. Continue to add new containers from the top-level **[!UICONTROL Options]** > **[!UICONTROL Add container]** button at the top of the definition, or add containers from within a container to nest logic.
 
    **OR**
@@ -135,9 +133,9 @@ You can [build a framework of containers](../../../components/c-segmentation/seg
 
 ## Use date ranges in segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
-You can build segments that contain rolling date ranges in order to answer questions about ongoing campaigns or events. 
+You can build segments that contain rolling date ranges in order to answer questions about ongoing campaigns or events.
 
-For example, you can easily build a segment that includes “everyone who has made a purchase over the past 60 days”.
+For example, you can easily build a segment that includes "everyone who has made a purchase over the past 60 days".
 
 You create a Visit container and within it, add the [!UICONTROL Last 60 days] time range and the metric [!UICONTROL Orders is greater than or equal to 1], with an AND operator:
 
@@ -145,7 +143,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 ## Stack segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-Stacking segments works by combining the criteria in each segment using an 'and' operator, and then applying the combined criteria. 
+Stacking segments works by combining the criteria in each segment using an 'and' operator, and then applying the combined criteria.
 
 For example, stacking a "mobile phone users" segment and a "US geography" segment would return data only for mobile phone users in the US.
 
@@ -160,9 +158,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 * one segment for tablet users 
 * 20 segments for the different geographies
 
->[!NOTE]
->
->When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
+> [!NOTE] When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
 
 1. Go to the Segment Builder.
 1. Provide a title and description for the segment.
@@ -179,7 +175,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Use segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Templates represent the old pre-configured and suite segments. 
+Templates represent the old pre-configured and suite segments.
 
 In the Segment Manager, click **[!UICONTROL Add]**, which takes you to the Segment Builder. Now click the Segments icon  ![](assets/segment_icon.png)
 
@@ -187,7 +183,7 @@ to bring up the segment rail. The segment templates appear at the bottom of the 
 
 ![](assets/seg_template.png)
 
-You can drag these templates into the Definitions canvas and use them as they have been defined, or modify them. 
+You can drag these templates into the Definitions canvas and use them as they have been defined, or modify them.
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -274,7 +270,7 @@ You can drag these templates into the Definitions canvas and use them as they ha
 
 ## Example: Campaign visitors segment {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
 
-Shows an example of this frequently used segment. 
+Shows an example of this frequently used segment.
 
 Many customers want to see metrics from visitors who responded to specific campaigns. Creating a campaign visitors segment is an easy way of getting this data.
 
@@ -282,4 +278,4 @@ Building this segment in the Segment Builder means that from a top-level Visit c
 
 ![](assets/seg_campaign_visitor.png)
 
-(Optional) You can also apply a Campaigns tag to this segment, if you wish to easily filter on all your campaign-related segments. 
+(Optional) You can also apply a Campaigns tag to this segment, if you wish to easily filter on all your campaign-related segments.

@@ -74,4 +74,4 @@ If you are not passing a product category in the product string, make sure to in
 s.products=";product name"
 ```
 
-In this case, the semi-colon represents a placeholder for the product category. If the semi-colon is left out of the product string, then "product name" would be counted as the category, the number of units to be counted as the product name, the revenue to be counted as the units, and so on. 
+In this case, the semi-colon represents a placeholder for the product category. If the semi-colon is left out of the product string, then "product name" would be counted as the category, the number of units to be counted as the product name, the revenue to be counted as the units, and so on.

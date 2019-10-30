@@ -26,4 +26,4 @@ Searching and filtering helps you locate a feed in the list.
 
    ![Search](assets/search.jpg)
 
-You can combine filtering and searching to help you find your feeds. Combined filters are joined by an AND operator. 
+You can combine filtering and searching to help you find your feeds. Combined filters are joined by an AND operator.

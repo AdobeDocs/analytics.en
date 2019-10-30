@@ -20,10 +20,10 @@ To enable offline mode:
 
    ![](assets/offline_mode.png)
 
-1. Check the checkbox next to **[!UICONTROL Turn on offline mode for creating and editing requests]**. 
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. For example, enter "1". 
-1. Click **[!UICONTROL OK]**. 
-1. Now create and run your request (in offline mode) using the Request Wizard. 
+1. Check the checkbox next to **[!UICONTROL Turn on offline mode for creating and editing requests]**.
+1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. For example, enter "1".
+1. Click **[!UICONTROL OK]**.
+1. Now create and run your request (in offline mode) using the Request Wizard.
 1. Your request with "1" as the placeholder data will look similar to this:
 
    ![](assets/offline_mode_example.png)

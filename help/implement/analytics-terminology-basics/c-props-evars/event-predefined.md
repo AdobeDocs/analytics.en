@@ -32,6 +32,6 @@ s.events="scAdd"
 s.events="scOpen,scAdd"
 ```
 
-* In the first example above, *`scAdd`* is the value of the event. Any time an item is added to the shopping cart, the event is incremented. 
+* In the first example above, *`scAdd`* is the value of the event. Any time an item is added to the shopping cart, the event is incremented.
 * In the second example, two values are captured at the same time. When multiple success events occur on the same page, each event is incremented.
 

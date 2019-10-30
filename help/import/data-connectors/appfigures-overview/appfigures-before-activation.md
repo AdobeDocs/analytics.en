@@ -28,7 +28,7 @@ Review the following information about this data connectors integration as it re
 Review the following information about this data connectors integration as it relates to appFigures:
 
 * **Current Customer of appFigures:** This integration requires you to be a user of both Adobe and appFigures. If you are not currently a user of the appFigures Enterprise Plan, you will not have the information necessary to complete the integration wizard. Please visit appFigures on the web for more information.
-* **appFigures Account Key:** An appFigures Account Key is required to activate the appFigures Data Connector. This account key can be generated in the “Add-ons” section. Refer to [Configure the Integration](../appfigures-overview/t-appfigures-integration.md) for more information.
+* **appFigures Account Key:** An appFigures Account Key is required to activate the appFigures Data Connector. This account key can be generated in the "Add-ons" section. Refer to [Configure the Integration](../appfigures-overview/t-appfigures-integration.md) for more information.
 
 * **Data Finalization**: Download, sales, and ranking information is synchronized each day for the previous 7 days. After 7 days data is considered final and is no longer updated.
 
@@ -54,9 +54,7 @@ The following table describes the Analytics variables automatically activated fo
 
 ### Required Variables {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->This integration uses dedicated variables for app store data, so you do not need to assign custom commerce variables and events.
+> [!NOTE] This integration uses dedicated variables for app store data, so you do not need to assign custom commerce variables and events.
 
 |  Variable Type  | Name  | Population Method  | Description  |
 |---|---|---|---|

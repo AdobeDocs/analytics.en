@@ -24,9 +24,7 @@ browserheight.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
 You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
@@ -63,9 +61,7 @@ browserwidth.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
 You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
@@ -123,7 +119,7 @@ Every element in a marketing campaign should have an associated unique tracking 
 
 There are two main ways to populate the *`campaign`* variable:
 
-* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
+* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
 * Assign a value to the *`campaign`* variable in the HTML on the Web page.
 
@@ -161,9 +157,9 @@ Each campaign value remains active for a user, and receives credit for that user
 
 **Pitfalls, Questions, and Tips** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F). 
+* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html). 
+* For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html).
 * Use the [!DNL DigitalPulse Debugger] to see the actual value of campaigns (v0 in the debugger). If v0 does not appear in the debugger, no campaign data is recorded for that page.
 
 ## channel {#concept_C7770B8C15724A99B10F8F468AF82D0D}
@@ -176,7 +172,7 @@ channel.xml
 
  -->
 
-For example, a merchant may have sections such as Electronics, Toys, or Apparel. A media site may have sections such as News, Sports, or Business. 
+For example, a merchant may have sections such as Electronics, Toys, or Apparel. A media site may have sections such as News, Sports, or Business.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -206,7 +202,7 @@ s.channel="Media"
 
 **Pitfalls, Questions, and Tips** {#section_61941D5E4E644B59A267A4F44FD5DE8C}
 
-If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value. 
+If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value.
 
 ## colorDepth {#concept_756516E181F449B996DA9CC5A53FFA3D}
 
@@ -220,11 +216,9 @@ colordepth.xml
 
 For example, 32 represents 32 bits of color on the screen. This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -242,11 +236,9 @@ conntype.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -264,11 +256,9 @@ cookiesenabled.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into `props/eVars`, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  |
 |---|---|---|
@@ -284,15 +274,13 @@ dc.xml
 
  -->
 
->[!NOTE]
->
->The dc variable is deprecated. You should set *`trackingServer`* for all implementations to the value that is generated by [!UICONTROL Code Manager] in s_code.js.
+> [!NOTE] The dc variable is deprecated. You should set *`trackingServer`* for all implementations to the value that is generated by [!UICONTROL Code Manager] in s_code.js.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | 112  |
 
-The data center is identified in the *`dc`* variable in order to match [!UICONTROL ActionSource]. 
+The data center is identified in the *`dc`* variable in order to match [!UICONTROL ActionSource].
 
 ## eVarN {#concept_74FFDDB44B5344E18ABC6F2F99DF4649}
 
@@ -304,7 +292,7 @@ eVarN.xml
 
  -->
 
-When an eVar is set to a value for a visitor, the value is remembered until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value. 
+When an eVar is set to a value for a visitor, the value is remembered until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -316,7 +304,7 @@ When an eVar is set to a value for a visitor, the value is remembered until it e
 
 There are two ways to expire an eVar:
 
-* You can set the eVar to expire after a specified time period or event. 
+* You can set the eVar to expire after a specified time period or event.
 * You can use force the expiration of an eVar, which is useful when repurposing a variable.
 
 If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Doing so will help keep internal promotion values out of June's reports.
@@ -355,7 +343,7 @@ s.eVar23="internal spring promo 4"
 
 **Configuration Settings** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVars can be configured in [!UICONTROL Analytics > Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]. All eVars can be configured with a [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Allocation], [!UICONTROL Expire After Setting], or [!UICONTROL Reset]. Each configuration setting is addressed separately. 
+eVars can be configured in [!UICONTROL Analytics > Admin > Report Suites > Edit Settings > Conversion > Conversion Variables]. All eVars can be configured with a [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Allocation], [!UICONTROL Expire After Setting], or [!UICONTROL Reset]. Each configuration setting is addressed separately.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -390,7 +378,7 @@ eVars can be configured in [!UICONTROL Analytics > Admin > Report Suites > Edit 
 
 **Pitfalls, Questions, and Tips** {#section_DA6912C802E445F986C6DE4234C6C737}
 
-* Unlike [!UICONTROL prop] variables, eVar variables are not allowed to be lists of delimited values. If you populate an eVar with a list of values, for example "one,two,three," then that exact string appears in reports. 
+* Unlike [!UICONTROL prop] variables, eVar variables are not allowed to be lists of delimited values. If you populate an eVar with a list of values, for example "one,two,three," then that exact string appears in reports.
 * eVar counters may not contain negative numbers.
 
 ## Events {#concept_FFD115543D54401B98FE683BD7D5B3FE}
@@ -477,7 +465,7 @@ s.events="event1=10"
 s.events="scRemove=3,event6,event2=4"
 ```
 
-Implementing counter events with assigned integer values treat the event as if it fired multiple times within the image request. Counter events do not allow decimals- it is recommended to use numeric events instead if this functionality is required. 
+Implementing counter events with assigned integer values treat the event as if it fired multiple times within the image request. Counter events do not allow decimals- it is recommended to use numeric events instead if this functionality is required.
 Numeric and currency events must be included in the [!UICONTROL s.events] variable, though they typically receive their numerical value (e.g., 24.99) in the [!UICONTROL s.products] variable. This allows you to tie specific numeric and currency values to individual product entries.
 
 **Event Serialization** {#section_A89488EF4471405AAFC4D6DD05E77621}
@@ -512,7 +500,7 @@ hierN.xml
 
  -->
 
-This variable is most useful for sites that have more than three levels in the site structure. For example, a media site may have 4 levels to the Sports section: Sports, Local Sports, Baseball, and Red Sox. If someone visits the Baseball page, Sports, Local Sports, and Baseball, all levels reflect that visit. 
+This variable is most useful for sites that have more than three levels in the site structure. For example, a media site may have 4 levels to the Sports section: Sports, Local Sports, Baseball, and Red Sox. If someone visits the Baseball page, Sports, Local Sports, and Baseball, all levels reflect that visit.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -554,12 +542,10 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_104E5BD320764BDEA5FA8D13A70C78E3}
 
-* The delimiter may not be changed after the hierarchy is set up. If the delimiter for your hierarchy must be changed, contact Adobe Customer Care. 
+* The delimiter may not be changed after the hierarchy is set up. If the delimiter for your hierarchy must be changed, contact Adobe Customer Care.
 * The number of levels may not be changed after the hierarchy is set up.
 
->[!NOTE]
->
->Changes to hierarchies can result in a service charge.
+> [!NOTE] Changes to hierarchies can result in a service charge.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -573,11 +559,9 @@ homepage.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -595,11 +579,9 @@ javaEnabled.xml
 
 This variable is populated after the page code and before doPlugins is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -617,11 +599,9 @@ javascriptVersion.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -639,7 +619,7 @@ linkName.xml
 
  -->
 
-The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it. 
+The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
 
 <table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
  <thead> 
@@ -686,7 +666,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_170A78452A7340B5B229713AC1FB71FA}
 
-* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function. 
+* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function.
 
 * If the *`linkName`* variable and the third parameter in the *`tl()`* function are blank, the full URL of the link (with the exception of the query string) appears in the report (even if the link is relative).
 
@@ -700,7 +680,7 @@ linkType.xml
 
  -->
 
-The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it. 
+The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it.
 
 <table id="table_3D1A2FC1CECD4709BE2F9E32AC2DC730"> 
  <thead> 
@@ -732,7 +712,7 @@ The *`linkType`* variable syntax depends on whether you use XML or a query strin
 If you are using XML, the variable may only contain a single character, namely 'o,' 'e,' or 'd.'
 
 ```js
-s.tl(this,’o’,’Link Name’);
+s.tl(this,'o','Link Name');
 ```
 
 If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
@@ -767,10 +747,10 @@ list_props.xml
 
 **Considerations**
 
-* List props are enabled only on traffic variables ( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)). 
-* Pathing and correlations cannot be enabled for list props. 
-* Analytics provides visits and unique visitors to almost every report, including all list prop reports. 
-* Classifications are supported for list props. 
+* List props are enabled only on traffic variables ( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)).
+* Pathing and correlations cannot be enabled for list props.
+* Analytics provides visits and unique visitors to almost every report, including all list prop reports.
+* Classifications are supported for list props.
 * Any custom traffic variable can become a list prop. (Exceptions: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D), and [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2).) 
 
 * When defining duplicate values in the same image request, instances are not deduplicated.
@@ -801,7 +781,7 @@ s.prop3="Single value"
 
 The delimiter can be changed at any time. However, the implementation must match the new delimiter. Failure to use the correct delimiter results in the list prop value being treated as a single concatenated line item in reporting.
 
-Because a list prop is still a Traffic Variable, it is subject to Traffic Variable limitations. List props are limited to 100 bytes of data and are affected by case sensitivity settings. 
+Because a list prop is still a Traffic Variable, it is subject to Traffic Variable limitations. List props are limited to 100 bytes of data and are affected by case sensitivity settings.
 
 ## List Variable {#concept_AC42F2D69B674C02A484137CE5B4E687}
 
@@ -815,14 +795,14 @@ listN.xml
 
 **Considerations**
 
-* List Vars remember their specific values by referencing the VisitorID cookie in the visitor's browser. 
-* A limit of 250 maximum values are stored at one time per visitor. If 250 values per visitor are exceeded, the latest 250 values are used. Expiration for these values is based on the configured expiration for the variable. 
-* Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element. 
-* There is no limit to the number of characters within this variable. The only exception to this limitation is within older Internet Explorer browsers, which impose a 2083-character limitation on all URL requests. 
-* A total of three List Vars are available per report suite. 
-* Using List Vars requires H23 code or higher. 
-* List Vars can be classified. 
-* If duplicate values are defined in the same image request, list vars deduplicate all instances of those values. 
+* List Vars remember their specific values by referencing the VisitorID cookie in the visitor's browser.
+* A limit of 250 maximum values are stored at one time per visitor. If 250 values per visitor are exceeded, the latest 250 values are used. Expiration for these values is based on the configured expiration for the variable.
+* Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element.
+* There is no limit to the number of characters within this variable. The only exception to this limitation is within older Internet Explorer browsers, which impose a 2083-character limitation on all URL requests.
+* A total of three List Vars are available per report suite.
+* Using List Vars requires H23 code or higher.
+* List Vars can be classified.
+* If duplicate values are defined in the same image request, list vars deduplicate all instances of those values.
 * The most granular list vars can be segmented is on a hit (or page view) level. If you have a list var with three values in the same image request, any segment rules that match one value will pull all three into reporting. Conversely, if an exclude rule is defined that matches a single value, all three values are excluded.
 
 **Configuration** {#section_8CADFF581D2447518BA3F7F79B2D80A9}
@@ -830,11 +810,11 @@ listN.xml
 You can access the configuration in the Admin Console and update it without Adobe Client Care having to get involved:
 
 1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** 
-1. Select the report suite. 
+1. Select the report suite.
 1. Click  **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]** .
 
-* **Name**: Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element. 
-* **Value Delimiter**: The character used to separate values within the List Var. Most commonly these are characters such as commas, colons, pipes, or something similar. 
+* **Name**: Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element.
+* **Value Delimiter**: The character used to separate values within the List Var. Most commonly these are characters such as commas, colons, pipes, or something similar.
 
   >[!NOTE]
   >
@@ -842,15 +822,15 @@ You can access the configuration in the Admin Console and update it without Adob
 
 * **Expiration**: Similar to eVar expiration, this determines the amount of time that can occur between the List Var and the conversion event for them to be related.
 
-    * **At a page view or visit level**: Success events beyond the page view or visit would not link back to any values within the List Var. 
-    * **Based on a time period, such as day, week, month, etc**: Success events beyond the specified time period would not link back to any values within the List Var. A custom number of days can be defined as well. 
-    * **Specific conversion events**: Any other success events that fire after the specific event designated would not link back to any values within the List Var. 
+    * **At a page view or visit level**: Success events beyond the page view or visit would not link back to any values within the List Var.
+    * **Based on a time period, such as day, week, month, etc**: Success events beyond the specified time period would not link back to any values within the List Var. A custom number of days can be defined as well.
+    * **Specific conversion events**: Any other success events that fire after the specific event designated would not link back to any values within the List Var.
     * **Never**: Any amount of time can pass between the List Var and success event.
 
 * **Allocation**: This setting determines how success events divide credit between values:
 
-    * **Full**: All variable values defined prior to the variable's expiration get full credit for success events. 
-    * **Linear**: All variable values defined prior to the variable's expiration get credit divided credit for conversion events. 
+    * **Full**: All variable values defined prior to the variable's expiration get full credit for success events.
+    * **Linear**: All variable values defined prior to the variable's expiration get credit divided credit for conversion events.
     * Variable values are never overwritten, but instead added to the values that get credit for success events.
 
 * **Max Values**: Designates the number of active values allowed for this list variable. For example, if set to 3, only the last 3 values captured is saved and any previous values captured are discarded. Note that if multiple values for the same list var are sent in on the same hit and you have restricted using max values, each value will have the same timestamp and there is not guarantee as to which value is saved.
@@ -908,18 +888,18 @@ This result would show three line items with $50 each in revenue. (Top Banner Ad
  <tbody> 
   <tr> 
    <td colname="col1"> Page 1 </td> 
-   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
+   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
    <td colname="col3"> (not set) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Page 2 </td> 
-   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
-   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
+   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
+   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Result**: All values set in the list var1 at any point during the visit (value1,value2,value3,value4,value5,value6) get full credit for the purchase. 
+**Result**: All values set in the list var1 at any point during the visit (value1,value2,value3,value4,value5,value6) get full credit for the purchase.
 
 ## maxDelay {#concept_B355038C3B094BB68C0DC6C80F9FE5B0}
 
@@ -939,21 +919,19 @@ s.maxDelay="750";
 
 **Properties**
 
-* This variable is an optional event metric populated via the JavaScript implemented on your site. 
-* If the DFA host does not respond within the given amount of time, the event designated to Timeout runs (assigned via the Genesis integration wizard). 
-* This variable can only contain a numeric value. 
-* The amount of time specified is measured in milliseconds. 
+* This variable is an optional event metric populated via the JavaScript implemented on your site.
+* If the DFA host does not respond within the given amount of time, the event designated to Timeout runs (assigned via the Genesis integration wizard).
+* This variable can only contain a numeric value.
+* The amount of time specified is measured in milliseconds.
 * Increasing the wait time collects more DFA data, but also increases the risk of losing Analytics hit data.
 
-  Losing Analytics hit data would occur when the user navigates away from the page during the *`s.maxDelay`* period. 
+  Losing Analytics hit data would occur when the user navigates away from the page during the *`s.maxDelay`* period.
 
 * Decreasing the wait time will lower the risk of losing Analytics hit data, but can reduce the amount of DFA data sent with hit data.
 
   Losing DFA integration data would occur when the *`s.maxDelay`* period does not accommodate enough time for the DFA host to respond.
 
->[!NOTE]
->
->Adobe does not have control over DFA's response time. If you are seeing consistent issues even after raising the max delay period to a reasonable time frame, consult your organization's DFA account administrator.
+> [!NOTE] Adobe does not have control over DFA's response time. If you are seeing consistent issues even after raising the max delay period to a reasonable time frame, consult your organization's DFA account administrator.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -1021,7 +999,7 @@ Possible pev3 values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media P
 
 **Pitfalls, Questions, and Tips** {#section_1CEDC78FEF4940E9BC02A2AF1EE2FB01}
 
-* You must call the media tracking methods only if the player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
+* You must call the media tracking methods only if the player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true.
 * If not tracking using [!UICONTROL autoTrack], be sure to set the length in seconds.
 
 ## mediaName {#concept_A4CB1782DE244C23BA6CBB5E806DDE6A}
@@ -1034,7 +1012,7 @@ mediaName.xml
 
  -->
 
-It is only available via the [!UICONTROL Data Insertion API] and [!UICONTROL Full Processing Data Source]. 
+It is only available via the [!UICONTROL Data Insertion API] and [!UICONTROL Full Processing Data Source].
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1118,7 +1096,7 @@ Possible pev3 Values:
 
 **Pitfalls, Questions, and Tips** {#section_941A445BB52E4063B0F6920E61BB90DE}
 
-* You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
+* You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true.
 * This variable is stored as a mySQL TEXT variable as opposed to VARCHAR(100).
 
 ## mediaPlayer {#concept_1932756C093B4B2FBA0484E5A58EF927}
@@ -1171,7 +1149,7 @@ Possible pev3 Values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media P
 
 **Pitfalls, Questions, and Tips** {#section_0020E031338F4A4880B9AC5B9A85BEF5}
 
-You must call the media tracking methods only if player cannot be tracked using s.Media.autoTrack = true. 
+You must call the media tracking methods only if player cannot be tracked using s.Media.autoTrack = true.
 
 ## mediaSession {#concept_19E6C850C3244CB6973140709BDCB0B9}
 
@@ -1265,7 +1243,7 @@ Possible pev3 Values: pev3=de_bofr_1045Making_400k--**--414--**--Windows Media P
 
 **Pitfalls, Questions, and Tips** {#section_1BCEB037AB724B6EBE87420BD3604B88}
 
-You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true. 
+You must call the media tracking methods only if player cannot be tracked using [!UICONTROL s.Media.autoTrack] = true.
 
 ## Media.trackEvents {#concept_B1C5FF6C437949EBA5D52040AC6BB6D9}
 
@@ -1277,7 +1255,7 @@ media_trackEvents.xml
 
  -->
 
-It is only applicable with JavaScript and [!UICONTROL ActionSource]. 
+It is only applicable with JavaScript and [!UICONTROL ActionSource].
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1290,12 +1268,12 @@ Event names such as event1 or purchase.
 **Examples** {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
-s.Media.trackEvents=”event1,purchase”
+s.Media.trackEvents="event1,purchase"
 ```
 
 **Pitfalls, Questions, and Tips** {#section_030B11C64EE84D46A85CA550DB732D28}
 
-Make sure to populate [!UICONTROL trackVars] with "events" whenever this variable is populated. 
+Make sure to populate [!UICONTROL trackVars] with "events" whenever this variable is populated.
 
 ## Media.trackVars {#concept_4350CA9A892148AE93C8133AB3B4BEA4}
 
@@ -1307,7 +1285,7 @@ media_trackVars.xml
 
  -->
 
-It is only applicable with JavaScript and [!UICONTROL ActionSource]. 
+It is only applicable with JavaScript and [!UICONTROL ActionSource].
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1320,7 +1298,7 @@ Variable names such as [!UICONTROL propN], *`eVarN`*, *`events`*, *`channel`*, a
 **Examples** {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
-s.Media.trackVars=”prop2,events,eVar3”
+s.Media.trackVars="prop2,events,eVar3"
 ```
 
 **Pitfalls, Questions, and Tips** {#section_615AE1B696124B00B78F651B03813EAB}
@@ -1337,7 +1315,7 @@ mobile.xml
 
  -->
 
-See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC). 
+See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1353,7 +1331,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 **Pitfalls, Questions, and Tips** {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
-Use cross-visitor identification to mitigate possible spikes in visitor traffic when using the *`s.mobile`* variable with the JavaScript cookie implementation. 
+Use cross-visitor identification to mitigate possible spikes in visitor traffic when using the *`s.mobile`* variable with the JavaScript cookie implementation.
 
 ## pageName {#concept_5827B499DAC34B5D8445F9D9140CC328}
 
@@ -1417,7 +1395,7 @@ Administrators have the ability to change the visible page name in Analytics wit
 
 **Pitfalls, Questions, and Tips** {#section_BB41DC9682C34385B9CAA80D5257C113}
 
-Make sure the *`pageName`* doesn't contain illegal characters. 
+Make sure the *`pageName`* doesn't contain illegal characters.
 
 ## pageType {#concept_F67870238EF74491B5D3909A33CDB985}
 
@@ -1474,7 +1452,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server. 
+To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server.
 
 ## pageURL {#concept_A15F710CD0174297A2286BF3E7452113}
 
@@ -1486,7 +1464,7 @@ pageURL.xml
 
  -->
 
-In rare cases, the URL of the page is not the URL that you would like reported in Analytics. 
+In rare cases, the URL of the page is not the URL that you would like reported in Analytics.
 
 <table id="table_D4DC6B476FFD4BEEB36A5C6B2D026255"> 
  <thead> 
@@ -1507,9 +1485,7 @@ In rare cases, the URL of the page is not the URL that you would like reported i
  </tbody> 
 </table>
 
->[!NOTE]
->
->Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
+> [!NOTE] Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
 
 **Syntax and Possible Values** {#section_22AF3BF7C2F743549967B0C760A095C0}
 
@@ -1521,9 +1497,7 @@ s.pageURL="proto://domain/path?query_string"
 
 Only URL-compatible characters are allowed as the page URL.
 
->[!NOTE]
->
->It is strongly advised that you contact your Adobe consultant or Customer Care before using the *`pageURL`* variable for custom purposes.
+> [!NOTE] It is strongly advised that you contact your Adobe consultant or Customer Care before using the *`pageURL`* variable for custom purposes.
 
 **Examples** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1552,11 +1526,9 @@ plugins.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -1576,15 +1548,15 @@ products.xml
 >
 >In January of 2016, we updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. This update may cause an increase in *`prodView`* events. *`prodViews`* will increase only when: 
 >
->1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events. 
+>1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events.
 >
->1. The *`products`* variable is not empty. 
+>1. The *`products`* variable is not empty.
 >
 >A possible side effect is that merchandising eVars triggered by *`prodView`* events could be associated with an empty *`product`*, but only if the *`product list`* contains only an invalid product (such as a semicolon with no product listed).
 
 The *`products`* variable tracks how users interact with products on your site. For instance, the products variable can track how many times a product is viewed, added to the shopping cart, checked out, and purchased. It can also track the relative effectiveness of merchandising categories on your site. The scenarios below are common for using the products variable.
 
-The *`products`* variable should always be set in conjunction with a success event. 
+The *`products`* variable should always be set in conjunction with a success event.
 
 <table id="table_D5A11AFDDD364D0993D387906343DDF3"> 
  <thead> 
@@ -1655,16 +1627,14 @@ s.purchaseID="1234567890"
 
 On currency event reports, the report total represents the de-duplicated event total (in this example, the total amount of discounts during the reporting period), not the sum of the event values for each product. For example, you would see "9.95" listed for both "Running Shoes" and "Running Socks", and the total would also be "9.95".
 
->[!NOTE]
->
->if a value for the same Numeric/Currency Event is specified in the *`products`* variable and in the *`events`* variable, the value from the *`events`* is used.
+> [!NOTE] if a value for the same Numeric/Currency Event is specified in the *`products`* variable and in the *`events`* variable, the value from the *`events`* is used.
 
 **Pitfalls, Questions, and Tips** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
-* The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). If no [!UICONTROL success] event is specified, the default event is [!UICONTROL prodView]. 
+* The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). If no [!UICONTROL success] event is specified, the default event is [!UICONTROL prodView].
 
-* Strip all commas and semicolons from product and category names before populating products. 
-* Strip all HTML characters (registered symbols, trademarks, and so forth). 
+* Strip all commas and semicolons from product and category names before populating products.
+* Strip all HTML characters (registered symbols, trademarks, and so forth).
 * Strip currency symbols ($) from the price.
 
 **Examples** {#section_FCC6EF43D3534ECB9A95CDB05820F564}
@@ -1672,43 +1642,43 @@ On currency event reports, the report total represents the de-duplicated event t
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
+   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
+   <td colname="col1"> <code> s.products="Category3;ABC123;1;10" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1723,7 +1693,7 @@ propN.xml
 
  -->
 
-The props variable may be used as counters (to count the number of times a page view is sent), for pathing reports, or in correlation reports. 
+The props variable may be used as counters (to count the number of times a page view is sent), for pathing reports, or in correlation reports.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1750,7 +1720,7 @@ s.prop15="toy category"
 
 **Configuration Settings** {#section_25FDEB6ECA8242A2A44EE540C083078A}
 
-Contact Adobe Customer Care about showing [!UICONTROL Visit], [!UICONTROL Visitor], and [!UICONTROL Path] metrics for [!UICONTROL prop] variables. 
+Contact Adobe Customer Care about showing [!UICONTROL Visit], [!UICONTROL Visitor], and [!UICONTROL Path] metrics for [!UICONTROL prop] variables.
 
 ## purchaseID {#concept_21937434E63F413CB469007623B933AE}
 
@@ -1762,7 +1732,7 @@ purchaseID.xml
 
  -->
 
-Whenever the [!UICONTROL purchase] event is used on your site, you should use the *`purchaseID`* variable. 
+Whenever the [!UICONTROL purchase] event is used on your site, you should use the *`purchaseID`* variable.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1793,7 +1763,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
-The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports. 
+The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports.
 
 ## referrer {#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B}
 
@@ -1805,7 +1775,7 @@ referrer.xml
 
  -->
 
-Server-side and JavaScript redirects are often used to route visitors to proper locations. However, when a browser is redirected, the original referring URL is lost. 
+Server-side and JavaScript redirects are often used to route visitors to proper locations. However, when a browser is redirected, the original referring URL is lost.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1839,7 +1809,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_B42BF7FBA1094FF9805707FEA810CFE1}
 
-The *`referrer`* must look like a standard URL and include a protocol. 
+The *`referrer`* must look like a standard URL and include a protocol.
 
 ## resolution {#concept_8CBDDBE710744A3AA09E6B1E1519BF30}
 
@@ -1853,11 +1823,9 @@ resolution.xml
 
 This variable is populated after the page code and before *`doPlugins`* is run.
 
->[!NOTE]
->
->This variable should only be read and never set.
+> [!NOTE] This variable should only be read and never set.
 
-You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file. 
+You may read these values and copy them into props/eVars, but you should never alter them. This variable is introduced with version H.11 of the JavaScript file.
 
 |  Query Param  | Value  | Example  | Reports Affected  |
 |---|---|---|---|
@@ -1875,9 +1843,7 @@ s_objectID.xml
 
 By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
 
->[!NOTE]
->
->A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+> [!NOTE] A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1885,8 +1851,8 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 There are three common reasons to use *`s_objectID`*:
 
-* To aggregate visitor activity that changes often during a day. 
-* To separate link activity that [!UICONTROL Activity Map] combines. 
+* To aggregate visitor activity that changes often during a day.
+* To separate link activity that [!UICONTROL Activity Map] combines.
 * To improve the accuracy of [!UICONTROL Activity Map] data reporting.
 
 **Aggregate Clicks on Highly Dynamic Links** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
@@ -1983,7 +1949,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_42A28F9B01574F38891D9D54B411D8FE}
 
-The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages. 
+The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages.
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
@@ -1995,7 +1961,7 @@ state.xml
 
  -->
 
-They are like eVars in that they capture events, but unlike eVars, they don't persist. The *`zip`* and *`state`* variables are like eVars that expire immediately. 
+They are like eVars in that they capture events, but unlike eVars, they don't persist. The *`zip`* and *`state`* variables are like eVars that expire immediately.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -2028,7 +1994,7 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
-* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process). 
+* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process).
 * The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
 
 ## timestamp {#concept_D997A2FF4D134C80A614C0BC7A4D7507}
@@ -2055,9 +2021,9 @@ The *`timestamp`* variable must be in the format explained in the next section.
 
 >[!IMPORTANT]
 >
->Your report suite must be timestamp-enabled by Customer Care before you can use the *`timestamp`* variable. After timestamp support is enabled, all hits sent to this report suite from JavaScript must have a timestamp manually set (using *`s.timestamp`*) or the hits will not be recorded. 
+>Your report suite must be timestamp-enabled by Customer Care before you can use the *`timestamp`* variable. After timestamp support is enabled, all hits sent to this report suite from JavaScript must have a timestamp manually set (using *`s.timestamp`*) or the hits will not be recorded.
 >
->Additionally, if you enable timestamp support on a report suite to support offline tracking, all hits sent to this report suite from JavaScript must also have a timestamp manually set (using *`s.timestamp`*). You cannot send both time-stamped and non-time-stamped hits to the same report suite. 
+>Additionally, if you enable timestamp support on a report suite to support offline tracking, all hits sent to this report suite from JavaScript must also have a timestamp manually set (using *`s.timestamp`*). You cannot send both time-stamped and non-time-stamped hits to the same report suite.
 >
 >You can also use the [Timestamps Optional](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)setting to mix timestamped and non-timestamped data in the same global report suite, send timestamped data from a mobile app to a global report suite, and upgrade apps to employ timestamps without having to create a new report suite.
 
@@ -2066,8 +2032,8 @@ The *`timestamp`* variable must be in the format explained in the next section.
 Timestamps must be in UNIX (seconds since Jan 1st 1970) or ISO-8601 format, with the following restrictions on the accepted ISO-8601 format:
 
 * Both date and time must be provided, separated by "T" 
-* The date must be a calendar date with full precision (year, month, and day). . Week dates and ordinal dates are not supported. 
-* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Seconds are optional ( `HH:MM`, `HH:MM:SS`, `HHMM`, or `HHMMSS`). Fractional minutes and seconds can be passed in, but the fractional part is ignored. 
+* The date must be a calendar date with full precision (year, month, and day). . Week dates and ordinal dates are not supported.
+* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Seconds are optional ( `HH:MM`, `HH:MM:SS`, `HHMM`, or `HHMMSS`). Fractional minutes and seconds can be passed in, but the fractional part is ignored.
 
 * An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
 
@@ -2098,11 +2064,11 @@ A report suite must be enabled to accept custom timestamps by Customer Care befo
 
 **Pitfalls, Questions, and Tips** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
-* Timestamps are primarily used to track offline data on mobile platforms. Custom timestamps are typically disabled unless you are collecting both web and offline app data in the same report suite. 
+* Timestamps are primarily used to track offline data on mobile platforms. Custom timestamps are typically disabled unless you are collecting both web and offline app data in the same report suite.
 * Data is timestamped when offline data is enabled in the mobile SDK (default setting) or anytime a report suite is configured to accept time-stamped data. Data collected offline on mobile devices may be sent hours or weeks after the date when it happened. These hits may be queued within the Analytics platform for minutes or hours longer than hits without timestamps:
 
-    * For time-stamped data sent in very near current time, the probable delay is 10-15 minutes. 
-    * For time-stamped data sent in from yesterday, the probable delay is about 2 hours. 
+    * For time-stamped data sent in very near current time, the probable delay is 10-15 minutes.
+    * For time-stamped data sent in from yesterday, the probable delay is about 2 hours.
     * For time-stamped data sent in that is older than yesterday, every day adds about 1 hour of delay, up to 15 days ago, when the delay stops going up.
 
 * Timestamp-enabled session data is kept for up to 92 days.
@@ -2117,13 +2083,13 @@ trackingServer.xml
 
  -->
 
-Used for non-secure pages. If *`trackingServer`* is defined, nothing goes to 2o7.net. If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net. 
+Used for non-secure pages. If *`trackingServer`* is defined, nothing goes to 2o7.net. If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
 |  N/A  | N/A  | N/A  | ""  |
 
-A list of Adobe data centers can be found [here](https://helpx.adobe.com/analytics/kb/determining-data-center.html). 
+A list of Adobe data centers can be found [here](https://helpx.adobe.com/analytics/kb/determining-data-center.html).
 
 ## trackingServerSecure {#concept_28132A2606E34A2F87BEC9E7ACADC7DD}
 
@@ -2135,7 +2101,7 @@ trackingServerSecure.xml
 
  -->
 
-Used for secure pages. If *`trackingServerSecure`* is not defined, SSL data goes to *`trackingServer`*. 
+Used for secure pages. If *`trackingServerSecure`* is not defined, SSL data goes to *`trackingServer`*.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -2151,7 +2117,7 @@ transactionID.xml
 
  -->
 
-Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. See [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). 
+Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. See [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -2195,15 +2161,13 @@ s.transactionID=s.purchaseID
 
 **Pitfalls, Questions, and Tips** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* If *`transactionID`* recording is not enabled, *`transactionID`* values will be discarded and unavailable for use with [!UICONTROL Integration Data Sources]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*. 
+* If *`transactionID`* recording is not enabled, *`transactionID`* values will be discarded and unavailable for use with [!UICONTROL Integration Data Sources]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
 
-* If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. This can be accomplished by adding a prefix to the ID, such as lead_1234 and purchase_1234. [!UICONTROL Integration Data Sources] do not function as expected ( [!UICONTROL Data Source] data will tie to the wrong data) if a unique *`transactionID`* is seen twice. 
+* If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. This can be accomplished by adding a prefix to the ID, such as lead_1234 and purchase_1234. [!UICONTROL Integration Data Sources] do not function as expected ( [!UICONTROL Data Source] data will tie to the wrong data) if a unique *`transactionID`* is seen twice.
 
 * By default, *`transactionID`* values are remembered for 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have the limit extended.
 
->[!NOTE]
->
->The *`transactionID`* variable can contain any character other than a comma. It should be in the same location where the character limit (100 bytes) is specified. If multi-byte characters are used, multi-byte character support must be enabled in order to avoid problems with unexpected characters in the *`transactionID`*.
+> [!NOTE] The *`transactionID`* variable can contain any character other than a comma. It should be in the same location where the character limit (100 bytes) is specified. If multi-byte characters are used, multi-byte character support must be enabled in order to avoid problems with unexpected characters in the *`transactionID`*.
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2219,7 +2183,7 @@ The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain
 
 If you explicitly set a custom ID, it will always be used before the other ID methods.
 
-This is the order of use: s.visitorID > s_vi > s_fid > IP/UA. 
+This is the order of use: s.visitorID > s_vi > s_fid > IP/UA.
 
 |  ** Max Size** | ** Debugger Parameter** | ** Reports Populated** | ** Default Value** |
 |---|---|---|---|
@@ -2231,9 +2195,7 @@ This is the order of use: s.visitorID > s_vi > s_fid > IP/UA.
 s.visitorID="visitor_id"
 ```
 
->[!NOTE]
->
->The *`visitorID`* variable should not contain a hyphen.
+> [!NOTE] The *`visitorID`* variable should not contain a hyphen.
 
 **Examples** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
@@ -2255,7 +2217,7 @@ visitorNamespace.xml
 
  -->
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. Visitor history becomes disconnected from current and future traffic. Do not alter this variable without approval from an Adobe representative. 
+If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. Visitor history becomes disconnected from current and future traffic. Do not alter this variable without approval from an Adobe representative.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -2301,7 +2263,7 @@ zip.xml
 
  -->
 
-They are like eVars in that they capture events, but unlike eVars, they don't persist. The *`zip`* and *`state`* variables are like eVars that expire immediately. 
+They are like eVars in that they capture events, but unlike eVars, they don't persist. The *`zip`* and *`state`* variables are like eVars that expire immediately.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -2333,6 +2295,6 @@ None
 
 **Pitfalls, Questions, and Tips** {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
-* Populate [!UICONTROL zip] on every page in which a relevant event is fired (such as each page of the checkout process). 
+* Populate [!UICONTROL zip] on every page in which a relevant event is fired (such as each page of the checkout process).
 * The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
 

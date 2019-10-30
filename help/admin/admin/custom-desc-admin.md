@@ -14,13 +14,11 @@ You can provide custom report descriptions for eVars, props, classifications and
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variable*]**
 
->[!NOTE]
->
->Adding descriptions is available for most traditional classifications, but not currently for mobile classifications.
+> [!NOTE] Adding descriptions is available for most traditional classifications, but not currently for mobile classifications.
 
 ![](assets/report_descriptions.png)
 
-1. Provide a description for the report. The maximum number of characters is 255. 
+1. Provide a description for the report. The maximum number of characters is 255.
 1. Click **[!UICONTROL Save]**.
 
 The description is visible in two places:

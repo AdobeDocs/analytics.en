@@ -21,9 +21,7 @@ Examples of anomalies you might investigate include:
 * Spices in video buffer events 
 * Spikes in low video bit-rates
 
->[!NOTE]
->
->Anomaly detection is available only when you select the Day granularity.
+> [!NOTE] Anomaly detection is available only when you select the Day granularity.
 
 <p class="head"> <b>Anomaly Detection Metrics</b> </p>
 
@@ -72,7 +70,7 @@ These algorithms can be extended to provide predictive forecasts of metrics in f
 
 Because the training period varies based on the start of the reporting period, you might see differences in the data reported for the same date as part of two different time periods.
 
-For example, if you run a report for January 1-14, and then run a report for January 7-21, you might see different prediction data for the same metric between January 7-14 in the two different reports. This is a result of the difference in training periods. 
+For example, if you run a report for January 1-14, and then run a report for January 7-21, you might see different prediction data for the same metric between January 7-14 in the two different reports. This is a result of the difference in training periods.
 
 | Reporting Range  | Training Period  |
 |--- |--- |

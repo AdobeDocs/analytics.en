@@ -46,4 +46,4 @@ There are a few ways to view associated visitor data that might not be available
 
 As a result, you can build a segment of visitors who perform some offline event that was uploaded using transaction ID data sources. That will return everything the visitor did before and after the transaction ID event.
 
-Likewise, visitor participation allows you to see how transaction ID props and eVars preceded an online event, or how online props and eVars preceded a transaction ID event. 
+Likewise, visitor participation allows you to see how transaction ID props and eVars preceded an online event, or how online props and eVars preceded a transaction ID event.

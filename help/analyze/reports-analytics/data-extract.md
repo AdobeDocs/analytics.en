@@ -25,7 +25,7 @@ t_data_extract.xml
 
 For example, you could place products along the left side of the report, dates across the top, and a metric as the overall data filter. The Data Extracts are delivered reports, and are only available in CSV format.
 
-Data Extracts can process a maximum number of 50,000 rows in a single request. 
+Data Extracts can process a maximum number of 50,000 rows in a single request.
 
 ## Extract data from a report {#task_D97E2DA5A99D47C09F738CAF22BAF20C}
 

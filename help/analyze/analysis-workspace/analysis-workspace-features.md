@@ -19,9 +19,7 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -49,14 +47,14 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. To add intra-linking to your project:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. To add intra-linking to your project:
 
-1. Drag a text visualization into a project, maybe next to a visualization or table that needs some context. 
+1. Drag a text visualization into a project, maybe next to a visualization or table that needs some context.
 1. Populate the text box with, for example, a table of content, then highlight an item that you want to link to a panel or visualization, for example Success Metrics.
 
    ![](assets/intra-linking1.png)
 
-1. Scroll to that panel or visualization and right-click the panel's header. 
+1. Scroll to that panel or visualization and right-click the panel's header.
 1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
 
    ![](assets/intra-linking2.png)
@@ -65,9 +63,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 If you have panels or visualizations collapsed within your project, clicking a link will expand the panel/visualization so that users can see it.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -125,7 +121,7 @@ You can apply tags to projects and components in Analysis Workspace:
 
 * Apply or create project-level tags in the Information panel. (  ![](assets/information_icon.png)
 
-* Right-click components to tag (or create tags) from the Components panel. 
+* Right-click components to tag (or create tags) from the Components panel.
 * Use # in the Search field to locate tags.
 
 ## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
@@ -160,7 +156,7 @@ There is no technical limit on the number of freeform tables and visualizations 
 
 **Column arranging, sorting, and copying**
 
-* Sort date range presets (does not include custom date ranges). 
+* Sort date range presets (does not include custom date ranges).
 * CTRL (or Command) + click + drag a column copies the column, and when you drag the copy, it is pasted into the new position in the table.
 
 See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
@@ -187,4 +183,4 @@ A default segment unique to Analysis Workspace. *`All Visits`* displays totals f
 
 Use calculations in the same way you use standard metrics.
 
-See [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/). 
+See [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).

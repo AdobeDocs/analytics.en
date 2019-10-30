@@ -8,9 +8,9 @@ title: Dynamic variables
 
 # s.trackInlineStats
 
-The  variable determines whether ClickMap data is gathered. 
+The  variable determines whether ClickMap data is gathered.
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null. 
+If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|

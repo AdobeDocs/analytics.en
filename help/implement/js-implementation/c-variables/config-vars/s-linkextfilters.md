@@ -16,9 +16,7 @@ If your site contains many links to external sites, and you do not want to track
 
 The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. An exit link is defined as any link that takes a visitor away from your site. Whether the target window of an exit link is a popup or the existing window, it does not affect whether the link appears in the exit links report. Exit links are tracked only if *`trackExternalLinks`* is set to 'true.' The filters in *`linkExternalFilters`* and *`linkInternalFilters`* are case insensitive.
 
->[!NOTE]
->
->If you don't want to use *`linkExternalFilters`*, delete it or set it to "".
+> [!NOTE] If you don't want to use *`linkExternalFilters`*, delete it or set it to "".
 
 The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to 'true,' the filters apply to the entire URL (domain, path, and query string). These filters are always applied to the absolute path of the URL, even if a relative path is used as the href value.
 
@@ -31,7 +29,7 @@ s.trackExternalLinks=true
 s.linkInternalFilters="javascript:,mysite.com" 
 s.linkExternalFilters="site1.com,site2.com,site3.com/partners" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Not an Exit Link</a> 
@@ -66,8 +64,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links. 
+* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links.
 
-* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`. 
+* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`.
 
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.

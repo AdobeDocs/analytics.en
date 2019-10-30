@@ -15,5 +15,5 @@ In the Custom Layout, you can turn a metric column into a bar chart with a corre
 1. Create a request in Excel using the [Custom Layout](../../../analyze/report-builder/layout/configure-the-custom-layout.md#concept_F711B12D6BE74F4880E5F596C2848183).
 1. Right click the metric value column.
 1. Select **[!UICONTROL Change Output Display]**, then the type of microchart and percent display you would like to see.
->The system changes the display in the column to match your selection. 
+>The system changes the display in the column to match your selection.
 

@@ -14,7 +14,5 @@ The size of each data point provides a visual cue about the average number of ti
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
+> [!NOTE] A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
 

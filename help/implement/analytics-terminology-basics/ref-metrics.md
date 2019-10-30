@@ -13,7 +13,7 @@ uuid: d2addb55-cae6-470d-b482-303ef365809c
 
 Metrics are quantitative information about visitor activity, such as Views, Click-Throughs, Reloads, Average Time spent, Units, Orders, and Revenue.
 
-Metrics are the foundation of reports and help you view and understand data relationships. They let you perform side-by-side comparisons of different data sets about your website. 
+Metrics are the foundation of reports and help you view and understand data relationships. They let you perform side-by-side comparisons of different data sets about your website.
 
 <table id="table_2FA18126829241DE897CFCE9BAE9F4AD"> 
  <thead> 
@@ -25,7 +25,7 @@ Metrics are the foundation of reports and help you view and understand data rela
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Traffic metrics </p> </td> 
-   <td colname="col2"> <p> <b>Page View:</b> One Web page load in a user’s browser (one execution of the Reports &amp; Analytics code). </p> <p> <b>Visit:</b> Any number of page views when visitor comes to your site. A visit ends after 30 minutes of inactivity. </p> <p> <b>Unique Visitor:</b> A person visiting your site for the first time during a given time frame, such as Hour, Day, Week, Month, Quarter or year. (This also includes Unique Visitors for any time frame.) </p> </td> 
+   <td colname="col2"> <p> <b>Page View:</b> One Web page load in a user's browser (one execution of the Reports &amp; Analytics code). </p> <p> <b>Visit:</b> Any number of page views when visitor comes to your site. A visit ends after 30 minutes of inactivity. </p> <p> <b>Unique Visitor:</b> A person visiting your site for the first time during a given time frame, such as Hour, Day, Week, Month, Quarter or year. (This also includes Unique Visitors for any time frame.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conversion metrics </p> </td> 
@@ -46,4 +46,4 @@ Metrics are the foundation of reports and help you view and understand data rela
  </tbody> 
 </table>
 
-See [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in Analytics Help and Reference for metric definitions. 
+See [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in Analytics Help and Reference for metric definitions.

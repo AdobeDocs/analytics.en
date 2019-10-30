@@ -15,13 +15,13 @@ Steps that describe how to upload data files via FTP.
 
 ## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
 
-Steps that describe how to upload data files via FTP. 
+Steps that describe how to upload data files via FTP.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 The following recommended limits are important:
 
-* Lots of small files will result in slower processing than a few large files. This is due to the amount of queueing and prioritizing required for the smaller jobs. 
+* Lots of small files will result in slower processing than a few large files. This is due to the amount of queueing and prioritizing required for the smaller jobs.
 * Please break large files into 50 MB chunks. This is not required, but is recommended because it gives better visibility into progress on the back end. Also, if errors occur while we are process your job, the job will be restarted; large files result in large amounts of work redone in this scenario.
 
 The initial setup populates the classifications database with a large set of original data, or restructures the classifications, rather than reclassifying a few rows or adding rows.
@@ -32,11 +32,9 @@ Each new key value you upload counts against your uniques for that variable for 
 
 If you have exceeded your uniques for the month, you will not see the corresponding classifications data for the uniques exceeded values in reporting. You can see those classifications in either data warehouse or ad hoc analysis.
 
->[!NOTE]
->
->The time required to process a classification data file varies on the size of the file and the current number of files already being processed by Adobe’s servers. Processing of data files usually takes no longer than 72 hours.
+> [!NOTE] The time required to process a classification data file varies on the size of the file and the current number of files already being processed by Adobe's servers. Processing of data files usually takes no longer than 72 hours.
 
-Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF). 
+Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Import classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -46,9 +44,9 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  -->
 
-Steps that describe how to use an FTP account to import classifications into Adobe Analytics. 
+Steps that describe how to use an FTP account to import classifications into Adobe Analytics.
 
-For more information about creating an FTP account, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF). 
+For more information about creating an FTP account, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
@@ -59,7 +57,7 @@ For more information about creating an FTP account, see [Create an FTP account](
 
    The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
 
-At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration. 
+At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration.
 
 ## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
 
@@ -71,7 +69,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-See [FTP and sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) for additional details on Adobe FTP servers. 
+See [FTP and sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) for additional details on Adobe FTP servers.
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
@@ -90,4 +88,4 @@ See [FTP and sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/
 
 1. Click **[!UICONTROL Save]**.
 
-Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account. 
+Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account.

@@ -18,12 +18,12 @@ uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 
 The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
 
-* Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A). 
-* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)). 
+* Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
 
-* The library and page code can be deployed inside the `<head>` tag. 
-* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. The Survey module is not supported. 
-* Your existing page code is compatible with the new version. 
+* The library and page code can be deployed inside the `<head>` tag.
+* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. The Survey module is not supported.
+* Your existing page code is compatible with the new version.
 * The library provides native utilities to get query parameters, read and write cookies, and perform advanced link tracking.
 
 ## Frequently Asked Questions {#section_9BD41B08F7B54197B230937714B9357A}
@@ -80,8 +80,8 @@ s.clearVars()
 
 ## Benefits {#section_091E5A28E89E438E8A54A95F55165743}
 
-* 3-7x faster than H.25 code. 
-* Only 21k uncompressed and 8k gzipped (H.25 code is 33k uncompressed and 13k gzipped). 
-* Native support for several common plugins (). 
+* 3-7x faster than H.25 code.
+* Only 21k uncompressed and 8k gzipped (H.25 code is 33k uncompressed and 13k gzipped).
+* Native support for several common plugins ().
 * Small and fast enough to be used with mobile sites, and robust enough to be used on the full desktop web, allowing you to leverage a single library across all web environments.
 

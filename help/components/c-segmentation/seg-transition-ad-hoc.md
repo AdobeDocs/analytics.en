@@ -15,8 +15,8 @@ If you are used to working with the Segment Builder in Ad Hoc Analysis, this FAQ
 
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* Segments are universal to all report suites. Previously, segments were report-suite specific. 
-* Ad Hoc Analysis includes updates to the Segment Builder and a complete update of the Segment Manager. 
+* Segments are universal to all report suites. Previously, segments were report-suite specific.
+* Ad Hoc Analysis includes updates to the Segment Builder and a complete update of the Segment Manager.
 * You can now tag segments to organize and search later instead of using folders. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
 
 ## What happened to my existing segments? {#section_76CF47142D1A4FB6A0718AD9073049FE}
@@ -66,9 +66,9 @@ Now that segments work in multiple report suites, you might find that you have m
 
 ## How does Adobe recommend that I clean up segments? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
-* Tag all segments with legacy tag. 
-* Review the segments that you have. 
-* Add them to the segment library where applicable. 
+* Tag all segments with legacy tag.
+* Review the segments that you have.
+* Add them to the segment library where applicable.
 * Approve segments that are canonical.
 
 ## Why can't I delete this segment? {#section_0FEB6711031A4ABCA915CDA745ECF38D}

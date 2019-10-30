@@ -18,7 +18,5 @@ If the entire contents of the page are inside one big table, the browser must co
 
 Placing the call to the JavaScript library file outside table tags ensures that the call to the Analytics servers does not impact the displaying of the page content.
 
->[!NOTE]
->
->The file should be placed in a legal position for images and must appear between the opening <body> tag and the closing </body> tag.
+> [!NOTE] The file should be placed in a legal position for images and must appear between the opening <body> tag and the closing </body> tag.
 

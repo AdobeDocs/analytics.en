@@ -19,4 +19,4 @@ Abbreviations for starting and ending dates.
 * cd-2d = two days ago 
 * cw-2w = first day the week, two weeks ago
 
-Note that setting the date to a future date does not return values for future dates. 
+Note that setting the date to a future date does not return values for future dates.

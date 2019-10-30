@@ -13,8 +13,8 @@ To verify that Server-side forwarding is properly enabled, you'll need to inspec
 
 To check the status of server-side forwarding:
 
-1. Load a test page that contains updated AppMeasurement code. 
-1. In your browser's debugging tools or using your proxy software, inspect the HTTP response from Analytics' tracking request (you can easily filter this by selecting any path containing "b/ss"). 
+1. Load a test page that contains updated AppMeasurement code.
+1. In your browser's debugging tools or using your proxy software, inspect the HTTP response from Analytics' tracking request (you can easily filter this by selecting any path containing "b/ss").
 1. Inspect the HTTP response. If the response contains Audience Manager data (as illustrated below), then server-side forwarding is working.
 
 ![](assets/ssf-succeed.png)

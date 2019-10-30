@@ -67,7 +67,7 @@ To find out whether a plugin is included in your JavaScript file and ready for u
 s.getQueryParam=new Function("qp","d","" 
 +"vars=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 
 ```

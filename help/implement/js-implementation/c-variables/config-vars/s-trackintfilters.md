@@ -9,17 +9,15 @@ title: Dynamic variables
 
 # s.linkInternalFilters
 
-The  variable is used to determine which links on your site are exit links. 
+The  variable is used to determine which links on your site are exit links.
 
-It is a comma-separated list of filters that represent the links that are part of the site. 
+It is a comma-separated list of filters that represent the links that are part of the site.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
 |  N/A  | N/A  | Paths > Entries & Exits > Exit Links  |  |
 
->[!NOTE]
->
->We had previously suggested setting the linkInternalFilters to javascript:. However, this resulted in all domains being considered external, including the current domain on which the tag resides. If you want several domains to be considered internal, you can add those, as shown in the examples below.
+> [!NOTE] We had previously suggested setting the linkInternalFilters to javascript:. However, this resulted in all domains being considered external, including the current domain on which the tag resides. If you want several domains to be considered internal, you can add those, as shown in the examples below.
 
 The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. Whether the target window of an exit link is a pop-up, or the existing window, does not affect whether the link appears in the exit links report. Exit links are only tracked if *`trackExternalLinks`* is set to `"true"`. (See [Link Tracking](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) in the Dynamic Tag management documentation for information about how DTM handles exit links.) The filters in *`linkInternalFilters`* are not case-sensitive.
 
@@ -34,7 +32,7 @@ s.trackExternalLinks=true
 s.linkInternalFilters="mysite.com" 
 s.linkExternalFilters="" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Exit Link</a> 
@@ -66,8 +64,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list. 
-* Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect. 
+* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list.
+* Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect.
 
 * Periodically review partner contracts to determine if they contain restrictions on link tracking. For example, you might be prohibited from tracking links that appear in partner display ads. Filter partner links by adding their domain to *`linkInternalFilters`*:
 

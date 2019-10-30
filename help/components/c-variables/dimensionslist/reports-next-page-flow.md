@@ -16,8 +16,8 @@ By default, this report displays the top 10 pages that users went to following t
 
 Use this report to:
 
-* Understand what steps are taken most frequently after viewing a selected page. 
-* Optimize your site path design to funnel your traffic to a desired goal page. 
+* Understand what steps are taken most frequently after viewing a selected page.
+* Optimize your site path design to funnel your traffic to a desired goal page.
 * Identify where visitors are going instead of your desired goal pages.
 
 **Product Specific Information** 

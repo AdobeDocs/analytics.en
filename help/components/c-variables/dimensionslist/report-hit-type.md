@@ -12,4 +12,4 @@ The Hit Type dimension signifies whether an app was in the foreground or in the 
 
 This dimension is collected automatically by the SDK. It is supported in versions 4.13.6 and higher of the SDK.
 
-If “Disable Legacy Reporting and Attribution for Background Hits” is checked, then background hits will show up only in [Virtual Report suites](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD). 
+If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual Report suites](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD).

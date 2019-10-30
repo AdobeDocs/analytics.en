@@ -14,9 +14,7 @@ uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 
 Captures the value of a Analytics variable on the next page view. For example, you can use plug-in to capture the s.pageName value from the previous page view into a Custom Traffic variable. It also has an option to capture a previous value only when designated success events are set.
 
->[!NOTE]
->
->The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
 ## Plug-in Code and Implementation {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -30,8 +28,8 @@ Place the following code within the *`s_doPlugins()`* function, which is located
 
 *`s.getPreviousValue`* has three arguments:
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above). 
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above). 
+1. The variable to be captured from the previous page ( *`s.pageName`* above).
+1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
 1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). When left blank or omitted, the plug-in captures the previous value on all page views.
 
 **PLUGINS SECTION**: Add the following code to the area of the [!DNL s_code.js] file labeled PLUGINS SECTION. Do not make any changes to this portion of the plug-in code.
@@ -58,10 +56,10 @@ s.split=new Function("l","d",""
 
 **Notes**
 
-* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
-* If no value is present for the selected variable on any given page, the text *no value* will be set in the cookie. 
-* A fixed 30-minute cookie expiration is now set for each cookie, and refreshed with each page load. The plug-in works for the length of a visit. 
-* Because the function must be called as part of the plug-ins section of code, the code runs each time *`s.t()`* or *`s.tl()`* is called. 
+* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.
+* If no value is present for the selected variable on any given page, the text *no value* will be set in the cookie.
+* A fixed 30-minute cookie expiration is now set for each cookie, and refreshed with each page load. The plug-in works for the length of a visit.
+* Because the function must be called as part of the plug-ins section of code, the code runs each time *`s.t()`* or *`s.tl()`* is called.
 
 * The chosen variable should be populated with a value prior to the call to *`s.getPreviousValue`*. Because the *`s_doPlugins()`* function is executed after the variables on the page are populated, this issue rarely occurs. It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
 

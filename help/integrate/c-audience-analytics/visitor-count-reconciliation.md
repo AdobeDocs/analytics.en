@@ -63,9 +63,9 @@ AAM Real-time Segment Population and Analytics Visitors with Experience Cloud ID
   <tr> 
    <td colname="col1"> <p>150-segment limit </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Yes - Analytics counts may be affected up to 5% by the 150-segment integration limit. “Audience limit reached” will appear in the Audience Name dimension if truncation has occurred. </p> </td> 
+   <td colname="col3"> <p>Yes - Analytics counts may be affected up to 5% by the 150-segment integration limit. "Audience limit reached" will appear in the Audience Name dimension if truncation has occurred. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation. 
+See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.

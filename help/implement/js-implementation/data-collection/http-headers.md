@@ -84,9 +84,7 @@ HTTP request and response headers are used to collect additional data beyond wha
  </tbody> 
 </table>
 
->[!NOTE]
->
->Implementations using dynamic variables have the option of reading in other HTTP request headers not listed above.
+> [!NOTE] Implementations using dynamic variables have the option of reading in other HTTP request headers not listed above.
 
 ## HTTP Response Headers {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -106,6 +104,4 @@ HTTP request and response headers are used to collect additional data beyond wha
 |  Content-Type  | Specifies the type of content sent back to the client (GIF, text, Javascript, etc).  |
 |  Content-Length  | Specifies the size of the content sent back to the client.  |
 
->[!NOTE]
->
->Other HTTP headers may be set in the response for internal status monitoring. Some of these headers might be returned to the browser, but it is not necessary that they receive them.
+> [!NOTE] Other HTTP headers may be set in the response for internal status monitoring. Some of these headers might be returned to the browser, but it is not necessary that they receive them.

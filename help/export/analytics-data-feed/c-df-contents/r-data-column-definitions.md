@@ -39,7 +39,5 @@ The Data Column Definitions section contains the following elements:
 
 The Download CSV option lets you download the current Data Column Definition.
 
->[!NOTE]
->
->This option is available only after at least one column is added to the Included Column list.
+> [!NOTE] This option is available only after at least one column is added to the Included Column list.
 

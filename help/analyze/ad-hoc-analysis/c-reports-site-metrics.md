@@ -14,11 +14,11 @@ Displays quantitative information about your website, such as how many times vis
 
 ## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
 
-Displays quantitative information about your website, such as how many times visitors looked at certain pages, numbers of overall purchases made from specific pages, when they came, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports. 
+Displays quantitative information about your website, such as how many times visitors looked at certain pages, numbers of overall purchases made from specific pages, when they came, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
 
 Metric reports are trended over time. You can apply time and day-of-week granularity to these reports. Alternatively, you can analyze the time spent on your site, purchases, revenue, and similar metrics.
 
-The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu. 
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## Page Views Report {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -28,7 +28,7 @@ c_reports_pageviews.xml
 
  -->
 
-A trended report that displays the number of times your website pages were viewed for the selected time period (hour, day, week, month, quarter, or year). A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. For example, if a single visitor views 15 pages during a visit, 15 page views are counted. If a visitor views the same page three times during a visit, three page views are counted. This report allows you to track page views for each page on your site, as well as an aggregate of page views for your entire site. 
+A trended report that displays the number of times your website pages were viewed for the selected time period (hour, day, week, month, quarter, or year). A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. For example, if a single visitor views 15 pages during a visit, 15 page views are counted. If a visitor views the same page three times during a visit, three page views are counted. This report allows you to track page views for each page on your site, as well as an aggregate of page views for your entire site.
 
 ## Visits Report {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -40,7 +40,7 @@ c_reports_visits.xml
 
  -->
 
-In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. In ad hoc analysis, you can segment the data to view specific pages. 
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. In ad hoc analysis, you can segment the data to view specific pages.
 
 ## Unique Visitors Report {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -54,8 +54,8 @@ c_reports_unique_visitors.xml
 
 You can use this report to:
 
-* See the number of different people that viewed your website during any given time period. 
-* View recent traffic patterns and learn how promotions are bringing unique visitors to your site. 
+* See the number of different people that viewed your website during any given time period.
+* View recent traffic patterns and learn how promotions are bringing unique visitors to your site.
 * Compare the number of your unique visitors to the number of page views.
 
 ## Visitors Report {#concept_7371DAB5DA474D03A2D1448F151E011B}
@@ -68,7 +68,7 @@ c_reports_visitors.xml
 
  -->
 
-The total value displayed at the bottom of the table is the sum all of the visits for the specified time period and does not always reflect the number of unique visitors. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month. 
+The total value displayed at the bottom of the table is the sum all of the visits for the specified time period and does not always reflect the number of unique visitors. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## Time Spent per Visit Report {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -82,8 +82,8 @@ c_reports_time_spent_per_visit.xml
 
 Use this report to:
 
-* Identify how long visitors stay on your site. 
-* Identify site content and promotions that trigger visitor interest. 
+* Identify how long visitors stay on your site.
+* Identify site content and promotions that trigger visitor interest.
 * Find out why you have high traffic but visitors immediately leave.
 
 ## Purchases Report {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
@@ -96,9 +96,9 @@ c_reports_purchases.xml
 
  -->
 
-* **Revenue**: Lets you view gross profits for selected time periods. Examples could include revenue during the month of March, purchases made last week, or revenue for today. 
-* **Orders**: Shows the number of orders made on your website during the specified time period. Orders can have multiple products in them. 
-* **Units**: Shows the total units that were ordered for the specified time period. 
+* **Revenue**: Lets you view gross profits for selected time periods. Examples could include revenue during the month of March, purchases made last week, or revenue for today.
+* **Orders**: Shows the number of orders made on your website during the specified time period. Orders can have multiple products in them.
+* **Units**: Shows the total units that were ordered for the specified time period.
 * **Purchase Conversion Funnel**: Ideal for showing conversion events on your site if they occur in a specific order, such as in a retail setting. A funnel report shows you the conversion metrics for each step of the conversion process as well as Orders, Revue, and Units.
 
 ## Shopping Cart Report {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
@@ -113,7 +113,7 @@ c_reports_shopping_cart.xml
 
 You can use the [!UICONTROL Carts Report] to:
 
-* Determine patterns, highs, or lows in the number of carts opened on your site. 
+* Determine patterns, highs, or lows in the number of carts opened on your site.
 * Examine specific time periods learn more information about the metrics that specifically contributed to the opening of the cart.
 
 ## Custom Events Report {#concept_9337B2FB8A3F417BA8689FE7FD64629F}
@@ -126,7 +126,7 @@ c_reports_custom_events.xml
 
  -->
 
-Because each analytics report suite differs, this set of reports is used differently for each client. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. You can have multiple custom event reports. 
+Because each analytics report suite differs, this set of reports is used differently for each client. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. You can have multiple custom event reports.
 
 ## Conversion Reports {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -162,4 +162,4 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL First or Last Touch Channel Detail Reports]**: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Channel detail reports let you closely examine the channel detail values from the overview report.
 
-For more in-depth information about configuring the Marketing Channel in marketing reports and analytics, see the [Marketing Channel Help](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) system. 
+For more in-depth information about configuring the Marketing Channel in marketing reports and analytics, see the [Marketing Channel Help](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) system.

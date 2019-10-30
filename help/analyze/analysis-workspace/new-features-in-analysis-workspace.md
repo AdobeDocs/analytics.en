@@ -102,7 +102,7 @@ New features and enhancements released on September 13, 2018.
 </table>
 ## August 2018
 
-New features and enhancements released on August 9, 2018. 
+New features and enhancements released on August 9, 2018.
 
 <table id="table_DD77C02344414DCD9AC0A6A22E648B72"> 
  <thead> 
@@ -125,7 +125,7 @@ New features and enhancements released on August 9, 2018.
 
 ## July 2018
 
-New features and enhancements released on July 19, 2018. 
+New features and enhancements released on July 19, 2018.
 
 <table id="table_336E121310204DC492EA004F40830B0F"> 
  <thead> 
@@ -162,7 +162,7 @@ New features and enhancements released on July 19, 2018.
 
 ## June 2018
 
-New features and enhancements released on June 14, 2018. 
+New features and enhancements released on June 14, 2018.
 
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
@@ -246,7 +246,7 @@ New features and enhancements released on April 12, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
-   <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to “daily-granularity” Anomaly Detection in Workspace. </p> </td> 
+   <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -265,7 +265,7 @@ New features and enhancements released on March 8, 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Header Text Wrapping </a> </p> </td> 
-   <td colname="col2"> <p>You can now wrap the header text in Freeform tables to make headers more readable and tables more shareable. We have added an option in Column settings called “Wrap Header Text.” This is especially useful for .pdf rendering and for metrics with long names. </p> </td> 
+   <td colname="col2"> <p>You can now wrap the header text in Freeform tables to make headers more readable and tables more shareable. We have added an option in Column settings called "Wrap Header Text." This is especially useful for .pdf rendering and for metrics with long names. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> Right-Click to Create Metric </a> </p> </td> 
@@ -309,7 +309,7 @@ New feature and enhancements released on February 8, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> New Project launch modal </a> </p> </td> 
-   <td colname="col2"> <p>Clicking “new project” launches a new screen that gives you the choice to start from </p> 
+   <td colname="col2"> <p>Clicking "new project" launches a new screen that gives you the choice to start from </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">a blank project, or </li> 
      <li id="li_23BD391D68674C299858A97BFE10598B">a standard (built-in) Workspace template, or </li> 
@@ -322,11 +322,11 @@ New feature and enhancements released on February 8, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Improvement to Column % </a> </p> </td> 
-   <td colname="col2"> <p>The “percentage of total” shown in columns was capped at 100%, even when certain scenarios lead to rows being more than 100% of the total (such as with averages). </p> <p>We now show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in width too large. </p> </td> 
+   <td colname="col2"> <p>The "percentage of total" shown in columns was capped at 100%, even when certain scenarios lead to rows being more than 100% of the total (such as with averages). </p> <p>We now show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in width too large. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> Conditional Formatting enabled on Breakdowns </a> </p> </td> 
-   <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless “Custom” limits are selected. </p> </td> 
+   <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless "Custom" limits are selected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
@@ -392,7 +392,7 @@ New features and enhancements released on January 18, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Relative intra-links </a> when copying/saving-as Project </p> </td> 
-   <td colname="col2"> <p>Previously, when you copied a project or did a “save as”, all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
+   <td colname="col2"> <p>Previously, when you copied a project or did a "save as", all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contribution Analysis: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external"> Token Notification </a> </p> </td> 
@@ -415,7 +415,7 @@ New features and enhancements released on January 18, 2018.
 
 ## November 2017
 
-New feature released on November 09, 2017. 
+New feature released on November 09, 2017.
 
 <table id="table_C502E81253634E6CBAE7F12C7B62F7B6"> 
  <thead> 
@@ -427,7 +427,7 @@ New feature released on November 09, 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>List of Incompatible Components </p> </td> 
-   <td colname="col2"> <p>Sometimes, not all components included in a project are included in the report suite. The resulting “Incompatible Report Suite" message that displays when loading a project or switching to a report suite now lists the components that are not compatible. </p> </td> 
+   <td colname="col2"> <p>Sometimes, not all components included in a project are included in the report suite. The resulting "Incompatible Report Suite" message that displays when loading a project or switching to a report suite now lists the components that are not compatible. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -532,7 +532,7 @@ New features released on September 21, 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> Histogram Hit Counting Method </a> </p> </td> 
-   <td colname="col2"> <p>Previously, there were 2 counting methods in a Histogram visualization: Visit and Visitor (default). </p> <p>You can now use a third counting method, "Hit", as a segment container. “Occurrences” is used as the y-axis metric in the freeform table. </p> </td> 
+   <td colname="col2"> <p>Previously, there were 2 counting methods in a Histogram visualization: Visit and Visitor (default). </p> <p>You can now use a third counting method, "Hit", as a segment container. "Occurrences" is used as the y-axis metric in the freeform table. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Clear All </span>button for Segment Comparison and Contribution Analysis configuration </p> </td> 
@@ -594,7 +594,7 @@ New features released on August 17, 2017.
 
 ## July 2017
 
-New features released on July 20, 2017. 
+New features released on July 20, 2017.
 
 <table id="table_64E3A9960F314E2F9FFC738696EACDF7"> 
  <thead> 
@@ -610,23 +610,23 @@ New features released on July 20, 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> Intra-linking (Quick-visualize links) </a></b> </p> </td> 
-   <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. </p> </td> 
+   <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Legend Label Editing </a></b> </p> </td> 
    <td colname="col2"> <p>Lets you rename series names in visualization legends (Fallout, Area, Area Stacked, Bar, Bar Stacked, Donut, Histogram, Horizontal Bar, Horizontal Bar Stacked, Line, Scatter, and Venn) to help you make visuals more consumable. </p> <p>Legend editing <b>does not</b> apply to: Treemap, Bullet, Summary Change or Number, Text, Freeform, Histogram, Cohort or Flow visualizations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Updates to “Manage Data Sources” </a></b> </p> </td> 
-   <td colname="col2"> <p>We’ve redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td> 
+   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Updates to "Manage Data Sources" </a></b> </p> </td> 
+   <td colname="col2"> <p>We've redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> Ability to highlight a specific anomaly </a></b> </p> </td> 
    <td colname="col2"> <p>We now highlight the anomaly with a blue dot within contribution analysis and the intelligent alert projects linked to it. This provides a clearer indication of the anomaly being analyzed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>‘Get Project Link’ for Experience Cloud logins</b> </p> </td> 
-   <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We’ve fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
+   <td colname="col1"> <p><b>'Get Project Link' for Experience Cloud logins</b> </p> </td> 
+   <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We've fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local"> 'Expired Projects' filter in Scheduled Projects manager </a></b> </p> </td> 
@@ -753,7 +753,7 @@ New feature released on February 16, 2017:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> Breakdown by position </a> </p> </td> 
-   <td colname="col2"> <p>Allows breakdown by table position. Example: “I always want the top 7 rows in a Freeform table to be broken down.” There is now a checkbox when you create a Freeform table that allows you to enable "Breakdown by Position." This setting is disabled by default. </p> <p>Previously, the list of values in the breakdown was “locked”. This led to a situation where, for example, if you did a breakdown of <span class="wintitle"> Date </span> by <span class="wintitle"> Page </span>, you got a list of the top 50 pages for your selected date range. </p> <p>If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace "trusted" the results from the original breakdown and returned the same pages, but with the current month as the date range. </p> </td> 
+   <td colname="col2"> <p>Allows breakdown by table position. Example: "I always want the top 7 rows in a Freeform table to be broken down." There is now a checkbox when you create a Freeform table that allows you to enable "Breakdown by Position." This setting is disabled by default. </p> <p>Previously, the list of values in the breakdown was "locked". This led to a situation where, for example, if you did a breakdown of <span class="wintitle"> Date </span> by <span class="wintitle"> Page </span>, you got a list of the top 50 pages for your selected date range. </p> <p>If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace "trusted" the results from the original breakdown and returned the same pages, but with the current month as the date range. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -776,7 +776,7 @@ New feature released on January 19, 2017:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Auto-share project components </a> </p> </td> 
-   <td colname="col2"> <p>You now have the option to auto-share project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient’s Workspace. </p> </td> 
+   <td colname="col2"> <p>You now have the option to auto-share project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient's Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fallout visualization in CSV format </p> </td> 
@@ -877,10 +877,10 @@ New features released on October 20, 2016:
    <td colname="col2"> 
     <ul id="ul_2585F74DC7754C819017F280E16BF06F"> 
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F"> 
-      <!--AN-124610: -->Added “Count Repeat Instances” as a project-level setting ( <span class="uicontrol"> Project </span> &gt; <span class="uicontrol"> Project Info &amp; Settings </span>). This setting specifies whether repeat instances are counted in reports. If you have multiple sequential values for the same variable, you can count them either as one or as multiple instances of the variable. </li> 
+      <!--AN-124610: -->Added "Count Repeat Instances" as a project-level setting ( <span class="uicontrol"> Project </span> &gt; <span class="uicontrol"> Project Info &amp; Settings </span>). This setting specifies whether repeat instances are counted in reports. If you have multiple sequential values for the same variable, you can count them either as one or as multiple instances of the variable. </li> 
      <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">Added a new button called "Apply to All Panels" next to "Cancel" and "Run" in the Calendar. Changed "Run" to "Apply". If you click the new button, it will not only change the selected date range for the current panel, but also for all other panels within the project. </li> 
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
-      <!--AN-124168: -->Added an “Actions” button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
+      <!--AN-124168: -->Added an "Actions" button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Added a filter to the search bar that lets you filter on tags, favorites, approved items, and components. </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
@@ -888,7 +888,7 @@ New features released on October 20, 2016:
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->For visualizations, we added a right-click option called <span class="uicontrol"> Start Over </span> from the context menu (will work for Flow, Venn, Histogram), which deletes the configuration for the current visualization and opens a new panel where you can re-configure it. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">A new visualization setting called "Legend Visible" lets you hide the filter details text for the Summary Number/Summary Change visualization. </li> 
-     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">A new visualization setting for Summary Change visualizations lets you “Show Difference” between 2 percentages. For non-percentage values, if you select the “Show Difference” option, it will show a number. </li> 
+     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">A new visualization setting for Summary Change visualizations lets you "Show Difference" between 2 percentages. For non-percentage values, if you select the "Show Difference" option, it will show a number. </li> 
      <li id="li_17AAABCA7B3A477182FB70453CA2EEBB">Adjusted the number of rows for time dimensions. </li> 
      <li id="li_35A91D50CD514CD0B939C24AEEC64BF4">Updated the look and feel of the left navigation rail in the Segment Builder and the Calculated Metric Builder to look like Analysis Workspace. </li> 
     </ul> </td> 
@@ -900,19 +900,19 @@ New features released on October 20, 2016:
 
 New features released on June 16, 2016: 
 
-* [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group. 
-* The [Segment Comparison Panel](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to. 
-* [New Projects Menu structure](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization. 
+* [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
+* The [Segment Comparison Panel](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
+* [New Projects Menu structure](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): Panels, Visualizations, Components 
-* A new [Venn visualization type](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram. 
-* [Trend Selection](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked. 
-* ["Create Visual" icon](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...). 
+* A new [Venn visualization type](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
+* [Trend Selection](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
+* ["Create Visual" icon](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [Manual Rows](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8) functionality 
 * [Add Segment](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) drop zone 
 * Minor Updates:
 
     * Ability to delete all visualizations in a panel, and all panels in a project. (Previously, you had to keep at least one visualization or one panel.) 
-    * Changes to the [shortcut keys](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (hotkeys) that can facilitate work with Analysis Workspace. 
+    * Changes to the [shortcut keys](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (hotkeys) that can facilitate work with Analysis Workspace.
     * Style changes: Smaller fonts in visualizations; color swatches on rows; moved the date selector down (on panels).
 
 ## April 2016
@@ -940,7 +940,7 @@ New features released on April 21, 2016:
 
 ## January 2016
 
-New features released on January 21, 2016. 
+New features released on January 21, 2016.
 
 * [Undo Actions](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482) 
 * [Link to This Project](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
@@ -969,13 +969,13 @@ You can also use standard Windows and Mac [keyboard shortcuts](../../analyze/ana
 
 Actions that are *`not`* undoable:
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). However, you can click **[!UICONTROL Undo]** after clicking **[!UICONTROL Run]**. 
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). However, you can click **[!UICONTROL Undo]** after clicking **[!UICONTROL Run]**.
 
 * Resizing or moving panels and sub-panels.
 
 Actions that clear your undo history:
 
-* Saving the project. 
+* Saving the project.
 * Changing the report suite.
 
 ## Link to This Project {#section_453E70F7409F4501B8E976A0D18C9A46}
@@ -984,9 +984,7 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE]
->
->Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
+> [!NOTE] Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
 
 ## Bullet Graph, Scatterplot, and Treemap Visualizations {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1006,9 +1004,7 @@ The bullet graph features a single, primary measure (for example, current year-t
 
 Shows impressions served and how many unique users have seen those impressions. The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select.
 
->[!NOTE]
->
->A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
+> [!NOTE] A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
 
 **Treemap**
 

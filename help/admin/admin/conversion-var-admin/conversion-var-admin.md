@@ -23,13 +23,11 @@ eVars are best used to measure cause and effect, such as:
 
 If traffic measurement or pathing is desired, using traffic variables is recommended.
 
->[!NOTE]
->
->Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md). 
+Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 

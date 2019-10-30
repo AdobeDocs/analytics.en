@@ -38,9 +38,7 @@ See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.
 
 See [Add marketing channels](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) for the procedure.
 
->[!NOTE]
->
->If Marketing Channels have not been previously configured, the [automatic setup](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) displays. This setup provides several pre-configured channels that you can customize. Adobe recommends that you use these rules as a template. However, if you already have solid channel definitions, you can skip the automatic setup.
+> [!NOTE] If Marketing Channels have not been previously configured, the [automatic setup](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) displays. This setup provides several pre-configured channels that you can customize. Adobe recommends that you use these rules as a template. However, if you already have solid channel definitions, you can skip the automatic setup.
 
 ![](assets/step3_icon.png) Configure or refine each channels' rules on the [!UICONTROL Marketing Channel Processing Rules] page.
 
@@ -48,4 +46,4 @@ After you create channels on the [!UICONTROL Marketing Channel Manager] page, yo
 
 See [Marketing Channel Processing Rules](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
 
-If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs. 
+If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs.

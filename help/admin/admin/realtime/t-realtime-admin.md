@@ -12,7 +12,7 @@ uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 
 Administrative steps for setting up Real-Time reports.
 
-Setting up real-time reports within Reports & Analytics consists of selecting the report suite and configuring up to 3 reports for it. 
+Setting up real-time reports within Reports & Analytics consists of selecting the report suite and configuring up to 3 reports for it.
 
 1. Select the report suite for which you want to enable real-time reports.
 
@@ -53,6 +53,6 @@ Setting up real-time reports within Reports & Analytics consists of selecting th
 
 1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html). 
+   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
 
 1. By default, all users have access to Real-Time reports.

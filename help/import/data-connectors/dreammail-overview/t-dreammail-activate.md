@@ -17,7 +17,7 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 | Field | Description |
 |--- |--- |
 |Report Suite| The report suite that receives the data from this integration.|
-|Integration Name|Specify the integration name that Data Connectors displays in the report suite’s Active Integration List.|
+|Integration Name|Specify the integration name that Data Connectors displays in the report suite's Active Integration List.|
 |Integration UUID|Specify your DreamMail Integration UUID.|
 |Client Name | Specify your DreamMail Client Name.|
 |Site Name| Specify your DreamMail Site Name.|

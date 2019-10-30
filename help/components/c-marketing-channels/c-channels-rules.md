@@ -19,9 +19,7 @@ Think of a channel as a container for visits. The rules assign visits to the pro
 
 Adobe provides several predefined channels during an [automatic setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) that you can edit to suit your needs.
 
->[!NOTE]
->
->Adobe recommends that you set up your report in a report suite that you can use as a template for testing purposes. You can use the template to apply channel and rule sets globally to one or more production report suites. 
+> [!NOTE] Adobe recommends that you set up your report in a report suite that you can use as a template for testing purposes. You can use the template to apply channel and rule sets globally to one or more production report suites.
 >
 >See [Apply Template Report Suite Settings to Multiple Report Suites](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
@@ -36,19 +34,19 @@ If necessary, contact Customer Care to assist you with these prerequisites:
 
 * In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
 
-  See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information. 
+  See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
 
 * Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
 
-  See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C). 
+  See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
 ## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
 
-* The system processes the rules in the order you specify, and when a rule is met, the system stops processing the remaining rules. 
-* Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted. 
-* Channels store only conversion metrics. Traffic metrics are not available. 
-* Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event). 
+* The system processes the rules in the order you specify, and when a rule is met, the system stops processing the remaining rules.
+* Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted.
+* Channels store only conversion metrics. Traffic metrics are not available.
+* Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event).
 * The report can process up to 25 channels at a time.
 

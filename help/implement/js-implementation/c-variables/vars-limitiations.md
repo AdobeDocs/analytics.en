@@ -14,9 +14,7 @@ uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 
 High-level look at variables and their limitations.
 
->[!NOTE]
->
->See [Configuration Variables](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) and [Page Variables](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) for an in-depth look at the most common Analytics variables.
+> [!NOTE] See [Configuration Variables](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) and [Page Variables](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) for an in-depth look at the most common Analytics variables.
 
 The following table provides at-a-glance information about [!DNL Analytics] variables: 
 

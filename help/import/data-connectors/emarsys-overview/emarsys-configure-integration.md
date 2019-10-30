@@ -14,9 +14,9 @@ Adobe Analytics® provides organizations with actionable, real-time intelligence
 
 Before you can configure the integration for your email account, you will need to have the following in place:
 
-* Know your emarsys AccountCode because it will be entered in the Data Connectors wizard. 
-* Know which email address you want to use to receive notification concerning the integrated operations. 
-* Identify or create the custom variable that you will use to capture the Recipient ID. 
-* Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable). 
+* Know your emarsys AccountCode because it will be entered in the Data Connectors wizard.
+* Know which email address you want to use to receive notification concerning the integrated operations.
+* Identify or create the custom variable that you will use to capture the Recipient ID.
+* Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable).
 * Identify or create the custom events that you will use to collect the bounces, clicks, opens, sends, and unsubscribes.
 

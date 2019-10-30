@@ -66,7 +66,7 @@ c_example_2__rate.xml
 |  2010/02/01 - 2010/02/28  | revenue  | revenue  |
 |  2010/02/01 - 2010/02/28  | revenue  | revenue  |
 
-In February, the user’s cost for Product1 went down to 15% of the revenue, and Product2 went down to 25% of its revenue.
+In February, the user's cost for Product1 went down to 15% of the revenue, and Product2 went down to 25% of its revenue.
 
 ## Result {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -136,7 +136,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
  -->
 
-In this example, you add a $500 shipping charge to Product1 for January, and a $600 shipping charge to February. 
+In this example, you add a $500 shipping charge to Product1 for January, and a $600 shipping charge to February.
 
 |  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|
@@ -166,9 +166,7 @@ Report: Products
 |---|---|---|
 |  Product1  | $10,000.23  | $2500.05  |
 
->[!NOTE]
->
->This feature is for advanced users to approximate values. The resulting information should not be treated as exact values.
+> [!NOTE] This feature is for advanced users to approximate values. The resulting information should not be treated as exact values.
 
 <!-- 
 

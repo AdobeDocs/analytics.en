@@ -10,9 +10,7 @@ uuid: a694851c-8933-496e-9118-113cc38cba8a
 
 Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
 
->[!NOTE]
->
->Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
+> [!NOTE] Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
 ## Assign or Edit Report Suite Labels {#section_39F829F35A274EACA532E2F6FF392996}
 
@@ -63,13 +61,13 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 If you want to apply the same DULE/Data Privacy settings to more than one report suite, you can follow these steps:
 
-1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time. 
-1. Select some or all of the variables in this group. 
+1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time.
+1. Select some or all of the variables in this group.
 1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
 
    ![](assets/apply_as_template.png)
 
-1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to. 
+1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to.
 
    >[!IMPORTANT]
    >

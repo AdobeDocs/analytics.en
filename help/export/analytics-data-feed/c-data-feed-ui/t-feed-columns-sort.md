@@ -20,4 +20,4 @@ You can determine which columns are available and sort them according to your ne
 
    Alphabetical columns are sorted in alphabetical order. Click the header to sort by reverse alphabetical order.
 
-   Numeric columns are sorted numerically. Click the header to toggle between low-to-high and high-to-low sorting. 
+   Numeric columns are sorted numerically. Click the header to toggle between low-to-high and high-to-low sorting.

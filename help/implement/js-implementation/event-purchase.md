@@ -13,7 +13,7 @@ uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 
 For the purchase event, Analytics variables are used to capture specific purchase information. The `s.purchaseID` variable is used to serialize (de-duplicate) the event.
 
-If a hit with a purchase (purchase event set on the hit) is passed in WITHOUT a purchase id in the hit, then Adobe Analytics uses information from the hit (s.purchase and s.events) and creates a "temporary purchase id" for this particular hit/purchase abd such purchase IDs are sent to Adobe. This temporary purchase id applies to the visitor (visitor id) of this particular hit only. The previous 5 temporary purchase ids are stored for each visitor id (per report suite).
+If a hit with a purchase event is passed without a purchase ID, Adobe Analytics uses information from the hit (s.purchase and s.events) to create a "temporary purchase ID". This temporary purchase ID only applies to the visitor of the hit. The previous 5 temporary purchase ID's are stored for each visitor ID (per report suite).
 
 When a visitor makes any purchase, the following checks are made:
 

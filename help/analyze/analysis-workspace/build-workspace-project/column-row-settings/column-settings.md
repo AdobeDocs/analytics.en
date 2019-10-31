@@ -45,6 +45,6 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 |Custom|You can manually assign the values for the  Upper,  Midpoint, and  Lower Limit fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor.|
 |Table Cell Preview|Shows a preview of how each cell appears with the currently selected formatting options applied.|
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)

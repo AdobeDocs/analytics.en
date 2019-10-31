@@ -35,6 +35,6 @@ For example, if a visit contains the following path: Page A > Page B > Page C > 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Page Depth Report](/help/components/c-variables/dimensionslist/reports-page-depth.md)

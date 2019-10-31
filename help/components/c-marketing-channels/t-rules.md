@@ -45,6 +45,6 @@ This procedure uses an email rule as an example. The example assumes that you ha
 1. To prioritize rules, drag-and-drop them to the desired position.
 1. Click **[!UICONTROL Save.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/c-faq.md)

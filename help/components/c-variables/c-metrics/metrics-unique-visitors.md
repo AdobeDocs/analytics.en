@@ -26,6 +26,6 @@ Version 15 removes duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors
 
 See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Daily Unique Visitors](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)

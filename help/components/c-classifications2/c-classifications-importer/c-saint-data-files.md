@@ -91,7 +91,7 @@ A data file must adhere to the following structure rules:
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 

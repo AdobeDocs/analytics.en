@@ -39,6 +39,6 @@ When displaying Revenue in the Internal Search Terms Report, you would see the f
 
   Participation is similar to linear allocation, except full credit is given to all values. If you use Revenue (Participation) as the metric, allocation is disregarded. Revenue (Participation) in this example would report $120 for both search terms.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Metric Calculations](/help/components/c-variables/c-metrics/metrics-calculations.md)

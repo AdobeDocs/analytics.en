@@ -18,7 +18,7 @@ Revenue is captured on the purchase event, and is defined as the total dollar am
 |  Conversion  |Revenue is captured on the [!UICONTROL purchase] event, and is defined as the total dollar amount for the sum of the order and each product.  |
 |  Ad Hoc Analysis  |Revenue is captured on the [!UICONTROL purchase] event, and is defined as the total dollar amount for the sum of the order and each product.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md)
 >* [Participation](/help/components/c-variables/c-metrics/metrics-participation.md)

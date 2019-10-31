@@ -24,6 +24,6 @@ Steps that describe how to create a report suite, and to copy a report suite's s
 1. Fill in the fields described in [New Report Suite.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Click **[!UICONTROL Create Report Suite]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Creating Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-create.md)

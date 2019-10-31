@@ -23,6 +23,6 @@ To check the status of server-side forwarding:
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Please ensure that the Identity Service is properly deployed, you've deployed the App Measurement module, that the applicable report suite has been mapped to the correct IMS Org, and that server-side forwarding has been enabled in the Analytics admin console.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)

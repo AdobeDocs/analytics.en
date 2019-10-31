@@ -14,6 +14,6 @@ Displays which spiders and bots have visited your site during a given time perio
 
  Bots are filtered based on the user agent or IP address. We provide the option to use the IAB/ABCe International Spiders & Bots List to filter bot traffic.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Bot Rules](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)

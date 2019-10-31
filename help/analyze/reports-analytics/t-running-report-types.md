@@ -82,7 +82,7 @@ Check out the new [Fallout Analysis](https://marketing.adobe.com/resources/help/
 
    ![Step Result](assets/fallout_report.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Fallout Report Description](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 

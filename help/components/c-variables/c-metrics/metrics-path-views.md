@@ -20,6 +20,6 @@ The term [!UICONTROL Path View] is used to indicate the number of times a page w
 |  Conversion  | N/A  |
 |  Ad Hoc Analysis  | Not an entire visit length. Usually a collection of paths, each of which is usually 3-4 pages long. Shows the frequency of visits on that particular path.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Paths Reports](/help/components/c-variables/dimensionslist/reports-paths.md)

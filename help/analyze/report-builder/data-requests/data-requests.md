@@ -28,6 +28,6 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)

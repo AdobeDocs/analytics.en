@@ -18,6 +18,6 @@ The number of times a customer opened a shopping cart by adding the first item. 
 |  Conversion  |Instance of the [!UICONTROL Cart Open] event being set. Occurs when a new shopping cart is created.  |
 |  Ad Hoc Analysis  |Instance of the [!UICONTROL Cart Open] event being set. Occurs when a new shopping cart is created.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Shopping Cart Report](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)

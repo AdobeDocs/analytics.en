@@ -160,7 +160,7 @@ Certain reports let you break down the table data so that you can see subrelated
    >
    >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click **[!UICONTROL Replace Table]** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -244,7 +244,7 @@ t_column_width.xml
 
    This option is disabled if [!UICONTROL Fit to Screen] is enabled. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 

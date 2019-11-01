@@ -26,6 +26,6 @@ Two metrics that appear to be similar are listed:
 |  Instances higher than Occurrences  | This is not possible in reporting, as all instances are recorded as occurrences as well.  |
 |  Instances equal to Occurrences  | This is most common for traffic variables, as by nature they do not persist beyond the image request.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Instances](/help/components/c-variables/c-metrics/metrics-instance.md)

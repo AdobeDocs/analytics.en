@@ -91,6 +91,6 @@ For more details, see:
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html) 
 * [Analytics Data Feed](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
   
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >       
 >* [Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)  

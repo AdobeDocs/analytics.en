@@ -75,7 +75,7 @@ In order to successfully implement remarketing segments, the following condition
     * Purchases: `purchase` event
     * Product Views: `prodView` event
 
-**Note:** If the product is defined without an associated event, the prodView event automatically fires.
+> [!NOTE] If the product is defined without an associated event, the prodView event automatically fires.
 If the above requirements are not met, the corresponding remarketing segments are not reported correctly.
 
 [!UICONTROL Cart Abandonment]: fires after the user adds a product to the shopping cart:

@@ -22,7 +22,7 @@ Full Processing data sources data is processed as if it were received by Adobe s
 
 Full processing data sources data is processed using separate visitor profiles, so even if the visitor ID in uploaded data matches data collected using JavaScript or other AppMeasurement library, the visitor profiles are not connected from an eVar allocation perspective.
 
-For example, a user with a visitor ID of "user@example.com" visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
 
 ## Column Reference {#section_92BAE76639E3404E97276B1BE0581078}
 

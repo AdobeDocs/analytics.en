@@ -20,7 +20,7 @@ This introduces a forward compatibility problem: Once converted to v5.1, if a wo
 
 You will experience the following side effect when opening a ARB v5.1 workbook with classification request:
 
-* When opening the workbook, you will get the following warning: “This workbook was last saved using Report Builder v5.1. This version has introduced some features that are incompatible with the Report Builder version installed on this computer. It is highly recommended that you upgrade to the latest Report Builder version before updating this workbook.” 
+* When opening the workbook, you will get the following warning: "This workbook was last saved using Report Builder v5.1. This version has introduced some features that are incompatible with the Report Builder version installed on this computer. It is highly recommended that you upgrade to the latest Report Builder version before updating this workbook." 
 * If you right-click an ARB request with classification, the Report Builder context menus (edit request, add dependent request...) will not show up. 
 * If you perform a Refresh All, by clicking the third button, or by refreshing a set of requests from the Request Manager form, the classification request will execute without error. However, the classifications values will not be written out. 
 * You can still edit the request by opening the Request Manager, then going from row to row, until it reaches the right request. 

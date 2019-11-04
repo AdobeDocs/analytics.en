@@ -14,7 +14,7 @@ uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 
 ## Business Value of Attribution IQ {#section_E82B97114E1641A8AE911F57AEB3240A}
 
-The “Customer Journey” isn’t linear and is only partially predictable. It’s more organic, flexible, and often unpredictable. Each customer proceeds at their own pace, often doubling back, stalling, restarting, etc. This makes it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together to answer business questions and leads to incomplete customer insights.
+The "Customer Journey" isn't linear and is only partially predictable. It's more organic, flexible, and often unpredictable. Each customer proceeds at their own pace, often doubling back, stalling, restarting, etc. This makes it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together to answer business questions and leads to incomplete customer insights.
 
 Adobe Analytics Attribution IQ enables modern intelligence teams to understand how meaningful engagement takes place across the customer journey, intelligently identifying inflection points that lead customers to target outcomes, effectively optimizing marketing initiatives.
 
@@ -44,7 +44,7 @@ The following customer journey example represents the marketing touchpoints of a
 
 ## Instance-Based Attribution {#section_A81DBC3B19014CE3894131F1CF72736F}
 
-Attribution in Analysis Workspace utilizes the “instance” of any dimension, meaning that attribution models get applied to the values that were passed into Analytics (after processing rules, VISTA, and Marketing Channels Processing Rules). Effectively, this means there is no difference between a prop or eVar (or any other dimension) for the sake of attribution modeling. Props can be set to persist using any of the lookback windows or models below, and allocation and expiration settings for eVars are not used (as specified in Admin settings) when the attribution lookback windows or models are applied.
+Attribution in Analysis Workspace utilizes the "instance" of any dimension, meaning that attribution models get applied to the values that were passed into Analytics (after processing rules, VISTA, and Marketing Channels Processing Rules). Effectively, this means there is no difference between a prop or eVar (or any other dimension) for the sake of attribution modeling. Props can be set to persist using any of the lookback windows or models below, and allocation and expiration settings for eVars are not used (as specified in Admin settings) when the attribution lookback windows or models are applied.
 
 ## Attribution Lookback Window {#section_A2782BB64171431EB370CDCD4AD8030D}
 
@@ -56,11 +56,11 @@ The visit lookback window is any sequence of activity separated by 30 minutes of
 
 **Visitor Lookback Window**
 
-The visitor lookback window will consider the totality of a visitor’s hits within the reporting window of your Workspace Panel, plus the full months that encompass the reporting window. For example, if the reporting window date range is September 15 - September 30, the visitor lookback date range would be September 1 - September 30. For more information regarding the visitor lookback window, please refer to [Data appearing outside the reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html).
+The visitor lookback window will consider the totality of a visitor's hits within the reporting window of your Workspace Panel, plus the full months that encompass the reporting window. For example, if the reporting window date range is September 15 - September 30, the visitor lookback date range would be September 1 - September 30. For more information regarding the visitor lookback window, please refer to [Data appearing outside the reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html).
 
 **Attribution Lookback Window Example**
 
-To illustrate the impact of attribution lookback windows, we’ll apply a Linear model (which gives equal credit to all touch points) to our above example:
+To illustrate the impact of attribution lookback windows, we'll apply a Linear model (which gives equal credit to all touch points) to our above example:
 
 When using the **visit attribution lookback window**, each visit has its conversion distributed independently:
 
@@ -115,7 +115,7 @@ Analysis Workspace supports ten different attribution models: First Touch, Last 
   <tr> 
    <td colname="col1"> <p><img  src="assets/same_touch.png" id="image_7E093A65BA4048F0B46E1110D9569C84" /> </p> </td> 
    <td colname="col2"> <p>Same Touch </p> </td> 
-   <td colname="col3"> <p>The Same Touch model gives 100% credit to the very hit where the conversion occurred. </p> <p>In our example above, each conversion happened on a subsequent hit from the previous marketing touchpoint, therefore all $17 would be given to the “None” line item in the report. </p> </td> 
+   <td colname="col3"> <p>The Same Touch model gives 100% credit to the very hit where the conversion occurred. </p> <p>In our example above, each conversion happened on a subsequent hit from the previous marketing touchpoint, therefore all $17 would be given to the "None" line item in the report. </p> </td> 
    <td colname="col4"> <p>This is a helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams will often use this to assess the effectiveness of a page where conversion occurs. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Analysis Workspace supports ten different attribution models: First Touch, Last 
   <tr> 
    <td colname="col1"> <p><img  src="assets/custom.png" id="image_D46A787AC72248C7B28C402F5515B099" /> </p> </td> 
    <td colname="col2"> <p>Custom </p> </td> 
-   <td colname="col3"> <p>The custom model is a position-based model that allows you to specify the weights you want to give to the first (starter), last (closer), and middle (player) interactions. </p> <p>The values specified are normalized to 100% even if the numbers entered do not add to 100. In attribution lookbacks with only one touchpoint, 100% credit is given to the single touchpoint, and in cases with only two, the “player” parameter is ignored, and the first and last interactions are weighted by the “starter” and “closer” model parameter weightings, normalized to 100%. </p> </td> 
+   <td colname="col3"> <p>The custom model is a position-based model that allows you to specify the weights you want to give to the first (starter), last (closer), and middle (player) interactions. </p> <p>The values specified are normalized to 100% even if the numbers entered do not add to 100. In attribution lookbacks with only one touchpoint, 100% credit is given to the single touchpoint, and in cases with only two, the "player" parameter is ignored, and the first and last interactions are weighted by the "starter" and "closer" model parameter weightings, normalized to 100%. </p> </td> 
    <td colname="col4"> <p>If your organization is uncomfortable with the defaults provided by Adobe Analytics, a custom model allows you to specify the weights that make the most sense to your organization. </p> </td> 
   </tr> 
   <tr> 
@@ -165,15 +165,15 @@ Analysis Workspace supports ten different attribution models: First Touch, Last 
 
 ## Marketing Channels & Marketing Channels Processing Rules {#section_FCBF08A9D7C94B67B7AD76E8633E7916}
 
-The First Touch Channel and Last Touch Channel, as well as the First Touch Channel Detail and Last Touch Channel Detail, can be used with the new attribution models. To avoid confusion for your team in the future, however, we recommend using two new dimensions instead: **Marketing Channels** and **Marketing Channels Detail**. They act precisely the same but don’t carry the confusing “First Touch” and “Last Touch” distinction in the name. If no attribution model is applied, Marketing Channels and Marketing Channels Detail will give the same results as Last Touch Channel and Last Touch Channel Detail, respectively.
+The First Touch Channel and Last Touch Channel, as well as the First Touch Channel Detail and Last Touch Channel Detail, can be used with the new attribution models. To avoid confusion for your team in the future, however, we recommend using two new dimensions instead: **Marketing Channels** and **Marketing Channels Detail**. They act precisely the same but don't carry the confusing "First Touch" and "Last Touch" distinction in the name. If no attribution model is applied, Marketing Channels and Marketing Channels Detail will give the same results as Last Touch Channel and Last Touch Channel Detail, respectively.
 
-When applying attribution models to either First Touch Channel or Last Touch Channel, any attribution settings will be overridden by whatever attribution model you’ve selected. So while the name of the dimension may be “First Touch Channel,” if you selected the Linear model (for example), the results would reflect linear attribution, not “First Touch.”
+When applying attribution models to either First Touch Channel or Last Touch Channel, any attribution settings will be overridden by whatever attribution model you've selected. So while the name of the dimension may be "First Touch Channel," if you selected the Linear model (for example), the results would reflect linear attribution, not "First Touch."
 
 Additionally, since Marketing Channels variables are dependent on the traditional visit (as defined by Marketing Channels Processing Rules which are applied during the data collection process), they are ineligible for use with Context-Aware Sessions.
 
 ## Attribution on Classification Breakdowns {#section_F9DE21758C4643879BE05EEAE9A34E5A}
 
-Attribution models can be applied to any value and its classification. In circumstances where a classified value is broken down by its key, Analytics will include only the keys that are associated with that particular classified value. For example, a linear attribution model applied to a given an eVar with the values “apple”, “banana”, and “carrot” classified to the values “Fruits” and “Vegetables”, where the value “Vegetables” is broken down by the base eVar, only “carrot” would appear in the breakdown. Similarly, “Fruits” broken down by the base eVar would only show “apple” and “banana” in the breakdown results even if the attribution credit was spread across all three base eVar values.
+Attribution models can be applied to any value and its classification. In circumstances where a classified value is broken down by its key, Analytics will include only the keys that are associated with that particular classified value. For example, a linear attribution model applied to a given an eVar with the values "apple", "banana", and "carrot" classified to the values "Fruits" and "Vegetables", where the value "Vegetables" is broken down by the base eVar, only "carrot" would appear in the breakdown. Similarly, "Fruits" broken down by the base eVar would only show "apple" and "banana" in the breakdown results even if the attribution credit was spread across all three base eVar values.
 
 This behavior also applies to reports where the Marketing Channels dimensions are broken down by the Marketing Channels Detail dimensions.
 
@@ -183,9 +183,9 @@ Analysis Workspace allows you to breakdown any value by any other dimension and 
 
 This is useful for teams who have one attribution model at the Channel level (to split fairly across channels), but have individual teams that wish to use a separate attribution model on their individual campaigns and need the totals for their campaigns to match what was allocated at the Channel level.
 
-## “None” in Attribution {#section_BC71DA030E45487AA3C3F6ED247A3C4A}
+## "None" in Attribution {#section_BC71DA030E45487AA3C3F6ED247A3C4A}
 
-The “none” line item is a catch-all line item that represents all conversions that occurred where no dimension value was present. Traditionally, the “none” line item has only existed on eVar reports or other dimensions that have persistence. When attribution models are applied, a “none” line item may appear where it may not have existed previously. This most commonly occurs when applying attribution models to props that introduce a “none” line item that was not present previously.
+The "none" line item is a catch-all line item that represents all conversions that occurred where no dimension value was present. Traditionally, the "none" line item has only existed on eVar reports or other dimensions that have persistence. When attribution models are applied, a "none" line item may appear where it may not have existed previously. This most commonly occurs when applying attribution models to props that introduce a "none" line item that was not present previously.
 
 ## Attribution for Multi-Valued Variables
 

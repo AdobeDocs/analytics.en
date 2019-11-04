@@ -39,10 +39,10 @@ On the Request tab, verify that a MID value is being set. This tells you that Id
 
 Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
-In the “Response” tab, check that the response contains Audience Manager data. If you see:
+In the "Response" tab, check that the response contains Audience Manager data. If you see:
 
-* A **JSON response from Audience Manager that includes items such as “postbacks” or “dcs_region”**: you have some form of server-side forwarding already enabled. Continue to step 3.
-* The **“status":"SUCCESS”**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Continue to step 3.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Continue to step 3.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Continue to step 3.
 * A **2 x 2 image**: you do not have server-side forwarding or the Audience Management Module implemented. To correct this:
 
   * **AAM Customers with DIL**: coordinate the following 2 items in close conjunction:

@@ -1,7 +1,7 @@
 ---
-description: The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company’s KPIs and lets you see how much any segments overlap.
+description: The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
 keywords: Analysis Workspace;Segment IQ
-seo-description: The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company’s KPIs and lets you see how much any segments overlap.
+seo-description: The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
 seo-title: Segment IQ overview
 solution: Analytics
 title: Segment IQ overview
@@ -11,21 +11,21 @@ uuid: 80b8343a-8e09-4234-9510-1eecce18567f
 
 # Segment IQ overview
 
-The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company’s KPIs and lets you see how much any segments overlap.
+The Segment Comparison (Segment IQ) Tool discovers the most statistically significant differences among an unlimited number of segments through an automated analysis of every single metric and dimension you have access to. It automatically uncovers the key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
 
-Analysts can spend many hours or even days searching for relevant differences between segments across broad swaths of your company’s metrics and dimensions. Not only is this analysis tedious and time consuming, you can never be sure whether you haven’t missed a key difference insight about a segment that would make a big impact to your targeted marketing efforts.
+Analysts can spend many hours or even days searching for relevant differences between segments across broad swaths of your company's metrics and dimensions. Not only is this analysis tedious and time consuming, you can never be sure whether you haven't missed a key difference insight about a segment that would make a big impact to your targeted marketing efforts.
 
 [Segment Comparison on YouTube](https://www.youtube.com/watch?v=fO3PNB93U_w&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=38) (4:46)
 
 Here are some key new concepts, visualizations, and tables that are introduced with the Segment Comparison tool:
 
-## “Everyone else” segment {#section_30AEE8181E5D46D9AB27F7CA3815D0CD}
+## "Everyone else" segment {#section_30AEE8181E5D46D9AB27F7CA3815D0CD}
 
-For convenience, we’ve added the “everyone else” segment so that you don't have to create it manually. For example, take the Purchasers audience. You don't have to create a Non-Purchasers segment, since it's already included in the “everyone else” segment and can be quickly removed if you’d rather add a different segment for comparison.
+For convenience, we've added the "everyone else" segment so that you don't have to create it manually. For example, take the Purchasers audience. You don't have to create a Non-Purchasers segment, since it's already included in the "everyone else" segment and can be quickly removed if you'd rather add a different segment for comparison.
 
 ## Size and overlap {#section_885A71EE458C43189A77B8F552CA346A}
 
-The Size and Overlap visualization illustrates the comparative sizes of each selected segment and how much they overlap with each other. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If two segments do not overlap (for example if using the “everyone else” segment), you’ll also see that reflected in this visual.
+The Size and Overlap visualization illustrates the comparative sizes of each selected segment and how much they overlap with each other. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If two segments do not overlap (for example if using the "everyone else" segment), you'll also see that reflected in this visual.
 
 ![](assets/size-overlap.png)
 
@@ -41,13 +41,13 @@ To the right of the Size and Crossover visual, the Segment Comparison Tool displ
 >
 >Row items that are applied after the segment comparison has finished do not receive a Difference Score; the table will load only metric data for the two segments that are being compared
 
-The top metrics table displays the statistically most differentiating metrics between the two segments you’ve selected. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. The metrics are also shown on a per-visitor basis, meaning that if “Visits” appears in the table, the corresponding numbers in the table represent the average number of visits per visitor in each segment. We also provide a difference score indicating how different this metric is between these two segments. A score of 1 represents a large statistical difference, whereas a score of 0 represents no statistical difference.
+The top metrics table displays the statistically most differentiating metrics between the two segments you've selected. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. The metrics are also shown on a per-visitor basis, meaning that if "Visits" appears in the table, the corresponding numbers in the table represent the average number of visits per visitor in each segment. We also provide a difference score indicating how different this metric is between these two segments. A score of 1 represents a large statistical difference, whereas a score of 0 represents no statistical difference.
 
 For details on how the difference scores of each table are calculated, refer to [Statistical Tests Used in Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md).
 
-The Top Metrics table is similar to any other table you use in Analysis Workspace. You can drag any metric you’re interested in into the table, and we’ll show you how it compares.
+The Top Metrics table is similar to any other table you use in Analysis Workspace. You can drag any metric you're interested in into the table, and we'll show you how it compares.
 
-You can customize the table any way you want. We’ve also added a new “create visual” icon to each row in the table. Clicking this icon creates a brand new table and visual above the Segment Comparison Tool if you don’t want to clutter the Top Metrics Table and would prefer to continue deeper analysis in a new table. If this metric is not relevant, you can click “X” to remove it from the table altogether. Finally, just as other Freeform Tables, you can paginate through the list of displayed metrics or display the top 10, 20, 50, etc. if you’d like to see more than the default five line items displayed by default.
+You can customize the table any way you want. We've also added a new "create visual" icon to each row in the table. Clicking this icon creates a brand new table and visual above the Segment Comparison Tool if you don't want to clutter the Top Metrics Table and would prefer to continue deeper analysis in a new table. If this metric is not relevant, you can click "X" to remove it from the table altogether. Finally, just as other Freeform Tables, you can paginate through the list of displayed metrics or display the top 10, 20, 50, etc. if you'd like to see more than the default five line items displayed by default.
 
 ![](assets/top-metrics.png)
 
@@ -63,7 +63,7 @@ To the right of the metrics table is a linked visualization. By default, the Seg
 
 Similar to the Top Metrics table, the Segment Comparison Tool provides a Top Dimension Items table illustrating the most differentiating dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item.
 
-For example, if comparing “Segment A” with “Segment B”, the Top Dimension Items table might reveal that 100% of visitors in “Segment A” had the dimension item Browser Type: Google, whereas only 19.6% of “Segment B” had this dimension item.
+For example, if comparing "Segment A" with "Segment B", the Top Dimension Items table might reveal that 100% of visitors in "Segment A" had the dimension item Browser Type: Google, whereas only 19.6% of "Segment B" had this dimension item.
 
 ![](assets/top-dimension-item1.png)
 
@@ -77,7 +77,7 @@ To the right of the Top Dimension Items table, the Segment Comparison Tool highl
 >
 >Row items that are applied after the segment comparison has finished do not receive a Difference Score; the table will load only metric data for the two segments that are being compared
 
-The Top Segments table is a useful table showing which segments (other than the two segments selected for comparison) overlap very differently between the two selected segments. For example, when comparing Segment A with Segment B, the Top Segments table may show that a third segment, “Repeat Visitors” overlaps highly with Segment A but does not overlap with Segment B.
+The Top Segments table is a useful table showing which segments (other than the two segments selected for comparison) overlap very differently between the two selected segments. For example, when comparing Segment A with Segment B, the Top Segments table may show that a third segment, "Repeat Visitors" overlaps highly with Segment A but does not overlap with Segment B.
 
 ![](assets/top-segments.png)
 

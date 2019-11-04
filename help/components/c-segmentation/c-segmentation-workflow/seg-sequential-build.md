@@ -1,6 +1,6 @@
 ---
-description: Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter “Include Everyone”. Sequential segments can be further filtered to a subset of matching hits using the “Only Before Sequence” and “Only After Sequence” options.
-seo-description: Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter “Include Everyone”. Sequential segments can be further filtered to a subset of matching hits using the “Only Before Sequence” and “Only After Sequence” options.
+description: Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter "Include Everyone". Sequential segments can be further filtered to a subset of matching hits using the "Only Before Sequence" and "Only After Sequence" options.
+seo-description: Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter "Include Everyone". Sequential segments can be further filtered to a subset of matching hits using the "Only Before Sequence" and "Only After Sequence" options.
 seo-title: Build sequential segments
 solution: Analytics
 title: Build sequential segments
@@ -10,7 +10,7 @@ uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 
 # Build sequential segments
 
-Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter “Include Everyone”. Sequential segments can be further filtered to a subset of matching hits using the “Only Before Sequence” and “Only After Sequence” options.
+Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter "Include Everyone". Sequential segments can be further filtered to a subset of matching hits using the "Only Before Sequence" and "Only After Sequence" options.
 
 ![](assets/before-after-sequence.png)
 
@@ -18,7 +18,7 @@ Additionally, you can constrain sequential segments to a&nbsp;specific duration 
 
 ## Include Everyone {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-When creating a segment where “Include Everyone” is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone.
+When creating a segment where "Include Everyone" is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone.
 
 ![](assets/sequence-filter.png)
 
@@ -31,8 +31,8 @@ When creating a segment where “Include Everyone” is set, the segment identif
 
 The options **[!UICONTROL Only Before Sequence]** and **[!UICONTROL Only After Sequence]** filter the segment to a subset of data before or after the specified sequence.
 
-* **Only Before Sequence**: Includes all hits before a sequence + the first hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only Before Sequence” includes the first hit of the last occurrence of the sequence and all prior hits (see example 2).
-* **Only After Sequence**: Includes all hits after a sequence + the last hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, “Only After” includes last hit of the first occurrence of the sequence and all subsequent hits (see example 2).
+* **Only Before Sequence**: Includes all hits before a sequence + the first hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, "Only Before Sequence" includes the first hit of the last occurrence of the sequence and all prior hits (see example 2).
+* **Only After Sequence**: Includes all hits after a sequence + the last hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, "Only After" includes last hit of the first occurrence of the sequence and all subsequent hits (see example 2).
 
 For example, consider a sequence of B -> D. The three filters would identify hits as follows:
 
@@ -52,7 +52,7 @@ For example, consider a sequence of B -> D. The three filters would identify hit
 |  Only Before Sequence  | A  | B  | C  | D  | B  |  |  |  |
 |  Only After Sequence  |  |  |  | D  | B  | C  | D  | E  |
 
-Let’s also frame this concept with the Hit Depth dimension.
+Let's also frame this concept with the Hit Depth dimension.
 
 **Example 3: Hit Depth 3 then 5**
 
@@ -60,9 +60,9 @@ Let’s also frame this concept with the Hit Depth dimension.
 
 ## Dimension Constraints {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-In a “within" clause, in between THEN statements, you can add, for example, “within 1 search keyword instance”, “within 1 eVar 47 instance”. This constrains the segment to within one instance of a dimension.
+In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
 
-Setting a ‘Within Dimension’ clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page":
+Setting a ‘Within Dimension' clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page":
 
 ![](assets/sequence-filter4.png)
 
@@ -255,7 +255,7 @@ The [!UICONTROL Logic Group] container was designed to treat *several checkpoint
 Logic groups may seem daunting - here are some best practices on how to use them:
 
 **Logic Group or Hit/Visit container?** 
-If you want to group sequential checkpoints, then your “container” is Logic Group. However, if those sequential checkpoints must occur within a single hit or visit scope, then a 'hit' or a 'visit' containers are required. (Of course, 'hit' does not make sense for a group of sequential checkpoints, when one hit may credit no more than one checkpoint).
+If you want to group sequential checkpoints, then your "container" is Logic Group. However, if those sequential checkpoints must occur within a single hit or visit scope, then a 'hit' or a 'visit' containers are required. (Of course, 'hit' does not make sense for a group of sequential checkpoints, when one hit may credit no more than one checkpoint).
 
 **Do Logic Groups simplify building sequential segments?** 
 Yes, they can. Let's assume you are trying to answer this question: **Did a visitor see page B, or page C, or page D after page A?** 
@@ -395,7 +395,7 @@ When given "After 2 weeks", if a hit to page A happens on June 1 2019, at 00:01,
 
 >[!IMPORTANT]
 >
->In a “within" clause, in between THEN statements, you can add, for example, “within 1 search keyword instance”, “within 1 eVar 47 instance”. This constrains the segment to within one instance of a dimension.
+>In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
 
 **Example**: Visitors who visited page A then visited page B within 5 minutes.
 

@@ -42,7 +42,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 1 </td> 
    <td colname="col2"> Integration Name </td> 
-   <td colname="col3"> The integration name that Genesis displays in the report suite’s Active Integration List. </td> 
+   <td colname="col3"> The integration name that Genesis displays in the report suite's Active Integration List. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 </td> 
@@ -77,7 +77,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Clicks </td> 
-   <td colname="col3"> Select the custom Event that receives DFA Clicks metric data. Clicks indicates the number of times visitors clicked on the ad as measured by DFA’s redirect. The Clicks metric correlates with the Analytics Click-throughs metric. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
+   <td colname="col3"> Select the custom Event that receives DFA Clicks metric data. Clicks indicates the number of times visitors clicked on the ad as measured by DFA's redirect. The Clicks metric correlates with the Analytics Click-throughs metric. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -92,7 +92,7 @@ The configuration pages provide an overview of the integration, along with helpf
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> View-Throughs </td> 
-   <td colname="col3"> The Custom Event that receives DFA View-Throughs metric data. Use the View-Throughs event with the View-Through Variable to see which campaigns didn’t influence a direct click-through, but may have played a role in driving traffic to the site at some subsequent time. <p>Data Connectors renames the selected Custom Event to “View Throughs”. </p> </td> 
+   <td colname="col3"> The Custom Event that receives DFA View-Throughs metric data. Use the View-Throughs event with the View-Through Variable to see which campaigns didn't influence a direct click-through, but may have played a role in driving traffic to the site at some subsequent time. <p>Data Connectors renames the selected Custom Event to "View Throughs". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -121,13 +121,13 @@ Once Genesis has configured your Analytics report suite for the DFA integration,
 
 The Data Connectors integration for DFA requires you to set a cookie on the domain of the page.
 
-Although it is rare, some domains have reached the maximum cookie capacity for some Web browsers. To avoid affecting a visitor’s browsing experience on your Web site, consult with your network operations, development team, or engineering group to verify that adding another cookie to the domain of the pages used for the DFA integration will not affect the user experience. You will also need to select a name for the cookie. 
+Although it is rare, some domains have reached the maximum cookie capacity for some Web browsers. To avoid affecting a visitor's browsing experience on your Web site, consult with your network operations, development team, or engineering group to verify that adding another cookie to the domain of the pages used for the DFA integration will not affect the user experience. You will also need to select a name for the cookie. 
 
 ### Update your DFA Query-String Parameter{#update-your-dfa-query-string-parameter}
 
 If you have already been tracking Ad campaigns with Adobe Analytics prior to the DFA integration, it is possible that all campaigns (email, search, or banner) use the same query string parameter to identify the referring campaign ID on the landing page.
 
-To understand when to request view-through and click-through data from DFA data for your DFA Ad campaigns, Data Connectors needs to identify when a visitor has clicked on a DFA campaign banner ad. To make this possible, you must add a differentiated query-string parameter to the DFA Ad campaign’s landing page URL so Data Connectors can distinguish between DFA Ad campaign pages and other ad campaign pages that you might have on your Web site. The `dfa_overrideParam` in the JavaScript plug-in used for DFA.
+To understand when to request view-through and click-through data from DFA data for your DFA Ad campaigns, Data Connectors needs to identify when a visitor has clicked on a DFA campaign banner ad. To make this possible, you must add a differentiated query-string parameter to the DFA Ad campaign's landing page URL so Data Connectors can distinguish between DFA Ad campaign pages and other ad campaign pages that you might have on your Web site. The `dfa_overrideParam` in the JavaScript plug-in used for DFA.
 
 >[!CAUTION]
 >
@@ -200,7 +200,7 @@ The DFA Integrate Settings Block sets variables required by the DFA integration.
 
 **requestURL**: The remote DFA host to query for ad information. Do not change this value unless so instructed by Adobe.
 
-**maxDelay**: Specifies the amount of time the JavaScript data collection code waits for a response from the DFA Floodlight server, in milliseconds. Adobe recommends experimenting with this value to find the optimum value based on your site’s traffic. For example, increasing this value generally collects more DFA data, but increases the risk of losing the base visitor data if the visitor leaves the site during the delay period. Reducing this value lowers the risk of losing hit data, but can reduce the amount of DFA data sent with the Adobe hit data.
+**maxDelay**: Specifies the amount of time the JavaScript data collection code waits for a response from the DFA Floodlight server, in milliseconds. Adobe recommends experimenting with this value to find the optimum value based on your site's traffic. For example, increasing this value generally collects more DFA data, but increases the risk of losing the base visitor data if the visitor leaves the site during the delay period. Reducing this value lowers the risk of losing hit data, but can reduce the amount of DFA data sent with the Adobe hit data.
 
 **visitCookie**: The name of the cookie used to restrict DFA calls to once per visit.
 
@@ -261,7 +261,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 Note that the Timeout Percentage is actually considering all visitors to the site. Some of those visitors would not have been tied to DFA at all, and so the timeout is misleading. To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). This will show more accuracy.
 
-If the Timeout Percentage is very low, consider decreasing *`s.maxDelay`*. If it is very high, increase *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+If the Timeout Percentage is very low, consider decreasing *`s.maxDelay`*. If it is very high, increase *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren't falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 

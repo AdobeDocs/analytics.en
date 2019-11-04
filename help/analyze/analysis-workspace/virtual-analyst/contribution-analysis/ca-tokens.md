@@ -50,11 +50,11 @@ The number of runs per company is limited by monthly tokens that are granted bas
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Why did Adobe introduce tokens? </b> </p> </td> 
-   <td colname="col2"> <p>Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics since its release in 2015. Giving you a small number of “full” runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. </p> </td> 
+   <td colname="col2"> <p>Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics since its release in 2015. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How does tokening in Contribution Analysis work? Does it cost a token to load a project with an existing Contribution Analysis, or only when running a brand new one?</b> </p> </td> 
-   <td colname="col2"> <p>Each login company (not each user) gets a certain number of tokens per month, which allow you to run “complete” Contribution Analysis in Analysis Workspace. </p> <p>Each time you generate a new Contribution Analysis, you pay one token. Loading projects with pre-run Contribution Analyses does not cost a token. </p> </td> 
+   <td colname="col2"> <p>Each login company (not each user) gets a certain number of tokens per month, which allow you to run "complete" Contribution Analysis in Analysis Workspace. </p> <p>Each time you generate a new Contribution Analysis, you pay one token. Loading projects with pre-run Contribution Analyses does not cost a token. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Do tokens apply to Contribution Analysis in Reports &amp; Analytics?</b> </p> </td> 
@@ -82,7 +82,7 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
 
 >[!IMPORTANT]
 >
->Anomaly Detection and Contribution Analysis have been removed from the Reports & Analytics feature set and are now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to “daily-granularity” Anomaly Detection in Workspace.
+>Anomaly Detection and Contribution Analysis have been removed from the Reports & Analytics feature set and are now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 

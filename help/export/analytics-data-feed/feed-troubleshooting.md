@@ -46,9 +46,9 @@ Once you have verified/corrected the delivery issue, just use [rerun the job](/h
 
 For certain time zones the time will change twice a year due to daylight saving time (DST) definitions. Data feeds honor the time zone for which the report suite is configured. If the time zone for the report suite is one that does not use DST, file delivery will continue normally like any other day. If the time zone of the report suite is one that does use DST, file delivery will be altered for the hour in which the time change occurs (usually 2:00 am).
 
-When making STD -> DST time transitions (“Spring Forward”), the customer will only get 23 files. The hour that is skipped in the DST transition is simply omitted. For example, if the transition occurs at 2 AM, they’ll get a file for the 1:00 hour, and will get a file for the 3:00 hour. There will be no 2:00 file, since at 2:00 STD, it becomes 3:00 DST.
+When making STD -> DST time transitions ("Spring Forward"), the customer will only get 23 files. The hour that is skipped in the DST transition is simply omitted. For example, if the transition occurs at 2 AM, they'll get a file for the 1:00 hour, and will get a file for the 3:00 hour. There will be no 2:00 file, since at 2:00 STD, it becomes 3:00 DST.
 
-When making DST -> STD transitions, (“Fall Back”), the customer will get 24 files. However, the hour of transition will actually include 2 hours’ worth of data. For example, if the transition occurs at 2:00 am, the file for 1:00 will be delayed by one hour, but will contain data for two hours. It will contain data from 1:00 DST to 2:00 STD (which would have been 3:00 DST). The next file will begin at 2:00 STD.
+When making DST -> STD transitions, ("Fall Back"), the customer will get 24 files. However, the hour of transition will actually include 2 hours' worth of data. For example, if the transition occurs at 2:00 am, the file for 1:00 will be delayed by one hour, but will contain data for two hours. It will contain data from 1:00 DST to 2:00 STD (which would have been 3:00 DST). The next file will begin at 2:00 STD.
 
 ## No Data for a Time Period {#section_72510794694D42A9A75C966B812AEB0F}
 

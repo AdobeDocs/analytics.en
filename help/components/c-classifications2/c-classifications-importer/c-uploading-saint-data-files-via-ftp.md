@@ -34,7 +34,7 @@ If you have exceeded your uniques for the month, you will not see the correspond
 
 >[!NOTE]
 >
->The time required to process a classification data file varies on the size of the file and the current number of files already being processed by Adobe’s servers. Processing of data files usually takes no longer than 72 hours.
+>The time required to process a classification data file varies on the size of the file and the current number of files already being processed by Adobe's servers. Processing of data files usually takes no longer than 72 hours.
 
 Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF). 
 

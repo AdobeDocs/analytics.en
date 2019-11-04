@@ -43,7 +43,7 @@ s.products=";SKU"
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 
 ```
 

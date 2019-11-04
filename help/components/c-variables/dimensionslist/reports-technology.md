@@ -42,7 +42,7 @@ These reports display information about browsers, operating systems, monitor res
   </tr> 
   <tr> 
    <td colname="col1"> Monitor Color Depths </td> 
-   <td colname="col2"> <p> Displays your visitors’ most popular color-depth settings as configured on their computer. Color-depth refers to the number of colors that can be displayed on the screen. </p> </td> 
+   <td colname="col2"> <p> Displays your visitors' most popular color-depth settings as configured on their computer. Color-depth refers to the number of colors that can be displayed on the screen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Monitor Resolutions </td> 
@@ -58,7 +58,7 @@ These reports display information about browsers, operating systems, monitor res
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript Version </td> 
-   <td colname="col2"> <p> Displays the versions of JavaScript your visitors’ browsers use while viewing your site. </p> </td> 
+   <td colname="col2"> <p> Displays the versions of JavaScript your visitors' browsers use while viewing your site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 

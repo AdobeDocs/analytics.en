@@ -154,7 +154,7 @@ s.pagename = s.Util.getQueryParam("pageName");
 s.eVar1=s.Util.getQueryParam("v1"); 
 s.campaign=s.Util.getQueryParam("campaign"); 
 s.pageURL=s.Util.getQueryParam("pageURL"); 
-s.referrer=s.Util.getQueryParam(“ref”); 
+s.referrer=s.Util.getQueryParam("ref"); 
 s.t(); 
 </script> 
 </body> 
@@ -201,8 +201,8 @@ If you have questions or problems, please reach out to your Adobe Consultant or 
    <td colname="col2"> <p> Unfortunately, not yet. The AMP standard supports only triggers for "visible", "click", and "timer", and does not yet support explicit triggers for video tracking that can be listened to by the amp-analytics tag. Also, because the <code> "adobeanalytics_nativeConfig" </code> tag can only be loaded once, it is not compatible with video viewing which occurs after the AMP has loaded. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>You mention that visitor inflation is lower for the " <code> adobeanalytics_nativeConfig </code>" template in your comparison. What does that mean? What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> “adobeanalytics_nativeConfig” </code> solution? </p> </td> 
-   <td colname="col2"> <p>The <code> “adobeanalytics” </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> “adobeanalytics_nativeConfig” </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. This means that any visitors from Safari who have not previously visited a publisher’s site will be inflated in Adobe Analytics reporting. </p> </td> 
+   <td colname="col1"> <p>You mention that visitor inflation is lower for the " <code> adobeanalytics_nativeConfig </code>" template in your comparison. What does that mean? What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> "adobeanalytics_nativeConfig" </code> solution? </p> </td> 
+   <td colname="col2"> <p>The <code> "adobeanalytics" </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> "adobeanalytics_nativeConfig" </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. This means that any visitors from Safari who have not previously visited a publisher's site will be inflated in Adobe Analytics reporting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Should I use a separate report suite for AMPs? </p> </td> 

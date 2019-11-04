@@ -58,7 +58,7 @@ After completing the integration wizard, you must activate the integration for e
    ![](assets/advanced_options.png)
 
 1. Select the Adobe Analytics Configuration, then click **[!UICONTROL Save]**. If no configurations are available then you likely have not yet completed the Adobe Integration Wizard.
-   1. The **[!UICONTROL Include Partial Responses]** checkbox can be used to indicate that you’d like to capture data into Adobe Analytics after each partial survey screen is completed. If not checked, then data is transferred only for fully completed surveys.
+   1. The **[!UICONTROL Include Partial Responses]** checkbox can be used to indicate that you'd like to capture data into Adobe Analytics after each partial survey screen is completed. If not checked, then data is transferred only for fully completed surveys.
    1. The **[!UICONTROL Send Timestamp With Beacon]** checkbox should be used only when integrating with a Report Suite that is configured to receive time-stamped data (not common).
 
    ![](assets/integration_config.png)

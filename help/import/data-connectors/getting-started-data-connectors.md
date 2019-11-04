@@ -23,7 +23,7 @@ Data connectors should integrate appropriately with most popular browsers. Howev
 * Monitor Resolution: 1024x768 (800x600 will work)
 * Color Depth: 16-bit or higher
 
-Additionally, data collection improves when users’ web browsers have JavaScript enabled.
+Additionally, data collection improves when users' web browsers have JavaScript enabled.
 
 **Prerequisites**
 

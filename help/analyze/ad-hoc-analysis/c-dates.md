@@ -18,7 +18,7 @@ In the calendar, you can specify dates and date ranges, or select a preset. You 
 
 You can also drag dates (and Time dimensions) into the report or the [!UICONTROL Table Builder]. You can select specific days, weeks, months, years, or a rolling date. If you use the custom calendar in marketing reports and analytics, a report suite inherits those settings and updates the report accordingly.
 
-When selecting a date range while creating a project, using Pre-Configured on the left will set a rolling date while using the calendar on the right will not. An easy way to tell whether your date range is rolling is the statement “This date range will roll” next to the **[!UICONTROL OK]** button.
+When selecting a date range while creating a project, using Pre-Configured on the left will set a rolling date while using the calendar on the right will not. An easy way to tell whether your date range is rolling is the statement "This date range will roll" next to the **[!UICONTROL OK]** button.
 
 ![](assets/daterange.jpeg)
 

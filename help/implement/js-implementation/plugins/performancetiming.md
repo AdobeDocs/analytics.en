@@ -42,7 +42,7 @@ Full details on the Navigation Timing object can be found here:
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-In addition, the plugin can optionally use the performanceEntries object to record the asset name, asset load time start, and asset load time duration details for each individual asset loaded on a given page. A large amount of information is recorded with this plugin, and as such it requires that the DOM storage object is enabled in order to store the page load information between page views. Please be sure that your company’s privacy policy allows for the use of the DOM storage object before enabling this functionality. It also requires the use of a listVar to track all assets.
+In addition, the plugin can optionally use the performanceEntries object to record the asset name, asset load time start, and asset load time duration details for each individual asset loaded on a given page. A large amount of information is recorded with this plugin, and as such it requires that the DOM storage object is enabled in order to store the page load information between page views. Please be sure that your company's privacy policy allows for the use of the DOM storage object before enabling this functionality. It also requires the use of a listVar to track all assets.
 
 ## Required Supporting Plug-Ins {#section_B6447EB6548942EFBC219AEFDC245639}
 

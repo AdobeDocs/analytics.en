@@ -14,7 +14,7 @@ Here is a simple use case: You are a content owner and you want to see which pag
 >
 >You used to have to do this via the Admin Tools. You can still enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
-Here is a simple use cases: You are a content owner and you want to see which pages contributed to (participated in) visits that contained an email sign-up. Here’s how:
+Here is a simple use cases: You are a content owner and you want to see which pages contributed to (participated in) visits that contained an email sign-up. Here's how:
 
 1. Create a new metric in the Calculated Metric Builder. 
 1. Drag the success event "Orders" into the Definition canvas. 

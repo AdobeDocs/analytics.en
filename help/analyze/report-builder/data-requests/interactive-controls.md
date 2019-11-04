@@ -20,8 +20,8 @@ Interactive controls were created in response to a common workflow where analyst
 >[!IMPORTANT]
 >
 >You must have Report Builder v5.0 installed for the interactive controls to work. >
->* If you are running Microsoft Excel on Windows but are running a lower version of report builder, or if you do not have report builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request’s associated parameters. 
->* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: “The macro ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’ cannot be found." 
+>* If you are running Microsoft Excel on Windows but are running a lower version of report builder, or if you do not have report builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request's associated parameters. 
+>* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 
 >[!IMPORTANT]
@@ -39,7 +39,7 @@ Interactive controls were created in response to a common workflow where analyst
 
    ![](assets/control_settings.png)
 
-1. Notice the option to "Automatically refresh linked requests upon item selection”.
+1. Notice the option to "Automatically refresh linked requests upon item selection".
 
     * If checked, all requests that use this control are refreshed. 
     * If not checked, the associated request parameters are updated, but the request is not refreshed.

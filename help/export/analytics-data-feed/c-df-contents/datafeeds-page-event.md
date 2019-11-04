@@ -35,7 +35,7 @@ Lookup table to determine the type of a hit based on the page_event value.
   <tr> 
    <td colname="col1"> Milestone Video </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 - Media start event </p> <p>32 - Media update only event (doesn’t perform any eVar or any other variable processing) </p> <p>33 - Media + other variable update event (includes eVar and other variable processing) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 - Media start event </p> <p>32 - Media update only event (doesn't perform any eVar or any other variable processing) </p> <p>33 - Media + other variable update event (includes eVar and other variable processing) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 - Media start event </p> <p>77 - Media update only event (doesn't perform any eVar or any other variable processing) </p> <p>78 - Media + other variable update event (includes eVar and other variable processing) </p> </td> 
   </tr> 

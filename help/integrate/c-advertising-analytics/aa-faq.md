@@ -91,7 +91,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Is it possible to assign a <b>Virtual Report Suite</b> (VRS) to an Advertising Analytics account? </p> </td> 
-   <td colname="col2"> <p>A: Virtual Report Suites do not collect data, so you cannot directly map an Advertising Analytics account to a VRS. </p> <p>However, you can map the Advertising Analytics account to the parent Report Suite of the VRS that you want to see data in. </p> <p>The Search Engine metrics (click/cost/impressions) may not show up in the VRS unless you include an “or” condition in your segment logic based on the AMO ID (or its classification). Example: Adding “all hits where AMO ID exists” would include the search engine metrics in the segment. </p> </td> 
+   <td colname="col2"> <p>A: Virtual Report Suites do not collect data, so you cannot directly map an Advertising Analytics account to a VRS. </p> <p>However, you can map the Advertising Analytics account to the parent Report Suite of the VRS that you want to see data in. </p> <p>The Search Engine metrics (click/cost/impressions) may not show up in the VRS unless you include an "or" condition in your segment logic based on the AMO ID (or its classification). Example: Adding "all hits where AMO ID exists" would include the search engine metrics in the segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Are Advertising Analytics metrics reportable in the <b>Marketing Channels</b> report? </p> </td> 
@@ -111,7 +111,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Do we only capture google.com or <b>country versions</b> (like google.co.uk, google.it, google.fr, or google.de) as well? </p> </td> 
-   <td colname="col2"> <p>A: The Ad Platform classification captures these values: “Google Adwords”, and “Bing Ads”. </p> <p>A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with “UK_” would provide you with only data for the UK). </p> </td> 
+   <td colname="col2"> <p>A: The Ad Platform classification captures these values: "Google Adwords", and "Bing Ads". </p> <p>A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with "UK_" would provide you with only data for the UK). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: The metric "AMO Cost" is the cost paid for each keyword/ad as reported by the search engine. Is this Net cost or Gross cost? </p> </td> 

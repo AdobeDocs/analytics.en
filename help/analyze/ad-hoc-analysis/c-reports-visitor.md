@@ -94,7 +94,7 @@ The [!UICONTROL Customer Loyalty] report displays purchasing patterns of custome
 >
 >When using these metrics, all user Visits (or all Visitors) are represented in this report, regardless of whether the Visit (or Visitor) included a purchase.
 
-The loyalty state changes after the end of the visit where a purchase event occurs. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is still considered a New Customer interaction, because the visitor’s Customer Loyalty state will not change until the next visit. 
+The loyalty state changes after the end of the visit where a purchase event occurs. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is still considered a New Customer interaction, because the visitor's Customer Loyalty state will not change until the next visit. 
 
 ## Visitor Profile {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
@@ -106,7 +106,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Languages]**: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL Languages]**: Displays your visitors' preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
 
 **[!UICONTROL Domains]**: Lists the organizations and ISPs your visitors use to access your site. This report differs from the [!UICONTROL Full Domains] report in that the Full Domains report registers the full ISP domain, whereas this report lists the secondary domain.
 

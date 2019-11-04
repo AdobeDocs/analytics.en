@@ -30,17 +30,17 @@ Depending on your implementation method, follow these steps.
 
 ## Reporting (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-You can use Adobe Analytics to report on how much of your traffic is consent based and as a result has been server-side forwarded versus how much of your traffic isn’t consent based and has not been forwarded to AAM.
+You can use Adobe Analytics to report on how much of your traffic is consent based and as a result has been server-side forwarded versus how much of your traffic isn't consent based and has not been forwarded to AAM.
 
 To configure this type of reporting, map the new context variable to a custom traffic variable (prop) via processing rules. To do so
 
-1. Implement the “cm.ssf” variable (as shown above.) 
+1. Implement the "cm.ssf" variable (as shown above.) 
 1. [Enable the prop.](/help/admin/admin/c-traffic-variables/traffic-var.md) 
 1. Use processing rules to map the context variable to the prop.
 
     1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** , then select a report suite. 
     1. Click  **[!UICONTROL Edit Report Suite]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]** . 
     1. Click **[!UICONTROL Add Rule.]** 
-    1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable “cm.ssf(Context Data)”. 
+    1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)". 
     1. Click **[!UICONTROL Save]**.
 

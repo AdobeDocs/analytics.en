@@ -30,8 +30,8 @@ Steps to complete the integration wizard in the Data Connectors interface.
 
    |  Item  | Description  |
    |---|---|
-   |  Message ID  | Select an eVar for collecting Message ID’s in real time.  |
-   |  Recipient ID  | Select an eVar for collecting recipient ID’s in real time.  |
+   |  Message ID  | Select an eVar for collecting Message ID's in real time.  |
+   |  Recipient ID  | Select an eVar for collecting recipient ID's in real time.  |
    |  Total Bounces  | Select a numeric event to receive daily bounces from Responsys.  |
    |  Email Sent  | Select a numeric event to receive daily sends from Responsys.  |
    |  Clicked  | Select a numeric event to receive daily total clicks from Responsys.  |
@@ -43,7 +43,7 @@ Steps to complete the integration wizard in the Data Connectors interface.
    1. Rename classifications as needed.
    1. **[!UICONTROL Partner segments]** are standard remarketing segments that are included in your integration.
    1. Under **[!UICONTROL Access Requests]**, check the box to allow product information to be exported to Responsys in daily remarketing segments.
-   1. Configure whether you will collect ID’s by manually updating your Analytics collection code or by using the automated solution. If you select **[!UICONTROL Automated Solution]**, you must include the parameters that are used in email links to pass ID’s.
+   1. Configure whether you will collect ID's by manually updating your Analytics collection code or by using the automated solution. If you select **[!UICONTROL Automated Solution]**, you must include the parameters that are used in email links to pass ID's.
 1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Configuring within the Responsys System{#configuring-within-the-responsys-system}

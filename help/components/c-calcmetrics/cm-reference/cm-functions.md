@@ -233,7 +233,7 @@ round( 314.15, -2) = 300
 
 ## Row Count {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Returns the count of rows for a given column (the number of unique elements reported within a dimension). “Uniques exceeded” is counted as 1. 
+Returns the count of rows for a given column (the number of unique elements reported within a dimension). "Uniques exceeded" is counted as 1. 
 
 ## Row Max {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 

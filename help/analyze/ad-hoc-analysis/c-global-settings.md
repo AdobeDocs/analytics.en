@@ -80,7 +80,7 @@ r_dsc_site_analysis_tab.xml
 
 | Field  | Definition  |
 |--- |--- |
-|Metrics|Select the metrics represented by cylinder width and cylinder height. Determine which metric is displayed using color, and determine the colors that represent low value and high value for that metric. You can establish the metrics for the X and Y axis, and add any other metrics you want in to appear in the report’s pop-up text. You can also invert any of the selected metrics for the display.|
+|Metrics|Select the metrics represented by cylinder width and cylinder height. Determine which metric is displayed using color, and determine the colors that represent low value and high value for that metric. You can establish the metrics for the X and Y axis, and add any other metrics you want in to appear in the report's pop-up text. You can also invert any of the selected metrics for the display.|
 |General and Alerts|Enable and disable certain graphical elements of the report. You can configure alerts that display in the report when metrics associated with the pages represented by cylinders pass a specific value.|
 
 ## Font and Locale Tab - Definitions {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}

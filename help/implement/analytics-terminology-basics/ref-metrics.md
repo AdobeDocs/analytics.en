@@ -25,7 +25,7 @@ Metrics are the foundation of reports and help you view and understand data rela
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Traffic metrics </p> </td> 
-   <td colname="col2"> <p> <b>Page View:</b> One Web page load in a user’s browser (one execution of the Reports &amp; Analytics code). </p> <p> <b>Visit:</b> Any number of page views when visitor comes to your site. A visit ends after 30 minutes of inactivity. </p> <p> <b>Unique Visitor:</b> A person visiting your site for the first time during a given time frame, such as Hour, Day, Week, Month, Quarter or year. (This also includes Unique Visitors for any time frame.) </p> </td> 
+   <td colname="col2"> <p> <b>Page View:</b> One Web page load in a user's browser (one execution of the Reports &amp; Analytics code). </p> <p> <b>Visit:</b> Any number of page views when visitor comes to your site. A visit ends after 30 minutes of inactivity. </p> <p> <b>Unique Visitor:</b> A person visiting your site for the first time during a given time frame, such as Hour, Day, Week, Month, Quarter or year. (This also includes Unique Visitors for any time frame.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conversion metrics </p> </td> 

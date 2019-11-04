@@ -34,11 +34,11 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [What happens to a user's calculated metrics if that user was deleted?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Why do I see “Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Why were changes that I made to my legacy calculated metrics not saved?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Why don’t my calculated metrics show up in the Marketing Channels report?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Why don't my calculated metrics show up in the Marketing Channels report?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Why do some of the calculated metrics show formulas without the parentheses I added?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
@@ -151,9 +151,9 @@ Current data does not support calculated metrics that contain segments or statis
 
 Any calculated metrics that this user created are also deleted. However, deleted calculated metrics will still work as part of saved bookmarks, dashboards, or scheduled reports.
 
-## Why do I see “Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-The user interface displays “unknown” if the calculated metric contains base metrics or dimensions that don’t exist for the selected report suite.
+The user interface displays "unknown" if the calculated metric contains base metrics or dimensions that don't exist for the selected report suite.
 
 ## Why were changes that I made to my legacy calculated metrics not saved? {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -163,15 +163,15 @@ This might be due to the timing of the migration to the new calculated metric da
 
 You will have to redo the changes you made to your legacy metrics.
 
-## Why don’t my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Previously, all calculated metrics were listed in the metric selector on Marketing Channels reports with a First Touch and Last Touch option.)
 
-Now, only those calculated metrics that have their allocation type specifically set to First Touch or Last Touch in the Calculated Metrics builder will be available in the metric selector on Marketing Channels reports. Note that any calculated metrics already applied to Marketing Channel reports will continue to be applied and work as they did before. To create a calculated metric for Marketing Channels, click the configuration icon in the metric builder and select either First Touch or Last Touch as the allocation type. Remember that doing this will make the calculated metric compatible only with Marketing Channel reports and it won’t be usable on any other report.
+Now, only those calculated metrics that have their allocation type specifically set to First Touch or Last Touch in the Calculated Metrics builder will be available in the metric selector on Marketing Channels reports. Note that any calculated metrics already applied to Marketing Channel reports will continue to be applied and work as they did before. To create a calculated metric for Marketing Channels, click the configuration icon in the metric builder and select either First Touch or Last Touch as the allocation type. Remember that doing this will make the calculated metric compatible only with Marketing Channel reports and it won't be usable on any other report.
 
 ## Why do some of the calculated metrics show formulas without the parentheses I added? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-During the migration, Adobe stripped out superfluous parentheses from some formulas. Only parentheses that do not affect how the metric is calculated were removed. This won’t change the data - it just simplifies the formula.
+During the migration, Adobe stripped out superfluous parentheses from some formulas. Only parentheses that do not affect how the metric is calculated were removed. This won't change the data - it just simplifies the formula.
 
 ## (Ad Hoc Analysis only) Are Calculated Metrics with embedded or inline segment definitions still supported? {#section_B25C924A282F49388AB604E3D826F44C}
 

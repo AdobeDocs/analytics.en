@@ -65,11 +65,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>Color Depth Report </p> </td> 
-   <td colname="col2"> <p>Groups mobile device hits by the number of colors supported. The report shows the total number of visitors to your site who used a mobile device, and breaks them into groups based on the number of colors configured in their mobile devices. For example, if your visitor’s mobile phone supports 24 colors, then marketing reports and analytics increments the line item corresponding to 24 colors. </p> </td> 
+   <td colname="col2"> <p>Groups mobile device hits by the number of colors supported. The report shows the total number of visitors to your site who used a mobile device, and breaks them into groups based on the number of colors configured in their mobile devices. For example, if your visitor's mobile phone supports 24 colors, then marketing reports and analytics increments the line item corresponding to 24 colors. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audio Support Report </p> </td> 
-   <td colname="col2"> <p>Groups mobile devices based on the types of audio formats they support. For example, if a visitor’s phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. If the phone supports more than one image format, a visit to a site might result in increments for each supported audio type. In other words, if a phone supports <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>, and <span class="filepath"> .amr</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
+   <td colname="col2"> <p>Groups mobile devices based on the types of audio formats they support. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. If the phone supports more than one image format, a visit to a site might result in increments for each supported audio type. In other words, if a phone supports <span class="filepath"> .mp3</span>, <span class="filepath"> .aac</span>, and <span class="filepath"> .amr</span> formats, then each of those groups in the report is incremented. As such, the sum of the groups might be greater than the total shown at the bottom of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video Support Reports </p> </td> 

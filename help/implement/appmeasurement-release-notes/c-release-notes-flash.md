@@ -53,7 +53,7 @@ Adobe has released a [security update APSB16-13](https://helpx.adobe.com/securit
 public var s:AppMeasurement; 
 s = new AppMeasurement(); 
 s.debugTracking = false; // set to false or remove line 
-                         // for default "disabled” behavior 
+                         // for default "disabled" behavior 
 
 ```
 
@@ -249,7 +249,7 @@ s.autoBindVariablesByValue = true;
 * Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event: 
 
   ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   

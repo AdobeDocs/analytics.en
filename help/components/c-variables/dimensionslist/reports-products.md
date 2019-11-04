@@ -22,7 +22,7 @@ Identifies how individual products and groups of products (categories) contribut
  <tbody> 
   <tr> 
    <td colname="col1"> Products Conversion Funnel </td> 
-   <td colname="col2"> <p> Shows averages for the Product Views, Cart Additions, Orders, Units, and Revenue metrics. It also shows key conversions between important data in each reporting group and standard conversion metrics (Orders, Units, and Revenue). The top (overview) of the funnel provides a visual summary of conversion data. The funnel section shows statistics for all events in the overview section based on Orders and up to two other metrics, such as Revenue and Units. </p> <p>To add metrics and custom events from other reporting groups, click a <span class="uicontrol"> Selected Events</span> link in the report header. </p> <p>Because the current time periods are not yet completed when you view data, this report can indicate a downward trend from the previous to the current time period. For example, there can be fewer visits today than yesterday, but only because the rest of the time period’s statistics have yet to occur. </p> </td> 
+   <td colname="col2"> <p> Shows averages for the Product Views, Cart Additions, Orders, Units, and Revenue metrics. It also shows key conversions between important data in each reporting group and standard conversion metrics (Orders, Units, and Revenue). The top (overview) of the funnel provides a visual summary of conversion data. The funnel section shows statistics for all events in the overview section based on Orders and up to two other metrics, such as Revenue and Units. </p> <p>To add metrics and custom events from other reporting groups, click a <span class="uicontrol"> Selected Events</span> link in the report header. </p> <p>Because the current time periods are not yet completed when you view data, this report can indicate a downward trend from the previous to the current time period. For example, there can be fewer visits today than yesterday, but only because the rest of the time period's statistics have yet to occur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Products </td> 
@@ -34,7 +34,7 @@ Identifies how individual products and groups of products (categories) contribut
   </tr> 
   <tr> 
    <td colname="col1"> Categories </td> 
-   <td colname="col2"> <p> Shows how various product categories affect your site’s success metrics. </p> </td> 
+   <td colname="col2"> <p> Shows how various product categories affect your site's success metrics. </p> </td> 
   </tr> 
  </tbody> 
 </table>

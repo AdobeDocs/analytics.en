@@ -33,5 +33,5 @@ By default, this report has the following time lengths:
 ## Notes {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * This report does not record any first-time visitors, as there is no prior visit to compare against. 
-* The date range in this report uses the time in which the visit occurred. For example, a visitor comes to your site in April, then comes back twice in the same day in October. Pulling a Return Frequency report for the month of October would show one visit under “longer than 1 month”, and one visit under "less than 1 day".
+* The date range in this report uses the time in which the visit occurred. For example, a visitor comes to your site in April, then comes back twice in the same day in October. Pulling a Return Frequency report for the month of October would show one visit under "longer than 1 month", and one visit under "less than 1 day".
 

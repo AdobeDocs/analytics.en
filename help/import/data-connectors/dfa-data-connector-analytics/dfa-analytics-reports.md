@@ -48,5 +48,5 @@ This report has the following important features:
 * The graph displays data for each metric as a percentage of the metric total, rather than using the actual numbers for each metric. You can change this in the **[!UICONTROL Configure Report]** dialog box.
 * Below the graph, the DFA_Ad Name report lists the report details for each of the DFA Ads, and displays both numeric and percentage data for the Ad performance.
 * Select a specific DFA Ad Name to open a menu of options for getting more information about that particular DFA ad.
-* Each metric column includes a color key that corresponds to the metric’s assigned color in the graph.
+* Each metric column includes a color key that corresponds to the metric's assigned color in the graph.
 * The report is ordered by the Revenue metric with highest revenue Ad at the top. You can change the report ordering clicking on a different column (metric) label.

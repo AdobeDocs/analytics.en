@@ -43,7 +43,7 @@ Lists the necessary actions to take in Adobe Analytics before you can deploy the
 |  Authorized Representative  | Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above.  |
 |  Enable Adobe Data Warehouse™  | This integration requires the Data Warehouse to be enabled in order to generate remarketing segments. If you have not enabled the Adobe Data Warehouse, contact Adobe for details.  |
 |  Recipient ID  | The integration requires that we capture and store a "Visitor ID" within a Analytics variable (eVar). The Visitor ID (often referred to as the "Recipient ID") is an encoded or numeric representation of an email address from the Selligent system. This "Recipient ID" is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled back into the Selligent system and can be leveraged for remarketing purposes. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard.  |
-|  External Tracking  | If you’re not currently following the best practice of enabling external tracking for each email campaign you send, you must do so to ensure a successful integration. See the Selligent section below for details.  |
+|  External Tracking  | If you're not currently following the best practice of enabling external tracking for each email campaign you send, you must do so to ensure a successful integration. See the Selligent section below for details.  |
 |  Privacy Compliance  | You should understand that by enabling Recipient or Visitor ID tracking, this feature may track personally identifiable information of your site visitors. This has privacy implications requiring the implementation of appropriate procedures by your organization, such as providing notice to, and consent of, your site visitors.  |
 
 ## Configure Analytics Variables for Selligent{#configure-analytics-variables-for-selligent}
@@ -66,13 +66,13 @@ Apart from these eVars, a few events may be reserved depending on the data from 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Message ID </td> 
    <td colname="col3"> To capture the individual email message campaign identification. </td> 
-   <td colname="col4"> <p><b>Status</b>: Enabled </p> <p><b>Allocation</b>: Most Recent </p> <p><b>Expire After</b>: “Business Decision” </p> </td> 
+   <td colname="col4"> <p><b>Status</b>: Enabled </p> <p><b>Allocation</b>: Most Recent </p> <p><b>Expire After</b>: "Business Decision" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eV ar </td> 
    <td colname="col2"> Recipient ID </td> 
    <td colname="col3"> To capture the anonymous identification for your customer who clicked the email campaign. </td> 
-   <td colname="col4"> <p><b>Status</b>: Enabled </p> <p><b>Allocation</b>: Most Recent </p> <p><b>Expire After</b>: “Business Decision” </p> </td> 
+   <td colname="col4"> <p><b>Status</b>: Enabled </p> <p><b>Allocation</b>: Most Recent </p> <p><b>Expire After</b>: "Business Decision" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Event </td> 
@@ -121,7 +121,7 @@ You will require the following information about your Selligent account during t
 
 * **Adobe Service URL**:
 
-  The URL can be derived from the URL used to log on to the Selligent Marketing solution. Replace the “/simweb/login.aspx” part of the url with “/automation/omniture.asmx”
+  The URL can be derived from the URL used to log on to the Selligent Marketing solution. Replace the "/simweb/login.aspx" part of the url with "/automation/omniture.asmx"
 
   E.g: `http://<client-specific install url>/automation/omniture.asmx` 
 

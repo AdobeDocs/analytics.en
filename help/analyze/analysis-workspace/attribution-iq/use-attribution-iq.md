@@ -24,13 +24,13 @@ Analysis Workspace Freeform Tables support attribution models that can be used o
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-Any breakdown within a Freeform Table can also have any attribution model applied to it which can be the same or different from the parent column. For example, you may want to analyze linear Orders on your Marketing Channels dimension but apply U-Shaped Orders to the specific tracking codes within a Channel. To edit the attribution model applied to a breakdown, simply hover over the breakdown model and click “Edit”:
+Any breakdown within a Freeform Table can also have any attribution model applied to it which can be the same or different from the parent column. For example, you may want to analyze linear Orders on your Marketing Channels dimension but apply U-Shaped Orders to the specific tracking codes within a Channel. To edit the attribution model applied to a breakdown, simply hover over the breakdown model and click "Edit":
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -65,4 +65,4 @@ The attribution panel is an easy way to build an analysis comparing various attr
 |Dimension Overlap Chart|A Venn Diagram showing the top three dimension items (e.g. Channels) and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items (e.g. Channels). Selecting other rows in the Freeform table will update the visualization to reflect your selection.|
 |Marketing Touchpoints Per Journey|A Histogram indicating the number of marketing (or any dimension) touchpoints a Visitor had in the reporting date range. This is useful to see how impactful multi-touch attribution is for your dataset. If nearly all visitors have only a single touchpoint, different attribution models will not be very different from one another in their results.|
 |Marketing Channel Performance Detail|Lets you to compare up to three attribution models visually using a scatter plot.|
-|Marketing Channel Flow|Lets you see which channels are interacted with most commonly, and in what order across a visitor’s journey.|
+|Marketing Channel Flow|Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.|

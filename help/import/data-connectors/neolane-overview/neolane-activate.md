@@ -17,7 +17,7 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 | Field | Description |
 |--- |--- |
 |Report Suite| The report suite that receives the data from this integration.|
-|Integration Name|Specify the integration name that Data Connectors displays in the report suite’s Active Integration List.|
+|Integration Name|Specify the integration name that Data Connectors displays in the report suite's Active Integration List.|
 |Clicked|Total number of email clicks.|
 |Campaign ID |Stores the unique message ID. This is often stored in the campaign variable.|
 |Opened |Total number of email opens.|

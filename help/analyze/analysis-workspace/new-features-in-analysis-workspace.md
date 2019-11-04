@@ -246,7 +246,7 @@ New features and enhancements released on April 12, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
-   <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to “daily-granularity” Anomaly Detection in Workspace. </p> </td> 
+   <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -265,7 +265,7 @@ New features and enhancements released on March 8, 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Header Text Wrapping </a> </p> </td> 
-   <td colname="col2"> <p>You can now wrap the header text in Freeform tables to make headers more readable and tables more shareable. We have added an option in Column settings called “Wrap Header Text.” This is especially useful for .pdf rendering and for metrics with long names. </p> </td> 
+   <td colname="col2"> <p>You can now wrap the header text in Freeform tables to make headers more readable and tables more shareable. We have added an option in Column settings called "Wrap Header Text." This is especially useful for .pdf rendering and for metrics with long names. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > Right-Click to Create Metric </a> </p> </td> 
@@ -309,7 +309,7 @@ New feature and enhancements released on February 8, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > New Project launch modal </a> </p> </td> 
-   <td colname="col2"> <p>Clicking “new project” launches a new screen that gives you the choice to start from </p> 
+   <td colname="col2"> <p>Clicking "new project" launches a new screen that gives you the choice to start from </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">a blank project, or </li> 
      <li id="li_23BD391D68674C299858A97BFE10598B">a standard (built-in) Workspace template, or </li> 
@@ -322,11 +322,11 @@ New feature and enhancements released on February 8, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Improvement to Column % </a> </p> </td> 
-   <td colname="col2"> <p>The “percentage of total” shown in columns was capped at 100%, even when certain scenarios lead to rows being more than 100% of the total (such as with averages). </p> <p>We now show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in width too large. </p> </td> 
+   <td colname="col2"> <p>The "percentage of total" shown in columns was capped at 100%, even when certain scenarios lead to rows being more than 100% of the total (such as with averages). </p> <p>We now show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in width too large. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Conditional Formatting enabled on Breakdowns </a> </p> </td> 
-   <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless “Custom” limits are selected. </p> </td> 
+   <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless "Custom" limits are selected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Changes to default <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendar </a> view </p> </td> 
@@ -392,7 +392,7 @@ New features and enhancements released on January 18, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Relative intra-links </a> when copying/saving-as Project </p> </td> 
-   <td colname="col2"> <p>Previously, when you copied a project or did a “save as”, all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
+   <td colname="col2"> <p>Previously, when you copied a project or did a "save as", all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contribution Analysis: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > Token Notification </a> </p> </td> 
@@ -427,7 +427,7 @@ New feature released on November 09, 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>List of Incompatible Components </p> </td> 
-   <td colname="col2"> <p>Sometimes, not all components included in a project are included in the report suite. The resulting “Incompatible Report Suite" message that displays when loading a project or switching to a report suite now lists the components that are not compatible. </p> </td> 
+   <td colname="col2"> <p>Sometimes, not all components included in a project are included in the report suite. The resulting "Incompatible Report Suite" message that displays when loading a project or switching to a report suite now lists the components that are not compatible. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -532,7 +532,7 @@ New features released on September 21, 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > Histogram Hit Counting Method </a> </p> </td> 
-   <td colname="col2"> <p>Previously, there were 2 counting methods in a Histogram visualization: Visit and Visitor (default). </p> <p>You can now use a third counting method, "Hit", as a segment container. “Occurrences” is used as the y-axis metric in the freeform table. </p> </td> 
+   <td colname="col2"> <p>Previously, there were 2 counting methods in a Histogram visualization: Visit and Visitor (default). </p> <p>You can now use a third counting method, "Hit", as a segment container. "Occurrences" is used as the y-axis metric in the freeform table. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Clear All </span>button for Segment Comparison and Contribution Analysis configuration </p> </td> 
@@ -610,23 +610,23 @@ New features released on July 20, 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (Quick-visualize links) </a></b> </p> </td> 
-   <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and “Get Visualization Link” have been added. </p> </td> 
+   <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > Legend Label Editing </a></b> </p> </td> 
    <td colname="col2"> <p>Lets you rename series names in visualization legends (Fallout, Area, Area Stacked, Bar, Bar Stacked, Donut, Histogram, Horizontal Bar, Horizontal Bar Stacked, Line, Scatter, and Venn) to help you make visuals more consumable. </p> <p>Legend editing <b>does not</b> apply to: Treemap, Bullet, Summary Change or Number, Text, Freeform, Histogram, Cohort or Flow visualizations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > Updates to “Manage Data Sources” </a></b> </p> </td> 
-   <td colname="col2"> <p>We’ve redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > Updates to "Manage Data Sources" </a></b> </p> </td> 
+   <td colname="col2"> <p>We've redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Ability to highlight a specific anomaly </a></b> </p> </td> 
    <td colname="col2"> <p>We now highlight the anomaly with a blue dot within contribution analysis and the intelligent alert projects linked to it. This provides a clearer indication of the anomaly being analyzed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>‘Get Project Link’ for Experience Cloud logins</b> </p> </td> 
-   <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We’ve fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
+   <td colname="col1"> <p><b>‘Get Project Link' for Experience Cloud logins</b> </p> </td> 
+   <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We've fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > 'Expired Projects' filter in Scheduled Projects manager </a></b> </p> </td> 
@@ -753,7 +753,7 @@ New feature released on February 16, 2017:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Breakdown by position </a> </p> </td> 
-   <td colname="col2"> <p>Allows breakdown by table position. Example: “I always want the top 7 rows in a Freeform table to be broken down.” There is now a checkbox when you create a Freeform table that allows you to enable "Breakdown by Position." This setting is disabled by default. </p> <p>Previously, the list of values in the breakdown was “locked”. This led to a situation where, for example, if you did a breakdown of <span class="wintitle"> Date </span> by <span class="wintitle"> Page </span>, you got a list of the top 50 pages for your selected date range. </p> <p>If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace "trusted" the results from the original breakdown and returned the same pages, but with the current month as the date range. </p> </td> 
+   <td colname="col2"> <p>Allows breakdown by table position. Example: "I always want the top 7 rows in a Freeform table to be broken down." There is now a checkbox when you create a Freeform table that allows you to enable "Breakdown by Position." This setting is disabled by default. </p> <p>Previously, the list of values in the breakdown was "locked". This led to a situation where, for example, if you did a breakdown of <span class="wintitle"> Date </span> by <span class="wintitle"> Page </span>, you got a list of the top 50 pages for your selected date range. </p> <p>If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace "trusted" the results from the original breakdown and returned the same pages, but with the current month as the date range. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -776,7 +776,7 @@ New feature released on January 19, 2017:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Auto-share project components </a> </p> </td> 
-   <td colname="col2"> <p>You now have the option to auto-share project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient’s Workspace. </p> </td> 
+   <td colname="col2"> <p>You now have the option to auto-share project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient's Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fallout visualization in CSV format </p> </td> 
@@ -877,10 +877,10 @@ New features released on October 20, 2016:
    <td colname="col2"> 
     <ul id="ul_2585F74DC7754C819017F280E16BF06F"> 
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F"> 
-      <!--AN-124610: -->Added “Count Repeat Instances” as a project-level setting ( <span class="uicontrol"> Project </span> &gt; <span class="uicontrol"> Project Info &amp; Settings </span>). This setting specifies whether repeat instances are counted in reports. If you have multiple sequential values for the same variable, you can count them either as one or as multiple instances of the variable. </li> 
+      <!--AN-124610: -->Added "Count Repeat Instances" as a project-level setting ( <span class="uicontrol"> Project </span> &gt; <span class="uicontrol"> Project Info &amp; Settings </span>). This setting specifies whether repeat instances are counted in reports. If you have multiple sequential values for the same variable, you can count them either as one or as multiple instances of the variable. </li> 
      <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">Added a new button called "Apply to All Panels" next to "Cancel" and "Run" in the Calendar. Changed "Run" to "Apply". If you click the new button, it will not only change the selected date range for the current panel, but also for all other panels within the project. </li> 
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
-      <!--AN-124168: -->Added an “Actions” button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
+      <!--AN-124168: -->Added an "Actions" button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Added a filter to the search bar that lets you filter on tags, favorites, approved items, and components. </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
@@ -888,7 +888,7 @@ New features released on October 20, 2016:
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->For visualizations, we added a right-click option called <span class="uicontrol"> Start Over </span> from the context menu (will work for Flow, Venn, Histogram), which deletes the configuration for the current visualization and opens a new panel where you can re-configure it. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">A new visualization setting called "Legend Visible" lets you hide the filter details text for the Summary Number/Summary Change visualization. </li> 
-     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">A new visualization setting for Summary Change visualizations lets you “Show Difference” between 2 percentages. For non-percentage values, if you select the “Show Difference” option, it will show a number. </li> 
+     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">A new visualization setting for Summary Change visualizations lets you "Show Difference" between 2 percentages. For non-percentage values, if you select the "Show Difference" option, it will show a number. </li> 
      <li id="li_17AAABCA7B3A477182FB70453CA2EEBB">Adjusted the number of rows for time dimensions. </li> 
      <li id="li_35A91D50CD514CD0B939C24AEEC64BF4">Updated the look and feel of the left navigation rail in the Segment Builder and the Calculated Metric Builder to look like Analysis Workspace. </li> 
     </ul> </td> 

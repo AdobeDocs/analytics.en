@@ -24,9 +24,9 @@ Column headings are used to identify the data in each column of the Data Source 
 
 **Date**: (Required) A time stamp for each data row in the file.
 
-**Variables**: The names of the reporting variables mapped to the data source’s data dimensions.
+**Variables**: The names of the reporting variables mapped to the data source's data dimensions.
 
-**Events**: The names of the events mapped to the data source’s metrics.
+**Events**: The names of the events mapped to the data source's metrics.
 
 Use the Data Source template to create a Data Sources file that contains data that you want to upload. When creating a Data Sources file, remember the following:
 

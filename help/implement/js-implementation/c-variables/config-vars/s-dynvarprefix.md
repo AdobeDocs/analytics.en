@@ -19,7 +19,7 @@ Cookies, request headers, and image query string parameters are available to be 
 ## Syntax and Possible Values
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OR USE CUSTOM FLAG FOR DYNAMIC VARIABLES
@@ -31,7 +31,7 @@ s.dynamicVariablePrefix=".."
 ## Examples
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OR USE CUSTOM FLAG FOR DYNAMIC VARIABLES

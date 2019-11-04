@@ -20,7 +20,7 @@ The segment rail under the Components menu shows segments as well as segment tem
 
 You can create instant segments by dropping any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the segment drop zone at the top of a panel.
 
-Component types are auto-converted into segments. Alternatively, you can click the “+" sign in the Add Segment drop box.
+Component types are auto-converted into segments. Alternatively, you can click the "+" sign in the Add Segment drop box.
 
 Keep in mind that:
 

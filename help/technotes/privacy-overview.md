@@ -70,7 +70,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> First-party analytics are not within scope of the Self-Regulatory Program for Online Behavioral Advertising (“AdChoices”). </td> 
+   <td colname="col2"> First-party analytics are not within scope of the Self-Regulatory Program for Online Behavioral Advertising ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -90,11 +90,11 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> A customer can set the cookie lifetime variable in the JavaScript measurement code to a value of „none,“ „session“ or another specified value measured in seconds. </td> 
+   <td colname="col2"> A customer can set the cookie lifetime variable in the JavaScript measurement code to a value of „none," „session" or another specified value measured in seconds. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe has developed a new “privacy by design” setting that can now be enabled by Adobe ClientCare for Adobe Analytics (formerly SiteCatalyst) release versions 14.9 and 15.4. When this new setting is enabled, the last octet (the last portion) of the IP address is immediately replaced with the value 0 once the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including prior to both an optional geo-lookup and ISP-lookup of the IP address. </td> 
+   <td colname="col2"> Adobe has developed a new "privacy by design" setting that can now be enabled by Adobe ClientCare for Adobe Analytics (formerly SiteCatalyst) release versions 14.9 and 15.4. When this new setting is enabled, the last octet (the last portion) of the IP address is immediately replaced with the value 0 once the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including prior to both an optional geo-lookup and ISP-lookup of the IP address. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Germany </td> 

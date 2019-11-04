@@ -17,7 +17,7 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 | Field | Description |
 |--- |--- |
 |Report Suite|The report suite that receives the data from this integration.|
-|Integration Name|Specify the integration name that Data Connectors displays in the report suite’s Active Integration List.|
+|Integration Name|Specify the integration name that Data Connectors displays in the report suite's Active Integration List.|
 |E-Mail Address| Provide an email address to receive integration-related information.|
 |Account ID|This is the unique identifier assigned to your organization by your Email Service Provider. It will be used when requesting email campaign data (e.g. # Sent, # Opened, # Clicked, etc.) from and sending visitor segments to your Email Service Provider.|
 |Recipient ID|This ID is an encoded or numeric representation of an email address from the optivo® broadmail system. This "Recipient ID" is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled into the optivo® broadmail system and can be leveraged for remarketing purposes.|

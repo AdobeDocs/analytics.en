@@ -15,7 +15,7 @@ If other visitor ID methods fail, Adobe sets a fallback cookie or uses a combina
 
 ## Fallback Visitor Identification Method {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
-AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe’s data collection servers (called `s_vi`). Previously, if a cookie could not be set, visitors were identified using a combination of the IP address and user agent string during data collection.
+AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe's data collection servers (called `s_vi`). Previously, if a cookie could not be set, visitors were identified using a combination of the IP address and user agent string during data collection.
 
 With this update, if the standard `s_vi` cookie is unavailable, a fallback cookie is created on the domain of the website with a randomly generated unique ID. This cookie, named `s_fid`, is set with a 2 year expiration and is used as the fallback identification method going forward. This change should result in increased accuracy in visit and visitor counts in situations where the primary cookie ( `AMCV_` or `s_vi`) cannot be set.
 

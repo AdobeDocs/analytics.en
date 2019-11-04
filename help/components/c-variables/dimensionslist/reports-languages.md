@@ -14,7 +14,7 @@ Captures the language setting in the visitor's browser, letting you see the reve
 
  **[!UICONTROL Visitor Profile]** > **[!UICONTROL Languages]**
 
-We populate this report based on the accept-language portion of the http header request. The language-accept HTTP header is configured as part of each browser’s language preference settings:
+We populate this report based on the accept-language portion of the http header request. The language-accept HTTP header is configured as part of each browser's language preference settings:
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 

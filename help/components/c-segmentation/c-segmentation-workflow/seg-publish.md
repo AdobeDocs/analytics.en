@@ -46,21 +46,21 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments] > +**
 1. Create a segment in the [!UICONTROL Segment Builder].
-1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
+1. Provide a title and a description for the segment - you won't be able to save it otherwise.
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
 >
->Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total "unique visitors" segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
 >
 >![](assets/seg-vis-ecid.png)
 
 |  Element | Description |
 |---|---|
 | **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
-| **[!UICONTROL Audience Creation Window]**| The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
+| **[!UICONTROL Audience Creation Window]**| The time frame you select is used to create the audience on a rolling-calendar basis. For example, "Last 30 days" (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
 | **[!UICONTROL Create in Audience Library]** | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
 | **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
 | **[!UICONTROL Save]** | Saves this segment. |

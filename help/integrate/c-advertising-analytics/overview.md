@@ -87,12 +87,12 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 |Ad (AMO ID)|The Ad Title + Ad Description that is used on your ad.|
 |Keyword (AMO ID)|The Keyword value from you search engine account|
 |Match Type (AMO ID)|The Keyword Match Type assigned to your keyword. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
-|Ad Type (AMO ID)|The type of ad being served, which is typically “Text Ad”.|
+|Ad Type (AMO ID)|The type of ad being served, which is typically "Text Ad".|
 |Ad Title (AMO ID)|The Title object used in your Ad.|
 |Ad Description (AMO ID)|The Ad Description object used in your Ad.|
 |Ad Display URL (AMO ID)|The Ad Display URL object used in your Ad.|
 |Ad Destination URL (AMO ID)|The landing page URL or Final URL assigned to your Ad.|
-|Network (AMO ID)|The network the Ad is being served on. For Advertising Analytics, this value is always “Search”.|
+|Network (AMO ID)|The network the Ad is being served on. For Advertising Analytics, this value is always "Search".|
 |Placement (AMO ID)|The managed placement website (for content networks). Only managed placements use this dimension.|
 |Product Target (AMO ID)|The name of product target used on PLA ads (not the actual product purchased).|
 |Optimization (AMO ID)|This is not used by Advertising Analytics. It is used only by Advertising Cloud customers.|

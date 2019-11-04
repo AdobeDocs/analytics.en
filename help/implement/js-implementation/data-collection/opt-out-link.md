@@ -1,7 +1,7 @@
 ---
-description: Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe’s analytics products by visiting the opt-out page for your data collection domain.
+description: Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe's analytics products by visiting the opt-out page for your data collection domain.
 keywords: Analytics Implementation
-seo-description: Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe’s analytics products by visiting the opt-out page for your data collection domain.
+seo-description: Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe's analytics products by visiting the opt-out page for your data collection domain.
 seo-title: Add an opt-out link
 solution: Analytics
 subtopic: Troubleshooting
@@ -12,11 +12,11 @@ uuid: c12092be-3be7-4621-b838-d6b78d074f84
 
 # Add an opt-out link
 
-Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe’s analytics products by visiting the opt-out page for your data collection domain.
+Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe's analytics products by visiting the opt-out page for your data collection domain.
 
  If a user chooses not to be tracked and an opt-out cookie is set, your JavaScript file will continue to send data to Adobe servers but that data will not be processed or reported on.
 
-The collection_domain section of the URL structure is the trackingServer used in your JavaScript file. The collection domain used for your Adobe Analytics implementation can be seen in the DigitalPulse debugger in the first row of the Adobe Analytics table, which is labeled either “First Party Cookies” or “Third Party Cookies” depending on your implementation. The collection domain for your website may contain 2o7.net, omtrdc.net or your website domain, such as metrics.example.com.
+The collection_domain section of the URL structure is the trackingServer used in your JavaScript file. The collection domain used for your Adobe Analytics implementation can be seen in the DigitalPulse debugger in the first row of the Adobe Analytics table, which is labeled either "First Party Cookies" or "Third Party Cookies" depending on your implementation. The collection domain for your website may contain 2o7.net, omtrdc.net or your website domain, such as metrics.example.com.
 
 Visitors opt-out by clicking the link on the opt-out page, thereby causing a cookie to be set in their browser. By having the `omniture_optout` cookie for the applicable tracking domain, the user's activities will not be reported by Adobe Analytics. You can provide your own link to the opt-out cookie, or you can follow the steps below to set the opt-out cookie.
 
@@ -51,7 +51,7 @@ The `optional_parameters` include:
 * zh_CN 
 * zh_TW
 
-`popup=1`: Treats the page as if it were a popup, and offers a “Close Window” button.
+`popup=1`: Treats the page as if it were a popup, and offers a "Close Window" button.
 
 ## Example Opt-Out URLs {#section_258DE5226AA0483CA790D2C9C5318B2E}
 

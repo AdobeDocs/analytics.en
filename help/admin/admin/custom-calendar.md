@@ -44,7 +44,7 @@ You can use the calendar to define the first day of the week and year, or use a 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom Calendar </p> </td> 
-   <td colname="col2"> <p> Offers three formats based on the number of weeks in each month. The number of weeks in each month depends on the selected first day of the year. </p> <p>A year has 52 weeks. Divide that into 4 quarters and you get 13 weeks per quarter. But there are 3 months in a quarter. 13 is not divisible by three so you end up putting the extra week into one of the months so that it’s always consistent. 5/4/4 means the 1st month of the quarter has the extra week. 4/5/4 means the 2nd month has the extra week, etc. In the 5-4-4 calendar, the 53rd week is added onto the last quarter of the year. </p> 
+   <td colname="col2"> <p> Offers three formats based on the number of weeks in each month. The number of weeks in each month depends on the selected first day of the year. </p> <p>A year has 52 weeks. Divide that into 4 quarters and you get 13 weeks per quarter. But there are 3 months in a quarter. 13 is not divisible by three so you end up putting the extra week into one of the months so that it's always consistent. 5/4/4 means the 1st month of the quarter has the extra week. 4/5/4 means the 2nd month has the extra week, etc. In the 5-4-4 calendar, the 53rd week is added onto the last quarter of the year. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:January has four weeks, February has five weeks, March has four weeks, and so on. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: January has four weeks, February has four weeks, March has five weeks, and so on. </li> 

@@ -13,7 +13,7 @@ uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 
 Data source categories identify different data source types that provide similar functionality.
 
-Categories provide a way to group data sources from a user’s perspective. When creating a data source through the Data Sources UI, first select a data source category, then a specific data source type. Each category contains types of data sources that support similar types of data. Data Sources has the following data source categories:
+Categories provide a way to group data sources from a user's perspective. When creating a data source through the Data Sources UI, first select a data source category, then a specific data source type. Each category contains types of data sources that support similar types of data. Data Sources has the following data source categories:
 
 ## Web Site Usage {#section_4BA8D97B6BA848518F21760AE49F41D1}
 

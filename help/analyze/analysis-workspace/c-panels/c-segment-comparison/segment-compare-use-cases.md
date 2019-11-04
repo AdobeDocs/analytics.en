@@ -15,7 +15,7 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 **"We compared hits from one site to another site and quickly found a number of tagging inconsistencies. This way, we avoided data problems before product release."**
 
-**Scenario**: A product manager in charge of a mobile website and a desktop website was tasked with making sure the tags were consistent across mobile and desktop. To make sure he hadn’t missed anything important, he used Segment IQ to compare the hits coming from the mobile site to the hits coming from the desktop site. He noticed that he has forgotten to tag the checkout event on the mobile website and was able to get the proper tags placed before the mobile site was released. As a result, the product manager avoided a data disaster due to the mobile site not having recorded any conversions.
+**Scenario**: A product manager in charge of a mobile website and a desktop website was tasked with making sure the tags were consistent across mobile and desktop. To make sure he hadn't missed anything important, he used Segment IQ to compare the hits coming from the mobile site to the hits coming from the desktop site. He noticed that he has forgotten to tag the checkout event on the mobile website and was able to get the proper tags placed before the mobile site was released. As a result, the product manager avoided a data disaster due to the mobile site not having recorded any conversions.
 
 **How to set up this comparison:** 
 
@@ -66,7 +66,7 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 ## Use case 4: compare visitors from paid search to everyone else {#section_73912670409349CAB131FE9D8B4FB11C}
 
-**"Visitors coming to our site from search engines were 3 times more likely to up-sell than everyone else. We upped our spend on specific keywords as a result and achieved a 56% increase in up-sells.”**
+**"Visitors coming to our site from search engines were 3 times more likely to up-sell than everyone else. We upped our spend on specific keywords as a result and achieved a 56% increase in up-sells."**
 
 **Scenario:** A major B2B services company wanted to understand the type of traffic that paid search keywords were bringing to their site. Paid search had not resulted in a lot of conversions directly, and the marketing executive was considering decreasing budget for it. The marketing team created a segment of visitors who came to the site via paid search and compared them to all other visitors using Segment IQ. They discovered that although these visitors were not as likely to convert directly, they were however 3 times more likely to up-sell on a previously purchased service. The marketing team was then able to focus their budget on just the up-sell related keywords and saw a 56% increase in service up-sells.
 
@@ -78,9 +78,9 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 ## Use case 5: compare Fitbit purchasers to everyone else {#section_9142B8A270764545B0A516AA309F1785}
 
-**"We found that people buying Fitbits were 6 times more likely to get an ‘out of stock’ message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"**
+**"We found that people buying Fitbits were 6 times more likely to get an ‘out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"**
 
-**Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the “Fitbit” line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an “out of stock” message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
+**Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the "Fitbit" line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
 
 **How to set up this comparison:** 
 

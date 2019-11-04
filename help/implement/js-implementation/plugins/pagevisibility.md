@@ -115,7 +115,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
     * **Average Page Hidden Seconds** ((Total Page Seconds - Total Page Visibility Seconds)/Total Page Visibility Instances)
 
 * Due to the way the plug-in rounds up the seconds, there can be a 1-2 second difference between the total page visibility seconds and total seconds, with total seconds being higher. (To be resolved in a future update) 
-* Using the getVisitStart plug-in should account for visitors that have a new visit start after a period of 30+ minutes of inactivity. This is not working as designed; however, there will likely be a workaround when we incorporate the “total active seconds” in a future iteration of the plug-in.
+* Using the getVisitStart plug-in should account for visitors that have a new visit start after a period of 30+ minutes of inactivity. This is not working as designed; however, there will likely be a workaround when we incorporate the "total active seconds" in a future iteration of the plug-in.
 
 ## Frequently Asked Questions {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -129,7 +129,7 @@ Yes, the total page seconds and total visibility instances are optional events a
 
 **Will the events captured make sense if I use them in reports other than the Previous Page Name?**
 
-Since the plugin records values on the subsequent image request only other eVars that have been captured in a ‘previous page’ context could be applied, i.e. ‘Previous Page URL’.
+Since the plugin records values on the subsequent image request only other eVars that have been captured in a ‘previous page' context could be applied, i.e. ‘Previous Page URL'.
 
 **Will the plug-in send the visibility time on an s.tl() call, or only on an s.t() call?**
 

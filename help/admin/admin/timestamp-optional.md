@@ -26,7 +26,7 @@ See [Using Timestamps Optional](/help/implement/js-implementation/timestamps-ove
 
 >[!NOTE]
 >
->Timestamp-enabled session data is kept for up to 92 days. This means that a visit/session will be “held open” for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not. 
+>Timestamp-enabled session data is kept for up to 92 days. This means that a visit/session will be "held open" for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not. 
 
 ## New Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 

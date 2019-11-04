@@ -43,9 +43,9 @@ This same concept of going from one value to another value applies to other traf
 You might want to know how people path through your site based on a visitor's log-in status. To see this information you would not look at the pathing reports for login status, because they would show you how visitors changed values in that report, or how visitors might have changed from logged-in to logged-out. Instead, concatenate the segment value with the *`s.pageName`* variable, and then path that resultant variable. Here is sample code for page pathing per member status:
 
 ```js
-s.pageName=“Home Page”; 
-s.prop18=“Gold”; // Member Status 
-s.prop19=s.prop18 + “:” + s.pageName;
+s.pageName="Home Page"; 
+s.prop18="Gold"; // Member Status 
+s.prop19=s.prop18 + ":" + s.pageName;
 ```
 
 Then, enable pathing for *`s.prop19`* to see how members path through pages.

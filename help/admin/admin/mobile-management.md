@@ -46,7 +46,7 @@ Enabling Location Tracking lets you:
 
 Enabled background hits (hits generated when the app is in the background) means that they treated as regular foreground hits. They now show up in regular reporting and this also affects attribution. This configuration is usually only desirable to maintain consistency with legacy implementations.
 
-Instead, we recommend that you “include background hits” in a [virtual report suite](/help/components/vrs/vrs-about.md). This allows you to see the hits but they will not affect visit and visitor counts adversely. 
+Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). This allows you to see the hits but they will not affect visit and visitor counts adversely. 
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
 
 Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like "pop music terms" and report on the success of that category relative to metrics like Instances (a.k.a. Click-throughs), and conversion to success events. 

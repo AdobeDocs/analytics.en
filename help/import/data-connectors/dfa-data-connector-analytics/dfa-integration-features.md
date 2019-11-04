@@ -43,18 +43,18 @@ The other two classifications, Delivery Tool (DoubleClick for Advertisers) and C
 
 ## SearchCenter De-Duplication {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-The DFA integration is now Adobe SearchCenter aware. By enabling SearchCenter de-duplication via the Data Connectors wizard, search driven visitors will not cause data to be pulled from DFA’s Floodlight Server, and *`s.campaign`* will not be filled in by DFA, thus allowing SearchCenter to populate it. Also, DFA and SearchCenter now populate de-duplication values into the variables for each product.
+The DFA integration is now Adobe SearchCenter aware. By enabling SearchCenter de-duplication via the Data Connectors wizard, search driven visitors will not cause data to be pulled from DFA's Floodlight Server, and *`s.campaign`* will not be filled in by DFA, thus allowing SearchCenter to populate it. Also, DFA and SearchCenter now populate de-duplication values into the variables for each product.
 
 The list below outlines the logic that is enabled when SearchCenter de-duplication is enabled:
 
 If **[!UICONTROL DFA]** > **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
 
-* In the case of a DFA click-through, the integration will populate the string “DFA Clickthrough” to the configured SCM eVar. 
-* In the case of a DFA view-through, the integration will populate the string “DFA Viewthrough” to the SCM eVar.
+* In the case of a DFA click-through, the integration will populate the string "DFA Clickthrough" to the configured SCM eVar. 
+* In the case of a DFA view-through, the integration will populate the string "DFA Viewthrough" to the SCM eVar.
 
 If **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA deduplication]** is selected in the wizard:
 
-* In the case of a DFA view-through, the integration will populate the string “DFA Viewthrough” to the SCM eVar.
+* In the case of a DFA view-through, the integration will populate the string "DFA Viewthrough" to the SCM eVar.
 
 >[!NOTE]
 >

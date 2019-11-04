@@ -47,7 +47,7 @@ Sharing makes this project available to other Analysis Workspace users in your o
    ![](assets/share_component.png)
 
 1. Add recipients. 
-1. (Optional) You can share embedded project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient’s Workspace. 
+1. (Optional) You can share embedded project components (segments, calculated metrics, and date ranges) with all recipients. After being shared, these components will appear in the components drop-down of the recipient's Workspace. 
 
    >[!IMPORTANT]
    >

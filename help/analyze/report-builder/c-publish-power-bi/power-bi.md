@@ -61,7 +61,7 @@ Scheduled workbooks are formatted Excel spreadsheets populated with data from Ad
 
 >[!NOTE]
 >
->If the workbook contains a macro, the “Publish All Formatted Tables in the Workbook as Power BI Dataset Tables” will be disabled.
+>If the workbook contains a macro, the "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables" will be disabled.
 
 Instead of importing the entire workbook, you can import only the content of all formatted tables within the workbook.
 

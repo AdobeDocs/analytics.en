@@ -52,6 +52,6 @@ See the [IP Addresses Used in the Experience Cloud](https://marketing.adobe.com/
 
 ## Impact of IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
-If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don’'t need to change anything when they enable IP obfuscation.
+If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don''t need to change anything when they enable IP obfuscation.
 
 If the last octet is removed, that is done before IP filtering. As such, the last octet is replaced with a 0, and IP exclusion rules should be updated to match IP addresses with a zero on the end. Matching &#42; should match 0. 

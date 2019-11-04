@@ -10,7 +10,7 @@ uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 
 ## Ad Sales and Content Decisions {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-As a Media Publisher, you can provide not only size but audience effectiveness metrics to your ad sales team. You can also determine what content resonates best with specific demographic segments, like "Women in their 30s who are 1st-time moms.”
+As a Media Publisher, you can provide not only size but audience effectiveness metrics to your ad sales team. You can also determine what content resonates best with specific demographic segments, like "Women in their 30s who are 1st-time moms."
 
 ## Re-Targeting Opportunities {#section_29C46BA00B3D43CE8A433EA64072D952}
 

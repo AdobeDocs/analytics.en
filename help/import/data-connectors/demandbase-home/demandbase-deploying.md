@@ -45,7 +45,7 @@ To activate the integration, you must complete the configuration wizard within t
   </tr> 
   <tr> 
    <td colname="col1"> Send to Adobe Target </td> 
-   <td colname="col2">If “true”, the Demandbase dimensions will also be sent to Adobe Target using a hidden mbox. <p>Note:  A configured mbox.js file must be implemented on the webpage for dimensions to be collected. </p> </td> 
+   <td colname="col2">If "true", the Demandbase dimensions will also be sent to Adobe Target using a hidden mbox. <p>Note:  A configured mbox.js file must be implemented on the webpage for dimensions to be collected. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ To activate the integration, you must complete the configuration wizard within t
 
 1. Configure the names for the Custom Dimension (if applicable).
 
-    1. If you chose to include Custom Dimensions in step 4 and mapped the optional eVar in step 5, then you have to provide friendly names for those dimensions. For example, if you chose to enter “stock_ticker” as Custom Dimension 1, then you should change the box containing “Dimension 1” to “Stock Ticker”. 
+    1. If you chose to include Custom Dimensions in step 4 and mapped the optional eVar in step 5, then you have to provide friendly names for those dimensions. For example, if you chose to enter "stock_ticker" as Custom Dimension 1, then you should change the box containing "Dimension 1" to "Stock Ticker". 
     1. Do **NOT** modify the names of the standard 8 dimensions (i.e. Demandbase SID, Company Name, Industry, etc.).
 
 1. Check the box to have the Demandbase Integration dashboard automatically created for you (recommended). 
@@ -122,15 +122,15 @@ However, if you do need to make adjustments, some of the code settings are descr
   </tr> 
   <tr> 
    <td colname="col1"> _db._tntVarPrefix </td> 
-   <td colname="col2"> This string is prepended to each Demandbase dimension name before sending to Adobe Target. Example, if this setting has the value “db_” then the dimension “industry” will be sent to Adobe Target as “db_industry”. </td> 
+   <td colname="col2"> This string is prepended to each Demandbase dimension name before sending to Adobe Target. Example, if this setting has the value "db_" then the dimension "industry" will be sent to Adobe Target as "db_industry". </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._dimensionsArray </td> 
-   <td colname="col2"> The standard Demandbase dimensions that are sent to Adobe Analytics. It is recommended that you do not modify this setting. The “max_size” property is the number of allowed characters for the dimension before truncation occurs. </td> 
+   <td colname="col2"> The standard Demandbase dimensions that are sent to Adobe Analytics. It is recommended that you do not modify this setting. The "max_size" property is the number of allowed characters for the dimension before truncation occurs. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._dimensionsArrayCustom </td> 
-   <td colname="col2"> The custom Demandbase dimensions that are sent to Adobe Analytics. The “max_size” property is the number of allowed characters for the dimension before truncation occurs. </td> 
+   <td colname="col2"> The custom Demandbase dimensions that are sent to Adobe Analytics. The "max_size" property is the number of allowed characters for the dimension before truncation occurs. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._cName </td> 
@@ -166,7 +166,7 @@ If you do not already have the Integrate Module as part of your deployment, plea
 
 ### For Legacy Code (H-code) {#section-bba8ad8c715e4f97883e7de3269f681a}
 
-1. Download the Integrate Module from the “Resources” area within the Data Connectors UI (under the Support tab).
+1. Download the Integrate Module from the "Resources" area within the Data Connectors UI (under the Support tab).
 
    ![](assets/h_code.png)
 
@@ -211,16 +211,16 @@ Alternatively, you can navigate to the Demandbase reporting within the Adobe Ana
 
 **What does "[n/a]" mean?**
 
-The Demandbase Data Connector indicates when an attribute is “Not Available” by setting this default value. There are two common scenarios where the default is set:
+The Demandbase Data Connector indicates when an attribute is "Not Available" by setting this default value. There are two common scenarios where the default is set:
 
 * Demandbase detects that the visitor is coming from an IP address that does not belong to a company. 
-* An Account Watch attribute (beginning with “watch_list”) is used, but the company is not in your Account Watch list.
+* An Account Watch attribute (beginning with "watch_list") is used, but the company is not in your Account Watch list.
 
-**Why does “`[n/a]`” appear more often for certain attributes?**
+**Why does "`[n/a]`" appear more often for certain attributes?**
 
-Demandbase classifies all IP addresses and provides the audience and audience_segment attributes even when the visitor is not coming from a company IP. When audience returns values such as “Residential”, “Wireless”, and “Hospitality”, the rest of the attributes are likely not available.
+Demandbase classifies all IP addresses and provides the audience and audience_segment attributes even when the visitor is not coming from a company IP. When audience returns values such as "Residential", "Wireless", and "Hospitality", the rest of the attributes are likely not available.
 
-At times, a visitor’s audience will be “SMB”, but other attributes will show “`[n/a]`”. This means Demandbase is able to classify the visitor as a small business, but the full company profile is not available. This typically happens for the smallest companies, when more than one small business is using the same service provider or block of IP addresses.
+At times, a visitor's audience will be "SMB", but other attributes will show "`[n/a]`". This means Demandbase is able to classify the visitor as a small business, but the full company profile is not available. This typically happens for the smallest companies, when more than one small business is using the same service provider or block of IP addresses.
 
 ### Developer Considerations {#section-d33fff55bc4b4db99f82dee418ef1bc2}
 

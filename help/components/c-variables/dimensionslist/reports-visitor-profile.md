@@ -22,7 +22,7 @@ Reports that help you see purchasing patterns of customers from various profile 
  <tbody> 
   <tr> 
    <td colname="col1"> Languages </td> 
-   <td colname="col2"> <p> Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site. </p> </td> 
+   <td colname="col2"> <p> Displays your visitors' preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domains </td> 

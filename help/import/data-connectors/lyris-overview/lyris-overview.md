@@ -63,7 +63,7 @@ This ensures that the appropriate best practices and pre-requisites are in place
     * *Lyris API Key*: Used for data population 
     * *Query String Parameters*: These are appended in the landing page URL for Message ID and Recipient ID (Visitor ID). 
     * *Lyris Server/URL*: The server value that you use in the Lyris system 
-    * *Lyris Site ID*: Also known as “Customer ID”, this is the unique value for your instance of Lyris HQ. This can be located under “Customer Info” in the “Account Home” section of EmailLabs.
+    * *Lyris Site ID*: Also known as "Customer ID", this is the unique value for your instance of Lyris HQ. This can be located under "Customer Info" in the "Account Home" section of EmailLabs.
 
 ## Configure Adobe Analytics variables for Lyris{#configure-adobe-analytics-variables-for-lyris}
 
@@ -85,13 +85,13 @@ This integration requires at least 2 eVars to be reserved for each report suite 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Message ID </td> 
    <td colname="col3"> To capture the individual email message campaign identification </td> 
-   <td colname="col4"> <p>Status: Enabled </p> <p>Allocation: Most Recent </p> <p>Expire After: “Business Decision” </p> </td> 
+   <td colname="col4"> <p>Status: Enabled </p> <p>Allocation: Most Recent </p> <p>Expire After: "Business Decision" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Email Recipient ID </td> 
    <td colname="col3"> To capture the anonymous identification for your customer who clicked the email campaign </td> 
-   <td colname="col4"> <p>Status: Enabled </p> <p>Allocation: Most Recent </p> <p>Expire After: “Business Decision” </p> </td> 
+   <td colname="col4"> <p>Status: Enabled </p> <p>Allocation: Most Recent </p> <p>Expire After: "Business Decision" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Event </td> 

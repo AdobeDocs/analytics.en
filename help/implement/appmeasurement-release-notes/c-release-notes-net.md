@@ -60,7 +60,7 @@ Release Date: **September 2012**
 * Fixed an issue that might cause the video complete event to not be sent when using a custom `media.monitor` method that tracks the media close event: 
 
   ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   

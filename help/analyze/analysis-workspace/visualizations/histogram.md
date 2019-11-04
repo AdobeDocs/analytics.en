@@ -37,7 +37,7 @@ To adjust your histogram settings, click the Settings ("gear") icon in the upper
 |  Starting Bucket  | Determines which bucket the histogram starts with. "1" is the default. You can set starting numbers from 0 to infinity (no negative numbers).  |
 |  Metric Buckets  | Lets you increase/decrease the number of data ranges (buckets.) The maximum number of buckets is 50.  |
 |  Metric Bucket Size  | Lets you set the size of each bucket. For example, you can change the bucket size from 1 page view to 2 page views.  |
-|  Counting Method  | Lets you choose among [Visitor](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visit](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html), or [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). For example, page views per visit or page views per visitor or page views per hit. For Hit, “Occurrences” is used as the y-axis metric in a freeform table.  |
+|  Counting Method  | Lets you choose among [Visitor](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visit](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html), or [Hit](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). For example, page views per visit or page views per visitor or page views per hit. For Hit, "Occurrences" is used as the y-axis metric in a freeform table.  |
 
 **Examples**:
 

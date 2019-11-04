@@ -137,7 +137,7 @@ You can [build a framework of containers](/help/components/c-segmentation/seg-ov
 
 You can build segments that contain rolling date ranges in order to answer questions about ongoing campaigns or events. 
 
-For example, you can easily build a segment that includes “everyone who has made a purchase over the past 60 days”.
+For example, you can easily build a segment that includes "everyone who has made a purchase over the past 60 days".
 
 You create a Visit container and within it, add the [!UICONTROL Last 60 days] time range and the metric [!UICONTROL Orders is greater than or equal to 1], with an AND operator:
 

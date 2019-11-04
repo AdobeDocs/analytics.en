@@ -50,7 +50,7 @@ Reports & Analytics and Ad Hoc Analysis combine the segment with each step. When
 
 However, if the segment applied to the panel is smaller than the level of the fallout (e.g. hit level), then the segment will show different results because of how it is combined by the report. To reiterate, under most circumstances the numbers in Analysis Workspace match those in Reports & Analytics and Ad Hoc Analysis. They will **not** match only if all of the cases below are true:
 
-* The segment isn’t at the same level as the fallout. 
+* The segment isn't at the same level as the fallout. 
 * The segment has a variable where the visitor/visit can have multiple values during a visit/visitor.
 
 In the rare case where you need to have Analysis Workspace match the Reports & Analytics way of applying segments to fallout/flow, simply drop the segment into each fallout step in Workspace and it will result in the same numbers. 

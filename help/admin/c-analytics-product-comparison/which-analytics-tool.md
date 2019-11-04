@@ -62,7 +62,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * Options:
 
     * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it". 
-    * Browser importer: use when you don’t have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
+    * Browser importer: use when you don't have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
 
 **[Data Sources](/help/import/c-data-sources/datasrc-home.md)** should be used:
 
@@ -107,7 +107,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
-* To access all unique dimension values if you are running into “Low Traffic” in Adobe Analytics
+* To access all unique dimension values if you are running into "Low Traffic" in Adobe Analytics
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 
@@ -125,7 +125,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 Engineering Services should be used when:
 
-* The other Adobe tools don’t meet your needs. 
+* The other Adobe tools don't meet your needs. 
 * You want a custom experience. 
 * You want a fully automated solution. 
 * You want to reach many devices. 

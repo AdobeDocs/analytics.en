@@ -55,7 +55,7 @@ Let's assume workbook A has one request which is in a locked state and was creat
 **Example 1: Admin user (or User A)**
 
 1. User logs into Report Builder and opens workbook A. 
-1. Workbook A is currently locked, so the “Create Request” button is deactivated in the toolbar, along with all other buttons whose functionality is disabled by locking. 
+1. Workbook A is currently locked, so the "Create Request" button is deactivated in the toolbar, along with all other buttons whose functionality is disabled by locking. 
 1. If the user attempts to use one of the deactivated buttons, a message appears that the workbook is currently locked. 
 1. The user may unlock the workbook, which enables full editing functionality. 
 1. After unlocking, the workbook remains unlocked until explicitly re-locked.

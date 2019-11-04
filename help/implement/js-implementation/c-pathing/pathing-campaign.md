@@ -24,7 +24,7 @@ s.prop1=s.pageName;
 You should do this on all pages unless the person has clicked from a campaign. If they have clicked from a campaign and are on the landing page of the campaign, then you populate the prop with a concatenation of the campaign and the [!UICONTROL pagename]. See below:
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ‘ : ' + s.pageName;
 ```
 
 If the campaign they clicked was named "banner1234," and the page it landed on was named "Home Page," the value in that prop would be "banner1234 : Home Page." On every subsequent page you put the [!UICONTROL pagename] in the prop as shown above.
@@ -32,7 +32,7 @@ If the campaign they clicked was named "banner1234," and the page it landed on w
 When a user clicks this campaign and views four total pages in that visit, you get the following values in the sprop in this order:
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 With our data captured in [!UICONTROL prop1] in this way, with pathing enabled on this prop, you can now look at one of various pathing reports to understand how they path through the site after they click from a campaign.

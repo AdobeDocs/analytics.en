@@ -63,7 +63,7 @@ Steps describing what to configure within Lyris following the completion of the 
 
    >[!NOTE]
    >
-   >If you are applying Lyris’s native analytics tool, *Click Tracks* tags all of the required variables that are added.
+   >If you are applying Lyris's native analytics tool, *Click Tracks* tags all of the required variables that are added.
 
 ## Verifying the Integration{#verifying-the-integration}
 

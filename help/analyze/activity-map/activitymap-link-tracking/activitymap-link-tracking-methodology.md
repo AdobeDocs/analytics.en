@@ -58,12 +58,12 @@ Using Link Region has these benefits:
 * It helps differentiate links with the same primary ID. 
 * Trending on a region is less affected by the dynamic aspect of the web page. 
 * Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting). 
-* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: “Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
+* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: "Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
 * In itself, Region is a relevant dimension to analyze highly dynamic web pages. This is because it removes the noise due to continuously changing links: a "Latest News" Region in the CNN landing page may have a lot of changing links. But the region will always be there. So it might be interesting to trend at the Region level over many days.
 
 **Customized Region Tracking**
 
-You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different “IDs” on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
+You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different "IDs" on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
 
 Below, you can view some sample HTML using the default region ID attribute, "id".
 

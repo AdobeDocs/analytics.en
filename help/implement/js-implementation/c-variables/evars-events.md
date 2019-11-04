@@ -1,7 +1,7 @@
 ---
-description: If you want to track additional information, but don’t have enough variables to do so, you now have access to additional eVars and success events 
+description: If you want to track additional information, but don't have enough variables to do so, you now have access to additional eVars and success events 
 keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
-seo-description: If you want to track additional information, but don’t have enough variables to do so, you now have access to additional eVars and success events 
+seo-description: If you want to track additional information, but don't have enough variables to do so, you now have access to additional eVars and success events 
 seo-title: Additional eVars and events
 solution: Analytics
 title: Additional eVars and events
@@ -11,7 +11,7 @@ uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 
 # Additional eVars and events
 
-If you want to track additional information, but don’t have enough variables to do so, you now have access to additional eVars and success events:
+If you want to track additional information, but don't have enough variables to do so, you now have access to additional eVars and success events:
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ If you want to track additional information, but don’t have enough variables t
 
 * **Will all Adobe Analytics interfaces have immediate access to these new variables?** These interfaces will have immediate access: [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Ad Hoc Analysis], APIs, and [!UICONTROL Data Workbench]. 
 
-* **Will these additional eVars and events automatically show up in my data feeds?** Data feeds will have access to the new variables and events once enabled. New eVar columns will not appear until you choose to include them. However, new events will appear in the event_list column as soon as they’re enabled, and the events lookup table contains the event names for those event IDs. Do not enable new events unless you are ready to consume them in Data Feeds. 
+* **Will these additional eVars and events automatically show up in my data feeds?** Data feeds will have access to the new variables and events once enabled. New eVar columns will not appear until you choose to include them. However, new events will appear in the event_list column as soon as they're enabled, and the events lookup table contains the event names for those event IDs. Do not enable new events unless you are ready to consume them in Data Feeds. 
 
 * **How do I request new data feed columns?** To request new columns, refer to [Configuring Data Feeds](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_configure.html). 
 

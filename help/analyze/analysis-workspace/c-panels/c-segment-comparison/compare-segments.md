@@ -38,9 +38,9 @@ Explains how to compare segments in Analysis Workspace.
 
 1. After you've selected the right "Compare Against" segment, click **[!UICONTROL Build]**.
 
-   This action starts a back-end process that goes through every dimension, metric, and other segments, looking for statistical differences between the segments. At the top of the tool, we display a progress bar indicating the remaining time until we’ve scanned every metric and dimension for important differences. Additionally, we prioritize your most frequently used metrics, dimensions, and segments to run first so that we can give you the most relevant results as fast as possible.
+   This action starts a back-end process that goes through every dimension, metric, and other segments, looking for statistical differences between the segments. At the top of the tool, we display a progress bar indicating the remaining time until we've scanned every metric and dimension for important differences. Additionally, we prioritize your most frequently used metrics, dimensions, and segments to run first so that we can give you the most relevant results as fast as possible.
 
-   Once the back-end process has completed its scan, you’ll notice a number of new visuals:
+   Once the back-end process has completed its scan, you'll notice a number of new visuals:
 
    ![](assets/new-viz.png)
 

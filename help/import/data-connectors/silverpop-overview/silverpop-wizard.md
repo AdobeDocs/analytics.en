@@ -34,7 +34,7 @@ To configure the integration:
   <tr valign="top"> 
    <td colname="col2" valign="top" align="left"> <p>Integration Name </p> </td> 
    <td colname="col03"> <p>(1) Integration Settings </p> </td> 
-   <td colname="col3"> <p>Specify the integration name that Data Connectors displays in the report suite’s Active Integration List. </p> </td> 
+   <td colname="col3"> <p>Specify the integration name that Data Connectors displays in the report suite's Active Integration List. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2" valign="top" align="left"> <p>Download File </p> </td> 

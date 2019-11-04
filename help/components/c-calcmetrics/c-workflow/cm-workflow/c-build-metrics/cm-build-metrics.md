@@ -108,7 +108,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Dimensions </p> </td> 
-   <td colname="col3"> <p>Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. “Page = Homepage”, you can drag in Page and select Homepage directly from the Calculated Metric Builder. </p> <p>This results in a much more streamlined workflow for creating segmented calculated metrics. </p> </td> 
+   <td colname="col3"> <p>Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. "Page = Homepage", you can drag in Page and select Homepage directly from the Calculated Metric Builder. </p> <p>This results in a much more streamlined workflow for creating segmented calculated metrics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Metrics </p> </td> 

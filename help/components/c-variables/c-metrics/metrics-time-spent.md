@@ -34,7 +34,7 @@ This table lists the various Time Spent metrics, their definition, and where in 
   <tr> 
    <td colname="col1"> <p>Total seconds spent </p> </td> 
    <td colname="col2"> <p>Represents the total amount of time visitors interact with a specific dimension item. </p> <p>Includes the instance of a value and persistence across all subsequent hits. In the case of props, time spent is counted across subsequent link events as well. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (called ‘total time spent’) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (called ‘total time spent') </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Time spent per visit (Seconds) </p> </td> 
@@ -43,17 +43,17 @@ This table lists the various Time Spent metrics, their definition, and where in 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Time spent per visitor (Seconds) </p> </td> 
-   <td colname="col2"> <p><i>Total seconds spent / (unique visitor - bounce unique visitors)</i> </p> <p>Represents the average amount of time visitors interact with a specific dimension item across the visitor’s lifetime (length of their cookie). </p> </td> 
+   <td colname="col2"> <p><i>Total seconds spent / (unique visitor - bounce unique visitors)</i> </p> <p>Represents the average amount of time visitors interact with a specific dimension item across the visitor's lifetime (length of their cookie). </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Average time spent on site (Seconds) </p> </td> 
-   <td colname="col2"> <p>Represents the total amount of time visitors interact with a specific dimension item, per sequence with a dimension item. It is not just limited to “site” averages as the name suggests. See How Time Spent is Calculated section for more information on sequences. </p> <p>Note:  This metric will very likely differ from Time Spent per Visit at a dimension item level due to the differences in the denominator in the calculation. </p> </td> 
+   <td colname="col2"> <p>Represents the total amount of time visitors interact with a specific dimension item, per sequence with a dimension item. It is not just limited to "site" averages as the name suggests. See How Time Spent is Calculated section for more information on sequences. </p> <p>Note:  This metric will very likely differ from Time Spent per Visit at a dimension item level due to the differences in the denominator in the calculation. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (shown in minutes) </p> <p>Report Builder (shown in minutes) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Average time spent on page </p> </td> 
-   <td colname="col2"> <p><b>Deprecated metric. </b> </p> <p>We recommend that you use ‘Average time spent on site’ if average time for a dimension item is needed. </p> </td> 
+   <td colname="col2"> <p><b>Deprecated metric. </b> </p> <p>We recommend that you use ‘Average time spent on site' if average time for a dimension item is needed. </p> </td> 
    <td colname="col3"> <p>Report Builder (when a dimension is in the request) </p> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ This table lists the various Time Spent dimensions, their definition, and where 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Time spent on page - granular </p> </td> 
-   <td colname="col2"> <p>The total time spent on each hit, truncated to the nearest second. It is a hit-level dimension and includes both page views and link events. It is not just limited to the “page” dimension, as the name suggests. </p> </td> 
+   <td colname="col2"> <p>The total time spent on each hit, truncated to the nearest second. It is a hit-level dimension and includes both page views and link events. It is not just limited to the "page" dimension, as the name suggests. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -167,10 +167,10 @@ The **denominator** is not available as a separate metric in Analytics. For hit-
   </tr> 
   <tr> 
    <td colname="col1"> <p>Which time spent dimension is best used in breakdowns with other dimensions? </p> </td> 
-   <td colname="col2"> <p>The “Time Spent on Page - granular” dimension is a hit-level dimension. Breaking this down by another dimension will tell you the seconds that a hit lasted where the breakdown dimension was also present. </p> <p>In the example below, the search term “classifieds” is associated with hit times of 54 seconds, 59 seconds, etc, perhaps indicating that visitors are spending time reading content returned for that search term. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>The "Time Spent on Page - granular" dimension is a hit-level dimension. Breaking this down by another dimension will tell you the seconds that a hit lasted where the breakdown dimension was also present. </p> <p>In the example below, the search term "classifieds" is associated with hit times of 54 seconds, 59 seconds, etc, perhaps indicating that visitors are spending time reading content returned for that search term. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>What metric is appropriate against the dimension of “Time Spent on Page - granular”? </p> </td> 
+   <td colname="col1"> <p>What metric is appropriate against the dimension of "Time Spent on Page - granular"? </p> </td> 
    <td colname="col2"> <p>Any metric. The dimension shows the time spent on the exact hit where the event occurred. Higher time spent means a visitor stayed longer on a page (hit) where the event occurred. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -346,8 +346,8 @@ For Time Spent dimensions, the following rows will appear in the associated repo
 Some additional notes in support of the example:
 
 * All Time Spent calculations are based on the visit elapsed time which starts at zero on the first hit of the visit. 
-* “Seconds Spent” is the difference between the timestamp of the current hit and the timestamp of the next hit. As a result, the last hit of the visit (and bounces) have no time spent. 
-* A “sequence” is a consecutive set of hits where a given variable contains the same value (whether by being set, spread forward, or persisted). For example, prop1 “A” has two sequences: hits 1 & 2 and hit 6. Values on the last hit of the visit do not start a new sequence because the last hit has no time spent. Average time spent on site uses sequences in the denominator.
+* "Seconds Spent" is the difference between the timestamp of the current hit and the timestamp of the next hit. As a result, the last hit of the visit (and bounces) have no time spent. 
+* A "sequence" is a consecutive set of hits where a given variable contains the same value (whether by being set, spread forward, or persisted). For example, prop1 "A" has two sequences: hits 1 & 2 and hit 6. Values on the last hit of the visit do not start a new sequence because the last hit has no time spent. Average time spent on site uses sequences in the denominator.
 
-    * For the purposes of Time Spent only, props are “spread forward” from page hits to subsequent link hits as shown above for prop1 on hit 2. This allows the value that was set for prop1 on hit 1 (“A”) to accumulate time spent on hit 2. 
+    * For the purposes of Time Spent only, props are "spread forward" from page hits to subsequent link hits as shown above for prop1 on hit 2. This allows the value that was set for prop1 on hit 1 ("A") to accumulate time spent on hit 2. 
     * eVars accumulate Time Spent on any hit where the eVar is set or persisted. eVar persistence is defined by the eVar settings in Analytics Admin.

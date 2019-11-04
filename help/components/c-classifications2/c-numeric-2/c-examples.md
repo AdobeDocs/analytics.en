@@ -66,7 +66,7 @@ c_example_2__rate.xml
 |  2010/02/01 - 2010/02/28  | revenue  | revenue  |
 |  2010/02/01 - 2010/02/28  | revenue  | revenue  |
 
-In February, the user’s cost for Product1 went down to 15% of the revenue, and Product2 went down to 25% of its revenue.
+In February, the user's cost for Product1 went down to 15% of the revenue, and Product2 went down to 25% of its revenue.
 
 ## Result {#section_23DF5353AC1B478C88647F222703352C}
 

@@ -67,7 +67,7 @@ c_reports_ref_domains.xml
 
  -->
 
-Shows the domains that referred the customers that most impacted your site’s success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories. 
+Shows the domains that referred the customers that most impacted your site's success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories. 
 
 ## Original Referring Domains {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -101,7 +101,7 @@ See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/refe
 
 ## Referrer Type {#concept_689E42D8F96C450DA41C7167C7388198}
 
-By tracking and recording the visitors’ referring sites for each visit, you can determine how visitors found out about your site for each visit.
+By tracking and recording the visitors' referring sites for each visit, you can determine how visitors found out about your site for each visit.
 
 <!-- 
 
@@ -116,7 +116,7 @@ The list below defines the various types of referrers:
 * *Typed/Bookmarked* referrers are recorded
 
     * If a visitor enters your site via a non-browser link (for example, in an email). 
-    * If a visitor types your site’s URL directly into their browser. 
+    * If a visitor types your site's URL directly into their browser. 
     * If a visitor clicks an HTML link on his or her personal hard drive. 
     * If a visitor accesses your site by selecting browser bookmarks.
 

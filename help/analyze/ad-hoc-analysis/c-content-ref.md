@@ -130,7 +130,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
   </tr> 
   <tr> 
    <td colname="col1">Admin segments <p>(also known as "Global" segments) </p> </td> 
-   <td colname="col2"> <p> <b>Admin</b> segments will be migrated into the new segment interface and will show up as segments shared with everyone. </p> <p>The owner of these segments is set to the admin with the oldest account in the login company’s list of admin users, however, all Admins can delete, edit and share these segments. </p> <p>The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone. </p> </td> 
+   <td colname="col2"> <p> <b>Admin</b> segments will be migrated into the new segment interface and will show up as segments shared with everyone. </p> <p>The owner of these segments is set to the admin with the oldest account in the login company's list of admin users, however, all Admins can delete, edit and share these segments. </p> <p>The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone. </p> </td> 
   </tr> 
  </tbody> 
 </table>

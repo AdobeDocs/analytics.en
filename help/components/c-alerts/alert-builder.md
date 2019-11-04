@@ -55,7 +55,7 @@ Set the alert's expiration date.
 
 * Drag and drop metrics into the canvas that will add triggers.
 
-  Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+  Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Determine the threshold that the metric must exceed before an alert is set. You can set this value to a threshold and then to one of the following conditions:
 

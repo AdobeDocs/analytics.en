@@ -29,7 +29,7 @@ Each row in a Data Sources file that begins with a pound sign (#) is treated as 
 
 Yes. Because many marketing reports are keyed from the date column, Data Sources requires a date column.
 
-## Can I store data in existing variables that I’m already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe recommends you select new, unused variables to import data using Data Sources. If you are uncertain about the configuration of your data file, or want to better understand the risks of re-using variables, contact Customer Care.
 
@@ -49,7 +49,7 @@ Data Sources data never overwrite existing report data. Instead, data uploaded u
 
 When you upload Data Sources data, you are uploading the metrics that will be available in the report interface.
 
-For example, if you are uploading Call Center Revenue for products you sell on your site, you can have that Call Center Revenue in the same report as Online Revenue. However, you will not be able to use it in conjunction with Visits, because you didn’t upload the number of Visits with it. Adobe can only report on the metrics and elements that you uploaded through Data Sources (in addition to the regular marketing report metrics).
+For example, if you are uploading Call Center Revenue for products you sell on your site, you can have that Call Center Revenue in the same report as Online Revenue. However, you will not be able to use it in conjunction with Visits, because you didn't upload the number of Visits with it. Adobe can only report on the metrics and elements that you uploaded through Data Sources (in addition to the regular marketing report metrics).
 
 ## What happens if I pass negative values into reporting through Data Sources? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -126,7 +126,7 @@ The data feed contains any transaction ID metrics that have been received. Howev
 
 ## Are eVars that are currently persisting in the Visitor Profile allocated to metrics uploaded using data sources? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-No for full processing, yes for transaction ID. Full processing data sources are processed using separate visitor profiles, so even if the visitor IDs match, they won’t be tied to together from an eVar allocation perspective. Transaction ID data sources are tied to the main visitor profile, so persisting eVars are allocated to events uploaded using transaction ID.
+No for full processing, yes for transaction ID. Full processing data sources are processed using separate visitor profiles, so even if the visitor IDs match, they won't be tied to together from an eVar allocation perspective. Transaction ID data sources are tied to the main visitor profile, so persisting eVars are allocated to events uploaded using transaction ID.
 
 ## Do eVars uploaded using data sources persist to later online behavior? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 

@@ -29,9 +29,9 @@ Steps to complete the integration wizard in the Data Connectors interface.
 
    |  Item  | Description  |
    |---|---|
-   |  Link ID  | Select an eVar for collecting Link ID’s in real time.  |
-   |  Message ID  | Select an eVar for collecting Message ID’s in real time.  |
-   |  Recipient ID  | Select an eVar for collecting recipient ID’s in real time.  |
+   |  Link ID  | Select an eVar for collecting Link ID's in real time.  |
+   |  Message ID  | Select an eVar for collecting Message ID's in real time.  |
+   |  Recipient ID  | Select an eVar for collecting recipient ID's in real time.  |
    |  Bounces  | Select a numeric event to receive daily bounces from ContactLab.  |
    |  Sent  | Select a numeric event to receive daily sends from ContactLab.  |
    |  Clicked  | Select a numeric event to receive daily total clicks from ContactLab.  |
@@ -44,7 +44,7 @@ Steps to complete the integration wizard in the Data Connectors interface.
    1. Under **[!UICONTROL Your Segments]**, select any custom segments that you would like to include in this integration. You can create additional custom segments under the admin panel.
    1. Under **[!UICONTROL Access Requests]**, check the box to allow product information to be exported to ContactLab in daily remarketing segments.
    1. Rename calculated metrics as needed.
-   1. Configure whether you will collect ID’s by manually updating your Analytics collection code or by using the automated solution. If you select **[!UICONTROL Automated Solution]**, you must include the parameters that are used in email links to pass ID’s.
+   1. Configure whether you will collect ID's by manually updating your Analytics collection code or by using the automated solution. If you select **[!UICONTROL Automated Solution]**, you must include the parameters that are used in email links to pass ID's.
 1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Verify the Integration{#verifying-the-integration}

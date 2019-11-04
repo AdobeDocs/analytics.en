@@ -1,6 +1,6 @@
 ---
-description: You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the “mc_audiences” column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include 
-seo-description: You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the “mc_audiences” column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include 
+description: You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include 
+seo-description: You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include 
 seo-title: Use the audience data in Analytics
 solution: Experience Cloud
 title: Use the audience data in Analytics
@@ -9,7 +9,7 @@ uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 
 # Use the audience data in Analytics
 
-You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the “mc_audiences” column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include:
+You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include:
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -22,7 +22,7 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 
 ## Segment Comparison {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[Segment Comparison](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the “Top Dimension Items” table.
+[Segment Comparison](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Segment Comparison]** panel from the left rail. 
 
@@ -33,13 +33,13 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 1. (Optional): You can bring in other dimension items or segments as well, up to 2 can be compared. 
 1. Click **[!UICONTROL Build]**.
 
-   Audiences ID and Name dimensions will automatically appear in the “Top Dimension Items” table, as they are additional profile data for the two segments being compared.
+   Audiences ID and Name dimensions will automatically appear in the "Top Dimension Items" table, as they are additional profile data for the two segments being compared.
 
    ![](assets/aud-segcompare.png)
 
 ## Customer Journey (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. “Awareness”), then later qualify for a more qualified segment (e.g. “Consideration”). You can use [Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
+AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Flow]** visualization from the left rail. 
 

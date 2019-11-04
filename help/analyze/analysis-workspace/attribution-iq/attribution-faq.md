@@ -17,8 +17,8 @@ uuid: 90961172-869d-4ed3-aba5-52374e53b603
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Why is the “None” line item sometimes getting more credit than I expected when I use the new attribution models?</b> </p> </td> 
-   <td colname="col2"> <p>A: This is likely due to the reporting window you’ve selected as described <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A"  > here </a>. This most often occurs when your reporting window starts on the first day of the month and you’re using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the “None” line item), try including a longer time range in your reporting window. </p> </td> 
+   <td colname="col1"> <p><b>Q: Why is the "None" line item sometimes getting more credit than I expected when I use the new attribution models?</b> </p> </td> 
+   <td colname="col2"> <p>A: This is likely due to the reporting window you've selected as described <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md#section_BC71DA030E45487AA3C3F6ED247A3C4A"  > here </a>. This most often occurs when your reporting window starts on the first day of the month and you're using a Visitor (Reporting Window) lookback. To capture additional attribution lookback (and reduce the "None" line item), try including a longer time range in your reporting window. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: I sometimes see dates outside of my reporting window show up in my report when using attribution models. Why?</b> </p> </td> 
@@ -29,25 +29,25 @@ uuid: 90961172-869d-4ed3-aba5-52374e53b603
    <td colname="col2"> <p>A: Currently, attribution models rely on either a visitor or visit lookback window - but either of these lookback windows are adjustable by either changing the reporting date range (for visitor lookback) or by using a custom visit definition as part of Virtual Report Suites and <a href="https://marketing.adobe.com/resources/help/en_US/reference/vrs-mobile-visit-processing.html"  > Context-Aware Sessions </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: When should I use a “visit” attribution lookback vs. a “visitor” attribution lookback?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: When should I use a "visit" attribution lookback vs. a "visitor" attribution lookback?</b> </p> </td> 
    <td colname="col2"> <p>A: The choice of attribution lookback really depends on your use case. If your conversion typically has a longer consideration cycle (something that takes longer than a single visit), we recommend using a visitor lookback, or creating a VRS with a longer visit that more accurately reflects that consideration cycle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Are attribution models available in Data Feeds or Data Warehouse?</b> </p> </td> 
-   <td colname="col2"> <p>A: No. Because attribution models are calculated at report time using <a href="https://marketing.adobe.com/resources/help/en_US/reference/vrs-report-time-processing.html"  > Report Time Processing </a>, it’s not possible to have them reflected in Data Feeds or Data Warehouse. </p> </td> 
+   <td colname="col2"> <p>A: No. Because attribution models are calculated at report time using <a href="https://marketing.adobe.com/resources/help/en_US/reference/vrs-report-time-processing.html"  > Report Time Processing </a>, it's not possible to have them reflected in Data Feeds or Data Warehouse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Are attribution models only available if I’m using a Virtual Report Suite with Report Time Processing enabled?</b> </p> </td> 
-   <td colname="col2"> <p>A: No, while attribution models leverage <a href="https://marketing.adobe.com/resources/help/en_US/reference/vrs-report-time-processing.html"  > Report Time Processing </a> on the backend, we’ve made them available to both VRS and base report suites for convenience. </p> </td> 
+   <td colname="col1"> <p><b>Q: Are attribution models only available if I'm using a Virtual Report Suite with Report Time Processing enabled?</b> </p> </td> 
+   <td colname="col2"> <p>A: No, while attribution models leverage <a href="https://marketing.adobe.com/resources/help/en_US/reference/vrs-report-time-processing.html"  > Report Time Processing </a> on the backend, we've made them available to both VRS and base report suites for convenience. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Does Attribution IQ in Analysis Workspace support a data-driven or algorithmic attribution model?</b> </p> </td> 
-   <td colname="col2"> <p>A: This is not yet available in Analysis Workspace, but it’s something we are actively looking into. </p> </td> 
+   <td colname="col2"> <p>A: This is not yet available in Analysis Workspace, but it's something we are actively looking into. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Are any dimensions or metrics not supported by Attribution IQ?</b> </p> </td> 
    <td colname="col2"> <p>A: Attribution IQ is supported on all dimensions.</p> 
-    <p>Metrics that are <u>not</u> supported (primarily because they wouldn’t make sense) include: </p> 
+    <p>Metrics that are <u>not</u> supported (primarily because they wouldn't make sense) include: </p> 
     <ul id="ul_B12A1291DEEF41FDBAD110C4A9265234"> 
      <li id="li_245571C5377C45ADBAE6F735B91FCD1F"> Unique Visitors </li> 
      <li id="li_000CA7680A0745D9860CA7D5F62288D4">Visits </li> 

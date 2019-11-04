@@ -1,6 +1,6 @@
 ---
-description: By tracking and recording the visitors’' referring sites for each visit, you can determine how visitors found out about your site for each visit.
-seo-description: By tracking and recording the visitors’' referring sites for each visit, you can determine how visitors found out about your site for each visit.
+description: By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
+seo-description: By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
 seo-title: Referrer Type
 solution: Analytics
 title: Referrer Type
@@ -10,7 +10,7 @@ uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 
 # Referrer Type
 
-By tracking and recording the visitors’' referring sites for each visit, you can determine how visitors found out about your site for each visit.
+By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
 
 The list below defines the various types of referrers:
 
@@ -22,7 +22,7 @@ The list below defines the various types of referrers:
 
 **Email**: A referring domain is considered as an email referring domain when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. For example, anything coming from [!DNL https://mail.yahoo.com] is not counted as an email referrer because the protocol is [!DNL https://]. Emails from Outlook are reported in the Typed/Bookmarked line, while any referrer with an HTTP protocol where the domain is a known search engine is reported in the Search Engine line.
 
-**Typed/Bookmarked**: referrers are recorded when visitors type your site’s URL directly into their browser, or if they access your site by selecting bookmarks. Mobile devices report a referrer type of *`typed/bookmarked`* if there is no referrer on the first hit of the visit.
+**Typed/Bookmarked**: referrers are recorded when visitors type your site's URL directly into their browser, or if they access your site by selecting bookmarks. Mobile devices report a referrer type of *`typed/bookmarked`* if there is no referrer on the first hit of the visit.
 
 **[!UICONTROL Inside Your Site]**: These items are URLs that are tagged by the internal URL filters. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
 

@@ -2065,13 +2065,11 @@ A report suite must be enabled to accept custom timestamps by Customer Care befo
 **Pitfalls, Questions, and Tips** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Timestamps are primarily used to track offline data on mobile platforms. Custom timestamps are typically disabled unless you are collecting both web and offline app data in the same report suite.
-* Data is timestamped when offline data is enabled in the mobile SDK (default setting) or anytime a report suite is configured to accept time-stamped data. Data collected offline on mobile devices may be sent hours or weeks after the date when it happened. These hits may be queued within the Analytics platform for minutes or hours longer than hits without timestamps:
+* Data is timestamped when offline data is enabled in the mobile SDK (default setting) or anytime a report suite is configured to accept timestamped data. Data collected offline may be sent hours or weeks after the date when the event originally occurred. These hits may be queued within the Analytics platform for minutes or hours longer than hits without timestamps:
 
-    * For time-stamped data sent in very near current time, the probable delay is 10-15 minutes.
-    * For time-stamped data sent in from yesterday, the probable delay is about 2 hours.
-    * For time-stamped data sent in that is older than yesterday, every day adds about 1 hour of delay, up to 15 days ago, when the delay stops going up.
-
-* Timestamp-enabled session data is kept for up to 92 days.
+    * For timestamped data sent in very near current time, the probable delay is 10-15 minutes.
+    * For timestamped data sent in from yesterday, the probable delay is about 2 hours.
+    * For timestamped data sent in that is older than yesterday, every day adds about 2 hours of delay, up to a maximum of 48 hours.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 

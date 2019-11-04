@@ -58,11 +58,11 @@ When you open a dashboard with reportlets that have different date ranges, you c
 
    You can:
 
-    * View days, months, or year periods (up to three). 
-    * Drag your cursor across dates to select a range. 
-    * Enter dates manually. 
-    * Click a month name to select a month. 
-    * Click **[!UICONTROL Select Preset]** to select a preset date. 
+    * View days, months, or year periods (up to three).
+    * Drag your cursor across dates to select a range.
+    * Enter dates manually.
+    * Click a month name to select a month.
+    * Click **[!UICONTROL Select Preset]** to select a preset date.
     * Compare dates.
 
 1. Click **[!UICONTROL Run Report]**.
@@ -101,7 +101,7 @@ t_reports_graph_percent.xml
 
  -->
 
-This visualization is available also in dashboard reportlets. 
+This visualization is available also in dashboard reportlets.
 
 1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
 1. Click **[!UICONTROL Percent Shown As: Graph]**.
@@ -199,7 +199,7 @@ t_reports_day_of_week.xml
 
  -->
 
-This feature applies only to trended reports filtered with a date range of Week or Day. 
+This feature applies only to trended reports filtered with a date range of Week or Day.
 
 1. Run a trended report over a specified date range.
 1. Click the **[!UICONTROL Day of Week]** link, then click a day.
@@ -218,4 +218,4 @@ Most reports in Reports & Analytics now include a "Try in Workspace" button to a
 
 Currently, the button is only available if your username has full rights to Analysis Workspace.
 
-For more information on all the ways you can customize your report, see the [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) guide. 
+For more information on all the ways you can customize your report, see the [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) guide.

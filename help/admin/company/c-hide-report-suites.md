@@ -29,4 +29,4 @@ To view only hidden report suites, under **[!UICONTROL Company Settings]**, sele
 
 To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** > **[!UICONTROL Only Visible Report Suites]**.
 
-The default is **[!UICONTROL View]** > **[!UICONTROL All]**. 
+The default is **[!UICONTROL View]** > **[!UICONTROL All]**.

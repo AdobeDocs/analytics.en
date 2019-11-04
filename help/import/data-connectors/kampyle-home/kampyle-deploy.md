@@ -9,7 +9,7 @@ uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 
 # Deploying the Integration{#deploying-the-integration}
 
-Deploying this integration is a simple process consists of completing the Adobe Integration Wizard, deploying the plugin code (javascript), and verifying the integration. 
+Deploying this integration is a simple process consists of completing the Adobe Integration Wizard, deploying the plugin code (javascript), and verifying the integration.
 
 ## Complete the Adobe Integration Wizard{#complete-the-adobe-integration-wizard}
 

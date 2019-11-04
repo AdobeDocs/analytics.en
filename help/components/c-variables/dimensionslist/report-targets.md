@@ -20,4 +20,4 @@ When you [create targets](https://marketing.adobe.com/resources/help/en_US/sc/us
 
 The report shows the cumulative total of the metric you specified and the difference between that total and the target you set when you configured the report.
 
-You can also manage your targets under **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**. 
+You can also manage your targets under **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.

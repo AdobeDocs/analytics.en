@@ -68,4 +68,4 @@ The following tables define how Analysis Workspace, Reports & Analytics, Ad Hoc 
 |  Return Customer  | More than 1 visit and 2 purchases  |
 |  Loyal Customer  | More than 1 visit and 3+ purchases  |
 
-The loyalty state changes immediately following the purchase event within the same visit. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is considered a Return Customer interaction, because the visitor's customer loyalty state changed immediately after the purchase occurred. 
+The loyalty state changes immediately following the purchase event within the same visit. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is considered a Return Customer interaction, because the visitor's customer loyalty state changed immediately after the purchase occurred.

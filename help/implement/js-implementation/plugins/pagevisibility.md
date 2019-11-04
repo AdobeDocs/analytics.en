@@ -100,13 +100,13 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Notes {#section_47964BB9D0A24BFEB4B2498A41D8B017}
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment. 
-* Because the plug-in passes the page visibility seconds and total seconds as they are associated with the previous page, data is not collected for the final page view of the visit. 
-* This plug-in relies on the ability to set cookies in the user's web browser. If the user does not accept first-party cookies, the plug-in will not pass data into Analytics. 
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`. 
+* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment.
+* Because the plug-in passes the page visibility seconds and total seconds as they are associated with the previous page, data is not collected for the final page view of the visit.
+* This plug-in relies on the ability to set cookies in the user's web browser. If the user does not accept first-party cookies, the plug-in will not pass data into Analytics.
+* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
 
-* A very small percentage of users will not pass percentage of page viewed data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari. 
-* Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics. 
+* A very small percentage of users will not pass percentage of page viewed data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari.
+* Due to the way the plugin measures total seconds and associates that value with the previous page name, there will be differences between default time spent on page metrics and total seconds metrics.
 * [!UICONTROL Calculated Metrics] can be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
     * **Page Visibility Ratio** (Total Page Visibility Seconds / Total Page Seconds) 
@@ -133,4 +133,4 @@ Since the plugin records values on the subsequent image request only other eVars
 
 **Will the plug-in send the visibility time on an s.tl() call, or only on an s.t() call?**
 
-The visibility time is only recorded with s.t() calls. 
+The visibility time is only recorded with s.t() calls.

@@ -28,7 +28,7 @@ Data Warehouse can process an unlimited number of rows in a single request for i
 
 ## Data Warehouse Requests Descriptions {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab. 
+This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 

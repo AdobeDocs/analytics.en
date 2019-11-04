@@ -17,7 +17,7 @@ Create a group that grants limited administrative rights to users of the Marketi
 1. Click **[!UICONTROL Groups.]**
 1. Click a custom group name, or click **[!UICONTROL Add New User Group]** to create a user group.
 
-   See [User Management](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) in the *Admin Help*. 
+   See [User Management](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) in the *Admin Help*.
 
 1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
 1. Enable the **[!UICONTROL Channels]** and **[!UICONTROL Costs.]**

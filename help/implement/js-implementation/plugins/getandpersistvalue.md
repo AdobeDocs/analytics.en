@@ -36,8 +36,8 @@ Place the following code within the *`s_doPlugins()`* function, which is located
 
 *`s.getAndPersistValue`* has three arguments:
 
-1. Currently populated variable or value to persist ( *`s.campaign`* shown above). 
-1. Cookie name, used to store the value ( *`s_getval`* shown above). 
+1. Currently populated variable or value to persist ( *`s.campaign`* shown above).
+1. Cookie name, used to store the value ( *`s_getval`* shown above).
 1. Period of time for persistence, in days. "30" as shown above would cause the value to be populated into the selected variable on every page view made by the user for the next 30 days. If omitted, the setting defaults to *session*.
 
 **PLUGINS SECTION**: Add the following code to the area of the [!DNL s_code.js] file labeled PLUGINS SECTION. Do not make any changes to this portion of the plug-in code.
@@ -51,4 +51,4 @@ s.getAndPersistValue=new Function("v","c","e",""
 +"v)s.c_w(c,v,e?a:0);return s.c_r(c);");
 ```
 
-Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
+Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.

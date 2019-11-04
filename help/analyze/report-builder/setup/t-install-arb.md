@@ -14,7 +14,7 @@ Steps that describe how to install Report Builder.
 
 >[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -25,4 +25,4 @@ Steps that describe how to install Report Builder.
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   Follow the instructions in [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md). 
+   Follow the instructions in [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md).

@@ -75,7 +75,7 @@ Support delegates can get assisted support via:
 **In-Product:**
 
 1.  [Sign in to Adobe Analytics.](https://sc.omniture.com/login/)
-2.  Navigate to **Help** > **Customer Care**.  
+2.  Navigate to **Help** > **Customer Care**.
 
 **Phone:** 1-800-497-0335 (US & Canada).
 
@@ -86,5 +86,5 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).
  -->

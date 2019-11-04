@@ -63,13 +63,13 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 If you want to apply the same DULE/Data Privacy settings to more than one report suite, you can follow these steps:
 
-1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time. 
-1. Select some or all of the variables in this group. 
+1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time.
+1. Select some or all of the variables in this group.
 1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
 
    ![](assets/apply_as_template.png)
 
-1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to. 
+1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to.
 
    >[!IMPORTANT]
    >

@@ -13,7 +13,7 @@ Once deployed, you can begin using the additional capabilities that this integra
 
 **Note**: It can take 24-48 hours to begin seeing some of the Dynamic Signal data within your Adobe Analytics reporting.
 
-The following actions result in added value from this integration within Adobe Analytics. 
+The following actions result in added value from this integration within Adobe Analytics.
 
 ## Viewing Traffic and Conversion Metrics by Dynamic Signal Dimensions{#viewing-traffic-and-conversion-metrics-by-dynamic-signal-dimensions}
 

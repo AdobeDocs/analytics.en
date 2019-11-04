@@ -16,9 +16,9 @@ For real-time reporting, Analytics uses high-frequency metrics and site analytic
 
 You can:
 
-* Create up to three real-time reports per report suite, using existing metrics, dimensions, and classifications. Use the secondary dimensions to correlate with (or break down) the primary one. 
-* Add three dimensions (or classifications) per report (one primary and two secondary), in addition to site-wide metrics. 
-* Use any custom event, shopping cart event, or instance. 
+* Create up to three real-time reports per report suite, using existing metrics, dimensions, and classifications. Use the secondary dimensions to correlate with (or break down) the primary one.
+* Add three dimensions (or classifications) per report (one primary and two secondary), in addition to site-wide metrics.
+* Use any custom event, shopping cart event, or instance.
 * View up to 20 hours of historical, real-time data.
 
 Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).

@@ -14,18 +14,18 @@ Traffic sources reports give you in-depth insight into how visitors interact wit
 
 ## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
-Traffic sources reports give you in-depth insight into how visitors interact with your website. 
+Traffic sources reports give you in-depth insight into how visitors interact with your website.
 
 Traffic sources reports let you:
 
-* Analyze critical aspects of visitor behavior. 
-* Monitor and understand traffic patterns. 
-* Determine popular site content. 
+* Analyze critical aspects of visitor behavior.
+* Monitor and understand traffic patterns.
+* Determine popular site content.
 * Segment visitors by any measurable criteria.
 
 **Common Persistence**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. Previously, only Keywords and Referring Domains persisted. For example, if a visitor performs a Google search for "DVD," which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword "DVD" and also to the Google search engine. This functionality is unalterable, regardless of [!DNL Admin Console] settings. 
+In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. Previously, only Keywords and Referring Domains persisted. For example, if a visitor performs a Google search for "DVD," which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword "DVD" and also to the Google search engine. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
 
 ## Search Keywords {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -41,7 +41,7 @@ c_reports_search_keyword.xml
 
 **[!UICONTROL Search Keywords - Paid]**: Displays a breakdown of each paid search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
 
-**[!UICONTROL Search Keywords - Natural]**: Displays a breakdown of each natural search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site. 
+**[!UICONTROL Search Keywords - Natural]**: Displays a breakdown of each natural search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
 
 ## Search Engines {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,7 +57,7 @@ c_reports_search_engines.xml
 
 **[!UICONTROL Search Engines - Paid]**: Displays which paid-keyword search engines that people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
 
-**[!UICONTROL Search Engines - Natural]**: Displays which natural-keyword search engines people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site. 
+**[!UICONTROL Search Engines - Natural]**: Displays which natural-keyword search engines people are using to find your web page. The graph shows you the percentage breakdown of the search engines that are used to find your site.
 
 ## Referring Domains {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -67,7 +67,7 @@ c_reports_ref_domains.xml
 
  -->
 
-Shows the domains that referred the customers that most impacted your site's success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories. 
+Shows the domains that referred the customers that most impacted your site's success metrics. Referrers fall into two main categories: Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories.
 
 ## Original Referring Domains {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -111,13 +111,13 @@ c_reports_ref_types.xml
 
 The list below defines the various types of referrers:
 
-* *Other website referrers* are recorded when visitors click a link located on a page on another website (not defined as part of your site) and arrive at your website. 
-* *Search engine* referrers are recorded when visitors use a search engine to access your site. 
+* *Other website referrers* are recorded when visitors click a link located on a page on another website (not defined as part of your site) and arrive at your website.
+* *Search engine* referrers are recorded when visitors use a search engine to access your site.
 * *Typed/Bookmarked* referrers are recorded
 
-    * If a visitor enters your site via a non-browser link (for example, in an email). 
-    * If a visitor types your site's URL directly into their browser. 
-    * If a visitor clicks an HTML link on his or her personal hard drive. 
+    * If a visitor enters your site via a non-browser link (for example, in an email).
+    * If a visitor types your site's URL directly into their browser.
+    * If a visitor clicks an HTML link on his or her personal hard drive.
     * If a visitor accesses your site by selecting browser bookmarks.
 
 **Definitions**

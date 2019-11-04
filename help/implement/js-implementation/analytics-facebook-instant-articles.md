@@ -69,16 +69,16 @@ The sample HTML below can be used to capture stats from the instant articles. Th
 
 1. It is recommended to host the latest copies of unmodified versions of the VisitorAPI.js and AppMeasurement.js on a common directory on your company's web servers.
 
-   These files can also be downloaded from within the Code Manager in the Analytics UI if required. 
+   These files can also be downloaded from within the Code Manager in the Analytics UI if required.
 
 1. Include your Analytics implementation standard configuration variables:
 
-    1. Your Experience Cloud Org ID. 
-    1. The report suite ID where the Facebook Instant Article traffic will be captured. 
-    1. Your company's tracking server domain. 
+    1. Your Experience Cloud Org ID.
+    1. The report suite ID where the Facebook Instant Article traffic will be captured.
+    1. Your company's tracking server domain.
     1. Your visitor namespace variable. **Note:** Many of these values can be found within your standard Analytics implementation. Customer Care or Adobe Consulting can assist in providing the proper values if necessary.
 
-1. [Set custom variable and event tracking](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B). 
+1. [Set custom variable and event tracking](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Include the page view image request syntax `( s.t())`.
 
 ## Step 3. Set custom variable and event tracking {#section_932C41BD21154C25B99389299BDF3E0B}
@@ -118,4 +118,4 @@ There are few issues that should be noted with this approach. Any DOM values tha
 
 The Facebook Instant Article project is moving quickly and changes are happening all the time, so check back with us frequently for updates. Expect changes as we improve our integrations further and as more publishers adopt Facebook Instant Articles in the future.
 
-If you have questions or problems, please reach out to your Adobe Consultant or Customer Care. 
+If you have questions or problems, please reach out to your Adobe Consultant or Customer Care.

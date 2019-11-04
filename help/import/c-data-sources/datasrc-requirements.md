@@ -27,24 +27,24 @@ The following sections list constraints that apply to Data Sources and data impo
 
 ## Dates {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
-* Each calendar day you can upload data for 90 unique dates. If you exceed this limit, the upload will fail with an error message stating that you have ?exceeded the maximum unique days. 
-* Only data with current or past dates can be imported. Do not attempt to use future dates in your Data Sources data. 
+* Each calendar day you can upload data for 90 unique dates. If you exceed this limit, the upload will fail with an error message stating that you have ?exceeded the maximum unique days.
+* Only data with current or past dates can be imported. Do not attempt to use future dates in your Data Sources data.
 * All rows must have a date specified to enable report graphing capabilities. If a row does not include a date, Data Sources generates an error and rejects the file. The date/time format varies by data source type:
 
-    * **Full Processing Data Sources**: Use the ISO 8601 date format of `YYYY-MM-DDThh:mm:ss±UTC_offset` (for example, `2013-09-01T12:00:00-07:00`), or Unix Time Format (the number of seconds elapsed since January 1, 1970). 
+    * **Full Processing Data Sources**: Use the ISO 8601 date format of `YYYY-MM-DDThh:mm:ss±UTC_offset` (for example, `2013-09-01T12:00:00-07:00`), or Unix Time Format (the number of seconds elapsed since January 1, 1970).
     
     * **Standard and Integration Data Sources**: Use the following date format: `MM/DD/YYYY/HH/mm/SS` (for example, `01/01/2013/06/00/00`)
 
 ## General {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
-* When you upload a Data Sources file, Data Sources performs basic data validation to make sure the file does not contain formatting errors. If an error is encountered in a file, an email notification is sent and processing stops. 
-* Data fields cannot contain semi-colons. Data Sources skips records that contain a semi-colon. 
-* Data from Web Log, Traffic, and some Generic Data Sources groupings are not available in Data Warehouse or Discover. For more information, see [Data Types and Categories](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md). 
+* When you upload a Data Sources file, Data Sources performs basic data validation to make sure the file does not contain formatting errors. If an error is encountered in a file, an email notification is sent and processing stops.
+* Data fields cannot contain semi-colons. Data Sources skips records that contain a semi-colon.
+* Data from Web Log, Traffic, and some Generic Data Sources groupings are not available in Data Warehouse or Discover. For more information, see [Data Types and Categories](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Data Sources do not support serialized events.
 
 ## Multi-Byte Support {#section_96C8D26B21184C3E839865DB6F23EA22}
 
-Data Sources supports multi-byte encoding. Data Sources attempts to detect the format of the incoming Data Sources file, and when necessary, converts it to a supported format. The following table lists common character formats and their support status. 
+Data Sources supports multi-byte encoding. Data Sources attempts to detect the format of the incoming Data Sources file, and when necessary, converts it to a supported format. The following table lists common character formats and their support status.
 
 <table id="table_F9E685D7EEAB49A9ABAD622AE630EC21"> 
  <thead> 
@@ -83,14 +83,14 @@ Data Sources supports multi-byte encoding. Data Sources attempts to detect the f
 
 If you submit a UTF-8 or ISO-8859-1 file and your report suite is not configured to support it, one of the following happens:
 
-* The error is detected during conversion, in which case you receive a message like "Found bad character in file at position 18 while converting from UTF-8 to ISO-8859-1". 
+* The error is detected during conversion, in which case you receive a message like "Found bad character in file at position 18 while converting from UTF-8 to ISO-8859-1".
 * The file is processed with no errors, but you see garbled data in the report.
 
 ## Uploading Web Log Files {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
-* The most useful reports for viewing Web Log data are traffic reports, such as page views. 
-* Page names are displayed as the entire URL, including the query-string. 
-* Each file request appears as a separate page view, including style sheets and image files. 
+* The most useful reports for viewing Web Log data are traffic reports, such as page views.
+* Page names are displayed as the entire URL, including the query-string.
+* Each file request appears as a separate page view, including style sheets and image files.
 * If you append information to the URL, files might be recorded as separate pages. For example, marketing reports record the following URLs as two separate pages:
 
 [!DNL /jokes/misc/snail_joke.html?userid=12345]

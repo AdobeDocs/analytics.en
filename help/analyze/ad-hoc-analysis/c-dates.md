@@ -12,7 +12,7 @@ In the calendar, you can specify dates and date ranges, or select a preset. You 
 
 ## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
 
-In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range. 
+In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.
 
 ![](assets/Delete_Standard.png) An enabled **[!UICONTROL Clear Date]** option indicates that a date range is specified at the report level.
 
@@ -38,7 +38,7 @@ c_legacy_data.xml
 
 **To access historical date slices**
 
-1. [Create](/help/analyze/ad-hoc-analysis/c-getting-started.md) or open a project. 
+1. [Create](/help/analyze/ad-hoc-analysis/c-getting-started.md) or open a project.
 1. Open the [calendar](/help/analyze/ad-hoc-analysis/c-dates.md), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
 
 >[!NOTE]

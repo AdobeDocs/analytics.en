@@ -40,7 +40,7 @@ Manage Analytics users, groups, and products in the Admin Console.
 
 ## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management]. 
+The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management].
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 

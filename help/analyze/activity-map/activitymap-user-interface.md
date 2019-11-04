@@ -12,7 +12,7 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 
 The Activity Map UI is comprised of two parts:
 
-* The top window with the web page, and the injected overlays and toolbar. 
+* The top window with the web page, and the injected overlays and toolbar.
 * A bottom panel for reports.
 
 ## Top panel {#section_2DA8ACD35D4C4ACBA32C13EFB5317E7C}

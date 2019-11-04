@@ -8,7 +8,7 @@ uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 
 # Optimize Analysis Workspace performance
 
-Certain factors can influence the performance of a project within Analysis Workspace. It's important to know what those contributors are before you start building a project so that you can plan & build the project in the most optimal way. Below is a list of factors that will impact performance & best practices for optimizing your projects. Analysis Workspace performance is one of Adobe's top priorities and something we are continuing to improve each day. 
+Certain factors can influence the performance of a project within Analysis Workspace. It's important to know what those contributors are before you start building a project so that you can plan & build the project in the most optimal way. Below is a list of factors that will impact performance & best practices for optimizing your projects. Analysis Workspace performance is one of Adobe's top priorities and something we are continuing to improve each day.
 
 ## Complexity of segment logic
 
@@ -29,7 +29,7 @@ While some of the complexity factors cannot be prevented, think about opportunit
 * With operators, "equals" will be faster than "contains", and "equals any of" will be faster than "contains any of".
 * With many criteria, AND operators will be faster than a series of OR operators. Also, look for opportunities to reduce many OR statements into a single "equals any of" statement.
 
-In addition, [classifications](/help/components/c-classifications2/c-classifications.md) can help consolidate many values into concise groups from which you can then create segments. Segmentation on classification groups provides performance benefits over segments that contain many OR statements or "contains" criteria. 
+In addition, [classifications](/help/components/c-classifications2/c-classifications.md) can help consolidate many values into concise groups from which you can then create segments. Segmentation on classification groups provides performance benefits over segments that contain many OR statements or "contains" criteria.
 
 ## Range of data requested
 
@@ -45,7 +45,7 @@ Use [date comparison options](/help/analyze/analysis-workspace/components/calend
 
 ## Number of visualizations
 
-The number of graph visualizations contained in one project will affect overall responsiveness of Analysis Workspace. 
+The number of graph visualizations contained in one project will affect overall responsiveness of Analysis Workspace.
 
 **Best practice for number of visualizations**
 
@@ -66,7 +66,7 @@ The type of visualization (e.g. fallout vs a freeform table) added to a project 
 
 If you notice that your projects aren't loading as quickly as you'd like, try replacing some segments with eVars and filters, where possible.
 
-If you find yourself constantly using segments and calculated metrics for data points that are important to your business, consider improving your implementation to capture these data points more directly. The use of a tag manager like Adobe Experience Platform Launch and Adobe's processing rules can make implementation changes quick & easy to implement. To better understand how to simplify intricate segments, see 'Complexity of Segment Logic' above. 
+If you find yourself constantly using segments and calculated metrics for data points that are important to your business, consider improving your implementation to capture these data points more directly. The use of a tag manager like Adobe Experience Platform Launch and Adobe's processing rules can make implementation changes quick & easy to implement. To better understand how to simplify intricate segments, see 'Complexity of Segment Logic' above.
 
 ## Number of panels
 

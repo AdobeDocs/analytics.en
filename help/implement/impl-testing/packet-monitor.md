@@ -53,4 +53,4 @@ Adobe's response to the image request is simply a blank 1x1 transparent image, w
 
 Packet monitors integrated as a plug-in rarely see the full response. They tend to see the request as aborted because the full response was not received. These monitors also rarely make a distinction between whether it was the request or response that was aborted. A stand alone packet monitor typically has more detailed messages and reports the status more accurately. For example, a user may get a message in *Charles* saying "Client closed connection before receiving entire response." This means the data did reach our servers, just the browser moved on to the next page before the 1x1 pixel was received.
 
-If an external packet sniffer is reporting that the data collection request is aborted, rather than the response, this is a cause for concern. Adobe [!DNL Customer Care] can provide help in troubleshooting. 
+If an external packet sniffer is reporting that the data collection request is aborted, rather than the response, this is a cause for concern. Adobe [!DNL Customer Care] can provide help in troubleshooting.

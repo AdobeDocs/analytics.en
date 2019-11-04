@@ -14,7 +14,7 @@ Standard reports display data for website and visitor activity, traffic patterns
 
 ## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
-Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons. 
+Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons.
 
 You can gather custom data to create reports specific to your website. For example, if you have a search feature on your website, you can track the search terms submitted and create a report that shows these terms and the results of the searches.
 
@@ -42,9 +42,9 @@ Conversion reports provide comprehensive, accurate, and detailed analysis of cus
 
 Traffic reports give you in-depth insight into how visitors interact with your website.
 
-* Analyze critical aspects of visitor behavior. 
-* Monitor and understand traffic patterns. 
-* Determine popular site content. 
+* Analyze critical aspects of visitor behavior.
+* Monitor and understand traffic patterns.
+* Determine popular site content.
 * Segment visitors by any measurable criteria.
 
 ## Campaigns {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
@@ -57,7 +57,7 @@ c_reports_campaigns.xml
 
  -->
 
-These reports are usually customized and thus different for every analyst. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information. 
+These reports are usually customized and thus different for every analyst. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information.
 
 ## Statistical Calculations {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -73,12 +73,12 @@ Additional default statistical calculations can be added to ranked reports based
 
 **To open the statistical calculations for Ranked Reports:**
 
-1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu. 
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. Select **[!UICONTROL Settings]**. 
+1. Select **[!UICONTROL Settings]**.
 1. Select **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL Ignore zeros in statistical calculations]**. Select this option to ignore zeros and ensure that adding another metric won't change the averages already calculated. All the statistics are affected by this setting (although for Sum it has no effect). 
+**[!UICONTROL Ignore zeros in statistical calculations]**. Select this option to ignore zeros and ensure that adding another metric won't change the averages already calculated. All the statistics are affected by this setting (although for Sum it has no effect).
 
 | Calculation | Description |
 |--- |--- |
@@ -140,11 +140,11 @@ c_overlay_calculations.xml
 
  -->
 
-In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line. 
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays. 
+In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
 
 ## Group Manager {#concept_E1433974A61144858E87334C006982B2}
 
@@ -156,4 +156,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**. 
+Click **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.

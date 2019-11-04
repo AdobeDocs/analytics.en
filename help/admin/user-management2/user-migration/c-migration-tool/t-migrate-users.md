@@ -81,4 +81,4 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
 
    After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
 
-   If *`Failed`* displays, hover over the icon for a description about why the migration failed. 
+   If *`Failed`* displays, hover over the icon for a description about why the migration failed.

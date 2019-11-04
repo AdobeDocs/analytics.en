@@ -38,8 +38,8 @@ The browser then requests the image. Data moves with this image request via vari
 
 JavaScript can detect browser settings that are not available to a server, such as browser window height/width, monitor resolution, and Netscape plug-ins. By using a server-side method to create an image tag, these variables cannot be captured. The JavaScript sets a random number in the image request to overcome browser and proxy server caching. This allows all page views to be accurately tracked. In certain situations, server-side code has advantages over the JavaScript-based code, including the following:
 
-* JavaScript is very accurate (98-100%). There are times when the utmost accuracy is desired, even in situations where a user quickly clicks to another page before the JavaScript has executed. Creating the image tag server-side increases the accuracy level by several percentage points. 
-* For tracking conversion events, such as purchases, where accuracy is very important. 
+* JavaScript is very accurate (98-100%). There are times when the utmost accuracy is desired, even in situations where a user quickly clicks to another page before the JavaScript has executed. Creating the image tag server-side increases the accuracy level by several percentage points.
+* For tracking conversion events, such as purchases, where accuracy is very important.
 * This strategy may also be used to fully populate the image request within the <noscript> tag for tracking users without JavaScript, or with JavaScript disabled.
 
 >[!NOTE]

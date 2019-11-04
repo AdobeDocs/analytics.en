@@ -14,7 +14,7 @@ Targets let you measure your website performance and track progress against targ
 
 ## Targets {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
-Targets let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer. 
+Targets let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer.
 
 When you create targets, you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric.
 
@@ -24,7 +24,7 @@ For example, you can measure the number of unique visitors to your website, and 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
 
-Descriptions of the fields and options on the [!UICONTROL Add/Edit Target] page. 
+Descriptions of the fields and options on the [!UICONTROL Add/Edit Target] page.
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 

@@ -18,14 +18,14 @@ Defines common settings for a website that provides information about services a
 |  Internal Search Terms  | String  | Basic  | Most Recent (Last)  | Visit  | `evar2`  |
 |  Self-Service Event Type  | String  | Basic  | Most Recent (Last)  | Visit  | `evar3`  |
 
-No success events are configured by this report suite template. 
+No success events are configured by this report suite template.
 
 |  Custom Insight Variables  | `s_code` variable  |
 |---|---|
 |  Secure / Non-Secure  | `prop1`  |
 |  Traffic Property 2 - 5  | `prop2, prop3, prop4, prop5`  |
 
-The following table contains a list of the standard commerce events. Initial configuration for these events is identical in all report suite templates. Events with an s_code variable of N/A do not need to be set, they are provided automatically. 
+The following table contains a list of the standard commerce events. Initial configuration for these events is identical in all report suite templates. Events with an s_code variable of N/A do not need to be set, they are provided automatically.
 
 |  Standard Commerce Events  | Type  | `s_code` variable  |
 |---|---|---|

@@ -16,4 +16,4 @@ For a list of all functions, refer to [Basic Functions](/help/components/c-calcm
 >
 >When including functions in a calculated metrics formula, always apply the function before dragging in metrics or segments.
 
-Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions. 
+Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.

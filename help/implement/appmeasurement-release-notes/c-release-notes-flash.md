@@ -87,7 +87,7 @@ Version 4.0 - Update:
 
 Version 4.0 - Update
 
-* Inclusion of Visitor API 1.5. 
+* Inclusion of Visitor API 1.5.
 * Use Visitor API 1.5+ getCustomerIDs method to gather Customer IDs and Authenticated State, and send them in with data collection requests (AN-102131)
 
 ## May 21, 2015 {#section_F5EFCC451F13499F9AA53326AE5926F1}
@@ -100,7 +100,7 @@ Version 3.9.2 - Update:
 
 Version 3.9.2:
 
-* Inclusion of Visitor API 1.3.5. 
+* Inclusion of Visitor API 1.3.5.
 * Changed to not perform automatic referrer tracking after first tracking call, so the 2nd, 3rd, etc., tracking call (usually link tracking) will not double count the referrer when *`s.referrer`* was manually set before the first tracking call. (AN-92647) 
 * Removal of deprecated [!UICONTROL Heartbeat] video tracking embedded in the Media module. The supported [!UICONTROL Heartbeat] video tracking has been moved to a separate Video [!DNL Analytics] library.
 
@@ -108,21 +108,21 @@ Version 3.9.2:
 
 Version 3.9.1:
 
-* Added cookie support testing to Flash (k = Y/N query-string variable) and pf=1 to query-string when cookie support test is possible (browser with [!DNL JavaScript] access). 
+* Added cookie support testing to Flash (k = Y/N query-string variable) and pf=1 to query-string when cookie support test is possible (browser with [!DNL JavaScript] access).
 * Support for new features in visitor ID service 1.3.2.
 
 ## August 21, 2014 {#section_F7CA56E42B6548D3BE5A0D020BCEE97A}
 
 Version 3.9:
 
-* Added latitude and longitude variables. 
+* Added latitude and longitude variables.
 * Support for new features in visitor ID service 1.3.1.
 
 ## Version 3.8.1 {#section_29A2A0A20D9B43A1B57E5ED299C6EAF3}
 
 Release Date: **June 19, 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors. 
+* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * Support for new features in visitor ID service 1.3.
 
 ## Version 3.8 {#section_3F75C4D0C9BE470B95838DDB2CDCA79F}
@@ -153,8 +153,8 @@ Release Date: **November 14, 2013**
 
 Release Date: **October 17, 2013**
 
-* Support for [heartbeat video tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). 
-* VisitorAPI.swc was included to support [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html). 
+* Support for [heartbeat video tracking](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+* VisitorAPI.swc was included to support [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 * Dropped support for Flash player 9 with ActionScript 3. The minimum Flash Player version for ActionScript 3 is 10.
 
 ## Version 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -179,10 +179,10 @@ Release Date: **February 21, 2013**
 
 Release Date: **January 31, 2013**
 
-* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs. 
+* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs.
 
-* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html). 
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
+* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
+* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`.
 
   ```js
   s.doPlugins = function(s) { 
@@ -289,6 +289,6 @@ Release Date: **September 8, 2011**
 
 Release Date: **May 2011**
 
-* In OSMF, fixed issues when using proxy plugins when tracking OSMF video players. This fix enabled OSMF ProxyElements to be tracked when the element they are proxying is not being tracked. 
+* In OSMF, fixed issues when using proxy plugins when tracking OSMF video players. This fix enabled OSMF ProxyElements to be tracked when the element they are proxying is not being tracked.
 * Fixed an issue that caused an error measuring video on Flash Player 9.0.16.
 

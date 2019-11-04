@@ -63,4 +63,4 @@ The Transaction ID is used to connect an online event to an offline event.
 
 After you define your Data Sources metrics (Custom Events) and data dimensions (eVars), review the date range of the Data Source data that you want to import. You cannot import Data Sources that fall outside the range of your existing reporting data.
 
-For example, you cannot import Data Source data from before you implemented on-line data tracking. Data Sources data should be broken down by day. 
+For example, you cannot import Data Source data from before you implemented on-line data tracking. Data Sources data should be broken down by day.

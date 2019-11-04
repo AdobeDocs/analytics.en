@@ -12,9 +12,9 @@ Configure global behavioral settings. For example, you can configure Autosave, c
 
 ## Settings {#concept_D21E3D6F13EA4F97913F60C243B72173}
 
-Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale. 
+Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
 
-Click **[!UICONTROL Tools]** > **[!UICONTROL Settings]** to access [!UICONTROL Global Settings]. 
+Click **[!UICONTROL Tools]** > **[!UICONTROL Settings]** to access [!UICONTROL Global Settings].
 
 ## General Settings Tab - Definitions {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 

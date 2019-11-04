@@ -8,7 +8,7 @@ title: Dynamic variables
 
 # s.linkLeaveQueryString
 
-By default, query strings are excluded from all reports. 
+By default, query strings are excluded from all reports.
 
 For some exit links and download links, the important portion of the URL can be in the query string, as shown in the following sample URL.
 
@@ -18,7 +18,7 @@ https://www.mycompany.com/download.asp?filename=myfile.exe
 
 The download file name can be defined in the query string and, consequently, the query string is necessary to make the [!UICONTROL File Downloads] report more accurate.
 
-The *`linkLeaveQueryString`* variable determines whether or not the query string should be included in the [!UICONTROL Exit Links] and [!UICONTROL File Download] reports. 
+The *`linkLeaveQueryString`* variable determines whether or not the query string should be included in the [!UICONTROL Exit Links] and [!UICONTROL File Download] reports.
 
 |Max Size|Debugger Parameter|Reports Populated|Default Value|
 |--- |--- |--- |--- |
@@ -56,5 +56,5 @@ No configuration is necessary for this variable.
 
 ## Pitfalls, Questions, and Tips
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links. 
+* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
 * The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.

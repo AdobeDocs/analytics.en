@@ -26,9 +26,9 @@ For example, showing the Orders metric in this report helps a retail site unders
 
 You can:
 
-* Identify the number of return visitors and the frequency of their return visits. 
-* Evaluate your website's appeal and relevance to visitors over time. 
-* Know how sticky your site is to visitors and how often they feel compelled to return for further interaction or updates. 
+* Identify the number of return visitors and the frequency of their return visits.
+* Evaluate your website's appeal and relevance to visitors over time.
+* Know how sticky your site is to visitors and how often they feel compelled to return for further interaction or updates.
 * Identify the impact of your website's content and promotions on your visitors.
 
 By default, this report has the following time lengths:
@@ -56,7 +56,7 @@ For example, this report could answer questions such as: Did customers who purch
 
 You can break down this report by any other report or variable to determine:
 
-* How many visits does it typically take a user who clicked through campaign XYZ to make a purchase. 
+* How many visits does it typically take a user who clicked through campaign XYZ to make a purchase.
 * Whether users in Tokyo, for example, make more visits before generating a lead than users in London.
 
 >[!NOTE]
@@ -65,8 +65,8 @@ You can break down this report by any other report or variable to determine:
 
 This report is based on the visitor ID data that is passed to Adobe on every hit made by visitors. As this data is received, Adobe compares it to historical visitor ID data to determine whether the hit is:
 
-* A new visitor (Visit Number equals 1). 
-* A previous visitor continuing a visit (Visit Number is not incremented). 
+* A new visitor (Visit Number equals 1).
+* A previous visitor continuing a visit (Visit Number is not incremented).
 * A previous visitor making a new visit (Visit Number is incremented by one).
 
 >[!NOTE]
@@ -94,7 +94,7 @@ The [!UICONTROL Customer Loyalty] report displays purchasing patterns of custome
 >
 >When using these metrics, all user Visits (or all Visitors) are represented in this report, regardless of whether the Visit (or Visitor) included a purchase.
 
-The loyalty state changes after the end of the visit where a purchase event occurs. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is still considered a New Customer interaction, because the visitor's Customer Loyalty state will not change until the next visit. 
+The loyalty state changes after the end of the visit where a purchase event occurs. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is still considered a New Customer interaction, because the visitor's Customer Loyalty state will not change until the next visit.
 
 ## Visitor Profile {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
@@ -112,7 +112,7 @@ c_reports_visitor_profile.xml
 
 **[!UICONTROL Top Level Domains]**: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. Domains ending in Commercial (.com), Network (.net), Education (.edu), Government (.gov) and Organization (.org) are usually based in the United States, and are listed separately from the rest of the domains.
 
-**[!UICONTROL Visitor ZIP/Postal Code]**: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics. 
+**[!UICONTROL Visitor ZIP/Postal Code]**: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
 
 ## GeoSegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
@@ -122,4 +122,4 @@ c_reports_geosegmentation.xml
 
  -->
 
-Shows the geographic dynamics of your visitors in real-time, including the countries, states and cities from which they are browsing. You can also gain important insights into the technology and preferences of your website's audience. 
+Shows the geographic dynamics of your visitors in real-time, including the countries, states and cities from which they are browsing. You can also gain important insights into the technology and preferences of your website's audience.

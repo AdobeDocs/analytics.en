@@ -40,7 +40,7 @@ This lets you quickly and easily compare one attribution model to another withou
 
 The attribution panel is an easy way to build an analysis comparing various attribution models. To access the Attribution Panel,
 
-1. Click the panel icon on the far left. 
+1. Click the panel icon on the far left.
 1. Drag the Attribution Panel into your Analysis Workspace Project.
 
    ![](assets/Attribution_Panel_1.png)

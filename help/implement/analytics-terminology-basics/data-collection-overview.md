@@ -15,7 +15,7 @@ Learn how visits to your web site become a report in Adobe Analytics.
 
 Analytics data collection is accomplished by making a special image request to Adobe data collection servers. In most implementations, JavaScript code is placed on the web pages being tracked. When a tagged web page loads in a visitor's browser, the browser executes our JavaScript code, performing logic to capture visitor information and populate tags correctly. The last step of JavaScript processing is an image request to an Analytics data collection server which collects the data being submitted and returns a small transparent image to the visitor's browser.
 
-As the typical bottleneck in browser processing is the time it takes to download page elements (images, et cetera) from web servers, the time required for the browser to execute the JavaScript code is negligible. However, the last step where the visitor's browser requests an image from the Adobe data collection server does add to the total page download time. The overall affect on page download time depends on the website visitor's proximity (typically in Internet hops, not geographic distance) to Adobe data collection servers. 
+As the typical bottleneck in browser processing is the time it takes to download page elements (images, et cetera) from web servers, the time required for the browser to execute the JavaScript code is negligible. However, the last step where the visitor's browser requests an image from the Adobe data collection server does add to the total page download time. The overall affect on page download time depends on the website visitor's proximity (typically in Internet hops, not geographic distance) to Adobe data collection servers.
 
 Adobe has created multiple ways to send data into Analytics. These methods include tracking information in real-time from:
 
@@ -63,13 +63,13 @@ Adobe has created multiple ways to send data into Analytics. These methods inclu
 
    ![](assets/how-data-is-collected-4.png)
 
-   The code automatically collects additional details (such as operating system, browser type, browser height and width, IP address, and browser language). 
+   The code automatically collects additional details (such as operating system, browser type, browser height and width, IP address, and browser language).
 
 1. Adobe servers store web analysis data in *`report suites`* (your data repository).
 
    ![](assets/how-data-is-collected-5.png)
 
-   A [report suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. 
+   A [report suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages.
 
 1. Report suite data populates the reports that you can access in a web browser.
 
@@ -79,7 +79,7 @@ Adobe has created multiple ways to send data into Analytics. These methods inclu
 
    ![](assets/two-months-summary-project.png)
 
-   The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache. 
+   The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache.
 
 For more details, see:
 

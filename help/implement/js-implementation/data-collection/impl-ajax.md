@@ -21,7 +21,7 @@ The difference when throwing [!UICONTROL AJAX] into the mix is first understandi
 
 ## Deploying the Code {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
-There are two functions in the JavaScript code that allow you to send data. There are some distinct guidelines that should be followed to know which method should be used to send data. 
+There are two functions in the JavaScript code that allow you to send data. There are some distinct guidelines that should be followed to know which method should be used to send data.
 If an image request was previously made on the same page, you must first clear the values of the previously-set variables. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
 
 >[!NOTE]
@@ -53,10 +53,10 @@ $.ajax({
 
 If an image request was previously made on the same page, clear the values of the previously-set variables. This can be accomplished by:
 
-* Writing a simple JavaScript function to clear the Adobe variables. 
-* Set the *`linkTrackVars`* and *`linkTrackEvents`* variables if you have not already done it in the [!DNL s_code.js] file. 
+* Writing a simple JavaScript function to clear the Adobe variables.
+* Set the *`linkTrackVars`* and *`linkTrackEvents`* variables if you have not already done it in the [!DNL s_code.js] file.
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable. 
+* Set the values appropriate for the changed content, namely the *`pageName`* variable.
 * After the variables are set, call the *`tl()`* function.
 
 ```js

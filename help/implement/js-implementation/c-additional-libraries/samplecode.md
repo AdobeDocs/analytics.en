@@ -13,7 +13,7 @@ uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 
 Examples to illustrate the use of a server-generated image tag within a HTML sample page.
 
-The table below displays the values used in the sample. 
+The table below displays the values used in the sample.
 
 |  Variable  | Value  |
 |---|---|
@@ -37,7 +37,7 @@ The example below displays a server-side image tag. The highlighted random numbe
 </head> 
 <body> 
 Order Confirmation<br> 
-Thanks for your order #0123456. 
+Thanks for your order #0123456.
 <img src="https://102.112.207.net/b/ss/suite1,suite2/1/G.4--NS 
 <codeph outputclass="syntax">
   /123456?pageName=Order%20 Confirmation&events=purchase%2Cevent1&c1=Registered&purchaseID=0123456&products=Books%3BBook%20Name%3B1%3B19.95&state=CA&zip=90210&g=https%3A//www.somesite.com/cart/confirmation.asp" width="1" height="1" border="0" /> 
@@ -57,7 +57,7 @@ The example below shows a minimal JavaScript image tag.
 </head> 
 <body> 
 Order Confirmation<br> 
-Thanks for your order #0123456. 
+Thanks for your order #0123456.
 <script language="javascript"><!— 
 s.s_date = new Date(); 
 s.s_rdm = s.s_date.getTime(); 

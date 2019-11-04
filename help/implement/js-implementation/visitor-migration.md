@@ -15,11 +15,11 @@ Visitor migration is a process where the visitor ID cookie is migrated from one 
 
 Visitor migration lets you preserve visitor identification cookies when changing data collection domains. Data collection domains might change for the following reasons:
 
-* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)). 
+* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
 
 * You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)) 
 
-* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). 
+* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
 
 * Moving from one CNAME to another (changing domains).
 
@@ -62,4 +62,4 @@ The following table lists the tasks required for visitor migration:
 
 ## Deprecated visitorMigrationKey and visitorMigrationServer Variables {#section_32FCEE2575944D039EA0FEBFB5814259}
 
-As of March 2013, the `visitorMigrationKey`, `visitorMigrationServer`, and `visitorMigrationServerSecure` data collection variables are deprecated and no longer used. The data previously contained in these variables are now stored on Adobe servers for increased security. 
+As of March 2013, the `visitorMigrationKey`, `visitorMigrationServer`, and `visitorMigrationServerSecure` data collection variables are deprecated and no longer used. The data previously contained in these variables are now stored on Adobe servers for increased security.

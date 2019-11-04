@@ -60,7 +60,7 @@ To create additional alerts,
 
 To manage alerts:
 
-1. Select the checkbox next to one or more alerts. The alert management actions display at the top. 
+1. Select the checkbox next to one or more alerts. The alert management actions display at the top.
 1. Complete one or more of these actions: 
 
    | Action | Definition |

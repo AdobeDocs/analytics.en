@@ -8,7 +8,7 @@ uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 
 # Adobe Analytics Data Privacy workflow
 
-Welcome to Adobe Analytics and Data Privacy readiness! This workflow outlines the steps you need to take to make your Adobe Analytics implementation ready to support your data subjects' Data Privacy access and delete rights. 
+Welcome to Adobe Analytics and Data Privacy readiness! This workflow outlines the steps you need to take to make your Adobe Analytics implementation ready to support your data subjects' Data Privacy access and delete rights.
 
 <!--
 <table id="table_0E561F62247A4D01B6E7180560082DC9"> 

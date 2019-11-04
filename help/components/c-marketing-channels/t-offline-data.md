@@ -19,8 +19,8 @@ Online Channels let you categorize data for visitors who come through sources li
 
 If you want to integrate [data sourced data](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) into Marketing Channel reports, keep in mind the following:
 
-* Any standard hits passed in to analytics reports with a [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) are processed through marketing channel processing rules as normal. 
-* Any `transactionID` data sources passed into analytics are automatically associate with the same marketing channel on which the standard hit was processed. 
+* Any standard hits passed in to analytics reports with a [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) are processed through marketing channel processing rules as normal.
+* Any `transactionID` data sources passed into analytics are automatically associate with the same marketing channel on which the standard hit was processed.
 * Any other data sourced data does not go through marketing channel processing rules.
 
 See [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html) help for more information about Data Sources.
@@ -39,6 +39,6 @@ See "Working with Data Sources" in the [Data Sources User Guide](https://marketi
 1. Map offline metrics to reporting metrics by following the prompts on the Data Source Activation Wizard.
 1. Download and edit the template file in an editor, such as Excel.
 
-   See "Creating a Data Sources File" in the [Data Sources User Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html). 
+   See "Creating a Data Sources File" in the [Data Sources User Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html).
 
 1. Upload the file as described in "Uploading a Data Sources File" in the [Data Sources User Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html).

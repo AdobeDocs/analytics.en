@@ -23,4 +23,4 @@ Visits total includes all visitors that are identified by the `s_vi` cookie or b
 
 ## IP Address, User Agent, Gateway IP Address {#section_104819D74C594ECE879144FCC5DEF4BF}
 
-. If the `AMCV_` or `s_vi` and the `s_fid` cookies cannot be set, visitors are identified using a combination of IP address and User Agent. 
+. If the `AMCV_` or `s_vi` and the `s_fid` cookies cannot be set, visitors are identified using a combination of IP address and User Agent.

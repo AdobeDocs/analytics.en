@@ -10,7 +10,7 @@ uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 
 Lists optional dimension identifiers that can be given in Step 4 of the Adobe Integration wizard.
 
-If you are unsure of the exact API ID to enter into the wizard, please consult with your Demandbase representative. 
+If you are unsure of the exact API ID to enter into the wizard, please consult with your Demandbase representative.
 
 >[!IMPORTANT]
 >

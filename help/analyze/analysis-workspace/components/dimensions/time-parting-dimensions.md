@@ -19,7 +19,7 @@ Time-parting dimensions are based on the time zone of the report suite or virtua
 
 >[!NOTE]
 >
->Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html). 
+>Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html).
 
 Time-parting dimensions in Analysis Workspace include: 
 

@@ -84,4 +84,4 @@ Click Here to Opt Out! </a>
 
 Where *`stats.adobe.com`* is replaced with whatever the *`s.trackingServer`* variable is set to.
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`. 
+Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.

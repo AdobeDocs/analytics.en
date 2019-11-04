@@ -20,7 +20,7 @@ Interactive controls were created in response to a common workflow where analyst
 >[!IMPORTANT]
 >
 >You must have Report Builder v5.0 installed for the interactive controls to work. >
->* If you are running Microsoft Excel on Windows but are running a lower version of report builder, or if you do not have report builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request's associated parameters. 
+>* If you are running Microsoft Excel on Windows but are running a lower version of report builder, or if you do not have report builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request's associated parameters.
 >* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 
@@ -30,7 +30,7 @@ Interactive controls were created in response to a common workflow where analyst
 
 ## Implement interactive date range control {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report. 
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
 1. Next to the **[!UICONTROL Commonly Used Dates]** drop down, click the **[!UICONTROL Control Settings]** icon:
 
    ![](assets/date_range_control.png)
@@ -41,19 +41,19 @@ Interactive controls were created in response to a common workflow where analyst
 
 1. Notice the option to "Automatically refresh linked requests upon item selection".
 
-    * If checked, all requests that use this control are refreshed. 
+    * If checked, all requests that use this control are refreshed.
     * If not checked, the associated request parameters are updated, but the request is not refreshed.
 
 1. Click **[!UICONTROL OK]**. The control appears in the cell location that you specified:
 
    ![](assets/date_range_control_interactive.png)
 
-1. You can now change the date range and the request will refresh with that date range. 
+1. You can now change the date range and the request will refresh with that date range.
 1. You can also copy the request and right click to use one of two Paste Request options:
 
-    * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. This means that the copied request will point to the same interactive date range control as the original request. 
+    * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. This means that the copied request will point to the same interactive date range control as the original request.
     
-    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. This mean that the copied request will point to its own control.     
+    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. This mean that the copied request will point to its own control.
     
       >[!NOTE]
       >

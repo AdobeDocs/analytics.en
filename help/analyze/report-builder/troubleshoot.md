@@ -21,14 +21,14 @@ This introduces a forward compatibility problem: Once converted to v5.1, if a wo
 You will experience the following side effect when opening a ARB v5.1 workbook with classification request:
 
 * When opening the workbook, you will get the following warning: "This workbook was last saved using Report Builder v5.1. This version has introduced some features that are incompatible with the Report Builder version installed on this computer. It is highly recommended that you upgrade to the latest Report Builder version before updating this workbook." 
-* If you right-click an ARB request with classification, the Report Builder context menus (edit request, add dependent request...) will not show up. 
-* If you perform a Refresh All, by clicking the third button, or by refreshing a set of requests from the Request Manager form, the classification request will execute without error. However, the classifications values will not be written out. 
-* You can still edit the request by opening the Request Manager, then going from row to row, until it reaches the right request. 
+* If you right-click an ARB request with classification, the Report Builder context menus (edit request, add dependent request...) will not show up.
+* If you perform a Refresh All, by clicking the third button, or by refreshing a set of requests from the Request Manager form, the classification request will execute without error. However, the classifications values will not be written out.
+* You can still edit the request by opening the Request Manager, then going from row to row, until it reaches the right request.
 * If you edit the request and leave all parameters the same and then click Finish, the response will be properly written out. Indeed, editing the request resolves the problem as the Response Layout parameters are re-serialized. So there is a workaround, although it is time consuming.
 
 ## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to report builder depending on your settings within [!DNL Analytics] or your network. 
+Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to report builder depending on your settings within [!DNL Analytics] or your network.
 
 **Invalid Login Company**
 
@@ -85,7 +85,7 @@ Processing speed can be affected by the following settings:
 
 Stagger scheduling over 24-hour period (see table below). Existing bookmarks , dashboards, and Report Builder workbooks scheduled close together may cause delays.
 
-Schedule larger, more complex requests in the early morning to allow for manual pulls and refreshing to occur during the business day. 
+Schedule larger, more complex requests in the early morning to allow for manual pulls and refreshing to occur during the business day.
 
 | Scheduling Time | 1 a.m. - 2 a.m. | 2 a.m. - 7 a.m. | 7 a.m. - 6 p.m. | 6 p.m. - Midnight |
 |--- |--- |--- |--- |--- |
@@ -137,4 +137,4 @@ If you have already mapped a set of cells to the spreadsheet, this error is disp
 
 One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. Then, select items listed in the request summary table one by one. Whenever you select a request in the list, the corresponding cells containing request mappings in the spreadsheet are highlighted.
 
-This is one reason you should consider marking cells with highlighting, row or column information, or a formatting style before mapping multiple cells to multiple areas. 
+This is one reason you should consider marking cells with highlighting, row or column information, or a formatting style before mapping multiple cells to multiple areas.

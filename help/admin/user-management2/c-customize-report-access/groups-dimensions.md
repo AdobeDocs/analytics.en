@@ -22,7 +22,7 @@ Customize user access at a granular level, including eVars, traffic reports, sol
 
 >[!IMPORTANT]
 >
->Some dimensions are not permissionable at this time. These dimensions are: Mobile Bookmark Length; Mobile Device Number; Mobile DRM; Mobile Information Services; Mobile Java VM; Mobile Mail Decoration; Mobile Net Protocols; Mobile OS; Mobile push to talk. 
+>Some dimensions are not permissionable at this time. These dimensions are: Mobile Bookmark Length; Mobile Device Number; Mobile DRM; Mobile Information Services; Mobile Java VM; Mobile Mail Decoration; Mobile Net Protocols; Mobile OS; Mobile push to talk.
 >
 >These dimensions are available for all users, regardless of other permissions.
 
@@ -32,18 +32,18 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 
 Understand the following information about the Dimension category for permissions.
 
-* eVars 1-250 are individually permissioned. 
-* All traffic reports are dimensions. 
+* eVars 1-250 are individually permissioned.
+* All traffic reports are dimensions.
 * Video & Mobile reports are dimensions, as well as other Analytics solutions reports (Experience Manager, Advertising Cloud, Social, and do on.) 
-* Pathing reports are available if a user has access to the parent dimension. 
-* All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default. 
+* Pathing reports are available if a user has access to the parent dimension.
+* All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default.
 * Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the [variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) on which the classification is based.
 
 For more information, see [Frequently Asked Questions about Permission Changes](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html).
 
 **Customize Dimensions**
 
-The following items are dimensions that you can permission. 
+The following items are dimensions that you can permission.
 
 <table id="table_F37D74A1619A4560A5F5651E855DAF1C"> 
  <thead> 

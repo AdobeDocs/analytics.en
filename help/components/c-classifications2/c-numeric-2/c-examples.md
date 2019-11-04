@@ -136,7 +136,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
  -->
 
-In this example, you add a $500 shipping charge to Product1 for January, and a $600 shipping charge to February. 
+In this example, you add a $500 shipping charge to Product1 for January, and a $600 shipping charge to February.
 
 |  Key  | MyText  | `~MyCost`  | `~MyCost^~id~`  | `~MyCost^~value~`  |
 |---|---|---|---|---|

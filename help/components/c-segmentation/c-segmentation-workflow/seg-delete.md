@@ -14,7 +14,7 @@ Lists a few considerations you should be aware of before deleting segments.
 
 When you delete a segment,
 
-* Scheduled reports and dashboards that have this segment applied continue to work normally, i.e. the segment or dashboard continues to use the deleted segment. 
+* Scheduled reports and dashboards that have this segment applied continue to work normally, i.e. the segment or dashboard continues to use the deleted segment.
 * Scheduled reports do not update when you edit a segment with the same name. Here is an example: Let's suppose you have 2 segments with the same name in different report suites:
 
   ![](assets/duplicate_seg_names.png)
@@ -25,4 +25,4 @@ When you delete a segment,
 
 Ad Hoc Analysis now lets you edit embedded deleted segments within the [Calculated Metric Builder](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) and lets you perform a "Save As" operation on that segment.
 
-However, any other deleted segments that reference the deleted segment will remain unchanged. 
+However, any other deleted segments that reference the deleted segment will remain unchanged.

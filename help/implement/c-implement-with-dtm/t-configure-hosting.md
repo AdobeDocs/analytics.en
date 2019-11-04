@@ -15,7 +15,7 @@ You can deploy [!UICONTROL Dynamic Tag Management] using one or more of the avai
 
 [!UICONTROL Dynamic Tag Management] provides a number of options to host the required JavaScript files.
 
-For detailed information about hosting, see [Embed Code and Hosting Options](https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html) in the [!UICONTROL Dynamic Tag Management] Product Documentation. 
+For detailed information about hosting, see [Embed Code and Hosting Options](https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html) in the [!UICONTROL Dynamic Tag Management] Product Documentation.
 
 On the Embed tab, select a hosting option.
 
@@ -63,4 +63,4 @@ On the Embed tab, select a hosting option.
  </tbody> 
 </table>
 
-   You can use more than one hosting option. For example, you might host your staged files using Akamai, but self-host your production site. Note that each hosting type has its own embed code, and only one embed code can be added to a page. 
+   You can use more than one hosting option. For example, you might host your staged files using Akamai, but self-host your production site. Note that each hosting type has its own embed code, and only one embed code can be added to a page.

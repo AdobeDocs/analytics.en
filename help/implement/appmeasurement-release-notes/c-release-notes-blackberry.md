@@ -27,4 +27,4 @@ Initial release of the 4.x version for BlackBerry 10. See [Experience Cloud for 
 
 Release Date: **October 2011**
 
-Updated request transport handling to prevent transport errors when using WAP2. In addition, a new method was added to set the list of available transports. See [AppMeasurement for BlackBerry](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/blackberry/oms_sc_appmeasure_blackberry.pdf) for details. 
+Updated request transport handling to prevent transport errors when using WAP2. In addition, a new method was added to set the list of available transports. See [AppMeasurement for BlackBerry](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/blackberry/oms_sc_appmeasure_blackberry.pdf) for details.

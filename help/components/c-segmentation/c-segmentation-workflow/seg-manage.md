@@ -14,7 +14,7 @@ The Segment Manager offers many ways of curating segments, such as sharing, filt
 
 The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. Access the Segment Manager by
 
-* Going to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in the top navigation. 
+* Going to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in the top navigation.
 * Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**.
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
@@ -52,4 +52,4 @@ To access the Segment Organizer in [!DNL ad hoc analysis]:
 
 ![](assets/ad_hoc_organize_segments.png)
 
-Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites. 
+Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.

@@ -23,5 +23,5 @@ Steps that describe how to create rules in Dynamic Tag Management.
     * **Page Load rule:** [Create conditions for page-load rules](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md)
     * **Direct Call rule:** [Create conditions for direct-call rules](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
 
-   The category field is only for your own organizational purposes and is not required. You can delete categories by clicking the x icon in the category. 
+   The category field is only for your own organizational purposes and is not required. You can delete categories by clicking the x icon in the category.
 1. [Set up actions for the condition to trigger](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md).

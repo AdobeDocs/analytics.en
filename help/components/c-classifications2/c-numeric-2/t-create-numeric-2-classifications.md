@@ -26,6 +26,6 @@ You create numeric 2 classifications the same way you create other classificatio
 
    **Name:** Specify a name for the classification.
 
-   **Numeric:** Select whether this classification is **[!UICONTROL Percent (%)]** or **[!UICONTROL Currency ($)]**. 
+   **Numeric:** Select whether this classification is **[!UICONTROL Percent (%)]** or **[!UICONTROL Currency ($)]**.
 
 1. Click **[!UICONTROL Save]**.

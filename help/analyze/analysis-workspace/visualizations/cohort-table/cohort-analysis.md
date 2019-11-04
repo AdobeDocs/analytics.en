@@ -15,10 +15,10 @@ After creating a cohort report, you can curate its components (specific dimensio
 
 Examples of what you can do with Cohort Analysis:
 
-* Launch campaigns designed to spur a desired action. 
-* Shift marketing budget at exactly the right time in the customer lifecycle. 
-* Recognize when to end a trial or an offer, to maximize value. 
-* Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on. 
+* Launch campaigns designed to spur a desired action.
+* Shift marketing budget at exactly the right time in the customer lifecycle.
+* Recognize when to end a trial or an offer, to maximize value.
+* Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
 * View a Cohort Analysis report within a Guided Analysis report.
 * Recognize when to end a trial or an offer, to maximize value.
 * Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
@@ -29,7 +29,7 @@ Cohort Analysis is available for all Analytics customers with access rights to A
 
 >[!IMPORTANT]
 >
->Cohort Analysis does not support calculated metrics. 
+>Cohort Analysis does not support calculated metrics.
 
 ## Cohort Analysis capabilities
 
@@ -49,13 +49,13 @@ A Churn cohort is the inverse of a retention table and shows the visitors who fe
 
 ### Rolling Calculation
 
-Lets you calculate retention or churn based on the previous column, not the included column. 
+Lets you calculate retention or churn based on the previous column, not the included column.
 
 ![](assets/cohort-rolling-calculation.png)
 
 ### Latency Table
 
-Measures the time that has elapsed before and after the inclusion event occurred. This is an excellent tool for pre/post analysis. The "Included" column is in the center of the table and time periods before and after the inclusion event are shown on both sides. 
+Measures the time that has elapsed before and after the inclusion event occurred. This is an excellent tool for pre/post analysis. The "Included" column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 

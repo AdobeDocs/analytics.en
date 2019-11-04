@@ -16,4 +16,4 @@ Adobe Analytics Content Packs provide pre-built Power BI dashboards and a set of
 * Adobe Analytics Mobile App Analytics 
 * Adobe Analytics Traffic Analysis
 
-For more information, refer to the [Adobe Analytics content pack for Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/) documentation. 
+For more information, refer to the [Adobe Analytics content pack for Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-content-pack-adobe-analytics/) documentation.

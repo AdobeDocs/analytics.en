@@ -23,7 +23,7 @@ Work with your IT team to ensure that the following is in place:
 1. Unzip the downloaded file.
 1. **Select the .bat (PC) or .sh (Mac) file**. Select the appropriate data center file by looking at the number following "sc" in the Adobe Analytics URL. (3 = LON, 4 = SIN, 5 = PNW) If you use a PC, verify whether you are running a 32-bit or a 64-bit Windows operating system by going to 'About your PC'. Then select the appropriate .bat file.
 1. **Run the selected file**. For PC: Doubleclick the .bat file. For Mac: Right-click the .sh file, then select **[!UICONTROL Open With > Other... > Utilities > (Enable all applications) > select Terminal > Open]**.
-1. Log in to Ad Hoc Analysis. 
+1. Log in to Ad Hoc Analysis.
 
 >[!Note]
 >
@@ -44,4 +44,4 @@ There are a few known limitations in the Java 11 version compatible with Ad Hoc 
 
 ![](/help/analyze/ad-hoc-analysis/assets/error-java.png)
 
-A: If you get this error, work with your IT team to set the *JAVA_HOME* environment variable which is required to run Ad Hoc Analysis in Java 11. 
+A: If you get this error, work with your IT team to set the *JAVA_HOME* environment variable which is required to run Ad Hoc Analysis in Java 11.

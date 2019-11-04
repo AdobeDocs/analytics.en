@@ -48,8 +48,8 @@ says "If the value in cell P5 is text or is blank, refresh the range that is in 
 
 You can now assign a macro to a control you created and that control can be a function that refreshes a workbook request. For example, the function AsyncRefreshActiveWorksheet will refresh all requests in a worksheet. Sometimes, though, you may want to refresh only certain requests, not all.
 
-1. Set the macro parameter. 
-1. Right-click the control and select **[!UICONTROL Assign Macro]**. 
+1. Set the macro parameter.
+1. Right-click the control and select **[!UICONTROL Assign Macro]**.
 1. Enter the report builder function name (no parameters or parentheses.)
 
 ![](assets/assign_macro.png)
@@ -69,8 +69,8 @@ The two functions that take a parameter can be used with Format Control, but onl
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed. 
-1. Open the list of report builder parameters under [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge]. 
+1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
+1. Open the list of report builder parameters under [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
 

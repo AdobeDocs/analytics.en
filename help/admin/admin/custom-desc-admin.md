@@ -20,7 +20,7 @@ You can provide custom report descriptions for eVars, props, classifications and
 
 ![](assets/report_descriptions.png)
 
-1. Provide a description for the report. The maximum number of characters is 255. 
+1. Provide a description for the report. The maximum number of characters is 255.
 1. Click **[!UICONTROL Save]**.
 
 The description is visible in two places:

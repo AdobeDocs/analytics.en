@@ -11,7 +11,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 
 # Create a Workspace project
 
-Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel. 
+Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
 
 This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project. For specific use cases, see [Use Cases for Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
@@ -19,7 +19,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
 
 1. Specify user permission to create and curate projects.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)). 
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -33,7 +33,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
 
    You can choose whether to create a project from
 
-* A blank project (default). For instructions, see below. 
+* A blank project (default). For instructions, see below.
 * A standard template. These templates are created by Adobe and ship out of the box. For instructions, see [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
 * A custom template. These templates are created by users with admin rights. For instructions, see [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
@@ -81,7 +81,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
 
 1. You can now right-click and copy a visualization or panel, and then paste ("insert") that copied element into another place within the project, or into a different project.
 
-   You can use this capability to create "building blocks" - predefined visualizations/panels - that can be copied into other projects to get started more quickly, with data specific to your business. 
+   You can use this capability to create "building blocks" - predefined visualizations/panels - that can be copied into other projects to get started more quickly, with data specific to your business.
 
    >[!NOTE]
    >
@@ -93,7 +93,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
 
    **Components**
 
-   The Component toolbar displays searchable dimensions, metrics, segments, and date ranges that you use most frequently. 
+   The Component toolbar displays searchable dimensions, metrics, segments, and date ranges that you use most frequently.
 
 <table id="table_4626163E26DE46CB86391868BBA3AD32"> 
  <thead> 
@@ -207,4 +207,4 @@ The right-click menu lets you perform the following actions, depending on which 
  </tbody> 
 </table>
 
-See [Keyboard and Mouse Interactions Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for information about copying and selecting rows. 
+See [Keyboard and Mouse Interactions Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for information about copying and selecting rows.

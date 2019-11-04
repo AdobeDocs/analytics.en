@@ -14,7 +14,7 @@ Displays information about the places on the Web that drive traffic to your site
 
 ## Traffic Sources {#topic_6718F8EFD5984DC5839B9E8F6CC45EDA}
 
-Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you. 
+Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you.
 
 The reports in this menu fall into three basic categories:
 

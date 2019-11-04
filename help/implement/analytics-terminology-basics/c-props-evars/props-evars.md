@@ -38,4 +38,4 @@ In a conversion site, eVars may be used to track how logged-in visitors compare 
 
 For additional information, see [Traffic Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in the Analytics Help and Reference.
 
-For information about setting up properties in Digital Tag Management, see [Create Web Property](/help/implement/c-implement-with-dtm/t-create-web-property.md). 
+For information about setting up properties in Digital Tag Management, see [Create Web Property](/help/implement/c-implement-with-dtm/t-create-web-property.md).

@@ -75,4 +75,4 @@ The selection you make on the Create tab determines the initial fields in the te
 
 ## File Log Tab {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-The file log includes a search feature that lets you search for information by Data Source Name, Data Source Type, file name, date received, or status. 
+The file log includes a search feature that lets you search for information by Data Source Name, Data Source Type, file name, date received, or status.

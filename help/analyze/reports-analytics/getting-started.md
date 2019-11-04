@@ -15,7 +15,7 @@ Before using Reports & Analytics, understand these basic login and setup tasks, 
 
 ## Getting started with Reports & Analytics
 
-Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information. 
+Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
 
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of marketing reports include:
 
@@ -35,14 +35,14 @@ Browser and system requirements to log in to the Reports & Analytics interface.
 
 * Browsers:
 
-    * Preferred: Latest versions of Firefox, Chrome, Safari, or Edge. 
+    * Preferred: Latest versions of Firefox, Chrome, Safari, or Edge.
     * Latest version of Microsoft Internet Explorer 11
     
       >[!NOTE]
       >
       >Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
 
-* Cookies and JavaScript must be enabled. 
+* Cookies and JavaScript must be enabled.
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).
 
 ## Log in to Reports and Analytics
@@ -62,10 +62,10 @@ Steps that describe how to log in through the Adobe Experience Cloud.
 
    **[!UICONTROL Username]**: Specify your account ID.
 
-   **[!UICONTROL Password]**: Specify your account password. 
+   **[!UICONTROL Password]**: Specify your account password.
 1. From the Experience Cloud home page, go to **Analytics > Reports**.
 
-   The Experience Cloud automatically logs you out after 30 minutes of inactivity. 
+   The Experience Cloud automatically logs you out after 30 minutes of inactivity.
 
 ## Run a report
 
@@ -73,13 +73,13 @@ Steps that describe how to generate a report.
 
 1. Log in to [!UICONTROL Reports & Analytics].
 
-   The Reports menu displays, or a [dashboard](/help/analyze/reports-analytics/dashboard.md) displays, if you have set one up. 
+   The Reports menu displays, or a [dashboard](/help/analyze/reports-analytics/dashboard.md) displays, if you have set one up.
 
 1. Click **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report. 
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## Edit a user's account settings
 

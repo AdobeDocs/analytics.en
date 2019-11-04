@@ -19,13 +19,13 @@ Explains how to compare segments in Analysis Workspace.
 
 ## Compare segments {#section_8F2BFC45131C49B4A2E08A063CD7A91F}
 
-1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** and open a project. 
+1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** and open a project.
 
 1. From the **[!UICONTROL Panels]** rail on the left margin, select **[!UICONTROL Segment Comparison]** and drag it into a new or existing project.
 
    ![](assets/seg-compare-panel.png)
 
-1. Make sure the comparison date range is set appropriately. 
+1. Make sure the comparison date range is set appropriately.
 1. Select segments to compare and drop them into the panel. For example, let's say you have a "Super Shoppers" segment.
 
    ![](assets/compare-audiences.png)
@@ -34,7 +34,7 @@ Explains how to compare segments in Analysis Workspace.
 
    ![](assets/everyone-else.png)
 
-1. Click **[!UICONTROL Show Advanced Options]** to exclude components (dimensions, metrics, or segments) from your segment comparison analysis. For more information, see [Exclude Components from Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937). 
+1. Click **[!UICONTROL Show Advanced Options]** to exclude components (dimensions, metrics, or segments) from your segment comparison analysis. For more information, see [Exclude Components from Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937).
 
 1. After you've selected the right "Compare Against" segment, click **[!UICONTROL Build]**.
 
@@ -60,7 +60,7 @@ Sometimes, you might want to exclude some dimensions, metrics, or segments from 
 
    ![](assets/excluded-components.png)
 
-1. Click **[!UICONTROL Set as default]** to exclude these components from **all** segment comparisons. 
+1. Click **[!UICONTROL Set as default]** to exclude these components from **all** segment comparisons.
 
 1. If you ever need to revise the list of excluded components, just double click, for example, Dimensions, and the list of excluded dimensions displays:
 

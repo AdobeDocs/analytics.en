@@ -48,4 +48,4 @@ After you create channels on the [!UICONTROL Marketing Channel Manager] page, yo
 
 See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md).
 
-If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs. 
+If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs.

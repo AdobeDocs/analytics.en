@@ -59,4 +59,4 @@ s.products=";SKU"
 >
 >While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. You can create categories from the SKU that indicate finish, manufacturer, category, and sub-category.
 
-When the *`products`* variable is set in conjunction with the *`purchase`* event, the purchase quantity and total purchase price are included in the products value as shown above. 
+When the *`products`* variable is set in conjunction with the *`purchase`* event, the purchase quantity and total purchase price are included in the products value as shown above.

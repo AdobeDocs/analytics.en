@@ -12,8 +12,8 @@ The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Me
 
 There are several ways to get to the Calculated Metric Builder:
 
-* In Analysis Workspace, open a project and click  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** . 
-* In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**. 
+* In Analysis Workspace, open a project and click  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
 * Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or 
 

@@ -12,4 +12,4 @@ Lets you see how a value you are interested in compares to or measures against o
 
  ![](assets/bullet-image.png)
 
-The bullet graph features a single, primary measure (for example, current year-to-date revenue) and allows you to enter qualitative ranges performance ranges (for example, compared to a target revenue). You can specify high, medium, and low. You can specify goal ranges in [!UICONTROL Visualization Settings]. 
+The bullet graph features a single, primary measure (for example, current year-to-date revenue) and allows you to enter qualitative ranges performance ranges (for example, compared to a target revenue). You can specify high, medium, and low. You can specify goal ranges in [!UICONTROL Visualization Settings].

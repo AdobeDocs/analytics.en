@@ -99,4 +99,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-For an example, see [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) in Analytics Reference. 
+For an example, see [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) in Analytics Reference.

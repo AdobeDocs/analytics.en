@@ -14,15 +14,15 @@ Displays the number of visits made to your entire website during a specified tim
 
  **Report Properties**
 
-* A visit is defined as a sequence of consecutive page views without a 30 minute break, or continuous activity for 12 hours. 
-* After a visit expires, a new visit is started on any subsequent image request. 
-* A visitor typically contains at least one (but probably more than one) visit. 
-* The beginning of a visit is the first image request coming from a new visitor, or after an existing user's visit has expired. This can be identified as the Entry Page. 
+* A visit is defined as a sequence of consecutive page views without a 30 minute break, or continuous activity for 12 hours.
+* After a visit expires, a new visit is started on any subsequent image request.
+* A visitor typically contains at least one (but probably more than one) visit.
+* The beginning of a visit is the first image request coming from a new visitor, or after an existing user's visit has expired. This can be identified as the Entry Page.
 * The end of a visit is the last image request before a visit expires. This can be identified as the Exit Page.
 
-  See [Entries and Exits Reports](/help/components/c-variables/dimensionslist/reports-entries-exits.md). 
-* Hourly breakdowns are based on the report suite's time zone. 
-* This report does not contain line items. You view it only in the trended format. 
+  See [Entries and Exits Reports](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+* Hourly breakdowns are based on the report suite's time zone.
+* This report does not contain line items. You view it only in the trended format.
 * Granularity of hour, day, week, month, quarter, and year can be applied. These granularity settings are available depending on the reporting date range.
 
 See [Visit Metric](/help/components/c-variables/c-metrics/metrics-visit.md) for more information about how the Experience Cloud processes this metric.

@@ -12,9 +12,9 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
 ![](assets/aa_accounts.png)
 
-1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**. 
-1. (First-time use only) Accept the terms of the End User License Agreement. 
-1. Click **[!UICONTROL + Add]**. 
+1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. (First-time use only) Accept the terms of the End User License Agreement.
+1. Click **[!UICONTROL + Add]**.
 1. The [!UICONTROL New Search Engine Account] dialog displays:
 
    ![](assets/aa_new_se_account.png)
@@ -51,7 +51,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data. 
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
    Fill in the **[!UICONTROL Tracking Settings]** following these guidelines: 
 
     <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
@@ -77,7 +77,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. You need to provide at least one report suite before you can save the Advertising Account. You can map multiple accounts to multiple report suites (1:1, 1:Many, Many:Many). Note that the data that AMO pulls from the search engine is simply copied to any mapped report suite, so there is no splitting of data. 
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. You need to provide at least one report suite before you can save the Advertising Account. You can map multiple accounts to multiple report suites (1:1, 1:Many, Many:Many). Note that the data that AMO pulls from the search engine is simply copied to any mapped report suite, so there is no splitting of data.
 
    >[!IMPORTANT]
    >
@@ -100,7 +100,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     </tbody> 
     </table>
 
-1. Click **[!UICONTROL Save]**. 
+1. Click **[!UICONTROL Save]**.
 1. After you save, a disclaimer displays a list of caveats. You are asked to confirm that you have read and you understand this agreement. Click the checkbox, then click **[!UICONTROL OK]**.
 
    You are now taken to the Advertising Accounts [Management UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md), where your newly created account should be listed.

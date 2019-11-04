@@ -45,7 +45,7 @@ s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
 **PLUGINS SECTION** 
-Add the following code to the area of the [!DNL s_code.js] file labeled *PLUGINS SECTION*. Do not make any changes to this portion of the plug-in code. 
+Add the following code to the area of the [!DNL s_code.js] file labeled *PLUGINS SECTION*. Do not make any changes to this portion of the plug-in code.
 
 ```js
 /* 
@@ -69,7 +69,7 @@ s.getDaysSinceLastVisit=new Function("c",""
 
 **Notes**
 
-* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment. 
+* Always test plug-in installations extensively to ensure that data collection is as expected before deploying in a production environment.
 * The plug-in categorizes users by return frequency into the following groups:
 
     * First Visit 

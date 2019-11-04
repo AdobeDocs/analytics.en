@@ -27,9 +27,9 @@ The following illustration is a sample data file:
 
 A data file must adhere to the following structure rules:
 
-* Classifications cannot have a value of 0 (zero). 
-* Adobe recommends that you limit the number of import and export columns to 30. 
-* Uploaded files should use UTF-8 without BOM character encoding. 
+* Classifications cannot have a value of 0 (zero).
+* Adobe recommends that you limit the number of import and export columns to 30.
+* Uploaded files should use UTF-8 without BOM character encoding.
 * Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Special characters include:
 
   ```
@@ -39,25 +39,25 @@ A data file must adhere to the following structure rules:
   "       double quote
   ```
 
-  The comma is not a special character. 
+  The comma is not a special character.
 
-* Classifications cannot contain a caret (^) since this character is used to denote a sub-classification. 
-* Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*. 
-* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. 
-* Tab-delimited data file (create the template file using any spreadsheet application or text editor). 
-* Either a [!DNL .tab] or [!DNL .txt] file extension. 
-* A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #. 
-* A double-pound sign followed by SC (## SC) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines. 
-* Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters. 
+* Classifications cannot contain a caret (^) since this character is used to denote a sub-classification.
+* Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
+* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes.
+* Tab-delimited data file (create the template file using any spreadsheet application or text editor).
+* Either a [!DNL .tab] or [!DNL .txt] file extension.
+* A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #.
+* A double-pound sign followed by SC (## SC) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines.
+* Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters.
 * Cell C1 in the first line of the import file contains a version identifier that determines how classifications handle the use of quotes throughout the remainder of the file.
 
-    * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""". 
-    * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value". 
-    * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point. 
+    * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""".
+    * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value".
+    * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
     * Make sure you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
 
-* The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md). 
-* Immediately following the header row in a data file are the data rows. Each line of data should contain a data field for each column heading. 
+* The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+* Immediately following the header row in a data file are the data rows. Each line of data should contain a data field for each column heading.
 * The data file supports the following control codes, which Adobe uses to provide structure to the file, and correctly import classifications data: 
 
 <table id="table_0548F2E58B6644208147434EB9B3C21B"> 
@@ -171,26 +171,26 @@ For more information, see [Conversion Classifications](https://marketing.adobe.c
 
 [!UICONTROL Classifications] can be used to assign date ranges to your campaigns or other conversion [!UICONTROL classifications], which allows more accurate campaign measurement. After specifying a value's date range, any matching value that occurs outside the date range will not be classified. This is useful for campaign measurement that wishes to utilize the exact dates a campaign was Live, and not all hits matching the campaign itself. In order to successfully classify a value with a date range, the following must be met:
 
-* The [!UICONTROL classification] must be based on a conversion variable. 
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2. 
+* The [!UICONTROL classification] must be based on a conversion variable.
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * The involved date range must contain a start date and (optionally) an end date.
 
 To classify campaigns based on date range:
 
-1. Log in to [!DNL Analytics] and go to Admin > Classifications. 
-1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File. 
-1. Open this file in Microsoft Excel or another spreadsheet editor you are familiar with. 
+1. Log in to [!DNL Analytics] and go to Admin > Classifications.
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
+1. Open this file in Microsoft Excel or another spreadsheet editor you are familiar with.
 1. One of the columns will end with
 
    ^~period~
-   which is the column to enter the date range in. 
+   which is the column to enter the date range in.
 1. Under this column, enter each value's date range in the following format:
 
    `YYYY/MM/DD - YYYY/MM/DD`. Please ensure the following:
 
-    * Leave spaces on both sides of the dash. 
-    * Use a hyphen (-) to separate ranges, not an en-dash or an em-dash. 
-    * If the month or day is a single digit, that there is a leading zero. 
+    * Leave spaces on both sides of the dash.
+    * Use a hyphen (-) to separate ranges, not an en-dash or an em-dash.
+    * If the month or day is a single digit, that there is a leading zero.
     * There is a start date range; the end date range is optional.
 
 1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.

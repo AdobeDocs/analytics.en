@@ -23,13 +23,13 @@ The DoubleClick for Advertisers (DFA) integration solves this problem by using A
 
 Key Benefits of the Data Connector - DFA integration include:
 
-* **Increased conversion**: Gain directional insight to optimize ad campaign placement and on-site conversion based on post-click visitor behavior and preferences. 
-* **Shared location for data**: Combine DoubleClick DFA click-through and view -through data with Reports & Analytics to improve cross-organizational collaboration and abilities to make objective decisions. 
-* **Value-added analysis**: Automated integration between DFA and Adobe Reports & Analytics allows advertisers and agencies to spend less time crunching data and more time analyzing reports and taking action. 
-* **Deeper customer insight**: Gain greater insight into where visitors are coming from and what they are doing on your site. 
-* **Lifetime success metrics**: Measure the effectiveness of your acquisition campaigns across the entire visitor life cycle. 
-* **Integrated Reporting**: Automatically synchronize data between DFA and Reports & Analytics for streamlined business processes and reporting. 
-* **Lifetime Visitor Analysis**: Measure campaign effectiveness by multiple user-defined success events and lifetime value. 
+* **Increased conversion**: Gain directional insight to optimize ad campaign placement and on-site conversion based on post-click visitor behavior and preferences.
+* **Shared location for data**: Combine DoubleClick DFA click-through and view -through data with Reports & Analytics to improve cross-organizational collaboration and abilities to make objective decisions.
+* **Value-added analysis**: Automated integration between DFA and Adobe Reports & Analytics allows advertisers and agencies to spend less time crunching data and more time analyzing reports and taking action.
+* **Deeper customer insight**: Gain greater insight into where visitors are coming from and what they are doing on your site.
+* **Lifetime success metrics**: Measure the effectiveness of your acquisition campaigns across the entire visitor life cycle.
+* **Integrated Reporting**: Automatically synchronize data between DFA and Reports & Analytics for streamlined business processes and reporting.
+* **Lifetime Visitor Analysis**: Measure campaign effectiveness by multiple user-defined success events and lifetime value.
 * **Cost Metrics**: Optimize return on investment by comparing DFA cost figures and revenue generated from those costs in a single system.
 
 ## Ad Serving Integration Overview{#ad-serving-integration-overview}
@@ -48,7 +48,7 @@ The next metric captured by this integration occurs when the visitor receives th
 
 ![](assets/Viewthrough.png)
 
-This scenario is termed a view-through. The difference in this scenario with the click-through scenario is that the visitor does not click on the Ad, but instead continues to other activities before coming to the Landing page (2). In the simplest case, the visitor types in the landing page's URL in the browser. In other cases, the visitor continues browsing but later uses a search engine, which drives the visitor to the landing page. In any case, the user arrives upon the landing page. 
+This scenario is termed a view-through. The difference in this scenario with the click-through scenario is that the visitor does not click on the Ad, but instead continues to other activities before coming to the Landing page (2). In the simplest case, the visitor types in the landing page's URL in the browser. In other cases, the visitor continues browsing but later uses a search engine, which drives the visitor to the landing page. In any case, the user arrives upon the landing page.
 
 ## Adobe Integration: Real-Time Data Collection{#adobe-integration-real-time-data-collection}
 
@@ -75,13 +75,13 @@ Sometimes the Floodlight Server responds with errors about the visitor. This usu
 
 ## Adobe Integration: Nightly Data Import{#adobe-integration-nightly-data-import}
 
-The data collection portion of the integration collects click-through and view-through data about site visitors. To obtain DFA click, impression, and cost metrics, there is a nightly process coordinated by Google and Adobe to import this additional data to the integrated report suite. These metrics are imported through Data Sources, meaning they are available in aggregate only, and are not at the visit level. 
+The data collection portion of the integration collects click-through and view-through data about site visitors. To obtain DFA click, impression, and cost metrics, there is a nightly process coordinated by Google and Adobe to import this additional data to the integrated report suite. These metrics are imported through Data Sources, meaning they are available in aggregate only, and are not at the visit level.
 
 ## Version Differences{#version-differences}
 
 There are currently three versions of the DFA integration, versions 1.0, 1.5, and 2.0.
 
-The following table summarizes the features in each version of the integration. 
+The following table summarizes the features in each version of the integration.
 
 |  Feature  | Version 1.0  | Version 1.5  | Version 2.0  |
 |---|---|---|---|

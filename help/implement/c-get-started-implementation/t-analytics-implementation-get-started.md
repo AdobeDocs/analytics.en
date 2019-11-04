@@ -26,8 +26,8 @@ New users can quickly create your first [!DNL Analytics] report suite (data repo
 
 In this procedure enables you to:
 
-* Quickly create your first [report suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html). 
-* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). 
+* Quickly create your first [report suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
+* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 * Run reports on basic page-level data.
 
@@ -43,7 +43,7 @@ In this procedure enables you to:
 
    ![](assets/analytics-implementation-rs-wizard.png)
 
-   Alternatively, you can run this setup in [!DNL Analytics] by clicking **[!UICONTROL Help]** > **[!UICONTROL Welcome to Adobe Analytics]**. 
+   Alternatively, you can run this setup in [!DNL Analytics] by clicking **[!UICONTROL Help]** > **[!UICONTROL Welcome to Adobe Analytics]**.
 
 1. Specify the following basic information about your business:
 
@@ -88,7 +88,7 @@ In this procedure enables you to:
 
 1. Click **[!UICONTROL Next]**.
 
-   The system creates a report suite. 
+   The system creates a report suite.
 
 1. To begin deployment, click **[!UICONTROL Next]**, then click one of the following options:
 

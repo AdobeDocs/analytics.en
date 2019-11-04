@@ -24,7 +24,7 @@ To configure the integration:
 1. Drag the **Delivra** icon to an empty plug-in slot in your Analytics report suite to launch the Data Connectors Integration Wizard.
 1. On the Delivra Integration introduction page, review the text, then select the check box to accept the fees associated with the integration, then click **Next**.
 
-   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and Delivra fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure. 
+   This page provides an overview of the integration, along with helpful links for more information. There are both Adobe and Delivra fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure.
 1. On each page of the Data Connectors Integration Wizard, provide the required information, as described in the following table:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 

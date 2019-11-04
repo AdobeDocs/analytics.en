@@ -31,7 +31,7 @@ Version 2.0 looks like this:
 
 ![](assets/DFA_id_struct2.png)
 
-These IDs serve as a shared key between Genesis and DFA to associate the correct classifications and metrics. 
+These IDs serve as a shared key between Genesis and DFA to associate the correct classifications and metrics.
 
 |  Site ID  | The 3rd party site on which the ad was hosted. The Site Name classification provides a descriptive name of this Site ID.  |
 |---|---|
@@ -49,7 +49,7 @@ The list below outlines the logic that is enabled when SearchCenter de-duplicati
 
 If **[!UICONTROL DFA]** > **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
 
-* In the case of a DFA click-through, the integration will populate the string "DFA Clickthrough" to the configured SCM eVar. 
+* In the case of a DFA click-through, the integration will populate the string "DFA Clickthrough" to the configured SCM eVar.
 * In the case of a DFA view-through, the integration will populate the string "DFA Viewthrough" to the SCM eVar.
 
 If **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA deduplication]** is selected in the wizard:

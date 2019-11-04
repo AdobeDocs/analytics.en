@@ -16,7 +16,7 @@ See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-met
 
 Participation metrics have two settings per conversion event:
 
-* **Disabled**: The default state of each conversion event. Participation data will not be gathered for this event. 
+* **Disabled**: The default state of each conversion event. Participation data will not be gathered for this event.
 * **Enabled**: Participation data is collected for this event.
 
 >[!NOTE]
@@ -29,14 +29,14 @@ Once enabled, participation metrics are automatically available in all conversio
 
 Assume the following sequence:
 
-1. A user navigates to your site and searches for "shoes". 
-1. The user then searches for "tennis shoes". 
+1. A user navigates to your site and searches for "shoes".
+1. The user then searches for "tennis shoes".
 1. The user clicks a links to the product page, adds the item to the cart, and makes a $120 purchase.
 
 When displaying Revenue in the Internal Search Terms Report, you would see the following based on the selected allocation:
 
-* **First**: "shoes" would get credit for the $120. "tennis shoes" would get $0. 
-* **Last**: "tennis shoes" would get credit for the $120. "shoes" would get $0. 
+* **First**: "shoes" would get credit for the $120. "tennis shoes" would get $0.
+* **Last**: "tennis shoes" would get credit for the $120. "shoes" would get $0.
 * **Linear**: Each campaign would get $60 credit.
 
   Participation is similar to linear allocation, except full credit is given to all values. If you use Revenue (Participation) as the metric, allocation is disregarded. Revenue (Participation) in this example would report $120 for both search terms.

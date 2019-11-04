@@ -19,11 +19,11 @@ When determining which variables are assigned where, it is important to understa
 
 The following are the main differences between props and eVars:
 
-* **Naming convention**: Props are considered traffic variables, meaning they are used to report on popularity of various dimensions of your site. eVars are considered conversion variables. They are used to determine which dimensions of your site contribute the most to success events. 
-* **Persistence**: Props do not persist beyond the image request they were fired on. They cannot be associated with other variables that are not in the same image request. eVars, however, are persistent. A back-end variable is used to preserve the value originally fired so it can associate itself with success events later on. 
-* **Success events**: Success events, also known as conversion events, are metrics that measure the number of times a visitor reaches a goal. This event can be anything from purchasing something on your site, to subscribing to a newsletter. eVars are designed to report on conversion events, to show you which values are most successful in influencing visitors to reach your goals. Traffic variables do not have this same functionality. However, you can view participation metrics if you configure your report suite correctly. 
-* **Pathing**: Props can use pathing, which allows your organization to see a given path a user took within the context of the variable being viewed. An Adobe representative can enable pathing, if requested. eVars cannot use pathing. 
-* **Potentially available metrics**: The metrics available between props and eVars vary widely based on the variable's settings and data platform/version. The following list illustrates what can be enabled, not what is enabled by default. If you want a specific metric in reporting but do not see it, have one of your organization's supported users contact Customer Care.  
+* **Naming convention**: Props are considered traffic variables, meaning they are used to report on popularity of various dimensions of your site. eVars are considered conversion variables. They are used to determine which dimensions of your site contribute the most to success events.
+* **Persistence**: Props do not persist beyond the image request they were fired on. They cannot be associated with other variables that are not in the same image request. eVars, however, are persistent. A back-end variable is used to preserve the value originally fired so it can associate itself with success events later on.
+* **Success events**: Success events, also known as conversion events, are metrics that measure the number of times a visitor reaches a goal. This event can be anything from purchasing something on your site, to subscribing to a newsletter. eVars are designed to report on conversion events, to show you which values are most successful in influencing visitors to reach your goals. Traffic variables do not have this same functionality. However, you can view participation metrics if you configure your report suite correctly.
+* **Pathing**: Props can use pathing, which allows your organization to see a given path a user took within the context of the variable being viewed. An Adobe representative can enable pathing, if requested. eVars cannot use pathing.
+* **Potentially available metrics**: The metrics available between props and eVars vary widely based on the variable's settings and data platform/version. The following list illustrates what can be enabled, not what is enabled by default. If you want a specific metric in reporting but do not see it, have one of your organization's supported users contact Customer Care.
 
 <table id="table_FB963F60857A4AD79562324FB6F4B6A9"> 
  <thead> 
@@ -135,14 +135,14 @@ With the release of version 15, the capabilities between Props and eVars are muc
 
 Props hold a couple advantages of eVars, some of which can be circumvented:
 
-* Prop data is collected and available in reporting almost instantly. eVars can take upwards of 30 minutes to appear in report suite data. 
-* All Props can have flowchart-like reports enabled, which let you see the path visitors take to your site. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis]. 
-* Props can be correlated multiple levels, where eVars can only be subrelated once. This limitation can be mitigated by using segmentation, giving identical data as correlations. 
+* Prop data is collected and available in reporting almost instantly. eVars can take upwards of 30 minutes to appear in report suite data.
+* All Props can have flowchart-like reports enabled, which let you see the path visitors take to your site. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* Props can be correlated multiple levels, where eVars can only be subrelated once. This limitation can be mitigated by using segmentation, giving identical data as correlations.
 * Participation metrics allow you to see what prop values participated before a success event.
 
 eVars on the other hand hold several advantages over the limited nature of Props:
 
-* eVars can use success events as metrics. Props cannot. 
+* eVars can use success events as metrics. Props cannot.
 * eVar expiration can be customized, including having an expiration of every hit (no persistent values whatsoever). Props don't persist in any way.
 
 Pathing metrics, such as Total Time Spent, Entries, and Exits, were originally not available for eVars. However, recent updates have made these metrics available, increasing the value of eVars.

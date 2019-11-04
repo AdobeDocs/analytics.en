@@ -16,9 +16,9 @@ Use this information to market effectively to visitors who have gone a certain p
 
 You can:
 
-* Identify the number of return visitors and the frequency of their return visits. 
-* Evaluate your website's appeal and relevance to visitors over time. 
-* Know how sticky your site is to visitors and how often they feel compelled to return for further interaction or updates. 
+* Identify the number of return visitors and the frequency of their return visits.
+* Evaluate your website's appeal and relevance to visitors over time.
+* Know how sticky your site is to visitors and how often they feel compelled to return for further interaction or updates.
 * Identify the impact of your website's content and promotions on your visitors.
 
 By default, this report has the following time lengths:
@@ -32,6 +32,6 @@ By default, this report has the following time lengths:
 
 ## Notes {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
-* This report does not record any first-time visitors, as there is no prior visit to compare against. 
+* This report does not record any first-time visitors, as there is no prior visit to compare against.
 * The date range in this report uses the time in which the visit occurred. For example, a visitor comes to your site in April, then comes back twice in the same day in October. Pulling a Return Frequency report for the month of October would show one visit under "longer than 1 month", and one visit under "less than 1 day".
 

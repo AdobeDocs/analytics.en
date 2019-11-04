@@ -14,6 +14,6 @@ Before you view your projects in Workspace, please refer to the [FAQ](/help/anal
 
    ![](assets/view_aha_in_aw.png)
 
-1. Click the project name to view the project. 
+1. Click the project name to view the project.
 1. Make further changes to the project, if desired. Note that these changes will not be reflected in Ad Hoc Analysis.
 

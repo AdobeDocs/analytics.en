@@ -14,9 +14,9 @@ Deploying this integration is a simple process that requires the following actio
 
 To activate the integration, you must complete the configuration wizard within the Data Connectors interface.
 
-1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud. 
-1. Launch the Demandbase 2.0 integration wizard. 
-1. Choose the desired Report Suite and provide a name for the integration. 
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
+1. Launch the Demandbase 2.0 integration wizard.
+1. Choose the desired Report Suite and provide a name for the integration.
 1. Configure the following items: 
 
 <table id="table_8D60DC7C48C144DC9934749E7F9F65FF"> 
@@ -59,10 +59,10 @@ To activate the integration, you must complete the configuration wizard within t
 
 1. Configure the names for the Custom Dimension (if applicable).
 
-    1. If you chose to include Custom Dimensions in step 4 and mapped the optional eVar in step 5, then you have to provide friendly names for those dimensions. For example, if you chose to enter "stock_ticker" as Custom Dimension 1, then you should change the box containing "Dimension 1" to "Stock Ticker". 
+    1. If you chose to include Custom Dimensions in step 4 and mapped the optional eVar in step 5, then you have to provide friendly names for those dimensions. For example, if you chose to enter "stock_ticker" as Custom Dimension 1, then you should change the box containing "Dimension 1" to "Stock Ticker".
     1. Do **NOT** modify the names of the standard 8 dimensions (i.e. Demandbase SID, Company Name, Industry, etc.).
 
-1. Check the box to have the Demandbase Integration dashboard automatically created for you (recommended). 
+1. Check the box to have the Demandbase Integration dashboard automatically created for you (recommended).
 1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Deploying the Integration Code{#deploying-the-integration-code}
@@ -73,13 +73,13 @@ After completing the integration wizard, you must deploy the integration code to
 >
 >If you used Adobe TagManager or Dynamic Tag Management to deploy Adobe Analytics, you can easily add the integration code using one of those tools.
 
-1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration. 
+1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
-1. If applicable, make any necessary modifications to the code. For more information, see Modifying the Integration Code (on this page). 
-1. Include the Integrate Module if it is not already present in your Adobe Analytics deployment code.  
+1. If applicable, make any necessary modifications to the code. For more information, see Modifying the Integration Code (on this page).
+1. Include the Integrate Module if it is not already present in your Adobe Analytics deployment code.
 1. Deploy the code using one of the following methods:
 
-    * Use Adobe TagManager or Dynamic Tag Management to add the code. 
+    * Use Adobe TagManager or Dynamic Tag Management to add the code.
     * Or, deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.
 
 >[!IMPORTANT]
@@ -90,7 +90,7 @@ After completing the integration wizard, you must deploy the integration code to
 
 In most cases, you will not need to make any modifications to the integration code that is produced by the Data Connector wizard.
 
-However, if you do need to make adjustments, some of the code settings are described below. 
+However, if you do need to make adjustments, some of the code settings are described below.
 
 <table id="table_5405A73CEFD44466B3C39559F4A037C9"> 
  <thead> 
@@ -155,10 +155,10 @@ If you do not already have the Integrate Module as part of your deployment, plea
 
 ### For AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**. 
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
-1. Open the file named [!DNL AppMeasurement_Module_Integrate.js]. 
-1. Copy and paste the contents of this file into your primary [!DNL AppMeasurement.js] file. 
+1. Open the file named [!DNL AppMeasurement_Module_Integrate.js].
+1. Copy and paste the contents of this file into your primary [!DNL AppMeasurement.js] file.
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ If you do not already have the Integrate Module as part of your deployment, plea
 
    ![](assets/h_code.png)
 
-1. Copy and paste the contents of that file into your [!DNL s_code] file. 
+1. Copy and paste the contents of that file into your [!DNL s_code] file.
 
    >[!NOTE]
    >
@@ -213,7 +213,7 @@ Alternatively, you can navigate to the Demandbase reporting within the Adobe Ana
 
 The Demandbase Data Connector indicates when an attribute is "Not Available" by setting this default value. There are two common scenarios where the default is set:
 
-* Demandbase detects that the visitor is coming from an IP address that does not belong to a company. 
+* Demandbase detects that the visitor is coming from an IP address that does not belong to a company.
 * An Account Watch attribute (beginning with "watch_list") is used, but the company is not in your Account Watch list.
 
 **Why does "`[n/a]`" appear more often for certain attributes?**

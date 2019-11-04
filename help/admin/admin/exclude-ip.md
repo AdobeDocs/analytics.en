@@ -22,7 +22,7 @@ You can exclude data from specific IP addresses, such as internal website activi
 
 Lets you exclude this computer from being tracked in your account. If you choose to exclude your computer, any data generated from your computer is not counted.
 
-This feature allows you and your colleagues to visit your site without skewing your traffic data. You may want to use this feature if you do not have a static IP address (such as having a dial-up Internet connection through a service provider) and would like to exclude yourself from your account data. 
+This feature allows you and your colleagues to visit your site without skewing your traffic data. You may want to use this feature if you do not have a static IP address (such as having a dial-up Internet connection through a service provider) and would like to exclude yourself from your account data.
 
 | Element | Description |
 |--- |--- |
@@ -32,9 +32,9 @@ This feature allows you and your colleagues to visit your site without skewing y
 >
 >Exclusion by computer works only if:
 >
->* You access your web site from the same work station. 
->* Your cookies are enabled in the browser you are using. 
->* Your cookies are not deleted. If cookies are deleted, you must exclude yourself again. 
+>* You access your web site from the same work station.
+>* Your cookies are enabled in the browser you are using.
+>* Your cookies are not deleted. If cookies are deleted, you must exclude yourself again.
 
 ## Exclude by IP Address {#section_609FB6461529409D840111A32FEF5C3D}
 
@@ -54,4 +54,4 @@ See the [IP Addresses Used in the Experience Cloud](https://marketing.adobe.com/
 
 If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers don''t need to change anything when they enable IP obfuscation.
 
-If the last octet is removed, that is done before IP filtering. As such, the last octet is replaced with a 0, and IP exclusion rules should be updated to match IP addresses with a zero on the end. Matching &#42; should match 0. 
+If the last octet is removed, that is done before IP filtering. As such, the last octet is replaced with a 0, and IP exclusion rules should be updated to match IP addresses with a zero on the end. Matching &#42; should match 0.

@@ -47,7 +47,7 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
 1. In the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), further edit the segment, then click **[!UICONTROL Save]**.
 
-   The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace. 
+   The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace.
 1. Name and save your cohort project.
 1. (Optional) [Curate and share](/help/analyze/analysis-workspace/curate-share/curate.md) the project components.
 

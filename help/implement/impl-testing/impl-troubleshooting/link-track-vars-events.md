@@ -39,4 +39,4 @@ Automatic file download and [!UICONTROL Exit] link tracking work differently. Th
 
 Consider the example where s.channel="Home" when the page loads, and where s.linkTrackVars="channel" in your [!DNL s_code.js] file. If a user clicks to download a file, automatic file download tracking passes data into [!DNL Analytics], including the value of [!UICONTROL s.channel] that was set on page load. "Home" is passed a second time, leading to inflation in page view data for this value in the [!UICONTROL Site Sections] report.
 
-Adobe strongly recommends leaving the [!UICONTROL s.linkTrackVars] and [!UICONTROL s.linkTrackEvents] set to "none" in the global JavaScript file and setting them explicitly as necessary with your [!UICONTROL custom link tracking] implementation. 
+Adobe strongly recommends leaving the [!UICONTROL s.linkTrackVars] and [!UICONTROL s.linkTrackEvents] set to "none" in the global JavaScript file and setting them explicitly as necessary with your [!UICONTROL custom link tracking] implementation.

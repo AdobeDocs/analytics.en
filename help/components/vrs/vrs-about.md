@@ -28,9 +28,9 @@ Customers pay for secondary server calls, so eliminating these calls can result 
 
 Virtual report suites help:
 
-* Simplify implementation by allowing you to use a single Report Suite ID (RSID) across all sites/domains. Having all data in a single report suite enables customer analytics as we move toward the next generation of Adobe Analytics. 
-* Business users in your organization always see only the data segments that are relevant to them. 
-* Improve security by allowing Admin users to control data access more easily and more granularly after implementation. 
+* Simplify implementation by allowing you to use a single Report Suite ID (RSID) across all sites/domains. Having all data in a single report suite enables customer analytics as we move toward the next generation of Adobe Analytics.
+* Business users in your organization always see only the data segments that are relevant to them.
+* Improve security by allowing Admin users to control data access more easily and more granularly after implementation.
 * Provide the ability to participate in Device Co-op 
 * People metric 
 * A single-customer view of data (in the future) 
@@ -42,7 +42,7 @@ Virtual report suites have the following limitations:
 
 * Any limitations of segments apply to virtual report suites
 
-  A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own data warehouse and its own data feed, using multiple report suites results in some benefits that segments do not provide. 
+  A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own data warehouse and its own data feed, using multiple report suites results in some benefits that segments do not provide.
 * Real-time report 
 * Settings and variable names can't be customized like in a full report suite
 
@@ -61,4 +61,4 @@ Virtual report suites have the following limitations:
 
 In some cases, there are benefits to using both virtual report suites and multisuite tagging.
 
-For example, a retailer might use a report suite for each brand, and virtual report suites for each brand to break data out by region. Similarly, an athletic organization might use a report suite for each team, then virtual report suites to divide fans in the team's region from those outside the region. 
+For example, a retailer might use a report suite for each brand, and virtual report suites for each brand to break data out by region. Similarly, an athletic organization might use a report suite for each team, then virtual report suites to divide fans in the team's region from those outside the region.

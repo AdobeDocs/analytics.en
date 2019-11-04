@@ -63,7 +63,7 @@ Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analyt
 
 1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
 
-   Tools are displayed on the [!UICONTROL Overview] tab, under [!UICONTROL Installed Tools]. 
+   Tools are displayed on the [!UICONTROL Overview] tab, under [!UICONTROL Installed Tools].
 
 1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
 
@@ -73,10 +73,10 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](/help/implement/
 
 You can edit an existing Adobe Analytics tool to change its configuration settings.
 
-1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab. 
+1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
 1. Edit the fields as desired.
 
-   The following table includes only those elements that differ from the elements available when you are creating an Analytics tool, as described above. However, you can change any element on the page, as described in both tables. 
+   The following table includes only those elements that differ from the elements available when you are creating an Analytics tool, as described above. However, you can change any element on the page, as described in both tables.
 
 <table id="table_2B60CD109CFF4839AB7F91D61125EDFF"> 
  <thead> 
@@ -97,5 +97,5 @@ You can edit an existing Adobe Analytics tool to change its configuration settin
  </tbody> 
 </table>
 
-1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]). 
+1. (Conditional) Configure the tool further as necessary by following the directions in the links below ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies], and [!UICONTROL Customize Page Code]).
 1. Click **[!UICONTROL Save Changes]**.

@@ -18,7 +18,7 @@ Two metrics that appear to be similar are listed:
 
 **[Instances](/help/components/c-variables/c-metrics/metrics-instance.md)**: The number of times that a value was set for a variable.
 
-**Occurrences**: The total number of times a value was set or persisted. 
+**Occurrences**: The total number of times a value was set or persisted.
 
 |  Situation  | Description  |
 |---|---|

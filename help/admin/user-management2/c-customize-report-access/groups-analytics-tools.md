@@ -32,7 +32,7 @@ Click **[!UICONTROL Customize]** to select items to which this group will have a
 
 ## Field Descriptions
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page. 
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Element | Description |
 |--- |--- |

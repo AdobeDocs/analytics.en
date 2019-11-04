@@ -43,7 +43,7 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 * Familiarize yourself with [GDPR terminology.](/help/admin/c-data-governance/gdpr-terminology.md)
 * Link your login company to an Experience Cloud organization, if it isn't already. Contact Adobe Customer Care and refer to [Organizations and account linking.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
-* Set a data retention policy for each report suite so that GDPR Delete and Access requests can be honored. 
+* Set a data retention policy for each report suite so that GDPR Delete and Access requests can be honored.
 
   >[!NOTE]
   >

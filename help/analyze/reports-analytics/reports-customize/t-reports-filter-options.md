@@ -50,7 +50,7 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 **Does not contain**
 
-Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain". 
+Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
 
 Does not contain: `none`
 
@@ -82,7 +82,7 @@ Sale & Values
 
 **Equals**
 
-Matches if the entire line item, including spaces and other characters, match the specified phrase. 
+Matches if the entire line item, including spaces and other characters, match the specified phrase.
 
 Equals: `mens:desk & travel`
 
@@ -90,7 +90,7 @@ Equals: `mens:desk & travel`
 
 **Starts With**
 
-Matches if the line item, including spaces and other characters, starts with the specified phrase. 
+Matches if the line item, including spaces and other characters, starts with the specified phrase.
 
 Starts With: `mens`
 
@@ -106,7 +106,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **Ends With**
 
-Matches if the line item, including spaces and other characters, ends with the specified phrase. 
+Matches if the line item, including spaces and other characters, ends with the specified phrase.
 
 Ends With: `jean`
 
@@ -122,7 +122,7 @@ Ocean Blue Jean
 
 ## Advanced (Special Character) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-Advanced let you perform wildcard and other complex searches. 
+Advanced let you perform wildcard and other complex searches.
 
 | Advanced (Special Character) | Description |
 |--- |--- |

@@ -16,15 +16,15 @@ In Data Warehouse, select the **[!UICONTROL Request Manager]** tab.
 
 Working in this tab lets you
 
-* View recent report requests by report name, segment applied, requestor, request date and status. 
-* Duplicate requests. Click **[!UICONTROL Duplicate]** next to the request. 
+* View recent report requests by report name, segment applied, requestor, request date and status.
+* Duplicate requests. Click **[!UICONTROL Duplicate]** next to the request.
 
   >[!NOTE]
   >
   >This action duplicates only the request, not the schedule or the delivery details.
 
-* Search for reports by report name or by the login name of the requestor. 
-* Re-prioritize reports by dragging and dropping them to a new location within the queue. 
+* Search for reports by report name or by the login name of the requestor.
+* Re-prioritize reports by dragging and dropping them to a new location within the queue.
 * To see when a request started processing, click on a scheduled request ID and examine the pop-up that opens.
 
 >[!NOTE]

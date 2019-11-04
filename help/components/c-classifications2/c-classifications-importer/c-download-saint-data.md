@@ -15,9 +15,9 @@ uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 
 ## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
-(Optional) Before importing classifications into marketing reports, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings. 
+(Optional) Before importing classifications into marketing reports, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**. 
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 |  Element  | Description  |
 |---|---|
@@ -33,7 +33,7 @@ The template includes the currently defined classifications (column headings) of
 >
 >The Template method limits your classification data download to a single report suite.
 
-For more information about the data file structure, see [About Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md). 
+For more information about the data file structure, see [About Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 ## Download a classifications data template (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -48,5 +48,5 @@ The template provides the file format you must follow for classifications.
 1. Click **[!UICONTROL Download]**.
 1. Save the template file to your local system.
 
-   The template file is a tab-delimited data file ( [!DNL .tab] filename extension) that most spreadsheet applications support. 
+   The template file is a tab-delimited data file ( [!DNL .tab] filename extension) that most spreadsheet applications support.
 

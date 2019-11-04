@@ -71,7 +71,7 @@ The benefits of using the Admin Console include:
 
 ## What to know (and do) before migrating user IDs (FAQ) {#section-b0fc7f0bbd4b488e95b0c8e77ff077a9}
 
-Answers to questions you might have before the migration. 
+Answers to questions you might have before the migration.
 
 <table id="table_36FD7EF1DAB44D359F4FC186D93147E5"> 
  <thead> 
@@ -165,7 +165,7 @@ Answers to questions you might have before the migration.
 
 ## What to know during the migration (FAQ) {#section-d394524aa6d046d79025bbd7499792bc}
 
-Important information about the migration process and how it impacts current user management. 
+Important information about the migration process and how it impacts current user management.
 
 <table id="table_0E37BB1DEA6143F0B5F4E861FCFA7189"> 
  <thead> 

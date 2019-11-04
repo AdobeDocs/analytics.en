@@ -67,7 +67,7 @@ This plug-in is useful for:
 
 Follow these steps to implement the APL plug-in.
 
-1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant. 
+1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant.
 1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
 
 Here is how the code might look on your site:

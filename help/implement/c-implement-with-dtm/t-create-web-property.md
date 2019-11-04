@@ -19,7 +19,7 @@ A web property can be any grouping of one or more domains and subdomains with a 
 
 You can manage and track these assets with DTM. For example, suppose that you have multiple websites based on one template and you want to track the same assets on all of these websites. You can apply one web property to multiple domains.
 
-For general information about web properties and best practices, see [Web Properties](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in the Dynamic Tag Management Product Documentation. 
+For general information about web properties and best practices, see [Web Properties](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in the Dynamic Tag Management Product Documentation.
 
 1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
 

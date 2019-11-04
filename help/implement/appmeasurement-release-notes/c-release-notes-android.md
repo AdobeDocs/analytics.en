@@ -422,12 +422,12 @@ Release Date: **November 24, 2014**
 
 Release Date: **October 16, 2014**
 
-* New - In App Messaging Capabilities. 
-* New - Location for config file can now be specified during app startup. 
-* New - Points of Interest can now be updated automatically without requiring a new config file. 
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests. 
-* Resolved issue that could cause app crashes to not be tracked in certain scenarios. 
-* Cleared up log messages, added more verbose logging when debugLogging is enabled. 
+* New - In App Messaging Capabilities.
+* New - Location for config file can now be specified during app startup.
+* New - Points of Interest can now be updated automatically without requiring a new config file.
+* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* Resolved issue that could cause app crashes to not be tracked in certain scenarios.
+* Cleared up log messages, added more verbose logging when debugLogging is enabled.
 * Multiple performance and stability enhancements.
 
 ## Version 4.1.7 {#section_DD98F9A4F00A457AA79D223CB1113A06}
@@ -440,8 +440,8 @@ Release Date: **August 4, 2014**
 
 Release Date: **July 17, 2014**
 
-* Added protections around exceptions that occur if the database become corrupted, or could not be created. 
-* Added protections for issues that could occur when config cannot be loaded (generally due to a null context). 
+* Added protections around exceptions that occur if the database become corrupted, or could not be created.
+* Added protections for issues that could occur when config cannot be loaded (generally due to a null context).
 * Added protections for exceptions that could occur when updating the context data of a timed action.
 
 ## Version 4.1.1 {#section_E5EFA05CEE9D486BA6B5C12B1102C117}
@@ -454,19 +454,19 @@ Release Date: **April 23, 2014**
 
 Release Date: **April 17, 2014**
 
-*  New - Bluetooth beacon tracking. 
-*  New - Apps that are timestamp enabled, crash hits are backdated to the correct session. 
-*  New - Apps that are timestamp enabled, previous session is sent in a hit that is backdated to the correct session. (no longer previous session). 
-*  New - Hit batching. 
-*  Fixed google play referrer tracking with a configurable timeout to allow for delayed google referrer data. 
-*  Resolved StrictMode warnings that could occur in specific scenarios. 
+*  New - Bluetooth beacon tracking.
+*  New - Apps that are timestamp enabled, crash hits are backdated to the correct session.
+*  New - Apps that are timestamp enabled, previous session is sent in a hit that is backdated to the correct session. (no longer previous session).
+*  New - Hit batching.
+*  Fixed google play referrer tracking with a configurable timeout to allow for delayed google referrer data.
+*  Resolved StrictMode warnings that could occur in specific scenarios.
 *  Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
 Release Date: **February 24, 2014**
 
-* Resolved issue that could cause extended media time played if stop was called and close was called later with no calls in between. 
+* Resolved issue that could cause extended media time played if stop was called and close was called later with no calls in between.
 * Resolved issue where a media close hit was sent even if the media was not played for any length of time.
 
 ## Version 4.0.3 {#section_FCC3D7D22EBF4A2FA949A4E88AD89F5C}
@@ -479,14 +479,14 @@ Release Date: **February 20, 2014**
 
 Release Date: **January 30, 2014**
 
-* Resolved issue that could cause multiple hits to be sent when database was corrupted. 
+* Resolved issue that could cause multiple hits to be sent when database was corrupted.
 * Resolved issue that could cause large session length averages if a device had incorrect time settings.
 
 ## Version 3.2.5 {#section_A6E60DB42241481DA62F660344128F53}
 
 Release Date: **30 January, 2014**
 
-* Added protections against corrupted databases causing hits to repeat. 
+* Added protections against corrupted databases causing hits to repeat.
 * Added max session length limit to avoid extremely large sessions when device times are incorrect.
 
 ## Version 4.0.1 {#section_5F58DBABDAA049FE9070E46989B2E9A9}
@@ -501,7 +501,7 @@ Release Date: **27 September, 2013**
 
 [!DNL Android] SDK 4.x for Experience Cloud Solutions is now available providing the following new features:
 
-* Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe. 
+* Significant performance enhancements. All processing is performed on background threads, the SDK is fully thread safe.
 * Geo-location & points-of-interest 
 * Lifetime value 
 * Timed events 
@@ -520,7 +520,7 @@ Release Date: **23 September, 2013**
 
 Release Date: **12 September, 2013**
 
-* Fixed a bug where media events in linkTrackEvents were not added to the request. 
+* Fixed a bug where media events in linkTrackEvents were not added to the request.
 * Fixed a potential exception related to ContextData being modified after being passed into a track call.
 
 ## Version 3.2.1 {#section_D269F9145B2844B6855423A30B125D5C}
@@ -534,17 +534,17 @@ Release Date: **16 August, 2013**
 
 Release Date: **6 August, 2013**
 
-* Added support for Adobe Audience Manager. 
-* Lifecycle data is now sent with Target Mbox requests when lifecycle tracking is enabled. 
+* Added support for Adobe Audience Manager.
+* Lifecycle data is now sent with Target Mbox requests when lifecycle tracking is enabled.
 * Resolved an issue that could cause SQLite to force close cursors, resulting in unnecessary log entries.
 
 ## Version 3.1.0 {#section_836B4F580B1C436FABD524A91857F882}
 
 Release Date: **13 June, 2013**
 
-* Updated offline storage to use SQLite. 
-* Fixed a bug where offline limit could reset to default (1000). 
-* Updated startActivity to now accept an Activity or Application context. 
+* Updated offline storage to use SQLite.
+* Fixed a bug where offline limit could reset to default (1000).
+* Updated startActivity to now accept an Activity or Application context.
 * Fixed a bug where setting lifcycleSessionTimeout to 0 would result in multiple launch events throughout the app.
 
 ## Version 3.0.8 {#section_51F50CD81C6A40C8BCF62F6F332A0800}
@@ -557,36 +557,36 @@ Release Date: **18 April, 2013**
 
 Release Date: **18 April, 2013**
 
-* Fixed an issue that was causing previous session length to sometime be calculated incorrectly. 
-* New visitor IDs will no longer be based off of deviceID or subscriberID. 
+* Fixed an issue that was causing previous session length to sometime be calculated incorrectly.
+* New visitor IDs will no longer be based off of deviceID or subscriberID.
 * Fixed a potential crash when encoding special characters in variables.
 
 ## Version 3.0.6 {#section_72F3F9CB95BF4076AD882B3270F77B87}
 
 Release Date: **21 March, 2013**
 
-* Fixed issue where visitorID could not be read without setting it first. 
-* Changed naming conventions in some error log messages for clarity. 
-* Changed accessibility of multiple base classes to avoid confusion. 
+* Fixed issue where visitorID could not be read without setting it first.
+* Changed naming conventions in some error log messages for clarity.
+* Changed accessibility of multiple base classes to avoid confusion.
 * Multiple performance enhancements
 
 ## Version 3.0.5 {#section_0540FF6477D74D1F8274E9340EDE7E16}
 
 Release Date: **21 February, 2013**
 
-* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect. 
-* Fixed potential synchronization issue on offline hit cache. 
-* Clarified warning message when setting hierarchical vars over #5. 
-* Fixed issue that could cause OSVersion to be misreported on versions of [!DNL Android] > 4.0. 
-* Multiple performance enhancements. 
+* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect.
+* Fixed potential synchronization issue on offline hit cache.
+* Clarified warning message when setting hierarchical vars over #5.
+* Fixed issue that could cause OSVersion to be misreported on versions of [!DNL Android] > 4.0.
+* Multiple performance enhancements.
 * Resolved a potential exception that could be caused by a malformed url.
 
 ## Version 3.0.4 {#section_69ADA2ACD9DE436692152C3836B14EEF}
 
 Release Date: **November 2012**
 
-* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session. 
-* Added ability to set the timeout value for the session length calculation, using a `lifecycleSessionTimeout` configuration setting. 
+* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session.
+* Added ability to set the timeout value for the session length calculation, using a `lifecycleSessionTimeout` configuration setting.
 * Fixed security issues.
 
 ## Version 3.0.3 {#section_F16E1A36AE3F4CBC92E4925D6DCCFADE}
@@ -635,7 +635,7 @@ Added time stamp to variables used with light tracking calls (trackLight).
 
 Release Date: **January 2012**
 
-* Added [!DNL Android] 3.x and 4.x compatibility. 
+* Added [!DNL Android] 3.x and 4.x compatibility.
 * Implemented a UUID for visitor ID on [!DNL Android] devices that do not have SIM cards (For example, Kindle Fire).
 
 ## Version 1.2 {#section_EC83BE1F00BF481EA1C74A63E4B90F65}
@@ -648,7 +648,7 @@ Release Date: **June 2011**
 
 Release Date: **April 2011**
 
-* Support for all tablets including the Xoom. 
-* Ability to search report suites and metrics when running a report. 
-* Support for contextData that drives server-side processing rules (v15 only). 
+* Support for all tablets including the Xoom.
+* Ability to search report suites and metrics when running a report.
+* Support for contextData that drives server-side processing rules (v15 only).
 * Support for light server calls (currently in beta).

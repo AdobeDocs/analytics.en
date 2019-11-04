@@ -102,4 +102,4 @@ Variables are not automatically checked for values before actions occur. For exa
 
 Actions set page variables, delete page variables, or trigger events. Actions can also concatenate values to display in a report.
 
-For example, you might want to display `category:product` by concatenating two variables. 
+For example, you might want to display `category:product` by concatenating two variables.

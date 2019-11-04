@@ -15,7 +15,7 @@ You can combine the Classification Rule Builder with sub-classifications to simp
 
 ## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
 
-You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately. 
+You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
 
 See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
@@ -31,7 +31,7 @@ A classification hierarchy allows you to apply a classification to a classificat
 
 After you have this structure in place, you can use the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Then, you can use the rule builder to keep the main classification table up-to-date.
 
-The following task describes how to accomplish this. 
+The following task describes how to accomplish this.
 
 ## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
@@ -81,4 +81,4 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. This file would apply to previously classified values. Likewise, if you create a new sub-classification (such as *`Creative Theme`* as a sub-classification of *`Creative code`*), you upload only the sub-classification file, rather than the entire classification file.
 
-   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them. 
+   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them.

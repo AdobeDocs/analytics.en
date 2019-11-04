@@ -37,7 +37,7 @@ Adobe is unable to provide the detailed IAB bot list to customers, though you ca
 ## Custom bot rules
 
 >[!Note]
->The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options. 
+>The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options.
 
 Custom bot rules let you filter traffic based conditions you define.
 
@@ -94,9 +94,9 @@ You can define three types of bot rules:
 
 Each row in the import file can contain only one of the following bot definitions:
 
-* **User agent contains or starts with**: Provide a single user agent string to match in the Agent Include column. Specify the type of match you want performed by placing *contains* or *starts with* in the Agent Match Rule field. An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. String matches are case-insensitive. Both the IP Start and IP End columns must be empty. 
+* **User agent contains or starts with**: Provide a single user agent string to match in the Agent Include column. Specify the type of match you want performed by placing *contains* or *starts with* in the Agent Match Rule field. An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. String matches are case-insensitive. Both the IP Start and IP End columns must be empty.
 
-* **Single IP address or wildcard match**: To match a single IP address ( `10.10.10.1`) or wildcard IP address ( `10.10.*.*`), place the same value in both the IP Start and IP End columns. Match Rule, Agent Include, and Agent Exclude must be empty. 
+* **Single IP address or wildcard match**: To match a single IP address ( `10.10.10.1`) or wildcard IP address ( `10.10.*.*`), place the same value in both the IP Start and IP End columns. Match Rule, Agent Include, and Agent Exclude must be empty.
 
 * **IP range match**: Define a range of IP addresses using the IP Start and IP End columns. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. Match Rule, Agent Include, and Agent Exclude must be empty.
 
@@ -110,7 +110,7 @@ Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all exis
 
 ### Export Rules
 
-The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format. 
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## Impact of bot rules on data collection {#section_F01A3130E7A04A9993371CF26F6586F2}
@@ -131,4 +131,4 @@ The IAB bot list is based solely on user agent, so filtering based on that list 
 
 If IP obfuscation is enabled, IP exclusion happens before the IP address is obfuscated, so customers do not need to change anything when they enable IP obfuscation.
 
-If the last octet is removed, that is done before IP filtering. As such, the last octet is replaced with a 0, and IP exclusion rules should be updated to match IP addresses with a zero on the end. Matching &#42; should match 0. 
+If the last octet is removed, that is done before IP filtering. As such, the last octet is replaced with a 0, and IP exclusion rules should be updated to match IP addresses with a zero on the end. Matching &#42; should match 0.

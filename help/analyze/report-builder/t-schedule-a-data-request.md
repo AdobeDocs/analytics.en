@@ -22,7 +22,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 >[!NOTE]
 >
->The "Delivery Time"/"Time of Day" entered by the user specifies the time that the workbook should begin processing, not the time that it will actually be delivered. The actual time that the workbook will be delivered is based primarily on how long it takes to process (complex and large workbooks take longer to process than simpler workbooks). For example, if a workbook takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day". 
+>The "Delivery Time"/"Time of Day" entered by the user specifies the time that the workbook should begin processing, not the time that it will actually be delivered. The actual time that the workbook will be delivered is based primarily on how long it takes to process (complex and large workbooks take longer to process than simpler workbooks). For example, if a workbook takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day".
 >In addition, there are a number of other factors that can further increase the delay before the workbook is actually delivered:
 >
 > * **Running many different schedules of the same type at the same time** can overload the system. The Scheduling system only allows a few (5-10) workbooks of any one type to run concurrently, so when more than 5-10 are all scheduled at once, some will need to wait in line for other workbooks to finish before they can begin processing. This issue can be mitigated by scheduling a company's workbooks at staggered times throughout the day or hour, rather than simultaneously.
@@ -35,7 +35,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 1. Generate and save a workbook.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks. 
+   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
 1. On the **[!UICONTROL Scheduled Reports]** tab, click **[!UICONTROL New]**.
 1. The Basic Scheduling Wizard displays:
 
@@ -76,5 +76,5 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/report-builder/r-arb-scheduled-reports.md). 
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 

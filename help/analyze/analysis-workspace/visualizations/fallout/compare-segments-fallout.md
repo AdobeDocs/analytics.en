@@ -44,7 +44,7 @@ Or you can create an AND touchpoint by dragging the US users segment onto anothe
 
 You can compare an unlimited number of segments in the Fallout visualization.
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. In our example, we have selected 2 segments: US Users and Non-US Users. 
+1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. In our example, we have selected 2 segments: US Users and Non-US Users.
 1. Drag them into the Segment drop zone at the top.
 
    ![](assets/segment-drop.png)

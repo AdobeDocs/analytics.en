@@ -23,7 +23,7 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [La
 
 To successfully implement a page with code to collect data, you must have access to your hosting servers to upload new content to your website. It is also useful to have an existing site to implement code.
 
-The following steps walk you through a basic Analytics implementation. 
+The following steps walk you through a basic Analytics implementation.
 
 | Task | Description |
 |--- |--- |

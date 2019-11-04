@@ -22,4 +22,4 @@ For reports with correlation breakdowns enabled within the report table, you can
 >
 >Adobe Report Builder enforces request dependencies only within the same worksheet, not across worksheets. Restricting to dependencies within a single worksheet ensures timeliness of execution.
 
-See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md). 
+See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md).

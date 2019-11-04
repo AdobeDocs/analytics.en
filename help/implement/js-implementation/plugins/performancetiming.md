@@ -150,10 +150,10 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 
 ## Notes {#section_131C5D97A0094880AFC3A2BBE0BC9DE4}
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment. 
-* Because the plug-in passes the performance data as they are associated with the previous page, data is not collected for the final page view of the visit. 
-* If you are tracking asset timing, this plug-in relies on the ability to set DOM storage values in the user's web browser. If the user does not accept cookies and have DOM storage enabled, the plug-in will not pass data into Analytics. 
-* A very small percentage of users will not pass navigation timing data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result - particularly with a small portion of mobile browsers. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari. 
+* Always test plug-in installations to ensure that data collection is as expected before deploying in a production environment.
+* Because the plug-in passes the performance data as they are associated with the previous page, data is not collected for the final page view of the visit.
+* If you are tracking asset timing, this plug-in relies on the ability to set DOM storage values in the user's web browser. If the user does not accept cookies and have DOM storage enabled, the plug-in will not pass data into Analytics.
+* A very small percentage of users will not pass navigation timing data due to browser limitations, and logic is contained within the plugin to ensure that the data is not skewed as a result - particularly with a small portion of mobile browsers. However, this plug-in has been successfully tested in IE, Firefox, Chrome, and Safari.
 * [!UICONTROL Calculated Metrics] should be created to aid in summarizing and understanding visitor behavior associated with these metrics:
 
     * Average Redirect Timing (Redirect Timing/Performance Timing Instances) 

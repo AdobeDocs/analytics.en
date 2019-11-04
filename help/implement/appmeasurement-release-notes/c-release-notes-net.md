@@ -23,7 +23,7 @@ uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 
 Release Date: **August 2014**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement]. 
+* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * Internal changes to support upcoming functionality.
 
@@ -37,10 +37,10 @@ Release Date: **March 2013**
 
 Release Date: **February 2013**
 
-* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs. 
+* Added support to send URLs longer than 255 bytes to support the expansion of the Page URL field in Adobe Data Collection servers. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. This helps prevent long URLs from taking precedence over other data in the case of browser truncation, but still enables capturing of long URLs.
 
-* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html). 
-* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`. 
+* Added a new fallback visitor identification method. See [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
+* Added a new `abort` flag that can be set inside `doPlugins`. Setting this flag to true causes the [!DNL AppMeasurement] library to not continue with that tracking call. The abort flag is reset with every tracking call, so if a subsequent tracking call also needs to be aborted the flag will need to be set again inside `doPlugins`.
 
   ```js
   s.doPlugins = function(s) { 
@@ -76,7 +76,7 @@ Release Date: **April 2012**
 
 Release Date: **February 2012**
 
-* [!DNL iOS] Phone 7: Fixed an issue that caused the offlineThrottleDelay to not apply correctly. 
+* [!DNL iOS] Phone 7: Fixed an issue that caused the offlineThrottleDelay to not apply correctly.
 * Added time stamp to variables used with light tracking calls (trackLight).
 
 ## Version 1.3.5 {#section_28BBDE7D187547A4AACCA60E5154DCD2}
@@ -87,10 +87,10 @@ Release Date: **January 2012**
 
 ## Version 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking. 
-* Support for doRequest delegate to override how requests are sent out for tracking data. 
-* Support for contextData that drives server-side processing rules (v15 only). 
-* Support for light server calls (currently in beta). 
-* Support for assigning a value other than 1 to a counter event in the events list. 
+* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* Support for doRequest delegate to override how requests are sent out for tracking data.
+* Support for contextData that drives server-side processing rules (v15 only).
+* Support for light server calls (currently in beta).
+* Support for assigning a value other than 1 to a counter event in the events list.
 * Support for new method of tracking video using conversion eVars and events (currently in beta).
 

@@ -26,4 +26,4 @@ As a B2B Retailer, you can now deeply analyze the behavior of your prospect audi
 
 ## Demographic Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-As a Destination Resort, you can use [Histograms in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties. 
+As a Destination Resort, you can use [Histograms in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.

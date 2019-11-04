@@ -13,8 +13,8 @@ Server-side forwarding is designed for customers who want to share data from Ana
 
 Server-side forwarding improves upon data collection because it:
 
-* Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site. 
-* Lets you take advantage of data sharing among Experience Cloud solutions. 
+* Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site.
+* Lets you take advantage of data sharing among Experience Cloud solutions.
 * Conforms with our best practices for Audience Manager code implementation and deployment.
 
 >[!TIP]

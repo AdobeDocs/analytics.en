@@ -41,7 +41,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): Lets you locate a condition defined in the value of a cell.
 
-   **Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add. 
+   **Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add.
 
 1. Click **[!UICONTROL OK]**.
 

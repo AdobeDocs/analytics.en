@@ -27,17 +27,17 @@ Steps to add metrics and dimensions to a request.
 
     Keep this in mind:
 
-    * As you enter a search term, the list will automatically update to only display the metrics whose label matches the search term. 
-    * The match is case insensitive, and equivalent to a "contains" search. 
+    * As you enter a search term, the list will automatically update to only display the metrics whose label matches the search term.
+    * The match is case insensitive, and equivalent to a "contains" search.
     * Full-word searches, or other special search flag (starts with, ends with, AND, OR, etc.) are not supported.
 
        The Search term will be cleared if you exit the Request Wizard (i.e., click Finish or Cancel), or go back to Request Wizard Step 1, or change the Metric category.
 
        The Search term will not be cleared in the following cases:
 
-    * You drag and drop (or double click) one of the metric item from the list so it gets added to the Pivot Layout/Custom Layout Metrics Panel. 
-    * You remove a metric item(s) from the Pivot Layout/Custom Layout Metric Panel. 
-    * You click the Dimension tab, then return to the Metric tab. 
+    * You drag and drop (or double click) one of the metric item from the list so it gets added to the Pivot Layout/Custom Layout Metrics Panel.
+    * You remove a metric item(s) from the Pivot Layout/Custom Layout Metric Panel.
+    * You click the Dimension tab, then return to the Metric tab.
     * You invoke other sub forms (modal or modeless) that upon exit will return to the Request Wizard Step 2. Examples of these forms are
 
         * Dimension Filter Forms 
@@ -62,6 +62,6 @@ The [!UICONTROL Date] dimension is added automatically. Available date dimension
 
 1. Modify metrics and dimensions by configuring [format options](/help/analyze/report-builder/layout/t-format-display-headers.md) and filters.
 1. Click **[!UICONTROL Finish]**.
-In the following example, dimensions relate to the [!UICONTROL Page] metric. Here, the [!UICONTROL Referring Domain] dimension creates a breakdown report between [!UICONTROL Page] and [!UICONTROL Referring Domain]. The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report. 
+In the following example, dimensions relate to the [!UICONTROL Page] metric. Here, the [!UICONTROL Referring Domain] dimension creates a breakdown report between [!UICONTROL Page] and [!UICONTROL Referring Domain]. The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report.
 
 ![](assets/page_pageview_02.png)

@@ -40,7 +40,7 @@ For help with specific configuration variables, click any of the following links
 
 * [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-dynvarprefix.html): Deploy flagging for dynamically-populated variables.
 
-* [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html): Convert incoming data to UTF-8 for storage and reporting by Analytics. 
+* [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html): Convert incoming data to UTF-8 for storage and reporting by Analytics.
 
 * [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-currcode.html): Determine the conversion rate to apply to revenue.
 

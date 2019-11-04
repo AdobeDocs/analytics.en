@@ -19,11 +19,11 @@ The following variables and functions let you store measurement calls when the a
 
 When enabled, Offline AppMeasurement behaves in the following way:
 
-* The application sends a server call, but the data transmission fails. 
-* AppMeasurement generates a timestamp for the current hit. 
+* The application sends a server call, but the data transmission fails.
+* AppMeasurement generates a timestamp for the current hit.
 * AppMeasurement buffers the hit data, and backs up buffered hit data to persistent storage to prevent data loss.
 
-At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, AppMeasurement attempts to send the buffered hit data, maintaining the original hit order. If the data transmission fails, it continues to buffer the hit data (This continues while the device is offline). 
+At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, AppMeasurement attempts to send the buffered hit data, maintaining the original hit order. If the data transmission fails, it continues to buffer the hit data (This continues while the device is offline).
 
 <table id="table_E8FD8C89025C4E819FE2FEBC7A78984D"> 
  <thead> 

@@ -16,7 +16,7 @@ In version 14, a unique visitor refers to a visitor who visits a site for the fi
 
 Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors] metrics from classifications-based reports. For example, if two video clips shared the same classification, a single visitor that viewed both clips generated two [!UICONTROL Visits] and [!UICONTROL Unique Visitors] in the classification-based report.
 
-Version 15 removes duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors] from the classification-based report. This is a more accurate measure of [!UICONTROL Visits] and [!UICONTROL Visitors], but typically results in a decrease in your [!UICONTROL Visits] and [!UICONTROL Unique Visitors] metrics for classification-based reports, when compared to data collected prior to upgrade. 
+Version 15 removes duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors] from the classification-based report. This is a more accurate measure of [!UICONTROL Visits] and [!UICONTROL Visitors], but typically results in a decrease in your [!UICONTROL Visits] and [!UICONTROL Unique Visitors] metrics for classification-based reports, when compared to data collected prior to upgrade.
 
 |  Uses  | Description  |
 |---|---|

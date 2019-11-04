@@ -9,9 +9,9 @@ title: Dynamic variables
 
 # s.linkInternalFilters
 
-The  variable is used to determine which links on your site are exit links. 
+The  variable is used to determine which links on your site are exit links.
 
-It is a comma-separated list of filters that represent the links that are part of the site. 
+It is a comma-separated list of filters that represent the links that are part of the site.
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -34,7 +34,7 @@ s.trackExternalLinks=true
 s.linkInternalFilters="mysite.com" 
 s.linkExternalFilters="" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Exit Link</a> 
@@ -66,8 +66,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list. 
-* Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect. 
+* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list.
+* Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect.
 
 * Periodically review partner contracts to determine if they contain restrictions on link tracking. For example, you might be prohibited from tracking links that appear in partner display ads. Filter partner links by adding their domain to *`linkInternalFilters`*:
 

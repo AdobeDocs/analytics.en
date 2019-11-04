@@ -27,7 +27,7 @@ t_reports_ranked.xml
 1. In the report header, click **[!UICONTROL Ranked.]**
 1. To rank the report, click a column heading in the table.
 
-   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on). 
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
 ## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
 
@@ -58,7 +58,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-See [Conversion Reports](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) for a description. 
+See [Conversion Reports](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) for a description.
 
 ## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -112,7 +112,7 @@ The percentage that each subsequent page was viewed is displayed beside the name
 
 For example, the Privacy Policy page could have 10,000 total page views, but only 500 of those page views occurred immediately following the Home Page. Thus, the term path view is used.
 
-The relative percentage is depicted by the relative width of the line. By default, this report displays five 2nd-level branches and five 3rd-level branches. You can expand the number of branches to view up to ten 2nd-level branches and five 3rd-level branches. Doing so increases the height of the report and most likely requires scrolling to view the entire graph. 
+The relative percentage is depicted by the relative width of the line. By default, this report displays five 2nd-level branches and five 3rd-level branches. You can expand the number of branches to view up to ten 2nd-level branches and five 3rd-level branches. Doing so increases the height of the report and most likely requires scrolling to view the entire graph.
 
 ## Run a Funnel report {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
@@ -136,7 +136,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-See the [Marketing Channel](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) help system for more information. 
+See the [Marketing Channel](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) help system for more information.
 
 ## Run an Anomaly Detection report {#task_4808C96327354D789C075823F5C3A049}
 
@@ -158,7 +158,7 @@ Check out the new [Anomaly Detection and Contribution Analysis](https://marketin
 
 For information on setting up Anomaly Detection, refer to the [Reference Guide](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
-Anomaly Detection shows two types of charts: A summary chart and individual metrics charts. Individual metric charts are only shown if at least one anomaly has been detected for that metric. 
+Anomaly Detection shows two types of charts: A summary chart and individual metrics charts. Individual metric charts are only shown if at least one anomaly has been detected for that metric.
 
 <table id="table_88163CD8FC164342855D90D01F9C581A"> 
  <thead> 
@@ -215,7 +215,7 @@ t_anomaly_config.xml
 
  -->
 
-You set up Anomaly Detection independently for each report suite. 
+You set up Anomaly Detection independently for each report suite.
 
 1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
 1. Select the report suite for which you want to track daily anomaly detection. To display a list of report suites, click the Report Suite selector drop-down menu.
@@ -227,11 +227,11 @@ You set up Anomaly Detection independently for each report suite.
 
    Keep in mind that:
 
-* The training period ends right before the view period starts. 
-* The default for both is 30 days, and you can extend them to 60 or 90 days. 
+* The training period ends right before the view period starts.
+* The default for both is 30 days, and you can extend them to 60 or 90 days.
 * Extending the training period puts your data in a larger context and may reduce the size of an anomaly.
 
-   The Anomaly Detection metrics report refreshes every time you change a parameter. 
+   The Anomaly Detection metrics report refreshes every time you change a parameter.
 1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
 
    ![](assets/ad_top_menu.png)
@@ -254,7 +254,7 @@ reports_realtime.xml
 
 Real-Time reporting offers two main reports - an overview report and a detail report. They each consist of a number of reportlets.
 
-For information on configuring real-time reports, see the [Analytics Reference Guide](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration). 
+For information on configuring real-time reports, see the [Analytics Reference Guide](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration).
 
 1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 

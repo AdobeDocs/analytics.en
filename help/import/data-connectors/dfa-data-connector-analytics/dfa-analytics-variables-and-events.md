@@ -13,7 +13,7 @@ uuid: 8996cb58-c793-4600-99ef-af3064642b29
 
 The Data Connectors integration for DFA uses Analytics variables to track DFA campaign results.
 
-Other than the campaign variable, you can use the Analytics Events and eVars that make sense to you. Once you have identified the Event and eVars to use with this DFA integration, use the Analytics Admin Console to enable them. The integration variables must be enabled before activating the DFA integration. The following table describes the Analytics variables needed for the DFA integration. 
+Other than the campaign variable, you can use the Analytics Events and eVars that make sense to you. Once you have identified the Event and eVars to use with this DFA integration, use the Analytics Admin Console to enable them. The integration variables must be enabled before activating the DFA integration. The following table describes the Analytics variables needed for the DFA integration.
 
 |  Variable  | Friendly Name  | Population Method  | Description  |
 |---|---|---|---|
@@ -26,4 +26,4 @@ Other than the campaign variable, you can use the Analytics Events and eVars tha
 |  event&#42;  | DFA Timeouts  | (Optional) Populated through JavaScript collection code.  |Counts the number of times DFA fails to respond before the *`s.maxDelay`* time out. This can help you determine if there is a DFA implementation issue.  |
 |  event&#42;  | DFA Media Cost  | Automatically populated through a data feed from DFA.  | Contains the media cost metrics that have been input in the DFA interface. This feature must be enabled on the DFA side in order for these metrics to appear.  |
 
-&#42;Select an unused eVar or Custom Event. 
+&#42;Select an unused eVar or Custom Event.

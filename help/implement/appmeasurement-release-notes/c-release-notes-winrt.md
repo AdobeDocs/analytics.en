@@ -49,22 +49,22 @@ Release Date: **April 18, 2013**
 
 Release Date: **March 21, 2013**
 
-* `ADMS_Measurement.visitorID` now gets pre-populated with the default value. 
+* `ADMS_Measurement.visitorID` now gets pre-populated with the default value.
 * Fixed an issue with retrieving device info.
 
 ## Version 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
 
 Release Date: **February 21, 2013**
 
-* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect. 
-* `DayOfWeek` is now 1-based starting on Sunday to match the values collected on other platforms. 
+* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect.
+* `DayOfWeek` is now 1-based starting on Sunday to match the values collected on other platforms.
 * Added auto-subscribing to event listeners in the TrackingHelper.js to streamline lifecycle tracking.
 
 ## Version 3.0.2 {#section_CCFAE5A29FB14DAD9A9F14FE8EE09B75}
 
 Release Date: **November 2012**
 
-* Screen resolution is now accurately being collected for C#, C++, and HTML5/WinJS platforms. 
+* Screen resolution is now accurately being collected for C#, C++, and HTML5/WinJS platforms.
 * `ADMS_Churn` class is now internal. To use best practices for application lifecycle tracking, use the following calls:
 
   ```
@@ -72,14 +72,14 @@ Release Date: **November 2012**
   public void ADMS_Measurement.StopSession();
   ```
 
-* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. If the registered session length exceeds the max, your max session length will be sent. Default `maxSessionLength` is 3600 (seconds). 
-* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session. 
-* Added new Previous Session Length metric to the lifecycle metrics. 
-* Updated TrackingHelper for clarity. 
+* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. If the registered session length exceeds the max, your max session length will be sent. Default `maxSessionLength` is 3600 (seconds).
+* Added a `lifecycleSessionTimeout` configuration variable that lets you specify the length of time, in seconds, that must elapse between app launches before the launch is considered a new session.
+* Added new Previous Session Length metric to the lifecycle metrics.
+* Updated TrackingHelper for clarity.
 * Fixed media module bug.
 
 ## Version 3.0.1 {#section_EA2E5F8550C348BDB948A9236BD35619}
 
 **October 2012**
 
-Initial release. 
+Initial release.

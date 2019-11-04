@@ -38,9 +38,9 @@ To configure this type of reporting, map the new context variable to a custom tr
 1. [Enable the prop.](/help/admin/admin/c-traffic-variables/traffic-var.md) 
 1. Use processing rules to map the context variable to the prop.
 
-    1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** , then select a report suite. 
-    1. Click  **[!UICONTROL Edit Report Suite]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]** . 
+    1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** , then select a report suite.
+    1. Click  **[!UICONTROL Edit Report Suite]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]** .
     1. Click **[!UICONTROL Add Rule.]** 
-    1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)". 
+    1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)".
     1. Click **[!UICONTROL Save]**.
 

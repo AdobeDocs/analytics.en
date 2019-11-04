@@ -33,7 +33,7 @@ Add cost and budget items to Marketing Channels.
 1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
 1. Click **[!UICONTROL Save.]**
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**. 
+   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 

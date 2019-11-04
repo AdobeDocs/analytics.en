@@ -19,9 +19,9 @@ The Rule Builder lets you create a *`classification rule set`*, which is a list 
 
 Classification rules are convenient for:
 
-* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can earn how the Display campaigns are performing against email campaigns. 
+* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can earn how the Display campaigns are performing against email campaigns.
 
-* **Tracking codes**: Create classification rules to categorize key values derived from strings in tracking codes, and match them to specific criteria you define. 
+* **Tracking codes**: Create classification rules to categorize key values derived from strings in tracking codes, and match them to specific criteria you define.
 * **Search terms**: Use [regular expressions](/help/components/c-classifications2/crb/classification-quickstart-rules.md) and wildcards to simplify classifying of search terms. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
 
 For example, assume that a tracking code for an email campaign ID is:
@@ -56,20 +56,20 @@ about_classification_rules.xml
 
 ## Important Information about Rules 
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools]. 
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
-* **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md). 
+* **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **Report suites**: You cannot choose a classification until at least one report suite is selected. You cannot apply the report suite until you have created the rule set and assigned a variable.
 
   When you test the rule set, use keys (the variable being classified) from the report to see how they will be impacted by the rule set. (The [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) is the variable being classified, or the first column in the classification upload table.) 
 
-* **Rule priority**: If a key matches multiple rules that set the same classification (in the [!UICONTROL Set Classification] column), the last rule that matches the classification is used. See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md). 
+* **Rule priority**: If a key matches multiple rules that set the same classification (in the [!UICONTROL Set Classification] column), the last rule that matches the classification is used. See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
-* **Limits on number of rules**: No set limit exists for the number of rules you can create. However, a large number of rules may impact browser performance. 
+* **Limits on number of rules**: No set limit exists for the number of rules you can create. However, a large number of rules may impact browser performance.
 * **Processing**: Rules are processed at frequent intervals, depending on your volume of classification related traffic.
 
-  Active rules process every four hours, examining classification data going back typically one month. The rules automatically check for new values and upload the classifications using the importer. 
+  Active rules process every four hours, examining classification data going back typically one month. The rules automatically check for new values and upload the classifications using the importer.
 
 * **Overwriting existing classifications**: See [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-quickstart-rules.md) If necessary, you can delete or remove existing classifications, using the importer.
 
@@ -81,8 +81,8 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
   You can overwrite classifications when [adding and activating](/help/components/c-classifications2/crb/classification-quickstart-rules.md) a rule, and when activating a data connectors integration. (For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].) 
 
-* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md). 
-* The key is not classified and the key is never passed into [!DNL Adobe Analytics] after the time frame beginning about one month ago. 
+* A classified key has not appeared in the data after a time frame specified when overwriting a key, even after you enable [Overwrite Classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md).
+* The key is not classified and the key is never passed into [!DNL Adobe Analytics] after the time frame beginning about one month ago.
 
   >[!NOTE]
   >
@@ -262,7 +262,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `a{3,}`  | 3 or more of a  |
 |  `a{3,6}`  | Between 3 and 6 of a  |
 
-A good resource for testing regular expression validity is https://rubular.com/. 
+A good resource for testing regular expression validity is https://rubular.com/.
 
 ## About Rule Priority 
 
@@ -293,7 +293,7 @@ Similarly, suppose you set up two rules in a set for the following search terms:
 |  1  | Contains  | Cowboys  | City  | Dallas  |
 |  2  | Contains  | Broncos  | City  | Denver  |
 
-A user searches for *`Cowboys vs. Broncos`*. If the rule builder finds a conflict in rule matching, the classification for the second rule (Denver) applies to this search. 
+A user searches for *`Cowboys vs. Broncos`*. If the rule builder finds a conflict in rule matching, the classification for the second rule (Denver) applies to this search.
 
 ## Add a Classification Rule to a Rule Set {#add-classification-to-rule-set}
 
@@ -303,7 +303,7 @@ t_classification_rule.xml
 
  -->
 
-Steps that describe how to add or edit a classification rule. 
+Steps that describe how to add or edit a classification rule.
 
 Add rules by matching a condition to a classification, and specifying the action.
 
@@ -324,11 +324,11 @@ Add rules by matching a condition to a classification, and specifying the action
    >
    Report suites display on this page *`only`* when the following conditions are met:        >
    
-   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools]. 
+   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
    
    (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.) 
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set. 
+   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
 
 1. Specify whether to overwrite existing values:
 
@@ -351,7 +351,7 @@ Add rules by matching a condition to a classification, and specifying the action
 
    Activating a rule automatically builds the file and uploads it for you.
 
-   Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page. 
+   Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page.
 
 ## Test a Classification Rule Set 
 
@@ -377,13 +377,13 @@ Steps that describe how to test a classification rule or rule set. Running a tes
     * Tracking codes 
     * Search keywords or phrases
 
-   See [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for information about testing regular expressions. 
+   See [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for information about testing regular expressions.
 1. Click **[!UICONTROL Run Test]**.
 
-   Rules that match are displayed in the [!UICONTROL Results] table. 
+   Rules that match are displayed in the [!UICONTROL Results] table.
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   See for more information about using rules to overwrite existing classifications. 
+   See for more information about using rules to overwrite existing classifications.
 
 ## Validate and Activate Classification Rules 
 

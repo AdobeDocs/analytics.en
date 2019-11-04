@@ -15,10 +15,10 @@ Add or enable marketing channels in the Marketing Channel Manager. For report su
 
 Here are guidelines for creating channels:
 
-* Plan ahead by making a list of all your channels, so that all of your visitor hits are categorized to the right channel. 
+* Plan ahead by making a list of all your channels, so that all of your visitor hits are categorized to the right channel.
 * Always include channels for the categories of [Internal](/help/components/c-marketing-channels/c-faq.md) hits and [Direct](/help/components/c-marketing-channels/c-faq.md) hits.
 
-Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) page. You associate rules with channels when creating the rule. 
+Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) page. You associate rules with channels when creating the rule.
 
 ## Add marketing channels {#add-mktg-channels}
 
@@ -33,20 +33,20 @@ Add marketing channels in the Marketing Channel Manager.
 
    If you select multiple report suites, select a template that copies settings from the template to the selected report suites.
 
-   See [Apply template report suite settings to multiple report suites](/help/components/c-marketing-channels/t-template.md). 
+   See [Apply template report suite settings to multiple report suites](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays. 
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 
-   This option is not available when 25 channels are defined. 
+   This option is not available when 25 channels are defined.
 
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md). 
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
 ## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 

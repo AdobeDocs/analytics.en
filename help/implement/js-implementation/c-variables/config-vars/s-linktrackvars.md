@@ -8,7 +8,7 @@ title: Dynamic variables
 
 # s.linkTrackVars
 
-The  variable is a comma-separated list of variables that are sent with custom, exit, and download links. 
+The  variable is a comma-separated list of variables that are sent with custom, exit, and download links.
 
 If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating *`linkTrackVars`* and *`linkTrackEvents`* in the [!UICONTROL onClick] event of a link that is used for link tracking.
 
@@ -60,8 +60,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls. 
-* Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked. 
+* If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
+* Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
 * If *`linkTrackEvents`* is used, *`linkTrackVars`* must contain "events." 
 
 * Do not use the "s." or "s_objectname." prefix for variables.

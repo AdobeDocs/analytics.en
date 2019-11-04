@@ -23,8 +23,8 @@ Certain elements of the code require the existence of the body object. Since Web
 
 The Analytics code can be placed anywhere inside BODY tags (<BODY></BODY>) of a well-formed HTML page. Adobe recommends placing the code in a global include file at the top of the page (inside the HTML body tag). The code can be placed anywhere on the page, except as noted below:
 
-* If placed within a table, post the code only within the <td></td> tags. For example, do not place the code between an opening <tr> tag and an opening <td> tag. 
-* The code that sets the variables must occur after the reference to the s_code.js file. 
+* If placed within a table, post the code only within the <td></td> tags. For example, do not place the code between an opening <tr> tag and an opening <td> tag.
+* The code that sets the variables must occur after the reference to the s_code.js file.
 * Make certain that the [!UICONTROL report suite ID]s in the *`s_account`* variable in the s_code.js file are set correctly. This variable is typically set correctly when downloading code from the Code Manager for a particular report suite, or as supplied by an Adobe Technical Consultant.
 
 If you want to integrate Analytics with Target, the JavaScript include file must be placed at the bottom of the page. The following example shows correct placement of the Analytics code:
@@ -33,7 +33,7 @@ If you want to integrate Analytics with Target, the JavaScript include file must
 <html> 
 <head></head> 
 <body> 
-<!-- Analytics code version: H.20.3. 
+<!-- Analytics code version: H.20.3.
 Copyright 1997-2009 Omniture, Inc. More info available at 
 https://www.omniture.com --> 
 <script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 

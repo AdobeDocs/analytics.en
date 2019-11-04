@@ -12,7 +12,7 @@ Fallout visualizations provide more options to build your fallout reports. Fallo
 
 Fallout visualizations let you
 
-* Perform side-by-side comparisons of two different segments in the same report. 
+* Perform side-by-side comparisons of two different segments in the same report.
 * Drag, drop, and rearrange funnel steps (touchpoints) 
 * Mix and match values from different dimensions and metrics 
 * Create a multi-dimensional fallout report 
@@ -24,8 +24,8 @@ For example, you can track a visitor's fallout points during a purchase process.
 
 A fallout visualization is useful for analyzing:
 
-* Conversion rates through specific processes on your site (such as a purchase or registration process). 
-* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item. 
+* Conversion rates through specific processes on your site (such as a purchase or registration process).
+* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
 
 [Fallout Visualization on YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
@@ -50,7 +50,7 @@ Reports & Analytics and Ad Hoc Analysis combine the segment with each step. When
 
 However, if the segment applied to the panel is smaller than the level of the fallout (e.g. hit level), then the segment will show different results because of how it is combined by the report. To reiterate, under most circumstances the numbers in Analysis Workspace match those in Reports & Analytics and Ad Hoc Analysis. They will **not** match only if all of the cases below are true:
 
-* The segment isn't at the same level as the fallout. 
+* The segment isn't at the same level as the fallout.
 * The segment has a variable where the visitor/visit can have multiple values during a visit/visitor.
 
-In the rare case where you need to have Analysis Workspace match the Reports & Analytics way of applying segments to fallout/flow, simply drop the segment into each fallout step in Workspace and it will result in the same numbers. 
+In the rare case where you need to have Analysis Workspace match the Reports & Analytics way of applying segments to fallout/flow, simply drop the segment into each fallout step in Workspace and it will result in the same numbers.

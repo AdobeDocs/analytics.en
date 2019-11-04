@@ -12,7 +12,7 @@ Displays information about websites access from a mobile device. Mobile reports 
 
 ## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
-Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites. 
+Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
 
 To improve visitor identification for mobile devices, you must be on the carrier's list (white list) for sending subscriber IDs to a domain. (You can view the carrier in the **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** report.)
 

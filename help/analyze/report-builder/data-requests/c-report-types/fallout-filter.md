@@ -12,7 +12,7 @@ uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 
 Describes the steps involved in applying filters to a fallout report.
 
-This example shows the Page Fallout report. 
+This example shows the Page Fallout report.
 
 1. In Adobe Report Builder, click **[!UICONTROL Create]** to open the Request Wizard.
 1. Select the right report suite.
@@ -35,4 +35,4 @@ This example shows the Page Fallout report.
    For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
-   The report should refresh now. 
+   The report should refresh now.

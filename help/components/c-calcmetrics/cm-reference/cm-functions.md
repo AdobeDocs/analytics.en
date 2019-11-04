@@ -14,7 +14,7 @@ cm_functions.xml
 
  -->
 
-The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics. 
+The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 
 Here is an alphabetical list of the functions and their definitions.
 
@@ -24,7 +24,7 @@ Here is an alphabetical list of the functions and their definitions.
 
 ## Table Functions versus Row Functions {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-A table function is one where the output is the same for every row of the table. A row function is one where the output is different for every row of the table. 
+A table function is one where the output is the same for every row of the table. A row function is one where the output is different for every row of the table.
 
 ## Absolute Value (Row) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
@@ -132,7 +132,7 @@ MEDIAN(metric)
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
-The remainder of col1 / col2, using Euclidean division. 
+The remainder of col1 / col2, using Euclidean division.
 
 Returns the remainder after dividing x by y.
 
@@ -208,7 +208,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-&#42;If *quart* = 0, QUARTILE returns the minimum value. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). If *quart* = 4, QUARTILE returns the maximum value. 
+&#42;If *quart* = 0, QUARTILE returns the minimum value. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). If *quart* = 4, QUARTILE returns the maximum value.
 
 ## Round {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +233,7 @@ round( 314.15, -2) = 300
 
 ## Row Count {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Returns the count of rows for a given column (the number of unique elements reported within a dimension). "Uniques exceeded" is counted as 1. 
+Returns the count of rows for a given column (the number of unique elements reported within a dimension). "Uniques exceeded" is counted as 1.
 
 ## Row Max {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -241,7 +241,7 @@ The maximum of the columns in each row.
 
 ## Row Min {#concept_A6FB9E72C70A43D0B31565E70B8122BD}
 
-The minimum of the columns in each row. 
+The minimum of the columns in each row.
 
 ## Row Sum {#concept_E9EAB0FC5233498F907E7A078698A98E}
 
@@ -261,7 +261,7 @@ SQRT(metric)
 
 ## Standard Deviation (Table) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
-Returns the standard deviation, or square root of the variance, based on a sample population of data. 
+Returns the standard deviation, or square root of the variance, based on a sample population of data.
 
 The equation for STDEV is:
 
@@ -288,7 +288,7 @@ STDEV(metric)
 
 ## Variance (Table) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
-Returns the variance based on a sample population of data. 
+Returns the variance based on a sample population of data.
 
 The equation for VARIANCE is:
 

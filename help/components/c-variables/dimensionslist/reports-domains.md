@@ -12,4 +12,4 @@ The Domains report/dimension lists the organizations and Internet service provid
 
 By contrast, the [Referring Domains](/help/components/c-variables/dimensionslist/reports-referring-domains.md) report/dimension shows the domains that referred visitors to your site. Use it to determine which external sites contribute the most to traffic and conversion metrics. It is part of [Traffic Sources](reports-traffic-sources.md) reporting.
 
-You cannot compare these two reports in any way, because they report separate and exclusive data. 
+You cannot compare these two reports in any way, because they report separate and exclusive data.

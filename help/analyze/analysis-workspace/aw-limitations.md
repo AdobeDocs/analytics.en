@@ -25,7 +25,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 
 ## Panels
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone. 
+* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
 
 ## Components > Segments
 
@@ -40,15 +40,15 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 
 ## Components > Date Ranges
 
-* Custom date ranges do not support [!UICONTROL This day last year], [!UICONTROL This day last month], etc. 
+* Custom date ranges do not support [!UICONTROL This day last year], [!UICONTROL This day last month], etc.
 
 ## Components > Virtual Reports Suites
 
-* When report time processing is enabled, certain components are not supported. For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md). 
+* When report time processing is enabled, certain components are not supported. For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
 
 ## Components > Report Settings
 
-* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character]. 
+* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
 
 ## Attribution IQ
 

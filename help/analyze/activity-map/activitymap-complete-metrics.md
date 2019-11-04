@@ -18,4 +18,4 @@ Previous versions of Activity Map offered limited ability to add other metrics t
 
 You can access your full set of metrics that are supported by an eVar in Adobe Analytics through the  drop-down menu in the toolbar.
 
-Please note that in Live Mode, only Link Click metrics are collected. 
+Please note that in Live Mode, only Link Click metrics are collected.

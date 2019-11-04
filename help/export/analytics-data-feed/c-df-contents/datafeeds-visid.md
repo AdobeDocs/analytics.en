@@ -15,7 +15,7 @@ Analytics provides several mechanisms by which visitors can be identified (liste
 
 **To identify unique visitors:**
 
-1. Exclude all rows where `exclude_hit > 0`. 
+1. Exclude all rows where `exclude_hit > 0`.
 1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See [Hit Source Lookup](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md) 
 1. Combine `post_visid_high` with `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
@@ -44,4 +44,4 @@ There are several ways a visitor can be identified in Analytics (listed in the f
 |   ![](assets/step5_icon.png) | [HTTP Mobile Subscriber header](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html)  | 2  | Device is recognized as a mobile device.  |
 |   ![](assets/step6_icon.png) | [IP Address, User Agent, Gateway IP Address](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html)  | 1  | Visitor's browser does not accept cookies.  |
 
-In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from that list as the official visitor ID, and split that value across the `post_visid_high` and `post_visid_low` columns. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit. 
+In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from that list as the official visitor ID, and split that value across the `post_visid_high` and `post_visid_low` columns. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit.

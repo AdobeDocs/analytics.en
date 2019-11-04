@@ -34,7 +34,7 @@ Displays report settings and lets you configure the report type, select metrics,
 
 ![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.  
+See [Customizing a Report](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
 
 ## Calendar {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 

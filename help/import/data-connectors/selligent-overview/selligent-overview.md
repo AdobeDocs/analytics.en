@@ -11,8 +11,8 @@ uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 
 This integration includes the following key benefits:
 
-* Consolidate email marketing and analytics data into one reporting interface. 
-* Optimize email campaigns by conversion and contribution to revenue and site success. 
+* Consolidate email marketing and analytics data into one reporting interface.
+* Optimize email campaigns by conversion and contribution to revenue and site success.
 * Re-market to key visitors and market segments based on dynamic marketing segments.
 
 ## Dynamic Marketing Segments {#section-a2216f3339304636bd5417249bd635a4}
@@ -30,7 +30,7 @@ This email integration supports dynamic marketing segments to help you drive you
 
 Before activating this integration, review the following items against your deployments of Adobe Analytics and your email software.
 
-Doing so will ensure the appropriate best practices and pre-requisites are in place prior to activation. This will result in an optimal and successful integration. 
+Doing so will ensure the appropriate best practices and pre-requisites are in place prior to activation. This will result in an optimal and successful integration.
 
 ## Prerequisites for Adobe Analytics{#prerequisites-for-adobe-analytics}
 
@@ -125,7 +125,7 @@ You will require the following information about your Selligent account during t
 
   E.g: `http://<client-specific install url>/automation/omniture.asmx` 
 
-* **Query String Parameters:** These are appended in the landing page URL for Message ID and Recipient ID(Visitor ID). These are always MID and RID for Message ID and Recipient ID respectively. 
+* **Query String Parameters:** These are appended in the landing page URL for Message ID and Recipient ID(Visitor ID). These are always MID and RID for Message ID and Recipient ID respectively.
 
 * **Integration Token** Launch the Manager tool from inside Simweb and go to **[!UICONTROL Configuration]** > **[!UICONTROL System Settings]** > **[!UICONTROL General]** tab > **[!UICONTROL System]**. Under **[!UICONTROL Security]**, you can find the Integration token.
 

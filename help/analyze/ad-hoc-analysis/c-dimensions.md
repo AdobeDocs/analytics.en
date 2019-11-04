@@ -19,7 +19,7 @@ Examples of dimensions include:
 * Gender 
 * Month 
 * Age 
-* Day, week, month, etc. 
+* Day, week, month, etc.
 * Loyalty 
 * Monitor resolution 
 * Custom eVars and s.prop values

@@ -17,7 +17,7 @@ Deploying this integration is a simple process that requires the following actio
 
 Steps to use the integration wizard.
 
-To activate the integration, you must complete the Lyris integration wizard within the Data Connectors interface. 
+To activate the integration, you must complete the Lyris integration wizard within the Data Connectors interface.
 
 1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
 

@@ -39,6 +39,6 @@ You can name your report and configure how to display row and column headers. Th
 
    **Perform Auto-Outline:** Transforms the date returned by report builder from a list view to a tree view.
 
-   **Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL Report] name in the [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md). 
+   **Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL Report] name in the [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Click **[!UICONTROL OK]**.

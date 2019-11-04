@@ -110,12 +110,12 @@ Legend editing does **not** apply to: Treemap, Bullet, Summary Change or Number,
 
 To edit a legend label in a Line chart, for example,
 
-1. Right-click one of the legend labels. 
+1. Right-click one of the legend labels.
 1. Click **[!UICONTROL Edit Label]**.
 
    ![](assets/edit-label.png)
 
-1. Enter the new label text. 
+1. Enter the new label text.
 1. Press **[!UICONTROL Enter]** to save.
 
-Here is a [link to a video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) on this topic. 
+Here is a [link to a video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) on this topic.

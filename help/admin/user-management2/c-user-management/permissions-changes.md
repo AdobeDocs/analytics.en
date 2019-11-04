@@ -24,7 +24,7 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 >
 >Due to the high number of possible permission combinations available, we cannot provide documentation describing all of the API methods that can be used in every permission combination. Generally, non-administrators who are granted Web Services access will have only Read access to API methods. They will not have Write access to methods.
 
-Because the API and interface use the same permissioning system, whatever permissions a particular non-administrator has been granted by an administrator in the interface (Adobe Admin Console), will be the same permissions that user has in the API. 
+Because the API and interface use the same permissioning system, whatever permissions a particular non-administrator has been granted by an administrator in the interface (Adobe Admin Console), will be the same permissions that user has in the API.
 
 <table id="table_D1DB0DE37752450BBCCA44DB760BB505"> 
  <thead> 
@@ -74,7 +74,7 @@ Because the API and interface use the same permissioning system, whatever permis
 
 ## Frequently Asked Questions about Permission Changes {#section_02809EFC95054B40A089E6C6E4FACA13}
 
-Here is important new information about new and planned updates and how they affect your administrative environment. 
+Here is important new information about new and planned updates and how they affect your administrative environment.
 
 <table id="table_1E93F45C66E841E6882FB602509F30A3"> 
  <thead> 

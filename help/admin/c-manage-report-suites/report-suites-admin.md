@@ -20,7 +20,7 @@ A report suite defines the complete, independent reporting on a chosen website, 
 
 ## Report Suite Manager Descriptions {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-The following table describes elements on the [!UICONTROL Report Suite Manager] page. 
+The following table describes elements on the [!UICONTROL Report Suite Manager] page.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 

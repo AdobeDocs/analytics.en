@@ -37,4 +37,4 @@ When a user clicks this campaign and views four total pages in that visit, you g
 
 With our data captured in [!UICONTROL prop1] in this way, with pathing enabled on this prop, you can now look at one of various pathing reports to understand how they path through the site after they click from a campaign.
 
-You can specify the start page from which to start the path report. In this case, you selected "banner1234 : Home Page", because you want to know where users went after they clicked from campaign "banner 1234." This report is only an example of one of many path reports. 
+You can specify the start page from which to start the path report. In this case, you selected "banner1234 : Home Page", because you want to know where users went after they clicked from campaign "banner 1234." This report is only an example of one of many path reports.

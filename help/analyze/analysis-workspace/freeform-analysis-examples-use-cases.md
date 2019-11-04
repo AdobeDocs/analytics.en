@@ -19,17 +19,17 @@ You can direct research across your data to answer specific questions and put to
 
 **Examples**
 
-* As a media company, you might want to compare your new visitors, your repeat visitors, and your most loyal visitors to see how content consumption changes over time for each different segment. 
-* Compare the conversion rates for branded and non-branded keywords. 
-* Break down page views by internal search, external search, landing pages, and so on, to understand why branded and non-branded terms perform differently. 
-* Compare day against next day to compare columns or rows to analyze growth across multiple metrics. 
+* As a media company, you might want to compare your new visitors, your repeat visitors, and your most loyal visitors to see how content consumption changes over time for each different segment.
+* Compare the conversion rates for branded and non-branded keywords.
+* Break down page views by internal search, external search, landing pages, and so on, to understand why branded and non-branded terms perform differently.
+* Compare day against next day to compare columns or rows to analyze growth across multiple metrics.
 * Do a simple query such as bounces per a dimension.
 
 ## Retail Example {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
 
 Assume you are a marketing analyst for an outdoor gear retailer and you are tasked with examining how a recent Thanksgiving promotion performed, and with making recommendations on how to improve onsite campaigns. This example shows how you can compare campaign revenue data for different segments and add breakdowns to drill down further into the campaign.
 
-1. Select the appropriate report suite. 
+1. Select the appropriate report suite.
 1. Search, for example, for your Internal Campaign Placements dimension and drag it into the left-hand section of the table canvas (this data will make up the table rows.)
 
    ![](assets/drag_dimension.png)

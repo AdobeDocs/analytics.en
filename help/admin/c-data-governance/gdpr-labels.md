@@ -26,7 +26,7 @@ The Adobe Analytics Data Privacy implementation supports the following labels fo
 
 ## Identity Data Labels (DULE) {#identity-data-labels}
 
-Identity data "I" labels are used to categorize data that can identify or contact a specific person. 
+Identity data "I" labels are used to categorize data that can identify or contact a specific person.
 
 <table id="table_6B5368D714424E52835D5DFE189BD080"> 
  <thead> 
@@ -60,7 +60,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
 
 ## Sensitive Data Labels (DULE) {#sensitive-data-labels}
 
-Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information. 
+Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information.
 
 <table id="table_A778A508620545CCB37830E5CF1C75B7"> 
  <thead> 
@@ -208,7 +208,7 @@ When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide
 
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
-1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces. 
+1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces.
 1. Click **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
@@ -221,7 +221,7 @@ You can also define a new namespace. We recommend that namespace strings be limi
 
    ![](assets/namespace2.png)
 
-1. Press **[!UICONTROL Enter]** to add this namespace. Only now will the Apply button be activated. 
+1. Press **[!UICONTROL Enter]** to add this namespace. Only now will the Apply button be activated.
 1. Click **[!UICONTROL Apply]**.
 
 The string you specify as the namespace is the same string you should use when submitting requests through the Data Privacy API as the value of the "namespace" parameter. The request will then cause Adobe Analytics to search all variables in all of your report suites that share this namespace for the ID you specified with the request.
@@ -245,7 +245,7 @@ As another example, you might have a CRM ID that is sometimes sent in via eVar1 
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
-Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels. 
+Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
 
 <table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
  <thead> 
@@ -356,7 +356,7 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
 
 Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
 
-The following table describes how various variables are "deleted". This is not a complete list. 
+The following table describes how various variables are "deleted". This is not a complete list.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -395,7 +395,7 @@ The following table describes how various variables are "deleted". This is not a
 
 ## Variables that Don't Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
-This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label. 
+This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label.
 
 <table id="table_6FECF3D654514862912D371E6BE4143B"> 
  <thead> 
@@ -477,4 +477,4 @@ There are five standard variables that contain timestamps:
 
 The code for generating the files returned for Data Privacy access requests requires that at least one of the first three timestamp variables be included in the access request (have an ACC label that applies to the type of request). If none of these are included, then Custom Hit Time UTC will be treated as if it has an ACC-ALL label.
 
-The hit-level CSV file returned for Data Privacy access requests will convert the values in these fields from unix timestamps to date/time fields of the format YYYY-MM-DD HH:MM:SS (for example, 2018-05-01 13:49:22). In the summary HTML file, these timestamp values will be truncated to only include the date, YYYY-MM-DD, to reduce the number of unique values that occur for these fields. 
+The hit-level CSV file returned for Data Privacy access requests will convert the values in these fields from unix timestamps to date/time fields of the format YYYY-MM-DD HH:MM:SS (for example, 2018-05-01 13:49:22). In the summary HTML file, these timestamp values will be truncated to only include the date, YYYY-MM-DD, to reduce the number of unique values that occur for these fields.

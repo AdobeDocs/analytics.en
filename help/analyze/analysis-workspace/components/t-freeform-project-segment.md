@@ -24,8 +24,8 @@ Component types are auto-converted into segments. Alternatively, you can click t
 
 Keep in mind that:
 
-* You **cannot** drop the following component types into the segment zone: calculated metrics and dimensions/metrics from which you cannot build segments. 
-* For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: "Hit where eVar1 exists" or "hit where event1 exists". 
+* You **cannot** drop the following component types into the segment zone: calculated metrics and dimensions/metrics from which you cannot build segments.
+* For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: "Hit where eVar1 exists" or "hit where event1 exists".
 * If "unspecified" or "none" is dropped in the segment drop zone, it is automatically converted to a "does not exist" segment so that it is treated correctly in segmentation.
 
 ![](assets/segment-dropzone.png)
@@ -36,14 +36,14 @@ Keep in mind that:
 
 You can choose to make these segments public (global) by following these steps:
 
-1. Hover over the segment in the drop zone and click the "i" icon. 
+1. Hover over the segment in the drop zone and click the "i" icon.
 1. In the information panel that displays, click **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
 ## Other methods for applying segments {#section_10FF2E309BA84618990EA5B473015894}
 
-Several other methods exist for applying segments to a freeform project. 
+Several other methods exist for applying segments to a freeform project.
 
 | Action | Description |
 |--- |--- |

@@ -10,10 +10,10 @@ uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 
 In order to see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
 
-1. [Map your report suite to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html). 
-1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
+1. [Map your report suite to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Select the report suite that is [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html). 
+1. Select the report suite that is [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![](assets/aa_reporting.png)
@@ -22,7 +22,7 @@ In order to see any Advertising Analytics search data in Analytics, you need to 
    >
    >AMO ID refers to the Adobe Advertising Cloud variable into which the search data is going to be inserted.
 
-1. Set the variable allocation and expiration you want the AMO ID variable to use. Conversion variables (eVars) allow Adobe Analytics to attribute success events to specific variable values. Sometimes, variables encounter more than one value before hitting a success event. For these cases, allocation determines which variable value gets credit for the event. 
+1. Set the variable allocation and expiration you want the AMO ID variable to use. Conversion variables (eVars) allow Adobe Analytics to attribute success events to specific variable values. Sometimes, variables encounter more than one value before hitting a success event. For these cases, allocation determines which variable value gets credit for the event.
 
     | Setting | Definition |
     |--- |--- |

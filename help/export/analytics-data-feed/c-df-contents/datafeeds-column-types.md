@@ -29,4 +29,4 @@ Hit 1: s.list1="Tabby,Persian,Siamese";
 
 Hit 2: s.list1="tabby,persian,siamese";
 
-When hit 2 is reported in the data feed, the pre column will contain the exact casing passed in (tabby,persian,siamese), but the value from hit 1 is likely persisted for that visit and will be reported in the post column (which will be Tabby,Persian,Siamese) since hit 1 and 2 contain the exact same value when a case-insensitive comparison is performed. 
+When hit 2 is reported in the data feed, the pre column will contain the exact casing passed in (tabby,persian,siamese), but the value from hit 1 is likely persisted for that visit and will be reported in the post column (which will be Tabby,Persian,Siamese) since hit 1 and 2 contain the exact same value when a case-insensitive comparison is performed.

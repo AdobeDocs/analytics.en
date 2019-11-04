@@ -31,4 +31,4 @@ The following table shows the difference between correct and incorrect code mist
 
 ## Additional Notes {#section_E2B6A9C966AD40A09578DD0F784DCAB9}
 
-Keep the closing HTML comment at the very end of the Adobe code (even if you are using the NOSCRIPT part of the script). 
+Keep the closing HTML comment at the very end of the Adobe code (even if you are using the NOSCRIPT part of the script).

@@ -19,7 +19,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
 >[!IMPORTANT]
 >
->For a successful implementation, it is critical that you follow these instructions as they appear in Adobe Help. Specifically, you must place the header code in the `<head>` section of your document templates. Also, you must place the footer code just before the closing `</body>` tag. Placing either of these embed codes elsewhere in your markup, or using asynchronous methods to append the embed codes, or wrapping the embed codes in any way, are *not* a supported implementations of Dynamic Tag Management. The embed codes must be implemented exactly as provided. 
+>For a successful implementation, it is critical that you follow these instructions as they appear in Adobe Help. Specifically, you must place the header code in the `<head>` section of your document templates. Also, you must place the footer code just before the closing `</body>` tag. Placing either of these embed codes elsewhere in your markup, or using asynchronous methods to append the embed codes, or wrapping the embed codes in any way, are *not* a supported implementations of Dynamic Tag Management. The embed codes must be implemented exactly as provided.
 >
 >An unsupported implementation will yield unexpected results and prevent Customer Care and Engineering from assisting with your implementation.
 
@@ -37,7 +37,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
 1. Copy the production footer code and place it in the [!DNL BODY] section of your site HTML.
 
-   Place the code as close to the [!DNL </body>] tag as possible. 
+   Place the code as close to the [!DNL </body>] tag as possible.
 1. Copy the staging header and footer code, then repeat the steps above on your staging site.
 
    >[!NOTE]

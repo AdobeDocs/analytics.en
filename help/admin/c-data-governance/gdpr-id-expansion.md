@@ -39,7 +39,7 @@ During the first few months after Data Privacy went live, the vast majority of A
 
 For a delete request, where ID expansion is not used, if you use a non-cookie ID (any ID other than the ECID or Analytics cookie) to identify hits that should be deleted, and that ID has an ID-DEVICE label, then unique visitor counts in reports will change, because only some instances of the cookie IDs will be anonymized, while others will be left unchanged. If you are not specifying ID expansion, then it is recommended that you either use a cookie ID for requests, or use IDs with an ID-PERSON label.
 
-When Adobe performs ID expansion, it can require an additional full data scan, which will increase the time that it takes Adobe to complete the request, often adding a week to the processing time. 
+When Adobe performs ID expansion, it can require an additional full data scan, which will increase the time that it takes Adobe to complete the request, often adding a week to the processing time.
 
 ## Other Data Privacy request flags
 

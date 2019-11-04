@@ -17,8 +17,8 @@ The pageName variable should be populated with an easy-to-read, intuitive, page 
 
 While the *`pageName`* variable is central to identifying user behavior, Adobe recommends using multiple variables to indicate page information. The best page naming strategies use a different variable for each level of hierarchy within your site, as shown below:
 
-* The *`channel`* variable can be used to indicate the site section. 
-* The *`pageName`* variable can be used to show content type. 
+* The *`channel`* variable can be used to indicate the site section.
+* The *`pageName`* variable can be used to show content type.
 * A [!UICONTROL custom insight] variable (prop1) can be used for detailed content.
 
 Levels of detail vary, depending on property, as shown below: 
@@ -64,13 +64,13 @@ Adobe does not recommend leaving the *`pageName`* blank, (which results in using
     * `https://mysite.com/index.jsp`
     * `https://mysite.com/`
 
-  If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports. 
+  If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports.
 
-* Some pages (such as forms) post to themselves, thereby erasing any distinction between the original form and the resulting output. 
+* Some pages (such as forms) post to themselves, thereby erasing any distinction between the original form and the resulting output.
 * When your page is translated into another language by search engines or other online tools, the URL of the page is the URL of the search engine (not the URL of your site).
 
 ## HTML (document.title) {#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
 
 If you have invested time into making your HTML titles readable and intuitive, you might consider using the same title as the value in the *`pageName`* variable. Adobe recommends using a server-side variable to populate the *`pageName`* rather than using JavaScript's [!DNL document.title]. Some browsers interpret the HTML title differently than others, which may cause [!DNL Analytics] to receive different page names from different browsers.
 
-The best practice for using the HTML title is to copy the existing titles for each page into a separate variable or content management element. When you decide to make changes to the HTML title for search engine optimization or other purposes, the [!DNL Analytics] page names are not affected. If a page name changes in [!DNL Analytics], it becomes a new page and is not connected with the old page name, regardless of the associated URL. 
+The best practice for using the HTML title is to copy the existing titles for each page into a separate variable or content management element. When you decide to make changes to the HTML title for search engine optimization or other purposes, the [!DNL Analytics] page names are not affected. If a page name changes in [!DNL Analytics], it becomes a new page and is not connected with the old page name, regardless of the associated URL.

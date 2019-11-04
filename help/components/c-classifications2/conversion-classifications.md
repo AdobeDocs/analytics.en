@@ -15,7 +15,7 @@ Classifications are used to categorize values into groups and report at the grou
 
 ## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
-Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like *pop music terms* and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events. 
+Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like *pop music terms* and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
 
 Conversion classifications let you classify conversion variables. Once classified, any report that you can generate using the key data can also be generated using the associated data properties.
 
@@ -70,14 +70,14 @@ Steps that describe how to add conversion classifications in Admin.
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. In the **[!UICONTROL Select Type]** field, select the type of classification you want to add to the variable.
 
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md). 
+   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
-   See [Conversion Classifications Descriptions](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) for information about these elements. 
+   See [Conversion Classifications Descriptions](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) for information about these elements.
 
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
-   Adding Options creates a list of classification values available for this classification. You can use this option with Campaign variables to provide users with a list of supported values for the classification in the Campaign Manager. Use this for classification dimensions where you have a small number of allowed values that rarely or never change. For example, you might run different campaigns aimed at different levels of customer loyalty: Silver, Gold, and Platinum. You could then use the drop-down list to ensure that the only values that are accepted are those that match your three levels. If anyone tries to use a different value, it gets discarded. 
+   Adding Options creates a list of classification values available for this classification. You can use this option with Campaign variables to provide users with a list of supported values for the classification in the Campaign Manager. Use this for classification dimensions where you have a small number of allowed values that rarely or never change. For example, you might run different campaigns aimed at different levels of customer loyalty: Silver, Gold, and Platinum. You could then use the drop-down list to ensure that the only values that are accepted are those that match your three levels. If anyone tries to use a different value, it gets discarded.
 1. Click **[!UICONTROL Save]**.
 
 ## Delete a conversion classification {#task_566651BC245944618A6A833E58211FDE}

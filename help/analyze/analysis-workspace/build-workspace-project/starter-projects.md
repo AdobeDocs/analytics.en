@@ -12,8 +12,8 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 
 You can choose whether to create a project from:
 
-* A blank project (default). For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md). 
-* A standard template. These templates are created by Adobe and ship out of the box. 
+* A blank project (default). For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* A standard template. These templates are created by Adobe and ship out of the box.
 * A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the "Save as Template" permission. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
@@ -112,11 +112,11 @@ Here are available templates and the questions that each template helps answer:
 >
 >Mobile templates are available only if your report suite is enabled for Mobile.
 
-* **Messaging:** Focuses on in-app and push messaging performance. 
-* **Location:** Includes a Map showcasing location data. 
-* **Key Metrics:** Keep a pulse on the key metrics of your app. 
+* **Messaging:** Focuses on in-app and push messaging performance.
+* **Location:** Includes a Map showcasing location data.
+* **Key Metrics:** Keep a pulse on the key metrics of your app.
 * **App Usage:** How many app users, launches, and first launches did the app have, and what was the average session length? 
-* **Acquisition:** See how mobile acquisition links are performing. 
+* **Acquisition:** See how mobile acquisition links are performing.
 * **Performance:** How is the app performing and where are users having problems? 
 * **Retention:** Who are my loyal users and what do they do? 
 * **Journeys:** What are the prominent usage patterns for my app?
@@ -141,11 +141,11 @@ Here are available templates and the questions that each template helps answer:
 
 It is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
-* Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America. 
-* Compare the People and Unique Visitors metrics side by side. 
-* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors. 
+* Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
+* Compare the People and Unique Visitors metrics side by side.
+* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors.
 * Compare the device type totals your customers use 
-* See how many average devices per person are used. 
-* Discover how to use segment stacking with the People metric. 
+* See how many average devices per person are used.
+* Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 

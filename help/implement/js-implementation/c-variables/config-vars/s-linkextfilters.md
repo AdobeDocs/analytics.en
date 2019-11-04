@@ -31,7 +31,7 @@ s.trackExternalLinks=true
 s.linkInternalFilters="javascript:,mysite.com" 
 s.linkExternalFilters="site1.com,site2.com,site3.com/partners" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Not an Exit Link</a> 
@@ -66,8 +66,8 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links. 
+* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links.
 
-* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`. 
+* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`.
 
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.

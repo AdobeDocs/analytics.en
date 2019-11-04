@@ -68,4 +68,4 @@ AAM Real-time Segment Population and Analytics Visitors with Experience Cloud ID
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation. 
+See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.

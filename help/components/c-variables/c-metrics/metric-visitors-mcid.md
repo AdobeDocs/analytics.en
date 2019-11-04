@@ -42,4 +42,4 @@ Be aware that any segments based on the "Product Quick Views" page (as shown abo
 
 ![](assets/metric-mcvid4.png)
 
-From this table, which compares the number of Unique Visitors to the Visitors with a Experience Cloud ID, it's easy to see that "Segment 1" does not have 100% MCID coverage, whereas "Segment 2" does. This means that if I were to share Segment 1 with the Experience Cloud, only 2,186 of the total 3,859 visitors would be eligible for sharing. 
+From this table, which compares the number of Unique Visitors to the Visitors with a Experience Cloud ID, it's easy to see that "Segment 1" does not have 100% MCID coverage, whereas "Segment 2" does. This means that if I were to share Segment 1 with the Experience Cloud, only 2,186 of the total 3,859 visitors would be eligible for sharing.

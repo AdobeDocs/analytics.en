@@ -27,7 +27,7 @@ This section contains the key concepts for Adobe Analytics, a brief description 
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
-Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html) for an expanded glossary of Adobe Analytics terms. 
+Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html) for an expanded glossary of Adobe Analytics terms.
 
 | Term | Description | Documentation Link |
 |--- |--- |--- |

@@ -9,7 +9,7 @@ title: Dynamic variables
 
 # s.doPlugins
 
-The  variable is a reference to the  function, and allows the  function to be called at the appropriate location within the JavaScript file. 
+The  variable is a reference to the  function, and allows the  function to be called at the appropriate location within the JavaScript file.
 
 The *`s_doPlugins`* function is called each time any of the following occurs:
 
@@ -44,6 +44,6 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* The only reason to change the object name (such as from s to s_mc) is if you share content with or pull content from other customers. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function. 
+* The only reason to change the object name (such as from s to s_mc) is if you share content with or pull content from other customers. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
 
 * If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. While the best solution is to use a different object name than other JavaScript files on the same page, doing so is not required.

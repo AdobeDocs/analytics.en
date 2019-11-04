@@ -10,7 +10,7 @@ uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 
 Explains the three Product Compatibility options.
 
-When you create calculated or advanced calculated metrics in the Calculated Metric Builder, your metric will show as compatible with 1 or more options: Current Data, Fully Processed Data, or Marketing Channel Reports. 
+When you create calculated or advanced calculated metrics in the Calculated Metric Builder, your metric will show as compatible with 1 or more options: Current Data, Fully Processed Data, or Marketing Channel Reports.
 
 <table id="table_DF7F6D55467B4B76AC34026465D44F7A"> 
  <thead> 

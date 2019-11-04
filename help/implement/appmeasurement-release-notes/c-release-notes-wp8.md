@@ -49,14 +49,14 @@ Release Date: **March 21, 2013**
 
 Release Date: **February 26, 2013**
 
-* `ADMS_Measurement.visitorID` now gets pre-populated with the default value. 
+* `ADMS_Measurement.visitorID` now gets pre-populated with the default value.
 * Fixed an issue that was sometimes causing auto-responses from cache.
 
 ## Version 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
 
 Release Date: **February 21, 2013**
 
-* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect. 
-* `DayOfWeek` is now 1-based starting on Sunday to match the values collected on other platforms. 
+* Deprecated `offlineThrottleDelay` as the setting is no longer necessary due to thread optimization. The setting still exists to preserve backwards compatibility, but no longer has any effect.
+* `DayOfWeek` is now 1-based starting on Sunday to match the values collected on other platforms.
 * Fixed an issue with offline storage that was sometimes causing the app to crash.
 

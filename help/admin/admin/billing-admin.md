@@ -18,8 +18,8 @@ The Billing page lets you access billing information, including traffic details 
 
 The traffic overview data from the billing page lets you correlate page view data in reports with billable server calls on your invoice. The [!UICONTROL Billing] page lets you do the following:
 
-* Audit your invoice. 
-* Break down costs by report suite for internal accounting allocations. 
+* Audit your invoice.
+* Break down costs by report suite for internal accounting allocations.
 * View the distribution of primary and secondary server calls.
 
 The [!UICONTROL Billing] page organizes information by month.
@@ -48,4 +48,4 @@ The resulting [!UICONTROL Monthly Invoice] report includes the following informa
 
 In the reporting user interface, the data presented is always attached to the **Reporting Date**, which is the timestamp that is attached to the event.
 
-Usage/Billing, on the other hand, always uses the **Processing Date**, or when the data was actually processed in the system. Due to basic latency, data imports, or event time zone differences (everything is processed in Pacific Time) the Reporting Date and Processing Date do not typically match up completely. 
+Usage/Billing, on the other hand, always uses the **Processing Date**, or when the data was actually processed in the system. Due to basic latency, data imports, or event time zone differences (everything is processed in Pacific Time) the Reporting Date and Processing Date do not typically match up completely.

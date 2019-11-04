@@ -94,6 +94,6 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
 
 **Related Help**
 
-* [Adobe/IO](https://www.adobe.io/) - A comprehensive source for the technical documentation and tools needed to integrate Adobe technologies into your applications. 
+* [Adobe/IO](https://www.adobe.io/) - A comprehensive source for the technical documentation and tools needed to integrate Adobe technologies into your applications.
 * [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 

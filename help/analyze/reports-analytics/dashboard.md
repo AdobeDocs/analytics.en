@@ -15,7 +15,7 @@ A dashboard is a collection of thumbnail reports called reportlets. A dashboard 
 
 ## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
-A dashboard is a collection of thumbnail reports called *`reportlets`*. A dashboard is most useful when it contains related reportlets that give you complete overviews of certain aspects of your site, such as finding methods, visitor profiles, and so on. 
+A dashboard is a collection of thumbnail reports called *`reportlets`*. A dashboard is most useful when it contains related reportlets that give you complete overviews of certain aspects of your site, such as finding methods, visitor profiles, and so on.
 
 You can add most marketing reports to a dashboard, including graphically intense reports like the [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report], and the [!UICONTROL Pathfinder Report].
 
@@ -34,8 +34,8 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 >
 >The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets.
 
-* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard. 
-* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**. 
+* If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
+* Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
@@ -56,7 +56,7 @@ This dashboard provides you an overview of key metrics related to your website o
 
 Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
 
-See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F). 
+See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## Create a dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -68,7 +68,7 @@ t_dashboard_add.xml
 
  -->
 
-Before adding a report (as a reportlet) to a dashboard, define the dashboard's layout. 
+Before adding a report (as a reportlet) to a dashboard, define the dashboard's layout.
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
@@ -76,8 +76,8 @@ Before adding a report (as a reportlet) to a dashboard, define the dashboard's l
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
 1. Configure the dashboard page layout:
 
-   * **[!UICONTROL Add Page]**: Adds a blank page to the dashboard, on which you can drag content to create reportlets. 
-   * **[!UICONTROL Paper]**: Lets you specify a paper size, such as landscape, portrait, and A4. 
+   * **[!UICONTROL Add Page]**: Adds a blank page to the dashboard, on which you can drag content to create reportlets.
+   * **[!UICONTROL Paper]**: Lets you specify a paper size, such as landscape, portrait, and A4.
    * **[!UICONTROL Find Content]**: Lets you search for content in the [!UICONTROL Add Content] and [!UICONTROL Dashboard Contents] menus.
 
 1. Add available content to the dashboard by dragging items to the reportlet canvas.
@@ -104,16 +104,16 @@ t_dashboard_add_report.xml
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
 1. (Optional) Configure the date range.
 
-   * **[!UICONTROL Rolling]**: Changes the date as time passes, according to the time span (daily, monthly, and so on). For example, if today is January 17, you might set the dates for January 15 - 16. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26. 
+   * **[!UICONTROL Rolling]**: Changes the date as time passes, according to the time span (daily, monthly, and so on). For example, if today is January 17, you might set the dates for January 15 - 16. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL Fixed]**: Prevents the date from moving forward as time passes.
 
 1. (Optional) Override the publishing distribution list.
 
-   **[!UICONTROL Publishing List Override]**: If you enable this option, the report suite referenced in this reportlet is always used when distributed to a publishing list. If you disable this option, the report suite identified in the publishing list replaces the report suite in this reportlet. 
+   **[!UICONTROL Publishing List Override]**: If you enable this option, the report suite referenced in this reportlet is always used when distributed to a publishing list. If you disable this option, the report suite identified in the publishing list replaces the report suite in this reportlet.
 
 1. Click **[!UICONTROL Create New]**.
 
-   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor. 
+   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor.
 
 ## Add content to a dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -217,7 +217,7 @@ t_dashboard_branding.xml
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Browse to upload the image, then click **[!UICONTROL Save.]**
 
-   For best results when viewing the image in a browser, upload a 100px by 30px image. For best results in PDF output, upload a 417px by 125px (300 dpi) image. Oversized images are shrunk to size, while preserving aspect ratio. 
+   For best results when viewing the image in a browser, upload a 100px by 30px image. For best results in PDF output, upload a 417px by 125px (300 dpi) image. Oversized images are shrunk to size, while preserving aspect ratio.
 
 ## Use segments with dashboards {#concept_ED030C3713D54D03971FB7B209285750}
 
@@ -231,5 +231,5 @@ segments_dashboards.xml
 
 Segments can be applied on two levels: to an entire dashboard or on a specific reportlet.
 
-* **Reportlet level**: Click **[!UICONTROL Layout]**, then the report suite of the reportlet you want to segment. A modal window appears that lets you add or change what segment(s) the reportlet uses. 
+* **Reportlet level**: Click **[!UICONTROL Layout]**, then the report suite of the reportlet you want to segment. A modal window appears that lets you add or change what segment(s) the reportlet uses.
 * **Dashboard level**: Click the Segment icon in the left navigation, check the segment(s) you want to use, and click Apply. The selected segments override and replace any reportlet-level segments.

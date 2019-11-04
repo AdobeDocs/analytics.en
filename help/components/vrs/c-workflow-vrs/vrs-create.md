@@ -13,11 +13,11 @@ uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 
 Before you start creating virtual report suites, here are a few things to keep in mind.
 
-* Non-Admin users cannot see the Virtual Report Suite Manager. 
-* Virtual report suites cannot be shared. "Sharing" is done via groups/permissions. 
+* Non-Admin users cannot see the Virtual Report Suite Manager.
+* Virtual report suites cannot be shared. "Sharing" is done via groups/permissions.
 * In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click "show all" to see everyone else's.
 
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. 
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
 1. Click **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)

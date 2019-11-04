@@ -14,7 +14,7 @@ Field descriptions for report suite General Account Settings in Admin.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**
 
-These settings contain editing options for basic report suite functionality, such as name and time zone. 
+These settings contain editing options for basic report suite functionality, such as name and time zone.
 
 <table id="table_5448A694DC0A48D2B20C7F1332509F6E"> 
  <thead> 

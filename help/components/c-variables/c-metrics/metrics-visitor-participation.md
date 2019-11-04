@@ -24,8 +24,8 @@ A visitor has two visits to your site. The conversion event occurs during the se
 
 In reporting, the conversion allocation is as follows:
 
-* **Revenue**: Allocated to the page. 
-* **Revenue (Participation)**: Allocated to the second visit. 
+* **Revenue**: Allocated to the page.
+* **Revenue (Participation)**: Allocated to the second visit.
 * **Revenue (Visitor Participation)**: Allocated across both visits.
 
 <table id="table_91A7244E77854838A8392B49366FB445"> 

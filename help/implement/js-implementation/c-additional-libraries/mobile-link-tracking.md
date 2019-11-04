@@ -20,10 +20,10 @@ https://<your_Namespace>.112.2o7.net/b/ss/<RSID>/4/REDIR/
 
 Keep in mind the following when creating link reference:
 
-* The URL value must be URL encoded. 
-* You should set a pageName or page URL (g) parameter. 
-* Dynamic variables can read the URL parameter but not set it. 
-* If no cookie is set, Adobe servers perform a normal cookie handshake. 
+* The URL value must be URL encoded.
+* You should set a pageName or page URL (g) parameter.
+* Dynamic variables can read the URL parameter but not set it.
+* If no cookie is set, Adobe servers perform a normal cookie handshake.
 * To track links, you must include pe, pev1, and pev2 parameters.
 
 A custom link measurement URL looks similar to the following:
@@ -34,4 +34,4 @@ A custom link measurement URL looks similar to the following:
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-For more information, see the [Exit Link Tracking Redirects whitepaper](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/). 
+For more information, see the [Exit Link Tracking Redirects whitepaper](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).

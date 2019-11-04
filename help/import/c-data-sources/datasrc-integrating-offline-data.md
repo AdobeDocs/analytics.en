@@ -45,7 +45,7 @@ The [!UICONTROL Manage] tab displays the status of Transaction ID Recording.
 
 Customer IDs are used to specify a customer's offline activity and tie it to online activity. These should be used when:
 
-* A customer ID is populated in the *`visitorID`* variable. 
+* A customer ID is populated in the *`visitorID`* variable.
 * There is no designated point where customer activity moves offline, such as a lead submission or purchase.
 
 To configure this type of data source, see [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
@@ -54,8 +54,8 @@ To configure this type of data source, see [Visitor ID](/help/import/c-data-sour
 
 Transaction IDs are used to record the state of a visitor at a point in time. These should be used when there is a point in time when customers typically move their experience from online to offline, such as:
 
-* Submits a lead for a salesman to contact the customer. 
-* Makes an online purchase, which might be later returned in store. 
+* Submits a lead for a salesman to contact the customer.
+* Makes an online purchase, which might be later returned in store.
 * Purchases a product for which they might later call for support.
 
 The customer is often anonymous when they move from online to offline.
@@ -64,4 +64,4 @@ Transaction ID events are not included in Visit Participation metrics (those sho
 
 The is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
 
-See [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). 
+See [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

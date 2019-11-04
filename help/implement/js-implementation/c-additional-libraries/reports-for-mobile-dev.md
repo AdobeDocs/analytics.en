@@ -33,4 +33,4 @@ Adobe maintains a known range of IP addresses that belong to mobile carriers. Wh
 
 ## Time Zones, Cookies, Java, JavaScript, Monitor Colors and Resolutions, Browser Width and Height, and Netscape Plug-ins {#section_158C848273AE4691B4413767E849E846}
 
-These reports are all collected by using JavaScript to detect specific settings of the browser. Because JavaScript is not used to create the image beacon on mobile devices, data collected from mobile users is not included in these reports. 
+These reports are all collected by using JavaScript to detect specific settings of the browser. Because JavaScript is not used to create the image beacon on mobile devices, data collected from mobile users is not included in these reports.

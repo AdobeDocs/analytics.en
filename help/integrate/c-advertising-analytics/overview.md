@@ -20,25 +20,25 @@ By bringing the data from these search engines together in Adobe Analytics, you 
 
 This integration is aimed at the following audiences:
 
-* The **Analyst** who needs to collect performance reports for the Paid Search Marketer. 
+* The **Analyst** who needs to collect performance reports for the Paid Search Marketer.
 * The **Paid Search Marketer** who seeks answers to these questions: How much traffic am I sending to our site and are customers converting? What are my cost effective ad campaigns?
 
 ## Prerequisites {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* Advertising Analytics is available for Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html), and [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) SKUs only. 
+* Advertising Analytics is available for Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html), and [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) SKUs only.
 
-* This functionality is available for non-Advertising Cloud and non-AMO customers. 
-* You must be an Adobe Analytics Administrator to have access to Advertising Analytics. Subsequently, you can [grant access permissions](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) to non-admins. 
-* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html). 
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**). 
+* This functionality is available for non-Advertising Cloud and non-AMO customers.
+* You must be an Adobe Analytics Administrator to have access to Advertising Analytics. Subsequently, you can [grant access permissions](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) to non-admins.
+* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
-* You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password. 
-* In the case of Bing Ads, you also need the Bing Customer ID. 
+* You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password.
+* In the case of Bing Ads, you also need the Bing Customer ID.
 * If you use Internet Explorer 11 (or earlier), you will not be able to successfully [set up an advertising account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) for any of the three search engines. Use other web browsers instead.
 
 ## Advertising Analytics Permissions {#section_FCC58EB635954A32990D4E67B52B4369}
 
-Analytics has two permissions that are automatically granted to Analytics Admins. Admins can then choose to grant these permissions to non-admins. 
+Analytics has two permissions that are automatically granted to Analytics Admins. Admins can then choose to grant these permissions to non-admins.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -73,7 +73,7 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 
 >[!IMPORTANT]
 >
->This integration creates a new set of dimensions through classifications of the AMO ID variable. These new dimensions do not impact or modify your existing marketing channels or campaign tracking variable dimensions. The AMO ID is connected to a visitor's profile when a visitor land on the site from a paid search ad. As such, the AMO dimensions can be used to break down both the AMO metrics provided by this integration as well as any data captured downstream by the visitor (visits, visitors, page views, bounce rate, orders, revenue, custom events, etc). They can also be broken down by other dimensions when reporting on other onsite metrics. 
+>This integration creates a new set of dimensions through classifications of the AMO ID variable. These new dimensions do not impact or modify your existing marketing channels or campaign tracking variable dimensions. The AMO ID is connected to a visitor's profile when a visitor land on the site from a paid search ad. As such, the AMO dimensions can be used to break down both the AMO metrics provided by this integration as well as any data captured downstream by the visitor (visits, visitors, page views, bounce rate, orders, revenue, custom events, etc). They can also be broken down by other dimensions when reporting on other onsite metrics.
 >
 >The classifications for these metrics are updated daily. As such, if you make changes to the meta data in a search engine, you may not see those changes reflect until the following day when the classifications are updated.
 
@@ -102,9 +102,9 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 
 >[!IMPORTANT]
 >
->The metrics provided by Advertising Analytics (listed below) are summary-level data from the search engines. They are not connected to the Analytics visitor profiles. They are only connected to the AMO ID variable and its associated classification dimensions. As such, they should not be reported on by any dimensions/segments other than those based on the AMO ID dimensions. Doing so will result in Analytics displaying zeros for the data. You can include them in calculated metrics with other metrics, but these calculated metric should also be broken down only by the AMO ID dimensions. 
+>The metrics provided by Advertising Analytics (listed below) are summary-level data from the search engines. They are not connected to the Analytics visitor profiles. They are only connected to the AMO ID variable and its associated classification dimensions. As such, they should not be reported on by any dimensions/segments other than those based on the AMO ID dimensions. Doing so will result in Analytics displaying zeros for the data. You can include them in calculated metrics with other metrics, but these calculated metric should also be broken down only by the AMO ID dimensions.
 >
->These metrics are data sourced on a daily basis so they will not have data for the current day. They also should not be reported on a granularity lower than daily. 
+>These metrics are data sourced on a daily basis so they will not have data for the current day. They also should not be reported on a granularity lower than daily.
 >
 >There is an AMO ID Instances metric that is set when the AMO ID is set on a landing page (i.e. a Clickthrough). This metric is captured in real time with the landing page hit and is available for breakdowns with other dimensions also set on the landing page.
 

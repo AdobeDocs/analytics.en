@@ -14,7 +14,7 @@ Contribution Analysis is an intensive machine learning process designed to uncov
 
 There are two ways to invoke contribution analysis in a project:
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. You can even run it on rows that do not display any anomaly. 
+* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. You can even run it on rows that do not display any anomaly.
 
   >[!NOTE]
   >
@@ -26,14 +26,14 @@ There are two ways to invoke contribution analysis in a project:
 
   ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC). 
+1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
-1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension. 
+1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension.
 1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. You will notice a lot of familiar panels if you have used Contribution Analysis in Reports & Analytics before:
 
-    * A visualization that shows the number of **Visits** on that day. 
-    * A monthly **Visits Trend line** for context. 
-    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective. 
+    * A visualization that shows the number of **Visits** on that day.
+    * A monthly **Visits Trend line** for context.
+    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
     
     * The [Generated Segments](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_workflow_premium.html) (Top Item Clusters) table identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Clicking the "i" (info) button will give you a view of each auto segment's definition, including which top items it is made up of:
 
@@ -55,13 +55,13 @@ There are two ways to invoke contribution analysis in a project:
 
 There may be times when you want to exclude some dimensions from Contribution Analysis. For example, you may not care about any browser- or hardware-related dimensions at all, and you want to speed up analysis by removing them.
 
-1. After you have clicked **[!UICONTROL Run Contribution Analysis]** (or **[!UICONTROL Analyze]** in a line chart), the **[!UICONTROL Excluded Dimensions]** panel displays. 
+1. After you have clicked **[!UICONTROL Run Contribution Analysis]** (or **[!UICONTROL Analyze]** in a line chart), the **[!UICONTROL Excluded Dimensions]** panel displays.
 
 1. Just drag any unwanted dimensions into the **[!UICONTROL Excluded Dimensions]** panel, then save the list by clicking **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
 
    ![](assets/exclude_dimensions.png)
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again. 
+1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
 1. If you ever need to revise the list of excluded dimensions, just double click Dimensions, and the list of excluded dimensions displays:
 
    ![](assets/excluded-dimensions.png)

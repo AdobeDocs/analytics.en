@@ -31,5 +31,5 @@ How to use a master report suite as a template for testing your marketing channe
    1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
    1. Click **[!UICONTROL Save]**.
    
-      If the Save button is disabled in this step, enable it by expanding one of the rules. 
+      If the Save button is disabled in this step, enable it by expanding one of the rules.
    

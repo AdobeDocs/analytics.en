@@ -12,7 +12,7 @@ Displays information about which pages and areas of your site are most active an
 
 ## Site Content reports {#concept_6FD804C43698437A88E1E8A19821851E}
 
-Displays information about which pages and areas of your site are most active and which servers are getting the most use. 
+Displays information about which pages and areas of your site are most active and which servers are getting the most use.
 
 **Pages**: Ranks the pages on your site based on the pages that receive the most traffic. If your business question deals with quantitative data for pages, you can use this report to answer that question, by adding the right metrics.
 
@@ -24,7 +24,7 @@ Displays information about which pages and areas of your site are most active an
 
 **Links**: Shows you the links that visitors click when on your website, including links clicked to leave your site, or download links.
 
-* **Exit Links**: Displays links that the user clicked to leave your website. These links include links to partner or affiliate websites. 
-* **File Downloads**: Displays the files that have been downloaded from your website. These files can be any type of file you want to track, including user manuals, presentations, audio, or video files. This report requires that link tracking code is installed on the site that you are tracking. See the *Analytics Implementation Guide* for more information. 
+* **Exit Links**: Displays links that the user clicked to leave your website. These links include links to partner or affiliate websites.
+* **File Downloads**: Displays the files that have been downloaded from your website. These files can be any type of file you want to track, including user manuals, presentations, audio, or video files. This report requires that link tracking code is installed on the site that you are tracking. See the *Analytics Implementation Guide* for more information.
 * **[!UICONTROL Custom Links]**: Shows you the links your site visitors prefer, helping you understand the navigation patterns within your site. For example, the Home page for your site likely has multiple links that access the same page. Perhaps there is graphic and text link that both link to the same page. This report shows what percentage of visitors use the graphic link versus the text link. Custom links are specific to your website. The specific links that you want to track must be modified with special tags. For assistance, contact [!DNL ClientCare].
 

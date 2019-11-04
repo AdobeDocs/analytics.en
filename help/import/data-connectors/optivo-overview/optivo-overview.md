@@ -38,9 +38,9 @@ This integration includes the following key benefits:
 
 This integration features the following dynamic marketing segments:
 
-* **Purchase Profiles:** Increase repeat orders and average order value through campaigns targeted by visitor purchase patterns. 
-* **Product/Content View Behavioral Profile:** Reach prospective customers through marketing segments based on product views and content access profiling. 
-* **Cart Abandonment Profile:** Help visitors convert to customers through fine-tuned campaigns specifically designed for those who are hesitant to complete carts. 
+* **Purchase Profiles:** Increase repeat orders and average order value through campaigns targeted by visitor purchase patterns.
+* **Product/Content View Behavioral Profile:** Reach prospective customers through marketing segments based on product views and content access profiling.
+* **Cart Abandonment Profile:** Help visitors convert to customers through fine-tuned campaigns specifically designed for those who are hesitant to complete carts.
 * **Effective Remarketing:** Customers can also create and schedule custom remarketing segments specific to the needs of their users.
 
 ## Before You Activate{#before-you-activate}
@@ -49,17 +49,17 @@ Before starting the Data Connectors integration for , complete the following req
 
 ## Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
-* **Report Suite Specific:** Be advised this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration. 
-* **Available and configured Adobe Analytics variables:** This integration requires custom events and custom eVars.  
+* **Report Suite Specific:** Be advised this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration.
+* **Available and configured Adobe Analytics variables:** This integration requires custom events and custom eVars.
 
-* **Authorized Representative:** Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above. 
-* **Message ID:** The integration requires that we capture and store a "Message ID" within a Adobe Analytics variable (eVar). These IDs are needed to identify the mailings you sent. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard. 
-*  **Partner:** The integration requires that we capture and store a [!UICONTROL ~Partner~] within a Adobe Analytics variable (eVar). This ID is an encoded or numeric representation of an email address from the [!UICONTROL ~Partner~] system. This [!UICONTROL ~Partner~] is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled into the [!UICONTROL ~Partner~] system and can be leveraged for remarketing purposes. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard. 
-* **Post Click Time:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the time of a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing. 
+* **Authorized Representative:** Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above.
+* **Message ID:** The integration requires that we capture and store a "Message ID" within a Adobe Analytics variable (eVar). These IDs are needed to identify the mailings you sent. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard.
+*  **Partner:** The integration requires that we capture and store a [!UICONTROL ~Partner~] within a Adobe Analytics variable (eVar). This ID is an encoded or numeric representation of an email address from the [!UICONTROL ~Partner~] system. This [!UICONTROL ~Partner~] is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled into the [!UICONTROL ~Partner~] system and can be leveraged for remarketing purposes. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard.
+* **Post Click Time:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the time of a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing.
 
-* **Post Click Product:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the offered product that is associated with a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing. 
+* **Post Click Product:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the offered product that is associated with a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing.
 
-* **Post Click Type of Action:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the type of a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing. 
+* **Post Click Type of Action:** As a part of the setup process, this integration requires an assignment to an eVar that corresponds to the type of a post click action. This is needed to transmit information about a recipient action to [!UICONTROL ~Partner~] after the recipient clicked a link in a mailing.
 
 * **Privacy Compliance:** You should understand that by enabling Recipient or Visitor ID tracking, this feature may track personally identifiable information of your site visitors. This has privacy implications requiring the implementation of appropriate procedures by your organization, such as providing notice to, and consent of, your site visitors.
 

@@ -17,15 +17,15 @@ When you schedule a report for delivery in an Adobe Analytics application, you c
 
 Due to differences in processing mechanisms and platforms, the various types of downloadable and scheduled reports available in Adobe Analytics have different limitations regarding the maximum number of rows they can process in a single request. Here are the limits of each:
 
-* Word, CSV, Excel, HTML and PDF: The same number of rows visible in the report. By default this limit is 50 rows but can increase up to 200. Breakdown reports have a hard limit of 50 rows. 
+* Word, CSV, Excel, HTML and PDF: The same number of rows visible in the report. By default this limit is 50 rows but can increase up to 200. Breakdown reports have a hard limit of 50 rows.
 * Data Extracts: 50,000 rows 
 * Data Warehouse: Unlimited
 
-These limitations are for individual scheduled and downloaded reports; dashboards are limited to the amount of space available within a reportlet. 
+These limitations are for individual scheduled and downloaded reports; dashboards are limited to the amount of space available within a reportlet.
 
 >[!NOTE]
 >
->The "Delivery Time"/"Time of Day" entered by the user specifies the time that the report should begin processing, not the time that it will actually be delivered. The actual time that the report will be delivered is based primarily on how long it takes to process (complex and large reports take longer to process than simpler reports). For example, if a report takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day". 
+>The "Delivery Time"/"Time of Day" entered by the user specifies the time that the report should begin processing, not the time that it will actually be delivered. The actual time that the report will be delivered is based primarily on how long it takes to process (complex and large reports take longer to process than simpler reports). For example, if a report takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day".
 >In addition, there are a number of other factors that can further increase the delay before the report is actually delivered:
 >
 > * **Running many different schedules of the same type at the same time** (e.g., many Dashboards, etc.) can overload the system. The Scheduling system only allows a few (5-10) reports of any one type to run concurrently, so when more than 5-10 are all scheduled at once, some will need to wait in line for other reports to finish before they can begin processing. This issue can be mitigated by scheduling a company's reports at staggered times throughout the day or hour, rather than simultaneously.
@@ -86,9 +86,9 @@ Download detailed information about a specific report in PDF, CSV, Excel, or Raw
 
 1. Select the desired format for the report:
 
-    * **[!UICONTROL PDF]**: Specifies that the report will be downloaded in Adobe PDF, which lets you share the report with others, regardless of which computer system the recipient is running. 
-    * **[!UICONTROL CSV]**: Specifies that the report will be downloaded in [!DNL .csv] (comma-separated values format). 
-    * **[!UICONTROL Excel]**: Specifies that the report will be downloaded in Microsoft Excel format, which lets you share the report with other who can open it in a spreadsheet program. 
+    * **[!UICONTROL PDF]**: Specifies that the report will be downloaded in Adobe PDF, which lets you share the report with others, regardless of which computer system the recipient is running.
+    * **[!UICONTROL CSV]**: Specifies that the report will be downloaded in [!DNL .csv] (comma-separated values format).
+    * **[!UICONTROL Excel]**: Specifies that the report will be downloaded in Microsoft Excel format, which lets you share the report with other who can open it in a spreadsheet program.
     * **[!UICONTROL Word]**: Specifies that the report will be downloaded in Microsoft Word format.
 
    >[!NOTE]
@@ -101,7 +101,7 @@ Information about managing scheduled reports.
 
 In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. You can create delivery schedules that send your reports via email or FTP to a specified address. You can configure these schedules to automatically send the reports at specified intervals for a duration of time or indefinitely, or stop the delivery of a recurring report.
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop. 
+The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
 
 1. To access the manager, click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
 
@@ -130,9 +130,9 @@ To unsubscribe from a scheduled report:
 
    ![](assets/unsubscribe-email.png)
 
-1. Click the **[!UICONTROL click here]** link next to **[!UICONTROL To cancel automatic delivery of this report]**. 
+1. Click the **[!UICONTROL click here]** link next to **[!UICONTROL To cancel automatic delivery of this report]**.
 
-1. Confirm that you want to cancel the report delivery. 
+1. Confirm that you want to cancel the report delivery.
 
    >[!NOTE]
    >

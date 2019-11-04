@@ -40,13 +40,13 @@ The variable abbreviation used must match the variable parameter name passed in 
 
 The following information applies to dynamic variables:
 
-* Dynamic variables work with all versions of AppMeasurement code. 
-* Dynamic variables are case sensitive. 
-* Dynamic variables support literal strings contained in quotes. 
-* Dynamic variable replacement occurs before processing rules, VISTA, and other processing. 
-* The dynamic variable prefix "D=" must be at the start of the variable value not in the middle. For example, use `c2='D="test7"+User-Agent'` rather than `c2='"test7"+D=User-Agent'` . 
+* Dynamic variables work with all versions of AppMeasurement code.
+* Dynamic variables are case sensitive.
+* Dynamic variables support literal strings contained in quotes.
+* Dynamic variable replacement occurs before processing rules, VISTA, and other processing.
+* The dynamic variable prefix "D=" must be at the start of the variable value not in the middle. For example, use `c2='D="test7"+User-Agent'` rather than `c2='"test7"+D=User-Agent'` .
 
-* As with all implementation techniques, Adobe strongly recommends testing dynamic variable implementations heavily in a development environment before deploying to production. Because the full strings that are copied are not visible in client-side debugging tools, review the affected Analytics reports to confirm successful implementation. 
+* As with all implementation techniques, Adobe strongly recommends testing dynamic variable implementations heavily in a development environment before deploying to production. Because the full strings that are copied are not visible in client-side debugging tools, review the affected Analytics reports to confirm successful implementation.
 * When copying values between variables with different maximum lengths, note that copying a value that exceeds the maximum length of the destination variable causes truncation. For example, [!UICONTROL Custom Traffic] variables have 100-character limits and [!UICONTROL Custom Conversion] variables have 255-characters limits. When copying a 150-character value from s.eVar1 to s.prop1 using dynamic variables, this value is truncated in the [!UICONTROL Custom Traffic] report at 100 characters.
 
 ## Dynamic Variable Examples {#section_5CE4468D978540FBA384B9D6477C92EC}

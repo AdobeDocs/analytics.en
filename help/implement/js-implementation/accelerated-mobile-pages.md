@@ -32,7 +32,7 @@ AMPs have specially tagged HTML pages cached around the web on different content
 
 In addition, to dramatically reduce page weight and speed page load time, AMPs restrict the use of JavaScript and cookies. While this is advantageous for your mobile device because it reduces the amount of processing, it introduces challenges to accurately measuring unique visitors and understanding user acquisition and retention.
 
-To solve these problems, Adobe has collaborated with AMP partners and publishers on two options that a publisher can choose from to best suit their business needs, both using the `amp-analytics` tag. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. The following table gives you an idea of the pros and cons of each approach. 
+To solve these problems, Adobe has collaborated with AMP partners and publishers on two options that a publisher can choose from to best suit their business needs, both using the `amp-analytics` tag. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. The following table gives you an idea of the pros and cons of each approach.
 
 |   | **"adobeanalytics" template** | **"adobeanalytics_nativeConfig" template** |
 |---|---|---|

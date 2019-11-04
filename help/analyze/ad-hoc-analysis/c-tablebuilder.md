@@ -12,7 +12,7 @@ Use the Table Builder to create a report with any configuration of metrics, dime
 
 ## Table Builder {#concept_574FEDC73B244101935D3C86C39DB70F}
 
-Use the Table Builder to create a report with any configuration of metrics, dimensions, and segments. For example, you can add multiple metrics to the Table Builder, then apply segment to all of them at once. You can apply items from the tool panes as rows and breakdowns, or as columns, and easily pivot the table for a different view. After building the table, you can interact directly with the resulting data table for further analysis. Keep in mind that generating a data table from the Table Builder runs a query and creates a new data table. 
+Use the Table Builder to create a report with any configuration of metrics, dimensions, and segments. For example, you can add multiple metrics to the Table Builder, then apply segment to all of them at once. You can apply items from the tool panes as rows and breakdowns, or as columns, and easily pivot the table for a different view. After building the table, you can interact directly with the resulting data table for further analysis. Keep in mind that generating a data table from the Table Builder runs a query and creates a new data table.
 
 The [!UICONTROL Table Builder] is not available for certain pathing reports like [!UICONTROL Site Analysis], [!UICONTROL Fallout], [!UICONTROL Flow] and [!UICONTROL Virtual Focus].
 
@@ -76,5 +76,5 @@ t_table_builder.xml
 1. Configure the items as rows, breakdowns, and columns.
 1. Click **[!UICONTROL Replace Table]** to generate the report.
 
-   Clicking **[!UICONTROL Replace Table]** runs a new query and creates a new data table. Manual edits to the detail table are not reflected in the Table Builder. 
+   Clicking **[!UICONTROL Replace Table]** runs a new query and creates a new data table. Manual edits to the detail table are not reflected in the Table Builder.
 

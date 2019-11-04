@@ -14,8 +14,8 @@ A histogram is similar to a bar chart, but it groups numbers into ranges (bucket
 
 To create a histogram:
 
-1. Click **[!UICONTROL Visualizations]** in the left rail. 
-1. Drag **[!UICONTROL Histogram]** to the panel. 
+1. Click **[!UICONTROL Visualizations]** in the left rail.
+1. Drag **[!UICONTROL Histogram]** to the panel.
 1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
 
 ![](assets/histogram.png)
@@ -41,7 +41,7 @@ To adjust your histogram settings, click the Settings ("gear") icon in the upper
 
 **Examples**:
 
-* Starting Bucket: 1; Metric Buckets: 5; Metric Bucket Size: 2 will result in this histogram: 1-2, 3-4, 5-6, 7-8, 9-10. 
+* Starting Bucket: 1; Metric Buckets: 5; Metric Bucket Size: 2 will result in this histogram: 1-2, 3-4, 5-6, 7-8, 9-10.
 * Starting Bucket: 0; Metric Buckets: 3; Metric Bucket Size: 5 will result in this histogram: 0-4, 5-9, 10-14
 
 ## View and edit histogram data {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
@@ -54,4 +54,4 @@ Pre-built segments that show up in the table are internal segments and won't sho
 
 ![](assets/prebuilt_segments.png)
 
-To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform-analysis-visualizations.html). 
+To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform-analysis-visualizations.html).

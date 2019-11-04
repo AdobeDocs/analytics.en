@@ -30,9 +30,9 @@ Prior to April 20, 2017, all users (including administrators) had to pass an exa
 
 Now, administrators have rights to use processing rules **by default**. The exam is no longer necessary. Administrators can also grant these rights to non-administrators through the Admin Tools interface. Here's how:
 
-1. If you have not already done so, [create a group](/help/admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules. 
-1. [Add the non-administrators to that group](/help/admin/user-management2/c-user-management/t-add-user-to-group.md). 
-1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL [group name]]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**. 
+1. If you have not already done so, [create a group](/help/admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules.
+1. [Add the non-administrators to that group](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
+1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL [group name]]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
 1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
@@ -57,4 +57,4 @@ Processing rules can monitor incoming values to transform common typos and set e
 
 Once context data variables are defined within your implementation, they must be copied to variables such as eVars to be used in reporting.
 
-For more information, go [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) and [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md). 
+For more information, go [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) and [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).

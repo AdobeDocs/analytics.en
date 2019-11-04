@@ -48,4 +48,4 @@ As soon as you have set up an Advertising Analytics account, the Advertising Ana
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available. 
+As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available.

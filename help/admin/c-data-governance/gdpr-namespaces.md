@@ -12,11 +12,11 @@ Each ID that you want to be able to search for is assigned a namespace, which is
 
 The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a Data Privacy request. When a Data Privacy request is submitted, the request will include a JSON section specifying the data subject IDs to use for the request. Multiple IDs can be included as part of a single request for a data subject. The JSON includes:
 
-* A "namespace" field containing the namespace string. 
-* A "type" field that for most Adobe Analytics requests contains the value "analytics". 
+* A "namespace" field containing the namespace string.
+* A "type" field that for most Adobe Analytics requests contains the value "analytics".
 * A "value" field containing the ID that Analytics should search for in the associated namespace variables from each of your report suites.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details. 
+Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details.
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 

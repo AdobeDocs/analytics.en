@@ -15,7 +15,7 @@ Marketing Channel processing rules determine if a visitor hit meets the criteria
 
 Here are important guidelines for creating rules:
 
-* Sort the rules in the order that you want them to be processed. 
+* Sort the rules in the order that you want them to be processed.
 * At the end of your list, include a catch-all rule, such as Other. This rule identifies external traffic but not internal traffic.
 
    See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
@@ -26,7 +26,7 @@ Here are important guidelines for creating rules:
 
 ## Prerequisites
 
-* Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) and [About Marketing Channel Reports](/help/components/c-marketing-channels/c-overview.md). 
+* Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) and [About Marketing Channel Reports](/help/components/c-marketing-channels/c-overview.md).
 
 * Create one or more channels so that you can assign rules to them.
 

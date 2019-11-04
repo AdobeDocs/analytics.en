@@ -14,9 +14,9 @@ For example, when you drag the Browser dimension into the table, all of its dime
 
 In contrast, any time you manually select and drop a specific metric, segment, data range, or individual dimension item into a table, the result is a hardcoded or "static" row or list. You can now interact with a static row in these ways:
 
-* Click the Preview icon in static rows that lets you preview segments, metrics, date ranges. 
-* Click the "x" icon to delete that row from the table. 
-* Limit how many rows display and enable paging. 
+* Click the Preview icon in static rows that lets you preview segments, metrics, date ranges.
+* Click the "x" icon to delete that row from the table.
+* Limit how many rows display and enable paging.
 * Add "mixed dimension items". For example, add an item from a browser dimension and another item from a product dimension.
 
   Here is an illustration:

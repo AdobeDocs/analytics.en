@@ -87,4 +87,4 @@ In addition, the top differentiating additional segment is displayed in an overl
 
 The overlap visual graphically indicates the difference in overlap between all three segments, and like the other linked visuals, clicking on each additional segment in the table will update the visual to correspond to the selected segment.
 
-Click here for more information on the [statistical tests](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md) used in comparing segments. 
+Click here for more information on the [statistical tests](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md) used in comparing segments.

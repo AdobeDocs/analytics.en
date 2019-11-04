@@ -14,7 +14,7 @@ An Ad Hoc Analysis report. Site Analysis displays how visitors move through spec
 
 Drag items from tool panes to add them to the graph or the dimensions field.
 
-Right-click cylinders to edit or remove them. 
+Right-click cylinders to edit or remove them.
 
 ## Options
 

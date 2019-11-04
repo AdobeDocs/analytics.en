@@ -20,7 +20,7 @@ Adobe Analytics offers various Time Spent metrics and dimensions. Find out what 
 
 ## Time Spent Metrics {#section_4F54D70300944748A62088F5870E4B6C}
 
-This table lists the various Time Spent metrics, their definition, and where in Adobe Analytics you can use them. 
+This table lists the various Time Spent metrics, their definition, and where in Adobe Analytics you can use them.
 
 <table id="table_7095406DF1614F3CAD5E437B919598D1"> 
  <thead> 
@@ -71,7 +71,7 @@ This table lists the various Time Spent metrics, their definition, and where in 
 
 ## Time Spent Dimensions {#section_D51606544CB046FC902E2E317318892C}
 
-This table lists the various Time Spent dimensions, their definition, and where in Adobe Analytics you can use them. 
+This table lists the various Time Spent dimensions, their definition, and where in Adobe Analytics you can use them.
 
 <table id="table_BF1B7B8620714105BFB5C1AC37ABE02C"> 
  <thead> 
@@ -141,7 +141,7 @@ The **numerator** in all time spent calculations is&nbsp;"Total seconds spent".
 
 The **denominator** is not available as a separate metric in Analytics. For hit-level time spent metrics, the denominator is sequences. A sequence is a consecutive set of hits where a given variable contains the same value (whether by being set, spread forward, or persisted). "Spread forward" refers to the persistence of props between page views (i.e. across subsequent link events), for the purpose of calculating time spent.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL Instances] or [!UICONTROL Page Views], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence). 
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL Instances] or [!UICONTROL Page Views], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * [!UICONTROL Bounce] and [!UICONTROL Exit] hits are also removed from the denominator because time spent cannot be known.
 
@@ -345,9 +345,9 @@ For Time Spent dimensions, the following rows will appear in the associated repo
 
 Some additional notes in support of the example:
 
-* All Time Spent calculations are based on the visit elapsed time which starts at zero on the first hit of the visit. 
-* "Seconds Spent" is the difference between the timestamp of the current hit and the timestamp of the next hit. As a result, the last hit of the visit (and bounces) have no time spent. 
+* All Time Spent calculations are based on the visit elapsed time which starts at zero on the first hit of the visit.
+* "Seconds Spent" is the difference between the timestamp of the current hit and the timestamp of the next hit. As a result, the last hit of the visit (and bounces) have no time spent.
 * A "sequence" is a consecutive set of hits where a given variable contains the same value (whether by being set, spread forward, or persisted). For example, prop1 "A" has two sequences: hits 1 & 2 and hit 6. Values on the last hit of the visit do not start a new sequence because the last hit has no time spent. Average time spent on site uses sequences in the denominator.
 
-    * For the purposes of Time Spent only, props are "spread forward" from page hits to subsequent link hits as shown above for prop1 on hit 2. This allows the value that was set for prop1 on hit 1 ("A") to accumulate time spent on hit 2. 
+    * For the purposes of Time Spent only, props are "spread forward" from page hits to subsequent link hits as shown above for prop1 on hit 2. This allows the value that was set for prop1 on hit 1 ("A") to accumulate time spent on hit 2.
     * eVars accumulate Time Spent on any hit where the eVar is set or persisted. eVar persistence is defined by the eVar settings in Analytics Admin.

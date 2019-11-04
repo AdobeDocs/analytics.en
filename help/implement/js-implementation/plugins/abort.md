@@ -24,4 +24,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-This lets you centralize the logic you use to identify activity that you do not want to track, such as some custom links or external links in display ads. 
+This lets you centralize the logic you use to identify activity that you do not want to track, such as some custom links or external links in display ads.

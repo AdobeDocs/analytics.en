@@ -47,4 +47,4 @@ Use *`rolling daily`*.
 
 * The End settings would be *`current day minus 7 days`*.
 
-This date range can be a component that you drag onto any freeform table. 
+This date range can be a component that you drag onto any freeform table.

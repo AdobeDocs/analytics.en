@@ -12,7 +12,7 @@ uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 
 Two important considerations when using the Customize Expression to set the date range:
 
-* The day the report (As Of) is run (or requests refreshed) determines what data is available. 
+* The day the report (As Of) is run (or requests refreshed) determines what data is available.
 * The rollover of start and end dates of the report affects the date range covered by the report.
 
 Because the availability of data is sensitive both to the time frame of the report and the date that you refresh requests in the report, ensure that you run the report on the appropriate day to extract the desired information. The examples below demonstrate both of these considerations.

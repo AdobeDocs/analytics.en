@@ -55,7 +55,7 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 ## How do I access the Calculated Metric Manager? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**. 
+* Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**.
 
 * In any [!DNL Analytics] report, click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, then click **[!UICONTROL Manage]**.
 
@@ -95,8 +95,8 @@ Nothing. However, the new Admin owner should exercise caution when modifying or 
 
 Global calculated metrics can no longer be shared across login companies. They are no longer bound or tied to a specific report suite but are instead tied to a specific login company. Calculated metrics that were shared across login companies
 
-* Were migrated to all the login companies with access to that report suite. 
-* Default to "shared with Everyone". 
+* Were migrated to all the login companies with access to that report suite.
+* Default to "shared with Everyone".
 * Will be copies independent from all the other login companies.
 
 >[!NOTE]
@@ -195,4 +195,4 @@ When [!UICONTROL Reports & Analytics] shows a calculated metrics total in [!UICO
 
 Example 1: Visitors for a search term: the same visitor may have searched for multiple terms, so in this case, total visitors do not equal the sum of the line items.
 
-Example 2: Page views on products: in the cart, there may be multiple products, so as a result, there are multiple page views for the cart. For more information on comparing the sum of line items to report totals, see [this knowledge base article](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html). 
+Example 2: Page views on products: in the cart, there may be multiple products, so as a result, there are multiple page views for the cart. For more information on comparing the sum of line items to report totals, see [this knowledge base article](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html).

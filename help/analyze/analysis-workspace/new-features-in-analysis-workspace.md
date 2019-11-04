@@ -102,7 +102,7 @@ New features and enhancements released on September 13, 2018.
 </table>
 ## August 2018
 
-New features and enhancements released on August 9, 2018. 
+New features and enhancements released on August 9, 2018.
 
 <table id="table_DD77C02344414DCD9AC0A6A22E648B72"> 
  <thead> 
@@ -125,7 +125,7 @@ New features and enhancements released on August 9, 2018.
 
 ## July 2018
 
-New features and enhancements released on July 19, 2018. 
+New features and enhancements released on July 19, 2018.
 
 <table id="table_336E121310204DC492EA004F40830B0F"> 
  <thead> 
@@ -162,7 +162,7 @@ New features and enhancements released on July 19, 2018.
 
 ## June 2018
 
-New features and enhancements released on June 14, 2018. 
+New features and enhancements released on June 14, 2018.
 
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
@@ -415,7 +415,7 @@ New features and enhancements released on January 18, 2018.
 
 ## November 2017
 
-New feature released on November 09, 2017. 
+New feature released on November 09, 2017.
 
 <table id="table_C502E81253634E6CBAE7F12C7B62F7B6"> 
  <thead> 
@@ -594,7 +594,7 @@ New features released on August 17, 2017.
 
 ## July 2017
 
-New features released on July 20, 2017. 
+New features released on July 20, 2017.
 
 <table id="table_64E3A9960F314E2F9FFC738696EACDF7"> 
  <thead> 
@@ -900,19 +900,19 @@ New features released on October 20, 2016:
 
 New features released on June 16, 2016: 
 
-* [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group. 
-* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to. 
-* [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization. 
+* [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
+* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
+* [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Panels, Visualizations, Components 
-* A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram. 
-* [Trend Selection](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked. 
-* ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...). 
+* A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
+* [Trend Selection](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
+* ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [Manual Rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) functionality 
 * [Add Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) drop zone 
 * Minor Updates:
 
     * Ability to delete all visualizations in a panel, and all panels in a project. (Previously, you had to keep at least one visualization or one panel.) 
-    * Changes to the [shortcut keys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) that can facilitate work with Analysis Workspace. 
+    * Changes to the [shortcut keys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) that can facilitate work with Analysis Workspace.
     * Style changes: Smaller fonts in visualizations; color swatches on rows; moved the date selector down (on panels).
 
 ## April 2016
@@ -940,7 +940,7 @@ New features released on April 21, 2016:
 
 ## January 2016
 
-New features released on January 21, 2016. 
+New features released on January 21, 2016.
 
 * [Undo Actions](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482) 
 * [Link to This Project](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
@@ -969,13 +969,13 @@ You can also use standard Windows and Mac [keyboard shortcuts](/help/analyze/ana
 
 Actions that are *`not`* undoable:
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). However, you can click **[!UICONTROL Undo]** after clicking **[!UICONTROL Run]**. 
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). However, you can click **[!UICONTROL Undo]** after clicking **[!UICONTROL Run]**.
 
 * Resizing or moving panels and sub-panels.
 
 Actions that clear your undo history:
 
-* Saving the project. 
+* Saving the project.
 * Changing the report suite.
 
 ## Link to This Project {#section_453E70F7409F4501B8E976A0D18C9A46}
@@ -1102,4 +1102,4 @@ When saving a project, the title on the browser tab will be displayed as "`<Proj
 
 Administrators can transfer [!UICONTROL Analysis Workspace] projects from one user to another.
 
-Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** to transfer projects.  
+Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** to transfer projects.

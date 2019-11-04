@@ -23,14 +23,14 @@ Add a column to the report.
 
 ## First and last-touch metrics {#first-and-last-touch}
 
-First-touch and last-touch are channel attributes that let you see how many new engagements (or metric data like product views, revenue, and orders) result from a visitor's activity in the channel. 
+First-touch and last-touch are channel attributes that let you see how many new engagements (or metric data like product views, revenue, and orders) result from a visitor's activity in the channel.
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). It notes the first channel the user came through, as well as the most recent channel. It then gives credit of the success event to each appropriate channel.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -69,7 +69,7 @@ Every success event instance will have exactly one First Touch channel and exact
 
 ## Click-through {#click-through}
 
-A click-through is an instance on the last-touch channel. It is an eVar with the most recent allocation. 
+A click-through is an instance on the last-touch channel. It is an eVar with the most recent allocation.
 
 For example, assume that a visitor comes to your website once a day, with each visit originating from a different marketing channel:
 
@@ -81,7 +81,7 @@ For example, assume that a visitor comes to your website once a day, with each v
 * Day 6: Display 
 * Day 7: Natural Search
 
-The First-Touch Channel report would show 1 new engagement for Paid Search. Each other channel would show 0 new engagements. The Last-Touch Channel report would show 2 click-throughs for Paid Search; 3 for Display; and 2 for Natural Search. 
+The First-Touch Channel report would show 1 new engagement for Paid Search. Each other channel would show 0 new engagements. The Last-Touch Channel report would show 2 click-throughs for Paid Search; 3 for Display; and 2 for Natural Search.
 
 ## Add metrics to a Marketing Channel report {#add-metrics-to-mktg-channel-rpt}
 

@@ -24,7 +24,7 @@ Because they function as report suites and can be assigned to user groups just l
 > The following considerations apply ONLY to these cases:
 >
 >* You are considering changing your implementation to remove child report suites and to rely solely on virtual >report suites to control views into data for end users, or
->* Users of Adobe Analytics at your company will rely on virtual report suites as their primary view of data. 
+>* Users of Adobe Analytics at your company will rely on virtual report suites as their primary view of data.
 
 If you are unsure whether the use cases described apply to you and your organization, consult your other Adobe Analytics administrators, or your Adobe account team. They can help assess your business needs and make a recommendation.
 
@@ -70,7 +70,7 @@ In this case, you could create 100 virtual report suites for the teams who work 
 
 If you know that you regularly exceed unique value limits in your global report suite or in your existing child report suites, consider whether users need access to those infrequently seen values before migrating to virtual report suites. If your users need access to every unique value in a dimension that current exceeds unique value limits in your global report suite, consider continuing to use multi-suite tagging to provide this access.
 
-Also note that Adobe Customer Care can increase unique value limits for a global report suite on a limited basis for a small number of dimensions, which may eliminate this problem entirely. Consult your account team and Customer Care for more information. 
+Also note that Adobe Customer Care can increase unique value limits for a global report suite on a limited basis for a small number of dimensions, which may eliminate this problem entirely. Consult your account team and Customer Care for more information.
 
 ## You can use your available set of custom dimensions (eVars and props) and metrics (events) in your global report suite to track all critical data points across all properties.
 
@@ -87,7 +87,7 @@ The maximum number of Adobe Analytics custom dimensions per report suite is 325,
 
 If you find yourself in this situation and are considering moving to a global report suite with VRS, review the various Adobe Analytics implementations at your company to assess the amount of overlap/dissonance in these implementations, and to see which dimensions or metrics are not critical to business success. Also consider using [classifications](/help/components/c-classifications2/c-classifications.md) in your global suite to report on values that may currently be using their own dimension. Classifications are automatically available to any VRS based on that global suite. For example, instead of capturing 'Product Name' in eVar5, create a 'Product Name' classification based on the 'Product' dimension.
 
-If consolidating these custom dimensions and events is not feasible, Adobe recommends that you continue to use multi-suite tagging. 
+If consolidating these custom dimensions and events is not feasible, Adobe recommends that you continue to use multi-suite tagging.
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ For example, assume that you have two brands, A and B, whose digital properties 
 
 A similar example deals with 'Visit Number'. In the virtual report suite for brand B, users may see some visitors who appear to have a second, third, and fourth visit, but no first visit. This would occur when the customer's first visit is to brand A, and all subsequent visits are to brand B. Since brand A's data is not included in the virtual report suite, all information about the first visit—including the fact that it happened at all—is not included in this virtual report suite.
 
-Adobe recommends using multi-suite tagging in these scenarios or in other situations where part of a customer's journey may occur outside of a virtual report suite in a way that may confuse your users. Multi-suite tagging lets you track a journey at a cross-property level in a global report suite but also provides individual teams with their own complete view of the journey at an individual property level. 
+Adobe recommends using multi-suite tagging in these scenarios or in other situations where part of a customer's journey may occur outside of a virtual report suite in a way that may confuse your users. Multi-suite tagging lets you track a journey at a cross-property level in a global report suite but also provides individual teams with their own complete view of the journey at an individual property level.
 
 ## You and your users do not need to be able to view transactions in various national currencies.
 
@@ -117,11 +117,11 @@ Summary:
 
 Virtual report suites cannot currently report on a different currency than the report suite on which they are based. If your company and your Adobe Analytics users do their analysis in a single currency, this will not cause a problem for you. However, if you have a significant business need for different regional teams who need to be able to view revenue and similar metrics in their own local currency (which is converted based on the exchange rate at the time of data collection) you should use multi-suite tagging.
 
-This lets you send data into Adobe Analytics in different currencies at the same time. With multi-suite tagging, a transaction which occurs in the Japanese version of your app could be recorded in the global suite in USD. It can be converted from JPY at the given day's exchange rate, but continue to show in your Japan report suite in JPY. 
+This lets you send data into Adobe Analytics in different currencies at the same time. With multi-suite tagging, a transaction which occurs in the Japanese version of your app could be recorded in the global suite in USD. It can be converted from JPY at the given day's exchange rate, but continue to show in your Japan report suite in JPY.
 
 >[!NOTE]
 >
->While virtual report suites do not allow you to convert revenue data into another currency at a historical rate, >you can still convert currency in a virtual report suite on an ad-hoc basis. You can apply the current day's >exchange rate to historical data by going to Components > Report Settings. 
+>While virtual report suites do not allow you to convert revenue data into another currency at a historical rate, >you can still convert currency in a virtual report suite on an ad-hoc basis. You can apply the current day's >exchange rate to historical data by going to Components > Report Settings.
 
 ## You can use a single Data Feed to receive all of your data from a global report suite.
 
@@ -136,7 +136,7 @@ However, you can set up as many Data Feeds based on true report suites as you wa
 
 Note, however, that some pre-calculated fields in the Data Feed may need to be recalculated after receipt. See item 5 (above) for examples of fields that may need to be recalculated when filtering a Data Feed based on some criteria.
 
-If your organization has a strong need for individual Data Feeds at a brand, property, region, etc. level, you may wish to consider using multi-suite tagging. 
+If your organization has a strong need for individual Data Feeds at a brand, property, region, etc. level, you may wish to consider using multi-suite tagging.
 
 ## You do not use an Exchange (data connectors) integration that allows only one partner account per report suite, and you do not have multiple partner accounts that you want to integrate.
 
@@ -149,7 +149,7 @@ Adobe Exchange lets you integrate other marketing and ad technology solutions wi
 
 An example of this is Google DCM. Many companies have multiple DCM accounts, which allows different brands, business units, regions, etc. to manage their displays ads separately from one another. However, when integrating DCM with Adobe Analytics, you can only use one DCM account per report suite. You cannot integrate each of your various DCM accounts into the same report suite. You also cannot set up an integration directly into a virtual report suite.
 
-As a result, multi-suite tagging is the preferred approach if different teams in your organization need to have their own individual account's data in Adobe Analyics for an Adobe Exchange partner. If you are (or will be) using any Adobe Exchange integrations where different groups manage different accounts, check with the Adobe partner to understand whether multiple accounts per report suite are allowed. 
+As a result, multi-suite tagging is the preferred approach if different teams in your organization need to have their own individual account's data in Adobe Analyics for an Adobe Exchange partner. If you are (or will be) using any Adobe Exchange integrations where different groups manage different accounts, check with the Adobe partner to understand whether multiple accounts per report suite are allowed.
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Summary:
 
 'Summary Data Sources' let you import pre-aggregated metrics into a true report suite in Adobe Analytics. Examples of 'Summary Data Sources' include metrics such as 'Offline Revenue' or 'Page Views" that occurred in another solution prior to your implementation of Adobe Analytics. Because Summary Data Sources uploads contain aggregated metrics, they cannot be segmented. Consequently, they do not appear segmented in virtual report suites.
 
-Multi-suite tagging gives your organization the ability to import aggregated metrics at an individual report suite level. If Brand A wants to import offline revenue, it can do so separately from Brand B, and this data will appear in Brand A's report suite. Brand B could do the same. If your organization uses or plans to use Summary Data Sources at a property, brand, region, etc. level, you may want to consider using multi-suite tagging instead of virtual report suites. 
+Multi-suite tagging gives your organization the ability to import aggregated metrics at an individual report suite level. If Brand A wants to import offline revenue, it can do so separately from Brand B, and this data will appear in Brand A's report suite. Brand B could do the same. If your organization uses or plans to use Summary Data Sources at a property, brand, region, etc. level, you may want to consider using multi-suite tagging instead of virtual report suites.
 
 ## Steps to follow if you have decided to use VRS
 
@@ -182,7 +182,7 @@ After you have read through the considerations above and have decided to remove 
 
 * As a best practice, use [segment stacking](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) wherever possible so you can edit a segment in one location and have it apply to all virtual report suites that use that segment. For example, if I want to build one VRS for "mobile users from Europe," and another one for "mobile users from Asia," create one segment for mobile users and then separate segments for European and Asian users. This way, if you want to update the definition of your "mobile users" segment, you can do so in a single segment without needing to update each virtual report suite segment individually.
 
-* You might be looking for mutually exclusive data sets in your virtual report suites. For example, you might want to see "Domain A" and "Domain B" as separate report suites, and you do not want any of Domain A's traffic in Domain B's report suite. In this case, use a "hit" container for your segments. 
+* You might be looking for mutually exclusive data sets in your virtual report suites. For example, you might want to see "Domain A" and "Domain B" as separate report suites, and you do not want any of Domain A's traffic in Domain B's report suite. In this case, use a "hit" container for your segments.
 
 **Second**, after you have confirmed that the virtual report suites you created are set up correctly and will meet your team's needs, remove the secondary report suite IDs from your implementation.
 

@@ -15,4 +15,4 @@ By default, the job history for the last 30 days is reported for all report suit
 1. Select one or more feeds.
 1. Click **[!UICONTROL Job History]**.
 
-   The Jobs page opens and displays the history for the selected feeds. 
+   The Jobs page opens and displays the history for the selected feeds.

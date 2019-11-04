@@ -31,14 +31,14 @@ Release Date: **30 January, 2014**
 
 Release Date: **16 August, 2013**
 
-* Optimized by removing unused code. 
+* Optimized by removing unused code.
 * Fixed potential crash that could occur when clearVars was used in a threaded scenario.
 
 ## Version 3.2 {#section_B85E2904C769461BA8B062AAA0534F9B}
 
 Release Date: **5 Aug, 2013**
 
-* Added support for Adobe Audience Manager. 
+* Added support for Adobe Audience Manager.
 * Lifecycle data will now be sent with [!DNL Target] Mbox requests.
 
 ## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
@@ -63,4 +63,4 @@ Release Date: **21 March, 2013**
 
 Release Date: **February 2013**
 
-Initial release. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS]. 
+Initial release. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].

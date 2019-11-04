@@ -25,4 +25,4 @@ You can interact with the table in unique ways:
 * Perform a [segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) 
 * Display only selected rows
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information. 
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.

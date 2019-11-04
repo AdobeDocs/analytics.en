@@ -13,7 +13,7 @@ uuid: b453677c-7449-4174-a243-a0eb024b319d
 
 WAP and I-Mode are the two major protocols or standards used today. WAP is mostly used in the US, and I-Mode is popular in Japan and Europe.
 
- Sites must often be designed separately for different protocols. The Adobe image tag does not need to be customized for each protocol. 
+ Sites must often be designed separately for different protocols. The Adobe image tag does not need to be customized for each protocol.
 
 <table id="table_EBE71664615F48E28B05C767ABDA062B"> 
  <tbody> 

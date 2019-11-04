@@ -21,7 +21,7 @@ The following steps show how to test without using the Switcher plugin:
 1. Type `_satellite.setDebug(true)`, then press **[!UICONTROL Enter]**.
 1. Refresh the page.
 
-   This action loads your staging library and sets the debugger, so that you can see details of all available (published / unpublished) rules firing on the page. 
+   This action loads your staging library and sets the debugger, so that you can see details of all available (published / unpublished) rules firing on the page.
 1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
 
    Step Result 

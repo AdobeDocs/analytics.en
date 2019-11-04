@@ -16,11 +16,11 @@ Redirects point the browser to a new location without user interaction. They are
 
 ## Redirects and aliases {#concept_F4F1D53D473947FE8554897332545763}
 
-Redirects point the browser to a new location without user interaction. They are executed at either the web browser (client-side redirect) or at the web server (server-side redirect). 
+Redirects point the browser to a new location without user interaction. They are executed at either the web browser (client-side redirect) or at the web server (server-side redirect).
 
 Because redirects do not require any user interaction, redirects are often executed without the user ever noticing. The only thing that indicates a redirect has occurred is the browser's address bar. The address bar displays a URL that is different from the link the browser initially requested.
 
-Although there are only two types of redirects, they can be implemented in numerous ways. For example, client-side redirects can occur because the web page to which a user has pointed his or her browser contains scripting or special HTML code that redirects the browser to another URL. Server-side redirects can occur because the page contains server-side scripting or because the web server has been configured to point the user to another URL. 
+Although there are only two types of redirects, they can be implemented in numerous ways. For example, client-side redirects can occur because the web page to which a user has pointed his or her browser contains scripting or special HTML code that redirects the browser to another URL. Server-side redirects can occur because the page contains server-side scripting or because the web server has been configured to point the user to another URL.
 
 ## Analytics and redirects {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
@@ -41,17 +41,17 @@ The following examples illustrate how browsing is affected without and with redi
 
 Consider the following hypothetical scenario in which the user does not encounter a redirect:
 
-1. User points his or her browser to `www.google.com`, and types, "discount airline tickets" into the search field, and then clicks the **[!UICONTROL Search]** button. 
-1. The browser displays the search results including a link to your site, [!DNL https://www.flywithus.com/]. After displaying the search results, the browser's address bar displays the search terms that the user entered in the search field ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. 
-1. The user clicks the link to your hypothetical site [!DNL https://www.flywithus.com/]. When the user clicks this link and lands on the [!DNL flywithus.com] website, [!DNL Analytics] uses JavaScript to collect the referring URL ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) as well as the current URL ( `https://www.flywithus.com/`). 
+1. User points his or her browser to `www.google.com`, and types, "discount airline tickets" into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. The browser displays the search results including a link to your site, [!DNL https://www.flywithus.com/]. After displaying the search results, the browser's address bar displays the search terms that the user entered in the search field ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`.
+1. The user clicks the link to your hypothetical site [!DNL https://www.flywithus.com/]. When the user clicks this link and lands on the [!DNL flywithus.com] website, [!DNL Analytics] uses JavaScript to collect the referring URL ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) as well as the current URL ( `https://www.flywithus.com/`).
 1. [!DNL Analytics] reports the information collected during this interaction in various reports, such as [!UICONTROL Referring Domains], [!UICONTROL Search Engines], and [!DNL Search Keywords].
 
 ## Example: Browsing With Redirects {#section_921DDD32932847848C4A901ACEF06248}
 
 Redirects can cause the browser to blank out the true referring URL. Consider the following scenario:
 
-1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button. 
-1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaiiforfree.com/]. This *vanity* domain is configured to redirect the user to `https://www.flywithus.com/`. 
+1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaiiforfree.com/]. This *vanity* domain is configured to redirect the user to `https://www.flywithus.com/`.
 1. The user clicks on the link `https://www.flytohawaiiforfree.com/` and is redirected by the server to your main site, `https://www.flywithus.com`. When the redirection occurs, the data that is important to [!DNL Analytics] data collection is lost because the browser clears the referring URL. Thus, the original search information used in the [!DNL Analytics] reports (for example, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is lost.
 
 [Implementing Redirects](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) discusses how to leverage [!DNL Analytics] variables to capture the data lost in the redirect. Specifically, the section discusses how to fix the "discount airline tickets" situation described above.
@@ -147,7 +147,7 @@ s.pageName=""
 s.server="" 
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
-// Setting the s.pageURL variable is optional. 
+// Setting the s.pageURL variable is optional.
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
@@ -214,4 +214,4 @@ hp=N
 [AQE]
 ```
 
-After verifying that the Adobe [!UICONTROL Debugger] displays these variables, it is always helpful to confirm that the search terms and the original referring domain (prior to the redirect) are registering traffic in reports. 
+After verifying that the Adobe [!UICONTROL Debugger] displays these variables, it is always helpful to confirm that the search terms and the original referring domain (prior to the redirect) are registering traffic in reports.

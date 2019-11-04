@@ -8,9 +8,9 @@ title: Dynamic variables
 
 # s.linkDownloadFileTypes
 
-The  variable is a comma-separated list of file extensions. 
+The  variable is a comma-separated list of file extensions.
 
-If your site contains links to files with any of these extensions, the URLs of these links will appear in the [!UICONTROL File Downloads] report. 
+If your site contains links to files with any of these extensions, the URLs of these links will appear in the [!UICONTROL File Downloads] report.
 
 |Max Size|Debugger Parameter|Reports Populated|Default Value|
 |--- |--- |--- |--- |
@@ -48,7 +48,7 @@ None
 
 ## Pitfalls, Questions, and Tips
 
-* Only left-clicks on download files cause the URL to appear in the [!UICONTROL File Downloads] report. 
-* Including a common file extension in *`linkDownloadFileTypes`* may significantly increase the total server calls sent to Adobe's servers. 
-* Links to server-side redirects or HTML pages that automatically begin downloading a file are not counted unless the file extension is in *`linkDownloadFileTypes`*. 
+* Only left-clicks on download files cause the URL to appear in the [!UICONTROL File Downloads] report.
+* Including a common file extension in *`linkDownloadFileTypes`* may significantly increase the total server calls sent to Adobe's servers.
+* Links to server-side redirects or HTML pages that automatically begin downloading a file are not counted unless the file extension is in *`linkDownloadFileTypes`*.
 * Links that use JavaScript (such as javascript:openLink( )) are not counted in file downloads.

@@ -35,4 +35,4 @@ t_reports_breakdown.xml
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report. 
+   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.

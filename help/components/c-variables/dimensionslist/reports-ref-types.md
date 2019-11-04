@@ -68,7 +68,7 @@ The list below defines the various types of referrers:
 
 ## Notes {#section_B83A3571D64E4E7792712FAF740D7955}
 
-* The referrer, referrer type, and referring domain are set on the first hit of the visit, or during a visit when the referrer is external (for example, if a visitor leaves your site, uses a search engine, then returns to your site before the first visit expires). These values are set at the same time and persist across the visit. 
+* The referrer, referrer type, and referring domain are set on the first hit of the visit, or during a visit when the referrer is external (for example, if a visitor leaves your site, uses a search engine, then returns to your site before the first visit expires). These values are set at the same time and persist across the visit.
 * Not all referrer types are listed on this report. This means that site wide Visits don't match visits on this report.
 
 ## Report History {#section_6C0FCEA9DAF04D97BA056E153B7E4628}

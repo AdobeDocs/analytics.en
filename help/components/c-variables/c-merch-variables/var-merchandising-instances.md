@@ -17,8 +17,8 @@ Describes how instances are counted on merchandising variables.
 
 If you are using Conversion Variable Syntax, an instance is counted each time the variable is set. However, the instance is attributed to "None" unless the following occurs each time the variable is set:
 
-* A binding event is set. 
-* The products variable is set. 
+* A binding event is set.
+* The products variable is set.
 * The merchandising eVar has a value.
 
 For example, the following instance of eVar1 is allocated to "Outdoors:Ski Goggles":

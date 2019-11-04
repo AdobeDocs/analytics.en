@@ -30,4 +30,4 @@ Here is an example:
 |  2  | 1.6  | 0  |
 |  3  | 1.6  | 0  |
 
-As a result, it does not matter if you had a javascript version specified at some point in the visit - it will always be displayed as not Javascript because the first hit did not contain any value for j_jscript. 
+As a result, it does not matter if you had a javascript version specified at some point in the visit - it will always be displayed as not Javascript because the first hit did not contain any value for j_jscript.

@@ -22,20 +22,20 @@ Adobe Analytics Attribution IQ enables modern intelligence teams to understand h
 
 Adobe Analytics enhances attribution by letting you:
 
-* Define attribution beyond paid media: Any dimension, metric, channel or event can be applied to models (e.g. internal search), not just marketing campaigns. 
-* Utilize unlimited attribution model comparison: dynamically compare as many models as you want. 
-* Avoid implementation changes: With report time processing and context-aware sessions, customer journey context can be built in and applied at run time. 
-* Construct the session that best matches your attribution scenario. 
-* Break down attribution by segments: Easily compare the performance of your marketing channels across any important segment (e.g. New vs. Repeat customers, Product X vs. Product Y, Loyalty level or CLV). 
-* Inspect channel cross-over and multi-touch analysis: Using Venn Diagrams and Histograms, and trend attribution results. 
-* Analyze key marketing sequences visually: explore paths that led to conversion visually with multi-nodal flow and fallout visualizations. 
+* Define attribution beyond paid media: Any dimension, metric, channel or event can be applied to models (e.g. internal search), not just marketing campaigns.
+* Utilize unlimited attribution model comparison: dynamically compare as many models as you want.
+* Avoid implementation changes: With report time processing and context-aware sessions, customer journey context can be built in and applied at run time.
+* Construct the session that best matches your attribution scenario.
+* Break down attribution by segments: Easily compare the performance of your marketing channels across any important segment (e.g. New vs. Repeat customers, Product X vs. Product Y, Loyalty level or CLV).
+* Inspect channel cross-over and multi-touch analysis: Using Venn Diagrams and Histograms, and trend attribution results.
+* Analyze key marketing sequences visually: explore paths that led to conversion visually with multi-nodal flow and fallout visualizations.
 * Build calculated metrics: Use any number of attribution allocation methods.
 
 ## What Does Attribution IQ Do? {#section_63B421E9E75B4CCEBA96726CAA37D73E}
 
 Attribution IQ in Analysis Workspace lets you add many new types of attribution models to Freeform Tables, Visualizations, and Calculated metrics. All attribution models have two components:
 
-* An **attribution model** (i.e., First Touch, Last Touch, Linear, etc.). The model describes the distribution of conversions to the hits in a group. 
+* An **attribution model** (i.e., First Touch, Last Touch, Linear, etc.). The model describes the distribution of conversions to the hits in a group.
 * An **attribution lookback window** (i.e., visit or visitor). The lookback window describes which groupings of hits are considered for each model.
 
 The following customer journey example represents the marketing touchpoints of a single visitor spanning three visits, three conversions, and four marketing channels (search, display, social, and email):
@@ -64,14 +64,14 @@ To illustrate the impact of attribution lookback windows, we'll apply a Linear m
 
 When using the **visit attribution lookback window**, each visit has its conversion distributed independently:
 
-* The /$10 from the first visit would be split equally among Search, Display, Social, and Email, each receiving /$2.50. 
-* On the second visit, Search and Email would each receive half of the /$5 conversion, so Email and Search would each receive another /$2.50. 
+* The /$10 from the first visit would be split equally among Search, Display, Social, and Email, each receiving /$2.50.
+* On the second visit, Search and Email would each receive half of the /$5 conversion, so Email and Search would each receive another /$2.50.
 * Finally, on the final visit, Email would receive all of the credit for the /$2 conversion.
 
 In the **visitor lookback window**, all of the conversions are considered together, however the calculation is slightly more complex due to fact that there are multiple conversions.
 
-* The first /$10 conversion would be split equally among Search, Display, Social, and Email. 
-* The second /$5 conversion would then be split among the channels present in that visit as well as the previous channels from the previous visit: Search = (2/6) &#42; /$5 = /$1.67, Display = (1/6) &#42; /$5 = /$0.83, Social = (1/6) &#42; /$5 = /$0.83, Email = (2/6) &#42; /$5 = /$1.67. 
+* The first /$10 conversion would be split equally among Search, Display, Social, and Email.
+* The second /$5 conversion would then be split among the channels present in that visit as well as the previous channels from the previous visit: Search = (2/6) &#42; /$5 = /$1.67, Display = (1/6) &#42; /$5 = /$0.83, Social = (1/6) &#42; /$5 = /$0.83, Email = (2/6) &#42; /$5 = /$1.67.
 * Finally, the last conversion would be split across all the channels for the visitor: Search = (2/7) &#42; /$2 = /$0.57, Display = (1/7) &#42; /$2 = /$0.29, Social = (1/7) &#42; /$2 = /$0.29, Email = (3/7) &#42; /$2 = /$0.86.
 
 Here is a summary of the results in table form:  
@@ -212,12 +212,12 @@ Attribution IQ gives all of the percent credit for the hit to any values present
 |Total|1|
 
  >[!NOTE]
- >Due to the hit-level allocation of attribution models, the sum of each line item of your report may not equal the total due to each value receiving the total percent credit belonging to the hit in which it was contained. 
+ >Due to the hit-level allocation of attribution models, the sum of each line item of your report may not equal the total due to each value receiving the total percent credit belonging to the hit in which it was contained.
 
 ## Attribution with segmentation
 
 Attribution always runs before segmentation, and segmentation runs before report filters are applied. These principles also apply to virtual report suites (VRS) that have a segments applied.
 
-For example, if you create a VRS with a "Display Hits" segment applied, you could see other marketing channels returned in a table when attribution is turned on. This occurs because attribution runs across an unsegmented dataset. 
+For example, if you create a VRS with a "Display Hits" segment applied, you could see other marketing channels returned in a table when attribution is turned on. This occurs because attribution runs across an unsegmented dataset.
 
 ![](assets/vrs-aiq-example.png)

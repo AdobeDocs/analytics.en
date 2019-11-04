@@ -24,7 +24,7 @@ s.prop1=s.pageName;
 You should do this on all pages unless the person has clicked from a campaign. If they have clicked from a campaign and are on the landing page of the campaign, then you populate the prop with a concatenation of the campaign and the [!UICONTROL pagename]. See below:
 
 ```js
- s.prop1=s.campaign + ‘ : ' + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 If the campaign they clicked was named "banner1234," and the page it landed on was named "Home Page," the value in that prop would be "banner1234 : Home Page." On every subsequent page you put the [!UICONTROL pagename] in the prop as shown above.

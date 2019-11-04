@@ -54,7 +54,7 @@ uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 
 **Main Establishment** - the place within the Union that the main decisions surrounding data processing are made; with regard to the processor
 
-**Personal Data** - any information related to a natural person or ‘Data Subject', that can be used to directly or indirectly identify the person
+**Personal Data** - any information related to a natural person or 'Data Subject', that can be used to directly or indirectly identify the person
 
 **Personal Data Breach** - a breach of security leading to the accidental or unlawful access to, destruction, misuse, etc. of personal data
 

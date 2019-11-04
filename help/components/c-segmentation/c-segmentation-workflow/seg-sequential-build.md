@@ -62,7 +62,7 @@ Let's also frame this concept with the Hit Depth dimension.
 
 In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
 
-Setting a ‘Within Dimension' clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page":
+Setting a 'Within Dimension' clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page":
 
 ![](assets/sequence-filter4.png)
 

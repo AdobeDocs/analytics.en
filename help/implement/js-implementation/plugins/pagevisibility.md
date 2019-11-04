@@ -129,7 +129,7 @@ Yes, the total page seconds and total visibility instances are optional events a
 
 **Will the events captured make sense if I use them in reports other than the Previous Page Name?**
 
-Since the plugin records values on the subsequent image request only other eVars that have been captured in a ‘previous page' context could be applied, i.e. ‘Previous Page URL'.
+Since the plugin records values on the subsequent image request only other eVars that have been captured in a 'previous page' context could be applied, i.e. 'Previous Page URL'.
 
 **Will the plug-in send the visibility time on an s.tl() call, or only on an s.t() call?**
 

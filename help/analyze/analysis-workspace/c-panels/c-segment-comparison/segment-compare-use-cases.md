@@ -78,7 +78,7 @@ Segment IQ (Segment Comparison) is one of the most widely used feature in Analys
 
 ## Use case 5: compare Fitbit purchasers to everyone else {#section_9142B8A270764545B0A516AA309F1785}
 
-**"We found that people buying Fitbits were 6 times more likely to get an ‘out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"**
+**"We found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"**
 
 **Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the "Fitbit" line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
 

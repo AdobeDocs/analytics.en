@@ -61,7 +61,7 @@ Approximate Count Distinct (dimension)
 
 Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
-Definition for a new ‘Approximate Customers' calculated metric:
+Definition for a new 'Approximate Customers' calculated metric:
 
 ![](assets/approx-count-distinct.png)
 

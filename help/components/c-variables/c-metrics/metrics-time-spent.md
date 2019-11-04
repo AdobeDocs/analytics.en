@@ -34,7 +34,7 @@ This table lists the various Time Spent metrics, their definition, and where in 
   <tr> 
    <td colname="col1"> <p>Total seconds spent </p> </td> 
    <td colname="col2"> <p>Represents the total amount of time visitors interact with a specific dimension item. </p> <p>Includes the instance of a value and persistence across all subsequent hits. In the case of props, time spent is counted across subsequent link events as well. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (called ‘total time spent') </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (called 'total time spent') </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Time spent per visit (Seconds) </p> </td> 
@@ -53,7 +53,7 @@ This table lists the various Time Spent metrics, their definition, and where in 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Average time spent on page </p> </td> 
-   <td colname="col2"> <p><b>Deprecated metric. </b> </p> <p>We recommend that you use ‘Average time spent on site' if average time for a dimension item is needed. </p> </td> 
+   <td colname="col2"> <p><b>Deprecated metric. </b> </p> <p>We recommend that you use 'Average time spent on site' if average time for a dimension item is needed. </p> </td> 
    <td colname="col3"> <p>Report Builder (when a dimension is in the request) </p> </td> 
   </tr> 
   <tr> 

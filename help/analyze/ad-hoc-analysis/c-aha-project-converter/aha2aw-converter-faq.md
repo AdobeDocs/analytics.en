@@ -72,7 +72,7 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
    <td colname="col1"> <p><b>Q: How are date ranges converted?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">‘Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. As such, date ranges like ‘last 90 days' might not match exactly between tools. Use custom date ranges to retrieve the same time period in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. As such, date ranges like 'last 90 days' might not match exactly between tools. Use custom date ranges to retrieve the same time period in Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis workspace-level date range are applied at the project/workspace level in Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis report-level date range are applied at the table column level in Workspace. </li> 
     </ul> <p>You can edit your custom date ranges under <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Date Ranges</span>. </p> </td> 

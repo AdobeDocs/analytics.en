@@ -625,7 +625,7 @@ New features released on July 20, 2017.
    <td colname="col2"> <p>We now highlight the anomaly with a blue dot within contribution analysis and the intelligent alert projects linked to it. This provides a clearer indication of the anomaly being analyzed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>‘Get Project Link' for Experience Cloud logins</b> </p> </td> 
+   <td colname="col1"> <p><b>'Get Project Link' for Experience Cloud logins</b> </p> </td> 
    <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We've fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
   </tr> 
   <tr> 

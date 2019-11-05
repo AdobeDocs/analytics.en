@@ -57,7 +57,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external"> Segment Builder</a> and <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external"> Segment Manager</a> interfaces from the segment rail. </td> 
+   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder</a> and <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metrics <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -73,7 +73,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> My Favorites </span> </td> 
-   <td colname="col2">You can easily retrieve the reports you marked as <span class="uicontrol"> Favorited</span> from this area. On a per-user and per-report-suite basis, it shows ten Favorites and a <span class="uicontrol"> More...</span> link if you have more than ten favorites. <p>Note that you can rename reports but not dashboards in My Favorites. </p> <p>Favorites are similar to bookmarks, but they are not stored in a folder or managed through the <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> Bookmark Manager</a> like bookmarks are. </p> </td> 
+   <td colname="col2">You can easily retrieve the reports you marked as <span class="uicontrol"> Favorited</span> from this area. On a per-user and per-report-suite basis, it shows ten Favorites and a <span class="uicontrol"> More...</span> link if you have more than ten favorites. <p>Note that you can rename reports but not dashboards in My Favorites. </p> <p>Favorites are similar to bookmarks, but they are not stored in a folder or managed through the <a href="/help/analyze/reports-analytics/bookmarks.md"  > Bookmark Manager</a> like bookmarks are. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Frequently Viewed</span> </td> 
@@ -93,11 +93,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Bookmark...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">Lets you <a href="/help/analyze/reports-analytics/bookmarks.md"  > bookmark</a> the report. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
+   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> More...</span> </td> 
@@ -105,11 +105,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1">Report Suite Selector <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Lets you select <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html" format="https" scope="external"> base report suites</a> or <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external"> virtual report suites</a>. </td> 
+   <td colname="col2">Lets you select <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  > base report suites</a> or <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  > virtual report suites</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendar <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">Brings up the <a href="../../../analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local"> calendar</a> so you can determine the reporting period. </td> 
+   <td colname="col2">Brings up the <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  > calendar</a> so you can determine the reporting period. </td> 
   </tr> 
  </tbody> 
 </table>

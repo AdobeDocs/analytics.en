@@ -15,11 +15,11 @@ Implement the Accelerated Mobile Pages (AMP) project in Adobe Analytics.
 
  AMP is an [open source project](https://www.ampproject.org/) that lets you build web pages for static content that renders quickly. This feature is ideal for publishers who want to create mobile-optimized content once, and have it load instantly everywhere. Topics include:
 
-* [How it Works](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF) 
-* [Using the amp-analytics tag with the "adobeanalytics" template](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E) 
-* [Using the amp-analytics tag with the "adobeanalytics_nativeConfig" template](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF) 
-* [Summary](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07) 
-* [Frequently Asked Questions](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [How it Works](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF) 
+* [Using the amp-analytics tag with the "adobeanalytics" template](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E) 
+* [Using the amp-analytics tag with the "adobeanalytics_nativeConfig" template](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF) 
+* [Summary](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07) 
+* [Frequently Asked Questions](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **Additional Documentation and Examples**
 
@@ -210,7 +210,7 @@ If you have questions or problems, please reach out to your Adobe Consultant or 
   </tr> 
   <tr> 
    <td colname="col1"> <p>What is the <span class="keyword"> Experience Cloud </span> ID service? Do I need it? </p> </td> 
-   <td colname="col2"> <p>The <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service </a> (formerly <span class="term"> visitor ID service </span>) enables <span class="keyword"> Experience Cloud </span> core services and allows integrations between different Adobe <span class="keyword"> Experience Cloud </span> solutions. If you have integrations with <span class="keyword"> Adobe Audience Manager </span> or <span class="keyword"> Adobe Target </span>, you are likely using this service. This service is also the foundation for many upcoming <span class="keyword"> Adobe Analytics </span> features. If you need ID service support or will need it in the future, we recommend using the <code> iframeMessage </code> solution. </p> </td> 
+   <td colname="col2"> <p>The <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  > Identity Service </a> (formerly <span class="term"> visitor ID service </span>) enables <span class="keyword"> Experience Cloud </span> core services and allows integrations between different Adobe <span class="keyword"> Experience Cloud </span> solutions. If you have integrations with <span class="keyword"> Adobe Audience Manager </span> or <span class="keyword"> Adobe Target </span>, you are likely using this service. This service is also the foundation for many upcoming <span class="keyword"> Adobe Analytics </span> features. If you need ID service support or will need it in the future, we recommend using the <code> iframeMessage </code> solution. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -218,7 +218,7 @@ If you have questions or problems, please reach out to your Adobe Consultant or 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Isn't this similar to <span class="keyword"> Facebook Instant Articles </span>? How do I setup <span class="keyword"> Adobe Analytics </span> with Facebook Instant Articles? </p> </td> 
-   <td colname="col2"> <p> Facebook Instant Articles support a similar solution to the nativeConfig solution outlined above. In fact, the stats.html page created above can serve your analytics needs for both AMP and FIA simultaneously. For more information on implementing tracking on FIA, see <a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Facebook Instant Articles </a> </p> </td> 
+   <td colname="col2"> <p> Facebook Instant Articles support a similar solution to the nativeConfig solution outlined above. In fact, the stats.html page created above can serve your analytics needs for both AMP and FIA simultaneously. For more information on implementing tracking on FIA, see <a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Facebook Instant Articles </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

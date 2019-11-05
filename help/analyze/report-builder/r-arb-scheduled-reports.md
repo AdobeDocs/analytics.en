@@ -36,7 +36,7 @@ The Scheduled Task Manager lets you see a list of existing scheduled reports, al
   </tr> 
   <tr> 
    <td colname="col1"> <p>Publishing Options </p> </td> 
-   <td colname="col2"> <p>This column will list Power BI if one of the <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#concept_0C4105AA10F9460A872C2489C9CD7945" format="dita" scope="local"> Power BI publishing options</a> is selected. </p> </td> 
+   <td colname="col2"> <p>This column will list Power BI if one of the <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > Power BI publishing options</a> is selected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schedule </p> </td> 

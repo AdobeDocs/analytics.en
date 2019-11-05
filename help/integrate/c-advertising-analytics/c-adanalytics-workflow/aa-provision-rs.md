@@ -30,5 +30,5 @@ In order to see any Advertising Analytics search data in Analytics, you need to 
     |Most Recent (Last)|The last value seen gets full allocation credit for the success event, no matter what variables were fired before it.|
     |Expire After|Lets you specify a time period, or event, after which the eVar value expires (i.e., no longer receives credit for success events).  If a success event occurs after eVar expiration, the  None value receives credit for the event (no eVar was active).|
 
-1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). Your report suite is now ready to receive Advertising Analytics Search data. You are no ready to [create Advertising Accounts](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C).
+1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). Your report suite is now ready to receive Advertising Analytics Search data. You are no ready to [create Advertising Accounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 

@@ -11,11 +11,15 @@ uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 
 # WinRT for Windows 8{#winrt-for-windows}
 
-> [!NOTE] To find the current library version, turn on debug logging.
+>[!NOTE]
+>
+>To find the current library version, turn on debug logging.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
-> [!NOTE] The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. No further development will occur on this SDK.
+>[!NOTE]
+>
+>The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. No further development will occur on this SDK.
 
 ## Version 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 

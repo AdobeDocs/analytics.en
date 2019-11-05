@@ -62,4 +62,4 @@ While on your site, open the browser's developer console (typically F12). Look a
 Now that a basic implementation has been set up, your role within your organization can influence which path you want to learn more about:
 
 * [Create a solution design document](../prepare/solution-design.md): Make a plan for how you want to use custom variables, then include them in your implementation
-* [Get started using Analysis Workspace](../../analyze/analysis-workspace/home.md): Dive right into Adobe Analytics using the tool's flagship capability.
+* [Get started using Analysis Workspace](/help/analyze/analysis-workspace/home.md): Dive right into Adobe Analytics using the tool's flagship capability.

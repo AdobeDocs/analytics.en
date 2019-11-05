@@ -20,7 +20,7 @@ This example shows the Page Fallout report.
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
+1. Configure the appropriate [date ranges](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Click **[!UICONTROL Next]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (In a fallout report, you always have to define path elements, unlike in a path report, where a pattern is pre-applied.)
 
@@ -32,7 +32,7 @@ This example shows the Page Fallout report.
 1. Decide whether to select from a range of cells or from a list.
 1. If you select from a list, click **[!UICONTROL Add]** to select checkpoints to add to the fallout path. You can define between 3 and 8 checkpoints. (Search for available elements by clicking **[!UICONTROL More]**.)
 
-   For more information on refining the filter, see [Filter Dimensions](../../../../analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md#concept_9C0518E2CF604AADA97DDBB1B4ECAAF8). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
+   For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
-   The report should refresh now. 
+   The report should refresh now.

@@ -20,4 +20,4 @@ A Page View is counted for each server call that is sent. This metric represents
 |  Conversion  | A page view occurs when a visitor accesses a page on your website.  |
 |  Ad Hoc Analysis  | A page view occurs when a visitor accesses a page on your website.  |
 
-See [Page Views Report](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
+See [Page Views Report](/help/components/c-variables/dimensionslist/reports-page-views.md).

@@ -31,11 +31,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 It is useful to be familiar with JavaScript, and to understand basic Analytics terminology, such as
 
 * What an [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) is and how it works 
-* When to use a [custom event](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* When to use a [custom event](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 For information about getting access to Dynamic Tag Management and getting up and running, see [Getting Started](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Dynamic Tag Management Product Documentation.
 
-For more information, see [Implementing Analytics with Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
+For more information, see [Implementing Analytics with Dynamic Tag Management](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -46,4 +46,4 @@ The JavaScript implementation requires:
 * Strong JavaScript skills 
 * Solid understanding of Analytics concepts and terminology
 
-For more information, see [Implementing Analytics Using JavaScript](../../implement/js-implementation/javascript-implementation-overview.md).
+For more information, see [Implementing Analytics Using JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md).

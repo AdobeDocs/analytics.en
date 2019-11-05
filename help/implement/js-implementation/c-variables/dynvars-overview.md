@@ -24,7 +24,7 @@ A significant benefit of dynamic variables is the ability to capture long string
 
 In the Adobe image request that occurs on the page view, if you are using dynamic variables to copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1], you would see `v1=D=c1`. If eVar1 received a value previously in the request, Adobe's servers dynamically copy the value of [!UICONTROL Custom Traffic 1] to [!UICONTROL Custom Conversion 1] during data processing. As a result, the value originally passed using [!UICONTROL Custom Traffic 1] also appears in the [!UICONTROL Custom Conversion 1] reports.
 
-Dynamic variables are passed by setting a variable to the desired value and then setting other variables to `D=[variable abbreviation]`. For abbreviations for each variable, see [Data Collection Query Parameters](../../../implement/js-implementation/data-collection/query-parameters.md). Dynamic variables can pull data from the following locations:
+Dynamic variables are passed by setting a variable to the desired value and then setting other variables to `D=[variable abbreviation]`. For abbreviations for each variable, see [Data Collection Query Parameters](/help/implement/js-implementation/data-collection/query-parameters.md). Dynamic variables can pull data from the following locations:
 
 * Other query-string variables 
 * HTTP headers (except for the Cookie HTTP header)

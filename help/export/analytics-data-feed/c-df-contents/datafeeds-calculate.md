@@ -60,16 +60,16 @@ The following table contains instructions to calculate several common metrics.
    <td colname="col2"> 
     <ol id="ol_FE1831195A474650B07D7820DCD38728"> 
      <li id="li_274590E937A142D19B204768B1F10325">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_038B8FF66EA44E138C8A8932DA7B39E5">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a>. </li> 
+     <li id="li_038B8FF66EA44E138C8A8932DA7B39E5">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > Hit Source Lookup </a>. </li> 
      <li id="li_7FCD9BDF4D8547719420B34BA48BFA2D">Combine <code> post_visid_high </code>, <code> post_visid_low </code>, <code> visit_num </code>, and <code> visit_start_time_gmt </code>*. Count unique number of combinations. </li> 
-    </ol> <p>*In rare circumstances, internet irregularities, system irregularities, or the use of custom visitor IDs can result in duplicate <code> visit_num </code> values for the same visitor ID that are not the same <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html" format="http" scope="external"> visit </a>. To avoid resulting issues, also include <code> visit_start_time_gmt </code> when counting visits. </p> </td> 
+    </ol> <p>*In rare circumstances, internet irregularities, system irregularities, or the use of custom visitor IDs can result in duplicate <code> visit_num </code> values for the same visitor ID that are not the same <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html"  > visit </a>. To avoid resulting issues, also include <code> visit_start_time_gmt </code> when counting visits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitors </td> 
    <td colname="col2"> 
     <ol id="ol_E2BC9235A3164EF5936EFC5D9E9327D0"> 
      <li id="li_2C145CA54EBF4B358FC7DC78D8DA577D">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_9EF364652A214A4D9B66552BC6BBE527">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a> </li> 
+     <li id="li_9EF364652A214A4D9B66552BC6BBE527">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5, 8, and 9 are summary rows uploaded using data sources. 7 represents transaction ID data source uploads that should not be included in visit and visitor counts. See <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > Hit Source Lookup </a> </li> 
      <li id="li_4AB5129315644A29987E8FCB9C9F9C39">Combine <code> post_visid_high </code> with <code> post_visid_low </code>. Count unique number of combinations. </li> 
     </ol> </td> 
   </tr> 
@@ -81,7 +81,7 @@ The following table contains instructions to calculate several common metrics.
     </code> <p>Indicates an instance of <code> purchase </code> and <code> event1 </code>. </p> 
     <ol id="ol_84B529A668A54686957D1EB36D944467"> 
      <li id="li_F953D7668C704C1AB7970123E369472A">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_65B0B504DB654479844EAE490D9283EB">Exclude all rows with <code> hit_source = 5,8,9 </code>. These are summary rows uploaded using data sources. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a>. </li> 
+     <li id="li_65B0B504DB654479844EAE490D9283EB">Exclude all rows with <code> hit_source = 5,8,9 </code>. These are summary rows uploaded using data sources. See <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > Hit Source Lookup </a>. </li> 
      <li id="li_FB1C31048EC7415088F41E8CDC01AEBD">Count the number of times the event lookup value appears in <code> post_event_list </code>. </li> 
     </ol> </td> 
   </tr> 
@@ -99,7 +99,7 @@ The following table contains instructions to calculate several common metrics.
      <li id="li_D109FAF4686D4935B7A6DCA5D383612F">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
      <li id="li_D88F3691DB6746EBA84AA52841E56803">Group hits for a visit by concatenating <code> visid_high </code>, <code> visid_low </code>, and <code> visit_num </code>. </li> 
      <li id="li_08792F3BDFEA4DA29E0983C4BE65D73B">Order hits for each visit by <code> visit_page_num </code>. </li> 
-     <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-page-event.md#concept_A3AC076C3728445EB4CC572A6EDA5263" format="dita" scope="local"> page_event </a>, filter the types of hits you want. </li> 
+     <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-page-event.md"  > page_event </a>, filter the types of hits you want. </li> 
      <li id="li_2C5AC0477CFC409B8F169079354C8226">Find hits where the value you want to track time spent is set. For example: 
       <code>
         hit&nbsp;1:&nbsp;post_prop1=red hit&nbsp;2:&nbsp;post_prop1=blue 
@@ -112,13 +112,13 @@ The following table contains instructions to calculate several common metrics.
    <td colname="col2"> <p>Currency conversion is applied to the <code> post_product_list </code> according to the settings for the report suite, so using that column is recommended. </p> 
     <ol id="ol_03D62086EDDE42AD82049830D85FDC69"> 
      <li id="li_2A5B8205EA30492986C35DC382B91F16">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_6417C228AC414B01A30F85BE4842ED3C">Exclude all rows with <code> hit_source = 5,8,9 </code>. 5-9 represent summary rows uploaded using data sources. See <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> Hit Source Lookup </a>. </li> 
+     <li id="li_6417C228AC414B01A30F85BE4842ED3C">Exclude all rows with <code> hit_source = 5,8,9 </code>. 5-9 represent summary rows uploaded using data sources. See <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > Hit Source Lookup </a>. </li> 
      <li id="li_C48F91C74F5E4286B5F0B285E33AF733">Ignore purchase data for rows where <code> duplicate_purchase = 1 </code>. This flag indicates that the purchase is a duplicate (meaning that a hit with the same <code> purchaseID </code> was already recorded). </li> 
-     <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p>The <code> post_product_list </code> uses the same syntax as <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_products.html" format="http" scope="external"> s.products </a>, so you can parse this string to calculate metrics. For example: </p> 
+     <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p>The <code> post_product_list </code> uses the same syntax as <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_products.html"  > s.products </a>, so you can parse this string to calculate metrics. For example: </p> 
       <code>
         ;Cross Trainers;1;69.95,;Athletic Socks;10;29.99 
       </code> <p>By parsing this string, you can determine that 1 pair of cross trainers were purchased for $69.95, and that total revenue from this purchase was $99.94. </p> </li> 
-    </ol> <p>Note:  Analytics allows currency events that contain product revenue to be passed in through the events string, so you might need to account for revenue that is not in the products string. See <i>Numeric/Currency Events</i> in <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html" format="http" scope="external"> s.events </a>. </p> </td> 
+    </ol> <p>Note:  Analytics allows currency events that contain product revenue to be passed in through the events string, so you might need to account for revenue that is not in the products string. See <i>Numeric/Currency Events</i> in <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html"  > s.events </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -24,4 +24,4 @@ When more than one segment is selected, the Segment Selection Label (in a collap
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports. 
+The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.

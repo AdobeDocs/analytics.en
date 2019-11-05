@@ -29,7 +29,7 @@ The following table contains key concepts you need to understand when using proc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Rules apply to a single report suite. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copy processing rules to another report suite </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Copy processing rules to another report suite </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are applied in the order listed. </p> </td> 
@@ -37,15 +37,15 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are applied immediately to the report suite after they are saved. </p> </td> 
-   <td colname="col2"> <p>Changes from processing rules should be visible in your report suite within minutes of saving. When testing processing rules, we recommend configuring <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Changes from processing rules should be visible in your report suite within minutes of saving. When testing processing rules, we recommend configuring <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are the only way to access to context data variables. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copy a Context Data Variable to an eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are applied before VISTA rules and Marketing Channel rules. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Processing Order </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Processing Order </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hits cannot be excluded. </p> </td> 
@@ -77,7 +77,7 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Value comparisons in the UI are case insensitive. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Cleaning up Values in a Report </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Cleaning up Values in a Report </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Context data variable names can contain only alphanumeric characters, underscores and dots. Any additional characters are stripped out. </p> </td> 

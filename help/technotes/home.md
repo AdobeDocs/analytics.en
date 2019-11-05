@@ -12,7 +12,7 @@ This guide provides helpful information on topics that don't belong to a specifi
 
 ## More Analytics user guides
 
-[Analytics User Guides](../landing/home.md)
+[Analytics User Guides](/help/landing/home.md)
 
 ## Key Analytics resources
 

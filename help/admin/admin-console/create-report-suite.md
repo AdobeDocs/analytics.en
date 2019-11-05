@@ -41,4 +41,4 @@ Ensure that you've logged in through the Experience Cloud, and not through my.om
 
 ## Next steps
 
-[Create and configure a property for Adobe Analytics in Launch](../../implement/implement-with-launch/create-analytics-property.md): Create an area to manage your Analytics implementation
+[Create and configure a property for Adobe Analytics in Launch](/help/implement/implement-with-launch/create-analytics-property.md): Create an area to manage your Analytics implementation

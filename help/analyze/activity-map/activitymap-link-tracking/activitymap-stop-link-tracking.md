@@ -39,7 +39,7 @@ Steps for stopping link tracking in Activity Map or Legacy ClickMap.
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (formerly Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Set the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
+   <td colname="col2"> <p>Set the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  > trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 

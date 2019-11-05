@@ -26,7 +26,7 @@ There are two ways to invoke contribution analysis in a project:
 
   ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension.
 1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. You will notice a lot of familiar panels if you have used Contribution Analysis in Reports & Analytics before:
@@ -41,11 +41,11 @@ There are two ways to invoke contribution analysis in a project:
 
 1. Since contribution analysis is now part of Analysis Workspace, you can take advantage of a number of its features from a table's right-click menu to make your analysis even more meaningful, such as:
 
-    * [Breaking each dimension item down by another dimension.](../../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4) 
-    * [Trending one or more rows.](../../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
-    * [Adding new visualizations.](../../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 
+    * [Breaking each dimension item down by another dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 
+    * [Trending one or more rows.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
+    * [Adding new visualizations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 
     * [Creating alerts.](/help/components/c-alerts/intellligent-alerts.md) 
-    * [Creating or comparing segments.](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+    * [Creating or comparing segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 > [!NOTE] We highlight the anomaly being analyzed with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This provides a clearer indication of the anomaly being analyzed.
 

@@ -46,7 +46,7 @@ Enables you to control access to reporting data. Options include strong password
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
        192.168.[10-14].*
-     </code>) </p> <p>Failed logins are logged and viewable from the <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local"> Usage and Access Log</a>. </p> </td> 
+     </code>) </p> <p>Failed logins are logged and viewable from the <a href="/help/admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232"> Usage and Access Log</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Enforce Email Domain Restrictions</span> </td> 

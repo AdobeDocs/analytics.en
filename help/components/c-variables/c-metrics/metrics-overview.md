@@ -12,7 +12,9 @@ uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 
 Lists the standard metrics in Adobe Analytics.
 
-> [!NOTE] Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (custom event).
+>[!NOTE]
+>
+>Any metric (event) not listed below is a [custom metric](/help/components/c-variables/c-metrics/metrics-custom.md) (custom event).
 
 >[!IMPORTANT]
 >

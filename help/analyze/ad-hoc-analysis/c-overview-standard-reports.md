@@ -144,7 +144,7 @@ In a report that identifies data over a period of time, the **[!UICONTROL Statis
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](../../analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
 
 ## Group Manager {#concept_E1433974A61144858E87334C006982B2}
 

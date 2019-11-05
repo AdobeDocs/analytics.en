@@ -10,43 +10,43 @@ uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[How do I access the Calculated Metric Builder?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[How do I access the Calculated Metric Builder?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[How do I access the Calculated Metric Manager?](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[How do I access the Calculated Metric Manager?](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[Why do I see so many Calculated Metrics with the Same Name?](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[Why do I see so many Calculated Metrics with the Same Name?](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[What happened to my Global Calculated Metrics?](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[What happened to my Global Calculated Metrics?](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[What happened to Global Calculated Metrics that were shared across Login Companies?](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[What happened to Global Calculated Metrics that were shared across Login Companies?](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[What happened to Calculated Metrics with a Numeric or Numeric2 Classification?](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[What happened to Calculated Metrics with a Numeric or Numeric2 Classification?](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[What happened to Life-Time Metrics?](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[What happened to Life-Time Metrics?](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[What do I need to know about Calculated Metrics based on Daily/Weekly/Monthly/Quarterly/Yearly Unique Visitor metrics?](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[What do I need to know about Calculated Metrics based on Daily/Weekly/Monthly/Quarterly/Yearly Unique Visitor metrics?](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[What about Calculated Metrics created or managed with the old report suite API methods?](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[What about Calculated Metrics created or managed with the old report suite API methods?](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[Does Current Data Does support all types of Calculated Metrics?](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[Does Current Data Does support all types of Calculated Metrics?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[What does "No name provided" mean in conjunction with migrated calculated metrics?](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[What does "No name provided" mean in conjunction with migrated calculated metrics?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[What happens to a user's calculated metrics if that user was deleted?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[What happens to a user's calculated metrics if that user was deleted?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[Why were changes that I made to my legacy calculated metrics not saved?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[Why were changes that I made to my legacy calculated metrics not saved?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Why don't my calculated metrics show up in the Marketing Channels report?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Why don't my calculated metrics show up in the Marketing Channels report?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[Why do some of the calculated metrics show formulas without the parentheses I added?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[Why do some of the calculated metrics show formulas without the parentheses I added?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Ad Hoc Analysis only) Are Calculated Metrics with Embedded or Inline Segment Definitions still supported?](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Ad Hoc Analysis only) Are Calculated Metrics with Embedded or Inline Segment Definitions still supported?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[(Report Builder only) Why have calculated metrics disappeared from my requests?](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Report Builder only) Why have calculated metrics disappeared from my requests?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[How do Calculated Metrics Totals work?](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[How do Calculated Metrics Totals work?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## How do I access the Calculated Metric Builder? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 

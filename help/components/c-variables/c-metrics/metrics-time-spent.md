@@ -12,11 +12,11 @@ uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 
 Adobe Analytics offers various Time Spent metrics and dimensions. Find out what they are and how they are calculated.
 
-* [Time Spent Metrics](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_4F54D70300944748A62088F5870E4B6C) 
-* [Time Spent Dimensions](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_D51606544CB046FC902E2E317318892C) 
-* [How Time Spent is Calculated](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_90A3882638974969A4B8B674FFDB7624) 
-* [FAQs about Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_51C2735BACAB42CCBA1DD3CBF238E2F7) 
-* [Calculation Examples](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_3D63D6A601F34E42AD5366435CB610D5)
+* [Time Spent Metrics](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_4F54D70300944748A62088F5870E4B6C) 
+* [Time Spent Dimensions](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_D51606544CB046FC902E2E317318892C) 
+* [How Time Spent is Calculated](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_90A3882638974969A4B8B674FFDB7624) 
+* [FAQs about Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_51C2735BACAB42CCBA1DD3CBF238E2F7) 
+* [Calculation Examples](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_3D63D6A601F34E42AD5366435CB610D5)
 
 ## Time Spent Metrics {#section_4F54D70300944748A62088F5870E4B6C}
 

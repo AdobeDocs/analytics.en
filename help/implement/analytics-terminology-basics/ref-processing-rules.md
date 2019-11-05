@@ -25,7 +25,7 @@ Processing rules help simplify interaction with IT groups and Web developers by 
 For details about processing rules, see:
 
 * [Processing Rules](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html) in the Analytics Help and Reference guide 
-* [Create New Rule](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) in this help documentation 
+* [Create New Rule](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) in this help documentation 
 * [Getting Started with Marketing Channels](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html) in the Marketing Channels documentation 
 * [VISTA Rules](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) in the Analytics Help and Reference guide 
 * [Bot Rules](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) in the Analytics Help and Reference guide

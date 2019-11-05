@@ -15,7 +15,7 @@ There are several ways to get to the Calculated Metric Builder:
 * In Analysis Workspace, open a project and click  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
 * In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), or 
+* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or 
 
 * Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
 
@@ -83,7 +83,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Product Compatibility </span> </td> 
-   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> More... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
@@ -96,11 +96,11 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> Gear icon ( <span class="uicontrol"> Metric Type </span>, <span class="uicontrol"> Attribution </span>) </td> 
-   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E" format="dita" scope="local"> metric type and attribution models </a>. </p> </td> 
+   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + New </span> </td> 
-   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="https" scope="external"> Segment Builder </a>.) </p> </td> 
+   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Search Components </p> </td> 
@@ -126,11 +126,11 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Segments </p> </td> 
-   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> More... </a> </p> </td> 
+   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Functions </p> </td> 
-   <td colname="col3"> <p>(Advanced calculated metrics only) Functions are divided into two lists: <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
+   <td colname="col3"> <p>(Advanced calculated metrics only) Functions are divided into two lists: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Report Suite selector </p> </td> 

@@ -7,7 +7,7 @@ seo-description: null
 
 # Analytics Admin Guide
 
-![Banner](../../assets/doc_banner_admin.png)
+![Banner](/assets/doc_banner_admin.png)
 
 Adobe Analytics currently has two areas for administrators:
 

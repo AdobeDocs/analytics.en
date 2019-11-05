@@ -14,7 +14,7 @@ This section is intended for Adobe Analytics Administrators. It focuses on the n
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how Activity Map may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). For more information on how Activity Map may be collecting PII data, go [here](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map bases its link tracking on these two IDs:
 
@@ -41,9 +41,9 @@ Link action is the action taken by the web page when the link is clicked - usual
 
 As a result, we use InnerText with these benefits over using Link Action (URL):
 
-* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text. 
-* It ensures consistency of the Primary ID across devices and browser types. 
-* It is not affected by a link repositioning on the page. 
+* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text.
+* It ensures consistency of the Primary ID across devices and browser types.
+* It is not affected by a link repositioning on the page.
 * It improves readability, so users can start analyzing Link tracking reports outside Activity Map.
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
@@ -110,9 +110,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## Configuration variables {#configuration-vars}
 
-Note that these variables are listed for reference purposes only. Activity Map should be configured properly out of the box, but you can customize your implementation using these variables. 
+Note that these variables are listed for reference purposes only. Activity Map should be configured properly out of the box, but you can customize your implementation using these variables.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 

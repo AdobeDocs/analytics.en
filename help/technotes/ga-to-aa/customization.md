@@ -28,7 +28,7 @@ All Google Analytics widgets are available in Analysis Workspace:
 * The **Pie widget** is approximately equal to the Donut visualization.
 * The **Bar widget** is approximately equal to the Bar visualization.
 
-Analysis Workspace includes many more visualization options to present data in a way best fit for your reporting needs. See [Visualizations in Analysis Workspace](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in the Analyze User Guide for more information.
+Analysis Workspace includes many more visualization options to present data in a way best fit for your reporting needs. See [Visualizations in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in the Analyze User Guide for more information.
 
 ### Sharing projects
 
@@ -61,8 +61,8 @@ To create a calculated metric:
 4. Once the calculated metric contains the desired formula, click Save to go back to your workspace.
 5. Drag the newly defined calculated metric onto the workspace.
 
-    Learn more about [Calculated Metrics](../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+    Learn more about [Calculated Metrics](/help/components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
 
 ## Custom Alerts
 
-Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Intelligent Alerts](../../components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.
+Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.

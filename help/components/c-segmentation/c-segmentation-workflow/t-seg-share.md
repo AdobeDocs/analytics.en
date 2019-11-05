@@ -18,7 +18,7 @@ Depending on your permissions, you can share segments with your whole organizati
 
 When should you share segments with the entire company versus just a group of users or individuals? Here are some best practices you might follow:
 
-* As an Admin, share a segment with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* As an Admin, share a segment with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * As an Admin, share a segment with a specific **[!UICONTROL Group]** if the segment provides good business value for that team. Do not officially approve this type of segment.
 * As an Admin or an individual user, share a segment with other individuals to vet and validate a segment. If it doesn't prove useful, it can be discarded. Do not officially approve this type of segment.

@@ -16,7 +16,7 @@ The number of times a specific value is captured, plus the number of page views 
 
 Two metrics that appear to be similar are listed:
 
-**[Instances](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: The number of times that a value was set for a variable.
+**[Instances](/help/components/c-variables/c-metrics/metrics-instance.md)**: The number of times that a value was set for a variable.
 
 **Occurrences**: The total number of times a value was set or persisted.
 

@@ -49,7 +49,7 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
    The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace.
 1. Name and save your cohort project.
-1. (Optional) [Curate and share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) the project components.
+1. (Optional) [Curate and share](/help/analyze/analysis-workspace/curate-share/curate.md) the project components.
 
    >[!NOTE]
    >

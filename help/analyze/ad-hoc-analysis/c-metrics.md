@@ -66,7 +66,7 @@ t_add_metrics_dsc.xml
 
    You may want to specify default metrics in [!UICONTROL Settings] in advance, if you want to reduce the need to repeatedly add metrics to a report.
 
-   See [Ranked Tab - Definitions](../../analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   See [Ranked Tab - Definitions](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Calculated Metric Builder {#concept_F8E213CE786A43FB93847C5BA883A29C}
 

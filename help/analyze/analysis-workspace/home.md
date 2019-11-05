@@ -15,7 +15,7 @@ Analysis Workspace is one of Adobe's flagship tools to make actionable data-base
 
 ## Prerequisites
 
-[Send data to Adobe Analytics using Adobe Experience Platform Launch](../../implement/implement-with-launch/validate-publish-prod.md): Using Analysis Workspace requires a working implementation. Make sure your organization is sending data to Adobe before using the tool. Other implementations, such as DTM or legacy manual implementations, can work as well.
+[Send data to Adobe Analytics using Adobe Experience Platform Launch](/help/implement/implement-with-launch/validate-publish-prod.md): Using Analysis Workspace requires a working implementation. Make sure your organization is sending data to Adobe before using the tool. Other implementations, such as DTM or legacy manual implementations, can work as well.
 
 ## Pull a basic ranked report in Workspace
 
@@ -27,7 +27,7 @@ Pull a basic ranked report using Analysis Workspace. A ranked report shows an ag
 4. Click the 'Create New Project' button.
 5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
 6. On the left, you should see a list of dimensions, metrics, segments, and date ranges. Locate the Pages dimension (colored orange), and drag it over to the canvas where it says 'Drop a Dimension Here'.
-7. Note that if the report suite has data, a report showing the top pages for this month can be seen. Analysis Workspace automatically populated the report with the [Occurrences](../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
+7. Note that if the report suite has data, a report showing the top pages for this month can be seen. Analysis Workspace automatically populated the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
 8. Locate the Visits metric (colored green), and drag it either **over** or **next to** the Occurrences metric header (avoid placing it above the metric). If you drag the Visits metric on top of Occurrences, the metric is replaced in reporting. If you drag the Visits metric next to Occurrences, both metrics are displayed side-by-side.
 9. If you'd like to save your project, click *[!UICONTROL Project] > [!UICONTROL Save]* in the upper left menu.
 
@@ -70,7 +70,7 @@ If you successfully create a workspace report but there's no data, there are a f
 
 ## Additional Resources
 
-* [Analysis Workspace release notes](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md): Read up on the latest features introduced into the tool.
+* [Analysis Workspace release notes](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): Read up on the latest features introduced into the tool.
 * [Analysis Workspace on YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Learn how to use most features in Analysis Workspace via this extensive playlist.
 * In-product tips: Tips of the day, along with short videos, occasionally appear in the lower right corner of Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help] > [!UICONTROL Tips]* at any time.
 * [Analysis Workspace community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Discuss Analysis Workspace with fellow users, and vote on features you'd like to see in the tool.
@@ -87,18 +87,18 @@ There are a lot of directions to go to deepen your understanding of Analysis Wor
 
 ### For end users looking to expand knowledge on how to use Analysis Workspace
 
-* [Details on the Workspace UI](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): Now that you've created a basic report, become more familiar with the rest of the interface.
+* [Details on the Workspace UI](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): Now that you've created a basic report, become more familiar with the rest of the interface.
 * [Visualizations in Workspace](visualizations/freeform-analysis-visualizations.md): Freeform tables are merely one type of visualization in Analysis Workspace. Learn how to use other visualizations, such as line charts, bar graphs, and geo maps.
-* [Dimensions in Workspace](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Learn more about what dimensions are and how to use them in more than just ranked reports.
-* [Metrics in Workspace](../../analyze/analysis-workspace/components/apply-create-metrics.md): Learn more about what metrics are and how to use them in other parts of freeform tables.
-* [Introduction to segmentation](../../analyze/analysis-workspace/components/t-freeform-project-segment.md): Learn about what segments are and pull a basic report using a segment.
-* [Date ranges in Workspace](../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Learn about relative and rolling dates, and use them in workspace projects.
+* [Dimensions in Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Learn more about what dimensions are and how to use them in more than just ranked reports.
+* [Metrics in Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Learn more about what metrics are and how to use them in other parts of freeform tables.
+* [Introduction to segmentation](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Learn about what segments are and pull a basic report using a segment.
+* [Date ranges in Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Learn about relative and rolling dates, and use them in workspace projects.
 * Sharing projects in Workspace: Show your colleague the awesome Workspace project you created.
 * [(Advanced) Panels in Workspace](c-panels/panels.md): Use advanced features in Workspace, such as Attribution and Segment Comparison.
 
 ### For analysts and admins looking to improve the quality of workspace in their organization
 
 * [Analysis Workspace permissions](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Assign users permissions to Workspace via the Adobe Admin Console.
-* [Create a solution design document](../../implement/prepare/solution-design.md): Start planning how your organization collects additional dimensions or metrics specific to your site.
-* [Templates in Workspace](../../analyze/analysis-workspace/build-workspace-project/starter-projects.md): Create templates so your colleagues can start with a project space tailored to their needs.
+* [Create a solution design document](/help/implement/prepare/solution-design.md): Start planning how your organization collects additional dimensions or metrics specific to your site.
+* [Templates in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Create templates so your colleagues can start with a project space tailored to their needs.
 * [Workspace curation](curate-share/curate.md): Create a project that limits available components, making workspace more accessible to those less familiar with the tool

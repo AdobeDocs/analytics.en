@@ -12,7 +12,7 @@ uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 
 Copy a simple request rather than a referential request. A simple request is one that contains no references to another request or the contents of a cell.
 
- A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. These filters use either matching or trending and are based on results of a prior request or on the user-entered contents of a cell, called an input cell .
+ A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. These filters use either matching or trending and are based on results of a prior request or on the user-entered contents of a cell, called an input cell .
 1. Create a valid request.
 1. Right click one of the cells where the request is mapped, or select a region of cells containing requests.
 

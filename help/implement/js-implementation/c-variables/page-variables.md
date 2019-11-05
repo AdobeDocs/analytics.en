@@ -119,7 +119,7 @@ Every element in a marketing campaign should have an associated unique tracking 
 
 There are two main ways to populate the *`campaign`* variable:
 
-* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* The [!UICONTROL getQueryParam] plug-in, used in the JavaScript file, retrieves a query string parameter from the URL. For more information on the [!UICONTROL getQueryParam] plugin, see [Implementation Plug-ins](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * Assign a value to the *`campaign`* variable in the HTML on the Web page.
 
@@ -127,7 +127,7 @@ With either method of populating the *`campaign`* variable, the Back button traf
 
 For example, a visitor enters your site by clicking a paid search keyword. When the visitor arrives on the landing page, the URL contains a query string parameter identifying the tracking code for the keyword. The visitor then clicks a link to another page, but then immediately clicks the Back button to return to the landing page. When the visitor arrives a second time on the landing page, the URL with the query string parameter identifies the tracking code again. And a second click-through is registered, thereby falsely inflating the number of click-throughs.
 
-To avoid this inflation of click-throughs, Adobe recommends using the [!UICONTROL getValOnce] plugin to force each campaign click-through to be counted only once per session. For more information on the [!UICONTROL getValOnce] plugin, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+To avoid this inflation of click-throughs, Adobe recommends using the [!UICONTROL getValOnce] plugin to force each campaign click-through to be counted only once per session. For more information on the [!UICONTROL getValOnce] plugin, see [Implementation Plug-ins](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **Syntax and Possible Values** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -157,7 +157,7 @@ Each campaign value remains active for a user, and receives credit for that user
 
 **Pitfalls, Questions, and Tips** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* To keep click-throughs from being inflated, use the [!UICONTROL getValOnce] plugin to let the click-through for a campaign be counted only once per session. For more information on the [!UICONTROL getValOnce] plug-in, see [Implementation Plug-ins](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * For more information on tracking marketing campaigns and keyword buys, see [Campaigns](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html).
 * Use the [!DNL DigitalPulse Debugger] to see the actual value of campaigns (v0 in the debugger). If v0 does not appear in the debugger, no campaign data is recorded for that page.
@@ -296,7 +296,7 @@ When an eVar is set to a value for a visitor, the value is remembered until it e
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
-|  255 Bytes  | V1-v75 ( [or v100 or v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))  | Custom Conversion  | ""  |
+|  255 Bytes  | V1-v75 ( [or v100 or v250](/help/implement/js-implementation/c-variables/page-variables.md))  | Custom Conversion  | ""  |
 
 **Expiration** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -323,7 +323,7 @@ A common requirement for a [!UICONTROL Custom eVar] report is the ability to bre
 
 **Syntax and Possible Values** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
+While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](/help/implement/js-implementation/c-variables/page-variables.md)).
 
 ```js
 s.eVarX="value"
@@ -414,11 +414,11 @@ An [!UICONTROL event] should be considered a milestone within a site. Success ev
 
 By default, success events are configured as *counter* events. Counter events count the number of times a success event is set (x+1). Events can also be configured as *numeric* events. Numeric events allow you to specify the number to increment (as might be necessary when counting dynamic or arbitrary values, such as the number of results returned by an internal search).
 
-A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
+A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](/help/implement/js-implementation/c-variables/page-variables.md).
 
 **Configuring the Variable** {#section_9195286C34C54B02B2598E2B856492C3}
 
-The [!UICONTROL s.events] variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the Admin Console.
+The [!UICONTROL s.events] variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](/help/implement/js-implementation/c-variables/page-variables.md)) can be enabled by any admin-level user using the Admin Console.
 
 **Possible Values** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -472,7 +472,7 @@ Numeric and currency events must be included in the [!UICONTROL s.events] variab
 
 By default, an event is counted every time the event is set on your site.
 
-See [Event Serialization](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705) for more information.
+See [Event Serialization](/help/implement/js-implementation/event-serialization.md) for more information.
 
 **Syntax** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -747,11 +747,11 @@ list_props.xml
 
 **Considerations**
 
-* List props are enabled only on traffic variables ( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)).
+* List props are enabled only on traffic variables ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
 * Pathing and correlations cannot be enabled for list props.
 * Analytics provides visits and unique visitors to almost every report, including all list prop reports.
 * Classifications are supported for list props.
-* Any custom traffic variable can become a list prop. (Exceptions: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D), and [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2).) 
+* Any custom traffic variable can become a list prop. (Exceptions: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md), and [server](/help/implement/js-implementation/c-variables/page-variables.md).) 
 
 * When defining duplicate values in the same image request, instances are not deduplicated.
 
@@ -1315,7 +1315,7 @@ mobile.xml
 
  -->
 
-See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
+See [Mobile network protocols](/help/implement/js-implementation/c-additional-libraries/network-protocols.md).
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -1589,7 +1589,7 @@ The *`products`* variable should always be set in conjunction with a success eve
 |  Product  | (Required) The identifier used to track a product. This identifier is used to populate the [!UICONTROL Products] report. Be sure to use the same identifier through the checkout process.  |
 |  Quantity  | The number of units purchased. This field must be set with a [!UICONTROL purchase] event to be recorded.  |
 |  Price  | Refers to the combined cost of the total quantity purchased (units x individual unit price), not to the individual price. This field must be set with a [!UICONTROL purchase] event to be recorded.  |
-|  Events  | Currency events associated with the specified product. See [Product-Specific Currency Events](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) and [Order-Wide Currency Events](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0).  |
+|  Events  | Currency events associated with the specified product. See [Product-Specific Currency Events](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) and [Order-Wide Currency Events](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0).  |
 |  eVars  | Merchandising eVar values associated with a specific product. See [Merchandising Variables](/help/components/c-variables/c-merch-variables/var-merchandising.md).  |
 
 The values included in the *`products`* variable are based on the type of event you are recording. The category/product delimiter (;) is required as a place holder when omitting Category. Other delimiters are required only if they are necessary to distinguish which parameter you are including, as shown in the examples on this page.
@@ -2025,7 +2025,7 @@ The *`timestamp`* variable must be in the format explained in the next section.
 >
 >Additionally, if you enable timestamp support on a report suite to support offline tracking, all hits sent to this report suite from JavaScript must also have a timestamp manually set (using *`s.timestamp`*). You cannot send both time-stamped and non-time-stamped hits to the same report suite.
 >
->You can also use the [Timestamps Optional](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)setting to mix timestamped and non-timestamped data in the same global report suite, send timestamped data from a mobile app to a global report suite, and upgrade apps to employ timestamps without having to create a new report suite.
+>You can also use the [Timestamps Optional](/help/implement/js-implementation/timestamps-overview.md)setting to mix timestamped and non-timestamped data in the same global report suite, send timestamped data from a mobile app to a global report suite, and upgrade apps to employ timestamps without having to create a new report suite.
 
 **Timestamp Formats** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
@@ -2235,7 +2235,7 @@ s.visitorNamespace="company_specific_value"
 
 **Visitor Identification across Report Suites** {#section_7AC5A97FC8C045DD8850245A62BB09F4}
 
-If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. If you specify `visitorNamespace`, the same `s_vi` cookie will be used for all report suites that send data to the specified `trackingServer`. If you have implemented multi-suite tagging, make sure you specify the visitor namespace so the same cookie is used by each report suite.  
+If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. If you specify `visitorNamespace`, the same `s_vi` cookie will be used for all report suites that send data to the specified `trackingServer`. If you have implemented multi-suite tagging, make sure you specify the visitor namespace so the same cookie is used by each report suite.
 
 **Examples** {#section_89A95852AB9446E794AD3283B8800B09}
 

@@ -32,7 +32,7 @@ Paths reports include standard in-depth and optional advanced analysis reports t
 
 **[!UICONTROL Fallout]**: Displays the visit attrition and conversion rates between each checkpoint you define. Steps are arranged top-to-bottom, with raw numbers and percentages shown on the left, and conversion and fall-out percentages on the right.
 
-See [Fallout Report](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) for more information.
+See [Fallout Report](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) for more information.
 
 **[!UICONTROL Path Length]**: Shows how deep visitors browse into your site (both by percentage and by total count). In other words, the report indicates how many pages the average visitor to your site views before leaving.
 

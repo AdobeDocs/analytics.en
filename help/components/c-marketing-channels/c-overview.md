@@ -15,10 +15,10 @@ Marketing Channel reporting lets you know how much revenue your marketing channe
 
 You configure channel definition rules in Admin Tools. APIs specific for the channel reports are available. No external implementation changes are necessary to run the [!UICONTROL Marketing Channel] report.
 
-* [Example Report](../../components/c-marketing-channels/c-overview.md#section_64F7FB1326A64B318654BAFE66FA97EC) 
-* [Available Reports](../../components/c-marketing-channels/c-overview.md#section_8A95A56AE24E4F34BBA069361D6354B9)
+* [Example Report](/help/components/c-marketing-channels/c-overview.md) 
+* [Available Reports](/help/components/c-marketing-channels/c-overview.md)
 
-## Example Report {#section_64F7FB1326A64B318654BAFE66FA97EC}
+## Example Report {#example-rpt}
 
 ![](assets/overview.png)
 
@@ -32,7 +32,7 @@ Add (or edit) metrics.
 
 Add a column to the report.
 
-## Available Reports {#section_8A95A56AE24E4F34BBA069361D6354B9}
+## Available Reports {#available-rpts}
 
 The following [!UICONTROL Marketing Channel] reports are available in the Experience Cloud.
 

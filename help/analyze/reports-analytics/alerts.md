@@ -99,17 +99,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alerts with an ASI slot as the report suite </p> </td> 
-   <td colname="col2"> <p>You can no longer <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external"> create or edit ASI slots </a> and they are not available for use in Analysis Workspace. Hence, they are not supported by the new alerts. </p> <p> </p> </td> 
+   <td colname="col2"> <p>You can no longer <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > create or edit ASI slots </a> and they are not available for use in Analysis Workspace. Hence, they are not supported by the new alerts. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alerts using participation metrics </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external"> Participation metrics </a> are available in Reports &amp; Analytics, but aren't currently available in the new alerts system in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Participation metrics </a> are available in Reports &amp; Analytics, but aren't currently available in the new alerts system in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Monthly alerts for custom calendar report suites </p> </td> 
-   <td colname="col2"> <p>This only affects customers with alerts set up for report suites that have <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external"> custom month start dates </a> (National Retail Federation/NRF and Custom Calendar types). </p> <p>It does not affect alerts on Gregorian or Modified Gregorian calendar report suites. Previously these alerts were sent on the first day of the Gregorian month (e.g. January 1st, February 1st etc). This will not work with the new Anomaly Detection feature of alerts, which takes previous months' data into account when detecting anomalies. In the future, we will add support to our scheduling system for custom calendars so that both Alerts and Scheduled Projects can be scheduled to send on the first day of the custom calendar month instead of just the first day of the Gregorian month. </p> <p> </p> </td> 
+   <td colname="col2"> <p>This only affects customers with alerts set up for report suites that have <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  > custom month start dates </a> (National Retail Federation/NRF and Custom Calendar types). </p> <p>It does not affect alerts on Gregorian or Modified Gregorian calendar report suites. Previously these alerts were sent on the first day of the Gregorian month (e.g. January 1st, February 1st etc). This will not work with the new Anomaly Detection feature of alerts, which takes previous months' data into account when detecting anomalies. In the future, we will add support to our scheduling system for custom calendars so that both Alerts and Scheduled Projects can be scheduled to send on the first day of the custom calendar month instead of just the first day of the Gregorian month. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not yet available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 

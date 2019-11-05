@@ -73,12 +73,12 @@ t_add_a_target.xml
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
 1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Click **[!UICONTROL OK]**.
 
 ## Edit a Target {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
 1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Click **[!UICONTROL OK]**.

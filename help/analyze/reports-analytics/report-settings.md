@@ -53,7 +53,7 @@ nav_menu.xml
 
  -->
 
-If you are used to the default menu, the following table makes it easier for you to find the menu options in the simplified menu.  
+If you are used to the default menu, the following table makes it easier for you to find the menu options in the simplified menu.
 
 |  Location in Default Menu  | Location in Simplified Menu  |
 |---|---|

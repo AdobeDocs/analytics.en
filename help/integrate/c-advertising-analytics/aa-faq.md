@@ -24,7 +24,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Which <b>Adobe Analytics SKUs</b> entitle you to the use of Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics is available for Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external"> Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external"> Prime </a>, and <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external"> Ultimate </a> SKUs. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics is available for Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  > Select </a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  > Prime </a>, and <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  > Ultimate </a> SKUs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Do we have to <b>pay extra</b> to use Advertising Analytics? </p> </td> 
@@ -87,7 +87,7 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: I am trying to <b>map my Advertising Analytics accounts to a specific report suite</b>, but it is not available in the Report Suite modal. Why? </p> </td> 
-   <td colname="col2"> <p>A: Before you can assign a report suite to an Advertising Analytics account, the desired report suite needs to be <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local"> provisioned for Advertising Analytics reporting </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>A: Before you can assign a report suite to an Advertising Analytics account, the desired report suite needs to be <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > provisioned for Advertising Analytics reporting </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Is it possible to assign a <b>Virtual Report Suite</b> (VRS) to an Advertising Analytics account? </p> </td> 

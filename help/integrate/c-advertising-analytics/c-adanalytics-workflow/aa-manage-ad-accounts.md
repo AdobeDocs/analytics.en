@@ -26,7 +26,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Add </p> </td> 
-   <td colname="col2"> <p>Takes you to the <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local"> Set Up Advertising Account</a> UI. </p> </td> 
+   <td colname="col2"> <p>Takes you to the <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rename </p> </td> 

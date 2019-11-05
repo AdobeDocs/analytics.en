@@ -9,11 +9,11 @@ uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 
 # Frequently Asked Questions
 
-Provides answers and troubleshooting suggestions to some of the most frequently asked Analytics questions for Reports & Analytics. For frequently asked implementation questions, see the [FAQ](../../implement/faq.md) in the Implement user guide.
+Provides answers and troubleshooting suggestions to some of the most frequently asked Analytics questions for Reports & Analytics. For frequently asked implementation questions, see the [FAQ](/help/implement/faq.md) in the Implement user guide.
 
 **My account has been locked; how do I unlock it?**
 
-To reactivate an account, contact an admin within your organization. See also [Troubleshoot login issues with Adobe Analytics](../../technotes/troubleshoot-login.md) in the Technotes user guide.
+To reactivate an account, contact an admin within your organization. See also [Troubleshoot login issues with Adobe Analytics](/help/technotes/troubleshoot-login.md) in the Technotes user guide.
 
 **Why do I see a blank report even though I know data is collected?**
 
@@ -33,7 +33,7 @@ Almost all variables in Adobe Analytics have a character limit. Page Name has a 
 
 **Why do I see a major delay in reporting?**
 
-Real-time reporting allows some traffic metrics to be available within minutes, while conversion and other processing-intensive data is usually available within 30-90 minutes. Though the Experience Cloud platform is robust, there are a few situations that may lead to delays in reporting. This delay is referred to as latency. See [Latency](../../technotes/latency.md) in the Technotes user guide for more information.
+Real-time reporting allows some traffic metrics to be available within minutes, while conversion and other processing-intensive data is usually available within 30-90 minutes. Though the Experience Cloud platform is robust, there are a few situations that may lead to delays in reporting. This delay is referred to as latency. See [Latency](/help/technotes/latency.md) in the Technotes user guide for more information.
 
 **Why can't I see the device version on iPhones?**
 
@@ -45,16 +45,16 @@ Dimension values can often apply in multiple places; for example, visits that sp
 
 **How do I exclude data from a particular IP addresses in my report suite?**
 
-You can eliminate data from internal website activities, such as site testing and employee usage, from your reports. This feature allows you and your colleagues to visit your site without skewing your traffic data. See [Exclude by IP Address](../../admin/admin/exclude-ip.md) in the Admin user guide for more information.
+You can eliminate data from internal website activities, such as site testing and employee usage, from your reports. This feature allows you and your colleagues to visit your site without skewing your traffic data. See [Exclude by IP Address](/help/admin/admin/exclude-ip.md) in the Admin user guide for more information.
 
 **Can I delete a report suite?**
 
-Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](../../admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](/help/admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
 
 **When using segmentation, what container should I use? Page view, visit, or visitor?**
 
-The segment container you use is depending on how broad you want to capture data. Page view containers only bring in hits that match segment criteria, useful for filtering out irrelevant parts of visits. Visit containers bring it all hits of a visit where one or more hits matched segment criteria, useful for looking at sessions in general. Visitor containers bring in all visits where a hit matched segment criteria, useful for looking at people. It is your choice as an analyst to determine what segment container is best to use. See [Segmentation overview](../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+The segment container you use is depending on how broad you want to capture data. Page view containers only bring in hits that match segment criteria, useful for filtering out irrelevant parts of visits. Visit containers bring it all hits of a visit where one or more hits matched segment criteria, useful for looking at sessions in general. Visitor containers bring in all visits where a hit matched segment criteria, useful for looking at people. It is your choice as an analyst to determine what segment container is best to use. See [Segmentation overview](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
 
 **Why isn't my segment showing up in Data Warehouse?**
 
-Due to Data Warehouse's unique processing architecture, the platform is not optimized to handle some types of data, such as pathing. See [Data Warehouse segment compatibility](../../components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+Due to Data Warehouse's unique processing architecture, the platform is not optimized to handle some types of data, such as pathing. See [Data Warehouse segment compatibility](/help/components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.

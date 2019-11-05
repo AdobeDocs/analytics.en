@@ -23,7 +23,7 @@ You can name your report and configure how to display row and column headers. Th
    |Report Name|Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field.|
    |Filters Parameters|Displays the dimension filters, such as a search filter.|
    |Segment|Displays the segment parameter.|
-   |Data Recency|Displays data recency parameters. For example:    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](../../../analyze/report-builder/options.md) for information about current data processing.|
+   |Data Recency|Displays data recency parameters. For example:    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](/help/analyze/report-builder/options.md) for information about current data processing.|
 
    Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
 
@@ -39,6 +39,6 @@ You can name your report and configure how to display row and column headers. Th
 
    **Perform Auto-Outline:** Transforms the date returned by report builder from a list view to a tree view.
 
-   **Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL Report] name in the [!UICONTROL Request Manager]. See [Name a Request](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D).
+   **Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL Report] name in the [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Click **[!UICONTROL OK]**.

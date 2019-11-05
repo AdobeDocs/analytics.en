@@ -20,7 +20,7 @@ Dropdown filters are a flexible and robust feature in Analysis Workspace that al
 1. Use ctrl+click (Windows) or cmd+click (Mac) on the components that you would like to include in the dropdown. You are not limited to just segments; any component can be included in a dropdown filter.
 2. Drag the group of components into the workspace area labeled 'Drop a Segment Here'. Before letting go, hold Shift.
 
-Users accessing this workspace project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](../../analyze/analysis-workspace/c-panels/panels.md) in the Analytics user guide for more information.
+Users accessing this workspace project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Analytics user guide for more information.
 
 **I'm used to clicking on a dimension value to see a drilldown. How can I replicate that easy workflow in Analysis Workspace?**
 

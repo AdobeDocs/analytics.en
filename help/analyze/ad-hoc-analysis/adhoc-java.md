@@ -42,4 +42,4 @@ There are a few known limitations in the Java 11 version compatible with Ad Hoc 
 
 ![](/help/analyze/ad-hoc-analysis/assets/error-java.png)
 
-A: If you get this error, work with your IT team to set the *JAVA_HOME* environment variable which is required to run Ad Hoc Analysis in Java 11. 
+A: If you get this error, work with your IT team to set the *JAVA_HOME* environment variable which is required to run Ad Hoc Analysis in Java 11.

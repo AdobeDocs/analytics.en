@@ -13,21 +13,17 @@ uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 
 Learn how to assign cost and budget amounts to channels.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-Learn how to assign cost and budget amounts to channels.
-
 Cost represents what you spend on the channel. Budget represents the amount available to spend.
 
 A useful way to view your ROI is to create a calculated metric that shows revenue minus costs. Or create one that shows the total cost along with a breakdown of cost per new engagement. For example, you can run a [!UICONTROL First-Touch Channel] report showing new engagements. Then add a First-Touch Cost metric that shows you the cost per new engagement, by creating a calculated metric.
 
-See [Calculated metrics used Marketing Channel reports](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+See [Calculated metrics used Marketing Channel reports](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 You can assign costs and budgets only to channels. All costs are given a time range over which they apply in reporting. When costs are associated with a channel directly, an allocation metric is chosen to show how costs break down across campaigns within a channel.
 
 After you add cost and budget items, you can export the table data to a CSV file. You can also import a CSV file to the Marketing Channel Costs page.
 
-## Add cost and budget items {#task_9238A033994440748960DE21593E6388}
+## Add cost and budget items {#add-cost-and-budget}
 
 Add cost and budget items to Marketing Channels.
 
@@ -41,11 +37,9 @@ Add cost and budget items to Marketing Channels.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 Field definitions for Marketing Channel Costs or Budgets.
-
-
 
 | Field  | Definition  |
 |--- |--- |

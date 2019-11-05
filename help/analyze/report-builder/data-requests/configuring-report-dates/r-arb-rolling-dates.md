@@ -22,7 +22,7 @@ Field definitions for rolling dates in report builder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Customize Expression </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> Customized Date Expressions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Customized Date Expressions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> As of Date </p> </td> 

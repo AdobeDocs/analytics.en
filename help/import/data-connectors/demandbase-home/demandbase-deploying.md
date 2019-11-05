@@ -74,7 +74,7 @@ After completing the integration wizard, you must deploy the integration code to
 1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
 1. If applicable, make any necessary modifications to the code. For more information, see Modifying the Integration Code (on this page).
-1. Include the Integrate Module if it is not already present in your Adobe Analytics deployment code.  
+1. Include the Integrate Module if it is not already present in your Adobe Analytics deployment code.
 1. Deploy the code using one of the following methods:
 
     * Use Adobe TagManager or Dynamic Tag Management to add the code.

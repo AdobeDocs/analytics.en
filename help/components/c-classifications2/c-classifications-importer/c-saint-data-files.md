@@ -13,11 +13,11 @@ uuid: f27bb812-56e0-472a-9993-d869f0fea700
 
 The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
 
-To help you create valid data files, you can download a template file that provides a file structure into which you can paste the classifications data. For more information, see [Download Classifications Template](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+To help you create valid data files, you can download a template file that provides a file structure into which you can paste the classifications data. For more information, see [Download Classifications Template](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 
-See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for more information about character limits in classifications.
+See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 ## General file structure
 
@@ -30,7 +30,7 @@ A data file must adhere to the following structure rules:
 * Classifications cannot have a value of 0 (zero).
 * Adobe recommends that you limit the number of import and export columns to 30.
 * Uploaded files should use UTF-8 without BOM character encoding.
-* Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](../../../components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md#task_EB47E80063F14F9CB2D186C0CAA9CBAD). Special characters include:
+* Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Special characters include:
 
   ```
   \t     tab character 
@@ -56,7 +56,7 @@ A data file must adhere to the following structure rules:
     * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
     * Make sure you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
 
-* The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF).
+* The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 * Immediately following the header row in a data file are the data rows. Each line of data should contain a data field for each column heading.
 * The data file supports the following control codes, which Adobe uses to provide structure to the file, and correctly import classifications data: 
 
@@ -74,11 +74,11 @@ A data file must adhere to the following structure rules:
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Requests that Adobe automatically generate a unique id for this element. </p> <p>In the campaign context, this control value instructs Adobe to assign an identifier to each creative element. See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> Key </a>. </p> </td> 
+   <td colname="col2"> <p>Requests that Adobe automatically generate a unique id for this element. </p> <p>In the campaign context, this control value instructs Adobe to assign an identifier to each creative element. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Key </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Designates that the data column represents the date range associated with the item. See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Date </a>. </p> </td> 
+   <td colname="col2"> <p>Designates that the data column represents the date range associated with the item. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Date </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empty field </p> </td> 
@@ -86,7 +86,7 @@ A data file must adhere to the following structure rules:
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER Modifiers </p> </td> 
-   <td colname="col2"> <p>Designates that the data column represents a <span class="wintitle"> PER Modifier </span> field. See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_7E199A26E3274B31B07CCAF8DFE3B274" format="dita" scope="local"> PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>Designates that the data column represents a <span class="wintitle"> PER Modifier </span> field. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

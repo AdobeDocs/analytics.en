@@ -32,11 +32,11 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 4. Click the 'Create New Project' button.
 5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
 6. On the left, a list of dimensions, metrics, segments, and date ranges is shown. Locate the Pages dimension (colored orange), and drag it onto the canvas labeled 'Drop a Dimension Here'.
-7. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
+7. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
 8. A table in Google Analytics typically contains 7-8 metrics. Locate the Bounce Rate metric (colored green), and drag it next to the Occurrences metric header. If you drag the Bounce Rate metric next to Occurrences, both metrics are displayed side-by-side.
 9. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
 
-    ![New metric](../assets/new_metric.png)
+    ![New metric](/help/technotes/ga-to-aa//assets/new_metric.png)
 
 ## Start with a pre-built report template in Workspace
 
@@ -46,7 +46,7 @@ Create the Content Consumption template (similar to the All Pages report in Goog
 2. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates.
 3. Browse each of the visualizations that have been pre-built: Entry Page Flow, Top Pages Table, Exit Page Flow, Entry Site Section Flow, and Top Site Sections Table.
 
-    ![Template selection](../assets/content_consumption_template.png)
+    ![Template selection](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
 ## Experiment with the tool
 

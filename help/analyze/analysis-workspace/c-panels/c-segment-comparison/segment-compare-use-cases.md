@@ -52,7 +52,7 @@ A major B2B services company wanted to understand the type of traffic that paid 
 
 > *"We found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"*
 
-A major online retailer was interested in how one of the hottest holiday products, Fitbit, was selling and what made Fitbit purchasers unique among other customers. Using segment comparison, they found that users purchasing Fitbits were 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team directed these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and satisfied more of their holiday demand.
+**Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the “Fitbit” line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an “out of stock” message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

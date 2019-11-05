@@ -18,17 +18,17 @@ Ad Hoc Analysis includes familiar features for building segments, plus new featu
 
 For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) documentation.
 
-* [New Features](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
+* [New Features](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
 * [Segment Definition Changes](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html) 
-* [What happened to my existing segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE) 
-* [What happened to my existing segment folders?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30) 
-* [Can I manage all Analytics' segments in the Segment Manager?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489) 
-* [What is a Hit Container? Is it different from a Page View Container?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256) 
-* [What rights and privileges do I need to use, create, and manage segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707) 
-* [What should I do with duplicate segments that have the...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C) 
-* [How does Adobe recommend that I clean up segments?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49) 
-* [Why can't I delete this segment?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D) 
-* [More on what happens to your existing segments](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [What happened to my existing segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE) 
+* [What happened to my existing segment folders?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30) 
+* [Can I manage all Analytics' segments in the Segment Manager?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489) 
+* [What is a Hit Container? Is it different from a Page View Container?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256) 
+* [What rights and privileges do I need to use, create, and manage segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707) 
+* [What should I do with duplicate segments that have the...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C) 
+* [How does Adobe recommend that I clean up segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49) 
+* [Why can't I delete this segment?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D) 
+* [More on what happens to your existing segments](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -113,7 +113,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visits from Paid Search </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visits with Visitor ID Cookie </li> 
     </ul> </td> 
-   <td colname="col2"> <p>These segments will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> segment templates</a> into the segment builder. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
+   <td colname="col2"> <p>These segments will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > segment templates</a> into the segment builder. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite) segments: 
@@ -126,7 +126,7 @@ If the segment was [published to the Experience Cloud](https://marketing.adobe.c
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visits with 5+ Previous Visits* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visits from Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Most of these segments (except the ones marked with an asterisk *) will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> segment templates</a> into the segment builder. Additionally, several new segment templates have been added. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
+   <td colname="col2"> <p> Most of these segments (except the ones marked with an asterisk *) will be migrated over as <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > segment templates</a> into the segment builder. Additionally, several new segment templates have been added. </p> <p>Existing reports that have these segments applied will continue to work correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Admin segments <p>(also known as "Global" segments) </p> </td> 

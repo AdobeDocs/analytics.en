@@ -36,8 +36,8 @@ c_legacy_data.xml
 
 **To access historical date slices**
 
-1. [Create](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403) or open a project.
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. [Create](/help/analyze/ad-hoc-analysis/c-getting-started.md) or open a project.
+1. Open the [calendar](/help/analyze/ad-hoc-analysis/c-dates.md), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
 
 > [!NOTE] Historical date slices lie within quarter and year constraints. You cannot view data crossing the boundary between legacy slices and the new processing platform. Date ranges that span both results in an error. Additionally, the date ranges apply only to the Gregorian calendar, not to the Custom Calendar.
 

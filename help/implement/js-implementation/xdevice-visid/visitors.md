@@ -18,7 +18,7 @@ uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 
 Analytics counts each unique effective visitor ID as a unique visitor.
 
- If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 3 times: at hits 1, 9, and 10. This occurs because the effective [!UICONTROL visitor ID] is the same for both server calls, and occurs even though the visits might be several hours apart and on different devices.
+ If you look at the [previous table](/help/implement/js-implementation/xdevice-visid/visit-example.md), this occurred 3 times: at hits 1, 9, and 10. This occurs because the effective [!UICONTROL visitor ID] is the same for both server calls, and occurs even though the visits might be several hours apart and on different devices.
 
 This can increase the number of unique visitors you see when cross-device visitor identification is enabled. The visitor might be counted twice on the same visit: once for the initial visit and again after the user is authenticated.
 

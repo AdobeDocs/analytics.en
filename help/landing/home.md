@@ -8,6 +8,8 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 # Adobe Analytics Documentation
 
+Welcome to the Adobe Analytics product and technical documentation home page. Here you can find self-help and support information for reporting tools like [!UICONTROL Analysis Workspace], [!UICONTROL Report Buidler], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]. You can also access documentation for product and user administration, implementation, and all the features supported in Adobe Analytics.
+
 [![Tools](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Administration tasks for configuring report suites, data governance, server call usage, and more.
@@ -26,11 +28,11 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)&emsp;[Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/) &ndash; Data Workbench Client, Installation, Dataset Configuration, and more
 
-[![Technotes](assets/technotes_50px.png)](../technotes/home.md)&emsp;[Analytics Tech Notes](../technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+[![Technotes](assets/technotes_50px.png)](/help/technotes/home.md)&emsp;[Analytics Tech Notes](/help/technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 
 | New and Featured Items | Key Analytics Resources |
 | --- | --- |
-| <ul><li>[Regional Data Collection](../technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
+| <ul><li>[Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube channel](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics tutorials and videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
 
 <!-- Keep around for now
 
@@ -38,13 +40,13 @@ seo-description: Full list of Adobe Analytics tech docs, release notes and self-
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
-* [Report Builder](../analyze/report-builder/home.md)
-* [Data Warehouse](../export/data-warehouse/data-warehouse.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Report Builder](/help/analyze/report-builder/home.md)
+* [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-* [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
+* [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
+* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 
@@ -75,7 +77,7 @@ Support delegates can get assisted support via:
 **In-Product:**
 
 1.  [Sign in to Adobe Analytics.](https://sc.omniture.com/login/)
-2.  Navigate to **Help** > **Customer Care**.  
+2.  Navigate to **Help** > **Customer Care**.
 
 **Phone:** 1-800-497-0335 (US & Canada).
 
@@ -86,5 +88,5 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).
  -->

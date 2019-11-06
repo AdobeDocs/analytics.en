@@ -16,4 +16,4 @@ Steps that describe how to generate an Excel spreadsheet containing all the sett
 1. Select a report suite from the [!UICONTROL Report Suite] table.
 1. Click **[!UICONTROL Download]**.
 
-   You can open the spreadsheet file directly, or save it for viewing. 
+   You can open the spreadsheet file directly, or save it for viewing.

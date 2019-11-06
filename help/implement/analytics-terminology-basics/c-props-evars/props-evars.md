@@ -13,7 +13,7 @@ uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 
 Custom traffic variables, also called props (s.prop) or property variables, are counters that count the number of times each value is sent into Analytics.
 
-When determining which variables are assigned where, it is important to understand the differences between Prop and eVar functionality. Understanding these differences allows your organization to decide which type of variable is best to use. For detailed information, see [Comparing Props and eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+When determining which variables are assigned where, it is important to understand the differences between Prop and eVar functionality. Understanding these differences allows your organization to decide which type of variable is best to use. For detailed information, see [Comparing Props and eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Props also let you correlate custom data with specific traffic-related events. These variables are embedded in the [!DNL Analytics] code on each page of your website. Through [!UICONTROL s.prop] variables, [!DNL Analytics] lets you create custom reports, unique to your organization, industry, and business objectives.
 
@@ -36,4 +36,4 @@ In a conversion site, eVars may be used to track how logged-in visitors compare 
 
 For additional information, see [Traffic Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in the Analytics Help and Reference.
 
-For information about setting up properties in Digital Tag Management, see [Create Web Property](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+For information about setting up properties in Digital Tag Management, see [Create Web Property](/help/implement/c-implement-with-dtm/t-create-web-property.md).

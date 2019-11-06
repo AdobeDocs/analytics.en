@@ -34,7 +34,7 @@ Metrics are calculated using standard, participation, recent, and linear allocat
   </tr> 
   <tr> 
    <td colname="col1"> Participation </td> 
-   <td colname="col2"> <p>Assigns full credit to each variable value that contributed to a success event within a visit. This calculation can also apply across visitor sessions, if you use cross-visit participation metrics. </p> <p>See <a href="../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477" format="dita" scope="local"> Participation</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Assigns full credit to each variable value that contributed to a success event within a visit. This calculation can also apply across visitor sessions, if you use cross-visit participation metrics. </p> <p>See <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participation</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>

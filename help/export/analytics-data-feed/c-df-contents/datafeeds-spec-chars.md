@@ -14,9 +14,9 @@ uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 
 Information about special characters used in the data feed.
 
-* [Special characters in the hit_data file](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E) 
-* [Special characters in multi-valued variables (events_list, products_list, mvvars)](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC) 
-* [Sample workflow](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+* [Special characters in the hit_data file](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E) 
+* [Special characters in multi-valued variables (events_list, products_list, mvvars)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC) 
+* [Sample workflow](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
 
 ## Special characters in the hit_data file {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
 

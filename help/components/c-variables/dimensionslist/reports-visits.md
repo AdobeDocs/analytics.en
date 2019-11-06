@@ -20,12 +20,12 @@ Displays the number of visits made to your entire website during a specified tim
 * The beginning of a visit is the first image request coming from a new visitor, or after an existing user's visit has expired. This can be identified as the Entry Page.
 * The end of a visit is the last image request before a visit expires. This can be identified as the Exit Page.
 
-  See [Entries and Exits Reports](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+  See [Entries and Exits Reports](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Hourly breakdowns are based on the report suite's time zone.
 * This report does not contain line items. You view it only in the trended format.
 * Granularity of hour, day, week, month, quarter, and year can be applied. These granularity settings are available depending on the reporting date range.
 
-See [Visit Metric](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E) for more information about how the Experience Cloud processes this metric.
+See [Visit Metric](/help/components/c-variables/c-metrics/metrics-visit.md) for more information about how the Experience Cloud processes this metric.
 
 **Product Specific Report Information** 
 

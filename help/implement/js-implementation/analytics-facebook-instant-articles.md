@@ -78,7 +78,7 @@ The sample HTML below can be used to capture stats from the instant articles. Th
     1. Your company's tracking server domain.
     1. Your visitor namespace variable. **Note:** Many of these values can be found within your standard Analytics implementation. Customer Care or Adobe Consulting can assist in providing the proper values if necessary.
 
-1. [Set custom variable and event tracking](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [Set custom variable and event tracking](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Include the page view image request syntax `( s.t())`.
 
 ## Step 3. Set custom variable and event tracking {#section_932C41BD21154C25B99389299BDF3E0B}

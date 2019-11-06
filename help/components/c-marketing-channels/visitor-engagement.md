@@ -13,10 +13,6 @@ uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 
 Learn how to specify visitor engagement expiration in Marketing Channels.
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
-
-Learn how to specify visitor engagement expiration in Marketing Channels.
-
 Visitor engagement is how much time you want to allow for the visitor's previous activity on your site to be attributed to the first touch channel.
 
 For example, visitors often click through a Paid Search campaign and add products to a cart, but they end the session before the conversion event. If the visitor returns later to make a purchase, you can specify whether their previous and current activity counts as one engagement. The default expiration setting is 30 days.
@@ -27,7 +23,7 @@ For example, visitors often click through a Paid Search campaign and add product
 |Never|The visitor's engagement period does not expire.|
 |Channel Reset|Expires all visitor engagement periods.  If you have need to reset all marketing channel data you can expire all visitor engagement periods. You may need to reset data if your processing rules were previously configured incorrectly. All first and last touch channel values will immediately expire and be reset when visitors return.|
 
-## Specify visitor engagement expiration {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Specify visitor engagement expiration {#specify-visitor-expire}
 
 Specify the visitor engagement expiration.
 

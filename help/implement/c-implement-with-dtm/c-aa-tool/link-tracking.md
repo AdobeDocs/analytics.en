@@ -26,7 +26,7 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> Enable ClickMap </td> 
-   <td colname="col2"> <p>Determines whether visitor click map data is gathered. </p> <p>See <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.trackInlineStats</a>. </p> </td> 
+   <td colname="col2"> <p>Determines whether visitor click map data is gathered. </p> <p>See <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.trackInlineStats</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Track download links </td> 

@@ -26,9 +26,9 @@ If you implement Adobe Analytics products and services with cookies set on domai
 
 More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
 
-* [Opt-out Page URL Structure](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748) 
-* [Example Opt-Out URLs](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E) 
-* [Branding your Opt-Out URL](../../../implement/js-implementation/data-collection/opt-out-link.md#section_674AB62E810B414AB8F1615C0E3061F8)
+* [Opt-out Page URL Structure](/help/implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748) 
+* [Example Opt-Out URLs](/help/implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E) 
+* [Branding your Opt-Out URL](/help/implement/js-implementation/data-collection/opt-out-link.md#section_674AB62E810B414AB8F1615C0E3061F8)
 
 ## Opt-out Page URL Structure {#section_E0462428D2E440E7863E24D2F6DBF748}
 

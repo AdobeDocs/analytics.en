@@ -30,7 +30,7 @@ Visitors can learn more about how Adobe generally uses information it collects i
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors.
+* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](/help/implement/js-implementation/data-collection/opt-out-link.md) for your website visitors.
 * Your customers have the option of enabling opt-out using the browser's cookie settings. See [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Regardless of the opt-out mechanism you choose, Adobe recommends that you clearly describe the availability of the opt-out mechanism in your privacy policy or as otherwise required by law or recommended according to current best practices.

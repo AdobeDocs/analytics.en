@@ -21,7 +21,7 @@ When visitor profiles are merged after being associated with the same visitor ID
 * If a profile exists, the visitor profile that is already in the system is used from that point forward and the previous visitor profile is no longer used.
 * If no matching visitor ID is found, a new profile is created.
 
-When an un-authenticated customer first arrives at your site, that customer is assigned a visitor profile by Adobe Analytics. As shown in [Unique Visitor and Visits Counts](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), on authentication a new profile is created. When the new profile is created, one visit ends and another visit starts.
+When an un-authenticated customer first arrives at your site, that customer is assigned a visitor profile by Adobe Analytics. As shown in [Unique Visitor and Visits Counts](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), on authentication a new profile is created. When the new profile is created, one visit ends and another visit starts.
 
 **On the first data connection**
 
@@ -54,7 +54,7 @@ When the customer authenticates his or her id is matched to the previous 'authen
 
 * Geo-Segmentation data is recorded based on the first hit of the visit and does not change for a single visit regardless of the device used. This means on a subsequent data connection on a new device, geo-Segmentation data is generally not included.
 * Technology columns such as browser, operating system, and color depth are recorded on the first hit of a visit. Like Geo-Segmentation values, they will not be copied to the stitched profile.
-* A Marketing Channel such as Direct or Internal which is commonly set up to not overwrite another channel will overwrite other channels on a subsequent data connection containing a first authentication for that device, such as the first authentication shown in [Unique Visitor and Visits Counts](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
+* A Marketing Channel such as Direct or Internal which is commonly set up to not overwrite another channel will overwrite other channels on a subsequent data connection containing a first authentication for that device, such as the first authentication shown in [Unique Visitor and Visits Counts](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
 
 **Special cases**
 

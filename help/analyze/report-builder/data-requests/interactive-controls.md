@@ -53,7 +53,7 @@ Interactive controls were created in response to a common workflow where analyst
 
     * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. This means that the copied request will point to the same interactive date range control as the original request.
     
-    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. This mean that the copied request will point to its own control.     
+    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. This mean that the copied request will point to its own control.
     
       >[!NOTE]
       >

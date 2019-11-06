@@ -25,7 +25,7 @@ These features enable you to answer questions about site traffic, visitor demogr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Launch Ad Hoc Analysis. </p> </td> 
@@ -33,20 +33,20 @@ These features enable you to answer questions about site traffic, visitor demogr
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Create a project. </p> </td> 
-   <td colname="col2"> <p>On the start-up page, select a report suite, then click <span class="uicontrol"> Create Project</span>. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>On the start-up page, select a report suite, then click <span class="uicontrol"> Create Project</span>. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Open a report. </p> </td> 
-   <td colname="col2"> <p>Search for a report using the standard Cloud report menu. You can also choose a template. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> Report Templates</a>. </p> </td> 
+   <td colname="col2"> <p>Search for a report using the standard Cloud report menu. You can also choose a template. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Report Templates</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configure the report. </p> </td> 
    <td colname="col2"> <p>Configure reports by performing tasks, such as: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Create segments to dig deeper into data </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Adding metrics, dimensions, and segments to the <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Table Builder</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Scheduling</a> report delivery </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Adding metrics, dimensions, and segments to the <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Table Builder</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > date ranges</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Scheduling</a> report delivery </li> 
     </ul> <p>Search this help system to locate the help you need. </p> </td> 
   </tr> 
  </tbody> 

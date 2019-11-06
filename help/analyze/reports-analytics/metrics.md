@@ -12,17 +12,17 @@ uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
-## Metrics {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Metrics 
 
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
 Metrics and associated data are displayed in the columns of reports. Traffic metrics show data about the volume of visitors. Conversion metrics show data about success events, such as purchases, downloads, or any other action that you want users to take on your website.
 
-[Calculated metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) are created by combining metrics.
+[Calculated metrics](/help/components/c-calcmetrics/cm-overview.md) are created by combining metrics.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Select default report metrics {#task_9537A607288A4450AE07EC7C070B47C6}
+## Select default report metrics 
 
 Steps that describe how to select default metrics at the report level.
 

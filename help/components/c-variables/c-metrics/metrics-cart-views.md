@@ -18,6 +18,6 @@ Event in which the contents of the shopping cart are viewed by the customer. Thi
 |  Conversion  |Instance of the [!UICONTROL cart view] event being set. Occurs when the items in a shopping cart are viewed.  |
 |  Ad Hoc Analysis  |Instance of the [!UICONTROL cart view] event being set. Occurs when the items in a shopping cart are viewed.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Shopping Cart Report](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)

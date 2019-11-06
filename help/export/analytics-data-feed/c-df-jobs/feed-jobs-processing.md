@@ -31,7 +31,7 @@ Feed Name, Start Time, and Status are required columns and cannot be removed fro
 |  Feed Name  | Name of the feed.  |
 |  Start Time  | Start name for the job, shown in your time zone.  |
 |  Running Time  | The amount of time needed for the job to run. Shown as dd hh:mm:ss.  |
-|  Status  |The current [status](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA) of the job.  |
+|  Status  |The current [status](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md) of the job.  |
 |  Completion Time  | The time when the job finished running. Shown in your time zone.  |
 |  Requested Date  | Data stamp for the data contained in the job.  |
 

@@ -12,14 +12,14 @@ uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 
 Create an Adobe Analytics tool for deployment using [!UICONTROL Dynamic Tag Management]. This procedure describes a manual (legacy) implementation.
 
-For information about automatic implementation management, see [Add Adobe Analytics Tool](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+For information about automatic implementation management, see [Add Adobe Analytics Tool](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
 
 If you want to change a manual configuration to automatic, edit a tool and click **[!UICONTROL Enable Automatic Configuration]**.
 
 1. Download Analytics measurement code:
    1. In Analytics, click **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
    1. Click **[!UICONTROL JavaScript (new)]** to download the code locally.
-1. In [!UICONTROL Dynamic Tag Management], [create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+1. In [!UICONTROL Dynamic Tag Management], [create a web property](/help/implement/c-implement-with-dtm/t-create-web-property.md).
 
    ![](assets/dtm-property.png)
 
@@ -49,11 +49,11 @@ If you want to change a manual configuration to automatic, edit a tool and click
 
    At a minimum, click **[!UICONTROL Cookies]** and configure your tracking server and SSL tracking server.
 
-1. Click **[!UICONTROL General]** and [insert the core AppMeasurement code](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658).
-1. Define a [page load rule](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) to collect [!DNL Analytics]data.
+1. Click **[!UICONTROL General]** and [insert the core AppMeasurement code](/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md).
+1. Define a [page load rule](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) to collect [!DNL Analytics]data.
 
    You are now ready to define rules to collect analytics data. You might want to define a few data elements first. Data elements let you extract data from the page that you can use to configure your rule. To get started, you can define a page load rule that does not have any conditions to collect [!DNL Analytics] data on each page.
-1. [Add the header and footer code](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5) on the Embed tab.
+1. [Add the header and footer code](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md) on the Embed tab.
 
    For staging, you can leave the default Amazon hosting option. You can change it if needed before your production rollout.
 1. (Optional) Click **[!UICONTROL Settings]** ![](assets/settings_gear.png) on the Options tab, and configure the Adobe Analytics code.

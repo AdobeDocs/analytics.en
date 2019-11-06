@@ -12,7 +12,7 @@ uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 
 Create a data element in Dynamic Tag Management.
 
-1. [Create Web Property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123), if you haven't done so already.
+1. [Create Web Property](/help/implement/c-implement-with-dtm/t-create-web-property.md), if you haven't done so already.
 1. In the web property, click **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]**.
 1. Click **[!UICONTROL Create New Data Element]**.
 1. Complete the following fields and options:
@@ -31,7 +31,7 @@ Create a data element in Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Specifies where the data is pulled from, such as JS Object, CSS Selector, Cookie, URL Parameter, or Custom Script. </p> <p>Depending on which type you select, different options display. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html" format="html" scope="external"> Types of Data Elements</a> in the Dynamic Tag Management Product Documentation for more information and examples. </p> </td> 
+      <td class="chdesc stentry"> <p> Specifies where the data is pulled from, such as JS Object, CSS Selector, Cookie, URL Parameter, or Custom Script. </p> <p>Depending on which type you select, different options display. See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html"> Types of Data Elements</a> in the Dynamic Tag Management Product Documentation for more information and examples. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Default Value</strong></td> 

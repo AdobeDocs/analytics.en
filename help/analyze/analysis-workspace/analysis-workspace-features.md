@@ -19,7 +19,9 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-> [!NOTE] See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>[!NOTE]
+>
+>See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -31,7 +33,7 @@ Analysis Workspace provides freedom and flexibility:
 
 ![](assets/fa_project_new.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
 
@@ -43,11 +45,11 @@ Create a project showing the percent of change, with multiple visualizations cor
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. To add intra-linking to your project:
+In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. To add intra-linking to your project:
 
 1. Drag a text visualization into a project, maybe next to a visualization or table that needs some context.
 1. Populate the text box with, for example, a table of content, then highlight an item that you want to link to a panel or visualization, for example Success Metrics.
@@ -71,7 +73,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
-Select individual cells and see the visualizations change dynamically. [Synchronize and lock](../../analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) a visualization with selected cells.
+Select individual cells and see the visualizations change dynamically. [Synchronize and lock](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) a visualization with selected cells.
 
 ![](assets/visualize-selected-cells.png)
 
@@ -81,7 +83,7 @@ Locking visualizations lets you control which freeform data table sources corres
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
+See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -99,7 +101,7 @@ As a retailer, you can dive deeper than ever before into your campaigns to under
 
 ![Step Result](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
+See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 ## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
 
@@ -113,7 +115,7 @@ Drop a segment to the freeform panel at the project level, and the segment is ap
 
 ![](assets/segment-panel.png)
 
-See [Segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+See [Segments](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -136,7 +138,7 @@ Perform component-level actions from the Actions menu at the top of the componen
 |Share|Applies only to segments.|
 |Delete|Applies only to segments.|
 
-See [Visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
+See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -159,7 +161,7 @@ There is no technical limit on the number of freeform tables and visualizations 
 * Sort date range presets (does not include custom date ranges).
 * CTRL (or Command) + click + drag a column copies the column, and when you drag the copy, it is pasted into the new position in the table.
 
-See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
+See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
 
 **Selections and actions**
 

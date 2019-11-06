@@ -12,7 +12,7 @@ uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 
 Participation metrics assign full credit from success events to all values of an eVar that were passed during a visit. Participation metrics are useful to determine which pages, campaigns, or other custom variable values are contributing most to the success of your site. Participation is visit based. All eVar values in a visit prior to and including the hit when an event occurs receive participation credit regardless of the expiration setting.
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 Participation metrics have two settings per conversion event:
 
@@ -39,6 +39,6 @@ When displaying Revenue in the Internal Search Terms Report, you would see the f
 
   Participation is similar to linear allocation, except full credit is given to all values. If you use Revenue (Participation) as the metric, allocation is disregarded. Revenue (Participation) in this example would report $120 for both search terms.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Metric Calculations](/help/components/c-variables/c-metrics/metrics-calculations.md)

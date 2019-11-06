@@ -10,8 +10,8 @@ topic: Reports
 Adobe Analytics offers several ways to determine time spent in Analytics reports. In most cases, time spent is calculated using the following steps:
 
 1. For a given hit, look at the timestamp and dimension value.
-1. Compare this hit with the timestamp of the next hit in the visit.
-1. The amount of time that elapsed between these two hits contributes to the time spent for that page.
+2. Compare this hit with the timestamp of the next hit in the visit.
+3. The amount of time that elapsed between these two hits contributes to the time spent for that page.
 
 When viewing time spent dimension data, keep the following in mind:
 

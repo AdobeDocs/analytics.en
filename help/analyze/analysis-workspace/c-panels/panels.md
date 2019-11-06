@@ -12,7 +12,7 @@ A panel is a collection of tables & visualizations. You can access panels from t
 
 Blank panel & Freeform panel are places to start your analysis, while Attribution IQ and Segment Comparison lend themselves to more advanced analyses. We've also added a "+" panel button so you can add blank panels at any time.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2) you default as well.
+The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) you default as well.
 
 ## Drop-down Filters in Panels {#section_D2828EEDD52944528E87F470EAB581CF}
 

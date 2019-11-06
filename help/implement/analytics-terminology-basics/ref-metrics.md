@@ -41,7 +41,7 @@ Metrics are the foundation of reports and help you view and understand data rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calculated metrics </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external"> Calculated metrics</a> enable you to combine metrics to create mathematical operations that are used as new metrics. These metrics can be created for a report to which you add metrics. Administrators can create calculated metrics for all users of a report suite. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html"> Calculated metrics</a> enable you to combine metrics to create mathematical operations that are used as new metrics. These metrics can be created for a report to which you add metrics. Administrators can create calculated metrics for all users of a report suite. </p> </td> 
   </tr> 
  </tbody> 
 </table>

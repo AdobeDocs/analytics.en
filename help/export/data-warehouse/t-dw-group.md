@@ -33,6 +33,6 @@ Steps that describe how administrators can enable Data Warehouse reporting acces
    >
    >In case of conflicting permissions (such as a user assigned to two groups, one of which denies access to a feature and the other grants that same access), the system restricts permission. Users who belong to groups that deny data warehouse access may need to be removed from those groups.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Groups](/help/admin/user-management2/c-user-groups/groups.md)

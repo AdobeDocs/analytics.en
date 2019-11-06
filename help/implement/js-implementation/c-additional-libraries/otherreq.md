@@ -19,7 +19,7 @@ You can view sample code to further understand the implementation. The following
 
 **Case-Sensitive**
 
-The parameter names (`pageName`, `purchaseID`, and so forth) are case-sensitive and will not properly record data unless they appear as designated in the table displayed in [Query Parameters](../../../implement/js-implementation/data-collection/query-parameters.md).
+The parameter names (`pageName`, `purchaseID`, and so forth) are case-sensitive and will not properly record data unless they appear as designated in the table displayed in [Query Parameters](/help/implement/js-implementation/data-collection/query-parameters.md).
 
 **Encode Query Parameters**
 
@@ -29,7 +29,7 @@ The JavaScript version of this function is called escape (and to decode, unescap
 
 **Maximum Variable Length**
 
-Each variable has a maximum length. This length is specified for each variable in [Analytics Variables](../../../implement/js-implementation/c-variables/sc-variables.md). Exceeding the maximum length for a variable causes the value of this variable to be truncated for storage and display in Analytics.
+Each variable has a maximum length. This length is specified for each variable in [Analytics Variables](/help/implement/js-implementation/c-variables/sc-variables.md). Exceeding the maximum length for a variable causes the value of this variable to be truncated for storage and display in Analytics.
 
 **Invalid Characters**
 

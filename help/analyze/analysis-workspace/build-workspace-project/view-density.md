@@ -20,4 +20,4 @@ To set the view density:
 
 1. In Workspace, navigate to **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
-1. Select among the 3 options outlined above and click **[!UICONTROL Save]**. 
+1. Select among the 3 options outlined above and click **[!UICONTROL Save]**.

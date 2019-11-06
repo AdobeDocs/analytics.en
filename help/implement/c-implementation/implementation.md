@@ -28,20 +28,20 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
    <td colname="col1"> Choose an implementation method. </td> 
    <td colname="col2"> <p>Common ways to implement Analytics include: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch </a> (Recommended) <p>This guide tells you everything you need to know about using Adobe's website tag and mobile SDK management capabilities and how to implement them. </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>This guide contains Analytics-specific information to guide you through a Dynamic Tag Management implementation. </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>This guide contains a description of data collection variables and details on implementing data collection code in JavaScript, including <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external"> video </a>. </p> </li> 
-      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDKs </a> <p>Use Analytics SDKs to manage: </p> <p> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/"> Experience Platform Launch </a> (Recommended) <p>This guide tells you everything you need to know about using Adobe's website tag and mobile SDK management capabilities and how to implement them. </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="/help/implement/c-implement-with-dtm/dtm-implementation-overview.md"> Dynamic Tag Management </a> <p>This guide contains Analytics-specific information to guide you through a Dynamic Tag Management implementation. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="/help/implement/js-implementation/javascript-implementation-overview.md"> JavaScript </a> <p>This guide contains a description of data collection variables and details on implementing data collection code in JavaScript, including <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html"> video </a>. </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html"> Analytics SDKs </a> <p>Use Analytics SDKs to manage: </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
-         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> Mobile apps on iOS </a> </li> 
-         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Mobile apps on Android </a> </li> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html"> Mobile apps on iOS </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html"> Mobile apps on Android </a> </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> Set up the Identity Service. </td> 
-   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
+   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>In <code> VisitorAPI.js </code>, add the following visitor ID initialization code at the beginning of the file: </p> 
      <code class="syntax javascript">
@@ -70,18 +70,18 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Validate the implementation. </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Use the Adobe Experience Cloud debugger to verify that data is being sent. </td> 
-   <td colname="col2"> <p>Install the <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
+   <td colname="col2"> <p>Install the <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## More Information {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](/help/implement/c-implementation-methods/choose-implementation-method.md).
 
 For a concise overview of the getting started process and help on quickly setting up your first Analytics report suite, see [Getting Started with Analytics Implementation](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in the Getting Started with Analytics guide.

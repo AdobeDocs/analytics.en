@@ -19,8 +19,8 @@ Information about how Adobe provides access to Data Sources.
 
 Two methods are available to submit data:
 
-* [FTP](../../import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243) 
-* [API](../../import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
+* [FTP](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243) 
+* [API](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
 
 ## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
 

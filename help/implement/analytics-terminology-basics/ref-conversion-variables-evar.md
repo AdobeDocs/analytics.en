@@ -31,7 +31,7 @@ When an eVar is set to a value for a visitor, Adobe automatically remembers that
 
 For more information about variables, see:
 
-* [Variables for Analytics Implementation and Reporting](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) in this help 
+* [Variables for Analytics Implementation and Reporting](/help/implement/js-implementation/c-variables/sc-variables.md) in this help 
 * [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Campaign variable](/help/implement/js-implementation/c-variables/page-variables.md)

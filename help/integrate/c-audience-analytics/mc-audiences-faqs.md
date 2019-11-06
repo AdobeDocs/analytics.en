@@ -20,7 +20,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">If you have emails/addresses/etc in a prop or eVar, consider hashing the data during collection. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external"> turn on IP obfuscation </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  > turn on IP obfuscation </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Talk to your Analytics Admin to see what you are collecting. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Talk to your Legal dept to see what they consider PII. </li> 
     </ul> </td> 
@@ -43,7 +43,7 @@ Answers to questions you might have when implementing Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I create an Analytics destination in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: After creating and saving an Analytics destination, how long will it take until data appears in my selected report suites?</b> </p> </td> 
@@ -134,11 +134,11 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q: Why are the segment visitor counts different between Audience Manager and Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> Visitor Count Differences </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Visitor Count Differences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What is the difference between "audiences" in AAM and "segments" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What is the difference between Customer Attributes and customer data integrated from AAM?</b> </p> </td> 

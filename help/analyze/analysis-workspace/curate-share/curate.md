@@ -25,7 +25,7 @@ Curation lets you limit the components before sharing a project. You can share a
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
-1. [Create and save](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) a project, then click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. [Create and save](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) a project, then click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)

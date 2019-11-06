@@ -12,7 +12,7 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 
 Time abbreviations refer to a particular date when a period begins, not a range of days. A range of days is expressed by specifying a start and an end date for two time abbreviations (or terms).
 
-For information about using proper syntax, see [Syntax Notes](../../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
+For information about using proper syntax, see [Syntax Notes](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 
 * cd = current date (today) 
 * cw = current week (first day of the current week) 

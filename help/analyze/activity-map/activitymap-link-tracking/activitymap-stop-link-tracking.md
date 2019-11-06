@@ -1,6 +1,6 @@
 ---
-description: Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
-seo-description: Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+description: Steps for stopping link tracking in Activity Map or Legacy ClickMap.
+seo-description: Steps for stopping link tracking in Activity Map or Legacy ClickMap.
 seo-title: Stop link tracking
 solution: Analytics
 title: Stop link tracking
@@ -10,7 +10,7 @@ uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 
 # Stop link tracking
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Steps for stopping link tracking in Activity Map or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -21,7 +21,7 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
     <code>
      /*
@@ -39,7 +39,7 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (formerly Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Set the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external"> trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
+   <td colname="col2"> <p>Set the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  > trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 

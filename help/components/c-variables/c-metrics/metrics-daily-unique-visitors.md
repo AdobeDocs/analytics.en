@@ -18,4 +18,4 @@ The number of unduplicated (counted only once) visitors to your website over the
 |  Conversion  |Supports only [!UICONTROL Daily Unique Visitors]. Same definition as traffic, except only counted if there is a conversion-related event.  |
 |  Ad Hoc Analysis  |Unique visitor that accesses your site for a single day. Multiple visits in one day count for a one [!UICONTROL Daily Unique Visitor].  |
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md#concept_9B3F44A4EA4E4F178FF164EF9694F88E).
+See [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).

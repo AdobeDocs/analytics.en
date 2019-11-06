@@ -15,11 +15,11 @@ Information about the requirements for your report suite before using Data Sourc
 
 The following sections list constraints that apply to Data Sources and data imported into marketing reports and analytics.
 
-* [Size Limits](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18) 
-* [Dates](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2) 
-* [General](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF) 
-* [Multi-Byte Support](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22) 
-* [Uploading Web Log Files](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Size Limits](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18) 
+* [Dates](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2) 
+* [General](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF) 
+* [Multi-Byte Support](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22) 
+* [Uploading Web Log Files](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## Size Limits {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -39,7 +39,7 @@ The following sections list constraints that apply to Data Sources and data impo
 
 * When you upload a Data Sources file, Data Sources performs basic data validation to make sure the file does not contain formatting errors. If an error is encountered in a file, an email notification is sent and processing stops.
 * Data fields cannot contain semi-colons. Data Sources skips records that contain a semi-colon.
-* Data from Web Log, Traffic, and some Generic Data Sources groupings are not available in Data Warehouse or Discover. For more information, see [Data Types and Categories](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* Data from Web Log, Traffic, and some Generic Data Sources groupings are not available in Data Warehouse or Discover. For more information, see [Data Types and Categories](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Data Sources do not support serialized events.
 
 ## Multi-Byte Support {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -56,7 +56,7 @@ Data Sources supports multi-byte encoding. Data Sources attempts to detect the f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external"> New Report Suite</a> in Help </p> </td> 
+   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  > New Report Suite</a> in Help </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 

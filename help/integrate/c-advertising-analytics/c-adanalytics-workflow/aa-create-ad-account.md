@@ -8,7 +8,7 @@ uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 
 Adobe Analytics Administrators can create new advertising accounts and map multiple accounts to multiple report suites (1:1, 1:Many, Many:Many).
 
-Administrators can also [grant access to non-admins](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) for setting up advertising accounts.
+Administrators can also [grant access to non-admins](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) for setting up advertising accounts.
 
 ![](assets/aa_accounts.png)
 
@@ -43,7 +43,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
-        </ul> <p>Refer to <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display 
+        </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display 
         <systemoutput>
           Retrieved
         </systemoutput>. </p> </td> 
@@ -71,7 +71,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">The "s_kwcid" parameter and value will be added to the account tracking templates or landing page URLs in the account being added. This will be inserted at the end of the URL. As a result, additional action may be required on your part if your web server requires a certain key=value pair at the end of the URL OR an update to support any new key=value pair in the URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">In addition, keywords can be inserted into the landing URL as part of the "s_kwcid" value, so if they contain special characters or symbols, please confirm that your web server can support those characters (an example of a common special characters is "+" which is used in "Broad Match Modified" keywords). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Lets you manage how the tracking parameters are added to the Search Engine's tracking templates/destination URLs. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Refer to these manual tracking examples for each search engine</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Lets you manage how the tracking parameters are added to the Search Engine's tracking templates/destination URLs. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Refer to these manual tracking examples for each search engine</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -95,7 +95,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Report Suite Mapping </p> </td> 
-      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external"> map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
+      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -103,7 +103,7 @@ Administrators can also [grant access to non-admins](../../../integrate/c-advert
 1. Click **[!UICONTROL Save]**.
 1. After you save, a disclaimer displays a list of caveats. You are asked to confirm that you have read and you understand this agreement. Click the checkbox, then click **[!UICONTROL OK]**.
 
-   You are now taken to the Advertising Accounts [Management UI](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB), where your newly created account should be listed.
+   You are now taken to the Advertising Accounts [Management UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md), where your newly created account should be listed.
 
 > [!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
 

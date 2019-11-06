@@ -14,7 +14,7 @@ You can view and analyze data anomalies contextually within Analysis Workspace.
 
 [Contribution Analysis on YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] Anomaly Detection is only available in Analysis Workspace. Adobe Analytics Select and Foundation customers only have access to "daily-granularity" Anomaly Detection in Workspace. For more information, see [Anomaly Detection and Contribution Analysis Entitlements](../contribution-analysis/ca-tokens.md).
+>[!IMPORTANT] Anomaly Detection has been removed from the Reports & Analytics feature set and is now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. For more information, see [Anomaly Detection and Contribution Analysis Entitlements](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data.
 

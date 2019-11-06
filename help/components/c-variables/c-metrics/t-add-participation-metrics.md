@@ -12,7 +12,7 @@ uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 
 Steps that describe how to add participation metrics.
 
-Participation has to be [enabled](../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477) for events (1-100) in the Admin Tools before you can add them to a report.
+Participation has to be [enabled](/help/components/c-variables/c-metrics/metrics-participation.md) for events (1-100) in the Admin Tools before you can add them to a report.
 
 You can also create participation metrics in the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) builder.
 

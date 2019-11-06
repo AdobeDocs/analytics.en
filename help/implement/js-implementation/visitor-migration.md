@@ -38,7 +38,7 @@ The following table lists the tasks required for visitor migration:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>To get started:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Contact Customer Care </a> with the domain(s) you want to migrate, and the migration period you would like to enable (30, 60, or 90 days). Make sure you include the non-secure and secure domains. </p> </td> 
+   <td colname="col1"> <p> <b>To get started:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  > Contact Customer Care </a> with the domain(s) you want to migrate, and the migration period you would like to enable (30, 60, or 90 days). Make sure you include the non-secure and secure domains. </p> </td> 
    <td colname="col3"> <p>Create a list with the <i>exact</i> syntax for the domains you want to migrate to and migrate from. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -47,11 +47,11 @@ The following table lists the tasks required for visitor migration:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ hours after configuration change</b>: Update the <code> s.trackingServer</code> and <code> s.trackingServerSecure</code> variables in your Analytics JavaScript code to use the new data collection servers. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="/help/implement/impl-testing/packet-monitor.md"  > Packet Analyzer</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immediately after updating your Analytics code</b>: Test your site to verify that the redirect to the previous data collection domain is occurring. </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. If any of these redirects fail, contact Customer Care immediately to ensure that the migration is configured correctly. </p> </td> 
+   <td colname="col3"> <p>Use a <a href="/help/implement/impl-testing/packet-monitor.md"  > Packet Analyzer</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. If any of these redirects fail, contact Customer Care immediately to ensure that the migration is configured correctly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>For the entire migration period</b>: Keep the DNS record for the previous hostname active. </p> </td> 

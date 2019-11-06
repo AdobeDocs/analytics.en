@@ -38,7 +38,7 @@ Before starting the Data Connectors integration for , complete the following req
 ## Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
 * **Report Suite Specific:** Be advised this integration is report-suite specific. Ensure that you have selected the desired report suite prior to activating the integration.
-* **Available and configured Analytics variables:** This integration requires custom events and custom eVars, and optionally additional events and additional eVars.  
+* **Available and configured Analytics variables:** This integration requires custom events and custom eVars, and optionally additional events and additional eVars.
 
 * **Authorized Representative:** Be advised that the enablement of this integration might cause your company to incur fees in accordance with your service agreement with Adobe, Inc. or your service agreement with one of Adobe's trusted partners, as applicable. By activating this integration, you hereby represent that you are an authorized representative of your company; and as such, your company agrees to pay the fees, if any, set forth in the service agreement described above.
 * **Data Warehouse™:** This integration requires Data Warehouse to be enabled in order to generate remarketing segments. If you have not enabled Data Warehouse, contact Adobe for details.

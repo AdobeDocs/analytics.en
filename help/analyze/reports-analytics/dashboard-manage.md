@@ -82,7 +82,7 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 
    The copied dashboard opens in the dashboard layout editor.
 
-   See [Editing Dashboard and Reportlet Data](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   See [Editing Dashboard and Reportlet Data](/help/analyze/reports-analytics/dashboard.md).
 
 ## Share a dashboard
 
@@ -103,7 +103,7 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 1. Open a dashboard.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## Archive a dashboard
 

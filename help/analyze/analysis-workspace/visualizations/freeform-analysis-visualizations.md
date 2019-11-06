@@ -29,7 +29,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
 
 >[!IMPORTANT]
 >
->Which visualization settings are visible depends on the visualization. Not all settings apply to all visualizations. In addition, some advanced settings appear **only** for specific visualizations, such as the [Histogram settings](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>Which visualization settings are visible depends on the visualization. Not all settings apply to all visualizations. In addition, some advanced settings appear **only** for specific visualizations, such as the [Histogram settings](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -63,7 +63,7 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalization </p> </td> 
-   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalization</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Display Dual Axis </p> </td> 

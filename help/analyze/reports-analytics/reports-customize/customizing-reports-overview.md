@@ -32,7 +32,7 @@ Only administrators can create a custom report. When you create a custom report,
 
    Ensure that you do not duplicate an existing report name.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 

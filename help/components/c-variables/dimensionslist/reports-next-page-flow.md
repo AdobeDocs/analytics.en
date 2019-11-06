@@ -32,7 +32,7 @@ Use this report to:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Click <span class="uicontrol"> Graphical</span> to see two levels of the most popular pages that your visitors view after the selected page. The report also highlights when visitors exit your site. </p> <p>Click <b>Tabular</b> to see the next pages in a list similar to the <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Next Page Report</a>. However, it also allows lets you drill into each <i>Next Page</i> to view the next pages in each two-page flow. </p> <p>Reports &amp; Analytics uses path views. </p> </td> 
+   <td colname="col2"> <p> Click <span class="uicontrol"> Graphical</span> to see two levels of the most popular pages that your visitors view after the selected page. The report also highlights when visitors exit your site. </p> <p>Click <b>Tabular</b> to see the next pages in a list similar to the <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Next Page Report</a>. However, it also allows lets you drill into each <i>Next Page</i> to view the next pages in each two-page flow. </p> <p>Reports &amp; Analytics uses path views. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 

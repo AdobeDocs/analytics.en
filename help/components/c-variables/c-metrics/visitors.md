@@ -23,6 +23,6 @@ The number of unique visitors to your site for a selected hour, day, week, month
 
 Refer to [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) in the Adobe Analytics Implementation guide for more information.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Visitors Report](/help/components/c-variables/dimensionslist/reports-visitors.md)

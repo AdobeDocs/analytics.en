@@ -5,7 +5,7 @@ description: Learn key concepts to obtain reports, geared towards users familiar
 
 # Transitioning from a third-party analytics platform to Adobe Analytics
 
-This guide presents common report types that help you to learn core concepts and workflows in Adobe Analytics, focusing on key similarities and differences between Adobe and other popular tools. This guide is designed for analysts who are familiar with basic digital analytics concepts, but new to Adobe Analytics. It assumes that the organization has a working implementation that sends data to Adobe data collection servers. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](../../admin/admin-console/first-admin-guide.md).
+This guide presents common report types that help you to learn core concepts and workflows in Adobe Analytics, focusing on key similarities and differences between Adobe and other popular tools. This guide is designed for analysts who are familiar with basic digital analytics concepts, but new to Adobe Analytics. It assumes that the organization has a working implementation that sends data to Adobe data collection servers. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md).
 
 Both Google Analytics and Adobe Analytics are powerful platforms to obtain valuable insights to your website performance. Each have their own processing architecture and user interface, giving each platform unique advantages. This guide is designed to help acclimate a user experienced with Google Analytics towards Adobe Analytics.
 

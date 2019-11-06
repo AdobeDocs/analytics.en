@@ -48,7 +48,7 @@ In a report, click the **[!UICONTROL Report Actions]** drop-down.  ![](assets/to
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delivery Options </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Delivery Options</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Print </p> </td> 
@@ -60,7 +60,7 @@ In a report, click the **[!UICONTROL Report Actions]** drop-down.  ![](assets/to
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>View </p> </td> 
@@ -120,7 +120,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Show Linear Regression </p> </td> 
-   <td colname="col2"> <p>For <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986" format="dita" scope="local"> bubble charts</a>. Displays a statistical approximation of your data. </p> </td> 
+   <td colname="col2"> <p>For <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > bubble charts</a>. Displays a statistical approximation of your data. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +160,7 @@ Certain reports let you break down the table data so that you can see subrelated
    >
    >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. After you open a saved or scheduled report with breakdowns, you might need to click **[!UICONTROL Replace Table]** to refresh a breakdown of dynamic report data. For example, you might need to refresh a scheduled report containing breakdowns of line items that can change based on the date range or visitor activity.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -244,7 +244,7 @@ t_column_width.xml
 
    This option is disabled if [!UICONTROL Fit to Screen] is enabled. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 

@@ -14,7 +14,7 @@ Many Adobe Engineering Services engagements involve the exchange of data, which 
 
 These engagements include [!UICONTROL DB VISTA] and custom projects.
 
-For information on FTP limits and data retention, see [FTP Limits and Data Retention](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+For information on FTP limits and data retention, see [FTP Limits and Data Retention](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -22,4 +22,4 @@ Similar to a SAINT upload via FTP, [!UICONTROL DB VISTA] receives data through a
 
 ## Custom Engagements {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe Engineering Services offers custom projects that use both FTP and SFTP. See Adobe Engineering Services for more information on custom projects. For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe Engineering Services offers custom projects that use both FTP and SFTP. See Adobe Engineering Services for more information on custom projects. For information on SFTP, see [Secure File Transfer Protocol](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md).

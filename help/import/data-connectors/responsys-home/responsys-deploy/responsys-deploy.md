@@ -52,4 +52,4 @@ Activating the integration involves contacting Responsys Support.
 
 After completing the integration wizard, you must activate the integration within Responsys.
 
-To do so, please contact Responsys support team at support@responsys.com. 
+To do so, please contact Responsys support team at support@responsys.com.

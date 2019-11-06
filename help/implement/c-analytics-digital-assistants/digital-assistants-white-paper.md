@@ -52,7 +52,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>

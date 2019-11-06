@@ -20,8 +20,8 @@ This report is most commonly used in the context of the [!UICONTROL Pages] repor
 
 * A single page visit is considered a visit containing one unique value, not a single image request.
 
-    * In the context of a [pages report](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), only one unique page can fire within the visit.
-    * In the context of a [site sections report](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD), a single unique site section fires within the visit.
+    * In the context of a [pages report](/help/components/c-variables/dimensionslist/reports-pages.md), only one unique page can fire within the visit.
+    * In the context of a [site sections report](/help/components/c-variables/dimensionslist/reports-site-sections.md), a single unique site section fires within the visit.
     * In the context of a [traffic variable](/help/admin/admin/c-traffic-variables/traffic-var.md), a visit populates this report if a single unique value is fired.
 
 * Single page visits can consist of many image requests, as long as the variable in context of the report contains a single unique value. As soon as a second unique value is populated, the visit is no longer considered a single page visit.

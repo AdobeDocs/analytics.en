@@ -15,14 +15,14 @@ Data Sources supports the following variables when processing data as a standard
 
 Full Processing data sources data is processed as if it were received by Adobe servers at the time specified (each hit contains a timestamp).
 
-* [Visitor Profile](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
-* [Column Reference](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [Visitor Profile](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
+* [Column Reference](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Visitor Profile {#section_6065627D0C144506965F562C80AE67F8}
 
 Full processing data sources data is processed using separate visitor profiles, so even if the visitor ID in uploaded data matches data collected using JavaScript or other AppMeasurement library, the visitor profiles are not connected from an eVar allocation perspective.
 
-For example, a user with a visitor ID of "user@example.com" visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
 
 ## Column Reference {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -63,7 +63,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external"> s.events </a> variable. </p> <p>For example: </p> 
+   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  > s.events </a> variable. </p> <p>For example: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -166,7 +166,7 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external"> Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
+   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 

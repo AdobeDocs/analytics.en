@@ -138,4 +138,4 @@ To unsubscribe from a scheduled report:
 
 Unsubscribing from a report does not cancel the scheduled report.
 
-To cancel a scheduled report, navigate to the Schedule Manager and click on the red X next to the report name. [More...](../../analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC) 
+To cancel a scheduled report, navigate to the Schedule Manager and click on the red X next to the report name. [More...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC) 

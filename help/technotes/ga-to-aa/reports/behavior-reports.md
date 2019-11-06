@@ -18,7 +18,7 @@ The behavior flow report can be recreated using the Flow visualization.
 3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
-![Flow Report](../assets/flow.png)
+![Flow Report](/help/technotes/ga-to-aa/assets/flow.png)
 
 ## Site Content - All Pages
 
@@ -58,7 +58,7 @@ Adobe recommends using the **Visits** metric for this dimension.
 
 Site speed reports show how quickly pages load, revealing opportunities to increase your page load times.
 
-This feature requires additional implementation on both platforms; Adobe recommends working with an implementation consultant to ensure this data is correctly configured for Analysis Workspace. The [Performance Timing plugin](../../../implement/js-implementation/plugins/performancetiming.md) is typically assigned to an eVar to obtain performance data in Adobe Analytics.
+This feature requires additional implementation on both platforms; Adobe recommends working with an implementation consultant to ensure this data is correctly configured for Analysis Workspace. The [Performance Timing plugin](/help/implement/js-implementation/plugins/performancetiming.md) is typically assigned to an eVar to obtain performance data in Adobe Analytics.
 
 ## Site Search reports
 

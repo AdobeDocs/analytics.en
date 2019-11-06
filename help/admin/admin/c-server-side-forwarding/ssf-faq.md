@@ -29,6 +29,6 @@ Frequently asked questions about features, functionality, and issues related to 
 |Q: What if we have two Experience Cloud Orgs (or AAM instances) and want to share data between both Experience Cloud Orgs? Can I server side forward a single Analytics hit to multiple Experience Cloud Orgs?|No. If you need to share data collected under one Experience Cloud Org to another Experience Cloud Org, we recommend sending any applicable audiences from one Audience Manager instance to another using the audience marketplace.|
 |Q: Will server-side forwarding result in any additional billing in Audience Manager or Analytics?|In Analytics, no additional billing will occur. In Audience Manager, forwarded hits are treated like any other hits and are billed.  This is why it is important not to have DIL and server-side forwarding enabled at the same time, which could cause double-billing as well as data duplication.|
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Server-Side Forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md)

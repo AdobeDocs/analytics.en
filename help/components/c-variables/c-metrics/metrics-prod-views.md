@@ -18,6 +18,6 @@ Instance of the Product View being set. Occurs when the product detail page is v
 |  Conversion  |Instance of the [!UICONTROL Product View] being set. Occurs when the [!UICONTROL Product Detail] page is viewed.  |
 |  Ad Hoc Analysis  |Instance of the [!UICONTROL Product View] being set. Occurs when the [!UICONTROL Product Detail] page is viewed.  |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Products Report](/help/components/c-variables/dimensionslist/reports-products.md)

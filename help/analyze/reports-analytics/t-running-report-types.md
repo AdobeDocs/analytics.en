@@ -82,7 +82,7 @@ Check out the new [Fallout Analysis](https://marketing.adobe.com/resources/help/
 
    ![Step Result](assets/fallout_report.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Fallout Report Description](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
@@ -181,7 +181,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
         <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicking <span class="uicontrol"> Show Segments </span> brings up the segment rail that lets you apply segments to an anomaly detection report. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> More </a> on segmentation. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicking <span class="uicontrol"> Show Segments </span> brings up the segment rail that lets you apply segments to an anomaly detection report. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > More </a> on segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicking <span class="uicontrol"> Edit Metrics </span>lets you select and unselect metrics for which you want to detect anomalies. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +236,7 @@ You set up Anomaly Detection independently for each report suite.
 
    See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
 1. (Optional) Change the end date of the View Period. The default is yesterday.
-1. You can now start interpreting the report. [Viewing Anomaly Detection charts](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. You can now start interpreting the report. [Viewing Anomaly Detection charts](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -263,7 +263,7 @@ For information on configuring real-time reports, see the [Analytics Reference G
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Select Report Suite</strong></td> 
-   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external"> Real-Time Reports Configuration </a>. </td> 
+   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  > Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Switch among reports</strong></td> 

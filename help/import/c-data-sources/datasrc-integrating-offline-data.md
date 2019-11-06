@@ -13,9 +13,9 @@ uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 
 Data Sources provides two additional ways to integrate events that occur offline to your online data.
 
-* [Enable Transaction ID Recording](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) 
-* [Transaction Integration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D) 
-* [Customer Integration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
+* [Enable Transaction ID Recording](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) 
+* [Transaction Integration](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D) 
+* [Customer Integration](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
 
 These integrations associate offline data with a specific online transaction or with an online visitor.
 
@@ -30,7 +30,7 @@ Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL [S
 <p>When contacting Customer Care, be prepared to provide the following information: </p> 
 <ul id="ul_C425C7A074484650AFCCF0425E8E3F47"> 
  <li id="li_7640C0C4DF0C49749A3C37E5461DC22F">Report Suite ID of the data source for which you need transaction ID recording enabled. <p>In Data Sources, the report suite ID is the first part of the login appended by a random number that identifies the specific data source that was set up. For example, <code> RSID-drmossdev5 Login-drmossdev5_0001343430</code>. </p> </li> 
- <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="../../import/c-data-sources/datasrc-tid-visitor-profile.md#concept_0AF92491E8274BF69E66DB36E5F54A0F" format="dita" scope="local"> Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
+ <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="/help/import/c-data-sources/datasrc-tid-visitor-profile.md"  > Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
 </ul>
 
  -->
@@ -48,7 +48,7 @@ Customer IDs are used to specify a customer's offline activity and tie it to onl
 * A customer ID is populated in the *`visitorID`* variable.
 * There is no designated point where customer activity moves offline, such as a lead submission or purchase.
 
-To configure this type of data source, see [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+To configure this type of data source, see [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Transaction Integration {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -64,4 +64,4 @@ Transaction ID events are not included in Visit Participation metrics (those sho
 
 The is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
 
-See [Transaction ID](../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776).
+See [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

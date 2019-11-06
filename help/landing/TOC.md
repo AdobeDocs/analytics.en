@@ -16,7 +16,11 @@ user-guide-url: /content/help/en/analytics/landing/home.html
 * [Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
 * [Import Guide](https://docs.adobe.com/content/help/en/analytics/import/home.html)
 * [Integration Guide](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Data Workbench Guide](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+
 * [Documentation Updates](doc-updates.md)
+* [Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 
 
 <!--

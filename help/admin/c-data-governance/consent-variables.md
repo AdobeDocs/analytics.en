@@ -39,7 +39,7 @@ Each report suite can be configured as follows:
 
     ![](assets/rsm-privacy-select.png)
 
-1. Click the **[!UICONTROL Enable Data Privacy Reports]** button. **Note:** Once enabled these variables cannot be turned off.
+1. Click the **[!UICONTROL Enable Data Privacy Reports]** button. **Note**: Once enabled these variables cannot be turned off.
 
     ![](assets/rsm-privacy-enable.png)
 
@@ -68,7 +68,7 @@ See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementa
 
 * Context Data: `contextData.['opt.dmp']`
 * Accepted Values:  
-   * N – When sending the value "N", this indicates that the consumer is opting out of sharing to data management platforms. **Note:** Setting this variable to "N" does not currently block sharing to AAM, however, blocking calls to AAM functionality will be added in early 2020. For now Adobe recommends setting both `c.cm.ssf=1` and `c.opt.dmp=N` to block hits from being sent to AAM.
+   * N – When sending the value "N", this indicates that the consumer is opting out of sharing to data management platforms. **Note**: Setting this variable to "N" does not currently block sharing to AAM, however, blocking calls to AAM functionality will be added in early 2020. For now Adobe recommends setting both `c.cm.ssf=1` and `c.opt.dmp=N` to block hits from being sent to AAM.
    * Y - When sending the value "Y", this indicates that the consumer is opting in to sharing to data management platforms.
 
 ### SELL

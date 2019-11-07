@@ -22,7 +22,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
    <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
-   <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/"> Data Workbench </a> </td> 
+   <td colname="col6"> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
    <td> <b>Access Method</b> </td> 

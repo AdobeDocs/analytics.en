@@ -45,7 +45,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * If tab organization of project work is desired.
 * To use the Site Analysis report (3D-pathing report).
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** should be used:
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** should be used:
 
 * As the most flexible Analytics tool option (down to visitor-level, hit-level analysis).
 * To create a multi-channel dataset of online and offline interactions from CRM to POS to Web.

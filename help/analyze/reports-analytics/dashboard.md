@@ -54,7 +54,7 @@ This dashboard provides you an overview of key metrics related to your website o
 
 Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
 
-See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Create a dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -83,7 +83,7 @@ Before adding a report (as a reportlet) to a dashboard, define the dashboard's l
    See [Creating a Reportlet](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. Click **[!UICONTROL Save.]**
 
-   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
 

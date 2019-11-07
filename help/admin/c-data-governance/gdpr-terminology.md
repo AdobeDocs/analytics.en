@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: GDPR Terminology
 title: GDPR Terminology
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 ---

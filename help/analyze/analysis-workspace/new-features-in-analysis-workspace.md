@@ -539,7 +539,7 @@ New features released on September 21, 2017.
    <td colname="col2"> <p>Rather than manually deleting each element, you can now Clear All elements in the following Workspace areas: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Contribution Analysis Excluded Components </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937"  > Segment Comparison Excluded Components </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md"> Segment Comparison Excluded Components </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

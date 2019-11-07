@@ -1,7 +1,5 @@
 ---
 description: This document describes what you need to do in Adobe Analytics to support your data subjects' GDPR access and delete rights.
-seo-description: This document describes what you need to do in Adobe Analytics to support your data subjects' GDPR access and delete rights.
-seo-title: Adobe Analytics and GDPR
 title: Adobe Analytics and GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 ---

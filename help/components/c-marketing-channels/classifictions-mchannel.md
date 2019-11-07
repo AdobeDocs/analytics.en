@@ -36,6 +36,6 @@ Create classifications for the [!UICONTROL Marketing Channel] report.
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classification]**.
 <!--
-1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md) page, specify the classification type.
 -->
 1. Under [!UICONTROL Classifications], click **[!UICONTROL Add Classification]** (or edit an existing one).

@@ -136,12 +136,12 @@ Be sure to copy TrackingHelper.java to a directory that contains class files for
 
 1. Open TrackingHelper.java and update TRACKING_RSID and TRACKING_SERVER with your report suite ID and tracking server. For example:
 
-```
-private static final String TRACKING_RSID = "rsid";
-private static final String TRACKING_SERVER = "server";
-```
+    ```
+    private static final String TRACKING_RSID = "rsid";
+    private static final String TRACKING_SERVER = "server";
+    ```
 
-These values are required, and must be correct or measurement won't work. If you are unsure about these values, ask your SiteCatalyst expert.
+    These values are required, and must be correct or measurement won't work. If you are unsure about these values, ask your SiteCatalyst expert.
 
 2. Find the configureAppMeasurement method. This is where you enable SSL, enable offline tracking, and make other global changes to your configuration. For now, uncomment the line to enable debugLogging until things are working the way you'd expect.
 
@@ -248,19 +248,19 @@ Your Web Analyst should provide you with a Video Implementation Worksheet that c
 
 1. Add the following code after the code you added in Implementation, replacing the SiteCatalyst variable you selected with the example in the code:
 
-```
-ADMS_MediaMeasurement mediaMeasure = ADMS_MediaMeasurement.sharedInstance();
-Hashtable<String, Object> contextDataMapping = new Hashtable<String, Object>();
-contextDataMapping.put("a.media.name", "eVar2,prop2");
-contextDataMapping.put("a.media.segment", "eVar3");
-contextDataMapping.put("a.contentType", "eVar1"); //note that this is not in the .media
-namespace
-contextDataMapping.put("a.media.timePlayed", "event3");
-contextDataMapping.put("a.media.view", "event1");
-contextDataMapping.put("a.media.segmentView", "event2");
-contextDataMapping.put("a.media.complete", "event7");
-mediaMeasure.ContextDataMapping = contextDataMapping;
-```
+    ```
+    ADMS_MediaMeasurement mediaMeasure = ADMS_MediaMeasurement.sharedInstance();
+    Hashtable<String, Object> contextDataMapping = new Hashtable<String, Object>();
+    contextDataMapping.put("a.media.name", "eVar2,prop2");
+    contextDataMapping.put("a.media.segment", "eVar3");
+    contextDataMapping.put("a.contentType", "eVar1"); //note that this is not in the .media
+    namespace
+    contextDataMapping.put("a.media.timePlayed", "event3");
+    contextDataMapping.put("a.media.view", "event1");
+    contextDataMapping.put("a.media.segmentView", "event2");
+    contextDataMapping.put("a.media.complete", "event7");
+    mediaMeasure.ContextDataMapping = contextDataMapping;
+    ```
 
 2. Configure Milestones, Segments, and Call Frequency.
 
@@ -374,6 +374,7 @@ Video Measurement Quick Start 12
 This worksheet lists the metrics and dimensions that are measured when automatic lifecycle tracking is enabled.
 
 ### Lifecycle Metrics and Dimensions
+
 When configured, lifecycle metrics are sent in context data parameters to Analytics, parameters to Target with each mbox call, and as a signal to audience management. Analytics and Target use the same format, while audience management uses a different prefix for each metric.
 
 For Analytics, the context data that is sent with each lifecycle tracking call is automatically captured in and reported using the metric or dimension listed in the first column, with the exceptions noted in the description column.
@@ -579,7 +580,7 @@ Examples:
 
 `measure.setDebugLogging(true);`
 
-##  Tracking Variables
+## Tracking Variables
 
 **Shared Instance**
 
@@ -589,6 +590,7 @@ Before making measurement calls, you must retrieve an instance of the library fo
 ADMS_Measurement measure = ADMS_Measurement.sharedInstance(((Activity)
 context).getApplication());
 ```
+
 *Note: Configuration variables are private. Use the get and set methods to change these values.*
 
 ### Persistent Tracking Variables
@@ -722,6 +724,7 @@ Hashtable contextData = new Hashtable<String, Object>();
 contextData.put("key", "value");
 measure.setPersistentContextData(contextData);
 ```
+
 See Context Data.
 
 **linkTrackVars**: A comma delimited list of variable names that restricts the current set of variables for link tracking. If linkTrackVars is not defined, AppMeasurement for Android sends all defined variables with a trackLink call.
@@ -786,6 +789,7 @@ Syntax:
 Examples:
 
 `measure.trackAppState("state");`
+
 ```
 Hashtable contextData = new Hashtable<String, Object>();
 contextData.put("key", "value");
@@ -807,6 +811,7 @@ Syntax:
 Examples:
 
 `measure.trackEvents("event1");`
+
 ```
 Hashtable<String, Object> contextData = new HashTable<String,Object>();
 contextData.put("key", "value");
@@ -1102,48 +1107,48 @@ The following example shows how to load HTML content from Test&Target into a Web
 1. Complete the steps in Implementation, then import the testandtarget package at the top of your Application or Activity
 subclass:
 
-`com.adobe.adms.testandtarget.*;`
+    `com.adobe.adms.testandtarget.*;`
 
 2. Follow the numbered code below for creating an mbox (see comments for explanation of each line of code). To complete this step, you will need to know your client code and the name of the mbox used in the campaign setup in the Test&Target Admin Tool.
 
-```
-public class AndroidDemoApplication extends Activity {
-private WebView _webView;
-public void onCreate(Bundle savedInstanceState) {
-super.onCreate(savedInstanceState);
-_webView = new WebView(this);
-setContentView(_webView);
-// 1. Create an instance of the MboxFactory class with your client code.
-MboxFactory factory = new MboxFactory("androiddemo16");
-// 2. Use the MboxFactory instance to create an Mbox.
-Mbox mbox = factory.create("DemoApp");
-// 3. Set the default content for the Mbox.
-mbox.setDefaultContent("<h1>DEFAULT CONTENT</h1>");
-/**
-* 4. Create a custom MboxContentConsumer to consume the content returned. The
-* CustomMboxContentConsumer class defined below simply displays the content
-* returned in a BrowserField as HTML.
-*/
-CustomConsumer consumer = new CustomConsumer(_webView);
-mbox.addOnLoadConsumer(consumer);
-// 5. Load the Mbox.
-mbox.load();
-...
-```
+    ```
+    public class AndroidDemoApplication extends Activity {
+    private WebView _webView;
+    public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    _webView = new WebView(this);
+    setContentView(_webView);
+    // 1. Create an instance of the MboxFactory class with your client code.
+    MboxFactory factory = new MboxFactory("androiddemo16");
+    // 2. Use the MboxFactory instance to create an Mbox.
+    Mbox mbox = factory.create("DemoApp");
+    // 3. Set the default content for the Mbox.
+    mbox.setDefaultContent("<h1>DEFAULT CONTENT</h1>");
+    /**
+    * 4. Create a custom MboxContentConsumer to consume the content returned. The
+    * CustomMboxContentConsumer class defined below simply displays the content
+    * returned in a BrowserField as HTML.
+    */
+    CustomConsumer consumer = new CustomConsumer(_webView);
+    mbox.addOnLoadConsumer(consumer);
+    // 5. Load the Mbox.
+    mbox.load();
+    ...
+    ```
 
 3. Define the custom class that implements the MboxContentConsumer interface. This abstract interface only requires that you define a method named “consume” to pass content into. The CustomConsumer class defined below simply displays the content in a WebView.
 
-```
-class CustomConsumer implements MboxContentConsumer {
-private WebView _view;
-public CustomConsumer(WebView webview) {
-_view = webview;
-}
-public void consume(String content) {
-_view.loadData(content, "text/html", "utf-8");
-}
-}
-```
+    ```
+    class CustomConsumer implements MboxContentConsumer {
+    private WebView _view;
+    public CustomConsumer(WebView webview) {
+    _view = webview;
+    }
+    public void consume(String content) {
+    _view.loadData(content, "text/html", "utf-8");
+    }
+    }
+    ```
 
 4. Right-click your project, and select Run As > Android Application to build and test your application. If you have correctly setup and approved your Test&Target campaign, you should see your offer displayed in the Android device emulator.
 
@@ -1177,12 +1182,12 @@ After unzipping the download file, you'll have the following software components
 ### Add the Library to your Project
 
 1. In the Eclipse IDE, right-click on the project name.
-2. Select Build Path > Add External Archives.
-3. Select admsAppLibrary.jar.
-4. Click Open.
-5. Right-click the project again, then select Build Path > Configure Build Path.
-6. Click the Order and Export tab.
-7. Ensure that admsAppLibrary.jar is selected.
+1. Select Build Path > Add External Archives.
+1. Select admsAppLibrary.jar.
+1. Click Open.
+1. Right-click the project again, then select Build Path > Configure Build Path.
+1. Click the Order and Export tab.
+1. Ensure that admsAppLibrary.jar is selected.
 
 Your application can import the classes/interfaces from the admsAppLibrary.jar library by using `importcom.adobe.ADMS.*;`
 
@@ -1205,10 +1210,10 @@ After you add the library to your project, you can use the ADMS_AudienceManager 
 
 1. Configure audience management:
 
-`ADMS_AudienceManager.ConfigureAudienceManager("mycompany.demdex.net", this);`
+    `ADMS_AudienceManager.ConfigureAudienceManager("mycompany.demdex.net", this);`
 
-Replace mycompany.demdex.net with your endpoint. Audience management can be configured at any point in your
-application.
+    Replace mycompany.demdex.net with your endpoint. Audience management can be configured at any point in your
+    application.
 
 
 2. Optionally set the dpid and dpuuid.

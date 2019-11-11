@@ -1218,7 +1218,7 @@ After you add the library to your project, you can use the ADMS_AudienceManager 
 
 2. Optionally set the dpid and dpuuid.
 
-`ADMS_AudienceManager.SetDpidAndDpuuid("284", "abc123");`
+    `ADMS_AudienceManager.SetDpidAndDpuuid("284", "abc123");`
 
 3. Create a trait dictionary and submit the dictionary in a signal.
 

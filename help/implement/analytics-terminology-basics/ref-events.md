@@ -1,8 +1,6 @@
 ---
 description: Events keep track of when a visitor has performed a specified action.
 keywords: Analytics Implementation;event;success event;currency event;custom event
-seo-description: Events keep track of when a visitor has performed a specified action.
-seo-title: Events
 solution: Analytics
 title: Events
 topic: Developer and implementation

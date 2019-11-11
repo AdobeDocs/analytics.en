@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to customize a rolling date for your request.
-seo-description: Steps that describe how to customize a rolling date for your request.
-seo-title: Rolling dates
 solution: Analytics
 title: Rolling dates
 topic: Report builder

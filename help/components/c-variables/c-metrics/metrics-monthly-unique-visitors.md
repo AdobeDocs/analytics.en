@@ -1,7 +1,5 @@
 ---
 description: The number of unduplicated (counted only once) visitors to your website over the course of a single month.
-seo-description: The number of unduplicated (counted only once) visitors to your website over the course of a single month.
-seo-title: Monthly Unique Visitors
 solution: Analytics
 title: Monthly Unique Visitors
 topic: Metrics

@@ -1,7 +1,5 @@
 ---
 description: Traffic sources reports give you in-depth insight into how visitors interact with your website.
-seo-description: Traffic sources reports give you in-depth insight into how visitors interact with your website.
-seo-title: Traffic Sources reports
 solution: Analytics
 title: Traffic Sources reports
 topic: Ad hoc analysis

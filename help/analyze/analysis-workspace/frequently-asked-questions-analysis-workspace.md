@@ -1,8 +1,6 @@
 ---
 description: System requirements for Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: System requirements for Analysis Workspace.
-seo-title: Administration requirements
 solution: Analytics
 title: Administration requirements
 topic: Reports and analytics

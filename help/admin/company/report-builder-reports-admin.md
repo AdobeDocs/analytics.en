@@ -1,7 +1,5 @@
 ---
 description: Manage license assigned to report builder users.
-seo-description: Manage license assigned to report builder users.
-seo-title: Report Builder reports
 solution: Analytics
 title: Report Builder reports
 topic: Admin tools

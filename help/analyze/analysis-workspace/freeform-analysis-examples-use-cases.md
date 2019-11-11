@@ -1,8 +1,6 @@
 ---
 description: Examples of how to use data tables, segments, and uses case ideas for Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Examples of how to use data tables, segments, and uses case ideas for Analysis Workspace.
-seo-title: Analysis Workspace use cases
 solution: Analytics
 title: Analysis Workspace use cases
 topic: Reports and analytics

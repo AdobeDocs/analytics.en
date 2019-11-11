@@ -1,7 +1,5 @@
 ---
 description: File Downloads helps you understand how often your visitors download files from your site. Examples of file downloads may be word processor documents, spreadsheets, audio files, movie files, user manuals, and so on. This includes both files being saved and opened directly from the browser, as well as files saved to the user's computer. The report shows the name of the file being downloaded, including the complete URL required to access the file.
-seo-description: File Downloads helps you understand how often your visitors download files from your site. Examples of file downloads may be word processor documents, spreadsheets, audio files, movie files, user manuals, and so on. This includes both files being saved and opened directly from the browser, as well as files saved to the user's computer. The report shows the name of the file being downloaded, including the complete URL required to access the file.
-seo-title: File Downloads
 solution: Analytics
 title: File Downloads
 topic: Reports

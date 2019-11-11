@@ -1,8 +1,6 @@
 ---
 description: The JavaScript library file is intended to be cached in the user's browser after the first time the user loads a page.
 keywords: Analytics Implementation
-seo-description: The JavaScript library file is intended to be cached in the user's browser after the first time the user loads a page.
-seo-title: Caching directives
 solution: Analytics
 subtopic: Troubleshooting
 title: Caching directives

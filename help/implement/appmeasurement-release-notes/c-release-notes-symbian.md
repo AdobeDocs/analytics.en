@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Symbian
 solution: Analytics
 subtopic: Release notes
 title: Symbian

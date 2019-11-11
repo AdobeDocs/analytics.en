@@ -1,7 +1,5 @@
 ---
 description: Resources to help you troubleshoot issues with the importer.
-seo-description: Resources to help you troubleshoot issues with the importer.
-seo-title: Troubleshooting Classifications
 solution: Analytics
 subtopic: Classifications
 title: Troubleshooting Classifications

@@ -1,7 +1,5 @@
 ---
 description: Frequently asked questions for setting up, configuring, and employing features in Activity Map.
-seo-description: Frequently asked questions for setting up, configuring, and employing features in Activity Map.
-seo-title: Activity Map FAQ
 solution: Analytics
 title: Activity Map FAQ
 topic: Activity map

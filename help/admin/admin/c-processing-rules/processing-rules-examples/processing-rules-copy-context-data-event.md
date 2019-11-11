@@ -1,7 +1,5 @@
 ---
 description: Processing rules can trigger events based on Context Data variables.
-seo-description: Processing rules can trigger events based on Context Data variables.
-seo-title: Set an event using a context data variable
 solution: Analytics
 subtopic: Processing rules
 title: Set an event using a context data variable

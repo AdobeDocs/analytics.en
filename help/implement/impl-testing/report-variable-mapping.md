@@ -1,8 +1,6 @@
 ---
 description: The tables below display the report to variable mapping, or the reports and the variables that are used in them.
 keywords: Analytics Implementation
-seo-description: The tables below display the report to variable mapping, or the reports and the variables that are used in them.
-seo-title: Report to variable mapping
 solution: Analytics
 title: Report to variable mapping
 topic: Developer and implementation

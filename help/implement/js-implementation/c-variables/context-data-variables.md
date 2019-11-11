@@ -1,8 +1,6 @@
 ---
 description: Context data variables let you define custom variables on each page that can be read by processing rules.
 keywords: Analytics Implementation;contextdata;s.contextdata
-seo-description: Context data variables let you define custom variables on each page that can be read by processing rules.
-seo-title: Context data variables
 solution: Analytics
 subtopic: Variables
 title: Context data variables

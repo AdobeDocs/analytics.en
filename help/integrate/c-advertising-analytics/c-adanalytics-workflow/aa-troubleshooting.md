@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Troubleshoot Advertising Analytics
 title: Troubleshoot Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 ---

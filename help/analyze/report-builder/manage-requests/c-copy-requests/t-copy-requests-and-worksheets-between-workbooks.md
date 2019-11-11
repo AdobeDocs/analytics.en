@@ -1,7 +1,5 @@
 ---
 description: Copy an entire spreadsheet in a source workbook to a spreadsheet in one or more target workbooks.
-seo-description: Copy an entire spreadsheet in a source workbook to a spreadsheet in one or more target workbooks.
-seo-title: Copy requests and worksheets between workbooks
 solution: Analytics
 title: Copy requests and worksheets between workbooks
 topic: Report builder

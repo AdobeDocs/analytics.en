@@ -1,7 +1,5 @@
 ---
 description: Reports that help you see purchasing patterns of customers from various profile categories, including countries, states, ZIP/postal codes and domains.
-seo-description: Reports that help you see purchasing patterns of customers from various profile categories, including countries, states, ZIP/postal codes and domains.
-seo-title: Visitor Profile
 solution: Analytics
 title: Visitor Profile
 topic: Reports

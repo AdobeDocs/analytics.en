@@ -1,8 +1,6 @@
 ---
 description: Use this section to select which data columns to include in the feed and how the feed data should be processed and packaged before delivery.
 keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
-seo-description: Use this section to select which data columns to include in the feed and how the feed data should be processed and packaged before delivery.
-seo-title: Data column definitions
 solution: Analytics
 title: Data column definitions
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb

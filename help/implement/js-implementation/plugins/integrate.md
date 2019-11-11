@@ -1,8 +1,6 @@
 ---
 title: Integrate Module
-seo-title: Integrate Module for Adobe Analytics
 description: The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization.
-seo-description: The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization.
 ---
 
 # Integrate Module

@@ -1,7 +1,5 @@
 ---
 description: Download and edit shared workbooks.
-seo-description: Download and edit shared workbooks.
-seo-title: Download a workbook
 solution: Analytics
 title: Download a workbook
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
-seo-description: Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
-seo-title: Transaction ID
 solution: Analytics
 subtopic: Data sources
 title: Transaction ID

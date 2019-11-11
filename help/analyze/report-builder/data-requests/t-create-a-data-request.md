@@ -1,7 +1,5 @@
 ---
 description: Steps to create a basic Report Builder data request.
-seo-description: Steps to create a basic Report Builder data request.
-seo-title: Create a Report Builder data request
 solution: Analytics
 title: Create a data request
 topic: Report builder

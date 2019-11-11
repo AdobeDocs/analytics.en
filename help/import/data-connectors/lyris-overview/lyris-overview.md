@@ -1,7 +1,5 @@
 ---
 description: Describes the marketing efficiencies achieved through the integration.
-seo-description: Describes the marketing efficiencies achieved through the integration.
-seo-title: Lyris Data Connector for Adobe Analytics
 solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5

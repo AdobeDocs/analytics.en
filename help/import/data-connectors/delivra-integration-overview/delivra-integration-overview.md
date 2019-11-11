@@ -1,7 +1,5 @@
 ---
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with Delivra email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with Delivra email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-title: Delivra Data Connector for Adobe Analytics
 title: Delivra Data Connector for Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 ---

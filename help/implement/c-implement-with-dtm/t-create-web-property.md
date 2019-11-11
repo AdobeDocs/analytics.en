@@ -1,8 +1,6 @@
 ---
 description: A web property can be any grouping of one or more domains and subdomains with a library of rules, included in one embed code.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
-seo-description: A web property can be any grouping of one or more domains and subdomains with a library of rules, included in one embed code.
-seo-title: Create web property
 solution: Analytics
 title: Create web property
 topic: Developer and implementation

@@ -1,7 +1,5 @@
 ---
 description: Event in which the contents of the shopping cart are viewed by the customer. This value comes from the scView event.
-seo-description: Event in which the contents of the shopping cart are viewed by the customer. This value comes from the scView event.
-seo-title: Cart Views
 solution: Analytics
 title: Cart Views
 topic: Metrics

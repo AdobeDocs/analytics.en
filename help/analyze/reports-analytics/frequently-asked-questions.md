@@ -1,8 +1,6 @@
 ---
 description: Provides answers and troubleshooting suggestions to some of the most frequently asked Analytics questions.
 keywords: Troubleshooting Analytics
-seo-description: Provides answers and troubleshooting suggestions to some of the most frequently asked Analytics questions.
-seo-title: Frequently Asked Questions
 title: Frequently Asked Questions
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 ---

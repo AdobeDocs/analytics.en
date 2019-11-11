@@ -1,7 +1,5 @@
 ---
 description: Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
-seo-description: Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
-seo-title: Real-time reports
 solution: Analytics
 title: Real-time reports
 topic: Report builder

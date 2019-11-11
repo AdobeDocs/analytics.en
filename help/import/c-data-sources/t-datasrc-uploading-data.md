@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to upload a data sources file.
-seo-description: Steps that describe how to upload a data sources file.
-seo-title: Upload a Data Sources file
 solution: Analytics
 subtopic: Data sources
 title: Upload a Data Sources file

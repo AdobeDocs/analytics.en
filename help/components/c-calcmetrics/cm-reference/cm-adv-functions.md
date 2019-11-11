@@ -1,7 +1,5 @@
 ---
 description: Access these functions by checking Show Advanced in the Functions drop-down list.
-seo-description: Access these functions by checking Show Advanced in the Functions drop-down list.
-seo-title: Reference  advanced functions
 title: Reference  advanced functions
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 ---

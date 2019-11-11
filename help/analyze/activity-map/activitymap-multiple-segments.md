@@ -1,7 +1,5 @@
 ---
 description: Lets you apply a multiple-segment filter within Activity Map.
-seo-description: Lets you apply a multiple-segment filter within Activity Map.
-seo-title: Customer segmentation
 solution: Analytics
 title: Customer segmentation
 topic: Activity map

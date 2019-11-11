@@ -1,8 +1,6 @@
 ---
 description: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports.
 keywords: groups;permissions
-seo-description: Customize user access at a granular level, including eVars, traffic reports, solution reports, and pathing reports.
-seo-title: Customize dimension permissions
 solution: Analytics
 subtopic: Users and groups
 title: Customize dimension permissions

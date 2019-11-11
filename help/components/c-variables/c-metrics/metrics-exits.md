@@ -1,7 +1,5 @@
 ---
 description: The number of times a given value is captured as the last value in a visit. Exits can occur only once per visit.
-seo-description: The number of times a given value is captured as the last value in a visit. Exits can occur only once per visit.
-seo-title: Exits
 solution: Analytics
 title: Exits
 topic: Metrics

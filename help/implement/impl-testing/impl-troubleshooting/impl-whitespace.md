@@ -1,8 +1,6 @@
 ---
 description: In HTML there are several characters that create whitespace.
 keywords: Analytics Implementation
-seo-description: In HTML there are several characters that create whitespace.
-seo-title: Using white space in variable values
 solution: Analytics
 subtopic: Troubleshooting
 title: Using white space in variable values

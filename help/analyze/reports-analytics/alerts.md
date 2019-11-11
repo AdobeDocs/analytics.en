@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Alerts
 solution: Analytics
 subtopic: Alerts
 title: Alerts

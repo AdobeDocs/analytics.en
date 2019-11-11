@@ -1,8 +1,6 @@
 ---
 description: The pageName variable should be populated with an easy-to-read, intuitive, page identifier.
 keywords: Analytics Implementation
-seo-description: The pageName variable should be populated with an easy-to-read, intuitive, page identifier.
-seo-title: Page naming strategies
 solution: Analytics
 title: Page naming strategies
 topic: Developer and implementation

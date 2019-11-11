@@ -1,7 +1,5 @@
 ---
 description: The number of times a customer opened a shopping cart by adding the first item. Occurs the first time an item is added to the shopping cart. This value comes from the scOpen event.
-seo-description: The number of times a customer opened a shopping cart by adding the first item. Occurs the first time an item is added to the shopping cart. This value comes from the scOpen event.
-seo-title: Cart Open
 solution: Analytics
 title: Cart Open
 topic: Metrics

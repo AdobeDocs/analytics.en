@@ -1,7 +1,5 @@
 ---
 description: Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
-seo-description: Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
-seo-title: About segments and containers
 solution: Analytics
 title: About segments and containers
 topic: Segments

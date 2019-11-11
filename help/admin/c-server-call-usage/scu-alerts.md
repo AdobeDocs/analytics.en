@@ -1,7 +1,5 @@
 ---
 description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
-seo-description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
-seo-title: Server Call Usage alerts
 title: Server Call Usage alerts
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 ---

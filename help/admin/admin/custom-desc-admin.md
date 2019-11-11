@@ -1,7 +1,5 @@
 ---
 description: You can provide custom report descriptions for eVars, props, classifications and events. The descriptions are visible to all of your end users.
-seo-description: You can provide custom report descriptions for eVars, props, classifications and events. The descriptions are visible to all of your end users.
-seo-title: Custom Report Descriptions
 solution: Analytics
 title: Custom Report Descriptions
 topic: Admin tools

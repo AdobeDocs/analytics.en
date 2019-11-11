@@ -1,7 +1,5 @@
 ---
 description: Used in the Purchases, Shopping Cart and Custom Events reporting sections. Similar to Page Views, each they display data for one Success Metric over a specific time period, such as a day, week, month, etc.
-seo-description: Used in the Purchases, Shopping Cart and Custom Events reporting sections. Similar to Page Views, each they display data for one Success Metric over a specific time period, such as a day, week, month, etc.
-seo-title: Over Time
 solution: Analytics
 title: Over Time
 topic: Reports

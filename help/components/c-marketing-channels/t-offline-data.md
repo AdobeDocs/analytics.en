@@ -1,7 +1,5 @@
 ---
 description: Add offline data to Marketing Channel reports.
-seo-description: Add offline data to Marketing Channel reports.
-seo-title: Add offline data
 solution: Analytics
 subtopic: Marketing channels
 title: Add offline data

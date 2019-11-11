@@ -1,8 +1,6 @@
 ---
 description: File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file.
 keywords: Analytics Implementation
-seo-description: File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file.
-seo-title: The s.tl() Function - Link Tracking
 solution: Analytics
 subtopic: Link tracking
 title: The s.tl() Function - Link Tracking

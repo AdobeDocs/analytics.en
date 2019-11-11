@@ -1,7 +1,5 @@
 ---
 description: Information to help you understand the function of the buttons on the Report Builder toolbar.
-seo-description: Information to help you understand the function of the buttons on the Report Builder toolbar.
-seo-title: Report Builder toolbar
 solution: Analytics
 title: Report Builder toolbar
 topic: Report builder

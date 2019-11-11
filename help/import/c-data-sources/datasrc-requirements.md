@@ -1,7 +1,5 @@
 ---
 description: Information about the requirements for your report suite before using Data Sources.
-seo-description: Information about the requirements for your report suite before using Data Sources.
-seo-title: Requirements and upload limits
 solution: Analytics
 subtopic: Data sources
 title: Requirements and upload limits

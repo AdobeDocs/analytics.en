@@ -1,7 +1,5 @@
 ---
 description: A dependent request is a request that is dependent upon an existing request.
-seo-description: A dependent request is a request that is dependent upon an existing request.
-seo-title: Add dependent requests
 solution: Analytics
 title: Add dependent requests
 topic: Report builder

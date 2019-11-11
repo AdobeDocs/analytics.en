@@ -1,7 +1,5 @@
 ---
 description: The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
-seo-description: The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
-seo-title: View report suite usage
 title: View report suite usage
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 ---

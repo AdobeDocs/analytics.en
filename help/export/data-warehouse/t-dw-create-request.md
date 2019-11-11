@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to create a Data Warehouse request.
-seo-description: Steps that describe how to create a Data Warehouse request.
-seo-title: Create a Data Warehouse request
 solution: Analytics
 title: Create a Data Warehouse request
 topic: Data warehouse

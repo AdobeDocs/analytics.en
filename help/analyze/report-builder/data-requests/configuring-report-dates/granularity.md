@@ -1,7 +1,5 @@
 ---
 description: On the Request Wizard  Step 1, you can apply a level of granularity to the data request. Granularity specifies the level of time-based detail that is included in the report.
-seo-description: On the Request Wizard  Step 1, you can apply a level of granularity to the data request. Granularity specifies the level of time-based detail that is included in the report.
-seo-title: Granularity
 solution: Analytics
 title: Granularity
 topic: Report builder

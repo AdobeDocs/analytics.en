@@ -1,8 +1,6 @@
 ---
 description: The Adobe FTP policy automatically disables access to FTP accounts that remain idle for 90 consecutive days.
 keywords: ftp;sftp
-seo-description: The Adobe FTP policy automatically disables access to FTP accounts that remain idle for 90 consecutive days.
-seo-title: Delete FTP data and FTP accounts
 solution: Analytics
 title: Delete FTP data and FTP accounts
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257

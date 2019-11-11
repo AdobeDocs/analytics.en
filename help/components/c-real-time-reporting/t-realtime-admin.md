@@ -1,7 +1,5 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
-seo-description: Administrative steps for setting up Real-Time reports.
-seo-title: Configure real-time reports
 solution: Analytics
 title: Configure real-time reports
 topic: Admin tools

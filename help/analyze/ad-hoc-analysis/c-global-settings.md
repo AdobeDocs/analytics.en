@@ -1,7 +1,5 @@
 ---
 description: Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
-seo-description: Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
-seo-title: Settings
 title: Settings
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 ---

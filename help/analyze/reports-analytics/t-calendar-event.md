@@ -1,7 +1,5 @@
 ---
 description: Steps to add calendar events, and to manage shared events.
-seo-description: Steps to add calendar events, and to manage shared events.
-seo-title: Calendar events
 solution: Analytics
 title: Calendar events
 topic: Reports and analytics

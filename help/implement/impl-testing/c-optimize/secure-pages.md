@@ -1,8 +1,6 @@
 ---
 description: Secure pages (pages loaded under https //) encrypt the image request and add to the total download time.
 keywords: Analytics Implementation
-seo-description: Secure pages (pages loaded under https //) encrypt the image request and add to the total download time.
-seo-title: Secure pages
 solution: Analytics
 subtopic: Troubleshooting
 title: Secure pages

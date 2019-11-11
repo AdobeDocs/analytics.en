@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Frequently asked questions
 title: Frequently asked questions
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
 ---

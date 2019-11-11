@@ -1,7 +1,5 @@
 ---
 description: The Site Metrics > Site Overview report displays at login and lets you immediately view and interact with relevant data. You can edit the layout, save it as a dashboard, and drill into the data for deeper analysis.
-seo-description: The Site Metrics > Site Overview report displays at login and lets you immediately view and interact with relevant data. You can edit the layout, save it as a dashboard, and drill into the data for deeper analysis.
-seo-title: Site Overview
 solution: Analytics
 title: Site Overview
 topic: Reports

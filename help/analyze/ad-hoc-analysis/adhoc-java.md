@@ -1,7 +1,5 @@
 ---
 description: Instructions on how to run Ad Hoc Analysis with Java 11.
-seo-description: Instructions on how to run Ad Hoc Analysis with Java 11.
-seo-title: Ad Hoc Analysis and Java 11
 title: Run Ad Hoc Analysis with Java 11
 ---
 

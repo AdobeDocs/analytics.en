@@ -1,8 +1,6 @@
 ---
 description: You can create a segment whenever an association occurs for a given visitor ID cookie.
 keywords: Analytics Implementation
-seo-description: You can create a segment whenever an association occurs for a given visitor ID cookie.
-seo-title: Create segments
 solution: Analytics
 title: Create segments
 topic: Developer and implementation

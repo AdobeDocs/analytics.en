@@ -1,7 +1,5 @@
 ---
 description: Copy one spreadsheet to another in the same workbook.
-seo-description: Copy one spreadsheet to another in the same workbook.
-seo-title: Copy worksheets
 solution: Analytics
 title: Copy worksheets
 topic: Report builder

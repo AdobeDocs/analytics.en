@@ -1,7 +1,5 @@
 ---
 description: Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
-seo-description: Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
-seo-title: Map metrics and dimensions to cells
 solution: Analytics
 title: Map metrics and dimensions to cells
 topic: Report builder

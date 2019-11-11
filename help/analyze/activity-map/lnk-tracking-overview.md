@@ -1,7 +1,5 @@
 ---
 description: Activity Map tracks links with a more robust algorithm that 
-seo-description: Activity Map tracks links with a more robust algorithm that 
-seo-title: Robust link tracking
 solution: Analytics
 title: Robust link tracking
 topic: Activity map

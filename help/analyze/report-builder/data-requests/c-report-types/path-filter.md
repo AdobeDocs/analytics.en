@@ -1,7 +1,5 @@
 ---
 description: Describes the steps involved in applying filters to a pathing report.
-seo-description: Describes the steps involved in applying filters to a pathing report.
-seo-title: Filter a Path Report Using the Request Wizard
 solution: Analytics
 title: Filter a Path Report Using the Request Wizard
 topic: Report builder

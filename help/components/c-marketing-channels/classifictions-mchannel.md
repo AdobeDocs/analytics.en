@@ -1,7 +1,5 @@
 ---
 description: Use classifications to categorize values into related groups and to report at the group level. For example, you can classify all Paid Search campaigns into a category like Video Cards. Then you can report on the success of that category relative to metrics like Instances (or click-throughs).
-seo-description: Use classifications to categorize values into related groups and to report at the group level. For example, you can classify all Paid Search campaigns into a category like Video Cards. Then you can report on the success of that category relative to metrics like Instances (or click-throughs).
-seo-title: Classifications in Marketing Channels
 solution: Analytics
 subtopic: Marketing channels
 title: Classifications in Marketing Channels

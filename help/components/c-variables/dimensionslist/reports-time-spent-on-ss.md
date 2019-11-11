@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Time Spent on Site Section
 solution: Analytics
 title: Time Spent on Site Section
 topic: Reports

@@ -1,8 +1,6 @@
 ---
 description: Cumulative release notes for Analytics data feed.
 keywords: Data Feed
-seo-description: Cumulative release notes for Analytics data feed.
-seo-title: Data Feed release notes
 solution: Analytics
 subtopic: data feeds
 title: Data Feed release notes

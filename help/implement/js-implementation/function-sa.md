@@ -1,8 +1,6 @@
 ---
 description: The s.sa() function lets you dynamically change a report suite at any time on the page, before or after an image request fires.
 keywords: Analytics Implementation
-seo-description: The s.sa() function lets you dynamically change a report suite at any time on the page, before or after an image request fires.
-seo-title: The s.sa() Function
 solution: Analytics
 subtopic: Functions
 title: The s.sa() Function

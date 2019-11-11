@@ -1,7 +1,5 @@
 ---
 description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
-seo-description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
-seo-title: Supported real-time metrics and dimensions
 solution: Analytics
 title: Supported real-time metrics and dimensions
 topic: Reports

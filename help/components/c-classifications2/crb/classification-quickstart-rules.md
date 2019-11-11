@@ -1,7 +1,5 @@
 ---
 description: Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
-seo-description: Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
-seo-title: Classification rules
 solution: Analytics
 subtopic: Classifications
 title: Classification rules

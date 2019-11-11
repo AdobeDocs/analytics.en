@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Pagination, filtering and sorting tables
 title: Pagination, filtering and sorting tables
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 ---

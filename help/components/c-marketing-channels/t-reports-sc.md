@@ -1,7 +1,5 @@
 ---
 description: How to run the Marketing Channel Report.
-seo-description: How to run the Marketing Channel Report.
-seo-title: Run Marketing Channel reports
 solution: Analytics
 subtopic: Marketing channels
 title: Run Marketing Channel reports

@@ -1,8 +1,6 @@
 ---
 description: The getVisitNum plug-in determines how many visits a user has made to your site and captures this number in a Analytics variable.
 keywords: Analytics Implementation
-seo-description: The getVisitNum plug-in determines how many visits a user has made to your site and captures this number in a Analytics variable.
-seo-title: getVisitNum
 solution: Analytics
 subtopic: Plug-ins
 title: getVisitNum

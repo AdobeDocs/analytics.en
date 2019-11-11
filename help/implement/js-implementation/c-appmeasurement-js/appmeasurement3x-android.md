@@ -1,7 +1,5 @@
 ---
 description: AppMeasurement 3.x for ios
-seo-description: Legacy documentation for AppMeasurement 3.x for ios
-seo-title: AppMeasurement 3.x for ios
 solution: Analytics
 subtopic: Bookmarks
 title: AppMeasurement 3.x for ios

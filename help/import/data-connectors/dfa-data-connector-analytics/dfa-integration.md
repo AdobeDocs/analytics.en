@@ -1,8 +1,6 @@
 ---
 description: Configuring the DFA integration involves the following tasks 
 keywords: DFA
-seo-description: Configuring the DFA integration involves the following tasks 
-seo-title: DFA Integration
 solution: Analytics
 title: DFA Integration
 topic: Data connectors

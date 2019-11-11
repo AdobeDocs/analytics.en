@@ -1,7 +1,5 @@
 ---
 description: Diagnostic messages provide you information about the status of the request when you refresh it.
-seo-description: Diagnostic messages provide you information about the status of the request when you refresh it.
-seo-title: Diagnostic messages
 solution: Analytics
 title: Diagnostic messages
 topic: Report builder

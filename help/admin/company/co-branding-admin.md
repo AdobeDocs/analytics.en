@@ -1,7 +1,5 @@
 ---
 description: The Manage Co-Branding Image page lets you display your company logo in downloaded reports.
-seo-description: The Manage Co-Branding Image page lets you display your company logo in downloaded reports.
-seo-title: Co-Branding
 solution: Analytics
 title: Co-Branding
 topic: Admin tools

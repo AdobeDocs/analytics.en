@@ -1,7 +1,5 @@
 ---
 description: Displays the number of visits made to your entire website during a specified time period.
-seo-description: Displays the number of visits made to your entire website during a specified time period.
-seo-title: Visits
 solution: Analytics
 title: Visits
 topic: Reports

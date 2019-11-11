@@ -1,7 +1,5 @@
 ---
 description: Lists the standard metrics in Adobe Analytics.
-seo-description: Lists the standard metrics in Adobe Analytics.
-seo-title: Metrics quick reference
 solution: Analytics
 title: Metrics quick reference
 topic: Metrics

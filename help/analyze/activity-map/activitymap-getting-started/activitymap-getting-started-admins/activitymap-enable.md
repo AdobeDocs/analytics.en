@@ -1,7 +1,5 @@
 ---
 description: Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
-seo-description: Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
-seo-title: Enable Activity Map
 solution: Analytics
 title: Enable Activity Map
 topic: Activity map

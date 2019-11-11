@@ -1,7 +1,5 @@
 ---
 description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
-seo-description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
-seo-title: Create Marketing Channel processing rules
 solution: Analytics
 subtopic: Marketing channels
 title: Create Marketing Channel processing rules

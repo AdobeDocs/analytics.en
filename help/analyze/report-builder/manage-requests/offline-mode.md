@@ -1,7 +1,5 @@
 ---
 description: Offline mode returns placeholder data to speed up the process of creating and editing requests.
-seo-description: Offline mode returns placeholder data to speed up the process of creating and editing requests.
-seo-title: Offline mode for creating and editing requests
 solution: Analytics
 title: Offline mode for creating and editing requests
 topic: Report builder

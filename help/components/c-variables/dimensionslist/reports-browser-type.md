@@ -1,7 +1,5 @@
 ---
 description: Refers to the type of browser being used by the visitor, such as Internet Explorer, Mozilla Firefox, Google Chrome, and so forth.
-seo-description: Refers to the type of browser being used by the visitor, such as Internet Explorer, Mozilla Firefox, Google Chrome, and so forth.
-seo-title: Browser Types
 solution: Analytics
 title: Browser Types
 topic: Reports

@@ -1,8 +1,6 @@
 ---
 description: When a mobile device requests a page from a Web server, the request is sent through a gateway, which converts the mobile request (usually in the WAP or I-Mode protocol) into an HTTP request that is sent to a Web server.
 keywords: Analytics Implementation;gateway;wap;i-mode;wbmp
-seo-description: When a mobile device requests a page from a Web server, the request is sent through a gateway, which converts the mobile request (usually in the WAP or I-Mode protocol) into an HTTP request that is sent to a Web server.
-seo-title: Mobile protocol network gateway
 solution: Analytics
 title: Mobile protocol network gateway
 topic: Developer and implementation

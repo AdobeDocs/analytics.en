@@ -1,7 +1,5 @@
 ---
 description: If you protect your worksheet (by locking cells), you cannot create, edit, or refresh requests. Remove all protection from your worksheet before using Request Manager.
-seo-description: If you protect your worksheet (by locking cells), you cannot create, edit, or refresh requests. Remove all protection from your worksheet before using Request Manager.
-seo-title: Protected worksheet elements
 solution: Analytics
 title: Protected worksheet elements
 topic: Report builder

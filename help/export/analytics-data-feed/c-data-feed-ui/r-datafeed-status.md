@@ -1,8 +1,6 @@
 ---
 description: Feeds can be shown with any of several status labels.
 keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
-seo-description: Feeds can be shown with any of several status labels.
-seo-title: Data Feed status
 solution: Analytics
 title: Data Feed status
 uuid: 07ec0d16-925c-481d-801c-869eb1568689

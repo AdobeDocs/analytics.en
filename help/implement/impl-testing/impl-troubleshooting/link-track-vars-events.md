@@ -1,8 +1,6 @@
 ---
 description: The key to a successful link tracking implementation is understanding the s.linkTrackVars and s.linkTrackEvents variables. This lets you pass custom variable values on user actions.
 keywords: Analytics Implementation
-seo-description: The key to a successful link tracking implementation is understanding the s.linkTrackVars and s.linkTrackEvents variables. This lets you pass custom variable values on user actions.
-seo-title: Using s.linkTrackVars and s.linkTrackEvents
 solution: Analytics
 title: Using s.linkTrackVars and s.linkTrackEvents
 topic: Developer and implementation

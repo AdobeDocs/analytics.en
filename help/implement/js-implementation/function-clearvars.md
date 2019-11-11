@@ -1,8 +1,6 @@
 ---
 description: Clears the following values from the instance object. This function removes the elements (sets them as "undefined.")
 keywords: Analytics Implementation
-seo-description: Clears the following values from the instance object. This function removes the elements (sets them as "undefined.")
-seo-title: The s.clearVars() Function
 solution: Analytics
 title: The s.clearVars() Function
 topic: Developer and implementation

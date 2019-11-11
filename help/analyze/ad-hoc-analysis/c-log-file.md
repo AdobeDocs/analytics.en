@@ -1,7 +1,5 @@
 ---
 description: The Log file is a text file that the server uses to store data relating to when files are retrieved from a website. Some of the information that is collected includes date and time, URL served, IP addresses, status of the request, and so on.
-seo-description: The Log file is a text file that the server uses to store data relating to when files are retrieved from a website. Some of the information that is collected includes date and time, URL served, IP addresses, status of the request, and so on.
-seo-title: Log file
 solution: Analytics
 title: Log file
 topic: Ad hoc analysis

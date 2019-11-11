@@ -1,7 +1,5 @@
 ---
 description: Lets Admin-level users see and manage scheduled reports across the organization.
-seo-description: Lets Admin-level users see and manage scheduled reports across the organization.
-seo-title: Scheduled reports queue
 solution: Analytics
 title: Scheduled reports queue
 topic: Reports

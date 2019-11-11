@@ -1,7 +1,5 @@
 ---
 description: Displays the number of days that pass between the first time customers visit your site and when they finally make a purchase.
-seo-description: Displays the number of days that pass between the first time customers visit your site and when they finally make a purchase.
-seo-title: Days Before First Purchase
 solution: Analytics
 title: Days Before First Purchase
 topic: Reports

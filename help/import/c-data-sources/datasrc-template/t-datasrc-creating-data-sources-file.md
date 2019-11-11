@@ -1,7 +1,5 @@
 ---
 description: The import template file is designed to get you started with the import.
-seo-description: The import template file is designed to get you started with the import.
-seo-title: Generate an import file template
 solution: Analytics
 subtopic: Data sources
 title: Generate an import file template

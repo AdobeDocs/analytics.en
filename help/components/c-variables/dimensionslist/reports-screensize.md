@@ -1,7 +1,5 @@
 ---
 description: Groups mobile device hits to your site by the screen size of the device. Shows each screen size, the number of visitors to your site that used each screen size, and each screen size as a percentage of the total views. Screen Size shows both the height and width of the screen size as compared to Screen Height and Screen Width.
-seo-description: Groups mobile device hits to your site by the screen size of the device. Shows each screen size, the number of visitors to your site that used each screen size, and each screen size as a percentage of the total views. Screen Size shows both the height and width of the screen size as compared to Screen Height and Screen Width.
-seo-title: Screen Size
 solution: Analytics
 title: Screen Size
 topic: Reports

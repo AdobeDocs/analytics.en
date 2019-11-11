@@ -1,7 +1,5 @@
 ---
 description: Determines the average number of clicks it takes users to get to a certain page in the website.
-seo-description: Determines the average number of clicks it takes users to get to a certain page in the website.
-seo-title: Page Depth
 solution: Analytics
 title: Page Depth
 topic: Reports

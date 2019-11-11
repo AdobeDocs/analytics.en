@@ -1,7 +1,5 @@
 ---
 description: This ability further integrates Report Builder usage within the natural Excel workflow, without requiring you to access the Report Builder user interface.
-seo-description: This ability further integrates Report Builder usage within the natural Excel workflow, without requiring you to access the Report Builder user interface.
-seo-title: Invoke Report Builder functionality from Microsoft Excel functions
 solution: Analytics
 title: Invoke Report Builder functionality from Microsoft Excel functions
 topic: Report builder

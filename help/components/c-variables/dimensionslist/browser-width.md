@@ -1,7 +1,5 @@
 ---
 description: Metrics that refer to the horizontal/vertical distance of the data in the browser window only. More specifically, the browser
-seo-description: Metrics that refer to the horizontal/vertical distance of the data in the browser window only. More specifically, the browser
-seo-title: Browser Width/Height
 solution: Analytics
 title: Browser Width/Height
 topic: Metrics

@@ -1,7 +1,5 @@
 ---
 description: System recommendations and prerequisites.
-seo-description: System recommendations and prerequisites.
-seo-title: System requirements
 solution: Analytics
 title: System requirements
 topic: Report builder

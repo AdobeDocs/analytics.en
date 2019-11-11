@@ -1,7 +1,5 @@
 ---
 description: Administrative steps for enabling Activity Map reporting in Analytics.
-seo-description: Administrative steps for enabling Activity Map reporting in Analytics.
-seo-title: Activity Map reporting
 solution: Analytics
 title: Activity Map reporting
 topic: Reports

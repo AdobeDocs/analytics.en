@@ -1,7 +1,5 @@
 ---
 description: Flow shows the most common paths users take across pages, site sections, and servers.
-seo-description: Flow shows the most common paths users take across pages, site sections, and servers.
-seo-title: Flow
 solution: Analytics
 title: Flow
 topic: Reports

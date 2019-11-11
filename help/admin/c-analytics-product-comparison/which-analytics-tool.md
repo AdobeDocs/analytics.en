@@ -1,7 +1,5 @@
 ---
 description: This help page contains recommended use cases for each Adobe Analytics tool. Tools should be considered in the order they are listed. If a certain tool does not meet the need, move to the next one for consideration.
-seo-description: This help page contains recommended use cases for each Adobe Analytics tool. Tools should be considered in the order they are listed. If a certain tool does not meet the need, move to the next one for consideration.
-seo-title: Which Adobe Analytics tool should I use?
 title: Which Adobe Analytics tool should I use?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 ---

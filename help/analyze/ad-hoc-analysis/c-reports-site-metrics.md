@@ -1,7 +1,5 @@
 ---
 description: Displays quantitative information about your website, such as how many times visitors looked at certain pages, numbers of overall purchases made from specific pages, when they came, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
-seo-description: Displays quantitative information about your website, such as how many times visitors looked at certain pages, numbers of overall purchases made from specific pages, when they came, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
-seo-title: Site Metrics reports
 solution: Analytics
 title: Site Metrics reports
 topic: Ad hoc analysis

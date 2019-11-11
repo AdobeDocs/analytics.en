@@ -1,8 +1,6 @@
 ---
 description: Use the Jobs tab to view job histories and perform job management tasks.
 keywords: Data Feed;job;configure
-seo-description: Use the Jobs tab to view job histories and perform job management tasks.
-seo-title: Data Feed jobs - overview
 solution: Analytics
 title: Data Feed jobs - overview
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6

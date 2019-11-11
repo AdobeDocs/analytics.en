@@ -1,8 +1,6 @@
 ---
 description: AJAX is an emerging concept in web design that uses multiple technologies to create and manage dynamic content on Web pages.
 keywords: Analytics Implementation
-seo-description: AJAX is an emerging concept in web design that uses multiple technologies to create and manage dynamic content on Web pages.
-seo-title: AJAX-Track rich media applications
 solution: Analytics
 title: AJAX-Track rich media applications
 topic: Developer and implementation

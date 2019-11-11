@@ -1,8 +1,6 @@
 ---
 description: Data accuracy validation is a process of comparing report data with known and verifiable data points.
 keywords: Analytics Implementation
-seo-description: Data accuracy validation is a process of comparing report data with known and verifiable data points.
-seo-title: Data accuracy validation
 solution: Analytics
 title: Data accuracy validation
 topic: Developer and implementation

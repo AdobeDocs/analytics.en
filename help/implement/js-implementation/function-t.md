@@ -1,8 +1,6 @@
 ---
 description: The s.t() function is what compiles all the variables defined on that page into an image request and sends it to our servers.
 keywords: track;Analytics Implementation;page tracking;track page
-seo-description: The s.t() function is what compiles all the variables defined on that page into an image request and sends it to our servers.
-seo-title: The s.t() Function - Page Tracking
 solution: Analytics
 subtopic: Functions
 title: The s.t() Function - Page Tracking

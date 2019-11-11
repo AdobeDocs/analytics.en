@@ -1,7 +1,5 @@
 ---
 description: Provides summary data on report suite traffic.
-seo-description: Provides summary data on report suite traffic.
-seo-title: Account Activity
 title: Account Activity
 uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
 ---

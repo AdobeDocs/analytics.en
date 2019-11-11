@@ -1,7 +1,5 @@
 ---
 description: These reports display information about browsers, operating systems, monitor resolutions, and so on, that visitors use.
-seo-description: These reports display information about browsers, operating systems, monitor resolutions, and so on, that visitors use.
-seo-title: Technology
 solution: Analytics
 title: Technology
 topic: Reports

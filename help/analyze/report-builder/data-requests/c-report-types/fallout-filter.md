@@ -1,7 +1,5 @@
 ---
 description: Describes the steps involved in applying filters to a fallout report.
-seo-description: Describes the steps involved in applying filters to a fallout report.
-seo-title: Filter a Fallout Report Using the Request Wizard
 solution: Analytics
 title: Filter a Fallout Report Using the Request Wizard
 topic: Report builder

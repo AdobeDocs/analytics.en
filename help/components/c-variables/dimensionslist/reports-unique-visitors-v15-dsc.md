@@ -1,7 +1,5 @@
 ---
 description: Shows you the number of unique visitors who accessed your site. Each visitor is counted once, regardless of how many times the person visits your website.
-seo-description: Shows you the number of unique visitors who accessed your site. Each visitor is counted once, regardless of how many times the person visits your website.
-seo-title: Unique Visitors
 solution: Analytics
 title: Unique Visitors
 topic: Reports

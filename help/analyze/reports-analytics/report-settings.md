@@ -1,7 +1,5 @@
 ---
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
-seo-description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
-seo-title: Report display settings and navigation
 solution: Analytics
 title: Report display settings and navigation
 topic: Reports,Reports and analytics

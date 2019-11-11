@@ -1,7 +1,5 @@
 ---
 description: Information about the Data Source .txt template.
-seo-description: Information about the Data Source .txt template.
-seo-title: Import file reference
 solution: Analytics
 subtopic: Data sources
 title: Import file reference

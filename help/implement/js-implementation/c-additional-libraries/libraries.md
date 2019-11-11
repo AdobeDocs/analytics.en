@@ -1,8 +1,6 @@
 ---
 description: Lists the available measurement libraries.
 keywords: Analytics Implementation;collect;data;collection
-seo-description: Lists the available measurement libraries.
-seo-title: Overview of additional libraries
 solution: Analytics
 title: Overview of additional libraries
 topic: Developer and implementation

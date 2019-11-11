@@ -1,7 +1,5 @@
 ---
 description: What you need to know about the Analytics user ID migration to the Admin Console in the Adobe Experience Cloud.
-seo-description: What you need to know about the Analytics user ID migration to the Admin Console in the Adobe Experience Cloud.
-seo-title: Analytics User Migration to the Admin Console
 title: Analytics User Migration to the Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 ---

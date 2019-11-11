@@ -1,7 +1,5 @@
 ---
 description: Data Sources supports the following conversion data dimensions and metrics for data types that are processed as conversion.
-seo-description: Data Sources supports the following conversion data dimensions and metrics for data types that are processed as conversion.
-seo-title: Conversion
 solution: Analytics
 subtopic: Data sources
 title: Conversion

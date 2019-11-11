@@ -1,7 +1,5 @@
 ---
 description: Describes the two main ways of finding your metrics  sorting and filtering.
-seo-description: Describes the two main ways of finding your metrics  sorting and filtering.
-seo-title: Find metrics
 title: Find metrics
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 ---

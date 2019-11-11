@@ -1,8 +1,6 @@
 ---
 description: Field descriptions in Dynamic Tag Management for page views and content settings when deploying Analytics.
 keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
-seo-description: Field descriptions in Dynamic Tag Management for page views and content settings when deploying Analytics.
-seo-title: Page views and content
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Page views and content
 uuid: 6d019304-5892-475b-9887-00f86983f859

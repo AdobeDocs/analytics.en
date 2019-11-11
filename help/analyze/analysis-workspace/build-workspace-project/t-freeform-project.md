@@ -1,8 +1,6 @@
 ---
 description: Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
 keywords: Analysis Workspace
-seo-description: Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
-seo-title: Create a Workspace project
 solution: Analytics
 title: Create a Workspace project
 topic: Reports and analytics

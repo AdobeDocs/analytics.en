@@ -1,7 +1,5 @@
 ---
 description: The number of times a specific value is captured, plus the number of page views for which the given value persisted. In other words, Occurrences are sum of page views and page events. Occurrences are available in Analysis Workspace and in Ad Hoc Analysis.
-seo-description: The number of times a specific value is captured, plus the number of page views for which the given value persisted. In other words, Occurrences are sum of page views and page events. Occurrences are available in Analysis Workspace and in Ad Hoc Analysis.
-seo-title: Occurrences
 solution: Analytics
 title: Occurrences
 topic: Metrics

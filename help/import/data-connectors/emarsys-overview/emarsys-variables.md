@@ -1,7 +1,5 @@
 ---
 description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
-seo-description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
-seo-title: Analytics Variables
 title: Analytics Variables
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 ---

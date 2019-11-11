@@ -1,7 +1,5 @@
 ---
 description: The recommended default metric for search engines and keywords. This metric represents instances of a click-through, and shows the page that is associated with a specific engine or keyword. Searches metric data can be reported retroactively to the beginning of the data set.
-seo-description: The recommended default metric for search engines and keywords. This metric represents instances of a click-through, and shows the page that is associated with a specific engine or keyword. Searches metric data can be reported retroactively to the beginning of the data set.
-seo-title: Searches
 solution: Analytics
 title: Searches
 topic: Metrics

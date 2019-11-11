@@ -1,7 +1,5 @@
 ---
 description: Information about how Adobe provides access to Data Sources.
-seo-description: Information about how Adobe provides access to Data Sources.
-seo-title: How Data Sources works
 solution: Analytics
 subtopic: Data sources
 title: How Data Sources works

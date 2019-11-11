@@ -1,6 +1,5 @@
 ---
 keywords: Analysis Workspace
-seo-title: Analysis Workspace overview
 solution: Analytics
 title: Analysis Workspace overview
 topic: Reports and analytics

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Turn off anomaly detection
 title: Turn off anomaly detection
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
 ---

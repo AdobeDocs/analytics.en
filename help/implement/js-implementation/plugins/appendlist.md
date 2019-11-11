@@ -1,8 +1,6 @@
 ---
 description: The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
 keywords: Analytics Implementation
-seo-description: The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
-seo-title: appendList
 solution: Analytics
 subtopic: Plug-ins
 title: appendList

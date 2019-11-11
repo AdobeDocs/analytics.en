@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to delete or remove classification data.
-seo-description: Steps that describe how to delete or remove classification data.
-seo-title: Delete classification data
 solution: Analytics
 subtopic: Classifications
 title: Delete classification data

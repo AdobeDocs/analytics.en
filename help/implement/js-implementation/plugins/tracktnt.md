@@ -1,8 +1,6 @@
 ---
 description: Collects the information for the Target to Analytics integration. This plug-in is replaced by the Adobe Analytics and Adobe target integration.
 keywords: Analytics Implementation
-seo-description: Collects the information for the Target to Analytics integration. This plug-in is replaced by the Adobe Analytics and Adobe target integration.
-seo-title: trackTNT
 solution: Analytics
 subtopic: Plug-ins
 title: trackTNT

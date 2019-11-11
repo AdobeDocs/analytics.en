@@ -1,7 +1,5 @@
 ---
 description: Displays the relationship between products in the same product string. For example, if a visitor purchased Item A, what other products were also in the cart at the time of purchase.
-seo-description: Displays the relationship between products in the same product string. For example, if a visitor purchased Item A, what other products were also in the cart at the time of purchase.
-seo-title: Cross-Sell
 solution: Analytics
 title: Cross-Sell
 topic: Reports

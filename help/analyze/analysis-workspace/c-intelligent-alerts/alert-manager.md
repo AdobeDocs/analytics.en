@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Alert Manager
 title: Alert Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 ---

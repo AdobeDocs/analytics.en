@@ -1,7 +1,5 @@
 ---
 description: You can customize the delivery schedule for reports. You can stop the delivery at a certain time, or specify the number of times you want to send a report. New schedules use the date range defined in the report. For example, if you create a report for the last 90 days and schedule it to run daily, you receive a report for the last 90 days each day. If you create a report with a static date range from the calendar, you'll see the same report each time it is sent.
-seo-description: You can customize the delivery schedule for reports. You can stop the delivery at a certain time, or specify the number of times you want to send a report. New schedules use the date range defined in the report. For example, if you create a report for the last 90 days and schedule it to run daily, you receive a report for the last 90 days each day. If you create a report with a static date range from the calendar, you'll see the same report each time it is sent.
-seo-title: Scheduling Manager
 solution: Analytics
 title: Scheduling Manager
 topic: Ad hoc analysis

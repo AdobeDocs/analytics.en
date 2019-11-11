@@ -1,7 +1,5 @@
 ---
 description: The Schedule Spike section lets you alert Adobe of temporary traffic spikes so that appropriate resources can be allocated to handle them.
-seo-description: The Schedule Spike section lets you alert Adobe of temporary traffic spikes so that appropriate resources can be allocated to handle them.
-seo-title: Schedule a traffic spike
 solution: Analytics
 title: Schedule a traffic spike
 topic: Admin tools

@@ -1,7 +1,5 @@
 ---
 description: In the Custom Layout, you can turn a metric column into a bar chart with a corresponding percentage value, or a percentage value with a corresponding bar chart. The percentage value is the metric value or total for the overall non-filtered request for the period.
-seo-description: In the Custom Layout, you can turn a metric column into a bar chart with a corresponding percentage value, or a percentage value with a corresponding bar chart. The percentage value is the metric value or total for the overall non-filtered request for the period.
-seo-title: Create a microchart
 solution: Analytics
 title: Create a microchart
 topic: Report builder

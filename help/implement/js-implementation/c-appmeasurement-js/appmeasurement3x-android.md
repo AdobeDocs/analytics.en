@@ -1,41 +1,41 @@
 ---
-description: AppMeasurement 3.x for Android
-seo-description: Legacy documentation for AppMeasurement 3.x for Android
-seo-title: AppMeasurement 3.x for Android
+description: AppMeasurement 3.x for ios
+seo-description: Legacy documentation for AppMeasurement 3.x for ios
+seo-title: AppMeasurement 3.x for ios
 solution: Analytics
 subtopic: Bookmarks
-title: AppMeasurement 3.x for Android
+title: AppMeasurement 3.x for ios
 topic: 
 uuid: 
 ---
 
-# AppMeasurement 3.x for Android
+# AppMeasurement 3.x for iOS
 
-*Note: This document contains legacy information for previous versions of AppMeasurement, specifically for versions 3.x for Android.
+*Note: This document contains legacy information for previous versions of AppMeasurement, specifically for versions 3.x for iOS.
 For information on current AppMeasurement implementation, see [About AppMeasurement for Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Last updated 3/15/2018 AppMeasurement 3.x for Android*
+*Last updated 3/15/2018 AppMeasurement 3.x for iOS*
 
-Adobe AppMeasurement for Android lets you measure native Android applications in the Adobe Experience Cloud.
+Adobe AppMeasurement for iOS lets you measure native Apple iPhone and iPad applications in the Adobe Experience Cloud.
 
 This guide is divided into two sections; one section for the Analyst that has Adobe Analytics experience and one section for the
-Android developer with mobile app development experience.
+iOS developer with mobile app development experience.
 
-**Supported Versions**: Android 2.0 or later.
+**Supported Versions**: iOS 4.3 or later.
 
 **Download the Library**
 Download instructions and links for all AppMeasurement mobile platforms are available at the Measuring and Optimizing
-Mobile Applications page on Developer Connection. You must have a free Developer Connection account or a SiteCatalyst login to download the libraries. The download links do not appear until you have logged in.
+Mobile Applications page on Developer Connection. You must have a free Developer Connection account or a reports and analytics login to download the libraries. The download links do not appear until you have logged in.
 
 ## Analyst Quick Start
 
-This section walks you through implementing the Android library and adding the code required for a standard implementation. Steps are included to show you how to send custom events and other data.
+This section walks you through implementing the iOS library and adding the code required for a standard implementation. Steps are included to show you how to send custom events and other data.
 
 As the analyst, you need to enable the Mobile Application Reports for your report suite. If you have additional metrics to capture,you should provide your developer a description of the context data variables that should be sent by the application. For example, to collect a username after login, you could have your developer set the username into a context data variable called `myco.username`.
 
-### Enable Mobile Application Reports in SiteCatalyst
+### Enable Mobile Application Reports in Analytics
 
-SiteCatalyst provides an interface to enable Mobile App Lifecycle Tracking. This mapping lets SiteCatalyst automatically generate the Mobile Application Reports.
+Analytics provides an interface to enable Mobile App Lifecycle Tracking. This mapping lets Analytics automatically generate the Mobile Application Reports.
 
 1. Open Admin Console > Report Suites > Edit Settings > Mobile Management > Mobile Application Reporting.
 1. Click Enable Mobile App Lifecycle Tracking.
@@ -56,19 +56,17 @@ If you plan to store hits when the device is offline, your report suite must be 
 
 After you enable offline tracking, all hits must be time-stamped or they are not collected. If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data to avoid data loss, or include a custom timestamp on JavaScript hits using the s.timestamp variable.
 
-If you are unsure if your report suite is timestamp-enabled, contact Client Care.
+If you are unsure if your report suite is timestamp-enabled, contact Customer Care.
 
 ## Developer Quick Start
 
-This section walks you through selecting and configuring the events, eVars, and props that you'll use to collect Android data. Steps are also included to create Processing Rules to copy the context data sent by the Android libraries to these variables.
-
-The steps to implement the Android library and start sending measurement data are as follows:
+This section walks you through the steps to implement the iOS library and start sending measurement data, including:
 
 * Get the Library
 * Add the Library to your Project
-* Add App Permissions
 * A Quick Word on the TrackingHelper
 * Implementation
+
 
 ### Get the Library
 

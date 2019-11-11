@@ -67,23 +67,25 @@ This section walks you through the steps to implement the iOS library and start 
 * A Quick Word on the TrackingHelper
 * Implementation
 
-
 ### Get the Library
 
-Visit Measuring and Optimizing Mobile Applications on Developer Connection to download the Android library. After unzipping the download file, you'll have the following software components:
+Visit Measuring and Optimizing Mobile Applications on Developer Connection to download the iOS library. After unzipping the download file, you'll have the following software components:
 
-* admsAppLibrary.jar: Library designed for use with Android devices and simulators. Requires Android 2.0 or later.
-* Examples\TrackingHelper.java: Optional class that is designed to keep tracking code separate from your application logic.
+* ADMS_Measurement.h: The Objective-C header file used for iOS AppMeasurement. 
+* admsAppLibrary.a: a FAT binary containing the library builds for devices (arm7 and arm7x) as well as the simulator (x386/x86_64). Requires iOS 4.3 or later.
+* Examples\TrackingHelper.h, Examples/TrackingHelper.m: Optional class that is designed to keep tracking code separate from your application logic.
 
 ### Add the Library to your Project
 
-1. In the Eclipse IDE, right-click on the project name.
-1. Select Build Path > Add External Archives.
-1. Select `admsAppLibrary.jar`.
-1. Click Open.
-1. Right-click the project again, then select Build Path > Configure Build Path.
-1. Click the Order and Export tab.
-1. Ensure that `admsAppLibrary.jar` is selected.
+1. "Launch the Xcode IDE. 
+1. Copy the ADMS_AppLibrary folder from the ADMS_AppLibrary-*.DMG you downloaded to your project folder or another location on your drive. 
+1. Drag and Drop the ADMS_Measurement folder on your Xcode project, and confirm the following settings: 
+
+    * Select Copy items into destination group's folder (if needed). 
+    * Select Create groups for any added folders. 
+    * Select the targets where you want to use AppMeasurement code. 
+
+4. Click Finish.
 
 Your application can import the classes/interfaces from the admsAppLibrary.jar library by using import com.adobe.ADMS.*;
 
@@ -105,9 +107,9 @@ The SDK includes an additional, optional class, called TrackingHelper. TrackingH
 Consider the following example: In your application, you want to send an event that tracks each login. You could add the following code directly after your login code to send this event (don't worry about the code details, we'll get to those later):
 
 ```
-Hashtable<String, Object> contextData = new Hashtable<String, Object>();
-contextData.put("username", "username_value");
-measure.trackEvents("event1", contextData);
+ADMS_Measurement *measure = [ADMS_Measurement sharedInstance]; NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; [contextData setObject:@"username_value" forKey:@"username"]; //add additional key:value pairs to this dictionary... 
+
+[measure trackEvents:@"event1" withContextData:contextData];
 ```
 
 This direct approach is OK, but wouldn't you rather put this code somewhere else so it is out of your way while you are developing your application? The TrackingHelper is that "somewhere else". Inside of TrackingHelper, you could place this code in a method called trackLogonEvent:

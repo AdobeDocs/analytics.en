@@ -38,7 +38,7 @@ As the analyst, you need to enable the Mobile Application Reports for your repor
 SiteCatalyst provides an interface to enable Mobile App Lifecycle Tracking. This mapping lets SiteCatalyst automatically generate the Mobile Application Reports.
 
 1. Open Admin Console > Report Suites > Edit Settings > Mobile Management > Mobile Application Reporting.
-2. Click Enable Mobile App Lifecycle Tracking.
+1. Click Enable Mobile App Lifecycle Tracking.
 
 The lifecycle metrics are now captured, and Mobile Application Reports appear in the Reports menu in SiteCatalyst.
 
@@ -71,6 +71,7 @@ The steps to implement the Android library and start sending measurement data ar
 * Implementation
 
 ### Get the Library
+
 Visit Measuring and Optimizing Mobile Applications on Developer Connection to download the Android library. After unzipping the download file, you'll have the following software components:
 
 * admsAppLibrary.jar: Library designed for use with Android devices and simulators. Requires Android 2.0 or later.
@@ -79,12 +80,12 @@ Visit Measuring and Optimizing Mobile Applications on Developer Connection to do
 ### Add the Library to your Project
 
 1. In the Eclipse IDE, right-click on the project name.
-2. Select Build Path > Add External Archives.
-3. Select `admsAppLibrary.jar`.
-4. Click Open.
-5. Right-click the project again, then select Build Path > Configure Build Path.
-6. Click the Order and Export tab.
-7. Ensure that `admsAppLibrary.jar` is selected.
+1. Select Build Path > Add External Archives.
+1. Select `admsAppLibrary.jar`.
+1. Click Open.
+1. Right-click the project again, then select Build Path > Configure Build Path.
+1. Click the Order and Export tab.
+1. Ensure that `admsAppLibrary.jar` is selected.
 
 Your application can import the classes/interfaces from the admsAppLibrary.jar library by using import com.adobe.ADMS.*;
 
@@ -191,8 +192,8 @@ Where to go from here:
 Custom events are success metrics that are unique to your application. You might send a custom event when a user logs in, initiates an in-app purchase, or clicks a link to your Facebook page. The tracking helper class contains an example that shows how to track a custom event. You can use this method as a template to add additional event tracking methods.
 
 In TrackingHelper.java, define a custom event track method:
-```
 
+```
 public static void trackCustomEvents () {
 Hashtable<String, Object> contextData = new Hashtable<String, Object>();
 contextData.put("contextKey", "value");
@@ -326,6 +327,7 @@ mediaMeasure.trackOffsetMilestones = "5,15,45";
 ```
 
 ### Track Player Events
+
 To measure video, you need to add code that tells the media module when events occur in your player (using the open, play, stop, and close methods). When a user starts playing a video, you need to call the play method so the media module starts counting seconds viewed. 
 
 If the user pauses the video, you need to call stop so the count is paused. This is typically performed using event handlers that are exposed by your player.
@@ -1068,12 +1070,12 @@ After unzipping the download file, you'll have the following software components
 **Add the Library to your Project**
 
 1. In the Eclipse IDE, right-click on the project name.
-2. Select Build Path > Add External Archives.
-3. Select admsAppLibrary.jar.
-4. Click Open.
-5. Right-click the project again, then select Build Path > Configure Build Path.
-6. Click the Order and Export tab.
-7. Ensure that admsAppLibrary.jar is selected.
+1. Select Build Path > Add External Archives.
+1. Select admsAppLibrary.jar.
+1. Click Open.
+1. Right-click the project again, then select Build Path > Configure Build Path.
+1. Click the Order and Export tab.
+1. Ensure that admsAppLibrary.jar is selected.
 
 Your application can import the classes/interfaces from the admsAppLibrary.jar library by using `importcom.adobe.ADMS.*;`
 
@@ -2176,10 +2178,10 @@ If your device does not support a proxy, you can send the hits directly to blood
 The iOS Device must be on the same network as the computer hosting Bloodhound.
 
 1. Navigate to Settings > Wi-Fi.
-2. Click the blue arrow to the right of your current Wi-Fi network.
-3. Scroll to the HTTP Proxy settings.
-4. Select Auto.
-5. Enter the Proxy URL and port (from the Bloodhound UI) into the URL field.
+1. Click the blue arrow to the right of your current Wi-Fi network.
+1. Scroll to the HTTP Proxy settings.
+1. Select Auto.
+1. Enter the Proxy URL and port (from the Bloodhound UI) into the URL field.
 
 #### Other Devices
 

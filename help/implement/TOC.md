@@ -260,3 +260,4 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Report to variable mapping](impl-testing/report-variable-mapping.md)
   + [Variable to report mapping](impl-testing/var-report-mapping.md)
 + [Implement Analytics for Digital Assistants](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Implement Analytics for Mobile Devices](mobile-device-sdk.md)

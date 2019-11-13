@@ -6,7 +6,8 @@ solution:
 title: Dynamic variables
 ---
 
-# s.account
+# s.useForcedLinkTracking
+
 
 The  variable determines the report suite where data is stored and reported.
 

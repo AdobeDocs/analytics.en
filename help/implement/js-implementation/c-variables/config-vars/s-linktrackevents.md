@@ -40,6 +40,7 @@ s.tl(this,'o','Link Name');
 ">My Page 
 
 ```
+
 In the above example, the value for prop1 is set within the custom link code itself. The value of prop2 comes from the current value of the variable as set on the page.
 
 *Note: If `linkTrackVars` (or `linkTrackEvents`) is null (or an empty string such as ""), all Analytics variables (or events) that are defined for the current page are tracked. In other words, all variables that have values would be sent with link data. This will most likely inflate instances of each variable. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating `linkTrackVars` and `linkTrackEvents` in the [!UICONTROL onClick] event of a link that is used for link tracking.*

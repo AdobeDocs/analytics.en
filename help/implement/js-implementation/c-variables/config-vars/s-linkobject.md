@@ -6,7 +6,6 @@ solution:
 title: Dynamic variables
 ---
 
-#  s.linkObject
+# s.linkObject
 
 The clicked object for reference. This is read-only and has no direct impact on measurement.
-

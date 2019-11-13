@@ -27,6 +27,7 @@ s.tl(this,'o','Link Name');
 ">My Page 
 
 ```
+
 In the above example, the value for prop1 is set within the custom link code itself. The value of prop2 comes from the current value of the variable as set on the page.
 
 The values of `linkTrackVars` and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link.

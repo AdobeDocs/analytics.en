@@ -1,11 +1,13 @@
 ---
 title: Analytics Admin Help
-description: null
+description: Administration help for Adobe Analytics administrators, including user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection.
 ---
 
 # Analytics Admin Guide
 
 ![Banner](/assets/doc_banner_admin.png)
+
+This help is intended for administrators of Adobe Analytics. It includes help on user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection. 
 
 Adobe Analytics currently has two areas for administrators:
 

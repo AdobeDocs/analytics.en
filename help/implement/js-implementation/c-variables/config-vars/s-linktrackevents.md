@@ -40,9 +40,9 @@ s.tl(this,'o','Link Name');
 
 ```
 
-In the above example, the value for prop1 is set within the custom link code itself. The value of prop2 comes from the current value of the variable as set on the page.
+In the above example, the value for `prop1` is set within the custom link code itself. The value of `prop2` comes from the current value of the variable as set on the page.
 
-*Note: If `linkTrackVars` (or `linkTrackEvents`) is null (or an empty string such as ""), all Analytics variables (or events) that are defined for the current page are tracked. In other words, all variables that have values would be sent with link data. This will most likely inflate instances of each variable. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating `linkTrackVars` and `linkTrackEvents` in the [!UICONTROL onClick] event of a link that is used for link tracking.*
+*Note: If `linkTrackVars` (or `linkTrackEvents`) is null (or an empty string such as ""), all Analytics variables (or events) that are defined for the current page are tracked. In other words, all variables that have values would be sent with link data. This will most likely inflate instances of each variable. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating `linkTrackVars` and `linkTrackEvents` in the `onClick` event of a link that is used for link tracking.*
 
 All variables that should be sent with link data (custom, exit, and download links) should be listed in `linkTrackVars`. If `linkTrackEvents` is used, `linkTrackVars` should contain "events." 
 
@@ -64,7 +64,7 @@ s.t() // eVar1, event1 and event2 are recorded
 
 ```
 
-In the first link, notice that the events variable retains the value that was set before the link was clicked. This allows event1 to be sent with the custom link. In the second example, the link to event2 is not recorded because it is not listed in `linkTrackEvents`.
+In the first link, notice that the events variable retains the value that was set before the link was clicked. This allows `event1` to be sent with the custom link. In the second example, the link to `event2` is not recorded because it is not listed in `linkTrackEvents`.
 
 To avoid confusion and potential problems, Adobe recommends populating [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` in the `onClick` event of a link that is used for link tracking.
 
@@ -108,6 +108,6 @@ None
 
 * The JavaScript file only uses `linkTrackEvents` if `linkTrackVars` contains the "events" variable. "events" should be included in `linkTrackVars` only when `linkTrackEvents` is defined.
 
-* Beware if an event is fired on a page, and is listed in `linkTrackEvents`. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the `t()` function).
+* Beware if an event is fired on a page, and is listed in `linkTrackEvents`. That event is recorded again with any exit, download, or custom links unless the events variable is reset prior to that event (in the `onClick` of a link or after the call to the `t()` function).
 
 * If `linkTrackEvents` contains spaces between event names, the events are not recorded.

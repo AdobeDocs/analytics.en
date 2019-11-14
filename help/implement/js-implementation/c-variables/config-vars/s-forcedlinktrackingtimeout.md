@@ -9,7 +9,7 @@ title: Dynamic variables
 
 # s.forcedLinkTrackingTimeout
 
-The maximum number of milliseconds to wait for tracking to finish before performing the doneAction that was passed into `s.tl`. This value specifies the maximum wait time. If the track link call completes before this timeout, the doneAction is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout.
+This value specifies the maximum wait time. Specifically, it sets the maximum number of milliseconds to wait for tracking to finish before performing the `doneAction` that was passed into `s.tl`. If the track link call completes before this timeout, the `doneAction` is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout.
 
 Default Value = 250
 

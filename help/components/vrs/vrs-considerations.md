@@ -1,13 +1,13 @@
 ---
-description: Virtual report suites can be used to replace multi-suite tagging. For example, instead of sending data to two separate report suites, you could send data to one and use virtual report suites to limit how much data users have access to. However, access to data is only one of the reasons that separate report suites can be beneficial. Carefully consider the following use cases before making implementation changes with regard to virtual report suites.
-keywords: Virtual Report Suite
+description: Virtual report suites and multi-suite tagging have different advantages. Learn which is best for your organization.
+keywords: Virtual Report Suite,VRS
 solution: Analytics
-title: VRSs and global/multi-suite tagging considerations
-topic: Reports and analytics
+title: Virtual report suites and multi-suite tagging considerations
+topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 ---
 
-# VRSs and global/multi-suite tagging considerations
+# Virtual report suites and multi-suite tagging considerations
 
 Virtual report suites (VRS) let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.
 

@@ -12,7 +12,7 @@ Setting this value only applies to the next request that AppMeasurement fires. A
 
 Using the `s.useBeacon` variable requires AppMeasurement 2.17.0 or higher.
 
-> [!NOTE] [ExitLinks](s-linktrackvars.md) uses this variable automatically without any additonal configuration.
+> [!NOTE] [Exit Links](s-linktrackvars.md) uses this variable automatically without any additonal configuration.
 
 ## Syntax
 

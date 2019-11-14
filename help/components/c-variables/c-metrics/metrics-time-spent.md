@@ -34,7 +34,9 @@ The average amount of time visitors interact with a dimension value across the v
 
 ## Average time spent on site (seconds)
 
-The average amount of time spent on your site with the given dimension value. This metric is typically paired with a date dimension to show time spent over time. Its approximate calculation is `Total seconds spent / (Sequences - Bounces)`. Sequences are a series of hits where the dimension value did not change. In most cases, use Time spent per visit instead.
+The average amount of time spent on your site, typically paired with a date dimension. Although this metric usually shows time spent trended over time, it can also be used with dimensions as an alternative calculation to Time spent per visit. Its approximate calculation is `Total seconds spent / (Sequences - Bounces)`. Sequences are a series of hits where the dimension value did not change.
+
+> [!NOTE] Time spent per visit and Average time spent on site are similar metrics. The difference between these two metrics is their denominator; time spent per visit uses `visits - bounces`, while Average time spent on site uses `sequences - bounces`. On a visit level, these metrics appear similar, but can have some differences at a hit level.
 
 ## Average time spent on page
 

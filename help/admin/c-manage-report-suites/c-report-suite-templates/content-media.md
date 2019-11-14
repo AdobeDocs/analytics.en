@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for a website that develops original content and displays articles and videos.
-seo-description: Defines common settings for a website that develops original content and displays articles and videos.
-seo-title: Content and Media
 solution: Analytics
 title: Content and Media
 topic: Admin tools

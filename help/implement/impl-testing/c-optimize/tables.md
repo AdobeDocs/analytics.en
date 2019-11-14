@@ -1,8 +1,6 @@
 ---
 description: Many Web browsers do not start displaying the contents of a table until the browser has compiled the entire table.
 keywords: Analytics Implementation
-seo-description: Many Web browsers do not start displaying the contents of a table until the browser has compiled the entire table.
-seo-title: Tables
 solution: Analytics
 subtopic: Troubleshooting
 title: Tables

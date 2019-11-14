@@ -1,8 +1,6 @@
 ---
 description: When you input values into a variable, there are a few best practices to follow.
 keywords: Analytics Implementation
-seo-description: When you input values into a variable, there are a few best practices to follow.
-seo-title: Using quotes
 solution: Analytics
 subtopic: Troubleshooting
 title: Using quotes

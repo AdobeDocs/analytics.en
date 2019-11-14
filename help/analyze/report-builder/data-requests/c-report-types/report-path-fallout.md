@@ -1,7 +1,5 @@
 ---
 description: Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
-seo-description: Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
-seo-title: Path and path fallout reports in Report Builder
 solution: Analytics
 title: Path and path fallout reports in Report Builder
 topic: Report builder

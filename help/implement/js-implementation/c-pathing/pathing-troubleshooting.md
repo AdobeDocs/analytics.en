@@ -1,8 +1,6 @@
 ---
 description: List of reasons pathing information might not be recorded and displayed in reporting.
 keywords: Analytics Implementation
-seo-description: List of reasons pathing information might not be recorded and displayed in reporting.
-seo-title: Reasons pathing may not be recorded
 solution: Analytics
 title: Reasons pathing may not be recorded
 topic: Developer and implementation

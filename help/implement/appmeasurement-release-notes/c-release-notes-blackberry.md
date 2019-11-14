@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: BlackBerry
 solution: Analytics
 subtopic: Release notes
 title: BlackBerry

@@ -1,7 +1,5 @@
 ---
 description: You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
-seo-description: You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
-seo-title: Sub-classifications and the Rule Builder - use case
 solution: Analytics
 subtopic: Classifications
 title: Sub-classifications and the Rule Builder - use case

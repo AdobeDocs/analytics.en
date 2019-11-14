@@ -1,8 +1,6 @@
 ---
 description: You can set up a delivery schedule to automatically send reports to an email address or to an FTP server.
 keywords: ftp;sftp
-seo-description: You can set up a delivery schedule to automatically send reports to an email address or to an FTP server.
-seo-title: Ad Hoc Analysis delivered reports
 solution: Analytics
 title: Ad Hoc Analysis delivered reports
 uuid: 9a26fb77-9cec-40a3-b994-226692637902

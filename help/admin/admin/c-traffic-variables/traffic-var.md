@@ -1,7 +1,5 @@
 ---
 description: Custom Insight Traffic Variables (or props) enable you to correlate custom data with specific traffic-related events. The prop variables are embedded in the implementation code on each page of your website.
-seo-description: Custom Insight Traffic Variables (or props) enable you to correlate custom data with specific traffic-related events. The prop variables are embedded in the implementation code on each page of your website.
-seo-title: Traffic variable (prop) overview
 solution: Analytics
 title: Traffic variable (prop) overview
 topic: Admin tools

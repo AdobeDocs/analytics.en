@@ -1,8 +1,6 @@
 ---
 description: This section contains information about common issues.
 keywords: Data Feed;troubleshooting
-seo-description: This section contains information about common issues.
-seo-title: Troubleshoot Data Feeds
 solution: Analytics
 title: Troubleshoot Data Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a

@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for banks and other institutions that provide access to online services.
-seo-description: Defines common settings for banks and other institutions that provide access to online services.
-seo-title: Financial Services
 solution: Analytics
 title: Financial Services
 topic: Admin tools

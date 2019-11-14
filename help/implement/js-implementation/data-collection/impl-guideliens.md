@@ -1,8 +1,6 @@
 ---
 description: Following these guidelines results in using the same cookie domains, which lets visits be tracked between various types of implementations.
 keywords: Analytics Implementation
-seo-description: Following these guidelines results in using the same cookie domains, which lets visits be tracked between various types of implementations.
-seo-title: Implementation guidelines
 solution: Analytics
 title: Implementation guidelines
 topic: Developer and implementation

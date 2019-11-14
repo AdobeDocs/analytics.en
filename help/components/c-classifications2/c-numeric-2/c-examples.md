@@ -1,7 +1,5 @@
 ---
 description: Examples to provide guidance for importing numeric 2 classifications.
-seo-description: Examples to provide guidance for importing numeric 2 classifications.
-seo-title: Examples
 solution: Analytics
 subtopic: Classifications
 title: Examples

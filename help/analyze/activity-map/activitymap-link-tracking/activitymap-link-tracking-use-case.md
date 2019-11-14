@@ -1,7 +1,5 @@
 ---
 description: You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .
-seo-description: You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .
-seo-title: Differentiate links that reference the same Link ID and region
 solution: Analytics
 title: Differentiate links that reference the same Link ID and region
 topic: Activity map

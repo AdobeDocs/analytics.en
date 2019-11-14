@@ -1,8 +1,6 @@
 ---
 title: Create a report suite
-seo-title: Create a report suite in Adobe Analytics
 description: Create a basic container for data collection in Adobe Analytics.
-seo-description: Create a basic container for data collection in Adobe Analytics.
 ---
 
 # Create a report suite

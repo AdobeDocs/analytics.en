@@ -1,7 +1,5 @@
 ---
 description: Collects and organizes page-specific information about a single page and presents it in a single report. Can be used to understand how visitors are getting to a certain page, and whether they proceed further through your site or exit.
-seo-description: Collects and organizes page-specific information about a single page and presents it in a single report. Can be used to understand how visitors are getting to a certain page, and whether they proceed further through your site or exit.
-seo-title: Page Summary
 solution: Analytics
 title: Page Summary
 topic: Reports

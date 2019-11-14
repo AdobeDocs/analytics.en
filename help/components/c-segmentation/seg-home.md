@@ -1,8 +1,6 @@
 ---
 description: Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products.
 keywords: segmentation;segments
-seo-description: Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products.
-seo-title: Analytics segmentation
 solution: Analytics
 title: Analytics segmentation
 topic: Segments

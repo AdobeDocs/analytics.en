@@ -1,8 +1,6 @@
 ---
 description: Test unpublished rules from your console if you use Akamai hosting.
 keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
-seo-description: Test unpublished rules from your console if you use Akamai hosting.
-seo-title: Test unpublished rules for Akamai hosting
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Test unpublished rules for Akamai hosting
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434

@@ -1,7 +1,5 @@
 ---
 description: How to apply one or more segments to a report from the segment rail.
-seo-description: How to apply one or more segments to a report from the segment rail.
-seo-title: Select and apply segments
 solution: Analytics
 title: Select and apply segments
 topic: Segments

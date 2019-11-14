@@ -1,8 +1,6 @@
 ---
 description: Table data describing the columns in the data feed.
 keywords: Data Feed;columns
-seo-description: Table data describing the columns in the data feed.
-seo-title: Data column reference
 solution: Analytics
 subtopic: data feeds
 title: Data column reference

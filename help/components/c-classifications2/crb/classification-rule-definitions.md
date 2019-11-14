@@ -1,7 +1,5 @@
 ---
 description: Definitions of interface elements on the pages in the Classification Rule Builder.
-seo-description: Definitions of interface elements on the pages in the Classification Rule Builder.
-seo-title: Classification rules - definitions
 solution: Analytics
 subtopic: Classifications
 title: Classification rules - definitions

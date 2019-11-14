@@ -1,8 +1,6 @@
 ---
 description: Lets you hide report suites in the Adobe Analytics user interface.
 keywords: delete report suite
-seo-description: Lets you hide report suites in the Adobe Analytics user interface.
-seo-title: Hide report suites
 solution: Analytics
 title: Hide report suites
 topic: Admin tools

@@ -1,8 +1,6 @@
 ---
 description: Records the number of seconds your page was the active tab within the browser, and passes that value into a metric on the next page view.
 keywords: Analytics Implementation
-seo-description: Records the number of seconds your page was the active tab within the browser, and passes that value into a metric on the next page view.
-seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation

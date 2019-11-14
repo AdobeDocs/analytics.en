@@ -1,8 +1,6 @@
 ---
 description: Send an Analysis Workspace project via email, or schedule it for delivery.
 keywords: Analysis Workspace
-seo-description: Send an Analysis Workspace project via email, or schedule it for delivery.
-seo-title: Send file - schedule a project for delivery
 solution: Analytics
 title: Send file - schedule a project for delivery
 topic: Reports and analytics

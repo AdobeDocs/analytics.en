@@ -1,8 +1,6 @@
 ---
 description: Data Warehouse lets you request reports that display advanced data relationships from raw data based on your unique questions.
 keywords: ftp;sftp
-seo-description: Data Warehouse lets you request reports that display advanced data relationships from raw data based on your unique questions.
-seo-title: Data Warehouse delivered reports
 solution: Analytics
 title: Data Warehouse delivered reports
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6

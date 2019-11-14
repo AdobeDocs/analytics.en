@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: groups;permissions
-seo-description: null
-seo-title: User and Group permission changes
 solution: Analytics
 subtopic: Users and groups
 title: User and Group permission changes

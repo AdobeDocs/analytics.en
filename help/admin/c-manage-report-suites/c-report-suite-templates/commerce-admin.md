@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for an e-commerce website.
-seo-description: Defines common settings for an e-commerce website.
-seo-title: Commerce
 solution: Analytics
 title: Commerce
 topic: Admin tools

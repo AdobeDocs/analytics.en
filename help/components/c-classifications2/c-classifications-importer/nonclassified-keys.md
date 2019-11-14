@@ -1,7 +1,5 @@
 ---
 description: Non-classified keys are grouped together in classification reports as a single line item labeled None. It can be useful to rename None to something more descriptive.
-seo-description: Non-classified keys are grouped together in classification reports as a single line item labeled None. It can be useful to rename None to something more descriptive.
-seo-title: Non-classified keys
 solution: Analytics
 subtopic: Classifications
 title: Non-classified keys

@@ -1,8 +1,6 @@
 ---
 description: Once activated, the Data Connectors DFA integration provides the following metrics for your Adobe Analytics reports 
 keywords: DFA
-seo-description: Once activated, the Data Connectors DFA integration provides the following metrics for your Adobe Analytics reports 
-seo-title: Integration Features
 solution: Analytics
 title: Integration Features
 topic: Data connectors

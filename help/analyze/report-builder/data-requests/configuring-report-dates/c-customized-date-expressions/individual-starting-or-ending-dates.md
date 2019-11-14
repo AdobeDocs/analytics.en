@@ -1,7 +1,5 @@
 ---
 description: Abbreviations for starting and ending dates.
-seo-description: Abbreviations for starting and ending dates.
-seo-title: Individual starting or ending dates
 solution: Analytics
 title: Individual starting or ending dates
 topic: Report builder

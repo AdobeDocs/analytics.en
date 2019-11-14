@@ -1,7 +1,5 @@
 ---
 description: Segmenting on individual metrics allows you to make metric comparisons within the same report. (Derived metrics only)
-seo-description: Segmenting on individual metrics allows you to make metric comparisons within the same report. (Derived metrics only)
-seo-title: Segmented metrics
 title: Segmented metrics
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 ---

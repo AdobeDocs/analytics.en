@@ -1,8 +1,6 @@
 ---
 description: Variable overrides let you change a variable value for a single track or track link call.
 keywords: Analytics Implementation
-seo-description: Variable overrides let you change a variable value for a single track or track link call.
-seo-title: Variable overrides
 solution: Analytics
 subtopic: Variables
 title: Variable overrides

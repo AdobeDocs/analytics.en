@@ -1,7 +1,5 @@
 ---
 description: Outlines the steps and best practices to follow when planning your segments.
-seo-description: Outlines the steps and best practices to follow when planning your segments.
-seo-title: Plan segments
 solution: Analytics
 title: Plan segments
 topic: Segments

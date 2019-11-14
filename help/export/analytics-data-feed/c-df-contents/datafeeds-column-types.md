@@ -1,8 +1,6 @@
 ---
 description: The pre column contains the data as it was sent to data collection. The post column contains the value after processing.
 keywords: Data Feed;job;pre column;post column;case sensitivity
-seo-description: The pre column contains the data as it was sent to data collection. The post column contains the value after processing.
-seo-title: Pre and post columns
 solution: Analytics
 title: Pre and post columns
 topic: Reports and analytics

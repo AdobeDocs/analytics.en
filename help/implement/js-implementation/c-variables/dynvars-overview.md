@@ -1,8 +1,6 @@
 ---
 description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
 keywords: Analytics Implementation
-seo-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-seo-title: Dynamic variables
 solution: Analytics
 subtopic: Variables
 title: Dynamic variables

@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to install Report Builder.
-seo-description: Steps that describe how to install Report Builder.
-seo-title: Install Report Builder
 solution: Analytics
 title: Install Report Builder
 topic: Report builder

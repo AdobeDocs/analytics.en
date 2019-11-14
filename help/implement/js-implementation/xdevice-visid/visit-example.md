@@ -1,8 +1,6 @@
 ---
 description: Example containing a sample of server calls sent in a common customer interaction.
 keywords: Analytics Implementation
-seo-description: Example containing a sample of server calls sent in a common customer interaction.
-seo-title: Example visit
 solution: Analytics
 subtopic: Visitors
 title: Example visit

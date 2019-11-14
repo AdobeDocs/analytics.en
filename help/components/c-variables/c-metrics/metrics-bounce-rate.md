@@ -1,7 +1,5 @@
 ---
 description: Shows the percentage of visits that contain a single hit.
-seo-description: Shows the percentage of visits that contain a single hit.
-seo-title: Bounce Rate
 solution: Analytics
 title: Bounce Rate
 topic: Metrics

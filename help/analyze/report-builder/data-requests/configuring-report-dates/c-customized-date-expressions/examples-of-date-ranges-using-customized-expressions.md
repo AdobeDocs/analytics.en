@@ -1,7 +1,5 @@
 ---
 description: Examples, notes, and syntax notes about using date ranges in customized expressions.
-seo-description: Examples, notes, and syntax notes about using date ranges in customized expressions.
-seo-title: Examples of date ranges using customized expressions
 solution: Analytics
 title: Examples of date ranges using customized expressions
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Displays the original referrers that produced the customers on your site. Because customers can visit your site multiple times and have a different referrer for each visit, Original Referring Domains shows how they were referred the first time they arrived at your site. This dimension references referrers only by their base domain (aol.com, yahoo.com, and so on).
-seo-description: Displays the original referrers that produced the customers on your site. Because customers can visit your site multiple times and have a different referrer for each visit, Original Referring Domains shows how they were referred the first time they arrived at your site. This dimension references referrers only by their base domain (aol.com, yahoo.com, and so on).
-seo-title: Original Referring Domains
 solution: Analytics
 title: Original Referring Domains
 topic: Reports

@@ -1,7 +1,5 @@
 ---
 description: Data sources provides two additional ways to integrate events that occur offline to your online data.
-seo-description: Data sources provides two additional ways to integrate events that occur offline to your online data.
-seo-title: Transaction and customer integration
 solution: Analytics
 subtopic: Data sources
 title: Transaction and customer integration

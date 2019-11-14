@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to configure Paid Search Detection.
-seo-description: Steps that describe how to configure Paid Search Detection.
-seo-title: Configure paid search detection
 solution: Analytics
 title: Configure paid search detection
 topic: Admin tools

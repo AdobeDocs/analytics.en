@@ -1,7 +1,5 @@
 ---
 description: Displays how customers from different countries impacted your success metrics. This dimension identifies world regions that visitors come from based on their originating domain extension.
-seo-description: Displays how customers from different countries impacted your success metrics. This dimension identifies world regions that visitors come from based on their originating domain extension.
-seo-title: Top Level Domains
 solution: Analytics
 title: Top Level Domains
 topic: Reports

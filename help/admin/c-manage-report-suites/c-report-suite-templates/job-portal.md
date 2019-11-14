@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for a job portal or career search website.
-seo-description: Defines common settings for a job portal or career search website.
-seo-title: Job portal
 solution: Analytics
 title: Job portal
 topic: Admin tools

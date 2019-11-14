@@ -1,7 +1,5 @@
 ---
 description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
-seo-description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
-seo-title: Silverpop Integration
 title: Silverpop Integration
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 ---

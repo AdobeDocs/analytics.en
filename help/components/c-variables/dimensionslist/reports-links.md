@@ -1,7 +1,5 @@
 ---
 description: Shows you the links that visitors click when on your website, including links clicked to leave your site, or download links.
-seo-description: Shows you the links that visitors click when on your website, including links clicked to leave your site, or download links.
-seo-title: Links
 solution: Analytics
 title: Links
 topic: Reports

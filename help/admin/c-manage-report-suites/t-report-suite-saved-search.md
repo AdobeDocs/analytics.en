@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to define a set of criteria that determines the members of a report suite search.
-seo-description: Steps that describe how to define a set of criteria that determines the members of a report suite search.
-seo-title: Save a report suite search
 solution: Analytics
 title: Save a report suite search
 topic: Admin tools

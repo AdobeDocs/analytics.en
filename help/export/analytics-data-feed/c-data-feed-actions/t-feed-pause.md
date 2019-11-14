@@ -1,8 +1,6 @@
 ---
 description: You can pause an active feed.
 keywords: Data Feed;feed;pause
-seo-description: You can pause an active feed.
-seo-title: Pause a Feed
 solution: Analytics
 title: Pause a Feed
 uuid: 2e06b9d8-521f-4811-aa2e-5588ec4e3d54

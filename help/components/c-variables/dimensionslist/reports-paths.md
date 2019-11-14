@@ -1,7 +1,5 @@
 ---
 description: Displays information about the order in which pages of your website are accessed. You can gather information about where a visitor goes before and after any page visited on your site.
-seo-description: Displays information about the order in which pages of your website are accessed. You can gather information about where a visitor goes before and after any page visited on your site.
-seo-title: Paths
 solution: Analytics
 title: Paths
 topic: Reports

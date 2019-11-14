@@ -1,7 +1,5 @@
 ---
 description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-seo-description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-seo-title: Full processing
 solution: Analytics
 subtopic: Data sources
 title: Full processing

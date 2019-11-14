@@ -1,7 +1,5 @@
 ---
 description: Displays revenue based on specified events, and shows drop-out average from event to event.
-seo-description: Displays revenue based on specified events, and shows drop-out average from event to event.
-seo-title: Conversions and Averages
 solution: Analytics
 title: Conversions and Averages
 topic: Reports

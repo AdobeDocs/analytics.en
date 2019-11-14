@@ -1,5 +1,4 @@
 ---
-seo-title: Adobe Report Builder help
 solution: Analytics
 title: Adobe Report Builder help
 topic: Report builder

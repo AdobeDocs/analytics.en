@@ -1,7 +1,5 @@
 ---
 description: Captures the language setting in the visitor's browser, letting you see the revenue and unique visitors related to the language setting. When you know the effect that preferred languages have on your site's success metrics, you can decide how to present your site in other languages. For example, if you notice that a large number of German-speaking customers generate shopping cart activity on your site, you can translate your site into that language and implement a marketing campaign to drive traffic to your German site.
-seo-description: Captures the language setting in the visitor's browser, letting you see the revenue and unique visitors related to the language setting. When you know the effect that preferred languages have on your site's success metrics, you can decide how to present your site in other languages. For example, if you notice that a large number of German-speaking customers generate shopping cart activity on your site, you can translate your site into that language and implement a marketing campaign to drive traffic to your German site.
-seo-title: Language
 solution: Analytics
 title: Language
 topic: Reports

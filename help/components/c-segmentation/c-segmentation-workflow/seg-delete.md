@@ -1,7 +1,5 @@
 ---
 description: Lists a few considerations you should be aware of before deleting segments.
-seo-description: Lists a few considerations you should be aware of before deleting segments.
-seo-title: Delete segments
 solution: Analytics
 title: Delete segments
 topic: Segments

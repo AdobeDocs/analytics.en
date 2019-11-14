@@ -1,7 +1,5 @@
 ---
 description: Information about the basic report types, including Traffic, Conversion, and Paths.
-seo-description: Information about the basic report types, including Traffic, Conversion, and Paths.
-seo-title: Report types
 solution: Analytics
 title: Report types
 topic: Reports and analytics

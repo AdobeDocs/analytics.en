@@ -1,8 +1,6 @@
 ---
 title: VRS and project curation
-seo-title: Curate projects and virtual report suites in Analysis Workspace
 description: Learn how to curate vrs components and projects
-seo-description: Curate VRS and curate projects
 ---
 
 # VRS and project curation

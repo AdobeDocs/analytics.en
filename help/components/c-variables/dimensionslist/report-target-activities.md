@@ -1,7 +1,5 @@
 ---
 description: Shows the list of activities (campaigns) you have configured in Target. Requires that the Analytics for Target integration be enabled.
-seo-description: Shows the list of activities (campaigns) you have configured in Target. Requires that the Analytics for Target integration be enabled.
-seo-title: Target Activities
 solution: Analytics
 title: Target Activities
 topic: Reports

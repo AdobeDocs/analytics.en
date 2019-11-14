@@ -1,7 +1,5 @@
 ---
 description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
-seo-description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
-seo-title: Filter segments
 solution: Analytics
 title: Filter segments
 topic: Segments

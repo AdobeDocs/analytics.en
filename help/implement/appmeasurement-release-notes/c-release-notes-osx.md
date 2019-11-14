@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Mac OS X
 solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: Mac OS X

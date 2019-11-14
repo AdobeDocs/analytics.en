@@ -1,8 +1,6 @@
 ---
 description: Custom traffic variables, also called props (s.prop) or property variables, are counters that count the number of times each value is sent into Analytics.
 keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
-seo-description: Custom traffic variables, also called props (s.prop) or property variables, are counters that count the number of times each value is sent into Analytics.
-seo-title: Overview of props and eVars
 solution: Analytics
 title: Overview of props and eVars
 topic: Developer and implementation

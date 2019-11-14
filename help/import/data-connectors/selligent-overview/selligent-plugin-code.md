@@ -1,7 +1,5 @@
 ---
 description: Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
-seo-description: Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
-seo-title: Query String Param Plug-In Code
 solution: Analytics
 title: Query String Param Plug-In Code
 uuid: a71e7774-bc7a-414e-a116-739770b900bf

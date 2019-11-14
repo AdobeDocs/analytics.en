@@ -1,8 +1,6 @@
 ---
 description: Implement the Accelerated Mobile Pages (AMP) project in Adobe Analytics.
 keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
-seo-description: Implement the Accelerated Mobile Pages (AMP) project in Adobe Analytics.
-seo-title: Accelerated Mobile Pages
 solution: Analytics
 title: Accelerated Mobile Pages
 topic: Developer and implementation

@@ -1,7 +1,5 @@
 ---
 description: Information about scheduling, downloading and distributing reports.
-seo-description: Information about scheduling, downloading and distributing reports.
-seo-title: Report schedule and distribution
 solution: Analytics
 subtopic: Schedule
 title: Report schedule and distribution

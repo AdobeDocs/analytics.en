@@ -1,7 +1,5 @@
 ---
 description: If you are editing your workbook and want to make room for new requests, you might need to delete requests.
-seo-description: If you are editing your workbook and want to make room for new requests, you might need to delete requests.
-seo-title: Delete output mapping
 solution: Analytics
 title: Delete output mapping
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: The Permanent Traffic sections lets you change expected traffic levels so Adobe can reassign resources to handle the new traffic level.
-seo-description: The Permanent Traffic sections lets you change expected traffic levels so Adobe can reassign resources to handle the new traffic level.
-seo-title: Specify permanent traffic increase
 solution: Analytics
 title: Specify permanent traffic increase
 topic: Admin tools

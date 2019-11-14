@@ -1,7 +1,5 @@
 ---
 description: Real-time page analytics (Live Mode) lets you obtain results with minute granularity in real time.
-seo-description: Real-time page analytics (Live Mode) lets you obtain results with minute granularity in real time.
-seo-title: Real-time (Live) page analytics
 solution: Analytics
 title: Real-time (Live) page analytics
 topic: Activity map

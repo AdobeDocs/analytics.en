@@ -1,8 +1,6 @@
 ---
 title: RDC Environment Characteristics
-seo-title: Adobe Analytics RDC Environment Characteristics
 description:
-seo-description: 
 ---
 
 # RDC environment characteristics

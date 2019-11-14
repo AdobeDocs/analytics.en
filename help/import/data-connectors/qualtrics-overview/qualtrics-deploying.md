@@ -1,7 +1,5 @@
 ---
 description: Deploying this integration is a simple process that requires the following actions.
-seo-description: Deploying this integration is a simple process that requires the following actions.
-seo-title: Deploying the Integration
 solution: Analytics
 subtopic: Qualtrics
 title: Deploying the Integration

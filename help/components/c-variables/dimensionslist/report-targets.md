@@ -1,7 +1,5 @@
 ---
 description: Targets reports let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer.
-seo-description: Targets reports let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer.
-seo-title: Targets
 title: Targets
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 ---

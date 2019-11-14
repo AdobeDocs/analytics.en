@@ -1,8 +1,6 @@
 ---
 description: The JavaScript library file is intended to be cached in the user's browser after the initial load, which limits the amount of data that needs to be downloaded.
 keywords: Analytics Implementation
-seo-description: The JavaScript library file is intended to be cached in the user's browser after the initial load, which limits the amount of data that needs to be downloaded.
-seo-title: Javascript library file
 solution: Analytics
 subtopic: Troubleshooting
 title: Javascript library file

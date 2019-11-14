@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Domains
 title: Domains
 uuid: 6c9a8c68-52ea-4e6e-89e7-be90d1754073
 ---

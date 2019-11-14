@@ -1,7 +1,5 @@
 ---
 description: Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
-seo-description: Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
-seo-title: Mobile Management
 solution: Analytics
 title: Mobile Management
 topic: Admin tools

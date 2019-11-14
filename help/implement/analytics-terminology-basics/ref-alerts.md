@@ -1,8 +1,6 @@
 ---
 description: Intelligent Alerts let you create and manage alerts in Analysis Workspace, complete with alert preview and rule contribution.
 keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
-seo-description: Intelligent Alerts let you create and manage alerts in Analysis Workspace, complete with alert preview and rule contribution.
-seo-title: Alerts
 solution: Analytics
 title: Alerts
 topic: Developer and implementation

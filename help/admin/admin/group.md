@@ -1,7 +1,5 @@
 ---
 description: A group is a collection of users that you want to give a common set of access and permissions. For example, if you have 50 marketing report users, but only 20 need access to ad hoc analysis, you can create a group for those 20 users.
-seo-description: A group is a collection of users that you want to give a common set of access and permissions. For example, if you have 50 marketing report users, but only 20 need access to ad hoc analysis, you can create a group for those 20 users.
-seo-title: Group Management
 solution: Analytics
 title: Group Management
 topic: Admin tools

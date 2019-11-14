@@ -1,8 +1,6 @@
 ---
 description: A "data layer" is a framework of JavaScript objects that developers insert into pages.
 keywords: Analytics Implementation;data layer;digitalData
-seo-description: A "data layer" is a framework of JavaScript objects that developers insert into pages. The data layers can be used by tracking tools (including tag management systems like Dynamic Tag Management) to populate reports.
-seo-title: Data Layer
 solution: Analytics
 title: Data Layer
 topic: Developer and implementation

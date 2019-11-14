@@ -1,8 +1,6 @@
 ---
 description: You can capture the values of form elements, such as radio button and checkbox items, into reports. This helps you analyze the most popular choices in your online forms.
 keywords: Analytics Implementation
-seo-description: You can capture the values of form elements, such as radio button and checkbox items, into reports. This helps you analyze the most popular choices in your online forms.
-seo-title: Collect data from form elements
 solution: Analytics
 title: Collect data from form elements
 topic: Developer and implementation

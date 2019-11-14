@@ -1,7 +1,5 @@
 ---
 description: Steps on running the different report types.
-seo-description: Steps on running the different report types.
-seo-title: Run different report types
 solution: Analytics
 title: Run different report types
 topic: Reports,Reports and analytics

@@ -1,7 +1,5 @@
 ---
 description: Lists the standard dimensions that will automatically be captured with the integration.
-seo-description: Lists the standard dimensions that will automatically be captured with the integration.
-seo-title: Demandbase Standard Dimensions
 title: Demandbase Standard Dimensions
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
 ---

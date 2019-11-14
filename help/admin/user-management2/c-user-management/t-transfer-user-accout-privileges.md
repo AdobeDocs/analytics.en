@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to assign user account items (dashboards, calculated metrics, calendar events, alerts, bookmarks, segments, Analysis Workspace projects, and scheduled projects) from one user account to that of another user.
-seo-description: Steps that describe how to assign user account items (dashboards, calculated metrics, calendar events, alerts, bookmarks, segments, Analysis Workspace projects, and scheduled projects) from one user account to that of another user.
-seo-title: Transfer user account items
 solution: Analytics
 subtopic: Users and groups
 title: Transfer user account items

@@ -1,8 +1,6 @@
 ---
 title: Analytics Integration Help
-seo-title: Analytics Integration Help
 description: null
-seo-description: null
 ---
 
 # Analytics Integration Guide

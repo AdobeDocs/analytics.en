@@ -1,8 +1,6 @@
 ---
 description: Data is sent to a report suite to display in reporting. The easiest and most common way to send data to Analytics is by using the DTM implementation. You can also enter the code with the JavaScript implementation.
 keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
-seo-description: Data is sent to a report suite to display in reporting. The easiest and most common way to send data to Analytics is by using the DTM implementation. You can also enter the code with the JavaScript implementation.
-seo-title: Analytics code
 solution: Analytics
 title: Analytics code
 topic: Developer and implementation

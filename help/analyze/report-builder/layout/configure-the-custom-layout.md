@@ -1,7 +1,5 @@
 ---
 description: The Custom Layout provides most of the functionality of the Pivot Layout, but lets you choose where each item in the grid should be located in the spreadsheet. This layout provides the flexibility available in previous releases, including adding breakdowns and microcharts.
-seo-description: The Custom Layout provides most of the functionality of the Pivot Layout, but lets you choose where each item in the grid should be located in the spreadsheet. This layout provides the flexibility available in previous releases, including adding breakdowns and microcharts.
-seo-title: Configure the custom layout
 solution: Analytics
 title: Configure the custom layout
 topic: Report builder

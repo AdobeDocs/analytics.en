@@ -1,7 +1,5 @@
 ---
 description: Definitions of the pre-defined reports available in Reports & Analytics, and of dimensions available on other Analytics tools, such as Analysis Workspace.
-seo-description: Definitions of the pre-defined reports available in Reports & Analytics, and of dimensions available on other Analytics tools, such as Analysis Workspace.
-seo-title: Dimension Descriptions
 solution: Analytics
 title: Dimension Descriptions
 topic: Reports

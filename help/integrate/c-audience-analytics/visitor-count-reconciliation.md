@@ -1,7 +1,5 @@
 ---
 description: There are visitor metrics in Adobe Analytics and Adobe Audience Manager that have similar definitions, and but that are not 100% aligned, for various reasons.
-seo-description: There are visitor metrics in Adobe Analytics and Adobe Audience Manager that have similar definitions, and but that are not 100% aligned, for various reasons.
-seo-title: Visitor Count differences
 title: Visitor Count differences
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 ---

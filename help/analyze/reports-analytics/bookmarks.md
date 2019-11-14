@@ -1,7 +1,5 @@
 ---
 description: Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
-seo-description: Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
-seo-title: Bookmark Manager
 solution: Analytics
 subtopic: Bookmarks
 title: Bookmark Manager

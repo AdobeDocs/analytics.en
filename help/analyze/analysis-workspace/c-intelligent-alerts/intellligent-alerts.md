@@ -1,7 +1,5 @@
 ---
 description: The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
-seo-description: The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
-seo-title: Intelligent Alerts overview
 title: Intelligent Alerts overview
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 ---

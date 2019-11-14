@@ -1,8 +1,6 @@
 ---
 description: The classifications (SAINT) FTP option provides more flexibility in uploading large classification data sets, including the ability to upload data into multiple report suites and to upload data sets larger than 50,000 rows.
 keywords: ftp;sftp
-seo-description: The classifications (SAINT) FTP option provides more flexibility in uploading large classification data sets, including the ability to upload data into multiple report suites and to upload data sets larger than 50,000 rows.
-seo-title: Classifications
 solution: Analytics
 title: Classifications
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256

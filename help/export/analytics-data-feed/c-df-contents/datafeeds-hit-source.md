@@ -1,8 +1,6 @@
 ---
 description: Lookup table to determine the source of a hit based on the page_event value.
 keywords: Data Feed;hit;source
-seo-description: Lookup table to determine the source of a hit based on the page_event value.
-seo-title: Hit Source Lookup
 solution: Analytics
 title: Hit Source Lookup
 topic: Reports and analytics

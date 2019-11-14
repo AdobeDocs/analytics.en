@@ -1,7 +1,5 @@
 ---
 description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
-seo-description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
-seo-title: Link tracking methodology
 solution: Analytics
 title: Link tracking methodology
 topic: Activity map

@@ -1,8 +1,6 @@
 ---
 description: If you want to know how visitors move from section to section on your site, you first need to ensure that you are tagging your sections with the channel variable.
 keywords: Analytics Implementation
-seo-description: If you want to know how visitors move from section to section on your site, you first need to ensure that you are tagging your sections with the channel variable.
-seo-title: Move from section to section
 solution: Analytics
 title: Move from section to section
 topic: Developer and implementation

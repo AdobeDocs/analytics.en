@@ -1,7 +1,5 @@
 ---
 description: With the Calculated Metric builder, anyone can create a participation metric.
-seo-description: With the Calculated Metric builder, anyone can create a participation metric.
-seo-title: Participation Metric
 title: Participation Metric
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 ---

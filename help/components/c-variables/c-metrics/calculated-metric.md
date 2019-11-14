@@ -1,7 +1,5 @@
 ---
 description: Calculated metrics enable you to combine metrics to create mathematical operations that are used as new metrics. These metrics can be created for a report to which you add metrics. Administrators can create calculated metrics for all users of a report suite.
-seo-description: Calculated metrics enable you to combine metrics to create mathematical operations that are used as new metrics. These metrics can be created for a report to which you add metrics. Administrators can create calculated metrics for all users of a report suite.
-seo-title: Calculated metrics
 solution: Analytics
 title: Calculated metrics
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524

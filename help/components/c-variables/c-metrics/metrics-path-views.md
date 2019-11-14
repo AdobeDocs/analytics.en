@@ -1,7 +1,5 @@
 ---
 description: The Path Views metric is based on pathing data, which is tracked for all users who accept persistent cookies.
-seo-description: The Path Views metric is based on pathing data, which is tracked for all users who accept persistent cookies.
-seo-title: Path Views
 solution: Analytics
 title: Path Views
 topic: Metrics

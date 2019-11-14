@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to customize the graph so that it is most useful for the intended audience.
-seo-description: Steps that describe how to customize the graph so that it is most useful for the intended audience.
-seo-title: Change report graphs
 solution: Analytics
 title: Change report graphs
 topic: Reports and analytics

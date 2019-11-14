@@ -1,7 +1,5 @@
 ---
 description: Provides common settings for a website that provides product support articles and videos.
-seo-description: Provides common settings for a website that provides product support articles and videos.
-seo-title: Support Media
 solution: Analytics
 title: Support Media
 topic: Admin tools

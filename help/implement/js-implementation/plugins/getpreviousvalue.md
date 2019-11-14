@@ -1,8 +1,6 @@
 ---
 description: Captures the value of a Analytics variable on the next page view. For example, you can use plug-in to capture the s.pageName value from the previous page view into a Custom Traffic variable. It also has an option to capture a previous value only when designated success events are set.
 keywords: Analytics Implementation
-seo-description: Captures the value of a Analytics variable on the next page view. For example, you can use plug-in to capture the s.pageName value from the previous page view into a Custom Traffic variable. It also has an option to capture a previous value only when designated success events are set.
-seo-title: getPreviousValue
 solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue

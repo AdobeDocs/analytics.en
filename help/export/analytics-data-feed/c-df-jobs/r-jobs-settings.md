@@ -1,8 +1,6 @@
 ---
 description: When you set up a feed, Some settings determine how often jobs are processed.
 keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
-seo-description: When you set up a feed, Some settings determine how often jobs are processed.
-seo-title: Jobs settings
 solution: Analytics
 title: Jobs settings
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f

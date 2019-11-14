@@ -1,7 +1,5 @@
 ---
 description: Lists optional dimension identifiers that can be given in Step 4 of the Adobe Integration wizard.
-seo-description: Lists optional dimension identifiers that can be given in Step 4 of the Adobe Integration wizard.
-seo-title: Demandbase Custom Dimensions
 title: Demandbase Custom Dimensions
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 ---

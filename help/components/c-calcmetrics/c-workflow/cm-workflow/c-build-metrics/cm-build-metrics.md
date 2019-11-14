@@ -1,7 +1,5 @@
 ---
 description: The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Metrics, Segments, and Functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple calculated metrics or complex advanced calculated metrics.
-seo-description: The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Metrics, Segments, and Functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple calculated metrics or complex advanced calculated metrics.
-seo-title: Build Metrics
 title: Build Metrics
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 ---

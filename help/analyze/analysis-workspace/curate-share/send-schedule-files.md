@@ -1,7 +1,5 @@
 ---
 description: You can share and curate projects and send project files (in PDF or CSV formats) immediately or on a schedule.
-seo-description: You can share and curate projects and send project files (in PDF or CSV formats) immediately or on a schedule.
-seo-title: Share and schedule project files
 title: Share and schedule project files
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 ---

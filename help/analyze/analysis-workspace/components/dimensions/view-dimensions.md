@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Preview dimensions
 title: Preview dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 ---

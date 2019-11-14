@@ -1,7 +1,5 @@
 ---
 description: When you schedule a report, you can choose a publishing list to use for distribution.
-seo-description: When you schedule a report, you can choose a publishing list to use for distribution.
-seo-title: Allow Publishing List Overrides
 solution: Analytics
 title: Allow Publishing List Overrides
 topic: Report builder

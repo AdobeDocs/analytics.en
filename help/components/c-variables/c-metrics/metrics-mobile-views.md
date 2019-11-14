@@ -1,7 +1,5 @@
 ---
 description: The number of times a page is viewed or a dimension is set when accessed via a mobile device. Ad hoc analysis only.
-seo-description: The number of times a page is viewed or a dimension is set when accessed via a mobile device. Ad hoc analysis only.
-seo-title: Mobile Views
 solution: Analytics
 title: Mobile Views
 topic: Metrics

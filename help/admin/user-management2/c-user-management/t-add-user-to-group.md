@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to add a user to a group.
-seo-description: Steps that describe how to add a user to a group.
-seo-title: Add a user to a group
 solution: Analytics
 subtopic: Users and groups
 title: Add a user to a group

@@ -1,8 +1,6 @@
 ---
 title: Troubleshoot sessions in Adobe Analytics
 description: Learn how resolve issues around being logged out of Adobe Analytics.
-seo-title: Troubleshoot sessions in Adobe Analytics
-seo-description: Learn how resolve issues around being logged out of Adobe Analytics.
 ---
 
 # Troubleshoot sessions in Adobe Analytics

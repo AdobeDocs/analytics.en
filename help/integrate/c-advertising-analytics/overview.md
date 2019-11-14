@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Advertising Analytics overview
 title: Advertising Analytics overview
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 ---

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Adobe Campaign reporting
 title: Adobe Campaign reporting
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 ---

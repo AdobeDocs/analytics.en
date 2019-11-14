@@ -1,7 +1,5 @@
 ---
 description: After creating reports with embedded requests, you can apply conditional formatting to cells of the workbook.
-seo-description: After creating reports with embedded requests, you can apply conditional formatting to cells of the workbook.
-seo-title: Specify conditional formatting
 solution: Analytics
 title: Specify conditional formatting
 topic: Report builder

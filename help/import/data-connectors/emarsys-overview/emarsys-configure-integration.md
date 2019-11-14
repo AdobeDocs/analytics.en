@@ -1,7 +1,5 @@
 ---
 description: Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
-seo-description: Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
-seo-title: Preparing for the Data Connectors Email Integration
 title: Preparing for the Data Connectors Email Integration
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 ---

@@ -1,8 +1,6 @@
 ---
 description: To begin using Analytics, data must be sent to a report suite to display in reporting.
 keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
-seo-description: To begin using Analytics, data must be sent to a report suite to display in reporting.
-seo-title: JavaScript implementation overview
 solution: Analytics
 title: JavaScript implementation overview
 topic: Developer and implementation

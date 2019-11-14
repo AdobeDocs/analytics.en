@@ -1,7 +1,5 @@
 ---
 description: Descriptions of report types used in Experience Cloud.
-seo-description: Descriptions of report types used in Experience Cloud.
-seo-title: Report types
 solution: Analytics
 title: Report types
 topic: Ad hoc analysis

@@ -1,7 +1,5 @@
 ---
 description: View and segment your Adobe Target traffic data in an Analytics report.
-seo-description: View and segment your Adobe Target traffic data in an Analytics report.
-seo-title: Adobe Target
 solution: Analytics
 title: Adobe Target
 topic: Ad hoc analysis

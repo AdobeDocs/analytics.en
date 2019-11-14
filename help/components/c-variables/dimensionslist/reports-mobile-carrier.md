@@ -1,7 +1,5 @@
 ---
 description: Shows the wireless service provider (Verizon, AT&T, Sprint, and so on) used by site and app visitors. View this report at Visitor Profile > Technology.
-seo-description: Shows the wireless service provider (Verizon, AT&T, Sprint, and so on) used by site and app visitors. View this report at Visitor Profile > Technology.
-seo-title: Mobile Carrier
 solution: Analytics
 title: Mobile Carrier
 topic: Reports

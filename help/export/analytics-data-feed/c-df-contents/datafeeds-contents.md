@@ -1,8 +1,6 @@
 ---
 description: This section describes the files found in a data feed delivery.
 keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
-seo-description: This section describes the files found in a data feed delivery.
-seo-title: Data Feed contents - overview
 solution: Analytics
 subtopic: data feeds
 title: Data Feed contents - overview

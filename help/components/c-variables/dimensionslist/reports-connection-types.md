@@ -1,7 +1,5 @@
 ---
 description: Displays metrics for Internet connection speed, for example, modem, LAN, mobile traffic, and so forth.
-seo-description: Displays metrics for Internet connection speed, for example, modem, LAN, mobile traffic, and so forth.
-seo-title: Connection Type
 solution: Analytics
 title: Connection Type
 topic: Reports

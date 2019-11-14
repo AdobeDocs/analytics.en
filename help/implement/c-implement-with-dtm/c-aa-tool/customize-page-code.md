@@ -1,8 +1,6 @@
 ---
 description: Use field descriptions in Dynamic Tag Management to customize page code when deploying Analytics.
 keywords: Dynamic Tag Management;customize page code;open editor;execute
-seo-description: Use field descriptions in Dynamic Tag Management to customize page code when deploying Analytics.
-seo-title: Customize page code
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Customize page code
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f

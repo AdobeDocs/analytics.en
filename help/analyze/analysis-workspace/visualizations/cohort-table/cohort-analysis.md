@@ -1,6 +1,5 @@
 ---
 keywords: Analysis Workspace
-seo-title: What is cohort analysis?
 solution: Analytics
 title: What is cohort analysis?
 topic: Reports and analytics

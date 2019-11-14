@@ -1,7 +1,5 @@
 ---
 description: Access additional information resources for Adobe Activity Map.
-seo-description: Access additional information resources for Adobe Activity Map.
-seo-title: Knowledge resources
 solution: Analytics
 title: Knowledge resources
 topic: Activity map

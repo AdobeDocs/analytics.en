@@ -1,7 +1,5 @@
 ---
 description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
-seo-description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
-seo-title: Analytics product comparison and requirements
 solution: Analytics
 title: Analytics product comparison and requirements
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3

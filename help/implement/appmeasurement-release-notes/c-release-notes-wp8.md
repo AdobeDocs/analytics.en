@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Windows Phone 8
 solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: Windows Phone 8

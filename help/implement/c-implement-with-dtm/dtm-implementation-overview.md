@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
-seo-description: null
-seo-title: DTM implementation overview
 solution: Analytics
 title: DTM implementation overview
 topic: Developer and implementation

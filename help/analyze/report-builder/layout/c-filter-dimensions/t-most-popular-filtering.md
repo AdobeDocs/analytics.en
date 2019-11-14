@@ -1,7 +1,5 @@
 ---
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
-seo-description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
-seo-title: Most popular filtering
 solution: Analytics
 title: Most popular filtering
 topic: Report builder

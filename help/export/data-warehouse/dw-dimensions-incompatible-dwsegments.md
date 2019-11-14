@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Dimensions incompatible with Data Warehouse segments
 title: Dimensions incompatible with Data Warehouse segments
 uuid: ce772b7a-6a30-454a-a38f-d2bb2521f0fb
 ---

@@ -1,7 +1,5 @@
 ---
 description: If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
-seo-description: If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
-seo-title: Settings not copied from a source report suite
 solution: Analytics
 title: Settings not copied from a source report suite
 topic: Admin tools

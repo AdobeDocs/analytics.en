@@ -1,8 +1,6 @@
 ---
 title: Analytics Dimensions Compatibility
-seo-title: Analytics dimensions and reports that are compatible with Analysis Workspace, Reports & Analytics, or both.
 description: Reference for Analytics dimensions and reports.
-seo-description: Analysis Workspace dimensions, Reports & Analytics dimensions, dimensions, R&A dimensions, Workspace dimensions
 ---
 
 # Analytics Dimensions Compatibility

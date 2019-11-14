@@ -1,8 +1,6 @@
 ---
 description: Customers can compress the JavaScript library file by using standards-based encoding (such as gzip).
 keywords: Analytics Implementation
-seo-description: Customers can compress the JavaScript library file by using standards-based encoding (such as gzip).
-seo-title: File compression
 solution: Analytics
 subtopic: Troubleshooting
 title: File compression

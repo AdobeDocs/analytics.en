@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Analysis Workspace
-seo-description: null
-seo-title: Create project - overview
 solution: Analytics
 title: Create project - overview
 topic: Reports and analytics

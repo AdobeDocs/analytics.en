@@ -1,8 +1,6 @@
 ---
 description: Using adobe.com as an example, the implementations described here reference the same visid cookie.
 keywords: Analytics Implementation
-seo-description: Using adobe.com as an example, the implementations described here reference the same visid cookie.
-seo-title: Implementation example
 solution: Analytics
 title: Implementation example
 topic: Developer and implementation

@@ -1,8 +1,6 @@
 ---
 description: Implementing with AJAX is exactly like deploying code on a standard HTML page.
 keywords: Analytics Implementation
-seo-description: Implementing with AJAX is exactly like deploying code on a standard HTML page.
-seo-title: Implementing with AJAX
 solution: Analytics
 title: Implementing with AJAX
 topic: Developer and implementation

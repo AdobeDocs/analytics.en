@@ -1,8 +1,6 @@
 ---
 description: Describes how to enable and implement a merchandising variable.
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-seo-description: Describes how to enable and implement a merchandising variable.
-seo-title: Implement a merchandising variable
 solution: Analytics
 title: Implement a merchandising variable
 topic: Developer and implementation

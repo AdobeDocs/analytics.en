@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to add participation metrics.
-seo-description: Steps that describe how to add participation metrics.
-seo-title: Add Participation metrics
 solution: Analytics
 title: Add Participation metrics
 topic: Metrics

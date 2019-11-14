@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to add or edit conversion variables.
-seo-description: Steps that describe how to add or edit conversion variables.
-seo-title: Edit conversion variables
 solution: Analytics
 title: Edit conversion variables
 topic: Admin tools

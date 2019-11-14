@@ -1,8 +1,6 @@
 ---
 description: List of predefined events.
 keywords: Analytics Implementation;event
-seo-description: List of predefined events.
-seo-title: What is a predefined event?
 solution: Analytics
 title: What is a predefined event?
 topic: Developer and implementation

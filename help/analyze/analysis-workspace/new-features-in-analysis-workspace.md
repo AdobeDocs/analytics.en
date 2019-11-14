@@ -1,8 +1,6 @@
 ---
 description: New features in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: New features in Analysis Workspace.
-seo-title: What's New in Analysis Workspace
 solution: Analytics
 title: What's New in Analysis Workspace
 topic: Reports and analytics

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Transaction ID and visitor profiles
 solution: Analytics
 title: Transaction ID and visitor profiles
 topic: Developer and implementation

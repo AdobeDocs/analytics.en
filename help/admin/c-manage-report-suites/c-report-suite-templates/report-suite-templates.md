@@ -1,7 +1,5 @@
 ---
 description: Report suite templates configure the most common settings for several types of report suites.
-seo-description: Report suite templates configure the most common settings for several types of report suites.
-seo-title: Report suite templates overview
 solution: Analytics
 title: Report suite templates overview
 topic: Admin tools

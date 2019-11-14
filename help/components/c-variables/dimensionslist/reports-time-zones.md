@@ -1,7 +1,5 @@
 ---
 description: Displays the time zones from which your visitors are coming. The graph shows a map of the world. If you received visitors from a particular time zone, a colored column appears in that time zone, reflecting the number of visitors you received in the given time period. All time zones are present in Greenwich Mean Time (GMT), which is the international time standard.
-seo-description: Displays the time zones from which your visitors are coming. The graph shows a map of the world. If you received visitors from a particular time zone, a colored column appears in that time zone, reflecting the number of visitors you received in the given time period. All time zones are present in Greenwich Mean Time (GMT), which is the international time standard.
-seo-title: Time Zones
 solution: Analytics
 title: Time Zones
 topic: Reports

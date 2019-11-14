@@ -1,6 +1,5 @@
 ---
 title: Regional Data Collection for China
-seo-title: Adobe Analytics China RDC
 description:
 seo-description:
 ---

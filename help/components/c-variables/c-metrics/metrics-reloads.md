@@ -1,7 +1,5 @@
 ---
 description: Counted when the same page name is loaded twice in-a-row. This typically indicates that the page was refreshed.
-seo-description: Counted when the same page name is loaded twice in-a-row. This typically indicates that the page was refreshed.
-seo-title: Reloads
 solution: Analytics
 title: Reloads
 topic: Metrics

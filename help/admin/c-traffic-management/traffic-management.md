@@ -1,7 +1,5 @@
 ---
 description: The Traffic Management page lets you specify expected traffic volume changes. These settings let Adobe allocate the appropriate resources to ensure that your traffic can be tracked and processed in a timely manner.
-seo-description: The Traffic Management page lets you specify expected traffic volume changes. These settings let Adobe allocate the appropriate resources to ensure that your traffic can be tracked and processed in a timely manner.
-seo-title: Manage traffic
 solution: Analytics
 title: Manage traffic
 topic: Admin tools

@@ -1,7 +1,5 @@
 ---
 description: You can use the s.tl() function to track custom elements and to configure overlay rendering for dynamic content.
-seo-description: You can use the s.tl() function to track custom elements and to configure overlay rendering for dynamic content.
-seo-title: Use the s.tl() function
 solution: Analytics
 title: Use the s.tl() function
 topic: Activity map

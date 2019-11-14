@@ -1,7 +1,5 @@
 ---
 description: Shows how to stack and replace segments within the Calculated Metric Builder.
-seo-description: Shows how to stack and replace segments within the Calculated Metric Builder.
-seo-title: Stack and replace segments
 title: Stack and replace segments
 uuid: f6d4db9e-d982-4731-b342-7e49dee02035
 ---

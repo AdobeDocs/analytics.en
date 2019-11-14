@@ -1,8 +1,6 @@
 ---
 description: You can implement a custom method to identify visitors by setting the s.visitorID variable.
 keywords: Analytics Implementation
-seo-description: You can implement a custom method to identify visitors by setting the s.visitorID variable.
-seo-title: Custom Visitor ID
 solution: Analytics
 title: Custom Visitor ID
 topic: Developer and implementation

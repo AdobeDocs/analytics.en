@@ -1,7 +1,5 @@
 ---
 description: This report shows you navigation data between servers on your site. When you select a server name from your site, the report shows you the number of visitors who navigated to that server from each of the other servers on your site within a single visit or across visits.
-seo-description: This report shows you navigation data between servers on your site. When you select a server name from your site, the report shows you the number of visitors who navigated to that server from each of the other servers on your site within a single visit or across visits.
-seo-title: Previous Server Flow
 solution: Analytics
 title: Previous Server Flow
 topic: Reports

@@ -1,7 +1,5 @@
 ---
 description: You can copy cells mapped with more than one request and paste the content to an empty, selected region of the spreadsheet.
-seo-description: You can copy cells mapped with more than one request and paste the content to an empty, selected region of the spreadsheet.
-seo-title: Copy requests overview
 solution: Analytics
 title: Copy requests overview
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Allows you to access a complete set of metrics from Adobe Analytics within the Activity Map toolbar.
-seo-description: Allows you to access a complete set of metrics from Adobe Analytics within the Activity Map toolbar.
-seo-title: Complete set of metrics
 solution: Analytics
 title: Complete set of metrics
 topic: Activity map

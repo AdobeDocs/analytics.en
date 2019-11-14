@@ -1,7 +1,5 @@
 ---
 description: You can schedule reports to send according to the time and file format that you define.
-seo-description: You can schedule reports to send according to the time and file format that you define.
-seo-title: Schedule a data request
 solution: Analytics
 title: Schedule a data request
 topic: Report builder

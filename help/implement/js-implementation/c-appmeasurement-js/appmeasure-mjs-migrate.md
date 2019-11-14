@@ -1,8 +1,6 @@
 ---
 description: The following table contains a list of tasks you need to perform to migrate your implementation.
 keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
-seo-description: The following table contains a list of tasks you need to perform to migrate your implementation.
-seo-title: Migrating to AppMeasurement for JavaScript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Migrating to AppMeasurement for JavaScript

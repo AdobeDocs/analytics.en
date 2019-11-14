@@ -1,7 +1,5 @@
 ---
 description: Groups mobile device hits to your site by mobile device manufacturer. Displays the type of manufacturer, number of views for each manufacturer, and the corresponding percentages.
-seo-description: Groups mobile device hits to your site by mobile device manufacturer. Displays the type of manufacturer, number of views for each manufacturer, and the corresponding percentages.
-seo-title: Manufacturer
 solution: Analytics
 title: Manufacturer
 topic: Reports

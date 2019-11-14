@@ -1,7 +1,5 @@
 ---
 description: Filters that apply specific dimension terms.
-seo-description: Filters that apply specific dimension terms.
-seo-title: Specific filters
 solution: Analytics
 title: Specific filters
 topic: Report builder

@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: DFA
-seo-description: null
-seo-title: Frequently Asked Questions
 solution: Analytics
 title: Frequently Asked Questions
 topic: Data connectors

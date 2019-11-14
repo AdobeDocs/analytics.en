@@ -1,7 +1,5 @@
 ---
 description: You can use the concatenate option to populate values by combining other values.
-seo-description: You can use the concatenate option to populate values by combining other values.
-seo-title: Add a subcategory by concatenating the category and page name
 solution: Analytics
 subtopic: Processing rules
 title: Add a subcategory by concatenating the category and page name

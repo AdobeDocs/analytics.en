@@ -1,8 +1,6 @@
 ---
 description: Jobs can be shown with any of several status labels.
 keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
-seo-description: Jobs can be shown with any of several status labels.
-seo-title: Job status
 solution: Analytics
 title: Job status
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf

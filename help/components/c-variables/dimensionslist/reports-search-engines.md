@@ -1,7 +1,5 @@
 ---
 description: Displays which search engines visitors use for All, Paid, and Natural searches.
-seo-description: Displays which search engines visitors use for All, Paid, and Natural searches.
-seo-title: Search Engines
 solution: Analytics
 title: Search Engines
 topic: Reports

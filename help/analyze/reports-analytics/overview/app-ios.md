@@ -1,7 +1,5 @@
 ---
 description: An introduction to the iPad application.
-seo-description: An introduction to the iPad application.
-seo-title: Adobe Analytics for iOS
 solution: Analytics
 title: Adobe Analytics for iOS
 topic: Reports and analytics

@@ -1,7 +1,5 @@
 ---
 description: Configures several common variables and success events for a typical website.
-seo-description: Configures several common variables and success events for a typical website.
-seo-title: Default template
 solution: Analytics
 title: Default template
 topic: Admin tools

@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to escape classification data in the classification file.
-seo-description: Steps that describe how to escape classification data in the classification file.
-seo-title: Escape classification data
 solution: Analytics
 subtopic: Classifications
 title: Escape classification data

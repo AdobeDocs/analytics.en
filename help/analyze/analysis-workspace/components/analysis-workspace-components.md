@@ -1,7 +1,5 @@
 ---
 description: Components in Analysis Workspace consist of metrics, dimensions, segments, and time granularities that you can drag-and-drop onto a project. Custom components that you create are added to these panels, such as custom date ranges.
-seo-description: Components in Analysis Workspace consist of metrics, dimensions, segments, and time granularities that you can drag-and-drop onto a project. Custom components that you create are added to these panels, such as custom date ranges.
-seo-title: Components overview
 title: Components overview
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 ---

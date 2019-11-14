@@ -1,7 +1,5 @@
 ---
 description: Displays on average how far within a visit each value was fired. This metric is valuable in determining how far within a visit your audience reaches a given page or prop value. Average Page Depth is available on any variable with pathing enabled.
-seo-description: Displays on average how far within a visit each value was fired. This metric is valuable in determining how far within a visit your audience reaches a given page or prop value. Average Page Depth is available on any variable with pathing enabled.
-seo-title: Average Page Depth
 solution: Analytics
 title: Average Page Depth
 topic: Metrics

@@ -1,7 +1,5 @@
 ---
 description: Processing rules are set on report suites.
-seo-description: Processing rules are set on report suites.
-seo-title: Create processing rules
 solution: Analytics
 subtopic: Processing rules
 title: Create processing rules

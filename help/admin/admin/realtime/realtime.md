@@ -1,7 +1,5 @@
 ---
 description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
-seo-description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
-seo-title: Real-time reports
 solution: Analytics
 title: Real-time reports
 topic: Reports

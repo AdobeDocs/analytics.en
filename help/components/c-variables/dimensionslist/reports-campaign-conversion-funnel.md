@@ -1,7 +1,5 @@
 ---
 description: Displays averages for metrics in the Campaigns reporting group. Default metrics are Click-throughs, Total Sales, Orders, and Revenue.
-seo-description: Displays averages for metrics in the Campaigns reporting group. Default metrics are Click-throughs, Total Sales, Orders, and Revenue.
-seo-title: Campaign Conversion Funnel
 solution: Analytics
 title: Campaign Conversion Funnel
 topic: Reports

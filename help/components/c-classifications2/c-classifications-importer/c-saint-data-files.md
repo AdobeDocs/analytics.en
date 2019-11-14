@@ -1,7 +1,5 @@
 ---
 description: The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
-seo-description: The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
-seo-title: Classification data files
 solution: Analytics
 subtopic: Classifications
 title: Classification data files

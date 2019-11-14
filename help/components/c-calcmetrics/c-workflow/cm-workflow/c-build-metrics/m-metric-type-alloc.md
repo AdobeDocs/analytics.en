@@ -1,7 +1,5 @@
 ---
 description: Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
-seo-description: Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
-seo-title: Metric Type and Attribution
 title: Metric Type and Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 ---

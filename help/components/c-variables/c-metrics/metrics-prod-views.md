@@ -1,7 +1,5 @@
 ---
 description: Instance of the Product View being set. Occurs when the product detail page is viewed. This value comes from the prodView event.)
-seo-description: Instance of the Product View being set. Occurs when the product detail page is viewed. This value comes from the prodView event.)
-seo-title: Product Views
 solution: Analytics
 title: Product Views
 topic: Metrics

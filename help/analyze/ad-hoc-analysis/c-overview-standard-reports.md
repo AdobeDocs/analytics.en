@@ -1,7 +1,5 @@
 ---
 description: Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons.
-seo-description: Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons.
-seo-title: Reports overview
 solution: Analytics
 title: Reports overview
 topic: Ad hoc analysis

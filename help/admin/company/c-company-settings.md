@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Company Settings overview
 title: Company Settings overview
 uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
 ---

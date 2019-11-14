@@ -1,8 +1,6 @@
 ---
 description: The Feed Destination section defines how the feed is distributed.
 keywords: Data Feed;feed;destination;sftp;s3;ftp;settings
-seo-description: The Feed Destination section defines how the feed is distributed.
-seo-title: Feed Destination
 solution: Analytics
 title: Feed Destination
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c

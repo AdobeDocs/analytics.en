@@ -1,8 +1,6 @@
 ---
 description: Verify that your Dynamic Tag Management library is loading properly on your site.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
-seo-description: Verify that your Dynamic Tag Management library is loading properly on your site.
-seo-title: Verify header and footer code
 solution: Analytics
 title: Verify header and footer code
 topic: Developer and implementation

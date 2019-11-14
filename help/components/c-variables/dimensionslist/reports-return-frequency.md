@@ -1,7 +1,5 @@
 ---
 description: Shows the length of time that passes between visits from returning visitors, and the number of visits that fall into each time length category. Use the report to see the average amount of time that repeat visitors go without visiting your site, and the trends in repeat customers.
-seo-description: Shows the length of time that passes between visits from returning visitors, and the number of visits that fall into each time length category. Use the report to see the average amount of time that repeat visitors go without visiting your site, and the trends in repeat customers.
-seo-title: Return Frequency
 solution: Analytics
 title: Return Frequency
 topic: Reports

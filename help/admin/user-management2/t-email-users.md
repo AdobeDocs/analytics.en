@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to send an email message to all users in your company.
-seo-description: Steps that describe how to send an email message to all users in your company.
-seo-title: Email users
 solution: Analytics
 subtopic: Users and groups
 title: Email users

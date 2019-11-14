@@ -1,7 +1,5 @@
 ---
 description: Overlay details are shown when you hover on top of a link overlay.
-seo-description: Overlay details are shown when you hover on top of a link overlay.
-seo-title: Overlay details
 solution: Analytics
 title: Overlay details
 topic: Activity map

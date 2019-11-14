@@ -1,7 +1,5 @@
 ---
 description: The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-seo-description: The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-seo-title: Manage segments
 solution: Analytics
 title: Manage segments
 topic: Segments

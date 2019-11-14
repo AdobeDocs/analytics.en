@@ -1,7 +1,5 @@
 ---
 description: A referential request uses values from cells as input for parameters, such as a data filter or relational filter.
-seo-description: A referential request uses values from cells as input for parameters, such as a data filter or relational filter.
-seo-title: Copy referential requests
 solution: Analytics
 title: Copy referential requests
 topic: Report builder

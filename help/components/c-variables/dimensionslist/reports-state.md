@@ -1,7 +1,5 @@
 ---
 description: Uses geosegmentation to report on the U.S. state of a visitor.
-seo-description: Uses geosegmentation to report on the U.S. state of a visitor.
-seo-title: U.S. State
 solution: Analytics
 title: U.S. State
 topic: Reports

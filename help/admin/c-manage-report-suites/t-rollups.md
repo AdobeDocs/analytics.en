@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to create a rollup report suite.
-seo-description: Steps that describe how to create a rollup report suite.
-seo-title: Create a rollup report suite
 solution: Analytics
 title: Create a rollup report suite
 topic: Admin tools

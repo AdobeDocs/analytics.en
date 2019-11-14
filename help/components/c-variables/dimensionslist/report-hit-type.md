@@ -1,7 +1,5 @@
 ---
 description: The Hit Type dimension signifies whether an app was in the foreground or in the background when the hit was collected.
-seo-description: The Hit Type dimension signifies whether an app was in the foreground or in the background when the hit was collected.
-seo-title: Hit Type
 title: Hit Type
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 ---

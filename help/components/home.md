@@ -1,8 +1,6 @@
 ---
 title: Analytics Components Help
-seo-title: Analytics Components Help
 description: null
-seo-description: null
 ---
 
 # Analytics Components Guide

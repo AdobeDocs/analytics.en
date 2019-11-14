@@ -1,7 +1,5 @@
 ---
 description: Shows where visitors leave (fallout) and continue through (fallthrough) a pre-specified sequence of pages. It displays conversion and fallout rates between each step. For example, you can track a visitor's fallout points during a buying process. You select a beginning point and a conclusion point, and add intermediate points to create a website navigation path.
-seo-description: Shows where visitors leave (fallout) and continue through (fallthrough) a pre-specified sequence of pages. It displays conversion and fallout rates between each step. For example, you can track a visitor's fallout points during a buying process. You select a beginning point and a conclusion point, and add intermediate points to create a website navigation path.
-seo-title: Fallout
 solution: Analytics
 title: Fallout
 topic: Reports

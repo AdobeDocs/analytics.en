@@ -1,8 +1,6 @@
 ---
 description: You can rerun one or more jobs from the Jobs list.
 keywords: Data Feed;job;rerun
-seo-description: You can rerun one or more jobs from the Jobs list.
-seo-title: Rerun a job
 solution: Analytics
 title: Rerun a job
 uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714

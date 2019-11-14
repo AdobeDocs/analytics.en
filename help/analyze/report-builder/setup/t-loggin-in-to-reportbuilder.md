@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to log in to Report Builder.
-seo-description: Steps that describe how to log in to Report Builder.
-seo-title: Sign in to Report Builder
 solution: Analytics
 title: Sign in to Report Builder
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Project Converter FAQ
 title: Project Converter FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 ---

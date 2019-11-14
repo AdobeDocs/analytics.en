@@ -1,7 +1,5 @@
 ---
 description: You can create more than one copy of an original request by filling a selected area of cells with as many copies of the request that will fit.
-seo-description: You can create more than one copy of an original request by filling a selected area of cells with as many copies of the request that will fit.
-seo-title: Create more than one copy of a request
 solution: Analytics
 title: Create more than one copy of a request
 topic: Report builder

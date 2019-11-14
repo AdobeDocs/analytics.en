@@ -1,7 +1,5 @@
 ---
 description: Displays data about color-depth that visitors to your web site have their computers set to. Color Depth refers to the number of colors that can be displayed on the screen.
-seo-description: Displays data about color-depth that visitors to your web site have their computers set to. Color Depth refers to the number of colors that can be displayed on the screen.
-seo-title: Monitor Color Depth
 solution: Analytics
 title: Monitor Color Depth
 topic: Reports

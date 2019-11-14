@@ -1,7 +1,5 @@
 ---
 description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
-seo-description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
-seo-title: Interactive controls
 solution: Analytics
 title: Interactive controls
 topic: Report builder

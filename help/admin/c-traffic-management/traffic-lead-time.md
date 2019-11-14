@@ -1,7 +1,5 @@
 ---
 description: Adobe requires advance notice for new account setups, traffic spikes and traffic increases. Hardware must be allocated in advance to minimize latency and possible adverse impacts to the overall system.
-seo-description: Adobe requires advance notice for new account setups, traffic spikes and traffic increases. Hardware must be allocated in advance to minimize latency and possible adverse impacts to the overall system.
-seo-title: Required lead time for traffic increases
 solution: Analytics
 title: Required lead time for traffic increases
 topic: Admin tools

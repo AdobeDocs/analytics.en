@@ -1,7 +1,5 @@
 ---
 description: Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-seo-description: Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-seo-title: Segmentation workflow overview
 solution: Analytics
 title: Segmentation workflow overview
 topic: Segments

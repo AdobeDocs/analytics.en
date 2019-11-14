@@ -1,7 +1,5 @@
 ---
 description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
-seo-description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
-seo-title: Launch Activity Map
 solution: Analytics
 title: Launch Activity Map
 topic: Activity map

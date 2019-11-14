@@ -1,7 +1,5 @@
 ---
 description: Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-seo-description: Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-seo-title: Frequently asked questions and examples
 solution: Analytics
 subtopic: Marketing channels
 title: Frequently asked questions and examples

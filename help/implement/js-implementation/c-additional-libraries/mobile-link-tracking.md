@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation;link reference;redir
-seo-description: null
-seo-title: Custom link measurement on mobile protocols
 solution: Analytics
 title: Custom link measurement on mobile protocols
 topic: Developer and implementation

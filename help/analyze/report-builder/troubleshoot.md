@@ -1,7 +1,5 @@
 ---
 description: Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
-seo-description: Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
-seo-title: Troubleshooting and best practices for Report Builder
 solution: Analytics
 title: Troubleshooting and best practices for Report Builder
 topic: Report builder

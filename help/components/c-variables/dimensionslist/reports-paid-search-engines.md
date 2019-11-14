@@ -1,7 +1,5 @@
 ---
 description: Displays which search engines visitors use for paid searches.
-seo-description: Displays which search engines visitors use for paid searches.
-seo-title: Paid Search Engines
 solution: Analytics
 title: Paid Search Engines
 topic: Reports

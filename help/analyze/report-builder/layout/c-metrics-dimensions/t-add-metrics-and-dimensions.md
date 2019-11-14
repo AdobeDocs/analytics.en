@@ -1,7 +1,5 @@
 ---
 description: Steps to add metrics and dimensions to a request.
-seo-description: Steps to add metrics and dimensions to a request.
-seo-title: Add metrics and dimensions
 solution: Analytics
 title: Add metrics and dimensions
 topic: Report builder

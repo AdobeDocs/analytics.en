@@ -1,7 +1,5 @@
 ---
 description: The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.
-seo-description: The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.
-seo-title: Billing
 solution: Analytics
 title: Billing
 topic: Admin tools

@@ -1,8 +1,6 @@
 ---
 description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
-seo-description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
-seo-title: Calculated and Advanced Calculated (Derived) Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 ---

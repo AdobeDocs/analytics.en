@@ -1,8 +1,6 @@
 ---
 title: Deploy Adobe Analytics to a dev environment
-seo-title: Deploy Adobe Analytics to a dev environment
 description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your development environment.
-seo-description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your development environment.
 ---
 
 # Validate a development implementation and publish to production

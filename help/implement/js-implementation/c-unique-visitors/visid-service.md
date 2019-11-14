@@ -1,8 +1,6 @@
 ---
 description: The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 keywords: Analytics Implementation
-seo-description: The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by heartbeat video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
-seo-title: Identity Service
 solution: Analytics
 title: Identity Service
 topic: Developer and implementation

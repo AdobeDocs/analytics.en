@@ -1,7 +1,5 @@
 ---
 description: Virtual report suites segment your Adobe Analytics data so you can control access to each segment.
-seo-description: Virtual report suites segment your Adobe Analytics data so you can control access to each segment.
-seo-title: Virtual report suites overview
 title: Virtual report suites overview
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 ---

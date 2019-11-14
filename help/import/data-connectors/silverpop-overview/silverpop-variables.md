@@ -1,7 +1,5 @@
 ---
 description: The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
-seo-description: The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
-seo-title: Analytics Integration Variables
 title: Analytics Integration Variables
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 ---

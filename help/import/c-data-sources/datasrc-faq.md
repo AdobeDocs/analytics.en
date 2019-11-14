@@ -1,7 +1,5 @@
 ---
 description: This topic provides answers to common questions.
-seo-description: This topic provides answers to common questions.
-seo-title: Data Sources FAQ
 solution: Analytics
 subtopic: Data sources
 title: Data Sources FAQ

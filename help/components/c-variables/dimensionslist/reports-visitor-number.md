@@ -1,7 +1,5 @@
 ---
 description: Helps you gauge visitor loyalty by tracking the number of times each visitor visits your site. During your selected time period, you can see whether more of the visits were from visitors that came to your site for the first time or the 20th time.
-seo-description: Helps you gauge visitor loyalty by tracking the number of times each visitor visits your site. During your selected time period, you can see whether more of the visits were from visitors that came to your site for the first time or the 20th time.
-seo-title: Visit Number
 solution: Analytics
 title: Visit Number
 topic: Reports

@@ -1,8 +1,6 @@
 ---
 description: Learn about the benefits and constraints of using Timestamps Optional setting.
 keywords: Analytics Implementation
-seo-description: Learn about the benefits and constraints of using Timestamps Optional setting.
-seo-title: Using Timestamps Optional
 solution: Analytics
 title: Using Timestamps Optional
 topic: Developer and implementation

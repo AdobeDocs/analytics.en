@@ -1,7 +1,5 @@
 ---
 description: Measures the amount of income generated through all of your products over a specific time period.
-seo-description: Measures the amount of income generated through all of your products over a specific time period.
-seo-title: Revenue
 solution: Analytics
 title: Revenue
 topic: Reports

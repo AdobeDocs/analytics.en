@@ -1,7 +1,5 @@
 ---
 description: Administrative steps for enabling AEM Assets reporting in Analytics.
-seo-description: Administrative steps for enabling AEM Assets reporting in Analytics.
-seo-title: AEM Assets reporting
 solution: Analytics
 title: AEM Assets reporting
 topic: Reports

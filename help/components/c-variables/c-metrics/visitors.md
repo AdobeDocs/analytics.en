@@ -1,8 +1,6 @@
 ---
 description: The number of unique visitors to your site for a selected hour, day, week, month, quarter, or year.
 keywords: visitors
-seo-description: The number of unique visitors to your site for a selected hour, day, week, month, quarter, or year.
-seo-title: Visitors
 solution: Analytics
 title: Visitors
 topic: Metrics

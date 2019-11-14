@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation
-seo-description: null
-seo-title: Implement Adobe opt-outs
 solution: Analytics
 title: Implement Adobe opt-outs
 topic: Developer and implementation

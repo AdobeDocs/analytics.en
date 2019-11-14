@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Yearly Unique Visitors
 solution: Analytics
 title: Yearly Unique Visitors
 topic: Metrics

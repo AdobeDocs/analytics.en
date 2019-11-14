@@ -1,7 +1,5 @@
 ---
 description: Adobe Report Builder supports the .xlsm format that lets you schedule macro-enabled workbooks.
-seo-description: Adobe Report Builder supports the .xlsm format that lets you schedule macro-enabled workbooks.
-seo-title: Schedule macro-enabled workbooks
 solution: Analytics
 title: Schedule macro-enabled workbooks
 topic: Report builder

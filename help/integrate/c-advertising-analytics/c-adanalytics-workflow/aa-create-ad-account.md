@@ -1,5 +1,4 @@
 ---
-seo-title: Set up an Advertising Account
 title: Set up an Advertising Account
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 ---

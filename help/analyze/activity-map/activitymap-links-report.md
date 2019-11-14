@@ -1,7 +1,5 @@
 ---
 description: The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
-seo-description: The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
-seo-title: Links report
 solution: Analytics
 title: Links report
 topic: Activity map

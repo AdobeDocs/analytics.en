@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for a website that provides information about services and products that are typically sold through further engagement.
-seo-description: Defines common settings for a website that provides information about services and products that are typically sold through further engagement.
-seo-title: Lead Generation
 solution: Analytics
 title: Lead Generation
 topic: Admin tools

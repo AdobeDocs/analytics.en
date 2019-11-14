@@ -1,7 +1,5 @@
 ---
 description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
-seo-description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
-seo-title: Configure Activity Map settings
 solution: Analytics
 title: Configure Activity Map settings
 topic: Activity map

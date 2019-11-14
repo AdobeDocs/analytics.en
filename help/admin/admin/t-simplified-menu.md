@@ -1,7 +1,5 @@
 ---
 description: Steps to implement the simplified reports menu in Reports and Analytics.
-seo-description: Steps to implement the simplified reports menu in Reports and Analytics.
-seo-title: Simplified reports menu
 solution: Analytics
 title: Simplified reports menu
 topic: Admin tools

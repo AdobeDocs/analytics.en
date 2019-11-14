@@ -1,8 +1,6 @@
 ---
 description: The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. Analysis Workspace offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of Analysis Workspace.
 keywords: Analytics Implementation
-seo-description: The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. Analysis Workspace offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of Analysis Workspace.
-seo-title: getTimeParting
 solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting

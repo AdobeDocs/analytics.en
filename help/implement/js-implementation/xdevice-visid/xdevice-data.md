@@ -1,8 +1,6 @@
 ---
 description: Overview of how enabling cross-device visitor identification affects the data that you see in reports.
 keywords: Analytics Implementation
-seo-description: Overview of how enabling cross-device visitor identification affects the data that you see in reports.
-seo-title: Data impact of cross-device visitor identification
 solution: Analytics
 subtopic: Visitors
 title: Data impact of cross-device visitor identification

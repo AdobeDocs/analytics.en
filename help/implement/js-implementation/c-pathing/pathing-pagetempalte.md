@@ -1,8 +1,6 @@
 ---
 description: If your site has types of pages or page templates, you could use pathing to understand how they move from type to type.
 keywords: Analytics Implementation
-seo-description: If your site has types of pages or page templates, you could use pathing to understand how they move from type to type.
-seo-title: Move from page template to page template
 solution: Analytics
 title: Move from page template to page template
 topic: Developer and implementation

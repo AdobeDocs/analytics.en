@@ -1,8 +1,6 @@
 ---
 title: Create an Analytics property in Launch
-seo-title: Create an Adobe Analytics property in Adobe Experience Platform Launch
 description: Create a space to customize how data is collected, using Adobe Experience Platform Launch.
-seo-description: Create a space to customize how data is collected in Adobe Analytics, using Adobe Experience Platform Launch.
 ---
 
 # Create an Analytics property in Adobe Experience Platform Launch

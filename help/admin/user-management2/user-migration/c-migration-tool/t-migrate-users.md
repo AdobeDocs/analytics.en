@@ -1,7 +1,5 @@
 ---
 description: Migrate users from the legacy Analytics user management system to the Admin Console.
-seo-description: Migrate users from the legacy Analytics user management system to the Admin Console.
-seo-title: Migrate Analytics user accounts for Adobe IDs
 title: Migrate Analytics user accounts for Adobe IDs
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 ---

@@ -1,7 +1,5 @@
 ---
 description: The Edit Metrics Across Multiple Requests feature lets you easily add, remove, or replace metrics in a pre-existing request or across a group of requests.
-seo-description: The Edit Metrics Across Multiple Requests feature lets you easily add, remove, or replace metrics in a pre-existing request or across a group of requests.
-seo-title: Edit metrics across multiple requests
 title: Edit metrics across multiple requests
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 ---

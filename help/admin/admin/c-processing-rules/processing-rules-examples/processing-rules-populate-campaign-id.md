@@ -1,7 +1,5 @@
 ---
 description: You can populate a variable using a query string parameter.
-seo-description: You can populate a variable using a query string parameter.
-seo-title: Populate a campaign ID from a query string parameter
 solution: Analytics
 subtopic: Processing rules
 title: Populate a campaign ID from a query string parameter

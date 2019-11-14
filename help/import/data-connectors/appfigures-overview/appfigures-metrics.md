@@ -1,7 +1,5 @@
 ---
 description: The following metrics are synchronized as part of the appFigures integration.
-seo-description: The following metrics are synchronized as part of the appFigures integration.
-seo-title: Metrics and Dimensions
 title: Metrics and Dimensions
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
 ---

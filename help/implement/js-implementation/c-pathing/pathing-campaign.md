@@ -1,8 +1,6 @@
 ---
 description: Helps you answer the question, "After a user clicks into my site from a campaign, where do they go on my site?"
 keywords: Analytics Implementation
-seo-description: Helps you answer the question, "After a user clicks into my site from a campaign, where do they go on my site?"
-seo-title: Pathing by campaign or tracking code
 solution: Analytics
 title: Pathing by campaign or tracking code
 topic: Developer and implementation

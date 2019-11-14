@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Configure a flow visualization
 title: Configure a flow visualization
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 ---

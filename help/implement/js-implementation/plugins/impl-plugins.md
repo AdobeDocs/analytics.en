@@ -1,8 +1,6 @@
 ---
 description: AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions.
 keywords: Analytics Implementation
-seo-description: AppMeasurement for JavaScript plug-ins are programs or functions that perform several advanced functions.
-seo-title: Use implementation plug-ins
 solution: Analytics
 subtopic: Plug-ins
 title: Use implementation plug-ins

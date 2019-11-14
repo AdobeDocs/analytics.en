@@ -1,7 +1,5 @@
 ---
 description: The following table lists whether the country has regions or postal codes, which indicates whether we will populate the regions or zip codes report.
-seo-description: The following table lists whether the country has regions or postal codes, which indicates whether we will populate the regions or zip codes report.
-seo-title: GeoSegmentation Regions and Postal Code usage by Country
 solution: Analytics
 title: GeoSegmentation Regions and Postal Code usage by Country
 topic: Reports

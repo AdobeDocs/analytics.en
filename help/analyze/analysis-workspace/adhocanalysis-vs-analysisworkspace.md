@@ -1,7 +1,5 @@
 ---
 description: Compares Ad Hoc Analysis terminology and tasks to Analysis Workspace.
-seo-description: Compares Ad Hoc Analysis terminology and tasks to Analysis Workspace.
-seo-title: Analysis Workspace compared to Ad Hoc Analysis
 title: Analysis Workspace compared to Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 ---

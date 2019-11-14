@@ -1,7 +1,5 @@
 ---
 description: If you want to import Analytics data manually through Power BI, follow these instructions.
-seo-description: If you want to import Analytics data manually through Power BI, follow these instructions.
-seo-title: Manually import data to Power BI
 title: Manually import data to Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 ---

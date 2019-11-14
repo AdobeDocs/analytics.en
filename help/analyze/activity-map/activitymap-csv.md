@@ -1,7 +1,5 @@
 ---
 description: In Standard Mode, export Analytics data from Activity Map to a Comma Separated Values (CSV) file.
-seo-description: In Standard Mode, export Analytics data from Activity Map to a Comma Separated Values (CSV) file.
-seo-title: Export to CSV file
 solution: Analytics
 title: Export to CSV file
 topic: Activity map

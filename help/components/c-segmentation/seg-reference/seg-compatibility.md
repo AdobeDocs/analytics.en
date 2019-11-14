@@ -1,7 +1,5 @@
 ---
 description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
-seo-description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
-seo-title: Data Warehouse Segment Compatibility
 solution: Analytics
 title: Data Warehouse Segment Compatibility
 topic: Segments

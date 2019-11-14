@@ -1,7 +1,5 @@
 ---
 description: Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
-seo-description: Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
-seo-title: Tracking  Manual Mode and Auto Mode
 title: Tracking  Manual Mode and Auto Mode
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 ---

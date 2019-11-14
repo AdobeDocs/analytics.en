@@ -1,7 +1,5 @@
 ---
 description: Available in Analysis Workspace and the Segment Builder.
-seo-description: Available in Analysis Workspace and the Segment Builder.
-seo-title: Visitors with Experience Cloud ID
 title: Visitors with Experience Cloud ID
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 ---

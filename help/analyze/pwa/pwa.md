@@ -1,8 +1,6 @@
 ---
 title: PWAs for Analytics
-seo-title: PWAs for Analytics
 description: Progressive web apps for Adobe Analytics
-seo-description: Use PWAs with Analytics
 ---
 
 # PWAs for Analytics

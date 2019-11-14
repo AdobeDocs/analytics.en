@@ -1,7 +1,5 @@
 ---
 description: This procedure describes how to hide or show headers.
-seo-description: This procedure describes how to hide or show headers.
-seo-title: Hide or show headers
 solution: Analytics
 title: Hide or show headers
 topic: Report builder

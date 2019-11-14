@@ -1,8 +1,6 @@
 ---
 title: Implement Analytics for Mobile Devices
-seo-title: Implement Analytics for Mobile Devices
 description: null
-seo-description: null
 ---
 
 # Implement Analytics for Mobile Devices

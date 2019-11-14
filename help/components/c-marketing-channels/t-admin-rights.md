@@ -1,7 +1,5 @@
 ---
 description: Create a group that grants limited administrative rights to users of the Marketing Channel report, and then assign users to that group. For example, you might want to create a group that lets non-administrative users enter costs or budget amounts.
-seo-description: Create a group that grants limited administrative rights to users of the Marketing Channel report, and then assign users to that group. For example, you might want to create a group that lets non-administrative users enter costs or budget amounts.
-seo-title: Grant limited administrative rights
 solution: Analytics
 subtopic: Marketing channels
 title: Grant limited administrative rights

@@ -1,7 +1,5 @@
 ---
 description: In the Segment Manager, tagging segments allows you to organize them.
-seo-description: In the Segment Manager, tagging segments allows you to organize them.
-seo-title: Tag segments
 solution: Analytics
 title: Tag segments
 topic: Segments

@@ -1,8 +1,6 @@
 ---
 description: Metrics are quantitative information about visitor activity, such as Views, Click-Throughs, Reloads, Average Time spent, Units, Orders, and Revenue.
 keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
-seo-description: Metrics are quantitative information about visitor activity, such as Views, Click-Throughs, Reloads, Average Time spent, Units, Orders, and Revenue.
-seo-title: Metrics
 solution: Analytics
 title: Metrics
 topic: Developer and implementation

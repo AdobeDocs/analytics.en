@@ -1,8 +1,6 @@
 ---
 description: List of custom variables used in Analytics.
 keywords: Analytics Implementation
-seo-description: List of custom variables used in Analytics.
-seo-title: Custom variables
 solution: Analytics
 title: Custom variables
 topic: Developer and implementation

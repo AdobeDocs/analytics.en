@@ -1,8 +1,6 @@
 ---
 title: Labs User Guide
-seo-title: Labs for Adobe Analytics
 description: Preview prototype projects for Adobe Analytics
-seo-description: Preview prototypes for Adobe Analytics
 ---
 
 

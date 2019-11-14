@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Use attribution IQ in Analysis Workspace
 title: Use attribution IQ in Analysis Workspace
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 ---

@@ -1,7 +1,5 @@
 ---
 description: Displays how much certain pages participated in generating revenue.
-seo-description: Displays how much certain pages participated in generating revenue.
-seo-title: Page Value
 solution: Analytics
 title: Page Value
 topic: Reports

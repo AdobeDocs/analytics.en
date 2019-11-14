@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Average Time Spent
 solution: Analytics
 title: Average Time Spent
 topic: Metrics

@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to add and enable traffic variable reports.
-seo-description: Steps that describe how to add and enable traffic variable reports.
-seo-title: Enable traffic variable reports
 solution: Analytics
 title: Enable traffic variable reports
 topic: Admin tools

@@ -1,8 +1,6 @@
 ---
 description: Once DFA and Adobe® collection servers can communicate, you can generate reports in Reports & Analytics that include DFA data.
 keywords: DFA
-seo-description: Once DFA and Adobe® collection servers can communicate, you can generate reports in Reports & Analytics that include DFA data.
-seo-title: Analytics Reports Using DFA Data
 solution: Analytics
 title: Analytics Reports Using DFA Data
 topic: Data connectors

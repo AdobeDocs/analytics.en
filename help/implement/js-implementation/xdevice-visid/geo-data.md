@@ -1,8 +1,6 @@
 ---
 description: Geo-segmentation data is recorded based on the first hit of the visit, and does not change for a single visit regardless of the device used.
 keywords: Analytics Implementation
-seo-description: Geo-segmentation data is recorded based on the first hit of the visit, and does not change for a single visit regardless of the device used.
-seo-title: Geo-segmentation data
 solution: Analytics
 title: Geo-segmentation data
 topic: Developer and implementation

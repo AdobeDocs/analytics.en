@@ -1,7 +1,5 @@
 ---
 description: You can enable privacy settings for browser cookies.
-seo-description: You can enable privacy settings for browser cookies.
-seo-title: Privacy Settings
 solution: Analytics
 title: Privacy Settings
 topic: Admin tools

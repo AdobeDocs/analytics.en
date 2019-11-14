@@ -1,7 +1,5 @@
 ---
 description: Shows the list of experiences (recipes) you have configured in Target. Requires that the Analytics for Target integration be enabled.
-seo-description: Shows the list of experiences (recipes) you have configured in Target. Requires that the Analytics for Target integration be enabled.
-seo-title: Target Experiences
 solution: Analytics
 title: Target Experiences
 topic: Reports

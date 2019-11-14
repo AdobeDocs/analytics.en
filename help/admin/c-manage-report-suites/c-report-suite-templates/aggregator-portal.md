@@ -1,7 +1,5 @@
 ---
 description: Defines common settings for a website that aggregates content, such as a news portal.
-seo-description: Defines common settings for a website that aggregates content, such as a news portal.
-seo-title: Aggregator portal
 solution: Analytics
 title: Aggregator portal
 topic: Admin tools

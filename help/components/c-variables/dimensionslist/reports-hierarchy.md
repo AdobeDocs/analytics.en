@@ -1,7 +1,5 @@
 ---
 description: Displays the hierarchical layout of the pages on your website and displays those pages in order based on how they are configured in the hierN variable. This report is populated using proper variable configuration that you set for each page that you want to take part in the hierarchy. This report lets you see selected metrics (such as Unique Visitors) for the hierarchy.
-seo-description: Displays the hierarchical layout of the pages on your website and displays those pages in order based on how they are configured in the hierN variable. This report is populated using proper variable configuration that you set for each page that you want to take part in the hierarchy. This report lets you see selected metrics (such as Unique Visitors) for the hierarchy.
-seo-title: Hierarchy
 solution: Analytics
 title: Hierarchy
 topic: Reports

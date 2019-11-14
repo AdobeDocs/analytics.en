@@ -1,8 +1,6 @@
 ---
 description: A common usage of content hierarchies is to show the different paths visitors have taken from a certain page, level, and so forth.
 keywords: Analytics Implementation;content hierachies;hier
-seo-description: A common usage of content hierarchies is to show the different paths visitors have taken from a certain page, level, and so forth.
-seo-title: Counting content hierarchies
 solution: Analytics
 title: Counting content hierarchies
 topic: Developer and implementation

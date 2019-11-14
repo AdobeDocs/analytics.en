@@ -1,7 +1,5 @@
 ---
 description: Lists the browser versions used to visit your site as identified by the user agent string.
-seo-description: Lists the browser versions used to visit your site as identified by the user agent string.
-seo-title: Browser
 solution: Analytics
 title: Browser
 topic: Reports

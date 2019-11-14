@@ -1,7 +1,5 @@
 ---
 description: Learn how to assign cost and budget amounts to channels.
-seo-description: Learn how to assign cost and budget amounts to channels.
-seo-title: Costs and budgets
 solution: Analytics
 subtopic: Marketing channels
 title: Costs and budgets

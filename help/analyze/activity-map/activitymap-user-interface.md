@@ -1,7 +1,5 @@
 ---
 description: The Activity Map UI is comprised of two parts 
-seo-description: The Activity Map UI is comprised of two parts 
-seo-title: Activity Map user interface
 solution: Analytics
 title: Activity Map user interface
 topic: Activity map

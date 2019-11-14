@@ -1,7 +1,5 @@
 ---
 description: By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
-seo-description: By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
-seo-title: Referrer Type
 solution: Analytics
 title: Referrer Type
 topic: Reports

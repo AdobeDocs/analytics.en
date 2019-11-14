@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Area and area stacked
 title: Area and area stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 ---

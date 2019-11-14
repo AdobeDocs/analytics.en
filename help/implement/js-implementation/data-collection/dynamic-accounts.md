@@ -1,8 +1,6 @@
 ---
 description: The .js file can be configured to automatically select a report suite ID.
 keywords: Analytics Implementation
-seo-description: The .js file can be configured to automatically select a report suite ID.
-seo-title: Report suite IDs - dynamic accounts
 solution: Analytics
 title: Report suite IDs - dynamic accounts
 topic: Developer and implementation

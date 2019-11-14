@@ -1,7 +1,5 @@
 ---
 description: Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
-seo-description: Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
-seo-title: Metrics
 solution: Analytics
 title: Metrics
 topic: Reports and analytics

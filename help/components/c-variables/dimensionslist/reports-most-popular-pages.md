@@ -1,7 +1,5 @@
 ---
 description: Displays all of the pages of your web site that are being tracked, and tells you which pages are being visited the most.
-seo-description: Displays all of the pages of your web site that are being tracked, and tells you which pages are being visited the most.
-seo-title: Most Popular Pages
 solution: Analytics
 title: Most Popular Pages
 topic: Reports

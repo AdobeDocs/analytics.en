@@ -1,8 +1,6 @@
 ---
 description: Configuration variables set in AppMeasurement.js.
 keywords: Analytics Implementation
-seo-description: Configuration variables set in AppMeasurement.js for Adobe Analytics
-seo-title: Configuration variables
 solution: Analytics
 subtopic: Variables
 title: Configuration variables

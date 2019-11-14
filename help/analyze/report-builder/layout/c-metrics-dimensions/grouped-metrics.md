@@ -1,7 +1,5 @@
 ---
 description: You can now combine these two metric types in one and the same request, instead of having to create separate requests.
-seo-description: You can now combine these two metric types in one and the same request, instead of having to create separate requests.
-seo-title: Combine traffic and commerce metrics in the same request
 solution: Analytics
 title: Combine traffic and commerce metrics in the same request
 topic: Report builder

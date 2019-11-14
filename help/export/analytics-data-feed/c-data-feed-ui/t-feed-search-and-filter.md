@@ -1,8 +1,6 @@
 ---
 description: Searching and filtering help you locate a feed in the list.
 keywords: Data Feed;search;filter;report suite;owner;status
-seo-description: Searching and filtering help you locate a feed in the list.
-seo-title: Search and filter
 solution: Analytics
 title: Search and filter
 uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177

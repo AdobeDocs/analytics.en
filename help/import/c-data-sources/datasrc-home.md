@@ -1,7 +1,5 @@
 ---
 description: Adobe Analytics data sources lets you manually import additional online or offline data for reporting.
-seo-description: Adobe Analytics data sources lets you manually import additional online or offline data for reporting.
-seo-title: Data Sources overview
 solution: Analytics
 subtopic: Data sources
 title: Data Sources overview

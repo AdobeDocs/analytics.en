@@ -1,7 +1,5 @@
 ---
 description: An overview of the Reports menu in Reports & Analytics.
-seo-description: An overview of the Reports menu in Reports & Analytics.
-seo-title: Reports Menu
 title: Reports Menu
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 ---

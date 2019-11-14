@@ -1,7 +1,5 @@
 ---
 description: Steps to select the base report type for your data request.
-seo-description: Steps to select the base report type for your data request.
-seo-title: Select a report type
 solution: Analytics
 title: Select a report type
 topic: Report builder

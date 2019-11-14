@@ -32,5 +32,5 @@ To implement Analytics for mobile devices, refer to the following SDK repositori
 *Note: The AppMeasurement 3.x SDKs for mobile devices are no longer supported. However, the  documentation for the SDKs is available as indicated below.*
 
 
-* [iOS documentation](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/adobe_mobile_ios_3.x.pdf)
-* [Android documentation](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/android_3.x.pdf)
+* [iOS documentation](/assets/adobe_mobile_ios_3.x.pdf)
+* [Android documentation](/assets/android_3.x.pdf)

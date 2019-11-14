@@ -8,9 +8,9 @@ title: Dynamic variables
 
 # s-linkURL
 
-The URL of the link, which acts as the name if a linkName does not exist. Can be set to any URL string. This is the `pev1` parameter in the image request.
+The URL of the link, which acts as the name if a `linkName` does not exist. Can be set to any URL string. This is the `pev1` parameter in the image request.
 
-If set with `linkType`, an image request will be sent as a download, custom or exit link.
+If set with `linkType`, an image request will be sent as a download, custom, or exit link.
   
 **Example**
 

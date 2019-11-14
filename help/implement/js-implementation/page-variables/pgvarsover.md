@@ -10,7 +10,7 @@ uuid:
 
 # Page variables
 
-Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. For help with specific page variables, click any of the following links:
+Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. For help with specific page variables, click any o the following links:
 
 * browserHeight
 * browserWidth

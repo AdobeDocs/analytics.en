@@ -1,8 +1,6 @@
 ---
 description: The following table shows the difference between correct and incorrect code mistakes.
 keywords: Analytics Implementation
-seo-description: The following table shows the difference between correct and incorrect code mistakes.
-seo-title: Common syntax mistakes
 solution: Analytics
 subtopic: Troubleshooting
 title: Common syntax mistakes

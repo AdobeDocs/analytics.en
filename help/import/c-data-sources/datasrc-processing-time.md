@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Data Sources processing time
 solution: Analytics
 title: Data Sources processing time
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9

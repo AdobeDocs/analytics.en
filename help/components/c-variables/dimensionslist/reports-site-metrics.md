@@ -1,7 +1,5 @@
 ---
 description: Site Metrics reports display quantitative information about your website. For example, they show how many times visitors looked at pages, the numbers of purchases made from specific pages, the time spent on pages, revenue, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
-seo-description: Site Metrics reports display quantitative information about your website. For example, they show how many times visitors looked at pages, the numbers of purchases made from specific pages, the time spent on pages, revenue, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
-seo-title: Site Metrics
 solution: Analytics
 title: Site Metrics
 topic: Reports

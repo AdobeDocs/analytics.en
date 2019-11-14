@@ -1,8 +1,6 @@
 ---
 description: Set up and use Adobe-hosted FTP accounts.
 keywords: ftp;sftp
-seo-description: Set up and use Adobe-hosted FTP accounts.
-seo-title: Set up FTP accounts - overview
 solution: Analytics
 title: Set up FTP accounts - overview
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407

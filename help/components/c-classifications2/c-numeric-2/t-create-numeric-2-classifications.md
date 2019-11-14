@@ -1,7 +1,5 @@
 ---
 description: You create numeric 2 classifications the same way you create other classifications. You can add numeric 2 classifications only to conversion or channel variables.
-seo-description: You create numeric 2 classifications the same way you create other classifications. You can add numeric 2 classifications only to conversion or channel variables.
-seo-title: Create numeric 2 classifications
 solution: Analytics
 subtopic: Classifications
 title: Create numeric 2 classifications

@@ -1,7 +1,5 @@
 ---
 description: Marketing Channels are commonly used to provide insight on how visitors arrive on your site. You can create and customize Marketing Channel Processing Rules based on what channels you want to track, and how you want to track them.
-seo-description: Marketing Channels are commonly used to provide insight on how visitors arrive on your site. You can create and customize Marketing Channel Processing Rules based on what channels you want to track, and how you want to track them.
-seo-title: Marketing Channels
 solution: Analytics
 title: Marketing Channels
 topic: Admin tools

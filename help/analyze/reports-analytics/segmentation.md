@@ -1,7 +1,5 @@
 ---
 description: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors.
-seo-description: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors.
-seo-title: Analytics Segmentation
 solution: Analytics
 title: Analytics Segmentation
 topic: Reports and analytics

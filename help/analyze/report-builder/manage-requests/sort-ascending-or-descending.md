@@ -1,7 +1,5 @@
 ---
 description: You can sort the requests listed in the Request Manager in ascending or descending order.
-seo-description: You can sort the requests listed in the Request Manager in ascending or descending order.
-seo-title: Sort ascending or descending
 solution: Analytics
 title: Sort ascending or descending
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Processing rules can be restored from history.
-seo-description: Processing rules can be restored from history.
-seo-title: Restore processing rules
 solution: Analytics
 subtopic: Processing rules
 title: Restore processing rules

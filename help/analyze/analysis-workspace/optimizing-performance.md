@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Optimize Analysis Workspace performance
 title: Optimize Analysis Workspace performance
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 ---

@@ -1,7 +1,5 @@
 ---
 description: Here are a few common pitfalls when using Report Builder with Power BI.
-seo-description: Here are a few common pitfalls when using Report Builder with Power BI.
-seo-title: Troubleshooting Power BI integration
 title: Troubleshooting Power BI integration
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 ---

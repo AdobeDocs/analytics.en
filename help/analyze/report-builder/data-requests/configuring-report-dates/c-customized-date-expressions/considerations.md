@@ -1,7 +1,5 @@
 ---
 description: Two important considerations when using the Customize Expression to set the date range 
-seo-description: Two important considerations when using the Customize Expression to set the date range 
-seo-title: Considerations
 solution: Analytics
 title: Customized Date Considerations
 topic: Report builder

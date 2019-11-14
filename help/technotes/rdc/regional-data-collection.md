@@ -1,8 +1,6 @@
 ---
 title: Regional Data Collection
-seo-title: Adobe Analytics Regional Data Collection
 description: Information on Regional Data Collection
-seo-description: Information on Regional Data Collection
 ---
 
 # Regional Data Collection

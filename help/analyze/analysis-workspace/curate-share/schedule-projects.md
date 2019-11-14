@@ -1,8 +1,6 @@
 ---
 description: Manage scheduled Analysis Workspace projects.
 keywords: Analysis Workspace
-seo-description: Manage scheduled Analysis Workspace projects.
-seo-title: Scheduled projects manager
 solution: Analytics
 title: Scheduled projects manager
 topic: Reports and analytics

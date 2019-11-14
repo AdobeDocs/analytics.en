@@ -1,7 +1,5 @@
 ---
 description: Days Since Last Visit is an Analytics dimension that ships out of the box with Analysis Workspace.
-seo-description: Days Since Last Visit is an Analytics dimension that ships out of the box with Analysis Workspace.
-seo-title: Days Since Last Visit
 title: Days Since Last Visit
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
 ---

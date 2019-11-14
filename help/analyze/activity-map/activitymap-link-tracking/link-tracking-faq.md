@@ -1,7 +1,5 @@
 ---
 description: Frequently asked questions about link tracking in Activity Map.
-seo-description: Frequently asked questions about link tracking in Activity Map.
-seo-title: Link tracking FAQ
 solution: Analytics
 title: Link tracking FAQ
 topic: Activity map

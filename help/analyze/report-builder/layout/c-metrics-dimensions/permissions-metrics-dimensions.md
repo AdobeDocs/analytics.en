@@ -1,7 +1,5 @@
 ---
 description: Adobe Report Builder now features permissioning settings analogous to those in the Analytics Admin Tools.
-seo-description: Adobe Report Builder now features permissioning settings analogous to those in the Analytics Admin Tools.
-seo-title: User access permissions for dimensions and metrics
 solution: Analytics
 title: User access permissions for dimensions and metrics
 topic: Report builder

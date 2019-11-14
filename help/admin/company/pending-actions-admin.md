@@ -1,7 +1,5 @@
 ---
 description: The Manage Pending Actions page lets you view a list of pending actions in your Analytics environment. A pending action is any system change that requires approval from Adobe before implementation.
-seo-description: The Manage Pending Actions page lets you view a list of pending actions in your Analytics environment. A pending action is any system change that requires approval from Adobe before implementation.
-seo-title: Pending actions
 solution: Analytics
 title: Pending actions
 topic: Admin tools

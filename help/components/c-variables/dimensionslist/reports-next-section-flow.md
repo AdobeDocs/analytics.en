@@ -1,7 +1,5 @@
 ---
 description: Next Section Flow is similar to the Next Page Flow. It displays data for Site Sections (groups of related web pages). If a page is contained in more than one site section, it displays data for all site sections.
-seo-description: Next Section Flow is similar to the Next Page Flow. It displays data for Site Sections (groups of related web pages). If a page is contained in more than one site section, it displays data for all site sections.
-seo-title: Next Section Flow
 solution: Analytics
 title: Next Section Flow
 topic: Reports

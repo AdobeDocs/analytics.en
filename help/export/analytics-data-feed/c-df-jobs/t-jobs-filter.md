@@ -1,8 +1,6 @@
 ---
 description: Searching and filtering help you locate a job in the list.
 keywords: Data Feed;job;filter;search
-seo-description: Searching and filtering help you locate a job in the list.
-seo-title: Filter jobs list
 solution: Analytics
 title: Filter jobs list
 uuid: 811990bb-b721-42c3-9262-2ec2ba262087

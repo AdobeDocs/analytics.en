@@ -1,7 +1,5 @@
 ---
 description: Full subrelations are enabled on all conversion reports, so you can break down any eVar by another eVar. The Breakdown By menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
-seo-description: Full subrelations are enabled on all conversion reports, so you can break down any eVar by another eVar. The Breakdown By menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
-seo-title: Subrelations
 solution: Analytics
 title: Subrelations
 topic: Reports and analytics

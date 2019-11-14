@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Implement Analytics for Digital Assistants
 title: Implement Analytics for Digital Assistants
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 ---

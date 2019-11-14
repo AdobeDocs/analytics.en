@@ -1,7 +1,5 @@
 ---
 description: Identifies how individual products and groups of products (categories) contribute to your various conversion metrics, such as Revenue or Checkouts.
-seo-description: Identifies how individual products and groups of products (categories) contribute to your various conversion metrics, such as Revenue or Checkouts.
-seo-title: Products
 solution: Analytics
 title: Products
 topic: Reports

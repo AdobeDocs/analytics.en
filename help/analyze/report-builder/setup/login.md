@@ -1,7 +1,5 @@
 ---
 description: Information about the three ways to sign in to Report Builder.
-seo-description: Information about the three ways to sign in to Report Builder.
-seo-title: Report Builder Sign-In
 solution: Analytics
 title: Report Builder Sign-In
 topic: Report builder

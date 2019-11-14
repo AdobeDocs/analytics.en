@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Flow overview
 title: Flow overview
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 ---

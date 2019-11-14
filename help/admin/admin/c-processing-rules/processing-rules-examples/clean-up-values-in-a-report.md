@@ -1,7 +1,5 @@
 ---
 description: You can match values against common misspellings and update them to display correctly in reports.
-seo-description: You can match values against common misspellings and update them to display correctly in reports.
-seo-title: Clean up values in a report
 solution: Analytics
 subtopic: Processing rules
 title: Clean up values in a report

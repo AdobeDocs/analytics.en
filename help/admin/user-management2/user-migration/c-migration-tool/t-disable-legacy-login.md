@@ -1,7 +1,5 @@
 ---
 description: Learn how to disable legacy logins for Analytics users.
-seo-description: Learn how to disable legacy logins for Analytics users.
-seo-title: Disable legacy logins
 title: Disable legacy logins
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 ---

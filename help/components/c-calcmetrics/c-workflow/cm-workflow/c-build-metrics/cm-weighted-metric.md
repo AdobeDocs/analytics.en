@@ -1,7 +1,5 @@
 ---
 description: Shows examples of filtered and weighted metrics.
-seo-description: Shows examples of filtered and weighted metrics.
-seo-title: Filtered and weighted metrics
 title: Filtered and weighted metrics
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
 ---

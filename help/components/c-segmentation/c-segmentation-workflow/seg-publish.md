@@ -1,7 +1,5 @@
 ---
 description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
-seo-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
-seo-title: Publish segments to the Experience Cloud
 solution: Analytics
 title: Publish segments to the Experience Cloud
 topic: Segments

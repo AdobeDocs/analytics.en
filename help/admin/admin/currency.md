@@ -1,7 +1,5 @@
 ---
 description: Currency codes used in the Experience Cloud.
-seo-description: Currency codes used in the Experience Cloud.
-seo-title: Currency Codes
 solution: Analytics
 title: Currency Codes
 topic: Admin tools

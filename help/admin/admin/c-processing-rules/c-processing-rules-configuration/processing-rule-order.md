@@ -1,7 +1,5 @@
 ---
 description: To effectively use processing rules it is essential to understand when they are applied during data collection.
-seo-description: To effectively use processing rules it is essential to understand when they are applied during data collection.
-seo-title: Processing Order
 solution: Analytics
 subtopic: Processing rules
 title: Processing Order

@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: DFA
-seo-description: null
-seo-title: DFA Data Connector for Adobe Analytics
 solution: Analytics
 title: DFA Data Connector for Adobe Analytics
 topic: Data connectors

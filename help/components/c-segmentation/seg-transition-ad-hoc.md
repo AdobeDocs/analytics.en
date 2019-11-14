@@ -1,8 +1,6 @@
 ---
 description: If you are used to working with the Segment Builder in Ad Hoc Analysis, this FAQ explains what happens to existing segments and folders and what actions you need to take.
 keywords: segmentation;segments
-seo-description: If you are used to working with the Segment Builder in Ad Hoc Analysis, this FAQ explains what happens to existing segments and folders and what actions you need to take.
-seo-title: Transition Guide for Ad Hoc Analysis
 solution: Analytics
 title: Transition Guide for Ad Hoc Analysis
 topic: Segments

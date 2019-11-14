@@ -1,7 +1,5 @@
 ---
 description: Cumulative release notes for Android mobile library.
-seo-description: Cumulative release notes for Android mobile library.
-seo-title: Android
 solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: Android

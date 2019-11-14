@@ -1,6 +1,5 @@
 ---
 title: Attribution FAQ
-seo-title: Attribution FAQ
 description: Get answers to commonly asked questions around attribution.
 ---
 

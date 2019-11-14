@@ -1,8 +1,6 @@
 ---
 description: There are additional requirements and configurations for implementing Analytics without JavaScript.
 keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
-seo-description: There are additional requirements and configurations for implementing Analytics without JavaScript.
-seo-title: Implement without JavaScript guidelines
 solution: Analytics
 title: Implement without JavaScript guidelines
 topic: Developer and implementation

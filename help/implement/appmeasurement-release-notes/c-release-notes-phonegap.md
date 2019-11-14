@@ -1,7 +1,5 @@
 ---
 description: Cumulative release notes for PhoneGap.
-seo-description: Cumulative release notes for PhoneGap.
-seo-title: PhoneGap
 solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: PhoneGap

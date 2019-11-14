@@ -1,7 +1,5 @@
 ---
 description: Cumulative release notes for iOS.
-seo-description: Cumulative release notes for iOS.
-seo-title: iOS
 solution: Analytics,Experience Cloud
 subtopic: Release notes
 title: iOS

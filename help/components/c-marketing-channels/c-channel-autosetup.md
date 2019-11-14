@@ -1,7 +1,5 @@
 ---
 description: Run the one-time setup for the Marketing Channel report.
-seo-description: Run the one-time setup for the Marketing Channel report.
-seo-title: Automatic setup
 solution: Analytics
 subtopic: Marketing channels
 title: Automatic setup

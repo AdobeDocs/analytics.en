@@ -1,8 +1,6 @@
 ---
 description: When you run the Experience Cloud Debugger, you may want to look for the s_account variable.
 keywords: Analytics Implementation
-seo-description: When you run the Experience Cloud Debugger, you may want to look for the s_account variable.
-seo-title: Identify the s_account variable in the debugger
 solution: Analytics
 title: Identify the s_account variable in the debugger
 topic: Developer and implementation

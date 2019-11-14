@@ -1,8 +1,6 @@
 ---
 description: Gets the value for a cookie.
 keywords: Analytics Implementation
-seo-description: Gets the value for a cookie.
-seo-title: Util.cookieRead
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieRead

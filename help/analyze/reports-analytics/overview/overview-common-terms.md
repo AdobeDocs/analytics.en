@@ -1,7 +1,5 @@
 ---
 description: An introduction to commonly used web analytics terms used in marketing reports.
-seo-description: An introduction to commonly used web analytics terms used in marketing reports.
-seo-title: Common Terms
 solution: Analytics
 title: Common Terms
 topic: Reports and analytics

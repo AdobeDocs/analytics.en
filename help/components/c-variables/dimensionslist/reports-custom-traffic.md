@@ -1,7 +1,5 @@
 ---
 description: Custom Traffic reports allow each organization to report on additional dimensions that are not implemented by default. Custom Traffic reports can be used in several ways, most commonly to measure traffic and pathing.
-seo-description: Custom Traffic reports allow each organization to report on additional dimensions that are not implemented by default. Custom Traffic reports can be used in several ways, most commonly to measure traffic and pathing.
-seo-title: Custom Traffic
 solution: Analytics
 title: Custom Traffic
 topic: Reports

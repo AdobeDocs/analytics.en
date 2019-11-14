@@ -1,7 +1,5 @@
 ---
 description: Once the integration is deployed, you can begin using the additional capabilities that it provides.
-seo-description: Once the integration is deployed, you can begin using the additional capabilities that it provides.
-seo-title: Using the Integration
 title: Using the Integration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 ---

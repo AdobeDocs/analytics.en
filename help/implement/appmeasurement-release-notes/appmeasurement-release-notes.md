@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: AppMeasurement Release Notes
 solution: Analytics
 subtopic: Release notes
 title: AppMeasurement Release Notes

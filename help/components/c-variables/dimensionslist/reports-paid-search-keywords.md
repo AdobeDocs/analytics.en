@@ -1,7 +1,5 @@
 ---
 description: Displays a breakdown of each paid search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
-seo-description: Displays a breakdown of each paid search keyword that is used to find your site. You can sort this list by page views or search keywords by clicking the column title above the listing. Click the magnifying glass next to a search keyword to see the search results for your site.
-seo-title: Paid Search Keywords
 solution: Analytics
 title: Paid Search Keywords
 topic: Reports

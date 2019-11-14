@@ -1,7 +1,5 @@
 ---
 description: You can specify a complex date range by building a custom expression.
-seo-description: You can specify a complex date range by building a custom expression.
-seo-title: Customized date expressions - overview
 solution: Analytics
 title: Customized date expressions - overview
 topic: Report builder

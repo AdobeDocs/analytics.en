@@ -1,7 +1,5 @@
 ---
 description: Within the Segment Manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
-seo-description: Within the Segment Manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
-seo-title: Approve segments
 solution: Analytics
 title: Approve segments
 topic: Segments

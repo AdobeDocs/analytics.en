@@ -1,7 +1,5 @@
 ---
 description: Cumulative release notes for AppMeasurement for JavaScript.
-seo-description: Cumulative release notes for AppMeasurement for JavaScript.
-seo-title: AppMeasurement for JavaScript
 solution: Analytics
 subtopic: Release notes
 title: AppMeasurement for JavaScript

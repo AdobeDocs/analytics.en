@@ -1,7 +1,5 @@
 ---
 description: Shows the screen height for various mobile devices and the number of views for each screen height. You can also view the Screen Size to see both the screen height and width.
-seo-description: Shows the screen height for various mobile devices and the number of views for each screen height. You can also view the Screen Size to see both the screen height and width.
-seo-title: Screen Height
 solution: Analytics
 title: Screen Height
 topic: Reports

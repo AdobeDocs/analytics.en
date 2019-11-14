@@ -1,7 +1,5 @@
 ---
 description: If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
-seo-description: If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
-seo-title: Adobe Analytics Plug-In Code
 title: Adobe Analytics Plug-In Code
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 ---

@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: segmentation;segments
-seo-description: null
-seo-title: Frequently Asked Questions
 solution: Analytics
 title: Frequently Asked Questions
 topic: Segments

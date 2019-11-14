@@ -1,7 +1,5 @@
 ---
 description: In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.
-seo-description: In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.
-seo-title: Format the date
 solution: Analytics
 title: Format the date
 topic: Report builder

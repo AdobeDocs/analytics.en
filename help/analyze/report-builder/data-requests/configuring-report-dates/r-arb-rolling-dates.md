@@ -1,7 +1,5 @@
 ---
 description: Field definitions for rolling dates in report builder.
-seo-description: Field definitions for rolling dates in report builder.
-seo-title: Request Wizard definitions - rolling dates
 solution: Analytics
 title: Request Wizard definitions - rolling dates
 topic: Report builder

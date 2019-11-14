@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Freeform table
 title: Freeform table
 uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
 ---

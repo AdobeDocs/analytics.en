@@ -1,8 +1,6 @@
 ---
 description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
 keywords: Analytics Implementation
-seo-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-seo-title: Page variables
 solution: Analytics
 subtopic: Variables
 title: Page variables

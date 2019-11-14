@@ -1,8 +1,6 @@
 ---
 description: Following are some best practices for data feed processing and delivery. You should 
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
-seo-description: Following are some best practices for data feed processing and delivery. You should 
-seo-title: Best Practices and General Information
 solution: Analytics
 title: Best Practices and General Information
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6

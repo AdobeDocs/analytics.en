@@ -1,7 +1,5 @@
 ---
 description: Custom metrics let you track additional success metrics on your site.
-seo-description: Custom metrics let you track additional success metrics on your site.
-seo-title: Custom Metrics
 solution: Analytics
 title: Custom Metrics
 topic: Metrics

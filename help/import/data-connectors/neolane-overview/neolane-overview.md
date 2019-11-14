@@ -1,7 +1,5 @@
 ---
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-description: This Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-title: Neolane Ozon Data Connector for Adobe Analytics
 title: Neolane Ozon Data Connector for Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 ---

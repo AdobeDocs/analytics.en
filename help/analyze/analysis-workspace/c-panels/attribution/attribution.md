@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Attribution panel overview
 title: Attribution panel overview
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 ---

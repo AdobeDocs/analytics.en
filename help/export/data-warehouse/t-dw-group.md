@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how administrators can enable Data Warehouse reporting access to a group of users.
-seo-description: Steps that describe how administrators can enable Data Warehouse reporting access to a group of users.
-seo-title: Add Data Warehouse user group
 solution: Analytics
 title: Add Data Warehouse user group
 topic: Data warehouse

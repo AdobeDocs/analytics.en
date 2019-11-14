@@ -1,7 +1,5 @@
 ---
 description: Groups web traffic by the operating system used by the client.
-seo-description: Groups web traffic by the operating system used by the client.
-seo-title: Operating Systems
 solution: Analytics
 title: Operating Systems
 topic: Reports

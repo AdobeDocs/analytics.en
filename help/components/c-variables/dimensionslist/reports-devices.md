@@ -1,7 +1,5 @@
 ---
 description: Displays a detailed list of the mobile devices used to access your site.
-seo-description: Displays a detailed list of the mobile devices used to access your site.
-seo-title: Devices
 solution: Analytics
 title: Devices
 topic: Reports

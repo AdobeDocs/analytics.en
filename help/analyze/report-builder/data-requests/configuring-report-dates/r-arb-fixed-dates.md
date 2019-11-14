@@ -1,7 +1,5 @@
 ---
 description: Definitions for fixed dates in report builder.
-seo-description: Definitions for fixed dates in report builder.
-seo-title: Request Wizard definitions - fixed dates
 solution: Analytics
 title: Request Wizard definitions - fixed dates
 topic: Report builder

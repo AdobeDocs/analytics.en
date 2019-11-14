@@ -1,7 +1,5 @@
 ---
 description: Displays information regarding visitors, including things like visitor count, customer loyalty, and visitor characteristics.
-seo-description: Displays information regarding visitors, including things like visitor count, customer loyalty, and visitor characteristics.
-seo-title: Visitor reports
 solution: Analytics
 title: Visitor reports
 topic: Ad hoc analysis

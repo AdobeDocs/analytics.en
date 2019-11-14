@@ -1,7 +1,5 @@
 ---
 description: Using a "plug and play" wizard, intuitive step-by-step processes will walk you through points of system synchronization and initialize the integration.
-seo-description: Using a "plug and play" wizard, intuitive step-by-step processes will walk you through points of system synchronization and initialize the integration.
-seo-title: Integration Procedure and Prerequisites
 title: Integration Procedure and Prerequisites
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 ---

@@ -1,7 +1,5 @@
 ---
 description: Activity Map is supported on the following web browsers.
-seo-description: Activity Map is supported on the following web browsers.
-seo-title: Supported systems and requirements
 solution: Analytics
 title: Supported systems and requirements
 topic: Activity map

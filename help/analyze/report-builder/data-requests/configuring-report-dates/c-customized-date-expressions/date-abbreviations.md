@@ -1,7 +1,5 @@
 ---
 description: Time abbreviations refer to a particular date when a period begins, not a range of days. A range of days is expressed by specifying a start and an end date for two time abbreviations (or terms).
-seo-description: Time abbreviations refer to a particular date when a period begins, not a range of days. A range of days is expressed by specifying a start and an end date for two time abbreviations (or terms).
-seo-title: Date abbreviations
 solution: Analytics
 title: Date abbreviations
 topic: Report builder

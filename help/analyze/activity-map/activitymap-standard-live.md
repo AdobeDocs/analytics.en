@@ -1,7 +1,5 @@
 ---
 description: Activity Map provides two basic modes to provide complementary reporting of page activity.
-seo-description: Activity Map provides two basic modes to provide complementary reporting of page activity.
-seo-title: Standard Mode vs. Live Mode
 solution: Analytics
 title: Standard Mode vs. Live Mode
 topic: Activity map

@@ -1,7 +1,5 @@
 ---
 description: Changes to processing rules can be viewed in History.
-seo-description: Changes to processing rules can be viewed in History.
-seo-title: View processing rule history
 solution: Analytics
 subtopic: Processing rules
 title: View processing rule history

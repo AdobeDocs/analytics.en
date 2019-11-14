@@ -1,7 +1,5 @@
 ---
 description: The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
-seo-description: The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
-seo-title: Page details
 solution: Analytics
 title: Page details
 topic: Activity map

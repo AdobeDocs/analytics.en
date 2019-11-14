@@ -1,7 +1,5 @@
 ---
 description: Descriptions of report categories used in the Experience Cloud.
-seo-description: Descriptions of report categories used in the Experience Cloud.
-seo-title: Report Categories
 solution: Analytics
 title: Report Categories
 topic: Reports

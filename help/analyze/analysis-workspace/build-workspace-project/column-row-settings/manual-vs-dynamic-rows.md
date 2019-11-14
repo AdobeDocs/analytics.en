@@ -1,7 +1,5 @@
 ---
 description: How to interact with static rows in tables.
-seo-description: How to interact with static rows in tables.
-seo-title: Static vs. dynamic rows
 title: Static vs. dynamic rows
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 ---

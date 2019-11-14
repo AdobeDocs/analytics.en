@@ -1,7 +1,5 @@
 ---
 description: Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
-seo-description: Displays information about websites access from a mobile device. Mobile reports improve visitor identification by collecting data about mobile devices used to view your site. Mobile reports can identify a device's manufacturer and capabilities, such as screen sizes, video, audio, and cookie support, and other metrics. Mobile reports are available for all report suites.
-seo-title: Mobile reports
 title: Mobile reports
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 ---

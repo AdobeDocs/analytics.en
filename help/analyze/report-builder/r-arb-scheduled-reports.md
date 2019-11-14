@@ -1,7 +1,5 @@
 ---
 description: Field descriptions for the Scheduled Task Manager.
-seo-description: Field descriptions for the Scheduled Task Manager.
-seo-title: Scheduled Task Manager
 solution: Analytics
 title: Scheduled Task Manager
 topic: Report builder

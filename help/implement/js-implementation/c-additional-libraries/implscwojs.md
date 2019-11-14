@@ -1,8 +1,6 @@
 ---
 description: Implement Analytics using an HTML image tag (hardcoded image request).
 keywords: Analytics Implementation;html image tag;hardcoded image request
-seo-description: Implement Analytics using an HTML image tag (hardcoded image request).
-seo-title: Implement Analytics using HTML image tags
 solution: Analytics
 title: Implement Analytics using HTML image tags
 topic: Developer and implementation

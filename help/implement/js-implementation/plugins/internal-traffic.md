@@ -1,8 +1,6 @@
 ---
 title: Internal Traffic
 description: The Internal Traffic plugin dynamically identifies visitors originating from an internal network.
-seo-description: Internal Traffic plugin
-seo-title: Internal Traffic plugin
 ---
 
 # Internal Traffic

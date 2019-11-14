@@ -1,8 +1,6 @@
 ---
 description: Pathing is defined as the path that users take through your site.
 keywords: Analytics Implementation
-seo-description: Pathing is defined as the path that users take through your site.
-seo-title: Pathing overview
 solution: Analytics
 title: Pathing overview
 topic: Developer and implementation

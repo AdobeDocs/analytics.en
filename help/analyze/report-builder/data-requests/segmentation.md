@@ -1,7 +1,5 @@
 ---
 description: How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
-seo-description: How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
-seo-title: Manage segments
 solution: Analytics
 title: Manage segments
 topic: Report builder

@@ -1,8 +1,6 @@
 ---
 description: Learn how visits to your web site become a report in Adobe Analytics.
 keywords: Analytics Implementation;data collection
-seo-description: Learn how visits to your web site become a report in Adobe Analytics.
-seo-title: Data Collection
 solution: Analytics
 title: Data Collection
 topic: Developer and implementation

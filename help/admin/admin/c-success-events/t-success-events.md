@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to configure success events.
-seo-description: Steps that describe how to configure success events.
-seo-title: Configure success events
 solution: Analytics
 title: Configure success events
 topic: Admin tools

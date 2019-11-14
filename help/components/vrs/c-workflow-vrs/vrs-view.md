@@ -1,8 +1,6 @@
 ---
 description: Click the i (Info) icon next to the report suite name to get info about it.
 keywords: Virtual Report Suite
-seo-description: Click the i (Info) icon next to the report suite name to get info about it.
-seo-title: View virtual report suite information
 solution: Analytics
 title: View virtual report suite information
 topic: Reports and analytics

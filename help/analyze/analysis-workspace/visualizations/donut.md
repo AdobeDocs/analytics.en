@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Donut
 title: Donut
 uuid: 5376510c-82f9-4f04-8412-ad368e6182bd
 ---

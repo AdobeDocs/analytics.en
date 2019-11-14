@@ -1,8 +1,6 @@
 ---
 description: Implementation process steps.
 keywords: Analytics Implementation
-seo-description: Implementation process steps.
-seo-title: Implementation acceptance
 solution: Analytics
 title: Implementation acceptance
 topic: Developer and implementation

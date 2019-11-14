@@ -1,7 +1,5 @@
 ---
 description: A path report that provides detailed site path analysis by showing you the pages on your site that visitors viewed prior to seeing a selected page on your site.
-seo-description: A path report that provides detailed site path analysis by showing you the pages on your site that visitors viewed prior to seeing a selected page on your site.
-seo-title: Previous Page
 solution: Analytics
 title: Previous Page
 topic: Reports

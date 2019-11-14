@@ -1,7 +1,5 @@
 ---
 description: Segment functionality now mostly differs between Admin-level users and non-Admins.
-seo-description: Segment functionality now mostly differs between Admin-level users and non-Admins.
-seo-title: Segment Rights by Role
 solution: Analytics
 title: Segment Rights by Role
 topic: Segments

@@ -1,7 +1,5 @@
 ---
 description: Traffic reports give you in-depth insight into how visitors interact with your website.
-seo-description: Traffic reports give you in-depth insight into how visitors interact with your website.
-seo-title: Traffic
 solution: Analytics
 title: Traffic
 topic: Reports

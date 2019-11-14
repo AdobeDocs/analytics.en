@@ -1,7 +1,5 @@
 ---
 description: Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
-seo-description: Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
-seo-title: Customer attributes
 title: Customer attributes
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 ---

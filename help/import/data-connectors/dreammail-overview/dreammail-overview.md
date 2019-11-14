@@ -1,7 +1,5 @@
 ---
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-title: DreamMail Data Connector for Adobe Analytics
 title: DreamMail Data Connector for Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 ---

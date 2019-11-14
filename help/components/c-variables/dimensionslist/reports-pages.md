@@ -1,7 +1,5 @@
 ---
 description: Ranks the pages on your site based on the pages that receive the most traffic. If your business question deals with quantitative data for pages, you can use this report to answer that question, by adding the right metrics.
-seo-description: Ranks the pages on your site based on the pages that receive the most traffic. If your business question deals with quantitative data for pages, you can use this report to answer that question, by adding the right metrics.
-seo-title: Pages
 solution: Analytics
 title: Pages
 topic: Reports

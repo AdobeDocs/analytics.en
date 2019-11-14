@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Workspace limitations, Known limitations in Analysis Workspace
 title: Known limitations in Analysis Workspace
 ---
 

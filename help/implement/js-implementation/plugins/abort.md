@@ -1,8 +1,6 @@
 ---
 description: The abort flag can be set inside doPlugins to cause the current track call to not be sent.
 keywords: Analytics Implementation
-seo-description: The abort flag can be set inside doPlugins to cause the current track call to not be sent.
-seo-title: s.abort flag
 solution: Analytics
 title: s.abort flag
 topic: Developer and implementation

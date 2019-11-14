@@ -1,8 +1,6 @@
 ---
 description: Custom events let you define the success type that you want to track.
 keywords: Analytics Implementation;custom event
-seo-description: Custom events let you define the success type that you want to track.
-seo-title: What is a custom event?
 solution: Analytics
 title: What is a custom event?
 topic: Developer and implementation

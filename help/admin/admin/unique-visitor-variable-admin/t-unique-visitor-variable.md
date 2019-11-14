@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to designate which eVar contains your visitor identifier.
-seo-description: Steps that describe how to designate which eVar contains your visitor identifier.
-seo-title: Specify the Unique Visitor variable
 solution: Analytics
 title: Specify the Unique Visitor variable
 topic: Admin tools

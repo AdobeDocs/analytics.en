@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to upload data files via FTP.
-seo-description: Steps that describe how to upload data files via FTP.
-seo-title: FTP import
 solution: Analytics
 subtopic: Classifications
 title: FTP import

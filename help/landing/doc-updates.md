@@ -2,8 +2,6 @@
 
 title: Adobe Analytics Documentation Updates
 description: Technical documentation updates Adobe Analytics
-seo-title: Adobe Analytics documentation updates
-seo-description: Adobe Analytics documentation updates
 short-title: Analytics documentation updates
 
 ---

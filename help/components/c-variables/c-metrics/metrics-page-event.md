@@ -1,7 +1,5 @@
 ---
 description: Page events consist of image request data from non-standard image requests. Sources of non-standard image requests are download links, exit links, and custom link tracking.
-seo-description: Page events consist of image request data from non-standard image requests. Sources of non-standard image requests are download links, exit links, and custom link tracking.
-seo-title: Page Events
 solution: Analytics
 title: Page Events
 topic: Metrics

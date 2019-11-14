@@ -1,7 +1,5 @@
 ---
 description: You can select the base report type for your data request, such as Site Metrics, Site Content, and Video.
-seo-description: You can select the base report type for your data request, such as Site Metrics, Site Content, and Video.
-seo-title: Report types overview
 solution: Analytics
 title: Report types overview
 topic: Report builder

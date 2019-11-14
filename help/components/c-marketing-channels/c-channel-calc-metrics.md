@@ -1,7 +1,5 @@
 ---
 description: Add calculated metrics to Marketing Channel reports in Analytics.
-seo-description: Add calculated metrics to Marketing Channel reports in Analytics.
-seo-title: Calculated metrics used Marketing Channel reports
 solution: Analytics
 subtopic: Marketing channels
 title: Calculated metrics used Marketing Channel reports

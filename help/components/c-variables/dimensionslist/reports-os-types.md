@@ -1,7 +1,5 @@
 ---
 description: Rolls up the specific versions from the Operating Systems report in the Operating Systems Report into major operating system types for simplified reporting and segmentation.
-seo-description: Rolls up the specific versions from the Operating Systems report in the Operating Systems Report into major operating system types for simplified reporting and segmentation.
-seo-title: Operating System Types
 solution: Analytics
 title: Operating System Types
 topic: Reports

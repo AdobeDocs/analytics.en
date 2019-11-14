@@ -1,7 +1,5 @@
 ---
 description: Displays the amount of time that passes before a selected conversion event occurs in a visit. You can see the time difference between an image request that starts a visit and an image request that fires the specific conversion event. This report is useful to determine the amount of time people are taking from arriving on your site to hitting a success event, such as a form submission or placing an order.
-seo-description: Displays the amount of time that passes before a selected conversion event occurs in a visit. You can see the time difference between an image request that starts a visit and an image request that fires the specific conversion event. This report is useful to determine the amount of time people are taking from arriving on your site to hitting a success event, such as a form submission or placing an order.
-seo-title: Time Prior to Event
 solution: Analytics
 title: Time Prior to Event
 topic: Reports

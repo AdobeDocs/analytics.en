@@ -1,8 +1,6 @@
 ---
 description: Learn about visualizations and visualization settings in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Learn about visualizations and visualization settings in Analysis Workspace.
-seo-title: Visualizations overview
 solution: Analytics
 title: Visualizations overview
 topic: Reports and analytics

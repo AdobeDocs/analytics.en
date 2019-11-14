@@ -1,7 +1,5 @@
 ---
 description: Copy a simple request rather than a referential request. A simple request is one that contains no references to another request or the contents of a cell.
-seo-description: Copy a simple request rather than a referential request. A simple request is one that contains no references to another request or the contents of a cell.
-seo-title: Copy simple requests
 solution: Analytics
 title: Copy simple requests
 topic: Report builder

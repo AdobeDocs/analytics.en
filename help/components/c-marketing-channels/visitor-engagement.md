@@ -1,7 +1,5 @@
 ---
 description: Learn how to specify visitor engagement expiration in Marketing Channels.
-seo-description: Learn how to specify visitor engagement expiration in Marketing Channels.
-seo-title: Visitor engagement expiration
 solution: Analytics
 subtopic: Marketing channels
 title: Visitor engagement expiration

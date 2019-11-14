@@ -1,7 +1,5 @@
 ---
 description: Depending on your permissions, you can share segments with your whole organization, groups, or individual users.
-seo-description: Depending on your permissions, you can share segments with your whole organization, groups, or individual users.
-seo-title: Share segments
 solution: Analytics
 title: Share segments
 topic: Segments

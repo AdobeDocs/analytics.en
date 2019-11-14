@@ -1,7 +1,5 @@
 ---
 description: Frequently asked questions about features, functionality, and issues related to server-side forwarding.
-seo-description: Frequently asked questions about features, functionality, and issues related to server-side forwarding.
-seo-title: Server-side forwarding FAQ
 title: Server-side forwarding FAQ
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 ---

@@ -1,7 +1,5 @@
 ---
 description: Common uses cases for processing rules.
-seo-description: Common uses cases for processing rules.
-seo-title: Examples of processing rules
 solution: Analytics
 subtopic: Processing rules
 title: Examples of processing rules

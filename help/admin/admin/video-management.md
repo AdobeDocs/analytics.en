@@ -1,7 +1,5 @@
 ---
 description: You can designate a set of Custom Conversion Variables (eVars) and Custom Events for use in tracking and reporting on video.
-seo-description: You can designate a set of Custom Conversion Variables (eVars) and Custom Events for use in tracking and reporting on video.
-seo-title: Video management
 solution: Analytics
 title: Video management
 topic: Admin tools

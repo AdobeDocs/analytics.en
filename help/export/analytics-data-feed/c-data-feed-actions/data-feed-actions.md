@@ -1,8 +1,6 @@
 ---
 description: You can perform a variety of actions on a data feed.
 keywords: Data Feed;actions
-seo-description: You can perform a variety of actions on a data feed.
-seo-title: Data Feed panel
 solution: Analytics
 title: Data Feed panel
 uuid: 10527738-13c2-48c0-9bb3-c4c93fbb4d8f

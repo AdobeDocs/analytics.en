@@ -1,7 +1,5 @@
 ---
 description: Displays the domain or URL where your visitors came from before they arrived at your site, the methods visitors use to find your website, and the number of visits to your site that came from these referring locations.
-seo-description: Displays the domain or URL where your visitors came from before they arrived at your site, the methods visitors use to find your website, and the number of visits to your site that came from these referring locations.
-seo-title: Referrers
 solution: Analytics
 title: Referrers
 topic: Reports

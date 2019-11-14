@@ -1,8 +1,6 @@
 ---
 description: Though pathing reports are available out-of-the-box for pages, pathing can also be enabled for custom traffic variables.
 keywords: Analytics Implementation
-seo-description: Though pathing reports are available out-of-the-box for pages, pathing can also be enabled for custom traffic variables.
-seo-title: Enable pathing on a prop
 solution: Analytics
 title: Enable pathing on a prop
 topic: Developer and implementation

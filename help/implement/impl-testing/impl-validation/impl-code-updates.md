@@ -1,8 +1,6 @@
 ---
 description: Testing any modifications to the .JS file or HTML code is the responsibility of the customer. It should be completed prior to publishing the modifications to production websites.
 keywords: Analytics Implementation
-seo-description: Testing any modifications to the .JS file or HTML code is the responsibility of the customer. It should be completed prior to publishing the modifications to production websites.
-seo-title: Code modifications
 solution: Analytics
 title: Code modifications
 topic: Developer and implementation

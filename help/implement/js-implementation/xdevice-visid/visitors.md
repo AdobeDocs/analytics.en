@@ -1,8 +1,6 @@
 ---
 description: Analytics counts each unique effective visitor ID as a unique visitor.
 keywords: Analytics Implementation
-seo-description: Analytics counts each unique effective visitor ID as a unique visitor.
-seo-title: Visitors
 solution: Analytics
 subtopic: Visitors
 title: Visitors

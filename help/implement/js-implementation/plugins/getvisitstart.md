@@ -1,8 +1,6 @@
 ---
 description: Determines if a new visit is starting.
 keywords: Analytics Implementation
-seo-description: Determines if a new visit is starting.
-seo-title: getVisitStart
 solution: Analytics
 title: getVisitStart
 topic: Developer and implementation

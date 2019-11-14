@@ -1,8 +1,6 @@
 ---
 description: Examples to illustrate the use of a server-generated image tag within a HTML sample page.
 keywords: Analytics Implementation;variables
-seo-description: Examples to illustrate the use of a server-generated image tag within a HTML sample page.
-seo-title: Sample code
 solution: Analytics
 title: Sample code
 topic: Developer and implementation

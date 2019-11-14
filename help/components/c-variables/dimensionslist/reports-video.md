@@ -1,7 +1,5 @@
 ---
 description: Displays information about your online media access statistics. Reports display data on video and other media access.
-seo-description: Displays information about your online media access statistics. Reports display data on video and other media access.
-seo-title: Video
 solution: Analytics
 title: Video
 topic: Reports

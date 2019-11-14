@@ -1,7 +1,5 @@
 ---
 description: Describes how to set permissions and which dimensions are available in Analytics.
-seo-description: Describes how to set permissions and which dimensions are available in Analytics.
-seo-title: Activity Map reporting in Analytics
 solution: Analytics
 title: Activity Map reporting in Analytics
 topic: Activity map

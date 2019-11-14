@@ -1,7 +1,5 @@
 ---
 description: Configure user group access to Marketing Channels.
-seo-description: Configure user group access to Marketing Channels.
-seo-title: Configure user group access
 solution: Analytics
 subtopic: Marketing channels
 title: Configure user group access

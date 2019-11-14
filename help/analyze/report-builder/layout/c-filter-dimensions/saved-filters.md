@@ -1,7 +1,5 @@
 ---
 description: You can save filters or other parameters in report builder and use them in other worksheets or workbooks. These parameters are saved to Analytics, to ensure that they are available to other report builder users on other computers.
-seo-description: You can save filters or other parameters in report builder and use them in other worksheets or workbooks. These parameters are saved to Analytics, to ensure that they are available to other report builder users on other computers.
-seo-title: Saved filters
 solution: Analytics
 title: Saved filters
 topic: Report builder

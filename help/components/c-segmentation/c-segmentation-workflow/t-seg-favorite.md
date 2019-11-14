@@ -1,7 +1,5 @@
 ---
 description: Marking segments as favorites is another way to organize them for ease of use.
-seo-description: Marking segments as favorites is another way to organize them for ease of use.
-seo-title: Mark segments as favorites
 solution: Analytics
 title: Mark segments as favorites
 topic: Segments

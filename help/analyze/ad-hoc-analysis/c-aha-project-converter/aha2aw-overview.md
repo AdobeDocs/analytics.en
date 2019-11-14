@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Ad Hoc Analysis Project Converter overview
 title: Ad Hoc Analysis Project Converter overview
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 ---

@@ -1,8 +1,6 @@
 ---
 description: Describes how instances are counted on merchandising variables.
 keywords: Analytics Implementation
-seo-description: Describes how instances are counted on merchandising variables.
-seo-title: Instances on merchandising variables
 solution: Analytics
 title: Instances on merchandising variables
 topic: Developer and implementation

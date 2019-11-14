@@ -1,8 +1,6 @@
 ---
 description: The following variables and functions let you store measurement calls when the application is offline.
 keywords: Analytics Implementation
-seo-description: The following variables and functions let you store measurement calls when the application is offline.
-seo-title: Offline tracking
 solution: Analytics
 title: Offline tracking
 topic: Developer and implementation

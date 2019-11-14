@@ -1,8 +1,6 @@
 ---
 description: Create custom date ranges in Analysis Workspace, and save them as Time components.
 keywords: Analysis Workspace
-seo-description: Create custom date ranges in Analysis Workspace, and save them as Time components.
-seo-title: Create custom date ranges
 solution: Analytics
 title: Create custom date ranges
 topic: Reports and analytics

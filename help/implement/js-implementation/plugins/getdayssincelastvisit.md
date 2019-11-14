@@ -1,8 +1,6 @@
 ---
 description: Determines the number of days since a user last visited your site, and captures this information in a Analytics variable.
 keywords: Analytics Implementation
-seo-description: Determines the number of days since a user last visited your site, and captures this information in a Analytics variable.
-seo-title: getDaysSinceLastVisit
 solution: Analytics
 subtopic: Plug-ins
 title: getDaysSinceLastVisit

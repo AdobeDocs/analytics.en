@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Java
 solution: Analytics
 subtopic: Release notes
 title: Java

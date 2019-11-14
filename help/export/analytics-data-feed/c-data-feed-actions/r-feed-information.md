@@ -1,8 +1,6 @@
 ---
 description: Use the Feed Information section to name the feed, specify the report suite to run the feed against, determine the feed recurrence, and specify when the feed starts and ends.
 keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
-seo-description: Use the Feed Information section to name the feed, specify the report suite to run the feed against, determine the feed recurrence, and specify when the feed starts and ends.
-seo-title: Feed Information
 solution: Analytics
 title: Feed Information
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04

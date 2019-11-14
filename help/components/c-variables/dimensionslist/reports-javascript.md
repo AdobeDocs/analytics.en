@@ -1,7 +1,5 @@
 ---
 description: Shows metrics based on whether the device has JavaScript enabled, disabled, or whether it is counted as "unidentified".
-seo-description: Shows metrics based on whether the device has JavaScript enabled, disabled, or whether it is counted as "unidentified".
-seo-title: JavaScript Support
 solution: Analytics
 title: JavaScript Support
 topic: Reports

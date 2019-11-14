@@ -1,8 +1,6 @@
 ---
 description: The getValOnce plug-in prevents a given variable from being set to the previously defined value. It uses a cookie to determine a variable's last seen value. If the current value matches the cookie value, the variable is overwritten with a blank string before it is sent to Adobe's processing servers. This plug-in is useful to prevent conversion variable instance inflation caused when users refresh the page or click the Back button.
 keywords: Analytics Implementation
-seo-description: The getValOnce plug-in prevents a given variable from being set to the previously defined value. It uses a cookie to determine a variable's last seen value. If the current value matches the cookie value, the variable is overwritten with a blank string before it is sent to Adobe's processing servers. This plug-in is useful to prevent conversion variable instance inflation caused when users refresh the page or click the Back button.
-seo-title: getValOnce
 solution: Analytics
 subtopic: Plug-ins
 title: getValOnce

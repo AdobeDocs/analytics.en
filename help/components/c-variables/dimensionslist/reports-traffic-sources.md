@@ -1,7 +1,5 @@
 ---
 description: Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you.
-seo-description: Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you.
-seo-title: Traffic Sources
 solution: Analytics
 title: Traffic Sources
 topic: Reports

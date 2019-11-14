@@ -1,7 +1,5 @@
 ---
 description: An event that occurs when customers arrive at the checkout stage of a purchase. The checkout stage usually occurs just before a purchase is finalized, and usually involves the customer entering personal information (such as their shipping and billing information). You have control over the events on your site that qualify as checkouts. This value comes from the scCheckout event.
-seo-description: An event that occurs when customers arrive at the checkout stage of a purchase. The checkout stage usually occurs just before a purchase is finalized, and usually involves the customer entering personal information (such as their shipping and billing information). You have control over the events on your site that qualify as checkouts. This value comes from the scCheckout event.
-seo-title: Checkouts
 solution: Analytics
 title: Checkouts
 topic: Metrics

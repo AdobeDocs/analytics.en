@@ -1,7 +1,5 @@
 ---
 description: The Classification Hierarchies page lets you define classification hierarchies that you can use to create Hierarchy reports with the same name.
-seo-description: The Classification Hierarchies page lets you define classification hierarchies that you can use to create Hierarchy reports with the same name.
-seo-title: Classification hierarchies
 solution: Analytics
 subtopic: Classifications
 title: Classification hierarchies

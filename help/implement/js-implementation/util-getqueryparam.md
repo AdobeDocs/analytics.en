@@ -1,8 +1,6 @@
 ---
 description: Returns the value of a specified query string parameter, if found in the current page URL or in the provided string.
 keywords: Analytics Implementation
-seo-description: Returns the value of a specified query string parameter, if found in the current page URL or in the provided string.
-seo-title: Util.getQueryParam
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam

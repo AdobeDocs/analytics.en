@@ -1,8 +1,6 @@
 ---
 description: There are multiple ways to implement Adobe Analytics.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;javascript
-seo-description: There are multiple ways to implement Adobe Analytics.
-seo-title: Choose an implementation method
 solution: Analytics
 title: Choose an implementation method
 topic: Developer and implementation

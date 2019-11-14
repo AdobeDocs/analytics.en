@@ -1,7 +1,5 @@
 ---
 description: Learn about the various actions you can perform on a report, such as configuring charts, graphs, breakdowns, and extracting data.
-seo-description: Learn about the various actions you can perform on a report, such as configuring charts, graphs, breakdowns, and extracting data.
-seo-title: Configure existing reports
 title: Configure existing reports
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 ---

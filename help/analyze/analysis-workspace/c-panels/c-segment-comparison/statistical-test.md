@@ -1,8 +1,6 @@
 ---
 description: Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
 keywords: Analysis Workspace;Segment IQ
-seo-description: Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
-seo-title: Statistical tests used in segment comparison
 solution: Analytics
 title: Statistical tests used in segment comparison
 topic: Reports and analytics

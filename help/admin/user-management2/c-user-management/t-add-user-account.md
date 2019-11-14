@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to add a user account.
-seo-description: Steps that describe how to add a user account.
-seo-title: Add a user account
 solution: Analytics
 subtopic: Users and groups
 title: Add a user account

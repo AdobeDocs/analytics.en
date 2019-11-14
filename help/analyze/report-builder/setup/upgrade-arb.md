@@ -1,7 +1,5 @@
 ---
 description: Steps for and considerations regarding upgrading Report Builder.
-seo-description: Steps for and considerations regarding upgrading Report Builder.
-seo-title: Upgrade Report Builder
 solution: Analytics
 title: Upgrade Report Builder
 topic: Report builder

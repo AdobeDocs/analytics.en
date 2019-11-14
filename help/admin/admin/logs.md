@@ -1,7 +1,5 @@
 ---
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
-seo-description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
-seo-title: Logs
 solution: Analytics
 title: Logs
 topic: Admin tools

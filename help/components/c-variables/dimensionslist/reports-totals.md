@@ -1,7 +1,5 @@
 ---
 description: An executive-level report that shows bottom-line figures. It contains data for total revenue, page views, and orders. You can segment the report and add additional metrics to view additional data.
-seo-description: An executive-level report that shows bottom-line figures. It contains data for total revenue, page views, and orders. You can segment the report and add additional metrics to view additional data.
-seo-title: Totals
 solution: Analytics
 title: Totals
 topic: Reports

@@ -1,7 +1,5 @@
 ---
 description: In the Calculated Metric Manager, tagging segments allows you to organize them.
-seo-description: In the Calculated Metric Manager, tagging segments allows you to organize them.
-seo-title: Tag calculated metrics
 title: Tag calculated metrics
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 ---

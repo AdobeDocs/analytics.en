@@ -1,8 +1,6 @@
 ---
 title: Adobe Analytics First Admin Guide
-seo-title: Adobe Analytics First Admin Guide
 description: Understand how to get started with Adobe Analytics, general role types, and logging in to the UI.
-seo-description: Understand how to get started with Adobe Analytics, general role types, and logging in to the UI.
 ---
 
 # Adobe Analytics First Admin Guide

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Logging in
 title: Logging in
 uuid: 1e6a269d-8aa4-470b-9452-2d0ff1ff6f4a
 ---

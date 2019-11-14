@@ -1,7 +1,5 @@
 ---
 description: You refresh requests after you update them with edits, filters, or you need to view more recent data. You can select several requests in a worksheet and refresh them all at once.
-seo-description: You refresh requests after you update them with edits, filters, or you need to view more recent data. You can select several requests in a worksheet and refresh them all at once.
-seo-title: Refresh a request
 solution: Analytics
 title: Refresh a request
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: A trended report that displays the number of times your website pages were viewed for the selected time period (hour, day, week, month, quarter, or year). This report allows you to track page views for each page on your site, as well as an aggregate of page views for your entire site.
-seo-description: A trended report that displays the number of times your website pages were viewed for the selected time period (hour, day, week, month, quarter, or year). This report allows you to track page views for each page on your site, as well as an aggregate of page views for your entire site.
-seo-title: Page Views
 solution: Analytics
 title: Page Views
 topic: Reports

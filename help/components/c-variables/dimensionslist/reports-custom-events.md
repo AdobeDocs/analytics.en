@@ -1,7 +1,5 @@
 ---
 description: The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.
-seo-description: The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.
-seo-title: Custom Events
 solution: Analytics
 title: Custom Events
 topic: Reports

@@ -1,7 +1,5 @@
 ---
 description: If you have Adobe Social enabled, this option allows you to classify Social variables.
-seo-description: If you have Adobe Social enabled, this option allows you to classify Social variables.
-seo-title: Social Management
 solution: Analytics
 title: Social Management
 topic: Admin tools

@@ -1,7 +1,5 @@
 ---
 description: Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
-seo-description: Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
-seo-title: Customizable overlays
 solution: Analytics
 title: Customizable overlays
 topic: Activity map

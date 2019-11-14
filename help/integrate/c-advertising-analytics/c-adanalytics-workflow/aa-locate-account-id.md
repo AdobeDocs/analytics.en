@@ -1,7 +1,5 @@
 ---
 description: Here are instructions on helping you to locate your account IDs for Google and Bing.
-seo-description: Here are instructions on helping you to locate your account IDs for Google and Bing.
-seo-title: Locate your account IDs
 title: Locate your account IDs
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 ---

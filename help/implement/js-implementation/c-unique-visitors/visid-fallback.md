@@ -1,8 +1,6 @@
 ---
 description: If other visitor ID methods fail, Adobe sets a fallback cookie or uses a combination of IP address and user agent to identify the visitor.
 keywords: Analytics Implementation
-seo-description: If other visitor ID methods fail, Adobe sets a fallback cookie or uses a combination of IP address and user agent to identify the visitor.
-seo-title: Fallback ID methods
 solution: Analytics
 title: Fallback ID methods
 topic: Developer and implementation

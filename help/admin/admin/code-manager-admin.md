@@ -1,7 +1,5 @@
 ---
 description: Code manager lets you download data collection code for web and mobile platforms.
-seo-description: Code manager lets you download data collection code for web and mobile platforms.
-seo-title: Code Manager
 solution: Analytics
 title: Code Manager
 topic: Admin tools

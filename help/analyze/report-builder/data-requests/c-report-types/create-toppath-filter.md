@@ -1,7 +1,5 @@
 ---
 description: Describes how to create path reports with predefined filters.
-seo-description: Describes how to create path reports with predefined filters.
-seo-title: Filter Path Reports by Adding Dependent Requests
 solution: Analytics
 title: Filter Path Reports by Adding Dependent Requests
 topic: Report builder

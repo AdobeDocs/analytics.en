@@ -1,7 +1,5 @@
 ---
 description: In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
-seo-description: In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
-seo-title: Copy adjacent requests
 solution: Analytics
 title: Copy adjacent requests
 topic: Report builder

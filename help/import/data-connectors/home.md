@@ -1,8 +1,6 @@
 ---
 title: Analytics Data Connectors Help
-seo-title: Analytics Data Connectors Help
 description: data connectors help
-seo-description: data connectors help
 ---
 
 # Analytics Data Connectors Guide

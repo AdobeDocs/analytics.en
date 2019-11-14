@@ -1,7 +1,5 @@
 ---
 description: Groups mobile devices based on the maximum supported length, in characters, of a Web browser URL.
-seo-description: Groups mobile devices based on the maximum supported length, in characters, of a Web browser URL.
-seo-title: Browser URL Length
 solution: Analytics
 title: Browser URL Length
 topic: Reports

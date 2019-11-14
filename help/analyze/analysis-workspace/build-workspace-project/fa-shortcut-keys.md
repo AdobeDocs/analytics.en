@@ -1,8 +1,6 @@
 ---
 description: Keyboard interactions, shortcut keys and point-and-click behaviors available in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Keyboard interactions, shortcut keys and point-and-click behaviors available in Analysis Workspace.
-seo-title: Hotkeys available in Analysis Workspace
 solution: Analytics
 title: Hotkeys available in Analysis Workspace
 topic: Reports and analytics

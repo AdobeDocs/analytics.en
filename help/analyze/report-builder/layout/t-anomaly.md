@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to create an anomaly detection request in report builder.
-seo-description: Steps that describe how to create an anomaly detection request in report builder.
-seo-title: Configure an anomaly detection request
 solution: Analytics
 title: Configure an anomaly detection request
 topic: Report builder

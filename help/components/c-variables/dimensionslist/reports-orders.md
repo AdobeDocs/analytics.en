@@ -1,7 +1,5 @@
 ---
 description: Displays the number of orders made on your web site during the selected time period. You can break down individual time periods by other metrics to show the items (such as products or campaigns) that contributed to the most orders during that time frame.
-seo-description: Displays the number of orders made on your web site during the selected time period. You can break down individual time periods by other metrics to show the items (such as products or campaigns) that contributed to the most orders during that time frame.
-seo-title: Orders
 solution: Analytics
 title: Orders
 topic: Reports

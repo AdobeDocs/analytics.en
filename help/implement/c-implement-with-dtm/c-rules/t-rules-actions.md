@@ -1,8 +1,6 @@
 ---
 description: Set up actions that you want the condition to trigger.
 keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
-seo-description: Set up actions that you want the condition to trigger.
-seo-title: Set up actions for the condition to trigger
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Set up actions for the condition to trigger
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0

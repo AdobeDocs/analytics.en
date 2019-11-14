@@ -1,8 +1,6 @@
 ---
 description: Analytics provides a number of variables to collect Analytics data. For example, the value in the pageName variable is the name of the Web page being reported. This section lists the variables that are supported by AppMeasurment.
 keywords: Analytics Implementation;appmeasurement variables
-seo-description: Analytics provides a number of variables to collect Analytics data. For example, the value in the pageName variable is the name of the Web page being reported. This section lists the variables that are supported by AppMeasurment.
-seo-title: Overview of variables
 solution: Analytics
 subtopic: Variables
 title: Overview of variables

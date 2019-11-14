@@ -1,7 +1,5 @@
 ---
 description: You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
-seo-description: You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
-seo-title: New report suite - settings
 solution: Analytics
 title: New report suite - settings
 topic: Admin tools

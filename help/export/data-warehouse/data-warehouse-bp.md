@@ -1,8 +1,6 @@
 ---
 description: Data warehouse provides a flexible interface to run custom reports. Following these guidelines can help reduce the time it takes to retrieve data.
 keywords: best practices;failure;timeout;troubleshooting
-seo-description: Data warehouse provides a flexible interface to run custom reports. Following these guidelines can help reduce the time it takes to retrieve data.
-seo-title: Data Warehouse best practices
 solution: Analytics
 title: Data Warehouse best practices
 topic: Data warehouse

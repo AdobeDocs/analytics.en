@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation
-seo-description: null
-seo-title: Overview of merchandising variables
 solution: Analytics
 title: Overview of merchandising variables
 topic: Developer and implementation

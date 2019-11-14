@@ -1,7 +1,5 @@
 ---
 description: Upload a Report Builder Excel workbook that you want to share.
-seo-description: Upload a Report Builder Excel workbook that you want to share.
-seo-title: Upload a workbook
 solution: Analytics
 title: Upload a workbook
 topic: Report builder

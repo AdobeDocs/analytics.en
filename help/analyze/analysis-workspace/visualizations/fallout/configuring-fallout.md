@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Configure a fallout visualization
 title: Configure a fallout visualization
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 ---

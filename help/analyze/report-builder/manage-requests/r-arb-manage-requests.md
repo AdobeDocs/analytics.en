@@ -1,7 +1,5 @@
 ---
 description: Field descriptions for Manage Requests in Report Builder.
-seo-description: Field descriptions for Manage Requests in Report Builder.
-seo-title: Manage requests - definitions
 solution: Analytics
 title: Manage requests - definitions
 topic: Report builder

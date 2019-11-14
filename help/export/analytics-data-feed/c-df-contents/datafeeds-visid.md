@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: Data Feed;job;visitors;Experience Cloud ID;analytics visitor id;identify
-seo-description: null
-seo-title: Identify visitors
 solution: Analytics
 title: Identify visitors
 topic: Reports and analytics

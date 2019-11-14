@@ -1,7 +1,5 @@
 ---
 description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
-seo-description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
-seo-title: Import bookmarked reports and dashboard reportlets
 solution: Analytics
 title: Import bookmarked reports and dashboard reportlets
 topic: Report builder

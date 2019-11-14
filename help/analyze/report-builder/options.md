@@ -1,7 +1,5 @@
 ---
 description: On the Options panel, you can specify the date settings, latency settings (Current Data), log information, and configure updates.
-seo-description: On the Options panel, you can specify the date settings, latency settings (Current Data), log information, and configure updates.
-seo-title: Report Builder options
 solution: Analytics
 title: Report Builder options
 topic: Report builder

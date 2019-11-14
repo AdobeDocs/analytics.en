@@ -1,8 +1,6 @@
 ---
 description: null
 keywords: DFA
-seo-description: null
-seo-title: Prerequisites
 solution: Analytics
 title: Prerequisites
 topic: Data connectors

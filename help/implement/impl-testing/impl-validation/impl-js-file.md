@@ -1,8 +1,6 @@
 ---
 description: Verify that the .JS file is correctly referenced from the page. The path can be specified either relative to the current document, or an absolute path name can be used.
 keywords: Analytics Implementation
-seo-description: Verify that the .JS file is correctly referenced from the page. The path can be specified either relative to the current document, or an absolute path name can be used.
-seo-title: JavaScript JS file
 solution: Analytics
 title: JavaScript JS file
 topic: Developer and implementation

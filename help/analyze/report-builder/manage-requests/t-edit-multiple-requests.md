@@ -1,7 +1,5 @@
 ---
 description: You can change several requests at the same time, based on the request's report suite, granularity, and date range.
-seo-description: You can change several requests at the same time, based on the request's report suite, granularity, and date range.
-seo-title: Edit multiple requests
 solution: Analytics
 title: Edit multiple requests
 topic: Report builder

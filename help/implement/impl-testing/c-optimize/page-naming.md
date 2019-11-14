@@ -1,8 +1,6 @@
 ---
 description: The pageName variable is used to identify each page that is tracked on the website.
 keywords: Analytics Implementation
-seo-description: The pageName variable is used to identify each page that is tracked on the website.
-seo-title: Page naming
 solution: Analytics
 title: Page naming
 topic: Developer and implementation

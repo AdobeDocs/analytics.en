@@ -1,7 +1,5 @@
 ---
 description: Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in Target Classic in the past.
-seo-description: Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in Target Classic in the past.
-seo-title: Target Lift and Confidence
 solution: Analytics
 title: Target Lift and Confidence
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba

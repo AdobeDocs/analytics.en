@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Ad Hoc Analysis overview
 solution: Analytics
 title: Ad Hoc Analysis overview
 topic: Ad hoc analysis

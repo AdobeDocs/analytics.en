@@ -1,7 +1,5 @@
 ---
 description: Information about the Data Sources template, which provides a data framework suitable for submitting a specific set of external data to Data Sources.
-seo-description: Information about the Data Sources template, which provides a data framework suitable for submitting a specific set of external data to Data Sources.
-seo-title: Data Sources template overview
 solution: Analytics
 subtopic: Data sources
 title: Data Sources template overview

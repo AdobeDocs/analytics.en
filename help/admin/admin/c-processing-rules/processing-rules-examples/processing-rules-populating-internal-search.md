@@ -1,7 +1,5 @@
 ---
 description: If you use a common variable, such as q, to populate search terms, you can use processing rules to populate the Internal Search Terms eVar with these values.
-seo-description: If you use a common variable, such as q, to populate search terms, you can use processing rules to populate the Internal Search Terms eVar with these values.
-seo-title: Populate internal search terms using a query string parameter
 solution: Analytics
 subtopic: Processing rules
 title: Populate internal search terms using a query string parameter

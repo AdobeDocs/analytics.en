@@ -1,7 +1,5 @@
 ---
 description: The People metric is an Adobe Analytics reporting metric that helps you attribute devices to people.
-seo-description: The People metric is an Adobe Analytics reporting metric that helps you attribute devices to people.
-seo-title: People
 title: People
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 ---

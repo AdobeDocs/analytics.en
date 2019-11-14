@@ -1,7 +1,5 @@
 ---
 description: Field descriptions for report suite General Account Settings in Admin.
-seo-description: Field descriptions for report suite General Account Settings in Admin.
-seo-title: General Account Settings
 solution: Analytics
 title: General Account Settings
 topic: Admin tools

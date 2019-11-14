@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Schedule a recurring request
 title: Schedule a recurring request
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 ---

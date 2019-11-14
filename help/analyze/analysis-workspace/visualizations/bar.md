@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Bar and bar stacked
 title: Bar and bar stacked
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 ---

@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Intelligent alerts - use cases
 title: Intelligent alerts - use cases
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 ---

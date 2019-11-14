@@ -1,8 +1,6 @@
 ---
 description: Tips and Best Practices for new users of virtual report suites.
 keywords: Virtual Report Suite
-seo-description: Tips and Best Practices for new users of virtual report suites.
-seo-title: VRS FAQs
 solution: Analytics
 title: VRS FAQs
 topic: Reports and analytics

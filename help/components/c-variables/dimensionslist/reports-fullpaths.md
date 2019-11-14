@@ -1,7 +1,5 @@
 ---
 description: Displays the entire visit path through a web site that visitors most commonly take.
-seo-description: Displays the entire visit path through a web site that visitors most commonly take.
-seo-title: Full Paths
 solution: Analytics
 title: Full Paths
 topic: Reports

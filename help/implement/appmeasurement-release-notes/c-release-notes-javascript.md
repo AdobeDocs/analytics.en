@@ -1,7 +1,5 @@
 ---
 description: Cumulative release notes for Legacy JavaScript H code.
-seo-description: Cumulative release notes for Legacy JavaScript H code.
-seo-title: JavaScript H Code - Legacy
 solution: Analytics
 subtopic: Release notes
 title: JavaScript H Code - Legacy

@@ -1,7 +1,5 @@
 ---
 description: In Pivot and Custom Layout requests, for numeric or string values, you can prepend or postpend strings or characters to cells.
-seo-description: In Pivot and Custom Layout requests, for numeric or string values, you can prepend or postpend strings or characters to cells.
-seo-title: Prepend and postpend text to cells
 solution: Analytics
 title: Prepend and postpend text to cells
 topic: Report builder

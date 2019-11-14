@@ -1,8 +1,6 @@
 ---
 description: Create a cohort and run a cohort analysis report in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Create a cohort and run a cohort analysis report in Analysis Workspace.
-seo-title: Run a cohort analysis report
 solution: Analytics
 title: Run a cohort analysis report
 topic: Reports and analytics

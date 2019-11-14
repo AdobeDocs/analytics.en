@@ -1,7 +1,5 @@
 ---
 description: The Marketing Channel Overview Report is designed to provide high-level insight on which methods customers get to your site are most effective. Use this report to allocate success metrics and revenue to various channels. You can also see the specific campaigns or keywords within each channel that are most successful. It contains its own unique and intuitive interface, allowing you to view both first and last touch metrics at the same time.
-seo-description: The Marketing Channel Overview Report is designed to provide high-level insight on which methods customers get to your site are most effective. Use this report to allocate success metrics and revenue to various channels. You can also see the specific campaigns or keywords within each channel that are most successful. It contains its own unique and intuitive interface, allowing you to view both first and last touch metrics at the same time.
-seo-title: Marketing Channel Overview
 solution: Analytics
 title: Marketing Channel Overview
 topic: Reports

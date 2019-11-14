@@ -1,7 +1,5 @@
 ---
 description: A group of reports based on path analysis. Technically, pathing means to move from one page name to another (from one value to another).
-seo-description: A group of reports based on path analysis. Technically, pathing means to move from one page name to another (from one value to another).
-seo-title: Pathing
 solution: Analytics
 title: Pathing
 topic: Reports

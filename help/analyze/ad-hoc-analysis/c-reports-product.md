@@ -1,7 +1,5 @@
 ---
 description: Displays information about the things you are selling, distributing, or displaying on your website. You can see data on orders or downloads for your products, applications, or content.
-seo-description: Displays information about the things you are selling, distributing, or displaying on your website. You can see data on orders or downloads for your products, applications, or content.
-seo-title: Products reports
 solution: Analytics
 title: Products reports
 topic: Ad hoc analysis

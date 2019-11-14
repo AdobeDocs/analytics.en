@@ -1,7 +1,5 @@
 ---
 description: This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
-seo-description: This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
-seo-title: Processing rules tips and tricks
 solution: Analytics
 subtopic: Processing rules
 title: Processing rules tips and tricks

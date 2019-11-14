@@ -1,7 +1,5 @@
 ---
 description: Steps to help you select a report suite in Excel.
-seo-description: Steps to help you select a report suite in Excel.
-seo-title: Select a report suite
 solution: Analytics
 title: Select a report suite
 topic: Report builder

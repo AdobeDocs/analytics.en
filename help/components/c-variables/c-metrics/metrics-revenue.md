@@ -1,7 +1,5 @@
 ---
 description: Revenue is captured on the purchase event, and is defined as the total dollar amount for the sum of the order for each product. This value comes from the purchase event.
-seo-description: Revenue is captured on the purchase event, and is defined as the total dollar amount for the sum of the order for each product. This value comes from the purchase event.
-seo-title: Revenue
 solution: Analytics
 title: Revenue
 topic: Metrics

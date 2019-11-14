@@ -1,8 +1,6 @@
 ---
 description: You can determine which columns are available and sort them according to your needs.
 keywords: Data Feed;columns;columns configuration
-seo-description: You can determine which columns are available and sort them according to your needs.
-seo-title: Sort columns
 solution: Analytics
 title: Sort columns
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005

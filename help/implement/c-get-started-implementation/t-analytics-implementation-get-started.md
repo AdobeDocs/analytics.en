@@ -1,8 +1,6 @@
 ---
 description: Learn about the first-time customer experience for implementing Adobe Analytics implementation.
 keywords: Getting Started
-seo-description: Learn about the first-time customer experience for implementing Adobe Analytics implementation.
-seo-title: Simplified implementation modal
 solution: Analytics
 subtopic: Analysis Workspace
 title: Simplified implementation modal

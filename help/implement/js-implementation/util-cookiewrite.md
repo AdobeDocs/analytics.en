@@ -1,8 +1,6 @@
 ---
 description: Writes a value to a cookie.
 keywords: Analytics Implementation
-seo-description: Writes a value to a cookie.
-seo-title: Util.cookieWrite
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite

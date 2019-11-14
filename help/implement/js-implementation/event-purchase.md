@@ -1,8 +1,6 @@
 ---
 description: For the purchase event, Analytics variables are used to capture specific purchase information. The s.purchaseID variable is used to serialize (de-duplicate) the event.
 keywords: Analytics Implementation
-seo-description: For the purchase event, Analytics variables are used to capture specific purchase information. The s.purchaseID variable is used to serialize (de-duplicate) the event.
-seo-title: Purchase events
 solution: Analytics
 title: Purchase events
 topic: Developer and implementation

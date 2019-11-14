@@ -1,7 +1,5 @@
 ---
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-description: This Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
-seo-title: Aprimo Data Connector for Adobe Analytics
 title: Aprimo Data Connector for Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 ---

@@ -1,7 +1,5 @@
 ---
 description: Customer Loyalty reveals purchasing patterns of customers.
-seo-description: Customer Loyalty reveals purchasing patterns of customers.
-seo-title: Customer Loyalty
 solution: Analytics
 title: Customer Loyalty
 topic: Reports

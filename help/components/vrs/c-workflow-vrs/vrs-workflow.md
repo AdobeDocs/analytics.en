@@ -1,8 +1,6 @@
 ---
 description: An overview of the steps required to plan an implement virtual report suites.
 keywords: Virtual Report Suite
-seo-description: An overview of the steps required to plan an implement virtual report suites.
-seo-title: Virtual report suite workflow
 solution: Analytics
 title: Virtual report suite workflow
 topic: Reports and analytics

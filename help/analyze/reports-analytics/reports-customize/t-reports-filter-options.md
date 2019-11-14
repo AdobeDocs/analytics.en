@@ -1,7 +1,5 @@
 ---
 description: Filters allow you to narrow the report to include or exclude line items that match a filter.
-seo-description: Filters allow you to narrow the report to include or exclude line items that match a filter.
-seo-title: Filtering Report Data
 solution: Analytics
 title: Filtering Report Data
 topic: Reports and analytics

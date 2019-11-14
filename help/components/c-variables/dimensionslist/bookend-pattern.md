@@ -1,7 +1,5 @@
 ---
 description: Lets you analyze what happens before and after a selected page.
-seo-description: Lets you analyze what happens before and after a selected page.
-seo-title: Bookend Pattern
 solution: Analytics
 title: Bookend Pattern
 topic: Reports

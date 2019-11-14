@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to create a report suite, and to copy a report suite's settings to a new one.
-seo-description: Steps that describe how to create a report suite, and to copy a report suite's settings to a new one.
-seo-title: Create a report suite
 solution: Analytics
 title: Create a report suite
 topic: Admin tools

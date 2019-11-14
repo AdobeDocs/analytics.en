@@ -1,7 +1,5 @@
 ---
 description: Import tracking data from third-party applications into Analytics.
-seo-description: Sign in to data connectors; import tracking data from third-party applications into Analytics, add integrations, data connectors console.
-seo-title: Analytics data connectors
 title: Getting Started with Analytics data connectors
 ---
 

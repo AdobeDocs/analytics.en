@@ -1,8 +1,6 @@
 ---
 description: Use case examples for cohort analysis.
 keywords: Analysis Workspace
-seo-description: Use case examples for cohort analysis.
-seo-title: Cohort analysis use cases
 solution: Analytics
 title: Cohort analysis use cases
 topic: Reports and analytics

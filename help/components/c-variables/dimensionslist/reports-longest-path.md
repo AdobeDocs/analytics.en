@@ -1,7 +1,5 @@
 ---
 description: Displays the longest paths taken by visitors to your site during the current time period. You can view the complete path, including each page visited from beginning to end, for the longest paths.
-seo-description: Displays the longest paths taken by visitors to your site during the current time period. You can view the complete path, including each page visited from beginning to end, for the longest paths.
-seo-title: Longest Path
 solution: Analytics
 title: Longest Path
 topic: Reports

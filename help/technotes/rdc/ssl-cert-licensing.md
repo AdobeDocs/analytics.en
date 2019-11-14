@@ -1,8 +1,6 @@
 ---
 title: SSL Certificate Licensing
-seo-title: Adobe Analytics SSL Certificate Licensing
 description:
-seo-description: 
 ---
 
 # SSL Certificate Licensing

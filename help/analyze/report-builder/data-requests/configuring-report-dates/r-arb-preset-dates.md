@@ -1,7 +1,5 @@
 ---
 description: Preset dates let you select commonly used dates or dates you have saved. On the Request Wizard  Step 1, choose Preset Dates. Here are the field definitions for preset dates in Report Builder.
-seo-description: Preset dates let you select commonly used dates or dates you have saved. On the Request Wizard  Step 1, choose Preset Dates. Here are the field definitions for preset dates in Report Builder.
-seo-title: Request Wizard definitions - preset dates
 solution: Analytics
 title: Request Wizard definitions - preset dates
 topic: Report builder

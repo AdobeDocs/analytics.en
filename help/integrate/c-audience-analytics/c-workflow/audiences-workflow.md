@@ -1,7 +1,5 @@
 ---
 description: How to provision, share, and use the audience data.
-seo-description: How to provision, share, and use the audience data.
-seo-title: Workflow overview
 solution: Experience Cloud
 title: Workflow overview
 uuid: 211e079b-46ee-4238-856d-7cac40620717

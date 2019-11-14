@@ -1,7 +1,5 @@
 ---
 description: Combine both timestamped and non-timestamped data into a single report suite.
-seo-description: Combine both timestamped and non-timestamped data into a single report suite.
-seo-title: Timestamps optional
 solution: Analytics
 title: Timestamps optional
 topic: Admin tools

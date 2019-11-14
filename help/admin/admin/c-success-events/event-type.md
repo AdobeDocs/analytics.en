@@ -1,7 +1,5 @@
 ---
 description: Describes the consequences of changing an event type after data has been collected.
-seo-description: Describes the consequences of changing an event type after data has been collected.
-seo-title: About changing the event type
 solution: Analytics
 title: About changing the event type
 topic: Admin tools

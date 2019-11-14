@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to create a report suite group.
-seo-description: Steps that describe how to create a report suite group.
-seo-title: Create a report suite group
 solution: Analytics
 title: Create a report suite group
 topic: Admin tools

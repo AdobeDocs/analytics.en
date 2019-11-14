@@ -1,7 +1,5 @@
 ---
 description: The installation process varies depending on which browser you are using.
-seo-description: The installation process varies depending on which browser you are using.
-seo-title: Install Activity Map browser plug-ins
 solution: Analytics
 title: Install Activity Map browser plug-ins
 topic: Activity map

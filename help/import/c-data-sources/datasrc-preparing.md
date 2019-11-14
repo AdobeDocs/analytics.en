@@ -1,7 +1,5 @@
 ---
 description: Steps you can take to prepare to use data sources
-seo-description: Steps you can take to prepare to use data sources
-seo-title: Preparing to use Data Sources
 solution: Analytics
 subtopic: Data sources
 title: Preparing to use Data Sources

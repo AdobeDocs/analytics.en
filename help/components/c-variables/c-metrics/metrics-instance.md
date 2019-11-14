@@ -1,8 +1,6 @@
 ---
 description: The number of times that a value was set for a variable.
 keywords: instances
-seo-description: The number of times that a value was set for a variable.
-seo-title: Instances
 solution: Analytics
 title: Instances
 topic: Metrics

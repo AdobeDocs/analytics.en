@@ -1,7 +1,5 @@
 ---
 description: The number of times an item was added to a shopping cart. This value comes from the scAdd event.
-seo-description: The number of times an item was added to a shopping cart. This value comes from the scAdd event.
-seo-title: Cart Additions
 solution: Analytics
 title: Cart Additions
 topic: Metrics

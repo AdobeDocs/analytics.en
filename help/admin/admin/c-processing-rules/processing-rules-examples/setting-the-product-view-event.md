@@ -1,7 +1,5 @@
 ---
 description: Events can be set based on page values or based on specific values in a variable.
-seo-description: Events can be set based on page values or based on specific values in a variable.
-seo-title: Set the product view event from the product overview page
 solution: Analytics
 subtopic: Processing rules
 title: Set the product view event from the product overview page

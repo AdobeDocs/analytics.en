@@ -1,7 +1,5 @@
 ---
 description: How to use metrics in Marketing Channel reports.
-seo-description: How to use metrics in Marketing Channel reports.
-seo-title: Metrics used in Marketing Channel reports
 solution: Analytics
 subtopic: Marketing channels
 title: Metrics used in Marketing Channel reports

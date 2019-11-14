@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Windows Silverlight, NET, IIS, XBOX
 solution: Analytics
 subtopic: Release notes
 title: Windows Silverlight, NET, IIS, XBOX

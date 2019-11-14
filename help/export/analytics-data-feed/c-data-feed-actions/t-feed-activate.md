@@ -1,8 +1,6 @@
 ---
 description: You can activate a paused or inactive feed.
 keywords: Data Feed;feed;activate
-seo-description: You can activate a paused or inactive feed.
-seo-title: Activate a Feed
 solution: Analytics
 title: Activate a Feed
 uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea

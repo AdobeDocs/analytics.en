@@ -1,7 +1,5 @@
 ---
 description: Learn about how data is collected for Adobe Analytics.
-seo-description: Learn about how data is collected for Adobe Analytics.
-seo-title: About Data Collection
 solution: Analytics
 subtopic: Get started
 title: About Data Collection

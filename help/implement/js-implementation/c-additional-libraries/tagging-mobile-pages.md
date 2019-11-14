@@ -1,8 +1,6 @@
 ---
 description: Mobile tracking code is placed on the page in the form of a server-generated image tag.
 keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
-seo-description: Mobile tracking code is placed on the page in the form of a server-generated image tag.
-seo-title: Tagging pages for mobile protocols
 solution: Analytics
 title: Tagging pages for mobile protocols
 topic: Developer and implementation

@@ -1,8 +1,6 @@
 ---
 description: How to implement Analytics in Facebook Instant Articles.
 keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
-seo-description: How to implement Analytics in Facebook Instant Articles.
-seo-title: Facebook Instant Articles
 solution: Analytics
 title: Facebook Instant Articles
 topic: Developer and implementation

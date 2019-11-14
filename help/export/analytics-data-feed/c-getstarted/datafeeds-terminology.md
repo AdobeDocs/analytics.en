@@ -1,8 +1,6 @@
 ---
 description: It is important to understand key terms when using the Analytics Data Feed interface.
 keywords: Data Feed;terms;terminology;job
-seo-description: It is important to understand key terms when using the Analytics Data Feed interface.
-seo-title: Terminology
 solution: Analytics
 title: Terminology
 uuid: 87368708-aaac-40a5-bd00-b0964bcf3507

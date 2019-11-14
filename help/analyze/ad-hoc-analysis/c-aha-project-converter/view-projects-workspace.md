@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: View converted projects in Analysis Workspace
 title: View converted projects in Analysis Workspace
 uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 ---

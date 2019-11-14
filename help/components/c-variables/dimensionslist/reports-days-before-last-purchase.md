@@ -1,7 +1,5 @@
 ---
 description: Displays the most common number of days that pass between customers' repeat purchases and allows you to view the time periods that contributed most to your site's key success metrics, such as revenue and orders.
-seo-description: Displays the most common number of days that pass between customers' repeat purchases and allows you to view the time periods that contributed most to your site's key success metrics, such as revenue and orders.
-seo-title: Days Since Last Purchase
 solution: Analytics
 title: Days Since Last Purchase
 topic: Reports

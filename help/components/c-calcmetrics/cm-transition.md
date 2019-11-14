@@ -1,7 +1,5 @@
 ---
 description: These changes to the way calculated metrics work in Analytics may impact you.
-seo-description: These changes to the way calculated metrics work in Analytics may impact you.
-seo-title: Frequently Asked Questions
 title: Frequently Asked Questions
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 ---

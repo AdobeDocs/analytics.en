@@ -1,8 +1,6 @@
 ---
 description: Analytics counts a visit each time a server call occurs with a Visit Page Number equal to 1.
 keywords: Analytics Implementation
-seo-description: Analytics counts a visit each time a server call occurs with a Visit Page Number equal to 1.
-seo-title: Visits
 solution: Analytics
 subtopic: Visitors
 title: Visits

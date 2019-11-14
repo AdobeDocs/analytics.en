@@ -1,7 +1,5 @@
 ---
 description: Displays information about which pages and areas of your site are most active and which servers are getting the most use.
-seo-description: Displays information about which pages and areas of your site are most active and which servers are getting the most use.
-seo-title: Site Content
 solution: Analytics
 title: Site Content
 topic: Reports

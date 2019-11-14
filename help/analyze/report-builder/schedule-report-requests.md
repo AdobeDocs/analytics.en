@@ -1,7 +1,5 @@
 ---
 description: You can schedule report requests, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure reports that you want to send at a specific time or in intervals. You can also specify the file format in which to send the report.
-seo-description: You can schedule report requests, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure reports that you want to send at a specific time or in intervals. You can also specify the file format in which to send the report.
-seo-title: Schedule report requests
 solution: Analytics
 title: Schedule report requests
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Steps for stopping link tracking in Activity Map or Legacy ClickMap.
-seo-description: Steps for stopping link tracking in Activity Map or Legacy ClickMap.
-seo-title: Stop link tracking
 solution: Analytics
 title: Stop link tracking
 topic: Activity map

@@ -1,7 +1,5 @@
 ---
 description: Web Log data sources let you import standard web server log files.
-seo-description: Web Log data sources let you import standard web server log files.
-seo-title: Web log
 solution: Analytics
 subtopic: Data sources
 title: Web log

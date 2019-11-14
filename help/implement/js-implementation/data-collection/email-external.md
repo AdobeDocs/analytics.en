@@ -1,8 +1,6 @@
 ---
 description: Companies use Analytics to determine the success of an email campaign.
 keywords: Analytics Implementation
-seo-description: Companies use Analytics to determine the success of an email campaign.
-seo-title: External email tracking
 solution: Analytics
 title: External email tracking
 topic: Developer and implementation

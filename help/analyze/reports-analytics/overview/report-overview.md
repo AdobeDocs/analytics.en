@@ -1,7 +1,5 @@
 ---
 description: An introduction to the features of a report, including the toolbar, calendar, and detail table.
-seo-description: An introduction to the features of a report, including the toolbar, calendar, and detail table.
-seo-title: Report Features
 solution: Analytics
 title: Report Features
 topic: Reports and analytics

@@ -1,7 +1,5 @@
 ---
 description: These reports provide insight on the specific campaigns or keywords are most effective on your site. You can use this report to allocate success metrics and revenue to various channel details, without regard to the overall channel they are in. For example, you can see how a certain Paid Search Keyword is comparing against a certain email campaign. As opposed to the Marketing Channel Overview Report, this report resembles a standard marketing report.
-seo-description: These reports provide insight on the specific campaigns or keywords are most effective on your site. You can use this report to allocate success metrics and revenue to various channel details, without regard to the overall channel they are in. For example, you can see how a certain Paid Search Keyword is comparing against a certain email campaign. As opposed to the Marketing Channel Overview Report, this report resembles a standard marketing report.
-seo-title: Marketing Channel Detail - First and Last Touch
 solution: Analytics
 title: Marketing Channel Detail - First and Last Touch
 topic: Reports

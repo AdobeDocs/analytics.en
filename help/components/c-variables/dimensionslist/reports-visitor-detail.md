@@ -1,7 +1,5 @@
 ---
 description: Displays visitor information for the last visitors to your site. Each visitor is defined by IP address. Information collected for each visitor is presented in an easy to read table with detail for five visitors listed on each page.
-seo-description: Displays visitor information for the last visitors to your site. Each visitor is defined by IP address. Information collected for each visitor is presented in an easy to read table with detail for five visitors listed on each page.
-seo-title: Visitor Detail
 solution: Analytics
 title: Visitor Detail
 topic: Reports

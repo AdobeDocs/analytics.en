@@ -2,7 +2,6 @@
 title: useBeacon
 description: useBeacon lets you force AppMeasurement to use the browsers sendBeacon API
 keywords: Analytics Implementation
-seo-description: useBeacon lets you force AppMeasurement to use the browsers sendBeacon API
 ---
 
 # s.useBeacon

@@ -1,7 +1,5 @@
 ---
 description: The total units that were ordered for the selected time period. Because you have many units purchased per order, Units is a vital metric that reveals general inventory movement.
-seo-description: The total units that were ordered for the selected time period. Because you have many units purchased per order, Units is a vital metric that reveals general inventory movement.
-seo-title: Units
 solution: Analytics
 title: Units
 topic: Metrics

@@ -1,7 +1,5 @@
 ---
 description: Descriptions of elements on the Define User Group page.
-seo-description: Descriptions of elements on the Define User Group page.
-seo-title: User group settings
 solution: Analytics
 subtopic: Users and groups
 title: User group settings

@@ -1,7 +1,5 @@
 ---
 description: Field descriptions for configuring metrics in Report Builder.
-seo-description: Field descriptions for configuring metrics in Report Builder.
-seo-title: Modify metrics - field definitions
 solution: Analytics
 title: Modify metrics - field definitions
 topic: Report builder

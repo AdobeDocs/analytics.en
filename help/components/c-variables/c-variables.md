@@ -1,8 +1,6 @@
 ---
 title: Variables
 description: Landing page for Analytics variables
-seo-title: Analytics Variables
-seo-description: Analytics variables
 ---
 
 # Analytics Variables

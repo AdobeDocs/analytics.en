@@ -1,8 +1,6 @@
 ---
 description: Break down dimensions and dimension items in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Break down dimensions and dimension items in Analysis Workspace.
-seo-title: Break down dimensions
 solution: Analytics
 title: Break down dimensions
 topic: Reports and analytics

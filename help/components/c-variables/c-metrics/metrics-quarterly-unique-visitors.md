@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Quarterly Unique Visitors
 solution: Analytics
 title: Quarterly Unique Visitors
 topic: Metrics

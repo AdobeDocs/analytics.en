@@ -1,8 +1,6 @@
 ---
 description: Create a data element in Dynamic Tag Management.
 keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
-seo-description: Create a data element in Dynamic Tag Management.
-seo-title: Create a data element
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Create a data element
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a

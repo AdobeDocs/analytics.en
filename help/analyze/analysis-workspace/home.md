@@ -1,8 +1,6 @@
 ---
 description: How to get started using Adobe Analytics.
 keywords: Analysis Workspace
-seo-description: How to get started using Adobe Analytics.
-seo-title: Getting Started guide
 solution: Analytics
 title: Getting Started guide
 topic: Reports and analytics

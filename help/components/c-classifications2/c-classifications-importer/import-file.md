@@ -1,7 +1,5 @@
 ---
 description: After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.
-seo-description: After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.
-seo-title: Browser and FTP import
 solution: Analytics
 subtopic: Classifications
 title: Browser and FTP import

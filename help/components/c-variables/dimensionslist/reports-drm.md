@@ -1,7 +1,5 @@
 ---
 description: Groups mobile devices based on the type of Digital Rights Management (DRM) they support. DRM groups include Forward Lock, Combined Delivery, Separate Delivery, and Unknown.
-seo-description: Groups mobile devices based on the type of Digital Rights Management (DRM) they support. DRM groups include Forward Lock, Combined Delivery, Separate Delivery, and Unknown.
-seo-title: Digital Rights Management (DRM)
 solution: Analytics
 title: Digital Rights Management (DRM)
 topic: Reports

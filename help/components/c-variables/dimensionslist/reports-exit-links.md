@@ -1,7 +1,5 @@
 ---
 description: Shows the most common links people are clicking on that lead to places outside your site. These links typically point to partner or affiliate sites. However, they can be any location where you have implemented an external link. You can use this report to view the most popular affiliate links, or to assist in validating the number of referrals that your partners' state you provide.
-seo-description: Shows the most common links people are clicking on that lead to places outside your site. These links typically point to partner or affiliate sites. However, they can be any location where you have implemented an external link. You can use this report to view the most popular affiliate links, or to assist in validating the number of referrals that your partners' state you provide.
-seo-title: Exit Links
 solution: Analytics
 title: Exit Links
 topic: Reports

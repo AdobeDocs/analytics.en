@@ -1,8 +1,6 @@
 ---
 description: Determines whether a visitor is a new visitor or a repeat visitor, and captures this information in a Analytics variable.
 keywords: Analytics Implementation
-seo-description: Determines whether a visitor is a new visitor or a repeat visitor, and captures this information in a Analytics variable.
-seo-title: getNewRepeat
 solution: Analytics
 subtopic: Plug-ins
 title: getNewRepeat

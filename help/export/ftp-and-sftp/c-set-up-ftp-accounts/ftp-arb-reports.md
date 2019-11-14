@@ -1,8 +1,6 @@
 ---
 description: Use the Adobe Report Builder add-in for Microsoft Excel to build customized requests from Web analytics data, which you can insert into your Excel worksheets.
 keywords: ftp;sftp
-seo-description: Use the Adobe Report Builder add-in for Microsoft Excel to build customized requests from Web analytics data, which you can insert into your Excel worksheets.
-seo-title: Report Builder delivered reports
 solution: Analytics
 title: Report Builder delivered reports
 uuid: 94070700-4073-499a-afe2-10a30eeab79f

@@ -1,8 +1,6 @@
 ---
 description: A counter stores (and sometimes displays) the number of times a particular event or process has occurred.
 keywords: Analytics Implementation;props;s.prop;custom traffic;counters
-seo-description: A counter stores (and sometimes displays) the number of times a particular event or process has occurred.
-seo-title: Using props as counters
 solution: Analytics
 title: Using props as counters
 topic: Developer and implementation

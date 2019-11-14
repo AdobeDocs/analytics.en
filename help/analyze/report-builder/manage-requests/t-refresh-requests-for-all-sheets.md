@@ -1,7 +1,5 @@
 ---
 description: You can refresh requests for all sheets or for multiple requests.
-seo-description: You can refresh requests for all sheets or for multiple requests.
-seo-title: Refresh requests for all sheets
 solution: Analytics
 title: Refresh requests for all sheets
 topic: Report builder

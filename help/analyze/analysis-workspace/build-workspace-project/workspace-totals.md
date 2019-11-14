@@ -1,7 +1,5 @@
 ---
 description: How Workspace totals are calculated.
-seo-description: Learn how Workspace totals are calculated.
-seo-title: How Workspace totals are calculated.
 title: Workspace totals
 ---
 

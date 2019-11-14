@@ -1,8 +1,6 @@
 ---
 description: Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data.
 keywords: anomaly
-seo-description: Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data.
-seo-title: Anomaly Detection
 solution: Analytics
 title: Anomaly Detection
 topic: Reports

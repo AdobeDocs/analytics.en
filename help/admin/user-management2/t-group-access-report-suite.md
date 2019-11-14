@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to assign user groups to a report suite.
-seo-description: Steps that describe how to assign user groups to a report suite.
-seo-title: Assign user groups to a report suite
 solution: Analytics
 subtopic: Users and groups
 title: Assign user groups to a report suite

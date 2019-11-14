@@ -1,7 +1,5 @@
 ---
 description: Steps to help you select a report suite from the existing request.
-seo-description: Steps to help you select a report suite from the existing request.
-seo-title: Select a report suite from an existing request in Excel
 solution: Analytics
 title: Select a report suite from an existing request in Excel
 topic: Report builder

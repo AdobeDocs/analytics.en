@@ -1,7 +1,5 @@
 ---
 description: The Key Metrics Report lets you compare metrics to see whether they trend together. For example, as your page views increase, does your visitor count increase?
-seo-description: The Key Metrics Report lets you compare metrics to see whether they trend together. For example, as your page views increase, does your visitor count increase?
-seo-title: Key Metrics
 solution: Analytics
 title: Key Metrics
 topic: Reports

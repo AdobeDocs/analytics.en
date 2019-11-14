@@ -1,7 +1,5 @@
 ---
 description: When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report.
-seo-description: When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report.
-seo-title: Low-traffic value in Adobe Analytics
 solution: Analytics
 title: Low-traffic value in Adobe Analytics
 topic: Metrics

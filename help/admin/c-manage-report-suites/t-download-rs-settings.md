@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
-seo-description: Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
-seo-title: Download report suite settings
 solution: Analytics
 title: Download report suite settings
 topic: Admin tools

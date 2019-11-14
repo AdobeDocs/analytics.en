@@ -1,7 +1,5 @@
 ---
 description: Data extracts let you choose the parameters you will view on both the X- and Y-axes of the report, as well as the item by which the report is filtered.
-seo-description: Data extracts let you choose the parameters you will view on both the X- and Y-axes of the report, as well as the item by which the report is filtered.
-seo-title: Data extract
 solution: Analytics
 subtopic: Schedule
 title: Data extract

@@ -1,7 +1,5 @@
 ---
 description: Steps that describe how to configure real-time request dates.
-seo-description: Steps that describe how to configure real-time request dates.
-seo-title: Configure a real-time request
 solution: Analytics
 title: Configure a real-time request
 topic: Report builder

@@ -1,7 +1,5 @@
 ---
 description: Paid Search Detection differentiates paid from natural searches in the Search Engines and Search Keywords reports. You can specify the search engines where you use paid ads, and specify a character string found in the URL of a visit from a paid ad.
-seo-description: Paid Search Detection differentiates paid from natural searches in the Search Engines and Search Keywords reports. You can specify the search engines where you use paid ads, and specify a character string found in the URL of a visit from a paid ad.
-seo-title: Paid Search Detection
 solution: Analytics
 title: Paid Search Detection
 topic: Admin tools

@@ -1,7 +1,5 @@
 ---
 description: Steps for starting link tracking in Activity Map or Legacy ClickMap.
-seo-description: Steps for starting link tracking in Activity Map or Legacy ClickMap.
-seo-title: Start link tracking
 solution: Analytics
 title: Start link tracking
 topic: Activity map

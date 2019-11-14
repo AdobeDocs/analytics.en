@@ -1,7 +1,5 @@
 ---
 description: Active processing rules are viewed in admin.
-seo-description: Active processing rules are viewed in admin.
-seo-title: View active processing rules
 solution: Analytics
 subtopic: Processing rules
 title: View active processing rules

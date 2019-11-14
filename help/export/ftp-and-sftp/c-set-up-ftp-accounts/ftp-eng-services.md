@@ -1,8 +1,6 @@
 ---
 description: Many Adobe Engineering Services engagements involve the exchange of data, which frequently requires FTP.
 keywords: ftp;sftp
-seo-description: Many Adobe Engineering Services engagements involve the exchange of data, which frequently requires FTP.
-seo-title: Engineering Services engagements with FTP
 solution: Analytics
 title: Engineering Services engagements with FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47

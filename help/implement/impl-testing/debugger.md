@@ -1,7 +1,5 @@
 ---
 description: Install the Legacy Adobe Experience Cloud Debugger. This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
-seo-description: Install the Legacy Adobe Experience Cloud Debugger. This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
-seo-title: Legacy Adobe Experience Cloud Debugger
 title: Legacy Adobe Experience Cloud Debugger
 ---
 

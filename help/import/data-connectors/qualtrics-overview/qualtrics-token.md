@@ -1,7 +1,5 @@
 ---
 description: A token is required to complete the integration wizard. To find this ID, complete the following.
-seo-description: A token is required to complete the integration wizard. To find this ID, complete the following.
-seo-title: Generating your Qualtrics Adobe Analytics Token
 solution: Analytics
 subtopic: Qualtrics
 title: Generating your Qualtrics Adobe Analytics Token

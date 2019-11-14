@@ -1,7 +1,5 @@
 ---
 description: null
-seo-description: null
-seo-title: Sample implementation code
 solution: Analytics
 title: Sample implementation code
 topic: Activity map

@@ -1,8 +1,6 @@
 ---
 description: When a user visits your site, a persistent cookie is set by the Adobe web server by including it in the HTTP response to the browser. This cookie is set on the specified data collection domain.
 keywords: Analytics Implementation
-seo-description: When a user visits your site, a persistent cookie is set by the Adobe web server by including it in the HTTP response to the browser. This cookie is set on the specified data collection domain.
-seo-title: Analytics Visitor ID
 solution: Analytics
 title: Analytics Visitor ID
 topic: Developer and implementation

@@ -1,7 +1,5 @@
 ---
 description: You can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metric Builder, and Segment Builder.
-seo-description: You can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metric Builder, and Segment Builder.
-seo-title: Metric Visibility
 solution: Analytics
 title: Metric Visibility
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4

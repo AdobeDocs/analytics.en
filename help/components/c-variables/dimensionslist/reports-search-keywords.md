@@ -1,7 +1,5 @@
 ---
 description: Displays a breakdown of search keywords.
-seo-description: Displays a breakdown of search keywords.
-seo-title: Search Keywords
 solution: Analytics
 title: Search Keywords
 topic: Reports

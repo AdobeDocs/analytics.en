@@ -1,7 +1,5 @@
 ---
 description: When a certain segment on which you are reporting is important, you might want to know more about it and how it relates to other dimension. This is often called breaking down a dimension by another dimension. A breakdown is the action of integrating two or more Analytics variables.
-seo-description: When a certain segment on which you are reporting is important, you might want to know more about it and how it relates to other dimension. This is often called breaking down a dimension by another dimension. A breakdown is the action of integrating two or more Analytics variables.
-seo-title: Breakdown
 solution: Analytics
 title: Breakdown
 topic: Reports

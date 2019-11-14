@@ -1,8 +1,6 @@
 ---
 title: Create a solution design document
-seo-title: Create a solution design document
 description: Learn what a solution design document is, and how you can use it in your organization.
-seo-description: Learn what a solution design document is, and how you can use it in your organization.
 ---
 
 # Create a solution design document

@@ -1,8 +1,6 @@
 ---
 description: Most mobile devices accept browser cookies. However, in cases when devices do not accept cookies, another method is used to uniquely identify wireless devices.
 keywords: Analytics Implementation
-seo-description: Most mobile devices accept browser cookies. However, in cases when devices do not accept cookies, another method is used to uniquely identify wireless devices.
-seo-title: Identify mobile devices
 solution: Analytics
 title: Identify mobile devices
 topic: Developer and implementation

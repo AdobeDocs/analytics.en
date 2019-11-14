@@ -1,7 +1,5 @@
 ---
 description: You can import (upload) classifications data using the browser. This method limits your classification data upload to a single report suite
-seo-description: You can import (upload) classifications data using the browser. This method limits your classification data upload to a single report suite
-seo-title: Browser import
 solution: Analytics
 subtopic: Classifications
 title: Browser import

@@ -1,7 +1,5 @@
 ---
 description: This topic provides details on the system requirements for each Adobe Analytics user interface.
-seo-description: This topic provides details on the system requirements for each Adobe Analytics user interface.
-seo-title: System requirements
 solution: Analytics
 title: System requirements
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c

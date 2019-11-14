@@ -1,7 +1,5 @@
 ---
 description: Explains the three Product Compatibility options.
-seo-description: Explains the three Product Compatibility options.
-seo-title: Metric compatibility
 title: Metric compatibility
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 ---

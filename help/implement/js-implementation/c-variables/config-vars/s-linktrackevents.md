@@ -7,7 +7,7 @@ title: Dynamic variables
 
 # s.linkTrackEvents
 
-The  variable is a comma-separated list of events that are sent with a custom, exit, or download link. The `linkTrackEvents` parameter should include each event you want to track with every file download, exit link, and custom link. When one of these link types occur, the current value of each variable identified is tracked. This variable is only considered if `linkTrackVars` contains "events." 
+The  variable is a comma-separated list of events that are sent with a custom, exit, or download link. The `linkTrackEvents` parameter should include each event you want to track with every file download, exit link, and custom link. When one of these link types occur, the current value of each variable identified is tracked. This variable is only considered if [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) contains "events." 
 
 |  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
 |---|---|---|---|
@@ -24,7 +24,7 @@ s.t() // both event1 and event2 are recorded
 
 ```
 
-The values of [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link. The settings for both affect every file download, exit link, and custom link. Instances of each variable and event can be inflated in situations where the variable (or event) applies to the current page, but not the specific file download, exit link or custom link.
+The values of [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link. The settings for both affect every file download, exit link, and custom link. Instances of each variable and event can be inflated in situations where the variable (or event) applies to the current page, but not the specific file download, exit link, or custom link.
 
 To ensure that the proper variables are set with custom link code, Adobe recommends setting *`linkTrackVars`* and *`linkTrackEvents`* within the custom link code, as follows:
 

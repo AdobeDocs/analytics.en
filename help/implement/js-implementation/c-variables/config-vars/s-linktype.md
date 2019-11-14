@@ -13,7 +13,7 @@ Contains the automatically determined link type, if any. Can be set to one of th
      * `e` (exit)
      * `o` (custom/other)
 
-This is the `pe` parameter in the image request. If set with  `linkURL` or `linkName`, a server call is sent as a download, custom, or exit link.
+This is the `pe` parameter in the image request. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *Note: The variable [`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html) cannot be set for a file download, exit link, or custom link, because each of the link types is not a page view and does not have an associated page name.*
 

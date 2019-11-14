@@ -28,7 +28,7 @@ Adobe recommends populating the channel variable on every page. You can also tur
 
 When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
 
-**Syntax and Possible Values** {#section_ED90592730B64242A737F4090F1DCEE4}
+**Syntax and Possible Values**
 
 ```js
 s.channel="value"

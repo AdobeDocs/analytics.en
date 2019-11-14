@@ -12,7 +12,8 @@ uuid:
 
 Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. For help with specific page variables, click any of the following links:
 
-* [browserHeight]
+* [browserHeight]      + [browserHeight](js-implementation/c-variables/page-variables/browserheight.md)
+
 * [browserWidth]
 * [campaign]
 * [channel]

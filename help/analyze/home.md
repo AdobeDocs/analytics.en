@@ -1,20 +1,20 @@
 ---
 title: Analysis Workspace Help
-description: null
+description: Product documentation and self-help for Analysis Workspace, Activity Map, Report Builder, Reporting API, and Reports & Analytics (formerly Omniture Analytics products).
 ---
 
 # Analytics Tools Guide
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-This guide features all the analysis tools you can use in Adobe Analytics.
+This guide provides product documentation and self-help for the following Adobe Analytics reporting and analysis tools:
 
-* **Analysis Workspace:** The foremost feature in Adobe Analytics. Workspace provides a canvas where you can drag components to meet reporting needs.
-* **Activity Map:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
-* **Ad Hoc Analysis:** A standalone Java application with robust reporting capabilities. This tool is no longer updated, and will eventually be sunset in the future.
-* **Reporting API:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
-* **Report Builder:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
-* **Reports & Analytics:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs.
+* **[!UICONTROL Analysis Workspace]:** The foremost feature in Adobe Analytics. Workspace provides a canvas where you can drag components to meet reporting needs.
+* **[!UICONTROL Activity Map]:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
+* **[!UICONTROL Ad Hoc Analysis]:** A standalone Java application with robust reporting capabilities. This tool is no longer updated, and will eventually be sunset in the future.
+* **[!UICONTROL Reporting API]:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
+* **[!UICONTROL Report Builder]:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
+* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs.
 
 ## Key Analytics Tools articles
 

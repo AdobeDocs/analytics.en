@@ -146,7 +146,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
       + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
     + [Context data variables](js-implementation/c-variables/context-data-variables.md)
     + [Dynamic variables](js-implementation/c-variables/dynvars-overview.md)
-    + [Page variables] {#page-variables}
+    + Page variables {#page-variables}
       + [browserHeight](js-implementation/page-variables/browserheight.md)
       + [browserWidth](js-implementation/page-variables/browserwidth.md)
       + [campaign](js-implementation/page-variables/campaign.md)

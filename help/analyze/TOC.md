@@ -116,6 +116,10 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
   + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
   + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
+  + [Attribution IQ](analysis-workspace/attribution-iq.md)
+  + [Journey IQ](analysis-workspace/journey-iq.md)
+  + [Segment IQ](analysis-workspace/segment-iq.md)
+  + [Virtual Analyst](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

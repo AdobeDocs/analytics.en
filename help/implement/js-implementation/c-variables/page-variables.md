@@ -10,7 +10,7 @@ uuid:
 
 # Page variables
 
-Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. For help with specific page variables, click any of the following links:
+Page variables directly populate a report, such as pageName, List Props, List Variables, and so on. For help with specific page variables, click the name of the variable from the following list:
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)

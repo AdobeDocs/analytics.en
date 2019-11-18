@@ -19,7 +19,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Bounce:** A visit that consists of a single hit. See [Bounces](/help/components/c-variables/c-metrics/metrics-bounces.md) in the Components user guide. See also Single access.
 * **Calculated metric:** Allows the combination of existing metrics, statistical functions, and formulas for use in reporting. See [Calculated metrics](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide.
 * **Campaign:** Can refer to:
-  * The Campaign variable, which populates the Tracking Code dimension. See [Page variables](/help/implement/js-implementation/c-variables/page-variables.md) in the Implement user guide.
+  * The Campaign variable, which populates the Tracking Code dimension. See [Page variables](/help/implement/js-implementation/page-variables/page-variables.md) in the Implement user guide.
   * A default classification of the Tracking Code dimension; automatically created for all report suites.
   * Adobe Campaign, part of the Adobe Experience Cloud. More information on [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **Channel:** Can refer to:

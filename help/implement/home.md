@@ -7,25 +7,6 @@ description: null
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-To implement Analytics for mobile devices, refer to the following list of SDK repositories and documentation:
-
-Experience Platform SDKs
-
-
-Experience Platform SDKs
-
-Experience Platform SDK documentation
-
-4.x SDKs:
-
-4.x SDK documentation
-
-3.x SDK documentation: Although 3.x Analytics SDKs for mobile devices are no longer supported, you can can access the following documentation:
-
-
-
-
-
 
 * **Adobe Experience Platform Launch:** The standardized and recommended method to implement Adobe Analytics. Place a loader tag on each page, and use Launch's interface to determine how each variable is defined.
 * **Dynamic Tag Management:** The predecessor to Launch. DTM uses a similar interface to implement Analytics, but is no longer updated and is not as flexible. Adobe recommends using Launch for implementing Adobe Analytics.

@@ -21,17 +21,17 @@ list_props.xml
 
 **Considerations**
 
-* List props are enabled only on traffic variables ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
+* List props are enabled only on traffic variables ( [props](/help/implement/js-implementation/page-variables/propn.md)).
 * Pathing and correlations cannot be enabled for list props.
 * Analytics provides visits and unique visitors to almost every report, including all list prop reports.
 * Classifications are supported for list props.
-* Any custom traffic variable can become a list prop. (Exceptions: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md), and [server](/help/implement/js-implementation/c-variables/page-variables.md).) 
+* Any custom traffic variable can become a list prop. (Exceptions: [pageName](/help/implement/js-implementation/page-variables/pagename.md), [channel](/help/implement/js-implementation/page-variables/channel.md), and [server](/help/implement/js-implementation/page-variables/server.md).) 
 
 * When defining duplicate values in the same image request, instances are not deduplicated.
 
 A prop can be changed into a list prop on the Admin Tools > Report Suite > Traffic Variables page by enabling List Support and then selecting a delimiter. Popular delimiters are colons, semi-colons, commas, or pipes. The delimiter can technically be any of the first 127 ASCII characters.
 
-**Implementation Examples** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Implementation Examples** 
 
 When you request enabling of list props, indicate the delimiter that you would like to use. After the *`s.prop`* of your choice is enabled, multiple values can be set in the variable as shown in the following examples:
 

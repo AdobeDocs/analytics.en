@@ -17,7 +17,7 @@ Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of
 
 |  Method  | Description  |
 |---|---|
-|  [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) variable  | If JavaScript is used on the browser, or if you are using any other AppMeasurement library, you can set the visitor ID in a data collection variable.  |
+|  [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) variable  | If JavaScript is used on the browser, or if you are using any other AppMeasurement library, you can set the visitor ID in a data collection variable.  |
 |  Query string parameter on the image request  | This lets you pass the [!UICONTROL visitor ID] to Adobe via the [!UICONTROL vid query string] parameter on a hard-coded image request.  |
 |  Data Insertion API  | On devices using wireless protocols that don't accept JavaScript, you can send an XML post containing the `<visitorid/>` XML element to Adobe collection servers from your servers.  |
 |  URL re-writing and VISTA  | Some deployment architectures provide support for using URL re-writing to maintain session state when a cookie cannot be set. In such cases, Adobe engineering services can implement a [!DNL VISTA] rule that would look for the session value in the URL of the page, then format and place into the [!UICONTROL visid] values.  |

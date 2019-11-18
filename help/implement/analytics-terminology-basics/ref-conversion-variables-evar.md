@@ -25,14 +25,14 @@ An eVar can be visit-based and function similarly to cookies. Values passed into
 
 When an eVar is set to a value for a visitor, Adobe automatically remembers that value until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value.
 
-> [!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables](/help/implement/js-implementation/c-variables/page-variables.md) (list vars).
+> [!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables](/help/implement/js-implementation/page-variables/listvariable.md) (list vars).
 
 For more information about variables, see:
 
 * [Variables for Analytics Implementation and Reporting](/help/implement/js-implementation/c-variables/sc-variables.md) in this help 
 * [Variables - How They Are Used in Reporting](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Campaign variable](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Products Variable](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Page Variables](/help/implement/js-implementation/page-variables/page-variables.md)
+* [Campaign variable](/help/implement/js-implementation/page-variables/campaign.md)
+* [Products Variable](/help/implement/js-implementation/page-variables/products.md)
 * [Products Variable](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) in the Mobile SDK documentation
 

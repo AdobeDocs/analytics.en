@@ -18,7 +18,7 @@ These variables fire on all page load rule beacons. You can accomplish the same 
 
 | Element | Description |
 |--- |--- |
-|Server|The predefined variable populates the  Servers dimension in Adobe Analytics. See [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)|
-|eVars|[eVar variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom conversion reports.|
-|Props|[Prop variables](/help/implement/js-implementation/c-variables/page-variables.md) are used for building custom traffic reports.|
-|Dynamic Variable Prefix|A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md)|
+|Server|The predefined variable populates the  Servers dimension in Adobe Analytics. See [Page Variables](/help/implement/js-implementation/page-variables/page-variables.md)|
+|eVars|[eVar variables](/help/implement/js-implementation/page-variables/evarn.md) are used for building custom conversion reports.|
+|Props|[Prop variables](/help/implement/js-implementation/page-variables/propn.md) are used for building custom traffic reports.|
+|Dynamic Variable Prefix|A special prefix to the start of the value. The default prefix is "D=". See [Dynamic Variables](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html)|

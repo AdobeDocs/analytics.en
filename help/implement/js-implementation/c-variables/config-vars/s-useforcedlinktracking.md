@@ -5,6 +5,7 @@ solution:
 title: Dynamic variables
 ---
 
+
 # s.useForcedLinkTracking
 
 This flag is used to disable forced link tracking for some browsers. Forced link tracking is enabled by default for FireFox 20+ and WebKit browsers.
@@ -18,9 +19,8 @@ In JavaScript H.25.4 (released February 2013), the following scope limitations w
 * The `HREF` can't start with `#`, `about:`, or `javascript:`. 
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
-Default Value = true
+Default value = `true`
 
 ## Example 
 
 `s.useForcedLinkTracking = false`
-

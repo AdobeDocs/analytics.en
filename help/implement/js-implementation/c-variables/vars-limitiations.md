@@ -14,7 +14,7 @@ High-level look at variables and their limitations.
 
 >[!NOTE]
 >
->See [Configuration Variables](/help/implement/js-implementation/c-variables/configuration-variables.md) and [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md) for an in-depth look at the most common Analytics variables.
+>See [Configuration Variables](/help/implement/js-implementation/c-variables/configuration-variables.md) and [Page Variables](/help/implement/js-implementation/page-variables/page-variables.md) for an in-depth look at the most common Analytics variables.
 
 The following table provides at-a-glance information about [!DNL Analytics] variables: 
 

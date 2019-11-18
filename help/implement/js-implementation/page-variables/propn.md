@@ -10,7 +10,7 @@ uuid:
 
 # propN
 
-Property ( [!UICONTROL prop]) variables are used for building custom reports within the [!UICONTROL Traffic Module].
+Property (`prop`) variables are used for building custom reports within the Traffic Module.
 
 <!-- 
 
@@ -24,7 +24,7 @@ The props variable may be used as counters (to count the number of times a page 
 |---|---|---|---|
 |  100 bytes  | c1-c75  | Custom Traffic  | ""  |
 
-**Syntax and Possible Values** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**Syntax and Possible Values** 
 
 ```js
 s.propN="value"
@@ -32,7 +32,7 @@ s.propN="value"
 
 There are no limitations on [!UICONTROL property] variables outside of the standard variable limitations.
 
-**Examples** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**Examples** 
 
 ```js
 s.prop2="editorial" 
@@ -43,6 +43,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**Configuration Settings** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**Configuration Settings** 
 
-Contact Adobe Customer Care about showing [!UICONTROL Visit], [!UICONTROL Visitor], and [!UICONTROL Path] metrics for [!UICONTROL prop] variables.
+Contact Adobe Customer Care about showing Visit, Visitor, and Path metrics for `prop` variables.

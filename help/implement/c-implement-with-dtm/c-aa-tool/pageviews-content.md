@@ -22,19 +22,19 @@ Field descriptions in Dynamic Tag Management for page views and content settings
  <tbody> 
   <tr> 
    <td colname="col1"> Page Name </td> 
-   <td colname="col2"> <p>The name of each page on your site. </p> <p>See <a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>The name of each page on your site. </p> <p>See <a href="/help/implement/js-implementation/page-variables/pagename.md">pageName</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Page URL Override </td> 
-   <td colname="col2"> <p> Overrides the actual URL of the page. </p> <p>See <a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p> Overrides the actual URL of the page. </p> <p>See <a href="/help/implement/js-implementation/page-variables/pageurl.md">pageURL</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Channel (Site Section) </td> 
-   <td colname="col2"> <p>Identifies a section of your site. </p> <p>See <a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Identifies a section of your site. </p> <p>See <a href="/help/implement/js-implementation/page-variables/channel.md">channel</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hierarchy </td> 
-   <td colname="col2"> <p>Determines the location of a page in your site's hierarchy. </p> <p>See <a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Determines the location of a page in your site's hierarchy. </p> <p>See <a href="/help/implement/js-implementation/page-variables/page-variables.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -26,7 +26,7 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
   </tr> 
   <tr> 
    <td colname="col1"> Campaign </td> 
-   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See [<a href="/help/implement/js-implementation/page-variables/page-variables.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

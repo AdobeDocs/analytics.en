@@ -42,13 +42,13 @@ An [!UICONTROL event] should be considered a milestone within a site. Success ev
 
 By default, success events are configured as *counter* events. Counter events count the number of times a success event is set (x+1). Events can also be configured as *numeric* events. Numeric events allow you to specify the number to increment (as might be necessary when counting dynamic or arbitrary values, such as the number of results returned by an internal search).
 
-A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](/help/implement/js-implementation/c-variables/page-variables.md).
+A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](/help/implement/js-implementation/page-variables/page-variables.md).
 
-**Configuring the Variable** {#section_9195286C34C54B02B2598E2B856492C3}
+**Configuring the Variable**
 
-The [!UICONTROL s.events] variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](/help/implement/js-implementation/c-variables/page-variables.md)) can be enabled by any admin-level user using the Admin Console.
+The `s.events` variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](/help/implement/js-implementation/page-variables/page-variables.md)) can be enabled by any admin-level user using the Admin Console.
 
-**Possible Values** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
+**Possible Values**
 
 The following is a list of possible values for the events variable: 
 
@@ -63,9 +63,9 @@ The following is a list of possible values for the events variable:
 |  purchase  | Completion of a purchase (order)  | Orders  |
 |  event1 - event1000 (event100 for point product)  | Custom events  | Custom Events  |
 
-**Syntax and Examples** {#section_45A159DF00114066B8551DDEB15E084C}
+**Syntax and Examples** 
 
-Counter events are set by placing the desired events in the [!UICONTROL s.events] variable, in a comma-separated list (if multiple events are to be passed).
+Counter events are set by placing the desired events in the `s.events` variable, in a comma-separated list (if multiple events are to be passed).
 
 ```js
 s.events="scAdd"
@@ -96,19 +96,19 @@ s.events="scRemove=3,event6,event2=4"
 Implementing counter events with assigned integer values treat the event as if it fired multiple times within the image request. Counter events do not allow decimals- it is recommended to use numeric events instead if this functionality is required.
 Numeric and currency events must be included in the [!UICONTROL s.events] variable, though they typically receive their numerical value (e.g., 24.99) in the [!UICONTROL s.products] variable. This allows you to tie specific numeric and currency values to individual product entries.
 
-**Event Serialization** {#section_A89488EF4471405AAFC4D6DD05E77621}
+**Event Serialization** 
 
 By default, an event is counted every time the event is set on your site.
 
 See [Event Serialization](/help/implement/js-implementation/event-serialization.md) for more information.
 
-**Syntax** {#section_8559D42D3F344AF3BB3C0125F78C4989}
+**Syntax**
 
 ```js
 s.events="event1:3167fhjkah"
 ```
 
-**Examples** {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
+**Examples**
 
 ```js
 s.events="scAdd:003717174"

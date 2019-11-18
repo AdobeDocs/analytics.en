@@ -12,10 +12,10 @@ uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 
 Analytics provides a number of variables to collect Analytics data. For example, the value in the pageName variable is the name of the Web page being reported. This section lists the variables that are supported by AppMeasurement.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Page Variables, go [here](/help/implement/js-implementation/page-variables/page-variables.md).
 For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
-## How to Set Variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## How to Set Variables 
 
 AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
 

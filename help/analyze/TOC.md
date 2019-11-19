@@ -80,7 +80,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + Segment comparison {#segment-comparison}
       + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-      + [Temporary Page](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
       + [Segment IQ use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
@@ -90,11 +89,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
-  + Attribution IQ {#attribution-iq}
-    + [Temporary page](analysis-workspace/attribution-iq/attribution.md)
-    + [Temporary page](analysis-workspace/attribution-iq/use-attribution-iq.md)
-    + [Temporary page](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-    + [Temporary page](analysis-workspace/attribution-iq/attribution-faq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
     + Anomaly Detection {#anomaly-detection}
@@ -117,7 +111,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
   + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
-  + [Journey IQ](analysis-workspace/journey-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}

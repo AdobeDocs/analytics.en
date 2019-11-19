@@ -112,7 +112,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
-  + [Virtual Analyst](analysis-workspace/journey-iq.md)
+  + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

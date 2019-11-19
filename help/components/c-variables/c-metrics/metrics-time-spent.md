@@ -5,39 +5,21 @@ title: Time Spent
 topic: Metrics
 ---
 
-# Time spent metrics
+# Time spent 
 
-Adobe Analytics offers several ways to determine time spent in Analytics reports. In most cases, time spent is calculated using the following steps:
+Various 'time spent' metrics and dimensions are offered across Adobe Analytics products.
 
-1. For a given hit, look at the timestamp and dimension value.
-1. Compare this hit with the timestamp of the next hit in the visit.
-1. The amount of time that elapsed between these two hits contributes to the time spent for that dimension value.
+## 'Time spent' metrics
 
-When viewing time spent metrics, keep the following in mind:
+|Metric|Definition|Available in|
+|---|---|---|
+|Total seconds spent|Represents the total amount of time visitors interact with a specific dimension item. Includes the instance of a value & persistence across all subsequent hits. In the case of props, time spent is counted across subsequent link events as well.|Analysis Workspace, Reports & Analytics, Report Builder (called ‘total time spent’), Data Warehouse|
+|Time spent per visit (Seconds)|*Total seconds spent / (visit-bounces)*<br>Represents the average amount of time visitors interact with a specific dimension item during each visit.|Analysis Workspace, Reports & Analytics|
+|Time spent per visitor (Seconds)|*Total seconds spent / unique visitor*<br>Represents the average amount of time visitors interact with a specific dimension item across the visitor’s lifetime (length of their cookie).|Analysis Workspace, Reports & Analytics|
+|Average time spent on site (Seconds)|Represents the total amount of time visitors interact with a specific dimension item, per sequence with a dimension item. It is not just limited to “site” averages as the name suggests. See the "How Time Spent is Calculated" section for more information on sequences.<br>**Note**: This metric very likely differs from 'Time Spent per Visit' at a dimension item level due to the differences in the denominator in the calculation.|Analysis Workspace, Reports & Analytics (shown in minutes), Report Builder (shown in minutes)|
+|Average time spent on page|Deprecated metric.<br> Instead, we recommend that you use ‘Average time spent on site’ if average time for a dimension item is needed.|Report Builder (when a dimension is in the request)|
+|Total session length, a.k.a. Previous session length|Mobile App SDK only. <br>Determined the next time the app is launched, for the previous session. Calculated in seconds, this metric does not count when the app is in the background, only when in use. This is a session-level metric.<br>Example: We install app ABC and launch and use it for 2 minutes and then close the app. No data is sent about this session time. The next time we launch the app, Previous Session Length will be sent with a value of 120.|Analysis Workspace, Reports & Analytics, Report Builder, Mobile Services UI |
+|Average session length (mobile)|*Total Session Length / (Launches – First Launches)*<br>Mobile App SDK only. This is a session-level metric.|Report Builder, Mobile Services UI|
 
-* Time spent takes allocation and expiration into account.
-* Both page views and link tracking hit types are considered when calculating time spent data.
-* Time spent is not measured during the last hit of the visit, since there is no subsequent image request to measure elapsed time.
-* Bounces cannot measure time spent, since the visit consists of a single hit.
+## 'Time spent' dimensions
 
-## Total seconds spent
-
-The total amount of time all visitors interacted with a dimension value, measured in seconds.
-
-## Time spent per visit (seconds)
-
-The average amount of time visitors interact with a dimension value in a visit. Its approximate calculation is `Total seconds spent / (Visits - Bounces)`.
-
-## Time spent per visitor (seconds)
-
-The average amount of time visitors interact with a dimension value across the visitor's lifetime. Its approximate calculation is `Total seconds spent / (Unique Visitors - Bounces)`.
-
-## Average time spent on site (seconds)
-
-The average amount of time spent on your site, typically paired with a date dimension. Although this metric usually shows time spent trended over time, it can also be used with dimensions as an alternative calculation to Time spent per visit. Its approximate calculation is `Total seconds spent / (Sequences - Bounces)`. Sequences are a series of hits where the dimension value did not change.
-
-> [!NOTE] Time spent per visit and Average time spent on site are similar metrics. The difference between these two metrics is their denominator; time spent per visit uses `visits - bounces`, while Average time spent on site uses `sequences - bounces`. On a visit level, these metrics appear similar, but can have some differences at a hit level.
-
-## Average time spent on page
-
-Only available in Report Builder. In most cases, use Time spent per visit instead.

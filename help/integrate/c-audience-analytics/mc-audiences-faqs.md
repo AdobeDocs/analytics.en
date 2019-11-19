@@ -80,7 +80,7 @@ Answers to questions you might have when implementing Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Where can I use these dimensions in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Almost everywhere; they are treated just like any other dimension collected in Analytics. There are two exceptions: for now, data will not be in Data Workbench or Livestream. </p> </td> 
+   <td colname="col2"> <p>Almost everywhere; they are treated just like any other dimension collected in Analytics. There is one exception: for now, data will not be in Data Workbench. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why don't I see data coming through in Analytics?</b> </p> </td> 

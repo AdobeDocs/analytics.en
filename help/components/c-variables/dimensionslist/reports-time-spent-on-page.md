@@ -36,4 +36,4 @@ Time spent on page measures the elapsed time between hits in a visit. Separate d
 
 This dimension is hit-based, which if used as a breakdown can provide more meaningful data. Compare this dimension to [Time spent per visit](reports-time-spent-per-visit.md), which is a visit-based dimension.
 
-![Time spent](assets/time-spent1.png)
+![Time spent](/help/components/c-variables/c-metrics/assets/time-spent1.png)

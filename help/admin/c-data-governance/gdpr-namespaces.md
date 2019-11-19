@@ -14,9 +14,7 @@ The namespace string is used to identify the field(s) that you want searched whe
 * A "type" field that for most Adobe Analytics requests contains the value "analytics".
 * A "value" field containing the ID that Analytics should search for in the associated namespace variables from each of your report suites.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details.
-
-<!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
+Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) for more details.
 
 ## Cookie ID
 

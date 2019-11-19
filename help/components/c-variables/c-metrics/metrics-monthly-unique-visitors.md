@@ -8,7 +8,7 @@ uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 
 # Monthly Unique Visitors
 
-The number of unduplicated (counted only once) visitors to your website over the course of a single month.
+The number of unduplicated (i.e., counted only once) visitors to your website over the course of a single month.
 
 |  Uses  | Description  |
 |---|---|

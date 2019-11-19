@@ -28,4 +28,4 @@ You can create and manage FTP-based data sources through marketing reports, whic
 
 Adobe offers a Data Sources API that lets you programmatically link your applications into Data Sources. This eliminates the need for an intermediary FTP server, and transfers data via HTTP, SOAP, and REST.
 
-See [Data Sources API Documentation](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api).
+See [Data Sources API Documentation](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).

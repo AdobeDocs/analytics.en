@@ -1,9 +1,9 @@
 ---
-title: Implement Analytics for Mobile Devices
+title: Implement Adobe Analytics
 description: null
 ---
 
-# Implement Analytics for Mobile Devices
+# Implement Adobe Analytics
 
 ![Banner](../../assets/doc_banner_implement.png)
 
@@ -12,7 +12,7 @@ description: null
 * **Dynamic Tag Management:** The predecessor to Launch. DTM uses a similar interface to implement Analytics, but is no longer updated and is not as flexible. Adobe recommends using Launch for implementing Adobe Analytics.
 * **Legacy JavaScript:** The historical manual method to implement Adobe Analytics. Outlines variables and settings used in an implementation, which can be useful for Launch implementations using rules with custom code.
 
-## Key Analytics Import articles
+## Key Analytics Implementation articles
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Create a property in Experience Platform Launch](implement-with-launch/create-analytics-property.md)

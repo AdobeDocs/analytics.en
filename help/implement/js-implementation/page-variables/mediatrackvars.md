@@ -8,7 +8,7 @@ topic:
 uuid:
 ---
 
-# Media.trackVars
+# media.trackVars
 
 The  variable identifies which variables should be sent with a media hit.
 

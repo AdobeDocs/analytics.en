@@ -8,7 +8,7 @@ topic:
 uuid:
 ---
 
-# Media.trackEvents
+# media.trackEvents
 
 The  variable identifies which events should be sent with a media hit.
 

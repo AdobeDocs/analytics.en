@@ -140,7 +140,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
       + [s.useForcedLinkTracking](js-implementation/c-variables/config-vars/s-useforcedlinktracking.md)
       + [s.linkType](js-implementation/c-variables/config-vars/s-linktype.md)
       + [s.linkName](js-implementation/c-variables/config-vars/s-linkname.md)
-      + [s.ForcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
+      + [s.forcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
       + [s.linkTrackEvents](js-implementation/c-variables/config-vars/s-linktrackevents.md)
       + [s.linkURL](js-implementation/c-variables/config-vars/s-linkurl.md)
       + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)

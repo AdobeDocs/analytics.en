@@ -30,7 +30,6 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [Environment characteristics](rdc/rdc-environment-characteristics.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
-  + [RDC in China](rdc/rdc-china.md)
 + [Terms used (glossary)](terms.md)
 + [Troubleshoot logging in](troubleshoot-login.md)
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)

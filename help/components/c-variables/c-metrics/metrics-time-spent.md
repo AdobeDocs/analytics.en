@@ -42,13 +42,14 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. For hit-level 'time spent' metrics, the denominator is sequences. A sequence is a consecutive set of hits where a given variable contains the same value (whether by being set, spread forward, or persisted). 'Spread forward' refers to the persistence of props between page views (i.e. across subsequent link events), for the purposes of calculating time spent.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence). 
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence). 
 
 * Bounce and exit hits are also removed from the denominator because 'time spent' cannot be known.
 
 ## FAQs
 
 **Q1: Can all 'time spent' metrics be applied to any dimension?**
+
 A: The 'time spent' metrics that can be applied to any dimension are:
 
 * [!UICONTROL Total seconds spent]
@@ -60,17 +61,20 @@ A: The 'time spent' metrics that can be applied to any dimension are:
 * [!UICONTROL Average time spent on site] (Seconds)
 
 **Q2: Which time spent dimension is best used in breakdowns with other dimensions?**
+
 A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. Breaking this down by another dimension will tell you the seconds that a hit lasted where the breakdown dimension was also present. 
 In the example below, the search term “classifieds” is associated with hit times of 54 seconds, 59 seconds, etc, perhaps indicating visitors are spending time reading content returned for that term.
 
 ![](assets/time-spent1.png)
  
 **Q3: What metric is appropriate against the dimension of [!UICONTROL Time Spent on Page – granular]?**
+
 A: Any metric. The dimension will show the time spent on the exact hit where the event occurred. Higher time spent means a visitor stayed longer on a page (hit) where the event occurred.
 
 ![](assets/time-spent2.png)
 
 **Q4: How does [!UICONTROL Average Time Spent on Site] differ from [!UICONTROL Time Spent per Visit]?**
+
 A: The difference is the denominator in the metric:
 
 * [!UICONTROL Average time spent on site] uses the sequences that include a dimension item.
@@ -88,7 +92,7 @@ Assume the following set of server calls are for a single visitor within a singl
 |**Visit elapsed time (in sec)**|0|30|80|180|190|230|290|
 |**Seconds spent**|30|50|100|10|40|60|-|
 |**Hit type**|Page|Link|Page|Page|Page|Page|Page|
-|**Page Name**|Home|-|Product|Home|Home (reload)|Cart|Oder confirmation|
+|**Page Name**|Home|-|Product|Home|Home (reload)|Cart|Order confirmation|
 |||||||||
 |**prop1**|A (set)|A (spread forward)|not set|B (set)|B (set)|A(set)|C (set)|
 |**prop1 seconds spent**|30|50|-|10|40|60|-|

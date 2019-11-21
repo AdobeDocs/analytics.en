@@ -12,6 +12,7 @@ uuid:
 
 This variable specifies the segments of a video or media asset consumed.
 
+
 <!-- 
 
 mediaSession.xml

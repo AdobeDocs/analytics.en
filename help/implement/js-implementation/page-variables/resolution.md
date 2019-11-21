@@ -12,6 +12,7 @@ uuid:
 
 The  variable indicates the monitor resolution of the visitor viewing the web page.
 
+
 <!-- 
 
 resolution.xml

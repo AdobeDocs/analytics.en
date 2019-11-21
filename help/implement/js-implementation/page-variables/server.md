@@ -12,6 +12,7 @@ uuid:
 
 The  variable is used to show either the domain of a web page (to show which domains people come to) or the server serving the page (for a load balancing quick reference).
 
+
 <!-- 
 
 server.xml

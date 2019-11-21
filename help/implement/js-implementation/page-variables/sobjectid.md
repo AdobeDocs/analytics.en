@@ -12,6 +12,7 @@ uuid:
 
 The  variable is a global variable that should be set in the [!UICONTROL onClick] event of a link.
 
+
 <!-- 
 
 s_objectID.xml

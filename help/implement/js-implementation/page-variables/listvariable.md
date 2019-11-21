@@ -12,6 +12,7 @@ uuid:
 
 Also known as List Var. Similar to how List Props function, List Vars allow multiple values within the same image request. They also act similarly to eVars, which persist beyond the image request they were defined on. You can use these variables to see cause and effect among multiple elements on a single page, such as product lists, wish lists, lists of search refinements, or lists of display ads.
 
+
 <!-- 
 
 listN.xml (bob edit)

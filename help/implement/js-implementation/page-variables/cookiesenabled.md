@@ -14,6 +14,7 @@ uuid:
 
 The  variable indicates whether a first-party session cookie could be set by JavaScript.
 
+
 <!-- 
 
 cookiesenabled.xml

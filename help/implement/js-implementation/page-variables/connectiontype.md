@@ -14,6 +14,7 @@ uuid:
 
 The  variable, in Internet Explorer, indicates whether the browser is configured on a LAN or modem connection.
 
+
 <!-- 
 
 conntype.xml

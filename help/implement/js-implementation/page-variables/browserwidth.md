@@ -13,6 +13,7 @@ uuid:
 
 The  variable displays the width of the browser window.
 
+
 <!-- 
 
 browserwidth.xml

@@ -12,6 +12,7 @@ uuid:
 
 The  variable is used to show the number of bits used to display color on each pixel of the screen.
 
+
 <!-- 
 
 colordepth.xml

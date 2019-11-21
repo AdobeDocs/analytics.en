@@ -14,7 +14,7 @@ Also known as List Var. Similar to how List Props function, List Vars allow mult
 
 <!-- 
 
-listN.xml
+listN.xml (bob edit)
 
  -->
 

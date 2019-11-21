@@ -32,7 +32,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>AND and OR can be combined without limits</b> </td> 
    <td colname="col2"> Supported </td> 
-   <td colname="col3"> Some limitations </td> 
+   <td colname="col3"> Some limitations. See *note* below table. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Nested containers</b> </td> 
@@ -90,3 +90,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*Note: Data Warehouse does not support all cases of using an `exclusion` or `without` container when using `AND/OR`. When using such a combination, only those segments that can be re-written as `A AND NOT B`, (or **include this characteristic** and **exclude this characteristic**) are supported in Data Warehouse.* 

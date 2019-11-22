@@ -13,6 +13,7 @@ uuid:
 
 List props are a delimited list of values that are passed into a variable, then reported as individual line items. List props are most commonly implemented on pages that contain user-selectable values, such as listed items with check boxes or radio buttons. They are useful in any circumstance where you want to define multiple values in a variable without sending multiple image requests.
 
+
 <!-- 
 
 list_props.xml

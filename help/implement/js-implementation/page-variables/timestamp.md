@@ -12,6 +12,7 @@ uuid:
 
 This variable lets you customize the timestamp of a hit similar to the AppMeasurement libraries for other platforms.
 
+
 <!-- 
 
 timestamp.xml

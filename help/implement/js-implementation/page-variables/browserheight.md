@@ -12,6 +12,7 @@ uuid:
 
 The  variable displays the height of the browser window.
 
+
 <!-- 
 browserheight.xml
 -->

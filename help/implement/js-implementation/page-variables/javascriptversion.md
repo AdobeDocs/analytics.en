@@ -13,6 +13,7 @@ uuid:
 
 The  variable indicates the version of JavaScript supported by the browser.
 
+
 <!-- 
 
 javascriptVersion.xml

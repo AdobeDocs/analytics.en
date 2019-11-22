@@ -56,3 +56,4 @@ Page variables directly populate a report, such as pageName, List Props, List Va
 * [visitorID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitorid.html)
 * [visitorNamespace](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitornamespace.html)
 * [zip](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/zip.html)
+

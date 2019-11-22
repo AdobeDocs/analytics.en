@@ -12,6 +12,7 @@ uuid:
 
 The  variable, in Netscape and Mozilla-based browsers, lists the plugins installed on the browser.
 
+
 <!-- 
 
 plugins.xml

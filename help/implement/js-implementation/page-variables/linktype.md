@@ -13,6 +13,7 @@ uuid:
 
 The  variable is an optional variable used in link tracking that determines which report a link name or URL appears (custom, download, or exit links).
 
+
 <!-- 
 
 linkType.xml

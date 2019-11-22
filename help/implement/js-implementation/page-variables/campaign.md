@@ -12,6 +12,7 @@ uuid:
 # campaign
 
 The  variable identifies marketing campaigns used to bring visitors to your site. The value of  is usually taken from a query string parameter.
+https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/browserheight.html
 
 <!-- 
 

@@ -12,6 +12,7 @@ uuid:
 
 This variable specifies the player used to consume a video or media item.
 
+
 <!-- 
 
 mediaPlayer.xml

@@ -12,6 +12,7 @@ uuid:
 
 The s.maxDelay variable is used primarily in Genesis DFA integrations to determine the timeout period in contacting the DFA host. If Adobe does not receive a response from DFA's servers within the specified period set in the  variable, the connection is severed, and data is processed normally. Implement this variable if you are concerned with DFA's response time on each page. It is recommended to experiment with this value to determine the optimum timeout period.
 
+
 <!-- 
 
 maxDelay.xml

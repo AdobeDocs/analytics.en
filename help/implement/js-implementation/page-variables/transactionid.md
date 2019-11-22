@@ -12,6 +12,7 @@ uuid:
 
 [!UICONTROL Integration Data Sources] use a [!UICONTROL transaction ID] to tie offline data to an online transaction (like a lead or purchase generated online).
 
+
 <!-- 
 
 transactionID.xml

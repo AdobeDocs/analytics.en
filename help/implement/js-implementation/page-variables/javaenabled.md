@@ -13,6 +13,7 @@ uuid:
 
 The  variable indicates whether Java is enabled on the browser.
 
+
 <!-- 
 
 javaEnabled.xml

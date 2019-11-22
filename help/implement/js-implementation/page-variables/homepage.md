@@ -13,6 +13,7 @@ uuid:
 
 The  variable, in Internet Explorer, indicates whether the current page is set as the user's home page.
 
+
 <!-- 
 
 homepage.xml

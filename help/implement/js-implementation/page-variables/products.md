@@ -12,6 +12,7 @@ uuid:
 
 The  variable is used for tracking products and product categories as well as purchase quantity and purchase price. Products is typically set in conjunction with a cart event or a  event.
 
+
 <!-- 
 
 products.xml

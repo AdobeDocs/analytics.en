@@ -328,6 +328,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [About channels and rules](c-marketing-channels/c-channels-rules.md)
   + [Automatic setup](c-marketing-channels/c-channel-autosetup.md)
   + [Manage marketing channels](c-marketing-channels/c-channels.md)
+  + [Internal (Session Refresh) channel](c-marketing-channels/session-refresh.md)
   + [Processing rules for Marketing Channels](c-marketing-channels/c-rules.md)
   + [Create Marketing Channel processing rules](c-marketing-channels/t-rules.md)
   + [Marketing Channel processing rules - definitions](c-marketing-channels/r-channel-rule-definitions.md)

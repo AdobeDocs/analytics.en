@@ -18,7 +18,9 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date|Description |
 |---|---|
+|November 21, 2019|New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)|
 | September 28, 2019| New articles on [configuration variables for Javascript implementation](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)|
+|September 12, 2019|New documentation for [Journey IQ: Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html)|
 | August 28, 2019| New article on [Progressive Web Apps (PWAs) for Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html)|
 | Aug 8, 2019| New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md)|
 | Aug 8, 2019|Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md)|

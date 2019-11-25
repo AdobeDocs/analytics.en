@@ -83,7 +83,7 @@ Frequently asked questions about implementation, and links to more information.
   </tr> 
   <tr> 
    <td> Which is the latest version of s_code file? </td> 
-   <td> This section contains a release history for [!DNL AppMeasurement] libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [More...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. The latest version of each library can be downloaded in Reports &amp; Analytics &gt; Admin Tools &gt; Code Manager. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [More...] </a> </td> 
   </tr> 
   <tr> 
    <td> How do I debug s_code file? </td> 

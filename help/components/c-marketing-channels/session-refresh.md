@@ -62,7 +62,7 @@ A visitor moves from one domain which fires to Suite A, to a second domain which
 
 ### Scenario 5: Long entry-page load times
 
-A visitor lands on Page A which is heavy on con¬tent, and the Adobe Analytics code is located at the bot¬tom of the page. Before all the con¬tent (including Adobe Analytics image request) can load, the vis¬i¬tor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
+A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
 
 ### Scenario 6: Clearing cookies mid-site
 

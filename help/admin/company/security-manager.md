@@ -38,7 +38,7 @@ Enables you to control access to reporting data. Options include strong password
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Enforce IP Login Restrictions</span> </td> 
-   <td colname="col2"> <p>(This functionality cannot be used in conjunction with Experience Cloud login. Note that this functionality will no longer be available as of January, 2020.) Limits report access to specific IP addresses or IP address ranges. </p> <p>You can add up to 100 entries in the IP Address Filter list, and each entry can be a specific address or a range of addresses. </p> <p> <span class="wintitle"> Enforce IP Login Restrictions</span> is not enforced until there is at least one entry in the IP Address Filter list. </p> <p> <span class="uicontrol"> Accepted IP Address</span>: To specify an IP address range, enclose the range in brackets (for example, 
+   <td colname="col2"> <p>(This functionality cannot be used in conjunction with Experience Cloud login. Note that this functionality will no longer be available as of October, 2020.) Limits report access to specific IP addresses or IP address ranges. </p> <p>You can add up to 100 entries in the IP Address Filter list, and each entry can be a specific address or a range of addresses. </p> <p> <span class="wintitle"> Enforce IP Login Restrictions</span> is not enforced until there is at least one entry in the IP Address Filter list. </p> <p> <span class="uicontrol"> Accepted IP Address</span>: To specify an IP address range, enclose the range in brackets (for example, 
      <code>
        192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
@@ -63,3 +63,39 @@ Enables you to control access to reporting data. Options include strong password
  </tbody> 
 </table>
 
+## End-of-life for [!UICONTROL Enforce IP login restrictions]
+
+The **[!UICONTROL Enforce IP login restrictions]** feature is a soon-to-be-legacy Analytics feature that allows you to whitelist specific IP addresses that are deemed secure, to allow successful logins and access to your Adobe Analytics environment. In many instances, this feature is used to set up a corporate IP address as the only secure IP address that users can log in from. Therefore, in order to use Adobe Analytics, this requires users to either be at a corporate office or to log in the network via VPN. 
+
+### Why are we considering it for end-of-life?
+
+This feature is broken in some circumstances by the Experience Cloud login migration and/or the Experience Cloud login. It is known to break for customers using **[!UICONTROL Customer Attributes]** or **[!UICONTROL Audience Library]**. 
+
+Additionally, if you own multiple Experience Cloud Solutions, you can circumnavigate this requirement by logging in to the Experience Cloud with one of the other solutions, as this feature does not exist or is not supported outside of Analytics itself. Users could also get around this via IP spoofing.
+
+Finally, Adobe has a functioning and far superior alternative solution via Single-Sign-On and Federated IDs. This feature gives you greater control and security over your users’ login experience.
+
+### How does removal of this feature impact you?
+
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in October, 2020. At that time, any IP login restrictions still in place will no longer be enforced. If you still need to restrict login by IP address, you should review and implement the recommended solution of Single-Sign-On and Federated IDs (more info and resources below). 
+
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** manager will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below). 
+
+![](assets/sec-manager2.png)
+
+### What are your other options?
+
+As stated above, this Analytics feature will be end-of-lifed. To give you time to implement SSO and Federated IDs, we have delayed the EOL date to October 2020. 
+
+Both SSO and Federated IDs are superior solutions to the IP Login Restriction feature we have in place today and will provide you with more control, security and features.
+
+For information on how to set up SSO/Federated IDs, we have the following help documentation available. We recommend that you read them thoroughly and work with your IT department to get them implemented:
+
+* [Single Sign-On and the Experience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
+* [Admin Console - Identity Setup documentation](https://helpx.adobe.com/enterprise/using/set-up-identity.html)
+* [Admin Console - Identity Setup tutorial (video)](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Configure Federated ID tutorial (video)](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Single Sign-On - common questions](https://helpx.adobe.com/enterprise/using/sso-faq.html)
+* [Adobe-supported identity types](https://helpx.adobe.com/enterprise/using/identity.html)
+
+If you want to continue to voice your support for IP Login Restrictions and request that it be provided by the Experience Cloud, you may vote for this feature on our [Forum page](https://forums.adobe.com/ideas/11648). For additional questions or information on SSO/Federated IDs and the EXC, please reach out to Ryan Monger (monger@adobe.com). 

@@ -34,15 +34,15 @@ Example:
 
 ## Relationship between First & Last Touch
 
-To understand the interaction between first and last touch, and confirm that overrides work as expected, you can pull a first-touch channel report, sub-related to a last-touch channel report, with your key success metric added in (see example below). The example demonstrates the interaction between first- and  last-touch channels.
+To understand the interaction between first and last touch, and confirm that overrides work as expected, you can pull a first-touch channel report, sub-related to a last-touch channel report, with your key success metric added in (see example below). The example demonstrates the interaction between first and last-touch channels.
 
 ![](assets/int-channel3.png)
 
-The intersection where first equals last-touch is highlighted in orange. Both Direct and Session Refresh only get last-touch credit if they were also the first-touch channel, because they cannot take credit from other persisting channels (highlighted rows in gray).
+The intersection where first equals last touch is highlighted in orange. Both Direct and Session Refresh only get last-touch credit if they were also the first-touch channel, because they cannot take credit from other persisting channels (highlighted rows in gray).
 
 ## Why does Session Refresh occur?
 
-Since we know that last-touch Session Refresh can only occur if it was also the first-touch, the scenarios below explain how Session Refresh could be a first-touch channel.
+Since we know that last-touch Session Refresh can only occur if it was also the first touch, the scenarios below explain how Session Refresh could be a first-touch channel.
 
 ### Scenario 1: Session timeout
 
@@ -54,7 +54,7 @@ A visitor lands on Page A which is not tagged, and then moves to page B which is
 
 ### Scenario 3: Redirects
 
-If a redirect is not set up to pass referrer data through to the new land¬ing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
+If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
 
 ### Scenario 4: Cross-Domain Traffic
 

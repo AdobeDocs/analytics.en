@@ -52,7 +52,7 @@ When making DST -> STD transitions, ("Fall Back"), the customer will get 24 file
 
 You can optionally configure a data feed to deliver a manifest file if no data is collected for a specific period. If you enable this option, you'll receive a manifest file similar to the following:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0

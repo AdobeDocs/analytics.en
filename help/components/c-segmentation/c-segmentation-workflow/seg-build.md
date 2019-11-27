@@ -48,17 +48,17 @@ Access the Segment Builder by:
 1. **[!UICONTROL Show]**: (Top Container selector.) Lets you select the top-level [container](/help/components/c-segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). The default top-level container is the Hit container.
 1. **[!UICONTROL Options]**: (gear) icon
 
-    * **[!UICONTROL + Add container]**: Lets you add a new container (below the top-level container) to the segment definition.
-    * **[!UICONTROL + Add container from selection]**: Lets you create a new container from the element/s that you (multi-) selected in the Definitions field.
-    * **[!UICONTROL Exclude]**: Lets you define the segment by excluding one or more dimensions, segments, or metrics.
+   * **[!UICONTROL + Add container]**: Lets you add a new container (below the top-level container) to the segment definition.
+   * **[!UICONTROL + Add container from selection]**: Lets you create a new container from the element/s that you (multi-) selected in the Definitions field.
+   * **[!UICONTROL Exclude]**: Lets you define the segment by excluding one or more dimensions, segments, or metrics.
 
-  **[!UICONTROL Attribution Models]**: For dimension segmentation. Dimension models are particularly useful in sequential segmentation, such as in those that support Flow visualizations:
+1. **[!UICONTROL Attribution Models]**: For dimension segmentation. Dimension models are particularly useful in sequential segmentation, such as in those that support Flow visualizations:
 
-    * **[!UICONTROL Repeating]** ((default)): Includes instances and persisted values for the dimension.
-    * **[!UICONTROL Instance]**: Includes instances for the dimension.
-    * **[!UICONTROL Non-repeating instance]**: Includes unique instances (non-repeating) for the dimension.
+   * **[!UICONTROL Repeating]** ((default)): Includes instances and persisted values for the dimension.
+   * **[!UICONTROL Instance]**: Includes instances for the dimension.
+   * **[!UICONTROL Non-repeating instance]**: Includes unique instances (non-repeating) for the dimension.
 
-  ![](assets/attribution-models.jpg)
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensions]**: Dimension are dragged and dropped from the Dimensions list (orange sidebar).
 1. **[!UICONTROL Comparison]**: You can compare and constrain values using selected operators.

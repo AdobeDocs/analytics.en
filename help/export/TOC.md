@@ -8,7 +8,6 @@ user-guide-url: /content/help/en/analytics/export/home.html
 # Analytics Export Guide {#export}
 
 + [Analytics Export home](home.md)
-+ [Export user guide update history](update-history.md)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
   + [Create or edit a data feed](analytics-data-feed/create-feed.md)

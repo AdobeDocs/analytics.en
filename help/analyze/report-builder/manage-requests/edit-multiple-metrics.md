@@ -41,7 +41,7 @@ Keep in mind that
 
 To replace a metric
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **[!UICONTROL [choose metric]]** > **[!UICONTROL Edit Group]** **[!UICONTROL]** to select the group of requests to modify.) 
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
 
 1. Select **[!UICONTROL Replace Metric]**.
 
@@ -61,7 +61,7 @@ Keep in mind that
 
 To remove metrics:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **[!UICONTROL [choose metric]]** > **[!UICONTROL Edit Group]** **[!UICONTROL]** to select the group of requests to modify.) 
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 

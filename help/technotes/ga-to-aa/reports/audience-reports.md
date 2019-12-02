@@ -46,7 +46,7 @@ The Audiences report in Google Analytics requires the setting up of audiences. A
 The User Explorer report allows an analyst to view individual visits through anonymized identifiers. Adobe does not surface the backend identifiers outside of data feeds, which are hit-level raw exports of data.
 
 * If this data is desired in Analysis Workspace, it is possible to work with an implementation consultant to pass the anonymized unique identifier cookie value into an eVar. Note that this only works with smaller implementations consisting of less than 1 million unique visitors per month.
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
 
 ## Demographics and Interests reports
 

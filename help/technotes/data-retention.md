@@ -40,7 +40,7 @@ The data retention policy defines a rolling data retention window in which compl
 
 **Can I request a copy of my data prior to it being deleted?**
 
-Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your organization's account manager. Special accommodations can be made; costs may vary.
+Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your organization's account manager. Special accommodations can be made; costs may vary.
 
 **When does Adobe delete data?**
 

@@ -34,11 +34,11 @@ AWS also makes it possible for a user to create objects in a bucket that belong 
 
 In the event of an FTP transfer failure (login denied, lost connection, out of quota, etc), Adobe attempts to automatically connect and send the data up to three separate times. If the failures persist, the feed is marked as failed and an email notification is sent.
 
-In case of a transfer failure, you can [rerun a job](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) until it succeeds.
+In case of a transfer failure, you can rerun a job until it succeeds.
 
 ## Resend Options {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) to get the files.
+Once you have verified/corrected the delivery issue, rerun the job to get the files.
 
 ## Daylight Savings impact on Hourly Data Feeds {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -52,7 +52,7 @@ When making DST -> STD transitions, ("Fall Back"), the customer will get 24 file
 
 You can optionally configure a data feed to deliver a manifest file if no data is collected for a specific period. If you enable this option, you'll receive a manifest file similar to the following:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0

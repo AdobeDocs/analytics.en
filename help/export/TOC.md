@@ -7,48 +7,23 @@ user-guide-url: /content/help/en/analytics/export/home.html
 
 # Analytics Export Guide {#export}
 
-+ [Analytics Export Help](home.md)
++ [Analytics Export home](home.md)
 + Analytics Data Feed {#analytics-data-feed}
-  + Get started {#get-started}
-    + [Analytics Data Feed overview](analytics-data-feed/c-getstarted/data-feed-overview.md)
-    + [Terminology](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-    + [Best Practices and General Information](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-  + Data Feed interface {#data-feed-ui}
-    + [Open the Data Feed interface](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-    + [Sort columns](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-    + [Search and filter](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-    + [Data Feed status](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-  + Data Feed actions {#data-feed-actions}
-    + [Data Feed panel](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-    + [Add a Feed](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-    + [Feed Information](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-    + [Feed Destination](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-    + [View a Feed's Job History](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-    + [Delete a Feed](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-    + [Pause a Feed](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-    + [Activate a Feed](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-    + [Edit a Feed](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-  + Data Feed jobs {#data-feed-jobs}
-    + [Data Feed jobs - overview](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-    + [Filter jobs list](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-    + [Jobs settings](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-    + [Job status](analytics-data-feed/c-df-jobs/r-job-status.md)
-    + [Rerun a job](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+  + [Data feed overview](analytics-data-feed/data-feed-overview.md)
+  + [Create or edit a data feed](analytics-data-feed/create-feed.md)
+  + [Manage data feeds](analytics-data-feed/df-manage-feeds.md)
+  + [Manage data feed jobs](analytics-data-feed/df-manage-jobs.md)
   + Data Feed contents {#data-feed-contents}
-    + [Data Feed contents - overview](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+    + [Data feed contents overview](analytics-data-feed/c-df-contents/datafeeds-contents.md)
     + [Calculate metrics](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-    + [Identify visitors](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-    + [Data column definitions](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-    + [Page Event Lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-    + [Hit Source Lookup](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-    + [Pre and post columns](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
+    + [Page event Lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-    + [Jobs FAQ](analytics-data-feed/c-df-contents/jobs-faq.md)
-  + [Troubleshoot Data Feeds](analytics-data-feed/feed-troubleshooting.md)
+  + [Data feed FAQ](analytics-data-feed/df-faq.md)
+  + [Data feed best practices](analytics-data-feed/data-feeds-best-practices.md)
+  + [Troubleshoot data feeds](analytics-data-feed/feed-troubleshooting.md)
   + [Troubleshoot jobs](analytics-data-feed/jobs-troubleshooting.md)
-  + [Data Feed release notes](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)

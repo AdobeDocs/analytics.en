@@ -8,7 +8,7 @@ uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 
 # Data Feeds
 
-Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md).
+Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. They can be sent to any FTP account (either one set up by Adobe or an external FTP). Adobe Engineering Services offers custom [!UICONTROL Data Feeds] that can be sent by virtually any means.
 

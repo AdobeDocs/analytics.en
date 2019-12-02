@@ -87,7 +87,7 @@ For more details, see:
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html) 
-* [Analytics Data Feed](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
+* [Analytics Data Feed](/help/export/analytics-data-feed/data-feed-overview.md)
   
 >[!MORELIKETHIS]
 >       

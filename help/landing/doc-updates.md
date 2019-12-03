@@ -18,6 +18,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date|Description |
 |---|---|
+|November 25, 2019|New topic on [End-of-life for Enforce IP login restrictions](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)|
+|November 25, 2019|New topic on [Internal (session refresh) marketing channel](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)|
 |November 21, 2019|New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)|
 | September 28, 2019| New articles on [configuration variables for Javascript implementation](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)|
 |September 12, 2019|New documentation for [Journey IQ: Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html)|

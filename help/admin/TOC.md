@@ -76,6 +76,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
+    + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)
     + [Requirements for server-side forwarding](admin/c-server-side-forwarding/ssf-requirements.md)
     + [Server-side forwarding data and code reference](admin/c-server-side-forwarding/ssf-reference.md)
     + [How to verify your server-side forwarding implementation](admin/c-server-side-forwarding/ssf-verify.md)

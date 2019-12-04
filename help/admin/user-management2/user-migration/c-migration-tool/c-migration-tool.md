@@ -61,7 +61,7 @@ The benefits of using the Admin Console include:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invite new users </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Create product profiles </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Grant users permission to specific products and services </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html"> cross-solution core services</a> available in the Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html"> cross-solution core services</a> available in the Adobe Experience Cloud </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,7 @@
-
-
-
+---
+description: Instructions for setting up the mobile app scorecards.
+title: Adobe Analytics Mobile App Curator Guide
+---
 
 # Analytics Mobile App: Executive User Quick Start Guide
 
@@ -13,9 +14,10 @@ The Adobe Analytics Mobile App provides anytime, anywhere insights from Adobe An
 This guide is intended to help executive users read and interpret Scorecards on the Analytics Mobile App. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. 
 
 ## Glossary of terms
+
 |Term|Definition|
 |--|--|
-|Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device|
+|Consumer|Executive persona viewing key metrics and insights from Analytics on a mobile device|
 |Curator|Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer|
 |Curation|The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer|
 |Scorecard|A Mobile App View containing one or more tiles|

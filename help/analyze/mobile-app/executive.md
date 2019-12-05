@@ -79,10 +79,9 @@ Additional information on tiles:
  
   
 
-* 1. Tap the Date header. 2. On the Date range screen, tap the span of time you want to work with.
+* Tap the Date header. On the Date range screen, tap the span of time you want to work with.
 
-	Depending on the interval you tap (Day, Week, Month, or Year), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the COMPARE TO list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap Done in the upper right of the screen. The Date Ranges field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
-
+Depending on the interval you tap (Day, Week, Month, or Year), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the COMPARE TO list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap Done in the upper right of the screen. The Date Ranges field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
 1. To  leave feedback on this app:
 1. Tap the user icon in the upper right of the app screen. 
@@ -93,7 +92,7 @@ Additional information on tiles:
 
 
  
-3. Tap the applicable feedback option.
+1. Tap the applicable feedback option.
 
 
 

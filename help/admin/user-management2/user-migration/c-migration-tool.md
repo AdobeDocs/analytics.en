@@ -8,29 +8,9 @@ uuid: 7d020713-693b-4945-aa52-3669a631aacb
 
 What you need to know about the Analytics user ID migration to the Admin Console in the Adobe Experience Cloud.
 
-<!--
-<p>FAQ <a href="https://wiki.corp.adobe.com/display/DMTM/Migration+FAQ"> Source</a> </p>
--->
-
-<!--
-<p>Help publish link: <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/</a> </p>
-<p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
--->
-
-<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
-On this page:
-
-* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
-* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
-* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
-* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
-* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
-* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
--->
-
 For general help on Admin Console topics (not related to the Analytics migration), see [Admin Console User Guide](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
-After you migrate, you can [manage Experience Cloud users and products](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) in the Admin Console.
+After you migrate, you can [manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the Admin Console.
 
 ## What is the Analytics user ID migration? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -338,7 +318,7 @@ To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). With this migration, your Adobe Analytics account will be upgraded to enable access to Analytics via the Adobe Experience Cloud. While the method to access Analytics will change, all your existing permissions to your report suites and tools will be preserved.
 
-**Next steps:** We will begin to migrate users beginning on <INSERT DATE>. Watch for a welcome message with your new login addressed to the email id listed under your analytics account. If you have not setup an [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) linked to your email address, you will be asked to setup an account .
+**Next steps:** We will begin to migrate users beginning on **INSERT DATE**. Watch for a welcome message with your new login addressed to the email id listed under your analytics account. If you have not setup an [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) linked to your email address, you will be asked to setup an account .
 
 **Helpful resources:**
 

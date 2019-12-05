@@ -83,11 +83,11 @@ To implement the Scorecard template:
 
 1. Under **Properties** (in the right-hand rail), specify a **Project Report Suite** from which you want to use data.
 
-![Report suite selection](help/analyze/mobile-app/assets/properties_save.png)
+    ![Report suite selection](help/analyze/mobile-app/assets/properties_save.png)
 
 2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **Drag and Drop Metrics Here** Zone. You can also insert a metric between two tiles using a similar workflow.
 
-![Add tiles](help/analyze/mobile-app/assets/build_list.png)
+    ![Add tiles](help/analyze/mobile-app/assets/build_list.png)
 
 
     *From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.*
@@ -104,7 +104,7 @@ To implement the Scorecard template:
 
     Also, if you click on tiles, a dynamic pop up will display how the Breakdown view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be **hour** or **days**, depending on the default date range.
 
-![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
+    ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
 
     *Note how each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.*
 
@@ -112,7 +112,7 @@ To implement the Scorecard template:
 
 5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **Mobile Customers** segment:
 
-![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
+    ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
 
 6. Under Scorecard **Properties**, you also can optionally specify the following:
 
@@ -124,7 +124,7 @@ To implement the Scorecard template:
 
 7. To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
 
-![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
+    ![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Share the Scorecard
 
@@ -204,9 +204,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
 Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
 
-![App welcome screen](help/analyze/mobile-app/assets/welcome.png)
-
-
+    ![App welcome screen](help/analyze/mobile-app/assets/welcome.png)
 
 2. Help them access your Scorecard. After executive users sign into the app, the Choose a company screen appears. This screen lists the login companies to which the executive user belongs. To help them get to the Scorecard: 
 

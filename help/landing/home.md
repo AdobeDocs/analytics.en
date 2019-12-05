@@ -8,23 +8,23 @@ description: Analytics user guides and resources
 
 Welcome to the Adobe Analytics product and technical documentation home page. Here you can find self-help and support information for reporting tools like [!UICONTROL Analysis Workspace], [!UICONTROL Report Buidler], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]. You can also access documentation for product and user administration, implementation, and all the features supported in Adobe Analytics.
 
-[![Tools](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics.
+[![Tools](assets/analyze_50px.png)](/help/analyze/home.md)&emsp;[Analytics Tools Guide](/help/analyze/home.md) &ndash; Provides access to [Analysis Workspace](/help/analyze/analysis-workspace/home.md), the premier analysis and visualization tool for Analytics. Also features all the analysis tools ([!UICONTROL Report Buidler], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]) that you can use in Adobe Analytics.
 
-[![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Administration tasks for configuring report suites, data governance, server call usage, and more.
+[![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
 
-[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
+[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Customize what data is collected to get more out of Adobe Analytics. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md) &ndash; Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 
-[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md) &ndash; Get data out of Adobe Analytics through Data Warehouse, Data Feeds, and more.
+[![Export](assets/export_50px.png)](/help/export/home.md)&emsp;[Export Guide](/help/export/home.md) &ndash; Get data out of Adobe Analytics: Use [!UICONTROL Data Feeds] to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
 
-[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md) &ndash; Bring data into Analytics from outside sources, either in bulk or real-time. Includes Data Sources, Data Insertion API, and Data Connectors.
+[![Import](assets/import_50px.png)](/help/import/home.md)&emsp;[Import Guide](/help/import/home.md) &ndash; Bring data into Analytics from outside sources, either in bulk or real-time. Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md) &ndash; Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target.
+[![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md) &ndash; Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Implement Analytics on audio or video sources. Includes the Media SDK and the Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)&emsp;[Data Workbench Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) &ndash; Data Workbench Client, Installation, Dataset Configuration, and more
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)&emsp;[Data Workbench Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) &ndash; Learn about the highly-flexible, powerful, multi-channel capabilities of [!UICONTROL Data Workbench]. Includes [!UICONTROL Data Workbench Client], Installation, [!UICONTROL Dataset Configuration] guides, and more.
 
 [![Technotes](assets/technotes_50px.png)](/help/technotes/home.md)&emsp;[Analytics Tech Notes](/help/technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 

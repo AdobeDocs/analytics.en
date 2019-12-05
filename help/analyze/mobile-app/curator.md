@@ -182,8 +182,8 @@ To assist executive users access your Scorecards on the app, ensure that:
 
     Note: If the executive user logs in and sees a message saying that nothing has been shared:
 
-* The executive user may have selected the wrong Analytics instance
-* The Scorecard has not been shared with the executive user   
+    * The executive user may have selected the wrong Analytics instance
+    * The Scorecard has not been shared with the executive user
 
 3. Show how tiles appear in the Scorecard you share. 
 

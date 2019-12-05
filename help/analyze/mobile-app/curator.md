@@ -202,7 +202,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     3. Download and install the app.
 
-Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
+    Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
 
     ![App welcome screen](help/analyze/mobile-app/assets/welcome.png)
 

@@ -141,6 +141,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [User and Product Management](user-management2/user-management.md)
   + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
   + User management {#user-management}
+    + [Migrate users to the Experience Cloud Admin Console](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
     + [User management overview](user-management2/c-user-management/users.md)
     + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
     + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)

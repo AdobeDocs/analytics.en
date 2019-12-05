@@ -45,6 +45,10 @@ Release Date: **August 15, 2019**
 Release Date: **July 15, 2019**
 
 * Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
+>[!NOTE]
+>
+>This feature is being released as a pre-requisite for a future update to Activity Map. It may not be valuable until those other components are released. 
+
 * Added DIL 9.2 to AppMeasurement (AN-182472)
 
 ## Version 2.14.0

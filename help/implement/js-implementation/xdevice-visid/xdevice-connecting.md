@@ -10,34 +10,19 @@ uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 
 # Connect users across devices
 
->[!IMPORTANT]
->
->This method of identifying visitors across devices is no longer recommended. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+> [!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
 
-Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the visitor ID variable, s.visitorID, to associate a user across devices.
+Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the `visitorID` variable to associate a user across devices. The `visitorID` variable takes the highest priority when [identifying unique visitors](../c-unique-visitors/visid-overview.md).
 
-When you provide a [!UICONTROL visitor ID] variable with a hit, the system checks for any other visitor profiles that have a matching [!UICONTROL visitor ID]. If one exists, the visitor profile that is already in the system is used from that point forward and the previous visitor profile is no longer used.
+When you send a hit with a custom visitor ID, Adobe checks for any visitor profiles that have a matching visitor ID. If one exists, the visitor profile already in the system is used from that point forward and the previous visitor profile is no longer used.
 
-The [!UICONTROL visitor ID] is typically set after authentication, or after a visitor performs some other action that enables you to uniquely identify them independently of the device that is used. We recommend creating a hash of the username or an internal ID that does not contain any personally identifiable information.
+Setting the `visitorID` variable is typically set after authentication, or after a visitor performs some other action that allows you to uniquely identify them independently of the device that is used. Effective identifiers include a hash of their username, email address, or an internal ID that does not contain any personally identifiable information.
 
-In the [previous example](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), after the customer signs on from each device, they are all associated with the same user profile. If the visitor later signs out on a device, stitching continues to work since the [!UICONTROL visitor ID]s that are stored in a cookie on each device are already associated with the same visitor profile. We recommend populating the [!UICONTROL s.visitorID] variable whenever possible in case the [!UICONTROL visitor ID] cookie is deleted.
+After the customer signs in from each device, they are all tied to the same user profile. If the visitor later signs out on a device, they continue to belong to the same visitor profile because Adobe recognizes that the browser cookie on each device belongs to the same visitor profile. Adobe recommends using the `visitorID` variable whenever possible in case the browser cookie is deleted.
 
-## Unique Visitor and Visits Counts {#section_70330AB6724C4E419A4BD0BDD54641AC}
+## Limitations
 
-Consider the following connection sequence for two devices: 
+Using your own custom visitor ID's gives you more control over how visitors are identified, but it comes with its limitations.
 
-![](assets/xdevice-counts.png)
-
-**On the first data connection**
-
-* Visitor de-duplication is not retroactive.
-
-After authentication on the laptop, hits with either visitor ID ( `nv1` or `cust1`) will be considered the same individual by Adobe Analytics. However, visitor de-duplication is not retroactive, so 2 unique visitors are counted.
-
-On the first data connection on the mobile device the customer is not recognized so a new unique visitor is counted. Once the user is authenticated ( `cust1`) on the mobile device, Adobe Analytics maps `cust1` back to the visitor ID provided on the main site, so no more unique visits are incremented.
-
-Each new device or browser authenticated will add 1 unique visitor.
-
-**On subsequent data connections**
-
-On subsequent data connections to authenticated devices unique visitors are not incremented.
+* **Visitor deduplication is not retroactive**: If a visitor accesses your site for the first time, then authenticates, two unique visitors are counted. One unique visitor counts for the generic Analytics ID automatically generated, and another counts for the custom visitor ID when they log in. This duplication of unique visitors is present for every time a visitor uses a new device or clears their cookies.
+* **Incompatibility with the Experience Cloud ID Service**: Since the introduction of cross-device visitor identification, Adobe has released more powerful and more reliable ways to track visitors across devices. These new methods of identification are not compatible with the custom visitor ID override. If you plan to use the ID Service, Cross-device Analytics (CDA), or the Device co-op, Adobe strongly recommends against using the `visitorID` variable.

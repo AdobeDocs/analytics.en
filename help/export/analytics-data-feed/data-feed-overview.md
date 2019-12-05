@@ -53,10 +53,10 @@ Make sure you meet all the following requirements before using data feeds.
 
 Once you understand the basic workflow of obtaining data feeds, you can work with teams within your organization to store or ingest raw data into a database.
 
-[Create a data feed](create-feed.md): Technical details for creating a data feed, explaining individual fields in more detail
-[Manage data feeds](df-manage-feeds.md): Learn more about navigating the data feed interface
-[Data feed contents](c-df-contents/datafeeds-contents.md): Understand what is inside the compressed file
-[Data column definitions](c-df-contents/datafeeds-reference.md): A comprehensive list of all available columns
+* [Create a data feed](create-feed.md): Technical details for creating a data feed, explaining individual fields in more detail
+* [Manage data feeds](df-manage-feeds.md): Learn more about navigating the data feed interface
+* [Data feed contents](c-df-contents/datafeeds-contents.md): Understand what is inside the compressed file
+* [Data column definitions](c-df-contents/datafeeds-reference.md): A comprehensive list of all available columns
 
 ## Additional resources
 

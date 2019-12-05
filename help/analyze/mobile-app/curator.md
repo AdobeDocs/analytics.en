@@ -80,11 +80,7 @@ To implement the Scorecard template:
 2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the Drag and Drop Metrics Here Zone. You can also insert a metric between two tiles using a similar workflow. 
 
 
-From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions. 
-
-
-
-
+    From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions. 
 
 
 3. To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. For example, you can add appropriate dimensions (like DMA Region, in this example) to the Unique Visitors metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific Properties. You can add multiple dimensions to each tile.
@@ -106,8 +102,8 @@ Also, if you click on tiles, a dynamic pop up will display how the Breakdown vie
 
 
 
-Clicking a tile displays the Breakdown view for that tile to the side of the Scorecard.
-Note how each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
+    Clicking a tile displays the Breakdown view for that tile to the side of the Scorecard.
+    Note how each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
 4. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard.
 
@@ -152,11 +148,11 @@ In some cases, executive users may need some additional assistance to access and
 
 To assist executive users access your Scorecards on the app, ensure that:
 
-* The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher 
-* They have a valid login into Adobe Analytics
-* You have correctly created mobile Scorecards for them and share these Scorecards with them.
-* They have access to Analysis Workspace and the report suite that the Scorecard is based on
-* They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to Automatically Share embedded components with recipients.
+    * The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher 
+    * They have a valid login into Adobe Analytics
+    * You have correctly created mobile Scorecards for them and share these Scorecards with them.
+    * They have access to Analysis Workspace and the report suite that the Scorecard is based on
+    * They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to Automatically Share embedded components with recipients.
  
 
 ### Help executive users use the app 
@@ -195,12 +191,12 @@ Note: If the executive user logs in and sees a message saying that nothing has b
 
 Additional information on tiles:
 
-* The granularity of the sparklines is dependent on the length of the date range: 
-    * One day shows an hourly trend
-    * More than one day and less than a year shows a Daily trend
-    * One year or more shows a weekly trend
-* Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-* You can pull the screen down to refresh the Scorecard.
+    * The granularity of the sparklines is dependent on the length of the date range: 
+        * One day shows an hourly trend
+        * More than one day and less than a year shows a Daily trend
+        * One year or more shows a weekly trend
+    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+    * You can pull the screen down to refresh the Scorecard.
 
 
 4. Tap a tile to show how a detailed breakdown or trended report for the tile works.
@@ -210,9 +206,9 @@ Additional information on tiles:
  
  
 
-*1.	Tap the Date header.	2.	On the Date range screen, tap the span of time you want to work with.*
+    *1.	Tap the Date header.	2.	On the Date range screen, tap the span of time you want to work with.*
 
-Depending on the interval you tap (Day, Week, Month, or Year), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the COMPARE TO list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap Done in the upper right of the screen. The Date Ranges field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+    Depending on the interval you tap (Day, Week, Month, or Year), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the COMPARE TO list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap Done in the upper right of the screen. The Date Ranges field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
 
 6. To leave feedback on this app:

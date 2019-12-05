@@ -20,18 +20,18 @@ Server-side forwarding improves upon data collection because it:
 >Current Audience Manager customers who use Analytics should migrate to server-side forwarding. New Adobe Analytics and Audience Manager customers should implement server-side forwarding (instead of DIL) as the default data collection and transfer method.
 
 >[!IMPORTANT]
->Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see GDPR_ePrivacy compliance and server-side forwarding.
+>Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md).
 
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 
-## ![step1_icon.png image](assets/step1_icon.png) Verify MID service implementation
+## ![step1_icon.png image](assets/step1_icon.png) Verify ECID service implementation
 
-Verify whether Experience Cloud ID (MID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
+Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
 
-On the Request tab, verify that a MID value is being set. This tells you that Identity Service is implemented correctly, which is a pre-requisite for server-side forwarding.
+On the Request tab, verify that a ECID value is being set. This tells you that Identity Service is implemented correctly, which is a pre-requisite for server-side forwarding.
 
-* If you see a MID value, continue to step 2.
-* If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* If you see an ECID value, continue to step 2.
+* If you do not see an ECID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
 ## ![step2_icon.png image](assets/step2_icon.png) Verify server-side forwarding implementation version
 
@@ -58,11 +58,9 @@ Server-side forwarding at the report-suite level is recommended over the legacy 
 
 Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**) > **Edit Settings** > **General** > **Server Side Forwarding**. If the checkbox is:
 
-* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to your IMS Org. Make sure that your applicable report suites are mapped to the proper IMS Org using the [Report Suite Mapping UI](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
+* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to your IMS Org. Make sure that your applicable report suites are mapped to the proper Experience Cloud Organization using the [Report Suite Mapping UI](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 * **Disabled**: You do not have the new server-side forwarding turned on. Read the content on the page and then proceed with enabling the feature.
 * **Enabled**: You are provisioned for new server-side forwarding. You are also able to set up this Audience Analytics integration.
-
-<!-- Meike, check Report Suite Mapping UI link above -->
 
 > [!NOTE] Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
 

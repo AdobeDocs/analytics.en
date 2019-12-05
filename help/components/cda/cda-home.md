@@ -45,10 +45,12 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * Stitching cannot occur across report suites as described in the prerequisites above.
 * Adobe Analytics report suites cannot map to more than one IMS org. Since CDA stitches devices within a given report suite, CDA cannot be used to stitch data across multiple IMS orgs.
 * CDA is not currently compatible with Customer Attributes. Customer Attributes cannot be used to create a CDA virtual report suite, within cross-device segments, or for reporting within an Analysis workspace project that is based on a CDA virtual report suite.
-* CDA requires either Co-op Graph or Private Graph. 3rd-party device graphs are not supported.
+  > [!TIP] Although Customer Attributes cannot be used in CDA, both features rely on the `setCustomerIDs` function. These two features can coincide in separate (virtual) report suites.
+* CDA requires either the Co-op Graph or Private Graph. 3rd-party device graphs are not supported.
 * Legacy Analytics ID's are not supported. Only visitors with Experience Cloud ID's are stitched.
 * Customer Care does not yet fully support this feature. The [Cross-Device Analytics forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) can be used for support on this feature, which includes active and direct involvement from Adobe Product Managers.
 * Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.
+* The 1.4 API is not supported. Power BI connectors and Report Builder both rely on the 1.4 API, and are therefore not compatible with CDA.
 * New devices visiting your site can take up to two weeks to be processed by the Co-op Graph or Private graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks. Adobe plans to improve the Adobe Experience Platform Identity Service to stitch new devices real-time in the future.
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 

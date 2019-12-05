@@ -29,7 +29,7 @@ The following table describes the terms for understanding the audience, function
 |Tile|A rendering for a metric within a Scorecard View|
 |Breakdown|A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions.|
 |Date Range|The primary date range for Mobile App reporting|
-|Comparison Date Range|The Date Range that is compared with the primary date range.|
+|Comparison Date Range|The Date Range that is compared with the primary date range|
 
  
 ## Create a Scorecard for executive users
@@ -44,6 +44,9 @@ To create the Scorecard, you will need to do the following:
 1. Access the Blank Mobile Scorecard template.
 2. Configure the Scorecard with data and save it.
 
+![Example scorecard](../assets/intro_scorecard.png)
+
+![Example scorecard](../assets/intro_scorecard.png)
 
 ### Access the Blank Mobile Scorecard template
 

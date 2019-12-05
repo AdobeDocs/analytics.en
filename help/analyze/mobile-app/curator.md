@@ -86,18 +86,18 @@ To implement the Scorecard template:
 3. To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. For example, you can add appropriate dimensions (like DMA Region, in this example) to the Unique Visitors metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific Properties. You can add multiple dimensions to each tile.
 
 
-*Note: You can also add a dimension to all tiles by dropping it onto the Scorecard canvas. *
+    *Note: You can also add a dimension to all tiles by dropping it onto the Scorecard canvas. *
 
-When you click on a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new Title for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail. 
-
-
+    When you click on a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new Title for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail. 
 
 
 
 
 
 
-Also, if you click on tiles, a dynamic pop up will display how the Breakdown view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be hour or days, depending on the default date range.
+
+
+    Also, if you click on tiles, a dynamic pop up will display how the Breakdown view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be hour or days, depending on the default date range.
 
 
 
@@ -159,11 +159,11 @@ To assist executive users access your Scorecards on the app, ensure that:
 
 1. To help executive users, make sure they are able to download and install the app according to their mobile device operating system.
 
-**iOS**
+    **iOS**
 
 
 
-**Android**
+    **Android**
 
 
 
@@ -175,12 +175,12 @@ To assist executive users access your Scorecards on the app, ensure that:
 * Tap the name of the login company or Experience Cloud Org that applies to the Scorecard you shared. The Scorecard list then shows all Scorecards that have been shared with the executive under that login company. 
 * Help them sort this list by Most recently modified, if applicable. 
 * Tap the name of the Scorecard to view it.
- 
- 
-1. Choose a company by tapping it.	
+
+
+1. Choose a company by tapping it.
 2. Tap a Scorecard from the Scorecard List.
-	
-Note: If the executive user logs in and sees a message saying that nothing has been shared:
+
+    Note: If the executive user logs in and sees a message saying that nothing has been shared:
 
 * The executive user may have selected the wrong Analytics instance
 * The Scorecard has not been shared with the executive user   
@@ -189,14 +189,14 @@ Note: If the executive user logs in and sees a message saying that nothing has b
 
 
 
-Additional information on tiles:
+    Additional information on tiles:
 
-    * The granularity of the sparklines is dependent on the length of the date range: 
-        * One day shows an hourly trend
-        * More than one day and less than a year shows a Daily trend
-        * One year or more shows a weekly trend
-    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-    * You can pull the screen down to refresh the Scorecard.
+        * The granularity of the sparklines is dependent on the length of the date range: 
+            * One day shows an hourly trend
+            * More than one day and less than a year shows a Daily trend
+            * One year or more shows a weekly trend
+        * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+        * You can pull the screen down to refresh the Scorecard.
 
 
 4. Tap a tile to show how a detailed breakdown or trended report for the tile works.
@@ -206,7 +206,7 @@ Additional information on tiles:
  
  
 
-    *1.	Tap the Date header.	2.	On the Date range screen, tap the span of time you want to work with.*
+    *1. Tap the Date header. 2. On the Date range screen, tap the span of time you want to work with.*
 
     Depending on the interval you tap (Day, Week, Month, or Year), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the COMPARE TO list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap Done in the upper right of the screen. The Date Ranges field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
@@ -218,9 +218,9 @@ Additional information on tiles:
     2. On the My Account screen, tap the Feedback option. 
     3. Tap to view the options for leaving feedback.
 
- 
- 
-*Tap the User icon in the upper right.	2.	Tap the type of feedback. 3. Tap the applicable feedback option.*
+
+
+*Tap the User icon in the upper right. 2.Tap the type of feedback. 3. Tap the applicable feedback option.*
 
 
  

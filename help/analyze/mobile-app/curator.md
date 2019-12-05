@@ -95,7 +95,7 @@ To implement the Scorecard template:
 
 3. To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. For example, you can add appropriate dimensions (like **DMA Region**, in this example) to the **Unique Visitors** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **Properties**. You can add multiple dimensions to each tile.
 
-![Add dimensions](help/analyze/mobile-app/assets/layer_dimensions.png)
+    ![Add dimensions](help/analyze/mobile-app/assets/layer_dimensions.png)
 
     *Note: You can also add a dimension to all tiles by dropping it onto the Scorecard canvas.*
 

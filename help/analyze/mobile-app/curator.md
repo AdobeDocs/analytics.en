@@ -44,9 +44,9 @@ To create the Scorecard, you will need to do the following:
 1. Access the Blank Mobile Scorecard template.
 2. Configure the Scorecard with data and save it.
 
-![Example scorecard](../assets/intro_scorecard.png)
+![Example scorecard](/assets/intro_scorecard.png)
 
-![Example scorecard](../assets/intro_scorecard.png)
+
 
 ### Access the Blank Mobile Scorecard template
 

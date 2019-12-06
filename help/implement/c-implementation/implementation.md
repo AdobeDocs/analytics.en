@@ -66,12 +66,7 @@ If you are new to Adobe Analytics, you can quickly create your first Analytics r
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Validate the implementation. </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Testing and Validation </a> Provides information about validating your implementation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Use the Adobe Experience Cloud debugger to verify that data is being sent. </td> 
    <td colname="col2"> <p>Install the <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger </a>. After it is installed, load a page where you have deployed page code and then open the debugger. The debugger displays details about the collection data that was sent. </p> </td> 
   </tr> 

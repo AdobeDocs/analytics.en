@@ -141,7 +141,8 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [User and Product Management](user-management2/user-management.md)
   + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
   + User management {#user-management}
-    + [Analytics User Migration to the Admin Console](user-management2/user-migration/c-migration-tool.md)
+    + [Analytics User Migration to the Admin Console]{#user-migration}
+      + [Migrate Analytics Users to the Admin Console](user-management2/user-migration/c-migration-tool.md)
       + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)

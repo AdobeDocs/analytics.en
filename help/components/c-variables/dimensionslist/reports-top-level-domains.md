@@ -1,6 +1,5 @@
 ---
 description: Displays how customers from different countries impacted your success metrics. This dimension identifies world regions that visitors come from based on their originating domain extension.
-solution: Analytics
 title: Top Level Domains
 topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b

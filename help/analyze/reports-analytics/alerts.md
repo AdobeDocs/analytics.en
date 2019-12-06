@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 subtopic: Alerts
 title: Alerts
 topic: Reports and analytics

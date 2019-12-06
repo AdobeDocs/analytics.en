@@ -1,7 +1,6 @@
 ---
 description: If an error occurs, an error is reported in the Job Status column.
 keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
-solution: Analytics
 title: Troubleshoot jobs
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 ---

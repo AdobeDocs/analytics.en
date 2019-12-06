@@ -1,6 +1,5 @@
 ---
 description: Displays the original referrers that produced the customers on your site. Because customers can visit your site multiple times and have a different referrer for each visit, Original Referring Domains shows how they were referred the first time they arrived at your site. This dimension references referrers only by their base domain (aol.com, yahoo.com, and so on).
-solution: Analytics
 title: Original Referring Domains
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0

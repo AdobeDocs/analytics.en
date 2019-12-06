@@ -1,7 +1,6 @@
 ---
 description: Code manager lets you download data collection code for web and mobile platforms.
 keywords: Analytics Implementation;data collection;code manager
-solution: Analytics
 title: Code Manager
 topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a

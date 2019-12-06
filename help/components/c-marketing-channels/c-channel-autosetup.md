@@ -1,6 +1,5 @@
 ---
 description: Run the one-time setup for the Marketing Channel report.
-solution: Analytics
 subtopic: Marketing channels
 title: Automatic setup
 topic: Reports and analytics

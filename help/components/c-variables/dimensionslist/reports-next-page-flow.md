@@ -1,6 +1,5 @@
 ---
 description: Displays path views, or the number of times and percentages that a page was viewed within the constraints of the paths. For example, a Privacy Policy page might have 10,000 total page views, but only 500 of those page views occurred immediately before a Home Page. In this case, you would see 500 path views. You can view the report at the visit or visitor level. Percentages for each page are displayed beside the name of the page. The width of a line connected to a page depicts the relative percentage of visits.
-solution: Analytics
 title: Next Page Flow
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f

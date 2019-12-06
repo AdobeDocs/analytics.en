@@ -1,6 +1,5 @@
 ---
 description: Metrics are calculated using standard, participation, recent, and linear allocation methods. Each method calculates values differently based on formulas.
-solution: Analytics
 title: Metric calculations
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705

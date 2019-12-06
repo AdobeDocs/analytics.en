@@ -1,6 +1,5 @@
 ---
 description: By tracking and recording the visitors'' referring sites for each visit, you can determine how visitors found out about your site for each visit.
-solution: Analytics
 title: Referrer Type
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b

@@ -1,7 +1,6 @@
 ---
 description: Click-throughs represent a) campaign instances, and b) marketing channel instances.
 keywords: Campaign Views
-solution: Analytics
 title: Click-throughs
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441

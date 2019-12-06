@@ -1,6 +1,5 @@
 ---
 description: The Organization ID is required to complete the integration wizard. To find this ID you must do the following.
-solution: Analytics
 subtopic: Qualtrics
 title: Looking up your Qualtrics Organization ID
 topic: Data connectors

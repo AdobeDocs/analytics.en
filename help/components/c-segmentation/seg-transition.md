@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: segmentation;segments
-solution: Analytics
 title: Frequently Asked Questions
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89

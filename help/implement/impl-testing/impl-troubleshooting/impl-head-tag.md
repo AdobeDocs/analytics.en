@@ -1,7 +1,6 @@
 ---
 description: Analytics code creates an image object, a non-visible image that does not show up on your page.
 keywords: Analytics Implementation
-solution: Analytics
 title: Putting Analytics code in the head tag
 topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f

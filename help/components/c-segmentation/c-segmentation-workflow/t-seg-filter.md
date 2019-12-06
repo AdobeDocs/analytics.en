@@ -1,6 +1,5 @@
 ---
 description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
-solution: Analytics
 title: Filter segments
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e

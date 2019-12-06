@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Kampyle Data Connector for Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 ---

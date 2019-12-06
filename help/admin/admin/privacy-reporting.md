@@ -1,6 +1,5 @@
 ---
 description: You can enable privacy reporting.
-solution: Analytics
 title: Privacy Reporting
 topic: Admin tools
 ---

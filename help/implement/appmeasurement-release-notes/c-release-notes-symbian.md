@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 subtopic: Release notes
 title: Symbian
 topic: Developer and implementation

@@ -1,7 +1,6 @@
 ---
 description: Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
 keywords: Analysis Workspace
-solution: Analytics
 title: Create a Workspace project
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba

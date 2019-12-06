@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to send an email message to all users in your company.
-solution: Analytics
 subtopic: Users and groups
 title: Email users
 topic: Admin tools

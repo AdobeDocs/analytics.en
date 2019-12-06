@@ -1,6 +1,5 @@
 ---
 description: This procedure describes how to hide or show headers.
-solution: Analytics
 title: Hide or show headers
 topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5

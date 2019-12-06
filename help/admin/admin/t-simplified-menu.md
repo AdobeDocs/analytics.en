@@ -1,6 +1,5 @@
 ---
 description: Steps to implement the simplified reports menu in Reports and Analytics.
-solution: Analytics
 title: Simplified reports menu
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559

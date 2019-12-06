@@ -1,7 +1,6 @@
 ---
 description: Event serialization is the process of implementing measures to prevent duplicate events from entering Analytics reporting. This can commonly occur when a user refreshes the page multiple times, navigates to a certain page multiple times, or saves the web page to their computer (for example, if a customer saves a purchase confirmation page to their computer, every time they view it orders and revenue would be counted again if event serialization was not in place).
 keywords: Analytics Implementation
-solution: Analytics
 title: Event serialization overview
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c

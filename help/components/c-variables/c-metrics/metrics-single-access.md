@@ -1,6 +1,5 @@
 ---
 description: Single Access is defined by the number of visits to your site that contained a single unique Page Name value. If a user comes to your site and clicks a tracked link, triggers an event (such as a video view), or reloads the page, the visit is still considered a Single Access visit. As long as value for the pageName variable does not change, any number of requests can be sent and the visit is still considered a Single Access.
-solution: Analytics
 title: Single Access
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639

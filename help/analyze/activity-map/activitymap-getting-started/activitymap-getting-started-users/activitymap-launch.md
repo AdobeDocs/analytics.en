@@ -1,6 +1,5 @@
 ---
 description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
-solution: Analytics
 title: Launch Activity Map
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874

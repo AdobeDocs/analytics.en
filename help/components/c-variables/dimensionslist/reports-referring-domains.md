@@ -1,6 +1,5 @@
 ---
 description: Shows the domains that referred the customers that most impacted your site's success metrics. Referrers fall into two main categories  Domains and URLs. Domains refer to the domain name, and appear as the base domain without the query string or subdirectories attached. URLs include the base domain name, as well as any query strings or subdirectories.
-solution: Analytics
 title: Referring Domains
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986

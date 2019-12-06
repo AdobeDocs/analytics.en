@@ -1,6 +1,5 @@
 ---
 description: The import and export file includes six columns for each numeric 2 classification.
-solution: Analytics
 subtopic: Classifications
 title: Import numeric 2 classifications
 topic: Admin tools

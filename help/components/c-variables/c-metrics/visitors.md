@@ -1,7 +1,6 @@
 ---
 description: The number of unique visitors to your site for a selected hour, day, week, month, quarter, or year.
 keywords: visitors
-solution: Analytics
 title: Visitors
 topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca

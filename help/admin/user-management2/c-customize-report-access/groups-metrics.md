@@ -1,7 +1,6 @@
 ---
 description: Enable permissions for traffic metrics, conversion metrics, custom events, solution events, and content aware.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Customize metric permissions
 topic: Admin tools

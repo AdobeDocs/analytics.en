@@ -1,6 +1,5 @@
 ---
 description: Refers to the type of browser being used by the visitor, such as Internet Explorer, Mozilla Firefox, Google Chrome, and so forth.
-solution: Analytics
 title: Browser Types
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59

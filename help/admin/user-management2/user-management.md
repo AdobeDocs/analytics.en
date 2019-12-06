@@ -1,6 +1,5 @@
 ---
 description: Manage Analytics users, groups, and products in the Admin Console.
-solution: Analytics
 subtopic: Users and groups
 title: User and Product Management
 topic: Admin tools

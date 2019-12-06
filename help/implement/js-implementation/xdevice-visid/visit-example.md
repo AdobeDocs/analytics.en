@@ -1,7 +1,6 @@
 ---
 description: Example containing a sample of server calls sent in a common customer interaction.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Cross-device visitor identification example
 topic: Developer and implementation

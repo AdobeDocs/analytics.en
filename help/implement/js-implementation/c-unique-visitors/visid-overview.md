@@ -1,7 +1,6 @@
 ---
 description: Adobe uses a cookie to track unique browsers/devices.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Identify unique visitors
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: Displays the navigation data between servers on your site. When you select a server name from your site, Next Server Flow shows you the number of visitors who navigated from that server to each of the other servers on your site within a single visit or across visits.
-solution: Analytics
 title: Next Server Flow
 topic: Reports
 uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662

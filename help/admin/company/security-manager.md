@@ -1,6 +1,5 @@
 ---
 description: Enables you to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.
-solution: Analytics
 title: Security Manager
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4

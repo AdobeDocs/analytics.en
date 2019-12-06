@@ -1,7 +1,6 @@
 ---
 description: The products variable is used for tracking products and product categories (as well as purchase quantity and purchase price).
 keywords: Analytics Implementation;products variable;product view;success event
-solution: Analytics
 title: Detailed product view page
 topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45

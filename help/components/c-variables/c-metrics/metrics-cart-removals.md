@@ -1,6 +1,5 @@
 ---
 description: Number of times an item was removed from a shopping cart. This value comes from the scRemove event.
-solution: Analytics
 title: Cart Removals
 topic: Metrics
 uuid: bddd5c63-e906-472a-8aec-a342f417ddfa

@@ -1,6 +1,5 @@
 ---
 description: Defines common settings for banks and other institutions that provide access to online services.
-solution: Analytics
 title: Financial Services
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991

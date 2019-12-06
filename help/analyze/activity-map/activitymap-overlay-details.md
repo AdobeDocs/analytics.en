@@ -1,6 +1,5 @@
 ---
 description: Overlay details are shown when you hover on top of a link overlay.
-solution: Analytics
 title: Overlay details
 topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f

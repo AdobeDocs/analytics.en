@@ -1,7 +1,6 @@
 ---
 description: Redirects point the browser to a new location without user interaction. They are executed at either the web browser (client-side redirect) or at the web server (server-side redirect).
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Redirects
 title: Redirects and aliases
 topic: Developer and implementation

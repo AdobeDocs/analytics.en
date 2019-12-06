@@ -1,6 +1,5 @@
 ---
 description: The import template file is designed to get you started with the import.
-solution: Analytics
 subtopic: Data sources
 title: Generate an import file template
 topic: Developer and implementation

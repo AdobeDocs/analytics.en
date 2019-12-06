@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Deploying the Integration
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 ---

@@ -1,7 +1,6 @@
 ---
 description: The number of times that a value was set for a variable.
 keywords: instances
-solution: Analytics
 title: Instances
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f

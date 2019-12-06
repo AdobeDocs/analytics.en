@@ -1,7 +1,6 @@
 ---
 description: Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
-solution: Analytics
 title: Add Adobe Analytics tool
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0

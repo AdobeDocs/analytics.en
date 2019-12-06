@@ -1,7 +1,6 @@
 ---
 description: If you want to track additional information, but don't have enough variables to do so, you now have access to additional eVars and success events 
 keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
-solution: Analytics
 title: Additional eVars and events
 topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f

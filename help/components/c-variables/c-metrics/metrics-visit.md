@@ -1,7 +1,6 @@
 ---
 description: A sequence of page views in a sitting. The visits metric is commonly used in reports that display the number of user sessions within the selected time period.
 keywords: visit
-solution: Analytics
 title: Visit
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a

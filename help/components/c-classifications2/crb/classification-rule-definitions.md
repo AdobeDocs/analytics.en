@@ -1,6 +1,5 @@
 ---
 description: Definitions of interface elements on the pages in the Classification Rule Builder.
-solution: Analytics
 subtopic: Classifications
 title: Classification rules - definitions
 topic: Admin tools

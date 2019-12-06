@@ -1,6 +1,5 @@
 ---
 description: Deploying this integration is a simple 3-step process.
-solution: Analytics
 title: Deploying the Integration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 ---

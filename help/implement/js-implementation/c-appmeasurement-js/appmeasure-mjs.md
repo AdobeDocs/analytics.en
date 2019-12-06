@@ -1,7 +1,6 @@
 ---
 description: AppMeasurement for JavaScript is a new library that provides the same core functionality of s_code.js, but is lighter and faster for use on both mobile and desktop sites.
 keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: About AppMeasurement for JavaScript
 topic: Developer and implementation

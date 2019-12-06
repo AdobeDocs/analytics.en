@@ -1,6 +1,5 @@
 ---
 description: Code manager lets you download data collection code for web and mobile platforms.
-solution: Analytics
 title: Code Manager
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e

@@ -1,7 +1,6 @@
 ---
 description: Gets the page load time in tenths of a second and lets you store the value in a prop, eVar, and/or a numeric event.
 keywords: Analytics Implementation
-solution: Analytics
 title: getLoadTime
 topic: Developer and implementation
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3

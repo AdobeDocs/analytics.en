@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation
-solution: Analytics
 title: Implement Adobe opt-outs
 topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019

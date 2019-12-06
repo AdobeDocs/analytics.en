@@ -1,7 +1,6 @@
 ---
 description: The tables below display the report to variable mapping, or the reports and the variables that are used in them.
 keywords: Analytics Implementation
-solution: Analytics
 title: Report to variable mapping
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa

@@ -1,6 +1,5 @@
 ---
 description: The installation process varies depending on which browser you are using.
-solution: Analytics
 title: Install Activity Map browser plug-ins
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60

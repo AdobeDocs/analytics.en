@@ -1,6 +1,5 @@
 ---
 description: Steps for starting link tracking in Activity Map or Legacy ClickMap.
-solution: Analytics
 title: Start link tracking
 topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9

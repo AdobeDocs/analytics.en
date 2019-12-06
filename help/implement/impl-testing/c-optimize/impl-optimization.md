@@ -1,7 +1,6 @@
 ---
 description: Analytics deployment is organized into three major steps.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Optimization overview
 topic: Developer and implementation

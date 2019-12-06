@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to escape classification data in the classification file.
-solution: Analytics
 subtopic: Classifications
 title: Escape classification data
 topic: Admin tools

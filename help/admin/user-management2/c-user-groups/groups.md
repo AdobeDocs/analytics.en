@@ -1,6 +1,5 @@
 ---
 description: Descriptions of elements on the Define User Group page.
-solution: Analytics
 subtopic: Users and groups
 title: User group settings
 topic: Admin tools

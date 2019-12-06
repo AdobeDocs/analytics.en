@@ -1,6 +1,5 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: What is cohort analysis?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c

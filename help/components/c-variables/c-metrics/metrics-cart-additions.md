@@ -1,6 +1,5 @@
 ---
 description: The number of times an item was added to a shopping cart. This value comes from the scAdd event.
-solution: Analytics
 title: Cart Additions
 topic: Metrics
 uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5

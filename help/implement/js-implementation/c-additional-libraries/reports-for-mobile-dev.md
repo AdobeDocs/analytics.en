@@ -1,7 +1,6 @@
 ---
 description: Because mobile devices are tracked via a beacon, just like other visitors, most reports are available and correct.
 keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
-solution: Analytics
 title: Reports for devices using mobile protocols
 topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee

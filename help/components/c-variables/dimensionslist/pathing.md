@@ -1,6 +1,5 @@
 ---
 description: A group of reports based on path analysis. Technically, pathing means to move from one page name to another (from one value to another).
-solution: Analytics
 title: Pathing
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da

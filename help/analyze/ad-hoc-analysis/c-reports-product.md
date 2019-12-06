@@ -1,6 +1,5 @@
 ---
 description: Displays information about the things you are selling, distributing, or displaying on your website. You can see data on orders or downloads for your products, applications, or content.
-solution: Analytics
 title: Products reports
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d

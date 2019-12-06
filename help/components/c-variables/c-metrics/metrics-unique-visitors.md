@@ -1,6 +1,5 @@
 ---
 description: In version 14, a unique visitor refers to a visitor who visits a site for the first time within a specified time period. For example, the unique visitor can visit a site ten times in a week, but if the time period is week, a single unique visitor is counted only once for that week. After that week is ended, that unique visitor can be counted again for a different time period.
-solution: Analytics
 title: Unique Visitors
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7

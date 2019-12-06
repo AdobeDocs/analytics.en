@@ -1,6 +1,5 @@
 ---
 description: You can provide custom report descriptions for eVars, props, classifications and events. The descriptions are visible to all of your end users.
-solution: Analytics
 title: Custom Report Descriptions
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff

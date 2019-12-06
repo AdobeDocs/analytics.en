@@ -1,6 +1,5 @@
 ---
 description: Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
-solution: Analytics
 subtopic: Data sources
 title: Transaction ID
 topic: Developer and implementation

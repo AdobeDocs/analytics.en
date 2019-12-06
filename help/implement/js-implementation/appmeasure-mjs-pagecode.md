@@ -1,7 +1,6 @@
 ---
 description: This section contains example code for your core JavaScript file and the pages on your site.
 keywords: Analytics Implementation;appmeasurement.js code;example page code
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Example page code and global configuration
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: Data source categories identify different data source types that provide similar functionality.
-solution: Analytics
 subtopic: Data sources
 title: Overview of data types and categories
 topic: Developer and implementation

@@ -1,7 +1,6 @@
 ---
 description: Lists the available measurement libraries.
 keywords: Analytics Implementation;collect;data;collection
-solution: Analytics
 title: Overview of additional libraries
 topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e

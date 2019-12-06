@@ -1,6 +1,5 @@
 ---
 description: The number of unduplicated (counted only once) visitors to your website over the course of a single day. The visit for the Daily Unique Visitor ends at midnight for the time zone selected in the report suite.
-solution: Analytics
 title: Daily Unique Visitors
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3

@@ -1,7 +1,6 @@
 ---
 description: Connecting without a password to FTP accounts is only possible using both an SFTP connection and an alternative authentication method. This involves a set of two files (one to reside on the FTP account and the other to reside on your computer) called a public and private key combination.
 keywords: ftp;sftp
-solution: Analytics
 title: Connect to Adobe via SFTP without a password
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 ---

@@ -1,6 +1,5 @@
 ---
 description: The number of unduplicated (counted only once) visitors to your website over the course of a single month.
-solution: Analytics
 title: Monthly Unique Visitors
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6

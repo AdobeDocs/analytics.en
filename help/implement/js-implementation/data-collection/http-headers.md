@@ -1,7 +1,6 @@
 ---
 description: HTTP request and response headers are used to collect additional data beyond what is collected by AppMeasurement. This section describes the headers used during data collection.
 keywords: Analytics Implementation
-solution: Analytics
 title: Data collection HTTP headers
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b

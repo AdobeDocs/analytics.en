@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to add or edit conversion variables.
-solution: Analytics
 title: Edit conversion variables
 topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1

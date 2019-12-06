@@ -1,6 +1,5 @@
 ---
 description: Displays the amount of time visitors spend on the page
-solution: Analytics
 title: Time Spent on Page
 topic: Reports
 ---

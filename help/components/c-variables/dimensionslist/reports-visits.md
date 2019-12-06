@@ -1,6 +1,5 @@
 ---
 description: Displays the number of visits made to your entire website during a specified time period.
-solution: Analytics
 title: Visits
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7

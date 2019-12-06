@@ -1,7 +1,6 @@
 ---
 description: Using adobe.com as an example, the implementations described here reference the same visid cookie.
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementation example
 topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893

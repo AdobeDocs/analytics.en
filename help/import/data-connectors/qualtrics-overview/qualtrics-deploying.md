@@ -1,6 +1,5 @@
 ---
 description: Deploying this integration is a simple process that requires the following actions.
-solution: Analytics
 subtopic: Qualtrics
 title: Deploying the Integration
 topic: Data connectors

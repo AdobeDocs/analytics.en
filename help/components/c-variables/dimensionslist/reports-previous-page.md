@@ -1,6 +1,5 @@
 ---
 description: A path report that provides detailed site path analysis by showing you the pages on your site that visitors viewed prior to seeing a selected page on your site.
-solution: Analytics
 title: Previous Page
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480

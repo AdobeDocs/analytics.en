@@ -1,6 +1,5 @@
 ---
 description: Rolls up the specific versions from the Operating Systems report in the Operating Systems Report into major operating system types for simplified reporting and segmentation.
-solution: Analytics
 title: Operating System Types
 topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5

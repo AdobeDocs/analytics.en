@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to add a user to a group.
-solution: Analytics
 subtopic: Users and groups
 title: Add a user to a group
 topic: Admin tools

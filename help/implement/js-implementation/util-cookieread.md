@@ -1,7 +1,6 @@
 ---
 description: Gets the value for a cookie.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieRead
 topic: Developer and implementation

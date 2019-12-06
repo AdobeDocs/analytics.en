@@ -1,7 +1,6 @@
 ---
 description: Segments are custom subsets of data, or data filtered by rules that you create.
 keywords: Analytics Implementation;segment
-solution: Analytics
 title: Segments
 topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a

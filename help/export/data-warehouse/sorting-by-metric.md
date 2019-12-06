@@ -1,6 +1,5 @@
 ---
 description: Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value.
-solution: Analytics
 title: Sort by Metric
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 ---

@@ -1,6 +1,5 @@
 ---
 description: A token is required to complete the integration wizard. To find this ID, complete the following.
-solution: Analytics
 subtopic: Qualtrics
 title: Generating your Qualtrics Adobe Analytics Token
 topic: Data connectors

@@ -1,6 +1,5 @@
 ---
 description: Traffic classifications allow you to classify traffic variables (props). Traffic classifications can use only text classifications.
-solution: Analytics
 subtopic: Classifications
 title: Traffic classifications
 topic: Admin tools

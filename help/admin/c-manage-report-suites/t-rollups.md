@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to create a rollup report suite.
-solution: Analytics
 title: Create a rollup report suite
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021

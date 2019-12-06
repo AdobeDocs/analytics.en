@@ -1,6 +1,5 @@
 ---
 description: You can copy cells mapped with more than one request and paste the content to an empty, selected region of the spreadsheet.
-solution: Analytics
 title: Copy requests overview
 topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1

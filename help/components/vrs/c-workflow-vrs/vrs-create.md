@@ -1,7 +1,6 @@
 ---
 description: Before you start creating virtual report suites, here are a few things to keep in mind.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Create virtual report suites
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8

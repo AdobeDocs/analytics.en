@@ -1,6 +1,5 @@
 ---
 description: Processing rules are set on report suites.
-solution: Analytics
 subtopic: Processing rules
 title: Create processing rules
 topic: Admin tools

@@ -1,6 +1,5 @@
 ---
 description: The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
-solution: Analytics
 title: Page details
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606

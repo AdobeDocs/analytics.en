@@ -1,6 +1,5 @@
 ---
 description: Displays information about the order in which pages of your website are accessed. You can gather information about where a visitor goes before and after any page visited on your site.
-solution: Analytics
 title: Paths reports
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2

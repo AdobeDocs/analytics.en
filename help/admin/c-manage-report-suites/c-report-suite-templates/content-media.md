@@ -1,6 +1,5 @@
 ---
 description: Defines common settings for a website that develops original content and displays articles and videos.
-solution: Analytics
 title: Content and Media
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d

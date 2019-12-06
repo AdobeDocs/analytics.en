@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Responsys Data Connector for Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 ---

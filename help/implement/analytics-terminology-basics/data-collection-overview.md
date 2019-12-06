@@ -1,7 +1,6 @@
 ---
 description: Learn how visits to your web site become a report in Adobe Analytics.
 keywords: Analytics Implementation;data collection
-solution: Analytics
 title: Data Collection
 topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af

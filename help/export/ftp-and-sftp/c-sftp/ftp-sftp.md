@@ -1,7 +1,6 @@
 ---
 description: SFTP is a secure protocol for transferring data that ensures that nobody can see your data but you. Adobe Engineering Services can set up an SFTP account to securely retain your data.
 keywords: ftp;sftp
-solution: Analytics
 title: Secure File Transfer Protocol - overview
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 ---

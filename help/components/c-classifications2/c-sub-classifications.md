@@ -1,6 +1,5 @@
 ---
 description: Adobe Analytics support both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
-solution: Analytics
 subtopic: Classifications
 title: About sub-classifications
 topic: Admin tools

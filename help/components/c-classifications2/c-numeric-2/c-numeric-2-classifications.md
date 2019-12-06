@@ -1,6 +1,5 @@
 ---
 description: Numeric 2 classifications provide custom, flexible metrics that you can import into the Adobe Experience Cloud via the importer.
-solution: Analytics
 subtopic: Classifications
 title: Numeric 2 classifications overview
 topic: Admin tools

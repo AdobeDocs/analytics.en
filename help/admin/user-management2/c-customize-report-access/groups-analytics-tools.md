@@ -1,7 +1,6 @@
 ---
 description: Enable user permissions for General items (billing, logs, etc.), Company Management, Tools, Web Service Access, Report Builder, and Data Connectors integration.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Customize Analytics Tools permissions
 topic: Admin tools

@@ -1,6 +1,5 @@
 ---
 description: Customer Loyalty reveals purchasing patterns of customers.
-solution: Analytics
 title: Customer Loyalty
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402

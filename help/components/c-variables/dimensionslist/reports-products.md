@@ -1,6 +1,5 @@
 ---
 description: Identifies how individual products and groups of products (categories) contribute to your various conversion metrics, such as Revenue or Checkouts.
-solution: Analytics
 title: Products
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49

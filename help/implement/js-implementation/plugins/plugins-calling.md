@@ -1,7 +1,6 @@
 ---
 description: JavaScript plug-ins are usually called by the doPlugins function, which is executed when the t() function is called in the Code to Paste.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: Call plug-ins with doPlugins function
 topic: Developer and implementation

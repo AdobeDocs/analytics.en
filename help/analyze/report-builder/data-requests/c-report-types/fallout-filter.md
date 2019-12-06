@@ -1,6 +1,5 @@
 ---
 description: Describes the steps involved in applying filters to a fallout report.
-solution: Analytics
 title: Filter a Fallout Report Using the Request Wizard
 topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18

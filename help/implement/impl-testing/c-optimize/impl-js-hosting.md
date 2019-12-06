@@ -1,7 +1,6 @@
 ---
 description: Placing the call to the JavaScript library file at the top of the page ensures that the image is among the first elements to be downloaded.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: JavaScript file location and concurrence
 topic: Developer and implementation

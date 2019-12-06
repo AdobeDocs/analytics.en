@@ -1,6 +1,5 @@
 ---
 description: Field descriptions for the Scheduled Task Manager.
-solution: Analytics
 title: Scheduled Task Manager
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8

@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Key Benefits and Features
 uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 ---

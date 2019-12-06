@@ -1,6 +1,5 @@
 ---
 description: Defines common settings for a job portal or career search website.
-solution: Analytics
 title: Job portal
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e

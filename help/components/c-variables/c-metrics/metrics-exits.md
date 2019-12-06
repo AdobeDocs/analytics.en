@@ -1,6 +1,5 @@
 ---
 description: The number of times a given value is captured as the last value in a visit. Exits can occur only once per visit.
-solution: Analytics
 title: Exits
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50

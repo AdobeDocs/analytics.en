@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to delete or remove classification data.
-solution: Analytics
 subtopic: Classifications
 title: Delete classification data
 topic: Admin tools

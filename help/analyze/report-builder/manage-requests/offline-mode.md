@@ -1,6 +1,5 @@
 ---
 description: Offline mode returns placeholder data to speed up the process of creating and editing requests.
-solution: Analytics
 title: Offline mode for creating and editing requests
 topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8

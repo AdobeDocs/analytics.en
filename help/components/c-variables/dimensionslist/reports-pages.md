@@ -1,6 +1,5 @@
 ---
 description: Ranks the pages on your site based on the pages that receive the most traffic. If your business question deals with quantitative data for pages, you can use this report to answer that question, by adding the right metrics.
-solution: Analytics
 title: Pages
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43

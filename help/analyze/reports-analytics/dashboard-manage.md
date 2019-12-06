@@ -1,6 +1,5 @@
 ---
 description: Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
-solution: Analytics
 subtopic: Dashboards
 title: Dashboard Manager
 topic: Reports and analytics

@@ -1,6 +1,5 @@
 ---
 description: Defines common settings for an e-commerce website.
-solution: Analytics
 title: Commerce
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c

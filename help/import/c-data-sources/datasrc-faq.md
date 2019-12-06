@@ -1,6 +1,5 @@
 ---
 description: This topic provides answers to common questions.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources FAQ
 topic: Developer and implementation

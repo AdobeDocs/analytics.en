@@ -1,6 +1,5 @@
 ---
 description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
-solution: Analytics
 subtopic: Classifications
 title: About classifications
 topic: Admin tools

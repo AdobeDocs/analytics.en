@@ -1,6 +1,5 @@
 ---
 description: Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons.
-solution: Analytics
 title: Reports overview
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf

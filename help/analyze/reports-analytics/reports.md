@@ -1,6 +1,5 @@
 ---
 description: Information about the basic report types, including Traffic, Conversion, and Paths.
-solution: Analytics
 title: Report types
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97

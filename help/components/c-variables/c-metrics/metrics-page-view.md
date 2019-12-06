@@ -1,6 +1,5 @@
 ---
 description: A Page View is counted for each server call that is sent. This metric represents total instances of Page View. TrackLink calls are not counted as page views and do not increment the Page Views metric.
-solution: Analytics
 title: Page View
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90

@@ -1,6 +1,5 @@
 ---
 description: Information about the Data Sources template, which provides a data framework suitable for submitting a specific set of external data to Data Sources.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources template overview
 topic: Developer and implementation

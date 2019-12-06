@@ -1,6 +1,5 @@
 ---
 description: Adobe Analytics offers various Time Spent metrics and dimensions. Find out what they are and how they are calculated.
-solution: Analytics
 title: Time Spent
 topic: Metrics
 ---

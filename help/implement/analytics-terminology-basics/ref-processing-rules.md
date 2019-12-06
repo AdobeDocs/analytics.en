@@ -1,7 +1,6 @@
 ---
 description: Processing rules simplify data collection and manage content as it is sent to reports.
 keywords: Analytics Implementation;processing rules;rules
-solution: Analytics
 title: Processing Rules
 topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92

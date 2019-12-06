@@ -1,7 +1,6 @@
 ---
 description: Configuring the DFA integration involves the following tasks 
 keywords: DFA
-solution: Analytics
 title: DFA Integration
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e

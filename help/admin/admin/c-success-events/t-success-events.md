@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to configure success events.
-solution: Analytics
 title: Configure success events
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d

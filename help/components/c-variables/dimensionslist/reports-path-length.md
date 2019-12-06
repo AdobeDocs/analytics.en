@@ -1,6 +1,5 @@
 ---
 description: Displays, by percentage and by total count, the depth of each visit to your site. In other words, the report indicates how many pages the average visitor to your site views before leaving.
-solution: Analytics
 title: Path Length
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239

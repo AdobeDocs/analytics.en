@@ -1,6 +1,5 @@
 ---
 description: You can change several requests at the same time, based on the request's report suite, granularity, and date range.
-solution: Analytics
 title: Edit multiple requests
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d

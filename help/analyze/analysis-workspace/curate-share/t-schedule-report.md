@@ -1,7 +1,6 @@
 ---
 description: Send an Analysis Workspace project via email, or schedule it for delivery.
 keywords: Analysis Workspace
-solution: Analytics
 title: Send file - schedule a project for delivery
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a

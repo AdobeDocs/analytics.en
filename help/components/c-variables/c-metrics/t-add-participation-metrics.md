@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to add participation metrics.
-solution: Analytics
 title: Add Participation metrics
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434

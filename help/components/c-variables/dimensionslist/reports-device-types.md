@@ -1,6 +1,5 @@
 ---
 description: Groups mobile devices into mobile phones, tablets, e-readers, gaming consoles, televisions, set-top boxes, media players and other high-level categories to let you see the distribution between mobile device types.
-solution: Analytics
 title: Device Types
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3

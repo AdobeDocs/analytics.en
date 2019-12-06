@@ -1,6 +1,5 @@
 ---
 description: Manage license assigned to report builder users.
-solution: Analytics
 title: Report Builder reports
 topic: Admin tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef

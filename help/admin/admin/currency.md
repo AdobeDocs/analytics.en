@@ -1,6 +1,5 @@
 ---
 description: Currency codes used in the Experience Cloud.
-solution: Analytics
 title: Currency Codes
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533

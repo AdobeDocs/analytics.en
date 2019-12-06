@@ -1,6 +1,5 @@
 ---
 description: Displays the hierarchical layout of the pages on your website and displays those pages in order based on how they are configured in the hierN variable. This report is populated using proper variable configuration that you set for each page that you want to take part in the hierarchy. This report lets you see selected metrics (such as Unique Visitors) for the hierarchy.
-solution: Analytics
 title: Hierarchy
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff

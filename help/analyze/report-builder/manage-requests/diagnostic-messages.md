@@ -1,6 +1,5 @@
 ---
 description: Diagnostic messages provide you information about the status of the request when you refresh it.
-solution: Analytics
 title: Diagnostic messages
 topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01

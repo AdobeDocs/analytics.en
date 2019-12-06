@@ -1,6 +1,5 @@
 ---
 description: You can add metrics and dimensions to the Request Wizard  Step 2 to define the Analytics layout of the data in your request. The list of metrics and dimensions in Report Builder follow the menu layout displayed in Reports and Analytics.
-solution: Analytics
 title: Metrics and dimensions overview
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c

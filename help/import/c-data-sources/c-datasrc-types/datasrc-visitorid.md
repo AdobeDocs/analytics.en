@@ -1,6 +1,5 @@
 ---
 description: Visitor IDs can be integrated by selecting the Generic (Transaction ID) category.
-solution: Analytics
 subtopic: Data sources
 title: Visitor ID
 topic: Developer and implementation

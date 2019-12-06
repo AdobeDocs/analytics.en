@@ -1,6 +1,5 @@
 ---
 description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
-solution: Analytics
 title: Import bookmarked reports and dashboard reportlets
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d

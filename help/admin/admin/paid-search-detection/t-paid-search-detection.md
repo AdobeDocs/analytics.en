@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to configure Paid Search Detection.
-solution: Analytics
 title: Configure paid search detection
 topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25

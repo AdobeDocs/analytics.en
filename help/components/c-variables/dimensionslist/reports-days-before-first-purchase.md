@@ -1,6 +1,5 @@
 ---
 description: Displays the number of days that pass between the first time customers visit your site and when they finally make a purchase.
-solution: Analytics
 title: Days Before First Purchase
 topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b

@@ -1,6 +1,5 @@
 ---
 description: Shows the areas of your site that are accessed most by your visitors. Site Sections can include groups of products, similar to categories, which you define. For example, you might have a Cameras group of pages, a Computers group, and so on. Data for the Conversion Site Sections Report is imported from the Site Section Report in the Traffic group, which receives its information from the channel variable in the tracking code. You can use this report to identify the greatest impact on site statistics from items in varying site sections.
-solution: Analytics
 title: Site Sections
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416

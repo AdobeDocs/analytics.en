@@ -1,7 +1,6 @@
 ---
 description: Describes how to calculate common metrics using data feeds.
 keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
-solution: Analytics
 title: Calculate metrics
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7

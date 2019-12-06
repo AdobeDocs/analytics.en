@@ -1,6 +1,5 @@
 ---
 description: Events can be set based on page values or based on specific values in a variable.
-solution: Analytics
 subtopic: Processing rules
 title: Set the product view event from the product overview page
 topic: Admin tools

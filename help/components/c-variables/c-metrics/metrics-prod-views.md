@@ -1,6 +1,5 @@
 ---
 description: Instance of the Product View being set. Occurs when the product detail page is viewed. This value comes from the prodView event.)
-solution: Analytics
 title: Product Views
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b

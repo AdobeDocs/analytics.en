@@ -1,6 +1,5 @@
 ---
 description: Displays information about the places on the Web that drive traffic to your site. You can see which search engines and web sites outside your domain send visitors to you.
-solution: Analytics
 title: Traffic Sources
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8

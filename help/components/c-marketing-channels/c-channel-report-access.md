@@ -1,6 +1,5 @@
 ---
 description: Describes how to run the Marketing Channel report, grant limited admin user rights, and user group permissions to report.
-solution: Analytics
 subtopic: Marketing channels
 title: Report Access
 topic: Reports and analytics

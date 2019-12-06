@@ -1,6 +1,5 @@
 ---
 description: Steps you can take to prepare to use data sources
-solution: Analytics
 subtopic: Data sources
 title: Preparing to use Data Sources
 topic: Developer and implementation

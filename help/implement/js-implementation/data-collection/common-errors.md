@@ -1,7 +1,6 @@
 ---
 description: Common errors in dynamic accounts are described in the following sections.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Common errors
 topic: Developer and implementation

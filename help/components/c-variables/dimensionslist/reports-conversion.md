@@ -1,6 +1,5 @@
 ---
 description: Provides comprehensive, accurate, and detailed analysis of customer activity. Metrics such as campaign management, sales cycle, customer fallout, and customer conversion let you measure e-commerce transactions, sources of sales, advertising effectiveness, customer loyalty, and more.
-solution: Analytics
 title: Conversion
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd

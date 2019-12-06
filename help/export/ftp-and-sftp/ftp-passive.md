@@ -1,7 +1,6 @@
 ---
 description: Active FTP vs. passive FTP controls how the port connections are established, and the choice has some firewall implications.
 keywords: ftp;sftp
-solution: Analytics
 title: Use passive FTP mode
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
 ---

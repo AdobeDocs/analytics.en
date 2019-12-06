@@ -1,7 +1,6 @@
 ---
 description: Configuration variables set in AppMeasurement.js.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Configuration variables
 topic: Developer and implementation

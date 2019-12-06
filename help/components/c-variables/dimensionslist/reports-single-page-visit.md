@@ -1,6 +1,5 @@
 ---
 description: Not to be mistaken with the Single Page Visits metric in Ad Hoc Analysis, the Single Page Visits report shows the pages your website visitors enter and exit, without taking steps to view any other pages.
-solution: Analytics
 title: Single Page Visit
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4

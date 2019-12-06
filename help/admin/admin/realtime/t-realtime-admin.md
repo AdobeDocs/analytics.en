@@ -1,6 +1,5 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
-solution: Analytics
 title: Real-time reports configuration
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8

@@ -1,6 +1,5 @@
 ---
 description: Event in which the contents of the shopping cart are viewed by the customer. This value comes from the scView event.
-solution: Analytics
 title: Cart Views
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed

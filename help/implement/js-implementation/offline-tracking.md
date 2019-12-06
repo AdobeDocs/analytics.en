@@ -1,7 +1,6 @@
 ---
 description: The following variables and functions let you store measurement calls when the application is offline.
 keywords: Analytics Implementation
-solution: Analytics
 title: Offline tracking
 topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b

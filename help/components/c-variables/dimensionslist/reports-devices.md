@@ -1,6 +1,5 @@
 ---
 description: Displays a detailed list of the mobile devices used to access your site.
-solution: Analytics
 title: Devices
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115

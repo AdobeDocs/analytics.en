@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to log in to Report Builder.
-solution: Analytics
 title: Sign in to Report Builder
 topic: Report builder
 uuid: 94944ce3-499d-4d3f-954b-c241267d4e92

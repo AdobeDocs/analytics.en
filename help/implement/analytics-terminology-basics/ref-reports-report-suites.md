@@ -1,7 +1,6 @@
 ---
 description: A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. Usually, a report suite is one website, but it can be a global segment where you have combined several sites' numbers to get totals. When you log in to the marketing reports, ad hoc analysis, and report builder, you select one report suite to use (except when you use roll-ups that combine report suites).
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: Reports and Report Suites
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17

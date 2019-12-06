@@ -1,6 +1,5 @@
 ---
 description: Displays data about visitor location. GeoSegmentation reports include Countries, Regions, Cities, U.S. States, and U.S. DMA (digital marketing area). GeoSegmentation reports are enabled for all customers.
-solution: Analytics
 title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23

@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Time Spent per Visit
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13

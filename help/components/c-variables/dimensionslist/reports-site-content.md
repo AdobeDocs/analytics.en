@@ -1,6 +1,5 @@
 ---
 description: Displays information about which pages and areas of your site are most active and which servers are getting the most use.
-solution: Analytics
 title: Site Content
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb

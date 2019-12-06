@@ -1,6 +1,5 @@
 ---
 description: Various reports in Adobe Analytics can show Unspecified, Other, or Unknown, depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable.
-solution: Analytics
 title: Unspecified, Other, and Unknown in reporting
 ---
 

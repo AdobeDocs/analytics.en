@@ -1,6 +1,5 @@
 ---
 description: Defines common settings for a website that aggregates content, such as a news portal.
-solution: Analytics
 title: Aggregator portal
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51

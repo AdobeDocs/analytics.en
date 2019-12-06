@@ -1,7 +1,6 @@
 ---
 description: Describes how instances are counted on merchandising variables.
 keywords: Analytics Implementation
-solution: Analytics
 title: Instances on merchandising variables
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece

@@ -1,7 +1,6 @@
 ---
 description: Private Network Peering enables data to pass from an ISP's network to the Analytics network more efficiently.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Peering
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
-solution: Analytics
 title: Manage segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0

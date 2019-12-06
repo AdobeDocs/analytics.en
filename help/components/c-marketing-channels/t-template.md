@@ -1,6 +1,5 @@
 ---
 description: How to use a master report suite as a template for testing your marketing channel configuration. To save time, you can apply this template to one or more production report suites in a mass update. You perform this task for channels and rule sets separately.
-solution: Analytics
 subtopic: Marketing channels
 title: Apply template report suite settings to multiple report suites
 topic: Reports and analytics

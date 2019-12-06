@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to install Report Builder.
-solution: Analytics
 title: Install Report Builder
 topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e

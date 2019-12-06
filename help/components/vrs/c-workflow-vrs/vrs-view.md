@@ -1,7 +1,6 @@
 ---
 description: Click the i (Info) icon next to the report suite name to get info about it.
 keywords: Virtual Report Suite
-solution: Analytics
 title: View virtual report suite information
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a

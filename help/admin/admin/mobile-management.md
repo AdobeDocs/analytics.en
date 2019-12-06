@@ -1,6 +1,5 @@
 ---
 description: Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
-solution: Analytics
 title: Mobile Management
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de

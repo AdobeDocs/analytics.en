@@ -1,6 +1,5 @@
 ---
 description: Add or enable marketing channels in the Marketing Channel Manager. For report suites that have no marketing channels, an automatic setup lets you create several channels for you, along with their rules. You can edit predefined channels to suit your needs, or create your own (up to a total of 25).
-solution: Analytics
 subtopic: Marketing channels
 title: Manage marketing channels
 topic: Reports and analytics

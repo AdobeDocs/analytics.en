@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to designate which eVar contains your visitor identifier.
-solution: Analytics
 title: Specify the Unique Visitor variable
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2

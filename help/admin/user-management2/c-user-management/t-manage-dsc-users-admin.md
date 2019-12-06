@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to add, edit, or delete ad hoc analysis users.
-solution: Analytics
 subtopic: Users and groups
 title: Manage Ad Hoc Analysis users
 topic: Admin tools

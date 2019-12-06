@@ -1,7 +1,6 @@
 ---
 description: Information about special characters used in the data feed.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
-solution: Analytics
 subtopic: data feeds
 title: Special characters in data feeds
 topic: Reports and analytics

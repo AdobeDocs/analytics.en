@@ -1,6 +1,5 @@
 ---
 description: Cumulative release notes for Legacy JavaScript H code.
-solution: Analytics
 subtopic: Release notes
 title: JavaScript H Code - Legacy
 topic: Developer and implementation

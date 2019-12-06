@@ -1,6 +1,5 @@
 ---
 description: Displays information about your customer loyalty. You can see how many and how often visitors return to your site. Reports in this category display information about customer loyalty. You can see how many and how often visitors return to your site.
-solution: Analytics
 title: Visitor Retention
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a

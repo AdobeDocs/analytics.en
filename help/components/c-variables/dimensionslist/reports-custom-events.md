@@ -1,6 +1,5 @@
 ---
 description: The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.
-solution: Analytics
 title: Custom Events
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14

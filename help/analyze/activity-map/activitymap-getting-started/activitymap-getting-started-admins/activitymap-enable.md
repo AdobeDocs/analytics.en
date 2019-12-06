@@ -1,6 +1,5 @@
 ---
 description: Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
-solution: Analytics
 title: Enable Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2

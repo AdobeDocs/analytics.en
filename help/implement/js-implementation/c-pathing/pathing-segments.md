@@ -1,7 +1,6 @@
 ---
 description: Segmenting paths by user type is a common request for trying to understand how specific user types path on your site.
 keywords: Analytics Implementation
-solution: Analytics
 title: Segment paths by user type
 topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361

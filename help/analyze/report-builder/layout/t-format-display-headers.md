@@ -1,6 +1,5 @@
 ---
 description: You can name your report and configure how to display row and column headers. The Format Options link is available for the Pivot and Custom Layout types.
-solution: Analytics
 title: Format display headers
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68

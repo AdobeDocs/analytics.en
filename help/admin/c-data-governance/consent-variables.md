@@ -1,6 +1,5 @@
 ---
 description: Variables for privacy reporting in Data Privacy.
-solution: Analytics
 title: Privacy Reporting Variables
 topic: Admin tools
 ---

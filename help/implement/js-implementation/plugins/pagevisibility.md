@@ -1,7 +1,6 @@
 ---
 description: Records the number of seconds your page was the active tab within the browser, and passes that value into a metric on the next page view.
 keywords: Analytics Implementation
-solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e

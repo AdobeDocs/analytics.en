@@ -1,6 +1,5 @@
 ---
 description: Cumulative release notes for Flash. Flash apps using ActionScript can be measured on the desktop and on the web.
-solution: Analytics
 subtopic: Release notes
 title: Flash-Flex
 topic: Developer and implementation

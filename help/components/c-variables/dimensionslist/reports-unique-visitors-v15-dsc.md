@@ -1,6 +1,5 @@
 ---
 description: Shows you the number of unique visitors who accessed your site. Each visitor is counted once, regardless of how many times the person visits your website.
-solution: Analytics
 title: Unique Visitors
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752

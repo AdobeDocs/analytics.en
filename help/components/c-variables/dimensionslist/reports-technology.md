@@ -1,6 +1,5 @@
 ---
 description: These reports display information about browsers, operating systems, monitor resolutions, and so on, that visitors use.
-solution: Analytics
 title: Technology
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc

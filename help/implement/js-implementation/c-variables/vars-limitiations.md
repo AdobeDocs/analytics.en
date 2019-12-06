@@ -1,7 +1,6 @@
 ---
 description: High-level look at variables and their limitations.
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: Variables and limitations
 topic: Developer and implementation

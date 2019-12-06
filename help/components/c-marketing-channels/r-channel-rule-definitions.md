@@ -1,6 +1,5 @@
 ---
 description: This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
-solution: Analytics
 subtopic: Marketing channels
 title: Marketing Channel processing rules - definitions
 topic: Reports and analytics

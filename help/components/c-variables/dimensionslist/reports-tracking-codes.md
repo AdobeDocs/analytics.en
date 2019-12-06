@@ -1,6 +1,5 @@
 ---
 description: Measures how various advertising tracking codes affect different conversion events on your site. This report can be used to measure what specific campaigns are performing better for different success events, or to see how campaigns are helping or hindering your site's initiatives, such as which campaigns are generating the most revenue.
-solution: Analytics
 title: Tracking Codes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25

@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: DFA
-solution: Analytics
 title: Prerequisites
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94

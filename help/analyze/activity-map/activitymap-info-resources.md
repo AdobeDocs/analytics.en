@@ -1,6 +1,5 @@
 ---
 description: Access additional information resources for Adobe Activity Map.
-solution: Analytics
 title: Knowledge resources
 topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318

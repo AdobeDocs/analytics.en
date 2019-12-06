@@ -1,6 +1,5 @@
 ---
 description: If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
-solution: Analytics
 title: Settings not copied from a source report suite
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52

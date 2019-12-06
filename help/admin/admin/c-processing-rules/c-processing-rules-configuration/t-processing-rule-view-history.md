@@ -1,6 +1,5 @@
 ---
 description: Changes to processing rules can be viewed in History.
-solution: Analytics
 subtopic: Processing rules
 title: View processing rule history
 topic: Admin tools

@@ -1,6 +1,5 @@
 ---
 description: The Traffic Data source has been deprecated and no longer works.
-solution: Analytics
 subtopic: Data sources
 title: Traffic
 topic: Developer and implementation

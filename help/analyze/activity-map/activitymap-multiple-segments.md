@@ -1,6 +1,5 @@
 ---
 description: Lets you apply a multiple-segment filter within Activity Map.
-solution: Analytics
 title: Customer segmentation
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb

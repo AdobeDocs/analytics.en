@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Using the Integration
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 ---

@@ -1,6 +1,5 @@
 ---
 description: Shows metrics based on whether the device has JavaScript enabled, disabled, or whether it is counted as "unidentified".
-solution: Analytics
 title: JavaScript Support
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d

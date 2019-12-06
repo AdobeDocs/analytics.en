@@ -1,7 +1,6 @@
 ---
 description: Describes what a hash collision is and how it can manifest.
 keywords: Analytics Implementation;hash;collision;prop;evar;hash
-solution: Analytics
 title: Hash collisions
 topic: Developer and implementation
 uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6

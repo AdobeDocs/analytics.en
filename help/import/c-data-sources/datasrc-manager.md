@@ -1,6 +1,5 @@
 ---
 description: Create, manage, and view the use of data sources in a report suite.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources Manager
 topic: Developer and implementation

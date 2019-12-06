@@ -1,6 +1,5 @@
 ---
 description: You can use the s.tl() function to track custom elements and to configure overlay rendering for dynamic content.
-solution: Analytics
 title: Use the s.tl() function
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711

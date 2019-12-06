@@ -1,7 +1,6 @@
 ---
 description: Many customers have variables declared, but no value is assigned to the variable.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: HTML code snippet
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: Information about how Adobe provides access to Data Sources.
-solution: Analytics
 subtopic: Data sources
 title: How Data Sources works
 topic: Developer and implementation

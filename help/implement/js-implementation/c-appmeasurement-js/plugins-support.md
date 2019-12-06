@@ -1,7 +1,6 @@
 ---
 description: Plug-in support has changed in the new version of JavaScript AppMeasurement.
 keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: AppMeasurement plug-in support
 topic: Developer and implementation

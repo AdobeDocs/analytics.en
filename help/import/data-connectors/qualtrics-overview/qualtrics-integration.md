@@ -1,6 +1,5 @@
 ---
 description: After the deployment is complete, you can begin using the additional capabilities that this integration provides.
-solution: Analytics
 subtopic: Qualtrics
 title: Using the Integration
 topic: Data connectors

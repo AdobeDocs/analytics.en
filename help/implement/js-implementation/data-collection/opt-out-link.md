@@ -1,7 +1,6 @@
 ---
 description: Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe's analytics products by visiting the opt-out page for your data collection domain.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Add an opt-out link
 topic: Developer and implementation

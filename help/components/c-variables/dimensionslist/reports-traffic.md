@@ -1,6 +1,5 @@
 ---
 description: Traffic reports give you in-depth insight into how visitors interact with your website.
-solution: Analytics
 title: Traffic
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc

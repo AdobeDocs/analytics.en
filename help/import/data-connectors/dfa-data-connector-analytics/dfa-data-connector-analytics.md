@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: DFA
-solution: Analytics
 title: DFA Data Connector for Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474

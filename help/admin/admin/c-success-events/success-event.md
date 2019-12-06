@@ -1,7 +1,6 @@
 ---
 description: Success events are actions that can be tracked. You determine what a success event is. For example, if a visitor purchases an item, the purchase event could be considered the success event.
 keywords: event
-solution: Analytics
 title: Success events overview
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0

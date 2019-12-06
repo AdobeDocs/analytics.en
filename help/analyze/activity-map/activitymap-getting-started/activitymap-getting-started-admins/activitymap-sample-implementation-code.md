@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 title: Sample implementation code
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28

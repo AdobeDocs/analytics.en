@@ -1,6 +1,5 @@
 ---
 description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
-solution: Analytics
 title: Supported real-time metrics and dimensions
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4

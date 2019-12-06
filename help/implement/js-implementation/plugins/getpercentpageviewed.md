@@ -1,7 +1,6 @@
 ---
 description: Measures a visitor's scroll activity to see how much of a page they view before moving on to another page. This plugin lets you determine how much of your content users are seeing on average, so that you can optimize your page lengths and layouts based on user behaviors.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: Shows averages for the Product Views, Cart Additions, Orders, Revenue, and Units metrics. It also shows key conversions between important data in each reporting group and standard conversion metrics (Orders, Units, and Revenue). The top (overview) of the funnel provides a visual summary of conversion data. The funnel section shows statistics for all events in the overview section based on Orders and up to two other metrics, such as Revenue and Units.
-solution: Analytics
 title: Products Conversion Funnel
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d

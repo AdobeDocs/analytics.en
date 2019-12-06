@@ -1,7 +1,6 @@
 ---
 description: List of predefined events.
 keywords: Analytics Implementation;event
-solution: Analytics
 title: What is a predefined event?
 topic: Developer and implementation
 uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da

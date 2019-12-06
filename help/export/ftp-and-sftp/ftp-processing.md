@@ -1,7 +1,6 @@
 ---
 description: Processing time for any FTP file, whether for classifications or Data Sources, is based on the number of files already in the processing queue and the size of your file.
 keywords: ftp;sftp
-solution: Analytics
 title: FTP processing times
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 ---

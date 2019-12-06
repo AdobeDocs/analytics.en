@@ -1,6 +1,5 @@
 ---
 description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
-solution: Analytics
 title: Real-time reporting overview
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1

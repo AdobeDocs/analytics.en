@@ -1,7 +1,6 @@
 ---
 description: The length of Analytics variables can impact the size of the HTML code snippet, JavaScript library file, and image request.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Variable length
 topic: Developer and implementation

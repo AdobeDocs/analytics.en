@@ -1,7 +1,6 @@
 ---
 description: Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the visitor ID variable, s.visitorID, to associate a user across devices.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Connect users across devices
 topic: Developer and implementation

@@ -1,6 +1,5 @@
 ---
 description: Manage report users and groups on the User Management page lets you manage users and groups, and control access to reports, tools and report suites.
-solution: Analytics
 subtopic: Users and groups
 title: User management overview
 topic: Admin tools

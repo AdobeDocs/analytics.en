@@ -1,7 +1,6 @@
 ---
 description: Frequently asked questions around data feeds
 keywords: Data Feed;job;pre column;post column;case sensitivity
-solution: Analytics
 title: Data feeds FAQ
 ---
 

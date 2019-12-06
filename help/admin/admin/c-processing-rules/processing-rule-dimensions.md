@@ -1,6 +1,5 @@
 ---
 description: The dimensions that you can read and write (unless otherwise noted) using processing rules.
-solution: Analytics
 subtopic: Processing rules
 title: Dimensions available to processing rules
 topic: Admin tools

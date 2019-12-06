@@ -1,6 +1,5 @@
 ---
 description: Descriptions of report types used in Experience Cloud.
-solution: Analytics
 title: Report types
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5

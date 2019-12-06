@@ -1,6 +1,5 @@
 ---
 description: The Request Wizard  Step 2 window lets you configure the report layout, header formatting, and dimension filtering for output. You can use a Pivot Layout to configure the request, which is similar how you create an Excel pivot table.
-solution: Analytics
 title: Layout - Request Wizard Step 2
 topic: Report builder
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7

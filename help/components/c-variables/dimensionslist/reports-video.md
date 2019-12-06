@@ -1,6 +1,5 @@
 ---
 description: Displays information about your online media access statistics. Reports display data on video and other media access.
-solution: Analytics
 title: Video
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f

@@ -1,6 +1,5 @@
 ---
 description: Provides common settings for a website that provides product support articles and videos.
-solution: Analytics
 title: Support Media
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db

@@ -1,6 +1,5 @@
 ---
 description: Displays the number of shopping carts that are opened during the specified time period. You can run reports to analyze cart views, additions, removals, and checkouts. A shopping cart is usually opened when a customer selects an item for purchase, but can occur without an item as well.
-solution: Analytics
 title: Shopping Cart
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7

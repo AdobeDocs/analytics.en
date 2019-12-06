@@ -1,6 +1,5 @@
 ---
 description: The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
-solution: Analytics
 title: Links report
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59

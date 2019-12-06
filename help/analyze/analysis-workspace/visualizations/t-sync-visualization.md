@@ -1,7 +1,6 @@
 ---
 description: Synchronizing visualizations lets you control which data table or data source corresponds to a visualization.
 keywords: Analysis Workspace;Synchronize visualization with data source
-solution: Analytics
 title: Manage data sources
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba

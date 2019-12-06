@@ -1,6 +1,5 @@
 ---
 description: Displays the links visitors to your site prefer. For example, the home page for your site likely has multiple links that display the same page. Perhaps there is both a graphic and text link that both link to the same page. This report shows what percentage of visitors used the graphic link versus the text link.
-solution: Analytics
 title: Custom Link
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090

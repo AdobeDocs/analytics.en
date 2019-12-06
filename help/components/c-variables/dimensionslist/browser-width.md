@@ -1,6 +1,5 @@
 ---
 description: Metrics that refer to the horizontal/vertical distance of the data in the browser window only. More specifically, the browser
-solution: Analytics
 title: Browser Width/Height
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755

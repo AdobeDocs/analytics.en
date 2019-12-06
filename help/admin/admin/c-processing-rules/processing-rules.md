@@ -1,6 +1,5 @@
 ---
 description: Processing rules simplify data collection and manage content as it is sent to reporting.
-solution: Analytics
 subtopic: Processing rules
 title: Processing rules overview
 topic: Admin tools

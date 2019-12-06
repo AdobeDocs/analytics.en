@@ -1,6 +1,5 @@
 ---
 description: The Segment Builder allows you to compare and constrain values using selected operators.
-solution: Analytics
 title: Comparison Operators for Segments
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d

@@ -1,6 +1,5 @@
 ---
 description: An Ad Hoc Analysis report. Site Analysis displays how visitors move through specified pages and events. For example, you can see the flow of traffic between pages, the affinity between products and marketing channels, and how campaigns and channels flow to product orders. You can drag pages, dimension items (and lists), and metric events. Each cylinder represents one or more dimension items (pages) or an event. Arrows represent the flow between the cylinder values. Metrics are assigned to cylinder positions (X and Y), cylinder width, cylinder height, and color. The position, size, and color changes depending on the metric values.
-solution: Analytics
 title: Site Analysis
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764

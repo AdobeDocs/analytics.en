@@ -1,7 +1,6 @@
 ---
 description: Characters and strings that are never allowed in JavaScript variables.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Illegal JavaScript characters
 topic: Developer and implementation

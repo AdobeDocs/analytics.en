@@ -1,6 +1,5 @@
 ---
 description: Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-solution: Analytics
 subtopic: Get started
 title: Getting started with Reports and Analytics
 topic: Reports and analytics

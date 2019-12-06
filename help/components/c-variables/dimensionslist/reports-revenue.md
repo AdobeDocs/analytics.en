@@ -1,6 +1,5 @@
 ---
 description: Measures the amount of income generated through all of your products over a specific time period.
-solution: Analytics
 title: Revenue
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8

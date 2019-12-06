@@ -1,6 +1,5 @@
 ---
 description: Information about the requirements for your report suite before using Data Sources.
-solution: Analytics
 subtopic: Data sources
 title: Requirements and upload limits
 topic: Developer and implementation

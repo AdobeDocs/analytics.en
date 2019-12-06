@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 subtopic: Release notes
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Developer and implementation

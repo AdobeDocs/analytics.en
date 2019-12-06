@@ -1,6 +1,5 @@
 ---
 description: Resources to help you troubleshoot issues with the importer.
-solution: Analytics
 subtopic: Classifications
 title: Troubleshooting Classifications
 topic: Admin tools

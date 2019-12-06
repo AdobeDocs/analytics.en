@@ -1,6 +1,5 @@
 ---
 description: Learn about how data is collected for Adobe Analytics.
-solution: Analytics
 subtopic: Get started
 title: About Data Collection
 topic: Reports and analytics

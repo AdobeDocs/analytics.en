@@ -1,6 +1,5 @@
 ---
 description: Activity Map tracks links with a more robust algorithm that 
-solution: Analytics
 title: Robust link tracking
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302

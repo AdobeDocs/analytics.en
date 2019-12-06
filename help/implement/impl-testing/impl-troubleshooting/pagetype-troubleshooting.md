@@ -1,7 +1,6 @@
 ---
 description: The pageType variable is used only to designate a 404 (Page Not Found) error page.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Setting the PageType variable incorrectly
 topic: Developer and implementation

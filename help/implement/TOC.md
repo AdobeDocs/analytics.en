@@ -269,15 +269,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Using Timestamps Optional](js-implementation/timestamps-overview.md)
   + [Redirects and aliases](js-implementation/redirects-overview.md)
 + Testing and validation {#testing-and-validation}
-  + Testing and validation process {#testing-and-validation-process}
-    + [Testing and validation overview](impl-testing/impl-validation/impl-validation.md)
-    + [Identify the s_account variable in the debugger](impl-testing/impl-validation/impl-testing-account.md)
-    + [JavaScript JS file](impl-testing/impl-validation/impl-js-file.md)
-    + [Code modifications](impl-testing/impl-validation/impl-code-updates.md)
-    + [Variables and values](impl-testing/impl-validation/impl-var-values.md)
-    + [Custom variables](impl-testing/impl-validation/impl-custom-vars.md)
-    + [Implementation acceptance](impl-testing/impl-validation/impl-acceptance.md)
-    + [Data accuracy validation](impl-testing/impl-validation/impl-data-accuracy.md)
   + [Experience Cloud Debugger](impl-testing/debugger.md)
   + [Packet analyzers](impl-testing/packet-monitor.md)
   + Implementation troubleshooting {#implementation-troubleshooting}

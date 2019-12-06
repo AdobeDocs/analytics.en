@@ -37,41 +37,40 @@ To access Scorecards on the app, ensure that:
 * You have a valid login into Adobe Analytics
 * Your curator has correctly created mobile Scorecards and shared them with you
 
-
 ### Downloand and install the app
 
 To download and install the app, follow the steps according to the operating system on your device.
 
-    **For iOS devices:**
+**For iOS devices:**
 
-    1. Click the following public link (It is also available in Analytics under **Tools** > **Mobile App**): 
+1. Click the following public link (It is also available in Analytics under **Tools** > **Mobile App**): 
 
-        [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+    [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
-        After clicking the link, the following Testflight screen appears:
+    After clicking the link, the following Testflight screen appears:
 
-        ![Testflight screen](assets/testflight1.png)
+    ![Testflight screen](assets/testflight1.png)
 
-    2. Tap the **View in App Store** link on the screen to download the Testflight app.
+2. Tap the **View in App Store** link on the screen to download the Testflight app.
 
-    3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
+3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
 
-    ![Testflight screen](assets/testflight2.png)
+![Testflight screen](assets/testflight2.png)
 
-    **For Android devices:**
+**For Android devices:**
 
-    1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **Mobile App**):
+1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **Mobile App**):
 
 
-        [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-        After tapping the link, tap the Become a Tester link on the following screen:
+    After tapping the link, tap the Become a Tester link on the following screen:
 
-        ![Play Store screen](assets/play.png)
+    ![Play Store screen](assets/play.png)
 
-    2. Tap the **download it on Google Play** link on the following screen:
+2. Tap the **download it on Google Play** link on the following screen:
 
-        ![Download link](assets/playnext.png)
+    ![Download link](assets/playnext.png)
 
 ## Use the app
 

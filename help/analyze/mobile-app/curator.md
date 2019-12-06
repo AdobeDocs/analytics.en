@@ -124,7 +124,7 @@ To implement the Scorecard template:
 
 7. To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
 
-    ![Naming_scorecards](assets/new_name.png)
+    ![Naming_Scorecards](assets/new_name.png)
 
 ## Share the Scorecard
 
@@ -157,11 +157,11 @@ In some cases, executive users may need some additional assistance to access and
 
 To assist executive users access your Scorecards on the app, ensure that:
 
-    * The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher 
-    * They have a valid login into Adobe Analytics
-    * You have correctly created mobile Scorecards for them and share these Scorecards with them.
-    * They have access to Analysis Workspace and the report suite that the Scorecard is based on
-    * They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher 
+* They have a valid login into Adobe Analytics
+* You have correctly created mobile Scorecards for them and share these Scorecards with them.
+* They have access to Analysis Workspace and the report suite that the Scorecard is based on
+* They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
  
 ### Help executive users use the app
 
@@ -183,7 +183,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
 
-    ![Testflight screen](assets/testflight2.png)
+        ![Testflight screen](assets/testflight2.png)
 
     **For executive users on Android:**
 
@@ -208,7 +208,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
 2. Help them access your Scorecard. After executive users sign into the app, the **Choose a company** screen appears. This screen lists the login companies to which the executive user belongs. To help them get to the Scorecard: 
 
-    * Tap the name of the login company or Experience Cloud Org that applies to the Scorecard you shared. The Scorecard list then shows all Scorecards that have been shared with the executive under that login company. 
+    * Tap the name of the login company or Experience Cloud Org that applies to the Scorecard you shared. The Scorecard list then shows all Scorecards that have been shared with the executive under that login company.
     * Help them sort this list by **Most recently modified**, if applicable. 
     * Tap the name of the Scorecard to view it.
 
@@ -230,17 +230,17 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     Additional information on tiles:
 
-        * The granularity of the sparklines is dependent on the length of the date range: 
-            * One day shows an hourly trend
-            * More than one day and less than a year shows a Daily trend
-            * One year or more shows a weekly trend
-        * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-        * You can pull the screen down to refresh the Scorecard.
+    * The granularity of the sparklines is dependent on the length of the date range: 
+        * One day shows an hourly trend
+        * More than one day and less than a year shows a Daily trend
+        * One year or more shows a weekly trend
+    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+    * You can pull the screen down to refresh the Scorecard.
 
 
 4. Tap a tile to show how a detailed breakdown for the tile works.
 
-    ![Breakdow view](assets/sparkline.png)
+    ![Breakdown view](assets/sparkline.png)
 
 
 5. To change date ranges for your Scorecard:

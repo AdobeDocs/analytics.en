@@ -1,6 +1,5 @@
 ---
 description: Shows the percentage of visits that contain a single hit.
-solution: Analytics
 title: Bounce Rate
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be

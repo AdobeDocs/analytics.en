@@ -1,6 +1,5 @@
 ---
 description: Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-solution: Analytics
 title: Segmentation workflow overview
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927

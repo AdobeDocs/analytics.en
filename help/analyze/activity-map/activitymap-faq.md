@@ -1,6 +1,5 @@
 ---
 description: Frequently asked questions for setting up, configuring, and employing features in Activity Map.
-solution: Analytics
 title: Activity Map FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370

@@ -1,7 +1,6 @@
 ---
 description: Examples to illustrate the use of a server-generated image tag within a HTML sample page.
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: Sample code
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba

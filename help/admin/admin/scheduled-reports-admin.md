@@ -1,6 +1,5 @@
 ---
 description: Lets Admin-level users see and manage scheduled reports across the organization.
-solution: Analytics
 title: Scheduled reports queue
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b

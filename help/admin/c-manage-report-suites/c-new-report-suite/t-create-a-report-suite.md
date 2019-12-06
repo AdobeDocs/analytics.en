@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to create a report suite, and to copy a report suite's settings to a new one.
-solution: Analytics
 title: Create a report suite
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88

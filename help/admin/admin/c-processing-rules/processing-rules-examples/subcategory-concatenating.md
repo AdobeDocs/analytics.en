@@ -1,6 +1,5 @@
 ---
 description: You can use the concatenate option to populate values by combining other values.
-solution: Analytics
 subtopic: Processing rules
 title: Add a subcategory by concatenating the category and page name
 topic: Admin tools

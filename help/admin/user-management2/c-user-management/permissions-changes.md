@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: User and Group permission changes
 topic: Admin tools

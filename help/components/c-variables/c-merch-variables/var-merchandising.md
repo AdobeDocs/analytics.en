@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation
-solution: Analytics
 title: Overview of merchandising variables
 topic: Developer and implementation
 uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f

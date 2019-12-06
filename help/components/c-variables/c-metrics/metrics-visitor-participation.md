@@ -1,6 +1,5 @@
 ---
 description: Visitor Participation is a metric series that lets you view participation across visitor sessions in marketing channels, campaigns, revenue, and so on. For example, purchase and revenue credit can be attributed back to other marketing touch-points that occurred before the visit in which the order took place. Ad hoc analysis provides visitor participation across visits.
-solution: Analytics
 title: Visitor Participation - Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0

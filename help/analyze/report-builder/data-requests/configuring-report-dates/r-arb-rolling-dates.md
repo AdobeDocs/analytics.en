@@ -1,6 +1,5 @@
 ---
 description: Field definitions for rolling dates in report builder.
-solution: Analytics
 title: Request Wizard definitions - rolling dates
 topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963

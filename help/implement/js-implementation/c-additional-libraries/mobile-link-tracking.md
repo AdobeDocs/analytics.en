@@ -1,7 +1,6 @@
 ---
 description: null
 keywords: Analytics Implementation;link reference;redir
-solution: Analytics
 title: Custom link measurement on mobile protocols
 topic: Developer and implementation
 uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28

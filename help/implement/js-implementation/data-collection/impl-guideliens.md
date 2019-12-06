@@ -1,7 +1,6 @@
 ---
 description: Following these guidelines results in using the same cookie domains, which lets visits be tracked between various types of implementations.
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementation guidelines
 topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642

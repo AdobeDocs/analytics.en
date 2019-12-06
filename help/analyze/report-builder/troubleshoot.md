@@ -1,6 +1,5 @@
 ---
 description: Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
-solution: Analytics
 title: Troubleshooting and best practices for Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b

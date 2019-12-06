@@ -1,6 +1,5 @@
 ---
 description: The Individual Report Suite Settings let you change the default settings of your report suites. Tools include a way to remove records for unwanted or obsolete pages, set default metrics, and configure report suite segments.
-solution: Analytics
 title: Individual report suite settings
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a

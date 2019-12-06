@@ -1,7 +1,6 @@
 ---
 description: Testing any modifications to the .JS file or HTML code is the responsibility of the customer. It should be completed prior to publishing the modifications to production websites.
 keywords: Analytics Implementation
-solution: Analytics
 title: Code modifications
 topic: Developer and implementation
 uuid: efac045e-15f5-45f6-a21a-de6c4b0a8185

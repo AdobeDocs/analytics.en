@@ -1,6 +1,5 @@
 ---
 description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
-solution: Analytics
 title: Data Warehouse Segment Compatibility
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c

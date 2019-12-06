@@ -1,7 +1,6 @@
 ---
 description: Adobe offers some best practices for updating your Analytics code.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Replacing your Analytics code
 topic: Developer and implementation

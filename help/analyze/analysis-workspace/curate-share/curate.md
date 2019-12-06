@@ -1,7 +1,6 @@
 ---
 description: Curation lets you limit the components before sharing a project. You can share a project and its components with marketers and other non-analysts in your business. Annotate and apply tags to projects.
 keywords: Analysis Workspace
-solution: Analytics
 title: Curation/Sharing overview
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d

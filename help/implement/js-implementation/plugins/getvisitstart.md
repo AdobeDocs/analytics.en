@@ -1,7 +1,6 @@
 ---
 description: Determines if a new visit is starting.
 keywords: Analytics Implementation
-solution: Analytics
 title: getVisitStart
 topic: Developer and implementation
 uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb

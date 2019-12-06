@@ -1,6 +1,5 @@
 ---
 description: Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like pop music terms and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
-solution: Analytics
 subtopic: Classifications
 title: Conversion classifications
 topic: Admin tools

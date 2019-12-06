@@ -1,6 +1,5 @@
 ---
 description: Counted when the same page name is loaded twice in-a-row. This typically indicates that the page was refreshed.
-solution: Analytics
 title: Reloads
 topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201

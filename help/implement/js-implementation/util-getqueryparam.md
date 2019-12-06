@@ -1,7 +1,6 @@
 ---
 description: Returns the value of a specified query string parameter, if found in the current page URL or in the provided string.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: Developer and implementation

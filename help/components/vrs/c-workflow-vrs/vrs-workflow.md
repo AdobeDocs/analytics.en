@@ -1,7 +1,6 @@
 ---
 description: An overview of the steps required to plan an implement virtual report suites.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Virtual report suite workflow
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85

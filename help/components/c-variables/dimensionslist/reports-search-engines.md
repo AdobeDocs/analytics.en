@@ -1,6 +1,5 @@
 ---
 description: Displays which search engines visitors use for All, Paid, and Natural searches.
-solution: Analytics
 title: Search Engines
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f

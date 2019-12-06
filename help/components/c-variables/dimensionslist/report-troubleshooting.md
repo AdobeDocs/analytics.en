@@ -1,7 +1,6 @@
 ---
 description: Adobe Analytics provides a flexible reporting interface that lets you generate a variety of complex reports. While most reports generate very quickly, you might encounter reports that timeout or fail to generate successfully. To help avoid report generation failures, this section explains many factors that impact report generation speed. Understanding this information can help you structure reports so they are more likely to generate successfully.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Reporting Best Practices and Troubleshooting
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846

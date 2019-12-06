@@ -1,6 +1,5 @@
 ---
 description: Processing rules let you make changes to data based on defined conditions. When attributes or values match defined conditions, values can be set and deleted, and events can be set.
-solution: Analytics
 subtopic: Processing rules
 title: How processing rules work
 topic: Admin tools

@@ -1,6 +1,5 @@
 ---
 description: Processing rules can be restored from history.
-solution: Analytics
 subtopic: Processing rules
 title: Restore processing rules
 topic: Admin tools

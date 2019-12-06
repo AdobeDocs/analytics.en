@@ -1,6 +1,5 @@
 ---
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
-solution: Analytics
 title: Report display settings and navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac

@@ -1,6 +1,5 @@
 ---
 description: Displays information regarding visitors, including things like visitor count, customer loyalty, and visitor characteristics.
-solution: Analytics
 title: Visitor reports
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34

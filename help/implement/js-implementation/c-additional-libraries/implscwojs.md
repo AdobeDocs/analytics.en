@@ -1,7 +1,6 @@
 ---
 description: Implement Analytics using an HTML image tag (hardcoded image request).
 keywords: Analytics Implementation;html image tag;hardcoded image request
-solution: Analytics
 title: Implement Analytics using HTML image tags
 topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae

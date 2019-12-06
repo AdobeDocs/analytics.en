@@ -1,6 +1,5 @@
 ---
 description: Lists the standard metrics in Adobe Analytics.
-solution: Analytics
 title: Metrics quick reference
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e

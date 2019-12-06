@@ -1,6 +1,5 @@
 ---
 description: The value of all report line items for a reported period. If a filter is currently selected, the total might represent the filtered total instead of the report suite total. If no filter is selected total represents the report suite total.
-solution: Analytics
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c

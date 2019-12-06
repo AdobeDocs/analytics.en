@@ -1,7 +1,6 @@
 ---
 description: Returns the value of a specified query string parameter, if found in the current page URL. Because important data (such as campaign tracking codes, internal search keywords, etc.) is available in the query string on a page, getQueryParam is helps capture the data into Analytics variables.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation

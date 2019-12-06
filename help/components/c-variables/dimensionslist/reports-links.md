@@ -1,6 +1,5 @@
 ---
 description: Shows you the links that visitors click when on your website, including links clicked to leave your site, or download links.
-solution: Analytics
 title: Links
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8

@@ -1,6 +1,5 @@
 ---
 description: Active processing rules are viewed in admin.
-solution: Analytics
 subtopic: Processing rules
 title: View active processing rules
 topic: Admin tools

@@ -1,6 +1,5 @@
 ---
 description: Participation metrics assign full credit from success events to all values of an eVar that were passed during a visit. Participation metrics are useful to determine which pages, campaigns, or other custom variable values are contributing most to the success of your site. Participation is visit based. All eVar values in a visit prior to and including the hit when an event occurs receive participation credit regardless of the expiration setting.
-solution: Analytics
 title: Participation
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc

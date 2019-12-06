@@ -1,6 +1,5 @@
 ---
 description: Frequently asked questions about link tracking in Activity Map.
-solution: Analytics
 title: Link tracking FAQ
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4

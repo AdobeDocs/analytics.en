@@ -1,7 +1,6 @@
 ---
 description: The following tables lists the query parameter that contains the value for each analytics variable that is sent to data collection.
 keywords: Analytics Implementation
-solution: Analytics
 title: Data collection query parameters
 topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2

@@ -1,6 +1,5 @@
 ---
 description: System recommendations and prerequisites.
-solution: Analytics
 title: System requirements
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d

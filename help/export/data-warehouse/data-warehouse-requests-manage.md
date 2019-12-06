@@ -1,6 +1,5 @@
 ---
 description: The Request Manager lets you view, duplicate, and re-prioritize requests.
-solution: Analytics
 title: Manage Data Warehouse requests
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909

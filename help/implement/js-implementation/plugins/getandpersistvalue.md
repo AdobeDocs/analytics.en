@@ -1,7 +1,6 @@
 ---
 description: The getAndPersistValue plug-in obtains a value of your choosing and populates it into a Analytics variable for a determined period. A common use is to see how many page views a campaign generates after a click-through, which enables you to easily see the most common pages for each campaign.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getAndPersistValue
 topic: Developer and implementation

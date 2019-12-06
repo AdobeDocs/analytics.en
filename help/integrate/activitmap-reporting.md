@@ -1,6 +1,5 @@
 ---
 description: Administrative steps for enabling Activity Map reporting in Analytics.
-solution: Analytics
 title: Activity Map reporting
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b

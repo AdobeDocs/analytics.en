@@ -1,6 +1,5 @@
 ---
 description: Groups web traffic by the operating system used by the client.
-solution: Analytics
 title: Operating Systems
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825

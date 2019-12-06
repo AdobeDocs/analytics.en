@@ -1,6 +1,5 @@
 ---
 description: Steps for and considerations regarding upgrading Report Builder.
-solution: Analytics
 title: Upgrade Report Builder
 topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f

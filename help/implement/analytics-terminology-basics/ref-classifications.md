@@ -1,7 +1,6 @@
 ---
 description: Classifications are created by grouping (classifying) granular data from a source report.
 keywords: Analytics Implementation;classification
-solution: Analytics
 title: Classifications
 topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73

@@ -1,7 +1,6 @@
 ---
 description: Ensure that the variables that are populated from server scripting or code cannot output any quotation marks that interfere with the values.
 keywords: Analytics Implementation
-solution: Analytics
 title: Variables and values
 topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba

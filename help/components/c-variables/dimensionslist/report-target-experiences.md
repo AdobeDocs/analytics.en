@@ -1,6 +1,5 @@
 ---
 description: Shows the list of experiences (recipes) you have configured in Target. Requires that the Analytics for Target integration be enabled.
-solution: Analytics
 title: Target Experiences
 topic: Reports
 uuid: 15728f3e-003c-47a0-a47b-12b52a88fb79

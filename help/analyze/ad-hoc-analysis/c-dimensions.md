@@ -1,6 +1,5 @@
 ---
 description: Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a report. They are non-numeric values and dates that correlate, sub-relate, or are a classification of the original report type metric.
-solution: Analytics
 title: Dimensions
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2

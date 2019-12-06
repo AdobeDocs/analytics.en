@@ -1,6 +1,5 @@
 ---
 description: Definitions of the pre-defined reports available in Reports & Analytics, and of dimensions available on other Analytics tools, such as Analysis Workspace.
-solution: Analytics
 title: Dimension Descriptions
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a

@@ -1,6 +1,5 @@
 ---
 description: Refers to the vertical distance of the data in the browser window only. The toolbars, menus, buttons, and so forth, are all excluded as part of the browser height dimension.
-solution: Analytics
 title: Browser Height
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d

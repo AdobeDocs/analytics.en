@@ -1,6 +1,5 @@
 ---
 description: Configures several common variables and success events for a typical website.
-solution: Analytics
 title: Default template
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68

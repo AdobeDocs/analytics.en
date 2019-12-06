@@ -1,7 +1,6 @@
 ---
 description: The following table shows the difference between correct and incorrect code mistakes.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Common syntax mistakes
 topic: Developer and implementation

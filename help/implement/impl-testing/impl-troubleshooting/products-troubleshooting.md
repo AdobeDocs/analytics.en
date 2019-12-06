@@ -1,7 +1,6 @@
 ---
 description: The s.products variable may be the most syntactically complex variable used by data collection.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Common mistakes in the Products variable
 topic: Developer and implementation

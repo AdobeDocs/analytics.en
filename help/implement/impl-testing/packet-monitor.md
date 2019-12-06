@@ -1,7 +1,6 @@
 ---
 description: Packet analyzers let you view the data sent by your implementation to Adobe Data Collection Servers.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Debugger
 title: Packet analyzers
 topic: Developer and implementation

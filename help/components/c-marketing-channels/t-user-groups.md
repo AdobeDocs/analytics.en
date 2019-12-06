@@ -1,6 +1,5 @@
 ---
 description: Configure user group access to Marketing Channels.
-solution: Analytics
 subtopic: Marketing channels
 title: Configure user group access
 topic: Reports and analytics

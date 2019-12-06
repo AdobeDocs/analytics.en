@@ -1,6 +1,5 @@
 ---
 description: The Preferences Manager page lets you configure how to render Excel and comma-separated value (CSV) report output.
-solution: Analytics
 title: Preferences Manager
 topic: Admin tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008

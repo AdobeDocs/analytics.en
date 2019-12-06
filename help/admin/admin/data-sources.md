@@ -1,6 +1,5 @@
 ---
 description: The Data Sources feature allows you to import data to Analytics from offline sources. Once imported, this data can be treated and handled similarly to data that was collected natively.
-solution: Analytics
 title: Data Sources
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b

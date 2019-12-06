@@ -1,6 +1,5 @@
 ---
 description: The Entry Page report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visits.
-solution: Analytics
 title: Entries and Exits
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1

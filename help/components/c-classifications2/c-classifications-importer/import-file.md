@@ -1,6 +1,5 @@
 ---
 description: After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.
-solution: Analytics
 subtopic: Classifications
 title: Browser and FTP import
 topic: Admin tools

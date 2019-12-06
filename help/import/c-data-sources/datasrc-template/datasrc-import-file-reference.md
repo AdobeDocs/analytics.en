@@ -1,6 +1,5 @@
 ---
 description: Information about the Data Source .txt template.
-solution: Analytics
 subtopic: Data sources
 title: Import file reference
 topic: Developer and implementation

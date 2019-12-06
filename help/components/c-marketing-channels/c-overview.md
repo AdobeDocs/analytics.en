@@ -1,6 +1,5 @@
 ---
 description: Marketing Channel reporting lets you know how much revenue your marketing channels generate. These reports include an overview report of the first and last-touch channel allocation, with critical, standard metrics like revenue, orders, and cost.
-solution: Analytics
 subtopic: Marketing channels
 title: About Marketing Channel reports
 topic: Reports and analytics

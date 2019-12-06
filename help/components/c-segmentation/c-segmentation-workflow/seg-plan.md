@@ -1,6 +1,5 @@
 ---
 description: Outlines the steps and best practices to follow when planning your segments.
-solution: Analytics
 title: Plan segments
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f

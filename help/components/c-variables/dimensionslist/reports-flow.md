@@ -1,6 +1,5 @@
 ---
 description: Flow shows the most common paths users take across pages, site sections, and servers.
-solution: Analytics
 title: Flow
 topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4

@@ -1,6 +1,5 @@
 ---
 description: The goal of the PathFinder report is to help you further dissect your full paths into fragments, yielding the precise patterns that are instrumental to optimizing your site.
-solution: Analytics
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 ---

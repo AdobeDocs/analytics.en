@@ -1,7 +1,6 @@
 ---
 description: Learn about the purchaseID variable, which helps prevent duplicate purchases from appearing in Adobe Analytics.
 keywords: duplicate,purchase,purchaseid,s.purchaseid
-solution: Analytics
 subtopic: Variables
 title: purchaseID
 topic:

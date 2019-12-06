@@ -1,7 +1,6 @@
 ---
 description: The following information can help troubleshoot report suite latency issues in Analytics data.
 keywords: missing data;slow
-solution: Analytics
 subtopic: Current data
 title: Data availability and latency
 topic: Reports

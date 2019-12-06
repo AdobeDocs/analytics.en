@@ -1,6 +1,5 @@
 ---
 description: The Previous Section Flow report is similar to the Previous Page Flow report. It displays data for Site Sections (groups of related web pages). If a page is contained in more than one site section, then the report displays data for all site sections.
-solution: Analytics
 title: Previous Section Flow
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6

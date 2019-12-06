@@ -1,6 +1,5 @@
 ---
 description: Allows you to access a complete set of metrics from Adobe Analytics within the Activity Map toolbar.
-solution: Analytics
 title: Complete set of metrics
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821

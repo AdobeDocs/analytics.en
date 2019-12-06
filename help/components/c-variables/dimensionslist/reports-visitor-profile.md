@@ -1,6 +1,5 @@
 ---
 description: Reports that help you see purchasing patterns of customers from various profile categories, including countries, states, ZIP/postal codes and domains.
-solution: Analytics
 title: Visitor Profile
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd

@@ -1,6 +1,5 @@
 ---
 description: You can refresh requests for all sheets or for multiple requests.
-solution: Analytics
 title: Refresh requests for all sheets
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e

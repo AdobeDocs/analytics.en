@@ -1,6 +1,5 @@
 ---
 description: How to apply one or more segments to a report from the segment rail.
-solution: Analytics
 title: Select and apply segments
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141

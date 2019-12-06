@@ -1,6 +1,5 @@
 ---
 description: Administrators can configure a report with specific metrics and a specific date range, and then save it to the report menus for everyone to use.
-solution: Analytics
 title: Custom
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad

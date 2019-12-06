@@ -1,6 +1,5 @@
 ---
 description: Steps to help you select a report suite from the existing request.
-solution: Analytics
 title: Select a report suite from an existing request in Excel
 topic: Report builder
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5

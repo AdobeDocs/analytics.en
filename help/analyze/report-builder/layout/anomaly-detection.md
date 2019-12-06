@@ -1,6 +1,5 @@
 ---
 description: Anomaly detection uses statistical modeling to automatically find unexpected trends in your data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. When an unexpected spike or drop occurs, the system alerts you in the report.
-solution: Analytics
 title: Anomaly Detection
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445

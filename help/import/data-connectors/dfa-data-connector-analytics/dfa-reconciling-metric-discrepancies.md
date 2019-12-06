@@ -1,7 +1,6 @@
 ---
 description: Occasionally, some metrics might not fall within an acceptable difference when comparing Adobe Analytics metrics to DFA metrics. Below is a list of metric definitions and possible reasons for variances.
 keywords: DFA
-solution: Analytics
 title: Reconciling Metric Discrepancies
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3

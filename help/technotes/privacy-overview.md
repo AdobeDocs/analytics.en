@@ -1,7 +1,6 @@
 ---
 description: Overview of what data Adobe Analytics collects and other privacy considerations.
 keywords: privacy
-solution: Analytics
 title: Privacy overview
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 ---

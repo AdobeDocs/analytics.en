@@ -1,6 +1,5 @@
 ---
 description: You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
-solution: Analytics
 title: New report suite - settings
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0

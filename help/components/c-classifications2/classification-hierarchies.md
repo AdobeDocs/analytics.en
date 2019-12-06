@@ -1,6 +1,5 @@
 ---
 description: The Classification Hierarchies page lets you define classification hierarchies that you can use to create Hierarchy reports with the same name.
-solution: Analytics
 subtopic: Classifications
 title: Classification hierarchies
 topic: Admin tools

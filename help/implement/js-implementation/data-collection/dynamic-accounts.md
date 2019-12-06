@@ -1,7 +1,6 @@
 ---
 description: The .js file can be configured to automatically select a report suite ID.
 keywords: Analytics Implementation
-solution: Analytics
 title: Report suite IDs - dynamic accounts
 topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5

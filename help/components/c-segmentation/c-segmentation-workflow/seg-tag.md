@@ -1,6 +1,5 @@
 ---
 description: In the Segment Manager, tagging segments allows you to organize them.
-solution: Analytics
 title: Tag segments
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6

@@ -1,6 +1,5 @@
 ---
 description: Add offline data to Marketing Channel reports.
-solution: Analytics
 subtopic: Marketing channels
 title: Add offline data
 topic: Reports and analytics

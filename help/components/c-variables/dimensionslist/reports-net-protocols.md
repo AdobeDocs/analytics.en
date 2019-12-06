@@ -1,6 +1,5 @@
 ---
 description: Groups mobile devices based on the network protocols (GPRS, CSD, EDGE, HSCSD, and so on) that they support. The report also includes an Unknown group for unidentified network protocols.
-solution: Analytics
 title: Net Protocols
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765

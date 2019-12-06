@@ -1,7 +1,6 @@
 ---
 description: Customize group permission to Analytics tools, report suite tools, metrics, and dimensions.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Customize report access - overview
 topic: Admin tools

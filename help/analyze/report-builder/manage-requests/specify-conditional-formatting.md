@@ -1,6 +1,5 @@
 ---
 description: After creating reports with embedded requests, you can apply conditional formatting to cells of the workbook.
-solution: Analytics
 title: Specify conditional formatting
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc

@@ -1,6 +1,5 @@
 ---
 description: Depending on your permissions, you can share segments with your whole organization, groups, or individual users.
-solution: Analytics
 title: Share segments
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e

@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 subtopic: Release notes
 title: PHP
 topic: Developer and implementation

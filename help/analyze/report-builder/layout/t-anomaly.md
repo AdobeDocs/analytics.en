@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to create an anomaly detection request in report builder.
-solution: Analytics
 title: Configure an anomaly detection request
 topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d

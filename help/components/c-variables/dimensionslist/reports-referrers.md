@@ -1,6 +1,5 @@
 ---
 description: Displays the domain or URL where your visitors came from before they arrived at your site, the methods visitors use to find your website, and the number of visits to your site that came from these referring locations.
-solution: Analytics
 title: Referrers
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e

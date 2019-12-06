@@ -1,7 +1,6 @@
 ---
 description: Learn about visualizations and visualization settings in Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Visualizations overview
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555

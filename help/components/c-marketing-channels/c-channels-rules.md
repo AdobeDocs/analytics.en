@@ -1,6 +1,5 @@
 ---
 description: Before channels and channel data can be displayed in the report, create the channels and the underlying rules that process data. You can also create cost and budget amounts for associated channels, and specify how long you want the visitor engagement period to last. You perform report configuration tasks in Admin Tools.
-solution: Analytics
 subtopic: Marketing channels
 title: About channels and rules
 topic: Reports and analytics

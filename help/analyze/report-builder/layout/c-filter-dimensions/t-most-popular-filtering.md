@@ -1,6 +1,5 @@
 ---
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
-solution: Analytics
 title: Most popular filtering
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7

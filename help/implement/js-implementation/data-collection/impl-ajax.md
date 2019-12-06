@@ -1,7 +1,6 @@
 ---
 description: Implementing with AJAX is exactly like deploying code on a standard HTML page.
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementing with AJAX
 topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7

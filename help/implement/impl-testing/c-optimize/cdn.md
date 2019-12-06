@@ -1,7 +1,6 @@
 ---
 description: Content Delivery Services or Content Distribution Networks (CDNs) such as Akamai and Speedera push Web content closer to the edge of the network, keeping frequently-requested documents close to the location where they are accessed.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Content Delivery Services/Networks
 topic: Developer and implementation

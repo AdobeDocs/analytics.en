@@ -1,7 +1,6 @@
 ---
 description: System requirements for Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Administration requirements
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c

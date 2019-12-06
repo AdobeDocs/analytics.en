@@ -1,6 +1,5 @@
 ---
 description: After deployment, you should validate that the integration is successfully transferring data through the following checks.
-solution: Analytics
 title: Verifying the Integration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 ---

@@ -1,6 +1,5 @@
 ---
 description: Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
-solution: Analytics
 title: Download report suite settings
 topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038

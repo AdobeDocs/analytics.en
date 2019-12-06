@@ -1,6 +1,5 @@
 ---
 description: null
-solution: Analytics
 subtopic: Release notes
 title: AppMeasurement Release Notes
 topic: Developer and implementation

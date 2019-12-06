@@ -1,6 +1,5 @@
 ---
 description: Displays information about the effectiveness of your advertising efforts. You can see which types advertising efforts give you the most traffic and which of your employees is responsible for driving those efforts.
-solution: Analytics
 title: Campaigns
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0

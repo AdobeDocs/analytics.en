@@ -1,6 +1,5 @@
 ---
 description: Shows the number of unique visitors to your site for a selected hour, day, week, month, quarter, or year. A unique visitor is counted only one time for the selected time frame. Visitors that return to your site are not counted as unique users again until the time frame has passed.
-solution: Analytics
 title: Visitors
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2

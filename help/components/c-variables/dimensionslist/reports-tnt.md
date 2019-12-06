@@ -1,6 +1,5 @@
 ---
 description: View and segment your Adobe Target traffic data in a report.
-solution: Analytics
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183

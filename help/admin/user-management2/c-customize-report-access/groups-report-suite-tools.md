@@ -1,7 +1,6 @@
 ---
 description: Enable user permissions for API Access, Report Suite Management, Tools and Reports, and Dashboard Items.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Customize Report Suite Tools permissions
 topic: Admin tools

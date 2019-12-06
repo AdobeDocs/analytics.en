@@ -13,10 +13,8 @@ Segments are custom subsets of data, or data filtered by rules that you create.
 
 Segments are based on:
 
-* Hits 
-* Visitors 
+* Hits
+* Visitors
 * Visits
 
-For information about using segments for cross-device visitor identification, see [Create Segments](/help/implement/js-implementation/xdevice-visid/segments.md).
-
-For in-depth information on Adobe Analytics Segmentation, please refer to the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+See [Analytics segmentation](/help/components/c-segmentation/seg-home.md) in the Components user guide.

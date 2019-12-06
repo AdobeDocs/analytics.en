@@ -141,17 +141,17 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [User and Product Management](user-management2/user-management.md)
   + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
   + User management {#user-management}
-    + [Analytics User Migration to the Admin Console]{#user-migration}
-      + [Migrate Analytics Users to the Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
-      + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
-      + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
-      + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
     + [User management overview](user-management2/c-user-management/users.md)
     + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
     + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
     + [Transfer user account items](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
     + [Add a user to a group](user-management2/c-user-management/t-add-user-to-group.md)
+    + Migrate users to Adobe Admin Console {#migrate-users}
+      + [Analytics User Migration to the Admin Console](user-management2/user-migration/c-migration-tool.md)
+      + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
+      + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
+      + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
+      + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
     + [Manage Ad Hoc Analysis users](user-management2/c-user-management/t-manage-dsc-users-admin.md)
   + User groups {#user-groups}
     + [Add a user group](user-management2/c-user-groups/t-user-group.md)

@@ -15,16 +15,16 @@ This guide is intended to help executive users read and interpret Scorecards on 
 
 ## Glossary of terms
 
-|Term|Definition|
-|--|--|
-|Consumer|Executive persona viewing key metrics and insights from Analytics on a mobile device|
-|Curator|Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer|
-|Curation|The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer|
-|Scorecard|A Mobile App View containing one or more tiles|
-|Tile|A rendering for a metric within a Scorecard View|
-|Breakdown|A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions.|
-|Date Range|The primary date range for Mobile App reporting|
-|Comparison Date Range|The Date Range that is compared with the primary date range|
+| Term | Definition |
+|--- |--- |
+| Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device|
+| Curator |Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer |
+| Curation | The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer |
+| Scorecard | A Mobile App View containing one or more tiles |
+| Tile | A rendering for a metric within a Scorecard View |
+| Breakdown | A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions. |
+| Date Range | The primary date range for Mobile App reporting |
+| Comparison Date Range|The Date Range that is compared with the primary date range |
 
 ## Get the app set up on your device
 
@@ -55,7 +55,7 @@ To download and install the app, follow the steps according to the operating sys
 
 3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
 
-![Testflight screen](assets/testflight2.png)
+    ![Testflight screen](assets/testflight2.png)
 
 **For Android devices:**
 
@@ -91,7 +91,7 @@ To use the app:
     * *You can log into the right Analytics instance*
     * *The Scorecard has been shared with you*
 
-    ![Nothing shared](assets/nothing.png)
+        ![Nothing shared](assets/nothing.png)
 
 4. Examine how the tiles appear in the Scorecard. 
 

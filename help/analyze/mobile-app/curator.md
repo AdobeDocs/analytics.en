@@ -20,16 +20,16 @@ This guide is intended to help curators of Adobe Analytics data configure Scorec
 
 The following table describes the terms for understanding the audience, functions, and operation of the Analytics Mobile App.
 
-|Term|Definition|
-|--|--|
-|Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device|
-|Curator|Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer|
-|Curation|The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer|
-|Scorecard|A Mobile App View containing one or more tiles|
-|Tile|A rendering for a metric within a Scorecard View|
-|Breakdown|A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions.|
-|Date Range|The primary date range for Mobile App reporting|
-|Comparison Date Range|The Date Range that is compared with the primary date range|
+| Term | Definition |
+|--- |--- |
+| Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device |
+| Curator | Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer |
+| Curation|The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer |
+| Scorecard | A Mobile App View containing one or more tiles |
+| Tile | A rendering for a metric within a Scorecard View |
+| Breakdown | A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions. |
+| Date Range | The primary date range for Mobile App reporting |
+| Comparison Date Range | The Date Range that is compared with the primary date range |
 
  
 ## Create a Scorecard for executive users
@@ -171,7 +171,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     **For executive users on iOS:**
 
-    1. Click the following public link (It is also available in Analytics under **Tools** > **Mobile App**): 
+    1. Click the following public link (it is also available in Analytics under **Tools** > **Mobile App**):
 
         [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -219,7 +219,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
     * The executive user may have selected the wrong Analytics instance
     * The Scorecard may not have been shared with the executive user
 
-    ![Nothing shared](assets/nothing.png)
+        ![Nothing shared](assets/nothing.png)
 
     Verify that the executive user can log into the right Analytics instance and that the Scorecard has been shared.
 

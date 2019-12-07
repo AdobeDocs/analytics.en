@@ -11,6 +11,6 @@ The Adobe Analytics Mobile App provides anytime, anywhere insights from Adobe An
 
 The following beta documentation is available for the Analytics Mobile App:
 
-* Executive User Quick Start Guide: This guide is intended to help executive users read and interpret Scorecards on the Analytics Mobile App. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.
+* [Curator's Guide](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html): This guide is intended to help curators of data configure Scorecards for their executive users on the Analytics Mobile App. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards.
 
-* Curator's Guide: This guide is intended to help curators of data configure Scorecards for their executive users on the Analytics Mobile App. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards.
+* [Executive User Quick Start Guide](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html): This guide is intended to help executive users read and interpret Scorecards on the Analytics Mobile App. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.

@@ -7,7 +7,7 @@ user-guide-url: /content/help/en/analytics/landing/home.html
 
 # Analytics Documentation {#landing}
 
-+ [Home](home.md)
+* [Home](home.md)
 * [Analytics Key Concepts](an-key-concepts.md)
 * [Tools Guide](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [Admin Guide](https://docs.adobe.com/content/help/en/analytics/admin/home.html)

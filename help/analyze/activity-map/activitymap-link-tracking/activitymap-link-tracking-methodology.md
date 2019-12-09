@@ -78,7 +78,9 @@ Below, you can view some sample HTML using the default region ID attribute, "id"
 If you want, you can tag elements with an arbitrary string identifier, in this case " lpos", and then add attributes with the name "lpos".
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 

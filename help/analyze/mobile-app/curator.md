@@ -188,8 +188,6 @@ During the beta phase, and before the app is unveiled to the public, you can con
     **For executive users on Android:**
 
     1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **Mobile App**):
-
-
         [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
         After tapping the link, tap the Become a Tester link on the following screen:
@@ -197,11 +195,9 @@ During the beta phase, and before the app is unveiled to the public, you can con
         ![Play Store screen](assets/play.png)
 
     2. Tap the **download it on Google Play** link on the following screen:
-
         ![Download link](assets/playnext.png)
 
     3. Download and install the app.
-
     Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
 
     ![App welcome screen](assets/welcome.png)

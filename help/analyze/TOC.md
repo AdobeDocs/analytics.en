@@ -91,7 +91,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
   + Virtual Analyst {#virtual-analyst}
-    + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
+    + [Virtual Analyst overview](analysis-workspace/virtual-analyst.md)
     + Anomaly Detection {#anomaly-detection}
       + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
       + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -113,7 +113,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
-  + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

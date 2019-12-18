@@ -9,7 +9,7 @@ Virtual Analyst, a set of features part of Adobe Analytics, uses predictive algo
 
 ## Features {#features}
 
-Virtual Analyst comprises of:
+Virtual Analyst comprises the following features:
 
 * [Anomaly Detection:](virtual-analyst/c-anomaly-detection/anomaly-detection.md) Provides a statistical method to determine how a given metric has changed in relation to previous data.
 * [Contribution Analysis:](virtual-analyst/contribution-analysis/run-contribution-analysis.md) Help determine the most contributing factors to anomalies in your data.

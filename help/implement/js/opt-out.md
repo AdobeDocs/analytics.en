@@ -1,109 +1,92 @@
 ---
-description: null
-keywords: Analytics Implementation
-title: Implement Adobe opt-outs
-topic: Developer and implementation
-uuid: fc3a411c-8476-409d-99de-05b34ace5019
+title: Opt-out links
+description: Learn how to create an implement opt-out links for visitors to your site.
 ---
 
-# Implement Adobe opt-outs
+# Implement opt-out links
 
-Some visitors to your website may prefer not to have their browsing information aggregated and analyzed by Adobe Experience Cloud products and services or used to provide relevant content and advertising. Adobe offers you the ability to provide visitors to your website a means to opt out of their information being collected by the following Adobe products:
+> [!IMPORTANT] Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
 
-* Adobe Analytics 
-* Adobe Target 
-* Adobe Audience Targeted Creative 
-* Adobe AudienceManager 
-* Adobe AdLens 
-* Adobe Experience Manager
+Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being collected. All implementation types are accommodated; your organization is responsible for your own privacy policy and for remaining in compliance with your signed terms.
 
-## Privacy policy recommendations {#section_BBDEE21C259842F7881642E31FB3D9B7}
+When a visitor reaches an opt-out URL, they are prompted to install an opt-out cookie. If a user chooses not to be tracked and an opt-out cookie is set, your JavaScript file continues to send data to Adobe servers. However, that data is not processed or included in reports.
 
-Adobe recommends that you provide your website visitors with easy-to-find and easy-to-understand information regarding the ability to opt out of having their browsing information collected by Adobe products or services.
+> [!TIP] Adobe also offers privacy settings on a per-report suite basis. See [Privacy Settings](../../admin/admin/privacy-settings.md) in the Admin user guide.
 
-Visitors can learn more about how Adobe generally uses information it collects in connection with providing our products and services to our customers in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). However, because you exclusively control how to implement our services on your web sites, it is up to you to describe to your website visitors the specific ways in which they use our products and services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
+## Opt-out URL
 
-## Opt-outs for Adobe Analytics (including Reports & Analytics, Data Warehouse, Ad Hoc Analysis) {#section_8089B80CDA4043C9BC2DED49E484E8D7}
+The opt-out page for your organization depends on the [`trackingServer`](../vars/page-vars/trackingserver.md) variable value in your implementation.
 
-Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports & Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
+* In Adobe Experience Platform Launch:
+  1. Log in to [launch.adobe.com](https://launch.adobe.com) and click the desired property.
+  2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
+  3. Click the [!UICONTROL General] accordion, and note the [!UICONTROL Tracking Server] value.
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](/help/implement/js-implementation/data-collection/opt-out-link.md) for your website visitors.
-* Your customers have the option of enabling opt-out using the browser's cookie settings. See [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
+* In a JavaScript implementation:
+  1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
+  2. Note the `trackingServer` variable value.
 
-Regardless of the opt-out mechanism you choose, Adobe recommends that you clearly describe the availability of the opt-out mechanism in your privacy policy or as otherwise required by law or recommended according to current best practices.
+* Using the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html):
+  1. Navigate to your site using the Chrome browser.
+  2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
+  3. Note the [!UICONTROL Request URL - Hostname] value.
 
-## Add an opt-out link
+Once you have found your implementation's `trackingServer` domain, append the path `/optout.html` to the end. For example:
 
-Specify an opt-out link, and customize the branding for the link. Visitors to your web site may choose not to have their activity tracked in Adobe's analytics products by visiting the opt-out page for your data collection domain.
+* Third-party cookies: `https://example.sc.omtrdc.net/optout.html`
+* First-party cookies: `https://stats.example.com/optout.html`
 
- If a user chooses not to be tracked and an opt-out cookie is set, your JavaScript file will continue to send data to Adobe servers but that data will not be processed or reported on.
+## Opt-out query string parameters
 
-The collection_domain section of the URL structure is the trackingServer used in your JavaScript file. The collection domain used for your Adobe Analytics implementation can be seen in the DigitalPulse debugger in the first row of the Adobe Analytics table, which is labeled either "First Party Cookies" or "Third Party Cookies" depending on your implementation. The collection domain for your website may contain 2o7.net, omtrdc.net or your website domain, such as metrics.example.com.
+There are settings that you can automatically load onto this page by using query strings.
 
-Visitors opt-out by clicking the link on the opt-out page, thereby causing a cookie to be set in their browser. By having the `omniture_optout` cookie for the applicable tracking domain, the user's activities will not be reported by Adobe Analytics. You can provide your own link to the opt-out cookie, or you can follow the steps below to set the opt-out cookie.
+### Locale
 
-Adobe offers opt-outs for all implementation types. You are responsible for your own privacy policy and for remaining in compliance with your signed terms. Note that the link to the opt-out page changes based on your implementation type, as outlined here.
+Automatically switch the language of the opt-out page by including the `locale` query string parameter. Assign this query string parameter one of the following values:
 
-If you implement Adobe Analytics products and services with cookies set on domains owned by Adobe (i.e. 207.net or omtrdc.net), you can point your website visitors to the opt-out mechanism provided in the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html) for all sites that use Adobe cookies for Adobe Analytics products and services. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+* en_US (English, default)
+* bg_BG (Bulgarian)
+* zh_CN (Simplified Chinese)
+* zh_TW (Traditional Chinese)
+* cs_CZ (Czech)
+* da_NK (Danish)
+* nl_NL (Dutch)
+* et_EE (Estonian)
+* fi_FI (Finnish)
+* fr_FR (French)
+* de_DE (German)
+* el_GR (Greek)
+* it_IT (Italian)
+* jp_JP (Japanese)
+* ko_KR (Korean)
+* lv_LV (Latvian)
+* lt_LT (Lithuanian)
+* nb_NO (Norwegian)
+* pl_PL (Polish)
+* pt_BR (Portuguese)
+* sk_SK (Slovak)
+* es_ES (Spanish)
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+For example, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` loads the opt-out page in Korean.
 
-* [Opt-out Page URL Structure](/help/implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748) 
-* [Example Opt-Out URLs](/help/implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E) 
-* [Branding your Opt-Out URL](/help/implement/js-implementation/data-collection/opt-out-link.md#section_674AB62E810B414AB8F1615C0E3061F8)
+> [!TIP] The `en_US` query string value is not required, as the page loads in English by default.
 
-## Opt-out Page URL Structure {#section_E0462428D2E440E7863E24D2F6DBF748}
+### Popup
 
-Your opt out page is at the following URL:
+Adds a 'Close Window' button to the page, allowing the potential to make the opt-out page a popup window. Use the `popup` query string parameter, and give it a value of `1`.
 
-```
-https://collection_domain/optout.html[?optional_parameters]
-```
+For example, `https://example.sc.omtrdc.net/optout.html?popup=1` loads the opt-out page with a 'Close Window' button.
 
-The `optional_parameters` include:
+> [!NOTE] Historically this query string parameter forced a popup window. However, most modern browsers give control around popups to the end user.
 
-`locale=[code]`: Provides a translated version of the opt-out page. The following locales are supported:
+### Single click opt-out
 
-* en_US (default) 
-* de_DE 
-* es_ES 
-* fr_FR 
-* jp_JP 
-* ko_KR 
-* zh_CN 
-* zh_TW
+Allows the user to immediately opt out of tracking. Add the two query string parameters `opt_out` and `confirm_change`, giving each a value of `1`.
 
-`popup=1`: Treats the page as if it were a popup, and offers a "Close Window" button.
+For example, `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` immediately installs the opt-out cookie on the visitor's page.
 
-## Example Opt-Out URLs {#section_258DE5226AA0483CA790D2C9C5318B2E}
+### Single click opt-in
 
-An English web page in a full window containing a link that, when clicked, will prevent the visitor from being tracked on metrics.example.com:
+Allows the user to immediately opt back in to tracking by deleting the opt-out cookie. Add the two query string parameters `opt_in` and `confirm_change`, giving each a value of `1`.
 
-```
-https://metrics.example.com/optout.html
-```
-
-A French web page in a full window, containing a link that, when clicked, will prevent the visitor from being tracked on example.d3.sc.omtrdc.net:
-
-```
-https://example.d3.sc.omtrdc.net/optout.html?locale=fr_FR
-```
-
-A German web page, in a popup window, containing a link that, when clicked, will prevent the visitor from being tracked on example.112.2o7.net:
-
-```
-https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
-```
-
-## Branding your Opt-Out URL {#section_674AB62E810B414AB8F1615C0E3061F8}
-
-You can provide a link, such as the following somewhere on your website:
-
-```
- <a href=" https://stats.adobe.com/optout.html?optout=1&confirm_change=1">
-Click Here to Opt Out! </a>
-```
-
-Where *`stats.adobe.com`* is replaced with whatever the *`s.trackingServer`* variable is set to.
-
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+For example, `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` immediately deletes the opt-out cookie for the visitor.

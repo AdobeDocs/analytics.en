@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot JavaScript implementation
-description: Learn about common issues for troubleshooting your JavaScript implementation.
+description: Learn about common issues and best practices for troubleshooting your JavaScript implementation.
 ---
 
 # Troubleshoot JavaScript implementation
@@ -9,35 +9,30 @@ The following are several reasons why your organization might have issues with c
 
 ## Using quotes
 
-When you input values into a variable, there are a few best practices to follow.
+Most variables sent to Adobe are strings. In JavaScript, you can use either single quotes or double quotes.
 
-You can use single quotes or double quotes, make sure you are consistent. If you are using single quotes, always use single quotes. If you are using double quotes, always use double quotes. Both of the examples below are correct.
+### Mixing quotes to define a variable
 
-```js
-s.prop2='test' (single quotes)
-```
+As a best practice, make sure you are consistent with the types of quotes you use. If a single quote designates the start of a string, a single quote must be used to close it.
 
-```js
-s.prop2="test" (double quotes)
-```
+For example, both `s.eVar1 = 'Value';` and `s.eVar1 = "Value";` are both valid. `s.eVar1 = 'Value";` is not valid.
 
-Make sure that you have smart quotes turned off. If you are using single quotes, and you have an apostrophe in the variable value, JavaScript interprets the apostrophe as a single quote. This means it is the end of the string. Consider the following example: 
+### Including single or double quotes in a string
 
-```js
-s.pageName='John's Home Page'
-```
+Sometimes including a single or double quote in a string is desired. For example, you want to include the value `Alex's sale` or `John the "Hunter"` in reports. There are two methods to include these values:
 
-In this case, JavaScript would interpret the apostrophe (which is also a single quote) in "John's" to be the end of the string. Since ''s Home Page" has no meaning in JavaScript, it causes an error that prevents the image request from occurring. Either of the following examples would work: 
+* **Use the other quote type**: For example, `s.eVar1 = "Alex's sale";` and `s.eVar1 = 'John the "Hunter"';` are both valid.
+* **Escape quotation marks**: Use a backslash to escape quotation marks. For example, `s.eVar1 = 'Alex\'s sale';` and `s.eVar1 = "John the \"Hunter\"";` are both valid.
 
-```js
-s.pageName='John\'s Home Page'
-```
+## Reference the Analytics object
 
-```js
-s.pageName="John's Home Page"
-```
+All variables sent to Adobe use the Analytics object. Most implementations use the `s` object. Make sure that when referencing variables that you include the Analytics object in your reference.
 
-In the first example, you can escape the apostrophe by inserting a backslash (\) immediately before it. This tells JavaScript that the apostrophe is not ending the string, but rather is part of it. The string then ends as intended, at the closing single-quote. The second example uses double-quotes around the entire string. In this case, a single-quote cannot indicate the end of the string. The same is true if a double-quote is part of the string. A value of s.pageName="Team Says "We Win!"" would be incorrect because of the use of double-quotes within the string, as well as surrounding it. This would be correct if entered as s.pageName="Team Says \"We Win!\"".
+For example, `s.eVar1 = 'Value';` is valid, while `eVar1 = 'Value';` is not.
+
+## Define each variable once
+
+When a track function (`s.t()`) runs, AppMeasurement takes all defined variables and compiles them into an image request. If you define a variable more than once in your implementation, only the latest value is used. Make sure that all variable values contain the correct value when the track function runs.
 
 ## Common syntax mistakes
 

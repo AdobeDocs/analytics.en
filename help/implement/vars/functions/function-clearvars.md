@@ -28,7 +28,7 @@ Clears the following values from the instance object. This function removes the 
 For example:
 
 ```js
-s.clearVars()
+s.clearVars();
 ```
 
 >[!NOTE]

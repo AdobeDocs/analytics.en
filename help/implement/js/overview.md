@@ -1,84 +1,40 @@
 ---
-description: AppMeasurement for JavaScript is a new library that provides the same core functionality of s_code.js, but is lighter and faster for use on both mobile and desktop sites.
-keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
-subtopic: JavaScript AppMeasurement
-title: About AppMeasurement for JavaScript
-topic: Developer and implementation
-uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
+title: AppMeasurement for JavaScript
+description: Learn how to implement Adobe Analytics using JavaScript without a tag management system.
 ---
 
-# About AppMeasurement for JavaScript
+# AppMeasurement for JavaScript
 
-[!DNL AppMeasurement] for JavaScript is a new library that provides the same core functionality of s_code.js, but is lighter and faster for use on both mobile and desktop sites.
+AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [Adobe Experience Platform Launch](../launch/overview.md) is recommended.
 
-## Things to know before you migrate {#section_B8E7B39E8469468883BA0B41234F21C4}
+## Overall workflow sending data to Adobe using JavaScript
 
-The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
+1. Load the `AppMeasurement.js` file. This file contains the libraries required to send data to Adobe.
 
-* Some plug-ins are no longer supported. See [AppMeasurement Plug-in Support](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
-* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
+   ```html
+   <script src="AppMeasurement.js"></script>
+   ```
 
-* The library and page code can be deployed inside the `<head>` tag.
-* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. The Survey module is not supported.
-* Your existing page code is compatible with the new version.
-* The library provides native utilities to get query parameters, read and write cookies, and perform advanced link tracking.
+2. Define configuration variables within `AppMeasurement.js`. When the Analytics object is instantiated, these variables make sure data collection settings are correct. See [Configuration variables](../vars/config-vars/configuration-variables.md) for a full list of variables you can define.
 
-## Frequently Asked Questions {#section_9BD41B08F7B54197B230937714B9357A}
+   ```javascript
+   // Instantiate the Analytics tracking object with report suite ID
+   var s_account = "examplersid";
+   var s=s_gi(s_account);
+   // Make sure data is sent to the correct location
+   s.trackingServer = "example.omtrdc.net";
+   ```
 
-See the [FAQ](/help/implement/faq.md) for information about performance, video tracking, mobile, and more.
+3. Define page-level variables within your site's page code. These variables determine specific dimension and metrics sent to Adobe. See [Page variables](../vars/page-vars/page-variables.md) for a full list of variables you can define.
 
-## Initialization process {#section_F6D5680F6D134B6AB1F01C6235860635}
+   ```javascript
+   s.pageName = "Example page";
+   s.eVar1 = "Example eVar";
+   s.events = "event1";
+   ```
 
-Call `s_gi()`, passing the report suite ID to initialize an [!DNL AppMeasurement] instance:
+4. When all page-level variables are defined, send the data to Adobe using the `t` function. See the [Track function](../vars/functions/function-t.md) for more information.
 
-```js
-var s_account="INSERT-RSID-HERE"
-var s=s_gi(s_account)
-```
-
-When `s_gi` is called, if an [!DNL AppMeasurement] instance does not exist for the specified `s_account`, a new instance is created. Otherwise the existing instance is returned. This helps avoid creating duplicate objects for the same account.
-
-## Retrieve an AppMeasurement instance {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
-
-Throughout your code, call the global [s_gi() function](/help/implement/js-implementation/function-s-gi.md) to retrieve an existing [!DNL AppMeasurement] instance.
-
-## Utilities {#section_0F47694DD0214645A24C94AB6A4142A0}
-
-JavaScript [!DNL AppMeasurement] provides the following built-in utilities:
-
-* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md) 
-* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md) 
-* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
-
-## Clear Vars {#section_597C411E7EDB42BC9A6A0508C9D57147}
-
-A new `clearVars` method is available to clear the following values from the instance object:
-
-* `props` 
-* `eVars` 
-* `hier` 
-* `list` 
-* `events` 
-* `eventList` 
-* `products` 
-* `productsList` 
-* `channel` 
-* `purchaseID` 
-* `transactionID` 
-* `state` 
-* `zip` 
-* `campaign`
-
-For example:
-
-```js
-s.clearVars()
-```
-
-## Benefits {#section_091E5A28E89E438E8A54A95F55165743}
-
-* 3-7x faster than H.25 code.
-* Only 21k uncompressed and 8k gzipped (H.25 code is 33k uncompressed and 13k gzipped).
-* Native support for several common plugins ().
-* Small and fast enough to be used with mobile sites, and robust enough to be used on the full desktop web, allowing you to leverage a single library across all web environments.
-
+   ```javascript
+   s.t();
+   ```

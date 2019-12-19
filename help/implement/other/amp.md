@@ -1,173 +1,152 @@
 ---
-description: Implement the Accelerated Mobile Pages (AMP) project in Adobe Analytics.
-keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
-title: Accelerated Mobile Pages
-topic: Developer and implementation
-uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
+title: Implementing with AMP
+description: Implement Adobe Analytics on AMP pages.
 ---
 
-# Accelerated Mobile Pages
+# Implementing with AMP
 
-Implement the Accelerated Mobile Pages (AMP) project in Adobe Analytics.
+[AMP](https://amp.dev) is an open-source HTML framework that provides a straightforward way to create fast and smooth-loading web pages.
 
- AMP is an [open source project](https://www.ampproject.org/) that lets you build web pages for static content that renders quickly. This feature is ideal for publishers who want to create mobile-optimized content once, and have it load instantly everywhere. Topics include:
+Since Adobe Analytics uses a JavaScript library to compile and send an image request, adjustments are required in your implementation to send data to Adobe on pages using AMP.
 
-* [How it Works](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF) 
-* [Using the amp-analytics tag with the "adobeanalytics" template](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E) 
-* [Using the amp-analytics tag with the "adobeanalytics_nativeConfig" template](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF) 
-* [Summary](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07) 
-* [Frequently Asked Questions](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+## Determine which method to implement Adobe Analytics on pages using AMP
 
-**Additional Documentation and Examples**
+Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics tag](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) on the ampproject GitHub for more information.
 
-* External, open-source AMP project [documentation](https://www.ampproject.org/docs/get_started/about-amp.html) 
-* Setup [examples](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web/amphtml)
+* **Use the `"adobeanalytics"` tracking template**: Construct the Analytics request directly on the page
+* **Use the `"analytics_nativeConfig"` tracking template**: Use an iframe containing the same AppMeasurement code you deploy on your normal site
 
-## How it Works {#section_21C2836D63104794BCEBEECB6593AFBF}
-
-AMPs have specially tagged HTML pages cached around the web on different content delivery networks (CDNs) of participating technology partners and publishers. By doing this, AMP content is delivered from the closest possible source with the lowest possible latency. This creates an analytics challenge because you can never be 100% sure where a publisher's content will be loaded from, and third-party cookies are troublesome for visitor identification.
-
-In addition, to dramatically reduce page weight and speed page load time, AMPs restrict the use of JavaScript and cookies. While this is advantageous for your mobile device because it reduces the amount of processing, it introduces challenges to accurately measuring unique visitors and understanding user acquisition and retention.
-
-To solve these problems, Adobe has collaborated with AMP partners and publishers on two options that a publisher can choose from to best suit their business needs, both using the `amp-analytics` tag. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. The following table gives you an idea of the pros and cons of each approach.
+The following table compares these two methods:
 
 |   | **"adobeanalytics" template** | **"adobeanalytics_nativeConfig" template** |
 |---|---|---|
-|  Visitor/visit counts (in existing report suite)  | High inflation  | Minimal inflation  |
-|  Using a separate report suite  | Recommended  | Not necessary  |
-|  New vs. return visitors  | Not supported  | Supported  |
-|  Visitor ID service  | Not supported  | Supported  |
-|  Video & link tracking  | Partial support  | Not yet supported  |
-|  Difficulty of implementation  | Somewhat difficult  | Relatively easy  |
-|  [!DNL Experience Cloud] integrations  | Not supported  | Supported with caveats  |
+| Visitor/visit counts in existing report suite | High inflation | Minimal inflation |
+| Use a separate report suite | Recommended | Not necessary |
+| New vs. return visitors | Not supported | Supported |
+| Visitor ID service | Not supported | Supported |
+| Video and link tracking | Partial support | Not yet supported |
+| Difficulty of implementation | Somewhat difficult | Relatively easy |
+| Adobe Experience Cloud integrations | Not supported | Partial support |
 
-## Using the amp-analytics tag with the "adobeanalytics" template {#section_2E4EBF4EF623440D95DE98E78C47244E}
+Weigh the pros and cons within your organization to determine which method you want to use.
 
-The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). Click events can be customized to apply to certain element IDs or classes by specifying a selector. Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
+> [!WARNING] Do not use both the `"adobeanalytics"` and `"adobeanalytics_nativeConfig"` templates on the same AMP. If you attempt to do so, you can generate errors in the browser console and double-count visitors.
 
-In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. The second trigger `click` will fire when a button is clicked. `eVar 1` will be set for this event with the value `button clicked`.
+## Method 1: Use the amp-analytics tag with the "adobeanalytics" template
 
-```
-  <amp-analytics type="adobeanalytics"> 
-  <script type="application/json"> 
-  { 
-        "requests": { 
-      "myClick": "${click}&v1=${eVar1}", 
-  }, 
-  "vars": { 
-      "host": "metrics.example.com", 
-      "reportSuites": "reportSuiteID", 
-      "pageName": "Adobe Analytics Using amp-analytics tag" 
-  }, 
-    "triggers": { 
-      "pageLoad": { 
-        "on": "visible", 
-        "request": "pageView" 
-      }, 
-      "click": { 
-        "on": "click", 
-        "selector": "button", 
-        "request": "myClick", 
-        "vars": { 
-          "eVar1": "button clicked" 
-        } 
-      } 
-    } 
-  } 
-  </script> 
-  </amp-analytics> 
+The `"adobeanalytics"` tracking template uses the `<amp-analytics>` HTML tag to construct a tracking request directly. You can specify hit requests that fire on specific page events, like the page becoming visible or on a click. Click events can be customized to apply to certain element IDs or classes by specifying a selector. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-```
+In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger fires when the document becomes visible and includes the `pageName` variable as defined in the `vars` section. The second trigger `click` fires when a button is clicked. `eVar1` is set for this event with the value `button clicked`.
 
-In the `click` trigger, you can specify a selector to ensure that whenever the specific DOM element is clicked (in this case, any button), the `buttonClick` request is fired and will be automatically set to denote this hit as a non-stage event (i.e. `trackLink` call).
-
-Additionally, `amp-analytics` supports a number of variable substitutions so that AMP can provide data values that it is aware of. You can learn all about those and more by visiting: [amp-analytics variable documentation](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md).
-
-Be aware that if you want to incorporate any technology or DOM variables (such as browser, screen size, device, referrer, etc.) you will have to explicitly add them to any request, as they are not automatically generated for you. Documentation on each of our available query string parameters used for tracking can be found [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html).
-
-If you inspect the hits created by amp-analytics, you will notice that in each request, Adobe has included the `vid` query parameter. We set the `vid` based on a built-in AMP function to set a custom Analytics cookie ID named `adobe_amp_id`. This ID is independent of any other ID being set by [!DNL Adobe Analytics] elsewhere (e.g. `s_vi cookie`) and creates new visitors in any report suite the hits are sent to.
-
-There are a few caveats to be aware of. When using the amp-analytics tag as mentioned above, visitors will be independent of your normal tracking, and because the AMP can be loaded from any content delivery network, you will get a unique visitor for each CDN a visitor sees this AMP on (hence the visitor inflation mentioned previously). For this reason, Adobe recommends that if you use the `"adobeanalytics"` template for `amp-analytics`, you put your data into a separate report suite specific to AMP. Also, the [!DNL Experience Cloud] ID service (formerly, *`visitor ID service`*) is not supported using this method, so if your business requires additional [!DNL Experience Cloud] integrations, or will in the future, this is probably not the option for you.
-
-Finally, and perhaps most importantly, this `amp-analytics` solution requires that the tracking server you specify in the `vars` section matches the tracking server on your main site, so that your existing privacy policy controls are respected. Otherwise, you must create a separate privacy policy just for AMPs.
-
-## Using the amp-analytics tag with the "adobeanalytics_nativeConfig" template {#section_3556B68304A4492991F439885727E9FF}
-
-The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it will use the same tagging methodology you use on your normal web pages. To accomplish this, add the following to your `amp-analytics` tag:
-
-```
-<amp-analytics type="adobeanalytics_nativeConfig"> 
- <script type="application/json"> 
- { 
-  "requests": { 
-   "base": "https://${host}", 
-   "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}" 
-  }, 
-  "vars": { 
-   "host": "statshost.publishersite.com" 
-  }, 
-  "extraUrlParams": { 
-   "pageName": "Adobe Analytics Using amp-analytics tag", 
-   "v1": "eVar1 test value" 
-  } 
- } 
- </script> 
-</amp-analytics>  
-
+```html
+<amp-analytics type="adobeanalytics">
+  <script type="application/json">
+    {
+      "requests": {
+        "myClick": "${click}&v1=${eVar1}",
+      },
+      "vars": {
+        "host": "example.sc.omtrdc.net",
+        "reportSuites": "reportSuiteID",
+        "pageName": "Adobe Analytics Using amp-analytics tag"
+      },
+      "triggers": {
+        "pageLoad": {
+          "on": "visible",
+          "request": "pageView"
+        },
+        "click": {
+          "on": "click",
+          "selector": "button",
+          "request": "myClick",
+          "vars": {
+            "eVar1": "button clicked"
+          }
+        }
+      }
+    }
+  </script>
+</amp-analytics>
 ```
 
-This approach sends data to a utility web page via special query string parameters added to the `iframeMessage` request parameter. In this case, notice that we have added the `ampdocUrl AMP` variable, and the `documentReferrer` to the query string parameters `pageURL`, and refer respectively to the `iframeMessage` request above. These extra query string parameters can be named whatever you like, as long as your [!DNL stats.html] page (shown below) is configured to collect the appropriate data from them.
+In the `click` trigger, you can specify a selector to ensure that whenever the specific DOM element is clicked (in this case, any button), the `buttonClick` request is fired and is automatically set to denote this hit as a link tracking call.
 
-The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. In this case, you can see we have specified the `pageName` and `v1` parameters , which will be used by our [!DNL stats.html] page.
+Additionally, `amp-analytics` supports a number of variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
 
-Be aware that you can only use a single `amp-analytics` template at a time and can not use the `"adobeanalytics"` template as well as the `"adobeanalytics_nativeConfig"` template on the same AMP. If you attempt to do so, you might see an error in the browser console, and you will erroneously inflate your visitor count.
+> [!NOTE] Image requests send to Adobe using this method does not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for more information.
 
-```
-<html> 
-<head> 
-<title>Stats Test</title> 
-<script language="JavaScript" type="text/javascript" src="VisitorAPI.js"></script> 
-<script language="JavaScript" type="text/javascript" src="AppMeasurement.js"></script> 
-<html> 
-<head> 
-<title>Stats Test</title> 
-<script language="JavaScript" type="text/javascript" src="VisitorAPI.js"></script> 
-<script language="JavaScript" type="text/javascript" src="AppMeasurement.js"></script> 
-</head> 
-<body> 
-<script> 
-var v_orgId = "1234567@PublisherOrg"; 
-var s_account = "reportSuite"; 
-var s_trackingServer = "metrics.publisher.com"; 
-var s_visitorNamespace = "publisherNamespace"; 
-var visitor = Visitor.getInstance(v_orgId); 
-visitor.trackingServer = s_trackingServer; 
-var s = s_gi(s_account); 
-s.account = s_account; 
-s.trackingServer = s_trackingServer; 
-s.visitorNamespace = s_visitorNamespace; 
-s.visitor = visitor; 
-s.pagename = s.Util.getQueryParam("pageName"); 
-s.eVar1=s.Util.getQueryParam("v1"); 
-s.campaign=s.Util.getQueryParam("campaign"); 
-s.pageURL=s.Util.getQueryParam("pageURL"); 
-s.referrer=s.Util.getQueryParam("ref"); 
-s.t(); 
-</script> 
-</body> 
-</html> 
+Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID  set by Adobe Analytics (for example, the `s_vi` cookie). The Adobe Experience Cloud ID Service is not supported using this implementation method.
 
+> [!NOTE] AMP uses CDN's to deliver content. It is structured to count a different unique visitor for each CDN a visitor retrieves content from, which can inflate unique visitor count.
+
+Using a separate report suite for AMP pages is recommended because of how AMP identifies unique visitors.
+
+This solution requires that the tracking server you specify in the `host` property matches the tracking server on your main site, so that your existing privacy policy controls are respected. Otherwise, create a separate privacy policy for pages using AMP.
+
+## Method 2: Use the amp-analytics tag with the "adobeanalytics_nativeConfig" template
+
+The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it uses the same tagging methodology you use on your normal web pages. Add the following to your `amp-analytics` tag:
+
+```html
+<amp-analytics type="adobeanalytics_nativeConfig">
+  <script type="application/json">
+    {
+      "requests": {
+        "base": "https://${host}",
+        "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
+      },
+      "vars": {
+        "host": "example.sc.omtrdc.net"
+      },
+      "extraUrlParams": {
+      "pageName": "Example AMP page",
+      "v1": "eVar1 example value"
+      }
+    }
+ </script>
+</amp-analytics>
 ```
 
-As shown above, you can use or link to your existing [!DNL VisitorAPI.js] and [!DNL AppMeasurement.js] (as in our example), or whatever your existing implementation uses, then add the correct configuration parameters. To capture the correct values into the correct variables, you can use the provided `s.Util.getQueryParam` function to grab the value(s) that you passed in from the `iframeMessage` URL and set the appropriate variables, just as you would on a typical page. If you use tag management software like Adobe's [ [!DNL Dynamic Tag Manager] ](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html), the query string parameters should be straightforward to capture. In this case, `s.pageName` is set to the value we passed in the query string parameter `pageName`. Here, the page name would be set to *`Adobe Analytics Example 2`*.
+An HTML page hosted on your web servers is also required:
 
->[!IMPORTANT]
->
->Due to restrictions on iframes in the AMP framework, your [!DNL stats.html] page must be hosted on a separate subdomain from the domain the AMP itself is hosted on. The AMP framework does not allow for iframes from the same subdomain that the AMP page itself exists on. For example, if your AMP is hosted on [!DNL amp.example.com], be sure to host your [!DNL stats.html] page on a separate subdomain such as [!DNL ampmetrics.example.com] or something similar.
+```html
+<html>
+  <head>
+    <title>Stats Example</title>
+    <script language="JavaScript" type="text/javascript" src="VisitorAPI.js"></script>
+    <script language="JavaScript" type="text/javascript" src="AppMeasurement.js"></script>
+  </head>
+  <body>
+    <script>
+      var v_orgId = "INSERT-ORG-ID-HERE";
+      var s_account = "examplersid";
+      var s_trackingServer = "example.sc.omtrdc.net";
+      var visitor = Visitor.getInstance(v_orgId);
+      visitor.trackingServer = s_trackingServer;
+      var s = s_gi(s_account);
+      s.account = s_account;
+      s.trackingServer = s_trackingServer;
+      s.visitorNamespace = s_visitorNamespace;
+      s.visitor = visitor;
+      s.pageName = s.Util.getQueryParam("pageName");
+      s.eVar1 = s.Util.getQueryParam("v1");
+      s.campaign = s.Util.getQueryParam("campaign");
+      s.pageURL = s.Util.getQueryParam("pageURL");
+      s.referrer = s.Util.getQueryParam("ref");
+      s.t();
+    </script>
+  </body>
+</html>
+```
 
-Because the utility page is hosted on your original site, no additional work is needed to support your existing privacy policy across all AMPs. This means that if an end user opts out of tracking on your primary site, they are also opted out of tracking on all your AMPs, with no additional steps required. Using this utility page also means that AMP can support Adobe's [!DNL Experience Cloud] ID service so that you can integrate the measurement captured on your AMPs with the rest of the [!DNL Experience Cloud] (for targeted advertising using [!DNL Adobe Audience Manager] for example).
+This approach sends data to a utility web page through query string parameters added to the `iframeMessage` request parameter. These query string parameters can be named whatever you like, as long as your `stats.html` page is configured to collect data from them.
 
-To reiterate, if your organization is not yet using the [!DNL Experience Cloud] ID service (or has tag management software like Adobe's [!DNL Dynamic Tag Manager]), you can tag the [!DNL stats.html] page however you want. Use your existing implementation as a reference point. The only difference from your standard implementation is that you will get the applicable data points from the amp-analytics `iframeMessage` URL (or [!DNL document.URL] from within the [!DNL stats.html] page ) for each of the variables you want to set. Also, if you want to use any of the [AMP specific variables](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) (as mentioned above) like the AMP referrer or AMP page URL, please include them in the iframeMessage object as shown in our example above.
+The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. In the above example, the `pageName` and `v1` parameters are included.
+
+> [!IMPORTANT] Your `stats.html` page must be hosted on a separate subdomain from the domain the AMP itself is hosted on. The AMP framework does not allow for iframes from the same subdomain that the AMP page itself exists on. For example, if your AMP is hosted on `amp.example.com`, host your `stats.html` page on a separate subdomain such as `ampmetrics.example.com`.
+
+Using this method, if a user opts out of tracking on your primary site, they are also opted out of tracking on all your AMPs. Using this utility page also means that AMP can support the Adobe Experience Cloud ID Service. A separate report suite is not required.
+
 
 As flexible as this solution is, there are caveats. Due to inherent restrictions in the `amp-analytics` `iframeMessage`, it can only be loaded on a page load once. This means you will not be able to do link tracking or video tracking with the `"adobeanalytics_nativeConfig"` template. Moreover, some DOM values that are typically captured automatically by our [!DNL AppMeasurement] code, such as `referrer` (which impacts the Search Engine Keyword reports, Referrer, and Referrer Type reports, or may include a marketing campaign tracking code) will have to be passed manually to the `iframeMessage` using whatever AMP variables [are available](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md). For this reason, Adobe recommends setting a custom variable with the value AMP if you put AMP data into an existing report suite, so that you can segment out AMP traffic when viewing the aforementioned reports. That said, standard technology reports, such as browser, device, screen size or resolution, should work automatically.
 

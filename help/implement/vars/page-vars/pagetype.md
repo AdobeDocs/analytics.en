@@ -65,3 +65,20 @@ None
 
 To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server.
 
+## Setting the PageType variable incorrectly
+
+The pageType variable is used only to designate a 404 (Page Not Found) error page.
+
+ It has only one possible value, which is errorPage.
+
+```js
+pageType="errorPage"
+```
+
+On a 404 error page, the *`pageName`* variable should not be populated. The *`pageType`* variable should be set only on a designated 404 error page. Any page containing content should never have a value in the *`pageType`* variable. For pages containing content, you can set the variable as shown below: 
+
+```js
+pageType=""
+```
+
+It is best to delete the variable completely from pages containing content. This practice is recommended to avoid confusion regarding the purpose of the variable.

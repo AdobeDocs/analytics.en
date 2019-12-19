@@ -5,9 +5,9 @@ solution:
 title: Dynamic variables
 ---
 
-# s.useForcedLinkTracking
+# s_account
 
-The `account` variable determines the report suite where data is stored and reported.
+The `s_account` variable determines the report suite where data is stored and reported.
 
 If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. The report suite ID is determined by Adobe.
 

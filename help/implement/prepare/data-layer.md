@@ -25,7 +25,7 @@ Implementing Adobe Analytics using a data layer typically follows these steps:
 
 Adobe recommends following the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) outlined by the [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/). Use the following sections to understand how data layer elements interact with Adobe Analytics.
 
-The recommended data layer object to use is `digitalData`. The following example lists a somewhat comprehensive data layer object with example values:
+The recommended overarching data layer object to use is `digitalData`. The following example lists a somewhat comprehensive data layer object with example values:
 
 ```js
 digitalData = {
@@ -50,7 +50,7 @@ digitalData = {
             publisher: "Example publisher"
         },
         category: {
-            primaryCategory: "Example category",
+            primaryCategory: "Example page category",
             subCategory1: "Sub-category example"
         },
         attributes: {
@@ -159,3 +159,21 @@ digitalData = {
 Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object.
 
 Data layers are extensible; if you have requirements specific to your organization, you can include objects in your data layer to accommodate those needs.
+
+## Setting data layer values
+
+Data layers typically generate server-side, referencing the same objects used to build the site content. You do not have to generate a data layer in a single large code block; each object can be individually set.
+
+Start with instantiating the `digitalData` JavaScript object:
+
+```js
+var digitalData = new Object();
+```
+
+You can freely add components to this object using your organization's coding best practices.
+
+```js
+digitalData.page.pageInfo.pageName = [Content used to generate the sites page name];
+```
+
+Establish the site's data layer based on tracking requirements set in your organization's solution design document.

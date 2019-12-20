@@ -1,34 +1,15 @@
 ---
+title: Implementation modal
 description: Learn about the first-time customer experience for implementing Adobe Analytics implementation.
-keywords: Getting Started
-subtopic: Analysis Workspace
-title: Simplified implementation modal
-topic: Reports and analytics
-uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 ---
 
 # Implementation modal
 
-Learn about the first-time customer experience for implementing Adobe Analytics implementation.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
 
-<!-- 
+You can quickly create a report suite using the *Welcome to Adobe Analytics* setup modal. After you create a report suite, you can use Adobe Experience Platform Launch to deploy code on your site.
 
-<p>https://activation.adobedtm.com/index.php?redirected=1 </p>
 
- -->
-
-New users can quickly create your first [!DNL Analytics] report suite (data repository) using this *`Getting Started with Adobe Analytics`* setup modal. Then, you can deploy [!DNL Analytics] code using [!DNL Dynamic Tag Management].
-
-[!DNL Dynamic Tag Management] allows you to manage your Adobe Analytics implementation without needing to make changes to your site every time. If you're implementing a Mobile app, you can get the SDK that you need to begin collecting valuable data from your apps.
-
-In this procedure enables you to:
-
-* Quickly create your first [report suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
-* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-
-* Run reports on basic page-level data.
-
-> [!NOTE] Before you begin, verify that Analytics is [enabled in the Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (the solution provisioning process). If you received an email inviting you to log in to Analytics in the Enterprise Dashboard, you've completed this prerequisite.
 
 **To run the simplified implementation modal** 
 
@@ -40,7 +21,7 @@ In this procedure enables you to:
 
    Alternatively, you can run this setup in [!DNL Analytics] by clicking **[!UICONTROL Help]** > **[!UICONTROL Welcome to Adobe Analytics]**.
 
-1. Specify the following basic information about your business:
+2. Specify the following basic information about your business:
 
     <table id="table_1741878A1B284CB78D297D531DC703D6"> 
      <thead> 
@@ -81,11 +62,11 @@ In this procedure enables you to:
      </tbody> 
     </table>
 
-1. Click **[!UICONTROL Next]**.
+3. Click **[!UICONTROL Next]**.
 
    The system creates a report suite.
 
-1. To begin deployment, click **[!UICONTROL Next]**, then click one of the following options:
+4. To begin deployment, click **[!UICONTROL Next]**, then click one of the following options:
 
     <table id="table_71C7F7B9677346CD8D5130519D32464B"> 
      <thead> 
@@ -106,7 +87,7 @@ In this procedure enables you to:
      </tbody> 
     </table>
 
-1. Run a report.
+5. Run a report.
 
    After deploying the Analytics tool, you can run a report in Reports & Analytics to confirm that data is coming to your site. (See [Sign in and Navigate](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) to get familiar with the Analytics interface.)
 

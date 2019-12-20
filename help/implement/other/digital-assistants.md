@@ -1,7 +1,6 @@
 ---
-description: null
 title: Implement Analytics for Digital Assistants
-uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
+description: Implement Adobe Analytics on Digital Assistants, such as Amazon Alexa or Google Home.
 ---
 
 # Implement Analytics for digital assistants
@@ -22,13 +21,13 @@ This page provides an overview of how best to use Adobe Analytics to measure and
 
 ## Digital experience architecture overview
 
-![](assets/Digital-Assitants.png)
+![Digital Assistant Worflow](assets/Digital-Assitants.png)
 
 Most digital assistants today follow a similar high-level architecture:
 
-1. **Device:** There is a device (like an Amazon Echo or a phone) with a microphone that allows the user to ask a question.
-1. **Digital assistant:** That device interacts with the service that powers the digital assistant. It is where the speech is converted into machine understandable intents and the details of the request are parsed out. Once the user's intent is understood, the digital assistant passes the intent and details of the request to the app that handles the request.
-1. **"App":** The app can either be an app on the phone or a voice app. The app is responsible for responding to the request. It responds to the digital assistant and the digital assistant then responds to the user.
+1. **Device**: There is a device (like an Amazon Echo or a phone) with a microphone that allows the user to ask a question.
+1. **Digital assistant**: That device interacts with the service that powers the digital assistant. It is where the speech is converted into machine understandable intents and the details of the request are parsed out. Once the user's intent is understood, the digital assistant passes the intent and details of the request to the app that handles the request.
+1. **"App"**: The app can either be an app on the phone or a voice app. The app is responsible for responding to the request. It responds to the digital assistant and the digital assistant then responds to the user.
 
 ## Where to implement Analytics
 
@@ -94,12 +93,12 @@ Because digital assistants are conversational, they often have the concept of a 
 
 **Consumer:** "8:30pm"
 
-**Google:** "Sounds good, the Driver will be by at 8:30pm"
+**Google:** "Sounds good, the driver will be by at 8:30pm"
 
 Sessions are important to keep context, and help collect more details to make the digital assistant more natural. When implementing Analytics on a conversation, there are two things to do when a new session is started:
 
-1. **Reach out to Audience Manager:** Get the relevant segments that a user is a part of so that you can customize the response. (For example, this person currently qualifies for the multi-channel discount.)
-2. **Send in a new session or launch event:** When you send the first response to Analytics, include a launch event. Usually, this can be sent by setting context data of `a.LaunchEvent=1`.
+1. **Reach out to Audience Manager**: Get the relevant segments that a user is a part of so that you can customize the response. (For example, this person currently qualifies for the multi-channel discount.)
+2. **Send in a new session or launch event**: When you send the first response to Analytics, include a launch event. Usually, this can be sent by setting context data of `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1

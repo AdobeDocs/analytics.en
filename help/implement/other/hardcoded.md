@@ -23,7 +23,7 @@ The following is an example hardcoded image request using HTML:
 * `example.sc.omtrdc.net` is the value contained in the `trackingServer` variable.
 * `/b/ss/` is included in all image requests. It is part of the file structure for images stored on Adobe data collection servers.
 * `examplersid` is the report suite ID you want to send data to.
-* `/1/` is the hit source. See `hit_source` under [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in the Export user guide.
+* `/1/` is the hit source. See `hit_source` under [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in the Export user guide. Controls the order that cookies and other methods use to identify visitors.
 * Everything after the query string delimiter (`?`) is data that you want to include in reports. See [Data collection query parameters](../validate/query-parameters.md) for the full list of parameters you can include in an image request.
 
 ## FAQ

@@ -1,27 +1,22 @@
 ---
-description: Describes what a hash collision is and how it can manifest.
-keywords: Analytics Implementation;hash;collision;prop;evar;hash
 title: Hash collisions
-topic: Developer and implementation
-uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+description: Describes what a hash collision is and how it can manifest.
 ---
 
 # Hash collisions
 
-Describes what a hash collision is and how it can manifest.
+Adobe treats prop and eVar values as strings, even if the value is a number. Sometimes these strings are hundreds of characters long, other times they are short. To save space, improve performance, and make everything uniformly sized, the strings are not used directly in processing. Instead, a 32-bit or 64-bit hash is computed for each value. All reports run on these hashed values, where each hash is replaced by the original text. Hashes drastically increase the performance of Analytics reports.
 
-By default, Adobe treats prop and eVar values as strings, even if the value is a number. Sometimes these strings are hundreds of characters long, other times they are short. To save space, improve performance, and make everything uniformly sized, the strings are not used directly in the processing tables. Instead, a 32-bit or 64-bit hash is computed for each value. All reports run on those hashed values until the data is presented, where each hash is replaced by the original text. Without this compression, reports would likely take minutes to run.
-
-For most fields, the string is first converted to all lower case (reducing the number of unique values). Values are hashed on a monthly basis (the first time they are seen each month). From month to month there is a small possibility that two unique variable values will be hashed to the same hash value. This is known as a *hash collision*.
+For most fields, the string is first converted to all lower case (reducing the number of unique values). Values are hashed on a monthly basis (the first time they are seen each month). From month to month there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
 
 Hash collisions can manifest in reporting as follows:
 
 * If you are trending a value and you see a spike for a month, it is likely that another values for that variable got hashed to the same value as the value you are looking at.
 * The same things happens for segments for a specific value.
 
-<p class="head"> <b>Hash Collision Example</b> </p>
+## Hash collision example
 
-The likelihood of hash collisions increases with the number of unique values in a dimension (eVar). For example, one of the values that come in late in the month could get the same hash value as a value earlier in the month. The following example may help explain how this can cause segment results to change. Suppose eVar62 receives "value 100" on February 18. Analytics will maintain a table that may look like this: 
+The likelihood of hash collisions increases with the number of unique values in a dimension. For example, one of the values that come in late in the month could get the same hash value as a value earlier in the month. The following example can help explain how this can cause segment results to change. Suppose eVar62 receives "value 100" on February 18. Analytics will maintain a table that may look like this: 
 
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 

@@ -1,8 +1,6 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: dynamicAccountList
+description: Establish logic on how your implementation determines its report suite.
 ---
 
 # s.dynamicAccountList

@@ -13,9 +13,9 @@ All customers with an active Adobe Experience Cloud contract can use Launch. If 
 
 ## Overall workflow
 
-Getting an implementation running using Launch is comprised of the following steps:
+Getting an implementation running using Launch follows these steps:
 
-1. **Gain access to Launch**: You can obtain access to launch through a system admin in your organization.
+1. **Gain access to Launch**: You can obtain access to Launch through a system admin in your organization.
 2. **Create a property**: Properties are overarching containers used to reference tag management data.
 3. **Deploy to a development environment**: Have an environment where you can iterate on the development of tags.
 4. **Validate and publish to production**: Make sure everything is working, then publish it live.

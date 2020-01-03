@@ -1,9 +1,6 @@
 ---
-description: Companies use Analytics to determine the success of an email campaign.
-keywords: Analytics Implementation
 title: External email tracking
-topic: Developer and implementation
-uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+description: Use Adobe Analytics to track email content.
 ---
 
 # External email tracking
@@ -41,13 +38,13 @@ There are several steps to follow in order to successfully display email campaig
    In order to track a user click-through and subsequent success events, a query string parameter needs to be added to each link within the HTML email. You can choose to track each link separately or track all links together. Each link can have a unique tracking code, or all links can have the same tracking code. Consider the following hypothetical link within the email to a website:
 
    ```js
-   <a href="https://www.mycompany.com/index.asp">Visit our home page</a>
+   <a href="https://www.example.com/index.asp">Visit our home page</a>
    ```
 
    The following query string parameters ?sc_cid=112233B should be added to the link above:
 
    ```js
-   <a href= "https://www.mycompany.com/index.asp?sc_cid=112233B">Visit our home page</a>
+   <a href= "https://www.example.com/index.asp?sc_cid=112233B">Visit our home page</a>
    ```
 
 1. Update the JavaScript library.

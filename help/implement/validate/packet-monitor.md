@@ -1,17 +1,13 @@
 ---
-description: Packet analyzers let you view the data sent by your implementation to Adobe Data Collection Servers.
-keywords: Analytics Implementation
-subtopic: Debugger
 title: Packet analyzers
-topic: Developer and implementation
-uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
+description: Packet analyzers let you view the data sent by your implementation to Adobe data collection servers.
 ---
 
 # Packet analyzers
 
-Packet analyzers let you view the data sent by your implementation to Adobe Data Collection Servers.
+Packet analyzers let you view the data sent by your implementation to Adobe data collection servers.
 
-Simliar to the [!DNL DigitalPulse Debugger], a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
+Similar to the Adobe Experience Cloud debugger, a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
 
 * View custom link tracking image requests 
 * View image requests using implementation methods other than JavaScript, such as hard-coded image requests or [!DNL Appmeasurement]
@@ -34,11 +30,7 @@ While Adobe does not provide an official packet monitor, there are a wide range 
 
 > [!NOTE] Adobe does NOT support or troubleshoot any issues you may experience with these packet monitors. Consult the packet monitor's originating site for assistance instead.
 
-<!-- 
-
-debugger_ns_binding.xml
-
- -->
+## NS_BINDING_ABORTED in response codes
 
 This error occurs because the link tracking image request is designed to let the browser proceed to the next page before waiting for a response from the Adobe data collection servers.
 

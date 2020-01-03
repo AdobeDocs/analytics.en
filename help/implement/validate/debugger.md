@@ -1,6 +1,6 @@
 ---
-description: Install the Legacy Adobe Experience Cloud Debugger. This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
 title: Legacy Adobe Experience Cloud Debugger
+description: Install the Legacy Adobe Experience Cloud Debugger. This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
 ---
 
 # Legacy Adobe Experience Cloud Debugger
@@ -43,7 +43,7 @@ If you insist on not using the [chrome extension](https://docs.adobe.com/content
 
 #### Edge
 
-Edge does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Edge does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited into a bookmarklet.
 
 1. Click the star icon on the right side of the URL field to bookmark the current page.
 2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
@@ -53,7 +53,7 @@ Edge does not have the ability to manually create a bookmarklet, but a bookmark 
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited into a bookmarklet.
 
 1. Click the Share icon in the top right, which opens a bookmark modal window.
 2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
@@ -62,7 +62,7 @@ Safari does not have the ability to manually create a bookmarklet, but a bookmar
 
 ## Using the legacy debugger
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+Navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
 
 > [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
 
@@ -71,6 +71,6 @@ The debugger has several options available, all of which customize how data is d
 * **Displayed Experience Cloud products:** Shows or hides image requests for each respective Experience Cloud product.
 * **URL Decode:** URL decodes the image request to match what is displayed in reporting. Adobe recommends leaving this box checked.
 * **Auto Refresh:** Automatically refreshes the pop-up every few seconds to check for more image requests on the page. If you need to copy/paste content in the debugger, disable auto-refresh so your selection stays.
-* **Friendly Format:** Toggles the display format between helpful labels and raw query strings in an image request. See [Data collection query parameters](../js-implementation/data-collection/query-parameters.md) for more information.
+* **Friendly Format:** Toggles the display format between helpful labels and raw query strings in an image request. See [Data collection query parameters](query-parameters.md) for more information.
 
 To save default display options for the debugger, right click the 'Adobe Debugger' link in the top right corner, then copy the link address. Edit your current debugger bookmarklet and paste the updated code snippet into the URL field.

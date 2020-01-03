@@ -1,9 +1,6 @@
 ---
-description: This information is intended for advanced users who are well-versed in both reporting and implementation. Do not attempt to edit your implementation without understanding the consequences. If you require implementation changes, contact your organization's Account Manager.
-keywords: Analytics Implementation
 title: Track across different implementation types
-topic: Developer and implementation
-uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
+description: Use different implementation types and track visitors seamlessly between them.
 ---
 
 # Track across different implementation types

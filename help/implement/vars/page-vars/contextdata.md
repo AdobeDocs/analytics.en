@@ -1,40 +1,40 @@
 ---
+title: contextData
 description: Context data variables let you define custom variables on each page that can be read by processing rules.
-keywords: Analytics Implementation;contextdata;s.contextdata
-subtopic: Variables
-title: Context data variables
-topic: Developer and implementation
-uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 ---
 
-# Context data variables
+# contextData
 
 Context data variables let you define custom variables on each page that can be read by processing rules.
 
-Instead of explicitly assigning values to props and eVars in your code, you can send data in context data variables that are mapped using processing rules. Processing rules provide a powerful graphical interface to make changes to data as it is received. Based on the values sent in context data, you can set events, copy values to eVars and props, and execute additional conditional statements.
+Instead of explicitly assigning values to props and eVars in your code, you can send data in context data variables that are mapped using processing rules. Processing rules provide a powerful interface to make changes to data as it is received. Based on the values sent in context data, you can set events, copy values to eVars and props, and execute additional conditional statements. Using context data variables helps prevent making code updates to support different report suite configurations.
 
-> [!NOTE] Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
->```
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->```
->and
->```
->s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```
+> [!IMPORTANT] Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is lost.
 
-Using context data helps prevent you from making code updates to support different report suite configurations.
+## Syntax - Adobe Experience Platform Launch
 
-For example, you can define the following *`s.contextData`* variable:
+Launch does not have a dedicated location to define context data variables. Use the Custom Code Editor in a rule using AppMeasurement syntax.
 
-```
-s.contextData['myco.rsid'] = 'value'
+## Syntax - JavaScript AppMeasurement and Launch Custom Code
+
+Context data variables require variable name and a value assigned to it.
+
+```js
+s.contextData['example-variable'] = "Example value";
 ```
 
-Using processing rules you can add a condition that checks for a `myco.rsid` context data variable. When this variable is found, you can add an action to copy it to a prop or eVar.
+## Use
 
-Context data variables can also be defined directly in the processing rules interface to temporarily store a value, or to collect values from a context data variable you know will be used on the report suite. For example, if you need to swap two values, you could create a context data variable to store a value during the swap.
+Use the following steps to use context data variables in reporting:
 
-Since processing rules are applied only when data is collected, it is important to set up processing rules before you start sending context data. Context data values that are not read by processing rules when a hit is processed are discarded.
+1. Update your implementation to set context data variable names and values.
+2. Log in to Adobe Analytics and go to Admin > Report Suites.
+3. Select the desired report suite, then go to Edit Settings > General > Processing Rules.
+4. Create a processing rule that sets an Analytics variable to the context data variable value.
+5. Save changes.
+
+Processing rules immediately take effect once saved. They do not apply to historical data.
+
 
 ## Rules {#section_2229739F6B1A4C1CAD7140BDF4687523}
 
@@ -95,3 +95,12 @@ s.contextData['author'] = "Sheridan Andrius"
 ```
 
 For an example, see [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) in Analytics Reference.
+
+> [!NOTE] Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
+>```
+>and
+>```
+>s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
+>```

@@ -99,7 +99,7 @@ to this:
 
 Plugins Section: Add the following code to the area of the `s_code.js` file labeled PLUGINS SECTION. Do not make any changes to this portion of the plug-in code.
 
-```
+```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/ 
 /* Adobe Consulting Plugin: getPercentPageViewed v3.01 w/handlePPVevents helper function (Requires AppMeasurement and p_fo plugin) */
 s.getPercentPageViewed=function(pid,ch){var s=this,a=s.c_r("s_ppv");a=-1<a.indexOf(",")?a.split(","):[];a[0]=s.unescape(a[0]); 

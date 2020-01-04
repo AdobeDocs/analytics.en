@@ -17,4 +17,4 @@ In implementations using Adobe Experience Platform Launch, configuration variabl
 2. Click on the property that you want to edit.
 3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
-> [!IMPORTANT] Make sure all configuration variables are set before calling the track function `t()`. Avoid setting configuration variables in the `doPlugins()` function.
+> [!IMPORTANT] Make sure all configuration variables are set before calling a track function (`t()` or `tl()`). Avoid setting configuration variables in the `doPlugins()` function.

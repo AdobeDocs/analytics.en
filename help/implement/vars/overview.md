@@ -23,3 +23,14 @@ AppMeasurement libraries published by Adobe Analytics follow a specific order wh
 1. If your site uses a data layer, make sure all applicable variables are populated first. See [Data layer](../prepare/data-layer.md) for more information.
 2. Use the data layer to populate Analytics variables. If you use Launch, this task is easily accomplished by using data elements, then assigning the data element to a variable. See [Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) in the Launch user guide.
 3. Call the tracking function. Most AppMeasurement libraries use the `t()` function, however some mobile SDK's use `track()`. When the tracking function is called, all supported variables defined in the Analytics object are sent to Adobe in the form of an image request.
+
+## Illegal characters
+
+Characters and strings that are never allowed in JavaScript variables.
+
+* Tab (`0x09`)
+* Carriage return (`0x0D`)
+* Newline (`0x0A`)
+* HTML tags (e.g. `<b></b>` or `&#153`)
+
+Some variables have additional limitations or syntax requirements. For example, the `products` variable reserves semicolons and commas to delimit separate products and categories.

@@ -1,15 +1,13 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: account
+description: Use the account variable to determine the report suite where data is sent to.
 ---
 
-# s_account
+# account
 
 The `s_account` variable determines the report suite where data is stored and reported.
 
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. The report suite ID is determined by Adobe.
+If sending to multiple report suites (multi-suite tagging), `s.account` can be a comma-separated list of values. The report suite ID is determined by Adobe.
 
 ## Parameters
 

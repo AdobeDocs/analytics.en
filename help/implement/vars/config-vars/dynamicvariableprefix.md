@@ -1,50 +1,33 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: dynamicVariablePrefix
+description: Lets you customize the string that identifies dynamic variables.
 ---
 
-# s.dynamicVariablePrefix {#concept_38C1F2452DDB47FCA8F458BE1398E276}
+# dynamicVariablePrefix
 
-The  variable allows deployment to flag variables, which should be populated dynamically.
+Dynamic variables are a shorthand concept that let you copy values from one variable to another. They are valuable for long variable values, as they help shorten an image request's URL length. See [Dynamic variables](../page-vars/dynamic-variables.md) for more information on this concept.
 
-Cookies, request headers, and image query string parameters are available to be populated dynamically.
+By default, dynamic variables use the prefix `D=`. The `dynamicVariablePrefix` variable lets you customize the string that identifies dynamic variables.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | D=  | Any  | D=  |
+## Dynamic Variable Prefix in Adobe Experience Platform Launch
 
-## Syntax and Possible Values
+Dynamic Variable Prefix is a field under the [!UICONTROL Global Variables] accordion when configuring the Adobe Analytics extension.
 
-```js
-s.prop1="D=User-Agent"
-```
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Global Variables] accordion, which reveals the [!UICONTROL Dynamic Variable Prefix] field.
 
-OR USE CUSTOM FLAG FOR DYNAMIC VARIABLES
+This field contains `D=` by default. You can change the value if you want to use a different dynamic variable prefix. You can use any value you want, as long as it matches the character encoding on your site.
 
-```js
-s.dynamicVariablePrefix=".."
-```
+## s.dynamicVariablePrefix in AppMeasurement and Launch custom code editor
 
-## Examples
+The `s.dynamicVariablePrefix` variable is a string that can contain any sequence of characters. If this variable is not defined, AppMeasurement uses the string `D=` by default.
 
 ```js
-s.prop1="D=User-Agent"
+// An example that changes the dynamic variable prefix
+s.dynamicVariablePrefix="..";
+
+// This eVar uses the above customized dynamic variable prefix to set eVar to page URL
+s.eVar1="..g";
 ```
-
-OR USE CUSTOM FLAG FOR DYNAMIC VARIABLES
-
-```js
-s.dynamicVariablePrefix=".."
-```
-
-```js
-s.prop1="..User-Agent"
-```
-
-## Pitfalls, Questions, and Tips
-
-* Dynamic variables can be used to significantly reduce the total length of the URL by copying values into other variables.
-
-* Dynamic variables can be used to collect data from headers and cookies not otherwise available for data collection.

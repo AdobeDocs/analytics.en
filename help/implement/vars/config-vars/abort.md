@@ -30,7 +30,7 @@ The `abort` variable can be set in the `doPlugins()` function, which is the last
 
 ```js
 s.doPlugins = function(s) {
-     s.campaign = s.getQueryParam("cid");
+     s.campaign = s.Util.getQueryParam("cid");
      if ((!s.campaign) && (!s.events)) {
           s.abort = true;
      }

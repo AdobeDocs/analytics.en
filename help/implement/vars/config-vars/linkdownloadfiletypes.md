@@ -1,11 +1,28 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: linkDownloadFileTypes
+description: Determine file extensions that automatically get tracked as download links.
 ---
 
-# s.linkDownloadFileTypes
+# linkDownloadFileTypes
+
+When `trackDownloadLinks` is set to `true` and a visitor clicks on a link, AppMeasurement checks the URL for filetype extensions. If the link URL contains a filetype found in `linkDownloadFileTypes`, a download link image request is automatically sent.
+
+Use `linkDownloadFileTypes` to customize what file extensions you want to count as download links.
+
+> [!NOTE] Only actual clicks are tracked automatically. File downloads that start automatically when a page loads, downloads that start after a redirect, or right-clicking and selecting 'Save Target As...' are not tracked automatically. For these download types, you can call the `tl()` function.
+
+## Download Extensions in Adobe Experience Platform Launch
+
+Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Download Extensions] field.
+
+Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. Remove file extensions from the list by clicking their respective X icon.
+
+## s.linkDownloadFileTypes = 
 
 The  variable is a comma-separated list of file extensions.
 

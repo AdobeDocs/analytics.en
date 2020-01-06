@@ -1,51 +1,215 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: currencyCode
+desciption: For eCommerce sites, set the currency the page deals in.
 ---
 
-# s.currencyCode
+# currencyCode
 
-The  variable determines the conversion rate to be applied to revenue.
+For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.
 
-All monetary amounts are stored in a currency of your choice. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
+If `currencyCode` is not defined, monetary values defined the `products` variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
 
-|Max Size|Debugger Parameter|Reports Populated|Default Value|
-|--- |--- |--- |--- |
-|N/A|cc|Conversion > Purchases > Revenue All Conversion reports showing Revenue or monetary values|"USD"|
+If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
 
-If your site allows visitors to purchase in multiple currencies, you should use the *`currencyCode`* variable to make sure revenue is stored in the appropriate currency. For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. As soon as data collection receives the data, it uses the current conversion rate to convert the 40 Euros to its USD equivalent.
+If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in data collection servers are ultimately stored in the report suite's currency.
 
-Populating the *`currencyCode`* variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the *`currencyCode`* to equal the base currency of your report suite. You then convert all revenue before sending it into [!DNL Analytics].
+> [!IMPORTANT] If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
 
-Currency conversion applies to both revenue and any currency events. These are events that are used to sum values similar to revenue, such as tax and shipping. The revenue and currency events are specified in the products string. For more information on products, see [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
+This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
 
-## Syntax and Possible Values
+## Currency Code in Adobe Experience Platform Launch
+
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
+
+You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
+
+## s.currencyCode in AppMeasurement and Launch custom code editor
+
+The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.
 
 ```js
-s.currencyCode="currency_code"
+s.currencyCode = "USD";
 ```
 
-## Examples
+The following currency codes are valid:
 
-```js
-s.currencyCode="GBP"
-```
-
-```js
-s.currencyCode="EUR"
-```
-
-## Configuration Settings
-
-Adobe [!DNL Customer Care] can change the default currency setting for your report suite. When you change the base currency for a report suite, the existing revenue in the system is not converted. All new revenue values will be converted accordingly.
-
-## Pitfalls, Questions, and Tips
-
-* If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly.
-* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
-* Currency events should not be used for non-currency purposes. If you need to count arbitrary or dynamic values that are not currency, use the [!UICONTROL numeric] event type.
-* When the *`currencyCode`* variable is empty, no conversion is applied.
-
-For more information, see [Currency Codes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
+| Currency Code | Currency Description|
+| --- | --- |
+| `AED` | United Arab Emirates Dirhams |
+| `AFA` | Afghanistan Afghanis |
+| `ALL` | Albania Leke |
+| `AMD` | Armenia Drams |
+| `ANG` | Netherlands Atilles Guilders |
+| `AOA` | Angola Kwanza |
+| `ARS` | Argentina Pesos |
+| `AUD` | Australia Dollars |
+| `AWG` | Aruba Guilders |
+| `AZM` | Azerbaijan Manats |
+| `BAM` | Bosnia and Herzegovina Convertible Marka |
+| `BBD` | Barbados Dollars |
+| `BDT` | Bangladesh Taka |
+| `BGN` | Bulgaria Leva |
+| `BHD` | Bahrain Dinars |
+| `BIF` | Burundi Francs |
+| `BMD` | Bermuda Dollars |
+| `BND` | Brunei Dollars |
+| `BOB` | Bolivia Bolivianos |
+| `BRL` | Brazil Reais |
+| `BSD` | Bahamas Dollars |
+| `BTN` | Bhutan Ngultrum |
+| `BWP` | Botswana Pulas |
+| `BYR` | Belarus Rubles |
+| `BZD` | Belize Dollars |
+| `CAD` | Canada Dollars |
+| `CDF` | Congo/Kinshasa Francs |
+| `CHF` | Switzerland Francs |
+| `CLP` | Chile Pesos |
+| `CNY` | China Yuan Renminbi |
+| `COP` | Colombia Pesos |
+| `CRC` | Costa Rica Colones |
+| `CSD` | Serbia Dinars |
+| `CUP` | Cuba Pesos |
+| `CVE` | Cape Verde Escudos |
+| `CYP` | Cyprus Pounds |
+| `CZK` | Czech Republic Koruny |
+| `DJF` | Djibouti Francs |
+| `DKK` | Denmark Kroner |
+| `DOP` | Dominican Republic Pesos |
+| `DZD` | Algeria Dinars |
+| `EEK` | Estonia Krooni |
+| `EGP` | Egypt Pounds |
+| `ERN` | Eritrea Nakfa |
+| `ETB` | Ethiopia Birr |
+| `EUR` | Euro |
+| `FJD` | Fiji Dollars |
+| `FKP` | Falkland Islands Pounds |
+| `GBP` | United Kingdom Pounds |
+| `GEL` | Georgia Lari |
+| `GGP` | Guernsey Pounds |
+| `GHC` | Ghana Cedis |
+| `GIP` | Gibraltar Pounds |
+| `GMD` | Gambia Dalasi |
+| `GNF` | Guinea Francs |
+| `GTQ` | Guatemala Quetzales |
+| `GYD` | Guyana Dollars |
+| `HKD` | Hong Kong Dollars |
+| `HNL` | Honduras Lempiras |
+| `HRK` | Croatia Kuna |
+| `HTG` | Haiti Gourdes |
+| `HUF` | Hungary Forint |
+| `IDR` | Indonesia Rupiahs |
+| `ILS` | Israel New Shekels |
+| `IMP` | Isle of Man Pounds |
+| `INR` | India Rupees |
+| `IQD` | Iraq Dinars |
+| `IRR` | Iran Rials |
+| `ISK` | Iceland Kronur |
+| `JEP` | Jersey Pounds |
+| `JMD` | Jamaica Dollars |
+| `JOD` | Jordan Dinars |
+| `JPY` | Japan Yen |
+| `KES` | Kenya Shillings |
+| `KGS` | Kyrgyzstan Soms |
+| `KHR` | Cambodia Riels |
+| `KMF` | Comoros Francs |
+| `KPW` | North Korea Won |
+| `KRW` | South Korea Won |
+| `KWD` | Kuwait Dinars |
+| `KYD` | Cayman Islands Dollars |
+| `KZT` | Kazakhstan Tenge |
+| `LAK` | Laos Kips |
+| `LBP` | Lebanon Pounds |
+| `LKR` | Sri Lanka Rupees |
+| `LRD` | Liberia Dollars |
+| `LSL` | Lesotho Maloti |
+| `LTL` | Lithuania Litai |
+| `LVL` | Latvia Lati |
+| `LYD` | Libya Dinars |
+| `MAD` | Morocco Dirhams |
+| `MDL` | Moldova Lei |
+| `MGA` | Madagascar Ariary |
+| `MKD` | Macedonia Denars |
+| `MMK` | Myanmar Kyats |
+| `MNT` | Mongolia Tugriks |
+| `MOP` | Macau Patacas |
+| `MRO` | Mauritania Ouguiyas |
+| `MTL` | Malta Liri |
+| `MUR` | Mauritius Rupees |
+| `MVR` | Maldives Rufiyaa |
+| `MWK` | Malawi Kwachas |
+| `MXN` | Mexico Pesos |
+| `MYR` | Malaysia Ringgits |
+| `MZM` | Mozambique Meticais |
+| `NAD` | Namibia Dollars |
+| `NGN` | Nigeria Nairas |
+| `NIO` | Nicaragua Gold Cordobas |
+| `NOK` | Norway Kroner |
+| `NPR` | Nepal Rupees |
+| `NZD` | New Zealand Dollars |
+| `OMR` | Oman Rials |
+| `PAB` | Panama Balboas |
+| `PEN` | Peru Nuevos Soles |
+| `PGK` | Papua New Guinea Kina |
+| `PHP` | Philippines Pesos |
+| `PKR` | Pakistan Rupees |
+| `PLN` | Poland Zlotych |
+| `PYG` | Paraguay Guarani |
+| `QAR` | Qatar Riyals |
+| `ROL` | Romania Lei |
+| `RUR` | Russia Rubles |
+| `RWF` | Rwanda Francs |
+| `SAR` | Saudi Arabia Riyals |
+| `SBD` | Solomon Islands Dollars |
+| `SCR` | Seychelles Rupees |
+| `SDD` | Sudan Dinars |
+| `SEK` | Sweden Kronor |
+| `SGD` | Singapore Dollars |
+| `SHP` | Saint Helena Pounds |
+| `SIT` | Slovenia Tolars |
+| `SKK` | Slovakia Koruny |
+| `SLL` | Sierra Leone Leones |
+| `SOS` | Somalia Shillings |
+| `SPL` | Seborga Luigini |
+| `SRD` | Suriname Dollars |
+| `SRG` | Suriname Guilders |
+| `STD` | Sao Tome and Principe Dobras |
+| `SVC` | El Salvador Colones |
+| `SYP` | Syria Pounds |
+| `SZL` | Swaziland Emalangeni |
+| `THB` | Thailand Baht |
+| `TJS` | Tajikistan Somoni |
+| `TMM` | Turkmenistan Manats |
+| `TND` | Tunisia Dinars |
+| `TOP` | Tonga Pa'anga |
+| `TRL` | Turkey Liras |
+| `TTD` | Trinidad and Tobago Dollars |
+| `TVD` | Tuvalu Dollars |
+| `TWD` | Taiwan New Dollars |
+| `TZS` | Tanzania Shillings |
+| `UAH` | Ukraine Hryvnia |
+| `UGX` | Uganda Shillings |
+| `USD` | United States Dollar |
+| `UYU` | Uruguay Pesos |
+| `UZS` | Uzbekistan Sums |
+| `VEB` | Venezuela Bolivares |
+| `VND` | Vietnam Dong |
+| `VUV` | Vanuatu Vatu |
+| `WST` | Samoa Tala |
+| `XAF` | Communauté Financière Africaine Francs B |
+| `XAG` | Silver Ounces |
+| `XAU` | Gold Ounces |
+| `XCD` | East Caribbean Dollars |
+| `XDR` | International Monetary Fund Special Draw |
+| `XOF` | Communauté Financière Africaine Francs B |
+| `XPD` | Palladium Ounces |
+| `XPF` | Comptoirs Français du Pacifique Francs |
+| `XPT` | Platinum Ounces |
+| `YER` | Yemen Rials |
+| `ZAR` | South Africa Rand |
+| `ZMK` | Zambia Kwacha |
+| `ZWD` | Zimbabwe Dollar |

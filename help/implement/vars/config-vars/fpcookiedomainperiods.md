@@ -1,52 +1,38 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: cookieDomainPeriods
+description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
 ---
 
-# s.fpCookieDomainPeriods
+# fpCookieDomainPeriods
 
-The  variable is for cookies set by JavaScript (s_sq, s_cc, plug-ins) that are inherently first-party cookies even if your implementation uses the third-party 2o7.net or omtrdc.net domains.
+> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
 
-The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* inherits the *`cookieDomainPeriods`* value. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
+The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location. It inherits the value of `cookieDomainPeriods`, but is still a best practice to set if you use a first-party cookie implementation.
 
-The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in the domain when the domain begins with "www." For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
+* For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.
+* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
 
-The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Cookies used by plug-ins such as [!UICONTROL getValOnce] are also affected.
+> [!IMPORTANT] Do not take subdomains into account for this variable. For example, do not set `fpCookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | N/A  | N/A  | cookieDomainPeriods  |
+## First-party Domain Periods in Adobe Experience Platform Launch
 
-## Sample Code for Setting Cookie Domain Variables
+First-party Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-```js
-s.fpCookieDomainPeriods="2" 
-var d=window.location.hostname 
-if(d.indexOf('.co.uk')>-1||d.indexOf('.com.au')>-1) 
-  s.fpCookieDomainPeriods="3" 
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL First-party Domain Periods] field.
 
-```
+Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## Syntax and Possible Values
+## s.fpCookieDomainPeriods in AppMeasurement and Launch custom code editor
 
-The *`cookieDomainPeriods`* variable is expected to be a string, as shown below.
+The `fpCookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
 
 ```js
-s.fpCookieDomainPeriods="3"
+// Manually set fpCookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
+s.fpCookieDomainPeriods = "3";
+
+// Detect if a URL has a domain suffix with an extra period, and set s.fpCookieDomainPeriods automatically
+document.URL.indexOf(".co.") > 0 ? s.fpCookieDomainPeriods = "3" : s.fpCookieDomainPeriods = "2";
 ```
-
-## Examples
-
-```js
-s.fpCookieDomainPeriods="3"
-```
-
-```js
-s.fpCookieDomainPeriods="2"
-```
-
-## Configuration Settings
-
-None 

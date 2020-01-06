@@ -1,16 +1,23 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-seo-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-solution: 
-title: Dynamic variables
+title: forcedLinkTrackingTimeout
+description: Use this variable with optional arguments in the s.tl() function.
 ---
 
+# forcedLinkTrackingTimeout
 
-# s.forcedLinkTrackingTimeout
+When using the optional `doneAction` argument in the `tl()` tracking function, this variable is required. If you do not intend to use the optional `doneAction` argument, this variable does not do anything. See [The tl() function](../functions/tl.md) for more information.
 
-This value specifies the maximum wait time. Specifically, it sets the maximum number of milliseconds to wait for tracking to finish before performing the `doneAction` that was passed into `s.tl`. If the track link call completes before this timeout, the `doneAction` is executed immediately. If you notice that track link calls are not completing, you might need to increase this timeout.
+This value sets the maximum number of milliseconds to wait before performing the `doneAction` passed into the `tl()` function. If the track link call completes before this timeout, the `doneAction` executes immediately at that time.
 
-Default Value = 250
+## Forced Link Tracking Timeout in Adobe Experience Platform Launch
 
-Example: `s.forcedLinkTrackingTimeout = 500`
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.forcedLinkTrackingTimeout in AppMeasurement and Launch custom code editor
+
+The `s.forcedLinkTrackingTimeout` is an integer, representing the number of milliseconds AppMeasurement waits before executing the `doneAction` argument in the `tl()` function. Its default value is `250`.
+
+```js
+// Lengthen the timeout to 500ms before executing the doneAction argument
+s.forcedLinkTrackingTimeout = 500;
+```

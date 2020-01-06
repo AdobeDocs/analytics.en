@@ -5,7 +5,7 @@ description: The charSet variable determines what encoding Adobe uses to parse y
 
 # charSet
 
-The charSet variable is used by Adobe to Analytics to convert incoming data into UTF-8 for storage and reporting by Analytics. If your site uses a charSet other than UTF-8, this variable allows your data to be properly encoded by Adobe. This variable can be set on a page-by-page basis if your site uses different encodings on different pages.
+The charSet variable is used by Adobe to convert incoming data into UTF-8 for storage and reporting by Analytics. If your site uses a charSet other than UTF-8, this variable allows your data to be properly encoded by Adobe. This variable can be set on a page-by-page basis if your site uses different encodings on different pages.
 
 ## Character Set in Adobe Experience Platform Launch
 
@@ -20,7 +20,7 @@ You can use either a preset character set or a custom character set. This value 
 
 ## s.charSet in AppMeasurement and Launch custom code editor
 
-The `charSet` variable is a string. Set this variable to the same value as the `<meta charset="">` on your site.
+The `charSet` variable is a string. Set this variable to the same value as the `<meta charset="">` HTML tag on your site.
 
 ```js
 s.charSet = "UTF-8";

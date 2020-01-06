@@ -1,51 +1,41 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: cookieLifetime
+description: Override the expiration for cookies that AppMeasurement creates.
 ---
 
-# s.cookieLifetime
+# cookieLifetime
 
-The  variable is used by both JavaScript and data collection servers in determining the lifespan of a cookie.
+Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `cookieLifetime` variable to override the expiration date for cookies set by AppMeasurement.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | cl  | Traffic > Technology > Cookies All visitor-related reports  | ""  |
+> [!NOTE] This variable impacts unique visitor counts and attribution. Use caution when setting this variable.
 
-If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. The *`cookieLifetime`* variable can have one of three values:
+## Cookie Lifetime in Adobe Experience Platform Launch
 
-* [!DNL Analytics] Cookies 
-* Cookies 
-* JavaScript Settings and Plugins
+Cookie Lifetime is a dropdown under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-## Syntax and Possible Values
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Cookie Lifetime] dropdown.
 
-```js
-s.cookieLifetime="value"
-```
+This dropdown contains the following values:
 
-The possible values are listed as follows:
+* **Default**: Cookie expires after 2 years.
+* **None**:
+* **Session**: Cookie expires at the end of the visitor's session.
+* **Seconds**: Cookie expires after the specified number of seconds have elapsed. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
 
-* "" 
-* "NONE" 
-* "SESSION" 
-* An integer representing the number of seconds until expiration
+## s.cookieLifetime in AppMeasurement and Launch custom code editor
 
-## Examples
+The `s.cookieLifetime` variable is a string that determines the expiration date of cookies set by AppMeasurement.
 
-```js
-s.cookieLifetime="SESSION"
-```
+* If set to `SESSION`, cookies set by AppMeasurement expire after the browser session completes.
+* If set to `NONE`,
+* If set to an integer string, cookies set by AppMeasurement expire after the specified number of seconds have elapsed.
 
 ```js
-s.cookieLifetime="86400" // one day in seconds
-```
+// Expire cookies after each session
+s.cookieLifetime = "SESSION";
 
-## Configuration Settings
-
-None
-
-## Pitfalls, Questions, and Tips
-
-*`cookieLifetime`* affects [!DNL Analytics] tracking. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.
+// Expire cookies after exactly 24 hours
+s.cookieLifetime = "86400";

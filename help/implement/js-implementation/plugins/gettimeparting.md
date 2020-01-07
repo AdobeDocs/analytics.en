@@ -9,115 +9,111 @@ uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 
 # getTimeParting
 
-The getTimeParting plug-in populates custom variables with hour of day, day of week, and weekend and weekday values into custom variables. [!UICONTROL Analysis Workspace] offers out-of-the-box Time Parting dimensions. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+The getTimeParting plugin provides a complete analytics solution that allows you to capture the details of the time when any measurable activity takes place on your site.  
 
-This plug-in captures the date and time information available in the user's web browser. It obtains the hour of the day and the day of the week from this information. It then converts this data to the time zone of your choosing. It also accounts for Daylight Savings Time.
+You should use the getTimeParting plugin if you wish to breakdown your metrics by any repeatable division of time over a given date range.  For example, the getTimeParting plugin will allow you to compare conversion rates between two different days of the week (e.g. all Sundays vs. all Thursdays), two different periods of the day (e.g. all mornings vs. all evenings), or even two subsequent minutes (e.g. all 10:00 AM instances vs. all 10:01 AM instances) for the date range you specify in the report. 
+
+[!DNL Analysis Workspace] provides similar, out-of-the-box dimensions that are formatted in a slightly different manner than what this plugin provides (see [here](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.html)).  Adobe Consulting recommends you read through the remainder of this help section to determine whether this plugin provides data in a manner that's more suited to your needs.  
+
+If you don't need to break down your metrics by a repeatable division of time over a specific date range, then you will not need to use the getTimeParting plugin.  Also, if you find the [!DNL Analysis Workspace] Time-Parting Dimensions sufficient, then you will not need to implement this plugin.
+
+>[!CAUTION] The solution that version 4.0+ of the getTimeParting plugin provides is much different than what earlier versions of the plugin have provided.  If you choose to upgrade from a version before 4.0, you should implement the solution "from scratch".  In other words, you should setup a completely brand new eVar – one eVar – to hold the data provided by the plugin and read through this documentation carefully before implementing the solution.  
+
+>[!CAUTION] Also: This version of the plugin is not *fully* compatible with Microsoft Internet Explorer browsers, although the plugin is fully compatible with Microsoft Edge browsers.   Visitors that use Internet Explorer will be able to provide the time but only in their *local* time zone rather than converted to the time zone you specify.  See the examples below for a solution that will not include data from Internet Explorer browsers but will still account for their presence. 
 
 > [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
 
-## Plug-in Code {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
+> [!WARNING] Always test all plugin implementations before deploying to production to ensure that data collection is working as expected.
 
-**Config Section**
+## Prerequisites
 
-Place the following code in the area of the [!DNL s_code.js] file labeled [!UICONTROL CONFIG SECTION], and make the necessary updates as described below.
+None
 
-`s._tpDST` - an array of DST values. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+## How to Implement
 
-```js
-//time parting configuration 
-//Australia 
-s._tpDST = { 
-2012:'4/1,10/7', 
-2013:'4/7,10/6', 
-2014:'4/6,10/5', 
-2015:'4/5,10/4', 
-2016:'4/3,10/2', 
-2017:'4/2,10/1', 
-2018:'4/1,10/7', 
-2019:'4/7,10/6',
-2020:'4/5,10/4',
-2021:'4/4,10/3'} 
-  
-//US 
-s._tpDST = { 
-2012:'3/11,11/4', 
-2013:'3/10,11/3', 
-2014:'3/9,11/2', 
-2015:'3/8,11/1', 
-2016:'3/13,11/6', 
-2017:'3/12,11/5', 
-2018:'3/11,11/4', 
-2019:'3/10,11/3',
-2020:'3/8,11/1',
-2021:'3/14,11/7'} 
-  
-//Europe 
-s._tpDST = { 
-2012:'3/25,10/28', 
-2013:'3/31,10/27', 
-2014:'3/30,10/26', 
-2015:'3/29,10/25', 
-2016:'3/27,10/30', 
-2017:'3/26,10/29', 
-2018:'3/25,10/28', 
-2019:'3/31,10/27',
-2020:'3/29,10/25',
-2021:'3/28,10/31'}
-```
+* Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement code:
 
-Note for Northern Hemisphere clients: in the array DST values are DST start, DST end.
+```function getTimeParting(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])}```
 
-Note for Southern Hemisphere clients: in the array DST values are DST end, DST start.
+> [!NOTE] You may also use a tag manager like Adobe Launch to deploy the plugin code without the need to attach it to AppMeasurement or any other analytics solution
 
-**Parameters**
+* Run the getTimeParting function as described below within the doPlugins function or in any other location where you need to capture the time parting data 
 
-```js
-var tp = s.getTimeParting(h,z);
-```
+**Arguments to Pass In**
 
-* h = (required) Hemisphere - Specify what hemisphere you are converting the time to. This is a value of 'n' or 's'. This is used to determine how to use the DST array passed. If 'n' is passed the plugin uses the dates when DST is on. If 's' is passed the plugin uses the dates when DST is off.
-* z = (optional) Time Zone - If you would like the data to be based upon a specific time period, then that will need to be specified as the hours different from GMT here. Note this should be the GMT during non DST. If no value is specified, it defaults to GMT (i.e. '-5' for US Eastern Time)
+* t: (**OPTIONAL but recommended**, string) The name of the time zone to convert the visitor's local time to.  Defaults to “Etc/GMT”, or UTC/GMT time when not set.  Visit [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones] for the complete list of values to enter.  
 
-**Returns**
+Common values include:
 
-Returns a concatenated value of time at minute level and day of week, for example:
+* "America/New_York" for Eastern Time
+* "America/Chicago" for Central Time
+* "America/Denver" for Mountain Time
+* "America/Los_Angeles" for Pacific Time
 
-```
-8:03 AM|Monday
-```
+## Returns
 
-You can then use [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) to group visits into time periods. For example, you could set up a rule in Classification Rule Builder to bucket visits between 9:00 AM and 9:59 AM to "9:00 AM - 10:00 AM". As an alternative to classifications, you could provide additional client-side logic to bucket visits in JavaScript.
+The getTimeParting plugin returns a string containing the following:
 
-**Example Call**
+* The current year
+* The current month
+* The current date (i.e. day of the month)
+* The current day (i.e. day of the week)
+* The current time (non-military time)
 
-```js
-var tp = s.getTimeParting('n','-7'); 
-s.prop1 = tp;
-```
+Each of the above items is delimited by a pipe ("|") character.
 
-**PLUGINS SECTION**
+## Example Calls
 
-Add the following code to the [!UICONTROL PLUGINS SECTION] in the [!DNL s_code.js] file.
+Use the following code if you are located in Paris, France and want to use eVar10 (in Adobe Analytics) to capture the time parting data:
 
-```js
-/* 
- * Plugin: getTimeParting 3.4 
- */ 
-s.getTimeParting=new Function("h","z","" 
-+"var s=this,od;od=new Date('1/1/2000');if(od.getDay()!=6||od.getMont" 
-+"h()!=0){return'Data Not Available';}else{var H,M,D,U,ds,de,tm,da=['" 
-+"Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda" 
-+"y'],d=new Date();z=z?z:0;z=parseFloat(z);if(s._tpDST){var dso=s._tp" 
-+"DST[d.getFullYear()].split(/,/);ds=new Date(dso[0]+'/'+d.getFullYea" 
-+"r());de=new Date(dso[1]+'/'+d.getFullYear());if(h=='n'&&d>ds&&d<de)" 
-+"{z=z+1;}else if(h=='s'&&(d>de||d<ds)){z=z+1;}}d=d.getTime()+(d.getT" 
-+"imezoneOffset()*60000);d=new Date(d+(3600000*z));H=d.getHours();M=d" 
-+".getMinutes();M=(M<10)?'0'+M:M;D=d.getDay();U=' AM';if(H>=12){U=' P" 
-+"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
-```
+```s.eVar10 = getTimeParting("Europe/Paris")```
 
-**Notes**
+Use the following code if you are located in San Jose, California:
 
-* Always test plug-in installations to ensure that data collection is as expected before deploying to production.
-* Configuration variables must be set for plugin to work correctly.
+```s.eVar10 = getTimeParting("America/Los_Angeles")```
 
+Use the following code if you are located in the African country of Ghana:
+
+```s.eVar10 = getTimeParting();```
+
+Ghana is within the UTC/GMT time zone.  Thus, this example shows that no plugin argument will be necessary under such circumstances.
+
+Use the following code if you are located in New York and do not want to include data from Internet Explorer Visitors (since the values returned from IE browsers can be provided in only the visitor's local time)
+
+```if(!document.documentMode) s.eVar10 = getTimeParting("America/New_York");```
+```else s.eVar10 = "Internet Explorer Visitors";```
+
+**Results From Calls**
+
+If a visitor from Denver, Colorado visits a site on August 31, 2020 at 9:15 AM, the following code…
+
+```s.eVar10 = getTimeParting("Europe/Athens");```
+
+…would set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=6:15 PM**
+
+The following code…
+
+```s.eVar10 = getTimeParting("America/Nome");```
+
+… would instead set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=6:15 AM**
+
+The following code…
+
+```s.eVar10 = getTimeParting("Asia/Calcutta");```
+
+… would instead set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=8:45 PM**
+
+The following code…
+
+```s.eVar10 = getTimeParting("Australia/Sydney");```
+
+… would instead set s.eVar10 equal to **year=2020 | month=September | date=1 | day=Tuesday | time=1:15 AM**
+
+## Adobe Analytics Setup
+
+If you want to capture the time parting data in Adobe Analytics, please setup a new eVar with the following characteristics:
+
+* Name: Time Parting
+* Allocation: Most Recent (Last)
+* Expire After: Visit
+* All other attributes use the default values provided

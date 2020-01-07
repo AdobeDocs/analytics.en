@@ -79,32 +79,41 @@ Use the following code if you are located in the African country of Ghana:
 Ghana is within the UTC/GMT time zone.  Thus, this example shows that no plugin argument will be necessary under such circumstances.
 
 Use the following code if you are located in New York and do not want to include data from Internet Explorer Visitors (since the values returned from IE browsers can be provided in only the visitor's local time)
+
 ```if(!document.documentMode) s.eVar10 = getTimeParting("America/New_York");```
 ```else s.eVar10 = "Internet Explorer Visitors";```
 
 **Results From Calls**
 
 If a visitor from Denver, Colorado visits a site on August 31, 2020 at 9:15 AM, the following code…
-```s.eVar10 = getTimeParting("Europe/Athens");``` 
+
+```s.eVar10 = getTimeParting("Europe/Athens");```
+
 …would set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=6:15 PM**
 
 The following code…
+
 ```s.eVar10 = getTimeParting("America/Nome");```
+
 … would instead set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=6:15 AM**
 
 The following code…
+
 ```s.eVar10 = getTimeParting("Asia/Calcutta");```
+
 … would instead set s.eVar10 equal to **year=2020 | month=August | date=31 | day=Monday | time=8:45 PM**
 
 The following code…
+
 ```s.eVar10 = getTimeParting("Australia/Sydney");```
+
 … would instead set s.eVar10 equal to **year=2020 | month=September | date=1 | day=Tuesday | time=1:15 AM**
 
 ## Adobe Analytics Setup
 
 If you want to capture the time parting data in Adobe Analytics, please setup a new eVar with the following characteristics:
 
-*	Name: Time Parting
-*	Allocation: Most Recent (Last)
-*	Expire After: Visit
-*	All other attributes use the default values provided
+* Name: Time Parting
+* Allocation: Most Recent (Last)
+* Expire After: Visit
+* All other attributes use the default values provided

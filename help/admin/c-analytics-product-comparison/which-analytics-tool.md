@@ -17,7 +17,6 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate.
-* For accurate counting of A4T Activity Impressions & Conversions.
 * To understand Target activity (Analytics for Target/A4T) lift and confidence.
 * To access real-time data in the UI.
 * To set up Calendar events.
@@ -38,7 +37,6 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 
-* If true table builder functionality is desired. For example, a) Analysis Workspace is not able to support what you need to build, b) you want to be able to control when your table rebuilds, c) you want the table to remember the various breakdown levels you would like applied to all rows, d) you want to order metric rows manually 
 * To export 50,000 rows of data 
 * If tab organization of project work is desired.
 * To use the Site Analysis report (3D-pathing report).

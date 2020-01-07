@@ -19,6 +19,7 @@ This guide provides product documentation and self-help for the following Adobe 
 ## Key Analytics Tools articles
 
 * [Analysis Workspace Getting Started](analysis-workspace/home.md)
+* [Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder Getting Started](report-builder/home.md)
 * [Activity Map Getting Started](activity-map/activity-map.md)
 

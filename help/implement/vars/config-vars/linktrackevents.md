@@ -13,7 +13,7 @@ This variable is not used for page view calls (`t()` function).
 
 Launch automatically detects events defined in the interface and includes them in link tracking hits.
 
-> [!IMPORTANT] If you set events in Launch using the custom code editor, you must include the event in `linkTrackEvents` as well.
+> [!IMPORTANT] If you set events in Launch using the custom code editor, you must include the event in `linkTrackEvents` using custom code as well.
 
 ## s.linkTrackEvents in AppMeasurement and Launch custom code editor
 

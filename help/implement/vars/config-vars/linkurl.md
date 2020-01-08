@@ -1,33 +1,22 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-seo-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-solution: 
-title: Dynamic variables
+title: linkURL
+description: Override the automatically generated link URL AppMeasurement uses in link tracking calls.
 ---
 
-# s-linkURL
+# linkURL
 
-The URL of the link, which acts as the name if a `linkName` does not exist. Can be set to any URL string. This is the `pev1` parameter in the image request.
+Whenever a link tracking call is sent to Adobe, data collection servers automatically detect the URL. Use the `linkURL` variable to override the detected URL.
 
+## Link URL in Adobe Experience Platform Launch
 
-If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-  
-**Example**
+## s.linkURL in AppMeasurement and Launch custom code editor
+
+The `s.linkURL` variable is a string, containing the URL of the browser when the link was clicked. This variable does not populate any dimensions available in reporting.
 
 ```js
-function s_doPlugins(s) { 
-    if (s.linkType == "d" && s.linkURL.indexOf(".aspx?f=") { 
-        //special tracking for .aspx file download script 
-        s.eVar11 = s.linkURL.substring(s.linkURL.lastIndexOf("?f=") + 3, s.linkURL.length); 
-    } 
-  
-    else if (s.linkType == "o" ) { 
-        // note: linkType is set to "o" only if you make a custom call 
-        // to s.tl() and set the link type to "o". Automatically tracked 
-        // links are set to "d" or "e" only. 
-        s.eVar10 = s.LinkURL; 
-    } 
-}
+s.linkURL = "https://example.com";
 ```
+
+If the `linkName` variable is not set for a link tracking call, the `linkURL` variable is used instead.

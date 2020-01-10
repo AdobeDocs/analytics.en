@@ -1,12 +1,9 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: useForcedLinkTracking
+description: None
 ---
 
-
-# s.useForcedLinkTracking
+# useForcedLinkTracking
 
 This flag is used to disable forced link tracking for some browsers. Forced link tracking is enabled by default for FireFox 20+ and WebKit browsers.
 
@@ -21,6 +18,8 @@ In JavaScript H.25.4 (released February 2013), the following scope limitations w
 
 Default value = `true`
 
-## Example 
+## Example
 
-`s.useForcedLinkTracking = false`
+```js
+s.useForcedLinkTracking = false;
+```

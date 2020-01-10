@@ -1,55 +1,34 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: visitorNameSpace
+description: Retired variable that determined cookie domain.
 ---
 
 # visitorNamespace
 
-The  variable is used to identify the domain with which cookies are set.
+> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
 
+In previous versions of Adobe Analytics, AppMeasurement used the `visitorNameSpace` variable to help determine the subdomain of `2o7.net` where visitor cookies are stored. Increasing privacy practices in modern browsers make third-party cookies less reliable. With the introduction of the `trackingServer` and `trackingServerSecure` variables, `visitorNameSpace` is no longer needed.
 
-<!-- 
+> [!TIP] Adobe recommends using first-party cookies on your site. First-party cookies do not use this variable.
 
-visitorNamespace.xml
+## Visitor Namespace in Adobe Experience Platform Launch
 
- -->
+[!UICONTROL Visitor Namespace] is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. Visitor history becomes disconnected from current and future traffic. Do not alter this variable without approval from an Adobe representative.
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Visitor Namespace] field.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | ns  | N/A  | ""  |
+Adobe advises against using this field. Use `trackingServer` and `trackingServerSecure` instead.
 
-Analytics uses a cookie to uniquely identify visitors to your site. If *`visitorNamespace`* is not used, the cookie is associated 2o7.net. If *`visitorNamespace`* is used, the cookie is associated with a sub-domain of 2o7.net. All visitors to your site should have their cookies associated with the same domain or sub-domain.
+## s.visitorNamespace in AppMeasurement and Launch custom code editor
 
-The reason for using the *`visitorNamespace`* variable is to avoid the possibility of overloading a browser's cookie limit. Internet Explorer imposes a limit of 20 cookies per domain. By using the *`visitorNamespace`* variable, other companies' Analytics cookies will not conflict with your visitors' cookies.
+The `s.visitorNamespace` variable is a string that contains a unique value per organization. Old AppMeasurement libraries automatically included this unique value when downloaded from previous versions of Adobe Analytics. Current AppMeasurement libraries do not use this variable unless `trackingServer` and `trackingServerSecure` are not set.
 
-**Syntax and Possible Values** {#section_EE247FE371784CA4B6058182181F3EA1}
-
-The value of *`visitorNamespace`* must be provided by Adobe and is a string of ASCII characters that don't contain commas, periods, spaces, or special characters.
-
-```js
-s.visitorNamespace="company_specific_value"
-```
-
-**Visitor Identification across Report Suites** {#section_7AC5A97FC8C045DD8850245A62BB09F4}
-
-If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. If you specify `visitorNamespace`, the same `s_vi` cookie will be used for all report suites that send data to the specified `trackingServer`. If you have implemented multi-suite tagging, make sure you specify the visitor namespace so the same cookie is used by each report suite.
-
-**Examples** {#section_89A95852AB9446E794AD3283B8800B09}
+If your organization still requires this variable, pick a value that represents your organization. You can store this value in a [solution design document](../../prepare/solution-design.md).
 
 ```js
-s.visitorNamespace="company_name"
+// If trackingServer is not set, cookies are stored under example.112.2o7.net
+s.visitorNameSpace = "example";
 ```
-
-```js
-s.visitorNamespace="Adobe"
-```
-
-**Configuration Settings** {#section_1128A2531ECC43DFA6749ECC21F050A2}
-
-None 

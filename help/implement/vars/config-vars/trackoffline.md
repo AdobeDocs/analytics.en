@@ -1,54 +1,32 @@
 ---
-description: The following variables and functions let you store measurement calls when the application is offline.
-keywords: Analytics Implementation
-title: Offline tracking
-topic: Developer and implementation
-uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
+title: trackOffline
+description: Enable or disable offline tracking, which changes how AppMeasurement collects data.
 ---
 
-# Offline tracking
+# trackOffline
 
-The following variables and functions let you store measurement calls when the application is offline.
+Offline tracking is an optional way to collect data in Adobe Analytics. If a visitor disconnects from the internet but continues to browse your site, hits are stored in an offline queue until the device reconnects to the internet. Offline tracking is mostly used for mobile applications.
 
-> [!NOTE] To enable offline tracking, your report suite must be timestamp-enabled. If timestamps are enabled on your report suite, your `trackOffline` configuration property *must* be true. if your report suite is not timestamp enabled, your `trackOffline` configuration property *must* be false. If this is not configured correctly, data will be lost. If you are not sure if a report suite is timestamp enabled, [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
+The `trackOffline` variable determines if you want to use offline tracking in your implementation.
 
-When enabled, Offline AppMeasurement behaves in the following way:
+> [!IMPORTANT] You must configure your report suite to accept timestamped hits before enabling this variable. If a report suite does not accept timestamped hits and this variable is enabled, that data is lost and cannot be recovered.
 
-* The application sends a server call, but the data transmission fails.
-* AppMeasurement generates a timestamp for the current hit.
-* AppMeasurement buffers the hit data, and backs up buffered hit data to persistent storage to prevent data loss.
+When enabled, AppMeasurement uses the following process to send data to Adobe:
 
-At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, AppMeasurement attempts to send the buffered hit data, maintaining the original hit order. If the data transmission fails, it continues to buffer the hit data (This continues while the device is offline).
+* When compiling an image request, a timestamp query string parameter is included.
+* If the device cannot reach Adobe data collection servers, the hit is stored locally on the device.
+* During each subsequent hit, AppMeasurement attempts to send an image request to Adobe.
+  * If it cannot reach Adobe data collection servers, the hit is added to the queue on the device.
+  * If it can reach Adobe data collection servers, the hit and the queue of hits while the device was offline are sent.
 
-<table id="table_E8FD8C89025C4E819FE2FEBC7A78984D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Property or Method </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>trackOffline </p> </td> 
-   <td colname="col2"> <p>Default: false </p> <p>Enables or disables offline tracking for the measurement library. </p> <p> <b>Examples:</b> </p> 
-    <code class="syntax c">
-      s.trackOffline=true; 
-    </code> </td> 
-  </tr> 
-  
-  
-  <tr> 
-   <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Manually set the online or offline state of the measurement object. The library automatically detects when the device is offline or online, so these methods are needed only if you want to force measurement offline. <code> forceOnline </code> is used only to return to the online state after manually going offline. </p> <p>When measurement is offline: </p> 
-    <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> If <code> trackOffline </code> is true: hits are stored until measurement is online. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> If <code> trackOffline </code> is false: hits are discarded. </li> 
-    </ul> <p> <b>Examples:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline(); 
-     
-s.forceOnline(); 
-    </code> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Track Offline in Adobe Experience Platform Launch
+
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.trackOffline in AppMeasurement and Launch custom code editor
+
+The `s.trackOffline` variable is a boolean that enables or disables offline tracking. Its default value is `false`. Set this value to `true` if you want to enable offline tracking.
+
+```js
+s.trackOffline = true;
+```

@@ -1,40 +1,29 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: trackInlineStats
+description: Enable or disable Activity map in your implementation.
 ---
 
-# s.trackInlineStats
+# trackInlineStats
 
-The  variable determines whether ClickMap data is gathered.
+Activity map is a feature in Adobe Analytics that collects data on where visitors click and what they click on. You can view this data in Analytics reports, or by using a browser extension overlay. Enable this variable if you would like to use Activity map features.
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+When enabled, AppMeasurement collects information about the link and sends that data in the next image request. Information from each click is stored in a cookied labeled `s_sq`.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | N/A  | ClickMap  | False  |
+## Enable Clickmap in Adobe Experience Platform Launch
 
-## Syntax and Possible Values
+[!UICONTROL Enable Clickmap] is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-```
-js
-s.trackInlineStats=true|false
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Enable Clickmap] checkbox.
 
-```
+Click the checkbox to enable Activity map tracking.
 
-The *`trackInlineStats`* variable is expected to be either 'true' or 'false.'
+## s.trackInlineStats in AppMeasurement and Launch custom code editor
 
-## Examples
-
-```js
-s.trackInlineStats=true
-```
+The `s.trackInlineStats` is a boolean that enables or disables Activity map tracking. Its default value is `false`. Set this value to `true` if you want to enable Activity map data collection.
 
 ```js
-s.trackInlineStats=false
+s.trackInlineStats = true;
 ```
-
-## Configuration Settings
-
-None 

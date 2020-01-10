@@ -35,20 +35,8 @@ At each subsequent hit, or at the interval defined by `offlineThrottleDelay`, Ap
       s.trackOffline=true; 
     </code> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>offlineLimit </p> </td> 
-   <td colname="col2"> <p>Default: no limit </p> <p>Maximum number of offline hits stored in the queue. </p> <p> <b>Examples:</b> </p> 
-    <code class="syntax c">
-      s.offlineHitLimit=100; 
-    </code> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>offlineThrottleDelay </p> </td> 
-   <td colname="col2"> <p>Default: 0 </p> <p>Specifies a cadence (or delay), in milliseconds, for sending buffered hit data when AppMeasurement detects an active network connection. Doing so mitigates the performance impact of sending multiple hits on the application. </p> <p>For example, if offlineThrottleDelay=1000, and it takes 300ms to send the hit data, AppMeasurement waits 700ms before sending the next buffered hit. </p> 
-    <code class="syntax c">
-      s.offlineThrottleDelay=1000; 
-    </code> </td> 
-  </tr> 
+  
+  
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
    <td colname="col2"> <p> Manually set the online or offline state of the measurement object. The library automatically detects when the device is offline or online, so these methods are needed only if you want to force measurement offline. <code> forceOnline </code> is used only to return to the online state after manually going offline. </p> <p>When measurement is offline: </p> 

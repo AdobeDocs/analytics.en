@@ -5,8 +5,6 @@ description: Help AppMeasurement understand what domain to store cookies if your
 
 # cookieDomainPeriods
 
-> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
-
 AppMeasurement determines its cookie location by looking at the domain and domain suffix. For domains like `example.com`, AppMeasurement sets cookies in the correct location. However, for other domains like `example.co.uk`, AppMeasurement can mistakenly set cookies on `co.uk`. Most browsers reject cookies set on this invalid domain, causing issues with visitor identification.
 
 The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location.

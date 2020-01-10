@@ -1,25 +1,47 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: registerPreTrackCallback
+description: Create callback functions before sending a hit to Adobe.
 ---
 
-# s.registerPreTrackCallback and s.registerPostTrackCallback
+# registerPreTrackCallback
 
-These functions take as parameters: the callback (a function), and the parameters to that function. For example:
+The `registerPreTrackCallback` variable allows your organization to hook a JavaScript function after an image request URL is compiled but before it is sent. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure.
 
+> [!IMPORTANT] Do not call any tracking functions like `t()` or `tl()` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+
+Each time you call the `registerPreTrackCallback` variable, you hook that function to run every time an image request URL is compiled. Avoid registering the same function multiple times in the same page load.
+
+> [!NOTE] The timing and order of functions fired between `registerPreTrackCallback` and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
+
+## Register Pre Track Callback in Adobe Experience Platform Launch
+
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.registerPreTrackCallback in AppMeasurement and Launch custom code editor
+
+The `s.registerPreTrackCallback` is a function that takes a function as its only argument. The nested function runs just before an image request is sent.
+
+```js
+s.registerPreTrackCallback(function(){/* Desired code */});
 ```
-s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
-    console.log("pre track callback"); 
-    console.dir(requestUrl); // Request URL 
-    console.dir(a); // param1 
-    console.dir(b); // param2 
-    console.dir(c); // param3 
+
+If you want to use the image request URL in your code, reference the `requestUrl` string argument within the nested function. You can parse the `requestUrl` variable for your desired use; adjusting this variable does not impact data collection.
+
+```js
+s.registerPreTrackCallback(function(requestUrl){
+  console.log(requestUrl); // Outputs the full image request URL
+});
+```
+
+Additional arguments can be included in the `s.registerPreTrackCallback` function, which can be used in the nested function:
+
+```js
+s.registerPreTrackCallback(function(requestUrl,a,b,c) {
+    console.log(requestUrl); // Full image request URL
+    console.log(a); // param1
+    console.log(b); // param2
+    console.log(c); // param3
 }, "param1", "param2", "param3");
-
 ```
 
-The callback is invoked with the `requestUrl` and any parameters passed in when the callback is registered. This occurs either before or after the tracking call, depending on which method is used to register the callback.
-
-The order in which these callbacks are called is not guaranteed. Callbacks registered in the pre function are invoked after the final tracking URL is created. The post callbacks are called upon a successful tracking call (if the tracking call fails, these functions are not called). Any callback registered with `registerPreTrackCallback` do not affect the tracking call. Also, calling any of the tracking methods in any registered callback is not recommended and could cause an infinite loop.
+> [!NOTE] Setting page variables or altering the `requestUrl` string within this function do *not* impact the image request sent shortly after this function call.

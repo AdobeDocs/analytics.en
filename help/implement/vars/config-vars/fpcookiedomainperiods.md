@@ -5,8 +5,6 @@ description: Help AppMeasurement understand what domain to store cookies if your
 
 # fpCookieDomainPeriods
 
-> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
-
 The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location. It inherits the value of `cookieDomainPeriods`, but is still a best practice to set if you use a first-party cookie implementation.
 
 * For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.

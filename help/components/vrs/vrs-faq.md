@@ -55,10 +55,6 @@ Tips and Best Practices for new users of virtual report suites.
     </ul> <p>Note:  When you use the Web Services API and attempt to save Feature settings against a VRS, an exception will be thrown. Features can only be set against a base report suite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Are virtual report suites supported in the SiteCatalyst 14 UI?</b> </td> 
-   <td colname="col2"> <p>No, we do not expose virtual report suites in SiteCatalyst 14. They will not show up for selection in the Report Suite Selector and cannot be selected. We do, however, expose virtual report suites in the SiteCatalyst 14 Admin Console UI when editing a group. In this particular case virtual report suites need to be represented so they aren't accidentally removed from an already-existing group that may already have access to one/many virtual report suites. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <b> I checked "start new visit on launch." Why do I see visits still much higher than launches?</b> </td> 
    <td colname="col2"> <p> When the <span class="uicontrol"> start new visit on launch </span> option is checked, the timeout still applies. So, if a user is using the an app for ten minutes with a one minute break in between each action, a new visit starts on launch, then nine additional visits are created when the visit times out. To keep launches and visits as close as possible when <span class="uicontrol"> using the start new visit on launch </span> option, you should use a timeout that is longer than the session timeout set in the SDK . </p> </td> 
   </tr> 

@@ -9,12 +9,13 @@ This guide provides helpful information on topics that don't belong to a specifi
 ## Key tech notes articles
 
 * [Transitioning from a third-party analytics platform to Adobe Analytics](ga-to-aa/home.md)
+* [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)
 
 ## More Analytics user guides
 
 [Analytics User Guides](/help/landing/home.md)
 
-## Key Analytics resources
+## Other Analytics resources
 
 * [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)

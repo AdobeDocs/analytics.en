@@ -28,7 +28,10 @@ Check this box if you want to include query strings in link tracking dimensions.
 
 ## s.linkLeaveQueryString in AppMeasurement and Launch custom code editor
 
-The `s.linkLeaveQueryString` variable is a boolean. Its default value is `false`. Set this variable to `true` if you want link tracking URLs to keep query strings.
+The `s.linkLeaveQueryString` variable is a boolean. Its default value is `false`.
+
+* If this variable is set to `true`, query strings are preserved in link tracking URLs.
+* If this variable is set to `false` or not defined, query strings are stripped from link tracking URLs.
 
 ```js
 s.linkLeaveQueryString = true;

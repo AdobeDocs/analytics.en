@@ -1,71 +1,45 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: linkName
+description: Set the name of the custom link hit.
 ---
-
 
 # linkName
 
-The  variable is an optional variable used in [!UICONTROL Link Tracking] that determines the name of a custom, download, or exit link.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next `tl()` function.
 
+If this variable is blank, AppMeasurement reverts to the `linkURL` variable.
 
-<!-- 
+## Link Name in Adobe Experience Platform Launch
 
-linkName.xml
+You can set the link name field when configuring a rule to send a beacon.
 
- -->
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the '+' icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
+## s.linkName in AppMeasurement and Launch custom code editor
 
-<table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Max Size </th> 
-   <th class="entry"> Debugger Parameter </th> 
-   <th class="entry"> Reports Populated </th> 
-   <th class="entry"> Default Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> 100 bytes </td> 
-   <td> pev2 </td> 
-   <td> <p>File Downloads </p> <p>Custom Links </p> <p>Exit Links </p> </td> 
-   <td> "" </td> 
-  </tr> 
- </tbody> 
-</table>
+The `s.linkName` variable is a string that determines the dimension value for custom links, download links, or exit links (depending on what `s.linkType` is). It can hold up to 100 bytes.
 
-[!UICONTROL Custom Links] refer to links that send tracking data. The *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
-
-**Syntax and Possible Values** {#section_C8D89834C98B4C7A858C947293C4148E}
+> [!TIP] This variable is the third parameter of the `tl()` function, and usually does not need to be set as a standalone variable. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` function.
 
 ```js
-s.linkName="Link Name"
+s.linkName = "Example custom link";
 ```
 
-There are no limitations on *`linkName`* outside of the standard variable limitations.
+## Example
 
-**Examples** {#section_5F68766210184E82A23D2A6ECD80BA0B}
+The following two example link tracking calls are functionally identical. They are different methods to accomplish the same link tracking hit.
 
 ```js
-s.linkName="Nav Bar Home Link"
+// Set link tracking arguments as individual variables
+s.linkType = "d";
+s.linkName = "Example download link";
+s.tl();
+
+// Set link tracking arguments directly in the tl() function
+s.tl(this,"d","Example download link");
 ```
-
-```js
-s.linkName="Partner Link to A.com"
-```
-
-**Configuration Settings** {#section_F15FF429FC274F708D50DF79D4668EA3}
-
-None
-
-**Pitfalls, Questions, and Tips** {#section_170A78452A7340B5B229713AC1FB71FA}
-
-* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function.
-
-* If the *`linkName`* variable and the third parameter in the *`tl()`* function are blank, the full URL of the link (with the exception of the query string) appears in the report (even if the link is relative).

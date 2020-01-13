@@ -32,7 +32,7 @@ s.doPlugins = function() {
   s.eVar1 = window.document.title;
 };
 
-// Use the getPreviousValue plugin (also requires plugin code)
+// Use the getPreviousValue plugin (requires plugin code outside the function)
 s.doPlugins = function() {
   s.eVar1 = s.getPreviousValue(s.pageName,'gpv_pn');
 }

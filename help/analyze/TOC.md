@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 ---
 

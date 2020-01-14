@@ -1,5 +1,5 @@
 ---
-title: Analysis Workspace Help
+title: Analytics Tools Guide
 description: Product documentation and self-help for Analysis Workspace, Activity Map, Report Builder, Reporting API, and Reports & Analytics (formerly Omniture Analytics products).
 ---
 

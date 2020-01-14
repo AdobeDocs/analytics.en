@@ -87,12 +87,6 @@ Check out the new [Fallout Analysis](https://marketing.adobe.com/resources/help/
 
 Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer
 
-<!-- 
-
-t_reports_page_flow.xml
-
- -->
-
 Check out the new [Flow visualization](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) in Analysis Workspace!
 
 Run a [Paths](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) report.

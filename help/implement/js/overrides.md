@@ -12,24 +12,24 @@ Variable overrides let you change Analytics values for a single hit without affe
 1. Create a new JavaScript object. The object name can be anything you want.
 
    ```js
-   var override = new Object();
+   var y = new Object();
    ```
 
 2. Assign valid Analytics properties to this object:
 
    ```js
-   override.eVar1 = "New value";
-   override.events = "event2";
+   y.eVar1 = "New value";
+   y.events = "event2";
    ```
 
 3. Use the object as an argument within the appropriate tracking call:
 
    ```js
    // Use the override object in a standard page view call
-   s.t(override);
+   s.t(y);
 
    // Use the override object in a link tracking call
-   s.tl(this,'o','Example override link',override);
+   s.tl(this,'o','Example override link',y);
    ```
 
 When a tracking call receives an object in the overrides parameter, all valid values in the override object overwrite values in the standard Analytics object. Variables already defined in your existing Analytics object are not affected.

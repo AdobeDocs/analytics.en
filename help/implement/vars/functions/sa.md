@@ -1,45 +1,35 @@
 ---
-description: The s.sa() function lets you dynamically change a report suite at any time on the page, before or after an image request fires.
-keywords: Analytics Implementation
-subtopic: Functions
-title: The s.sa() Function
-topic: Developer and implementation
-uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
+title: sa()
+description: Change the report suite at any time in your implementation.
 ---
 
-# The s.sa() Function
+# sa()
 
-The s.sa() function lets you dynamically change a report suite at any time on the page, before or after an image request fires.
+The `sa()` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.
 
- If your organization wants to send data to different report suites without a page reload, using this function is strongly recommended.
+## Use the sa() method in Adobe Experience Platform Launch
 
-This information is suited for advanced users who are well-versed in both reporting and implementation. Do not attempt to make any edits to your implementation without complete knowledge of its consequences. If you require implementation changes, contact your organization's Account Manager.
+There is not a flexible way to change report suite in the interface. You can set report suite under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension. However, you cannot change or update the report suite using rules. If you want to update report suite values after they are set, use the custom code editor following AppMeasurement syntax.
 
-## Properties of the Function {#section_E10CB41A0CF749F4A24C8377958E3671}
+## s.sa() in AppMeasurement and Launch custom code editor
 
-Setting this function takes all previously defined variables and lets them be used in a different report suite.
-
-## Implementation Examples {#section_14B0B8C853244D5F82B08B995773640C}
-
-Sending video data to one report suite while sending the rest to another:
+Call the `s.sa()` method to change the destination report suite. Its only argument is a string containing a report suite ID, or multiple report suite IDs delimited by a comma. The report suite ID argument is required. Do not use spaces in the string argument.
 
 ```js
-// Set in the core JS file by default 
-var s=s_gi('prodrsid'); 
- 
-// Define this when a user interacts with a video 
-s.sa('videorsid'); 
-s.t(); // Sends an image request
+s.sa("examplersid");
 ```
 
-Using s.sa() and multi-suite tagging:
+## Example
+
+You can change the report suite if the user takes a specific action on your site.
 
 ```js
-// Set in the core JS file by default 
-var s=s_gi('rsid1'); 
- 
-// Call the function when you wish to change report suites 
-s.sa('rsid1,rsid2'); 
+// Instantiate the tracking object
+var s = s_gi("examplersid");
+
+// If the visitor plays a video, you can add a video report suite
+s.sa("examplersid,videorsid");
+
+// Then send an image request
 s.t();
 ```
-

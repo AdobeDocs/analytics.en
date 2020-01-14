@@ -20,9 +20,9 @@ The global variable text field lets you set a custom tracking object. Its defaul
 
 ## s_gi() in AppMeasurement and Launch custom code editor
 
-Call the `s_gi()` function to instantiate a tracking object. Its only argument contains a comma-delimited string of report suite ID's. The report suite ID argument is required.
+Call the `s_gi()` function to instantiate a tracking object. Its only argument contains a comma-delimited string of report suite IDs. The report suite ID argument is required.
 
-> [!TIP] Adobe recommends using the `s` variable as a tracking object. Adobe uses `s` in its documentation, implementation examples, and plug-ins. However, you can use any variable as long as you are consistent across your entire site.
+> [!TIP] Adobe recommends using the `s` variable as a tracking object. Adobe uses `s` in its documentation, implementation examples, and plug-ins. However, you can use any variable as long as you are consistent across your site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -68,10 +68,10 @@ s.eVar1 = "Example value";
 // Step 3: Accidentally overwrite the tracking object
 s = "3rd party tool";
 
-// If you attempt to send a tracking call, an error is returned. Instead, re-instantiate the tracking object
+// Step 4: If you attempt to send a tracking call, an error is returned. Instead, re-instantiate the tracking object
 s = s_gi("examplersid");
 
-// The previous values of all variables are preserved. You can send a tracking call and eVar1 is correctly set
+// Step 5: The previous values of all variables are preserved. You can send a tracking call and eVar1 is correctly set
 s.t();
 ```
 

@@ -1,46 +1,59 @@
 ---
-description: The s.t() function is what compiles all the variables defined on that page into an image request and sends it to our servers.
-keywords: track;Analytics Implementation;page tracking;track page
-subtopic: Functions
-title: The s.t() Function - Page Tracking
-topic: Developer and implementation
-uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+title: t()
+description: Send a page view tracking call to Adobe.
 ---
 
-# The s.t() Function - Page Tracking
+# t()
 
-The s.t() function is what compiles all the variables defined on that page into an image request and sends it to our servers.
+The `t()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers.
 
-## Properties of the Function {#section_DB1F3E216DCD4E12AE42BBDCD25B9626}
-
-* Removing the [!UICONTROL s.t()] call prevents any data from reaching [!DNL Analytics]. Multiple [!UICONTROL s.t()] calls fires multiple image requests (doubling the reported traffic on your site).
-
-* If you wish to fire more than one image request on a single page load, using the [!UICONTROL s.tl()] function is recommended.
-* Triggering this function always increases [!UICONTROL pageviews]and always include the [!UICONTROL s.pageName] variable.
-
-## Implementation {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
-
-Upon generating code within the [!UICONTROL code manager], you are given the following at the bottom of the page code:
+For example, consider the following JavaScript code:
 
 ```js
-var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
-<script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script> 
-<noscript><img src="https://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" /></noscript> 
+// Instantiate the tracking object
+var s = s_gi("examplersid");
 
+// Define config variables and page variables
+s.trackingServerSecure = "data.example.com";
+s.eVar1 = "Example dimension value";
+
+// Compile the variables on the page into an image request to Adobe
+s.t();
 ```
 
-Each line of code has a specific purpose:
+Running the `t()` method takes all Analytics variables defined and formulates a URL based on those variables. Some Analytics variables determine the URL of the image, while other variables determine query string parameter values.
+
+```text
+https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
+```
+
+Adobe receives the image request, then parses the request header, URL, and query string parameters. Data collection servers then return a transparent 1x1 pixel image, invisibly displayed on your site.
+
+## Page view tracking call in Adobe Experience Platform Launch
+
+Launch has a dedicated location set a page view tracking call.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the '+' icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.t()` radio button.
+
+## s.t() method in AppMeasurement and Launch custom code editor
+
+Call the `s.t()` method when you want to send a tracking call to Adobe.
 
 ```js
-var s_code=s.t();if(s_code)document.write(s_code)//-->
+s.t();
 ```
 
-This line of code is what actually fires the Javascript function. The [!UICONTROL s_code] variable and it's accompanying document.write method is for browsers that don't support image objects (Netscape browsers prior to version 3 and Internet Explorer prior to version 4; estimated less than .5% of all internet users).
+Optionally, you can use an object as an argument to override variable values. See [variable overrides](../../js/overrides.md) for more information.
 
 ```js
-<script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script> 
-<noscript><img  
-src="https://yournameserver.112.2o7.net/b/ss/yourreportsuiteid/1/H.23.6--NS/0" height="1" width="1" border="0" alt="" />
+var y = new Object();
+y.eVar1 = "Override value";
+s.t(y);
 ```
 
-For any additional questions about the [!UICONTROL s.t()] function, contact your organization's Account Manager. They can arrange a meeting with an Adobe Implementation Consultant, who can provide assistance.
+> [!NOTE] Previous versions of AppMeasurement used several lines of code to call this function. The additional code historically accommodated workarounds for different browsers. Standardization and best practices in modern browsers no longer require this block of code. Only the method call `s.t()` is needed now.

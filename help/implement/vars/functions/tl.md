@@ -1,137 +1,145 @@
 ---
-description: File downloads and exit links can be automatically tracked based on parameters set in the AppMeasurement for JavaScript file.
-keywords: Analytics Implementation
-subtopic: Link tracking
-title: The s.tl() Function - Link Tracking
-topic: Developer and implementation
-uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
+title: tl()
+description: Send a link tracking call to Adobe.
 ---
 
-# The s.tl() Function - Link Tracking
+# tl()
 
-If your organization prefers to have more control over the links to track and their behavior, manual link tracking is recommended. Use the `s.tl()` function to manually send link tracking image requests with the exact content desired. If basic link tracking is all that is needed, see `s.trackDownloadLinks` and `s.trackExternalLinks` under [Configuration variables](c-variables/configuration-variables.md). Custom links cannot automatically be tracked.
+The `tl()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the `t()` method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
 
-> [!NOTE] Link tracking code is often very specific to your site and reporting needs. Adobe recommends prior implementation experience or an implementation consultant to understand how to use this feature based on your business needs.
+If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
 
-## Syntax and examples
+## Link tracking call in Adobe Experience Platform Launch
 
-Basic syntax:
+Launch has a dedicated location set a link tracking call.
 
-`s.tl(`**`this`**`,`**`linkType`**`,`**`linkName`**`,`**`variableOverrides`**`,`**`doneAction`**`);`
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the '+' icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button.
 
-Basic examples:
+You cannot set any optional arguments in Launch.
 
-```HTML
-<!-- Basic HTML link example-->
-<a href="example.html" onClick="s.tl(this,'o','Example link');">Click here</a>
+## s.tl() method in AppMeasurement and Launch custom code editor
+
+Call the `s.tl()` method when you want to send a tracking call to Adobe.
+
+```js
+s.tl();
 ```
 
-```JavaScript
-// Basic JavaScript link example
-s.tl(this,'o','Example Link');
+Optionally, this method accepts several arguments:
+
+```js
+s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-> [!NOTE] The first argument to this function is either the JavaScript variable `this` or boolean `true`. The second and third arguments to this function are both strings. Make sure you use string quotes correctly when using this function.
+### Link object
 
-### this/true (required)
+The link object argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
 
-The first argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
+> [!NOTE] AppMeasurement automatically enables the `useBeacon` variable for exit links, making this argument no longer needed in modern browsers. This argument was used more commonly in previous versions of AppMeasurement.
 
 * `this`: Wait up to 500ms to give AppMeasurement time to send an image request. Default value.
-* `true`: Do not wait. If the link navigates away from the page, it is possible an image request is not sent.
-
-The delay is only necessary when a link leaves the page.
+* `true`: Do not wait.
 
 ```JavaScript
 // Include 500ms delay
-s.tl(this,'o','Example link');
+s.tl(this);
 
 // Do not include 500ms delay
-s.tl(true,'o','Example link');
+s.tl(true);
 ```
 
-### linkType (required)
+### Link type
 
-The second argument has three valid values depending on the type of link that you want to capture. It determines which dimension in Adobe Analytics the image request populates.
+The link type argument is a single-letter string that determines the type of link tracking call. It is the same as setting the `linkType` variable.
 
-* `d`: File Downloads
-* `e`: Exit Links
-* `o`: Custom links
+```js
+// Send a custom link
+s.tl(true,"o");
 
-```JavaScript
-// Populates the File Downloads dimension
-s.tl(this,'d','Example link');
+// Send a download link
+s.tl(true,"d");
 
-// Populates the Exit Links dimension
-s.tl(this,'e','Example link');
-
-// Populates the Custom Links dimension
-s.tl(this,'o','Example link');
+// Send an exit link
+s.tl(true,"e");
 ```
 
-### linkName (required)
+### Link name
 
-This argument can be any custom value up to 100 bytes. It determines the dimension value in reporting.
+The link name argument is a string that determines the link tracking dimension value. It is the same as setting the `linkName` variable.
 
-```JavaScript
-// Populates the Custom Link dimension with "Referral click to example.com"
-s.tl(this,'o','Referral click to example.com');
-
-// Populates the Download link dimension with "Last quarter performance PDF"
-s.tl(this,'d','Last quarter performance PDF');
+```js
+s.tl(true,"d","Example download link");
 ```
 
-### variableOverrides (optional)
+### Variable overrides
 
-Lets you change variable values for a single call. If you use the doneAction argument and have no variable overrides, use `null`.
+Lets you change variable values for a single call. See [variable overrides](../../js/overrides.md) for more information.
 
-### doneAction (optional)
-
-Specifies a navigation action to execute after the track link call completes. Requires the use of `s.useForcedLinkTracking` and `s.forcedLinkTrackingTimeout`. The doneAction variable can be the string `navigate`, which causes the method to set `document.location` to the href attribute of `linkObject`. The doneAction variable can also be a function allowing for advanced customization.
-
-If providing a value for doneAction in an anchor `onClick` event, you must return `false` after the `s.tl` call to prevent the default browser navigation.
-To mirror the default behavior and follow the URL specified by the href attribute, provide a string of `navigate` as the doneAction. Optionally, you can provide your own function to handle the navigation event by passing this function as the doneAction.
-
-```JavaScript
-s.tl(this,'e','Example link',null,'navigate');return false;
+```js
+var y = new Object();
+y.eVar1 = "Override value";
+y.linkTrackVars = "eVar1";
+s.tl(true,"o","Example custom link",y);
 ```
 
-## Using JavaScript functions with link tracking
+## Examples and use cases
 
-You can consolidate link tracking code into a self-contained JavaScript function defined on the page or in a linked JavaScript file. Calls can then be made in the onClick function of each link.
+Send a basic link tracking call directly inside an HTML link:
+
+```HTML
+<a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
+```
+
+Use JavaScript to make a basic link tracking call:
 
 ```JavaScript
-// Set in AppMeasurement file or page code
+s.tl(true,"o","Example Link");
+```
+
+### Make link tracking calls within a custom function
+
+You can consolidate link tracking code into a self-contained JavaScript function defined on the page or in a linked JavaScript file. Calls can then be made in the onClick function of each link. Set the following in a JavaScript file:
+
+```JavaScript
 function trackClickInteraction(name){
-    s.linkTrackVars='eVar16,eVar17';
-    s.eVar16 = name;
-    s.eVar17 = s.pageName;
-    s.tl(true,'o',name);
+    s.linkTrackVars = "eVar1,eVar2";
+    s.eVar1 = name;
+    s.eVar2 = s.pageName;
+    s.tl(true,"o",name);
 }
 ```
+
+You can then call the function whenever you want to track a given link:
 
 ```HTML
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
 
-## Avoiding Duplicate Link Counts {#section_9C3F73DE758F4727943439DED110543C}
+### Avoid tracking duplicate links
 
-It is possible for links to double count in situations where the link is normally captured by automatic file download or exit link tracking. For example, if you are tracking PDF downloads automatically, an `s.tl` call results in a duplicate download count:
+If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement automatically makes a link tracking call if the correct filters match. If you also manually call `s.tl()` for these link clicks, you can send duplicate data to Adobe. Duplicate data inflates report numbers and makes them less accurate.
+
+For example, the following function would send two link tracking calls for same link click (manual and automatic download links):
 
 ```JavaScript
-function trackDownload(obj) {}
-    s.tl(obj,'d','PDF Document');
+function trackDownload(obj) {
+    s.tl(obj,"d","Example PDF download");
 }
 ```
 
-To ensure link double counting does not occur, use the following modified JavaScript function:
+You can help prevent duplicate link tracking calls by using the following modified function. It first checks to see if a link object exists, and only sends a manual link tracking call if the link object is an empty string.
 
 ```JavaScript
 function linkCode(obj) {
     var lt = obj.href != null ? s.lt(obj.href) : "";
     if (lt=="") {
-        s.tl(obj,'d','PDF Document');
+        s.tl(obj,"d","Example PDF download");
     }
 }
 ```

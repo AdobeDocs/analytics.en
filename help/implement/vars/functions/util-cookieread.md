@@ -1,35 +1,29 @@
 ---
+title: Util.cookieRead()
 description: Gets the value for a cookie.
-keywords: Analytics Implementation
-subtopic: JavaScript AppMeasurement
-title: Util.cookieRead
-topic: Developer and implementation
-uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
 ---
 
-# Util.cookieRead
+# Util.cookieRead()
 
-Gets the value for a cookie.
+Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieRead` method to retrieve a value from a cookie.
 
- **Syntax:**
+## Read cookies in Adobe Experience Platform Launch
 
-```
-s.Util.cookieRead(key)
-```
+You can read cookies by setting values in data elements.
 
-**Parameters:** 
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
+4. Set the [!UICONTROL Extension] dropdown to [!UICONTROL Core], and the [!UICONTROL Data Element Type] to [!UICONTROL Cookie].
+5. Enter the cookie name in the text field.
 
-|  Parameter  | Description  |
-|---|---|
-|  key  | (required) key to write value for in cookies.  |
+The cookie value is stored in the data element. You can then reference the data element to assign Analytics variables.
 
-**Returns:**
+## s.Util.cookieRead() in AppMeasurement and Launch custom code editor
 
-Cookie value or an empty string if the cookie is not found.
-
-**Example:**
+Call the `s.Util.cookieRead()` method to read a desired cookie value. Its only argument is a string, which is required. This method returns a string containing the cookie value. If the cookies does not exist, an empty string is returned.
 
 ```js
-var myCookie = s.Util.cookieRead("my_cookie");
+// Reads the value set in the cookie named 'example' and assigns the value to eVar1
+s.eVar1 = s.Util.cookieRead("example");
 ```
-

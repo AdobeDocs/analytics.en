@@ -14,11 +14,11 @@ In general, most browsers are becoming more restrictive in how they hold third-p
 
 The following list shows some recent changes according to browsers:
 
-* Chrome: Starting with Chrome 80, the `SameSite` attribute is handled differently to manage third-party cookies or cross-site requests.
+* Chrome: Starting with Chrome 80, the `SameSite` attribute is handled differently to manage third-party cookies or cross-site requests. Ultimately, Chrome developers are looking for ways to [deprecate third-party cookies](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1) altogether.
 
 * Firefox and Edge: Product announcements state that successive versions of their browsers are to follow the same changes as those made in Chrome 80.
 
-* Safari: With [Safari 12.1](https://developer.apple.com/documentation/safari_release_notes/safari_12_1_release_notes), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
+* Safari: With [Safari 12.1](https://webkit.org/blog/category/privacy/), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
 
 ## What is the difference between third-party cookies and first-party cookies?
 
@@ -36,17 +36,17 @@ Depending on the implementation, Analytics cookies are stored as follows:
 
 ### Third-party cookie implementations
 
-Browsers currently store the Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie. This cookie provides persistent identifiers across domains and allows for secure (https) content. Although other third-party cookies may make calls to numerous other domains, the Adobe cookie calls only Adobe. 
+Browsers currently store the Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie. This cookie provides persistent identifiers across domains and allows for secure (https) content.
 
 ### First-party cookie implementations
 
-By configuring a CNAME, your user can receive Adobe cookies in a first-party cookie context for their browsers. Although this implementation does not currently support https, it will in the future. This may be a viable option if a third-party cookie implementation is not optimal for your users. 
+By configuring a CNAME, your user can receive Adobe cookies in a first-party cookie context for their browsers. This may be a viable option if a third-party cookie implementation is not optimal for your users. 
 
 ## What is the SameSite cookie attribute and how does it affect Analytics?
 
-With the release of the Chrome 80 browser--and successive versions of Firefox, and Edge browsers--the SameSite cookie attribute provides three different ways to control the behavior of cross-site requesting: `None`, `Lax`, or `Strict`
+With the release of the Chrome 80 browser--and successive versions of Firefox, and Edge browsers--the SameSite cookie attribute enforces the specification for three different values for controlling the behavior of cross-site requesting, as follows: 
 
-* `None`: This setting enables cross-site access and enables first party cookies to be passed in a third-party context. To specify this attribute, you must also specify `Secure` and all browser requests must follow HTTPS. For example, when setting the cookie, you pair the values of the attribute as follows: `Set-Cookie: example_session=test12; SameSite=None; Secure`. If not labelled properly, the cookies are unusable to the newer browsers and will be rejected.
+* `None`: This setting enables cross-site access and enables cookies to be passed in a third-party context. To specify this attribute, you must also specify `Secure` and all browser requests must follow HTTPS. For example, when setting the cookie, you pair the values of the attribute as follows: `Set-Cookie: example_session=test12; SameSite=None; Secure`. If not labelled properly, the cookies are unusable to the newer browsers and will be rejected.
 
 * `Lax`: Allows cross-site requests to be sent with same-site cookies only for top level navigations with *safe* (read-only, such as `GET`) HTTP methods.
 
@@ -56,7 +56,7 @@ The default behavior in these browser versions is to treat cookies that have no 
 
 ## How is Adobe Analytics responding to these changes?
 
-All Adobe cookie updates are handled via Adobe servers and Adobe is updating their edge servers to set the appropriate cookie attributes. Adobe is releasing server-side updates to set their third-party cookies with the appropriate attributes. No JavaScript updates are required for your sites. 
+All Adobe cookie updates are handled via Adobe servers and Adobe has updated their edge servers to set the appropriate cookie attributes. Adobe has released server-side updates to set their third-party cookies with the appropriate attributes. No JavaScript updates are required for your sites. 
 
 This upgrade by Adobe edge servers will happen automatically as users visit any website where the cookie is used. For most Adobe products, cookies will have the appropriate flags as Chrome 80 is released. The exception is Adobe Analytics implementations that use third-party data collection and do not use the Experience Cloud Identity Service (ECID). These customers may experience a small, temporary increase in new visitors that otherwise would have been tagged as returning visitors.
 
@@ -72,6 +72,8 @@ The following table summarizes Analytics cookies:
 
 Analytics customers should confirm that their JavaScript configuration is using HTTPS for their calls to Adobe services. ECID redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency, but means you are not required to change your configuration.
 
+Adobe suggests that you ensure all of your site pages are served with HTTPS.
+
 ### One CNAME for multiple domains
 
 If you have a CNAME implementation that is set in the same domain as your website, this will be a first-party cookie context and you do not need to make changes. 
@@ -80,11 +82,11 @@ However, if you own multiple domains and use the same CNAME for data collection 
 
 ## What is the impact of Safari changes (ITP 2.1) for Analytics?
 
-Despite changes in Safari 12.1, data sets from Adobe Experience Cloud cookies are still being collected. Although cookies are capped at seven days, visitors returning to your property within that time renew the cookie and keep it from expiring for another seven days. Lookback windows and return visitor counts may be reduced for Safari traffic until an Adobe update is made available, targeting end of April to May 2019.
-
-Along with everyone in the industry, Adobe is developing both short and long-term mitigations. 
+Despite changes in Safari 12.1, data sets from Adobe Experience Cloud cookies are still being collected. Although cookies are capped at seven days, visitors returning to your property within that time renew the cookie and keep it from expiring for another seven days. Lookback windows and return visitor counts may be reduced for Safari traffic until an Adobe update is made available.
 
 Due to the shortened expiration window of seven days, customers may see an increase of unique visitors. Visit and page view counts should not be affected. If you have a property that has seasonal traffic, such as tax services or holiday retail, you may see higher impact as this visitor will not be connected between seasons.
+
+If you use a CNAME, the visitor ID service will save the ECID into a server-side first-party cookie. This allows the cookie to persist for it's full duration.
 
 **Note: ITP 2.1 will not apply to embedded browsers in mobile apps.**
 
@@ -99,7 +101,7 @@ Analytics legacy `s_vi` cookie as a third party cookie, including collection tar
 
 To sum up:
 
-* If you use the visitor ID service — your implementation will be affected in the ways listed above.
+* If you have a CNAME and use the visitor ID service — your implementation will not be affected.
 
 * If you use a first party CNAME in the first party context and don’t use the visitor ID service — your implementation will not be affected. 
 
@@ -111,7 +113,9 @@ To sum up:
 
 Data sets with active visitors who return frequently are the least affected by the changes. If the content of your site is such that customers return daily or at least a couple times a week, the cookies for these active users will be renewed before they expire. Social network, news and other media sites are most likely to have large communities of users who return frequently.
 
-Customers who are using `s_vi` as their primary visitor ID, and are configured with first party data collection using a CNAME will not be impacted by ITP 2.1. Note that in instances where `s_vi` cannot be set, the fallback cookie, `s_fid` may be used and will have a seven day expiration. 
+Customers who are using `s_vi` as their primary visitor ID, and are configured with first party data collection using a CNAME will not be impacted by ITP 2.1. Note that in instances where `s_vi` cannot be set, the fallback cookie, `s_fid` may be used and will have a seven day expiration.
+
+Also, data sets that use the visitor ID service and have a first-party domain are least affected.
 
 ## Will Safari changes affect my business?
 
@@ -142,7 +146,7 @@ According to [statcounter](https://gs.statcounter.com/browser-market-share/all),
 
 As market share changes, you can refer to such [statistics](https://gs.statcounter.com/browser-market-share/all) to review your implementation strategy.
 
-## How can I mitigate the impact of ITP 2.1 in Safari in the short-term?
+## How can I best work with ITP 2.1 changes in Safari for the short-term?
 
 Adobe’s CNAME and managed certificate program is being used to deal with ITP changes. The Adobe Managed Certificate program lets you implement a new first-party certificate for first-party cookies at no additional cost. Today, Adobe has several CNAME services by solution and is looking to leverage the Analytics certification program in short-term.
 

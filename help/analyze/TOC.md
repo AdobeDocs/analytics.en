@@ -98,7 +98,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
-    + [Virtual Analyst overview](analysis-workspace/overview.md)
+    + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)
     + Anomaly Detection {#anomaly-detection}
       + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
       + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)

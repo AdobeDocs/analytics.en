@@ -259,6 +259,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [Analytics Visitor ID](js-implementation/c-unique-visitors/visid-analytics.md)
     + [Fallback ID methods](js-implementation/c-unique-visitors/visid-fallback.md)
     + [Identify mobile devices](js-implementation/c-unique-visitors/visid-mobile.md)
+    + [Browsers and Analytics Cookies](js-implementation/c-unique-visitors/cookie-changes.md)
   + [Experience Cloud Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
   + Cross-device visitor identification {#cross-device-visitor-id}
     + [Connect users across devices](js-implementation/xdevice-visid/xdevice-connecting.md)

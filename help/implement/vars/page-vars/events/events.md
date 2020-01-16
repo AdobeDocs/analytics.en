@@ -1,148 +1,82 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: events
+description: Set the events variable, which governs most metrics on your site.
 ---
 
+# events
 
-# Events
+Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site.
 
-The  variable is used to record common shopping cart success events as well as custom success events.
+## Events in Adobe Experience Platform Launch
 
+You can set events either while configuring the Analytics extension (global variables) or under rules.
 
-<!-- 
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Events] section.
 
-events.xml
+Several features are available:
 
- -->
+* A dropdown allows you to select the event to include
+* An optional text field for serialization. See [event serialization](event-serialization.md) for more information.
+* An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
+* A button to add another event. There is not a reasonable limit to the number of events you can include in a hit.
 
-<table id="table_9EB9D08C80544CD68C4B1A2012440472"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Max Size </th> 
-   <th class="entry"> Debugger Parameter </th> 
-   <th class="entry"> Reports Populated </th> 
-   <th class="entry"> Default Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> No Limit </td> 
-   <td> events </td> 
-   <td> <p>Shopping Cart Events </p> <p>Custom Events </p> </td> 
-   <td> N/A </td> 
-  </tr> 
- </tbody> 
-</table>
+## s.events in AppMeasurement and Launch custom code editor
 
-An [!UICONTROL event] should be considered a milestone within a site. Success events are most commonly populated on the final confirmation page of a process, such as a registration process or newsletter sign-up. Custom events are defined by populating the events variable with the literal values defined in the Possible Values section below.
+The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. There is no byte limit for this variable, so it does not get truncated. Valid values include:
 
-By default, success events are configured as *counter* events. Counter events count the number of times a success event is set (x+1). Events can also be configured as *numeric* events. Numeric events allow you to specify the number to increment (as might be necessary when counting dynamic or arbitrary values, such as the number of results returned by an internal search).
+* `event1` - `event1000`: Custom events, set however you'd like. Record how you use each event in your organization's [solution design document](../../../prepare/solution-design.md). The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your organization's account manager if you are not sure how many custom events are available to you.
+* `purchase`: Increments the 'Orders' metric by 1, and takes values set in the `products` variable to calculate 'Units' and 'Revenue'. See [purchase event](event-purchase.md) for more information.
+* `prodView`: Increments the 'Product Views' metric.
+* `scOpen`: Increments the 'Carts' metric.
+* `scAdd`: Increments the 'Cart Additions' metric.
+* `scRemove`: Increments the 'Cart Removals' metric.
+* `scView`: Increments the 'Cart Views' metric.
+* `scCheckout`: Increments the 'Checkouts' metric.
 
-A final event type, *currency*, allows you to define the amount to be added (similar to numeric events), but displays as currency in reports, and is subject to currency conversions based on the s. *`currencyCode`* value and the default currency setting for your report suite. For additional information on using numeric and currency events, see [Products](/help/implement/js-implementation/page-variables/page-variables.md).
-
-**Configuring the Variable**
-
-The `s.events` variable is enabled by default for all implementations. The seven pre-configured conversion events are automatically enabled for all new report suites. New custom events (event1- [event100 or event1000](/help/implement/js-implementation/page-variables/page-variables.md)) can be enabled by any admin-level user using the Admin Console.
-
-**Possible Values**
-
-The following is a list of possible values for the events variable: 
-
-|  Event  | Description  | Reports Populated  |
-|---|---|---|
-|  prodView  | Product Views  | Products  |
-|  scOpen  | Open / Initialize a new shopping cart  | Carts  |
-|  scAdd  | Add item(s) to the shopping cart  | Cart Additions  |
-|  scRemove  | Remove item(s) from the shopping cart  | Cart Removals  |
-|  scView  | View shopping cart  | Cart Views  |
-|  scCheckout  | Beginning of the checkout process  | Checkouts  |
-|  purchase  | Completion of a purchase (order)  | Orders  |
-|  event1 - event1000 (event100 for point product)  | Custom events  | Custom Events  |
-
-**Syntax and Examples** 
-
-Counter events are set by placing the desired events in the `s.events` variable, in a comma-separated list (if multiple events are to be passed).
+> [!TIP] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
 
 ```js
-s.events="scAdd"
+// Set the events variable to a single value
+s.events = "event1";
+
+// Set the events variable to multiple values
+s.events = "event1,event13,purchase";
 ```
+
+### Increment counter events multiple times
+
+You can count custom events more than once if desired. Assign an integer to the desired event within the string. Events created in report suite settings are counter events by default.
 
 ```js
-s.events="scAdd,event1,event7"
+// Count event1 ten times
+s.events = "event1=10";
+
+// Count event2 twice and event3 once
+s.events = "event2=2,event3";
 ```
+
+> [!NOTE] Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
+
+### Use currency events
+
+You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match.
 
 ```js
-s.events="event5"
+// Send $9.99 USD in event1. Make sure the event type for event1 is Currency in report suite settings
+s.currencyCode = "USD";
+s.events = "event1=9.99";
 ```
+
+### Use numeric events
+
+You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion.
 
 ```js
-s.events="purchase,event10"
+// Send 4.5 in event1. Make sure the event type for event1 is Numeric in report suite settings
+s.events = "event1=4.5";
 ```
-
-If on H23 code or higher, counter events can have integers greater than one assigned to them.
-
-```js
-s.events="event1=10"
-```
-
-```js
-s.events="scRemove=3,event6,event2=4"
-```
-
-Implementing counter events with assigned integer values treat the event as if it fired multiple times within the image request. Counter events do not allow decimals- it is recommended to use numeric events instead if this functionality is required.
-Numeric and currency events must be included in the [!UICONTROL s.events] variable, though they typically receive their numerical value (e.g., 24.99) in the [!UICONTROL s.products] variable. This allows you to tie specific numeric and currency values to individual product entries.
-
-**Event Serialization** 
-
-By default, an event is counted every time the event is set on your site.
-
-See [Event Serialization](/help/implement/js-implementation/event-serialization.md) for more information.
-
-**Syntax**
-
-```js
-s.events="event1:3167fhjkah"
-```
-
-**Examples**
-
-```js
-s.events="scAdd:003717174"
-```
-
-```js
-s.events="scAdd:user228197,event1:577247280,event7:P7fhF8571"
-```
-
-## Additional eVars and events
-
-If you want to track additional information, but don't have enough variables to do so, you now have access to additional eVars and success events:
-
-> [!NOTE] JavaScript H-Code does not support these additional eVars and events.
-
-## Entitlements to Custom Dimensions and Events {#section_869EC3D8A5614036A9C586F2B74FA7DC}
-
-|  Adobe Analytics Product  |  |  |  |
-|---|---|---|---|
-|  Adobe Analytics - Foundation  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)  | 75 props  | 200 eVars  | 1000 Events  |
-| Adobe Analytics - [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)  | 75 props  | 250 eVars  | 1000 Events  |
-
-## Populating Variables and Events {#section_DEA51A22BCBB4B92BDD25814AAD296E4}
-
-* Variables can be populated in the data collection library if you are using these versions of [!DNL AppMeasurement]:
-
-    * AppMeasurement for JavaScript version 1.4+ 
-    * AppMeasurement for Flash version 3.9+ 
-    * AppMeasurement for Java version 1.2.8+ 
-    * AppMeasurement for Silverlight/.NET version 1.4.2+ 
-    * AppMeasurement for PHP version 1.2.2+
-
-* If you are on an earlier version of code, or on JavaScript H.&#42;, you can populate context data and use processing rules to populate variables.
-* All versions of data collection code can populate events 101-1000.
-* Processing rules can be used to populate eVars 76-250 based on context data or other variables.

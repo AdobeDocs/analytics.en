@@ -28,7 +28,7 @@ Call the `s_gi()` function to instantiate a tracking object. Its only argument c
 // Instantiate the tracking object with a single report suite
 var s = s_gi("examplersid");
 
-// Instantiate the tracking object with multiple report suites
+// Instantiate the tracking object to send to multiple report suites
 var s = s_gi("examplersid1,examplersid2");
 ```
 
@@ -86,6 +86,6 @@ var z = s_gi('examplersid');
 
 s.eVar1 = "Shared tracking object value";
 
-// This tracking call contains the above eVar value
+// This tracking call contains the above eVar1 value
 z.t();
 ```

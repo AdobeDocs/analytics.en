@@ -17,7 +17,7 @@ You can read cookies by setting values in data elements.
 4. Set the [!UICONTROL Extension] dropdown to [!UICONTROL Core], and the [!UICONTROL Data Element Type] to [!UICONTROL Cookie].
 5. Enter the cookie name in the text field.
 
-The cookie value is stored in the data element. You can then reference the data element to assign Analytics variables.
+The cookie value is stored in the data element. You can then reference the data element in rules to assign Analytics variables.
 
 ## s.Util.cookieRead() in AppMeasurement and Launch custom code editor
 

@@ -38,4 +38,4 @@ s.doPlugins = function() {
 }
 ```
 
-> [!NOTE] Previous versions of AppMeasurement had slightly different `doPlugins()` code.
+> [!NOTE] Previous versions of AppMeasurement had slightly different `doPlugins()` code. Adobe recommends using the above format as a best practice.

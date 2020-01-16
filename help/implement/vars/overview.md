@@ -1,20 +1,20 @@
 ---
-title: Variables overview
+title: Variables, functions, methods, and plug-ins overview
 description: Learn what variables you can include in the data you send to Adobe to improve reporting.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 ---
 
-# Variables overview
+# Variables, functions, methods, and plug-ins overview
 
 Analytics provides a number of variables to collect Analytics data. Variables in this section are split into several sections:
 
 * **Page variables** are values that are typically used directly in reporting. Common page variables include `props`, `eVars`, and `events`.
-* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `account`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension values.
-* **Functions** are pieces of code that perform a specific task when referenced. Common functions include `t()`, `tl()`, and `clearVars()`.
+* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `trackingServerSecure`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension values.
+* **Functions and methods** are pieces of code that perform a specific task when referenced. Common functions include `t()`, `tl()`, and `clearVars()`.
 
 ## Variables and implementation methods
 
-Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable in question using Launch, pure JavaScript, and Mobile SDK.
+Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using Launch and AppMeasurement for JavaScript.
 
 ## Order of operations
 
@@ -26,7 +26,7 @@ AppMeasurement libraries published by Adobe Analytics follow a specific order wh
 
 ## Illegal characters
 
-Characters and strings that are never allowed in JavaScript variables.
+The following characters and strings are never allowed in JavaScript variables.
 
 * Tab (`0x09`)
 * Carriage return (`0x0D`)

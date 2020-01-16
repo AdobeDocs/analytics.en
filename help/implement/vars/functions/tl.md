@@ -46,10 +46,10 @@ The link object argument determines if the browser waits up to 500ms before navi
 * `true`: Do not wait.
 
 ```JavaScript
-// Include 500ms delay
+// Include a 500ms delay
 s.tl(this);
 
-// Do not include 500ms delay
+// Do not include a 500ms delay
 s.tl(true);
 ```
 
@@ -107,10 +107,10 @@ You can consolidate link tracking code into a self-contained JavaScript function
 
 ```JavaScript
 function trackClickInteraction(name){
-    s.linkTrackVars = "eVar1,eVar2";
-    s.eVar1 = name;
-    s.eVar2 = s.pageName;
-    s.tl(true,"o",name);
+  s.linkTrackVars = "eVar1,eVar2";
+  s.eVar1 = name;
+  s.eVar2 = s.pageName;
+  s.tl(true,"o",name);
 }
 ```
 
@@ -129,7 +129,7 @@ For example, the following function would send two link tracking calls for same 
 
 ```JavaScript
 function trackDownload(obj) {
-    s.tl(obj,"d","Example PDF download");
+  s.tl(obj,"d","Example PDF download");
 }
 ```
 
@@ -137,9 +137,9 @@ You can help prevent duplicate link tracking calls by using the following modifi
 
 ```JavaScript
 function linkCode(obj) {
-    var lt = obj.href != null ? s.lt(obj.href) : "";
-    if (lt=="") {
-        s.tl(obj,"d","Example PDF download");
-    }
+  var lt = obj.href != null ? s.lt(obj.href) : "";
+  if (lt=="") {
+    s.tl(obj,"d","Example PDF download");
+  }
 }
 ```

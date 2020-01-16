@@ -15,6 +15,8 @@ When a visitor purchases an item from your site, `purchaseID` is typically popul
 
 In addition to purchase data, all conversion variables and events are not counted multiple times for hits with the same purchase ID.
 
+Specific server-side code can be used to generate the unique number (alphanumeric value) embedded in the HTML source. Usually the Order ID, or similar alphanumeric value, is used for this purpose. This value should not change if the user refreshes the page.
+
 ## Syntax
 
 The `purchaseID` variable can hold any alpha-numeric value, up to a maximum of 20 bytes. If you set a purchase ID longer than 20 bytes, the value is truncated.
@@ -22,3 +24,9 @@ The `purchaseID` variable can hold any alpha-numeric value, up to a maximum of 2
 ```js
 s.purchaseID = "uniqueid";
 ```
+
+* Do not use a JavaScript randomization function to generate a number, which generates unique numbers each time the page is loaded. Adobe recommends using a data layer to store a given purchase ID.
+* The unique identifiers are applicable to all users across all sessions. Make sure all purchase ID's are truly unique.
+* Valid values are alphanumeric values up to 20 characters in length.
+* The `s.purchaseID` variable serializes all events passed in the `s.events` variable, and overrides any serialization value for events. Do not use [!UICONTROL Event serialization] for any events if the `s.purchaseID` variable is used on the current page.
+* If the `s.purchaseID` variable is left blank, each instance of the purchase event, even page reloads, is counted.

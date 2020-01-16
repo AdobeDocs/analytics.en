@@ -17,7 +17,7 @@ You can get query string parameter data by setting values in data elements.
 4. Set the [!UICONTROL Extension] dropdown to [!UICONTROL Core], and the [!UICONTROL Data Element Type] to [!UICONTROL Query String Parameter].
 5. Enter the query string parameter in the text field.
 
-The query string parameter value is stored in the data element. You can then reference the data element to assign Analytics variables.
+The query string parameter value is stored in the data element. You can then reference the data element in rules to assign Analytics variables.
 
 ## s.Util.getQueryParam() in AppMeasurement and Launch custom code editor
 

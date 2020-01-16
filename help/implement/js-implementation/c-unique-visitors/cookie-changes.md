@@ -67,7 +67,7 @@ For browsers that Google has identified as mishandling cookies when `SameSite` i
 The following table summarizes Analytics cookies:
 
 
-![Analytics cookie table](assets/cookie_table.png)
+![Analytics cookie table](assets/cookietable.png)
 
 
 ## What is the best way to prepare my site for Chrome, Firefox, and Edge changes?

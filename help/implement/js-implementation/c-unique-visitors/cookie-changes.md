@@ -30,7 +30,7 @@ First party cookies are created by customer websites (domain-specific) and store
 
 Third-party cookies are not created by websites users visit. Although browsers currently treat all third-party cookies the same and store them accordingly, third-party cookies themselves can behave in different, important ways. With a customer’s Analytics third-party cookie implementation, the client makes calls only to Adobe, and not to unknown or suspicious third-party domains. This is the current method for implementing Analytics for secure (HTTPS) and reliable tracking with persistent identifiers. This method is implemented by configuring the AppMeasurement.js file. For more information, see [Cookies and the Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
-![Cookie differences](assets/cookieimage.png)
+![Cookie differences](assets/cookieimage.PNG)
 
 ## How do browsers currently store and manage Analytics cookies?
 

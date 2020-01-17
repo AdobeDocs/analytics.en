@@ -15,14 +15,15 @@ Launch does not have a dedicated location to set context data variables. Use the
 
 ## s.contextData[] in AppMeasurement and Launch custom code editor
 
-Context data variables require a variable name and a value assigned to it.
+The `s.contextData` variable does not directly take a value. Instead, set properties of this variable to a string.
 
 ```js
-s.contextData["example"] = "Example value";
+// Assign the example property a value
+s.contextData["example_variable"] = "Example value";
 ```
 
-* Context data variables can contain only alpha-numeric characters, underscores, and periods. All other characters, including hyphens, are stripped out.
-* Do not start context data variables with `a.` or `c.`. These prefixes are reserved by Adobe.
+* Valid context data variables contain only alpha-numeric characters, underscores, and periods. Adobe does not guarantee data collection in processing rules if you include other characters, including hyphens.
+* Do not start context data variables with `a.`. This prefix is reserved and used by Adobe.
 * Context data variables are not case-sensitive. The variables `s.contextData["example"]` and `s.contextData["EXAMPLE"]` are identical.
 
 ## Use processing rules to populate analytics variables
@@ -39,10 +40,10 @@ Processing rules immediately take effect once saved. They do not apply to histor
 
 ## Send context data in a link tracking call
 
-Include the context data variable as a property of the `contextData` object in `s.linkTrackVars`:
+Include the context data variable as a property of `contextData` in `s.linkTrackVars`:
 
 ```js
-s.contextData["example_var"] = "Example value";
-s.linkTrackVars = "contextData.example_var";
+s.contextData["example_variable"] = "Example value";
+s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```

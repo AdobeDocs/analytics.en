@@ -1,51 +1,29 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: channel
+description: Populate the 'Site Sections' dimension.
 ---
 
 # channel
 
-The  variable is most often used to identify a section of your site.
+The `channel` variable typically stores the section of the site a given page is on. It is helpful to determine what groups of your site are most popular. This variable populates the 'Site Sections' dimension.
 
+## Channel in Adobe Experience Platform Launch
 
-<!-- 
+You can set channel either while configuring the Analytics extension (global variables) or under rules.
 
-channel.xml
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Channel] section.
 
- -->
+You can set channel to any string value.
 
-For example, a merchant may have sections such as Electronics, Toys, or Apparel. A media site may have sections such as News, Sports, or Business.
+## s.channel in AppMeasurement and Launch custom code editor
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  100 Bytes  | CH  | Site Content > Site Sections  | ""  |
-
-Adobe recommends populating the channel variable on every page. You can also turn on a correlation between the *`channel`* and [!UICONTROL page name] variables.
-
-When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
-
-**Syntax and Possible Values**
+The `s.channel` variable is a string that typically contains the page's site section. It has a maximum value of 100 bytes; longer values are truncated.
 
 ```js
-s.channel="value"
+s.channel = "Example site section";
 ```
-
-The *`channel`* variable has no extra limitations on its values.
-
-**Examples** {#section_2527B2BB1CFD46CB952178ABF7A9028A}
-
-```js
-s.channel="Electronics"
-```
-
-```js
-s.channel="Media"
-```
-
-**Pitfalls, Questions, and Tips** {#section_61941D5E4E644B59A267A4F44FD5DE8C}
-
-If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value.

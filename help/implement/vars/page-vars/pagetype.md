@@ -1,84 +1,24 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: pageType
+description: Determine if the current page is a 404 error.
 ---
 
 # pageType
 
-The  variable is used only to designate a 404 Page Not Found Error page.
+The `pageType` variable is a flag used to designate error pages on your site, such as 404 errors. If this variable contains the string `errorPage`, it populates the 'Pages Not Found' dimension.
 
+> [!IMPORTANT] Do not set this variable on non-error pages.
 
-<!-- 
+## Page Type in Adobe Experience Platform Launch
 
-pageType.xml
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
- -->
+## s.pageType in AppMeasurement and Launch custom code editor
 
-<table id="table_0492B136E9D14070A6CA49ED534BCA4C"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Max Size </th> 
-   <th class="entry"> Debugger Parameter </th> 
-   <th class="entry"> Reports Populated </th> 
-   <th class="entry"> Default Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> 20 bytes </td> 
-   <td> pageType </td> 
-   <td> Paths &gt; Pages &gt; Pages <p>Not Found </p> </td> 
-   <td> "" </td> 
-  </tr> 
- </tbody> 
-</table>
-
-The *`pageType`* variable captures the errant URL when a 404 Error page is displayed, which allows you to quickly find broken links and paths that are no longer valid on the custom site. Set up the *`pageType`* variable on the error page exactly as shown below.
-
-Do not use the page name variable on 404 error pages. The *`pageType`* variable is only used for the 404 Error page.
-
-In most cases, the 404 Error page is a static page that is hard-coded. In these cases, it is important that the reference to the .JS file is set to an appropriate global or relative path/directory.
-
-**Syntax and Possible Values** {#section_C1C59968226446559B05F6EE7374D525}
-
-The only allowable value of *`pageType`* is "errorPage" as shown below.
+The `s.pageType` variable is a string where the value `errorPage` is its only valid value. Set this variable to this value on any error page on your site, such as on 404 pages.
 
 ```js
-s.pageType="errorPage"
+s.pageType = "errorPage";
 ```
 
-**Examples** {#section_6CE22FCB835B4A19B633B7F67E73A115}
-
-```js
-s.pageType="errorPage"
-```
-
-**Configuration Settings** {#section_3B304A6D3A6C48F2BE90B4DA92A39DDB}
-
-None
-
-**Pitfalls, Questions, and Tips** {#section_943681AB01FE47BEAC72E93CB60C53C8}
-
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. By following this course of action, you can use [!UICONTROL Pathing] reports to see which paths caused users to generate 500 errors. The prop explains which error message is given by the server.
-
-## Setting the PageType variable incorrectly
-
-The pageType variable is used only to designate a 404 (Page Not Found) error page.
-
- It has only one possible value, which is errorPage.
-
-```js
-pageType="errorPage"
-```
-
-On a 404 error page, the *`pageName`* variable should not be populated. The *`pageType`* variable should be set only on a designated 404 error page. Any page containing content should never have a value in the *`pageType`* variable. For pages containing content, you can set the variable as shown below: 
-
-```js
-pageType=""
-```
-
-It is best to delete the variable completely from pages containing content. This practice is recommended to avoid confusion regarding the purpose of the variable.
+> [!TIP] Use an eVar to collect the error code so you can get more information on what specific errors visitors encounter on your site.

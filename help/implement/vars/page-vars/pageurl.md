@@ -13,7 +13,16 @@ Sometimes URLs are longer than 255 bytes. AppMeasurement uses the `g` query stri
 
 ## Page URL in Adobe Experience Platform Launch
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+Launch automatically populates page URL. However, you can set the page URL override either while configuring the Analytics extension (global variables) or under rules.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Page URL] section.
+
+You can set page URL to any string value.
 
 ## s.pageURL in AppMeasurement and Launch custom code editor
 

@@ -64,12 +64,12 @@ s.events = "event2=2,event3";
 
 ### Use currency events
 
-You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match.
+You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. Currency events are only set in the `products` variable.
 
 ```js
 // Send $9.99 USD in event1. Make sure the event type for event1 is Currency in report suite settings
 s.currencyCode = "USD";
-s.events = "event1=9.99";
+s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
 ### Use numeric events

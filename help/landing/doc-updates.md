@@ -18,7 +18,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date|Description |
 |---|---|
-|January 22, 2020| Updated page on Freeform Table that include the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.html)
+|January 22, 2020| Updated page on Freeform Table that include the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.html)|
 |November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 |November 25, 2019|New topic on [End-of-life for Enforce IP login restrictions](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)|
 |November 25, 2019|New topic on [Internal (session refresh) marketing channel](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)|

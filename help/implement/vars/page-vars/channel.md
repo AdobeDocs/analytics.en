@@ -18,7 +18,7 @@ You can set channel either while configuring the Analytics extension (global var
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Channel] section.
 
-You can set channel to any string value.
+You can set channel to any string value or data element.
 
 ## s.channel in AppMeasurement and Launch custom code editor
 

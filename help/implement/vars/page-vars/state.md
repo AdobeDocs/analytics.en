@@ -1,55 +1,31 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: State
+description: Populate the 'Visitor State Report' in Reports and Analytics.
 ---
 
 # state
 
-The  and  variables are conversion variables.
+> [!IMPORTANT] This variable is retired and not an available dimension in Analysis Workspace. Use the 'US States' dimension instead, which AppMeasurement automatically collects based on the location of the visitor.
 
+In previous versions of Adobe Analytics, the `state` variable was used when visitors filled out shipping information on retail sites. It is functionally identical to a prop, but is not available in Analysis Workspace.
 
-<!-- 
+## State in Adobe Experience Platform Launch
 
-state.xml
+You can set state either while configuring the Analytics extension (global variables) or under rules.
 
- -->
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL State] section.
 
-They are like eVars in that they capture events, but unlike eVars, they don't persist. The *`zip`* and *`state`* variables are like eVars that expire immediately.
+You can set state to any string value or data element.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  50 bytes  | state  | Conversion > Visitor Profile > Visitor State  | ""  |
+## s.state in AppMeasurement and Launch custom code editor
 
-Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. For conversion sites, Adobe recommends using the billing address as the source for the Zip Code, but you may choose to use the shipping address instead (assuming there is only one shipping address for the order). A media site may choose to use *`zip`* and *`state`* for registration or ad click-through tracking.
-
-**Syntax and Possible Values** {#section_EDD1F5F9EDBC457898E61695F08C1744}
-
-```js
-s.state="state"
-```
-
-The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
-
-**Examples** {#section_D181B163F79A41D199CA4C70765E583F}
+The `s.state` variable is a string that typically contains the state or province of the visitor. It has a maximum value of 50 bytes; longer values are truncated. Its default value is an empty string.
 
 ```js
-s.state="california" 
-
+s.state = "Utah";
 ```
-
-```js
-s.state="prince edward island"
-```
-
-**Configuration Settings** {#section_DB0D6DC3F4764AC59C11B10D27D2806C}
-
-None
-
-**Pitfalls, Questions, and Tips** {#section_02F1620D0BB14AA6A838966FDB9A234F}
-
-* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.

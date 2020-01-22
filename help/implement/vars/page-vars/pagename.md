@@ -22,7 +22,7 @@ You can set page name either while configuring the Analytics extension (global v
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Page name] section.
 
-You can set page name to any string value.
+You can set page name to any string value, including data elements.
 
 ## s.pageName in AppMeasurement and Launch custom code editor
 

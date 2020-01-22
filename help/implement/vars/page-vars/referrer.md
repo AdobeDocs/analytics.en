@@ -1,55 +1,40 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: referrer
+description: Override the automatically collected referrer for a hit.
 ---
 
 # referrer
 
-The  variable can be used to restore lost referrer information.
+The `referrer` variable overrides the automatically collected referrer in reports. This variable is helpful in situations where the referrer might be lost, such as during redirects or temporarily forwarding the visitor to a payment processor. This variable helps populate the 'Referrer' and 'Referring Domain' dimensions.
 
+## Referrer in Adobe Experience Platform Launch
 
-<!-- 
+You can set referrer either while configuring the Analytics extension (global variables) or under rules.
 
-referrer.xml
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Referrer] section.
 
- -->
+You can set referrer to any string value, including data elements.
 
-Server-side and JavaScript redirects are often used to route visitors to proper locations. However, when a browser is redirected, the original referring URL is lost.
+## s.referrer in AppMeasurement and Launch custom code editor
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  255 bytes  | R  | Traffic > Finding Methods Conversion > Finding Methods  | document.referrer  |
-
-Many companies use redirects in many places throughout their websites. For example, a visitor may be sent through a redirect from a search engine paid search result. When a browser is redirected, the referrer is often lost. The *`referrer`* variable may be used to restore the original *`referrer`* value on the first page after a redirect. The *`referrer`* may be populated server-side, or via JavaScript from the query string.
-
-For Analytics to record a referrer, it must be "well formed," meaning that it must follow the standard URL format, with a protocol and appropriate location.
-
-**Syntax and Possible Values** {#section_A0365D76789C4F4A959E81FE5A9D491D}
+The `s.referrer` variable is a string containing the URL of the previous page. This variable can store a maximum of 255 bytes; values larger than 255 bytes are truncated. AppMeasurement automatically sets this variable to `document.referrer`; you do not need to set this variable unless you want to override the automatically collected value.
 
 ```js
-s.referrer="URL"
+s.referrer = "https://example.com";
 ```
 
-Only URL-compatible values should be in the *`referrer`*. Make sure the string is URL encoded (no spaces).
+Avoid setting this variable to non-URL values.
 
-**Examples** {#section_86FB1577670C4AA18BF3718F0832FCD4}
+## Example
+
+Many organizations deal with implementations around redirects. You can use the [`getQueryParam`](../functions/util-getqueryparam.md) utility to obtain referrer from the URL if your site accommodates it. Make sure that you URL encode any values included in the query string.
 
 ```js
-s.referrer="https://www.google.com/search?q=search+string" 
-s.referrer=<%=referrerVar%> // populated server-side  
-if(s.getQueryParam('ref') 
-s.referrer=s.getQueryParam('ref') 
-
+// Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
+s.referrer = s.Util.getQueryParam("r");
 ```
-
-**Configuration Settings** {#section_7AAEF28A7CBC446984F32C0659EFBF8D}
-
-None
-
-**Pitfalls, Questions, and Tips** {#section_B42BF7FBA1094FF9805707FEA810CFE1}
-
-The *`referrer`* must look like a standard URL and include a protocol.

@@ -56,27 +56,40 @@ You can count custom events more than once if desired. Assign an integer to the 
 // Count event1 ten times
 s.events = "event1=10";
 
-// Count event2 twice and event3 once
-s.events = "event2=2,event3";
+// Count event1 twice and event2 once
+s.events = "event1=2,event2";
 ```
 
 > [!NOTE] Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
 
 ### Use currency events
 
-You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. Currency events are only set in the `products` variable.
+You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. They are useful to help calculate shipping costs, discounts, or refunds. You can set currency events in the `products` variable if you want to attribute the event to only that product.
 
 ```js
-// Send $9.99 USD in event1. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
 s.currencyCode = "USD";
+s.events = "event1=9.99";
+
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+s.currencyCode = "USD";
+s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
+> [!NOTE] If you set a currency value in both the `events` variable and the `products` variable, the currency value in `events` is used. Avoid setting currency values in both the `events` and `products` variables.
+
 ### Use numeric events
 
-You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion.
+You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion. You can set numeric events in the `products` variable if you want to attribute the event to only that product.
 
 ```js
-// Send 4.5 in event1. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
 s.events = "event1=4.5";
+
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+s.events = "event1";
+s.products = "Example category;Example product;1;0;event1=4.5";
 ```
+
+> [!NOTE] If you set a numeric value in both the `events` variable and the `products` variable, the numeric value in `events` is used. Avoid setting numeric values in both the `events` and `products` variables.

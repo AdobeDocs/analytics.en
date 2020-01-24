@@ -24,7 +24,7 @@ You can set state to any string value or data element.
 
 ## s.state in AppMeasurement and Launch custom code editor
 
-The `s.state` variable is a string that typically contains the state or province of the visitor. It has a maximum value of 50 bytes; longer values are truncated. Its default value is an empty string.
+The `s.state` variable is a string that typically contains the state or province of the visitor. Full state names or two-letter codes are both valid. It has a maximum value of 50 bytes; longer values are truncated. Its default value is an empty string.
 
 ```js
 s.state = "Utah";

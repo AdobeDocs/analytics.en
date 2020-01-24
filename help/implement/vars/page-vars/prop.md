@@ -36,13 +36,13 @@ s.prop1 = "Example custom value";
 
 List props are a setting applied to props that allow the variable to hold multiple values in the same hit. If this setting is not enabled, or if the wrong delimiter is used, the variable is treated as a single value.
 
-## Configure list props
+### Configure list props
 
 Enable list props in report suite settings. See [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in the Admin user guide. Make sure that the desired delimiter is configured correctly. Adobe does not provide a default delimiter.
 
 > [!TIP] Common delimiters used in implementations are a comma (`,`), colon (`:`), semicolon (`;`), or pipe (`|`). You can use any delimiter that best fits your implementation.
 
-## Set list props
+### Set list props
 
 Once you configure list props in report suite settings with the desired delimiter, there are no implementation differences other than using the delimiter.
 

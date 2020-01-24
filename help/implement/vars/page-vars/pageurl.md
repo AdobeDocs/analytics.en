@@ -29,7 +29,7 @@ You can set page URL to any string value.
 The `s.pageURL` variable is a string that contains the URL of the page. AppMeasurement automatically collects this variable, however you can override its value if desired.
 
 ```js
-s.pageURL="https://example.com"
+s.pageURL = "https://example.com";
 ```
 
 If you would like to use page URL as a dimension in reports, consider using the following in your implementation:

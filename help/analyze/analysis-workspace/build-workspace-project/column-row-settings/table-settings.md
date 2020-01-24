@@ -47,3 +47,15 @@ To access table row settings, click the Settings icon next to a dimension, segme
  </tbody> 
 </table>
 
+| Row Setting | Description |
+|--- |--- |
+|Date Comparisons|Align dates from each column to all start on the same row.   When you choose to align the dates, for example in a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1:    Disabled by default.|
+|Percentages|Calculate percentages by row  Forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages. It is turned on by default when using the  Visualize icon.|
+|Column Totals|These settings show up only with [static) rows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) (when you have selected a finite set of items), not with dynamic rows (i.e., when you drop in a dimension that shows all items).<ul><li>**[!UICONTROL Show sum of current rows as the total]** - this shows a client-side sum of the rows in the table which means the total will **not** de-duplicate metrics like visits or visitors.</li><li>**[!UICONTROL Show Grand Total]** - this shows a server-side sum, which means the total will de-duplicate metrics like visits or visitors.</li></ul>|
+|Breakdowns|Breakdown by position:  You can perform breakdowns based on a fixed location in a Freeform table. For example, you can specify that the top seven rows should always be broken down.  (Previously, the list of values in the breakdown were "locked". This led to a situation where, for example, if you broke down  Date by  Page, you got a list of the top 50 pages for your selected date range. If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace would use the results from the original breakdown and return the same pages, but with the current month as the date range.)  To perform breakdowns based on a fixed location:  
+     
+     Break down some of the rows in your table.  
+     Click the Settings (gear) icon next to the table row you want in a fixed position.  
+     Check the checkbox next to  Breakdown by position.  
+     Change the sort order or the date range and notice that the breakdowns are now tied to the row position, not the hard-coded rows.  
+     Disabled by default.|

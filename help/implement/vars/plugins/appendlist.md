@@ -1,158 +1,78 @@
 ---
-description: The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
-keywords: Analytics Implementation
-subtopic: Plug-ins
-title: appendList
-topic: Developer and implementation
-uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+title: apl
+description: Append values to variables that support multiple values.
 ---
 
-# appendList
+# apl
 
-The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
+The `apl` plug-in, also known as the `appendList` plug-in, adds values to an existing delimited string. This plug-in is valuable for Analytics variables that can hold multiple values in the same hit:
 
-This plug-in is useful for:
+* You can add events to the `events` variable
+* You can add values to a list variable without duplicating a value in the list
+* You can add a product to the `products` variable based on page logic
+* You can add values to the `linkTrackVars` or `linkTrackEvents` variables for use in link tracking
 
-* Adding an event to the current events variable 
-* Adding a value to a list variable without duplicating a value in the list 
-* Adding a product to the current products variable based on some page logic 
-* Adding values to the parameters *`linkTrackVars`* and *`linkTrackEvents`*
+This plug-in has an option to check for existing values. It helps prevent duplicate values when inserting a value in the string.
 
-**Use Case 1** 
+## Install the apl plug-in using Adobe Experience Platform Launch
 
-<table id="table_5AAC1D9892CD4E5C9060E119EE4E7DC8"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Scenario </p> </td> 
-   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code </p> </td> 
-   <td colname="col2"> <p>s.events=s.apl(s.events,"event1",",",1) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Results </p> </td> 
-   <td colname="col2"> <p>s.events="scCheckout,event1" </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+You can install the `s.apl()` plug-in when configuring the Analytics extension.
 
-**Use Case 2** 
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 
-<table id="table_C4356C9AB95948F3929A7B75E07AE9E7"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Scenario </p> </td> 
-   <td colname="col2"> <p>Add the value <span class="term"> history </span> to the list variable <span class="varname"> prop1 </span>, with <span class="term"> history </span> and <span class="term"> History </span> considered the same value. </p> <p>s.prop1="Science,History" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code </p> </td> 
-   <td colname="col2"> <p>s.prop1=s.apl(s.prop1,"history",",",2) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Results </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> history </span> is not added because <span class="term"> History </span> is already in the list. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `s.apl()` function in the custom code editor of rules to assign variable values.
 
-> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+## Install the apl plug-in using AppMeasurement
 
-## Implementation {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
+You can install the `s.apl()` plug-in by editing `AppMeasurement.js`:
 
-Follow these steps to implement the APL plug-in.
+1. Download and open the `AppMeasurement.js` file located on your web server.
+2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Once installed, you can use the `s.apl()` function to assign variable values.
 
-1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+## Plug-in code
 
-Here is how the code might look on your site:
+> [!NOTE] This plug-in requires that you also install the [`split`](split.md) plug-in.
 
 ```js
-/* Plugin Config */ 
- 
-s.usePlugins=true 
- 
-function s_doPlugins(s) { 
- 
-/* Add calls to plugins here */ 
- 
-s.events=s.apl(s.events,"event1",",",1) 
- 
-} 
- 
-s.doPlugins=s_doPlugins
+// Plugin Utility: apl v1.2
+s.apl= function (l,v,d,u) {var s=this,m=0;if(!l)l='';if(u){var i,n,a=s.split(l,d);for(i=0;i<a.length;i++){n=a[i];m=m||(u==1?(n==v):(n.toLowerCase()==v.toLowerCase()));}}if(!m)l=l?l+d+v:v;return l;}
 ```
 
-**Supported Browsers**
+## Use the apl plug-in with AppMeasurement and Launch custom code editor
 
-This plug-in requires that the browser supports JavaScript version 1.0.
+The `s.apl()` function returns a string. Use this function to assign variable values. It takes the following arguments:
 
-**Plug-in Information** 
+* **Existing string**: The variable or string containing the existing data you want to add to. An empty string is valid.
+* **New string**: The variable or string containing the new data you want to append.
+* **Delimiter**: The string delimiter that you want to use.
+* **Duplicate check**: An optional integer containing the duplicate check setting:
+  * `0`: No duplicate check; value is always appended.
+  * `1`: Duplicate check, case-insensitive; Do not append value if it already exists (uppercase or lowercase)
+  * `2`: Duplicate check, case-sensitive; Do not append value if it already exists with exact matching case sensitivity.
 
-<table id="table_7B9EDD616C164D6B8B53558337DF12C2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Plug-in Information </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Parameters </p> </td> 
-   <td colname="col2"> <p>apl((L,v,d,u) </p> <p>L= source list, empty list is accepted </p> <p> v = value to append </p> <p> d = list delimiter </p> <p> u (optional, defaults to 0) Unique value check. 0=no unique check, value is always appended. 1=case-insensitive check, append only if value isn't in list. 2=case-sensitive check, append only if value isn't in list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Return Value </p> </td> 
-   <td colname="col2"> <p>original list, with appended value if added </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Usage Examples </p> </td> 
-   <td colname="col2"> <p>s.events=s.apl(s.events,"event1",",",1); </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-The source list L can be an empty list, such as *`L=""`*. The returned value will either be an empty list, or a list of one value.
-
-**Plug-in Code**
+## Examples
 
 ```js
-/******************************************************************** 
- * 
- * Main Plug-in code (should be in Plug-ins section) 
- * 
- *******************************************************************/ 
-/* 
- * Plugin Utility: apl v1.1 
- */ 
-s.apl=new Function("l","v","d","u","" 
-+"var s=this,m=0;if(!l)l='';if(u){var i,n,a=s.split(l,d);for(i=0;i<a." 
-+"length;i++){n=a[i];m=m||(u==1?(n==v):(n.toLowerCase()==v.toLowerCas" 
-+"e()));}}if(!m)l=l?l+d+v:v;return l"); 
- 
-/******************************************************************** 
- * 
- * Commented example of how to use this is doPlugins function 
- * 
- *******************************************************************/ 
-  
- Not Applicable - Utility function only 
- 
-/******************************************************************** 
- * 
- * Config variables (should be above doPlugins section) 
- * 
- *******************************************************************/ 
- 
- None 
- 
-/******************************************************************** 
- * 
- * Utility functions that may be shared between plug-ins (name only) 
- * 
- *******************************************************************/ 
-  
- s.split
+// Append event2 to the events variable. Assigns the events variable to "event1,event2"
+s.events = "event1";
+s.events = s.apl(s.events,"event2",",");
 
+// Progressively add items to a list variable with a semicolon delimiter. Assigns list1 the value of "Value 1,Value 2,Value 3"
+var dt = ";";
+s.list1 = s.apl(s.list1,"Value 1",dt);
+s.list1 = s.apl(s.list1,"Value 2",dt);
+s.list1 = s.apl(s.list1,"Value 3",dt);
+
+// Iterate through an array and concatenate all values into a list variable with a pipe delimiter. Assigns list2 the value of "Milk|Eggs|Cheese"
+var exampleArray = ["Milk","Eggs","Cheese"];
+for (var i = 0; i < exampleArray.length; i++) {
+  s.list2 = s.apl(s.list2,exampleArray[i],"|");
+}
+
+// The apl() function detects a duplicate, and therefore does not alter the string. Assigns the events variable to "event1,event2,event3"
+s.events = "event1,event2,event3";
+s.events = s.apl(s.events,"event2",",",1);
 ```
-

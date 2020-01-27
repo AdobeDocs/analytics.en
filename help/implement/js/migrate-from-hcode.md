@@ -32,8 +32,7 @@ A typical `AppMeasurement.js` file. Make sure that configuration variables are s
 
 ```js
 // Initialize AppMeasurement
-var s_account = "examplersid";
-var s = s_gi(s_account);
+var s = s_gi("examplersid");
 
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/;
 s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE");

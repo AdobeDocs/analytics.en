@@ -30,20 +30,23 @@ Open the custom code editor and paste the plug-in code provided below. Once inst
 You can install the `s.apl()` plug-in by editing `AppMeasurement.js`:
 
 1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Once installed, you can use the `s.apl()` function to assign variable values.
+2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)).
+3. Save the JS file and upload the new version to your web server.
+
+Once installed, you can use the `s.apl()` function to assign variable values.
 
 ## Plug-in code
 
 > [!NOTE] This plug-in requires that you also install the [`split`](split.md) plug-in.
 
 ```js
-// Plugin Utility: apl v1.2
+// Plugin Utility: apl v1.2 (requires split plug-in)
 s.apl= function (l,v,d,u) {var s=this,m=0;if(!l)l='';if(u){var i,n,a=s.split(l,d);for(i=0;i<a.length;i++){n=a[i];m=m||(u==1?(n==v):(n.toLowerCase()==v.toLowerCase()));}}if(!m)l=l?l+d+v:v;return l;}
 ```
 
 ## Use the apl plug-in with AppMeasurement and Launch custom code editor
 
-The `s.apl()` function returns a string. Use this function to assign variable values. It takes the following arguments:
+The `s.apl()` method returns a string. Use this function to assign variable values. It takes the following arguments:
 
 * **Existing string**: The variable or string containing the existing data you want to add to. An empty string is valid.
 * **New string**: The variable or string containing the new data you want to append.

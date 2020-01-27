@@ -23,7 +23,10 @@ Open the custom code editor and paste the plug-in code provided below. Once inst
 You can install the `s.getPercentPageViewed()` plug-in by editing `AppMeasurement.js`:
 
 1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Once installed, you can use the `s.getPercentPageViewed()` function to assign variable values.
+2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)).
+3. Save the JS file and upload the new version to your web server.
+
+Once installed, you can use the `s.getPercentPageViewed()` method to assign variable values.
 
 ## Plug-in code
 
@@ -42,7 +45,7 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Use the getPercentPageViewed plug-in with AppMeasurement and Launch custom code editor
 
-The `s.getPercentPageViewed()` plugin returns nothing. Instead, it sets the following variables within the AppMeasurement object:
+The `s.getPercentPageViewed()` method returns nothing. Instead, it sets the following variables within the AppMeasurement object:
 
 * `s._ppvPreviousPage`: The name of the previous page viewed. Final measurements are not available until an new page loads.
 * `s._ppvHighestPercentViewed`: The furthest point that the visitor scrolled down on the previous page. If the visitor scrolled to the very bottom of the page, this value is `100`. If there is not enough content on a page to allow scrolling, this value is `100`.

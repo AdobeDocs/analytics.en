@@ -7,7 +7,7 @@ description: Learn how to curate vrs components and projects
 
 When you curate projects or virtual reports suites (VRSs), you essentially filter out components so that your audience sees only those project/VRS components (dimensions, metrics, segments, date ranges) that you want them to use.
 
->[!Note]
+>[!NOTE]
 >
 >Product profiles are the primary mechanism governing which components a user can see. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). Curation is a secondary filter.
 

@@ -11,7 +11,7 @@ uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 
 > [!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
 
-Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the `visitorID` variable to associate a user across devices. The `visitorID` variable takes the highest priority when [identifying unique visitors](../c-unique-visitors/visid-overview.md).
+Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the `visitorID` variable to associate a user across devices. The `visitorID` variable takes the highest priority when identifying unique visitors.
 
 When you send a hit with a custom visitor ID, Adobe checks for any visitor profiles that have a matching visitor ID. If one exists, the visitor profile already in the system is used from that point forward and the previous visitor profile is no longer used.
 

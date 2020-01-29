@@ -1,5 +1,5 @@
 ---
-description: The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
+description: The apl (appendToList) plugin allows you to "safely" add new values to list-delimited variables (e.g. events, linkTrackVars, listVars, etc.).
 keywords: Analytics Implementation
 subtopic: Plug-ins
 title: appendList
@@ -7,152 +7,266 @@ topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 ---
 
-# appendList
+# apl plugin
 
-The apl (or appendList) plug-in lets you append a value to any delimited lists, with the option of a case-sensitive or case-insensitive check to ensure that the value does not already exist in the list. The APL plug-in is referenced by several standard plug-ins but can be used directly in a variety of situations.
+## Plugin Description
 
-This plug-in is useful for:
+The apl (appendToList) plugin allows you to "safely" add new values to list-delimited variables (e.g. events, linkTrackVars, list variables, etc.).
 
-* Adding an event to the current events variable 
-* Adding a value to a list variable without duplicating a value in the list 
-* Adding a product to the current products variable based on some page logic 
-* Adding values to the parameters *`linkTrackVars`* and *`linkTrackEvents`*
+### When should I use this plugin?
 
-**Use Case 1** 
+You should use the apl plugin if you want to add a new value to an already-existing, list-delimited variable.  
 
-<table id="table_5AAC1D9892CD4E5C9060E119EE4E7DC8"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Scenario </p> </td> 
-   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code </p> </td> 
-   <td colname="col2"> <p>s.events=s.apl(s.events,"event1",",",1) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Results </p> </td> 
-   <td colname="col2"> <p>s.events="scCheckout,event1" </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* If the value you want to add already exists in the list-delimited variable, then the code will not add another instance of the value to the end of the variable. 
+* If the value you want to add doesn't already exist in the variable, then the code will add the value to the end of the variable.
+* If the list-delimited variable that you want to add the new value to hasn't been set yet (i.e. the variable is null/undefined/blank), then the code will simply set the variable equal to the new value 
 
-**Use Case 2** 
-
-<table id="table_C4356C9AB95948F3929A7B75E07AE9E7"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Scenario </p> </td> 
-   <td colname="col2"> <p>Add the value <span class="term"> history </span> to the list variable <span class="varname"> prop1 </span>, with <span class="term"> history </span> and <span class="term"> History </span> considered the same value. </p> <p>s.prop1="Science,History" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code </p> </td> 
-   <td colname="col2"> <p>s.prop1=s.apl(s.prop1,"history",",",2) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Results </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> history </span> is not added because <span class="term"> History </span> is already in the list. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
-
-## Implementation {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
-
-Follow these steps to implement the APL plug-in.
-
-1. Request the plug-in code from Customer Care or your currently assigned Adobe consultant.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
-
-Here is how the code might look on your site:
-
+Using the apl plugin will prevent potential duplicate values from being added to a list.  For example, assume the s.events variable is set as follows:
 ```js
-/* Plugin Config */ 
+s.events = "event1,event2";
+```
+If you use the apl plugin to try and add event1 to s.events, the logic would not add it since s.events already contains "event1".
+
+### When shouldn't I use this plugin?
+
+If you don't care whether a new value you want to add already exists in a list-delimited variable, then you have no need for this plugin and can use a simple concatenation operator instead. 
+
+For example...
+```js
+s.events = s.events + ",event1";
+```
+...will do a perfectly fine job of adding event1 to the end of s.events regardless of whether event1 already exists in s.events.
+
+## Prerequisites
+
+You must have AppMeasurement (i.e. the base Adobe Analytics Code) and the inList v2.0 plugin (included in the Code to Deploy section below) to run the apl plugin
+
+## How to Implement
+
+* Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+```js
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: apl (appendToList) v3.2 (requires AppMeasurement and inList v2.0 or higher) */
+s.apl=function(lv,vta,d1,d2,cc){if(!lv||"string"===typeof lv){if("undefined"===typeof this.inList||"string"!==typeof vta||""===vta)return lv;d1=d1||",";d2=d2||d1;1==d2&&(d2=d1,cc||(cc=1));2==d2&&1!=cc&&(d2=d1);vta=vta.split(",");for(var g=vta.length,e=0;e<g;e++)this.inList(lv,vta[e],d1,cc)||(lv=lv?lv+d2+vta[e]:vta[e])}return lv};
+
+/* Adobe Consulting Plugin: inList v2.1 (Requires AppMeasurement) */
+s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/******************************************** END CODE TO DEPLOY ********************************************/
+```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe Support with troubleshooting any potential implementation issues.
+* Run the apl plugin as needed within the doPlugins function (see example calls below)
+
+## Arguments to Pass In
+
+* **lv** ("sort-of" required, string): A JavaScript variable that contains a delimited list of items to add a new value to
+* **vta** (required, string): A comma delimited list of the new value(s) to add to the lv argument's value.
+* **d1** (optional, string): The delimiter used to separate out the individual values already contained in the lv argument.  Defaults to a comma (i.e. ",") when not set
+* **d2** (optional, string): The delimiter that the plugin will use to join the values in the final list to be returned.  Defaults to the same value as d1 (i.e. a comma or otherwise) when not set
+* **cc** (optional, boolean): A flag that says whether a case-sensitive check will be used to determine whether the vta argument value already exists in the lv argument value, defaults to false
+  * If the cc argument equals true, then a case-sensitive check will be made between the new value(s) you want to add (i.e. the vta argument) and each value contained in the lv argument
+  * If the cc argument is not set (or is not set equal to true), then a case-insensitive check will be made between the new value(s) you want to add (i.e. the vta argument) and each value contained in the lv argument
+
+##Returns
+
+The apl plugin returns the value of the lv argument plus those values specified in the vta argument that weren't previously contained in the lv argument
  
-s.usePlugins=true 
- 
-function s_doPlugins(s) { 
- 
-/* Add calls to plugins here */ 
- 
-s.events=s.apl(s.events,"event1",",",1) 
- 
-} 
- 
-s.doPlugins=s_doPlugins
+##Cookies
+
+The apl plugin does not set any cookies
+
+##Example Calls
+
+###Example #1
+If…
+```js
+s.events = "event22,event24";
+```
+…and the following code runs…
+```js
+s.events = s.apl(s.events, "event23");
+```
+… the final value of s.events will be:
+```js
+s.events = "event22,event24,event23";
 ```
 
-**Supported Browsers**
-
-This plug-in requires that the browser supports JavaScript version 1.0.
-
-**Plug-in Information** 
-
-<table id="table_7B9EDD616C164D6B8B53558337DF12C2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Plug-in Information </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Parameters </p> </td> 
-   <td colname="col2"> <p>apl((L,v,d,u) </p> <p>L= source list, empty list is accepted </p> <p> v = value to append </p> <p> d = list delimiter </p> <p> u (optional, defaults to 0) Unique value check. 0=no unique check, value is always appended. 1=case-insensitive check, append only if value isn't in list. 2=case-sensitive check, append only if value isn't in list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Return Value </p> </td> 
-   <td colname="col2"> <p>original list, with appended value if added </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Usage Examples </p> </td> 
-   <td colname="col2"> <p>s.events=s.apl(s.events,"event1",",",1); </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-The source list L can be an empty list, such as *`L=""`*. The returned value will either be an empty list, or a list of one value.
-
-**Plug-in Code**
-
+###Example #2
+If…
 ```js
-/******************************************************************** 
- * 
- * Main Plug-in code (should be in Plug-ins section) 
- * 
- *******************************************************************/ 
-/* 
- * Plugin Utility: apl v1.1 
- */ 
-s.apl=new Function("l","v","d","u","" 
-+"var s=this,m=0;if(!l)l='';if(u){var i,n,a=s.split(l,d);for(i=0;i<a." 
-+"length;i++){n=a[i];m=m||(u==1?(n==v):(n.toLowerCase()==v.toLowerCas" 
-+"e()));}}if(!m)l=l?l+d+v:v;return l"); 
- 
-/******************************************************************** 
- * 
- * Commented example of how to use this is doPlugins function 
- * 
- *******************************************************************/ 
-  
- Not Applicable - Utility function only 
- 
-/******************************************************************** 
- * 
- * Config variables (should be above doPlugins section) 
- * 
- *******************************************************************/ 
- 
- None 
- 
-/******************************************************************** 
- * 
- * Utility functions that may be shared between plug-ins (name only) 
- * 
- *******************************************************************/ 
-  
- s.split
+s.events = "event22,event23";
+```
+…and the following code runs…
+```js
+s.events = s.apl(s.events, "event23");
+```
+… the final value of s.events will still be:
+```js
+s.events = "event22,event23";
+```
+In this example, the apl call made no changes to s.events since s.events already contained "event23"
 
+###Example #3
+If…
+```js
+s.events = ""; //blank value
+```
+…and the following code runs…
+```js
+s.events = s.apl(s.events, "event23");
+```
+… the final value of s.events will be…
+```js
+s.events = "event23";
 ```
 
+###Example #4
+If…
+```js
+s.prop4 = "hello|people";
+```
+…and the following code runs…
+```js
+s.eVar5 = s.apl(s.prop4, "today", "|");
+```
+… the final value of s.prop4 will still be…
+```js
+s.prop4 = "hello|people";
+```
+…but the final value of s.eVar5 will be
+```js
+s.eVar5 = "hello|people|today";
+```
+Keep in mind that the plugin only returns a value; it does not necessarily "reset" the variable passed in through the lv argument.
+
+###Example #5
+If…
+```js
+s.prop4 = "hello|people";
+```
+…and the following code runs…
+```js
+s.prop4 = s.apl(s.prop4, "today");
+```
+… the final value of s.prop4 will be…
+```js
+s.prop4 = "hello|people,today";
+```
+Be sure to keep the delimiter consistent between what's in the lv argument's value and what's in the d1/d2 arguments
+
+###Example #6
+If…
+```js
+s.events = "event22,event23";
+```
+…and the following code runs…
+```js
+s.events = s.apl(s.events,"EVenT23", ",", ",", true);
+```
+… the final value of s.events will be:
+```js
+s.events = "event22,event23,EVentT23";
+```
+Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag. 
+
+###Example #7
+If…
+```js
+s.events = "event22,event23";
+```
+…and the following code runs…
+```js
+s.events = s.apl(s.events, "event23,event24,event25");
+```
+… the final value of s.events will be:
+```js
+s.events = "event22,event23,event24,event25");
+```
+The plugin will not add "event23" to s.events because it already exists in s.events.  However, it will add both event24 and event25 to s.events because neither were previously contained in s.events.
+
+###Example #8
+If…
+```js
+s.linkTrackVars = "events,eVar1";
+```
+…and the following code runs…
+```js
+s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
+```
+… the final value of s.linkTrackVars will be:
+```js
+s.linkTrackVars = "events,eVar1,campaign";
+```
+The last three arguments (i.e. ",", ",", false) at the end of this apl call are not necessary but are also not "hurting anything" by being set since they match the default argument values.
+
+###Example #9
+If…
+```js
+s.events = "event22,event24";
+```
+…and the following code runs…
+```js
+s.apl(s.events, "event23");
+```
+… the final value of s.events will still be:
+```js
+s.events = "event22,event24";
+```
+Running the plugin all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the lv argument.
+
+###Example #10
+If…
+```js
+s.list2 = "casesensitivevalue|casesensitiveValue"
+```
+…and the following code runs…
+```js
+s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
+```
+… the final value of s.list2 will be:
+```js
+s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
+```
+Since the two delimiter arguments are different, the value passed in will be delimited by the first delimiter argument (“|”) and then joined together by the second delimiter argument (“-“)
+
+## Object Replacement
+When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plugin code from this…
+```js
+s.apl=function(lv,vta,d1,d2,cc)
+```
+…to this:
+```js
+[objectname].apl=function(lv,vta,d1,d2,cc)
+```
+Be sure to also change the inList plugin from this…
+```js
+s.inList=function(lv,vtc,d,cc)
+```
+…to this:
+```js
+[objectname].inList=function(lv,vtc,d,cc)
+```
+
+##Version History
+
+###3.2 (2019-09-25)
+* Fixed compatibility issues with apl calls that used older versions of the plugin
+* Removed console warnings to reduce size - use documentation for troubleshooting
+* Added inList 2.1
+
+###3.1 (2018-04-22)
+* d2 argument now defaults to the value of the d1 argument when not set
+
+###3.0 (2018-04-16)
+* Complete reanalysis/rewrite of plugin
+* Added advanced error checking, updated documentation with required vs. optional arguments
+* The value to add (vta) argument now accepts multiple values at one time
+* Added the d2 argument to format the return value
+* Changed the cc argument to a boolean
+
+###2.5 (2016-02-18)
+* Now uses the inList plugin utility for its comparison processing
+
+###2.0 (2016-01-26)
+* d (Delimiter) argument now optional (defaults to a comma)
+* u (Case-sensitivity flag) argument now optional (defaults to case-insensitive) 
+* Regardless of the u (Case-sensivity flag) argument setting, the apl plugin will no longer append a value to a list if the value already exists in the list (see the "Why shouldn't I use this plugin?" section above)

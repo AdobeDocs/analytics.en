@@ -9,7 +9,7 @@ Through the lifetime of Adobe Analytics, Adobe has offered several different met
 
 Launch is a tag management solution that lets you deploy Analytics code alongside other tagging requirements. Adobe offers integrations with other solutions and products, and lets you deploy custom code. All of these tasks can be done without relying on any development teams in your organization to update code on your site.
 
-All customers with an active Adobe Experience Cloud contract can use Launch. If you are not sure if you have access, contact any of your organization's Experience Cloud system admins.
+All customers with an active Adobe Experience Cloud contract can use Launch. If you are not sure if you have access, contact one of your organization's Experience Cloud system admins.
 
 ## Overall workflow
 

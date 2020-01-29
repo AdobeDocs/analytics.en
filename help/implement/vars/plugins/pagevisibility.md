@@ -61,7 +61,7 @@ s.getPageVisibility();
 
 **Plug-ins Section**
 
-```
+```js
 /* Page Visibility Plugin 0.1 (BETA) */ 
 s.getPageVisibility=new Function("","" 
 +"var s=this;if(s.getVisitStart()){s.Util.cookieWrite('s_pvs','');s.U" 

@@ -3,7 +3,7 @@ title: s_gi()
 description: Create and track instances of AppMeasurement.
 ---
 
-# s_gi()
+# s_gi
 
 The `s_gi()` function instantiates or finds an instance of AppMeasurement by report suite ID. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. If an instance does not exist, a new instance is created.
 

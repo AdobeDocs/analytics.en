@@ -1,11 +1,11 @@
 ---
-title: Util.getQueryParam()
+title: Util.getQueryParam
 description: Returns the value of a query string parameter.
 ---
 
-# Util.getQueryParam()
+# Util.getQueryParam
 
-Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam()` method to retrieve data from the query string.
+Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam` method to retrieve data from the query string.
 
 ## Get query string parameter data in Adobe Experience Platform Launch
 

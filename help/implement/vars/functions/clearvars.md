@@ -1,11 +1,11 @@
 ---
-title: clearVars()
+title: clearVars
 description: Clears the following values from the instance object. This function removes the elements (sets them as "undefined.")
 ---
 
-# clearVars()
+# clearVars
 
-Some implementations, such as on single-page applications, require multiple hits sent on the same page load. Use the `clearVars()` method to clear variable values so they don't persist to subsequent hits.
+Some implementations, such as on single-page applications, require multiple hits sent on the same page load. Use the `clearVars` method to clear variable values so they don't persist to subsequent hits.
 
 This method does not take any arguments, and does not return any value. Its only purpose is to clear variable values from the instance object. This method sets the following elements to `undefined`:
 

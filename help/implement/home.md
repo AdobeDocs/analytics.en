@@ -1,6 +1,6 @@
 ---
 title: Implement Adobe Analytics
-description: null
+description: Implement Adobe Analytics on your site, property, or application.
 ---
 
 # Implement Adobe Analytics
@@ -37,10 +37,9 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
 
    **Example report:**
 
-   ![](assets/two-months-summary-project.png)
+   ![Summary project](assets/two-months-summary-project.png)
 
    The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache.
-
 
 Adobe Analytics requires code within your website, mobile app, or other application to send data to data collection servers. There are several methods to implement this code, depending on platform and your organization's needs.
 

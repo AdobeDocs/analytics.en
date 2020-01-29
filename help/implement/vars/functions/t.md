@@ -1,11 +1,11 @@
 ---
-title: t()
+title: t
 description: Send a page view tracking call to Adobe.
 ---
 
-# t()
+# t
 
-The `t()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers.
+The `t` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers.
 
 For example, consider the following JavaScript code:
 
@@ -21,7 +21,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-Running the `t()` method takes all Analytics variables defined and formulates a URL based on those variables. Some Analytics variables determine the URL of the image, while other variables determine query string parameter values.
+Running the `t` method takes all Analytics variables defined and formulates a URL based on those variables. Some Analytics variables determine the URL of the image, while other variables determine query string parameter values.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value

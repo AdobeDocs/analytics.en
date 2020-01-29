@@ -1,9 +1,9 @@
 ---
-title: Util.cookieRead()
+title: Util.cookieRead
 description: Gets the value for a cookie.
 ---
 
-# Util.cookieRead()
+# Util.cookieRead
 
 Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieRead` method to retrieve a value from a cookie.
 

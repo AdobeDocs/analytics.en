@@ -7,7 +7,7 @@ description: Create callback functions after sending a hit to Adobe.
 
 The `registerPostTrackCallback` variable allows your organization to hook a JavaScript function immediately after a hit is successfully sent to Adobe. If a tracking call fails, this function does not run. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure, or clean up variable values in single-page applications.
 
-> [!IMPORTANT] Do not call any tracking functions like `t()` or `tl()` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+> [!IMPORTANT] Do not call any tracking functions like `t` or `tl` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPostTrackCallback` variable, you hook that function to run immediately after an image request is successfully sent. Avoid registering the same function multiple times in the same page load.
 

@@ -7,8 +7,8 @@ description: Configure logic just before a hit is compiled and sent to Adobe.
 
 The `doPlugins` variable acts as a 'last call' to set values in your implementation. If `usePlugins` is `true`, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
 
-* All page view `t()` calls
-* All link tracking `tl()` calls, including automatic download links and exit links
+* All page view (`t`) calls
+* All link tracking (`tl`) calls, including automatic download links and exit links
 
 Use the `doPlugins` variable to call plugin code and set final variable values just before an image request is compiled and sent to Adobe.
 

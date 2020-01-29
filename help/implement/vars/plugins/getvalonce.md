@@ -41,9 +41,9 @@ s.getValOnce = function(v,c,e,t) {var s=this,a=new Date,v=v?v:'',c=c?c:'s_gvo',e
 
 ## Use the getValOnce plug-in with AppMeasurement and Launch custom code editor
 
-The `getValOnce` returns a string either containing the already set value or an empty string. Use this plug-in after you set the value on the page. It uses the following arguments:
+The `getValOnce` returns a string either containing the already set value or an empty string. Use this plug-in after you set the variable value on the page. It uses the following arguments:
 
-* **Variable**: The variable to check. This is typically the same as the variable being defined.
+* **Variable**: The variable to check. This argument is typically the same as the variable being defined.
 * **Cookie**: The name of the cookie to store the previous value. You can use any cookie name you want, however Adobe recommends including the prefix `gvo_` to easily identify the purpose of this cookie.
 * **Expiration** (Optional): The number of days until the cookie expires. The cookie expires at the end of the browser session by default.
 * **Minute flag** (Optional): If you set this argument to the string value `"m"`, the expiration argument uses minutes instead of days.

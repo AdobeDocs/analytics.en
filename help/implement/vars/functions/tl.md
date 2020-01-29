@@ -1,13 +1,13 @@
 ---
-title: tl()
+title: tl
 description: Send a link tracking call to Adobe.
 ---
 
-# tl()
+# tl
 
-The `tl()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the `t()` method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
+The `tl` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the `t` method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
 
-If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
+If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement automatically calls the `tl` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl` method manually. Custom links can only be manually tracked.
 
 ## Link tracking call in Adobe Experience Platform Launch
 

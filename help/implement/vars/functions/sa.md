@@ -1,13 +1,13 @@
 ---
-title: sa()
+title: sa
 description: Change the report suite at any time in your implementation.
 ---
 
-# sa()
+# sa
 
-The `sa()` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.
+The `sa` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.
 
-## Use the sa() method in Adobe Experience Platform Launch
+## Use the sa method in Adobe Experience Platform Launch
 
 There is not a flexible way to change report suite in the interface. You can set report suite under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension. However, you cannot change or update the report suite using rules. If you want to update report suite values after they are set, use the custom code editor following AppMeasurement syntax.
 

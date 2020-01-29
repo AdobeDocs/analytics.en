@@ -1,11 +1,11 @@
 ---
-title: Util.cookieWrite()
+title: Util.cookieWrite
 description: Writes a value for a cookie.
 ---
 
-# Util.cookieWrite()
+# Util.cookieWrite
 
-Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieWrite()` method to set a value to a cookie. You can use the `Util.cookieRead()` method to retrieve values set using `Util.cookieWrite()`.
+Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieWrite` method to set a value to a cookie. You can use the `Util.cookieRead` method to retrieve values set using `Util.cookieWrite`.
 
 ## Set cookies in Adobe Experience Platform Launch
 

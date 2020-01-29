@@ -7,7 +7,7 @@ description: Create callback functions before sending a hit to Adobe.
 
 The `registerPreTrackCallback` variable allows your organization to hook a JavaScript function after an image request URL is compiled but before it is sent. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure.
 
-> [!IMPORTANT] Do not call any tracking functions like `t()` or `tl()` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+> [!IMPORTANT] Do not call any tracking functions like `t` or `tl` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPreTrackCallback` variable, you hook that function to run every time an image request URL is compiled. Avoid registering the same function multiple times in the same page load.
 

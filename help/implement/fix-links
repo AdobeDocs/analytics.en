@@ -1,7 +1,5 @@
 vi \
 ./c-analytics-digital-assistants/digital-assistants-white-paper.md  \
-./js-implementation/data-collection/http-headers.md  \
-./js-implementation/c-additional-libraries/libraries.md  \
 ./c-get-started-implementation/t-analytics-implementation-get-started.md  \
 ./c-implementation/implementation.md  \
 ./c-implement-with-dtm/t-configure-hosting.md  \

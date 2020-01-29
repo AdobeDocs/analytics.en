@@ -24,4 +24,4 @@ The following example populates `prop7` with the context data variable `testhier
 
 ![Conditional](assets/add-conditional.png)
 
-For more information on implementing context data variables, see [Context data variables](/help/implement/js-implementation/c-variables/context-data-variables.md) in the Implement user guide.
+For more information on implementing context data variables, see [Context data variables](/help/implement/vars/page-vars/contextdata.md) in the Implement user guide.

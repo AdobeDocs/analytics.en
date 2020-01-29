@@ -9,7 +9,7 @@ Offline tracking is an optional way to collect data in Adobe Analytics. If a vis
 
 When a device comes back online, all hits stored on the device are sent to Adobe data collection servers. Large numbers of queued hits can potentially impact performance on older devices. Use the `offlineThrottleDelay` variable to establish how often queued hits are sent to Adobe.
 
-# Offline Throttle Delay in Adobe Experience Platform Launch
+## Offline Throttle Delay in Adobe Experience Platform Launch
 
 There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 

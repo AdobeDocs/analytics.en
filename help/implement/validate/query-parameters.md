@@ -31,7 +31,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `ev` | `events` | Shorthand for the `events` query string. |
 | `events` | `events` | Comma-separated list of events on the page. |
 | `g` | `pageURL` | The current URL of the page, up to 255 bytes. |
-| `-g` | `pageURL` |  URLs longer than 255 bytes are split. The first 255 bytes appear in the `g` parameter, and all remaining bytes appear in the `-g` parameter.
+| `-g` | `pageURL` |  URLs longer than 255 bytes are split. The first 255 bytes appear in the `g` parameter, and all remaining bytes appear in the `-g` parameter. |
 | `gn` | `pageName` | Shorthand for the `pageName` query string. |
 | `gt` | `pageType` | Shorthand for the `pageType` query string. |
 | `h1` - `h5` | `hier1` - `hier5` | Hierarchy variables. |
@@ -59,7 +59,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `products` | `products` | Products variable. |
 | `purchaseID` | `purchaseID` | Used to deduplicate purchases. |
 | `r` | `referrer` | Referring URL of the hit. |
-| `s` | None | Used in the Monitor Resolutions dimension. Screen resolution, in `width x height`.
+| `s` | None | Used in the Monitor Resolutions dimension. Screen resolution, in `width x height`. |
 | `server` | `server` | Server dimension. |
 | `sv` | `server` | Shorthand for the `server` query string. |
 | `state` | `state` | State dimension. |

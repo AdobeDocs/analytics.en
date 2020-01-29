@@ -10,7 +10,7 @@ uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 
 Create a data element in Dynamic Tag Management.
 
-1. [Create Web Property](/help/implement/c-implement-with-dtm/t-create-web-property.md), if you haven't done so already.
+1. [Create Web Property](/help/implement/other/dtm/t-create-web-property.md), if you haven't done so already.
 1. In the web property, click **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]**.
 1. Click **[!UICONTROL Create New Data Element]**.
 1. Complete the following fields and options:

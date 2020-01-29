@@ -9,11 +9,11 @@ uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
 
 # Use implementation plug-ins
 
-AppMeasurement for JavaScript [plug-ins](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) are programs or functions that perform several advanced functions.
+Plug-ins are snippets of code that perform several advanced functions to help your Analytics implementation.
 
 These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions. Contact your Account Manager if you want to capture data using JavaScript but are unsure how to proceed.
 
-JavaScript plug-ins are usually called by the doPlugins function, which is executed when the t() function is called in the Code to Paste.
+JavaScript plug-ins are usually called by the doPlugins function, which is executed when the `t` method is called in the Code to Paste.
 
 Consequently, if you set a variable in the *`doPlugins`* function, you can overwrite a variable you set on the HTML page. The only time the *`doPlugins`* function is not called is when the [!UICONTROL usePlugins] variable is set to 'false.'
 

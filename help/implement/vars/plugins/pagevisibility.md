@@ -12,8 +12,6 @@ Records the number of seconds your page was the active tab within the browser, a
 
 > [!NOTE] This is a beta version of the plugin, and additional updates may be forthcoming.
 
-This plug-in requires [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
-
 This plug-in also records the total seconds the page was within the browser (both active and passive viewing time). It is required to use the getPreviousValue plug-in in order to track the previous page name associated with the page visibility events. Tracking these values helps you better understand visitor engagement and more accurately track visitor behavior on your sites.
 
 It is required that you use the getPreviousValue plug-in to track the previous page name associated with the page visibility events. Tracking these values helps you better understand visitor engagement and more accurately track visitor behavior on your sites.

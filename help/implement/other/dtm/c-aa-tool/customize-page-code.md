@@ -10,8 +10,6 @@ uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 
 Use field descriptions in Dynamic Tag Management to customize page code when deploying Analytics.
 
- Add plugins to ensure that the code runs at the same time as the Analytics tool. For more information about the Analytics plugins, see [Implementation Plug-ins](/help/implement/js-implementation/plugins/impl-plugins.md).
-
 **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
 
 Edit Tool]** > **[!UICONTROL Customize Page Code]** 

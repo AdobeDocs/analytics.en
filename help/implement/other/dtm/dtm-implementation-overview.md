@@ -18,11 +18,11 @@ For a detailed summary of the Dynamic Tag Management implementation steps, refer
 
 This guide leads you through the following steps to implement Analytics using DTM:
 
-1. [Create a web property](/help/implement/c-implement-with-dtm/t-create-web-property.md).
-1. [Configure your hosting options](/help/implement/c-implement-with-dtm/t-configure-hosting.md).
-1. [Add header and footer code to each managed page](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md).
-1. [Add the Adobe Analytics Tool](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
-1. Create [data elements](/help/implement/c-implement-with-dtm/t-data-element.md), [rules and conditions](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md), and [actions](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md).
+1. [Create a web property](/help/implement/other/dtm/t-create-web-property.md).
+1. [Configure your hosting options](/help/implement/other/dtm/t-configure-hosting.md).
+1. [Add header and footer code to each managed page](/help/implement/other/dtm/c-headers-footers/t-header-footer-code.md).
+1. [Add the Adobe Analytics Tool](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
+1. Create [data elements](/help/implement/other/dtm/t-data-element.md), [rules and conditions](/help/implement/other/dtm/c-rules/t-rules-create.md), and [actions](/help/implement/other/dtm/c-rules/t-rules-actions.md).
 
 1. Publish tools and rules to the production server.
 

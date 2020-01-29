@@ -8,7 +8,7 @@ keywords: Analysis Workspace;Segment IQ
 
 Analysts can spend many hours or even days searching for relevant differences between segments across your organization's metrics and dimensions. Not only is this analysis tedious and time consuming, you can never be sure if a segment's key difference was missed that could make a big impact to your targeted marketing efforts.
 
-Many organizations have found success using features powered by Segment IQ. See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that have provided organizations valuable insight.
+Many organizations have found success using features powered by Segment IQ. See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
 
 ## Features
 

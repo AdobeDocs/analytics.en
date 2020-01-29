@@ -19,7 +19,7 @@ Dynamic accounts is an implementation feature that lets you determine what repor
 
 If `dynamicAccountSelection = true`, the value within `dynamicAccountMatch` is compared to `dynamicAccountList`. If the values in `dynamicAccountList` match, the report suite ID is included in the `account` variable.
 
-### Default report suite
+## Default report suite
 
 The `account` variable can be set first, and acts as a default value in case any of the specified strings cannot be found. For example:
 
@@ -32,7 +32,7 @@ s.dynamicAccountList="examplersiddev=dev.example.com;examplersidprod=example.com
 
 If `location.hostname` was neither `dev.example.com` or `example.com`, the hit would be sent to `examplersiddefault`.
 
-### Multi-suite tagging
+## Multi-suite tagging
 
 Multi-suite tagging can be used with dynamic account selection. For example:
 

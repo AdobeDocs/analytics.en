@@ -11,12 +11,10 @@ uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 
 The following is an example of how the AppMeasurement library and the Activity Map module are combined in the [!DNL AppMeasurement.js] file.
 
-Note that code sections that are relevant to this Activity Map implementation are **bolded**.
-
 ```
-<b>// Initialize AppMeasurement 
+// Initialize AppMeasurement 
  var s_account="INSERT-RSID-HERE" 
- var s=s_gi(s_account)</b> 
+ var s=s_gi(s_account)
   
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/ 
 s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE") 
@@ -52,7 +50,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 // https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
-<b>/****************************** START Activity Map MODULE *****************************/ 
+/****************************** START Activity Map MODULE *****************************/ 
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
@@ -63,7 +61,6 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
  function AppMeasurement_Module_Activity Map(g){func 
  ...
  /* END Activity Map MODULE */ 
- </b> 
 /* 
  ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 
  

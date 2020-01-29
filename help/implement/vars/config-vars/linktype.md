@@ -1,101 +1,55 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: linkType
+description: Use the linkType variable to determine which link tracking dimension the hit belongs to.
 ---
 
-# s.linkType
+# linkType
 
-Contains the automatically determined link type, if any. Can be set to one of the following:
-    
-     * `d` (download)
-     * `e` (exit)
-     * `o` (custom/other)
+Link tracking hits can populate one of three dimensions:
 
-This is the `pe` parameter in the image request. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
+* Custom links
+* Exit links
+* Download links
 
-*Note: The variable [`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html) cannot be set for a file download, exit link, or custom link, because each of the link types is not a page view and does not have an associated page name.*
+Use the `linkType` variable to determine which dimension you want to populate when running the next `tl()` function.
 
+## Link Type in Adobe Experience Platform Launch
 
-**Example**
+Set the link type when configuring a rule to send a beacon.
 
-```js
-function s_doPlugins(s) { 
-    if (s.linkType == "d" && s.linkURL.indexOf(".aspx?f=") { 
-        //special tracking for .aspx file download script 
-        s.eVar11 = s.linkURL.substring(s.linkURL.lastIndexOf("?f=") + 3, s.linkURL.length); 
-    } 
-  
-    else if (s.linkType == "o" ) { 
-        // note: linkType is set to "o" only if you make a custom call 
-        // to s.tl() and set the link type to "o". Automatically tracked 
-        // links are set to "d" or "e" only. 
-        s.eVar10 = s.LinkURL; 
-    } 
-}
-```
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the '+' icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Type] dropdown.
 
-The  variable is an optional variable used in link tracking that determines which report a link name or URL appears (custom, download, or exit links).
+You can set this dropdown to [!UICONTROL Custom Link], [!UICONTROL Download Link], or [!UICONTROL Exit Link].
 
+## s.linkType in AppMeasurement and Launch custom code editor
 
-<!-- 
+The `s.linkType` variable is a string that accepts one of three single-character values: `o`, `d`, or `e`. If a `tl()` function is called without a link type, it defaults to Custom link.
 
-linkType.xml
+* `o` - Custom links
+* `d` - Download links
+* `e` - Exit links
 
- -->
-
-The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it.
-
-<table id="table_3D1A2FC1CECD4709BE2F9E32AC2DC730"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Max Size </th> 
-   <th class="entry"> Debugger Parameter </th> 
-   <th class="entry"> Reports Populated </th> 
-   <th class="entry"> Default Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> One character </td> 
-   <td> pe=[lnk_o|lnk_d|lnk_e] </td> 
-   <td> <p>File Downloads </p> <p>Custom Links </p> <p>Exit Links </p> </td> 
-   <td> "" </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Custom links send data to Analytics. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
-
-For exit and download Links, the *`linkType`* variable is automatically populated depending on whether the link clicked is an exit or download link. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting *`linkType`* to 'o,' 'e,' or 'd,' the *`linkName`* or link URL is sent to the [!UICONTROL Custom Links], [!UICONTROL Exit Links], or [!UICONTROL File Downloads] report respectively.
-
-**Syntax and Possible Values** {#section_18DB3A8083FB4F75B970055ED336DA4E}
-
-The *`linkType`* variable syntax depends on whether you use XML or a query string.
-
-If you are using XML, the variable may only contain a single character, namely 'o,' 'e,' or 'd.'
+> [!TIP] This variable is the second parameter of the `tl()` function, and usually does not need to be set as a standalone variable. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` function.
 
 ```js
-s.tl(this,'o','Link Name');
+s.linkType = "e";
 ```
 
-If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
+## Example
 
-**Examples** {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
+The following two example link tracking calls are functionally identical. They are different methods to accomplish the same link tracking hit.
 
 ```js
-<a href="index.html" onClick=" 
- var s=s_gi('rsid'); **see note below on the rsid** 
- s.tl(this,'o','Link Name'); 
- ">My Page</a> 
+// Set link tracking arguments as individual variables
+s.linkType = "d";
+s.linkName = "Example download link";
+s.tl();
 
+// Set link tracking arguments directly in the tl() function
+s.tl(this,"d","Example download link");
 ```
-
-**Configuration Settings** {#section_59738AD1B5E94294B8D36F4E772DEDB3}
-
-None
-
-**Pitfalls, Questions, and Tips** {#section_F0D01DDE3FDA486C987162DA50A79C45}
-
-* If *`linkType`* is not specified, custom links ('o') is assumed.

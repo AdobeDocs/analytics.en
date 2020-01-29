@@ -1,71 +1,43 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: transactionID
+description: Use this variable to link online and offline data together.
 ---
 
 # transactionID
 
-[!UICONTROL Integration Data Sources] use a [!UICONTROL transaction ID] to tie offline data to an online transaction (like a lead or purchase generated online).
+The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. This variable is valuable in cases where you want to use data from other channels and link it to data collected with AppMeasurement.
 
+> [!NOTE] Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
 
-<!-- 
+When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. Data uploaded through Data Sources with a matching transaction ID is permanently tied to those variable values.
 
-transactionID.xml
+By default, Adobe remembers all transaction ID values (linked and unlinked) for up to 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have this limit extended.
 
- -->
+## Transaction ID in Adobe Experience Platform Launch
 
-Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. See [Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
+You can set transaction ID either while configuring the Analytics extension (global variables) or under rules.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  100 bytes  | xact  | n/a  | ""  |
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Transaction ID] section.
 
-**Enable Transaction ID Storage** {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+You can set transaction ID to any string value, including data elements.
 
-Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. This setting is located at 
+## s.transactionID in AppMeasurement and Launch custom code editor
 
-```
-Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
-```
-
-To see whether *`transactionID Storage`* is enabled for a report suite, go to
-
-```
-Analytics > Admin > Data Sources > Manage
-```
-
-**Syntax and Possible Values** {#section_0C18329203DC45E989DBAE70C0FB4801}
+The `s.transactionID` variable is a string containing a unique identifier for a transaction. Valid values include alphanumeric characters up to 100 bytes in length. Its default value is an empty string.
 
 ```js
-s.transactionID="unique_id"
+s.transactionID = "ABC123";
 ```
 
-The *`transactionID`* should contain only alphanumeric characters. If multiple [!UICONTROL transactionIDs] should be recorded in a single hit, you can use a comma to delimit multiple values.
-
-**Examples** {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
+If you have more than one transaction ID for a hit, you can delimit each with a comma. Multiple transaction IDs are still subject to the 100-byte limit.
 
 ```js
-s.transactionID="11123456"
+s.transactionID = "ABC123,XYZ456";
 ```
 
-```js
-s.transactionID="lead_12345xyz"
-```
-
-```js
-s.transactionID=s.purchaseID
-```
-
-**Pitfalls, Questions, and Tips** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
-
-* If *`transactionID`* recording is not enabled, *`transactionID`* values will be discarded and unavailable for use with [!UICONTROL Integration Data Sources]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
-
-* If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. This can be accomplished by adding a prefix to the ID, such as lead_1234 and purchase_1234. [!UICONTROL Integration Data Sources] do not function as expected ( [!UICONTROL Data Source] data will tie to the wrong data) if a unique *`transactionID`* is seen twice.
-
-* By default, *`transactionID`* values are remembered for 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have the limit extended.
-
-> [!NOTE] The *`transactionID`* variable can contain any character other than a comma. It should be in the same location where the character limit (100 bytes) is specified. If multi-byte characters are used, multi-byte character support must be enabled in order to avoid problems with unexpected characters in the *`transactionID`*.
+> [!NOTE] If you integrate multiple offline channels using this variable, make sure that different channels don't overlap transaction IDs. For example, if you have a call center transaction ID value of `1234` and a sales lead transaction ID value of `1234`, they can conflict and cause unexpected results. Make sure that transaction IDs contain unique formats per offline channel and differentiate them if necessary. For example, set your call center transaction ID to `call_1234` and your sales lead transaction ID `lead_1234` in both Data Sources and AppMeasurement.

@@ -1,42 +1,45 @@
 ---
-description: For the purchase event, Analytics variables are used to capture specific purchase information. The s.purchaseID variable is used to serialize (de-duplicate) the event.
-keywords: Analytics Implementation
-title: Purchase events
-topic: Developer and implementation
-uuid: d90cdec7-7397-445a-84e5-31014f7ff875
+title: Purchase event
+description: Use the purchase event to collect data for the 'Orders', 'Units', and 'Revenue' metrics.
 ---
 
-# Purchase events
+# Purchase event
 
-For the purchase event, Analytics variables are used to capture specific purchase information. The `s.purchaseID` variable is used to serialize (de-duplicate) the event.
+The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the `products` and `purchaseID` variables.
 
-If a hit with a purchase event is passed without a purchase ID, Adobe Analytics uses information from the hit (s.purchase and s.events) to create a "temporary purchase ID". This temporary purchase ID only applies to the visitor of the hit. The previous 5 temporary purchase ID's are stored for each visitor ID (per report suite).
+When you set a purchase event, it affects the following metrics:
 
-When a visitor makes any purchase, the following checks are made:
+* The 'Orders' metric increments by 1
+* The 'Units' metric increments by the number of products in the `products` variable
+* The 'Revenue' metric increases by the sum of price parameters in the `products` variable
 
+## Set the purchase event in Adobe Experience Platform Launch
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Events] section, and set the events dropdown to [!UICONTROL purchase].
+
+Other dependent variables like `products` and `purchaseID` do not have dedicated fields in Launch. Use the custom code editor following AppMeasurement syntax for these variables.
+
+## Set the purchase event in AppMeasurement and Launch custom code editor
+
+The purchase event is a string that is set as part of the events variable.
+
+```js
+// Set the purchase event by itself
+s.events = "purchase";
+
+// Set the purchase event alongside other events
+s.events = "purchase,event1,event2";
+```
+
+## Purchase event de-duplication
+
+When you fire a purchase event, Adobe checks the following:
+
+* Does the hit contain the `purchaseID` variable? If not, Adobe uses information from the hit to create a "temporary purchase ID". This temporary purchase ID only applies to the visitor of the hit. The previous 5 temporary purchase ID's are stored for each visitor ID per report suite.
 * Does the temporary purchase ID match any of the last five stored temporary purchase IDs? If so, the image request is considered a duplicate purchase. All conversion variables, including the purchase event, do not appear in reporting.
-* If `s.purchaseID` is defined, does it match any value already collected in the report suite? If so, the image request is considered a duplicate purchase. All conversion variables, including the purchase event, do not appear in reporting.
-
-Specific server-side code can be used to generate the unique number (alphanumeric value) embedded in the HTML source. Usually the Order ID, or similar alphanumeric value, is used for this purpose. This value should not change if the user refreshes the page.
-
-## Syntax
-
-```js
-s.purchaseID="12345678";
-```
-
-## Examples
-
-```js
-s.products="Footwear;Hiking Boots;1;170.00";
-s.purchaseID="12345678";
-s.events="purchase";
-```
-
-## Additional Notes
-
-* Do not use a JavaScript randomization function to generate a number, which generates unique numbers each time the page is loaded. Adobe recommends using a data layer to store a given purchase ID.
-* The unique identifiers are applicable to all users across all sessions. Make sure all purchase ID's are truly unique.
-* Valid values are alphanumeric values up to 20 characters in length.
-* The `s.purchaseID` variable serializes all events passed in the `s.events` variable, and overrides any serialization value for events. Do not use [!UICONTROL Event serialization] for any events if the `s.purchaseID` variable is used on the current page.
-* If the `s.purchaseID` variable is left blank, each instance of the purchase event, even page reloads, is counted.
+* If the `purchaseID` variable is defined, does it match any value already collected in the report suite across all visitors? If so, the image request is considered a duplicate purchase. All conversion variables, including the purchase event, do not appear in reporting.

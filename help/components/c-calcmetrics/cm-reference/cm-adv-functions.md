@@ -6,12 +6,6 @@ uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 
 # Reference: advanced functions
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
 Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## Table Functions versus Row Functions {#section_8977BE40A47E4ED79EB543A9703A4905}

@@ -1,77 +1,53 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: s_objectID
+description: Help Activity Map identify unique links on your site.
 ---
 
 # s_objectID
 
-The  variable is a global variable that should be set in the [!UICONTROL onClick] event of a link.
+The `s_objectID` variable provides a unique identifier for a link. It is used to make reports in [Activity Map](/help/analyze/activity-map/activity-map.md) more accurate. If you have links on a page that frequently change, you can use the `s_objectID` variable to tell Activity Map of a unique link location so it can correctly group data as desired.
 
+If Activity Map accuracy is crucial to your organization, Adobe recommends including the `s_objectID` variable in the `onClick` event of links on your site. See [Activity Map link tracking use cases](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in the Analyze user guide for more information.
 
-<!-- 
+## Object ID in Adobe Experience Platform Launch
 
-s_objectID.xml
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
- -->
+## s_objectID in AppMeasurement and Launch custom code editor
 
-By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
+The `s_objectID` variable is a global variable, meaning that it operates independently of the Analytics tracking object (`s` by default). Valid values for this variable can be any string up to 100 bytes in length. If this variable is not defined, Activity Map uses the link URL as the identifier for the link.
 
-> [!NOTE] A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+This variable is typically set in the `onClick` event of an HTML link.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  100 Bytes  | OID  | [!UICONTROL Activity Map], [!UICONTROL ClickMap]  | The Absolute URL of a Clicked Link  |
-
-There are three common reasons to use *`s_objectID`*:
-
-* To aggregate visitor activity that changes often during a day.
-* To separate link activity that [!UICONTROL Activity Map] combines.
-* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
-
-**Aggregate Clicks on Highly Dynamic Links** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
-
-If your site is highly dynamic, and links on some pages change throughout the day, *`s_objectID`* may used to identify the location of a link on the page. If *`s_objectID`* is set to "top left 1" or "top left 2," which represents the first link in the top left of the page for example, then all links that appear in that location (or that have *`s_objectID`* set to the same value) are reported together with visitor click map. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
-
-**Separate Clicks Combined** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
-
-If the *`pageName`* variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use *`s_objectID`* to separate links that appear on multiple versions of that page template. For example, if you have a template page for all products on your site, it is likely that there is a link to your home page and to a search box from that template on all pages. If you want to see how those links are used on an individual product basis (rather than a template basis), you can populate *`s_objectID`* with a product specific value such as "prod 123789 home page" or "prod 123789 search." Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
-
-**Improve [!UICONTROL Activity Map] Accuracy** {#section_08B3406821294DCCABEEB99C90CF5C52}
-
-In some cases, browsers other than Internet Explorer, Firefox, Netscape, Opera, and Safari are not reported. Although this is a small percentage, it accounts for some clicks and other metrics. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. The following is an example of how to update your links to use *`s_objectID`*:
-
-```js
-<a href="/art.jsp?id=559" onClick="s_objectID='top left 1';">Article 559</a> 
-<a href="/home.jsp" onClick="s_objectID='prod 123789 home page';">Home</a> 
-
+```HTML
+<a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-**Syntax and Possible Values** {#section_85841DF9F06A4680953D9B2A884A1A5A}
+> [!NOTE] Always include the semicolon that finishes a JavaScript statement. The semicolon is required for Activity Map to function.
 
-s_objectID may contain any text identifier.
+## Use cases
 
-```js
-s_objectID="unique_id" 
+The `s_objectID` variable is valuable whenever you want increased accuracy in Activity Map reporting.
 
+### Aggregate links from highly dynamic content
+
+Some sites have highly dynamic content, such as news sites or retail sites with frequently rotating items. Since Activity Map uses the link URL as an identifier by default, it is difficult to understand the most-clicked areas on pages where links change frequently. If you use the `s_objectID` within these links, Activity Map understands which links can be aggregated, regardless of the URLs they point to.
+
+```HTML
+<a href="story1.html" onClick="s_objectID='Top left link';">Story 1</a>
+<a href="story2.html" onClick="s_objectID='Top center link';">Story 2</a>
+<a href="story3.html" onClick="s_objectID='Top right link';">Story 3</a>
 ```
 
-There are no limitations on *`s_objectID`* outside of the standard variable limitations.
+Regardless of where the links point or how often you change these links, Activity Map aggregates data based on the value in `s_objectID`.
 
-**Examples** {#section_33F119D532CA4ACAA3426253C42030BB}
+### Keep links separate on a page
 
-```js
-s_objectID="top left 2" 
+Some sites have links that point to the same location in different places. For example, a link to the home page in both the header and footer on your site. Since these links have the same URL, Activity Map aggregates their data. You can separate them using the `s_objectID` variable:
 
+```HTML
+<a href="index.html" onClick="s_objectID='Header home link';">Example link in Header</a>
+<a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-```js
-s_objectID="prod 123789 search"
-```
-
-**Configuration Settings** {#section_95396657D55B41ECB66B83D0534EA827}
-
-None 
+Even if links point to the same URL, Activity Map can use the `s_objectID` variable to correctly distinguish them in reporting.

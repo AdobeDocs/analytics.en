@@ -1,128 +1,45 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: linkInternalFilters
+description: Use the linkInternalFilters variable to help automatic exit link tracking.
 ---
 
+# linkInternalFilters
 
-# s.linkInternalFilters
+AppMeasurement offers the ability to automatically track links that point outside your site. If `trackExternalLinks` is `true`, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The `linkTrackExternalFilters` and `linkTrackInternalFilters` variables determine what links are considered internal/external.
 
-The  variable is used to determine which links on your site are exit links.
+If this variable contains a value, automatic exit link tracking behaves in a blacklist-like manner. If a link click does not match any `linkInternalFilters` values, it is considered an exit link. The entire URL is examined against this variable. If `linkLeaveQueryString` is `true`, the query string is also examined.
 
-It is a comma-separated list of filters that represent the links that are part of the site.
+If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | N/A  | Paths > Entries & Exits > Exit Links  |  |
+> [!NOTE] `linkInternalFilters` and Internal URL filters are separate features that fulfill separate purposes. The `linkInternalFilters` variable works specifically for exit link tracking. Internal URL filters are an Admin setting that help with traffic sources dimensions like Referring Domain. See [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) in the Admin user guide.
 
-> [!NOTE] We had previously suggested setting the linkInternalFilters to javascript:. However, this resulted in all domains being considered external, including the current domain on which the tag resides. If you want several domains to be considered internal, you can add those, as shown in the examples below.
+## Outbound Links - Never Track in Adobe Experience Platform Launch
 
-The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. Whether the target window of an exit link is a pop-up, or the existing window, does not affect whether the link appears in the exit links report. Exit links are only tracked if *`trackExternalLinks`* is set to `"true"`. (See [Link Tracking](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) in the Dynamic Tag management documentation for information about how DTM handles exit links.) The filters in *`linkInternalFilters`* are not case-sensitive.
+The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-The list of filters in *`linkInternalFilters`* applies to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). The filters are always applied to the absolute path of the URL, even if a relative path is used as the href value.
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Outbound Links - Never Track] field.
 
-Be careful that all the domains of your site (and any partners who are using your JavaScript file) are included in *`linkInternalFilters`*. If you do not have all domains included in the list, all links on and to those domains are considered exit links, increasing the server calls sent. If you would like multiple domains or companies to use a single [!DNL AppMeasurement] for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. If you have vanity domains that immediately redirect to your main domain, those vanity domains do not need to be included in the list.
+Place filters that you want to never be tracked as exit links in this field. Separate multiple domains by a comma without a space.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is `https://www.mysite.com/index.html`.
+## s.linkInternalFilters in AppMeasurement and Launch custom code editor
 
-```js
-s.trackExternalLinks=true 
-s.linkInternalFilters="mysite.com" 
-s.linkExternalFilters="" 
-s.linkLeaveQueryString=false 
-...
-<a href="https://www.mysite.com">Not an Exit Link</a> 
-<a href="/careers/job_list.html">Not an Exit Link</a> 
-<a href="https://www2.site3.com">Exit Link</a> 
-<a href="https://www2.site1.com/partners/">Exit Link</a> 
-
-```
-
-## Syntax and Possible Values
-
-The *`linkInternalFilters`* variable is a comma-separated list of ASCII characters. No spaces are allowed.
+The `s.linkInternalFilters` variable is a string containing filters (such as domains) that you consider internal to your site. Separate multiple filters using a comma without spaces.
 
 ```js
-s.linkInternalFilters="site1.com[,site2.com[,site3.net[...]]]"
+s.linkInternalFilters = "example.com,example.net,example.org";
 ```
 
-## Examples
+Consider the following implementation example as if it were on `adobe.com`:
 
-```js
-s.linkInternalFilters="mysite.com"
+```html
+<script>
+  s.trackExternalLinks = true;
+  s.linkInternalFilters = "adobe.com";
+</script>
+
+<!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
+<a href = "example.com">Example link 2</a>
 ```
-
-```js
-s.linkInternalFilters="mysite.com,mysite.net,vanity1.com"
-```
-
-## Configuration Settings
-
-None
-
-## Pitfalls, Questions, and Tips
-
-* Include all domains that the [!DNL AppMeasurement] for JavaScript file may be served under in the filter list.
-* Periodically check the [!UICONTROL Paths] > [!UICONTROL Entries & Exits] > [!UICONTROL Exit] Links report to make sure that none of the entries in that report are incorrect.
-
-* Periodically review partner contracts to determine if they contain restrictions on link tracking. For example, you might be prohibited from tracking links that appear in partner display ads. Filter partner links by adding their domain to *`linkInternalFilters`*:
-
-```js
-s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
-```
-
-## Automatic Tracking of Exit Links and File Downloads
-
-The JavaScript file can be configured to automatically track file downloads and exit links based on parameters that define file download file types and exit links.
-
-The parameters that control automatic tracking are as follows:
-
-```
-s.trackDownloadLinks=true 
-s.trackExternalLinks=true 
-s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls" 
-s.linkInternalFilters="javascript:,mysite.com,[more filters here]" 
-s.linkLeaveQueryString=false 
-
-```
-
-The parameters `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. When enabled, any link with a file type matching one of the values in `linkDownloadFileTypes` is automatically tracked as a file download. Any link with a URL that does not contain one of the values in `linkInternalFilters` is automatically tracked as an exit link.
-
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
-
-### Example 1
-
-The file types `.jpg` and `.aspx` are not included in `linkDownloadFileTypes` above, therefore no clicks on them are automatically tracked and reported as file downloads.
-
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
-
-### Example 2 
-
-With the following settings, the example below will be counted as an exit link:
-
-```
-//JS file  
-s.linkInternalFilters="javascript:,mysite.com" 
-s.linkLeaveQueryString=false 
- 
-//HTML file 
-<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
-
-```
-
-### Example 3
-
-With the following settings, the link below is not counted as an exit link:
-
-```
-//JS file  
-s.linkInternalFilters="javascript:,mysite.com" 
-s.linkLeaveQueryString=true 
- 
-//HTML  
-<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
-
-```
-
-*Note: A single link can be tracked only as a file download or exit link, with file download taking priority. If a link is both an exit link and file download based on the parameters `linkDownloadFileTypes` and `linkInternalFilters`, it is tracked and reported as a file download and not an exit link.*

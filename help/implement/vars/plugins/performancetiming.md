@@ -84,61 +84,64 @@ s.performanceTiming('list2')
 
 Lastly, add the plug-in itself to your JavaScript implementation.
 
-```
-/* Plugin: Performance Timing Tracking - 0.11 BETA */ 
-s.performanceTiming=new Function("v","" 
-+"var s=this;if(v)s.ptv=v;if(typeof performance!='undefined'){if(perf" 
-+"ormance.timing.loadEventEnd==0){s.pi=setInterval(function(){s.perfo" 
-+"rmanceWrite()},250);}if(!s.ptc||s.linkType=='e'){s.performanceRead(" 
-+");}else{s.rfe();s[s.ptv]='';}}"); 
-s.performanceWrite=new Function("","" 
-+"var s=this;if(performance.timing.loadEventEnd>0)clearInterval(s.pi)" 
-+";try{if(s.c_r('s_ptc')==''&&performance.timing.loadEventEnd>0){try{" 
-+"var pt=performance.timing;var pta='';pta=s.performanceCheck(pt.fetc" 
-+"hStart,pt.navigationStart);pta+='^^'+s.performanceCheck(pt.domainLo" 
-+"okupStart,pt.fetchStart);pta+='^^'+s.performanceCheck(pt.domainLook" 
-+"upEnd,pt.domainLookupStart);pta+='^^'+s.performanceCheck(pt.connect" 
-+"End,pt.connectStart);pta+='^^'+s.performanceCheck(pt.responseStart," 
-+"pt.connectEnd);pta+='^^'+s.performanceCheck(pt.responseEnd,pt.respo" 
-+"nseStart);pta+='^^'+s.performanceCheck(pt.loadEventStart,pt.domLoad" 
-+"ing);pta+='^^'+s.performanceCheck(pt.loadEventEnd,pt.loadEventStart" 
-+");pta+='^^'+s.performanceCheck(pt.loadEventEnd,pt.navigationStart);" 
-+"s.c_w('s_ptc',pta);if(sessionStorage&&navigator.cookieEnabled&&s.pt" 
-+"v!='undefined'){var pe=performance.getEntries();var tempPe='';for(v" 
-+"ar i=0;i<pe.length;i++){tempPe+='!';tempPe+=pe[i].name.indexOf('?')" 
-+">-1?pe[i].name.split('?')[0]:pe[i].name;tempPe+='|'+(Math.round(pe[" 
-+"i].startTime)/1000).toFixed(1)+'|'+(Math.round(pe[i].duration)/1000" 
-+").toFixed(1)+'|'+pe[i].initiatorType;}sessionStorage.setItem('s_pec" 
-+"',tempPe);}}catch(err){return;}}}catch(err){return;}"); 
-s.performanceCheck=new Function("a","b","" 
-+"if(a>=0&&b>=0){if((a-b)<60000&&((a-b)>=0)){return((a-b)/1000).toFix" 
-+"ed(2);}else{return 600;}}"); 
-s.performanceRead=new Function("","" 
-+"var s=this;if(performance.timing.loadEventEnd>0)clearInterval(s.pi)" 
-+";var cv=s.c_r('s_ptc');if(s.pte){var ela=s.pte.split(',');}if(cv!='" 
-+"'){var cva=s.split(cv,'^^');if(cva[1]!=''){for(var x=0;x<(ela.lengt" 
-+"h-1);x++){s.events=s.apl(s.events,ela[x]+'='+cva[x],',',2);}}s.even" 
-+"ts=s.apl(s.events,ela[ela.length-1],',',2);}s.linkTrackEvents=s.apl" 
-+"(s.linkTrackEvents,s.pte,',',2);s.c_w('s_ptc','',0);if(sessionStora" 
-+"ge&&navigator.cookieEnabled&&s.ptv!='undefined'){s[s.ptv]=sessionSt" 
-+"orage.getItem('s_pec');sessionStorage.setItem('s_pec','',0);}else{s" 
-+"[s.ptv]='sessionStorage Unavailable';}s.ptc=true;"); 
-/* Remove from Events 0.1 - Performance Specific,  
-removes all performance events from s.events once being tracked. */ 
-s.rfe=new Function("","" 
-+"var s=this;var ea=s.split(s.events,',');var pta=s.split(s.pte,',');" 
-+"try{for(x in pta){s.events=s.rfl(s.events,pta[x]);s.contextData['ev" 
-+"ents']=s.events;}}catch(e){return;}"); 
-/* Plugin Utility - RFL (remove from list) 1.0*/ 
-s.rfl=new Function("l","v","d1","d2","ku","" 
-+"var s=this,R=new Array(),C='',d1=!d1?',':d1,d2=!d2?',':d2,ku=!ku?0:" 
-+"1;if(!l)return'';L=l.split(d1);for(i=0;i<L.length;i++){if(L[i].inde" 
-+"xOf(':')>-1){C=L[i].split(':');C[1]=C[0]+':'+C[1];L[i]=C[0];}if(L[i" 
-+"].indexOf('=')>-1){C=L[i].split('=');C[1]=C[0]+'='+C[1];L[i]=C[0];}" 
-+"if(L[i]!=v&&C)R.push(C[1]);else if(L[i]!=v)R.push(L[i]);else if(L[i" 
-+"]==v&&ku){ku=0;if(C)R.push(C[1]);else R.push(L[i]);}C='';}return s." 
-+"join(R,{delim:d2})"); 
+```js
+/* Plugin: Performance Timing Tracking - 0.11 BETA */
+s.performanceTiming=new Function("v",""
++"var s=this;if(v)s.ptv=v;if(typeof performance!='undefined'){if(perf"
++"ormance.timing.loadEventEnd==0){s.pi=setInterval(function(){s.perfo"
++"rmanceWrite()},250);}if(!s.ptc||s.linkType=='e'){s.performanceRead("
++");}else{s.rfe();s[s.ptv]='';}}");
+s.performanceWrite=new Function("",""
++"var s=this;if(performance.timing.loadEventEnd>0)clearInterval(s.pi)"
++";try{if(s.c_r('s_ptc')==''&&performance.timing.loadEventEnd>0){try{"
++"var pt=performance.timing;var pta='';pta=s.performanceCheck(pt.fetc"
++"hStart,pt.navigationStart);pta+='^^'+s.performanceCheck(pt.domainLo"
++"okupStart,pt.fetchStart);pta+='^^'+s.performanceCheck(pt.domainLook"
++"upEnd,pt.domainLookupStart);pta+='^^'+s.performanceCheck(pt.connect"
++"End,pt.connectStart);pta+='^^'+s.performanceCheck(pt.responseStart,"
++"pt.connectEnd);pta+='^^'+s.performanceCheck(pt.responseEnd,pt.respo"
++"nseStart);pta+='^^'+s.performanceCheck(pt.loadEventStart,pt.domLoad"
++"ing);pta+='^^'+s.performanceCheck(pt.loadEventEnd,pt.loadEventStart"
++");pta+='^^'+s.performanceCheck(pt.loadEventEnd,pt.navigationStart);"
++"s.c_w('s_ptc',pta);if(sessionStorage&&navigator.cookieEnabled&&s.pt"
++"v!='undefined'){var pe=performance.getEntries();var tempPe='';for(v"
++"ar i=0;i<pe.length;i++){tempPe+='!';tempPe+=pe[i].name.indexOf('?')"
++">-1?pe[i].name.split('?')[0]:pe[i].name;tempPe+='|'+(Math.round(pe["
++"i].startTime)/1000).toFixed(1)+'|'+(Math.round(pe[i].duration)/1000"
++").toFixed(1)+'|'+pe[i].initiatorType;}sessionStorage.setItem('s_pec"
++"',tempPe);}}catch(err){return;}}}catch(err){return;}");
 
+s.performanceCheck=new Function("a","b",""
++"if(a>=0&&b>=0){if((a-b)<60000&&((a-b)>=0)){return((a-b)/1000).toFix"
++"ed(2);}else{return 600;}}");
+
+s.performanceRead=new Function("",""
++"var s=this;if(performance.timing.loadEventEnd>0)clearInterval(s.pi)"
++";var cv=s.c_r('s_ptc');if(s.pte){var ela=s.pte.split(',');}if(cv!='"
++"'){var cva=s.split(cv,'^^');if(cva[1]!=''){for(var x=0;x<(ela.lengt"
++"h-1);x++){s.events=s.apl(s.events,ela[x]+'='+cva[x],',',2);}}s.even"
++"ts=s.apl(s.events,ela[ela.length-1],',',2);}s.linkTrackEvents=s.apl"
++"(s.linkTrackEvents,s.pte,',',2);s.c_w('s_ptc','',0);if(sessionStora"
++"ge&&navigator.cookieEnabled&&s.ptv!='undefined'){s[s.ptv]=sessionSt"
++"orage.getItem('s_pec');sessionStorage.setItem('s_pec','',0);}else{s"
++"[s.ptv]='sessionStorage Unavailable';}s.ptc=true;");
+
+/* Remove from Events 0.1 - Performance Specific,
+removes all performance events from s.events once being tracked. */
+s.rfe=new Function("",""
++"var s=this;var ea=s.split(s.events,',');var pta=s.split(s.pte,',');"
++"try{for(x in pta){s.events=s.rfl(s.events,pta[x]);s.contextData['ev"
++"ents']=s.events;}}catch(e){return;}");
+
+/* Plugin Utility - RFL (remove from list) 1.0*/
+s.rfl=new Function("l","v","d1","d2","ku",""
++"var s=this,R=new Array(),C='',d1=!d1?',':d1,d2=!d2?',':d2,ku=!ku?0:"
++"1;if(!l)return'';L=l.split(d1);for(i=0;i<L.length;i++){if(L[i].inde"
++"xOf(':')>-1){C=L[i].split(':');C[1]=C[0]+':'+C[1];L[i]=C[0];}if(L[i"
++"].indexOf('=')>-1){C=L[i].split('=');C[1]=C[0]+'='+C[1];L[i]=C[0];}"
++"if(L[i]!=v&&C)R.push(C[1]);else if(L[i]!=v)R.push(L[i]);else if(L[i"
++"]==v&&ku){ku=0;if(C)R.push(C[1]);else R.push(L[i]);}C='';}return s."
++"join(R,{delim:d2})");
 ```
 
 ## Notes {#section_131C5D97A0094880AFC3A2BBE0BC9DE4}

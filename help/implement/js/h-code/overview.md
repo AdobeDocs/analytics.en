@@ -5,7 +5,7 @@ description: Learn the workflow to implement H Code on your site.
 
 # H Code JavaScript implementation overview
 
-> [!IMPORTANT] This version of data collection no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
+> [!IMPORTANT] This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
 
 You must have access to your hosting servers to successfully implement a page with code to collect data. The following steps walk you through a basic Analytics H Code implementation.
 

@@ -7,7 +7,7 @@ description: Lets you customize the string that identifies dynamic variables.
 
 Dynamic variables are a shorthand concept that let you copy values from one variable to another. They are valuable for long variable values, as they help shorten an image request's URL length. See [Dynamic variables](../page-vars/dynamic-variables.md) for more information on this concept.
 
-By default, dynamic variables use the prefix `D=`. The `dynamicVariablePrefix` variable lets you customize the string that identifies dynamic variables.
+By default, dynamic variables use the prefix `D=`. The `dynamicVariablePrefix` variable lets you customize the string that identifies dynamic variables. It is case-sensitive.
 
 ## Dynamic Variable Prefix in Adobe Experience Platform Launch
 

@@ -6,12 +6,6 @@ uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 
 # Reference: basic functions
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 
 Here is an alphabetical list of the functions and their definitions.

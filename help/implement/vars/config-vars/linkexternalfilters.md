@@ -1,70 +1,48 @@
 ---
-description: Dynamic variables let you copy values from one variable to another without typing the full values multiple times in the image requests on your site.
-keywords: Analytics Implementation
-solution: 
-title: Dynamic variables
+title: linkExternalFilters
+description: Use the linkExternalFilters variable to help automatic exit link tracking.
 ---
 
-# s.linkExternalFilters
+# linkExternalFilters
 
-If your site contains many links to external sites, and you do not want to track all exit links, use  to report on a specific subset of exit links.
+AppMeasurement offers the ability to automatically track links that point outside your site. If `trackExternalLinks` is `true`, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The `linkTrackExternalFilters` and `linkTrackInternalFilters` variables determine what links are considered internal/external.
 
-|  Max Size  | Debugger Parameter  | Reports Populated  | Default Value  |
-|---|---|---|---|
-|  N/A  | N/A  | Paths > Entries & Exits > Exit Links  | ""  |
+If this variable contains a value, automatic exit link tracking behaves in a whitelist-like manner. If a link click does not match any `linkExternalFilters` values, it is not considered an exit link. The entire URL is examined against this variable. If `linkLeaveQueryString` is `true`, the query string is also examined.
 
-The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. An exit link is defined as any link that takes a visitor away from your site. Whether the target window of an exit link is a popup or the existing window, it does not affect whether the link appears in the exit links report. Exit links are tracked only if *`trackExternalLinks`* is set to 'true.' The filters in *`linkExternalFilters`* and *`linkInternalFilters`* are case insensitive.
+> [!TIP] Only use this variable if you know exactly which domains you want to consider as exit links. Many organizations find that using `linkInternalFilters` is sufficient for their exit link tracking needs, and do not use `linkExternalFilters`.
 
-> [!NOTE] If you don't want to use *`linkExternalFilters`*, delete it or set it to "".
+If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
-The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to 'true,' the filters apply to the entire URL (domain, path, and query string). These filters are always applied to the absolute path of the URL, even if a relative path is used as the href value.
+## Outbound Links - Track in Adobe Experience Platform Launch
 
-Most companies find that *`linkInternalFilters`* gives them enough control over exit links that they don't need *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
+The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-The following example illustrates how this variable is used. In this example, the URL of the page is `https://www.mysite.com/index.html`.
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Outbound Links - Track] field.
 
-```js
-s.trackExternalLinks=true 
-s.linkInternalFilters="javascript:,mysite.com" 
-s.linkExternalFilters="site1.com,site2.com,site3.com/partners" 
-s.linkLeaveQueryString=false 
-...
-<a href="https://www.mysite.com">Not an Exit Link</a> 
-<a href="/careers/job_list.html">Not an Exit Link</a> 
-<a href="https://www2.site3.com">Not an Exit Link</a> 
-<a href="https://www.site1.com">Exit Link</a> 
-<a href="https://www2.site3.com/partners/offer.asp">Exit Link</a> 
+Place filters that you want to always consider external in this field. Separate multiple domains by a comma without a space.
 
-```
+## s.linkExternalFilters in AppMeasurement and Launch custom code editor
 
-## Syntax and Possible Values
-
-The *`linkExternalFilters`* variable is a comma-separated list of ASCII characters. No spaces are allowed.
+The `s.linkExternalFilters` variable is a string containing filters (such as domains) that you consider exit links. Separate multiple domains using a comma without spaces.
 
 ```js
-s.linkExternalFilters="site1.com[,site2.com[,site3.net[...]]]"
+s.linkExternalFilters = "example.com,example.net,example.org";
 ```
 
-Any portion of a URL might be included in *`linkExternalFilters`*, separated by commas.
+Consider the following implementation example as if it were on `adobe.com`:
 
-## Examples
+```html
+<script>
+  s.trackExternalLinks = true;
+  s.linkExternalFilters = "example.com,example.net";
+</script>
 
-```js
-s.linkExternalFilters="partnersite.com,partnertwo.net/path/"
+<!-- The following link is not considered an exit link, even though the link is outside adobe.com -->
+<a href = "example.org">Example link 1</a>
+
+<!-- The following link is an exit link because it matches the linkExternalFilters whitelist -->
+<a href = "example.com">Example link 2</a>
 ```
-
-```js
-s.linkExternalFilters=""
-```
-
-## Configuration Settings
-
-None
-
-## Pitfalls, Questions, and Tips
-
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links.
-
-* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`.
-
-* To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.

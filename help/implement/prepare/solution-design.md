@@ -9,7 +9,7 @@ A solution design document (also known as a solution design reference or busines
 
 ## Prerequisites
 
-[Validate your Analytics implementation and publish to production](../implement-with-launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
+[Validate your Analytics implementation and publish to production](../launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
 
 ## Ownership and location of the design document
 

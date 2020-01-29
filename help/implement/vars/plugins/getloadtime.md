@@ -1,54 +1,52 @@
 ---
-description: Gets the page load time in tenths of a second and lets you store the value in a prop, eVar, and/or a numeric event.
-keywords: Analytics Implementation
 title: getLoadTime
-topic: Developer and implementation
-uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+description: Gets the page load time, allowing you to store that value in a variable.
 ---
 
 # getLoadTime
 
-Gets the page load time in tenths of a second and lets you store the value in a prop, eVar, and/or a numeric event.
+The `getLoadTime` plug-in gets the page load time in tenths of a second. This plug-in is valuable to see how your page load time performs across your site. It operates outside of the `s` tracking object to increase load time accuracy.
 
-To use this plugin, you insert the function code, then call the function twice in your [!DNL s_code.js] file. Once at the beginning of the file, and then again in the `doPlugins` section. This plugin is intentionally not defined as a method of the s object. Doing so would have added to the calculated page load time.
+> [!TIP] This plug-in outputs an integer value representing tenths of a second. If you would like to convert this value to seconds, create a calculated metric dividing this value by 10.
 
-> [!NOTE] The following instructions require you to alter the data collection code on your site. This can affect data collection on your site, and should only be done by a developer with experience using and implementing [!DNL Analytics].
+## Install the getLoadTime plug-in using Adobe Experience Platform Launch
 
-## Plug-in Code and Implementation {#section_968AC379C3004C359A85AFED5A48D5AE}
+You can install the `getLoadTime()` plug-in when configuring the Analytics extension.
 
-**Add the function**
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 
-Add the following definition of the `s_getLoadTime` function in [!DNL s_code.js], anywhere before the "DO NOT ALTER ANYTHING BELOW THIS LINE" section:
+Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `getLoadTime()` function in the custom code editor of rules to assign variable values.
 
-```js
-function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window.performance?performance.timing:0,a=o?o.requestStart:window.inHeadTS||0;s_loadT=a?Math.round((b-a)/100):''}return s_loadT}
-```
+## Install the getLoadTime plug-in using AppMeasurement
 
-**Make the initial function call**
+You can install the `getLoadTime()` plug-in by editing `AppMeasurement.js`:
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+1. Download and open the `AppMeasurement.js` file located on your web server.
+2. Paste the plug-in code provided below anywhere you'd like.
 
-**Make the final function call**
+Once installed, you can use the `getLoadTime()` function to assign variable values.
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
-
-Usage Example 1 - Save the page load time in prop10 and eVar20:
-
-```js
-s.eVar20=s.prop10=s_getLoadTime();
-```
-
-Usage Example 2 - Save the page load time in numeric event99:
+## Plug-in code
 
 ```js
-if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
+function getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window.performance?performance.timing:0,a=o?o.requestStart:window.inHeadTS||0;s_loadT=a?Math.round((b-a)/100):''}return s_loadT}
 ```
 
-**(Optional) Add support for older browsers**
+## Use the getLoadTime plug-in with AppMeasurement and Launch custom code editor
 
-To support older browsers that don't provide the [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) property, include the following line in the HEAD section of the page's HTML near the beginning and prior to invoking .js, .css, or other files:
+The `getLoadTime()` function runs on page load and returns an integer representing tenths of a second. Use this function to assign variable values. It does not take any arguments.
 
+```js
+// Assign eVar1 to the number of tenths of seconds the page took to load
+s.eVar1 = getLoadTime();
+
+// Assign an event to accumulate page load time in reporting. You can then create a calculated metric in Analysis Workspace to determine average page load time for each page.
+s.events = "event1=" + getLoadTime();
+
+// Use the apl plug-in to append this event to the events variable.
+// You can add this code to the doPlugins function for an easy and low-maintenance method to record load time in a custom event.
+if(getLoadTime()) s.events = s.apl(s.events,"event1" + getLoadTime(),',',1);
 ```
-<script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
-```
-

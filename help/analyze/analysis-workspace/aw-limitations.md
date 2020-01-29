@@ -1,5 +1,5 @@
 ---
-description: null
+description: List of known limitations in Adobe Analysis Workspace and its related components
 title: Known limitations in Analysis Workspace
 ---
 

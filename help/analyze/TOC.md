@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 ---
 
@@ -90,8 +90,15 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
+  + [Frequently asked questions](analysis-workspace/faq.md)
+  + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+  + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
+  + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+  + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
+  + [Attribution IQ](analysis-workspace/attribution-iq.md)
+  + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
-    + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
+    + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)
     + Anomaly Detection {#anomaly-detection}
       + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
       + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -106,14 +113,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-  + [Frequently asked questions](analysis-workspace/faq.md)
-  + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-  + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
-  + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-  + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
-  + [Attribution IQ](analysis-workspace/attribution-iq.md)
-  + [Segment IQ](analysis-workspace/segment-iq.md)
-  + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)
@@ -229,7 +228,20 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Troubleshooting and best practices for Report Builder](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
   + [Activity Map overview](activity-map/activity-map.md)
+  + Get started {#getting-started}
+    + Get started for admins {#get-started-admins}
+      + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+      + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+    + Get started for users {#get-started-users}
+      + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+      + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
   + [Robust link tracking](activity-map/lnk-tracking-overview.md)
+  + Link tracking {#link-tracking}
+    + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+    + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+    + [Differentiate links that reference the same Link ID and region](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+    + [Stop link tracking](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+    + [Use the s.tl() function](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
   + [Standard Mode vs. Live Mode](activity-map/activitymap-standard-live.md)
   + [Links report](activity-map/activitymap-links-report.md)
   + [Page details](activity-map/activitymap-page-flow.md)
@@ -241,20 +253,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Export to CSV file](activity-map/activitymap-csv.md)
   + [Supported systems and requirements](activity-map/activitymap-sysreqs.md)
   + [Activity Map FAQ](activity-map/activitymap-faq.md)
-  + Get started {#getting-started}
-    + Get started for admins {#get-started-admins}
-      + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-      + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-    + Get started for users {#get-started-users}
-      + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-      + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-  + Link tracking {#link-tracking}
-    + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-    + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-    + [Differentiate links that reference the same Link ID and region](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-    + [Start link tracking](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-    + [Stop link tracking](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-    + [Use the s.tl() function](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)

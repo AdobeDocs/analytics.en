@@ -7,16 +7,19 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 
 # Activity Map overview
 
+>[!IMPORTANT]
+>On January 16, 2020, Adobe Analytics will begin moving to a new domain - https://experience.adobe.com/analytics. This change may cause Activity Map to stop working for some customers in specific cases. As you know, Activity Map is injected into the customer page in an iframe (one iframe for the Activity Map toolbar and one iframe for the Activity Map Bottom Panel). You may have set a Content Security Policy directive on your web page for "frame-src" that does not include ".adobe.com". In this case, Activity Map will stop working on such a web page.
+
 Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
 
 Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.
 
-**Getting started for admins**
+**Getting started for Admins**
 
 * [Enable Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Sample Implementation Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Getting started for users**
+**Getting started for Users**
 
 * [Install Activity Map browser plug-ins](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Launch Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)

@@ -1,38 +1,42 @@
 ---
-description: Writes a value to a cookie.
-keywords: Analytics Implementation
-subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: Developer and implementation
-uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+description: Writes a value for a cookie.
 ---
 
 # Util.cookieWrite
 
-Writes a value to a cookie.
+Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieWrite` method to set a value to a cookie. You can use the `Util.cookieRead` method to retrieve values set using `Util.cookieWrite`.
 
- **Syntax:**
+## Set cookies in Adobe Experience Platform Launch
 
-```
-s.Util.cookieWrite(key, value [,expire])
-```
+Launch does not provide the ability to set cookies in the interface. Use the custom code editor, following AppMeasurement syntax.
 
-**Parameters:** 
+## s.Util.cookieWrite() in AppMeasurement and Launch custom code editor
 
-|  Parameter  | Description  |
-|---|---|
-|  key  | (required) key to write value for in cookies.  |
-|  value  | (optional) value to write to cookies.  |
-|  expire  | (optional) Date object containing the expiration date for the cookie. Default is to use a session cookie.  |
-
-**Returns:**
-
-**Example:**
+Call the `s.Util.cookieWrite()` method to set a cookie to a desired value.
 
 ```js
-//set a cookie with an expiration 6 months from now 
-var date = new Date(); 
-date.setMonth(date.getMonth() + 6); 
-var success = s.Util.cookieWrite("my_cookie", "my_value", date);
+s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
+An optional third argument is available that determines when the cookie expires. Cookies set using `s.Util.cookieWrite()` expire at the end of the browser session by default.
+
+```js
+// Set a cookie with an expiration 6 months from now
+var cookieDate = new Date();
+cookieDate.setMonth(cookieDate.getMonth() + 6);
+s.Util.cookieWrite("example_cookie","Example 6-month cookie",cookieDate);
+```
+
+## Examples
+
+You can instantiate a variable upon success of writing a cookie. This variable is a boolean.
+
+```js
+var success = s.Util.cookieWrite("example_cookie","Example cookie value");
+if (success) {
+  console.log("Cookie written successfully");
+} else {
+  console.log("Cookie write failed");
+}
+```

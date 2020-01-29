@@ -1,47 +1,31 @@
 ---
-description: Page variables directly populate a report, such as pageName, List Props, List Variables, and so on.
-keywords: Analytics Implementation
-subtopic: Variables
-title: Page variables
-topic:
-uuid:
+title: visitorID
+description: Use a custom visitor ID.
 ---
 
 # visitorID
 
-Visitors can be identified by the  variable or by IP address/User Agent.
+Adobe uses several different methods to identify visitors on your site. The `visitorID` variable overrides all other methods of visitor identification.
 
+> [!IMPORTANT] Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) instead.
 
-<!-- 
+## Visitor ID in Adobe Experience Platform Launch
 
-visitorID.xml
+[!UICONTROL Visitor ID] is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
- -->
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Visitor ID] field.
 
-The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain a hyphen.
+Assign this field to the data element containing your custom visitor ID. Do not set this field to a static value.
 
-If you explicitly set a custom ID, it will always be used before the other ID methods.
+## s.visitorID in AppMeasurement and Launch custom code editor
 
-This is the order of use: s.visitorID > s_vi > s_fid > IP/UA.
+The `s.visitorID` variable is a string that contains a custom unique identifier for the visitor. Valid values include alpha-numeric characters up to 100 bytes. Avoid using dashes, spaces, underscores, or symbols in this variable.
 
-|  ** Max Size** | ** Debugger Parameter** | ** Reports Populated** | ** Default Value** |
-|---|---|---|---|
-|  100 bytes  | vid  | n/a  | ""  |
-
-**Syntax and Possible Values** {#section_5F768C7AE6824557997E92B295C09280}
-
-```js
-s.visitorID="visitor_id"
-```
-
-> [!NOTE] The *`visitorID`* variable should not contain a hyphen.
-
-**Examples** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
+> [!WARNING] If you set the `visitorID` variable partway through a visit, data results in two separate unique visitors.
 
 ```js
-s.visitorID="abc123"
+s.visitorID = "abc123";
 ```
-
-**Configuration Settings** {#section_582B376FE55C4BCA8F978E0F62B5DB54}
-
-None 

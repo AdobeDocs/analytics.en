@@ -1,24 +1,28 @@
 ---
-description: Learn about the purchaseID variable, which helps prevent duplicate purchases from appearing in Adobe Analytics.
-keywords: duplicate,purchase,purchaseid,s.purchaseid
-subtopic: Variables
 title: purchaseID
-topic:
-uuid:
+description: Deduplicate hits based on a unique purchase identifier.
 ---
 
 # purchaseID
 
-The `purchaseID` variable is used to keep an order from being counted multiple times in reporting. Whenever the purchase event is used on your site, Adobe recommends using the `purchaseID` variable.
+The `purchaseID` variable helps prevent hits containing the same purchase from inflating reports. For example, if a visitor reaches your purchase confirmation page, you typically send data around the revenue generated from the transaction to Adobe. If the user refreshes this page multiple times or bookmarks the page to visit later, those hits can inflate reports. The `purchaseID` variable de-duplicates metrics when more than one hit has the same purchase ID.
 
-When a visitor purchases an item from your site, `purchaseID` is typically populated on the "Thank You" or "Order Confirmation" page. Set the `purchaseID` variable at the same time a purchase event is fired. When `purchaseID` is defined to a unique value, conversion variable values only count for hit with that unique purchase ID. Defining the `purchaseID` is valuable because visitors commonly bookmark a purchase confirmation page for their own purposes. If your implementation does not use `purchaseID`, conversion data (such as revenue) can easily inflate by visitors refreshing pages.
+When Adobe recognizes a hit as a duplicate purchase, all conversion data (such as eVars and events) do not show in reporting. In data feeds, the `duplicate_purchase` column is set to `1`.
 
-In addition to purchase data, all conversion variables and events are not counted multiple times for hits with the same purchase ID.
+Purchase ID's apply to all visitors and do not expire. If one visitor sets a given purchase ID, then a different visitor sets that same purchase ID a year later, the second purchase is de-duplicated.
 
-## Syntax
+## Purchase ID in Adobe Experience Platform Launch
 
-The `purchaseID` variable can hold any alpha-numeric value, up to a maximum of 20 bytes. If you set a purchase ID longer than 20 bytes, the value is truncated.
+There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.purchaseID in AppMeasurement and Launch custom code editor
+
+The `s.purchaseID` variable is a string that contains a unique identifier to a purchase. It is set on the same hit as a purchase event. Only use alpha-numeric characters to populate this variable.
+
+This variable can store a maximum of 20 bytes; values longer than 20 bytes are truncated. If this truncated value matches subsequent truncated values, those subsequent hits are de-duplicated.
 
 ```js
-s.purchaseID = "uniqueid";
+s.purchaseID = "ABC123";
 ```
+
+> [!NOTE] Do not use a randomization function to generate a purchase ID. Adobe recommends using a [data layer](../../prepare/data-layer.md) to store a given purchase ID.

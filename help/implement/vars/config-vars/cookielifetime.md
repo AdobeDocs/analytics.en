@@ -21,7 +21,7 @@ Cookie Lifetime is a dropdown under the [!UICONTROL Cookies] accordion when conf
 This dropdown contains the following values:
 
 * **Default**: Cookie expires after 2 years.
-* **None**:
+* **None**: AppMeasurement does not set cookies.
 * **Session**: Cookie expires at the end of the visitor's session.
 * **Seconds**: Cookie expires after the specified number of seconds have elapsed. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
 
@@ -30,7 +30,7 @@ This dropdown contains the following values:
 The `s.cookieLifetime` variable is a string that determines the expiration date of cookies set by AppMeasurement.
 
 * If set to `SESSION`, cookies set by AppMeasurement expire after the browser session completes.
-* If set to `NONE`,
+* If set to `NONE`, AppMeasurement does not attempt to set cookies.
 * If set to an integer string, cookies set by AppMeasurement expire after the specified number of seconds have elapsed.
 
 ```js

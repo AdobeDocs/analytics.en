@@ -32,8 +32,7 @@ A typical `AppMeasurement.js` file. Make sure that configuration variables are s
 
 ```js
 // Initialize AppMeasurement
-var s_account = "examplersid";
-var s = s_gi(s_account);
+var s = s_gi("examplersid");
 
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/;
 s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE");
@@ -91,22 +90,14 @@ Make sure that you have also included a reference to `AppMeasurement.js` and `Vi
 
 The following plug-ins are tested and verified as compatible:
 
-* [s.abort flag](/help/implement/js-implementation/plugins/abort.md)
-* [appendList](/help/implement/js-implementation/plugins/appendlist.md)
-* [doPlugins function](/help/implement/js-implementation/plugins/function-doplugins.md)
-* [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
-* [getDaysSinceLastVisit](/help/implement/js-implementation/plugins/getdayssincelastvisit.md)
-* [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
-* [getNewRepeat](/help/implement/js-implementation/plugins/getnewrepeat.md)
-* [getPageVisibility](/help/implement/js-implementation/plugins/pagevisibility.md)
-* [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md)
-* [getPreviousValue](/help/implement/js-implementation/plugins/getpreviousvalue.md)
-* [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md)
-* [getTimeParting](/help/implement/js-implementation/plugins/gettimeparting.md)
-* [getValOnce](/help/implement/js-implementation/plugins/getvalonce.md)
-* [getVisitNum](/help/implement/js-implementation/plugins/getvisitnum.md)
-* [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)
-* [hitGovernor](/help/implement/js-implementation/plugins/hitgovernor.md)
-* [Internal Traffic](/help/implement/js-implementation/plugins/internal-traffic.md)
-* [performanceTiming](/help/implement/js-implementation/plugins/performancetiming.md)
-* [trackTNT](/help/implement/js-implementation/plugins/tracktnt.md)
+* [appendList](../vars/plugins/appendlist.md)
+* [doPlugins function](../vars/functions/doplugins.md)
+* [getLoadTime](../vars/plugins/getloadtime.md)
+* [getPageVisibility](../vars/plugins/pagevisibility.md)
+* [getPercentPageViewed](../vars/plugins/getpercentpageviewed.md)
+* [getPreviousValue](../vars/plugins/getpreviousvalue.md)
+* [getTimeParting](../vars/plugins/gettimeparting.md)
+* [getValOnce](../vars/plugins/getvalonce.md)
+* [hitGovernor](../vars/plugins/hitgovernor.md)
+* [intCheck](../vars/plugins/intcheck.md)
+* [performanceTiming](../vars/plugins/performancetiming.md)

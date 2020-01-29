@@ -20,7 +20,7 @@ To activate the integration, you must complete the Lyris integration wizard with
 
    ![](assets/data_connectors.png)
 
-1. Under **[!UICONTROL Add Integration]**, drag and drop the Lyris plugin into the Adobe Experience Cloud. This opens up the Lyris Data Connector Integration.
+1. Under **[!UICONTROL Add Integration]**, under Lyris HQ, click **[!UICONTROL Activate]**.
 
    ![](assets/add_integration.png)
 

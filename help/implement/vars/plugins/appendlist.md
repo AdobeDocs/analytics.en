@@ -66,17 +66,17 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
   * If the cc argument equals true, then a case-sensitive check will be made between the new value(s) you want to add (i.e. the vta argument) and each value contained in the lv argument
   * If the cc argument is not set (or is not set equal to true), then a case-insensitive check will be made between the new value(s) you want to add (i.e. the vta argument) and each value contained in the lv argument
 
-##Returns
+## Returns
 
 The apl plugin returns the value of the lv argument plus those values specified in the vta argument that weren't previously contained in the lv argument
  
-##Cookies
+## Cookies
 
 The apl plugin does not set any cookies
 
-##Example Calls
+## Example Calls
 
-###Example #1
+### Example #1
 If…
 ```js
 s.events = "event22,event24";
@@ -90,7 +90,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-###Example #2
+### Example #2
 If…
 ```js
 s.events = "event22,event23";
@@ -105,7 +105,7 @@ s.events = "event22,event23";
 ```
 In this example, the apl call made no changes to s.events since s.events already contained "event23"
 
-###Example #3
+### Example #3
 If…
 ```js
 s.events = ""; //blank value
@@ -119,7 +119,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event23";
 ```
 
-###Example #4
+### Example #4
 If…
 ```js
 s.prop4 = "hello|people";
@@ -138,7 +138,7 @@ s.eVar5 = "hello|people|today";
 ```
 Keep in mind that the plugin only returns a value; it does not necessarily "reset" the variable passed in through the lv argument.
 
-###Example #5
+### Example #5
 If…
 ```js
 s.prop4 = "hello|people";
@@ -153,7 +153,7 @@ s.prop4 = "hello|people,today";
 ```
 Be sure to keep the delimiter consistent between what's in the lv argument's value and what's in the d1/d2 arguments
 
-###Example #6
+### Example #6
 If…
 ```js
 s.events = "event22,event23";
@@ -168,7 +168,7 @@ s.events = "event22,event23,EVentT23";
 ```
 Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag. 
 
-###Example #7
+### Example #7
 If…
 ```js
 s.events = "event22,event23";
@@ -183,7 +183,7 @@ s.events = "event22,event23,event24,event25");
 ```
 The plugin will not add "event23" to s.events because it already exists in s.events.  However, it will add both event24 and event25 to s.events because neither were previously contained in s.events.
 
-###Example #8
+### Example #8
 If…
 ```js
 s.linkTrackVars = "events,eVar1";
@@ -198,7 +198,7 @@ s.linkTrackVars = "events,eVar1,campaign";
 ```
 The last three arguments (i.e. ",", ",", false) at the end of this apl call are not necessary but are also not "hurting anything" by being set since they match the default argument values.
 
-###Example #9
+### Example #9
 If…
 ```js
 s.events = "event22,event24";
@@ -213,7 +213,7 @@ s.events = "event22,event24";
 ```
 Running the plugin all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the lv argument.
 
-###Example #10
+### Example #10
 If…
 ```js
 s.list2 = "casesensitivevalue|casesensitiveValue"
@@ -246,27 +246,27 @@ s.inList=function(lv,vtc,d,cc)
 [objectname].inList=function(lv,vtc,d,cc)
 ```
 
-##Version History
+## Version History
 
-###3.2 (2019-09-25)
+### 3.2 (2019-09-25)
 * Fixed compatibility issues with apl calls that used older versions of the plugin
 * Removed console warnings to reduce size - use documentation for troubleshooting
 * Added inList 2.1
 
-###3.1 (2018-04-22)
+### 3.1 (2018-04-22)
 * d2 argument now defaults to the value of the d1 argument when not set
 
-###3.0 (2018-04-16)
+### 3.0 (2018-04-16)
 * Complete reanalysis/rewrite of plugin
 * Added advanced error checking, updated documentation with required vs. optional arguments
 * The value to add (vta) argument now accepts multiple values at one time
 * Added the d2 argument to format the return value
 * Changed the cc argument to a boolean
 
-###2.5 (2016-02-18)
+### 2.5 (2016-02-18)
 * Now uses the inList plugin utility for its comparison processing
 
-###2.0 (2016-01-26)
+### 2.0 (2016-01-26)
 * d (Delimiter) argument now optional (defaults to a comma)
 * u (Case-sensitivity flag) argument now optional (defaults to case-insensitive) 
 * Regardless of the u (Case-sensivity flag) argument setting, the apl plugin will no longer append a value to a list if the value already exists in the list (see the "Why shouldn't I use this plugin?" section above)

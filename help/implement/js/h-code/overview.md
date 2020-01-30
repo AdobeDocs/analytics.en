@@ -13,7 +13,7 @@ You must have access to your hosting servers to successfully implement a page wi
 
 1. **Update core JS file variables**: Edit the `s_code.js` file and make sure the following variables are updated:
    * `s_account` contains the report suite ID that you want to send data to. See
-   * `s.trackingServer` contains the location cookies are stored. See [trackingServer](../../vars/config-vars/../page-vars/trackingserver.md).
+   * `s.trackingServer` contains the location cookies are stored. See [trackingServer](../../vars/config-vars/trackingserver.md).
 2. **Host the `s_code.js` file on your site**: This file typically resides with other scripts on your web server.
 3. **Reference `s_code.js` on all pages**: Make sure all individual pages call the core JavaScript file, and do so within the HTML `<body>` tag (not the `<head>` tag).
    > [!TIP] H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.

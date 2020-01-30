@@ -51,7 +51,7 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe Consulting with troubleshooting any potential implementation issues.
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe Support with troubleshooting any potential implementation issues.
 * Run the apl plugin as needed within the doPlugins function or anywhere else (see example calls below)
 
 ## Arguments to Pass In
@@ -116,8 +116,8 @@ s.events = "event23";
 ### Example #4
 If...
 ```javascript
-```
 s.prop4 = "hello|people";
+```
 ...and the following code runs...
 ```javascript
 s.eVar5 = s.apl(s.prop4, "today", "|");
@@ -149,9 +149,11 @@ Be sure to keep the delimiter consistent between what's in the lv argument's val
 
 ### Example #6
 If...
+```javascript
 s.events = "event22,event23";
 ```
 ...and the following code runs...
+```javascript
 s.events = s.apl(s.events,"EVenT23", ",", ",", true);
 ```
 ... the final value of s.events will be:

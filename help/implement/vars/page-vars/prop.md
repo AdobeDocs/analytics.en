@@ -9,7 +9,7 @@ Props are custom variables that you can use however you'd like.
 
 > [!TIP] Adobe recommends using eVars in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props. See [eVars](evar.md) for a feature comparison between these two custom variable types.
 
-If your organization uses props, make sure you record their use and logic in your [solution design document](../../../prepare/solution-design.md).
+If your organization uses props, make sure you record their use and logic in your [solution design document](../../prepare/solution-design.md).
 
 ## Props in Adobe Experience Platform Launch
 

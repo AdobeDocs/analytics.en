@@ -1,61 +1,130 @@
 ---
 title: getPreviousValue
-description: Get the value of a variable from the previous web page.
+description: Get the last value passed into a variable
 ---
 
-# getPreviousValue
+# Adobe Experience Cloud Plugin – getPreviousValue
 
-The `getPreviousValue` plug-in obtains a variable value from a previous hit. It stores variable values in cookies so they are preserved between hits. This plug-in is valuable if you want to use previous values as direct dimensions, instead of using breakdowns, segmentation, or attribution to determine previous values.
+## Purpose of This Plugin
 
-You define the cookie names this plug-in uses. They expire after exactly 30 minutes and refresh on each page load.
+### What does this plugin do?
+The getPreviousValue plugin allows you to set an Analytics variable equal to the value of a variable that was either set on a previous page or contained in a previous Analytics web beacon
 
-## Install the getPreviousValue plug-in using Adobe Experience Platform Launch
+### Why shouldn't I use this plugin?
+If you use a plugin that already provides previous-page-based information (e.g. getPercentPageViewed, etc.) you will not need to use this plugin.
 
-You can install the `s.getPreviousValue()` plug-in when configuring the Analytics extension.
+## Prerequisites
+You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run the getPreviousValue plugin
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+## How to Deploy
 
-Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `s.getPreviousValue()` function in the custom code editor of rules to assign variable values.
+You may use one of the following three methods to deploy the getGeoCoordinates plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
 
-## Install the getPreviousValue plug-in using AppMeasurement
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy+ Paste the code (see below) to anywhere within the Plugins section of the AppMeasurement file
+```javascript
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: getPreviousValue v2.0 (Requires AppMeasurement) */
+s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
+/******************************************** END CODE TO DEPLOY ********************************************/
+```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-You can install the `s.getPreviousValue()` plug-in by editing `AppMeasurement.js`:
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
 
-1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)).
-3. Save the JS file and upload the new version to your web server.
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
 
-Once installed, you can use the `s.getPreviousValue()` method to assign variable values.
+### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
 
-## Plug-in code
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+* Install (and publish) the "Common Analytics Plugins" extension
+* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
+	* Extension: Common Analytics Plugins
+	* Action Type: Initialize getGeoCoordinates
+* Save and publish the changes to the rule
 
-> [!NOTE] This plug-in requires the `split` plug-in. Make sure you include dependent plug-ins to avoid JavaScript errors.
+## How to Run the Plugin
+When calling the getPreviousValue plugin (via JavaScript), be sure to pass in the following arguments:
+* **v** (string, required): The Analytics variable that has the value that you want to pass over to the next image request   Most cases use s.pageName (for retrieving the previous pageName value).
+* **c** (string, optional): The name of the cookie that will store the value to be passed over to the next image request.  If the c argument is not set, then it will default to the name of "s_gpv"
 
-```js
-// getPreviousValue v1.1 (requires split plug-in)
-s.getPreviousValue = function(v,c,el) {var s=this,t=new Date,i,j,r='';t.setTime(t.getTime()+1800000);if(el){if(s.events){i=s.split(el,',');j=s.split(s.events,',');for(x in i){for(y in j){if(i[x]==j[y]){if(s.c_r(c)) r=s.c_r(c);v?s.c_w(c,v,t):s.c_w(c,'no value',t);return r}}}}}else{if(s.c_r(c)) r=s.c_r(c);v?s.c_w(c,v,t):s.c_w(c,'no value',t);return r}};
+## Returns
+* The getPreviousValue plugin always returns the last value that was passed into the variable specified in the v argument.   This means that if the variable was not set to a value during the hit just before the current one but instead, for instance, was last set five hits ago, a call to the plugin will still return the value passed into the variable give hits ago and will continue to do so until the variable's value changes.
+* The plugin will return nothing on the first page of a visit (i.e. when a new visitor comes to the site OR more than 30 minutes has passed since a visitor has visited the site)
+
+## Cookies
+The getPreviousValue plugin creates a first-party cookie, the name of which is passed in via the c argument.  The contents of the cookie contain the previous value that you want to store/retrieve.   The cookie expires after 30 minutes of inactivity (i.e. at the end of the visit).
+
+## Example Calls
+
+### Example #1
+The following code...
+```javascript
+s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+```
+* First sets s.prop7 equal to the value passed into s.pageName in the previous image request (i.e. the value stored in the "gpv_Page" cookie)
+* The code will then reset the "gpv_Page" cookie, making it equal to the current value of s.pageName
+* If s.pageName is not set at the time this code runs, then the code will reset the expiration for the cookie's current value
+
+### Example #2
+The following code sets s.prop7 equal to the last value passed into s.pageName, but only if event1 is also contained within s.events, as determined via the inList plugin, at the time the call takes place.
+```javascript
+if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-## Use the getPreviousValue plug-in with AppMeasurement and Launch custom code editor
-
-The `s.getPreviousValue()` method returns a string containing a value stored in a cookie. It has three arguments:
-
-* **Variable name** (required): The source variable you want to retrieve values from.
-* **Cookie name** (required): A string that represents the cookie name used to store and retrieve values. You can use any cookie name you want, however Adobe recommends including the prefix `gpv_` to easily identify the purpose of this cookie.
-* **Trigger event** (optional): A string that represents the event(s) that must be set on the page view to trigger the retrieval of the previous value. If omitted, this plug-in always attempts to get the previous value.
-
-> [!IMPORTANT] Define the source variable before referencing this plug-in. If you set the source variable after calling this plug-in, values are not correctly stored in the cookie. Adobe recommends using this plug-in within the `doPlugins` function so source variable values are guaranteed to be set.
-
-If the cookie is not yet set (for example, during the first hit of the visit), The string `"no value"` is returned.
-
-```js
-// Use eVar1 to get the pageName from a previous hit
-s.eVar1 = s.getPreviousValue(s.pageName,"gpv_pn");
-
-// Use eVar1 to get eVar2 from a previous hit, but only if event1 exists
-s.events = "event1";
-s.eVar1 = s.getPreviousValue(s.eVar2,"gpv_v2","event1");
+### Example #3
+The following code sets s.prop7 equal to the last value passed into s.pageName but only if s.pageName is currently set on the page at the same time.
+```javascript
+if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
+
+### Example #4
+The following code sets s.eVar10 equal to the value passed into s.eVar1 in the previous image request.   The previous eVar1 value would have been contained in the "s_gpv" cookie.  The code will then set the "s_gpv" cookie equal to the current value of s.eVar1.
+```javascript
+s.eVar10 = s.getPreviousValue(s.eVar1)
+```
+
+## Unlikely Quirks
+If the variable associated with the v argument is set to a new value and the getPreviousValue plugin runs BUT an Analytics server call is NOT sent at the same time, the new v argument value will still be considered the "previous value" the next time the plugin runs.
+For example, assume the following code runs on the first page of the visit:
+```javascript
+s.pageName="home"
+s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.t();
+```
+This code would produce a server call where the pageName argument is equal to "home" and the p7 (prop7) argument is not set.  However, the call to s.getPreviousValue would store the value of s.pageName (i.e. "home") in the cookie specified in the call (i.e. the "gpv_Page" cookie).
+Now, assume that immediately afterwards, on the same page, the following code runs (for whatever reason):
+```javascript
+s.pageName="happy value"
+s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+```
+Since the s.t() function does not run in this code block, another image request will not be created.  However, when the s.getPreviousValue() function code runs this time, s.prop7 will be set equal to the previous value of s.pageName (i.e. "home") and then will store the new value of s.pageName (i.e. "happy value") in the "gpv_Page" cookie.
+Assume the visitor navigates to a different page and the following code runs on this page:
+```javascript
+s.pageName="page 2"
+s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.t();
+```
+When the s.t() call function runs, it will create an image request where s.pageName="page 2" and s.prop7 is equal to "happy value", which was the value of s.pageName when the last call to getPreviousValue took place.   The s.prop7 value of "home" was never contained in any real image request even though "home" was the first value passed into s.pageName.
+
+## s Object Replacement
+When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plugin code from this...
+```javascript
+s.getPreviousValue=function(v,c)
+```
+...to this:
+```javascript
+[objectname].getPreviousValue=function(v,c)
+```
+
+## Version History
+
+### v2.0 (2019-10-07)
+* Point Release (complete logic rewrite)

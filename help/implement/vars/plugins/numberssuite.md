@@ -1,0 +1,118 @@
+---
+title: Numbers Suite
+description: Produce and manipulate numbers to be used in other JavaScript variables
+---
+
+# Adobe Experience Cloud Plugin – Numbers Suite
+
+## Purpose of This Plugin
+
+### What does this plugin do?
+The Numbers Suite a series of JavaScript functions that allow you to...
+* Add a specific number of zeroes to the beginning of a number (if a number is required to have a certain number of digits in it)
+* Generate a random number with a specific number of digits
+* Round a number to the closet hundredth (for currency purposes)
+
+### Why should I use this plugin?
+You should use the Numbers Suite if, for example..
+* You work with JavaScript date objects and need to make sure that you format a date's month and day with two digits instead of just one digit (e.g. "01/09/2020" instead of just "1/9/2020")
+* You deploy 3rd-party tags and need to generate a cache-busting random number
+* You need to capture currency-based values in Adobe Analytics variables but need the values to be rounded to a proper amount
+
+## Prerequisites
+None
+
+## How to Deploy
+
+You may use one of the following three methods to deploy the Numbers Suite.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
+
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+```javascript
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: zeroPad v1.0 (No Prerequisites) */
+function zeroPad(num,nod){num=parseInt(num);nod=parseInt(nod);if(isNaN(num)||isNaN(nod))return"";var c=nod-num.toString().length+ 1;return Array(+(0<c&&c)).join("0")+num};
+
+/* Adobe Consulting Plugin: randomNumber v2.0 (zeroPad optional)*/
+function randomNumber(nod){nod="number"===typeof nod?17>Math.abs(nod)?Math.round(Math.abs(nod)):17:10;for(var a="1",c=0;c<nod;c++) a+="0";a=Number(a);a=Math.floor(Math.random().toFixed(nod)*a)+"";a.length!==nod&&"undefined"!==typeof zeroPad&&(a=zeroPad(a,nod)); return a};
+
+/* Adobe Consulting Plugin: twoDecimals v1.0 (No Prerequisites)*/
+function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Number(Number(v).toFixed(2))};
+/******************************************** END CODE TO DEPLOY ********************************************/
+```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
+
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
+
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
+
+### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
+
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+* Install (and publish) the "Common Analytics Plugins" extension
+* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
+	* Extension: Common Analytics Plugins
+	* Action Type: Initialize Numbers Suite
+* Save and publish the changes to the rule
+
+## How to Run the Plugin
+When calling any of the Numbers Suite functions (via JavaScript), be sure to pass in the following arguments:
+
+**For the zeroPad function:**
+* **num** (required, integer): A whole number to pad (i.e. add zeroes to the beginning per the nod argument's value).  The code will round down the value of this argument if it contains decimals
+* **nod** (required, integer): The number of digits to be contained in the final return value.  If the number to pad has less digits than the number of digits to pad to, then the plugin will add enough zeroes to the beginning of the "num" argument value to ensure it has the appropriate number of digits
+
+**For the randomNumber function:**
+* **nod** (optional, integer): the number of digits in the random number that you want to generate.  Max value is 17 digits, defaults to 10 digits
+
+**For the twoDecimals function:**
+* **val** (required, number): a number (represented by either a string or number object) that you want to round to the nearest hundredth
+
+## Returns
+* The **zeroPad** function returns a string equal to the "num" argument but with a specific number of zeroes added to the beginning of its value, which will ensure the return value will have the correct number of digits per the "nod" argument
+* The **randomNumber** function returns a string equal to a random number with the number of digits specified in the "nod" argument
+* The **twoDecimals** function returns a number object (e.g. float, integer, etc.) rounded to the closest hundredth
+
+## Cookies
+The Numbers Suite functions do not create or use any cookies.
+
+## Example Calls
+
+### zeroPad examples
+```javascript
+s.eVar25 = zeroPad(25.5562, 5) 	//sets eVar25 equal to "00025"
+
+s.prop1 = zeroPad(25, 1) 		//sets prop1 equal to "25"
+
+s.prop1 = zeroPad(232425235,23) 	//sets prop1 equal to "00000000000000232425235"
+```
+
+### randomNumber examples
+```javascript
+s.eVar65 = randomNumber(15)	//sets eVar65 equal to "721759731750342" or some other random 15-digit number
+
+randomNumber() 			//returns a random 10-digit number but is useless since this isn't used in an expression
+
+var j = randomNumber(35) 	//sets a variable named j equal to "15476068651810060" or another random 17-digit number
+```
+
+### twoDecimals examples
+```javascript
+s.events = "event10=" + twoDecimals("85.4827128694") 	//sets s.events="event10=85.48"
+
+var fivehundredthirtytwo = twoDecimals(532.000000001) //sets the variable fivehundredthirtytwo equal to 532
+
+s.eVar65 = twoDecimals("672132.9699736457") 		//sets s.eVar65 equal to 672132.97
+```
+
+## Version History
+
+### 1.0 (2019-05-25)
+* Initial Release (zeroPad v1.0 was provided previously in a separate document)

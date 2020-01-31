@@ -1,87 +1,156 @@
 ---
 title: getTimeParting
-description: Capture details of the time of visitor actions.
+description: Measure the time when a specific action takes place
 ---
 
-# getTimeParting
+# Adobe Experience Cloud Plugin – getTimeParting
 
-The `getTimeParting` plug-in allows you to capture the details of the time when any measurable activity takes place on your site. This plug-in is valuable when you want to breakdown metrics by any repeatable division of time over a given date range. For example, you can compare conversion rates between two different days of the week, such as all Sundays vs. all Thursdays. You can also compare periods of the day, such as all mornings vs. all evenings.
+## Purpose of This Plugin
 
-Analysis Workspace provides similar, out-of-the-box dimensions that are formatted slightly differently than this plug-in. See [time parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in the Analyze user guide for more information. Some organizations find that Analysis Workspace's out-of-the-box dimensions are sufficient.
+### What does this plugin do?
+The getTimeParting plugin provides a complete analytics solution that allows a client to capture the details of the time when any measurable activity takes place on its site.
 
-> [IMPORTANT] Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
+### Why should I use this plugin?
+You should use the getTimeParting plugin if you wish to breakdown your metrics by any repeatable division of time over a given date range.  For example, the getTimeParting plugin will allow you to compare conversion rates between two different days of the week (e.g. all Sundays vs. all Thursdays), two different periods of the day (e.g. all mornings vs. all evenings), or even two subsequent minutes (e.g. all 10:00 AM instances vs. all 10:01 AM instances) for the date range you specify in the report.
 
-## Install the getTimeParting plug-in using Adobe Experience Platform Launch
+Analysis Workspace provides similar, out-of-the-box dimensions that are formatted in a slightly different manner than what this plugin provides (see here), so Adobe Consulting recommends you read through the remainder of this document (and the aforementioned link to the help section) to determine whether this plugin provides data in a manner that's more suited to your needs.
 
-You can install the `getTimeParting()` plug-in when configuring the Analytics extension.
+### Why shouldn't I use this plugin?
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+If you don't care about breaking down your metrics by a repeatable division of time over a specific date range, then you will not need to use the getTimeParting plugin.  Also, if you find the Analysis Workspace Time-Parting Dimensions sufficient, then you will not need to implement this plugin.
 
-Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `getTimeParting()` function in the custom code editor of rules to assign variable values.
+**Please note**: the solution that version 4.0+ of the getTimeParting plugin provides is much different than what earlier versions of the plugin have provided.  If you choose to upgrade from a version before 4.0, you should implement the solution "from scratch".  In other words, you should setup a completely brand new eVar – one eVar – to hold the data provided by the plugin and read through this documentation carefully before implementing the solution.
 
-## Install the getTimeParting plug-in using AppMeasurement
+**Also**: This version of the plugin is not **fully** compatible with Microsoft Internet Explorer browsers, although the plugin is fully compatible with Microsoft Edge browsers.   Visitors that use Internet Explorer will be able to provide the time but only in their local time zone rather than converted to the time zone you specify.  See the examples below for a solution that will not include data from Internet Explorer browsers but will still account for their presence.
 
-You can install the `getTimeParting()` plug-in by editing `AppMeasurement.js`:
+## Prerequisites
+None
 
-1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere you'd like.
-3. Save the JS file and upload the new version to your web server.
+## How to Deploy
 
-Once installed, you can use the `getTimeParting()` function to assign variable values.
+You may use one of the following three methods to deploy the getTimeParting plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
 
-## Plug-in code
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy+ Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+```javascript
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: getTimeParting v6.2 (No Prerequisites Needed) */
+var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
+/******************************************** END CODE TO DEPLOY ********************************************/
 
-```js
-// getTimeParting v4.0
-function getTimeParting(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])}
 ```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-## Use the getTimeParting plug-in with AppMeasurement and Launch custom code editor
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
 
-The `getTimeParting()` function returns a multi-value string, delimited by pipes (`|`). Each value contains a date dimension:
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
 
+### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
+
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+* Install (and publish) the "Common Analytics Plugins" extension
+* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
+	* Extension: Common Analytics Plugins
+	* Action Type: Initialize getTimeParting
+* Save and publish the changes to the rule
+
+## How to Run the Plugin
+When calling the getTimeParting plugin (via JavaScript), be sure to pass in the following arguments:
+
+**t**: (OPTIONAL but recommended, string) The name of the time zone to convert the visitor's local time to.  Defaults to “Etc/GMT”, or UTC/GMT time.  Visit https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the complete list of values to enter.
+
+Common values include:
+
+* "America/New_York" for Eastern Time
+* "America/Chicago" for Central Time
+* "America/Denver" for Mountain Time
+* "America/Los_Angeles" for Pacific Time
+
+## Returns
+The getTimeParting plugin returns a string containing the following:
 * The current year
 * The current month
-* The current day of the month
-* The current day of the week
-* The current time (AM/PM)
+* The current date (i.e. day of the month)
+* The current day (i.e. day of the week)
+* The current time (non-military time)
+Each of the above items is delimited by a pipe ("|") character.
 
-```js
-// Assigns eVar1 a value in the following format: "year=2020 | month=January | date=1 | day=Wednesday | time=12:00 AM"
-s.eVar1 = getTimeParting();
+## Cookies
+The getTimeParting plugin does not create or use any cookies
+
+## Example Calls
+
+### Examples for Specific Time Zones
+Use the following sample code if the client is in Paris, France:
+```javascript
+s.eVarX = getTimeParting("Europe/Paris");
+```
+If the client is in San Jose, California:
+```javascript
+s.eVarX = getTimeParting("America/Los_Angeles");
+```
+If the client is in the African country of Ghana:
+```javascript
+s.eVarX = getTimeParting();
+```
+Ghana is within the UTC/GMT time zone.  This example shows that no plugin argument will be necessary under such circumstances.
+
+### Accounting for Internet Explorer Browsers
+Use the following sample if you want to exclude time parting data from Internet Explorer Visitors (since the value returned from IE browsers can be in only the visitor's local time)
+```javascript
+if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+else s.eVarX = "Internet Explorer Visitors";
 ```
 
-The plug-in takes one optional (but recommended) argument - a string that contains the name of the desired time zone. See [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) on Wikipedia for the full list of valid string values for this argument. If this argument is omitted, UTC time is returned. Common values for the United States include:
+### Results from calls
+If a visitor from Denver, Colorado visits a site on August 31, 2020 at 9:15 AM,
 
-* `"America/New_York"` for Eastern Time
-* `"America/Chicago"` for Central Time
-* `"America/Denver"` for Mountain Time
-* `"America/Los_Angeles"` for Pacific Time
-
-You can use this argument for several use cases:
-
-* Use your report suite's time zone to match time-based dimensions in reporting.
-* Use a different time zone for the ability to use time-based dimensions with different time zones.
-* Use the visitor's time zone to see time relative to the visitor.
-
-> [!NOTE] Internet Explorer always uses local time and ignores the time zone argument. You can check to see if `document.documentMode` exists to exclude these visitors. This plug-in is compatible with Microsoft Edge.
-
-```js
-// If your report suite uses Mountain Time, set the timezone offset argument to match it
-s.eVar1 = getTimeParting("America/Denver");
-
-// If your report suite uses Mountain Time but you have analysts in Tokyo that prefer to use their own time zone
-s.eVar1 = getTimeParting("America/Denver");
-s.eVar2 = getTimeParting("Asia/Tokyo");
-
-// Omit browsers that only use the browser's local time
-if (!document.documentMode) s.eVar1 = getTimeParting("America/New_York");
-else s.eVar1 = "Internet Explorer visitors";
-
-// Detect and use the visitor's time zone offset - Internet Explorer uses this behavior by default
-if (!document.documentMode) s.eVar1 = getTimeParting(Intl.DateTimeFormat().resolvedOptions().timeZone);
-else s.eVar1 = getTimeParting();
+Running the following code...
+```javascript
+s.eVar10 = getTimeParting("Europe/Athens");
 ```
+...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+While the following code...
+```javascript
+s.eVar10 = getTimeParting("America/Nome");
+```
+...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+The following code...
+```javascript
+s.eVar10 = getTimeParting("Asia/Calcutta");
+```
+...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+And the following code...
+```javascript
+s.eVar10 = getTimeParting("Australia/Sydney");
+```
+...would set s.eVar10 equal to "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+
+## s Object Replacement
+The getTimeParting plugin does not require AppMeasurement or any other plugins and thus does not need to be attached to the s object (or other AppMeasurement object)
+
+## Version History
+
+### 6.2 (2019-11-05)
+* Small bug fixes
+* Reduced Overall Code Size
+### 6.1 (2018-11-26)
+* Fix for Internet Explorer Browsers.  IE browsers are able return the time, but in only the visitor’s local time.
+### 6.0 (2018-08-14)
+* Complete rewrite to accommodate International Standards (now converts daylight savings and all time zones appropriately)
+### 5.0 (2018-04-17)
+* Point Release (recompiled, smaller code size)
+* Removed the need for the s.tpDST parameter to be set as daylight savings start/end dates will now be detected automatically
+### 4.0 (2016-08-22) - Changes in previous versions not available
+* Version 4.0 provides a completely brand new solution and now includes Year/Month/Date information
+

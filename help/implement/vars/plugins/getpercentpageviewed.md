@@ -3,82 +3,131 @@ title: getPercentPageViewed
 description: Retrieve the percentage of the page the visitor viewed.
 ---
 
-# getPercentPageViewed
+# Adobe Plugin: getPercentPageViewed
 
-The `getPercentPageViewed` plugin measures a visitor's scroll activity through how much of a page the visitor viewed before moving on to another page. This plug-in is especially valuable for sites that have longer pages to see how far and how often visitors scroll. If your site does not have a lot of scrolling, this plug-in is not as applicable to your implementation.
+## Plugin Purpose
 
-## Install the getPercentPageViewed plug-in using Adobe Experience Platform Launch
+### What does this plugin do?
+The getPercentPageViewed plugin measures a visitor's scroll activity to see how much of a page he/she views before moving onto another page.
 
-You can install the `s.getPercentPageViewed()` plug-in when configuring the Analytics extension.
+### Why wouldn't I use this plugin?
+If your web pages are small in height or you do not need to measure how far visitors scroll down on the site, then you will not need to use the getPercentPageViewed plugin.   Also, if you want to measure scroll activity on only exit pages, you will not be able to use this plugin.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+## Prerequisites
+You must have AppMeasurement (i.e. the base Adobe Analytics Code), the p_fo plugin, and the handlePPVevents helper plugin (included in the Code to Deploy section below) to run the getPercentPageViewed plugin
 
-Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `s.getPercentPageViewed()` function in the custom code editor of rules to assign variable values.
+## How to Deploy
+You may use one of the following methods to deploy the getPageName plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
 
-## Install the getPercentPageViewed plug-in using AppMeasurement
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy+ Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+```javascript
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: getPercentPageViewed v4.0 w/handlePPVevents helper function (Requires AppMeasurement and p_fo plugin) */
+s.getPercentPageViewed=function(pid,ch){var s=this,a=s.c_r("s_ppv");a=-1<a.indexOf(",")?a.split(","):[];a[0]=s.unescape(a[0]); pid=pid?pid:s.pageName?s.pageName:document.location.href;s.ppvChange="undefined"===typeof ch||!0==ch?!0:!1;if("undefined"=== typeof s.linkType||"o"!==s.linkType)s.ppvID&&s.ppvID===pid||(s.ppvID=pid,s.c_w("s_ppv",""),s.handlePPVevents()), s.p_fo("s_gppvLoad") &&window.addEventListener&&(window.addEventListener("load",s.handlePPVevents,!1),window.addEventListener("click",s.handlePPVevents, !1),window.addEventListener("scroll",s.handlePPVevents,!1)),s._ppvPreviousPage=a[0]?a[0]:"",s._ppvHighestPercentViewed=a[1]?a[1]:"",s._ppvInitialPercentViewed=a[2]?a[2]:"",s._ppvHighestPixelsSeen=a[3]?a[3]:"",s._ppvFoldsSeen=a[4]?a[4]:"",s._ppvFoldsAvailable=a[5]?a[5]:""};
 
-You can install the `s.getPercentPageViewed()` plug-in by editing `AppMeasurement.js`:
+/* Adobe Consulting Plugin: handlePPVevents helper function (for getPercentPageViewed v4.0 Plugin) */
+s.handlePPVevents=function(){if("undefined"!==typeof s_c_il){for(var c=0,g=s_c_il.length;c<g;c++)if(s_c_il[c]&& (s_c_il[c].getPercentPageViewed||s_c_il[c].getPreviousPageActivity)){var s=s_c_il[c];break}if(s&&s.ppvID){var f=Math.max (Math.max(document.body.scrollHeight,document.documentElement.scrollHeight),Math.max(document.body.offsetHeight, document.documentElement.offsetHeight),Math.max(document.body.clientHeight,document.documentElement.clientHeight)),h= window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;c=(window.pageYOffset|| window.document.documentElement.scrollTop||window.document.body.scrollTop)+h;g=Math.min(Math.round(c/f*100),100);var k=Math.floor(c/h);h=Math.floor(f/h);var d="";if(!s.c_r("s_tp")||s.unescape(s.c_r("s_ppv").split(",")[0])!==s.ppvID||s.p_fo(s.ppvID) ||1==s.ppvChange&&s.c_r("s_tp")&&f!=s.c_r("s_tp")){(s.unescape(s.c_r("s_ppv").split(",")[0])!==s.ppvID||s.p_fo(s.ppvID+"1"))&&s.c_w("s_ips",c);if(s.c_r("s_tp")&&s.unescape(s.c_r("s_ppv").split(",")[0])===s.ppvID){s.c_r("s_tp");d=s.c_r("s_ppv");var e=-1< d.indexOf(",")?d.split(","):[];d=e[0]?e[0]:"";e=e[3]?e[3]:"";var l=s.c_r("s_ips");d=d+","+Math.round(e/f*100)+","+Math.round(l/ f*100)+","+e+","+k}s.c_w("s_tp",f)}else d=s.c_r("s_ppv");var b=d&&-1<d.indexOf(",")?d.split(",",6):[];f=0<b.length?b[0]: escape(s.ppvID);e=1<b.length?parseInt(b[1]):g;l=2<b.length?parseInt(b[2]):g;var m=3<b.length?parseInt(b[3]):c,n=4<b.length? parseInt(b[4]):k;b=5<b.length?parseInt(b[5]):h;0<g&&(d=f+","+(g>e?g:e)+","+l+","+(c>m?c:m)+","+(k>n?k:n)+","+(h>b?h:b)); s.c_w("s_ppv",d)}}};
 
-1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)).
-3. Save the JS file and upload the new version to your web server.
-
-Once installed, you can use the `s.getPercentPageViewed()` method to assign variable values.
-
-## Plug-in code
-
-> [!NOTE] This plug-in requires helper functions. Include the entire code block below, including helper functions, in your implementation.
-
-```js
-// getPercentPageViewed v3.01
-s.getPercentPageViewed=function(pid,ch){var s=this,a=s.c_r("s_ppv");a=-1<a.indexOf(",")?a.split(","):[];a[0]=s.unescape(a[0]);pid=pid?pid:s.pageName?s.pageName:document.location.href;s.ppvChange=ch?ch:!0;if("undefined"===typeof s.linkType||"o"!==s.linkType)s.ppvID&&s.ppvID===pid||(s.ppvID=pid,s.c_w("s_ppv",""),s.handlePPVevents()),s.p_fo("s_gppvLoad")&&window.addEventListener&&(window.addEventListener("load",s.handlePPVevents,!1),window.addEventListener("click",s.handlePPVevents,!1),window.addEventListener("scroll",s.handlePPVevents,!1),window.addEventListener("resize",s.handlePPVevents,!1)),s._ppvPreviousPage=a[0]?a[0]:"",s._ppvHighestPercentViewed=a[1]?a[1]:"",s._ppvInitialPercentViewed=a[2]?a[2]:"",s._ppvHighestPixelsSeen=a[3]?a[3]:""};
-
-// handlePPVevents helper function (required for getPercentPageViewed v3.01 plug-in)
-s.handlePPVevents=function(){if("undefined"!==typeof s_c_il){for(var c=0,d=s_c_il.length;c<d;c++)if(s_c_il[c]&&s_c_il[c].getPercentPageViewed){var a=s_c_il[c];break}if(a&&a.ppvID){var f=Math.max(Math.max(document.body.scrollHeight,document.documentElement.scrollHeight),Math.max(document.body.offsetHeight,document.documentElement.offsetHeight),Math.max(document.body.clientHeight,document.documentElement.clientHeight));c=(window.pageYOffset||window.document.documentElement.scrollTop||window.document.body.scrollTop)+(window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight);d=Math.min(Math.round(c/f*100),100);var e="";!a.c_r("s_tp")||a.unescape(a.c_r("s_ppv").split(",")[0])!==a.ppvID||1==a.ppvChange&&a.c_r("s_tp")&&f!= a.c_r("s_tp")?(a.c_w("s_tp",f),a.c_w("s_ppv","")):e=a.c_r("s_ppv");var b=e&&-1<e.indexOf(",")?e.split(",",4):[];f=0<b.length?b[0]:escape(a.ppvID);var g=1<b.length?parseInt(b[1]):d,h=2<b.length?parseInt(b[2]):d;b=3<b.length?parseInt(b[3]):c;0<d&&(e=f+","+(d>g?d:g)+","+h+","+(c>b?c:b));a.c_w("s_ppv",e)}}};
-
-// p_fo (pageFirstOnly) helper function v2.0 (required for getPercentPageViewed v3.01 plug-in)
+/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 (Requires AppMeasurement) */
 s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
+/******************************************** END CODE TO DEPLOY ********************************************/
+```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
+
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
+
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
+
+## How to Run the Plugin
+
+When calling the getPercentPageViewed plugin (via JavaScript), be sure to pass in the following arguments:
+
+* **pid** (optional, string):  A page-based identifier that will be correlated with the percentages provided by the plugin's measurements.  Defaults to the Analytics' pageName variable OR the URL if the pageName variable is not set.
+* **ch** (optional, boolean):  Set this equal to false (or 0) if you don't want the plugin to take into consideration any changes made to a page's size after its initial load (due to SPA code, dynamic HTML, etc.).  "true" (or 1) is the recommended/default value for this argument
+
+## Returns
+The getPercentPageViewed plugin returns nothing; instead, it sets the following variables within the AppMeasurement object:
+* s._ppvPreviousPage = The name of the previous page viewed (As final scrolling measurements for the current page aren't available until after a **new** page loads)
+* s._ppvHighestPercentViewed = The highest percent of the previous page that the visitor viewed (height-wise); in other words, the furthest point that the visitor scrolled down to on the previous page
+* s._ppvInitialPercentViewed = The percent of the previous page that was visible when the previous page first loaded
+* s._ppvHighestPixelsSeen = The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page
+* s._ppvFoldsSeen = The highest number of "page folds" that were reached as the visitor scrolled down the previous page (including the "top-of-page" fold)
+* s._ppvFoldsAvailable = The number of total "page folds" that were available to scroll down on the previous page
+
+## Cookies
+The getPercentPageViewed plugin creates a first-party cookie, called s_ppv, that is passed from page to page.  The contents of the cookie contain the values inserted in the four variables described above and expires at the end of the session.
+
+## Example Calls
+
+### Example #1
+The following code...
+```javascript
+if(s.pageName) s.getPercentPageViewed();
+if(s._ppvPreviousPage)
+{
+	s.prop1 = s._ppvPreviousPage;
+	s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+}
+```
+* Determines if s.pageName is set and if so, the code will run the getPercentPageViewed function
+* When the getPercentPageViewed function runs, it will create the variables described in the "Returns" section above
+* If the "Returns" variables have been successfully set:
+	* The code will set s.prop1 equal to the value of s._ppvPreviousPage (i.e. the previous value of s.pageName, or the previous page)
+	* The code will also set s.prop2 equal to the Highest Percent Viewed of the previous page and the Initial Percent Viewed of the previous page, along with the number of folds that the visitor reached and the number of folds that were available
+
+**Note**:  If an entire page is visible when it first loads, both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to 100, and both the Folds Seen and Folds Available would be equal to 1.   When an entire page is NOT visible when it first loads but the visitor never ends up scrolling down the page before moving onto the next page, then both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to the same value.
+
+### Example #2
+Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather than the entire page name.
+
+The following code determines if s.prop5 has been set and, if so, will store its value as the "previous page" to correlate with the Highest Percent Viewed and the Initial Percent Viewed dimensions.  The value will still be stored in the s._ppvPreviousPage variable but can be treated as if it were the previous page type instead of the previous page name.
+```javascript
+if(s.prop5) s.getPercentPageViewed(s.prop5);
+if(s._ppvPreviousPage)
+{
+	s.prop1 = s._ppvPreviousPage;
+	s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+}
+```
+## s Object Replacement
+When instantiating the main AppMeasurement library object with a name other than "s":
+
+Change the following portion of the plugin code from this...
+```javascript
+s.getPercentPageViewed=function(pid,ch)
+```
+...to this:
+```javascript
+[objectname].getPercentPageViewed=function(pid,ch)
+```
+Also change the following portion of the plugin code from this...
+```javascript
+s.handlePPVevents=function()
+```
+...to this:
+```javascript
+[objectname].handlePPVevents=function()
+```
+And Change this...
+```javascript
+s.p_fo=function(on)
+```
+...to this:
+```javascript
+[objectname].p_fo=function(on)
 ```
 
-## Use the getPercentPageViewed plug-in with AppMeasurement and Launch custom code editor
-
-The `s.getPercentPageViewed()` method returns nothing. Instead, it sets the following variables within the AppMeasurement object:
-
-* `s._ppvPreviousPage`: The name of the previous page viewed. Final measurements are not available until an new page loads.
-* `s._ppvHighestPercentViewed`: The furthest point that the visitor scrolled down on the previous page. If the visitor scrolled to the very bottom of the page, this value is `100`. If there is not enough content on a page to allow scrolling, this value is `100`.
-* `s._ppvInitialPercentViewed`: The percentage of the previous page that was visible when the previous page first loaded. If there is not enough content on a page to allow scrolling, this value is `100`.
-* `s._ppvHighestPixelSeen`: The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page.
-
-Set some or all of these values to a custom variable for use in reporting. Record which custom variables you use in your [solution design document](../../prepare/solution-design.md).
-
-> [!NOTE] This plug-in creates a cookie named `s_ppv` that records scroll information from page to page. It contains the above four variable values and expires at the end of the session.
-
-```js
-// Set each variable to a separate dimension
-s.getPercentPageViewed();
-s.eVar1 = s._ppvPreviousPage;
-s.eVar2 = s._ppvHighestPercentViewed;
-s.eVar3 = s._ppvInitialPercentViewed;
-s.eVar4 = s._ppvHighestPixelSeen;
-
-// Concatenate variables in fewer variables with explanation text in the dimension value
-s.getPercentPageViewed();
-s.eVar1 = s._ppvPreviousPage;
-s.eVar2 = "Highest percent viewed: " + s._ppvHighestPercentViewed + " | Initial percent viewed: " + s._ppvInitialPercentViewed;
-```
-
-When you call `s.getPercentPageViewed()`, the following optional arguments are available:
-
-* Page override: A page identifier tied to the above dimension values. It defaults to the `pageName` variable.
-* Track changes to page size: If this argument is `false`, this plug-in does not consider any changes made to the page's size after its initial load. Its default value is `true`. Adobe recommends omitting this argument and leaving it as `true` in most cases.
-
-```js
-// Override the page identifier
-s.getPercentPageViewed("Example page ID");
-
-// Override page identifier and ignored changes to the size of the page after page load
-s.getPercentPageViewed("Example page ID",false);
-```
+## Version History
+### v4.0 (2019-10-07)
+* Added s._ppvFoldsSeen and s._ppvFoldsAvailable solutions
+### v3.01 (2018-08-13)
+* Bug fix for pages that might have multiple AppMeasurement objects on a page
+### v3.0 (2018-04-13) (Previous Changed Undocumented)
+* Point Release (recompiled, smaller code size)
+* Plugin now creates variables to be assigned to Adobe Analytics variables instead of return values

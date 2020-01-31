@@ -43,8 +43,8 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
     ![](assets/incompat-rs.png)
 
-    1. You have 3 options to deal with this incompatibility:
-    * Continue with some missing components.
+    You have 3 options to deal with this incompatibility:
+    * Continue with some missing components. This will result in no data for those components, and/or blank visualizations.
     * Undo.
     * Change the report suite.
 
@@ -54,6 +54,6 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
 1. (Optional) You can also go to other Analytics component builders and ensure that they now show a report suite label indicating
 
-    * Where a segment will be created (Segment Builder).
-    * Where a calculated metric will be created (Calculated Metric Builder).
-    * Where an alert will be built (Alert Builder).
+    * Where a segment will be created: [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+    * Where a calculated metric will be created: [Calculated Metric Builder](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+    * Where an alert will be built: [Alert Builder](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).

@@ -24,21 +24,21 @@ The code example below is what the *`doPlugins`* function looks like in your Jav
 AppMeasurement for JavaScript:
 
 ```js
-/* Plugin Config */ 
-s.usePlugins=true 
-s.doPlugins=function(s) { 
- /* Add calls to plugins here */ 
+/* Plugin Config */
+s.usePlugins=true
+s.doPlugins=function(s) {
+ /* Add calls to plugins here */
 }
 ```
 
 H code:
 
 ```js
-/* Plugin Config */ 
-s.usePlugins=true 
-function s_doPlugins(s) { 
- /* Add calls to plugins here */ 
-} 
+/* Plugin Config */
+s.usePlugins=true
+function s_doPlugins(s) {
+ /* Add calls to plugins here */
+}
 s.doPlugins=s_doPlugins
 ```
 
@@ -49,12 +49,12 @@ s.doPlugins=s_doPlugins
 The *`doPlugins`* function is typically called *`s_doPlugins`*. In certain circumstances, (usually when more than one version of code may appear on a single page) the *`doPlugins`* function name may be changed. If the standard *`doPlugins`* function needs to be renamed to avoid conflicts, ensure that *`doPlugins`* is assigned the correct function name, as shown in the example below.
 
 ```js
-/* Plugin Config */ 
-s_mc.usePlugins=true 
-function s_mc_doPlugins(s_mc) { 
- /* Add calls to plugins here */ 
-} 
-s_mc.doPlugins=s_mc_doPlugins 
+/* Plugin Config */
+s_mc.usePlugins=true
+function s_mc_doPlugins(s_mc) {
+ /* Add calls to plugins here */
+}
+s_mc.doPlugins=s_mc_doPlugins
 
 ```
 
@@ -65,22 +65,22 @@ The *`doPlugins`* function provides an easy way to give default values to variab
 The following example shows how the *`doPlugins`* function can be used to set a default value for a variable and to get a value from the query string.
 
 ```js
-/* Plugin Config */ 
-s.usePlugins=true 
-s.doPlugins=function(s) { 
- /* Add calls to plugins here */ 
- // if prop1 doesn't have a value, set it to "Default Value" 
- if(!s.prop1) 
-s.prop1="Default Value" 
- 
- // if campaign doesn't have a value, get cid from the query string 
- if(!s.campaign) 
-s.campaign=s.getQueryParam('cid'); 
- 
-// Note: The code to read query parameters is different for  
-// Appmeasurement for JavaScript since a plug-in is not required: 
-// s.campaign=s.Util.getQueryParam('cid'); 
-} 
+/* Plugin Config */
+s.usePlugins=true
+s.doPlugins=function(s) {
+ /* Add calls to plugins here */
+ // if prop1 doesn't have a value, set it to "Default Value"
+ if(!s.prop1)
+s.prop1="Default Value"
+
+ // if campaign doesn't have a value, get cid from the query string
+ if(!s.campaign)
+s.campaign=s.getQueryParam('cid');
+
+// Note: The code to read query parameters is different for
+// Appmeasurement for JavaScript since a plug-in is not required:
+// s.campaign=s.Util.getQueryParam('cid');
+}
 
 ```
 
@@ -89,16 +89,16 @@ s.campaign=s.getQueryParam('cid');
 To find out whether a plug-in is included in your JavaScript file and ready for use, look in the [!UICONTROL Plugins Section] of the JavaScript file. The following example shows the [!UICONTROL getQueryParam] function.
 
 ```js
-/************************** PLUGINS SECTION *************************/ 
-/* You may insert any plugins you wish to use here.                 */ 
-/* 
- * Plugin: getQueryParam 1.3 - Return query string parameter values 
- */ 
-s.getQueryParam=new Function("qp","d","" 
-+"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
-// 
+/************************** PLUGINS SECTION *************************/
+/* You may insert any plugins you wish to use here.                 */
+/*
+ * Plugin: getQueryParam 1.3 - Return query string parameter values
+ */
+s.getQueryParam=new Function("qp","d",""
++"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l"
+//
 // ... more code below ...
-// 
+//
 
 ```
 

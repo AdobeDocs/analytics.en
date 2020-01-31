@@ -9,7 +9,7 @@ description: Adds merchandising eVars to the products varaible
 
 ### What does this plugin do?
 
-The addProductEvar plugin allows you to easily add an Adobe Analytics merchandising eVar that uses product syntax to the products variable without worrying whether the already-existing contents of the products variable will be changed/moved/deleted. 
+The addProductEvar plugin allows you to easily add an Adobe Analytics merchandising eVar that uses product syntax to the products variable without worrying whether the already-existing contents of the products variable will be changed/moved/deleted.
 
 ### Why should I use this plugin?
 
@@ -25,15 +25,15 @@ You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run the add
 
 ## How to Deploy
 
-You may use one of the following three methods to deploy the addProductEvar plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation. 
+You may use one of the following three methods to deploy the addProductEvar plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
 
 ### Method #1. Edit the Adobe Analytics AppMeasurement file
 
-* Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+Copy+ Paste the following code to anywhere within the Plugins section of the AppMeasurement file
 ```javascript
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
 /* Adobe Consulting Plugin: addProductEvar v1.0 (Requires AppMeasurement) */
-s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof ev&&""!==ev)if(ap=ap||!1,this.products){var e=this.products.split(","),f=e.length;ap=ap?0:f-1;for(var a;ap<f;ap++)a=e[ap].split(";"),a[5]&&-1<a[5].toLowerCase().indexOf("evar")? a[5]=a[5]+"|"+en+"="+ev:a[5]?a[5]=en+"="+ev:a[5]||(a[4]||(a[4]=""),a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[5]=en+"="+ev),e[ap]=a.join(";");this.products=e.join(",")}else this.products=";;;;;"+en+"="+ev};
+s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof ev&&""!==ev)if(ap=ap||!1,this.products){var e=this.products.split(","),f=e.length;ap=ap?0:f-1;for(var a;ap<f;ap++)a=e[ap].split(";"),a[5]&&-1<a[5].toLowerCase().indexOf("evar")?a[5]=a[5]+"|"+en+"="+ev:a[5]?a[5]=en+"="+ev:a[5]||(a[4]||(a[4]=""),a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[5]=en+"="+ev),e[ap]=a.join(";");this.products=e.join(",")}else this.products=";;;;;"+en+"="+ev};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 **NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
@@ -57,14 +57,14 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 	* Extension: Common Analytics Plugins
 	* Action Type: Initialize addProductEvar
 * Save and publish the changes to the rule
-	
+
 ## How to Run the Plugin
 
 When calling the addProductEvar plugin (via JavaScript), be sure to pass in the following arguments:
 
-* **en** (required, string) - the eVar to add to the last entry currently contained in the products variable.  If the products variable is blank, then the plugin will create a "blank" product entry with the eVar value attached to the end of the entry 
-* **ev** (required, string) - the value to be assigned to the eVar 
-* **ap** (optional, boolean) - If the products variable currently contains more than one product entry, a value of true (or 1) will add the eVar to **all** the product entries.  Defaults to false (or 0), which will add the eVar to only the **last** entry contained in the products variable 
+* **en** (required, string) - the eVar to add to the last entry currently contained in the products variable.  If the products variable is blank, then the plugin will create a "blank" product entry with the eVar value attached to the end of the entry
+* **ev** (required, string) - the value to be assigned to the eVar
+* **ap** (optional, boolean) - If the products variable currently contains more than one product entry, a value of true (or 1) will add the eVar to **all** the product entries.  Defaults to false (or 0), which will add the eVar to only the **last** entry contained in the products variable
 
 ## Returns
 
@@ -139,11 +139,11 @@ s.addProductEvar("eVar25", "red", 1);
 ```javascript
 s.products=";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar25=blue|eVar23=medium|eVar24=women|eVar25=red,;product2;2;122;;eVar23=medium|eVar24=women|eVar25=red,;product3;1;25;;eVar23=medium|eVar24=women|eVar25=red"
 ```
-The addProductEvar plugin does **not** replace eVars that are already set within an individual product entry; it merely appends the values that you specify in the calls.  Hence, use caution when using the plugin so that product entries that already have eVar values bound to them do not have additional duplicate/unnecessary values bound as well. 
+The addProductEvar plugin does **not** replace eVars that are already set within an individual product entry; it merely appends the values that you specify in the calls.  Hence, use caution when using the plugin so that product entries that already have eVar values bound to them do not have additional duplicate/unnecessary values bound as well.
 
 ### Example #5
 
-If s.products isn't set and the following code runs…
+If s.products isn't set and the following code runs...
 ```javascript
 s.addProductEvar("eVar25", "blue");
 ```

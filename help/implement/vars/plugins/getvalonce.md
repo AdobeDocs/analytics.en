@@ -1,65 +1,104 @@
 ---
 title: getValOnce
-description: Prevents AppMeasurement from setting a variable to the previously defined value.
+description: Prevent an Analytics variable from being set to the same value twice in a row.
 ---
 
-# getValOnce
+# Adobe Experience Cloud Plugin – getValOnce
 
-The `getValOnce` plug-in prevents a variable from being set to the previously defined value. It uses a cookie to determine a variable's last seen value. If the current value matches the cookie value, the variable is overwritten with a blank string. This plug-in is useful to prevent inflation on metrics like 'Occurrences' when visitors refresh the page or click the Back button.
+## Purpose of This Plugin
 
-When you use this method, AppMeasurement compares the currently defined value to what is stored in a cookie. If the defined value is different from the cookie value, the plug-in returns the existing value without any changes. If the defined value is the same as the cookie value, the plug-in returns an empty string.
+### What does this plugin do?
+The getValOnce plugin prevents a variable from being set equal to the same value twice in a row (or more)
 
-This plug-in only checks the last defined value. It prevents the same value from being set multiple times consecutively. It does not check beyond the previous value. You can swap back and forth between two values without the plug-in emptying the string.
+### Why should I use this plugin?
+The getValOnce plugin is useful in situations where your organization would like to deduplicate, for example, multiple campaign click-through instances that might occur when users refresh a landing page or come back to the landing page via hitting the browser's back button.
 
-## Install the getValOnce plug-in using Adobe Experience Platform Launch
+### Why shouldn't I use this plugin?
+You your organization does not need to deduplicate a variable's value, then you won't need to use this plugin.
 
-You can install the `getValOnce()` plug-in when configuring the Analytics extension.
+## Prerequisites
+You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run this plugin
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+## How to Deploy
 
-Open the custom code editor and paste the plug-in code provided below. Once installed, you can use the `getValOnce()` function in the custom code editor of rules to assign variable values.
+You may use one of the following three methods to deploy the getValOnce plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
 
-## Install the getValOnce plug-in using AppMeasurement
-
-You can install the `getValOnce()` plug-in by editing `AppMeasurement.js`:
-
-1. Download and open the `AppMeasurement.js` file located on your web server.
-2. Paste the plug-in code provided below anywhere after the tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)).
-3. Save the JS file and upload the new version to your web server.
-
-Once installed, you can use the `getValOnce()` method to assign variable values.
-
-## Plug-in code
-
-```js
-// getValOnce v1.2
-s.getValOnce = function(v,c,e,t) {var s=this,a=new Date,v=v?v:'',c=c?c:'s_gvo',e=e?e:0,i=t=='m'?60000:86400000,k=s.c_r(c);if(v){a.setTime(a.getTime()+e*i);s.c_w(c,v,e==0?0:a);}return v==k?'':v};
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
+```javascript
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: getValOnce v2.0 (Requires AppMeasurement) */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/******************************************** END CODE TO DEPLOY ********************************************/
 ```
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-## Use the getValOnce plug-in with AppMeasurement and Launch custom code editor
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
 
-The `getValOnce` returns a string either containing the already set value or an empty string. Use this plug-in after you set the variable value on the page. It uses the following arguments:
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
 
-* **Variable**: The variable to check. This argument is typically the same as the variable being defined.
-* **Cookie**: The name of the cookie to store the previous value. You can use any cookie name you want, however Adobe recommends including the prefix `gvo_` to easily identify the purpose of this cookie.
-* **Expiration** (Optional): The number of days until the cookie expires. The cookie expires at the end of the browser session by default.
-* **Minute flag** (Optional): If you set this argument to the string value `"m"`, the expiration argument uses minutes instead of days.
+### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
 
-```js
-// If this is the first page of the visitor, the output is "Example value". If you refresh the page, the output is an empty string.
-s.eVar1 = "Example value";
-s.eVar1 = s.getValOnce(s.eVar1,"gvo_v1");
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+* Install (and publish) the "Common Analytics Plugins" extension
+* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
+	* Extension: Common Analytics Plugins
+	* Action Type: Initialize getValOnce
+* Save and publish the changes to the rule
 
-// Keep the previous value for up to 15 days
-s.eVar1 = "Example value";
-s.eVar1 = s.getValOnce(s.eVar1,"gvo_v1",15);
+## How to Run the Plugin
+When calling the getValOnce plugin (via JavaScript), be sure to pass in the following arguments:
 
-// Keep the previous value for up to 15 minutes
-s.eVar1 = "Example value";
-s.eVar1 = s.getValOnce(s.eVar1,"gvo_v1",15,"m");
+* **vtc** (required, string) - the variable to check and see whether it was just previously set to an identical value
+* **cn** (optional, string) - the name of the cookie that will hold the value to check against, defaults to "s_gvo"
+* **et** (optional, integer) - a number that specifies when the cn cookie will hit its expire time (in "x" minutes/days); defaults to 0, which forces the cn cookie to expire at the end of the session
+* **ep** (optional, string) – Set this when the "et" argument is set; defaults to "d" (i.e. days)
+	* Set the “ep” argument equal to "m" if you want the "cn" cookie to expire in "et" number of minutes
+	* OR set the "ep" argument equal to "d" if you want the "cn" cookie to expire in "et" number of days
+
+## Returns
+If the variable specified in the vtc parameter has the exact same value as before, the getValOnce plugin will return an empty string; otherwise it will return the (new) value passed into the variable.
+
+## Cookies
+The getValOnce plugin creates a first-party cookie with a name equal to the name passed in via the cn argument.  Its value is equal to the value contained in the vtc argument and its expiration is dependent on the values passed in via the et/ep arguments.
+
+## Example Calls
+
+### Example #1
+Use this call to prevent the same value being passed in to s.campaign more than once in a row for next 30 days:
+```javascript
+s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 ```
+In the above call, the plugin will first compare the value already contained in the s_campaign cookie with the value coming from the current s.campaign variable.   If a match is not made, the plugin will set the s_campaign cookie equal to the new value coming from s.campaign and then return the new value.   This comparison will happen for the next thirty days
 
-> [!TIP] If using Launch, initially define your variable values in rules as you normally would. You can then use the `getValOnce` plug-in on each desired variable in the `doPlugins` function to validate those variable values.
+### Example #2
+Use this call to prevent the same value being set throughout the session:
+```javascript
+s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
+```
+This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
+
+## s Object Replacement
+When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plugin code from this...
+```javascript
+s.getValOnce=function(vtc,cn,et,ep)
+```
+...to this:
+```javascript
+[objectname].getValOnce=function(vtc,cn,et,ep)
+```
+## Version History
+
+### 2.0
+* Point Release (recompiled, smaller code size)
+### 1.1
+* Added the option to choose minutes or days for the expiration via the 't' parameter'.
+* Corrected the scope of the k variable used to restrict it to the plugin only. (to prevent possible interaction with other js code on the customer’s page).
+

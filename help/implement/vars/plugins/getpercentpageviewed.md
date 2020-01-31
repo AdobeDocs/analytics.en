@@ -8,16 +8,19 @@ description: Retrieve the percentage of the page the visitor viewed.
 ## Plugin Purpose
 
 ### What does this plugin do?
-The getPercentPageViewed plugin measures a visitor's scroll activity to see how much of a page he/she views before moving onto another page. 
+The getPercentPageViewed plugin measures a visitor's scroll activity to see how much of a page he/she views before moving onto another page.
 
 ### Why wouldn't I use this plugin?
-If your web pages are small in height or you do not need to measure how far visitors scroll down on the site, then you will not need to use the getPercentPageViewed plugin.   Also, if you want to measure scroll activity on only exit pages, you will not be able to use this plugin. 
+If your web pages are small in height or you do not need to measure how far visitors scroll down on the site, then you will not need to use the getPercentPageViewed plugin.   Also, if you want to measure scroll activity on only exit pages, you will not be able to use this plugin.
 
 ## Prerequisites
 You must have AppMeasurement (i.e. the base Adobe Analytics Code), the p_fo plugin, and the handlePPVevents helper plugin (included in the Code to Deploy section below) to run the getPercentPageViewed plugin
 
-## How to Implement
-* Copy + Paste the code (see below) to anywhere within the Plugins section of the AppMeasurement file
+## How to Deploy
+You may use one of the following methods to deploy the getPageName plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
+
+### Method #1. Edit the Adobe Analytics AppMeasurement file
+Copy+ Paste the following code to anywhere within the Plugins section of the AppMeasurement file
 ```javascript
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
 /* Adobe Consulting Plugin: getPercentPageViewed v4.0 w/handlePPVevents helper function (Requires AppMeasurement and p_fo plugin) */
@@ -30,16 +33,27 @@ s.handlePPVevents=function(){if("undefined"!==typeof s_c_il){for(var c=0,g=s_c_i
 s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
-**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe Support with troubleshooting any potential implementation issues.
-* Run the getPercentPageViewed function as needed within the doPlugins function or anywhere else (see example calls below)
+**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-## Arguments to Pass In
-* **pid** (optional, string):  A page-based identifier that will be correlated with the percentages provided by the plugin's measurements.  Defaults to the Analytics' pageName variable OR the URL if the pageName variable is not set.  
+### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
+
+* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+* Click on the desired property.
+* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+* Open the custom code editor and paste the plug-in code provided above into the edit window.
+* Save and publish the changes to the Analytics extension.
+
+## How to Run the Plugin
+
+When calling the getPercentPageViewed plugin (via JavaScript), be sure to pass in the following arguments:
+
+* **pid** (optional, string):  A page-based identifier that will be correlated with the percentages provided by the plugin's measurements.  Defaults to the Analytics' pageName variable OR the URL if the pageName variable is not set.
 * **ch** (optional, boolean):  Set this equal to false (or 0) if you don't want the plugin to take into consideration any changes made to a page's size after its initial load (due to SPA code, dynamic HTML, etc.).  "true" (or 1) is the recommended/default value for this argument
 
 ## Returns
 The getPercentPageViewed plugin returns nothing; instead, it sets the following variables within the AppMeasurement object:
-* s._ppvPreviousPage = The name of the previous page viewed (As final scrolling measurements for the current page aren't available until after a **new**age loads) 
+* s._ppvPreviousPage = The name of the previous page viewed (As final scrolling measurements for the current page aren't available until after a **new** page loads)
 * s._ppvHighestPercentViewed = The highest percent of the previous page that the visitor viewed (height-wise); in other words, the furthest point that the visitor scrolled down to on the previous page
 * s._ppvInitialPercentViewed = The percent of the previous page that was visible when the previous page first loaded
 * s._ppvHighestPixelsSeen = The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page
@@ -47,7 +61,7 @@ The getPercentPageViewed plugin returns nothing; instead, it sets the following 
 * s._ppvFoldsAvailable = The number of total "page folds" that were available to scroll down on the previous page
 
 ## Cookies
-The getPercentPageViewed plugin creates a cookie, called s_ppv, that is passed from page to page.  The contents of the cookie contain the values inserted in the four variables described above and expires at the end of the session.
+The getPercentPageViewed plugin creates a first-party cookie, called s_ppv, that is passed from page to page.  The contents of the cookie contain the values inserted in the four variables described above and expires at the end of the session.
 
 ## Example Calls
 
@@ -66,10 +80,11 @@ if(s._ppvPreviousPage)
 * If the "Returns" variables have been successfully set:
 	* The code will set s.prop1 equal to the value of s._ppvPreviousPage (i.e. the previous value of s.pageName, or the previous page)
 	* The code will also set s.prop2 equal to the Highest Percent Viewed of the previous page and the Initial Percent Viewed of the previous page, along with the number of folds that the visitor reached and the number of folds that were available
-Note:  If an entire page is visible when it first loads, both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to 100, and both the Folds Seen and Folds Available would be equal to 1.   When an entire page is NOT visible when it first loads but the visitor never ends up scrolling down the page before moving onto the next page, then both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to the same value. 
+
+**Note**:  If an entire page is visible when it first loads, both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to 100, and both the Folds Seen and Folds Available would be equal to 1.   When an entire page is NOT visible when it first loads but the visitor never ends up scrolling down the page before moving onto the next page, then both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to the same value.
 
 ### Example #2
-Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather than the entire page name.  
+Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather than the entire page name.
 
 The following code determines if s.prop5 has been set and, if so, will store its value as the "previous page" to correlate with the Highest Percent Viewed and the Initial Percent Viewed dimensions.  The value will still be stored in the s._ppvPreviousPage variable but can be treated as if it were the previous page type instead of the previous page name.
 ```javascript
@@ -109,10 +124,10 @@ s.p_fo=function(on)
 ```
 
 ## Version History
-v4.0 (2019-10-07) 
+### v4.0 (2019-10-07)
 * Added s._ppvFoldsSeen and s._ppvFoldsAvailable solutions
-v3.01 (2018-08-13) 
+### v3.01 (2018-08-13)
 * Bug fix for pages that might have multiple AppMeasurement objects on a page
-v3.0 (2018-04-13) 
+### v3.0 (2018-04-13) (Previous Changed Undocumented)
 * Point Release (recompiled, smaller code size)
 * Plugin now creates variables to be assigned to Adobe Analytics variables instead of return values

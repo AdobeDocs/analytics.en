@@ -85,19 +85,3 @@ s.t();
 ```
 
 Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](/help/implement/js/overview.md) for more information.
-
-## AppMeasurement plug-in support
-
-The following plug-ins are tested and verified as compatible:
-
-* [appendList](../vars/plugins/appendlist.md)
-* [doPlugins function](../vars/functions/doplugins.md)
-* [getLoadTime](../vars/plugins/getloadtime.md)
-* [getPageVisibility](../vars/plugins/pagevisibility.md)
-* [getPercentPageViewed](../vars/plugins/getpercentpageviewed.md)
-* [getPreviousValue](../vars/plugins/getpreviousvalue.md)
-* [getTimeParting](../vars/plugins/gettimeparting.md)
-* [getValOnce](../vars/plugins/getvalonce.md)
-* [hitGovernor](../vars/plugins/hitgovernor.md)
-* [intCheck](../vars/plugins/intcheck.md)
-* [performanceTiming](../vars/plugins/performancetiming.md)

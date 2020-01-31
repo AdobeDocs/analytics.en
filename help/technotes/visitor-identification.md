@@ -17,11 +17,11 @@ Adobe Analytics provides several mechanisms to identify visitors. The following 
 
 |  Order Used  | Query Parameter (collection method)  | Present When  |
 |---|---|---|
-|   ![](assets/step1_icon.png) | [vid (s.visitorID)](/help/implement/js-implementation/c-unique-visitors/visid-custom.md)  | s.visitorID is set  |
-|   ![](assets/step2_icon.png) | [aid (s_vi cookie)](/help/implement/js-implementation/c-unique-visitors/visid-analytics.md)  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a visitor ID grace period configured.  |
-|   ![](assets/step3_icon.png) | [mid (AMCV_ cookie set by Experience Cloud Visitor ID service)](https://marketing.adobe.com/resources/help/en_US/mcvid/)  | Visitor's browser accepts cookies (first-party)  |
-|   ![](assets/step4_icon.png) | [fid (fallback cookie on H.25.3 or newer, or AppMeasurement for JavaScript)](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md)  | Visitor's browser accepts cookies (first-party)  |
-|   ![](assets/step5_icon.png) | [IP Address, User Agent, Gateway IP Address](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md#section_104819D74C594ECE879144FCC5DEF4BF)  | Visitor's browser does not accept cookies.  |
+|   ![Step 1](assets/step1_icon.png) | vid (s.visitorID) | s.visitorID is set  |
+|   ![Step 2](assets/step2_icon.png) | aid (s_vi cookie)  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a visitor ID grace period configured.  |
+|   ![Step 3](assets/step3_icon.png) | mid (AMCV_ cookie set by Experience Cloud Visitor ID service)  | Visitor's browser accepts cookies (first-party)  |
+|   ![Step 4](assets/step4_icon.png) | fid (fallback cookie) | Visitor's browser accepts cookies (first-party)  |
+|   ![Step 5](assets/step5_icon.png) | IP Address, User Agent, Gateway IP Address | Visitor's browser does not accept cookies.  |
 
 In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from the previous table as the official visitor ID. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit.
 
@@ -37,7 +37,7 @@ Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of
 
 |  Method  | Description  |
 |---|---|
-|  [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) variable  | If JavaScript is used on the browser, or if you are using any other AppMeasurement library, you can set the visitor ID in a data collection variable.  |
+|  [s.visitorID](../implement/vars/config-vars/visitorid.md) variable  | If JavaScript is used on the browser, or if you are using any other AppMeasurement library, you can set the visitor ID in a data collection variable.  |
 |  Query string parameter on the image request  | This lets you pass the [!UICONTROL visitor ID] to Adobe via the [!UICONTROL vid query string] parameter on a hard-coded image request.  |
 |  Data Insertion API  | On devices using wireless protocols that don't accept JavaScript, you can send an XML post containing the `<visitorid/>` XML element to Adobe collection servers from your servers.  |
 |  URL re-writing and VISTA  | Some deployment architectures provide support for using URL re-writing to maintain session state when a cookie cannot be set. In such cases, Adobe engineering services can implement a [!DNL VISTA] rule that would look for the session value in the URL of the page, then format and place into the [!UICONTROL visid] values.  |
@@ -70,7 +70,7 @@ See [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) 
 
 Most mobile devices accept browser cookies. However, in cases when devices do not accept cookies, another method is used to uniquely identify wireless devices.
 
-Adobe has identified a number of HTTP [subscriber ID headers](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) that uniquely identify a majority of mobile devices. Those headers often include the device phone number (or a hashed version of the number), or other identifiers. The majority of current devices have one or more of the headers that uniquely identify the device, and all Adobe data collection servers automatically use those headers in place of a Visitor ID.
+Adobe has identified a number of HTTP subscriber ID headers that uniquely identify a majority of mobile devices. Those headers often include the device phone number (or a hashed version of the number), or other identifiers. The majority of current devices have one or more of the headers that uniquely identify the device, and all Adobe data collection servers automatically use those headers in place of a Visitor ID.
 
 In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). However, if the device is recognized as a mobile device based on the HTTP headers, a '5' is passed in place of the '1', which indicates that a wbmp format image should be returned and that our list of recognized wireless headers (not a cookie) should be used to identify the device.
 
@@ -141,7 +141,7 @@ The following list of headers is used to identify wireless devices. The algorith
 
 For example "callinglineid" would match "X-Up-Calling-Line-ID" and "nokia-callinglineid." The header type tells us what to expect in the header. The order of header priority is listed here (if a "callinglineid" header is present it is used instead of "subno").
 
-You can use [Dynamic Variables](/help/implement/js-implementation/c-variables/dynvars-overview.md) to extract specific values from a header.
+You can use [Dynamic Variables](../implement/vars/page-vars/dynamic-variables.md) to extract specific values from a header.
 
 ## Fallback ID methods
 

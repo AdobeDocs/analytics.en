@@ -16,5 +16,5 @@ Create conditions for direct-call rules.
 
    >[!NOTE]
    >
-   >If you specify the string that will be passed to `_satellite.track()` in your direct call using the UI, as described above, do not use quotation marks. If you insert [customized page code](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) using the editor, you must use quotation marks.
+   >If you specify the string that will be passed to `_satellite.track()` in your direct call using the UI, as described above, do not use quotation marks. If you insert [customized page code](/help/implement/other/dtm/c-aa-tool/customize-page-code.md) using the editor, you must use quotation marks.
 

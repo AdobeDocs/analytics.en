@@ -30,7 +30,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
    >[!NOTE]
    >
-   >Production embed code reflects only the published items in that [property](/help/implement/c-implement-with-dtm/t-create-web-property.md). However, embed code for staging reflects all items in the associated property, regardless of the published or unpublished state. To test unpublished items on your production site, locally enable staging in the console by following the instructions in [Test Unpublished Rules for Akamai Hosting](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
+   >Production embed code reflects only the published items in that [property](/help/implement/other/dtm/t-create-web-property.md). However, embed code for staging reflects all items in the associated property, regardless of the published or unpublished state. To test unpublished items on your production site, locally enable staging in the console by following the instructions in [Test Unpublished Rules for Akamai Hosting](/help/implement/other/dtm/c-rules/t-test-rules-akamai.md).
 
 1. Copy the production footer code and place it in the [!DNL BODY] section of your site HTML.
 

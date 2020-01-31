@@ -5,7 +5,7 @@ description: Lists all query string parameters used in image requests.
 
 # Data collection query parameters
 
-The following table lists all query string parameters Adobe uses in image requests. This information can be used when debugging using [Packet analyzers](packet-monitor.md), when [hardcoding image requests](../other/hardcoded.md), or when using [Dynamic Variables](../vars/page-vars/dynvars-overview.md).
+The following table lists all query string parameters Adobe uses in image requests. This information can be used when debugging using [Packet analyzers](packet-monitor.md), when [hardcoding image requests](../other/hardcoded.md), or when using [Dynamic Variables](../vars/page-vars/dynamic-variables.md).
 
 | Parameter | Analytics implementation variable | Description |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 ## Opt-out URL
 
-The opt-out page for your organization depends on the [`trackingServer`](../vars/page-vars/trackingserver.md) variable value in your implementation.
+The opt-out page for your organization depends on the [`trackingServer`](../vars/config-vars/trackingserver.md) variable value in your implementation.
 
 * In Adobe Experience Platform Launch:
   1. Log in to [launch.adobe.com](https://launch.adobe.com) and click the desired property.

@@ -9,7 +9,7 @@ eVars are custom variables that you can use however you'd like.
 
 > [!TIP] Adobe recommends using eVars over props in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props. See [Exclusive advantages to props or eVars](#exclusive-advantages-to-props-or-evars) on this page for more information.
 
-Make sure you record how you use each eVar and their logic in your [solution design document](../../../prepare/solution-design.md).
+Make sure you record how you use each eVar and their logic in your [solution design document](../../prepare/solution-design.md).
 
 ## Set up eVars in report suite settings
 

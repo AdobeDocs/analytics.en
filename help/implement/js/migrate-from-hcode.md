@@ -84,7 +84,7 @@ s.t();
 </script>
 ```
 
-Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](/help/implement/js-implementation/javascript-implementation-overview.md) for instructions.
+Make sure that you have also included a reference to `AppMeasurement.js` and `VisitorAPI.js` on each page. See [JavaScript Implementation](/help/implement/js/overview.md) for more information.
 
 ## AppMeasurement plug-in support
 

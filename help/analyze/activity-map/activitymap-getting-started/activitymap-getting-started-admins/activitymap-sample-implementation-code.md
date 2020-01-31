@@ -7,7 +7,7 @@ uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 
 # Sample implementation code{#sample-implementation-code}
 
-## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
+## Sample AppMeasurement.js file
 
 The following is an example of how the AppMeasurement library and the Activity Map module are combined in the [!DNL AppMeasurement.js] file.
 

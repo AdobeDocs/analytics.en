@@ -104,5 +104,6 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ## Version History
 
-### 1.0 (2018-05-02)
-* Initial Release
+### 1.0 (May 2, 2018)
+
+* Initial release.

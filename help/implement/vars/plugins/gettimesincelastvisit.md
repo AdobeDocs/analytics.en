@@ -89,8 +89,8 @@ If the same code runs on the same domain after 4 days of further inactivity the 
 
 ## Version History
 
-### 1.0 (2018-04-16)
-* Point Release (recompiled code, smaller size, etc.)
-* Code Derived from "getDaysSinceLastVisit" (now deprecated and renamed)
-* Now uses formatTime/inList plug-ins for return value
+### 1.0 (April 16, 2018)
 
+* Point release (recompiled code and smaller size).
+* Code derived from the `getDaysSinceLastVisit` plug-in (now deprecated and renamed).
+* Now uses `formatTime` and `inList` plug-ins for the return value.

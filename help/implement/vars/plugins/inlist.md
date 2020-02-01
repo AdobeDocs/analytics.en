@@ -153,13 +153,20 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 
 ## Version History
 
-### v2.1 (2019-09-26)
-* Added the option for the cc argument to not be a boolean (e.g. "1" is a valid case check value)
-### v2.0 (2018-04-17)
-* Point Release (recompiled, smaller code size)
-### v1.01 (2017-09-27)
-* JavaScript code optimizations to reduce size (no functionality changes)
+### v2.1 (September 26, 2019)
+
+* Added the option for the `cc` argument to not be a boolean. For example, `1` is a valid case check value.
+
+### v2.0 (April 17, 2018)
+
+* Point release (recompiled, smaller code size).
+
+### v1.01 (September 27, 2017)
+
+* Optimized code to reduce size
+
 ### v1.0 (2009)
-* Initial Release
+
+* Initial release.
 
 

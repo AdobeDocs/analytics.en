@@ -83,13 +83,15 @@ for(var i = 0; i < parametersLength; i++)
 
 ## Version History
 
-### 2.01 (2019-09-24)
+### 2.01 (September 24, 2019)
+
 * Minor code changes to reduce overall size
-### 2.0 (2018-04-17)
-* Point Release (recompiled, smaller code size)
-* Added Support for both the H-code and AppMeasurement versions of the Adobe Analytics javascript library.
+
+### 2.0 (April 17, 2018)
+
+* Point release (recompiled, smaller code size).
+* Added support for both H-code and AppMeasurement.
+
 ### 1.0 (23 September 2013)
-* Initial version
 
-
-
+* Initial release.

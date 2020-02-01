@@ -93,10 +93,10 @@ if(s.p_fo("myobject"))
 ## Version History
 
 ### 2.0
-* Point release (recompiled, smaller code size)
-* Changed return value type from Integer to Boolean
+
+* Point release (recompiled, smaller code size).
+* Changed return value type from integer to boolean
+
 ### 1.0
-* Initial Release
 
-
-
+* Initial release.

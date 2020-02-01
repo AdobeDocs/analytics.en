@@ -110,6 +110,6 @@ else
 
 ## Version History
 
-### 1.0 (2015-05-25)
+### 1.0 (May 25, 2015)
 
-* First release
+* Initial release.

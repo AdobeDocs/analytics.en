@@ -99,6 +99,6 @@ s.prop10 = s.getVisitDuration();
 
 ## Version History
 
-### 2.0 (2018-05-02) (previous changes undocumented)
-* Point Release (complete reanalysis/rewrite of plug-in)
+### 2.0 (May 2, 2018)
 
+* Point release (complete reanalysis/rewrite of plug-in).

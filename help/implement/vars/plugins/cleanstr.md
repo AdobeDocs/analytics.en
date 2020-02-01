@@ -118,6 +118,6 @@ Running the plug-in all by itself (without assigning the return value to a varia
 
 ## Version History
 
-### 1.0 (2018-04-15)
+### 1.0 (April 15, 2018)
 
-* Point Release (recompiled, smaller code size) and first official release
+* Initial release.

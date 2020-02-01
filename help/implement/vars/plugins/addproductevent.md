@@ -189,6 +189,6 @@ In this case, event35 will also be appended to the end of s.events
 
 ## Version History
 
-### 1.0 (2019-10-07)
+### 1.0 (October 7, 2019)
 
 * Initial release.

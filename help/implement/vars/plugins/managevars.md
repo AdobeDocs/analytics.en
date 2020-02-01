@@ -145,12 +145,12 @@ s.manageVars("cleanStr");
 
 ## Version History
 
-### 2.1 (2019-01-14)
-* Bug fix for Internet Explorer 11 Browsers
-* Changes for s.cleanStr, which now uses the regular cleanStr function as its base
-### 2.0 (2018-05-07) (previous changes undocumented)
+### 2.1 (January 14, 2019)
+
+* Bug fix for Internet Explorer 11 browsers.
+* Changes for `s.cleanStr`, which now uses the regular `cleanStr` function.
+
+### 2.0 (May 7, 2018)
+
 * Point release (including complete reanalysis/rewrite of plug-in)
-* Added cleanStr callback function
-
-
-
+* Added `cleanStr` callback function

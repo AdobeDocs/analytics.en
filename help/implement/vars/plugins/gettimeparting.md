@@ -150,16 +150,24 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 
 ## Version History
 
-### 6.2 (2019-11-05)
-* Small bug fixes
-* Reduced Overall Code Size
-### 6.1 (2018-11-26)
-* Fix for Internet Explorer Browsers.  IE browsers are able return the time, but in only the visitor’s local time.
-### 6.0 (2018-08-14)
-* Complete rewrite to accommodate International Standards (now converts daylight savings and all time zones appropriately)
-### 5.0 (2018-04-17)
-* Point Release (recompiled, smaller code size)
-* Removed the need for the s.tpDST parameter to be set as daylight savings start/end dates will now be detected automatically
-### 4.0 (2016-08-22) - Changes in previous versions not available
-* Version 4.0 provides a completely brand new solution and now includes Year/Month/Date information
+### 6.2 (November 5, 2019)
 
+* Small bug fixes
+* Reduced overall code size
+
+### 6.1 (November 26, 2018)
+
+* Fix for Internet Explorer browsers. They can return the time, but in only the visitor’s local time.
+
+### 6.0 (August 14, 2018)
+
+* Complete rewrite to accommodate international standards. Now converts daylight savings and all time zones appropriately.
+
+### 5.0 (April 17, 2018)
+
+* Point Release (recompiled, smaller code size)
+* Removed the need for the `tpDST` parameter, since daylight savings start/end dates are now detected automatically
+
+### 4.0 (August 22, 2016)
+
+* Provides a brand new solution and now includes year, month, and date information.

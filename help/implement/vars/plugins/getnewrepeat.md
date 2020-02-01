@@ -121,8 +121,11 @@ s.eVar1=s.getNewRepeat(365);
 
 ## Version History
 
-### 2.1 (2019-09-30)
-* Rearrangement of JavaScript logic (for reduced plug-in size)
-### 2.0 (2018-04-16) - Previous Versions Undocumented
-* Point Release (recompiled, smaller code size)
-* Removed the ability to name the cookie to store the visit info.  The plug-in will now dynamically name the cookie based off the value passed into the d argument
+### 2.1 (September 30, 2019)
+
+* Rearrangement of JavaScript logic to reduce plug-in size
+
+### 2.0 (April 16, 2018)
+
+* Recompiled with smaller code size
+* Removed the ability to name the cookie to store the visit info. The plug-in now dynamically names the cookie based on the value passed into the `d` argument.

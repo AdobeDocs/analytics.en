@@ -139,7 +139,10 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 
 ## Version History
 
-### 2.1 (2018-05-26)
-* Accommodates changes made to the new version of the formatTime plug-in
-### 2.0 (2018-04-06) (Previous Changes Undocumented)
-* Complete Rewrite/Reanalysis of Plugin
+### 2.1 (May 26, 2018)
+
+* Accommodates changes made to the new version of the `formatTime` plug-in.
+
+### 2.0 (April 6, 2018)
+
+* Complete rewrite/reanalysis of plug-in.

@@ -183,24 +183,40 @@ The value of 300 comes from the value of the pos parameter in the s.testURL vari
 
 ## Version History
 
-### 3.3 (2019-09-24)
+### 3.3 (September 24, 2019)
+
 * Bypassed unnecessary logic to reduce code size
-### 3.2 (2018-05-15)
-* Moved findParameterValue and getParameterValue functions into the getQueryParam function (vs. being outside the function)
-### 3.1 (2018-05-10)
-* Fixed bug associated with capturing query string parameters with no value
-### 3.0 (2018-04-16)
-* Point Release (Recompiled, smaller code size)
-* Renamed helper functions to findParameterValue and getParameterValue (for readability purposes)
+
+### 3.2 (May 15, 2018)
+
+* Moved `findParameterValue` and `getParameterValue` functions into the `getQueryParam` function
+
+### 3.1 (May 10, 2018)
+
+* Fixed an issue with capturing query string parameters with no value
+
+### 3.0 (April 16, 2018)
+
+* Point release (recompiled, smaller code size).
+* Renamed helper functions to `findParameterValue` and `getParameterValue` for readability purposes.
 * Removed the need to add an argument to find parameters contained in the URL hash
-### 2.5 (2016-01-08)
-* Now both H-code and AppMeasurement compatible (requires s.pt with AppMeasurement)
-### 2.4 (Unknown Date)
-* Added the 'h' parameter, allowing the code to find query string parameters found after the hash ("#") character
-### 2.3 (Unknown Date)
-* Fixed faulty logic in 2.2 where the plug-in worked only when the hash was present after the tracking code
-### 2.2 (Unknown Date)
-* Now removes hash signs (and everything afterwards) from the return value
-### 2.1 (Unknown Date)
-* Now H.10 Compatible
-* Note: All versions previous to 2.1 are undocumented
+
+### 2.5 (January 8, 2016)
+
+* Compatible with both H-code and AppMeasurement (requires `s.pt` with AppMeasurement).
+
+### 2.4
+
+* Added the `h` parameter, allowing the code to find query string parameters found after the hash (`#`) character
+
+### 2.3
+
+* Fixed a regression issue where the plug-in worked only when the hash was present after the tracking code
+
+### 2.2
+
+* Now removes hash characters (and everything afterwards) from the return value
+
+### 2.1
+
+* Compatible with H.10 code

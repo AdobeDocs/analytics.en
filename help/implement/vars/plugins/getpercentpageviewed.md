@@ -102,10 +102,16 @@ if(s._ppvPreviousPage)
 ```
 
 ## Version History
-### v4.0 (2019-10-07)
-* Added s._ppvFoldsSeen and s._ppvFoldsAvailable solutions
-### v3.01 (2018-08-13)
-* Bug fix for pages that might have multiple AppMeasurement objects on a page
-### v3.0 (2018-04-13) (Previous Changed Undocumented)
-* Point Release (recompiled, smaller code size)
-* Plugin now creates variables to be assigned to Adobe Analytics variables instead of return values
+
+### v4.0 (October 7, 2019)
+
+* Added `s._ppvFoldsSeen` and `s._ppvFoldsAvailable` solutions
+
+### v3.01 (August 13, 2018)
+
+* Fixed an issue for pages that have multiple AppMeasurement objects on a page
+
+### v3.0 (April 13, 2018)
+
+* Point release (recompiled, smaller code size)
+* Plug-in now creates variables to be assigned to Adobe Analytics variables instead of return values

@@ -154,10 +154,10 @@ s.eVar1 = s.formatTime(145, "m", .4);
 
 ## Version History
 
-### 1.1 (2018-05-21)
+### 1.1 (May 21, 2018)
 
-* Added the bml (benchmarkLength parameter) to allow for more flexibility in the rounding
+* Added the `bml` argument to allow more flexibility in rounding
 
-### 1.0 (2018-04-15)
+### 1.0 (April 15, 2018)
 
-* Initial Release
+* Initial Release.

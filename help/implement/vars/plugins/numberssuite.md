@@ -122,5 +122,6 @@ s.eVar65 = twoDecimals("672132.9699736457") 		//sets s.eVar65 equal to 672132.97
 
 ## Version History
 
-### 1.0 (2019-05-25)
-* Initial Release (zeroPad v1.0 was provided previously in a separate document)
+### 1.0 (May 25, 2019)
+
+* Initial release.

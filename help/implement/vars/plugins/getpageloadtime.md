@@ -106,5 +106,6 @@ if(s._pltPreviousPage)
 
 ## Version History
 
-### 1.0 (2018-05-22)
-* First Official Release
+### 1.0 (May 22, 2018)
+
+* Initial release.

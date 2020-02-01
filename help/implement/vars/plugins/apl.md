@@ -289,17 +289,17 @@ Since the two delimiter arguments are different, the value passed in will be del
 
 ## Version History
 
-### 3.2 (2019-09-25)
+### 3.2 (September 25, 2019)
 
 * Fixed compatibility issues with `apl` calls that used older versions of the plug-in
 * Removed console warnings to reduce size
 * Added `inList 2.1`
 
-### 3.1 (2018-04-22)
+### 3.1 (April 22, 2018)
 
 * `d2` argument now defaults to the value of the `d1` argument when not set
 
-### 3.0 (2018-04-16)
+### 3.0 (April 16, 2018)
 
 * Complete reanalysis/rewrite of plug-in
 * Added advanced error checking
@@ -307,11 +307,11 @@ Since the two delimiter arguments are different, the value passed in will be del
 * Added the `d2` argument to format the return value
 * Changed the `cc` argument to a boolean
 
-### 2.5 (2016-02-18)
+### 2.5 (February 18, 2016)
 
 * Now uses the `inList` method for comparison processing
 
-### 2.0 (2016-01-26)
+### 2.0 (January 26, 2016)
 
 * `d` (Delimiter) argument now optional (defaults to a comma)
 * `u` (Case-sensitivity flag) argument now optional (defaults to case-insensitive)

@@ -355,13 +355,17 @@ s.events = "event22,event23,event24";
 ```
 Again, keep in mind the plug-in only returns a value; it does not actually "reset" the variable passed in through the lv argument.
 
-
 ## Version History
 
-### 2.01 (2019-09-17)
+### 2.01 (September 17, 2019)
+
 * Minor bug fix for the default delimiter value
-### 2.0 (2018-04-16)
-* Point release (recompiled, smaller code size)
-* Removed the need for the join plug-in
-### 1.0 (2016-07-18)
-* Initial release
+
+### 2.0 (April 16, 2018)
+
+* Point release (recompiled, smaller code size).
+* Removed the need for the `join` plug-in.
+
+### 1.0 (July 18, 2016)
+
+* Initial release.

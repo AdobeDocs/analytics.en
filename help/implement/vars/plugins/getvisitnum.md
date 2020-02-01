@@ -159,14 +159,20 @@ In this case, the plug-in will create three different cookies – one for each o
 
 ## Version History
 
-### 4.11 (2019-09-30)
-* Bug fix for "extend reset period" argument being explicitly set equal to false
-### 4.1 (2018-05-21)
-* Updated to accommodate version 1.1 of the endOfDatePeriod plug-in
-### 4.0 (2018-04-17)
-* Point Release (recompiled, smaller code size)
-* Removed the cookie arguments as the plug-in will now dynamically generate cookies based off of the time period (the "rp" argument)
-### 3.0 (2016-06-05) (Previous Changes Undocumented)
-* Complete overhaul
-* Combined all previous solutions available in sundry getVisitNum plug-in variations into one single plug-in.
+### 4.11 (September 30, 2019)
 
+* Fixed an issue where the `erp` argument was explicitly set to `false`.
+
+### 4.1 (May 21, 2018)
+
+* Updated the `endOfDatePeriod` plug-in to v1.1.
+
+### 4.0 (April 17, 2018)
+
+* Point release (recompiled, smaller code size).
+* Removed cookie arguments as the plug-in now dynamically generates cookies based on the `rp` argument)
+
+### 3.0 (June 5, 2016)
+
+* Complete overhaul
+* Combined all previous solutions available in various versions of the `getVisitNum` plug-in.

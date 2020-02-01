@@ -190,7 +190,10 @@ s.pageName = getPageName();
 
 ## Version History
 
-### 4.1 (2019-09-17)
-* Changed default delimiter value to a pipe character (from a colon-space)
-### 4.0 (2018-05-22) (Previous Changes Undocumented)
-* Point Release (Complete Reanalysis/Rewrite of Plugin)
+### 4.1 (September 17, 2019)
+
+* Changed default delimiter value to a pipe character (from a colon + space).
+
+### 4.0 (May 22, 2018)
+
+* Complete reanalysis/rewrite of plug-in

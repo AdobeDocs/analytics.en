@@ -134,11 +134,11 @@ s.eVar30 = s.getAndPersistValue(s.eVar30);
 
 ## Version History
 
-### 2.0 (2018-04-16)
+### 2.0 (April 16, 2018)
 
-* Point Release (smaller code size)
-* Passing 0 into the "ex" argument now forces expiration after 30 minutes of inactivity rather than expiration at the end of the "session".
+* Point release (smaller code size)
+* Passing 0 into the `ex` argument now forces expiration after 30 minutes of inactivity rather than expiration at the end of the browser session.
 
-### 1.0 (2016-01-18)
+### 1.0 (January 18, 2016)
 
-* First official 1.0 version (previous versions/changes undocumented)
+* Initial release.

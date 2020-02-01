@@ -111,16 +111,22 @@ In the second example, event1 is meant to capture the beginning of a registratio
 
 ## Version History
 
-### 3.1 (2019-09-30)
-* Added logic that requires a value of either "start" or "stop" in the first argument.  All other values passed in will stop the plug-in from running
-* Replaced inList 2.0 plug-in with inList 2.1
-### 3.0 (2018-08-23)
-* No change to the getTimeToComplete plug-in code but replaced the formatTime v1.0 plug-in code with the formatTime v1.1 plug-in code
-### 3.0 (2018-04-17)
-* Point Release (recompiled, smaller code size)
-* Minor bug fixes
-### 2.0 (2016-06-21) – previous versions undocumented
-* Eliminated the dependency on the "s.p_fo" (page first only) plug-in.
-* Added compatibility with H-code and AppMeasurement.
-* Added console logging
+### 3.1 (September 30, 2019)
 
+* Added logic that requires a value of either "start" or "stop" in the first argument.  All other values passed in stop the plug-in from running.
+* Updated `inList 2.0` plug-in to `inList 2.1`.
+
+### 3.0 (August 23, 2018)
+
+* Updated the `formatTime v1.0` plug-in to `formatTime v1.1`.
+
+### 3.0 (April 17, 2018)
+
+* Point release (recompiled, smaller code size).
+* Minor bug fixes.
+
+### 2.0 June 21, 2016)
+
+* Eliminated the dependency on the `p_fo` plug-in.
+* Added compatibility with H-code and AppMeasurement.
+* Added console logging.

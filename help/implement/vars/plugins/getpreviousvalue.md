@@ -129,5 +129,6 @@ When the s.t() call function runs, it will create an image request where s.pageN
 
 ## Version History
 
-### v2.0 (2019-10-07)
-* Point Release (complete logic rewrite)
+### v2.0 (October 7, 2019)
+
+* Point release (complete logic rewrite).

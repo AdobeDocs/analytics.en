@@ -119,18 +119,6 @@ If the visitor hasn't been to the site for at least 365 days (i.e. 1 year) since
 s.eVar1=s.getNewRepeat(365);
 ```
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getNewRepeat=function(d){
-```
-...to this:
-
-```js
-[objectname].getNewRepeat=function(d){
-```
-
 ## Version History
 
 ### 2.1 (2019-09-30)

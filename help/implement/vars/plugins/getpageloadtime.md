@@ -104,58 +104,6 @@ if(s._pltPreviousPage)
 * Set s.prop11 and s.eVar10 equal to the name of the previous page (as recorded in s.pageName)
 * Set event100, which would be a custom numeric event, equal to the load time of the previous page.   Using a custom event in this case would allow you to get the total amount of time for all page loads of the previous page (from all visitors/visits) and thus use a calculated metric to get the average page load time for each page
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getPageLoadTime=function(lv,cn,d1)
-```
-...to this:
-
-```js
-[objectname].getPageLoadTime=function(lv,cn,d1)
-```
-Also be sure to change this...
-
-```js
-s.performanceWriteFull=function()
-```
-...to this:
-
-```js
-[objectname].performanceWriteFull=function()
-```
-And change this...
-
-```js
-s.performanceWritePart=function()
-```
-...to this:
-
-```js
-[objectname].performanceWritePart=function()
-```
-And change this...
-
-```js
-s.performanceCheck=function()
-```
-...to this:
-
-```js
-[objectname].performanceCheck=function()
-```
-And (finally) change this...
-
-```js
-s.p_fo=function(on)
-```
-...to this:
-
-```js
-[objectname].p_fo=function(on)
-```
-
 ## Version History
 
 ### 1.0 (2018-05-22)

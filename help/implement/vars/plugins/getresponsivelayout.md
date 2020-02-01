@@ -102,9 +102,6 @@ If...
 s.eVar10 = getResponsiveLayout(500, 500, 1100);
 ```
 
-## s Object Replacement
-The getResponsiveLayout plug-in does not require AppMeasurement or any other plug-ins and thus does not need to be attached to the s object (or any other AppMeasurement object)
-
 ## Version History
 
 ### 1.0 (2018-05-02)

@@ -87,18 +87,6 @@ If the same code runs on the same domain after 35 minutes of inactivity, the val
 
 If the same code runs on the same domain after 4 days of further inactivity the value of s.prop1 will be set equal to “4 days”.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getTimeSinceLastVisit = function(
-```
-...to this:
-
-```js
-[objectname].getTimeSinceLastVisit = function(
-```
-
 ## Version History
 
 ### 1.0 (2018-04-16)

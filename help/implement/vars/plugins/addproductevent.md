@@ -187,47 +187,8 @@ s.products=";;;;event35=25"
 
 In this case, event35 will also be appended to the end of s.events
 
-## s Object Replacement
-
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```javascript
-s.addProductEvent=function(en,ev,ap)
-```
-
-...to this:
-
-```js
-[objectname].addProductEvent=function(en,ev,ap)
-```
-
-Also be sure to change this...
-
-```js
-s.apl=function(lv,vta,d1,d2,cc){
-```
-
-...to this:
-
-```js
-[objectname].apl=function(lv,vta,d1,d2,cc){
-```
-
-And change this...
-
-```js
-s.inList=function(lv,vtc,d,cc){
-```
-
-...to this:
-
-```js
-[objectname].inList=function(lv,vtc,d,cc){
-```
-
-
 ## Version History
 
 ### 1.0 (2019-10-07)
 
-* Initial Release
+* Initial release.

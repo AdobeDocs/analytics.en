@@ -90,18 +90,6 @@ if(s.p_fo("myobject"))
 ```
 **NOTE:** Everytime a new page object/DOM loads (or the current page reloads), the object specified in the on argument will no longer exist and thus the p_fo plug-in will again return true the first time it runs after the page finishes loading.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.p_fo=function(on)
-```
-...to this:
-
-```js
-[objectname].p_fo=function(on)
-```
-
 ## Version History
 
 ### 2.0

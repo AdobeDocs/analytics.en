@@ -85,4 +85,4 @@ s.addProductEvar("eVar1", "blue");
 
 ### 1.0 (October 7, 2019)
 
-* Initial Release.
+* Initial release.

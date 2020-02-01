@@ -148,9 +148,6 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 ...would set s.eVar10 equal to "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 
-## s Object Replacement
-The getTimeParting plug-in does not require AppMeasurement or any other plug-ins and thus does not need to be attached to the s object (or other AppMeasurement object)
-
 ## Version History
 
 ### 6.2 (2019-11-05)

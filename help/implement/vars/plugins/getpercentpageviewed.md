@@ -100,39 +100,6 @@ if(s._ppvPreviousPage)
 	s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
 }
 ```
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s":
-
-Change the following portion of the plug-in code from this...
-
-```js
-s.getPercentPageViewed=function(pid,ch)
-```
-...to this:
-
-```js
-[objectname].getPercentPageViewed=function(pid,ch)
-```
-Also change the following portion of the plug-in code from this...
-
-```js
-s.handlePPVevents=function()
-```
-...to this:
-
-```js
-[objectname].handlePPVevents=function()
-```
-And Change this...
-
-```js
-s.p_fo=function(on)
-```
-...to this:
-
-```js
-[objectname].p_fo=function(on)
-```
 
 ## Version History
 ### v4.0 (2019-10-07)

@@ -132,18 +132,6 @@ s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 ...s.eVar30 will be set equal to "shopping" (i.e. the persisted value of the s_gapv cookie)
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getAndPersistValue=function(vtp,en,ex){
-```
-...to this:
-
-```js
-[objectname].getAndPersistValue=function(vtp,en,ex){
-```
-
 ## Version History
 
 ### 2.0 (2018-04-16)

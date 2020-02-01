@@ -181,28 +181,6 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 * The value of true comes from the existence (but non-value) of the location parameter after the hash character in the s.testURL variable
 The value of 300 comes from the value of the pos parameter in the s.testURL variable
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getQueryParam=function(qsp,de,url)
-```
-...to this:
-
-```js
-[objectname].getQueryParam=function(qsp,de,url)
-```
-Also change this:
-
-```js
-s.pt=function(lv,de,cf,fa){
-```
-...to this:
-
-```js
-[objectname].pt=function(lv,de,cf,fa){
-```
-
 ## Version History
 
 ### 3.3 (2019-09-24)

@@ -152,28 +152,6 @@ s.eVar1 = s.formatTime(145, "m", .4);
 ```
 ...will set s.eVar1 equal to "2.4 minutes", which is the closest 2/5ths-minute benchmark (e.g. .4 = 2/5)  to 145 seconds
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.formatTime=function(ns,tf,bml){
-```
-...to this:
-
-```js
-[objectname].formatTime=function(ns,tf,bml){
-```
-Be sure to also change this...
-
-```js
-s.inList=function(lv,vtc,d,cc){
-```
-...to this:
-
-```js
-[objectname].inList=function(lv,vtc,d,cc){
-```
-
 ## Version History
 
 ### 1.1 (2018-05-21)

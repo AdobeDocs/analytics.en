@@ -151,18 +151,6 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
 ...the conditional if statement will be false.  The value of the d argument passed into the call (i.e. "|") assumes that the individual values in s.linkTrackVars are delimited by a pipe character, whereas in reality, the values are delimited by a comma.  In this case, the plug-in will try to make a match between the whole value of s.linkTrackVars (i.e. "events,eVar1") and the value to look for (i.e. "eVar1").
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.inList=function(lv,vtc,d,cc)
-```
-...to this:
-
-```js
-[objectname].inList=function(lv,vtc,d,cc)
-```
-
 ## Version History
 
 ### v2.1 (2019-09-26)

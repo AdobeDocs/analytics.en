@@ -356,18 +356,6 @@ s.events = "event22,event23,event24";
 Again, keep in mind the plug-in only returns a value; it does not actually "reset" the variable passed in through the lv argument.
 
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.rfl=function(l,v,d1,d2,df)
-```
-...to this:
-
-```js
-[objectname].rfl=function(l,v,d1,d2,df)
-```
-
 ## Version History
 
 ### 2.01 (2019-09-17)

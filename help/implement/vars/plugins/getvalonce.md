@@ -93,17 +93,6 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 ```
 This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getValOnce=function(vtc,cn,et,ep)
-```
-...to this:
-
-```js
-[objectname].getValOnce=function(vtc,cn,et,ep)
-```
 ## Version History
 
 ### 2.0

@@ -81,18 +81,6 @@ for(var i = 0; i < parametersLength; i++)
 }
 ```
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.pt=function(l,de,cf,fa)
-```
-...to this:
-
-```js
-[objectname].pt=function(l,de,cf,fa)
-```
-
 ## Version History
 
 ### 2.01 (2019-09-24)

@@ -127,18 +127,6 @@ s.t();
 ```
 When the s.t() call function runs, it will create an image request where s.pageName="page 2" and s.prop7 is equal to "happy value", which was the value of s.pageName when the last call to getPreviousValue took place.   The s.prop7 value of "home" was never contained in any real image request even though "home" was the first value passed into s.pageName.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getPreviousValue=function(v,c)
-```
-...to this:
-
-```js
-[objectname].getPreviousValue=function(v,c)
-```
-
 ## Version History
 
 ### v2.0 (2019-10-07)

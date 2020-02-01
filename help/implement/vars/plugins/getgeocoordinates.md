@@ -108,18 +108,6 @@ else
 	var visitorAtStatueOfLiberty = false;
 ```
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getGeoCoordinates=function(){
-```
-...to this:
-
-```js
-[objectname].getGeoCoordinates=function(){
-```
-
 ## Version History
 
 ### 1.0 (2015-05-25)

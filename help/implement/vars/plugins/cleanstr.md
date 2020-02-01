@@ -116,9 +116,6 @@ cleanStr(s.eVar1)
 ```
 Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the str argument.
 
-## s Object Replacement
-The cleanStr plug-in does not require AppMeasurement or any other plug-ins and thus does not need to be attached to the s object (or other AppMeasurement object)
-
 ## Version History
 
 ### 1.0 (2018-04-15)

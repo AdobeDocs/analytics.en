@@ -97,17 +97,6 @@ s.prop10 = s.getVisitDuration();
 ```
 ...will always set prop10 equal to the number of minutes passed since the visitor landed on the site.  This will be useful if prop10 has pathing enabled.  Adding the "exits" metric to the prop10 report will show a granular, "scatterplot" report of how long a visit took in minutes before a visitor left the site.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getVisitDuration=function()
-```
-...to this:
-
-```js
-[objectname].getVisitDuration=function()
-```
 ## Version History
 
 ### 2.0 (2018-05-02) (previous changes undocumented)

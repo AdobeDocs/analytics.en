@@ -137,38 +137,6 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
 ...will produce similar results to the first example above; however, the value of eVar1 will be returned in either seconds, minutes, hours, or days, depending on the final length of the timer.  Also, the timer will expire 1 day after it was first set instead of at the time the visitor closes his/her browser.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getTimeBetweenEvents=function(ste,rt,stp,res,cn,etd,fmt,bml,rte)
-```
-...to this:
-
-```js
-[objectname].getTimeBetweenEvents=function(ste,rt,stp,res,cn,etd,fmt,bml,rte)
-```
-Also be sure to change this...
-
-```js
-s.formatTime=function(ns,tf,bml)
-```
-...to this:
-
-```js
-[objectname].formatTime=function(ns,tf,bml)
-```
-And change this...
-
-```js
-s.inList=function(lv,vtc,d,cc){
-```
-...to this:
-
-```js
-[objectname].inList=function(lv,vtc,d,cc){
-```
-
 ## Version History
 
 ### 2.1 (2018-05-26)

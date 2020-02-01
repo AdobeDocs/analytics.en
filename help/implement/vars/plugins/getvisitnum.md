@@ -157,17 +157,6 @@ s.prop3=s.getVisitNum("y");
 ```
 In this case, the plug-in will create three different cookies – one for each of the different time periods – to keep track of the individual visit number per time period.
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getVisitNum=function(rp,erp)
-```
-...to this:
-
-```js
-[objectname].getVisitNum=function(rp,erp)
-```
 ## Version History
 
 ### 4.11 (2019-09-30)

@@ -109,17 +109,6 @@ if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregi
 ```
 In the second example, event1 is meant to capture the beginning of a registration process that could take up to 7 days to complete, for whatever reason, and event2 is meant to capture the completion of the registration.  s.prop2 will capture the amount of time needed to complete the registration process
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.getTimeToComplete=function(sos,cn,exp)
-```
-...to this:
-
-```js
-[objectname].getTimeToComplete=function(sos,cn,exp)
-```
 ## Version History
 
 ### 3.1 (2019-09-30)

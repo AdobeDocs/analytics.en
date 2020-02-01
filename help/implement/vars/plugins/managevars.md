@@ -143,48 +143,6 @@ s.manageVars("cleanStr");
 * Replaces tab characters, newline characters, and carriage return characters with spaces
 * Replaces all double (or triple, etc.) spaces with single spaces
 
-## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
-
-```js
-s.manageVars=function(cb,l,il)
-```
-...to this:
-
-```js
-[objectname].manageVars=function(cb,l,il)
-```
-Also be sure to change this...
-
-```js
-s.lowerCaseVars=function(v)
-```
-...to this:
-
-```js
-[objectname].lowerCaseVars=function(v)
-```
-And change this...
-
-```js
-s.cleanStr=function(b)
-```
-...to this:
-
-```js
-[objectname].cleanStr=function(b)
-```
-And (finally) change this...
-
-```js
-s.pt=function(l,de,cf,fa)
-```
-...to this:
-
-```js
-[objectname].pt=function(l,de,cf,fa)
-```
-
 ## Version History
 
 ### 2.1 (2019-01-14)

@@ -96,8 +96,10 @@ This code prevents the same value from being passed into s.eVar2 more than once 
 ## Version History
 
 ### 2.0
-* Point Release (recompiled, smaller code size)
-### 1.1
-* Added the option to choose minutes or days for the expiration via the 't' parameter'.
-* Corrected the scope of the k variable used to restrict it to the plug-in only. (to prevent possible interaction with other js code on the customer’s page).
 
+* Point release (recompiled, smaller code size).
+
+### 1.1
+
+* Added the option to choose minutes or days for the expiration via the `t` parameter.
+* Corrected the scope of the `k` variable used to restrict it to the plug-in only. This change prevents possible interference with other code on the page.

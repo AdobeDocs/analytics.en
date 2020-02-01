@@ -10,9 +10,9 @@ The `doPlugins` variable acts as a 'last call' to set values in your implementat
 * All page view (`t`) calls
 * All link tracking (`tl`) calls, including automatic download links and exit links
 
-Use the `doPlugins` variable to call plugin code and set final variable values just before an image request is compiled and sent to Adobe.
+Use the `doPlugins` variable to call plug-in code and set final variable values just before an image request is compiled and sent to Adobe.
 
-## Plugins in Adobe Experience Platform Launch
+## Plug-ins in Adobe Experience Platform Launch
 
 There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
@@ -34,7 +34,7 @@ s.doPlugins = function() {
   s.eVar1 = window.document.title;
 };
 
-// Use the getPreviousValue plugin (requires plugin code outside the function)
+// Use the getPreviousValue plug-in (requires plug-in code outside the function)
 s.doPlugins = function() {
   s.eVar1 = s.getPreviousValue(s.pageName,'gpv_pn');
 }

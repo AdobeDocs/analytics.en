@@ -1,19 +1,19 @@
 ---
 title: Numbers Suite
-description: Produce and manipulate numbers to be used in other JavaScript variables
+description: Produce and manipulate numbers for use in other JavaScript variables.
 ---
 
-# Adobe Experience Cloud Plugin – Numbers Suite
+# Adobe plug-in: Numbers Suite
 
 ## Purpose of This Plugin
 
-### What does this plugin do?
+### What does this plug-in do?
 The Numbers Suite a series of JavaScript functions that allow you to...
 * Add a specific number of zeroes to the beginning of a number (if a number is required to have a certain number of digits in it)
 * Generate a random number with a specific number of digits
 * Round a number to the closet hundredth (for currency purposes)
 
-### Why should I use this plugin?
+### Why should I use this plug-in?
 You should use the Numbers Suite if, for example..
 * You work with JavaScript date objects and need to make sure that you format a date's month and day with two digits instead of just one digit (e.g. "01/09/2020" instead of just "1/9/2020")
 * You deploy 3rd-party tags and need to generate a cache-busting random number
@@ -24,11 +24,37 @@ None
 
 ## How to Deploy
 
-You may use one of the following three methods to deploy the Numbers Suite.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
+You may use one of the following three methods to deploy the Numbers Suite.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
 
-### Method #1. Edit the Adobe Analytics AppMeasurement file
-Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
-```javascript
+## Install the plug-in using the Adobe Experience Platform Launch extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install (and publish) the "Common Analytics Plugins" extension
+1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize addProductEvar
+1. Save and publish the changes to the rule
+
+## Install the plug-in using Launch custom code editor
+
+If you do not want to use the plug-in extension, you can use the custom code editor.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Save and publish the changes to the Analytics extension.
+
+## Install the plug-in using AppMeasurement
+
+Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+
+```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
 /* Adobe Consulting Plugin: zeroPad v1.0 (No Prerequisites) */
 function zeroPad(num,nod){num=parseInt(num);nod=parseInt(nod);if(isNaN(num)||isNaN(nod))return"";var c=nod-num.toString().length+ 1;return Array(+(0<c&&c)).join("0")+num};
@@ -40,34 +66,13 @@ function randomNumber(nod){nod="number"===typeof nod?17>Math.abs(nod)?Math.round
 function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Number(Number(v).toFixed(2))};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
-**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
-
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click on the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-* Open the custom code editor and paste the plug-in code provided above into the edit window.
-* Save and publish the changes to the Analytics extension.
-
-### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
-
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-* Install (and publish) the "Common Analytics Plugins" extension
-* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
-	* Extension: Common Analytics Plugins
-	* Action Type: Initialize Numbers Suite
-* Save and publish the changes to the rule
-
-## How to Run the Plugin
+## Use the plug-in
 When calling any of the Numbers Suite functions (via JavaScript), be sure to pass in the following arguments:
 
 **For the zeroPad function:**
 * **num** (required, integer): A whole number to pad (i.e. add zeroes to the beginning per the nod argument's value).  The code will round down the value of this argument if it contains decimals
-* **nod** (required, integer): The number of digits to be contained in the final return value.  If the number to pad has less digits than the number of digits to pad to, then the plugin will add enough zeroes to the beginning of the "num" argument value to ensure it has the appropriate number of digits
+* **nod** (required, integer): The number of digits to be contained in the final return value.  If the number to pad has less digits than the number of digits to pad to, then the plug-in will add enough zeroes to the beginning of the "num" argument value to ensure it has the appropriate number of digits
 
 **For the randomNumber function:**
 * **nod** (optional, integer): the number of digits in the random number that you want to generate.  Max value is 17 digits, defaults to 10 digits
@@ -86,7 +91,8 @@ The Numbers Suite functions do not create or use any cookies.
 ## Example Calls
 
 ### zeroPad examples
-```javascript
+
+```js
 s.eVar25 = zeroPad(25.5562, 5) 	//sets eVar25 equal to "00025"
 
 s.prop1 = zeroPad(25, 1) 		//sets prop1 equal to "25"
@@ -95,7 +101,8 @@ s.prop1 = zeroPad(232425235,23) 	//sets prop1 equal to "00000000000000232425235"
 ```
 
 ### randomNumber examples
-```javascript
+
+```js
 s.eVar65 = randomNumber(15)	//sets eVar65 equal to "721759731750342" or some other random 15-digit number
 
 randomNumber() 			//returns a random 10-digit number but is useless since this isn't used in an expression
@@ -104,7 +111,8 @@ var j = randomNumber(35) 	//sets a variable named j equal to "15476068651810060"
 ```
 
 ### twoDecimals examples
-```javascript
+
+```js
 s.events = "event10=" + twoDecimals("85.4827128694") 	//sets s.events="event10=85.48"
 
 var fivehundredthirtytwo = twoDecimals(532.000000001) //sets the variable fivehundredthirtytwo equal to 532

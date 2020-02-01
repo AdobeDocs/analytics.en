@@ -7,7 +7,7 @@ description: Enable or disable the doPlugins() function.
 
 If `usePlugins` is enabled, the `doPlugins()` function runs just before AppMeasurement compiles and sends a hit to Adobe. Enable this variable if you use the `doPlugins()` function.
 
-## Use Plugins in Adobe Experience Platform Launch
+## Use Plug-ins in Adobe Experience Platform Launch
 
 There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
 

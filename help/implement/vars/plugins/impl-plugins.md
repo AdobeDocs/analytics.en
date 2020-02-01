@@ -27,7 +27,7 @@ AppMeasurement for JavaScript:
 /* Plugin Config */
 s.usePlugins=true
 s.doPlugins=function(s) {
- /* Add calls to plugins here */
+ /* Add calls to plug-ins here */
 }
 ```
 
@@ -37,7 +37,7 @@ H code:
 /* Plugin Config */
 s.usePlugins=true
 function s_doPlugins(s) {
- /* Add calls to plugins here */
+ /* Add calls to plug-ins here */
 }
 s.doPlugins=s_doPlugins
 ```
@@ -52,7 +52,7 @@ The *`doPlugins`* function is typically called *`s_doPlugins`*. In certain circu
 /* Plugin Config */
 s_mc.usePlugins=true
 function s_mc_doPlugins(s_mc) {
- /* Add calls to plugins here */
+ /* Add calls to plug-ins here */
 }
 s_mc.doPlugins=s_mc_doPlugins
 
@@ -68,7 +68,7 @@ The following example shows how the *`doPlugins`* function can be used to set a 
 /* Plugin Config */
 s.usePlugins=true
 s.doPlugins=function(s) {
- /* Add calls to plugins here */
+ /* Add calls to plug-ins here */
  // if prop1 doesn't have a value, set it to "Default Value"
  if(!s.prop1)
 s.prop1="Default Value"
@@ -90,7 +90,7 @@ To find out whether a plug-in is included in your JavaScript file and ready for 
 
 ```js
 /************************** PLUGINS SECTION *************************/
-/* You may insert any plugins you wish to use here.                 */
+/* You may insert any plug-ins you wish to use here.                 */
 /*
  * Plugin: getQueryParam 1.3 - Return query string parameter values
  */

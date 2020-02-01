@@ -1,65 +1,71 @@
 ---
 title: getVisitNum
-description: Track the visitors' current visit number
+description: Track a visitor's current visit number.
 ---
 
-# Adobe Experience Cloud Plugin – getVisitNum
+# Adobe plug-in: getVisitNum
 
 ## Purpose of This Plugin
 
-### What does this plugin do?
+### What does this plug-in do?
 The getVisitNum Plugin returns the visit number for all visitors that come to the site within a specific time period (e.g. "x" number of days)
 
-### Why should I use this plugin?
-You should use the getVisitNum plugin if you want to track the visit number for any/all visitor(s) for the current week, the current month, the current year, or within the last “x” number of days.
+### Why should I use this plug-in?
+You should use the getVisitNum plug-in if you want to track the visit number for any/all visitor(s) for the current week, the current month, the current year, or within the last “x” number of days.
 
-### Why shouldn't I use this plugin?
-You should not use the getVisitNum plugin to if you want to track the overall visit number for any/all visitor(s) for all time.  Adobe Analytics already provides an out-of-the-box visit number dimension that would provide more accurate data for overall visit number data than this plugin-based solution.
+### Why shouldn't I use this plug-in?
+You should not use the getVisitNum plug-in to if you want to track the overall visit number for any/all visitor(s) for all time.  Adobe Analytics already provides an out-of-the-box visit number dimension that would provide more accurate data for overall visit number data than this plug-in-based solution.
 
 ## Prerequisites
-You must have the following to run this plugin:
+You must have the following to run this plug-in:
 * AppMeasurement (i.e. the base Adobe Analytics Code)
-* The endOfDatePeriod plugin (included with code below)
+* The endOfDatePeriod plug-in (included with code below)
 
 ## How to Deploy
 
-You may use one of the following three methods to deploy the getVisitNum plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
+You may use one of the following three methods to deploy the getVisitNum plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
 
-### Method #1. Edit the Adobe Analytics AppMeasurement file
-Copy + Paste the following code to anywhere within the Plugins section of the AppMeasurement file
-```javascript
+
+## Install the plug-in using the Adobe Experience Platform Launch extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install (and publish) the "Common Analytics Plugins" extension
+1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize addProductEvar
+1. Save and publish the changes to the rule
+
+## Install the plug-in using Launch custom code editor
+
+If you do not want to use the plug-in extension, you can use the custom code editor.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Save and publish the changes to the Analytics extension.
+
+## Install the plug-in using AppMeasurement
+
+Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+
+```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getVisitNum v4.11 (Requires AppMeasurement and the endOfDatePeriod plugin) */
+/* Adobe Consulting Plugin: getVisitNum v4.11 (Requires AppMeasurement and the endOfDatePeriod plug-in) */
 s.getVisitNum=function(rp,erp){var s=this,c=function(rp){return isNaN(rp)?!1:(parseFloat(rp)|0)===parseFloat(rp)};rp=rp?rp:365;erp= "undefined"!==typeof erp?!!erp:c(rp)?!0:!1;var e=(new Date).getTime(),b=endOfDatePeriod(rp);if(s.c_r("s_vnc"+rp))var g=s.c_r("s_vnc"+rp).split("&vn="),d=g[1];if(s.c_r("s_ivc"))return d?(b.setTime(e+18E5),s.c_w("s_ivc",!0,b),d):"unknown visit number";if("undefined"!==typeof d)return d++,c=erp&&c(rp)?e+864E5*rp:g[0],b.setTime(c),s.c_w("s_vnc"+rp,c+"&vn="+d,b),b.setTime(e+ 18E5),s.c_w("s_ivc",!0,b),d;c=c(rp)?e+864E5*rp:endOfDatePeriod(rp).getTime();s.c_w("s_vnc"+rp,c+"&vn=1",b);b.setTime(e+18E5); s.c_w("s_ivc",!0,b);return"1"};
 
 /* Adobe Consulting Plugin: endOfDatePeriod v1.1 (No Prerequisites Needed) */
 var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.setHours(23);a.setMinutes(59);a.setSeconds(59); "w"===dp&&(b=6-a.getDay());if("m"===dp){b=a.getMonth()+1;var d=a.getFullYear();b=(new Date(d?d:1970,b?b:1,0)).getDate()-a.getDate()}a.setDate(a.getDate()+b);"y"===dp&&(a.setMonth(11),a.setDate(31));return a};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
-**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
-
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click on the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-* Open the custom code editor and paste the plug-in code provided above into the edit window.
-* Save and publish the changes to the Analytics extension.
-
-### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
-
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-* Install (and publish) the "Common Analytics Plugins" extension
-* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
-	* Extension: Common Analytics Plugins
-	* Action Type: Initialize getVisitNum
-* Save and publish the changes to the rule
-
-## How to Run the Plugin
-When calling the getVisitNum plugin (via JavaScript), be sure to pass in the following arguments:
+## Use the plug-in
+When calling the getVisitNum plug-in (via JavaScript), be sure to pass in the following arguments:
 
 * **rp** (optional, integer OR string):
 	* Set the rp argument equal to the number of days before the visit number counter resets.  Defaults to 365 (i.e. 1 year) when not set
@@ -81,74 +87,85 @@ The visit number will increment any time the visitor returns to your site after 
 ## Cookies
 The getVisitNum Plugin sets a first-party cookie called "s_vnc[LENGTH]" where [LENGTH] is the value passed into the rp parameter (e.g. "s_vncw", "s_vncm", "s_vnc365", etc.).  The value of the cookie is equal to a combination of a unix timestamp that represents the time that the visit number will reset (e.g. end of the week, end of the month, after 365 days of inactivity, etc.) AND the visit number.
 
-The plugin sets another cookie, called "s_ivc", that is equal to only to the value of "true" and expires after 30 minutes of inactivity (i.e. at the end of the visit).
+The plug-in sets another cookie, called "s_ivc", that is equal to only to the value of "true" and expires after 30 minutes of inactivity (i.e. at the end of the visit).
 
 ## Example Calls
 
 ### Example #1
 For a visitor that hasn't been to the site within the last 365 days, the following code will set s.prop1 equal to the value of 1:
-```javascript
+
+```js
 s.prop1=s.getVisitNum();
 ```
 
 ### Example #2
 For a visitor that returns to the site within 364 days after his/her first visit, the following code will set s.prop1 equal to 2:
-```javascript
+
+```js
 s.prop1=s.getVisitNum(365);
 ```
 If this visitor returns to the site within 364 days after his/her second visit, the following code will set s.prop1 equal to 3:
-```javascript
+
+```js
 s.prop1=s.getVisitNum(365);
 ```
 
 ### Example #3
 For a visitor that returns to the site within 179 days after his/her first visit, the following code will set s.prop1 equal to 2:
-```javascript
+
+```js
 s.prop1=s.getVisitNum(180,false);
 ```
 However, if this visitor returns to the site 1 or more days after his/her second visit, the following code will set s.prop1 equal to 1:
-```javascript
+
+```js
 s.prop1=s.getVisitNum(180,false);
 ```
 When the second argument in the call is equal to false, the routine that determines when the visit number should be "reset" to 1 will do so "x" number of days – in this example, 365 days – after the visitor's first visit to the site.
 
-When the second argument is equal to true (or not set at all), the plugin will reset the visit number to 1 only after "x" number of days – again, in this example, 365 days – of visitor inactivity.
+When the second argument is equal to true (or not set at all), the plug-in will reset the visit number to 1 only after "x" number of days – again, in this example, 365 days – of visitor inactivity.
 
 ### Example #4
 For all visitors that come to the site for the first time during the current week – beginning on Sunday - the following code will set s.prop1 equal to 1:
-```javascript
+
+```js
 s.prop1=s.getVisitNum("w");
 ```
 
 ### Example #5
 For all visitors that come to the site for the first time during the current month – beginning on the first day of each month - the following code will set s.prop1 equal to 1:
-```javascript
+
+```js
 s.prop1=s.getVisitNum("m");
 ```
-Keep in mind that the getVisitNum plugin does not consider retail-based calendars (i.e. 4-5-4, 4-4-5, etc.)
+Keep in mind that the getVisitNum plug-in does not consider retail-based calendars (i.e. 4-5-4, 4-4-5, etc.)
 
 ### Example #6
 For all visitors that come to the site for the first time during the current year – beginning on January 1 - the following code will set s.prop1 equal to 1:
-```javascript
+
+```js
 s.prop1=s.getVisitNum("y");
 ```
 
 ### Example #7
 If you wish to track a visitor's visit number for the week, a visitor's visit number for the month, and a visitor's visit number for the year – all within different Analytics variables – you should use code that resembles the following:
-```javascript
+
+```js
 s.prop1=s.getVisitNum("w");
 s.prop2=s.getVisitNum("m");
 s.prop3=s.getVisitNum("y");
 ```
-In this case, the plugin will create three different cookies – one for each of the different time periods – to keep track of the individual visit number per time period.
+In this case, the plug-in will create three different cookies – one for each of the different time periods – to keep track of the individual visit number per time period.
 
 ## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plugin code from this...
-```javascript
+When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
+
+```js
 s.getVisitNum=function(rp,erp)
 ```
 ...to this:
-```javascript
+
+```js
 [objectname].getVisitNum=function(rp,erp)
 ```
 ## Version History
@@ -156,11 +173,11 @@ s.getVisitNum=function(rp,erp)
 ### 4.11 (2019-09-30)
 * Bug fix for "extend reset period" argument being explicitly set equal to false
 ### 4.1 (2018-05-21)
-* Updated to accommodate version 1.1 of the endOfDatePeriod plugin
+* Updated to accommodate version 1.1 of the endOfDatePeriod plug-in
 ### 4.0 (2018-04-17)
 * Point Release (recompiled, smaller code size)
-* Removed the cookie arguments as the plugin will now dynamically generate cookies based off of the time period (the "rp" argument)
+* Removed the cookie arguments as the plug-in will now dynamically generate cookies based off of the time period (the "rp" argument)
 ### 3.0 (2016-06-05) (Previous Changes Undocumented)
 * Complete overhaul
-* Combined all previous solutions available in sundry getVisitNum plugin variations into one single plugin.
+* Combined all previous solutions available in sundry getVisitNum plug-in variations into one single plug-in.
 

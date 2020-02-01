@@ -1,38 +1,43 @@
 ---
 title: addProductEvent
-description: Adds custom events to the products and events variable
+description: Adds custom events to the products and events variable.
 ---
 
-# Adobe Plugin: addProductEvent
+# Adobe plug-in: addProductEvent
 
-## Plugin Purpose
+The `addProductEvent` plug-in adds a numeric or currency event to the `products` variable. Adobe recommends using this plug-in if you want to add a numeric or currency event to the `products` variable without worrying about the product string format. This plug-in is not necessary if you don't use numeric or currency events in the `products` variable.
 
-### What does this plugin do?
+## Install the plug-in using the Adobe Experience Platform Launch extension
 
-The addProductEvent plugin allows you to easily add an Adobe Analytics custom numeric event or custom currency event to the products variable without worrying whether the already-existing contents of the products variable will be changed/moved/deleted.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-### Why should I use this plugin?
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install (and publish) the "Common Analytics Plugins" extension
+1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize addProductEvar
+1. Save and publish the changes to the rule
 
-You should use the addProductEvent plugin if you want to add a custom numeric event or custom currency event to the Adobe Analytics products variable
+## Install the plug-in using Launch custom code editor
 
-### Why shouldn't I use this plugin?
+If you do not want to use the plug-in extension, you can use the custom code editor.
 
-You won't need to use the addProductEvent plugin if you don't need to set a custom numeric event or custom currency event within the products variable.  Using the plugin won't be necessary also if you use only custom counter events or you don't use Adobe Analytics in general
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Save and publish the changes to the Analytics extension.
 
-## Prerequisites
+## Install the plug-in using AppMeasurement
 
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) and the apl/inList plugins to run the addProductEvent plugin
+Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
-## How to Deploy
-
-You may use one of the following three methods to deploy the addProductEvent plugin.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plugin code to your implementation.
-
-### Method #1. Edit the Adobe Analytics AppMeasurement file
-
-Copy+ Paste the following code to anywhere within the Plugins section of the AppMeasurement file
-```javascript
+```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: addProductEvent v1.0 (Requires AppMeasurement and the apl v3.1+/inList v2.0+ plugins) */
+/* Adobe Consulting Plugin: addProductEvent v1.0 (Requires AppMeasurement and the apl v3.1+/inList v2.0+ plug-ins) */
 s.addProductEvent=function(en,ev,ap){var s=this;if("string"===typeof en)if(ev=isNaN(ev)?"1":String(ev),ap=ap||!1,s.events= s.apl(s.events,en),s.products){var e=s.products.split(",");ap=ap?0:e.length-1;for(var a;ap<e.length;ap++)a=e[ap].split(";") ,a[4]&&a[4].includes("event")?a[4]=a[4]+"|"+en+"="+ev:a[5]?a[4]=en+"="+ev:a[4]||(a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[4]=en+"="+ev),e[ap]=a.join(";");s.products=e.join(",")}else s.products=";;;;"+en+"="+ev};
 
 /* Adobe Consulting Plugin: apl (appendToList) v3.2 (Requires AppMeasurement and inList v2.0 or higher) */
@@ -42,163 +47,184 @@ s.apl=function(lv,vta,d1,d2,cc){if(!lv||"string"===typeof lv){if("undefined"===t
 s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
-**NOTE:** Adding the comments/version numbers of the code to the AppMeasurement file will help Adobe with troubleshooting any potential implementation issues.
 
-### Method #2. Edit the Adobe Analytics Extension as contained within Adobe Experience Platform Launch
+## Use the plug-in
 
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click on the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-* Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-* Open the custom code editor and paste the plug-in code provided above into the edit window.
-* Save and publish the changes to the Analytics extension.
+The `addProductEvent` method uses the following arguments:
 
-### Method #3. Leverage the Common Analytics Plugin extension contained within Adobe Experience Platform Launch
+* **en** (required, string): The event to add to the last entry in the `products` variable. If the `products` variable is empty, then a "blank" product entry is created with the event (and its value) attached.
+* **ev** (required, string): The value assigned to the numeric or currency event in the `en` argument.  Defaults to `1` when not set.
+* **ap** (optional, boolean): If the products variable currently contains more than one product entry, a value of `true` (or `1`) adds the event to all product entries.  Defaults to `false` when not set.
 
-* Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-* Click the desired property.
-* Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-* Install (and publish) the "Common Analytics Plugins" extension
-* For any Launch Rule that you want to use the plugin in, add an [!UICONTROL action] with the following configuration:
-	* Extension: Common Analytics Plugins
-	* Action Type: Initialize addProductEvent
-* Save and publish the changes to the rule
-
-## How to Run the Plugin
-
-When calling the addProductEvent plugin (via JavaScript), be sure to pass in the following arguments:
-
-* **en** (required, string) - the event to add to the last entry currently contained in the products variable.  If the products variable is blank, then a "blank" product entry will be created with the event (and its value) attached to the end.
-* **ev** (required, string) - the value to be assigned to the custom numeric/currency event specified in the en argument.  Defaults to 1 when not set or I fh
-* **ap** (optional, boolean) - If the products variable currently contains more than one product entry, a value of true (or 1) will add the event to all the product entries.  Defaults to false (or 0), which will add the event (and its value) to only the last entry contained in the products variable
-
-## Returns
-
-The addProductEvent plugin returns nothing but adds the event (and its value) as specified in the en argument/ev argument to the Adobe Analytics products variable.  The plugin will also automatically add the event to the s.events variable since all events that are set in the products variable need to be set also in the events variable.
+The `addProductEvent` returns nothing. Instead, it adds the event and its value to the `products` variable. The plug-in also automatically adds the event to the `events` variable, since it is also required there.
 
 ## Cookies
 
-The addProductEvent plugin does not create or use any cookies
+The addProductEvent plug-in does not create or use any cookies
 
 ## Example Calls
 
 ### Example #1
 
 If...
-```javascript
+
+```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
 s.events="purchase"
 ```
+
 ...and the following code runs...
-```javascript
+
+```js
 s.addProductEvent("event35", "25");
 ```
+
 ... the final value of s.products will be:
-```javascript
+
+```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
 ```
+
 ...and the final value of s.events will be:
-```javascript
+
+```js
 s.events="purchase,event35"
 ```
 
 ### Example #2
 
 If...
-```javascript
+
+```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
 ```
+
 ...and the following code runs...
-```javascript
+
+```js
 s.addProductEvent("event35", 25, 1);
 ```
+
 ... the final value of s.products will be:
-```javascript
+
+```js
 s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
 ```
+
 When the third argument is equal to true (or 1), each product entry will have the event specified in the call added to its value
 
 ### Example #3
 
 If...
-```javascript
+
+```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
 ```
+
 ...and the following code runs...
-```javascript
+
+```js
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
+
 ... the final value of s.products will be...
-```javascript
+
+```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
 ```
+
 ...and s.events will be set as follows:
-```javascript
+
+```js
 s.events="purchase,event2,event33,event34,event35"
 ```
 
 ### Example #4
+
 If...
-```javascript
+
+```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
 ```
+
 ...and the following code runs...
-```javascript
+
+```js
 s.addProductEvent("event33", "12", 1);
 s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
 s.addProductEvent("event35", "15", 1);
 ```
+
 ... the final value of s.products will be...
-```javascript
+
+```js
 s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
 ```
+
 ...and s.events will be set as follows:
-```javascript
+
+```js
 s.events="purchase,event2,event33,event34,event35"
 ```
 
 ### Example #5
 
 If s.products isn't set and the following code runs...
-```javascript
+
+```js
 s.addProductEvent("event35", "25");
 ```
+
 ...the final value of s.products will be:
-```javascript
+
+```js
 s.products=";;;;event35=25"
 ```
+
 In this case, event35 will also be appended to the end of s.events
 
 ## s Object Replacement
-When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plugin code from this...
+
+When instantiating the main AppMeasurement library object with a name other than "s", change the following portion of the plug-in code from this...
 
 ```javascript
 s.addProductEvent=function(en,ev,ap)
 ```
+
 ...to this:
-```javascript
+
+```js
 [objectname].addProductEvent=function(en,ev,ap)
 ```
+
 Also be sure to change this...
-```javascript
+
+```js
 s.apl=function(lv,vta,d1,d2,cc){
 ```
+
 ...to this:
-```javascript
+
+```js
 [objectname].apl=function(lv,vta,d1,d2,cc){
 ```
+
 And change this...
-```javascript
+
+```js
 s.inList=function(lv,vtc,d,cc){
 ```
+
 ...to this:
-```javascript
+
+```js
 [objectname].inList=function(lv,vtc,d,cc){
 ```
+
 
 ## Version History
 

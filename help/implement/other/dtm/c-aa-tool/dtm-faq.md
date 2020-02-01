@@ -1,6 +1,6 @@
 ---
 description: A FAQ about the automatic configuration of the Adobe Analytics deployment. The automatic configuration method manages the AppMeasurement code for you.
-keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
+keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQs about the Adobe Analytics Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
@@ -19,8 +19,8 @@ A FAQ about the automatic configuration of the Adobe Analytics deployment. The a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Where do I put my plugins when implementing Adobe Analytics via DTM? </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plugins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Both implementation methods should be equally effective. </p> </td> 
+   <td colname="col1"> <p> Where do I put my plug-ins when implementing Adobe Analytics via DTM? </p> </td> 
+   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plug-ins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plug-ins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Both implementation methods should be equally effective. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>If I make configuration changes in the new version of the tool, can I test in staging before publishing to production? </p> </td> 

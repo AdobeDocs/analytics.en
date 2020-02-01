@@ -44,7 +44,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `ns` | `visitorNameSpace` | Helps determine where cookies are set. |
 | `oid` | `objectID` | Object identifier for the last page. Used in Activity Map. |
 | `ot` | None | Object name for the last page. Used in previous versions of Activity Map. |
-| `p` | None | No longer used. List of plugins used in the browser. |
+| `p` | None | No longer used. List of plug-ins used in the browser. |
 | `pageName` | `pageName` | Used in the Page dimension. |
 | `pageType` | `pageType` | Used in the Pages Not Found dimension. |
 | `pccr` | None | Only set for new visitors and always set to `true`. Prevents infinite redirects. |

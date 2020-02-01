@@ -13,7 +13,7 @@ Once your Adobe Experience Platform Launch library is pushed to production, your
 
 ## Validate your dev implementation using the Experience Cloud debugger
 
-The Experience Cloud debugger is a Chrome plugin that shows all Experience Cloud tags present on a page.
+The Experience Cloud debugger is a Chrome plug-in that shows all Experience Cloud tags present on a page.
 
 1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
 2. Navigate to your development website that you have implemented Launch on.
@@ -53,7 +53,7 @@ While on your site, open the browser's developer console (typically F12). Look a
 * There are no JavaScript errors in the console. Work with your organization's website owners to make sure all JS errors are resolved.
 * Header code is properly implemented: Make sure the header code is inside the `<head>` tag, and that the file exists.
 * AppMeasurement library exists: Navigate directly to the JS source to make sure the JS file contains code. If it does not, make sure each environment is created, and that the library is published to its respective environment.
-* Interfering plugins: Some Chrome plugins can prevent image requests from firing. Disable any plugins that might stop data from being sent to Adobe's servers.
+* Interfering plug-ins: Some Chrome plug-ins can prevent image requests from firing. Disable any plug-ins that might stop data from being sent to Adobe's servers.
 
 ## Next Steps
 

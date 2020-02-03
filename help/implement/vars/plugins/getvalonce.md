@@ -5,26 +5,9 @@ description: Prevent an Analytics variable from being set to the same value twic
 
 # Adobe plug-in: getValOnce
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
-
-### What does this plug-in do?
-The getValOnce plug-in prevents a variable from being set equal to the same value twice in a row (or more)
-
-### Why should I use this plug-in?
-The getValOnce plug-in is useful in situations where your organization would like to deduplicate, for example, multiple campaign click-through instances that might occur when users refresh a landing page or come back to the landing page via hitting the browser's back button.
-
-### Why shouldn't I use this plug-in?
-You your organization does not need to deduplicate a variable's value, then you won't need to use this plug-in.
-
-## Prerequisites
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run this plug-in
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the getValOnce plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
-
+The `getValOnce` plug-in prevents a variable from being set equal to the same value more than once. Adobe recommends using this plug-in when you would like to deduplicate occurrences where a visitor refreshes a page or otherwise visit a given page multiple times. This plug-in is unnecessary if you are not worried about the 'Occurrences' metric in Analysis Workspace.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -33,8 +16,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -47,12 +30,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

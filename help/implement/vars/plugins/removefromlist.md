@@ -5,29 +5,14 @@ description: Remove a specific value from a character-delimited string.
 
 # Adobe plug-in: rfl (Remove From List)
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
+The `rfl` plug-in allows you to "safely" remove values from delimited strings, such as `events`, `products`, list vars, and others. This plug-in is useful if you want to remove specific values from a delimited string without worrying about delimiters. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
 
-### What does this plug-in do?
-The rfl plug-in is a JavaScript function that allows you to "safely" remove values from list-delimited variables (e.g. s.events, s.linkTrackVars, listVars, etc.).
+The plug-in uses the following logic:
 
-### Why should I use this plug-in?
-You should use the rfl plug-in if you want to remove a specific value from a variable that already contains multiple delimited values.  This plug-in utility is especially useful for removing specific events (contained in s.events) that use serialization and/or integer/currency-based syntax.
-* If the value you want to remove exists in the variable that you want to remove the value from, then the plug-in will keep everything in the variable except the value to remove.  
-* If the value you want to remove doesn't exist in the variable, then the code will simply keep the original variable value as is.
-
-You can use the plug-in if you want to also change the delimiter that a variable uses to separate out the individual values contained within it. 
-
-### Why shouldn't I use this plug-in?
-If you have no need to remove a specific value from a variable containing a delimited list of values, then you have no need for this plug-in.   
-
-## Prerequisites
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run the rfl plug-in.
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the rfl plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation. 
+* If the value you want to remove exists, the plug-in keeps everything in the variable except the value to remove.
+* If the value you want to remove doesn't exist, the plug-in keeps the original string as-is.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -36,8 +21,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -50,12 +35,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

@@ -5,36 +5,9 @@ description: Check if a value is contained in another character-delimited value.
 
 # Adobe plug-in: inList
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
-
-### What does this plug-in do?
-The inList plug-in is a utility that allows you to check whether a value already exists within either a delimited list of values or a JavaScript array object.
-
-### Why should I use this plug-in?
-You should use the inList plug-in in conjunction with other plug-ins, such as the appendToList plug-in, or if you want to simply check (within an if statement) whether a value already exists within a delimited list of values.
-
-### Why shouldn't I use this plug-in?
-If you are looking for only a partial match between a specific value and a delimited list of values, then then you have no need for this plug-in and can use a simple concatenation operator instead.
-For example, if ...
-
-```js
-s.events="event1,event25,event3";
-```
-...and you want to find out if 'event2' is contained within s.events (without an exact match), then the following if statement...
-
-```js
-if(s.events.indexOf("event2") >- 1)
-```
-...will suffice, as it will return a positive number and thus indicate the fact that event2 is contained within s.events (as a "partial match" with event25)
-
-## Prerequisites
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run the inList plug-in
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the inList plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+The `inList` plug-in allows you to check if a value already exists within either a delimited string or a JavaScript array object. Several other plug-ins depend on the `inList` plug-in to work. This plug-in provides a distinct advantage over the JavaScript method `indexOf()` where you it does not match partial strings. For example, if you used this plug-in to check for `"event2"`, it won't match with a string containing `"event25"`. This plug-in is not necessary if you don't need to check for values in delimited strings or arrays, or if you want to use your own `indexOf()` logic.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -43,8 +16,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -57,12 +30,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

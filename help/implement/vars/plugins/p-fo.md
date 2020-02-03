@@ -5,30 +5,9 @@ description: Ensure that certain routines fire only once per page.
 
 # Adobe plug-in: p_fo (Page First Only)
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
-
-### What does this plug-in do?
-The p_fo (pageFirstOnly) plug-in is a utility that checks for the existence of a specific JavaScript object.  If the object doesn't exist, then the plug-in creates the object and returns the value of true.  This would be the first and only time the plug-in would create this object on the current page (hence the name, pageFirstOnly)
-
-If the JavaScript object already exists on the page, then the function will return the value of false
-
-### Why should I use this plug-in?
-The doPlugins function, which is a key part of any Adobe Analytics/AppMeasurement deployment, has the potential to run multiple times while a visitor interacts with a single page even though certain portions of the doPlugins code might not have been meant to run so often.   Inadvertently running doPlugins multiple times per page might produce inaccurate data before Adobe Analytics is meant to send a server call.
-
-p_fo allows you to add a conditional statement that will run code (in doPlugins or anywhere else) only if a specific JavaScript object hasn't been created yet on the page.  If the JavaScript object hasn't yet been created, the plug-in will create the object automatically, which in turn (by its mere existence) will prevent the code that would have just run from running again.
-
-### Why shouldn't I use this plug-in?
-If you don't care how often a certain piece of JavaScript code runs on a page, then you have no need for the p_fo plug-in.
-
-## Prerequisites
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) to run this plug-in
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the p_fo plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
-
+The `p_fo` plug-in is a utility that checks for the existence of a specific JavaScript object. If the object doesn't exist, then the plug-in creates the object and returns `true`. If the JavaScript object already exists on the page, then it returns `false`. This plug-in is useful to run code exactly once on a page. Several other plug-ins rely on this code to work. This plug-in is unnecessary if you're not worried about how many times code runs on a page, or if you don't use any dependent plug-ins.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -37,8 +16,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -51,12 +30,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

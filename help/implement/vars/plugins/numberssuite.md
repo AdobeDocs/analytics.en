@@ -5,28 +5,13 @@ description: Produce and manipulate numbers for use in other JavaScript variable
 
 # Adobe plug-in: Numbers Suite
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
+The Numbers Suite a series of JavaScript functions. It includes the following plug-ins:
 
-### What does this plug-in do?
-The Numbers Suite a series of JavaScript functions that allow you to...
-* Add a specific number of zeroes to the beginning of a number (if a number is required to have a certain number of digits in it)
-* Generate a random number with a specific number of digits
-* Round a number to the closet hundredth (for currency purposes)
-
-### Why should I use this plug-in?
-You should use the Numbers Suite if, for example..
-* You work with JavaScript date objects and need to make sure that you format a date's month and day with two digits instead of just one digit (e.g. "01/09/2020" instead of just "1/9/2020")
-* You deploy 3rd-party tags and need to generate a cache-busting random number
-* You need to capture currency-based values in Adobe Analytics variables but need the values to be rounded to a proper amount
-
-## Prerequisites
-None
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the Numbers Suite.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+* **`zeroPad`**: Add a specific number of zeros to the beginning of a number. This plug-in is useful if a variable requires a certain number of digits, such as if you work with JavaScript date objects and want to format a date's month and day with two digits instead of just one digit. For example, `01/09/2020` instead of `1/9/2020`.
+* **`randomNumber`**: Generate a random number with a specific number of digits. This plug-in is useful if you deploy 3rd-party tags and want a cache-busting random number.
+* **`twoDecimals`**: Round a number to the closet hundredth. This plug-in is useful for currency purposes, allowing you to round a number to a valid currency value.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -35,8 +20,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -49,12 +34,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

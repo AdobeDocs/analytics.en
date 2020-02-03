@@ -5,38 +5,11 @@ description: Extract the value of a URL's query string parameter.
 
 # Adobe plug-in: getQueryParam
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
+The `getQueryParam` plug-in allows you to extract the value of any query string parameter contained in a URL. It is useful for extracting campaign codes, both internal and external, from landing page URLs. It is also valuable when extracting search terms or other query string parameters.
 
-### What does this plug-in do?
-The getQueryParam plug-in allows you to extract the value of any query string parameter contained in a URL
-
-### Why should I use this plug-in?
-The getQueryParam plug-in is an essential plug-in that is used for, but not limited to:
-
-* Extracting campaign tracking codes – both internal and external – from landing page URLs
-* Extracting search terms from other query string parameters
-* Etc.
-
-If you use AppMeasurement, which has its own built-in version of the plug-in (s.Util.getQueryParam), Adobe Consulting still recommends using this version of the plug-in as it contains enhanced functionality that is not currently present in the below-the-line version.
-
-### Why shouldn't I use this plug-in?
-
-If you have no need to extract any query string parameters from a URL, then you have no need to use the getQueryParam plug-in.  You may use also Adobe Experience Platform Launch or Adobe Analytics Processing Rules to extract query string parameters values.
-
-## Prerequisites
-To run the getQueryParam plug-in, you must have the following code/plugins:
-* AppMeasurement (i.e. the base Adobe Analytics Code)
-* pt v2.0 (plugin, included in code below)
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the getQueryParam plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
-
-## Install the plug-in using AppMeasurement
-
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the `Util.getQueryParam` method included in AppMeasurement.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -45,8 +18,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -59,7 +32,7 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ```js

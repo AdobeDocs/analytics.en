@@ -5,21 +5,9 @@ description: Retrieve the percentage of the page the visitor viewed.
 
 # Adobe plug-in: getPercentPageViewed
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Plugin Purpose
-
-### What does this plug-in do?
-The getPercentPageViewed plug-in measures a visitor's scroll activity to see how much of a page he/she views before moving onto another page.
-
-### Why wouldn't I use this plug-in?
-If your web pages are small in height or you do not need to measure how far visitors scroll down on the site, then you will not need to use the getPercentPageViewed plug-in.   Also, if you want to measure scroll activity on only exit pages, you will not be able to use this plug-in.
-
-## Prerequisites
-You must have AppMeasurement (i.e. the base Adobe Analytics Code), the p_fo plug-in, and the handlePPVevents helper plug-in (included in the Code to Deploy section below) to run the getPercentPageViewed plug-in
-
-## How to Deploy
-You may use one of the following methods to deploy the getPageName plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+The `getPercentPageViewed` plug-in measures a visitor's scroll activity to see how much of a page they view before moving on to another page. This plug-in is not necessary if your pages are small in height or do not want to measure scroll activity.
 
 ## Install the plug-in using Launch custom code editor
 
@@ -29,12 +17,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

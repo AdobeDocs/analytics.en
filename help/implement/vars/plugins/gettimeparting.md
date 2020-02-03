@@ -5,32 +5,13 @@ description: Measure the time when a specific action takes place.
 
 # Adobe plug-in: getTimeParting
 
-> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-## Purpose of This Plugin
+The `getTimeParting` plug-in allows you to capture the details of the time when any measurable activity takes place on your site. This plug-in is valuable when you want to breakdown metrics by any repeatable division of time over a given date range. For example, you can compare conversion rates between two different days of the week, such as all Sundays vs. all Thursdays. You can also compare periods of the day, such as all mornings vs. all evenings.
 
-### What does this plug-in do?
-The getTimeParting plug-in provides a complete analytics solution that allows a client to capture the details of the time when any measurable activity takes place on its site.
+Analysis Workspace provides similar, out-of-the-box dimensions that are formatted slightly differently than this plug-in. See [time parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in the Analyze user guide for more information. Some organizations find that Analysis Workspace's out-of-the-box dimensions are sufficient.
 
-### Why should I use this plug-in?
-You should use the getTimeParting plug-in if you wish to breakdown your metrics by any repeatable division of time over a given date range.  For example, the getTimeParting plug-in will allow you to compare conversion rates between two different days of the week (e.g. all Sundays vs. all Thursdays), two different periods of the day (e.g. all mornings vs. all evenings), or even two subsequent minutes (e.g. all 10:00 AM instances vs. all 10:01 AM instances) for the date range you specify in the report.
-
-Analysis Workspace provides similar, out-of-the-box dimensions that are formatted in a slightly different manner than what this plug-in provides (see here), so Adobe Consulting recommends you read through the remainder of this document (and the aforementioned link to the help section) to determine whether this plug-in provides data in a manner that's more suited to your needs.
-
-### Why shouldn't I use this plug-in?
-
-If you don't care about breaking down your metrics by a repeatable division of time over a specific date range, then you will not need to use the getTimeParting plug-in.  Also, if you find the Analysis Workspace Time-Parting Dimensions sufficient, then you will not need to implement this plug-in.
-
-**Please note**: the solution that version 4.0+ of the getTimeParting plug-in provides is much different than what earlier versions of the plug-in have provided.  If you choose to upgrade from a version before 4.0, you should implement the solution "from scratch".  In other words, you should setup a completely brand new eVar – one eVar – to hold the data provided by the plug-in and read through this documentation carefully before implementing the solution.
-
-**Also**: This version of the plug-in is not **fully** compatible with Microsoft Internet Explorer browsers, although the plug-in is fully compatible with Microsoft Edge browsers.   Visitors that use Internet Explorer will be able to provide the time but only in their local time zone rather than converted to the time zone you specify.  See the examples below for a solution that will not include data from Internet Explorer browsers but will still account for their presence.
-
-## Prerequisites
-None
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the getTimeParting plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+> [IMPORTANT] Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -39,8 +20,8 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the 'Common Analytics Plugins' extension
-1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
 1. Save and publish the changes to the rule
@@ -53,12 +34,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
-1. Open the custom code editor and paste the plug-in code provided above into the edit window.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -68,6 +49,7 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 ```
 
 ## Use the plug-in
+
 When calling the getTimeParting plug-in (via JavaScript), be sure to pass in the following arguments:
 
 **t**: (OPTIONAL but recommended, string) The name of the time zone to convert the visitor's local time to.  Defaults to “Etc/GMT”, or UTC/GMT time.  Visit https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the complete list of values to enter.

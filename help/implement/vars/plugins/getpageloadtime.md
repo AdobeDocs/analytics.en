@@ -5,6 +5,8 @@ description: Track the amount of time a page takes to load.
 
 # Adobe plug-in: getPageLoadTime
 
+> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+
 The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension

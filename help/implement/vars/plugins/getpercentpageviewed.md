@@ -5,6 +5,8 @@ description: Retrieve the percentage of the page the visitor viewed.
 
 # Adobe plug-in: getPercentPageViewed
 
+> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+
 ## Plugin Purpose
 
 ### What does this plug-in do?

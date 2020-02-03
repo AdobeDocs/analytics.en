@@ -5,6 +5,8 @@ description: Remove a specific value from a character-delimited string.
 
 # Adobe plug-in: rfl (Remove From List)
 
+> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+
 ## Purpose of This Plugin
 
 ### What does this plug-in do?

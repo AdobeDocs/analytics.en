@@ -5,6 +5,8 @@ description: Create an easy-to-read pageName from the current website path.
 
 # Adobe plug-in: getPageName
 
+> [!IMPORTANT] This plug-in is provided by Adobe consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+
 The `getPageName` plug-in creates an easy to read, friendly formatted version of the current URL. Adobe recommends using this plug-in if you want a `pageName` value that is easy to set and understand in reporting. This plug-in is unnecessary if you already have a naming structure for the `pageName` variable, such as through a data layer. It is best used when you don't have another solution to set the `pageName` variable.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension

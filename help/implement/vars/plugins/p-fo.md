@@ -58,7 +58,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 */
 s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

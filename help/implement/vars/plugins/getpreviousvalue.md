@@ -50,7 +50,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPreviousValue v2.0 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: getPreviousValue v2.0 */
 s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

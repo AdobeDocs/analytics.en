@@ -61,7 +61,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getNewRepeat v2.1 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: getNewRepeat v2.1 */
 s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),f=e.split("-"),c=b.getTime();b.setTime(c+864E5*d); if(""===e||18E4>c-f[0]&&"New"===f[1])return s.c_w(p,c+"-New",b),"New";s.c_w(p,c+"-Repeat",b);return"Repeat"};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

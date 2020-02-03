@@ -57,7 +57,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: rfl (removeFromList) v2.01 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: rfl (removeFromList) v2.01 */
 s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df=df?!0:!1;lv=lv.split(d1?d1:",");d1=lv.length;for(var c=0;c<d1;c++)-1<lv[c].indexOf(":")&&(b=lv[c].split(":"),b[1]=b[0]+":"+b[1],lv[c]=b[0]),-1<lv[c].indexOf("=")&&(b=lv[c].split("="), b[1]=b[0]+"="+b[1],lv[c]=b[0]),lv[c]!==vr&&b?d.push(b[1]):lv[c]!==vr?d.push(lv[c]):lv[c]===vr&&df&&(b?d.push(b[1]):d.push(lv[c]),df=!1),b="";return d.join(d2)};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
@@ -353,6 +353,7 @@ s.rfl(s.events,"event23");
 ```js
 s.events = "event22,event23,event24";
 ```
+
 Again, keep in mind the plug-in only returns a value; it does not actually "reset" the variable passed in through the lv argument.
 
 ## Version History

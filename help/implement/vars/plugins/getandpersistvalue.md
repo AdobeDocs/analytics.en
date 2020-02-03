@@ -57,7 +57,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getAndPersistValue v2.0 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: getAndPersistValue v2.0 */
 s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex?ex:0)?b.setTime(b.getTime()+864E5*ex): b.setTime(b.getTime()+18E5);vtp||(vtp=this.c_r(cn));this.c_w(cn,vtp,b);return vtp};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

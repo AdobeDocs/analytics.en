@@ -56,13 +56,13 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: zeroPad v1.0 (No Prerequisites) */
+/* Adobe Consulting Plugin: zeroPad v1.0 */
 function zeroPad(num,nod){num=parseInt(num);nod=parseInt(nod);if(isNaN(num)||isNaN(nod))return"";var c=nod-num.toString().length+ 1;return Array(+(0<c&&c)).join("0")+num};
 
-/* Adobe Consulting Plugin: randomNumber v2.0 (zeroPad optional)*/
+/* Adobe Consulting Plugin: randomNumber v2.0 (zeroPad plug-in optional)*/
 function randomNumber(nod){nod="number"===typeof nod?17>Math.abs(nod)?Math.round(Math.abs(nod)):17:10;for(var a="1",c=0;c<nod;c++) a+="0";a=Number(a);a=Math.floor(Math.random().toFixed(nod)*a)+"";a.length!==nod&&"undefined"!==typeof zeroPad&&(a=zeroPad(a,nod)); return a};
 
-/* Adobe Consulting Plugin: twoDecimals v1.0 (No Prerequisites)*/
+/* Adobe Consulting Plugin: twoDecimals v1.0 */
 function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Number(Number(v).toFixed(2))};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

@@ -41,7 +41,7 @@ Copy and paste the following code anywhere in AppMeasurement file after the Anal
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 (Requires AppMeasurement) */
+/* Adobe Consulting Plugin: pt v2.01 */
  s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```

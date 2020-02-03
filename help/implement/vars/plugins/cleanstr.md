@@ -5,32 +5,7 @@ description: Remove or replace All unnecessary characters from a string.
 
 # Adobe plug-in: cleanStr
 
-## Plugin Purpose
-
-### What does this plug-in do?
-
-The cleanStr plug-in removes/replace all unnecessary characters from a string (or string variable), including the following characters:
-* HTML tag characters
-* Extra whitespaces (including double spaces)
-* Left/right single quotes (‘’) (replaced with straight single quotes)
-* Tabs
-* Newlines/Carriage Returns
-
-### Why should I use this plug-in?
-
-You should use the cleanStr plug-in if you want to remove any unnecessary characters from your Adobe Analytics variables (or any JavaScript variables, for that matter)
-
-### Why shouldn't I use this plug-in?
-
-If all the data you collect in your variables contain no unnecessary characters, then you won't need to use the cleanStr plug-in
-
-## Prerequisites
-
-None
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the cleanStr plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+The `cleanStr` plug-in removes or replaces all unnecessary characters from a string, including HTML tag characters, extra whitespaces, tabs, and newline/carriage returns. It also replaces left/right single quotes (`‘` and `’`) straight single quotes (`'`). Adobe recommends using this plug-in if you want to remove unnecessary characters from variable values and the 'Clean text' feature in Launch does not fulfill your implementation needs. This plug-in is not necessary if the collected data does not contain unnecessary characters, or if the 'Clean text' feature in Launch is sufficient.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -39,7 +14,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
@@ -69,19 +44,13 @@ function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)
 
 ## Use the plug-in
 
-When calling the cleanStr plug-in (via JavaScript), be sure to pass in the following arguments:
+The `cleanStr` method uses the following arguments:
 
-* **str** (required, string): A string (variable or otherwise) containing any HTML encoding, extra whitespace, tabs, etc. that you want to remove from its value
+* **`str`** (required, string): The value that you want to clean HTML encoding, extra whitespace, tabs, or other unnecessary characters.
 
-## Returns
+The method returns the value of the `str` argument with all unnecessary characters removed.
 
-The cleanStr plug-in returns the value of the str argument but with all the unnecessary characters taken out
-
-## Cookies
-
-The cleanStr plug-in does not create or use any cookies
-
-## Example Calls
+## Examples
 
 ### Example #1
 
@@ -90,11 +59,13 @@ Assume the following (where the dots represent spaces and the arrows represent t
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
+
 When you run the following code...
 
 ```js
 s.eVar1 = cleanStr(s.eVar1)
 ```
+
 ...eVar1 will be set equal to "this is a messystring" (with all extra spaces and all tab characters removed)
 
 ### Example #2
@@ -104,16 +75,19 @@ If...
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
+
 ...and the following code runs...
 
 ```js
 cleanStr(s.eVar1)
 ```
+
 ...the final value of s.eVar1 will still be:
 
 ```js
 "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
+
 Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the str argument.
 
 ## Version History

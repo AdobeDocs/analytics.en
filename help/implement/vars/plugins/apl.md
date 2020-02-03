@@ -20,7 +20,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
@@ -55,11 +55,11 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 The `apl` method uses the following arguments:
 
-* **lv** (required, string): The variable that contains a delimited list of items to add a new value to
-* **vta** (required, string): A comma delimited list of the new value(s) to add to the `lv` argument's value.
-* **d1** (optional, string): The delimiter used to separate the individual values already contained in the `lv` argument.  Defaults to a comma (`,`) when not set.
-* **d2** (optional, string): The output delimiter. Defaults to the same value as `d1` when not set.
-* **cc** (optional, boolean): A flag that indicates if a case-sensitive check is used. If `true`, the duplication check is case-sensitive. If `false` or not set, the duplication check is not case-sensitive. Defaults to `false`.
+* **`lv`** (required, string): The variable that contains a delimited list of items to add a new value to
+* **`vta`** (required, string): A comma delimited list of the new value(s) to add to the `lv` argument's value.
+* **`d1`** (optional, string): The delimiter used to separate the individual values already contained in the `lv` argument.  Defaults to a comma (`,`) when not set.
+* **`d2`** (optional, string): The output delimiter. Defaults to the same value as `d1` when not set.
+* **`cc`** (optional, boolean): A flag that indicates if a case-sensitive check is used. If `true`, the duplication check is case-sensitive. If `false` or not set, the duplication check is not case-sensitive. Defaults to `false`.
 
 The `apl` method returns the value of the `lv` argument plus any non-duplicate values in the `vta` argument.
 

@@ -14,7 +14,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
@@ -52,9 +52,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 The `addProductEvent` method uses the following arguments:
 
-* **en** (required, string): The event to add to the last entry in the `products` variable. If the `products` variable is empty, then a "blank" product entry is created with the event (and its value) attached.
-* **ev** (required, string): The value assigned to the numeric or currency event in the `en` argument.  Defaults to `1` when not set.
-* **ap** (optional, boolean): If the products variable currently contains more than one product entry, a value of `true` (or `1`) adds the event to all product entries.  Defaults to `false` when not set.
+* **`en`** (required, string): The event to add to the last entry in the `products` variable. If the `products` variable is empty, then a "blank" product entry is created with the event (and its value) attached.
+* **`ev`** (required, string): The value assigned to the numeric or currency event in the `en` argument.  Defaults to `1` when not set.
+* **`ap`** (optional, boolean): If the products variable currently contains more than one product entry, a value of `true` (or `1`) adds the event to all product entries.  Defaults to `false` when not set.
 
 The `addProductEvent` returns nothing. Instead, it adds the event and its value to the `products` variable. The plug-in also automatically adds the event to the `events` variable, since it is also required there.
 

@@ -5,27 +5,7 @@ description: Track the amount of time a page takes to load.
 
 # Adobe plug-in: getPageLoadTime
 
-## Plugin Purpose
-
-### What does this plug-in do?
-
-The getPageLoadTime plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load.
-
-### Why should I use this plug-in?
-
-You should use the getPageLoadTime plug-in if you want to measure how long your web pages take to load.
-
-### Why shouldn't I use this plug-in?
-
-You won't need to use the getPageLoadTime plug-in if you don't need/want to track how long your pages take to load.
-
-## Prerequisites
-
-You must have AppMeasurement (i.e. the base Adobe Analytics Code) and the p_fo Plugin, along with the performanceWriteFull, performanceWritePart, performanceCheck, and performanceRead helper functions (included in the Code to Deploy section below), to run the getPageLoadTime plug-in
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the getPageLoadTime plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -34,7 +14,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar

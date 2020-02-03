@@ -5,27 +5,7 @@ description: Create an easy-to-read pageName from the current website path.
 
 # Adobe plug-in: getPageName
 
-## Plugin Purpose
-
-### What does this plug-in do?
-
-The getPageName plug-in creates a value that can be inserted into the Adobe Analytics pageName variable and that is an easy-to-read, "friendly"-formatted version of the current URL
-
-### Why should I use this plug-in?
-
-You should use the getPageName plug-in if you don't set the Analytics pageName variable within your code and your website has a very easy-to-parse-through pathing structure
-
-### Why shouldn't I use this plug-in?
-
-You won't need to use the getPageName plug-in if you already set the Analytics pageName variable equal to values that are easy to understand by your digital marketers.  The getPageName plug-in should be used as a "last resort" solution if you aren't able to provide data about how each page of your site should be named (dynamically or otherwise)
-
-## Prerequisites
-
-None
-
-## How to Deploy
-
-You may use one of the following three methods to deploy the getPageName plug-in.  If you use a different tag management system besides Adobe Experience Platform Launch, please consult that product's documentation on how to add plug-in code to your implementation.
+The `getPageName` plug-in creates an easy to read, friendly formatted version of the current URL. Adobe recommends using this plug-in if you want a `pageName` value that is easy to set and understand in reporting. This plug-in is unnecessary if you already have a naming structure for the `pageName` variable, such as through a data layer. It is best used when you don't have another solution to set the `pageName` variable.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -34,7 +14,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar

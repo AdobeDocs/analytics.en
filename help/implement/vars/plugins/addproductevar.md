@@ -16,7 +16,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install (and publish) the "Common Analytics Plugins" extension
+1. Install (and publish) the 'Common Analytics Plugins' extension
 1. For any Launch Rule that you want to use the plug-in in, add an [!UICONTROL action] with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
@@ -48,9 +48,9 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 
 The `addProductEvar` plug-in uses the following arguments:
 
-* **en** (required, string): The eVar to add to the last entry currently contained in the products variable. If the products variable is blank, then the plug-in creates a "blank" product entry with the eVar value attached to the end of the entry.
-* **ev** (required, string): The value assigned to the eVar.
-* **ap** (optional, boolean): If the products variable currently contains more than one product entry, a value of true (or 1) adds the eVar to **all** the product entries.  Defaults to false (or 0), which adds the eVar to only the **last** entry contained in the products variable.
+* **`en`** (required, string): The eVar to add to the last entry currently contained in the products variable. If the products variable is blank, then the plug-in creates a "blank" product entry with the eVar value attached to the end of the entry.
+* **`ev`** (required, string): The value assigned to the eVar.
+* **`ap`** (optional, boolean): If the products variable currently contains more than one product entry, a value of true (or 1) adds the eVar to **all** the product entries.  Defaults to false (or 0), which adds the eVar to only the **last** entry contained in the products variable.
 
 The `addProductEvar` plug-in returns nothing. Instead, it adds the eVar (and eVar value) specified in the `en` and `ev` argument to the `products` variable.
 
@@ -63,7 +63,7 @@ s.addProductEvar("eVar1", "blue");
 
 // Set a merchandising eVar to blue on all products. The output for the products variable is ";product1;3;300;;eVar1=blue,;product2;2;122;;eVar1=blue,;product3;1;25;;eVar1=blue"
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar1", "blue", 1);
+s.addProductEvar("eVar1", "blue", true);
 
 // Set multiple merchandising eVars to the last product in the string. The output for the products variable is ";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25;;eVar23=medium|eVar24=women|eVar1=red"
 s.products=";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25";
@@ -73,9 +73,9 @@ s.addProductEvar("eVar1", "red");
 
 // Set multiple merchandising eVars to all products in the string. The output for the products variable is ";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue|eVar23=medium|eVar24=women|eVar1=red,;product2;2;122;;eVar23=medium|eVar24=women|eVar1=red,;product3;1;25;;eVar23=medium|eVar24=women|eVar1=red"
 s.products=";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar23", "medium", 1);
-s.addProductEvar("eVar24", "women", 1);
-s.addProductEvar("eVar1", "red", 1);
+s.addProductEvar("eVar23", "medium", true);
+s.addProductEvar("eVar24", "women", true);
+s.addProductEvar("eVar1", "red", true);
 
 // If the products variable is not set, the plug-in creates an empty product string correctly delimited to the merchandising eVar. The output for the products variable is ";;;;;eVar1=blue"
 s.addProductEvar("eVar1", "blue");

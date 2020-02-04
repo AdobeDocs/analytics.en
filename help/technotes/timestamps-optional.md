@@ -27,7 +27,6 @@ Using the Timestamps Optional feature, you can combine non-timestamped data with
 * **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
 * **Non-timestamp data**. Adobe sets a timestamp on non-timestamped data in a report suite when the data hits the collection servers.
 
-![](assets/timestamp_v_non2.png)
 
 A report suite can have one of the following timestamp settings:
 
@@ -43,17 +42,13 @@ Timestamps Optional allows you to integrate and report across multiple report su
 |--- |--- |
 |Timestamped data could not be sent to a non-timestamped global report suite. Consequently, hit data sent from offline devices was dropped when adding to a non-timestamped report suite. <br/><br/>Consequently, hit data sent from offline data was dropped when adding to a non-timestamped report suite.|Updating an app to collect and use timestamps required you to employ a new report suite. <br/>You could not save to the existing report suite or integrate existing data when updating your app to use timestamps.|
 
-**With Timestamps Optional**, you can integrate non-timestamped data from a live website with offline data from mobile devices, or update your non-timestamped app to a timestamped app. ![](assets/timestamp_v_non6.png)
+**With Timestamps Optional**, you can integrate non-timestamped data from a live website with offline data from mobile devices, or update your non-timestamped app to a timestamped app.
 
 ## Combining Data into a Global Report Suite {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
 Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources.
 
-![](assets/timestamp_v_non9.png)
-
->[!IMPORTANT]
->
->Carefully plan the design for each component data set so the combination makes sense in a global report suite.
+> [!IMPORTANT] Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
 ## Best Practices when Employing Timestamps {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -63,12 +58,8 @@ The following are best practices and a few requirements and restrictions to be a
 
   Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
-  ![](assets/timestamp_v_non8.png)
-
 * Using timestamps when setting a [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
-
-  ![](assets/timestamp_v_non.png)
 
   In addition, hybrid apps should not set a visitor ID.

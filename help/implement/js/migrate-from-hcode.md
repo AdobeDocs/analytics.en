@@ -19,12 +19,11 @@ The following notable changes are present in AppMeasurement when compared to H C
 
 The following steps outline a typical migration workflow.
 
-1. **Check plug-in compatibility**: Some plug-ins are no longer supported. See [Plug-in support](#appmeasurement-plug-in-support) on this page.
-2. **Download the new AppMeasurement file**: Access the new file by logging in to Adobe Analytics, then navigating to Admin > Code Manager. The downloaded compressed file contains a minified `AppMeasurement.js` file, along with Media and Integrate modules.
-3. **Copy your `s_code.js` customizations to `AppMeasurement.js`**: Move all the code before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in `s_code.js` to the beginning of `AppMeasurement.js`.
-4. **Update all plug-ins**: Make sure you are using the latest version of each plug-in listed in your `s_code.js` file. This includes the Media and Integrate modules.
-5. **Deploy the AppMeasurement.js file**: Upload your `AppMeasurement.js` file to your web server.
-6. **Update script references to point to `AppMeasurement.js`**: Make sure all pages reference `AppMeasurement.js` instead of `s_code.js`.
+1. **Download the new AppMeasurement file**: Access the new file by logging in to Adobe Analytics, then navigating to Admin > Code Manager. The downloaded compressed file contains a minified `AppMeasurement.js` file, along with Media and Integrate modules.
+1. **Copy your `s_code.js` customizations to `AppMeasurement.js`**: Move all the code before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in `s_code.js` to the beginning of `AppMeasurement.js`.
+1. **Update all plug-ins**: Make sure you are using the latest version of each plug-in listed in your `s_code.js` file. This includes the Media and Integrate modules.
+1. **Deploy the AppMeasurement.js file**: Upload your `AppMeasurement.js` file to your web server.
+1. **Update script references to point to `AppMeasurement.js`**: Make sure all pages reference `AppMeasurement.js` instead of `s_code.js`.
 
 ## Example Appmeasurement code
 

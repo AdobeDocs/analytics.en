@@ -17,11 +17,11 @@ Adobe Analytics provides several mechanisms to identify visitors. The following 
 
 |  Order Used  | Query Parameter (collection method)  | Present When  |
 |---|---|---|
-|   ![Step 1](assets/step1_icon.png) | vid (s.visitorID) | s.visitorID is set  |
-|   ![Step 2](assets/step2_icon.png) | aid (s_vi cookie)  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a visitor ID grace period configured.  |
-|   ![Step 3](assets/step3_icon.png) | mid (AMCV_ cookie set by Experience Cloud Visitor ID service)  | Visitor's browser accepts cookies (first-party)  |
-|   ![Step 4](assets/step4_icon.png) | fid (fallback cookie) | Visitor's browser accepts cookies (first-party)  |
-|   ![Step 5](assets/step5_icon.png) | IP Address, User Agent, Gateway IP Address | Visitor's browser does not accept cookies.  |
+|   1 | vid (s.visitorID) | s.visitorID is set  |
+|   2 | aid (s_vi cookie)  | Visitor had an existing s_vi cookie before you deployed the Visitor ID service, or you have a visitor ID grace period configured.  |
+|   3 | mid (AMCV_ cookie set by Experience Cloud Visitor ID service)  | Visitor's browser accepts cookies (first-party)  |
+|   4 | fid (fallback cookie) | Visitor's browser accepts cookies (first-party)  |
+|   5 | IP Address, User Agent, Gateway IP Address | Visitor's browser does not accept cookies.  |
 
 In many scenarios you might see 2 or 3 different IDs on a call, but Analytics will use the first ID present from the previous table as the official visitor ID. For example, if you are setting a custom visitor ID (included in the "vid" query parameter), that ID will be used before other IDs that might be present on that same hit.
 

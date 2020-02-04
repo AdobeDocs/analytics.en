@@ -10,34 +10,13 @@ description: Implement Adobe Analytics on your site, property, or application.
 Adobe requires code on your site or app to send data to Adobe's data collection servers. The following steps indicate how a typical implementation works.
 
 1. When a visitor comes to your site, a request is made to your web server.
-
-   ![Data collection 1](assets/how-data-is-collected-1.png)
-
 2. Your site's web server sends the page code information, and the page displays in the browser.
-
-   ![Data collection 2](assets/how-data-is-collected-2.png)
-
 3. The page loads, and the Analytics JavaScript code runs.
-
-   ![Data collection 3](assets/how-data-is-collected-3.png)
-
    The JavaScript code sends an image request Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
 
 4. Adobe returns a transparent pixel image.
-
-   ![Data collection 4](assets/how-data-is-collected-4.png)
-
 5. Adobe servers store collected data in a *report suite*.
-
-   ![Data collection 5](assets/how-data-is-collected-5.png)
-
 6. Report suite data populates the reports that you can access in a web browser.
-
-   ![Data collection 6](assets/how-data-is-collected-6.png)
-
-   **Example report:**
-
-   ![Summary project](assets/two-months-summary-project.png)
 
    The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache.
 

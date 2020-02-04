@@ -29,7 +29,6 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
-  + [Environment characteristics](rdc/rdc-environment-characteristics.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)

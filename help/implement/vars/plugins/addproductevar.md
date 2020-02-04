@@ -21,7 +21,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a new Launch Rule called "Initialize Plugins" with the following configuration:
     * Condition: None
-    * Event: o	Core – Library Loaded (Page Top)
+    * Event: Core – Library Loaded (Page Top)
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar

@@ -92,7 +92,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [cleanStr](vars/plugins/cleanstr.md)
     + [formatTime](vars/plugins/formattime.md)
     + [getAndPersistValue](vars/plugins/getandpersistvalue.md)
-    + [getDaysSinceLastVisit](vars/plugins/getdayssincelastvisit.md)
     + [getGeoCoordinates](vars/plugins/getgeocoordinates.md)
     + [getNewRepeat](vars/plugins/getnewrepeat.md)
     + [getPageLoadTime](vars/plugins/getpageloadtime.md)
@@ -114,7 +113,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [p_fo](vars/plugins/p-fo.md)
     + [pt](vars/plugins/pt.md)
     + [removeFromList](vars/plugins/removefromlist.md)
-    + [split](vars/plugins/split.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)

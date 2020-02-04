@@ -18,10 +18,6 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 
 For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rules.md).
 
-## Use the `hitGovernor` implementation plug-in
-
-Use the [s.hitGovernor implementation plug-in](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html), which removes visitors who behave like bots, meaning these visitors send dozens or hundreds of hits per minute.
-
 ## Use a combination of Adobe Tools
 
 In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools.

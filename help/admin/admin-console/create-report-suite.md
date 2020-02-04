@@ -27,6 +27,8 @@ This article is designed for system-level administrators or analytics admins to 
 Name this report suite the same, except append "- DEV" at the end. Since this report suite will only receive internal traffic, the estimated size can be the smallest.
 1. Click Next to finish creating your dev report suite.
 
+For more information on the steps in this modal window, see [Implementation modal](/help/implement/prepare/implementation-modal.md) in the Implement user guide.
+
 ## Troubleshooting
 
 **After logging in to the Experience Cloud, the Analytics icon is greyed out.**
@@ -39,4 +41,4 @@ Ensure that you've logged in through the Experience Cloud, and not through my.om
 
 ## Next steps
 
-[Create and configure a property for Adobe Analytics in Launch](/help/implement/implement-with-launch/create-analytics-property.md): Create an area to manage your Analytics implementation
+[Create and configure a property for Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Create an area to manage your Analytics implementation

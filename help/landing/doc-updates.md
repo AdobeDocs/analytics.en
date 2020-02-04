@@ -18,7 +18,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date|Description |
 |---|---|
-| November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
+|January 22, 2020| Updated Freeform Table page that includes information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md)|
+|November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 |November 25, 2019|New topic on [End-of-life for Enforce IP login restrictions](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)|
 |November 25, 2019|New topic on [Internal (session refresh) marketing channel](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)|
 |November 21, 2019|New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)|
@@ -37,6 +38,6 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md). |
 | March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |
 | Feb. 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md).|
-| Feb. 1, 2019 | Major update to the [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md) implementation plug-in. |
+| Feb. 1, 2019 | Major update to the [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) implementation plug-in. |
 | Jan. 17, 2019 | New project setting in Analysis Workspace, [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
 | Jan. 17, 2019| Major update to [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |

@@ -16,7 +16,7 @@ To activate the integration you must complete the Selligent integration wizard w
 
    ![](assets/selligent-data_connectors.png)
 
-1. Under **[!UICONTROL Add Integrations]**, drag and drop the Selligent plugin into Adobe Experience Cloud.
+1. Under **[!UICONTROL Add Integrations]**, drag and drop the Selligent plug-in into Adobe Experience Cloud.
 
    ![](assets/selligent-add_integration.png)
 

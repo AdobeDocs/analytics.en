@@ -8,4 +8,4 @@ description: Landing page for Analytics variables
 * [Metrics](/help/components/c-variables/c-metrics/metricslist.md)
 * [Dimensions](/help/components/c-variables/dimensionslist/dimension-compatibility.md)
 * [Merchandising variables](/help/components/c-variables/c-merch-variables/var-merchandising.md)
-* See also [Implementation variables](/help/implement/js-implementation/c-variables/evars-events.md) in the Implementation Guide.
+* See also [Implementation variables](/help/implement/vars/overview.md) in the Implement user guide.

@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe analytics 
+product: analytics 
 solution: Analytics
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/analytics.html

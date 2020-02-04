@@ -7,7 +7,9 @@ uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 
 # Privacy overview
 
-Overview of what data Adobe Analytics collects and other privacy considerations.
+Adobe recommends that you provide your website visitors with easy-to-find and easy-to-understand information regarding the ability to opt out of having their browsing information collected by Adobe products or services.
+
+Visitors can learn more about how Adobe generally uses information it collects in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
 
 ## Data Collection Breakdown {#section_F59D958D7AE44747846993E643CD4BF2}
 

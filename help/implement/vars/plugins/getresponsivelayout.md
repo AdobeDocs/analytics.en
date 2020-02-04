@@ -65,7 +65,9 @@ The second part of the returned string is the browser's width and height dimensi
 ## Example Calls
 
 ### Example #1
+
 If...
+
 * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
 * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
 * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
@@ -75,8 +77,11 @@ If...
 ```js
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
 ```
+
 ### Example #2
+
 If...
+
 * Your site has only a phone mode, a tablet mode, and a desktop mode
 * Your site switches from phone mode to tablet mode when the browser width is greater than 500 pixels
 * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels

@@ -85,41 +85,55 @@ Calling this method returns nothing. Instead it changes the values of Analytics 
 ## Example Calls
 
 ### Example #1
+
 The following code...
 
 ```js
 s.manageVars("lowerCaseVars");
 ```
+
 ...changes the values of all the variables described above to lowercased versions.  The sole exception to this is the events variable, as some of the events (e.g. scAdd, scCheckout, etc.) are case-sensitive and should not be lowercased
+
 ### Example #2
+
 The following code...
 
 ```js
 s.manageVars("lowerCaseVars", "events", false);
 ```
+
 ...essentially produces the exact same result as the first example since the events variable isn't lowercased by default.
 
 ### Example #3
+
 The following code...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
+
 ...will change (e.g. lowercase) only the values of eVar1, eVar2, eVar3, and list2
+
 ### Example #4
+
 The following code...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
+
 ...will change (e.g. lowercase) the values of all the variables described above EXCEPT for eVar1, eVar2, eVar3, and list2
+
 ### Example #5
+
 The following code...
 
 ```js
 s.manageVars("cleanStr");
 ```
+
 ...changes the values of all the variables described above, including the events variables.  Specifically, the cleanStr callback function does the following to each variables' value:
+
 * Removes HTML encoding
 * Removes whitespaces found at the beginning and end of the value
 * Replaces left/right single quotes (e.g. ’) with a straight single quote (')

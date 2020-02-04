@@ -58,19 +58,23 @@ If the `vtc` argument and cookie value match, this method returns an empty strin
 ## Example Calls
 
 ### Example #1
+
 Use this call to prevent the same value being passed in to s.campaign more than once in a row for next 30 days:
 
 ```js
 s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 ```
+
 In the above call, the plug-in will first compare the value already contained in the s_campaign cookie with the value coming from the current s.campaign variable.   If a match is not made, the plug-in will set the s_campaign cookie equal to the new value coming from s.campaign and then return the new value.   This comparison will happen for the next thirty days
 
 ### Example #2
+
 Use this call to prevent the same value being set throughout the session:
 
 ```js
 s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 ```
+
 This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
 
 ## Version History

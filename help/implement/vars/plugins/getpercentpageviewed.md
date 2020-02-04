@@ -60,25 +60,28 @@ This plug-in creates a first-party cookie called `s_ppv` that contains the above
 ## Example Calls
 
 ### Example #1
+
 The following code...
 
 ```js
 if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
-	s.prop1 = s._ppvPreviousPage;
-	s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop1 = s._ppvPreviousPage;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
+
 * Determines if s.pageName is set and if so, the code will run the getPercentPageViewed function
 * When the getPercentPageViewed function runs, it will create the variables described in the "Returns" section above
 * If the "Returns" variables have been successfully set:
-	* The code will set s.prop1 equal to the value of s._ppvPreviousPage (i.e. the previous value of s.pageName, or the previous page)
-	* The code will also set s.prop2 equal to the Highest Percent Viewed of the previous page and the Initial Percent Viewed of the previous page, along with the number of folds that the visitor reached and the number of folds that were available
+  * The code will set s.prop1 equal to the value of s._ppvPreviousPage (i.e. the previous value of s.pageName, or the previous page)
+  * The code will also set s.prop2 equal to the Highest Percent Viewed of the previous page and the Initial Percent Viewed of the previous page, along with the number of folds that the visitor reached and the number of folds that were available
 
 **Note**:  If an entire page is visible when it first loads, both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to 100, and both the Folds Seen and Folds Available would be equal to 1.   When an entire page is NOT visible when it first loads but the visitor never ends up scrolling down the page before moving onto the next page, then both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to the same value.
 
 ### Example #2
+
 Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather than the entire page name.
 
 The following code determines if s.prop5 has been set and, if so, will store its value as the "previous page" to correlate with the Highest Percent Viewed and the Initial Percent Viewed dimensions.  The value will still be stored in the s._ppvPreviousPage variable but can be treated as if it were the previous page type instead of the previous page name.
@@ -87,8 +90,8 @@ The following code determines if s.prop5 has been set and, if so, will store its
 if(s.prop5) s.getPercentPageViewed(s.prop5);
 if(s._ppvPreviousPage)
 {
-	s.prop1 = s._ppvPreviousPage;
-	s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+  s.prop1 = s._ppvPreviousPage;
+  s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
 }
 ```
 

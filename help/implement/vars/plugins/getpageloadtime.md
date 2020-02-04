@@ -65,19 +65,22 @@ The getPageLoadTime plug-in creates two first-party cookies:
 ## Example Calls
 
 ### Example #1
+
 Running the following code...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
-	s.prop10 = s._pltLoadTime;
-	s.prop11 = s._pltPreviousPage
-	s.eVar10 = prop11;
-	s.events = "event100=" + s._pltLoadTime;
+  s.prop10 = s._pltLoadTime;
+  s.prop11 = s._pltPreviousPage
+  s.eVar10 = prop11;
+  s.events = "event100=" + s._pltLoadTime;
 }
 ```
+
 ...will do the following:
+
 * Run the getPageLoadTime plug-in when s.pageName is set
 * Set s.prop10 equal to the load time of the previous page
 * Set s.prop11 and s.eVar10 equal to the name of the previous page (as recorded in s.pageName)

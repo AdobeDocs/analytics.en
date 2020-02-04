@@ -56,16 +56,19 @@ When you call this method, it returns the string value contained in the cookie. 
 ## Example Calls
 
 ### Example #1
+
 The following code...
 
 ```js
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
+
 * First sets s.prop7 equal to the value passed into s.pageName in the previous image request (i.e. the value stored in the "gpv_Page" cookie)
 * The code will then reset the "gpv_Page" cookie, making it equal to the current value of s.pageName
 * If s.pageName is not set at the time this code runs, then the code will reset the expiration for the cookie's current value
 
 ### Example #2
+
 The following code sets s.prop7 equal to the last value passed into s.pageName, but only if event1 is also contained within s.events, as determined via the inList plug-in, at the time the call takes place.
 
 ```js
@@ -73,6 +76,7 @@ if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page"
 ```
 
 ### Example #3
+
 The following code sets s.prop7 equal to the last value passed into s.pageName but only if s.pageName is currently set on the page at the same time.
 
 ```js
@@ -80,6 +84,7 @@ if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
 ### Example #4
+
 The following code sets s.eVar10 equal to the value passed into s.eVar1 in the previous image request.   The previous eVar1 value would have been contained in the "s_gpv" cookie.  The code will then set the "s_gpv" cookie equal to the current value of s.eVar1.
 
 ```js
@@ -87,6 +92,7 @@ s.eVar10 = s.getPreviousValue(s.eVar1)
 ```
 
 ## Unlikely Quirks
+
 If the variable associated with the v argument is set to a new value and the getPreviousValue plug-in runs BUT an Analytics server call is NOT sent at the same time, the new v argument value will still be considered the "previous value" the next time the plug-in runs.
 For example, assume the following code runs on the first page of the visit:
 
@@ -95,6 +101,7 @@ s.pageName="home"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
+
 This code would produce a server call where the pageName argument is equal to "home" and the p7 (prop7) argument is not set.  However, the call to s.getPreviousValue would store the value of s.pageName (i.e. "home") in the cookie specified in the call (i.e. the "gpv_Page" cookie).
 Now, assume that immediately afterwards, on the same page, the following code runs (for whatever reason):
 
@@ -102,6 +109,7 @@ Now, assume that immediately afterwards, on the same page, the following code ru
 s.pageName="happy value"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
+
 Since the s.t() function does not run in this code block, another image request will not be created.  However, when the s.getPreviousValue() function code runs this time, s.prop7 will be set equal to the previous value of s.pageName (i.e. "home") and then will store the new value of s.pageName (i.e. "happy value") in the "gpv_Page" cookie.
 Assume the visitor navigates to a different page and the following code runs on this page:
 
@@ -110,6 +118,7 @@ s.pageName="page 2"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
+
 When the s.t() call function runs, it will create an image request where s.pageName="page 2" and s.prop7 is equal to "happy value", which was the value of s.pageName when the last call to getPreviousValue took place.   The s.prop7 value of "home" was never contained in any real image request even though "home" was the first value passed into s.pageName.
 
 ## Version History

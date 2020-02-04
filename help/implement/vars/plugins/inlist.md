@@ -58,67 +58,83 @@ Calling this method returns `true` if it finds a match, and `false` if it does n
 ## Example Calls
 
 ### Example #1
+
 If...
 
 ```js
 s.events="event22,event24";
 ```
+
 ...and the following code runs...
 
 ```js
 if(s.inList(s.events,"event22"))
 ```
+
 ...the conditional if statement will be true
+
 ### Example #2
+
 If...
 
 ```js
 s.events="event22,event24";
 ```
+
 ...and the following code runs...
 
 ```js
 if(s.inList(s.events,"event2"))
 ```
+
 ...the conditional if statement will be false because the inList call did not make an exact match between event2 and either of the delimited-values in s.events
 
 ### Example #3
+
 If...
 
 ```js
 s.events="event22,event24";
 ```
+
 ...and the following code runs...
 
 ```js
 if(!s.inList(s.events,"event23"))
 ```
+
 ...the conditional if statement will be true because the inList call did not make an exact match between event23 and either of the delimited-values in s.events (notice the "NOT" operator at the beginning of the inList variable call).
 
 ### Example #4
+
 If...
 
 ```js
 s.events = "event22,event23";
 ```
+
 ...and the following code runs...
 
 ```js
 if(s.inList(s.events,"EVenT23","",1))
 ```
+
 ...the conditional if statement will be false.  Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag.
 
 ### Example #5
+
 If...
 
 ```js
 s.linkTrackVars = "events,eVar1";
 ```
+
 ...and the following code runs...
 
 ```js
 if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
+
 ...the conditional if statement will be false.  The value of the d argument passed into the call (i.e. "|") assumes that the individual values in s.linkTrackVars are delimited by a pipe character, whereas in reality, the values are delimited by a comma.  In this case, the plug-in will try to make a match between the whole value of s.linkTrackVars (i.e. "events,eVar1") and the value to look for (i.e. "eVar1").
 
 ## Version History

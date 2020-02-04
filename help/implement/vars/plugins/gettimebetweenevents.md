@@ -79,12 +79,15 @@ Calling this method returns an integer representing the amount of time between t
 ## Example Calls
 
 ### Example #1
+
 The following code...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
 ```
+
 ...is configured to behave as follows:
+
 * The timer will start when s.events contains event1.
 * The timer will restart every time s.events contains event1
 * The timer will stop when s.events contains event2
@@ -94,12 +97,15 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * If s.events contains event2 before a timer has started, eVar1 won't be set at all.
 
 ### Example #2
+
 The following code...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
 ```
+
 ...is configured to behave as follows:
+
 * The timer will start when s.events contains event1.
 * The timer will NOT restart every time s.events contains event1, rather the original timer will still keep running
 * The timer will NOT stop when s.events contains event2, but the plug-in will record the time since the original event1 setting was recorded
@@ -108,11 +114,13 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * When a time between (the original) event1 and event2 is recorded, the plug-in will set eVar1 equal to the number of hours between the two events being set, rounded to the closest 1 1/2-hour benchmark (e.g. 0 hours, 1.5 hours, 3 hours, 7.5 hours, 478.5 hours, etc.)
 
 ### Example #3
+
 The following code...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
+
 ...will produce similar results to the first example above; however, the value of eVar1 is returned in either seconds, minutes, hours, or days, depending on the final length of the timer.  Also, the timer will expire 1 day after it was first set instead of at the time the visitor closes his/her browser.
 
 ## Version History

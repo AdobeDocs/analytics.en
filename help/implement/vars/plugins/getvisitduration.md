@@ -58,27 +58,33 @@ This plug-in creates a first-party cookie called `"s_dur"`, which is the number 
 ## Example Calls
 
 ### Example #1
+
 The following code...
 
 ```js
 s.eVar10 = s.getVisitDuration();
 ```
+
 ...will always set eVar10 equal to the number of minutes passed since the visitor landed on the site
 
 ### Example #2
+
 The following code...
 
 ```js
 if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 ```
+
 ...uses the inList plug-in to check whether the events variable contains the purchase event.  If so, then eVar10 will be set equal to the number of minutes between the visitor's start of the visit and the time of purchase.
 
 ### Example #3
+
 The following code...
 
 ```js
 s.prop10 = s.getVisitDuration();
 ```
+
 ...will always set prop10 equal to the number of minutes passed since the visitor landed on the site.  This will be useful if prop10 has pathing enabled.  Adding the "exits" metric to the prop10 report will show a granular, "scatterplot" report of how long a visit took in minutes before a visitor left the site.
 
 ## Version History

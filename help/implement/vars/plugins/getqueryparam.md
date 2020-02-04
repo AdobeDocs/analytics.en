@@ -63,11 +63,13 @@ Calling this method returns a value depending on the above arguments and the URL
 ## Example Calls
 
 ### Example #1
+
 If the current URL is the following:
 
 ```js
 http://www.abc123.com/?cid=trackingcode1
 ```
+
 The following code will set s.campaign equal to "trackingcode1":
 
 ```js
@@ -75,11 +77,13 @@ s.campaign=s.getQueryParam('cid');
 ```
 
 ### Example #2
+
 If the current URL is the following:
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
+
 The following code will set s.campaign equal to "trackingcode1:123456":
 
 ```js
@@ -87,11 +91,13 @@ s.campaign=s.getQueryParam('cid,ecid',':');
 ```
 
 ### Example #3
+
 If the current URL is the following:
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
+
 The following code will set s.campaign equal to "trackingcode1123456":
 
 ```js
@@ -99,11 +105,13 @@ s.campaign=s.getQueryParam('cid,ecid');
 ```
 
 ### Example #4
+
 If the current URL is the following:
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
 ```
+
 The following code will set s.campaign equal to "123456":
 
 ```js
@@ -111,38 +119,47 @@ s.campaign=s.getQueryParam('ecid');
 ```
 
 ### Example #5
+
 If the current URL is the following:
 
 ```js
 http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 ```
+
 The following code will set s.campaign equal to "123456"
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
+
 **Note:** The plug-in replaces the URL to Check's hash character with a question mark if a question mark does not exist.  If the URL contains a question mark that comes before the hash character, the plug-in will replace the URL to Check's hash character with an ampersand;
+
 ### Example #6
+
 If the current URL is the following...
 
 ```js
 http://www.abc123.com/
 ```
+
 ...and if the variable s.testURL is set as follows:
 
 ```js
 s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
 ```
+
 The following code will not set s.campaign at all:
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
+
 However, the following code will set s.campaign equal to "trackingcode1":
 
 ```js
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
+
 **Note:** the third parameter can be any string/variable that the code will use to try to find the query string parameters in
 
 The following code will set s.eVar2 equal to "123456|trackingcode1|true|300":
@@ -150,9 +167,11 @@ The following code will set s.eVar2 equal to "123456|trackingcode1|true|300":
 ```js
 s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 ```
+
 * The value of 123456 comes from the ecid parameter in the s.testURL variable
 * The value of trackingcode1 comes from the cid parameter in the s.testURL variable
 * The value of true comes from the existence (but non-value) of the location parameter after the hash character in the s.testURL variable
+
 The value of 300 comes from the value of the pos parameter in the s.testURL variable
 
 ## Version History

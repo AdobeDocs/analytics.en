@@ -64,6 +64,7 @@ This plug-in sets a first-party cookie called `"s_vnc[LENGTH]"` where `[LENGTH]`
 ## Example Calls
 
 ### Example #1
+
 For a visitor that hasn't been to the site within the last 365 days, the following code will set s.prop1 equal to the value of 1:
 
 ```js
@@ -71,11 +72,13 @@ s.prop1=s.getVisitNum();
 ```
 
 ### Example #2
+
 For a visitor that returns to the site within 364 days after his/her first visit, the following code will set s.prop1 equal to 2:
 
 ```js
 s.prop1=s.getVisitNum(365);
 ```
+
 If this visitor returns to the site within 364 days after his/her second visit, the following code will set s.prop1 equal to 3:
 
 ```js
@@ -83,21 +86,25 @@ s.prop1=s.getVisitNum(365);
 ```
 
 ### Example #3
+
 For a visitor that returns to the site within 179 days after his/her first visit, the following code will set s.prop1 equal to 2:
 
 ```js
 s.prop1=s.getVisitNum(180,false);
 ```
+
 However, if this visitor returns to the site 1 or more days after his/her second visit, the following code will set s.prop1 equal to 1:
 
 ```js
 s.prop1=s.getVisitNum(180,false);
 ```
+
 When the second argument in the call is equal to false, the routine that determines when the visit number should be "reset" to 1 will do so "x" number of days – in this example, 365 days – after the visitor's first visit to the site.
 
 When the second argument is equal to true (or not set at all), the plug-in will reset the visit number to 1 only after "x" number of days – again, in this example, 365 days – of visitor inactivity.
 
 ### Example #4
+
 For all visitors that come to the site for the first time during the current week – beginning on Sunday - the following code will set s.prop1 equal to 1:
 
 ```js
@@ -105,14 +112,17 @@ s.prop1=s.getVisitNum("w");
 ```
 
 ### Example #5
+
 For all visitors that come to the site for the first time during the current month – beginning on the first day of each month - the following code will set s.prop1 equal to 1:
 
 ```js
 s.prop1=s.getVisitNum("m");
 ```
+
 Keep in mind that the getVisitNum plug-in does not consider retail-based calendars (i.e. 4-5-4, 4-4-5, etc.)
 
 ### Example #6
+
 For all visitors that come to the site for the first time during the current year – beginning on January 1 - the following code will set s.prop1 equal to 1:
 
 ```js
@@ -120,6 +130,7 @@ s.prop1=s.getVisitNum("y");
 ```
 
 ### Example #7
+
 If you wish to track a visitor's visit number for the week, a visitor's visit number for the month, and a visitor's visit number for the year – all within different Analytics variables – you should use code that resembles the following:
 
 ```js
@@ -127,6 +138,7 @@ s.prop1=s.getVisitNum("w");
 s.prop2=s.getVisitNum("m");
 s.prop3=s.getVisitNum("y");
 ```
+
 In this case, the plug-in will create three different cookies – one for each of the different time periods – to keep track of the individual visit number per time period.
 
 ## Version History

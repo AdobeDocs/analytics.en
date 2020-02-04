@@ -58,21 +58,23 @@ Calling this method returns a value if the callback function (in the `cf` argume
 ## Example Calls
 
 ### Example #1
+
 The following code is part of the getQueryParam plug-in.  It runs the getParameterValue helper function against each of the key-value pairs that are contained in the URL's querystring (fullQueryString).  In other to extract each key-value pair, the fullQueryString must be delimited and split out by an ampersand "&" character. The parameterKey refers to the query string parameter that the plug-in is specifically trying to extract from the query string
 
 ```javascript
 returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
+
 The above line is a shortcut for running code that resembles the following:
 
 ```js
 var returnValue = "",
-	parameters = fullQueryString.split("&"),
-	parametersLength = parameters.length;
+  parameters = fullQueryString.split("&"),
+  parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-	returnValue = s.getParameterValue(parameters[i], parameterKey);
-	if(returnValue !== "") break;
+  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  if(returnValue !== "") break;
 }
 ```
 

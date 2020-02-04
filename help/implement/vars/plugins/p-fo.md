@@ -55,6 +55,7 @@ If the object doesn't yet exist, this method returns `true` and creates the obje
 ## Example Calls
 
 ### Example #1
+
 The following code will check for the existence of the "myobject" object within the page.  If the "myobject" object doesn't exist, then the code will create the "myobject" object and return the value of true.  As a result, the code within the conditional statement (i.e. Console.log('hello');) will run.
 
 On the other hand, if the "myobject" object already exists when the p_fo call takes place, then the p_fo function will return the value of false and, thus, the conditional statement will be considered false.  In this case, the code within the conditional statement will not run.
@@ -62,9 +63,10 @@ On the other hand, if the "myobject" object already exists when the p_fo call ta
 ```javascript
 if(s.p_fo("myobject"))
 {
-	console.log("hello");
+  console.log("hello");
 }
 ```
+
 **NOTE:** Everytime a new page object/DOM loads (or the current page reloads), the object specified in the on argument will no longer exist and thus the p_fo plug-in will again return true the first time it runs after the page finishes loading.
 
 ## Version History

@@ -63,6 +63,7 @@ Calling this method returns a string that contains the number of days, hours, mi
 ## Example Calls
 
 ### Example #1
+
 Use these calls to determine the time between when a visitor starts the checkout process and when they make a purchase.
 
 Start the timer when the visitor starts the checkout:
@@ -70,26 +71,31 @@ Start the timer when the visitor starts the checkout:
 ```js
 if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
 ```
+
 Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start:
 
 ```js
 if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 ```
+
 s.prop1 will capture the amount of time needed to complete the purchase process
 
 ### Example #2
+
 If you want to have several timers running at the same time (to measure different processes), you will need to manually set the cn cookie argument.  For example, if you want to measure the amount of time needed for a purchase to complete, you would set the following code...
 
 ```javascript
 if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
 if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
 ```
+
 ...but if you also wanted to measure (at the same time) the amount of time needed for a registration form to be filled out, you would run the following code as well:
 
 ```js
 if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
 if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
 ```
+
 In the second example, event1 is meant to capture the beginning of a registration process that could take up to 7 days to complete, for whatever reason, and event2 is meant to capture the completion of the registration.  s.prop2 will capture the amount of time needed to complete the registration process
 
 ## Version History

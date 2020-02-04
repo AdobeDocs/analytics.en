@@ -72,24 +72,29 @@ Calling this method returns a string that contains the following delimited by a 
 ## Example Calls
 
 ### Examples for Specific Time Zones
+
 Use the following sample code if the client is in Paris, France:
 
 ```js
 s.eVarX = getTimeParting("Europe/Paris");
 ```
+
 If the client is in San Jose, California:
 
 ```js
 s.eVarX = getTimeParting("America/Los_Angeles");
 ```
+
 If the client is in the African country of Ghana:
 
 ```js
 s.eVarX = getTimeParting();
 ```
+
 Ghana is within the UTC/GMT time zone.  This example shows that no plug-in argument will be necessary under such circumstances.
 
 ### Accounting for Internet Explorer Browsers
+
 Use the following sample if you want to exclude time parting data from Internet Explorer Visitors (since the value returned from IE browsers can be in only the visitor's local time)
 
 ```js
@@ -98,6 +103,7 @@ else s.eVarX = "Internet Explorer Visitors";
 ```
 
 ### Results from calls
+
 If a visitor from Denver, Colorado visits a site on August 31, 2020 at 9:15 AM,
 
 Running the following code...
@@ -105,6 +111,7 @@ Running the following code...
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
+
 ...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
 
 While the following code...
@@ -112,6 +119,7 @@ While the following code...
 ```js
 s.eVar10 = getTimeParting("America/Nome");
 ```
+
 ...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
 
 The following code...
@@ -119,6 +127,7 @@ The following code...
 ```js
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
+
 ...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
 
 And the following code...
@@ -126,6 +135,7 @@ And the following code...
 ```js
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
+
 ...would set s.eVar10 equal to "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 
 ## Version History

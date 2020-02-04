@@ -66,12 +66,14 @@ This plug-in creates a first-party cookie called `"s_tslv"` set to a Unix timest
 ## Example Calls
 
 ### Example #1
+
 If a brand-new visitor comes to the site and the following code runs on the first page of the visit ...
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
+
 ...the value of s.prop1 will be set equal to “New Visitor”.
 
 If the same code runs on the same domain after 35 minutes of inactivity, the value of s.prop1 will be set equal to “35 minutes”.

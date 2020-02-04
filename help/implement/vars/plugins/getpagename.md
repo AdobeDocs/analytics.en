@@ -58,16 +58,19 @@ The method returns a string containing a friendly-formatted version of the URL. 
 ## Example Calls
 
 ### Example #1
+
 If the current URL were...
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
+
 ...and the following code runs...
 
 ```js
 s.pageName = getPageName()
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
@@ -75,16 +78,19 @@ s.pageName = "mail.google.com|mail|u|0";
 ```
 
 ### Example #2
+
 If the current URL were...
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
+
 ...and the following code runs...
 
 ```js
 s.pageName = getPageName("gmail")
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
@@ -92,34 +98,41 @@ s.pageName = "gmail|mail|u|0";
 ```
 
 ### Example #3
+
 If the current URL were...
 
 ```js
 https://www.google.com/
 ```
+
 ...and the following code runs...
 
 ```js
 s.pageName = getPageName()
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
 s.pageName = "www.google.com|home"
 ```
+
 **Note**: When the code runs on a URL that does not contain a path, it will always add the value of "home" to the end of the return value
 
 ### Example #4
+
 If the current URL were...
 
 ```js
 https://www.google.com/
 ```
+
 ...and the following code runs...
 
 ```js
 s.pageName = getPageName("google","","","|")
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
@@ -127,26 +140,31 @@ s.pageName = "google|home"
 ```
 
 ### Example #5
+
 If the current URL were...
 
 ```js
 https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
 ```
+
 ...and the following code runs...
 
 ```js
 s.pageName = getPageName()
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
 s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
 ```
+
 However, if the following code runs instead...
 
 ```js
 s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
 ```
+
 ...the final value of s.pageName will be:
 
 ```js
@@ -154,12 +172,14 @@ s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-
 ```
 
 ## Upgrading from Previous Versions
+
 Version 4.0+ of the getPageName plug-in is not dependent on the existence of the Adobe Analytics' AppMeasurement object (i.e. the "s" object) to run.  If you choose to upgrade to this version, be sure to change the code that calls the plug-in by removing any instances of the "s" object from the call.
 For example, change this:
 
 ```js
 s.pageName = s.getPageName();
 ```
+
 ...to this:
 
 ```js

@@ -36,4 +36,4 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)
 + [Visitor identification](visitor-identification.md)
-+ [Visitor migration](visitor-migration.md
++ [Visitor migration](visitor-migration.md)

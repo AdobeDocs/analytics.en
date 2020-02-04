@@ -22,6 +22,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
     + [Conversions](ga-to-aa/reports/conversions-reports.md)
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
++ [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
@@ -29,7 +30,6 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
-  + [Environment characteristics](rdc/rdc-environment-characteristics.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)

@@ -80,31 +80,31 @@ The `twoDecimals` method uses the following arguments:
 ### zeroPad examples
 
 ```js
-s.eVar25 = zeroPad(25.5562, 5) 	//sets eVar25 equal to "00025"
+s.eVar25 = zeroPad(25.5562, 5) //sets eVar25 equal to "00025"
 
-s.prop1 = zeroPad(25, 1) 		//sets prop1 equal to "25"
+s.prop1 = zeroPad(25, 1) //sets prop1 equal to "25"
 
-s.prop1 = zeroPad(232425235,23) 	//sets prop1 equal to "00000000000000232425235"
+s.prop1 = zeroPad(232425235,23) //sets prop1 equal to "00000000000000232425235"
 ```
 
 ### randomNumber examples
 
 ```js
-s.eVar65 = randomNumber(15)	//sets eVar65 equal to "721759731750342" or some other random 15-digit number
+s.eVar65 = randomNumber(15) //sets eVar65 equal to "721759731750342" or some other random 15-digit number
 
-randomNumber() 			//returns a random 10-digit number but is useless since this isn't used in an expression
+randomNumber() //returns a random 10-digit number but is useless since this isn't used in an expression
 
-var j = randomNumber(35) 	//sets a variable named j equal to "15476068651810060" or another random 17-digit number
+var j = randomNumber(35) //sets a variable named j equal to "15476068651810060" or another random 17-digit number
 ```
 
 ### twoDecimals examples
 
 ```js
-s.events = "event10=" + twoDecimals("85.4827128694") 	//sets s.events="event10=85.48"
+s.events = "event10=" + twoDecimals("85.4827128694") //sets s.events="event10=85.48"
 
 var fivehundredthirtytwo = twoDecimals(532.000000001) //sets the variable fivehundredthirtytwo equal to 532
 
-s.eVar65 = twoDecimals("672132.9699736457") 		//sets s.eVar65 equal to 672132.97
+s.eVar65 = twoDecimals("672132.9699736457") //sets s.eVar65 equal to 672132.97
 ```
 
 ## Version History

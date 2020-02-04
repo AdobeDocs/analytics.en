@@ -62,7 +62,7 @@ A: Some ranked links may be hidden from the page (submenu links, for example). A
 
 **Q: Why is link click data not collected when Activity Map is running?**
 
-A: While Activity Map is in use, link click data is not collected by the Analytics tag. This behavior follows the behavior of the ClickMap plugin.
+A: While Activity Map is in use, link click data is not collected by the Analytics tag. This behavior follows the behavior of the ClickMap plug-in.
 
 **Q: Why does the metric drop-down list the same metric multiple times?**
 

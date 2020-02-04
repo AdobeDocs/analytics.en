@@ -9,7 +9,7 @@ A solution design document (also known as a solution design reference or busines
 
 ## Prerequisites
 
-[Validate your Analytics implementation and publish to production](../implement-with-launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
+[Validate your Analytics implementation and publish to production](../launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
 
 ## Ownership and location of the design document
 
@@ -37,14 +37,6 @@ When determining what data to collect, it is easy to say "everything", however t
 Defining a solution design document is a fairly complex project, especially for organizations who have not created one before. If additional assistance is desired, Adobe provides specialized consulting to help get your organization up and running with Adobe Analytics. Contact your Account Manager if you would like to enlist Adobe's professional services. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
 
 There are also several Adobe partners who specialize in helping with the creation of a solution design document, as well as implementing Adobe Analytics on your site.
-
-> [!NOTE] Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
-
-* [7 Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) by ObservePoint
-* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) by Analytics Demystified
-* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) by Numeric Analytics
-* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) by Antti Koski
-* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) by Ebiquity
 
 ## Next Steps
 

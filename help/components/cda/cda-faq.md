@@ -31,7 +31,7 @@ Adobe treats timestamped hits as if they were received at the time of the timest
 
 **How does CDA compare to Custom Visitor ID?**
 
-[Custom Visitor ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) is a legacy method to [connect users across devices](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). With a custom visitor ID, you use the `s.visitorID` variable to explicitly set the ID that is used for visitor logic. The `s.visitorID` variable overrides any cookie-based IDs that are present. See [Identify unique visitors](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) in the Implement user guide for more information.
+[Custom Visitor ID](/help/implement/vars/config-vars/visitorid.md) is a legacy method to [connect users across devices](/help/implement/js/xdevice-visid/xdevice-connecting.md). With a custom visitor ID, you use the `s.visitorID` variable to explicitly set the ID that is used for visitor logic. The `s.visitorID` variable overrides any cookie-based IDs that are present.
 
 Custom visitor IDs have a number of undesirable side effects that CDA is designed to overcome or minimize. For example, the custom visitor ID methodology has no lookback capabilities. If a user authenticates in the middle of a visit, the first part of the visit associates with a different visitor ID than the latter part of the visit. The separate visitor IDs results in visit and visitor inflation. CDA's 30-day lookback window allows it to go backwards in time to restate previous behavior as belonging to the same person, bringing unauthenticated cross-device behavior together with authenticated cross-device behavior with zero or minimal inflation.
 

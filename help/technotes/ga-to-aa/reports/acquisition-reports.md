@@ -97,7 +97,7 @@ The Conversions report shows ecommerce data in context of social networks. Addit
 
 ### Social - Plugins
 
-The Plugins report shows how visitors interact with embedded social media plugins on your site. Additional implementation is required for use in Analysis Workspace. Adobe recommends working with an implementation consultant to ensure this data is accurately collected.
+The Plugins report shows how visitors interact with embedded social media plug-ins on your site. Additional implementation is required for use in Analysis Workspace. Adobe recommends working with an implementation consultant to ensure this data is accurately collected.
 
 ### Social - Users Flow
 

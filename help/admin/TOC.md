@@ -23,6 +23,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
     + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
     + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
+    + [List variables](admin/conversion-var-admin/list-var-admin.md)
   + [Currency codes](admin/currency.md)
   + [Custom report descriptions](admin/custom-desc-admin.md)
   + [Customize calendar](admin/custom-calendar.md)

@@ -58,7 +58,7 @@ Adobe recommends using the **Visits** metric for this dimension.
 
 Site speed reports show how quickly pages load, revealing opportunities to increase your page load times.
 
-This feature requires additional implementation on both platforms; Adobe recommends working with an implementation consultant to ensure this data is correctly configured for Analysis Workspace. The [Performance Timing plugin](/help/implement/js-implementation/plugins/performancetiming.md) is typically assigned to an eVar to obtain performance data in Adobe Analytics.
+This feature requires additional implementation on both platforms; Adobe recommends working with an implementation consultant to ensure this data is correctly configured for Analysis Workspace. The [getPageLoadTime plug-in](/help/implement/vars/plugins/getpageloadtime.md) is typically assigned to an eVar to obtain performance data in Adobe Analytics.
 
 ## Site Search reports
 

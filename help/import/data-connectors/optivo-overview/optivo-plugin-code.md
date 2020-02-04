@@ -47,5 +47,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 ```
 
-> [!NOTE] The plugin above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plugin above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
+> [!NOTE] The plug-in above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plug-in above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
 

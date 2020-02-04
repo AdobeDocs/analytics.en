@@ -51,37 +51,30 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 ```
 
 ## Use the plug-in
-When calling the getTimeBetweenEvents plug-in (via JavaScript), be sure to pass in the following arguments:
-* **ste** (required, string): startTimerEvents, or a comma-separated list of Adobe Analytics events that will "start the timer"
-* **rt** (required, boolean): restartTimer
-	* set equal to true if you want to restart the timer every time s.events contains an event in the start-timer (ste) argument
-	* set equal to false if you don't want to restart the timer every time s.events contains an event in the ste argument.  This means only the first instance of s.events containing a "start-timer" event will actually start the timer
-* **stp** (required, string): stopTimerEvents, or a comma-separated list of Adobe Analytics events that will "stop the timer"
-* **res** (required, boolean) resetTimer:
-	* Set equal to true if you want to record the time since the timer started AND reset the timer (when s.events contains an event in the stop-timer, or stp argument)
-	* set equal to false if you want to only record the time since the timer started but not stop the timer.  This means the timer will continue to run after the events variable has recorded a stop event.  NOTE: when the res argument is set equal to false, setting the rte argument (see below) is highly recommended (defaults to true)
-* **cn** (optional, string): The cookieName where the time of the first event is stored; (defaults to "s_tbe")
-* **etd** (optional, integer): expireTimerInDays, or the expiration time for the cn cookie in days - set to 0 for session (defaults to 1 day when not set)
-* **fmt** (optional, string): the format of the time that the number of seconds will be returned in (defaults to nothing)
-	* "s" for seconds
-	* "m" for minutes
-	* "h" for hours
-	* "d" for days
-	* When not set, the return value's format will be based off the following rules:
-		* Anything less than a minute will be rounded to the closest 5 second benchmark (e.g. 10 seconds, 15 seconds, etc.)
-		* Anything between a minute and an hour will be rounded to the closest 1/2-minute benchmark (e.g. 30.5 minutes, 31 minutes, etc.)
-		* Anything between an hour and a day will be rounded to the closest quarter-hour benchmark (e.g. 2.25 hours, 3.5 hours, etc.)
-		* Anything greater than a day will be rounded to the closest day benchmark (e.g. 1 days, 3 days, 9 days, etc.)
-* **bml** (optional, number): benchmarkLength, or the length of the rounding benchmark according to the format of the fmt argument
-	* For example, if the fmt argument is equal to "s" and the bml argument is equal to 2, the return value will be rounded to the closest 2-second benchmark
-	* Or, if the fmt argument is equal to "m" and the bml argument is equal to .5, the return value will be rounded to the closest 1/2-minute benchmark
-* **rte** (optional, string): removeTimerEvents, or a comma-separated list of Adobe Analytics events that will remove/delete the timer (defaults to nothing)
 
-## Returns
-The getTimeBetweenEvents plug-in returns the amount of time between any of the events specified in the "ste" argument and any of the events specified in the "stp" argument (per the rules explained above)
+The `getTimeBetweenEvents` method uses the following arguments:
 
-## Cookies
-The getTimeBetweenEvents plug-in creates a first-party cookie with the name specified in the "cn" argument (defaults to "s_tbe") and is equal to a Unix timestamp representing the timer's start time.  The cookie will expire after the number of days specified in the "etd" argument (when set) or when the visitor closes his/her browser (when the "etd" argument is not set)
+* **`ste`** (required, string): Start timer events. A comma-delimited string of Analytics events to "start the timer".
+* **`rt`** (required, boolean): Restart timer option. Set to `true` if you want to restart the timer every time the `events` variable contains a start timer event. Set to `false` if you don't want the timer to restart when it sees a start timer event.
+* **`stp`** (required, string): Stop timer events. A comma-delimited string of Analytics events that "stop the timer".
+* **`res`** (required, boolean): Reset timer option. Set to `true` if you want to record the time since the timer started AND reset the timer after it stops. Set to `false` if you want to record the time but not stop the timer. If set to `false`, the timer continues to run after the events variable records a stop event.
+  > [!TIP] If you set this argument to `false`, setting the `rte` argument below is highly recommended.
+* **`cn`** (optional, string): The cookie name where the time of the first event is stored. Defaults to `"s_tbe"`.
+* **`etd`** (optional, integer): The expiration time for the cookie in days. Set to `0` to expire at the end of the browser session. Defaults to 1 day when not set.
+* **`fmt`** (optional, string): The format of the time that the number of seconds is returned in (defaults to nothing)
+  * `"s"` for seconds
+  * `"m"` for minutes
+  * `"h"` for hours
+  * `"d"` for days
+  * When not set, the return value's format is based on the following rules:
+    * Anything less than a minute is rounded to the closest 5 second benchmark. For example, 10 seconds, 15 seconds
+    * Anything between a minute and an hour is rounded to the closest 1/2-minute benchmark. For example, 30.5 minutes, 31 minutes
+    * Anything between an hour and a day is rounded to the closest quarter-hour benchmark. For example, 2.25 hours, 3.5 hours
+    * Anything greater than a day is rounded to the closest day benchmark. For example, 1 days, 3 days, 9 days
+* **`bml`** (optional, number): The length of the rounding benchmark according to the format of the `fmt` argument. For example, if the `fmt` argument is `"s"` and this argument is `2`, the return value is rounded to the closest 2-second benchmark. If `fmt` argument is `"m"` and this argument is `0.5`, the return value is rounded to the closest half-minute benchmark.
+* **`rte`** (optional, string): Comma-delimited string of Analytics events that remove or delete the timer. Defaults to nothing.
+
+Calling this method returns an integer representing the amount of time between the start timer event and stop timer event in the desired format.
 
 ## Example Calls
 
@@ -110,7 +103,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * The timer will start when s.events contains event1.
 * The timer will NOT restart every time s.events contains event1, rather the original timer will still keep running
 * The timer will NOT stop when s.events contains event2, but the plug-in will record the time since the original event1 setting was recorded
-* The timer will be stored in a cookie called "s_20"
+* The timer is stored in a cookie called "s_20"
 * The timer will reset only when either s.events contains event3 OR if 20 days has passed since the timer started
 * When a time between (the original) event1 and event2 is recorded, the plug-in will set eVar1 equal to the number of hours between the two events being set, rounded to the closest 1 1/2-hour benchmark (e.g. 0 hours, 1.5 hours, 3 hours, 7.5 hours, 478.5 hours, etc.)
 
@@ -120,7 +113,7 @@ The following code...
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
-...will produce similar results to the first example above; however, the value of eVar1 will be returned in either seconds, minutes, hours, or days, depending on the final length of the timer.  Also, the timer will expire 1 day after it was first set instead of at the time the visitor closes his/her browser.
+...will produce similar results to the first example above; however, the value of eVar1 is returned in either seconds, minutes, hours, or days, depending on the final length of the timer.  Also, the timer will expire 1 day after it was first set instead of at the time the visitor closes his/her browser.
 
 ## Version History
 

@@ -51,17 +51,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 ```
 
 ## Use the plug-in
-When calling the getTimeToComplete plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **sos** (optional, string): set equal to "start" in cases where you want to start a timer; otherwise set equal to "stop" in cases where you want to stop the timer; defaults to "start"
-* **cn** (optional, string): the name of the cookie that will store the start time; defaults to "s_gttc"
-* **exp** (optional, integer): the number of days that the timer will run (after being started) before it will expire; defaults to 0, when the timer will expire at the end of the session
+The `getTimeToComplete` method uses the following arguments:
 
-## Returns
-The getTimeToComplete plug-in returns the number of days, hours, minutes and/or seconds it took between the "start" and "stop" action.
+* **`sos`** (optional, string): Set to `"start"` when you want to start the timer. Set to `"stop"` when you want to stop the timer. Defaults to `"start"`.
+* **`cn`** (optional, string): The name of the cookie to store the start time. Defaults to `"s_gttc"`.
+* **`exp`** (optional, integer): The number of days that the cookie (and timer) expires. Defaults to `0`, which represents the end of the browser session.
 
-## Cookies
-The getTimeToComplete plug-in creates/reads from a first-party cookie with the name specified in the cn argument.  The value of the cookie is equal to a unix timestamp that represents the timer start time.  The cookie expires at the time specified in the exp argument.
+Calling this method returns a string that contains the number of days, hours, minutes and/or seconds it took between the `"start"` and `"stop"` action.
 
 ## Example Calls
 

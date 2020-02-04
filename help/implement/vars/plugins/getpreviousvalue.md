@@ -46,16 +46,12 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 ## Use the plug-in
 
-When calling the getPreviousValue plug-in (via JavaScript), be sure to pass in the following arguments:
-* **v** (string, required): The Analytics variable that has the value that you want to pass over to the next image request   Most cases use s.pageName (for retrieving the previous pageName value).
-* **c** (string, optional): The name of the cookie that will store the value to be passed over to the next image request.  If the c argument is not set, then it will default to the name of "s_gpv"
+The `getPreviousValue` method uses the following arguments:
 
-## Returns
-* The getPreviousValue plug-in always returns the last value that was passed into the variable specified in the v argument.   This means that if the variable was not set to a value during the hit just before the current one but instead, for instance, was last set five hits ago, a call to the plug-in will still return the value passed into the variable give hits ago and will continue to do so until the variable's value changes.
-* The plug-in will return nothing on the first page of a visit (i.e. when a new visitor comes to the site OR more than 30 minutes has passed since a visitor has visited the site)
+* **`v`** (string, required): The variable that has the value that you want to pass over to the next image request. A common variable used is `s.pageName` to retrieve the previous page value.
+* **`c`** (string, optional): The name of the cookie that stores the value.  If this argument is not set, it defaults to `"s_gpv"`.
 
-## Cookies
-The getPreviousValue plug-in creates a first-party cookie, the name of which is passed in via the c argument.  The contents of the cookie contain the previous value that you want to store/retrieve.   The cookie expires after 30 minutes of inactivity (i.e. at the end of the visit).
+When you call this method, it returns the string value contained in the cookie. The plug-in then resets the cookie expiration, and assigns it the variable value from the `v` argument. The cookie expires after 30 minutes of inactivity.
 
 ## Example Calls
 

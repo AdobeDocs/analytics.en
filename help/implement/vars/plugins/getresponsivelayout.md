@@ -45,22 +45,22 @@ var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(
 ```
 
 ## Use the plug-in
-When calling the getResponsiveLayout plug-in (via JavaScript), be sure to pass in the following arguments:
-* **ppw** (required, integer) - Set this equal to the maximum width of pixels a browser window can have before the page switches from a phone portrait layout to a phone landscape-based layout
-* **plw** (required, integer) - Set equal to the maximum width of pixels a browser window can have before the page switches from a phone landscape layout to a tablet-based layout
-* **tw** (required, boolean) - Set equal to the maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
 
-## Returns
-The getResponsiveLayout plug-in returns one of the following values (depending on the browser's width and the arguments you pass into the plug-in) ...
-* "phone portrait layout"
-* "phone landscape layout"
-* "phone layout" (for sites that don't have both portrait and landscape layouts)
-* "tablet layout"
-* "desktop layout"
-...ALONG WITH the browser's width/height dimensions (e.g. "desktop layout:1243x700")
+The `getResponsiveLayout` method uses the following arguments:
 
-## Cookies
-The getResponsiveLayout plug-in does not create or use any cookies
+* **`ppw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone portrait layout to a phone landscape-based layout
+* **`plw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone landscape layout to a tablet-based layout
+* **`tw`** (required, boolean): The maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
+
+Calling this method returns a string containing two parts. The first part uses of of the following values, depending on the browser's width and the above arguments:
+
+* `"phone portrait layout"`
+* `"phone landscape layout"`
+* `"phone layout"` (for sites that don't have both portrait and landscape layouts)
+* `"tablet layout"`
+* `"desktop layout"`
+
+The second part of the returned string is the browser's width and height dimensions. For example, `"desktop layout:1243x700"`.
 
 ## Example Calls
 

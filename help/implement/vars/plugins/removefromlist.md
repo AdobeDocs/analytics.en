@@ -50,19 +50,16 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 ```
 
 ## Use the plug-in
-When calling the rfl plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **lv** (required, string): A variable (or string) that is equal to a list of delimited values 
-* **vr** (required, string): A single value that will be removed from the lv argument's delimited list.  Trying to remove multiple values during a single rfl call is not recommended (see examples #12/#13 below)
-* **d1** (optional, string): The delimiter that separates out the individual values contained in the lv argument.  Defaults to a comma (i.e. ",") when not set
-* **d2** (optional, string): The delimiter that will separate the remaining (i.e. final) list of values after the value contained in the vr argument has been removed from the lv argument's value.   Defaults to the same value as the d1 argument
-* **df** (optional, boolean): A "flag" that, when set equal to true, will force the plug-in to remove only duplicate instances of the vr argument value from the lv argument rather than all instances.  Defaults to false when not set
+The `rfl` method uses the following arguments:
 
-## Returns
-The rfl plug-in returns the value of the lv argument but without any instances (or duplicate instances) of the value specified in the vr argument
+* **`lv`** (required, string): A variable (or string) that containing a list of delimited values
+* **`vr`** (required, string): The value you want removed from the `lv` argument. Adobe advises against removing multiple values during a single `rfl` call.
+* **`d1`** (optional, string): The delimiter that the `lv` argument uses. Defaults to a comma (`,`).
+* **`d2`** (optional, string): The delimiter that you want the return string to use. Defaults to the same value as the `d1` argument.
+* **`df`** (optional, boolean): If `true`, forces only duplicate instances of the `vr` argument from the `lv` argument instead of all instances. Defaults to `false` when not set.
 
-## Cookies
-The rfl plug-in by itself does not create or use any cookies.  
+Calling this method returns a modified string containing the `lv` argument but without any instances (or duplicate instances) of the value specified in the `vr` argument.
 
 ## Example Calls
 

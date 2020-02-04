@@ -45,17 +45,15 @@ s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");i
 ```
 
 ## Use the plug-in
-When calling the getVisitDuration plug-in (via JavaScript), you will not need to pass in any arguments.
 
-## Returns
-The getVisitDuration plug-in returns one of the following values depending on the situation
-* "first hit of visit"
-* “less than a minute”
-* “1 minute”
-* “[x] minutes” (where [x] is the number of minutes passed since the visitor landed on the site)
+The `getVisitDuration` method does not use any arguments. It returns one of the following values:
 
-## Cookies
-The getVisitDuration plug-in creates a first-party cookie called “s_dur”, which is equal to the number of milliseconds passed since the visitor landed on the site.  The cookie expires after 30 minutes of inactivity (i.e. end of the visit)
+* `"first hit of visit"`
+* `"less than a minute"`
+* `"1 minute"`
+* `"[x] minutes"` (where `[x]` is the number of minutes passed since the visitor landed on the site)
+
+This plug-in creates a first-party cookie called `"s_dur"`, which is the number of milliseconds elapsed since the visitor landed on the site. The cookie expires after 30 minutes of inactivity.
 
 ## Example Calls
 

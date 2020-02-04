@@ -46,18 +46,14 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 ## Use the plug-in
 
-When calling the getPageName plug-in (via JavaScript), be sure to pass in the following arguments:
+The `getPageName` method uses the following arguments:
 
-* **si** (optional, string): An ID that will be inserted into the beginning of the pageName value and represents the ID of the site (e.g. friendly name, etc.); When not set, this will default to the current domain (e.g. "www.sitename.com")
-* **qv** (optional, string): A comma delimited list of query string parameters that, if found in the URL, will be added to the pageName (along with their values)
-* **hv** (optional, string): A comma delimited list of parameters found in the URL hash that, if found in the URL, will be added to the pageName (along with their values)
-* **de** (optional, string): A delimiter that will split up the individual parts of the pageName (based off the domain(ID)/path/query string parameters).  Defaults to a pipe character (e.g. "|")
+* **`si`** (optional, string): An ID inserted into the beginning of the string representing the ID of the site. This value can either be a numeric ID or a friendly name. When not set, it defaults to the current domain.
+* **`qv`** (optional, string): A comma-delimited list of query string parameters that, if found in the URL, are added to the string
+* **`hv`** (optional, string): A comma-delimited list of parameters found in the URL hash that, if found in the URL, are added to the string
+* **`de`** (optional, string): The delimiter to split up individual parts of the string. Defaults to a pipe (`|`).
 
-## Returns
-The getPageName plug-in returns a "friendly"-formatted version of the URL, to be passed into the Analytics' pageName variable, based off the criteria you specify in the arguments above
-
-## Cookies
-The getPageName plug-in does not create or use any cookies
+The method returns a string containing a friendly-formatted version of the URL. This string is typically assigned to the `pageName` variable, but can be used in other variables as well.
 
 ## Example Calls
 

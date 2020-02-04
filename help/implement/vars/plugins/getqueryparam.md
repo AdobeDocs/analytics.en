@@ -46,20 +46,19 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 ```
 
 ## Use the plug-in
-When calling the getQueryParam plug-in (via JavaScript), be sure to pass in the following arguments:
-* **qsp** (required): A comma delimited list of query string parameters to look for within the URL.  The search will be case-insensitive.
-* **de** (optional): If the code finds multiple query string parameters in the URL (as specified in p), this parameter will be the delimiter used to separate out the individual query string parameter values as the code returns the result.  Defaults to nothing (i.e. a blank string)
-* **url** (optional): A custom url/string/variable to extract the query string parameter values from.  Defaults to the value of s.pageURL (or window.location).
 
-## Returns
-* The getQueryParam plug-in will return the value of the query string parameter specified in qsp
-* The plug-in will return nothing if the query string parameter specified in qsp does not exist in the URL
-* The plug-in will return 'true' if the query string parameter specified in qsp exists in the URL but does not contain a value
-* If the plug-in finds multiple query string parameters in the URL, then it will return each of the parameters' values concatenated together but delimited by the character(s) specified in de
-* If the getQueryParam call does not contain the de parameter but the code finds multiple query string parameters in the URL, it will ultimately return each of the parameters' values concatenated together but without a delimiter to separate them.
+The `getQueryParam` method uses the following arguments:
 
-## Cookies
-The getQueryParam plug-in does not create or use any cookies
+* **`qsp`** (required): A comma delimited list of query string parameters to look for within the URL. It is not case-sensitive.
+* **`de`** (optional): The delimiter to use if multiple query string parameters match. Defaults to an empty string.
+* **`url`** (optional): A custom URL, string, or variable to extract the query string parameter values from. Defaults to `window.location`.
+
+Calling this method returns a value depending on the above arguments and the URL:
+
+* If a matching query string parameter is not found, the method returns an empty string.
+* If a matching query string parameter is found, the method returns the query string parameter value.
+* If a matching query string parameter is found but the value is empty, the method returns `true`.
+* If multiple matching query string parameters are found, the method returns a string with each parameter value delimited by the string in the `de` argument.
 
 ## Example Calls
 

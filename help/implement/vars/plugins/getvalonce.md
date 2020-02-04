@@ -45,20 +45,15 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 ```
 
 ## Use the plug-in
-When calling the getValOnce plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **vtc** (required, string) - the variable to check and see whether it was just previously set to an identical value
-* **cn** (optional, string) - the name of the cookie that will hold the value to check against, defaults to "s_gvo"
-* **et** (optional, integer) - a number that specifies when the cn cookie will hit its expire time (in "x" minutes/days); defaults to 0, which forces the cn cookie to expire at the end of the session
-* **ep** (optional, string) – Set this when the "et" argument is set; defaults to "d" (i.e. days)
-	* Set the “ep” argument equal to "m" if you want the "cn" cookie to expire in "et" number of minutes
-	* OR set the "ep" argument equal to "d" if you want the "cn" cookie to expire in "et" number of days
+The `getValOnce` method uses the following arguments:
 
-## Returns
-If the variable specified in the vtc parameter has the exact same value as before, the getValOnce plug-in will return an empty string; otherwise it will return the (new) value passed into the variable.
+* **`vtc`** (required, string): The variable to check and see if it was just previously set to an identical value
+* **`cn`** (optional, string): The name of the cookie that holds the value to check. Defaults to `"s_gvo"`
+* **`et`** (optional, integer): The expiration of the cookie in days (or minutes, depending on the `ep` argument). Defaults to `0`, which expires at the end of the browser session
+* **`ep`** (optional, string): Only set this argument if the `et` argument is also set. Set this argument to `"m"` if you want the `et` argument to expire in minutes instead of days. Defaults to `"d"`, which sets the `et` argument in days.
 
-## Cookies
-The getValOnce plug-in creates a first-party cookie with a name equal to the name passed in via the cn argument.  Its value is equal to the value contained in the vtc argument and its expiration is dependent on the values passed in via the et/ep arguments.
+If the `vtc` argument and cookie value match, this method returns an empty string. If the `vtc` argument and cookie value do not match, the method returns the `vtc` argument as a string.
 
 ## Example Calls
 

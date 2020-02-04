@@ -57,33 +57,30 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 ```
 
 ## Use the plug-in
-When calling the manageVars plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **cb** (required, string): The name of a callback function that the plug-in will call to manipulate the Adobe Analytics variables.  This version of the plug-in includes the "lowerCaseVars" and the "cleanStr" callback functions
-* **l** (optional, string): A comma-delimited list of the Adobe Analytics variables that you want to manipulate (or explicitly NOT manipulate per the "il" argument value); defaults to ALL Adobe Analytics variables when not set.  "ALL" Adobe Analytics variables include the following:
-	* pageName
-	* purchaseID
-	* channel
-	* server
-	* pageType
-	* campaign
-	* state
-	* zip
-	* events
-	* products
-	* transactionID
-	* prop1 – prop75
-	* eVar1 – eVar250
-	* hier1 – hier5
-	* list1 – list3
-	* All contextData variables
-* **Il** (optional, boolean): Set equal to false if you want to exclude the list of variables declared in the l argument from being manipulated by the callback function; defaults to true
+The `manageVars` method uses the following arguments:
 
-## Returns
-The manageVars plug-in returns nothing, per se, but changes the values of all Adobe Analytics variables per the callback function and the other arguments passed into the variable
+* **`cb`** (required, string): The name of a callback function that the plug-in uses to manipulate the Analytics variables. You can use an Adobe function like `cleanStr` or your own custom function.
+* **`l`** (optional, string): A comma-delimited list of Analytics variables that you want to manipulate. Defaults to ALL Adobe Analytics variables when not set, which includes:
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * All props
+  * All eVars
+  * All hierarchy variables
+  * All list variables
+  * All context data variables
+* **`Il`** (optional, boolean): Set to `false` if you want to *exclude* the list of variables declared in the `l` argument instead of including them. Defaults to `true`.
 
-## Cookies
-The manageVars plug-in does not create or use any cookies
+Calling this method returns nothing. Instead it changes the values of Analytics variables based on the desired callback function.
 
 ## Example Calls
 

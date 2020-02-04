@@ -52,18 +52,15 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Use the plug-in
 
-When calling the getPageLoadTime plug-in (via JavaScript), you will not need to pass in any arguments.
+The `getPageLoadTime` method does not use any arguments. When calling this method, it does not return anything. Instead, it sets the following variables:
 
-## Returns
-The getPageLoadTime plug-in returns nothing but will set the following variables in the AppMeasurement object as a new page loads:
-* s._pltPreviousPage = the previous page, to be correlated with the load time of the previous page
-* s._pltLoadTime = the time, in seconds, that the previous page took to load.
+* `s._pltPreviousPage`: The previous page so you can correlate load time to the previous page
+* `s._pltLoadTime`: The time in seconds that the previous page took to load
 
-## Cookies
 The getPageLoadTime plug-in creates two first-party cookies:
-* s_plt = the time, in seconds, that the previous page took to load
-* s_pltp = the value of the s.pageName variable as recorded in the previous Adobe Analytics image request.
-Both cookies expire when the visitor closes the browser.
+
+* `s_plt`: The time, in seconds, that the previous page took to load. Expires at the end of the browser session.
+* `s_pltp` The value of the `s.pageName` variable as recorded in the previous Adobe Analytics image request. Expires at the end of the browser session.
 
 ## Example Calls
 

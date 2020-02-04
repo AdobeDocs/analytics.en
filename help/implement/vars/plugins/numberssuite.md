@@ -54,26 +54,26 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Use the plug-in
-When calling any of the Numbers Suite functions (via JavaScript), be sure to pass in the following arguments:
+## Use the plug-ins
 
-**For the zeroPad function:**
-* **num** (required, integer): A whole number to pad (i.e. add zeroes to the beginning per the nod argument's value).  The code will round down the value of this argument if it contains decimals
-* **nod** (required, integer): The number of digits to be contained in the final return value.  If the number to pad has less digits than the number of digits to pad to, then the plug-in will add enough zeroes to the beginning of the "num" argument value to ensure it has the appropriate number of digits
+The `zeroPad` method uses the following arguments:
 
-**For the randomNumber function:**
-* **nod** (optional, integer): the number of digits in the random number that you want to generate.  Max value is 17 digits, defaults to 10 digits
+* **num** (required, integer): The number to pad. The method rounds down the value of this argument if it contains decimals.
+* **nod** (required, integer): The number of digits in the final return value. If the number to pad has less digits than the number of digits to pad to, then the plug-in adds zeroes to the beginning of the `num` argument.
 
-**For the twoDecimals function:**
-* **val** (required, number): a number (represented by either a string or number object) that you want to round to the nearest hundredth
+The `randomNumber` method uses the following arguments:
+
+* **nod** (optional, integer): The number of digits in the random number that you want to generate. The maximum value is 17 digits. The default value is 10 digits.
+
+The `twoDecimals` method uses the following arguments:
+
+* **val** (required, number): A number (represented by either a string or number object) that you want to round to the nearest hundredth.
 
 ## Returns
-* The **zeroPad** function returns a string equal to the "num" argument but with a specific number of zeroes added to the beginning of its value, which will ensure the return value will have the correct number of digits per the "nod" argument
-* The **randomNumber** function returns a string equal to a random number with the number of digits specified in the "nod" argument
-* The **twoDecimals** function returns a number object (e.g. float, integer, etc.) rounded to the closest hundredth
 
-## Cookies
-The Numbers Suite functions do not create or use any cookies.
+* The **zeroPad** method returns a string equal to the `num` argument but with a specific number of zeroes added to the beginning of its value, which ensures that the return value has the correct number of digits.
+* The **randomNumber** method returns a string equal to a random number with the desired number of digits.
+* The **twoDecimals** method returns a number object rounded to the closest hundredth.
 
 ## Example Calls
 

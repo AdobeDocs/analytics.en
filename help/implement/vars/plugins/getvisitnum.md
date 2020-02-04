@@ -48,29 +48,18 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 ```
 
 ## Use the plug-in
-When calling the getVisitNum plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **rp** (optional, integer OR string):
-	* Set the rp argument equal to the number of days before the visit number counter resets.  Defaults to 365 (i.e. 1 year) when not set
-	* When rp is set equal to "w", the visit number counter resets at the end of the week (i.e. This Saturday at 11:59 PM)
-	* When rp is set equal to "m", the visit number counter resets at the end of the month (i.e. the 28th/30th/31st of the month)
-	* When rp is set equal to "y", the visit number counter resets at the end of the year (i.e. December 31st)
-* **erp** (optional, boolean):
-	* When the rp argument is equal to a number, the erp argument determines whether the number of days before the visit number counter resets should be extended by "rp" number of days when a visitor returns to the site.  Defaults to true when the rp argument is equal to a number
+The `getVisitNum` method uses the following arguments:
 
-## Returns
-The getVisitNum Plugin will return a visitor’s current visit number, the value of which is dependent on the settings in the getVisitNum call.
+* **`rp`** (optional, integer OR string): The number of days before the visit number counter resets.  Defaults to `365` when not set.
+  * When this argument is `"w"`, the counter resets at the end of the week (this Saturday at 11:59 PM)
+  * When this argument is `"m"`, the counter resets at the end of the month (the last day of this month)
+  * When this argument is `"y"`, the counter resets at the end of the year (December 31st)
+* **`erp`** (optional, boolean): When the `rp` argument is a number, this argument determines if the visit number expiration should be extended. If set to `true`, subsequent hits to your site resets the visit number counter. If set to `false`, subsequent hits to your site do not extend when the visit number counter resets. Defaults to `true`. This argument is not valid when the `rp` argument is a string.
 
-For instance, if a visitor had been to the site 5 times during the current month but only 2 times during the current week:
-* A call to getVisitNum where the "rp" argument is equal to "w" would return the value of 2 during the visitor's latest visit to the site
-* A call to getVisitNum where the "rp" argument is equal to "m" would return the value of 5 during the visitor's latest visit to the site
+The visit number increment whenever the visitor returns to your site after 30 minutes of inactivity. Calling this method returns an integer that represents the visitor's current visit number.
 
-The visit number will increment any time the visitor returns to your site after 30 minutes of inactivity.
-
-## Cookies
-The getVisitNum Plugin sets a first-party cookie called "s_vnc[LENGTH]" where [LENGTH] is the value passed into the rp parameter (e.g. "s_vncw", "s_vncm", "s_vnc365", etc.).  The value of the cookie is equal to a combination of a unix timestamp that represents the time that the visit number will reset (e.g. end of the week, end of the month, after 365 days of inactivity, etc.) AND the visit number.
-
-The plug-in sets another cookie, called "s_ivc", that is equal to only to the value of "true" and expires after 30 minutes of inactivity (i.e. at the end of the visit).
+This plug-in sets a first-party cookie called `"s_vnc[LENGTH]"` where `[LENGTH]` is the value passed into the `rp` argument. For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. The value of the cookie is a combination of a Unix timestamp that represents when the visit counter resets, such as end of the week, end of the month, or after 365 days of inactivity. It also contains the current visit number. This plug-in sets another cookie named `"s_ivc"` that is set to `true` and expires after 30 minutes of inactivity.
 
 ## Example Calls
 

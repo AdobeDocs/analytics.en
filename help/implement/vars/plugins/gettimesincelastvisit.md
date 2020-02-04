@@ -51,18 +51,17 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 ```
 
 ## Use the plug-in
-When calling the getTimeSinceLastVisit plug-in (via JavaScript), you will not need to pass in any arguments.
 
-## Returns
-The getTimeSinceLastVisit plug-in returns the amount of time since the visitor last came to the site
-* Any time between 30 minutes and an hour since the last visit will be set equal to the closest 1/2-minute benchmark (e.g. 30.5 minutes, 53 minutes, etc.)
-* Any time between an hour and a day will be rounded to the closest quarter-hour benchmark (e.g. 2.25 hours, 7.5 hours, etc.)
-* Anything greater than a day will be rounded to the closest day benchmark (e.g. 1 day, 3 days, 9 days, 372 days, etc.)
-* "New Visitor" for new visitors or for visitors that haven't been to the site for over two years.
-**NOTE:** The getTimeSinceLastVisit plug-in will return a value on only the first hit of the visit
+The `getTimeSinceLastVisit` method does not use any arguments. It returns the amount of time elapsed since the visitor last came to the site, bucketed in the following format:
 
-## Cookies
-The getTimeSinceLastVisit plug-in creates a first-party cookie called "s_tslv" that is set equal to a unix timestamp representing the current time.  The cookie expires after two years of inactivity.
+* Time between 30 minutes and an hour since the last visit is set to the nearest half-minute benchmark. For example, `"30.5 minutes"`, `"53 minutes"`
+* Time between an hour and a day is rounded to the nearest quarter-hour benchmark. For example, `"2.25 hours"`, `"7.5 hours"`
+* Time greater than a day is rounded to the nearest day benchmark. For example, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
+* If a visitor has not visited before or the time elapsed is greater than two years, the value is set to `"New Visitor"`.
+
+> [!NOTE] This plug-in only returns a value on the first hit of a visit.
+
+This plug-in creates a first-party cookie called `"s_tslv"` set to a Unix timestamp of the current time. The cookie expires after two years of inactivity.
 
 ## Example Calls
 

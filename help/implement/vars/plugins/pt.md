@@ -45,18 +45,15 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 ```
 
 ## Use the plug-in
-When calling the pt plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **l** (required, string): A list of Adobe Analytics variables (or other JavaScript variables) that the function contained in the "cf" argument can execute against.
-* **de** (optional, string): The delimiter that separates the list of variables in the "l" argument; defaults to a comma (",") character.
-* **cf** (required, string): The name of the callback function (contained in the AppMeasurement Object) to be called against each of the variables contained in the "l" argument.
-* **fa** (optional, string): If the function in the "cf" argument calls for additional arguments when it runs, include them here; defaults to undefined
+The `pt` method uses the following arguments:
 
-## Returns
-The pt plug-in will return a value if the callback function ("cf" argument) returns a value
+* **`l`** (required, string): A list of variables that the function contained in the `cf` argument can execute against.
+* **`de`** (optional, string): The delimiter that separates the list of variables in the `l` argument. Defaults to a comma (`,`).
+* **`cf`** (required, string): The name of the callback function contained in the AppMeasurement object to be called against each of the variables contained in the `l` argument.
+* **`fa`** (optional, string): If the function in the `cf` argument calls for additional arguments when it runs, include them here. Defaults to `undefined`.
 
-## Cookies
-The pt plug-in by itself does not create any cookies.  However, the callback function specified in the cf argument might create cookies depending on its functionality.
+Calling this method returns a value if the callback function (in the `cf` argument) returns a value.
 
 ## Example Calls
 

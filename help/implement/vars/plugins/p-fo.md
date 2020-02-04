@@ -45,16 +45,12 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 ```
 
 ## Use the plug-in
-When calling the p_fo plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **on** (required, string): The name of the JavaScript object that the plug-in will create if the object doesn't yet exist on the page.
+The `p_fo` method uses the following arguments:
 
-## Returns
-* If the object specified in the on argument doesn't exist on the page, then the plug-in will create the object and return the value of true
-* If the object specified in the on argument does exist on the page, then the plug-in will return the value of false
+* **on** (required, string): The name of the JavaScript object that the plug-in creates if the object doesn't yet exist on the page.
 
-## Cookies
-The p_fo plug-in does not create or use any cookies
+If the object doesn't yet exist, this method returns `true` and creates the object. If the object already exists, this method returns `false`.
 
 ## Example Calls
 

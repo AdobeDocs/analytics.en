@@ -39,22 +39,23 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## Use the plug-in
 
-When calling the getPercentPageViewed plug-in (via JavaScript), be sure to pass in the following arguments:
+The `getPercentPageViewed` method uses the following arguments:
 
-* **pid** (optional, string):  A page-based identifier that will be correlated with the percentages provided by the plug-in's measurements.  Defaults to the Analytics' pageName variable OR the URL if the pageName variable is not set.
-* **ch** (optional, boolean):  Set this equal to false (or 0) if you don't want the plug-in to take into consideration any changes made to a page's size after its initial load (due to SPA code, dynamic HTML, etc.).  "true" (or 1) is the recommended/default value for this argument
+* **`pid`** (optional, string):  A page-based identifier you can correlate with the percentages provided by the plug-in's measurements.  Defaults to the `pageName` variable.
+* **`ch`** (optional, boolean):  Set this to `false` (or `0`) if you don't want the plug-in to take into consideration any changes made to a page's size after its initial load. If omitted, this argument defaults to `true`. Adobe recommends omitting this argument in most cases.
 
-## Returns
-The getPercentPageViewed plug-in returns nothing; instead, it sets the following variables within the AppMeasurement object:
-* s._ppvPreviousPage = The name of the previous page viewed (As final scrolling measurements for the current page aren't available until after a **new** page loads)
-* s._ppvHighestPercentViewed = The highest percent of the previous page that the visitor viewed (height-wise); in other words, the furthest point that the visitor scrolled down to on the previous page
-* s._ppvInitialPercentViewed = The percent of the previous page that was visible when the previous page first loaded
-* s._ppvHighestPixelsSeen = The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page
-* s._ppvFoldsSeen = The highest number of "page folds" that were reached as the visitor scrolled down the previous page (including the "top-of-page" fold)
-* s._ppvFoldsAvailable = The number of total "page folds" that were available to scroll down on the previous page
+Calling this method returns nothing; instead, it sets the following variables:
 
-## Cookies
-The getPercentPageViewed plug-in creates a first-party cookie, called s_ppv, that is passed from page to page.  The contents of the cookie contain the values inserted in the four variables described above and expires at the end of the session.
+* `s._ppvPreviousPage`: The name of the previous page viewed. Final scrolling measurements for the current page aren't available until after a new page loads.
+* `s._ppvHighestPercentViewed`: The highest percent of the previous page that the visitor viewed (height-wise). The furthest point that the visitor scrolled down to on the previous page.
+* `s._ppvInitialPercentViewed`: The percent of the previous page that was visible when the previous page first loaded.
+* `s._ppvHighestPixelsSeen`: The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page.
+* `s._ppvFoldsSeen`: The highest number of "page folds" reached as the visitor scrolled down the previous page. This variable includes the "top-of-page" fold.
+* `s._ppvFoldsAvailable`: The number of total "page folds" available to scroll down on the previous page.
+
+Assign one or more of these variables to eVars to see dimension data in reports.
+
+This plug-in creates a first-party cookie called `s_ppv` that contains the above values. It expires at the end of the browser session.
 
 ## Example Calls
 

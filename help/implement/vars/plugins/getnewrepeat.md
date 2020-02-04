@@ -48,7 +48,7 @@ s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),
 
 The `getNewRepeat` method uses the following arguments:
 
-* **d** (integer, optional): The minimum number of days required between visits that resets visitors back to "New". If this argument is not set, it defaults to 30 days.
+* **`d`** (integer, optional): The minimum number of days required between visits that resets visitors back to `"New"`. If this argument is not set, it defaults to 30 days.
 
 This method returns the value of `"New"` if the cookie set by the plug-in doesn't exist or has expired. It returns the value of `"Repeat"` if the cookie set by the plug-in exists and the amount of time since the current hit and the time set in the cookie is greater than 30 minutes. This method returns the same value for an entire visit.
 

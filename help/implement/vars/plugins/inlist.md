@@ -45,20 +45,15 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 ```
 
 ## Use the plug-in
-When calling the inList plug-in (via JavaScript), be sure to pass in the following arguments:
 
-* **lv** (required, string or array): A delimited list of values or a JavaScript array object that might contain the lookup value specified in the vtc argument
-* **vtc** (required, string): the value to check for within the values specified in the lv argument
-* **d** (optional, string): The delimiter used to separate out the individual values contained in the lv argument.  Defaults to a comma (i.e. ",") when not set
-* **cc** (optional, boolean): A flag that determines whether a case-sensitive check will be used to determine whether the vtc argument value already exists in the lv argument value
-	* If cc equals true, then a case-sensitive check will be made for the value (vtc argument) you want to look for within the lv argument
-	* If cc is not set (or is equal to false), then a case-insensitive check will be made for the value you want to look for within the lv argument
+The `inList` method uses the following arguments:
 
-## Returns
-The inList plug-in returns "true" (boolean) if it finds a match between the vtc argument's value and any of the values contained within the lv argument.  Otherwise, the plug-in returns "false" (boolean)
+* **`lv`** (required, string or array): A delimited list of values or a JavaScript array object to search
+* **`vtc`** (required, string): The value to search for
+* **`d`** (optional, string): The delimiter used to separate individual values in the `lv` argument. Defaults to a comma (`,`) when not set.
+* **`cc`** (optional, boolean): If set to `true`, a case-sensitive check is made. If set to `false` or omitted, then a case-insensitive check is made. Defaults to `false`.
 
-## Cookies
-The inList plug-in does not set or use any cookies.
+Calling this method returns `true` if it finds a match, and `false` if it does not find a match.
 
 ## Example Calls
 

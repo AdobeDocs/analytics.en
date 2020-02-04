@@ -50,28 +50,24 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 ## Use the plug-in
 
-When calling the getTimeParting plug-in (via JavaScript), be sure to pass in the following arguments:
+The `getTimeParting` method uses the following argument:
 
-**t**: (OPTIONAL but recommended, string) The name of the time zone to convert the visitor's local time to.  Defaults to “Etc/GMT”, or UTC/GMT time.  Visit https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the complete list of values to enter.
+**`t`** (Optional but recommended, string): The name of the time zone to convert the visitor's local time to.  Defaults to UTC/GMT time. See [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) on Wikipedia for a complete list of valid values.
 
-Common values include:
+Common valid values include:
 
-* "America/New_York" for Eastern Time
-* "America/Chicago" for Central Time
-* "America/Denver" for Mountain Time
-* "America/Los_Angeles" for Pacific Time
+* `"America/New_York"` for Eastern Time
+* `"America/Chicago"` for Central Time
+* `"America/Denver"` for Mountain Time
+* `"America/Los_Angeles"` for Pacific Time
 
-## Returns
-The getTimeParting plug-in returns a string containing the following:
+Calling this method returns a string that contains the following delimited by a pipe (`|`):
+
 * The current year
 * The current month
-* The current date (i.e. day of the month)
-* The current day (i.e. day of the week)
-* The current time (non-military time)
-Each of the above items is delimited by a pipe ("|") character.
-
-## Cookies
-The getTimeParting plug-in does not create or use any cookies
+* The day of the month
+* The day of the week
+* The current time (AM/PM)
 
 ## Example Calls
 

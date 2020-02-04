@@ -22,6 +22,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
     + [Conversions](ga-to-aa/reports/conversions-reports.md)
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
++ [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)

@@ -65,8 +65,8 @@ A common reason is because elements already exist in other libraries pushed to s
 
 ## Documentation and additional resources
 
-- [Getting Started with Launch](https://docs.adobelaunch.com/getting-started): Learn the basic workflow of Launch
-- [Launch Administration](https://docs.adobelaunch.com/administration): Learn more about adapters and environments
+- [Getting Started with Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): Learn the basic workflow of Launch
+- [Launch Publishing](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html): Learn more about publishing and environments
 
 ## Next Steps
 

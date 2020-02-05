@@ -15,11 +15,7 @@ Timestamps Optional lets you:
 * Send timestamped data from a mobile app to a global report suite.
 * Upgrade apps to use offline tracking without having to create a new report suite.
 
-See [Using Timestamps Optional](/help/implement/js-implementation/timestamps-overview.md) for best practices when using timestamps in your report suite.
-
->[!IMPORTANT]
->
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. This can lead to out-of-order data and negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
+> [!IMPORTANT] If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. This can lead to out-of-order data and negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
 > [!NOTE] Timestamp-enabled session data is kept for up to 92 days. This means that a visit/session will be "held open" for 92 days while any additional hit - that isn't 30 minutes after the previous hit (in hit time) - can still be included in the same visit/session. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not.
 

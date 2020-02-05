@@ -1,12 +1,8 @@
 vi \
 ./c-analytics-digital-assistants/digital-assistants-white-paper.md  \
-./js-implementation/data-collection/http-headers.md  \
-./js-implementation/c-additional-libraries/libraries.md  \
 ./c-get-started-implementation/t-analytics-implementation-get-started.md  \
-./c-implementation/implementation.md  \
-./c-implement-with-dtm/t-configure-hosting.md  \
-./c-implement-with-dtm/c-aa-tool/analytics-dtm.md  \
-./c-implement-with-dtm/t-data-element.md  \
+./other/dtm/t-configure-hosting.md  \
+./other/dtm/c-aa-tool/analytics-dtm.md  \
+./other/dtm/t-data-element.md  \
 ./faq.md  \
-./analytics-terminology-basics/ref-metrics.md  \
 ./appmeasurement-release-notes/c-release-notes-mjs.md   

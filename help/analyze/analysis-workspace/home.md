@@ -12,7 +12,7 @@ Analysis Workspace is one of Adobe's flagship tools to make actionable data-base
 
 ## Prerequisites
 
-[Send data to Adobe Analytics using Adobe Experience Platform Launch](/help/implement/implement-with-launch/validate-publish-prod.md): Using Analysis Workspace requires a working implementation. Make sure your organization is sending data to Adobe before using the tool. Other implementations, such as DTM or legacy manual implementations, can work as well.
+[Send data to Adobe Analytics using Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): Using Analysis Workspace requires a working implementation. Make sure your organization is sending data to Adobe before using the tool. Other implementations, such as DTM or legacy manual implementations, can work as well.
 
 ## Pull a basic ranked report in Workspace
 

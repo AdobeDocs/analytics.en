@@ -5,7 +5,7 @@ description:
 
 # SSL Certificate Licensing
 
-If you use are using first-party cookies and you measure secure traffic, you must provide sufficient SSL certificate licenses to support the RDC implementation.
+Adobe recommends that you manage your certificate at no additional cost through the [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  The Adobe Managed Certificate program is fully automated and ensures certificates are renewed in a timely manner so that there is no impact due to expired certificates.
 
 Your SSL certificate licenses must support installation on up to 10 servers. These certificates are installed on load balancers worldwide. As Adobe brings additional Data Collection Centers online, SSL certificate needs change. How this affects your certificate licensing needs over time depends on the type of certificate license you own:
 

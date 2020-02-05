@@ -6,7 +6,7 @@ description: Learn how and why to create projects in Workspace with multiple rep
 # Multiple report suites in Workspace
 
 >[!IMPORTANT]
->This feature is currently in Beta testing and will be released in early 2020.
+>Multiple report suites in Workspace is currently in limited release. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks.
 
 You can now create projects in Analysis Workspace with data from more than one report suite. Report suites are now chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
 

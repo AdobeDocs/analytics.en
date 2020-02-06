@@ -80,7 +80,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [forceOnline](vars/functions/forceonline.md)
     + [registerPreTrackCallback](vars/functions/registerpretrackcallback.md)
     + [registerPostTrackCallback](vars/functions/registerposttrackcallback.md)
-    + [sa](vars/functions/sa.md)
+    + [sa](vars/functions/sa-method.md)
     + [Util.cookieRead](vars/functions/util-cookieread.md)
     + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
     + [Util.getQueryParam](vars/functions/util-getqueryparam.md)

@@ -14,11 +14,11 @@ If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement auto
 Launch has a dedicated location set a link tracking call.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the '+' icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.tl()` radio button.
+1. Click the desired property.
+1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+1. Under [!UICONTROL Actions], click the '+' icon
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. Click the `s.tl()` radio button.
 
 You cannot set any optional arguments in Launch.
 

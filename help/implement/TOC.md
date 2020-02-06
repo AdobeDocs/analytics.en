@@ -72,8 +72,8 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + Functions and methods {#functions}
     + [Functions overview](vars/functions/overview.md)
     + [s_gi](vars/functions/s-gi.md)
-    + [t](vars/functions/t.md)
-    + [tl](vars/functions/tl.md)
+    + [t](vars/functions/t-method.md)
+    + [tl](vars/functions/tl-method.md)
     + [clearVars](vars/functions/clearvars.md)
     + [doPlugins](vars/functions/doplugins.md)
     + [forceOffline](vars/functions/forceoffline.md)

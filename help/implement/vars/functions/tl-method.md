@@ -95,10 +95,18 @@ Send a basic link tracking call directly inside an HTML link:
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-Use JavaScript to make a basic link tracking call:
+Use JavaScript to make a basic link tracking call using method arguments:
 
 ```JavaScript
-s.tl(true,"o","Example Link");
+s.tl(true,"o","Example link");
+```
+
+Use JavaScript to make the same basic link tracking call using separate variables:
+
+```js
+s.linkType = "o";
+s.linkName = "Example link";
+s.tl();
 ```
 
 ### Make link tracking calls within a custom function

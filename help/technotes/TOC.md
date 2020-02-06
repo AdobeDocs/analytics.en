@@ -28,6 +28,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Low-traffic value](low-traffic.md)
 + [Privacy overview](privacy-overview.md)
 + [Redirects and aliases](redirects.md)
++ [Multi-currency support](multicurrency.md)
 + Regional Data Collection {rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)

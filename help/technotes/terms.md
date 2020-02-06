@@ -34,7 +34,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Conversion variable:** Colloquially known as eVars. Stores a custom value, and preserves the variable value until it expires. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Current data:** An option in some reports that allows the inclusion of recently collected data that hasn't fully processed yet. See [Current data](/help/analyze/reports-analytics/current-data.md) in the Analyze user guide.
-* **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/vars/functions/tl.md) in the Implement user guide. See also Hit.
+* **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/vars/functions/tl-method.md) in the Implement user guide. See also Hit.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
 * **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
@@ -83,8 +83,8 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
 * **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.
 * **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
-* **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [t](../implement/vars/functions/t.md) in the Implement user guide.
-* **s<span>.</span>tl():** The name of the function in an AppMeasurement library that sends a link tracking image request. Some AppMeasurement libraries use `s.trackLink()` instead. See [tl](../implement/vars/functions/tl.md) in the Implement user guide.
+* **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [t](../implement/vars/functions/t-method.md) in the Implement user guide.
+* **s<span>.</span>tl():** The name of the function in an AppMeasurement library that sends a link tracking image request. Some AppMeasurement libraries use `s.trackLink()` instead. See [tl](../implement/vars/functions/tl-method.md) in the Implement user guide.
 * **s_code.js:** The name of the JavaScript file used in historical versions of Adobe Analytics. The current name of the JavaScript file used is AppMeasurement.js.
 * **Satellite:** No longer used as a term. The former product name for Dynamic Tag Management.
 * **Secondary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, all report suites after the first listed are secondary server calls. See also Primary server calls.

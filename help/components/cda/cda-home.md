@@ -8,7 +8,7 @@ description: Cross-Device Analytics changes your data from being device-focused 
 > [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
 
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. This feature uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to identify which devices belong to individuals, and stitch them together. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Using CDA you can answer questions such as:
- 
+
 * How many people are interacting with my brand? How many and what types of devices do they use? How do they overlap?
 * How often do people begin a task on a mobile device and then later move to a desktop PC to complete the task? Do campaign click-throughs that land on one device lead to conversion somewhere else?
 * How does my understanding of campaign effectiveness change if I take into account cross-device journeys? How does my funnel analysis change?
@@ -51,7 +51,7 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * Customer Care does not yet fully support this feature. The [Cross-Device Analytics forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) can be used for support on this feature, which includes active and direct involvement from Adobe Product Managers.
 * Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.
 * The 1.4 API is not supported. Power BI connectors and Report Builder both rely on the 1.4 API, and are therefore not compatible with CDA.
-* New devices visiting your site can take up to two weeks to be processed by the Co-op Graph or Private graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks. Adobe plans to improve the Adobe Experience Platform Identity Service to stitch new devices real-time in the future.
+* New devices visiting your site can take up to two weeks to be processed by the Co-op Graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks. Adobe plans to improve the Adobe Experience Platform Identity Service to stitch new devices real-time in the future.
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 
 Once your organization has all requirements met and understands the limitations, you can start [Setting up Cross-Device Analytics](cda-setup.md).

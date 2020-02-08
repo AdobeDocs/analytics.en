@@ -36,33 +36,32 @@ Administrators with access to create virtual report suites can create CDA virtua
 When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
 * A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
+* A new dimension labeled 'Identified State' is available. This dimension determines if the Experience Cloud ID on that hit is known by the device graph at that time.
 * New metrics labeled 'People' and 'Unique Devices' are available.
-* The metric 'Unique Visitors' is not available, as it is replaced with People and Unique Devices.
+* The metric 'Unique Visitors' is not available, as it is replaced with 'People' and 'Unique Devices'.
 * When building segments, the 'Visitor' segment container is replaced with a 'Person' container.
 
-## The Compression calculated metric
+## CDA Workspace template
 
-The ability for Cross-Device Analytics to stitch devices together depends on a wide range of factors. The effectiveness of the feature's ability to stitch data can be measured with a calculated metric called compression. Factors that contribute to compression include:
+Adobe offers a template to see vital cross-device performance data.
 
-* Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
-* Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
-* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
-* Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
-* Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
+1. Navigate to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) and log in using your AdobeID credentials.
+1. Click the 9-grid icon at the top, then click Analytics.
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. Locate the "Journey IQ: Cross-Device Analytics" template, then click [!UICONTROL Create].
+1. If prompted, change the report suite to one that supports CDA.
 
-To see your organization's compression for a given time period:
+An Analysis Workspace project is created that contains several panels. At the top, a table of contents and introduction is shown, allowing context to the report and navigation to individual reports. Click a link within the table of contents or expand a panel's accordion to view those reports.
 
-1. Click Workspace at the top, then click 'Create New Project'.
-2. Start with a Blank Project, then click Create.
-3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
-4. Drag the People metric onto the canvas directly to the right of the Unique Devices metric header, so the two metrics are side-by-side.
-5. Click the '`+`' symbol next to available metrics on the left to open the Calculated Metric builder.
-6. Give this calculated metric the following settings:
-   * Name: Cross-Device Compression
-   * Format: Percent
-   * Decimal Places: 2
-   * Definition: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!TIP] Click 'Add' in the top right corner of the definition area to add a static number. Drag People and Unique Devices from the list of available metrics on the left.
-7. Click Save.
-8. Drag the new calculated metric onto the canvas directly to the right of the People metric header, so all three metrics are side-by-side.
-9. Optional: The workspace loads the Day dimension by default. Drag an alternate date dimension, such as week or month, on top of the Day dimension if a different time granularity is desired.
+* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
+* **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics. 
+* **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
+  * Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
+  * Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
+  * Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+  * Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
+  * Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
+* **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
+* **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
+* **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
+* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it.

@@ -13,14 +13,11 @@ Here are important guidelines for creating rules:
 * Sort the rules in the order that you want them to be processed.
 * At the end of your list, include a catch-all rule, such as Other. This rule identifies external traffic but not internal traffic.
 
-   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
+   See [No Channel Identified.](/help/components/c-marketing-channels/mc-faq/c-faq.md#no-channel-identified)
 
 > [!NOTE] Although these rules do not affect reporting outside of marketing channels, they affect marketing channel data collection. Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
 
 ## Prerequisites
 
-* Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) and [About Marketing Channel Reports](/help/components/c-marketing-channels/c-overview.md).
-
-* Create one or more channels so that you can assign rules to them.
-
-  See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
+* Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md).
+* Create one or more channels so that you can assign rules to them. See [Add marketing channels.](/help/components/c-marketing-channels/mark-channel-mgr/c-channels.md)

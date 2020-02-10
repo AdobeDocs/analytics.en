@@ -346,7 +346,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Configure user group access](c-marketing-channels/mc-access/t-user-groups.md)
     + [Grant limited administrative rights](c-marketing-channels/mc-access/t-admin-rights.md)
   + [Marketing Channel FAQ] {#mc-faq}
-    + [Frequently asked questions and examples](c-marketing-channels/mc-faq/c-faq.md)
+    + [Marketing Channels FAQs and examples](c-marketing-channels/mc-faq/c-faq.md)
   + [About Marketing Channel reports](c-marketing-channels/c-overview.md)
   + [Metrics used in Marketing Channel reports](c-marketing-channels/c-overview-metrics.md)
   + [Calculated metrics used Marketing Channel reports](c-marketing-channels/c-channel-calc-metrics.md)

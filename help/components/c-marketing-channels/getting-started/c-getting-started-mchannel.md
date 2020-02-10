@@ -40,6 +40,6 @@ See [Add marketing channels](/help/components/c-marketing-channels/mark-channel-
 
 After you create channels on the [!UICONTROL Marketing Channel Manager] page, you configure the rules so that channels can retrieve and report data.
 
-See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md).
+See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/mc-proc-rules/c-rules.md).
 
 If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs.

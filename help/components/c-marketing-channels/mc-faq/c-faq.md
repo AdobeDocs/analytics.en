@@ -3,7 +3,7 @@ description: Read about best practices and examples of how to populate various r
 title: Marketing Channels FAQs and examples
 ---
 
-#  Marketing Channels FAQs and examples
+# Marketing Channels FAQs and examples
 
 See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/mc-proc-rules/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 

@@ -1,19 +1,13 @@
 ---
-description: Marketing Channel reporting lets you know how much revenue your marketing channels generate. These reports include an overview report of the first and last-touch channel allocation, with critical, standard metrics like revenue, orders, and cost.
-subtopic: Marketing channels
-title: About Marketing Channel reports
-topic: Reports and analytics
-uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
+title: Marketing Channel reports in Reports & Analytics
+description: Marketing Channel reporting lets you know how much revenue your marketing channels generate. These reports in Reports & Analytics include an overview report of the first and last-touch channel allocation, with critical, standard metrics like revenue, orders, and cost.
 ---
 
-# About Marketing Channel reports
+# Marketing Channel reports in Reports & Analytics
 
-Marketing Channel reporting lets you know how much revenue your marketing channels generate. These reports include an overview report of the first and last-touch channel allocation, with critical, standard metrics like revenue, orders, and cost.
+Out-of-the-box Marketing Channel reporting in Reports & Analytics lets you know how much revenue your marketing channels generate. These reports include an overview report of the first and last-touch channel allocation, with critical, standard metrics like revenue, orders, and cost.
 
 You configure channel definition rules in Admin Tools. APIs specific for the channel reports are available. No external implementation changes are necessary to run the [!UICONTROL Marketing Channel] report.
-
-* [Example Report](/help/components/c-marketing-channels/c-overview.md) 
-* [Available Reports](/help/components/c-marketing-channels/c-overview.md)
 
 ## Example Report {#example-rpt}
 
@@ -31,7 +25,7 @@ Add a column to the report.
 
 ## Available Reports {#available-rpts}
 
-The following [!UICONTROL Marketing Channel] reports are available in the Experience Cloud.
+The following [!UICONTROL Marketing Channel] reports are available in Reports & Analytics.
 
 | Report  | Description  |
 |--- |--- |

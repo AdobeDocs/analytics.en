@@ -342,7 +342,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Analyze Marketing Channels] {#mc-analyze}
     + [Analyze Marketing Channels](c-marketing-channels/mc-analyze/analyze-mc.md)
   + [Access Marketing Channels] {#mc-access}
-    + [Report Access](c-marketing-channels/mc-access/c-channel-report-access.md)
+    + [Marketing Channels permissions](c-marketing-channels/mc-access/c-channel-report-access.md)
     + [Configure user group access](c-marketing-channels/mc-access/t-user-groups.md)
     + [Grant limited administrative rights](c-marketing-channels/mc-access/t-admin-rights.md)
   + [Marketing Channel FAQ] {#mc-faq}

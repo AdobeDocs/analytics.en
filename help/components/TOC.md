@@ -323,24 +323,33 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
-  + [Getting Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
+  + [Get Started with Marketing Channels] {#mc-get-started}
+    + [Get started](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+    + [Automatic setup](c-marketing-channels/getting-started/c-channel-autosetup.md)
+    + [Apply template report suite settings to multiple report suites](c-marketing-channels/getting-started/t-template.md)
+  + [Marketing Channels manager] {#mc-manager}
+    + [Manage marketing channels](c-marketing-channels/mark-channel-mgr/c-channels.md)
+    + [About channels and rules](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+  + [Marketing Channels processing rules] {#mc-proc-rules}
+    + [Processing rules for Marketing Channels](c-marketing-channels/mc-proc-rules/c-rules.md)
+    + [Create Marketing Channel processing rules](c-marketing-channels/mc-proc-rules/t-rules.md)
+    + [Marketing Channel rule criteria](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+    + [Internal (Session Refresh) channel](c-marketing-channels/mc-proc-rules/session-refresh.md)
+  + [Marketing Channels classifications] {#mc-classifications}
+    + [Classifications in Marketing Channels](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+  + [Marketing Channels expiration] {#mc-expire}
+    + [Visitor engagement expiration](c-marketing-channels/mc-expiration/visitor-engagement.md)
+  + [Analyze Marketing Channels] {#mc-analyze}
+    + [Analyze Marketing Channels](c-marketing-channels/mc-analyze/analyze-mc.md)
+  + [Access Marketing Channels] {#mc-access}
+    + [Report Access](c-marketing-channels/mc-access/c-channel-report-access.md)
+    + [Configure user group access](c-marketing-channels/mc-access/t-user-groups.md)
+    + [Grant limited administrative rights](c-marketing-channels/mc-access/t-admin-rights.md)
+  + [Marketing Channel FAQ] {#mc-faq}
+    + [Frequently asked questions and examples](c-marketing-channels/mc-faq/c-faq.md)
   + [About Marketing Channel reports](c-marketing-channels/c-overview.md)
-  + [About channels and rules](c-marketing-channels/c-channels-rules.md)
-  + [Automatic setup](c-marketing-channels/c-channel-autosetup.md)
-  + [Manage marketing channels](c-marketing-channels/c-channels.md)
-  + [Internal (Session Refresh) channel](c-marketing-channels/session-refresh.md)
-  + [Processing rules for Marketing Channels](c-marketing-channels/c-rules.md)
-  + [Create Marketing Channel processing rules](c-marketing-channels/t-rules.md)
-  + [Marketing Channel processing rules - definitions](c-marketing-channels/r-channel-rule-definitions.md)
-  + [Frequently asked questions and examples](c-marketing-channels/c-faq.md)
-  + [Apply template report suite settings to multiple report suites](c-marketing-channels/t-template.md)
-  + [Classifications in Marketing Channels](c-marketing-channels/classifictions-mchannel.md)
-  + [Visitor engagement expiration](c-marketing-channels/visitor-engagement.md)
   + [Metrics used in Marketing Channel reports](c-marketing-channels/c-overview-metrics.md)
   + [Calculated metrics used Marketing Channel reports](c-marketing-channels/c-channel-calc-metrics.md)
   + [Costs and budgets](c-marketing-channels/c-overview-budget.md)
   + [Add offline data](c-marketing-channels/t-offline-data.md)
-  + [Report Access](c-marketing-channels/c-channel-report-access.md)
-  + [Configure user group access](c-marketing-channels/t-user-groups.md)
-  + [Grant limited administrative rights](c-marketing-channels/t-admin-rights.md)
   + [Run Marketing Channel reports](c-marketing-channels/t-reports-sc.md)

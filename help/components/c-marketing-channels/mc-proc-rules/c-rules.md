@@ -1,9 +1,7 @@
 ---
-description: Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel. The rules process every hit a visitor makes on your site. When a rule does not meet the criteria for a channel, or if rules are not configured correctly, the system assigns the hit to No Channel Identified.
-subtopic: Marketing channels
+
 title: Processing rules for Marketing Channels
-topic: Reports and analytics
-uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
+description: Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel. The rules process every hit a visitor makes on your site. When a rule does not meet the criteria for a channel, or if rules are not configured correctly, the system assigns the hit to No Channel Identified.
 ---
 
 # Processing rules for Marketing Channels

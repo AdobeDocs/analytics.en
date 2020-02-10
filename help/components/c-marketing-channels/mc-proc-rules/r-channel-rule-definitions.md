@@ -1,12 +1,9 @@
 ---
+title: Marketing Channel rule criteria 
 description: This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
-subtopic: Marketing channels
-title: Marketing Channel processing rules - definitions
-topic: Reports and analytics
-uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 ---
 
-# Marketing Channel processing rules - definitions
+# Marketing Channel rule criteria
 
 This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
 

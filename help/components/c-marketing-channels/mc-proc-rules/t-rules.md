@@ -1,9 +1,6 @@
 ---
-description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
-subtopic: Marketing channels
 title: Create Marketing Channel processing rules
-topic: Reports and analytics
-uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
+description: Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
 ---
 
 # Create Marketing Channel processing rules
@@ -17,7 +14,7 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
    If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
 
-   See [Run the Automatic Setup](/help/components/c-marketing-channels/c-channel-autosetup.md).
+   See [Run the Automatic Setup](/help/components/c-marketing-channels/getting-started/c-channel-autosetup.md).
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
@@ -44,4 +41,4 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
 >[!MORELIKETHIS]
 >
->* [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/c-faq.md)
+>* [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/mc-faq/c-faq.md)

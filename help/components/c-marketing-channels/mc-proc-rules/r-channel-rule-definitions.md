@@ -1,12 +1,9 @@
 ---
+title: Marketing Channel rule criteria 
 description: This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
-subtopic: Marketing channels
-title: Marketing Channel processing rules - definitions
-topic: Reports and analytics
-uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 ---
 
-# Marketing Channel processing rules - definitions
+# Marketing Channel rule criteria
 
 This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
 
@@ -36,7 +33,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conversion Variables </p> </td> 
-   <td colname="col2"> <p>Consists of eVars that are enabled for this report suite, and applies only when these variables are set via the Adobe code on the page. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  > Implementation Guide </a>. </p> </td> 
+   <td colname="col2"> <p>Consists of eVars that are enabled for this report suite, and applies only when these variables are set via the Adobe code on the page. </p> <p>See the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"  > Implementation Guide </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exists </p> </td> 
@@ -49,7 +46,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identify the channel as </p> </td> 
-   <td colname="col2"> <p>Associates the rule with a marketing channel that you added to the <span class="wintitle"> Marketing Channel Manager </span> page. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Associates the rule with a marketing channel that you added to the <span class="wintitle"> Marketing Channel Manager </span> page. </p> <p>See <a href="/help/components/c-marketing-channels/mark-channel-mgr/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Matches Paid Search Detection Rules </p> </td> 
@@ -65,7 +62,7 @@ This reference table defines the fields, options, and hit attributes you can sel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Referrer Does Not Match Internal URL Filters </p> </td> 
-   <td colname="col2"> <p>The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/mc-faq/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignore hits matching internal URL filters </p> </td> 

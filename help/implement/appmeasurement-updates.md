@@ -10,7 +10,13 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
+You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md.
+
+## Version 2.18.0
+
+Release Date: **February 20, 2020**
+
+* AppMeasurement can now force cookies to include the secure tag by setting `writeSecureCookies` to 'true'. The requirement for this setting is that the entire client website is served securely (https). (AN-204604)
 
 ## Version 2.17.0
 

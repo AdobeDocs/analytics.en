@@ -27,9 +27,9 @@ If necessary, contact Customer Care to assist you with these prerequisites:
 
   See [General Account Settings](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) in Analytics help for more information.
 
-* Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
+* Set up access to the Marketing Channel dimensions.
 
-  See [Configure User Group Access](/help/components/c-marketing-channels/mc-access/t-user-groups.md).
+  See [Marketing Channels permissions](/help/components/c-marketing-channels/mc-access/c-channel-report-access.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 

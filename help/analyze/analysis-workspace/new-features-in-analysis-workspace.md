@@ -8,6 +8,17 @@ uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 
 # What's New in Analysis Workspace
 
+## February 2020
+
+New features released on February 20, 2020.
+
+| Feature | Description |
+|--- |--- |
+|**Support for multiple report suites in Workspace**|You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)|
+|New **Workspace template for organizations using Cross-Device Analytics**.|This template shows how effective CDA is at stitching visits together and educates you on CDA-exclusive dimensions and metrics. A report suite using CDA is required. See [Setting up Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) for more information.|
+|**New hotkeys in Workspace**|<ul><li>Collapse/Expand All panels: alt + m</li><li>Collapse/Expand Active panel: alt + ctrl + m</li><li>Search left rail: ctrl + /</li><li>Move to next panel: alt + Right Key</li><li>Move to previous panel:	alt + Left Key</li></ul>[Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)|
+|**Other Workspace enhancements**|<ul><li>When a panel or visualization is dropped into Workspace, the left rail will now auto-switch to components for a more seamless workflow.</li><li>Template components can now be actioned upon (e.g. tagged, favorited, approved).</li><li>Filtered metric and segment lists offer the + button to add a new component if you don't find what you need.</li></ul>|
+
 ## January 2020
 
 New feature released on January 16, 2020.

@@ -345,9 +345,3 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Marketing Channels permissions](c-marketing-channels/mc-access/c-channel-report-access.md)
   + [Marketing Channel FAQ] {#mc-faq}
     + [Marketing Channels FAQs and examples](c-marketing-channels/mc-faq/c-faq.md)
-  + [About Marketing Channel reports](c-marketing-channels/c-overview.md)
-  + [Metrics used in Marketing Channel reports](c-marketing-channels/c-overview-metrics.md)
-  + [Calculated metrics used Marketing Channel reports](c-marketing-channels/c-channel-calc-metrics.md)
-  + [Costs and budgets](c-marketing-channels/c-overview-budget.md)
-  + [Add offline data](c-marketing-channels/t-offline-data.md)
-  + [Run Marketing Channel reports](c-marketing-channels/t-reports-sc.md)

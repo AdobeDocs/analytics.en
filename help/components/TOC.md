@@ -343,8 +343,6 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Analyze Marketing Channels](c-marketing-channels/mc-analyze/analyze-mc.md)
   + [Access Marketing Channels] {#mc-access}
     + [Marketing Channels permissions](c-marketing-channels/mc-access/c-channel-report-access.md)
-    + [Configure user group access](c-marketing-channels/mc-access/t-user-groups.md)
-    + [Grant limited administrative rights](c-marketing-channels/mc-access/t-admin-rights.md)
   + [Marketing Channel FAQ] {#mc-faq}
     + [Marketing Channels FAQs and examples](c-marketing-channels/mc-faq/c-faq.md)
   + [About Marketing Channel reports](c-marketing-channels/c-overview.md)

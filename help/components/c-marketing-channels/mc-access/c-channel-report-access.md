@@ -5,7 +5,7 @@ title: Marketing Channel permissions
 
 # Marketing Channel permissions
 
-Describes the Report Suite Tools permissions needed in the [Admin Console](https://adminconsole.adobe.com/) to be able to work with various aspects of Marketing Channels.
+Here are the Report Suite Tools permissions needed in the [Admin Console](https://adminconsole.adobe.com/) to be able to work with various aspects of Marketing Channels.
 
 |Permission type||Permission name|Description|
 |---|---|---|
@@ -16,3 +16,4 @@ Describes the Report Suite Tools permissions needed in the [Admin Console](https
 |Analytics Tools|Analysis Workspace Access|Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use the Marketing Channels dimensions in Workspace.|
 |Analytics Tools|Reports & Analytics Access|Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics.|
 
+For more information on product profiles and Adobe Analytics permissions in Admin Console, go [here](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html).

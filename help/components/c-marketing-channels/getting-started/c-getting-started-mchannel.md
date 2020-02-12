@@ -18,7 +18,7 @@ Defining the channels you use is one of the most important components of Marketi
 * Are you using a paid search? 
 * Are you using email campaigns? Are you using multiple email campaigns that you would want to track separately? 
 * Do you have affiliates that direct traffic to your site? Are there affiliates that you want to track individually? 
-* Are there external campaigns that would be advantageous in tracking separately? 
+* Are there external campaigns that would be advantageous in tracking separately?
 * Do you want to aggregate all social networking sites, or are there any that you want to track individually? 
 * Are there other channels that might affect conversion that you want to track?
 

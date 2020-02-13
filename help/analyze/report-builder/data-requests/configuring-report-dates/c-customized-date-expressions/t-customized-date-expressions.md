@@ -14,5 +14,9 @@ It is recommended that you refer to a calendar when building expressions in orde
 **To enable custom expressions** 
 
 1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. Enable **[!UICONTROL Custom Expression]**.
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. Enable **[!UICONTROL Customize Expression]**.
 1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.

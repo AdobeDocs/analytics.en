@@ -7,7 +7,7 @@ uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 
 # Request Wizard definitions - rolling dates
 
-Field definitions for rolling dates in report builder.
+Field definitions for rolling dates in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

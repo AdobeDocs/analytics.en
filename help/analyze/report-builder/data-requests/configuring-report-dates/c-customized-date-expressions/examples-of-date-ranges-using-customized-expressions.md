@@ -39,10 +39,8 @@ Customized expressions covering most date ranges can be created by linking two t
 * Use only these abbreviations: cd cw cm cq cy d w m q y 
 * The best practice is to use the same date reference in the start date and in the end date: cd, cd, or cw, cw, or cy, cy. Mixing date references can lead to invalid dates at certain times of the year.
 * Valid multiples of the abbreviations d w m q y are formed by means of integers ( 1 2 3 ... ) prepended to the abbreviation, such as 53d 3w 5q 9m 2y
-
-    * Non-integer numbers are not allowed.
-    * Do not prepend the abbreviation with only a zero. For example, 0w is not allowed.
-
+* Non-integer numbers are not allowed.
+* Do not prepend the abbreviation with only a zero. For example, 0w is not allowed.
 * The following operators are used to concatenate abbreviations: + - 
 * Because date ranges must be reckoned relative to the current period, the first term in an expression always begins with c.
 

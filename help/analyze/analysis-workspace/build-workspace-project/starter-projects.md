@@ -10,14 +10,11 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 
 You can choose whether to create a project from:
 
-* A blank project (default). For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
-* A standard template. These templates are created by Adobe and ship out of the box.
-* A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the "Save as Template" permission. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* **Standard template**: These templates are created by Adobe and ship with the product.
+* **Custom template**: These templates can be created, shared, or deleted by users with admin rights or by non-admins, provided they have been granted the [!UICONTROL Analysis Workspace: Save as Template] permission in the Admin Console. [Learn more...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [Create a custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
-* [Standard templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## Create a custom template {#create-custom-template}
 
@@ -145,3 +142,19 @@ It is based on the People metric, which is a de-duplicated version of the Unique
 * Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 
+### Journey IQ: Cross-Device Analytics template
+
+This template lets you see vital cross-device performance data. 
+
+* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
+* **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
+* **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
+  * **Using the Co-op graph or Private graph**: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
+  * **Log-in rate**: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
+  * **Experience Cloud ID coverage**: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+  * **Multiple device usage**: If visitors to your site don't use multiple devices, you can see lower compression rates.
+  * **Reporting granularity**: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate. 
+* **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
+* **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
+* **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
+* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it. 

@@ -18,6 +18,7 @@ New features released on February 20, 2020.
 |New Workspace template for organizations using Cross-Device Analytics|This template shows how effective CDA is at stitching visits together and educates you on CDA-exclusive dimensions and metrics. A report suite using CDA is required. See [Setting up Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) for more information.|
 |New hotkeys in Workspace|<ul><li>Collapse/Expand All panels: `alt + m`</li><li>Collapse/Expand Active panel: `alt + ctrl + m`</li><li>Search left rail: `ctrl + /`</li><li>Move to next panel: `alt + Right Key`</li><li>Move to previous panel: `alt + Left Key`</li></ul>[Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)|
 |Other Workspace enhancements|<ul><li>When a panel or visualization is dropped into Workspace, the left rail will now auto-switch to components for a more seamless workflow.</li><li>Template components can now be actioned upon (e.g. tagged, favorited, approved).</li><li>Filtered metric and segment lists offer the + button to add a new component if you don't find what you need.</li></ul>|
+|Workspace debugger|The Workspace debugger has been added to the Help menu, giving you a more seamless way to enable it for debugging Workspace requests. [Learn more...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)|
 
 ## January 2020
 

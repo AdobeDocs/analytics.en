@@ -14,7 +14,7 @@ You probably want to know which of your marketing channels is the most effective
 |Marketing Channel|This is the  Marketing Channels dimension we recommend using. Attribution IQ models can be applied to it at run-time. The generic Marketing Channels dimension behaves identically to Last Touch Channel dimensions, but is labeled differently to prevent confusion when using it with a different attribution model.|
 |Last Touch Channel|Legacy dimension, with attribution model pre-applied and unchangeable.|
 |First Touch Channel|Legacy dimension, with attribution model pre-applied and unchangeable.|
-[Marketing Channel Instances|This metric...|]
+|Marketing Channel Instances|This metric...|
 |New engagements|This is a legacy metric that is incremented only when a channel has 'first touch' allocation applied to it.|
 
 ## Basic analysis
@@ -53,4 +53,4 @@ Using the legacy First Touch Channel and Last Touch Channel, you can get a helpf
 
 ![](assets/mc-viz6.png)
 
-Learn more in [this video](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Learn more about cross-tab marketing analysis in [this video](https://www.youtube.com/watch?v=M3EOdONa-3E).

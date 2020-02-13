@@ -323,25 +323,25 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
-  + [Get Started with Marketing Channels] {#mc-get-started}
+  + Get Started with Marketing Channels {#mc-get-started}
     + [Get started](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
     + [Automatic setup](c-marketing-channels/getting-started/c-channel-autosetup.md)
     + [Apply template report suite settings to multiple report suites](c-marketing-channels/getting-started/t-template.md)
-  + [Marketing Channels manager] {#mc-manager}
+  + Marketing Channels manager {#mc-manager}
     + [Manage marketing channels](c-marketing-channels/mark-channel-mgr/c-channels.md)
     + [About channels and rules](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-  + [Marketing Channels processing rules] {#mc-proc-rules}
+  + Marketing Channels processing rules {#mc-proc-rules}
     + [Processing rules for Marketing Channels](c-marketing-channels/mc-proc-rules/c-rules.md)
     + [Create Marketing Channel processing rules](c-marketing-channels/mc-proc-rules/t-rules.md)
     + [Marketing Channel rule criteria](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
     + [Internal (Session Refresh) channel](c-marketing-channels/mc-proc-rules/session-refresh.md)
-  + [Marketing Channels classifications] {#mc-classifications}
+  + Marketing Channels classifications {#mc-classifications}
     + [Classifications in Marketing Channels](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-  + [Marketing Channels expiration] {#mc-expire}
+  + Marketing Channels expiration {#mc-expire}
     + [Visitor engagement expiration](c-marketing-channels/mc-expiration/visitor-engagement.md)
-  + [Analyze Marketing Channels] {#mc-analyze}
+  + Analyze Marketing Channels {#mc-analyze}
     + [Analyze Marketing Channels](c-marketing-channels/mc-analyze/analyze-mc.md)
-  + [Access Marketing Channels] {#mc-access}
+  + Access Marketing Channels {#mc-access}
     + [Marketing Channels permissions](c-marketing-channels/mc-access/c-channel-report-access.md)
-  + [Marketing Channel FAQ] {#mc-faq}
+  + Marketing Channel FAQ {#mc-faq}
     + [Marketing Channels FAQs and examples](c-marketing-channels/mc-faq/c-faq.md)

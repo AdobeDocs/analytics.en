@@ -35,44 +35,14 @@ Users with admin rights can turn any project they create into a custom template.
 
    ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Edit template </p> </td> 
-   <td colname="col2"> <p>Lets an admin edit the template by changing its data source, modifying components, visualizations, date ranges, etc. </p> <p>To edit a custom template, either </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Bring up the list of custom templates in Analysis Workspace, select one, and click <span class="uicontrol"> Edit Template</span>, or </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">In Analytics, navigate to <span class="ignoretag"><span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Projects</span></span>, then filter on <span class="uicontrol"> Templates</span>. Click the name of the template you want to edit. </li> 
-    </ul> <p> </p> <p>Note: After editing a template, depending on the situation, you have two options: <span class="uicontrol"> Save</span>, <span class="uicontrol"> Save As</span>. Here is how they differ: 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>Save</b>: Updates the custom template for all users. When someone else creates a project from this custom template, they will see the changes you have made. </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>Save As</b>: Creates a copy of the custom template with your changes. </li> 
-     </ul> </p> <p>(You can tell that you are in edit mode when the <span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Share Project</span> menu item is disabled.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search on templates </p> </td> 
-   <td colname="col2"> <p>In the Custom Templates dialog, click <span class="uicontrol"> Search Templates</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sort templates </p> </td> 
-   <td colname="col2"> <p>You can sort templates alphabetically, by relevance, and by creation date. </p> <p>In the Custom Templates dialog, click <span class="uicontrol"> Sort:</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apply tags to template </p> </td> 
-   <td colname="col2"> <p>Open the template and go to <span class="ignoretag"><span class="uicontrol"> Project</span> &gt; <span class="uicontrol"> Project Info &amp; Settings</span></span>. Click <span class="uicontrol"> Add Tags</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Modify template description </p> </td> 
-   <td colname="col2"> <p>Open the template and go to <span class="ignoretag"><span class="uicontrol"> Project</span> &gt; <span class="uicontrol"> Project Info &amp; Settings</span></span>. Double-click the description and edit it. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Description |
+|--- |--- |
+|Edit template|Lets an admin edit the template by changing its data source, modifying components, visualizations, date ranges, etc.  To edit a custom template, either<ul><li>Bring up the list of custom templates in Analysis Workspace, select one, and click  Edit Template, or</li><li>In Analytics, navigate to  Components >  Projects, then filter on  Templates. Click the name of the template you want to edit.</li></ul>**Note:** After editing a template, depending on the situation, you have two options: Save, Save As. Here is how they differ:<ul><li>**Save:** Updates the custom template for all users. When someone else creates a project from this custom template, they will see the changes you have made.</li><li>**Save As:** Creates a copy of the custom template with your changes. (You can tell that you are in edit mode when the  Share >  Share Project menu item is disabled.)</li></ul>|
+|Search on templates|In the Custom Templates dialog, click  Search Templates.|
+|Sort templates|You can sort templates alphabetically, by relevance, and by creation date.  In the Custom Templates dialog, click Sort:.|
+|Apply tags to template|Open the template and go to  Project >  Project Info & Settings. Click  Add Tags.|
+|Modify template description|Open the template and go to  Project >  Project Info & Settings. Double-click the description and edit it.|
+
 
 ## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -144,7 +114,9 @@ It is based on the People metric, which is a de-duplicated version of the Unique
 
 ### Journey IQ: Cross-Device Analytics template
 
-This template lets you see vital cross-device performance data. 
+<!-->This content is mirrored in the CDA doc.<-->
+
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA). 
 
 * **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
 * **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.

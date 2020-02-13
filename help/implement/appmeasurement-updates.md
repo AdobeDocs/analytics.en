@@ -14,7 +14,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 ## Version 2.18.0
 
-Release Date: **February 20, 2020**
+Release Date: **February 13, 2020**
 
 * AppMeasurement can now force cookies to include the secure tag by setting `writeSecureCookies` to 'true'. The requirement for this setting is that the entire client website is served securely (https). (AN-204604)
 

@@ -23,7 +23,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
   * A default classification of the Tracking Code dimension; automatically created for all report suites.
   * Adobe Campaign, part of the Adobe Experience Cloud. More information on [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **Channel:** Can refer to:
-  * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/js-implementation/page-variables/page-variables.md) in the Implement user guide.
+  * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
   * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Classification:** A feature in Adobe Analytics that allows the grouping of dimension values. See [Classifications](/help/components/c-classifications2/c-classifications.md) in the Components user guide.
 * **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity map.
@@ -64,7 +64,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **List prop:** A setting that converts a typical traffic variable to support multiple values in the same hit. Any custom traffic variable can become a list prop if the setting is enabled. See [prop](../implement/vars/page-vars/prop.md) in the Implement user guide.
 * **List var:** A distinct variable separate to conversion variables. List vars support multiple values in the same hit, and variable values are preserved in a visit, similar to conversion variables. Only three list vars are available to an organization. See [list](../implement/vars/page-vars/list.md) in the Implement user guide.
 * **Login company:** A collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of their organization.
-* **Marketing channel:** A feature in Adobe Analytics that categorizes hits by how they arrived to your site. The logic used to categorize hits can be customized using Marketing channel processing rules. See [Getting started with Marketing Channels](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) in the Components user guide.
+* **Marketing channel:** A feature in Adobe Analytics that categorizes hits by how they arrived to your site. The logic used to categorize hits can be customized using Marketing channel processing rules. See [Getting started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Metric:** A component type that contains quantitative data. Metric values typically contain numbers, such as Page Views, Visits, and Revenue. A dimension is typically its counterpart.
 * **Multi-suite tagging:** The practice of sending the same hit to multiple report suites. With the introduction to virtual report suites, this practice is largely no longer necessary. Most multi-suite tagging efforts help accommodate a global report suite.
 * **Normalization:** A way to organize a visualization that takes all metrics and forces them to equal proportions, allowing an easier comparison of trends.

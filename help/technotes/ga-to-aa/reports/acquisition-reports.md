@@ -11,7 +11,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. They requ
 
 > [!IMPORTANT]
 >
-> Set up your Marketing Channel processing rules to use these reports. See [Getting Started with Marketing Channels](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
+> Set up your Marketing Channel processing rules to use these reports. See [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
 
 This page assumes the user has a basic knowledge of using Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
 

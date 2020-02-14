@@ -28,11 +28,11 @@ Add marketing channels in the Marketing Channel Manager.
 
    If you select multiple report suites, select a template that copies settings from the template to the selected report suites.
 
-   See [Apply template report suite settings to multiple report suites](/help/components/c-marketing-channels/getting-started-mchannel.md).
+   See [Apply template report suite settings to multiple report suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/getting-started-mchannel.md) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) page displays.
 
 1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 

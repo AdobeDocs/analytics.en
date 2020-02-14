@@ -324,14 +324,8 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
   + [Get Started with Marketing Channels](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
-  + Marketing Channels manager {#mc-manager}
-    + [Manage marketing channels](c-marketing-channels/mark-channel-mgr/c-channels.md)
-    + [About channels and rules](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-  + Marketing Channels processing rules {#mc-proc-rules}
-    + [Processing rules for Marketing Channels](c-marketing-channels/mc-proc-rules/c-rules.md)
-    + [Create Marketing Channel processing rules](c-marketing-channels/mc-proc-rules/t-rules.md)
-    + [Marketing Channel rule criteria](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
-    + [Internal (Session Refresh) channel](c-marketing-channels/mc-proc-rules/session-refresh.md)
+  + [Manage marketing channels](c-marketing-channels/mark-channel-mgr/c-channels.md)
+  + [Processing rules for Marketing Channels](c-marketing-channels/mc-proc-rules/c-rules.md)
   + [Classifications in Marketing Channels](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
   + [Visitor engagement expiration](c-marketing-channels/mc-expiration/visitor-engagement.md)
   + [Analyze Marketing Channels](c-marketing-channels/mc-analyze/analyze-mc.md)

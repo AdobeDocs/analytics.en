@@ -64,13 +64,13 @@ Think of a channel as a container for visits. The rules assign visits to the pro
 
 ![](assets/buckets_2.png)
 
-Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/getting-started-mchannel.md) that you can edit to suit your needs.
+Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) that you can edit to suit your needs.
 
 >[!NOTE]
 >
 >Adobe recommends that you set up your report in a report suite that you can use as a template for testing purposes. You can use the template to apply channel and rule sets globally to one or more production report suites.
 >
->See [Apply Template Report Suite Settings to Multiple Report Suites](/help/components/c-marketing-channels/getting-started-mchannel.md).
+>See [Apply Template Report Suite Settings to Multiple Report Suites](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 ### Prerequisites {#prereqs}
 

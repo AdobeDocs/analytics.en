@@ -34,7 +34,7 @@ See [Add marketing channels](/help/components/c-marketing-channels/c-channels.md
 
 >[!NOTE]
 >
->If Marketing Channels have not been previously configured, the [automatic setup](/help/components/c-marketing-channels/getting-started-mchannel.md) displays. This setup provides several pre-configured channels that you can customize. Adobe recommends that you use these rules as a template. However, if you already have solid channel definitions, you can skip the automatic setup.
+>If Marketing Channels have not been previously configured, the [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) displays. This setup provides several pre-configured channels that you can customize. Adobe recommends that you use these rules as a template. However, if you already have solid channel definitions, you can skip the automatic setup.
 
 ![](assets/step3_icon.png) Configure or refine each channels' rules on the [!UICONTROL Marketing Channel Processing Rules] page.
 

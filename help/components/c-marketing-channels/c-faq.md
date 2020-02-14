@@ -5,7 +5,7 @@ title: Marketing Channels FAQs and examples
 
 # Marketing Channels FAQs and examples
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/mc-proc-rules/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## Frequently asked questions {#faq}
 

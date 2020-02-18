@@ -16,7 +16,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 Release Date: **February 13, 2020**
 
-* AppMeasurement can now force cookies to include the Secure attribute by setting the [`writeSecureCookies`](vars/config-vars/writesecturecookies.md) variable. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
+* AppMeasurement can now force cookies to include the Secure attribute by setting the [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
 
 ## Version 2.17.0
 

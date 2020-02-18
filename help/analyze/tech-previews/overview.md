@@ -6,8 +6,6 @@ description: Preview prototype projects for Adobe Analytics
 
 # Labs User Guide
 
->[!NOTE] Labs is currently released as early access to a limited number of customers, but will be widely-released later.
-
 Labs allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Labs to get early access to Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.
 
 ## Requirements

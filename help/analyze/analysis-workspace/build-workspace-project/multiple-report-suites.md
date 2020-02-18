@@ -18,16 +18,16 @@ This capability is useful if you want to, for example,
 
 ## Active panel
 
-We are introducing the concept of "active panel" versus "inactive panel" with this feature. The active panel is recognizable by the light blue border around it. Simply clicking inside a panel makes that panel the active panel.
+We are introducing the concept of "active panel" versus "inactive panel" with this feature. You can recognize the active panel by the light blue border around it. Simply clicking inside a panel turns that panel into the active panel.
 
 >[!IMPORTANT]
->You can drag and drop components **only into the active panel**, even if other panels have the same report suite. If you want to change the panel while dragging and dropping, you can use a short cut: press `shift` while dragging to change an inactive panel to an active panel.
+>You can drag and drop to any panel that is in the same report suite as your active panel. By dragging into an inactive panel of the same report suite, the panel will become active.
 
 |Task|Active panel|Inactive panel|
 |---|---|---|
 |Change report suite|Yes|No|
-|Drag and drop components|Yes|No|
-|Drag and drop visualizations|Yes|No|
+|Drag and drop components|Yes|Yes, for any panel that is in the same report suite as your active panel.|
+|Drag and drop visualizations|Yes|Yes, for any panel that is in the same report suite as your active panel.|
 
 ## Work with multiple report suites
 
@@ -39,18 +39,18 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
 
     >[!NOTE]
-    >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components included in the project are included in the report suite. The missing components will be listed. Follow [these instructions](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) to set permissions to the required metrics/dimensions.
+    >Sometimes, a banner displays when loading a project (or switching to a report suite) where not all of the components included in the project are included in the report suite. The missing components will be listed. Follow [these instructions](/help/admin/admin-console/permissions/product-profile.md) to set permissions to the required metrics/dimensions.
 
     ![](assets/incompat-rs.png)
 
     You have 3 options to deal with this incompatibility:
-    * Continue with some missing components. This will result in no data for those components, and/or blank visualizations.
-    * Undo.
+    * Enable the required dimensions/metrics
     * Change the report suite.
+    * Continue with some missing components. This will result in no data for those components, and/or blank visualizations.
 
 1. Change the panel to a different report suite and notice how the component label (currently active report suite) and listed components are updating based on the new report suite.
 
-1. Use the keyboard shortcut (`shift` while dragging) to turn an inactive panel to an active panel.
+1. Use a keyboard shortcut (`shift` while dragging) to turn an inactive panel to an active panel.
 
 1. (Optional) You can also go to other Analytics component builders and ensure that they now show a report suite label indicating
 

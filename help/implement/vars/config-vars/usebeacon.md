@@ -11,7 +11,7 @@ If `useBeacon` is enabled, the next hit sent to Adobe uses the browser's `naviga
 
 > [!TIP] AppMeasurement automatically enables `useBeacon` for exit link image requests.
 
-The `useBeacon` variable is ignored when the visitor uses a browser that does not support `navigator.sendBeacon()`.
+The `useBeacon` variable is ignored when the visitor uses a browser that does not support `navigator.sendBeacon()`. Use of this variable requires AppMeasurement 2.16.0 or higher.
 
 ## Use Beacon in Adobe Experience Platform Launch
 

@@ -1,48 +1,19 @@
 ---
-description: Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
-subtopic: Data sources
-title: Transaction ID
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: Transaction ID data sources
+description: Learn the general workflow of using transaction ID data sources.
 ---
 
-# Transaction ID
+# Transaction ID data sources
 
-Transaction IDs can be integrated by selecting the Generic (Transaction ID) category.
+Transaction ID data sources allow you to not only view online and offline data side-by-side, but tie the data together. It requires the use of the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable in your Analytics implementation.
 
-See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+When you send an online hit that contains a `transactionID` value, Adobe takes a "snapshot" of all variables set or persisted at that time. If a matching transaction ID uploaded through Data Sources is found, the offline and online data is tied together. It does not matter which source of data is seen first.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## Overall workflow of Transaction ID data sources
 
-**Transaction ID Dimensions** 
+Use the following generic workflow to start using Transaction ID data sources:
 
-| Column Name  | Description  |
-|--- |--- |
-|Transaction ID|(Required) Unique value that represents an online transaction that resulted in offline activity.|
-|Date|Use the following date format:  MM/DD/YYYY/HH/mm/SS (for example,  01/01/2015/06/00/00)|
-|Tracking Code|Tracking code name.|
-|Category|Category name.  If you specify a category, then you must also select a product.|
-|Channel|Channel name.|
-|eVarN|eVarN name. Valid values for N are whole numbers 1 - 250.|
-|Product|Product name.|
-|State|State name.|
-|Zip|Zip name.|
-
-<p class="head"> <b>Transaction ID Metrics</b> </p>
-
-
-
-| Column Name  | Description  |
-|--- |--- |
-|Clickthroughs|Number of tracking code views.|
-|Cart Adds|Number of cart additions.|
-|Cart Opens|Number of cart opens.|
-|Cart Removes|Number of cart removals.|
-|Cart Views|Number of cart views.|
-|Checkouts|Number of checkouts.|
-|EventN|Number of times eventN occurred. Valid values for N are whole number 1 - 1000.  If you specify a View event, you must also specify the corresponding data dimension (eVar). For example, if you include eVar2 views, then you must list eVar2 with a value.|
-|eVarN Views|Number of times eVarN was viewed. Valid values for N are whole numbers 1 - 250.|
-|Price|Product price.|
-|Orders|Number of orders placed.|
-|Product Views|Number of product views.|
-|Quantity|Number of units sold.|
+1. Create a data source ('Generic' category and 'Generic Data Source (Transaction ID)' type).
+1. Follow the data feed setup wizard to get an FTP location to upload data and download a data sources template file.
+1. Update your implementation to include the `transactionID` variable.
+1. Upload a data sources file to the FTP site with a `.fin` file.

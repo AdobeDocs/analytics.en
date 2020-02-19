@@ -30,5 +30,5 @@ It is recommended that you refer to a calendar when building expressions in orde
 
    For example, If you change the dates above to rolling monthly from the first day three months ago to the first day of this month, the dates in the advance options portion update themselves to reflect that:
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 

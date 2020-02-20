@@ -26,9 +26,8 @@ If you uploaded the following data sources file, and implemented the following c
 
 Download the template, update the values, then upload it to the data sources FTP location:
 
-| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` | | | |
-|---|---|---|---|
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+|---|---|---|---|
 | `Date` | `Evar 1` | `Event 1` | `transactionID` |
 | `01/01/2020/12/00/00` | `Example eVar1 value` | `1`| `1234` |
 

@@ -41,4 +41,5 @@ var s = s_gi("examplersid");
 s.eVar2 = "Example eVar2 value";
 s.events = "event2";
 s.transactionID = "1234";
+s.t();
 ```

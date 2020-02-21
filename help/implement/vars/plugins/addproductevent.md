@@ -129,6 +129,7 @@ If `s.products` isn't already set, the following code sets it to `";;;;event35=2
 ```js
 s.addProductEvent("event35", "25");
 ```
+
 The above code also appends `"event35"` to the end of `s.events` **or**, if `s.events` isn't already set, the above code sets `s.events`  to `"event35"`
 
 ## Version History

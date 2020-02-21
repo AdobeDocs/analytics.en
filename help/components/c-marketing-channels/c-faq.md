@@ -1,29 +1,11 @@
 ---
 description: Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-subtopic: Marketing channels
-title: Frequently asked questions and examples
-topic: Reports and analytics
-uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
+title: Marketing Channels FAQs and examples
 ---
 
-# Frequently asked questions and examples
+# Marketing Channels FAQs and examples
 
-<!--
-Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-
-* [Frequently Asked Questions](/help/components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573) 
-* [No Channel Identified](/help/components/c-marketing-channels/c-faq.md##no-channel-identified) 
-* [Paid Search](/help/components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1) 
-* [Natural Search](/help/components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386) 
-* [Affiliates](/help/components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622) 
-* [Social Networks](/help/components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8) 
-* [Display](/help/components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB) 
-* [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 
-* [Email](/help/components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE) 
-* [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
--->
-
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## Frequently asked questions {#faq}
 
@@ -86,7 +68,7 @@ For the marketing channel rule, the [!UICONTROL Paid Search] settings are as fol
 
 ![](assets/example_paid_search.png)
 
-See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in Admin for more information.
+See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin for more information.
 
 ## Natural Search {#natural-search}
 
@@ -98,7 +80,7 @@ For the marketing channel rule, the Natural Search settings are as follows:
 
 ![](assets/example_natural_search.png)
 
-See [Paid Search Detection](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in the Admin for more information.
+See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
 
 ## Affiliates {#afilliates}
 

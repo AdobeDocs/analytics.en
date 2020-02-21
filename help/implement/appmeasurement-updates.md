@@ -12,6 +12,12 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.18.0
+
+Release Date: **February 13, 2020**
+
+* AppMeasurement can now force cookies to include the Secure attribute by setting the [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
+
 ## Version 2.17.0
 
 Release date: **August 23, 2019**

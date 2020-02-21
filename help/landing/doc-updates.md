@@ -8,16 +8,17 @@ short-title: Analytics documentation updates
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
-* For a comprehensive list of new features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Analyze user guide.
+* For a comprehensive list of new features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
 * For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Update Details
 
 | Date | Description |
 |---|---|
+| February 12, 2020 | Updates to and reorganization of the [Marketing Channels](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) documentation.|
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
-| February 4, 2020 | Complete rewrite of the [Implement user guide](../implement/home.md). |
+| February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page that includes information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |

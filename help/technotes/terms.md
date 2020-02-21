@@ -23,8 +23,8 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
   * A default classification of the Tracking Code dimension; automatically created for all report suites.
   * Adobe Campaign, part of the Adobe Experience Cloud. More information on [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **Channel:** Can refer to:
-  * The Channel variable, which populates the Site Sections dimension. See [channel](../implement/vars/page-vars/channel.md) in the Implement user guide.
-  * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-overview.md) in the Components user guide.
+  * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+  * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Classification:** A feature in Adobe Analytics that allows the grouping of dimension values. See [Classifications](/help/components/c-classifications2/c-classifications.md) in the Components user guide.
 * **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity map.
 * **Clickstream data feed:** See Data feed.

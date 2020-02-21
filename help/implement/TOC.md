@@ -44,6 +44,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [usePlugins](vars/config-vars/useplugins.md)
     + [visitorID](vars/config-vars/visitorid.md)
     + [visitorNamespace](vars/config-vars/visitornamespace.md)
+    + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
   + Page variables {page-vars}
     + [campaign](vars/page-vars/campaign.md)
     + [channel](vars/page-vars/channel.md)

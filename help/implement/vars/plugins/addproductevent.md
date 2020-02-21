@@ -71,28 +71,30 @@ The addProductEvent plug-in does not create or use any cookies
 
 ### Example #1
 
-The following code will set the s.products variable equal to `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+The following code sets the `s.products` variable to `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
 s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
-The above code will also set the s.events variable equal to `"purchase,event35"`
+
+The above code also sets the `s.events` variable to `"purchase,event35"`
+
 ### Example #2
 
-
-The following code will set the s.products variable equal to `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
-
+The following code sets the `s.products` variable to `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
-When the third argument in the addProductEvent call is equal to true (or 1), each product entry will have the event specified in the call added to its value
+
+When the third argument in the `addProductEvent` call is `true` (or `1`), each product entry has the event specified in the call added to its value.
+
 ### Example #3
 
-The following code will set the s.products variable equal to `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+The following code sets the `s.products` variable to `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -101,10 +103,12 @@ s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
-The above code will also set the s.events variable equal to `"purchase,event2,event33,event34,event35"`
+
+The above code also sets the `s.events` variable to `"purchase,event2,event33,event34,event35"`
 
 ### Example #4
-The following code will set the s.products variable equal to `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+
+The following code sets the `s.products` variable to `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -113,19 +117,19 @@ s.addProductEvent("event33", "12", 1);
 s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
-The above code will also set the s.events variable equal to `"purchase,event2,event33,event34,event35"`.
 
-**Note**: The second argument in the call can be either an integer **or** a string representing an integer/number
-...and the following code runs...
+The above code also sets the `s.events` variable to `"purchase,event2,event33,event34,event35"`.
+
+> [!NOTE] The second argument in the call can be either an integer **or** a string representing an integer/number
 
 ### Example #5
 
-If s.products isn't already set, the following code will set it equal to `";;;;event35=25"`
+If `s.products` isn't already set, the following code sets it to `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
-The above code will also append `"event35"` to the end of s.events **or**, if s.events isn't already set, the above code will set s.events equal to `"event35"`
+The above code also appends `"event35"` to the end of `s.events` **or**, if `s.events` isn't already set, the above code sets `s.events`  to `"event35"`
 
 ## Version History
 

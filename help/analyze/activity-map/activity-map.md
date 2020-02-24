@@ -44,3 +44,4 @@ Activity Map lets you set up different views to visually identify the accelerati
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
 * [Knowledge resources](activitymap-info-resources.md)
+

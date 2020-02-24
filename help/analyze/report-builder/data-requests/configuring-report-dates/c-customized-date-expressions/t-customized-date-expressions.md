@@ -24,11 +24,11 @@ It is recommended that you refer to a calendar when building expressions in orde
 
 1. Enable **[!UICONTROL Customize Expression]**. By selecting options under **[!UICONTROL Rolling Dates]**, you can easily see the syntax for custom date expressions.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    You can use Advanced Options to mix and match custom date expressions. For example, if you wanted to see data from the first of the year through the end of the last full month they could write the following: From: cy To: cm-1d. You can see that in the wizard, it confirms those dates as being 1/1/2020-1/31/2020.
 
    For example, If you change the dates above to rolling monthly from the first day three months ago to the first day of this month, the dates in the advance options portion update themselves to reflect that:
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 

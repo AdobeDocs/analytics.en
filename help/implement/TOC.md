@@ -41,6 +41,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [trackInlineStats](vars/config-vars/trackinlinestats.md)
     + [trackOffline](vars/config-vars/trackoffline.md)
     + [useBeacon](vars/config-vars/usebeacon.md)
+    + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
     + [usePlugins](vars/config-vars/useplugins.md)
     + [visitorID](vars/config-vars/visitorid.md)
     + [visitorNamespace](vars/config-vars/visitornamespace.md)

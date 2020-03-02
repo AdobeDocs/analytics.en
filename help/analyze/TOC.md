@@ -78,6 +78,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
       + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)
       + [Attribution FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
+      + [Algorithmic attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + Segment comparison {#segment-comparison}
       + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

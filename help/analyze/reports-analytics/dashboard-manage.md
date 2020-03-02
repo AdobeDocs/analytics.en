@@ -24,7 +24,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 |--- |--- |
 |Shared|Shows whether the dashboard is shared.|
 |Scheduled|Lets you schedule the dashboard for delivery.|
-|View Archive|Lets you view the dashboard archive. This functionality will no longer be available in January, 2020.|
+|View Archive|This functionality is no longer available.|
 |Push to Users|Lets you share a dashboard.|
 |Manage|Lets you edit, copy, and delete a dashboard.|
 
@@ -42,7 +42,7 @@ Steps that describe how use the shared dashboard management options.
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>View Archive</strong></td> 
-  <td class="chdesc stentry"> Lets you view the report archive for the shared dashboard, if an archive exists. </td> 
+  <td class="chdesc stentry"> This functionality is no longer available. </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 

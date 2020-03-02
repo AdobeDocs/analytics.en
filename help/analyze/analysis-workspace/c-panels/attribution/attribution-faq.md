@@ -52,13 +52,9 @@ The attribution panel supports all dimensions. Unsupported metrics include:
 * Single Page Visits
 * Single Access
 
-**How does attribution in Analysis Workspace differ from attribution in Data Workbench?**
+**Can I use a custom lookback window with my attribution models?**
 
-Data Workbench incrementally offers:
-
-* The ability to attribute across more visitor-level data sources, such as ad impressions and point of sale.
-* Algorithmic modeling. Attribution in Analysis Workspace includes rules-based models only. See [Best fit modeling](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) in the Data Workbench user guide.
-* Additional visualizations, such as latency tables. See [Latency tables](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) in the Data Workbench user guide.
+Yes, using the custom lookback window option, lookback windows can be configured to any date range up to 90 days prior to your reporting window. See [Report time processing](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) for more information.
 
 **Does attribution work with classifications?**
 

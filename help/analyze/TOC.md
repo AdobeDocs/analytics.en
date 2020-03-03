@@ -81,8 +81,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Algorithmic attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + Segment comparison {#segment-comparison}
-      + [Segment IQ overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-      + [Segment IQ use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+      + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+      + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
     + [Curation/Sharing overview](analysis-workspace/curate-share/curate.md)

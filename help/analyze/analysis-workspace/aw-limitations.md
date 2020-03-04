@@ -50,4 +50,4 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 
 ## Attribution IQ
 
-* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. For a full list, see the [Attribution IQ FAQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. For a full list, see the [Attribution IQ FAQ](c-panels/attribution/attribution-faq.md).

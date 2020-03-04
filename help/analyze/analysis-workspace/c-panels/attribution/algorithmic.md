@@ -11,7 +11,7 @@ The algorithm used for attribution is based on the Harsanyi Dividend from cooper
 
 At a high level, the attribution calculation of the conversion credit for each touchpoint considers each of the marketing touchpoints within a lookback window as a coalition of players to which a surplus must be equitably distributed. Each coalition’s surplus distribution is determined according to the surplus that was previously created by each subcoalition (or previously participating dimension values) recursively. For more details, see John Harsanyi’s and Lloyd Shapley’s original papers:
 
-* Shapley, Lloyd S. "A value for n-person games." Contributions to the Theory of Games 2.28 (1953): 307-317.
-* Harsanyi, John C. "A simplified bargaining model for the n-person cooperative game." International Economic Review 4.2 (1963): 194-220.
+* Shapley, Lloyd S. "A value for n-person games." *Contributions to the Theory of Games 2.28*, 1953, pp. 307-317.
+* Harsanyi, John C. "A simplified bargaining model for the n-person cooperative game." *International Economic Review 4.2*, 1963, pp. 194-220.
 
 > [!NOTE] The outcome of Algorithmic attribution only differs from other models when multiple touchpoints exist within the given lookback window. Conversions with a single touchpoint receive 100% credit regardless of attribution model.

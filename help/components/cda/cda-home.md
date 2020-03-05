@@ -29,9 +29,9 @@ As of September 2019, Cross-Device Analytics requires the following. Work with t
 * Contact your organization's Account Manager to establish these key points:
   * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
   * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in the Device Co-op user guide.
-  * Your organization must agree to allow Adobe to process and store Analytics data on Microsoft Azure servers. Adobe uses Azure to store device graph data and perform device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe's presence in Microsoft Azure.
+  * Out of a spirit of partnership and transparency, we want our customers to be aware of our use of Microsoft Azure in association with Cross-Device Analytics. Adobe uses Azure to store device graph data and to perform cross-device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe’s provisioned instances of Microsoft Azure.
 * Cross-Device Analytics is enabled on a per-report suite basis. Report suites that have been enabled for CDA require the following:
-  * The report suite cannot have more than 100 million hits per day. This threshold will increase over the coming months.
+  * The report suite cannot have more than 500 million hits per day.
   * Adobe recommends a report suite contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.
 * Your implementation must meet the following requirements:
   * The latest version of the Experience Cloud ID Service must be deployed. See the [Home Page](https://docs.adobe.com/content/help/en/id-service/using/home.html) in the Experience Cloud Identity Service user guide. Most implementations using Adobe Experience Platform Launch likely already have ECID deployed.

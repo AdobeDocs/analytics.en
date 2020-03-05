@@ -5,9 +5,6 @@ description: Learn how and why to create projects in Workspace with multiple rep
 
 # Multiple report suites in Workspace
 
->[!IMPORTANT]
->Multiple report suites in Workspace is currently in limited release.
-
 You can now create projects in Analysis Workspace with data from more than one report suite. Report suites are now chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
 
 This capability is useful if you want to, for example,

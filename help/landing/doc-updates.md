@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics Documentation Updates
-description: Technical documentation updates Adobe Analytics
+title: Technical documentation updates for Adobe Analytics
+description: Notable updates to the Adobe Analytics documentation repository.
 short-title: Analytics documentation updates
 ---
 
@@ -16,6 +16,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
+| February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
+| February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) documentation.|
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |

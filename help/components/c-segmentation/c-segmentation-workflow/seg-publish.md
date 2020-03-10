@@ -117,6 +117,7 @@ In AAM, the list of visitors with ECIDs for a given segment are evaluated in a s
 ![](assets/aam-traits.png)
 
 * A one-trait segment gets created. It uses the data source that is associated with the report suite where you published the segment.
+* Trait expiration is now set to 16 days (previously it was 2 days).
 
 ## View the segment in [!DNL Adobe Target]
 

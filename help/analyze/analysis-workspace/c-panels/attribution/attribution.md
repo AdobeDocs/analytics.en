@@ -27,6 +27,11 @@ The attribution panel is an [Attribution IQ](../../attribution-iq.md) feature th
 | ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
 | ![Time Decay](assets/time_decay.png) | Time-Decay | Follows and exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
 | ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding who often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
+
+> [!NOTE] The following algorithmic attribution model is currently available in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) and will be part of a general release in 2020.
+
+| UI icon | Attribution model | Definition | When to use |
+| --- | --- | --- | --- |
 | ![Algorithmic](assets/algorithmic.png) | [Algorithmic](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
 
 ## Lookback windows
@@ -36,8 +41,6 @@ A lookback window is the amount of time a conversion should look back to include
 * **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
 
 * **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
-
-* **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on Feb 20th, a lookback window of 10 days would evaluate all dimension touchpoints from Feb 10th to 20th in the attribution model.
 
 ## Example
 
@@ -51,10 +54,8 @@ Depending on your lookback window and attribution model, channels receive differ
 
 * Using **first touch** and a **visit lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
 * Using **first touch** and a **visitor lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
-* Using **first touch** and a **custom lookback window**, of seven days, attribution looks at only the most recent two visits. In this reporting window, the social media link was first, so it gets 100% credit for the $50 purchase.
 * Using **linear** and a **visit lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
 * Using **linear** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
-* Using **linear** and a **custom lookback window** of seven days, credit is divided between social, email, and display. Each of these channels get $12.50 credit for this purchase. Paid search is excluded because it does not occur within the specified lookback window.
 * Using **J-shaped** and a **visitor lookback window**, credit is divided between paid search, social, email, and display.
   * 60% credit is given to display, for $30.
   * 20% credit is given to paid search, for $10.

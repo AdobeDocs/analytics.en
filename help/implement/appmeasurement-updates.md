@@ -16,7 +16,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 Release Date: **March 5, 2020**
 
-* Fixed a security-related issue.
+* Fixed a security-related issue by updating Internet Explorer detection to suppress JSLint warning.
 
 ## Version 2.19.0
 

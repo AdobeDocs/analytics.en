@@ -5,7 +5,7 @@ description: Details on the algorithmic attribution model in Adobe Analytics.
 
 # Algorithmic attribution
 
-> [!NOTE] Algorithmic attribution is currently available only through [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). The feature will be part of a general release in June 2020.
+> [!NOTE] Algorithmic attribution is currently available only through [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). The feature will eventually be part of a general release.
 
 The Algorithmic [attribution model](attribution.md) in Analysis Workspace differs from other models in that it uses statistical techniques to allocate credit across the dimension values in your report or freeform table. Like all other attribution models in Analysis Workspace, it can be used on any dimension or metric and supports unlimited segmentation and breakdowns and distributes 100% of conversions to the dimension(s) in the table (also known as "fractional" attribution).
 

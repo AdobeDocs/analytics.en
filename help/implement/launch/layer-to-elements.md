@@ -15,7 +15,7 @@ To map data layer objects to Launch data elements:
 
 2. Click **Data Elements** and then click **Create New Data Element**.
 
-![create data element](assets/createelement.png)
+    ![create data element](assets/createelement.png)
 
 
 3. Enter a name for your data element. This name should be a simple label that corresponds to a JavaScript variable in your data layer that you want to track.

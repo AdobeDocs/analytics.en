@@ -26,11 +26,11 @@ To map data layer objects to Launch data elements:
 
 6. For **Default Value**, enter any value you wish to establish by default, or leave it blank if appropriate.
 
-According to your practices, you can select the options to force lowercase values and have enforce clean text (Launch will apply conventional spacing).
+7. According to your practices, you can select the options to force lowercase values and have enforce clean text (Launch will apply conventional spacing).
 
-7. Specify the duration you would like to have Launch store values for the new data element.
+8. Specify the duration you would like to have Launch store values for the new data element.
 
-8. Click **Save.**
+9. Click **Save.**
 
 The following example shows a Page Name data element in Launch created for the JavaScript variable ``pageName`` in the data layer:
 

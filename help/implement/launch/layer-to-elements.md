@@ -1,40 +1,32 @@
 ---
-description: null
-title: Map Data Layer Objects to Data Elements
-uuid: 
+title: Map data layer objects to data elements
+description: Configure Launch to read from your data layer.
 ---
 
-# Map Data Layer Objects to Data Elements
+# Map data layer objects to data elements
 
+Once your organization has established and implemented a data layer on your site, you can map data layer objects to data elements within Launch.
 
-After [creating a data layer](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) for your implementation, you can map objects in it to [data elements in Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element). Data elements are building blocks for your data map that can be leveraged in multiple ways. You can use data elements to collect, organize, and deliver data across Adobe Platform solutions, including your Analytics reports.
+## Prerequisites
 
-To map data layer objects to Launch data elements:
+[Create a data layer](../prepare/data-layer.md): Make sure a data layer exists on your site. While you technically can map any JavaScript object or scrape CSS elements directly from the page, Adobe recommends this practice as a last resort. If your site layout changes, the CSS selectors used in Launch stop working, causing data loss.
 
-1. In Launch, click the name of the property to which you want to add the data element. If you have not set up a property already, see the instructions to [Create a Launch Property](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html).
+## Use Adobe Experience Platform Launch to create data elements
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) are components in Launch that you can use across the tool. You can assign variable values in the Adobe Analytics extension using data elements.
+
+1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
+1. Click the desired Launch property.
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
     ![create data element](assets/createelement.png)
 
+1. Enter a name for your data element. It can be a simple label that corresponds to a JavaScript variable in your data layer that you want to track.
+1. Under the [!UICONTROL Extension] dropdown, select [!UICONTROL Core].
+1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. A text field appears to the right that allows you to enter the JavaScript variable to map to this data element.
+1. Enter the desired Javascript variable, typically within your data layer. For example, if your organization's data layer closely matches Adobe's recommended practice, a value could be `digitalData.page.pageInfo.pageName`. You can use your browser's console to validate JavaScript variable syntax and values.
+1. Click [!UICONTROL Save].
 
-3. Enter a name for your data element. This name should be a simple label that corresponds to a JavaScript variable in your data layer that you want to track.
+## Next steps
 
-4. For Extension, select **Core.** This extension includes all of the variables you will need.
-
-5. For **Data Element Type**, select **JavaScript Variable**. Enter the **Javascript variable name** in the applicable field. This should match the exact name of the object in your JavaScript data layer.
-
-6. For **Default Value**, enter any value you wish to establish by default, or leave it blank if appropriate.
-
-7. According to your practices, you can select the options to force lowercase values and have enforce clean text (Launch will apply conventional spacing).
-
-8. Specify the duration you would like to have Launch store values for the new data element.
-
-9. Click **Save.**
-
-The following example shows a Page Name data element in Launch created for the JavaScript variable ``pageName`` in the data layer:
-
-![Specify element](assets/new_element.png)
-
-
-With your data layer objects mapped to data elements, you can leverage them to populate Anayltics variables. For more information, see [Map Data Elements to Analytics Variables](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html).
+[Map data elements to Analytics variables](elements-to-variable.md): Assign data elements to Analytics variables so you can use them as dimensions in Analysis Workspace.

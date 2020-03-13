@@ -163,3 +163,7 @@ Data layers are extensible; if you have requirements specific to your organizati
 ## Setting data layer values
 
 Data layers typically generate server-side, referencing the same objects used to build the site content. Establish the site's data layer based on tracking requirements set in your organization's [solution design document](solution-design.md).
+
+## Next steps
+
+[Map data layer objects to data elements](../launch/layer-to-elements.md): Use your site's data layer in Adobe Experience Platform Launch.

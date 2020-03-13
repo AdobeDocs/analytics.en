@@ -42,5 +42,4 @@ There are also several Adobe partners who specialize in helping with the creatio
 
 Implement the variables in your solution design document.
 
-* Introduction to eVars: Learn what an eVar is, how it works, and how to use one in your implementation
-* Introduction to events: Learn what a success event is, how it works, and how to use one in your implementation
+[Create a data layer](data-layer.md): Translate variables in your design document to JavaScript variables on your site.

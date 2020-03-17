@@ -146,6 +146,8 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Create an Analytics property](launch/create-analytics-property.md)
   + [Deploy to a dev environment](launch/deploy-dev.md)
   + [Validate and publish to prod](launch/validate-publish-prod.md)
+  + [Map data layer objects to data elements](launch/layer-to-elements.md)
+  + [Map Launch data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
   + Implement Analytics using DTM {#dtm}

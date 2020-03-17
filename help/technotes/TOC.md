@@ -32,6 +32,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + Regional Data Collection {rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
++ [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)
 + [Troubleshoot logging in](troubleshoot-login.md)

@@ -52,7 +52,9 @@ You can use these pre-populated templates as they are or adapt them to your need
 
 [Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Here are available templates and the questions that each template helps answer:
+Here are available templates and the questions that each template helps answer.
+
+* **Training Tutorial**: This standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list.
 
 ### Advertising
 
@@ -60,7 +62,7 @@ Here are available templates and the questions that each template helps answer:
 >
 >Advertising templates are available only if your report suite is enabled for Advertising Cloud.
 
-* **Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
+* **Paid Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
 
 ### Commerce
 
@@ -102,7 +104,7 @@ Here are available templates and the questions that each template helps answer:
 
 > [!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
-It is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
+This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
 * Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
 * Compare the People and Unique Visitors metrics side by side.

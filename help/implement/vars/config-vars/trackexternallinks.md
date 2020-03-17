@@ -25,5 +25,5 @@ Click the checkbox to enable automatic exit link tracking.
 The `s.trackExternalLinks` is a boolean that enables or disables automatic exit link tracking. If you do not want to track outbound links, or would prefer to manually call the `tl()` function to track exit links, set this variable to `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```

@@ -11,17 +11,16 @@ A trended report that displays the number of times your website pages were viewe
 
 A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. For example, if a single visitor views 15 pages during a visit, 15 page views are counted. If a visitor views the same page three times during a visit, three page views are counted.
 
-**Report Properties**
+## Report properties
 
-* This report references the number of times the [s.t()](/help/implement/vars/functions/t-method.md) function has been called on your site.
-* Custom [link tracking](/help/implement/other/dtm/c-aa-tool/link-tracking.md) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* Link tracking calls that use the [`tl()`](/help/implement/vars/functions/tl-method.md) method and are not counted in this report.
 * Because image requests are sent when the user refreshes the page or clicks the back button, this report also includes these actions.
 * Hourly breakdowns are based on the report suite's time zone.
 * This report does not contain line items. As such, the report can be viewed only in trended format.
 * Granularity of hour, day, week, month, quarter, and year can be applied. That granularity is available depending on the reporting date range.
 
-**Product-Specific Information** 
+## Product-specific information
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 

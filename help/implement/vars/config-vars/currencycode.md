@@ -7,7 +7,7 @@ desciption: For eCommerce sites, set the currency the page deals in.
 
 For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.
 
-If `currencyCode` is not defined, monetary values defined the `products` variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
+If `currencyCode` is not defined, monetary values defined the [`products`](../page-vars/products.md) variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
 
 If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
 

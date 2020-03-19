@@ -9,7 +9,7 @@ description: Extract the value of a URL's query string parameter.
 
 The `getQueryParam` plug-in allows you to extract the value of any query string parameter contained in a URL. It is useful for extracting campaign codes, both internal and external, from landing page URLs. It is also valuable when extracting search terms or other query string parameters.
 
-This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the `Util.getQueryParam` method included in AppMeasurement.
+This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) method included in AppMeasurement.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 

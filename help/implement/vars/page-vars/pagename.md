@@ -9,7 +9,7 @@ The `pageName` variable typically stores the name of a given page. It is helpful
 
 > [!NOTE] This dimension is always stripped from link tracking calls. If you want to see the page name where a link was tracked, consider copying this variable into an eVar.
 
-If this variable is not defined on a given page tracking call, the `pageURL` variable is used instead.
+If this variable is not defined on a given page tracking call, the [`pageURL`](pageurl.md) variable is used instead.
 
 ## Page Name in Adobe Experience Platform Launch
 

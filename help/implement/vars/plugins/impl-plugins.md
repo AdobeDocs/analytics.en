@@ -17,7 +17,7 @@ Adobe offers several ways to install a given plug-in:
 
 Each organization has different implementation needs, so you can decide how you want to include them in your implementation. Make sure that you meet the following criteria when including the code on your site:
 
-1. Instantiate the Analytics tracking object (using `s_gi`) first.
+1. Instantiate the Analytics tracking object (using [`s_gi`](../functions/s-gi.md)) first.
    * Launch automatically instantiates the tracking object when Adobe Analytics loads.
    * Implementations using `AppMeasurement.js` typically initialize the tracking object at the top of the JavaScript file.
 2. Include plug-in code second.

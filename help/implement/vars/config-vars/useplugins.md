@@ -5,7 +5,7 @@ description: Enable or disable the doPlugins() function.
 
 # usePlugins
 
-If `usePlugins` is enabled, the `doPlugins()` function runs just before AppMeasurement compiles and sends a hit to Adobe. Enable this variable if you use the `doPlugins()` function.
+If `usePlugins` is enabled, the [`doPlugins()`](../functions/doplugins.md) function runs just before AppMeasurement compiles and sends a hit to Adobe. Enable this variable if you use the `doPlugins()` function.
 
 ## Use Plug-ins in Adobe Experience Platform Launch
 

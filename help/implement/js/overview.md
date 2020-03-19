@@ -33,7 +33,7 @@ AppMeasurement for JavaScript has historically been a common method to implement
    s.events = "event1";
    ```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t` function. See [t](../vars/functions/t-method.md) for more information.
+4. When all page-level variables are defined, send the data to Adobe using the `t()` method. See [t](../vars/functions/t-method.md) for more information.
 
    ```js
    s.t();

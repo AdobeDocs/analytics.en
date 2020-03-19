@@ -5,9 +5,9 @@ description: Set the name of the custom link hit.
 
 # linkName
 
-Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next `tl()` function.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-If this variable is blank, AppMeasurement reverts to the `linkURL` variable.
+If this variable is blank, AppMeasurement reverts to the [`linkURL`](linkurl.md) variable.
 
 ## Link Name in Adobe Experience Platform Launch
 
@@ -22,9 +22,9 @@ You can set the link name field when configuring a rule to send a beacon.
 
 ## s.linkName in AppMeasurement and Launch custom code editor
 
-The `s.linkName` variable is a string that determines the dimension value for custom links, download links, or exit links (depending on what `s.linkType` is). It can hold up to 100 bytes.
+The `s.linkName` variable is a string that determines the dimension value for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). It can hold up to 100 bytes.
 
-> [!TIP] This variable is the third parameter of the `tl()` function, and usually does not need to be set as a standalone variable. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` function.
+> [!TIP] This variable is the third parameter of the `tl()` method, and usually does not need to be set as a standalone variable. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";

@@ -32,7 +32,7 @@ Avoid setting this variable to non-URL values.
 
 ## Example
 
-Many organizations deal with implementations around redirects. You can use the [`getQueryParam`](../functions/util-getqueryparam.md) utility to obtain referrer from the URL if your site accommodates it. Make sure that you URL encode any values included in the query string.
+Many organizations deal with implementations around redirects. You can use the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) utility to obtain referrer from the URL if your site accommodates it. Make sure that you URL encode any values included in the query string.
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org

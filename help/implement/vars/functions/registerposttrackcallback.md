@@ -7,11 +7,11 @@ description: Create callback functions after sending a hit to Adobe.
 
 The `registerPostTrackCallback` variable allows your organization to hook a JavaScript function immediately after a hit is successfully sent to Adobe. If a tracking call fails, this function does not run. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure, or clean up variable values in single-page applications.
 
-> [!IMPORTANT] Do not call any tracking functions like `t` or `tl` inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+> [!IMPORTANT] Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPostTrackCallback` variable, you hook that function to run immediately after an image request is successfully sent. Avoid registering the same function multiple times in the same page load.
 
-> [!NOTE] The timing and order of functions fired between `registerPreTrackCallback` and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
+> [!NOTE] The timing and order of functions fired between [`registerPreTrackCallback`](registerpretrackcallback.md) and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
 
 ## Register Post Track Callback in Adobe Experience Platform Launch
 
@@ -46,7 +46,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Use case example
 
-Registering the `clearVars()` function in the post track callback can be beneficial for single-page applications. Every time you successfully send a hit to Adobe, the `clearVars()` function runs. Your implementation can then define variables again without worrying about incorrectly persisting values.
+Registering the [`clearVars()`](clearvars.md) function in the post track callback can be beneficial for single-page applications. Every time you successfully send a hit to Adobe, the `clearVars()` function runs. Your implementation can then define variables again without worrying about incorrectly persisting values.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

@@ -5,9 +5,9 @@ description: Specify which variables to include in link tracking image requests.
 
 # linkTrackVars
 
-Some implementations don't want to include all variables in all link tracking image requests. Use the `linkTrackVars` and `linkTrackEvents` variables to selectively include dimensions and metrics in `tl()` calls.
+Some implementations don't want to include all variables in all link tracking image requests. Use the `linkTrackVars` and [`linkTrackEvents`](linktrackevents.md) variables to selectively include dimensions and metrics in [`tl()`](../functions/tl-method.md) calls.
 
-This variable is not used for page view calls (`t()` function).
+This variable is not used for page view calls (`t()` method).
 
 ## Variables in link tracking calls using Adobe Experience Platform Launch
 
@@ -17,7 +17,7 @@ Launch automatically populates this variable on the backend based on variables s
 
 ## s.linkTrackVars in AppMeasurement and Launch custom code editor
 
-The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` function). Both of the following criteria must be met to include dimensions in link tracking hits:
+The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Both of the following criteria must be met to include dimensions in link tracking hits:
 
 * Set the desired variable value. For example, `s.eVar1 = "Example value";`.
 * Set the desired variable in the `linkTrackVars` variable. For example, `s.linkTrackEvents = "eVar1";`.

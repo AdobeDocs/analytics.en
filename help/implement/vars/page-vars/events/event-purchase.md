@@ -5,7 +5,7 @@ description: Use the purchase event to collect data for the 'Orders', 'Units', a
 
 # Purchase event
 
-The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the `products` and `purchaseID` variables.
+The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the [`products`](../products.md) and [`purchaseID`](../purchaseid.md) variables.
 
 When you set a purchase event, it affects the following metrics:
 

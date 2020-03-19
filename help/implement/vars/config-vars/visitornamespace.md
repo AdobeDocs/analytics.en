@@ -5,9 +5,9 @@ description: Retired variable that determined cookie domain.
 
 # visitorNamespace
 
-> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
+> [!IMPORTANT] This variable is retired. Use [`trackingServer`](trackingserver.md) instead.
 
-In previous versions of Adobe Analytics, AppMeasurement used the `visitorNameSpace` variable to help determine the subdomain of `2o7.net` where visitor cookies are stored. Increasing privacy practices in modern browsers make third-party cookies less reliable. With the introduction of the `trackingServer` and `trackingServerSecure` variables, `visitorNameSpace` is no longer needed.
+In previous versions of Adobe Analytics, AppMeasurement used the `visitorNameSpace` variable to help determine the subdomain of `2o7.net` where visitor cookies are stored. Increasing privacy practices in modern browsers make third-party cookies less reliable. With the introduction of the `trackingServer` and [`trackingServerSecure`](trackingserversecure.md) variables, `visitorNameSpace` is no longer needed.
 
 > [!TIP] Adobe recommends using first-party cookies on your site. First-party cookies do not use this variable.
 

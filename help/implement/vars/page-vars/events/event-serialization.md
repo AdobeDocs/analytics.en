@@ -11,7 +11,7 @@ Event serialization is the process of implementing measures to prevent duplicate
 
 ## Set up event serialization
 
-You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](../../../../admin/admin/c-success-events/success-event.md) in the Admin user guide.
+You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](/help/admin/admin/c-success-events/success-event.md) in the Admin user guide.
 
 When using event IDs, de-duplication happens on the following levels:
 
@@ -19,7 +19,7 @@ When using event IDs, de-duplication happens on the following levels:
 * De-duplication happens globally across all visitors. If visitor A sends `event1:ABC` then visitor B also sends `event1:ABC`, Adobe ignores the second instance from visitor B.
 * De-duplication does not expire. If a visitor sends `event1:ABC` then comes back 2 years later and sends `event1:ABC` again, Adobe ignores the second instance.
 
-> [!TIP] If you want to de-duplicate the `purchase` event, use the `purchaseID` variable instead.
+> [!TIP] If you want to de-duplicate the [`purchase`](event-purchase.md) event, use the [`purchaseID`](../purchaseid.md) variable instead.
 
 ## Use event IDs in Adobe Experience Platform Launch
 

@@ -32,7 +32,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] The following sections and examples contain complex implementation topics. Thoroughly test your implementation and track important customizations in your organization's [solution design document](../../prepare/solution-design.md).
+> [!CAUTION] The following sections and examples contain complex implementation topics. Thoroughly test your implementation and track important customizations in your organization's [solution design document](../../prepare/solution-design.md).
 
 ## Manage multiple implementations using different tracking objects
 

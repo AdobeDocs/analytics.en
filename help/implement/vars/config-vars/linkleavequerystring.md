@@ -5,7 +5,7 @@ description: Allows the preservation of query strings in link tracking dimension
 
 # linkLeaveQueryString
 
-AppMeasurement strips query strings from link tracking URLs by default. Use the linkLeaveQueryString variable to preserve query strings in link tracking dimensions.
+AppMeasurement strips query strings from link tracking URLs by default. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
 
 For some exit links and download links, the important portion of the URL can be in the query string. For example, a download link such as `https://example.com/download.asp?filename=myfile.exe` contains important link information in the query string.
 
@@ -39,7 +39,7 @@ s.linkLeaveQueryString = true;
 
 ## Example
 
-Be careful when setting this variable to true, as it can impact link tracking filters like `linkInternalFilters`, `linkExternalFilters`, and `linkDownloadFiletypes`.
+Be careful when setting this variable to true, as it can impact link tracking filters like [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md), and [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Consider the following example as if it were on `adobe.com`:
 

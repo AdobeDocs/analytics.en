@@ -38,7 +38,7 @@ The `s.events` variable is a string that contains a comma-delimited list of even
 * `scView`: Increments the 'Cart Views' metric.
 * `scCheckout`: Increments the 'Checkouts' metric.
 
-> [!TIP] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
+> [!NOTE] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
 
 ```js
 // Set the events variable to a single value

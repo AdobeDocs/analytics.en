@@ -14,7 +14,7 @@ A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a 
 ## Report properties
 
 * This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
-* Link tracking calls that use the [`tl()`](/help/implement/vars/functions/tl-method.md) method and are not counted in this report.
+* Link tracking calls that use the [`tl()`](/help/implement/vars/functions/tl-method.md) method are not counted in this report.
 * Because image requests are sent when the user refreshes the page or clicks the back button, this report also includes these actions.
 * Hourly breakdowns are based on the report suite's time zone.
 * This report does not contain line items. As such, the report can be viewed only in trended format.

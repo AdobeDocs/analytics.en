@@ -1,24 +1,20 @@
 ---
-description: Shows the most common links people are clicking on that lead to places outside your site. These links typically point to partner or affiliate sites. However, they can be any location where you have implemented an external link. You can use this report to view the most popular affiliate links, or to assist in validating the number of referrals that your partners' state you provide.
 title: Exit Links
-topic: Reports
-uuid: e1452f04-389d-4aa3-8763-732880284302
+description: Report on the most common links people click to leave your site.
 ---
 
 # Exit Links
 
-Shows the most common links people are clicking on that lead to places outside your site. These links typically point to partner or affiliate sites. However, they can be any location where you have implemented an external link. You can use this report to view the most popular affiliate links, or to assist in validating the number of referrals that your partners' state you provide.
+Shows the most common links people are click to leave your site. These links typically point to partner or affiliate sites; however, they can be any location where you have an external link. You can use this report to view the most popular affiliate links, or to assist in validating the number of referrals that your partners' state you provide.
 
 There are several requirements that must be met in order for this page to populate correctly:
-* If using manual custom link tracking, an *`s.tl()`* request must be fired with the middle parameter set to *e*.
+* If using manual custom link tracking, a `tl()` request must be fired with the middle parameter set to `e`.
 * If using automatic custom link tracking, all requirements must be met:
-  * [s.trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) must be set to *true*.
-  * The link the user clicked on must not match any values within the [s.linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
-  * If [s.linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) is implemented, the external link must match at least one of the values set in this variable.
-* If any of the above requirements are not met, the hit will not populate this report.
-* As with all custom link tracking hits, the [s.pageName](/help/implement/vars/page-vars/pagename.md) variable is stripped from the image request to prevent page-view inflation.
+  * The [trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) variable must be enabled.
+  * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
+  * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
+* If any of the above requirements are not met, the hit does not populate this report.
+* As with all custom link tracking hits, the [pageName](/help/implement/vars/page-vars/pagename.md) variable is stripped from the image request to prevent inflation to the page views metric.
 * You can view this report in trended and ranked formats.
 * This report can use a search filter to locate specific line items.
-* You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [Instances](/help/components/c-variables/c-metrics/metrics-instance.md) are the only metrics available by default within this report, counting the number of times the exit link fired.
-* Daily, weekly, monthly and quarterly visitors can be enabled for this report. However, only an Adobe representative can enable these, at an additional cost. Enabling unique visitors for any custom link tracking variables greatly increases latency for the report suite.
+* You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable.

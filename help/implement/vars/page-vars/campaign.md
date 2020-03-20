@@ -24,7 +24,7 @@ You can set campaign to a value or a query string parameter.
 
 ## s.campaign in AppMeasurement and Launch custom code editor
 
-The `s.campaign` variable is a string that typically contains a tracking code used in marketing efforts. Its max length is 255 bytes; values longer than 100 bytes are automatically truncated when sent to Adobe.
+The `s.campaign` variable is a string that typically contains a tracking code used in marketing efforts. Its max length is 255 bytes; values longer than 255 bytes are automatically truncated when sent to Adobe.
 
 ```js
 // Set the campaign variable to a static value

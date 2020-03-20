@@ -8,16 +8,15 @@ uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 
 In the calendar, you can specify dates and date ranges, or select a preset.
 
-Calendar selections apply at the panel level, but you have the option to apply them to all panels. By default, the Workspace calendar shows the current month and last month.
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-The first click starts a date range selection. Then highlight the range in either direction until the second click, which selects the end of the date range. If the `Shift` key is held down (or right-click is used) while clicking the first date, it will append to the range.
+![Calendar](assets/aw_calendar.png)
+
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-![](assets/aw_calendar.png)
-
 [Using Date Ranges and Calendar in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
-
 
 | Setting | Description |
 |--- |--- |

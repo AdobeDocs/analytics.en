@@ -1,21 +1,19 @@
 ---
-description: These reports provide insight on the specific campaigns or keywords are most effective on your site. You can use this report to allocate success metrics and revenue to various channel details, without regard to the overall channel they are in. For example, you can see how a certain Paid Search Keyword is comparing against a certain email campaign. As opposed to the Marketing Channel Overview Report, this report resembles a standard marketing report.
-title: Marketing Channel Detail - First and Last Touch
-topic: Reports
-uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
+title: Marketing channel detail - first and last touch
+description: Allocate success metrics and revenue to various channel details without regard to the overall channel they are in.
 ---
 
-# Marketing Channel Detail - First and Last Touch
+# Marketing channel detail - first and last touch
 
-These reports provide insight on the specific campaigns or keywords are most effective on your site. You can use this report to allocate success metrics and revenue to various channel details, without regard to the overall channel they are in. For example, you can see how a certain Paid Search Keyword is comparing against a certain email campaign. As opposed to the Marketing Channel Overview Report, this report resembles a standard marketing report.
+These reports provide insight on the specific campaigns or keywords are most effective on your site. You can use this report to allocate success metrics and revenue to various channel details, without regard to the overall channel they are in. For example, you can see how a certain paid search keyword compares against an email campaign. As opposed to the Marketing Channel Overview report, this report resembles a standard report.
 
- **Report Properties**
+## Report properties
 
 * This report runs on rules defined in marketing channels. See [Channels and Rules](/help/components/c-marketing-channels/c-channels.md).
 
   Specifically, the report uses the **[!UICONTROL Set the channel's value to]** part of each rule. Changing these rules or the how the channel's value is set changes how data in this report is calculated. See the Marketing Channel processing rules [FAQ](/help/components/c-marketing-channels/c-faq.md) for more information.
 
-* Differences between *First* and *Last Touch* can be located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
+* Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
 * The order of processing rules is crucial to how Marketing Channels work. Each hit checks criteria at the top of your processing rules first, then filters down from there.
 * This report can be viewed in trended and ranked formats.
@@ -24,7 +22,6 @@ These reports provide insight on the specific campaigns or keywords are most eff
 * You can use [Classifications](/help/components/c-classifications2/c-classifications.md) in this report, allowing you to rename and consolidate line items. Details specific to Marketing Channels can be found [here](/help/components/c-marketing-channels/classifictions-mchannel.md).
 
 * This report can be broken down by all other Marketing Channel reports.
-* You can enable additional breakdowns for this report using custom subrelations. For additional information, please have one of your organization's supported users contact Customer Care to request specific variables be enabled.
 * The following metrics can be used in this report (depending on organization and report suite settings):
   * Click-throughs: the number of times the *`s.campaign`* variable is defined.
   * New Engagements: the number of visitors who have received a new First Touch Channel.
@@ -33,6 +30,3 @@ These reports provide insight on the specific campaigns or keywords are most eff
   * Visits and Visitors: availability is dependent on organization and report suite. Contact your Account Manager for additional details.
 
   See [Metrics](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) in [!UICONTROL Marketing Channel] Help.
-
-> [!NOTE] [!UICONTROL Marketing Channel] reporting is not available in version 13.5.
-

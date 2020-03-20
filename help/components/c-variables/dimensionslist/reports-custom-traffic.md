@@ -14,16 +14,14 @@ Custom Traffic reports allow each organization to report on additional dimension
 * Custom Traffic reports are based solely off of [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (traffic variables).
 * The reports' default metric is page views (or instances in version 15). Version 14 page views and version 15 instances are identical, in that they count the total number of times that variable was defined. Version 15 page views only count the number of *`s.t()`* image requests (excluding *`s.tl()`* requests).
 
-* Pathing can be enabled if it is included in your organization's contract and is requested by a supported user. When pathing is enabled for a traffic variable, the following metrics are available: 
-*
-
-    * Average Page Depth 
-    * Average Time Spent 
-    * Entries 
-    * Exits 
-    * Reloads 
-    * Single Access 
-    * Visits
+* Pathing can be enabled if it is included in your organization's contract and is requested by a supported user. When pathing is enabled for a traffic variable, the following metrics are available:
+  * Average Page Depth
+  * Average Time Spent
+  * Entries
+  * Exits
+  * Reloads
+  * Single Access
+  * Visits
 
 * You can use participation metrics in traffic reports. This usage must be requested and included in your organization's contract.
 * These reports can be viewed in both trended and ranked formats.

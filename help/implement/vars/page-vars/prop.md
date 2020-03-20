@@ -52,3 +52,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] List props are still subject to the 100-byte maximum length. List props are easier to hit this limit and be truncated, since they can contain multiple values. Consider using abbreviations or shortening values if you might hit this 100-byte limit.
+
+If you set the same value more than once in a list prop, they are de-duplicated in reporting. Analysis Workspace counts the number of hits where a value is seen, and not the number of times a value exists in data.

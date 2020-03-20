@@ -15,7 +15,7 @@ There is not a dedicated field in Launch to use this variable. Use the custom co
 
 The `abort` variable is a boolean. Its default value is `false`.
 
-* If set to `true`, the next tracking call (`t()` or `tl()`) does not send any data to Adobe.
+* If set to `true`, the next tracking call ([`t()`](../functions/t-method.md) or [`tl()`](../functions/tl-method.md)) does not send any data to Adobe.
 * If set to `false` or not defined, this variable does nothing.
 
 ```js
@@ -26,7 +26,7 @@ s.abort = true;
 
 ## Example
 
-The `abort` variable can be set in the `doPlugins()` function, which is the last function to run before an image request is sent to Adobe.
+The `abort` variable can be set in the [`doPlugins()`](../functions/doplugins.md) function, which is the last function to run before an image request is sent to Adobe.
 
 ```js
 s.doPlugins = function(s) {

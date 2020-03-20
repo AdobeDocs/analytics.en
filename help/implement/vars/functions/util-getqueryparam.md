@@ -5,7 +5,7 @@ description: Returns the value of a query string parameter.
 
 # Util.getQueryParam
 
-Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam` method to retrieve data from the query string.
+Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam()` method to retrieve data from the query string.
 
 ## Get query string parameter data in Adobe Experience Platform Launch
 
@@ -46,4 +46,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
-> [!NOTE] Previous versions of AppMeasurement had a plug-in named `s.getQueryParam` available. This plug-in is no longer needed, as it is now included in AppMeasurement by default.
+> [!TIP] A similar plug-in named [`s.getQueryParam`](../plugins/getqueryparam.md) is available. This plug-in contains more advanced features, but is also more complex and not included in AppMeasurement by default.

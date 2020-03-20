@@ -5,7 +5,7 @@ description: A retired variable that let you determine which data center to use.
 
 # dc
 
-> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
+> [!IMPORTANT] This variable is retired. Use [`trackingServer`](trackingserver.md) instead.
 
 In previous versions of Adobe Analytics, Adobe required that you specify which data center you wanted to send data to. Sending hits to the wrong data center resulted in data loss.
 

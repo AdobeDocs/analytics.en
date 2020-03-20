@@ -5,9 +5,9 @@ description: Use the linkExternalFilters variable to help automatic exit link tr
 
 # linkExternalFilters
 
-AppMeasurement offers the ability to automatically track links that point outside your site. If `trackExternalLinks` is `true`, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The `linkTrackExternalFilters` and `linkTrackInternalFilters` variables determine what links are considered internal/external.
+AppMeasurement offers the ability to automatically track links that point outside your site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The `linkExternalFilters` and [`linkInternalFilters`](linkinternalfilters.md) variables determine what links are considered internal/external.
 
-If this variable contains a value, automatic exit link tracking behaves in a whitelist-like manner. If a link click does not match any `linkExternalFilters` values, it is not considered an exit link. The entire URL is examined against this variable. If `linkLeaveQueryString` is `true`, the query string is also examined.
+If this variable contains a value, automatic exit link tracking behaves in a whitelist-like manner. If a link click does not match any `linkExternalFilters` values, it is not considered an exit link. The entire URL is examined against this variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
 > [!TIP] Only use this variable if you know exactly which domains you want to consider as exit links. Many organizations find that using `linkInternalFilters` is sufficient for their exit link tracking needs, and do not use `linkExternalFilters`.
 
@@ -40,7 +40,7 @@ Consider the following implementation example as if it were on `adobe.com`:
   s.linkExternalFilters = "example.com,example.net";
 </script>
 
-<!-- The following link is not considered an exit link, even though the link is outside adobe.com -->
+<!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
 <!-- The following link is an exit link because it matches the linkExternalFilters whitelist -->

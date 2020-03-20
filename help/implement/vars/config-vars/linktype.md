@@ -11,7 +11,7 @@ Link tracking hits can populate one of three dimensions:
 * Exit links
 * Download links
 
-Use the `linkType` variable to determine which dimension you want to populate when running the next `tl()` function.
+Use the `linkType` variable to determine which dimension you want to populate when running the next [`tl()`](../functions/tl-method.md) function.
 
 ## Link Type in Adobe Experience Platform Launch
 
@@ -28,13 +28,13 @@ You can set this dropdown to [!UICONTROL Custom Link], [!UICONTROL Download Link
 
 ## s.linkType in AppMeasurement and Launch custom code editor
 
-The `s.linkType` variable is a string that accepts one of three single-character values: `o`, `d`, or `e`. If a `tl()` function is called without a link type, it defaults to Custom link.
+The `s.linkType` variable is a string that accepts one of three single-character values: `o`, `d`, or `e`. If a `tl()` method is called without a link type, it defaults to Custom link.
 
 * `o` - Custom links
 * `d` - Download links
 * `e` - Exit links
 
-> [!TIP] This variable is the second parameter of the `tl()` function, and usually does not need to be set as a standalone variable. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` function.
+> [!TIP] This variable is the second parameter of the `tl()` method, and usually does not need to be set as a standalone variable. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkType = "e";

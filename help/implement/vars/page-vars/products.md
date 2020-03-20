@@ -7,7 +7,7 @@ description: Send data around what product(s) are displayed or in the cart.
 
 The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension values.
 
-> [!NOTE] If this variable is set in a hit without a shopping cart event in the `events` variable, the 'Product Views' metric increments by 1. Make sure you set the appropriate shopping cart event on each hit.
+> [!NOTE] If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the 'Product Views' metric increments by 1. Make sure you set the appropriate shopping cart event on each hit.
 
 ## Products in Adobe Experience Platform Launch
 
@@ -27,7 +27,7 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 * **Category** (optional): The overarching product category. Your organization decides how to group products into categories.
 * **Product name** (required): The name of the product.
 * **Quantity** (optional): How many of this product is in the cart. This field only applies to hits with the purchase event.
-* **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the `currencyCode` variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
+* **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the [`currencyCode`](../config-vars/currencycode.md) variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
 * **Events** (optional): Events tied to the product. Delimit multiple events with a pipe (`|`). See [events](events/events-overview.md) for more information.
 * **eVars** (optional): Merchandising eVars tied to the product. Delimit multiple merchandising eVars with a pipe (`|`). See [merchandising eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md) for more information.
 
@@ -43,7 +43,7 @@ This variable supports multiple products in the same hit. It is valuable for sho
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Make sure you strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
+> [!IMPORTANT] Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
 
 ## Examples
 

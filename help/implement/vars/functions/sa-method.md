@@ -5,7 +5,7 @@ description: Change the report suite at any time in your implementation.
 
 # sa
 
-The `sa` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.
+The `sa()` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.
 
 ## Use the sa method in Adobe Experience Platform Launch
 

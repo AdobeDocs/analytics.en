@@ -40,7 +40,7 @@ Processing rules immediately take effect once saved. They do not apply to histor
 
 ## Send context data in a link tracking call
 
-Include the context data variable as a property of `contextData` in `s.linkTrackVars`:
+Include the context data variable as a property of `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";

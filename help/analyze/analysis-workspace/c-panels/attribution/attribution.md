@@ -92,3 +92,5 @@ Attribution always runs before segmentation, and segmentation runs before report
 For example, if you create a VRS with a "Display Hits" segment applied, you could see other channels in a table using some attribution models.
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
+
+> [!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment and filter with comparable definitions may sometimes return lower values for the segment.

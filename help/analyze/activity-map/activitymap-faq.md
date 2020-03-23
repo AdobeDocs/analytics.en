@@ -108,7 +108,7 @@ A warning message is shown below toolbar indicating that no tag is present.
 
 *Web page with incompatible Analytics Tag (AppMeasurement v1.5 or earlier)*
 
-A warning message is shown indicating that you need to [upgrade the page code to v1.6](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
+A warning message is shown indicating that you need to upgrade the page code to v1.6 or more.
 
 *Web page with compatible Analytics Tag (AppMeasurement v1.6 or later), but Activity Map reporting was not enabled in Admin Tools*
 

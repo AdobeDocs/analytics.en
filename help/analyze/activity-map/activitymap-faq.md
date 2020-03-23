@@ -9,7 +9,7 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 
 Frequently asked questions for setting up, configuring, and employing features in Activity Map.
 
-## Implementation and AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## Implementation and AppMeasurement
 
 **Q: What are the implementation steps for enabling the new Activity Map?**
 
@@ -35,7 +35,11 @@ A: AppMeasurement is rolled out at the report-suite level. The report-suite leve
 
 A: No. Activity Map functionality is not dependent on the VisitorAPI.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map application
+
+**Q: Does Activity Map provide data on “views”?**
+
+A: No, tracking all the links that are viewed on each page load would require us to collect a lot more data. As a free add-on, Activity Map does not provide this functionality.
 
 **Q: Can I use Activity Map if I did not previously use Visitor ClickMap on my website?**
 
@@ -43,7 +47,7 @@ A: Having the legacy version - now simply called ClickMap - installed is not a p
 
 **Q: What browsers and versions are supported by Activity Map?**
 
-A: We support only the latest version of the four main browsers (Chrome, Firefox, Safari and IE).
+A: We support the latest version of the four main browsers (Chrome, Firefox, Safari and IE).
 
 **Q: What are the default Overlay Settings?**
 
@@ -64,12 +68,6 @@ A: Some ranked links may be hidden from the page (submenu links, for example). A
 
 A: While Activity Map is in use, link click data is not collected by the Analytics tag. This behavior follows the behavior of the ClickMap plug-in.
 
-**Q: Why does the metric drop-down list the same metric multiple times?**
-
-A: Activity Map lists metrics for all report suites. As a result, you can expect to see duplication if the company has not gone through a [metric consolidation process](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
-
-The Metric drop-down lets you limit the list of calculated metrics to the ones assigned to the visited page's report suite.
-
 **Q: How does the Activity Map All Links Report compare with Reports & Analytics Activity Map reporting?**
 
 A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = "visitedpage", broken down by Activity Map Link&Region in `<list of link&regions present in the page at rendering time>`.
@@ -80,9 +78,7 @@ However, it is important to note that the obtained report in R&A will list all L
 
 **Q: How does Activity Map work with pages containing multiple tags listing multiple report suites?**
 
-A: By default, Activity Map uses the report suite that is associated with the first tag that is sent by the page.
-
-You can select a different tagged report suite through the Activity Map Settings > Others tab.
+A: By default, Activity Map uses the report suite that is associated with the first tag that is sent by the page. You can select a different tagged report suite through the Activity Map Settings > Others tab.
 
 **Q: For how long does Activity Map scan for the Analytics Tag?**
 
@@ -112,27 +108,27 @@ A warning message is shown below toolbar indicating that no tag is present.
 
 *Web page with incompatible Analytics Tag (AppMeasurement v1.5 or earlier)*
 
-A warning message is shown indicating that you need to (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) upgrade the page code to v1.6.
+A warning message is shown indicating that you need to [upgrade the page code to v1.6](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
 
 *Web page with compatible Analytics Tag (AppMeasurement v1.6 or later), but Activity Map reporting was not enabled in Admin Tools*
 
 A warning message is shown indicating that you need to ask your Admin to \[Enable the Activity Map report\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
 
-**Q: Can I export Activity Map data (contextData) via [Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
+**Q: Can I export Activity Map data (contextData) via [Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)?**
 
 A: No.
 
-## Segmentation in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentation in Activity Map
 
-**Q: Are segments tied to the individual user segments? Or are shared Admin-level segments available in Activity Map?**
+**Q: Are segments tied to the individual user segments? Are shared segments available in Activity Map?**
 
-A: Activity Map inherits your Admin-level segments (reporting segments) from Analytics.
+A: Activity Map inherits your reporting segments from Analytics.
 
 **Q: Do segments work in Live mode?**
 
 A: No, segments do not work in Live mode. The functionality is equivalent to that of real-time reporting in Reports & Analytics.
 
-## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Virtual report suites
 
 **Q: Is Activity Map compatible with virtual report suites?**
 

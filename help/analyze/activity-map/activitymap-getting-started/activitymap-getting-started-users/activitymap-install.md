@@ -21,7 +21,6 @@ Activity Map browser plug-ins:
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
 
 1. Go to **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]**.  ![](assets/install_am.png)
-
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
 1. Answer **[!UICONTROL Yes]** when the security warning asks you whether you want to download the Activity Map Browser Plug-in.
@@ -38,17 +37,14 @@ Activity Map browser plug-ins:
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
 1. Click **[!UICONTROL Allow]** when this message appears: ![](assets/firefox_install2.png)
-
 1. Click **[!UICONTROL Install Now]**.
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
-
 1. Activity Map should be listed as one of the Firefox Add-ons.
 1. If you see an Adobe Analytics icon  ![](assets/an_icon.png) added to your tool bar, your download was successful. You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) from your page.
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Activity Map]**.
-
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
 1. Click **[!UICONTROL Run]** to initiate the Activity Map installation.

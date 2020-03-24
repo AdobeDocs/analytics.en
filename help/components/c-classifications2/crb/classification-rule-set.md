@@ -53,12 +53,6 @@ The following fields and options are available on the [!UICONTROL Classification
 
 ## Create a Classification Rule Set {#create-classification-rule-set}
 
-<!-- 
-
-t_classification_rule_set.xml
-
- -->
-
 Name the classification rule set, apply the variable, and specify overwrite settings.
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.

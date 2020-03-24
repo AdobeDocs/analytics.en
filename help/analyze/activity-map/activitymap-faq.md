@@ -37,7 +37,7 @@ A: No. Activity Map functionality is not dependent on the VisitorAPI.
 
 ## Activity Map application
 
-**Q: How does Activity Map support Single-Page Applications (SPA)?**
+<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
 
 A: 
 
@@ -45,11 +45,11 @@ A:
 
 * Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
 
-* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.
+* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
 **Q: Does Activity Map provide data on “views”?**
 
-A: No, tracking all the links that are viewed on each page load would require us to collect a lot more data. As a free add-on, Activity Map does not provide this functionality.
+A: No, Adobe does not track links viewed.
 
 **Q: Can I use Activity Map if I did not previously use Visitor ClickMap on my website?**
 

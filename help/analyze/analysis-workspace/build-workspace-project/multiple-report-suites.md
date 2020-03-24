@@ -13,6 +13,12 @@ This capability is useful if you want to, for example,
 
 * Build a dashboard of metrics and visualizations to report out to other organizations. You can now pull data from various report suites into in the same project.
 
+## Apply report suite to all panels
+
+You can apply a report suite to all panels at once by right-clicking any panel header and selecting **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
+
 ## Active panel
 
 We are introducing the concept of "active panel" versus "inactive panel" with this feature. You can recognize the active panel by the light blue border around it. Simply clicking inside a panel turns that panel into the active panel.

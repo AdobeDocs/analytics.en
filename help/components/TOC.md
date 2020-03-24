@@ -103,7 +103,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Classification rule sets](c-classifications2/crb/classification-rule-set.md)
     + [Classification rules](c-classifications2/crb/classification-quickstart-rules.md)
     + [Classification rules - definitions](c-classifications2/crb/classification-rule-definitions.md)
-    + [Sub-classifications and the Rule Builder - use case](c-classifications2/crb/sub-classification-rule-builder.md)
+    + [Sub-classifications and the Rule Builder](c-classifications2/crb/sub-classification-rule-builder.md)
   + Numeric 2 classifications {#numeric2-classification}
     + [Numeric 2 classifications overview](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
     + [Create numeric 2 classifications](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)

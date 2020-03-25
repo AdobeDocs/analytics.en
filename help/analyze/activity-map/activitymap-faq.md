@@ -49,7 +49,7 @@ A:
 
 **Q: Does Activity Map provide data on “views”?**
 
-A: No, Adobe does not track links viewed.
+A: No, Adobe does not track links that were viewed.
 
 **Q: Can I use Activity Map if I did not previously use Visitor ClickMap on my website?**
 

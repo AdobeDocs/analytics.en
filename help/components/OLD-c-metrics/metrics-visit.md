@@ -32,8 +32,14 @@ When a visit ends, all variables with a visit expiration are expired and no long
 
 > [!NOTE] If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
 
-For more information, refer to [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) in the Adobe Analytics Implementation guide.
+For more information, see [Identify unique visitors](/help/technotes/visitor-identification.md) in the Technotes user guide.
 
-**Time Periods**
+## Time periods
 
 A visit is reported in each time period in which activity occurred. For example, suppose that a visit begins at 11:45 p.m. on December 1st, and continues until 12:30 a.m. on December 2nd. The visit is counted on December 1st and December 2. This reporting applies to other time periods, including weekly, monthly, quarterly, and yearly.
+
+## Comparison to similar metrics
+
+* **Compare visits to instances**: Instances include the number of hits a variable was defined, whereas visits count the number of sessions.
+  * Instances can be higher than visits when a given dimension value is set more than once in a visit. For example, a visitor arrives to your site from `example.com`, then less than 30 minutes later arrives at your site again from `example.org`. In this case, two referrer instances count within one visit.
+  * Instances are rarely lower than visits when comparing the same dimension value. The only time a visit is counted without an instance is when a value persists beyond a visit.

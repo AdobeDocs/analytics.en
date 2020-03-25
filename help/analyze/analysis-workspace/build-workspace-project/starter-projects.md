@@ -6,8 +6,6 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 
 # Templates
 
-## Templates {#topic_40932F09E18A467983AFBB29908E1CB8}
-
 You can choose whether to create a project from:
 
 * **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
@@ -44,7 +42,7 @@ Users with admin rights can turn any project they create into a custom template.
 |Modify template description|Open the template and go to  Project >  Project Info & Settings. Double-click the description and edit it.|
 
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Standard templates 
 
 When you first open a Workspace, templates are available in the left rail. Analysis Workspace Templates cover common use cases. They are grouped by the vertical they belong to and are populated with different dimensions, segments, metrics and visualizations, depending on the report suite you have selected.
 
@@ -53,6 +51,8 @@ You can use these pre-populated templates as they are or adapt them to your need
 [Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Here are available templates and the questions that each template helps answer.
+
+### Training
 
 * **Training Tutorial**: This standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list.
 

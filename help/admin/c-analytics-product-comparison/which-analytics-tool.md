@@ -22,7 +22,6 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
-* To look at multiple report suites in a single UI dashboard.
 * To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
 

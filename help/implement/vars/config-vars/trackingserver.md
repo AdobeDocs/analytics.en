@@ -53,3 +53,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Pick a subdomain unique to your organization, unlikely to be picked by another organization that uses Adobe Analytics. Make sure that all implementations in your organization use the same tracking server. It can be helpful to maintain this information in a [solution design document](../../prepare/solution-design.md).
+
+> [!NOTE] Do not use any subdomains deeper than `example.sc.omtrdc.net`. For example, `custom.example.sc.omtrdc.net` is not a valid tracking server.

@@ -5,19 +5,19 @@ description: The dimensions and metrics that Reports & Analytics uses for each r
 
 # Reports
 
-Each report in Reports & Analytics uses a dedicated dimension and default metric. You can change the metric in each report and add breakdowns if desired. The following lists provide what dimensions are used, and their default metric.
+Each report in Reports & Analytics uses a dedicated dimension and default metric. You can change the metric in each report and add breakdowns if desired. The following lists provide what dimension is used in each report.
 
-> [!NOTE] Your left menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+> [!NOTE] Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## Site Metrics
 
 Contains reports that typically trend using a date range. Also contains unique reports, such as Recommended reports and Real-time reports.
 
 * My recommended reports: Creates a dashboard that contains several reportlets for immediate insights.
-* Key metrics: A report that allows you to trend up to five metrics at a time. Trends [page views](/help/components/metrics/page-views.md), [visits](/help/components/metrics/visits.md), and [unique visitors](/help/components/metrics/unique-visitors.md) by default.
-* Page views: Trends the metric [page views](/help/components/metrics/page-views.md) over time.
-* Visits: Trends the [visits](../../components/metrics/visits.md) metric over time.
-* Visitors: Trends various [unique visitors](../../components/metrics/unique-visitors.md) metrics over time.
+* Key metrics: A report that allows you to trend up to five metrics at a time. Trends [Page views](/help/components/metrics/page-views.md), [Visits](/help/components/metrics/visits.md), and [Unique visitors](/help/components/metrics/unique-visitors.md) by default.
+* Page views: Trends the [Page views](/help/components/metrics/page-views.md) metric over time.
+* Visits: Trends the [Visits](/help/components/metrics/visits.md) metric over time.
+* Visitors: Trends various [Unique visitors](/help/components/metrics/unique-visitors.md) metrics over time.
   * Unique visitors: Counts visitors only once for the entire selected date range.
   * Hourly unique visitors: Counts visitors multiple times if they visit during different hours of the selected date range.
   * Daily unique visitors: Counts visitors multiple times if they visit during different days of the selected date range.
@@ -25,128 +25,190 @@ Contains reports that typically trend using a date range. Also contains unique r
   * Monthly unique visitors: Counts visitors multiple times if they visit during different months of the selected date range.
   * Quarterly unique visitors: Counts visitors multiple times if they visit during different quarters of the selected date range. Quarters are January-March, April-June, July-September, and October-December.
   * Yearly unique visitors: Counts visitors multiple times if they visit during different calendar years of the selected date range.
-* Time spent per visit: Uses the [time spent per visit - bucketed](../../components/dimensions/time-spent-per-visit.md) dimension with [page views](../../components/metrics/page-views.md), [visits](../../components/metrics/visits.md), and [unique visitors](../../components/metrics/unique-visitors.md) metrics.
-* Time prior to event: Uses the [time prior to event](../../components/dimensions/time-prior-to-event.md) dimension with [page views](../../components/metrics/page-views.md), [visits](../../components/metrics/visits.md), and [unique visitors](../../components/metrics/unique-visitors.md) metrics.
+* Time spent per visit: Uses the [Time spent per visit - bucketed](/help/components/dimensions/time-spent-per-visit.md) dimension.
+* Time prior to event: Uses the [Time prior to event](/help/components/dimensions/time-prior-to-event.md) dimension.
 * Purchases: Contains reports around purchase-based metrics.
-  * Purchase conversion funnel: Report on [visits](../../components/metrics/visits.md), [carts](../../components/metrics/carts.md), [orders](../../components/metrics/orders.md), [revenue](../../components/metrics/revenue.md), and [units](../../components/metrics/units.md) in a funnel report. A similar visualization is achieved in Analysis Workspace using the [fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-  * Revenue: Trends the metric [revenue](../../components/metrics/revenue.md) over time.
-  * Orders: Trends the metric [orders](../../components/metrics/orders.md) over time.
-  * Units: Trends the metric [units](../../components/metrics/units.md) over time.
+  * Purchase conversion funnel: Report on [Visits](/help/components/metrics/visits.md), [Carts](/help/components/metrics/carts.md), [Orders](/help/components/metrics/orders.md), [Revenue](/help/components/metrics/revenue.md), and [Units](/help/components/metrics/units.md) in a funnel report. A similar visualization is achieved in Analysis Workspace using the [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+  * Revenue: Trends the metric [Revenue](/help/components/metrics/revenue.md) over time.
+  * Orders: Trends the metric [Orders](/help/components/metrics/orders.md) over time.
+  * Units: Trends the metric [Units](/help/components/metrics/units.md) over time.
 * Shopping cart: Contains reports around shopping cart metrics.
-  * Cart conversion funnel: Reports [instances](../../components/metrics/instances.md), [carts](../../components/metrics/carts.md), [checkouts](../../components/metrics/checkouts.md), [orders](../../components/metrics/orders.md), and [revenue](../../components/metrics/revenue.md) in a funnel report.
-  * Carts: Trends the metric [carts](../../components/metrics/carts.md) over time.
-  * Cart views: Trends the metric [cart views](../../components/metrics/cart-views.md) over time.
-  * Cart additions: Trends the metric [cart additions](../../components/metrics/cart-additions.md) over time.
-  * Cart removals: Trends the metric [cart removals](../../components/metrics/cart-removals.md) over time.
-  * Checkouts: Trends the metric [checkouts](../../components/metrics/checkouts.md) over time.
-* Custom events: Contains all reports around custom [events](../../components/metrics/events.md) specific to your implementation.
+  * Cart conversion funnel: Reports [Instances](/help/components/metrics/instances.md), [Carts](/help/components/metrics/carts.md), [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), and [Revenue](/help/components/metrics/revenue.md) in a funnel report.
+  * Carts: Trends the metric [Carts](/help/components/metrics/carts.md) over time.
+  * Cart views: Trends the metric [Cart views](/help/components/metrics/cart-views.md) over time.
+  * Cart additions: Trends the metric [Cart additions](/help/components/metrics/cart-additions.md) over time.
+  * Cart removals: Trends the metric [Cart removals](/help/components/metrics/cart-removals.md) over time.
+  * Checkouts: Trends the metric [Checkouts](/help/components/metrics/checkouts.md) over time.
+* Custom events: Contains all reports around custom [Events](/help/components/metrics/events.md) specific to your implementation.
 * Bots: Shows bot-related reports.
-  * Bots: Shows the bots that frequent your site the most. See [bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
+  * Bots: Shows the bots that frequent your site the most. See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
   * Bot pages: Shows the pages that bots hit the most.
-* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [real-time reports](../../components/c-real-time-reporting/realtime.md) for more information.
+* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [Real-time reports](/help/components/c-real-time-reporting/realtime.md) for more information.
 
 ## Site content
 
 Contains reports around dimensions that typically display site content. You can apply classifications to some of these reports. Applying classifications means that a report becomes a menu that contains the source report and classification reports.
 
-* Pages: Uses the [page](../../components/dimensions/page.md) dimension with the page views metric.
-* Site section: Uses the [site section](../../components/dimensions/site-section.md) dimension with the pages views metric.
-* Servers: Uses the [server](../../components/dimensions/server.md) dimension with the page views metric.
+* Pages: Uses the [Page](/help/components/dimensions/page.md) dimension.
+* Site section: Uses the [Site section](/help/components/dimensions/site-section.md) dimension.
+* Servers: Uses the [Server](/help/components/dimensions/server.md) dimension.
 * Links: Contains reports that use link tracking.
-  * Exit links: Uses the [exit link](../../components/dimensions/exit-link.md) dimension with the instances metric.
-  * File downloads: Uses the [download link](../../components/dimensions/download-link.md) dimension with the instances metric.
-  * Custom links: Uses the [custom link](../../components/dimensions/custom-link.md) dimension with the instances metric.
-  * Pages not found: Uses the [pages not found](../../components/dimensions/pages-not-found.md) dimension with the page views metric.
+  * Exit links: Uses the [Exit link](/help/components/dimensions/exit-link.md) dimension.
+  * File downloads: Uses the [Download link](/help/components/dimensions/download-link.md) dimension.
+  * Custom links: Uses the [Custom link](/help/components/dimensions/custom-link.md) dimension.
+  * Pages not found: Uses the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension.
 
 ## Mobile
 
-Contains reports around legacy mobile reports. These reports base their data on the user agent string. They use various [mobile dimensions](../../components/dimensions/mobile-dimensions.md) for their respective reports.
+Contains reports around legacy mobile reports. These reports base their data on the user agent string. They use various [mobile dimensions](/help/components/dimensions/mobile-dimensions.md) for their respective reports.
 
-* Devices: Uses the [mobile device](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Device type: Uses the [mobile device type](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Manufacturer: Uses the [mobile manufacturer](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Screen size: Uses the [mobile screen size](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Screen height: Uses the [mobile screen height](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Screen width: Uses the [mobile screen width](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Cookie support: Uses the [mobile cookie support](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Image support: Uses the [mobile image support](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Color depth: Uses the [mobile color depth](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Audio support: Uses the [mobile audio support](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Video support: Uses the [mobile video support](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
-* Operating system (deprecated): Uses the [mobile operating system (deprecated)](../../components/dimensions/mobile-dimensions.md) dimension with the page views metric.
+* Devices: Uses the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Device type: Uses the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Manufacturer: Uses the [Mobile manufacturer](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Screen size: Uses the [Mobile screen size](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Screen height: Uses the [Mobile screen height](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Screen width: Uses the [Mobile screen width](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Cookie support: Uses the [Mobile cookie support](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Image support: Uses the [Mobile image support](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Color depth: Uses the [Mobile color depth](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Audio support: Uses the [Mobile audio support](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Video support: Uses the [Mobile video support](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Operating system (deprecated): Uses the [Mobile operating system (deprecated)](/help/components/dimensions/mobile-dimensions.md) dimension.
 
 ## Paths
 
 Contains reports that allow you to see pathing data for visitors.
 
-* Next page flow: Uses a flow report on the top page dimension value with the path views metric. Path views are similar to [instances](../../components/metrics/instances.md). You can change the reported dimension value. A similar report in Analysis Workspace is available using a [flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Next page: Takes the top page dimension value and shows you the next pages visitors went to with the instances metric.
-* Previous page flow: Uses a flow report on the top page dimension value with the path views metric. A similar report in Analysis Workspace is available using a [flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Previous page: Takes the top page dimension value and shows you the previous pages visitors came from with the instances metric.
-* Fallout: Allows you to select page dimension values in steps, and shows the proportion of people who did and did not follow that path. A similar report in Analysis Workspace is available using a [fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Full paths: Shows individual paths as dimension values with the [visits](../../components/metrics/visits.md) metric.
-* PathFinder: Provides multiple types of reports that let you analyze paths using the path views metric.
-* Path length: Uses the [visit depth](../../components/dimensions/visit-depth.md) dimension with the [visits](../../components/metrics/visits.md) metric.
+* Next page flow: Uses a flow report on the top page dimension value. Path views are similar to [Instances](/help/components/metrics/instances.md). You can change the reported dimension value. A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
+* Next page: Takes the top page dimension value and shows you the next pages visitors went to.
+* Previous page flow: Uses a flow report on the top page dimension value A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
+* Previous page: Takes the top page dimension value and shows you the previous pages visitors came from.
+* Fallout: Allows you to select page dimension values in steps, and shows the proportion of people who did and did not follow that path. A similar report in Analysis Workspace is available using a [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Full paths: Shows individual paths as dimension values. Retired in Analysis Workspace; use the [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md) instead.
+* PathFinder: Provides multiple types of reports that let you analyze paths (retired in Analysis Workspace).
+* Path length: Uses the [Visit depth](/help/components/dimensions/visit-depth.md) dimension.
 * Page Analysis
-  * Page summary: Takes the top page dimension value and shows a trended view using the page views metric. Also shows entry points, previous pages, exit points, and next pages for that top page dimension value.
-  * Reloads: Uses the page dimension with the [reloads](../../components/metrics/reloads.md) metric.
-  * Time spent on page: Uses the [time spent on page - bucketed](../../components/dimensions/time-spent-on-page.md) dimension with the instances metric.
-  * Clicks to page: Takes the top page dimension value and shows the number of clicks it took to get to that page in a given visit. Uses the visits metric.
+  * Page summary: Takes the top page dimension value and shows a trended view. Also shows entry points, previous pages, exit points, and next pages for that top page dimension value.
+  * Reloads: Uses the [Page](/help/components/dimensions/page.md) dimension with the [Reloads](/help/components/metrics/reloads.md) metric.
+  * Time spent on page: Uses the [Time spent on page - bucketed](/help/components/dimensions/time-spent-on-page.md) dimension.
+  * Clicks to page: Takes the top page dimension value and shows the number of clicks it took to get to that page in a given visit.
 * Entries and exits
-  * Entry pages: Uses the [entry pages](../../components/dimensions/entry-dimensions.md) dimension with the page views metric.
-  * Original entry pages: Uses the entry page original dimension with the page views metric.
-  * Single page visits: Uses the page dimension with the visits metric. It acts similar to a report using the default single page visits segment.
-  * Exit pages: Uses the [exit pages](../../components/dimensions/exit-dimensions.md) dimension with the page views metric.
+  * Entry pages: Uses the [Entry pages](/help/components/dimensions/entry-dimensions.md) dimension.
+  * Original entry pages: Uses the [Entry page original](/help/components/dimensions/entry-dimensions.md) dimension.
+  * Single page visits: Uses the [Page](/help/components/dimensions/page.md) dimension with the Adobe-provided 'Single page visits' segment applied.
+  * Exit pages: Uses the [Exit pages](/help/components/dimensions/exit-dimensions.md) dimension.
 
-> [!NOTE] Other reports can appear in this folder. They are other dimensions, such as props, where you have enabled pathing under report suite settings.
+> [!NOTE] Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](../../admin/admin/c-traffic-variables/traffic-var.md) under report suite settings.
 
 ## Traffic sources
 
-Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [internal URL filters](../../admin/admin/internal-url-filter-admin.md) under report suite settings.
+Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [Internal URL filters](../../admin/admin/internal-url-filter-admin.md) under report suite settings.
 
-* Search keywords - all: Uses the [search keyword](../../components/dimensions/search-keyword.md) dimension with the page views metric.
-* Search keywords - paid: Uses the [search keyword - paid](../../components/dimensions/search-keyword.md) dimension with the page views metric.
-* Search keywords - natural: Uses the [search keyword - natural](../../components/dimensions/search-keyword.md) dimension with the page views metric
-* Search engines - all: Uses the [search engine](../../components/dimensions/search-engine.md) dimension with the page views metric.
-* Search engines - paid: Uses the [search engine - paid](../../components/dimensions/search-engine.md) dimension with the page views metric.
-* Search engines - natural: Uses the [search engine - natural](../../components/dimensions/search-engine.md) dimension with the page views metric.
-* All search page ranking: Uses the [all search page rank](../../components/dimensions/all-search-page-rank.md) dimension with the page views metric.
-* Referring domains: Uses the [referring domain](../../components/dimensions/referring-domain.md) dimension with the page views metric
-* Original referring domains: Uses the [original referring domain](../../components/dimensions/original-referring-domain.md) dimension with the page views metric
-* Referrers: Uses the [referrer](../../components/dimensions/referrer.md) dimension with the page views metric.
-* Referrer types: Uses the [referrer type](../../components/dimensions/referrer-type.md) dimension with the page views metric.
+* Search keywords - all: Uses the [Search keyword](/help/components/dimensions/search-keyword.md) dimension.
+* Search keywords - paid: Uses the [Search keyword - paid](/help/components/dimensions/search-keyword.md) dimension.
+* Search keywords - natural: Uses the [Search keyword - natural](/help/components/dimensions/search-keyword.md) dimension
+* Search engines - all: Uses the [Search engine](/help/components/dimensions/search-engine.md) dimension.
+* Search engines - paid: Uses the [Search engine - paid](/help/components/dimensions/search-engine.md) dimension.
+* Search engines - natural: Uses the [Search engine - natural](/help/components/dimensions/search-engine.md) dimension.
+* All search page ranking: Uses the [All search page rank](/help/components/dimensions/all-search-page-rank.md) dimension.
+* Referring domains: Uses the [Referring domain](/help/components/dimensions/referring-domain.md) dimension
+* Original referring domains: Uses the [Original referring domain](/help/components/dimensions/original-referring-domain.md) dimension
+* Referrers: Uses the [Referrer](/help/components/dimensions/referrer.md) dimension.
+* Referrer types: Uses the [Referrer type](/help/components/dimensions/referrer-type.md) dimension.
 
 ## Campaigns
 
-Contains reports primarily around the [tracking code](../../components/dimensions/tracking-code.md) dimension.
+Contains reports primarily around the [Tracking code](/help/components/dimensions/tracking-code.md) dimension.
 
-* Campaign conversion funnel: Reports click-throughs, checkouts, orders, and revenue in a funnel report. The click-throughs metric is similar to the [instances](../../components/metrics/instances.md) metric in context of the [tracking code](../../components/dimensions/tracking-code.md) dimension. A similar visualization is achieved in Analysis Workspace using the [fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Tracking code: Uses the [tracking code](../../components/dimensions/tracking-code.md) dimension with the [page views](../../components/metrics/page-views.md) metric.
+* Campaign conversion funnel: Reports click-throughs, [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), and [Revenue](/help/components/metrics/revenue.md) in a funnel report. The click-throughs metric is similar to the [Instances](/help/components/metrics/instances.md) metric in context of the [Tracking code](/help/components/dimensions/tracking-code.md) dimension. A similar visualization is achieved in Analysis Workspace using the [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Tracking code: Uses the [Tracking code](/help/components/dimensions/tracking-code.md) dimension.
 
 ## Products
 
-Contains reports around the [product](dimensions/../../../components/dimensions/product.md) dimension.
+Contains reports primarily around the [Product](dimensions/..//help/components/dimensions/product.md) dimension.
 
-* Products conversion funnel: Reports [product views](../../components/metrics/product-views.md), [cart additions](../../components/metrics/cart-additions.md), [checkouts](../../components/metrics/checkouts.md), [orders](../../components/metrics/orders.md), [units](../../components/metrics/units.md), and [revenue](../../components/metrics/revenue.md) in a funnel report. A similar visualization is achieved in Analysis Workspace using the [fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Products: Uses the [products](../../components/dimensions/product.md) dimension with the [revenue](../../components/metrics/revenue.md) and [visits](../../components/metrics/visits.md) metrics.
-* Cross sell: Shows products commonly sold together with the [revenue](../../components/metrics/revenue.md) and [visits](../../components/metrics/visits.md) metrics.
-* Categories: Shows the [category](../../components/dimensions/category.md) dimension with the [revenue](../../components/metrics/revenue.md) and [visits](../../components/metrics/visits.md) metrics.
+* Products conversion funnel: Reports [Product views](/help/components/metrics/product-views.md), [Cart additions](/help/components/metrics/cart-additions.md), [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), [Units](/help/components/metrics/units.md), and [Revenue](/help/components/metrics/revenue.md) in a funnel report. A similar visualization is achieved in Analysis Workspace using the [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Products: Uses the [Products](/help/components/dimensions/product.md) dimension.
+* Cross sell: Shows products commonly sold together (retired in Analysis Workspace).
+* Categories: Uses the [Category](/help/components/dimensions/category.md) dimension.
 
 ## Visitor retention
 
 Contains reports around visitors that return to your site.
 
-* Return frequency: Uses the [return frequency](../../components/dimensions/return-frequency.md) dimension with the [page views](../../components/metrics/page-views.md) metric.
-* Return visits: Trends the [visits](../../components/metrics/visits.md) metric over time with the Adobe-provided return visits segment applied.
-* Visit number: 
-* Sales cycle
-  * Customer loyalty:
-  * Days before first purchase
-  * Days since last purchase
-  * Daily unique customers
-  * Weekly unique customers
-  * Monthly unique customers
-  * Quarterly unique customers
-  * Yearly unique customers
+* Return frequency: Uses the [Return frequency](/help/components/dimensions/return-frequency.md) dimension.
+* Return visits: Trends the [Visits](/help/components/metrics/visits.md) metric over time with the Adobe-provided 'Return visits' segment applied.
+* Visit number: Uses the [Visit number](/help/components/dimensions/visit-number.md) dimension.
+* Sales cycle: Folder for purchase-related reports.
+  * Customer loyalty: Uses the [Customer loyalty](/help/components/dimensions/customer-loyalty.md) dimension.
+  * Days before first purchase: Uses the [Days before first purchase](/help/components/dimensions/days-before-first-purchase.md) dimension.
+  * Days since last purchase: Uses the [Days since last purchase](/help/components/dimensions/days-since-last-purchase.md) dimension.
+  * Daily unique customers: Trends [Daily unique visitors](/help/components/metrics/unique-visitors.md) over time with the Adobe-provided 'purchasers' segment applied.
+  * Weekly unique customers: Trends [Weekly unique visitors](/help/components/metrics/unique-visitors.md) over time with the Adobe-provided 'purchasers' segment applied.
+  * Monthly unique customers: Trends [Monthly unique visitors](/help/components/metrics/unique-visitors.md) over time with the Adobe-provided 'purchasers' segment applied.
+  * Quarterly unique customers: Trends [Quarterly unique visitors](/help/components/metrics/unique-visitors.md) over time with the Adobe-provided 'purchasers' segment applied. Quarters are January-March, April-June, July-September, and October-December.
+  * Yearly unique customers: Trends [Yearly unique visitors](/help/components/metrics/unique-visitors.md) over time with the Adobe-provided 'purchasers' segment applied.
 
 ## Visitor profile
+
+Contains reports about who visits your site.
+
+* Geosegmentation: Reports about where on the globe hits to your site came from.
+  * Countries: Uses the [Countries](/help/components/dimensions/countries.md) dimension.
+  * Region: Uses the [Regions](/help/components/dimensions/regions.md) dimension.
+  * Cities: Uses the [Cities](/help/components/dimensions/cities.md) dimension.
+  * US states: Uses the [US states](/help/components/dimensions/us-states.md) dimension.
+  * US DMA: Uses the [US DMA](/help/components/dimensions/us-dma.md) dimension.
+* Languages: Uses the [Language](/help/components/dimensions/language.md) dimension.
+* Time zones: Uses the time zone dimension (retired in Analysis Workspace). Dimension values are the GMT offset of the hit.
+* Domain: Uses the [Domain](/help/components/dimensions/domain.md) dimension.
+* Top level domain: Uses the top level domain dimension (retired in Analysis Workspace). It groups the [domains](/help/components/dimensions/domain.md) dimension into higher-level categories, typically by country of the domain.
+* Technology: Folder containing reports around what the visitor used to access your site.
+  * Browsers: Uses the [Browsers](/help/components/dimensions/browser.md) dimension.
+  * Browser type: Uses the [Browser type](/help/components/dimensions/browser-type.md) dimension.
+  * Browser width: Uses the [Browser width](/help/components/dimensions/browser-width.md) dimension.
+  * Browser height: Uses the [Browser height](/help/components/dimensions/browser-height.md) dimension.
+  * Operating system: Uses the [Operating systems](/help/components/dimensions/operating-systems.md) dimension.
+  * Operating system type: Uses the [Operating system types](/help/components/dimensions/operating-system-types.md) dimension.
+  * Monitor color depth: Uses the [Color depth](/help/components/dimensions/color-depth.md) dimension.
+  * Monitor resolution: Uses the [Monitor resolution](/help/components/dimensions/monitor-resolution.md) dimension.
+  * Java: Uses the [Java enabled](/help/components/dimensions/java-enabled.md) dimension.
+  * JavaScript: Uses the JavaScript enabled dimension (retired in Analysis Workspace). Dimension values are 'Enabled', 'Disabled', or 'Unknown', depending on if the browser has JavaScript enabled.
+  * JavaScript version: uses the JavaScript version dimension (retired in Analysis Workspace). Dimension values show the version of JavaScript that the browser uses.
+  * Cookies: Uses the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.
+  * Connection types: Uses the [Connection type](/help/components/dimensions/connection-type.md) dimension.
+  * Mobile carrier: Uses the [Mobile carrier](/help/components/dimensions/mobile-dimensions.md) dimension.
+* Visitor state: Uses the State dimension (retired in Analysis Workspace). Dimension values originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Visitor ZIP/postal code: Uses the [Zip code](/help/components/dimensions/zip-code.md) dimension.
+
+## Custom conversion
+
+Contains reports specific to your implementation. Custom conversion reports use [eVars](/help/components/dimensions/evar.md) as the dimension.
+
+## Custom traffic
+
+Contains reports specific to your implementation. Custom traffic reports use [props](/help/components/dimensions/prop.md) as the dimension.
+
+## Marketing channels
+
+Contains reports involving [Marketing channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+
+* Channel overview report: A custom report specific to Reports & Analytics. Uses marketing channels as dimension values, with metrics using first or last touch attribution.
+* First touch channel: Uses the [First touch channel](/help/components/dimensions/first-touch-channel.md) dimension.
+* First touch channel detail: Uses the [First touch channel detail](/help/components/dimensions/first-touch-detail.md) dimension.
+* Last touch channel: Uses the [Last touch channel](/help/components/dimensions/last-touch-channel.md) dimension.
+* Last touch channel detail: Uses the [Last touch channel detail](/help/components/dimensions/last-touch-detail.md) dimension.
+
+## Bookmarks
+
+Contains reports that you bookmarked. See [Bookmarks](bookmarks.md) for more information.
+
+## Dashboards
+
+Contains dashboards that you created. See [Dashboards](dashboard.md) for more information.
+
+## Targets
+
+Contains targets that you created. See [Targets](targets.md) for more information.
+
+> [!NOTE] If you can't find your report on this help page, it is possible that your administrator renamed or adjusted folders. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.

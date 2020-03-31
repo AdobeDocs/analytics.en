@@ -1,7 +1,6 @@
 ---
-description: null
+description: Workspace FAQs
 title: Frequently asked questions
-uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
 ---
 
 # Frequently asked questions
@@ -16,7 +15,7 @@ uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>What are the Administration and access requirements for Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Administration Requirements</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md"  > Administration Requirements</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How many report suites can be displayed in an Analysis Workspace project? </p> </td> 
@@ -24,7 +23,7 @@ uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
   </tr> 
   <tr> 
    <td colname="col1"> <p>How do you implement Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>No special implementation is required. Analysis Workspace is available to all companies with Analytics Standard or Premium. However, standard permissions to content (such as report suites and project components) apply, and for curating and sharing projects. See <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  > Administration and Access Requirements</a>. </p> </td> 
+   <td colname="col2"> <p>No special implementation is required. Analysis Workspace is available to all companies with Analytics Standard or Premium. However, standard permissions to content (such as report suites and project components) apply, and for curating and sharing projects. See <a href="/help/analyze/analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md"  > Administration and Access Requirements</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Does Analysis Workspace change pre-configured reports in Adobe Analytics? </p> </td> 
@@ -36,11 +35,11 @@ uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
   </tr>
   <tr> 
    <td colname="col1"> <p>How can I optimize performance of Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/optimizing-performance.md"  > Optimizing Performance</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md"  > Optimizing Performance</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How do Analysis Workspace capabilities compare to Ad Hoc Analysis? </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

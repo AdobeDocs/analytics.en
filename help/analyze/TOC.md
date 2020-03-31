@@ -9,7 +9,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
 
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
-  + [Analysis Workspace help](analysis-workspace/home.md)
   + [Analysis Workspace features](analysis-workspace/analysis-workspace-features.md)
   + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -91,11 +90,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
-  + [Frequently asked questions](analysis-workspace/faq.md)
-  + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-  + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
-  + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-  + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
@@ -114,6 +108,13 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+  + Workspace FAQs
+    + [Frequently asked questions](analysis-workspace/faq.md)
+    + [Analysis Workspace help](analysis-workspace/home.md)
+    + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
+    + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+    + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
+    + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

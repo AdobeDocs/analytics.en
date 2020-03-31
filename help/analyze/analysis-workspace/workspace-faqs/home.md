@@ -93,9 +93,8 @@ There are a lot of directions to go to deepen your understanding of Analysis Wor
 * Sharing projects in Workspace: Show your colleague the awesome Workspace project you created.
 * [(Advanced) Panels in Workspace](c-panels/panels.md): Use advanced features in Workspace, such as Attribution and Segment Comparison.
 
-### For analysts and admins looking to improve the quality of workspace in their organization
+### For analysts and admins looking to improve the quality of Workspace in their organization
 
 * [Analysis Workspace permissions](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Assign users permissions to Workspace via the Adobe Admin Console.
-* [Create a solution design document](/help/implement/prepare/solution-design.md): Start planning how your organization collects additional dimensions or metrics specific to your site.
 * [Templates in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Create templates so your colleagues can start with a project space tailored to their needs.
 * [Workspace curation](curate-share/curate.md): Create a project that limits available components, making workspace more accessible to those less familiar with the tool

@@ -1,48 +1,66 @@
 ---
-description: Provides comprehensive, accurate, and detailed analysis of customer activity. Metrics such as campaign management, sales cycle, customer fallout, and customer conversion let you measure e-commerce transactions, sources of sales, advertising effectiveness, customer loyalty, and more.
-title: Conversion
-topic: Reports
-uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
+title: eVar
+description: A custom dimension you can use in reporting.
 ---
 
-# Conversion
+# eVar
 
-Provides comprehensive, accurate, and detailed analysis of customer activity. Metrics such as campaign management, sales cycle, customer fallout, and customer conversion let you measure e-commerce transactions, sources of sales, advertising effectiveness, customer loyalty, and more.
+*This help page describes how eVars work as a dimension. For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
-For example, if you want to see what type of internal campaigns on your home page might result in purchases, you first must capture the internal tracking codes and set persistence to a period of one visit for the *`s.eVar`* that captures internal campaigns. When a success event is completed (like purchase), the credit for that success is given to any Conversion Variables that are persistent on the visitor, such as Internal Campaign ID. By running the [!UICONTROL Internal Campaign Report], you can see which campaign generated the most onsite conversion.
+eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in report suite settings.
 
-Some out-of-the-box reports contain both Traffic and Conversion metrics (such as the [!UICONTROL Search Engine] reports). However, [!UICONTROL Traffic] and [!UICONTROL Conversion] reports are unique to your organization and are displayed in the **[!UICONTROL Traffic]** and **[!UICONTROL Conversion]** menus.
+## How eVars work
 
-**Report Properties**
+When you send data to Adobe Analytics, data collection servers translate the hit into a single row of data with hundreds of columns. Two columns are dedicated to each eVar; one for direct data collection, and the other for persisting values.
 
-* [!UICONTROL Custom Conversion] reports are based on eVars (conversion variables).
-* Conversion variables can persist beyond the page view and be associated with metrics within its specified expiration.
-* The reports' default metrics are revenue. To change default metrics, see [Selecting Default Report Metrics](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
-* View these reports in both trended and ranked formats.
-* You can use Classifications in these reports, to rename and consolidate line items.
-* These reports can be broken down by the following if basic subrelations are enabled:
+* A standard column contains data sent to Adobe from the image request.
+* A "post" column contains persistent data, which depends on the eVar's expiration and allocation.
 
-    * Campaigns and Products, with all related classifications 
-    * Customer Loyalty 
-    * All fully-subrelated eVars
+Under almost all circumstances, the `post_evar` column is used in reports.
 
-* Additional reports are available to break down when full subrelations are enabled:
+### How eVars tie to metrics
 
-    * Time Spent per Visit 
-    * Pages and Site Sections, with all related classifications 
-    * Entry Pages 
-    * Almost all Traffic Sources reports 
-    * Visit Number 
-    * Many Visitor Profile and Technology reports 
-    * All other eVars 
-    * Marketing Channels First and Last Touch
+Success events and eVars are frequently defined in different image requests. The `post_evar` column allows eVar values to tie themselves to events, showing data in reporting. Take the following visit for example:
 
-* The following events can be used as metrics:
+1. A visitor arrives to your site on your home page.
+2. They search for "cats" using your site's internal search. Your implementation sets eVar1 to internal search.
+3. They view a product, and proceed through the checkout process.
 
-    * Instances, the number of times the eVar was defined 
-    * All standard eCommerce metrics: Revenue, Orders, Units, Carts, Cart Views, Checkouts, Cart Additions, Cart Removals.
-    * All custom events: Events 1-80, and Events 81-100 if on H22 code or higher 
-    * Visits and Visitors: Available depending on organization and report suite. Contact your Account Manager for additional details
+A simplified version of the raw data would look similar to the following:
 
-* The location of each [!UICONTROL Custom Conversion] report varies depending on the eVar's numeric assigned value. Generally, they can be found under the [!UICONTROL Custom Conversion] folder (provided the menu is not customized).
+| `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
+| --- | --- | --- | --- | --- |
+| `examplevisitor_987` | `Home page` | | | |
+| `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
+* The `visitor_id` column ties hits to the same visitor. In actual raw data, the concatenated values of `visid_high` and `visid_low` determine visitor ID.
+* The `pagename` column populates the Pages dimension.
+* The `evar` column determines the hits when eVar1 was explicitly set.
+* The `post_evar1` carries the previous value, dependent on the variable's allocation and expiration set under report suite settings.
+* The `event_list` column contains all metric data. For this example, `event1` is 'Searches', and the other events are standard shopping cart metrics. In actual raw data, `event_list` contains a comma-delimited set of numbers with a lookup table tying those numbers to a metric.
+
+### Translating data collection to reporting
+
+Tools in Adobe Analytics, such as Analysis Workspace, work off of this collected data. For example, if you pulled a report using eVar1 as the dimension and Orders as the metric, you would see a report similar to the following:
+
+| `Internal search term (eVar1)` | `Orders` |
+| --- | --- |
+| `cats` | `1` |
+
+Analysis Workspace pulls this report using the following logic:
+
+* Look through all `event_list` values, and pick out all the hits with `purchase` in them.
+* Out of those hits, display the `post_evar1` value.
+
+### The importance of allocation and expiration
+
+Since allocation and expiration determine what values persist, they are vital in getting the most value out of an analytics implementation. Adobe highly recommends that you discuss within your organization how multiple values for each eVar are handled (allocation) and when eVars stop persisting data (expiration).
+
+* By default, an eVar uses last allocation. New values overwrite persisted values.
+* By default, an eVar uses an expiration of visit. Once a visit ends, values stop copying over from row to row in the `post_evar` column.
+
+You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in report suite settings.

@@ -5,6 +5,8 @@ description: Custom variables you can use in your implementation.
 
 # eVar
 
+*This help page describes how to implement eVars. For information on how eVars work as a dimension, see [eVars](../../../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.*
+
 eVars are custom variables that you can use however you'd like.
 
 > [!TIP] Adobe recommends using eVars over props in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.

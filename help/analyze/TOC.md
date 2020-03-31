@@ -10,6 +10,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace features](analysis-workspace/analysis-workspace-features.md)
+  + [Analysis Workspace help](analysis-workspace/home.md)
   + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build a Workspace project {#build-workspace-project}
@@ -109,8 +110,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
   + Workspace FAQs {#workspace-faq}
-    + [Frequently asked questions](/analysis-workspace/workspace-faqs/faq.md)
-    + [Analysis Workspace help](analysis-workspace/workspace-faqs/home.md)
+    + [Frequently asked questions](analysis-workspace/workspace-faqs/faq.md)
     + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faqs/optimizing-performance.md)
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
     + [Analysis Workspace limitations](analysis-workspace/workspace-faqs/aw-limitations.md)

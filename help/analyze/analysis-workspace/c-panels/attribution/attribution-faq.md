@@ -7,7 +7,7 @@ description: Get answers to commonly asked questions around attribution.
 
 **What is the "None" line item when using attribution?**
 
-The 'None' line item is a catch-all that represents all conversions that happened without any touch points within the lookback window. Try including a longer time range in your reporting window.
+The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. Try including a longer time range in your reporting window.
 
 **Why do I sometimes see dates outside of my reporting window when using attribution models?**
 

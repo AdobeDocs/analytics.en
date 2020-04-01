@@ -47,6 +47,7 @@ In many cases, the easiest way to deploy the integration configuration object is
    ```
 
 1. Deploy the code using one of the following methods:
+
    | **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. |
    |---|---|
    | **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |

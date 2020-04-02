@@ -166,8 +166,8 @@ Contains reports about who visits your site.
 * Technology: Folder containing reports around what the visitor used to access your site.
   * Browsers: Uses the [Browsers](/help/components/dimensions/browser.md) dimension.
   * Browser type: Uses the [Browser type](/help/components/dimensions/browser-type.md) dimension.
-  * Browser width: Uses the [Browser width](/help/components/dimensions/browser-width.md) dimension.
-  * Browser height: Uses the [Browser height](/help/components/dimensions/browser-height.md) dimension.
+  * Browser width: Uses the [Browser width - bucketed](/help/components/dimensions/browser-width.md) dimension.
+  * Browser height: Uses the [Browser height - bucketed](/help/components/dimensions/browser-height.md) dimension.
   * Operating system: Uses the [Operating systems](/help/components/dimensions/operating-systems.md) dimension.
   * Operating system type: Uses the [Operating system types](/help/components/dimensions/operating-system-types.md) dimension.
   * Monitor color depth: Uses the [Color depth](/help/components/dimensions/color-depth.md) dimension.

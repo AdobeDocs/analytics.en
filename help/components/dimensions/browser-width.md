@@ -19,6 +19,8 @@ Browser width is always smaller than screen width, since browser width doesn't i
 
 This dimension retrieves data from the [`bw` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerWidth` in the browser. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bw` query string parameter on each hit.
 
+Adobe persists browser width for a visit. If browser width is adjusted mid-visit, the adjustment is not recorded.
+
 ## Dimension values
 
 Dimension values include all collected browser widths, classified into groups of 100 pixels. For example, if the browser width of a hit is `1280`, then it is grouped in the dimension value `1200 to 1299`.

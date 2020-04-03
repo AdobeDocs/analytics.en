@@ -110,11 +110,11 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
   + Workspace FAQs {#workspace-faq}
-    + [Frequently asked questions](analysis-workspace/workspace-faqs/faq.md)
-    + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faqs/optimizing-performance.md)
-    + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
-    + [Analysis Workspace limitations](analysis-workspace/workspace-faqs/aw-limitations.md)
-    + [Administration requirements](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
+    + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)
+    + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faq/optimizing-performance.md)
+    + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+    + [Analysis Workspace limitations](analysis-workspace/workspace-faq/aw-limitations.md)
+    + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

@@ -12,7 +12,7 @@ Adobe Analytics provides a flexible reporting interface that lets you generate a
 
 >[!Note]
 >These recommendations apply to Reports & Analytics, Ad Hoc Analysis, and Report Builder.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). They also do not >apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). An additional set of 
+>They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). They also do not >apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). An additional set of 
 >[best practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) is available for the Adobe Analytics Reporting API.
 
 ## Report Timeouts and Request Queue {#section_A42AD7E487C749B7B879BAFA814FFEF9}

@@ -12,7 +12,7 @@ Using a browser's session storage for link tracking comes with several limitatio
 * Session storage does not work between protocols. For example, you have one page served over HTTP and the next page served over HTTPS. AppMeasurement cannot access link tracking data in session storage because of protocol differences.
 * Session storage does not work across subdomains. For example, a visitor navigates to `store.example.com`, then navigates to `toys.example.com`. AppMeasurement cannot access link tracking data in session storage because of different subdomains.
 
-> [!TIP] The most reliable implementation using session storage for link tracking serves all content through HTTPS on a single subdomain.
+>[!TIP] The most reliable implementation using session storage for link tracking serves all content through HTTPS on a single subdomain.
 
 AppMeasurement removes session storage link tracking data after sending a hit to Adobe. It also automatically expires when the browser tab is closed.
 

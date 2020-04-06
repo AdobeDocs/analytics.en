@@ -15,7 +15,7 @@ Data Warehouse automatically zips any file that exceeds 1 MB in size. The maximu
 
 Data Warehouse can process an unlimited number of rows in a single request for individual scheduled and downloaded reports.
 
-> [!NOTE] Data Warehouse reports the first value encountered in the reporting period.
+>[!NOTE] Data Warehouse reports the first value encountered in the reporting period.
 
 >[!IMPORTANT]
 >

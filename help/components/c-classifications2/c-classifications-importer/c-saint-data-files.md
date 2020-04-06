@@ -94,7 +94,7 @@ A data file must adhere to the following structure rules:
 
 ## Column heading format
 
-> [!NOTE] Adobe recommends that you limit the number of import and export columns to 30.
+>[!NOTE] Adobe recommends that you limit the number of import and export columns to 30.
 
 Classification files support the following column headings:
 
@@ -106,7 +106,7 @@ Each value must be unique across the entire system. The value in this field corr
 
 For example, reports and analytics automatically include two classifications for [!UICONTROL Campaign] variables: [!UICONTROL Campaigns] and [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
-> [!NOTE] The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match.
+>[!NOTE] The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match.
 
 Additionally, the data file supports the following additional heading conventions to identify sub-classifications and other specialized data columns:
 
@@ -156,7 +156,7 @@ Campaigns dates are typically ranges (start and end dates) associated with indiv
 
 For more information, see [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
 
-> [!NOTE] In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
+>[!NOTE] In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
 
 ## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
@@ -186,7 +186,7 @@ To classify campaigns based on date range:
 
 1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
 
-> [!NOTE] A specific key value cannot have more than one date range.
+>[!NOTE] A specific key value cannot have more than one date range.
 
 ## Troubleshooting classifications
 

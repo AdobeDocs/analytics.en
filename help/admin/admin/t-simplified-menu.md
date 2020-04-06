@@ -13,7 +13,7 @@ The simplified Adobe Reports & Analytics menu lets you choose to apply an altern
 
 ![](assets/simplified-menu.png)
 
-> [!NOTE] Be aware that applying the simplified menu removes all customization you may have made to the default menu structure. It also implements the simplified menu structure for all marketing reports and analytics users in your organization. Think carefully about the ramifications (such as training developed around your existing menu structure) before implementing this new menu, as you cannot revert to any customization in your existing menu structure.
+>[!NOTE] Be aware that applying the simplified menu removes all customization you may have made to the default menu structure. It also implements the simplified menu structure for all marketing reports and analytics users in your organization. Think carefully about the ramifications (such as training developed around your existing menu structure) before implementing this new menu, as you cannot revert to any customization in your existing menu structure.
 
 1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to open the Report Suite Manager.
 1. Select the report suite for which you want to implement the simplified menu structure.

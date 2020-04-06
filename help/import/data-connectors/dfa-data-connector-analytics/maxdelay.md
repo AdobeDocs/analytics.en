@@ -27,4 +27,4 @@ s.maxDelay = 750;
 * Decreasing wait time lowers the risk of losing Analytics hit data, but can reduce the amount of DFA data sent with hit data.
 * Losing DFA integration data happens when the `s.maxDelay` period does not accommodate enough time for the DFA host to respond.
 
-> [!NOTE] Adobe does not have control over DFA's response time. If you see consistent issues even after raising the max delay period to a reasonable time frame, consult your organization's DFA account administrator.
+>[!NOTE] Adobe does not have control over DFA's response time. If you see consistent issues even after raising the max delay period to a reasonable time frame, consult your organization's DFA account administrator.

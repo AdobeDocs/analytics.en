@@ -7,7 +7,7 @@ description: Manually set the online state of AppMeasurement.
 
 The `forceOffline()` method lets you override the automatically detected state of AppMeasurement.
 
-> [!IMPORTANT] Only use this function when [`trackOffline`](../config-vars/trackoffline.md) is enabled. Using this function outside of offline tracking can cause data loss.
+>[!IMPORTANT] Only use this function when [`trackOffline`](../config-vars/trackoffline.md) is enabled. Using this function outside of offline tracking can cause data loss.
 
 AppMeasurement automatically detects the online state of the device. You can use the `forceOffline()` method to force AppMeasurement to treat hits as if the device was offline. This method does not take any arguments, and does not return any value. Its only purpose is to override the online state in AppMeasurement.
 

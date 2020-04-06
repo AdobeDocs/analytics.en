@@ -7,7 +7,7 @@ description: Implement hierarchy variables in Adobe Analytics.
 
 Hierarchy variables are custom variables that let you see a site's structure.
 
-> [!TIP] This variable was more common in previous versions of Adobe Analytics. Adobe recommends using [eVars](evar.md) and classifications instead.
+>[!TIP] This variable was more common in previous versions of Adobe Analytics. Adobe recommends using [eVars](evar.md) and classifications instead.
 
 This variable is useful for sites that have more than three levels in their site structure. For example, a media site can have 4 levels to the Sports section: `Sports`, `Local Sports`, `Baseball`, and `Team name`. If someone visits the Baseball page, Sports, Local Sports, and Baseball, all levels reflect that visit.
 

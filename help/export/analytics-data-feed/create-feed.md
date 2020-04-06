@@ -55,7 +55,7 @@ The following 11 standard AWS regions are supported (using the appropriate signa
 * eu-west-1
 * sa-east-1
 
-> [!NOTE] The cn-north-1 region is not supported.
+>[!NOTE] The cn-north-1 region is not supported.
 
 ### Azure Blob
 
@@ -63,7 +63,7 @@ Data feeds support Azure Blob destinations. Requires a container, account, and a
 
 ![Azure info](assets/azure.png)
 
-> [!NOTE] You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+>[!NOTE] You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
 
 ## Data column definitions
 

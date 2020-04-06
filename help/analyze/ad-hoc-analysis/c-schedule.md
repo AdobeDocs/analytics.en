@@ -13,7 +13,7 @@ You can customize the delivery schedule for reports. You can stop the delivery a
 
 You can customize the delivery schedule for reports. You can stop the delivery at a certain time, or specify the number of times you want to send a report. New schedules use the date range defined in the report. For example, if you create a report for the last 90 days and schedule it to run daily, you receive a report for the last 90 days each day. If you create a report with a static date range from the calendar, you'll see the same report each time it is sent.
 
-> [!NOTE] When a user account is disabled, any scheduled report deliveries created by that user are suspended.
+>[!NOTE] When a user account is disabled, any scheduled report deliveries created by that user are suspended.
 
 To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to create fixed dimension lists in breakdowns.
 

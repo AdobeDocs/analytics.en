@@ -13,7 +13,7 @@ If link tracking information is not in URLs on your site, using this variable is
 
 Enabling `linkLeaveQueryString` applies to all link tracking dimensions (including custom links, exit links, and download links).
 
-> [!TIP] This variable does not affect dimensions outside of link tracking. It only affects custom links, exit links, and download links.
+>[!TIP] This variable does not affect dimensions outside of link tracking. It only affects custom links, exit links, and download links.
 
 ## Keep URL Parameters in Adobe Experience Platform Launch
 

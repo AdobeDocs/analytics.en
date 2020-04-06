@@ -33,7 +33,7 @@ The Reports menu provides an enhanced search experience. Click **[!UICONTROL Vie
 
 Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report.
 
-> [!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
+>[!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
 
 ## Navigation Overview {#section_A6A0A369207149BABE504753B48A42D7}
 

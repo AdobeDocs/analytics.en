@@ -15,7 +15,7 @@ Report Builder features a segmentation panel in Step 1 of the Request Wizard tha
 
 ## Add or edit segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
-> [!NOTE] To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
+>[!NOTE] To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -54,7 +54,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
 1. Check which segment(s) you want to apply.
 
-> [!NOTE] Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you. (In the Marketing Reports & Analytics user interface, the Admin can see all segments in the organization.)
+>[!NOTE] Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you. (In the Marketing Reports & Analytics user interface, the Admin can see all segments in the organization.)
 
 ## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
 

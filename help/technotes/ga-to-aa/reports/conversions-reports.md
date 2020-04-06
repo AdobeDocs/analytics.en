@@ -41,7 +41,7 @@ Both ecommerce reports in Google Analytics and product reports in Adobe Analytic
 
 Multi-channel funnel reports provide additional marketing channel data beyond what acquisition reports provide. These reports focus on how visitors convert, instead of how visitors arrive to your site.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The use of multi-channel reports in Adobe Analytics requires both the setup of Marketing Channels and a custom implementation to accommodate the products variable and purchase event. Adobe recommends working with an implementation consultant if these features are not yet configured for your report suite.
 

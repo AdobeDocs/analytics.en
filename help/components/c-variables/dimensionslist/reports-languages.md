@@ -19,5 +19,5 @@ If a browser does not have a language specified, or if the browser returns a lan
 
 Some line items in this report include regions. These are region subtags.
 
-> [!NOTE] The Hourly time granularity is not supported.
+>[!NOTE] The Hourly time granularity is not supported.
 

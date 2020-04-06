@@ -62,5 +62,5 @@ Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**)
 * **Disabled**: You do not have the new server-side forwarding turned on. Read the content on the page and then proceed with enabling the feature.
 * **Enabled**: You are provisioned for new server-side forwarding. You are also able to set up this Audience Analytics integration.
 
-> [!NOTE] Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
+>[!NOTE] Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
 

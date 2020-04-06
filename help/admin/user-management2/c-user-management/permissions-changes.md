@@ -17,7 +17,7 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 
 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
 
-> [!NOTE] Due to the high number of possible permission combinations available, we cannot provide documentation describing all of the API methods that can be used in every permission combination. Generally, non-administrators who are granted Web Services access will have only Read access to API methods. They will not have Write access to methods.
+>[!NOTE] Due to the high number of possible permission combinations available, we cannot provide documentation describing all of the API methods that can be used in every permission combination. Generally, non-administrators who are granted Web Services access will have only Read access to API methods. They will not have Write access to methods.
 
 Because the API and interface use the same permissioning system, whatever permissions a particular non-administrator has been granted by an administrator in the interface (Adobe Admin Console), will be the same permissions that user has in the API.
 
@@ -119,7 +119,7 @@ Here is important new information about new and planned updates and how they aff
 
 The following table lists tasks and where they can take place (depending on a company's status).
 
-> [!NOTE] A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. If the email invitation is not accepted, users are still Analytics users and cannot be managed in the Admin Console. (The exception is if the migration is using [enterprise or federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). In this case, the user is migrated when the administrator migrates users on a user-by-user basis.)
+>[!NOTE] A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. If the email invitation is not accepted, users are still Analytics users and cannot be managed in the Admin Console. (The exception is if the migration is using [enterprise or federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html). In this case, the user is migrated when the administrator migrates users on a user-by-user basis.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 

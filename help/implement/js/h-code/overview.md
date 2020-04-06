@@ -5,11 +5,11 @@ description: Learn the workflow to implement H Code on your site.
 
 # H Code JavaScript implementation overview
 
-> [!IMPORTANT] This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
+>[!IMPORTANT] This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
 
 You must have access to your hosting servers to successfully implement a page with code to collect data. The following steps walk you through a basic Analytics H Code implementation.
 
-> [!NOTE] You must already have an existing copy of `s_code.js` to follow these instructions. Adobe no longer offers an option to download H Code in the Code Manager.
+>[!NOTE] You must already have an existing copy of `s_code.js` to follow these instructions. Adobe no longer offers an option to download H Code in the Code Manager.
 
 1. **Update core JS file variables**: Edit the `s_code.js` file and make sure the following variables are updated:
    * `s_account` contains the report suite ID that you want to send data to. See

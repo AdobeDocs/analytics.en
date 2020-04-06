@@ -5,13 +5,13 @@ description: Measure the time when a specific action takes place.
 
 # Adobe plug-in: getTimeParting
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getTimeParting` plug-in allows you to capture the details of the time when any measurable activity takes place on your site. This plug-in is valuable when you want to breakdown metrics by any repeatable division of time over a given date range. For example, you can compare conversion rates between two different days of the week, such as all Sundays vs. all Thursdays. You can also compare periods of the day, such as all mornings vs. all evenings.
 
 Analysis Workspace provides similar, out-of-the-box dimensions that are formatted slightly differently than this plug-in. See [time parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in the Analyze user guide for more information. Some organizations find that Analysis Workspace's out-of-the-box dimensions are sufficient.
 
-> [IMPORTANT] Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
+>[IMPORTANT] Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 

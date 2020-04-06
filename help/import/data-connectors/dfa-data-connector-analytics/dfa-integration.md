@@ -134,7 +134,7 @@ To understand when to request view-through and click-through data from DFA data 
 
 The Genesis integration for DFA leverages the DFA Floodlight Configuration ID (dfa_SPOTID), which improves report consistency between DFA and Adobe data collection system.
 
-> [!NOTE] The term Spotlight was changed to Floodlight in a recent release of Google DFA. The JavaScript parameter `dfa_SPOTID` was named based on the Spotlight terminology but is used for both versions.
+>[!NOTE] The term Spotlight was changed to Floodlight in a recent release of Google DFA. The JavaScript parameter `dfa_SPOTID` was named based on the Spotlight terminology but is used for both versions.
 
 To enable the DFA integration on your Web site, you must update your JavaScript data collection code by adding the following:
 

@@ -22,7 +22,7 @@ Admin-level capabilities in the Scheduled Reports Manager include:
 
 On the **[!UICONTROL Report List]** tab, you can **[!UICONTROL Show All Scheduled Reports]** in your organization, in addition to the ones you personally scheduled.
 
-> [!NOTE] The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. As a result, if you schedule multiple reports of the same report type and you specify customized names for each, the Scheduled Reports Manager would display multiple entries with the same Report Name but with different file names. This is because the back end report being scheduled is same, so the Report Name column would have the same report names for all but customized file names (as set).
+>[!NOTE] The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. As a result, if you schedule multiple reports of the same report type and you specify customized names for each, the Scheduled Reports Manager would display multiple entries with the same Report Name but with different file names. This is because the back end report being scheduled is same, so the Report Name column would have the same report names for all but customized file names (as set).
 
 ![](assets/show_all_scheduled_reports.png)
 

@@ -96,9 +96,11 @@ Descriptions of fields used when [editing conversion variables](/help/admin/admi
 There are two ways to expire an eVar:
 
 * You can set the eVar to expire after a specified time period or event.
-* You can use force the expiration of an eVar, which is useful when repurposing a variable.
+* You can use force the expiration of an eVar by resetting it, which is useful when repurposing a variable.
 
-If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Doing so will help keep internal promotion values out of June's reports.
+For example, if you change the expiration of an eVar from 30 to 90 days, eVar values collected will continue to persist for the duration of the new expiration set (in this case, 90 days). The system simply looks at the current expiration setting and the last set timestamp of the eVar value collected to determine expiration. Only the **[!UICONTROL Reset]** option expires values and does so immediately. 
+
+Another example: If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Doing so will help keep internal promotion values out of June's reports.
 
 **Case Sensitivity**
 

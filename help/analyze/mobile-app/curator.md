@@ -195,6 +195,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
         ![Play Store screen](assets/play.png)
 
     2. Tap the **download it on Google Play** link on the following screen:
+
         ![Download link](assets/playnext.png)
 
     3. Download and install the app.

@@ -11,7 +11,7 @@ You can provide custom report descriptions for eVars, props, classifications and
 
  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variable*]**
 
-> [!NOTE] Adding descriptions is available for most traditional classifications, but not currently for mobile classifications.
+>[!NOTE] Adding descriptions is available for most traditional classifications, but not currently for mobile classifications.
 
 ![](assets/report_descriptions.png)
 

@@ -11,11 +11,11 @@ A group of reports based on path analysis. Technically, pathing means to move fr
 
 Use [Analysis Workspace Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) for more flexible pathing options.
 
-> [!NOTE] To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
+>[!NOTE] To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
 
 If you need to know the order in which values are collected, then you need to enable pathing for the variable collecting those values. Pathing is enabled by default for pages. Pathing is not enabled for any props by default, because it is only appropriate in certain cases. Contact Customer Care to enable pathing on a prop.
 
-> [!NOTE] In Ad Hoc Analysis, when you enable classifications on a prop, pathing metrics become available for all the classifications set up for the enabled prop.
+>[!NOTE] In Ad Hoc Analysis, when you enable classifications on a prop, pathing metrics become available for all the classifications set up for the enabled prop.
 
 **Example - Pathing on Site Sections**
 
@@ -43,5 +43,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Then, enable pathing for *`s.prop19`* to see how members path through pages.
 
-> [!NOTE] If you perform ad hoc analysis, you can segment page paths without the need to concatenate segment values, and apply any segment to pathing reports.
+>[!NOTE] If you perform ad hoc analysis, you can segment page paths without the need to concatenate segment values, and apply any segment to pathing reports.
 

@@ -18,5 +18,5 @@ If you selected the JavaScript Plug-In data collection method, copy the followin
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] The plug-in above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plug-in above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
+>[!NOTE] The plug-in above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plug-in above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
 

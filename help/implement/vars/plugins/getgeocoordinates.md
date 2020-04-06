@@ -5,7 +5,7 @@ description: Track a visitor's geoLocation.
 
 # Adobe plug-in: getGeoCoordinates
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getGeoCoordinates` plug-in allows you to capture the latitude and longitude of visitors' devices. Adobe recommends using this plug-in if you want to capture geo-location data in Analytics variables.
 
@@ -55,7 +55,7 @@ The `getGeoCoordinates` method does not use any arguments. It returns one of the
 * `"error retrieving geo coordinates"`: When the plug-in encounters any errors when attempting to retrieve the device's location
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Where [LATITUDE]/[LONGITUDE] are the latitude and longitude, respectively
 
-> [!NOTE] Coordinate values are rounded to the closest fourth decimal. For example, the value of `"40.438635333"` is rounded to `"40.4386"` to limit the number of unique values to be captured. The values are close enough to pinpoint the device's exact location within around 20 feet.
+>[!NOTE] Coordinate values are rounded to the closest fourth decimal. For example, the value of `"40.438635333"` is rounded to `"40.4386"` to limit the number of unique values to be captured. The values are close enough to pinpoint the device's exact location within around 20 feet.
 
 This plug-in uses a cookie named `"s_ggc"` to store coordinates between hits if necessary.
 

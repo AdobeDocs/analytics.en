@@ -19,7 +19,7 @@ Adobe recommends implementing a global report suite in most cases.
 * **More accurate cross-brand attribution:** If a visit starts on one site then clicks to another of your owned sites before triggering a success event, attribution is accurately collected. For exampple, a visitor clicks a paid search link, and lands on site A. They then click a link to site B, then make a purchase. A global report suite correctly attributes that purchase back to paid search. 
 * **Simplified implementation:** Since all brands/sites send data into the same report suite, your implementations across each site are aligned. This enforced governance ensures a specific dimension or metric is saved in the same eVar or event. Administrators, testers, tag management owners, and analysts benefit from this simplification.
 
-> [!NOTE] Coordinating a global report suite implementation is a large project. Adobe recommends working with a consultant to reduce complications and issues that arise.
+>[!NOTE] Coordinating a global report suite implementation is a large project. Adobe recommends working with a consultant to reduce complications and issues that arise.
 
 ## Starting a new implementation with a global report suite
 

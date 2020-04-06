@@ -11,11 +11,11 @@ uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 
 Use this page to learn what data is contained in each column. Most implementations don't use every column, so this page can be referenced when determining which columns to include in a data feed export.
 
-> [!IMPORTANT] For any given column (for instance, one that is defined as 255 characters), a data feed can send additional characters due to the addition of characters escaping values in a string. Keep these potential extra characters in mind if your implementation regularly sends values that exceed character limits.
+>[!IMPORTANT] For any given column (for instance, one that is defined as 255 characters), a data feed can send additional characters due to the addition of characters escaping values in a string. Keep these potential extra characters in mind if your implementation regularly sends values that exceed character limits.
 
 ## Columns, Descriptions, and Data Types
 
-> [!NOTE] Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. See [Data feeds FAQ](../df-faq.md) for more information.
+>[!NOTE] Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. See [Data feeds FAQ](../df-faq.md) for more information.
 
 | Column name | Column description | Data type |
 | --- | --- | --- |

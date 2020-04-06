@@ -7,7 +7,7 @@ description: Help deduplicate metrics on your site.
 
 Event serialization is the process of implementing measures to prevent duplicate events from entering Analytics reporting. De-duplicating events is important in cases where you don't want metrics inflated by visitors refreshing the page.
 
-> [!NOTE] Data Sources does not support event serialization or de-duplication.
+>[!NOTE] Data Sources does not support event serialization or de-duplication.
 
 ## Set up event serialization
 
@@ -19,7 +19,7 @@ When using event IDs, de-duplication happens on the following levels:
 * De-duplication happens globally across all visitors. If visitor A sends `event1:ABC` then visitor B also sends `event1:ABC`, Adobe ignores the second instance from visitor B.
 * De-duplication does not expire. If a visitor sends `event1:ABC` then comes back 2 years later and sends `event1:ABC` again, Adobe ignores the second instance.
 
-> [!TIP] If you want to de-duplicate the [`purchase`](event-purchase.md) event, use the [`purchaseID`](../purchaseid.md) variable instead.
+>[!TIP] If you want to de-duplicate the [`purchase`](event-purchase.md) event, use the [`purchaseID`](../purchaseid.md) variable instead.
 
 ## Use event IDs in Adobe Experience Platform Launch
 

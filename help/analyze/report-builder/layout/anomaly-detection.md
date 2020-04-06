@@ -18,7 +18,7 @@ Examples of anomalies you might investigate include:
 * Spices in video buffer events 
 * Spikes in low video bit-rates
 
-> [!NOTE] Anomaly detection is available only when you select the Day granularity.
+>[!NOTE] Anomaly detection is available only when you select the Day granularity.
 
 <p class="head"> <b>Anomaly Detection Metrics</b> </p>
 

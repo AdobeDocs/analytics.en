@@ -7,7 +7,7 @@ description: Send data around what product(s) are displayed or in the cart.
 
 The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension values.
 
-> [!NOTE] If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the 'Product Views' metric increments by 1. Make sure you set the appropriate shopping cart event on each hit.
+>[!NOTE] If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the 'Product Views' metric increments by 1. Make sure you set the appropriate shopping cart event on each hit.
 
 ## Products in Adobe Experience Platform Launch
 
@@ -43,7 +43,7 @@ This variable supports multiple products in the same hit. It is valuable for sho
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
+>[!IMPORTANT] Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
 
 ## Examples
 

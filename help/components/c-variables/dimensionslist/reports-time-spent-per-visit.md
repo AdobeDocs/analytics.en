@@ -33,6 +33,6 @@ Time spent per visit measures the total elapsed time in a visit. Separate dimens
   * 10-15 hours
   * 15+ hours
 
-> [!NOTE] [Visits](../c-metrics/metrics-visit.md) typically end after 12 hours of activity. However, visits can exceed 12 hours if using timestamped hits or data sources.
+>[!NOTE] [Visits](../c-metrics/metrics-visit.md) typically end after 12 hours of activity. However, visits can exceed 12 hours if using timestamped hits or data sources.
 
 This dimension is visit-based. Compare this dimension to [Time spent on page](reports-time-spent-on-page.md), which is a hit-based dimension.

@@ -13,7 +13,7 @@ Dynamic variables support query string parameters or HTTP headers in an image re
 
 When Adobe recognizes a dynamic variable prefix, it automatically copies the query string or HTTP header value in your report suite. This action happens before any other processing, including processing rules and VISTA rules.
 
-> [!TIP] Be mindful of maximum character limits when copying variables. For example, if copying `eVar1` to `prop1`, `prop1` can have a truncated value since it has a 100-byte limit (whereas `eVar1` has a 255-byte limit).
+>[!TIP] Be mindful of maximum character limits when copying variables. For example, if copying `eVar1` to `prop1`, `prop1` can have a truncated value since it has a 100-byte limit (whereas `eVar1` has a 255-byte limit).
 
 ## Dynamic variables in Adobe Experience Platform Launch
 
@@ -44,4 +44,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] Dynamic variables appear as strings when debugging your implementation. Values are copied server-side by Adobe data collection servers.
+>[!NOTE] Dynamic variables appear as strings when debugging your implementation. Values are copied server-side by Adobe data collection servers.

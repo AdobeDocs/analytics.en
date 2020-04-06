@@ -62,7 +62,7 @@ The top Projects menu looks like this:
 
 The submenus contain the following options.
 
-> [!NOTE] Options marked by an asterisk (&#42;) display only with **saved** projects.
+>[!NOTE] Options marked by an asterisk (&#42;) display only with **saved** projects.
 
 |  Project  | Edit  | Insert  | Components  | Share  | Help  |
 |---|---|---|---|---|---|

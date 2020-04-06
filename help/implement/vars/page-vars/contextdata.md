@@ -28,7 +28,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Use processing rules to populate analytics variables
 
-> [!IMPORTANT] Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
+>[!IMPORTANT] Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
 
 1. Update your implementation to set context data variable names and values.
 2. Log in to Adobe Analytics and go to Admin > Report Suites.

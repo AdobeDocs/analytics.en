@@ -143,7 +143,7 @@ Check out the new [Anomaly Detection and Contribution Analysis](https://marketin
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
-> [!NOTE] You can also run Anomaly Detection from within Analysis Workspace projects. [More...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>[!NOTE] You can also run Anomaly Detection from within Analysis Workspace projects. [More...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 For information on setting up Anomaly Detection, refer to the [Reference Guide](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 

@@ -15,7 +15,7 @@ Here are important guidelines for creating rules:
 
    See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md)
 
-> [!NOTE] Although these rules do not affect reporting outside of marketing channels, they affect marketing channel data collection. Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+>[!NOTE] Although these rules do not affect reporting outside of marketing channels, they affect marketing channel data collection. Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
 
 ## Prerequisites
 

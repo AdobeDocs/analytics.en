@@ -48,7 +48,7 @@ Different site have different implementation needs. Some dimensions and events c
 
 Make sure that the number of unique dimensions and metrics can fit in a single global report suite. If you find that there are too many unique dimensions or metrics, review each dimension within each implementation. There is likely overlap and dimensions that are not critical to business success. Consider using [classifications](/help/components/c-classifications2/c-classifications.md) as well. For example, instead of capturing 'Product Name' in eVar5, create a 'Product Name' classification based on the 'Product' dimension. Classifications in a source report suite are automatically available to any dependent virtual report suites.
 
-> [!TIP] With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), you can change the name of a given dimension or metric on a per-VRS basis.
+>[!TIP] With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), you can change the name of a given dimension or metric on a per-VRS basis.
 
 ### Segmentation nuances
 
@@ -78,7 +78,7 @@ For example, only one Google DCM is allowed per report suite. Many companies hav
 
 Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics, they cannot be segmented. Since VRS operates using segmentation, all data imported using summary data sources are not available in virtual report suites. Summary data sources are only visible in the source report suite.
 
-> [!TIP] Full processing data sources support segmentation, and can be used in virtual report suites.
+>[!TIP] Full processing data sources support segmentation, and can be used in virtual report suites.
 
 ## Steps to follow if you have decided to use VRS
 

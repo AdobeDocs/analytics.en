@@ -41,7 +41,7 @@ Advanced filters let you control the scope of your search using a collection of 
 
 Matches if the term is found anywhere in the line item. This operates the same as the simple filter.
 
-> [!NOTE] Spaces cannot be used in filters, because spaces are delimiters in searches
+>[!NOTE] Spaces cannot be used in filters, because spaces are delimiters in searches
 
 **Does not contain**
 

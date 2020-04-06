@@ -83,7 +83,7 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 You can customize the region by ensuring that each "buy" link has its own Region defined. To do so, add an "id" parameter to one of the parents of each "Buy" anchor tag.
 
-> [!NOTE] You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
+>[!NOTE] You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 

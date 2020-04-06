@@ -22,7 +22,7 @@ The global variable text field lets you set a custom tracking object. Its defaul
 
 Call the `s_gi()` function to instantiate a tracking object. Its only argument contains a comma-delimited string of report suite IDs. The report suite ID argument is required.
 
-> [!TIP] Adobe recommends using the `s` variable as a tracking object. Adobe uses `s` in its documentation, implementation examples, and plug-ins. However, you can use any variable as long as you are consistent across your site.
+>[!TIP] Adobe recommends using the `s` variable as a tracking object. Adobe uses `s` in its documentation, implementation examples, and plug-ins. However, you can use any variable as long as you are consistent across your site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -32,7 +32,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] The following sections and examples contain complex implementation topics. Thoroughly test your implementation and track important customizations in your organization's [solution design document](../../prepare/solution-design.md).
+>[!CAUTION] The following sections and examples contain complex implementation topics. Thoroughly test your implementation and track important customizations in your organization's [solution design document](../../prepare/solution-design.md).
 
 ## Manage multiple implementations using different tracking objects
 

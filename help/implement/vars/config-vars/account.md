@@ -5,7 +5,7 @@ description: Use the account variable to determine the report suite where data i
 
 # account
 
-> [!IMPORTANT] This variable is retired. Use the [`s.sa()`](../functions/sa-method.md) function if your implementation requires that you modify the report suite destination.
+>[!IMPORTANT] This variable is retired. Use the [`s.sa()`](../functions/sa-method.md) function if your implementation requires that you modify the report suite destination.
 
 In previous versions of Adobe Analytics, the `account` variable determined the report suite you want to send data to. A report suite ID is required to send data to Adobe Analytics.
 

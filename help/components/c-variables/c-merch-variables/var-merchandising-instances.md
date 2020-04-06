@@ -43,5 +43,5 @@ s.products=";Fernie Snow Goggles"
 
 Allocation to "None" occurs if you set a value for an eVar on a page where no binding event occurs, or if you set the eVar value in the products string without a binding event.
 
-> [!NOTE] The current functionality for counting instances on merchandising variables is being reviewed and is scheduled to change in an upcoming release.
+>[!NOTE] The current functionality for counting instances on merchandising variables is being reviewed and is scheduled to change in an upcoming release.
 

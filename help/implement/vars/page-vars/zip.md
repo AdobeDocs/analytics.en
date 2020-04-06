@@ -7,7 +7,7 @@ description: Manually populate the 'Zip Code' dimension if report suite settings
 
 The `zip` variable allows you to manually populate the 'Zip Code' dimension if the [!UICONTROL Zip Option] in report suite settings allows it. In previous versions of Adobe Analytics, this variable could only be manually set, typically when entering shipping information on a retail site. Improvements to Adobe Analytics allows this variable to be automatically set using geo-location data. This variable does not persist beyond the hit it is set.
 
-> [!IMPORTANT] Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL geo zip] is always used. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+>[!IMPORTANT] Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL geo zip] is always used. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
 
 ## Zip in Adobe Experience Platform Launch
 

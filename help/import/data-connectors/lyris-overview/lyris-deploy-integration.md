@@ -68,7 +68,7 @@ Steps to verify that the Lyris/Adobe Analytics integration was successful.
 
 Once all deployment steps have been completed, you can validate that the integration is successfully transferring data.
 
-> [!NOTE] It takes a few days for the data exchange to begin. Please make sure you contact Lyris after you activate the integration.
+>[!NOTE] It takes a few days for the data exchange to begin. Please make sure you contact Lyris after you activate the integration.
 
 1. Navigate to your Lyris Integration within Data Connectors. Under the **[!UICONTROL Support]** tab > **[!UICONTROL Integration Activity Log]**, you should see events like **[!UICONTROL Metric data imported successfully]** and/or **[!UICONTROL Classification data imported successfully]**:
 
@@ -82,7 +82,7 @@ Once all deployment steps have been completed, you can validate that the integra
 
 Shows the Lyris plug-in code to use with Adobe Analytics.
 
-> [!NOTE] Please make sure that you reserved the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below. Once you know which eVars you have reserved, replace eVarN with the relevant eVar. E.g. eVar10.
+>[!NOTE] Please make sure that you reserved the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below. Once you know which eVars you have reserved, replace eVarN with the relevant eVar. E.g. eVar10.
 
 ```
 /* 

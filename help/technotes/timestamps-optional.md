@@ -16,7 +16,7 @@ Timestamps Optional is the default setting for all new report suites.
 * Send timestamped data from a mobile app to a global report suite.
 * Upgrade apps to employ timestamps without having to create a new report suite.
 
-> [!NOTE] Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
+>[!NOTE] Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
 See [Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) for additional setup information.
 
@@ -48,7 +48,7 @@ Timestamps Optional allows you to integrate and report across multiple report su
 
 Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources.
 
-> [!IMPORTANT] Carefully plan the design for each component data set so the combination makes sense in a global report suite.
+>[!IMPORTANT] Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
 ## Best Practices when Employing Timestamps {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 

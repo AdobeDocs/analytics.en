@@ -34,7 +34,7 @@ To activate the integration, complete the configuration wizard in the Data Conne
 
 After completing the integration wizard, deploy the integration configuration object to your web property. In many cases, the easiest way to deploy the integration configuration object is to include it with your Adobe Analytics deployment code.
 
-> [!NOTE] If you use Adobe Experience Platform Launch, you can easily add the integration configuration object through that tool.
+>[!NOTE] If you use Adobe Experience Platform Launch, you can easily add the integration configuration object through that tool.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Download and save the **[!UICONTROL Kampyle Integration Code (JS)]** resource. The code looks similar to this:
@@ -57,7 +57,7 @@ Validate that the integration successfully transfers data by completing a couple
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] Log entries typically appear within 24 hours of successful deployment.
+>[!NOTE] Log entries typically appear within 24 hours of successful deployment.
 
 ![Integration activity log](assets/integration_activity_log.png)
 
@@ -65,6 +65,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 View your Kampyle feedback reports with Adobe Analytics by navigating to the Kampyle reporting within the appropriate menu structure.
 
-> [!NOTE] Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
+>[!NOTE] Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
 
 ![Adobe reporting data](assets/adobe_reporting_data.png)

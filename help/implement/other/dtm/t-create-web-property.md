@@ -10,7 +10,7 @@ uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 
 A web property can be any grouping of one or more domains and subdomains with a library of rules, included in one embed code.
 
-> [!NOTE] Only a user with Admin rights can create a property. For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
+>[!NOTE] Only a user with Admin rights can create a property. For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
 
 You can manage and track these assets with DTM. For example, suppose that you have multiple websites based on one template and you want to track the same assets on all of these websites. You can apply one web property to multiple domains.
 

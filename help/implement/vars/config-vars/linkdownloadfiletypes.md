@@ -9,7 +9,7 @@ When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clic
 
 Use `linkDownloadFileTypes` to customize what file extensions you want to count as download links.
 
-> [!NOTE] Only actual clicks are tracked automatically. The following types of links are not automatically tracked:
+>[!NOTE] Only actual clicks are tracked automatically. The following types of links are not automatically tracked:
 >
 > * File downloads that start automatically when a page loads
 > * Downloads that trigger after a redirect

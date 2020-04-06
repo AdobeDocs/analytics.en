@@ -16,7 +16,7 @@ Participation metrics have two settings per conversion event:
 * **Disabled**: The default state of each conversion event. Participation data will not be gathered for this event.
 * **Enabled**: Participation data is collected for this event.
 
-> [!NOTE] You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) builder.
+>[!NOTE] You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) builder.
 
 Once enabled, participation metrics are automatically available in all conversion reports. However, participation metrics also can be viewed in specific traffic reports at your request. You can optionally request participation metrics be available in certain custom traffic reports.
 

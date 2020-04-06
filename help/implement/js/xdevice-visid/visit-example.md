@@ -9,7 +9,7 @@ uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 
 # Cross-device visitor identification example
 
-> [!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
+>[!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
 
 The following example illustrates how cross-device visitor identifcation works using a sample of server calls sent in a common customer interaction.
 

@@ -20,7 +20,7 @@ If it has been more than 3 days and you have not received the setup email and me
 
 For example, say there is an integration in Report Suite A with Advertiser ID Z which gets assigned a CSID. If another integration is later setup in Report Suite B with Advertiser Z, this newer integration will NOT be re-assigned the CSID. This would require a Google ticket. On the other hand, take the example of an integration in Report Suite A, with Advertiser ID Z, and later another integration in Report Suite A, Advertiser Z is setup. Only the first Integration will receive data for the integration; however, in this case, the first integration can be deactivated and data will flow to the second integration.
 
-> [!NOTE] CSIDs are not used in version 2.0 of the integration and so the CSID negotiation process does not apply.
+>[!NOTE] CSIDs are not used in version 2.0 of the integration and so the CSID negotiation process does not apply.
 
 ## I am using version 2.0 of the integration and cost metrics are not appearing for my DFA ads. Why might this be? {#section-805748111bbe4bbf918d6dbbb2641fff}
 

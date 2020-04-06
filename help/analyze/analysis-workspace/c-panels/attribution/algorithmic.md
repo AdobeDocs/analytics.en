@@ -5,7 +5,7 @@ description: Details on the algorithmic attribution model in Adobe Analytics.
 
 # Algorithmic attribution
 
-> [!NOTE] Algorithmic attribution is currently available only through [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). The feature will eventually be part of a general release.
+>[!NOTE] Algorithmic attribution is currently available only through [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). The feature will eventually be part of a general release.
 
 The Algorithmic [attribution model](attribution.md) in Analysis Workspace differs from other models in that it uses statistical techniques to allocate credit across the dimension values in your report or freeform table. Like all other attribution models in Analysis Workspace, it can be used on any dimension or metric and supports unlimited segmentation and breakdowns and distributes 100% of conversions to the dimension(s) in the table (also known as "fractional" attribution).
 
@@ -16,4 +16,4 @@ At a high level, the attribution calculation of the conversion credit for each t
 * Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.
 * Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220.
 
-> [!NOTE] The outcome of Algorithmic attribution only differs from other models when multiple touchpoints exist within the given lookback window. Conversions with a single touchpoint receive 100% credit regardless of attribution model.
+>[!NOTE] The outcome of Algorithmic attribution only differs from other models when multiple touchpoints exist within the given lookback window. Conversions with a single touchpoint receive 100% credit regardless of attribution model.

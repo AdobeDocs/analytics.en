@@ -98,7 +98,7 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 Release Date: **May 24, 2018**
 
-> [!NOTE] Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>[!NOTE] Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332)
@@ -212,7 +212,7 @@ Updated: **August 18, 2016**
 * Updated [!DNL AppMeasurement] to read and write AMCV cookies. (AN-127098)
 * Inclusion of Visitor API 1.7.0.
 
-> [!NOTE] Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+>[!NOTE] Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Version 1.6.3
 
@@ -289,7 +289,7 @@ Release Date: **May 21, 2015**
 * Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 
-> [!NOTE] **Known Issue**: In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there are two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE] **Known Issue**: In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there are two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -345,7 +345,7 @@ Release Date: **August 21, 2014**
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 * Added support for additional eVars (76 - 250) and events (101-1000).
 
-> [!NOTE] H-Code does not support the additional eVars and events.
+>[!NOTE] H-Code does not support the additional eVars and events.
 
 ## Version 1.3.2
 

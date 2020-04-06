@@ -104,5 +104,5 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
    You are now taken to the Advertising Accounts [Management UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md), where your newly created account should be listed.
 
-> [!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
+>[!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
 

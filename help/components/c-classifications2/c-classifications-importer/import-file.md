@@ -10,7 +10,7 @@ uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 
 After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.
 
-> [!NOTE] You do not need to download (using the export feature) your existing classification data before uploading new data. You only need to upload a new file containing the new rows of data. This method improves performance.
+>[!NOTE] You do not need to download (using the export feature) your existing classification data before uploading new data. You only need to upload a new file containing the new rows of data. This method improves performance.
 
 See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for important information about the structure and limitations of uploaded files.
 

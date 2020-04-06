@@ -63,7 +63,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 If you have panels or visualizations collapsed within your project, clicking a link will expand the panel/visualization so that users can see it.
 
-> [!NOTE] You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+>[!NOTE] You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 

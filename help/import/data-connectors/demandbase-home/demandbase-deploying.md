@@ -67,7 +67,7 @@ To activate the integration, you must complete the configuration wizard within t
 
 After completing the integration wizard, you must deploy the integration code to your Adobe Analytics deployment code (s_code).
 
-> [!NOTE] If you used Adobe TagManager or Dynamic Tag Management to deploy Adobe Analytics, you can easily add the integration code using one of those tools.
+>[!NOTE] If you used Adobe TagManager or Dynamic Tag Management to deploy Adobe Analytics, you can easily add the integration code using one of those tools.
 
 1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
@@ -195,7 +195,7 @@ Review your Demandbase reports within Adobe Analytics using the Dashboard that w
 
 Alternatively, you can navigate to the Demandbase reporting within the Adobe Analytics menu structure - see screenshots below.
 
-> [!NOTE] This data should appear within 24-48 hours of successful deployment.
+>[!NOTE] This data should appear within 24-48 hours of successful deployment.
 
 ![](assets/reporting1.png)
 

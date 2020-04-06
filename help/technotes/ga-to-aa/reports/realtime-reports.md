@@ -61,7 +61,7 @@ Real-time content tells you what pages your visitors are currently viewing. To c
 
 Real-time events tells you which events are happening the most on your site. In Google Analytics, an event captures the number of times a specific action (generally an action that is unrelated to a page view) has occurred. GA events are sent with a Category, Label, and Action. In Adobe Analytics, custom events are metrics that are given friendly names in the admin console and can be analyzed alongside any dimension. If you are looking for a dimension in Adobe Analytics that is similar to Google Analytics events, consider applying the Custom Link dimension, which is often used as a catch-all for collecting data that is unrelated to page views (in addition to Exit Links - for Exits - and Download Links - for Downloads).
 
-> [!NOTE] When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+>[!NOTE] When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
 
 ## Real-time Conversions
 
@@ -75,4 +75,4 @@ Real-time conversions present data differently between platforms. Goals in Googl
    * For the two secondary dimensions, use the preferred additional data that you'd like to see for this traffic. Secondary dimensions do not have to be specific to conversions.
 3. Click [!UICONTROL Save and View Report].
 
-> [!NOTE] If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+>[!NOTE] If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.

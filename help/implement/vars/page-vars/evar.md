@@ -9,7 +9,7 @@ description: Custom variables you can use in your implementation.
 
 eVars are custom variables that you can use however you'd like.
 
-> [!TIP] Adobe recommends using eVars over props in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
+>[!TIP] Adobe recommends using eVars over props in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
 
 Make sure you record how you use each eVar and their logic in your [solution design document](../../prepare/solution-design.md).
 
@@ -52,7 +52,7 @@ s.eVar1 = "+12.49";
 
 If more than two decimal places are given, the eVar counter rounds to two decimal places. An eVar counter cannot contain negative numbers.
 
-> [!IMPORTANT] You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+>[!IMPORTANT] You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
 ## Exclusive advantages to props or eVars
 

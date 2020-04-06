@@ -10,7 +10,7 @@ The Calculated Metrics Builder lets you apply statistical and mathematical funct
 
 Here is an alphabetical list of the functions and their definitions.
 
-> [!NOTE] Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## Table Functions versus Row Functions {#section_8977BE40A47E4ED79EB543A9703A4905}
 

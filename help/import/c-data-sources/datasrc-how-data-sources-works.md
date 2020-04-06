@@ -10,7 +10,7 @@ uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 
 Information about how Adobe provides access to Data Sources.
 
-> [!NOTE] Once submitted via the Data Sources, imported data is indistinguishable from reporting data gathered using other methods (JavaScript beacon, ActionSource, Data Insertion API, etc.). You cannot remove the data once it is imported.
+>[!NOTE] Once submitted via the Data Sources, imported data is indistinguishable from reporting data gathered using other methods (JavaScript beacon, ActionSource, Data Insertion API, etc.). You cannot remove the data once it is imported.
 
 ![](assets/data_sources_overview.png)
 

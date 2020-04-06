@@ -5,7 +5,7 @@ description: Install the Legacy Adobe Experience Cloud Debugger. This debugger i
 
 # Legacy Adobe Experience Cloud Debugger
 
-> [!IMPORTANT] This debugging tool is no longer maintained. Adobe recommends instead using the [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
+>[!IMPORTANT] This debugging tool is no longer maintained. Adobe recommends instead using the [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 
 The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. Using the debugger lets you see what data is sent to Adobe on any given page on your site. You can use this information to troubleshoot or validate your organization's implementation.
 
@@ -64,7 +64,7 @@ Safari does not have the ability to manually create a bookmarklet, but a bookmar
 
 Navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+>[!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
 
 The debugger has several options available, all of which customize how data is displayed. None of these options affect data collection.
 

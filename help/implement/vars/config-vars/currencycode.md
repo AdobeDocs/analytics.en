@@ -13,7 +13,7 @@ If `currencyCode` is defined and matches the report suite's currency, no currenc
 
 If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in data collection servers are ultimately stored in the report suite's currency.
 
-> [!IMPORTANT] If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
+>[!IMPORTANT] If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
 
 This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
 

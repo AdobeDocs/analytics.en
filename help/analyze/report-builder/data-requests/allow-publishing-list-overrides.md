@@ -19,5 +19,5 @@ If you enable [!UICONTROL Allow Publishing List Override], the report suite assi
 
 This option is not available for report suites that you select from cells.
 
-> [!NOTE] If you send the scheduled report to multiple publishing lists, the report runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list.
+>[!NOTE] If you send the scheduled report to multiple publishing lists, the report runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list.
 

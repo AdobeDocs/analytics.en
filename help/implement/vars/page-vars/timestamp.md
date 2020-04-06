@@ -7,7 +7,7 @@ description: Manually set the timestamp of the hit.
 
 The `timestamp` variable manually sets the timestamp of the hit for timestamp-enabled report suites.
 
-> [!WARNING] Do not use this variable if your report suite is not explicitly configured to accept timestamped hits. AppMeasurement automatically sets the time of a hit for report suites that do not support timestamped hits. If you send a hit with this variable to a report suite that does not support timestamps, that data is permanently lost.
+>[!WARNING] Do not use this variable if your report suite is not explicitly configured to accept timestamped hits. AppMeasurement automatically sets the time of a hit for report suites that do not support timestamped hits. If you send a hit with this variable to a report suite that does not support timestamps, that data is permanently lost.
 
 ## Timestamp in Adobe Experience Platform Launch
 

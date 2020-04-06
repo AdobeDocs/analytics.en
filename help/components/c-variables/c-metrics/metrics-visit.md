@@ -10,7 +10,7 @@ uuid: 91317487-f116-4546-8cd2-421418c49a7a
 
 A sequence of page views in a sitting. The visits metric is commonly used in reports that display the number of user sessions within the selected time period.
 
-> [!NOTE] For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+>[!NOTE] For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
 
 The visit metric is always associated with a time period, so you know whether to count a new visit if the same visitor returns to your site. A session starts when the user first arrives on your site, and ends under one of the following scenarios:
 
@@ -19,7 +19,7 @@ The visit metric is always associated with a time period, so you know whether to
 * **2500 hits:** If a user generates a large number of hits without starting a new session, a new visit is counted after 2500 image requests.
 * **100 hits in 100 seconds**: If a visit consists of more than 100 hits that occur in fewer than 100 seconds, the visit automatically ends. This behavior typically indicates bot activity, and this limitation is enforced to prevent these processing-intensive visits from increasing latency and increasing the time it takes to generate reports.
 
-> [!NOTE] The definition of a visit can be shortened for a report suite if specifically requested, but it cannot be lengthened. Have one of your organization's supported users contact Customer Care to request this change.
+>[!NOTE] The definition of a visit can be shortened for a report suite if specifically requested, but it cannot be lengthened. Have one of your organization's supported users contact Customer Care to request this change.
 
 The following scenarios do not start a new visit:
 
@@ -30,7 +30,7 @@ A visit does not necessarily coincide with a browser session. For example, if a 
 
 When a visit ends, all variables with a visit expiration are expired and no longer persist. The visit number metric will be incremented on the next visit for this visitor.
 
-> [!NOTE] If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+>[!NOTE] If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
 
 For more information, refer to [Identifying Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) in the Adobe Analytics Implementation guide.
 

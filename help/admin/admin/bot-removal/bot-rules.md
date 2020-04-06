@@ -117,7 +117,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **High-Hit Visit Processing:** If more than 100 hits occur in a visit, reporting determines if the time of the visit in seconds is less than or equal to the number of hits in the visit. In this situation, due to the cost of processing long, intense visits, reporting starts over with a new visit. High-hit visits are typically caused by bot attacks and are not considered normal visitor browsing.
 
-> [!NOTE] Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE] Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 

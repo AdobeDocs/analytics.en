@@ -28,7 +28,7 @@ The attribution panel is an [Attribution IQ](../../attribution-iq.md) feature th
 | ![Time Decay](assets/time_decay.png) | Time-Decay | Follows and exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
 | ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding who often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
 
-> [!NOTE] The following algorithmic attribution model is currently available in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) and will eventually be part of a general release.
+>[!NOTE] The following algorithmic attribution model is currently available in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) and will eventually be part of a general release.
 
 | UI icon | Attribution model | Definition | When to use |
 | --- | --- | --- | --- |
@@ -71,7 +71,7 @@ Depending on your lookback window and attribution model, channels receive differ
     * Social: 18.6%, getting $9.32
     * Paid Search: 13.8%, getting $6.92
 
-> [!TIP] Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+>[!TIP] Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
 
 ## Using attribution with marketing channels
 
@@ -93,4 +93,4 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
 
-> [!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment and filter with comparable definitions may sometimes return lower values for the segment.
+>[!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment and filter with comparable definitions may sometimes return lower values for the segment.

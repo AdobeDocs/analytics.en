@@ -43,7 +43,7 @@ Bubble overlays are shown when you select this overlay in the Overlay Type in th
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] Bubble overlays for submenus show only when you display the submenu: 
+>[!NOTE] Bubble overlays for submenus show only when you display the submenu: 
 >
 >![](assets/bubbles_submenu.png)>
 

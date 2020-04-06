@@ -8,7 +8,7 @@ uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 
 Report time processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
 
-> [!NOTE] Report Time Processing is available only for Analysis Workspace.
+>[!NOTE] Report Time Processing is available only for Analysis Workspace.
 
 Report Time Processing only affects the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between Report Time Processing and traditional Analytics processing is best understood using the following diagram:
 

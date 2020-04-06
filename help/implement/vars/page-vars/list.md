@@ -9,7 +9,7 @@ List variables are custom variables that you can use however you'd like. They wo
 
 Make sure you record how you use each list variable and their logic in your [solution design document](../../prepare/solution-design.md).
 
-> [!NOTE] List variables store the most recent 250 values per visitor. If there are more than 250 unique values for a given visitor, the oldest values are not attributed to metrics.
+>[!NOTE] List variables store the most recent 250 values per visitor. If there are more than 250 unique values for a given visitor, the oldest values are not attributed to metrics.
 
 ## Set up list variables in report suite settings
 
@@ -28,7 +28,7 @@ Each list variable is a string that contains custom values specific to your orga
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] If you set duplicate values in the same hit, Adobe de-duplicates all instances of those values. For example, if you set `s.list1 = "Example,Example";`, one instance is counted in reports.
+>[!TIP] If you set duplicate values in the same hit, Adobe de-duplicates all instances of those values. For example, if you set `s.list1 = "Example,Example";`, one instance is counted in reports.
 
 ## Compare list props to list vars
 

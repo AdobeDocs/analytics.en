@@ -21,7 +21,7 @@ Adding channels to the [!UICONTROL Marketing Channels] page is done independentl
 
 Add marketing channels in the Marketing Channel Manager.
 
-> [!NOTE] You cannot delete a channel. If you do not want to use a channel, you can disable or rename it, and preserve it for later use.
+>[!NOTE] You cannot delete a channel. If you do not want to use a channel, you can disable or rename it, and preserve it for later use.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. On the [!UICONTROL Report Suite Manager] page, select a report suite.

@@ -7,7 +7,7 @@ description: Use this variable to link online and offline data together.
 
 The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. This variable is valuable in cases where you want to use data from other channels and link it to data collected with AppMeasurement.
 
-> [!NOTE] Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+>[!NOTE] Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
 
 When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. Data uploaded through Data Sources with a matching transaction ID is permanently tied to those variable values.
 
@@ -40,4 +40,4 @@ If you have more than one transaction ID for a hit, you can delimit each with a 
 s.transactionID = "ABC123,XYZ456";
 ```
 
-> [!NOTE] If you integrate multiple offline channels using this variable, make sure that different channels don't overlap transaction IDs. For example, if you have a call center transaction ID value of `1234` and a sales lead transaction ID value of `1234`, they can conflict and cause unexpected results. Make sure that transaction IDs contain unique formats per offline channel and differentiate them if necessary. For example, set your call center transaction ID to `call_1234` and your sales lead transaction ID `lead_1234` in both Data Sources and AppMeasurement.
+>[!NOTE] If you integrate multiple offline channels using this variable, make sure that different channels don't overlap transaction IDs. For example, if you have a call center transaction ID value of `1234` and a sales lead transaction ID value of `1234`, they can conflict and cause unexpected results. Make sure that transaction IDs contain unique formats per offline channel and differentiate them if necessary. For example, set your call center transaction ID to `call_1234` and your sales lead transaction ID `lead_1234` in both Data Sources and AppMeasurement.

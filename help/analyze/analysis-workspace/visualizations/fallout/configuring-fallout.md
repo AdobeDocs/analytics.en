@@ -67,6 +67,6 @@ When you **right-click a touchpoint**, the following options appear:
 |Trend touchpoint|See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data.|
 |Trend touchpoint (%)|Trends the total fallout percentage.|
 |Trend all touchpoints (%)|Trends all the touchpoint percentages in the fallout (except "All Visits", if it's included), on the same chart.|
-|Breakdown fallthrough at this touchpoint|View what visitors did between two touchpoints if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
-|Breakdown fallout at this touchpoint|View what people who did not make it through the funnel did immediately after the selected step.|
+|Break down fallthrough at this touchpoint|View what visitors did between two touchpoints (this touchpoint and the next touchpoint) if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
+|Break down fallout at this touchpoint|View what people who did not make it through the funnel did immediately after the selected step.|
 |Create segment from touchpoint|Create a new segment from the selected touchpoint.|

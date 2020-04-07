@@ -114,7 +114,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [manageVars](vars/plugins/managevars.md)
     + [Numbers Suite](vars/plugins/numberssuite.md)
     + [p_fo](vars/plugins/p-fo.md)
-    + [pt](vars/plugins/pt.md)
+    + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}

@@ -37,6 +37,9 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 | Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
 | Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
 
+>[!NOTE]
+>Once a week, all data will be fully synced to account for any deltas or discrepancies not captured in the previous week.
+
 ## Publish segments in [!UICONTROL Segment Builder]
 
 1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments] > +**
@@ -47,7 +50,6 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total "unique visitors" segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
 >
 >![](assets/seg-vis-ecid.png)

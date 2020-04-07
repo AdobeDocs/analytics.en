@@ -5,7 +5,7 @@ description: The color depth of the device.
 
 # Color depth
 
-The 'Color depth' dimension reports how many colors that the device supports. This report is useful to determine how much traffic originates from devices that don't support 16 million colors. Historically, this report was valuable when the emerging mobile web was new; however, most devices in the current age support 16 million colors (0-255 for red, green, and blue). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+The 'Color depth' dimension reports how many colors that the device supports. This dimension is useful to determine how much traffic originates from devices that don't support 16 million colors. Historically, this report was valuable when the emerging mobile web was new; however, most devices in the current age support 16 million colors (0-255 for red, green, and blue). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Populate this dimension with data
 

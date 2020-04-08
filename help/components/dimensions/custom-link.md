@@ -9,7 +9,7 @@ The 'Custom link' dimension reports the names of custom links implemented on you
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If the `pe` query string has a different value in the hit, the `pev2` query string does not collect data in this dimension.
+This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If the `pe` query string has a different value in the hit, this dimension does not collect data.
 
 If you want to send data to this dimension using AppMeasurement:
 

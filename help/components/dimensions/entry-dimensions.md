@@ -1,10 +1,21 @@
 ---
 title: Entry dimensions
-description: Explains entry dimensions and how they are used.
+description: Lists entry dimensions and their use.
+keywords: entry page, entry site section, entry server, entry custom insight
 ---
 
 # Entry dimensions
 
-Content coming soon!
+Entry dimensions record the first dimension value, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in Report suite settings.
 
-<!-- Explain with entry page original is, and how it compares to entry page.-->
+## Populate entry dimensions with data
+
+A given entry dimension is based on its associated traffic variable. If the non-entry variable has data, its associated entry dimension also contains data. No implementation changes are required for entry dimensions if your traffic variables contain data.
+
+## Dimension values
+
+Since entry variables are typically based on custom strings in your implementation, your organization determines what the dimension values are. Values in a given entry dimension match dimension values in its associated non-entry dimension. For example, dimension values in the 'Entry page' dimension contain similar dimension values in the 'Page' dimension.
+
+## Entry page original
+
+The 'Entry page original' dimension operates differently than other entry dimensions. Instead of preserving the entry page for a given visit, it preserves the very first entry page for the entire life of that visitor's cookie. For example, if you land on `https://example.com/page4` for your first visit to the site, then a year later land on `https://example.com/store`, The 'Entry page original' dimension lists `https://example.com/page4` as the dimension value.

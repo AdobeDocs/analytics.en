@@ -303,7 +303,7 @@ New features and enhancements released on April 12, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% Stacked" Visualization Setting </a> </p> </td> 
-   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="/help/analyze/analysis-workspace/visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 

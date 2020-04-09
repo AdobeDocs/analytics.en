@@ -8,6 +8,15 @@ uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 
 # What's New in Analysis Workspace
 
+## April 2020
+
+New feature released on April 16, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Automatically build [!UICONTROL Freeform Tables] from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first.
+You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together.|
+
 ## March 2020
 
 New features released on March 12, 2020.

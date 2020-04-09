@@ -22,7 +22,7 @@ In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
 Available filters include:
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 |  Filter Name  | Description  |
 |---|---|

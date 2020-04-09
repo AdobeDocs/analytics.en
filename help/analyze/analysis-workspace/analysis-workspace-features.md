@@ -11,9 +11,9 @@ Analysis Workspace removes all of the typical limitations of a single Analytics 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Overview video
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
@@ -21,7 +21,7 @@ Full YouTube playlist available [here](https://www.youtube.com/playlist?list=PL2
 >
 >See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Full control over project elements and components
 
 Analysis Workspace provides freedom and flexibility:
 
@@ -33,7 +33,7 @@ Analysis Workspace provides freedom and flexibility:
 
 See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## Multiple visualizations in a project 
 
 Drag-and-drop as many visualizations onto a project that you want.
 
@@ -45,7 +45,7 @@ Create a project showing the percent of change, with multiple visualizations cor
 
 See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intra-linking to panels and visualizations 
 
 In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. To add intra-linking to your project:
 
@@ -65,17 +65,17 @@ If you have panels or visualizations collapsed within your project, clicking a l
 
 >[!NOTE] You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Link to other projects 
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Dynamic visualization of selected cells 
 
 Select individual cells and see the visualizations change dynamically. [Synchronize and lock](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) a visualization with selected cells.
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## Lock selected items or positions 
 
 Locking visualizations lets you control which freeform data table sources correspond to visualizations.
 
@@ -83,7 +83,7 @@ Locking visualizations lets you control which freeform data table sources corres
 
 See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Trend visualizations from selected cells 
 
 Create a visualization from selected cells. (Right-click > **[!UICONTROL Trend Selection]**.)
 
@@ -93,7 +93,7 @@ Trend selections are now **linked** to the table below, so if you select a diffe
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Dimensions and dimension item breakdowns 
 
 As a retailer, you can dive deeper than ever before into your campaigns to understand how to better engage your customers. Break down your data in unlimited ways for your specific needs; build queries using relevant metrics, dimensions, segments, time lines, and other analysis breakdown values.
 
@@ -101,7 +101,7 @@ As a retailer, you can dive deeper than ever before into your campaigns to under
 
 See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## Segments from table selections 
 
 Select cells in the freeform table and create a segment from the selection.
 
@@ -115,7 +115,7 @@ Drop a segment to the freeform panel at the project level, and the segment is ap
 
 See [Segments](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## Project and component tagging 
 
 You can apply tags to projects and components in Analysis Workspace:
 
@@ -124,7 +124,7 @@ You can apply tags to projects and components in Analysis Workspace:
 * Right-click components to tag (or create tags) from the Components panel.
 * Use # in the Search field to locate tags.
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Component actions 
 
 Perform component-level actions from the Actions menu at the top of the component left rail. Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -138,7 +138,7 @@ Perform component-level actions from the Actions menu at the top of the componen
 
 See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Additional feature descriptions 
 
 **What you can drag and stack**
 
@@ -183,4 +183,4 @@ A default segment unique to Analysis Workspace. *`All Visits`* displays totals f
 
 Use calculations in the same way you use standard metrics.
 
-See [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+See [Calculated Metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).

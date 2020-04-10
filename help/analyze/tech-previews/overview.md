@@ -54,7 +54,7 @@ To launch and evaluate a prototype:
 
 1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. Any changes made to a prototype project are lost upon exiting the prototype environment.
 
-   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![new feedback box](assets/short-survey.png)
 
 1. Click **Submit** to return to the main Previews portal.
 

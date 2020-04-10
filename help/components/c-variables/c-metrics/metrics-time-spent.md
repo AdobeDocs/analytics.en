@@ -82,6 +82,21 @@ A: The difference is the denominator in the metric:
 
 As a result, these metrics may yield similar results at a visit level, but will be different at a hit level.
 
+**Q5: Why do breakdown totals with [!UICONTROL Average Time Spent on Site] not match the parent line item?**
+
+A: Because [!UICONTROL Average Time Spent on Site] depends on unbroken sequences of a dimension, and the inner report doesn't depend on the outer report when calculating these runs.
+
+For example consider the following visit.
+|hit#|1|2|3|
+|---|---|---|---|
+|**Seconds spent**|30|100|10|
+|**Page Name**|Home|Product|Home|
+|**date**|Jan 1|Jan 1|Jan 1|
+
+When calculating the timespent for the Homepage it would be (30+10)/2=20, but breaking that down by day would give (30+10)/1=40 since the day has a single unbroken run of January 1st.
+
+As a result, these metrics may yield similar results at a visit level, but will be different at a hit level.
+
 ## Examples of [!UICONTROL Time Spent] calculations
 
 Assume the following set of server calls are for a single visitor within a single visit:

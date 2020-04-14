@@ -9,18 +9,19 @@ The 'First touch channel detail' dimension reports details around the first mark
 
 ## Populate this dimension with data
 
-This dimension copies values from other variables. references channel names you have defined under [Marketing channel processing rules](/help/admin/admin/marketing-channels-admin.md).
-
-Every hit sent to Adobe data collection servers run through your report suite's Marketing channel processing rules. It iterates through each rule in numeric order until it finds a match, in which that marketing channel ties to the hit. The first touch channel persists with the visitor until they don't visit the site for longer than the visitor engagement period (30 days by default).
+This dimension copies values from other variables. The variable used references the channel value within each [Marketing channel processing rule](/help/admin/admin/marketing-channels-admin.md). When a hit matches a marketing channel processing rule, the [Last touch channel](last-touch-channel.md) dimension is set to the channel name, and this dimension is set to the channel value set in the rule.
 
 If you want to set this dimension to a specific value, the following steps are required:
 
-* Set the desired dimension value as a channel in the Marketing channel manager under Report suite settings.
+* Make sure that the desired dimension value is in a hit attribute or custom variable.
 * Set a Marketing channel processing rule that contains the desired criteria for the hit.
-* The visitor's hit to your site must match the criteria outlined in the Marketing channel processing rule, _and_ must be the first marketing channel value to do so in the visitor's engagement period.
+* Select the desired dropdown value under [!UICONTROL Set the channel's value] within the Marketing channel processing rule.
+* The visitor's hit to your site must match the criteria outlined in the Marketing channel processing rule _and_ must be the first marketing channel value to do so in the visitor's engagement period.
 
 If a subsequent hit matches criteria under a different Marketing channel, this dimension is not overwritten with the new marketing channel.
 
 ## Dimension values
 
-Dimension values include any channel name in the Marketing channel manager. By default, values include `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`, and `"Referring domains"`. You can add or delete channels in the Marketing channel manager, which affect this dimension's values from that point forward.
+Dimension values depend on the channel value dropdown. For example, if you set the channel's value to 'Page URL', dimension values include page URLs on your site. If you set the channel's value to Referring domain, dimension values include domains that visitors clicked through to get to your site.
+
+Adobe recommends setting channel values related to the marketing channel for insight around channel details.

@@ -1,5 +1,5 @@
 ---
-description: Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
+description: Learn about 
 title: Metric Type and Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 ---
@@ -12,7 +12,7 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 * [Column Attribution Model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032) 
 * [How Linear Allocation works (as of July 19, 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Metric Type {#section_34A86FB402F94E988724232283BF18B7}
+## Metric Type
 
 ![](assets/cm_type_alloc.png) 
 
@@ -21,7 +21,7 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
 |  Total  | Use the total for the reporting period in every line item. If a formula consisted of a single total metric, it displays the same total number on every line item. Total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## Column Attribution Model {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Column Attribution Model
 
 >[!IMPORTANT]
 >
@@ -32,70 +32,27 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 >* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports & Analytics, the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
 
-## How Linear Allocation works (as of July 19, 2018) 
+## How linear allocation works (as of July 19, 2018) 
 
-In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Ad Hoc Analysis, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change will primarily impact eVars and other dimensions that have persistence. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
+In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Ad Hoc Analysis, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change primarily impacts eVars and other dimensions that have persistence. Note that these changes apply only to calculated metrics and do not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
 
 The following example illustrates how calculated metrics with linear allocation will change in reporting: 
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Hit 1 </th> 
-   <th colname="col3" class="entry"> Hit 2 </th> 
-   <th colname="col4" class="entry"> Hit 3 </th> 
-   <th colname="col5" class="entry"> Hit 4 </th> 
-   <th colname="col6" class="entry"> Hit 5 </th> 
-   <th colname="col7" class="entry"> Hit 6 </th> 
-   <th colname="col8" class="entry"> Hit 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Data Sent In </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Last Touch eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Touch eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Example prop </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
 In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
+
+## Differences in how linear allocation works in Reports & Analytics versus Workspace
+
+There are some differences in how linear attribution works between these two tools:
+
+* In Reports & Analytics, (processed) linear attribution is always visit based, whereas in Workspace, it can be visit or visitor based.
+* In Reports & Analytics, if No value was passed on the first hit of a visit, the (initial) value would persist from the pervious visit. This is NOT the case in Workspace (Attribution IQ). If no value is passed on the first hit of a visit, then 'None' is the initial value.
 
 ## How linear allocation worked prior to July 2018
 

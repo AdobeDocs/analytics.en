@@ -1,40 +1,40 @@
 ---
-description: Instructions for setting up the mobile app scorecards.
-title: Adobe Analytics Mobile App Curator Guide
+description: Instructions for setting up the dashboards scorecards.
+title: Adobe Analytics dashboards curator guide
 ---
 
 
-# BETA: Curator’s Guide for Analytics Mobile App
+# BETA: Curator’s guide for Adobe Analytics dashboards
 
 
 ## Introduction
 
-The Adobe Analytics Mobile App provides anytime, anywhere insights from Adobe Analytics.   The app allows users mobile access to intuitive scorecards, that you create and share from Adobe Analytics’ desktop UI. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. You can tailor Scorecards according to the data most important to you. The mobile app is supported on both iOS and Android operating systems.
+Adobe Analytics dashboards provide anytime, anywhere insights from Adobe Analytics. The app allows users mobile access to intuitive scorecards, that you create and share from Adobe Analytics’ desktop UI. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. You can tailor Scorecards according to the data most important to you. Analytics dashboards are supported on both iOS and Android operating systems.
 
 ## About this guide
 
-This guide is intended to help curators of Adobe Analytics data configure Scorecards for their executive users on the Analytics Mobile App. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards, which allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Although executive users are the end-users for the Analytics Mobile App, this guide will help data curators set up the app effectively for those users.
+This guide is intended to help curators of Adobe Analytics data configure Scorecards for their executive users on the Analytics dashboards. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards, which allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Although executive users are the end-users for Analytics dashboards, this guide will help data curators set up the app effectively for those users.
 
 
 ## Glossary of terms
 
-The following table describes the terms for understanding the audience, functions, and operation of the Analytics Mobile App.
+The following table describes the terms for understanding the audience, functions, and operation of the Analytics dashboards.
 
 | Term | Definition |
 |--- |--- |
 | Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device |
 | Curator | Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer |
-| Curation|The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer |
-| Scorecard | A Mobile App View containing one or more tiles |
+| Curation|The act of creating or editing a mobile Scorecard containing relevant metrics, dimensions and other components for the consumer |
+| Scorecard | A dashboards view containing one or more tiles |
 | Tile | A rendering for a metric within a Scorecard View |
 | Breakdown | A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions. |
-| Date Range | The primary date range for Mobile App reporting |
+| Date Range | The primary date range for dashboards reporting |
 | Comparison Date Range | The Date Range that is compared with the primary date range |
 
  
 ## Create a Scorecard for executive users
 
-A mobile Scorecard displays key data visualizations for executive users in a tiled layout, as shown below:
+A Scorecard displays key data visualizations for executive users in a tiled layout, as shown below:
 
 
 ![Example scorecard](assets/intro_scorecard.png)
@@ -75,7 +75,7 @@ From the **Projects** screen, under the **Components** tab, click the **Add** bu
 
 **Use Analytics tools**
 
-In Analytics, click the **Tools** menu and select **Mobile App**. On the subsequent screen, click the **Create Scorecard** button.
+In Analytics, click the **Tools** menu and select **dashboards**. On the subsequent screen, click the **Create Scorecard** button.
 
 ### Configure the Scorecard with data and save it
 
@@ -145,7 +145,7 @@ To share the Scorecard with an executive user:
 ![Share_Scorecards](assets/new_share.png)
 
 
-After you have shared a Scorecard, your recipients can access it on their Analytics Mobile App. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
+After you have shared a Scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
 *Note: If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.*
 
@@ -171,7 +171,7 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     **For executive users on iOS:**
 
-    1. Click the following public link (it is also available in Analytics under **Tools** > **Mobile App**):
+    1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
         [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -181,13 +181,13 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     2. Tap the **View in App Store** link on the screen to download the Testflight app.
 
-    3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
+    3. After installing the Testflight app, find and install the Adobe Analytics dashboards from within Testflight as shown below:
 
         ![Testflight screen](assets/testflight2.png)
 
     **For executive users on Android:**
 
-    1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **Mobile App**):
+    1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **dashboards**):
         [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
         After tapping the link, tap the Become a Tester link on the following screen:

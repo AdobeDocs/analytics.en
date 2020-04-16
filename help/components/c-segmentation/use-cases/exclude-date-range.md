@@ -1,9 +1,9 @@
 ---
-title: Exclude specific dates in reporting
+title: Exclude specific dates in analysis
 description: Tips for excluding dates or date ranges if you do not want to include it in reports.
 ---
 
-# Exclude specific dates in reporting
+# Exclude specific dates in analysis
 
 Sometimes a date range contains data that you don't want to analyze. For example, a bot sends an outlier hit containing an incorrect amount of revenue, drastically inflating the metric. If your site experienced implementation issues or other gaps in data, you might want to exclude it from reporting as well to prevent making decisions on partial data.
 
@@ -17,9 +17,11 @@ Create a segment that isolates the affected day or date range. This segment is u
 2. Drag the 'Day' dimension to the definition canvas, and set it equal to the day you want to isolate.
 3. Repeat the above step for every day that you would like to isolate in your report.
 
-![Affected days segment](../assets/affected_days.png)
+![Affected days segment](../assets/affected_days.jpg)
 
->[!NOTE] Adobe recommends using the orange dimension dimension components, and not the purple date range components. If you use purple date range components, they override the project's calendar range.
+Adobe recommends using the orange dimension dimension components, and not the purple date range components. If you use purple date range components, they override the project's calendar range:
+
+![Exclude segment day type](../assets/exclude_segment_day_type.jpg)
 
 ## Exclude affected days
 
@@ -30,7 +32,7 @@ Create a segment that excludes the affected day or date range. This segment is u
 3. Drag the 'Day' dimension to the definition canvas, and set it equal to the day you want to remove.
 4. Repeat the above step for every day that you would like to remove in your report.
 
-![Exclude affected days](../assets/exclude_affected_days.png)
+![Exclude affected days](../assets/exclude_affected_days.jpg)
 
 ## Use these segments in reports
 
@@ -44,11 +46,11 @@ You can apply both the 'Affected days' segment and 'Exclude affected days' segme
 
 ### Apply the exclude segment to a project
 
-You can apply the 'Exclude affected days' segment to a workspace project. Drag the exclude segment to the workspace canvas section labeled *Drop a segment here*.
+You can apply the 'Exclude affected days' segment to a Workspace project. Drag the exclude segment to the Workspace canvas section labeled *Drop a segment here*.
 
 >[!TIP] Include a note around excluded data in the panel's description to help those viewing the report. Right click a panel's title, then click **[!UICONTROL Edit description]**.
 
-![Segment applied to a panel](../assets/exclude_segment_panel.png)
+![Segment applied to a panel](../assets/exclude_segment_panel.jpg)
 
 ### Use the exclude segment in a virtual report suite
 
@@ -72,4 +74,4 @@ If you use Reports & Analytics, you can use a [calendar event](../../t-calendar-
 2. Enter the desired title, date range, and note text.
 3. Click **[!UICONTROL Save]**.
 
-![Calendar event](../assets/exclude_calendar_event.png)
+![Calendar event](../assets/exclude_calendar_event.jpg)

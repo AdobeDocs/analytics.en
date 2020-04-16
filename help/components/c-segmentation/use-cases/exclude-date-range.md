@@ -1,0 +1,75 @@
+---
+title: Exclude specific dates in reporting
+description: Tips for excluding dates or date ranges if you do not want to include it in reports.
+---
+
+# Exclude specific dates in reporting
+
+Sometimes a date range contains data that you don't want to analyze. For example, a bot sends an outlier hit containing an incorrect amount of revenue, drastically inflating the metric. If your site experienced implementation issues or other gaps in data, you might want to exclude it from reporting as well to prevent making decisions on partial data.
+
+You can use a segment to exclude any date ranges that you don't want to include in your reports.
+
+## Isolate affected days
+
+Create a segment that isolates the affected day or date range. This segment is useful if you want to just focus on the problem days to see more information around its impact.
+
+1. Open the segment builder by going to **[!UICONTROL Components]** > **[!UICONTROL Segments]**, then click **[!UICONTROL Add]**.
+2. Drag the 'Day' dimension to the definition canvas, and set it equal to the day you want to isolate.
+3. Repeat the above step for every day that you would like to isolate in your report.
+
+![Affected days segment](../assets/affected_days.png)
+
+>[!NOTE] Adobe recommends using the orange dimension dimension components, and not the purple date range components. If you use purple date range components, they override the project's calendar range.
+
+## Exclude affected days
+
+Create a segment that excludes the affected day or date range. This segment is useful if you want to exclude the days that experienced issues to minimize impact on overall reporting.
+
+1. Open the segment builder by going to **[!UICONTROL Components]** > **[!UICONTROL Segments]**, then click **[!UICONTROL Add]**.
+2. In the upper right of the segment definition canvas, click **[!UICONTROL Options]** > **[!UICONTROL Exclude]**.
+3. Drag the 'Day' dimension to the definition canvas, and set it equal to the day you want to remove.
+4. Repeat the above step for every day that you would like to remove in your report.
+
+![Exclude affected days](../assets/exclude_affected_days.png)
+
+## Use these segments in reports
+
+Once you have the exclude segment created, you can use it exactly as you would use other segments.
+
+### Compare segments in a trended report
+
+You can apply both the 'Affected days' segment and 'Exclude affected days' segment in a report to compare them side-by-side. Drag both segments above or below a metric to compare them:
+
+![Both segments](../assets/affected_and_exclude.png)
+
+### Apply the exclude segment to a project
+
+You can apply the 'Exclude affected days' segment to a workspace project. Drag the exclude segment to the workspace canvas section labeled *Drop a segment here*.
+
+>[!TIP] Include a note around excluded data in the panel's description to help those viewing the report. Right click a panel's title, then click **[!UICONTROL Edit description]**.
+
+![Segment applied to a panel](../assets/exclude_segment_panel.png)
+
+### Use the exclude segment in a virtual report suite
+
+You can use the segment in a [Virtual report suite](../../vrs/vrs-about.md) to more conveniently exclude the data. This option is ideal in that you don't have to remember to apply the segment for each report that that includes the affected date range. If you already use virtual report suites as your primary source of data, you can add the segment to an existing VRS.
+
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. Click **[!UICONTROL Add]**.
+3. Enter the desired name and description for the virtual report suite.
+4. Drag the exclude segment to the area labeled **[!UICONTROL Add segment]**.
+5. Click **[!UICONTROL Continue]** in the upper right, then click **[!UICONTROL Save]**.
+
+![Segment applied to VRS](../assets/exclude_segment_vrs.png)
+
+## Alternatives in other tools
+
+If you use Reports & Analytics, you can use a [calendar event](../../t-calendar-event.md) to highlight affected days in any trended report.
+
+>[!NOTE] This method does not apply to Analysis Workspace.
+
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+2. Enter the desired title, date range, and note text.
+3. Click **[!UICONTROL Save]**.
+
+![Calendar event](../assets/exclude_calendar_event.png)

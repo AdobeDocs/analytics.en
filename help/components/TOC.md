@@ -31,6 +31,8 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Data Warehouse Segment Compatibility](c-segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](c-segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](c-segmentation/seg-reference/c-troubleshooting.md)
+  + Use cases {#use-cases}
+    + [Exclude specific dates](c-segmentation/use-cases/exclude-date-range.md)
   + [Frequently Asked Questions](c-segmentation/seg-transition.md)
   + [What's New in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
   + [Transition Guide for Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)

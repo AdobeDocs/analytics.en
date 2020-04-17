@@ -5,9 +5,7 @@ description: Tips for excluding dates or date ranges if you do not want to inclu
 
 # Exclude specific dates in analysis
 
-Sometimes a date range contains data that you don't want to analyze. For example, a bot sends an outlier hit containing an incorrect amount of revenue, drastically inflating the metric. If your site experienced implementation issues or other gaps in data, you might want to exclude it from reporting as well to prevent making decisions on partial data.
-
-You can use a segment to exclude any date ranges that you don't want to include in your reports.
+If you have data [impacted by an event](/help/technotes/event-impacted.md), you can use a segment to exclude any date ranges that you don't want to include in your reports. Segmenting out event-impacted dates can help prevent your organization from making decisions on partial data.
 
 ## Isolate affected days
 
@@ -63,15 +61,3 @@ You can use the segment in a [Virtual report suite](../../vrs/vrs-about.md) to m
 5. Click **[!UICONTROL Continue]** in the upper right, then click **[!UICONTROL Save]**.
 
 ![Segment applied to VRS](../assets/exclude_segment_vrs.png)
-
-## Alternatives in other tools
-
-If you use Reports & Analytics, you can use a [calendar event](../../t-calendar-event.md) to highlight affected days in any trended report.
-
->[!NOTE] This method does not apply to Analysis Workspace.
-
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Enter the desired title, date range, and note text.
-3. Click **[!UICONTROL Save]**.
-
-![Calendar event](../assets/exclude_calendar_event.jpg)

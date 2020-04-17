@@ -323,8 +323,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Time](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
   + [Labs overview](tech-previews/overview.md)
-+ Mobile App {#mobapp}
-  + [Mobile App overview](mobile-app/home.md)
++ dashboards {#mobapp}
+  + [dashboards overview](mobile-app/home.md)
   + [Curator guide](mobile-app/curator.md)
   + [Executive user quick start guide](mobile-app/executive.md)
 + Progressive web apps {#pwa}

@@ -9,7 +9,7 @@ Sometimes an event can impact data quality in your organization. Examples includ
 
 * A bot sending outlier data, such as millions of dollars in revenue
 * Your organization pushed an update to your website that negatively impacted your Analytics implementation
-* Outages that impact server quality, either on your organization's end or Adobe's end
+* Other issues that affect data quality or completeness
 
 If your site experienced data quality issues, implementation issues, or other gaps in data, you might want to exclude it from reporting to prevent making decisions on partial data. Use these sections to gauge the impact of the event on your data, and determine how you want to proceed.
 

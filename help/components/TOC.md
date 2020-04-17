@@ -33,13 +33,11 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Troubleshooting](c-segmentation/seg-reference/c-troubleshooting.md)
   + Use cases {#use-cases}
     + [Exclude specific dates](c-segmentation/use-cases/exclude-date-range.md)
-  + [Frequently Asked Questions](c-segmentation/seg-transition.md)
-  + [What's New in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
+  + [Frequently asked questions](c-segmentation/seg-transition.md)
+  + [What's new in Analytics segmentation](c-segmentation/whats-new-segmentation.md)
   + [Transition Guide for Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Calculated Metrics {#calculated-metrics}
-  + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
-  + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)
-  + [How-to videos](c-calcmetrics/cm-videos.md)
+  + [Calculated and advanced calculated (derived) metrics](c-calcmetrics/cm-overview.md)
   + Calculated Metrics Workflow {#calcmetric-workflow}
     + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
     + [Find metrics](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -62,6 +60,9 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
+  + [Derive data impacted by events](c-calcmetrics/cm-events.md)
+  + [Frequently asked questions](c-calcmetrics/cm-transition.md)
+  + [How-to videos](c-calcmetrics/cm-videos.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual Report Suite Component Curation](vrs/vrs-components.md)

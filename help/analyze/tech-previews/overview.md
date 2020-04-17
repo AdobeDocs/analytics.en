@@ -48,7 +48,7 @@ To launch and evaluate a prototype:
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. Click **Submit** to send your feedback.
 

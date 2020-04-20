@@ -25,12 +25,6 @@ If you want to learn more about how much impact an event made on your data over 
 
 Once you create segments and use date comparison, you can combine both of these concepts to correct trended data using calculated metrics. Include the segments within a calculated metric, then multiply the affected days by the offset found when comparing dates. See [Derive data impacted by events](/help/components/c-calcmetrics/cm-events.md) in the Components user guide.
 
-## Use a calendar event in Reports & Analytics
+## Communicate impact to users in your organization
 
-If you use Reports & Analytics, you can use a [calendar event](/help/components/t-calendar-event.md) to highlight affected days in any trended report. This method does not apply to Analysis Workspace.
-
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Enter the desired title, date range, and note text.
-3. Click **[!UICONTROL Save]**.
-
-![Calendar event](assets/exclude_calendar_event.jpg)
+Once you are prepared with how you intend to handle an event, you can [communicate to users in your organization](event/event-communicate.md). Adobe offers several places within Analytics where you can place text to communicate to users what happened and what dimensions/metrics they can use.

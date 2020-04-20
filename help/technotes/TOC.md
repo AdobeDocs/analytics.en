@@ -23,6 +23,8 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
 + [Analyze data impacted by events](event-impacted.md)
++ Analyze data impacted by events {#event}
+  + [Communicate impact to users](event/event-communicate.md)
 + [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
 + [Latency](latency.md)
@@ -30,7 +32,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Privacy overview](privacy-overview.md)
 + [Redirects and aliases](redirects.md)
 + [Multi-currency support](multicurrency.md)
-+ Regional Data Collection {rdc}
++ Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
 + [Security resources](security.md)

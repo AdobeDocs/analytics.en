@@ -5,7 +5,7 @@ description: Learn about the impact of an event, such as an implementation issue
 
 # Compare dates impacted by an event to previous ranges
 
-If you have data [impacted by an event](/help/technotes/event-impacted.md), you can look at historical trends to gauge its impact. This comparison is valuable to understand just how much an event impacts your data, so you can decide whether to exclude the data, add a note to reports, or ignore it.
+If you have data [impacted by an event](overview.md), you can look at historical trends to gauge its impact. This comparison is valuable to understand just how much an event impacts your data, so you can decide whether to exclude the data, add a note to reports, or ignore it.
 
 ## Create a date range that includes the event
 

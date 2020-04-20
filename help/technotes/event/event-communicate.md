@@ -9,13 +9,13 @@ If you have data [impacted by an event](../event-impacted.md), it is important t
 
 ## Communicate through panel or visualization descriptions
 
-If you have a Workspace project shared among users in your organization, you can communicate the impact of an event through panel or visualization descriptions. Right-click a panel or visualization title, then select **[!UICONTROL Edit description]**.
+If you have a Workspace project shared among users in your organization, you can communicate the impact of an event through panel or visualization descriptions. Right-click a panel or visualization header, then select **[!UICONTROL Edit description]**.
 
 ![Panel description](../assets/panel_description.png)
 
-## Communicate through text box visualizations
+## Communicate through text visualizations
 
-You can also communicate impact of an event through dedicated text box visualizations. See [Text visualizations](/help/analyze/analysis-workspace/visualizations/text.md) in the Analyze user guide.
+You can also communicate impact of an event through dedicated text visualizations. See [Text visualizations](/help/analyze/analysis-workspace/visualizations/text.md) in the Analyze user guide.
 
 ![Text visualization](../assets/text_visualization.png)
 

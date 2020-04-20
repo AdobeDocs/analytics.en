@@ -27,4 +27,4 @@ Once you create segments and use date comparison, you can combine both of these 
 
 ## Communicate impact to users in your organization
 
-Once you are prepared with how you intend to handle an event, you can [communicate to users in your organization](event/event-communicate.md). Adobe offers several places within Analytics where you can place text to communicate to users what happened and what dimensions/metrics they can use.
+Once you are prepared with how you intend to handle an event, you can [communicate to users in your organization](event/event-communicate.md). Adobe offers several places within Analytics where you can place text to communicate to users what happened and what components that they can use.

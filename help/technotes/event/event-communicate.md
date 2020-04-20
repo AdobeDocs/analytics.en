@@ -9,7 +9,7 @@ If you have data [impacted by an event](../event-impacted.md), it is important t
 
 ## Communicate through panel or visualization descriptions
 
-If you have a workspace project shared among users in your organization, you can communicate the impact of an event through panel or visualization descriptions. Right-click a panel or visualization title, then select **[!UICONTROL Edit description]**.
+If you have a Workspace project shared among users in your organization, you can communicate the impact of an event through panel or visualization descriptions. Right-click a panel or visualization title, then select **[!UICONTROL Edit description]**.
 
 ![Panel description](../assets/panel_description.png)
 

@@ -6,9 +6,9 @@ uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 
 # Context-aware sessions
 
-Context-aware sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
+Context-aware sessions in virtual report suites change how Adobe Analytics calculates visits from any device. This article also describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 
-You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your mobile apps.
+You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your digital experiences.
 
 ## Customer Perspective URL Parameter {#section_8B298006362341E3AC16A148422D1F65}
 

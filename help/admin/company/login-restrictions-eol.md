@@ -27,7 +27,7 @@ Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be
 
 ## What are your other options?
 
-As stated above, this Analytics feature will be end-of-lifed. To give you time to implement SSO and Federated IDs, we have delayed the EOL date to October 2020. 
+As stated above, this Analytics feature will be end-of-lifed. To give you time to implement SSO and Federated IDs, we have delayed the EOL date to January 2021. 
 
 Both SSO and Federated IDs are superior solutions to the IP Login Restriction feature we have in place today and will provide you with more control, security and features. For information on how to set up SSO/Federated IDs, we have the following help documentation available. We recommend that you read them thoroughly and work with your IT department to get them implemented:
 

@@ -33,7 +33,7 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clicks </td> 

@@ -5,7 +5,7 @@ description: Use calculated metrics to correct trended data impacted by an event
 
 # Derive data impacted by events
 
-If you have data [impacted by an event](overview.md), you can use calculated metrics to derive trended values for the duration of the event. For example, if you had an event that caused a 25% drop in data, you can use that as a multiplier in a calculated metric.
+If you have data [impacted by an event](overview.md), you can use calculated metrics to derive trended values for the duration of the event. For example, if you had an event that caused a 25% drop in data, you can use that as a multiplier in a calculated metric. This method is helpful if you do not have the time or resources to insert data into Adobe Analytics using [Data sources](/help/import/c-data-sources/datasrc-home.md) or the [Data insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md).
 
 >[!NOTE] These steps work best when you understand the impact of an event, both from a segmentation and date comparison perspective. Make sure to follow [Compare dates impacted by an event to previous ranges](compare-dates.md) and [Exclude specific dates in analysis](segments.md) before following this page.
 

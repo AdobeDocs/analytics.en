@@ -31,7 +31,8 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 |[!UICONTROL Dimension]|Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a project. They are non-numeric values and dates that break down into dimension items. For example, "browser", or "page" are dimensions.|
 |[!UICONTROL Dimension item]|Dimension items are individual values for a dimension. For example, dimension items for the browser dimension would be "Chrome", "Firefox", "Edge", etc.|
 |[!UICONTROL Metric]|Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.|
-|Visualization|Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others.|
+|[!UICONTROL Visualization]|Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others.|
+|[!UICONTROL Breakdown]|A breakdown is a way to literally break down a dimension by other dimensions. In our example, you could break down US States by Mobile Devices to get the mobile device visits per state, or by Mobile Device types, or by Regions, by Internal Campaigns, etc..|
 |[!UICONTROL Segment]|Segments let you identify subsets of visitors based on characteristics or website interactions. For example, you can build [!UICONTROL Visitor] segments based on attributes: browser type, device, number of visits, country, gender, or based on interactions: campaigns, keyword search, search engine, or based on exits and entries: visitors from Facebook, a defined landing page, referring domain, or based on custom variables: form field, defined categories, customer ID.  |
 
 ## Get started with Quick Insights
@@ -75,7 +76,7 @@ Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some 
 
     ![](assets/qibuilder8.png)
 
-* **Breakdown by**: You can use up to 3 levels of breakdowns on dimensions to drill down to the data you really need. A breakdown is a way to literally break down the dimension by other dimensions. In our example, you could break down US States by Mobile Devices to get the mobile device visits per state, or by Mobile Device types, or by Regions, by Internal Campaigns, etc..
+* **Breakdown by**: You can use up to 3 levels of breakdowns on dimensions to drill down to the data you really need.
 
     ![](assets/qibuilder5.png)
 

@@ -78,7 +78,7 @@ In Live mode, the Links on Page report shows trended data spanning several minut
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">Link Tracking Methodology</a>. </td> 
+   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Link Clicks </td> 

@@ -57,7 +57,6 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 
     ![](assets/qibuilder3.png)
 
-
     * An accompanying visualization, in this case a [bar chart](/help/analyze/analysis-workspace/visualizations/bar.md). The visualization that is generated is based on the type of data you added to the table. You can change the type of visualization by clicking on the drop-down arrow next to **[!UICONTROL Bar]**.
 
 1. (Optional) Drill down on dimensions and see dimension items by clicking the > right-arrow next to the dimension.

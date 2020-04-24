@@ -27,4 +27,10 @@ If you use Reports & Analytics, you can use a [calendar event](/help/components/
 2. Enter the desired title, date range, and note text.
 3. Click **[!UICONTROL Save]**.
 
-![Calendar event](../assets/exclude_calendar_event.jpg)
+![Calendar event](../assets/exclude_calendar_event.png)
+
+## Video
+
+This video walks through each of the above steps.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)

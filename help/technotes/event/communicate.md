@@ -5,7 +5,7 @@ description: Learn effective ways to communicate the impact of an event in your 
 
 # Communicate event impact to users
 
-If you have data [impacted by an event](../event-impacted.md), it is important to communicate that event to users in your organization.
+If you have data [impacted by an event](overview.md), it is important to communicate that event to users in your organization.
 
 * Develop a common disclaimer that you can use in communications for consistency
 * Provide ongoing communication to Analytics users and key stakeholders during and after the event

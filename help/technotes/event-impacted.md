@@ -34,3 +34,8 @@ Once you are prepared with how you intend to handle an event, you can [communica
 This video walks through each of the above steps.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Exclude data using segmentation
+* **2:55**: Compare an event to previous ranges
+* **8:42**: Derive data using calculated metrics
+* **11:46**: Communicate impact to users

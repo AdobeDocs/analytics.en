@@ -5,7 +5,13 @@ description: Learn effective ways to communicate the impact of an event in your 
 
 # Communicate event impact to users
 
-If you have data [impacted by an event](overview.md), it is important to communicate that event to users in your organization. The following sections show different ways that you can communicate with users in your organization within Adobe Analytics.
+If you have data [impacted by an event](../event-impacted.md), it is important to communicate that event to users in your organization.
+
+* Develop a common disclaimer that you can use in communications for consistency
+* Provide ongoing communication to Analytics users and key stakeholders during and after the event
+* Place a calendar reminder for subsequent milestones, such as the following month or year. This communication in the future helps remind users viewing reports the impact in month-over-month or year-over-year reports.
+
+Within Adobe Analytics, the following sections show different ways that you can communicate with users in your organization. You can also use other methods outside of Adobe Analytics, such as email, to communicate with users.
 
 ## Communicate through panel or visualization descriptions
 

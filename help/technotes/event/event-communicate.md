@@ -40,7 +40,7 @@ For any trended visualization in Workspace, you can add in a series that represe
 
    ![Calculated metric settings](../assets/calcmetric_zero_no_value.png)
 
-1. Add a Line visualization. Your affected days are represented with a different color. Users can also click the 'Info' icon in the calculated metric for more information.
+1. Add a Line visualization. Affected days are represented with a different color. Users can also click the 'Info' icon in the calculated metric for more information.
 
    ![Info icon](../assets/calcmetric_infoicon.png)
 

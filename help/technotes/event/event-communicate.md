@@ -29,7 +29,7 @@ You can also communicate impact of an event through dedicated text visualization
 
 For any trended visualization in Workspace, you can add in a series that represents your impacted date range.
 
-1. Create a calculated metric with the 'Affected days' segment from following [Exclude specific dates in analysis](/help/components/c-segmentation/use-cases/exclude-date-range.md).
+1. Create a calculated metric with the 'Affected days' segment by following [Exclude specific dates in analysis](/help/components/c-segmentation/use-cases/exclude-date-range.md).
 1. Add the desired metric to calculated metric canvas.
 
    ![Metric](../assets/calcmetric_event.png)

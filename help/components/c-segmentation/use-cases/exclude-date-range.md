@@ -42,7 +42,9 @@ You can apply both the 'Affected days' segment and 'Exclude affected days' segme
 
 ![Both segments](../assets/affected_and_exclude.png)
 
->[!TIP] If you don't want dips to zero in your trended visualization, click the gear icon under the calculated metric in the freeform table and enable **[!UICONTROL Interpret zero as no value]**.
+If you don't want to show zeros in your table or visualizations (causing dips), enable **[!UICONTROL Interpret zero as no value]** under column settings.
+
+![Interpret zero](../assets/interpret_zero.jpg)
 
 ### Apply the exclude segment to a project
 

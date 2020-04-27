@@ -19,6 +19,31 @@ You can also communicate impact of an event through dedicated text visualization
 
 ![Text visualization](assets/text_visualization.png)
 
+## Add custom calendar events to trends in Workspace
+
+For any trended visualization in Workspace, you can add in a series that represents your impacted date range.
+
+1. Create a calculated metric with the 'Affected days' segment from following [Exclude specific dates in analysis](segments.md).
+1. Add the desired metric to calculated metric canvas.
+
+   ![Metric](../assets/calcmetric_event.png)
+
+1. Add a title and description informing users of the impact. You can also tag this metric as a calendar annotation if desired.
+
+   ![Title and description](../assets/calcmetric_title_description.png)
+
+1. In a freeform table, add the 'Day' dimension. Add 'Visits' and your calculated metric as columns side-by-side.
+
+   ![Freeform table](../assets/calcmetric_freeform.png)
+
+1. Click the column settings gear icon for your calculated metric, and enable **[!UICONTROL Interpret zero as no value]**.
+
+   ![Calculated metric settings](../assets/calcmetric_zero_no_value.png)
+
+1. Add a Line visualization. Your affected days are represented with a different color. Users can also click the 'Info' icon in the calculated metric for more information.
+
+   ![Info icon](../assets/calcmetric_infoicon.png)
+
 ## Use a calendar event in Reports & Analytics
 
 If you use Reports & Analytics, you can use a [calendar event](/help/components/t-calendar-event.md) to highlight affected days in any trended report. This method does not apply to Analysis Workspace.

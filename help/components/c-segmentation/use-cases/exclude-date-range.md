@@ -42,6 +42,8 @@ You can apply both the 'Affected days' segment and 'Exclude affected days' segme
 
 ![Both segments](../assets/affected_and_exclude.png)
 
+>[!TIP] If you don't want dips to zero in your trended visualization, click the gear icon under the calculated metric in the freeform table and enable **[!UICONTROL Interpret zero as no value]**.
+
 ### Apply the exclude segment to a project
 
 You can apply the 'Exclude affected days' segment to a Workspace project. Drag the exclude segment to the Workspace canvas section labeled *Drop a segment here*.

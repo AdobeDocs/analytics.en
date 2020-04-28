@@ -1,6 +1,6 @@
 ---
-title: Content velocity measures the impact of content on downstream content.
-description: Content velocity
+title: Content Velocity
+description: Content Velocity measures the impact of content on downstream content.
 ---
 
 # Content Velocity

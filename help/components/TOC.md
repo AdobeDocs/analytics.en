@@ -284,6 +284,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Cart Views](c-variables/c-metrics/metrics-cart-views.md)
     + [Checkouts](c-variables/c-metrics/metrics-checkouts.md)
     + [Click-throughs](c-variables/c-metrics/metrics-click-throughs.md)
+    + [Content Velocity]((c-variables/c-metrics/metrics-content-velocity.md))
     + [Custom Metrics](c-variables/c-metrics/metrics-custom.md)
     + [Daily Unique Visitors](c-variables/c-metrics/metrics-daily-unique-visitors.md)
     + [Entries](c-variables/c-metrics/metrics-entries.md)

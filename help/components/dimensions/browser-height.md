@@ -19,7 +19,7 @@ Browser height is always smaller than screen height, since browser height doesn'
 
 This dimension retrieves data from the [`bh` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerHeight` in the browser. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bh` query string parameter on the first hit of each visit.
 
-Adobe persists browser height for a entire visit. If browser height is adjusted mid-visit, the adjustment is not recorded.
+Adobe persists browser height for a visit. If browser height is adjusted mid-visit, the adjustment is not recorded.
 
 ## Dimension values
 

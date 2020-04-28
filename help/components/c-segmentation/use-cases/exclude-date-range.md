@@ -44,7 +44,7 @@ You can apply both the 'Affected days' segment and 'Exclude affected days' segme
 
 If you don't want to show zeros in your table or visualizations (causing dips), enable **[!UICONTROL Interpret zero as no value]** under column settings.
 
-![Interpret zero](../assets/interpret_zero.jpg)
+![Interpret zero](../assets/interpret_zero.png)
 
 ### Apply the exclude segment to a project
 

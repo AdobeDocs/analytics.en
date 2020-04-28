@@ -1,5 +1,5 @@
 ---
-title: Content velocity
+title: Content velocity measures the impact of content on downstream content.
 description: Content velocity
 ---
 

@@ -193,3 +193,5 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
++ Use XDM data with Analytics {#aep-edge}
+  + [Use AEP Web SDK](aep-edge/xdmoverview.md)

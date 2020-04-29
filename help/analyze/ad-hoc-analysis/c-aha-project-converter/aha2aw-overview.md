@@ -17,8 +17,8 @@ The Ad Hoc Analysis Project Converter can seamlessly convert all your Ad Hoc pro
 
 Project conversion has considerable advantages:
 
-* It converts your projects to our cutting-edge Analytics reporting tool, [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/), which is constantly enhanced with new visualizations and other highly coveted features.
-* You can take advantage of all the cool features Analysis Workspace offers, listed here: [Which Analytics Tool should I Use](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html).
+* It converts your projects to our cutting-edge Analytics reporting tool, [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html), which is constantly enhanced with new visualizations and other highly coveted features.
+* You can take advantage of all the cool features Analysis Workspace offers, listed here: [Which Analytics Tool should I Use](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html).
 * You can bulk convert your projects without the need for manually rebuilding them in Analysis Workspace.
 * While Ad Hoc Analysis has been a very useful tool for many years, it is now in maintenance mode with no new features being added to it.
 

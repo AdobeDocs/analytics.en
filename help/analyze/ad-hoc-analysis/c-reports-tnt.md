@@ -21,4 +21,4 @@ Examples include:
 
 By leveraging data in Reports and Analytics, you can drill into your Target recipes using breakdowns and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The Reports and Analytics report displays conversion data rather than Target's conversion data.
 
-See the [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/) help system for more information.
+See the [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html) help system for more information.

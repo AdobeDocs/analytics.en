@@ -10,7 +10,7 @@ uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 
 Send an Analysis Workspace project via email, or schedule it for delivery.
 
-1. [Create an Analysis Workspace project](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/t_freeform_project.html) and save it.
+1. [Create an Analysis Workspace project](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) and save it.
 1. Click **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
 
    ![Step Result](assets/send-file.png)

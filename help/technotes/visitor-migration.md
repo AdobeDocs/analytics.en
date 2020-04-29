@@ -12,11 +12,11 @@ Visitor migration is a process where the visitor ID cookie is migrated from one 
 
 Visitor migration lets you preserve visitor identification cookies when changing data collection domains. Data collection domains might change for the following reasons:
 
-* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)) 
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)) 
 
-* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
+* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Moving from one CNAME to another (changing domains).
 

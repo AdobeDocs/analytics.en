@@ -7,7 +7,7 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 
 # Activity Map overview
 
->[!Note]
+>[!NOTE]
 >Learn how Activity Map supports Single-Page Applications (SPA) on our [FAQ](/help/analyze/activity-map/activitymap-faq.md) page.
 
 >[!IMPORTANT]

@@ -17,4 +17,4 @@ Bounce Rate does not include visits where multiple actions occurred on a single 
 
 >[!NOTE] Existing implementations can sometimes contain a calculated metric that differs from the Analytics default metric. Check the calculated metric definition to make sure there are no differences.
 
-See this [Knowledgebase article](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access) for more information.
+See this [Knowledgebase article](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html) for more information.

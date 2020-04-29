@@ -97,14 +97,14 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 1. Launch Chrome Developer Tools before loading a page
 1. Load the page and check Applications > Cookies. The AAM UUID should be set in the 3rd-party
-Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
+Demdex cookie ([adobe.demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
 on the browser (`50814298273775797762943354787774730612` in the example below).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) for more information.
+The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
 
 ![](assets/aam-vpv.png)
 

@@ -23,7 +23,7 @@ These features enable you to answer questions about site traffic, visitor demogr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Log in to Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Launch Ad Hoc Analysis. </p> </td> 

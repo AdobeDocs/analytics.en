@@ -10,7 +10,7 @@ uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 
 Test unpublished rules from your console if you use Akamai hosting.
 
-The Switcher plug-in is often the easiest way to test. See [Search Discovery plug-ins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information.
+The Switcher plug-in is often the easiest way to test. See [Search Discovery plug-ins](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) in the Dynamic Tag Management Product Documentation for more information.
 
 The following steps show how to test without using the Switcher plug-in: 
 

@@ -10,7 +10,7 @@ Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among ot
 
 >[!NOTE] Existing workbooks might point to requests with legacy metric IDs. When you use Report Builder 5.2, these legacy metric IDs will be converted to the new global ID. If you share this workbook with a user of Report Builder v5.1 or earlier, that user will not be able to see the calculated metrics.
 
-To find out more about how to create and manage calculated metrics with the new Calculated Metric Builder and Manager, refer to the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics) Guide.
+To find out more about how to create and manage calculated metrics with the new Calculated Metric Builder and Manager, refer to the [Calculated Metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) Guide.
 
 In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 

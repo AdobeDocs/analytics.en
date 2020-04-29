@@ -17,5 +17,5 @@ This dimension uses dynamic device data that is continually being updated as new
 
 The data for this report is populated using the visitor's user agent string.
 
->[!Note]
+>[!NOTE]
 >Only changes made to an existing mobile ID are retroactive. If the device is new and does not have a mobile ID yet, the only data that will be tied to this device starts on the date when an ID is added to the device database.

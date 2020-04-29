@@ -30,7 +30,7 @@ System requirements for Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Users </td> 
-   <td colname="col2"> <p>To enable access to the Workspace tab in Analytics, administrators must add users to the <span class="uicontrol"> Analysis Workspace Access</span> group in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt;<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Groups</a>. </p> </td> 
+   <td colname="col2"> <p>To enable access to the Workspace tab in Analytics, administrators must add users to the <span class="uicontrol"> Analysis Workspace Access</span> group in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt;<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > Groups</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferring projects </td> 

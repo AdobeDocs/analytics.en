@@ -69,7 +69,7 @@ New Features in Adobe Analytics Segmentation.
    <td colname="col2"> <p>In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  > Use segments in Fallout analysis </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  > Use segments in Fallout analysis </a> </p> </td> 
    <td colname="col2"> <p>You can create segments from a touchpoint, add segments as touchpoints, and compare key workflows across various segments in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,7 +100,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Segment Comparison </p> </td> 
-   <td colname="col2"> <p> The <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  > Segment Comparison</a> (Segment IQ) Panel in Analysis Workspace allows customers to quickly compare any two Analytics segments to find the most significant differences between them across all data points. </p> </td> 
+   <td colname="col2"> <p> The <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  > Segment Comparison</a> (Segment IQ) Panel in Analysis Workspace allows customers to quickly compare any two Analytics segments to find the most significant differences between them across all data points. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +115,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Create Segment</span> Permission </p> </td> 
-   <td colname="col2"> <p>If users do not have the <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Create Segment permission</a>, they can no longer access the Segment Builder. </p> </td> 
+   <td colname="col2"> <p>If users do not have the <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > Create Segment permission</a>, they can no longer access the Segment Builder. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +164,7 @@ New Features in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Permissions changes in Segment Builder </p> </td> 
-   <td colname="col2"> <p>The Admin user can limit which users can create new segments. By default, all users can create segments. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > More...</a> </p> </td> 
+   <td colname="col2"> <p>The Admin user can limit which users can create new segments. By default, all users can create segments. <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > More...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

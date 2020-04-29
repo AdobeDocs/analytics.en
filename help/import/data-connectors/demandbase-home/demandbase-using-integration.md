@@ -28,6 +28,6 @@ For example, you can build a segment that will include only Visits from SMB orga
 
 Audience equals SMB.
 
-For more information on how to build segments, consult the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+For more information on how to build segments, consult the [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 This segment can then be applied to practically any report - one example is the Time Spent per Visit Report seen here: ![](assets/segment_applied_report.png)

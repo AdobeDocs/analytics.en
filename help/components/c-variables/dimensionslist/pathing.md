@@ -9,7 +9,7 @@ uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 
 A group of reports based on path analysis. Technically, pathing means to move from one page name to another (from one value to another).
 
-Use [Analysis Workspace Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) for more flexible pathing options.
+Use [Analysis Workspace Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) for more flexible pathing options.
 
 >[!NOTE] To enable pathing, go to **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. To enable pathing on the Site Section and Server reports, contact Customer Care.
 

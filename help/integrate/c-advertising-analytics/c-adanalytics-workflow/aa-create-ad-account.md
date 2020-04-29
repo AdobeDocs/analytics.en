@@ -80,7 +80,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
    >[!IMPORTANT]
    >
-   >Only report suites that have been [mapped to an Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) will be available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Only report suites that have been [mapped to an Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html) will be available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    For the **[!UICONTROL Mapping Settings]** following these guidelines: 
 
@@ -94,7 +94,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Report Suite Mapping </p> </td> 
-      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
+      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
       </tr> 
     </tbody> 
     </table>

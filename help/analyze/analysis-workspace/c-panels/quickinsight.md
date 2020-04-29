@@ -7,7 +7,7 @@ title: Quick Insights builder
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** is currently in beta testing and not generally available to all Adobe Analytics customers yet.
+>**[!UICONTROL Quick Insights]** is currently in limited testing and not generally available to all Adobe Analytics customers yet.
 
 [!UICONTROL Quick Insights] provides guidance for non-analysts and new users of [!UICONTROL Analysis Workspace] to learn how to answer business questions quickly and easily. It is also a great tool for advanced users who want to answer a simple question quickly without having to build a table themselves.
 

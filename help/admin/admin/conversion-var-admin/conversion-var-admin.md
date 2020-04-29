@@ -20,7 +20,7 @@ eVars are best used to measure cause and effect, such as:
 
 If traffic measurement or pathing is desired, using traffic variables is recommended.
 
->[!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+>[!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -80,7 +80,7 @@ Descriptions of fields used when [editing conversion variables](/help/admin/admi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>Merchandising variables can follow one of two syntaxes: </p> <p> <b>Products Syntax</b>:</span> Associates the eVar value to a product. Note:  If Products Syntax is selected, the Merchandising Binding Event section is disabled and not selectable for edit. For this syntax, Binding Events are not applicable. </p> </p> <p> <b>Conversion Variable Syntax</b>:</span> Associates the eVar with a product only if a Binding Event occurs. In this case, you select the events that act as Binding Events. </p> <p>Changing this setting without updating your JavaScript code accordingly causes lost data. See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html"> Merchandising Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Merchandising variables can follow one of two syntaxes: </p> <p> <b>Products Syntax</b>:</span> Associates the eVar value to a product. Note:  If Products Syntax is selected, the Merchandising Binding Event section is disabled and not selectable for edit. For this syntax, Binding Events are not applicable. </p> </p> <p> <b>Conversion Variable Syntax</b>:</span> Associates the eVar with a product only if a Binding Event occurs. In this case, you select the events that act as Binding Events. </p> <p>Changing this setting without updating your JavaScript code accordingly causes lost data. See <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html"> Merchandising Variables</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising Binding Event</span> </p> <p>(eVar only) </p> </td> 

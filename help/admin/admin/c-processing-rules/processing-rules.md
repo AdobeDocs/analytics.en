@@ -44,7 +44,7 @@ Context data variables are a new type of variable that are available only to pro
 
 ![](assets/evar-context-map.png)
 
-See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in Implementation Help.
+See [Context Data Variables](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in Implementation Help.
 
 ## Use Processing Rules to Transform Hit Data and Trigger Events {#section_8284E72E999244E091CD7FB1A22342B6}
 

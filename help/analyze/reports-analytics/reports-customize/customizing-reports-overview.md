@@ -213,4 +213,4 @@ Most reports in Reports & Analytics now include a "Try in Workspace" button to a
 
 Currently, the button is only available if your username has full rights to Analysis Workspace.
 
-For more information on all the ways you can customize your report, see the [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) guide.
+For more information on all the ways you can customize your report, see the [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) guide.

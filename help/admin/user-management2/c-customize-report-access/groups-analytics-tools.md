@@ -54,7 +54,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) License Users|Grants permission to access [!UICONTROL Ad Hoc Analysis].|
 |Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
 |[Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
-|[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
+|[Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
 |[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)|Grants users access to  Reports & Analytics.|
 |[Calculated Metric Creation](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)|Grants users permission to create calculated metrics.|
 |[Segment Creation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)|Grants users permission to create segments.|

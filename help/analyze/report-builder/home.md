@@ -45,6 +45,6 @@ uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 
 ## Reports & Analytics help
 
-* [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
+* [Analysis Workspace Help](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
 * [Reports & Analytics Help](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
 * [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.

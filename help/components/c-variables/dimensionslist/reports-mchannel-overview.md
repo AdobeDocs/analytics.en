@@ -27,7 +27,7 @@ The Marketing Channel Overview Report is designed to provide high-level insight 
     * All custom events: Events 1-80, and Events 81-100 if on H22 code or higher.
     * **Visits** and **Visitors**: requires Commerce Visits and Visitors, which is dependent on organization and report suite. Contact your Account Manager for additional details.
     
-    * **Budget** and **Cost**: metrics specific to Marketing Channels. See [Costs and Budgets](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html).
+    * **Budget** and **Cost**: metrics specific to Marketing Channels. See [Costs and Budgets](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/analyze-mc.html).
 
 ## Product-Specific Properties {#section_0C78D294D00942FD9A26D37CB5D645AE}
 

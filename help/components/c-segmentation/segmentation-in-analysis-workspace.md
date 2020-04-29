@@ -8,6 +8,6 @@ uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 
 Learn about segmentation features in Analysis Workspace.
 
-[Segment Comparison (Segment IQ)](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)
+[Segment Comparison (Segment IQ)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
 
 [Apply Segments in Fallout Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/compare-segments-fallout.html) 

@@ -44,7 +44,7 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 | Report | Description | Documentation Link |
 |--- |--- |--- |
-|Full Dimensions/Reports List|Definition of all dimensions/reports available in Adobe Analytics.|[Dimensions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)|
+|Full Dimensions/Reports List|Definition of all dimensions/reports available in Adobe Analytics.|[Dimensions](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)|
 |Advertising Analytics|Analyze all your Google and Bing Paid Search data side by side, within Adobe Analytics. Dimensions created through the integration include Ad Platform, Keyword, Match Type, etc. Metrics created are AMO Impressions, AMO Clicks, AMO Cost, Avg. Position, and Avg. Quality Score.|[Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html)|
 |Audience Analytics|Enrich inbound Analytics hits with a user's audience membership in AAM. you can incorporate AAM audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, and ad impression data into any Analytics workflow. Dimensions created through this integration are Audience ID & Audience Name.| [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)|
 |Attribution IQ|Enables you to understand how meaningful engagement takes place across the customer journey, intelligently identifying inflection points that lead customers to target outcomes, effectively optimizing marketing initiatives. Models include first, last, linear, participation, j-shaped, inverse j-shaped, u-shape, same touch, custom and time decay.|[Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)|
@@ -77,8 +77,8 @@ Click [here](https://docs.adobe.com/content/help/en/analytics/technotes/terms.ht
 
 |  Option  | Description  | Documentation Link  |
 |---|---|---|
-|  Classification Importer  | Import metadata against captured dimensions via browser or FTP upload. Manual method compared to Rule Builder.  | [Classification Importer](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)  |
-|  Rule Builder  | Automatically create metadata classifications of dimensions based on user-defined rules.  | [Classification Rule Builder](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)  |
+|  Classification Importer  | Import metadata against captured dimensions via browser or FTP upload. Manual method compared to Rule Builder.  | [Classification Importer](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html)  |
+|  Rule Builder  | Automatically create metadata classifications of dimensions based on user-defined rules.  | [Classification Rule Builder](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)  |
 | Customer Attributes|CRM data uploaded to the Experience Cloud for use in  Adobe Analytics and Adobe Target.|[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)|
 |  Data Sources  | Impor offline metrics into Analytics against dimensions or simply by day.  | [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html)|
 |  Adobe Exchange Data Connectors  |See [Analytics Tools](/help/landing/an-key-concepts.md)|  |

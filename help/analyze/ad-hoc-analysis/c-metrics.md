@@ -76,7 +76,7 @@ c_calc_metric_builder.xml
 
  -->
 
-For more information on how Calculated Metrics are built and managed, see the [Calculated Metric Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+For more information on how Calculated Metrics are built and managed, see the [Calculated Metric Guide](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
 
 Here is how you access the Calculated Metric Builder in Ad Hoc Analysis:
 

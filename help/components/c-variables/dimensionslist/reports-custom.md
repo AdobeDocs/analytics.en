@@ -17,4 +17,4 @@ Custom reports can bring increased value to you as an analyst. If you see report
 
 Additionally, you can save reports that are important to you. These reports are called bookmarks. You can also put several reports onto one canvas to get a quick look at your most important reports. These are called dashboards and are also user-specific. The interface displays a bar above the graph listing your bookmarks and dashboards.
 
-See [Bookmarks](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) and [Dashboards and Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html) for more information.
+See [Bookmarks](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.

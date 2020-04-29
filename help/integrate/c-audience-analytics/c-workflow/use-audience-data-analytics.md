@@ -20,7 +20,7 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 
 ## Segment Comparison {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[Segment Comparison](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
+[Segment Comparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Segment Comparison]** panel from the left rail.
 
@@ -37,7 +37,7 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 
 ## Customer Journey (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
+AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Flow]** visualization from the left rail.
 
@@ -47,7 +47,7 @@ AAM segment data is passed into Analytics on a hit-by-hit basis, and represents 
 
 ![](assets/flow-aamaudiences.png)
 
-Audiences can also be used in [Fallout visualizations](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+Audiences can also be used in [Fallout visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
@@ -65,7 +65,7 @@ Audiences can also be used in [Fallout visualizations](https://marketing.adobe.c
 
 ## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
 
-You can incorporate the Audiences dimensions in the Analytics [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), along with the behavioral information that Analytics collects.
+You can incorporate the Audiences dimensions in the Analytics [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), along with the behavioral information that Analytics collects.
 
 1. Go to  **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 1. Click **[!UICONTROL Add]** to create a new segment.

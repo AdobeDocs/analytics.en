@@ -15,7 +15,7 @@ You also may want to ensure your mobile apps and websites will have relevant pop
 
 ## Manage Consumer Consent {#section_3012015E7E8942519FB9279CF7057EAB}
 
-You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for [implementing an opt-out mechanism](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
+You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for [implementing an opt-out mechanism](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
 
 ## Validate Users and Their Data {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 

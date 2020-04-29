@@ -47,7 +47,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 
    This will take you to the group management page in the Admin Console.
 
-1. [Add users to this group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and **[!UICONTROL Save Group]**.
+1. [Add users to this group](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) and **[!UICONTROL Save Group]**.
 
 1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 

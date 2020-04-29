@@ -36,7 +36,7 @@ Use Revenue to view the general success and trend of your site. You can also use
 
 * [!UICONTROL Revenue] rounds the total amount for a time period to the nearest currency value. It does not round each individual product or hit.
 * Because Analytics round each day to the nearest whole currency, comparing the sum of each day to the monthly total is off by a very small amount. This is because the monthly total is not the sum of each rounded day, it is the absolute sum rounded to the nearest whole currency.
-* You can create a report that does not round revenue to the nearest whole currency by using a [calculated metric](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* You can create a report that does not round revenue to the nearest whole currency by using a [calculated metric](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
 * Unless using the `purchaseID` variable, users refreshing the page may inflate revenue as it sends this data to Adobe multiple times.
 * Hourly breakdowns are based on the report suite's time zone.
 * This report does not contain line items. It can only be viewed in trended format.

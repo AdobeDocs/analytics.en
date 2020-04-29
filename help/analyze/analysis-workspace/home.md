@@ -93,6 +93,6 @@ There are a lot of directions to go to deepen your understanding of Analysis Wor
 
 ### For analysts and admins looking to improve the quality of Workspace in their organization
 
-* [Analysis Workspace permissions](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Assign users permissions to Workspace via the Adobe Admin Console.
+* [Analysis Workspace permissions](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html): Assign users permissions to Workspace via the Adobe Admin Console.
 * [Templates in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Create templates so your colleagues can start with a project space tailored to their needs.
 * [Workspace curation](/help/analyze/analysis-workspace/curate-share/curate.md): Create a project that limits available components, making workspace more accessible to those less familiar with the tool

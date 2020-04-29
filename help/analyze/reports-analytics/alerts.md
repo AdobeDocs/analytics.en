@@ -19,7 +19,7 @@ As the new alert system for all of Adobe Analytics, Intelligent Alerts let you c
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports & Analytics.
 
-For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
+For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Add an Alert {#task_51187E8BF19544DDA9EF2057E6F11D35}
 

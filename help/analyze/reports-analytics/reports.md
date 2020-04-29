@@ -27,11 +27,11 @@ Information about the basic report types, including Traffic, Conversion, and Pat
   </tr> 
   <tr> 
    <td colname="col1"> Paths </td> 
-   <td colname="col2"> <p>Paths reports, such as Fallout and PathFinder, let you track and record entire browsing paths of visitors and customers. You can view your site traffic as it flows from one page or item to the next, discover new patterns and popular paths, or search out the specific paths that your visitors take. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html"  > Paths Reports</a>. </p> </td> 
+   <td colname="col2"> <p>Paths reports, such as Fallout and PathFinder, let you track and record entire browsing paths of visitors and customers. You can view your site traffic as it flows from one page or item to the next, discover new patterns and popular paths, or search out the specific paths that your visitors take. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html"  > Paths Reports</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features.
 
-See [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) in *`Analytics Reference Help`* for descriptions.
+See [Report Descriptions](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) in *`Analytics Reference Help`* for descriptions.

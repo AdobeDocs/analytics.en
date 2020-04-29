@@ -12,7 +12,7 @@ Shows the number of visitors that have a Experience Cloud ID. You can understand
 
 >[!IMPORTANT]
 >
->For this metric to appear, you have to have the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) running for the report suite.
+>For this metric to appear, you have to have the [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) running for the report suite.
 
 ## Debug your Experience Cloud ID Setup {#section_679E62142A3E46548FF8FBDA46568005}
 
@@ -22,7 +22,7 @@ To use the Visitors with Experience Cloud ID metric, simply drag it in to any re
 
 ![](assets/metric-mcvid1.png)
 
-In this example, notice that each page has the same number of Unique Visitors as Visitors with a Experience Cloud ID. However, the total number of Unique Visitors is greater than the total number of Visitors with Experience Cloud ID. To find the pages that are not setting the MCID for all visitors, [create a calculated metric](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) with this definition:
+In this example, notice that each page has the same number of Unique Visitors as Visitors with a Experience Cloud ID. However, the total number of Unique Visitors is greater than the total number of Visitors with Experience Cloud ID. To find the pages that are not setting the MCID for all visitors, [create a calculated metric](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) with this definition:
 
 ![](assets/metric-mcvid2.png)
 

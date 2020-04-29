@@ -41,7 +41,7 @@ Answers to questions you might have when implementing Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I create an Analytics destination in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> See <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: After creating and saving an Analytics destination, how long will it take until data appears in my selected report suites?</b> </p> </td> 

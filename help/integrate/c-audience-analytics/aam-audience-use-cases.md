@@ -16,7 +16,7 @@ As a Travel Company, you can quickly overlay destination preferences with purcha
 
 ## Look-Alike Modeling {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-As a Multi-Media Publisher, you can compare your 3rd-party audiences using [Segment IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) to understand key differentiating characteristics. This helps you build high-value 1st-party segments to then use for targeting.
+As a Multi-Media Publisher, you can compare your 3rd-party audiences using [Segment IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) to understand key differentiating characteristics. This helps you build high-value 1st-party segments to then use for targeting.
 
 ## Prospect Analysis {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 

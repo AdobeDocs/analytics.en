@@ -11,7 +11,7 @@ Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that 
 
 >[!IMPORTANT]
 >
->In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
+>In July 2018, Adobe introduced [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
 >* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models were migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" has not been deprecated - only the two allocation models that appear in calculated metrics have been).
 >* In addition, we corrected the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).

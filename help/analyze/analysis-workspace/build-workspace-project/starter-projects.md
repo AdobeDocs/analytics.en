@@ -106,7 +106,7 @@ These standard templates walk you through common terminology and steps for build
 
 ### People
 
->[!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
 This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 

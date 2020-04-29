@@ -64,7 +64,7 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis workspace-level segments are applied at the project/workspace level in Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis report-level segments are applied at the table column level in Workspace. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis table segments are applied at the column level in Workspace. </li> 
-    </ul> <p>You can edit segments in the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Segment Builder</a>. </p> </td> 
+    </ul> <p>You can edit segments in the <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Segment Builder</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How are date ranges converted?</b> </p> </td> 
@@ -82,7 +82,7 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
      <li id="li_010572F793F54680ABE64117DAB7E800">Calculated metrics are internal to the exported project (not public). You can choose to make them public, by right-clicking the metric and clicking <span class="uicontrol"> Make Public</span>. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">All types of calculated metrics are supported for export. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Allocation types</b>: Even though Analysis Workspace does not show the allocation type of a calculated metric explicitly, the export creates and matches the allocation type that was present in Ad Hoc Analysis. </li> 
-    </ul> <p>You can edit the allocation type in the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  > Calculated Metric Builder</a> by clicking the edit (pencil) icon. </p> </td> 
+    </ul> <p>You can edit the allocation type in the <a href="https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html"  > Calculated Metric Builder</a> by clicking the edit (pencil) icon. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How are Global Data Settings in Ad Hoc applied to converted projects?</b> </p> </td> 

@@ -17,7 +17,7 @@ This report is useful to analyze:
 
 **Analysis Workspace**
 
-See [Customer Journey - Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+See [Customer Journey - Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Reports and Analytics**
 

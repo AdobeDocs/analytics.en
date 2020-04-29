@@ -9,11 +9,11 @@ uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 
 Ad Hoc Analysis integrates with the Analytics Segmentation environment, allowing you to build, share, manage, and apply visitor segments across Adobe products. Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
 
-Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) used to set up a segment management [workflow](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html). As always, you can build and save segments in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) or [generate segments from a Fallout report](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) used to set up a segment management [workflow](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html). As always, you can build and save segments in the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) or [generate segments from a Fallout report](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)
 
 ## Unified Segmentation in Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) documentation.
+For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) documentation.
 
 * [New Features](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
 * [Segment Definition Changes](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html) 
@@ -30,9 +30,9 @@ For information and instructions on building and managing segments in the Unifie
 ## Features {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * [Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) are universal to all report suites. Previously, segments were report-suite specific.
-* The [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) lets you set up [workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) with segment sharing, tagging, verification, and approval features.
+* The [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) lets you set up [workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) with segment sharing, tagging, verification, and approval features.
 
-* The [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) has been updated to simplify segment creation.
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) has been updated to simplify segment creation.
 * You can [tag segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) to organize and search later instead of using folders. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
 
 * You can create [Sequential Segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) outside of Ad Hoc Analysis.
@@ -66,7 +66,7 @@ Note that there wasn't a change to the way this container functions, it was simp
 
 All users can create and edit personal segments. These segments can be shared directly with any other Analytics user.
 
-Admins can edit any segment, and [share segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) with groups and [set rights](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html) to access segments for the organization.
+Admins can edit any segment, and [share segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) with groups and [set rights](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html) to access segments for the organization.
 
 ## What should I do with duplicate segments that have the same name but may have different definitions? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 

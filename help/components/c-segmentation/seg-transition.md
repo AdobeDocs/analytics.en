@@ -14,7 +14,7 @@ Answers frequent questions on segmentation features, access, permissions, best p
 
 * Segmentation in Analysis Workspace:
 
-    * You can [compare segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
+    * You can [compare segments](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
     * Use [segments as dimensions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in a comparison.
     * Use segments in [fallout analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
@@ -70,7 +70,7 @@ The report suite drop-down has been moved next to the date selector in the top r
 
 **What rights and privileges do I need to use, create, and manage segments?**
 
-By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
+By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
 Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 

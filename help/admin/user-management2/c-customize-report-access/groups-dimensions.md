@@ -30,7 +30,7 @@ Understand the following information about the Dimension category for permission
 * Video & Mobile reports are dimensions, as well as other Analytics solutions reports (Experience Manager, Advertising Cloud, Social, and do on.) 
 * Pathing reports are available if a user has access to the parent dimension.
 * All current dimensions and metrics within custom groups have been automatically migrated to the new categories. If an existing group has metrics enabled, it will be given all newly permissionable dimensions (eVars and content aware) and metrics by default.
-* Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the [variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) on which the classification is based.
+* Classifications Importer (formerly, SAINT) permissions: Access to classifications is determined by access to the [variable](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) on which the classification is based.
 
 For more information, see [Frequently Asked Questions about Permission Changes](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html).
 
@@ -51,15 +51,15 @@ The following items are dimensions that you can permission.
    <td colname="col2"> <p>eVars 1-250 are individually permissioned. eVars are custom conversion variables that you use to segment conversion success metrics in custom reports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Props </a> </p> </td> 
-   <td colname="col2"> <p>Props are custom traffic variables. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Traffic props and conversion eVars </a> in Analytics Implementation. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
+   <td colname="col2"> <p>Props are custom traffic variables. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html"> Traffic props and conversion eVars </a> in Analytics Implementation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Hierarchy </a> </p> </td> 
    <td colname="col2"> <p> The hierarchy (hierN) variable determines the location of a page in your site's hierarchy or page structure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Similar to how List Props function, list variables allow multiple values within the same image request. </p> </td> 
   </tr> 
   <tr> 

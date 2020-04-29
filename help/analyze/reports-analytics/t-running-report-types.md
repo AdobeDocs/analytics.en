@@ -55,7 +55,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-See [Conversion Reports](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) for a description.
+See [Conversion Reports](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html) for a description.
 
 ## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -81,7 +81,7 @@ Check out the new [Fallout Analysis](https://docs.adobe.com/content/help/en/anal
 
 >[!MORELIKETHIS]
 >
->* [Fallout Report Description](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
+>* [Fallout Report Description](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 ## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -115,7 +115,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -254,7 +254,7 @@ For information on configuring real-time reports, see the [Analytics Reference G
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Select Report Suite</strong></td> 
-   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  > Real-Time Reports Configuration </a>. </td> 
+   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Switch among reports</strong></td> 

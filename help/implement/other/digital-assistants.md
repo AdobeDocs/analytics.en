@@ -5,12 +5,6 @@ description: Implement Adobe Analytics on Digital Assistants, such as Amazon Ale
 
 # Implement Analytics for digital assistants
 
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
-
 With recent advances in cloud computing, machine learning, and natural language processing, digital assistants are becoming a part of everyday life. Consumers are starting to talk to their devices and expecting them to understand and respond in human-like ways. As these platforms become more established, brands can present their services to consumers in these same realistic and lifelike ways. For example, consumers can ask things like:
 
 * "Alexa, ask my car when it needs an oil change."

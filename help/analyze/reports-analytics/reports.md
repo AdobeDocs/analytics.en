@@ -19,11 +19,11 @@ Information about the basic report types, including Traffic, Conversion, and Pat
  <tbody> 
   <tr> 
    <td colname="col1"> Traffic </td> 
-   <td colname="col2"> <p>Traffic reports give you in-depth insight into how visitors interact with your website, and your customized traffic statistics. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html"  > Traffic Reports</a>. </p> </td> 
+   <td colname="col2"> <p>Traffic reports give you in-depth insight into how visitors interact with your website, and your customized traffic statistics. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-reports-traffic.md"  > Traffic Reports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Conversion </td> 
-   <td colname="col2"> <p>Displays information about success indicators that you define. When you initially acquire licenses, you have an option to define metrics that indicate or give additional insight into successful sales or content deliveries. Reports here show numbers for these metrics. Examples include payment types, shipping costs, and online coupons used. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html"  > Conversion Reports</a>. </p> </td> 
+   <td colname="col2"> <p>Displays information about success indicators that you define. When you initially acquire licenses, you have an option to define metrics that indicate or give additional insight into successful sales or content deliveries. Reports here show numbers for these metrics. Examples include payment types, shipping costs, and online coupons used. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  > Conversion Reports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paths </td> 

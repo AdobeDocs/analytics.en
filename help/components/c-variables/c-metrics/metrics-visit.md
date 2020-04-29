@@ -30,7 +30,7 @@ A visit does not necessarily coincide with a browser session. For example, if a 
 
 When a visit ends, all variables with a visit expiration are expired and no longer persist. The visit number metric will be incremented on the next visit for this visitor.
 
->[!NOTE] If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+>[!NOTE] If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
 
 For more information, refer to [Identifying Unique Visitors](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) in the Adobe Analytics Implementation guide.
 

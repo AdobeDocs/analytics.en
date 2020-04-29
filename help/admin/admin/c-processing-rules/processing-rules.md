@@ -29,7 +29,7 @@ Now, administrators have rights to use processing rules **by default**. The exam
 
 1. If you have not already done so, [create a group](/help/admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules.
 1. [Add the non-administrators to that group](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL [group name]]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
+1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
 1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)

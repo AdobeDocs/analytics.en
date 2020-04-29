@@ -154,7 +154,7 @@ These characters have special meaning in a data file. Where possible, avoid usin
 
 Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
 
-For more information, see [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
+For more information, see [Conversion Classifications](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE] In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
 

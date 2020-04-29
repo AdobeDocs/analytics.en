@@ -36,12 +36,14 @@ uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 ## Experience Cloud resources
 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [Product Documentation Home](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Product Documentation Home](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
+* [Developer](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)
+
+<!--Meike Russ Replace the omniture links above?-->
 
 ## Reports & Analytics help
 

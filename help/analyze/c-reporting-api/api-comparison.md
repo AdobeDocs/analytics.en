@@ -29,7 +29,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Fully-processed, finalized data that is used for pulling large data exports. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latency</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latency</a> </p> </td> 
    <td colname="col2"> 30-90 Minutes </td> 
    <td colname="col3"> * Seconds -10 minutes </td> 
    <td colname="col4"> Seconds -10 minutes </td> 
@@ -43,7 +43,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Full </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Reporting Interfaces</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html"  > Reporting Interfaces</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Real-time report in Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> API only </td> 

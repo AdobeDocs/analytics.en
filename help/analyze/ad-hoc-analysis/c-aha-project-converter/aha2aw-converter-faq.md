@@ -46,9 +46,9 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
    <td colname="col2"> <p>A: Note that charts and graphs are called "visualizations" in Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Settings</b>: Visualization settings like "Number of Items" or "Number of bars" are not supported in Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Pie chart</b>: Exported as a <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  > Donut</a> visualization. This visualization in Workspace is capped at 19 sections. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Bubble chart</b>: Exported as a <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  > Scatterplot</a> visualization. By default, the scatterplot draws the first metric on the x-axis and the second metric on the y-axis. If there is only one metric, bubble charts will be converted to Line visualizations. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogram</b>: Supports a different bucketing logic in Workspace vs. Ad Hoc Analysis. Therefore, it is converted to a <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  > Bar</a> visualization. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Pie chart</b>: Exported as a <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  > Donut</a> visualization. This visualization in Workspace is capped at 19 sections. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Bubble chart</b>: Exported as a <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  > Scatterplot</a> visualization. By default, the scatterplot draws the first metric on the x-axis and the second metric on the y-axis. If there is only one metric, bubble charts will be converted to Line visualizations. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogram</b>: Supports a different bucketing logic in Workspace vs. Ad Hoc Analysis. Therefore, it is converted to a <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  > Bar</a> visualization. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Scatter Plot</b>: In exported projects in Analysis Workspace, the Y-axis is set as the first column, the X-axis is the second column, and diameter is the third column. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Fallout tables</b>: To show fallthrough or fallout tables, right-click on the checkpoint and select a breakdown option. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Fallout report-level date ranges</b>: Customized report date ranges have not been applied to Fallout visualizations. </li> 
@@ -95,10 +95,6 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
   <tr> 
    <td colname="col1"> <p><b>Q: If my Ad Hoc Analysis project is scheduled, will the schedule be converted to Analysis Workspace?</b> </p> </td> 
    <td colname="col2"> <p>No, schedules are not converted. In Analysis Workspace, open the project you would like to schedule and go to <span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Send File on Schedule</span> to set up a new schedule. Be sure to cancel your scheduled project in Ad Hoc Analysis. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: Are there any naming differences between the two tools?</b> </p> </td> 
-   <td colname="col2"> <p>A: Yes. See <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  > Comparison of Key Terminology </a>in the Analysis Workspace documentation. </p> </td> 
   </tr> 
  </tbody> 
 </table>

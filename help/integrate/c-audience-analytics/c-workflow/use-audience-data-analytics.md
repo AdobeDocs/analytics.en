@@ -43,7 +43,7 @@ AAM segment data is passed into Analytics on a hit-by-hit basis, and represents 
 
 1. Drag the [!UICONTROL Audience Name] dimension into the Flow builder.
 1. Click **[!UICONTROL Build]**.
-1. (Optional): Drag any other dimension into the Flow visualization to create an [inter-dimensional Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/multi-dimensional-flow.html).
+1. (Optional): Drag any other dimension into the Flow visualization to create an [inter-dimensional Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
 
 ![](assets/flow-aamaudiences.png)
 
@@ -51,7 +51,7 @@ Audiences can also be used in [Fallout visualizations](https://docs.adobe.com/co
 
 ## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
-[Venn visualizations](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/venn.html) show the overlap between up to 3 segments.
+[Venn visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/venn.html) show the overlap between up to 3 segments.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Venn]** visualization from the left rail.
 

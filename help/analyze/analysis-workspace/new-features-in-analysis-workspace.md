@@ -165,7 +165,7 @@ New features and enhancements released on September 13, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>New template: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

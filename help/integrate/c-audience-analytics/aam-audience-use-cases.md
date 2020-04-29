@@ -20,8 +20,8 @@ As a Multi-Media Publisher, you can compare your 3rd-party audiences using [Segm
 
 ## Prospect Analysis {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-As a B2B Retailer, you can now deeply analyze the behavior of your prospect audience right before they purchase using [sequential segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/sequence-filters.html), which helps you understand what actions drive conversion.
+As a B2B Retailer, you can now deeply analyze the behavior of your prospect audience right before they purchase using [sequential segmentation](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), which helps you understand what actions drive conversion.
 
 ## Demographic Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-As a Destination Resort, you can use [Histograms in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.
+As a Destination Resort, you can use [Histograms in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.

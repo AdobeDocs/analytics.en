@@ -18,7 +18,7 @@ You can use the [!UICONTROL Custom Links Report] to:
 
 ## Mobile SDK Link Names {#section_70C91FE794104B5FBF289B19CC02EA8E}
 
-The [mobile SDKs](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) use custom links to track actions and lifecycle metrics. In report suites that are used to measure mobile apps, you might see the following link names set by the SDK: 
+The [mobile SDKs](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) use custom links to track actions and lifecycle metrics. In report suites that are used to measure mobile apps, you might see the following link names set by the SDK: 
 
 |  ADBINTERNAL:Lifecycle  | Sent by the lifecycle call in the 4.x SDKs.  |
 |---|---|

@@ -11,7 +11,7 @@ Helps you identify pages that contain broken links and to measure traffic to pag
 
  **Properties**
 
-* This report references data directly from the [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) variable implemented on your website.
+* This report references data directly from the [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) variable implemented on your website.
 * This report can be viewed in both trended and ranked formats.
 * Clicking the magnifying glass icon shows you the top referrers to that specific page.
 

@@ -365,7 +365,7 @@ Reports & Analytics contains multiple pre-configured reports that either do not 
 
 ### Nielsen Integration
 
-For more information on how to implement this integration, see [Nielsen partnership](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+For more information on how to implement this integration, see [Nielsen partnership](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |

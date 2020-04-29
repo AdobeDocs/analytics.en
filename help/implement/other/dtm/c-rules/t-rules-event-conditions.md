@@ -14,7 +14,7 @@ Conditions determine when an event-based rule is triggered.
 
    ![](assets/condition-event-based.png)
 
-   For more information, see [Event Types](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) in the Adobe Tag Management Product Documentation.
+   For more information, see [Event Types](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html) in the Adobe Tag Management Product Documentation.
 
 1. Enable the following options as necessary:
 
@@ -31,7 +31,7 @@ Conditions determine when an event-based rule is triggered.
 
    ![](assets/condition-event-based2.png)
 
-   See [Using the CSS Selector](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) in the Dynamic Tag Management Product Documentation for information about finding the correct element tag.
+   See [Using the CSS Selector](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html#concept_DDF500DCB8214658AEDECDE69ED1D4AF) in the Dynamic Tag Management Product Documentation for information about finding the correct element tag.
 
 1. Select and set up any additional criteria or condition types you wish to bind to the rule.
 

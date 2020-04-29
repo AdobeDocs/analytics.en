@@ -18,7 +18,7 @@ Report Builder features a segmentation panel in Step 1 of the Request Wizard tha
 >[!NOTE] To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
+1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [Analytics segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 1. After you have defined and saved the segment, go back to the Request Wizard.
 1. Click the Refresh icon to refresh the segment list.
 

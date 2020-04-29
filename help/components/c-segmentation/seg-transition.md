@@ -15,8 +15,8 @@ Answers frequent questions on segmentation features, access, permissions, best p
 * Segmentation in Analysis Workspace:
 
     * You can [compare segments](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-    * Use [segments as dimensions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in a comparison.
-    * Use segments in [fallout analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+    * Use [segments as dimensions](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in a comparison.
+    * Use segments in [fallout analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * You can [apply multiple segments to a report or project](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Segments are universal to all report suites.

@@ -21,7 +21,7 @@ Audience Manager segment membership is fluid. Users can enter or drop out of a s
 
 An Audience Manager segment is denoted as an audience in Analytics.
 
-For more information, refer to [Trait and Segment Population Data in Segment Builder](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html).
+For more information, refer to [Trait and Segment Population Data in Segment Builder](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analytics Segments {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 

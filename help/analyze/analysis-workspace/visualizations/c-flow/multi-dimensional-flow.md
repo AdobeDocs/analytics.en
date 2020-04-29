@@ -55,5 +55,3 @@ Drag the Campaign Name dimension into a new flow:
 Now I want to see to which pages those campaigns are driving traffic, so I drag the Page dimension to the right of the flow results to add on to the visualization:
 
 ![](assets/multi-dimensional-flow9.png)
-
-You can then break this result down by other dimensions or metrics, such as revenue, visits, etc.

@@ -5,4 +5,4 @@ description: Determines if the visitor has the ability to support persistent coo
 
 # Persistent cookie support
 
-The 'Persistent cookie support' dimension shows the number of 
+Content coming soon!

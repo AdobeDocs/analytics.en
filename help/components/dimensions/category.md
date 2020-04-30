@@ -5,7 +5,7 @@ description: The product category of the hit.
 
 # Category
 
-The 'Category' dimension reports the product category of the hit. It is useful for implementations that use the `products` variable and want to see metrics around product category, such as top sellers or most viewed. This dimension might intentionally be blank if you don't have any products on your site.
+The 'Category' dimension reports the product category of the hit. It is useful for implementations that use the `products` variable and want to see metrics around product category, such as top sellers or most viewed. This dimension can intentionally be blank if you don't have any products on your site.
 
 ## Populate this dimension with data
 

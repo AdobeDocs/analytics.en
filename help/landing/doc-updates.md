@@ -8,7 +8,8 @@ short-title: Analytics documentation updates
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
-* For a comprehensive list of new features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* For information on [!UICONTROL Customer Journey Analytics], go [here](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 * For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
 * For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
@@ -16,13 +17,16 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
+| April 28, 2020 | Added documentation for the [Content Velocity](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) metric.|
+| March 12, 2020| Added updates to [Publish segments to the Experience Cloud](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).|
+| March 12, 2020| Updates to CDA stitching latency.|
 | February 27, 2020 | Added documentation for [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
 | February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) documentation.|
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
-| January 22, 2020 | Updated Freeform Table page that includes information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |

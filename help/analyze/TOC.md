@@ -40,7 +40,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + [Compare dates impacted by an event](analysis-workspace/components/calendar-date-ranges/compare-event.md)
   + Visualizations {#visualizations}
     + [Visualizations overview](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)

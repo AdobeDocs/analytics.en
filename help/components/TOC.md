@@ -31,8 +31,6 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Data Warehouse Segment Compatibility](c-segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](c-segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](c-segmentation/seg-reference/c-troubleshooting.md)
-  + Use cases {#use-cases}
-    + [Exclude specific dates](c-segmentation/use-cases/exclude-date-range.md)
   + [Frequently asked questions](c-segmentation/seg-transition.md)
   + [What's new in Analytics segmentation](c-segmentation/whats-new-segmentation.md)
   + [Transition Guide for Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
@@ -60,7 +58,6 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
-  + [Derive data impacted by events](c-calcmetrics/cm-events.md)
   + [Frequently asked questions](c-calcmetrics/cm-transition.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
 + Virtual Report Suites {#virtual-report-suites}

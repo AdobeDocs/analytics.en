@@ -21,7 +21,7 @@ A: Adobe SiteCatalyst customers do not have access to the Admin Console's Activi
 
 **Q: Can the new AppMeasurement code be configured through Dynamic Tag Management (DTM)?**
 
-A: Yes, you can [manually implement](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) the new AppMeasurement code.
+A: Yes, you can [manually implement](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) the new AppMeasurement code.
 
 **Q: What are the big changes in the AppMeasurement v1.6 library?**
 

@@ -16,7 +16,7 @@ If you capture enterprise customer data in a customer relationship management (C
 * [Customer Attributes and Reporting Metrics in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D) 
 * [FAQ - Customer Attributes in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in Experience Cloud help for information about uploading customer attribute data.
+See [Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in Experience Cloud help for information about uploading customer attribute data.
 
 ## Customer Attributes and Reporting Metrics in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
@@ -36,7 +36,7 @@ If you specify a string as *`age`*, the system creates the following metrics and
 * Age metric: A metric you can add to a report, such as a Unique Visitors report.
 * Count of Age metric: Lets you understand, for example, if visitors specified an *`age`* value on a form.
 
-Because metrics are sums in a report table, you should [create a calculated metric](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) that tells you the average age. The formula for this metric is `Age / Count of Age`.
+Because metrics are sums in a report table, you should [create a calculated metric](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) that tells you the average age. The formula for this metric is `Age / Count of Age`.
 
 ## FAQ - Customer Attributes in Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 

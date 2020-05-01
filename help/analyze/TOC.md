@@ -74,6 +74,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
+    + [Quick Insights builder](analysis-workspace/c-panels/quickinsight.md)
     + Attribution {#attribution}
       + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
       + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)

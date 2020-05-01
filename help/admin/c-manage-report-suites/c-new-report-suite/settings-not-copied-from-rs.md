@@ -21,7 +21,7 @@ The following settings are not copied from template or duplicated report suites:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Classification data (classification structure is copied) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> Classifications Importer (Upload) documentation</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Classifications Importer (Upload) documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable Transaction ID Recording </p> </td> 
@@ -64,7 +64,7 @@ The following settings are not copied from template or duplicated report suites:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor Clickmap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Upgrade to Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade to Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA rules </p> </td> 

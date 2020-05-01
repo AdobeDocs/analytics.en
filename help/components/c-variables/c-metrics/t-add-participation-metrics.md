@@ -11,7 +11,7 @@ Steps that describe how to add participation metrics.
 
 Participation has to be [enabled](/help/components/c-variables/c-metrics/metrics-participation.md) for events (1-100) in the Admin Tools before you can add them to a report.
 
-You can also create participation metrics in the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) builder.
+You can also create participation metrics in the [Calculated Metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) builder.
 
 1. Log in and navigate to any conversion report or traffic report on which you requested participation metrics.
 1. Click **[!UICONTROL Add Metrics]**.

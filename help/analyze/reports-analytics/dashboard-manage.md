@@ -66,7 +66,7 @@ Steps that describe how use the shared dashboard management options.
 
 Existing legacy dashboards will continue to be run and you can still edit, download, and schedule them; however, you can no longer create new legacy dashboards. You are strongly encouraged to upgrade existing legacy dashboards to the newer dashboard format.
 
->[!NOTE] Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+>[!NOTE] Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) and their ability to be downloaded and scheduled.
 
 When you copy the legacy dashboard, the system opens the legacy dashboard for edit, where you can add legacy content or new content. When you copy a legacy dashboard, the original is preserved in the list of legacy dashboards.
 

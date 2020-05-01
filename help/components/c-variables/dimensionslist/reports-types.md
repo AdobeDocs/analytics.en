@@ -20,7 +20,7 @@ A Products Report is an example of a trended report. You can see how much revenu
 A Totals report is an executive-level report that shows bottom-line figures. It contains data for total revenue, page views, and orders. You can segment the report and add additional metrics to view additional data.
 Flow shows the most common paths users take across pages, site sections, and servers.
 
-For information on how Flow works in Analysis Workspace, see [Customer Journey - Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
+For information on how Flow works in Analysis Workspace, see [Customer Journey - Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Next Flow**
 
@@ -29,4 +29,4 @@ The Next Flow report group has three reports: Next Page Flow, Next Section Flow,
 **Previous Flow**
 
 Previous Flow reports are similar to Next Flow reports, except rather than seeing where visitors went after a selected page, you see where visitors were before visiting a specified page. The controls for using the report are identical to the controls for the Next Flow reports.
-Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. For more information, see [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace.
+Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. For more information, see [Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace.

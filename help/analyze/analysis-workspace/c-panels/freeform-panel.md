@@ -1,7 +1,6 @@
 ---
-description: null
+description: Learn about freeform panels
 title: Freeform panel
-uuid: 9fc4ba61-a8d6-41c3-b1c5-18900b5cb5fb
 ---
 
 # Freeform panel

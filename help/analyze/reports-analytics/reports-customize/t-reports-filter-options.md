@@ -45,7 +45,7 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 **Does not contain**
 
-Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) from reports using "does not contain".
 
 Does not contain: `none`
 

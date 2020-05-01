@@ -15,7 +15,7 @@ The Activity Map module is part of the AppMeasurement.js file (located at the to
 
 Activity Map data cannot be collected unless you update to this version (or higher) of AppMeasurement.
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** and [implement it](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html).
 
    We have included some [sample implementation code](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) to help you visualize the changes that have been made to the code by including the Activity Map module.
 
@@ -47,7 +47,7 @@ First, you need to enable Activity Map reports at a report-suite level.
 
    This will take you to the group management page in the Admin Console.
 
-1. [Add users to this group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and **[!UICONTROL Save Group]**.
+1. [Add users to this group](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) and **[!UICONTROL Save Group]**.
 
 1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 

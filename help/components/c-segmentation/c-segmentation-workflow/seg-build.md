@@ -19,7 +19,7 @@ There are several ways to access the Segment Builder:
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open an existing report and click the Segments icon  ![](assets/segment_icon.png) in the left navigation, then click **[!UICONTROL Add]**.
 * **[!UICONTROL Ad Hoc Analysis]**: [Build Segments in Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 

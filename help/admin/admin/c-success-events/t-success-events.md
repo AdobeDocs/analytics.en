@@ -34,7 +34,7 @@ Steps that describe how to configure success events.
 
    >[!NOTE]
    >
-   >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) builder.
+   >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) builder.
 
 1. Click **[!UICONTROL Save]**.
 

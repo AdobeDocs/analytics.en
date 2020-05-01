@@ -2,15 +2,34 @@
 description: Learn about visualizations and visualization settings in Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualizations overview
-topic: Reports and analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 ---
 
 # Visualizations overview
 
-Learn about visualizations and visualization settings in Analysis Workspace.
+Workspace offers a number of visualizations that let you generate visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. Each visualization has its own settings that you can manage. Click the name of the visualization for more detailed information.
 
-[Visualization Types in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+YouTube Video: [Visualization Types in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+
+|Visualization name| Description|
+|---|---|
+|[Area](/help/analyze/analysis-workspace/visualizations/area.md)|like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics.|
+|[Bar](/help/analyze/analysis-workspace/visualizations/bar.md)|Shows vertical bars representing various values across one or more metrics.|
+|[Bullet graph](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|Shows how a value you are interested in compares to or measures against other performance ranges (goals).|
+|[Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly.|
+|[Donut](/help/analyze/analysis-workspace/visualizations/donut.md)|Similar to a pie chart, this visualization shows data as parts or segments of a whole.|
+|[Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)|Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.|
+|[Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)|Shows customer paths through your websites and apps.|
+|[Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table.md)|A Freeform table is not merely a data table, but also an interactive visualization.|
+|[Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md)|A histogram is similar to a bar chart, but it groups numbers into ranges (buckets).|
+|[Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)|Shows horizontal bars representing various values across one or more metrics.|
+|[Line](/help/analyze/analysis-workspace/visualizations/line.md)|Represents metrics using a line in order to show how values change over a period of time. A line chart can be used only when time is used as a dimension.|
+|[Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md)|Lets you build a visual map of any metric (including calculated metrics).|
+|[Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md)|Shows the relationship between dimension values and up to three metrics.|
+|[Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)|Depending on which cell is selected, this visualization shows totals and summaries. |
+|[Summary change](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)|Depending on which cells are selected, this visualization compares cells to each other.|
+|[Text](/help/analyze/analysis-workspace/visualizations/text.md)|Lets you add user-defined text to your Workspace.|
+|[Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md)|Displays hierarchical (tree-structured) data as a set of nested rectangles.|
+|[Venn](/help/analyze/analysis-workspace/visualizations/venn.md)|Lets you drag in up to 3 segments (from Components) and one metric to build a Venn diagram.|
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -30,48 +49,16 @@ To access [!UICONTROL Visualization Settings], drag a visualization to the [!UIC
 
 ![](assets/visualization_settings.png)
 
-<table id="table_E0695243886046979EE609FAE5D6EA00"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Percentages </p> </td> 
-   <td colname="col2"> <p>Displays values in percentages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>100% Stacked </p> </td> 
-   <td colname="col2"> <p>This setting on area stacked or bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Legend Visible </p> </td> 
-   <td colname="col2"> <p>Lets you hide the filter details text for the Summary Number/Summary Change visualization. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Limit Max Items </p> </td> 
-   <td colname="col2"> <p>Lets you limit the number of items that a visualization displays. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Anchor Y Axis at Zero </p> </td> 
-   <td colname="col2"> <p> If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Normalization </p> </td> 
-   <td colname="col2"> <p>Forces metrics to equal proportions. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalization</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display Dual Axis </p> </td> 
-   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Anomalies </p> </td> 
-   <td colname="col2"> <p>Enhances line graphs and freeform tables to display data anomalies. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Description |
+|--- |--- |
+|Percentages|Displays values in percentages.|
+|100% Stacked|This setting on area stacked or bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![](assets/stacked_100_percent.png)|
+|Legend Visible|Lets you hide the filter details text for the Summary Number/Summary Change visualization.|
+|Limit Max Items|Lets you limit the number of items that a visualization displays.|
+|Anchor Y Axis at Zero|If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart).|
+|Normalization|Forces metrics to equal proportions.|
+|Display Dual Axis|Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric).|
+|Show Anomalies|Enhances line graphs and freeform tables to display data anomalies.|
 
 ## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 

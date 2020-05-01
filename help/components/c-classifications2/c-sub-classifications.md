@@ -50,7 +50,7 @@ Although the file template for a multilevel classification is more complex, the 
 
 >[!NOTE] If the [!UICONTROL Key] column in a data file is blank, Adobe automatically generates unique keys for each data row. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (&#42;).
 
-See [Common Classification Upload Issues](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) for troubleshooting help.
+See [Common Classification Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) for troubleshooting help.
 
 ## Examples
 

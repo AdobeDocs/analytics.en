@@ -12,7 +12,7 @@ uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 >
 >Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+>See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
 
 >[!IMPORTANT]
 >
@@ -36,15 +36,17 @@ uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 ## Experience Cloud resources
 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [Product Documentation Home](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Product Documentation Home](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
+* [Developer](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)
 
+<!--Meike Russ Replace the omniture links above?-->
+
 ## Reports & Analytics help
 
-* [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports & Analytics Help](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.
+* [Analysis Workspace Help](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Reports & Analytics Help](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)
+* [Analytics Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html) Help on Admin Tools, reports, and metrics.

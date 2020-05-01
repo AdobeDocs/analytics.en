@@ -17,14 +17,14 @@ This report is useful to analyze:
 
 **Analysis Workspace**
 
-See [Customer Journey - Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+See [Customer Journey - Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Reports and Analytics**
 
-See [Running a Fallout Report](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html) in Help for configuration information.
+See [Running a Fallout Report](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html) in Help for configuration information.
 
 **Ad Hoc Analysis**
 
 Analyze fallout data at the Visit or Visitor level. You can also see a trended path that shows you a graph of your fallout over a specific period. You can set single or groups of pages as the report checkpoints, or add any dimension or metric in any combination or sequence. You can also use categories that you configure in marketing reports as checkpoints in this report.
 
-See [Fallout Report](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) in Help for configuration information.
+See [Fallout Report](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html) in Help for configuration information.

@@ -24,9 +24,8 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 * If a range of cells is selected, it compares the first to the last cells selected in the range.
 * If the column is selected, it compares the first value to itself, which shows a change of 0.
 * The green and red color of the summary change can be controlled through:
-
-    * [Custom event polarity](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
-    * A calculated metric's [Show Upward Trend As](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) option.
+    * [Custom event polarity](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html).
+    * A calculated metric's [Show Upward Trend As](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
 
 ## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
 

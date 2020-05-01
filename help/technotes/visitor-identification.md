@@ -54,7 +54,7 @@ When a request is sent to the Adobe data collection server, the header is checke
 
 Some browsers, such as Apple Safari, no longer store cookies that are set in the HTTP header from domains that do not match the domain of the current website (this is a cookie used in a third-party context, or a third-party cookie). For example, if you are on `mysite.com` and your data collection server is `mysite.omtrdc.net`, the cookie that is returned in the HTTP header from `mysite.omtrdc.net` might be rejected by the browser.
 
-To avoid this, many customers have implemented CNAME records for their data collection servers as part of a [first-party cookie implementation](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). If a CNAME record is configured to map a hostname on the customer's domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. This increases the likelihood that the visitor ID cookie will be stored, but it introduces some overhead as you need to configure CNAME records and maintain SSL certificates for data collection servers.
+To avoid this, many customers have implemented CNAME records for their data collection servers as part of a [first-party cookie implementation](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html). If a CNAME record is configured to map a hostname on the customer's domain to the data collection server (for example, mapping `metrics.mysite.com` to `mysite.omtrdc.net`), the visitor ID cookie is stored since the data collection domain now matches the domain of the website. This increases the likelihood that the visitor ID cookie will be stored, but it introduces some overhead as you need to configure CNAME records and maintain SSL certificates for data collection servers.
 
 ### Cookies on Mobile Devices {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -64,7 +64,7 @@ When mobile devices are tracked using cookies, there are some settings you can u
 
 The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-See [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) for product documentation about this service.
+See [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) for product documentation about this service.
 
 ## Identify mobile devices
 

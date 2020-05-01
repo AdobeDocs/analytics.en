@@ -8,7 +8,7 @@ uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 
 ![](assets/step1_icon.png) Map any Analytics report suite where you want to view Google/Bing search data to your Experience Cloud organization.
 
-See [Map report suites to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+See [Map report suites to an organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Enable Advertising Analytics reporting per report suite](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 

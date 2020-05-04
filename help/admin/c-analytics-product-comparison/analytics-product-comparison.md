@@ -14,7 +14,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
  <tbody> 
   <tr> 
    <td> <b>Product Name &amp; Help Link</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Analysis Workspace </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html"> Report Builder </a> </td> 
@@ -104,7 +104,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Enhanced Visualization Options</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Yes </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Yes </a> </td> 
    <td> No </td> 
    <td> Yes </td> 
    <td> Yes </td> 
@@ -113,7 +113,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Customizable Layout</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Yes </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Yes </a> </td> 
    <td> Yes - <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html"> Dashboards </a> </td> 
    <td> No </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html"> Yes </a> </td> 

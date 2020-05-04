@@ -182,7 +182,7 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Trend selection</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > Trend selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

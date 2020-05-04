@@ -9,8 +9,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
 
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
-  + [Analysis Workspace features](analysis-workspace/analysis-workspace-features.md)
-  + [Analysis Workspace help](analysis-workspace/home.md)
+  + [Analysis Workspace overview](analysis-workspace/home.md)
   + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build a Workspace project {#build-workspace-project}

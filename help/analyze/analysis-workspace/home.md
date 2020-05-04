@@ -71,7 +71,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## Dynamic visualization of selected cells 
 
-Select individual cells and see the visualizations change dynamically. [Synchronize and lock](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) a visualization with selected cells.
+Select individual cells and see the visualizations change dynamically. Synchronize and lock a visualization with selected cells.
 
 ![](assets/visualize-selected-cells.png)
 

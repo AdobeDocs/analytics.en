@@ -678,7 +678,7 @@ New features released on July 20, 2017.
    <td colname="col2"> <p>Lets you change the font settings (bold, italics, and so on) and hyperlink within text box visualizations and panel / visualization descriptions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (Quick-visualize links) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (Quick-visualize links) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. </p> </td> 
   </tr> 
   <tr> 
@@ -974,7 +974,7 @@ New features released on June 16, 2016:
 * [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Panels, Visualizations, Components 
 * A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
-* [Trend Selection](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
+* [Trend Selection](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
 * ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [Manual Rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) functionality 
 * [Add Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) drop zone 

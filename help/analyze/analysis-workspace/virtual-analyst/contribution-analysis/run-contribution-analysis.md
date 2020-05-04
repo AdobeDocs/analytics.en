@@ -40,7 +40,7 @@ There are two ways to invoke contribution analysis in a project:
 1. Since contribution analysis is now part of Analysis Workspace, you can take advantage of a number of its features from a table's right-click menu to make your analysis even more meaningful, such as:
 
     * [Breaking each dimension item down by another dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 
-    * [Trending one or more rows.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
+    * [Trending one or more rows.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
     * [Adding new visualizations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 
     * [Creating alerts.](/help/components/c-alerts/intellligent-alerts.md) 
     * [Creating or comparing segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

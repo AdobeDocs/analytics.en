@@ -2,8 +2,6 @@
 description: New features in Analysis Workspace.
 keywords: Analysis Workspace
 title: What's New in Analysis Workspace
-topic: Reports and analytics
-uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 ---
 
 # What's New in Analysis Workspace

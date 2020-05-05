@@ -1,9 +1,9 @@
 ---
-title: dashboards overview
+title: Adobe Analytics dashboards - Overview
 description: Product documentation and self-help for Adobe Analytics dashboards
 ---
 
-# dashboards Overview
+# Adobe Analytics dashboards - Overview
 
 >[!IMPORTANT]
 >

@@ -28,6 +28,16 @@ Currency Code is a field under the [!UICONTROL General] accordion when configuri
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
+## Currency Code in Adobe Experience Platform Mobile SDK
+
+Currency Code is passed to the Adobe Experience Platform Mobile SDKs via Context Data Variables in the Adobe Analytics extension.
+
+1. Set the custom currency code in a context data variable during either a trackState or trackAction.
+2. Create a Processing Rule in the Adobe Analytics admin console for the report suite. The rule should set the context data variable to overwrite the Currency Code variable.
+3. Pass the custom currency code to the &&products variable in your call to trackState or trackAction.
+
+You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
+
 ## s.currencyCode in AppMeasurement and Launch custom code editor
 
 The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.

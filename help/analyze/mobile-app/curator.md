@@ -4,8 +4,11 @@ title: Adobe Analytics dashboards curator guide
 ---
 
 
-# BETA: Curator’s guide for Adobe Analytics dashboards
+# Curator’s guide for Adobe Analytics dashboards
 
+>[!IMPORTANT]
+>
+>Adobe Analytics dashboards is not released and is only available for beta testing among invited customers. This documentation is intended >only for beta users and does not represent complete functionality of the feature. If you are interested in becoming a beta user for this >feature, please contact Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Introduction
 

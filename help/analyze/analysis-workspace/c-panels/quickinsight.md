@@ -38,7 +38,7 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 ## Get started with Quick Insights
 
 1. Log in to Adobe Analytics using the credentials you have been provided with.
-1. Go to [!UICONTROL Workspace] and click **[!UICONTROL Create New Project]** and then click **[!UICONTROL Quick Insights]**.
+1. Go to [!UICONTROL Workspace] and click **[!UICONTROL Create New Project]** and then click **[!UICONTROL Quick Insights]**. (You can also access this panel from the **[!UICONTROL Panel]** menu in the left rail.)
 
     ![](assets/qibuilder.png)
 

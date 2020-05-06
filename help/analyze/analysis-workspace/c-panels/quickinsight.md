@@ -38,9 +38,11 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 ## Get started with Quick Insights
 
 1. Log in to Adobe Analytics using the credentials you have been provided with.
-1. Go to [!UICONTROL Workspace] and click **[!UICONTROL Create New Project]** and then click **[!UICONTROL Quick Insights]**.
+1. Go to [!UICONTROL Workspace] and click **[!UICONTROL Create New Project]** and then click **[!UICONTROL Quick Insights]**. (You can also access this panel from the **[!UICONTROL Panel]** menu in the left rail.)
 
     ![](assets/qibuilder.png)
+
+    ![](assets/qi-panel.png)
 
 1. When you first start out, go through the short tutorial that teaches you some of the [!UICONTROL Quick Insights panel] basics. Or, click to **[!UICONTROL Skip Tutorial]**.
 1. Select your building blocks (also known as components): dimensions (orange), metrics (green), segments (blue), or date ranges (purple) You have to select at least one dimension and one metric for a table to be built automatically. 
@@ -62,13 +64,15 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 
 1. (Optional) Drill down on dimensions and see dimension items by clicking the > right-arrow next to the dimension.
 
-1. Try adding some more refinements as described below under "Other helpful options."
+1. Try adding some more refinements as described below under "More tips."
 
-## Other helpful options
+1. Save your project by clicking **[!UICONTROL Project > Save]**.
+
+## More tips
 
 Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some of them depending on your last action.
 
-* First, complete the **[!UICONTROL More tips]** tutorial: Access it via the Help (?) icon next to the [!UICONTROL Quick Insights Panel] title.
+* First, complete the **[!UICONTROL More tips]** tutorial: Access it via the Help (?) icon next to the [!UICONTROL Quick Insights] title. This tutorial shows up 24 hours after you have created a project with at least one dimension and one metric.
 
     ![](assets/qibuilder4.png)
 
@@ -83,6 +87,10 @@ Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some 
 * **Add more segments**: You can add up to 2 more segments by using the AND or OR operators to add them the table. Look at what happens to the table when you add Mobile Users OR Loyal Visitors. They are next to each other, above the metrics. If you added Mobile Users AND Loyal Visitors, you would see results from both segments together, and they would be stacked on top of each other in the table.
 
     ![](assets/qibuilder7.png)
+
+## Open/Load a Quick Insights project
+
+
 
 ## Known limitations
 

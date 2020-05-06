@@ -5,11 +5,11 @@ description: Custom variables you can use in your implementation.
 
 # eVar
 
-eVars are custom variables that you can use however you'd like.
+*This help page describes how to implement eVars. For information on how eVars work as a dimension, see [eVars](/help/components/dimensions/evar.md) in the Components user guide.*
 
-> [!TIP] Adobe recommends using eVars over props in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
+eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
-Make sure you record how you use each eVar and their logic in your [solution design document](../../prepare/solution-design.md).
+The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
 ## Set up eVars in report suite settings
 
@@ -26,7 +26,7 @@ You can set eVars either while configuring the Analytics extension (global varia
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL eVars] section.
 
-You can select an eVar to set a value or data element. You can also copy the value from another Analytics variable.
+You can set an eVar to a value or a data element. You can also copy the value from another Analytics variable.
 
 ## s.eVar1 - s.eVar250 in AppMeasurement and Launch custom code editor
 
@@ -51,12 +51,3 @@ s.eVar1 = "+12.49";
 If more than two decimal places are given, the eVar counter rounds to two decimal places. An eVar counter cannot contain negative numbers.
 
 > [!IMPORTANT] You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
-
-## Exclusive advantages to props or eVars
-
-In the current version of Adobe Analytics, props and eVars are both custom variables with similar capabilities. However, they have several major differences:
-
-* Data in props are available in reporting within minutes. eVars can take upwards of 30 minutes to appear in reporting.
-* Props have a 100-byte limit in reports. eVars have a 255-byte limit.
-* Props have the ability to become list props, which accept multiple values in the same hit. List vars are a separate variable, and there are only three list variables available.
-* Props by default do not persist beyond the hit they are set. eVars have custom expiration, allowing you to determine when an eVar no longer gets credit for a subsequent event. However, if you use [report time processing](../../../components/vrs/vrs-report-time-processing.md), both props and eVars can use a custom attribution model.

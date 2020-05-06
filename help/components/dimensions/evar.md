@@ -9,7 +9,7 @@ description: A custom dimension you can use in reporting.
 
 eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
-The number of eVars available depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
+The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
 ## Populate eVars with data
 
@@ -76,3 +76,13 @@ Since allocation and expiration determine what values persist, they are vital in
 * By default, an eVar uses an expiration of visit. Once a visit ends, values stop copying over from row to row in the `post_evar` column.
 
 You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+
+## Value of eVars over props
+
+Adobe recommends using eVars in most cases, supported through the following:
+
+* eVars have a 255-byte limit in reports. Props have a 100-byte limit.
+* Props by default do not persist beyond the hit they are set. eVars have custom expiration, allowing you to determine when an eVar no longer gets credit for a subsequent event. However, if you use [report time processing](/help/components/vrs/vrs-report-time-processing.md), both props and eVars can use a custom attribution model.
+* Adobe supports up to 250 eVars, and only 75 props.
+
+See [prop](prop.md) for more comparisons between props and eVars.

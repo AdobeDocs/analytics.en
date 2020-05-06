@@ -5,11 +5,13 @@ description: Custom variables you can use in your implementation.
 
 # prop
 
-Props are custom variables that you can use however you'd like.
+*This help page describes how to implement props. For information on how props work as a dimension, see [prop](/help/components/dimensions/prop.md) in the Components user guide.*
 
-> [!TIP] Adobe recommends using eVars in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props. See [eVars](evar.md) for a feature comparison between these two custom variable types.
+Props are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set.
 
-If your organization uses props, make sure you record their use and logic in your [solution design document](../../prepare/solution-design.md).
+> [!TIP] Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
+
+If you have a [solution design document](/help/implement/prepare/solution-design.md), you can allocate these custom dimensions to values specific to your organization. The number of available props depends on your contract with Adobe. Up to 75 props are available if your contract with Adobe supports it.
 
 ## Props in Adobe Experience Platform Launch
 
@@ -22,7 +24,7 @@ You can set props either while configuring the Analytics extension (global varia
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Props] section.
 
-You can select a prop to set a value or data element. You can also copy the value from another Analytics variable.
+You can set a prop to a value or a data element. You can also copy the value from another Analytics variable.
 
 ## s.prop1 - s.prop75 in AppMeasurement and Launch custom code editor
 

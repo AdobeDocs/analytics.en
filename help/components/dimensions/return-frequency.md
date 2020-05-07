@@ -26,6 +26,6 @@ Dimension values include time-based buckets, depending on elapsed time from thei
 * 14 days to 1 month
 * Longer than 1 month
 
-## Dimension value 'Longer than 1 month' appears for date ranges shorter than a month
+## Dimension values appear under buckets outside the project's date range
 
 When you set a project's date range, it is common to see dimension values attribute to visits outside the date range. For example, a visitor comes to your site in July, then comes back twice in the same day in September. The Return frequency dimension for the month of September would show one visit under 'Longer than 1 month', and one visit under 'Less than 1 day'.

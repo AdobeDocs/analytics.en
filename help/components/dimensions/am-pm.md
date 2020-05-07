@@ -13,4 +13,4 @@ This dimension works out of the box. It does not have any settings to change. It
 
 ## Dimension values
 
-This dimension always contains exactly two dimension values: "AM" and "PM". The dimension value "AM" applies to all hits from 12:00 AM to 11:59 AM, while the dimension value "PM" applies to all hits from 12:00 PM to 11:59 PM.
+This dimension always contains exactly two dimension values: `"AM"` and `"PM"`. The dimension value `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension value `"PM"` applies to all hits from 12:00 PM to 11:59 PM.

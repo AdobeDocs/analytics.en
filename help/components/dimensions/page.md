@@ -7,6 +7,8 @@ description: The name of the page.
 
 The 'Page' dimension lists the names of pages on your site. It is one of the most common dimensions used in Adobe Analytics, as it provides insight on which pages on your site perform the best.
 
+This dimension is related to the [Site section](site-section.md) and [Server](server.md) dimensions. Page is most granular, Server is least granular, and Site section is between the two.
+
 ## Populate this dimension with data
 
 This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the `pageName` variable. If the `pageName` variable is not defined, it falls back to using the page's URL.

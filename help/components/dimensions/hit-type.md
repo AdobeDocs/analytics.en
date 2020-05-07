@@ -13,4 +13,4 @@ This dimension works out of the box for all mobile SDK implementations on versio
 
 ## Dimension values
 
-Dimension values include "Foreground" and "Background". Any hit that was not sent in the background of a mobile application belongs to the "Foreground" dimension value. Any hit sent where the mobile application was in the background belongs to the "Background" dimension value.
+Dimension values include `"Foreground"` and `"Background"`. Any hit that was not sent in the background of a mobile application belongs to the `"Foreground"` dimension value. Any hit sent where the mobile application was in the background belongs to the `"Background"` dimension value.

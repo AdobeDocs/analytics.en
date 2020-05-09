@@ -5,7 +5,9 @@ description: Learn about the first-time customer experience for implementing Ado
 
 # Implementation modal
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Please see [Create a report suite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html).
+
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
 The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
@@ -70,4 +72,4 @@ Determine what currency the report suite stores monetary values in.
 After the report suite is created, you have one of two options to proceed with your implementation:
 
 * **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
-* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md).
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->

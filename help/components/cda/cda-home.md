@@ -52,7 +52,7 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.
 * The 1.4 API is not supported. Power BI connectors and Report Builder both rely on the 1.4 API, and are therefore not compatible with CDA.
 * If your organization uses the Private Graph, new devices take up to 24 hours to be stitched. 
-* New devices visiting your site can take up to two weeks to be processed by the Co-op Graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks. Adobe plans to improve the Co-op graph to a daily refreshed graph in the future.
+* New devices visiting your site can take up to two weeks to be processed by the Co-op Graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks.
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 
 Once your organization has all requirements met and understands the limitations, you can start [Setting up Cross-Device Analytics](cda-setup.md).

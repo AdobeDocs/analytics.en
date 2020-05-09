@@ -15,4 +15,4 @@ This dimension references lookup rules internal to Adobe. The lookup value is ba
 
 ## Dimension values
 
-Dimension values include the DMA and DMA code of the visitor. The 3-digit code is not a zip code, but rather the DMA code from Nielsen. Example values include `"Dallas-Ft. Worth (623)"`, `"New York (501)"`, or `"Los Angeles (803)"`. The dimension value `"No Metro (0)"` includes all hits outside of the United States.
+Dimension values include the DMA and DMA code of the visitor. The 3-digit code is not a zip code, but rather the DMA code from Nielsen. Example values include `"Dallas-Ft. Worth (623)"`, `"New York (501)"`, or `"Los Angeles (803)"`. The dimension value `"No Metro (0)"` includes all international traffic outside of the United States.

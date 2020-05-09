@@ -30,11 +30,11 @@ You can use either a preset currency code or a custom currency code. If using a 
 
 ## Currency Code in Adobe Experience Platform Mobile SDK
 
-Currency Code is passed to the Adobe Experience Platform Mobile SDKs via Context Data Variables in the Adobe Analytics extension.
+Currency Code is passed to the Adobe Experience Platform Mobile SDKs through context data variables in the Adobe Analytics extension.
 
-1. Set the custom currency code in a context data variable during either a trackState or trackAction.
-2. Create a Processing Rule in the Adobe Analytics admin console for the report suite. The rule should set the context data variable to overwrite the Currency Code variable.
-3. Pass the custom currency code to the &&products variable in your call to trackState or trackAction.
+1. Set the currency code in a context data variable during either `trackState` or `trackAction`.
+2. Create a processing rule in the Adobe Analytics admin console for the report suite. Set the rule to overwrite the Currency Code variable.
+3. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 

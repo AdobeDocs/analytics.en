@@ -9,10 +9,10 @@ Dimensions are variables in Adobe Analytics that typically contain string values
 
 For example, if you combined the 'Page' dimension with the 'Visits' metric, you would get a ranked report showing your top-visited pages:
 
-| Page | Visits |
+| `Page` | `Visits` |
 | --- | --- |
-| Home page | 800 |
-| Product page | 500 |
-| Purchase page | 100 |
+| `Home page` | `800` |
+| `Product page` | `500` |
+| `Purchase page` | `100` |
 
 Each dimension represents a different part or facet of your site. You can combine one of more of these dimensions with one or more metric to create a desired report.

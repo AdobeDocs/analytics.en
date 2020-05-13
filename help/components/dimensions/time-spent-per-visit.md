@@ -17,6 +17,8 @@ This dimension is valuable when you want to understand how long visitors interac
 
 This dimension is visit-based, meaning that the value applies to every hit within the visit and doesn't change. Compare this dimension to [Time spent on page](time-spent-on-page.md), which is a hit-based dimension.
 
+This dimension is related to the [Average time spent on site](../metrics/average-time-on-site.md) dimension.
+
 ## Populate this dimension with data
 
 This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.

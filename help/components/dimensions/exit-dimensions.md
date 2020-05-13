@@ -6,6 +6,8 @@ keywords: exit page, exit site section, exit server, exit custom insight
 
 # Exit dimensions
 
+*This help page describes how exits work as a dimension. For information on how exits work as a metric, see the [Exits](../metrics/exits.md) metric.*
+
 Exit dimensions record the last dimension value, and retroactively apply it to all hits in the visit. Exit dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in Report suite settings.
 
 ## Populate exit dimensions with data

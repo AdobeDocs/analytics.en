@@ -13,10 +13,6 @@ The 'None' line item is a catch-all item that represents all conversions that ha
 
 These extra dates are due to the visitor reporting lookback window. See [Data appearing outside reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in the Analytics KB for more information. Adobe plans to filter out these extra rows in an upcoming release.
 
-**Can I use a custom lookback window with my attribution models?**
-
-Attribution models currently rely on either a visitor or visit lookback window. Either of these lookback windows are adjustable by either changing the reporting date range (for visitor lookback) or by using a custom visit definition as part of virtual report suites. See [Report time processing](../../../../components/vrs/vrs-report-time-processing.md) for more information.
-
 **When should I use a visit vs. visitor attribution lookback?**
 
 The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor lookback is recommended. Creating a virtual report suite with a longer visit definition is also a potential solution.

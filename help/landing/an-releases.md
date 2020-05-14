@@ -9,7 +9,7 @@ Historically, Adobe Analytics feature releases followed a fixed monthly schedule
 
 ## Release strategy
 
-Analysis Workspace uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
+[!UICONTROL Analysis Workspace] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
 * **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. **Note**: At this time, the feature may be available in the 2.0 Analytics API.
 
@@ -28,4 +28,4 @@ Phased releases enable Adobe to better scale the software deployment process and
 |Question|Answer|
 |---|---|
 |Can I request early access to a feature?|No. Early access will not be granted.<br>If you want to test early Analytics concepts, we encourage you to try [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) to provide feedback on our industry-leading innovations.|
-|Does this release strategy affect my access to features?|No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under Admin > Company Settings > [Feature Access Levels](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/feature-access-levels.html).|
+|Does this release strategy affect my access to features?|No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under [!UICONTROL Admin] > [!UICONTROL Company Settings] > [Feature Access Levels](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/feature-access-levels.html).|

@@ -22,4 +22,4 @@ user-guide-url: /content/help/en/analytics/landing/home.html
 * [Customer Journey Analytics guide](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 * [Analytics documentation updates](doc-updates.md)
 * [Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
-* [Adobe Analytics - feature release strategy](an-releases.md)
+* [Adobe Analytics feature releases](an-releases.md)

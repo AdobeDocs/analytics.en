@@ -1,6 +1,6 @@
 ---
 description: Explains the new continuous feature release strategy for Adobe Analytics
-title: Adobe Analytics - feature release strategy
+title: Adobe Analytics feature releases
 ---
 
 # Adobe Analytics feature releases

@@ -3,15 +3,15 @@ description: Explains the new continuous feature release strategy for Adobe Anal
 title: Adobe Analytics - feature release strategy
 ---
 
-# Adobe Analytics - feature release strategy
+# Adobe Analytics feature releases
 
-Historically, Adobe Analytics feature releases followed a fixed monthly schedule. Beginning in April, 2020, Adobe Analytics is moving to a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
+Historically, Adobe Analytics feature releases followed a fixed monthly schedule. Beginning in April, 2020, Adobe Analytics moved to a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
 ## Release strategy
 
 [!UICONTROL Analysis Workspace] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
-* **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. **Note**: At this time, the feature may be available in the 2.0 Analytics API.
+* **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. **Note**: At RTP, the feature may be available in the 2.0 Analytics API.
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. The release is then scaled from 0% to 100% availability over the course of a couple months. Phased rollout happens at the Experience Cloud Organization level, so all entitled users in an organization receive the same experience.
 

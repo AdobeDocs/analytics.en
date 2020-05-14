@@ -17,13 +17,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
-| April 28, 2020 | Added documentation for the [Content Velocity](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) metric.|
-| March 12, 2020| Added updates to [Publish segments to the Experience Cloud](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).|
+| April 28, 2020 | Added documentation for the [Content Velocity](/help/components/c-variables/c-metrics/metrics-content-velocity.md) metric.|
+| March 12, 2020| Added updates to [Publish segments to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md).|
 | March 12, 2020| Updates to CDA stitching latency.|
 | February 27, 2020 | Added documentation for [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
 | February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
-| February 12, 2020 | Updates to and reorganization of the [Marketing Channels](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) documentation.|
+| February 12, 2020 | Updates to and reorganization of the [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) documentation.|
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |

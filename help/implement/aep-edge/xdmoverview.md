@@ -5,7 +5,6 @@ description: Overview of using XDM data from Experience Platform in Adobe Analyt
 
 # Using Adobe Experience Platform Edge data with Analytics
 
-
 You can use the [Adobe Experience Platform (AEP) Web SDK](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) to send data to Adobe Analytics. This works by translating the [Experience Data Model (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) into a format used by Analytics.
 
 Analytics collects XDM data through two methods:
@@ -16,7 +15,7 @@ Analytics collects XDM data through two methods:
 
 ## Automatic mapping
 
-Automatic mapping relies upon a default [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The [Analytics variables that are automatically mapped from the XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) to your configured report suites do not require any developer support to incorporate.
+[Automatic mapping](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) relies upon a default [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The [Analytics variables that are automatically mapped from the XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) to your configured report suites do not require any developer support to incorporate.
 
 ## Manual mapping
 

@@ -195,3 +195,4 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
 + [Frequently asked questions](faq.md)
 + Use XDM data with Analytics {#aep-edge}
   + [Use AEP Web SDK](aep-edge/xdmoverview.md)
+  + [Map XDM data to Analytics manually](aep-edge/xdmoverview.md)

@@ -24,7 +24,7 @@ There are two ways to invoke contribution analysis in a project:
 
   ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension.
 1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. You will notice a lot of familiar panels if you have used Contribution Analysis in Reports & Analytics before:

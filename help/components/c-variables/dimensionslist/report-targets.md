@@ -14,7 +14,7 @@ Targets reports let you measure your website performance and track progress agai
 
 To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL [your target name]]**
 
-When you [create targets](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html), you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric.
+When you [create targets](/help/analyze/reports-analytics/targets.md), you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric.
 
 The report shows the cumulative total of the metric you specified and the difference between that total and the target you set when you configured the report.
 

@@ -5,23 +5,25 @@ description: The total amount of time the visit took.
 
 # Time spent per visit
 
-The 'Time spent per visit' dimension records the amount of time a visitor spent on the entire visit. It uses the following steps to measure calculation:
+*This help page describes how 'Time spent per visit' works as their respective dimensions. See the [Time spent per visit](../metrics/time-spent-per-visit.md) metric for more information.*
+
+The 'Time spent per visit' dimensions record the amount of time a visitor spent on the entire visit. It uses the following steps to measure calculation:
 
 1. Look at the timestamp of the first hit of the visit.
 2. Compare this hit with the timestamp of the last hit of the visit.
 3. The amount of time that elapsed between these two hits contributes to the time spent.
 
-This dimension is valuable when you want to understand how long visitors interact with your site in general.
+These dimensions are valuable when you want to understand how long visitors interact with your site in general.
 
->[!TIP] Time spent requires at least two hits to measure time. Visits that consist of a single hit do not appear in this dimension.
+>[!TIP] Time spent requires at least two hits in a visit to measure time. Visits that consist of a single hit do not appear in this dimension.
 
 This dimension is visit-based, meaning that the value applies to every hit within the visit and doesn't change. Compare this dimension to [Time spent on page](time-spent-on-page.md), which is a hit-based dimension.
 
-This dimension is related to the [Average time spent on site](../metrics/average-time-on-site.md) dimension.
+This dimension is related to the [Average time spent on site](../metrics/average-time-on-site.md) and [Time spent per visit](../metrics/time-spent-per-visit.md) metrics.
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
+These dimensions work out of the box for all implementations. If a report suite contains data, these dimensions work.
 
 ## Dimension values
 

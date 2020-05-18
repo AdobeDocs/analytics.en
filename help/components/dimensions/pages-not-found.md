@@ -5,6 +5,8 @@ description: URLs that returned an error on your site.
 
 # Pages not found
 
+*This help page describes how 'Pages not found' works as a dimension. See the [Pages not found](../metrics/pages-not-found.md) metric for more information.*
+
 The 'Pages not found' dimension shows URLs that contained an error. This dimension is useful when you want to lower the number of errors that visitor get on your site.
 
 * You can use this dimension in a [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) to see which pages visitors click through to reach the error. You can then work with development teams in your organization to fix the link on each page.

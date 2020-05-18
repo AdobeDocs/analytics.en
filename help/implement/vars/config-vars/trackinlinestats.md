@@ -1,6 +1,7 @@
 ---
 title: trackInlineStats
 description: Enable or disable Activity map in your implementation.
+keywords: disable activity map
 ---
 
 # trackInlineStats

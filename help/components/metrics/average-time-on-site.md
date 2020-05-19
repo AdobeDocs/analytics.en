@@ -11,44 +11,62 @@ This metric is related to the [Time spent per visit](../dimensions/time-spent-pe
 
 ## How this metric is calculated
 
-For a given dimension value, take the timestamp of each hit where that dimension value exists. Compare it with the timestamp of the next hit in the visit. If the hit doesn't have a subsequent hit, do not include it in this metric. Out of all the time spent for the dimension value, average them all. This resulting average is the metric displayed in reports.
+For a given dimension value, take the timestamp of each hit where that dimension value exists. Compare it with the timestamp of the next hit in the visit. If the hit doesn't have a subsequent hit, do not include it in this metric. Out of all the time spent for the dimension value, divide them all by the number of "sequences" for that dimension value. A "sequence" is where a dimension value is the same for one or more consecutive hits. This resulting number is the metric displayed in reports.
 
 For example, consider the following visit:
 
-```text
-1:03 PM: Home page
-1:06 PM: Product page A
-1:07 PM: Product page B
-1:10 PM: Product page A
-1:12 PM: Checkout
-1:13 PM: Purchase
-1:25 PM: Home page
-1:26 PM: Product page A
-```
+| `Timestamp` | `Page` |
+| --- | --- |
+| `12:03:00` | `Home page` |
+| `12:04:20` | `Product page A` |
+| `12:05:30` | `Product page A` |
+| `12:07:00` | `Product page B` |
+| `12:07:40` | `Product page A` |
+| `12:08:10` | `Checkout` |
+| `12:10:00` | `Purchase` |
+| `12:25:00` | `Home page` |
+| `12:25:40` | `Product page A` |
+
 
 If you want average time on site for the dimension value `Product page A`, first take the amount of time lapsed between hits for that dimension:
 
-```text
-1:06 - 1:07: 1 minute
-1:10 - 1:12: 2 minutes
-1:26 - ?: Not included in calculation
-```
+* **12:04:20 - 12:05:30** - 1 minute 10 seconds
+* **12:05:30 - 12:07:00** - 1 minute 30 seconds
+* **12:07:40 - 12:08:10** - 30 seconds
+* **12:25:40 - ?** - Not included
 
-The average between the values is the average time spent on site. In this case, it is `00:01:30`. The resulting report would look similar to the following:
+The total amount of time spent for `Product page A` is `00:03:10`. There were two sequences in this visit; the first sequence for the two consecutive values, and the second prior to checkout. The last hit of the visit is not a sequence, since there is no end timestamp.
 
-| `Page`| `Average time on site` |
-| --- | --- |
-| `Purchase` | `00:12:00` |
-| `Product page B` | `00:03:00` |
-| `Home page` | `00:02:00` |
-| `Product page A` | `00:01:30` |
-| `Checkout` | `00:01:00` |
-
->[!NOTE] The above example rounds timestamps to the nearest minute to simplify calculations. Data collected in report suites considers timestamps down to the second.
+The average time on site for `Product page A` is `00:01:35`.
 
 ## Average time spent on site (seconds)
 
 The 'Average time spent on site (seconds)' metric shows the same data presented as an integer instead of in `HH:MM:SS` format. This metric is most valuable as a component within calculated metrics.
+
+## Breakdown totals don't match the parent line item
+
+The 'Average time on site' metric use unbroken sequences of a given dimension. The breakdown dimension doesn't depend on the parent dimension when calculating these sequences. For example, consider the following visit:
+
+| `Timestamp` | `Page name` | `Site section` |
+| --- | --- | --- |
+| `12:00:00` | `Home` | `Foxes` |
+| `12:00:30` | `Product` | `Foxes` |
+| `12:02:10` | `Home` | `Foxes` |
+| `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
+
+Calculating average time on site for the dimension value `Home` would use the following calculation:
+
+```text
+(30 + 10) / 2 = 20 seconds average time on site
+```
+
+If you applied a breakdown using the [Site sections](../dimensions/site-section.md) dimension, it would use the following calculation:
+
+```text
+(30 + 10) / 1 = 40 seconds average time on site
+```
+
+Since there was a single sequence in the breakdown dimension, it uses a different denominator than its parent dimension. These metrics usually provide similar results at a visit level, but can be different at a hit level.
 
 ## Percentages above 100%
 

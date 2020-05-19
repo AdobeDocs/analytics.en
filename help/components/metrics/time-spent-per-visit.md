@@ -7,11 +7,19 @@ description: The amount of time spent per visit for the dimension value.
 
 *This help page describes how 'Time spent per visit' works as a metric. See the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension for more information.*
 
-The 'Time spent per visit (seconds)' metric 
+The 'Time spent per visit (seconds)' metric shows the average amount of time that visitors interact with a given dimension value during each visit.
+
+This metric is not available in Data Warehouse due to its different processing architecture.
 
 ## How this metric is calculated
 
-Placeholder
+This metric uses the formula [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+
+## Comparison to Average time on site
+
+This metric and [Average time spent on site](average-time-on-site.md) are similar, but have several key differences. Both metrics use 'Total seconds spent' as the numerator. However, 'Average time on site' uses the sequences that include a dimension item as its denominator. Time spent per visit uses visit count as its denominator.
+
+As a result, these metrics yield similar results at a visit level, but are different at a hit level.
 
 ## Percentages above 100%
 

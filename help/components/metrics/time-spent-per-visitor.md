@@ -3,13 +3,15 @@ title: Time spent per visitor (seconds)
 description:
 ---
 
-# Time spent per visitor (seconds)
+## Time spent per visitor (seconds)
 
-Placeholder
+The 'Time spent per visitor (seconds)' metric shows the average amount of time that visitors interact with a given dimension value during a visitor's entire lifetime.
+
+This metric is not available in Data Warehouse due to its different processing architecture.
 
 ## How this metric is calculated
 
-Placeholder
+This metric uses the formula [`Total seconds spent`](total-seconds-spent.md) `divided by` [`Unique visitors`](unique-visitors.md).
 
 ## Percentages above 100%
 

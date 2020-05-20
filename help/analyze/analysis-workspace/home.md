@@ -7,15 +7,20 @@ uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 
 # Analysis Workspace overview
 
-Analysis Workspace removes all of the typical limitations of a single Analytics report. It provides a robust, flexible canvas for building custom analysis projects. Drag-and-drop any number of data tables, visualizations, and components (dimensions, metrics, segments, and time granularities) to a project. Instantly create breakdowns and segments, create cohorts for analysis, create alerts, compare segments, do flow and fallout analysis, and curate and schedule reports for sharing with anyone in your business. Advanced features include Attribution IQ, 
+Analysis Workspace removes all of the typical limitations of a single Analytics report. It provides a robust, flexible canvas for building custom analysis projects. Drag-and-drop any number of data tables, visualizations, and components (dimensions, metrics, segments, and time granularities) to a project. Instantly create breakdowns and segments, create cohorts for analysis, create alerts, compare segments, do flow and fallout analysis, and curate and schedule reports for sharing with anyone in your business. 
+
+This page contains basic instructions to get you started. When you have mastered the basics, you can move on to the advanced features of Workspace. They  include [Attribution IQ](/help/analyze/analysis-workspace/attribution-iq.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md), and [Intelligent Alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 Here is a video overview of Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-Full YouTube playlist available [here](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&sort=dd&shelf_id=7).
+The full YouTube playlist for Analysis Workspace features is available [here](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&sort=dd&shelf_id=7).
 
 ## Create a simple project
+
+A project 
+
 
 ## Two ways to build a table
 

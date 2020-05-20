@@ -19,7 +19,7 @@ The full YouTube playlist for Analysis Workspace features is available [here](ht
 
 ## Create a simple project
 
-A project 
+A project can contain data tables and any number of visualizations to drill down into 
 
 
 ## Two ways to build a table

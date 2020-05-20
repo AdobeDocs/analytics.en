@@ -17,10 +17,35 @@ Full YouTube playlist available [here](https://www.youtube.com/channel/UC8I6bqCk
 
 ## Create a simple project
 
+## Two ways to build a table
 
+## Common approach to analysis
+
+### Step 1: Analyze a dimension
+
+Use definitions & examples that we have in the training tutorial - this feedback applies to all remaining steps
+
+### Step 2: Add a metric
+
+Touch on adding calculated metrics in this section
+ 
+### Step 3: Change the date range
+
+### Step 4: Break down a dimension
+
+### Step 5: Apply a segment to your data
+
+### Step 6: Add basic visualizations 
+
+Share a tip about "quick viz" in this section
+
+### Step 7: Explore advanced visualizations
+
+Highlight Flow, Fallout, Cohort, Map
+
+### Step 8: Curate and Share
 
 ## More information
 
 * See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
-
 * Other things

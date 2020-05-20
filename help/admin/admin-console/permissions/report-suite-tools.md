@@ -4,6 +4,7 @@ Use this page to understand each permission item under Report Suite Tools.
 
 | Report Suite Tools Permission Item | Description |
 |------|------|
+| Data Repair API|Grants access to the Data Repair API (future release)|
 | Data Warehouse| Not used. Use 'Custom Data Warehouse Report' instead. |
 | Site Catalyst | Not used. Use 'Analysis Workspace Access' instead. |
 | Report Suites (Read) | Not used. |

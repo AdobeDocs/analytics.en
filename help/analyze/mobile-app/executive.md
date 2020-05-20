@@ -5,15 +5,14 @@ title: Adobe Analytics dashboards executive guide
 
 # Adobe Analytics dashboards : executive user quick start guide
 
->[!IMPORTANT]
->
->Adobe Analytics dashboards is not released and is only available for beta testing among invited customers. This documentation is intended >only for beta users and does not represent complete functionality of the feature. If you are interested in becoming a beta user for this >feature, please contact Ashok Gorrepati (gorrepati@adobe.com).
+The following information provides executive users with information on best practices for using and viewing Adobe Analytics dashboards.
+
 
 ## Introduction
 
 Adobe Analytics dashboards provides anytime, anywhere insights from Adobe Analytics.  The app allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. Dashboards is supported on both iOS and Android operating systems.
 
-## About this guide
+## More about this guide
 
 This guide is intended to help executive users read and interpret Scorecards on Analytics dashboards. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.
 

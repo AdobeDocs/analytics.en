@@ -6,15 +6,13 @@ title: Adobe Analytics dashboards curator guide
 
 # Curator’s guide for Adobe Analytics dashboards
 
->[!IMPORTANT]
->
->Adobe Analytics dashboards is not released and is only available for beta testing among invited customers. This documentation is intended >only for beta users and does not represent complete functionality of the feature. If you are interested in becoming a beta user for this >feature, please contact Ashok Gorrepati (gorrepati@adobe.com).
+The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users.
 
 ## Introduction
 
 Adobe Analytics dashboards provide anytime, anywhere insights from Adobe Analytics. The app allows users mobile access to intuitive scorecards, that you create and share from Adobe Analytics’ desktop UI. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. You can tailor Scorecards according to the data most important to you. Analytics dashboards are supported on both iOS and Android operating systems.
 
-## About this guide
+## More about this guide
 
 This guide is intended to help curators of Adobe Analytics data configure Scorecards for their executive users on the Analytics dashboards. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards, which allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Although executive users are the end-users for Analytics dashboards, this guide will help data curators set up the app effectively for those users.
 

@@ -9,6 +9,6 @@ The 'Revenue' metric shows the monetary amount of products purchased within all 
 
 ## How this metric is calculated
 
-For every hit where `purchase` exists in the [`events`](/help/implement/vars/page-vars/events/events-overview.md) variable, sum the 'Price' field within the [`products`](/help/implement/vars/page-vars/products.md) variable.
+For every hit where `purchase` exists in the [`events`](/help/implement/vars/page-vars/events/event-purchase.md) variable, sum the 'Price' field within the [`products`](/help/implement/vars/page-vars/products.md) variable.
 
 This metric relies on the [currencyCode](/help/implement/vars/config-vars/currencycode.md) variable if the currency on the page is different than the report suite's native currency.

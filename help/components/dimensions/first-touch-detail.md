@@ -22,6 +22,6 @@ If a subsequent hit matches criteria under a different Marketing channel, this d
 
 ## Dimension values
 
-Dimension values depend on the channel value dropdown. For example, if you set the channel's value to 'Page URL', dimension values include page URLs on your site. If you set the channel's value to Referring domain, dimension values include domains that visitors clicked through to get to your site.
+Dimension values depend on the channel value dropdown. For example, if you set the channel's value to 'Page URL', dimension values include page URLs on your site. If you set the channel's value to Referring domain, dimension values include domains that visitors clicked through to get to your site. This dimension aggregates all detail dimension values, regardless of which channel they are in.
 
 Adobe recommends setting channel values related to the marketing channel for insight around channel details.

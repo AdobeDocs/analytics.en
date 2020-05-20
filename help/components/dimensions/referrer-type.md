@@ -20,10 +20,11 @@ Dimension values include the type of referrer of the hit. Specific values includ
 * **Social networks:**: Referrer data belonged to an Adobe-recognized social network.
 * **Other web sites**: Referrer data did not belong to a search engine or social network that Adobe recognizes.
 * **Hard drive**: Referrer originated from a local copy of a web page on the visitor's hard drive.
+* **Email**: Referrer originated from a URL with a protocol of `imap://` or `mail://`. Does not include online email services, as these typically use `https://` protocol.
 
 ### Social networks
 
-The following list references the 'Social networks' lookup table that Adobe uses. Adobe provides this list as a courtesy to Adobe Analytics customers If you would like to recommend that Adobe adds a domain to this list, have a support delegate in your organization contact Customer Care.
+The following list references the 'Social networks' lookup table that Adobe uses. Adobe provides this list as a courtesy to Adobe Analytics customers. If you would like to recommend that Adobe adds a domain to this list, have a support delegate in your organization contact Customer Care.
 
 >[!NOTE] This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
 

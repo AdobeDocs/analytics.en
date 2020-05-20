@@ -15,7 +15,7 @@ This metric uses the following steps to measure calculation:
 
 1. For a given hit, look at the timestamp.
 2. Compare this hit with the timestamp of the next hit in the visit. Both page view and link tracking hits count.
-3. The amount of seconds that elapsed between the two hits contributes toward the dimension value.
+3. The amount of seconds that elapsed between the two hits contribute towards the dimension value.
 
 Persisted variables, such as [eVars](../dimensions/evar.md), count towards total seconds spent. Traffic variables, such as [props](../dimensions/prop.md), include seconds spent across subsequent link tracking calls.
 

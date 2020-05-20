@@ -5,7 +5,11 @@ description: The name of the download link.
 
 # Download link
 
-The 'Download link' dimension reports the names of download links implemented on your site. This dimension is valuable when you want to understand which download links are most popular.
+The 'Download link' dimension reports the names of download links implemented on your site. This dimension is valuable when you want to learn more about visitor behavior around download links, such as:
+
+* Determine the files that are downloaded most frequently from your site.
+* Understand if certain files are downloaded more often during specific time periods.
+* Validate that visitors download different filetypes if offered.
 
 ## Populate this dimension with data
 

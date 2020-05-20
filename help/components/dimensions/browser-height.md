@@ -13,7 +13,7 @@ This dimension is different than screen height. Browser height is the number of 
 "Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
 ```
 
-Browser height is always smaller than screen height, since browser height doesn't include browser navigation or borders.
+Browser height is always smaller than or equal to screen height, since browser height doesn't include browser navigation or borders.
 
 ## Populate this dimension with data
 

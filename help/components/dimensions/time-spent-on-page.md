@@ -29,9 +29,3 @@ Multiple dimensions exist for time spent on page:
 
 * **Time spent on page - bucketed**: The amount of time is bucketed. Dimension values range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Time between page views typically don't last longer than 30 minutes; however, time between page views can exceed 30 minutes if using timestamped hits or data sources.
 * **Time spent on page - granular**: Each number of seconds is a unique dimension value.
-
-**Q3: What metric is appropriate against the dimension of [!UICONTROL Time Spent on Page – granular]?**
-
-A: Any metric. The dimension will show the time spent on the exact hit where the event occurred. Higher time spent means a visitor stayed longer on a page (hit) where the event occurred.
-
-![](assets/time-spent2.png)

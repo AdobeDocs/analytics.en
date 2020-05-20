@@ -37,7 +37,7 @@ These dimensions reference lookup rules internal to Adobe. The lookup value is b
 * **Mobile operating system (deprecated)**: Use the [Operating system](operating-systems.md) dimension instead.
 * **Mobile push to talk**: Determines if the device supports PTT (Push to talk), which allows the mobile device to behave similar to a two-way radio. Recent devices typically do not report this feature.
 * **Mobile screen height**: The height of the screen, in pixels. Note that iPhones always report `"480"` due to the inability to determine iPhone device version. See the section below on determining iPhone device version.
-* **Mobile screen size**: The full dimensions of the mobile device in pixels.
+* **Mobile screen size**: The full dimensions of the mobile device in pixels. The reported screen size does not indicate the orientation of the device. Regardless of screen orientation, each device has a fixed screen resolution in the report. This size is based on research that determines which orientation is more likely. You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **Mobile screen width**: The width of the screen, in pixels.
 * **Mobile video support**: The video file formats and codecs that the mobile device supports. Several dimension values exist for different codecs of MP4 and 3GPP files. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension values.
 

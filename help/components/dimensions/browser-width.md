@@ -13,7 +13,7 @@ This dimension is different than screen width. Browser width is the number of pi
 "Browser width: " + window.innerWidth + " pixels\nScreen width: " + screen.width + " pixels";
 ```
 
-Browser width is always smaller than screen width, since browser width doesn't include scroll bars or borders.
+Browser width is always smaller than or equal to screen width, since browser width doesn't include scroll bars or borders.
 
 ## Populate this dimension with data
 

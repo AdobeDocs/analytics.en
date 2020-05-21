@@ -6,7 +6,7 @@ title: Adobe Analytics dashboards curator guide
 
 # Curator’s guide for Adobe Analytics dashboards
 
-The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users.
+The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see [Adobe Analytics dashboards In-App Experience](https://www.youtube.com/watch?v=QXqQ_PkArbA&feature=youtu.be).
 
 ## Introduction
 
@@ -64,10 +64,6 @@ You can access the Blank Mobile Scorecard template in one of the following ways:
 
 ![Scorecard template](assets/new_template.png)
 
-
-*Note: If you do not see the Blank Mobile Scorecard template, as shown below, your company has not yet been activated for Beta. Please contact your Customer Service Manager.*
-
-
 **Add a project**
 
 From the **Projects** screen, under the **Components** tab, click the **Add** button and select **Mobile Scorecard**.
@@ -98,18 +94,17 @@ To implement the Scorecard template:
 
     ![Add dimensions](assets/layer_dimensions.png)
 
-    *Note: You can also add a dimension to all tiles by dropping it onto the Scorecard canvas.*
+    You can also add a dimension to all tiles by dropping it onto the Scorecard canvas.
 
     When you click on a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new **Title** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail. 
-
 
     Also, if you click on tiles, a dynamic pop up will display how the Breakdown view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be **hour** or **days**, depending on the default date range.
 
     ![Breakdown_view](assets/break_view.png)
 
-    *Note how each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.*
+    Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
-4. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard.
+4. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard. Or, you can also apply segments by selecting segments in the filter menu beneath the date ranges. You [configure and apply filters for your Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) the same way you would in Adobe Analytics Workspace. 
 
 5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **Mobile Customers** segment:
 
@@ -148,7 +143,7 @@ To share the Scorecard with an executive user:
 
 After you have shared a Scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
-*Note: If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## Setup executive users with the app
 
@@ -164,42 +159,24 @@ To assist executive users access your Scorecards on the app, ensure that:
 * They have access to Analysis Workspace and the report suite that the Scorecard is based on
 * They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
  
-### Help executive users use the app
+### Help executive users with the app
 
-During the beta phase, and before the app is unveiled to the public, you can control who has access to the app. 
+To help executive users:
 
-1. Help executive users download and install the app. To do this, provide the following steps to extend access to your executive users, depending on whether they use an iOS or an Android device.
+1. Help them download and install the app. To do this, provide the following steps to extend access to your executive users, depending on whether they use an iOS or an Android device.
 
     **For executive users on iOS:**
 
-    1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
+    1. Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
-        [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-        After clicking the link, the following Testflight screen appears:
-
-        ![Testflight screen](assets/testflight1.png)
-
-    2. Tap the **View in App Store** link on the screen to download the Testflight app.
-
-    3. After installing the Testflight app, find and install the Adobe Analytics dashboards from within Testflight as shown below:
-
-        ![Testflight screen](assets/testflight2.png)
+        [iOS link](https://apple.co/2zXq0aN)
 
     **For executive users on Android:**
 
-    1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **dashboards**):
-        [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+    1. Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
-        After tapping the link, tap the Become a Tester link on the following screen:
+        [Android](https://bit.ly/2LM38Oo)
 
-        ![Play Store screen](assets/play.png)
-
-    2. Tap the **download it on Google Play** link on the following screen:
-
-        ![Download link](assets/playnext.png)
-
-    3. Download and install the app.
     Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
 
     ![App welcome screen](assets/welcome.png)
@@ -212,16 +189,14 @@ During the beta phase, and before the app is unveiled to the public, you can con
 
     ![Choose a company](assets/accesscard.png)
 
-    Note: If the executive user logs in and sees a message saying that nothing has been shared:
+    If the executive user logs in and sees a message saying that nothing has been shared:
 
     * The executive user may have selected the wrong Analytics instance
     * The Scorecard may not have been shared with the executive user
 
-        ![Nothing shared](assets/nothing.png)
-
     Verify that the executive user can log into the right Analytics instance and that the Scorecard has been shared.
 
-3. Explain to the executive user how tiles appear in the Scorecards you share. 
+3. Explain to the executive user how tiles appear in the Scorecards you share (the Scorecard below is set in dark mode, which is set in **Preferences** ,as explained in a subsequent step): 
 
     ![Explain tiles](assets/newexplain.png)
 
@@ -239,25 +214,31 @@ During the beta phase, and before the app is unveiled to the public, you can con
 4. Tap a tile to show how a detailed breakdown for the tile works.
 
     ![Breakdown view](assets/sparkline.png)
+    
+    * Tap any point on a sparkline to see data associated with that point on the line.
+
+    * A table is included to display data of dimensions added to the tile. Tap the down arrow to select dimensions. If no dimension was added to the tile, the table displays chart data.
 
 
 5. To change date ranges for your Scorecard:
  
     ![Change dates](assets/changedate.png)
  
-    *Note: You can also change the date ranges within the Breakdown view shown above in the same way.*
+    You can also change the date ranges within the Breakdown view shown above in the same way.
     
     Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
 6. To leave feedback on this app:
 
-    1. Tap the user icon in the upper right of the app screen. 
-    2. On the **My Account** screen, tap the **Feedback** option. 
+    1. Tap the settings icon in the upper right of the app screen. 
+    2. On the **Settings** screen, tap the **Feedback** option. 
     3. Tap to view the options for leaving feedback.
 
-    ![Leave feedback](assets/feedback.png)
-    ![Feedback options](assets/feedback_option.png)
+        ![Settings screen](assets/settings.png)
 
+7. To change preferences, tap the **Preferences** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
+
+    ![Dark mode](assets/darkmode.png)
 
 **To report a bug**:
 

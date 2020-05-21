@@ -106,6 +106,8 @@ To implement the Scorecard template:
 
 4. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard. Or, you can also apply segments by selecting segments in the filter menu beneath the date ranges. You [configure and apply filters for your Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) the same way you would in Adobe Analytics Workspace. 
 
+    ![Build segments for filter](assets/segment_ui.png)
+
 5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **Mobile Customers** segment:
 
     ![Remove_components](assets/new_remove.png)
@@ -167,15 +169,15 @@ To help executive users:
 
     **For executive users on iOS:**
 
-    1. Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+    * Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
         [iOS link](https://apple.co/2zXq0aN)
 
     **For executive users on Android:**
 
-    1. Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+    * Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
-        [Android](https://bit.ly/2LM38Oo)
+        [Android link](https://bit.ly/2LM38Oo)
 
     Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials; we support both Adobe and Enterprise/Federated IDs.
 

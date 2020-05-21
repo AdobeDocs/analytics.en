@@ -5,7 +5,7 @@ title: Adobe Analytics dashboards executive guide
 
 # Adobe Analytics dashboards: executive user quick start guide
 
-The following information provides executive users with information on best practices for using and viewing Adobe Analytics dashboards.
+The following information provides executive users with information on best practices for using and viewing Adobe Analytics dashboards. To see a video demonstrating this information, see [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Introduction
@@ -46,15 +46,15 @@ To download and install the app, follow the steps according to the operating sys
 
 **For executive users on iOS:**
 
-* Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
-    [iOS link](https://apple.co/2zXq0aN)
+[iOS link](https://apple.co/2zXq0aN)
 
 **For executive users on Android:**
 
-* Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
 
-    [Android](https://bit.ly/2LM38Oo)
+[Android link](https://bit.ly/2LM38Oo)
 
 Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials.
 
@@ -76,25 +76,32 @@ To use dashboards:
 
     If you log in and see a message saying that nothing has been shared, verify the following with your curator:
 
-    You can log into the right Analytics instance
-    The Scorecard has been shared with you
-
+    * You can log into the right Analytics instance
+    * The Scorecard has been shared with you
+    
     ![Nothing shared](assets/nothing.png)
 
-4. Examine how the tiles appear in the Scorecard (this Scorecard is shown in dark mode). 
+4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **Preferences** below for more information). 
 
     ![Tiles explained](assets/newexplain.png)
 
     Additional information on tiles:
 
     * The granularity of the sparklines is dependent on the length of the date range: 
-    * One day shows an hourly trend
-    * More than one day and less than a year shows a Daily trend
-    * One year or more shows a weekly trend
-    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-    * You can pull the screen down to refresh the Scorecard.
 
-5. Tap a tile to show how a detailed breakdown for the tile works.
+        * One day shows an hourly trend
+        * More than one day and less than a year shows a daily trend
+        * One year or more shows a weekly trend
+
+    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+
+    * You can pull the screen down to refresh the Scorecard.
+    
+    The following example Scorecard is shown in normal mode:
+
+    ![Example Scorecard](assets/intro_scorecard.png)
+
+5. Tap a tile to see how a detailed breakdown for the tile works.
     
     ![Breakdow view](assets/sparkline.png)
 
@@ -103,11 +110,11 @@ To use dashboards:
 
     ![Change dates](assets/changedate.png)
 
-    You can also change the date ranges within the Breakdown view shown above in the same way.
+    * You can also change the date ranges within the Breakdown view shown above in the same way.
 
-    Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+    * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
-7. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator.
+7. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
 
     ![Segment filter](assets/segment_filter.png)
 

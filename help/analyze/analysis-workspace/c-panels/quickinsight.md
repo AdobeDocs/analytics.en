@@ -7,7 +7,7 @@ title: Quick Insights builder
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** is currently in limited testing and not generally available to all Adobe Analytics customers yet.
+>**[!UICONTROL Quick Insights]** is currently in limited testing. [Learn more...]( https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] provides guidance for non-analysts and new users of [!UICONTROL Analysis Workspace] to learn how to answer business questions quickly and easily. It is also a great tool for advanced users who want to answer a simple question quickly without having to build a table themselves.
 
@@ -32,7 +32,7 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 |[!UICONTROL Dimension item]|Dimension items are individual values for a dimension. For example, dimension items for the browser dimension would be "Chrome", "Firefox", "Edge", etc.|
 |[!UICONTROL Metric]|Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.|
 |[!UICONTROL Visualization]|Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others.|
-|[!UICONTROL Breakdown]|A breakdown is a way to literally break down a dimension by other dimensions. In our example, you could break down US States by Mobile Devices to get the mobile device visits per state, or you could break Mobile Devices down by Mobile Device types, by Regions, by Internal Campaigns, etc..|
+|[!UICONTROL Dimension Breakdown]|A dimension breakdown is a way to literally break down a dimension by other dimensions. In our example, you could break down US States by Mobile Devices to get the mobile device visits per state, or you could break Mobile Devices down by Mobile Device types, by Regions, by Internal Campaigns, etc..|
 |[!UICONTROL Segment]|Segments let you identify subsets of visitors based on characteristics or website interactions. For example, you can build [!UICONTROL Visitor] segments based on attributes: browser type, device, number of visits, country, gender, or based on interactions: campaigns, keyword search, search engine, or based on exits and entries: visitors from Facebook, a defined landing page, referring domain, or based on custom variables: form field, defined categories, customer ID.  |
 
 ## Get started with Quick Insights
@@ -60,7 +60,7 @@ Following are some of the basic terms you need to be familiar with. Each data ta
 
     ![](assets/qibuilder3.png)
 
-    * An accompanying visualization, in this case a [bar chart](/help/analyze/analysis-workspace/visualizations/bar.md). The visualization that is generated is based on the type of data you added to the table. You can change the type of visualization by clicking on the drop-down arrow next to **[!UICONTROL Bar]**.
+    * An accompanying visualization, in this case a [bar chart](/help/analyze/analysis-workspace/visualizations/bar.md). The visualization that is generated is based on the type of data you added to the table. Any time-based data (such as [!UICONTROL Visits] per Day/Month) defaults to a [!UICONTROL Line] chart. Any non-time-based data (such as [!UICONTROL Visits] per [!UICONTROL Device]) defaults to a [!UICONTROL Bar] chart. You can change the type of visualization by clicking on the drop-down arrow next to the visualization type.
 
 1. (Optional) Drill down on dimensions and see dimension items by clicking the > right-arrow next to the dimension.
 
@@ -87,10 +87,6 @@ Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some 
 * **Add more segments**: You can add up to 2 more segments by using the AND or OR operators to add them the table. Look at what happens to the table when you add Mobile Users OR Loyal Visitors. They are next to each other, above the metrics. If you added Mobile Users AND Loyal Visitors, you would see results from both segments together, and they would be stacked on top of each other in the table.
 
     ![](assets/qibuilder7.png)
-
-## Open/Load a Quick Insights project
-
-
 
 ## Known limitations
 

@@ -16,9 +16,9 @@ Contribution Analysis helps you evaluate your data immediately to answer why an 
 
 Contribution Analysis helps you develop a narrative to describe why an anomaly occurred and how to respond to it, capturing relevant metrics and identifying hidden points that give you an overall reason for audience interactions and trending customer interests. Sometimes an anomaly is easy to see and correct, such as an errant order for 2,000 kayaks. Sometimes it's complex, like identifying an emerging trend across a time period in a region reacting only to a specific targeted campaign. Piecing together contributing items across metrics for various dimensions and their associations gives you an overall idea of your audience interactions and helps provide context for anomalous data points.
 
-Here's a few ideas:
+Here are a few use cases:
 
-* Identity re-marketing potential by monitoring changes in product demand.
+* Identify re-marketing potential by monitoring changes in product demand.
 * Enhance customer experience by reacting to specific audience interests.
 * Identify fraudulent orders early as an out-of-bounds report.
 * Protect yourself from corporate espionage by identifying high usage and downloads.
@@ -48,7 +48,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Why did Adobe introduce tokens? </b> </p> </td> 
-   <td colname="col2"> <p>Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics since its release in 2015. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. </p> </td> 
+   <td colname="col2"> <p>Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How does tokening in Contribution Analysis work? Does it cost a token to load a project with an existing Contribution Analysis, or only when running a brand new one?</b> </p> </td> 

@@ -9,7 +9,7 @@ The 'Single access' metric shows the number of visits where the dimension value 
 
 ## How this metric is calculated
 
-This metric counts the number of visits where the dimension value contained only a single unique value for the entire visit. You can set the dimension value multiple times or have it persist and still count as a single access. As soon as a dimension value changes to a second unique value, the visit no longer qualifies as a single access.
+This metric counts visits where the dimension value contained a single unique value. You can set the dimension value multiple times or have it persist and still count as a single access. As soon as a dimension value changes to a second unique value, the visit no longer qualifies as a single access.
 
 ## Difference between 'Single access' and 'Single page visit'
 

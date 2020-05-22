@@ -71,3 +71,5 @@ Since there was a single sequence in the breakdown dimension, it uses a differen
 ## Percentages above 100%
 
 This metric frequently contains percentages above 100%. The denominator is the entire dimension's average time on site, and the numerator is the dimension value's average time on site. If the entire dimension's average time on site is lower than a given dimension value's average time on site, you'll see percentages above 100%. Sorting ranked reports by this metric shows anomaly average time on site values, which is typically not valuable. Adobe recommends sorting by another metric, such as [Visits](visits.md), in ranked reports.
+
+See [Time spent overview](time-spent.md) for more general information on time spent.

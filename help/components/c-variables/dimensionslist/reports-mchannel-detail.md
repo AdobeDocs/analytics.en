@@ -29,4 +29,4 @@ These reports provide insight on the specific campaigns or keywords are most eff
   * All custom events: Events 1-80, and Events 81-100 if on H22 code or higher.
   * Visits and Visitors: availability is dependent on organization and report suite. Contact your Account Manager for additional details.
 
-  See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
+  See [Metrics](/help/components/c-marketing-channels/c-rules.md) in [!UICONTROL Marketing Channel] Help.

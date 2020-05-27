@@ -13,4 +13,4 @@ Displays which spiders and bots have visited your site during a given time perio
 
 >[!MORELIKETHIS]
 >
->* [Bot Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html)
+>* [Bot Rules](/help/admin/admin/bot-removal/bot-rules.md)

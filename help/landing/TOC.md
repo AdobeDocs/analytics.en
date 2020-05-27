@@ -23,3 +23,4 @@ user-guide-url: /content/help/en/analytics/landing/home.html
 * [Analytics documentation updates](doc-updates.md)
 * [Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 * [Adobe Analytics feature releases](an-releases.md)
+* [Accessibility in Analysis Workspace](accessibility.md)

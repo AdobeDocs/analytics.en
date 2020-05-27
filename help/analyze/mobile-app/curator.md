@@ -6,16 +6,15 @@ title: Adobe Analytics dashboards curator guide
 
 # Curator’s guide for Adobe Analytics dashboards
 
-The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see [Adobe Analytics dashboards In-App Experience](https://www.youtube.com/watch?v=QXqQ_PkArbA&feature=youtu.be).
+The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see [Adobe Analytics dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Introduction
 
-Adobe Analytics dashboards provide anytime, anywhere insights from Adobe Analytics. The app allows users mobile access to intuitive scorecards, that you create and share from Adobe Analytics’ desktop UI. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. You can tailor Scorecards according to the data most important to you. Analytics dashboards are supported on both iOS and Android operating systems.
+Adobe Analytics dashboards provide anytime, anywhere insights from Adobe Analytics. The app allows users mobile access to intuitive scorecards that you create and share from Adobe Analytics’ desktop UI. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. You can tailor Scorecards according to the data most important to you. Analytics dashboards are supported on both iOS and Android operating systems.
 
 ## More about this guide
 
-This guide is intended to help curators of Adobe Analytics data configure Scorecards for their executive users on the Analytics dashboards. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards, which allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Although executive users are the end-users for Analytics dashboards, this guide will help data curators set up the app effectively for those users.
-
+This guide is intended to help curators of Adobe Analytics data configure Scorecards for their executive users on dashboards. Curators may be organizational administrators or persons in other roles who are responsible for setting up app Scorecards, which allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Although executive users are the end-users for Analytics dashboards, this guide will help data curators set up the app effectively for those users.
 
 ## Glossary of terms
 
@@ -157,9 +156,9 @@ To assist executive users access your Scorecards on the app, ensure that:
 
 * The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher 
 * They have a valid login into Adobe Analytics
-* You have correctly created mobile Scorecards for them and share these Scorecards with them.
+* You have correctly created mobile Scorecards for them and have shared these Scorecards with them
 * They have access to Analysis Workspace and the report suite that the Scorecard is based on
-* They have access to the Components that the Scorecard includes. Note: You can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* They have access to the Components that the Scorecard includes. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
  
 ### Help executive users with the app
 
@@ -194,20 +193,25 @@ To help executive users:
     If the executive user logs in and sees a message saying that nothing has been shared:
 
     * The executive user may have selected the wrong Analytics instance
+
     * The Scorecard may not have been shared with the executive user
 
-    Verify that the executive user can log into the right Analytics instance and that the Scorecard has been shared.
+        ![Nothing shared](assets/nothing.png)
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the Scorecard below is set in dark mode, which is set in **Preferences** ,as explained in a subsequent step): 
+
+    * Verify that the executive user can log into the right Analytics instance and that the Scorecard has been shared.
+
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opton): 
 
     ![Explain tiles](assets/newexplain.png)
 
+    ![Example Scorecard](assets/intro_scorecard.png)
 
     Additional information on tiles:
 
     * The granularity of the sparklines is dependent on the length of the date range: 
         * One day shows an hourly trend
-        * More than one day and less than a year shows a Daily trend
+        * More than one day and less than a year shows a daily trend
         * One year or more shows a weekly trend
     * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
     * You can pull the screen down to refresh the Scorecard.
@@ -221,14 +225,13 @@ To help executive users:
 
     * A table is included to display data of dimensions added to the tile. Tap the down arrow to select dimensions. If no dimension was added to the tile, the table displays chart data.
 
-
 5. To change date ranges for your Scorecard:
  
     ![Change dates](assets/changedate.png)
  
-    You can also change the date ranges within the Breakdown view shown above in the same way.
+    * You can also change the date ranges within the Breakdown view shown above in the same way.
     
-    Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+    * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
 6. To leave feedback on this app:
 

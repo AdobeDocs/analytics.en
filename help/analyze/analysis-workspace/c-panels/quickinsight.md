@@ -1,9 +1,9 @@
 ---
-description: Quick Insights builder is a tool for new Workspace users that guides them in building data tables and visualizations
-title: Quick Insights builder
+description: Quick Insights is a tool for new Workspace users that guides them in building data tables and visualizations
+title: Quick Insights panel
 ---
 
-# Quick Insights builder
+# Quick Insights panel
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ Other useful hints will pop up in the [!UICONTROL Quick Insights Builder], some 
 
 ## Known limitations
 
-If you try to edit directly within the table, it will cause the [!UICONTROL Quick Insights] panel (the fill-in-the-blank tool) to become out of sync. You can restore it to the previous [!UICONTROL Quick Insights] settings by clicking **[!UICONTROL Resync Builder]** at the top right of the panel.
+If you try to edit directly within the table, it will cause the [!UICONTROL Quick Insights] panel to become out of sync. You can restore it to the previous [!UICONTROL Quick Insights] settings by clicking **[!UICONTROL Resync Builder]** at the top right of the panel.
 
  ![](assets/qibuilder9.png)
 

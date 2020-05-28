@@ -69,18 +69,19 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
-    + [Treemap](analysis-workspace/visualizations/treemap.md)
+    + [Tree map](analysis-workspace/visualizations/treemap.md)
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
-    + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
-    + [Quick Insights builder](analysis-workspace/c-panels/quickinsight.md)
-    + Attribution {#attribution}
+    + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
+    + Attribution panel {#attribution}
       + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
       + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)
       + [Attribution FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Algorithmic attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
+    + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-    + Segment comparison {#segment-comparison}
+    + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
+    + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)

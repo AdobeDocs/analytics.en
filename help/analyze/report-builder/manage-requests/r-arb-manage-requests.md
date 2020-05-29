@@ -15,7 +15,7 @@ The [!UICONTROL Request Manager] provides a detailed view of the status of all r
 
 The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
 
-> [!NOTE] Adobe Report Builder enforces request dependencies only within the same worksheet, not across worksheets. Restricting to dependencies within a single worksheet ensures timeliness of execution.
+>[!NOTE] Adobe Report Builder enforces request dependencies only within the same worksheet, not across worksheets. Restricting to dependencies within a single worksheet ensures timeliness of execution.
 
 ## Definitions {#section_FD29D8614DE74F32A0027FA130F40304}
 

@@ -5,7 +5,9 @@ description: Learn about the first-time customer experience for implementing Ado
 
 # Implementation modal
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Please see [Create a report suite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html).
+
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
 The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
@@ -23,7 +25,7 @@ Access the modal to create a report suite using the following steps.
 2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
 3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
 ## Create a report suite
 
@@ -63,11 +65,11 @@ Estimate how much traffic your website or app gets per day. This information all
 
 Determine what currency the report suite stores monetary values in.
 
-> [!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
 ## Implementation resources
 
 After the report suite is created, you have one of two options to proceed with your implementation:
 
 * **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
-* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md).
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->

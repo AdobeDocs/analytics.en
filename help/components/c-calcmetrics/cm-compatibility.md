@@ -20,7 +20,7 @@ When you create calculated or advanced calculated metrics in the Calculated Metr
  <tbody> 
   <tr> 
    <td colname="col1"> Current Data </td> 
-   <td colname="col2"> <p>The Include Current Data option in Analytics lets you view the latest Analytics data, often before data is fully processed and finalized. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Current data</a> displays most metrics within minutes, providing actionable data for quick decision making. </p> <p>Current Data supports calculated metrics only (those that include multiplication, division, addition, and subtraction.) Current Data does not support advanced calculated metrics (that contain segments or functions). </p> </td> 
+   <td colname="col2"> <p>The Include Current Data option in Analytics lets you view the latest Analytics data, often before data is fully processed and finalized. <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Current data</a> displays most metrics within minutes, providing actionable data for quick decision making. </p> <p>Current Data supports calculated metrics only (those that include multiplication, division, addition, and subtraction.) Current Data does not support advanced calculated metrics (that contain segments or functions). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Fully Processed Data </td> 

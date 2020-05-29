@@ -54,7 +54,11 @@ Here are available templates and the questions that each template helps answer.
 
 ### Training
 
-* **Training Tutorial**: This standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list.
+These standard templates walk you through common terminology and steps for building your first analysis in Workspace. They is available as a standard template in the New Project modal and replace the sample project that exists today for new users that do not have other projects in their list.
+
+* **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
+
+* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions & metrics are important.
 
 ### Advertising
 
@@ -102,7 +106,7 @@ Here are available templates and the questions that each template helps answer.
 
 ### People
 
-> [!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
 This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
@@ -114,7 +118,7 @@ This template is based on the People metric, which is a de-duplicated version of
 * Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 
-### Journey IQ: Cross-Device Analytics template
+### Journey IQ: Cross-Device Analysis template
 
 <!-->This content is mirrored in the CDA doc.<-->
 

@@ -19,7 +19,7 @@ As the new alert system for all of Adobe Analytics, Intelligent Alerts let you c
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports & Analytics.
 
-For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
+For more information, go to the Analysis Workspace documentation on [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Add an Alert {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,13 +35,13 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONT
 
 1. In Reports & Analytics, open the report where you want to set an alert.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. This will take you to the [new Alert Builder](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html).
+1. This will take you to the [new Alert Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
 ## View or Edit Existing Alerts {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Task Context 
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. This takes you to the new [Alert Manager](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. This takes you to the new [Alert Manager](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Legacy Alerts Migration {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -96,17 +96,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alerts with an ASI slot as the report suite </p> </td> 
-   <td colname="col2"> <p>You can no longer <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > create or edit ASI slots </a> and they are not available for use in Analysis Workspace. Hence, they are not supported by the new alerts. </p> <p> </p> </td> 
+   <td colname="col2"> <p>You can no longer create or edit ASI slots and they are not available for use in Analysis Workspace. Hence, they are not supported by the new alerts. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alerts using participation metrics </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Participation metrics </a> are available in Reports &amp; Analytics, but aren't currently available in the new alerts system in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > Participation metrics </a> are available in Reports &amp; Analytics, but aren't currently available in the new alerts system in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Monthly alerts for custom calendar report suites </p> </td> 
-   <td colname="col2"> <p>This only affects customers with alerts set up for report suites that have <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  > custom month start dates </a> (National Retail Federation/NRF and Custom Calendar types). </p> <p>It does not affect alerts on Gregorian or Modified Gregorian calendar report suites. Previously these alerts were sent on the first day of the Gregorian month (e.g. January 1st, February 1st etc). This will not work with the new Anomaly Detection feature of alerts, which takes previous months' data into account when detecting anomalies. In the future, we will add support to our scheduling system for custom calendars so that both Alerts and Scheduled Projects can be scheduled to send on the first day of the custom calendar month instead of just the first day of the Gregorian month. </p> <p> </p> </td> 
+   <td colname="col2"> <p>This only affects customers with alerts set up for report suites that have <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > custom month start dates </a> (National Retail Federation/NRF and Custom Calendar types). </p> <p>It does not affect alerts on Gregorian or Modified Gregorian calendar report suites. Previously these alerts were sent on the first day of the Gregorian month (e.g. January 1st, February 1st etc). This will not work with the new Anomaly Detection feature of alerts, which takes previous months' data into account when detecting anomalies. In the future, we will add support to our scheduling system for custom calendars so that both Alerts and Scheduled Projects can be scheduled to send on the first day of the custom calendar month instead of just the first day of the Gregorian month. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not yet available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 

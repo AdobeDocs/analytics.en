@@ -22,9 +22,9 @@ It is important to understand the metrics or measurements that are contained in 
 
 After you determine the appropriate metric-to-event mappings for the Data Sources data, rename the events with descriptive names appropriate for the associated Data Sources metric.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in Admin Tools Help.
+See [Success Events](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in Admin Tools Help.
 
-> [!NOTE] Adobe strongly recommends using new, empty events with Data Sources data, but in rare cases it might make sense to use a pre-existing event.
+>[!NOTE] Adobe strongly recommends using new, empty events with Data Sources data, but in rare cases it might make sense to use a pre-existing event.
 
 ## Identify the Data Dimensions {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -34,13 +34,13 @@ For example, if a Data Sources metric measures ad impressions, your data dimensi
 
 You can define multiple data dimensions to a metric, but each metric must provide a relevant value, or combination of values, for each associated data dimension. For example, if you import an Off-line Sales metric and associate it with *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
-> [!NOTE] It is possible to import Total metrics that cannot be broken down by any data dimension.
+>[!NOTE] It is possible to import Total metrics that cannot be broken down by any data dimension.
 
 After you define the data dimensions to use with a data source, integrate the dimensions data into marketing reports by mapping it to a variable. Use either standard reports (for example, Product, Tracking Code, Search Keyword) or Conversion Traffic variables (eVars).
 
 When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure you name them appropriately.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in Analytics Help.
+See [Success Events](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
 
 ## Campaign Tracking Code {#section_468222796FF449ABAA90D88EB3264CB1}
 

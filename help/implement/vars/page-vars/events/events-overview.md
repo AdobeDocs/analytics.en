@@ -38,7 +38,7 @@ The `s.events` variable is a string that contains a comma-delimited list of even
 * `scView`: Increments the ['Cart Views'](/help/components/metrics/cart-views.md) metric.
 * `scCheckout`: Increments the ['Checkouts'](/help/components/metrics/checkouts.md) metric.
 
-> [!NOTE] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
+>[!NOTE] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
 
 ```js
 // Set the events variable to a single value
@@ -60,7 +60,7 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
-> [!NOTE] Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
+>[!NOTE] Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
 
 ### Use currency events
 
@@ -77,7 +77,7 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
-> [!NOTE] If you set a currency value in both the `events` variable and the `products` variable, the currency value in `events` is used. Avoid setting currency values in both the `events` and `products` variables.
+>[!NOTE] If you set a currency value in both the `events` variable and the `products` variable, the currency value in `events` is used. Avoid setting currency values in both the `events` and `products` variables.
 
 ### Use numeric events
 
@@ -92,4 +92,4 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
-> [!NOTE] If you set a numeric value in both the `events` variable and the `products` variable, the numeric value in `events` is used. Avoid setting numeric values in both the `events` and `products` variables.
+>[!NOTE] If you set a numeric value in both the `events` variable and the `products` variable, the numeric value in `events` is used. Avoid setting numeric values in both the `events` and `products` variables.

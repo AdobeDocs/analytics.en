@@ -9,7 +9,7 @@ Acquisition reports show how you obtain visitors to your site.
 
 In Adobe Analytics, these reports are known as **Marketing Channels**. They require some basic initial setup, but allow a much more customized view of channels.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 > Set up your Marketing Channel processing rules to use these reports. See [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
 

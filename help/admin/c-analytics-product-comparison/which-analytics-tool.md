@@ -12,7 +12,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
@@ -72,7 +72,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** should be used:
+**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
@@ -110,7 +110,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * If the client wants Adobe data stored in a client-side database, at the most granular level we can send.
 * If the client wants to develop a Business Intelligence (BI) tool or input hit-level Adobe data into a 3rd-party tool.
 
-**[Reporting APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** should be used when the other visualization options do not meet your needs. The 3 API options include:
+**[Reporting APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** should be used when the other visualization options do not meet your needs. The 3 API options include:
 
 * **Fully Processed**: when you want feature-rich data (including visits, visitors, and segments). This is typical Analytics UI summarized data, available within ~30-90 minutes. Can be used through Report Builder.
 * **Real-Time**: when you want to view a few metrics and dimensions with seconds of latency. This is limited, partially processed, summarized data that is available within ~30 seconds. Includes unique algorithms of most popular, gainers, and losers. Can be used through Report Builder.

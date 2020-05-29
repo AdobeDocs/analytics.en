@@ -22,11 +22,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody>
   <tr>
    <td colname="col1"> Referrer Override </td>
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>See [referrer](../../../vars/page-vars/referrer.md). </p> </td>
+   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>See <a href="../../../vars/page-vars/referrer.md">referrer</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campaign </td>
-   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See [campaign](../../../vars/page-vars/campaign.md). </p> </td>
+   <td colname="col2"> <p>A variable that identifies marketing campaigns used to bring visitors to your site. The value of campaign is usually taken from a query string parameter. </p> <p>See <a href="../../../vars/page-vars/campaign.md">campaign</a>. </p> </td>
   </tr>
  </tbody>
 </table>

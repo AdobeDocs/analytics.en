@@ -1,14 +1,14 @@
 ---
 description: null
-title: Attribution panel overview
+title: Attribution overview
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 ---
 
-# Attribution panel overview
+# Attribution overview
 
->[!IMPORTANT] The Attribution panel is available for all customers on the Adobe Analytics Ultimate, Prime, Select, and Foundation SKUs.
+>[!IMPORTANT] Attribution is available for all customers on the Adobe Analytics Ultimate, Prime, Select, and Foundation SKUs.
 
-The attribution panel is an [Attribution IQ](../../attribution-iq.md) feature that lets you add many new types of attribution models to freeform tables, visualizations, and calculated metrics. All attribution models have two components:
+[Attribution IQ](../../attribution-iq.md) is set of features that lets you add many new types of attribution models to freeform tables, visualizations, and calculated metrics. All attribution models have two components:
 
 * **Attribution model:** The model describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
 * **Attribution lookback window:** The lookback window describes which groupings of hits are considered for each model. For example, visit or visitor.
@@ -27,12 +27,7 @@ The attribution panel is an [Attribution IQ](../../attribution-iq.md) feature th
 | ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
 | ![Time Decay](assets/time_decay.png) | Time-Decay | Follows and exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
 | ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding who often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
-
-> [!NOTE] The following algorithmic attribution model is currently available in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) and will eventually be part of a general release.
-
-| UI icon | Attribution model | Definition | When to use |
-| --- | --- | --- | --- |
-| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](/help/analyze/analysis-workspace/c-panels/attribution/algorithmic.md) | (Note: Algorithmic attribution is currently in limited testing.) Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
 
 ## Lookback windows
 
@@ -41,6 +36,8 @@ A lookback window is the amount of time a conversion should look back to include
 * **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
 
 * **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
+
+* **Custom lookback window:** (Note: Custom lookback window is currently in limited testing.[Learn more]( https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)) Allows you to expand the attribution window beyond the reporting date range up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on Feb 20th, a lookback window of 10 days would evaluate all dimension touchpoints from Feb 10th to 20th in the attribution model.
 
 ## Example
 
@@ -71,7 +68,7 @@ Depending on your lookback window and attribution model, channels receive differ
     * Social: 18.6%, getting $9.32
     * Paid Search: 13.8%, getting $6.92
 
-> [!TIP] Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+>[!TIP] Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
 
 ## Using attribution with marketing channels
 
@@ -93,4 +90,4 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
 
-> [!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment and filter with comparable definitions may sometimes return lower values for the segment.
+>[!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment and filter with comparable definitions may sometimes return lower values for the segment.

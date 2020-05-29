@@ -22,6 +22,6 @@ Click the Account icon on the top right to view the AdWords account number (Cust
 
 The Account ID and Customer ID are both required. They are listed on the Accounts tab.
 
-> [!NOTE] The Account Number is not the same as the Account ID.
+>[!NOTE] The Account Number is not the same as the Account ID.
 
 ![](assets/bing_id.png)

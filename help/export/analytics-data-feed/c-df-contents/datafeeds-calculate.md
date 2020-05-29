@@ -10,7 +10,7 @@ uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 
 Describes how to calculate common metrics using data feeds.
 
-> [!IMPORTANT] Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit > 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
+>[!IMPORTANT] Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit > 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
 
 ## Page views
 
@@ -21,7 +21,7 @@ Describes how to calculate common metrics using data feeds.
 1. Concatenate `post_visid_high`, `post_visid_low`, `visit_num`, and `visit_start_time_gmt`.
 1. Count the unique number of values.
 
-> [!NOTE] Internet irregularities, system irregularities, or the use of custom visitor IDs can rarely use the same `visit_num` values for different visits. Use `visit_start_time_gmt` when counting visits to make sure that these visits are counted.
+>[!NOTE] Internet irregularities, system irregularities, or the use of custom visitor IDs can rarely use the same `visit_num` values for different visits. Use `visit_start_time_gmt` when counting visits to make sure that these visits are counted.
 
 ## Visitors
 

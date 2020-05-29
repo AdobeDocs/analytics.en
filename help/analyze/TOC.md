@@ -9,8 +9,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
 
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
-  + [Analysis Workspace help](analysis-workspace/home.md)
-  + [Analysis Workspace features](analysis-workspace/analysis-workspace-features.md)
+  + [Analysis Workspace overview](analysis-workspace/home.md)
   + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build a Workspace project {#build-workspace-project}
@@ -70,17 +69,19 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
-    + [Treemap](analysis-workspace/visualizations/treemap.md)
+    + [Tree map](analysis-workspace/visualizations/treemap.md)
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
-    + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
-    + Attribution {#attribution}
+    + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
+    + Attribution panel {#attribution}
       + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
       + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)
       + [Attribution FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Algorithmic attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
+    + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-    + Segment comparison {#segment-comparison}
+    + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
+    + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -91,11 +92,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
-  + [Frequently asked questions](analysis-workspace/faq.md)
-  + [Administration requirements](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-  + [Optimize Analysis Workspace performance](analysis-workspace/optimizing-performance.md)
-  + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-  + [Analysis Workspace limitations](analysis-workspace/aw-limitations.md)
   + [Attribution IQ](analysis-workspace/attribution-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
@@ -114,6 +110,12 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+  + Workspace FAQs {#workspace-faq}
+    + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)
+    + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faq/optimizing-performance.md)
+    + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+    + [Analysis Workspace limitations](analysis-workspace/workspace-faq/aw-limitations.md)
+    + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)
@@ -324,8 +326,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Time](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
   + [Labs overview](tech-previews/overview.md)
-+ Mobile App {#mobapp}
-  + [Mobile App overview](mobile-app/home.md)
++ Adobe Analytics dashboards {#mobapp}
+  + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
   + [Curator guide](mobile-app/curator.md)
   + [Executive user quick start guide](mobile-app/executive.md)
 + Progressive web apps {#pwa}

@@ -35,6 +35,6 @@ This increase is reflected in all Adobe Analytics services and tools, including 
 * For live stream, real-time reports & API requests, and current data for traffic variables, only hits with a supplemental data ID are delayed.
 * For current data on conversion metrics, finalized data, and data feeds, all hits are delayed an additional 5-7 minutes.
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+Be aware that the latency increase starts after you implement the [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), even if you have not fully implemented this integration.
 
 More info [here](/help/analyze/activity-map/activitymap-standard-live.md).

@@ -23,7 +23,7 @@ Reports are navigated using a hierarchical column view. Click **[!UICONTROL View
 
 ![](assets/reports-landing.png){width="672px"}
 
-For details on individual reports, see [Report Descriptions](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
+For details on individual reports, see [Report Descriptions](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
 
 ## Search for Reports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -33,7 +33,7 @@ The Reports menu provides an enhanced search experience. Click **[!UICONTROL Vie
 
 Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report.
 
-> [!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
+>[!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
 
 ## Navigation Overview {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder</a> and <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
+   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder</a> and <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metrics <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -103,7 +103,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1">Report Suite Selector <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Lets you select <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  > base report suites</a> or <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  > virtual report suites</a>. </td> 
+   <td colname="col2">Lets you select <a href="https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html"  > base report suites</a> or <a href="https://docs.adobe.com/help/en/analytics/components/virtual-report-suites/vrs-about.html"  > virtual report suites</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendar <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -114,4 +114,4 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
 
 ## Customizing the All Reports Menu {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in Admin Help.
+Administrators can change the reports contained within the Reports menu. See [Menu Customizing](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) in Admin Help.

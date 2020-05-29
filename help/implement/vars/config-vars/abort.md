@@ -22,7 +22,7 @@ The `abort` variable is a boolean. Its default value is `false`.
 s.abort = true;
 ```
 
-> [!NOTE] The `abort` variable resets to `false` after every tracking call. If you need to abort subsequent tracking calls on the same page, set `abort` to `true` again.
+>[!NOTE] The `abort` variable resets to `false` after every tracking call. If you need to abort subsequent tracking calls on the same page, set `abort` to `true` again.
 
 ## Example
 

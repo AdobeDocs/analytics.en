@@ -24,7 +24,7 @@ Once classified, any report that you can generate using the key variable can als
 >
 >The ability to import Numeric 2 and Date-Enabled classifications has been removed from the codebase. This change will take effect with the June 2019 Maintenance Release. If you have Numeric or Date-Enabled columns in your import file, those cells will be silently ignored, and any other data within that file will be imported as normal. Existing classifications can still be exported through the standard classification workflow, and will continue to be available in reporting.
 
-> [!NOTE] In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
+>[!NOTE] In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
 
 After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
 
@@ -34,7 +34,7 @@ Suppose that instead of viewing campaigns just by the tracking code, you want to
 
 Reporting and analytics includes pre-defined classifications for the tracking code variable, which offers classification-based reports called Creative Elements and Campaigns. You must manually configure classifications for all other conversion and traffic variables.
 
-See [Traffic Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) and [Conversion Classifications](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
+See [Traffic Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) and [Conversion Classifications](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 The following table describes the different types of classifications that are available, and the variable types that support them. Review the information in [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) before uploading data files.
 

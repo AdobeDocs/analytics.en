@@ -19,10 +19,9 @@ Adobe supports the latest major version of these browsers:
 
 **Solution and Product Requirements**
 
-* [Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html) (includes Adobe Social) 
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html) 
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html) 
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html) 
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/r_supported_browsers.html) 
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_supported_browsers.html)
-
+* [Reports & Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html) (includes Adobe Social) 
+* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) 
+* [Ad Hoc Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-getting-started.html) 
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) 
+* [Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/supported-browsers.html) 
+* [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/supported-browsers.html)

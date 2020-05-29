@@ -27,7 +27,7 @@ Examples of anomalies you might investigate include:
 * Spikes in video buffer events
 * Spikes in low video bit-rates
 
-Both Anomaly Detection and [Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html) are core workflows in Analysis Workspace. You can run Contribution Analysis against any daily anomaly and embed the result in your Analysis Workspace project.
+Both Anomaly Detection and [Contribution Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) are core workflows in Analysis Workspace. You can run Contribution Analysis against any daily anomaly and embed the result in your Analysis Workspace project.
 
 Analysis Workspace's anomaly detection algorithm includes
 

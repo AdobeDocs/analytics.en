@@ -44,7 +44,7 @@ How can you customize your web page and tagging to differentiate the values of t
 
 ## Customize the Link ID Using s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-By creating a unique object ID for a link or link location on a page, you can either improve Activity Map tracking or use Activity Map to report on a link type or location, rather than the link URL. Click [here](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) for more information on the s_objectID variable.
+By creating a unique object ID for a link or link location on a page, you can either improve Activity Map tracking or use Activity Map to report on a link type or location, rather than the link URL. Click [here](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) for more information on the s_objectID variable.
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 You can customize the region by ensuring that each "buy" link has its own Region defined. To do so, add an "id" parameter to one of the parents of each "Buy" anchor tag.
 
-> [!NOTE] You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
+>[!NOTE] You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 

@@ -10,7 +10,7 @@ Compares Ad Hoc Analysis terminology and tasks to Analysis Workspace.
 
 Analysis Workspace brings much of the Ad Hoc Analysis functionality into the browser workflow. While some terminology and features remain the same between the products, there are some new terms and approaches to analysis that are introduced in Analysis Workspace.
 
-For a technical comparison of key features and system requirements between these two products, go [here](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
+For a technical comparison of key features and system requirements between these two products, go [here](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html).
 
 ## Comparison of Key Terminology {#section_6109406B83B043A18E46D38F130B1D2E}
 

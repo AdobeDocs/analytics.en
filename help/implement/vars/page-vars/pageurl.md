@@ -7,7 +7,7 @@ description: Override the automatically collected page URL on your site.
 
 AppMeasurement automatically collects the page URL in each hit. If you want to override the page URL automatically collected by AppMeasurement, you can use this variable. You do not need to set this variable in most cases.
 
-> [!NOTE] This variable is not an available dimension in Analysis Workspace. It is only available in Data Warehouse and Data Feeds. If you would like to use page URL as a dimension in Analysis Workspace, consider passing the `pageURL` variable into an eVar on every hit.
+>[!NOTE] This variable is not an available dimension in Analysis Workspace. It is only available in Data Warehouse and Data Feeds. If you would like to use page URL as a dimension in Analysis Workspace, consider passing the `pageURL` variable into an eVar on every hit.
 
 Sometimes URLs are longer than 255 bytes. AppMeasurement uses the `g` query string parameter for the first 255 bytes of the URL in image requests. If a URL is longer than 255 bytes, the rest of the URL is stored in the `-g` query string parameter. Protocol and query strings in the URL are included in this variable.
 

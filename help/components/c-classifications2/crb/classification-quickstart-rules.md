@@ -47,11 +47,11 @@ about_classification_rules.xml
 * [When Do Rules Not Classify Keys?](/help/components/c-classifications2/crb/classification-rule-builder.md) 
 * [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
-> [!NOTE] The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
+>[!NOTE] The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
 
 ## Important Information about Rules 
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
@@ -101,11 +101,11 @@ regex_classification_rules.xml
 * [Regular Expressions - "Does Not Contain" Example](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C) 
 * [Regular Expressions - Reference Table](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
-> [!NOTE] As a best practice, regular expressions are best suited for tracking codes that use delimiters.
+>[!NOTE] As a best practice, regular expressions are best suited for tracking codes that use delimiters.
 
 ## Regular Expression - Tracking Code Example {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
-> [!NOTE] If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+>[!NOTE] If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
 
 In this example, assume you want to classify the following campaign ID:
 

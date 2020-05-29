@@ -7,15 +7,11 @@ description: Get answers to commonly asked questions around attribution.
 
 **What is the "None" line item when using attribution?**
 
-The 'None' line item is a catch-all that represents all conversions that happened without any touch points within the lookback window. Try including a longer time range in your reporting window.
+The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. Try including a longer time range in your reporting window.
 
 **Why do I sometimes see dates outside of my reporting window when using attribution models?**
 
 These extra dates are due to the visitor reporting lookback window. See [Data appearing outside reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in the Analytics KB for more information. Adobe plans to filter out these extra rows in an upcoming release.
-
-**Can I use a custom lookback window with my attribution models?**
-
-Attribution models currently rely on either a visitor or visit lookback window. Either of these lookback windows are adjustable by either changing the reporting date range (for visitor lookback) or by using a custom visit definition as part of virtual report suites. See [Report time processing](../../../../components/vrs/vrs-report-time-processing.md) for more information.
 
 **When should I use a visit vs. visitor attribution lookback?**
 

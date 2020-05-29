@@ -19,7 +19,7 @@ There are several ways to access the Segment Builder:
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open an existing report and click the Segments icon  ![](assets/segment_icon.png) in the left navigation, then click **[!UICONTROL Add]**.
 * **[!UICONTROL Ad Hoc Analysis]**: [Build Segments in Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -78,7 +78,7 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
 **[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Not shown on screen) This option appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. A segment title and description are required.
 
-> [!NOTE] In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe [!DNL Target].
+>[!NOTE] In Analytics, you can edit or delete a published segment. If the segment is in use, a warning message is issued when you edit a segment. You cannot delete a published segment that is in use by Adobe [!DNL Target].
 
 ![](assets/segment_publish_to_mac_copy.png)
 
@@ -154,7 +154,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 * one segment for tablet users 
 * 20 segments for the different geographies
 
-> [!NOTE] When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
+>[!NOTE] When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
 
 1. Go to the Segment Builder.
 1. Provide a title and description for the segment.

@@ -48,5 +48,5 @@ The Finding Methods page identifies how various finding methods reports receive 
  </tbody> 
 </table>
 
-> [!NOTE] All Finding Methods expire when the visit ends. If you choose to Expire After a different event (for example, Cart Checkout), the Finding Method expires when Cart Checkout occurs during the visit. If a Cart Checkout does not occur during the visit, the Finding Method still expires when the visit ends.
+>[!NOTE] All Finding Methods expire when the visit ends. If you choose to Expire After a different event (for example, Cart Checkout), the Finding Method expires when Cart Checkout occurs during the visit. If a Cart Checkout does not occur during the visit, the Finding Method still expires when the visit ends.
 

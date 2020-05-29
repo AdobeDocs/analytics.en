@@ -20,6 +20,6 @@ When you delete a segment,
 
 ## Edit Embedded Deleted Segments in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Ad Hoc Analysis now lets you edit embedded deleted segments within the [Calculated Metric Builder](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) and lets you perform a "Save As" operation on that segment.
+Ad Hoc Analysis now lets you edit embedded deleted segments within the [Calculated Metric Builder](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) and lets you perform a "Save As" operation on that segment.
 
 However, any other deleted segments that reference the deleted segment will remain unchanged.

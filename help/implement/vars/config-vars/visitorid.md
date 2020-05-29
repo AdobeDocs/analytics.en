@@ -7,7 +7,7 @@ description: Use a custom visitor ID.
 
 Adobe uses several different methods to identify visitors on your site. The `visitorID` variable overrides all other methods of visitor identification.
 
-> [!IMPORTANT] Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) instead.
+>[!IMPORTANT] Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) instead.
 
 ## Visitor ID in Adobe Experience Platform Launch
 
@@ -24,7 +24,7 @@ Assign this field to the data element containing your custom visitor ID. Do not 
 
 The `s.visitorID` variable is a string that contains a custom unique identifier for the visitor. Valid values include alpha-numeric characters up to 100 bytes. Avoid using dashes, spaces, underscores, or symbols in this variable.
 
-> [!WARNING] If you set the `visitorID` variable partway through a visit, data results in two separate unique visitors.
+>[!WARNING] If you set the `visitorID` variable partway through a visit, data results in two separate unique visitors.
 
 ```js
 s.visitorID = "abc123";

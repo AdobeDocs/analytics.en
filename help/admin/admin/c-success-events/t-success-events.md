@@ -18,9 +18,7 @@ Steps that describe how to configure success events.
 1. In the **[!UICONTROL Name]** column, select the checkbox next each item to enable editing, then specify the desired name.
 1. In the **[!UICONTROL Type]** column, select the checkbox next each item to enable the drop-down list, then select the desired type.
 
-   >[!NOTE]
-   >
-   >Before you change an event type, see [Change event type](/help/admin/admin/c-success-events/event-type.md).
+   >[!NOTE] Before you change an event type, see [Change event type](/help/admin/admin/c-success-events/event-type.md).
 
    See [Success Events Page - Descriptions](/help/admin/admin/c-success-events/success-event.md) for information about these elements.
 

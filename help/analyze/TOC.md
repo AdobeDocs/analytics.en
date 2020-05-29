@@ -116,7 +116,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
     + [Analysis Workspace limitations](analysis-workspace/workspace-faq/aw-limitations.md)
     + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-    + [Accessibility in Analysis Workspace](accessibility.md)
+    + [Accessibility in Analysis Workspace](analysis-workspace/workspace-faq/accessibility.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
   + [What's new in Report Builder](report-builder/whats-new-arb.md)

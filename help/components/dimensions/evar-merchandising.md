@@ -11,11 +11,11 @@ When measuring the success of external campaigns or external search terms, you t
 
 What about events that are driven by internal search or by category browsing when a customer looks for multiple items? For example, a customer searches your site for `"goggles"`, then adds a pair to their cart: 
 
-![Goggles example](../assets/merch-example-goggles.png)
+![Goggles example](assets/merch-example-goggles.png)
 
 Before checkout, the customer searches for `"winter coat"`, then adds a down jacket to the to their cart: 
 
-![Coat example](../assets/merch-example-coat.png)
+![Coat example](assets/merch-example-coat.png)
 
 When the visitor completes this purchase, you would have an internal search for `"winter coat"` credited with the purchase of a pair of goggles (assuming the eVar uses the default allocation of 'Most recent'). Good for `"winter coat"`, but bad for marketing decisions: 
 
@@ -34,7 +34,7 @@ If merchandising is enabled for the eVar in the previous example, the search ter
 |  winter coat  | $119  |
 |  goggles  | $38  |
 
-See [Merchandising eVars](/help/implement/vars/page-vars/evars/merchandising.md) for implementation instructions.
+See [Merchandising eVars](/help/implement/vars/page-vars/evar-merchandising.md) for implementation instructions.
 
 ## Instances on merchandising variables
 

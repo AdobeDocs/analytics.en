@@ -15,7 +15,7 @@ For example, if you combined the 'Page' dimension with the 'Visits' metric, you 
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-If you cannot find a given metric help page, it is likely either a [custom event](events.md) or a [calculated metric](../c-calcmetrics/cm-overview.md).
+If you cannot find a given metric help page, it is likely either a [custom event](custom-events.md) or a [calculated metric](../c-calcmetrics/cm-overview.md).
 
 * If the metric is a custom event, consult an Analytics admin within your organization, or the report suite's [solution design document](/help/implement/prepare/solution-design.md).
 * If the metric is a calculated metric, click the information icon to determine its formula.

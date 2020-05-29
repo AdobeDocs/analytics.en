@@ -6,7 +6,7 @@ keywords: best practices;failure;timeout;troubleshooting;slow
 
 # Reporting best practices and troubleshooting
 
-*This help page refers to Reports & Analytics best practices. For Analysis Workspace, see [Optimize Analysis Workspace performance](/help/analyze/analysis-workspace/optimizing-performance.md). For Data Warehouse, see [Data Warehouse best practices](/help/export/data-warehouse/data-warehouse-bp.md).*
+*This help page refers to Reports & Analytics best practices. For Analysis Workspace, see [Optimize Analysis Workspace performance](../analysis-workspace/workspace-faq/optimizing-performance.md). For Data Warehouse, see [Data Warehouse best practices](/help/export/data-warehouse/data-warehouse-bp.md).*
 
 Adobe Analytics provides a flexible reporting interface that lets you generate a variety of complex reports. While most reports generate very quickly, you can encounter reports that timeout or fail to generate. This page explains factors that impact report generation speed. Understanding this information can help you structure reports so that they are more likely to generate successfully.
 

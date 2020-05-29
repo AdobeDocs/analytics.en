@@ -29,7 +29,7 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 * **Quantity** (optional): How many of this product is in the cart. This field only applies to hits with the purchase event.
 * **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the [`currencyCode`](../config-vars/currencycode.md) variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
 * **Events** (optional): Events tied to the product. Delimit multiple events with a pipe (`|`). See [events](events/events-overview.md) for more information.
-* **eVars** (optional): Merchandising eVars tied to the product. Delimit multiple merchandising eVars with a pipe (`|`). See [merchandising eVars](/help/components/c-variables/c-merch-variables/var-merchandising.md) for more information.
+* **eVars** (optional): Merchandising eVars tied to the product. Delimit multiple merchandising eVars with a pipe (`|`). See [merchandising eVars](evar-merchandising.md) for more information.
 
 ```js
 // Set a single product using all available fields

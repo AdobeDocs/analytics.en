@@ -39,7 +39,7 @@ Contains reports that typically trend using a date range. Also contains unique r
   * Cart additions: Trends the metric [Cart additions](/help/components/metrics/cart-additions.md) over time.
   * Cart removals: Trends the metric [Cart removals](/help/components/metrics/cart-removals.md) over time.
   * Checkouts: Trends the metric [Checkouts](/help/components/metrics/checkouts.md) over time.
-* Custom events: Contains all reports around custom [Events](/help/components/metrics/events.md) specific to your implementation.
+* Custom events: Contains all reports around custom [Events](/help/components/metrics/custom-events.md) specific to your implementation.
 * Bots: Shows bot-related reports.
   * Bots: Shows the bots that frequent your site the most. See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
   * Bot pages: Shows the pages that bots hit the most.
@@ -125,7 +125,7 @@ Contains reports primarily around the [Tracking code](/help/components/dimension
 
 ## Products
 
-Contains reports primarily around the [Product](dimensions/..//help/components/dimensions/product.md) dimension.
+Contains reports primarily around the [Product](/help/components/dimensions/product.md) dimension.
 
 * Products conversion funnel: Reports [Product views](/help/components/metrics/product-views.md), [Cart additions](/help/components/metrics/cart-additions.md), [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), [Units](/help/components/metrics/units.md), and [Revenue](/help/components/metrics/revenue.md) in a funnel report. A similar visualization is achieved in Analysis Workspace using the [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Products: Uses the [Products](/help/components/dimensions/product.md) dimension.

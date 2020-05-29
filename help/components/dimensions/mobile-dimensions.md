@@ -5,7 +5,7 @@ description: Dimensions based on the user-agent string of the device.
 
 # Mobile dimensions
 
-*This page references properties of mobile devices accessing your website. If you want to track devices on a mobile app, see [Implement Analytics for mobile devices](help/implement/mobile-device-sdk.md) in the Implement user guide.*
+*This page references properties of mobile devices accessing your website. If you want to track devices on a mobile app, see [Implement Analytics for mobile devices](/help/implement/mobile-device-sdk.md) in the Implement user guide.*
 
 Mobile dimensions provide insight around the properties of mobile devices that visit your site. You can use these dimensions to help understand what features a mobile device supports.
 

@@ -1,14 +1,14 @@
 ---
 description: null
-title: Attribution panel overview
+title: Attribution overview
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 ---
 
-# Attribution panel overview
+# Attribution overview
 
->[!IMPORTANT] The Attribution panel is available for all customers on the Adobe Analytics Ultimate, Prime, Select, and Foundation SKUs.
+>[!IMPORTANT] Attribution is available for all customers on the Adobe Analytics Ultimate, Prime, Select, and Foundation SKUs.
 
-The attribution panel is an [Attribution IQ](../../attribution-iq.md) feature that lets you add many new types of attribution models to freeform tables, visualizations, and calculated metrics. All attribution models have two components:
+[Attribution IQ](../../attribution-iq.md) is set of features that lets you add many new types of attribution models to freeform tables, visualizations, and calculated metrics. All attribution models have two components:
 
 * **Attribution model:** The model describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
 * **Attribution lookback window:** The lookback window describes which groupings of hits are considered for each model. For example, visit or visitor.
@@ -37,7 +37,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 * **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
 
-* **Custom lookback window:** (Note: Custom lookback window is currently in limited testing.) Allows you to expand the attribution window beyond the reporting date range up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on Feb 20th, a lookback window of 10 days would evaluate all dimension touchpoints from Feb 10th to 20th in the attribution model.
+* **Custom lookback window:** (Note: Custom lookback window is currently in limited testing.[Learn more]( https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)) Allows you to expand the attribution window beyond the reporting date range up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on Feb 20th, a lookback window of 10 days would evaluate all dimension touchpoints from Feb 10th to 20th in the attribution model.
 
 ## Example
 

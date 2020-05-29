@@ -18,7 +18,7 @@ On both platforms, if multiple hits are sent in the same visit or session, it is
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-See the [Bounce Rate](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for more information.
+See the [Bounce Rate](/help/components/metrics/bounce-rate.md) metric in the Components user guide for more information.
 
 ## [!UICONTROL Visits] and Sessions
 
@@ -29,4 +29,4 @@ See the [Bounce Rate](/help/components/c-variables/c-metrics/metrics-bounce-rate
 * **Manual session override:** A new session in Google Analytics starts if you use `sessionControl` to manually start or end a session. [!UICONTROL Visits] cannot be manually ended in Adobe Analytics.
 * **Outlier visit detection in Adobe Analytics:** A new [!UICONTROL Visit] in Adobe Analytics automatically starts if a user reaches 12 hours of continuous activity, 2500 hits, or 100 hits within 100 seconds. Each of these detection criteria are typically triggered by bot activity.
 
-See the [Visits](/help/components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for more information.
+See the [Visits](/help/components/metrics/visits.md) metric in the Components user guide for more information.

@@ -17,7 +17,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
-| April 28, 2020 | Added documentation for the [Content Velocity](/help/components/c-variables/c-metrics/metrics-content-velocity.md) metric.|
+| April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric.|
 | March 12, 2020| Added updates to [Publish segments to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md).|
 | March 12, 2020| Updates to CDA stitching latency.|
 | February 27, 2020 | Added documentation for [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |

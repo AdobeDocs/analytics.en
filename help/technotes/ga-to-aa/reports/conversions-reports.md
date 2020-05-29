@@ -35,7 +35,7 @@ The Fallout visualization is not limited to just the Pages dimension. Any dimens
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
 
-Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
+Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/dimensions/product.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 

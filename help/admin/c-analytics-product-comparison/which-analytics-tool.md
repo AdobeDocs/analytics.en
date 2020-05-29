@@ -76,7 +76,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-**[Customer Attributes](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** should be used:
+**[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.

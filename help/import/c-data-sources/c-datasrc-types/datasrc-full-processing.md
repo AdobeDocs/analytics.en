@@ -6,6 +6,8 @@ topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 ---
 
+>[!NOTE] Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Full processing data sources will be deprecated in the future.
+
 # Full processing
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).

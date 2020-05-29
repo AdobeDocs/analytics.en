@@ -3,7 +3,7 @@ title: Time spent per visit
 description: The amount of time spent per visit for the dimension value.
 ---
 
-## Time spent per visit (seconds)
+# Time spent per visit (seconds)
 
 *This help page describes how 'Time spent per visit' works as a metric. See the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension for more information.*
 

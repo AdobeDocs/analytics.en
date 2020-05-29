@@ -3,7 +3,7 @@ title: Time spent per visitor (seconds)
 description:
 ---
 
-## Time spent per visitor (seconds)
+# Time spent per visitor (seconds)
 
 The 'Time spent per visitor (seconds)' metric shows the average amount of time that visitors interact with a given dimension value during a visitor's entire lifetime.
 

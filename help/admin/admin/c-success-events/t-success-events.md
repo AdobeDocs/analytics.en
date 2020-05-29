@@ -30,9 +30,9 @@ Steps that describe how to configure success events.
    This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface. [More...](/help/admin/admin/metric-visibility.md) 
 1. Provide a description.
 1. Check whether to always record the event.
-2. Enable or disable participation metrics.
+1. Enable or disable participation metrics.
 
    >[!NOTE] You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) builder.
 
-3. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 

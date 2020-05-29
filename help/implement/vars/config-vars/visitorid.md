@@ -29,3 +29,5 @@ The `s.visitorID` variable is a string that contains a custom unique identifier 
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] An invalid implementation of custom visitor ID's can lead to incorrect data and poor reporting performance. If this variable contains a default value (such as `"0"` or `"NULL"`), Adobe treats these hits as if they are the same visitor. This situation results in incorrect data, with low visitor counts and visitor-level segments not working as expected. Incorrectly implemented custom visitor ID's also introduce heavy load on processing servers, increasing [latency](/help/technotes/latency.md) and decreasing report performance.

@@ -11,7 +11,7 @@ The 'Page URL' dimension lists the URLs on your site.
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`g` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the `pageURL` variable.
+This dimension retrieves data from the [`g` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## Populate an eVar with URL
 

@@ -24,8 +24,8 @@ Hit depth counts all types of hits, including page view and link tracking hits. 
   | Home page | 1 | Yes | 4 |
   | Product page | 2 | Yes | 4 |
   | Home page | 3 | Yes | 4 |
-  | Custom link click | 4 | No | 4 |
-  | Custom link click | 5 | No | 4 |
+  | Custom link click | 4 | No (custom link) | 4 |
+  | Custom link click | 5 | No (custom link) | 4 |
   | Product page | 6 | Yes | 4 |
-  | Custom link click | 7 | No | 4 |
-  | Product page | 8 | No | 4 |
+  | Custom link click | 7 | No (custom link) | 4 |
+  | Product page | 8 | No (same as previous page) | 4 |

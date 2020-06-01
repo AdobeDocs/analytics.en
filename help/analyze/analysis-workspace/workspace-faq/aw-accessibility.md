@@ -9,7 +9,7 @@ Learn about accessibility support in [!UICONTROL Analysis Workspace], the premie
 
 Accessibility refers to making products usable for people with visual, auditory, motor, and other disabilities. Examples of accessibility features for software products include screen reader support, text equivalents for graphics, keyboard shortcuts, change of display colors to high contrast, and so on. 
 
-[!UICONTROL Analysis Workspace] provides some tools that make it accessible to use and tools that help you create accessible content.  
+[!UICONTROL Analysis Workspace] provides some tools that make it accessible to use, including:
 
 ## Navigate [!UICONTROL Workspace] using the keyboard
 
@@ -27,7 +27,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 1. Tab to a component in the left rail.
 1. Press `Enter` to select.
-1. Use an arrow keys to navigate to the area where you want to drop the component.
+1. Use arrow keys to navigate to the area where you want to drop the component.
 1. Press `Enter` to place the component.
 
 ### Keyboard shortcuts (hotkeys) 
@@ -53,7 +53,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 |Ctrl + Shift + D |New date range |
 |Ctrl + Shift + E |New segment |
 |Ctrl + Z |Undo |
-|Hold shift (in the panel segment dropzone) |Create a [dropdown filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+|Hold shift (in the panel segment dropzone) |Create a [dropdown filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Democratization
 

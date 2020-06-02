@@ -20,7 +20,7 @@ Launch automatically populates this variable on the backend based on variables s
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Both of the following criteria must be met to include dimensions in link tracking hits:
 
 * Set the desired variable value. For example, `s.eVar1 = "Example value";`.
-* Set the desired variable in the `linkTrackVars` variable. For example, `s.linkTrackEvents = "eVar1";`.
+* Set the desired variable in the `linkTrackVars` variable. For example, `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";

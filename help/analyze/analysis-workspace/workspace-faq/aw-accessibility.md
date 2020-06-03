@@ -19,7 +19,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 * The `Tab` key moves between individual elements. 
 * We apply focus indicators so that sighted keyboard users have a clear indication of which UI element currently has focus. The indicator is a blue border around the selected element.
 
-    ![](assets/focus-indicator.png)
+    ![Focus Indicator](assets/focus-indicator.png)
 
 ### Keyboard navigation for drag & drop interactions 
 
@@ -68,11 +68,11 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ## Support for screen readers and screen magnifiers
 
-A screen reader recites text that appears on the computer screen. It also reads non-textual information, such as button labels or image descriptions in the application, provided in accessibility tags or attributes.  
+A screen reader reads text that appears on the computer screen. It also reads non-textual information, such as button labels or image descriptions in the application, provided in accessibility tags or attributes.  
 
 ## Color palettes & contrast  
 
-[!UICONTROL Analysis Workspace] strives for WCAG AA color contrast compliance. 
+[!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
 In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html). 
 
@@ -82,8 +82,8 @@ When building a component, required fields are validated when you save. If a req
 
 Once a component is fully validated, pressing `Save` closes the builder. 
 
-![](assets/error-validation.png)
+![Error validation](assets/error-validation.png)
 
 ## Support for operating system accessibility features  
 
-Analysis Workspace supports the built-in MS Windows and macOS accessibility features like high-contrast mode and screen readers (Narrator for MS Windows, and VoiceOver for macOS). 
+Analysis Workspace supports built-in MS Windows and macOS accessibility features like high-contrast mode, sticky keys, and slow keys/filter keys. It also provides information about the user interface to the operating system to enable interaction with assistive technologies, including screen readers such as VoiceOver for macOS and NVDA on Windows.

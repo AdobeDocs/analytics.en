@@ -19,7 +19,9 @@ Click the Account icon on the top right to view the AdWords account number (Cust
 
 ## Bing {#section_F1B9C7E997444746936599732CD62665}
 
->[!NOTE] If your Bing account is utilizing the Google import feature, be sure to update the correct tracking string. The tracking string will not automatically update from the Google version to the correct Bing tracking string and may result in unspecified data. More details on the feature can be found [here](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>[!NOTE]
+>
+>If your Bing account is utilizing the Google import feature, be sure to update the correct tracking string. The tracking string will not automatically update from the Google version to the correct Bing tracking string and may result in unspecified data. More details on the feature can be found [here](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
 The Account ID and Customer ID are both required. They are listed on the Accounts tab.
 

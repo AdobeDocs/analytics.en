@@ -7,7 +7,7 @@ title: Accessibility in Analysis Workspace
 
 Learn about accessibility support in [!UICONTROL Analysis Workspace], the premier analysis tool for Adobe Analytics. 
 
-Accessibility refers to making products usable for people with visual, auditory, motor, and other disabilities. Examples of accessibility features for software products include screen reader support, text equivalents for graphics, keyboard shortcuts, change of display colors to high contrast, and so on. 
+Accessibility refers to making products usable for people with visual, auditory, cognitive, motor, and other disabilities. Examples of accessibility features for software products include screen reader support, text equivalents for graphics, keyboard shortcuts, change of display colors to high contrast, and so on. 
 
 [!UICONTROL Analysis Workspace] provides some tools that make it accessible to use, including:
 

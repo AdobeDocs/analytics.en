@@ -115,8 +115,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 

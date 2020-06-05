@@ -1,9 +1,9 @@
 ---
 description: Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-title: Marketing Channels FAQs and examples
+title: Marketing Channels FAQs
 ---
 
-# Marketing Channels FAQs and examples
+# Marketing Channels FAQs
 
 See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
@@ -50,7 +50,15 @@ Every implementation of marketing channel processing rules can differ, depending
 
   Lastly, create an *Other* channel that captures the remaining hits, as described in [No Channel Identified](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## No Channel Identified {#no-channel-identified}
+## Relationship between First & Last Touch
+
+To understand the interaction between legacy first and last touch dimensions, and confirm that overrides work as expected, you can pull a first-touch channel report, sub-related to a last-touch channel report, with your key success metric added in (see example below). The example demonstrates the interaction between first and last-touch channels.
+
+![](assets/int-channel3.png)
+
+The intersection where first equals last touch is the diagonal of the table. Both Direct and Session Refresh only get last-touch credit if they were also the first-touch channel, because they cannot take credit from other persisting channels (highlighted rows).
+
+## Reasons for No Channel Identified {#no-channel-identified}
 
 When your rules do not capture data, or if rules are not configured correctly, the report displays the data in the [!UICONTROL No Channel Identified] row on the report. You can create a rule set called *Other*, for example, at the end of your processing order, that also identifies internal traffic.
 
@@ -60,65 +68,31 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 >[!NOTE] There might be still some channel traffic that can fall into the No Channel Identified category. For example: A visitor comes to the site and bookmarks a page and in the same visit comes back the page via the bookmark. Since this is not the first page of the visit, it will go neither in the Direct channel nor in the Other channel because there is no referring domain.
 
-## Paid Search {#paid-search}
+## Reasons for Internal (Session Refresh) {#internal}
 
-A paid search is a word or phrase that you pay a search engine for placement in search results. To match paid search detection rules, the marketing channel uses settings configured on the [!UICONTROL Paid Search Detection] page. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). The destination URL matches the existing paid search detection rule for that search engine.
+Last-touch Session Refresh can only occur if it was also the first touch - see "Relationship between First & Last Touch" above. The scenarios below explain how Session Refresh could be a first-touch channel.
 
-For the marketing channel rule, the [!UICONTROL Paid Search] settings are as follows:
+**Scenario 1: Session timeout**
 
-![](assets/example_paid_search.png)
+A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor’s engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
 
-See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin for more information.
+**Scenario 2: Not all site pages are tagged**
 
-## Natural Search {#natural-search}
+A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Page A would be seen as the internal referrer and the visit would be classified as Session Refresh.
 
-A natural search occurs when visitors find your website through a Web search, where the search engine ranked your site without you paying for the listing. You can control the destination URL the search engine uses to link to your site. This URL allows Analytics to identify whether a search is natural.
+**Scenario 3: Redirects**
 
-There is no natural search detection in Analytics. After you set up Paid Search Detection, the system knows that if a search referrer was not a paid search referrer, it must be a natural search referrer. For a natural search, the destination URL does not match the existing paid search detection rule for that search engine.
+If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
 
-For the marketing channel rule, the Natural Search settings are as follows:
+**Scenario 4: Cross-Domain Traffic**
 
-![](assets/example_natural_search.png)
+A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. The visit will be classified as Session Refresh.
 
-See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
+**Scenario 5: Long entry-page load times**
 
-## Affiliates {#afilliates}
+A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
 
-An affiliate rule identifies visitors that originate from a specified set of referring domains. In the rule, you list the domains of affiliates you would like to track, as follows:
+**Scenario 6: Clearing cookies mid-site**
 
-![](assets/example_affiliates.png)
-
-## Social Networks {#social-networks}
-
-This rule identifies visitors that originate from a social network, such as Facebook&#42;. The settings can be as follows:
-
-![](assets/example_social.png)
-
-## Display {#display}
-
-This rule identifies visitors originating from banner advertisements. It is identified by a query string parameter in the destination URL, in this case *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Internal {#internal}
-
-This rule identifies visitors that originate with a referrer that matches the internal URL filters for the report suite.
-
-![](assets/example_internal.png)
-
-## Email {#email}
-
-To set up this rule, you provide the query string parameter for your email campaign. In this example, the parameter is *`eml`*:
-
-![](assets/example_email.png)
-
-If your rule contains Tracking Codes, enter one value per line, as shown here:
-
-![](assets/tracking_code.png)
-
-## Direct {#direct}
-
-This rule identifies visitors that have no referring domain. This rule includes visitors that come to your site directly, such as from a Favorites link or by pasting a link in their browser.
-
-![](assets/example_direct.png)
+A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
 

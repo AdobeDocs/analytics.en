@@ -73,11 +73,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
-    + Attribution panel {#attribution}
-      + [Attribution overview](analysis-workspace/c-panels/attribution/attribution.md)
-      + [Using the Attribution panel](analysis-workspace/c-panels/attribution/use-attribution.md)
-      + [Attribution FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
-      + [Algorithmic attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
+    + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
@@ -92,7 +88,11 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
     + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
-  + [Attribution IQ](analysis-workspace/attribution-iq.md)
+  + Attribution IQ {#attribution}
+    + [Attribution overview](analysis-workspace/attribution/overview.md)
+    + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
+    + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
+    + [FAQ](analysis-workspace/attribution/faq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)

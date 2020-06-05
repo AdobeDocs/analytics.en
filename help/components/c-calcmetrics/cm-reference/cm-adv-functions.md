@@ -233,8 +233,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Exponential Regression: Slope (Table) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -246,8 +246,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Floor (Row) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -303,7 +303,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -378,8 +378,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Log Regression: Predicted Y (Row) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -393,8 +393,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Log regression: Slope (Table) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -406,8 +406,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_A* | A metric that you would like to designate as the dependent data.  |
-|  *metric_B* | A metric that you would like to designate as the independent data.  |
+|  *metric_A* | A metric that you would like to designate as the independent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
 ## Natural Log {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -487,8 +487,8 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Power regression: Predicted Y (Row) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -500,8 +500,8 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Power regression: Slope (Table) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -513,8 +513,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Correlation coefficient (Table) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -539,8 +539,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Predicted Y (Row) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -552,7 +552,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_A* | A metric that you would like to designate as the independent data.  |
 |  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Slope (Table) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -565,8 +565,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Correlation coefficient (Table) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -591,8 +591,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Predicted Y (Row) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -604,8 +604,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Slope (Table) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -617,8 +617,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Sine (Row) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 

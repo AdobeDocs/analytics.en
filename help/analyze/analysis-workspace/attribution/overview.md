@@ -16,7 +16,7 @@ In some reports, you might want the order attributed to Paid search. In other re
 
 A given customer journey isn't linear and often unpredictable. Each customer proceeds at their own pace; often they double back, stall, restart, or engage in other non-linear behavior. These organic actions make it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together.
 
-![Attribution IQ problem](c-panels/attribution/assets/attribution_iq_problem.png)
+![Attribution IQ problem](assets/attribution_iq_problem.png)
 
 Adobe Analytics enhances attribution by letting you:
 

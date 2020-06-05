@@ -57,8 +57,8 @@ Access the Segment Builder by:
 
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Dimensions]**: Dimension are dragged and dropped from the Dimensions list (orange sidebar).
 1. **[!UICONTROL Comparison]**: You can compare and constrain values using selected operators.
+1. **[!UICONTROL Dimensions]**: Dimension are dragged and dropped from the Dimensions list (orange sidebar).
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list.

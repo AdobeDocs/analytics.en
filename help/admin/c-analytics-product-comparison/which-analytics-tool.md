@@ -17,22 +17,12 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate.
-* To understand Target activity (Analytics for Target/A4T) lift and confidence.
 * To access real-time data in the UI.
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
 * To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** should be used:
-
-* If a siloed view of Mobile App data is desired.
-* To manage the implementation of your mobile app SDK.
-* To set up mobile advertising, such as in-app messaging, push messaging, and location targeting.
-* If more interactive visualizations are desired for App data (Sunburst).
-* To visualize points of interest on a map.
-* For Lifetime value metrics.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 

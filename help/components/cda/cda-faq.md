@@ -43,7 +43,7 @@ In some situations it is possible that multiple people log in from the same devi
 
 **How does the device graph handle situations where a single person has MANY devices/ECIDs?**
 
-In some situations, an individual user can associate with a large number of ECIDs. This can occur if the individual uses a lot of browsers or apps, and can be exacerbated if they frequently clear cookies or use the browser's private or incognito browsing mode. The device graph caps the number of ECIDs that ties to a given user ID to 200. If a user ID associates with too many ECIDs, the device graph assumes the user ID is invalid and removes the cluster associated with that user ID. The user ID is then blacklisted from becoming reclustered in the future. The result in CDA is that user ID's behavior is not stitched across devices.
+In some situations, an individual user can associate with a large number of ECIDs. This can occur if the individual uses a lot of browsers or apps, and can be exacerbated if they frequently clear cookies or use the browser's private or incognito browsing mode. The device graph caps the number of ECIDs that ties to a given user ID to 200. If a user ID associates with too many ECIDs, the device graph assumes the user ID is invalid and removes the cluster associated with that user ID. The user ID is then added to a "blocked" list to prevent it from becoming reclustered in the future. The result in CDA is that user ID's behavior is not stitched across devices.
 
 **What is the difference between the 'People' metric in CDA and the 'Unique Visitors' metric outside of CDA?**
 

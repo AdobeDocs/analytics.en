@@ -112,7 +112,7 @@ You can also pass a '1' or a '5' in manual image requests, but be aware that the
 
 The subscriber ID method is generally more reliable than a cookie for user identification because of cookie deletion, cookie acceptance issues, and gateway cookie management issues.
 
-You can improve changes of identifying a visitor by being added to the "allowed" list for the carrier that your mobile visitors use. To get access to the carrier's visitor ID, contact the carrier to add your domain to their "allowed" list. If you are on a carrier's allowed list, you also have access to subscriber ID headers that you may not otherwise be able to access.
+You can improve changes of identifying a visitor by being added to the allowlist for the carrier that your mobile visitors use. To get access to the carrier's visitor ID, contact the carrier to add your domain to their allowlist. If you are on a carrier's allowlist, you also have access to subscriber ID headers that you may not otherwise be able to access.
 
 The following list of headers is used to identify wireless devices. The algorithm for processing the headers is to
 

@@ -252,8 +252,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `videoshow` | Video show | varchar(255) |
 | `videoshowtype` | Video show type| varchar(255) |
 | `videostreamtype` | Video stream type| varchar(255) |
-| `visid_high` | Used in combination with visid_low to uniquely identify a visit. | bigint unsigned|
-| `visid_low` | Used in combination with visid_high to uniquely identify a visit.| bigint unsigned|
+| `visid_high` | Used in combination with visid_low to uniquely identify a visitor. | bigint unsigned|
+| `visid_low` | Used in combination with visid_high to uniquely identify a visitor.| bigint unsigned|
 | `visid_new` | Flag to identify if the hit contains a newly generated visitor ID. | char(1)|
 | `visid_timestamp` | If visitor ID was newly generated, provides the timestamp (in Unix time) of when the visitor ID was generated. | int|
 | `visid_type` | Numeric ID representing what method was used to identify the visitor. <br>0: Custom visitorID <br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (s_vi) <br>4: Fallback cookie value (s_fid) <br>5: Identity Service | tinyint unsigned |

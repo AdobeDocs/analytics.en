@@ -48,7 +48,7 @@ Different site have different implementation needs. Some dimensions and events c
 
 Make sure that the number of unique dimensions and metrics can fit in a single global report suite. If you find that there are too many unique dimensions or metrics, review each dimension within each implementation. There is likely overlap and dimensions that are not critical to business success. Consider using [classifications](/help/components/c-classifications2/c-classifications.md) as well. For example, instead of capturing 'Product Name' in eVar5, create a 'Product Name' classification based on the 'Product' dimension. Classifications in a source report suite are automatically available to any dependent virtual report suites.
 
->[!TIP] With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), you can change the name of a given dimension or metric on a per-VRS basis.
+>[!TIP] With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate.md), you can change the name of a given dimension or metric on a per-VRS basis.
 
 ### Segmentation nuances
 

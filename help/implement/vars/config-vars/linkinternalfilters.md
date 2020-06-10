@@ -7,7 +7,7 @@ description: Use the linkInternalFilters variable to help automatic exit link tr
 
 AppMeasurement offers the ability to automatically track links that point outside your site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The [`linkExternalFilters`](linkexternalfilters.md) and `linkInternalFilters` variables determine what links are considered internal/external.
 
-If this variable contains a value, automatic exit link tracking behaves like a "blocked" list. If a link click does not match any `linkInternalFilters` values, it is considered an exit link. The entire URL is examined against this variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+If this variable contains a value, automatic exit link tracking behaves like a blocklist. If a link click does not match any `linkInternalFilters` values, it is considered an exit link. The entire URL is examined against this variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
 If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 

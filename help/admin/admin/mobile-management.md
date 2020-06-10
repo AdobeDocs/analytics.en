@@ -1,15 +1,14 @@
 ---
-description: Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
-title: Mobile Management
+description: Enabling app management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
+title: App Management
 topic: Admin tools
-uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 ---
 
-# Mobile Management
+# App Management
 
-Enabling mobile management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
+Enabling app management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
 
-This integration between Adobe Analytics and Mobile Services
+This integration between Adobe Analytics and Mobile Services:
 
 * Lets you share your KPI (Key Performance Indicator) data from Mobile Services to Adobe Analytics.
 * Lets you enable location tracking.
@@ -19,7 +18,7 @@ This integration between Adobe Analytics and Mobile Services
 * Adds new Adobe Mobile dimensions.
 * Synchronizes data to Analytics every 15 minutes
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 ## Step 1. Enable App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -44,7 +43,7 @@ Enabling Location Tracking lets you:
 Enabled background hits (hits generated when the app is in the background) means that they treated as regular foreground hits. They now show up in regular reporting and this also affects attribution. This configuration is usually only desirable to maintain consistency with legacy implementations.
 
 Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). This allows you to see the hits but they will not affect visit and visitor counts adversely.
-Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
+Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like "pop music terms" and report on the success of that category relative to metrics like Instances (a.k.a. Click-throughs), and conversion to success events.
 

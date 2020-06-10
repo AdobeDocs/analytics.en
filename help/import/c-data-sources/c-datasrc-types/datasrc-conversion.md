@@ -22,7 +22,7 @@ If you specify a View event, you must also specify the corresponding data dimens
 |Date|Use the following date format:  MM/DD/YYYY/HH/mm/SS (for example,  01/01/2015/06/00/00)|
 |Category|Category name.  If you specify a category, then you must also select a product.|
 |Channel|Channel name.|
-|eVarn|eVarn name. Valid values for n are whole number 1 - 75.|
+|eVarn|eVarn name. Valid values for n are whole number 1 - 250.|
 |Product|Product name.|
 |State|State name.|
 |Zip|Zip name.|
@@ -38,7 +38,7 @@ If you specify a View event, you must also specify the corresponding data dimens
 |Cart Views|Number of cart views.|
 |Checkouts|Number of checkouts.|
 |Event n|Number of times event n occurred. Valid values for n are whole number 1 - 100.  If you specify a View event, you must also specify the corresponding data dimension (eVar). For example, if you include eVar2 views, then you must list eVar2 with a value.|
-|eVarn Views|Number of times eVar n was viewed. Valid values for n are whole number 1 - 75.|
+|eVarn Views|Number of times eVar n was viewed. Valid values for n are whole number 1 - 250.|
 |Price|Product price.|
 |Orders|Number of orders placed.|
 |Product Views|Number of product views.|

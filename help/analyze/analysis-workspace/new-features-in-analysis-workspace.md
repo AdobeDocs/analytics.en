@@ -111,7 +111,7 @@ New features and enhancements released on November 1, 2018.
 
 | Feature | Description |
 |--- |--- |
-|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
+|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
 
 ## October 2018
 

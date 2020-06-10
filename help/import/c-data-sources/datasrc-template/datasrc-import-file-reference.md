@@ -19,7 +19,7 @@ Information about the Data Source .txt template.
 
 Column headings are used to identify the data in each column of the Data Source file. There are three types of column headings:
 
-**Date**: (Required) A time stamp for each data row in the file.
+**Date**: (Required) A time stamp for each data row in the file, in the format `m/d/yyyy`.
 
 **Variables**: The names of the reporting variables mapped to the data source's data dimensions.
 

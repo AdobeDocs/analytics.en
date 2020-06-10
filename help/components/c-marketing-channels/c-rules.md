@@ -144,6 +144,8 @@ This rule identifies visitors that originate from a specified set of referring d
 
 A best practice is to include an "Other campaigns" channel following all paid channel rules. This channel acts as a catch-all for uncategorized paid traffic.
 
+![](assets/other-campaigns.png)
+
 ### Social Networks {#social-networks}
 
 This rule identifies visitors that originate from a social network, such as Facebook&#42;. The channel is often renamed to Organic Social. The settings can be as follows:
@@ -168,3 +170,4 @@ This rule identifies visitors that have no referring domain, which includes visi
 
 The Referring Domains channel identifies visitors that have a referring domain. Together, the Internal, Direct, and Referring domains channels act as a catch-all for all remaining hits that have not yet been categorized into a channel.
 
+![](assets/referring-domains.png)

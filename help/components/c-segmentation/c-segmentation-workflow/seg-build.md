@@ -18,6 +18,7 @@ There are several ways to access the Segment Builder:
 * **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
+
 You can add rule definitions and containers to define your segments.
 
 ![](assets/segment_builder_ui.png)

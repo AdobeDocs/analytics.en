@@ -86,8 +86,9 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
-    + [Curation/Sharing overview](analysis-workspace/curate-share/curate.md)
-    + [VRS and project curation](analysis-workspace/curate-share/curate-projects-vrs.md)
+    + [Curate a Workspace project](analysis-workspace/curate-share/curate.md)
+    + [Share Workspace projects](analysis-workspace/curate-share/share-projects.md)
+    + [View-only Workspace projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)

@@ -11,7 +11,7 @@ title: Analytics for Target (A4T) panel
 
 The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences in Analysis Workspace. It also enables you to see lift & confidence for up to 3 success metrics. To access the A4T Panel, navigate to a report suite with A4T components enabled. Then, click the panel icon on the far left and drag the Analytics for Target panel into your Analysis Workspace Project.
 
-## Panel Builder
+## A4T Panel Builder
 
 You can configure the A4T panel using these settings:
 
@@ -20,12 +20,12 @@ You can configure the A4T panel using these settings:
 |Target Activity|Select from a list of Target Activities, or drag & drop an activity from the left rail.<br>**Note:** The list is populated with the last 6 months of activities that had at least 1 hit. If you do not see an activity in the list, it may be older than 6 months. It can still be added from the left rail, which has a look-back period of up to 18 months.|
 |Control Experience|Select your control experience. You can change it if necessary in the dropdown.|
 |Normalizing metric| Choose from Unique Visitors, Visits, or Activity Impressions. Unique visitors is recommended for most analysis use cases.|
-|Success metrics| Select up to 3 standard success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
+|Success metrics| Select up to 3 standard (non-calculated) success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
 |Calendar date range| This will auto-populate based on the Activity date range from Adobe Target. You can change it if necessary.|
 
 ![](assets/a4t-panel-builder.png)
 
-## Panel Output
+## A4T Panel Output
 
 The Analytics for Target panel returns a rich set of data and visualizations to help you better understand how your Adobe Target activity and experiences are performing. At the top of the panel, a summary line is provided to remind you of the panel settings you selected. At any time, you can edit the panel by clicking the edit pencil in the top right.
 
@@ -48,4 +48,12 @@ Each freeform table shows the following metric columns:
 
 Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations]( https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities. 
 
-For more options regarding Analytics for Target reporting, visit [A4T reporting]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+## A4T Panel FAQs
+
+|Question|Answer|
+|---|---|
+|What activity types are supported in A4T?| [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) about what activity types are supported.|
+|Are calculated metrics supported in A4T reporting?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported.|
+|Why would unique visitors vary between Target and Analytics?|[Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) about variances of unique visitors between products.|
+
+For more information regarding Analytics for Target reporting, visit [A4T reporting]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)

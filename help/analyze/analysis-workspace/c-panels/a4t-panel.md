@@ -53,7 +53,7 @@ Like with any panel in Analysis Workspace, you can continue your analysis by add
 |Question|Answer|
 |---|---|
 |What activity types are supported in A4T?| [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) about what activity types are supported.|
-|Are calculated metrics supported in A4T reporting?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported.
+|Are calculated metrics supported in A4T reporting?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported.|
 |Why would unique visitors vary between Target and Analytics?|[Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) about variances of unique visitors between products.|
 
 For more information regarding Analytics for Target reporting, visit [A4T reporting]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)

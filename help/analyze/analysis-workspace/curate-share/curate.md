@@ -9,7 +9,7 @@ title: Curate Workspace projects
 Curation lets you limit the components (dimensions, metrics, segments, date ranges) before sharing a project. When a recipient opens the project, they will see a limited set of components that you have curated for them. Curation is an optional but recommended step before sharing a project. 
 
 >[!NOTE]
-> Product profiles are the primary mechanism governing which components a user can see. They are managed through the Adobe Experience Cloud Admin Console. Curation should be used as a secondary filter. 
+> Product profiles are the primary mechanism governing which components a user can see. They are managed through the Adobe Experience Cloud Admin Console. Curation is a secondary filter. 
 
 ## Apply project curation
 

@@ -6,7 +6,7 @@ title: Share Workspace projects
 
 # Share Workspace projects
 
-Sharing makes a project available to other Analysis Workspace users in your organization. Any [curation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html) you have applied is reflected when recipients open the project. 
+Sharing makes a project available to other Analysis Workspace users in your organization. Any [curation](curate.md) you have applied is reflected when recipients open the project. 
 
 ## Project roles
 

@@ -22,7 +22,7 @@ Pull a basic ranked report using Analysis Workspace. A ranked report shows an ag
 4. Click the 'Create New Project' button.
 5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
 6. On the left, you should see a list of dimensions, metrics, segments, and date ranges. Locate the Pages dimension (colored orange), and drag it over to the canvas where it says 'Drop a Dimension Here'.
-7. Note that if the report suite has data, a report showing the top pages for this month can be seen. Analysis Workspace automatically populated the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
+7. Note that if the report suite has data, a report showing the top pages for this month can be seen. Analysis Workspace automatically populated the report with the [Occurrences](/help/components/metrics/occurrences.md) metric.
 8. Locate the Visits metric (colored green), and drag it either **over** or **next to** the Occurrences metric header (avoid placing it above the metric). If you drag the Visits metric on top of Occurrences, the metric is replaced in reporting. If you drag the Visits metric next to Occurrences, both metrics are displayed side-by-side.
 9. If you'd like to save your project, click *[!UICONTROL Project] > [!UICONTROL Save]* in the upper left menu.
 

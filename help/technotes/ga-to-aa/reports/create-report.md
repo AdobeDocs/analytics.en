@@ -32,7 +32,7 @@ Create an All Pages report (similar to the one in Google Analytics) by dragging 
 1. Click the 'Create New Project' button.
 1. In the modal popup, make sure 'Blank Project' is selected, then click Create.
 1. On the left, a list of dimensions, metrics, segments, and date ranges is shown. Locate the Pages dimension (colored orange), and drag it onto the canvas labeled 'Drop a Dimension Here'.
-1. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
+1. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/metrics/occurrences.md) metric.
 1. A table in Google Analytics typically contains 7-8 metrics. Locate the Bounce Rate metric (colored green), and drag it next to the Occurrences metric header. If you drag the Bounce Rate metric next to Occurrences, both metrics are displayed side-by-side.
 1. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
 

@@ -31,8 +31,8 @@ For reports trended over time, you can graphically display events and see whethe
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Under **[!UICONTROL Shared Calendar Events]**, specify one of these options:
 
-       | **Copy Me** | Adds a copy to your list of events, using the same name as the original. However, you cannot see any updates/changes made by the event's owner. |
-       |---|---|
-       | **On Report** | Lets you see changes/updates made by the event owner. |
-       | **Unshare** | Removes this event from your list of shared events. |
+   | **Copy Me** | Adds a copy to your list of events, using the same name as the original. However, you cannot see any updates/changes made by the event's owner. |
+   |---|---|
+   | **On Report** | Lets you see changes/updates made by the event owner. |
+   | **Unshare** | Removes this event from your list of shared events. |
 

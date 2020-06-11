@@ -47,9 +47,9 @@ To apply curation at a report-suite level, so that it applies to many projects a
 
 In a curated project or VRS, the recipient will be presented with the option to **[!UICONTROL Show All]** components in the left rail. [!UICONTROL Show All] reveals different sets of components, depending on:
 
-* the user’s permission level (admin or non-admin)
-* project role (owner/editor or not)
-* type of curation applied (VRS or project)
+* The user’s permission level (admin or non-admin)
+* Project role (owner/editor or not)
+* Type of curation applied (VRS or project)
 
 |Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate or view role|
 |---|---|---|---|

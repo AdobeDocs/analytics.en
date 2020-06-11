@@ -13,7 +13,7 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
 ## Acquisition metrics
 
-**Users** is approximately equal to **Unique Visitors** in Workspace. See the [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) metric in the Components user guide for additional details.
+**Users** is approximately equal to **Unique Visitors** in Workspace. See the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in the Components user guide for additional details.
 
 **New Users** can be obtained by the following:
 
@@ -22,13 +22,13 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 
     ![First Time Visits](../assets/first_time_visits.png)
 
-**Sessions** is approximately equal to **Visits** in Analysis Workspace. See the [Visits](/help/components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
+**Sessions** is approximately equal to **Visits** in Analysis Workspace. See the [Visits](/help/components/metrics/visits.md) metric in the Components user guide for additional details.
 
 ![Acquisition metrics](../assets/acquisition_metrics.png)
 
 ## Behavior metrics
 
-**Bounce Rate** is readily available in Analysis Workspace as a metric. See the [Bounce Rate](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for additional information.
+**Bounce Rate** is readily available in Analysis Workspace as a metric. See the [Bounce Rate](/help/components/metrics/bounce-rate.md) metric in the Components user guide for additional information.
 
 **Pages/Session** is a calculated metric. It can be obtained by the following:
 
@@ -44,9 +44,9 @@ To add multiple metrics to a workspace freeform table, drag the metric from the 
 7. Click Save to go back to your workspace.
 8. Drag the newly defined calculated metric onto the workspace.
 
-    Learn more about [Calculated Metrics](/help/components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+    Learn more about [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide.
 
-**Avg. Session Duration** is approximately equal to **Time Spent per Visit (seconds)**. Learn more about [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) metrics in the Components user guide.
+**Avg. Session Duration** is approximately equal to **Time Spent per Visit (seconds)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## Conversions metrics
 

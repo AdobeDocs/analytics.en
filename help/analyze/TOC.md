@@ -288,12 +288,14 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Dashboards and reportlets](reports-analytics/dashboard.md)
   + [Dashboard Manager](reports-analytics/dashboard-manage.md)
   + [Data extract](reports-analytics/data-extract.md)
+  + [Funnel reports](reports-analytics/funnels.md)
   + [Metrics](reports-analytics/metrics.md)
   + [Targets](reports-analytics/targets.md)
   + [Alerts](reports-analytics/alerts.md)
   + [Calendar events](reports-analytics/t-calendar-event.md)
   + [Data Warehouse requests](reports-analytics/data-warehouse.md)
   + [Frequently Asked Questions](reports-analytics/frequently-asked-questions.md)
+  + [Troubleshooting](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
   + Ad Hoc Analysis Project Converter {#aha-project-converter}
     + [Ad Hoc Analysis Project Converter overview](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)

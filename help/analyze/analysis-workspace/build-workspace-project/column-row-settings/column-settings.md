@@ -43,6 +43,19 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 |Custom|You can manually assign the values for the  Upper,  Midpoint, and  Lower Limit fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor.|
 |Table Cell Preview|Shows a preview of how each cell appears with the currently selected formatting options applied.|
 
+## Use non-default attribution model
+
+Analysis Workspace supports [attribution](../../attribution/overview.md) for almost any metric. 
+
+1. Click the Settings (gear) icon in a Freeform Table column.
+
+   ![Attribution checkbox](assets/attribution-checkbox.png)
+
+2. Under **[!UICONTROL Data Settings]**, check **[!UICONTROL Use non-default attribution model]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Select attribution model](assets/attribution-select.png)
+
+
 >[!MORELIKETHIS]
 >
 >* [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)

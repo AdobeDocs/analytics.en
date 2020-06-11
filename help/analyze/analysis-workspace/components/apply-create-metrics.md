@@ -21,3 +21,11 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 ![](assets/calc_metrics.png)
 
 [Using Participation Metrics on YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
+
+## Compare metrics with different attribution models
+
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+
+![Compare attribution](assets/compare-attribution.png)
+
+This shortcut lets you quickly and easily compare one attribution model to another without dragging in a metric and configuring it twice.

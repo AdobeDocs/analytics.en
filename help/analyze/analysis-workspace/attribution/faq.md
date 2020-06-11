@@ -23,7 +23,7 @@ Attribution is recalculated at report runtime, so there is no difference between
 
 **Are attribution models available in other Analytics capabilities, such as Data Feeds or Data Warehouse?**
 
-No. Attribution models use report time processing, which is only available in Analysis Workspace. See [Report time processing](../../../../components/vrs/vrs-report-time-processing.md) for more information.
+No. Attribution models use report time processing, which is only available in Analysis Workspace. See [Report time processing](/help/components/vrs/vrs-report-time-processing.md) for more information.
 
 **Are attribution models only available if I'm using a virtual report suite with report time processing enabled?**
 
@@ -48,10 +48,6 @@ The attribution panel supports all dimensions. Unsupported metrics include:
 * Single Page Visits
 * Single Access
 
-**Can I use a custom lookback window with my attribution models?**
-
-Yes, using the custom lookback window option, lookback windows can be configured to any date range up to 90 days prior to your reporting window. See [Report time processing](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) for more information.
-
 **Does attribution work with classifications?**
 
 Yes, classifications are fully supported.
@@ -63,3 +59,25 @@ Yes, most data sources are supported. Attribution is not possible with summary-l
 **Does attribution work with the Advertising Analytics integration?**
 
 Metadata dimensions, such as match type and keyword, work with attribution. However, metrics (including impressions, cost, clicks, average position, and average quality score) use summary-level data sources, and are therefore incompatible.
+
+**How does attribution work with marketing channels?**
+
+When marketing channels were first introduced, they came with only first and last touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic 'Marketing Channel' and 'Marketing Channel Detail' dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last Touch Channel dimensions, but are labeled differently to prevent confusion when using marketing channels with a different attribution model.
+
+Since marketing channel dimensions depend on a traditional visit definition (as defined by their processing rules), their visit definition cannot be changed using virtual report suites.
+
+**How does attribution work with multi-value variables, such as list vars?**
+
+Some dimensions in Analytics can contain multiple values on a single hit. Common examples include list vars and the products variable.
+
+When attribution is applied to multi-value hits, all values in the same hit get the same credit. Since many values can receive this credit, the report total can be different than if you summed each individual line item. The report total is deduplicated, while each individual dimension value gets proper credit.
+
+**How does attribution work with segmentation?**
+
+Attribution always runs before segmentation, and segmentation runs before report filters are applied. This concept also applies to virtual report suites using segments.
+
+For example, if you create a VRS with a "Display Hits" segment applied, you could see other channels in a table using some attribution models.
+
+![Display-only virtual report suite](assets/vrs-aiq-example.png)
+
+>[!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.

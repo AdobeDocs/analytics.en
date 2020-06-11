@@ -9,7 +9,7 @@ title: Curate Workspace projects
 Curation lets you limit the components (dimensions, metrics, segments, date ranges) before sharing a project. When a recipient opens the project, they will see a limited set of components that you have curated for them. Curation is an optional but recommended step before sharing a project. 
 
 >[!NOTE]
-> Product profiles are the primary mechanism governing which components a user can see. They are managed through the Admin Console. Curation is a secondary filter. 
+> Product profiles are the primary mechanism governing which components a user can see. They are managed through the Adobe Experience Cloud Admin Console. Curation should be used as a secondary filter. 
 
 ## Apply project curation
 
@@ -19,13 +19,15 @@ Curation lets you limit the components (dimensions, metrics, segments, date rang
 1. (Optional) To add more components, drag components you want to share from the left rail to the [!UICONTROL Curate Components] field.  
 1. Click **[!UICONTROL Done]**.
 
+Curation can also be applied from the [!UICONTROL Share] menu by clicking **[!UICONTROL Curate and Share]**. This option automatically curates the project to the components in use in the project. You can add additional components following the steps above.
+
 ![](assets/curation-field.png)
+
+## Curated project view
 
 When a recipient opens a curated project, they will only see the curated set of components you have defined:
 
 ![](assets/curate-project.png)
-
-Curation can also be applied from the [!UICONTROL Share] menu by clicking **[!UICONTROL Curate and Share]**. This option automatically curates the project to the components in use in the project. You can add additional components following the steps above.
 
 ## Remove project curation
 
@@ -41,15 +43,15 @@ To apply curation at a report-suite level, so that it applies to many projects a
 >[!NOTE]
 > VRS curation is always applied before project curation. This means that even if your curated project includes certain components, they will be filtered out if the curated VRS does not include them.
 
-### Show All components
+## Show All components option
 
 In a curated project or VRS, the recipient will be presented with the option to **[!UICONTROL Show All]** components in the left rail. [!UICONTROL Show All] reveals different sets of components, depending on:
 
 * the user’s permission level (admin or non-admin)
 * project role (owner/editor or not)
-* type of curation applied
+* type of curation applied (VRS or project)
 
-|Curation Type|Admins|Non-Admin project owners|Non-Admins|
+|Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate or view role|
 |---|---|---|---|
 |Curated VRS|All non-curated VRS components|Non-curated VRS components that this role owns or that have been shared with them|Non-curated VRS components that this role owns or that have been shared with them|
 |Curated Project|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|

@@ -16,13 +16,13 @@ Disabled interactions in a view-only project include:
 
 * Hidden left rail 
 * Report suite 
-* Panel calendar date range 
-   Note: If you want to grant calendar control to recipients, add in a [drop-down filter with date ranges](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). 
+* Panel calendar date range. Note: If you want to grant calendar control to recipients, add in a [drop-down filter with date ranges](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). 
 * Freeform filtering 
 * Freeform # of visible rows 
 * Freeform row, column or visualization settings 
 * Panel segments 
 * Edit, Insert & Component menus
+* Workspace tips
 
 ## Enabled interactions
 

@@ -29,7 +29,7 @@ You can set permissions to Custom Events and Analytics solution events (AEM, AMO
 
 Every custom group with any metrics will have all Analytics Solution events added as new metrics.
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+See [Metrics overview](/help/components/metrics/overview.md) for information about metrics used in Analytics.
 
 ## Content Aware
 

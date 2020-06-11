@@ -96,7 +96,7 @@ For a technical comparison of key features and system requirements between these
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Attribution IQ</a> in Analysis Workspace lets you add many new types of attribution models to Freeform Tables, Visualizations, and Calculated metrics. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace lets you add many new types of attribution models to Freeform Tables, Visualizations, and Calculated metrics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Not included </p> </td> 

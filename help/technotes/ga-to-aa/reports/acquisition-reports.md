@@ -49,9 +49,9 @@ Source and medium reports show the domains that drove traffic to your site.
 
 See the following pages in the Components user guide for more information on their respective dimension:
 
-* [Referring Domain](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Referrer Type](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Search Keyword](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Referring Domain](/help/components/dimensions/referring-domain.md)
+* [Referrer Type](/help/components/dimensions/referrer-type.md)
+* [Search Keyword](/help/components/dimensions/search-keyword.md)
 
 ## All Traffic - Referrals
 
@@ -61,7 +61,7 @@ See the following pages in the Components user guide for more information on the
 1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Referring Domain](/help/components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+See the [Referring Domain](/help/components/dimensions/referring-domain.md) dimension in the Components user guide for more information.
 
 ## Google Ads reports and Search Console reports
 

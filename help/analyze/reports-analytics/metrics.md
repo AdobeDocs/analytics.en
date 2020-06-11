@@ -17,7 +17,7 @@ Metrics and associated data are displayed in the columns of reports. Traffic met
 
 [Calculated metrics](/help/components/c-calcmetrics/cm-overview.md) are created by combining metrics.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+For a full list of metrics, see [Metrics overview](/help/components/metrics/overview.md) in the Components user guide.
 
 ## Select default report metrics 
 

@@ -43,6 +43,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [First touch channel](dimensions/first-touch-channel.md)
   + [First touch channel detail](dimensions/first-touch-detail.md)
   + [Hit depth](dimensions/hit-depth.md)
+  + [Hit type](dimensions/hit-type.md)
   + [Hour of day](dimensions/hour-of-day.md)
   + [Hour](dimensions/hour.md)
   + [Java enabled](dimensions/java-enabled.md)

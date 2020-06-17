@@ -53,6 +53,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [contextData](vars/page-vars/contextdata.md)
     + [Dynamic variables](vars/page-vars/dynamic-variables.md)
     + [eVar](vars/page-vars/evar.md)
+    + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
     + events {#events}
       + [Events overview](vars/page-vars/events/events-overview.md)
       + [Purchase event](vars/page-vars/events/event-purchase.md)

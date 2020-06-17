@@ -23,7 +23,7 @@ You can configure the A4T panel using these input settings:
 |Success metrics| Select up to 3 standard (non-calculated) success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
 |Calendar date range| This will auto-populate based on the Activity date range from Adobe Target. You can change it if necessary.|
 
-![](assets/a4t-panel-builder.png)
+![Panel builder](assets/a4t-panel-builder.png)
 
 ## Panel Output {#Output}
 
@@ -31,7 +31,7 @@ The Analytics for Target panel returns a rich set of data and visualizations to 
 
 For each success metric you selected, one freeform table and one conversion rate trend will be shown: 
 
-![](assets/a4t-rendered.png)
+![Rendered](assets/a4t-rendered.png)
 
 
 Each freeform table shows the following metric columns:

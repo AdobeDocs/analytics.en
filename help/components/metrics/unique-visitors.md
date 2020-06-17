@@ -38,7 +38,7 @@ Unique visitor identifiers are typically stored in a browser cookie. A new uniqu
 * The same person browsing your site on different devices. A separate unique visitor is counted per device. You can use [Cross-device analytics](../cda/cda-home.md) to combine visitors together using the [People](people.md) metric.
 * Opens a private browsing session (such as Chrome's Incognito tab).
 
-A new unique visitor is **not* counted, as long as the cookie identifier is preserved:
+A new unique visitor is *not* counted, as long as the cookie identifier is preserved:
 
 * Closes their browser for an extended period
 * Upgrades their browser to the latest version

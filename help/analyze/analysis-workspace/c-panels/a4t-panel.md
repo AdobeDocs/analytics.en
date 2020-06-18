@@ -54,8 +54,9 @@ Like with any panel in Analysis Workspace, you can continue your analysis by add
 |Question|Answer|
 |---|---|
 |What activity types are supported in A4T?| [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) about what activity types are supported.|
-|Are calculated metrics supported in A4T reporting?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported.|
+|Are calculated metrics supported in lift and confidence calculations?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported in lift & confidence. Calculated metrics can be used in A4T reporting outside of these metrics, however.|
 |Why would unique visitors vary between Target and Analytics?|[Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) about variances of unique visitors between products.|
 |When I apply a hit segment for a specific Target activity in my analysis, why do I see unrelated experiences returned?|The A4T dimension is a list variable, which means it can contain many activities (and experiences) at once. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)|
+|Does the confidence metric account for extreme orders or apply a Bonferroni correction for multiple offers?|No. [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about how Analytics calculates confidence.|
 
 For more information regarding Analytics for Target reporting, visit [A4T reporting]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)

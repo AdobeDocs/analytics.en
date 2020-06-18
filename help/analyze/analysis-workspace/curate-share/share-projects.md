@@ -19,19 +19,19 @@ You can add recipients to one of three project roles. Project roles are tied to 
 |Can view|Recipients cannot Save As and do not have access to the left rail. Interactions are also limited.<br>This role is useful if you want to share a project to users that are less familiar with your organization’s data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment.<br>Learn more about the [Can view project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).|
 
 >[!IMPORTANT]
-> Project recipients added prior to June 18, 2020 have been migrated into a project role. Admin users migrated to the Can edit role and Non-admin users migrated to the Can view role. These roles provide the same project experience that they had previously.  
+> Project recipients added prior to June 18, 2020 have been migrated into a project role. Admin users migrated to the **[!UICONTROL Can edit]** role and Non-admin users migrated to the **[!UICONTROL Can duplicate]** role. These roles provide the same project experience that they had previously. Additionally, all groups (including "All") migrated to the **[!UICONTROL Can duplicate]** role.  
 
 ### No role assigned
 
-If a recipient is not assigned a role and receives a link to the project ([!UICONTROL Share] > [!UICONTROL Get project link]), they will be placed in the [!UICONTROL "Can view"] role by default. 
+If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share] > [!UICONTROL Get project link]**), they will be placed in the **[!UICONTROL Can view]** role by default. 
 
 ### Multiple roles assigned
 
-If a recipient is placed in multiple roles, they will always get the highest control. This might occur if a user is added both as an individual and as part of a group. For example, if user 1 is given Can edit and [!UICONTROL "Can view"] roles, they will have [!UICONTROL "Can edit"] control of the project. 
+If a recipient is placed in multiple roles, they will always get the highest control. This might occur if a user is added both as an individual and as part of a group. For example, if user 1 is given Can edit and **[!UICONTROL Can view]** roles, they will have **[!UICONTROL Can edit]** control of the project. 
 
 ### Admins and roles
 
-Admins placed in a [!UICONTROL"Can duplicate"] or [!UICONTROL "Can view"] role will receive those limited experiences when they open a project. If desired, an Admin can increase their role to [!UICONTROL "Can edit"] at anytime through [!UICONTROL Components] > [!UICONTROL Projects]. 
+Admins placed in a **[!UICONTROL Can duplicate]** or **[!UICONTROL Can view]** role will receive those limited experiences when they open a project. If desired, an Admin can increase their role to **[!UICONTROL Can edit]** at anytime through **[!UICONTROL Components] > [!UICONTROL Projects]**. 
 
 ## Add recipients to shared project
 
@@ -59,7 +59,7 @@ All users can share projects to groups, which are a collection of recipients. In
 
 ## Share projects in the Project manager 
 
-Projects can also be shared from [!UICONTROL Components] > [!UICONTROL Projects]. A single project can be shared following the same steps above.  
+Projects can also be shared from **[!UICONTROL Components] > [!UICONTROL Projects]**. A single project can be shared following the same steps above.  
 
 If multiple projects are selected to be shared, recipients will be added to the existing list of recipients for each project. For example: 
 

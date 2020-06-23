@@ -47,7 +47,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 |  *dimension* | The dimension for which you want the approximate distinct item count.  |
 
-## Example Use Case {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Example Use Case {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
@@ -59,11 +59,11 @@ This is how the "Approximate Customers" metric could be used in reporting:
 
 ![](assets/approx-customers.png)
 
-## Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Like Count() and RowCount(), Approximate Count Distinct() is subject to ["uniques exceeded" limits](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). If the "uniques exceeded" limit is reached within a particular month for a dimension, the value is counted as 1 dimension item.
 
-## Comparing Count Functions {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparing Count Functions {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
 

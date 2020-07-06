@@ -8,7 +8,9 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 
 A comparison table for Analytics reporting APIs. Links to supporting documentation are provided.
 
->[!NOTE] Regarding latency, Analytics for Target (A4T) combines Analytics and Target data on the same hit for integrated reporting. Because Analytics and Target calls occur at different times, hits are stored before any processing occurs to collect data from both solutions. This process adds **an additional 7-10 minutes** of latency to all checkpoints.
+>[!NOTE]
+>
+>Regarding latency, Analytics for Target (A4T) combines Analytics and Target data on the same hit for integrated reporting. Because Analytics and Target calls occur at different times, hits are stored before any processing occurs to collect data from both solutions. This process adds **an additional 7-10 minutes** of latency to all checkpoints.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 

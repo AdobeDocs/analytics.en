@@ -21,7 +21,9 @@ Adobe uses an authorization header when making requests to Adobe. Some proxies, 
 
 To resolve this issue, Adobe recommends working with your organization's IT team to allow the authorization header through your organization's proxy.
 
->[!NOTE] Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
+>[!NOTE]
+>
+>Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
 
 Information on Symantec proxies and authentication headers can be found here:
 

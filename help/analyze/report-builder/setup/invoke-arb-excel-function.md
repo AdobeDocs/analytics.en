@@ -11,7 +11,9 @@ This ability further integrates Report Builder usage within the natural Excel wo
 
 For example, you may want to automatically refresh Report Builder requests whose input filter is based on data pulled in Excel from other sources. You can now do this using the string RefreshRequestsInCellsRange(..) function. All calls are asynchronous. They return immediately and do not wait for a call to fully execute.
 
->[!NOTE] You must have Report Builder 5.0 (or later) installed for this functionality to work.
+>[!NOTE]
+>
+>You must have Report Builder 5.0 (or later) installed for this functionality to work.
 
 Here is a table with the list of exposed functions: 
 

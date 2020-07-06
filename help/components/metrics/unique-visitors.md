@@ -27,7 +27,9 @@ This metric counts the number of unique visitor ID's for a given dimension value
 | 4 | `fid` | Visitor has an existing [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie, or if `aid` and `mid` could not be set for any reason. |
 | 5 | IP Address, User Agent, Gateway IP Address | Last resort to identify a unique visitor if the visitor's browser does not accept cookies. |
 
->[!NOTE] Each Analytics visitor ID is tied to a profile on Adobe's servers. These visitor profiles are deleted after at least 13 months of inactivity regardless of any visitor ID cookie expiration.
+>[!NOTE]
+>
+>Each Analytics visitor ID is tied to a profile on Adobe's servers. These visitor profiles are deleted after at least 13 months of inactivity regardless of any visitor ID cookie expiration.
 
 ## Behavior that affects unique visitor count
 

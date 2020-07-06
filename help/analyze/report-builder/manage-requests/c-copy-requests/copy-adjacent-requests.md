@@ -11,7 +11,9 @@ In the same way that you copy and paste requests, you can also relocate requests
 
 Cutting a request removes it from its original location and places it in the new location after you select [!UICONTROL Paste Request]. If you change your mind after cutting a particular request and decide to copy or cut a different request from another cell, Report Builder leaves the first request in its original cell and only acts (either copies or cuts) the second.
 
->[!NOTE] Report builder does not support the Excel Undo command for cutting or pasting requests. Therefore, be careful when cutting requests.
+>[!NOTE]
+>
+>Report builder does not support the Excel Undo command for cutting or pasting requests. Therefore, be careful when cutting requests.
 
 You are not limited to copying and pasting in the same sheet of the workbook. You can copy a request in one sheet and paste to a location in another sheet of the same workbook.
 

@@ -18,7 +18,9 @@ To create a histogram:
 
 ![](assets/histogram.png)
 
->[!NOTE] Histograms support only standard metrics, not calculated metrics.
+>[!NOTE]
+>
+>Histograms support only standard metrics, not calculated metrics.
 
 Here we have used the Page Views Metric per Unique Visitors. The first (left) bucket corresponds to 1 page view per unique visitor, the second bucket to two page views, etc.
 

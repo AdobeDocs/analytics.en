@@ -7,11 +7,15 @@ description: Create callback functions before sending a hit to Adobe.
 
 The `registerPreTrackCallback` variable allows your organization to hook a JavaScript function after an image request URL is compiled but before it is sent. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure.
 
->[!IMPORTANT] Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the [`registerPostTrackCallback`](registerposttrackcallback.md) variable. Tracking functions in this variable cause an infinite loop of image requests!
+>[!IMPORTANT]
+>
+>Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the [`registerPostTrackCallback`](registerposttrackcallback.md) variable. Tracking functions in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPreTrackCallback` variable, you hook that function to run every time an image request URL is compiled. Avoid registering the same function multiple times in the same page load.
 
->[!NOTE] The timing and order of functions fired between `registerPreTrackCallback` and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
+>[!NOTE]
+>
+>The timing and order of functions fired between `registerPreTrackCallback` and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
 
 ## Register Pre Track Callback in Adobe Experience Platform Launch
 
@@ -44,4 +48,6 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] Setting page variables or altering the `requestUrl` string within this function do **not** impact the image request sent shortly after this function call. Use the [`doPlugins()`](doplugins.md) variable instead.
+>[!NOTE]
+>
+>Setting page variables or altering the `requestUrl` string within this function do **not** impact the image request sent shortly after this function call. Use the [`doPlugins()`](doplugins.md) variable instead.

@@ -60,7 +60,9 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE] As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
+>[!NOTE]
+>
+>As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
 
 * Video card supporting OpenGL 2.0 
 * Cookies: Required 

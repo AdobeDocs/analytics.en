@@ -7,7 +7,9 @@ description: The overarching domain a visitor was on before clicking through to 
 
 The 'Referring domain' dimension reports which domains visitors click through to reach your site. This dimension is useful to understand which third-party sites drive the most traffic to yours. A link must exist on the external site and a visitor must click it in order for the dimension value to show up.
 
->[!IMPORTANT] You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
+>[!IMPORTANT]
+>
+>You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
 
 ## Populate this dimension with data
 

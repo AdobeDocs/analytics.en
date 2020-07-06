@@ -7,7 +7,9 @@ description: The URL a visitor was at before clicking through to your site.
 
 The 'Referrer' dimension reports which URLs visitors were on when clicking through to reach your site. This dimension is useful to understand which specific URLs drive the most traffic to your site. A link must exist on the external URL and a visitor must click it in order for the dimension value to show up.
 
->[!IMPORTANT] You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
+>[!IMPORTANT]
+>
+>You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
 
 ## Populate this dimension with data
 

@@ -5,7 +5,9 @@ description: Measure the amount of time elapsed between two visits.
 
 # Adobe plug-in: getTimeSinceLastVisit
 
->[!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getTimeSinceLastVisit` plug-in allows you to track how long a visitor has taken to return to your site after their last visit.
 
@@ -62,7 +64,9 @@ The `getTimeSinceLastVisit` method does not use any arguments. It returns the am
 * Time greater than a day is rounded to the nearest day benchmark. For example, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * If a visitor has not visited before or the time elapsed is greater than two years, the value is set to `"New Visitor"`.
 
->[!NOTE] This plug-in only returns a value on the first hit of a visit.
+>[!NOTE]
+>
+>This plug-in only returns a value on the first hit of a visit.
 
 This plug-in creates a first-party cookie called `"s_tslv"` set to a Unix timestamp of the current time. The cookie expires after two years of inactivity.
 

@@ -8,7 +8,9 @@ uuid: a694851c-8933-496e-9118-113cc38cba8a
 
 Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
 
->[!NOTE] Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
+>[!NOTE]
+>
+>Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
 ## Assign or Edit Report Suite Labels {#section_39F829F35A274EACA532E2F6FF392996}
 

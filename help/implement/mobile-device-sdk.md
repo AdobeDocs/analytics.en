@@ -9,7 +9,7 @@ To implement Analytics for mobile devices, refer to the following SDK repositori
 
 ## Experience Platform Mobile SDKs
 
-* [SDK repository](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
+* [SDK repository](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
 * [Documentation](https://aep-sdks.gitbook.io/docs/)
 
 ## Version 4 Mobile SDKs

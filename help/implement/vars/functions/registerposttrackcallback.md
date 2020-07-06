@@ -19,7 +19,7 @@ There is not a dedicated field in Launch to use this variable. Use the custom co
 
 ## s.registerPostTrackCallback in AppMeasurement and Launch custom code editor
 
-The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs just before an image request is sent.
+The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs immediately after an image request is successfully sent.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});

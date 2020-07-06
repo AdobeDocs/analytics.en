@@ -71,9 +71,13 @@ You would see a number of calculated metrics with the same name (but created in 
 
 Consider consolidating calculated metrics with similar names and definitions but exercise caution when doing so. You can check the report suite for a calculated metric in the Calculated Metric Manager to verify its original report suite. You should also check the definitions of metrics when deleting potential duplicates to ensure that you are correctly consolidating metrics.
 
->[!NOTE] Even though calculated metrics are no longer bound to a specific report suite and can be used across any report suite that is visible to the login company, the report suite under which the calculated metric was created or last saved is still visible in the Calculated Metric Manager.
+>[!NOTE]
+>
+>Even though calculated metrics are no longer bound to a specific report suite and can be used across any report suite that is visible to the login company, the report suite under which the calculated metric was created or last saved is still visible in the Calculated Metric Manager.
 
->[!NOTE] Even if a Calculated Metric is deleted, any bookmarks or dashboard reports that reference that metric will still function.
+>[!NOTE]
+>
+>Even if a Calculated Metric is deleted, any bookmarks or dashboard reports that reference that metric will still function.
 
 ## What happened to my Global Calculated Metrics? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -85,7 +89,9 @@ Global calculated metrics are now owned by the first Admin user in the login com
 
 Nothing. However, the new Admin owner should exercise caution when modifying or deleting these calculated metrics - they may be used in a number of bookmarked reports and dashboards.
 
->[!NOTE] Even if a Calculated Metric is deleted, any bookmarks or dashboard reports that reference that metric will still function.
+>[!NOTE]
+>
+>Even if a Calculated Metric is deleted, any bookmarks or dashboard reports that reference that metric will still function.
 
 ## What happened to Global Calculated Metrics that were shared across Login Companies? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -97,7 +103,9 @@ Global calculated metrics can no longer be shared across login companies. They a
 * Default to "shared with Everyone".
 * Will be copies independent from all the other login companies.
 
->[!NOTE] If the calculated metric was used in a bookmark, dashboard, alert, or scheduled report, editing the new copy will NOT affect the old persisted calculated metric.
+>[!NOTE]
+>
+>If the calculated metric was used in a bookmark, dashboard, alert, or scheduled report, editing the new copy will NOT affect the old persisted calculated metric.
 
 ## What happened to Calculated Metrics with a Numeric or Numeric2 Classification? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 

@@ -13,7 +13,9 @@ This variable is not used for page view calls ([`t()`](../functions/t-method.md)
 
 Launch automatically detects events defined in the interface and includes them in link tracking hits.
 
->[!IMPORTANT] If you set events in Launch using the custom code editor, you must include the event in `linkTrackEvents` using custom code as well.
+>[!IMPORTANT]
+>
+>If you set events in Launch using the custom code editor, you must include the event in `linkTrackEvents` using custom code as well.
 
 ## s.linkTrackEvents in AppMeasurement and Launch custom code editor
 
@@ -29,7 +31,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 The default value for this variable is an empty string. If this variable is not defined, all events are included in link tracking image requests. Note that Launch automatically populates this variable based on events set in the interface, so it is always set in implementations using Launch.
 
->[!TIP] Avoid using the Analytics object identifier (`s.`) when specifying events in this variable. For example, `s.linkTrackEvents = "event1";` is correct, while `s.linkTrackEvents = "s.event1";` is incorrect.
+>[!TIP]
+>
+>Avoid using the Analytics object identifier (`s.`) when specifying events in this variable. For example, `s.linkTrackEvents = "event1";` is correct, while `s.linkTrackEvents = "s.event1";` is incorrect.
 
 ## Example
 

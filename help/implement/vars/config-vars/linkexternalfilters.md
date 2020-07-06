@@ -9,7 +9,9 @@ AppMeasurement offers the ability to automatically track links that point outsid
 
 If this variable contains a value, automatic exit link tracking behaves like an allowlist. If a link click does not match any `linkExternalFilters` values, it is not considered an exit link. The entire URL is examined against this variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
->[!TIP] Only use this variable if you know exactly which domains you want to consider as exit links. Many organizations find that using `linkInternalFilters` is sufficient for their exit link tracking needs, and do not use `linkExternalFilters`.
+>[!TIP]
+>
+>Only use this variable if you know exactly which domains you want to consider as exit links. Many organizations find that using `linkInternalFilters` is sufficient for their exit link tracking needs, and do not use `linkExternalFilters`.
 
 If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 

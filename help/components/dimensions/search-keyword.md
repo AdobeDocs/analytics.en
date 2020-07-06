@@ -7,7 +7,9 @@ description: The search keyword that the visitor used to reach your site.
 
 The 'Search keyword' dimension reports the search keywords that visitors use to reach your site.
 
->[!IMPORTANT] Most search engines no longer pass the search keyword due to increasing privacy practices. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension value `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>Most search engines no longer pass the search keyword due to increasing privacy practices. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension value `"Keyword unavailable"`.
 
 A referrer must meet both of the following to classify as a search keyword:
 

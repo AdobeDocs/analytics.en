@@ -10,7 +10,9 @@ This document describes what you need to do in Adobe Analytics to support your d
 
 ## Adobe Overview
 
->[!IMPORTANT] The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning CCPA.
+>[!IMPORTANT]
+>
+>The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning CCPA.
 
 On January 1, 2020, the California Consumer Privacy Act (CCPA) goes into effect. For more information about Adobe's response and what this means for you as an Adobe customer, see [Adobe's Privacy Center.](https://www.adobe.com/privacy.html)
 

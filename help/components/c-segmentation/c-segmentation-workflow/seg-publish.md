@@ -11,7 +11,9 @@ Publishing an Adobe Analytics segment to the Experience Cloud lets you use the s
 
 We have also increased the maximum number of publishable Adobe Analytics segments to 75 (from 20). You can view published segments in [!UICONTROL Analytics > Components > Segments].
 
->[!NOTE] Adobe Campaign (Classic and Standard) behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
+>[!NOTE]
+>
+>Adobe Campaign (Classic and Standard) behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
 
 
 ## Prerequisites
@@ -66,7 +68,9 @@ We have also increased the maximum number of publishable Adobe Analytics segment
 
 To delete a segment that has been published to the Experience Cloud, you have to unpublish it first. To unpublish a segment, just **unclick** the checkbox that you used to publish it.
 
->[!NOTE] You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
+>[!NOTE]
+>
+>You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 

@@ -7,7 +7,9 @@ description: The number of unique visitors using the Adobe Experience Cloud ID s
 
 The 'Visitors with Experience Cloud ID' metric shows the number of unique visitors who were identified by Adobe using the [Experience Cloud ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html). This dimension is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses the ID service. If a large portion of visitors don't use the ID service cookies, it can indicate an issue within your implementation.
 
->[!NOTE] This metric is especially important for debugging if you use multiple Experience Cloud services, such as Adobe Target or Adobe Audience Manager. Segments shared across Experience Cloud products do not include visitors without an Experience Cloud ID.
+>[!NOTE]
+>
+>This metric is especially important for debugging if you use multiple Experience Cloud services, such as Adobe Target or Adobe Audience Manager. Segments shared across Experience Cloud products do not include visitors without an Experience Cloud ID.
 
 ## How this metric is calculated
 

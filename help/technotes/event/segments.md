@@ -54,7 +54,9 @@ If you don't want to show zeros in your table or visualizations (causing dips), 
 
 You can apply the 'Exclude affected days' segment to a Workspace project. Drag the exclude segment to the Workspace canvas section labeled *Drop a segment here*.
 
->[!TIP] Include a note around excluded data in the panel's description to help those viewing the report. Right click a panel's title, then click **[!UICONTROL Edit description]**.
+>[!TIP]
+>
+>Include a note around excluded data in the panel's description to help those viewing the report. Right click a panel's title, then click **[!UICONTROL Edit description]**.
 
 ![Segment applied to a panel](assets/exclude_segment_panel.jpg)
 

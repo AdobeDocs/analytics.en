@@ -73,7 +73,9 @@ In order to successfully implement remarketing segments, the following condition
     * Purchases: `purchase` event
     * Product Views: `prodView` event
 
->[!NOTE] If the product is defined without an associated event, the prodView event automatically fires.
+>[!NOTE]
+>
+>If the product is defined without an associated event, the prodView event automatically fires.
 If the above requirements are not met, the corresponding remarketing segments are not reported correctly.
 
 [!UICONTROL Cart Abandonment]: fires after the user adds a product to the shopping cart:
@@ -100,4 +102,6 @@ s.events="purchase";
 | Remarketing segment files are not received. | If you are not receiving your files, have one of your organization's supported users contact ClientCare to investigate the cause of reports not successfully being received. |
 
 
->[!IMPORTANT] It is common for consultants to also set up a data warehouse request as a daily scheduled report in addition to your standard data connectors integration remarketing segment file. This data warehouse request would include data connectors variables as well as non-data connectors variables, and the request can be scheduled based only on your organization's specific request. To prevent confusion when troubleshooting, specify whether the file in question is the actual remarketing segment file, or a data warehouse request containing non-genesis variables.
+>[!IMPORTANT]
+>
+>It is common for consultants to also set up a data warehouse request as a daily scheduled report in addition to your standard data connectors integration remarketing segment file. This data warehouse request would include data connectors variables as well as non-data connectors variables, and the request can be scheduled based only on your organization's specific request. To prevent confusion when troubleshooting, specify whether the file in question is the actual remarketing segment file, or a data warehouse request containing non-genesis variables.

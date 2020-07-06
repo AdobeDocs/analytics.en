@@ -34,7 +34,9 @@ The `s.linkType` variable is a string that accepts one of three single-character
 * `d` - Download links
 * `e` - Exit links
 
->[!TIP] This variable is the second parameter of the `tl()` method, and usually does not need to be set as a standalone variable. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP]
+>
+>This variable is the second parameter of the `tl()` method, and usually does not need to be set as a standalone variable. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkType = "e";

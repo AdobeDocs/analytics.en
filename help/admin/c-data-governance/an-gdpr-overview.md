@@ -10,7 +10,9 @@ This document describes what you need to do in Adobe Analytics to support your d
 
 ## Adobe Overview {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT] The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning GDPR.
+>[!IMPORTANT]
+>
+>The contents of this document are not legal advice and are not meant to substitute for legal advice. Please consult your company's legal department for advice concerning GDPR.
 
 On May 25, 2018, the European Union's General Data Protection Regulation (GDPR) went into effect. For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 

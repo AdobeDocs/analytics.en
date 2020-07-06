@@ -12,7 +12,9 @@ This information lets you identify any directly identifiable data or indirectly 
 
 If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
->[!NOTE] This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+>[!NOTE]
+>
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 

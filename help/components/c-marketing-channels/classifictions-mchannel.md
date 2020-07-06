@@ -9,7 +9,9 @@ Use classifications to categorize values into related groups and to report at th
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. Channel Values are unclassified values in the channel detail.
 
->[!NOTE] Ensure that you are familiar with creating classifications in [Classifications](/help/components/c-classifications2/c-classifications.md).
+>[!NOTE]
+>
+>Ensure that you are familiar with creating classifications in [Classifications](/help/components/c-classifications2/c-classifications.md).
 
 >[!IMPORTANT]
 >

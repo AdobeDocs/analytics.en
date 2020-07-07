@@ -8,7 +8,9 @@ uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] These restrictions apply only to the option "Publish Report Builder Requests as Power BI Dataset Tables".
+>[!NOTE]
+>
+>These restrictions apply only to the option "Publish Report Builder Requests as Power BI Dataset Tables".
 
 * A maximum of 100 Report Builder requests can be exported to Power BI per workbook.
 * The scheduling process will stop exporting requests when the 101th request is reached.
@@ -16,7 +18,9 @@ uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] This specification applies to the options "Publish All Report Builder Requests as Power BI Dataset Tables" and "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables".
+>[!NOTE]
+>
+>This specification applies to the options "Publish All Report Builder Requests as Power BI Dataset Tables" and "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables".
 
 Editing a Report Builder request after publishing it to Power BI may cause problems.
 

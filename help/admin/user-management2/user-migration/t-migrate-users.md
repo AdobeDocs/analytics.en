@@ -12,7 +12,9 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
 
 Migrate users from the legacy Analytics user management system to the Admin Console.
 
->[!NOTE] If an Admin that is not logged in via the Experience Cloud tries to access the User ID Migration tool, they will be redirected to the Experience Cloud login page.
+>[!NOTE]
+>
+>If an Admin that is not logged in via the Experience Cloud tries to access the User ID Migration tool, they will be redirected to the Experience Cloud login page.
 
 **To migrate Analytics users** 
 

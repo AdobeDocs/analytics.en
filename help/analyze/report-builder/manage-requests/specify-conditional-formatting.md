@@ -15,5 +15,7 @@ Conditional formatting lets you identify cells that contain results or values th
 
 For security reasons, macros you write for the workbook using Excel's Visual Basic for Applications (VBA) language are disabled.
 
->[!NOTE] Conditional formatting is an Excel feature. For information about creating formatting rules, see the Excel documentation.
+>[!NOTE]
+>
+>Conditional formatting is an Excel feature. For information about creating formatting rules, see the Excel documentation.
 

@@ -21,7 +21,9 @@ See [Journey IQ: Cross-Device Analytics Spark page](http://adobe.ly/aacda) to le
 
 Cross-Device Analytics requires the following. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.
 
->[!IMPORTANT] Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
+>[!IMPORTANT]
+>
+>Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * Your organization's data must reside within Adobe's Pacific Northwest data center. Support for data centers in other regions of the world is planned.
 * Contact your organization's Account Manager to establish these key points:

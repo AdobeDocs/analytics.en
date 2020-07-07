@@ -50,4 +50,6 @@ s.eVar1 = "+12.49";
 
 If more than two decimal places are given, the eVar counter rounds to two decimal places. An eVar counter cannot contain negative numbers.
 
-> [!IMPORTANT] You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+>[!IMPORTANT]
+>
+>You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.

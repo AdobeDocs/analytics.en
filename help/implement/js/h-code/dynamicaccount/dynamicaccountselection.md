@@ -5,7 +5,9 @@ description: The dynamicAccountSelection variable enables or disables dynamic ac
 
 # dynamicAccountSelection
 
->[!IMPORTANT] Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
+>[!IMPORTANT]
+>
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
 
 The `dynamicAccountSelection` variable is a boolean that determines if dynamic account selection is used.
 

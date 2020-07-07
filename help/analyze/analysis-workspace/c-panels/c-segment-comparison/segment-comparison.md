@@ -70,7 +70,9 @@ Displays the most statistically significant metrics between the two segments. Ea
 
 This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific metric is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific metric. If a metric is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
->[!NOTE] Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
+>[!NOTE]
+>
+>Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
 
 ![Top metrics](assets/top-metrics.png)
 
@@ -86,7 +88,9 @@ Shows the most statistically significant dimension values across all of your dim
 
 This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension value is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension value. If a dimension value is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
->[!NOTE] Dimension values added to this table after the segment comparison has finished do not receive a Difference Score.
+>[!NOTE]
+>
+>Dimension values added to this table after the segment comparison has finished do not receive a Difference Score.
 
 ![Top dimensions](assets/top-dimension-item1.png)
 
@@ -102,7 +106,9 @@ Shows which other segments (other than the two segments selected for comparison)
 
 This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific segment is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific segment. If a segment is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
->[!NOTE] Segments added to this table after the segment comparison has finished do not receive a Difference Score.
+>[!NOTE]
+>
+>Segments added to this table after the segment comparison has finished do not receive a Difference Score.
 
 ![Top segments](assets/top-segments.png)
 

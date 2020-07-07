@@ -6,7 +6,9 @@ uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 
 # Labeling best practices
 
->[!NOTE] Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
+>[!NOTE]
+>
+>Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
 ## Directly vs Indirectly Identifiable IDs {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -62,7 +64,9 @@ Use this table to determine the types of IDs that you will use when submitting D
 
 ## Best Practices for Setting Delete Labels {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Props are always case insensitive. eVars are case insensitive by default, but can be configured through Adobe Customer Care to be case sensitive. If you have a case-sensitive eVar that contains an ID, it is your responsibility to use the proper case when submitting a Data Privacy request so that the case used in the request matches the case used in hits containing these IDs.
+>[!NOTE]
+>
+>Props are always case insensitive. eVars are case insensitive by default, but can be configured through Adobe Customer Care to be case sensitive. If you have a case-sensitive eVar that contains an ID, it is your responsibility to use the proper case when submitting a Data Privacy request so that the case used in the request matches the case used in hits containing these IDs.
 
 The delete labels DEL-DEVICE and DEL-PERSON should be used sparingly. When applied to a variable that does not contain an ID that was used as part of the Data Privacy request, counts (metrics) in historical Analytics reports will almost always change.
 

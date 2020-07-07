@@ -40,7 +40,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 The link object argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
 
->[!NOTE] AppMeasurement automatically enables the [`useBeacon`](../config-vars/usebeacon.md) variable for exit links, making this argument no longer needed in modern browsers. This argument was used more commonly in previous versions of AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement automatically enables the [`useBeacon`](../config-vars/usebeacon.md) variable for exit links, making this argument no longer needed in modern browsers. This argument was used more commonly in previous versions of AppMeasurement.
 
 * `this`: Wait up to 500ms to give AppMeasurement time to send an image request. Default value.
 * `true`: Do not wait.

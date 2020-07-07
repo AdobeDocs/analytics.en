@@ -28,7 +28,9 @@ Keep in mind that:
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] Segments created this way are internal to the project.
+>[!NOTE]
+>
+>Segments created this way are internal to the project.
 
 You can choose to make these segments public (global) by following these steps:
 

@@ -8,7 +8,9 @@ uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 
 Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
 
->[!NOTE] Yahoo Gemini was absorbed by Microsoft Bing on March 31, 2019. As a result, the Yahoo Gemini advertising account option is no longer available.
+>[!NOTE]
+>
+>Yahoo Gemini was absorbed by Microsoft Bing on March 31, 2019. As a result, the Yahoo Gemini advertising account option is no longer available.
 
 By bringing the data from these search engines together in Adobe Analytics, you can analyze that same data by using the power of Analysis Workspace. A new [Paid Search Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) template in Workspace facilitates this analysis.
 

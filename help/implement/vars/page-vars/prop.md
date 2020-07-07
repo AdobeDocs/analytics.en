@@ -9,7 +9,9 @@ description: Custom variables you can use in your implementation.
 
 Props are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set.
 
-> [!TIP] Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
 
 If you have a [solution design document](/help/implement/prepare/solution-design.md), you can allocate these custom dimensions to values specific to your organization. The number of available props depends on your contract with Adobe. Up to 75 props are available if your contract with Adobe supports it.
 
@@ -42,7 +44,9 @@ List props are a setting applied to props that allow the variable to hold multip
 
 Enable list props in report suite settings. See [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in the Admin user guide. Make sure that the desired delimiter is configured correctly. Adobe does not provide a default delimiter.
 
-> [!TIP] Common delimiters used in implementations are a comma (`,`), colon (`:`), semicolon (`;`), or pipe (`|`). You can use any delimiter that best fits your implementation.
+>[!TIP]
+>
+>Common delimiters used in implementations are a comma (`,`), colon (`:`), semicolon (`;`), or pipe (`|`). You can use any delimiter that best fits your implementation.
 
 ### Set list props
 
@@ -53,6 +57,8 @@ Once you configure list props in report suite settings with the desired delimite
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] List props are still subject to the 100-byte maximum length. List props are easier to hit this limit and be truncated, since they can contain multiple values. Consider using abbreviations or shortening values if you might hit this 100-byte limit.
+>[!IMPORTANT]
+>
+>List props are still subject to the 100-byte maximum length. List props are easier to hit this limit and be truncated, since they can contain multiple values. Consider using abbreviations or shortening values if you might hit this 100-byte limit.
 
 If you set the same value more than once in a list prop, they are de-duplicated in reporting. Analysis Workspace counts the number of hits where a value is seen, and not the number of times a value exists in data.

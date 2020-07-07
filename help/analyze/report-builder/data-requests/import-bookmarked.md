@@ -17,9 +17,13 @@ This is how the Request Wizard Step 1 shows a dashboard and its reportlets:
 
 When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
 
->[!NOTE] In Report Builder, the list of available dashboards and bookmarks is limited to the user but also to the ones that apply to the report suite you selected in Step 1 of the wizard. By contrast, in marketing reports & analytics, you are given access to all bookmarks and dashboards that are accessible to you, regardless of which report suites these dashboard and bookmarks use.
+>[!NOTE]
+>
+>In Report Builder, the list of available dashboards and bookmarks is limited to the user but also to the ones that apply to the report suite you selected in Step 1 of the wizard. By contrast, in marketing reports & analytics, you are given access to all bookmarks and dashboards that are accessible to you, regardless of which report suites these dashboard and bookmarks use.
 
->[!NOTE] Only data is imported, so if the bookmark contains a chart, or if the dashboard reportlet consists of only a chart, only the data that is used to populate the chart is imported.
+>[!NOTE]
+>
+>Only data is imported, so if the bookmark contains a chart, or if the dashboard reportlet consists of only a chart, only the data that is used to populate the chart is imported.
 
 Once you have created a request by importing a dashboard reportlet (or a bookmark), the request will then be associated to the reportlet's (or bookmark's) primary dimension. As a result, if you edit the request, the tree view no longer selects the dashboard reportlet tree view node (or bookmark node): it selects its primary dimension instead.
 

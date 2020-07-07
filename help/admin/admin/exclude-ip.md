@@ -11,7 +11,9 @@ You can exclude data from specific IP addresses, such as internal website activi
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
->[!NOTE] Hits excluded by IP address are billed as [server calls](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
+>[!NOTE]
+>
+>Hits excluded by IP address are billed as [server calls](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
 
 ## Exclude By Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -23,7 +25,9 @@ This feature allows you and your colleagues to visit your site without skewing y
 |--- |--- |
 |[!UICONTROL Add CNAME]|Generates an opt-out link you can use to exclude your domain. For assistance, please contact your company's Supported Users. <br>Your traffic can be excluded from reporting in your report suites by visiting your company's opt-out page and choosing to exclude your browser from measurement. <br>If your implementation is using third party cookies, your opt-out page is [here](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true).|
 
->[!NOTE] Exclusion by computer works only if:
+>[!NOTE]
+>
+>Exclusion by computer works only if:
 >
 > * You access your web site from the same work station.
 > * Your cookies are enabled in the browser you are using.

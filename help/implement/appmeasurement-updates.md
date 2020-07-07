@@ -12,6 +12,12 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.21.0
+
+Release Date: **June 24, 2020**
+
+* Fixed an issue where the Activity Map linkExclusions filter was not always being applied for Firefox.
+
 ## Version 2.20.0
 
 Release Date: **March 5, 2020**

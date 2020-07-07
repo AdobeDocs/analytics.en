@@ -80,4 +80,6 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
 
->[!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.
+>[!NOTE]
+>
+>If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.

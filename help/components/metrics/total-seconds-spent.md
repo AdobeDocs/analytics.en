@@ -19,6 +19,8 @@ This metric uses the following steps to measure calculation:
 
 Persisted variables, such as [eVars](../dimensions/evar.md), count towards total seconds spent. Traffic variables, such as [props](../dimensions/prop.md), include seconds spent across subsequent link tracking calls.
 
->[!TIP] Time spent is not measured for the last hit of the visit since there is not subsequent image request to measure elapsed time. This concept also applies to visits consisting of a single hit (a bounce).
+>[!TIP]
+>
+>Time spent is not measured for the last hit of the visit since there is not subsequent image request to measure elapsed time. This concept also applies to visits consisting of a single hit (a bounce).
 
 See [Time spent overview](time-spent.md) for more general information on time spent.

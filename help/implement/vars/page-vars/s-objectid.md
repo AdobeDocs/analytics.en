@@ -23,7 +23,9 @@ This variable is typically set in the `onClick` event of an HTML link.
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
->[!NOTE] Always include the semicolon that finishes a JavaScript statement. The semicolon is required for Activity Map to function.
+>[!NOTE]
+>
+>Always include the semicolon that finishes a JavaScript statement. The semicolon is required for Activity Map to function.
 
 ## Use cases
 

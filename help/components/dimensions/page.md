@@ -17,4 +17,6 @@ This dimension retrieves data from the [`pageName` query string](/help/implement
 
 Dimension values include the names of pages on your site. Your organization determines what specific dimension values you want to use. Some organizations directly use `document.title`, while others formulate a custom breadcrumb. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
 
->[!NOTE] In Reports & Analytics, conversion metrics use linear attribution for this dimension. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analysis Workspace uses last attribution by default, with the option to use any attribution model.
+>[!NOTE]
+>
+>In Reports & Analytics, conversion metrics use linear attribution for this dimension. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analysis Workspace uses last attribution by default, with the option to use any attribution model.

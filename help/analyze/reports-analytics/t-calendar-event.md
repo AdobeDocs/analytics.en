@@ -9,7 +9,9 @@ uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 
 Steps to add calendar events, and to manage shared events.
 
->[!NOTE] To ensure optimal reporting performance, the 20 most recent calendar events will be displayed on trended and overtime graphs.
+>[!NOTE]
+>
+>To ensure optimal reporting performance, the 20 most recent calendar events will be displayed on trended and overtime graphs.
 
 For reports trended over time, you can graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. The process of setting up a calendar event involves naming the event, setting the dates, adding notes, and setting an icon. For example, if you use Social, you can create a calendar event to show that there was a correlation between an increase in site traffic and the mention of a product by a celebrity using Twitter.
 

@@ -24,7 +24,9 @@ Set the `s.doPlugins` variable to a function containing desired code. The functi
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] Set a function to the `doPlugins` variable only once in your implementation. If you set the `doPlugins` variable more than once, only the most recent code is used.
+>[!NOTE]
+>
+>Set a function to the `doPlugins` variable only once in your implementation. If you set the `doPlugins` variable more than once, only the most recent code is used.
 
 ## Examples
 
@@ -40,4 +42,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] Previous versions of AppMeasurement had slightly different `doPlugins()` code. Adobe recommends using the above format as a best practice.
+>[!NOTE]
+>
+>Previous versions of AppMeasurement had slightly different `doPlugins()` code. Adobe recommends using the above format as a best practice.

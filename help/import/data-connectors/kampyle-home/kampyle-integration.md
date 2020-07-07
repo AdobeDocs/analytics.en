@@ -8,7 +8,9 @@ uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 
 Once deployed, you can begin using the additional capabilities that this integration provides. The following are actions to take to get value from this integration from within Adobe Analytics.
 
->[!NOTE] It can take 24-48 hours to begin seeing Kampyle response data within your Adobe Analytics reporting.
+>[!NOTE]
+>
+>It can take 24-48 hours to begin seeing Kampyle response data within your Adobe Analytics reporting.
 
 ## Mix Feedback and Onsite Behavior Data{#mix-feedback-and-onsite-behavior-data}
 

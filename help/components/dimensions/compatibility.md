@@ -7,9 +7,13 @@ description: Reference for Analytics dimensions and reports.
 
 This page lists dimensions supported in their respective Analytics capabilities.
 
->[!NOTE] Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension values are specific to individual report suites.
+>[!NOTE]
+>
+>Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension values are specific to individual report suites.
 
->[!NOTE] There are some overlaps where Analytics tools use different terms for similar dimensions. For example, Reports & Analytics uses `browserwidth` while Analysis Workspace uses `browserwidthbucketed`.
+>[!NOTE]
+>
+>There are some overlaps where Analytics tools use different terms for similar dimensions. For example, Reports & Analytics uses `browserwidth` while Analysis Workspace uses `browserwidthbucketed`.
 
 ## Dimensions supported in both Reports & Analytics and Analysis Workspace
 

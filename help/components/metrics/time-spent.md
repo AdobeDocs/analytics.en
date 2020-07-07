@@ -32,7 +32,9 @@ Various [!UICONTROL 'time spent'] metrics and dimensions are offered across Adob
 
 Adobe Analytics uses explicit values (including link events and video views) to calculate [!UICONTROL Time Spent].
 
->[!NOTE] Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. For similar reasons, [!UICONTROL Bounce Visits] (i.e. visits with a single hit) also does not have a 'time spent' associated with it.
+>[!NOTE]
+>
+>Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. For similar reasons, [!UICONTROL Bounce Visits] (i.e. visits with a single hit) also does not have a 'time spent' associated with it.
 
 The **numerator** in all time spent calculations is total seconds spent.
 

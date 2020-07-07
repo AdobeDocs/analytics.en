@@ -7,7 +7,9 @@ description: The name of the page on your site.
 
 The `pageName` variable typically stores the name of a given page. It is helpful to determine what individual pages are most popular. This variable populates the 'Page Name' dimension.
 
->[!NOTE] This dimension is always stripped from link tracking calls. If you want to see the page name where a link was tracked, consider copying this variable into an eVar.
+>[!NOTE]
+>
+>This dimension is always stripped from link tracking calls. If you want to see the page name where a link was tracked, consider copying this variable into an eVar.
 
 If this variable is not defined on a given page tracking call, the [`pageURL`](pageurl.md) variable is used instead.
 

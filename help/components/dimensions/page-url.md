@@ -7,7 +7,9 @@ description: The URL of the page.
 
 The 'Page URL' dimension lists the URLs on your site.
 
->[!IMPORTANT] This dimension is only available in Data Warehouse. If you want to use a URL dimension in other Analytics solutions, use an [eVar](evar.md).
+>[!IMPORTANT]
+>
+>This dimension is only available in Data Warehouse. If you want to use a URL dimension in other Analytics solutions, use an [eVar](evar.md).
 
 ## Populate this dimension with data
 

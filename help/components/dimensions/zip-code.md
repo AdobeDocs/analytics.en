@@ -16,7 +16,9 @@ This dimension is unique in that it contains multiple ways to populate it with d
 
 The [!UICONTROL Zip option] under [General account settings](/help/admin/admin/general-acct-settings-admin.md) controls how you want to populate this dimension.
 
->[!IMPORTANT] The report suite setting is vital if you want full control over how you populate this dimension.
+>[!IMPORTANT]
+>
+>The report suite setting is vital if you want full control over how you populate this dimension.
 
 ## Dimension values
 

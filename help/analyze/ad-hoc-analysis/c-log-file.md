@@ -16,5 +16,7 @@ A quick way to save and view a log file is to:
 1. Click the **[!UICONTROL Ad Hoc Analysis]** logo.
 1. Click **[!UICONTROL Save Log File]**.
 
->[!NOTE] The log you save using this procedure is for the current session.
+>[!NOTE]
+>
+>The log you save using this procedure is for the current session.
 

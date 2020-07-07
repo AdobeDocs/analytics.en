@@ -13,4 +13,6 @@ The 'Exits' metric shows the number of times a given dimension value is captured
 
 After a [visit](visits.md) concludes, record the most recent dimension value as an exit. Only one exit exists per dimension per visit. It is not necessarily the last hit of the visit if the dimension was set in previous hits. It is a visit-based metric; it retroactively applies to all hits in the visit.
 
->[!TIP] If you view this metric against a dimension not always set in every visit, you can hide the 'Unspecified' dimension value in Analysis Workspace. Click the filter icon, then uncheck [!UICONTROL Include unspecified (None)].
+>[!TIP]
+>
+>If you view this metric against a dimension not always set in every visit, you can hide the 'Unspecified' dimension value in Analysis Workspace. Click the filter icon, then uncheck [!UICONTROL Include unspecified (None)].

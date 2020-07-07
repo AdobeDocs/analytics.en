@@ -7,7 +7,9 @@ description: The preferred language setting in the browser.
 
 The 'Language' dimension shows the top languages that visitors prefer to see content in. This dimension is valuable when you want to understand the most frequent preferred languages of visitors to aid in localization efforts.
 
-> [!NOTE] This dimension does not collect the language of your site. If you want to collect the language of your site in a dimension, Adobe recommends using a custom variable, such as an [eVar](evar.md).
+>[!NOTE]
+>
+>This dimension does not collect the language of your site. If you want to collect the language of your site in a dimension, Adobe recommends using a custom variable, such as an [eVar](evar.md).
 
 ## Populate this dimension with data
 

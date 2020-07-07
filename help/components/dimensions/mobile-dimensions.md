@@ -15,7 +15,9 @@ These dimensions reference lookup rules internal to Adobe. The lookup value is b
 
 ## Mobile dimension descriptions
 
->[!NOTE] Dimension values labeled `"None"` are non-mobile devices. If you want a report that only includes mobile devices, drag the 'Mobile device' dimension into the segment area of the Workspace canvas.
+>[!NOTE]
+>
+>Dimension values labeled `"None"` are non-mobile devices. If you want a report that only includes mobile devices, drag the 'Mobile device' dimension into the segment area of the Workspace canvas.
 
 * **Mobile audio support**: Determines file formats that the device can play. Example values include `"MP3"`, `"AAC"`, and `"MIDI Monophonic"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension values.
 * **Mobile carrier**: If the user agent contains a carrier-specific device, the carrier is a dimension value. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.

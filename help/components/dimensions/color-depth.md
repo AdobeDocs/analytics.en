@@ -15,4 +15,6 @@ This dimension references a lookup table, translating bit value into a more read
 
 Dimension values include the number of colors supported by the device. Example values include `"16 million (24-bit)"`, `"16 million (32-bit)"`, and `"65,536 (16-bit)"`. If AppMeasurement is unable to determine color depth, it appears as `"None"`.
 
-> [!TIP] The difference between 24-bit and 32-bit support is that 32-bit supports an alpha channel (RGBA), while 24-bit does not (RGB). See [Color depth](https://en.wikipedia.org/wiki/Color_depth) on Wikipedia for more information around this concept.
+>[!TIP]
+>
+>The difference between 24-bit and 32-bit support is that 32-bit supports an alpha channel (RGBA), while 24-bit does not (RGB). See [Color depth](https://en.wikipedia.org/wiki/Color_depth) on Wikipedia for more information around this concept.

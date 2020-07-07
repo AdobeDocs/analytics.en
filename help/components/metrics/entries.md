@@ -13,4 +13,6 @@ The 'Entries' metric shows the number of times a given dimension value is captur
 
 For a given dimension, record the first dimension value seen in a visit as an entry. Only one entry exists per dimension per visit. It is not necessarily the first hit of the visit if the dimension is not initially set. It is a visit-based metric; once it ties to a dimension value, it persists for the rest of the visit.
 
->[!TIP] If you view this metric against a dimension not always set in every visit, you can hide the 'Unspecified' dimension value in Analysis Workspace. Click the filter icon, then uncheck [!UICONTROL Include unspecified (None)].
+>[!TIP]
+>
+>If you view this metric against a dimension not always set in every visit, you can hide the 'Unspecified' dimension value in Analysis Workspace. Click the filter icon, then uncheck [!UICONTROL Include unspecified (None)].

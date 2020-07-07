@@ -60,7 +60,9 @@ The value must be specified as a 38-digit decimal number. If you are pulling thi
 
 It is also acceptable to use: `"namespaceId": 4` instead of or in addition to `"namespace": "ECID"` and you may see some other Adobe products use that form.
 
->[!NOTE] The Experience Cloud ID (ECID) was previously known as the Marketing Cloud ID (MCID), and is still referred to by that name in some existing documentation.
+>[!NOTE]
+>
+>The Experience Cloud ID (ECID) was previously known as the Marketing Cloud ID (MCID), and is still referred to by that name in some existing documentation.
 >
 >These IDs are the only IDs supported by Analytics that use a "type" value other than "analytics".
 
@@ -100,8 +102,12 @@ For IDs in custom traffic or conversion variables (props or eVars), label the va
 
 You can also see namespaces that you have previously defined for other variables or report suites and reuse one of those, so that the same namespace can easily be used for all your report suites that store that type of ID. It is also possible to assign the same namespace to multiple variables within a report suite. For example, some customers store a CRM ID in a traffic variable and a conversion variable (depending on the page, it is sometimes in one or the other or both), and they could assign the namespace "CRM ID" to both variables.
 
->[!TIP] Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable's number (such as eVar12) when specifying the namespace to the Data Privacy API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don't match (such as when the friendly name has been localized for a specific report suite).
+>[!TIP]
+>
+>Avoid using the friendly name of a variable (the name displayed in the reporting UI) or the variable's number (such as eVar12) when specifying the namespace to the Data Privacy API, unless it is the namespace specified when applying the ID-DEVICE or ID-PERSON label. Using a namespace rather than a friendly name allows the same user identity block to specify the correct variable for multiple report suites. For example, if the ID is in different eVars in some of the report suites, or if the friendly names don't match (such as when the friendly name has been localized for a specific report suite).
 
->[!CAUTION] The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
+>[!CAUTION]
+>
+>The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
 For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)

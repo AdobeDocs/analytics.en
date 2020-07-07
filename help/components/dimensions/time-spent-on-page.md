@@ -13,7 +13,9 @@ The 'Time spent on page' dimension records the amount of time a visitor spent on
 
 This dimension is valuable when you want to understand how long visitors interact with a given metric on your site.
 
->[!TIP] Time spent is not measured for the last hit of the visit since there is not subsequent image request to measure elapsed time. This concept also applies to visits consisting of a single hit (a bounce).
+>[!TIP]
+>
+>Time spent is not measured for the last hit of the visit since there is not subsequent image request to measure elapsed time. This concept also applies to visits consisting of a single hit (a bounce).
 
 This dimension is hit-based, meaning that the value is different for every hit. Compare this dimension to [Time spent per visit](time-spent-per-visit.md), which is a visit-based dimension. Higher time spent means that a visitor stayed longer on a page (hit).
 

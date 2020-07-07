@@ -45,7 +45,9 @@ There are two ways to invoke contribution analysis in a project:
     * [Creating alerts.](/help/components/c-alerts/intellligent-alerts.md) 
     * [Creating or comparing segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] We highlight the anomaly being analyzed with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This provides a clearer indication of the anomaly being analyzed.
+>[!NOTE]
+>
+>We highlight the anomaly being analyzed with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This provides a clearer indication of the anomaly being analyzed.
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 

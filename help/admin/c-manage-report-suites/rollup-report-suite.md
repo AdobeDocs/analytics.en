@@ -30,7 +30,9 @@ Rollup report suites aggregate data from multiple child report suites and displa
 
 **Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
->[!TIP] If you use only a global report suite with [virtual report suites](../../components/vrs/vrs-considerations.md), no secondary server calls are needed.
+>[!TIP]
+>
+>If you use only a global report suite with [virtual report suites](../../components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
 **Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 

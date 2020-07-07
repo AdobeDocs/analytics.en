@@ -7,7 +7,9 @@ description: Learn how to set up Cross-Device Analytics after you meet the prere
 
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
 
->[!IMPORTANT] All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See [Cross-Device Analytics](cda-home.md) for prerequisites and limitations.
+>[!IMPORTANT]
+>
+>All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See [Cross-Device Analytics](cda-home.md) for prerequisites and limitations.
 
 ## Choose the cross-device report suite that will be enabled for CDA
 

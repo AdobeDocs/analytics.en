@@ -7,7 +7,9 @@ description: Determine if the current page is a 404 error.
 
 The `pageType` variable is a flag used to designate error pages on your site, such as 404 errors. If this variable contains the string `errorPage`, it populates the 'Pages Not Found' dimension.
 
->[!IMPORTANT] Do not set this variable on non-error pages.
+>[!IMPORTANT]
+>
+>Do not set this variable on non-error pages.
 
 ## Page Type in Adobe Experience Platform Launch
 
@@ -21,4 +23,6 @@ The `s.pageType` variable is a string where the value `errorPage` is its only va
 s.pageType = "errorPage";
 ```
 
->[!TIP] Use an eVar to collect the error code so you can get more information on what specific errors visitors encounter on your site.
+>[!TIP]
+>
+>Use an eVar to collect the error code so you can get more information on what specific errors visitors encounter on your site.

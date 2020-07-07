@@ -11,4 +11,6 @@ The 'Bounces' metric shows the number of visits that contained exactly one hit. 
 
 If a visit consists of exactly one hit, the hit is considered a bounce.
 
->[!NOTE] If a visitor fires both a page view and link tracking call, the visit is not considered a bounce. Consider using [Single page visits](single-page-visits.md) instead.
+>[!NOTE]
+>
+>If a visitor fires both a page view and link tracking call, the visit is not considered a bounce. Consider using [Single page visits](single-page-visits.md) instead.

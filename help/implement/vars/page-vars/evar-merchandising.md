@@ -11,7 +11,9 @@ description: Custom variables that tie to individual products.
 
 Before using eVars in your implementation, make sure you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
->[!IMPORTANT] Failure to correctly configure merchandising eVars results in unexpected values or data loss for the variable. Make sure it is correctly configured for your implementation.
+>[!IMPORTANT]
+>
+>Failure to correctly configure merchandising eVars results in unexpected values or data loss for the variable. Make sure it is correctly configured for your implementation.
 
 ## Implement using product syntax
 

@@ -19,7 +19,9 @@ When a report has a large number of unique values, Adobe provides functionality 
   * If a value is already in reports, add to that value as usual.
   * If a value is not yet in reporting, check to see if that value was seen more than approximately 100 times today. If it has, add the value to reporting. If it hasn't, leave it under low-traffic.
 
->[!NOTE] If a variable value receives enough traffic to leave the low-traffic bucket, the first values collected do not move to its respective line item. Those first 10-100 instances stay under low-traffic.
+>[!NOTE]
+>
+>If a variable value receives enough traffic to leave the low-traffic bucket, the first values collected do not move to its respective line item. Those first 10-100 instances stay under low-traffic.
 
 ## Changing unique limit thresholds
 

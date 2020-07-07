@@ -15,7 +15,9 @@ The 'Time spent per visit' dimensions record the amount of time a visitor spent 
 
 These dimensions are valuable when you want to understand how long visitors interact with your site in general.
 
->[!TIP] Time spent requires at least two hits in a visit to measure time. Visits that consist of a single hit do not appear in this dimension.
+>[!TIP]
+>
+>Time spent requires at least two hits in a visit to measure time. Visits that consist of a single hit do not appear in this dimension.
 
 This dimension is visit-based, meaning that the value applies to every hit within the visit and doesn't change. Compare this dimension to [Time spent on page](time-spent-on-page.md), which is a hit-based dimension.
 

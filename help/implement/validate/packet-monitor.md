@@ -18,7 +18,9 @@ In very rare cases, the debugger will report an image request although no reques
 
 While Adobe does not provide an official packet monitor, there are a wide range of them on the internet. The following are some packet monitors others have found useful.
 
->[!NOTE] These lists are not meant to be comprehensive, but rather information on frequently used monitors. If you have a packet monitor you successfully use and find useful, feel free to provide feedback using the [!UICONTROL Feedback] button on the right side of this window.
+>[!NOTE]
+>
+>These lists are not meant to be comprehensive, but rather information on frequently used monitors. If you have a packet monitor you successfully use and find useful, feel free to provide feedback using the [!UICONTROL Feedback] button on the right side of this window.
 
 |  Firefox  | Internet Explorer  | Chrome  | Standalone Programs  |
 |---|---|---|---|
@@ -28,7 +30,9 @@ While Adobe does not provide an official packet monitor, there are a wide range 
 |  [HttpWatch](https://www.httpwatch.com/)  |  |  |  |
 |  [Firebug](https://getfirebug.com/)  |  |  |  |
 
->[!NOTE] Adobe does NOT support or troubleshoot any issues you may experience with these packet monitors. Consult the packet monitor's originating site for assistance instead.
+>[!NOTE]
+>
+>Adobe does NOT support or troubleshoot any issues you may experience with these packet monitors. Consult the packet monitor's originating site for assistance instead.
 
 ## NS_BINDING_ABORTED in response codes
 

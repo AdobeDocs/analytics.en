@@ -10,7 +10,9 @@ uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 
 Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 
->[!NOTE] For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+>[!NOTE]
+>
+>For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 

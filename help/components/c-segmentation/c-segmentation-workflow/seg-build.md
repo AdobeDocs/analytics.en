@@ -134,7 +134,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 * one segment for tablet users 
 * 20 segments for the different geographies
 
->[!NOTE] When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
+>[!NOTE]
+>
+>When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
 
 1. Go to the Segment Builder.
 1. Provide a title and description for the segment.

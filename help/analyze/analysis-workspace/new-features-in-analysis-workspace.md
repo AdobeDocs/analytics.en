@@ -1051,7 +1051,9 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE] Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
+>[!NOTE]
+>
+>Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
 
 ## Bullet Graph, Scatterplot, and Treemap Visualizations {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1071,7 +1073,9 @@ The bullet graph features a single, primary measure (for example, current year-t
 
 Shows impressions served and how many unique users have seen those impressions. The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select.
 
->[!NOTE] A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
+>[!NOTE]
+>
+>A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
 
 **Treemap**
 

@@ -19,7 +19,7 @@ You can configure the A4T panel using these input settings:
 |Success metrics| Select up to 3 standard (non-calculated) success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
 |Calendar date range| This will auto-populate based on the Activity date range from Adobe Target. You can change it if necessary.|
 
-![Panel builder](assets/a4t-panel-builder.png)
+![Panel builder](assets/a4t-panel-builder2.png)
 
 ## Panel Output {#Output}
 

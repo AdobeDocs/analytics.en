@@ -28,6 +28,7 @@ On April 11, 2019, several changes were made to **[!CSV downloads]** (and **[!Co
 * Time is shown in seconds.
 * Cohort Tables show raw values only; percentages are removed.
 * If a number is invalid, an empty cell is displayed.
+* No rounding is applied (even if specified in calculated metric) - raw values are shown.
 
 >[!Note:]
 >

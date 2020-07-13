@@ -17,6 +17,6 @@ The official end-of-life date is still to be determined, but we anticipate it to
 
 ## How does removal of this feature impact you?
 
-If you are an Adobe Partner, you will be given the chance to tell us if you will migrate or discontinue your integration.
+If you are an Adobe Partner, you will be given the chance to tell us if you will migrate or discontinue your integration. Details on migrating your integration to our new Adobe Exchange program can found [here](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in our documentation.  
 
 If you are a Data Connector customer and want to request that the integration you use should be migrated, you should route all requests directly to the Integration Partner. Sending a request to Adobe via Customer Care will not have the same desired effect.

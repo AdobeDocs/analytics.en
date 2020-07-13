@@ -7,6 +7,10 @@ uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 
 # appFigures Data Connector for Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+
 This Adobe data connectors integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 
 In the world of mobile apps, the most important performance metrics are split between two data sets:

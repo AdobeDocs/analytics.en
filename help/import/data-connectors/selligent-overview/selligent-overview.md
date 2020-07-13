@@ -6,6 +6,10 @@ uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 
 # Selligent Data Connector for Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+
 This integration includes the following key benefits:
 
 * Consolidate email marketing and analytics data into one reporting interface.

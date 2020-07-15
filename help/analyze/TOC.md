@@ -293,7 +293,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Targets](reports-analytics/targets.md)
   + [Alerts](reports-analytics/alerts.md)
   + [Calendar events](reports-analytics/t-calendar-event.md)
-  + [Data Warehouse requests](reports-analytics/data-warehouse.md)
   + [Frequently Asked Questions](reports-analytics/frequently-asked-questions.md)
   + [Troubleshooting](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}

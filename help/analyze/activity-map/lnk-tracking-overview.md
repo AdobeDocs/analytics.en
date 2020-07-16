@@ -16,7 +16,9 @@ For more on link tracking in Activity Map, go [here](/help/analyze/activity-map/
 
 ## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] By turning on Activity Map tracking, you may be collecting personally identifiable information (PII) data. This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+>[!CAUTION]
+>
+>By turning on Activity Map tracking, you may be collecting personally identifiable information (PII) data. This data can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
 
 Here are some known cases where PII data might be collected using Activity Map Tracking:
 

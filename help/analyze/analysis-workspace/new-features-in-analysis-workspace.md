@@ -6,6 +6,39 @@ title: What's New in Analysis Workspace
 
 # What's New in Analysis Workspace
 
+## July 2020
+
+New feature released on July 16, 2020.
+
+| Feature | Description |
+|--- |--- |
+|New date range presets|Added 4 new date ranges: ([!UICONTROL This week/month/quarter/year (excluding today)]). This lets you choose from date ranges that do not include partial-day data from today.|
+
+## June 2020
+
+New features released on June 18, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Attribution IQ: Algorithmic Attribution|The Algorithmic Attribution model in Analysis Workspace uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. Available to Adobe Analytics Ultimate customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html)|
+|Attribution IQ: Custom lookback windows|You can now configure any attribution model in Attribution IQ to include touchpoints from up to 90 days before the reporting time period. This will typically increase the attribution accuracy for events that happen early in the reporting period by accounting for interactions that occurred in the prior month(s). Available to Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete, and Ultimate customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)|
+|Project roles for shared Workspace projects|When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
+|View-only Workspace projects|Workspace projects can be shared to users as “Can view” only. When a View recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)|
+|Ability to co-edit Workspace projects|Recipients added to the “Can edit” role can save over a project that has been shared to them. This extends to both admins and non-admins. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
+|Updated Blank panel|The blank panel now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you.|
+|Quick Insights panel (June 25, 2020)|Quick Insights provides guidance for non-analysts and new users of Analysis Workspace to learn how to answer business questions quickly and easily. [Learn more...](/help/analyze/analysis-workspace/c-panels/quickinsight.md)|
+Analytics for Target panel in Workspace (June 25, 2020)|The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences, with lift and confidence, in Analysis Workspace. [Learn more...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)|
+|About Workspace page|The About Workspace page provides information about your Analysis Workspace environment, about your Adobe Analytics administrators (if you need support), and a way to provide in-product feedback. It can be found under Workspace > Help > About Workspace.|
+
+## May 2020
+
+New features released on May 21, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a Freeform Table first. You can now drop components directly into a blank project or panel, and a Freeform Table is automatically built for you in a recommended format. Additionally, improvements were made to how mixed component types (such as dimensions and metrics) are handled when dropped into a blank Freeform Table together.|
+|Accessibility improvements|The Adobe Analytics team has made several accessibility improvements to Analysis Workspace, including improved keyboard navigation, color contrast, and screen reader support. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html)|
+
 ## April 2020
 
 New feature released on April 16, 2020.
@@ -1051,7 +1084,9 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE] Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
+>[!NOTE]
+>
+>Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
 
 ## Bullet Graph, Scatterplot, and Treemap Visualizations {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1071,7 +1106,9 @@ The bullet graph features a single, primary measure (for example, current year-t
 
 Shows impressions served and how many unique users have seen those impressions. The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select.
 
->[!NOTE] A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
+>[!NOTE]
+>
+>A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
 
 **Treemap**
 

@@ -26,7 +26,9 @@ Dimension values include the type of referrer of the hit. Specific values includ
 
 The following list references the 'Social networks' lookup table that Adobe uses. Adobe provides this list as a courtesy to Adobe Analytics customers. If you would like to recommend that Adobe adds a domain to this list, have a support delegate in your organization contact Customer Care.
 
->[!NOTE] This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
+>[!NOTE]
+>
+>This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`

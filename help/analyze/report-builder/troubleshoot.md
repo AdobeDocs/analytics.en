@@ -100,7 +100,9 @@ Any scheduled report times out after four hours. The system attempts scheduling 
 
 A list of error messages that could occur occasionally while you are using Report Builder.
 
->[!NOTE] This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
+>[!NOTE]
+>
+>This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
 
 **This feature can only be applied on an open workbook.**
 

@@ -7,7 +7,9 @@ description: The dimensions and metrics that Reports & Analytics uses for each r
 
 Each report in Reports & Analytics uses a dedicated dimension and default metric. You can change the metric in each report and add breakdowns if desired. The following lists provide what dimension is used in each report.
 
-> [!NOTE] Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## Site Metrics
 
@@ -98,7 +100,9 @@ Contains reports that allow you to see pathing data for visitors.
   * Single page visits: Uses the [Page](/help/components/dimensions/page.md) dimension with the Adobe-provided 'Single page visits' segment applied.
   * Exit pages: Uses the [Exit pages](/help/components/dimensions/exit-dimensions.md) dimension.
 
-> [!NOTE] Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](../../admin/admin/c-traffic-variables/traffic-var.md) under report suite settings.
+>[!NOTE]
+>
+>Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](../../admin/admin/c-traffic-variables/traffic-var.md) under report suite settings.
 
 ## Traffic sources
 
@@ -211,4 +215,6 @@ Contains dashboards that you created. See [Dashboards](dashboard.md) for more in
 
 Contains targets that you created. See [Targets](targets.md) for more information.
 
-> [!NOTE] If you can't find your report on this help page, it is possible that your administrator renamed or adjusted folders. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>If you can't find your report on this help page, it is possible that your administrator renamed or adjusted folders. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.

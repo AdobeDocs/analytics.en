@@ -31,7 +31,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] If you want to see average page depth with a decimal place, create a calculated metric using this metric as the only element within the formula. Increase the decimal places in the calculated metric to the desired decimal.
+>[!TIP]
+>
+>If you want to see average page depth with a decimal place, create a calculated metric using this metric as the only element within the formula. Increase the decimal places in the calculated metric to the desired decimal.
 
 ## Percentages above 100%
 

@@ -10,7 +10,9 @@ uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 
 After the deployment is complete, you can begin using the additional capabilities that this integration provides.
 
->[!NOTE] It can take 24-48 hours to begin seeing Qualtrics response data within your Adobe Analytics reporting.
+>[!NOTE]
+>
+>It can take 24-48 hours to begin seeing Qualtrics response data within your Adobe Analytics reporting.
 
 The following are actions to take to get value from this integration from within Adobe Analytics.
 

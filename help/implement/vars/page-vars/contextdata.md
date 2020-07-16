@@ -47,3 +47,18 @@ s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
+
+## Increment events using context data variables
+
+When creating processing rules, you can assign context data variables to events.
+
+* If a context data variable contains any kind of text, the event increments by one.
+* If a context data variable contains an integer, the event increments by that integer amount.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
+```

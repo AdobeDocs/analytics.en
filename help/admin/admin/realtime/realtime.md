@@ -9,7 +9,9 @@ uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 
 Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
->[!NOTE] The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/realtime/t-realtime-admin.md).
+>[!NOTE]
+>
+>The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 

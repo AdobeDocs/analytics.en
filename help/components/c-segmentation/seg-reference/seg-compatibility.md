@@ -84,7 +84,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td> <b>Segment stacking</b> </td> 
    <td> Supported </td> 
-   <td> Not supported </td> 
+   <td> Supported </td> 
   </tr>
   <tr>
     <td><b>'Equals any of' and 'Does not equal any of' operators</b></td>

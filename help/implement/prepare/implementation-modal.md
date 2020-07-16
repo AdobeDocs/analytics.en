@@ -25,7 +25,9 @@ Access the modal to create a report suite using the following steps.
 2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
 3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
->[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
+>[!NOTE]
+>
+>The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
 ## Create a report suite
 
@@ -65,7 +67,9 @@ Estimate how much traffic your website or app gets per day. This information all
 
 Determine what currency the report suite stores monetary values in.
 
->[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
+>[!IMPORTANT]
+>
+>Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
 ## Implementation resources
 

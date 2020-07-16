@@ -43,5 +43,7 @@ The Experience Cloud login lets you use your Enterprise ID (email and password) 
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] The Experience Cloud login is session based and the token expires after 30 days.
+>[!NOTE]
+>
+>The Experience Cloud login is session based and the token expires after 30 days.
 

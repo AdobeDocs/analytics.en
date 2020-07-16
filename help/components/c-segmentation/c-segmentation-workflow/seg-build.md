@@ -21,7 +21,7 @@ There are several ways to access the Segment Builder:
 
 You can add rule definitions and containers to define your segments.
 
-![](assets/segment_builder_ui.png)
+![](assets/segment_builder_ui_2.png)
 
 1. **[!UICONTROL Title]**: Name the segment.
 1. **[!UICONTROL Description]**: Provide a description for the segment. 
@@ -33,6 +33,9 @@ You can add rule definitions and containers to define your segments.
    * **[!UICONTROL + Add container]**: Lets you add a new container (below the top-level container) to the segment definition.
    * **[!UICONTROL Exclude]**: Lets you define the segment by excluding one or more dimensions, segments, or metrics.
 
+1. **[!UICONTROL Dimensions]**: Components are dragged and dropped from the Dimensions list (orange sidebar).
+1. **[!UICONTROL Operator]**: You can compare and constrain values using selected operators.
+1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL Attribution Models]**: Available for dimensions only, these models determine what values in a dimension to segment for. Dimension models are particularly useful in sequential segmentation.
 
    * **[!UICONTROL Repeating]** (default): Includes instances and persisted values for the dimension.
@@ -48,27 +51,23 @@ You can add rule definitions and containers to define your segments.
       |  Repeating  | X  | X  | X  | -  | X  | -  |
       |  Instance  | X  | X  | - | - | X | - |
       |  Non-repeating instance  | X | - | - | -  | X  | -  |
-
-1. **[!UICONTROL Operator]**: You can compare and constrain values using selected operators.
-1. **[!UICONTROL Dimensions]**: Dimension are dragged and dropped from the Dimensions list (orange sidebar).
-1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
-1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
+1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
 1. **[!UICONTROL Segments]**: Click the header to expand.
-1. **[!UICONTROL Report suite selector]**: Lets you select the reports suite that this segment will be saved under. You can still utilize the segment in all report suites.
+1. **[!UICONTROL Report suite selector]**: Lets you select the report suite that this segment will be saved under. You can still utilize the segment in all report suites.
 1. **[!UICONTROL Segment Preview]**: Lets you preview the key metrics to see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see if you apply this segment. Shows 3 concentric circles and a list to show the number and percentage of matches for [!UICONTROL Hits], [!UICONTROL Visits], and [!UICONTROL Visitors] for a segment run against a data set. This chart is updated immediately after you create or make changes to your segment definition.
 1. **[!UICONTROL Product Compatibility]**: Provides a list of which Adobe Analytics products (Analysis Workspace, [!UICONTROL Reports & Analytics], Ad Hoc Analysis, Data Warehouse) with which the segment you created is compatible. Most segments are compatible with all products. However, not all operators and dimensions are compatible with all Analytics products, especially [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). This chart is updated immediately after you make changes to your segment definition.
+1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
 
 Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports & Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports & Analytics] gives you the intersection of the report date range and the segment's embedded date range.
- 
-**[!UICONTROL Experience Cloud Publishing]**: (Not shown on screen) This option appears only if the report suite that you are saving this segment to is [enabled for the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. [Learn more](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) about Experience CLoud  publishing.
 
 ## Build segments {#build-segments}
 
@@ -134,7 +133,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 * one segment for tablet users 
 * 20 segments for the different geographies
 
->[!NOTE] When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
+>[!NOTE]
+>
+>When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
 
 1. Go to the Segment Builder.
 1. Provide a title and description for the segment.

@@ -79,7 +79,9 @@ The following example shows several custom variables included in a query string.
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
->[!NOTE] The Referrer dimension is not automatically tracked due to the nature of iframes. Make sure that you include this dimension as part of your query string if you want to track it.
+>[!NOTE]
+>
+>The Referrer dimension is not automatically tracked due to the nature of iframes. Make sure that you include this dimension as part of your query string if you want to track it.
 
 ## Facebook Instant Articles and privacy
 

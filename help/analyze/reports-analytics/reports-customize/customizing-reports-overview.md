@@ -76,7 +76,9 @@ t_reports_comparing_dates.xml
 
 You cannot compare dates between trended reports.
 
->[!NOTE] If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
+>[!NOTE]
+>
+>If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
 
 To compare dates between ranked reports in Reports & analytics: 
 

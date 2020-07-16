@@ -25,5 +25,7 @@ This report is also customizable so that you can add Custom Conversion Events to
 
 The report table shows statistics for average sales per click-through, and average units sold per click-through. You can add metrics and custom events from other reporting groups to these reports. These funnels have many similarities but are based on different variables and events. You can use these reports to see what percentages and general trends of users fire specific events you specify. You can see where users are not following through to events, which provides insight to that specific point in the conversion process.
 
->[!NOTE] Instances in the context of these reports equates to the total number of visits where an eVar or event was defined.
+>[!NOTE]
+>
+>Instances in the context of these reports equates to the total number of visits where an eVar or event was defined.
 

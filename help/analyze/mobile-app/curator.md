@@ -135,16 +135,14 @@ To share the Scorecard with an executive user:
     * Providing a description of the Scorecard
     * Adding relevant tags
     * Specifying the recipients for the Scorecard
-    * Select the option to **Share Embedded Components with Recipients** to ensure that the executive user has access to all the components in the Scorecard.
 
 3. Click **Share**.
  
-![Share_Scorecards](assets/new_share.png)
-
+![Share_Scorecards](assets/new_share2.png)
 
 After you have shared a Scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## Setup executive users with the app
 
@@ -158,7 +156,7 @@ To assist executive users access your Scorecards on the app, ensure that:
 * They have a valid login into Adobe Analytics
 * You have correctly created mobile Scorecards for them and have shared these Scorecards with them
 * They have access to Analysis Workspace and the report suite that the Scorecard is based on
-* They have access to the Components that the Scorecard includes. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* They have access to the Components that the Scorecard includes. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
  
 ### Help executive users with the app
 

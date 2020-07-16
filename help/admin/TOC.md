@@ -11,7 +11,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
 + Analytics Admin overview {#admin-overview}
   + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
   + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [System requirements](c-system-requirements/sys-reqs.md)
++ [System requirements](sys-reqs.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)

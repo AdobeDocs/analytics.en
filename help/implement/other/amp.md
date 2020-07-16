@@ -30,7 +30,9 @@ The following table compares these two methods:
 
 Weigh the pros and cons within your organization to determine which method you want to use. See [AMP examples](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) on Adobe's GitHub repository for sample code.
 
->[!WARNING] Do not use both the `"adobeanalytics"` and `"adobeanalytics_nativeConfig"` templates on the same page using AMP. If you attempt to do so, you can generate errors in the browser console and double-count visitors.
+>[!WARNING]
+>
+>Do not use both the `"adobeanalytics"` and `"adobeanalytics_nativeConfig"` templates on the same page using AMP. If you attempt to do so, you can generate errors in the browser console and double-count visitors.
 
 ## Method 1: Use the amp-analytics tag with the "adobeanalytics" template
 
@@ -73,11 +75,15 @@ In the `click` trigger, you can specify a selector to ensure that whenever the s
 
 Additionally, `amp-analytics` supports a number of variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
 
->[!NOTE] Image requests send to Adobe using this method does not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for more information.
+>[!NOTE]
+>
+>Image requests send to Adobe using this method does not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for more information.
 
 Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID  set by Adobe Analytics (for example, the `s_vi` cookie). The Adobe Experience Cloud ID Service is not supported using this implementation method.
 
->[!NOTE] AMP uses CDN's to deliver content. It is structured to count a different unique visitor for each CDN a visitor retrieves content from, which can inflate unique visitor count.
+>[!NOTE]
+>
+>AMP uses CDN's to deliver content. It is structured to count a different unique visitor for each CDN a visitor retrieves content from, which can inflate unique visitor count.
 
 Using a separate report suite for AMP pages is recommended because of how AMP identifies unique visitors.
 
@@ -143,7 +149,9 @@ This approach sends data to a utility web page through query string parameters a
 
 The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. In the above example, the `pageName` and `v1` parameters are included.
 
->[!IMPORTANT] Your `stats.html` page must be hosted on a separate subdomain from the domain the AMP itself is hosted on. The AMP framework does not allow for iframes from the same subdomain that the AMP page itself exists on. For example, if your AMP is hosted on `amp.example.com`, host your `stats.html` page on a separate subdomain such as `ampmetrics.example.com`.
+>[!IMPORTANT]
+>
+>Your `stats.html` page must be hosted on a separate subdomain from the domain the AMP itself is hosted on. The AMP framework does not allow for iframes from the same subdomain that the AMP page itself exists on. For example, if your AMP is hosted on `amp.example.com`, host your `stats.html` page on a separate subdomain such as `ampmetrics.example.com`.
 
 Using this method, if a user opts out of tracking on your primary site, they are also opted out of tracking on all your AMPs. Using this utility page also means that AMP can support the Adobe Experience Cloud ID Service. A separate report suite is not required.
 

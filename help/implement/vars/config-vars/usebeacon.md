@@ -9,7 +9,9 @@ Most modern browsers include the native method `navigator.sendBeacon()`. It asyn
 
 If `useBeacon` is enabled, the next hit sent to Adobe uses the browser's `navigator.sendBeacon()` method instead of a standard `GET` image request. This variable applies to both [`s.t()`](../functions/t-method.md) and [`s.tl()`](../functions/tl-method.md) image requests. It requires AppMeasurement 2.17.0 or higher.
 
->[!TIP] AppMeasurement automatically enables `useBeacon` for exit link image requests.
+>[!TIP]
+>
+>AppMeasurement automatically enables `useBeacon` for exit link image requests.
 
 The `useBeacon` variable is ignored when the visitor uses a browser that does not support `navigator.sendBeacon()`. Use of this variable requires AppMeasurement 2.16.0 or higher.
 
@@ -25,4 +27,6 @@ The `s.useBeacon` variable is a boolean that determines if AppMeasurement uses t
 s.useBeacon = true;
 ```
 
->[!NOTE] After a tracking call runs, this variable is reset to `false`. If your implementation sends multiple image requests in the same page load (such as single-page applications), set this variable to `true` before each tracking call.
+>[!NOTE]
+>
+>After a tracking call runs, this variable is reset to `false`. If your implementation sends multiple image requests in the same page load (such as single-page applications), set this variable to `true` before each tracking call.

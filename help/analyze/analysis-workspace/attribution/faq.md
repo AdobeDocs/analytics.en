@@ -7,15 +7,15 @@ description: Get answers to commonly asked questions around attribution.
 
 **What is the "None" line item when using attribution?**
 
-The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. Try including a longer time range in your reporting window.
+The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. To reduce the number of conversions attributed to the 'None' line item, try using a a Custom Lookback Window with a longer lookback period.
 
 **Why do I sometimes see dates outside of my reporting window when using attribution models?**
 
-These extra dates are due to the visitor reporting lookback window. See [Data appearing outside reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in the Analytics KB for more information. Adobe plans to filter out these extra rows in an upcoming release.
+These extra dates are due to the visitor reporting lookback window. See [Data appearing outside reporting window](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in the Analytics KB for more information.
 
-**When should I use a visit vs. visitor attribution lookback?**
+**When should I use a visit, visitor, or custom attribution lookback?**
 
-The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor lookback is recommended. Creating a virtual report suite with a longer visit definition is also a potential solution.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window
 
 **How do props and eVars compare when using attribution?**
 
@@ -80,4 +80,6 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
 
->[!NOTE] If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.
+>[!NOTE]
+>
+>If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.

@@ -15,4 +15,6 @@ This dimension references the first part of the string in the [`products`](/help
 
 Since this variable is based on a custom string in your implementation, your organization determines what the dimension values are. Adobe recommends that you group individual products into meaningful categories, using both the 'Product' and 'Category' dimensions.
 
-> [!TIP] In previous versions of Adobe Analytics, some limitations to the 'Category' dimension were imposed due to its processing architecture. Those limitations have since been removed, allowing you to use any metric and any breakdown.
+>[!TIP]
+>
+>In previous versions of Adobe Analytics, some limitations to the 'Category' dimension were imposed due to its processing architecture. Those limitations have since been removed, allowing you to use any metric and any breakdown.

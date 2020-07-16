@@ -59,3 +59,6 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + [Send Adobe data to an external FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
     + [Send Data Warehouse requests to SFTP servers](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
     + [Connect to Adobe via SFTP without a password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
++ [Analysis Workspace downloads](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html)

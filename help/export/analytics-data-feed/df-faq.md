@@ -19,3 +19,7 @@ If a column does not contain a `post_` version (for example, `visit_num`), then 
 In Adobe Analytics, most variables are considered as case-insensitive for reporting purposes. For example, 'snow', 'Snow', 'SNOW', and 'sNow' are all considered the same value. Case sensitivity is preserved in data feeds.
 
 If you see different case variations of the same value between non-post and post columns (for example, 'snow' in the pre column, and 'Snow' in the post column), your implementation uses both uppercase and lowercase values across your site. The case variation in the post column was previously passed in and is stored in the virtual cookie, or was processed around the same time for that report suite.
+
+## Are bots filtered by Admin console bot rules included in data feeds?
+
+Data feeds do not include bots filtered by [Admin console bot rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).

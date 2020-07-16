@@ -5,13 +5,13 @@ description: Understand the prerequisites and limitations of stitching data usin
 
 # Device graph
 
-Cross-device Analytics provides two distinct methods to stitch data together. This method uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to stitch data together. A virtual report suite regularly communicates with the device graph to link devices together.
+Cross-device Analytics provides two distinct methods to stitch data together. This method uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to stitch data together. CDA regularly communicates with the device graph to link devices together.
 
 ## Differences between co-op graph and private graph
 
 Adobe offers two types of device graphs as part of the ID service:
 
-* **Co-op graph**: A repository of hashed device ID's that any customer can contribute to and reference. Since this type of device graph is collaborative, it is typically more accurate than using a private graph.
+* **Co-op graph**: A repository of hashed device ID's that any customer can contribute to and reference. Since this type of device graph is collaborative, it typically matches more devices than a private graph.
 * **Private graph**: A repository of hashed device ID's that only your organization references. 
 
 ## Prerequisites specific to the device graph
@@ -23,13 +23,13 @@ If you intend to implement Cross-Device Analytics using the device graph method,
 * All prerequisites listed on the [overview page](overview.md).
 * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in the Device Co-op user guide.
 * Your implementation must use the latest version of the Experience Cloud ID Service. See the [Home Page](https://docs.adobe.com/content/help/en/id-service/using/home.html) in the Experience Cloud Identity Service user guide. Most implementations using Adobe Experience Platform Launch likely already have ECID deployed.
-* Your implementation must call the `setCustomerIDs` function whenever an individual can be identified, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. See [`setCustomerIDs`](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) in the Experience Cloud Identity Service user guide.
+* Your implementation must call the `setCustomerIDs` function (or SDK equivalent) whenever an individual can be identified, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. See [`setCustomerIDs`](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) in the Experience Cloud Identity Service user guide.
 
 ## Limitations specific to the device graph
 
 * Legacy Analytics ID's are not supported. Only visitors with Experience Cloud ID's are stitched.
 * If your organization uses a Private Graph, new devices take up to 24 hours to be stitched. 
-* New devices visiting your site can take up to two weeks to be processed by the Co-op Graph. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks.
+* If your organization uses the Co-op Graph, new devices visiting your site can take up to two weeks to be stitched. The level of stitching in CDA for the most recent two weeks is typically lower than for date ranges older than two weeks.
 * 3rd-party device graphs are not supported.
 
 ## Next steps

@@ -7,8 +7,8 @@ description: Change your data from device-focused to person-focused by stitching
 
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 
-* [**Field-based stitching**](field-based-stitching.md): Allows you to take an Analytics variable and treat it as a primary identifier in a virtual report suite. The column that you choose also references standard visitor identification methods to link visitors together. Adobe recommends using field-based stitching in most cases.
-* [**Device graph**](device-graph.md): Your data communicates with a device graph to stitch devices together.
+* [**Field-based stitching**](field-based-stitching.md): Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite. Uses deterministic matching to link devices together. Adobe recommends using field-based stitching for most deterministic matching use cases.
+* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probablistic matching.
  
 Using CDA, you can answer questions such as:
 
@@ -28,15 +28,12 @@ See the [Journey IQ: Cross-Device Analytics Spark page](http://adobe.ly/aacda) t
 
 The use of CDA requires all of the following. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific prerequisites.
 
-* Your organization's data must reside within Adobe's Pacific Northwest data center. Support for data centers in other regions of the world is planned.
 * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
-* Cross-Device Analytics is enabled on a per-report suite basis. Report suites enabled for CDA require the following:
-  * The report suite cannot have more than 500 million hits per day.
-  * Adobe recommends a report suite contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
+* Cross-Device Analytics is enabled on a per-report suite basis. Adobe recommends a report suite that contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
 
 ## Limitations
 
-Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used. Field-based stitching and device graph methods also have their own specific limitations.
+Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific limitations.
 
 * CDA is only available through Analysis Workspace.
 * Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.

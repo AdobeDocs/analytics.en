@@ -69,3 +69,7 @@ Yes. If an individual sends hits from two separate devices within your virtual r
 **What is the ultimate visitor ID that CDA uses? Can I export it out of Adobe Analytics?**
 
 Cross-Device Analytics calculates stitched data using a "cluster ID". This identifier is calculated by Adobe at the time the report is run, also known as Report-time processing. The nature of Report-time processing means that is not compatible with Data Warehouse, data feeds, or other export features Adobe offers.
+
+**How can I move from device graph to field-based stitching?**
+
+If you would like to switch to field-based stitching, you can do so by configuring the virtual report suite. Historical stitched data from the previous method is lost.

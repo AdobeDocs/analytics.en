@@ -17,6 +17,7 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + [Data feed contents overview](analytics-data-feed/c-df-contents/datafeeds-contents.md)
     + [Calculate metrics](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+    + [Header resources](analytics-data-feed/c-df-contents/headers.md)
     + [Page event Lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)

@@ -8,7 +8,9 @@ uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 
 # Attribution and persistence
 
-> [!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
 
 When visitor profiles are merged after being associated with the same visitor ID variable, attribution is not changed in the historical data set.
 
@@ -36,7 +38,9 @@ On the first data connection containing a previously unrecognized `s.visitorID` 
 * eVars set to expire by other measures will be copied to the authenticated profile. Note the value `apple` is persisted.
 * For the eVars that are persisted, no Instance metric is recorded. This means when using cross-device visitor identification, it is possible to see reports where the Unique Visits metric for an eVar value is larger than the Instance metric.
 
-> [!NOTE] If a user is new to your site (has never visited before on this device) and authenticates within approximately 3 minutes of arriving, no values persist to the authenticated profile.
+>[!NOTE]
+>
+>If a user is new to your site (has never visited before on this device) and authenticates within approximately 3 minutes of arriving, no values persist to the authenticated profile.
 
 ## Example 2
 

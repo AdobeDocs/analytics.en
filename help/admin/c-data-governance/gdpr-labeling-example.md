@@ -61,7 +61,9 @@ With a delete request using the API values in the first row of the table, the hi
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
-> [!NOTE] Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
+>[!NOTE]
+>
+>Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
 
 |user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|user=Mary<br>expandIDs=false|
 |--- |---|---|---|---|
@@ -75,7 +77,9 @@ With a delete request using the API values in the first row of the table, the hi
 |John|55|G|R|X|
 |Alice|66|A|N|W|
 
-> [!NOTE] Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+>[!NOTE]
+>
+>Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 |user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|user=Mary<br>expandIDs=true|
 |--- |---|---|---|---|

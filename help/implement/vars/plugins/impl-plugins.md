@@ -7,7 +7,9 @@ description: Paste code on your site to introduce new functionality.
 
 Plug-ins are snippets of code that perform several advanced functions to help your Analytics implementation. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions.
 
-> [!IMPORTANT] Plug-ins are provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with any of these plug-ins, including installation or troubleshooting. If you require help with a plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>Plug-ins are provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with any of these plug-ins, including installation or troubleshooting. If you require help with a plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 Adobe offers several ways to install a given plug-in:
 
@@ -17,7 +19,7 @@ Adobe offers several ways to install a given plug-in:
 
 Each organization has different implementation needs, so you can decide how you want to include them in your implementation. Make sure that you meet the following criteria when including the code on your site:
 
-1. Instantiate the Analytics tracking object (using `s_gi`) first.
+1. Instantiate the Analytics tracking object (using [`s_gi`](../functions/s-gi.md)) first.
    * Launch automatically instantiates the tracking object when Adobe Analytics loads.
    * Implementations using `AppMeasurement.js` typically initialize the tracking object at the top of the JavaScript file.
 2. Include plug-in code second.

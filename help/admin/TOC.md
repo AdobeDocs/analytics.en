@@ -11,7 +11,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
 + Analytics Admin overview {#admin-overview}
   + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
   + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [System requirements](c-system-requirements/sys-reqs.md)
++ [System requirements](sys-reqs.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -37,8 +37,8 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Logs](admin/logs.md)
   + [Marketing Channels](admin/marketing-channels-admin.md)
   + [Menu customizing](admin/customize-menus.md)
-  + [Metric cisibility](admin/metric-visibility.md)
-  + [Mobile management](admin/mobile-management.md)
+  + [Metric visibility](admin/metric-visibility.md)
+  + [App management](admin/mobile-management.md)
   + Paid search detection {#paid-search-detection}
     + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
     + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)

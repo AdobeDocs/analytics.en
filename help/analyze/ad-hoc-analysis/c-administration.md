@@ -8,7 +8,7 @@ uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 
 Configure users and learn about data sampling.
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+For [!DNL Admin Console] help, see the [Analytics Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ## User Licenses {#concept_C1440741C77C471EB38A243B013EA620}
 

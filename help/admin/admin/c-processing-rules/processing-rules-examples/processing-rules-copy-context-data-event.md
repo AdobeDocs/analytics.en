@@ -31,4 +31,4 @@ For example:
 
 ![](assets/processing_rule_set_event.png)
 
-See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in Implementation Help.
+See [Context Data Variables](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in Implementation Help.

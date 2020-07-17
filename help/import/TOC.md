@@ -34,6 +34,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
   + [Get Started with Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
+  + [End-of-life for Analytics Data Connectors](data-connectors/data-connectors-eol.md)
   + appFigures Data Connector for Adobe Analytics {#appfigures}
     + [appFigures Overview](data-connectors/appfigures-overview/appfigures-overview.md)
     + [Before You Activate This Integration](data-connectors/appfigures-overview/appfigures-before-activation.md)

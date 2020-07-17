@@ -5,9 +5,9 @@ description: Send a link tracking call to Adobe.
 
 # tl
 
-The `tl` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the `t` method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
+The `tl()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the [`t()`](t-method.md) method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
 
-If `trackDownloadLinks` or `trackExternalLinks` are enabled, AppMeasurement automatically calls the `tl` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl` method manually. Custom links can only be manually tracked.
+If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExternalLinks`](../config-vars/trackexternallinks.md) are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
 
 ## Link tracking call in Adobe Experience Platform Launch
 
@@ -40,7 +40,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 The link object argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
 
-> [!NOTE] AppMeasurement automatically enables the `useBeacon` variable for exit links, making this argument no longer needed in modern browsers. This argument was used more commonly in previous versions of AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement automatically enables the [`useBeacon`](../config-vars/usebeacon.md) variable for exit links, making this argument no longer needed in modern browsers. This argument was used more commonly in previous versions of AppMeasurement.
 
 * `this`: Wait up to 500ms to give AppMeasurement time to send an image request. Default value.
 * `true`: Do not wait.
@@ -55,7 +57,7 @@ s.tl(true);
 
 ### Link type
 
-The link type argument is a single-letter string that determines the type of link tracking call. It is the same as setting the `linkType` variable.
+The link type argument is a single-letter string that determines the type of link tracking call. It is the same as setting the [`linkType`](../config-vars/linktype.md) variable.
 
 ```js
 // Send a custom link
@@ -70,7 +72,7 @@ s.tl(true,"e");
 
 ### Link name
 
-The link name argument is a string that determines the link tracking dimension value. It is the same as setting the `linkName` variable.
+The link name argument is a string that determines the link tracking dimension value. It is the same as setting the [`linkName`](../config-vars/linkname.md) variable.
 
 ```js
 s.tl(true,"d","Example download link");

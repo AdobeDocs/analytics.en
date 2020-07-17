@@ -18,7 +18,7 @@ Standard metrics include:
 * **Conversion**: Show data about success events on your website. Success events can include purchases, downloads, or any other action that you want users to take on your website.
 * **Calculated**: Customizable metrics created by combining other metrics. For example, you could create a metric that subtracts the keyword cost and the cost of goods from the revenue to get net revenue. You could then divide this amount by the total number of orders to get average net revenue per order.
 
-See [Metric Definitions](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in the *Analytics Reference* for information about how metrics are used in the [!DNL Experience Cloud].
+See [Metric Definitions](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html) in the *Analytics Reference* for information about how metrics are used in the [!DNL Experience Cloud].
 
 You can use the [!UICONTROL Organize Metrics] tool to create new folders for your metrics. You can then group metrics any way you want. The organizer lets you copy existing metrics into your custom folders using drag-and-drop.
 
@@ -76,7 +76,7 @@ c_calc_metric_builder.xml
 
  -->
 
-For more information on how Calculated Metrics are built and managed, see the [Calculated Metric Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+For more information on how Calculated Metrics are built and managed, see the [Calculated Metric Guide](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
 
 Here is how you access the Calculated Metric Builder in Ad Hoc Analysis:
 

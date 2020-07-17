@@ -5,17 +5,17 @@ description: Learn how to use Marketing Channels dimensions in Workspace.
 
 # Analyze Marketing Channels
 
-You probably want to know which of your marketing channels is the most effective, and with whom, so you can better target your efforts and receive a better return on your marketing dollars. In Adobe Analytics, the Marketing Channels dimensions and metrics in Workspace are one of the tools that can help you track the influence of different channels on your orders, revenues, etc. and give you useful channel insights. Here are the dimensions and metrics you can use related to Marketing Channels:
+You probably want to know which of your marketing channels is the most effective, and with whom, so you can better target your efforts and receive a better return on your marketing dollars. In Adobe Analytics, the Marketing Channels dimensions and metrics in Workspace are one of the tools that can help you track the influence of different channels on your orders, revenue, etc. and give you useful channel insights. Here are the dimensions and metrics you can use related to Marketing Channels:
 
 ![](assets/mc-dims.png)
 
 |Dimension/Metric| Definition|
 |---|---|
-|Marketing Channel|This is the  Marketing Channels dimension we recommend using. Attribution IQ models can be applied to it at run-time. The generic Marketing Channels dimension behaves identically to Last Touch Channel dimensions, but is labeled differently to prevent confusion when using it with a different attribution model.|
-|Last Touch Channel|Legacy dimension, with attribution model pre-applied and unchangeable.|
-|First Touch Channel|Legacy dimension, with attribution model pre-applied and unchangeable.|
-|Marketing Channel Instances|This metric...|
-|New engagements|This is a legacy metric that is incremented only when a channel has 'first touch' allocation applied to it.|
+|Marketing Channel|This is the recommended Marketing Channels dimension to use. Attribution IQ models can be applied to it at run-time. This dimension behaves identically to Last Touch Channel dimension, but is labeled differently to prevent confusion when using it with a different attribution model.|
+|Last Touch Channel|Legacy dimension, with last touch attribution model pre-applied and unchangeable.|
+|First Touch Channel|Legacy dimension, with first touch attribution model pre-applied and unchangeable.|
+|Marketing Channel Instances|This metric measures the number of times a marketing channel was defined in an image request, including standard page views and custom link calls. Does not include persisted values.|
+|New engagements|This metric is similar to Instances, but is only incremented when first touch marketing channel is defined in an image request.|
 
 ## Basic analysis
 

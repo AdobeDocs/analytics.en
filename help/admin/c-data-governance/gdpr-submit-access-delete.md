@@ -15,7 +15,7 @@ You also may want to ensure your mobile apps and websites will have relevant pop
 
 ## Manage Consumer Consent {#section_3012015E7E8942519FB9279CF7057EAB}
 
-You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for [implementing an opt-out mechanism](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
+You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for [implementing an opt-out mechanism](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
 
 ## Validate Users and Their Data {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -29,7 +29,9 @@ Each file combines data from all your report suites, automatically removing extr
 
 You can submit Data Privacy access and delete requests through our [Data Privacy UI portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) or via our [Data Privacy API.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
-> [!NOTE] The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
+>[!NOTE]
+>
+>The Data Privacy API supports batch submissions for multiple users in a single request. The currently supported limit is 1000 separate users (may have multiple IDs per user) in a single request JSON file.
 
 ## Sample JSON Request {#sample-json-request}
 

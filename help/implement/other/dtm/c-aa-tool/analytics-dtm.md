@@ -10,7 +10,9 @@ uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 
 Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. The automatic method is recommended for most users.
 
-> [!NOTE] For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>[!NOTE]
+>
+>For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -45,7 +47,7 @@ Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analyt
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manual</b>: Manually manage the AppMeasurement code. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"> Library Management</a>. </p> <p>Fill in the fields specific to a manual configuration: </p> 
+   <td colname="col2"> <p> <b>Manual</b>: Manually manage the AppMeasurement code. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Click <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"> Library Management</a>. </p> <p>Fill in the fields specific to a manual configuration: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Production Account ID: </b>(Required) Your production account for data collection. For Analytics, this is your report suite ID. Dynamic Tag Management automatically installs the correct account in the production and staging environment. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging Account ID: </b>(Required) Used in your development or test environment. For Analytics, this is your report suite ID. A staging account keeps your testing data separate from production. </p> </li> 

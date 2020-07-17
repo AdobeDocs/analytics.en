@@ -6,8 +6,6 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 
 # Templates
 
-## Templates {#topic_40932F09E18A467983AFBB29908E1CB8}
-
 You can choose whether to create a project from:
 
 * **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
@@ -44,7 +42,7 @@ Users with admin rights can turn any project they create into a custom template.
 |Modify template description|Open the template and go to  Project >  Project Info & Settings. Double-click the description and edit it.|
 
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Standard templates 
 
 When you first open a Workspace, templates are available in the left rail. Analysis Workspace Templates cover common use cases. They are grouped by the vertical they belong to and are populated with different dimensions, segments, metrics and visualizations, depending on the report suite you have selected.
 
@@ -52,7 +50,15 @@ You can use these pre-populated templates as they are or adapt them to your need
 
 [Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Here are available templates and the questions that each template helps answer:
+Here are available templates and the questions that each template helps answer.
+
+### Training
+
+These standard templates walk you through common terminology and steps for building your first analysis in Workspace. They is available as a standard template in the New Project modal and replace the sample project that exists today for new users that do not have other projects in their list.
+
+* **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
+
+* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions & metrics are important.
 
 ### Advertising
 
@@ -60,7 +66,7 @@ Here are available templates and the questions that each template helps answer:
 >
 >Advertising templates are available only if your report suite is enabled for Advertising Cloud.
 
-* **Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
+* **Paid Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
 
 ### Commerce
 
@@ -100,9 +106,11 @@ Here are available templates and the questions that each template helps answer:
 
 ### People
 
-> [!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE]
+>
+>The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
-It is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
+This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
 * Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
 * Compare the People and Unique Visitors metrics side by side.
@@ -112,7 +120,7 @@ It is based on the People metric, which is a de-duplicated version of the Unique
 * Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 
-### Journey IQ: Cross-Device Analytics template
+### Journey IQ: Cross-Device Analysis template
 
 <!-->This content is mirrored in the CDA doc.<-->
 

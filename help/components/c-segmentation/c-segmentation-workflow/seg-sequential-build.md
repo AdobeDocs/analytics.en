@@ -240,7 +240,9 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Logic Group containers are required to group conditions into a single sequential segment checkpoint. The special Logic Group container is available only in sequential segmentation, to ensure its conditions are met after any prior sequential checkpoint and before any following sequential checkpoint. The conditions within the Logic Group checkpoint itself may be met in any order. By contrast, non-sequential containers (hit, visit, visitor) do not require their conditions to be met within the overall sequence, producing unintuitive results if used with a THEN operator.
 The [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. In other words, we don't care about the order of the checkpoints within that group. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
-> [!NOTE] A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+>[!NOTE]
+>
+>A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
 
 |Container Hierarchy|Illustration|Definition|
 |---|---|---|
@@ -253,9 +255,9 @@ Logic groups may seem daunting - here are some best practices on how to use them
 If you want to group sequential checkpoints, then your "container" is Logic Group. However, if those sequential checkpoints must occur within a single hit or visit scope, then a 'hit' or a 'visit' containers are required. (Of course, 'hit' does not make sense for a group of sequential checkpoints, when one hit may credit no more than one checkpoint).
 
 **Do Logic Groups simplify building sequential segments?** 
-Yes, they can. Let's assume you are trying to answer this question: **Did a visitor see page B, or page C, or page D after page A?** 
+Yes, they can. Let's assume you are trying to identify this segment of visitors: **Visitors that viewed page A, then viewed each of the pages of B, C, and D**
 
-You can build this segment without a Logic Group container, but it's complex and laborious: 
+You can build this segment without a Logic Group container, but it's complex and laborious. You must specify every sequence of pages that the visitor could view:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`

@@ -5,9 +5,6 @@ description: Learn how and why to create projects in Workspace with multiple rep
 
 # Multiple report suites in Workspace
 
->[!IMPORTANT]
->Multiple report suites in Workspace is currently in limited release.
-
 You can now create projects in Analysis Workspace with data from more than one report suite. Report suites are now chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
 
 This capability is useful if you want to, for example,
@@ -15,6 +12,12 @@ This capability is useful if you want to, for example,
 * Compare data from two different regions, and the data resides in two different report suites. You can build tables and visualizations to compare the data side by side.
 
 * Build a dashboard of metrics and visualizations to report out to other organizations. You can now pull data from various report suites into in the same project.
+
+## Apply report suite to all panels
+
+You can apply a report suite to all panels at once by right-clicking any panel header and selecting **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
 
 ## Active panel
 

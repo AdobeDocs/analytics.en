@@ -7,7 +7,7 @@ description: Determine the maximum number of hits to queue for offline tracking.
 
 Offline tracking is an optional way to collect data in Adobe Analytics. If a visitor disconnects from the internet but continues to browse your site, hits are stored in an offline queue until the device reconnects to the internet. Offline tracking is mostly used for mobile applications.
 
-The `offlineHitLimit` variable places a cap on the number of hits the device stores locally. This variable only works if `trackOffline` is `true`.
+The `offlineHitLimit` variable places a cap on the number of hits the device stores locally. This variable only works if [`trackOffline`](trackoffline.md) is enabled.
 
 ## Offline Hit Limit in Adobe Experience Platform Launch
 

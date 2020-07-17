@@ -12,28 +12,17 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate.
-* To understand Target activity (Analytics for Target/A4T) lift and confidence.
 * To access real-time data in the UI.
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
-* To look at multiple report suites in a single UI dashboard.
 * To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** should be used:
-
-* If a siloed view of Mobile App data is desired.
-* To manage the implementation of your mobile app SDK.
-* To set up mobile advertising, such as in-app messaging, push messaging, and location targeting.
-* If more interactive visualizations are desired for App data (Sunburst).
-* To visualize points of interest on a map.
-* For Lifetime value metrics.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 
@@ -73,11 +62,11 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** should be used:
+**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-**[Customer Attributes](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** should be used:
+**[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
@@ -111,7 +100,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * If the client wants Adobe data stored in a client-side database, at the most granular level we can send.
 * If the client wants to develop a Business Intelligence (BI) tool or input hit-level Adobe data into a 3rd-party tool.
 
-**[Reporting APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** should be used when the other visualization options do not meet your needs. The 3 API options include:
+**[Reporting APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** should be used when the other visualization options do not meet your needs. The 3 API options include:
 
 * **Fully Processed**: when you want feature-rich data (including visits, visitors, and segments). This is typical Analytics UI summarized data, available within ~30-90 minutes. Can be used through Report Builder.
 * **Real-Time**: when you want to view a few metrics and dimensions with seconds of latency. This is limited, partially processed, summarized data that is available within ~30 seconds. Includes unique algorithms of most popular, gainers, and losers. Can be used through Report Builder.

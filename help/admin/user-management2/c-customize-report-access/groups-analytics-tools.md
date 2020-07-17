@@ -17,7 +17,9 @@ Enable user permissions for General items (billing, logs, etc.), Company Managem
 
  **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL All Report Access]** > **[!UICONTROL Analytics Tools]** > **[!UICONTROL Customize]**
 
-> [!NOTE] The Fall 2016 release (October 20) brought changes to group management. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+>[!NOTE]
+>
+>The Fall 2016 release (October 20) brought changes to group management. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## Report Access - Analytics Tools
 
@@ -44,19 +46,19 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Security](/help/admin/company/security-manager.md)|Grants permission to the  Security Manager page to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.|
 |Support Information|Grants permission to the  Support Information in  Company Settings.|
 |[Web Services](/help/admin/company/web-services-admin.md)|Allows access to the Web Services page in the Admin Tools interface ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>The Web Services API provides programmatic access to  Adobe Analytics services that let you duplicate and augment functionality available through the user interface.|
-|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools.<br>**Note:** Single sign-on in the Adobe Experience Cloud is implemented using [account linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) between the Experience Cloud and solutions.|
+|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools.<br>**Note:** Single sign-on in the Adobe Experience Cloud is implemented using [account linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) between the Experience Cloud and solutions.|
 |[Pending Actions](/help/admin/company/pending-actions-admin.md)|Grants permission to manage pending actions in [!UICONTROL Company Settings].|
 |[Co-Branding](/help/admin/company/co-branding-admin.md)|Grants permission to co-brand  Analytics.|
 |[Preferences](/help/admin/admin/preferences-manager.md)|Grants permission to the [!UICONTROL Preference Manager].|
 |[Hide Report Suites](/help/admin/company/c-hide-report-suites.md)|Grants permission to hide report suites in the  Adobe Analytics user interface.|
 |**Tools**|These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics.|
-|[Current Data](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)|Grants permission to use the Current Data feature in reporting.|
-|[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) License Users|Grants permission to access [!UICONTROL Ad Hoc Analysis].|
+|[Current Data](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html)|Grants permission to use the Current Data feature in reporting.|
+|[Ad Hoc Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) License Users|Grants permission to access [!UICONTROL Ad Hoc Analysis].|
 |Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
-|[Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
-|[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
-|[Reports & Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)|Grants users access to  Reports & Analytics.|
-|[Calculated Metric Creation](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)|Grants users permission to create calculated metrics.|
-|[Segment Creation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)|Grants users permission to create segments.|
+|[Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
+|[Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
+|[Reports & Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html)|Grants users access to  Reports & Analytics.|
+|[Calculated Metric Creation](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html)|Grants users permission to create calculated metrics.|
+|[Segment Creation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)|Grants users permission to create segments.|
 |**Data Connectors**||
 |Integrations (Create, Update, or Delete)|Grants permission to create, update, and delete  Data Connector integrations.|

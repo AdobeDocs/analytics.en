@@ -5,7 +5,9 @@ description: Establish logic on how your implementation determines its report su
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
+>[!IMPORTANT]
+>
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
 
 The `s.dynamicAccountList` variable dynamically determines the value of `s_account`. If `dynamicAccountSelection` is set to `true`, the `dynamicAccountMatch` variable is compared with `dynamicAccountList`. If a match is found, the matching report suite ID is used.
 

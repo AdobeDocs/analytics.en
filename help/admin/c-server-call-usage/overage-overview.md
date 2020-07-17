@@ -78,7 +78,9 @@ Here is a short primer on essential terminology for Server Call Usage:
 
 The Server Call Usage permission is automatically granted to Analytics Admins. It lets users view the dashboard and create server call alerts. Admins can choose to grant this permission to non-admins.
 
-> [!NOTE] Your company can choose which login companies have access to Server Call Usage.
+>[!NOTE]
+>
+>Your company can choose which login companies have access to Server Call Usage.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 

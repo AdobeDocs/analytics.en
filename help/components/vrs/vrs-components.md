@@ -8,7 +8,9 @@ uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 
 Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 
-> [!NOTE] Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>[!NOTE]
+>
+>Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
 
 To enable component curation,
 
@@ -27,6 +29,7 @@ To enable component curation,
     * [!UICONTROL Ad Hoc Analysis] 
     * [!UICONTROL Data Warehouse] 
     * [!UICONTROL Report Builder] 
+    * [!UICONTROL Activity Map]
     * Analytics Reporting API
 
    Once checked, you can add the components you'd like to be included in the virtual report suite by dragging the applicable components from the "excluded components" column to the "included components" column. The components that can be included and excluded are:
@@ -62,4 +65,4 @@ Use component groups to make bulk component additions to your virtual report sui
 
 ## Workspace Behavior {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-For more information on curation in Analysis Workspace, see [Curate and Share a Project](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).
+For more information on curation in Analysis Workspace, see [Curate and Share a Project](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html).

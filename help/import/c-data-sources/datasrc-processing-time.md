@@ -6,7 +6,7 @@ uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 
 # Data Sources processing time
 
->[!Note]
+>[!NOTE]
 >Any data processing time periods should be considered approximate and do not constitute a Service Level Agreement (SLA).
 
 Data processing time varies according to the following guidelines:

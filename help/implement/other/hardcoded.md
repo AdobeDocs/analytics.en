@@ -9,7 +9,9 @@ AppMeasurement libraries provided by Adobe compile variables present on the page
 
 This implementation method can be used on any platform that displays images from external sources. It does not rely on JavaScript at all.
 
-> [!NOTE] While hardcoded image requests are easy to set up, they are difficult to debug, maintain, and scale across larger projects. Make sure that hardcoded image requests are the best option for you before proceeding.
+>[!NOTE]
+>
+>While hardcoded image requests are easy to set up, they are difficult to debug, maintain, and scale across larger projects. Make sure that hardcoded image requests are the best option for you before proceeding.
 
 ## Image request syntax
 

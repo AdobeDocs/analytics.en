@@ -5,9 +5,11 @@ description: Allows AppMeasurement to set cookies with the Secure attribute.
 
 # writeSecureCookies
 
-The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) for Analytics. This setting applies to both visitor ID cookies set by AppMeasurement, and cookies you set using the `Util.CookieWrite` method. It requires AppMeasurement 2.18.0 or higher.
+The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) for Analytics. This setting applies to both visitor ID cookies set by AppMeasurement, and cookies you set using the `Util.CookieWrite()` method. It requires AppMeasurement 2.18.0 or higher.
 
-> [!IMPORTANT] If you enable the `writeSecureCookies` variable, make sure that all content on your site is served securely over HTTPS. AppMeasurement does not work if this variable is enabled and you have insecure content on your page.
+>[!IMPORTANT]
+>
+>If you enable the `writeSecureCookies` variable, make sure that all content on your site is served securely over HTTPS. AppMeasurement does not work if this variable is enabled and you have insecure content on your page.
 
 ## Write Secure Cookies in Adobe Experience Platform Launch
 

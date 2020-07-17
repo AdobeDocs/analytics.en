@@ -56,7 +56,9 @@ You can break down this report by any other report or variable to determine:
 * How many visits does it typically take a user who clicked through campaign XYZ to make a purchase.
 * Whether users in Tokyo, for example, make more visits before generating a lead than users in London.
 
-> [!NOTE] If the same visitor visits your website multiple times in the same period, each specified visit number is incremented for each visit.
+>[!NOTE]
+>
+>If the same visitor visits your website multiple times in the same period, each specified visit number is incremented for each visit.
 
 This report is based on the visitor ID data that is passed to Adobe on every hit made by visitors. As this data is received, Adobe compares it to historical visitor ID data to determine whether the hit is:
 
@@ -64,7 +66,9 @@ This report is based on the visitor ID data that is passed to Adobe on every hit
 * A previous visitor continuing a visit (Visit Number is not incremented).
 * A previous visitor making a new visit (Visit Number is incremented by one).
 
-> [!NOTE] Each Analytics visitor ID is associated with a visitor profile on Adobe servers. Visitor profiles are deleted after at least 13 months of inactivity regardless of any visitor ID cookie expiration.
+>[!NOTE]
+>
+>Each Analytics visitor ID is associated with a visitor profile on Adobe servers. Visitor profiles are deleted after at least 13 months of inactivity regardless of any visitor ID cookie expiration.
 
 ## Customer Loyalty {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -83,7 +87,9 @@ The [!UICONTROL Customer Loyalty] report displays purchasing patterns of custome
 * **Return Customer**: Visitors that made 2 purchases 
 * **Loyal Customer**:Visitors that made 3+ purchases
 
-> [!NOTE] When using these metrics, all user Visits (or all Visitors) are represented in this report, regardless of whether the Visit (or Visitor) included a purchase.
+>[!NOTE]
+>
+>When using these metrics, all user Visits (or all Visitors) are represented in this report, regardless of whether the Visit (or Visitor) included a purchase.
 
 The loyalty state changes after the end of the visit where a purchase event occurs. For example, a New Customer (1 purchase) makes a purchase and then registers for a newsletter after that purchase within the same visit. The newsletter registration event is still considered a New Customer interaction, because the visitor's Customer Loyalty state will not change until the next visit.
 

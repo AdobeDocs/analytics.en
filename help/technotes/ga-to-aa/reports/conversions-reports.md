@@ -35,13 +35,13 @@ The Fallout visualization is not limited to just the Pages dimension. Any dimens
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
 
-Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
+Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/dimensions/product.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 
 Multi-channel funnel reports provide additional marketing channel data beyond what acquisition reports provide. These reports focus on how visitors convert, instead of how visitors arrive to your site.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The use of multi-channel reports in Adobe Analytics requires both the setup of Marketing Channels and a custom implementation to accommodate the products variable and purchase event. Adobe recommends working with an implementation consultant if these features are not yet configured for your report suite.
 

@@ -9,7 +9,9 @@ uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 
 # Connect users across devices
 
-> [!IMPORTANT] This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
+>[!IMPORTANT]
+>
+>This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/cda-home.md) in the Components user guide.
 
 Cross-device visitor identification helps you connect visitors across multiple devices. Cross-device visitor identification uses the `visitorID` variable to associate a user across devices. The `visitorID` variable takes the highest priority when identifying unique visitors.
 

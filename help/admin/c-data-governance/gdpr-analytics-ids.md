@@ -6,7 +6,9 @@ uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 
 # Labeling best practices
 
-> [!NOTE] Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
+>[!NOTE]
+>
+>Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
 ## Directly vs Indirectly Identifiable IDs {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -39,14 +41,14 @@ Use this table to determine the types of IDs that you will use when submitting D
   <tr> 
    <td colname="col1"> <p>Cookie IDs </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html"> (Legacy) Analytics Cookie </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> Identity Service cookie </a> (ECID), previously known as the Marketing Cloud ID (MCID) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html"> (Legacy) Analytics Cookie </a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Identity Service cookie </a> (ECID), previously known as the Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>These cookies identify a device or, more specifically, a browser for a user of a device. For a shared device where a common login is used, this ID could apply to any/all users of the device. Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Users of the Adobe Analytics Mobile SDK also have an Experience Cloud ID (ECID). There are API calls within the SDK to read this ID, so you can enhance your app to collect it for a Data Privacy request. </p> <p>Many companies consider the browser cookie IDs to be shared device IDs. As a result, in consultation with their legal teams, they may elect not to support using them as acceptable IDs for Data Privacy requests, or they may elect to return only a very limited amount of data when these IDs are used or they may only accept them for delete requests. </p> <p>These cookies have an ID-DEVICE label that cannot be changed (as well as I2 and DEL-DEVICE labels). The default Adobe Analytics configuration will return only generic information about the device, such as device type, OS, browser, etc. plus the time/dates that your website was visited when using these IDs. However, if you choose to support these IDs for Data Privacy requests, as discussed below, you can add or remove ACC-ALL labels to configure the exact set of fields you desire be returned for a Data Privacy access request. </p> <p>Especially if the report suite corresponds to a mobile app, and your mobile app requires a login, you may decide that the Experience Cloud ID for the device does correspond to a specific user and you will therefore want to label more of the fields with the ACC-ALL label, including the names of pages visited, products viewed, etc. </p> <p>Note:  If you specify the "expandIds" option in your Data Privacy request, then your requests will always include Cookie IDs, in addition to any other IDs you specify. See <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID Expansion </a> for more details. In these instances, hits that have only a cookie ID, but not another ID, will only return data labeled ACC-ALL as part of the access request. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs in Custom Variables </p> </td> 
-   <td colname="col2"> <p>Some customers place IDs in <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> custom traffic variables (props) or custom conversion variables (eVars) </a>. While the most common is a CRM ID, others include email addresses, user login names, customer loyalty numbers or hashes of these values . </p> 
+   <td colname="col2"> <p>Some customers place IDs in <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html"> custom traffic variables (props) or custom conversion variables (eVars) </a>. While the most common is a CRM ID, others include email addresses, user login names, customer loyalty numbers or hashes of these values . </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">If you want to use one of these IDs for Data Privacy requests, you should give the field containing it an ID-PERSON label. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Much less common) If an ID in one of these custom variables only identifies a device that may be shared by multiple people, then you can instead use an ID-DEVICE label. </li> 
@@ -62,7 +64,9 @@ Use this table to determine the types of IDs that you will use when submitting D
 
 ## Best Practices for Setting Delete Labels {#section_08166C99B48E49218392FAC18922C10E}
 
-> [!NOTE] Props are always case insensitive. eVars are case insensitive by default, but can be configured through Adobe Customer Care to be case sensitive. If you have a case-sensitive eVar that contains an ID, it is your responsibility to use the proper case when submitting a Data Privacy request so that the case used in the request matches the case used in hits containing these IDs.
+>[!NOTE]
+>
+>Props are always case insensitive. eVars are case insensitive by default, but can be configured through Adobe Customer Care to be case sensitive. If you have a case-sensitive eVar that contains an ID, it is your responsibility to use the proper case when submitting a Data Privacy request so that the case used in the request matches the case used in hits containing these IDs.
 
 The delete labels DEL-DEVICE and DEL-PERSON should be used sparingly. When applied to a variable that does not contain an ID that was used as part of the Data Privacy request, counts (metrics) in historical Analytics reports will almost always change.
 

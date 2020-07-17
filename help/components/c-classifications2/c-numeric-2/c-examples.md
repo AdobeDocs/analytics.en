@@ -163,7 +163,9 @@ Report: Products
 |---|---|---|
 |  Product1  | $10,000.23  | $2500.05  |
 
-> [!NOTE] This feature is for advanced users to approximate values. The resulting information should not be treated as exact values.
+>[!NOTE]
+>
+>This feature is for advanced users to approximate values. The resulting information should not be treated as exact values.
 
 <!-- 
 

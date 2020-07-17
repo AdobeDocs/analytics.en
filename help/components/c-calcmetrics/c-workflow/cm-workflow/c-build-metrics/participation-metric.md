@@ -8,7 +8,9 @@ uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 
 Here is a simple use case: You are a content owner and you want to see which pages contributed to (i.e., participated in) visits that contained an order. Here's how:
 
-> [!NOTE] You used to have to do this via the Admin Tools. You can still enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
+>[!NOTE]
+>
+>You used to have to do this via the Admin Tools. You can still enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
 Here is a simple use cases: You are a content owner and you want to see which pages contributed to (participated in) visits that contained an email sign-up. Here's how:
 

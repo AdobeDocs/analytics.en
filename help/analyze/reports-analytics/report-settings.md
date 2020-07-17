@@ -13,8 +13,6 @@ Settings that define how all reports appear and information that maps the defaul
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
 
-<!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
-
 |Element|Description|
 |--- |--- |
 |**General Settings**||

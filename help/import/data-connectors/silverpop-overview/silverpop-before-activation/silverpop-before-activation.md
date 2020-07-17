@@ -30,7 +30,9 @@ Review the following information about this Data Connector integration as it rel
 * **Valid Silverpop Account:** In order to use the Data Connectors email integration, a client must have an active Silverpop account with email enabled, and active user credentials.
 * **Contact Your Silverpop Representative**. This integration is not enabled automatically by Silverpop. You must contact your Silverpop representative to initiate the Silverpop setup before data will be imported or exported from Analytics.
 
-> [!NOTE] This integration works only with Engage organizations (not Transact).
+>[!NOTE]
+>
+>This integration works only with Engage organizations (not Transact).
 
 ## Pricing{#pricing}
 

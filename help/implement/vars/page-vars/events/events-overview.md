@@ -30,15 +30,17 @@ Several features are available:
 The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. There is no byte limit for this variable, so it does not get truncated. Valid values include:
 
 * `event1` - `event1000`: Custom events, set however you'd like. Record how you use each event in your organization's [solution design document](../../../prepare/solution-design.md). The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your organization's account manager if you are not sure how many custom events are available to you.
-* `purchase`: Increments the 'Orders' metric by 1, and takes values set in the `products` variable to calculate 'Units' and 'Revenue'. See [purchase event](event-purchase.md) for more information.
-* `prodView`: Increments the 'Product Views' metric.
-* `scOpen`: Increments the 'Carts' metric.
-* `scAdd`: Increments the 'Cart Additions' metric.
-* `scRemove`: Increments the 'Cart Removals' metric.
-* `scView`: Increments the 'Cart Views' metric.
-* `scCheckout`: Increments the 'Checkouts' metric.
+* `purchase`: Increments the ['Orders'](/help/components/metrics/orders.md) metric by 1, and takes values set in the `products` variable to calculate ['Units'](/help/components/metrics/units.md) and ['Revenue'](/help/components/metrics/revenue.md). See [purchase event](event-purchase.md) for more information.
+* `prodView`: Increments the ['Product Views'](/help/components/metrics/product-views.md) metric.
+* `scOpen`: Increments the ['Carts'](/help/components/metrics/carts.md) metric.
+* `scAdd`: Increments the ['Cart Additions'](/help/components/metrics/cart-additions.md) metric.
+* `scRemove`: Increments the ['Cart Removals'](/help/components/metrics/cart-removals.md) metric.
+* `scView`: Increments the ['Cart Views'](/help/components/metrics/cart-views.md) metric.
+* `scCheckout`: Increments the ['Checkouts'](/help/components/metrics/checkouts.md) metric.
 
-> [!TIP] This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
+>[!NOTE]
+>
+>This variable is case-sensitive. Avoid mis-capitalizing event values to ensure accurate data collection.
 
 ```js
 // Set the events variable to a single value
@@ -60,7 +62,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
-> [!NOTE] Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
+>[!NOTE]
+>
+>Counter events do not support currency or decimal values. Use currency events for currency, or numeric events for decimal values.
 
 ### Use currency events
 
@@ -77,7 +81,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
-> [!NOTE] If you set a currency value in both the `events` variable and the `products` variable, the currency value in `events` is used. Avoid setting currency values in both the `events` and `products` variables.
+>[!NOTE]
+>
+>If you set a currency value in both the `events` variable and the `products` variable, the currency value in `events` is used. Avoid setting currency values in both the `events` and `products` variables.
 
 ### Use numeric events
 
@@ -92,4 +98,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
-> [!NOTE] If you set a numeric value in both the `events` variable and the `products` variable, the numeric value in `events` is used. Avoid setting numeric values in both the `events` and `products` variables.
+>[!NOTE]
+>
+>If you set a numeric value in both the `events` variable and the `products` variable, the numeric value in `events` is used. Avoid setting numeric values in both the `events` and `products` variables.

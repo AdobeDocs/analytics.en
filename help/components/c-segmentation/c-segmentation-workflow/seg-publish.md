@@ -7,15 +7,13 @@ uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 
 # Publish segments to the Experience Cloud
 
->[!IMPORTANT]
+Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including Adobe's [!DNL Advertising Cloud], [!DNL Target] and [!DNL Campaign]. Recent updates have significantly optimized the publishing workflow. You can now publish Analytics segments to Experience Cloud in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 
+
+We have also increased the maximum number of publishable Adobe Analytics segments to 75 (from 20). You can view published segments in [!UICONTROL Analytics > Components > Segments].
+
+>[!NOTE]
 >
->The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
-
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
-
-Now, processing can take up to 8 hours, but depending on other traffic and on the segment size, processing may be even faster. (However, we currently do not have a way to inform you when the segment is available, so you will have to check manually.) We have also increased the maximum number of publishable segments to 75 (from 20). You can view published segments in Components > Segments.
-
-> [!NOTE] Adobe Campaign (Classic and Standard) behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
+>Adobe Campaign (Classic and Standard) behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
 
 
 ## Prerequisites
@@ -29,7 +27,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 ## Considerations
 
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
-* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
+* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
 * For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, go [here](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
@@ -41,6 +39,9 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 | Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
 | Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
 
+>[!NOTE]
+>Once a week, all data will be fully synced to account for any deltas or discrepancies not captured in the previous week.
+
 ## Publish segments in [!UICONTROL Segment Builder]
 
 1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments] > +**
@@ -51,7 +52,6 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total "unique visitors" segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
 >
 >![](assets/seg-vis-ecid.png)
@@ -68,7 +68,9 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 To delete a segment that has been published to the Experience Cloud, you have to unpublish it first. To unpublish a segment, just **unclick** the checkbox that you used to publish it.
 
-> [!NOTE] You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
+>[!NOTE]
+>
+>You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -99,14 +101,14 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 1. Launch Chrome Developer Tools before loading a page
 1. Load the page and check Applications > Cookies. The AAM UUID should be set in the 3rd-party
-Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
+Demdex cookie ([adobe.demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
 on the browser (`50814298273775797762943354787774730612` in the example below).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) for more information.
+The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
 
 ![](assets/aam-vpv.png)
 
@@ -121,6 +123,7 @@ In AAM, the list of visitors with ECIDs for a given segment are evaluated in a s
 ![](assets/aam-traits.png)
 
 * A one-trait segment gets created. It uses the data source that is associated with the report suite where you published the segment.
+* Trait expiration is now set to 16 days (previously it was 2 days).
 
 ## View the segment in [!DNL Adobe Target]
 

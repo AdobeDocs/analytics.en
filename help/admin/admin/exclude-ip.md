@@ -11,7 +11,9 @@ You can exclude data from specific IP addresses, such as internal website activi
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
-> [!NOTE] Hits excluded by IP address are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>[!NOTE]
+>
+>Hits excluded by IP address are billed as [server calls](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
 
 ## Exclude By Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -23,7 +25,9 @@ This feature allows you and your colleagues to visit your site without skewing y
 |--- |--- |
 |[!UICONTROL Add CNAME]|Generates an opt-out link you can use to exclude your domain. For assistance, please contact your company's Supported Users. <br>Your traffic can be excluded from reporting in your report suites by visiting your company's opt-out page and choosing to exclude your browser from measurement. <br>If your implementation is using third party cookies, your opt-out page is [here](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true).|
 
-> [!NOTE] Exclusion by computer works only if:
+>[!NOTE]
+>
+>Exclusion by computer works only if:
 >
 > * You access your web site from the same work station.
 > * Your cookies are enabled in the browser you are using.
@@ -41,7 +45,7 @@ You can use wildcard indicators (&#42;) to exclude a range of addresses. For exa
 
 You can also block data collection from specific IP addresses via a firewall.
 
-See the [IP Addresses Used in the Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses) article.
+See the [IP Addresses Used in the Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) article.
 
 ## Impact of IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

@@ -52,7 +52,9 @@ The following table describes the Analytics variables automatically activated fo
 
 ### Required Variables {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE] This integration uses dedicated variables for app store data, so you do not need to assign custom commerce variables and events.
+>[!NOTE]
+>
+>This integration uses dedicated variables for app store data, so you do not need to assign custom commerce variables and events.
 
 |  Variable Type  | Name  | Population Method  | Description  |
 |---|---|---|---|

@@ -110,7 +110,7 @@ Descriptions of elements on the Define User Group page.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Permissions are supported for customers who have active <span class="keyword"> TagManager</span> containers. Not available for new users. </p> <p>Adobe recommends <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html"> Dynamic Tag Management</a> for deployment. </p> </td> 
+   <td colname="col2"> <p>Permissions are supported for customers who have active <span class="keyword"> TagManager</span> containers. Not available for new users. </p> <p>Adobe recommends <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> for deployment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Assign User Logins</b> </td> 

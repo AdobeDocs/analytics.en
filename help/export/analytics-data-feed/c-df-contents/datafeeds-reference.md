@@ -11,11 +11,15 @@ uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 
 Use this page to learn what data is contained in each column. Most implementations don't use every column, so this page can be referenced when determining which columns to include in a data feed export.
 
-> [!IMPORTANT] For any given column (for instance, one that is defined as 255 characters), a data feed can send additional characters due to the addition of characters escaping values in a string. Keep these potential extra characters in mind if your implementation regularly sends values that exceed character limits.
+>[!IMPORTANT]
+>
+>For any given column (for instance, one that is defined as 255 characters), a data feed can send additional characters due to the addition of characters escaping values in a string. Keep these potential extra characters in mind if your implementation regularly sends values that exceed character limits.
 
 ## Columns, Descriptions, and Data Types
 
-> [!NOTE] Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. See [Data feeds FAQ](../df-faq.md) for more information.
+>[!NOTE]
+>
+>Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. See [Data feeds FAQ](../df-faq.md) for more information.
 
 | Column name | Column description | Data type |
 | --- | --- | --- |
@@ -252,11 +256,11 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `videoshow` | Video show | varchar(255) |
 | `videoshowtype` | Video show type| varchar(255) |
 | `videostreamtype` | Video stream type| varchar(255) |
-| `visid_high` | Used in combination with visid_low to uniquely identify a visit. | bigint unsigned|
-| `visid_low` | Used in combination with visid_high to uniquely identify a visit.| bigint unsigned|
+| `visid_high` | Used in combination with visid_low to uniquely identify a visitor. | bigint unsigned|
+| `visid_low` | Used in combination with visid_high to uniquely identify a visitor.| bigint unsigned|
 | `visid_new` | Flag to identify if the hit contains a newly generated visitor ID. | char(1)|
 | `visid_timestamp` | If visitor ID was newly generated, provides the timestamp (in Unix time) of when the visitor ID was generated. | int|
-| `visid_type` | Numeric ID representing what method was used to identify the visitor. <br>0: Custom visitorID <br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (s_vi) <br>4: Fallback cookie value (s_fid) <br>5: Identity Service | tinyint unsigned |
+| `visid_type` | Not for external use; internally used by Adobe for processing optimizations. Numeric ID representing the method used to identify the visitor.<br>0: Custom visitorID or Unknown/not applicable<br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (s_vi) <br>4: Fallback cookie value (s_fid) <br>5: Identity Service | tinyint unsigned |
 | `visit_keywords` | Variable used in the Search Keyword dimension. This column uses a non-standard character limit to accommodate back-end logic used by Adobe.| varchar(244) |
 | `visit_num` | Variable used in the Visit Number dimension. Starts at 1, and increments each time a new visit starts per visitor. | int unsigned |
 | `visit_page_num` | Variable used in the Hit Depth dimension. Increases by 1 for each hit the user generates. Resets each visit. | int unsigned |

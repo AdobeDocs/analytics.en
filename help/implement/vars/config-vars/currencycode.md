@@ -7,13 +7,15 @@ desciption: For eCommerce sites, set the currency the page deals in.
 
 For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.
 
-If `currencyCode` is not defined, monetary values defined the `products` variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
+If `currencyCode` is not defined, monetary values defined the [`products`](../page-vars/products.md) variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
 
 If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
 
 If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in data collection servers are ultimately stored in the report suite's currency.
 
-> [!IMPORTANT] If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
+>[!IMPORTANT]
+>
+>If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
 
 This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
 
@@ -25,6 +27,16 @@ Currency Code is a field under the [!UICONTROL General] accordion when configuri
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
+
+You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
+
+## Currency Code in Adobe Experience Platform Mobile SDK
+
+Currency Code is passed to the Adobe Experience Platform Mobile SDKs through context data variables in the Adobe Analytics extension.
+
+1. Set the currency code in a context data variable during either `trackState` or `trackAction`.
+2. Create a processing rule in the Adobe Analytics admin console for the report suite. Set the rule to overwrite the Currency Code variable.
+3. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 

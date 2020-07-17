@@ -1,10 +1,10 @@
 ---
 description: You can share and curate projects and send project files (in PDF or CSV formats) immediately or on a schedule.
-title: Share and schedule project files
+title: Share menu
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 ---
 
-# Share and schedule project files
+# Share menu
 
 You can share and curate projects and send project files (in PDF or CSV formats) immediately or on a schedule.
 
@@ -20,7 +20,7 @@ You can share and curate projects and send project files (in PDF or CSV formats)
  <tbody> 
   <tr> 
    <td colname="col1"> Share Project </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > More information</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > More information</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Get Project Link </td> 

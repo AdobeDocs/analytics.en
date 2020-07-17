@@ -2,11 +2,59 @@
 description: New features in Analysis Workspace.
 keywords: Analysis Workspace
 title: What's New in Analysis Workspace
-topic: Reports and analytics
-uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 ---
 
 # What's New in Analysis Workspace
+
+## July 2020
+
+New feature released on July 16, 2020.
+
+| Feature | Description |
+|--- |--- |
+|New date range presets|Added 4 new date ranges: ([!UICONTROL This week/month/quarter/year (excluding today)]). This lets you choose from date ranges that do not include partial-day data from today.|
+
+## June 2020
+
+New features released on June 18, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Attribution IQ: Algorithmic Attribution|The Algorithmic Attribution model in Analysis Workspace uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. Available to Adobe Analytics Ultimate customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html)|
+|Attribution IQ: Custom lookback windows|You can now configure any attribution model in Attribution IQ to include touchpoints from up to 90 days before the reporting time period. This will typically increase the attribution accuracy for events that happen early in the reporting period by accounting for interactions that occurred in the prior month(s). Available to Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete, and Ultimate customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)|
+|Project roles for shared Workspace projects|When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
+|View-only Workspace projects|Workspace projects can be shared to users as “Can view” only. When a View recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)|
+|Ability to co-edit Workspace projects|Recipients added to the “Can edit” role can save over a project that has been shared to them. This extends to both admins and non-admins. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
+|Updated Blank panel|The blank panel now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you.|
+|Quick Insights panel (June 25, 2020)|Quick Insights provides guidance for non-analysts and new users of Analysis Workspace to learn how to answer business questions quickly and easily. [Learn more...](/help/analyze/analysis-workspace/c-panels/quickinsight.md)|
+Analytics for Target panel in Workspace (June 25, 2020)|The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences, with lift and confidence, in Analysis Workspace. [Learn more...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)|
+|About Workspace page|The About Workspace page provides information about your Analysis Workspace environment, about your Adobe Analytics administrators (if you need support), and a way to provide in-product feedback. It can be found under Workspace > Help > About Workspace.|
+
+## May 2020
+
+New features released on May 21, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a Freeform Table first. You can now drop components directly into a blank project or panel, and a Freeform Table is automatically built for you in a recommended format. Additionally, improvements were made to how mixed component types (such as dimensions and metrics) are handled when dropped into a blank Freeform Table together.|
+|Accessibility improvements|The Adobe Analytics team has made several accessibility improvements to Analysis Workspace, including improved keyboard navigation, color contrast, and screen reader support. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html)|
+
+## April 2020
+
+New feature released on April 16, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Automatically build [!UICONTROL Freeform Tables] from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first. You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together.|
+
+## March 2020
+
+New features released on March 12, 2020.
+
+| Feature | Description |
+|--- |--- |
+|Support for multiple report suites in Workspace|You can now bring in data from multiple report suites into a single project to view side by side. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)|
+|Training Tutorial template|This new standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list. [Learn more...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)|
 
 ## February 2020
 
@@ -14,7 +62,6 @@ New features released on February 20, 2020.
 
 | Feature | Description |
 |--- |--- |
-|Support for multiple report suites in Workspace|You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)|
 |New Workspace template for organizations using Cross-Device Analytics|This template shows how effective CDA is at stitching visits together and educates you on CDA-exclusive dimensions and metrics. A report suite using CDA is required. See [Setting up Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) for more information.|
 |New hotkeys in Workspace|<ul><li>Collapse/Expand All panels: `alt + m`</li><li>Collapse/Expand Active panel: `alt + ctrl + m`</li><li>Search left rail: `ctrl + /`</li><li>Move to next panel: `alt + Right Key`</li><li>Move to previous panel: `alt + Left Key`</li></ul>[Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)|
 |Other Workspace enhancements|<ul><li>When a panel or visualization is dropped into Workspace, the left rail will now auto-switch to components for a more seamless workflow.</li><li>Template components can now be actioned upon (e.g. tagged, favorited, approved).</li><li>Filtered metric and segment lists offer the + button to add a new component if you don't find what you need.</li></ul>|
@@ -88,7 +135,7 @@ New features and enhancements released on January 17, 2019.
 |--- |--- |
 |[Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
 |[View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
-|[Support for multi-valued variables in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
+|[Support for multi-valued variables in Attribution IQ](attribution/overview.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
 |Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|
 
 ## November 2018
@@ -97,7 +144,7 @@ New features and enhancements released on November 1, 2018.
 
 | Feature | Description |
 |--- |--- |
-|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
+|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
 
 ## October 2018
 
@@ -149,7 +196,7 @@ New features and enhancements released on September 13, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>New template: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,7 +236,7 @@ New features and enhancements released on July 19, 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ lets you perform more sophisticated and intelligent analysis on marketing performance. New attribution models can be used on metrics in Analysis Workspace (on any table or on any breakdown) and in calculated metrics. A new Attribution Panel allows for better visualization and comparison. </p> </td> 
   </tr> 
   <tr> 
@@ -295,8 +342,8 @@ New features and enhancements released on April 12, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% Stacked" Visualization Setting </a> </p> </td> 
-   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td> 
    <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. </p> </td> 
@@ -448,7 +495,7 @@ New features and enhancements released on January 18, 2018.
    <td colname="col2"> <p>Previously, when you copied a project or did a "save as", all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Contribution Analysis: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > Token Notification </a> </p> </td> 
+   <td colname="col1"> <p>Contribution Analysis: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token Notification </a> </p> </td> 
    <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left.&amp;nbsp; </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. )&nbsp; </p> </td> 
   </tr> 
   <tr> 
@@ -662,7 +709,7 @@ New features released on July 20, 2017.
    <td colname="col2"> <p>Lets you change the font settings (bold, italics, and so on) and hyperlink within text box visualizations and panel / visualization descriptions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (Quick-visualize links) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (Quick-visualize links) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Intra-linking</b> lets you link down to specific panels and visualizations within a project from a text box, such as to create a project table of contents. You can share these links like you share a project link, to direct someone to a specific visualization or panel within a project. New right-click options called "Get Panel Link" and "Get Visualization Link" have been added. </p> </td> 
   </tr> 
   <tr> 
@@ -783,7 +830,7 @@ New features released on April 20, 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > People Template </a> </p> </td> 
-   <td colname="col2"> <p>Note:  The People template and its associated People metric is available for use only as part of the <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  > Adobe Experience Cloud Device Co-op </a>. </p> <p>The template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. </p> </td> 
+   <td colname="col2"> <p>Note:  The People template and its associated People metric is available for use only as part of the <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op </a>. </p> <p>The template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Improvements to Undo/Redo option </p> </td> 
@@ -953,12 +1000,12 @@ New features released on October 20, 2016:
 
 New features released on June 16, 2016: 
 
-* [New group permission](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
+* [New group permission](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
 * The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
 * [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Panels, Visualizations, Components 
 * A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
-* [Trend Selection](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
+* [Trend Selection](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
 * ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [Manual Rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) functionality 
 * [Add Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) drop zone 
@@ -1037,7 +1084,9 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ![](assets/link-to-this-project.png)
 
-> [!NOTE] Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
+>[!NOTE]
+>
+>Sharing report links is not available if your company uses single sign-on (both the legacy single sign-on and when logging in via the Experience Cloud).
 
 ## Bullet Graph, Scatterplot, and Treemap Visualizations {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1057,7 +1106,9 @@ The bullet graph features a single, primary measure (for example, current year-t
 
 Shows impressions served and how many unique users have seen those impressions. The size of each data point provides a visual cue about the average number of times a viewer was exposed to an ad. The size and data vary according to the dimensions, date ranges, and filters you select.
 
-> [!NOTE] A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
+>[!NOTE]
+>
+>A table associated with a Scatterplot chart requires at least two columns. The first column defines the X axis, and the second column defines the Y axis. If there is a third column available, the Scatterplot chart uses it to determine the radius of the dot. In other words, columns *1*, *2*, and *3* map to *X*, *Y*, and *dot radius*.
 
 **Treemap**
 

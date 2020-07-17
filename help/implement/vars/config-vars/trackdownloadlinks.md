@@ -5,9 +5,9 @@ description: Enable or disable automatic link tracking for download links.
 
 # trackDownLoadLinks
 
-Adobe offers the ability to track download links without manually setting the `tl()` function for each download link. Enable this variable if you would like to use automatic link tracking for download links.
+Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. Enable this variable if you would like to use automatic link tracking for download links.
 
-When enabled, AppMeasurement compares any clicked link URL to values in `downloadLinkFileTypes`. If there is a match, a download link tracking call automatically fires.
+When enabled, AppMeasurement compares any clicked link URL to values in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). If there is a match, a download link tracking call automatically fires.
 
 ## Track download links in Adobe Experience Platform Launch
 
@@ -22,7 +22,7 @@ Click the checkbox to enable automatic download link tracking.
 
 ## s.trackDownloadLinks in AppMeasurement and Launch custom code editor
 
-The `s.trackDownloadLinks` is a boolean that enables or disables automatic download link tracking. If you do not want to track download links, or would prefer to manually call the `tl()` function to track downloads, set this variable to `false`.
+The `s.trackDownloadLinks` is a boolean that enables or disables automatic download link tracking. If you do not want to track download links, or would prefer to manually call the `tl()` method to track downloads, set this variable to `false`.
 
 ```js
 s.trackDownloadLinks = true;

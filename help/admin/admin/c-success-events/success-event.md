@@ -28,7 +28,7 @@ There are many kinds of success events, depending on your web site type. Several
 * **High Tech**: White-paper download, RFP, form completion, support requests 
 * **Automotive**: Lead submission, request a quote, brochure download
 
-The [s.events](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html) variable defines a success event.
+The [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) variable defines a success event.
 
 ## Success Events Page - Descriptions {#section_681ECEC981694CABBDBF00E18165B447}
 
@@ -44,6 +44,6 @@ The Success Events page lets you configure the Event variables used on your site
 |Polarity|Metric polarity allows you to indicate whether Adobe Analytics should consider it good or bad if a given custom event (metric) goes up. It will allow Adobe Analytics to show directional indicators (arrows) for various metrics to add context (for example, week over week comparisons.  Examples: if "Bugs Submitted" goes up week over week, should Adobe Analytics consider that good, or bad? An increase in Email Registrations is probably good. But an increase in Form Submission Errors is probably bad.  In Analysis Workspace, polarity is applied to: Freeform Table conditional formatting, Summary Change visualizations, and the Map visualization's Positive/Negative color scheme.|
 |Description|A brief description of the event's purpose and usage.|
 |Unique Event Recording|**Record Once Per Visit**: Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes.<br>**Use Event ID**: Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md) in the Implement user guide.|
-|Participation|See [Metrics Participation](/help/components/c-variables/c-metrics/metrics-participation.md).|
+|Participation|Gives full attribution credit to all dimension values in the visit.|
 |Warning (currency event)|When changing event types to or from a currency event, a message is displayed stating that historical data is not available in reporting.  Different event types use separate data tables, and cannot be used simultaneously. Some historical data can be restored if the user reverts the event type. However, any data collected after the initial change is not available. Use caution when changing an event type.|
 

@@ -5,9 +5,9 @@ description: Certificate proceedures for Customer Managed certificates
 
 # SSL/TLS Certificate Licensing
 
-Adobe recommends that you manage your certificate at no additional cost through the [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  The Adobe Managed Certificate prorgram is fully automated and ensures certificates are renewed in a timely manner so that there is no impact due to expired certificates.
+Adobe recommends that you manage your certificate at no additional cost through the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html). The Adobe Managed Certificate prorgram is fully automated and ensures certificates are renewed in a timely manner so that there is no impact due to expired certificates.
 
-If you use choose not to use the [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) you are responsible for providing a SSL/TLS certificate to be used for first-party cookies.  
+If you use choose not to use the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) you are responsible for providing a SSL/TLS certificate to be used for first-party cookies.  
 
 If you provide your own certificate, it is your responsibility to purchase and maintain it.  Your SSL/TLS certificate must include an unlimited server license. 
 

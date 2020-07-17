@@ -8,7 +8,9 @@ uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 
 Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
 
-> [!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports. Note also that Analytics reporting will not return data for hourly granularity, because the AMO data does not support hourly granularity.
+>[!NOTE]
+>
+>You should expect to wait at least 24 hours before Search engine data starts populating into your Analytics reports. Note also that Analytics reporting will not return data for hourly granularity, because the AMO data does not support hourly granularity.
 
 ## Analysis Workspace: Search Engines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 

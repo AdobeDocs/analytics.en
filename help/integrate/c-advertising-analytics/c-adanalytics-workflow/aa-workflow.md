@@ -1,18 +1,17 @@
 ---
-description: null
+description: Overview of the Advertising Analytics workflow.
 title: Workflow overview
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 ---
 
 # Workflow overview
 
-![](assets/step1_icon.png) Map any Analytics report suite where you want to view Google/Bing search data to your Experience Cloud organization.
+![](assets/step1_icon.png) Map any Adobe Analytics report suite in which you want to view Google/Bing search data to your Experience Cloud organization.
 
-See [Map report suites to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+See [Map report suites to an organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Enable Advertising Analytics reporting per report suite](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Enables Advertising Analytics reporting for Experience-Cloud-enabled report suites.
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [Set up an Advertising Analytics account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -24,7 +23,7 @@ Note: The search data is pulled from the search engines around 6AM (06:00) in th
 
 Reporting is available in
 
-*   Analysis Workspace "Paid Search Performance" template
+*   Analysis Workspace: [!UICONTROL Paid Search Performance] template
 *   Reports & Analytics
 *   Report Builder
 *   Analytics Reporting API

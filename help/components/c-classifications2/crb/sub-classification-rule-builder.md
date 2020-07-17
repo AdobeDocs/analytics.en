@@ -1,22 +1,17 @@
 ---
-description: You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
-subtopic: Classifications
-title: Sub-classifications and the Rule Builder - use case
-topic: Admin tools
-uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
+description: You cannot combine the Classification Rule Builder with sub-classifications.
+title: Sub-classifications and the Rule Builder
 ---
 
-# Sub-classifications and the Rule Builder - use case
+# Sub-classifications and the Rule Builder
 
-You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
+You can combine the Classification Rule Builder with sub-classifications if you ensure that every sub classification has a parent value.
 
-## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
-
-You can combine the Classification Rule Builder with sub-classifications to simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
+Combining the Classification Rule Builder with sub-classifications can simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
 
 See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
-**Example**
+## Example
 
 Assume the following tracking code:
 
@@ -32,19 +27,13 @@ The following task describes how to accomplish this.
 
 ## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
-<!-- 
-
-t_rule_builder_subclass.xml
-
- -->
-
 Example steps that describe how you can upload sub-classifications using the Rule Builder.
 
 >[!NOTE]
 >
 >These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Create classifications and sub-classifications in the [Classification Manager](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
 
    Example:
 
@@ -78,4 +67,4 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. This file would apply to previously classified values. Likewise, if you create a new sub-classification (such as *`Creative Theme`* as a sub-classification of *`Creative code`*), you upload only the sub-classification file, rather than the entire classification file.
 
-   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them.
+   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them.-->

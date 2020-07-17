@@ -31,7 +31,7 @@ Only administrators can create a custom report. When you create a custom report,
 
 >[!MORELIKETHIS]
 >
->* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
+>* [Menu Customizing](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -76,7 +76,9 @@ t_reports_comparing_dates.xml
 
 You cannot compare dates between trended reports.
 
-> [!NOTE] If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
+>[!NOTE]
+>
+>If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
 
 To compare dates between ranked reports in Reports & analytics: 
 
@@ -213,4 +215,4 @@ Most reports in Reports & Analytics now include a "Try in Workspace" button to a
 
 Currently, the button is only available if your username has full rights to Analysis Workspace.
 
-For more information on all the ways you can customize your report, see the [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) guide.
+For more information on all the ways you can customize your report, see the [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) guide.

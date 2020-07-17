@@ -8,7 +8,9 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 
 A comparison table for Analytics reporting APIs. Links to supporting documentation are provided.
 
-> [!NOTE] Regarding latency, Analytics for Target (A4T) combines Analytics and Target data on the same hit for integrated reporting. Because Analytics and Target calls occur at different times, hits are stored before any processing occurs to collect data from both solutions. This process adds **an additional 7-10 minutes** of latency to all checkpoints.
+>[!NOTE]
+>
+>Regarding latency, Analytics for Target (A4T) combines Analytics and Target data on the same hit for integrated reporting. Because Analytics and Target calls occur at different times, hits are stored before any processing occurs to collect data from both solutions. This process adds **an additional 7-10 minutes** of latency to all checkpoints.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -29,7 +31,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Fully-processed, finalized data that is used for pulling large data exports. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latency</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latency</a> </p> </td> 
    <td colname="col2"> 30-90 Minutes </td> 
    <td colname="col3"> * Seconds -10 minutes </td> 
    <td colname="col4"> Seconds -10 minutes </td> 
@@ -43,7 +45,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col5"> Full </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Reporting Interfaces</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html"  > Reporting Interfaces</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Real-time report in Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> API only </td> 
@@ -82,7 +84,7 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web Services</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Real-Time Reports</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream Overview</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

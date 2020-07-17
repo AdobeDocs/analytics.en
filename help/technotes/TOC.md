@@ -22,6 +22,12 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
     + [Conversions](ga-to-aa/reports/conversions-reports.md)
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
++ Analyze data impacted by events {#event}
+  + [Analyze data impacted by events overview](event/overview.md)
+  + [Exclude specific dates in analysis](event/segments.md)
+  + [Compare dates to previous ranges](event/compare-dates.md)
+  + [Derive data impacted by events](event/calcmetrics.md)
+  + [Communicate events to users](event/communicate.md)
 + [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
 + [Latency](latency.md)
@@ -29,13 +35,13 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Privacy overview](privacy-overview.md)
 + [Redirects and aliases](redirects.md)
 + [Multi-currency support](multicurrency.md)
-+ Regional Data Collection {rdc}
++ Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
++ [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)
 + [Troubleshoot logging in](troubleshoot-login.md)
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)
-+ [Visitor identification](visitor-identification.md)
 + [Visitor migration](visitor-migration.md)

@@ -11,7 +11,9 @@ You can create a new report suite by selecting a pre-defined template, or by usi
 
 Descriptions of the elements used when [creating a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
-> [!NOTE] The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+>[!NOTE]
+>
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 

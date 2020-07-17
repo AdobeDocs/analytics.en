@@ -15,10 +15,12 @@ Report Builder features a segmentation panel in Step 1 of the Request Wizard tha
 
 ## Add or edit segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
-> [!NOTE] To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
+>[!NOTE]
+>
+>To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [Analytics segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 1. After you have defined and saved the segment, go back to the Request Wizard.
 1. Click the Refresh icon to refresh the segment list.
 
@@ -35,7 +37,7 @@ You may have specific combinations of report dimensions that you would like to t
 
    ![](assets/seg_in_context.png)
 
-   For more information on containers, see the [Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+   For more information on containers, see the [Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 1. The Segment Builder UI will be now launched in Internet Explorer. The Segment Builder UI will be initialized with the container and the filter you specified.
 1. After you have added a name and description to the segment, save it.
@@ -54,7 +56,9 @@ You can apply one or multiple segments to any given request. This includes seque
 
 1. Check which segment(s) you want to apply.
 
-> [!NOTE] Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you. (In the Marketing Reports & Analytics user interface, the Admin can see all segments in the organization.)
+>[!NOTE]
+>
+>Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you. (In the Marketing Reports & Analytics user interface, the Admin can see all segments in the organization.)
 
 ## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
 

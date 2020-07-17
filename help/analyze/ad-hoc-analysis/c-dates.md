@@ -20,7 +20,9 @@ When selecting a date range while creating a project, using Pre-Configured on th
 
 ![](assets/daterange.jpeg)
 
-> [!NOTE] If you need help running legacy reports, contact your Account Manager.
+>[!NOTE]
+>
+>If you need help running legacy reports, contact your Account Manager.
 
 ## Legacy Date Slices {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -37,5 +39,7 @@ c_legacy_data.xml
 1. [Create](/help/analyze/ad-hoc-analysis/c-getting-started.md) or open a project.
 1. Open the [calendar](/help/analyze/ad-hoc-analysis/c-dates.md), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
 
-> [!NOTE] Historical date slices lie within quarter and year constraints. You cannot view data crossing the boundary between legacy slices and the new processing platform. Date ranges that span both results in an error. Additionally, the date ranges apply only to the Gregorian calendar, not to the Custom Calendar.
+>[!NOTE]
+>
+>Historical date slices lie within quarter and year constraints. You cannot view data crossing the boundary between legacy slices and the new processing platform. Date ranges that span both results in an error. Additionally, the date ranges apply only to the Gregorian calendar, not to the Custom Calendar.
 

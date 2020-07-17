@@ -8,7 +8,9 @@ uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Current Usage]** 
 
-> [!IMPORTANT] Any usage and commitment numbers you see are cumulative across all your login companies and report suites.
+>[!IMPORTANT]
+>
+>Any usage and commitment numbers you see are cumulative across all your login companies and report suites.
 
 The Current Usage dashboard
 

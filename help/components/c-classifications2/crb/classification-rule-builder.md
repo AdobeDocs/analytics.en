@@ -29,7 +29,7 @@ Here are the high-level steps you take to implement classification rules:
 
 | Step | Where Performed | Description |
 |--- |--- |--- |
-| Step 1 (Prerequisite): [Set up your classification schema](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html).|[!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Traffic Classifications or Conversion Classifications&gt; |Choose a variable and define the classifications to use for that variable. <br>Variables must have at least one classification column created before they are available for use in rules.<br>Once classifications are enabled, you can use the importer and the rule builder to classify specific values.|
+| Step 1 (Prerequisite): [Set up your classification schema](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).|[!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Traffic Classifications or Conversion Classifications&gt; |Choose a variable and define the classifications to use for that variable. <br>Variables must have at least one classification column created before they are available for use in rules.<br>Once classifications are enabled, you can use the importer and the rule builder to classify specific values.|
 | Step 2: [Create a rule set](/help/components/c-classifications2/crb/classification-rule-set.md).|[!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set]|A rule set is a group of classification rules for a specific variable.|
 | Step 3: Configure report suites and variables.|[!UICONTROL Classification Rule Builder] >  &lt;your rule set&gt;|Apply the rule set to report suites and variables.|
 | Step 4: [Add classification rules to the set](/help/components/c-classifications2/crb/classification-quickstart-rules.md).|[!UICONTROL Classification Rule Builder] >  &lt;your rule set&gt;|Match a condition to a classification, and then specifying the action to take for the rule.  Be familiar with the information in  [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md).|
@@ -43,6 +43,6 @@ Here are the high-level steps you take to implement classification rules:
 
 **Additional Resources**
 
-**Blog**: For additional information about this feature, see the Digital Marketing Blog: [Rule-based Classifications](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29).
+**Blog**: For additional information about this feature, see the Digital Marketing Blog: [Rule-based Classifications](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
 **Video**: Visit [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) to view the [!UICONTROL Classifications Overview] video.

@@ -53,6 +53,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [contextData](vars/page-vars/contextdata.md)
     + [Dynamic variables](vars/page-vars/dynamic-variables.md)
     + [eVar](vars/page-vars/evar.md)
+    + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
     + events {#events}
       + [Events overview](vars/page-vars/events/events-overview.md)
       + [Purchase event](vars/page-vars/events/event-purchase.md)
@@ -114,7 +115,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [manageVars](vars/plugins/managevars.md)
     + [Numbers Suite](vars/plugins/numberssuite.md)
     + [p_fo](vars/plugins/p-fo.md)
-    + [pt](vars/plugins/pt.md)
+    + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
@@ -146,6 +147,8 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Create an Analytics property](launch/create-analytics-property.md)
   + [Deploy to a dev environment](launch/deploy-dev.md)
   + [Validate and publish to prod](launch/validate-publish-prod.md)
+  + [Map data layer objects to data elements](launch/layer-to-elements.md)
+  + [Map Launch data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
   + Implement Analytics using DTM {#dtm}
@@ -191,3 +194,6 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
++ Use XDM data with Analytics {#aep-edge}
+  + [Use AEP Web SDK](aep-edge/xdmoverview.md)
+  + [Map XDM data to Analytics manually](aep-edge/xdm-manual.md)

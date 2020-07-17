@@ -28,7 +28,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Use processing rules to populate analytics variables
 
-> [!IMPORTANT] Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
+>[!IMPORTANT] Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
 
 1. Update your implementation to set context data variable names and values.
 2. Log in to Adobe Analytics and go to Admin > Report Suites.
@@ -40,10 +40,25 @@ Processing rules immediately take effect once saved. They do not apply to histor
 
 ## Send context data in a link tracking call
 
-Include the context data variable as a property of `contextData` in `s.linkTrackVars`:
+Include the context data variable as a property of `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## Increment events using context data variables
+
+When creating processing rules, you can assign context data variables to events.
+
+* If a context data variable contains any kind of text, the event increments by one.
+* If a context data variable contains an integer, the event increments by that integer amount.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```

@@ -8,21 +8,11 @@ uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 
 # About sub-classifications
 
-Adobe Analytics support both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
+Adobe Analytics supports both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
 
-> [!NOTE] Sub-classification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](classification-hierarchies.md).
-
-<!-- 
-
-<p>Removed sub-classifications in rule builder. Preserve subclass files in project for future reference. </p>
-
- -->
-
-<!-- 
-
-c_single-level_classifications.xml
-
- -->
+>[!NOTE]
+>
+>Sub-classification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](classification-hierarchies.md).
 
 For example:
 
@@ -36,12 +26,6 @@ Each classification in this model is independent and corresponds to a new sub-re
 |  456  | DEF  | C3D4  |
 
 For more information about the data file, see [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
-
-<!-- 
-
-c_multiple-level_classifications.xml
-
- -->
 
 Multiple-level classifications are comprised of parent and child classifications. For example:
 
@@ -66,23 +50,23 @@ For example:
 
 Although the file template for a multilevel classification is more complex, the power of multilevel classifications is that separate levels can be uploaded as separate files. This approach can be used to minimize the amount of data that needs to be uploaded periodically (daily, weekly, and so forth) by grouping data into classification levels that change over time versus those that don't.
 
-> [!NOTE] If the [!UICONTROL Key] column in a data file is blank, Adobe automatically generates unique keys for each data row. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (&#42;).
+>[!NOTE]
+>
+>If the [!UICONTROL Key] column in a data file is blank, Adobe automatically generates unique keys for each data row. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (&#42;).
 
-See [Common Classification Upload Issues](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) for troubleshooting help.
+See [Common Classification Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) for troubleshooting help.
 
-<!-- 
-
-c_classifications_example.xml
-
- -->
+## Examples
 
 ![](assets/sample-product-classifications.png)
 
-> [!NOTE] Product classification data is limited to data attributes directly related to the product. The data is not limited to how the products are categorized or sold on the website. Data elements like sale categories, site browse nodes, or sale items are not product classification data. Rather, these elements are captured in report conversion variables.
+>[!NOTE]
+>
+>Product classification data is limited to data attributes directly related to the product. The data is not limited to how the products are categorized or sold on the website. Data elements like sale categories, site browse nodes, or sale items are not product classification data. Rather, these elements are captured in report conversion variables.
 
 When uploading data files for this product classification, you can upload the classification data as a single file or as multiple files (see below). By separating the color code in file 1 and the color name in file 2, the color name data (which may only be a few rows) needs to be updated only when new color codes are created. This eliminates the color name (CODE&Hat;COLOR) field from the more frequently updated file 1 and reduces file size and complexity when generating the data file.
 
-## Product Classification - Single File {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+### Product Classification - Single File {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
 |  KEY  | PRODUCT NAME  | PRODUCT DETAILS  | GENDER  | SIZE  | CODE  | CODE&Hat;COLOR  |
 |---|---|---|---|---|---|---|
@@ -90,7 +74,7 @@ When uploading data files for this product classification, you can upload the cl
 |  410390014  | Polo-SS  | Men's Polo Shirt, Short Sleeve (L,03)  | M  | L  | 03  | Heather  |
 |  410390015  | Polo-LS  | Women's Polo Shirt, Long Sleeve (S,23)  | F  | S  | 23  | Aqua  |
 
-## Product Classification - Multiple Files (File 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Product Classification - Multiple Files (File 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 |  KEY  | PRODUCT NAME  | PRODUCT DETAILS  | GENDER  | SIZE  | CODE  |
 |---|---|---|---|---|---|
@@ -98,7 +82,7 @@ When uploading data files for this product classification, you can upload the cl
 |  410390014  | Polo-SS  | Men's Polo Shirt, Short Sleeve (L,03)  | M  | L  | 03  |
 |  410390015  | Polo-LS  | Women's Polo Shirt, Long Sleeve (S,23)  | F  | S  | 23  |
 
-## Product Classification - Multiple Files (File 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Product Classification - Multiple Files (File 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 |  KEY  | CODE  | CODE&Hat;COLOR  |
 |---|---|---|

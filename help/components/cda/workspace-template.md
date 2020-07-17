@@ -1,4 +1,9 @@
-## CDA Workspace template
+---
+title: CDA Workspace template
+description: Describes each field in the CDA template within Analysis Workspace.
+---
+
+# CDA Workspace template
 
 Adobe offers a template to see vital cross-device performance data.
 

@@ -3,7 +3,7 @@ title: Set up Cross-device Analytics
 description: Configure a virtual report suite to enable CDA.
 ---
 
-## Set up Cross-device Analytics
+# Set up Cross-device Analytics
 
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
 

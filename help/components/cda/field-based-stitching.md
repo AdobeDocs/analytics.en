@@ -3,7 +3,7 @@ title: Field-based stitching
 description: Understand the prerequisites and limitations of stitching data using field-based stitching.
 ---
 
-## Field-based stitching
+# Field-based stitching
 
 Cross-device Analytics provides two distinct methods to stitch data together. This method relies on an Analytics variable, such as a [prop](/help/implement/vars/page-vars/prop.md) or [eVar](/help/implement/vars/page-vars/evar.md), to contain a person identifier. It uses that variable as a base to link devices together.
 

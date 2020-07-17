@@ -24,7 +24,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) documentation.|
-| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
+| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/setup.md) and [FAQ](../components/cda/faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |

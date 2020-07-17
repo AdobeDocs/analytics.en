@@ -29,6 +29,7 @@ To enable component curation,
     * [!UICONTROL Ad Hoc Analysis] 
     * [!UICONTROL Data Warehouse] 
     * [!UICONTROL Report Builder] 
+    * [!UICONTROL Activity Map]
     * Analytics Reporting API
 
    Once checked, you can add the components you'd like to be included in the virtual report suite by dragging the applicable components from the "excluded components" column to the "included components" column. The components that can be included and excluded are:

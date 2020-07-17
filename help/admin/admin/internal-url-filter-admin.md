@@ -7,6 +7,8 @@ uuid: 70868edb-208d-4dad-9401-70967468d40c
 
 # Internal URL Filters
 
+**[!UICONTROL Admin > Report Suites > Edit Settings > General > Internal URL Filters > Add Filter]**
+
 Internal URL filters identify the referrers that you consider internal to your site. They help traffic sources reports populate data and help filter internal traffic.
 
 A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Reports exclude filtered referrers from the [Referrers](/help/components/dimensions/referrer.md) dimension, the [Referring domains](/help/components/dimensions/referring-domain.md) dimension, and other traffic source dimensions.

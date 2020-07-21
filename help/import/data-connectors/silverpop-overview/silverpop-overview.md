@@ -8,7 +8,7 @@ uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will end-of-life the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with Silverpop email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
 

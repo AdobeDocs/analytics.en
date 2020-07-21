@@ -1,32 +1,38 @@
 ---
-description: How to interact with static rows in tables.
-title: Static vs. dynamic rows
+description: How to interact with dynamic and static items in tables.
+title: Dynamic vs Static items
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 ---
 
-# Static vs. dynamic rows
+# Dynamic vs Static items in freeform tables
+In Freeform tables, the rows and columns can contain various component items in them. These items can be dynamic (change with time) or static (do not change with time) depending on the analysis you want to build.
 
-Analysis Workspace tables generate "dynamic" rows when you drop a dimension into the table - meaning that all items that correspond to the dimension, for a given metric, are pulled into the table.
+## Dynamic items
+Dynamic items will change with time and are dependent on the metric being sorted by in the freeform table. Dynamic items are preferred when you want to analyze the top component items for a given time period.
 
-For example, when you drag the Browser dimension into the table, all of its dimension items (e.g., Android Browser, Mobile Safari, Firefox, etc.) dynamically get pulled into the table.
+When you drop a dimension into a freeform table, dynamic rows are returned and represent the top items that correspond to the dimension, for a given metric and time period. You can also drop a dimension into freeform table columns and the dimension will automatically expand into the top 5 items for the dimension.
 
-In contrast, any time you manually select and drop a specific metric, segment, data range, or individual dimension item into a table, the result is a hardcoded or "static" row or list. You can now interact with a static row in these ways:
+For example, when you drag the Browser Type dimension into the table, the top Browser Type dimension items (e.g. Microsoft, Apple, Google, etc.) dynamically return to the table rows. If dropped into the column, the top 5 Browser Type dimension items dynamically return.
 
-* Click the Preview icon in static rows that lets you preview segments, metrics, date ranges.
-* Click the "x" icon to delete that row from the table.
-* Limit how many rows display and enable paging.
-* Add "mixed dimension items". For example, add an item from a browser dimension and another item from a product dimension.
+Dynamic items will have the row filter option, and will **not** have lock and X icons present on the item.
 
-  Here is an illustration:
+## Static items
+Static items will not change with time; they are fixed items that will always be returned to the freeform table. Static items are preferred when you want to always analyze the same item, whether it be specific campaigns or specific days in the week.
 
-  ![](assets/static_rows.png)
+Any time you manually select and drop specific components (dimension item, metric, segment, date range) into a table, the result is a hardcoded or static list of rows or columns. Static items will also be created if you choose to:
+* From rows, Right-click > Display only selected rows
+* From columns, Right-click > Make item static
 
-In addition, (only) when you are in a static row mode, you can now change how the column totals are calculated. Just click the gear icon and toggle between these 2 options:
+For example, when you drag over specific Browser Type items such as Microsoft and Apple, those 2 specific items will always get pulled into the table. 
 
-![](assets/column-totals.png)
+Static items will **not** have the row filter option, and will have lock and X icons present on the item. The X means the item can be easily removed from the table.
 
-|  Option  | Description  |
-|---|---|
-|  (Default) Calculate totals by summing the values currently in each column.  | This option calculates only the rows currently in the table. (Client-side calculation)  |
-|  Calculate totals based on all rows for each metric.  | This option includes all dimension items for this dimension, even those not listed in the table. (Server-side calculation)  |
+### Mixed dimension items
+Dimension items from different dimensions can be added to rows of a table; the row header will say "Mixed Dimensions". These items are static items. For example, add items from the Browser Type dimension and other items from the Browser dimension.
 
+## Freeform total rows
+Dynamic and static rows behave differently in the freeform total row. By default:
+* Dynamic rows are summed server-side and de-duplicate metrics such as visits or visitors
+* Static rows are summed client-side and will **not** de-duplicate metrics. 
+
+[Learn more about Workspace total](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) options for dynamic and static rows.

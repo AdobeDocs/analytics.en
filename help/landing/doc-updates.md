@@ -17,6 +17,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
+| July 21, 2020 | Major updates and revisions to [Cross-Device Analytics](/help/components/cda/overview.md). Added [Field-based stitching](/help/components/cda/field-based-stitching.md). |
 | April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric.|
 | March 12, 2020| Added updates to [Publish segments to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md).|
 | March 12, 2020| Updates to CDA stitching latency.|

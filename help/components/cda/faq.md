@@ -20,14 +20,13 @@ Using Mobile Device Type as illustrated above allows you to see how people move 
 
 ## How far back does CDA stitch visitors?
 
-* **If using a device graph**, Adobe keeps device stitching data for approximately 30 days. If a device is intitially not identified by the Co-op Graph or Private graph, but is later identified within 30 days, CDA goes back and restates that device as belonging to identified person up to 30 days in the past. If some of a user's unidentified behavior falls outside the 30-day lookback window, that portion of the user's journey is not stitched.
+Adobe keeps device stitching data for approximately 30 days. If a device is intitially not identified but is later identified within 30 days, CDA goes back and restates that device as belonging to identified person up to 30 days in the past. If some of a user's unidentified behavior falls outside the 30-day lookback window, that portion of the user's journey is not stitched.
 
-  Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
-* **If using field-based stitching**, Adobe keeps field-based identifiers equal to your report suite's data retention period. For most report suites, this period is 25 months.
+* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
 
 ## How does CDA handle timestamped hits?
 
-Adobe treats timestamped hits as if they were received at the time of the timestamp, not when Adobe received the hit. If you use a device graph, timestamped hits older than 1 month are never stitched since they are outside the range Adobe uses for stitching.
+Adobe treats timestamped hits as if they were received at the time of the timestamp, not when Adobe received the hit. Timestamped hits older than 1 month are never stitched since they are outside the range Adobe uses for stitching.
 
 ## How does CDA compare to custom visitor IDs?
 
@@ -43,15 +42,15 @@ Customers already using Custom Visitor ID can upgrade to CDA without any impleme
 
 In some situations it is possible that multiple people log in from the same device. Examples include a shared device at home, shared PCs in a library, or a kiosk in a retail outlet.
 
-* **If using a device graph**, the graph links each ECID to a "cluster" that includes all associated users. As a result, this method does not distinguish between individual users on a shared device. All users of the shared device are considered a single "person".
+* **If using a device graph**, the ability to handle shared devices is limited. The device graph uses an algorithm to determine ownership of a "cluster", and can change each time that cluster is published. Users of the shared device are subject to which cluster they belong to.
 * **If using field-based stitching**, the prop or eVar you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
 
 ## How does CDA handle situations where a single person has MANY devices/ECIDs?
 
 In some situations, an individual user can associate with a large number of ECIDs. This can occur if the individual uses a lot of browsers or apps, and can be exacerbated if they frequently clear cookies or use the browser's private or incognito browsing mode.
 
-* **If using a device graph**, CDA caps the number of ECIDs that ties to a given user ID to 200. If a user ID associates with too many ECIDs, the device graph assumes that the user ID is invalid and removes the cluster associated with that user ID. The user ID is then added to a blocklist to prevent it from being added to any clusters in the future. The result in reporting is that user ID is not stitched across devices.
-* **If using field-based stitching**, ECID is irrelevant in favor of the prop/eVar you choose to help identify logged in users. A single user can belong to any number of ECID's without impacting CDA's ability to stitch across devices.
+* **If using a device graph**, CDA caps the number of ECIDs that ties to a given user ID to 50. If a user ID associates with too many ECIDs, the device graph assumes that the user ID is invalid and removes the cluster associated with that user ID. The user ID is then added to a blocklist to prevent it from being added to any clusters in the future. The result in reporting is that user ID is not stitched across devices.
+* **If using field-based stitching**, the number of devices is irrelevant in favor of the prop/eVar you choose to help identify logged in users. A single user can belong to any number of devices without impacting CDA's ability to stitch across devices.
 
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
@@ -78,7 +77,7 @@ Yes. If an individual sends hits from two separate devices within your virtual r
 * **If using a device graph**, a custom ID based on their cluster is the primary identifier.
 * **If using field-based stitching**, a custom ID based on the prop/eVar you choose is the primary identifier.
 
-Both of these identifiers are calculated by Adobe at the time the report is run, also known as [Report-time processing](../vrs/vrs-report-time-processing.md). The nature of Report-time processing means that is not compatible with Data Warehouse, data feeds, or other export features that Adobe offers.
+Both of these identifiers are calculated by Adobe at the time the report is run, also known as [Report-time processing](../vrs/vrs-report-time-processing.md). The nature of Report-time processing means that it is not compatible with Data Warehouse, data feeds, or other export features that Adobe offers.
 
 ## How can I move from the device graph to field-based stitching, or vice versa?
 

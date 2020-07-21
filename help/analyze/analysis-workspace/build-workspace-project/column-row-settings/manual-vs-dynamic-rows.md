@@ -1,38 +1,44 @@
 ---
-description: How to interact with dynamic and static items in tables.
-title: Dynamic vs Static items
-uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
+title: Dynamic vs static dimension values
+description: How to interact with dynamic and static dimension values in tables.
 ---
 
-# Dynamic vs Static items in freeform tables
-In Freeform tables, the rows and columns can contain various component items in them. These items can be dynamic (change with time) or static (do not change with time) depending on the analysis you want to build.
+# Dynamic vs static dimension values in freeform tables
 
-## Dynamic items
-Dynamic items will change with time and are dependent on the metric being sorted by in the freeform table. Dynamic items are preferred when you want to analyze the top component items for a given time period.
+In Freeform tables, the rows and columns can contain various component values in them. These values can be dynamic (change with time) or static (do not change with time), depending on the analysis that you want to build.
 
-When you drop a dimension into a freeform table, dynamic rows are returned and represent the top items that correspond to the dimension, for a given metric and time period. You can also drop a dimension into freeform table columns and the dimension will automatically expand into the top 5 items for the dimension.
+## Dynamic dimension values
 
-For example, when you drag the Browser Type dimension into the table, the top Browser Type dimension items (e.g. Microsoft, Apple, Google, etc.) dynamically return to the table rows. If dropped into the column, the top 5 Browser Type dimension items dynamically return.
+Dynamic dimension values change with time and are dependent on the metric being sorted by in the freeform table. Dynamic dimension values are preferred when you want to analyze the top items for a given time period.
 
-Dynamic items will have the row filter option, and will **not** have lock and X icons present on the item.
+When you drop a dimension into a freeform table, dynamic rows are returned. They represent the top items that correspond to the dimension for a given metric and time period. You can also drop a dimension into freeform table columns and the dimension automatically expands into the top 5 dimension values.
 
-## Static items
-Static items will not change with time; they are fixed items that will always be returned to the freeform table. Static items are preferred when you want to always analyze the same item, whether it be specific campaigns or specific days in the week.
+For example, when you drag the Browser Type dimension into the table, the top Browser Type dimension values (e.g. Microsoft, Apple, Google, etc.) dynamically return to the table rows. If dropped into a column, the top 5 Browser Type dimension values dynamically return.
 
-Any time you manually select and drop specific components (dimension item, metric, segment, date range) into a table, the result is a hardcoded or static list of rows or columns. Static items will also be created if you choose to:
-* From rows, Right-click > Display only selected rows
-* From columns, Right-click > Make item static
+Dynamic dimension values have the row filter option, and do **not** have lock and X icons present.
 
-For example, when you drag over specific Browser Type items such as Microsoft and Apple, those 2 specific items will always get pulled into the table. 
+## Static dimension values
 
-Static items will **not** have the row filter option, and will have lock and X icons present on the item. The X means the item can be easily removed from the table.
+Static dimension values do not change with time; they are fixed components that are always returned in a freeform table. Static dimension values are preferred when you want to always analyze the same item, whether it be specific campaigns or specific days in the week.
 
-### Mixed dimension items
-Dimension items from different dimensions can be added to rows of a table; the row header will say "Mixed Dimensions". These items are static items. For example, add items from the Browser Type dimension and other items from the Browser dimension.
+Any time you manually select and drop specific component values (dimension, metric, segment, date range) into a table, the result is a static list of rows or columns. Static dimension values can also be created if you choose to:
+
+* From rows, Right-click > [!UICONTROL Display only selected rows]
+* From columns, Right-click > [!UICONTROL Make item static]
+
+For example, when you drag over specific Browser Type items such as Microsoft and Apple, those 2 specific items always get pulled into the table. 
+
+Static dimension values do **not** have the row filter option. Instead, lock and X icons are present on each item. Click the X icon to remove that dimension value from the table.
+
+## Mixed dimension values
+
+Dimension values from different dimensions can be added to the same table. The row header say "Mixed Dimensions" in these cases. These dimension values are static. For example, adding specific dimension values from the Browser Type dimension and other dimension values from the Browser dimension.
 
 ## Freeform total rows
+
 Dynamic and static rows behave differently in the freeform total row. By default:
+
 * Dynamic rows are summed server-side and de-duplicate metrics such as visits or visitors
-* Static rows are summed client-side and will **not** de-duplicate metrics. 
+* Static rows are summed client-side and do **not** de-duplicate metrics. 
 
 [Learn more about Workspace total](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) options for dynamic and static rows.

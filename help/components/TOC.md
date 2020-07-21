@@ -203,6 +203,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Device graph](cda/device-graph.md)
   + [Set up Cross-Device Analytics](cda/setup.md)
   + [How replays work](cda/replay.md)
+  + [CDA Workspace template](cda/workspace-template.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)

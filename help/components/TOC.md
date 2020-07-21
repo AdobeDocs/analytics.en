@@ -198,9 +198,13 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Manage virtual report suites](vrs/c-workflow-vrs/vrs-manage.md)
     + [View virtual report suite information](vrs/c-workflow-vrs/vrs-view.md)
 + Cross-Device Analytics {#cda}
-  + [Cross-Device Analytics Overview](cda/cda-home.md)
-  + [Setting up Cross-Device Analytics](cda/cda-setup.md)
-  + [Cross-Device Analytics FAQ](cda/cda-faq.md)
+  + [Cross-Device Analytics Overview](cda/overview.md)
+  + [Field-based stitching](cda/field-based-stitching.md)
+  + [Device graph](cda/device-graph.md)
+  + [Set up Cross-Device Analytics](cda/setup.md)
+  + [How replays work](cda/replay.md)
+  + [CDA Workspace template](cda/workspace-template.md)
+  + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)
   + [Alert Builder](c-alerts/alert-builder.md)

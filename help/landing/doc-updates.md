@@ -17,6 +17,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
+| July 21, 2020 | Major updates and revisions to [Cross-Device Analytics](/help/components/cda/overview.md). Added [Field-based stitching](/help/components/cda/field-based-stitching.md). |
 | April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric.|
 | March 12, 2020| Added updates to [Publish segments to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md).|
 | March 12, 2020| Updates to CDA stitching latency.|
@@ -24,7 +25,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) documentation.|
-| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/cda-setup.md) and [FAQ](../components/cda/cda-faq.md) |
+| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/setup.md) and [FAQ](../components/cda/faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |

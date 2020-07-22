@@ -112,7 +112,7 @@ However, if you do need to make adjustments, some of the code settings are descr
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> The delimiter used to separate the Demandbase dimension values when they are sent to Adobe Analytics. Changing this setting may cause the default Classification Rules to not function correctly. </td> 
+   <td colname="col2"> The delimiter used to separate the Demandbase dimension items when they are sent to Adobe Analytics. Changing this setting may cause the default Classification Rules to not function correctly. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 

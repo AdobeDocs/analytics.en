@@ -338,7 +338,7 @@ New features and enhancements released on April 12, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > New row setting </a> </p> </td> 
-   <td colname="col2"> <p>The new <span class="uicontrol"> Calculate percentage by row </span> setting forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages, such as trending how one dimension value fairs against the rest over time. It is turned on by default when clicking the <span class="uicontrol"> Visualize </span> icon. </p> </td> 
+   <td colname="col2"> <p>The new <span class="uicontrol"> Calculate percentage by row </span> setting forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages, such as trending how one dimension item fairs against the rest over time. It is turned on by default when clicking the <span class="uicontrol"> Visualize </span> icon. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% Stacked" Visualization Setting </a> </p> </td> 
@@ -508,7 +508,7 @@ New features and enhancements released on January 18, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Changes to None/Unspecified </p> </td> 
-   <td colname="col2"> <p>Changed how None/Unspecified works in Analysis Workspace so that it is consistent with Reports &amp; Analytics, the Segment Builder and the dimension values menu in Analysis Workspace. </p> <p>This means that the value will show up as "Unspecified" instead of "None" in most projects in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Changed how None/Unspecified works in Analysis Workspace so that it is consistent with Reports &amp; Analytics, the Segment Builder and the dimension items menu in Analysis Workspace. </p> <p>This means that the value will show up as "Unspecified" instead of "None" in most projects in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>

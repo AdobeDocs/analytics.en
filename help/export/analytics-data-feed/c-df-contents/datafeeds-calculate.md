@@ -54,7 +54,7 @@ Hits must first be grouped by visit, then ordered according to the hit number wi
 1. Concatenate `post_visid_high`, `post_visid_low`, `visit_num`, and `visit_start_time_gmt`.
 2. Sort by this concatenated value, then apply a secondary sort by `visit_page_num`.
 3. If a hit is not the last one in a visit, subtract the `post_cust_hit_time` value from the subsequent hit's `post_cust_hit_time` value.
-4. This number is the amount of time spent (in seconds) for the hit. Filters can be applied to focus on dimension values or events.
+4. This number is the amount of time spent (in seconds) for the hit. Filters can be applied to focus on dimension items or events.
 
 ## Orders, units, and revenue
 

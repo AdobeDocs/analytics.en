@@ -21,6 +21,6 @@ Adobe recommends setting an eVar to the concatenated string `window.location.hos
 
 If you want the eVar to exactly match the 'Page URL' dimension in Data Warehouse, you can use [dynamic variables](/help/implement/vars/page-vars/dynamic-variables.md) and set the eVar to `D=g` on each hit. Note that this method does not work for custom link hits, as the page URL is stripped for all [`tl()`](/help/implement/vars/functions/tl-method.md) calls.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the URLs of pages on your site.
+Dimension items include the URLs of pages on your site.

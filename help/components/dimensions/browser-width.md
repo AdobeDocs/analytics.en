@@ -21,6 +21,6 @@ This dimension retrieves data from the [`bw` query string](/help/implement/valid
 
 Adobe persists browser width for a visit. If browser width is adjusted mid-visit, the adjustment is not recorded.
 
-## Dimension values
+## Dimension items
 
-Dimension values include all collected browser widths, classified into groups of 100 pixels. For example, if the browser width of a hit is `1280`, then it is grouped in the dimension value `1200 to 1299`.
+Dimension items include all collected browser widths, classified into groups of 100 pixels. For example, if the browser width of a hit is `1280`, then it is grouped in the dimension item `1200 to 1299`.

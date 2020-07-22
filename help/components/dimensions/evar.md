@@ -17,9 +17,9 @@ Each eVar collects data from the [`v1` - `v250` query string](/help/implement/va
 
 AppMeasurement, which compiles JavaScript variables into an image request for data collection, uses the variables `eVar1` - `eVar250`. See [eVar](/help/implement/vars/page-vars/evar.md) in the Implement user guide for implementation guidelines.
 
-## Dimension values
+## Dimension items
 
-Since eVars contain custom strings in your implementation, your organization determines what the dimension values are for each eVar. Make sure you record the purpose of each eVar and typical dimension values in a [solution design document](/help/implement/prepare/solution-design.md).
+Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## How eVars work
 

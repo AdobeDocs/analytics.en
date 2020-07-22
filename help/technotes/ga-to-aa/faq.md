@@ -22,6 +22,6 @@ Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Works
 
 Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
-**I'm used to clicking on a dimension value to see a drilldown. How can I replicate that easy workflow in Analysis Workspace?**
+**I'm used to clicking on a dimension item to see a drilldown. How can I replicate that easy workflow in Analysis Workspace?**
 
-Dimension values in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Access it by using right-click instead of left-click. Right-click on a dimension value, click **[!UICONTROL Breakdown], then select the desired component. You can apply the same breakdown to multiple dimension values by using ctrl+click (Windows) or cmd+click (Mac) on each value.
+Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Access it by using right-click instead of left-click. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. You can apply the same breakdown to multiple dimension items by using ctrl+click (Windows) or cmd+click (Mac) on each value.

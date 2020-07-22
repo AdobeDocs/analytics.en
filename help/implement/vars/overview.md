@@ -9,7 +9,7 @@ keywords: appmeasurement,variables,vars,configuration,page,implementation
 Analytics provides a number of variables to collect Analytics data. Variables in this section are split into several sections:
 
 * **Page variables** are values that are typically used directly in reporting. Common page variables include `props`, `eVars`, and `events`.
-* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `trackingServerSecure`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension values.
+* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `trackingServerSecure`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension items.
 * **Functions and methods** are pieces of code that perform a specific task when referenced. Common functions include `t()`, `tl()`, and `clearVars()`.
 
 ## Variables and implementation methods

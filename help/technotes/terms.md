@@ -25,7 +25,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Channel:** Can refer to:
   * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
   * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
-* **Classification:** A feature in Adobe Analytics that allows the grouping of dimension values. See [Classifications](/help/components/c-classifications2/c-classifications.md) in the Components user guide.
+* **Classification:** A feature in Adobe Analytics that allows the grouping of dimension items. See [Classifications](/help/components/c-classifications2/c-classifications.md) in the Components user guide.
 * **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity map.
 * **Clickstream data feed:** See Data feed.
 * **Cohort:** A group of people sharing common characteristics over a given period of time. See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analyze user guide.
@@ -68,7 +68,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Metric:** A component type that contains quantitative data. Metric values typically contain numbers, such as Page Views, Visits, and Revenue. A dimension is typically its counterpart.
 * **Multi-suite tagging:** The practice of sending the same hit to multiple report suites. With the introduction to virtual report suites, this practice is largely no longer necessary. Most multi-suite tagging efforts help accommodate a global report suite.
 * **Normalization:** A way to organize a visualization that takes all metrics and forces them to equal proportions, allowing an easier comparison of trends.
-* **Occurrences:** A type of metric that shows how many hits a dimension value was set or persisted. See the [Occurrences](/help/components/metrics/occurrences.md) metric in the Components user guide.
+* **Occurrences:** A type of metric that shows how many hits a dimension item was set or persisted. See the [Occurrences](/help/components/metrics/occurrences.md) metric in the Components user guide.
 * **Omniture:** No longer used as a term. The organization that owned Adobe Analytics prior to being acquired by Adobe in 2009.
 * **Pathing:** See Flow.
 * **Page view:** A type of hit that increments page views. See the [Page views](/help/components/metrics/page-views.md) metric in the Components user guide. See also Hit.

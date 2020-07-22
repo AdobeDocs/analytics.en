@@ -1,11 +1,11 @@
 ---
 title: Metrics overview
-description: View quantities of dimension values or data over time.
+description: View quantities of dimension items or data over time.
 ---
 
 # Metrics overview
 
-Metrics allow you to quantify dimension values, such as to see which pages on your site have the most page views. You can also trend metrics over time, such as to see how many orders visitors make on your site each day. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+Metrics allow you to quantify dimension items, such as to see which pages on your site have the most page views. You can also trend metrics over time, such as to see how many orders visitors make on your site each day. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
 
 For example, if you combined the 'Page' dimension with the 'Visits' metric, you would get a ranked report showing your top-visited pages:
 

@@ -81,19 +81,19 @@ Contains reports around legacy mobile reports. These reports base their data on 
 
 Contains reports that allow you to see pathing data for visitors.
 
-* Next page flow: Uses a flow report on the top page dimension value. Path views are similar to [Instances](/help/components/metrics/instances.md). You can change the reported dimension value. A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Next page: Takes the top page dimension value and shows you the next pages visitors went to.
-* Previous page flow: Uses a flow report on the top page dimension value A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Previous page: Takes the top page dimension value and shows you the previous pages visitors came from.
-* Fallout: Allows you to select page dimension values in steps, and shows the proportion of people who did and did not follow that path. A similar report in Analysis Workspace is available using a [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Full paths: Shows individual paths as dimension values. Retired in Analysis Workspace; use the [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md) instead.
+* Next page flow: Uses a flow report on the top page dimension item. Path views are similar to [Instances](/help/components/metrics/instances.md). You can change the reported dimension item. A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
+* Next page: Takes the top page dimension item and shows you the next pages visitors went to.
+* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
+* Previous page: Takes the top page dimension item and shows you the previous pages visitors came from.
+* Fallout: Allows you to select page dimension items in steps, and shows the proportion of people who did and did not follow that path. A similar report in Analysis Workspace is available using a [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Full paths: Shows individual paths as dimension items. Retired in Analysis Workspace; use the [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md) instead.
 * PathFinder: Provides multiple types of reports that let you analyze paths (retired in Analysis Workspace).
 * Path length: Uses the [Visit depth](/help/components/dimensions/visit-depth.md) dimension.
 * Page Analysis
-  * Page summary: Takes the top page dimension value and shows a trended view. Also shows entry points, previous pages, exit points, and next pages for that top page dimension value.
+  * Page summary: Takes the top page dimension item and shows a trended view. Also shows entry points, previous pages, exit points, and next pages for that top page dimension item.
   * Reloads: Uses the [Page](/help/components/dimensions/page.md) dimension with the [Reloads](/help/components/metrics/reloads.md) metric.
   * Time spent on page: Uses the [Time spent on page - bucketed](/help/components/dimensions/time-spent-on-page.md) dimension.
-  * Clicks to page: Takes the top page dimension value and shows the number of clicks it took to get to that page in a given visit.
+  * Clicks to page: Takes the top page dimension item and shows the number of clicks it took to get to that page in a given visit.
 * Entries and exits
   * Entry pages: Uses the [Entry pages](/help/components/dimensions/entry-dimensions.md) dimension.
   * Original entry pages: Uses the [Entry page original](/help/components/dimensions/entry-dimensions.md) dimension.
@@ -164,7 +164,7 @@ Contains reports about who visits your site.
   * US states: Uses the [US states](/help/components/dimensions/us-states.md) dimension.
   * US DMA: Uses the [US DMA](/help/components/dimensions/us-dma.md) dimension.
 * Languages: Uses the [Language](/help/components/dimensions/language.md) dimension.
-* Time zones: Uses the time zone dimension (retired in Analysis Workspace). Dimension values are the GMT offset of the hit.
+* Time zones: Uses the time zone dimension (retired in Analysis Workspace). Dimension items are the GMT offset of the hit.
 * Domain: Uses the [Domain](/help/components/dimensions/domain.md) dimension.
 * Top level domain: Uses the top level domain dimension (retired in Analysis Workspace). It groups the [domains](/help/components/dimensions/domain.md) dimension into higher-level categories, typically by country of the domain.
 * Technology: Folder containing reports around what the visitor used to access your site.
@@ -177,12 +177,12 @@ Contains reports about who visits your site.
   * Monitor color depth: Uses the [Color depth](/help/components/dimensions/color-depth.md) dimension.
   * Monitor resolution: Uses the [Monitor resolution](/help/components/dimensions/monitor-resolution.md) dimension.
   * Java: Uses the [Java enabled](/help/components/dimensions/java-enabled.md) dimension.
-  * JavaScript: Uses the JavaScript enabled dimension (retired in Analysis Workspace). Dimension values are 'Enabled', 'Disabled', or 'Unknown', depending on if the browser has JavaScript enabled.
-  * JavaScript version: uses the JavaScript version dimension (retired in Analysis Workspace). Dimension values show the version of JavaScript that the browser uses.
+  * JavaScript: Uses the JavaScript enabled dimension (retired in Analysis Workspace). Dimension items are 'Enabled', 'Disabled', or 'Unknown', depending on if the browser has JavaScript enabled.
+  * JavaScript version: uses the JavaScript version dimension (retired in Analysis Workspace). Dimension items show the version of JavaScript that the browser uses.
   * Cookies: Uses the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.
   * Connection types: Uses the [Connection type](/help/components/dimensions/connection-type.md) dimension.
   * Mobile carrier: Uses the [Mobile carrier](/help/components/dimensions/mobile-dimensions.md) dimension.
-* Visitor state: Uses the State dimension (retired in Analysis Workspace). Dimension values originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Visitor state: Uses the State dimension (retired in Analysis Workspace). Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
 * Visitor ZIP/postal code: Uses the [Zip code](/help/components/dimensions/zip-code.md) dimension.
 
 ## Custom conversion
@@ -197,7 +197,7 @@ Contains reports specific to your implementation. Custom traffic reports use [pr
 
 Contains reports involving [Marketing channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Channel overview report: A custom report specific to Reports & Analytics. Uses marketing channels as dimension values, with metrics using first or last touch attribution.
+* Channel overview report: A custom report specific to Reports & Analytics. Uses marketing channels as dimension items, with metrics using first or last touch attribution.
 * First touch channel: Uses the [First touch channel](/help/components/dimensions/first-touch-channel.md) dimension.
 * First touch channel detail: Uses the [First touch channel detail](/help/components/dimensions/first-touch-detail.md) dimension.
 * Last touch channel: Uses the [Last touch channel](/help/components/dimensions/last-touch-channel.md) dimension.

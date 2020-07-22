@@ -13,6 +13,6 @@ This dimension is related to the [Page](page.md) and [Server](server.md) dimensi
 
 This dimension retrieves data from the [`ch` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the [`channel`](/help/implement/vars/page-vars/channel.md) variable.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the names of site sections on your site. Your organization determines what specific dimension values you want to use. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
+Dimension items include the names of site sections on your site. Your organization determines what specific dimension items you want to use. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).

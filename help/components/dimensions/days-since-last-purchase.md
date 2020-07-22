@@ -13,6 +13,6 @@ Visitors that have never purchased something are not included in this dimension.
 
 Adobe automatically populates this dimension based on the [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) event in your implementation. If you implement the `purchase` event on your site, this dimension always works.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the number of days between a visitor's most recent purchase and the current hit. Each number of days is a separate dimension value, with "Same day" occurring where a visitor's most recent purchase and the current hit happened on the same day.
+Dimension items include the number of days between a visitor's most recent purchase and the current hit. Each number of days is a separate dimension item, with "Same day" occurring where a visitor's most recent purchase and the current hit happened on the same day.

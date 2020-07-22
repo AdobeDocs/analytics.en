@@ -13,15 +13,15 @@ This dimension copies values from other variables. The variable used references 
 
 If you want to set this dimension to a specific value, the following steps are required:
 
-* Make sure that the desired dimension value is in a hit attribute or custom variable.
+* Make sure that the desired dimension item is in a hit attribute or custom variable.
 * Set a Marketing channel processing rule that contains the desired criteria for the hit.
 * Select the desired dropdown value under [!UICONTROL Set the channel's value] within the Marketing channel processing rule.
 * The visitor's hit to your site must match the criteria outlined in the Marketing channel processing rule _and_ must be the first marketing channel value to do so in the visitor's engagement period.
 
 If a subsequent hit matches criteria under a different Marketing channel, this dimension is not overwritten with the new marketing channel.
 
-## Dimension values
+## Dimension items
 
-Dimension values depend on the channel value dropdown. For example, if you set the channel's value to 'Page URL', dimension values include page URLs on your site. If you set the channel's value to Referring domain, dimension values include domains that visitors clicked through to get to your site. This dimension aggregates all detail dimension values, regardless of which channel they are in.
+Dimension items depend on the channel value dropdown. For example, if you set the channel's value to 'Page URL', dimension items include page URLs on your site. If you set the channel's value to Referring domain, dimension items include domains that visitors clicked through to get to your site. This dimension aggregates all detail dimension items, regardless of which channel they are in.
 
 Adobe recommends setting channel values related to the marketing channel for insight around channel details.

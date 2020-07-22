@@ -17,6 +17,6 @@ If you want to send data to this dimension using AppMeasurement:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"e"`.
 * Send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request.
 
-## Dimension values
+## Dimension items
 
-Since this variable is based on a custom string in your implementation, your organization determines what the dimension values are. Adobe recommends that you group links into meaningful categories based on your reporting needs.
+Since this variable is based on a custom string in your implementation, your organization determines what the dimension items are. Adobe recommends that you group links into meaningful categories based on your reporting needs.

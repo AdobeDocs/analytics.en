@@ -178,6 +178,6 @@ Benchmarking reports allow you to see how facets of your data compare to industr
 The flow report is available on both platforms. To create a flow report:
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension items are colored yellow.
 3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.

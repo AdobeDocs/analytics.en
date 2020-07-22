@@ -1,6 +1,6 @@
 ---
 title: Attribution models and lookback windows
-description: How different types of attribution divide credit between dimension values.
+description: How different types of attribution divide credit between dimension items.
 ---
 
 # Attribution models and lookback windows

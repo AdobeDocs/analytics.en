@@ -35,7 +35,7 @@ You can compare any metric between the date range of the event with similar prio
 
 ## Calculate percent differences between the event and similar prior ranges
 
-Compare dimension values between an event's date range and similar prior date ranges using a freeform table visualization. These steps illustrate a week-over-week example that you can follow.
+Compare dimension items between an event's date range and similar prior date ranges using a freeform table visualization. These steps illustrate a week-over-week example that you can follow.
 
 1. Open a Workspace project, and add a **non-time dimension** to the freeform table. For example, you could use the 'Mobile device type' dimension. Apply the recently created date range stacked on a metric, such as 'Occurrences':
 

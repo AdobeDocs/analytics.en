@@ -17,17 +17,17 @@ These dimensions reference lookup rules internal to Adobe. The lookup value is b
 
 >[!NOTE]
 >
->Dimension values labeled `"None"` are non-mobile devices. If you want a report that only includes mobile devices, drag the 'Mobile device' dimension into the segment area of the Workspace canvas.
+>Dimension items labeled `"None"` are non-mobile devices. If you want a report that only includes mobile devices, drag the 'Mobile device' dimension into the segment area of the Workspace canvas.
 
-* **Mobile audio support**: Determines file formats that the device can play. Example values include `"MP3"`, `"AAC"`, and `"MIDI Monophonic"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension values.
-* **Mobile carrier**: If the user agent contains a carrier-specific device, the carrier is a dimension value. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.
+* **Mobile audio support**: Determines file formats that the device can play. Example values include `"MP3"`, `"AAC"`, and `"MIDI Monophonic"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension items.
+* **Mobile carrier**: If the user agent contains a carrier-specific device, the carrier is a dimension item. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.
 * **Mobile color depth**: The color depth of the mobile device, in bits.
-* **Mobile cookie support**: Determines if the mobile device supports cookies. This report does not state if the browser accepts cookies. Dimension values include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Mobile cookie support**: Determines if the mobile device supports cookies. This report does not state if the browser accepts cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
 * **Mobile device**: The mobile device that the visitor uses.
-* **Mobile device number**: Determines if the mobile device transmits its number. Dimension values include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Mobile device number**: Determines if the mobile device transmits its number. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
 * **Mobile device type**: The type of mobile device. Example values include `"Mobile phone"`, `"Tablet"`, `"Media player"`, and `"Gaming console"`.
 * **Mobile DRM**: The type of DRM the mobile device supports. Example values include `"DRM OMA forward"`, `"DRM OMA combined delivery"`, and `"DRM OMA separate delivery"`.
-* **Mobile image support**: The types of images that a mobile devices supports. Example values include `"PNG"`, `"JPEG"`, and `"GIF 87"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension values.
+* **Mobile image support**: The types of images that a mobile devices supports. Example values include `"PNG"`, `"JPEG"`, and `"GIF 87"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension items.
 * **Mobile information services**: The types of news services supported by the device. Recent devices typically do not report this information.
 * **Mobile Java VM**: The versions of Java that the device supports.
 * **Mobile mail decoration**: Determines if the device supports Decomail, a feature once popular on Japanese devices.
@@ -41,7 +41,7 @@ These dimensions reference lookup rules internal to Adobe. The lookup value is b
 * **Mobile screen height**: The height of the screen, in pixels. Note that iPhones always report `"480"` due to the inability to determine iPhone device version. See the section below on determining iPhone device version.
 * **Mobile screen size**: The full dimensions of the mobile device in pixels. The reported screen size does not indicate the orientation of the device. Regardless of screen orientation, each device has a fixed screen resolution in the report. This size is based on research that determines which orientation is more likely. You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **Mobile screen width**: The width of the screen, in pixels.
-* **Mobile video support**: The video file formats and codecs that the mobile device supports. Several dimension values exist for different codecs of MP4 and 3GPP files. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension values.
+* **Mobile video support**: The video file formats and codecs that the mobile device supports. Several dimension items exist for different codecs of MP4 and 3GPP files. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension items.
 
 ## Separating iPhone by model or version
 

@@ -15,9 +15,9 @@ This dimension references lookup rules internal to Adobe. The lookup value is ba
 >
 >If your organization follows stringent privacy regulations where [obfuscating IP address](/help/admin/admin/general-acct-settings-admin.md) isn't enough, you can request to disable geolocation data entirely. Contact Customer Care with the report suite ID, and request to turn off 'Geography' for the report suite.
 
-## Dimension values
+## Dimension items
 
-Dimension values include regions and the country that the region resides in. Example values include `"California"`, `"Texas"`, or `"Virginia"`. The dimension value `"Unspecified"` includes all international traffic outside of the United States.
+Dimension items include regions and the country that the region resides in. Example values include `"California"`, `"Texas"`, or `"Virginia"`. The dimension item `"Unspecified"` includes all international traffic outside of the United States.
 
 ## Differences between reported and actual location
 

@@ -9,7 +9,7 @@ This page lists dimensions supported in their respective Analytics capabilities.
 
 >[!NOTE]
 >
->Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension values are specific to individual report suites.
+>Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension items are specific to individual report suites.
 
 >[!NOTE]
 >

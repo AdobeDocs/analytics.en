@@ -15,6 +15,6 @@ The 'Language' dimension shows the top languages that visitors prefer to see con
 
 This dimension references a lookup table internal to Adobe. The lookup value is based on the `Accept-Language` HTTP header in image requests. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box.
 
-## Dimension values
+## Dimension items
 
-Dimension values include friendly names of the preferred languages of visitors. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. If an image request does not contain a valid language in the HTTP header, the dimension value is `"None"`.
+Dimension items include friendly names of the preferred languages of visitors. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. If an image request does not contain a valid language in the HTTP header, the dimension item is `"None"`.

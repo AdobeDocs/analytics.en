@@ -41,7 +41,7 @@ See [Merchandising eVars](/help/implement/vars/page-vars/evar-merchandising.md) 
 The [Instances](../metrics/instances.md) metric is not recommended for use on merchandising variables.
 
 * For merchandising variables using product syntax, instances are not incremented at all.
-* For merchandising variables using conversion variable syntax, instances are counted each time the eVar is set. However, it attributes to the dimension value `"None"` unless all of the following happen on the same hit:
+* For merchandising variables using conversion variable syntax, instances are counted each time the eVar is set. However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
   * The merchandising eVar is set with a value.
   * The `products` variable is defined with a value.
   * A binding event is set.

@@ -105,7 +105,7 @@ The Users flow report shows pathing data in context of visitors arriving through
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
 2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 5. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 

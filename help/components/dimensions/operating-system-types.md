@@ -11,6 +11,6 @@ The 'Operating system types' dimension shows the overarching OS the visitor used
 
 This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the type of operating systems used. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+Dimension items include the type of operating systems used. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.

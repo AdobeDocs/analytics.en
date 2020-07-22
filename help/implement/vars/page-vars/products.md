@@ -5,7 +5,7 @@ description: Send data around what product(s) are displayed or in the cart.
 
 # products
 
-The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension values.
+The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension items.
 
 >[!NOTE]
 >

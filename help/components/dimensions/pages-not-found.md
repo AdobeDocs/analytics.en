@@ -16,6 +16,6 @@ The 'Pages not found' dimension shows URLs that contained an error. This dimensi
 
 This dimension retrieves data from the [`pageType` and `g` query strings](/help/implement/validate/query-parameters.md) in image requests. If the `pageType` query string equals `errorPage`, the `g` query string (page URL) is recorded. AppMeasurement collects this data using the [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable. If the `pageType` variable is not defined or set to anything other than `errorPage`, no data for this dimension is collected.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the URLs of pages on your site where an error occurred.
+Dimension items include the URLs of pages on your site where an error occurred.

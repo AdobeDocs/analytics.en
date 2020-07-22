@@ -11,13 +11,13 @@ The 'Hit depth' dimension reports how far into a visit a given hit is. This dime
 
 This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension value of `"Hit Depth 1"` represents the first hit of the visit, while the dimension value `"Hit Depth 8"` represents the 8th hit of the visit.
+Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
 
 ## Comparison to visit depth
 
-Hit depth counts all types of hits, including page view and link tracking hits. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension value is not the same as the value on the previous page. Visit depth is also a visit-based dimension, meaning it is the same value for all hits in the visit. The following table outlines an example visit and how it considers hit depth + visit depth:
+Hit depth counts all types of hits, including page view and link tracking hits. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. Visit depth is also a visit-based dimension, meaning it is the same value for all hits in the visit. The following table outlines an example visit and how it considers hit depth + visit depth:
 
   | Page sequence | Hit depth | Counts toward visit depth? | Visit depth |
   | --- | --- | --- | --- |

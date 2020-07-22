@@ -85,4 +85,4 @@ If you would like to switch CDA identifying methods, talk to your organization's
 
 ## How does Adobe handle unique limits for an eVar used in field-based stitching?
 
-CDA pulls eVar dimension values before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop/eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension value.
+CDA pulls eVar dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop/eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.

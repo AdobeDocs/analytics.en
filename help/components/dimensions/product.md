@@ -11,6 +11,6 @@ The 'Product' dimension reports the name of the product in the hit. It is useful
 
 This dimension references the second part of the string in the [`products`](/help/implement/vars/page-vars/products.md) variable. Characters between the first and second semicolon (`;`) populates this dimension.
 
-## Dimension values
+## Dimension items
 
-Since this variable is based on a custom string in your implementation, your organization determines what the dimension values are. Adobe recommends that you establish a consistent naming convention for products. [Classifications](../c-classifications2/c-classifications.md) are available if you want to group products differently or provide a more friendly name. Adobe recommends using both the 'Product' and 'Category' dimensions.
+Since this variable is based on a custom string in your implementation, your organization determines what the dimension items are. Adobe recommends that you establish a consistent naming convention for products. [Classifications](../c-classifications2/c-classifications.md) are available if you want to group products differently or provide a more friendly name. Adobe recommends using both the 'Product' and 'Category' dimensions.

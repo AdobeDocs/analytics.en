@@ -11,6 +11,6 @@ The 'Paid search' dimension lets you look at any metric and compare it between p
 
 The only requirement for this dimension to work properly is to have [Paid search detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) configured correctly in report suite settings. If paid search detection is configured correctly and a report suite has data, this dimension always works.
 
-## Dimension values
+## Dimension items
 
-Dimension values include two static values: `"Natural"` and `"Paid"`. If a visit matches criteria for a search engine and also matches paid search detection, it belongs to the `"Paid"` dimension value. If a visit matches criteria for a search engine and does *not* match paid search detection, it belongs to the `"Natural"` dimension value.
+Dimension items include two static values: `"Natural"` and `"Paid"`. If a visit matches criteria for a search engine and also matches paid search detection, it belongs to the `"Paid"` dimension item. If a visit matches criteria for a search engine and does *not* match paid search detection, it belongs to the `"Natural"` dimension item.

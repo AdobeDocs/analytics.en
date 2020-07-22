@@ -63,7 +63,7 @@ Real-time events tells you which events are happening the most on your site. In 
 
 >[!NOTE]
 >
->When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+>When using custom events in real-time reports, the dimension item must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
 
 ## Real-time Conversions
 

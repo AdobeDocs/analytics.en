@@ -1,17 +1,17 @@
 ---
 title: Average time  on site
-description: The average amount of time a given dimension value existed between hits.
+description: The average amount of time a given dimension item existed between hits.
 ---
 
 # Average time on site
 
-The 'Average time on site' metric show the the amount of time that passed between hits for a given dimension value. This metric is helpful when you want to see average time spent for specific dimension values. You can also trend this metric over time to see how overall time spent changes. This metric displays in `HH:MM:SS` format.
+The 'Average time on site' metric show the the amount of time that passed between hits for a given dimension item. This metric is helpful when you want to see average time spent for specific dimension items. You can also trend this metric over time to see how overall time spent changes. This metric displays in `HH:MM:SS` format.
 
 This metric is related to the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension.
 
 ## How this metric is calculated
 
-For a given dimension value, take the timestamp of each hit where that dimension value exists. Compare it with the timestamp of the next hit in the visit. If the hit doesn't have a subsequent hit, do not include it in this metric. Out of all the time spent for the dimension value, divide them all by the number of "sequences" for that dimension value. A "sequence" is where a dimension value is the same for one or more consecutive hits. This resulting number is the metric displayed in reports.
+For a given dimension item, take the timestamp of each hit where that dimension item exists. Compare it with the timestamp of the next hit in the visit. If the hit doesn't have a subsequent hit, do not include it in this metric. Out of all the time spent for the dimension item, divide them all by the number of "sequences" for that dimension item. A "sequence" is where a dimension item is the same for one or more consecutive hits. This resulting number is the metric displayed in reports.
 
 For example, consider the following visit:
 
@@ -28,7 +28,7 @@ For example, consider the following visit:
 | `12:25:40` | `Product page A` |
 
 
-If you want average time on site for the dimension value `Product page A`, first take the amount of time lapsed between hits for that dimension:
+If you want average time on site for the dimension item `Product page A`, first take the amount of time lapsed between hits for that dimension:
 
 * **12:04:20 - 12:05:30** - 1 minute 10 seconds
 * **12:05:30 - 12:07:00** - 1 minute 30 seconds
@@ -54,7 +54,7 @@ The 'Average time on site' metric use unbroken sequences of a given dimension. T
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Calculating average time on site for the dimension value `Home` would use the following calculation:
+Calculating average time on site for the dimension item `Home` would use the following calculation:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -70,6 +70,6 @@ Since there was a single sequence in the breakdown dimension, it uses a differen
 
 ## Percentages above 100%
 
-This metric frequently contains percentages above 100%. The denominator is the entire dimension's average time on site, and the numerator is the dimension value's average time on site. If the entire dimension's average time on site is lower than a given dimension value's average time on site, you'll see percentages above 100%. Sorting ranked reports by this metric shows anomaly average time on site values, which is typically not valuable. Adobe recommends sorting by another metric, such as [Visits](visits.md), in ranked reports.
+This metric frequently contains percentages above 100%. The denominator is the entire dimension's average time on site, and the numerator is the dimension item's average time on site. If the entire dimension's average time on site is lower than a given dimension item's average time on site, you'll see percentages above 100%. Sorting ranked reports by this metric shows anomaly average time on site values, which is typically not valuable. Adobe recommends sorting by another metric, such as [Visits](visits.md), in ranked reports.
 
 See [Time spent overview](time-spent.md) for more general information on time spent.

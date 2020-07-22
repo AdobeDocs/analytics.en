@@ -11,6 +11,6 @@ The 'Time prior to event' dimension reports the amount of time that passed betwe
 
 While this dimension technically works out of the box for all implementations, it works best with custom and purchase events. Adobe recommends implementing custom events on your site. If you implement custom events, no additional implementation is required for this dimension.
 
-## Dimension values
+## Dimension items
 
-Dimension values include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension value.
+Dimension items include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension item.

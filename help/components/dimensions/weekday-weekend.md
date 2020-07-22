@@ -11,6 +11,6 @@ The 'Weekday/Weekend' dimension provides insight on if the hit happened during a
 
 This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
 
-## Dimension values
+## Dimension items
 
-This dimension always contains exactly two dimension values: `"Weekday"` and `"Weekend"`. The dimension value `"Weekday"` applies to all hits Monday through Friday, while the dimension value `"Weekend"` applies to all hits on Saturday and Sunday.
+This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.

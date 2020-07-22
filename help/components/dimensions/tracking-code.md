@@ -11,6 +11,6 @@ The 'Tracking Code' dimension lists the names of tracking codes on your site. Th
 
 This dimension retrieves data from the [`v0` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the names of tracking codes on your site. Your organization determines what specific dimension values you want to use.
+Dimension items include the names of tracking codes on your site. Your organization determines what specific dimension items you want to use.

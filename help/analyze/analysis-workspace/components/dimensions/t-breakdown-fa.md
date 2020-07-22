@@ -17,7 +17,7 @@ Break down your data in unlimited ways for your specific needs; build queries us
 
    ![Step Result](assets/fa_data_table_actions.png)
 
-   You can break down metrics by dimension values or audience segments across selected time periods. You can also drill down further to a more granular level.
+   You can break down metrics by dimension items or audience segments across selected time periods. You can also drill down further to a more granular level.
 
    >[!NOTE] The number of breakdowns to show in the table is limited to 200. This limit will increase for exporting breakdowns.
 

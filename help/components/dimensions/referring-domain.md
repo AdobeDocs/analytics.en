@@ -5,7 +5,7 @@ description: The overarching domain a visitor was on before clicking through to 
 
 # Referring domain
 
-The 'Referring domain' dimension reports which domains visitors click through to reach your site. This dimension is useful to understand which third-party sites drive the most traffic to yours. A link must exist on the external site and a visitor must click it in order for the dimension value to show up.
+The 'Referring domain' dimension reports which domains visitors click through to reach your site. This dimension is useful to understand which third-party sites drive the most traffic to yours. A link must exist on the external site and a visitor must click it in order for the dimension item to show up.
 
 >[!IMPORTANT]
 >
@@ -20,6 +20,6 @@ This dimension requires configuration in the Analytics interface and data in ima
 
 Adobe persists referring domain for a visit. If a visitor leaves and clicks through a link on a different domain within a single visit, the new value updates and persists for the remainder of the visit. If you only want to see the original value, see [Original referring domain](original-referring-domain.md).
 
-## Dimension values
+## Dimension items
 
-Dimension values include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension value `"Typed/Bookmarked"`. This dimension value means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+Dimension items include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.

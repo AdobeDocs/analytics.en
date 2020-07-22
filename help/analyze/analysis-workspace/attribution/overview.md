@@ -1,11 +1,11 @@
 ---
 title: Attribution overview
-description: The concept of attributing credit of a success event to multiple dimension values.
+description: The concept of attributing credit of a success event to multiple dimension items.
 ---
 
 # Attribution overview
 
-Attribution gives analysts the ability to customize how dimension values get credit for success events. For example:
+Attribution gives analysts the ability to customize how dimension items get credit for success events. For example:
 
 1. A visitor to your site clicks a paid search link to one of your product pages. The add the product to the cart, but do not purchase it.
 2. The next day, the see a social media post from one of their friends, click the link, then complete the purchase.

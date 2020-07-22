@@ -92,7 +92,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
-* To access all unique dimension values if you are running into "Low Traffic" in Adobe Analytics
+* To access all unique dimension items if you are running into "Low Traffic" in Adobe Analytics
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 

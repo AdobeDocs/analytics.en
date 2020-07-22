@@ -15,10 +15,10 @@ Every hit sent to Adobe data collection servers run through your report suite's 
 
 If you want to set this dimension to a specific value, the following steps are required:
 
-* Set the desired dimension value as a channel in the Marketing channel manager under Report suite settings.
+* Set the desired dimension item as a channel in the Marketing channel manager under Report suite settings.
 * Set a Marketing channel processing rule that contains the desired criteria for the hit.
 * The visitor's hit to your site must match the criteria outlined in the Marketing channel processing rule.
 
-## Dimension values
+## Dimension items
 
-Dimension values include any channel name in the Marketing channel manager. By default, values include `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`, and `"Referring domains"`. You can add or delete channels in the Marketing channel manager, which affect this dimension's values.
+Dimension items include any channel name in the Marketing channel manager. By default, values include `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`, and `"Referring domains"`. You can add or delete channels in the Marketing channel manager, which affect this dimension's values.

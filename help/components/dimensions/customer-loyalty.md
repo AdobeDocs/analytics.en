@@ -11,13 +11,13 @@ The 'Customer loyalty' dimension reports the number of visitors to your site tha
 
 Adobe automatically populates this dimension based on the [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) event in your implementation. If you implement the `purchase` event on your site, this dimension always works.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the following:
+Dimension items include the following:
 
 * **Not a customer**: At the time of the hit, the visitor has never made a purchase before.
 * **New customers**: At the time of the hit, the visitor made a single purchase before.
 * **Return customers**: At the time of the hit, the visitor made two purchases before.
 * **Loyal customers**: At the time of the hit, the visitor made three or more purchases before.
 
-When a visitor makes a purchase (triggers the `purchase` event), that hit and all subsequent hits move into the next "bucket". For example, if a visitor buys a product from your site for the first time, they move from "Not a customer" to "New customers", with the order attributed to "New customers". The dimension value "Not a customer" cannot have orders attributed to it.
+When a visitor makes a purchase (triggers the `purchase` event), that hit and all subsequent hits move into the next "bucket". For example, if a visitor buys a product from your site for the first time, they move from "Not a customer" to "New customers", with the order attributed to "New customers". The dimension item "Not a customer" cannot have orders attributed to it.

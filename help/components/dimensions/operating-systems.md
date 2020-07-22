@@ -11,6 +11,6 @@ The 'Operating system' dimension shows the operating system and version that the
 
 This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box.
 
-## Dimension values
+## Dimension items
 
-Dimension values include operating systems that visitors use. Examples include `"Windows 10"`, `"OS X 10.15"`, and `"Android 9"`.
+Dimension items include operating systems that visitors use. Examples include `"Windows 10"`, `"OS X 10.15"`, and `"Android 9"`.

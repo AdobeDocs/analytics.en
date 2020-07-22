@@ -20,6 +20,6 @@ If you want to distinguish paid and natural search, [Paid search detection](/hel
 
 This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
-## Dimension values
+## Dimension items
 
-Dimension values include search engines used to reach your site. Example values include `"Google"`, `"Microsoft Bing"`, and `"DuckDuckGo"`. The `"Unspecified"` dimension value is all non-search traffic.
+Dimension items include search engines used to reach your site. Example values include `"Google"`, `"Microsoft Bing"`, and `"DuckDuckGo"`. The `"Unspecified"` dimension item is all non-search traffic.

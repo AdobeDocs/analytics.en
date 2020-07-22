@@ -11,6 +11,6 @@ The 'AM/PM' dimension provides insight on if the hit happened during AM or PM ho
 
 This dimension works out of the box. It does not have any settings to change. Its only dependency is on the report suite's time zone, which determines which hours are AM and which are PM.
 
-## Dimension values
+## Dimension items
 
-This dimension always contains exactly two dimension values: `"AM"` and `"PM"`. The dimension value `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension value `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.

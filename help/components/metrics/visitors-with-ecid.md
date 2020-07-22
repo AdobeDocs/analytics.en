@@ -31,4 +31,4 @@ By adding the calculated metric to the report, you can sort the Pages report so 
 
 ![Pages without ID service](assets/metric-mcvid3.png)
 
-Note that the "Product Quick Views" dimension value are not properly implemented with the Identity Service. You can work with appropriate teams within your organization to update these pages as soon as possible. You can construct a similar report with any type of dimension such as [Browser type](../dimensions/browser-type.md), [Site section](../dimensions/site-section.md), or any [eVar](../dimensions/evar.md).
+Note that the "Product Quick Views" dimension item are not properly implemented with the Identity Service. You can work with appropriate teams within your organization to update these pages as soon as possible. You can construct a similar report with any type of dimension such as [Browser type](../dimensions/browser-type.md), [Site section](../dimensions/site-section.md), or any [eVar](../dimensions/evar.md).

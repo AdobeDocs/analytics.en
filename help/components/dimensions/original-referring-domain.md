@@ -16,6 +16,6 @@ This dimension requires configuration in both the Analytics interface and your i
 
 Adobe persists original referring domain for a visitor's lifetime. If a visitor leaves and clicks through a link on a different domain at any time, the new value is not recorded. If you want to see new values, see [Referring domain](referring-domain.md).
 
-## Dimension values
+## Dimension items
 
-Dimension values include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension value `"None"`. This dimension value means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+Dimension items include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"None"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.

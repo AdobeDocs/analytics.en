@@ -25,11 +25,11 @@ This dimension is hit-based, meaning that the value is different for every hit. 
 
 This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
 
-## Dimension values
+## Dimension items
 
 Multiple dimensions exist for time spent on page:
 
-* **Time spent on page - bucketed**: The amount of time is bucketed. Dimension values range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Time between page views typically don't last longer than 30 minutes; however, time between page views can exceed 30 minutes if using timestamped hits or data sources.
-* **Time spent on page - granular**: Each number of seconds is a unique dimension value.
+* **Time spent on page - bucketed**: The amount of time is bucketed. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Time between page views typically don't last longer than 30 minutes; however, time between page views can exceed 30 minutes if using timestamped hits or data sources.
+* **Time spent on page - granular**: Each number of seconds is a unique dimension item.
 
 See [Time spent overview](../metrics/time-spent.md) for more general information on time spent.

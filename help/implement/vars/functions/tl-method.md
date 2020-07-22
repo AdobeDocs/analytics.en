@@ -72,7 +72,7 @@ s.tl(true,"e");
 
 ### Link name
 
-The link name argument is a string that determines the link tracking dimension value. It is the same as setting the [`linkName`](../config-vars/linkname.md) variable.
+The link name argument is a string that determines the link tracking dimension item. It is the same as setting the [`linkName`](../config-vars/linkname.md) variable.
 
 ```js
 s.tl(true,"d","Example download link");

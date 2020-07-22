@@ -39,7 +39,7 @@ Apple devices report their firmware version in the user agent string, not the de
 
 **Why do totals at the bottom of my report not match when I sum the values?**
 
-Dimension values can often apply in multiple places; for example, visits that span midnight or multiple products belonging to a single order. The dimension value is reported across all applicable line items, but is deduplicated in the report's total. See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+Dimension items can often apply in multiple places; for example, visits that span midnight or multiple products belonging to a single order. The dimension item is reported across all applicable line items, but is deduplicated in the report's total. See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
 
 **How do I exclude data from a particular IP addresses in my report suite?**
 

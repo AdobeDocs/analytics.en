@@ -21,9 +21,9 @@ Each prop collects data from the [`c1` - `c75` query string](/help/implement/val
 
 AppMeasurement, which compiles JavaScript variables into an image request for data collection, uses the variables `prop1` - `prop75`. See [prop](/help/implement/vars/page-vars/prop.md) in the Implement user guide for implementation guidelines.
 
-## Dimension values
+## Dimension items
 
-Since props contain custom strings in your implementation, your organization determines what the dimension values are for each prop. Make sure you record the purpose of each prop and typical dimension values in a [solution design document](/help/implement/prepare/solution-design.md).
+Since props contain custom strings in your implementation, your organization determines what the dimension items are for each prop. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Value of props over eVars
 

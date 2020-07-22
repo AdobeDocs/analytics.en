@@ -21,7 +21,7 @@ As soon as a hit is collected, CDA attempts to stitch it to known devices. Consi
 *Data as it appears the day it is collected:*
 
 | Timestamp | ECID | eVar1 or CustomerID | Explanation of hit | People metric (cumulative) using Device Graph | People metric (cumulative) using Field-based stitching |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob on his desktop computer, unauthenticated | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob logs in on his desktop | `1` (246) | `2` (246 and Bob) |
 | `3` | `3579` | - | Bob on his mobile device, unauthenticated | `2` (246 and 3579) | `3` (246, Bob, and 3579) |
@@ -49,7 +49,7 @@ Approximately once a week, CDA recalculates historical data based on devices it 
 *The same data after replay:*
 
 | Timestamp | ECID | eVar1 or CustomerID | Explanation of hit | People metric (cumulative) using Device Graph | People metric (cumulative) using Field-based stitching |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob on his desktop computer, unauthenticated | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob logs in on his desktop | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | - | Bob on his mobile device, unauthenticated | `1` (Cluster1) | `1` (Bob) |

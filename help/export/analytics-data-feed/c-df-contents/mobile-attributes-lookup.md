@@ -1,13 +1,9 @@
 ---
-title: Data feed header resources
-description: Static header files used in some data feeds.
+title: Mobile attributes lookup
+description: Lookup file for mobile attributes.
 ---
 
-# Data feed header resources
-
-Some data feeds have more than just `hit_data.tsv` and lookup tables. These extra data files depend on the feed's settings, and typically don't include a header file in the feed itself. The following lists and downloads are references for these extra data files.
-
-## Mobile attributes
+# Mobile attributes lookup
 
 Mobile attributes show properties of the mobile device in the hit. This file appears when:
 

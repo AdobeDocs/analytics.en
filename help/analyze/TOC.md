@@ -94,6 +94,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
     + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
     + [FAQ](analysis-workspace/attribution/faq.md)
+  + [Journey IQ](analysis-workspace/journey-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)

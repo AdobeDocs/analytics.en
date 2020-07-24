@@ -20,7 +20,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + Column and row settings {#column-row-settings}
       + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
       + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-      + [Manual vs. dynamic rows](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Dynamic vs. Static items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
     + [Undo and redo settings](analysis-workspace/build-workspace-project/undo-redo.md)
     + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)

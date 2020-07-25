@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
+user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 ---
 

@@ -23,3 +23,10 @@ Adobe persists referring domain for a visit. If a visitor leaves and clicks thro
 ## Dimension items
 
 Dimension items include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+
+### Dimension items containing `googleusercontent.com`
+
+Users can see dimension items with the domain `googleusercontent.com`.
+
+* **Cached pages**: Google's spiders constantly crawl the web and store copies of pages in case they are taken offline. These cached pages are available next to most search results by clicking the "Cached" link. When a user clicks this link and views the content that Google cached, `googleusercontent.com` is the dimension item.
+* **Translated pages**: Google offers a robust and convenient translation service. When viewing a site using this service, it originates from `googleusercontent.com`. This dimension item appears if the user clicks a link to return to the original content.

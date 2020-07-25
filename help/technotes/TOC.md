@@ -24,6 +24,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
 + Analyze data impacted by events {#event}
   + [Analyze data impacted by events overview](event/overview.md)
+  + [Troubleshoot spikes/drops in data](event/spikes-drops.md)
   + [Exclude specific dates in analysis](event/segments.md)
   + [Compare dates to previous ranges](event/compare-dates.md)
   + [Derive data impacted by events](event/calcmetrics.md)

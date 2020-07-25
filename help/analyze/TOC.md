@@ -21,7 +21,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + Column and row settings {#column-row-settings}
       + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
       + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-      + [Manual vs. dynamic rows](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Dynamic vs. Static items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
     + [Undo and redo settings](analysis-workspace/build-workspace-project/undo-redo.md)
     + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -95,6 +95,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
     + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
     + [FAQ](analysis-workspace/attribution/faq.md)
+  + [Journey IQ](analysis-workspace/journey-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)

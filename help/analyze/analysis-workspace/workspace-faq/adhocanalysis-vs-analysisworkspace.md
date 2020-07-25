@@ -49,6 +49,10 @@ For a technical comparison of key features and system requirements between these
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Video: Using Segments in Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Video: Applying Segments to a Panel</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>Create temporary ("ad-hoc") segments </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Additionally, Dropdown filters can be added in the panel drop zone to create many temporary segments at once, enabling controlled project interactions. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad Hoc Segments in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Dropdown filters in Analysis Workspace</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>Choose Date Ranges &amp; Granularities </p> </td> 
    <td colname="col2"> <p>Date ranges &amp; granularities are available under the Time component menu, and can be used in 3 ways: </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -56,10 +60,6 @@ For a technical comparison of key features and system requirements between these
      <li id="li_85BB89EFF9C8466A992815BB7804EA37">'Apply' applies a date range to all visualizations within a panel. This is similar to a Workspace date range in Ad Hoc Analysis. </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">'Apply To All Panels' applies a date range to all panels within a Workspace project. This is similar to a Project date range in Ad Hoc Analysis. </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > Video: Working with Dates in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > Video: Custom date ranges</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Create internal ("ad-hoc") segments </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, internal ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad Hoc Segments in Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use Fallout &amp; Conversion Funnels </p> </td> 
@@ -76,10 +76,7 @@ For a technical comparison of key features and system requirements between these
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Flow can span a visit or visitor. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Key statistics are shown in terms of % path views. </li> 
-    </ul> <p>Additionally, Flow allows for <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > mixed dimensions</a> and the ability to right-click and create a segment, an improvement over Ad Hoc Analysis. </p> <p>Currently, Flow in Analysis Workspace <b>cannot</b>: </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">Turn off repeat instances. </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Allow users to choose a success event. </li> 
+    </ul> <p>Additionally, Flow allows for <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > mixed dimensions</a> and the ability to right-click and create a segment, an improvement over Ad Hoc Analysis. </p> <p>Currently, Flow in Analysis Workspace <b>cannot</b> allow users to choose a success event. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Overview of Flow Visualization</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Multi-Dimensional Flow</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Creating Segments from Flow</a> </p> </td> 
   </tr> 
   <tr> 
@@ -92,20 +89,12 @@ For a technical comparison of key features and system requirements between these
   </tr> 
   <tr> 
    <td colname="col1"> <p>Select Report Suites </p> </td> 
-   <td colname="col2"> <p>Similar to Ad Hoc Analysis, only one report suite can be selected for a Workspace project. Multi-report-suite handling is planned, however. </p> </td> 
+   <td colname="col2"> <p>Multiple report suites can be added to a single project in Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Multiple Report Suites in Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace lets you add many new types of attribution models to Freeform Tables, Visualizations, and Calculated metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Not included </p> </td> 
-   <td colname="col2"> <p>Add date ranges to segments. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Not included </p> </td> 
-   <td colname="col2"> <p>Use "Only Before/Only After" sequencing in segments. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> in Analysis Workspace lets you add many new types of attribution models to Freeform Tables, Visualizations, and Calculated metrics. It includes 10+ rule-based and algorithmic models. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: Attribution IQ in Freeform Tables</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 

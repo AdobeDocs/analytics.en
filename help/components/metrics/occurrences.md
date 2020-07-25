@@ -9,7 +9,7 @@ The 'Occurrences' metric shows the number of hits where a given dimension was se
 
 ## How this metric is calculated
 
-Out of all hits in a report suite, include hits where a dimension item is defined or persisted. Some dimensions, such as [eVars](../dimensions/evar.md), persist beyond the hit they are set on. Metrics like [Page views](page-views.md) and [Occurrences](occurrences.md) count both initial and persisted values. This metric does not count persisted values.
+Out of all hits in a report suite, include hits where a dimension item is defined or persisted. Some dimensions, such as [eVars](../dimensions/evar.md), persist beyond the hit they are set on. Metrics like [Page views](page-views.md) and [Occurrences](occurrences.md) count both initial and persisted values.
 
 ## Compare to similar metrics
 

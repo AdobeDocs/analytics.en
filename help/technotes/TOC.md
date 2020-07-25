@@ -2,6 +2,7 @@
 product: analytics
 audience: all
 user-guide-title: Analytics tech notes
+user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 ---
 

@@ -41,7 +41,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 ## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
+**[Classifications](/help/components/classifications/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:

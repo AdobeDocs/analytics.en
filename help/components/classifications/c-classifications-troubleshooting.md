@@ -12,5 +12,5 @@ Resources to help you troubleshoot issues with the importer.
 
 * [None, Unspecified, Unknown, and Other in reporting](/help/technotes/unspecified.md) 
 * [Common Classification Upload Issues](http://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
-* [Delete classification data](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md)
+* [Delete classification data](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md)
 

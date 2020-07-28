@@ -9,7 +9,7 @@ You can combine the Classification Rule Builder with sub-classifications if you 
 
 Combining the Classification Rule Builder with sub-classifications can simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
 
-See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/classifications/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 ## Example
 
@@ -21,7 +21,7 @@ A classification hierarchy allows you to apply a classification to a classificat
 
 ![](assets/sub_class_table.png)
 
-After you have this structure in place, you can use the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Then, you can use the rule builder to keep the main classification table up-to-date.
+After you have this structure in place, you can use the [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) to upload small files that only update the lookup tables (the green and red tables in the preceding image). Then, you can use the rule builder to keep the main classification table up-to-date.
 
 The following task describes how to accomplish this.
 
@@ -31,7 +31,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
+>These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
 1. Create classifications and sub-classifications in the [Classification Manager](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
 
@@ -39,7 +39,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    ![Step Info](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    You perform this using a regular expression. In this example, the rule to populate *`Broad Campaign code`* would use this regular expression: 
 
@@ -54,7 +54,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
 1. Upload a classification file that includes only the sub-classifications specified.
 
-   See [Multiple-Level Classifications](/help/components/c-classifications2/c-sub-classifications.md).
+   See [Multiple-Level Classifications](/help/components/classifications/c-sub-classifications.md).
 
    Example: 
 

@@ -16,7 +16,7 @@ Classifications are used to categorize values into groups and report at the grou
 
 Conversion classifications let you classify conversion variables. Once classified, any report that you can generate using the key data can also be generated using the associated data properties.
 
-After enabling classifications, use the [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
+After enabling classifications, use the [Classification Importer](/help/components/classifications/c-classifications-importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
 
 ## Conversion Classifications Descriptions {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -67,10 +67,10 @@ Steps that describe how to add conversion classifications in Admin.
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. In the **[!UICONTROL Select Type]** field, select the type of classification you want to add to the variable.
 
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/classifications/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
-   See [Conversion Classifications Descriptions](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) for information about these elements.
+   See [Conversion Classifications Descriptions](/help/components/classifications/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) for information about these elements.
 
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 

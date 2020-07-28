@@ -40,7 +40,7 @@ This page displays the rules in a rule set.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configure Report Suites and Variables </p> </td> 
-   <td colname="col2"> <p>Displays the <span class="wintitle"> Available Report Suites</span> page, where you can select one or more available report suites to use for all your rule sets. (This page also displays when you first run the <span class="wintitle"> Classification Rule Builder</span>.) </p> <p>This feature is intended to help reduce report suite load time, in the event that you have hundreds of available report suites. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>Displays the <span class="wintitle"> Available Report Suites</span> page, where you can select one or more available report suites to use for all your rule sets. (This page also displays when you first run the <span class="wintitle"> Classification Rule Builder</span>.) </p> <p>This feature is intended to help reduce report suite load time, in the event that you have hundreds of available report suites. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="/help/components/classifications/crb/classification-rule-set.md"  > Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rules overwrite any existing values </p> </td> 
@@ -52,10 +52,10 @@ This page displays the rules in a rule set.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lookback window </p> </td> 
-   <td colname="col2"> <p>When you activate and validate rules, you can specify whether the rules should overwrite existing classifications for affected keys. (Only classified keys that have been previously passed into <span class="keyword"> Adobe Analytics</span> within the time period you specify are affected.) </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) Existing classifications are never overwritten unless you enable this option. </p> <p><b>Dev Center</b>: Partners can create classification rules in the <span class="wintitle"> Dev Center</span>. These rules are deployed when the customer activates an integration. In the <span class="wintitle"> Dev Center</span>, the <span class="uicontrol"> Overwrite Since</span> option lets the partner specify whether the customer can determine the overwrite value when activating or editing an integration. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>When you activate and validate rules, you can specify whether the rules should overwrite existing classifications for affected keys. (Only classified keys that have been previously passed into <span class="keyword"> Adobe Analytics</span> within the time period you specify are affected.) </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) Existing classifications are never overwritten unless you enable this option. </p> <p><b>Dev Center</b>: Partners can create classification rules in the <span class="wintitle"> Dev Center</span>. These rules are deployed when the customer activates an integration. In the <span class="wintitle"> Dev Center</span>, the <span class="uicontrol"> Overwrite Since</span> option lets the partner specify whether the customer can determine the overwrite value when activating or editing an integration. </p> <p>See <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Add Rule </a> </td> 
+   <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Add Rule </a> </td> 
    <td colname="col2"> <p>Lets you add rules to the rule set. </p> <p>Note:  If a value is matched twice or more in a set of rules, the system uses the last rule to classify the value. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ This page displays the rules in a rule set.
    <td colname="col2"> Duplicates (copies) a rule set, so that you can apply the rule set to another variable, or to the same variable in a different report suite. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Test Rule Set </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Test Rule Set </a> </p> </td> 
    <td colname="col2"> <p>Lets you test the validity of a rule set. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ This page displays the rules in a rule set.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>The rule number. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information. </p> </td> 
+   <td colname="col2"> <p>The rule number. </p> <p>See <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Select Rule Type</span> </td> 
@@ -89,7 +89,7 @@ This page displays the rules in a rule set.
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Starts With </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Ends With </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contains </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Regular Expression </a> </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Regular Expression </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -125,7 +125,7 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 |  Match Groups  | Shows how the regular expression corresponds to the campaign ID characters, so that you can classify a position in the campaign ID.  |
 |  Match Result  | Displays the parts of a string that successfully match the regular expression.  |
 
-See [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+See [Regular Expressions in Classification Rules](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Testing Page {#section_EC926F97901C4E65901413F9683AA70A}
 

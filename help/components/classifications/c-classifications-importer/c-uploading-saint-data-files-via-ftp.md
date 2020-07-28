@@ -33,7 +33,7 @@ If you have exceeded your uniques for the month, you will not see the correspond
 >
 >The time required to process a classification data file varies on the size of the file and the current number of files already being processed by Adobe's servers. Processing of data files usually takes no longer than 72 hours.
 
-Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Before uploading data via FTP, create an FTP account. For more information, see [Create an FTP account](/help/components/classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Import classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -45,7 +45,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 Steps that describe how to use an FTP account to import classifications into Adobe Analytics.
 
-For more information about creating an FTP account, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+For more information about creating an FTP account, see [Create an FTP account](/help/components/classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.

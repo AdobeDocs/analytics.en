@@ -38,7 +38,7 @@ Reporting and analytics includes pre-defined classifications for the tracking co
 
 See [Traffic Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) and [Conversion Classifications](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-The following table describes the different types of classifications that are available, and the variable types that support them. Review the information in [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) before uploading data files.
+The following table describes the different types of classifications that are available, and the variable types that support them. Review the information in [General File Structure](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) before uploading data files.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 

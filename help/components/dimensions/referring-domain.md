@@ -11,6 +11,8 @@ The 'Referring domain' dimension reports which domains visitors click through to
 >
 >You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
 
+The same report can show different results between Analysis Workspace and Data Warehouse. Analysis Workspace reports the referring domain for each individual page, excluding values that match internal URL filters. Data Warehouse reports only the first referring domain of the visit, and ignores internal URL filters.
+
 ## Populate this dimension with data
 
 This dimension requires configuration in the Analytics interface and data in image requests.

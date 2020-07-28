@@ -29,7 +29,7 @@ The following fields and options are available on the [!UICONTROL Classification
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Add Rule Set</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/classifications/crb/classification-rule-set.md"  > Add Rule Set</a> </p> </td> 
    <td colname="col2"> <p>Creates a rule set. </p> </td> 
   </tr> 
   <tr> 
@@ -76,6 +76,6 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
    The report suite and variable list is populated with all classified variables available in all the report suites in your log-in company. A single variable in a report suite can belong to only one rule set.
 
-   See *`Variable`* in the definitions for the [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) page for more information.
+   See *`Variable`* in the definitions for the [Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) page for more information.
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. Continue by [adding classification rules](/help/components/classifications/crb/classification-rule-set.md) to the rule set.

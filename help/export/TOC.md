@@ -29,6 +29,7 @@ user-guide-url: /content/help/en/analytics/export/home.html
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
   + [Create a Data Warehouse request](data-warehouse/t-dw-create-request.md)
+  + [Request delivery time](data-warehouse/delivery-time.md)
   + [Tableau data file](data-warehouse/t-tableau.md)
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)
   + [Schedule a recurring request](data-warehouse/dw-schedule-recurring.md)

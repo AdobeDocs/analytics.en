@@ -25,13 +25,13 @@ Each classification in this model is independent and corresponds to a new sub-re
 |  123  | ABC  | A12B  |
 |  456  | DEF  | C3D4  |
 
-For more information about the data file, see [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+For more information about the data file, see [Classification Data Files](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
 
 Multiple-level classifications are comprised of parent and child classifications. For example:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Parent classifications:** A parent classification is any classification that has an associated child classification. A classification can be both a parent and child classification. The top-level parent classifications correspond to single-level classifications (See [Single-Level Classifications](/help/components/c-classifications2/c-sub-classifications.md)).
+**Parent classifications:** A parent classification is any classification that has an associated child classification. A classification can be both a parent and child classification. The top-level parent classifications correspond to single-level classifications (See [Single-Level Classifications](/help/components/classifications/c-sub-classifications.md)).
 
 **Child classifications:** A child classification is any classification that has another classification as its parent instead of the variable. Child classifications provide additional information about their parent classification. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] classifications also function as metrics in classification reports.
 
@@ -39,7 +39,7 @@ Each classification, either parent or child, constitutes one data column in the 
 
 `<parent_name>^<child_name>`
 
-For more information about the data file format, see [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+For more information about the data file format, see [Classification Data Files](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
 
 For example: 
 

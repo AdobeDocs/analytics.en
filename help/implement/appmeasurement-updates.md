@@ -349,7 +349,7 @@ Release Date: **September 18, 2014**
 * Fixed an issue that caused a double page-view count when s.t was called from a link onclick function, if the Visitor API does not have the needed values yet.
 * HTTP POST support.
 
-  > [!IMPORTANT] For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
+  >[!IMPORTANT] For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
 
 ## Version 1.4
 

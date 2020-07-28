@@ -1,5 +1,5 @@
 ---
-title: Dynamic vs static dimension items
+title: Dynamic vs static dimension items in freeform tables
 description: How to interact with dynamic and static dimension items in tables.
 ---
 
@@ -17,6 +17,8 @@ For example, when you drag the Browser Type dimension into the table, the top Br
 
 Dynamic dimension items have the row filter option, and do **not** have lock and X icons present.
 
+![](assets/dynamic-items.png)
+
 ## Static dimension items
 
 Static dimension items do not change with time; they are fixed components that are always returned in a freeform table. Static dimension items are preferred when you want to always analyze the same item, whether it be specific campaigns or specific days in the week.
@@ -30,15 +32,17 @@ For example, when you drag over specific Browser Type items such as Microsoft an
 
 Static dimension items do **not** have the row filter option. Instead, lock and X icons are present on each item. Click the X icon to remove that dimension item from the table.
 
+![](assets/static-items.png)
+
 ## Mixed dimension items
 
 Dimension items from different dimensions can be added to the same table. The row header say "Mixed Dimensions" in these cases. These dimension items are static. For example, adding specific dimension items from the Browser Type dimension and other dimension items from the Browser dimension.
+
+![](assets/mixed-dimensions.png)
 
 ## Freeform total rows
 
 Dynamic and static rows behave differently in the freeform total row. By default:
 
 * Dynamic rows are summed server-side and de-duplicate metrics such as visits or visitors
-* Static rows are summed client-side and do **not** de-duplicate metrics. 
-
-[Learn more about Workspace total](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) options for dynamic and static rows.
+* Static rows are summed client-side and do **not** de-duplicate metrics. To calculate the total row server-side, change the Row setting to **Show grand total**. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)

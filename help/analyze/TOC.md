@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
+user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 ---
 
@@ -20,7 +21,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + Column and row settings {#column-row-settings}
       + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
       + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-      + [Manual vs. dynamic rows](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Dynamic vs. Static items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
     + [Undo and redo settings](analysis-workspace/build-workspace-project/undo-redo.md)
     + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)

@@ -36,7 +36,7 @@ Data elements are references to specific parts of your site to collect variable 
    * Extension: Core
    * Data Element Type: JavaScript Variable
    * Path to variable: `window.document.title`
-      > [!NOTE] Note: This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
+      >[!NOTE] Note: This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
    * Clean text checked
    * Duration: Pageview
 5. Click Save.

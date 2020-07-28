@@ -20,7 +20,7 @@ You must have access to your hosting servers to successfully implement a page wi
    * `s.trackingServer` contains the location cookies are stored. See [trackingServer](../../vars/config-vars/trackingserver.md).
 2. **Host the `s_code.js` file on your site**: This file typically resides with other scripts on your web server.
 3. **Reference `s_code.js` on all pages**: Make sure all individual pages call the core JavaScript file, and do so within the HTML `<body>` tag (not the `<head>` tag).
-   > [!TIP] H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
+   >[!TIP] H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
 4. **Define page-specific variables on each page**: Each page should have individual variables defined, such as page name or eVars. Individual variables are typically defined with an inline `<script>` tag on each page.
 5. **Use the debugger to verify data collection**: Download and install the [Experience Cloud debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
 

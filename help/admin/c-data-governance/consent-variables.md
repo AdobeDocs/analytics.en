@@ -38,7 +38,7 @@ Each report suite can be configured as follows:
 
 1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
 
-    > [!NOTE] Once enabled these variables cannot be turned off.
+    >[!NOTE] Once enabled these variables cannot be turned off.
 
     ![](assets/rsm-privacy-enable.png)
 

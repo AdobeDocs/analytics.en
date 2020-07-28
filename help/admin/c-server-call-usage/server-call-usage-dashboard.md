@@ -21,7 +21,7 @@ The Current Usage dashboard
 
 * Compares your current period's usage to last year's usage (blue line). Obviously, the blue line will only appear if your company has server call usage data from the previous year.
 
-  > [!NOTE] If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
+  >[!NOTE] If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
 
 * Lists the percentage of calls used (in percentages and raw data), and the percentage of the usage period spent (in percentages and raw data).
 * By default, is updated daily, with a 5-day processing latency.

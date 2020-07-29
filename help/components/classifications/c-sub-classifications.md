@@ -25,7 +25,7 @@ Each classification in this model is independent and corresponds to a new sub-re
 |  123  | ABC  | A12B  |
 |  456  | DEF  | C3D4  |
 
-For more information about the data file, see [Classification Data Files](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+For more information about the data file, see [Classification Data Files](/help/components/classifications/importer/c-saint-data-files.md).
 
 Multiple-level classifications are comprised of parent and child classifications. For example:
 
@@ -39,7 +39,7 @@ Each classification, either parent or child, constitutes one data column in the 
 
 `<parent_name>^<child_name>`
 
-For more information about the data file format, see [Classification Data Files](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+For more information about the data file format, see [Classification Data Files](/help/components/classifications/importer/c-saint-data-files.md).
 
 For example: 
 

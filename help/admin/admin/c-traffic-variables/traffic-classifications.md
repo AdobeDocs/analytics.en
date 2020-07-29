@@ -12,4 +12,4 @@ Traffic classifications allow you to classify traffic variables (props). Traffic
 
 The Traffic Classifications page lets you create classifications for the selected report suites. Once classified, any report that you can generate using the key data can also be generated using the associated attributes.
 
-After enabling classifications, use [Classifications Importer](/help/components/classifications/c-classifications-importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
+After enabling classifications, use [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.

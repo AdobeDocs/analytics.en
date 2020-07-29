@@ -22,7 +22,7 @@ This dimension requires configuration in the Analytics interface and data in ima
 
 ## Dimension items
 
-Dimension items include URLs that visitors click through to your site. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+Dimension items include URLs that visitors click through to your site. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark. The `"Typed/Bookmarked"` dimension item also appears for redirects that don't accommodate Analytics. See [Redirects and aliases](/help/technotes/redirects.md) in the Technotes user guide.
 
 ### Dimension items containing `googleusercontent.com`
 

@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 * **Report suites**: You cannot choose a classification until at least one report suite is selected. You cannot apply the report suite until you have created the rule set and assigned a variable.
 
-  When you test the rule set, use keys (the variable being classified) from the report to see how they will be impacted by the rule set. (The [key](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) is the variable being classified, or the first column in the classification upload table.) 
+  When you test the rule set, use keys (the variable being classified) from the report to see how they will be impacted by the rule set. (The [key](/help/components/classifications/importer/c-saint-data-files.md) is the variable being classified, or the first column in the classification upload table.) 
 
 * **Rule priority**: If a key matches multiple rules that set the same classification (in the [!UICONTROL Set Classification] column), the last rule that matches the classification is used. See [About Rule Priority](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -72,7 +72,7 @@ about_classification_rules.xml
 
 ## When Do Rules Not Classify Keys? 
 
-When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)(variable) if:
+When you activate rules, you can overwrite existing classifications. In the following situations, a classification rule does not classify a [key](/help/components/classifications/importer/c-saint-data-files.md)(variable) if:
 
 * The key is already classified and you do not select [Overwrite Classifications](/help/components/classifications/crb/classification-rule-definitions.md).
 

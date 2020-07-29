@@ -30,7 +30,7 @@ The template includes the currently defined classifications (column headings) of
 >
 >The Template method limits your classification data download to a single report suite.
 
-For more information about the data file structure, see [About Classification Data Files](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+For more information about the data file structure, see [About Classification Data Files](/help/components/classifications/importer/c-saint-data-files.md).
 
 ## Download a classifications data template (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -41,7 +41,7 @@ The template provides the file format you must follow for classifications.
 >The Template method limits your data download to a single report suite.
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/classifications/c-classifications-importer/c-download-saint-data.md).
+1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/classifications/importer/c-download-saint-data.md).
 1. Click **[!UICONTROL Download]**.
 1. Save the template file to your local system.
 

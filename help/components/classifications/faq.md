@@ -19,9 +19,24 @@ Classification files uploaded with either a key value or classification value of
 
 * **Request a VISTA rule**: An Engineering Services consultant sets up a server-side rule for you at an extra cost. Contact your organization's Account Manager to request a VISTA rule.
 
-## Can I use the uploader to classify dimension items that don't yet exist?
+## Can I use the classification importer to classify dimension items that don't yet exist?
 
 Yes, *however doing so counts each dimension item as a billable server call.*
 
 * Dimension items that already exist do not incur any extra cost.
 * Using the classification rule builder does not classify non-existent items, and therefore does not incur any extra cost.
+
+## How do I classify values that contain special characters?
+
+Using special charaters such as commas or double quotes in reporting is typically not recommended. However, in some cases their use is necessary. If your reporting values contain such charaters that you choose to classify, use the following steps:
+
+1. Log in to Adobe Analytics, then navigate to **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.
+2. Click the **[!UICONTROL Browser export]** tab.
+3. Configure export settings, and make sure that 'Quote Output' is NOT selected.
+4. Click **[!UICONTROL Export File]**, and open the downloaded file in a spreadsheet editor.
+5. On line 1, locate cell C1, which contains the value `v:2.0`. Change the value to `v:2.1` and apply the desired classifications to the workbook.
+6. Upload the file as you would any other classification.
+
+## What are Numeric 2 classifications?
+
+Numeric 2 classifications let you classify dimension items as time-based metrics. They were retired from the Analytics UI in July 2019.

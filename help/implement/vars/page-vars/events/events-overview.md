@@ -5,7 +5,9 @@ description: Set the events variable, which governs most metrics on your site.
 
 # events
 
-Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site.
+Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site. Events typically increment [metrics](/help/components/metrics/overview.md) in reports.
+
+Before implementing events, make sure that you create and configure them under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
 
 ## Events in Adobe Experience Platform Launch
 
@@ -70,12 +72,14 @@ s.events = "event1=2,event2";
 
 You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. They are useful to help calculate shipping costs, discounts, or refunds. You can set currency events in the `products` variable if you want to attribute the event to only that product.
 
+Before implementing currency events, make sure that you set the desired event to 'Currency' under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings.
+
 ```js
-// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1=9.99";
 
-// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
@@ -89,11 +93,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion. You can set numeric events in the `products` variable if you want to attribute the event to only that product.
 
+Before implementing numeric events, make sure that you set the desired event to 'Numeric' under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings.
+
 ```js
-// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1=4.5";
 
-// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```

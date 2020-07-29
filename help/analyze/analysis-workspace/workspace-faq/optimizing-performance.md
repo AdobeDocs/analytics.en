@@ -27,7 +27,7 @@ While some of the complexity factors cannot be prevented, think about opportunit
 * With operators, "equals" will be faster than "contains", and "equals any of" will be faster than "contains any of".
 * With many criteria, AND operators will be faster than a series of OR operators. Also, look for opportunities to reduce many OR statements into a single "equals any of" statement.
 
-In addition, [classifications](/help/components/c-classifications2/c-classifications.md) can help consolidate many values into concise groups from which you can then create segments. Segmentation on classification groups provides performance benefits over segments that contain many OR statements or "contains" criteria.
+In addition, [classifications](/help/components/classifications/c-classifications.md) can help consolidate many values into concise groups from which you can then create segments. Segmentation on classification groups provides performance benefits over segments that contain many OR statements or "contains" criteria.
 
 ## Range of data requested
 

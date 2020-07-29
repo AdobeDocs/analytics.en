@@ -40,7 +40,7 @@ Setting up real-time reports within Reports & Analytics consists of selecting th
    >
    >For a single Real-Time report, we do not currently support enabling duplicate dimensions, even if a different classification is selected for each dimension.
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   For more information about classifications, see [About Classifications](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >

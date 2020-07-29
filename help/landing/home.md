@@ -52,7 +52,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
 *   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
-*   [Classifications](/help/components/c-classifications2/c-classifications.md)
+*   [Classifications](/help/components/classifications/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)

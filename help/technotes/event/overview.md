@@ -11,7 +11,11 @@ Sometimes an event can impact data quality in your organization. Examples includ
 * Your organization pushed an update to your website that negatively impacted your Analytics implementation
 * Other issues that affect data quality or completeness
 
-If your site experienced data quality issues, implementation issues, or other gaps in data, you might want to exclude it from reporting to prevent making decisions on partial data. Use these sections to gauge the impact of the event on your data, and determine how you want to proceed.
+If your site experienced any kind of data quality issue, you might want to exclude it from reporting to prevent making business decisions on it. Use these sections to gauge the impact of the event on your data, and determine how you want to proceed.
+
+## Determine the cause of an event
+
+If you are not sure why you see a spike or drop in data, see [Troubleshoot spikes/drops in data](spikes-drops.md).
 
 ## Analyze and exclude data using segmentation
 

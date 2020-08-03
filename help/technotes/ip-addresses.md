@@ -7,7 +7,7 @@ description: If your organization's firewall blocks IP addresses that originate 
 
 Some firewall configurations block IP addresses originating from Adobe's data collection servers or servers responsible for accessing data. The following list of IP address blocks covers the currently known addresses involved in the Adobe Experience Cloud. You can use this list of ranges to alter your organization's firewall settings to allow access and to send data from within your organization.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >While Adobe does its best to keep this document current, it cannot guarantee the list of IP ranges remain the same. Possible changes include growth and expansion of the business, an internet registry requires changes to Adobe's IP address space, or an internet service provider stops functioning.
 

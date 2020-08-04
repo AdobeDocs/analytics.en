@@ -58,7 +58,6 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
 | Setting | Description |
 |--- |--- |
 |Fallout Container <ul><li>Visit</li><li>Visitor</li></ul>|Lets you switch between Visit and Visitor to analyze visitor pathing. The default is Visitor.  These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.|
-|Show "All Visitors" as the first touchpoint|You can deselect this if you'd rather not have "All Visitors" as the first touchpoint.|
 
 When you **right-click a touchpoint**, the following options appear:
 

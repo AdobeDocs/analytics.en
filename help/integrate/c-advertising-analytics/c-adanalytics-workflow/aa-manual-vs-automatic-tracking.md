@@ -94,7 +94,7 @@ Examples of tracking codes in various final URL suffix formats:
 **{lpurl}**
 
 ```
-{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
+{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **`{lpurl}` with additional URL parameter**
@@ -104,9 +104,10 @@ Examples of tracking codes in various final URL suffix formats:
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**3rd-party (DoubleClick) `{unescapedlpurl}**
+**3rd-party (DoubleClick) `{unescapedlpurl}`**
 
-```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
+```
+https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **3rd-party (DoubleClick) `{lpurl}`**

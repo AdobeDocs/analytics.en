@@ -19,6 +19,8 @@ This dimension references lookup rules internal to Adobe. The lookup value is ba
 
 Dimension items include regions and the country that the region resides in. Example values include `"California (United States)"`, `"Tokyo (Japan)"`, or `"Sao Paulo (Brazil)"`.
 
+Some dimension items can include `"AOL"`, a dial-up internet service provider. Subscribers to this service are assigned an access point based on the country where their account number is established. AOL users use the IP address of this access point. Since this dimension is based on IP address, the geolocation of the access point is used instead of the visitor's actual location.
+
 ## Differences between reported and actual location
 
 Since this dimension is based on IP address, some scenarios can show a difference between reported location and actual location:

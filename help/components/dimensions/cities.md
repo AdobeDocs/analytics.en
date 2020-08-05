@@ -19,6 +19,8 @@ This dimension references lookup rules internal to Adobe. The lookup value is ba
 
 Dimension items include cities all over the world. Example values include `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"`, or `"London (London, United Kingdom)"`.
 
+Some dimension items can include `"AOL"`, a dial-up internet service provider. Subscribers to this service are assigned an access point based on the country where their account number is established. AOL users use the IP address of this access point. Since this dimension is based on IP address, the geolocation of the access point is used instead of the visitor's actual location.
+
 ## Differences between reported and actual location
 
 Since this dimension is based on IP address, some scenarios can show a difference between reported location and actual location:

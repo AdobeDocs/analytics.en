@@ -23,7 +23,7 @@ You can add recipients to one of three project roles. Project roles are tied to 
 
 ### No role assigned (Project link recipients)
 
-If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share] > [!UICONTROL Get project link]**), they will be placed into a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**.
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share] > [!UICONTROL Get project link]**), they will be placed into a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**.
 
 ### Multiple roles assigned
 
@@ -59,7 +59,7 @@ All users can share projects to groups, which are a collection of recipients. In
 
 ## Share a project link {#Links} 
 
-You can get a link a project under **[!UICONTROL Share] > [!UICONTROL Get project link]**. When clicked, recipients will be required to log in before landing in the project. If the recipient has not been placed in a role, they will receive a default role. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**.
+You can get a link a project under **[!UICONTROL Share] > [!UICONTROL Get project link]**. When clicked, recipients will be required to log in before landing in the project. If the recipient has not been placed in a role, they will receive a default role. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) about creating shareable links to Workspace projects.
 
 ## Share projects in the Project manager {#Manager} 
 

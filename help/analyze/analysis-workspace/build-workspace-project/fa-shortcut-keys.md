@@ -13,6 +13,7 @@ Hotkeys (keyboard shortcuts) are available in Analysis Workspace for seamless na
 Note: `CTRL` = Windows and `command` = Mac 
 
 ## Navigation actions
+
 |Action|Shortcut|
 |---|---|
 |Create New Project|ctrl (or cmd) + shift + p|
@@ -26,6 +27,7 @@ Note: `CTRL` = Windows and `command` = Mac
 |Move to previous panel|alt + Left Key|
 
 ## Analysis actions
+
 |Action|Shortcut|
 |---|---|
 |Search left rail|ctrl + /|
@@ -42,6 +44,7 @@ Note: `CTRL` = Windows and `command` = Mac
 |Set as Landing Page|ctrl (or cmd) + shift + l|
 
 ## Add panels and visualizations actions
+
 |Action|Shortcut|
 |---|---|
 |New Analytics for Target Panel|alt + g|
@@ -56,6 +59,7 @@ Note: `CTRL` = Windows and `command` = Mac
 |New Bar Chart|alt + 3|
 
 ## Democratization actions
+
 |Action|Shortcut|
 |---|---|
 |Save Project|ctrl (or cmd) + s|

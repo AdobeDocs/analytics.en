@@ -1,5 +1,5 @@
 ---
-description: Learn how to create shareable links to projects
+description: Learn how to create shareable links to projects or visualizations
 keywords: Analysis Workspace sharing
 title: Create shareable links
 ---
@@ -10,7 +10,7 @@ Analysis Workspace offers many ways to share a project to your users, including 
 
 ## Get project link {#project-link} 
 
-To share a link to the full project, go to **Share > Get project link**. If the recipient of the link has not been put into a [project role]( https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive Can edit and Non-admins receive Can duplicate experiences. 
+To share a link to the full project, go to **[!UICONTROL Share > Get project link]**. If the recipient of the link has not been assigned a [project role](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]** experiences. 
 
 ![](assets/get-project-link.png)
 
@@ -18,9 +18,8 @@ To share a link to the full project, go to **Share > Get project link**. If the 
 
 You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users’ attention to key insights within the project.  
 
-* From any panel header, right-click > **Get panel link** 
-
-* From any table or visualization header, right-click > **Get visualization link** 
+* From any panel header, right-click **[!UICONTROL Get panel link]** 
+* From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
 
 [Watch the video](https://www.youtube.com/watch?v=lvmAdKNfWQw) on how to create links and use them to drive recipients to specific parts of your project. 
 

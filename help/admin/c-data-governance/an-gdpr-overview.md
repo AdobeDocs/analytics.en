@@ -43,6 +43,8 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
 * Set a data retention policy for each report suite so that GDPR Delete and Access requests can be honored.
 
-  >[!NOTE] Adobe Analytics cannot assist you with processing requests to the GDPR API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Customer Success Manager in order to set your data retention period.
+  >[!NOTE]
+  >
+  >Adobe Analytics cannot assist you with processing requests to the GDPR API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Customer Success Manager in order to set your data retention period.
 
 * Check your permissions: to use the Data Governance Management interface in Adobe Analytics, you must be an Adobe Analytics Administrator.

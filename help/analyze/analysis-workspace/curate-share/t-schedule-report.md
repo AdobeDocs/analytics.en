@@ -45,7 +45,7 @@ The following are common actions in the Scheduled Projects manager:
 |---|---|
 |**Edit schedule**|Click the title of the schedule to update its delivery settings.|
 |**Delete schedule**|Select the scheduled project in the list and then click Delete from the menu. This will delete the selected schedule for the project; the project itself will not be deleted.|
-|**Add tags**|Select the scheduled project in the list and then choose "Tag" or "Approve" to organize your schedules and make them easier to search for.
+|**Add tags**|Select the scheduled project in the list and then choose "Tag" or "Approve" to organize your schedules and make them easier to search for.|
 |**View failed schedules**|Navigate to the left rail > Other filters > Failed to see schedules that have failed.|
 |**View expired schedules**|Navigate to the left rail > Other filters > Expired to see schedules that have expired. Click the title of the schedule to setup a new deliery schedule.|
 |**View schedule ID**|Navigate to column options in the top right and add the Schedule ID column to the table. The scheduled ID is often useful for debugging.|

@@ -19,7 +19,9 @@ Break down your data in unlimited ways for your specific needs; build queries us
 
    You can break down metrics by dimension items or audience segments across selected time periods. You can also drill down further to a more granular level.
 
-   >[!NOTE] The number of breakdowns to show in the table is limited to 200. This limit will increase for exporting breakdowns.
+   >[!NOTE]
+   >
+   >The number of breakdowns to show in the table is limited to 200. This limit will increase for exporting breakdowns.
 
 [Dimensions in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 

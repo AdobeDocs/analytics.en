@@ -29,17 +29,21 @@ Properties are overarching containers you use to manage tags. Extensions let you
 Data elements are references to specific parts of your site to collect variable values.
 
 1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-2. Click the Launch property that you intend to implement on your site.
-3. Click the Data Elements tab, then click Create New Data Element.
-4. Give the data element the following settings:
+1. Click the Launch property that you intend to implement on your site.
+1. Click the Data Elements tab, then click Create New Data Element.
+1. Give the data element the following settings:
+
    * Name: Page Name
    * Extension: Core
    * Data Element Type: JavaScript Variable
    * Path to variable: `window.document.title`
-      >[!NOTE] Note: This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
+
+     >[!NOTE]
+     >
+     >This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
    * Clean text checked
    * Duration: Pageview
-5. Click Save.
+1. Click Save.
 
 ## Create rules for Adobe Analytics
 

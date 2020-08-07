@@ -30,6 +30,6 @@ On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (
 * If a number is invalid, an empty cell is displayed.
 * No rounding is applied (even if specified in calculated metric) - raw values are shown.
 
->[!Note:]
+>[!NOTE]
 >
-> Numeric values that use a comma as the decimal separator will continue to be quoted in the exported CSV.
+>Numeric values that use a comma as the decimal separator will continue to be quoted in the exported CSV.

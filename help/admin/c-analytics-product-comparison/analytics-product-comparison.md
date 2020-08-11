@@ -13,7 +13,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
 |---|---|---|---|---|---|---|---|
 | **Access method** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel for Windows](/help/analyze/report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/admin/sys-reqs.md) | [Windows 64 bit](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe I/O credentials. [Learn more](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Data granularity** | Aggregated | Aggregated | Aggregated | Aggregated | Hit | Hit | Aggregated |
-| **Expierence Cloud ID (ECID) available** | No | No | No | Yes | Yes | Yes | No |
+| **Expeirence Cloud ID (ECID) available** | No | No | No | Yes | Yes | Yes | No |
 | **Timestamp available** | No | No | No | No | Yes | Yes | No |
 | **Level of processing** | Fully-processed | Fully-processed, with separate [real-time report](/help/components/c-real-time-reporting/realtime.md) | Fully-processed, with separate [real-time report](/help/components/c-real-time-reporting/realtime.md) | Fully-processed | Fully-processed | Fully-processed | Fully-processed |
 | **Admin bot filter data included** <br> [Learn more](/help/admin/admin/bot-removal/bot-removal.md) | No | Yes - separate bot report | Yes - separate bot report | No | No | No | No |

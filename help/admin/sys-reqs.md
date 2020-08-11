@@ -16,7 +16,9 @@ Most Adobe Analytics solutions, including Analysis Workspace, are browser-based.
 * Mozilla Firefox 
 * Apple Safari
 
->[!NOTE] Adobe ended support for Microsoft Internet Explorer 11 within Adobe Analytics on 13 November 2018. 
+>[!NOTE]
+>
+>Adobe ended support for Microsoft Internet Explorer 11 within Adobe Analytics on 13 November 2018. 
 
 ## System requirements for non-browser solutions
 

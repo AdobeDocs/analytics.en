@@ -18,7 +18,9 @@ Adobe offers two types of device graphs as part of the ID service:
 
 If you intend to implement Cross-Device Analytics using the device graph method, the following are required. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.
 
->[!IMPORTANT] Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
+>[!IMPORTANT]
+>
+>Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * All prerequisites listed on the [overview page](overview.md).
 * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in the Device Co-op user guide.

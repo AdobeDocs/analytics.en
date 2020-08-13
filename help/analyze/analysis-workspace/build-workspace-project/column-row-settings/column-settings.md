@@ -8,7 +8,7 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 
 Column settings let you configure column formatting, some of which can be conditional.
 
-## Column settings {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Column settings {#column-settings}
 
 To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
 
@@ -29,7 +29,7 @@ You can edit settings **for multiple columns at once**. Just select multiple col
 |Table Cell Preview|Shows a preview of how each cell appears with the currently selected formatting options applied.|
 
 
-## Conditional formatting {#section_3DD847151DA14914888A70FC4FD7BDFB}
+## Conditional formatting {#conditional-formatting}
 
 Conditional formatting applies formatting to upper, midpoint, and lower limits that you can define. Applying conditional formatting (colors, etc) within Freeform tables is also automatically enabled on breakdowns, unless "Custom" limits are selected.
 
@@ -38,12 +38,11 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 | Element | Description |
 |--- |--- |
 |Conditional Formatting|Applies the following colors to cells, based on data values: <ul><li>Green: high values</li><li>Yellow: midpoint values</li><li>Red: low values</li></ul><br>Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis).|
-|Use Percent Limits|Allows you to use upper, midpoint, and lower limits based on percentage values for each metric. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.)|
-|Auto-generated|Automatically generates limits for conditional formatting. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits.|
-|Custom|You can manually assign the values for the  Upper,  Midpoint, and  Lower Limit fields for conditional formatting. This gives you the flexibility to determine when a column value becomes good, average, or poor.|
-|Table Cell Preview|Shows a preview of how each cell appears with the currently selected formatting options applied.|
+|Use Percent Limits|Change the limit range to be based on percentages rather than absolute values. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.)|
+|Auto-generated|Automatically calculate upper/mid/lower limits based on the data. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits.|
+|Custom|Manually assign upper/mid/lower limits. This gives you the flexibility to determine when a column value becomes good, average, or poor.|
 
-## Use non-default attribution model
+## Use non-default attribution model {#attribution}
 
 Analysis Workspace supports [attribution](../../attribution/overview.md) for almost any metric. 
 

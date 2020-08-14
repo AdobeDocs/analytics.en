@@ -16,6 +16,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Build a Workspace project {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
+    + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + Column and row settings {#column-row-settings}

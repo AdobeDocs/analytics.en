@@ -18,14 +18,14 @@ Answers frequent questions on segmentation features, access, permissions, best p
     * Use [segments as dimensions](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in a comparison.
     * Use segments in [fallout analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-* You can [apply multiple segments to a report or project](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Segments are universal to all report suites.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
-* The [Segment Manager](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
+* The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* The [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
 
-* You can [tag segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
-* You can create [Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis.
+* You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis.
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
 See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
@@ -56,7 +56,7 @@ Access the Segment Manager by:
 
 **Where did the legacy segment drop-down go?**
 
-The segment drop-down in Reports & Analytics has been replaced by a much more feature rich [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+The segment drop-down in Reports & Analytics has been replaced by a much more feature rich [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
 
 in the left navigation and the segment rail displays.
 
@@ -72,7 +72,7 @@ The report suite drop-down has been moved next to the date selector in the top r
 
 By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
-Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/c-segmentation/seg-reference/seg-rights.md)
+Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/segmentation/seg-reference/seg-rights.md)
 
 **Can I see all segments in my company?**
 
@@ -90,7 +90,7 @@ Ad Hoc Analysis and Report Builder display only segments built by you or segment
 
 **Why can't I delete this segment?**
 
-If the segment was [published to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), you cannot delete it or edit it. However, you can copy it and edit the copied version.
+If the segment was [published to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), you cannot delete it or edit it. However, you can copy it and edit the copied version.
 
 ## Best Practices {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -106,13 +106,13 @@ Now that segments work in multiple report suites, you might find that you have m
 * Review the segments that you have.
 * Add them to the segment library where applicable.
 * Approve segments that are canonical.
-* Tag segments according to [best practices](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Tag segments according to [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Managing Legacy Segments {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **What happened to my existing segments?**
 
-Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly. [More...](/help/components/c-segmentation/seg-transition.md)
+Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly. [More...](/help/components/segmentation/seg-transition.md)
 
 Most former pre-defined and suite segments will be migrated over as segment templates into the Segment Builder. Segment templates are used to quickly build custom segments with common audiences. Segment templates can't be applied to a report directly, but they can be easily saved to a custom segment.
 
@@ -198,9 +198,9 @@ The following tips will help you migrate common dimensions:
 * Browsers - use the Browser Types dimension to get all browsers in a type, e.g. Google Chrome 
 * Operating Systems - use the OS Types dimensions to get all operating systems in a type, e.g. Microsoft Windows.
 
-* [New and Renamed Dimensions](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742) 
-* [Changes to Contains](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77) 
-* [Changes to Less Than and Greater Than](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [New and Renamed Dimensions](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742) 
+* [Changes to Contains](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77) 
+* [Changes to Less Than and Greater Than](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## New and Renamed Dimensions {#section_73CF121B64A24DEF8E6499F3167BF742}
 

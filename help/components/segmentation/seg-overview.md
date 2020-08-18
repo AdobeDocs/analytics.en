@@ -11,7 +11,7 @@ Segments allow you to identify subsets of visitors based on characteristics or w
 
 Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit] and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the [!DNL Adobe Experience Cloud]. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
 
-You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -106,7 +106,7 @@ Hit containers include values based single page breakdowns:
 
 **Logic Group container**
 
-The Logic Group container allows you to provide a separate container within the segment rules to filter entities not based on hierarchy. For example, you may want to provide a container nested within the segment that filters based on Visitor. This type of logic requires you to break the hierarchy (as you are already have a top-level Visitor container) to filter only for selected visitors. This can be accomplished using the Logic Group container. See [Logic Group examples](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) for additional information.
+The Logic Group container allows you to provide a separate container within the segment rules to filter entities not based on hierarchy. For example, you may want to provide a container nested within the segment that filters based on Visitor. This type of logic requires you to break the hierarchy (as you are already have a top-level Visitor container) to filter only for selected visitors. This can be accomplished using the Logic Group container. See [Logic Group examples](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) for additional information.
 
 ## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -147,13 +147,13 @@ Sequential segmentation employs the same basic containers, including [!UICONTROL
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visitors] constitute the highest-order container in sequential segmentation, with [!UICONTROL Visits] contained within the [!UICONTROL Visitors] container, and [!UICONTROL Hits] contained within the [!UICONTROL Visitors] or [!UICONTROL Visits] containers. This [container hierarchy](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) must be maintained to build well-ordered sequential segments.
+[!UICONTROL Visitors] constitute the highest-order container in sequential segmentation, with [!UICONTROL Visits] contained within the [!UICONTROL Visitors] container, and [!UICONTROL Hits] contained within the [!UICONTROL Visitors] or [!UICONTROL Visits] containers. This [container hierarchy](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) must be maintained to build well-ordered sequential segments.
 
 **To build sequential segments**, containers are nested and sequential logic joined using the [!UICONTROL THEN] operator that requires each container to be true based on the sequence of the visitor.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-The only exception to this hierarchy of containers is when using the [Logic Group container](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). The [!UICONTROL Logic Group] container lets you nest a hit within a container without order to capture events and dimensions but outside of a sequential order.
+The only exception to this hierarchy of containers is when using the [Logic Group container](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). The [!UICONTROL Logic Group] container lets you nest a hit within a container without order to capture events and dimensions but outside of a sequential order.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -246,7 +246,7 @@ Using segment with a smaller container than the breakdown scope returns unexpect
 
 Filtering by dimensions that persist across a range of pages, such as a Campaign eVar or a Referring dimension, affects the data collected at the container level and needs to be understood for reporting accuracy.
 
-Segment data can vary based on the persistence of a dimension or applied variable across selected pages. Some dimensions, such as the Page dimension, provide unique values at the page level and are filtered based on data from the Hit container. (See the [Reports based on Container Data](/help/components/c-segmentation/seg-overview.md) example). Other dimensions, such as the Referring Domain dimension, persist across multiple pages for a visit. Some dimensions or applied variables, such as Visit Duration, span across a visitor's entire history.
+Segment data can vary based on the persistence of a dimension or applied variable across selected pages. Some dimensions, such as the Page dimension, provide unique values at the page level and are filtered based on data from the Hit container. (See the [Reports based on Container Data](/help/components/segmentation/seg-overview.md) example). Other dimensions, such as the Referring Domain dimension, persist across multiple pages for a visit. Some dimensions or applied variables, such as Visit Duration, span across a visitor's entire history.
 
 ![](assets/RefDomain_aol.png)
 

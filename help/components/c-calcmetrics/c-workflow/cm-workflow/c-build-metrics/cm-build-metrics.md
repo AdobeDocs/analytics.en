@@ -98,7 +98,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + New </span> </td> 
-   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
+   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Search Components </p> </td> 

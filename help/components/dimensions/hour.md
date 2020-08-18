@@ -14,3 +14,10 @@ This dimension works out of the box for all implementations. If a report suite c
 ## Dimension items
 
 Dimension items include a given hour within a report's date range alongside its date. It is formatted as `HH:HH YYYY-MM-DD`.
+
+## Daylight Savings Time
+
+Daylight Savings Time is a practice where clocks are set an hour ahead in the spring, and set back an hour in the fall. If a report suite's time zone uses DST, Adobe adjusts data accordingly for that hour.
+
+* **When Daylight Savings Time begins**: In March, reports typically show an hour gap in data where Daylight Savings Time starts. The hour did not exist, so it is not part of data collection. Note that a small amount of data can still make it into this hour. Adobe data collection servers take several seconds (up to a minute) to take DST adjustments into account.
+* **When Daylight Savings Time ends**: In November, reports typically show a double-stacked hour where Daylight Savings Time ends. The hour happened twice, so both hours are aggregated in reports.

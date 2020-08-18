@@ -9,11 +9,11 @@ uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 
 Ad Hoc Analysis integrates with the Analytics Segmentation environment, allowing you to build, share, manage, and apply visitor segments across Adobe products. Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
 
-Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) used to set up a segment management [workflow](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html). As always, you can build and save segments in the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) or [generate segments from a Fallout report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) used to set up a segment management [workflow](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html). As always, you can build and save segments in the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) or [generate segments from a Fallout report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)
 
 ## Unified Segmentation in Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) documentation.
+For information and instructions on building and managing segments in the Unified Segmentation environment including ad hoc analysis features, see the [Unified Segmentation](/help/components/segmentation/segmentation-workflow/seg-build.md) documentation.
 
 * [New Features](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2) 
 * [What happened to my existing segments?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE) 
@@ -30,7 +30,7 @@ For information and instructions on building and managing segments in the Unifie
 
 * [Segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) are universal to all report suites. Previously, segments were report-suite specific.
 * The [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) lets you set up [workflows](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) with segment sharing, tagging, verification, and approval features.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) has been updated to simplify segment creation.
+* The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) has been updated to simplify segment creation.
 * You can [tag segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html) to organize and search later instead of using folders. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
 * You can create [Sequential Segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) outside of Ad Hoc Analysis.
 

@@ -23,6 +23,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
     + [Conversions](ga-to-aa/reports/conversions-reports.md)
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
+  + [Compare data to third-party products](ga-to-aa/compare-data.md)
 + Analyze data impacted by events {#event}
   + [Analyze data impacted by events overview](event/overview.md)
   + [Troubleshoot spikes/drops in data](event/spikes-drops.md)

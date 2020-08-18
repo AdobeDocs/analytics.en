@@ -73,7 +73,7 @@ The advertising analytics feature requires configuration to return data. See [Ad
 
 Social reports provide similar information as their respective Behavior report, except in the context of social networks. This data is available in Analysis Workspace by combining a dimension with a segment.
 
-Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](/help/components/segmentation/seg-overview.md) in the Components user guide for more information.
 
 ### Social - Network Referrals
 

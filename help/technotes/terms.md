@@ -88,8 +88,8 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **s_code.js:** The name of the JavaScript file used in historical versions of Adobe Analytics. The current name of the JavaScript file used is AppMeasurement.js.
 * **Satellite:** No longer used as a term. The former product name for Dynamic Tag Management.
 * **Secondary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, all report suites after the first listed are secondary server calls. See also Primary server calls.
-* **Segment:** Allows you to focus on specific subset of your data. See [Segmentation](/help/components/c-segmentation/seg-overview.md) in the Components user guide.
-* **Segment container:** The part of a segment that determines how much data to bring in. Containers can be based on page view, visit, or visitor. See [Segmentation](/help/components/c-segmentation/seg-overview.md) in the Components user guide.
+* **Segment:** Allows you to focus on specific subset of your data. See [Segmentation](/help/components/segmentation/seg-overview.md) in the Components user guide.
+* **Segment container:** The part of a segment that determines how much data to bring in. Containers can be based on page view, visit, or visitor. See [Segmentation](/help/components/segmentation/seg-overview.md) in the Components user guide.
 * **Serialization:** See Event serialization.
 * **Server call:** Alternate name for an image request or hit, used mostly in context of billing.
 * **Single access:** A visit where a dimension had only a single unique value. The visit can have multiple hits, as long as there are not multiple unique values. See the [Single access](/help/components/metrics/single-access.md) metric in the Components user guide. See also Bounce.

@@ -63,7 +63,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 *   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
-*   [Segmentation](/help/components/c-segmentation/seg-home.md)
+*   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 *   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)

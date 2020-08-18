@@ -19,12 +19,12 @@ Filtering makes it easier to search for segments in the segment rail.
 
    |  Filter Name  | Description  |
    |---|---|
-   |  Tags  |Lets you filter on segments with specific [tags](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md). The Tags column is shown by default.  |
+   |  Tags  |Lets you filter on segments with specific [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). The Tags column is shown by default.  |
    |  Owners  | Lets you filter segments by owner.  |
    |  Other Filters > Show All  | **(Admin only)** Shows all segments, their owner, and the last date they were modified.  |
    |  Other Filters > Mine  | Shows all segments that you own.  |
-   |  Other Filters > Shared with Me  |Shows all segments that others [shared](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md) with you.  |
-   |  Other Filters > Favorites  |Shows all segments you marked as [Favorites](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md).  |
-   |  Other Filters > Approved  |Shows all officially [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segments.  |
+   |  Other Filters > Shared with Me  |Shows all segments that others [shared](/help/components/segmentation/segmentation-workflow/t-seg-share.md) with you.  |
+   |  Other Filters > Favorites  |Shows all segments you marked as [Favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md).  |
+   |  Other Filters > Approved  |Shows all officially [approved](/help/components/segmentation/segmentation-workflow/seg-approve.md) segments.  |
    |  Search Segments  | Lets you search for segments by name.  |
 

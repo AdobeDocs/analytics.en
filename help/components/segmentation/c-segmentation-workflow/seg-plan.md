@@ -16,10 +16,10 @@ Devoting some time to plan segments improves the chances that they will be usefu
     * What is this segment useful for? 
     * When should I use this segment?
 
-1. Determine the segment **scope**. Which [segment container](/help/components/c-segmentation/seg-overview.md) best represents the scope? Use the smallest container possible.
+1. Determine the segment **scope**. Which [segment container](/help/components/segmentation/seg-overview.md) best represents the scope? Use the smallest container possible.
 
-1. Decide which **elements** to include in the segment definition, and which values. Consider [variable persistence](/help/components/c-segmentation/seg-overview.md) in this decision.
+1. Decide which **elements** to include in the segment definition, and which values. Consider [variable persistence](/help/components/segmentation/seg-overview.md) in this decision.
 
 1. Consider how you want your **approval process** to unfold. Will a single person review and approve segments or will it be a committee decision? 
-1. Define your segments with view to a **segment library** that gives business users the ability to [stack](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) and reuse segment pieces or components in a modular fashion. What "modules" do you need to define to make this library a reality?
+1. Define your segments with view to a **segment library** that gives business users the ability to [stack](/help/components/segmentation/segmentation-workflow/seg-build.md) and reuse segment pieces or components in a modular fashion. What "modules" do you need to define to make this library a reality?
 

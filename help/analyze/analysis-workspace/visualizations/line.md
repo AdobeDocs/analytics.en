@@ -12,7 +12,7 @@ This visualization represents metrics using a line in order to show how values c
 
 >[!IMPORTANT]
 >
-> Some Line visualization settings, such as Add trendline, are currently in limited testing. [Learn more](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html).
+> Some Line visualization settings, such as Show trendline, are currently in limited testing. [Learn more](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html).
 
 Click on the gear icon in the top right of the Line visualization to access [**Visualization settings**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) available. Settings are categorized into:
 
@@ -22,11 +22,15 @@ Click on the gear icon in the top right of the Line visualization to access [**V
 
 ### Change granularity
 
-A granularity drop-down in the [visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc.
+A granularity drop-down in the [visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc. The granularity is also updated in the data source table.
 
-### Add a trendline overlay
+### Show min or max
 
-Under **Visualization Settings > Overlays > Add trendline**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data. 
+Under **Visualization Settings > Overlays > Show min/max**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric.
+
+### Show trendline overlay
+
+Under **Visualization Settings > Overlays > Show trendline**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data. 
 
 All models are fit using ordinary least squares:
 

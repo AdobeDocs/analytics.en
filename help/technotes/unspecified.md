@@ -1,15 +1,15 @@
 ---
-description: Various reports in Adobe Analytics can show Unspecified, Other, or Unknown, depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable.
-title: Unspecified, Other, and Unknown in reporting
+description: Various reports in Adobe Analytics can show Unspecified, None, Other, or Unknown, depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable.
+title: Unspecified, None, Other, and Unknown in reporting
 ---
 
-# "Unspecified", "Other", and "Unknown" in reporting
+# "Unspecified", "None", "Other", and "Unknown" in reporting
 
 Various reports in Adobe Analytics can show "Unspecified", "Other", or "Unknown", depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable. The following provides a comprehensive list of how each report can have one of these line items.
 
-## "Unspecified" in reporting
+## "Unspecified" (or "None") in reporting
 
-"Unspecified" is a fairly common line item in reports.
+"Unspecified" is a fairly common line item in reports. It is also frequently referred to as "None".
 
 * **An event fires without a conversion variable:** For example, a user comes to your site and makes a purchase without any eVar1 value. If you view orders using the eVar1 dimension, there is no value to attribute this order to. Therefore, it is automatically attributed to "Unspecified".
 * **Unclassified data in classification reports:** When viewing classification data, any value that doesn't have data associated with that particular classification returns "Unspecified". To resolve this issue, classify the parent variable value.

@@ -24,12 +24,6 @@ Create the classifications before adding them to a hierarchy.
 
 ## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
 
-<!-- 
-
-t_classification_heirarchy.xml
-
- -->
-
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Classification Hierarchies]**.

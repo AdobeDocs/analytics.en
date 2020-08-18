@@ -1,12 +1,9 @@
 ---
-description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
-subtopic: Classifications
-title: About classifications
-topic: Admin tools
-uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
+title: Classifications overview
+description: Customize the grouping of dimension items.
 ---
 
-# About classifications
+# Classifications overview
 
 A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
 
@@ -20,17 +17,9 @@ When classifying, you are establishing a relationship between the variable and t
 
 Once classified, any report that you can generate using the key variable can also be generated using the associated attributes. For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. Augmenting reporting and analytics data with additional attributes provides deeper and more complex reporting opportunities.
 
->[!IMPORTANT]
->
->The ability to import Numeric 2 and Date-Enabled classifications has been removed from the codebase. This change will take effect with the June 2019 Maintenance Release. If you have Numeric or Date-Enabled columns in your import file, those cells will be silently ignored, and any other data within that file will be imported as normal. Existing classifications can still be exported through the standard classification workflow, and will continue to be available in reporting.
-
->[!NOTE]
->
->In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
-
 After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
 
-**Tracking Codes Example**
+## Tracking Codes Example
 
 Suppose that instead of viewing campaigns just by the tracking code, you want to see campaign results by Search Engine, Keyword, and Campaign Channel. Rather than devoting conversion variables for each of those, you can create three classifications of the campaign variable to represent Search Engine, Keyword, and Campaign Channel. This strategy allows you to see site success events by all four variables, with no additional tagging.
 

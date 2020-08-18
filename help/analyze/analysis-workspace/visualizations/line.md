@@ -22,7 +22,7 @@ Click on the gear icon in the top right of the Line visualization to access [**V
 
 ### Change granularity
 
-A granularity drop-down in the [visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc. The granularity will also be updated in the data source table.
+A granularity drop-down in the [visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc. The granularity is also updated in the data source table.
 
 ### Show min or max
 

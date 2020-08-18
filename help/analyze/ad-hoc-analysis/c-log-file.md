@@ -17,6 +17,7 @@ Obtain the `discover.log` file for Windows:
    ```text
    %appdata%/../Local/Adobe/Discover/log
    ```
+
 3. Highlight all files in the folder, then right-click and choose **Send to > Compressed (zipped) Folder**.
 4. Provide the Adobe representative with the .zip file.
 

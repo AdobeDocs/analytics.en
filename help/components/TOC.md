@@ -212,11 +212,7 @@ user-guide-url: /content/help/en/analytics/components/home.html
   + [Alert Manager](c-alerts/alert-manager.md)
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
-  + [About classifications](classifications/c-classifications.md)
-  + [About sub-classifications](classifications/c-sub-classifications.md)
-  + [Conversion classifications](classifications/conversion-classifications.md)
-  + [Traffic classifications](classifications/traffic-classifications.md)
-  + [Classification hierarchies](classifications/classification-hierarchies.md)
+  + [Classifications overview](classifications/c-classifications.md)
   + Classifications importer {#classifications-importer}
     + [Classifications importer - overview](classifications/importer/c-working-with-saint.md)
     + [Classification data files](classifications/importer/c-saint-data-files.md)
@@ -235,6 +231,8 @@ user-guide-url: /content/help/en/analytics/components/home.html
     + [Classification rules](classifications/crb/classification-quickstart-rules.md)
     + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
     + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
+  + [Sub-classifications](classifications/c-sub-classifications.md)
+  + [Classifications FAQ](classifications/faq.md)
 + [Calendar events](t-calendar-event.md)
 + Real-time reporting {#real-time-reporting}
   + [Real-time reporting overview](c-real-time-reporting/realtime.md)

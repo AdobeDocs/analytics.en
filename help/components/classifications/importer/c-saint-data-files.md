@@ -14,8 +14,6 @@ To help you create valid data files, you can download a template file that provi
 
 See [General File Structure](/help/components/classifications/importer/c-saint-data-files.md) for more information about character limits in classifications.
 
-See [Numeric 2 Classifications](/help/components/classifications/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
-
 ## General file structure
 
 The following illustration is a sample data file:

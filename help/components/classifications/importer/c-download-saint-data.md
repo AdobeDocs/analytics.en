@@ -20,7 +20,6 @@ uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 |---|---|
 |  Select Report Suite  | Select the report suite to use in the template. The report suite and data set must match.  |
 |  Data Set to be Classified  | Select the type of data for the data file. The menu includes all reports in your report suites that are configured for classifications.  |
-|  Export Numeric 2  |You can import numeric 2 classifications into the system via the importer. Numeric 2 classifications are useful for variables that change over time for different items, such as cost and budget values for the [!UICONTROL Marketing Channel] report. See [Numeric 2 Classifications](/help/components/classifications/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.  |
 |  Encoding  | Select the character encoding for the data file. The default encoding format is UTF-8.  |
 |  Download  | Downloads the template file.  |
 

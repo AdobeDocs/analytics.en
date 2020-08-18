@@ -16,6 +16,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Build a Workspace project {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
+    + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + Column and row settings {#column-row-settings}
@@ -85,6 +86,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Curate or Share projects {#curate-share}
     + [Curate Workspace projects](analysis-workspace/curate-share/curate.md)
     + [Share Workspace projects](analysis-workspace/curate-share/share-projects.md)
+    + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
     + [View-only Workspace projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)

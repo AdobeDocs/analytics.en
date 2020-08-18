@@ -9,7 +9,7 @@ A panel is a collection of tables & visualizations. You can access panels from t
 
 * [Blank panel](blank-panel.md)
 * [Quick Insights panel](quickinsight.md)
-* [Analytics for Target panel](a4t-panel.md) (coming soon)
+* [Analytics for Target panel](a4t-panel.md)
 * [Attribution panel](attribution.md)
 * [Freeform panel](freeform-panel.md)
 * [Segment Comparison panel](c-segment-comparison/segment-comparison.md)

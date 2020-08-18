@@ -28,13 +28,13 @@ A granularity drop-down in the [visualization settings](freeform-analysis-visual
 
 ## Show min or max
 
-Under **Visualization Settings > Overlays > Show min/max**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric.
 
 ![Show min/max](assets/min-max-labels.png)
 
 ## Show trendline overlay
 
-Under **Visualization Settings > Overlays > Show trendline**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data.
 
 ![Linear trendline](assets/show-linear-trendline.png)
 

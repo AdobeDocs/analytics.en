@@ -74,3 +74,32 @@ s.pageName = "        Home Page";
 ```
 
 These two variable values are considered separate in Adobe Analytics. However, the white space is automatically removed for display purposes. The result is a report that displays two seemingly identical "Home Page" line items. Make sure that variable values do not contain whitespace before or after the desired value.
+
+## Truncated image requests
+
+Implementations that populate many variables with long values can sometimes run into truncated image requests. Some older browsers, such as Internet Explorer, impose a 2083-character limit on image request URLs. If your organization faces very long image requests, try the following:
+
+* **Use the Experience Cloud ID service**: AppMeasurement libraries 1.4.1 and later automatically send image requests using HTTP POST if they are too long. Data sent using this method is not truncated regardless of length. See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) for more information.
+* **Use processing rules**: [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) can copy values from one variable to another. This method saves you from setting the same value in multiple variables. For example:
+
+  Always execute:<br>
+  Overwrite value of prop1 with eVar1<br>
+  Overwrite value of eVar2 with eVar1<br>
+  Overwrite value of prop2 with eVar1<br>
+
+  Then set eVar1 in your implementation:
+
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
+
+* **Use dynamic variables**: If your implementation populates many variables with the same value, you can use [dynamic variables](/help/implement/vars/page-vars/dynamic-variables.md) to shorten the request URL:
+
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
+
+* **Use classifications**: If product or page names are unusually long, you can use an identifying value or code, then use [classifications](/help/components/classifications/c-classifications.md) to display a more friendly name.

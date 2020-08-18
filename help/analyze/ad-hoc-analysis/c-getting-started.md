@@ -62,7 +62,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
+>As of July 2018, Ad Hoc Analysis only supports Java 8 or higher. Adobe does not support running Ad Hoc Analysis on Java 7 or below.
 
 * Video card supporting OpenGL 2.0 
 * Cookies: Required 
@@ -73,13 +73,11 @@ c_sys_reqs.xml
 * JavaScript: Enabled 
 * Java version: Java 1.7 or later (See Note above)
 
-  If you do not have the correct version of Java installed, it is installed for you. If you have a non-compatible version of Java installed, Ad Hoc Analysis downloads and prompts you to install the updates.
+  If you do not have the correct version of Java installed, it is installed for you. If you have a non-compatible version of Java installed, Ad Hoc Analysis downloads and prompts you to install updates.
 
 ## Java Upgrade Instructions {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
-
-Our .jar files are signed with a secure 256-bit encryption that is not supported by Java versions less than 1.7.0_76. This 256-bit certificate allows us to serve you with enhanced security.
+Adobe's .jar files are signed with a secure 256-bit encryption that is not supported by Java versions less than 1.7.0_76. This 256-bit certificate allows us to serve you with enhanced security.
 
 If you still have Java 7 installed, you must upgrade before the July 2018 Maintenance release. Here's how:
 

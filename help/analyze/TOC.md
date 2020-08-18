@@ -235,6 +235,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Troubleshooting Power BI integration](report-builder/c-publish-power-bi/troubleshooting.md)
     + [Adobe Analytics content packs for Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
   + [Troubleshooting and best practices for Report Builder](report-builder/troubleshoot.md)
+  + [Visual Basic macros](report-builder/vba.md)
 + Activity Map {#activity-map}
   + [Activity Map overview](activity-map/activity-map.md)
   + Get started {#getting-started}

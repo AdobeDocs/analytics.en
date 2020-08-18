@@ -33,4 +33,4 @@ The following characters and strings are never allowed in JavaScript variables.
 * Newline (`0x0A`)
 * HTML tags (e.g. `<b></b>` or `&#153`)
 
-Some variables have additional limitations or syntax requirements. For example, the `products` variable reserves semicolons and commas to delimit separate products and categories.
+Some variables have additional limitations or syntax requirements. For example, the [`products`](page-vars/products.md) variable reserves semicolons and commas to delimit separate products and categories.

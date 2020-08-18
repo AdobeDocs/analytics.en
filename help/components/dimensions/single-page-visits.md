@@ -9,7 +9,7 @@ description: A flag indicating that the visit consisted of a single page.
 
 The 'Single page visits' dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. It is the dimension form of the [Single page visits](../metrics/single-page-visits.md) metric.
 
-This dimension is most commonly used as a component within [segmentation](../c-segmentation/seg-home.md). It is not typically used as a dimension in reports.
+This dimension is most commonly used as a component within [segmentation](../segmentation/seg-home.md). It is not typically used as a dimension in reports.
 
 ## Populate this dimension with data
 

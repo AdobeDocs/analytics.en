@@ -1,16 +1,9 @@
 ---
 description: Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like pop music terms and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
-subtopic: Classifications
 title: Conversion classifications
-topic: Admin tools
-uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 ---
 
 # Conversion classifications
-
-Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like pop music terms and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
-
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like *pop music terms* and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
 
@@ -18,36 +11,16 @@ Conversion classifications let you classify conversion variables. Once classifie
 
 After enabling classifications, use the [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
 
-## Conversion Classifications Descriptions {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
+## Conversion Classifications Descriptions 
 
-<table id="table_0B72C485467348E2A34BF913441F4AF5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Name</span> </td> 
-   <td colname="col2"> The classification name. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Date Enabled (Text Only)</span> </td> 
-   <td colname="col2"> <p>Indicates if the text classification is a date range for campaign variables. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Options (Text Only)</span> </td> 
-   <td colname="col2">Creates a list of classification values available for this classification. Use <span class="wintitle"> Options</span> with campaign variables to provide users with a list of supported values for the classification in the <span class="wintitle"> Campaign Manager</span>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Number Type (Numeric Only)</span> </td> 
-   <td colname="col2">Specifies the type of number in the numeric classification. Options include <span class="wintitle"> Numeric</span>, <span class="wintitle"> Percent</span>, and <span class="wintitle"> Currency</span>. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Description |
+| --- | --- |
+| Name | The classification name |
+| Date Enabled (Text Only) | Indicates if the text classification is a date range for campaign variables. |
+| Options (Text Only) | Creates a list of classification values available for this classification. Use  Options with campaign variables to provide users with a list of supported values for the classification in the  Campaign Manager. |
+| Number Type (Numeric Only) | Specifies the type of number in the numeric classification. Options include  Numeric,  Percent, and  Currency. |
 
-## Add conversion classifications {#task_D535D09E3EAF4CD1A15A6B93C0BB1BB5}
+## Add conversion classifications 
 
 Steps that describe how to add conversion classifications in Admin.
 
@@ -69,7 +42,7 @@ Steps that describe how to add conversion classifications in Admin.
    Adding Options creates a list of classification values available for this classification. You can use this option with Campaign variables to provide users with a list of supported values for the classification in the Campaign Manager. Use this for classification dimensions where you have a small number of allowed values that rarely or never change. For example, you might run different campaigns aimed at different levels of customer loyalty: Silver, Gold, and Platinum. You could then use the drop-down list to ensure that the only values that are accepted are those that match your three levels. If anyone tries to use a different value, it gets discarded.
 1. Click **[!UICONTROL Save]**.
 
-## Delete a conversion classification {#task_566651BC245944618A6A833E58211FDE}
+## Delete a conversion classification 
 
 Delete a conversion classification when it is no longer needed.
 

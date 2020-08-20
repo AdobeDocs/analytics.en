@@ -40,6 +40,7 @@ Steps that describe how to add conversion classifications in Admin.
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
    Adding Options creates a list of classification values available for this classification. You can use this option with Campaign variables to provide users with a list of supported values for the classification in the Campaign Manager. Use this for classification dimensions where you have a small number of allowed values that rarely or never change. For example, you might run different campaigns aimed at different levels of customer loyalty: Silver, Gold, and Platinum. You could then use the drop-down list to ensure that the only values that are accepted are those that match your three levels. If anyone tries to use a different value, it gets discarded.
+   
 1. Click **[!UICONTROL Save]**.
 
 ## Delete a conversion classification 

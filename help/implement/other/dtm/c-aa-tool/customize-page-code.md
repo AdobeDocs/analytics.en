@@ -10,9 +10,7 @@ uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 
 Use field descriptions in Dynamic Tag Management to customize page code when deploying Analytics.
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Customize Page Code]** 
+**[!UICONTROL `Property`]** > **[!UICONTROL Edit Tool]** ![](assets/settings_gear.png) > **[!UICONTROL Customize Page Code]** 
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 

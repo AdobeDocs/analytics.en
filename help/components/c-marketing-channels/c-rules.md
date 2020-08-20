@@ -53,7 +53,7 @@ Continue down this page to see recommendations for channel rule order as well as
 
 ### Set the marketing channel value
 
-**[!UICONTROL Add Rule]**Set the channel's value]** defines the marketing channel detail dimension that is available for that channel. This enables you to breakdown Marketing channel dimensions and see more detailed information about the channel. 
+**[!UICONTROL Add Rule]** **Set the channel's value** defines the marketing channel detail dimension that is available for that channel. This enables you to breakdown Marketing channel dimensions and see more detailed information about the channel.
 
 It is recommended that the channel value be set to the same criteria used to define the channel itself. For example, if query string parameter is used to define the channel, set query string parameter as the channel value as well.
 

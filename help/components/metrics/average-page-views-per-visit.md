@@ -7,7 +7,9 @@ description: The average number of times a given dimension item appeared in a vi
 
 The 'Average page views per visit' dimension shows how many page views occurred on average against your desired dimension. For time-based dimensions, you can see how the average number of page views within a visit trends over time. This metric is helpful when you want to understand how frequently dimension items appear in a visit.
 
->[TIP] Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. If you use this metric by itself, you get dimension items containing anomaly page views per visit, which is typically not valuable.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. If you use this metric by itself, you get dimension items containing anomaly page views per visit, which is typically not valuable.
 
 ## How this metric is calculated
 

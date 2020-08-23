@@ -13,7 +13,9 @@ The `getTimeParting` plug-in allows you to capture the details of the time when 
 
 Analysis Workspace provides similar, out-of-the-box dimensions that are formatted slightly differently than this plug-in. See [time parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in the Analyze user guide for more information. Some organizations find that Analysis Workspace's out-of-the-box dimensions are sufficient.
 
->[IMPORTANT] Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
+>[!IMPORTANT]
+>
+>Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 

@@ -33,6 +33,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
   + [Communicate events to users](event/communicate.md)
 + [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
++ [Exclude data](exclude-data.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
 + [Privacy overview](privacy-overview.md)

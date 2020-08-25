@@ -29,28 +29,28 @@ Editing a Report Builder request after publishing it to Power BI may cause probl
   **Here is an example of how the visualization WILL break:**
 
     1. In Report Builder, create a workbook with one request, using the Page dimension and the Page Views metric.
-    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) to be published to Power BI.
-    1. In Power BI, create a visualization for Page and Page Views.
-    1. Now edit the workbook by removing Page Views from the request.
-    1. Edit the schedule with the updated workbook and re-publish the request to Power BI.
-    1. Once the new workbook is sent to Power BI
+    2. Schedule this requestto be published to Power BI.
+    3. In Power BI, create a visualization for Page and Page Views.
+    4. Now edit the workbook by removing Page Views from the request.
+    5. Edit the schedule with the updated workbook and re-publish the request to Power BI.
+    6. Once the new workbook is sent to Power BI
 
         1. Verify that it overwrote the existing dataset that was created when you first published.
-        1. Verify that the page_1 table is properly updated with the Page and Visits columns.
-        1. Verify that your visualization is broken, since it references the Page Views column that is no longer present in the page_1 table.
+        2. Verify that the page_1 table is properly updated with the Page and Visits columns.
+        3. Verify that your visualization is broken, since it references the Page Views column that is no longer present in the page_1 table.
 
   **Here is an example of how the visualization will NOT break:**
 
     1. In Report Builder, create a workbook with one request, using the Page dimension and the Page Views metric.
-    1. [Schedule this request](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) to be published to Power BI.
-    1. In Power BI, create a visualization for Page and Page Views.
-    1. Now edit the workbook in Report Builder, adding the Visit metric while keeping Page and Page Views.
-    1. Edit the schedule with the updated workbook and re-publish the request to Power BI.
-    1. Once the new workbook is sent to Power BI
+    2. Schedule this request to be published to Power BI.
+    3. In Power BI, create a visualization for Page and Page Views.
+    4. Now edit the workbook in Report Builder, adding the Visit metric while keeping Page and Page Views.
+    5. Edit the schedule with the updated workbook and re-publish the request to Power BI.
+    6. Once the new workbook is sent to Power BI
 
         1. Verify that it overwrote the existing dataset that was created when you first published.
-        1. Verify that the page_1 table is properly updated with the Page, Page Views, and Visits columns.
-        1. Verify that your visualization continues to work properly, since it references two columns that are still present in the page_1 table.
+        2. Verify that the page_1 table is properly updated with the Page, Page Views, and Visits columns.
+        3. Verify that your visualization continues to work properly, since it references two columns that are still present in the page_1 table.
 
 * **Case 2**: You pin a section of your workbook to a dashboard in Power BI and you later remove that pinned section (such as a chart or a table) from the workbook. This will break the visualization.
 

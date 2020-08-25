@@ -27,7 +27,7 @@ Troubleshoot issues with logging in to Adobe Analytics using the Experience Clou
 
 ## Legacy Analytics ID
 
-Occasionally, a user in your organization receives the following error message when they log in:
+A user in your organization can receive the following error when they attempt to log in:
 
 *As a security precaution, this account has been locked due to too many failed attempts to log in.*
 
@@ -46,6 +46,14 @@ If clearing the browser's cookies/cache does not resolve the issue, work with an
 ## Single sign-on
 
 Contact an administrator in your organization to resolve single sign-on issues.
+
+## Expired logins
+
+A user in your organization can receive the following error when they attempt to log in:
+
+*Error: This login has expired.*
+
+This error works as intended. Adobe Analytics provides administrators with the capability to set a date range that a user account is valid. If the current date resides outside the valid date range for the account, they are unable to log in. Work with an Analytics administrator in your organization to extend the valid date range of the login. Adobe Customer Care is not authorized to change valid login date ranges for user accounts.
 
 ## Other login issues
 

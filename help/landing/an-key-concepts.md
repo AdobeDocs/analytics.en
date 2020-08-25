@@ -38,7 +38,7 @@ Click [here](/help/technotes/terms.md) for an expanded glossary of Adobe Analyti
 | Segments | Ability to build, manage, share, and apply powerful, focused audience segments to your Analytics reports. Segments are shared across Analytics products and can be shared across the Experience Cloud. | [Segmentation](/help/components/segmentation/seg-home.md) |
 | Time (Date Ranges) | Ability to filter date to any time period & create custom date ranges that can be reused in your analysis. | [Date Ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualizations | Rich visuals that can help bring data to life in your projects. | [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Curation | Ability to limit the components accessible in a project or Virtual Report Suite. | [VRS curation](/help/components/vrs/vrs-components.md) <br> [Project curation](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Comparison](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Curation | Ability to limit the components accessible in a project or Virtual Report Suite. | [VRS curation](/help/components/vrs/vrs-components.md) <br> [Project curation](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Key reports
 

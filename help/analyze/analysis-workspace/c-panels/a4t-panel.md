@@ -25,7 +25,7 @@ You can configure the A4T panel using these input settings:
 
 The Analytics for Target panel returns a rich set of data and visualizations to help you better understand how your Adobe Target activity and experiences are performing. At the top of the panel, a summary line is provided to remind you of the panel settings you selected. At any time, you can edit the panel by clicking the edit pencil in the top right.
 
-For each success metric you selected, one freeform table and one conversion rate trend will be shown: 
+For each success metric you selected, one freeform table and one conversion rate trend will be shown:
 
 ![Rendered](assets/a4t-rendered.png)
 
@@ -43,7 +43,7 @@ Each freeform table shows the following metric columns:
 |Lift (Upper)| Represents the best lift a variant experience could have over the control.|
 |Confidence| The students t-test calculates the confidence level, which indicates the likelihood that the results would be duplicated if the test were run again. A fixed conditional formatting range of 75%/85%/95% has been applied to the metric. This formatting can be customized if needed under Column settings. <br>**Note:** Confidence is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.|
 
-Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations]( https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities. 
+Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations]( https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities.
 
 ## FAQs {#FAQ}
 

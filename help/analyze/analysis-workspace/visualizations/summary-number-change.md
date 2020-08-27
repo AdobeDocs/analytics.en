@@ -15,6 +15,8 @@ Use the Summary Number visualization to highlight a large number that is importa
 * If more than one cell is selected, it shows the first cell selected.
 * If the column is selected, it picks the first cell value in the column.
 
+![](assets/summary-number.png)
+
 Click the **Visualization settings** gear in to the top right to configure the Summary Number settings: 
 
 | Setting | Definition |
@@ -36,6 +38,8 @@ This visualization behaves in the following ways:
 * If more than two cells are selected, it only considers the first two for comparison.
 * If a range of cells is selected, it compares the first to the last cells selected in the range.
 * If the column is selected, it compares the first value to itself, which shows a change of 0.
+
+![](assets/summary-change.png)
 
 Click the **Visualization settings** gear in to the top right to configure the Summary Change settings: 
 

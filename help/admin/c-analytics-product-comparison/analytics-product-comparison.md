@@ -21,7 +21,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
 | **Visible row limit (before pagination)** | 400 | 200 | 50000 | Unlimited | Unlimited | Unlimited | 50000 |
 | **Multiple report suites** | [Yes](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Yes, with limitations | Yes | No | Yes | No | Yes |
 | **Number of breakdowns** | Unlimited | Up to 2 | Up to 2 | Unlimited | Unlimited | Unlimited | Unlimited, run across multiple queries |
-| **Segmentation** <br> [Learn more](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | Yes | Yes | Yes | Yes, with [limitations](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | Yes | No | Yes |
+| **Segmentation** <br> [Learn more](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Yes | Yes | Yes | Yes, with [limitations](/help/components/segmentation/seg-reference/seg-compatibility.md) | Yes | No | Yes |
 | **Calculated metrics** <br> [Learn more](/help/components/c-calcmetrics/cm-overview.md) | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Yes | Yes | No | Yes | No | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketing Channels** <br> [Learn more](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Yes | Yes | Yes | Yes | Yes | Yes - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Yes |
 | **Cohort analysis** | [Yes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Yes | No | No |

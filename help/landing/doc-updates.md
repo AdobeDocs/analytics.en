@@ -18,31 +18,29 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 |---|---|
 | July 21, 2020 | Major updates and revisions to [Cross-Device Analytics](/help/components/cda/overview.md). Added [Field-based stitching](/help/components/cda/field-based-stitching.md). |
-| April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric.|
-| March 12, 2020| Added updates to [Publish segments to the Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md).|
-| March 12, 2020| Updates to CDA stitching latency.|
-| February 27, 2020 | Added documentation for [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
+| April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric. |
+| March 12, 2020 | Added updates to [Publish segments to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
+| March 12, 2020 | Updates to CDA stitching latency.|
+| February 27, 2020 | Added documentation for [Adobe Analytics Labs](/help/analyze/tech-previews/overview.md). |
 | February 25, 2020 | Added [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variable. |
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) documentation.|
-| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](../components/cda/setup.md) and [FAQ](../components/cda/faq.md) |
-| February 4, 2020 | Complete rewrite of the [Implementation user guide](../implement/home.md). |
+| February 7, 2020 | Updates to [Setting up Cross-Device Analytics](/help/components/cda/setup.md) and [FAQ](/help/components/cda/faq.md) |
+| February 4, 2020 | Complete rewrite of the [Implementation user guide](/help/implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| January 13, 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
+| January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies.md). |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
-| November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| November 25, 2019 | New topic on [Internal (session refresh) marketing channel](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |
 | November 21, 2019 | New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| September 28, 2019 | New articles on [configuration variables for Javascript implementation](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| September 28, 2019 | New articles on [configuration variables for Javascript implementation](/help/implement/vars/config-vars/configuration-variables.md) |
+| September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](/help/components/cda/overview.md) |
+| August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/analyze/pwa/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |
 | August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md) |
 | August 5, 2019 | Updates to [Key Concepts](/help/analyze/reports-analytics/key-concepts.md) |
 | August 2, 2019 | Major update to [Analytics glossary](/help/technotes/terms.md) |
 | July 22, 2019 | Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |
 | July 18, 2019 | Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|
-| June 10, 2019 | New article on [Regional Data Collection (RDC) for China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |

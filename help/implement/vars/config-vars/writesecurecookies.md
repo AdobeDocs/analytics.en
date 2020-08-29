@@ -13,7 +13,12 @@ The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](
 
 ## Write Secure Cookies in Adobe Experience Platform Launch
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+[!UICONTROL Write secure cookies] is a checkbox under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
+
+1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+2. Click the desired property.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Write secure cookies] checkbox.
 
 ## s.writeSecureCookies in AppMeasurement and Launch custom code editor
 

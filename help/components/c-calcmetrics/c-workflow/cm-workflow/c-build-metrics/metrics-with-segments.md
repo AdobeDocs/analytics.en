@@ -24,7 +24,7 @@ Let's explore the first question: How does content browsing behavior compare bet
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >You can also do this in the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
 
    >[!NOTE]
    >

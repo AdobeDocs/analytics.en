@@ -6,7 +6,8 @@ uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 
 # Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!IMPORTANT]
+>
 >On August 6, 2018, Adobe announced the intention to end-of-life Ad Hoc Analysis. An end-of-life date will be shared once available. For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 You can perform instantaneous, advanced analysis on website activity. You can view multiple reports simultaneously and apply segments across multiple dimensions. You can analyze the data from both micro and macro perspectives to view their impact on your important business metrics.
@@ -62,7 +63,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
+>As of July 2018, Ad Hoc Analysis only supports Java 8 or higher. Adobe does not support running Ad Hoc Analysis on Java 7 or below.
 
 * Video card supporting OpenGL 2.0 
 * Cookies: Required 
@@ -73,13 +74,11 @@ c_sys_reqs.xml
 * JavaScript: Enabled 
 * Java version: Java 1.7 or later (See Note above)
 
-  If you do not have the correct version of Java installed, it is installed for you. If you have a non-compatible version of Java installed, Ad Hoc Analysis downloads and prompts you to install the updates.
+  If you do not have the correct version of Java installed, it is installed for you. If you have a non-compatible version of Java installed, Ad Hoc Analysis downloads and prompts you to install updates.
 
 ## Java Upgrade Instructions {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-As of July 2018, Ad Hoc Analysis will support only Java 8 or higher. If you choose to run Ad Hoc Analysis on Java 7 after the July 2018 Maintenance Release, Adobe will no longer support your Ad Hoc Analysis implementation.
-
-Our .jar files are signed with a secure 256-bit encryption that is not supported by Java versions less than 1.7.0_76. This 256-bit certificate allows us to serve you with enhanced security.
+Adobe's .jar files are signed with a secure 256-bit encryption that is not supported by Java versions less than 1.7.0_76. This 256-bit certificate allows us to serve you with enhanced security.
 
 If you still have Java 7 installed, you must upgrade before the July 2018 Maintenance release. Here's how:
 

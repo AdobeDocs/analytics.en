@@ -20,7 +20,7 @@ These integrations associate offline data with a specific online transaction or 
 
 The Transaction ID can be enabled/disabled from the UI, without the involvement of ClientCare:
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL [Select Report Suite]]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 

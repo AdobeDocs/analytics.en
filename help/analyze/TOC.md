@@ -16,6 +16,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Build a Workspace project {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
+    + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + Column and row settings {#column-row-settings}
@@ -124,7 +125,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Accessibility in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
-  + [What's new in Report Builder](report-builder/whats-new-arb.md)
   + Report Builder setup {#report-builder-setup}
     + [System requirements](report-builder/setup/system-requirements.md)
     + [Install Report Builder](report-builder/setup/t-install-arb.md)
@@ -234,7 +234,9 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Best practices](report-builder/c-publish-power-bi/bi-best-practices.md)
     + [Troubleshooting Power BI integration](report-builder/c-publish-power-bi/troubleshooting.md)
     + [Adobe Analytics content packs for Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-  + [Troubleshooting and best practices for Report Builder](report-builder/troubleshoot.md)
+  + [Visual Basic macros](report-builder/vba.md)
+  + [Report Builder troubleshooting](report-builder/troubleshoot.md)
+  + [Report Builder FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
   + [Activity Map overview](activity-map/activity-map.md)
   + Get started {#getting-started}

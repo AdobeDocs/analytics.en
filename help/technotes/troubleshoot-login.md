@@ -5,35 +5,57 @@ description: Steps to take when you cannot log in to Adobe Analytics.
 
 # Troubleshoot logging in to Adobe Analytics
 
-Adobe Analytics uses Adobe ID's to authenticate with the Experience Cloud.
+Adobe Analytics uses multiple authentication methods to log in:
 
-If you regularly access Analytics and randomly start encountering login issues, clearing your browser's cookies and cache resolves these issues most of the time.
+* Adobe ID through the Experience Cloud
+* Legacy Analytics ID
+* Single sign-on
 
-## Access experience.adobe.com
+**If you regularly access Analytics and randomly start encountering login issues, clearing your browser's cookies and cache resolves most issues.**
 
-Navigate to [experience.adobe.com](https://experience.adobe.com).
+Occasionally, availability issues can impact the ability to log in. Check [status.adobe.com](https://status.adobe.com) for any open incidents. Otherwise, use the appropriate section depending on your organization's authentication method.
 
-If you are unable to access this site:
+## Adobe ID
 
-* Your organization might not allow this domain through your firewall. Work with your organization's IT team to allow it. See [IPs and domains used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) for helpful information to give to your IT team.
-* Check [status.adobe.com](https://status.adobe.com) to make sure that there are no availability issues.
+Troubleshoot issues with logging in to Adobe Analytics using the Experience Cloud.
 
-## Authenticate using Adobe ID
+1. Navigate to [experience.adobe.com](https://experience.adobe.com). If you are unable to access this site, your organization might not allow this domain through your firewall. Work with your organization's IT team to allow it. See [IPs and domains used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) for helpful information to give to your IT team.
 
-Click **[!UICONTROL Sign In with an Adobe ID]**.
+2. Authenticate using Adobe ID: Click **[!UICONTROL Sign In with an Adobe ID]**. If you are unable to sign in, double check that your email address is typed correctly. Otherwise, click **[!UICONTROL Reset password]** and follow the prompts to reset your Adobe ID password.
 
-If you are unable to sign in:
+3. Access Analytics after authenticating: Click the 9-grid icon in the top right, then click Analytics. If you do not have this option or it is greyed out, work with a product admin within your organization to make sure that you have the correct permissions to access Analytics.
 
-* Double check that your email address is typed correctly.
-* Click **[!UICONTROL Reset password]** and follow the prompts to reset your Adobe ID.
+## Legacy Analytics ID
 
-## Unable to access Analytics after authenticating
+A user in your organization can receive the following error when they attempt to log in:
 
-Click the 9-grid icon in the top right, then click Analytics.
+*As a security precaution, this account has been locked due to too many failed attempts to log in.*
 
-If you do not have this option or it is greyed out, work with a product admin within your organization to make sure that you have the correct permissions to access Analytics.
+If clearing the browser's cookies/cache does not resolve the issue, work with an Analytics administrator in your organization to reset the user's password.
 
-## Other edge-case login issues
+>[!IMPORTANT]
+>
+>The following steps to reset a user's password only applies to legacy Analytics ID's, not Adobe ID's. If your organization uses Adobe ID's, you can manage user accounts at [adminconsole.adobe.com](https://adminconsole.adobe.com).
+
+1. Log in to Adobe Analytics with an account that has administrative rights.
+2. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+3. Click the **[!UICONTROL Users]** tab then click **[!UICONTROL Edit]** next to the desired user.
+4. Change the password to any value, and check the box **[!UICONTROL Require user to change password on next login]**.
+5. Inform the user of the new password.
+
+## Single sign-on
+
+Contact an administrator in your organization to resolve single sign-on issues.
+
+## Expired logins
+
+A user in your organization can receive the following error when they attempt to log in:
+
+*Error: This login has expired.*
+
+This error works as intended. Adobe Analytics provides administrators with the capability to set a date range that a user account is valid. If the current date resides outside the valid date range for the account, they are unable to log in. Work with an Analytics administrator in your organization to extend the valid date range of the login. Adobe Customer Care is not authorized to change valid login date ranges for user accounts.
+
+## Other login issues
 
 If none of the above steps work, determine the breadth of the login issue:
 

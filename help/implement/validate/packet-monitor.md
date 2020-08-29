@@ -26,8 +26,8 @@ While Adobe does not provide an official packet monitor, there are a wide range 
 |  Firefox  | Internet Explorer  | Chrome  | Standalone Programs  |
 |---|---|---|---|
 |  [Observe Point](https://www.observepoint.com/product#plugin) (tag viewer)  | [HttpWatch](https://www.httpwatch.com/)  | [Observe Point](https://www.observepoint.com/product#plugin) (tag viewer)  | [Charles](https://www.charlesproxy.com/)  |
-|  [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/)  |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html)  | [Fiddler](https://www.fiddler2.com/fiddler2/)  |
-|  [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/)  |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench)  | [Wireshark](https://www.wireshark.org/)  |
+|  [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/)  |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html)  | [Fiddler](https://www.fiddler2.com/fiddler2/)  |
+|  [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/)  |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench)  | [Wireshark](https://www.wireshark.org/)  |
 |  [HttpWatch](https://www.httpwatch.com/)  |  |  |  |
 |  [Firebug](https://getfirebug.com/)  |  |  |  |
 

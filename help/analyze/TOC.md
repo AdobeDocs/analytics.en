@@ -77,6 +77,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
+    + [Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}

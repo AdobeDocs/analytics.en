@@ -3,39 +3,73 @@ title: Concurrent Viewers panel
 description: How to use and interpret the Concurrent Viewers panel in Analysis Workspace.
 ---
 
+>[!IMPORTANT]
+>
+>This feature is in a phased rollout for Media Analytics customers.
+
 # Concurrent Viewers panel
 
+Media Analytics customers can analyze concurrent viewers to understand where peak concurrency occurred or where drop-offs happened to provide valuable insight into the quality of content and viewer engagement, and to help with troubleshooting or planning for volume or scale.
 
-** REVISE CONTENT FOR NEW Concurrent Viewers FEATURE - this sample content is copied from the attribution panel **
+In Analysis Workspace, Concurrent Viewers is the number of unique visitors viewing your media stream(s) at a specific point in time, regardless of the number of sessions.
+
+The Media Concurrent Viewers panel enables analysis of concurrent viewers over time, with details on peak concurrency and the ability to break down and compare.  To access the Media Concurrent Viewers panel, navigate to a report suite with Media Analytics components enabled. Then, click the panel icon on the far-left and drag the panel into your Analysis Workspace project.
+
+## Panel Inputs {#Input}
+
+You can configure the Media Concurrent Viewers panel using these input settings:
+
+|Setting|Description|
+|---|---|
+|Panel date range|The panel date range default is Today.  You may edit it to view a single day or many months at a time. <br> <br> This visualization is limited to 1440 rows of data (for example, 24-hours at minute-level granularity).  If a date range and granularity combination results in more than 1440 rows, the granularity is automatically updated to accommodate the full date range.|
+|Granularity|The granularity default is Minute. <br> <br>This visualization is limited to 1440 rows of data (for example, 24-hours at minute-level granularity).  If a date range and granularity combination results in more than 1440 rows, the granularity is automatically updated to accommodate the full date range.|
+|Panel summary numbers| To see date or time details for concurrent viewers, a summary number is available. The Maximum shows details for peak concurrency. The Minimum shows details for the trough.  The panel default shows Maximum only, but you can change it to show Minimum or both Maximum and Minimum.<br><br>If you are using breakdowns, a summary number is displayed for each.|
+|Series breakdown| Optionally, you can break down your visualization by segments, dimensions, dimension items, or date ranges. <br><br>- You may view up to 10 lines at a time. Breakdowns are limited to a single level.<br><br>- When dragging a dimension, the top dimension items will be automatically selected based on the selected panel date range.<br><br>- To compare date ranges, drag 2 or more date ranges into the series breakdown filter.|
+
+### Default view
+
+![Default view](assets/concurrent-viewers-default.png)
 
 
-THIS IS A PLACEHOLDER PAGE
+### Series breakdown view
 
-The attribution panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution IQ](../attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
+![series breakdown view](assets/concurrent-viewers-series-breakdown.png)
 
-## Create an attribution panel
+## Panel Output {#Output}
 
-1. Click the panel icon on the left.
-1. Drag the Attribution Panel into your Analysis Workspace Project.
+The Media Concurrent Viewers panel returns a line chart and summary numbers to include details for the maximum and/or minimum concurrent viewers.  At the top of the panel, a summary line is provided to remind you of the panel settings you selected.
 
-   ![New attribution panel](assets/Attribution_Panel_1.png)
+At any time, you can edit and rebuild the panel by clicking the edit pencil on the top right.
 
-1. Add a metric that you want to attribute and add any dimension to attribute against. Examples include Marketing Channels or custom dimensions, such as internal promotions.
+If you selected series breakdown, a line on the line chart and a summary number is displayed for each:
 
-   ![Select dimension and metric](assets/attribution_panel2.png)
+![concurrent viewers output](assets/concurrent-viewers-output.png)
 
-1. Select the [attribution models and lookback window](../attribution/models.md) you want to compare.
+### Data Source
 
-1. The Attribution panel returns a rich set of data and visualizations that compare attribution for the selected dimension and metric.
+The only metric that can be used in this panel is Concurrent Viewers:
 
-   ![Attribution visualizations](assets/attr_panel_vizs.png)
+|Metric|Description|
+|---|---|
+|Concurrent Viewers| Number of unique visitors viewing your media stream(s) at a specific point in time, regardless of the number of sessions.<br><br>This is different than Concurrent Viewer reporting in the Reports section, which uses Concurrent Active Sessions.  Using unique visitors accounts for removal of unwanted ‘spikes’ at show boundaries (where sessions are ending and starting at the same time).|
 
-## Attribution visualizations
+A Freeform table is not available in this view.  In order to view the data source, you may right-click on the line chart and download as a .csv file.  Series breakdowns will be included.
 
-* **Total metric**: The total number of conversions that occurred over the reporting time window. These are the conversions that are attributed across the dimension you selected.
-* **Metric Attribution Comparison Bar Chart**: Visually compares the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model.
-* **Metric Attribution Freeform Table**: Shows the same data as the bar chart, represented as a table. Selecting different columns or rows in this table filters the bar chart as well as several of the other visualizations in the panel. This table acts similar to any other Freeform Table in Workspace - allowing you to add compoents such as metrics, segments, or breakdowns.
-* **Dimension Overlap Chart**: A Venn Diagram showing the top three dimension items and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
-* **Marketing Touchpoints Per Journey**: A histogram indicating the number of touchpoints a visitor had in the lookback window. This is useful to see how impactful multi-touch attribution is for your dataset. If nearly all visitors have only a single touchpoint, different attribution models likely show similar data.
-* **Marketing Channel Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
-* **Marketing Channel Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
+
+![concurrent viewers output](assets/concurrent-viewers-download-csv.png)
+
+## FAQs {#FAQ}
+
+|Question|Answer|
+|---|---|
+|Where is the Freeform table? How can I see the data source?| The Freeform table is not available in this view.  You can download the data source by right-clicking on the line chart and downloading the CSV file.|
+|Why did my granularity change?|This visualization is limited to 1440 rows of data (for example, 24-hours at minute-level granularity).  If a date range and granularity combination results in more than 1440 rows, the granularity will be automatically updated to accommodate the full date range.<br><br>When changing from a larger date range to a smaller one, the granularity will be updated to the lowest detail allowable once the date range is changed. To view a higher granularity, edit the panel and rebuild.|
+|How do I compare video names, segments, content types, etc?|To compare these in a single visualization, drag segments, dimensions, or specific dimension items in the series breakdown filter.<br><br>The view is limited to 10 breakdowns.  To view more than 10, you must use multiple panels.|
+|How do I compare date ranges?|To compare date ranges in a single visualization, use the series breakdowns by dragging 2 or more date ranges.  These date ranges will override the panel date range.|
+|How do I change the visualization type?|This panel only allows for the line visualization for the time series.|
+|Can I run anomaly detection?|No.  Anomaly detection is not available for this panel.|
+|Why use unique visitors instead of active sessions?|Using unique visitors enables removal of unwanted spikes at show boundaries (where sessions are ending and starting at the same time).|
+|What does it mean to have concurrent viewers at higher granularity than minute?|With a granularity larger than a minute, concurrent viewers is the sum of unique concurrent viewers for all minutes within that time range.  For example, at hour-level granularity concurrent viewers is the sum of unique concurrent viewers for all minutes within the hour.|
+|What if I want to see more than 1 day at the minute-level granularity?|To access data at minute-level granularity for up to 1 month at a time, you can use the Analytics Reporting API (2.0 or 1.4). For more information about Analytics APIs, see the [Analytics API Reports User Guide](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md).|
+
+<!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->

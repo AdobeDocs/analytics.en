@@ -3,11 +3,11 @@ title: Concurrent Viewers panel
 description: How to use and interpret the Concurrent Viewers panel in Analysis Workspace.
 ---
 
+# Concurrent Viewers panel
+
 >[!IMPORTANT]
 >
 >This feature is in a phased rollout for Media Analytics customers.
-
-# Concurrent Viewers panel
 
 Media Analytics customers can analyze concurrent viewers to understand where peak concurrency occurred or where drop-offs happened to provide valuable insight into the quality of content and viewer engagement, and to help with troubleshooting or planning for volume or scale.
 

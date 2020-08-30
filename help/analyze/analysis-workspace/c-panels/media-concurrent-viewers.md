@@ -1,9 +1,9 @@
 ---
-title: Concurrent Viewers panel
-description: How to use and interpret the Concurrent Viewers panel in Analysis Workspace.
+title: Media Concurrent Viewers panel
+description: How to use and interpret the Media Concurrent Viewers panel in Analysis Workspace.
 ---
 
-# Concurrent Viewers panel
+# Media Concurrent Viewers panel
 
 >[!IMPORTANT]
 >

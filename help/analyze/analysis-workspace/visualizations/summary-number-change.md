@@ -15,7 +15,15 @@ Use the Summary Number visualization to highlight a large number that is importa
 * If more than one cell is selected, it shows the first cell selected.
 * If the column is selected, it picks the first cell value in the column.
 
-![](assets/summary-number.png)
+Click the **Visualization settings** gear in to the top right to configure the Summary Number settings: 
+
+| Setting | Definition |
+|--- |--- |
+| Percentages | Display percentages instead of raw numbers.|
+| Legend visible | Display information about the metric displayed.|
+| Abbreviate value | Choose to abbreviate values and show up to 3 decimal places.|
+| Summarize value by | Choose to display the max, min, mean, median, or sum for a selection of data.|
+
 
 Click the **Visualization settings** gear in to the top right to configure the Summary Number settings: 
 
@@ -25,6 +33,7 @@ Click the **Visualization settings** gear in to the top right to configure the S
 | Legend visible | Display information about the metric displayed.|
 | Abbreviate value | Choose to abbreviate values and show up to 3 decimal places.|
 | Summarize value by | Choose to display the max, min, mean, median, or sum for a selection of data.|
+
 
 ## Summary Change visualization {#summary-change}
 
@@ -39,7 +48,9 @@ This visualization behaves in the following ways:
 * If a range of cells is selected, it compares the first to the last cells selected in the range.
 * If the column is selected, it compares the first value to itself, which shows a change of 0.
 
+
 ![](assets/summary-change.png)
+
 
 Click the **Visualization settings** gear in to the top right to configure the Summary Change settings: 
 

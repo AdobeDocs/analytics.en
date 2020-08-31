@@ -36,9 +36,10 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Exclude data](exclude-data.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
++ [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)
++ [Multi-currency support](multicurrency.md)
 + [Privacy overview](privacy-overview.md)
 + [Redirects and aliases](redirects.md)
-+ [Multi-currency support](multicurrency.md)
 + Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)

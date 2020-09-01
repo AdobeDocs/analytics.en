@@ -28,7 +28,7 @@ A granularity drop-down in the [visualization settings](freeform-analysis-visual
 
 ## Show min or max
 
-Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric. Note: The min/max values are derived from the visible data points in the visualization, not the full set of values within a dimension.
 
 ![Show min/max](assets/min-max-labels.png)
 

@@ -33,6 +33,7 @@ Attribution models are available outside of virtual report suites. While they us
 
 The attribution panel supports all dimensions. Unsupported metrics include:
 
+* All calculated metrics
 * Unique Visitors
 * Visits
 * Occurrences

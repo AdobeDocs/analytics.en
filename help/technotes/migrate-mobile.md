@@ -41,6 +41,10 @@ In addition to mobile metrics and dimensions (if the report suite is enabled for
 * Retention: Who are my loyal users and what do they do?
 * Journeys: What are the prominent usage patterns for my app?
 
+Here is an excerpt of the Mobile App Usage template:
+
+![Mobile App Usage](assets/mobile-app-usage.png)
+
 To access the templates:
 
 1. Log in to experience.adobe.com and select Analytics.

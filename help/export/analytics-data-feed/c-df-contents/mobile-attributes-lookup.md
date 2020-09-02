@@ -11,7 +11,7 @@ Mobile attributes show properties of the mobile device in the hit. This file app
 * The `mobile_id` column is included.
 * The `user_agent` column is excluded. This exclusion is required due to licensing agreements with DeviceAtlas.
 
-Download `mobile_attributes_headers.tsv`, or reference the list here:
+Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv), or reference the list here:
 
 * `mobile_id`
 * `Manufacturer`

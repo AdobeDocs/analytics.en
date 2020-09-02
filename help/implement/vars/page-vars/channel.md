@@ -27,3 +27,9 @@ The `s.channel` variable is a string that typically contains the page's site sec
 ```js
 s.channel = "Example site section";
 ```
+
+If using the `digitalData` [data layer](../../prepare/data-layer.md):
+
+```js
+s.channel = digitalData.page.category.primaryCategory;
+```

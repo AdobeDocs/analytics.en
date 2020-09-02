@@ -11,7 +11,9 @@ This dimension is related to the [Site section](site-section.md) and [Server](se
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the `pageName` variable. If the `pageName` variable is not defined, it falls back to using the page's URL.
+This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the `pageName` query string exists.
+
+AppMeasurement collects this data using the [`pageName`](/help/implement/vars/page-vars/pagename.md) variable. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## Dimension items
 

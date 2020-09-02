@@ -8,10 +8,10 @@ See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/mana
 
 Product profile admins are an optional group that can add or remove users to that product profile. Note that a product profile admin is not the same as a product admin:
 
-* Product profile admins are merely responsible for the user list of a product profile.
 * Product profile admins do not have full access to Adobe Analytics. Full access to Adobe Analytics is reserved for product admins.
-* Product profile admins cannot adjust permissions items in their product profile; a product admin must make permission item adjustments.
-* Product profile admins are ideal for team leads or managers who simply need to grant and manage access to Adobe Analytics for their team. Individuals would not need to bother system admins or product admins to grant access to Adobe Analytics.
+* Product profile admins can adjust permissions items in their product profile.
+* Product profile admins can assign or remove product profiles to user groups.
+* Product profile admins are ideal for team leads or managers who need to grant and manage access to Adobe Analytics for their team. Individuals would not need to bother system admins or product admins to grant access to Adobe Analytics.
 
 ## Adobe Analytics permission items
 

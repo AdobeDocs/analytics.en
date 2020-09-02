@@ -9,7 +9,7 @@ A data layer is a framework of JavaScript objects on your site that contains all
 
 ## Prerequisites
 
-[Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure you are prepared with a solution design document before approaching development teams in your organization.
+[Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure that you are prepared with a solution design document before approaching development teams in your organization.
 
 ## Workflow
 
@@ -54,14 +54,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -70,13 +70,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -117,13 +118,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -132,10 +133,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -147,19 +148,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object.
+Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 Data layers are extensible; if you have requirements specific to your organization, you can include objects in your data layer to accommodate those needs.
 

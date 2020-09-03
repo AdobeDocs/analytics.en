@@ -5,11 +5,11 @@ title: Migrate Mobile Services processing rules to Adobe Analytics
 
 # Migrate Mobile Services processing rules to Adobe Analytics
 
-With the upcoming (as yet unannounced) sunset of Adobe Mobile Services functionality, this document provides you with instructions on how to migrate any additional processing rules - beyond Lifecycle Metrics - that you created in the Mobile Services UI to Adobe Analytics. 
+This document provides you with instructions on how to migrate any additional processing rules - beyond Lifecycle Metrics - that you created in the Mobile Services UI to Adobe Analytics. 
 
 Processing rules are used to move values from context data variables to props and eVars. For example, you could place the value of a “search-term” context data variable into the value of a Commerce Variable eVar and overwrite that value on every hit. Without processing rules, context data variables are meaningless and do not populate any reports in Analytics.
 
-This document also addresses mobile usage reporting in Analysis Workspace and discusses the feasibility of migrating other Mobile Services functionality.
+This document also shows you how to do mobile usage reporting in Analysis Workspace.
 
 ## Migrate Processing Rules
  

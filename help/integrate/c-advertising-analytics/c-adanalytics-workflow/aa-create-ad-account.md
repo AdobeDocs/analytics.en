@@ -38,14 +38,11 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth Token </p> </td> 
-      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
-        </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display 
-        <systemoutput>
-          Retrieved
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
+       </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>

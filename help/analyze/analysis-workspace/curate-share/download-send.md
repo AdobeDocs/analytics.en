@@ -29,7 +29,7 @@ For project downloads, keep in mind:
 
 The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy data from Workspace and paste it elsewhere. 
 
-* If you want the displayed table copied, right-click on the table header and choose **Copy displayed data to clipboard**. 
+* If you want the displayed table copied, right-click on the table header and choose **Copy data to clipboard**. 
 * If you want a subset of data copied, make a selection in the table and then right-click > **Copy selection to clipboard**.
 
 Additionally, the hotkey `Ctrl+C` copies your selection to the clipboard. Once copied, you can go into another tool and paste the information (or hit `Ctrl+V`).
@@ -40,9 +40,8 @@ Additionally, the hotkey `Ctrl+C` copies your selection to the clipboard. Once c
 
 The right-click option **[!UICONTROL Download data as CSV]** allows you to download a table of data or the data source of any visualization as a CSV.
 
-* From the header of any table, right-click **[!UICONTROL Download displayed data as CSV]**. This downloads the displayed data in the table as a CSV.
+* From the header of any table or visualization, right-click **[!UICONTROL Download data as CSV]**. This downloads the displayed data in the table or the underlying data source for a visualization as a CSV. Note: the Map visualization does not support this option.
 * If a selection is made in the table, the option will say **[!UICONTROL Download selection as CSV]**. Only the selection is downloaded with this option, as opposed to the full, displayed table.
-* From the header of any visualization, right-click **[!UICONTROL Download data as CSV]**. This  downloads the data source table for a visualization as a CSV. Note: the Map visualization does not support this option.
 
 ![](assets/download-data-viz.png)
 

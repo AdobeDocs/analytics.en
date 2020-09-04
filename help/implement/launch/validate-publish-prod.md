@@ -1,6 +1,6 @@
 ---
-title: Deploy Adobe Analytics to a dev environment
-description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your development environment.
+title: Validate a development implementation and publish to production
+description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your production environment.
 ---
 
 # Validate a development implementation and publish to production
@@ -57,7 +57,7 @@ While on your site, open the browser's developer console (typically F12). Look a
 
 ## Next Steps
 
-Now that a basic implementation has been set up, your role within your organization can influence which path you want to learn more about:
+Now that a basic implementation is set up, your role within your organization can influence which path you want to learn more about:
 
 * [Create a solution design document](../prepare/solution-design.md): Make a plan for how you want to use custom variables, then include them in your implementation
 * [Get started using Analysis Workspace](/help/analyze/analysis-workspace/home.md): Dive right into Adobe Analytics using the tool's flagship capability.

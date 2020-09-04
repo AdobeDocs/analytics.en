@@ -26,7 +26,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
    ![](assets/dtm-embed.png)
 
-   Place the code as close to the [!DNL <head>] tag as possible. This code snippet should be placed on every page of your live production site.
+   Place the code as close to the `<head>` tag as possible. This code snippet should be placed on every page of your live production site.
 
    >[!NOTE]
    >

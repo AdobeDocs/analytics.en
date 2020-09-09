@@ -9,7 +9,7 @@ uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 
 Administrative steps for enabling Activity Map reporting in Analytics.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
 Enables Analytics to collect user activity served up from Activity Map (formerly ClickMap). This integration
 

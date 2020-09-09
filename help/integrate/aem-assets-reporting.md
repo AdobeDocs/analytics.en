@@ -9,7 +9,7 @@ uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 
 Administrative steps for enabling AEM Assets reporting in Analytics.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
 
 Enables Analytics to collect impressions and clicks on Assets served up from AEM Asset Insights. This integration
 

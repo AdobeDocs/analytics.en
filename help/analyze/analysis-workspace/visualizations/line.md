@@ -28,7 +28,7 @@ A granularity drop-down in the [visualization settings](freeform-analysis-visual
 
 ## Show min or max
 
-Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, you can overlay a minimum and maximum value label to quickly highlight the peaks and valleys in a metric. Note: The min/max values are derived from the visible data points in the visualization, not the full set of values within a dimension.
 
 ![Show min/max](assets/min-max-labels.png)
 
@@ -40,10 +40,10 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 All models are fit using ordinary least squares:
 
-|Model|Description|
-|---|---|
-|Linear|Creates a best-fit straight line for simple linear data sets and is useful when the data increases or decreases at a steady rate. Equation: `y = a + b * x`|
-|Logarithmic|Creates a best-fit curved line and is useful when the rate of change in the data increases or decreases quickly and then levels out. A logarithmic trendline can use negative and positive values. Equation: `y = a + b * log(x)`|
-|Exponential|Creates a curved line and is useful when data rises or falls at constantly increasing rates. This option should not be used if your data contains zero or negative values. Equation: `y = a + e^(b * x)`|
-|Power|Creates a curved line and is useful for data sets that compare measurements that increase at a specific rate. This option should not be used if your data contains zero or negative values. Equation: `y = a * x^b`|
-|Quadratic|Finds the best-fit for a data set shaped like a parabola (concave up or down). Equation: `y = a + b * x + c * x^2`|
+| Model | Description |
+| --- | --- |
+| Linear | Creates a best-fit straight line for simple linear data sets and is useful when the data increases or decreases at a steady rate. Equation: `y = a + b * x` |
+| Logarithmic | Creates a best-fit curved line and is useful when the rate of change in the data increases or decreases quickly and then levels out. A logarithmic trendline can use negative and positive values. Equation: `y = a + b * log(x)` |
+| Exponential | Creates a curved line and is useful when data rises or falls at constantly increasing rates. This option should not be used if your data contains zero or negative values. Equation: `y = a + e^(b * x)` |
+| Power | Creates a curved line and is useful for data sets that compare measurements that increase at a specific rate. This option should not be used if your data contains zero or negative values. Equation: `y = a * x^b` |
+| Quadratic | Finds the best-fit for a data set shaped like a parabola (concave up or down). Equation: `y = a + b * x + c * x^2` |

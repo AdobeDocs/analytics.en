@@ -34,6 +34,7 @@ user-guide-url: /content/help/en/analytics/technotes/home.html
 + [Browser cookies](cookies.md)
 + [Data retention](data-retention.md)
 + [Exclude data](exclude-data.md)
++ [IPs and domains used by Adobe Analytics](ip-addresses.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
 + [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)

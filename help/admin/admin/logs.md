@@ -25,9 +25,50 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 |  Login  | Filter the log by user name.  |
 |  IP  | Filter the log by an IP address.  |
 |  Report Suite  | Filter the log by a specific report suite ID.  |
-|  Event Type  | Filter the log by an event type. Select an event type from the drop-down list.  |
+|  Event Type  | Filter the log by an event type. Select an event type from the drop-down list. See the complete list of event types below.  |
 |  Event  | Filter the log by a word or phrase in the event description.  |
 |  Download Report  | Exports the contents of the [!UICONTROL Usage & Access Log] to a tab-delimited file.  |
+
+### Event types
+
+|  Event type  | Description  |
+| --- |--- |
+| No Category | |
+| Login failed | |
+| Login successful | |
+| Admin Action | |
+| Security setting change | |
+| Report viewed | |
+| Report downloaded | |
+| Alert sent | |
+| User Action |  |
+| Tool viewed | |
+| Omniture Action | |
+| Password recovery | |
+| BookMarks | |
+| Dashboards | |
+| Alerts | |
+| Calendar Events | |
+| Targets | |
+| Report Settings | |
+| Scheduled Reports | |
+| Exclude by IP | |
+| Name Pages | |
+| Classifications | |
+| Data Sources | |
+| Workspace Project | |
+| Segment | |
+| Calculated Metric | |
+| Date Range | |
+| Virtual Report Suite | |
+| Contribution Analysis | |
+| Excel Data Block Request | |
+| Excel Login Failure | |
+| Excel Login Success | |
+| Mobile Login Failure | | 
+| Mobile Login Success | |
+| Api Method | |
+
 
 ## Report Suite Change Log {#section_3864966639414BBEA871F4D0352F56B6}
 

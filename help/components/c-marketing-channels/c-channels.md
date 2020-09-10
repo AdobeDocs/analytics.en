@@ -21,17 +21,9 @@ Here are guidelines for creating channels:
 
 ## Prerequisites {#prereqs}
 
-If necessary, contact Customer Care to assist you with these prerequisites:
-
-* In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
-
-  See [General Account Settings](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) in Analytics help for more information.
-
 * Set up access to the Marketing Channel dimensions.
 
   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
 ## Add marketing channels {#add-mktg-channels}
 

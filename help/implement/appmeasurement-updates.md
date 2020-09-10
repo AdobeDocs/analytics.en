@@ -12,6 +12,12 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.22.0
+
+Release Date: **August4, 2020**
+
+* Fix for missing referrer when first hit was not sent due to user's opt-out preferences.
+
 ## Version 2.21.0
 
 Release Date: **June 24, 2020**

@@ -14,7 +14,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 ## Version 2.22.0
 
-Release Date: **August4, 2020**
+Release Date: **August 4, 2020**
 
 * Fix for missing referrer when first hit was not sent due to user's opt-out preferences.
 

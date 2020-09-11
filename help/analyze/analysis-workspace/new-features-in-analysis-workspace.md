@@ -1128,9 +1128,9 @@ The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL C
 
 *`Save As`* is also available for the [!UICONTROL Calculated Metric Builder] and [!UICONTROL Date Range Builder].
 
-## Add New Segment Button {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Add New Segment
 
-The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
+The **[!UICONTROL Drop a Segment here]** drop zone has been added so you can drag and drop segments onto a project.
 
 ![](assets/add-new-segment.png)
 

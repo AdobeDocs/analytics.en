@@ -17,6 +17,8 @@ If you have only a few minutes, watch this brief overview to see what is possibl
 
 To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](http://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
 
+![](assets/login-analytics.png)
+
 ## Use the Training tutorial {#training-tutorial}
 
 Once logged in, your first stop should be the Analysis Workspace Training Tutorial, which walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial, click **[!UICONTROL Create New Project]** and then select **Training Tutorial** within the new project modal.

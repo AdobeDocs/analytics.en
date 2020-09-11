@@ -43,18 +43,18 @@ Each freeform table shows the following metric columns:
 |Lift (Upper)| Represents the best lift a variant experience could have over the control.|
 |Confidence| The students t-test calculates the confidence level, which indicates the likelihood that the results would be duplicated if the test were run again. A fixed conditional formatting range of 75%/85%/95% has been applied to the metric. This formatting can be customized if needed under Column settings. <br>**Note:** Confidence is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.|
 
-Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations]( https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities.
+Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities.
 
 ## FAQs {#FAQ}
 
 |Question|Answer|
 |---|---|
 |What activity types are supported in A4T?| [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) about what activity types are supported.|
-|Are calculated metrics supported in lift and confidence calculations?|No. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported in lift & confidence. Calculated metrics can be used in A4T reporting outside of these metrics, however.|
-|Why would unique visitors vary between Target and Analytics?|[Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) about variances of unique visitors between products.|
-|When I apply a hit segment for a specific Target activity in my analysis, why do I see unrelated experiences returned?|The A4T dimension is a list variable, which means it can contain many activities (and experiences) at once. [Learn more]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)|
+|Are calculated metrics supported in lift and confidence calculations?|No. [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about why calculated metrics are unsupported in lift & confidence. Calculated metrics can be used in A4T reporting outside of these metrics, however.|
+|Why would unique visitors vary between Target and Analytics?|[Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) about variances of unique visitors between products.|
+|When I apply a hit segment for a specific Target activity in my analysis, why do I see unrelated experiences returned?|The A4T dimension is a list variable, which means it can contain many activities (and experiences) at once. [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)|
 |Does the confidence metric account for extreme orders or apply a Bonferroni correction for multiple offers?|No. [Learn more](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) about how Analytics calculates confidence.|
 |Can lift and confidence metrics be used with other dimensions or breakdowns?|Lift and confidence are "locked metrics" to the Target Experiences dimension because they require a control and variant to calculate across. As such, they cannot be broken down or used with other dimensions.|
 |When do lift and confidence re-calculate?|Lift and confidence will re-calculate anytime the panel is run (or re-run), the panel date range changes, or a segment is applied to the panel or table.|
 
-For more information regarding Analytics for Target reporting, visit [A4T reporting]( https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+For more information regarding Analytics for Target reporting, visit [A4T reporting](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)

@@ -7,41 +7,37 @@ uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 
 # Analysis Workspace overview
 
->[!IMPORTANT]
->
->This page is currently under construction.
+Analysis Workspace is a flexible browser tool that allows you to quickly build analyses and share insights. Using the drag-and-drop interace, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share and schedule projects with anyone in your organization.
 
+If you only have a few minutes, watch this brief overview to see what is possible.
 
-Analysis Workspace removes all of the typical limitations of a single Analytics report. It provides a robust, flexible canvas for building custom analysis projects. Drag-and-drop any number of data tables, visualizations, and components (dimensions, metrics, segments, and time granularities) to a project. Instantly create breakdowns and segments, create cohorts for analysis, create alerts, compare segments, do flow and fallout analysis, and curate and schedule reports for sharing with anyone in your business. 
-
-Start with PAGE for basic instructions to get started with Workspace. When you have mastered the basics, you can move on to its  advanced features of Workspace. These include [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md), and [Intelligent Alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
-
-Watch a video overview of Workspace, below. The full YouTube playlist for Analysis Workspace features is available [here](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&sort=dd&shelf_id=7).
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
+## Login to Adobe Analytics {#login}
 
-## Create a simple project
+To start using Analysis Workspace, log into Adobe Analytics by going to [experience.adobe.com/analytics](http://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
 
-## Two ways to build a table
+## Use the Training tutorial {#training-tutorial}
 
-## Common approach to analysis
+Once logged in, your first stop should be the Analysis Workspace Training Tutorial, which walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial, click **Create New Project** and then select **Training Tutorial** within the new project modal.
 
-### Step 1: Analyze a dimension
+## Create a new project {#new-project}
 
-### Step 2: Add a metric
+With the tutorial complete, you are ready to begin building your first project. The **new project modal** will provide you with different options for starting your analysis. You can choose to start from a blank project or [blank mobile scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html), depending on if you plan to share your analysis from the browser or the Adobe Analytics dashboards mobile app. 
 
-### Step 3: Change the date range
+Additionally, you can begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates created by your organization. There a several different templates available depending on the analysis or use case you have in mind. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
 
-### Step 4: Break down a dimension
+## Build your analysis {#analysis}
 
-### Step 5: Apply a segment to your data
+In your Workspace project, **panels, tables, visualizations, and components** are accessed from the left rail. These are your project building blocks.
 
-### Step 6: Add basic visualizations 
+**Components** are dimensions, metrics, segments, or date ranges, all of which can be combined in a **freeform table** to start answering your business question. Be sure to familiarize yourself with each [component type](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to [build your analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in a freeform table. 
 
-### Step 7: Explore advanced visualizations
+**Visualizations**, such as a bar or line chart, are then added on top of the data to visually bring it to life in your project. On the far left rail, select the middle Visualizations icon to see a full list of [visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) available.
 
-### Step 8: Curate and Share
+**Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top Panels icon to see a full list of [panels](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) available.
 
-## More information
+## Additional resources {#resources}
 
+* A complete video training guide is available on the Adobe Analytics YouTube channel [here](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&sort=dd&shelf_id=7).
 * See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about new features.

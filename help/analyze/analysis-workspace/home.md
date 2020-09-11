@@ -31,9 +31,15 @@ Additionally, you can begin your analysis from pre-built **templates**, either A
 
 In your Workspace project, **panels, tables, visualizations, and components** are accessed from the left rail. These are your project building blocks.
 
+### Components
+
 **Components** are dimensions, metrics, segments, or date ranges, all of which can be combined in a **freeform table** to start answering your business question. Be sure to familiarize yourself with each [component type](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to [build your analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in a freeform table. 
 
+### Visualizations
+
 **Visualizations**, such as a bar or line chart, are then added on top of the data to visually bring it to life in your project. On the far left rail, select the middle Visualizations icon to see a full list of [visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) available.
+
+### Panels
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top Panels icon to see a full list of [panels](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) available.
 

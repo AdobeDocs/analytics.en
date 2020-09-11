@@ -9,13 +9,6 @@ uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 
 Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 
->[!IMPORTANT]
->
->In July 2018, Adobe introduced [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
->
->* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models were migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" has not been deprecated - only the two allocation models that appear in calculated metrics have been).
->* In addition, we corrected the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
-
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
 * Adobe [!DNL Analytics] Foundation: Calculated 

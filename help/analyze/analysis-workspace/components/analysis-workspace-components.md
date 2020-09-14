@@ -46,10 +46,10 @@ You can manage components (individually or by selecting more than one) directly 
 
 | Component Action | Description |
 |--- |--- |
-|Tag|Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers.
-|Favorite|Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers.|
-|Approve|Mark components as Approved to signal to your users that the component is organization-approved. Like tags, you can search by Approved in the left rail and filter by them in the component managers.|
-|Share|Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics.|
-|Delete|Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics.|
+| Tag | Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers. |
+| Favorite | Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers. |
+| Approve | Mark components as Approved to signal to your users that the component is organization-approved. Like tags, you can search by Approved in the left rail and filter by them in the component managers. |
+| Share | Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics. |
+| Delete | Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics. |
 
 Custom components can also be managed through their respective Component managers.

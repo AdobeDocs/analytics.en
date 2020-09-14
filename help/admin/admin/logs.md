@@ -33,41 +33,41 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 
 |  Event type  | Description  |
 | --- |--- |
-| No Category | |
-| Login failed | |
-| Login successful | |
-| Admin Action | |
-| Security setting change | |
-| Report viewed | |
-| Report downloaded | |
-| Alert sent | |
-| User Action |  |
-| Tool viewed | |
-| Omniture Action | |
-| Password recovery | |
-| BookMarks | |
-| Dashboards | |
-| Alerts | |
-| Calendar Events | |
-| Targets | |
-| Report Settings | |
-| Scheduled Reports | |
-| Exclude by IP | |
-| Name Pages | |
-| Classifications | |
-| Data Sources | |
-| Workspace Project | |
-| Segment | |
-| Calculated Metric | |
-| Date Range | |
-| Virtual Report Suite | |
-| Contribution Analysis | |
+| No Category | Could be any event type. |
+| Login failed | User login process failed. |
+| Login successful | User logged in successfully. |
+| Admin Action | An admin action occurred, like editing a report suite, changing company settings, creating a user, etc. |
+| Security setting change | A security setting was changed. |
+| Report viewed | A Reports & Analytics report was viewed. |
+| Report downloaded | A Reports & Analytics report was downloaded. |
+| Alert sent | An alert was sent. |
+| User Action | User information was edited. |
+| Tool viewed | A tool was viewed. |
+| Omniture Action | An action was performed by Adobe. |
+| Password recovery | A password was recovered. |
+| BookMarks | A bookmark was managed. |
+| Dashboards | A dashboard was managed. |
+| Alerts | An alert was managed. |
+| Calendar Events | A calendar event was managed. |
+| Targets | A target was managed. |
+| Report Settings |  A report setting was managed. |
+| Scheduled Reports |  A scheduled report was managed. |
+| Exclude by IP | IP setting was changed. |
+| Name Pages | Deprecated. |
+| Classifications |  A classification was managed. |
+| Data Sources |  A data source was managed. |
+| Workspace Project | A Workspace project was viewed or edited. |
+| Segment | A segment was created/edited. |
+| Calculated Metric | A calculated metric was created/edited. |
+| Date Range | A date range was created/edited. |
+| Virtual Report Suite | A virtual report suite was created/edited. |
+| Contribution Analysis | A contribution analysis job was run. |
 | Excel Data Block Request | |
 | Excel Login Failure | |
 | Excel Login Success | |
 | Mobile Login Failure | | 
 | Mobile Login Success | |
-| Api Method | |
+| Api Method | An API call was made. |
 
 
 ## Report Suite Change Log {#section_3864966639414BBEA871F4D0352F56B6}

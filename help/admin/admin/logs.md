@@ -32,7 +32,7 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 ### Event types
 
 |  Event type  | Description  |
-| --- |--- |
+| --- | --- |
 | No Category | Could be any event type. |
 | Login failed | User login process failed. |
 | Login successful | User logged in successfully. |

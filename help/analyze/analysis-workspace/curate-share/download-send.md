@@ -8,10 +8,6 @@ uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 
 There are several different ways you can export data from Analysis Workspace, depending on what set of data you want to analyze outside of the tool and who needs to receive the information. Exported data can be in the form of copied data, CSV or PDF files. A PDF is typically preferred if you want visualizations included in the file, while a CSV (or copied data) is preferred if you simply want plain-text data.
 
->[!IMPORTANT]
->
-> Some options referred to on this page, such as **Download items as CSV**, are currently in limited testing. [Learn more](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
-
 ## Download project as CSV or PDF {#download-project}
 
 You can download a full project by going to **[!UICONTROL Project > Download as PDF (or as CSV)]**. The downloaded file contains all of the displayed (visible) tables and visualizations in the project. A PDF is typically preferred if you want visualizations included in the file, while a CSV is preferred if you simply want plain-text data.

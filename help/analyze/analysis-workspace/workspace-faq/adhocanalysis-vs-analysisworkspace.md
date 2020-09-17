@@ -20,14 +20,14 @@ For a technical comparison of key features and system requirements between these
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
-|Project|Workspace or Project|
-|Workspace|Panel|
-|Report|Freeform Table|
-|Charts/Graph|Visualization|
-|Hierarchy: Project > Workspaces > Reports|Hierarchy: Project > Panels > Tables|
-|Ranked, Trended, Totals Report templates|Freeform Table visualization|
-|Flow template|Flow visualization|
-|Fallout|Fallout visualization|
+| Project | Workspace or Project |
+| Workspace | Panel |
+| Report | Freeform Table |
+| Chart/Graph | Visualization|
+| Hierarchy: Project > Workspaces > Reports | Hierarchy: Project > Panels > Tables |
+| Ranked, Trended, Totals Report templates | Freeform Table visualization |
+| Flow template | Flow visualization |
+| Fallout | Fallout visualization |
 
 ## Comparison of Key Tasks {#section_F31446F1DFA742D794A30D713E223440}
 

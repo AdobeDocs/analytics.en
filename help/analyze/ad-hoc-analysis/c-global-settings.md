@@ -6,6 +6,10 @@ uuid: 34444052-479b-4923-b379-a03ca614bf3e
 
 # Settings
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 Configure global behavioral settings. For example, you can configure Autosave, chart and table settings, and specify the font and locale.
 
 ## Settings {#concept_D21E3D6F13EA4F97913F60C243B72173}

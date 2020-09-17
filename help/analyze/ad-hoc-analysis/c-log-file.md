@@ -5,6 +5,10 @@ description: Obtain a log file for troubleshooting purposes.
 
 # Log file
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 When troubleshooting issues with Ad Hoc Analysis, it is sometimes necessary to obtain its log file. Adobe can use the log file to locate the root cause of the issue and provide a resolution. The `discover.log` file contains all user interactions, report loading information, and Java error messages across all sessions. It hashes any protected information, such as the user's password. Large log files are split into 10 MB increments. When providing Adobe with the log files, ensure that all files are selected.
 
 ## Windows

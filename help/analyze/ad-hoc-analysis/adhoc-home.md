@@ -9,7 +9,7 @@ Ad Hoc Analysis helps you identify high-value customer segments with unlimited r
 
 >[!IMPORTANT]
 >
->On August 6, 2018, Adobe announced the intention to end-of-life Ad Hoc Analysis. An end-of-life date will be shared once available. For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
 
 ## New and Popular Topics
 

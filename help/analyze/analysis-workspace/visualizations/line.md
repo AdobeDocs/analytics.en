@@ -34,7 +34,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->It is recommended that trendlines be applied to data that does not include today (partial data) or future dates, as those will skew the trendline. If you need to include future dates however, remove zeroes from the data to prevent skewing for those days. To do this, go to the visualization's data source table, then choose your metric column > Column Settings > Interpret zero as no value.)
+>We recommend that trendlines be applied to data that does not include today (partial data) or future dates, as those will skew the trendline. If you need to include future dates, however, remove zeroes from the data to prevent skewing for those days. To do this, go to the visualization's data source table and choose your metric column. Then go to [!UICONTROL Column Settings] and check **[!UICONTROL Interpret zero as no value]**.)
 
 ![Linear trendline](assets/show-linear-trendline.png)
 

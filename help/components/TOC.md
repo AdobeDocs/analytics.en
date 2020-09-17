@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 breadcrumb-title: Components Guide
-user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
-user-guide-url: /content/help/en/analytics/components/home.html
+user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-url: /docs/analytics/components/home.html
 ---
 
 # [!DNL Analytics] Components Guide {#components}

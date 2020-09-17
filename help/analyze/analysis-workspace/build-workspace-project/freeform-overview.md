@@ -26,14 +26,18 @@ The Workspace project list page contains the following information:
 
 |  Element  | Description  |
 |---|---|
-| Project [Templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)  | You can use these pre-populated project templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.  |
 | [Create New Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)  | Click this link to start a new project from scratch.  |
 |  Manage Projects  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
+| Set as Landing Page | Turns this page into your Workspace landing page. |
 |  View Tutorials  |Takes you to the [Analysis Workspace YouTube videos](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).  |
 |  Name  | Name of the Workspace project.  |
-|  Created By  | The person who created this project (either you or someone who shared the project with you.)  |
+|  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
+| Type | Indicates whether this is a Workspace Project or a [Mobile Scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html). |
+| Project Role | Indicates whether you are the Owner, whether you can edit the project, or whether this is a Duplicate project. |
 |  Tags  |Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.  |
 |  Last Modified  | Date and time when the project was last modified.  |
+| My Favorite Projects | To mark a project as a favorite, open the project and click the star next to its name. It will show up in this list the next time you open Workspace. |
+| Frequently Viewed Projects | Lists all projects that you open frequently, for ease of access. |
 
 ## Project Info & Settings {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 

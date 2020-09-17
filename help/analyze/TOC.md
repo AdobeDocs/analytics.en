@@ -2,6 +2,7 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
+breadcrumb-title: Tools Guide
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 ---
@@ -92,7 +93,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
-    + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
   + Attribution IQ {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)

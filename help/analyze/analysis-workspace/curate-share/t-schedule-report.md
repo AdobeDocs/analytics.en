@@ -2,8 +2,6 @@
 description: Send an Analysis Workspace project via email or schedule it for delivery.
 keywords: Analysis Workspace
 title: Scheduled projects
-topic: Reports and analytics
-uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 ---
 
 # Scheduled projects
@@ -21,6 +19,8 @@ To send a file immediately to recipients via email:
 1. Click **Send Now**.
 1. (Optional) Click **Show scheduling options** to specify a delivery schedule.
 
+![Send file now](assets/send-file-now.png)
+
 ## Send file on schedule
 
 To send a file on a recurring schedule to recipients via email:
@@ -33,11 +33,15 @@ To send a file on a recurring schedule to recipients via email:
 1. Specify the delivery frequency. Each frequency allows for different customizations. 
 1. Click **Send on schedule**.
 
+![](assets/send-on-schedule.png)
+
 ## Scheduled Projects manager
 
 Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
 In the Scheduled Projects Manager, you can edit and delete recurring project schedules. Search for a schedule in the search bar or by using the filter options in the left rail. You can filter by tag, approved schedules, owners and more.
+
+![](assets/scheduled-project-manager.png)
 
 The following are common actions in the Scheduled Projects manager:
 

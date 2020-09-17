@@ -13,4 +13,6 @@ This dimension works out of the box for all implementations. If a report suite c
 
 ## Dimension items
 
-Dimension items include the date (month, day, and year) of the first day of the week.
+In Analysis Workspace, dimension items include the date (month, day, and year) of the first day of the week.
+
+In Data Warehouse, dimension items include numbered weeks based on the request's date range. For example, the first full week is `"Week 1"`. If a request includes a partial week, data is grouped into the dimension item `"Week 0"`.

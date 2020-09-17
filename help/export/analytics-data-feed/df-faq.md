@@ -23,3 +23,9 @@ If you see different case variations of the same value between non-post and post
 ## Are bots filtered by Admin console bot rules included in data feeds?
 
 Data feeds do not include bots filtered by [Admin console bot rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+
+## Why do I see multiple `000` values in the `event_list` or `post_event_list` data feed column?
+
+Some spreadsheet editors, especially Microsoft Excel, automatically round very large numbers. The `event_list` column contains many comma-delimited numbers, sometimes causing Excel to treat it as a large number. It rounds the last several digits to `000`.
+
+Adobe recommends against automatically opening `hit_data.tsv` files in Microsoft Excel. Instead, use Excel's Import Data dialog box and make sure that all fields are treated as text.

@@ -33,7 +33,7 @@ The Workspace project list page contains the following information:
 |  Name  | Name of the Workspace project.  |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
 | Type | Indicates whether this is a Workspace Project or a [Mobile Scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html). |
-| Project Role | Indicates whether you are the Owner, whether you 
+| Project Role | Indicates whether you are the Owner, whether you can edit the project, or whether this is a Duplicate project. |
 |  Tags  |Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.  |
 |  Last Modified  | Date and time when the project was last modified.  |
 | My Favorite Projects | To mark a project as a favorite, open the project and click the star next to its name. It will show up in this list the next time you open Workspace. |

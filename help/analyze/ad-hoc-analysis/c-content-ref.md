@@ -7,6 +7,10 @@ uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 
 # Build segments
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 Ad Hoc Analysis integrates with the Analytics Segmentation environment, allowing you to build, share, manage, and apply visitor segments across Adobe products. Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
 
 Ad Hoc Analysis includes familiar features for building segments, plus new feature upgrades like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) used to set up a segment management [workflow](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html). As always, you can build and save segments in the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) or [generate segments from a Fallout report](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)

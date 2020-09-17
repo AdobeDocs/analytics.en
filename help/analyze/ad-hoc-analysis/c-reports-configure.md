@@ -6,6 +6,10 @@ uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 
 # Configure existing reports
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 Learn about the various actions you can perform on a report, such as configuring charts, graphs, breakdowns, and extracting data.
 
 ## Report Actions {#concept_26C41C0141A94B19B61D43955A908480}

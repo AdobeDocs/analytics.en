@@ -6,6 +6,10 @@ uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 
 # Site Content reports
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 Displays information about which pages and areas of your site are most active and which servers are getting the most use.
 
 ## Site Content reports {#concept_6FD804C43698437A88E1E8A19821851E}

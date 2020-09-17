@@ -7,6 +7,10 @@ uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 
 # Report types
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 Descriptions of report types used in Experience Cloud.
 
 ## Ranked Reports {#concept_E1710FFFBB334F3D9DB63A1626DBCB01}

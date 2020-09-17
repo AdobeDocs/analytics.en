@@ -8,7 +8,7 @@ uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 
 >[!IMPORTANT]
 >
->Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
 In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.
 

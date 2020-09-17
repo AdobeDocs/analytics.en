@@ -9,7 +9,7 @@ uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 
 >[!IMPORTANT]
 >
->Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
 Standard reports display data for website and visitor activity, traffic patterns, referral data, advertising campaigns, visitor retention, product data, and more. You can run reports and then access tools to configure segments, metrics, and report comparisons.
 

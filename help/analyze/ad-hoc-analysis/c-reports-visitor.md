@@ -9,7 +9,7 @@ uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 
 >[!IMPORTANT]
 >
->Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
 Displays information regarding visitors, including things like visitor count, customer loyalty, and visitor characteristics.
 

@@ -9,7 +9,7 @@ uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 
 >[!IMPORTANT]
 >
->Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
 Displays quantitative information about your website, such as how many times visitors looked at certain pages, numbers of overall purchases made from specific pages, when they came, and similar quantitative data. Each of these reports is a metric that you can place in other item-based reports.
 

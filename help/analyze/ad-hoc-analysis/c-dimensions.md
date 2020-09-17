@@ -9,7 +9,7 @@ uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 
 >[!IMPORTANT]
 >
->Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
 Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a report. They are non-numeric values and dates that correlate, sub-relate, or are a classification of the original report type metric.
 

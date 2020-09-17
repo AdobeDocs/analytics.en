@@ -2,7 +2,6 @@
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 title: Logs
 topic: Admin tools
-uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 ---
 
 # Logs

@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 breadcrumb-title: Import Guide
-user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time. Includes Data Sources, Data Insertion API, and Data Connectors.
-user-guide-url: /content/help/en/analytics/import/home.html
+user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time. 
+breadcrumb-url: /docs/analytics/import/home.html
 ---
 
 # Analytics Import Guide {#import}

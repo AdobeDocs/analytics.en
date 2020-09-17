@@ -5,6 +5,8 @@ topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 ---
 
+# Build segments 
+
 >[!IMPORTANT]
 >
 >Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)

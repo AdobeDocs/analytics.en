@@ -36,7 +36,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->Avoid setting this variable to non-URL values.
+>Avoid setting this variable to non-URL values. Do not strip the URL's protocol.
 
 ## Example
 

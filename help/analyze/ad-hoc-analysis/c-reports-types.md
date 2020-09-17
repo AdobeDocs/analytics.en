@@ -114,7 +114,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `https://www.example.com` to `https://info.example.com` or `https://sales.example.com`.
 
 ## Next Section Flow {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -165,7 +165,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+For example, if you have specific data on different servers or have mirrored data on separate servers, the report shows you the path between servers that the users hit. This is also true of domains within your website. For example, you can see how many users went from a `www.example.com` to `info.example.com` or `sales.example.com`.
 
 ## Conversion Funnel Reports {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 

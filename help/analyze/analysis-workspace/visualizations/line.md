@@ -10,10 +10,6 @@ The Line visualization represents metrics using a line in order to show how valu
 
 ![Line visualization](assets/line-viz.png)
 
->[!IMPORTANT]
->
->Some Line visualization settings, such as [!UICONTROL Show trendline], are currently in limited testing. [Learn more](/help/landing/an-releases.md)
-
 Click on the gear icon in the top right of the Line visualization to access [**Visualization settings**](freeform-analysis-visualizations.md) available. Settings are categorized into:
 
 * **General**: Settings that are common across visualization types
@@ -35,6 +31,10 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 ## Show trendline overlay
 
 Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data.
+
+>[!TIP]
+>
+>It is recommended that trendlines be applied to data that does not include today (partial data) or future dates, as those will skew the trendline. If you need to include future dates however, remove zeroes from the data to prevent skewing for those days. To do this, go to the visualization's data source table, then choose your metric column > Column Settings > Interpret zero as no value.)
 
 ![Linear trendline](assets/show-linear-trendline.png)
 

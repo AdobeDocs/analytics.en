@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
 breadcrumb-title: Admin Guide
-user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
-user-guide-url: /content/help/en/analytics/admin/home.html
+user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
+breadcrumb-url: /docs/analytics/admin/home.html
 ---
 
 # Analytics Admin Guide {#admin}

@@ -11,6 +11,8 @@ If this variable contains a value, automatic exit link tracking behaves like a b
 
 If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
+Activity map uses this variable to help determine what links are internal to your site. Adobe recommends setting this variable for implementations that use Activity map.
+
 >[!NOTE]
 >
 >`linkInternalFilters` and [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) are separate features that fulfill separate purposes. The `linkInternalFilters` variable works specifically for exit link tracking. Internal URL filters are an Admin setting that help with traffic sources dimensions like Referring Domain.
@@ -31,7 +33,7 @@ Place filters that you want to never be tracked as exit links in this field. Sep
 The `s.linkInternalFilters` variable is a string containing filters (such as domains) that you consider internal to your site. Separate multiple filters using a comma without spaces.
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 Consider the following implementation example as if it were on `adobe.com`:
@@ -43,5 +45,5 @@ Consider the following implementation example as if it were on `adobe.com`:
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```

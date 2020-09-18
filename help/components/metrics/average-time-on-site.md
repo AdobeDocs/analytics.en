@@ -39,6 +39,10 @@ The total amount of time spent for `Product page A` is `00:03:10`. There were tw
 
 The average time on site for `Product page A` is `00:01:35`.
 
+>[!NOTE]
+>
+>This metric shows a value of `"Invalid"` if the dimension item contains only hits that were last in a visit. This metric requires a subsequent hit to track time spent.
+
 ## Average time spent on site (seconds)
 
 The 'Average time spent on site (seconds)' metric shows the same data presented as an integer instead of in `HH:MM:SS` format. This metric is most valuable as a component within calculated metrics.

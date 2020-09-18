@@ -79,3 +79,4 @@ A list of error messages that could occur occasionally while you are using Repor
   3. Delete `calcChain.xml`.
   4. Re-zip the contents, and change the file extension back to `.xlsx`.
   5. Open the workbook in Excel and refresh all Report Builder requests.
+* **Excel cells associated with the input filters or output range may have been deleted**: Report Builder uses Excel Names to attach data requests to cells. If you delete Excel Names from the Names Manager, you can see this error. Requests cannot be recovered if Excel Names are deleted. If the workbook was scheduled, you can either download a copy from the Scheduling Manager, or open previously delivered copies of the workbook.

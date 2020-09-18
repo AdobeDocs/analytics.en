@@ -267,7 +267,8 @@ breadcrumb-url: /docs/analytics/analyze/home.html
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
   + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
   + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)

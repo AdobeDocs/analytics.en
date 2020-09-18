@@ -8,9 +8,9 @@ uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 
 # Full processing
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Full processing data sources will be deprecated in the future.
+>Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources in the future.
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 
@@ -107,12 +107,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Page URL (for example, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). Can hold a maximum value of 4096 bytes per row.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 

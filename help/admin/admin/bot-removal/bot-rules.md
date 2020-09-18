@@ -25,7 +25,7 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 
 ## Standard IAB bot rules
 
-Standard IAB bot rules can be turned on by checking the [!UICONTROL Enable IAB Bot Filtering Rules] checkbox. This selection will remove bots in  IAB's (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. The IAB updates this list monthly.
+Standard IAB bot rules can be turned on by checking the [!UICONTROL Enable IAB Bot Filtering Rules] checkbox. This selection will remove bots in  IAB's (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Adobe updates this list from the IAB on a monthly basis.
 
 ![](assets/bot-iab-checkbox.png)
 

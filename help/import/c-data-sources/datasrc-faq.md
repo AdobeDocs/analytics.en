@@ -129,3 +129,14 @@ No for full processing, yes for transaction ID. Full processing data sources are
 
 No. eVars uploaded via Transaction ID data sources will only read from the stored profile info, not update the profile.
 No. eVars are the only variables that are saved in the snapshot of the visitor profile.
+
+## How do numeric and currency events work with data sources?
+
+Full processing only supports legacy event list formats excluding the numeric/currency/Counter (more than 1) event value directly in the events list, that is `"eventNN,eventKK"` not `"eventNN=#.##"`. It means that it only supports a counter event if it is passed in events column in data source file and it increments by 1.
+
+If numeric, currency or counter (more than 1) events are required, use the product list:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```

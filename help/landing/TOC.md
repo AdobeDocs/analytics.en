@@ -2,7 +2,7 @@
 product: analytics
 audience: all
 user-guide-title: Adobe Analytics Documentation
-user-guide-url: /content/help/en/analytics/landing/home.html
+breadcrumb-url: /docs/analytics/landing/home.html
 ---
 
 # Adobe Analytics Documentation {#landing}

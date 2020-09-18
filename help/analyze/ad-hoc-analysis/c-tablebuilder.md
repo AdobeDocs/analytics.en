@@ -6,6 +6,10 @@ uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 
 # Table Builder
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 Use the Table Builder to create a report with any configuration of metrics, dimensions, and segments. For example, you can add multiple metrics to the Table Builder, then apply segment to all of them at once. You can apply items from the tool panes as rows and breakdowns, or as columns, and easily pivot the table for a different view. After building the table, you can interact directly with the resulting data table for further analysis. Keep in mind that generating a data table from the Table Builder runs a query and creates a new data table.
 
 ## Table Builder {#concept_574FEDC73B244101935D3C86C39DB70F}

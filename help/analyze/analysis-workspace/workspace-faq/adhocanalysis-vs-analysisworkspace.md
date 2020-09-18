@@ -6,6 +6,10 @@ uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 
 # Analysis Workspace compared to Ad Hoc Analysis
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 Compares Ad Hoc Analysis terminology and tasks to Analysis Workspace.
 
 Analysis Workspace brings much of the Ad Hoc Analysis functionality into the browser workflow. While some terminology and features remain the same between the products, there are some new terms and approaches to analysis that are introduced in Analysis Workspace.
@@ -16,14 +20,14 @@ For a technical comparison of key features and system requirements between these
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
-|Project|Workspace or Project|
-|Workspace|Panel|
-|Report|Freeform Table|
-|Charts/Graph|Visualization|
-|Hierarchy: Project > Workspaces > Reports|Hierarchy: Project > Panels > Tables|
-|Ranked, Trended, Totals Report templates|Freeform Table visualization|
-|Flow template|Flow visualization|
-|Fallout|Fallout visualization|
+| Project | Workspace or Project |
+| Workspace | Panel |
+| Report | Freeform Table |
+| Chart/Graph | Visualization|
+| Hierarchy: Project > Workspaces > Reports | Hierarchy: Project > Panels > Tables |
+| Ranked, Trended, Totals Report templates | Freeform Table visualization |
+| Flow template | Flow visualization |
+| Fallout | Fallout visualization |
 
 ## Comparison of Key Tasks {#section_F31446F1DFA742D794A30D713E223440}
 

@@ -6,6 +6,10 @@ uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 
 # Metrics
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, dates, units, orders, revenue, and so on. Metrics and associated data are displayed in the columns of reports.
 
 ## Metrics {#concept_46A67930CFDB4A078225C5B189688AF3}

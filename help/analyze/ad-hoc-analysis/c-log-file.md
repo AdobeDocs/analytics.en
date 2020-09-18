@@ -1,22 +1,36 @@
 ---
-description: The Log file is a text file that the server uses to store data relating to when files are retrieved from a website. Some of the information that is collected includes date and time, URL served, IP addresses, status of the request, and so on.
 title: Log file
-topic: Ad hoc analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
+description: Obtain a log file for troubleshooting purposes.
 ---
 
 # Log file
 
-The Log file is a text file that the server uses to store data relating to when files are retrieved from a website. Some of the information that is collected includes date and time, URL served, IP addresses, status of the request, and so on.
-
-A quick way to save and view a log file is to:
-
-1. Click **[!UICONTROL Help]** > **[!UICONTROL About Ad Hoc Analysis]** 
-
-1. Click the **[!UICONTROL Ad Hoc Analysis]** logo.
-1. Click **[!UICONTROL Save Log File]**.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->The log you save using this procedure is for the current session.
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
 
+When troubleshooting issues with Ad Hoc Analysis, it is sometimes necessary to obtain its log file. Adobe can use the log file to locate the root cause of the issue and provide a resolution. The `discover.log` file contains all user interactions, report loading information, and Java error messages across all sessions. It hashes any protected information, such as the user's password. Large log files are split into 10 MB increments. When providing Adobe with the log files, ensure that all files are selected.
+
+## Windows
+
+Obtain the `discover.log` file for Windows:
+
+1. Click the start menu and select **Run**, or press `[Win]` + `[R]`.
+2. Paste the following into the text field, and click **OK**:
+
+   ```text
+   %appdata%/../Local/Adobe/Discover/log
+   ```
+
+3. Highlight all files in the folder, then right-click and choose **Send to > Compressed (zipped) Folder**.
+4. Provide the Adobe representative with the .zip file.
+
+## Mac
+
+To obtain the `discover.log` file for Mac OS, do the following:
+
+1. Open the Finder and navigate to `/Users/your-user/.adobe/Discover/log`
+2. Highlight all files in the folder, then right-click and choose **Compress**.
+3. Provide the Adobe representative with the .zip file.
+
+If the total size for a compressed files exceeds 10 MB, an Adobe representative can provide a temporary FTP location.

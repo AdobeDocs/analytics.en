@@ -23,7 +23,7 @@ In Analysis Workspace, this data can be viewed using the Fallout visualization.
 
 1. Click the visualizations icon on the left, and drag a Fallout visualization onto the workspace above the freeform table
 2. Click the components icon on the left, then locate the **Pages** dimension.
-3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension values are colored yellow.
+3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page to act as the first touchpoint, and drag it into the space labeled 'Add Touchpoint' in the visualization.
 5. Continue adding desired touchpoints by dragging page values onto the visualization.
 

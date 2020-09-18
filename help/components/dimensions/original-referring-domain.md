@@ -7,6 +7,10 @@ description: The first referring domain a visitor was on before clicking through
 
 The 'Original referring domain' dimension reports the first referring domain that a visitor clicked through to reach your site. Once it is set, it contains the same value for the entire lifetime of that visitor ID. This dimension is useful to understand which third-party sites originally drive traffic to your site.
 
+>[!IMPORTANT]
+>
+>You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
+
 ## Populate this dimension with data
 
 This dimension requires configuration in both the Analytics interface and your implementation.
@@ -16,6 +20,12 @@ This dimension requires configuration in both the Analytics interface and your i
 
 Adobe persists original referring domain for a visitor's lifetime. If a visitor leaves and clicks through a link on a different domain at any time, the new value is not recorded. If you want to see new values, see [Referring domain](referring-domain.md).
 
-## Dimension values
+## Dimension items
 
-Dimension values include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension value `"None"`. This dimension value means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+Dimension items include domains that visitors click through to your site. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"None"`. This dimension item means that there was no referrer value, such as if the visitor manually typed the browser address into the address bar, or clicked a bookmark.
+
+## Compare Referring domain to Original referring domain
+
+Referring domain can change between visits. For example, a visitor arrives to your site through `google.com`, then a week later, arrives to your site through `twitter.com`. Eventually they make a purchase on your site. If using Referring domain as the dimension with last touch attribution, `twitter.com` gets credit for the purchase. If using Original referring domain as the dimension, `google.com` gets credit for the purchase regardless of attribution model.
+
+Original referring domain never changes for the entire lifetime of a given visitor ID.

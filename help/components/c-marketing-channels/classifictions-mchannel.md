@@ -11,7 +11,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](/help/components/c-classifications2/c-classifications.md).
+>Ensure that you are familiar with creating classifications in [Classifications](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >

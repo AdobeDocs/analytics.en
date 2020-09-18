@@ -46,7 +46,7 @@ Virtual report suites do not have their own sets of dimensions and metrics; they
 
 Different site have different implementation needs. Some dimensions and events can be shared between two sites. For example, an email registration can use the same event on multiple websites, triggering the same custom event. Other dimensions might be specific to a site. For example, only one of your sites has the ability for the user to change their profile picture. This custom event would only be implemented on the website that supports it.
 
-Make sure that the number of unique dimensions and metrics can fit in a single global report suite. If you find that there are too many unique dimensions or metrics, review each dimension within each implementation. There is likely overlap and dimensions that are not critical to business success. Consider using [classifications](/help/components/c-classifications2/c-classifications.md) as well. For example, instead of capturing 'Product Name' in eVar5, create a 'Product Name' classification based on the 'Product' dimension. Classifications in a source report suite are automatically available to any dependent virtual report suites.
+Make sure that the number of unique dimensions and metrics can fit in a single global report suite. If you find that there are too many unique dimensions or metrics, review each dimension within each implementation. There is likely overlap and dimensions that are not critical to business success. Consider using [classifications](/help/components/classifications/c-classifications.md) as well. For example, instead of capturing 'Product Name' in eVar5, create a 'Product Name' classification based on the 'Product' dimension. Classifications in a source report suite are automatically available to any dependent virtual report suites.
 
 >[!TIP]
 >
@@ -90,7 +90,7 @@ If you opt to remove secondary server calls in favor of virtual report suites:
 
 1. Create virtual report suites to match the data in your child report suites. Segment on a custom dimension that distinguishes your sites from each other.
    * If you migrate from an existing multi-suite tagged implementation, compare the virtual report suite's segments to your existing child report suites. You will want to make sure the data is comparable before moving users to the virtual report suite.
-   * As a best practice, consider using [segment stacking](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) so you can edit a segment in one location and have it apply to all dependent virtual report suites.
+   * As a best practice, consider using [segment stacking](/help/components/segmentation/segmentation-workflow/seg-build.md) so you can edit a segment in one location and have it apply to all dependent virtual report suites.
    * Use hit containers if you want to keep virtual report suites more mutually exclusive.
 2. After you have confirmed that the virtual report suites are set up correctly, remove the secondary report suite ID's from your implementation. To remove secondary report suites:
    * In Adobe Experience Platform Launch, click the 'x' next to any report suites that you don't want to use anymore.

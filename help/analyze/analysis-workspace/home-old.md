@@ -14,7 +14,7 @@ Analysis Workspace is one of Adobe's flagship tools to make actionable data-base
 
 ## Pull a basic ranked report in Workspace
 
-Pull a basic ranked report using Analysis Workspace. A ranked report shows an aggregated total view of each dimension value, showing the largest values first. These types of reports are useful to see what components of your site are most effective, such as which pages get the most traffic or what products sell the most.
+Pull a basic ranked report using Analysis Workspace. A ranked report shows an aggregated total view of each dimension item, showing the largest values first. These types of reports are useful to see what components of your site are most effective, such as which pages get the most traffic or what products sell the most.
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 2. Click the 9-square icon in the upper right, then click the colored Analytics logo.

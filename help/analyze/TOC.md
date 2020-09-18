@@ -2,7 +2,9 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
-user-guide-url: /content/help/en/analytics/analyze/home.html
+breadcrumb-title: Tools Guide
+user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics.
+breadcrumb-url: /docs/analytics/analyze/home.html
 ---
 
 # Analytics Tools Guide {#analyze}
@@ -15,12 +17,13 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Build a Workspace project {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
+    + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + Column and row settings {#column-row-settings}
       + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
       + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-      + [Manual vs. dynamic rows](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Dynamic vs. Static items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
     + [Undo and redo settings](analysis-workspace/build-workspace-project/undo-redo.md)
     + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -76,6 +79,7 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
+    + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -84,16 +88,17 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + Curate or Share projects {#curate-share}
     + [Curate Workspace projects](analysis-workspace/curate-share/curate.md)
     + [Share Workspace projects](analysis-workspace/curate-share/share-projects.md)
+    + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
     + [View-only Workspace projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
-    + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
   + Attribution IQ {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
     + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
     + [FAQ](analysis-workspace/attribution/faq.md)
+  + [Journey IQ](analysis-workspace/journey-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Virtual Analyst {#virtual-analyst}
     + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)
@@ -120,7 +125,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Accessibility in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
   + [Adobe Report Builder help](report-builder/home.md)
-  + [What's new in Report Builder](report-builder/whats-new-arb.md)
   + Report Builder setup {#report-builder-setup}
     + [System requirements](report-builder/setup/system-requirements.md)
     + [Install Report Builder](report-builder/setup/t-install-arb.md)
@@ -230,7 +234,9 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Best practices](report-builder/c-publish-power-bi/bi-best-practices.md)
     + [Troubleshooting Power BI integration](report-builder/c-publish-power-bi/troubleshooting.md)
     + [Adobe Analytics content packs for Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-  + [Troubleshooting and best practices for Report Builder](report-builder/troubleshoot.md)
+  + [Visual Basic macros](report-builder/vba.md)
+  + [Report Builder troubleshooting](report-builder/troubleshoot.md)
+  + [Report Builder FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
   + [Activity Map overview](activity-map/activity-map.md)
   + Get started {#getting-started}
@@ -261,7 +267,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
   + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
   + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)

@@ -9,12 +9,12 @@ The 'Search keyword' dimension reports the search keywords that visitors use to 
 
 >[!IMPORTANT]
 >
->Most search engines no longer pass the search keyword due to increasing privacy practices. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension value `"Keyword unavailable"`.
+>Most search engines no longer pass the search keyword due to increasing privacy practices. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension item `"Keyword unavailable"`.
 
 A referrer must meet both of the following to classify as a search keyword:
 
 * The referring domain is recognized by Adobe as a valid [Search engine](search-engine.md);
-* A keyword query string parameter exists in the referring URL. If the keyword query string exists but does not contain a value, it groups under the dimension value `"Keyword unavailable"`.
+* A keyword query string parameter exists in the referring URL. If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
 
 If you want to distinguish paid and natural search, [Paid search detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) is required. Multiple dimensions are available for search keywords:
 
@@ -26,6 +26,6 @@ If you want to distinguish paid and natural search, [Paid search detection](/hel
 
 This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
-## Dimension values
+## Dimension items
 
-Dimension values include search keywords used to reach your site. The `"Unspecified"` dimension value is all non-search traffic.
+Dimension items include search keywords used to reach your site. The `"Unspecified"` dimension item is all non-search traffic.

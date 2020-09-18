@@ -2,7 +2,9 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
-user-guide-url: /content/help/en/analytics/export/home.html
+breadcrumb-title: Export Guide
+user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-url: /docs/analytics/export/home.html
 ---
 
 # Analytics Export Guide {#export}
@@ -17,8 +19,8 @@ user-guide-url: /content/help/en/analytics/export/home.html
     + [Data feed contents overview](analytics-data-feed/c-df-contents/datafeeds-contents.md)
     + [Calculate metrics](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-    + [Header resources](analytics-data-feed/c-df-contents/headers.md)
-    + [Page event Lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+    + [Page event lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+    + [Mobile attributes lookup](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md)
@@ -29,12 +31,14 @@ user-guide-url: /content/help/en/analytics/export/home.html
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
   + [Create a Data Warehouse request](data-warehouse/t-dw-create-request.md)
+  + [Request delivery time](data-warehouse/delivery-time.md)
   + [Tableau data file](data-warehouse/t-tableau.md)
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)
   + [Schedule a recurring request](data-warehouse/dw-schedule-recurring.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
   + [Dimensions incompatible with Data Warehouse segments](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
+  + [Data Warehouse FAQ](data-warehouse/faq.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
   + [Use FTP and SFTP with the Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)

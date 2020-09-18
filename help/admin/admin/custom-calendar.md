@@ -9,11 +9,11 @@ uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 
 Calendar options in other than the Gregorian model. Options include the 4-4-5, 4-5-4, and 5-4-4 calendar models, all of which are used as standards for the retail industry. Additionally, reporting offers an option for a completely customizable calendar that you can set up yourself.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL [select report suite]]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Calendar]**
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Calendar]**
 
 >[!CAUTION]
 >
->Changing the calendar changes the way data is processed (i.e. the definition of weekly and monthly unique visitors). When a calendar's definition of weeks and months changes, historical data is not altered.
+>Changing the calendar changes the way data is processed (i.e. the definition of weekly and monthly unique visitors). When a calendar's definition of weeks and months changes, historical data is not altered. This setting also affects segments based on date ranges.
 
 You can use the calendar to define the first day of the week and year, or use a different retail calendar style. The calendar formats are used to for various purposes, including sales comparison and forecast standardization, payroll cost analysis, or physical inventory count regulation. For example, the retail industry uses the 4-5-4 accounting calendar to support selling season's particular to the retail industry. Each of the calendar formats is described below.
 

@@ -5,11 +5,15 @@ description: Use calculated metrics to correct trended data impacted by an event
 
 # Derive data impacted by events
 
-If you have data [impacted by an event](overview.md), you can use calculated metrics to derive trended values for the duration of the event. For example, if you had an event that caused a 25% drop in data, you can use that as a multiplier in a calculated metric.
+If you have data [impacted by an event](overview.md), you can use calculated metrics to derive estimated values for the duration of the event. For example, if you had an event that caused a 25% drop in data, you can use that as a multiplier in a calculated metric.
+
+These steps work best when you understand the impact of an event, both from a segmentation and date comparison perspective. Make sure to follow [Compare dates impacted by an event to previous ranges](compare-dates.md) and [Exclude specific dates in analysis](segments.md) before following this page.
 
 >[!NOTE]
 >
->These steps work best when you understand the impact of an event, both from a segmentation and date comparison perspective. Make sure to follow [Compare dates impacted by an event to previous ranges](compare-dates.md) and [Exclude specific dates in analysis](segments.md) before following this page.
+>This approach is an estimate based on a specific set of inputs and date ranges. It will not be a comprehensive solution for all use cases or slices of data. In addition, this approach requires that the affected date range have at least 1 hit to calculate from.
+
+To create an estimated calculated metric for the affected time period:
 
 1. Create two segments for 'Affected days' and 'Exclude affected days', as outlined under [Exclude specific dates in analysis](segments.md).
 2. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.

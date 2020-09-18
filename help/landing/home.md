@@ -52,7 +52,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
 *   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
-*   [Classifications](/help/components/c-classifications2/c-classifications.md)
+*   [Classifications](/help/components/classifications/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
@@ -63,7 +63,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 *   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
-*   [Segmentation](/help/components/c-segmentation/seg-home.md)
+*   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 *   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)

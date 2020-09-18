@@ -5,15 +5,15 @@ description: The type of referrer, depending on where the visitor came from.
 
 # Referrer type
 
-The 'Referrer type' dimension reports which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each dimension value, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+The 'Referrer type' dimension reports which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
 ## Populate this dimension with data
 
 This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the type of referrer of the hit. Specific values include the following:
+Dimension items include the type of referrer of the hit. Specific values include the following:
 
 * **Typed/Bookmarked**: No referrer data exists for the hit.
 * **Search engines**: The referrer came from a recognized search engine that includes a keyword query string.
@@ -188,9 +188,9 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `zooomr.com`
 * `zhihu.com`
 
-### Search engines in the 'Other websites' dimension value
+### Search engines in the 'Other websites' dimension item
 
 When you view specific domains in the 'Referrer type' dimension, there can be domains that you would expect under 'Search engines' listed instead under 'Other web sites'. For example, you might see `'google.com'` under 'Other web sites'.
 
-* **Search engine domains in the 'Search engines' dimension value**: The referrer met all criteria to classify as a search engine by Adobe. The referring domain is a valid search engine, *and* the referring URL contains a keyword query string parameter.
-* **Search engine domains in the 'Other websites' dimension value**: The referring URL did not meet all criteria to classify as a search engine. Common examples include subdomains dedicated to other features besides search. For example, `mail.google.com` or `autos.yahoo.com` are not search engines, but reside on a top-level domain commonly associated with search. These subdomains do not include a keyword query string, which is why they are included under 'Other websites' instead of 'Search engines'.
+* **Search engine domains in the 'Search engines' dimension item**: The referrer met all criteria to classify as a search engine by Adobe. The referring domain is a valid search engine, *and* the referring URL contains a keyword query string parameter.
+* **Search engine domains in the 'Other websites' dimension item**: The referring URL did not meet all criteria to classify as a search engine. Common examples include subdomains dedicated to other features besides search. For example, `mail.google.com` or `autos.yahoo.com` are not search engines, but reside on a top-level domain commonly associated with search. These subdomains do not include a keyword query string, which is why they are included under 'Other websites' instead of 'Search engines'.

@@ -2,7 +2,9 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
-user-guide-url: /content/help/en/analytics/admin/home.html
+breadcrumb-title: Admin Guide
+user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
+breadcrumb-url: /docs/analytics/admin/home.html
 ---
 
 # Analytics Admin Guide {#admin}
@@ -23,6 +25,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
     + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
     + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
+    + [Classification hierarchies](admin/conversion-var-admin/classification-hierarchies.md)
     + [List variables](admin/conversion-var-admin/list-var-admin.md)
   + [Currency codes](admin/currency.md)
   + [Custom report descriptions](admin/custom-desc-admin.md)

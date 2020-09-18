@@ -122,17 +122,12 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I postpone the migration start date? </p> </td> 
-   <td colname="col2"> <p>Yes. Contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a>. </p> 
-    <draft-comment> 
-     <p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Yes. Contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a>. </p><p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Now that my company is migrating to the Admin Console, where do I create new users and permission groups before the start date of the migration? </p> </td> 
-   <td colname="col2"> <p>Before your migration start date, you can create users in the Admin Console or in Analytics &gt; User Management. </p> <p>After migration begins, you can create users and permission groups only in the Admin Console. </p> 
-    <draft-comment> 
-     <p>see the Migration section below for more details on what happens on the start date of the migration). </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Before your migration start date, you can create users in the Admin Console or in Analytics &gt; User Management. </p> <p>After migration begins, you can create users and permission groups only in the Admin Console. </p><p>see the Migration section below for more details on what happens on the start date of the migration. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> When can I implement single sign-on using Federated IDs? </p> </td> 
@@ -163,10 +158,8 @@ Important information about the migration process and how it impacts current use
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I update permission group membership for un-migrated users? </p> </td> 
-   <td colname="col2"> <p>Yes. You can change the group membership of un-migrated users from within the Analytics User Management section. </p> 
-    <draft-comment> 
-     <p>Awaiting clarification from Ashok about where that's done. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Yes. You can change the group membership of un-migrated users from within the Analytics User Management section. </p><p>Awaiting clarification from Ashok about where that's done. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I create users and permission groups in Analytics after my migration begins, and then use the migration tool to move them to the Admin Console? </p> </td> 

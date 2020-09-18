@@ -70,7 +70,9 @@ These standard templates walk you through common terminology and steps for build
 
 ### Commerce
 
-* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Media
 
@@ -122,7 +124,7 @@ This template is based on the People metric, which is a de-duplicated version of
 
 ### Journey IQ: Cross-Device Analysis template
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA). 
 

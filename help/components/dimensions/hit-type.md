@@ -9,8 +9,8 @@ The 'Hit type' dimension determines if a mobile app was in the foreground or bac
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. If you do not use the mobile SDK, all hits list under the "Foreground" dimension value. If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. If you do not use the mobile SDK, all hits list under the "Foreground" dimension item. If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## Dimension values
+## Dimension items
 
-Dimension values include `"Foreground"` and `"Background"`. Any hit that was not sent in the background of a mobile application belongs to the `"Foreground"` dimension value. Any hit sent where the mobile application was in the background belongs to the `"Background"` dimension value.
+Dimension items include `"Foreground"` and `"Background"`. Any hit that was not sent in the background of a mobile application belongs to the `"Foreground"` dimension item. Any hit sent where the mobile application was in the background belongs to the `"Background"` dimension item.

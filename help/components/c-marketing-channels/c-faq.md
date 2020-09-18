@@ -1,36 +1,32 @@
 ---
-description: Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
-title: Marketing Channels FAQs
+title: Marketing Channels FAQ
+description: Frequently asked questions for Marketing channels.
 ---
 
-# Marketing Channels FAQs
+# Marketing Channels FAQ
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+Frequently asked questions for Marketing channels.
 
-## Frequently asked questions {#faq}
-
-Every implementation of marketing channel processing rules can differ, depending on your tracking codes. Configuring rules that provide results you are looking for can require some creative thinking to solve problems.
-
-**Question**: My tracking codes do not follow a pattern, and I have thousands that must be specified for my Affiliates channel.
+## My tracking codes do not follow a pattern, and I have thousands that must be specified for my Affiliates channel.
 
 * Use the process of elimination. If your Email and Affiliates channels use the same query string parameter, but you have only a few email tracking codes, you can specify the email tracking codes in a rule set defining email. Then, you classify all other tracking codes with *`affiliates.`* 
 * In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
 
-**Question**: Referring domains contain more data than I expect.
+## Referring domains contain more data than I expect.
 
 * Referring domains might be too high in the processing rule list. It should be one of the last (or the last) rule sets, because processing order is important.
 
-**Question**: I've created a rule that matches a query string parameter and it's not working.
+## I've created a rule that matches a query string parameter and it's not working.
 
 * Make sure that the parameter name is specified in the query string parameter fields (typically an alphanumeric value). Also, make sure that the parameter value is specified after the operator, as shown in the following example of an email rule.
 
   ![](assets/example_email.png)
 
-**Question**: Why is all of my last-touch traffic is attributed to an internal domain?
+## Why is all of my last-touch traffic is attributed to an internal domain?
 
 * You have a rule that matches internal traffic. Keep in mind that these rules process for every hit that a visitor makes on your site, not only the first visit. If you have a rule like *`Page URL exists`* without other criteria, that channel is matched on each successive hit on your site, because a page URL always exists.
 
-**Question**: How do I debug traffic displaying in No Channel Identified on the report?
+## How do I debug traffic displaying in No Channel Identified on the report?
 
 * Rules process in order. If no specific criteria has matched, hits fall into one of three categories:
 
@@ -72,29 +68,45 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ## Reasons for Internal (Session Refresh) {#internal}
 
-Last-touch Session Refresh can only occur if it was also the first touch - see "Relationship between First & Last Touch" above. The scenarios below explain how Session Refresh could be a first-touch channel.
+Last-touch Internal (Session Refresh) can only occur if it was also the first touch - see "Relationship between First & Last Touch" above. The scenarios below explain how Session Refresh could be a first-touch channel.
 
-**Scenario 1: Session timeout**
+* **Session timeout**: A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor’s engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
 
-A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor’s engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
+* **Not all site pages are tagged**: A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Page A would be seen as the internal referrer and the visit would be classified as Session Refresh.
 
-**Scenario 2: Not all site pages are tagged**
+* **Redirects**: If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
 
-A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Page A would be seen as the internal referrer and the visit would be classified as Session Refresh.
+* **Cross-Domain Traffic**: A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. The visit will be classified as Session Refresh.
 
-**Scenario 3: Redirects**
+* **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
 
-If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
+* **Clearing cookies mid-site**: A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
 
-**Scenario 4: Cross-Domain Traffic**
+Below is an example of Internal (Session refresh) being set both as firth and last touch channels:
 
-A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. The visit will be classified as Session Refresh.
+* Day 1: User comes to the site on Display. First & Last-touch channels will get set to Display.
+* Day 2: User comes to the site on Natural Search. First-touch remains Display, and Last touch is set to Natural Search.
+* Day 35: User has not been to the site in 33 days and comes back using the tab they had open in their browser. Assuming a 30 day engagement window, the window would have closed and Marketing Channel cookies would be expired. The first touch & last touch channel will get reset, and will be set to Session Refresh since the user came from an internal URL.
 
-**Scenario 5: Long entry-page load times**
+## Why are some channels unchanged after altering Marketing channel processing rules?
 
-A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
+Sometimes Marketing Channel processing rules are set up incorrectly, making it necessary to change processing rules. After applying the changes, you can see some metrics still attribute data to an incorrect channel. There are several things to consider:
 
-**Scenario 6: Clearing cookies mid-site**
+* **Marketing Channel data is collected in real time**: Marketing channel data is processed upon data collection, and is 100% permanent. Changing processing rules do not affect data retroactively.
+* **Changing processing rules do not immediately affect First Touch data**: For example:
+  1. A user comes in through your email channel because it was set up incorrectly, then leaves your site.
+  2. The next day, you change your email processing rule to correct it.
+  3. That user comes back several days later through natural search and makes a purchase.
+  4. The email channel gets First Touch credit and natural search gets Last Touch credit.
+  
+  Even several days after you changed your processing rules, data can still be collected in the wrong First Touch channel. First touch data continually collects in the incorrect channel until all users' visitor engagement expires.
 
-A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
+The best way to remedy these discrepancies is to do one or both of the following:
 
+* **Manually expire all visitor engagement periods**: This setting instantly expires all first and last touch channels across all visitors: 
+  1. Go to Admin Tools > Report Suites.
+  2. Hover over Image Edit Settings > Marketing Channels > Visitor Engagement Expiration
+  3. Click Expire All.
+  4. Click OK to the warning pop-up window, acknowledging that you understand what it is going to do.
+
+* **Only view Last Touch metrics from the time you corrected your rules forward**: Last Touch metrics always follow the current ruleset. Viewing the time from when you changed processing rules forward correctly reflects the most current processing rules.

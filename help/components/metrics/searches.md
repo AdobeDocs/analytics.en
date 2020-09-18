@@ -5,7 +5,7 @@ description: The number of times a hit matched external search criteria.
 
 # Searches
 
-The 'Searches' metric shows the number of hits that match Adobe's external search detection. This metric is useful when you want to look at non-search dimension values and see how they contributed to search engine traffic.
+The 'Searches' metric shows the number of hits that match Adobe's external search detection. This metric is useful when you want to look at non-search dimension items and see how they contributed to search engine traffic.
 
 ## How this metric is calculated
 

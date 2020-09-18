@@ -7,5 +7,5 @@ description: Disambiguation page.
 
 The 'Campaigns' dimension can refer to:
 
-* A [classification](../c-classifications2/c-classifications.md) automatically created in some report suites. It is based on the [Tracking code](tracking-code.md) dimension.
+* A [classification](../classifications/c-classifications.md) automatically created in some report suites. It is based on the [Tracking code](tracking-code.md) dimension.
 * The [Tracking code](tracking-code.md) dimension itself, which uses the [campaign](/help/implement/vars/page-vars/campaign.md) implementation variable.

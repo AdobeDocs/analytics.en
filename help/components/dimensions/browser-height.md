@@ -21,6 +21,6 @@ This dimension retrieves data from the [`bh` query string](/help/implement/valid
 
 Adobe persists browser height for a visit. If browser height is adjusted mid-visit, the adjustment is not recorded.
 
-## Dimension values
+## Dimension items
 
-Dimension values include all collected browser heights, classified into groups of 100 pixels. For example, if the browser height of a hit is `720`, then it is grouped in the dimension value `700 to 799`.
+Dimension items include all collected browser heights, classified into groups of 100 pixels. For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.

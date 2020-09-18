@@ -36,11 +36,11 @@ Now, administrators have rights to use processing rules **by default**. The exam
 
 >[!IMPORTANT]
 >
->Because processing rules permanently affect Analytics data, we strongly recommend that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). Knowledge of the context data variables and standard variables populated in various platforms will help prevent accidental deletion or alteration of data.
+>Because processing rules permanently affect Analytics data, Adobe strongly recommends that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). Knowledge of the context data variables and standard variables populated in various platforms will help prevent accidental deletion or alteration of data.
 
 ## Use Context Data to Simplify Data Collection {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Context data variables are a new type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
+Context data variables are a type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
 
 ![](assets/evar-context-map.png)
 

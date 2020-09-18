@@ -11,9 +11,9 @@ The 'Category' dimension reports the product category of the hit. It is useful f
 
 This dimension references the first part of the string in the [`products`](/help/implement/vars/page-vars/products.md) variable. Everything before the first semicolon (`;`) populates this dimension.
 
-## Dimension values
+## Dimension items
 
-Since this variable is based on a custom string in your implementation, your organization determines what the dimension values are. Adobe recommends that you group individual products into meaningful categories, using both the 'Product' and 'Category' dimensions.
+Since this variable is based on a custom string in your implementation, your organization determines what the dimension items are. Adobe recommends that you group individual products into meaningful categories, using both the 'Product' and 'Category' dimensions.
 
 >[!TIP]
 >

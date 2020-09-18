@@ -5,7 +5,7 @@ description: The total number of products purchased within all orders.
 
 # Units
 
-The 'Units' metric shows the total number of products purchased within all orders. This metric is vital for eCommerce sites in measuring conversion. You can combine this metric with any dimension to see what which dimension values contributed to how many products were purchased. For example, you could see the top campaigns (using the [Tracking code](../dimensions/tracking-code.md) dimension) or top internal search terms (using an [eVar](../dimensions/evar.md)) that contributed to products purchased.
+The 'Units' metric shows the total number of products purchased within all orders. This metric is vital for eCommerce sites in measuring conversion. You can combine this metric with any dimension to see what which dimension items contributed to how many products were purchased. For example, you could see the top campaigns (using the [Tracking code](../dimensions/tracking-code.md) dimension) or top internal search terms (using an [eVar](../dimensions/evar.md)) that contributed to products purchased.
 
 ## How this metric is calculated
 

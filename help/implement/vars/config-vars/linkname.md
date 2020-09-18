@@ -5,7 +5,7 @@ description: Set the name of the custom link hit.
 
 # linkName
 
-Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
+Use the `linkName` variable to determine the dimension item of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
 If this variable is blank, AppMeasurement reverts to the [`linkURL`](linkurl.md) variable.
 
@@ -22,7 +22,7 @@ You can set the link name field when configuring a rule to send a beacon.
 
 ## s.linkName in AppMeasurement and Launch custom code editor
 
-The `s.linkName` variable is a string that determines the dimension value for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). It can hold up to 100 bytes.
+The `s.linkName` variable is a string that determines the dimension item for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). It can hold up to 100 bytes.
 
 >[!TIP]
 >

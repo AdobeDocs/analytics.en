@@ -11,9 +11,9 @@ The 'Java enabled' dimension determines if the browser at the time has Java enab
 
 This dimension retrieves data from the [`v` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data by detecting if Java is enabled in the browser. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `v` query string parameter containing "Y" or "N" if you would like to use this dimension.
 
-## Dimension values
+## Dimension items
 
-Dimension values include "Enabled", "Disabled", and "Unknown".
+Dimension items include "Enabled", "Disabled", and "Unknown".
 
 * **Enabled**: Java is enabled in the browser. The `v` query string contained the value "Y".
 * **Disabled**: Java is disabled in the browser, or otherwise does not support Java. The `v` query string contained the value "N".

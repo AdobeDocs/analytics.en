@@ -11,11 +11,13 @@ This dimension is related to the [Site section](site-section.md) and [Server](se
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the `pageName` variable. If the `pageName` variable is not defined, it falls back to using the page's URL.
+This dimension retrieves data from the [`pageName` query string](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) always strip this dimension, even if the `pageName` query string exists.
 
-## Dimension values
+AppMeasurement collects this data using the [`pageName`](/help/implement/vars/page-vars/pagename.md) variable. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
-Dimension values include the names of pages on your site. Your organization determines what specific dimension values you want to use. Some organizations directly use `document.title`, while others formulate a custom breadcrumb. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
+## Dimension items
+
+Dimension items include the names of pages on your site. Your organization determines what specific dimension items you want to use. Some organizations directly use `document.title`, while others formulate a custom breadcrumb. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
 
 >[!NOTE]
 >

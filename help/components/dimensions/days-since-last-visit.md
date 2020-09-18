@@ -17,6 +17,6 @@ First-time visitors are not included in this dimension.
 
 This dimension works out of the box for all implementations. If a report suite contains data, this dimension works.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the number of days between a visitor's last visit and the current hit. Each number of days is a separate dimension value, with `"Same day"` occurring where a visitor's last visit and the current hit happened on the same day.
+Dimension items include the number of days between a visitor's last visit and the current hit. Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor's last visit and the current hit happened on the same day.

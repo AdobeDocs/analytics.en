@@ -53,7 +53,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Conversion Classifications](/help/admin/admin/conversion-var-admin/conversion-classifications.md)|Consolidated into Classifications (under Tools and Reports).|
 |[Unique Visitor](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html)|Grants permission to specify the Unique Visitor variable.|
 |[Success Events](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)|Actions that can be tracked, such as product view, checkout, and purchase.|
-|[Classification Hierarchies](/help/components/c-classifications2/classification-hierarchies.md)|Consolidated into Classifications (under Tools and Reports).|
+|[Classification Hierarchies](/help/admin/admin/conversion-var-admin/classification-hierarchies.md)|Consolidated into Classifications (under Tools and Reports).|
 |[List Variables](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html)|Also known as List Var. Similar to how List Props function, List Vars allow multiple values within the same image request.|
 |[Default Metrics](/help/admin/admin/default-metrics.md)|Reports & Analytics displays a default set of metrics in all conversion reports, unless a user selects a custom set of metrics. The selected metrics display for all users of the associated report suite.|
 |[Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)|Grants access to Processing Rules, which simplify data collection and manage content as it is sent to reports.|

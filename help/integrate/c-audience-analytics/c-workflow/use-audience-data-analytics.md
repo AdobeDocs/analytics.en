@@ -65,7 +65,7 @@ Audiences can also be used in [Fallout visualizations](https://docs.adobe.com/co
 
 ## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
 
-You can incorporate the Audiences dimensions in the Analytics [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), along with the behavioral information that Analytics collects.
+You can incorporate the Audiences dimensions in the Analytics [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), along with the behavioral information that Analytics collects.
 
 1. Go to  **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 1. Click **[!UICONTROL Add]** to create a new segment.

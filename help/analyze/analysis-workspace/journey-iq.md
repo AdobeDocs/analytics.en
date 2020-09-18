@@ -15,4 +15,4 @@ Journey IQ comprises the following features:
 * [Context-aware sessions:](../../components/vrs/vrs-report-time-processing.md) Change the definition of a visit, including when a visit times out and preventing background hits from starting a new visit. Uses a feature called report time processing, part of virtual report suites.
 * [Flow Analysis:](visualizations/c-flow/flow.md) Understand where users navigate next and where they came from.
 * [Fallout Analysis:](visualizations/fallout/fallout-flow.md) Capture when a customer disengages, and understand where they go.
-* [Cross-Device Analytics:](../../components/cda/cda-home.md) Seamlessly merge behavior from multiple devices to better understand what touch points each device gets.
+* [Cross-Device Analytics:](../../components/cda/overview.md) Seamlessly merge behavior from multiple devices to better understand what touch points each device gets.

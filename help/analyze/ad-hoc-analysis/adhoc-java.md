@@ -5,6 +5,10 @@ title: Run Ad Hoc Analysis with Java 11
 
 # Run Ad Hoc Analysis with Java 11
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 You need to follow additional steps when running Ad Hoc Analysis with Java 11 compared to running it with Java 8.
 
 ## Prerequisites

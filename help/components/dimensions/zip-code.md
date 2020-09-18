@@ -20,6 +20,6 @@ The [!UICONTROL Zip option] under [General account settings](/help/admin/admin/g
 >
 >The report suite setting is vital if you want full control over how you populate this dimension.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the zip or postal code of the visitor.
+Dimension items include the zip or postal code of the visitor.

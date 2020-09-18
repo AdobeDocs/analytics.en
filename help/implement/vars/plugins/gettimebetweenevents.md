@@ -63,7 +63,10 @@ The `getTimeBetweenEvents` method uses the following arguments:
 * **`rt`** (required, boolean): Restart timer option. Set to `true` if you want to restart the timer every time the `events` variable contains a start timer event. Set to `false` if you don't want the timer to restart when it sees a start timer event.
 * **`stp`** (required, string): Stop timer events. A comma-delimited string of Analytics events that "stop the timer".
 * **`res`** (required, boolean): Reset timer option. Set to `true` if you want to record the time since the timer started AND reset the timer after it stops. Set to `false` if you want to record the time but not stop the timer. If set to `false`, the timer continues to run after the events variable records a stop event.
-  > [!TIP] If you set this argument to `false`, setting the `rte` argument below is highly recommended.
+
+  >[!TIP]
+  >
+  >If you set this argument to `false`, setting the `rte` argument below is highly recommended.
 * **`cn`** (optional, string): The cookie name where the time of the first event is stored. Defaults to `"s_tbe"`.
 * **`etd`** (optional, integer): The expiration time for the cookie in days. Set to `0` to expire at the end of the browser session. Defaults to 1 day when not set.
 * **`fmt`** (optional, string): The format of the time that the number of seconds is returned in (defaults to nothing)

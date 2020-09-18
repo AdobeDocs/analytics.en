@@ -15,9 +15,11 @@ This dimension references lookup rules internal to Adobe. The lookup value is ba
 >
 >If your organization follows stringent privacy regulations where [obfuscating IP address](/help/admin/admin/general-acct-settings-admin.md) isn't enough, you can request to disable geolocation data entirely. Contact Customer Care with the report suite ID, and request to turn off 'Geography' for the report suite.
 
-## Dimension values
+## Dimension items
 
-Dimension values include cities all over the world. Example values include `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"`, or `"London (London, United Kingdom)"`.
+Dimension items include cities all over the world. Example values include `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"`, or `"London (London, United Kingdom)"`.
+
+Some dimension items can include `"AOL"`, a dial-up internet service provider. Subscribers to this service are assigned an access point based on the country where their account number is established. AOL users use the IP address of this access point. Since this dimension is based on IP address, the geolocation of the access point is used instead of the visitor's actual location.
 
 ## Differences between reported and actual location
 

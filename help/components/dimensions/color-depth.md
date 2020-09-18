@@ -11,9 +11,9 @@ The 'Color depth' dimension reports how many colors that the device supports. Th
 
 This dimension references a lookup table, translating bit value into a more readable format. It collects data from the [`c` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement uses the `screen.colorDepth` variable to populate the image request query string. If you use AppMeasurement (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `c` query string parameter on each hit with a valid bit value.
 
-## Dimension values
+## Dimension items
 
-Dimension values include the number of colors supported by the device. Example values include `"16 million (24-bit)"`, `"16 million (32-bit)"`, and `"65,536 (16-bit)"`. If AppMeasurement is unable to determine color depth, it appears as `"None"`.
+Dimension items include the number of colors supported by the device. Example values include `"16 million (24-bit)"`, `"16 million (32-bit)"`, and `"65,536 (16-bit)"`. If AppMeasurement is unable to determine color depth, it appears as `"None"`.
 
 >[!TIP]
 >

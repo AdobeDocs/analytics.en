@@ -27,11 +27,11 @@ This dimension is related to the [Average time spent on site](../metrics/average
 
 These dimensions work out of the box for all implementations. If a report suite contains data, these dimensions work.
 
-## Dimension values
+## Dimension items
 
 Multiple dimensions exist for time spent per visit:
 
-* **Time spent per visit - bucketed**: The amount of time is bucketed. Dimension values range from `"Less than 1 minute"` to `"More than 15 hours"`. Visits typically don't last longer than 12 hours; however, visits can exceed 12 hours if using timestamped hits or data sources.
-* **Time spent per visit - granular**: Each number of seconds is a unique dimension value. This dimension is not available in Reports & Analytics or Data Warehouse.
+* **Time spent per visit - bucketed**: The amount of time is bucketed. Dimension items range from `"Less than 1 minute"` to `"More than 15 hours"`. Visits typically don't last longer than 12 hours; however, visits can exceed 12 hours if using timestamped hits or data sources.
+* **Time spent per visit - granular**: Each number of seconds is a unique dimension item. This dimension is not available in Reports & Analytics or Data Warehouse.
 
 See [Time spent overview](../metrics/time-spent.md) for more general information on time spent.

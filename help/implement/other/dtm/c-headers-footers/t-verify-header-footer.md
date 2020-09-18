@@ -22,6 +22,6 @@ Verify that your Dynamic Tag Management library is loading properly on your site
 
    If you receive this error, ensure that:
 
-* You have included the full header code on every page of the site in the [!DNL HEAD] section, as close to the [!DNL <head>] tag as possible.
+* You have included the full header code on every page of the site in the [!DNL HEAD] section, as close to the `<head>` tag as possible.
 * You do not have unexpected characters appearing in the code snippet, potentially as a result of copying and pasting from a formatted document.
 

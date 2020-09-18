@@ -31,7 +31,8 @@ When a recipient opens a curated project, they will only see the curated set of 
 
 ## Remove project curation
 
-To remove project curation and restore the full set of components in the left rail: 
+To remove project curation and restore the full set of components in the left rail:
+
 1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**. 
 1. Click **[!UICONTROL Remove Curation]**. 
 1. Click **[!UICONTROL Done]**.

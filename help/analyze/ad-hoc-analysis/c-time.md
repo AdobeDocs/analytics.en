@@ -6,6 +6,10 @@ uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 
 # Time
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 Time is a reporting dimension useful for trending over hours, days, weeks, and date ranges. For example, a Products Report displays how much revenue a product made during the selected date range. You can add a Day dimension to see the trend across each day of the reporting period. Time provides granularity settings of Hour, Day, Week, Month, Quarter, and Year. Date range presets include settings such as Today, Yesterday, and Last 7 Days.
 
 ## Time {#concept_CB64A0A2150C471FB0B0B42516905887}

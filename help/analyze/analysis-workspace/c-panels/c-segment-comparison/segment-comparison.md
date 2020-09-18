@@ -84,19 +84,19 @@ To the right of the metrics table is a linked visualization. You can click a lin
 
 ### Top dimensions
 
-Shows the most statistically significant dimension values across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension value. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
+Shows the most statistically significant dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension value is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension value. If a dimension value is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension item is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension item. If a dimension item is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->Dimension values added to this table after the segment comparison has finished do not receive a Difference Score.
+>Dimension items added to this table after the segment comparison has finished do not receive a Difference Score.
 
 ![Top dimensions](assets/top-dimension-item1.png)
 
 ### Dimension items by segment
 
-To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension values in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
+To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension items in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
 
 ![Top dimensions bar chart](assets/top-dimension-item.png)
 

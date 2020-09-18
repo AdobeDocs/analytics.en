@@ -12,6 +12,12 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.22.0
+
+Release Date: **August 4, 2020**
+
+* Fix for missing referrer when first hit was not sent due to user's opt-out preferences.
+
 ## Version 2.21.0
 
 Release Date: **June 24, 2020**
@@ -349,7 +355,9 @@ Release Date: **September 18, 2014**
 * Fixed an issue that caused a double page-view count when s.t was called from a link onclick function, if the Visitor API does not have the needed values yet.
 * HTTP POST support.
 
-  > [!IMPORTANT] For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
 
 ## Version 1.4
 

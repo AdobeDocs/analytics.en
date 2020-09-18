@@ -15,7 +15,7 @@ var s = s_gi("examplersid");
 
 // Define config variables and page variables
 s.trackingServerSecure = "data.example.com";
-s.eVar1 = "Example dimension value";
+s.eVar1 = "Example dimension item";
 
 // Compile the variables on the page into an image request to Adobe
 s.t();

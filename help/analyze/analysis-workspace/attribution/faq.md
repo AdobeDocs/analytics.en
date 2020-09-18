@@ -33,6 +33,7 @@ Attribution models are available outside of virtual report suites. While they us
 
 The attribution panel supports all dimensions. Unsupported metrics include:
 
+* All calculated metrics
 * Unique Visitors
 * Visits
 * Occurrences
@@ -70,7 +71,7 @@ Since marketing channel dimensions depend on a traditional visit definition (as 
 
 Some dimensions in Analytics can contain multiple values on a single hit. Common examples include list vars and the products variable.
 
-When attribution is applied to multi-value hits, all values in the same hit get the same credit. Since many values can receive this credit, the report total can be different than if you summed each individual line item. The report total is deduplicated, while each individual dimension value gets proper credit.
+When attribution is applied to multi-value hits, all values in the same hit get the same credit. Since many values can receive this credit, the report total can be different than if you summed each individual line item. The report total is deduplicated, while each individual dimension item gets proper credit.
 
 **How does attribution work with segmentation?**
 
@@ -82,4 +83,4 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 >[!NOTE]
 >
->If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension values, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.
+>If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension items, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.

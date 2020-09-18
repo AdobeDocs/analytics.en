@@ -18,13 +18,6 @@ A visit always ties to a time period, so you know whether to count a new visit i
 
 A visit does not necessarily coincide with a browser session because of the above criteria. One of the most common differences is where a visitor navigates to your site, leaves the tab open for more than 30 minutes, then resumes browsing. While this action is technically part of the same browsing session, Adobe considers this action two separate visits.
 
-## Change the definition of a visit
-
-You can change the definition of a visit to a time other than 30 minutes.
-
-* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout using the [!UICONTROL Visit timeout] dropdown. You can change visit timeout to any reasonable value.
-* For standard report suites, contact Customer Care to request visit length be shortened for a given report suite. Visit length for standard report suites cannot exceed 30 minutes, so you can only shorten it.
-
 ## Behavior that affects visits
 
 If a visitor performs any of these actions, a new visit starts:
@@ -41,6 +34,17 @@ If a visitor performs any of these actions, a new visit does **not** start as lo
 * Transitions to a different network, such as disconnecting from a wired network docking station to a wireless network
 * Browses your site in multiple tabs. If a visitor switches back and forth between tabs, each hit counts as part of the same visit.
 
+## Change the definition of a visit
+
+You can change the definition of a visit to a time other than 30 minutes.
+
+* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout using the [!UICONTROL Visit timeout] dropdown. You can change visit timeout to any reasonable value.
+* For standard report suites, contact Customer Care to request visit length be shortened for a given report suite. Visit length for standard report suites cannot exceed 30 minutes, so you can only shorten it.
+
 ## Visits that span a date boundary
 
 A visit counts for each time period involved. For example, if you have a visitor that starts navigating your site on Monday at 11:45 PM, then sends their last image request on Tuesday at 12:10 AM, you would see a visit attributed to both Monday and Tuesday. However, the total visit metric is deduplicated, showing a single visit for the project date range.
+
+## Visits on a dimension versus total visits
+
+Visits in context of a dimension (for example, [Marketing channel](../dimensions/marketing-channel.md)) show the number of visits that contained a particular dimension item at any time. Multiple dimension items frequently exist on different hits in the same visit. Attempting to sum visits that report on dimension items usually does not make sense.

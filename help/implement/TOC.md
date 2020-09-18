@@ -2,7 +2,9 @@
 product: analytics
 audience: all
 user-guide-title: Analytics Implementation Guide
-user-guide-url: /content/help/en/analytics/implementation/home.html
+breadcrumb-title: Implementation Guide
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
+breadcrumb-url: /docs/analytics/implementation/home.html
 ---
 
 # Analytics Implementation Guide {#implementation}
@@ -186,6 +188,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Implement Analytics on Facebook Instant Articles](other/fb-instant-articles.md)
 + [Implement Analytics on mobile devices](mobile-device-sdk.md)
 + Implementation use cases {#use-cases}
+  + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Track across different implementation types](use-cases/cross-type-implementation.md)
   + [External email tracking](use-cases/email-external.md)
 + Validate your implementation {#validate}

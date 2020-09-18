@@ -41,7 +41,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 ## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
+**[Classifications](/help/components/classifications/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:
@@ -92,7 +92,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
-* To access all unique dimension values if you are running into "Low Traffic" in Adobe Analytics
+* To access all unique dimension items if you are running into "Low Traffic" in Adobe Analytics
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 

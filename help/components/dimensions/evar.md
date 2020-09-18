@@ -11,15 +11,17 @@ eVars are custom variables that you can use however you'd like. If you have a [s
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
+eVars are not case-sensitive. If you send the same value in different cases (for example, `"DOG"` and `"Dog"`), Analysis Workspace groups them together into the same dimension item. The case of the first value seen at the beginning of the reporting month is used. Data Warehouse shows the first value encountered during the request period.
+
 ## Populate eVars with data
 
 Each eVar collects data from the [`v1` - `v250` query string](/help/implement/validate/query-parameters.md) in image requests. For example, the `v1` query string parameter collects data for eVar1, while the `v222` query string parameter collects data for eVar222.
 
 AppMeasurement, which compiles JavaScript variables into an image request for data collection, uses the variables `eVar1` - `eVar250`. See [eVar](/help/implement/vars/page-vars/evar.md) in the Implement user guide for implementation guidelines.
 
-## Dimension values
+## Dimension items
 
-Since eVars contain custom strings in your implementation, your organization determines what the dimension values are for each eVar. Make sure you record the purpose of each eVar and typical dimension values in a [solution design document](/help/implement/prepare/solution-design.md).
+Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## How eVars work
 

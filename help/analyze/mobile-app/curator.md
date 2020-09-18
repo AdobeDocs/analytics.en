@@ -138,7 +138,7 @@ To share the Scorecard with an executive user:
 
 3. Click **Share**.
  
-![Share_Scorecards](assets/new_share2.png)
+![Share_Scorecards](assets/new_share.png)
 
 After you have shared a Scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 

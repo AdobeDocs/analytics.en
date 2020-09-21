@@ -2,8 +2,9 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
-user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
-user-guide-url: /content/help/en/analytics/export/home.html
+breadcrumb-title: Export Guide
+user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-url: /docs/analytics/export/home.html
 ---
 
 # Analytics Export Guide {#export}
@@ -37,6 +38,7 @@ user-guide-url: /content/help/en/analytics/export/home.html
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
   + [Dimensions incompatible with Data Warehouse segments](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
+  + [Data Warehouse FAQ](data-warehouse/faq.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
   + [Use FTP and SFTP with the Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)

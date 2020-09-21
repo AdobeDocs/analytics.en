@@ -35,7 +35,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Once you have confirmed it is working in your dev environment, you can [Validate a development implementation and publish to production](../launch/validate-publish-prod.md).
 
-## Reporting in Workspace.
+## Reporting in Workspace
 
 Give your implementation some time to collect data, then you can start using the dimension in Analysis Workspace.
 

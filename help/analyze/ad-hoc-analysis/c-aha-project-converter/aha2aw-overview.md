@@ -6,6 +6,10 @@ uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 
 # Ad Hoc Analysis Project Converter overview
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 The Ad Hoc Analysis Project Converter can seamlessly convert all your Ad Hoc projects to Analysis Workspace.
 
 * [Why Should You Convert Projects?](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6) 

@@ -88,3 +88,7 @@ See [FTP and sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-a
 1. Click **[!UICONTROL Save]**.
 
 Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account.
+
+>[!NOTE]
+>
+>Notifications are not sent if an import introduces no changes to a classification. An email is only sent if it is successful and results in changes to a classification.

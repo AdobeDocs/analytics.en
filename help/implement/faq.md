@@ -41,3 +41,13 @@ var s = new Object();
 >* Change the report suite to an invalid value, as it creates unnecessary load on Adobe's servers.
 >* Remove the `s_code.js` file altogether, unless you also remove all references to the file on each page.
 >* Change the `trackingServer` variable to point away from Adobe. AppMeasurement still sends image requests, which return 404 errors.
+
+## I ran AppMeasurement through a code analyzer, and it flagged its usage of `Math.random()` as a potential security risk. Is `Math.random()` used with any sensitive data?
+
+No. The numbers that use `Math.random()` are not used to mask, send, or receive any sensitive data. Data sent to Adobe data collection servers rely on the security of the underlying HTTPS connection. <!-- AN-173590 -->
+
+AppMeasurement uses `Math.random()` in three key areas:
+
+* **Sampling**: Depending on your implementation, some information could be gathered for only a small percentage of visitors to your site. `Math.random()` is used to determine if a given visitor should send data. Most implementations do not use sampling.
+* **Fallback visitor ID**: If the visitor ID cannot be retrieved from cookies, a random visitor ID is generated. This part of AppMeasurement uses two calls to `Math.random()`.
+* **Cache busting**: A random number is added to the end of image request URLs to help prevent browser caching.

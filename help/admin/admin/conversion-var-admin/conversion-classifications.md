@@ -11,6 +11,10 @@ Conversion classifications let you classify conversion variables. Once classifie
 
 After enabling classifications, use the [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
 
+>[!WARNING]
+>
+>Renaming a classification can cause issues with existing rules created in the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md). If you rename a classification that has classification rules, make sure that you correct each rule so it points to the renamed classification.
+
 ## Conversion Classifications Descriptions 
 
 | Element | Description |

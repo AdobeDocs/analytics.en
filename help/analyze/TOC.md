@@ -2,8 +2,9 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
-user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
-user-guide-url: /content/help/en/analytics/analyze/home.html
+breadcrumb-title: Tools Guide
+user-guide-description: Provides how-to instructions to Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+breadcrumb-url: /docs/analytics/analyze/home.html
 ---
 
 # Analytics Tools Guide {#analyze}
@@ -92,7 +93,6 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
     + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
-    + [Scheduled projects manager](analysis-workspace/curate-share/schedule-projects.md)
   + Attribution IQ {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
@@ -267,7 +267,8 @@ user-guide-url: /content/help/en/analytics/analyze/home.html
   + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
   + [Activity Map user interface](activity-map/activitymap-user-interface.md)
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [Troubleshooting browser extensions](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
+  + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
   + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
   + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)

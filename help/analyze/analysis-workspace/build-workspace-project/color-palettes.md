@@ -27,5 +27,5 @@ Keep in mind:
    ![](assets/custom_palette.png)
 
 1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
-1. Specify up to 16 comma-separated hexadecimal values (for example, #00a4e4) for the colors you intend to use. If, for example, you want to use only four values, these colors will be automatically be repeated in visualizations that contain more colors.
+1. Specify up to 16 comma-separated hexadecimal values (for example, #00a4e4) for the colors you intend to use. If, for example, you want to use only four values, these colors will automatically be repeated in visualizations that contain more colors.
 

@@ -1,52 +1,58 @@
 ---
-description: null
+description: A panel is a collection of tables & visualizations
 title: Panels overview
 ---
 
 # Panels overview
 
-A panel is a collection of tables & visualizations. You can access panels from the top left icon in Workspace. Panels are helpful when you want to organize your projects according to time periods, business units, geography, etc. These six types of panels are available in Analysis Workspace:
+A panel is a collection of tables & visualizations. You can access panels from the top left icon in Workspace. Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The following panel types are available in Analysis Workspace:
 
-* [Blank panel](blank-panel.md)
-* [Quick Insights panel](quickinsight.md)
-* [Analytics for Target panel](a4t-panel.md)
-* [Attribution panel](attribution.md)
-* [Freeform panel](freeform-panel.md)
-* [Segment Comparison panel](c-segment-comparison/segment-comparison.md)
+Panel name| Description|
+|---|---|
+|[Blank panel](blank-panel.md)| Choose from available panels and visualizations to start your analysis. |
+| [Quick Insights panel](quickinsight.md)| Quickly build a freeform table and an accompanying visualization in order to analyze and uncover insights faster.|
+| [Analytics for Target panel](a4t-panel.md)| Analyze Target activities and experiences in Analysis Workspace.|
+| [Attribution panel](attribution.md)| Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
+| [Freeform panel](freeform-panel.md)| Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story.|
+| [Media Concurrent Viewers panel](media-concurrent-viewers.md)| Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare.|
+| [Segment Comparison panel](c-segment-comparison/segment-comparison.md)| Quickly compare two segments across all data points to automatically find relevant differences.|
 
-Quick Insights, Blank and Freeform panels are great places to start your analysis, while Analytics for Target, Attribution IQ and Segment Comparison lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
+Quick Insights, Blank and Freeform panels are great places to start your analysis, while Analytics for Target, Attribution IQ, Media Concurrent Viewers and Segment Comparison lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
 
 The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
-## Drop-down Filters in Panels {#section_D2828EEDD52944528E87F470EAB581CF}
+## Panel report suite {#report-suite}
 
-The panel drop zone has drop-down filtering capabilities. These filters let you interact with the project data in a controlled way so that you can do deep-dive analysis, simplify your projects, and/or share insights with others.
+Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases.
 
-Here is an example of a simplified project: Suppose you have several versions of a project/panel to provide country-specific reporting. You can now collapse those projects/panels into a single panel, and add in a country drop-down instead to filter between different data sets.
+## Panel calendar {#calendar}
 
-![](assets/dropdowns.png)
+The panel calendar controls the reporting range for tables and visualizations within a panel. Note: If a (purple) date range component is used within a table, visualization or panel dropzone, it will override the panel calendar.
 
-Keep this in mind:
+## Panel dropzone {#dropzone}
 
-* You can drop in multiple components (or dimension items), and then switch between them in a dropdown to filter the panel contents.
-* You can also create multiple drop-down lists on the same panel.
-* You can customize the title of the drop-down list by clicking the title and modifying it, or remove the title altogether by clicking the x next to it.
-* You can create drop-down filters using any component type: dimensions, date ranges, segments, and metrics. Note that drop-down date ranges will always override the panel date ranges.
-* We maintain the component colors from the left rail: yellow for dimension item dropdowns, green for metrics, blue for segments, and purple for date ranges.
-* The dropzone will still create hit-level segments for items dragged in as segments. You can modify these as usual by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+The panel dropzone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. The title above each filter can be modified by clicking the edit pencil, or you can right-click to remove it altogether.
 
-**To create and use drop-down filters:**
+### Segment filters
 
-1. Select any items from the left rail and, **while holding down the  key**, drop them into the panel drop zone.
+Drag-and-drop any segment from the left rail into the panel drop zone to begin filtering your panel.
 
-   ![](assets/create_dropdown.png)
+### Adhoc segment filters
 
-   This will turn the components into a drop-down list, rather than into a segment. (You can also still add segments by not holding down the  key.)
+Non-segment components can also be dragged directly into the dropzone to create **adhoc segments**, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder. 
 
-   ![](assets/dropdown.png)
+Adhoc segments are local to the project and will not show up in your left rail unless you make them public. 
 
-1. Select one of the options from the dropdown to change the data in the panel below. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.) 
-1. For example, if you also wanted to slice the data by marketing channel, you could add another dropdown called "Marketing Channel":
+### Drop-down filters {#dropdown-filter}
 
-   ![](assets/mc_dropdown.png)
+In addition to segment filters, **drop-down filters** enable you to interact with the data in a controlled way. For example, you can add a drop-down filter for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone or Desktop. 
 
+Drop-down filters can be used to consolidate many projects into one as well. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down filter.
+
+**Create and use drop-down filters:**
+
+1. To create a drop-down filter using Dimension items, such as values within the Marketing Channel dimension, click the chevron next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
+1. To create a drop-down filter using other component such as metrics, segments, or date ranges, select from one component type in the left rail and drop into the panel dropzone **while holding down the Shift key**. 
+1. Select one of the options from the dropdown to change the data in the panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**. 
+
+[Watch the video](https://www.youtube.com/watch?v=vpJywtsFVPI) to learn more about how to add drop-down filters to your project.

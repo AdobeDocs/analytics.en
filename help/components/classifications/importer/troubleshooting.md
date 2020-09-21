@@ -11,7 +11,7 @@ The most common issues when uploading classification data to Adobe.
 
 Classifications require a specific file type and format to upload successfully. If saved improperly, it throws an error and doesn't process any rows. The error returned is frequently *"First column is required to be the key"*, but can be any number of errors. Be sure to check the following:
 
-* **Uploading a spreadsheet (.xlsx) instead of a .tab or .txt file**: The classification importer does not know how to handle .xls or .xlsx files. When in the 'Save As' dialogue in Excel, set the correct Save as type:
+* **Uploading a spreadsheet (.xlsx) instead of a .tab or .txt file**: You can get the error message *"The first column is required to be the key"* when you upload classification files in an incorrect format. The classification importer does not know how to handle .xls or .xlsx files. When in the 'Save As' dialogue in Excel, set the correct Save as type:
   * On Windows, use the file format `Text (Tab delimited) (*.txt)`
   * On Mac, use the file format `Windows Formatted Text`.
 * **Changing the filename extension after saving it as a workbook**: Attempting to directly rename a file extension generates an invalid workbook. Only use Excel's Save As function or edit classifications in a text editor such as Notepad++.
@@ -31,6 +31,7 @@ If your upload file is correctly formatted, the uploader attempts to import as m
 * **Subclassifications exist and are incorrectly configured**: If subclassifications exist, check the following:
   * All subclassification values have a parent classification value
   * No two subclassifications reference the same parent classification value
+* **Column mismatch**: You can get the error message *"The key on line has too many columns"* if there are an invalid number of columns on any given row. For example, you have 3 columns in your classification upload and the variable only has a single classification. Validate your upload file to make sure that the number of columns are not greater than the number of classifications configured for that variable.
 
 ## Troubleshoot FTP imports
 

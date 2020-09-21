@@ -729,7 +729,7 @@ New features released on July 20, 2017.
    <td colname="col2"> <p>Previously, if you logged in with your Experience Cloud credentials and navigated to Analytics, you could not use the <span class="ignoretag"> <span class="uicontrol"> Share </span>  &gt; <span class="uicontrol"> Get Project Link </span> </span> feature. We've fixed this issue. You still have to save the project before this option becomes clickable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > 'Expired Projects' filter in Scheduled Projects manager </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > 'Expired Projects' filter in Scheduled Projects manager </a></b> </p> </td> 
    <td colname="col2"> <p>You can now filter expired projects in the Scheduled project manager. You can then decide whether to restart or delete these projects. </p> </td> 
   </tr> 
  </tbody> 
@@ -1128,9 +1128,9 @@ The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL C
 
 *`Save As`* is also available for the [!UICONTROL Calculated Metric Builder] and [!UICONTROL Date Range Builder].
 
-## Add New Segment Button {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Add New Segment
 
-The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
+The **[!UICONTROL Drop a Segment here]** drop zone has been added so you can drag and drop segments onto a project.
 
 ![](assets/add-new-segment.png)
 

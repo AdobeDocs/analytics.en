@@ -2,8 +2,9 @@
 product: analytics
 audience: all
 user-guide-title: Analytics Implementation Guide
-user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
-user-guide-url: /content/help/en/analytics/implementation/home.html
+breadcrumb-title: Implementation Guide
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
+breadcrumb-url: /docs/analytics/implementation/home.html
 ---
 
 # Analytics Implementation Guide {#implementation}

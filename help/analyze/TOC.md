@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics.
+user-guide-description: Provides how-to instructions to Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 breadcrumb-url: /docs/analytics/analyze/home.html
 ---
 

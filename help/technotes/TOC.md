@@ -4,7 +4,6 @@ audience: all
 user-guide-title: Analytics tech notes
 breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
-breadcrumb-url: /docs/analytics/technotes/home.html
 ---
 
 # Analytics Documentation {#technotes}

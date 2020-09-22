@@ -1,7 +1,7 @@
 ---
 description: Insert AppMeasurement code when manually deploying Dynamic Tag Management in Adobe Analytics.
 keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Insert core AppMeasurement code
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 ---

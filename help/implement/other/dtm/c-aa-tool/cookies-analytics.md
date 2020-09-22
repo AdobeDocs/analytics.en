@@ -1,7 +1,7 @@
 ---
 description: Field descriptions for the Cookies global settings used for deploying Dynamic Tag Management in Adobe Analytics.
 keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 ---

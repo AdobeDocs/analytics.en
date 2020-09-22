@@ -1,7 +1,7 @@
 ---
 description: Conditions determine when an event-based rule is triggered.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Create conditions for event-based rules
 uuid: a847391c-5aec-4d64-8a35-388587731598
 ---

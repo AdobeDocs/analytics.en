@@ -4,7 +4,6 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 breadcrumb-title: Implementation Guide
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
-breadcrumb-url: /docs/analytics/implementation/home.html
 ---
 
 # Analytics Implementation Guide {#implementation}

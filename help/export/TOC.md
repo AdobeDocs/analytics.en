@@ -4,7 +4,6 @@ audience: end-user
 user-guide-title: Analytics Export Guide
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
-breadcrumb-url: /docs/analytics/export/home.html
 ---
 
 # Analytics Export Guide {#export}

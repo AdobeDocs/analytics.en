@@ -20,6 +20,7 @@ breadcrumb-url: /docs/analytics/admin/home.html
   + Bot removal {#bot-removal}
     + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
+    + [Common bot signatures](admin/bot-removal/bot-signatures.md)
   + [Code Manager](admin/code-manager-admin.md)
   + Conversion variables {#conversion-variables}
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)

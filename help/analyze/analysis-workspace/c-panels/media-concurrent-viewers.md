@@ -5,10 +5,6 @@ description: How to use and interpret the Media Concurrent Viewers panel in Anal
 
 # Media Concurrent Viewers panel
 
->[!IMPORTANT]
->
->This feature is in Limited Testing for media analytics customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
-
 Media Analytics customers can analyze concurrent viewers to understand where peak concurrency occurred or where drop-offs happened to provide valuable insight into the quality of content and viewer engagement, and to help with troubleshooting or planning for volume or scale.
 
 In Analysis Workspace, Concurrent Viewers is the number of unique visitors viewing your media stream(s) at a specific point in time, regardless of the number of sessions.

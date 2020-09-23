@@ -1,5 +1,4 @@
 ---
-description: Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
 ---

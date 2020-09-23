@@ -47,7 +47,7 @@ Modern users have much higher resolution monitors than in years past. Hits with 
 
 ## Country + Time Zone mismatch
 
-There will be a mismatch between the originating country and the time zone. For example, a location of the United State but has a GMT time zone.
+You would notice a mismatch between the originating country and the time zone. For example, the location might be the United States but the time zone might me GMT.
 
 ![](assets/bots-country-time-zone.png)
 

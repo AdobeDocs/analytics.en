@@ -22,7 +22,7 @@ Manual mapping of XDM data to Analytics relies upon [Analytics context data](../
 
 ## Setup
 
-To set up Analtyics to receive XDM data:
+To set up Analytics to receive XDM data:
 
 1. Install and [configure](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) the [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html).
 

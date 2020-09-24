@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions to Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 ---
 
 # Analytics Tools Guide {#analyze}
@@ -13,7 +13,7 @@ user-guide-description: Provides how-to instructions to Analysis Workspace, the 
   + [Analysis Workspace overview](analysis-workspace/home.md)
   + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-  + Build a Workspace project {#build-workspace-project}
+  + Build Workspace projects {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)

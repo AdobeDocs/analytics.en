@@ -5,7 +5,7 @@ title: Adobe Analytics feature releases
 
 # Adobe Analytics feature releases
 
-Historically, Adobe Analytics feature releases followed a fixed monthly schedule. Beginning in April, 2020, Adobe Analytics moved to a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
+Historically, Adobe Analytics feature releases followed a fixed monthly schedule. Beginning in April 2020, Adobe Analytics moved to a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
 ## Release strategy
 
@@ -18,6 +18,12 @@ Historically, Adobe Analytics feature releases followed a fixed monthly schedule
 * **General Availability (GA)**: The feature is available to 100% of entitled Experience Cloud organizations, and feature release is complete.
 
 With each feature release, the timeline from RTP to GA may vary. The goal is to keep releases short, so that within 2 months of release start (RTP), a feature will be GA.
+
+## Feature flags
+
+Feature flags are used to control the visibility of new features during release. Adobe recommends adding app.launchdarkly.com to your firewall's [allowed list](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) for an optimal experience during release. Shortly after GA is reached, the flag is removed. 
+
+You can view your active feature flags at any time under **Help > About Workspace > Active feature flags**.
 
 ## Benefits
 

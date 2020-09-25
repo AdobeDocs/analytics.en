@@ -34,4 +34,4 @@ The individual who initially configures the first-party cookie implementation al
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `ssl.d1.sc.omtrdc.net`.
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.

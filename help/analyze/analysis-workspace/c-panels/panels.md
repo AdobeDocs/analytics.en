@@ -1,11 +1,11 @@
 ---
-description: A panel is a collection of tables & visualizations
+description: A panel is a collection of tables and visualizations
 title: Panels overview
 ---
 
 # Panels overview
 
-A panel is a collection of tables & visualizations. You can access panels from the top left icon in Workspace. Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The following panel types are available in Analysis Workspace:
+A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top left icon in Workspace. Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The following panel types are available in Analysis Workspace:
 
 Panel name| Description|
 |---|---|
@@ -17,17 +17,25 @@ Panel name| Description|
 | [Media Concurrent Viewers panel](media-concurrent-viewers.md)| Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare.|
 | [Segment Comparison panel](c-segment-comparison/segment-comparison.md)| Quickly compare two segments across all data points to automatically find relevant differences.|
 
-Quick Insights, Blank and Freeform panels are great places to start your analysis, while Analytics for Target, Attribution IQ, Media Concurrent Viewers and Segment Comparison lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
+![](assets/panel-overview.png)
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+[!UICONTROL Quick Insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], [!UICONTROL Media Concurrent Viewers] and [!UICONTROL Segment Comparison] lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Panel report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases.
+
+![](assets/panel-report-suite.png)
 
 ## Panel calendar {#calendar}
 
-The panel calendar controls the reporting range for tables and visualizations within a panel. Note: If a (purple) date range component is used within a table, visualization or panel dropzone, it will override the panel calendar.
+The panel calendar controls the reporting range for tables and visualizations within a panel. 
+
+Note: If a (purple) date range component is used within a table, visualization or panel dropzone, it will override the panel calendar.
+
+![](assets/panel-calendar.png)
 
 ## Panel dropzone {#dropzone}
 
@@ -35,13 +43,17 @@ The panel dropzone enables you to apply segment and drop-down filters to all tab
 
 ### Segment filters
 
-Drag-and-drop any segment from the left rail into the panel drop zone to begin filtering your panel.
+Drag and drop any segment from the left rail into the panel drop zone to begin filtering your panel.
 
-### Adhoc segment filters
+![](assets/segment-filter.png)
 
-Non-segment components can also be dragged directly into the dropzone to create **adhoc segments**, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder. 
+### Ad-hoc segment filters
 
-Adhoc segments are local to the project and will not show up in your left rail unless you make them public. 
+Non-segment components can also be dragged directly into the dropzone to create **ad-hoc segments**, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder. 
+
+Ad-hoc segments are local to the project and will not show up in your left rail unless you make them public.
+
+![](assets/adhoc-segment-filter.png)
 
 ### Drop-down filters {#dropdown-filter}
 
@@ -49,9 +61,13 @@ In addition to segment filters, **drop-down filters** enable you to interact wit
 
 Drop-down filters can be used to consolidate many projects into one as well. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down filter.
 
+![](assets/dropdown-filter-intro.png)
+
 **Create and use drop-down filters:**
 
-1. To create a drop-down filter using Dimension items, such as values within the Marketing Channel dimension, click the chevron next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
+![](assets/create-dropdown.png)
+
+1. To create a drop-down filter using [!UICONTROL Dimension items], such as values within the [!UICONTROL Marketing Channel] dimension, click the right-arrow next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
 1. To create a drop-down filter using other component such as metrics, segments, or date ranges, select from one component type in the left rail and drop into the panel dropzone **while holding down the Shift key**. 
 1. Select one of the options from the dropdown to change the data in the panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**. 
 

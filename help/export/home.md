@@ -1,6 +1,6 @@
 ---
-title: Analytics Export Help
-description: null
+title: Analytics Export Guide
+description: This guide outlines ways to get data out of Adobe Analytics using data feeds and Data Warehouse.
 ---
 
 # Analytics Export Guide

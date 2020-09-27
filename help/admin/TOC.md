@@ -8,7 +8,7 @@ user-guide-description: Learn about managing users and products in the Experienc
 
 # Analytics Admin Guide {#admin}
 
-+ [Analytics Admin Help](home.md)
++ [Analytics Admin Guide](home.md)
 + Analytics Admin overview {#admin-overview}
   + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
   + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)

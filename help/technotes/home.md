@@ -1,8 +1,9 @@
 ---
-title: Tech notes home
+title: Analytics Tech Notes
+description: This guide provides helpful information on topics that don't belong to a specific analytics tool or component.
 ---
 
-# Tech notes home
+# Analytics Tech Notes
 
 This guide provides helpful information on topics that don't belong to a specific analytics tool or component.
 

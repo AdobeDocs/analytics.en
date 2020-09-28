@@ -8,7 +8,7 @@ user-guide-description: Help organize your data using components such as segment
 
 # [!DNL Analytics] Components Guide {#components}
 
-+ [Analytics Components Help](home.md)
++ [Analytics Components Guide](home.md)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)

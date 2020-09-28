@@ -8,7 +8,7 @@ user-guide-description: Bring data into Analytics from outside sources, either i
 
 # Analytics Import Guide {#import}
 
-+ [Analytics Import Help](home.md)
++ [Analytics Import Guide](home.md)
 + Data Sources {#data-sources}
   + [Data Sources overview](c-data-sources/datasrc-home.md)
   + [How Data Sources works](c-data-sources/datasrc-how-data-sources-works.md)

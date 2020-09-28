@@ -6,9 +6,9 @@ breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 ---
 
-# Analytics Documentation {#technotes}
+# Analytics Tech Notes {#technotes}
 
-+ [Analytics tech notes help](home.md)
++ [Analytics tech notes](home.md)
 + Adobe Analytics for Google Analytics users {#ga-to-aa}
   + [Adobe Analytics for Google Analytics users help](ga-to-aa/home.md)
   + [Accounts and report suites](ga-to-aa/accounts.md)

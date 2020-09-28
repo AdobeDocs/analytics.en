@@ -1,5 +1,5 @@
 ---
-title: Analytics Components Help
+title: Analytics Components Guide
 description: null
 ---
 

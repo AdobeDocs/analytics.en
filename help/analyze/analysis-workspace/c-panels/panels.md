@@ -67,7 +67,7 @@ Drop-down filters can be used to consolidate many projects into one as well. For
 
 ![](assets/create-dropdown.png)
 
-1. To create a drop-down filter using [!UICONTROL Dimension items], such as values within the [!UICONTROL Marketing Channel] dimension, click the right-arrow next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
+1. To create a drop-down filter using [!UICONTROL Dimension items], such as values within the [!UICONTROL Marketing Channel] dimension, click the right-arrow icon next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
 1. To create a drop-down filter using other component such as metrics, segments, or date ranges, select from one component type in the left rail and drop into the panel dropzone **while holding down the Shift key**. 
 1. Select one of the options from the dropdown to change the data in the panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**. 
 

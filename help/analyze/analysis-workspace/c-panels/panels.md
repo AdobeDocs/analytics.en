@@ -27,6 +27,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases.
 
+The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
+
 ![](assets/panel-report-suite.png)
 
 ## Panel calendar {#calendar}
@@ -65,10 +67,10 @@ Drop-down filters can be used to consolidate many projects into one as well. For
 
 **Create and use drop-down filters:**
 
-![](assets/create-dropdown.png)
-
 1. To create a drop-down filter using [!UICONTROL Dimension items], such as values within the [!UICONTROL Marketing Channel] dimension, click the right-arrow icon next to your dimension in the left rail. This will expose all of the available items. Select one or many component items from the left rail and drop them into the panel dropzone **while holding the Shift key**. This will turn the components into a drop-down filter, rather than into a single segment. 
 1. To create a drop-down filter using other component such as metrics, segments, or date ranges, select from one component type in the left rail and drop into the panel dropzone **while holding down the Shift key**. 
 1. Select one of the options from the dropdown to change the data in the panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**. 
 
 [Watch the video](https://www.youtube.com/watch?v=vpJywtsFVPI) to learn more about how to add drop-down filters to your project.
+
+![](assets/create-dropdown.png)

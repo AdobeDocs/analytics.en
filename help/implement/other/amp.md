@@ -55,7 +55,7 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",

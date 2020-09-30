@@ -1,5 +1,5 @@
 ---
-title: Analytics Admin Help
+title: Analytics Admin Guide
 description: Administration help for Adobe Analytics administrators, including user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection.
 ---
 

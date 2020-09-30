@@ -1,8 +1,7 @@
 ---
-description: Manage scheduled Analysis Workspace projects.
+description: Manage scheduled Analysis Workspace projects
 keywords: Analysis Workspace
 title: Scheduled projects manager
-topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 ---
 

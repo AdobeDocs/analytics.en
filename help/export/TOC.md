@@ -8,7 +8,7 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
 
 # Analytics Export Guide {#export}
 
-+ [Analytics Export home](home.md)
++ [Analytics Export Guide](home.md)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
   + [Create or edit a data feed](analytics-data-feed/create-feed.md)

@@ -61,11 +61,6 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 | Date Range | A date range was created/edited. |
 | Virtual Report Suite | A virtual report suite was created/edited. |
 | Contribution Analysis | A contribution analysis job was run. |
-| Excel Data Block Request | |
-| Excel Login Failure | |
-| Excel Login Success | |
-| Mobile Login Failure | | 
-| Mobile Login Success | |
 | Api Method | An API call was made. |
 
 

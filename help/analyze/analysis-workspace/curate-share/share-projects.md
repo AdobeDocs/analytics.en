@@ -1,10 +1,10 @@
 ---
 description: Project sharing and project roles in Workspace
 keywords: Analysis Workspace sharing
-title: Share Workspace projects
+title: Share projects
 ---
 
-# Share Workspace projects
+# Share projects
 
 Sharing makes a project available to other Analysis Workspace users in your organization. Any [curation](curate.md) you have applied is reflected when recipients open the project. 
 

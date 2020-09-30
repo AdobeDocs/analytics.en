@@ -1,10 +1,10 @@
 ---
 description: Send an Analysis Workspace project via email or schedule it for delivery.
 keywords: Analysis Workspace
-title: Scheduled projects
+title: Schedule projects
 ---
 
-# Scheduled projects
+# Schedule projects
 
 From the Workspace **Share menu**, you can send Analysis Workspace projects via email to selected recipients. Files can be sent in CSV or PDF format. 
 

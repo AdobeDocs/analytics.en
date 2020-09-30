@@ -85,13 +85,13 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
-    + [Curate Workspace projects](analysis-workspace/curate-share/curate.md)
-    + [Share Workspace projects](analysis-workspace/curate-share/share-projects.md)
+    + [Share menu](analysis-workspace/curate-share/send-schedule-files.md)
+    + [Curate projects](analysis-workspace/curate-share/curate.md)
+    + [Share projects](analysis-workspace/curate-share/share-projects.md)
     + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
-    + [View-only Workspace projects](analysis-workspace/curate-share/view-only-projects.md)
+    + [View-only projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
-    + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
-    + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
+    + [Schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
   + Attribution IQ {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)

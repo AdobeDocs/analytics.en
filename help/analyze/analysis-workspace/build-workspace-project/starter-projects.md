@@ -46,9 +46,9 @@ Users with admin rights can turn any project they create into a custom template.
 
 When you first open a Workspace, templates are available in the left rail. Analysis Workspace Templates cover common use cases. They are grouped by the vertical they belong to and are populated with different dimensions, segments, metrics and visualizations, depending on the report suite you have selected.
 
-You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.
+You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name. 
 
-[Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+Here is a video tutorial on [Standard Templates in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Here are available templates and the questions that each template helps answer.
 
@@ -58,7 +58,7 @@ These standard templates walk you through common terminology and steps for build
 
 * **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
 
-* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions & metrics are important.
+* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions and metrics are important.
 
 ### Advertising
 
@@ -70,9 +70,9 @@ These standard templates walk you through common terminology and steps for build
 
 ### Commerce
 
-* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
+* **Magento: Marketing and Commerce**: This template breaks down your e-commerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Media
 

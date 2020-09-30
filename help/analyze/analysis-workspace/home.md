@@ -11,7 +11,7 @@ Analysis Workspace is a flexible browser tool that allows you to quickly build a
 
 If you have only a few minutes, watch this brief overview to see what is possible.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -57,5 +57,5 @@ In your Workspace project, **panels, tables, visualizations, and components** ar
 
 ## Additional resources {#resources}
 
-* A complete video training guide is available on the Adobe Analytics YouTube channel [here](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&sort=dd&shelf_id=7).
+* Adobe offers hundreds of [Analytics video training tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html).
 * See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about new features.

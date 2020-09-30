@@ -21,7 +21,7 @@ You can also share a link to a specific part of a project, such as a panel or in
 * From any panel header, right-click **[!UICONTROL Get panel link]** 
 * From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
 
-[Watch the video](https://www.youtube.com/watch?v=lvmAdKNfWQw) on how to create links and use them to drive recipients to specific parts of your project. 
+[Watch the video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) on how to create links and use them to drive recipients to specific parts of your project. 
 
 ![](assets/get-viz-link.png)
 
@@ -29,6 +29,6 @@ You can also share a link to a specific part of a project, such as a panel or in
 
 One tip for leveraging the various link options is to always include a table of contents at the top of your Workspace project. In the table of contents, you can link to other relevant projects, specific panels and specific visualizations. This helps the recipient of the project to navigate more easily.  
 
-[Watch the video](https://www.youtube.com/watch?v=Xo6fTguWm-M) on how to construct a Table of contents using links and Workspace’s rich text editor. 
+[Watch the video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) on how to construct a Table of contents using links and Workspace’s rich text editor. 
 
 ![](assets/toc.png)

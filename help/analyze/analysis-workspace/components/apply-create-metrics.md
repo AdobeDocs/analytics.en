@@ -22,7 +22,7 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 
 ![](assets/calc_metrics.png)
 
-[Using Participation Metrics](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
+[Calculated Metrics: Implementation-less metrics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Compare metrics with different attribution models
 

@@ -29,7 +29,7 @@ The Workspace project list page contains the following information:
 | [Create New Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)  | Click this link to start a new project from scratch.  |
 |  Manage Projects  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
 | Set as Landing Page | Turns this page into your Workspace landing page. |
-|  View Tutorials  |Takes you to the [Analysis Workspace YouTube videos](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).  |
+|  View Tutorials  |Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html).  |
 |  Name  | Name of the Workspace project.  |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
 | Type | Indicates whether this is a Workspace Project or a [Mobile Scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html). |

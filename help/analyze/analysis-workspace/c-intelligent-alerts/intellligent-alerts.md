@@ -8,7 +8,7 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 
 Intelligent Alerts allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
-[Intelligent Alerts on YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
+Here is a video tutorial on [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Overview
 

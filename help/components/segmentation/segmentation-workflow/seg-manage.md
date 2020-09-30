@@ -16,7 +16,7 @@ The Analytics Segment Manager shows you all the segments you own and that have b
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics YouTube video](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd ) gives a short overview of how to use the Segment Manager.
+This [Adobe Analytics video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
 ## Segment Manager User Interface {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 

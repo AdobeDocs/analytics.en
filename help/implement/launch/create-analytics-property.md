@@ -76,7 +76,7 @@ Rules map data elements to Analytics variable values, and determine when those v
 
 * [Adobe Analytics extension documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Full documentation specific to the Adobe Analytics extension in Adobe Experience Platform Launch.
 * [Getting Started with Launch](https://docs.adobelaunch.com/getting-started): Full documentation for Launch, including a more in-depth getting started guide
-* [Adobe Experience Platform Launch YouTube channel](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Learn how to use Launch through videos
+* [Adobe Experience Platform Launch channel](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Learn how to use Launch through videos
 
 ## Next steps
 

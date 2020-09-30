@@ -69,7 +69,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I get a table of the "expected values" that comprise the dotted line, or some sort of output of what those values are? </b> </p> </td> 
-   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  > <span class="uicontrol">Reports & Analytics</span> anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval. </p> </td> 
   </tr> 
  </tbody> 
 </table>

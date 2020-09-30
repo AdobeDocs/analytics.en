@@ -71,6 +71,7 @@ Drop-down filters can be used to consolidate many projects into one as well. For
 1. To create a drop-down filter using other component such as metrics, segments, or date ranges, select from one component type in the left rail and drop into the panel dropzone **while holding down the Shift key**. 
 1. Select one of the options from the dropdown to change the data in the panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**. 
 
-[Watch the video](https://www.youtube.com/watch?v=vpJywtsFVPI) to learn more about how to add drop-down filters to your project.
-
 ![](assets/create-dropdown.png)
+
+[Watch the video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
+

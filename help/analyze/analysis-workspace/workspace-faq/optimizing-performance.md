@@ -35,7 +35,7 @@ The range of data requested throughout a project will influence Analysis Workspa
 
 **Best practices for date ranges**
 
-Where possible, don't pull in more data than you need. Narrow the panel calendar to the relevant dates for your analysis, or use date range components (purple components) in your freeform tables. Date ranges used in a table override the panel date range. For example, you can add last month, last week and yesterday to the table columns to request those specific ranges of data. For more information on working with date ranges in Analysis Workspace, watch [this video](https://www.youtube.com/watch?v=MIkT6FZ5gKk) .
+Where possible, don't pull in more data than you need. Narrow the panel calendar to the relevant dates for your analysis, or use date range components (purple components) in your freeform tables. Date ranges used in a table override the panel date range. For example, you can add last month, last week and yesterday to the table columns to request those specific ranges of data. For more information on working with date ranges in Analysis Workspace, watch [this video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html) .
 
 Minimize the number of year-over-year comparisons used in the project. When a year-over-year comparison is calculated, it looks across the full 13 months of data between the months of interest. This has the same impact as changing the panel date range to last 13 months.
 
@@ -72,7 +72,7 @@ One panel can contain many visualizations, and as a result, the number of panels
 
 Don't try to add everything into one project, but rather create distinct projects that serve a specific purpose or group of stakeholders. Use tags to organize projects into key themes and share related projects with groups of stakeholders.
 
-If more organization of projects is desired, remember that [direct linking](https://www.youtube.com/watch?v=6IOEewflG2U) to your project is an option. Create an internal index of projects so that stakeholders can more easily find what they need.
+If more organization of projects is desired, remember that [direct linking](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) to your project is an option. Create an internal index of projects so that stakeholders can more easily find what they need.
 
 If many panels are needed in one project, collapse panels before saving and sharing. When a project is loaded, Analysis Workspace will only load content for the expanded panels. Collapsed panels will not be loaded until the user expands them. This approach helps in two ways:
 

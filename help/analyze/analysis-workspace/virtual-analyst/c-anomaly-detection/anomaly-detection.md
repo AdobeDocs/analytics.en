@@ -8,9 +8,9 @@ uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 
 You can view and analyze data anomalies contextually within Analysis Workspace.
 
-[Anomaly Detection on YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Anomaly Detection video tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[Contribution Analysis on YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Contribution Analysis video tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
 
 >[!IMPORTANT]
 >

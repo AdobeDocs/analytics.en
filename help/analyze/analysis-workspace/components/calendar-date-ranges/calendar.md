@@ -16,7 +16,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

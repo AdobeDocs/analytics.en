@@ -982,9 +982,7 @@ New features released on October 20, 2016:
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->Added an "Actions" button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Added a filter to the search bar that lets you filter on tags, favorites, approved items, and components. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Updated the YouTube link for Analysis Workspace tutorials to: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  > https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->For visualizations, we added a right-click option called <span class="uicontrol"> Start Over </span> from the context menu (will work for Flow, Venn, Histogram), which deletes the configuration for the current visualization and opens a new panel where you can re-configure it. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">A new visualization setting called "Legend Visible" lets you hide the filter details text for the Summary Number/Summary Change visualization. </li> 

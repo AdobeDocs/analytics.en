@@ -30,7 +30,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 ## Show trendline overlay
 
-Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression trendline to your line series. Trendlines help to depict a clearer pattern in the data.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Trendlines help to depict a clearer pattern in the data.
 
 >[!TIP]
 >
@@ -38,7 +38,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 ![Linear trendline](assets/show-linear-trendline.png)
 
-All models are fit using ordinary least squares:
+All regression model trendlines are fit using ordinary least squares:
 
 | Model | Description |
 | --- | --- |
@@ -47,3 +47,4 @@ All models are fit using ordinary least squares:
 | Exponential | Creates a curved line and is useful when data rises or falls at constantly increasing rates. This option should not be used if your data contains zero or negative values. Equation: `y = a + e^(b * x)` |
 | Power | Creates a curved line and is useful for data sets that compare measurements that increase at a specific rate. This option should not be used if your data contains zero or negative values. Equation: `y = a * x^b` |
 | Quadratic | Finds the best-fit for a data set shaped like a parabola (concave up or down). Equation: `y = a + b * x + c * x^2` |
+| Moving average | Creates a smooth trendline based on a set of averages. Examples include 7 day moving average or 4 week moving average. Also known as a rolling average, a moving average calculates the average for a prior range, uses that as the trendline data point, and then moves to the next period to repeat. The 'Periods' input defines the range to calculate the average across.|

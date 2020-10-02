@@ -17,20 +17,11 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Watch the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules.*
+## Processing Rules Permissions {#section_8A4846688050453784DAE4D89355169A}
 
-## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
-
-Prior to April 20, 2017, all users (including administrators) had to pass an exam and be granted authorization to use processing rules by Adobe Customer Care.
-
-Now, administrators have rights to use processing rules **by default**. The exam is no longer necessary. Administrators can also grant these rights to non-administrators through the Admin Tools interface. Here's how:
-
-1. If you have not already done so, [create a group](/help/admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules.
-1. [Add the non-administrators to that group](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
-1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Administrators can also grant these rights to non-administrators through the Admin Tools interface. For instructions, see []
 
 ![](assets/processing-rules.png)
 

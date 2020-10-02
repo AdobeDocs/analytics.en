@@ -14,7 +14,6 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build Workspace projects {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
-    + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)

@@ -11,7 +11,6 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
-  + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build Workspace projects {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)

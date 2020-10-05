@@ -35,7 +35,7 @@ The range of data requested throughout a project will influence Analysis Workspa
 
 **Best practices for date ranges**
 
-Where possible, don't pull in more data than you need. Narrow the panel calendar to the relevant dates for your analysis, or use date range components (purple components) in your freeform tables. Date ranges used in a table override the panel date range. For example, you can add last month, last week and yesterday to the table columns to request those specific ranges of data. For more information on working with date ranges in Analysis Workspace, watch [this video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html) .
+Where possible, don't pull in more data than you need. Narrow the panel calendar to the relevant dates for your analysis, or use date range components (purple components) in your freeform tables. Date ranges used in a table override the panel date range. For example, you can add last month, last week and yesterday to the table columns to request those specific ranges of data. For more information on working with date ranges in Analysis Workspace, watch [this video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html).
 
 Minimize the number of year-over-year comparisons used in the project. When a year-over-year comparison is calculated, it looks across the full 13 months of data between the months of interest. This has the same impact as changing the panel date range to last 13 months.
 
@@ -54,7 +54,7 @@ The type of visualization (e.g. fallout vs a freeform table) added to a project 
 * Range of data requested, as mentioned above
 * Number of segments applied; for instance, segments used as rows of a freeform table
 * Use of intricate segments
-* [Static item](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) rows or columns in freeform tables
+* [Static item](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) rows or columns in freeform tables
 * Filters applied to rows in freeform tables
 * Number of metrics included, especially calculated metrics that use segments
 
@@ -91,11 +91,11 @@ The number of users accessing Analysis Workspace or specific projects at the sam
 
 You may encounter errors when interacting with Analysis Workspace. Errors can occur for several reasons and listed below are the most common ones.
 
-|Error message|Why does this occur?|
-|---|---|
-|`The report suite is experiencing unusually heavy reporting. Please try again later.`| Your organization is trying to run too many concurrent requests against a specific report suite. Contributors to this error are API requests, scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. We recommend that your requests and schedules for the report suite be spread more evenly throughout the day.|
-|`A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.`|Adobe is experiencing an issue that needs to be resolved. We recommend that you submit the error code through a Customer Care request.|
-|`The request is too complex.`|Your reporting request is too large and cannot be executed. Contributors to this error are timeouts due to the request's size, too many matched items in a segment or search filter, too many metrics included, incompatible dimension and metric combinations, etc. We recommended that you simplify your request.|
-|`One of the segments or the search in this visualization contains a text search that returned too many results.`|We recommend narrowing your search text criteria and trying the request again.|
-|`This dimension does not currently support non-default attribution models.`|We recommend replacing the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md).|
-|`Your request failed as a result of too many columns or pre-configured rows.`|We recommend removing some of the columns or rows, or consider splitting them into separate visualizations.|
+| Error message | Why does this occur? |
+| --- | --- |
+| [!UICONTROL The report suite is experiencing unusually heavy reporting. Please try again later.] | Your organization is trying to run too many concurrent requests against a specific report suite. Contributors to this error are API requests, scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. We recommend that your requests and schedules for the report suite be spread more evenly throughout the day. |
+| [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe is experiencing an issue that needs to be resolved. We recommend that you submit the error code through a Customer Care request. |
+| [!UICONTROL The request is too complex.] | Your reporting request is too large and cannot be executed. Contributors to this error are timeouts due to the request's size, too many matched items in a segment or search filter, too many metrics included, incompatible dimension and metric combinations, etc. We recommended that you simplify your request. |
+| [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | We recommend narrowing your search text criteria and trying the request again. |
+| [!UICONTROL This dimension does not currently support non-default attribution models.] | We recommend replacing the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | We recommend removing some of the columns or rows, or consider splitting them into separate visualizations. |

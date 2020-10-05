@@ -1,13 +1,13 @@
 ---
 title: Unique visitors
-description: The number of unique individuals (or devices).
+description: The number of unique visitor ID's.
 ---
 
 # Unique visitors
 
 The 'Unique visitors' metric shows the number of visitor ID's for the dimension item. It is one of the most common metrics used when determining traffic, as it gives a high-level overview of the popularity of a dimension item. For example, a visitor can come to your site every day for a month, but they still count as a single unique visitor.
 
-If you use [Cross-device analytics](../cda/overview.md), this metric is renamed to 'Unique Devices'.
+If you use [Cross-device analytics](../cda/overview.md), this metric is replaced with the [Unique devices](unique-devices.md) metric.
 
 ## Daily, weekly, monthly, quarterly, and yearly unique visitors
 

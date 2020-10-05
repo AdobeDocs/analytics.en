@@ -3,7 +3,7 @@ title: Unique devices
 description: The number of unique devices.
 ---
 
-## Unique devices
+# Unique devices
 
 The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric that counts the number of post-stitched devices.
 

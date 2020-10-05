@@ -8,7 +8,7 @@ uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 
 Various factors can influence the performance of a project within Analysis Workspace. It's important to know what those contributors are before you start building a project so that you can plan and build the project in the most optimal way. This page includes a list of factors that will impact performance and recommended optimizations you can make to ensure peak performance in Analysis Workspace. 
 
->[!IMPORTANT NOTE]
+>[!IMPORTANT]
 >
 >The Performance page in Analysis Workspace is in limited release. [Learn more](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 

@@ -3,10 +3,15 @@ description: Instructions for setting up the dashboards scorecards.
 title: Adobe Analytics dashboards curator guide
 ---
 
-
 # Curator’s guide for Adobe Analytics dashboards
 
-The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see [Adobe Analytics dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your CSM if you would like to opt out of these performance enhancement features.
+
+The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see the Adobe Analytics dashboards Scorecard Builder video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introduction
 
@@ -31,25 +36,20 @@ The following table describes the terms for understanding the audience, function
 | Date Range | The primary date range for dashboards reporting |
 | Comparison Date Range | The Date Range that is compared with the primary date range |
 
- 
 ## Create a Scorecard for executive users
 
 A Scorecard displays key data visualizations for executive users in a tiled layout, as shown below:
 
-
 ![Example scorecard](assets/intro_scorecard.png)
-
 
 As a curator of this Scorecard, you can use the Scorecard Builder to configure which tiles appear on the Scorecard for your consumer. You also configure how the detailed views, or the Breakdowns, can be adjusted once the tiles are tapped. The Scorecard Builder interface is shown below:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-
 To create the Scorecard, you will need to do the following:
 
 1. Access the Blank Mobile Scorecard template.
 2. Configure the Scorecard with data and save it.
-
 
 ### Access the Blank Mobile Scorecard template
 
@@ -144,7 +144,7 @@ After you have shared a Scorecard, your recipients can access it on their Analyt
 
 If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
-## Setup executive users with the app
+## Set up executive users with the app
 
 In some cases, executive users may need some additional assistance to access and use the app. This section provides information to help you provide that assistance.
 
@@ -199,7 +199,7 @@ To help executive users:
 
     * Verify that the executive user can log into the right Analytics instance and that the Scorecard has been shared.
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opton): 
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on): 
 
     ![Explain tiles](assets/newexplain.png)
 

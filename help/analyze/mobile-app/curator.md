@@ -5,10 +5,6 @@ title: Adobe Analytics dashboards curator guide
 
 # Curator’s guide for Adobe Analytics dashboards
 
->[!IMPORTANT]
->
->Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your CSM if you would like to opt out of these performance enhancement features.
-
 The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To see a video demonstrating this information, see the Adobe Analytics dashboards Scorecard Builder video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
@@ -257,3 +253,7 @@ Tap the option and choose a sub-category for the suggestion. In the suggestion f
 **To ask a question**:
 
 Tap the option and provide your email address in the top field and your question in the field below it. A screen shot is automatically attached to the message, but you can delete this if you want by tapping the **X** in the attachment image. You also have options for taking a screen recording, adding more screenshots, or attaching files. To send the question, tap the paper plane icon in the upper right of the form.
+
+>[!IMPORTANT]
+>
+>Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your CSM if you would like to opt out of these performance enhancement features.

@@ -11,7 +11,7 @@ Analysis Workspace is a flexible browser tool that allows you to quickly build a
 
 If you have only a few minutes, watch this brief overview to see what is possible.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -39,7 +39,7 @@ In your Workspace project, **panels, tables, visualizations, and components** ar
 
 ### Components
 
-**Components** are dimensions, metrics, segments, or date ranges, all of which can be combined in a **[!UICONTROL Freeform table]** to start answering your business question. Be sure to familiarize yourself with each [component type](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to [build your analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in a **[!UICONTROL Freeform table]**.
+**Components** are dimensions, metrics, segments, or date ranges, all of which can be combined in a **[!UICONTROL Freeform table]** to start answering your business question. Be sure to familiarize yourself with each [component type](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to [build your analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in a **[!UICONTROL Freeform table]**.
 
 ![](assets/build-components.png)
 

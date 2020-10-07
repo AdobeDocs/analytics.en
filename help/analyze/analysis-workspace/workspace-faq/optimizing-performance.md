@@ -1,5 +1,5 @@
 ---
-description: Factors that will impact Workspaceperformance and recommended optimizations
+description: Factors that will impact Workspace performance and recommended optimizations
 title: Analysis Workspace performance factors and optimization
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 ---

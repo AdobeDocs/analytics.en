@@ -207,6 +207,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Set up Cross-Device Analytics](cda/setup.md)
   + [How replays work](cda/replay.md)
   + [CDA Workspace template](cda/workspace-template.md)
+  + [Limit a VRS to certain dates](cda/limit-vrs-date.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)

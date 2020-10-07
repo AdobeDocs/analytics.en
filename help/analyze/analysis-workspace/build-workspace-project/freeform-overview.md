@@ -26,7 +26,7 @@ The Workspace project list page contains the following information:
 
 |  Element  | Description  |
 |---|---|
-| [Create New Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)  | Click this link to start a new project from scratch.  |
+| [Create New Project](/help/analyze/analysis-workspace/home.md)  | Click this link to start a new project from scratch.  |
 |  Manage Projects  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
 | Set as Landing Page | Turns this page into your Workspace landing page. |
 |  View Tutorials  |Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html).  |

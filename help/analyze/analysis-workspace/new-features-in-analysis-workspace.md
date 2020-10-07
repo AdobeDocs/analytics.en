@@ -407,8 +407,7 @@ New feature and enhancements released on February 8, 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Custom Workspace Templates </a> </p> </td> 
    <td colname="col2"> <p>You can now build your own Workspace templates and save them so that other users in your organization can start with data that is relevant to them. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > New Project launch modal </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Clicking "new project" launches a new screen that gives you the choice to start from </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">a blank project, or </li> 
@@ -491,7 +490,7 @@ New features and enhancements released on January 18, 2018.
    <td colname="col2"> <p>The Map visualization, introduced in October 2017, can now be rendered in PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Relative intra-links </a> when copying/saving-as Project </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Relative intra-links </a> when copying/saving-as Project </p> </td> 
    <td colname="col2"> <p>Previously, when you copied a project or did a "save as", all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
@@ -561,7 +560,7 @@ New features released on October 26, 2017.
    <td colname="col2"> <p>If there are visualizations connected to a freeform or cohort table, the top left dot (Data Source Settings) will now list the connected visualizations. Hovering will highlight the linked visualization, and clicking it will take you to it. </p> <p>In addition, there is a "Show/Hide Data Table" checkbox that lets you show or hide the data table. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Event# added to left-rail event names </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Event# added to left-rail event names </a> </p> </td> 
    <td colname="col2"> <p>Prior to October 2017, evar# and prop# were appended to the dimension names, and you could search on those numbers. The same functionality is now available for events. </p> <p>Example: "Subscriptions" now shows up in the left rail as "Subscriptions (event1)". </p> <p>Keep in mind: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">The event number does not show in the table (to keep the titles short). </li> 
@@ -569,7 +568,7 @@ New features released on October 26, 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Out-of-the-box dimensions sorted in logical order by default </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Out-of-the-box dimensions sorted in logical order by default </a> </p> </td> 
    <td colname="col2"> <p>The default sort order for some out-of-the-box dimensions has been updated in these cases: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">When they are dragged into a freeform table. </li> 
@@ -670,7 +669,7 @@ New features released on August 17, 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Tag a project during Save </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Tag a project during Save </a> </p> </td> 
    <td colname="col2"> <p>You can now add tags to a project while saving the project. </p> </td> 
   </tr> 
   <tr> 

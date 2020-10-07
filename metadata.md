@@ -10,6 +10,7 @@ getting-started-url: https://helpx.adobe.com/analytics/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/analytics.en
+type: Documentation
 index: yes
 ---
 

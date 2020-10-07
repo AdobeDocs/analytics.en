@@ -12,7 +12,7 @@ Cross-device Analytics provides two distinct methods to stitch data together. Th
 Adobe offers two types of device graphs as part of the ID service:
 
 * **Co-op graph**: A repository of hashed device ID's that any customer can contribute to and reference. Since this type of device graph is collaborative, it typically matches more devices than a private graph.
-* **Private graph**: A repository of hashed device ID's that only your organization references. 
+* **Private graph**: A repository of hashed device ID's that only your organization references.
 
 ## Prerequisites specific to the device graph
 

@@ -8,8 +8,8 @@ description: Change your data from device-focused to person-focused by stitching
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 
 * [**Field-based stitching**](field-based-stitching.md): Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite. Uses deterministic matching to link devices together. Adobe recommends using field-based stitching for most deterministic matching use cases.
-* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probablistic matching.
- 
+* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probabilistic matching.
+
 Using CDA, you can answer questions such as:
 
 * How many people interact with my brand? How many and what types of devices do they use? How do they overlap?

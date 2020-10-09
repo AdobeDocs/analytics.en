@@ -14,7 +14,8 @@ Various factors can influence the performance of a project within Analysis Works
 
 ## Help > Performance in Analysis Workspace
 
-Under **[!UICONTROL Analysis Workspace > Help > Performance]**, you can see factors that impact your project's performance, including network, browser, and project factors. For the most accurate results, allow the project to fully load before opening the Performance page. 
+Under **[!UICONTROL Analysis Workspace] > [!UICONTROL Help] > [!UICONTROL Performance]**, you can see factors that impact your project's performance, including network, browser, and project factors. For the most accurate results, allow the project to fully load before opening the Performance page.
+
 * The Current Project column displays the results for your current project and user environment.
 * The Guideline column displays Adobe's recommended threshold for each factor.
 

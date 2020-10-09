@@ -4,7 +4,7 @@ title: Analysis Workspace performance factors and optimization
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 ---
 
-# Optimize Analysis Workspace performance
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 Various factors can influence the performance of a project within Analysis Workspace. It's important to know what those contributors are before you start building a project so that you can plan and build the project in the most optimal way. This page includes a list of factors that will impact performance and optimizations you can make to ensure peak performance in Analysis Workspace. 
 
@@ -12,9 +12,9 @@ Various factors can influence the performance of a project within Analysis Works
 >
 >The Performance page in Analysis Workspace is in limited release. [Learn more](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
-## Help > Performance in Analysis Workspace
+## [!UICONTROL Help] > [!UICONTROL Performance] in Analysis Workspace
 
-Under **[!UICONTROL Analysis Workspace] > [!UICONTROL Help] > [!UICONTROL Performance]**, you can see factors that impact your project's performance, including network, browser, and project factors. For the most accurate results, allow the project to fully load before opening the Performance page.
+Under **Analysis Workspace > [!UICONTROL Help] > [!UICONTROL Performance]**, you can see factors that impact your project's performance, including network, browser, and project factors. For the most accurate results, allow the project to fully load before opening the Performance page.
 
 * The Current Project column displays the results for your current project and user environment.
 * The Guideline column displays Adobe's recommended threshold for each factor.
@@ -29,7 +29,7 @@ Additionally, you can **Download as CSV** the performance contents to easily sha
 
 ## Network factors
 
-Help > Performance network factors include:
+[!UICONTROL Help] > [!UICONTROL Performance] network factors include:
 
 | Factor | Definition | Influenced by | Optimization |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ Help > Performance network factors include:
 
 ## Browser factors
 
-Help > Performance browser factors include:
+[!UICONTROL Help] > [!UICONTROL Performance] browser factors include:
 
 | Factor | Definition | Influenced by | Optimization |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Help > Performance browser factors include:
 
 ## Project factors
 
-Help > Performance project factors include:
+[!UICONTROL Help] > [!UICONTROL Performance] project factors include:
 
 | Factor | Definition | Optimization |
 | --- | --- | --- |

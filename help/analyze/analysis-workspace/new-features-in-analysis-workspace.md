@@ -24,7 +24,7 @@ New features released in September 2020.
 | Feature | Description |
 | --- | --- |
 | [Download 50K items for a single dimension](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | You can now download 50,000 items for a single dimension in a freeform table, with segments and filters applied. This allows you to access more than the 400 rows of data outside of Analysis Workspace. |
-| [Enhancements to Line visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul<li>You can show or hide the X-axis and Y-axis of any Line visualization. This can be especially helpful when your Line visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any Line visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any Line visualization to more easily see the trend in the data. Options include Linear, Logarithmic, Exponential, Power and Quadratic.</li></ul> |
+| [Enhancements to Line visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>You can show or hide the X-axis and Y-axis of any Line visualization. This can be especially helpful when your Line visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any Line visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any Line visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> |
 | New date ranges | We added 5 new date ranges so you can choose from date ranges that do not include partial day data from today: Last 7 full days, Last 14 full days, Last 30 full days, Last 60 full days, Last 90 full days |
 
 
@@ -134,8 +134,8 @@ Enhancements released on July 18, 2019.
 Enhancement released on June 13, 2019.
 
 | Enhancement | Description |
-|--- |--- |
-|New out-of-the-box filters| Added new out-of-the-box filters to the left rail search. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. | 
+| --- |--- |
+| New out-of-the-box filters | Added new out-of-the-box filters to the left rail search. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. | 
 
 ## May 2019
 
@@ -226,6 +226,7 @@ New features and enhancements released on September 13, 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## August 2018
 
 New features and enhancements released on August 9, 2018.

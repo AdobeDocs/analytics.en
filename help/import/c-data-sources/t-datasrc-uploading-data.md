@@ -27,6 +27,7 @@ Steps that describe how to upload a data sources file.
    The [!DNL .fin] file must have the exact same name as the Data Sources file, except for the file extension. Adobe does not queue the Data Sources file for processing until you upload the [!DNL .fin] file.
 
    Do not upload the file until all Data Sources files have finished uploading. Otherwise, Data Sources might attempt to process an incomplete file.
+1. After the .fin file is uploaded, it's important that you log out of the Data Sources FTP site. The reason is that  Analytics uses logout events as a trigger to indicate that files are ready for processing.
 1. Watch for any messages during the Data Sources file processing.
 
    Data Sources Manager displays any errors that occur during the file processing.

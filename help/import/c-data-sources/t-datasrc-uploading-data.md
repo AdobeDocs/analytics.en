@@ -8,9 +8,7 @@ uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 
 # Upload a Data Sources file
 
-Steps that describe how to upload a data sources file.
-
- After you have prepared a Data Sources data file, submit it to Data Sources for processing. Adobe maintains several Data Sources FTP servers where you can upload Data Sources files. Remember the following about the Data Sources FTP servers:
+After you have prepared a Data Sources data file, submit it to Data Sources for processing. Adobe maintains several Data Sources FTP servers where you can upload Data Sources files. Remember the following about the Data Sources FTP servers:
 
 * Select FTP Info next to the Data Source entry in the [!UICONTROL Data Sources Manage] tab to see the FTP Host, Login, and Password information for the data source's FTP account. Anyone with access to this information can upload data into your report suite.
 * For security purposes, FTP accounts are closed after 30 days of inactivity.

@@ -14,10 +14,6 @@ Use the Dashboard Manager to copy, share, archive, and schedule dashboards for d
 >
 >Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
 
-## Dashboard Manager
-
-Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
-
 Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | Element | Description |

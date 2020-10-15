@@ -10,10 +10,6 @@ uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
-## Getting started with Reports & Analytics
-
-Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of marketing reports include:
 
 * How many people visit your site 

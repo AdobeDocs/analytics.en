@@ -33,7 +33,16 @@ Administrators have rights to use processing rules **by default**. Administrator
 
 Context data variables are a type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
 
-![](assets/evar-context-map.png)
+
+<code>s.contextData['author'] = "Robert Munsch"</code>
+
+<code>s.contextData['section'] = "books"</code>
+
+<code>s.contextData['genre'] = "Youth"</code>
+
+1. Map author to eVar2
+2. Map section to Prop1, eVar3
+3. If section and author exist set event5
 
 See [Context Data Variables](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in Implementation Help.
 

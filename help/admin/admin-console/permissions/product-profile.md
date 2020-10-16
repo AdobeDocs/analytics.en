@@ -46,4 +46,6 @@ Analytics tools permission items grant access to features that are independent o
 
 ## Product profile developers
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information.
+Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information. If a user is granted Developer Access for any profile, they may access the Dev Console (console.adobe.io) and edit Adobe Analytics integrations. The Analytics API calls and responses authorized for the user will be dependent on the net permissions of all profiles in which that user has Developer Access. 
+
+For example, with permissions of Analysis Workspace Access, all metrics, all dimensions, and one report suite, that user could make successful API calls to the /reporting endpoint for any report within that suite. With Anomaly Detection added, the reports could include fuller responses, adding in the anomaly data. As a rule of thumb, if a profile grants access to a scenario within the Adobe Analytics interface, then Developer Access on that same profile would enable the corresponding API calls and responses. 

@@ -26,8 +26,6 @@ Additional notes about processing :
 
 Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
 
-This procedure uses an email rule as an example. The example assumes that you have added an email channel to your list of channels on the Marketing Channel Manager page.
-
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Select a report suite.
 
@@ -35,17 +33,15 @@ This procedure uses an email rule as an example. The example assumes that you ha
 
    See [Run the Automatic Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-3. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+3. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. If you ran the automatic setup, a set of channel and rules were automatically defined for you.
 
    ![Step Result](assets/marketing_channel_rules.png)
 
-4. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
-
-   Here you are not selecting your channel, but a template that populates the rule with a few of the necessary parameters. You can modify this template as needed.
+4. If you want to add a new rule, select from the **[!UICONTROL Add New Rule Set]** menu. If you select a channel, you are given a rule template and if you select Custom, you start from a blank slate. Both options allow you to modify the rule set as needed. 
 
    ![Step Result](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add Rule]**.
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. To prioritize rules, drag-and-drop them to the desired position.
 7. Click **[!UICONTROL Save.]**
 
@@ -53,13 +49,17 @@ Continue down this page to see recommendations for channel rule order as well as
 
 ### Set the marketing channel value
 
-**[!UICONTROL Add Rule]** **Set the channel's value** defines the marketing channel detail dimension that is available for that channel. This enables you to breakdown Marketing channel dimensions and see more detailed information about the channel.
+**[!UICONTROL Set the channel's value]** defines the marketing channel detail dimension that is available for that channel. This enables you to breakdown Marketing channel dimensions and see more detailed information about the channel.
 
 It is recommended that the channel value be set to the same criteria used to define the channel itself. For example, if query string parameter is used to define the channel, set query string parameter as the channel value as well.
 
 ### Rule criteria
 
-This reference table defines the fields, options, and hit attributes you can use to define Marketing Channel Processing Rules.
+This reference table defines the fields, options, and hit attributes you can use to define Marketing Channel Processing Rules. 
+
+>[!NOTE]
+>
+>Any text field you define, such as query string parameter or lists of values to match against, are evaluated as **case-insensitive** values. For example, if you have a rule where query string parameter cmp = abc123, all versions of both 'cmp' and 'abc123' will match the rule. You do not need to list multiple case versions of these values. 
 
 | Term  | Definition  |
 |--- |--- |
@@ -82,7 +82,7 @@ This reference table defines the fields, options, and hit attributes you can use
 |Page Root Domain (TLD+1)|The root domain of the page on which the visitor lands, such as example.co.uk .|
 |Page URL|The URL of a web page on your site.|
 |Referring Domain|The domain your visitors came from before they visited your site, for example, referrers coming from `abcsite.com` versus `xyzsite.com`.|
-|Query String Parameter|If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (See `https://en.wikipedia.org/wiki/Query_string`.)  You can specify only one query string parameter per rule set. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule.|
+|Query String Parameter|If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then 'page' and 'cat' are both query string parameters. (See `https://en.wikipedia.org/wiki/Query_string`.)  You can specify only one query string parameter per rule set. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. Query string parameters are evaluated as case-insensitive; for example, 'cat' and 'CAT' will be evaluted the same way.|
 |Referrer|The web page location (full URL) your visitors were at before coming to your site. A referrer exists outside your defined domain.|
 |Referring Domain and Path|A concatenation of the Referring Domain and URL path. Examples include:    `www.example.com/products/id/12345` or `ad.example.com/foo`|
 |Referring Parameter|A query string parameter on the referrer URL. For example, if your visitors come from `example.com/?page=12345&cat=1`, then page and cat are the referring parameters.|
@@ -124,7 +124,7 @@ For the marketing channel rule, the Natural Search settings are as follows:
 
 ### Display {#display}
 
-This rule identifies visitors originating from banner advertisements. It is identified by a query string parameter in the destination URL, in this case *`Ad_01`*.
+This rule identifies visitors originating from banner advertisements. It is identified by a query string parameter in the destination URL, in this case *`Ad_01`*. Query string parameter and the values it looks for are evaluated as case-insensitive values.
 
 ![](assets/example_display.png)
 
@@ -148,7 +148,7 @@ A best practice is to include an "Other campaigns" channel following all paid ch
 
 ### Social Networks {#social-networks}
 
-This rule identifies visitors that originate from a social network, such as Facebook&#42;. The channel is often renamed to Organic Social. The settings can be as follows:
+This rule identifies visitors that originate from a social network, such as Facebook;. The channel is often renamed to Organic Social. The settings can be as follows:
 
 ![](assets/example_social.png)
 
@@ -158,7 +158,7 @@ This rule visitors where their referring URL matches the Internal URL Filters se
 
 ![](assets/int-channel1.png)
 
-See [Reasons for Internal (Session Refresh)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) for more information on why this channel occurs.
+See [Reasons for Internal (Session Refresh)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) for more information on why this channel occurs.
 
 ### Direct {#direct}
 

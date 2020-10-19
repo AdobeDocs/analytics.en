@@ -137,3 +137,6 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
+| Virginia | `3.213.168.181` |
+| Virginia | `3.219.249.186` |
+| Virginia | `34.227.41.189` |

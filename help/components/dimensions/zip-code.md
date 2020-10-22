@@ -73,7 +73,7 @@ Dimension items include the zip or postal code of the visitor.
 * Lithuania
 * Luxembourg
 * Malaysia
-* Malta      s
+* Malta
 * Mauritius
 * Mexico
 * Morocco

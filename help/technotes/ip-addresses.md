@@ -122,9 +122,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Ireland | `52.17.94.37` |
 | Ireland | `52.49.253.16` |
 | Ireland | `52.51.63.15` |
-| Oregon | `52.42.60.49` |
-| Oregon | `54.212.169.56` |
-| Oregon | `54.214.170.191` |
+| Oregon | `44.233.255.254` |
+| Oregon | `44.237.54.118` |
+| Oregon | `44.238.157.95` |
 | Singapore | `13.228.34.224` |
 | Singapore | `18.136.20.161` |
 | Singapore | `52.74.162.152` |

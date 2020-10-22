@@ -23,3 +23,95 @@ The [!UICONTROL Zip option] under [General account settings](/help/admin/admin/g
 ## Dimension items
 
 Dimension items include the zip or postal code of the visitor.
+
+## Which countries' postal codes can you report on in Adobe Analytics?
+
+* Aland Islands
+* Albania
+* Algeria
+* Argentina
+* Armenia
+* Austria
+* Australia
+* Bangladesh
+* Barbados
+* Belgium
+* Brazil
+* Bulgaria
+* Canada
+* Chile
+* China
+* Colombia
+* Costa Rica
+* Croatia
+* Czech Republic
+* Denmark
+* Ecuador
+* Egypt
+* Estonia
+* Finland
+* France
+* Georgia
+* Germany
+* Gibraltar
+* Greece
+* Grenada
+* Guatemala
+* Hong Kong SAR of China
+* Hungary
+* India
+* Indonesia
+* Ireland
+* Israel
+* Italy
+* Japan
+* Jordan
+* Kazakhstan
+* Kyrgyzstan
+* Latvia
+* Lebanon
+* Lithuania
+* Luxembourg
+* Malaysia
+* Malta      s
+* Mauritius
+* Mexico
+* Morocco
+* Mozambique
+* Nepal
+* Netherlands
+* New Zealand
+* Norway
+* Pakistan
+* Panama
+* Peru
+* Philippines
+* Poland
+* Portugal
+* Puerto Rico
+* Qatar
+* Romania
+* Russian Federation
+* Saudi Arabia
+* Senegal
+* Serbia
+* Singapore
+* Slovenia
+* South Africa
+* South Korea
+* Spain
+* Sri Lanka
+* Sweden
+* Switzerland
+* Taiwan region
+* Thailand
+* Tunisia
+* Turkey
+* Ukraine
+* United Arab Emirates
+* United Kingdom
+* United States
+* Uruguay
+* Uzbekistan
+* Venezuela
+* Vietnam

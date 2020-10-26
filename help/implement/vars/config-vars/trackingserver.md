@@ -44,22 +44,22 @@ The individual who initially configures the first-party cookie implementation al
 s.trackingServer = "data.example.com";
 ```
 
-Typically CNAME records are already set up and point to `sc.omtrdc.net`. The domain `2o7.net` is also a valid CNAME destination, primarily used in previous versions of Adobe Analytics.
-
 ### Third-party cookies
 
 >[!TIP]
 >
 >Increasing privacy practices in modern browsers make third-party cookies less reliable. Adobe recommends following the first-party cookie workflow.
 
-If you use a third-party cookie implementation, the value for `trackingServer` is a subdomain of `sc.omtrdc.net`. For example:
+If you use a third-party cookie implementation, the value for `trackingServer` is a subdomain of `data.adobedc.net`. For example:
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Pick a subdomain unique to your organization, unlikely to be picked by another organization that uses Adobe Analytics. Make sure that all implementations in your organization use the same tracking server. It can be helpful to maintain this information in a [solution design document](../../prepare/solution-design.md).
+Pick a subdomain unique to your organization, unlikely to be picked by another organization that uses Adobe Analytics.  The visitor namespace assigned to your organization is recommended.  Make sure that all implementations in your organization use the same tracking server. It can be helpful to maintain this information in a [solution design document](../../prepare/solution-design.md).
+
+Your organization may already be using a 3rd party tracking server in the `sc.omtrdc.net` or `2o7.net` domains.  These were primarily used in previous versions of Adobe Analytics and are still valid. 
 
 >[!NOTE]
 >
->Do not use any subdomains deeper than `example.sc.omtrdc.net`. For example, `custom.example.sc.omtrdc.net` is not a valid tracking server.
+>Do not use any subdomains deeper than `example.data.adobedc.net`. For example, `custom.example.data.adobedc.net` is not a valid tracking server.

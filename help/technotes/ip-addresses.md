@@ -17,7 +17,7 @@ Adobe Analytics uses the following hosts to improve performance and product expe
 
 | Technology | Domain |
 | --- | --- |
-| Adobe Analytics domain | `adobe.com` |
+| Adobe Analytics domains | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Analytics legacy domain | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -137,3 +137,6 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
+| Virginia | `3.213.168.181` |
+| Virginia | `3.219.249.186` |
+| Virginia | `34.227.41.189` |

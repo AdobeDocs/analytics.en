@@ -45,12 +45,10 @@ You can use [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/an
 
 Notice how the same metric (Online Orders) generates different results when you apply different attribution models.
 
-Here are a few videos explaining Attribution IQ in more detail: [Attribution IQ playlist](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
-
 ## Cross-tab marketing analysis
 
 Using the legacy First Touch Channel and Last Touch Channel, you can get a helpful view into channel interactions:
 
 ![](assets/mc-viz6.png)
 
-Learn more about cross-tab marketing analysis in [this video](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Learn more about cross-tab marketing analysis in this video: [Using Cross-tab Analysis to Explore Basic Marketing Attribution in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).

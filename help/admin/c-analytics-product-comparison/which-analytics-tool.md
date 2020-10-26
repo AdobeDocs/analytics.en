@@ -21,12 +21,15 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
-* To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
+* To access unique Video visualizations of Video Daypart and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 
-* To export 50,000 rows of data 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 * If tab organization of project work is desired.
 * To use the Site Analysis report (3D-pathing report).
 

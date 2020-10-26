@@ -1,10 +1,10 @@
 ---
 description: Curation lets you limit components before sharing a project.
 keywords: Analysis Workspace curation
-title: Curate Workspace projects
+title: Curate projects
 ---
 
-# Curate Workspace projects
+# Curate projects
 
 Curation lets you limit the components (dimensions, metrics, segments, date ranges) before sharing a project. When a recipient opens the project, they will see a limited set of components that you have curated for them. Curation is an optional but recommended step before sharing a project. 
 

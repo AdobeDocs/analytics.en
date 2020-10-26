@@ -10,10 +10,6 @@ uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 
 A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
 
-## Classification rule sets 
-
-A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
-
 ## Classification Rule Builder Page {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**

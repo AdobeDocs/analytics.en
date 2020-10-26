@@ -8,7 +8,7 @@ title: Visualizations overview
 
 Workspace offers a number of visualizations that let you generate visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. Each visualization has its own settings that you can manage. Click the name of the visualization for more detailed information.
 
-YouTube Video: [Visualization Types in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 |Visualization name| Description|
 |---|---|
@@ -102,4 +102,4 @@ To edit a legend label in a Line chart, for example,
 1. Enter the new label text.
 1. Press **[!UICONTROL Enter]** to save.
 
-Here is a [link to a video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) on this topic.
+Here is a [link to a video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) on this topic.

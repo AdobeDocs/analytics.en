@@ -11,11 +11,9 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
 + [Analytics Tools Guide](home.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
-  + [Analysis Workspace use cases](analysis-workspace/freeform-analysis-examples-use-cases.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Build Workspace projects {#build-workspace-project}
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
-    + [Create a Workspace project](analysis-workspace/build-workspace-project/t-freeform-project.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
@@ -85,13 +83,13 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate or Share projects {#curate-share}
-    + [Curate Workspace projects](analysis-workspace/curate-share/curate.md)
-    + [Share Workspace projects](analysis-workspace/curate-share/share-projects.md)
+    + [Share menu](analysis-workspace/curate-share/send-schedule-files.md)
+    + [Curate projects](analysis-workspace/curate-share/curate.md)
+    + [Share projects](analysis-workspace/curate-share/share-projects.md)
     + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
-    + [View-only Workspace projects](analysis-workspace/curate-share/view-only-projects.md)
+    + [View-only projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
-    + [Share and schedule project files](analysis-workspace/curate-share/send-schedule-files.md)
-    + [Send file - schedule a project for delivery](analysis-workspace/curate-share/t-schedule-report.md)
+    + [Schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
   + Attribution IQ {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)

@@ -8,7 +8,7 @@ user-guide-description: Help organize your data using components such as segment
 
 # [!DNL Analytics] Components Guide {#components}
 
-+ [Analytics Components Help](home.md)
++ [Analytics Components Guide](home.md)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)
@@ -47,6 +47,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Hit type](dimensions/hit-type.md)
   + [Hour of day](dimensions/hour-of-day.md)
   + [Hour](dimensions/hour.md)
+  + [Identified state](dimensions/identified-state.md)
   + [Java enabled](dimensions/java-enabled.md)
   + [Language](dimensions/language.md)
   + [Last touch channel](dimensions/last-touch-channel.md)
@@ -129,6 +130,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Time spent per visitor](metrics/time-spent-per-visitor.md)
   + [Time spent overview](metrics/time-spent.md)
   + [Total seconds spent](metrics/total-seconds-spent.md)
+  + [Unique devices](metrics/unique-devices.md)
   + [Unique visitors](metrics/unique-visitors.md)
   + [Units](metrics/units.md)
   + [Visitors with Experience Cloud ID](metrics/visitors-with-ecid.md)
@@ -205,6 +207,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Set up Cross-Device Analytics](cda/setup.md)
   + [How replays work](cda/replay.md)
   + [CDA Workspace template](cda/workspace-template.md)
+  + [Limit a VRS to certain dates](cda/limit-vrs-date.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)

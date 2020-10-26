@@ -6,13 +6,38 @@ title: What's New in Analysis Workspace
 
 # What's New in Analysis Workspace
 
+For access to the Adobe Experience Cloud Release Notes as a whole, go [here](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+
+## October 2020
+
+New features released in October 2020.
+
+| Feature | Description |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** has been added to Line visualization trendline settings. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
+| [Performance Help page](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | The Analysis Workspace performance help page shows the different factors that impact project performance and links to tips for optimization. |
+
+## September 2020
+
+New features released in September 2020.
+
+| Feature | Description |
+| --- | --- |
+| [Download 50K items for a single dimension](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | You can now download 50,000 items for a single dimension in a freeform table, with segments and filters applied. This allows you to access more than the 400 rows of data outside of Analysis Workspace. |
+| [Enhancements to Line visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>You can show or hide the X-axis and Y-axis of any Line visualization. This can be especially helpful when your Line visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any Line visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any Line visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> |
+| New date ranges | We added 5 new date ranges so you can choose from date ranges that do not include partial day data from today: Last 7 full days, Last 14 full days, Last 30 full days, Last 60 full days, Last 90 full days |
+
+## August 2020
+
+No new features released in August 2020.
+
 ## July 2020
 
 New feature released on July 16, 2020.
 
 | Feature | Description |
-|--- |--- |
-|New date range presets|Added 4 new date ranges: ([!UICONTROL This week/month/quarter/year (excluding today)]). This lets you choose from date ranges that do not include partial-day data from today.|
+| --- | --- |
+| New date range presets | Added 4 new date ranges: ([!UICONTROL This week/month/quarter/year (excluding today)]). This lets you choose from date ranges that do not include partial-day data from today. |
 
 ## June 2020
 
@@ -108,8 +133,8 @@ Enhancements released on July 18, 2019.
 Enhancement released on June 13, 2019.
 
 | Enhancement | Description |
-|--- |--- |
-|New out-of-the-box filters| Added new out-of-the-box filters to the left rail search. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. | 
+| --- |--- |
+| New out-of-the-box filters | Added new out-of-the-box filters to the left rail search. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. | 
 
 ## May 2019
 
@@ -200,6 +225,7 @@ New features and enhancements released on September 13, 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## August 2018
 
 New features and enhancements released on August 9, 2018.
@@ -407,8 +433,7 @@ New feature and enhancements released on February 8, 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Custom Workspace Templates </a> </p> </td> 
    <td colname="col2"> <p>You can now build your own Workspace templates and save them so that other users in your organization can start with data that is relevant to them. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > New Project launch modal </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Clicking "new project" launches a new screen that gives you the choice to start from </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">a blank project, or </li> 
@@ -491,7 +516,7 @@ New features and enhancements released on January 18, 2018.
    <td colname="col2"> <p>The Map visualization, introduced in October 2017, can now be rendered in PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Relative intra-links </a> when copying/saving-as Project </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Relative intra-links </a> when copying/saving-as Project </p> </td> 
    <td colname="col2"> <p>Previously, when you copied a project or did a "save as", all the intra-links saved in the project pointed to the original project, not the copied project. </p> <p>The intra-links are now relative to the project they live within, after you copy/save-as. </p> </td> 
   </tr> 
   <tr> 
@@ -561,7 +586,7 @@ New features released on October 26, 2017.
    <td colname="col2"> <p>If there are visualizations connected to a freeform or cohort table, the top left dot (Data Source Settings) will now list the connected visualizations. Hovering will highlight the linked visualization, and clicking it will take you to it. </p> <p>In addition, there is a "Show/Hide Data Table" checkbox that lets you show or hide the data table. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Event# added to left-rail event names </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Event# added to left-rail event names </a> </p> </td> 
    <td colname="col2"> <p>Prior to October 2017, evar# and prop# were appended to the dimension names, and you could search on those numbers. The same functionality is now available for events. </p> <p>Example: "Subscriptions" now shows up in the left rail as "Subscriptions (event1)". </p> <p>Keep in mind: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">The event number does not show in the table (to keep the titles short). </li> 
@@ -569,7 +594,7 @@ New features released on October 26, 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Out-of-the-box dimensions sorted in logical order by default </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Out-of-the-box dimensions sorted in logical order by default </a> </p> </td> 
    <td colname="col2"> <p>The default sort order for some out-of-the-box dimensions has been updated in these cases: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">When they are dragged into a freeform table. </li> 
@@ -670,7 +695,7 @@ New features released on August 17, 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Tag a project during Save </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Tag a project during Save </a> </p> </td> 
    <td colname="col2"> <p>You can now add tags to a project while saving the project. </p> </td> 
   </tr> 
   <tr> 
@@ -982,9 +1007,7 @@ New features released on October 20, 2016:
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->Added an "Actions" button on the left navigation rail that features these actions: Tag, Favorite, Approve, <b>Share (new!)</b>, <b>Delete (new!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Added a filter to the search bar that lets you filter on tags, favorites, approved items, and components. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Updated the YouTube link for Analysis Workspace tutorials to: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  > https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Added a preview icon to manual rows (not to dynamic rows which list dimension items) that lets you preview segments, metrics, date ranges. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->For visualizations, we added a right-click option called <span class="uicontrol"> Start Over </span> from the context menu (will work for Flow, Venn, Histogram), which deletes the configuration for the current visualization and opens a new panel where you can re-configure it. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">A new visualization setting called "Legend Visible" lets you hide the filter details text for the Summary Number/Summary Change visualization. </li> 

@@ -62,7 +62,7 @@ Other things to consider:
   * Estimated hits per day
   * Go-live date
 
-* Client Alerts are also needed when traffic decreases are or a report suite is deprecated.
+* Client Alerts are also needed when traffic decreases or a report suite is deprecated.
 
 ## Hardware De-Allocation Due to Unrealized Traffic
 

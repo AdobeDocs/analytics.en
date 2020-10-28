@@ -68,7 +68,7 @@ Yes. Analysis Workspace uses the 2.0 API to request data from Adobe's servers, a
 2. Click the debug icon in the desired panel, then select the desired visualization and time of the request.
 3. Locate the JSON request, which you can use in your API call to Adobe.
 
-## Cross-Device Analytics can stitch unique visitors together. Can it stich visits together?
+## Cross-Device Analytics can stitch unique visitors together. Can it stitch visits together?
 
 Yes. If an individual sends hits from two separate devices within your virtual report suite's visit timeout (30 minutes by default), they are stitched into the same visit.
 

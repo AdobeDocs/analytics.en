@@ -36,7 +36,6 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
   + [Schedule a recurring request](data-warehouse/dw-schedule-recurring.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
-  + [Dimensions incompatible with Data Warehouse segments](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
   + [Data Warehouse FAQ](data-warehouse/faq.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}

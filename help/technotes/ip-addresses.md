@@ -125,9 +125,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Oregon | `44.233.255.254` |
 | Oregon | `44.237.54.118` |
 | Oregon | `44.238.157.95` |
-| Singapore | `13.228.34.224` |
-| Singapore | `18.136.20.161` |
-| Singapore | `52.74.162.152` |
+| Singapore | `52.220.116.94` |
+| Singapore | `52.76.68.91` |
+| Singapore | `54.179.114.68` |
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |

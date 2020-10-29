@@ -53,7 +53,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Last touch channel](dimensions/last-touch-channel.md)
   + [Last touch channel detail](dimensions/last-touch-detail.md)
   + [Marketing channel](dimensions/marketing-channel.md)
-  + [Marketing channel detail](dimensions/marketing-channel-detail.md)
+  + [Marketing channel detail](dimensions/marketing-detail.md)
   + [Minute](dimensions/minute.md)
   + [Mobile dimensions](dimensions/mobile-dimensions.md)
   + [Monitor resolution](dimensions/monitor-resolution.md)

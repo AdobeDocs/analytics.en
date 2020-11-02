@@ -116,9 +116,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | France | `15.237.76.117` |
 | France | `15.237.136.106` |
 | France | `35.181.18.61` |
-| India | `13.232.177.101` |
-| India | `13.235.4.163` |
-| India | `3.6.119.69` |
+| India | `65.0.114.116` |
+| India | `65.0.115.179` |
+| India | `65.0.25.111` |
 | Ireland | `18.202.158.78` |
 | Ireland | `54.72.205.114` |
 | Ireland | `54.78.36.71` |
@@ -128,9 +128,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Singapore | `52.220.116.94` |
 | Singapore | `52.76.68.91` |
 | Singapore | `54.179.114.68` |
-| Tokyo | `13.112.72.86` |
-| Tokyo | `18.178.74.225` |
-| Tokyo | `18.179.88.228` |
+| Tokyo | `18.182.161.178` |
+| Tokyo | `54.168.58.167` |
+| Tokyo | `54.178.61.109` |
 | Virginia | `3.213.168.181` |
 | Virginia | `3.219.249.186` |
 | Virginia | `3.220.129.153` |

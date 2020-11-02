@@ -116,6 +116,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + Workspace FAQs {#workspace-faq}
     + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)
     + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faq/optimizing-performance.md)
+    + [Error messages](analysis-workspace/workspace-faq/error-messages.md)
     + [Analysis Workspace compared to Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
     + [Analysis Workspace limitations](analysis-workspace/workspace-faq/aw-limitations.md)
     + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)

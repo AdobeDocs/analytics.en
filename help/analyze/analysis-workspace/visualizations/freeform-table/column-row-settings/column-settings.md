@@ -20,7 +20,7 @@ You can edit settings **for multiple columns at once**. Just select multiple col
 | --- | --- |
 | **Total cells** |  |
 | Show totals | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. It reflects any table filters applied within the freeform table, including the [!UICONTROL Include None] option.  |
-| Show grand total | This total represents all hits that have been collected, sometimes referred to as 'report suite total'. When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| Show grand total | This total represents all hits that have been collected, sometimes referred to as 'report suite total'. When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | **Table cells** |   |
 | Number | Determines if a cell shows/hides the numeric value for the metric. For example, if the metric is Page Views, the numeric value is the number of page views for the row item. |
 | Percent | Determines if a cell shows/hides the percent value for the metric. For example, if the metric is Page Views, the percent value is the number of page views for the row item divided by the total page views for the column.  Note:  We can show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in widths too large. |
@@ -47,13 +47,13 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 
 ## Use non-default attribution model {#attribution}
 
-Analysis Workspace supports [attribution](../../attribution/overview.md) for almost any metric. 
+Analysis Workspace supports [attribution](/help/analyze/analysis-workspace/attribution/overview.md) for almost any metric. 
 
 1. Click the Settings (gear) icon in a Freeform Table column.
 
    ![Attribution checkbox](assets/attribution-checkbox.png)
 
-1. Under **[!UICONTROL Data Settings]**, check **[!UICONTROL Use non-default attribution model]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+1. Under **[!UICONTROL Data Settings]**, check **[!UICONTROL Use non-default attribution model]**. For more information on different attribution models, see [Attribution models](/help/analyze/analysis-workspace/attribution/models.md).
 
    ![Select attribution model](assets/attribution-select.png)
 

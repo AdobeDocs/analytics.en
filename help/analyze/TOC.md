@@ -16,17 +16,10 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Create project - overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
-    + [Multiple report suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-    + Column and row settings {#column-row-settings}
-      + [Column settings](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-      + [Row settings](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-      + [Dynamic vs. Static items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-    + [Undo and redo settings](analysis-workspace/build-workspace-project/undo-redo.md)
-    + [Hotkeys available in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-    + [Pagination, filtering and sorting tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+    + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+    + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
-    + [Workspace Totals](analysis-workspace/build-workspace-project/workspace-totals.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + Dimensions {#dimensions}
@@ -42,7 +35,14 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + Visualizations {#visualizations}
     + [Visualizations overview](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)
-    + [Freeform table](analysis-workspace/visualizations/freeform-table.md)
+    + Freeform table {#freeform-table}
+      + [Freeform table](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+      + Column and row settings {#column-row-settings}
+        + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+        + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+        + [Dynamic vs. Static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Pagination, filtering and sorting tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+      + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
       + [What is cohort analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
       + [Configure a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)

@@ -31,5 +31,5 @@ When you view data in Analysis Workspace, calculated metric totals are displayed
 
 When totals are displayed, they are often calculated server-side, which means that the total de-duplicates metrics like visits or visitors. Under certain circumstances, calculated metrics are generated client-side by summing across rows of the table, which means the total does not de-duplicate metrics like visits or visitors. This occurs:
 
-* When [static rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) are used in Freeform tables and the **[!UICONTROL Show as sum of current rows]** option (default) is selected.
+* When [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) are used in Freeform tables and the **[!UICONTROL Show as sum of current rows]** option (default) is selected.
 * In the [Donut visualization](/help/analyze/analysis-workspace/visualizations/donut.md), so that numbers add up to 100%.

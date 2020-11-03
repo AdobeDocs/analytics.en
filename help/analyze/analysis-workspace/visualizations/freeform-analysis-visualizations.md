@@ -19,7 +19,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 |[Donut](/help/analyze/analysis-workspace/visualizations/donut.md)|Similar to a pie chart, this visualization shows data as parts or segments of a whole.|
 |[Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)|Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.|
 |[Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)|Shows customer paths through your websites and apps.|
-|[Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table.md)|A Freeform table is not merely a data table, but also an interactive visualization.|
+|[Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)|A Freeform table is not merely a data table, but also an interactive visualization.|
 |[Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md)|A histogram is similar to a bar chart, but it groups numbers into ranges (buckets).|
 |[Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)|Shows horizontal bars representing various values across one or more metrics.|
 |[Line](/help/analyze/analysis-workspace/visualizations/line.md)|Represents metrics using a line in order to show how values change over a period of time. A line chart can be used only when time is used as a dimension.|

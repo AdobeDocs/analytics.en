@@ -113,6 +113,8 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Australia | `13.238.77.77` |
 | Australia | `52.62.21.192` |
 | Australia | `54.66.152.159` |
+| China | `52.81.111.133` |
+| China | `140.179.22.22` |
 | France | `15.237.76.117` |
 | France | `15.237.136.106` |
 | France | `35.181.18.61` |

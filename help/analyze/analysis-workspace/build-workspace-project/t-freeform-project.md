@@ -66,7 +66,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
    <td colname="col2"> <p>Items you can drag to the panel or project areas of the interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Freeform Panel </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > Freeform Panel </a> </td> 
    <td colname="col2"> <p>The canvas or workspace with which you interact in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 

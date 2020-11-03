@@ -98,7 +98,7 @@ New feature released on January 16, 2020.
 
 | Feature | Description |
 |--- |--- |
-|[Freeform Table Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html)|With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul>|
+|[Freeform Table Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)|With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul>|
 
 ## October 2019
 
@@ -106,7 +106,7 @@ Enhancements released on October 10, 2019.
 
 | Enhancement | Description |
 |--- |--- |
-|Update to Freeform table totals|Freeform tables now include two totals, a **[!UICONTROL Table total]** and a **[!UICONTROL Grand total]**. The Table total row accounts for [report filters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) applied. Previously, only segmentation impacted totals. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>In addition, **[!UICONTROL Show Totals]** and **[!UICONTROL Show Grand Total]** options have been added to **[!UICONTROL Column Settings]**.<br/>With this change to Freeform totals, dependent visualizations will be updated (e.g. linked **[!UICONTROL Summary Number]** visualizations), as well as exported CSV and PDF data. |
+|Update to Freeform table totals|Freeform tables now include two totals, a **[!UICONTROL Table total]** and a **[!UICONTROL Grand total]**. The Table total row accounts for [report filters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) applied. Previously, only segmentation impacted totals. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>In addition, **[!UICONTROL Show Totals]** and **[!UICONTROL Show Grand Total]** options have been added to **[!UICONTROL Column Settings]**.<br/>With this change to Freeform totals, dependent visualizations will be updated (e.g. linked **[!UICONTROL Summary Number]** visualizations), as well as exported CSV and PDF data. |
 |Option to remove Unspecified/None|The ability to easily remove ‘Unspecified (None)’ has been added as an option to report filters.|
 |Deprecation of purple granularity components|Purple granularity time components (Minute, Hour, Day, Week, Month, Quarter, Year) have been deprecated. The purple time components have always behaved exactly like their orange dimension counterparts, so this change will simplify the experience. **No action** needs to taken if you previously used one of the purple time components.<br/>With this change, the purple **[!UICONTROL Time]** section has also been renamed to **[!UICONTROL Date Ranges]**.|
 
@@ -359,11 +359,11 @@ New features and enhancements released on April 12, 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Wrap Header Text enabled by default </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Wrap Header Text enabled by default </a> </p> </td> 
    <td colname="col2"> <p>The column setting to <span class="uicontrol"> Wrap Header Text </span> is now enabled by default for Freeform tables. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > New row setting </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > New row setting </a> </p> </td> 
    <td colname="col2"> <p>The new <span class="uicontrol"> Calculate percentage by row </span> setting forces the Freeform table to calculate the cell percentages across the row as opposed to down the column. This is especially useful for trending percentages, such as trending how one dimension item fairs against the rest over time. It is turned on by default when clicking the <span class="uicontrol"> Visualize </span> icon. </p> </td> 
   </tr> 
   <tr> 
@@ -390,7 +390,7 @@ New features and enhancements released on March 8, 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Header Text Wrapping </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Header Text Wrapping </a> </p> </td> 
    <td colname="col2"> <p>You can now wrap the header text in Freeform tables to make headers more readable and tables more shareable. We have added an option in Column settings called "Wrap Header Text." This is especially useful for .pdf rendering and for metrics with long names. </p> </td> 
   </tr> 
   <tr> 
@@ -446,11 +446,11 @@ New feature and enhancements released on February 8, 2018.
    <td colname="col2"> <p>We added a right-click "Copy to clipboard" option to allow you to consistently copy cells/tables. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Improvement to Column % </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Improvement to Column % </a> </p> </td> 
    <td colname="col2"> <p>The "percentage of total" shown in columns was capped at 100%, even when certain scenarios lead to rows being more than 100% of the total (such as with averages). </p> <p>We now show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in width too large. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Conditional Formatting enabled on Breakdowns </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Conditional Formatting enabled on Breakdowns </a> </p> </td> 
    <td colname="col2"> <p>Applying conditional formatting (colors, etc) within Freeform tables is now automatically enabled on breakdowns, unless "Custom" limits are selected. </p> </td> 
   </tr> 
   <tr> 
@@ -477,7 +477,7 @@ New features and enhancements released on January 18, 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>More dimension item <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > filtering options </a> in freeform tables </p> </td> 
+   <td colname="col1"> <p>More dimension item <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > filtering options </a> in freeform tables </p> </td> 
    <td colname="col2"> <p>These (advanced) filtering options for dimension items have been added (besides the existing "contains" and "does not contain" options): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contains all terms </li> 
@@ -508,7 +508,7 @@ New features and enhancements released on January 18, 2018.
    <td colname="col2"> <p>When resizing the left-most column, Workspace now maintains the width percentages of the rest of the columns (not simply adjust the next column width on the right). This change speeds up table creation for both analysis and sharing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Display <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 rows </a> in a table </p> </td> 
+   <td colname="col1"> <p>Display <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 rows </a> in a table </p> </td> 
    <td colname="col2"> <p>You can now display 400 rows in a table (up from 200), to allow for 365-day trends. </p> </td> 
   </tr> 
   <tr> 
@@ -648,7 +648,7 @@ New features released on September 21, 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Manage Multiple Columns at Once in Freeform Tables </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Manage Multiple Columns at Once in Freeform Tables </a> </p> </td> 
    <td colname="col2"> <p>You can now change the settings on multiple columns at once. Just select multiple columns and click the settings icon of any one of those columns. Any changes that you make apply to all columns with cells selected in them. </p> </td> 
   </tr> 
   <tr> 
@@ -807,7 +807,7 @@ New features released on June 8, 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Use Percent Limits checkbox </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Use Percent Limits checkbox </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Added a checkbox to denote percent cutoffs, especially for percent-based metrics (also works with non-percent based metrics). </li> 
@@ -859,7 +859,7 @@ New features released on April 20, 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Improvements to Undo/Redo option </p> </td> 
-   <td colname="col2"> <p>These lists show what you can and cannot <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > undo/redo in Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>These lists show what you can and cannot undo/redo in Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -877,7 +877,7 @@ New feature released on February 16, 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Breakdown by position </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Breakdown by position </a> </p> </td> 
    <td colname="col2"> <p>Allows breakdown by table position. Example: "I always want the top 7 rows in a Freeform table to be broken down." There is now a checkbox when you create a Freeform table that allows you to enable "Breakdown by Position." This setting is disabled by default. </p> <p>Previously, the list of values in the breakdown was "locked". This led to a situation where, for example, if you did a breakdown of <span class="wintitle"> Date </span> by <span class="wintitle"> Page </span>, you got a list of the top 50 pages for your selected date range. </p> <p>If you saved that report and then ran it a month later, the top 50 pages would likely have changed. However, Analysis Workspace "trusted" the results from the original breakdown and returned the same pages, but with the current month as the date range. </p> </td> 
   </tr> 
  </tbody> 
@@ -1030,7 +1030,7 @@ New features released on June 16, 2016:
 * A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.
 * [Trend Selection](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
 * ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
-* Expanded [Manual Rows](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) functionality 
+* Expanded [Manual Rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) functionality 
 * [Add Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) drop zone 
 * Minor Updates:
 

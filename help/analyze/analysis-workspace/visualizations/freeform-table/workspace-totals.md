@@ -20,7 +20,7 @@ Under **[!UICONTROL Column Settings]**, there are options to **[!UICONTROL Show 
 
 ## Static Row Total settings {#static-row-total}
 
-[Static row](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) totals behave differently, and are controlled under **[!UICONTROL Row Settings]**.
+[Static row](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) totals behave differently, and are controlled under **[!UICONTROL Row Settings]**.
 
 * **[!UICONTROL Show sum of current rows as the total]** - this shows a client-side sum of the rows in the table which means the total will **not** de-duplicate metrics like visits or visitors.
 * **[!UICONTROL Show Grand Total]** - this shows a server-side sum, which means the total will de-duplicate metrics like visits or visitors.

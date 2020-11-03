@@ -12,7 +12,7 @@ You can customize the table in a variety of ways:
 * **Rows**
   * Each dimension row can show up to 400 rows, before pagination occurs. You can fit more rows into a single screen by adjusting the project's [view density](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html).
   * Rows can be broken down by additional components. To breakdown many rows at once, simply select multiple rows and then drag the next component on top of the selected rows. Learn more about [breakdowns](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-  * Rows can be [filtered](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) to show a reduced set of items. Additional settings are available under [Row settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.html).
+  * Rows can be [filtered](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) to show a reduced set of items. Additional settings are available under [Row settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Columns**
   * Components can be stacked within columns to create segmented metrics, cross-tab analysis and more.

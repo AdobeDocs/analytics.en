@@ -13,7 +13,7 @@ You can configure the A4T panel using these input settings:
 
 |Setting|Description|
 |---|---|
-|Target Activity|Select from a list of Target Activities, or drag & drop an activity from the left rail.<br>**Note:** The list is populated with the last 6 months of activities that had at least 1 hit. If you do not see an activity in the list, it may be older than 6 months. It can still be added from the left rail, which has a look-back period of up to 18 months.|
+|Target Activity|Select from a list of Target Activities, or drag & drop an activity from the left rail. Note: The list is populated with the last 6 months of activities that had at least 1 hit. If you do not see an activity in the list, it may be older than 6 months. It can still be added from the left rail, which has a look-back period of up to 18 months.|
 |Control Experience|Select your control experience. You can change it if necessary in the dropdown.|
 |Normalizing metric| Choose from Unique Visitors, Visits, or Activity Impressions. Unique visitors is recommended for most analysis use cases. This metric (also referred to as the counting methodology) becomes the denominator of the lift calculation. It also affects how the data is aggregated before the confidence calculation is applied.|
 |Success metrics| Select up to 3 standard (non-calculated) success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
@@ -37,11 +37,11 @@ Each freeform table shows the following metric columns:
 |Normalizing metrics| Unique Visitors, Visits, or Activity Impressions.|
 |Success metric|The metric selected in the builder|
 |Conversion rate|Success metric/Normalizing metric|
-|Lift|Compares the conversion rate for each experience against the control experience.<br>**Note:** Lift is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.|
-|Lift (Lower)|Represents the worst lift a variant experience could have over the control.|
-|Lift (Mid)| Represents the midpoint lift a variant experience could have over the control, at a 95% confidence interval. This is "Lift" in Reports & Analytics.|
-|Lift (Upper)| Represents the best lift a variant experience could have over the control.|
-|Confidence| The students t-test calculates the confidence level, which indicates the likelihood that the results would be duplicated if the test were run again. A fixed conditional formatting range of 75%/85%/95% has been applied to the metric. This formatting can be customized if needed under Column settings. <br>**Note:** Confidence is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.|
+|Lift|Compares the conversion rate for each experience against the control experience. Note: Lift is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.|
+|Lift (Lower)|Represents the worst lift a variant experience could have over the control, at a 95% confidence interval.<br>Calculation: (x/y ± 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)). Here std_err(x,y) is sqrt(xx/y – (x/y)^2), where the xx indicates the sum of squares.|
+|Lift (Mid)| Represents the midpoint lift a variant experience could have over the control, at a 95% confidence interval. This is "Lift" in Reports & Analytics.<br>Calculation: (x/y)/(x_control/y_control) – 1|
+|Lift (Upper)| Represents the best lift a variant experience could have over the control, at a 95% confidence interval.<br>Calculation: see Lift (Lower).|
+|Confidence| The students t-test calculates the confidence level, which indicates the likelihood that the results would be duplicated if the test were run again. A fixed conditional formatting range of 75%/85%/95% has been applied to the metric. This formatting can be customized if needed under Column settings. Note: Confidence is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.<br>Calculation: Apply a 2-tailed t-test with y+y_control-2 degrees of freedom to find the p-value whether x/y equals x_control/y_control. Compute the t-score, where stderr is sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Return 1-p as the confidence that they are different.|
 
 Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) that will help you analyze your Adobe Target activities.
 

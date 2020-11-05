@@ -14,11 +14,11 @@ Analytics collects XDM data through two methods:
 
 ## Automatic mapping
 
-[Automatic mapping](xdm-manual.md) relies upon a default [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The Analytics variables that are automatically mapped from the XDM to your configured report suites do not require any developer support to incorporate.
+Automatic mapping relies upon a default [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The Analytics variables that are automatically mapped from the XDM to your configured report suites do not require any developer support to incorporate.
 
 ## Manual mapping
 
-Manual mapping of XDM data to Analytics relies upon [Analytics context data](../vars/page-vars/contextdata.md) variables. These variables are put into JSON objects that correspond to applicable schemas. Typically, your development team adds context data upon implementation and then Admins set [processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) to apply that data to specified report suites.
+[Manual mapping of XDM data to Analytics](xdm-manual.md) relies upon [Analytics context data](../vars/page-vars/contextdata.md) variables. These variables are put into JSON objects that correspond to applicable schemas. Typically, your development team adds context data upon implementation and then Admins set [processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) to apply that data to specified report suites.
 
 ## Setup
 

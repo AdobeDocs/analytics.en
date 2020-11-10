@@ -29,7 +29,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 
     ![Success Events](assets/success-events.png)
 
-1. Under Custom Success Events, use **[!UICONTROL Add New]** to create 3 custom success events: [!UICONTROL Clicks] (Counter), [!UICONTROL Impressions] (Counter) and [!UICONTROL Total Cost (Currency).
+1. Under Custom Success Events, use **[!UICONTROL Add New]** to create 3 custom success events: [!UICONTROL Clicks] (Counter), [!UICONTROL Impressions] (Counter) and [!UICONTROL Total Cost] (Currency).
 
     ![New success event](assets/new-success-events.png)
 

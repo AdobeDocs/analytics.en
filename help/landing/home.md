@@ -22,7 +22,7 @@ Welcome to the Adobe Analytics product and technical documentation home page. He
 
 [![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md) &ndash; Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Implement Analytics on audio or video sources. Includes the Media SDK and the Media Collection API.
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Streaming Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Implement Adobe Analytics for Streaming Media. Includes the Media SDK and the Media Collection API.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)&emsp;[Data Workbench Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) &ndash; Learn about the highly-flexible, powerful, multi-channel capabilities of [!UICONTROL Data Workbench]. Includes [!UICONTROL Data Workbench Client], Installation, [!UICONTROL Dataset Configuration] guides, and more.
 

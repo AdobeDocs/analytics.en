@@ -80,3 +80,55 @@ Data Sources allow you to share non-clickstream data with Adobe Analytics. In th
 
 Steps similar to these work for Google Adwords, MSN, Yahoo, and other PPC accounts.
 
+### Export data
+
+1. Log in to your PPC Account and create a new report or export.
+    Ensure that the export includes the following fields: date, destination URL (landing page), impressions, clicks, and cost. The export can include other fields, but you will delete them the steps below.
+1. If possible, save the report as a `.csv` or tab-delimited file. This will make it easier to work with in the following steps.
+1. Open the file in Microsoft Excel.
+
+### Edit the file in Microsoft Excel
+
+1. In Microsoft Excel, delete all columns other than those mentioned above.
+1. Delete any extra rows on top.
+1. To isolate the tracking codes from the destination URLs:
+    a. Copy and paste data from all columns.
+    b. Click Data > Text to Columns.
+    c. In Step 1 of the wizard, make sure that Delimited is selected and click Next.
+    d. In Step 2 of the wizard, specify the delimiter depending on how you have created your URLs (either ? or &) and click Next.
+    e. In Step 3 of the wizard, preview your data and ensure that one of the columns is trackingcodename=trackingcode. If you have additional variables, repeat these steps (using & as the delimiter).
+    f. Delete all columns except for tracking codes, impressions, clicks and cost. Add a new column called Date and organize your columns in the following order: Date :: Tracking code :: Impressions :: Clicks :: Cost.
+1. Add this data to the template you downloaded in the Set up Data Sources section.
+    Now you are ready to upload the file.
+
+### Upload the file to Adobe Analytics via FTP
+
+Go back to the Data Source wizard for instructions and upload the file via FTP:
+
+![Upload FTP](assets/upload-ftp.png)
+
+## Create Calculated Metrics
+
+Adding calculated metrics will be helpful when making pay-per-click decisions.
+
+For example, you could add these calculated metrics:
+
+| Name | Formula | Metric Type | Description |
+| --- | --- | --- | --- |
+| Page Views per Visit | Page Views/Visits | Numeric | When applied at a site level: shows the average number of pages per visit. When applied in the Most Popular Pages report: shows the average number of times a specific page was viewed per visit. |
+| Average Order Value | Revenue/Orders | Currency | Shows average revenue per order. |
+| Revenue per Visit | Revenue/Visit | Currency | Shows average revenue per visit. |
+| Click-Through Rate (CTR) | Clicks/Impressions | Numeric | Measure the ratio of clicks to impressions of an online ad or email marketing campaign. |
+| Profit | Revenue - Cost | Currency | Shows the revenue of a campaign minus the cost. |
+| Profit per Impression (PPI) | (Revenue - Cost)/Impression | Currency | Shows how much revenue was being generated every time an ad displayed, balanced with cost. |
+| Return on Ad Spend (ROAS) | Sales amount/ad spend | Currency | (ROI) Represents the dollars earned per dollars spent on the corresponding advertising. |
+
+## Configure and run reports
+
+The final step is to add the data source metrics and any calculated metrics to the Tracking Code report and drill down into a campaign to get an immediate view of how each Ad Group is performing.
+
+1. In Reports & Analytics, select the report suite into which you have imported data sources.
+1. Navigate to Reports > Campaigns > Tracking Code > Tracking Code.
+1. Select the date range.
+1. Click Metrics > Add and add your data source metrics (Clicks, Impressions, Total Cost) from the list of Standard Metrics.
+1. Do the same for any calculated metrics you may have added. The report will update as you add metrics.

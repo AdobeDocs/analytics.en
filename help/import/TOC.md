@@ -121,3 +121,5 @@ user-guide-description: Bring data into Analytics from outside sources, either i
     + [Analytics Integration Variables](data-connectors/silverpop-overview/silverpop-variables.md)
     + [Silverpop Integration](data-connectors/silverpop-overview/silverpop-wizard.md)
     + [Analytics Plug-In Code](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ Import Use Cases {#use-cases}
+  + [Import Paid Search metrics using Data Sources](use-cases/paid-search-metrics.md)

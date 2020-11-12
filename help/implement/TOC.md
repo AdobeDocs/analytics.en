@@ -124,6 +124,7 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Global report suite considerations](prepare/global-rs.md)
   + [Implementation modal](prepare/implementation-modal.md)
   + [Create a solution design document](prepare/solution-design.md)
+  + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
 + Implement Analytics using JavaScript {#js}
   + [JavaScript overview](js/overview.md)
   + [Implement opt-out links](js/opt-out.md)

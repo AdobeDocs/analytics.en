@@ -5,12 +5,12 @@ description: How to use and interpret the attribution panel in Analysis Workspac
 
 # Attribution panel
 
-The attribution panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution IQ](../attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution IQ](../attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
 ## Create an attribution panel
 
 1. Click the panel icon on the left.
-1. Drag the Attribution Panel into your Analysis Workspace Project.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![New attribution panel](assets/Attribution_Panel_1.png)
 
@@ -33,3 +33,4 @@ The attribution panel is an easy way to build an analysis comparing various attr
 * **Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
 * **Trended Performance**: Shows the trend of attributed conversions for the top dimension item. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
 * **Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
+

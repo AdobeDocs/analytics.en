@@ -27,9 +27,10 @@ The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing
 ## Attribution visualizations
 
 * **Total metric**: The total number of conversions that occurred over the reporting time window. These are the conversions that are attributed across the dimension you selected.
-* **Metric Attribution Comparison Bar Chart**: Visually compares the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model.
-* **Metric Attribution Freeform Table**: Shows the same data as the bar chart, represented as a table. Selecting different columns or rows in this table filters the bar chart as well as several of the other visualizations in the panel. This table acts similar to any other Freeform Table in Workspace - allowing you to add components such as metrics, segments, or breakdowns.
-* **Dimension Overlap Chart**: A Venn Diagram showing the top three dimension items and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
-* **Marketing Touchpoints Per Journey**: A histogram indicating the number of touchpoints a visitor had in the lookback window. This is useful to see how impactful multi-touch attribution is for your dataset. If nearly all visitors have only a single touchpoint, different attribution models likely show similar data.
-* **Marketing Channel Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
-* **Marketing Channel Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
+* **Attribution Comparison Bar**: Visually compares the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model.
+* **Attribution Comparison Table**: Shows the same data as the bar chart, represented as a table. Selecting different columns or rows in this table filters the bar chart as well as several of the other visualizations in the panel. This table acts similar to any other Freeform Table in Workspace - allowing you to add compoents such as metrics, segments, or breakdowns.
+* **Overlap Diagram**: A Venn Diagram showing the top three dimension items and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
+* **Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
+* **Trended Performance**: Shows the trend of attributed conversions for the top dimension item. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
+* **Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
+

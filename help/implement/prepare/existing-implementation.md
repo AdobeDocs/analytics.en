@@ -7,7 +7,7 @@ description: Instructions for Admins who are new to an existing Adobe Analytics 
 
 Are you taking over an Adobe Analytics implementation from the previous Technical Owner? Our Inherited Implementation Playbook will help you take charge as the new Technical Owner of an existing implementation. In the downloadable spreadsheet, we'll walk you though the discovery, audit, and documentation activities you should do in your first 10 weeks on the job as you take over an existing implementation.
 
-Download the [Inherited Implementation Playbook](assets/adobe_analytics_inherited_implementation_playbook.xlsx).
+**Download the [Inherited Implementation Playbook](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
 
 ![Playbook](assets/inherited-impl-playbook.png)
 

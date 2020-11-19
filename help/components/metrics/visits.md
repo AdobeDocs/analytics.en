@@ -48,3 +48,7 @@ A visit counts for each time period involved. For example, if you have a visitor
 ## Visits on a dimension versus total visits
 
 Visits in context of a dimension (for example, [Marketing channel](../dimensions/marketing-channel.md)) show the number of visits that contained a particular dimension item at any time. Multiple dimension items frequently exist on different hits in the same visit. Attempting to sum visits that report on dimension items usually does not make sense.
+
+## Visits All Visitors in Data Warehouse
+
+The metric 'Visits - All Visitors' is available in Data Warehouse in addition to the 'Visits' metric. The 'Visits - All Visitors' metric is comparable to the 'Visits' metric in other Analytics tools. The 'Visits' metric in Data Warehouse excludes visitors that don't have persistent cookies. Adobe recommends using 'Visits - All Visitors' in Data Warehouse requests where visits are desired as a metric.

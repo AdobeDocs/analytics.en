@@ -15,11 +15,20 @@ Accessibility refers to making products usable for people with visual, auditory,
 
 Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right. The following navigational elements facilitate accessibility:
 
-* The `F6` key enables landmark shortcuts
-* The `Tab` key moves between individual elements. 
+* The `Tab` key enables landmark shortcuts, moving between larger sections within Workspace. In the left rail, `Tab` also enables you to move from one draggable option to the next.
+* The `left/right arrows` move between individual elements after `Tab` has highlighted it. 
+* The `F6` navigates to the first panel in the project and  moves between the visualizations within that panel. Then, it moves to the next panel in the project and repeats. 
 * We apply focus indicators so that sighted keyboard users have a clear indication of which UI element currently has focus. The indicator is a blue border around the selected element.
 
     ![Focus Indicator](assets/focus-indicator.png)
+
+### Keyboard navigation for the menu bar 
+
+1. Tab until you have reached the menu bar.
+1. Use left/right arrow keys to navigate to the menu you want.
+1. Press `Enter` to select the menu and show its options.
+1. Use up/down arrow keys to navigate to the menu option you want.
+1. Press `Enter` to select the option.
 
 ### Keyboard navigation for drag & drop interactions 
 

@@ -7,7 +7,7 @@ description: Follow this checklist to ensure that your implementation stays erro
 
 Why should you review your implementation after each website release? Because you need to make sure your code updates didn’t have any unintended ramifications, and you should address any issues with data quality while they're still small. If you consistently do this Minor Review after each website release, you’ll find that your [Major Reviews](/help/implement/review/major-review.md) (every 6 months) are much easier. You will also prevent small issues from growing into big data issues that could erode stakeholders’ confidence. 
 
-## 1. How did the release impact the data for that section of the site?	
+## 1. How did the release impact the data for that section of the site?
 
 Do thorough unit testing: Review all the code and variables that correspond to the section of the site you just updated to ensure that the new tracking is working as designed.
 

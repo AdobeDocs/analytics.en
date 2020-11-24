@@ -1,6 +1,6 @@
 ---
-title: Minor Implementation Review checklist (after each website release)
-description: Follow this checklist to ensure that your implementation stays error free and in line with your KPIs.
+title: Minor Implementation Review (after each website release)
+description: Follow these steps to ensure that your implementation stays error free and in line with your KPIs.
 ---
 
 # Minor Implementation Review (after each website release)

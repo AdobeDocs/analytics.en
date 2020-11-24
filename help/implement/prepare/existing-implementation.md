@@ -17,6 +17,6 @@ Check out these tips from your fellow Technical Owner, Sarah Owen. Sarah is an [
 
 See also:
 
-* “Minor Review” checklist for reviewing your implementation after each website release
-* “Major Review” checklist for reviewing your implementation every 6 months
-* Define your Top 5 KPIs
+* [“Minor Review” checklist for reviewing your implementation after each website release](/help/implement/review/minor-review.md)
+* [“Major Review” checklist for reviewing your implementation every 6 months](/help/implement/review/major-review.md)
+* [Define your Top 5 KPIs](/help/implement/review/define-kpis.md)

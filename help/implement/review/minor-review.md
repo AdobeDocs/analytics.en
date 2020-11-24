@@ -30,7 +30,7 @@ You can also set up intelligent alerts for each metric) and monitor them for a d
 * **Re-run the Analytics Health Dashboard** to monitor broad trends of your KPI metrics and variables.
 For more details about how to make sure your metrics and variables are functioning properly, read these tips from Adobe Analytics Champion Sarah Owen.
 
-## Are there gaps in your data quality?
+## 5. Are there gaps in your data quality?
 
 Assess the situation and make a plan to remediate the data. Then make the needed changes, update your documentation, and inform your stakeholders about the changes you made.
 

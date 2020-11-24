@@ -77,7 +77,11 @@ To create drop-down filters:
 
 ## Right-click menu {#right-click}
 
-Additional functionality for a panel is available by right-clicking on the panel header. The following settings are available:
+Additional functionality for a panel is available by right-clicking on the panel header. 
+
+![](assets/right-click-menu.png)
+
+The following settings are available:
 
 | Setting | Description |
 | --- | --- |

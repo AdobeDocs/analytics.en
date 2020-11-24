@@ -13,7 +13,9 @@ Do thorough unit testing: Review all the code and variables that correspond to t
 
 ## 2. Update your documentation
 
-Update your BRD and SDR with any variables you added/changed to accommodate the launch. (Don’t have documentation of your implementation? Export a list of variables and create your Business Requirement Document (BRD) or Solution Design Reference (SDR) using [this template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Update your Business Requirement Document (BRD) and Solution Design Reference (SDR) with any variables you added/changed to accommodate the launch. 
+
+Don’t have documentation of your implementation? Export a list of variables and create your BRD or SDR using [this template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
 
 ## 3. Start with your top 5 KPIs
 
@@ -24,9 +26,9 @@ Knowing your top 5 key performance indicators (KPIs) will help you determine the
 Remember, any code updates can have unintended ramifications. You want to make sure that all the metrics and dimensions associated with [your top 5 KPIs](/help/implement/review/define-kpis.md) are still functioning properly. To do this:
 
 * **Create dashboards** to see hourly trended views of these critical metrics and variables 
-  You can also set up intelligent alerts for each metric) and monitor them for a day or two post-release, to ensure you’re getting the data you expect, and the data is correct. Look for inflection points. Be prepared to remediate any critical issues immediately. If you find any discrepancies that don’t look correct, look in your data layer, tag manager rules, and processing rules to find out why.
+You can also set up intelligent alerts for each metric) and monitor them for a day or two post-release, to ensure you’re getting the data you expect, and the data is correct. Look for inflection points. Be prepared to remediate any critical issues immediately. If you find any discrepancies that don’t look correct, look in your data layer, tag manager rules, and processing rules to find out why.
 * **Re-run the Analytics Health Dashboard** to monitor broad trends of your KPI metrics and variables.
-  For more details about how to make sure your metrics and variables are functioning properly, read these tips from Adobe Analytics Champion Sarah Owen.
+For more details about how to make sure your metrics and variables are functioning properly, read these tips from Adobe Analytics Champion Sarah Owen.
 
 ## Are there gaps in your data quality?
 

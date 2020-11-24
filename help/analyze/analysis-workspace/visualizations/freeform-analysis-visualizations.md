@@ -8,7 +8,11 @@ title: Visualizations overview
 
 Workspace offers a number of visualizations that let you generate visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. Most visualization types will be familiar to you if you use Adobe Analytics. However, Analysis Workspace provides visualization settings and many new or unique visualizations types with interactive capabilities.
 
-You can access visualizations from the top left icon in Workspace, a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), or through the right-click menu in your workflow. The following visualization types are available in Analysis Workspace:
+You can access visualizations from the top left icon in Workspace, a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), or through the right-click menu in your workflow. 
+
+![](assets/viz-rail.png)
+
+The following visualization types are available in Analysis Workspace:
 
 | Visualization name | Description |
 | --- | --- |
@@ -33,20 +37,22 @@ You can access visualizations from the top left icon in Workspace, a [blank pane
 
 ## Settings {#settings}
 
-Each visualization has its own settings that you can manage. To access [!UICONTROL Visualization Settings], click the [!UICONTROL Visualization Settings] gear icon. Some settings include:
+Each visualization has its own settings that you can manage. To access [!UICONTROL Visualization Settings], click the [!UICONTROL Visualization Settings] gear icon.
+
+![](assets/settings.png)
 
 | Setting | Description |
 | --- | --- |
 | Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | FOr trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. This change will also apply to the data source table. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. This change also applies to the data source table. |
 | Percentages | Displays values in percentages. |
-| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![](assets/stacked_100_percent.png) |
+| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
 | Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
 | Limit Max Items | Lets you limit the number of items that a visualization displays. |
 | Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
 | Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
 | Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
-| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly dection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
+| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
 
 ## Legend {#legend}
 
@@ -70,7 +76,7 @@ Here is a [link to a video](https://docs.adobe.com/content/help/en/analytics-lea
 
 Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Setting | Description |
 | --- | --- |
@@ -87,4 +93,4 @@ Additional functionality for a visualziation is available by right-clicking on t
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)

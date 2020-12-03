@@ -25,7 +25,7 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 
 ## Standard IAB bot rules
 
-Standard IAB bot rules can be turned on by checking the [!UICONTROL Enable IAB Bot Filtering Rules] checkbox. This selection will remove bots in  IAB's (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. The IAB updates this list monthly.
+Standard IAB bot rules can be turned on by checking the [!UICONTROL Enable IAB Bot Filtering Rules] checkbox. This selection will remove bots in  IAB's (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Adobe updates this list from the IAB on a monthly basis.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -33,7 +33,9 @@ Adobe is unable to provide the detailed IAB bot list to customers, though you ca
 
 ## Custom bot rules
 
->[!NOTE] The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options.
+>[!NOTE]
+>
+>The user interface allows for 500 rules to be manually defined. After this limit is reached, rules must be managed in bulk through the Import File and Export Bot Rules options.
 
 Custom bot rules let you filter traffic based conditions you define.
 
@@ -117,7 +119,9 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **High-Hit Visit Processing:** If more than 100 hits occur in a visit, reporting determines if the time of the visit in seconds is less than or equal to the number of hits in the visit. In this situation, due to the cost of processing long, intense visits, reporting starts over with a new visit. High-hit visits are typically caused by bot attacks and are not considered normal visitor browsing.
 
->[!NOTE] Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+>Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 

@@ -14,10 +14,6 @@ Use the Dashboard Manager to copy, share, archive, and schedule dashboards for d
 >
 >Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
 
-## Dashboard Manager
-
-Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
-
 Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | Element | Description |
@@ -66,11 +62,15 @@ Steps that describe how use the shared dashboard management options.
 
 Existing legacy dashboards will continue to be run and you can still edit, download, and schedule them; however, you can no longer create new legacy dashboards. You are strongly encouraged to upgrade existing legacy dashboards to the newer dashboard format.
 
->[!NOTE] Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
+>[!NOTE]
+>
+>Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
 
 When you copy the legacy dashboard, the system opens the legacy dashboard for edit, where you can add legacy content or new content. When you copy a legacy dashboard, the original is preserved in the list of legacy dashboards.
 
->[!NOTE] Adding legacy content to a dashboard creates a dashboard based on the latest dashboard functionality. However, the legacy reportlet might contain data that is based on the previous data platform.
+>[!NOTE]
+>
+>Adding legacy content to a dashboard creates a dashboard based on the latest dashboard functionality. However, the legacy reportlet might contain data that is based on the previous data platform.
 
 **To migrate a version 14.x legacy dashboard** 
 
@@ -104,7 +104,9 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 
 ## Archive a dashboard
 
->[!NOTE] This functionality will no longer be available in January, 2020.
+>[!NOTE]
+>
+>This functionality will no longer be available in January, 2020.
 
 Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first.
 

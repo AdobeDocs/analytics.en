@@ -5,9 +5,11 @@ description: Send data around what product(s) are displayed or in the cart.
 
 # products
 
-The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension values.
+The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension items.
 
->[!NOTE] If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the 'Product Views' metric increments by 1. Make sure you set the appropriate shopping cart event on each hit.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Make sure that you set the appropriate shopping cart event on each hit with the `products` variable.
 
 ## Products in Adobe Experience Platform Launch
 
@@ -29,7 +31,7 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 * **Quantity** (optional): How many of this product is in the cart. This field only applies to hits with the purchase event.
 * **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the [`currencyCode`](../config-vars/currencycode.md) variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
 * **Events** (optional): Events tied to the product. Delimit multiple events with a pipe (`|`). See [events](events/events-overview.md) for more information.
-* **eVars** (optional): Merchandising eVars tied to the product. Delimit multiple merchandising eVars with a pipe (`|`). See [merchandising eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md) for more information.
+* **eVars** (optional): Merchandising eVars tied to the product. Delimit multiple merchandising eVars with a pipe (`|`). See [merchandising eVars](evar-merchandising.md) for more information.
 
 ```js
 // Set a single product using all available fields
@@ -43,7 +45,9 @@ This variable supports multiple products in the same hit. It is valuable for sho
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
+>[!IMPORTANT]
+>
+>Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
 
 ## Examples
 
@@ -57,7 +61,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
@@ -84,4 +88,17 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+```
+
+If using the `digitalData` [data layer](../../prepare/data-layer.md), you can iterate through the `digitalData.product` object array:
+
+```js
+for(var i=0; i<digitalData.product.length; i++) {
+    // Add individual product info to the product string
+    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
+    // If there are more products, add a comma
+    if(i != digitalData.product.length-1) {
+        s.products += ",";
+    }
+}
 ```

@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics Implementation Guide
-user-guide-url: /content/help/en/analytics/implementation/home.html
+breadcrumb-title: Implementation Guide
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
 ---
 
 # Analytics Implementation Guide {#implementation}
 
-+ [Analytics Implementation Help](home.md)
++ [Implement Adobe Analytics](home.md)
 + [AppMeasurement release notes](appmeasurement-updates.md)
 + Analytics variables, functions, and methods {#vars}
   + [Overview](vars/overview.md)
@@ -53,6 +54,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
     + [contextData](vars/page-vars/contextdata.md)
     + [Dynamic variables](vars/page-vars/dynamic-variables.md)
     + [eVar](vars/page-vars/evar.md)
+    + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
     + events {#events}
       + [Events overview](vars/page-vars/events/events-overview.md)
       + [Purchase event](vars/page-vars/events/event-purchase.md)
@@ -122,6 +124,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Global report suite considerations](prepare/global-rs.md)
   + [Implementation modal](prepare/implementation-modal.md)
   + [Create a solution design document](prepare/solution-design.md)
+  + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
 + Implement Analytics using JavaScript {#js}
   + [JavaScript overview](js/overview.md)
   + [Implement opt-out links](js/opt-out.md)
@@ -185,6 +188,7 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Implement Analytics on Facebook Instant Articles](other/fb-instant-articles.md)
 + [Implement Analytics on mobile devices](mobile-device-sdk.md)
 + Implementation use cases {#use-cases}
+  + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Track across different implementation types](use-cases/cross-type-implementation.md)
   + [External email tracking](use-cases/email-external.md)
 + Validate your implementation {#validate}
@@ -193,5 +197,10 @@ user-guide-url: /content/help/en/analytics/implementation/home.html
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
++ Review your implementation {#review}
+  + [Minor Implementation Review (after each website release)](review/minor-review.md)
+  + [Major Implementation Review (every 6 months)](review/major-review.md)
+  + [Define your Top 5 KPIs](review/define-kpis.md)
 + Use XDM data with Analytics {#aep-edge}
   + [Use AEP Web SDK](aep-edge/xdmoverview.md)
+  + [Map XDM data to Analytics manually](aep-edge/xdm-manual.md)

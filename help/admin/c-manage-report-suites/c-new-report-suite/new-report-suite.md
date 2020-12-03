@@ -11,7 +11,9 @@ You can create a new report suite by selecting a pre-defined template, or by usi
 
 Descriptions of the elements used when [creating a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
->[!NOTE] The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+>[!NOTE]
+>
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,7 +41,7 @@ Descriptions of the elements used when [creating a report suite](/help/admin/c-m
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Default Page</span> </td> 
-   <td colname="col2"> <p>(Optional) Strips occurrences of the <span class="wintitle"> Default Page</span> value from URLs it encounters. If your <span class="wintitle"> Most Popular Pages</span> report contains URLs rather than page names, this setting prevents multiple URLs for the same web page. </p> <p>For example, the URLs<span class="filepath"> https://mysite.com</span> and <span class="filepath"> https://mysite.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://mysite.com</span> in your reports. </p> <p>If you do not set this value, Analytics automatically removes the following filenames from URLs: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span>, and<span class="filepath"> home.asp</span>. </p> <p>To disable filename stripping, specify a Default Page value that never occurs in your URLs. </p> </td> 
+   <td colname="col2"> <p>(Optional) Strips occurrences of the <span class="wintitle"> Default Page</span> value from URLs it encounters. If your <span class="wintitle"> Most Popular Pages</span> report contains URLs rather than page names, this setting prevents multiple URLs for the same web page. </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>If you do not set this value, Analytics automatically removes the following filenames from URLs: <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span>, and<span class="filepath"> home.asp</span>. </p> <p>To disable filename stripping, specify a Default Page value that never occurs in your URLs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live Date </p> </td> 

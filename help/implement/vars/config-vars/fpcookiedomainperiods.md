@@ -10,7 +10,9 @@ The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analyt
 * For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.
 * For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
 
->[!IMPORTANT] Do not take subdomains into account for this variable. For example, do not set `fpCookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
+>[!IMPORTANT]
+>
+>Do not take subdomains into account for this variable. For example, do not set `fpCookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
 ## First-party Domain Periods in Adobe Experience Platform Launch
 

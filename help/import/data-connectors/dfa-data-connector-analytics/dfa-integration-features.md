@@ -16,7 +16,9 @@ Once activated, the Data Connectors DFA integration provides the following metri
 * (optional) DFA Cost Data 
 * (optional) DFA Query errors, Timeouts
 
->[!NOTE] This integration does not provide support for click trackers (formerly click commands). Click trackers are used to record the number of clicks on text links, links in email messages, or on other elements that are hard-coded on a Web site.
+>[!NOTE]
+>
+>This integration does not provide support for click trackers (formerly click commands). Click trackers are used to record the number of clicks on text links, links in email messages, or on other elements that are hard-coded on a Web site.
 
 The Data Connectors DFA integration automatically constructs DFA tracking codes from the data returned by DFA. These tracking codes are constructed to uniquely identify an Ad along with its associated Placement and Creative. The following outlines the structure of the tracking code, depending on version of the integration. Version 1.5 looks like this:
 
@@ -51,5 +53,7 @@ If **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA deduplication]** is selecte
 
 * In the case of a DFA view-through, the integration will populate the string "DFA Viewthrough" to the SCM eVar.
 
->[!NOTE] If SearchCenter > DFA de-duplication is enabled and the SearchCenter query string parameter is set, the visit will not be considered for DFA processing. This means that the SearchCenter query string parameter should be different from the DFA click-through parameter, and no Display ads should set the SearchCenter query string parameter.
+>[!NOTE]
+>
+>If SearchCenter > DFA de-duplication is enabled and the SearchCenter query string parameter is set, the visit will not be considered for DFA processing. This means that the SearchCenter query string parameter should be different from the DFA click-through parameter, and no Display ads should set the SearchCenter query string parameter.
 

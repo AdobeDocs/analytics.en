@@ -7,11 +7,15 @@ description: Create callback functions after sending a hit to Adobe.
 
 The `registerPostTrackCallback` variable allows your organization to hook a JavaScript function immediately after a hit is successfully sent to Adobe. If a tracking call fails, this function does not run. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure, or clean up variable values in single-page applications.
 
->[!IMPORTANT] Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+>[!IMPORTANT]
+>
+>Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPostTrackCallback` variable, you hook that function to run immediately after an image request is successfully sent. Avoid registering the same function multiple times in the same page load.
 
->[!NOTE] The timing and order of functions fired between [`registerPreTrackCallback`](registerpretrackcallback.md) and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
+>[!NOTE]
+>
+>The timing and order of functions fired between [`registerPreTrackCallback`](registerpretrackcallback.md) and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
 
 ## Register Post Track Callback in Adobe Experience Platform Launch
 
@@ -19,7 +23,7 @@ There is not a dedicated field in Launch to use this variable. Use the custom co
 
 ## s.registerPostTrackCallback in AppMeasurement and Launch custom code editor
 
-The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs just before an image request is sent.
+The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs immediately after an image request is successfully sent.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});

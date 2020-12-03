@@ -1,161 +1,34 @@
 ---
 description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
 title: Analytics product comparison and requirements
-uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 ---
 
 # Analytics product comparison and requirements
 
-System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
+This page contains a comparison of various Adobe Analytics products: Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds and Analytics API 2.0.
 
 For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-<table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
- <tbody> 
-  <tr> 
-   <td> <b>Product Name &amp; Help Link</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html"> Reports &amp; Analytics </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html"> Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html"> Report Builder </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html"> Data Warehouse </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Access Method</b> </td> 
-   <td> Browser solution for building robust, custom analysis projects, and democratizing insights. </td> 
-   <td> Browser solution for digital analysis. </td> 
-   <td> Java based tool for advanced digital analysis. </td> 
-   <td> Excel add-in that lets you build customized requests from R&amp;A data, and visualize using Microsoft Excel. </td> 
-   <td colname="col06"> Browser solution that generates reports in <span class="filepath"> .csv </span> format. Can generate Tableau format files. </td> 
-   <td colname="col6"> Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Report Breakdowns</b> </td> 
-   <td> Unlimited </td> 
-   <td> Up to 2 correlations </td> 
-   <td> Unlimited </td> 
-   <td> Up to 2 correlations </td> 
-   <td colname="col06"> Performs fully expanded, unlimited breakdowns, break down by segment. </td> 
-   <td colname="col6"> Unlimited </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Segment Comparisons</b> </td> 
-   <td> Unlimited </td> 
-   <td> Up to 2 segments </td> 
-   <td> Unlimited </td> 
-   <td> Unlimited (data request stacking) </td> 
-   <td colname="col06"> 1 segment. Supports multiple (stacked) segments. </td> 
-   <td colname="col6"> Unlimited </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Row Output Limit</b> </td> 
-   <td> 400 </td> 
-   <td> 200 </td> 
-   <td> 50,000 </td> 
-   <td> 50,000 </td> 
-   <td colname="col06"> Unlimited </td> 
-   <td colname="col6"> Customizable </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Unique Value Limits (within eVar/ prop reports)</b> </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td colname="col06"> Unlimited </td> 
-   <td colname="col6"> Customizable </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Funnel/Pathing</b> </td> 
-   <td> Yes <p> </p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"> Fallout </a> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"> Flow </a> </p> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/reports.html"> Yes </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html"> Yes </a> </td> 
-   <td> Yes </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Advanced Customer Journey Analysis</b> </td> 
-   <td> Planned </td> 
-   <td> No </td> 
-   <td> Yes </td> 
-   <td> No </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Cohort Analysis</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html"> Yes </a> </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Advanced Attribution</b> </td> 
-   <td> Limited currently - first/last/linear </td> 
-   <td> Limited - first/last/linear </td> 
-   <td> Limited - first/last/linear </td> 
-   <td> Limited - first/last/linear </td> 
-   <td colname="col06"> Limited - first/last/linear </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Enhanced Visualization Options</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Yes </a> </td> 
-   <td> No </td> 
-   <td> Yes </td> 
-   <td> Yes </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Customizable Layout</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Yes </a> </td> 
-   <td> Yes - <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html"> Dashboards </a> </td> 
-   <td> No </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html"> Yes </a> </td> 
-   <td colname="col06"> <p> Sort results by breakdown or by metrics. </p> </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Project Curation (Simplify reports for non-analysts)</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html"> Yes </a> </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td> Yes </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Project Sharing</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html"> Yes </a>; all/any users </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html"> Yes </a>; all/any users </td> 
-   <td> Only with Ad Hoc Analysis users </td> 
-   <td> Yes; all/any users </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Scheduled Report Delivery</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html"> Yes </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html"> Yes </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-schedule.html"> Yes </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/t-schedule-a-data-request.html"> Yes </a> </td> 
-   <td colname="col06"> Yes </td> 
-   <td colname="col6"> Yes </td> 
-  </tr> 
-  <tr> 
-   <td> <b>System Requirements</b> </td> 
-   <td> <p>Browser </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html"> More... </a> </p> </td> 
-   <td> <p>Browser </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html"> More... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-getting-started.html"> More... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html"> More... </a> </p> </td> 
-   <td colname="col06"> Browser and program to open <span class="filepath"> .csv </span> files like MS Excel. Can generate Tableau format files. </td> 
-   <td colname="col6"> Windows 64 bit, good graphics adapter for OpenGL 3.2 ( <u> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html"> More... </a></u> ) </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Product Name & Help Link | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+|---|---|---|---|---|---|---|---|
+| **Access method** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel for Windows](/help/analyze/report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/admin/sys-reqs.md) | [Windows 64 bit](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe I/O credentials. [Learn more](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Data granularity** | Aggregated | Aggregated | Aggregated | Aggregated | Hit | Hit | Aggregated |
+| **Experience Cloud ID (ECID) available** | No | No | No | Yes | Yes | Yes | No |
+| **Timestamp available** | No | No | No | No | Yes | Yes | No |
+| **Level of processing** | Fully-processed | Fully-processed, with separate [real-time report](/help/components/c-real-time-reporting/realtime.md) | Fully-processed, with separate [real-time report](/help/components/c-real-time-reporting/realtime.md) | Fully-processed | Fully-processed | Fully-processed | Fully-processed |
+| **Admin bot filter data included** <br> [Learn more](/help/admin/admin/bot-removal/bot-removal.md) | No | Yes - separate bot report | Yes - separate bot report | No | No | No | No |
+| **Low traffic (Uniques exceeded) appears** <br> [Learn more](/help/technotes/low-traffic.md) | Yes | Yes | Yes | No | No | No | Yes |
+| **Visible row limit (before pagination)** | 400 | 200 | 50000 | Unlimited | Unlimited | Unlimited | 50000 |
+| **Multiple report suites** | [Yes](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Yes, with limitations | Yes | No | Yes | No | Yes |
+| **Number of breakdowns** | Unlimited | Up to 2 | Up to 2 | Unlimited | Unlimited | Unlimited | Unlimited, run across multiple queries |
+| **Segmentation** <br> [Learn more](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Yes | Yes | Yes | Yes, with [limitations](/help/components/segmentation/seg-reference/seg-compatibility.md) | Yes | No | Yes |
+| **Calculated metrics** <br> [Learn more](/help/components/c-calcmetrics/cm-overview.md) | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Yes | Yes | No | Yes | No | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Marketing Channels** <br> [Learn more](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Yes | Yes | Yes | Yes | Yes | Yes - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Yes |
+| **Cohort analysis** | [Yes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Yes | No | No |
+| **Attribution** | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limited | Limited | No | Yes | No | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Virtual Analyst features** <br> [Learn more](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Yes | No | No | No | No | No | Yes |
+| **Curation** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/curate.md) | Yes - Project and VRS | No | No | No | No | No | Yes - VRS only |
+| **Project sharing** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Yes, with project roles | Yes | Yes | No | Yes | No | No |
+| **Scheduled delivery** | Yes | Yes | Yes | Yes | No | Yes | No |
+| **Delivery destinations** | Email | Email | Email, FTP, SFTP, [publishing to Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Email, FTP. Reach out to Customer Care for additional destination support including SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **VRS report time processing** <br> [Learn more](/help/components/vrs/vrs-report-time-processing.md) | Yes | No | No | No | No | No | Yes |

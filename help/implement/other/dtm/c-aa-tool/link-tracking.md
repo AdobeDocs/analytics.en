@@ -1,7 +1,7 @@
 ---
 description: Field descriptions in Dynamic Tag Management for link tracking when deploying Analytics.
 keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Link tracking
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 ---
@@ -10,9 +10,7 @@ uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 
 Field descriptions in Dynamic Tag Management for link tracking when deploying Analytics.
 
- **[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
-
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+ **[!UICONTROL Property]** > ![Gear icon](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Link Tracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>

@@ -5,6 +5,10 @@ title: Run Ad Hoc Analysis with Java 11
 
 # Run Ad Hoc Analysis with Java 11
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end-of-life status on March 1, 2021. [Learn more...](https://adobe.ly/discoverworkspace).
+
 You need to follow additional steps when running Ad Hoc Analysis with Java 11 compared to running it with Java 8.
 
 ## Prerequisites
@@ -23,7 +27,9 @@ Work with your IT team to ensure that the following is in place:
 1. **Run the selected file**. For PC: Doubleclick the .bat file. For Mac: Right-click the .sh file, then select **[!UICONTROL Open With > Other... > Utilities > (Enable all applications) > select Terminal > Open]**.
 1. Log in to Ad Hoc Analysis.
 
->[!NOTE] Federated and Enterprise ID authentication methods are not compatible with the Java 11 version of Ad Hoc Analysis.
+>[!NOTE]
+>
+>Federated and Enterprise ID authentication methods are not compatible with the Java 11 version of Ad Hoc Analysis.
 
 ## Unsupported Features in Ad Hoc Analysis (Java 11)
 

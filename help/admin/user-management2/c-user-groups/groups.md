@@ -53,7 +53,6 @@ Descriptions of elements on the Define User Group page.
   <tr> 
    <td colname="col1"> <p><b>Report Access</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Traffic Reports</b>: Grants access to all reports based on traffic, such as page views, visits, and unique visitors. </li> 
@@ -72,7 +71,7 @@ Descriptions of elements on the Define User Group page.
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (Enables access to reports generated from data within Adobe Social.) </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>(Allows users to create, update or delete data connectors.) </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 

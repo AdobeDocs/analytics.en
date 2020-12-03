@@ -33,7 +33,9 @@ The Reports menu provides an enhanced search experience. Click **[!UICONTROL Vie
 
 Press the Tab key or the Down Arrow key (?) to navigate through the list of reports. Press the Escape key to close the search without changing the current report, or press Enter to load the selected report.
 
->[!NOTE] You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
+>[!NOTE]
+>
+>You can also search the report list by prop, eVar, and event number. In the search bar, enter the prop, eVar, or event number.
 
 ## Navigation Overview {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +57,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder</a> and <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
+   <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder</a> and <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metrics <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 

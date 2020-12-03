@@ -28,7 +28,15 @@ The `s.referrer` variable is a string containing the URL of the previous page. T
 s.referrer = "https://example.com";
 ```
 
-Avoid setting this variable to non-URL values.
+If using the `digitalData` [data layer](../../prepare/data-layer.md):
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Avoid setting this variable to non-URL values. Do not strip the URL's protocol.
 
 ## Example
 

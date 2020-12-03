@@ -8,10 +8,10 @@ See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/mana
 
 Product profile admins are an optional group that can add or remove users to that product profile. Note that a product profile admin is not the same as a product admin:
 
-* Product profile admins are merely responsible for the user list of a product profile.
 * Product profile admins do not have full access to Adobe Analytics. Full access to Adobe Analytics is reserved for product admins.
-* Product profile admins cannot adjust permissions items in their product profile; a product admin must make permission item adjustments.
-* Product profile admins are ideal for team leads or managers who simply need to grant and manage access to Adobe Analytics for their team. Individuals would not need to bother system admins or product admins to grant access to Adobe Analytics.
+* Product profile admins can adjust permissions items in their product profile.
+* Product profile admins can assign or remove product profiles to user groups.
+* Product profile admins are ideal for team leads or managers who need to grant and manage access to Adobe Analytics for their team. Individuals would not need to bother system admins or product admins to grant access to Adobe Analytics.
 
 ## Adobe Analytics permission items
 
@@ -46,4 +46,6 @@ Analytics tools permission items grant access to features that are independent o
 
 ## Product profile developers
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information.
+Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information. If a user is granted Developer Access for any profile, they may access the Dev Console (console.adobe.io) and edit Adobe Analytics integrations. The Analytics API calls and responses authorized for the user will be dependent on the net permissions of all profiles in which that user has Developer Access. 
+
+For example, with profile permissions including all metrics, all dimensions, and one report suite, a Developer Access member of the profile could make API calls relevant to any component within the relevant suite. With Anomaly Detection added, the reports could include fuller responses, adding in the anomaly data. As a rule of thumb, if a profile grants access to a scenario within the Adobe Analytics interface, then Developer Access on a similarly-defined profile would enable corresponding API calls and responses.

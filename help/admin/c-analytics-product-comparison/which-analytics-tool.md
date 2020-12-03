@@ -17,26 +17,19 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate.
-* To understand Target activity (Analytics for Target/A4T) lift and confidence.
 * To access real-time data in the UI.
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
-* To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
+* To access unique Video visualizations of Video Daypart and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** should be used:
-
-* If a siloed view of Mobile App data is desired.
-* To manage the implementation of your mobile app SDK.
-* To set up mobile advertising, such as in-app messaging, push messaging, and location targeting.
-* If more interactive visualizations are desired for App data (Sunburst).
-* To visualize points of interest on a map.
-* For Lifetime value metrics.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
 
-* To export 50,000 rows of data 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 * If tab organization of project work is desired.
 * To use the Site Analysis report (3D-pathing report).
 
@@ -51,7 +44,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 ## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
+**[Classifications](/help/components/classifications/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:
@@ -76,7 +69,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-**[Customer Attributes](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** should be used:
+**[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
@@ -102,7 +95,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
-* To access all unique dimension values if you are running into "Low Traffic" in Adobe Analytics
+* To access all unique dimension items if you are running into "Low Traffic" in Adobe Analytics
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 

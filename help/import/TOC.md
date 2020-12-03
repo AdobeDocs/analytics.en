@@ -2,12 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
-user-guide-url: /content/help/en/analytics/import/home.html
+breadcrumb-title: Import Guide
+user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time. 
 ---
 
 # Analytics Import Guide {#import}
 
-+ [Analytics Import Help](home.md)
++ [Analytics Import Guide](home.md)
 + Data Sources {#data-sources}
   + [Data Sources overview](c-data-sources/datasrc-home.md)
   + [How Data Sources works](c-data-sources/datasrc-how-data-sources-works.md)
@@ -34,6 +35,7 @@ user-guide-url: /content/help/en/analytics/import/home.html
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
   + [Get Started with Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
+  + [End-of-life for Analytics Data Connectors](data-connectors/data-connectors-eol.md)
   + appFigures Data Connector for Adobe Analytics {#appfigures}
     + [appFigures Overview](data-connectors/appfigures-overview/appfigures-overview.md)
     + [Before You Activate This Integration](data-connectors/appfigures-overview/appfigures-before-activation.md)
@@ -119,3 +121,5 @@ user-guide-url: /content/help/en/analytics/import/home.html
     + [Analytics Integration Variables](data-connectors/silverpop-overview/silverpop-variables.md)
     + [Silverpop Integration](data-connectors/silverpop-overview/silverpop-wizard.md)
     + [Analytics Plug-In Code](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ Import Use Cases {#use-cases}
+  + [Import Paid Search metrics using Data Sources](use-cases/paid-search-metrics.md)

@@ -13,18 +13,20 @@ Dynamic variables support query string parameters or HTTP headers in an image re
 
 When Adobe recognizes a dynamic variable prefix, it automatically copies the query string or HTTP header value in your report suite. This action happens before any other processing, including processing rules and VISTA rules.
 
->[!TIP] Be mindful of maximum character limits when copying variables. For example, if copying `eVar1` to `prop1`, `prop1` can have a truncated value since it has a 100-byte limit (whereas `eVar1` has a 255-byte limit).
+>[!TIP]
+>
+>Be mindful of maximum character limits when copying variables. For example, if copying `eVar1` to `prop1`, `prop1` can have a truncated value since it has a 100-byte limit (whereas `eVar1` has a 255-byte limit).
 
 ## Dynamic variables in Adobe Experience Platform Launch
 
-You can use dynamic variables in any dimension field that accepts a string. Dimension values are typically set while configuring the Analytics extension (global variables) or under rules.
+You can use dynamic variables in any dimension field that accepts a string. Dimension items are typically set while configuring the Analytics extension (global variables) or under rules.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
-6. Locate the desired dimension value.
+6. Locate the desired dimension item.
 
 Place the dynamic variable prefix in the text field, followed by the query string parameter or HTTP header that you want to reference. By default, the dynamic variable prefix is `D=`.
 
@@ -44,4 +46,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] Dynamic variables appear as strings when debugging your implementation. Values are copied server-side by Adobe data collection servers.
+>[!NOTE]
+>
+>Dynamic variables appear as strings when debugging your implementation. Values are copied server-side by Adobe data collection servers.

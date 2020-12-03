@@ -27,7 +27,9 @@ Some dimensions and metrics can be used in Data Warehouse whereas they are not a
 
 Some dimensions and metrics are not supported in Data Warehouse.
 
->[!NOTE] If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
+>[!NOTE]
+>
+>If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
 
 ### Dimensions not supported
 

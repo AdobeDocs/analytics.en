@@ -6,6 +6,10 @@ uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 
 # Dates and date ranges
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 In the calendar, you can specify dates and date ranges, or select a preset. You can make calendar selections at the project, workspace, and report levels. A project's date range is the default date. However, a workspace date range overrides the project's date range. Similarly, a report's date range overrides the date settings of a workspace and project. You cannot select a date range outside your data availability range.
 
 ## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
@@ -20,7 +24,9 @@ When selecting a date range while creating a project, using Pre-Configured on th
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] If you need help running legacy reports, contact your Account Manager.
+>[!NOTE]
+>
+>If you need help running legacy reports, contact your Account Manager.
 
 ## Legacy Date Slices {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -37,5 +43,7 @@ c_legacy_data.xml
 1. [Create](/help/analyze/ad-hoc-analysis/c-getting-started.md) or open a project.
 1. Open the [calendar](/help/analyze/ad-hoc-analysis/c-dates.md), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
 
->[!NOTE] Historical date slices lie within quarter and year constraints. You cannot view data crossing the boundary between legacy slices and the new processing platform. Date ranges that span both results in an error. Additionally, the date ranges apply only to the Gregorian calendar, not to the Custom Calendar.
+>[!NOTE]
+>
+>Historical date slices lie within quarter and year constraints. You cannot view data crossing the boundary between legacy slices and the new processing platform. Date ranges that span both results in an error. Additionally, the date ranges apply only to the Gregorian calendar, not to the Custom Calendar.
 

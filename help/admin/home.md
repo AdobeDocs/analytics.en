@@ -1,5 +1,5 @@
 ---
-title: Analytics Admin Help
+title: Analytics Admin Guide
 description: Administration help for Adobe Analytics administrators, including user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection.
 ---
 
@@ -12,7 +12,7 @@ This help is intended for administrators of Adobe Analytics. It includes help on
 Adobe Analytics currently has two areas for administrators:
 
 * Adobe Admin Console: Use this area for provisioning Experience Cloud tools, and managing user permissions. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics Admin Console: Use this area for report suite and variable management. It can be accessed by clicking Admin in the top header of Adobe Analytics.
+* Analytics Admin Console: Use this area for report suite and variable management. It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 This guide covers:
 

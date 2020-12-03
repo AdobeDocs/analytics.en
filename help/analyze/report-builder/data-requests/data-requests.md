@@ -26,6 +26,18 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 
->[!MORELIKETHIS]
->
->* [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
+## Troubleshooting
+
+Sometimes the request wizard appears off-screen, especially for users that move between monitor setups. For example, you use a docking station at work, and your laptop screen at home. If you click 'Create' again while a request wizard is already open, you get the following error:
+
+"You first need to complete the request wizard process before starting a new one."
+
+Moving the request wizard back on-screen resolves this issue.
+
+1. Open Microsoft Excel and log in to Report Builder.
+2. Click [!UICONTROL Create], which opens the request wizard off-screen.
+3. Press `[Alt]` + `[Space]`.
+4. Press `[M]`.
+5. Press any of the arrow keys.
+6. Move your mouse, which attaches the request wizard to your cursor
+7. Click the mouse to release the request wizard on-screen.

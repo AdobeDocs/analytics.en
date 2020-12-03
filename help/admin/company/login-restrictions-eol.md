@@ -5,7 +5,7 @@ description: Learn about the end-of-life timing and implications for [!UICONTROL
 
 # End-of-life for [!UICONTROL Enforce IP login restrictions]
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you to whitelist specific IP addresses (that are deemed secure) to allow successful logins and access to your Adobe Analytics environment. In many instances, this feature is used to set up a corporate IP address as the only secure IP address that users can log in from. Therefore, in order to use Adobe Analytics, this requires users to either be at a corporate office or to log in the network via VPN. 
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. In many instances, this feature is used to set up a corporate IP address as the only secure IP address that users can log in from. Therefore, in order to use Adobe Analytics, this requires users to either be at a corporate office or to log in the network via VPN. 
 
 We are planning to end-of-life this feature in January, 2021.
 
@@ -21,7 +21,7 @@ Finally, Adobe has a functioning and far superior alternative solution via Singl
 
 For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. At that time, any IP login restrictions still in place will no longer be enforced. If you still need to restrict login by IP address, you should review and implement the recommended solution of Single-Sign-On and Federated IDs (more info and resources below). 
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below). 
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin] > [!UICONTROL Company Settings] > [!UICONTROL Security Manager]** in the Analytics UI (as shown below). 
 
 ![](assets/sec-manager2.png)
 

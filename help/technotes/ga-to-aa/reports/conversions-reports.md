@@ -23,7 +23,7 @@ In Analysis Workspace, this data can be viewed using the Fallout visualization.
 
 1. Click the visualizations icon on the left, and drag a Fallout visualization onto the workspace above the freeform table
 2. Click the components icon on the left, then locate the **Pages** dimension.
-3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension values are colored yellow.
+3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page to act as the first touchpoint, and drag it into the space labeled 'Add Touchpoint' in the visualization.
 5. Continue adding desired touchpoints by dragging page values onto the visualization.
 
@@ -35,7 +35,7 @@ The Fallout visualization is not limited to just the Pages dimension. Any dimens
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
 
-Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
+Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/dimensions/product.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 

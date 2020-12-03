@@ -1,7 +1,7 @@
 ---
 description: Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
 keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
-solution: Experience Cloud,Dynamic Tag Management
+solution: Experience Cloud
 title: Library management
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 ---
@@ -12,7 +12,9 @@ Descriptions of the fields and options in the Library Management settings in Dyn
 
  **[!UICONTROL  *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
->[!NOTE] If more than one Adobe Analytics tool is used in a single web property, each tool must have a unique tracker variable name. Duplicative object variable names between Adobe Analytics tools within a single web property will cause conflicts.
+>[!NOTE]
+>
+>If more than one Adobe Analytics tool is used in a single web property, each tool must have a unique tracker variable name. Duplicative object variable names between Adobe Analytics tools within a single web property will cause conflicts.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 

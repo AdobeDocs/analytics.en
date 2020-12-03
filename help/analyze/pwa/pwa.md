@@ -3,7 +3,7 @@ title: PWAs for Analytics
 description: Progressive web apps for Adobe Analytics
 ---
 
-# PWAs for Analytics
+# PWAs for Adobe Analytics
 
 This page describes how to use Adobe Analytics with Progressive Web Apps (PWAs).
 
@@ -15,11 +15,11 @@ Adobe Analytics works just as seamlessly with PWAs as it does with traditional w
 
 ## Get your PWA Analytics data
 
-To collect and analyze your PWA data with Analytics, you do not need to  make any configuration changes. Analytics automatically provides all the same functionality and features as it would with a traditional website.
+To collect and analyze your PWA data with [!UICONTROL Analytics], you do not need to  make any configuration changes. [!UICONTROL Analytics] automatically provides all the same functionality and features as it would with a traditional website.
 
 ## Add offline tracking to increase PWA effectiveness
 
-You can increase the effectiveness of your PWA by using Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) with it. By default, this feature is turned off, but you can add the following property to the AppMeasurement.js file to turn it on: `s.trackOffline=true;`.
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) with it. By default, this feature is turned off, but you can add the following property to the AppMeasurement.js file to turn it on: `s.trackOffline=true;`.
 
 For example, in the following AppMeasurement.js file, the property is added to the end of the `CONFIG SECTION`:
 

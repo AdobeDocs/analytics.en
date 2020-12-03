@@ -8,10 +8,6 @@ uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 
 Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
 
-* [Metric Type](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7) 
-* [Column Attribution Model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032) 
-* [How Linear Allocation works (as of July 19, 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
-
 ## Metric Type
 
 ![](assets/cm_type_alloc.png) 

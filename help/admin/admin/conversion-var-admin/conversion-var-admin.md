@@ -20,7 +20,9 @@ eVars are best used to measure cause and effect, such as:
 
 If traffic measurement or pathing is desired, using traffic variables is recommended.
 
->[!NOTE] Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -84,7 +86,7 @@ Descriptions of fields used when [editing conversion variables](/help/admin/admi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising Binding Event</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>If Merchandising is set to <span class="uicontrol"> Conversion Variable Syntax</span>, the selected events bind the current eVar value with a product. </p> <p>To use a Binding Event, set <span class="uicontrol"> Allocation to Most Recent</span>. If <span class="uicontrol"> Allocation is Original Value</span>, the first eVar product binding remains until the eVar expires. </p> </td> 
+   <td colname="col2"> <p>If Merchandising is set to <span class="uicontrol"> Conversion Variable Syntax</span>, the selected events bind the current eVar value with a product. </p> <p>To use a Binding Event, set <span class="uicontrol"> Allocation to Most Recent</span>. If <span class="uicontrol"> Allocation is Original Value</span>, the first eVar product binding remains until the eVar expires. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. You can select an event only when the "Conversion Variable Syntax" is selected.</p> </td> 
   </tr> 
  </tbody> 
 </table>

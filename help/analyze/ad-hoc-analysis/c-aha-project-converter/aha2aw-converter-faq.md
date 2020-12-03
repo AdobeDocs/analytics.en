@@ -6,6 +6,10 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 
 # Project Converter FAQ
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 ## Project Converter FAQ {#topic_8231595303AD403E9322645A63632D57}
 
 * [Known Conversion Issues](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361) 
@@ -52,7 +56,7 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Scatter Plot</b>: In exported projects in Analysis Workspace, the Y-axis is set as the first column, the X-axis is the second column, and diameter is the third column. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Fallout tables</b>: To show fallthrough or fallout tables, right-click on the checkpoint and select a breakdown option. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Fallout report-level date ranges</b>: Customized report date ranges have not been applied to Fallout visualizations. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Flow report</b>: Flow will be moved to a separate panel to preserve date ranges &amp; segmentation. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Flow report</b>: Flow will be moved to a separate panel to preserve date ranges &amp; segmentation. Repeat instances can be included or excluded under Flow settings. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Conversion Funnel</b>: Will be converted to a freeform table because it is not supported in Analysis Workspace. The Fallout visualization is a recommended replacement for the Conversion Funnel, but it will behave in a slightly different manner. </li> 
     </ul> </td> 
   </tr> 
@@ -63,14 +67,14 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Segments are internal to the converted project (not public). You can choose to make them public, as shown here: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis workspace-level segments are applied at the project/workspace level in Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis report-level segments are applied at the table column level in Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis table segments are applied at the column level in Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis table segments are applied at the table column level in Workspace. </li> 
     </ul> <p>You can edit segments in the <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Segment Builder</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: How are date ranges converted?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. As such, date ranges like 'last 90 days' might not match exactly between tools. Use custom date ranges to retrieve the same time period in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. As such, date ranges like 'Last 90 days' might not match exactly between tools. Instead, apply 'Last X <b>full </b> days' ranges in Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis workspace-level date range are applied at the project/workspace level in Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis report-level date range are applied at the table column level in Workspace. </li> 
     </ul> <p>You can edit your custom date ranges under <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Date Ranges</span>. </p> </td> 

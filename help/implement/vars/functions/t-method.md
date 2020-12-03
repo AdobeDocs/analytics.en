@@ -15,7 +15,7 @@ var s = s_gi("examplersid");
 
 // Define config variables and page variables
 s.trackingServerSecure = "data.example.com";
-s.eVar1 = "Example dimension value";
+s.eVar1 = "Example dimension item";
 
 // Compile the variables on the page into an image request to Adobe
 s.t();
@@ -56,4 +56,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] Previous versions of AppMeasurement used several lines of code to call this function. The additional code historically accommodated workarounds for different browsers. Standardization and best practices in modern browsers no longer require this block of code. Only the method call `s.t()` is needed now.
+>[!NOTE]
+>
+>Previous versions of AppMeasurement used several lines of code to call this function. The additional code historically accommodated workarounds for different browsers. Standardization and best practices in modern browsers no longer require this block of code. Only the method call `s.t()` is needed now.

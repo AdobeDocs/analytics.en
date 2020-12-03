@@ -18,7 +18,9 @@ To create a histogram:
 
 ![](assets/histogram.png)
 
->[!NOTE] Histograms support only standard metrics, not calculated metrics.
+>[!NOTE]
+>
+>Histograms support only standard metrics, not calculated metrics.
 
 Here we have used the Page Views Metric per Unique Visitors. The first (left) bucket corresponds to 1 page view per unique visitor, the second bucket to two page views, etc.
 
@@ -33,7 +35,7 @@ To adjust your histogram settings, click the Settings ("gear") icon in the upper
 |  Starting Bucket  | Determines which bucket the histogram starts with. "1" is the default. You can set starting numbers from 0 to infinity (no negative numbers).  |
 |  Metric Buckets  | Lets you increase/decrease the number of data ranges (buckets.) The maximum number of buckets is 50.  |
 |  Metric Bucket Size  | Lets you set the size of each bucket. For example, you can change the bucket size from 1 page view to 2 page views.  |
-|  Counting Method  | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). For example, page views per visit or page views per visitor or page views per hit. For Hit, "Occurrences" is used as the y-axis metric in a freeform table.  |
+|  Counting Method  | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). For example, page views per visit or page views per visitor or page views per hit. For Hit, "Occurrences" is used as the y-axis metric in a freeform table.  |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

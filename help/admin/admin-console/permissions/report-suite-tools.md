@@ -54,3 +54,4 @@ Use this page to understand each permission item under Report Suite Tools.
 | Usage Summary Reportlet | Not used. |
 | Web Resources | Not used. |
 | Social| Not used. |
+| Data Repair API|Grants access to the Data Repair API (future release)|

@@ -14,9 +14,11 @@ It lets you:
 * Analyze where customers go before and after specified checkpoints, such as entry, a specific dimension, or exit 
 * Create segments by designating a specific point in a chosen path
 
->[!NOTE] For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Flow Visualization on YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Flow Visualization video tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 

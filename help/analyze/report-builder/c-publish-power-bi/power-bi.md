@@ -14,12 +14,6 @@ Combining the report-generation capability of Report Builder with the visualizat
 
 ![](assets/aaplusbi.png)
 
-The integration with Adobe Report Builder lets you
-
-* [Publish Scheduled Report Builder workbooks to Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) 
-* [Publish all Formatted Tables in the Workbook as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publish all Report Builder Requests as Power BI Dataset Tables](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-
 ## System requirements {#section_0B71092D853446F38FA36447DAC0D32B}
 
 * Adobe Report Builder 5.5 [installed](/help/analyze/report-builder/setup/t-install-arb.md) 
@@ -57,7 +51,9 @@ Scheduled workbooks are formatted Excel spreadsheets populated with data from Ad
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] If the workbook contains a macro, the "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables" will be disabled.
+>[!NOTE]
+>
+>If the workbook contains a macro, the "Publish All Formatted Tables in the Workbook as Power BI Dataset Tables" will be disabled.
 
 Instead of importing the entire workbook, you can import only the content of all formatted tables within the workbook.
 

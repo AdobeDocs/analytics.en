@@ -2,27 +2,31 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
-user-guide-url: /content/help/en/analytics/admin/home.html
+breadcrumb-title: Admin Guide
+user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 ---
 
 # Analytics Admin Guide {#admin}
 
-+ [Analytics Admin Help](home.md)
++ [Analytics Admin Guide](home.md)
 + Analytics Admin overview {#admin-overview}
   + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
   + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [System requirements](c-system-requirements/sys-reqs.md)
++ [System requirements](sys-reqs.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + Bot removal {#bot-removal}
     + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
+    + [Common bot signatures](admin/bot-removal/bot-signatures.md)
+    + [Bot exclusion methods](admin/bot-removal/bot-exclusion-methods.md)
   + [Code Manager](admin/code-manager-admin.md)
   + Conversion variables {#conversion-variables}
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
     + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
     + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
+    + [Classification hierarchies](admin/conversion-var-admin/classification-hierarchies.md)
     + [List variables](admin/conversion-var-admin/list-var-admin.md)
   + [Currency codes](admin/currency.md)
   + [Custom report descriptions](admin/custom-desc-admin.md)
@@ -37,8 +41,8 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Logs](admin/logs.md)
   + [Marketing Channels](admin/marketing-channels-admin.md)
   + [Menu customizing](admin/customize-menus.md)
-  + [Metric cisibility](admin/metric-visibility.md)
-  + [Mobile management](admin/mobile-management.md)
+  + [Metric visibility](admin/metric-visibility.md)
+  + [App management](admin/mobile-management.md)
   + Paid search detection {#paid-search-detection}
     + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
     + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)

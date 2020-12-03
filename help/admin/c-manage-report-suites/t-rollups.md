@@ -19,3 +19,7 @@ Steps that describe how to create a rollup report suite.
 
    **[!UICONTROL Time Zone:]** The time zone where data is reported.
 1. Click **[!UICONTROL Create Rollup]**.
+
+>[!NOTE]
+>
+>Rollups are not supported in Analysis Workspace.

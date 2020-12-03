@@ -38,14 +38,11 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth Token </p> </td> 
-      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
-        </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display 
-        <systemoutput>
-          Retrieved
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Note:  OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to their information on other web sites but without giving them the passwords. </p> <p>Note:  You will notice that you will get routed to a third-party URL (efrontier.com). Adobe uses efrontier to power the OAuth authentication process for all three search engines. </p> <p>Note:  If you use Internet Explorer 11 (or earlier), you will not be able to successfully retrieve the Oauth token for any of the three search engines. Use other web browsers instead. </p> <p>Clicking<span class="uicontrol"> Retrieve Token</span> launches the OAuth2 authentication process. This means that you will be asked to sign in to your Google/Bing search account using your credentials. Depending on which search engine you chose, the process is slightly different: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Provide Google Account ID. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Provide Bing Account ID and Bing Customer ID. </li> 
+       </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>Once you have successfully logged in, the OAuth Token field will display <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -53,28 +50,9 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
    Fill in the **[!UICONTROL Tracking Settings]** following these guidelines: 
 
-    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Setting </th> 
-      <th colname="col2" class="entry"> Description </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Lets the Advertising Cloud Engine decide how the tracking parameters are appended to the Search Engine's tracking templates/destination URLs. This is the simplest approach, but may not result in the best integrated dataset. <p>Important: In order to configure a search engine account in 'Auto Mode', you are responsible for taking the following actions: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">The "s_kwcid" parameter and value will be added to the account tracking templates or landing page URLs in the account being added. This will be inserted at the end of the URL. As a result, additional action may be required on your part if your web server requires a certain key=value pair at the end of the URL OR an update to support any new key=value pair in the URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">In addition, keywords can be inserted into the landing URL as part of the "s_kwcid" value, so if they contain special characters or symbols, please confirm that your web server can support those characters (an example of a common special characters is "+" which is used in "Broad Match Modified" keywords). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Lets you manage how the tracking parameters are added to the Search Engine's tracking templates/destination URLs. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Refer to these manual tracking examples for each search engine</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+    | Setting | Description |
+    |--- |--- |
+    |Type|<ul><li>**Auto:** Lets the Advertising Cloud Engine decide how the tracking parameters are appended to the Search Engine's tracking templates/destination URLs. This is the simplest approach, but may not result in the best integrated dataset.<br>**Important:** In order to configure a search engine account in 'Auto Mode', you are responsible for taking the following actions:<br>- The "s_kwcid" parameter and value will be added to the account tracking templates or landing page URLs in the account being added. This will be inserted at the end of the URL. As a result, additional action may be required on your part if your web server requires a certain key=value pair at the end of the URL OR an update to support any new key=value pair in the URL. **Note:** Learn more on whether you should add this parameter to your [Content Security Policy](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- In addition, keywords can be inserted into the landing URL as part of the "s_kwcid" value, so if they contain special characters or symbols, please confirm that your web server can support those characters (an example of a common special characters is "+" which is used in "Broad Match Modified" keywords).</li><li>**Manual:** Lets you manage how the tracking parameters are added to the Search Engine's tracking templates/destination URLs. [Refer to these manual tracking examples for each search engine](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul>|
 
 1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. You need to provide at least one report suite before you can save the Advertising Account. You can map multiple accounts to multiple report suites (1:1, 1:Many, Many:Many). Note that the data that AMO pulls from the search engine is simply copied to any mapped report suite, so there is no splitting of data.
 
@@ -104,5 +82,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
    You are now taken to the Advertising Accounts [Management UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md), where your newly created account should be listed.
 
->[!NOTE] You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
+>[!NOTE]
+>
+>You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
 

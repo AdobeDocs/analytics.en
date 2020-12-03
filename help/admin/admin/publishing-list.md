@@ -16,6 +16,6 @@ Multiple publishing lists can be specified when scheduling a report.
 | Element | Description |
 |--- |--- |
 |[!UICONTROL Search for]|Lets you filter the table to search for a publishing list.|
-|!UICONTROL Report Suites to Include]|Overrides the report suite for a scheduled report or all reportlets in a dashboard. Though there is no technical limit on the number of separate report suite entries, it is recommended to limit it to approximately 50. There is no established limit on the number of emails that can be included.|
-|!UICONTROL E-mail Addresses]|A comma-delimited list of all emails that will receive the report with the new report suite.  Click **!UICONTROL Click to Edit]** to specify the Email addresses to receive. Enter each Email address, separating multiple Email addresses with a semi-colon (;). Press `<Enter>` when finished entering Email addresses. <br>The Email Count field displays the number of Email addresses currently associated with the report suite entry.|
-|!UICONTROL Duplicate]|Creates a copy of the publishing list.|
+|[!UICONTROL Report Suites to Include]|Overrides the report suite for a scheduled report or all reportlets in a dashboard. Though there is no technical limit on the number of separate report suite entries, it is recommended to limit it to approximately 50. There is no established limit on the number of emails that can be included.|
+|[!UICONTROL E-mail Addresses]|A comma-delimited list of all emails that will receive the report with the new report suite.  Click **[!UICONTROL Click to Edit]** to specify the Email addresses to receive. Enter each Email address, separating multiple Email addresses with a semi-colon (;). Press `<Enter>` when finished entering Email addresses. <br>The Email Count field displays the number of Email addresses currently associated with the report suite entry.|
+|[!UICONTROL Duplicate]|Creates a copy of the publishing list.|

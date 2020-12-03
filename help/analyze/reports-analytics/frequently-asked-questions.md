@@ -39,7 +39,7 @@ Apple devices report their firmware version in the user agent string, not the de
 
 **Why do totals at the bottom of my report not match when I sum the values?**
 
-Dimension values can often apply in multiple places; for example, visits that span midnight or multiple products belonging to a single order. The dimension value is reported across all applicable line items, but is deduplicated in the report's total. See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+Dimension items can often apply in multiple places; for example, visits that span midnight or multiple products belonging to a single order. The dimension item is reported across all applicable line items, but is deduplicated in the report's total. See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
 
 **How do I exclude data from a particular IP addresses in my report suite?**
 
@@ -51,8 +51,8 @@ Deleting a report suite is not possible. However, a report suite can be hidden f
 
 **When using segmentation, what container should I use? Page view, visit, or visitor?**
 
-The segment container you use is depending on how broad you want to capture data. Page view containers only bring in hits that match segment criteria, useful for filtering out irrelevant parts of visits. Visit containers bring it all hits of a visit where one or more hits matched segment criteria, useful for looking at sessions in general. Visitor containers bring in all visits where a hit matched segment criteria, useful for looking at people. It is your choice as an analyst to determine what segment container is best to use. See [Segmentation overview](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+The segment container you use is depending on how broad you want to capture data. Page view containers only bring in hits that match segment criteria, useful for filtering out irrelevant parts of visits. Visit containers bring it all hits of a visit where one or more hits matched segment criteria, useful for looking at sessions in general. Visitor containers bring in all visits where a hit matched segment criteria, useful for looking at people. It is your choice as an analyst to determine what segment container is best to use. See [Segmentation overview](/help/components/segmentation/seg-overview.md) in the Components user guide for more information.
 
 **Why isn't my segment showing up in Data Warehouse?**
 
-Due to Data Warehouse's unique processing architecture, the platform is not optimized to handle some types of data, such as pathing. See [Data Warehouse segment compatibility](/help/components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+Due to Data Warehouse's unique processing architecture, the platform is not optimized to handle some types of data, such as pathing. See [Data Warehouse segment compatibility](/help/components/segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.

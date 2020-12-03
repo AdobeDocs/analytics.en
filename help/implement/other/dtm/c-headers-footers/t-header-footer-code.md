@@ -26,7 +26,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
    ![](assets/dtm-embed.png)
 
-   Place the code as close to the [!DNL <head>] tag as possible. This code snippet should be placed on every page of your live production site.
+   Place the code as close to the `<head>` tag as possible. This code snippet should be placed on every page of your live production site.
 
    >[!NOTE]
    >
@@ -34,7 +34,7 @@ Dynamic Tag Management creates staging and production embed codes you can use to
 
 1. Copy the production footer code and place it in the [!DNL BODY] section of your site HTML.
 
-   Place the code as close to the [!DNL </body>] tag as possible.
+   Place the code as close to the `</body>` tag as possible.
 1. Copy the staging header and footer code, then repeat the steps above on your staging site.
 
    >[!NOTE]

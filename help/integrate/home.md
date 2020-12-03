@@ -1,9 +1,9 @@
 ---
-title: Analytics Integration Help
+title: Analytics Integration
 description: null
 ---
 
-# Analytics Integration Guide
+# Analytics Integration
 
 ![Banner](../../assets/doc_banner_integrate.png)
 

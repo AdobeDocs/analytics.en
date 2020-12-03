@@ -7,6 +7,10 @@ uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 
 # Products reports
 
+>[!IMPORTANT]
+>
+>Adobe is moving Ad Hoc Analysis to end of life on March 1, 2021. [Learn more](https://adobe.ly/discoverworkspace)
+
 Displays information about the things you are selling, distributing, or displaying on your website. You can see data on orders or downloads for your products, applications, or content.
 
 ## Products Conversion Funnel {#concept_9F13DAFEDF104B63AA0BF8CA1F3AD478}

@@ -6,16 +6,16 @@ description: Marketing Channel processing rules determine if a visitor hit meets
 
 # Processing rules for Marketing Channels
 
-Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel. The rules process every hit a visitor makes on your site. When a rule does not meet the criteria for a channel, or if rules are not configured correctly, the system assigns the hit to No Channel Identified.
+Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel by processing every hit a visitor makes on your site. The rules are processed in the order you specify, and when a rule is met, the system stops processing the remaining rules. 
 
-Here are important guidelines for creating rules:
+![](assets/buckets_2.png)
 
-* Sort the rules in the order that you want them to be processed.
-* At the end of your list, include a catch-all rule, such as Other. This rule identifies external traffic but not internal traffic.
-
-   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] Although these rules do not affect reporting outside of marketing channels, they affect marketing channel data collection. Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+Additional notes about processing :
+* Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+* The report can process up to 25 channels at a time.
+* Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted.
+* Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event).
+* If there is a gap coverage of your rules, you may see [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Prerequisites
 
@@ -26,45 +26,40 @@ Here are important guidelines for creating rules:
 
 Create Marketing Channel processing rules, which determine if a visitor hit meets the criteria assigned to a channel.
 
-This procedure uses an email rule as an example. The example assumes that you have added an email channel to your list of channels on the Marketing Channel Manager page.
-
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Select a report suite.
+2. Select a report suite.
 
    If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
 
    See [Run the Automatic Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+3. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. If you ran the automatic setup, a set of channel and rules were automatically defined for you.
 
    ![Step Result](assets/marketing_channel_rules.png)
 
-1. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
-
-   Here you are not selecting your channel, but a template that populates the rule with a few of the necessary parameters.
+4. If you want to add a new rule, select from the **[!UICONTROL Add New Rule Set]** menu. If you select a channel, you are given a rule template and if you select Custom, you start from a blank slate. Both options allow you to modify the rule set as needed. 
 
    ![Step Result](assets/example_email.png)
 
-   Use Boolean logic (if / then statements) to configure a rule. For example, in an email channel rule, provide the settings or information emphasized in the following rule statement:
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+6. To prioritize rules, drag-and-drop them to the desired position.
+7. Click **[!UICONTROL Save.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Continue down this page to see recommendations for channel rule order as well as more definition examples.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### Set the marketing channel value
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Set the channel's value]** defines the marketing channel detail dimension that is available for that channel. This enables you to breakdown Marketing channel dimensions and see more detailed information about the channel.
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
-1. To continue creating rules, click **[!UICONTROL Add Rule]**.
-1. To prioritize rules, drag-and-drop them to the desired position.
-1. Click **[!UICONTROL Save.]**
+It is recommended that the channel value be set to the same criteria used to define the channel itself. For example, if query string parameter is used to define the channel, set query string parameter as the channel value as well.
 
->[!MORELIKETHIS]
+### Rule criteria
+
+This reference table defines the fields, options, and hit attributes you can use to define Marketing Channel Processing Rules. 
+
+>[!NOTE]
 >
->* [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/c-faq.md)
-
-## Marketing Channel rule criteria
-
-This reference table defines the fields, options, and hit attributes you can select on the Marketing Channel Processing Rules page.
+>Any text field you define, such as query string parameter or lists of values to match against, are evaluated as **case-insensitive** values. For example, if you have a rule where query string parameter cmp = abc123, all versions of both 'cmp' and 'abc123' will match the rule. You do not need to list multiple case versions of these values. 
 
 | Term  | Definition  |
 |--- |--- |
@@ -87,7 +82,7 @@ This reference table defines the fields, options, and hit attributes you can sel
 |Page Root Domain (TLD+1)|The root domain of the page on which the visitor lands, such as example.co.uk .|
 |Page URL|The URL of a web page on your site.|
 |Referring Domain|The domain your visitors came from before they visited your site, for example, referrers coming from `abcsite.com` versus `xyzsite.com`.|
-|Query String Parameter|If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (See `https://en.wikipedia.org/wiki/Query_string`.)  You can specify only one query string parameter per rule set. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule.|
+|Query String Parameter|If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then 'page' and 'cat' are both query string parameters. (See `https://en.wikipedia.org/wiki/Query_string`.)  You can specify only one query string parameter per rule set. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. Query string parameters are evaluated as case-insensitive; for example, 'cat' and 'CAT' will be evaluted the same way.|
 |Referrer|The web page location (full URL) your visitors were at before coming to your site. A referrer exists outside your defined domain.|
 |Referring Domain and Path|A concatenation of the Referring Domain and URL path. Examples include:    `www.example.com/products/id/12345` or `ad.example.com/foo`|
 |Referring Parameter|A query string parameter on the referrer URL. For example, if your visitors come from `example.com/?page=12345&cat=1`, then page and cat are the referring parameters.|
@@ -97,67 +92,82 @@ This reference table defines the fields, options, and hit attributes you can sel
 |Search Engine + Keywords|A concatenation of the Search Keyword and Search Engine to uniquely identify the search engine. For example, if you search for the word computer, the search engine and keyword are identified as follows: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Note:** n = natural; p = paid|
 |Set the channel's value to|In addition to knowing which marketing channel brings a visitor to your site, you can know which banner ad, search keyword, or email campaign within the channel is getting credit for a visitor's site activity. This ID is a channel value that is stored along with the channel. Often this value is a campaign ID embedded in the landing page or the referring URL; in other cases it is the search engine and search keyword combination, or the referring URL that most correctly identifies the visitor from a particular channel.|
 
-## Internal (Session Refresh) channel
+## Marketing Channel rule order and definitions {#channel-rules}
 
-The Internal Channel (often renamed to Session Refresh) consists of visits to the site where the referring URL matches the Internal URL Filters setup in the Admin Console, meaning the visitor came from within the site to start their visit.
+Channel rules are processed in the order you specify. A recommended aproach to channel order is to place paid or managed channels first (e.g. paid search, natural search, display, email) so that they receive credit, followed by organic channels (e.g. direct, internal, referring domains).
+
+Below is the recommended order for channel rules as well as example definitions:
+
+### Paid Search {#paid-search}
+
+Paid search is a word or phrase that you pay a search engine for placement in search results. This channel is typically defined based on query string parameter (see Display channel example) or paid search detection rules. The decision depends on the marketing channel detail you would like to record.
+
+#### Paid search detection
+
+To match paid search detection rules, the marketing channel uses settings configured on the [!UICONTROL Paid Search Detection] page. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). The destination URL matches the existing paid search detection rule for that search engine.
+
+For the marketing channel rule, the [!UICONTROL Paid Search] settings are as follows:
+
+![](assets/example_paid_search.png)
+
+See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin for more information.
+
+### Natural Search {#natural-search}
+
+A natural search occurs when visitors find your website through a Web search, where the search engine ranked your site without you paying for the listing. 
+
+There is no natural search detection in Analytics. After you set up Paid Search Detection, the system knows that if a search referrer was not a paid search referrer, it must be a natural search referrer. See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
+
+For the marketing channel rule, the Natural Search settings are as follows:
+
+![](assets/example_natural_search.png)
+
+### Display {#display}
+
+This rule identifies visitors originating from banner advertisements. It is identified by a query string parameter in the destination URL, in this case *`Ad_01`*. Query string parameter and the values it looks for are evaluated as case-insensitive values.
+
+![](assets/example_display.png)
+
+### Email {#email}
+
+This rule identifies visitors originating from email campaigns. It is identified by a query string parameter in the destination URL, in this case *`eml`*:
+
+![](assets/example_email.png)
+
+### Affiliates {#afilliates}
+
+This rule identifies visitors that originate from a specified set of referring domains. In the rule, you list the domains of affiliates you would like to track, as follows:
+
+![](assets/example_affiliates.png)
+
+### Other Campaigns {#other-campaigns}
+
+A best practice is to include an "Other campaigns" channel following all paid channel rules. This channel acts as a catch-all for uncategorized paid traffic.
+
+![](assets/other-campaigns.png)
+
+### Social Networks {#social-networks}
+
+This rule identifies visitors that originate from a social network, such as Facebook;. The channel is often renamed to Organic Social. The settings can be as follows:
+
+![](assets/example_social.png)
+
+### Internal (Session Refresh) channel {#internal}
+
+This rule visitors where their referring URL matches the Internal URL Filters setup in the Admin Console, meaning the visitor came from within the site to start their visit. This channel is often renamed to Session Refresh.
 
 ![](assets/int-channel1.png)
 
-### Override best practices
+See [Reasons for Internal (Session Refresh)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) for more information on why this channel occurs.
 
-It is a best practice to uncheck the override last-touch option for Direct and Internal channels, so that they can’t take credit from other persisting last touch channels (or each other). 
+### Direct {#direct}
 
->[!NOTE]This document assumes that Direct and Session Refresh have Override settings unchecked.
+This rule identifies visitors that have no referring domain, which includes visitors that come to your site directly, such as from a Favorites link or by pasting a link in their browser. This channel is often renamed to Direct Typed/Bookmarked.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Engagement period
+### Referring Domains channel {#referring-domains}
 
-Both the first- and last-touch channels for a visitor are reset after 30 days of inactivity on that browser. 
+The Referring Domains channel identifies visitors that have a referring domain. Together, the Internal, Direct, and Referring domains channels act as a catch-all for all remaining hits that have not yet been categorized into a channel.
 
->[!NOTE] 30 days is the default and can be modified as needed through the Admin settings.
-
-If the visitor uses the site frequently, the engagement window will roll with them. They must be inactive for 30 days for the period to expire and channels to be reset. 
-Example:
-
-* Day 1: User comes to the site on Display. First & Last-touch channels will get set to Display.
-
-* Day 2: User comes to the site on Natural Search. First-touch remains Display, and Last touch is set to Natural Search.
-
-* Day 35: User has not been to the site in 33 days and comes back using the tab they had open in their browser. Assuming a 30 day engagement window, the window would have closed and Marketing Channel cookies would be expired. The first touch & last touch channel will get reset, and will be set to Session Refresh since the user came from an internal URL.
-
-### Relationship between First & Last Touch
-
-To understand the interaction between first and last touch, and confirm that overrides work as expected, you can pull a first-touch channel report, sub-related to a last-touch channel report, with your key success metric added in (see example below). The example demonstrates the interaction between first and last-touch channels.
-
-![](assets/int-channel3.png)
-
-The intersection where first equals last touch is highlighted in orange. Both Direct and Session Refresh only get last-touch credit if they were also the first-touch channel, because they cannot take credit from other persisting channels (highlighted rows in gray).
-
-### Why does Session Refresh occur?
-
-Since we know that last-touch Session Refresh can only occur if it was also the first touch, the scenarios below explain how Session Refresh could be a first-touch channel.
-
-**Scenario 1: Session timeout**
-
-A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor’s engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
-
-**Scenario 2: Not all site pages are tagged**
-
-A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Page A would be seen as the internal referrer and the visit would be classified as Session Refresh.
-
-**Scenario 3: Redirects**
-
-If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. The visit will be classified as Session Refresh.
-
-**Scenario 4: Cross-Domain Traffic**
-
-A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. The visit will be classified as Session Refresh.
-
-**Scenario 5: Long entry-page load times**
-
-A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
-
-**Scenario 6: Clearing cookies mid-site**
-
-A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
+![](assets/referring-domains.png)

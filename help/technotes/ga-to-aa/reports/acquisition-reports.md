@@ -49,9 +49,9 @@ Source and medium reports show the domains that drove traffic to your site.
 
 See the following pages in the Components user guide for more information on their respective dimension:
 
-* [Referring Domain](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Referrer Type](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Search Keyword](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Referring Domain](/help/components/dimensions/referring-domain.md)
+* [Referrer Type](/help/components/dimensions/referrer-type.md)
+* [Search Keyword](/help/components/dimensions/search-keyword.md)
 
 ## All Traffic - Referrals
 
@@ -61,7 +61,7 @@ See the following pages in the Components user guide for more information on the
 1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Referring Domain](/help/components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+See the [Referring Domain](/help/components/dimensions/referring-domain.md) dimension in the Components user guide for more information.
 
 ## Google Ads reports and Search Console reports
 
@@ -73,7 +73,7 @@ The advertising analytics feature requires configuration to return data. See [Ad
 
 Social reports provide similar information as their respective Behavior report, except in the context of social networks. This data is available in Analysis Workspace by combining a dimension with a segment.
 
-Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](/help/components/segmentation/seg-overview.md) in the Components user guide for more information.
 
 ### Social - Network Referrals
 
@@ -105,7 +105,7 @@ The Users flow report shows pathing data in context of visitors arriving through
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
 2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 5. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 

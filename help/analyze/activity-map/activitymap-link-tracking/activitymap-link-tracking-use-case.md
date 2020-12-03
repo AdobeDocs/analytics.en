@@ -1,5 +1,5 @@
 ---
-description: You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .
+description: You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file.
 title: Differentiate links that reference the same Link ID and region
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
@@ -83,7 +83,9 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 You can customize the region by ensuring that each "buy" link has its own Region defined. To do so, add an "id" parameter to one of the parents of each "Buy" anchor tag.
 
->[!NOTE] You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
+>[!NOTE]
+>
+>You are not strictly limited to the "id" parameter as a region identifier. You can also set your own identifier using the JavaScript variable "s.ActivityMap.regionIDAttribute".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 

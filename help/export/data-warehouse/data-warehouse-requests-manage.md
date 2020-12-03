@@ -24,5 +24,6 @@ Working in this tab lets you
 * Re-prioritize reports by dragging and dropping them to a new location within the queue.
 * To see when a request started processing, click on a scheduled request ID and examine the pop-up that opens.
 
->[!NOTE] To cancel a Data Warehouse request, [follow these steps](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+Click on a job to see individual requests for that job.
 
+* Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete.

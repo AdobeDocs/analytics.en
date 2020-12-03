@@ -17,30 +17,21 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Watch the Processing Rules overview and training from Adobe Summit to learn why you should be using processing rules.*
+## Processing Rules Permissions {#section_8A4846688050453784DAE4D89355169A}
 
-## Get Authorized to Use Processing Rules {#section_8A4846688050453784DAE4D89355169A}
-
-Prior to April 20, 2017, all users (including administrators) had to pass an exam and be granted authorization to use processing rules by Adobe Customer Care.
-
-Now, administrators have rights to use processing rules **by default**. The exam is no longer necessary. Administrators can also grant these rights to non-administrators through the Admin Tools interface. Here's how:
-
-1. If you have not already done so, [create a group](/help/admin/user-management2/c-user-groups/groups.md) that includes only those non-admins that should have authorization to use processing rules.
-1. [Add the non-administrators to that group](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
-1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Administrators can also grant these rights to non-administrators through the Admin Tools interface. For instructions, see []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Because processing rules permanently affect Analytics data, we strongly recommend that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). Knowledge of the context data variables and standard variables populated in various platforms will help prevent accidental deletion or alteration of data.
+>Because processing rules permanently affect Analytics data, Adobe strongly recommends that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). Knowledge of the context data variables and standard variables populated in various platforms will help prevent accidental deletion or alteration of data.
 
 ## Use Context Data to Simplify Data Collection {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Context data variables are a new type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
+Context data variables are a type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
 
 ![](assets/evar-context-map.png)
 

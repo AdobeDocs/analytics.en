@@ -45,4 +45,4 @@ Processing rules can monitor incoming values to transform common typos and set e
 
 Once context data variables are defined within your implementation, they must be copied to variables such as eVars to be used in reporting.
 
-For more information, go [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) and [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+For more information, go [Copy a context data variable to an eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).

@@ -20,7 +20,7 @@ Tracking Server is a field under the [!UICONTROL General] accordion when configu
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Tracking Server] field.
 
-If this field is left blank, it defaults to `[rsid].112.2o7.net`.
+If this field is left blank, it defaults to `[rsid]sc.omtrdc.net`.
 
 ## s.trackingServer in AppMeasurement and Launch custom code editor
 

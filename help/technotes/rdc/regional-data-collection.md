@@ -19,7 +19,7 @@ RDC currently includes the following locations (subject to change):
 |---------------------|-------------------|
 | Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 
-Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
 
 ## First-party HTTPS data collection
 

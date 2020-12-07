@@ -20,7 +20,7 @@ Tracking Server is a field under the [!UICONTROL General] accordion when configu
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Tracking Server] field.
 
-If this field is left blank, it defaults to `[rsid].112.2o7.net`.
+If this field is left blank, it defaults to `[rsid]sc.adobedc.net`.
 
 ## s.trackingServer in AppMeasurement and Launch custom code editor
 
@@ -58,7 +58,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Pick a subdomain unique to your organization, unlikely to be picked by another organization that uses Adobe Analytics.  The visitor namespace assigned to your organization is recommended.  Make sure that all implementations in your organization use the same tracking server. It can be helpful to maintain this information in a [solution design document](../../prepare/solution-design.md).
 
-Your organization may already be using a 3rd party tracking server in the `sc.omtrdc.net` or `2o7.net` domains.  These were primarily used in previous versions of Adobe Analytics and are still valid. 
+Your organization may already be using a 3rd party tracking server in the `sc.adobedc.net` or `2o7.net` domains.  These were primarily used in previous versions of Adobe Analytics and are still valid. 
 
 >[!NOTE]
 >

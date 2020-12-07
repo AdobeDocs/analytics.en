@@ -13,7 +13,7 @@ The `cookieDomain` variable determines the domain where AppMeasurement sets cook
 
 This variable only needs to be used when **both** of the following conditions are met:
 
-* If your implementation uses first-party cookies. This variable is not required with implementations using a [`trackingServer`](trackingserver.md) value containing `sc.omtrdc.net`.
+* If your implementation uses first-party cookies. This variable is not required with implementations using a [`trackingServer`](trackingserver.md) value containing `sc.adobedc.net`.
 * If your domain has a period in its suffix. For example, `example.co.uk` could use the `cookieDomain` variable to explicitly state that the cookie domain is `example.co.uk` and not `co.uk`.
 
 Only a small number of implementations have use for the `cookieDomain` variable, and even then, alternative variables like [`cookieDomainPeriods`](cookiedomainperiods.md) can be used instead.

@@ -162,13 +162,13 @@ To help executive users:
 
     **For executive users on iOS:**
 
-    * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)**) and follow the prompts to download, install, and open the app:
+    * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
         [iOS link](https://apple.co/2zXq0aN)
 
     **For executive users on Android:**
 
-    * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)**) and follow the prompts to download, install, and open the app:
+    * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
         [Android link](https://bit.ly/2LM38Oo)
 

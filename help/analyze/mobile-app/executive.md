@@ -46,13 +46,13 @@ To download and install the app, follow the steps according to the operating sys
 
 **For executive users on iOS:**
 
-Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)**) and follow the prompts to download, install, and open the app:
 
 [iOS link](https://apple.co/2zXq0aN)
 
 **For executive users on Android:**
 
-Click the following link (it is also available in Analytics under **Tools** > **dashboards**) and follow the prompts to download, install, and open the app:
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)**) and follow the prompts to download, install, and open the app:
 
 [Android link](https://bit.ly/2LM38Oo)
 
@@ -68,7 +68,7 @@ To use dashboards:
 
     ![Sign in sequence](assets/signseq.png)
 
-2. Choose a company. After you sign into dashboards, the **Choose a company** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
+2. Choose a company. After you sign into dashboards, the **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
 
 3. The Scorecard list then shows all Scorecards that have been shared with you. Tap the Scorecard you want to view.
 
@@ -81,7 +81,7 @@ To use dashboards:
     
     ![Nothing shared](assets/nothing.png)
 
-4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **Preferences** below for more information). 
+4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **[!UICONTROL Preferences]** below for more information). 
 
     ![Tiles explained](assets/newexplain.png)
 
@@ -112,7 +112,7 @@ To use dashboards:
 
     * You can also change the date ranges within the Breakdown view shown above in the same way.
 
-    * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+    * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **[!UICONTROL COMPARE TO]** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **[!UICONTROL Done]** in the upper right of the screen. The **[!UICONTROL Date Ranges]** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
 7. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
 
@@ -123,12 +123,12 @@ To use dashboards:
 9. To leave feedback on this app:
 
     1. Tap the settings icon in the upper right of the app screen. 
-    2. On the **Settings** screen, tap the **Feedback** option. 
+    2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option. 
     3. Tap to view the options for leaving feedback.
 
         ![Settings screen](assets/settings.png)
 
-10. To change preferences, tap the **Preferences** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
+10. To change preferences, tap the **[!UICONTROL Preferences]** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
 
     ![Dark mode](assets/darkmode.png)
 

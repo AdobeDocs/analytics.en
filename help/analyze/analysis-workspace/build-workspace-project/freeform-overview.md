@@ -37,6 +37,8 @@ The Workspace project list page contains the following information:
 
 Within a project, the menu provides options for managing your project, adding components, finding help, and more. Each menu option can also be accessed by keyboard [shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html).
 
+![](assets/menu.png)
+
 |  Menu item  | Description  |
 |---|---|
 |  Project  | Includes common actions for project management, including New, Open, Save, Save As, and [Save As template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). You can also refresh the entire project to retrieve the most recent data and definitions by clicking Refresh Project. [Download CSV and PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) options enable you to export data from Workspace. [Project Info & Settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) offers many options for managing your project.  |
@@ -74,6 +76,8 @@ You can also access visualizations and panels from the [Blank Panel](https://exp
 
 Components (Dimensions, Metrics, Segments, Date Ranges) in the left rail relate to the active panel report suite. The active panel will have a blue border around it, and the active report suite will be listed at the top of the component rail.
 
+![](assets/left-rail.png)
+
 ## Project canvas {#canvas}
 
 The project canvas is where you bring together panels, tables, visualizations, and components to build your analysis. A project can contain many panels, and each panel can contain many tables and visualizations.
@@ -82,11 +86,15 @@ Panels are helpful when you want to organize your projects according to time per
 
 Depending on the starting point you chose for your projects, you will either have a [freeform table](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) or a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) in the canvas to begin with. The quickest way to start analyzing is to select one or many components and simply drag & drop them into the project canvas. A table of data will automatically be rendered for you. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) about the different options for building a table, or leverage our [training tutorial](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) for more guidance on building your first project.
 
+![](assets/canvas.png)
+
 ## Project Manager {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. The Project Manager shows the items that a specific user has created. Project ownership can be transferred to a new user under Admin > Analytics Users & Assets > Transfer Assets.
 
 In the Projects Manager, you can add, tag, share, duplicate/copy, and more. Search for a project in the search bar or by using the filter options in the left rail. You can filter by tag, owners, project type and more.
+
+![](assets/project-manager.png)
 
 The following are common actions in the Projects manager, and can be taken on one or many projects at once:
 

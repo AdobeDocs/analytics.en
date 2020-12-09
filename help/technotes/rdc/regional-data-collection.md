@@ -17,9 +17,11 @@ RDC currently includes the following locations (subject to change):
 
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
-| Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
 Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+
+*China RDC requires the China Add-On package. See the 'Important' note above.
 
 ## First-party HTTPS data collection
 
@@ -29,8 +31,19 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | Americas Only | Oregon, Virginia |
 | Europe Only | Ireland, Paris |
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |
+| China only* | Beijing |
 
-Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Custome Care for assistance.
+*China RDC requires the China Add-On package. See the 'Important' note above.
+
+Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Customer Care for assistance.
+
+## Benefits of RDC
+
+| Benefit | Description |
+| --- | --- |
+| Performance | With RDC, your visitors will connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
+| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC,  ensuring service continuity. |
+| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe’s RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
 
 ## How RDC works
 

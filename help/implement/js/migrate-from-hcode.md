@@ -15,7 +15,6 @@ The following notable changes are present in AppMeasurement when compared to H C
 * Existing page-level H Code is compatible with AppMeasurement.
 * The library provides native utilities to get query parameters, read and write cookies, and perform advanced link tracking.
 * The library does not support dynamic account configuration variables (including `dynamicAccountSelection`, `dynamicAccountMatch`, and `dynamicAccountList`).
-* The Survey module is not supported.
 
 The following steps outline a typical migration workflow.
 
@@ -55,7 +54,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 

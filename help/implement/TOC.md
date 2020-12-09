@@ -21,7 +21,6 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
     + [cookieLifetime](vars/config-vars/cookielifetime.md)
     + [currencyCode](vars/config-vars/currencycode.md)
-    + [dc](vars/config-vars/dc.md)
     + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
     + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
     + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)

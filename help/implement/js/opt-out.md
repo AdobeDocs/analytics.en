@@ -37,7 +37,7 @@ The opt-out page for your organization depends on the [`trackingServer`](../vars
 
 Once you have found your implementation's `trackingServer` domain, append the path `/optout.html` to the end. For example:
 
-* Third-party cookies: `https://example.sc.adobedc.net/optout.html`
+* Third-party cookies: `https://example.data.adobedc.net/optout.html`
 * First-party cookies: `https://stats.example.com/optout.html`
 
 ## Opt-out query string parameters
@@ -71,7 +71,7 @@ Automatically switch the language of the opt-out page by including the `locale` 
 * sk_SK (Slovak)
 * es_ES (Spanish)
 
-For example, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` loads the opt-out page in Korean.
+For example, `https://example.data.adobedc.net/optout.html?locale=ko_KR` loads the opt-out page in Korean.
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ For example, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` loads the
 
 Adds a 'Close Window' button to the page, allowing the potential to make the opt-out page a popup window. Use the `popup` query string parameter, and give it a value of `1`.
 
-For example, `https://example.sc.adobedc.net/optout.html?popup=1` loads the opt-out page with a 'Close Window' button.
+For example, `https://example.data.adobedc.net/optout.html?popup=1` loads the opt-out page with a 'Close Window' button.
 
 >[!NOTE]
 >
@@ -91,10 +91,10 @@ For example, `https://example.sc.adobedc.net/optout.html?popup=1` loads the opt-
 
 Allows the user to immediately opt out of tracking. Add the two query string parameters `opt_out` and `confirm_change`, giving each a value of `1`.
 
-For example, `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` immediately installs the opt-out cookie on the visitor's page.
+For example, `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` immediately installs the opt-out cookie on the visitor's page.
 
 ### Single click opt-in
 
 Allows the user to immediately opt back in to tracking by deleting the opt-out cookie. Add the two query string parameters `opt_in` and `confirm_change`, giving each a value of `1`.
 
-For example, `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` immediately deletes the opt-out cookie for the visitor.
+For example, `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` immediately deletes the opt-out cookie for the visitor.

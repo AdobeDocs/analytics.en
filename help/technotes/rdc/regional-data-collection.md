@@ -39,18 +39,3 @@ The following list describes the data collection process used by Adobe:
 1. DNS automatically resolves the collection hostname to the IP address of the Data Collection Center nearest the visitor.
 1. The visitor sends the data to that location.
 1. The data is immediately forwarded over a secure connection to the Data Processing Center, where it is processed and made available to the products in the Adobe Experience Cloud.
-
-## Benefits of RDC
-
-| Benefit | Description |
-|---------|-----------|
-| Performance | With RDC, your visitors will be connecting to the closest DCC. This means the response times on your page will decrease (lower is better), resulting in more accurate tracking and faster loading times.|
-| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC ensuring service continuity. |
-| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored.|
-
-## Documentation revision history
-
-| Update | Description |
-|--------|---------|
-| February 4, 2020 | Update RDC locations |
-| February 20, 2019 | Complete rewrite. Added RDC network information.|

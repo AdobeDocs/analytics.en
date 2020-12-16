@@ -13,14 +13,14 @@ Once all prerequisites are met, use the following steps to enable Cross-Device A
 
 ## Contact your customer success manager to have CDA provisioned on your cross-device report suite
 
-CDA must be provisioned on your cross-device report suite by Adobe Engineering. To start this process, please contact your customer success manager. Your CSM will work with Adobe engineering to get everything set up. Your CSM will require certain information from you:
+CDA is provisioned on your cross-device report suite by Adobe engineering. Contact your customer success manager with the following information:
 
-•	What is your Adobe Experience Cloud org ID? (This is an alphanumeric string ending with @AdobeOrg.)
-•	What is the report suite ID for the cross-device report suite you want to enable with CDA?
-•	Do you want to use CDA with field-based stitching, Adobe private graph, or Adobe co-op graph?
-•	If you want to use field-based stitching, which prop or eVar contains the user ID?
+*	Your Adobe Experience Cloud org ID (An alphanumeric string ending with @AdobeOrg)
+*	The report suite ID for the cross-device report suite you want to enable with CDA
+*	Which method of CDA you want to use (field-based stitching, Adobe private graph, or Adobe co-op graph)
+*	If you intend to use field-based stitching, the prop or eVar that contains the user ID
 
-Adobe then enables your chosen report suite for CDA processing.
+Once your provide your CSM with this information, they work with Adobe Engineering to enable your chosen report suite for CDA processing.
 
 ## Create a cross-device virtual report suite to see the cross-device view
 

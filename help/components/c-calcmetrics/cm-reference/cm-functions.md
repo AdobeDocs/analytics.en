@@ -258,3 +258,21 @@ VARIANCE(metric)
 | Argument | Description |
 | --- | --- |
 | *metric* | The metric for which you want the variance. |
+
+In order to calculate a variance you look at an entire column of numbers. From that list of numbers you first calculate the average. Once you have the average you go through each entry and do the following:
+
+1. Subtract the average from the number.
+1. Square the result.
+1. Add that to the total.
+
+Once you have iterated over the entire column you have a single total. You then divide that total by the number of items in the column. That number is the variance for the column. It is a single number. It is, however, displayed as a column of numbers.
+
+As an example, let's say you have a three-item column:
+
+1
+
+2
+
+3
+
+The average of this column is 2. The variance for the column will be ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. 

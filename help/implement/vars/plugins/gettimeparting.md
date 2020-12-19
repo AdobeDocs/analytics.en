@@ -17,6 +17,10 @@ Analysis Workspace provides similar, out-of-the-box dimensions that are formatte
 >
 >Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
+>[!IMPORTANT]
+>
+>If you are using an older version of getTimeParting, you may need to update the s.\_tpdst variable to the new year on January 1 each year. To do this, simply change the value of s.\_tpdst from the previous year to the new year (e.g., from "2020" to "2021"). Adobe recommends updating to the last version of this plug-in (code provided below) so that you no longer need to maintain the value of this s.\_tpdst variable. 
+
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.

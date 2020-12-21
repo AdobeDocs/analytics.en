@@ -17,10 +17,6 @@ Analysis Workspace provides similar, out-of-the-box dimensions that are formatte
 >
 >Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
->[!IMPORTANT]
->
->Previous versions of this plug-in did not accommodate all years in the future. If you use a previous version of this plug-in, Adobe strongly recommends upgrading to the latest version to avoid JavaScript errors and data loss. If upgrading this plug-in is not feasible, make sure that the `s._tpdst` variable in the plug-in code contains the appropriate years in the future. This variable is not present or necessary in the latest version of the plug-in.
-
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
@@ -150,6 +146,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Point Release (recompiled, smaller code size)
 * Removed the need for the `tpDST` parameter, since daylight savings start/end dates are now detected automatically
+
+>[!CAUTION]
+>
+>Previous versions of this plug-in did not accommodate all years in the future. If you use a previous version of this plug-in, Adobe strongly recommends upgrading to the latest version to avoid JavaScript errors and data loss. If upgrading this plug-in is not feasible, make sure that the `s._tpdst` variable in the plug-in code contains the appropriate years in the future.
 
 ### 4.0 (August 22, 2016)
 

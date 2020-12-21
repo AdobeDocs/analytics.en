@@ -48,7 +48,7 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.data.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -102,7 +102,7 @@ The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it uses the s
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.data.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -126,7 +126,7 @@ An HTML page hosted on your web servers is also required:
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);

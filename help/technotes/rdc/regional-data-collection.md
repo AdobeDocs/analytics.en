@@ -17,9 +17,11 @@ RDC currently includes the following locations (subject to change):
 
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
-| Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+
+*China RDC requires the China Add-On package. See the 'Important' note above.
 
 ## First-party HTTPS data collection
 
@@ -29,8 +31,19 @@ Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` e
 | Americas Only | Oregon, Virginia |
 | Europe Only | Ireland, Paris |
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |
+| China only* | Beijing |
 
-Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Custome Care for assistance.
+*China RDC requires the China Add-On package. See the 'Important' note above.
+
+Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Customer Care for assistance.
+
+## Benefits of RDC
+
+| Benefit | Description |
+| --- | --- |
+| Performance | With RDC, your visitors will connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
+| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC,  ensuring service continuity. |
+| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe’s RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
 
 ## How RDC works
 
@@ -39,18 +52,3 @@ The following list describes the data collection process used by Adobe:
 1. DNS automatically resolves the collection hostname to the IP address of the Data Collection Center nearest the visitor.
 1. The visitor sends the data to that location.
 1. The data is immediately forwarded over a secure connection to the Data Processing Center, where it is processed and made available to the products in the Adobe Experience Cloud.
-
-## Benefits of RDC
-
-| Benefit | Description |
-|---------|-----------|
-| Performance | With RDC, your visitors will be connecting to the closest DCC. This means the response times on your page will decrease (lower is better), resulting in more accurate tracking and faster loading times.|
-| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC ensuring service continuity. |
-| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored.|
-
-## Documentation revision history
-
-| Update | Description |
-|--------|---------|
-| February 4, 2020 | Update RDC locations |
-| February 20, 2019 | Complete rewrite. Added RDC network information.|

@@ -18,11 +18,11 @@ This implementation method can be used on any platform that displays images from
 The following is an example hardcoded image request using HTML:
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` designates the protocol. Match the protocol used in the image request with the protocol that the rest of your site uses.
-* `example.sc.omtrdc.net` is the value contained in the [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
+* `example.data.adobedc.net` is the value contained in the [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
 * `/b/ss/` is included in all image requests. It is part of the file structure for images stored on Adobe data collection servers.
 * `examplersid` is the report suite ID you want to send data to.
 * `/1/` is the hit source. See `hit_source` under [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in the Export user guide. Controls the order that cookies and other methods use to identify visitors.

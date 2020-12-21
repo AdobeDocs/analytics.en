@@ -3,9 +3,10 @@ title: Integrate Google Display Ad data into Adobe Analytics
 description: 
 ---
 
-# Integrate Google Display Ad data into Adobe Analytics
+# Integrate Google Display Ad data with Adobe Analytics
 
 This integration lets you associate customer behavior with campaign and cost data from Google AdWords.
+
 
 1. Go into Google Campaign Manager.
 1. Set up a recurring export of your display ad data so that you can upload deltas of your display metrics (impressions, clicks, cost), broken down by the most granular ID (Ad ID).

@@ -15,7 +15,7 @@ This page provides an overview of how best to use Adobe Analytics to measure and
 
 ## Digital experience architecture overview
 
-![Digital Assistant Worflow](assets/Digital-Assitants.png)
+![Digital Assistant Workflow](assets/Digital-Assitants.png)
 
 Most digital assistants today follow a similar high-level architecture:
 
@@ -43,8 +43,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net">
-  sc.omtrdc.net
+<xref href="https://example.data.adobedc.net">
+  example.data.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -55,13 +55,13 @@ It is likely that your organization wants apps for multiple platforms. The best 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -73,7 +73,7 @@ Using the ID Service provides the most value when you map ECIDs across different
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -96,7 +96,7 @@ Sessions are important to keep context, and help collect more details to make th
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -106,11 +106,11 @@ Each of the digital assistants has algorithms that detect intents and then passe
 
 For example, if a user says, "Siri, Send John $20 for dinner last night from my banking app," the intent might be something like *sendMoney*.
 
-By sending in each of these requests as an eVar, you can run pathing reports on each of the intents for conversational apps. Make sure your app can handle requests without an intent as well. Adobe recommends passing in 'No Intent Specified' to the intent context data variable, as opposed to ommitting the variable.
+By sending in each of these requests as an eVar, you can run pathing reports on each of the intents for conversational apps. Make sure your app can handle requests without an intent as well. Adobe recommends passing in 'No Intent Specified' to the intent context data variable, as opposed to omitting the variable.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -118,7 +118,7 @@ or
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -134,7 +134,7 @@ There is typically a finite number of these values with your app. To track these
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -146,7 +146,7 @@ When this situation happens, have your app ask for clarification. Additionally, 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -165,10 +165,10 @@ Leading and trailing colons help when creating segments. For example, show all h
 
 | Person | Device response | Action/Intent | GET request |
 |---|---|---|---|
-| Install Spoofify | No response | Install | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Play Spoofify | "Okay, playing Spoofify" | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Change song | "Okay, what song do you want?" | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Play "Baby Shark" | "Okay, playing 'Baby Shark' by PinkFong" | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Change playlist | "Okay, what playlist do you want?" | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Play my favorite songs playlist | "Okay, playing your favorite songs playlist" | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Turn music off | No response, music turns off | Off | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Install Spoofify | No response | Install | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Play Spoofify | "Okay, playing Spoofify" | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Change song | "Okay, what song do you want?" | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Play "Baby Shark" | "Okay, playing 'Baby Shark' by PinkFong" | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Change playlist | "Okay, what playlist do you want?" | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Play my favorite songs playlist | "Okay, playing your favorite songs playlist" | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Turn music off | No response, music turns off | Off | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |

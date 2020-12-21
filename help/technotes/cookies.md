@@ -96,7 +96,7 @@ First party cookies created through `document.cookie` are affected. If you are s
 * AMCV cookies set by the ECID (Experience Cloud ID) service library
 * Analytics legacy fallback cookie `s_fid`
 
-Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
+Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
 
 To sum up:
 
@@ -104,7 +104,7 @@ To sum up:
 
 * If you use a first party CNAME in the first party context and don’t use the visitor ID service — your implementation will not be affected. 
 
-* If you use a first party cookie domain in the third party context, or with the standard third party domain names (e.g 2o7.net, omtrdc.net, etc), Safari will continute to block it as it has.
+* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
 
 * If you use a custom visitor ID — This will depend on how your store your visitor ID. If you store your ID in a first party “client-side” cookie then you will be subject to the seven day expiration. If you use other means to store your custom ID then you will need to evaluate if you are affected.
 
@@ -126,11 +126,11 @@ To measure impact to reporting and testing, it's important to know which type of
 
 * Open your developer console in your latest Safari browser. If you see any of the cookies listed above set in your first party domain, you may be affected by these changes.
 
-* If you see an `s_vi` cookie, but not an `AMCV` cookie set in the context of a CNAME, you are using a CNAME for visitor identification and your Analytics usage is not affected by these changes. If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Analytics traffic may be impacted.
+* If you see an `s_vi` cookie, but not an `AMCV` cookie set in the context of a CNAME, you are using a CNAME for visitor identification and your Analytics usage is not affected by these changes. If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
 
-* Use Analytics to measure the percentage of visitors who do not return within seven days. If your visitors return repeatedly within seven days, your traffic may not be significantly affected. For instructions on using Analtyics to find this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Use Analytics to measure the percentage of visitors who do not return within seven days. If your visitors return repeatedly within seven days, your traffic may not be significantly affected. For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
-* Measure your traffic percentage from Safari browsers to determine if making any changes is sufficiently warranted. For instructions on using Analtyics to find out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Measure your traffic percentage from Safari browsers to determine if making any changes is sufficiently warranted. For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## Which browsers are my visitors most using?
 

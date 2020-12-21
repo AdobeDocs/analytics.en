@@ -21,7 +21,6 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
     + [cookieLifetime](vars/config-vars/cookielifetime.md)
     + [currencyCode](vars/config-vars/currencycode.md)
-    + [dc](vars/config-vars/dc.md)
     + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
     + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
     + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -197,6 +196,10 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
++ Review your implementation {#review}
+  + [Minor Implementation Review (after each website release)](review/minor-review.md)
+  + [Major Implementation Review (every 6 months)](review/major-review.md)
+  + [Define your Top 5 KPIs](review/define-kpis.md)
 + Use XDM data with Analytics {#aep-edge}
   + [Use AEP Web SDK](aep-edge/xdmoverview.md)
   + [Map XDM data to Analytics manually](aep-edge/xdm-manual.md)

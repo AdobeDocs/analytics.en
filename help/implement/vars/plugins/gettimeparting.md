@@ -98,11 +98,11 @@ If the client is in the African country of Ghana:
 s.eVarX = getTimeParting();
 ```
 
-Ghana is within the UTC/GMT time zone.  This example shows that no plug-in argument will be necessary under such circumstances.
+Ghana is within the UTC/GMT time zone. This example shows that no plug-in argument is necessary for UTC/GMT.
 
 ### Accounting for Internet Explorer Browsers
 
-Use the following sample if you want to exclude time parting data from Internet Explorer Visitors (since the value returned from IE browsers can be in only the visitor's local time)
+Use the following sample if you want to exclude time parting data from Internet Explorer Visitors. The value returned from IE browsers is only in the visitor's local time.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -111,39 +111,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Results from calls
 
-If a visitor from Denver, Colorado visits a site on August 31, 2020 at 9:15 AM,
-
-Running the following code...
+Consider an scenario where a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
-
-While the following code...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
-
-The following code...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...would set s.eVar10 equal to "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
-
-And the following code...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...would set s.eVar10 equal to "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 
 ## Version History
 
@@ -164,6 +146,10 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 
 * Point Release (recompiled, smaller code size)
 * Removed the need for the `tpDST` parameter, since daylight savings start/end dates are now detected automatically
+
+>[!CAUTION]
+>
+>Previous versions of this plug-in did not accommodate all years in the future. If you use a previous version of this plug-in, Adobe strongly recommends upgrading to the latest version to avoid JavaScript errors and data loss. If upgrading this plug-in is not feasible, make sure that the `s._tpdst` variable in the plug-in code contains the appropriate years in the future.
 
 ### 4.0 (August 22, 2016)
 

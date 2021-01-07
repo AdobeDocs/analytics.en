@@ -51,8 +51,11 @@ In a curated project or VRS, the recipient will be presented with the option to 
 * The user’s permission level (admin or non-admin)
 * Project role (owner/editor or not)
 * Type of curation applied (VRS or project)
+* Components owned by or shared to the user. Owned/shared components include segments, calculated metrics, and date ranges. They do not include implemented components such as eVars, props, and custom events. 
 
-|Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate or view role|
+Note: Non-admin view roles do not have access to the left rail in a project, so they have been omitted from the table below.
+
+|Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate role|
 |---|---|---|---|
 |Curated VRS|All non-curated VRS components|Non-curated VRS components that this role owns or that have been shared with them|Non-curated VRS components that this role owns or that have been shared with them|
 |Curated Project|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|

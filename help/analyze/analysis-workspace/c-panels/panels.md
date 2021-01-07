@@ -89,7 +89,7 @@ The following settings are available:
 | Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a completely different project.|
 | Apply Report Suite to all panels | Lets you apply the active panel report suite to all panels in the project.|
 | Duplicate Panel | Makes an exact duplicate of the current panel, which you can then modify. |
-| Collapse/Expand all Panels | Collapses and exapnds all project panels. |
-| Collapse/Expand all Visualizations in Panel | Collapses and expandsall visualizations in the current panel. |
+| Collapse/Expand all Panels | Collapses and expands all project panels. |
+| Collapse/Expand all Visualizations in Panel | Collapses and expands all visualizations in the current panel. |
 | Edit Description | Add (or edit) a text description for the panel. |
 | Get Panel Link | Lets you direct someone to a specific panel within a project. When the link is clicked, the recipient will be required to login before being directed to the exact panel linked to. |

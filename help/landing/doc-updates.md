@@ -13,10 +13,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 * For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
 * For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
-## Update Details
+## Major Update Details
 
 | Date | Description |
 |---|---|
+| November, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | July 21, 2020 | Major updates and revisions to [Cross-Device Analytics](/help/components/cda/overview.md). Added [Field-based stitching](/help/components/cda/field-based-stitching.md). |
 | April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric. |
 | March 12, 2020 | Added updates to [Publish segments to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |

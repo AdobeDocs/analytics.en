@@ -197,8 +197,8 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
 + Review your implementation {#review}
-  + [Minor Implementation Review (after each website release)](review/minor-review.md)
-  + [Major Implementation Review (every 6 months)](review/major-review.md)
+  + [Focused Review (after each website release)](review/focused-review.md)
+  + [Full Review (every 6 months)](review/full-review.md)
   + [Define your Top 5 KPIs](review/define-kpis.md)
 + Use XDM data with Analytics {#aep-edge}
   + [Use AEP Web SDK](aep-edge/xdmoverview.md)

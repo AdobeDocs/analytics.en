@@ -13,7 +13,7 @@ Meet with the business owner and/or analysts to review the changing business nee
 
 ## 2. Make sure your metrics and variables are still functioning well.
 
-Briefly review all your metrics and variables, in order of importance to the business, to make sure that the data is collecting correctly. Start with your most crucial metrics and variables – the ones associated with your top 5 KPIs. To do this:
+Briefly review all your metrics and variables, in order of importance to the business, to make sure that the data is collecting correctly. Start with your most crucial metrics and variables – the ones associated with your [top 5 KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). To do this:
 
 * Create dashboards to see monthly trended views of your metrics and variables (or set up intelligent alerts for each one) to ensure you’re getting the data you expect, and the data is correct. If you find any discrepancies, examine your data layer, tag manager rules, and processing rules to find out why.
 * Re-run the [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) to monitor broad trends of your metrics and variables.

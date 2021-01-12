@@ -34,7 +34,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Appfigures | Migrating to Adobe Exchange |
 | Appsee | Available on Adobe Exchange |
 | AppsFlyer | Migrating to Adobe Exchange | 
-| Aprimo Enterprise Marketing Engagement | 
+| Aprimo Enterprise Marketing Engagement | Deprecating |
 | Apteligent | Available on Exchange| 
 | BlueHornet eMarketing Suite | Deprecating | 
 | Branch | Migrating to Exchange |

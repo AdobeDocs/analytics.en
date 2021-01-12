@@ -8,7 +8,7 @@ uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This integration combines the power of email marketing software integrated feedback system and the behavioral reporting of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 

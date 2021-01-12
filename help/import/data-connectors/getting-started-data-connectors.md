@@ -11,7 +11,7 @@ For example, an e-mail integration might want to use an e-mail partner to distri
 
 >[!IMPORTANT]
 >
->We will end-of-life the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will end-of-life the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 **System requirements**
 

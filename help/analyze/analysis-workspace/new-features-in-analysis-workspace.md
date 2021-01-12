@@ -8,9 +8,21 @@ title: What's New in Analysis Workspace
 
 For access to the Adobe Experience Cloud Release Notes as a whole, go [here](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
-## October 2020
+## February 2021
 
-New features released in October 2020.
+| Feature | Target Date | Description |
+| --- | --- | --- |
+| Component Selection | February 4, 2021 | The drop-down/drop zone component found in Quick Insights will be added to all drop zones in Workspace. This enhancement allows you to pick from a drop-down list of compatible components or continue to use the space as a drop zone. |
+
+
+## January 2021
+
+| Feature | Target Date | Description |
+| --- | --- | --- |
+| Image URLs | January 14, 2021 | You can add images to Workspace projects by referencing a public image URL. |
+| Combined source & settings manager for visualizations | January 14, 2021 | The data source manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
+
+## October 2020
 
 | Feature | Description |
 | --- | --- |
@@ -18,8 +30,6 @@ New features released in October 2020.
 | [Performance Help page](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | The Analysis Workspace performance help page shows the different factors that impact project performance and links to tips for optimization. |
 
 ## September 2020
-
-New features released in September 2020.
 
 | Feature | Description |
 | --- | --- |

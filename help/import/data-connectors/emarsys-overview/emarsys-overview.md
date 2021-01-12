@@ -8,7 +8,7 @@ uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with emarsys email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
 

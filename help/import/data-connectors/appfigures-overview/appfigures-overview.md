@@ -9,7 +9,7 @@ uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This Adobe data connectors integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 

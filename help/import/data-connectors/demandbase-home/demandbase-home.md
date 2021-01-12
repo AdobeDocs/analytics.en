@@ -8,7 +8,7 @@ uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This Adobe® Data Connectors integration combines the Real-Time ID service of Demandbase with the behavioral information from Adobe Analytics to create a powerful analytics, optimization and content personalization opportunities for B2B organizations.
 

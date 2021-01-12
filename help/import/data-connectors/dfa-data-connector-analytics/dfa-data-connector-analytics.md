@@ -10,7 +10,7 @@ uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 In today's increasingly complex and competitive online marketplace, online advertisers and agencies must continually improve their understanding of the online marketing environment, and their return on advertising spend. Although advertisers, agencies, and publishers all possess individual tools to help accomplish these objectives, manually aggregating data from disparate data systems and processes can severely hamper the effectiveness of on-line marketing campaigns, resulting in less-than-optimal campaign performance, data discrepancies and confusion.
 

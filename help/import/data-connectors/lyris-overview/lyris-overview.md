@@ -8,7 +8,7 @@ uuid: db213865-1296-4a93-a0a2-781c026b2be5
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 The Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics with Lyris email marketing to redefine success measurement and target audiences with more relevant messaging.
 

@@ -10,7 +10,7 @@ uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 
 >[!IMPORTANT]
 >
->We will be end-of-lifing the Adobe Data Connector technology in mid to late 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 This integration combines the customer research capabilities of the Qualtrics Research Suite with the rich data you are collecting within Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 

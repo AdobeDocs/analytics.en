@@ -17,6 +17,7 @@ Remember, code updates over time can have unintended ramifications. You want to 
 
 * Create dashboards to see hourly trended views of these critical metrics and variables (or set up [intelligent alerts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) for each metric). Then monitor them for a day or two to ensure you’re getting the data you expect, and the data is correct. Look for inflection points. Be prepared to remediate any critical issues immediately. If you find any discrepancies, look in your data layer, tag manager rules, and processing rules to find out why.
 * Re-run the [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) to monitor broad trends of your KPI metrics and variables.
+
 *For more details about how to make sure your metrics and variables are functioning properly, [read these tips](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) from Adobe Analytics Champion Sarah Owen.*
 
 ## 3. Thoroughly examine the data from the updated section of your site. 

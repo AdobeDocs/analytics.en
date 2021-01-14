@@ -54,7 +54,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Demandbase CA | Deprecating |
 | Demandbase v3 | Deprecating |
 | DialogTech | Deprecating |
-| DoubleClick for Advertisers (DFA) | Deprecating (More Info Here**Link to DFA EOL PAGE**) |
+| DoubleClick for Advertisers (DFA) | Deprecating |
 | DREAM | Deprecating |
 | DREAMmail 2.0 | Deprecating | 
 | Dynamic Signal (Nital Vora) | Migrating to Exchange |

@@ -27,68 +27,68 @@ For additional questions or support, please reach out to Adobe Customer Care.
 
 | Partner | Status |
 | --- | --- |
-| Acxiom | Available on Adobe Exchange |
-| Adform | Available on Adobe Exchange |
+| Acxiom | Deprecating |
+| Adform | Deprecating |
 | Adjust | Migrating to Adobe Exchange |
 | Adobe Campaign | Migrating to Adobe Exchange |
 | Appfigures | Migrating to Adobe Exchange |
-| Appsee | Available on Adobe Exchange |
+| Appsee | Deprecating |
 | AppsFlyer | Migrating to Adobe Exchange | 
 | Aprimo Enterprise Marketing Engagement | Deprecating |
-| Apteligent | Available on Exchange| 
+| Apteligent | Deprecating| 
 | BlueHornet eMarketing Suite | Deprecating | 
 | Branch | Migrating to Exchange |
-| BrightEdge 2.0 | Available on Exchange |
+| BrightEdge 2.0 | Deprecating |
 | Bronto Software | Deprecating| 
 | CheetahMail by Experian | Migrating to Exchange |
-| ClickTale | Available on Exchange |
+| ClickTale | Deprecating |
 | Clicktale CA | Deprecating |
-| Conductor 2.0 | Available on Exchange |
-| ContactLab 2.0 (Contact Send Connector) | Available on Exchange |
-| Coradiant TrueSight | Available on Exchange |
-| D&B Visitor Intelligence | Available on Exchange |
+| Conductor 2.0 | Deprecating |
+| ContactLab 2.0 (Contact Send Connector) | Deprecating |
+| Coradiant TrueSight | Deprecating |
+| D&B Visitor Intelligence | Deprecating |
 | Datran Media | Deprecating |
-| Decibel Insight | Available on Exchange |
-| Decipher | Available on Exchange |
+| Decibel Insight | Deprecating |
+| Decipher | Deprecating |
 | Delivra | Deprecating |
-| Demandbase CA | Available on Exchange |
+| Demandbase CA | Deprecating |
 | Demandbase v3 | Deprecating |
-| DialogTech | Available on Exchange |
+| DialogTech | Deprecating |
 | DoubleClick for Advertisers (DFA) | Deprecating (More Info Here**Link to DFA EOL PAGE**) |
 | DREAM | Deprecating |
 | DREAMmail 2.0 | Deprecating | 
 | Dynamic Signal (Nital Vora) | Migrating to Exchange |
 | eDialog Precision Central | Deprecating |
 | eC-messenger | Deprecating |
-| Emailvision Campaign Commander | Available on Exchange |
+| Emailvision Campaign Commander | Deprecating |
 | emarsys xpress | Deprecating |
 | Epsilon Harmony | Migrating to Exchange |
-| EveryoneSocial for Adobe Analytics | Available on Exchange |
+| EveryoneSocial for Adobe Analytics | Deprecating |
 | Fiksu | Deprecating |
 | Foresee (v2.0) | Deprecating |
-| Foresee Feedback | Available on Exchange |
-| Gigya | Available on Exchange |
+| Foresee Feedback | Deprecating |
+| Gigya | Deprecating |
 | hybris | Deprecating |
 | Kampyle (now Medallia) Feedback Analytics (1.1) | Deprecating |
 | Listrak | Migrating to Exchange |
 | Lyris HQ | Deprecating |
-| MaritzCX (V 2.0) | Available on Exchange |
-| Merkle | Available on Exchange |
+| MaritzCX (V 2.0) | Deprecating |
+| Merkle | Deprecating |
 | Official Oracle Eloqua Integration | Deprecating |
 | optivo broadmail (Episerver) | Migrating to Exchange |
 | Qualtrics v2 | Migrating to Exchange |
 | Responsys 2.0 | Deprecating |
-| Selligent | Available on Exchange |
-| seoClarity 2.0 | Available on Exchange |
+| Selligent | Deprecating |
+| seoClarity 2.0 | Deprecating |
 | Silverpop Engage (v2.0) | Deprecating |
-| Sizmek | Available on Exchange |
-| SpotEffects | Available on Exchange |
+| Sizmek | Deprecating |
+| SpotEffects | Deprecating |
 | StrongMail Systems, Inc | Deprecating |
 | Syngergy!360 | Deprecating |
 | ThinData EMS | Deprecating |
-| TUNE | Available on Exchange |
+| TUNE | Deprecating |
 | Urban Airship | Deprecating |
-| UserZoom Survey tool | Available on Exchange |
-| WhatCounts Email | Available on Exchange |
+| UserZoom Survey tool | Deprecating |
+| WhatCounts Email | Deprecating |
 | wywy | Deprecating |
-| Yesmail Enterprise | Available on Exchange |
+| Yesmail Enterprise | Deprecating |

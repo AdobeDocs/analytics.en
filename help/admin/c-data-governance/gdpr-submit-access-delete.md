@@ -1,5 +1,5 @@
 ---
-description: null
+description: How to submit data access and delete requests in Adobe Analytics.
 title: Submit Access and Delete Requests
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 ---

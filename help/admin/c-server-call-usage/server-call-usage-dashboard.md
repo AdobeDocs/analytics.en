@@ -1,5 +1,5 @@
 ---
-description: null
+description: How to view current server call usage in Adobe Analytics.
 title: View current server call usage
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 ---
@@ -32,7 +32,7 @@ The Current Usage dashboard
 ![](assets/server_call_dashboard.png)
 
 |  UI Term  | Definition  |
-|---|---|
+| --- | --- |
 |  Current Period Usage (green)  |The current period is based on the [usage period](/help/admin/c-server-call-usage/overage-overview.md).  |
 |  Previous Period Usage (blue)  | The previous period is defined as the current usage period minus 1 year.  |
 |  Usage Limit (red)  | Your contractual usage limit for this usage period.  |

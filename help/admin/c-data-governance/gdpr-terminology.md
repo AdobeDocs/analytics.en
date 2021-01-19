@@ -1,5 +1,5 @@
 ---
-description: null
+description: Data governance glossary for Adobe Analytics
 title: GDPR Terminology
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 ---

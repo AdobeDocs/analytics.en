@@ -1,5 +1,5 @@
 ---
-description: null
+description: Shows examples on how to label data for hit data, access requests, delete requests
 title: Labeling Example
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 ---

@@ -1,5 +1,5 @@
 ---
-description: null
+description: Examples of Data Privacy Labels for Adobe Analytics Variables
 title: Data Privacy Labels for Analytics Variables
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 ---

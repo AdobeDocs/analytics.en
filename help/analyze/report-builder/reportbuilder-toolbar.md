@@ -13,7 +13,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 ![](assets/report_builder_toolbar.png)
 
-**Sign In:** Displays the [!UICONTROL Login] form so that you can log in with your credentials or as a different user. Also displays your company name after login. See [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md).
+**Sign In:** Displays the [!UICONTROL Login] form so that you can log in with your credentials or as a different user. Also displays your company name after login. See [Log In To Report Builder](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
 
 **Create:** Launches the [!UICONTROL Request Wizard]. If you are not logged in, you are prompted to do so. See [Data Requests](/help/analyze/report-builder/data-requests/data-requests.md).
 

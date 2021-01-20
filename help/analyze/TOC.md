@@ -128,6 +128,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Install Report Builder](report-builder/setup/t-install-arb.md)
     + [Upgrade Report Builder](report-builder/setup/upgrade-arb.md)
     + [Report Builder Sign-In](report-builder/setup/login.md)
+    + [Sign in to Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
     + [Uninstall Report Builder](report-builder/setup/t-uninstall-arb.md)
     + [Invoke Report Builder functionality from Microsoft Excel functions](report-builder/setup/invoke-arb-excel-function.md)
   + [Report Builder toolbar](report-builder/reportbuilder-toolbar.md)

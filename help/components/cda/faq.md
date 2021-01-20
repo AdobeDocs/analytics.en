@@ -54,7 +54,7 @@ In some situations, an individual user can associate with a large number of ECID
 
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. However, when using Cross-Device Analytics, unique visitors are combined when they are otherwise recorded as two separate unique visitors outside of CDA. The 'People' metric replaces the 'Unique Visitors' metric when Cross-device Analytics is enabled.
+The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. However, when using Cross-Device Analytics, unique visitors are combined when they are otherwise recorded as two separate unique visitors outside of CDA. The 'People' metric replaces the 'Unique Visitors' metric when Cross-Device Analytics is enabled. A new metric, [Unique Devices](/help/components/metrics/unique-devices.md), is available that is approximately equal to Unique Visitors outside of Cross-Device Analytics.
 
 ## What is the difference between the 'Unique Devices' metric in CDA and the 'Unique Visitors' metric outside of CDA?
 

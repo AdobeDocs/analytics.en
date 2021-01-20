@@ -5,7 +5,7 @@ description: Understand the concept of "replay" in Cross-Device Analytics
 
 # How replays work
 
-Cross-device Analytics makes two passes on data in a virtual report suite:
+Cross-Device Analytics makes two passes on data in a virtual report suite:
 
 * **Live-stitching**: CDA attempts to stitch each hit as it comes in. Net new devices to the report suite that have never logged in are typically not stitched at this level. Devices already recognized are stitched immediately.
 * **Replay**: Approximately once a week, CDA "replays" data based on unique identifiers it has learned. This stage is where new devices to the report suite become stitched.

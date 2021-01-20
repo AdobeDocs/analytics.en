@@ -1,16 +1,16 @@
 ---
-description: null
+description: Explains enhancements to server-side forwarding that were prompted by the EU cookie compliance regulation.
 title: GDPR/ePrivacy compliance and server-side forwarding
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 ---
 
 # GDPR/ePrivacy compliance and server-side forwarding
 
-This section explains recent enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
+This section explains enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
 
 Server-side forwarding is used to share data from Adobe Analytics to other [!DNL Experience Cloud Solutions], such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
 
-Until recently, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to AAM. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received.
+Previously, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to AAM. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received.
 
 When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagged and does not get server-side-forwarded to AAM. Conversely, if this string does not appear on a hit, the hit gets forwarded to AAM.
 

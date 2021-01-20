@@ -1,5 +1,5 @@
 ---
-description: null
+description: Ad Hoc Analysis to Analysis Workspace project converter FAQ
 title: Project Converter FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 ---

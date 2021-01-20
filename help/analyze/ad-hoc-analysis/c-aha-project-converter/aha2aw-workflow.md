@@ -1,5 +1,5 @@
 ---
-description: null
+description: Ad Hoc Analysis Project Converter workflow
 title: Convert your projects in Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 ---

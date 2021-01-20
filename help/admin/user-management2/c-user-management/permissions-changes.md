@@ -1,5 +1,5 @@
 ---
-description: null
+description: Legacy permissions content
 keywords: groups;permissions
 subtopic: Users and groups
 title: User and Group permission changes
@@ -11,7 +11,7 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management have moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ## What Changed? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 

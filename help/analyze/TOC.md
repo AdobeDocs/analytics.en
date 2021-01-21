@@ -44,9 +44,9 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Pagination, filtering and sorting tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
       + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
-      + [What is cohort analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-      + [Configure a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-      + [Cohort analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+      + [What is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+      + [Configure a Cohort Analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+      + [Cohort Analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
     + Fallout {#fallout}
       + [Fallout overview](analysis-workspace/visualizations/fallout/fallout-flow.md)
       + [Configure a fallout visualization](analysis-workspace/visualizations/fallout/configuring-fallout.md)

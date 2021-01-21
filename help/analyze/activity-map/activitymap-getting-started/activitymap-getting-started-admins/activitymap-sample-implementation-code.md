@@ -1,8 +1,7 @@
 ---
-description: Example of how the AppMeasurement library and the Activity Map module are combined
-title: Sample implementation code
+description: Example of how the AppMeasurement library and the Activity Map module are combined in the Adobe Analytics implementation code
+title: View sample Activity Map implementation code
 topic: Activity map
-uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 ---
 
 # Sample implementation code{#sample-implementation-code}

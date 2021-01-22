@@ -1,7 +1,6 @@
 ---
-description: Ad Hoc Analysis to Analysis Workspace project converter FAQ
-title: Project Converter FAQ
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Commonly asked questions about the Ad Hoc Analysis to Analysis Workspace project converter
+title: FAQs about the Ad Hoc Analysis-to-Analysis Workspace Project Converter
 ---
 
 # Project Converter FAQ
@@ -18,9 +17,9 @@ uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 ## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
 
 | Issue | Description |
-|--- |--- |
-|Minute granularity with breakdowns or in columns|When minute granularity has breakdowns applied to it or if minute granularity is present in columns, the project cannot be converted to Analysis Workspace.  A workaround is to remove the breakdown on minute granularity and remove it from columns, then convert the project. You can then apply breakdowns on minute granularity in Analysis Workspace.|
-|Internal calculated metric used together with a column segment|If you are using an internal calculated metric together with a column segment, the project cannot be converted to Analysis Workspace. To work around this issue, remove the internal calculated metrics from the project before conversion, then re-add them in Analysis Workspace.|
+| --- | --- |
+| Minute granularity with breakdowns or in columns | When minute granularity has breakdowns applied to it or if minute granularity is present in columns, the project cannot be converted to Analysis Workspace.  A workaround is to remove the breakdown on minute granularity and remove it from columns, then convert the project. You can then apply breakdowns on minute granularity in Analysis Workspace. |
+| Internal calculated metric used together with a column segment | If you are using an internal calculated metric together with a column segment, the project cannot be converted to Analysis Workspace. To work around this issue, remove the internal calculated metrics from the project before conversion, then re-add them in Analysis Workspace. |
 
 
 ## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}

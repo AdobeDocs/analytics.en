@@ -1,8 +1,6 @@
 ---
 description: Administrative steps for enabling AEM Assets reporting in Analytics.
-title: AEM Assets reporting
-topic: Reports
-uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
+title: How to report on AEM Assets in Adobe Analytics
 ---
 
 # AEM Assets reporting

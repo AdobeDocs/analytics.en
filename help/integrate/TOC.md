@@ -33,7 +33,7 @@ user-guide-description: Configure integrations with other Adobe Experience Cloud
   + [Frequently Asked Questions](c-advertising-analytics/aa-faq.md)
 + [Analytics for Target - A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 + [Adobe Campaign reporting in Analytics](adobe-campaign.md)
-+ [Integrate Analytics data with Campaign Classic](analytics-to-campaign.md)
++ [Integrate Analytics data with Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets reporting](aem-assets-reporting.md)
 + [Activity Map reporting](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)

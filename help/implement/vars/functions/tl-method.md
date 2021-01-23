@@ -73,7 +73,7 @@ s.tl(true,"e","Example exit link");
 The link name argument is a string that determines the link tracking dimension item. When using the [Custom link](/help/components/dimensions/custom-link.md), [Download link](/help/components/dimensions/download-link.md), or [Exit link](/help/components/dimensions/exit-link.md) dimensions in reporting, this string contains the dimension item. If this argument is not set, the [linkURL](../config-vars/linkurl.md) variable is used.
 
 ```js
-// When using the Download link dimension, this method call increases the instances for "Sea turtle PDF report" by 1.
+// When using the Download link dimension, this method call increases the occurrences for "Sea turtle PDF report" by 1.
 s.tl(true,"d","Sea turtle PDF report");
 ```
 

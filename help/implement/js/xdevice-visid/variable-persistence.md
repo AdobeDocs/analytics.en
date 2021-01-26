@@ -10,7 +10,7 @@ uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 
 >[!IMPORTANT]
 >
->This method of identifying visitors across devices is no longer recommended. See [Cross-device Analytics](/help/components/cda/overview.md) in the Components user guide.
+>This method of identifying visitors across devices is no longer recommended. See [Cross-Device Analytics](/help/components/cda/overview.md) in the Components user guide.
 
 When visitor profiles are merged after being associated with the same visitor ID variable, attribution is not changed in the historical data set.
 

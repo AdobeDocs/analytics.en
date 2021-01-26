@@ -1,10 +1,9 @@
 ---
-description: null
-title: Color Palettes
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: How to use the visualization color palette in Analysis Workspace
+title: What are Visualization Color Palettes and How do they Work?
 ---
 
-# Visualization Color Palette
+# Visualization Color Palettes
 
 You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect Summary Change, conditional formatting in Freeform tables, and the Map visualization.
 

@@ -44,9 +44,9 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Pagination, filtering and sorting tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
       + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
-      + [What is cohort analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-      + [Configure a cohort analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-      + [Cohort analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+      + [What is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+      + [Configure a Cohort Analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+      + [Cohort Analysis use cases](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
     + Fallout {#fallout}
       + [Fallout overview](analysis-workspace/visualizations/fallout/fallout-flow.md)
       + [Configure a fallout visualization](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -128,6 +128,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Install Report Builder](report-builder/setup/t-install-arb.md)
     + [Upgrade Report Builder](report-builder/setup/upgrade-arb.md)
     + [Report Builder Sign-In](report-builder/setup/login.md)
+    + [Sign in to Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
     + [Uninstall Report Builder](report-builder/setup/t-uninstall-arb.md)
     + [Invoke Report Builder functionality from Microsoft Excel functions](report-builder/setup/invoke-arb-excel-function.md)
   + [Report Builder toolbar](report-builder/reportbuilder-toolbar.md)

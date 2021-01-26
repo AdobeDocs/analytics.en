@@ -1,5 +1,5 @@
 ---
-description: null
+description: Adobe Analytics data governance FAQ
 title: Frequently asked questions
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 ---

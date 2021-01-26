@@ -1,6 +1,6 @@
 ---
-description: Information about the three ways to sign in to Report Builder.
-title: Report Builder Sign-In
+description: Learn how to sign in to Report Builder using your Experience Cloud login account.
+title: How to Sign In to Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 ---
@@ -25,7 +25,7 @@ The Experience Cloud login lets you use your Enterprise ID (email and password) 
 
 ## Sign in to Report Builder
 
-To log in to Report Builder
+To sign in to Report Builder
 
 1. In Excel, click **[!UICONTROL Add-Ins]**.
 1. Click **[!UICONTROL Sign In]**. Other actions that sign you in include:
@@ -36,7 +36,7 @@ To log in to Report Builder
 
 1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.
 
-## Legacy login types
+<!-- ## Legacy login types
 
 >[!IMPORTANT]
 >
@@ -44,10 +44,7 @@ To log in to Report Builder
 
 <!-- ![](assets/login_screen.png) -->
 
-* [Standard](/help/analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
-* [Site Catalyst Single Sign-On](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
-
-## Standard {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
+<!-- ## Standard {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
 
 Use this login if you want to sign in to Report Builder using your Adobe Analytics credentials.
 
@@ -65,4 +62,4 @@ Use this login if you want to sign in to Report Builder using your Adobe Analyti
 
 This (legacy) single sign-on logs you in to Adobe Analytics only, not the entire Experience Cloud.
 
-You can also type in a domain and the system will recognize the domain and redirect you to your company's sign-in page to log in to Adobe Analytics.
+You can also type in a domain and the system will recognize the domain and redirect you to your company's sign-in page to log in to Adobe Analytics. -->

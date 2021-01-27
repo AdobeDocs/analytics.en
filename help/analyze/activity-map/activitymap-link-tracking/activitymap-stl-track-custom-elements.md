@@ -26,7 +26,7 @@ In other words, if you use `s.tl()` to track your custom elements, the link ID i
 When the s.tl() function is called directly from the HTML element's on-click event, Activity Map can display an overlay for that element when the web page is loaded. Example:
 
 ```html
-<div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
+<a href="javascript:" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
 Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. Then a new link collection process is triggered from Activity Map.
@@ -34,7 +34,7 @@ Whenever any web page content is added to the page after the initial page load, 
 When the `tl()` method is not called directly from the HTML element's on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
 
 ```html
-<div onclick="someFn(event)"></div>
+<a href="javascript:" onclick="someFn(event);"></div>
 <script>function someFn (event)
 {
   s.tl(event.srcElement,'o','Example custom link');

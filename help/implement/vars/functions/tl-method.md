@@ -27,16 +27,10 @@ You cannot set any optional arguments in Launch.
 Call the `s.tl()` method when you want to send a tracking call to Adobe.
 
 ```js
-s.tl();
-```
-
-Optionally, this method accepts several arguments:
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Link object
+### Link object (required)
 
 The link object argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
 
@@ -48,37 +42,42 @@ The link object argument determines if the browser waits up to 500ms before navi
 * `true`: Do not wait.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Link type
+### Link type (required)
 
-The link type argument is a single-letter string that determines the type of link tracking call. It is the same as setting the [`linkType`](../config-vars/linktype.md) variable.
+The link type argument is a single-character string that determines the type of link tracking call. There are three valid values.
+
+* `o`: The link is a [Custom link](/help/components/dimensions/custom-link.md).
+* `d`: The link is a [Download link](/help/components/dimensions/download-link.md).
+* `e`: The link is an [Exit link](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Link name
+### Link name (recommended)
 
-The link name argument is a string that determines the link tracking dimension item. It is the same as setting the [`linkName`](../config-vars/linkname.md) variable.
+The link name argument is a string that determines the link tracking dimension item. When using the [Custom link](/help/components/dimensions/custom-link.md), [Download link](/help/components/dimensions/download-link.md), or [Exit link](/help/components/dimensions/exit-link.md) dimensions in reporting, this string contains the dimension item. If this argument is not set, the [linkURL](../config-vars/linkurl.md) variable is used.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Variable overrides
+### Variable overrides (optional)
 
 Lets you change variable values for a single call. See [variable overrides](../../js/overrides.md) for more information.
 
@@ -101,14 +100,6 @@ Use JavaScript to make a basic link tracking call using method arguments:
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Use JavaScript to make the same basic link tracking call using separate variables:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Make link tracking calls within a custom function

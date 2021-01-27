@@ -48,9 +48,9 @@ The following table lists all query string parameters Adobe uses in image reques
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Used in the [Page](/help/components/dimensions/page.md) dimension. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Used in the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension. |
 | `pccr` | None | Only set for new visitors and always set to `true`. Helps prevent infinite redirects. |
-| `pe` | [`linkType`](../vars/config-vars/linktype.md) | Determines the type of custom link. Required for [Custom links](/help/components/dimensions/custom-link.md), [Download links](/help/components/dimensions/download-link.md), and [Exit links](/help/components/dimensions/exit-link.md). |
+| `pe` | [`tl()`](../vars/functions/tl-method.md) | Determines the type of custom link. Required for [Custom links](/help/components/dimensions/custom-link.md), [Download links](/help/components/dimensions/download-link.md), and [Exit links](/help/components/dimensions/exit-link.md). |
 | `pev1` | None | The URL the custom link occurred on.|
-| `pev2` | [`linkName`](../vars/config-vars/linkname.md) | Custom link friendly name. |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Custom link friendly name. |
 | `pev3` | None | No longer used. Tracked milestones in previous versions of video reporting. |
 | `pf` | None | Platform flag; for Adobe use only. Do not alter. |
 | `pid` | None | Page identifier for last page. Used in previous versions of Activity Map. |

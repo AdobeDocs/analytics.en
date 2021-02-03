@@ -1,6 +1,6 @@
 ---
 title: websiteBot
-description: Dynamically identify desktop visitors that are not bots.
+description: Dynamically identify bots using mouse movement.
 ---
 
 # Adobe plug-in: websiteBot

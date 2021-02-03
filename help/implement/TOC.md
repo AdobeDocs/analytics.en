@@ -111,10 +111,11 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [getVisitNum](vars/plugins/getvisitnum.md)
     + [inList](vars/plugins/inlist.md)
     + [manageVars](vars/plugins/managevars.md)
-    + [Numbers Suite](vars/plugins/numberssuite.md)
+    + [Numbers suite](vars/plugins/numberssuite.md)
     + [p_fo](vars/plugins/p-fo.md)
     + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
+    + [websiteBot](vars/plugins/websitebot.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)

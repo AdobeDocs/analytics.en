@@ -53,7 +53,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Delivra | Deprecating |
 | Demandbase CA | Deprecating |
 | Demandbase v3 | Deprecating |
-| DialogTech | Deprecating |
+| DialogTech | Available on Adobe Exchange |
 | DoubleClick for Advertisers (DFA) | Deprecating |
 | DREAM | Deprecating |
 | DREAMmail 2.0 | Deprecating | 

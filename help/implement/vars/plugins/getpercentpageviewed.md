@@ -13,8 +13,6 @@ The `getPercentPageViewed` plug-in measures a visitor's scroll activity to see h
 
 ## Install the plug-in using Launch custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
-
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.

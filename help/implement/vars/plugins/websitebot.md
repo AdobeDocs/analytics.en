@@ -49,7 +49,7 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 The `websiteBot` variable is a boolean. It returns `true` if the plug-in detects a bot; otherwise it returns `false`.
 
-## Example
+## Examples
 
 ```js
 // Set eVar1 to detect bots. Dimension items in reporting are "true" or "false"

@@ -42,7 +42,7 @@ Report suite tools permission items grant access to features that are specific t
 
 ### Analytics Tools
 
-Analytics tools permission items grant access to features that are independent of report suite settings. See [Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
+Analytics tools permission items grant access to features that are independent of report suite settings. See [Product profile permissions for Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
 
 ## Product profile developers
 

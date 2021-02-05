@@ -18,7 +18,7 @@ Current Data is enabled by default on all reports that support it. If you would 
 
 * Use Analysis Workspace, which uses fully processed data.
 * Click 'No' in the current data report setting to only use fully processed data.
-* Remove the 'Current Data' permission item from a product profile in the Admin Console to prevent non-admin users from seeing this option. See [Analytics Tools permission items](/help/admin/admin-console/permissions/analytics-tools.md) in the Admin user guide for more information.
+* Remove the 'Current Data' permission item from a product profile in the Admin Console to prevent non-admin users from seeing this option. See [Product profile permissions for Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md) in the Admin user guide for more information.
 
 Due to prioritizing data availability, current data currently cannot be used with segments, classifications, breakdowns, pathing, and some metrics. If one of these features are used, current data is forced to 'No' in the report and a yellow notice is shown explaining why current data is not available.
 

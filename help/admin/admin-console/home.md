@@ -1,6 +1,6 @@
 # Analytics in the Adobe Admin Console
 
-Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Analytics products and users. Adobe Admin Console is located at [adminconsole.adobe.com](adminconsole.adobe.com).
+Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Analytics products and users. Adobe Admin Console is located at [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 
 This chapter explains concepts you need to understand about Analytics-specific product profiles and permissions in the Adobe Admin Console.
 

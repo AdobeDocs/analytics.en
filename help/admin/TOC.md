@@ -101,12 +101,12 @@ user-guide-description: Learn about managing users and products in the Experienc
     + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
     + [Use case - extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
   + [Video management](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-  + [Experience Cloud Admin Console help](admin-console/home.md)
++ Analytics in the Adobe Admin Console {#admin-console}
+  + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + Permissions {#permissions}
-    + [Product Profile help](admin-console/permissions/product-profile.md)
-    + [Report Suite Tools permission items](admin-console/permissions/report-suite-tools.md)
-    + [Analytics Tools permission items](admin-console/permissions/analytics-tools.md)
+    + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
+    + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
+    + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
   + [Create a report suite](admin-console/create-report-suite.md)
 + Company Settings {#company-settings}

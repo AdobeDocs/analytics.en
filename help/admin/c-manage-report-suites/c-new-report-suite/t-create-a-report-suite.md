@@ -12,7 +12,7 @@ This article is designed for system-level administrators or analytics admins to 
 
 ## Prerequisites
 
-[Adobe Analytics First Admin Guide](first-admin-guide.md): Ensure a system-level administrator has granted you access to Adobe Analytics via the Experience Cloud Admin Console.
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Ensure that a system-level administrator has granted you access to Adobe Analytics via the Experience Cloud Admin Console.
 
 ## Create a report suite {#create-report-suite}
 

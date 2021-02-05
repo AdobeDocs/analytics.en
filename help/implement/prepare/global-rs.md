@@ -27,7 +27,7 @@ Adobe recommends implementing a global report suite in most cases.
 
 Use the following general guidelines to understand the process of implementing a global report suite.
 
-1. Create the global report suite in Adobe Analytics. See [Create a report suite](../../admin/admin-console/create-report-suite.md) in the Admin user guide for more information.
+1. Create the global report suite in Adobe Analytics. See [Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in the Admin user guide for more information.
 1. Work with teams in your organization responsible for each domain. Many teams have reporting requirements specific to their area of the business.
 1. Record and aggregate all of these requirements in a [Solution design document](solution-design.md). If teams have similar requirements for a dimension, they can use the same custom variable. For example, if site A and site B both require a breadcrumb dimension, implementations for both sites can send that data through eVar1.
 

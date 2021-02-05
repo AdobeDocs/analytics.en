@@ -108,7 +108,6 @@ user-guide-description: Learn about managing users and products in the Experienc
     + [Report Suite Tools permission items](admin-console/permissions/report-suite-tools.md)
     + [Analytics Tools permission items](admin-console/permissions/analytics-tools.md)
   + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
-  + [Create a report suite](admin-console/create-report-suite.md)
 + Company Settings {#company-settings}
   + [Company Settings overview](company/c-company-settings.md)
   + [Feature access levels](company/feature-access-levels.md)

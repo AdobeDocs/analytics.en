@@ -51,6 +51,6 @@ Product admin access for Experience Platform Launch is nearly identical to grant
 
 ## Next Steps
 
-[Create a Report Suite](create-report-suite.md): Have your Analytics admin login to the tool and create a report suite for data collection
+[Create a Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Have your Analytics admin login to the tool and create a report suite for data collection
 
 [Create a property in Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Have your Experience Platform Launch admin login to the tool and create a property to implement on your site

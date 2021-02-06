@@ -1,4 +1,4 @@
-# Analytics Tools permission items
+# Product profile permissions for Analytics Tools
 
 Analytics Tools permission items grant access to features within Adobe Analytics. Analytics Tools permission items do not apply to a report suite, but rather to Adobe Analytics as a whole.
 

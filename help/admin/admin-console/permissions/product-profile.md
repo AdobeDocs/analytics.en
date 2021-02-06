@@ -1,6 +1,6 @@
-# Product profiles in Adobe Analytics
+# Product profiles for Adobe Analytics
 
-Product profiles are a permission preset that product admins can assign to users within an organization. If you create a product profile and assign an Experience Cloud user to that product profile, they inherit the permission items contained in the product profile.
+Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an Experience Cloud user to that product profile, they inherit the permission items contained in the product profile.
 
 See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise user guide for general information on product profiles.
 
@@ -42,7 +42,7 @@ Report suite tools permission items grant access to features that are specific t
 
 ### Analytics Tools
 
-Analytics tools permission items grant access to features that are independent of report suite settings. See [Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
+Analytics tools permission items grant access to features that are independent of report suite settings. See [Product profile permissions for Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
 
 ## Product profile developers
 

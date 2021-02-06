@@ -31,7 +31,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Analysis Workspace Access| Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
 | Reports & Analytics Access | Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics. |
 | Analysis Workspace: Save As Template | Grants access to Project > Save As Template within Analysis Workspace. |
-| Labs Access| Currently under development. When released, grants access to Labs. |
+| Labs Access| Give users access to Labs and the prototypes within Labs. |
 | Calculated Metric Creation | Grants the ability to create calculated metrics across all Analytics capabilities. |
 | Segment Creation | Grants the ability to create and share segments across all Analytics capabilities. |
 | Advertising Analytics Management | Not used. |

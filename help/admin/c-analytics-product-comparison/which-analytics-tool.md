@@ -61,13 +61,17 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
     * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 
     * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(formerly known as Genesis)** should be used:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** should be used:
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
+
+**[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* Data Insertion API and Bulk Data Insertion API are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. If you are working on a new implementation of server-side collection, we recommend using Bulk Data Insertion API.
 
 **[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
 

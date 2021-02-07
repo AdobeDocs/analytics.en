@@ -1,4 +1,4 @@
-# Report Suite Tools listed in Product Profile permissions
+# Product profile permissions for Report Suite Tools
 
 Use this page to understand each permission item under Report Suite Tools.
 

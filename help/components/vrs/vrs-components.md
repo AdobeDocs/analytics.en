@@ -24,13 +24,13 @@ To enable component curation,
    >[!NOTE]
    >
    >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
-
-    * [!UICONTROL Reports & Analytics] 
-    * [!UICONTROL Ad Hoc Analysis] 
-    * [!UICONTROL Data Warehouse] 
-    * [!UICONTROL Report Builder] 
-    * [!UICONTROL Activity Map]
-    * Analytics Reporting API
+   >
+   >* [!UICONTROL Reports & Analytics] 
+   >* [!UICONTROL Ad Hoc Analysis] 
+   >* [!UICONTROL Data Warehouse] 
+   >* [!UICONTROL Report Builder] 
+   >* [!UICONTROL Activity Map]
+   >* Analytics Reporting API
 
    Once checked, you can add the components you'd like to be included in the virtual report suite by dragging the applicable components from the "excluded components" column to the "included components" column. The components that can be included and excluded are:
 

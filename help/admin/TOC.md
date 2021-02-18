@@ -104,6 +104,7 @@ user-guide-description: Learn about managing users and products in the Experienc
 + Analytics in the Adobe Admin Console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + Permissions {#permissions}
+    + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)

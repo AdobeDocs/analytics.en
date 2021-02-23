@@ -18,7 +18,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Costs | x |  |  |  | Grants access to Marketing Channels > Marketing Channel Costs in the Report Suite Manager. |
 | Custom Calendar | x |  |  |  | Grants access to General > Customize Calendar in the Report Suite Manager. |
 | Data Feeds Manager | x |  |  |  | Grants access to Admin > Data Feeds in the Analytics top navigation. |
-| Data Repair API | x |  |  |  | New (in Beta) - Grants access to the Data Repair API |
+| Data Repair API | x |  |  |  | Grants access to the Data Repair API |
 | Data Sources Manager  | x |  |  |  | Grants access to Admin > Data Sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
 | Default Metrics | x |  |  |  | Grants access to Individual Report Suite Settings > Default Metrics in the Report Suite Manager.      |
 | Exclude By IP Address | x |  |  |  | Grants access to Admin > Exclude By IP in the Analytics top navigation. |

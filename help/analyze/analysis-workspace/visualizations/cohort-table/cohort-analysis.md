@@ -1,9 +1,9 @@
 ---
-title: What is Cohort Analysis?
-description: Learn about cohort analysis in Analysis Workspace
+title: What is Cohort Analysis and how does it work?
+description: Dig deeper into the data around your audience and break into related groups with Cohort Analysis. Learn about cohort analysis in Analysis Workspace.
 ---
 
-# What is [!UICONTROL Cohort Analysis]?
+# Learn about [!UICONTROL Cohort Analysis] in Adobe Analytics
 
 A *`cohort`* is a group of people sharing common characteristics over a specified period. [!UICONTROL Cohort Analysis] is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 

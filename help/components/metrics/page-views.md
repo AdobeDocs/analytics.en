@@ -1,9 +1,9 @@
 ---
-title: Page views
-description: The number of times a page was viewed.
+title: Page Views Metric Explained | Adobe Analytics 
+description: Learn how the page views metric is worked out in Adobe Analytics and also understand the difference between page views and visits.
 ---
 
-# Page views
+# Learn about Page Views with Adobe Analytics
 
 The 'Page views' metric shows the number of times a given dimension item was set or persisted on a page. It is one of the most common and basic metrics in reports.
 

@@ -11,7 +11,7 @@ Since Adobe Analytics uses a JavaScript library to compile and send an image req
 
 ## Determine which method to implement Adobe Analytics on pages using AMP
 
-Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics tag](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) on the ampproject GitHub for more information.
+Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics tag](https://amp.dev/documentation/components/amp-analytics) on AMP's documentation for more information.
 
 * **Use the `"adobeanalytics"` tracking template**: Construct the Analytics request directly on the page
 * **Use the `"analytics_nativeConfig"` tracking template**: Use an iframe containing the same AppMeasurement code you deploy on your normal site

@@ -169,7 +169,7 @@ user-guide-description: Learn about managing users and products in the Experienc
     + [Customize dimension permissions](user-management2/c-customize-report-access/groups-dimensions.md)
   + [Email users](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
-  + [Adobe Analytics and GDPR Overview](c-data-governance/an-gdpr-overview.md)
+  + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
   + [Adobe Analytics and CCPA](c-data-governance/an-ccpa-overview.md)
   + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
   + [Frequently asked questions](c-data-governance/gdpr-faq.md)

@@ -33,9 +33,19 @@ Administrators have rights to use processing rules **by default**. Administrator
 
 Context data variables are a type of variable that are available only to processing rules. To use context data variables, key/value data pairs are sent in by your implementation, and processing rules are used to capture these values in standard Analytics variables. This frees programmers from understanding exactly which prop and/or eVar should contain which value.
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-See [Context Data Variables](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in Implementation Help.
+Once set in code, you can set processing rules to assign values to variables. For example:
+
+1. Map `author` to `eVar2`
+2. Map `section` to `prop1` and `eVar3`
+3. If `author` and `section` exist, set `event5`
+
+See [contextData](/help/implement/vars/page-vars/contextdata.md) in the Implement user guide for more information.
 
 ## Use Processing Rules to Transform Hit Data and Trigger Events {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -45,4 +55,4 @@ Processing rules can monitor incoming values to transform common typos and set e
 
 Once context data variables are defined within your implementation, they must be copied to variables such as eVars to be used in reporting.
 
-For more information, go [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) and [here](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+See [Copy a context data variable to an eVar](processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](processing-rules-examples/processing-rules-copy-context-data-event.md) for more information.

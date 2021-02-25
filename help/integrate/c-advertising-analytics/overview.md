@@ -1,10 +1,9 @@
 ---
-description: null
-title: Advertising Analytics overview
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: Discover everything you can do with Advertising Analytics in this detailed guide, including permissions required, and available dimensions and metrics.
+title: A Guide to Advertising Analytics
 ---
 
-# Advertising Analytics overview
+# A guide to Advertising Analytics
 
 Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
 
@@ -77,8 +76,8 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 
 | Classification (Dimension) Name | Definition |
 |--- |--- |
-|Keyword MatchType (AMO ID)|The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
-|Ad Platform (AMO ID)|The search engine name. Values can include Google AdWords or Microsoft Bing Ads.|
+| Keyword MatchType (AMO ID) | The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type. |
+| Ad Platform (AMO ID) | The search engine name. Values can include Google AdWords or Microsoft Bing Ads. |
 |Account (AMO ID)|The name of the search engine account that is being tracked.|
 |Campaign (AMO ID)|The name of the campaign in your search engine account.|
 |Ad Group (AMO ID)|The name of the ad group in your search engine campaigns.|

@@ -13,7 +13,7 @@ This metric is not available in Data Warehouse due to its different processing a
 
 ## How this metric is calculated
 
-This metric uses the formula [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+This metric uses the formula [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 
 ## Comparison to Average time on site
 

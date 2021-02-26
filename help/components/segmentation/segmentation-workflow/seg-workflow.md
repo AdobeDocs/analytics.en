@@ -32,7 +32,7 @@ See [Build Sequential Segments](/help/components/segmentation/segmentation-workf
 
 ![](assets/step3_icon.png) [ Tag Segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Tag segments for ease of organization and sharing. Tagging replaces folder hierarchies in ad hoc analysis. See how to plan and assign tags for simple and advanced searches and organization.
+Tag segments for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization.
 
 ![](assets/step4_icon.png) [ Approve Segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 

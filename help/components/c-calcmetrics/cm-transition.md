@@ -40,8 +40,6 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [Why do some of the calculated metrics show formulas without the parentheses I added?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Ad Hoc Analysis only) Are Calculated Metrics with Embedded or Inline Segment Definitions still supported?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
-
 [(Report Builder only) Why have calculated metrics disappeared from my requests?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
 [How do Calculated Metrics Totals work?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
@@ -113,7 +111,7 @@ Global calculated metrics can no longer be shared across login companies. They a
 
 Now, calculated metrics with a Numeric or Numeric2 classification will continue to be visible in [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], and the APIs. However, they will not be supported in any report with a segment applied.
 
-In addition, calculated metrics with a Numeric or Numeric2 classification will not be supported in the following components: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] reports, [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. When you create or edit a calculated metric with a Numeric or Numeric2 classification, you will see a compatibility warning that the calculated metric is not compatible with certain areas of the product.
+In addition, calculated metrics with a Numeric or Numeric2 classification will not be supported in the following components: [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] reports, [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. When you create or edit a calculated metric with a Numeric or Numeric2 classification, you will see a compatibility warning that the calculated metric is not compatible with certain areas of the product.
 
 **What You Need to Do**
 
@@ -176,14 +174,6 @@ Now, only those calculated metrics that have their allocation type specifically 
 ## Why do some of the calculated metrics show formulas without the parentheses I added? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 During the migration, Adobe stripped out superfluous parentheses from some formulas. Only parentheses that do not affect how the metric is calculated were removed. This won't change the data - it just simplifies the formula.
-
-## (Ad Hoc Analysis only) Are Calculated Metrics with embedded or inline segment definitions still supported? {#section_B25C924A282F49388AB604E3D826F44C}
-
-Calculated metrics created in Ad Hoc analysis could previously contain inline segment definitions. This is no longer possible.
-
-**What You Need to Do**
-
-You need to explicitly save the segment. Existing calculated metrics with inline segment definitions will continue to run correctly and can be viewed in Ad Hoc Analysis, but they cannot be saved without explicitly saving the segment.
 
 ## (Report Builder only) Why have calculated metrics disappeared from my requests? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 

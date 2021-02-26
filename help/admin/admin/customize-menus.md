@@ -13,7 +13,7 @@ The menu changes apply to all users who access the report suite. However, users 
 
 >[!NOTE]
 >
->Any change in menu structure does not affect Report Builder and Ad Hoc Analysis. Renaming a report will, however, be reflected in both tools.
+>Any change in menu structure does not affect Report Builder. Renaming a report will, however, be reflected in this tool.
 
 ## Menu Customization Descriptions {#section_B0D224DACB914A378902A4E0E1234889}
 

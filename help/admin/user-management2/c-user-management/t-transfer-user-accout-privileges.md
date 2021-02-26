@@ -23,8 +23,3 @@ Steps that describe how to assign user account items (dashboards, calculated met
 1. Click **[!UICONTROL OK]** to confirm that you want to transfer the selected account resources.
 
    The receiving user receives all rights for the selected account resources owned by the original user, except for rights to scheduled reports.
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis resources cannot be transferred. If your organization uses multiple login companies, you cannot transfer anything between login companies.
-

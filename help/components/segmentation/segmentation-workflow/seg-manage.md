@@ -38,15 +38,3 @@ This [Adobe Analytics video](https://docs.adobe.com/content/help/en/analytics-le
 |  12  | Shared icon  | Indicates that this segment is shared by you or with you.  |
 |  13  | Approved icon  | Indicates that this segment has been approved by an Administrator.  |
 |  14  | Filters  | Lets you see and select the filters under Tags, Report Suites, Owners, and Other (Show All, Mine, Shard with Me, Approved, Favorites.)  |
-
-## Segment Manager in Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-The Segment Organizer in ad hoc analysis shows you all the segments you own and those shared with you.
-
-To access the Segment Organizer in [!DNL ad hoc analysis]:
-
-* Go to the **[!UICONTROL Segments]** tab in the left side panel and then click the wrench icon  ![](assets/wrench_icon.png) and select **[!UICONTROL Organize Segments]** from the menu.
-
-![](assets/ad_hoc_organize_segments.png)
-
-Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.

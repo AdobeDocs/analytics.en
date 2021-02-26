@@ -171,7 +171,6 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `resolution` | Numeric ID representing the resolution of the monitor. Used in the [Monitor resolution](/help/components/dimensions/monitor-resolution.md) dimension. Uses `resolution.tsv` lookup table. | smallint unsigned |
 | `s_kwcid` | Keyword ID used in Adobe Advertising Cloud integrations. | varchar(255) |
 | `s_resolution` | Raw screen resolution value. Gathered using the JavaScript function `screen.width x screen.height`. | char(20) |
-| `sampled_hit` | No longer used. Was formerly used for sampling in Ad Hoc Analysis. | char(1) |
 | `search_engine` | Numeric ID representing the Search Engine that referred the visitor to your site. Uses `search_engines.tsv` lookup.| smallint unsigned|
 | `search_page_num` | Used by the [All Search Page Rank](/help/components/dimensions/all-search-page-rank.md) dimension. Indicates which page of search results your site appeared on before the user clicked through to your site. | smallint unsigned |
 | `secondary_hit` | Flag that tracks secondary hits. Typically originates from multi-suite tagging and VISTA rules that copy hits. | tinyint unsigned |

@@ -1,5 +1,5 @@
 ---
-description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
+description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, and Data Workbench
 title: Analytics product comparison and requirements
 ---
 

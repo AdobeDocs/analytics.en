@@ -46,6 +46,6 @@ Rollup report suites aggregate data from multiple child report suites and displa
 
 **Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Supported products**: Rollups can only be used in Reports & Analytics. They are not supported in Analysis Workspace, Data Warehouse, or Ad Hoc Analysis. Global report suites can be used across all products.
+**Supported products**: Rollups can only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
 **Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.

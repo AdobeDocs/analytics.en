@@ -21,10 +21,8 @@ Answers frequent questions on segmentation features, access, permissions, best p
 * Segments are universal to all report suites.
 * The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifies segment creation.
 * The [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
-
-* You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
-
-* You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) outside of Ad Hoc Analysis.
+* You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders.
+* You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
 See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
@@ -81,11 +79,11 @@ Ad Hoc Analyics and Report Builder display segments that you own and segments th
 
 **Can I manage all Analytics segments in the Segment Manager?**
 
-Yes, all segments can be managed in the Segment Manager in Analysis Workspace, Reports & Analytics and Ad Hoc Analysis. Segment Manager displays segments that are visible to the owner (user who created the segment), shared users, and admin users. The segment selector displays segments that are owned by and shared with the user.
+Yes, all segments can be managed in the Segment Manager. Segment Manager displays segments that are visible to the owner (user who created the segment), shared users, and admin users. The segment selector displays segments that are owned by and shared with the user.
 
 Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
 
-Ad Hoc Analysis and Report Builder display only segments built by you or segments that have been shared specifically with you.
+Report Builder displays only segments built by you or segments that have been shared specifically with you.
 
 **Why can't I delete this segment?**
 
@@ -119,10 +117,6 @@ Segment templates are marked with a special icon in Segment Builder:
 
 ![](assets/seg_templates.png)
 
-**What happened to my existing segment folders?**
-
-Instead of (Ad Hoc Analysis) folders, the Segment Manager uses tags. Your folder names are automatically converted to tags and those tags are applied to the respective segments.
-
 **What happened to scheduled reports that have segments applied?**
 
 Scheduled reports continue to run properly with the segments that you defined.
@@ -137,15 +131,9 @@ You have a bookmark that references the segment for the mainprod report suite. T
 
 **What happens to Data Warehouse segments?**
 
-All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace, Ad Hoc Analysis and Reports & Analytics.
+All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace and Reports & Analytics.
 
 You can create or edit a new Data Warehouse segments in the segment builder/manager. The Product Compatibility mechanism in the Segment Builder automatically determines whether a segment is compatible with Data Warehouse.
-
-**What happens to Favorites Segments (Ad Hoc Analysis)?**
-
-These Ad Hoc Analysis segments are displayed as regular segments in Adobe Analytics.
-
-They should not be confused with the Favorites feature in the Segment Manager that lets you mark segments as favorites.
 
 **What happens to Pre-Configured Segments?**
 
@@ -155,9 +143,7 @@ They should not be confused with the Favorites feature in the Segment Manager th
 * **Visits from Paid Search**
 * **Visits with Visitor ID Cookie**
 
-These segments will be migrated over as segment templates into the Segment Builder.
-
-Existing reports that have these segments applied will continue to work correctly.
+These segments will be migrated over as segment templates into the Segment Builder. Existing reports that have these segments applied will continue to work correctly.
 
 **What happens to Experience Cloud (Suite) segments:**
 

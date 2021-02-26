@@ -11,7 +11,7 @@ uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Customize group permission to Analytics tools, report suite tools, metrics, and dimensions.
 
@@ -35,7 +35,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Administrator access / predefined groups </p> </td> 
-   <td colname="col2"> <p> Predefined groups are no longer required for administrators. Administrators now have access to all items (tools, metrics, dimensions), as well as Web Service access, Report Builder, Activity Map, and Ad Hoc Analysis. </p> <p>The purpose of groups is to grant or restrict access to non-administrative users. </p> </td> 
+   <td colname="col2"> <p> Predefined groups are no longer required for administrators. Administrators now have access to all items (tools, metrics, dimensions), as well as Web Service access, Report Builder, and Activity Map. </p> <p>The purpose of groups is to grant or restrict access to non-administrative users. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom groups </p> </td> 

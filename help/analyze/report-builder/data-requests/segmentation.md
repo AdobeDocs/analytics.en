@@ -46,7 +46,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Any segments that were created in Reports & Analytics, Ad Hoc Analysis, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
+Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 

@@ -24,7 +24,6 @@ uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 + [Exclude By IP Address](exclude-ip.md)
 + [Finding Methods](finding-methods.md)
 + [General Account Settings](general-acct-settings-admin.md)
-+ [Group Management](group.md)
 + [Internal URL Filters](internal-url-filter-admin.md)
 + [Logs](logs.md)
 + [Marketing Channels](marketing-channels-admin.md)

@@ -11,7 +11,7 @@ Segments allow you to identify subsets of visitors based on characteristics or w
 
 Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit] and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the [!DNL Adobe Experience Cloud]. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
 
-You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!UICONTROL] Analysis Workspace). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 

@@ -57,8 +57,6 @@ Transaction IDs are used to record the state of a visitor at a point in time. Th
 
 The customer is often anonymous when they move from online to offline.
 
-Transaction ID events are not included in Visit Participation metrics (those shown in marketing reports), but they are included in Visitor Participation metrics (available only in ad hoc analysis).
-
-The is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
+Transaction ID events are not included in Visit Participation metrics (those shown in marketing reports). This is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
 
 See [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

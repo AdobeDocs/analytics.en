@@ -46,7 +46,6 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
     + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
     + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
     + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-    + [Ad Hoc Analysis delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
     + [Data Warehouse delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
     + [Report Builder delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
     + [Engineering Services engagements with FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)

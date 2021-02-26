@@ -38,7 +38,7 @@ Report builder uses the Analytics custom calendar. You can use the calendar to d
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:January has four weeks, February has five weeks, March has four weeks, and so on. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: January has four weeks, February has four weeks, March has five weeks, and so on. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: January has five weeks, February has five weeks, March has four weeks, and so on. </li> 
-    </ul> <p>Note:  This calendar option is supported across all Adobe Analytics tools (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis) except for Data Warehouse, which does not support custom calendars. </p> </td> 
+    </ul> <p>Note:  This calendar option is supported across all Adobe Analytics tools (Analysis Workspace, Reports &amp; Analytics, Report Builder, and Activity Map. The exception is Data Warehouse, which does not support custom calendars. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,7 +16,7 @@ It lets you:
 
 >[!NOTE]
 >
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Flow Visualization video tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 

@@ -53,7 +53,6 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Hide Report Suites](/help/admin/company/c-hide-report-suites.md)|Grants permission to hide report suites in the  Adobe Analytics user interface.|
 |**Tools**|These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics.|
 |[Current Data](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html)|Grants permission to use the Current Data feature in reporting.|
-|[Ad Hoc Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) License Users|Grants permission to access [!UICONTROL Ad Hoc Analysis].|
 |Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
 |[Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
 |[Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|

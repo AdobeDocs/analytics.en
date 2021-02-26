@@ -58,11 +58,7 @@ Descriptions of the elements used when [creating a report suite](/help/admin/c-m
   <tr> 
    <td colname="col1"> <span class="wintitle"> Disable Multi-byte Character Support </span> </td> 
    <td colname="col2"> <p>Disables multibyte character support for the report suite. If you disable multibyte character support, the system assumes that data is in ISO-8859-1 format. Web pages must specify their character set in the <span class="varname"> charSet</span> JavaScript variable. </p> <p>Multibyte character support stores characters in the report suite using UTF-8. Upon receipt, the system converts data from your web page's character set to the UTF-8 character set, so you can use any language in your marketing reports. </p> <p>Contact your Account Manager or Customer Care to change the multibyte character support for an existing report suite. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Activate Ad Hoc Analysis for this suite</span> </td> 
-   <td colname="col2"> Enables viewing this report suite when you perform ad hoc analysis. </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 

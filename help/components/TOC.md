@@ -161,7 +161,6 @@ user-guide-description: Help organize your data using components such as segment
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
   + [Frequently asked questions](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
-  + [Transition Guide for Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Calculated Metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
   + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)

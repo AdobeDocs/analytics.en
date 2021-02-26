@@ -27,7 +27,7 @@ Following an initial upload in a report suite (for a given variable or report), 
 
 Each new key value you upload counts against your uniques for that variable for the month.
 
-If you have exceeded your uniques for the month, you will not see the corresponding classifications data for the uniques exceeded values in reporting. You can see those classifications in either data warehouse or ad hoc analysis.
+If you have exceeded your uniques for the month, you will not see the corresponding classifications data for the uniques exceeded values in reporting. You can see those classifications in Data Warehouse.
 
 >[!NOTE]
 >

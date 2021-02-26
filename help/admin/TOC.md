@@ -36,7 +36,6 @@ user-guide-description: Learn about managing users and products in the Experienc
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Finding methods](admin/finding-methods.md)
   + [General Account settings](admin/general-acct-settings-admin.md)
-  + [Group management](admin/group.md)
   + [Internal URL Filters](admin/internal-url-filter-admin.md)
   + [Logs](admin/logs.md)
   + [Marketing Channels](admin/marketing-channels-admin.md)
@@ -157,7 +156,6 @@ user-guide-description: Learn about managing users and products in the Experienc
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
-    + [Manage Ad Hoc Analysis users](user-management2/c-user-management/t-manage-dsc-users-admin.md)
   + User groups {#user-groups}
     + [Add a user group](user-management2/c-user-groups/t-user-group.md)
     + [User group settings](user-management2/c-user-groups/groups.md)

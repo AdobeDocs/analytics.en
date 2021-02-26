@@ -13,7 +13,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -40,7 +40,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics and Ad Hoc Analysis: 
+   <td>Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Entry Server </li> 
      <li>Entry Category </li> 

@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
 ---
 
 # Analytics Tools Guide {#analyze}
@@ -299,15 +299,6 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Calendar events](reports-analytics/t-calendar-event.md)
   + [Frequently Asked Questions](reports-analytics/frequently-asked-questions.md)
   + [Troubleshooting](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-  + Ad Hoc Analysis Project Converter {#aha-project-converter}
-    + [Ad Hoc Analysis Project Converter overview](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-    + [Convert your projects in Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-    + [View converted projects in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-    + [Project Converter FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-  + [Ad Hoc Analysis overview](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-  + [Labs overview](tech-previews/overview.md)
 + Adobe Analytics dashboards {#mobapp}
   + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
   + [Curator guide](mobile-app/curator.md)
@@ -318,3 +309,5 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Analytics Reporting API Overview](c-reporting-api/c-reporting-api.md)
   + [Analytics Reporting API Comparison](c-reporting-api/api-comparison.md)
   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+  + [Labs overview](tech-previews/overview.md)

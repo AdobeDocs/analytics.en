@@ -1,5 +1,5 @@
 ---
-description: null
+description: Troubleshoot and fix issues related to segments.
 title: Segmentation Troubleshooting
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 ---

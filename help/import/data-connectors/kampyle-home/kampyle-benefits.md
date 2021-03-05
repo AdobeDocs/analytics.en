@@ -1,5 +1,5 @@
 ---
-description: null
+description: Benefits for using the Kampyle data connector in Adobe Analytics.
 title: Key Benefits and Features
 uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 ---

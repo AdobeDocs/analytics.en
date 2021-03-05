@@ -1,5 +1,5 @@
 ---
-description: null
+description: Create workspace projects based on standard or custom templates.
 title: Templates
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 ---

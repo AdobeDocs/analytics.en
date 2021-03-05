@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the Kampyle data connector with Adobe Analytics.
 title: Using the Integration
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 ---

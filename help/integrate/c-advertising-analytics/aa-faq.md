@@ -1,5 +1,5 @@
 ---
-description: null
+description: Frequently asked questions around Advertising Analytics.
 title: Frequently Asked Questions
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 ---

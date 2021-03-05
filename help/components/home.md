@@ -1,6 +1,6 @@
 ---
 title: Analytics Components Guide
-description: null
+description: Learn about the different components that Adobe Analytics offers.
 ---
 
 # Analytics Components Guide

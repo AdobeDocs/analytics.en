@@ -1,5 +1,5 @@
 ---
-description: null
+description: Deploy the Dynamic Signal data connector for use in Adobe Analytics.
 title: Deploying the Integration
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 ---

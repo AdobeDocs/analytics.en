@@ -1,5 +1,5 @@
 ---
-description: null
+description: View the top values of a dimension before using it in a project.
 title: Preview dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 ---

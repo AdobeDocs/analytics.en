@@ -1,6 +1,6 @@
 ---
 title: Analytics Integration
-description: null
+description: Learn how you can integrate data from other locations into Adobe Analytics.
 ---
 
 # Analytics Integration

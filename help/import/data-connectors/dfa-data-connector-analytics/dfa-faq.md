@@ -1,5 +1,5 @@
 ---
-description: null
+description: Frequently asked questions around the DFA data connector.
 keywords: DFA
 title: Frequently Asked Questions
 topic: Data connectors

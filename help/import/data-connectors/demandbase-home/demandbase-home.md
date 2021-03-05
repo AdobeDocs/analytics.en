@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the Demandbase data connector with Adobe Analytics.
 title: Demandbase Data Connector for Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 ---

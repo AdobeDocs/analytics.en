@@ -1,5 +1,5 @@
 ---
-description: null
+description: Implement Adobe Analytics using Dynamic Tag Management.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
 title: DTM implementation overview
 topic: Developer and implementation

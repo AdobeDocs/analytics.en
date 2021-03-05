@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use alerts in Reports & Analytics.
 subtopic: Alerts
 title: Alerts
 topic: Reports and analytics

@@ -1,5 +1,5 @@
 ---
-description: null
+description: Learn the basics of working in a Workspace project.
 keywords: Analysis Workspace
 title: Projects overview
 topic: Reports and analytics

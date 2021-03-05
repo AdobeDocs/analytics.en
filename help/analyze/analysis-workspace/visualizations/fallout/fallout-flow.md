@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the fallout visualization in a Workspace project.
 title: Fallout overview
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 ---

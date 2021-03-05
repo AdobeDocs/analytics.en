@@ -1,5 +1,5 @@
 ---
-description: null
+description: Link to the Data insertion API documentation.
 title: Data Insertion API
 uuid: 9c66c7a5-4d16-4e02-8e34-6031504b34d0
 ---

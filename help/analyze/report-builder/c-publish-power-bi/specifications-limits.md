@@ -1,5 +1,5 @@
 ---
-description: null
+description: Limitations when using Report Builder and Microsoft Power BI.
 title: Limitations and specifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 ---

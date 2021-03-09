@@ -5,7 +5,7 @@ description: Use Report Builder to bring Adobe Analytics data directly into Micr
 
 # What is Report Builder?
 
- Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from reporting and analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
+ Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
 ## Popular help topics
 

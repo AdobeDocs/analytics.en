@@ -1,6 +1,6 @@
 ---
 title: Integrate Google Display Ad data into Adobe Analytics
-description: 
+description: This integration lets you associate customer behavior with campaign and cost data from Google AdWords.
 ---
 
 # Integrate Google Display Ad data with Adobe Analytics

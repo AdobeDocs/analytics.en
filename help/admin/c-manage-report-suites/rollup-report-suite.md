@@ -61,7 +61,7 @@ Rollup reports are free: the child report suites incur their own server calls, b
 
 >[!TIP]
 >
->If you use only a global report suite with [virtual report suites](../../components/vrs/vrs-considerations.md), no secondary server calls are needed.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
 **Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 

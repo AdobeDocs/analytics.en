@@ -27,7 +27,7 @@ You can provide subsets of your company's global report suite data to different 
   
   A separate server call is made to each report suite in the image request. The calls to the child report suites are secondary calls.
 
-* **[Virtual report suite](/help/components/vrs/vrs-about.md)**: A virtual report suite is a query on specified segments collected in a global report suite, and available to specified groups of users. Virtual report suites allow you to curate report elements for different end users without using multi-suite tagging, thus avoiding secondary server calls.
+* **Virtual report suite**: A [virtual report suite](/help/components/vrs/vrs-about.md) is a query on specified segments collected in a global report suite, and available to specified groups of users. Virtual report suites allow you to curate report elements for different end users without using multi-suite tagging, thus avoiding secondary server calls.
 
   To use virtual report suites, implement a global report suite and then parse the data to create virtual report suites with specific segments applied and with specific group permissions. You can create virtual report suites in the Virtual Report Suite Manager ([!UICONTROL Components] > [!UICONTROL Virtual Report Suites]). See "[Virtual report suite workflow](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)" for more information.
 	  

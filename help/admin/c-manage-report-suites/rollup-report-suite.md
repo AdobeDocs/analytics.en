@@ -20,9 +20,9 @@ Adobe recommends implementing a global report suite in most cases. See "[Global 
 You can provide subsets of your company's global report suite data to different end users using the *multi-suite tagging* and *virtual report suite* approaches:
 
 * **Multi-suite tagging**: Multi-suite tagging allows you to send image requests not only to a global report suite but also to individual child report suites. The global report data is deduplicated across all reports suites.
-    
+
   For example, you might collect all data in one global report suite and also set up secondary report suites based on brand, region, or another differentiator. The different teams in your company could then focus on data in the report suites that are relevant to them.
-	
+
   To use multi-suite tagging, implement child report suites and a global report suite that includes all data from the children. The tracking code for your webpages and apps will include the Report Suite ID (RSID) for the global report suite and also the RSIDs for the applicable child report suites.<!-- Wording/be more specific? And include any links? -->
   
   A separate server call is made to each report suite in the image request. The calls to the child report suites are secondary calls.
@@ -30,11 +30,11 @@ You can provide subsets of your company's global report suite data to different 
 * **Virtual report suite**: A [virtual report suite](/help/components/vrs/vrs-about.md) is a query on specified segments collected in a global report suite, and available to specified groups of users. Virtual report suites allow you to curate report elements for different end users without using multi-suite tagging, thus avoiding secondary server calls.
 
   To use virtual report suites, implement a global report suite and then parse the data to create virtual report suites with specific segments applied and with specific group permissions. You can create virtual report suites in the Virtual Report Suite Manager ([!UICONTROL Components] > [!UICONTROL Virtual Report Suites]). See "[Virtual report suite workflow](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)" for more information.
-	  
+
 Using virtual report suites instead of multi-suite tagging is often a best practice, but virtual report suites have some limitations. See "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.html)" to determine which report suite approach is the best choice for your business needs. For an in-depth comparison of virtual report suites and multi-suite tagging functionality, see "[Virtual Report Suites vs. Multisuite Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)."
 
 ## Rollup reports
- 
+
 >[!NOTE]
 >
 >[!DNL Reports & Analytics] is the only tool that supports rollup reports, and Adobe no longer recommends using rollups. Instead, consider using a global report suite with multi-suite tagging or virtual report suites.

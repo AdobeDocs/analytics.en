@@ -1,6 +1,6 @@
 ---
-title: Set up an Advertising Account
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: How to set up an Advertising Account in Advertising Analytics
+description: Lets you create new advertising accounts and map multiple accounts to multiple report suites.
 ---
 
 # Set up an Advertising Account

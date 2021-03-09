@@ -32,4 +32,4 @@ You can use Data Sources to help understand the pre-click data by importing the 
 >
 >For transaction ID data sources to tie offline data to online events, Transaction ID Recording must be enabled by Customer Care. See [Transaction ID Recording](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) for more information.
 
-After import, most Data Sources data is available throughout the Digital Marketing Suite.
+After import, most Data Sources data is available throughout the Experience Cloud.

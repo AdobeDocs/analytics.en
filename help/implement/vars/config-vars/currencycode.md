@@ -1,6 +1,6 @@
 ---
-title: currencyCode
-desciption: For eCommerce sites, set the currency the page deals in.
+title: What is the currencyCode variable, and how do I use it?
+description: For eCommerce sites, sets the currency the page deals in.
 ---
 
 # currencyCode

@@ -1,8 +1,6 @@
 ---
 description: Rollup report suites aggregate data from multiple child report suites and display them in a summarized data set.
 title: Rollup and global report suites
-topic: Admin tools
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
 ---
 
 # Rollup and global report suites

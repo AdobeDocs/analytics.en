@@ -1,8 +1,6 @@
 ---
-keywords: Analysis Workspace
-title: Analysis Workspace overview
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: What is Analysis Workspace and how do I use it?
+description: Analysis Workspace is the premier analysis tool for Adobe Analytics. It lets you use panels, tables, visualizations, and other components to bring data to life, curate a dataset, share and schedule projects, among other capabilities.
 ---
 
 # Analysis Workspace overview

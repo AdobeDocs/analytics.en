@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use cases around Advertising Analytics.
 title: Audience Analytics use cases
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 ---

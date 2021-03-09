@@ -1,5 +1,5 @@
 ---
-description: null
+description: Create, edit, or delete alerts.
 title: Alert Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 ---

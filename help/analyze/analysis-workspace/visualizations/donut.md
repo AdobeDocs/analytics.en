@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the donut visualization in a Workspace project.
 title: Donut
 ---
 

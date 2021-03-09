@@ -1,5 +1,5 @@
 ---
-description: null
+description: Manage alerts.
 title: Alert Manager
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
 ---

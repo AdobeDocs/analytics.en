@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the DoubleClick for Advertisers integration with Adobe Analytics.
 keywords: DFA
 title: DFA Data Connector for Adobe Analytics
 topic: Data connectors

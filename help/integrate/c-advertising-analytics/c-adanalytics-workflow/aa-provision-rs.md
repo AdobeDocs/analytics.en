@@ -1,5 +1,5 @@
 ---
-description: null
+description: Configure an Experience Cloud mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 ---

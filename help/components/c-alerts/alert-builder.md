@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use alerts in Analysis Workspace.
 title: Alert Builder
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 ---

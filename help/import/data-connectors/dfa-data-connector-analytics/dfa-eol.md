@@ -5,7 +5,7 @@ description: Why is Adobe end-of-lifing the DFA Data Connector and what alternat
 
 # DFA Integration - End-of-life Information
 
-Adobe [recently announced](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html#dataconnectors) plans to end-of-life [!UIControl Data Connector], a legacy toolset for integrating 3rd party data (e.g. ESP, VOC, etc.) with Adobe Analytics.
+Adobe [recently announced](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html) its plans to end-of-life [!UIControl Data Connector], a legacy toolset for integrating 3rd party data (e.g. ESP, VOC, etc.) with Adobe Analytics.
 
 ## Why are Data Connectors going into End-of-Life?
 

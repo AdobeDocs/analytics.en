@@ -1,6 +1,6 @@
 ---
-description: Why is Adobe end-of-lifing the DFA Data Connector?
 title: DFA Integration - End-of-life Information
+description: Why is Adobe end-of-lifing the DFA Data Connector and what alternatives are there?
 ---
 
 # DFA Integration - End-of-life Information

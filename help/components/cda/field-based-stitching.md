@@ -21,6 +21,7 @@ If you intend to implement Cross-Device Analytics using field-based stitching, t
 ## Limitations specific to field-based stitching
 
 * Field-based stitching works best on report suites that have a high user identification rate. If your report suite has a low identification or login rate, consider using the [Co-op graph](device-graph.md).
+* Although props and eVars each have rules for how upper and lowercase characters are handled for reporting purposes, field-based stitching does not transform the prop or eVar used for stitching in any manner. Field-based stitching uses the value in the specified field as it exists post VISTA rules and post processing rules. For example, if sometimes the word 'Bob' appears in the prop/eVar, and sometimes the word 'BOB' appears, these will be treated as two separate people.
 
 ## Next steps
 

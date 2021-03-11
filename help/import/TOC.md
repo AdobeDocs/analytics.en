@@ -64,6 +64,7 @@ user-guide-description: Bring data into Analytics from outside sources, either i
     + [Demandbase Standard Dimensions](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
     + [Demandbase Custom Dimensions](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
   + DFA Data Connector for Adobe Analytics {#dfa}
+    + [DFA Integration End-of-Life Information](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
     + [DFA Data Connector for Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
     + [Prerequisites](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
     + [Integration Features](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)

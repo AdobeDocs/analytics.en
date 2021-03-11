@@ -40,6 +40,6 @@ First, check that the ad in question has a landing page URL which is both (a) ta
 
 Second, verify that you have a working integration by following through the steps in [Confirming a Successful DFA Integration](../dfa-data-connector-analytics/dfa-integration.md). If you see a DFA tracking code come through with the Adobe hit on the landing page, then you should see that Click-through come in the DFA Campaigns report. If you are not seeing it come through, verify that the report suites match between the landing page's *`s.account`* variable, and the report suite being viewed in Reports & Analytics. If these match, check for tracking codes in the View Through eVar report that look like DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
-These indicate failures of the DFA VISTA rule to digest the raw data from DFA. This problem can be remedied by opening a support ticket through your Adobe Account Representitive.
+These indicate failures of the DFA VISTA rule to digest the raw data from DFA. This problem can be remedied by opening a support ticket through your Adobe Account Representative.
 
 If none of the solutions above explain the problem, see [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.

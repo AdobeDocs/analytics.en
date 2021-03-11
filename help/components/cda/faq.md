@@ -20,7 +20,11 @@ Using Mobile Device Type as illustrated above allows you to see how people move 
 
 ## How far back does CDA stitch visitors?
 
-Adobe keeps device stitching data for approximately 30 days. If a device is intitially not identified but is later identified within 30 days, CDA goes back and restates that device as belonging to identified person up to 30 days in the past. If some of a user's unidentified behavior falls outside the 30-day lookback window, that portion of the user's journey is not stitched.
+CDA's cross-device stitching occurs in two concurrent processes. 
+
+* The first process is called "live stitching", which occurs as the data streams into Adobe Analytics. During live stitching CDA does the best it can to restate the data at a person level. However, if the person is unknown at the time of live stitching then CDA falls back to the visitor ID to represent the person.
+
+* The second process is called "replay." During replay, CDA goes backwards in time and restates historical data, where possible, within a specified lookback window. This lookback window is either 1 day or 7 days, depending on how you requested CDA to be configured. During replay, CDA attempts to restate hits where the person was previously unknown.
 
 * **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
 

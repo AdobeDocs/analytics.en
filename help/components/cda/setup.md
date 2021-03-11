@@ -19,6 +19,7 @@ CDA is provisioned on your cross-device report suite by Adobe engineering. Conta
 * The report suite ID for the cross-device report suite you want to enable with CDA
 * Which method of CDA you want to use (field-based stitching, Adobe private graph, or Adobe co-op graph)
 * If you intend to use field-based stitching, the prop or eVar that contains the user ID
+* Your preference of replay frequency and lookback length. Options include a replay once a week with a 7-day lookback window, or a replay every day with a 1-day lookback window.
 
 Once your provide your CSM with this information, they work with Adobe Engineering to enable your chosen report suite for CDA processing.
 

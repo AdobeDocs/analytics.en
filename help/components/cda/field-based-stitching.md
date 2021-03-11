@@ -25,4 +25,4 @@ If you intend to implement Cross-Device Analytics using field-based stitching, t
 
 ## Next steps
 
-Once your organization meets all requirements met and understands the limitations, you can start [Setting up Cross-Device Analytics](setup.md).
+Once your organization meets all requirements and understands the limitations, you can start [Setting up Cross-Device Analytics](setup.md).

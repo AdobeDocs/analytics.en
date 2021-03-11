@@ -44,7 +44,12 @@ Both unauthenticated and authenticated hits on new devices are counted as separa
 
 ### Replay stitching
 
-Approximately once a week, CDA recalculates historical data based on devices it now recognizes. If a device initially sends data while not authenticated and then logs in, CDA ties those unauthenticated hits to the correct person. The following table represents the same data as above, but shows different numbers based on replaying the data.
+Replay occurs either daily or weekly, depending on how you requested CDA to be configured. During replay, CDA attempts to restate historical data within a defined lookback window:
+
+* Daily replay uses a 1-day lookback window
+* Weekly replay uses a 7-day lookback window.
+
+If a device initially sends data while not authenticated and then logs in, CDA ties those unauthenticated hits to the correct person. The following table represents the same data as above, but shows different numbers based on replaying the data.
 
 *The same data after replay:*
 
@@ -58,9 +63,3 @@ Approximately once a week, CDA recalculates historical data based on devices it 
 | `6` | `246` | `Bob` | Bob logs in again via desktop | `1` (Cluster1) | `1` (Bob) |
 | `7` | `3579` | - | Bob accesses your site again on mobile | `1` (Cluster1) | `1` (Bob) |
 | `8` | `3579` | `Bob` | Bob logs in again via mobile | `1` (Cluster1) | `1` (Bob) |
-
-## Recap
-
-* **If using a Device Graph,** data is stitched when a cluster is published (typically 3 hours to 2 weeks).
-* **If using Field-based stitching,** data less than a week old immediately stitches known devices, but does not immediately stitch new or unrecognized devices.
-* Data is replayed once a week, and changes historical data in the virtual report suite based on devices it has learned to identify.

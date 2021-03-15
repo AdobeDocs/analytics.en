@@ -9,17 +9,20 @@ A data layer is a framework of JavaScript objects on your site that contains all
 
 ## Prerequisites
 
-[Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure you are prepared with a solution design document before approaching development teams in your organization.
+[Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure that you are prepared with a solution design document before approaching development teams in your organization.
 
 ## Workflow
 
 Implementing Adobe Analytics using a data layer typically follows these steps:
 
 1. **Work with your site development team to implement a data layer**: Your site development team is primarily responsible for making sure the data layer object populates with correct values. Review this page with your site development team to make sure expectations are aligned between teams.
-   > [!NOTE] Following Adobe's recommended data layer specifications is optional. If you already have a data layer, or otherwise choose not to follow Adobe's specifications, make sure that your organization aligns on what specification to follow.
-2. **Validate your data layer using a browser console**: Once a data layer is created, you can validate that it is working using any browser's developer console. You can open the developer console in most browsers using the `F12` key. An example variable value would be `digitalData.page.pageInfo.pageID`.
-3. **Use Adobe Experience Platform Launch to map data layer objects to Launch data elements**: Create data elements in Launch, and map them to the JavaScript attributes outlined in your data layer.
-4. **Use the Adobe Analytics extension in Launch to map data elements to Analytics variables**: Following your solution design document, assign each data element to the appropriate Analytics variable.
+
+   >[!NOTE]
+   >
+   >Following Adobe's recommended data layer specifications is optional. If you already have a data layer, or otherwise choose not to follow Adobe's specifications, make sure that your organization aligns on what specification to follow.
+1. **Validate your data layer using a browser console**: Once a data layer is created, you can validate that it is working using any browser's developer console. You can open the developer console in most browsers using the `F12` key. An example variable value would be `digitalData.page.pageInfo.pageID`.
+1. **Use Adobe Experience Platform Launch to map data layer objects to Launch data elements**: Create data elements in Launch, and map them to the JavaScript attributes outlined in your data layer.
+1. **Use the Adobe Analytics extension in Launch to map data elements to Analytics variables**: Following your solution design document, assign each data element to the appropriate Analytics variable.
 
 ## Specifications
 
@@ -51,14 +54,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -67,13 +70,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -114,13 +118,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -129,10 +133,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -144,22 +148,26 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object.
+Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 Data layers are extensible; if you have requirements specific to your organization, you can include objects in your data layer to accommodate those needs.
 
 ## Setting data layer values
 
 Data layers typically generate server-side, referencing the same objects used to build the site content. Establish the site's data layer based on tracking requirements set in your organization's [solution design document](solution-design.md).
+
+## Next steps
+
+[Map data layer objects to data elements](../launch/layer-to-elements.md): Use your site's data layer in Adobe Experience Platform Launch.

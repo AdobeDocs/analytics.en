@@ -1,20 +1,13 @@
 ---
 description: Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-subtopic: Get started
 title: Getting started with Reports and Analytics
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 ---
 
-# Getting started with Reports & Analytics
+# Get started with Reports & Analytics
 
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
-## Getting started with Reports & Analytics
-
-Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-
-Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of marketing reports include:
+Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
 
 * How many people visit your site 
 * How many of those visitors are unique visitors (counted only once) 
@@ -88,39 +81,12 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
 
 All users have access to the [!UICONTROL Account Information] page. The following information is available to view or edit: 
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type of Information </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>Contact </p> </td> 
-   <td> <p>Specify the following personal information for your account: </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">First Name (Required) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Last Name (Required) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Title </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Email Address (Required) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Phone Number </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Login </p> </td> 
-   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  > How to reset Reports &amp; Analytics account password</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Web Service </p> </td> 
-   <td> <p>Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>. </p> <p> <p>Note:  This information is displayed only if the account is authorized as a web services user. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Exclude this Computer </p> </td> 
-   <td> <p>Applies a cookie to the current computer to exclude it from data collection. This is useful if you do not want your on-line activities to affect Page View and Visitor counts in your domain. </p> <p> <p>Note:  To use this feature, your browser must have cookies enabled. If you delete cookies on your computer, you must reset the exclusion cookie. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type of Information | Definition |
+| --- | --- |
+| Contact | Specify the following personal information for your account:<ul><li>First Name (Required)</li><li>Last Name (Required)</li><li>Title</li><li>Email Address (Required)</li><li>Phone Number</li></ul> |
+| Login | Displays the account username, and lets you change the account password. See also: [How to reset Reports & Analytics account password](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Web Service | Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the  Developer Connection. **Note:** This information is displayed only if the account is authorized as a web services user. |
+| Exclude this Computer | Applies a cookie to the current computer to exclude it from data collection. This is useful if you do not want your on-line activities to affect Page View and Visitor counts in your domain. **Note:** To use this feature, your browser must have cookies enabled. If you delete cookies on your computer, you must reset the exclusion cookie. |
 
 ## Change the interface language
 

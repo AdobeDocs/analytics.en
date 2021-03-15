@@ -6,15 +6,15 @@ uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 
 # Context-aware sessions
 
-Context-aware sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
+Context-aware sessions in virtual report suites change how Adobe Analytics calculates visits from any device. This article also describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 
-You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your mobile apps.
+You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your digital experiences.
 
-## Customer Perspective URL Parameter {#section_8B298006362341E3AC16A148422D1F65}
+## Customer Perspective URL Parameter
 
 The Adobe Analytics data collection process allows you to set a query string parameter specifying the customer perspective (denoted as the "cp" query string parameter). This field specifies the state of the end user's digital application. This helps you know whether a hit was generated while a mobile app was in a background state.
 
-## Background Hit Processing {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Background Hit Processing
 
 A background hit is a type of hit sent to Analytics from the Adobe Mobile SDK version 4.13.6 and above when the app makes a tracking request while in a background state. Typical examples of this include:
 
@@ -111,15 +111,15 @@ Likewise, if a series of background hits happen prior to a series of foreground 
 
 Background hits behave in this manner in order to preserve any attribution effects from eVars or other variables set during background hits. This allows downstream foreground conversion events to be attributed to actions taken while an app was in the background state. It also allows a visit segment container to include background hits that resulted in a downstream foreground session which is useful for measuring push message effectiveness.
 
-## Visit Metric Behavior {#section_50B82618A39B454493B33B1450CCBD3E}
+## Visit Metric Behavior 
 
 The visit count is based solely on the count of visits that include at least one foreground hit. This means that any orphaned background hits or "background visits" do not count towards the Visit metric.
 
-## Time Spent Per Visit Metric Behavior {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Time Spent Per Visit Metric Behavior 
 
 Time spent is still calculated in an analogous way to how it is without background hits using the time between hits. Although, if a visit includes background hits (because they occurred close enough to foreground hits), those hits are included in the time spent per visit calculation as if they were a foreground hit.
 
-## Background Hit Processing Settings {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Background Hit Processing Settings 
 
 Because background hit processing is only available to virtual report suites using Report Time Processing, Adobe Analytics supports two ways of processing background hits in order to preserve the visit counts in the base report suite which does not use Report Time Processing. To access this setting navigate to the Adobe Analytics Admin Console, go the settings of the applicable base report suite, then navigate to "Mobile Management" menu, then to the "Mobile Application Reporting" sub menu.
 
@@ -130,6 +130,6 @@ Because background hit processing is only available to virtual report suites usi
 
 In either case, background hits are billed at the same cost as any other hit sent to Analytics.
 
-## Starting New Visits Upon Each App Launch {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Starting New Visits Upon Each App Launch
 
 In addition to the background hit processing, virtual report suites can force a new visit to start whenever the mobile SDK sends an app launch event. With this setting enabled, any time an App Launch event is sent from the SDK, it forces a new visit to start regardless of whether an open visit has reached its timeout . The hit containing the app launch event is included as the first hit in the next visit, and increments the visit count and creates a distinct visit container for segmentation.

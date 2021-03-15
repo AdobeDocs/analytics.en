@@ -29,6 +29,7 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 ## Key Analytics Implementation articles
 
+* [Take charge of an existing Adobe Analytics implementation](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Create a property in Experience Platform Launch](launch/create-analytics-property.md)
 * [AppMeasurement updates](appmeasurement-updates.md)

@@ -19,4 +19,4 @@ The `s.linkURL` variable is a string, containing the URL of the browser when the
 s.linkURL = "https://example.com";
 ```
 
-If the `linkName` variable is not set for a link tracking call, the `linkURL` variable is used instead.
+If the third argument of the [tl()](../functions/tl-method.md) method is not set, the `linkURL` variable is used instead.

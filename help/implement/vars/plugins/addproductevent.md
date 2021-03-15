@@ -5,9 +5,11 @@ description: Adds custom events to the products and events variable.
 
 # Adobe plug-in: addProductEvent
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-The `addProductEvent` plug-in adds a numeric or currency event to the `products` variable. Adobe recommends using this plug-in if you want to add a numeric or currency event to the `products` variable without worrying about the product string format. This plug-in is not necessary if you don't use numeric or currency events in the `products` variable.
+The `addProductEvent` plug-in adds a numeric or currency event to the [`products`](../page-vars/products.md) variable. Adobe recommends using this plug-in if you want to add a numeric or currency event to the `products` variable without worrying about the product string format. This plug-in is not necessary if you don't use numeric or currency events in the `products` variable.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -17,10 +19,13 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule
+    * Action Type: Initialize addProductEvent
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor
 
@@ -35,7 +40,7 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,7 +63,7 @@ The `addProductEvent` method uses the following arguments:
 * **`ev`** (required, string): The value assigned to the numeric or currency event in the `en` argument.  Defaults to `1` when not set.
 * **`ap`** (optional, boolean): If the products variable currently contains more than one product entry, a value of `true` (or `1`) adds the event to all product entries.  Defaults to `false` when not set.
 
-The `addProductEvent` returns nothing. Instead, it adds the event and its value to the `products` variable. The plug-in also automatically adds the event to the `events` variable, since it is also required there.
+The `addProductEvent` returns nothing. Instead, it adds the event and its value to the `products` variable. The plug-in also automatically adds the event to the [`events`](../page-vars/events/events-overview.md) variable, since it is also required there.
 
 ## Cookies
 
@@ -68,126 +73,68 @@ The addProductEvent plug-in does not create or use any cookies
 
 ### Example #1
 
-If...
+The following code sets the `s.products` variable to `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...and the following code runs...
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-... the final value of s.products will be:
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...and the final value of s.events will be:
-
-```js
-s.events="purchase,event35"
-```
+The above code also sets the `s.events` variable to `"purchase,event35"`
 
 ### Example #2
 
-If...
+The following code sets the `s.products` variable to `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...and the following code runs...
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-... the final value of s.products will be:
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-When the third argument is equal to true (or 1), each product entry will have the event specified in the call added to its value
+When the third argument in the `addProductEvent` call is `true` (or `1`), each product entry has the event specified in the call added to its value.
 
 ### Example #3
 
-If...
+The following code sets the `s.products` variable to `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...and the following code runs...
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-... the final value of s.products will be...
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
-...and s.events will be set as follows:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+The above code also sets the `s.events` variable to `"purchase,event2,event33,event34,event35"`
 
 ### Example #4
 
-If...
+The following code sets the `s.products` variable to `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...and the following code runs...
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-... the final value of s.products will be...
+The above code also sets the `s.events` variable to `"purchase,event2,event33,event34,event35"`.
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
-...and s.events will be set as follows:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+>[!NOTE]
+>
+>The second argument in the call can be either an integer **or** a string representing an integer/number
 
 ### Example #5
 
-If s.products isn't set and the following code runs...
+If `s.products` isn't already set, the following code sets it to `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-...the final value of s.products will be:
-
-```js
-s.products=";;;;event35=25"
-```
-
-In this case, event35 will also be appended to the end of s.events
+The above code also appends `"event35"` to the end of `s.events` **or**, if `s.events` isn't already set, the above code sets `s.events`  to `"event35"`
 
 ## Version History
 

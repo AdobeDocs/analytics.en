@@ -24,7 +24,9 @@ You can unlock a locked workbook if you have one of the following permissions:
 * You are an administrator, or 
 * You are the person who initially locked the workbook. In this case, you do not have to be an administrator.
 
-> [!NOTE] You cannot add a request to a protected workbook unless you have the permissions to unlock the workbook.
+>[!NOTE]
+>
+>You cannot add a request to a protected workbook unless you have the permissions to unlock the workbook.
 
 When a workbook is locked against request editing,
 

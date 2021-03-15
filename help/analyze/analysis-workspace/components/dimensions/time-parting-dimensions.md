@@ -15,7 +15,9 @@ Time-parting dimensions are based on the time zone of the report suite or virtua
 * How do my weekend sales compare to my weekday sales? 
 * Does a certain marketing campaign generate higher conversions in the morning, or in the afternoon?
 
-> [!NOTE] Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html).
+>[!NOTE]
+>
+>Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Time-parting dimensions in Analysis Workspace include: 
 

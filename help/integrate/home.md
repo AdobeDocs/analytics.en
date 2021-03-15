@@ -1,9 +1,9 @@
 ---
-title: Analytics Integration Help
-description: null
+title: Analytics Integration
+description: Learn how you can integrate data from other locations into Adobe Analytics.
 ---
 
-# Analytics Integration Guide
+# Analytics Integration
 
 ![Banner](../../assets/doc_banner_integrate.png)
 

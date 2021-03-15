@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use transaction ID in data sources to link online and offline data together.
 title: Transaction ID and visitor profiles
 topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac

@@ -9,3 +9,7 @@ uuid: deb807c9-e988-4587-b518-881857cad1cf
 
 All Adobe FTP accounts have a data storage limit of 10 GB. Files are retained on these FTP accounts for 90 days.
 
+## Limits on concurrent connections
+
+* No more than 50 concurrent connections to the server per source IP
+* No more than 20 new connections in 60 seconds to the server per source IP

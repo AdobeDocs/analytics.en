@@ -1,7 +1,6 @@
 ---
-description: null
+description: Create a blank panel as a starting point for any visualization.
 title: Blank panel
-uuid: 3d25b221-59f5-4574-b06e-48f036f525aa
 ---
 
 # Blank panel

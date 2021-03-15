@@ -5,11 +5,15 @@ description: Learn the workflow on how to dynamically select a report suite usin
 
 # Dynamic accounts overview
 
-> [!IMPORTANT] Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
+>[!IMPORTANT]
+>
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
 
 Dynamic accounts is an implementation feature that lets you determine what report suite to use based on criteria you define. If your organization requires more than one report suite but would like to use the same implementation between your sites, dynamic accounts is a good solution.
 
-> [!TIP] Adobe recommends sending data to a single report suite, then using virtual report suites to separate data if needed. See [Global report suite considerations](../../../prepare/global-rs.md) for more information.
+>[!TIP]
+>
+>Adobe recommends sending data to a single report suite, then using virtual report suites to separate data if needed. See [Global report suite considerations](../../../prepare/global-rs.md) for more information.
 
 3 variables are used to dynamically select a report suite.
 

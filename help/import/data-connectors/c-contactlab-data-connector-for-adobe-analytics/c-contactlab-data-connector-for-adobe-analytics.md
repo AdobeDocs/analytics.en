@@ -1,10 +1,14 @@
 ---
-description: null
+description: Use the ContactLab data connector for Adobe Analytics.
 title: ContactLab Data Connector for Adobe Analytics
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 ---
 
 # ContactLab Data Connector for Adobe Analytics{#contactlab-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 The integration of ContactLab and Adobe Analytics enables current ContactLab customers to increase returns from e-mail marketing. It allows you to understand campaign effectiveness from almost any angle, and then remarket to customers based on cart abandonment, product purchases, product views and more.
 

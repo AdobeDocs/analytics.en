@@ -5,7 +5,9 @@ description: Prevent an Analytics variable from being set to the same value twic
 
 # Adobe plug-in: getValOnce
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getValOnce` plug-in prevents a variable from being set equal to the same value more than once. Adobe recommends using this plug-in when you would like to deduplicate occurrences where a visitor refreshes a page or otherwise visit a given page multiple times. This plug-in is unnecessary if you are not worried about the 'Occurrences' metric in Analysis Workspace.
 
@@ -17,10 +19,13 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule
+    * Action Type: Initialize getValOnce
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor
 
@@ -35,12 +40,12 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -78,6 +83,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
 
 ## Version History
+
+### 2.01
+
+* Fixed an issue with writing cookies.
 
 ### 2.0
 

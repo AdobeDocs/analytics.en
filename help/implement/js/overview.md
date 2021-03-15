@@ -22,7 +22,7 @@ AppMeasurement for JavaScript has historically been a common method to implement
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.omtrdc.net";
+   s.trackingServer = "example.data.adobedc.net";
    ```
 
 3. Define page-level variables within your site's page code. These variables determine specific dimension and metrics sent to Adobe. See [Page variables](../vars/page-vars/page-variables.md) for a full list of variables you can define.
@@ -33,7 +33,7 @@ AppMeasurement for JavaScript has historically been a common method to implement
    s.events = "event1";
    ```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t` function. See [t](../vars/functions/t.md) for more information.
+4. When all page-level variables are defined, send the data to Adobe using the `t()` method. See [t](../vars/functions/t-method.md) for more information.
 
    ```js
    s.t();

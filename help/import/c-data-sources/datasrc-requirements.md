@@ -53,7 +53,7 @@ Data Sources supports multi-byte encoding. Data Sources attempts to detect the f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  > New Report Suite</a> in Help </p> </td> 
+   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > New Report Suite</a> in Help </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
@@ -88,8 +88,8 @@ If you submit a UTF-8 or ISO-8859-1 file and your report suite is not configured
 * The most useful reports for viewing Web Log data are traffic reports, such as page views.
 * Page names are displayed as the entire URL, including the query-string.
 * Each file request appears as a separate page view, including style sheets and image files.
-* If you append information to the URL, files might be recorded as separate pages. For example, marketing reports record the following URLs as two separate pages:
+* If you append information to the URL, files might be recorded as separate pages. For example, Adobe records the following URLs as two separate pages:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765] 
+`/jokes/misc/snail_joke.html?userid=98765`

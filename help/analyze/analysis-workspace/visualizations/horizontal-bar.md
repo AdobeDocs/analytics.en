@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use the horizontal bar visualization in a Workspace project.
 title: Horizontal Bar and Horizontal Bar Stacked
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 ---

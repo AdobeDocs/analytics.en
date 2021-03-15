@@ -7,11 +7,11 @@ description: Frequently asked questions for cross-device visitor identification
 
 Frequently asked questions for cross-device visitor identification.
 
-**What is the difference between cross-device visitor identification and Cross-device Analytics?**
+**What is the difference between cross-device visitor identification and Cross-Device Analytics?**
 
 Cross-device visitor identification uses the `visitorID` variable to tie devices together, with several major limitations. One of the biggest limitations of this identification method is that unauthenticated hits are isolated unless the device has already been recognized. These unauthenticated hits can inflate your unique visitor counts.
 
-Cross-device Analytics is Adobe's latest cross-device visitor identification method. It uses the Experience Cloud ID service and device graph to retroactively stitch visits from different devices together. CDA requires the use of the `setCustomerIDs` function to determine which devices are used by the same visitor.
+Cross-Device Analytics is Adobe's latest cross-device visitor identification method. It uses the Experience Cloud ID service and device graph to retroactively stitch visits from different devices together. CDA requires the use of the `setCustomerIDs` function to determine which devices are used by the same visitor.
 
 **How does cross-device visitor identification handle segments?**
 

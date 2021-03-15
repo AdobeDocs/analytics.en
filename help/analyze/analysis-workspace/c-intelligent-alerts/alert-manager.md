@@ -1,5 +1,5 @@
 ---
-description: null
+description: Create, edit, or delete alerts.
 title: Alert Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 ---
@@ -8,7 +8,7 @@ uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 
  ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) and allows you to
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 

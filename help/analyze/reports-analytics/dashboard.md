@@ -27,7 +27,9 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 * Real-time reports 
 * Other dashboards
 
-> [!NOTE] The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets.
+>[!NOTE]
+>
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports & Analytics. However, there are still a couple of circumstances where you will see some or all of its reportlets.
 
 * If you have, say, only three frequently viewed reports, Reports & Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
 * Brand new report suites will also initially still feature the Site Overview reportlets, until they gets replaced by your frequently viewed reports. Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.

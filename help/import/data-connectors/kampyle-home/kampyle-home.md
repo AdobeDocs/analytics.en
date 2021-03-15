@@ -1,10 +1,14 @@
 ---
-description: null
+description: Use the Kampyle data connector with Adobe Analytics.
 title: Kampyle Data Connector for Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 ---
 
 # Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>We will be end-of-lifing the Adobe Data Connector technology on August 1, 2021. [Learn more...](/help/import/data-connectors/data-connectors-eol.md)
 
 The Kampyle Data Connector for Adobe Analytics combines Kampyle's integrated feedback system and the behavioral reporting of Adobe Analytics® to create powerful analytics and optimization opportunities for your organization.
 

@@ -81,7 +81,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Product Compatibility </span> </td> 
-   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
@@ -98,7 +98,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + New </span> </td> 
-   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder </a>.) </p> </td> 
+   <td colname="col3"> <p>Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Search Components </p> </td> 
@@ -124,7 +124,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Segments </p> </td> 
-   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > More... </a> </p> </td> 
+   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Functions </p> </td> 

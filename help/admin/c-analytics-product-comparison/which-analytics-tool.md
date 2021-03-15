@@ -10,36 +10,19 @@ This help page contains recommended use cases for each Adobe Analytics tool. Too
 
 For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics Reporting User Interfaces {#user-interfaces}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
 **[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
 
 * By beginner users who need access to pre-built reporting that is easier to navigate.
-* To understand Target activity (Analytics for Target/A4T) lift and confidence.
 * To access real-time data in the UI.
 * To set up Calendar events.
 * To set up Targets.
 * To view Bot reporting.
-* To look at multiple report suites in a single UI dashboard.
-* To access unique Video visualizations of Concurrent Viewer, Video Daypart, and Viewer Drop-off.
+* To access unique Video visualizations of Video Daypart and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** should be used:
-
-* If a siloed view of Mobile App data is desired.
-* To manage the implementation of your mobile app SDK.
-* To set up mobile advertising, such as in-app messaging, push messaging, and location targeting.
-* If more interactive visualizations are desired for App data (Sunburst).
-* To visualize points of interest on a map.
-* For Lifetime value metrics.
-
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** should be used:
-
-* To export 50,000 rows of data 
-* If tab organization of project work is desired.
-* To use the Site Analysis report (3D-pathing report).
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** should be used:
 
@@ -50,9 +33,9 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * For Latency analysis (time before / since an event).
 * For identification and export of complex segments throughout Adobe Experience Cloud.
 
-## Importing Data into Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importing Data into Adobe Analytics {#import}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** should be used:
+**[Classifications](/help/components/classifications/c-classifications.md)** should be used:
 
 * When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
 * Options:
@@ -69,15 +52,19 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
     * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 
     * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(formerly known as Genesis)** should be used:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** should be used:
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** should be used:
+**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
 * When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
 
-**[Customer Attributes](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** should be used:
+**[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* Data Insertion API and Bulk Data Insertion API are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. If you are working on a new implementation of server-side collection, we recommend using Bulk Data Insertion API.
+
+**[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
@@ -87,14 +74,14 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * If you want to incorporate Adobe Audience Manager (AAM) audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, or ad impression data into any Analytics workflow.
 * If you want uploaded CRM data to be time based, because this integration sends new information to Analytics hit by hit.
 
-## Exporting Data from Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
+## Exporting Data from Adobe Analytics {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** should be used:
 
 * If the customized layout options of Workspace are limiting (anything is possible in Report Builder, within the limits of Excel).
 * To loosely tie in user inputs or offline data sources (impressions, cost) to Adobe data. More permanent solution for tying in data is Data Sources (see Importing Data to Analytics).
 * To merge data together from different dimensional reports (e.g. promo impressions report joined with promo click-to-conversion report).
-* For cross-report-suite views.
+* To merge data together from different report suites, either by summing or displaying in the same table side-by-side.
 * If automation through scheduling is desired (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** should be used:
@@ -103,7 +90,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access more granular data than the UI (denormalized table view) 
 * To download data in a format suitable for a Pivot Table input 
 * If the client wants to input Adobe data into a 3rd-party data visualization tool (slightly summarized, and not hit-level) 
-* To access all unique dimension values if you are running into "Low Traffic" in Adobe Analytics
+* To access all unique dimension items if you are running into "Low Traffic" in Adobe Analytics
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** should be used:
 
@@ -111,13 +98,13 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * If the client wants Adobe data stored in a client-side database, at the most granular level we can send.
 * If the client wants to develop a Business Intelligence (BI) tool or input hit-level Adobe data into a 3rd-party tool.
 
-**[Reporting APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** should be used when the other visualization options do not meet your needs. The 3 API options include:
+**[Reporting APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** should be used when the other visualization options do not meet your needs. The 3 API options include:
 
 * **Fully Processed**: when you want feature-rich data (including visits, visitors, and segments). This is typical Analytics UI summarized data, available within ~30-90 minutes. Can be used through Report Builder.
 * **Real-Time**: when you want to view a few metrics and dimensions with seconds of latency. This is limited, partially processed, summarized data that is available within ~30 seconds. Includes unique algorithms of most popular, gainers, and losers. Can be used through Report Builder.
 * **[!UICONTROL Live Stream]**: when you want a stream of partially-processed hit-level Analytics data within seconds of collection. This is partially processed data, available within ~30 seconds. Available for Analytics Premium only. Requires some way to visualize the data, typically through an Engineering Services engagement.
 
-## Custom Solutions {#section_4A212F26A15947599DFB0399A0440CB6}
+## Custom Solutions {#custom-solutions}
 
 Engineering Services should be used when:
 

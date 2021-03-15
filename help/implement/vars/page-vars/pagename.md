@@ -5,11 +5,13 @@ description: The name of the page on your site.
 
 # pageName
 
-The `pageName` variable typically stores the name of a given page. It is helpful to determine what individual pages are most popular. This variable populates the 'Page Name' dimension.
+The `pageName` variable typically stores the name of a given page. It is helpful to determine what individual pages are most popular. This variable populates the [Page](/help/components/dimensions/page.md) dimension.
 
-> [!NOTE] This dimension is always stripped from link tracking calls. If you want to see the page name where a link was tracked, consider copying this variable into an eVar.
+If this variable is not defined on a given page tracking call, the [`pageURL`](pageurl.md) variable is used instead.
 
-If this variable is not defined on a given page tracking call, the `pageURL` variable is used instead.
+>[!NOTE]
+>
+>Adobe data collection servers strip this dimension from all [link tracking](/help/implement/vars/functions/tl-method.md) image requests. If you want this dimension to appear in link tracking hits, consider copying this dimension into an [eVar](evar.md).
 
 ## Page Name in Adobe Experience Platform Launch
 
@@ -34,4 +36,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+If using the `digitalData` [data layer](../../prepare/data-layer.md):
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```

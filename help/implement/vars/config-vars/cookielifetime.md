@@ -7,7 +7,9 @@ description: Override the expiration for cookies that AppMeasurement creates.
 
 Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `cookieLifetime` variable to override the expiration date for cookies set by AppMeasurement.
 
-> [!NOTE] This variable impacts unique visitor counts and attribution. Use caution when setting this variable.
+>[!NOTE]
+>
+>This variable impacts unique visitor counts and attribution. Use caution when setting this variable.
 
 ## Cookie Lifetime in Adobe Experience Platform Launch
 
@@ -39,3 +41,4 @@ s.cookieLifetime = "SESSION";
 
 // Expire cookies after exactly 24 hours
 s.cookieLifetime = "86400";
+```

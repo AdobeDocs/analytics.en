@@ -14,7 +14,9 @@ The Virtual Report Suite Manager lets Administrators edit, add, tag, delete, ren
 
 ![](assets/vrs-manage.png)
 
-> [!NOTE] In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click **[!UICONTROL Show All]** to see everyone else's.
+>[!NOTE]
+>
+>In the Virtual Report Suite Manager, you can see only your own virtual report suites. You have to click **[!UICONTROL Show All]** to see everyone else's.
 
 | Task | Description |
 |--- |--- |

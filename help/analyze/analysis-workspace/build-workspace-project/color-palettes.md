@@ -1,14 +1,15 @@
 ---
-description: null
-title: Color Palettes
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: How to use the visualization color palette in Analysis Workspace
+title: What are Visualization Color Palettes and How do they Work?
 ---
 
-# Visualization Color Palette
+# Visualization Color Palettes
 
 You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect Summary Change, conditional formatting in Freeform tables, and the Map visualization.
 
-> [!NOTE] Color palette support is not enabled for Internet Explorer 11.
+>[!NOTE]
+>
+>Color palette support is not enabled for Internet Explorer 11.
 
 ![](assets/color_palettes.png)
 
@@ -25,5 +26,5 @@ Keep in mind:
    ![](assets/custom_palette.png)
 
 1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
-1. Specify up to 16 comma-separated hexadecimal values (for example, #00a4e4) for the colors you intend to use. If, for example, you want to use only four values, these colors will be automatically be repeated in visualizations that contain more colors.
+1. Specify up to 16 comma-separated hexadecimal values (for example, #00a4e4) for the colors you intend to use. If, for example, you want to use only four values, these colors will automatically be repeated in visualizations that contain more colors.
 

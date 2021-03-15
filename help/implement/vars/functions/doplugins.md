@@ -5,10 +5,10 @@ description: Configure logic just before a hit is compiled and sent to Adobe.
 
 # doPlugins
 
-The `doPlugins` variable acts as a 'last call' to set values in your implementation. If `usePlugins` is `true`, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
+The `doPlugins` variable acts as a 'last call' to set values in your implementation. If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
 
-* All page view (`t`) calls
-* All link tracking (`tl`) calls, including automatic download links and exit links
+* All page view ([`t()`](t-method.md)) calls
+* All link tracking ([`tl()`](tl-method.md)) calls, including automatic download links and exit links
 
 Use the `doPlugins` variable to call plug-in code and set final variable values just before an image request is compiled and sent to Adobe.
 
@@ -24,7 +24,9 @@ Set the `s.doPlugins` variable to a function containing desired code. The functi
 s.doPlugins = function() {/* Desired code */};
 ```
 
-> [!NOTE] Set a function to the `doPlugins` variable only once in your implementation. If you set the `doPlugins` variable more than once, only the most recent code is used.
+>[!NOTE]
+>
+>Set a function to the `doPlugins` variable only once in your implementation. If you set the `doPlugins` variable more than once, only the most recent code is used.
 
 ## Examples
 
@@ -40,4 +42,6 @@ s.doPlugins = function() {
 }
 ```
 
-> [!NOTE] Previous versions of AppMeasurement had slightly different `doPlugins()` code. Adobe recommends using the above format as a best practice.
+>[!NOTE]
+>
+>Previous versions of AppMeasurement had slightly different `doPlugins()` code. Adobe recommends using the above format as a best practice.

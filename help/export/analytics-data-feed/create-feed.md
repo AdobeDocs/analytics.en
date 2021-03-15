@@ -41,8 +41,9 @@ You can send feeds directly to Amazon S3 buckets. Requires a Bucket name, an Acc
 
 ![S3 info](assets/dest-s3.jpg)
 
-The following 11 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
+The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 
+* us-east-2
 * us-east-1
 * us-west-1
 * us-west-2
@@ -51,11 +52,17 @@ The following 11 standard AWS regions are supported (using the appropriate signa
 * ap-southeast-1
 * ap-southeast-2
 * ap-northeast-1
+* ca-central-1
 * eu-central-1
 * eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
 * sa-east-1
 
-> [!NOTE] The cn-north-1 region is not supported.
+>[!NOTE]
+>
+>The cn-north-1 region is not supported.
 
 ### Azure Blob
 
@@ -63,7 +70,9 @@ Data feeds support Azure Blob destinations. Requires a container, account, and a
 
 ![Azure info](assets/azure.png)
 
-> [!NOTE] You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+>[!NOTE]
+>
+>You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
 
 ## Data column definitions
 

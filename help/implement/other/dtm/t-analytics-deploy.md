@@ -1,7 +1,7 @@
 ---
 description: Create an Adobe Analytics tool for deployment using Dynamic Tag Management. This procedure describes a manual (legacy) implementation.
 keywords: Dynamic Tag Management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Manually implement Adobe Analytics (legacy)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 ---

@@ -10,7 +10,7 @@ uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 
 Field descriptions for the General settings in DTM, for deploying Adobe Analytics.
 
-**[!UICONTROL &lt;Property&gt;]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL General]** 
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL General]** 
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 

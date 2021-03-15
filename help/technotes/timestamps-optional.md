@@ -16,9 +16,11 @@ Timestamps Optional is the default setting for all new report suites.
 * Send timestamped data from a mobile app to a global report suite.
 * Upgrade apps to employ timestamps without having to create a new report suite.
 
-> [!NOTE] Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
+>[!NOTE]
+>
+>Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
-See [Timestamps Optional](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) for additional setup information.
+See [Timestamps Optional](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
 
 ## Timestamps Optional: Integrating Timestamped and Non-timestamped Data {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -48,7 +50,9 @@ Timestamps Optional allows you to integrate and report across multiple report su
 
 Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources.
 
-> [!IMPORTANT] Carefully plan the design for each component data set so the combination makes sense in a global report suite.
+>[!IMPORTANT]
+>
+>Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
 ## Best Practices when Employing Timestamps {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -58,7 +62,7 @@ The following are best practices and a few requirements and restrictions to be a
 
   Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
-* Using timestamps when setting a [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) is not recommended. It can lead to out-of-order data.
+* Using timestamps when setting a [s.visitorID](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
 

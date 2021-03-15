@@ -1,5 +1,5 @@
 ---
-description: null
+description: Link to Adobe Analytics Admin API on github.
 title: Admin API
 uuid: 44f8bf4f-4973-46ed-9fe7-2f69fc789a33
 ---

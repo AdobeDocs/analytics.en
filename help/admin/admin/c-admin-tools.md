@@ -1,5 +1,5 @@
 ---
-description: null
+description: Index of Admin tools in Adobe Analytics.
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 ---
@@ -8,7 +8,9 @@ uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** 
 
->[!IMPORTANT] Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
+>[!IMPORTANT]
+>
+>Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
 
 + [Billing](billing-admin.md)
 + [Bot Rules overview](bot-removal/bot-rules.md)
@@ -22,7 +24,6 @@ uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 + [Exclude By IP Address](exclude-ip.md)
 + [Finding Methods](finding-methods.md)
 + [General Account Settings](general-acct-settings-admin.md)
-+ [Group Management](group.md)
 + [Internal URL Filters](internal-url-filter-admin.md)
 + [Logs](logs.md)
 + [Marketing Channels](marketing-channels-admin.md)

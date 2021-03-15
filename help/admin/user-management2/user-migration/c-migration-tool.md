@@ -69,7 +69,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>When does the migration begin? </p> </td> 
@@ -91,7 +91,7 @@ Answers to questions you might have before the migration.
      <li id="li_418476105FE341229CE146E730AAB33D">Your existing permission groups in Analytics will be replicated automatically in the Admin Console as Product Profiles, including their description and granular permissions across report suites, metrics, dimensions, Analytics, and Report Suite Tools. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">If any of your current Analytics users were created in the Admin Console (meaning they have a linked Adobe/Enterprise ID), they will be added to the appropriate Product Profiles in the Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">The User Management section under the Admin tab in Analytics will be set to <span class="term"> read-only</span>. You will no longer be able to create new users or permission groups here and will need to perform both these functions in the Admin Console. See <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Unsupported Analytics features in the Admin Console</a> for more information. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the [User ID Migration tool] (https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html). Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">You will be granted access to a Permissions tab in the Admin Console that allows you to create Product Profiles with all the granular options you are familiar with in Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -122,17 +122,12 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I postpone the migration start date? </p> </td> 
-   <td colname="col2"> <p>Yes. Contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a>. </p> 
-    <draft-comment> 
-     <p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Yes. Contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a>. </p><p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Now that my company is migrating to the Admin Console, where do I create new users and permission groups before the start date of the migration? </p> </td> 
-   <td colname="col2"> <p>Before your migration start date, you can create users in the Admin Console or in Analytics &gt; User Management. </p> <p>After migration begins, you can create users and permission groups only in the Admin Console. </p> 
-    <draft-comment> 
-     <p>see the Migration section below for more details on what happens on the start date of the migration). </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Before your migration start date, you can create users in the Admin Console or in Analytics &gt; User Management. </p> <p>After migration begins, you can create users and permission groups only in the Admin Console. </p><p>see the Migration section below for more details on what happens on the start date of the migration. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> When can I implement single sign-on using Federated IDs? </p> </td> 
@@ -163,10 +158,8 @@ Important information about the migration process and how it impacts current use
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I update permission group membership for un-migrated users? </p> </td> 
-   <td colname="col2"> <p>Yes. You can change the group membership of un-migrated users from within the Analytics User Management section. </p> 
-    <draft-comment> 
-     <p>Awaiting clarification from Ashok about where that's done. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>Yes. You can change the group membership of un-migrated users from within the Analytics User Management section. </p><p>Awaiting clarification from Ashok about where that's done. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I create users and permission groups in Analytics after my migration begins, and then use the migration tool to move them to the Admin Console? </p> </td> 
@@ -310,7 +303,7 @@ Important information about the migration process and how it impacts current use
 
 You may want to pro-actively communicate this migration plan to your current users. Here is a template you can customize to send all your current Analytics users:
 
-To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Email Users](https://marketing.adobe.com/resources/help/en_US/reference/t_email_users.html).
+To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Email Users](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
 
 **Subject:** Coming Soon - A new way to login to Adobe Analytics and Adobe Experience Cloud.
 
@@ -322,9 +315,7 @@ Our company will begin migrating all Adobe Analytics accounts away from [!DNL ht
 
 **Helpful resources:**
 
-[Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html).
-
-[About Clouds, Core Services, and Solutions](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html) in the Experience Cloud
+[Sign in and manage your profile settings](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 Please contact your Analytics administrators if you have any questions or concerns.
 

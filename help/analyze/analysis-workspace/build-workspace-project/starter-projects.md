@@ -1,23 +1,18 @@
 ---
-description: null
+description: Create workspace projects based on standard or custom templates.
 title: Templates
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 ---
 
 # Templates
 
-## Templates {#topic_40932F09E18A467983AFBB29908E1CB8}
-
 You can choose whether to create a project from:
 
-* A blank project (default). For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
-* A standard template. These templates are created by Adobe and ship out of the box.
-* A custom template. These templates can be created by users with admin rights or by non-admins, provided they have been granted the "Save as Template" permission. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/home.md).
+* **Standard template**: These templates are created by Adobe and ship with the product.
+* **Custom template**: These templates can be created, shared, or deleted by users with admin rights or by non-admins, provided they have been granted the [!UICONTROL Analysis Workspace: Save as Template] permission in the Admin Console. [Learn more...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [Create a custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 
-* [Standard templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## Create a custom template {#create-custom-template}
 
@@ -38,54 +33,32 @@ Users with admin rights can turn any project they create into a custom template.
 
    ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Edit template </p> </td> 
-   <td colname="col2"> <p>Lets an admin edit the template by changing its data source, modifying components, visualizations, date ranges, etc. </p> <p>To edit a custom template, either </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Bring up the list of custom templates in Analysis Workspace, select one, and click <span class="uicontrol"> Edit Template</span>, or </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">In Analytics, navigate to <span class="ignoretag"><span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Projects</span></span>, then filter on <span class="uicontrol"> Templates</span>. Click the name of the template you want to edit. </li> 
-    </ul> <p> </p> <p>Note: After editing a template, depending on the situation, you have two options: <span class="uicontrol"> Save</span>, <span class="uicontrol"> Save As</span>. Here is how they differ: 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>Save</b>: Updates the custom template for all users. When someone else creates a project from this custom template, they will see the changes you have made. </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>Save As</b>: Creates a copy of the custom template with your changes. </li> 
-     </ul> </p> <p>(You can tell that you are in edit mode when the <span class="uicontrol"> Share</span> &gt; <span class="uicontrol"> Share Project</span> menu item is disabled.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search on templates </p> </td> 
-   <td colname="col2"> <p>In the Custom Templates dialog, click <span class="uicontrol"> Search Templates</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sort templates </p> </td> 
-   <td colname="col2"> <p>You can sort templates alphabetically, by relevance, and by creation date. </p> <p>In the Custom Templates dialog, click <span class="uicontrol"> Sort:</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apply tags to template </p> </td> 
-   <td colname="col2"> <p>Open the template and go to <span class="ignoretag"><span class="uicontrol"> Project</span> &gt; <span class="uicontrol"> Project Info &amp; Settings</span></span>. Click <span class="uicontrol"> Add Tags</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Modify template description </p> </td> 
-   <td colname="col2"> <p>Open the template and go to <span class="ignoretag"><span class="uicontrol"> Project</span> &gt; <span class="uicontrol"> Project Info &amp; Settings</span></span>. Double-click the description and edit it. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Description |
+|--- |--- |
+|Edit template|Lets an admin edit the template by changing its data source, modifying components, visualizations, date ranges, etc.  To edit a custom template, either<ul><li>Bring up the list of custom templates in Analysis Workspace, select one, and click  Edit Template, or</li><li>In Analytics, navigate to  Components >  Projects, then filter on  Templates. Click the name of the template you want to edit.</li></ul>**Note:** After editing a template, depending on the situation, you have two options: Save, Save As. Here is how they differ:<ul><li>**Save:** Updates the custom template for all users. When someone else creates a project from this custom template, they will see the changes you have made.</li><li>**Save As:** Creates a copy of the custom template with your changes. (You can tell that you are in edit mode when the  Share >  Share Project menu item is disabled.)</li></ul>|
+|Search on templates|In the Custom Templates dialog, click  Search Templates.|
+|Sort templates|You can sort templates alphabetically, by relevance, and by creation date.  In the Custom Templates dialog, click Sort:.|
+|Apply tags to template|Open the template and go to  Project >  Project Info & Settings. Click  Add Tags.|
+|Modify template description|Open the template and go to  Project >  Project Info & Settings. Double-click the description and edit it.|
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+
+## Standard templates 
 
 When you first open a Workspace, templates are available in the left rail. Analysis Workspace Templates cover common use cases. They are grouped by the vertical they belong to and are populated with different dimensions, segments, metrics and visualizations, depending on the report suite you have selected.
 
-You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.
+You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name. 
 
-[Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+Here is a video tutorial on [Standard Templates in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
-Here are available templates and the questions that each template helps answer:
+Here are available templates and the questions that each template helps answer.
+
+### Training
+
+These standard templates walk you through common terminology and steps for building your first analysis in Workspace. They is available as a standard template in the New Project modal and replace the sample project that exists today for new users that do not have other projects in their list.
+
+* **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
+
+* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions and metrics are important.
 
 ### Advertising
 
@@ -93,11 +66,13 @@ Here are available templates and the questions that each template helps answer:
 >
 >Advertising templates are available only if your report suite is enabled for Advertising Cloud.
 
-* **Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
+* **Paid Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
 
 ### Commerce
 
-* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing and Commerce**: This template breaks down your e-commerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Media
 
@@ -133,9 +108,11 @@ Here are available templates and the questions that each template helps answer:
 
 ### People
 
-> [!NOTE] The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE]
+>
+>The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
-It is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
+This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
 * Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
 * Compare the People and Unique Visitors metrics side by side.
@@ -145,3 +122,21 @@ It is based on the People metric, which is a de-duplicated version of the Unique
 * Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 
+### Journey IQ: Cross-Device Analysis template
+
+<!--This content is mirrored in the CDA doc.-->
+
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA). 
+
+* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
+* **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
+* **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
+  * **Using the Co-op graph or Private graph**: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
+  * **Log-in rate**: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
+  * **Experience Cloud ID coverage**: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+  * **Multiple device usage**: If visitors to your site don't use multiple devices, you can see lower compression rates.
+  * **Reporting granularity**: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate. 
+* **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
+* **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
+* **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
+* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it. 

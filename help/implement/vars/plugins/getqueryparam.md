@@ -5,11 +5,13 @@ description: Extract the value of a URL's query string parameter.
 
 # Adobe plug-in: getQueryParam
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getQueryParam` plug-in allows you to extract the value of any query string parameter contained in a URL. It is useful for extracting campaign codes, both internal and external, from landing page URLs. It is also valuable when extracting search terms or other query string parameters.
 
-This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the `Util.getQueryParam` method included in AppMeasurement.
+This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) method included in AppMeasurement.
 
 ## Install the plug-in using the Adobe Experience Platform Launch extension
 
@@ -19,10 +21,13 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule
+    * Action Type: Initialize getQueryParam
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor
 

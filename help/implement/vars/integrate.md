@@ -7,7 +7,9 @@ description: The Integrate Module allows Adobe partners to integrate their data 
 
 The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization. This integration provides the opportunity for a two-way data connection. Typically, use of the Integrate Module is driven by an Adobe partner.
 
-> [!NOTE] Requesting partner data in your implementation can increase delays between page load and data sent to Adobe data collection servers. If a visitor loads a new page before data is sent, that page is not recorded.
+>[!NOTE]
+>
+>Requesting partner data in your implementation can increase delays between page load and data sent to Adobe data collection servers. If a visitor loads a new page before data is sent, that page is not recorded.
 
 ## Integrate Module workflow
 

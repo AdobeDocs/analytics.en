@@ -13,7 +13,9 @@ To propagate or copy and paste referential requests in the spreadsheet, you must
 
 You can also create requests that reference input filters from requests in different worksheets, but not different workbooks. For example, a request in Sheet 2 can use a report suite from a given cell in Sheet 1 and a date range from a cell in a request in Sheet 2. The new output can be placed in either sheet or a new sheet within the same workbook. When you paste a relative request, if an input filter resides on a worksheet different from the worksheet on which the copied request output is located, the filter is pasted as an absolute filter.
 
-> [!NOTE] You cannot output a single request in multiple worksheets. In addition, the system cannot paste some of the copied requests into new workbooks because the requests contain input filters from other worksheets. Input filters include report suites from cells, date ranges from cells, filters from cells, and other related parameters.
+>[!NOTE]
+>
+>You cannot output a single request in multiple worksheets. In addition, the system cannot paste some of the copied requests into new workbooks because the requests contain input filters from other worksheets. Input filters include report suites from cells, date ranges from cells, filters from cells, and other related parameters.
 
 **To copy referential requests** 
 

@@ -1,5 +1,5 @@
 ---
-description: null
+description: The first step when creating a request in Report Builder.
 title: Data requests - Request Wizard Step 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 ---
@@ -14,7 +14,7 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Range Selector**: Lets you select a report suite ID from a cell in Excel. See [Select Report Suites](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors. See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) for more information about segments.
+1. **Segment**: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors. See the [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) for more information about segments.
 
    For example, you can run a [!UICONTROL Pages Report], and then apply a First Time Visits segment.
 
@@ -26,6 +26,18 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 
->[!MORELIKETHIS]
->
->* [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
+## Troubleshooting
+
+Sometimes the request wizard appears off-screen, especially for users that move between monitor setups. For example, you use a docking station at work, and your laptop screen at home. If you click 'Create' again while a request wizard is already open, you get the following error:
+
+"You first need to complete the request wizard process before starting a new one."
+
+Moving the request wizard back on-screen resolves this issue.
+
+1. Open Microsoft Excel and log in to Report Builder.
+2. Click [!UICONTROL Create], which opens the request wizard off-screen.
+3. Press `[Alt]` + `[Space]`.
+4. Press `[M]`.
+5. Press any of the arrow keys.
+6. Move your mouse, which attaches the request wizard to your cursor
+7. Click the mouse to release the request wizard on-screen.

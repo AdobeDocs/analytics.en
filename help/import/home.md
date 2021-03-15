@@ -1,6 +1,6 @@
 ---
-title: Analytics Import Help
-description: null
+title: Analytics Import Guide
+description: This guide explains how to get data into Analytics using Data Sources, Data Insertion API, and Data Connectors.
 ---
 
 # Analytics Import Guide

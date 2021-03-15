@@ -2,7 +2,6 @@
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 title: Logs
 topic: Admin tools
-uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 ---
 
 # Logs
@@ -25,9 +24,45 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 |  Login  | Filter the log by user name.  |
 |  IP  | Filter the log by an IP address.  |
 |  Report Suite  | Filter the log by a specific report suite ID.  |
-|  Event Type  | Filter the log by an event type. Select an event type from the drop-down list.  |
+|  Event Type  | Filter the log by an event type. Select an event type from the drop-down list. See the complete list of event types below.  |
 |  Event  | Filter the log by a word or phrase in the event description.  |
 |  Download Report  | Exports the contents of the [!UICONTROL Usage & Access Log] to a tab-delimited file.  |
+
+### Event types
+
+|  Event type  | Description  |
+| --- | --- |
+| No Category | Could be any event type. |
+| Login failed | User login process failed. |
+| Login successful | User logged in successfully. |
+| Admin Action | An admin action occurred, like editing a report suite, changing company settings, creating a user, etc. |
+| Security setting change | A security setting was changed. |
+| Report viewed | A Reports & Analytics report was viewed. |
+| Report downloaded | A Reports & Analytics report was downloaded. |
+| Alert sent | An alert was sent. |
+| User Action | User information was edited. |
+| Tool viewed | A tool was viewed. |
+| Omniture Action | An action was performed by Adobe. |
+| Password recovery | A password was recovered. |
+| BookMarks | A bookmark was managed. |
+| Dashboards | A dashboard was managed. |
+| Alerts | An alert was managed. |
+| Calendar Events | A calendar event was managed. |
+| Targets | A target was managed. |
+| Report Settings |  A report setting was managed. |
+| Scheduled Reports |  A scheduled report was managed. |
+| Exclude by IP | IP setting was changed. |
+| Name Pages | Deprecated. |
+| Classifications |  A classification was managed. |
+| Data Sources |  A data source was managed. |
+| Workspace Project | A Workspace project was viewed or edited. |
+| Segment | A segment was created/edited. |
+| Calculated Metric | A calculated metric was created/edited. |
+| Date Range | A date range was created/edited. |
+| Virtual Report Suite | A virtual report suite was created/edited. |
+| Contribution Analysis | A contribution analysis job was run. |
+| Api Method | An API call was made. |
+
 
 ## Report Suite Change Log {#section_3864966639414BBEA871F4D0352F56B6}
 

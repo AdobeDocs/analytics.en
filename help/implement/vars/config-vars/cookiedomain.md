@@ -5,16 +5,18 @@ description: The cookieDomain variable helps determine the domain to set cookies
 
 # cookieDomain
 
-> [!IMPORTANT] This variable is retired. Use `trackingServer` instead.
+>[!IMPORTANT]
+>
+>This variable is retired. Use [`trackingServer`](trackingserver.md) instead.
 
-The `cookieDomain` variable determines the domain where AppMeasurement sets cookies. You can use this variable to explicitly set the cookie domain instead of using the `cookieDomainPeriods` variable.
+The `cookieDomain` variable determines the domain where AppMeasurement sets cookies. You can use this variable to explicitly set the cookie domain instead of using the [`cookieDomainPeriods`](cookiedomainperiods.md) variable.
 
 This variable only needs to be used when **both** of the following conditions are met:
 
-* If your implementation uses first-party cookies. This variable is not required with implementations using a `trackingServer` value containing `sc.omtrdc.net`.
+* If your implementation uses first-party cookies. This variable is not required with implementations using a [`trackingServer`](trackingserver.md) value containing `sc.adobedc.net`.
 * If your domain has a period in its suffix. For example, `example.co.uk` could use the `cookieDomain` variable to explicitly state that the cookie domain is `example.co.uk` and not `co.uk`.
 
-Only a small number of implementations have use for the `cookieDomain` variable, and even then, alternative variables like `cookieDomainPeriods` can be used instead.
+Only a small number of implementations have use for the `cookieDomain` variable, and even then, alternative variables like [`cookieDomainPeriods`](cookiedomainperiods.md) can be used instead.
 
 ## Cookie Domain in Adobe Experience Platform Launch
 

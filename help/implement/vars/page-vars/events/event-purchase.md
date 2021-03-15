@@ -5,13 +5,17 @@ description: Use the purchase event to collect data for the 'Orders', 'Units', a
 
 # Purchase event
 
-The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the `products` and `purchaseID` variables.
+The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the [`products`](../products.md) and [`purchaseID`](../purchaseid.md) variables.
 
 When you set a purchase event, it affects the following metrics:
 
 * The 'Orders' metric increments by 1
 * The 'Units' metric increments by the number of products in the `products` variable
 * The 'Revenue' metric increases by the sum of price parameters in the `products` variable
+
+>[!NOTE]
+>
+>Revenue is not multiplied by the quantity field. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. For example,`s.products="Womens;Socks;5;22.50"`.
 
 ## Set the purchase event in Adobe Experience Platform Launch
 

@@ -19,3 +19,13 @@ If a column does not contain a `post_` version (for example, `visit_num`), then 
 In Adobe Analytics, most variables are considered as case-insensitive for reporting purposes. For example, 'snow', 'Snow', 'SNOW', and 'sNow' are all considered the same value. Case sensitivity is preserved in data feeds.
 
 If you see different case variations of the same value between non-post and post columns (for example, 'snow' in the pre column, and 'Snow' in the post column), your implementation uses both uppercase and lowercase values across your site. The case variation in the post column was previously passed in and is stored in the virtual cookie, or was processed around the same time for that report suite.
+
+## Are bots filtered by Admin console bot rules included in data feeds?
+
+Data feeds do not include bots filtered by [Admin console bot rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+
+## Why do I see multiple `000` values in the `event_list` or `post_event_list` data feed column?
+
+Some spreadsheet editors, especially Microsoft Excel, automatically round very large numbers. The `event_list` column contains many comma-delimited numbers, sometimes causing Excel to treat it as a large number. It rounds the last several digits to `000`.
+
+Adobe recommends against automatically opening `hit_data.tsv` files in Microsoft Excel. Instead, use Excel's Import Data dialog box and make sure that all fields are treated as text.

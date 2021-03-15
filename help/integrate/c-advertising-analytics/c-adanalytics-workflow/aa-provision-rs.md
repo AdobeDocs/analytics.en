@@ -1,5 +1,5 @@
 ---
-description: null
+description: Configure an Experience Cloud mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 ---
@@ -8,13 +8,13 @@ uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 
 In order to see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
 
-1. [Map your report suite to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+1. [Map your report suite to an organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Select the report suite that is [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+1. Select the report suite that is mapped to your Experience Cloud organization.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
-   ![](assets/aa_reporting.png)
+   ![Reporting](assets/aa_reporting.png)
 
    >[!IMPORTANT]
    >

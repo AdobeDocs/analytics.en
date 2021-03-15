@@ -14,17 +14,13 @@ Use the Dashboard Manager to copy, share, archive, and schedule dashboards for d
 >
 >Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
 
-## Dashboard Manager
-
-Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
-
 Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | Element | Description |
 |--- |--- |
 |Shared|Shows whether the dashboard is shared.|
 |Scheduled|Lets you schedule the dashboard for delivery.|
-|View Archive|Lets you view the dashboard archive. This functionality will no longer be available in January, 2020.|
+|View Archive|This functionality is no longer available.|
 |Push to Users|Lets you share a dashboard.|
 |Manage|Lets you edit, copy, and delete a dashboard.|
 
@@ -42,7 +38,7 @@ Steps that describe how use the shared dashboard management options.
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>View Archive</strong></td> 
-  <td class="chdesc stentry"> Lets you view the report archive for the shared dashboard, if an archive exists. </td> 
+  <td class="chdesc stentry"> This functionality is no longer available. </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 
@@ -66,11 +62,15 @@ Steps that describe how use the shared dashboard management options.
 
 Existing legacy dashboards will continue to be run and you can still edit, download, and schedule them; however, you can no longer create new legacy dashboards. You are strongly encouraged to upgrade existing legacy dashboards to the newer dashboard format.
 
-> [!NOTE] Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+>[!NOTE]
+>
+>Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
 
 When you copy the legacy dashboard, the system opens the legacy dashboard for edit, where you can add legacy content or new content. When you copy a legacy dashboard, the original is preserved in the list of legacy dashboards.
 
-> [!NOTE] Adding legacy content to a dashboard creates a dashboard based on the latest dashboard functionality. However, the legacy reportlet might contain data that is based on the previous data platform.
+>[!NOTE]
+>
+>Adding legacy content to a dashboard creates a dashboard based on the latest dashboard functionality. However, the legacy reportlet might contain data that is based on the previous data platform.
 
 **To migrate a version 14.x legacy dashboard** 
 
@@ -104,7 +104,9 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 
 ## Archive a dashboard
 
-> [!NOTE] This functionality will no longer be available in January, 2020.
+>[!NOTE]
+>
+>This functionality will no longer be available in January, 2020.
 
 Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first.
 

@@ -5,7 +5,9 @@ description: Populate the 'Visitor State Report' in Reports and Analytics.
 
 # state
 
-> [!IMPORTANT] This variable is retired and not an available dimension in Analysis Workspace. Use the 'US States' dimension instead, which AppMeasurement automatically collects based on the location of the visitor.
+>[!IMPORTANT]
+>
+>This variable is retired and not an available dimension in Analysis Workspace. Use the 'US States' dimension instead, which AppMeasurement automatically collects based on the location of the visitor.
 
 In previous versions of Adobe Analytics, the `state` variable was used when visitors filled out shipping information on retail sites. It is functionally identical to a prop, but is not available in Analysis Workspace.
 

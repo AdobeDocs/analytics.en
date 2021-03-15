@@ -16,7 +16,9 @@ You can access the configuration in the Admin Console:
 * **Name**: Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element.
 * **Value Delimiter**: The character used to separate values within the List Var. Most commonly these are characters such as commas, colons, pipes, or something similar.
 
-  > [!NOTE] Multi-byte characters are not supported as delimiters in List Vars. The delimiter must be single byte.
+  >[!NOTE]
+  >
+  >Multi-byte characters are not supported as delimiters in List Vars. The delimiter must be single byte.
 
 * **Expiration**: Similar to eVar expiration, this determines the amount of time that can occur between the List Var and the conversion event for them to be related.
   * **At a page view or visit level**: Success events beyond the page view or visit would not link back to any values within the List Var.

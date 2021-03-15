@@ -49,7 +49,7 @@ Virtual report suites have the following limitations:
 | Capability  | Virtual Report Suite  | Multisuite Tagging  |
 |--- |--- |--- |
 |Offers real-time or "Current Data" reporting|No|Yes|
-|Works in all Analytics Tools (Analysis Workspace, Report Builder, Ad Hoc Analysis, etc.)|Yes.   Note:  You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools.|Yes|
+|Works in all Analytics Tools (Analysis Workspace, Report Builder, etc.)|Yes. **Note:** You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools.|Yes|
 |Can upload data to it (via classifications, data feeds, etc.)|No|Yes|
 |Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics...|Yes|Yes|
 |Can be individually added to Permissions Groups|Yes|Yes|

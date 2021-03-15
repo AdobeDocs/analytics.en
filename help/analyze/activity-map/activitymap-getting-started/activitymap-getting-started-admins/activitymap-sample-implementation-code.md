@@ -1,8 +1,7 @@
 ---
-description: null
-title: Sample implementation code
+description: Example of how the AppMeasurement library and the Activity Map module are combined in the Adobe Analytics implementation code
+title: View sample Activity Map implementation code
 topic: Activity map
-uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 ---
 
 # Sample implementation code{#sample-implementation-code}
@@ -47,7 +46,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
   
 /************************** PLUGINS SECTION *************************/ 
 // copy and paste implementation plug-ins here - See "Implementation Plug-ins" @ 
-// https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
+// https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/impl-plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
 /****************************** START Activity Map MODULE *****************************/ 
@@ -56,7 +55,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
   users engage with your web site. If you do not intend to use ActivityMap, you 
   can remove the following block of code from your AppMeasurement.js file.
   Additional documentation on how to configure Activity Map is available at: 
-  https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html 
+  https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html 
  */ 
  function AppMeasurement_Module_Activity Map(g){func 
  ...

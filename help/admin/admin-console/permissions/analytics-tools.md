@@ -1,4 +1,4 @@
-# Analytics Tools permission items
+# Product profile permissions for Analytics Tools
 
 Analytics Tools permission items grant access to features within Adobe Analytics. Analytics Tools permission items do not apply to a report suite, but rather to Adobe Analytics as a whole.
 
@@ -24,14 +24,14 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Excel License Users| Not used. |
 | Activity Map | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Current Data | Enables the option to see current data in Reports & Analytics reports. |
-| Ad Hoc Analysis License Users| Enables the download button under Tools > Ad Hoc Analysis, and allows the user to authenticate with the tool. See [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| Ad Hoc Analysis License Users|  Ad Hoc Analysis has been end-of-lifed. See [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Mobile App Admin | Not used. |
 | Web Service Access | Grants the ability to use the API, including authentication with third-party sites and sending API calls. |
 | Report Builder | Enables the download button under Tools > Report Builder, and allows the user to authenticate within Microsoft Excel. |
 | Analysis Workspace Access| Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
 | Reports & Analytics Access | Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics. |
 | Analysis Workspace: Save As Template | Grants access to Project > Save As Template within Analysis Workspace. |
-| Labs Access| Currently under development. When released, grants access to Labs. |
+| Labs Access| Give users access to Labs and the prototypes within Labs. |
 | Calculated Metric Creation | Grants the ability to create calculated metrics across all Analytics capabilities. |
 | Segment Creation | Grants the ability to create and share segments across all Analytics capabilities. |
 | Advertising Analytics Management | Not used. |

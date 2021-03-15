@@ -9,7 +9,7 @@ keywords: appmeasurement,variables,vars,configuration,page,implementation
 Analytics provides a number of variables to collect Analytics data. Variables in this section are split into several sections:
 
 * **Page variables** are values that are typically used directly in reporting. Common page variables include `props`, `eVars`, and `events`.
-* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `trackingServerSecure`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension values.
+* **Config variables** are settings values that help make sure the correct data reaches Adobe. Common config variables include `trackingServerSecure`, `charSet`, and `linkTrackVars`. Config variables typically do not populate dimension items.
 * **Functions and methods** are pieces of code that perform a specific task when referenced. Common functions include `t()`, `tl()`, and `clearVars()`.
 
 ## Variables and implementation methods
@@ -22,7 +22,7 @@ AppMeasurement libraries published by Adobe Analytics follow a specific order wh
 
 1. If your site uses a data layer, make sure all applicable variables are populated first. See [Data layer](../prepare/data-layer.md) for more information.
 2. Use the data layer to populate Analytics variables. If you use Launch, this task is easily accomplished by using data elements, then assigning the data element to a variable. See [Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) in the Launch user guide.
-3. Call the tracking function. Most AppMeasurement libraries use the `t()` function, however some mobile SDK's use `track()`. When the tracking function is called, all supported variables defined in the Analytics object are sent to Adobe in the form of an image request.
+3. Call the tracking function. Most AppMeasurement libraries use the `t()` method, however some mobile SDK's use `track()`. When the tracking function is called, all supported variables defined in the Analytics object are sent to Adobe in the form of an image request.
 
 ## Illegal characters
 
@@ -33,4 +33,4 @@ The following characters and strings are never allowed in JavaScript variables.
 * Newline (`0x0A`)
 * HTML tags (e.g. `<b></b>` or `&#153`)
 
-Some variables have additional limitations or syntax requirements. For example, the `products` variable reserves semicolons and commas to delimit separate products and categories.
+Some variables have additional limitations or syntax requirements. For example, the [`products`](page-vars/products.md) variable reserves semicolons and commas to delimit separate products and categories.

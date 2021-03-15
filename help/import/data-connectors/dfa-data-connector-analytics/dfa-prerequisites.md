@@ -1,5 +1,5 @@
 ---
-description: null
+description: Prerequisites to use the DFA data connector with Adobe Analytics.
 keywords: DFA
 title: Prerequisites
 topic: Data connectors

@@ -34,7 +34,7 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Context Data Variables </p> </td> 
-   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Context Data Variables</a> </p> </td> 
+   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Context Data Variables</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,11 +84,11 @@ The dimensions that you can read and write (unless otherwise noted) using proces
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page Name </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Note:  A page view is counted on all hits where page name is not empty. When a link is tracked, the data collection server removes the page name from the hit so that page views are not counted. If you re-insert a page name into these calls using processing rules, a page view will be counted. We recommend checking to make sure that page name is already set before you modify the page name. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Note:  Link tracking calls strip the <code>pageName</code> variable before they reach processing rules. If you re-insert a page name value using processing rules, the hit is considered a page view instead of a link tracking call. Adobe recommends checking to make sure that page name is already set before you modify it. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Page URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> or the current page URL if <code> s.pageURL</code> is not specified. </td> 
+   <td colname="col2"> <code> s.pageURL</code> or the current page URL if <code> s.pageURL</code> is not specified. <p>Note:  Link tracking calls strip the <code>pageURL</code> variable before they reach processing rules. If you re-insert a page URL value using processing rules, the hit is considered a page view instead of a link tracking call. Adobe recommends checking to make sure that page URL is already set before you modify it. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Query String Parameter </p> </td> 

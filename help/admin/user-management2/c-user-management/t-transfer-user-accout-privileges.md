@@ -16,14 +16,10 @@ Steps that describe how to assign user account items (dashboards, calculated met
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Users]**.
-1. Click **[!UICONTROL Transfer]** in the row of the user account you want to transfer.
+1. Find the user that you wish to transfer assets from and select the checkbox next to this user's row.
+1. Select **[!UICONTROL Transfer Assets]** from the actions bar at the top.
 1. On the **[!UICONTROL Transfer]** page, select the user account that is to receive this user's account items.
 1. Select the account items to transfer, then click **[!UICONTROL Transfer]**.
 1. Click **[!UICONTROL OK]** to confirm that you want to transfer the selected account resources.
 
    The receiving user receives all rights for the selected account resources owned by the original user, except for rights to scheduled reports.
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis resources cannot be transferred. If your organization uses multiple login companies, you cannot transfer anything between login companies.
-

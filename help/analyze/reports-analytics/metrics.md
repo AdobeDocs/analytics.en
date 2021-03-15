@@ -9,7 +9,7 @@ uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
-## Metrics 
+## Metrics overview
 
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
@@ -17,7 +17,7 @@ Metrics and associated data are displayed in the columns of reports. Traffic met
 
 [Calculated metrics](/help/components/c-calcmetrics/cm-overview.md) are created by combining metrics.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+For a full list of metrics, see [Metrics overview](/help/components/metrics/overview.md) in the Components user guide.
 
 ## Select default report metrics 
 

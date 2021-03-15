@@ -12,6 +12,36 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.22.0
+
+Release Date: **August 4, 2020**
+
+* Fix for missing referrer when first hit was not sent due to user's opt-out preferences.
+
+## Version 2.21.0
+
+Release Date: **June 24, 2020**
+
+* Fixed an issue where the Activity Map linkExclusions filter was not always being applied for Firefox.
+
+## Version 2.20.0
+
+Release Date: **March 5, 2020**
+
+* Fixed a security-related issue by updating Internet Explorer detection to suppress JSLint warning.
+
+## Version 2.19.0
+
+Release Date: **February 21, 2020**
+
+* Updated Audience Management module to DIL 9.4. (AN-209341)
+
+## Version 2.18.0
+
+Release Date: **February 13, 2020**
+
+* AppMeasurement can now force cookies to include the Secure attribute by setting the [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. The requirement for this variable is that the entire client website is served securely (HTTPS). (AN-204604)
+
 ## Version 2.17.0
 
 Release date: **August 23, 2019**
@@ -80,7 +110,9 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 Release Date: **May 24, 2018**
 
-> [!NOTE] Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>[!NOTE]
+>
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332)
@@ -194,7 +226,9 @@ Updated: **August 18, 2016**
 * Updated [!DNL AppMeasurement] to read and write AMCV cookies. (AN-127098)
 * Inclusion of Visitor API 1.7.0.
 
-> [!NOTE] Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+>[!NOTE]
+>
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Version 1.6.3
 
@@ -202,7 +236,9 @@ Updated: **August 4, 2016**
 
 * Fixed an issue where [!DNL AppMeasurement] prematurely terminated request connections. (AN-126448)
 
->[!IMPORTANT] Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
+>[!IMPORTANT]
+>
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
 
 ## Version 1.6.2
 
@@ -271,7 +307,9 @@ Release Date: **May 21, 2015**
 * Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 
-> [!NOTE] **Known Issue**: In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there are two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Known Issue**: In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there are two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -317,7 +355,9 @@ Release Date: **September 18, 2014**
 * Fixed an issue that caused a double page-view count when s.t was called from a link onclick function, if the Visitor API does not have the needed values yet.
 * HTTP POST support.
 
-  > [!IMPORTANT] For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
 
 ## Version 1.4
 
@@ -327,7 +367,9 @@ Release Date: **August 21, 2014**
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 * Added support for additional eVars (76 - 250) and events (101-1000).
 
-> [!NOTE] H-Code does not support the additional eVars and events.
+>[!NOTE]
+>
+>H-Code does not support the additional eVars and events.
 
 ## Version 1.3.2
 

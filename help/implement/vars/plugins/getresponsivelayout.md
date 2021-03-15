@@ -5,7 +5,9 @@ description: Determine which layout of a website is currently being viewed.
 
 # Adobe plug-in: getResponsiveLayout
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getResponsiveLayout` plug-in lets you track which version of your responsive design-based website a visitor is currently looking at. Adobe recommends using this plug-in if your site uses responsive design and you want to track the version of the site viewed by a visitor. This plug-in is unnecessary if your site does not use responsive design.
 
@@ -17,10 +19,13 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule
+    * Action Type: Initialize getResponsiveLayout
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor
 
@@ -35,7 +40,7 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

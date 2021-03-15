@@ -1,5 +1,5 @@
 ---
-description: null
+description: Schedule requests in Data Warehouse to run on a repeating basis.
 title: Schedule a recurring request
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 ---

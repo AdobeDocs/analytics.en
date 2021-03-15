@@ -1,17 +1,20 @@
 ---
-description: Instructions for setting up the mobile app scorecards.
-title: Adobe Analytics Mobile App Curator Guide
+description: Instructions for using the dashboards scorecards.
+title: Adobe Analytics dashboards executive guide
 ---
 
-# Analytics Mobile App: Executive User Quick Start Guide
+# Adobe Analytics dashboards: executive user quick start guide
+
+The following information provides executive users with information on best practices for using and viewing Adobe Analytics dashboards. To see a video demonstrating this information, see [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA).
+
 
 ## Introduction
 
-The Adobe Analytics Mobile App provides anytime, anywhere insights from Adobe Analytics.  The app allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
+Adobe Analytics dashboards provides anytime, anywhere insights from Adobe Analytics.  The app allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. Dashboards is supported on both iOS and Android operating systems.
 
-## About this guide
+## More about this guide
 
-This guide is intended to help executive users read and interpret Scorecards on the Analytics Mobile App. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.
+This guide is intended to help executive users read and interpret Scorecards on Analytics dashboards. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.
 
 ## Glossary of terms
 
@@ -20,93 +23,85 @@ This guide is intended to help executive users read and interpret Scorecards on 
 | Consumer| Executive persona viewing key metrics and insights from Analytics on a mobile device|
 | Curator |Data literate persona who finds and distributes insights from Analytics and configures the Scorecards to be viewed by consumer |
 | Curation | The act of creating or editing a mobile scorecard containing relevant metrics, dimensions and other components for the consumer |
-| Scorecard | A Mobile App View containing one or more tiles |
+| Scorecard | A dashboards view containing one or more tiles |
 | Tile | A rendering for a metric within a Scorecard View |
 | Breakdown | A secondary view accessible by tapping a tile in the Scorecard. This view expands on the metric displayed on the tile and optionally reports on additional breakdown dimensions. |
-| Date Range | The primary date range for Mobile App reporting |
+| Date Range | The primary date range for dashboards reporting |
 | Comparison Date Range|The Date Range that is compared with the primary date range |
 
-## Get the app set up on your device
+## Get dashboards set up on your device
 
-To use the app effectively, you will need to have your Scorecard curator help you set it up. This section provides information to help you get set up with the assistance of your curator.
+To use the dashboards effectively, you will need to have your Scorecard curator help you set it up. This section provides information to help you get set up with the assistance of your curator.
 
 ### Get access
 
-To access Scorecards on the app, ensure that: 
+To access Scorecards on dashboards, ensure that: 
 
 * You have a valid login into Adobe Analytics
 * Your curator has correctly created mobile Scorecards and shared them with you
 
-### Downloand and install the app
+### Downloand and install dashboards
 
 To download and install the app, follow the steps according to the operating system on your device.
 
-**For iOS devices:**
+**For executive users on iOS:**
 
-1. Click the following public link (It is also available in Analytics under **Tools** > **Mobile App**): 
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
-    [iOS link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+[iOS link](https://apple.co/2zXq0aN)
 
-    After clicking the link, the following Testflight screen appears:
+**For executive users on Android:**
 
-    ![Testflight screen](assets/testflight1.png)
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
-2. Tap the **View in App Store** link on the screen to download the Testflight app.
+[Android link](https://bit.ly/2LM38Oo)
 
-3. After installing the Testflight app, find and install the Adobe Analytics Mobile App from within Testflight as shown below:
+Once downloaded and installed, executive users can sign into the app using their existing Adobe Analytics credentials.
 
-    ![Testflight screen](assets/testflight2.png)
+![App welcome screen](assets/welcome.png)
 
-**For Android devices:**
+## Use dashboards
 
-1. Tap the following Play Store link on the user's device (It is also available in Analytics under **Tools** > **Mobile App**):
+To use dashboards:
 
-
-    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-    After tapping the link, tap the Become a Tester link on the following screen:
-
-    ![Play Store screen](assets/play.png)
-
-2. Tap the **download it on Google Play** link on the following screen:
-
-    ![Download link](assets/playnext.png)
-
-## Use the app
-
-To use the app:
-
-1. Sign into the app. The sign in screen will appear upon launching the app. Follow the prompts using your existing Adobe Analytics credentials. We support both Adobe and Enterprise/Federated IDs.
+1. Sign into the app. The sign in screen will appear upon launching dashboards. Follow the prompts using your existing Adobe Analytics credentials. We support both Adobe and Enterprise/Federated IDs.
 
     ![Sign in sequence](assets/signseq.png)
 
-2. Choose a company. After you sign into the app, the **Choose a company** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
+2. Choose a company. After you sign into dashboards, the **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
 
 3. The Scorecard list then shows all Scorecards that have been shared with you. Tap the Scorecard you want to view.
 
-    ![Choose a company](assets/accesscard.png)
+    ![Choose a company](assets/nextseq.png)
 
-    *Note : If you log in and see a message saying that nothing has been shared, verify the following with your curator:*
+    If you log in and see a message saying that nothing has been shared, verify the following with your curator:
 
-    * *You can log into the right Analytics instance*
-    * *The Scorecard has been shared with you*
+    * You can log into the right Analytics instance
+    * The Scorecard has been shared with you
+    
+    ![Nothing shared](assets/nothing.png)
 
-        ![Nothing shared](assets/nothing.png)
-
-4. Examine how the tiles appear in the Scorecard. 
+4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **[!UICONTROL Preferences]** below for more information). 
 
     ![Tiles explained](assets/newexplain.png)
 
     Additional information on tiles:
 
     * The granularity of the sparklines is dependent on the length of the date range: 
-    * One day shows an hourly trend
-    * More than one day and less than a year shows a Daily trend
-    * One year or more shows a weekly trend
-    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-    * You can pull the screen down to refresh the Scorecard.
 
-5. Tap a tile to show how a detailed breakdown for the tile works.
+        * One day shows an hourly trend
+        * More than one day and less than a year shows a daily trend
+        * One year or more shows a weekly trend
+
+    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+
+    * You can pull the screen down to refresh the Scorecard.
+    
+    The following example Scorecard is shown in normal mode:
+
+    ![Example Scorecard](assets/intro_scorecard.png)
+
+5. Tap a tile to see how a detailed breakdown for the tile works.
     
     ![Breakdow view](assets/sparkline.png)
 
@@ -115,22 +110,27 @@ To use the app:
 
     ![Change dates](assets/changedate.png)
 
-    *Note: You can also change the date ranges within the Breakdown view shown above in the same way.*
+    * You can also change the date ranges within the Breakdown view shown above in the same way.
 
-    Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **COMPARE TO** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **Done** in the upper right of the screen. The **Date Ranges** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
+    * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **[!UICONTROL COMPARE TO]** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **[!UICONTROL Done]** in the upper right of the screen. The **[!UICONTROL Date Ranges]** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
-7. Get Scorecard updates. If a Scorecard does not include all of the metric or breakdowns that you may be interested in, please contact your Analytics team to have the Scorecard updated. Once updated, you can pull down the card on the screen to refresh it and load the recently-added data.
+7. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
 
+    ![Segment filter](assets/segment_filter.png)
 
+8. Get Scorecard updates. If a Scorecard does not include all of the metric or breakdowns that you may be interested in, please contact your Analytics team to have the Scorecard updated. Once updated, you can pull down the card on the screen to refresh it and load the recently-added data.
 
-8. Leave feedback. To leave feedback:
+9. To leave feedback on this app:
 
-    1. Tap the user icon in the upper right of the app screen.
-    2. On the **My Account** screen, tap the **Feedback** option.
+    1. Tap the settings icon in the upper right of the app screen. 
+    2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option. 
     3. Tap to view the options for leaving feedback.
 
-    ![Leave feedback](assets/feedback.png)
-    ![Feedback options](assets/feedback_option.png)
+        ![Settings screen](assets/settings.png)
+
+10. To change preferences, tap the **[!UICONTROL Preferences]** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
+
+    ![Dark mode](assets/darkmode.png)
 
 
 **To report a bug**:

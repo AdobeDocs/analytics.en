@@ -5,7 +5,9 @@ description: Measure the amount of time between two events.
 
 # Adobe plug-in: getTimeBetweenEvents
 
-> [!IMPORTANT] This plug-in is provided by Adobe Consulting as a courtesy to help gain more value out of your use of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getTimeBetweenEvents` plug-in allows you to track the amount of time between any two Analytics events, including shopping cart and custom events. It is useful in tracking the amount of time it takes for a checkout process to complete, or any other process that you want to measure time. This plug-in is unnecessary if you don't have any conversion processes that you want to measure how long they take.
 
@@ -17,10 +19,13 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. For any Launch Rule where you want to use the plug-in, add an action with the following configuration:
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule
+    * Action Type: Initialize getTimeBetweenEvents
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor
 
@@ -35,7 +40,7 @@ If you do not want to use the plug-in extension, you can use the custom code edi
 
 ## Install the plug-in using AppMeasurement
 
-Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using `s_gi`). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,7 +63,10 @@ The `getTimeBetweenEvents` method uses the following arguments:
 * **`rt`** (required, boolean): Restart timer option. Set to `true` if you want to restart the timer every time the `events` variable contains a start timer event. Set to `false` if you don't want the timer to restart when it sees a start timer event.
 * **`stp`** (required, string): Stop timer events. A comma-delimited string of Analytics events that "stop the timer".
 * **`res`** (required, boolean): Reset timer option. Set to `true` if you want to record the time since the timer started AND reset the timer after it stops. Set to `false` if you want to record the time but not stop the timer. If set to `false`, the timer continues to run after the events variable records a stop event.
-  > [!TIP] If you set this argument to `false`, setting the `rte` argument below is highly recommended.
+
+  >[!TIP]
+  >
+  >If you set this argument to `false`, setting the `rte` argument below is highly recommended.
 * **`cn`** (optional, string): The cookie name where the time of the first event is stored. Defaults to `"s_tbe"`.
 * **`etd`** (optional, integer): The expiration time for the cookie in days. Set to `0` to expire at the end of the browser session. Defaults to 1 day when not set.
 * **`fmt`** (optional, string): The format of the time that the number of seconds is returned in (defaults to nothing)

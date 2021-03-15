@@ -40,7 +40,7 @@ Setting up real-time reports within Reports & Analytics consists of selecting th
    >
    >For a single Real-Time report, we do not currently support enabling duplicate dimensions, even if a different classification is selected for each dimension.
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   For more information about classifications, see [About Classifications](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ Setting up real-time reports within Reports & Analytics consists of selecting th
 
 1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
+   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. By default, all users have access to Real-Time reports.

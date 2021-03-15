@@ -8,6 +8,10 @@ uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 
 # Full processing
 
+>[!IMPORTANT]
+>
+>Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources in the future.
+
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 
 Full Processing data sources data is processed as if it were received by Adobe servers at the time specified (each hit contains a timestamp).
@@ -60,7 +64,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  > s.events </a> variable. </p> <p>For example: </p> 
+   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -103,12 +107,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Page URL (for example, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). Can hold a maximum value of 4096 bytes per row.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -163,7 +167,7 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
+   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 

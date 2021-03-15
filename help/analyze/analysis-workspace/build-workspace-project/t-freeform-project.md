@@ -10,13 +10,13 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 
 Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
 
-This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project. For specific use cases, see [Use Cases for Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project.
 
 ## Create a project
 
 1. Specify user permission to create and curate projects.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -66,7 +66,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
    <td colname="col2"> <p>Items you can drag to the panel or project areas of the interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Freeform Panel </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > Freeform Panel </a> </td> 
    <td colname="col2"> <p>The canvas or workspace with which you interact in Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
   </tr> 
   <tr> 
    <td colname="col1"> Segments (blue) </td> 
-   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Date ranges and granularities (purple) </td> 
@@ -182,7 +182,7 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Trend selection</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > Trend selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

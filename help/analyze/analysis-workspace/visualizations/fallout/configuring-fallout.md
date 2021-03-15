@@ -1,5 +1,5 @@
 ---
-description: null
+description: Configure a fallout visualization.
 title: Configure a fallout visualization
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 ---
@@ -12,7 +12,7 @@ You can even add segments within a touchpoint. For example, you might want to co
 
 There is no limitation on the number of steps you can add or the number of dimensions used.
 
-You can do pathing on eVars, including merchandising eVars and [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
+You can do pathing on eVars, including merchandising eVars and [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
 
 1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 
@@ -58,7 +58,6 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
 | Setting | Description |
 |--- |--- |
 |Fallout Container <ul><li>Visit</li><li>Visitor</li></ul>|Lets you switch between Visit and Visitor to analyze visitor pathing. The default is Visitor.  These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.|
-|Show "All Visitors" as the first touchpoint|You can deselect this if you'd rather not have "All Visitors" as the first touchpoint.|
 
 When you **right-click a touchpoint**, the following options appear:
 
@@ -67,6 +66,6 @@ When you **right-click a touchpoint**, the following options appear:
 |Trend touchpoint|See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data.|
 |Trend touchpoint (%)|Trends the total fallout percentage.|
 |Trend all touchpoints (%)|Trends all the touchpoint percentages in the fallout (except "All Visits", if it's included), on the same chart.|
-|Breakdown fallthrough at this touchpoint|View what visitors did between two touchpoints if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
-|Breakdown fallout at this touchpoint|View what people who did not make it through the funnel did immediately after the selected step.|
+|Break down fallthrough at this touchpoint|View what visitors did between two touchpoints (this touchpoint and the next touchpoint) if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
+|Break down fallout at this touchpoint|View what people who did not make it through the funnel did immediately after the selected step.|
 |Create segment from touchpoint|Create a new segment from the selected touchpoint.|

@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use alerts in Analysis Workspace.
 title: Alert Builder
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 ---
@@ -31,7 +31,9 @@ Specify a name for the alert. The alert name might contain the name of the repor
 
 Specify when you want the metric to be checked: Hourly, Daily, Weekly, or Monthly.
 
-> [!NOTE] For report suites with a custom calendar, we do not support monthly granularity in the Alert Builder.
+>[!NOTE]
+>
+>For report suites with a custom calendar, we do not support monthly granularity in the Alert Builder.
 
 **Recipients**
 

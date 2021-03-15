@@ -8,7 +8,7 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 
 Intelligent Alerts allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
-[Intelligent Alerts on YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
+Here is a video tutorial on [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Overview
 
@@ -33,7 +33,9 @@ There are four ways get to the Alert Builder:
 
 The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
 
-> [!IMPORTANT] Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for Intelligent Alerts.
+>[!IMPORTANT]
+>
+>Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for Intelligent Alerts.
 
 ## Anomaly lookback for alerts
 

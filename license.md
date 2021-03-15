@@ -1,5 +1,6 @@
 ---
 title: Apache License
+description: Terms of the Apache License.
 ---
 
 # Apache License

@@ -20,13 +20,17 @@ Since pages that use AJAX typically do not reload, there are multiple interactio
 * If the answer is **yes**, consider using a page view tracking call (`s.t()`).
 * If the answer is **no**, consider tracking that interaction using a link tracking call (`s.tl()`).
 
-> [!NOTE] Not all interactions or clicks need to be recorded. Carefully consider which actions are most important to track, and send data to Adobe accordingly.
+>[!NOTE]
+>
+>Not all interactions or clicks need to be recorded. Carefully consider which actions are most important to track, and send data to Adobe accordingly.
 
 ## Clearing variables on each page
 
 Variable values persist on pages using AJAX since the page does not reload. Therefore, special accommodation is required to clear variable values so they do not incorrectly persist across hits. Adobe offers the [`clearVars`](../vars/functions/clearvars.md) function to easily clear out variable values. Make sure that you use this function after sending each hit to Adobe, and before you set variable values for the next hit.
 
-> [!TIP] The `clearVars()` function is not available in H Code. If you have not upgraded to AppMeasurement, set each Analytics variable value to an empty string.
+>[!TIP]
+>
+>The `clearVars()` function is not available in H Code. If you have not upgraded to AppMeasurement, set each Analytics variable value to an empty string.
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# Report Suite Tools listed in Product Profile permissions
+# Product profile permissions for Report Suite Tools
 
 Use this page to understand each permission item under Report Suite Tools.
 
@@ -50,7 +50,8 @@ Use this page to understand each permission item under Report Suite Tools.
 | Image | Not used. |
 | KPI/Gauge Reportlet | Not used. |
 | Report Suite Totals | Not used. |
-| Text Reportlet| Not used. |
+| Text Reportlet | Not used. |
 | Usage Summary Reportlet | Not used. |
 | Web Resources | Not used. |
-| Social| Not used. |
+| Social | Not used. |
+| Data Repair API | Grants access to the Data Repair API |

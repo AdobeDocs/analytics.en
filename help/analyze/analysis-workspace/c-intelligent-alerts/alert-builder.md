@@ -1,5 +1,5 @@
 ---
-description: null
+description: Get alerts when project components reach certain thresholds.
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 ---
@@ -37,7 +37,9 @@ Specify a name for the alert. The alert name might contain the name of the repor
 
 Specify when you want the metric to be checked: Hourly, Daily, Weekly, or Monthly.
 
-> [!NOTE] For report suites with a custom calendar, we do not support monthly granularity in the Alert Builder.
+>[!NOTE]
+>
+>For report suites with a custom calendar, we do not support monthly granularity in the Alert Builder.
 
 **Recipients**
 

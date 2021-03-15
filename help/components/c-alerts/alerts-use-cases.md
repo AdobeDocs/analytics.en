@@ -1,5 +1,5 @@
 ---
-description: null
+description: Use cases for creating and managing intelligent alerts.
 title: Intelligent alerts - use cases
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 ---

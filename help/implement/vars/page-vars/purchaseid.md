@@ -25,4 +25,12 @@ This variable can store a maximum of 20 bytes; values longer than 20 bytes are t
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] Do not use a randomization function to generate a purchase ID. Adobe recommends using a [data layer](../../prepare/data-layer.md) to store a given purchase ID.
+If using the `digitalData` [data layer](../../prepare/data-layer.md):
+
+```js
+s.purchaseID = digitalData.transaction.transactionID;
+```
+
+>[!CAUTION]
+>
+>Do not use a randomization function to generate a purchase ID.

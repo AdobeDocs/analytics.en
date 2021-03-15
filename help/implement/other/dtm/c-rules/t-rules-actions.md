@@ -1,7 +1,7 @@
 ---
 description: Set up actions that you want the condition to trigger.
 keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Set up actions for the condition to trigger
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 ---
@@ -16,7 +16,9 @@ Beyond integrated tools like [!DNL Adobe Analytics] and Google Analytics, Dynami
 
 Each rule can trigger as many scripts or HTML injections as you want.
 
-> [!NOTE] Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP's guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). Using data elements within a script requires particular attention. Always assume data element values might come from an untrusted source.
+>[!NOTE]
+>
+>Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP's guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). Using data elements within a script requires particular attention. Always assume data element values might come from an untrusted source.
 
 **To set up actions for the condition to trigger** 
 

@@ -5,20 +5,27 @@ description: Learn the workflow to implement H Code on your site.
 
 # H Code JavaScript implementation overview
 
-> [!IMPORTANT] This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
 
 You must have access to your hosting servers to successfully implement a page with code to collect data. The following steps walk you through a basic Analytics H Code implementation.
 
-> [!NOTE] You must already have an existing copy of `s_code.js` to follow these instructions. Adobe no longer offers an option to download H Code in the Code Manager.
+>[!NOTE]
+>
+>You must already have an existing copy of `s_code.js` to follow these instructions. Adobe no longer offers an option to download H Code in the Code Manager.
 
 1. **Update core JS file variables**: Edit the `s_code.js` file and make sure the following variables are updated:
    * `s_account` contains the report suite ID that you want to send data to. See
    * `s.trackingServer` contains the location cookies are stored. See [trackingServer](../../vars/config-vars/trackingserver.md).
-2. **Host the `s_code.js` file on your site**: This file typically resides with other scripts on your web server.
-3. **Reference `s_code.js` on all pages**: Make sure all individual pages call the core JavaScript file, and do so within the HTML `<body>` tag (not the `<head>` tag).
-   > [!TIP] H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
-4. **Define page-specific variables on each page**: Each page should have individual variables defined, such as page name or eVars. Individual variables are typically defined with an inline `<script>` tag on each page.
-5. **Use the debugger to verify data collection**: Download and install the [Experience Cloud debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
+1. **Host the `s_code.js` file on your site**: This file typically resides with other scripts on your web server.
+1. **Reference `s_code.js` on all pages**: Make sure all individual pages call the core JavaScript file, and do so within the HTML `<body>` tag (not the `<head>` tag).
+
+   >[!TIP]
+   >
+   >H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
+1. **Define page-specific variables on each page**: Each page should have individual variables defined, such as page name or eVars. Individual variables are typically defined with an inline `<script>` tag on each page.
+1. **Use the debugger to verify data collection**: Download and install the [Experience Cloud debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
 
 ## Caching
 

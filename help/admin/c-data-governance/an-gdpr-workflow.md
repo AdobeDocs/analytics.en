@@ -1,5 +1,5 @@
 ---
-description: null
+description: Outlines the steps to enable your Adobe Analytics implementation to support your data subjects' Data Privacy access and delete rights.
 title: Privacy workflow
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 ---

@@ -113,6 +113,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
       + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
       + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+  + [User preferences](analysis-workspace/user-preferences.md)
   + Workspace FAQs {#workspace-faq}
     + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)
     + [Optimize Analysis Workspace performance](analysis-workspace/workspace-faq/optimizing-performance.md)

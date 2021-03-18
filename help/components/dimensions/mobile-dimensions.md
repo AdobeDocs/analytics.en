@@ -1,6 +1,6 @@
 ---
 title: Mobile dimensions
-description: Dimensions based on the user-agent string of the device.
+description: Dimensions based on the IP address of the device.
 ---
 
 # Mobile dimensions
@@ -11,7 +11,8 @@ Mobile dimensions provide insight around the properties of mobile devices that v
 
 ## Populate these dimensions with data
 
-These dimensions reference lookup rules internal to Adobe. The lookup value is based on the `User-Agent` HTTP header sent with the hit. Adobe partners with [DeviceAtlas](https://deviceatlas.com/) to maintain lookups between user agent and mobile dimensions. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), all mobile dimensions work out of the box.
+These dimensions reference lookup rules internal to Adobe. [!UICONTROL Mobile Carrier] lookups are determined by IP address, using data we get from NetAcuity (a Digital Element product). 
+If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), all mobile dimensions work out of the box.
 
 ## Mobile dimension descriptions
 

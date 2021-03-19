@@ -1,6 +1,6 @@
 ---
 title: How to set user preferences in Analysis Workspace
-description: 
+description: You can set general and project preferences for users.
 ---
 
 # User preferences

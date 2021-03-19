@@ -24,7 +24,7 @@ General preferences apply to your Adobe Analytics experience in the browser.
 
 ## Project preferences
 
-Project preferences apply to new projects and new panels created in Analysis Workspace. Preferences can also be managed on a per-project basis under Workspace > Project > Project Info & Settings.
+Project preferences apply to new projects and new panels created in Analysis Workspace. Preferences can also be managed on a per-project basis under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project Info & Settings].
 
 | Section | Preference | Options |
 | --- | --- | --- |

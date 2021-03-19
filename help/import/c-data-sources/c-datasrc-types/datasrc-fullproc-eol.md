@@ -1,6 +1,6 @@
 ---
-title:
-description:
+title: End of life for Full Processing Data Sources
+description: Reasons for end of lifing and comparisons between Bulk Data Insertion API and Full Processing Data Sources.
 ---
 
 # End of life for Full Processing Data Sources

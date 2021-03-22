@@ -181,7 +181,7 @@ The value of 300 comes from the value of the pos parameter in the s.testURL vari
 ### 4.0 (March 19, 2021)
 
 * Added version number as context data.
-* Removed dependencies on pt plugin.
+* Removed dependencies on `pt` plugin.
 
 ### 3.3 (September 24, 2019)
 

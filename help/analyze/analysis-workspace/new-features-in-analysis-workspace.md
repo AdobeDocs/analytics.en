@@ -12,7 +12,7 @@ For access to the Adobe Experience Cloud Release Notes as a whole, go [here](htt
 
 | Feature | Target Date | Description |
 | --- | --- | --- |
-| Component Selection | February 4, 2021 | The drop-down/drop zone component found in Quick Insights will be added to all drop zones in Workspace. This enhancement allows you to pick from a drop-down list of compatible components or continue to use the space as a drop zone. |
+| Component Selection | February 4, 2021 | The drop-down/drop zone component found in [!UICONTROL Quick Insights] will be added to all drop zones in [!UICONTROL Workspace]. This enhancement allows you to pick from a drop-down list of compatible components or continue to use the space as a drop zone. |
 
 
 ## January 2021
@@ -20,13 +20,13 @@ For access to the Adobe Experience Cloud Release Notes as a whole, go [here](htt
 | Feature | Target Date | Description |
 | --- | --- | --- |
 | Image URLs | January 14, 2021 | You can add images to Workspace projects by referencing a public image URL. |
-| Combined source & settings manager for visualizations | January 14, 2021 | The data source manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
+| Combined source & settings manager for visualizations | January 14, 2021 | The [!UICONTROL Data Source] manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
 
 ## October 2020
 
 | Feature | Description |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** has been added to Line visualization trendline settings. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** has been added to [!UICONTROL Line] visualization trendline settings. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
 | [Performance Help page](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | The Analysis Workspace performance help page shows the different factors that impact project performance and links to tips for optimization. |
 
 ## September 2020
@@ -34,7 +34,7 @@ For access to the Adobe Experience Cloud Release Notes as a whole, go [here](htt
 | Feature | Description |
 | --- | --- |
 | [Download 50K items for a single dimension](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | You can now download 50,000 items for a single dimension in a freeform table, with segments and filters applied. This allows you to access more than the 400 rows of data outside of Analysis Workspace. |
-| [Enhancements to Line visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>You can show or hide the X-axis and Y-axis of any Line visualization. This can be especially helpful when your Line visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any Line visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any Line visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> |
+| [Enhancements to Line visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any Line visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any Line visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> |
 | New date ranges | We added 5 new date ranges so you can choose from date ranges that do not include partial day data from today: Last 7 full days, Last 14 full days, Last 30 full days, Last 60 full days, Last 90 full days |
 
 ## August 2020

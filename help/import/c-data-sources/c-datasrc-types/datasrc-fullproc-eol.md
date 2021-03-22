@@ -56,7 +56,7 @@ For more detail, see the following comparison of the field values available in B
 | javaScriptVersion | javaScriptVersion | JavaScript version (for example, 1.3). |
 | language | Not supported | The browser's supported language. For example, `en-us`. |
 | linkName | linkName | Name of link. |
-| linkType | linkType | Type of link. Supported values include: `d: Download link`, `e: Exit link`, `o: Custom link`.
+| linkType | linkType | Type of link. Supported values include: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
 | listn For example, list2. | Not supported | A delimited list of values that are passed into a variable, then reported as individual line items for reporting. |
 | marketingCloudVisitorID | Not supported | Marketing Cloud ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) and the Marketing Cloud Visitor ID Service. |

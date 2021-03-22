@@ -1,6 +1,6 @@
 ---
 title: How to set user preferences in Analysis Workspace
-description: 
+description: You can set landing page and project references in one central location.
 ---
 
 # User preferences

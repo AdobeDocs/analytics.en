@@ -29,6 +29,7 @@ user-guide-description: Bring data into Analytics from outside sources, either i
     + [Transaction ID](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
     + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
     + [Full processing](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+    + [End of life for Full Processing](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
   + [Transaction and customer integration](c-data-sources/datasrc-integrating-offline-data.md)
   + [Transaction ID and visitor profiles](c-data-sources/datasrc-tid-visitor-profile.md)
   + [Data Sources FAQ](c-data-sources/datasrc-faq.md)

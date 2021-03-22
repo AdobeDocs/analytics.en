@@ -24,7 +24,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Event: Core – Library Loaded (Page Top)
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
-    * Action Type: Initialize getQueryParam
+    * Action Type: Initialize getPercentPageViewed
 1. Save and publish the changes to the rule.
 
 ## Install the plug-in using Launch custom code editor

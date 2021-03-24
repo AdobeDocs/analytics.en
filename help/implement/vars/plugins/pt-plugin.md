@@ -44,8 +44,8 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -67,7 +67,7 @@ Calling this method returns a value if the callback function (in the `cf` argume
 The following code is part of the getQueryParam plug-in.  It runs the getParameterValue helper function against each of the key-value pairs that are contained in the URL's querystring (fullQueryString).  In other to extract each key-value pair, the fullQueryString must be delimited and split out by an ampersand "&" character. The parameterKey refers to the query string parameter that the plug-in is specifically trying to extract from the query string
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 The above line is a shortcut for running code that resembles the following:
@@ -84,6 +84,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## Version History
+
+### 3.0 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 2.01 (September 24, 2019)
 

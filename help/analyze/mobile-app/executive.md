@@ -35,7 +35,7 @@ To use the dashboards effectively, you will need to have your Scorecard curator 
 
 ### Get access
 
-To access Scorecards on dashboards, ensure that: 
+To access Scorecards on dashboards, ensure that:
 
 * You have a valid login into Adobe Analytics
 * Your curator has correctly created mobile Scorecards and shared them with you
@@ -78,16 +78,16 @@ To use dashboards:
 
     * You can log into the right Analytics instance
     * The Scorecard has been shared with you
-    
+
     ![Nothing shared](assets/nothing.png)
 
-4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **[!UICONTROL Preferences]** below for more information). 
+4. Examine how the tiles appear in the Scorecard (the first Scorecard is shown in dark mode; see **[!UICONTROL Preferences]** below for more information).
 
     ![Tiles explained](assets/newexplain.png)
 
     Additional information on tiles:
 
-    * The granularity of the sparklines is dependent on the length of the date range: 
+    * The granularity of the sparklines is dependent on the length of the date range:
 
         * One day shows an hourly trend
         * More than one day and less than a year shows a daily trend
@@ -96,13 +96,13 @@ To use dashboards:
     * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
 
     * You can pull the screen down to refresh the Scorecard.
-    
+
     The following example Scorecard is shown in normal mode:
 
     ![Example Scorecard](assets/intro_scorecard.png)
 
 5. Tap a tile to see how a detailed breakdown for the tile works.
-    
+
     ![Breakdow view](assets/sparkline.png)
 
 
@@ -122,8 +122,8 @@ To use dashboards:
 
 9. To leave feedback on this app:
 
-    1. Tap the settings icon in the upper right of the app screen. 
-    2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option. 
+    1. Tap the settings icon in the upper right of the app screen.
+    2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
     3. Tap to view the options for leaving feedback.
 
         ![Settings screen](assets/settings.png)

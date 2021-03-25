@@ -111,7 +111,7 @@ To implement the Scorecard template:
 
     ![New score card](assets/new_score_card.png)
 
-   Each new scorecard starts with 8 date range combinations focusing on the data from today and yesterday. You can remove unnecessary date ranges by clicking on the x, or you can edit each date range combination by clicking the pencil.
+   Each new scorecard starts with 6 date range combinations focusing on the data from today and yesterday. You can remove unnecessary date ranges by clicking on the x, or you can edit each date range combination by clicking the pencil.
 
     ![New score card2](assets/new_score_card2.png)
 

@@ -5,7 +5,7 @@ description: You can set landing page and project references in one central loca
 
 # User preferences
 
-The [!UICONTROL Components] > [!UICONTROL User preferences] page lets you manage Analysis Workspace settings and its related components for your users. User preferences apply to all *new* projects or panels.
+The [!UICONTROL Components] > [!UICONTROL User preferences] page lets you manage settings for Analysis Workspace and its related components at the user-level. User preferences apply to all *new* projects or panels.
 
 ![User preferences](assets/user-preferences.png)
 

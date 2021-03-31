@@ -2,8 +2,9 @@
 description: Use alerts in Reports & Analytics.
 subtopic: Alerts
 title: Alerts
-topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Alerts
+role: "Business Practitioner, Administrator"
 ---
 
 # Alerts

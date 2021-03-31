@@ -2,6 +2,8 @@
 description: Factors that will impact Workspace performance and optimizations you can make
 title: Analysis Workspace performance factors and optimization
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
+feature: Workspace Basics
+role: "Business Practitioner, Administrator"
 ---
 
 # Optimize [!UICONTROL Analysis Workspace performance]

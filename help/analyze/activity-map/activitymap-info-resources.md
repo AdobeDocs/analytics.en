@@ -1,8 +1,9 @@
 ---
 description: Access additional information resources for Adobe Activity Map.
 title: Knowledge resources
-topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
+feature: Activity map
+role: "Business Practitioner, Administrator"
 ---
 
 # Knowledge resources

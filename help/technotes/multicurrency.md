@@ -1,7 +1,6 @@
 ---
 description: Describes how to define target currency codes for multi-currency support to work.
 title: Multi-currency support
-topic: 
 uuid: 
 ---
 

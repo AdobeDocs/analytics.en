@@ -2,6 +2,8 @@
 description: Keyboard interactions, shortcut keys and point-and-click behaviors available in Analysis Workspace.
 keywords: Analysis Workspace
 title: Hotkeys (shortcuts)
+feature: Workspace Basics
+role: "Business Practitioner, Administrator"
 ---
 
 # Hotkeys (shortcuts)

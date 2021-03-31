@@ -2,6 +2,8 @@
 description: Use Report Builder with Microsoft Power BI.
 title: Publish to Power BI - Overview
 uuid: ad688817-6e3c-45da-983d-48c123465309
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Publish to Power BI - Overview

@@ -2,6 +2,8 @@
 description: Use the flow visualization in a Workspace project.
 title: Flow settings
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
+feature: Visualizations
+role: "Business Practitioner, Administrator"
 ---
 
 # Flow settings

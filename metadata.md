@@ -12,7 +12,6 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: yes
-description: Includes repo-level metadata that passes through to user guide TOC.md files in the repo.
 ---
 
 # Metadata for internal use

@@ -2,6 +2,8 @@
 description: Row settings vary depending on which component you have dragged into the table.
 title: Row settings
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
+feature: Freeform Tables
+role: "Business Practitioner, Administrator"
 ---
 
 # Row settings

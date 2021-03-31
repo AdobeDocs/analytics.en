@@ -1,8 +1,9 @@
 ---
 description: You can schedule reports to send according to the time and file format that you define.
 title: Schedule a data request
-topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Schedule workbooks

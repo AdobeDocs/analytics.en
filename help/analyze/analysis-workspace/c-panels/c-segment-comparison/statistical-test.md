@@ -4,6 +4,7 @@ keywords: Analysis Workspace;Segment IQ
 title: Statistical tests used in segment comparison
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
+role: "Business Practitioner, Administrator"
 ---
 
 # Statistical tests used in segment comparison

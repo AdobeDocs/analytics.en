@@ -1,6 +1,8 @@
 ---
 title: Reports
 description: The dimensions and metrics that Reports & Analytics uses for each report.
+feature: Reports and analytics
+role: "Business Practitioner, Administrator"
 ---
 
 # Reports

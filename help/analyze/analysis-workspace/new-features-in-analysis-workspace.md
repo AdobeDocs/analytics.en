@@ -2,6 +2,8 @@
 description: New features in Analysis Workspace.
 keywords: Analysis Workspace
 title: What's New in Analysis Workspace
+feature: Workspace Basics
+role: "Business Practitioner, Administrator"
 ---
 
 # What's New in Analysis Workspace

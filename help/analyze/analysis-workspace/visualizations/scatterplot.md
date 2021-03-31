@@ -1,6 +1,8 @@
 ---
 title: Scatterplot
 description: A visualization that shows the relationship between up to three metrics.
+feature: Visualizations
+role: "Business Practitioner, Administrator"
 ---
 
 # Scatterplot

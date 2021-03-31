@@ -1,8 +1,9 @@
 ---
 description: Filters allow you to narrow the report to include or exclude line items that match a filter.
 title: Filtering Report Data
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Reports and analytics
+role: "Business Practitioner, Administrator"
 ---
 
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}

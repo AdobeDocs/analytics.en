@@ -1,8 +1,9 @@
 ---
 description: You can specify a complex date range by building a custom expression.
 title: Customized date expressions - overview
-topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Customized date expressions - overview

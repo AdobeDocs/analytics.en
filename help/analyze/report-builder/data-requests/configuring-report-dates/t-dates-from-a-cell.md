@@ -1,8 +1,9 @@
 ---
 description: You can specify a date range by selecting cells from a worksheet that contains a request. Report builder uses the specific date range information in those requests. If you select today's date, you see partial data based on the time of day the request runs.
 title: Dates from a cell
-topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Dates from a cell

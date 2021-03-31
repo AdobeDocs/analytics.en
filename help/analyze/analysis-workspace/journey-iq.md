@@ -1,6 +1,8 @@
 ---
 title: Journey IQ
 description: Understand the features that make up Journey IQ, a set of features that are a part of Adobe Analytics.
+feature: AI Tools
+role: "Business Practitioner, Administrator"
 ---
 
 # Journey IQ

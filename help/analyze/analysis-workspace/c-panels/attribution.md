@@ -1,6 +1,8 @@
 ---
 title: Attribution panel
 description: How to use and interpret the attribution panel in Analysis Workspace.
+feature: Attribution
+role: "Business Practitioner, Administrator"
 ---
 
 # Attribution panel

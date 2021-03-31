@@ -2,6 +2,8 @@
 description: Use the flow visualization in a Workspace project.
 title: Flow overview
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
+feature: Visualizations
+role: "Business Practitioner, Administrator"
 ---
 
 # Flow overview

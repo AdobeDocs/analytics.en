@@ -2,6 +2,8 @@
 description: View-only projects in Workspace
 keywords: View-only projects
 title: View-only projects
+feature: Curate and Share
+role: "Business Practitioner, Administrator"
 ---
 
 # View-only projects

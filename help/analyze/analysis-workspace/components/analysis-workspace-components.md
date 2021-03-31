@@ -1,6 +1,8 @@
 ---
 description: Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
 title: Components overview
+feature: Workspace Basics
+role: "Business Practitioner, Administrator"
 ---
 
 # Components overview

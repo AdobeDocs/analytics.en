@@ -1,8 +1,9 @@
 ---
 description: Steps on running the different report types.
 title: Run different report types
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
+feature: Reports and analytics
+role: "Business Practitioner, Administrator"
 ---
 
 # Run different report types

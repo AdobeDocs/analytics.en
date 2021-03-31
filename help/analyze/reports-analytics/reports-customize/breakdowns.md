@@ -1,8 +1,9 @@
 ---
 description: Use breakdowns when you want to know more about how a report item or segment relates to other reports. This is often called "breaking down" a report by another report.
 title: Breakdowns
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: Reports and analytics
+role: "Business Practitioner, Administrator"
 ---
 
 # Breakdowns

@@ -1,8 +1,9 @@
 ---
 description: Copy an entire spreadsheet in a source workbook to a spreadsheet in one or more target workbooks.
 title: Copy requests and worksheets between workbooks
-topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Copy requests and worksheets between workbooks

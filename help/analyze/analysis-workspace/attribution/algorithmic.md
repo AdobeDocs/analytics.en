@@ -1,6 +1,8 @@
 ---
 title: Algorithmic attribution
 description: Details on the algorithmic attribution model.
+feature: Attribution
+role: "Business Practitioner, Administrator"
 ---
 
 # Algorithmic attribution

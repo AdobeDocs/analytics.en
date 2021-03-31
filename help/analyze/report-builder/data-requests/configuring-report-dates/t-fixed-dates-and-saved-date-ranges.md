@@ -1,8 +1,9 @@
 ---
 description: When you specify a fixed date or date range, report builder displays the reporting calendar, which lets you select a date, a date range, or a preset date. You can also save a fixed date to use as a template, and specify whether the saved dates are available for the current report suite or for all report suites.
 title: Fixed dates and saved date ranges
-topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Fixed dates and saved date ranges

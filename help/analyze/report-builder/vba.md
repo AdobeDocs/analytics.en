@@ -1,6 +1,8 @@
 ---
 title: Visual Basic macros in Report Builder
 description: Expand the functionality of Excel workbooks and Report Builder using VBA.
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Visual Basic macros in Report Builder

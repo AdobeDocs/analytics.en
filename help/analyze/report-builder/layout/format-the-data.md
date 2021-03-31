@@ -1,8 +1,9 @@
 ---
 description: In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.
 title: Format the date
-topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Format the date

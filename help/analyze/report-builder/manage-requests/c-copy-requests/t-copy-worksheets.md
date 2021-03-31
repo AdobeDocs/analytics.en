@@ -1,8 +1,9 @@
 ---
 description: Copy one spreadsheet to another in the same workbook.
 title: Copy worksheets
-topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Copy worksheets

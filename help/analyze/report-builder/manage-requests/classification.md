@@ -1,8 +1,9 @@
 ---
 description: Classification breakdowns are used to map analytics reporting data to related properties. Classifications can be used for a variety of purposes but are most commonly used for classifying campaign tracking codes (both internal and external) and product IDs.
 title: Classification
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Classifications

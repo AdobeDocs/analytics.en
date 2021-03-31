@@ -2,6 +2,8 @@
 description: If you want to import Analytics data manually through Power BI, follow these instructions.
 title: Manually import data to Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Manually import data to Power BI

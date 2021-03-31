@@ -1,6 +1,7 @@
 ---
 title: How to set user preferences in Analysis Workspace
-description: You can set landing page and project references in one central location.
+feature: Workspace Basics
+role: "Business Practitioner, Administrator"
 ---
 
 # User preferences

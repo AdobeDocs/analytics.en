@@ -1,8 +1,9 @@
 ---
 description: This ability further integrates Report Builder usage within the natural Excel workflow, without requiring you to access the Report Builder user interface.
 title: Invoke Report Builder functionality from Microsoft Excel functions
-topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
+feature: Report builder
+role: "Business Practitioner, Administrator"
 ---
 
 # Invoke Report Builder functionality from Microsoft Excel functions

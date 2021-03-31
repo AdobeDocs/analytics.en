@@ -1,8 +1,9 @@
 ---
 description: You can create more than one copy of an original request by filling a selected area of cells with as many copies of the request that will fit.
 title: Create more than one copy of a request
-topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Create more than one copy of a request

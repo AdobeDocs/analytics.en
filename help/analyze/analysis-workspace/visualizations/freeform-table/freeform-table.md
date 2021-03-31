@@ -1,6 +1,8 @@
 ---
 title: Freeform table
 description: Freeform tables are the foundation for data analysis in Workspace
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 ---
 
 # Freeform table

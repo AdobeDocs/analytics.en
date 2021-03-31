@@ -1,8 +1,9 @@
 ---
 description: Filters that apply specific dimension terms.
 title: Specific filters
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Specific filters

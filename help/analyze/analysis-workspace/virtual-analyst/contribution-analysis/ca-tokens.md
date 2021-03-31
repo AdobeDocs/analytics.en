@@ -2,6 +2,8 @@
 description: Use Contribution Analysis to identify statistical anomalies and correlations in data.
 title: Contribution Analysis overview
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
+feature: AI Tools
+role: Business Practitioner, Administrator
 ---
 
 # Contribution Analysis overview

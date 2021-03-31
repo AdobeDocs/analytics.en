@@ -2,6 +2,8 @@
 description: You can view and analyze data anomalies contextually, within Analysis Workspace.
 title: Anomaly Detection overview
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
+feature: AI Tools
+role: Business Practitioner, Administrator
 ---
 
 # Anomaly Detection overview

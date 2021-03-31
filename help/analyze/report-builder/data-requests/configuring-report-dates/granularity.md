@@ -1,8 +1,9 @@
 ---
 description: On the Request Wizard  Step 1, you can apply a level of granularity to the data request. Granularity specifies the level of time-based detail that is included in the report.
 title: Granularity
-topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Granularity

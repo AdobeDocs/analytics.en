@@ -2,6 +2,8 @@
 description: A comparison table for Analytics reporting APIs. Links to supporting documentation are provided.
 title: Analytics Reporting API Comparison
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
+feature: API
+role: Developer
 ---
 
 # Analytics Reporting API Comparison

@@ -1,6 +1,8 @@
 ---
 title: Labs User Guide
 description: Preview prototype projects for Adobe Analytics
+feature: Labs
+role: Administrator
 ---
 
 

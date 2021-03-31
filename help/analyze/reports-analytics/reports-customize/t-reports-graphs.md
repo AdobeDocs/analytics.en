@@ -1,8 +1,9 @@
 ---
 description: Steps that describe how to customize the graph so that it is most useful for the intended audience.
 title: Change report graphs
-topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
 ---
 
 # Change report graphs

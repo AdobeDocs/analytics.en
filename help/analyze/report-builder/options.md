@@ -1,8 +1,9 @@
 ---
 description: On the Options panel, you can specify the date settings, latency settings (Current Data), log information, and configure updates.
 title: Report Builder options
-topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Report Builder options

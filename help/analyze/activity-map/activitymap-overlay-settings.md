@@ -1,8 +1,9 @@
 ---
 description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
 title: Configure Activity Map settings
-topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Configure Activity Map settings

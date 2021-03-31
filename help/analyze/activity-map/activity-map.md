@@ -1,8 +1,9 @@
 ---
 description: Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
 title: Activity Map overview
-topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Activity Map overview

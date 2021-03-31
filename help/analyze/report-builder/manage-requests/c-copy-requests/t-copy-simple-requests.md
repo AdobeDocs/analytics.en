@@ -1,8 +1,9 @@
 ---
 description: Copy a simple request rather than a referential request. A simple request is one that contains no references to another request or the contents of a cell.
 title: Copy simple requests
-topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Copy simple requests

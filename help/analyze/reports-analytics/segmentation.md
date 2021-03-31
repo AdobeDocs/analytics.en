@@ -1,8 +1,9 @@
 ---
 description: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors.
 title: Analytics Segmentation
-topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
+feature: Reports
+role: Business Practitioner, Administrator
 ---
 
 # Analytics Segmentation{#analytics-segmentation}

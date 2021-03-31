@@ -1,6 +1,6 @@
 ---
 title: clearVars
-description: Clear variable values from the tracking object.
+description: Clears the following values from the instance object. This function removes the elements (sets them as "undefined.")
 ---
 
 # clearVars

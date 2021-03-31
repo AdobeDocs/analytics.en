@@ -1,6 +1,8 @@
 ---
 description: How Workspace totals are calculated.
 title: Workspace totals
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 ---
 
 # Workspace totals

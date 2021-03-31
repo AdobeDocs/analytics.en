@@ -1,6 +1,8 @@
 ---
 title: Report Builder FAQ
 description: Frequently asked questions for Report Builder.
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Report Builder FAQ

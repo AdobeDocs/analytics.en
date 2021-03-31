@@ -2,8 +2,9 @@
 description: The Include Current Data option in Reports & Analytics lets you view the latest Analytics data, often before data is fully processed and finalized. Current data displays most metrics within minutes, providing actionable data for quick decision making.
 subtopic: Current Data
 title: Current Data
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
 ---
 
 # Current Data

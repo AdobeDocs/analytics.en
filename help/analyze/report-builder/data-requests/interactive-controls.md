@@ -1,8 +1,9 @@
 ---
 description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
 title: Interactive controls
-topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Interactive controls

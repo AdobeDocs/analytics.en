@@ -2,8 +2,9 @@
 description: Learn the basics of working in a Workspace project.
 keywords: Analysis Workspace
 title: Projects overview
-topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 ---
 
 # Projects overview

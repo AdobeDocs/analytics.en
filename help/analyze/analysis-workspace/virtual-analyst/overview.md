@@ -1,6 +1,8 @@
 ---
 title: Virtual Analyst
 description: Learn what features in Adobe Analytics contribute to the Virtual Analyst.
+feature: AI Tools
+role: Business Practitioner, Administrator
 ---
 
 # Virtual Analyst

@@ -1,8 +1,9 @@
 ---
 description: Two important considerations when using the Customize Expression to set the date range 
 title: Customized Date Considerations
-topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Customized Date Considerations

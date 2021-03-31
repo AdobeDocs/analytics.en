@@ -1,6 +1,8 @@
 ---
 description: Learn about the different save options, including autosave, save as, and save as template.
 title: Save projects
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 ---
 # Save projects
 

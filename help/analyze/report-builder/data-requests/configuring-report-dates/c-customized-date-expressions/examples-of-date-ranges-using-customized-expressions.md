@@ -1,8 +1,9 @@
 ---
 description: Examples, notes, and syntax notes about using date ranges in customized expressions.
 title: Examples of date ranges using customized expressions
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Examples of date ranges using customized expressions

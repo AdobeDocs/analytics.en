@@ -2,6 +2,7 @@
 description: Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
 title: Customer attributes
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
+role: Business Practitioner, Administrator
 ---
 
 # Customer attributes

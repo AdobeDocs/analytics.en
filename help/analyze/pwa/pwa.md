@@ -1,6 +1,7 @@
 ---
 title: PWAs for Analytics
 description: Progressive web apps for Adobe Analytics
+role: Business Practitioner, Administrator
 ---
 
 # PWAs for Adobe Analytics

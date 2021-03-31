@@ -1,6 +1,7 @@
 ---
 description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-title: Full processing option for Data Sources
+title: Full processing
+topic: Developer and implementation
 ---
 
 # Full processing

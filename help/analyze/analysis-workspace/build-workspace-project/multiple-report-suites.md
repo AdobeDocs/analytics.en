@@ -1,6 +1,8 @@
 ---
 title: Multiple report suites
 description: Learn how and why to create projects in Workspace with multiple report suites
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 ---
 
 # Multiple report suites

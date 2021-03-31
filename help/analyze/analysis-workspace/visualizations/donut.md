@@ -2,7 +2,7 @@
 description: Use the donut visualization in a Workspace project.
 title: Donut
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Donut

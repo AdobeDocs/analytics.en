@@ -3,7 +3,7 @@ description: Fallout in Analysis Workspace lets you to mix and match dimensions 
 title: Inter-dimensional fallout
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Inter-dimensional fallout

@@ -2,7 +2,7 @@
 description: Instructions for using the dashboards scorecards.
 title: Adobe Analytics dashboards executive guide
 feature: Analytics Dashboards
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Adobe Analytics dashboards: executive user quick start guide

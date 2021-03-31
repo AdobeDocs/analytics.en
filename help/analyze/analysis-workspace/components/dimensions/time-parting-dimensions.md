@@ -3,7 +3,7 @@ description: Time parting takes the timestamp of collected hits and breaks it in
 title: Time-parting dimensions
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Time-parting dimensions

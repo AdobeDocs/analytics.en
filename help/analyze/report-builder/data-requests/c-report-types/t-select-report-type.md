@@ -2,8 +2,8 @@
 description: Steps to select the base report type for your data request.
 title: Select a report type
 uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Select a report type

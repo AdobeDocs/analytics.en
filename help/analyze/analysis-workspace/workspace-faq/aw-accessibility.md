@@ -2,7 +2,7 @@
 description: Accessibility support features in Analysis Workspace
 title: Accessibility in Analysis Workspace
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Accessibility in Analysis Workspace

@@ -2,8 +2,8 @@
 description: Activity Map provides two basic modes to provide complementary reporting of page activity.
 title: Standard Mode vs. Live Mode
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Standard Mode vs. Live Mode

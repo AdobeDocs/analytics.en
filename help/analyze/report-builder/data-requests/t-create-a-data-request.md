@@ -2,8 +2,8 @@
 description: Steps to create a basic Report Builder data request.
 title: Create a data request
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Create a Report Builder data request

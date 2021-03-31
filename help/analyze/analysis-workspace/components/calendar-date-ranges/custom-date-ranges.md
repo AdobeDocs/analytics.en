@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Create custom date ranges
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Create custom date ranges

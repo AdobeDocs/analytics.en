@@ -2,8 +2,8 @@
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
 title: Most popular filtering
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Most popular filtering

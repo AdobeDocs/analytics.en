@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: Dashboard Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Dashboard Manager

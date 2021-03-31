@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Alerts
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Alerts

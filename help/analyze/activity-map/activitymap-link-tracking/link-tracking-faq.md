@@ -2,8 +2,8 @@
 description: Frequently asked questions about link tracking in Activity Map.
 title: Link tracking FAQ
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Link tracking FAQ

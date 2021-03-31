@@ -2,8 +2,8 @@
 description: Describes the steps involved in applying filters to a fallout report.
 title: Filter a Fallout Report Using the Request Wizard
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Filter a Fallout Report Using the Request Wizard

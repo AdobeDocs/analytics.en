@@ -2,7 +2,7 @@
 title: Reporting best practices and troubleshooting
 description: Best practices and troubleshooting tips when generating reports.
 keywords: best practices;failure;timeout;troubleshooting;slow
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Reporting best practices and troubleshooting

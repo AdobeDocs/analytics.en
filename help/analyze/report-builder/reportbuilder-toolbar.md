@@ -2,8 +2,8 @@
 description: Information to help you understand the function of the buttons on the Report Builder toolbar.
 title: Report Builder toolbar
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Report Builder toolbar

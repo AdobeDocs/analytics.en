@@ -3,8 +3,8 @@ description: Bookmarks give you access to the reports that you use the most. The
 subtopic: Bookmarks
 title: Bookmark Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Reports and analytics
-role: "Business Practitioner, Administrator"
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
 ---
 
 # Bookmark Manager

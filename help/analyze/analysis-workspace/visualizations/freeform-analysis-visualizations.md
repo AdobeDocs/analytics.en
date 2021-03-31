@@ -3,7 +3,7 @@ description: Visually represent your data with visualizations.
 keywords: Analysis Workspace
 title: Visualizations overview
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Visualizations overview

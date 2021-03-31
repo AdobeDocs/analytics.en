@@ -2,8 +2,8 @@
 description: After creating reports with embedded requests, you can apply conditional formatting to cells of the workbook.
 title: Specify conditional formatting
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Specify conditional formatting

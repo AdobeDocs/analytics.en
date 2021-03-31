@@ -2,8 +2,8 @@
 description: An introduction to commonly used web analytics terms used in marketing reports.
 title: Common Terms
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: "Reports,Reports and analytics"
-role: "Business Practitioner, Administrator"
+feature: Reports,Reports and analytics
+role: Business Practitioner, Administrator
 ---
 
 # Common Terms

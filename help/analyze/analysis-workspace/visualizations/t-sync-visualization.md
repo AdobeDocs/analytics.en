@@ -3,7 +3,7 @@ description: Synchronizing visualizations lets you control which data table or d
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Manage data sources
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Manage data sources

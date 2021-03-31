@@ -3,7 +3,7 @@ description: Column settings let you configure column formatting, some of which 
 title: Column settings
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # [!UICONTROL Column Settings]

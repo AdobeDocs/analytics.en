@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Break down dimensions
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Break down dimensions

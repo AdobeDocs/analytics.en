@@ -4,7 +4,7 @@ keywords: fallout and segmentation;segments in fallout analysis;compare segments
 title: Apply segments in fallout analysis
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Apply segments in fallout analysis

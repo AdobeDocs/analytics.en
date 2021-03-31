@@ -3,8 +3,8 @@ description: Information about scheduling, downloading and distributing reports.
 subtopic: Schedule
 title: Report schedule and distribution
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: "Reports,Reports and analytics"
-role: "Business Practitioner, Administrator"
+feature: Reports,Reports and analytics
+role: Business Practitioner, Administrator
 ---
 
 # Report schedule and distribution

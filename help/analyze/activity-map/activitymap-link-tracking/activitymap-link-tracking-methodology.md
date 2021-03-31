@@ -2,8 +2,8 @@
 description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
 title: Link tracking methodology
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Link tracking methodology

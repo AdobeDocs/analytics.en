@@ -2,7 +2,7 @@
 description: Learn how to adjust the view density.
 title: View Density
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # View Density

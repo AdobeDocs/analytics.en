@@ -2,8 +2,8 @@
 description: Diagnostic messages provide you information about the status of the request when you refresh it.
 title: Diagnostic messages
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Diagnostic messages

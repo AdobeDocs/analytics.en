@@ -2,7 +2,7 @@
 description: Learn about freeform panels
 title: Freeform panel
 feature: Panels
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Freeform panel

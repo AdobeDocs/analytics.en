@@ -2,8 +2,8 @@
 description: Common issues when using Report Builder with Power BI.
 title: Troubleshooting Power BI integration
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Troubleshooting Power BI integration

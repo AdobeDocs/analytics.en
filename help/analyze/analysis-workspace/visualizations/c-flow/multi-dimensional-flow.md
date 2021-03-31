@@ -3,7 +3,7 @@ description: An inter-dimensional flow lets you examine user paths across variou
 title: Inter-dimensional flows
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Inter-dimensional flows

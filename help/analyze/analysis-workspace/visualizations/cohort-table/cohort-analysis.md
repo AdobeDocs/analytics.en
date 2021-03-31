@@ -2,7 +2,7 @@
 title: What is Cohort Analysis and how does it work?
 description: Dig deeper into the data around your audience and break into related groups with Cohort Analysis. Learn about cohort analysis in Analysis Workspace.
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Learn about [!UICONTROL Cohort Analysis] in Adobe Analytics

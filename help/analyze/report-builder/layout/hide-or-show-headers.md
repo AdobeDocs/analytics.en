@@ -2,8 +2,8 @@
 description: This procedure describes how to hide or show headers.
 title: Hide or show headers
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Hide or show headers

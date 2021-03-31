@@ -2,8 +2,8 @@
 description: Download and edit shared workbooks.
 title: Download a workbook
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Download a workbook

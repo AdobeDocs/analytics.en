@@ -2,7 +2,7 @@
 title: Attribution overview
 description: The concept of attributing credit of a success event to multiple dimension items.
 feature: Attribution
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Attribution overview

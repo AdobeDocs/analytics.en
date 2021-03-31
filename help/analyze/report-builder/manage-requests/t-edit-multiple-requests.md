@@ -2,8 +2,8 @@
 description: You can change several requests at the same time, based on the request's report suite, granularity, and date range.
 title: Edit multiple requests
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Edit multiple requests

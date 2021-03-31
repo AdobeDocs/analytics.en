@@ -2,8 +2,8 @@
 description: Activity Map tracks links with a more robust algorithm that 
 title: Robust link tracking
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Robust link tracking

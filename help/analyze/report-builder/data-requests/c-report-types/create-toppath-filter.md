@@ -2,8 +2,8 @@
 description: Describes how to create path reports with predefined filters.
 title: Filter Path Reports by Adding Dependent Requests
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Filter Path Reports by Adding Dependent Requests

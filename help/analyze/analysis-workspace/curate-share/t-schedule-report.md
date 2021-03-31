@@ -3,7 +3,7 @@ description: Send an Analysis Workspace project via email or schedule it for del
 keywords: Analysis Workspace
 title: Schedule projects
 feature: Curate and Share
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Schedule projects

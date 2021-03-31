@@ -2,8 +2,8 @@
 description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
 title: Launch Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Launch Activity Map{#launch-activity-map}

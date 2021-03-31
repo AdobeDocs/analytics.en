@@ -1,7 +1,7 @@
 ---
 title: How to set user preferences in Analysis Workspace
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # User preferences

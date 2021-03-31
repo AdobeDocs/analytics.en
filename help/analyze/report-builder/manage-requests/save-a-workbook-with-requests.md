@@ -2,8 +2,8 @@
 description: After creating reports with embedded requests, you can save them by clicking File > Save or File > Save As in Excel. Report builder detects whether the report contains requests. When you click on either of these save options, the Save Workbook As form is displayed.
 title: Save a workbook with requests
 uuid: 31611031-0982-4124-9fc7-7888124aa603
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Save a workbook with requests

@@ -2,7 +2,7 @@
 description: A panel is a collection of tables and visualizations
 title: Panels overview
 feature: Panels
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Panels overview

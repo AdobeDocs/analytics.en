@@ -2,8 +2,8 @@
 description: Frequently asked questions for setting up, configuring, and employing features in Activity Map.
 title: Activity Map FAQ
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Activity Map FAQ

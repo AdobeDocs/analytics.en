@@ -2,7 +2,7 @@
 description: List of error messages in Adobe Analysis Workspace and its related components
 title: Common error messages in Analysis Workspace
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Common error messages

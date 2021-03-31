@@ -2,8 +2,8 @@
 description: Steps that describe how to install Report Builder.
 title: Install Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Install Report Builder

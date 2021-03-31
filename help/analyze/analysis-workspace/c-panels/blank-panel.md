@@ -2,7 +2,7 @@
 description: Create a blank panel as a starting point for any visualization.
 title: Blank panel
 feature: Panels
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Blank panel

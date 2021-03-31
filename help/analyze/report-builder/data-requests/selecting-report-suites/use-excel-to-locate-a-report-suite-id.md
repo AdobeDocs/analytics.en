@@ -2,8 +2,8 @@
 description: If you do not know a report suite's ID, you can drag and drop the value in the Report Suite field in the Report Suite menu to a cell in your Excel workbook.
 title: Use Excel to locate a report suite ID
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Use Excel to locate a report suite ID

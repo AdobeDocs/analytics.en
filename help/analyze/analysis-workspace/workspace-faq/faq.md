@@ -2,7 +2,7 @@
 description: Workspace FAQs
 title: Frequently asked questions and troubleshooting Workspace
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Frequently asked questions

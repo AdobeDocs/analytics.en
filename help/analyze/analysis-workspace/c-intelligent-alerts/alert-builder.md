@@ -3,7 +3,7 @@ description: Get alerts when project components reach certain thresholds.
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 feature: AI Tools
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Alert Builder

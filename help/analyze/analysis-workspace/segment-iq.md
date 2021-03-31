@@ -3,7 +3,7 @@ title: Segment IQ Overview
 description: Learn about what Adobe Analytics Segment IQ is and how it can help your organization.
 keywords: Analysis Workspace;Segment IQ
 feature: AI Tools
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Segment IQ Overview

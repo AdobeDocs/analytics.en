@@ -2,8 +2,8 @@
 description: Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
 title: Customizable overlays
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Customizable overlays

@@ -2,8 +2,8 @@
 description: Offline mode returns placeholder data to speed up the process of creating and editing requests.
 title: Offline mode for creating and editing requests
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Offline mode for creating and editing requests

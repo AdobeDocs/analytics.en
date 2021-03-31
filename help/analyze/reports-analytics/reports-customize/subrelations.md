@@ -2,8 +2,8 @@
 description: Full subrelations are enabled on all conversion reports, so you can break down any eVar by another eVar. The Breakdown By menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
 title: Subrelations
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports and analytics
-role: "Business Practitioner, Administrator"
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
 ---
 
 # Subrelations

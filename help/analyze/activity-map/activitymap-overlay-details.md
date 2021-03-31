@@ -2,8 +2,8 @@
 description: Overlay details are shown when you hover on top of a link overlay.
 title: Overlay details
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Overlay details

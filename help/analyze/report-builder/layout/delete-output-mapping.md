@@ -2,8 +2,8 @@
 description: If you are editing your workbook and want to make room for new requests, you might need to delete requests.
 title: Delete output mapping
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Delete output mapping

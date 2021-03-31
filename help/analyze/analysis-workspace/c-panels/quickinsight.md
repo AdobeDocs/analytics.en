@@ -2,7 +2,7 @@
 description: Quick Insights is a tool for new Workspace users that guides them in building data tables and visualizations
 title: Quick Insights panel
 feature: Panels
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Quick Insights panel

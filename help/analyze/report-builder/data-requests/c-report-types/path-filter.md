@@ -2,8 +2,8 @@
 description: Describes the steps involved in applying filters to a pathing report.
 title: Filter a Path Report Using the Request Wizard
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Filter a Path Report Using the Request Wizard

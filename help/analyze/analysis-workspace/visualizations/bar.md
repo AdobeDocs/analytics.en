@@ -3,7 +3,7 @@ description: Use the bar visualization in a Workspace project.
 title: Bar and bar stacked
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Bar and bar stacked

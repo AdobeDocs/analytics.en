@@ -2,7 +2,7 @@
 title: Attribution FAQ
 description: Get answers to commonly asked questions around attribution.
 feature: Attribution
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Attribution FAQ

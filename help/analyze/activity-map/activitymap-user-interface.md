@@ -2,8 +2,8 @@
 description: The Activity Map UI is comprised of two parts 
 title: Activity Map user interface
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Activity Map user interface

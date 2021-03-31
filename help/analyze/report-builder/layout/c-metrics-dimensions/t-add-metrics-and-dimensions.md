@@ -2,8 +2,8 @@
 description: Steps to add metrics and dimensions to a request.
 title: Add metrics and dimensions
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Add metrics and dimensions

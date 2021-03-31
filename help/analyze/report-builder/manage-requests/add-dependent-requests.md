@@ -2,8 +2,8 @@
 description: A dependent request is a request that is dependent upon an existing request.
 title: Add dependent requests
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Add dependent requests

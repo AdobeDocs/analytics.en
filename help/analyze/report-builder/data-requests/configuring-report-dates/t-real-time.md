@@ -2,8 +2,8 @@
 description: Steps that describe how to configure real-time request dates.
 title: Configure a real-time request
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Configure a real-time request

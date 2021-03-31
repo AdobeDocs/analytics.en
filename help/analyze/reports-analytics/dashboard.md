@@ -3,7 +3,7 @@ description: A dashboard is a collection of thumbnail reports called reportlets.
 subtopic: Dashboards
 title: Dashboards and reportlets
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Dashboards and reportlets

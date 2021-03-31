@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Run a cohort analysis report
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 feature: Visualizations
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Configure a [!UICONTROL Cohort Analysis] report

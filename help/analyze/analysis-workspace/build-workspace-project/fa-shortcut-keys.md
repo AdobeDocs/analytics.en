@@ -3,7 +3,7 @@ description: Keyboard interactions, shortcut keys and point-and-click behaviors 
 keywords: Analysis Workspace
 title: Hotkeys (shortcuts)
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Hotkeys (shortcuts)

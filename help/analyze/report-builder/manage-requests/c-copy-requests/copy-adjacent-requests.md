@@ -2,8 +2,8 @@
 description: In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
 title: Copy adjacent requests
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Copy adjacent requests

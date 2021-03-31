@@ -3,7 +3,7 @@ description: There are two ways to use metrics in Analysis Workspace.
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Metrics

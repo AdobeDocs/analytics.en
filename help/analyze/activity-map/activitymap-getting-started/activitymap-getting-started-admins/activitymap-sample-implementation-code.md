@@ -1,8 +1,8 @@
 ---
 description: Example of how the AppMeasurement library and the Activity Map module are combined in the Adobe Analytics implementation code
 title: View sample Activity Map implementation code
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Sample implementation code{#sample-implementation-code}

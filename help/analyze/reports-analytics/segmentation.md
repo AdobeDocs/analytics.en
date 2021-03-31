@@ -3,7 +3,7 @@ description: Segments are custom subsets of data, or data filtered by rules that
 title: Analytics Segmentation
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
 feature: Reports
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Analytics Segmentation{#analytics-segmentation}

@@ -2,8 +2,8 @@
 description: In Standard Mode, export Analytics data from Activity Map to a Comma Separated Values (CSV) file.
 title: Export to CSV file
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-feature: Activity map
-role: "Business Practitioner, Administrator"
+feature: Activity Map
+role: Business Practitioner, Administrator
 ---
 
 # Export to CSV file

@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Projects overview
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Projects overview

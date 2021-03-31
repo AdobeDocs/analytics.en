@@ -2,8 +2,8 @@
 description: Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
 title: Real-time reports
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
-feature: Report builder
-role: "Business Practitioner, Administrator"
+feature: Report Builder
+role: Business Practitioner, Administrator
 ---
 
 # Real-time reports

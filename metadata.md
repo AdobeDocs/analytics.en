@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: analytics 
 solution: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.en

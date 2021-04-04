@@ -1,8 +1,8 @@
 ---
 title: How to set up an Advertising Account in Advertising Analytics
 description: Lets you create new advertising accounts and map multiple accounts to multiple report suites.
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 ---
-
 # Set up an Advertising Account
 
 Adobe Analytics Administrators can create new advertising accounts and map multiple accounts to multiple report suites (1:1, 1:Many, Many:Many).
@@ -85,4 +85,3 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 >[!NOTE]
 >
 >You should expect to wait at least 24 hours before Search engine data starts populating your Analytics reports.
-

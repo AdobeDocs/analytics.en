@@ -4,8 +4,8 @@ title: Upgrade Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 ---
-
 # Upgrade Report Builder
 
 Steps for and considerations regarding upgrading Report Builder.
@@ -52,4 +52,3 @@ You can always get the latest version of Report Builder from Adobe Analytics.
 1. Click **[!UICONTROL Report Builder]**.
 1. On the **[!UICONTROL Overview]** screen, select the 32-bit or 64-bit version.
 1. Click **[!UICONTROL Download Now!]**.
-

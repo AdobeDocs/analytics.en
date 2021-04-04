@@ -2,8 +2,8 @@
 description: Use the Kampyle data connector with Adobe Analytics.
 title: Using the Integration
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
+exl-id: e8d63d19-99c3-4cfa-b922-12b9977a2559
 ---
-
 # Using the Integration{#using-the-integration}
 
 Once deployed, you can begin using the additional capabilities that this integration provides. The following are actions to take to get value from this integration from within Adobe Analytics.

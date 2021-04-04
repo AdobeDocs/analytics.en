@@ -4,8 +4,8 @@ title: Troubleshooting Power BI integration
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
 ---
-
 # Troubleshooting Power BI integration
 
 Research and resolve common issues when using Report Builder with Power BI.

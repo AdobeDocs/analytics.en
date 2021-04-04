@@ -2,8 +2,8 @@
 description: Deploying this integration is a simple process that requires the following actions.
 title: Deploying the Integration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
+exl-id: 8d96e942-f9ae-4e96-9a38-e1d41784b5f3
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Deploying this integration is a simple process that requires the following actions.

@@ -4,8 +4,8 @@ title: Page details
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
 ---
-
 # Page details
 
 The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
@@ -32,4 +32,3 @@ The Page Flow Report is available only in Standard Mode.
 |  Previous Pages  | Names the internal page in the report suite before the current page.  |
 |  Next Pages  | The page visited after leaving the current page.  |
 |  Site Exits  | Number who left the site completely after viewing the page.  |
-

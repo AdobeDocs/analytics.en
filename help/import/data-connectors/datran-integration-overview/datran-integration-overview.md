@@ -2,8 +2,8 @@
 description: This Adobe® Data Connectors email integration combines behavioral information from Adobe Analytics® with Datran email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
 title: Datran Data Connector for Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
+exl-id: f98ba45f-8455-411a-a770-bc45ac2ce7f9
 ---
-
 # Datran Data Connector for Adobe Analytics {#datran-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

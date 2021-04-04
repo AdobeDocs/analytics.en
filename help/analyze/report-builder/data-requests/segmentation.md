@@ -4,8 +4,8 @@ title: Manage segments
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 ---
-
 # Manage segments
 
 How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
@@ -119,4 +119,3 @@ Report Builder 5.4 lets you add, remove, replace, and replace all segment(s) wit
    |  Replace Segment(s)  | Lets you choose which segment/s to replace with one or more segment/s.  |
    |  Replace All Segments by  | Lets you choose one or more segments to replace the current segment/s with.  |
    |  Remove Segment(s)  | Lets you remove segments from the requests.  |
-

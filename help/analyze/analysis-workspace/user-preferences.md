@@ -2,8 +2,8 @@
 title: How to set user preferences in Analysis Workspace
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 ---
-
 # User preferences
 
 The [!UICONTROL Components] > [!UICONTROL User preferences] page lets you manage settings for Analysis Workspace and its related components at the user-level. User preferences apply to all *new* projects or panels.

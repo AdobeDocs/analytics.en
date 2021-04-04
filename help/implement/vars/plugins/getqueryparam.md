@@ -1,8 +1,8 @@
 ---
 title: getQueryParam
 description: Extract the value of a URL's query string parameter.
+exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 ---
-
 # Adobe plug-in: getQueryParam
 
 >[!IMPORTANT]

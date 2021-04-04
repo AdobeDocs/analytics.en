@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;rev
 solution: Experience Cloud,Analytics,Target
 title: FAQs about the Adobe Analytics Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
+exl-id: 833f5d3b-1207-4547-9f8b-d92783d46bd9
 ---
-
 # FAQs about the Adobe Analytics Tool
 
 A FAQ about the automatic configuration of the Adobe Analytics deployment. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
@@ -53,4 +53,3 @@ To avoid these issues, ensure that:
 * Report suite IDs in the tool match the IDs in the [!DNL AppMeasurement] code.
 * The currency code, character set, tracking server, and SSL tracking server configuration fields are correctly set with supported values.
 * Custom code is defined in [!DNL Library Management].
-

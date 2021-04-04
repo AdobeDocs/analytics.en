@@ -4,8 +4,8 @@ title: Activity Map overview
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 ---
-
 # Activity Map overview
 
 >[!NOTE]
@@ -48,4 +48,3 @@ Activity Map lets you set up different views to visually identify the accelerati
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
 * [Knowledge resources](activitymap-info-resources.md)
-

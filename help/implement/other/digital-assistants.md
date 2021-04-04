@@ -1,8 +1,8 @@
 ---
 title: Implement Analytics for Digital Assistants
 description: Implement Adobe Analytics on Digital Assistants, such as Amazon Alexa or Google Home.
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 ---
-
 # Implement Analytics for digital assistants
 
 With recent advances in cloud computing, machine learning, and natural language processing, digital assistants are becoming a part of everyday life. Consumers are starting to talk to their devices and expecting them to understand and respond in human-like ways. As these platforms become more established, brands can present their services to consumers in these same realistic and lifelike ways. For example, consumers can ask things like:

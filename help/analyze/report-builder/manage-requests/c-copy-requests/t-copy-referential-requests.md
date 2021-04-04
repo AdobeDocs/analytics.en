@@ -4,8 +4,8 @@ title: Copy referential requests
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
 ---
-
 # Copy referential requests
 
 A referential request uses values from cells as input for parameters, such as a data filter or relational filter.

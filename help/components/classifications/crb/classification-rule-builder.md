@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Classification Rule Builder workflow
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 ---
-
 # Classification Rule Builder workflow
 
 Rather than maintaining and uploading classifications each time your tracking codes change, you can create automatic, rule-based classifications and apply them across multiple report suites. Rules are processed at frequent intervals, depending on your volume of classification related traffic.

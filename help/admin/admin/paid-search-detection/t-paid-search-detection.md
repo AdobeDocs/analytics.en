@@ -3,8 +3,8 @@ description: Steps that describe how to configure Paid Search Detection.
 title: Configure paid search detection
 topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
+exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 ---
-
 # Configure paid search detection
 
 Steps that describe how to configure Paid Search Detection.
@@ -16,4 +16,3 @@ Steps that describe how to configure Paid Search Detection.
 1. Click **[!UICONTROL Add]**.
 
 The [!UICONTROL Current Paid Search Detection Rules] list displays current paid search detection rules.
-

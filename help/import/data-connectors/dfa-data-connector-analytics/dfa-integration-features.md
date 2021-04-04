@@ -4,8 +4,8 @@ keywords: DFA
 title: Integration Features
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 ---
-
 # Integration Features{#integration-features}
 
 Once activated, the Data Connectors DFA integration provides the following metrics for your Adobe Analytics reports:
@@ -56,4 +56,3 @@ If **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA deduplication]** is selecte
 >[!NOTE]
 >
 >If SearchCenter > DFA de-duplication is enabled and the SearchCenter query string parameter is set, the visit will not be considered for DFA processing. This means that the SearchCenter query string parameter should be different from the DFA click-through parameter, and no Display ads should set the SearchCenter query string parameter.
-

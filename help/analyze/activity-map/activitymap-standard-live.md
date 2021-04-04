@@ -4,8 +4,8 @@ title: Standard Mode vs. Live Mode
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
 ---
-
 # Standard Mode vs. Live Mode
 
 Activity Map provides two basic modes to provide complementary reporting of page activity.
@@ -38,4 +38,3 @@ Live mode responds to the needs of publishing organizations. These organizations
 >Virtual Report Suites are not compatible with Live Mode, only with Standard Mode.
 
 ![](assets/live_mode.png)
-

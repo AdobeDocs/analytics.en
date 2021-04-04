@@ -3,8 +3,8 @@ description: Example of how the AppMeasurement library and the Activity Map modu
 title: View sample Activity Map implementation code
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
 ---
-
 # Sample implementation code{#sample-implementation-code}
 
 ## Sample AppMeasurement.js file
@@ -72,4 +72,3 @@ function AppMeasurement(){var a=this;a.version=
 ...
 
 ```
-

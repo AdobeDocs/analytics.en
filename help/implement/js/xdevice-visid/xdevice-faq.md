@@ -1,8 +1,8 @@
 ---
 title: Cross-device visitor identification FAQ
 description: Frequently asked questions for cross-device visitor identification
+exl-id: da972fee-fe6e-45b2-af01-50674989c375
 ---
-
 # Cross-device visitor identifcation FAQ
 
 Frequently asked questions for cross-device visitor identification.

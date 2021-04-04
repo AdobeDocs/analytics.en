@@ -3,8 +3,8 @@ description: Workspace FAQs
 title: Frequently asked questions and troubleshooting Workspace
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 ---
-
 # Frequently asked questions
 
 | Question | Answer |

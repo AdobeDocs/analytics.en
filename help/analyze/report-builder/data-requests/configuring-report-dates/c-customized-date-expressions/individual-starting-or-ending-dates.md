@@ -4,8 +4,8 @@ title: Individual starting or ending dates
 uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 0ae7887f-29bf-4565-9ca0-20b77a3a70cb
 ---
-
 # Individual starting or ending dates
 
 Abbreviations for starting and ending dates.

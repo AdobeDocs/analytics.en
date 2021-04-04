@@ -4,8 +4,8 @@ title: Upload a workbook
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
 ---
-
 # Upload a workbook
 
 Upload a Report Builder Excel workbook that you want to share.

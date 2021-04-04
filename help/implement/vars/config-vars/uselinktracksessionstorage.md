@@ -1,8 +1,8 @@
 ---
 title: useLinkTrackSessionStorage
 description: Store link tracking data in session storage instead of a cookie.
+exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 ---
-
 # useLinkTrackSessionStorage
 
 If your organization uses link tracking, AppMeasurement uses the `s_sq` cookie to pass information between hits. Some website configurations conflict with this cookie. If you would like to use browser session storage for link tracking and Activity Map data instead of a cookie, enable this variable.

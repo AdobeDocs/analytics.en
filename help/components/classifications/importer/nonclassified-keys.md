@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Non-classified keys
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
+exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 ---
-
 # Non-classified keys
 
 Non-classified keys are grouped together in classification reports as a single line item labeled None. It can be useful to rename None to something more descriptive.

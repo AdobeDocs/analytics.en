@@ -1,8 +1,8 @@
 ---
 title: trackOffline
 description: Enable or disable offline tracking, which changes how AppMeasurement collects data.
+exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 ---
-
 # trackOffline
 
 Offline tracking is an optional way to collect data in Adobe Analytics. If a visitor disconnects from the internet but continues to browse your site, hits are stored in an offline queue until the device reconnects to the internet. Offline tracking is mostly used for mobile applications.

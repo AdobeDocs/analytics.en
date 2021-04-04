@@ -2,8 +2,8 @@
 title: Technical documentation updates for Adobe Analytics
 description: Notable updates to the Adobe Analytics documentation repository.
 short-title: Analytics documentation updates
+exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 ---
-
 # Technical documentation updates for Adobe Analytics
 
 Content updates for the Adobe Analytics documentation set since January, 2019.

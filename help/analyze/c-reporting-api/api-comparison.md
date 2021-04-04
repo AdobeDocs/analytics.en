@@ -4,8 +4,8 @@ title: Analytics Reporting API Comparison
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
 ---
-
 # Analytics Reporting API Comparison
 
 A comparison table for Analytics reporting APIs. Links to supporting documentation are provided.
@@ -88,4 +88,3 @@ A comparison table for Analytics reporting APIs. Links to supporting documentati
 
 * [Adobe/IO](https://www.adobe.io/) - A comprehensive source for the technical documentation and tools needed to integrate Adobe technologies into your applications.
 * [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-

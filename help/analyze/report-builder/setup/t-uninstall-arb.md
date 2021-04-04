@@ -4,8 +4,8 @@ title: Uninstall Report Builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 ---
-
 # Uninstall Report Builder
 
 Steps that describe how to uninstall Adobe Report Builder.

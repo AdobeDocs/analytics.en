@@ -4,8 +4,8 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Manage data sources
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 ---
-
 # Manage data sources
 
 Synchronizing visualizations lets you control which data table or data source corresponds to a visualization.

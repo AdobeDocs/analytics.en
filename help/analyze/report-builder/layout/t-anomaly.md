@@ -4,8 +4,8 @@ title: Configure an anomaly detection request
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 ---
-
 # Configure an anomaly detection request
 
 Steps that describe how to create an anomaly detection request in report builder.

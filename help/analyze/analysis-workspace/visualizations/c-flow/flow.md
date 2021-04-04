@@ -4,8 +4,8 @@ title: Flow overview
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 ---
-
 # Flow overview
 
 The flow feature shows customer paths through your websites and apps.

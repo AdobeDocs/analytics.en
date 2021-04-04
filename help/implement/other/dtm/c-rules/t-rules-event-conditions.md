@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target
 title: Create conditions for event-based rules
 uuid: a847391c-5aec-4d64-8a35-388587731598
+exl-id: b2873d9a-0d57-4cac-b2d4-3c50d8b18cce
 ---
-
 # Create conditions for event-based rules
 
 Conditions determine when an event-based rule is triggered.

@@ -1,8 +1,8 @@
 ---
 title: list
 description: Custom variables that hold multiple values in the same hit.
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 ---
-
 # list
 
 List variables are custom variables that you can use however you'd like. They work similarly to eVars, except they can contain multiple values in the same hit. List variables do not have a character limit.

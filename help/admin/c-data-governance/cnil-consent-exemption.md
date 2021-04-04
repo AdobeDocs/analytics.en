@@ -1,8 +1,8 @@
 ---
 description: Learn about the guidelines and recommendations for users' consent to store or read non-essential cookies on devices or browsers.
 title: What are the CNIL guidelines for user's consent and cookies
+exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 ---
-
 # CNIL Consent Exemption
 
 On October 1, 2020, the French Data Protection Authority (the “CNIL”) published a revised version of its cookie guidelines (the “Guidelines”) and its final recommendations on obtaining users’ consent to store or read non-essential cookies and similar technologies on users’ devices or browsers (the “Recommendations”).

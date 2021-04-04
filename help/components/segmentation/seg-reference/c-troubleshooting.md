@@ -2,8 +2,8 @@
 description: Troubleshoot and fix issues related to segments.
 title: Segmentation Troubleshooting
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 ---
-
 # Segmentation Troubleshooting
 
 ## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
@@ -40,4 +40,3 @@ Possible reasons:
 * Rules/Operators are incorrect for the required result.
 * Incorrect application of containers to the segment.
 * Traffic variables used to segment are not set properly or are expired.
-

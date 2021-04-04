@@ -4,8 +4,8 @@ title: Format display headers
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 ---
-
 # Format display headers
 
 You can name your report and configure how to display row and column headers. The Format Options link is available for the Pivot and Custom Layout types.

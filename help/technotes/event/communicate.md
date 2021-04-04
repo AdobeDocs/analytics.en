@@ -1,8 +1,8 @@
 ---
 title: Communicate impact to users
 description: Learn effective ways to communicate the impact of an event in your organization.
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 ---
-
 # Communicate event impact to users
 
 If you have data [impacted by an event](overview.md), it is important to communicate that event to users in your organization.

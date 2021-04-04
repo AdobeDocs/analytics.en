@@ -3,8 +3,8 @@ description: Data that is collected from web sites, mobile apps, or is uploaded 
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics Data Feed overview
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 ---
-
 # Analytics Data Feed overview
 
 Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw data can be used in other platforms outside of Adobe to use at your organization's discretion. Data is delivered in hourly batches at the conclusion of each hour, or in daily batches at the conclusion of each day.

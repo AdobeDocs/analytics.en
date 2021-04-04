@@ -4,8 +4,8 @@ title: Real-time reports
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 ---
-
 # Real-time reports
 
 Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.

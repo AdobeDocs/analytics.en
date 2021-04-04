@@ -2,8 +2,8 @@
 description: Manage alerts.
 title: Alert Manager
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 ---
-
 # Alert Manager
 
  ![](assets/alert-manager.png)
@@ -27,4 +27,3 @@ The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > *
 * Specify/change the owner of an alert.
 * Add other filters.
 * Define an alert **expiration date**.
-

@@ -2,8 +2,8 @@
 description: Use the Kampyle data connector with Adobe Analytics.
 title: Kampyle Data Connector for Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
+exl-id: 620c9c65-4416-4ec5-b20a-27d2cfe51cad
 ---
-
 # Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

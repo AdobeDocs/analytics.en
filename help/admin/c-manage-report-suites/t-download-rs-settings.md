@@ -3,8 +3,8 @@ description: Steps that describe how to generate an Excel spreadsheet containing
 title: Download report suite settings
 topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
+exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 ---
-
 # Download report suite settings
 
 Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.

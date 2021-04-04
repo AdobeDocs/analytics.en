@@ -2,8 +2,8 @@
 description: The data connectors Integration Wizard steps you through the data connectors integration process.
 title: Configure the Integration
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
 ---
-
 # Configure the Integration{#configure-the-integration}
 
 The data connectors Integration Wizard steps you through the data connectors integration process.

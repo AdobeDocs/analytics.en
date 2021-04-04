@@ -3,8 +3,8 @@ description: You can create a new report suite by selecting a pre-defined templa
 title: New report suite - settings
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 ---
-
 # New report suite - settings
 
 You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
@@ -61,4 +61,3 @@ Descriptions of the elements used when [creating a report suite](/help/admin/c-m
   </tr>  
  </tbody> 
 </table>
-

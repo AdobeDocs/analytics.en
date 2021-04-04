@@ -4,8 +4,8 @@ keywords: Analysis Workspace
 title: What's New in Analysis Workspace
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 ---
-
 # What's New in Analysis Workspace
 
 For access to the Adobe Experience Cloud Release Notes as a whole, go [here](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).

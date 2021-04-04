@@ -1,8 +1,8 @@
 ---
 title: Classifications overview
 description: Customize the grouping of dimension items.
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 ---
-
 # Classifications overview
 
 A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
@@ -55,4 +55,3 @@ The following table describes the different types of classifications that are av
   </tr> 
  </tbody> 
 </table>
-

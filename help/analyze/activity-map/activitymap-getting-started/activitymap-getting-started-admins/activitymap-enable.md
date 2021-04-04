@@ -4,8 +4,8 @@ title: Enable Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 ---
-
 # Enable Activity Map{#enable-activity-map}
 
 Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.

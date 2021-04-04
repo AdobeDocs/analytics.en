@@ -3,8 +3,8 @@ description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metr
 title: Calculated Metrics
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 ---
-
 # Calculated Metrics
 
 Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
@@ -42,4 +42,3 @@ Available filters include:
 After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. The selected metric(s) are now added to the report layout.
 
 ![](assets/filtering_for_metric.png)
-

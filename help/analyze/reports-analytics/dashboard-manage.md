@@ -5,8 +5,8 @@ title: Dashboard Manager
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports
 role: Business Practitioner, Administrator
+exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 ---
-
 # Dashboard Manager
 
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.

@@ -2,8 +2,8 @@
 description: Use cases around Advertising Analytics.
 title: Audience Analytics use cases
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 ---
-
 # Audience Analytics use cases
 
 ## Ad Sales and Content Decisions {#section_A7A001BCC6874961A8B0A70503D6B00D}

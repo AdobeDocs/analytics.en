@@ -2,8 +2,8 @@
 description: Before activating this integration, review the following items against your deployments of Adobe Analytics® and your email software.
 title: Before You Activate This Integration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
+exl-id: 45edce73-dd10-49ec-b1f9-c8d19253d261
 ---
-
 # Before You Activate This Integration {#before-you-activate-this-integration}
 
 Before activating this integration, review the following items against your deployments of Adobe Analytics® and your email software.

@@ -4,8 +4,8 @@ title: Format the date
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 ---
-
 # Format the date
 
 In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.

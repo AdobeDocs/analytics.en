@@ -1,8 +1,8 @@
 ---
 title: Regions
 description: The geographic region of the visitor.
+exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 ---
-
 # Regions
 
 The 'Regions' dimension reports the geographic region of the visitor. It is a geographic area that is smaller than a country but larger than a city. In some countries, a region is a state, province, or prefecture. In other areas, it is a constituent country, department, or metropolitan region. Using this dimension is valuable if you want insight more granular than [Countries](countries.md) but not as granular as [Cities](cities.md).

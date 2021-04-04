@@ -4,8 +4,8 @@ title: Date abbreviations
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
 ---
-
 # Date abbreviations
 
 Time abbreviations refer to a particular date when a period begins, not a range of days. A range of days is expressed by specifying a start and an end date for two time abbreviations (or terms).

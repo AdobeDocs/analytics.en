@@ -1,8 +1,8 @@
 ---
 title: Map XDM data to Analytics manually
-description: Manually map XDM data from Experience Platform to Adobe Analytics 
+description: Manually map XDM data from Experience Platform to Adobe Analytics
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 ---
-
 # Map XDM data to Analytics manually
 
 The Adobe Experience Platform (AEP) Web SDK includes aids for helping you to manually map data between the Platform and Analytics.
@@ -76,4 +76,4 @@ alloy("event",{
 });
 ```
 
-For more information on tracking events with the AEP Web SDK, see [Tracking events](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html). 
+For more information on tracking events with the AEP Web SDK, see [Tracking events](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).

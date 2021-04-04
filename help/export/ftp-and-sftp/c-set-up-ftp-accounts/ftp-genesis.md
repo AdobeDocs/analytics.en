@@ -2,8 +2,8 @@
 description: When you create an integration with an Adobe partner using data connectors, Adobe can push re-marketing or other data to an FTP account, which you or the partner can download.
 keywords: ftp;sftp
 title: Data Connectors
+exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
 ---
-
 # Data Connectors
 
 >[!IMPORTANT]

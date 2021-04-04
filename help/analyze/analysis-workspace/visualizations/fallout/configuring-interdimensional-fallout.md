@@ -4,8 +4,8 @@ title: Inter-dimensional fallout
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 ---
-
 # Inter-dimensional fallout
 
 Fallout in Analysis Workspace lets you to mix and match dimensions and metrics as touchpoints in funnels and workflows. This gives you more flexibility in defining the user steps you want to investigate.
@@ -23,4 +23,3 @@ You can also add metrics to this mix. In this example, we have added the metric 
 In addition, you can combine different dimensions and metrics into AND checkpoints. Just drag another dimension or metric on top of an existing one:
 
 ![](assets/interdimensional-fallout3.png)
-

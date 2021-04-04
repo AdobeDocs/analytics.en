@@ -1,8 +1,8 @@
 ---
 title: maxDelay
 description: Determine the maximum amount of time that AppMeasurement waits for a response from DFA before sending an image request.
+exl-id: 154f7e34-39e7-4390-ae36-d4fbc998787f
 ---
-
 # maxDelay
 
 The `s.maxDelay` variable is used in the DFA data connector to determine the timeout period in contacting the DFA host. If Adobe does not receive a response from DFA's servers within the specified period set in this variable, the connection is severed, and data is processed normally. Include this variable in your implementation if you are concerned with DFA's response time on each page. Adobe recommends experimenting with this value to determine the optimum timeout period.

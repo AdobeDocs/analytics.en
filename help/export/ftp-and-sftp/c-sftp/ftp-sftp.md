@@ -3,8 +3,8 @@ description: SFTP is a secure protocol for transferring data that ensures that n
 keywords: ftp;sftp
 title: Secure File Transfer Protocol - overview
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 ---
-
 # Secure File Transfer Protocol - overview
 
 SFTP is a secure protocol for transferring data that ensures that nobody can see your data but you. Adobe Engineering Services can set up an SFTP account to securely retain your data.
@@ -28,4 +28,3 @@ This means that the file is sent to one of Adobe's servers using normal FTP. If 
 * [Connect to Adobe via SFTP without a password.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md) 
 * [Connect to an Adobe FTP Account with SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md) 
 * You can push any reports you want to Adobe's FTP-like data feeds/R&A/Ad Hoc, and so on and then Pull them off. Adobe cannot deliver these reports to the SFTP server you have set up.
-

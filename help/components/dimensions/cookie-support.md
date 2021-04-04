@@ -1,8 +1,8 @@
 ---
 title: Cookie support
 description: Determines if the browser supports cookies.
+exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
 ---
-
 # Cookie Support
 
 The 'Cookie support' dimension reports if the browser supports cookies for a given hit. It is useful to determine the ratio of visitors who use browsers that support cookies, and those who intentionally disable them.

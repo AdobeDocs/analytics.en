@@ -2,8 +2,8 @@
 title: trackInlineStats
 description: Enable or disable Activity map in your implementation.
 keywords: disable activity map
+exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 ---
-
 # trackInlineStats
 
 Activity map is a feature in Adobe Analytics that collects data on where visitors click and what they click on. You can view this data in Analytics reports, or by using a browser extension overlay. Enable this variable if you would like to use Activity map features.

@@ -4,8 +4,8 @@ title: Schedule a data request
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 ---
-
 # Schedule workbooks
 
 You can schedule workbooks, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure workbooks that you want to send at a specific time or in intervals. You can also specify the file format in which to send the workbook.
@@ -75,4 +75,3 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-

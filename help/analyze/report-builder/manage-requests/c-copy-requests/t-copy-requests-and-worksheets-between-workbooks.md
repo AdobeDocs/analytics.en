@@ -4,8 +4,8 @@ title: Copy requests and worksheets between workbooks
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
 ---
-
 # Copy requests and worksheets between workbooks
 
 Copy an entire spreadsheet in a source workbook to a spreadsheet in one or more target workbooks.

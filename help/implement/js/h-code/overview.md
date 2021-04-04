@@ -1,8 +1,8 @@
 ---
 title: H Code JavaScript implementation overview
 description: Learn the workflow to implement H Code on your site.
+exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 ---
-
 # H Code JavaScript implementation overview
 
 >[!IMPORTANT]

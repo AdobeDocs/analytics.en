@@ -1,8 +1,8 @@
 ---
 title: Page
 description: The name of the page.
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
 ---
-
 # Page
 
 The 'Page' dimension lists the names of pages on your site. It is one of the most common dimensions used in Adobe Analytics, as it provides insight on which pages on your site perform the best.

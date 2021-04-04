@@ -2,8 +2,8 @@
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 title: Logs
 topic: Admin tools
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 ---
-
 # Logs
 
 Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
@@ -82,4 +82,3 @@ Tools that can modify a report suite from outside the [!UICONTROL Admin Tools] i
 |  IP  | Filter the log by an IP address.  |
 |  Event  | Filter the log by a word or phrase in the event description.  |
 |  Download Report  | Exports the contents of the [!UICONTROL Usage & Access Log] to a tab-delimited file.  |
-

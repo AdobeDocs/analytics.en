@@ -1,8 +1,8 @@
 ---
 title: AppMeasurement for JavaScript
 description: Learn how to implement Adobe Analytics using JavaScript without a tag management system.
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 ---
-
 # AppMeasurement for JavaScript
 
 AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [Adobe Experience Platform Launch](../launch/overview.md) is recommended.

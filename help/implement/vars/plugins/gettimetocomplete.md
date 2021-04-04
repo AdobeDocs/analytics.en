@@ -1,8 +1,8 @@
 ---
 title: getTimeToComplete
 description: Measure the amount of time taken to complete a task.
+exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 ---
-
 # Adobe plug-in: getTimeToComplete
 
 >[!IMPORTANT]

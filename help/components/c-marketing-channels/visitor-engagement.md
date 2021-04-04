@@ -4,8 +4,8 @@ subtopic: Marketing channels
 title: Marketing channel expiration
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 ---
-
 # Marketing channel expiration
 
 Learn how to specify the expiration, or visitor engagement period, for Marketing Channels.
@@ -41,4 +41,3 @@ Specify the visitor engagement period.
 
 3. Configure the visitor engagement period fields.
 4. Click **[!UICONTROL Save.]**
-

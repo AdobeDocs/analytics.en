@@ -3,8 +3,8 @@ description: Settings that define how all reports appear and information that ap
 title: Report display settings and navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
-
 # Report display settings and navigation
 
 Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
@@ -142,4 +142,3 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Custom Reports** |  |  |
 |   | Custom reports show up only of you have any set up.  | Custom Reports  |
 |   |  |  |
-

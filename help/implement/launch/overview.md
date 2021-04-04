@@ -1,8 +1,8 @@
 ---
 title: Implement with Launch overview
 description: Learn how to implement Adobe Analytics using Adobe Experience Platform Launch
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 ---
-
 # Implement with Launch overview
 
 Through the lifetime of Adobe Analytics, Adobe has offered several different methods to implement code on your site for data collection. Adobe's current recommend method is through Adobe Experience Platform Launch.

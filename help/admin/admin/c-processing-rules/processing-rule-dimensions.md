@@ -4,8 +4,8 @@ subtopic: Processing rules
 title: Dimensions available to processing rules
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 ---
-
 # Dimensions available to processing rules
 
 The dimensions that you can read and write (unless otherwise noted) using processing rules.
@@ -212,4 +212,3 @@ Processing rules can set events but cannot read them as conditions.
   </tr> 
  </tbody> 
 </table>
-

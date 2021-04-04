@@ -4,8 +4,8 @@ title: Edit multiple requests
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 ---
-
 # Edit multiple requests
 
 You can change several requests at the same time, based on the request's report suite, granularity, and date range.

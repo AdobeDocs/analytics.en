@@ -5,8 +5,8 @@ title: Report schedule and distribution
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports,Reports and analytics
 role: Business Practitioner, Administrator
+exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 ---
-
 # Report schedule and distribution
 
 Information about scheduling, downloading and distributing reports.
@@ -138,4 +138,4 @@ To unsubscribe from a scheduled report:
 
 Unsubscribing from a report does not cancel the scheduled report.
 
-To cancel a scheduled report, navigate to the Schedule Manager and click on the red X next to the report name. [More...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC) 
+To cancel a scheduled report, navigate to the Schedule Manager and click on the red X next to the report name. [More...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)

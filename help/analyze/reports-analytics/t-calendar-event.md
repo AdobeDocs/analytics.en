@@ -4,8 +4,8 @@ title: Calendar events
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: Business Practitioner, Administrator
+exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
 ---
-
 # Calendar events
 
 Steps to add calendar events, and to manage shared events.
@@ -38,4 +38,3 @@ For reports trended over time, you can graphically display events and see whethe
        |---|---|
        | **On Report** | Lets you see changes/updates made by the event owner. |
        | **Unshare** | Removes this event from your list of shared events. |
-

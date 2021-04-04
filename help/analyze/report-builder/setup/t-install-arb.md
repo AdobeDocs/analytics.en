@@ -4,8 +4,8 @@ title: Install Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 ---
-
 # Install Report Builder
 
 Steps that describe how to install Report Builder.

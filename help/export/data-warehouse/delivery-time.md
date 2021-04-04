@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot Data Warehouse request delivery times
 description: Determine potential issues with a Data Warehouse request that can prolong delivery times.
+exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
 ---
-
 # Troubleshoot Data Warehouse request delivery times
 
 A given Data Warehouse request can take anywhere from less than an hour to several days or more. It is difficult to estimate the exact amount of time it takes for a request to process, due to the following factors:

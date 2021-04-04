@@ -4,8 +4,8 @@ subtopic: Processing rules
 title: Create processing rules
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
+exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 ---
-
 # Create processing rules
 
 Processing rules are set on report suites.

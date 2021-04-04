@@ -2,8 +2,8 @@
 description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
 title: Analytics Variables
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
+exl-id: a59216f2-047b-429b-8714-a2bdaa271911
 ---
-
 # Analytics Variables{#analytics-variables}
 
 The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
@@ -66,4 +66,3 @@ After identifying the Event and eVars to use with the emarsys integration, enabl
   </tr> 
  </tbody> 
 </table>
-

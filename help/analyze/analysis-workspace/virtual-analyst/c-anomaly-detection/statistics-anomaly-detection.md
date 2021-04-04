@@ -3,8 +3,8 @@ description: Data inconsistencies can cause big problems. Learn how to identify 
 title: Statistical techniques used in anomaly detection
 feature: AI Tools
 role: Business Practitioner, Administrator
+exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 ---
-
 # Statistical techniques used in anomaly detection
 
 Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.

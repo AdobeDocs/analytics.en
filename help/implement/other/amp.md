@@ -1,8 +1,8 @@
 ---
 title: Implementing with AMP
 description: Implement Adobe Analytics on AMP pages.
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 ---
-
 # Implementing with AMP
 
 [AMP](https://amp.dev) is an open-source HTML framework that provides a straightforward way to create fast and smooth-loading web pages.

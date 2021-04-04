@@ -4,8 +4,8 @@ title: Import bookmarked reports and dashboard reportlets
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
 ---
-
 # Import bookmarked reports and dashboard reportlets
 
 All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
@@ -33,4 +33,3 @@ The imported bookmarklet will properly set the report suite, selected segment, d
 >[!IMPORTANT]
 >
 >The date range will be set to the same date range, but as a static date range - even if this date range was a rolling date range in the Reports & Analytics bookmark.
-

@@ -2,8 +2,8 @@
 description: Create a basic container for data collection in Adobe Analytics
 title: Create a report suite
 topic: Admin tools
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 ---
-
 # Create a report suite
 
 A report suite is a silo of data that Adobe Analytics uses to pull reports. An organization can have many report suites, each containing different data sets. While separate report suites were important in the past, having a single report suite has become more advantageous. The introduction of [virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) and report time processing allows admins to create your own subsets of data, allowing the flexibility to obtain both global and site-specific data.

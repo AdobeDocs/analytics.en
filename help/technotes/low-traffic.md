@@ -3,8 +3,8 @@ description: When a report has a large number of unique values, Adobe provides f
 title: Low-traffic value in Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
-
 # Low-traffic value in Adobe Analytics
 
 When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.

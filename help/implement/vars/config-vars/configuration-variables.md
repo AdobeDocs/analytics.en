@@ -1,8 +1,8 @@
 ---
 title: Configuration variables
 description: Use configuration variables to help determine how data is collected.
+exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 ---
-
 # Configuration variables overview
 
 Configuration variables control the way data is captured and processed in reporting. They do not typically contain dimension or metric values.

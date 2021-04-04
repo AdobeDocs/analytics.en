@@ -4,8 +4,8 @@ title: Download a workbook
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 ---
-
 # Download a workbook
 
 Download and edit shared workbooks.

@@ -4,8 +4,8 @@ title: Activity Map reporting in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 ---
-
 # Activity Map reporting in Analytics
 
 Describes how to set permissions and which dimensions are available in Analytics.
@@ -34,4 +34,3 @@ You can [customize user access to dimensions](https://docs.adobe.com/content/hel
 * In Reports & Analytics, navigate to **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
 
 * To look at a link and region for a specific page, all you need to do is create a breakdown from the desired Activity Map page into the Activity Map Links & Region.
-

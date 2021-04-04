@@ -1,8 +1,8 @@
 ---
 title: Referring domain
 description: The overarching domain a visitor was on before clicking through to your site.
+exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 ---
-
 # Referring domain
 
 The 'Referring domain' dimension reports which domains visitors click through to reach your site. This dimension is useful to understand which third-party sites drive the most traffic to yours. A link must exist on the external site and a visitor must click it in order for the dimension item to show up.

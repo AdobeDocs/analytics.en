@@ -1,8 +1,8 @@
 ---
 title: hier
 description: Implement hierarchy variables in Adobe Analytics.
+exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 ---
-
 # hier
 
 Hierarchy variables are custom variables that let you see a site's structure.

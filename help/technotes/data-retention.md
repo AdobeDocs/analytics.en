@@ -1,8 +1,8 @@
 ---
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
+exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 ---
-
 # Data retention policy
 
 Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy. This policy applies to the data itself, which means that it affects all Analytics reporting capabilities (Analysis Workspace, reporting API, etc).

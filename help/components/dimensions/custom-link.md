@@ -1,8 +1,8 @@
 ---
 title: Custom link
 description: The name of the custom link.
+exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 ---
-
 # Custom link
 
 The 'Custom link' dimension reports the names of custom links implemented on your site. This dimension is valuable when you want to understand the types of links visitors click the most.

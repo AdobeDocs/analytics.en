@@ -4,8 +4,8 @@ title: Preview dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
 ---
-
 # Preview dimensions
 
 Hover over the information (i) icon next to a dimension. This shows the top 5 values for non-time dimensions (and 15 for time dimensions). We used to keep those values static (i.e., the 5 values picked never changed).

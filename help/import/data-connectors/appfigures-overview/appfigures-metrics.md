@@ -2,8 +2,8 @@
 description: The following metrics are synchronized as part of the appFigures integration.
 title: Metrics and Dimensions
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
+exl-id: c32f1cd9-93fe-4091-994f-5e796162e02b
 ---
-
 # Metrics and Dimensions{#metrics-and-dimensions}
 
 The following metrics are synchronized as part of the appFigures integration.

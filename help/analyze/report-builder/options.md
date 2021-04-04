@@ -4,8 +4,8 @@ title: Report Builder options
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 ---
-
 # Report Builder options
 
 On the Options panel, you can specify the date settings, latency settings (Current Data), log information, and configure updates.

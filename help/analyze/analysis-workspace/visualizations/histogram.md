@@ -4,8 +4,8 @@ title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
-
 # Histogram
 
 A histogram is similar to a bar chart, but it groups numbers into ranges (buckets). Analytics automates the "bucketing" of numbers into ranges, but you can change the settings in [Advanced Settings](#section_09D774C584864D4CA6B5672DC2927477).

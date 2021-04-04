@@ -1,8 +1,8 @@
 ---
 title: Implement Analytics for Mobile Devices
 description: Determine which mobile AppMeasurement library to use.
+exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 ---
-
 # Implement Analytics for Mobile Devices
 
 To implement Analytics for mobile devices, refer to the following SDK repositories and documentation:

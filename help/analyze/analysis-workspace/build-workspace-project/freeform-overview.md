@@ -5,8 +5,8 @@ title: Projects overview
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 ---
-
 # Projects overview
 
 Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects.  

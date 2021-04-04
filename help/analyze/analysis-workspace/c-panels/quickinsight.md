@@ -3,8 +3,8 @@ description: Quick Insights is a tool for new Workspace users that guides them i
 title: Quick Insights panel
 feature: Panels
 role: Business Practitioner, Administrator
+exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 ---
-
 # Quick Insights panel
 
 [!UICONTROL Quick Insights] provides guidance for non-analysts and new users of [!UICONTROL Analysis Workspace] to learn how to answer business questions quickly and easily. It is also a great tool for advanced users who want to answer a simple question quickly without having to build a table themselves.
@@ -99,4 +99,3 @@ You will get a warning before adding anything directly to the table:
  ![](assets/qibuilder8.png)
 
 Otherwise, building directly will cause the table to now behave as a traditional Freeform table, without the helpful features for new users.
-

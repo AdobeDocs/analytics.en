@@ -4,8 +4,8 @@ title: Limitations and specifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 ---
-
 # Limitations and specifications
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
@@ -65,4 +65,3 @@ Keep in mind that
 * The label cannot be a combination of letters and numbers that could be mistaken for a row and column address. For example, A100 cannot be a label because it is the address of a cell in a worksheet.
 * The following characters are not valid label characters: '#', '@', '!', '$', '^', '&', '&#42;', '`', '~', ' ' . They will be replaced by an underscore character.
 * When you enter an invalid name, a warning message will be shown that will suggest an auto-generated name. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
-

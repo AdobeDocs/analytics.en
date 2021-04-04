@@ -1,9 +1,8 @@
 ---
 title: Adobe Analytics technical documentation guides
 description: Analytics user guides and resources
-
+exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
 ---
-
 # Adobe Analytics Documentation
 
 Welcome to the Adobe Analytics product and technical documentation home page. Here you can find self-help and support information for reporting tools like [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]. You can also access documentation for product and user administration, implementation, and all the features supported in Adobe Analytics.

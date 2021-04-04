@@ -3,8 +3,8 @@ description: Not all segments created in the Segment Builder are compatible with
 title: Data Warehouse Segment Compatibility
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
+exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 ---
-
 # Data Warehouse Segment Compatibility
 
 Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
@@ -94,4 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
-*Note: Data Warehouse does not support all cases of using an `exclusion` or `without` container when using `AND/OR`. When using such a combination, only those segments that can be re-written as `A AND NOT B`, (or **include this characteristic** and **exclude this characteristic**) are supported in Data Warehouse.* 
+*Note: Data Warehouse does not support all cases of using an `exclusion` or `without` container when using `AND/OR`. When using such a combination, only those segments that can be re-written as `A AND NOT B`, (or **include this characteristic** and **exclude this characteristic**) are supported in Data Warehouse.*

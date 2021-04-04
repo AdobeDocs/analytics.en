@@ -1,8 +1,8 @@
 ---
 title: getPageName
 description: Create an easy-to-read pageName from the current website path.
+exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 ---
-
 # Adobe plug-in: getPageName
 
 >[!IMPORTANT]

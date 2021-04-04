@@ -4,8 +4,8 @@ title: Common Terms
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Reports,Reports and analytics
 role: Business Practitioner, Administrator
+exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 ---
-
 # Common Terms
 
 An introduction to commonly used Adobe Analytics terms used.
@@ -64,4 +64,3 @@ An introduction to commonly used Adobe Analytics terms used.
   </tr> 
  </tbody> 
 </table>
-

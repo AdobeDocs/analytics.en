@@ -1,8 +1,8 @@
 ---
 title: events
 description: Set the events variable, which governs most metrics on your site.
+exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 ---
-
 # events
 
 Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site. Events typically increment [metrics](/help/components/metrics/overview.md) in reports.

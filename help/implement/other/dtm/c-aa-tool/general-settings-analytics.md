@@ -4,8 +4,8 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
+exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 ---
-
 # General
 
 Field descriptions for the General settings in DTM, for deploying Adobe Analytics.
@@ -56,4 +56,3 @@ Field descriptions for the General settings in DTM, for deploying Adobe Analytic
   </tr> 
  </tbody> 
 </table>
-

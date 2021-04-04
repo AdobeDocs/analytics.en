@@ -1,8 +1,8 @@
 ---
 title: Identified state
 description: A flag determining recognition by the device graph.
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 ---
-
 # Identified state
 
 The 'Identified state' dimension is specific to [Cross-Device Analytics](../cda/overview.md) virtual report suites. It reports if the Experience Cloud ID is recognized by the device graph at the time the report is run. This dimension is helpful in understanding how well CDA stitches or "compresses" data.

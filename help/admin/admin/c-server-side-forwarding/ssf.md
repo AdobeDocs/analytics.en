@@ -3,8 +3,8 @@ description: Server-side forwarding is designed for customers who want to share 
 solution: Audience Manager
 title: Server-side forwarding overview
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 ---
-
 # Server-side forwarding overview
 
 Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
@@ -65,4 +65,3 @@ Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**)
 >[!NOTE]
 >
 >Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html) or [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
-

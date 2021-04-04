@@ -1,8 +1,8 @@
 ---
 description: Import tracking data from third-party applications into Analytics.
 title: Getting Started with Analytics data connectors
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 ---
-
 # Overview of data connectors
 
 Adobe provides organizations with actionable, real-time intelligence regarding their digital strategies and marketing initiatives. Data connectors let you import tracking data from third-party applications into Analytics, so you can gather and use data from one central location. If you use one of the partner products, you can create an integration that imports the application data into marketing reports. Once integrated, you can generate reports that include data from your application.

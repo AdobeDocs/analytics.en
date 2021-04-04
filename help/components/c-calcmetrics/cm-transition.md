@@ -2,8 +2,8 @@
 description: These changes to the way calculated metrics work in Analytics may impact you.
 title: Frequently Asked Questions
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
+exl-id: a7c075c2-c9d3-41be-a27c-cb63ee573674
 ---
-
 # Frequently Asked Questions
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.

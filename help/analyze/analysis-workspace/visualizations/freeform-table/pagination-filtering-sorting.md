@@ -4,8 +4,8 @@ title: Pagination, filtering and sorting tables
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: Freeform Tables
 role: Business Practitioner, Administrator
+exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 ---
-
 # Pagination, filtering and sorting tables
 
 For an overview, watch this video tutorial:
@@ -29,4 +29,3 @@ Clicking the filter icon, then Show Advanced, next to a dimension in a freeform 
 * Ends with
 
 ![](assets/advanced-filter.png)
-

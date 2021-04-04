@@ -1,8 +1,8 @@
 ---
 title: US states
 description: The US state of the visitor.
+exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 ---
-
 # US state
 
 The 'US state' dimension reports the state of the visitor in the United States of America. It is similar to the [Regions](regions.md) dimension, except that this dimension is specific to the United States. Using this dimension is valuable if you want insight more granular than [Countries](countries.md) but not as granular as [Cities](cities.md).

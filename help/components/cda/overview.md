@@ -1,8 +1,8 @@
 ---
 title: Cross-Device Analytics
 description: Change your data from device-focused to person-focused by stitching device data together.
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 ---
-
 # Cross-Device Analytics
 
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:

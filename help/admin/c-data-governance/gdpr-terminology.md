@@ -2,8 +2,8 @@
 description: Data governance glossary for Adobe Analytics
 title: GDPR Terminology
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
 ---
-
 # GDPR Terminology
 
 **Binding Corporate Rules (BCRs)** - a set of binding rules put in place to allow multinational companies and organizations to transfer personal data that they control from the EU to their affiliates outside the EU (but within the organization)

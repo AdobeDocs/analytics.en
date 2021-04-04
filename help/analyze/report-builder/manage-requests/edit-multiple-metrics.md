@@ -3,8 +3,8 @@ description: The Edit Metrics Across Multiple Requests feature lets you easily a
 title: Edit metrics across multiple requests
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 role: Business Practitioner, Administrator
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 ---
-
 # Edit metrics across multiple requests
 
 The Edit Metrics Across Multiple Requests feature lets you easily add, remove, or replace metrics in a pre-existing request or across a group of requests.
@@ -70,4 +70,3 @@ To remove metrics:
 
 1. Select one or more metrics to remove from the request.
 1. Refresh the request. Until you refresh, you will see offline data.
-

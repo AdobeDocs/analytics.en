@@ -4,8 +4,8 @@ title: Adobe Analytics for iOS
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
+exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
 ---
-
 # Adobe Analytics for iOS{#adobe-analytics-for-ios}
 
 An introduction to the iPad application.

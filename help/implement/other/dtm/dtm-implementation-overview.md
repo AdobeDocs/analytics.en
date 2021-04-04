@@ -4,8 +4,8 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: DTM implementation overview
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
 ---
-
 # DTM implementation overview
 
 Use Dynamic Tag Management to manage tags and collect and distribute data across digital marketing systems. Dynamic Tag Management provides a single data layer that pushes data from multiple sources. Dynamic Tag Management also enables responsive delivery of user-specific content.
@@ -25,4 +25,3 @@ This guide leads you through the following steps to implement Analytics using DT
 1. Create [data elements](/help/implement/other/dtm/t-data-element.md), [rules and conditions](/help/implement/other/dtm/c-rules/t-rules-create.md), and [actions](/help/implement/other/dtm/c-rules/t-rules-actions.md).
 
 1. Publish tools and rules to the production server.
-

@@ -1,8 +1,8 @@
 ---
 title: New engagements
 description: The number of times a first touch channel is set.
+exl-id: a419d048-9715-4d7b-9c24-d34129755371
 ---
-
 # New engagements
 
 The 'New engagements' metric shows the number of times a visitor matches a marketing channel for the first time in that visitor's engagement period. This metric is useful when you want to compare any dimension with a visitor matching a marketing channel processing rule for the first time.

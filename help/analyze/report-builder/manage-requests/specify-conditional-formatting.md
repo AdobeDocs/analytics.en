@@ -4,8 +4,8 @@ title: Specify conditional formatting
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
 ---
-
 # Specify conditional formatting
 
 After creating reports with embedded requests, you can apply conditional formatting to cells of the workbook.
@@ -19,4 +19,3 @@ For security reasons, macros you write for the workbook using Excel's Visual Bas
 >[!NOTE]
 >
 >Conditional formatting is an Excel feature. For information about creating formatting rules, see the Excel documentation.
-

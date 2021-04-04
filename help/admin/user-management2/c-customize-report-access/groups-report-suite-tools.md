@@ -5,8 +5,8 @@ subtopic: Users and groups
 title: Customize Report Suite Tools permissions
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 ---
-
 # Customize Report Suite Tools permissions
 
 >[!IMPORTANT]

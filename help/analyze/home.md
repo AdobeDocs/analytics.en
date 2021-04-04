@@ -3,8 +3,8 @@ title: Analytics Tools Guide
 description: Product documentation and self-help for Analysis Workspace, Adobe Analytics dashboards, Activity Map, Report Builder, Reporting API, and Reports & Analytics.
 feature: Workspace Basics
 role: Business Practitioner, Administrator
+exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 ---
-
 # Analytics Tools Guide
 
 ![Banner](../../assets/doc_banner_analyze.png)

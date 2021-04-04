@@ -1,8 +1,8 @@
 ---
 title: Exclude data in Adobe Analytics
 description: Learn various methods around how to exclude data both before and after data collection.
+exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 ---
-
 # Exclude data in Adobe Analytics
 
 Excluding data is commonly used to prevent your organization's testing efforts from populating production data, or to prevent unwanted data from falsely inflating reports. Use any of the following methods to exclude data from Adobe Analytics depending on your use case.

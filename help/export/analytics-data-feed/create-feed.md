@@ -1,8 +1,8 @@
 ---
 title: Create or edit a data feed
 description: Learn how to create or edit a data feed.
+exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 ---
-
 # Create or edit a data feed
 
 Creating a data feed allows Adobe to know where to send raw data files, and what you would like to include in each file. This page lists individual settings you can customize when creating a data feed.

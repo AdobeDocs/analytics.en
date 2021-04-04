@@ -4,8 +4,8 @@ title: How to Sign In to Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 ---
-
 # Report Builder Sign-In
 
 >[!IMPORTANT]
@@ -36,4 +36,3 @@ To sign in to Report Builder
     * Double-click a request in Excel.
 
 1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.
-

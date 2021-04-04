@@ -4,8 +4,8 @@ title: Differentiate links that reference the same Link ID and region
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 ---
-
 # Differentiate links that reference the same Link ID and region
 
 You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .

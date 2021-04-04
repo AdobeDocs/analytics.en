@@ -4,8 +4,8 @@ title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 ---
-
 # Venn
 
 The Venn visualization lets you drag in up to 3 segments (from Components) and one metric to build a Venn diagram.
@@ -21,4 +21,3 @@ To turn the Venn diagram into a Freeform table, click the colored dot next to th
 To normalize the Venn diagram (take the size out of it), go to its Visualization Settings icon and select **[!UICONTROL Normalization]**.
 
 ![](assets/normalization.png)
-

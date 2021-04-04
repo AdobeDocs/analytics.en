@@ -5,8 +5,8 @@ title: Cohort analysis use cases
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 feature: Visualizations
 role: Business Practitioner, Administrator
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 ---
-
 # [!UICONTROL Cohort Analysis] use cases
 
 Use case examples for [!UICONTROL Cohort Analysis].

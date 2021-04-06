@@ -10,6 +10,14 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 
 For access to the Adobe Experience Cloud Release Notes as a whole, go [here](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
+## March 2021
+
+| Feature | Target Date | Description |
+| --- | --- | --- |
+|[!UICONTROL Components] > [!UICONTROL User preferences] | March 25, 2021 | The [!UICONTROL Components] > [!UICONTROL User preferences] page enables you to manage [!UICONTROL Analysis Workspace] settings and its related components for your user. [!UICONTROL User preferences] applies to all new projects and panels. <br>**Note:** the following settings have moved to the [!UICONTROL User preferences] page:<ul><li>Report Settings: Thousands separator (now called _Number format_)</li><li>Report Settings: CSV separator</li><li>Workspace projects: Help > Enable tips</li><li>Workspace projects: Blank panel _Start new projects with this panel_ option</li></ul> |
+| [!UICONTROL Histogram Smart Bucket Prediction] | March 25, 2021 | [!UICONTROL Histogram Smart Bucket Prediction] helps with high-cardinality-metrics histograms by automatically identifying the right width and number of buckets for your data spread. For low-cardinality metrics, the visualization behaves the same as it did previously. |
+
+
 ## February 2021
 
 | Feature | Target Date | Description |

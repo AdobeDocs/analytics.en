@@ -29,7 +29,7 @@ See the [Journey IQ: Cross-Device Analytics Spark page](http://adobe.ly/aacda) t
 The use of CDA requires all of the following. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific prerequisites.
 
 * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
-* Cross-Device Analytics is enabled on a per-report suite basis. Adobe recommends a report suite that contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
+* Cross-Device Analytics is enabled on a per-report-suite basis. Adobe recommends a report suite that contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
 
 ## Limitations
 
@@ -38,8 +38,9 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * CDA is only available through Analysis Workspace.
 * Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.
 * Adobe Analytics report suites cannot map to more than one IMS org. Since CDA stitches devices within a given report suite, CDA cannot be used to stitch data across multiple IMS orgs.
-* CDA is not currently compatible with Customer Attributes. These two features can coincide in separate virtual report suites that reference the same source report suite.
+* Private Graph leverages the same ID syncs as those used by the [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) capability found within Experience Cloud and Adobe Analytics. However, CDA virtual report suites (whether based on private graph or field-based stitching) are not compatible with the rest of the Customer Attributes functionality. That is, Customer Attributes-based dimensions are not available for use within CDA virtual report suites.
 * CDA is not currently compatible with A4T.
 * Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.
 * The 1.4 API is not supported. Power BI connectors and Report Builder both rely on the 1.4 API, and are therefore not compatible with CDA.
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
+* Active monitoring of the CDA stitching process by Adobe is limited to production report suites only.

@@ -1,8 +1,8 @@
 ---
 title: Language
 description: The preferred language setting in the browser.
+exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 ---
-
 # Language
 
 The 'Language' dimension shows the top languages that visitors prefer to see content in. This dimension is valuable when you want to understand the most frequent preferred languages of visitors to aid in localization efforts.

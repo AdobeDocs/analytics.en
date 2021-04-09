@@ -3,8 +3,8 @@ description: The Segment Builder provides a canvas to drag and drop Metric Dimen
 title: Build segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
-
 # Segment Builder
 
 The [!UICONTROL Segment Builder] lets you build simple or complex segments that identify visitor attributes and actions across visits and page hits. It provides a canvas to drag and drop metric dimensions, events, or other segments in order to segment visitors based on hierarchy logic, rules, and operators.
@@ -237,4 +237,3 @@ Templates are denoted by the Adobe "A" logo. A sample of the templates are liste
   </tr> 
  </tbody> 
 </table>
-

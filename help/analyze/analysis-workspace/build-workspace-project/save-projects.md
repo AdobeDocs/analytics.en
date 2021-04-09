@@ -1,6 +1,9 @@
 ---
 description: Learn about the different save options, including autosave, save as, and save as template.
 title: Save projects
+feature: Workspace Basics
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 ---
 # Save projects
 
@@ -42,4 +45,4 @@ For **existing** projects, upon returning to Workspace, the user will see a **Pr
 
 ![](assets/project-recovery.png)
 
-For **new** projects that have never been saved, unsaved changes are not recoverable. 
+For **new** projects that have never been saved, unsaved changes are not recoverable.

@@ -1,8 +1,8 @@
 ---
 title: getValOnce
 description: Prevent an Analytics variable from being set to the same value twice in a row.
+exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 ---
-
 # Adobe plug-in: getValOnce
 
 >[!IMPORTANT]
@@ -44,8 +44,10 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.01 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v3.0 (Requires AppMeasurement) */
+function getValOnce(vtc,cn,et,ep){var e=vtc,k=cn,l=et,m=ep;if(arguments&&"-v"===arguments[0])return{plugin:"getValOnce",version:"3.0"};var c=function(){if("undefined"!==typeof window.s_c_il)for(var b=0,a;b<window.s_c_il.length;b++)if(a=window.s_c_il[b],a._c&&"s_c"===a._c)return a}();"undefined"!==typeof c&&(c.contextData.getValOnce="3.0");window.cookieWrite=window.cookieWrite||function(b,a,d){if("string"===typeof b){var h=window.location.hostname,c=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){c=2<c?
+c:2;var f=h.lastIndexOf(".");if(0<=f){for(;0<=f&&1<c;)f=h.lastIndexOf(".",f-1),c--;f=0<f?h.substring(f):h}}g=f;a="undefined"!==typeof a?""+a:"";if(d||""===a)if(""===a&&(d=-60),"number"===typeof d){var e=new Date;e.setTime(e.getTime()+6E4*d)}else e=d;return b&&(document.cookie=encodeURIComponent(b)+"="+encodeURIComponent(a)+"; path=/;"+(d?" expires="+e.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(b)===a:!1}};window.cookieRead=window.cookieRead||function(b){if("string"===
+typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.indexOf(" "+b+"="),c=0>d?d:a.indexOf(";",d);return(b=0>d?"":decodeURIComponent(a.substring(d+2+b.length,0>c?a.length:c)))?b:""};return e&&(k=k||"s_gvo",l=l||0,m="m"===m?6E4:864E5,e!==this.c_r(k))?(c=new Date,c.setTime(c.getTime()+l*m),cookieWrite(k,e,0===l?0:m),e):""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -83,6 +85,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
 
 ## Version History
+
+### 3.0 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 2.01
 

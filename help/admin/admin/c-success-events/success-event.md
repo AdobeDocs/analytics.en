@@ -4,8 +4,8 @@ keywords: event
 title: Success events overview
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
+exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 ---
-
 # Success events overview
 
 Success events are actions that can be tracked. You determine what a success event is. For example, if a visitor purchases an item, the purchase event could be considered the success event.
@@ -46,4 +46,3 @@ The Success Events page lets you configure the Event variables used on your site
 |Unique Event Recording|**Record Once Per Visit**: Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes.<br>**Use Event ID**: Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md) in the Implement user guide.|
 |Participation|Gives full attribution credit to all dimension items in the visit.|
 |Warning (currency event)|When changing event types to or from a currency event, a message is displayed stating that historical data is not available in reporting.  Different event types use separate data tables, and cannot be used simultaneously. Some historical data can be restored if the user reverts the event type. However, any data collected after the initial change is not available. Use caution when changing an event type.|
-

@@ -1,8 +1,8 @@
 ---
 title: cleanStr
 description: Remove or replace All unnecessary characters from a string.
+exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 ---
-
 # Adobe plug-in: cleanStr
 
 >[!IMPORTANT]
@@ -44,8 +44,8 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: cleanStr v1.0 */
-function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)/g,"");str=str.trim(); str=str.replace(/[\u2018\u2019\u201A]/g,"'");str=str.replace(/\t+/g,"");for(str=str.replace(/[\n\r]/g," ");-1<str.indexOf("  ");)str=str.replace(/\s\s/g," ");return str}return""};
+/* Adobe Consulting Plugin: cleanStr v2.0 (No Prerequisites Required) */
+function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2.0"};a:{if("undefined"!==typeof window.s_c_il){var b=0;for(var c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c){b=c;break a}}b=void 0}"undefined"!==typeof b&&(b.contextData.cleanStr="2.0");if("string"===typeof a){a=a.replace(/<\/?[^>]+(>|$)/g,"");a=a.trim();a=a.replace(/[\u2018\u2019\u201A]/g,"'");a=a.replace(/\t+/g,"");for(a=a.replace(/[\n\r]/g," ");-1<a.indexOf("  ");)a=a.replace(/\s\s/g," ");return a}return""}
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -98,6 +98,10 @@ cleanStr(s.eVar1)
 Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the str argument.
 
 ## Version History
+
+### 2.0 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 1.0 (April 15, 2018)
 

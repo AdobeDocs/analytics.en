@@ -1,8 +1,8 @@
 ---
 title: Analytics Admin Guide
 description: Administration help for Adobe Analytics administrators, including user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection.
+exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 ---
-
 # Analytics Admin Guide
 
 ![Banner](/assets/doc_banner_admin.png)

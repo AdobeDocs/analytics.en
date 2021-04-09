@@ -2,8 +2,8 @@
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with emarsys email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
 title: Emarsys Data Connector for Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
+exl-id: 1b75f73c-dd0d-430d-a0db-332465b4b256
 ---
-
 # Emarsys Data Connector for Adobe Analytics{#emarsys-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
@@ -85,4 +85,3 @@ Review the following information about this Data Connectors integration as it re
 * **Recipient ID:** The integration requires that we capture and store a "Visitor ID" within a Analytics variable (eVar). The Visitor ID (often referred to as the "Recipient ID") is an encoded or numeric representation of an email address from the emarsys system. This "Recipient ID" is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled into the emarsys system and can be leveraged for remarketing purposes. As part of the setup process, you must identify an eVar for this purpose when prompted by the Wizard.
 * **External Tracking:** If you're not currently following the best practice of enabling external tracking for each email campaign you send, you must do so to ensure a successful integration. See the emarsys section below for details.
 * **Privacy Compliance:** You should understand that by enabling Recipient or Visitor ID tracking, this feature may track personally identifiable information of your site visitors. This has privacy implications requiring the implementation of appropriate procedures by your organization, such as providing notice to, and consent of, your site visitors.
-

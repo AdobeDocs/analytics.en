@@ -1,8 +1,8 @@
 ---
 title: getVisitDuration
 description: Track how much time a visitor has been on the site so far.
+exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 ---
-
 # Adobe plug-in: getVisitDuration
 
 >[!IMPORTANT]
@@ -44,8 +44,8 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getVisitDuration v2.0 */
-s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");if(isNaN(b)||18E5<c-b)b=c;var a=c-b;d.setTime(c+18E5); this.c_w("s_dur",b+"",d);if(0===a)return"first hit of visit";a=Math.floor(a/6E4);return 0===a?"less than a minute":1===a?"1 minute": a+" minutes"};
+/* Adobe Consulting Plugin: getVisitDuration v2.1 */
+function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"getVisitDuration",version:"2.1"};var d=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof d&&(d.contextData.getVisitDuration="2.1");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};d=(new Date).getTime();var k=cookieRead("s_dur"),a=0;if(isNaN(k)||18E5<d-k)k=d;a=d-k;cookieWrite("s_dur",k+"",30);if(0===a)return"first hit of visit";a=Math.floor(a/6E4);return 0===a?"less than a minute":1===a?"1 minute":a+" minutes"};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -93,6 +93,10 @@ s.prop10 = s.getVisitDuration();
 ...will always set prop10 equal to the number of minutes passed since the visitor landed on the site.  This will be useful if prop10 has pathing enabled.  Adding the "exits" metric to the prop10 report will show a granular, "scatterplot" report of how long a visit took in minutes before a visitor left the site.
 
 ## Version History
+
+### 2.1 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 2.0 (May 2, 2018)
 

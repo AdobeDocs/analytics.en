@@ -4,8 +4,8 @@ subtopic: Data sources
 title: Preparing to use Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 ---
-
 # Prepare to use Data Sources
 
 Steps you can take to prepare to use data sources

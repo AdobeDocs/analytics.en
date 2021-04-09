@@ -1,8 +1,8 @@
 ---
 title: Derive data impacted by events
 description: Use calculated metrics to correct trended data impacted by an event.
+exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
 ---
-
 # Derive data impacted by events
 
 If you have data [impacted by an event](overview.md), you can use calculated metrics to derive estimated values for the duration of the event. For example, if you had an event that caused a 25% drop in data, you can use that as a multiplier in a calculated metric.

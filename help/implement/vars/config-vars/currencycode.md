@@ -1,8 +1,8 @@
 ---
 title: What is the currencyCode variable, and how do I use it?
 description: For eCommerce sites, sets the currency the page deals in.
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 ---
-
 # currencyCode
 
 For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.

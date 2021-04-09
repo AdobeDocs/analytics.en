@@ -2,8 +2,8 @@
 description: Index of Admin tools in Adobe Analytics.
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 ---
-
 # Admin Tools
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** 

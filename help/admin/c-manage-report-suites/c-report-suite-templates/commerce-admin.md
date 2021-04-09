@@ -3,8 +3,8 @@ description: Defines common settings for an e-commerce website.
 title: Commerce
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 ---
-
 # Commerce
 
 Defines common settings for an e-commerce website.
@@ -43,4 +43,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

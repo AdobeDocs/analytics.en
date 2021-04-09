@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot sessions in Adobe Analytics
 description: Learn how resolve issues around being logged out of Adobe Analytics.
+exl-id: 191250ef-8313-47be-9717-046cce870998
 ---
-
 # Troubleshoot sessions in Adobe Analytics
 
 This page is about troubleshooting sessions, meaning you are able to successfully log in but have issues staying logged in. If you are having issues logging in to Adobe Analytics, see [Troubleshoot logging in to Adobe Analytics](troubleshoot-login.md).

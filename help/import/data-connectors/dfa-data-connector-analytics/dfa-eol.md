@@ -1,8 +1,8 @@
 ---
 title: DFA Integration - End-of-life Information
 description: Why is Adobe end-of-lifing the DFA Data Connector and what alternatives are there?
+exl-id: 01dbedc7-f878-4d9b-999f-a05997a5c0ed
 ---
-
 # DFA Integration - End-of-life Information
 
 Adobe recently announced [its plans to end-of-life Data Connector](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html), a legacy toolset for integrating 3-rd party data (e.g. ESP, VOC, etc.) with Adobe Analytics.
@@ -28,4 +28,4 @@ For customers who are interested in integrating display ad data (without “view
 * Adobe Consulting (Engineering Architects) can build a custom solution to ingest display ad metrics into Adobe Analytics. This solution is still in development and any customers interested in joining the beta are welcome to participate. More details regarding features, availability, and cost will be provided as they become available.
 * You can manage your own display ad integration, using Data Sources functionality as well as Classifications in Adobe Analytics. Import your paid search and display data manually using Data Sources and Classifications [as described here](https://experienceleague.adobe.com/docs/analytics/import/use-cases/paid-search-metrics.html?lang=en#use-cases). (Note: this document refers to paid search, but the use case and concept is the same and can be applied to display).
 
-For additional questions or support, please reach out to [Adobe Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html). 
+For additional questions or support, please reach out to [Adobe Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html).

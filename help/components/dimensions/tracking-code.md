@@ -1,8 +1,8 @@
 ---
 title: Tracking Code
 description: The name of the tracking code or campaign.
+exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 ---
-
 # Tracking Code
 
 The 'Tracking Code' dimension lists the names of tracking codes on your site. This dimension is typically collected using query string parameters. You can place links with different query string parameter values in different places across the internet. This dimension reports which links were the most successful in driving traffic to your site.

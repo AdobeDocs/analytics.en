@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot spikes and drops in data
 description: Learn possible reasons why you can see dramatic increases or decreases in trended reports.
+exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 ---
-
 # Troubleshoot spikes and drops in data
 
 As your site collects data, there are many external factors that can drastically affect data collection or reporting. The following is a list of potential explanations as to why certain variables or overall traffic dramatically increases or decreases.

@@ -1,8 +1,8 @@
 ---
 title: registerPreTrackCallback
 description: Create callback functions before sending a hit to Adobe.
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 ---
-
 # registerPreTrackCallback
 
 The `registerPreTrackCallback` variable allows your organization to hook a JavaScript function after an image request URL is compiled but before it is sent. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure.

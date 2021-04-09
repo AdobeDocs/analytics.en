@@ -2,8 +2,8 @@
 description: Describes the three-step deployment process.
 title: Deploying the Integration
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
+exl-id: 47460083-0cb0-4d47-bbb3-efe0ddabf1fa
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Describes the three-step deployment process.

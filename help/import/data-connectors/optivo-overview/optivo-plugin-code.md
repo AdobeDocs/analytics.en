@@ -2,8 +2,8 @@
 description: If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
 title: Adobe Analytics Plug-In Code
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
+exl-id: 70e7a13b-abbe-48d2-9f15-190afbd6c14c
 ---
-
 # Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
 
 If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
@@ -50,4 +50,3 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 >[!NOTE]
 >
 >The plug-in above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plug-in above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
-

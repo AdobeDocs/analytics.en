@@ -4,8 +4,8 @@ subtopic: Data sources
 title: Upload a Data Sources file
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 ---
-
 # Upload a Data Sources file
 
 After you have prepared a Data Sources data file, submit it to Data Sources for processing. Adobe maintains several Data Sources FTP servers where you can upload Data Sources files. Remember the following about the Data Sources FTP servers:
@@ -29,4 +29,3 @@ After you have prepared a Data Sources data file, submit it to Data Sources for 
 1. Watch for any messages during the Data Sources file processing.
 
    Data Sources Manager displays any errors that occur during the file processing.
-

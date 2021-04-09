@@ -2,8 +2,10 @@
 description: This Workspace visualization is like a line graph, but with a colored area below the line.
 title: Area and area stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
+feature: Visualizations
+role: Business Practitioner, Administrator
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 ---
-
 # Area and area stacked
 
 ## Area {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
@@ -21,4 +23,3 @@ This visualization is like an Area Chart, but each series begins at the top of t
 A new visualization setting on area stacked visualizations turns the chart into a "100% stacked" visualization.
 
 ![](assets/areastacked100.png)
-

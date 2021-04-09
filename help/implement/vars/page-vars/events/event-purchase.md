@@ -1,8 +1,8 @@
 ---
 title: Purchase event
 description: Use the purchase event to collect data for the 'Orders', 'Units', and 'Revenue' metrics.
+exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 ---
-
 # Purchase event
 
 The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the [`products`](../products.md) and [`purchaseID`](../purchaseid.md) variables.

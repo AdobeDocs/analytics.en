@@ -4,8 +4,8 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud
 title: Library management
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
+exl-id: ea662014-0b25-48cc-ac0e-6695514e00fa
 ---
-
 # Library management
 
 Descriptions of the fields and options in the Library Management settings in Dynamic Tag Management.
@@ -46,4 +46,3 @@ Descriptions of the fields and options in the Library Management settings in Dyn
   </tr> 
  </tbody> 
 </table>
-

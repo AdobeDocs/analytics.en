@@ -2,8 +2,10 @@
 description: Send an Analysis Workspace project via email or schedule it for delivery.
 keywords: Analysis Workspace
 title: Schedule projects
+feature: Curate and Share
+role: Business Practitioner, Administrator
+exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
-
 # Schedule projects
 
 From the Workspace **Share menu**, you can send Analysis Workspace projects via email to selected recipients. Files can be sent in CSV or PDF format. 

@@ -3,8 +3,8 @@ description: Defines common settings for a website that provides information abo
 title: Lead Generation
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 ---
-
 # Lead Generation
 
 Defines common settings for a website that provides information about services and products that are typically sold through further engagement.
@@ -39,4 +39,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

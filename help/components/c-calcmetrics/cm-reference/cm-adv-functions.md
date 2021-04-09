@@ -2,8 +2,8 @@
 description: Access these functions by checking Show Advanced in the Functions drop-down list.
 title: Reference  advanced functions
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 ---
-
 # Reference: advanced functions
 
 Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
@@ -720,4 +720,3 @@ Returns the probability that the current row could be seen by chance in the colu
 >[!NOTE]
 >
 >Assumes that the values are normally distributed.
-

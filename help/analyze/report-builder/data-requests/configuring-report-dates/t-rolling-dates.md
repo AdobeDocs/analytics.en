@@ -1,10 +1,11 @@
 ---
 description: Steps that describe how to customize a rolling date for your request.
 title: Rolling dates
-topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
 ---
-
 # Rolling dates
 
 Steps that describe how to customize a rolling date for your request.

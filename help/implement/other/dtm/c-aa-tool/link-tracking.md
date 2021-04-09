@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics
 title: Link tracking
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
+exl-id: cdce5e3f-bc36-47ab-9c96-f2faaa2c40b4
 ---
-
 # Link tracking
 
 Field descriptions in Dynamic Tag Management for link tracking when deploying Analytics.

@@ -3,8 +3,8 @@ description: Lists a few considerations you should be aware of before deleting s
 title: Delete segments
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
+exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 ---
-
 # Delete segments
 
 Lists a few considerations you should be aware of before deleting segments.

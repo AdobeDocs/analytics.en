@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target
 title: Create a data element
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
+exl-id: 6831c2a3-226c-4dd1-93c2-221983c07694
 ---
-
 # Create a data element
 
 Create a data element in Dynamic Tag Management.

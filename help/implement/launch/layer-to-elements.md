@@ -1,8 +1,8 @@
 ---
 title: Map data layer objects to data elements
 description: Configure Launch to read from your data layer.
+exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 ---
-
 # Map data layer objects to data elements
 
 Once your organization has established and implemented a data layer on your site, you can map data layer objects to data elements within Launch.

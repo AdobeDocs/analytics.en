@@ -1,8 +1,8 @@
 ---
 title: Monitor resolution
 description: The resolution of the visitor's monitor in pixels.
+exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 ---
-
 # Monitor resolution
 
 The 'Monitor resolution' dimension shows the height and width of the active display in pixels. This dimension is useful when you want to understand where the "fold" is on your site to visitors, or how wide visitors can make their browser window. Understanding where your fold is can allow you to optimize content for viewing.

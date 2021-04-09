@@ -1,8 +1,8 @@
 ---
 title: eVar (Merchandising)
 description: Custom variables that tie to individual products.
+exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 ---
-
 # eVar (Merchandising)
 
 *This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*

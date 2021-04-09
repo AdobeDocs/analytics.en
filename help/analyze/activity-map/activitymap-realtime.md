@@ -1,9 +1,10 @@
 ---
 description: Real-time page analytics (Live Mode) lets you obtain results with minute granularity in real time.
 title: Real-time (Live) page analytics
-topic: Activity map
+feature: Activity Map
+role: Business Practitioner, Administrator
+exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
 ---
-
 # Real-time page analytics (Live Mode)
 
 Real-time page analytics (Live Mode) lets you obtain results with minute granularity in real time.

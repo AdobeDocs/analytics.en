@@ -1,8 +1,8 @@
 ---
 title: Util.getQueryParam
 description: Returns the value of a query string parameter.
+exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 ---
-
 # Util.getQueryParam
 
 Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam()` method to retrieve data from the query string.

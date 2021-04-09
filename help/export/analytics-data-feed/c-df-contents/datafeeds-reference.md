@@ -5,8 +5,8 @@ subtopic: data feeds
 title: Data column reference
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
 ---
-
 # Data column reference
 
 Use this page to learn what data is contained in each column. Most implementations don't use every column, so this page can be referenced when determining which columns to include in a data feed export.

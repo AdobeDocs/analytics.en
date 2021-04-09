@@ -1,8 +1,8 @@
 ---
 title: cookieDomainPeriods
 description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
+exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 ---
-
 # fpCookieDomainPeriods
 
 The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location. It inherits the value of [`cookieDomainPeriods`](cookiedomainperiods.md), but is still a best practice to set if you use a first-party cookie implementation.

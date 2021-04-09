@@ -2,8 +2,8 @@
 description: Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
 title: Query String Param Plug-In Code
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
+exl-id: 85071a71-729b-43dd-b31c-110c08dffaa7
 ---
-
 # Query String Param Plug-In Code{#query-string-param-plug-in-code}
 
 Reserve the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below.
@@ -34,4 +34,3 @@ s.eVarN=s.getQueryParam("<insert Selligent QS Param>");
 //places query param value from Recepient ID in eVarN variable 
 
 ```
-

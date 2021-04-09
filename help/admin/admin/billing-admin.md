@@ -3,8 +3,8 @@ description: The Billing page lets you access billing information, including tra
 title: Billing
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 ---
-
 # Billing
 
 The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.

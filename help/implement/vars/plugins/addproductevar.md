@@ -1,8 +1,8 @@
 ---
 title: addProductEvar
 description: Adds merchandising eVars to the products variable.
+exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 ---
-
 # Adobe plug-in: addProductEvar
 
 >[!IMPORTANT]
@@ -48,8 +48,8 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: addProductEvar v1.0 */
-s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof ev&&""!==ev)if(ap=ap||!1,this.products){var e=this.products.split(","),f=e.length;ap=ap?0:f-1;for(var a;ap<f;ap++)a=e[ap].split(";"),a[5]&&-1<a[5].toLowerCase().indexOf("evar")?a[5]=a[5]+"|"+en+"="+ev:a[5]?a[5]=en+"="+ev:a[5]||(a[4]||(a[4]=""),a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[5]=en+"="+ev),e[ap]=a.join(";");this.products=e.join(",")}else this.products=";;;;;"+en+"="+ev};
+/* Adobe Consulting Plugin: addProductEvar v2.0 */
+function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"addProductEvar",version:"2.0"};a:{if("undefined"!==typeof window.s_c_il){var b=0;for(var c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c){b=c;break a}}b=void 0}if("undefined"!==typeof b&&(b.contextData.addProductEvar="2.0","string"===typeof e&&"string"===typeof f&&""!==f))if(d=d||!1,b.products){c=b.products.split(",");var g=c.length;d=d?0:g-1;for(var a;d<g;d++)a=c[d].split(";"),a[5]&&-1<a[5].toLowerCase().indexOf("evar")?a[5]=a[5]+"|"+e+"="+f:a[5]?a[5]=e+"="+f:a[5]||(a[4]||(a[4]=""),a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[5]=e+"="+f),c[d]=a.join(";");b.products=c.join(",")}else b.products=";;;;;"+e+"="+f};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -91,6 +91,10 @@ s.addProductEvar("eVar1", "blue");
 ```
 
 ## Version History
+
+### 2.0 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 1.0 (October 7, 2019)
 

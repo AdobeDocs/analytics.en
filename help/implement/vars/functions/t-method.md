@@ -1,8 +1,8 @@
 ---
 title: t
 description: Send a page view tracking call to Adobe.
+exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 ---
-
 # t()
 
 The `t()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers.

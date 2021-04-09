@@ -4,8 +4,8 @@ subtopic: Data sources
 title: Transaction and customer integration
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 ---
-
 # Transaction and customer integration
 
 Data Sources provides two additional ways to integrate events that occur offline to your online data.

@@ -2,8 +2,10 @@
 description: Create workspace projects based on standard or custom templates.
 title: Templates
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
+feature: Workspace Basics
+role: Business Practitioner, Administrator
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 ---
-
 # Templates
 
 You can choose whether to create a project from:
@@ -139,4 +141,4 @@ This template lets you see vital cross-device performance data. It is available 
 * **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
 * **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
 * **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
-* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it. 
+* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it.

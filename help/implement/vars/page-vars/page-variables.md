@@ -1,8 +1,8 @@
 ---
 title: Page variables
 description: Set values on an individual page.
+exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 ---
-
 # Page variables
 
 Page variables determine the values for dimensions and metrics in reporting.

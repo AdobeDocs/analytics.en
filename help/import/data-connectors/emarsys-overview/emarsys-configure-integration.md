@@ -2,8 +2,8 @@
 description: Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
 title: Preparing for the Data Connectors Email Integration
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
+exl-id: a5e0c343-09d1-4593-ac97-6db23064c6c6
 ---
-
 # Preparing for the Data Connectors Email Integration{#preparing-for-the-data-connectors-email-integration}
 
 Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
@@ -17,4 +17,3 @@ Before you can configure the integration for your email account, you will need t
 * Identify or create the custom variable that you will use to capture the Recipient ID.
 * Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable).
 * Identify or create the custom events that you will use to collect the bounces, clicks, opens, sends, and unsubscribes.
-

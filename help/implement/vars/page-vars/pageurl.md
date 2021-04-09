@@ -1,8 +1,8 @@
 ---
 title: pageURL
 description: Override the automatically collected page URL on your site.
+exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 ---
-
 # pageURL
 
 AppMeasurement automatically collects the page URL in each hit. If you want to override the page URL automatically collected by AppMeasurement, you can use this variable. You do not need to set this variable in most cases.

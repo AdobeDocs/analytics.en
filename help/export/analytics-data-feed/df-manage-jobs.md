@@ -1,8 +1,8 @@
 ---
 title: Manage data feed jobs
 description: Learn how to manage individual jobs in data feeds.
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 ---
-
 # Manage data feed jobs
 
 Jobs are individual tasks that outputs a compressed file. They are created and governed by feeds.

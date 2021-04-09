@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: Help Activity Map identify unique links on your site.
+exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 ---
-
 # s_objectID
 
 The `s_objectID` variable provides a unique identifier for a link. It is used to make reports in [Activity Map](/help/analyze/activity-map/activity-map.md) more accurate. If you have links on a page that frequently change, you can use the `s_objectID` variable to tell Activity Map of a unique link location so it can correctly group data as desired.

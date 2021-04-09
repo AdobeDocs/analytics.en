@@ -2,8 +2,8 @@
 description: This integration combines the power of email marketing software integrated feedback system and the behavioral reporting of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 title: optivo® broadmail Data Connector for Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
 ---
-
 # optivo® broadmail Data Connector for Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

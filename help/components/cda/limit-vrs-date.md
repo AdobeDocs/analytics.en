@@ -1,8 +1,8 @@
 ---
 title: Limit a VRS to certain dates
 description: Understand how to limit a VRS date range to focus on stitched data only.
+exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 ---
-
 # Limit a VRS to certain dates
 
 When we turn on stitching, the stitching starts on a specific date. Let's assume that date is June 1. The CDA VRS will contain unstitched data prior to June 1. You may want to hide any data in the VRS prior to June 1 so that your analysis can focus on date ranges after stitching began.

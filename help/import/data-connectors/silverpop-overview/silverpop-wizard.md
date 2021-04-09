@@ -2,8 +2,8 @@
 description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 title: Silverpop Integration
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
+exl-id: 4a41bcab-fbe8-4251-bad9-1c45cfffb823
 ---
-
 # Silverpop Integration{#silverpop-integration}
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
@@ -126,4 +126,3 @@ To configure the integration:
   </tr> 
  </tbody> 
 </table>
-

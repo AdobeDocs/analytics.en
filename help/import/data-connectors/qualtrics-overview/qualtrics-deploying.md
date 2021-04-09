@@ -4,8 +4,8 @@ subtopic: Qualtrics
 title: Deploying the Integration
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Deploying this integration is a simple process that requires the following actions.
@@ -79,5 +79,3 @@ After all deployment steps have been completed you can validate that the integra
    >This data should appear within 24-48 hours of successful deployment assuming that the integrated survey is actively receiving responses.
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-   

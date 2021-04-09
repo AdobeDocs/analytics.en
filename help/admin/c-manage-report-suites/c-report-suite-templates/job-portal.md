@@ -3,8 +3,8 @@ description: Defines common settings for a job portal or career search website.
 title: Job portal
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 ---
-
 # Job portal
 
 Defines common settings for a job portal or career search website.
@@ -39,4 +39,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

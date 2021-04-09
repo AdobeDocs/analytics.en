@@ -2,8 +2,8 @@
 description: Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
 title: Preparing for the Data Connectors Email Integration
 uuid: 3cedc6ec-1453-4b1f-879c-972b0238d124
+exl-id: f21790a8-0282-4e38-a1a2-e73bddc6228a
 ---
-
 # Preparing for the Data Connectors Email Integration{#preparing-for-the-data-connectors-email-integration}
 
 Tasks and information you must have before you run the Data Connectors integration wizard to implement the Data Connectors integration.
@@ -16,4 +16,3 @@ Before you can configure the integration for your email account, you will need t
 * Know your Account ID (the unique identifier assigned to your organization by Datran).
 * Identify or create the custom variable that you will use to capture the Recipient ID/Visitor ID.
 * Identify or create the custom variable that you will use to capture the Message ID (often this is the campaign variable).
-

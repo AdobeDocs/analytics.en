@@ -3,8 +3,8 @@ description: To verify that Server-side forwarding is properly enabled, you'll n
 solution: Audience Manager
 title: How to verify your server-side forwarding implementation
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
 ---
-
 # How to verify your server-side forwarding implementation
 
 To verify that Server-side forwarding is properly enabled, you'll need to inspect the HTTP response from the Analytics tracking request. This can be done using a browser's developer tools or by using a proxying tool such as the Charles Web Debugger. The following instructions illustrate what indicators must be present to ensure server-side forwarding is properly enabled.

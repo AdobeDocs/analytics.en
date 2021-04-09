@@ -3,8 +3,8 @@ description: Lets you use the segment for marketing activity in the Audience Lib
 title: Publish segments to the Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
+exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
-
 # Publish segments to the Experience Cloud
 
 Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including Adobe's [!DNL Advertising Cloud], [!DNL Target] and [!DNL Campaign]. Recent updates have significantly optimized the publishing workflow. You can now publish Analytics segments to Experience Cloud in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 

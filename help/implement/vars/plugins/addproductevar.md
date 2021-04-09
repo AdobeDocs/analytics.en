@@ -1,8 +1,8 @@
 ---
 title: addProductEvar
 description: Adds merchandising eVars to the products variable.
+exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 ---
-
 # Adobe plug-in: addProductEvar
 
 >[!IMPORTANT]

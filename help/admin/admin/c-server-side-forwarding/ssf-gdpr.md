@@ -2,8 +2,8 @@
 description: Explains enhancements to server-side forwarding that were prompted by the EU cookie compliance regulation.
 title: GDPR/ePrivacy compliance and server-side forwarding
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 ---
-
 # GDPR/ePrivacy compliance and server-side forwarding
 
 This section explains enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), which went into effect on Sept. 30, 2017.
@@ -41,4 +41,3 @@ To configure this type of reporting, map the new context variable to a custom tr
     1. Click **[!UICONTROL Add Rule.]** 
     1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)".
     1. Click **[!UICONTROL Save]**.
-

@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: Deduplicate hits based on a unique purchase identifier.
+exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 ---
-
 # purchaseID
 
 The `purchaseID` variable helps prevent hits containing the same purchase from inflating reports. For example, if a visitor reaches your purchase confirmation page, you typically send data around the revenue generated from the transaction to Adobe. If the user refreshes this page multiple times or bookmarks the page to visit later, those hits can inflate reports. The `purchaseID` variable de-duplicates metrics when more than one hit has the same purchase ID.

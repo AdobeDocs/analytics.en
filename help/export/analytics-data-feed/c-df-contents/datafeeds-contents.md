@@ -5,8 +5,8 @@ subtopic: data feeds
 title: Data Feed contents - overview
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
+exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 ---
-
 # Data Feed contents - overview
 
 This section describes the files found in a data feed delivery.

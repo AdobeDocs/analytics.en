@@ -1,11 +1,11 @@
 ---
 description: Discover everything you can do with Advertising Analytics in this detailed guide, including permissions required, and available dimensions and metrics.
 title: A Guide to Advertising Analytics
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 ---
-
 # A guide to Advertising Analytics
 
-Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
+Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs data directly from the search engines as well as a AMO ID Instances (Click Instances). Quality Score and Average Positions will no longer be collected as Google has depericated these metrics in Sept 2019. 
 
 >[!NOTE]
 >
@@ -110,5 +110,3 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 |AMO Impressions|The number of ad impressions as reported by the search engine.|
 |AMO Clicks|The number of clicks on ads as reported by the search engine.|
 |AMO Cost|The cost paid for each keyword/ad as reported by the search engine.|
-|Avg. Pos|A calculated metric that reflects the average position of the ads as reported by the search engine.|
-|Avg. Quality Score|A calculated metric that reflects the average quality score as reported by the search engine.|

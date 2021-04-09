@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: Virtual report suites and multi-suite tagging considerations
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 ---
-
 # Virtual report suites and multi-suite tagging considerations
 
 Virtual report suites (VRS) let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.

@@ -2,8 +2,8 @@
 description: Deploy the Responsys data connector for use in Adobe Analytics.
 title: Deploying the Integration
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
+exl-id: cf3a504b-8775-4ceb-81eb-162f95f829e3
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Deploying this integration is a simple process that requires the following actions: 

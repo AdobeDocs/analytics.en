@@ -1,8 +1,8 @@
 ---
 title: Define your Top 5 KPIs
 description: Make sure your key performance indicators and associated metrics and dimensions align closely with your business needs.
+exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 ---
-
 # Define your Top 5 KPIs
 
 You simply can’t measure everything, and your Adobe Analytics implementation will be the most successful if you prioritize measuring what’s most important to the business. Work with your business leaders to define the key performance indicators (KPIs) that are most impactful for your business. Then concentrate your efforts on the metrics and variables that support those KPIs.

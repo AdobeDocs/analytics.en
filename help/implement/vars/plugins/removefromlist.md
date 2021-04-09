@@ -1,8 +1,8 @@
 ---
 title: rfl
 description: Remove a specific value from a character-delimited string.
+exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 ---
-
 # Adobe plug-in: rfl (Remove From List)
 
 >[!IMPORTANT]

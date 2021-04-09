@@ -2,8 +2,8 @@
 description: Learn about 
 title: Metric Type and Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 ---
-
 # Metric Type and Attribution
 
 Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
@@ -73,4 +73,3 @@ After July 19th, we corrected this behavior in calculated metrics. Instead of us
 |  PROMO B  | $2.50  | $2.50  | $2.50  |
 |  PROMO C  | $2.50  | $2.50  | $2.50  |
 |  Total  | $10.00  | $10.00  | $10.00  |
-

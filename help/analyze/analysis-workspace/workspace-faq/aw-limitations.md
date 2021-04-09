@@ -1,8 +1,10 @@
 ---
 description: List of known limitations in Adobe Analysis Workspace and its related components
 title: Known limitations in Analysis Workspace
+feature: Workspace Basics
+role: Business Practitioner, Administrator
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 ---
-
 # Known limitations in Analysis Workspace 
 
 Here is a list of known limitations in Analysis Workspace and its related components: 

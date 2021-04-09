@@ -1,10 +1,11 @@
 ---
 description: An introduction to the features of a report, including the toolbar, calendar, and detail table.
 title: Report Features
-topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
+exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 ---
-
 # Report Features
 
 An introduction to the features of a report, including the toolbar, calendar, and detail table.

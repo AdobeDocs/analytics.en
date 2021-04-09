@@ -1,8 +1,8 @@
 ---
 description: Overview of the Advertising Analytics workflow.
 title: Workflow overview
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 ---
-
 # Workflow overview
 
 ![](assets/step1_icon.png) Map any Adobe Analytics report suite in which you want to view Google/Bing search data to your Experience Cloud organization.

@@ -2,8 +2,8 @@
 description: Deploy the ContactLab integration for use in Adobe Analytics.
 title: Deploying the Integration
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
+exl-id: 003efab3-3f66-44eb-a5c8-879cc2447d32
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Deploying this integration is a simple process that requires the following actions: 

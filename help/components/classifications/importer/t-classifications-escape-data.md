@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Escape classification data
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 ---
-
 # Escape classification data
 
 Steps that describe how to escape classification data in the classification file.

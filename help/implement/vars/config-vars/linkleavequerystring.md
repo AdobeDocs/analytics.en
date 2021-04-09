@@ -1,8 +1,8 @@
 ---
 title: linkLeaveQueryString
 description: Allows the preservation of query strings in link tracking dimensions.
+exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 ---
-
 # linkLeaveQueryString
 
 AppMeasurement strips query strings from link tracking URLs by default. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.

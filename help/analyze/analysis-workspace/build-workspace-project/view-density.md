@@ -1,8 +1,10 @@
 ---
 description: Learn how to adjust the view density.
 title: View Density
+feature: Workspace Basics
+role: Business Practitioner, Administrator
+exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
 ---
-
 # View Density
 
 Adjusting the view density lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables.

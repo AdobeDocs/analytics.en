@@ -1,8 +1,8 @@
 ---
 title: Map Launch data elements to Analytics variables
 description: Assign data elements to Analytics variables so you can use them as dimensions in Analysis Workspace.
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 ---
-
 # Map Launch data elements to Analytics variables
 
 Once you have a repository of data elements in Adobe Experience Platform Launch, you can assign them to Analytics dimensions.

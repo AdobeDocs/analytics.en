@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target
 title: Manually implement Adobe Analytics (legacy)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
+exl-id: 7a9b3a67-64c1-42c9-94d4-ab86b9dfd038
 ---
-
 # Manually implement Adobe Analytics (legacy)
 
 Create an Adobe Analytics tool for deployment using [!UICONTROL Dynamic Tag Management]. This procedure describes a manual (legacy) implementation.
@@ -59,4 +59,3 @@ If you want to change a manual configuration to automatic, edit a tool and click
    >[!NOTE]
    >
    >The settings on the [!UICONTROL Adobe Analytics] page (General, Cookies, and so on) override settings in your `s_code`. If these settings exist in your `s_code`, there is no need to reiterate them here.
-

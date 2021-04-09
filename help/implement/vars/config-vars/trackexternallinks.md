@@ -1,8 +1,8 @@
 ---
 title: trackExternalLinks
 description: Enable or disable automatic link tracking for exit links.
+exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 ---
-
 # trackExternalLinks
 
 Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. Enable this variable if you would like to use automatic link tracking for exit links.

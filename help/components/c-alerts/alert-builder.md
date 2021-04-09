@@ -2,8 +2,8 @@
 description: Use alerts in Analysis Workspace.
 title: Alert Builder
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
+exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 ---
-
 # Alert Builder
 
 >[!IMPORTANT]

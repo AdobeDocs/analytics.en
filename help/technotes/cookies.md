@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics and browser cookies
 description: Learn how Adobe Analytics handles a browser's cookies.
+exl-id: d802854c-1a52-4f45-9b86-c5f8955a90c2
 ---
-
 # Adobe Analytics and browser cookies
 
 To support persistent user identification across properties and solutions, Adobe Analytics is responsive to changes in how browsers handle cookies. The following FAQ presents information on how persistent visitor identification is preserved with browser cookie changes.

@@ -3,8 +3,8 @@ description: This Adobe data connectors integration combines the power of the ap
 keywords: AppFigures
 title: appFigures Data Connector for Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
+exl-id: e4f49fb0-04ec-498b-a1ae-66b7c903ad8c
 ---
-
 # appFigures Data Connector for Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

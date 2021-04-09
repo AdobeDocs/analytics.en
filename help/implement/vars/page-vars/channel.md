@@ -1,8 +1,8 @@
 ---
 title: channel
 description: Populate the 'Site Sections' dimension.
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 ---
-
 # channel
 
 The `channel` variable typically stores the section of the site a given page is on. It is helpful to determine what groups of your site are most popular. This variable populates the 'Site Sections' dimension.

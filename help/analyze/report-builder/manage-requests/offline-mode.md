@@ -1,10 +1,11 @@
 ---
 description: Offline mode returns placeholder data to speed up the process of creating and editing requests.
 title: Offline mode for creating and editing requests
-topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 ---
-
 # Offline mode for creating and editing requests
 
 Offline mode returns placeholder data to speed up the process of creating and editing requests.
@@ -28,4 +29,3 @@ To enable offline mode:
    >[!IMPORTANT]
    >
    >Make sure you disable Offline Mode before running your requests with real data. To do so, just go back to **[!UICONTROL Options]** and remove the checkmark.
-

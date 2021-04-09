@@ -1,8 +1,8 @@
 ---
 title: charSet
 description: The charSet variable determines what encoding Adobe uses to parse your image request.
+exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 ---
-
 # charSet
 
 The charSet variable is used by Adobe to convert incoming data into UTF-8 for storage and reporting by Analytics. Most sites do not need to set this variable.

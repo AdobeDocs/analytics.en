@@ -1,8 +1,8 @@
 ---
 title: dynamicVariablePrefix
 description: Lets you customize the string that identifies dynamic variables.
+exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 ---
-
 # dynamicVariablePrefix
 
 Dynamic variables are a shorthand concept that let you copy values from one variable to another. They are valuable for long variable values, as they help shorten an image request's URL length. See [Dynamic variables](../page-vars/dynamic-variables.md) for more information on this concept.

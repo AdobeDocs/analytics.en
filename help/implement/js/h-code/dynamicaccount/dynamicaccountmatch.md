@@ -1,8 +1,8 @@
 ---
 title: dynamicAccountMatch
 description: The dynamicAccountMatch variable determines what value to look at in dynamic accounts.
+exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
 ---
-
 # dynamicAccountMatch
 
 >[!IMPORTANT]

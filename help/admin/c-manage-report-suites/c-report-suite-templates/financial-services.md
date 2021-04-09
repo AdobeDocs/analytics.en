@@ -3,8 +3,8 @@ description: Defines common settings for banks and other institutions that provi
 title: Financial Services
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
+exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 ---
-
 # Financial Services
 
 Defines common settings for banks and other institutions that provide access to online services.
@@ -39,4 +39,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

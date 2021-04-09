@@ -1,8 +1,8 @@
 ---
 title: Custom events
 description: The number of hits where a custom event exists.
+exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 ---
-
 # Custom events
 
 *This help page describes how custom events work as a metric. For information on how custom events work as an implementation variable, see [Events overview](/help/implement/vars/page-vars/events/events-overview.md) in the Implement user guide.*
@@ -19,4 +19,4 @@ Custom events are calculated differently depending on their type. You can check 
 
 The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your organization's account manager if you are not sure how many custom events are available to you.
 
-Adobe strongly recommends that you record how you use each event in your organization's [solution design document](/help/implement/prepare/solution-design.md). 
+Adobe strongly recommends that you record how you use each event in your organization's [solution design document](/help/implement/prepare/solution-design.md).

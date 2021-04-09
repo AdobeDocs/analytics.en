@@ -2,8 +2,8 @@
 description: Calculated metrics rights differs between Admin-level users and non-Admins.
 title: Calculated metrics  role-based rights
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 ---
-
 # Calculated metrics: role-based rights
 
 Calculated metrics rights differs between Admin-level users and non-Admins.
@@ -38,4 +38,3 @@ Calculated metrics rights differs between Admin-level users and non-Admins.
   </tr> 
  </tbody> 
 </table>
-

@@ -1,8 +1,8 @@
 ---
 title: Metrics overview
 description: View quantities of dimension items or data over time.
+exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 ---
-
 # Metrics overview
 
 Metrics allow you to quantify dimension items, such as to see which pages on your site have the most page views. You can also trend metrics over time, such as to see how many orders visitors make on your site each day. A basic report shows rows of string values (dimension), against a column of numeric values (metric).

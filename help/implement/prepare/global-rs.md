@@ -1,8 +1,8 @@
 ---
 title: Global report suites in Adobe Analytics
 description: Understand the advantages and requirements to using a global report suite.
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 ---
-
 # Global report suite considerations
 
 A global report suite is a report suite that collects data from all domains and apps that your organization owns. This data collection technique requires preparation and can require coordination between teams within your organization.

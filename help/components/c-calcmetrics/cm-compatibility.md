@@ -2,8 +2,8 @@
 description: Explains the three Product Compatibility options.
 title: Metric compatibility
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 ---
-
 # Metric compatibility
 
 Explains the three Product Compatibility options.
@@ -32,4 +32,3 @@ When you create calculated or advanced calculated metrics in the Calculated Metr
   </tr> 
  </tbody> 
 </table>
-

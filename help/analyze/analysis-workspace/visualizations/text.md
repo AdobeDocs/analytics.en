@@ -2,8 +2,10 @@
 description: Lets you add user-defined text to your Workspace.
 title: Text
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
+feature: Visualizations
+role: Business Practitioner, Administrator
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 ---
-
 # Text
 
 You can add user-defined text to your Workspace project by using a text visualizations or panel/visualization descriptions (right-click header > **[!UICONTROL Edit description]**). You can also change the formatting of your text, add hyperlinks, and add images.

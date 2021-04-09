@@ -1,8 +1,8 @@
 ---
 description: This section contains the key concepts for Adobe Analytics, a brief description of the concept, and a specific documentation link with additional detail on the topic.
 title: Adobe Analytics - key concepts
+exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 ---
-
 # Adobe Analytics - key concepts
 
 This section contains the key concepts for Adobe Analytics, a brief description of the concept, and a specific documentation link with additional detail on the topic.

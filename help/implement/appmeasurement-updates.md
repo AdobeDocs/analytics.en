@@ -2,8 +2,8 @@
 title: AppMeasurement for JavaScript release notes
 description: Cumulative release notes for AppMeasurement for JavaScript.
 subtopic: Release notes
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 ---
-
 # AppMeasurement for JavaScript release notes
 
 Cumulative release notes for [!DNL AppMeasurement] for JavaScript.

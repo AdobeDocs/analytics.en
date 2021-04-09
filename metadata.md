@@ -1,18 +1,11 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: analytics 
 solution: Analytics
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: yes
-description: Includes repo-level metadata that passes through to user guide TOC.md files in the repo.
+feature-set: Analytics
 ---
 
 # Metadata for internal use

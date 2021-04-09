@@ -2,8 +2,8 @@
 description: This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 title: Data Privacy and Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 ---
-
 # Data Privacy and Data Connectors (Genesis)
 
 This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
@@ -193,4 +193,3 @@ If you are using an integration of any of the below connectors, you can simply c
   </tr> 
  </tbody> 
 </table>
-

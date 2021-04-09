@@ -1,3 +1,7 @@
+---
+
+exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
+---
 # Analytics in the Adobe Admin Console
 
 Use the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) to manage Analytics products and users. Adobe Admin Console is located at [adminconsole.adobe.com](https://adminconsole.adobe.com/).

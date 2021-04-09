@@ -2,8 +2,8 @@
 description: Use the Responsys data connector with Adobe Analytics.
 title: Responsys Data Connector for Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
+exl-id: c201d358-794e-43e1-8376-f4c2be74c463
 ---
-
 # Responsys Data Connector for Adobe Analytics{#responsys-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

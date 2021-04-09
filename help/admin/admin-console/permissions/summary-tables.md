@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Permissions - summary tables
 description: Tables that summarize the available Adobe Analytics permissions in Admin Console.
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 ---
-
 # Adobe Analytics Permissions - summary tables
 
 Use the following summary tables to identify Adobe Analytics permissions in the Admin Console, by logical groupings.

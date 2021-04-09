@@ -1,8 +1,8 @@
 ---
 title: abort
 description: The abort variable is a boolean that prevents a hit from being sent to Adobe data collection servers.
+exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 ---
-
 # abort
 
 The `abort` variable is a boolean that can prevent the next tracking call from being sent to Adobe.

@@ -1,15 +1,16 @@
 ---
 description: Learn how to sign in to Report Builder using your Experience Cloud login account.
 title: How to Sign In to Report Builder
-topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 ---
-
 # Report Builder Sign-In
 
 >[!IMPORTANT]
 >
->Report Builder version 5.6.47 and later supports Experience Cloud login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. By April 30, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.
+>Report Builder version 5.6.47 and later supports Experience Cloud login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. **By July 22, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.**
 
 To log in to Report Builder, use your Experience Cloud login account.
 
@@ -35,4 +36,3 @@ To sign in to Report Builder
     * Double-click a request in Excel.
 
 1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.
-

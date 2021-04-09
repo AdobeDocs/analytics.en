@@ -1,8 +1,8 @@
 ---
 title: Analytics Export Guide
 description: This guide outlines ways to get data out of Adobe Analytics using data feeds and Data Warehouse.
+exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 ---
-
 # Analytics Export Guide
 
 ![Banner](../../assets/doc_banner_export.png)

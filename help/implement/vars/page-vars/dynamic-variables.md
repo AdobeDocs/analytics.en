@@ -1,8 +1,8 @@
 ---
 title: Dynamic variables
 description: Copy variables without increasing image request length.
+exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 ---
-
 # Dynamic variables
 
 Dynamic variables let you copy values from one variable to another without increasing image request length. They are helpful when capturing the same data in multiple variables.

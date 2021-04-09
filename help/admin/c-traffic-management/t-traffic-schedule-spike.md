@@ -1,8 +1,8 @@
 ---
 title: Schedule a traffic spike
 description: Partner with Adobe to make sure high-traffic events don't experience latency.
+exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 ---
-
 # Schedule a traffic spike
 
 Adobe attempts to partner with clients to ensure that a high-traffic event is successful. Scheduling traffic spikes is the starting point in that partnering process. The Schedule Spike section lets you alert Adobe of temporary traffic spikes so that appropriate resources can be allocated to handle them.

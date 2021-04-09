@@ -4,8 +4,8 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Configure hosting options
 topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
+exl-id: cef5205e-bb21-4d8d-862b-33dc800e1118
 ---
-
 # Configure hosting options
 
 You can deploy [!UICONTROL Dynamic Tag Management] using one or more of the available hosting options.

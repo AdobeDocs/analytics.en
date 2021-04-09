@@ -1,8 +1,8 @@
 ---
 title: Acquisition reports in Adobe Analytics
 description: Learn how to create acquisition-based reports using Analysis Workspace.
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 ---
-
 # Acquisition reports
 
 Acquisition reports show how you obtain visitors to your site.

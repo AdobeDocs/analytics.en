@@ -2,8 +2,8 @@
 description: Learn how to disable legacy logins for Analytics users.
 title: Disable legacy logins
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 ---
-
 # Disable legacy logins{#disable-legacy-logins}
 
 Learn how to disable legacy logins for Analytics users.
@@ -22,4 +22,3 @@ After your users have migrated from the legacy Analytics user management system 
    Disable Legacy Login indicates which of your users can continue to use their legacy [!DNL my.omniture.com] user name and password.
 
    You cannot disable legacy logins for a user that is yet to be migrated. Once disabled, the user must use their Experience Cloud ID to login and access Analytics.
-

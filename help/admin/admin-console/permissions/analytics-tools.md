@@ -1,3 +1,7 @@
+---
+
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
+---
 # Product profile permissions for Analytics Tools
 
 Analytics Tools permission items grant access to features within Adobe Analytics. Analytics Tools permission items do not apply to a report suite, but rather to Adobe Analytics as a whole.

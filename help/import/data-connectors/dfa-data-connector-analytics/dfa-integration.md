@@ -4,8 +4,8 @@ keywords: DFA
 title: DFA Integration
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 ---
-
 # DFA Integration{#dfa-integration}
 
 Configuring the DFA integration involves the following tasks:
@@ -262,4 +262,4 @@ If the Timeout Percentage is very low, consider decreasing *`s.maxDelay`*. If it
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
-Timeouts are expected to decrease when you move to version 2.0 of the integration, because of the eliminations of 302 redirects. Initial findings with beta clients have shown consistent reduction in timeouts, and thus more DFA data being collected 
+Timeouts are expected to decrease when you move to version 2.0 of the integration, because of the eliminations of 302 redirects. Initial findings with beta clients have shown consistent reduction in timeouts, and thus more DFA data being collected

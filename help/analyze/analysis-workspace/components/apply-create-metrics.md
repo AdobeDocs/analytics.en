@@ -2,8 +2,10 @@
 description: There are two ways to use metrics in Analysis Workspace.
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Workspace Basics
+role: Business Practitioner, Administrator
+exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 ---
-
 # Metrics
 
 There are two ways to use metrics in Analysis Workspace.

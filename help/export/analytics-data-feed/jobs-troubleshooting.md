@@ -3,8 +3,8 @@ description: If an error occurs, an error is reported in the Job Status column.
 keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 title: Troubleshoot jobs
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
+exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 ---
-
 # Troubleshoot jobs
 
 If you are having issues getting a data feed to appear on your FTP site, use this page to understand why.

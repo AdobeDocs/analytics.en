@@ -1,8 +1,8 @@
 ---
 title: Cross-Device Analytics FAQ
 description: Frequently asked questions for Cross-Device Analytics
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 ---
-
 # Frequently asked questions
 
 ## How can I use CDA to see how people move from one device type to another?
@@ -90,3 +90,11 @@ If you would like to switch CDA identifying methods, talk to your organization's
 ## How does Adobe handle unique limits for an eVar used in field-based stitching?
 
 CDA pulls eVar dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop/eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.
+
+## How many of my company's report suites can be enabled for CDA?
+
+Multiple report suites may be enabled, however each additional report suite will increase the overall provisioning time if multiple report suites are requested at once. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.)
+
+## If my Experience Cloud org (a.k.a IMS org) has multiple companies in different regions, can I enable CDA for all of them?
+
+No. For the same org, only one region can have CDA enabled.

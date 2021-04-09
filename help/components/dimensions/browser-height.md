@@ -1,8 +1,8 @@
 ---
 title: Browser height - bucketed
 description: The height of the browser window in pixels.
+exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 ---
-
 # Browser height
 
 The 'Browser height - bucketed' dimension shows the height of the browser window, classified in groups of 100 pixels. This dimension is useful when you want to understand where the "fold" is on your site to visitors. Understanding where your fold is can allow you to optimize content for viewing.

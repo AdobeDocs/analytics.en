@@ -1,10 +1,11 @@
 ---
 description: Field descriptions for the Scheduled Task Manager.
 title: Scheduled Task Manager
-topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 ---
-
 # Scheduled Task Manager
 
 The Scheduled Task Manager lets you see a list of existing scheduled reports, along with their recipients, schedule details, and file formats. It also lets you reactivate scheduled workbooks that failed to run.
@@ -28,4 +29,3 @@ The Scheduled Task Manager lets you see a list of existing scheduled reports, al
 | Status | The status indicates whether the report was Sent or Not Sent. |
 | Email/FTP | The email or FTP address of the recipient of the report. |
 | File Format | The delivery format of the report, such as Excel, PDF, HTML, and so on. |
-

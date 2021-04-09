@@ -1,8 +1,8 @@
 ---
 title: Zip code
 description: The zip code of the visitor.
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 ---
-
 # Zip code
 
 The 'Zip code' dimension reports the zip or postal code of the visitor. You can use this dimension to understand more about the success of local advertising or see where in the world your site performs best.

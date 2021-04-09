@@ -3,8 +3,8 @@ description: Steps that describe how to configure success events.
 title: Configure success events
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 ---
-
 # Configure success events
 
 Steps that describe how to configure success events.
@@ -37,4 +37,3 @@ Steps that describe how to configure success events.
    >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) builder.
 
 1. Click **[!UICONTROL Save]**.
-

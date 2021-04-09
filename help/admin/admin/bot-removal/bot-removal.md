@@ -1,8 +1,8 @@
 ---
 title: Bot removal in Adobe Analytics
 description: 3 ways to remove bots in Adobe Analytics
+exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 ---
-
 # Bot removal in Adobe Analytics
 
 In Adobe Analytics, you have multiple options for removing bot traffic from reporting:

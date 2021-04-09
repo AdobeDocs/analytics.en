@@ -1,8 +1,8 @@
 ---
 title: getResponsiveLayout
 description: Determine which layout of a website is currently being viewed.
+exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 ---
-
 # Adobe plug-in: getResponsiveLayout
 
 >[!IMPORTANT]

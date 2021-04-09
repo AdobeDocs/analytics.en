@@ -1,3 +1,7 @@
+---
+
+exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
+---
 # Accounts and report suites
 
 In Adobe Analytics, there are two levels to keep data silos organized:

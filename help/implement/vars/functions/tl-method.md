@@ -1,8 +1,8 @@
 ---
 title: tl
 description: Send a link tracking call to Adobe.
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 ---
-
 # tl
 
 The `tl()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the [`t()`](t-method.md) method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.

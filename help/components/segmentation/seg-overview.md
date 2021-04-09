@@ -3,8 +3,8 @@ description: Segments allow you to identify subsets of visitors based on charact
 title: About segments and containers
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 ---
-
 # About segments and containers
 
 Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
@@ -290,4 +290,3 @@ In summary,
 
 * The Visit container returns all the pages seen in a visit where at least one page meets the criteria. So, if a page is only seen on visit 1 on day 1, then all pages viewed across the entire visit are included in the data.
 * Be careful when the condition you are segmenting on is on an eVar or other type of persistent variable. For example, you might use the condition "where campaign contains email" and it expires after 7 days. So, if the campaign is set on the first visit, it will persist for 7 more days. Each visit will be included even though the campaign was only set on the first visit. The other visits will also be included (as long as they are in the date range of the report). If you want to eliminate persistent values from being included, either use the event "instance of", or an equivalent Prop variable, if available.
-

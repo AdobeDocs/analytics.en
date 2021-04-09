@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target
 title: Customize page code
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
+exl-id: 24c2d10d-7985-43b1-b62f-0bb05ebf6fbc
 ---
-
 # Customize page code
 
 Use field descriptions in Dynamic Tag Management to customize page code when deploying Analytics.
@@ -30,4 +30,3 @@ Use field descriptions in Dynamic Tag Management to customize page code when dep
   </tr> 
  </tbody> 
 </table>
-

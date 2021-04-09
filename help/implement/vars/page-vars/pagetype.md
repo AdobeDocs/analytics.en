@@ -1,8 +1,8 @@
 ---
 title: pageType
 description: Determine if the current page is a 404 error.
+exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 ---
-
 # pageType
 
 The `pageType` variable is a flag used to designate error pages on your site, such as 404 errors. If this variable contains the string `errorPage`, it populates the 'Pages Not Found' dimension.

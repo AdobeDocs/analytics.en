@@ -2,8 +2,8 @@
 description: Adobe Analytics data governance FAQ
 title: Frequently asked questions
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
+exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 ---
-
 # Frequently asked questions
 
 <table id="table_FA37A4B3960C4181B9CCDB569A476936"> 

@@ -2,8 +2,10 @@
 description: Learn how to create shareable links to projects or visualizations
 keywords: Analysis Workspace sharing
 title: Create shareable links
+feature: Curate and Share
+role: Business Practitioner, Administrator
+exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 ---
-
 # Create shareable links
 
 Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Users who receive a link are required to log in to Adobe Analytics before they can get to the project. 

@@ -1,8 +1,8 @@
 ---
 title: Implementing with Facebook Instant Articles
 description: Implement Adobe Analytics on Facebook Instant Article pages.
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 ---
-
 # Implementing with Facebook Instant Articles
 
 Facebook Instant Articles allow publishers to build fast, interactive articles on Facebook. Instant Articles can load content up to 10 times faster than mobile web.

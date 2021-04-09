@@ -2,8 +2,8 @@
 title: Entry dimensions
 description: Lists entry dimensions and their use.
 keywords: entry page, entry site section, entry server, entry custom insight
+exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 ---
-
 # Entry dimensions
 
 *This help page describes how entries work as a dimension. For information on how entries work as a metric, see the [Entries](../metrics/entries.md) metric.*

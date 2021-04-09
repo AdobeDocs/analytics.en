@@ -2,8 +2,8 @@
 description: After deployment, you should validate that the integration is successfully transferring data through the following checks.
 title: Verifying the Integration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
+exl-id: 524c5908-cd98-4c20-b40f-b3e843dd0148
 ---
-
 # Verifying the Integration{#verifying-the-integration}
 
 After deployment, you should validate that the integration is successfully transferring data through the following checks.

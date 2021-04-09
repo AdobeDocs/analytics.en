@@ -1,8 +1,8 @@
 ---
 title: referrer
 description: Override the automatically collected referrer for a hit.
+exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 ---
-
 # referrer
 
 The `referrer` variable overrides the automatically collected referrer in reports. This variable is helpful in situations where the referrer might be lost, such as during redirects or temporarily forwarding the visitor to a payment processor. This variable helps populate the 'Referrer' and 'Referring Domain' dimensions.

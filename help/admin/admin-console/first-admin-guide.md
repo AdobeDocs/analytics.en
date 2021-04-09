@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics First Admin Guide
 description: Understand how to get started with Adobe Analytics, general role types, and logging in to the UI.
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 ---
-
 # Adobe Analytics First Admin Guide
 
 A first admin is the starting point in enabling the rest of the organization to use each Experience Cloud solution. Once a contract has been signed, a provisioning team at Adobe prepares for the account to be created. The first admin receives an email with login credentials before the contract's start date. Ensuring the first admin's contact info is given to Adobe and accurate before the contract is signed is highly recommended.

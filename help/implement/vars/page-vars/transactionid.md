@@ -1,8 +1,8 @@
 ---
 title: transactionID
 description: Use this variable to link online and offline data together.
+exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 ---
-
 # transactionID
 
 The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. This variable is valuable in cases where you want to use data from other channels and link it to data collected with AppMeasurement.

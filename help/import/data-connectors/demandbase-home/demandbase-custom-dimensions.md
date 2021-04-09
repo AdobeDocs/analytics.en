@@ -2,8 +2,8 @@
 description: Lists optional dimension identifiers that can be given in Step 4 of the Adobe Integration wizard.
 title: Demandbase Custom Dimensions
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
+exl-id: d5023be7-1040-4cd1-bdbe-9869f84759bf
 ---
-
 # Demandbase Custom Dimensions{#demandbase-custom-dimensions}
 
 Lists optional dimension identifiers that can be given in Step 4 of the Adobe Integration wizard.
@@ -140,4 +140,3 @@ If you are unsure of the exact API ID to enter into the wizard, please consult w
   </tr> 
  </tbody> 
 </table>
-

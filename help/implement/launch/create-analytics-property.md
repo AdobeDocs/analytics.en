@@ -1,8 +1,8 @@
 ---
 title: Create an Analytics property in Launch
 description: Create a space to customize how data is collected, using Adobe Experience Platform Launch.
+exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 ---
-
 # Create an Analytics property in Adobe Experience Platform Launch
 
 Adobe Experience Platform Launch is the tool you can use to integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a Launch admin can get a basic Adobe Analytics implementation configured correctly.

@@ -1,8 +1,8 @@
 ---
 title: Integrate Module
 description: The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization.
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 ---
-
 # Integrate Module
 
 The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization. This integration provides the opportunity for a two-way data connection. Typically, use of the Integrate Module is driven by an Adobe partner.

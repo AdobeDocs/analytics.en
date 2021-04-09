@@ -1,8 +1,8 @@
 ---
 title: usePlugins
 description: Enable or disable the doPlugins() function.
+exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 ---
-
 # usePlugins
 
 If `usePlugins` is enabled, the [`doPlugins()`](../functions/doplugins.md) function runs just before AppMeasurement compiles and sends a hit to Adobe. Enable this variable if you use the `doPlugins()` function.

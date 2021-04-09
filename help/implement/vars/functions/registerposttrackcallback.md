@@ -1,8 +1,8 @@
 ---
 title: registerPostTrackCallback
 description: Create callback functions after sending a hit to Adobe.
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 ---
-
 # registerPostTrackCallback
 
 The `registerPostTrackCallback` variable allows your organization to hook a JavaScript function immediately after a hit is successfully sent to Adobe. If a tracking call fails, this function does not run. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure, or clean up variable values in single-page applications.

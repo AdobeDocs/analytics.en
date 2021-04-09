@@ -1,8 +1,8 @@
 ---
 title: useBeacon
 description: useBeacon lets you force AppMeasurement to use the browsers sendBeacon API
+exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 ---
-
 # useBeacon
 
 Most modern browsers include the native method `navigator.sendBeacon()`. It asynchronously sends a small amount of data over HTTP to a web server. AppMeasurement can use the `navigator.sendBeacon()` method if the `useBeacon` variable is enabled. It is useful for exit links and other situations where you want to send information before the page unloads.

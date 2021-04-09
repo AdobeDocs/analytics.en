@@ -1,8 +1,10 @@
 ---
 title: Freeform table
 description: Freeform tables are the foundation for data analysis in Workspace
+feature: Freeform Tables
+role: Business Practitioner, Administrator
+exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 ---
-
 # Freeform table
 
 In Analysis Workspace, a Freeform Table is the foundation for interactive data analysis. You can drag and drop a combination of [components](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) into rows and columns to create a custom table for your analysis. As each component is dropped, the table will update immediately so you can do quickly analyze and dig deeper.

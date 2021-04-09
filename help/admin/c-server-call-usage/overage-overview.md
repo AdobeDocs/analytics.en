@@ -2,8 +2,8 @@
 description: Overview of Adobe Analytics server call usage functionality.
 title: Server Call Usage Overview
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 ---
-
 # Server Call Usage Overview
 
 ## Why Monitor and Alert to Server Call Usage? {#section_060C29BF1D00444B85892AD1FCF55290}
@@ -107,4 +107,3 @@ The Server Call Usage permission is automatically granted to Analytics Admins. I
   </tr> 
  </tbody> 
 </table>
-

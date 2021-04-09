@@ -1,8 +1,8 @@
 ---
 title: visitorNameSpace
 description: Retired variable that determined cookie domain.
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 ---
-
 # visitorNamespace
 
 >[!IMPORTANT]

@@ -1,8 +1,8 @@
 ---
 title: Browser type
 description: The organization that made the browser.
+exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
 ---
-
 # Browser type
 
 The 'Browser type' dimension lists organizations who made the browser that the visitor uses. This dimension is useful when you want to see which overarching browsers visitors use. It provides value over the 'Browsers' dimension in that it does not list different versions of the same browser as separate dimension items.

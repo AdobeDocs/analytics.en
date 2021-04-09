@@ -2,8 +2,8 @@
 description: Deploying this integration is a simple 3-step process.
 title: Deploying the Integration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
+exl-id: cf177d8a-f1b9-485f-a8a3-21c05e24f388
 ---
-
 # Deploying the Integration{#deploying-the-integration}
 
 Deploying this integration is a simple 3-step process.

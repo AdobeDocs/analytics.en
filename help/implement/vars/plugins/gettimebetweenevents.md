@@ -1,8 +1,8 @@
 ---
 title: getTimeBetweenEvents
 description: Measure the amount of time between two events.
+exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 ---
-
 # Adobe plug-in: getTimeBetweenEvents
 
 >[!IMPORTANT]

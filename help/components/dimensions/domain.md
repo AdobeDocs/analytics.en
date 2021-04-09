@@ -1,8 +1,8 @@
 ---
 title: Domain
 description: The organization or ISP the visitor uses to access the internet.
+exl-id: 292dc256-e9e7-47be-8586-774f1c047011
 ---
-
 # Domain
 
 The 'Domain' dimension reports access points that visitors use to access the internet.

@@ -1,8 +1,8 @@
 ---
 title: cookieLifetime
 description: Override the expiration for cookies that AppMeasurement creates.
+exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 ---
-
 # cookieLifetime
 
 Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `cookieLifetime` variable to override the expiration date for cookies set by AppMeasurement.

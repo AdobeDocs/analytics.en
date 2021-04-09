@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics
 title: Page views and content
 uuid: 6d019304-5892-475b-9887-00f86983f859
+exl-id: 7c294ac3-1674-4a58-96bc-576aa412ef57
 ---
-
 # Page views and content
 
 Field descriptions in Dynamic Tag Management for page views and content settings when deploying Analytics.

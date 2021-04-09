@@ -1,8 +1,8 @@
 ---
 title: List variables
 description: Create and configure list variables for use in reporting.
+exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 ---
-
 # List variables
 
 Create and configure list variables for use in reporting. Set their delimiter, expiration, allocation, and max values here.

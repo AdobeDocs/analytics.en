@@ -2,8 +2,8 @@
 description: This Adobe® Data Connectors™ email integration combines behavioral information from Analytics® with Silverpop email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
 title: Silverpop Data Connector for Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
+exl-id: 28948f0d-ce55-4414-b39e-36831af650f2
 ---
-
 # Silverpop Data Connector for Adobe Analytics{#silverpop-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

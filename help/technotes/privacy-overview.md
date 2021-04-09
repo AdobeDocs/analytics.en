@@ -3,8 +3,8 @@ description: Overview of what data Adobe Analytics collects and other privacy co
 keywords: privacy
 title: Privacy overview
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 ---
-
 # Privacy overview
 
 Adobe recommends that you provide your website visitors with easy-to-find and easy-to-understand information regarding the ability to opt out of having their browsing information collected by Adobe products or services.

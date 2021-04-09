@@ -2,8 +2,8 @@
 description: The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 title: Reference  basic functions
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
+exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 ---
-
 # Reference: basic functions
 
 The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
@@ -275,4 +275,4 @@ As an example, let's say you have a three-item column:
 
 3
 
-The average of this column is 2. The variance for the column will be ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. 
+The average of this column is 2. The variance for the column will be ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.

@@ -2,8 +2,10 @@
 description: Configure a fallout visualization.
 title: Configure a fallout visualization
 uuid: fc117745-baf3-46fb-873d-9307092cc337
+feature: Visualizations
+role: Business Practitioner, Administrator
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 ---
-
 # Configure a fallout visualization
 
 You can specify the touchpoints to create a multi-dimensional fallout sequence. Commonly, a touchpoint is a page on your site. However, touchpoints are not limited to pages. For example, you can add events, such as units, as well as unique visitors and return visits. You can also add dimensions, such as a category, browser type, or internal search term.

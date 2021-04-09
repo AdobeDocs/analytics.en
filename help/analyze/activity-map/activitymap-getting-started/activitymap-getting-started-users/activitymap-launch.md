@@ -1,10 +1,11 @@
 ---
 description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
 title: Launch Activity Map
-topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
+feature: Activity Map
+role: Business Practitioner, Administrator
+exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 ---
-
 # Launch Activity Map{#launch-activity-map}
 
 Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
@@ -13,4 +14,3 @@ Assuming that the correct browser plug-in is installed, you can launch Activity 
 ![](assets/an_icon.png){width="90px"} 
 1. Sign in with your login company, username and password.
 1. The application should launch, displaying the toolbar and overlays.
-

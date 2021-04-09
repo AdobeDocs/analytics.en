@@ -2,8 +2,8 @@
 description: Variables for privacy reporting in Data Privacy.
 title: Privacy Reporting Variables
 topic: Admin tools
+exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 ---
-
 # Privacy Reporting Variables
 
 To provide additional assistance in managing privacy data, a set of reserved variables are available to be used in conjunction with specific context data variables.

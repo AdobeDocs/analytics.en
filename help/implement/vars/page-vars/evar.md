@@ -1,8 +1,8 @@
 ---
 title: eVar
 description: Custom variables you can use in your implementation.
+exl-id: f89457b2-4186-4276-8637-9992070e3a73
 ---
-
 # eVar
 
 *This help page describes how to implement eVars. For information on how eVars work as a dimension, see [eVars](/help/components/dimensions/evar.md) in the Components user guide.*

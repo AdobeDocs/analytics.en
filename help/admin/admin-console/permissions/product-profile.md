@@ -1,3 +1,7 @@
+---
+
+exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
+---
 # Product profiles for Adobe Analytics
 
 Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an Experience Cloud user to that product profile, they inherit the permission items contained in the product profile.

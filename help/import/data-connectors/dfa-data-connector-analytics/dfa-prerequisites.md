@@ -4,8 +4,8 @@ keywords: DFA
 title: Prerequisites
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 ---
-
 # Prerequisites{#prerequisites}
 
 Before starting the Adobe Data Connectors integration for DFA, do the following:
@@ -24,4 +24,3 @@ Before starting the Adobe Data Connectors integration for DFA, do the following:
 * (Optional) Identify the Reports & Analytics events which will store DFA Cost data. You might want to rename these events appropriately.
 * (Optional) Identify a Reports & Analytics Custom Variable and Success Event which will store DFA errors and timeouts. These variables help to diagnose problems that might arise with the integration.
 * (Optional) Create a special Email account for receiving information and notifications related to the Data Connectors integration for DFA.
-

@@ -2,8 +2,8 @@
 description: The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
 title: View/Manage Report Suite's Data Governance Settings
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 ---
-
 # View/Manage Report Suite's Data Governance Settings
 
 The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
@@ -58,4 +58,3 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
   </tr> 
  </tbody> 
 </table>
-

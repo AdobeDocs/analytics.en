@@ -1,8 +1,8 @@
 ---
 title: Regional Data Collection
 description: Information on Regional Data Collection
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 ---
-
 # Regional Data Collection
 
 The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interactions between your end users and the Adobe Experience cloud occur as close to your end users as possible. This improves your site/app performance and ensures that data is collected as quickly as possible to optimize the end user experience. Once data from your digital properties is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC) where it is processed and made available to products in the Adobe Experience Cloud.

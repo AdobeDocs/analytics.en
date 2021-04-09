@@ -2,8 +2,8 @@
 description: The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
 title: Analytics Integration Variables
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
+exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
 ---
-
 # Analytics Integration Variables{#analytics-integration-variables}
 
 The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
@@ -34,4 +34,3 @@ The following table describes the Analytics variables needed for the Silverpop i
 |  eVar  | Email Address  | Manually collected through Analytics tags.  | Email Address is for manually collecting the email address on sign-up, log-in, or other pages that the email address is collected on. This variable is used to remarket to users who have opted-in to receive email, but may not have already clicked through an email in the past.  |
 |  eVar  | Downloaded File  | Manually collected through Analytics tags.  | Downloaded File identifies which file a visitor downloaded.  |
 |  eVar  | Form Name  | Manually collected through Analytics tags.  | Form Name identifies which form a visitor abandoned.  |
-

@@ -1,8 +1,8 @@
 ---
 title: Browser
 description: The name and version of the browser used.
+exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 ---
-
 # Browser
 
 The 'Browser' dimension reports the name and version of the browser sending the hit. This dimension is useful to understand what the most common browsers that visitors use. When testing new versions of your site, you can run those tests on the top browsers in this dimension to maximize quality control efforts.

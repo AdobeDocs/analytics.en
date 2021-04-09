@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target
 title: Create conditions for page-load rules
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
+exl-id: 3b931041-a0d2-4a09-b8a8-c2d74c47b0f9
 ---
-
 # Create conditions for page-load rules
 
 Create rules that determine on what pages a rule is triggered.
@@ -21,4 +21,3 @@ Create rules that determine on what pages a rule is triggered.
    For example, you can select **[!UICONTROL Path]** to identify specific pages for which you want the rule to fire.
 
    ![](assets/conditions-page-load-rules2.png)
-

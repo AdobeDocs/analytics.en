@@ -4,8 +4,8 @@ keywords: Analytics Implementation
 title: Using Timestamps Optional
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 ---
-
 # Using Timestamps Optional
 
 Learn about the benefits and constraints of using Timestamps Optional setting.

@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot H code implementations
 description: Learn some common issues with legacy JavaScript implementations.
+exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 ---
-
 # Troubleshoot H code implementations
 
 The following are troubleshooting steps specific to H code implementations.

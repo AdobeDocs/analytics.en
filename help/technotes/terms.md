@@ -1,8 +1,8 @@
 ---
 title: Terms used in Adobe Analytics
 description: Glossary for Adobe Analytics, defining common terms used.
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 ---
-
 # Terms used in Adobe Analytics
 
 Use this glossary to understand the context of many terms Adobe Analytics uses.

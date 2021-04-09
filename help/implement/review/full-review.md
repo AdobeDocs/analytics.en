@@ -1,8 +1,8 @@
 ---
 title: Full Review
 description: Review your implementation every 6 months to ensure continued alignment with business needs and KPIs.
+exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 ---
-
 # Full Review (for reviewing your implementation twice yearly)
 
 Why should you review your implementation every 6 months? Because you need to make sure your implementation stays aligned with your business needs! You also want to address any issues with data quality while they're small and before they grow into major data issues that could erode stakeholders’ confidence. In addition to these Full Reviews every 6 months, you should also be doing [Focused Reviews](/help/implement/review/focused-review.md), after each website release.

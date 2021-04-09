@@ -1,8 +1,8 @@
 ---
 title: Analytics Integration
 description: Learn how you can integrate data from other locations into Adobe Analytics.
+exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 ---
-
 # Analytics Integration
 
 ![Banner](../../assets/doc_banner_integrate.png)

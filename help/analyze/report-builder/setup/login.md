@@ -10,7 +10,7 @@ exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 
 >[!IMPORTANT]
 >
->Report Builder version 5.6.47 and later supports Experience Cloud login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. By April 30, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.
+>Report Builder version 5.6.47 and later supports Experience Cloud login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. **By July 22, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.**
 
 To log in to Report Builder, use your Experience Cloud login account.
 

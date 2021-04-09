@@ -4,8 +4,8 @@ subtopic: Users and groups
 title: User group settings
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
+exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 ---
-
 # User group settings (Legacy)
 
 >[!IMPORTANT]
@@ -131,4 +131,3 @@ Descriptions of elements on the Define User Group page.
   </tr> 
  </tbody> 
 </table>
-

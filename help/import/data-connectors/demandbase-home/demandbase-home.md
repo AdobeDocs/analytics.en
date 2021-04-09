@@ -2,8 +2,8 @@
 description: Use the Demandbase data connector with Adobe Analytics.
 title: Demandbase Data Connector for Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
+exl-id: 58df8b26-2076-4943-b89f-0db4faecd5bb
 ---
-
 # Demandbase Data Connector for Adobe Analytics{#demandbase-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

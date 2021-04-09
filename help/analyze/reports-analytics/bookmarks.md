@@ -2,10 +2,11 @@
 description: Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
 subtopic: Bookmarks
 title: Bookmark Manager
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
+exl-id: 8b923484-0988-4271-8186-317bb33f2210
 ---
-
 # Bookmark Manager
 
 Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
@@ -109,4 +110,3 @@ t_bookmarks_managing.xml
   </tr> 
  </tbody> 
 </table>
-

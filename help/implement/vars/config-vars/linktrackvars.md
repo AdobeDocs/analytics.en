@@ -1,8 +1,8 @@
 ---
 title: linkTrackVars
 description: Specify which variables to include in link tracking image requests.
+exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 ---
-
 # linkTrackVars
 
 Some implementations don't want to include all variables in all link tracking image requests. Use the `linkTrackVars` and [`linkTrackEvents`](linktrackevents.md) variables to selectively include dimensions and metrics in [`tl()`](../functions/tl-method.md) calls.

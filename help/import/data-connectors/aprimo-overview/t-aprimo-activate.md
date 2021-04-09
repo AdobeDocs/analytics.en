@@ -2,8 +2,8 @@
 description: Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 title: Activate the Integration
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
+exl-id: 520a2b59-5595-4337-b71c-ea0448bf9267
 ---
-
 # Activate the Integration {#activate-the-integration}
 
 Use the Adobe Data Connectors Configuration Wizard to set up the integration.

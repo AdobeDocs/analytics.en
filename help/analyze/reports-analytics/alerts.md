@@ -2,10 +2,11 @@
 description: Use alerts in Reports & Analytics.
 subtopic: Alerts
 title: Alerts
-topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Alerts
+role: Business Practitioner, Administrator
+exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
 ---
-
 # Alerts
 
 ## Alerts {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
@@ -125,4 +126,3 @@ deprecated_alerts.xml
   </tr> 
  </tbody> 
 </table>
-

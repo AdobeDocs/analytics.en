@@ -1,8 +1,8 @@
 ---
 title: Data collection query parameters
 description: Lists all query string parameters used in image requests.
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 ---
-
 # Data collection query parameters
 
 The following table lists all query string parameters Adobe uses in image requests. This information can be used when debugging using [Packet analyzers](packet-monitor.md), when [hardcoding image requests](../other/hardcoded.md), or when using [Dynamic Variables](../vars/page-vars/dynamic-variables.md).

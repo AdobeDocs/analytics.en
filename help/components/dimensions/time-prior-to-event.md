@@ -1,8 +1,8 @@
 ---
 title: Time prior to event
 description: The amount of time between the metric and the first hit of the visit.
+exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 ---
-
 # Time prior to event
 
 The 'Time prior to event' dimension reports the amount of time that passed between the first hit of the visit and the desired metric. This dimension is useful to determine the amount of time it takes to hit a success event, such as a form submission or a purchase.

@@ -3,8 +3,8 @@ description: Provides common settings for a website that provides product suppor
 title: Support Media
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 ---
-
 # Support Media
 
 Provides common settings for a website that provides product support articles and videos.
@@ -39,4 +39,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

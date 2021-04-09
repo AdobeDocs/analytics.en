@@ -2,8 +2,8 @@
 description: If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
 title: Adobe Analytics Plug-In Code
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
+exl-id: 015587ec-2351-4e58-a9c5-4cae70f8c80a
 ---
-
 # Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Adobe Analytics code on your pages.
@@ -25,4 +25,3 @@ s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in cam
 >[!NOTE]
 >
 >The plug-in above assumes certain Custom Commerce Variables (eVars) are available. If the variables specified in the plug-in above are not available within your Adobe Analytics deployment, simply replace them with those that are available.
-

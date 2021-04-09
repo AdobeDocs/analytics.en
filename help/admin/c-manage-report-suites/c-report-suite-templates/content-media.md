@@ -3,8 +3,8 @@ description: Defines common settings for a website that develops original conten
 title: Content and Media
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 ---
-
 # Content and Media
 
 Defines common settings for a website that develops original content and displays articles and videos.
@@ -46,4 +46,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

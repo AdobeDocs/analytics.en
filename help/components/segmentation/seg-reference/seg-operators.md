@@ -3,8 +3,8 @@ description: The Segment Builder allows you to compare and constrain values usin
 title: Comparison Operators for Segments
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 ---
-
 # Comparison Operators for Segments
 
 The Segment Builder lets you compare and constrain values using selected operators.
@@ -48,4 +48,3 @@ The only supported wildcard character is the asterisk: &#42;. If you need to sea
 | is less than |Returns dimension items whose unique count is less than the value entered. |
 | is greater than or equal to |Returns dimension items whose unique count is greater than or equal to the value entered. |
 | is less than or equal to |Returns dimension items whose unique count is less than or equal to the value entered. |
-

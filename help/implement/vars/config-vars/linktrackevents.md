@@ -1,8 +1,8 @@
 ---
 title: linkTrackEvents
 description: Determine what events to include in link tracking image requests.
+exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 ---
-
 # linkTrackEvents
 
 Some implementations don't want to include all variables in all link tracking image requests. Use the [`linkTrackVars`](linktrackvars.md) and `linkTrackEvents` variables to selectively include dimensions and metrics in [`tl()`](../functions/tl-method.md) calls.

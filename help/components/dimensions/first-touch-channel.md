@@ -1,8 +1,8 @@
 ---
 title: First touch channel
 description: The first marketing channel within the visitor's engagement expiration.
+exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
 ---
-
 # First touch channel
 
 The 'First touch channel' dimension reports the first marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding which marketing channels drive initial traffic to your site, allowing you to focus marketing efforts in areas that are most effective.

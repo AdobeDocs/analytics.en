@@ -2,8 +2,8 @@
 description: Troubleshoot and fix issues related to Advertising Analytics.
 title: Troubleshoot Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 ---
-
 # Troubleshoot Advertising Analytics
 
 * [I don't see my Report Suite in the Mapping section](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316) 
@@ -48,4 +48,3 @@ You are trying to [set up a new Advertising Account](/help/integrate/c-advertisi
   </tr> 
  </tbody> 
 </table>
-

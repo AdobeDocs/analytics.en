@@ -4,8 +4,8 @@ keywords: DFA
 title: Frequently Asked Questions
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
+exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 ---
-
 # Frequently Asked Questions{#frequently-asked-questions}
 
 ## Why won't the Data Connectors wizard accept my login credentials? {#section-f019b3de18774df3954af7881aa564fa}

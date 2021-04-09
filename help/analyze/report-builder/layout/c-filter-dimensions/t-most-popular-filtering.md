@@ -1,10 +1,11 @@
 ---
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
 title: Most popular filtering
-topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 ---
-
 # Most popular filtering
 
 Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.

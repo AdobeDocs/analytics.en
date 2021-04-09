@@ -1,8 +1,8 @@
 ---
 title: Operating system types
 description: The operating system regardless of version.
+exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
 ---
-
 # Operating system types
 
 The 'Operating system types' dimension shows the overarching OS the visitor used, regardless of specific versions. This dimension is useful to understand not just which specific operating system and version is most common, but which typical OS platform visitors use.

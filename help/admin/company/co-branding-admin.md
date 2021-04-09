@@ -3,8 +3,8 @@ description: The Manage Co-Branding Image page lets you display your company log
 title: Co-Branding
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
+exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 ---
-
 # Co-Branding
 
 The Manage Co-Branding Image page lets you display your company logo in Reports & Analytics downloaded reports and legacy dashboards. Co-branding is not used in Analysis Workspace.

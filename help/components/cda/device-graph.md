@@ -1,8 +1,8 @@
 ---
 title: Device graph
 description: Understand the prerequisites and limitations of stitching data using the device graph.
+exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 ---
-
 # Device graph
 
 Cross-Device Analytics provides two distinct methods to stitch data together. This method uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to stitch data together. CDA regularly communicates with the device graph to link devices together.
@@ -37,4 +37,3 @@ If you intend to implement Cross-Device Analytics using the device graph method,
 ## Next steps
 
 Once your organization meets all requirements met and understands the limitations, you can start [Setting up Cross-Device Analytics](setup.md).
-

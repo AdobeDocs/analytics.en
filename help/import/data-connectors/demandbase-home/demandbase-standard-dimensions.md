@@ -2,8 +2,8 @@
 description: Lists the standard dimensions that will automatically be captured with the integration.
 title: Demandbase Standard Dimensions
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
+exl-id: 261ccb2b-a3c6-439b-bce4-c5e7672b22e0
 ---
-
 # Demandbase Standard Dimensions{#demandbase-standard-dimensions}
 
 Lists the standard dimensions that will automatically be captured with the integration.
@@ -18,4 +18,3 @@ Lists the standard dimensions that will automatically be captured with the integ
 |  Revenue Range  | revenue_range  | Revenue range based on the annual sales of the organization identified.  |
 |  Audience  | audience  | Classifies web traffic by defined categories (e.g. Enterprise Business, Mid-Market Business, SMB, Government, Wireless, Residential, etc).  |
 |  Audience Segment  | audience_segment  | Depending on Audience type, additional classification granularity is returned (e.g., Branch type for Government; Institution type for Education; Industry for Business).  |
-

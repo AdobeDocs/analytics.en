@@ -1,8 +1,8 @@
 ---
 title: linkExternalFilters
 description: Use the linkExternalFilters variable to help automatic exit link tracking.
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 ---
-
 # linkExternalFilters
 
 AppMeasurement offers the ability to automatically track links that point outside your site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. The `linkExternalFilters` and [`linkInternalFilters`](linkinternalfilters.md) variables determine what links are considered internal/external.

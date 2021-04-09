@@ -1,8 +1,8 @@
 ---
 title: Compare Adobe Analytics data to third-party products
 description: Understand your options when directly comparing data in Adobe Analytics to data collected by other Analytics solutions.
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 ---
-
 # Compare Adobe Analytics data to third-party products
 
 There are many analytics solutions available online. Each of these solutions uses its own methods to implement code and collect data. Different products have their own definition on what constitutes a page view, a visit, a unique visitor, and other metrics used in each respective product.

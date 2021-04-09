@@ -1,10 +1,11 @@
 ---
 description: Steps for stopping link tracking in Activity Map or Legacy ClickMap.
 title: Stop link tracking
-topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
+feature: Activity Map
+role: Business Practitioner, Administrator
+exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
 ---
-
 # Stop link tracking
 
 Steps for stopping link tracking in Activity Map or Legacy ClickMap.
@@ -43,4 +44,3 @@ Steps for stopping link tracking in Activity Map or Legacy ClickMap.
   </tr> 
  </tbody> 
 </table>
-

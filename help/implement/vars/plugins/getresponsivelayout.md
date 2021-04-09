@@ -1,8 +1,8 @@
 ---
 title: getResponsiveLayout
 description: Determine which layout of a website is currently being viewed.
+exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 ---
-
 # Adobe plug-in: getResponsiveLayout
 
 >[!IMPORTANT]
@@ -44,8 +44,8 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getResponsiveLayout v1.0 */
-var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(tw)||plw<ppw||tw<plw)){var b=window.innerWidth|| document.documentElement.clientWidth||document.body.clientWidth;return(ppw<plw&&b<=plw?b<=ppw?"phone portrait layout":"phone landscape layout":b<=plw?"phone layout":b<=tw?"tablet layout":"desktop layout")+":"+b+"x"+(window.innerHeight|| document.documentElement.clientHeight||document.body.clientHeight)}};
+/* Adobe Consulting Plugin: getResponsiveLayout v1.1 (Requires AppMeasurement) */
+var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)return{plugin:"getResponsiveLayout",version:"1.1"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var d;a<window.s_c_il.length;a++)if(d=window.s_c_il[a],d._c&&"s_c"===d._c){a=d;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getResponsiveLayout="1.1");if(!(isNaN(c)||isNaN(b)||isNaN(e)||b<c||e<b))return a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,(c<b&&a<=b?a<=c?"phone portrait layout":"phone landscape layout":a<=b?"phone layout":a<=e?"tablet layout":"desktop layout")+":"+a+"x"+(window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight)};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -98,6 +98,10 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 ```
 
 ## Version History
+
+### 1.1 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 1.0 (May 2, 2018)
 

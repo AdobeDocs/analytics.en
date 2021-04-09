@@ -1,8 +1,8 @@
 ---
 title: Data feed UI
 description: Learn how to navigate the data feed interface.
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 ---
-
 # Manage data feeds
 
 The data feed manager lets you create, edit, and delete data feeds for your organization. If you have permissions to access the data feed manager, you can manage data feeds for all report suites visible to you.

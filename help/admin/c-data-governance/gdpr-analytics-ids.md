@@ -2,8 +2,8 @@
 description: Understand the IDs captured in your Analytics data, and decide which you will use for Data Privacy requests.
 title: Labeling best practices
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 ---
-
 # Labeling best practices
 
 >[!NOTE]
@@ -108,4 +108,3 @@ While very few fields will have any of the other labels, it will be common for a
   </tr> 
  </tbody> 
 </table>
-

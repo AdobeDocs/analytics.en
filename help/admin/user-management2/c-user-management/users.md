@@ -4,8 +4,8 @@ subtopic: Users and groups
 title: User management overview
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 ---
-
 # User management overview
 
 >[!IMPORTANT]
@@ -88,4 +88,3 @@ Creates a default dashboard for a specified report suite.
 |  [!UICONTROL Custom Message]  | Adds additional content to the welcome message. The custom message field supports HTML, but you cannot include attachments.  |
 |  [!UICONTROL Preview Email]  | Displays the Welcome email in a separate browser window.  |
 |  [!UICONTROL Set as default Welcome Message]  | Modifies the default Welcome message to include the custom content specified in the Custom Message pane.  |
-

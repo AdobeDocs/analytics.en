@@ -1,8 +1,8 @@
 ---
 title: Deploy Adobe Analytics to a dev environment
 description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your development environment.
+exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 ---
-
 # Deploy an Analytics implementation to a development environment
 
 Once a property has been created and configured in Launch, the libraries are ready to be deployed and code implemented on your site.

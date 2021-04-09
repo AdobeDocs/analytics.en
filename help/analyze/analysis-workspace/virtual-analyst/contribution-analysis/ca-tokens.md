@@ -2,8 +2,10 @@
 description: Use Contribution Analysis to identify statistical anomalies and correlations in data.
 title: Contribution Analysis overview
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
+feature: AI Tools
+role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 ---
-
 # Contribution Analysis overview
 
 Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments.

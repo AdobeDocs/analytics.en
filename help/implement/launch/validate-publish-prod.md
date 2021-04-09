@@ -1,8 +1,8 @@
 ---
 title: Validate a development implementation and publish to production
 description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your production environment.
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 ---
-
 # Validate a development implementation and publish to production
 
 Once your Adobe Experience Platform Launch library is pushed to production, your organization can begin to use Adobe Analytics to pull basic reports.

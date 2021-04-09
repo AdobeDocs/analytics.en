@@ -1,8 +1,8 @@
 ---
 title: Use AppMeasurement with iframes
 description: Access Adobe Analytics variables inside an iframe or a parent page while in an iframe.
+exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 ---
-
 # Use AppMeasurement with iframes
 
 You can reference AppMeasurement variables from both child and parent iframes. It is necessary to define all variables in the same location where the AppMeasurement library exists. The following examples explain how to set basic AppMeasurement variables and methods inside and outside an iframe.

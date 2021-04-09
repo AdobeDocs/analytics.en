@@ -3,8 +3,8 @@ description: You can provide custom report descriptions for eVars, props, classi
 title: Custom Report Descriptions
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
+exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 ---
-
 # Custom Report Descriptions
 
 You can provide custom report descriptions for eVars, props, classifications and events. The descriptions are visible to all of your end users.
@@ -29,4 +29,3 @@ The description is visible in two places:
 * As a tool tip when you hover over the report in the left navigation:
 
   ![](assets/report_description_3.png)
-

@@ -3,8 +3,8 @@ description: Steps that describe how to designate which eVar contains your visit
 title: Specify the Unique Visitor variable
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
+exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 ---
-
 # Specify the Unique Visitor variable
 
 Steps that describe how to designate which eVar contains your visitor identifier.

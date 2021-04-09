@@ -1,8 +1,8 @@
 ---
 title: End of life for Full Processing Data Sources
 description: Reasons for end of lifing and comparisons between Bulk Data Insertion API and Full Processing Data Sources.
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 ---
-
 # End of life for Full Processing Data Sources
 
 For several years, Full Processing Data Sources has enabled you to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected via our JavaScript libraries and mobile app SDK. In 2020, Adobe released the [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), which performs the same functions as Full Processing Data Sources, but with additional features. This topic provides details about additional functionality provided by the Bulk Data Insertion API and outlines differences in file formats.

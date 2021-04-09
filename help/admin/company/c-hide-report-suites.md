@@ -4,8 +4,8 @@ keywords: delete report suite
 title: Hide report suites
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 ---
-
 # Hide report suites
 
 Lets you hide report suites in the Adobe Analytics user interface.

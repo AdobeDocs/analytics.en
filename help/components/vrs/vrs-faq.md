@@ -4,8 +4,8 @@ keywords: Virtual Report Suite
 title: VRS FAQs
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
+exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 ---
-
 # VRS FAQs
 
 Tips and Best Practices for new users of virtual report suites.
@@ -68,4 +68,3 @@ Tips and Best Practices for new users of virtual report suites.
   </tr> 
  </tbody> 
 </table>
-

@@ -3,8 +3,8 @@ description: The Web Services APIs provide programmatic access to marketing repo
 title: Web Services
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 ---
-
 # Web Services
 
 The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.

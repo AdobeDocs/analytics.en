@@ -1,9 +1,10 @@
 ---
 title: Labs User Guide
 description: Preview prototype projects for Adobe Analytics
+feature: Labs
+role: Administrator
+exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 ---
-
-
 # [!UICONTROL Labs] User Guide
 
 [!UICONTROL Labs] allows for faster prototyping of early-stage ideas. It is a combination of tools and processes that accelerates development transparently, with a customer focus. It allows users to engage with emerging technologies, to discover valuable insights, and to influence future feature development and priorities. You can use Labs to get early access to Adobe Analytics innovations and to evaluate upcoming features within the context of your own business use cases and data.

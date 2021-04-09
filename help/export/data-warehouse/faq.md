@@ -1,8 +1,8 @@
 ---
 title: Data Warehouse FAQ
 description: Frequently asked questions for Data Warehouse.
+exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 ---
-
 # Data Warehouse FAQ
 
 Frequently asked questions for Data Warehouse.

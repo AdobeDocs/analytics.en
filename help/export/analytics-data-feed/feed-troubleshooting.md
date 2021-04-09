@@ -3,8 +3,8 @@ description: This section contains information about common issues.
 keywords: Data Feed;troubleshooting
 title: Troubleshoot Data Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
 ---
-
 # Troubleshoot Data Feeds
 
 This section contains information about common issues.

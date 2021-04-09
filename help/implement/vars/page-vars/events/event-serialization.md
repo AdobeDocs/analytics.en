@@ -1,8 +1,8 @@
 ---
 title: Event serialization
 description: Help deduplicate metrics on your site.
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 ---
-
 # Event ID serialization
 
 Event serialization is the process of implementing measures to prevent duplicate events from entering Analytics reporting. De-duplicating events is important in cases where you don't want metrics inflated by visitors refreshing the page.

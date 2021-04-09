@@ -1,8 +1,10 @@
 ---
 description: Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
 title: Getting started with Reports and Analytics
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
-
 # Get started with Reports & Analytics
 
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
@@ -95,4 +97,4 @@ Steps that describe how to change the interface language. You can view the Repor
 1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
 1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
-You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.) 
+You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)

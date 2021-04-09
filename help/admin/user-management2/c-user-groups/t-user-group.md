@@ -4,8 +4,8 @@ subtopic: Users and groups
 title: Add a user group
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
+exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
 ---
-
 # Add a user group
 
 >[!IMPORTANT]

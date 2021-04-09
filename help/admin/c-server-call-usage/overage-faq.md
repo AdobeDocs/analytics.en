@@ -2,8 +2,8 @@
 description: Adobe Analytics Server Call Usage FAQ
 title: Server Call Usage FAQ
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
+exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 ---
-
 # Server Call Usage FAQ
 
 <table id="table_10384E2010B849708AE9462BB2B43438"> 

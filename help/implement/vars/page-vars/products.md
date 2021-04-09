@@ -1,8 +1,8 @@
 ---
 title: products
 description: Send data around what product(s) are displayed or in the cart.
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 ---
-
 # products
 
 The `products` variable tracks products and properties tied to them. This variable is typically set on individual product pages, shopping cart pages, and purchase confirmation pages. It is a multi-value variable, meaning you can send multiple products in the same hit and Adobe parses the value into separate dimension items.

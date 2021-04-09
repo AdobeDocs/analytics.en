@@ -1,8 +1,10 @@
 ---
 title: Attribution panel
 description: How to use and interpret the attribution panel in Analysis Workspace.
+feature: Attribution
+role: Business Practitioner, Administrator
+exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 ---
-
 # Attribution panel
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution IQ](../attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
@@ -33,4 +35,3 @@ The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing
 * **Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
 * **Trended Performance**: Shows the trend of attributed conversions for the top dimension item. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
 * **Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
-

@@ -3,8 +3,8 @@ description: Descriptions of report suite types and comparison of global report 
 title: Report suite approaches
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
+exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 ---
-
 # Report suite approaches
 
 <!-- change filename since page name changed? -->

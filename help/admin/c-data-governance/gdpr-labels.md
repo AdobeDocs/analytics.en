@@ -2,8 +2,8 @@
 description: Examples of Data Privacy Labels for Adobe Analytics Variables
 title: Data Privacy Labels for Analytics Variables
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
-
 # Data Privacy Labels for Analytics Variables
 
 ## Why Label Your Data? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}

@@ -3,8 +3,8 @@ description: Calculated and Advanced Calculated (or Derived) Metrics are custom 
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-
 # Calculated and Advanced Calculated (Derived) Metrics
 
 Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
@@ -99,4 +99,3 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
  </tbody> 
 </table>
-

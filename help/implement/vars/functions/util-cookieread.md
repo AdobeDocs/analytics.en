@@ -1,8 +1,8 @@
 ---
 title: Util.cookieRead
 description: Gets the value for a cookie.
+exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 ---
-
 # Util.cookieRead
 
 Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieRead()` method to retrieve a value from a cookie.

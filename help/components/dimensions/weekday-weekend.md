@@ -1,8 +1,8 @@
 ---
 title: Weekday/Weekend
 description: Determines if the hit happened during a weekday or a weekend.
+exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
 ---
-
 # Weekday/Weekend
 
 The 'Weekday/Weekend' dimension provides insight on if the hit happened during a weekday (Monday - Friday) or weekend (Saturday - Sunday). The time of the hit is based on the [report suite's time zone](/help/admin/admin/general-acct-settings-admin.md).

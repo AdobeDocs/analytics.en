@@ -1,8 +1,8 @@
 ---
 title: visitorID
 description: Use a custom visitor ID.
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 ---
-
 # visitorID
 
 Adobe uses several different methods to identify visitors on your site. The `visitorID` variable overrides all other methods of visitor identification.

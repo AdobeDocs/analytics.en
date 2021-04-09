@@ -2,8 +2,8 @@
 description: The IDs you submit do not always cover all of the hit data that Analytics can associate with the data subject. Analytics can create an expanded set of IDs to include this associated data into the Data Privacy requests. You can request this option with an optional parameter to each Data Privacy request you submit, added to the JSON request 
 title: ID Expansion
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
+exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 ---
-
 # ID Expansion
 
 The IDs you submit do not always cover all of the hit data that Analytics can associate with the data subject. Analytics can create an expanded set of IDs to include this associated data into the Data Privacy requests. You can request this option with an optional parameter to each Data Privacy request you submit, added to the JSON request:
@@ -59,4 +59,3 @@ In addition to its default value, the priority field also supports a value of "l
 You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out data fields, and highlights one reason why the Privacy Service API is inappropriate for this use.
 
 Please contact your Account Manager (CSM) to coordinate with our Engineering Architect consulting team to further review & provide level of effort to remove any PII or data issues.
-

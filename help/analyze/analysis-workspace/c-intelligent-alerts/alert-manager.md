@@ -2,8 +2,10 @@
 description: Create, edit, or delete alerts.
 title: Alert Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
+feature: AI Tools
+role: Business Practitioner, Administrator
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 ---
-
 # Alert Manager
 
  ![](assets/alert-manager.png)
@@ -27,4 +29,3 @@ The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > *
 * Specify/change the owner of an alert.
 * Add other filters.
 * Define an alert **expiration date**.
-

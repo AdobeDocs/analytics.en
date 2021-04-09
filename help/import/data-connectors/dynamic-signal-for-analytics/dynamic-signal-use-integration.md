@@ -2,8 +2,8 @@
 description: Use the Dynamic Signal VoiceStorm data connector with Adobe Analytics.
 title: Using the Integration
 uuid: c902a868-20a7-42df-8a79-8e154608f299
+exl-id: 268fac54-6b63-402f-860b-680d22ab58c7
 ---
-
 # Using the Integration{#using-the-integration}
 
 Once deployed, you can begin using the additional capabilities that this integration provides.
@@ -45,4 +45,3 @@ Lists the Dynamic Signal reporting dimensions that are included with this integr
 |  Source Name  | The source is the creator (or author) of the shared post. In most cases, this is a member of the community or an external feed.  |
 |  Article Title  | The title of the shared post that generated clicks back to your site.  |
 |  Community Name  | The name of your Dynamic Signal community.  |
-

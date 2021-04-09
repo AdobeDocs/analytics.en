@@ -2,8 +2,10 @@
 description: Project sharing and project roles in Workspace
 keywords: Analysis Workspace sharing
 title: Share projects
+feature: Curate and Share
+role: Business Practitioner, Administrator
+exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
-
 # Share projects
 
 Sharing makes a project available to other Analysis Workspace users in your organization. Any [curation](curate.md) you have applied is reflected when recipients open the project. 

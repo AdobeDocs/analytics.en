@@ -3,8 +3,8 @@ description: Answers to questions you might have when implementing Audience Anal
 solution: Experience Cloud
 title: Frequently Asked Questions
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 ---
-
 # Frequently Asked Questions
 
 Answers to questions you might have when implementing Audience Analytics.
@@ -148,4 +148,3 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
  </tbody> 
 </table>
-

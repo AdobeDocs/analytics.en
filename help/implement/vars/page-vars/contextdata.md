@@ -1,8 +1,8 @@
 ---
 title: contextData
 description: Context data variables let you define custom variables on each page that processing rules can read.
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 ---
-
 # contextData
 
 Context data variables let you define custom variables on each page that processing rules can read. Instead of explicitly assigning values to Analytics variables in your code, you can send data in context data variables. Processing rules then take context data variable values and pass them into respective Analytics variables. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.

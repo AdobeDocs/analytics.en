@@ -1,8 +1,8 @@
 ---
 title: dynamicAccountSelection
 description: The dynamicAccountSelection variable enables or disables dynamic account selection.
+exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 ---
-
 # dynamicAccountSelection
 
 >[!IMPORTANT]

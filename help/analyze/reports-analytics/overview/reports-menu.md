@@ -2,8 +2,10 @@
 description: An overview of the Reports menu in Reports & Analytics.
 title: Reports Menu
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
+exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 ---
-
 # Reports Menu{#reports-menu}
 
 An overview of the Reports menu in Reports & Analytics.

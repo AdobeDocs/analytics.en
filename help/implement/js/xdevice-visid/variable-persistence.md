@@ -4,8 +4,8 @@ keywords: Analytics Implementation
 title: Attribution and persistence
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 ---
-
 # Attribution and persistence
 
 >[!IMPORTANT]

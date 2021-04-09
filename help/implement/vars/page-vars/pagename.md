@@ -1,8 +1,8 @@
 ---
 title: pageName
 description: The name of the page on your site.
+exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 ---
-
 # pageName
 
 The `pageName` variable typically stores the name of a given page. It is helpful to determine what individual pages are most popular. This variable populates the [Page](/help/components/dimensions/page.md) dimension.

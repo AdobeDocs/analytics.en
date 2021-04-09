@@ -1,8 +1,8 @@
 ---
 title: Transaction ID data sources
 description: Learn the general workflow of using transaction ID data sources.
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 ---
-
 # Transaction ID data sources
 
 Transaction ID data sources allow you to not only view online and offline data side-by-side, but tie the data together. It requires the use of the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable in your Analytics implementation.

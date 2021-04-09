@@ -1,8 +1,8 @@
 ---
 title: Exit link
 description: The name of the exit link.
+exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 ---
-
 # Exit link
 
 The 'Exit link' dimension reports the names of exit links implemented on your site. This dimension is valuable when you want to understand which links are most popular that point to domains outside your site.

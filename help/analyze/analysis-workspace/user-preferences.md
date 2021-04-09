@@ -1,5 +1,6 @@
 ---
 title: How to set user preferences in Analysis Workspace
+description: You can set general and project preferences for users.
 feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0

@@ -4,8 +4,8 @@ keywords: DFA
 title: Analytics Reports Using DFA Data
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
+exl-id: e8b2dc3d-0360-4232-9a24-aa14e52f25d5
 ---
-
 # Analytics Reports Using DFA Data{#analytics-reports-using-dfa-data}
 
 Once DFA and Adobe® collection servers can communicate, you can generate reports in Reports & Analytics that include DFA data.

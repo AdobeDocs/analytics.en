@@ -3,8 +3,8 @@ description: Combine both timestamped and non-timestamped data into a single rep
 title: Timestamps optional
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 ---
-
 # Timestamps optional
 
 Combine both timestamped and non-timestamped data into a single report suite.
@@ -44,4 +44,3 @@ Timestamps Optional lets you:
 >[!NOTE]
 >
 >If a report suite was set to **Timestamps Optional**, to change this to any other setting, please contact Adobe Client Care.
-

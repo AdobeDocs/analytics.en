@@ -4,8 +4,8 @@ keywords: DFA
 title: Analytics Variables and Events
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
+exl-id: 8c3df2e8-84cd-4a14-b15b-42233d874c19
 ---
-
 # Analytics Variables and Events{#analytics-variables-and-events}
 
 The Data Connectors integration for DFA uses Analytics variables to track DFA campaign results.

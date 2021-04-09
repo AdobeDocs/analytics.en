@@ -1,8 +1,9 @@
 ---
 title: PWAs for Analytics
 description: Progressive web apps for Adobe Analytics
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 ---
-
 # PWAs for Adobe Analytics
 
 This page describes how to use Adobe Analytics with Progressive Web Apps (PWAs).

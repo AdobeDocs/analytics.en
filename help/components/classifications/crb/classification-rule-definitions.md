@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Classification rules - definitions
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 ---
-
 # Classification rules - definitions
 
 Definitions of interface elements on the pages in the Classification Rule Builder.
@@ -137,4 +137,3 @@ This page lets you test rules in a set.
 |---|---|
 |  Run Test  | When you test the rule set, use keys from the report to see how they will be impacted by the rule set.  |
 |  Filter  |Filters the values in the [!UICONTROL Results] panel.  |
-

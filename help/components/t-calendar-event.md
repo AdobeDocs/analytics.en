@@ -3,8 +3,8 @@ description: Steps to add calendar events, and to manage shared events.
 title: Calendar events
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 ---
-
 # Calendar events
 
 Steps to add calendar events, and to manage shared events.
@@ -37,4 +37,3 @@ For reports trended over time, you can graphically display events and see whethe
    |---|---|
    | **On Report** | Lets you see changes/updates made by the event owner. |
    | **Unshare** | Removes this event from your list of shared events. |
-

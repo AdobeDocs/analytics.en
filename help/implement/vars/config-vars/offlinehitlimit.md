@@ -1,8 +1,8 @@
 ---
 title: offlineHitLimit
 description: Determine the maximum number of hits to queue for offline tracking.
+exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 ---
-
 # offlineHitLimit
 
 Offline tracking is an optional way to collect data in Adobe Analytics. If a visitor disconnects from the internet but continues to browse your site, hits are stored in an offline queue until the device reconnects to the internet. Offline tracking is mostly used for mobile applications.

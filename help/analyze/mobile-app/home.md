@@ -1,8 +1,10 @@
 ---
 title: Adobe Analytics dashboards - Overview
 description: Product documentation and self-help for Adobe Analytics dashboards
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
+exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 ---
-
 # Adobe Analytics [!UICONTROL dashboards] - Overview
 
 **Adobe Analytics [!UICONTROL dashboards]** provide anytime, anywhere insights from Adobe Analytics. The app allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.

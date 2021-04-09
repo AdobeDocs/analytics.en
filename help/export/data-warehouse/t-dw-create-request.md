@@ -3,8 +3,8 @@ description: Steps that describe how to create a Data Warehouse request.
 title: Create a Data Warehouse request
 topic: Data warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
+exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 ---
-
 # Create a Data Warehouse request
 
 Steps that describe how to create a Data Warehouse request.

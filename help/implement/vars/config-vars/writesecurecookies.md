@@ -1,8 +1,8 @@
 ---
 title: writeSecureCookies
 description: Allows AppMeasurement to set cookies with the Secure attribute.
+exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 ---
-
 # writeSecureCookies
 
 The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) for Analytics. This setting applies to both visitor ID cookies set by AppMeasurement, and cookies you set using the `Util.CookieWrite()` method. It requires AppMeasurement 2.18.0 or higher.

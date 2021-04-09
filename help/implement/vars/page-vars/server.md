@@ -1,8 +1,8 @@
 ---
 title: server
 description: Populate the 'Servers' dimension.
+exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 ---
-
 # server
 
 The `server` variable typically stores the hostname of your site. It is commonly used in report suites that contain data from multiple domains. It is functionally identical to a prop.

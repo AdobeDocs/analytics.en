@@ -1,8 +1,8 @@
 ---
 title: Single page visits
 description: The number of times that the 'Page' dimension item did not change in a visit.
+exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 ---
-
 # Single page visits
 
 *This help page describes how 'Single page visits' works as a metric. See the [Single page visits](../dimensions/single-page-visits.md) dimension for more information.*

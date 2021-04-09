@@ -1,8 +1,8 @@
 ---
 description: Lean about when and why Analytics data connectors will be end-of-lifed.
 title: End-of-life pre-announcement for Analytics data connectors
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 ---
-
 # End-of-life for Adobe Data Connectors
 
 For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.

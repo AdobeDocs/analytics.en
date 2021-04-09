@@ -1,8 +1,8 @@
 ---
 title: linkURL
 description: Override the automatically generated link URL AppMeasurement uses in link tracking calls.
+exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 ---
-
 # linkURL
 
 Whenever a link tracking call is sent to Adobe, data collection servers automatically detect the URL. Use the `linkURL` variable to override the detected URL.

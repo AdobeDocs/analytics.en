@@ -1,8 +1,8 @@
 ---
 description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, and Data Workbench
 title: Analytics product comparison and requirements
+exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 ---
-
 # Analytics product comparison and requirements
 
 This page contains a comparison of various Adobe Analytics products: Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds and Analytics API 2.0.

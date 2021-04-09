@@ -4,8 +4,8 @@ subtopic: Qualtrics
 title: Qualtrics Data Connector for Adobe Analytics
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
+exl-id: 5c1234b1-bca8-4e7a-981e-1379e88821b8
 ---
-
 # Qualtrics Data Connector for Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]

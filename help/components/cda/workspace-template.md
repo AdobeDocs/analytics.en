@@ -1,8 +1,8 @@
 ---
 title: CDA Workspace template
 description: Describes each field in the CDA template within Analysis Workspace.
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 ---
-
 # CDA Workspace template
 
 Adobe offers a template to see vital cross-device performance data.

@@ -4,8 +4,8 @@ subtopic: Qualtrics
 title: Generating your Qualtrics Adobe Analytics Token
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 ---
-
 # Generating your Qualtrics Adobe Analytics Token{#generating-your-qualtrics-adobe-analytics-token}
 
 A token is required to complete the integration wizard. To find this ID, complete the following.
@@ -26,4 +26,3 @@ A token is required to complete the integration wizard. To find this ID, complet
    >[!NOTE]
    >
    >If you do not see the option to generate an Adobe Analytics Token, please contact your Qualtrics account administrator to enable the appropriate permissions for your account.
-

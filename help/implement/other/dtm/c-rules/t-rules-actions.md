@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target
 title: Set up actions for the condition to trigger
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
+exl-id: e88cf3a7-3de3-45e7-b3af-44795864f36a
 ---
-
 # Set up actions for the condition to trigger
 
 Set up actions that you want the condition to trigger.
@@ -34,4 +34,3 @@ Each rule can trigger as many scripts or HTML injections as you want.
 1. Specify how you want the script to trigger, and paste the desired content into the text area. ![](assets/scripts-actions3.png)
 
 1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
-

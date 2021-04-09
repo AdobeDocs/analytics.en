@@ -2,8 +2,8 @@
 description: A comprehensive list and descriptions of the configuration variables, HTTP headers, and data signals in server-side forwarding calls.
 title: Server-side forwarding data and code reference
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
+exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 ---
-
 # Server-side forwarding data and code reference
 
 A comprehensive list and descriptions of the configuration variables, HTTP headers, and data signals in server-side forwarding calls.

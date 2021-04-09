@@ -1,8 +1,10 @@
 ---
 title: Algorithmic attribution
 description: Details on the algorithmic attribution model.
+feature: Attribution
+role: Business Practitioner, Administrator
+exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 ---
-
 # Algorithmic attribution
 
 The Algorithmic [attribution model](models.md) in Analysis Workspace differs from other models in that it uses statistical techniques to allocate credit across the dimension items in your report or freeform table. Like all other attribution models in Analysis Workspace, it can be used on any dimension or metric and supports unlimited segmentation and breakdowns and distributes 100% of conversions to the dimension(s) in the table (also known as "fractional" attribution).

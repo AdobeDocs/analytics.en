@@ -3,8 +3,8 @@ description: Learn how to use FTP and SFTP to transfer files between computers a
 keywords: ftp;sftp
 title: Use FTP and SFTP with the Adobe Experience Cloud
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
+exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
 ---
-
 # Use FTP and SFTP with the Adobe Experience Cloud
 
 Learn how to use FTP and SFTP to transfer files between computers and servers.

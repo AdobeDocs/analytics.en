@@ -1,8 +1,8 @@
 ---
 title: Exclude specific dates in analysis
 description: Tips for excluding dates or date ranges if you do not want to include it in reports.
+exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 ---
-
 # Exclude specific dates in analysis
 
 If you have data [impacted by an event](overview.md), you can use a segment to exclude any date ranges that you don't want to include in your reports. Segmenting out event-impacted dates can help prevent your organization from making decisions on partial data.

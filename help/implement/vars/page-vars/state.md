@@ -1,8 +1,8 @@
 ---
 title: State
 description: Populate the 'Visitor State Report' in Reports and Analytics.
+exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 ---
-
 # state
 
 >[!IMPORTANT]

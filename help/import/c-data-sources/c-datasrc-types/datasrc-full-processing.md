@@ -1,16 +1,14 @@
 ---
 description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-subtopic: Data sources
 title: Full processing
 topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 ---
-
 # Full processing
 
 >[!IMPORTANT]
 >
->Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources in the future.
+>Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources in the future. [Learn more](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 
@@ -251,4 +249,3 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
  </tbody> 
 </table>
-

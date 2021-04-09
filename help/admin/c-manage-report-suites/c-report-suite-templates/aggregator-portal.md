@@ -3,8 +3,8 @@ description: Defines common settings for a website that aggregates content, such
 title: Aggregator portal
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
+exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 ---
-
 # Aggregator portal
 
 Defines common settings for a website that aggregates content, such as a news portal.
@@ -42,4 +42,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

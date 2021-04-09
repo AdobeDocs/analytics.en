@@ -1,8 +1,8 @@
 ---
 title: Countries
 description: The country where the hit originated from.
+exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 ---
-
 # Countries
 
 The 'Countries' dimension reports the country where the hit originated from. This dimension is useful to help determine what the most popular countries visitors originate from when visiting your site. You could use this data to focus on marketing efforts in these countries, or make sure your site experience is optimal in countries that have different primary languages.

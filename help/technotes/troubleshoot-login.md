@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot logging in to Adobe Analytics
 description: Steps to take when you cannot log in to Adobe Analytics.
+exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 ---
-
 # Troubleshoot logging in to Adobe Analytics
 
 Adobe Analytics uses multiple authentication methods to log in:

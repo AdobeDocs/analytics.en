@@ -2,8 +2,8 @@
 description: If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Analytics code on your pages.
 title: Analytics Plug-In Code
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
+exl-id: a5b70894-8486-4744-81a1-0328d689251e
 ---
-
 # Analytics Plug-In Code{#analytics-plug-in-code}
 
 If you selected the JavaScript Plug-In data collection method, copy the following lines of code and add them to the Analytics code on your pages.

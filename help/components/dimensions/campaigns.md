@@ -1,8 +1,8 @@
 ---
 title: Campaigns
 description: Disambiguation page.
+exl-id: 554c6f08-fcc4-4af9-8fef-325fd17f6997
 ---
-
 # Campaigns
 
 The 'Campaigns' dimension can refer to:

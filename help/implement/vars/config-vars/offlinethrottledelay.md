@@ -1,8 +1,8 @@
 ---
 title: offlineThrottleDelay
 description: Establishes the frequency of hits when a device comes back online.
+exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 ---
-
 # offlineThrottleDelay
 
 Offline tracking is an optional way to collect data in Adobe Analytics. If a visitor disconnects from the internet but continues to browse your site, hits are stored in an offline queue until the device reconnects to the internet. Offline tracking is mostly used for mobile applications.

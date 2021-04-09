@@ -2,8 +2,10 @@
 description: Visually represent your data with visualizations.
 keywords: Analysis Workspace
 title: Visualizations overview
+feature: Visualizations
+role: Business Practitioner, Administrator
+exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 ---
-
 # Visualizations overview
 
 Workspace offers a number of visualizations that let you generate visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. Most visualization types will be familiar to you if you use Adobe Analytics. However, Analysis Workspace provides visualization settings and many new or unique visualizations types with interactive capabilities.

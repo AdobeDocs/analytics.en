@@ -5,8 +5,8 @@ subtopic: Users and groups
 title: Customize dimension permissions
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 ---
-
 # Customize dimension permissions
 
 >[!IMPORTANT]

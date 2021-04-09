@@ -2,8 +2,10 @@
 description: Run a Contribution Analysis report in a Workspace project.
 title: Run Contribution Analysis
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
+feature: AI Tools
+role: Business Practitioner, Administrator
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 ---
-
 # Run Contribution Analysis
 
 Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
@@ -65,4 +67,3 @@ There may be times when you want to exclude some dimensions from Contribution An
    ![](assets/excluded-dimensions.png)
 
 1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
-

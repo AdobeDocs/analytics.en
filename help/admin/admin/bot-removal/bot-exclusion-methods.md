@@ -1,8 +1,8 @@
 ---
 title: Comparison of different bot exclusion methods
 description: Lets you compare different methods of excluding bots.
+exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 ---
-
 # Comparison of different bot exclusion methods
 
 The following table shows different methods of excluding bots and how they stack up against each other.

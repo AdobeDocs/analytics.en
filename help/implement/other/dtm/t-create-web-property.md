@@ -4,8 +4,8 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Create web property
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
 ---
-
 # Create web property
 
 A web property can be any grouping of one or more domains and subdomains with a library of rules, included in one embed code.

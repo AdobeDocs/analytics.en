@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page
 solution: Experience Cloud,Analytics,Target
 title: Create new rule
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
+exl-id: d5d2fabf-f69d-430e-bce6-da6351309289
 ---
-
 # Create new rule
 
 Steps that describe how to create rules in Dynamic Tag Management.

@@ -1,8 +1,8 @@
 ---
 title: Connection type
 description: How the visitor connects to the internet.
+exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
 ---
-
 # Connection type
 
 Content coming soon!

@@ -2,8 +2,10 @@
 description: Data extracts let you choose the parameters you will view on both the X- and Y-axes of the report, as well as the item by which the report is filtered.
 subtopic: Schedule
 title: Data extract
+feature: Reports & Analytics Basics
+role: Business Practitioner, Administrator
+exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 ---
-
 # Data extract
 
 Data extracts let you choose the parameters you will view on both the X- and Y-axes of the report, as well as the item by which the report is filtered.

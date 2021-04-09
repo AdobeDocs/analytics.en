@@ -3,8 +3,8 @@ description: If you copied settings from an existing report suite, a system mess
 title: Settings not copied from a source report suite
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 ---
-
 # Settings not copied from a source report suite
 
 If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
@@ -63,4 +63,3 @@ The following settings are not copied from template or duplicated report suites:
   </tr> 
  </tbody> 
 </table>
-

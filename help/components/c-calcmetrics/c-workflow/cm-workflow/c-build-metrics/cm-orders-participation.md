@@ -2,8 +2,8 @@
 description: Explains how to create a metric that shows which Marketing Channels assist in driving orders. This can be adapted to any dimension or success event of interest.
 title: Order Assists Metric
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
+exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 ---
-
 # Order Assists Metric
 
 Explains how to create a metric that shows which Marketing Channels assist in driving orders. This can be adapted to any dimension or success event of interest.

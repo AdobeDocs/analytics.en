@@ -2,8 +2,8 @@
 description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 title: Running the Data Connectors Integration Wizard
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
+exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
 ---
-
 # Running the Data Connectors Integration Wizard{#running-the-data-connectors-integration-wizard}
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.

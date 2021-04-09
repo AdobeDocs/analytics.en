@@ -1,8 +1,8 @@
 ---
 title: Focused Review (after each website release)
 description: Follow these steps to ensure that your implementation stays error free and in line with your KPIs.
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 ---
-
 # Focused Review (after each website release)
 
 Why should you review your implementation every few months? So you can address any issues with data quality while they're still small. If you consistently do this Focused Review after each website release, you’ll find that your bi-annual [Full Reviews](/help/implement/review/full-review.md) are much easier. You will also prevent small issues from growing into big data issues that could erode stakeholders’ confidence. 

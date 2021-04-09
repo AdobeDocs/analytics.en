@@ -1,8 +1,8 @@
 ---
 title: sa
 description: Change the report suite at any time in your implementation.
+exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 ---
-
 # sa
 
 The `sa()` method lets you dynamically change a report suite at any time on the page. If you want to send data to different report suites without a page reload, you can use this method.

@@ -5,8 +5,8 @@ subtopic: Current data
 title: Data availability and latency
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
+exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 ---
-
 # Data availability and latency in Adobe Analytics
 
 You can typically expect to see complete data in reports 2 hours after data is collected. The following information can help troubleshoot report suite latency issues in Analytics data.

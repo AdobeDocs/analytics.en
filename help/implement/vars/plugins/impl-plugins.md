@@ -1,8 +1,8 @@
 ---
 title: Plug-ins overview
 description: Paste code on your site to introduce new functionality.
+exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 ---
-
 # Plug-ins overview
 
 Plug-ins are snippets of code that perform several advanced functions to help your Analytics implementation. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions.

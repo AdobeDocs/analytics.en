@@ -1,8 +1,8 @@
 ---
 title: Browser width - bucketed
 description: The width of the browser window in pixels.
+exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
 ---
-
 # Browser width
 
 The 'Browser width - bucketed' dimension shows the width of the browser window, classified in groups of 100 pixels. This dimension is useful when you want to understand how wide visitors see your content. Understanding how wide your content is typically viewed can allow you to optimize content for viewing.

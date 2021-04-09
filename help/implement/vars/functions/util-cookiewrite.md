@@ -1,8 +1,8 @@
 ---
 title: Util.cookieWrite
 description: Writes a value for a cookie.
+exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 ---
-
 # Util.cookieWrite
 
 Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieWrite()` method to set a value to a cookie. You can use the [`Util.cookieRead()`](util-cookieread.md) method to retrieve values set using `Util.cookieWrite()`.

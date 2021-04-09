@@ -1,8 +1,8 @@
 ---
 title: trackDownloadLinks
 description: Enable or disable automatic link tracking for download links.
+exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 ---
-
 # trackDownLoadLinks
 
 Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. Enable this variable if you would like to use automatic link tracking for download links.

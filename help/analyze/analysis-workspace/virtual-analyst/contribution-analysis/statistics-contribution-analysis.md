@@ -2,8 +2,10 @@
 description: Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 title: Statistical techniques used in Contribution Analysis
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
+feature: AI Tools
+role: Business Practitioner, Administrator
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 ---
-
 # Statistical techniques used in Contribution Analysis
 
 Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
@@ -31,4 +33,3 @@ Contribution Analysis accomplishes this by performing a two-part algorithm to ev
    (A similar formula can be obtained for time period 1.)
 
    For final results, the score for each dimension item is then weighted by the Cramer's V measure and rescaled to a number between 0 and 1 to provide its contribution score.
-

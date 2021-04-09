@@ -2,8 +2,10 @@
 description: Use the Summary Number and Change visualizations to display important data points in a project.
 title: Summary Number and Summary Change
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
+feature: Visualizations
+role: Business Practitioner, Administrator
+exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
-
 # Summary Number and Summary Change
 
 ## Summary Number visualization {#summary-number}

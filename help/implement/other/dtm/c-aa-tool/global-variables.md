@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics
 title: Global variables
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
+exl-id: e78e9ff4-bfce-4fa0-8d53-fd33ed3052fd
 ---
-
 # Global variables
 
 Field descriptions and information about variables when using Dynamic Tag Management to deploy Adobe Analytics.

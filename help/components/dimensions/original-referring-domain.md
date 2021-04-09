@@ -1,8 +1,8 @@
 ---
 title: Original referring domain
 description: The first referring domain a visitor was on before clicking through to your site.
+exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
 ---
-
 # Original referring domain
 
 The 'Original referring domain' dimension reports the first referring domain that a visitor clicked through to reach your site. Once it is set, it contains the same value for the entire lifetime of that visitor ID. This dimension is useful to understand which third-party sites originally drive traffic to your site.

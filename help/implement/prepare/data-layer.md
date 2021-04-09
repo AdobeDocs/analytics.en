@@ -1,8 +1,8 @@
 ---
 title: Create a data layer
 description: Learn what a data layer is in your Analytics implementation, and how it can be used to map variables in Adobe Analytics.
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 ---
-
 # Create a data layer
 
 A data layer is a framework of JavaScript objects on your site that contains all variable values used in your implementation. It allows greater control and easier maintenance in your implementation.

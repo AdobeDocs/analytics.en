@@ -1,8 +1,8 @@
 ---
 title: Analyze Marketing Channels
 description: Learn how to use Marketing Channels dimensions in Workspace.
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 ---
-
 # Analyze Marketing Channels
 
 You probably want to know which of your marketing channels is the most effective, and with whom, so you can better target your efforts and receive a better return on your marketing dollars. In Adobe Analytics, the Marketing Channels dimensions and metrics in Workspace are one of the tools that can help you track the influence of different channels on your orders, revenue, etc. and give you useful channel insights. Here are the dimensions and metrics you can use related to Marketing Channels:

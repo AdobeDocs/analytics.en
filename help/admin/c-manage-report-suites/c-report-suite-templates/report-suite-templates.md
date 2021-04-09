@@ -3,8 +3,8 @@ description: Report suite templates configure the most common settings for sever
 title: Report suite templates overview
 topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
 ---
-
 # Report suite templates overview
 
 Report suite templates configure the most common settings for several types of report suites.

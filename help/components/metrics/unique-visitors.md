@@ -1,8 +1,8 @@
 ---
 title: Unique visitors
 description: The number of unique visitor ID's.
+exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 ---
-
 # Unique visitors
 
 The 'Unique visitors' metric shows the number of visitor ID's for the dimension item. It is one of the most common metrics used when determining traffic, as it gives a high-level overview of the popularity of a dimension item. For example, a visitor can come to your site every day for a month, but they still count as a single unique visitor.

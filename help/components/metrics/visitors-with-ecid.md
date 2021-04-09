@@ -1,8 +1,8 @@
 ---
 title: Visitors with Experience Cloud ID
 description: The number of unique visitors using the Adobe Experience Cloud ID service.
+exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 ---
-
 # Visitors with Experience Cloud ID
 
 The 'Visitors with Experience Cloud ID' metric shows the number of unique visitors who were identified by Adobe using the [Experience Cloud ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html). This dimension is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses the ID service. If a large portion of visitors don't use the ID service cookies, it can indicate an issue within your implementation.

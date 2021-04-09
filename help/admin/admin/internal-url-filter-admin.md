@@ -3,8 +3,8 @@ description: Internal URL filters identify the referrers that you consider inter
 title: Internal URL Filters
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 ---
-
 # Internal URL Filters
 
 **[!UICONTROL Admin > Report Suites > Edit Settings > General > Internal URL Filters > Add Filter]**

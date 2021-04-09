@@ -1,8 +1,8 @@
 ---
 title: linkDownloadFileTypes
 description: Determine file extensions that automatically get tracked as download links.
+exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 ---
-
 # linkDownloadFileTypes
 
 When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. If the link URL contains a filetype found in `linkDownloadFileTypes`, a download link image request is automatically sent.

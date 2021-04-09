@@ -1,8 +1,8 @@
 ---
 title: External email tracking
 description: Use Adobe Analytics to track email content.
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 ---
-
 # External email tracking
 
 Companies use Analytics to determine the success of an email campaign.
@@ -96,4 +96,3 @@ There are several steps to follow in order to successfully display email campaig
        ```    
     
        When pathing is enabled for the [!UICONTROL Custom Insight] variable, you can use [!UICONTROL Path] reports (such as [!UICONTROL Next Page Flow] or [!UICONTROL Fallout]) to see visitor navigation from the landing page.
-

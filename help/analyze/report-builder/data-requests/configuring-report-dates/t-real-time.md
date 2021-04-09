@@ -1,10 +1,11 @@
 ---
 description: Steps that describe how to configure real-time request dates.
 title: Configure a real-time request
-topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
+feature: Report Builder
+role: Business Practitioner, Administrator
+exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
 ---
-
 # Configure a real-time request
 
 Steps that describe how to configure real-time request dates.

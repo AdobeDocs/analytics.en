@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
+exl-id: 37e707b0-c42e-4226-82b1-0b63cbff46fb
 ---
-
 # Cookies
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
@@ -46,4 +46,3 @@ Field descriptions for the Cookies global settings used for deploying [!UICONTRO
   </tr> 
  </tbody> 
 </table>
-

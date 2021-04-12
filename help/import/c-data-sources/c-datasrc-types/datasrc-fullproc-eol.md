@@ -7,7 +7,7 @@ exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 
 For several years, Full Processing Data Sources has enabled you to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected via our JavaScript libraries and mobile app SDK. In 2020, Adobe released the [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), which performs the same functions as Full Processing Data Sources, but with additional features. This topic provides details about additional functionality provided by the Bulk Data Insertion API and outlines differences in file formats.
 
-Starting March 25, 2021, Adobe will prevent new Full Processing Data Sources connections from being created. Existing connections will continue to be supported until the service is fully deprecated. The deprecation will take place in 2021, though a specific date has not yet been determined.
+Starting March 25, 2021, Adobe will prevent new Full Processing Data Sources connections from being created. Existing connections will continue to be supported until the service is fully deprecated on July 31, 2021.
 
 ## Why are we end-of-lifing this feature?
 

@@ -74,7 +74,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Lyris HQ | Deprecating |
 | MaritzCX (V 2.0) | Deprecating |
 | Merkle | Deprecating |
-| Official Oracle Eloqua Integration | Deprecating |
+| Official Oracle Eloqua Integration | Migrating to Exchange |
 | optivo broadmail (Episerver) | Migrating to Exchange |
 | Qualtrics v2 | Migrating to Exchange |
 | Responsys 2.0 | Deprecating |

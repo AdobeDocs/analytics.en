@@ -58,8 +58,8 @@ For more detail, see the following comparison of the field values available in B
 | linkName | linkName | Name of link. |
 | linkType | linkType | Type of link. Supported values include: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
-| listn For example, list2. | Not supported | A delimited list of values that are passed into a variable, then reported as individual line items for reporting. |
-| marketingCloudVisitorID | Not supported | Marketing Cloud ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) and the Marketing Cloud Visitor ID Service. |
+| listn For example, list2. | Not supported | A delimited list of values that are passed into a variable, then reported as individual line items for reporting |
+| marketingCloudVisitorID | Not supported | Marketing Cloud ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) and the Marketing Cloud Visitor ID Service |
 | Not supported | charSet | The supported character set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. |
 | Not supported | clickAction | Object identifier for visitor click map (oid) |
 | Not supported | clickActionType | Object identifier type for visitor click map (oidt) |
@@ -69,7 +69,7 @@ For more detail, see the following comparison of the field values available in B
 | Not supported | clickTag | Object tag name for visitor click map (ot) |
 | Not supported | scXmlVer | Marketing reports XML request version number (for example, 1.0). |
 | Not supported | timezone | Visitor's time zone offset from GMT in hours (for example, -8). |
-| pageName | pageName | Name of the page. |
+| pageName | pageName | Name of the page |
 | pageType | pageType | Type of page (e.g., "Error Page"). |
 | pageURL | pageURL | Page URL (for example, https://www.example.com/index.html). |
 | plugins | plugins | Semicolon-separated list of browser plug-in names. |

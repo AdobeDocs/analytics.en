@@ -28,6 +28,8 @@ Yes, *however doing so counts each dimension item as a billable server call.*
 
 ## How do I classify values that contain special characters?
 
+Using leading and trailing blank spaces in either classification data and hit data is not supported because Adobe Analytics will truncate the blank characters from these data.
+  
 Using special characters such as commas or double quotes in reporting is typically not recommended. However, in some cases their use is necessary. If your reporting values contain such characters that you choose to classify, use the following steps:
 
 1. Log in to Adobe Analytics, then navigate to **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.

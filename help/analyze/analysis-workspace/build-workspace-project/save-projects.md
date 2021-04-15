@@ -1,5 +1,5 @@
 ---
-description: Learn about the different save options, including autosave, save as, and save as template.
+description: Learn about the different save options, including autosave, save as, save as template, and open previous versions.
 title: Save projects
 feature: Workspace Basics
 role: Business Practitioner, Administrator
@@ -7,7 +7,7 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 ---
 # Save projects
 
-To save your changes to a project, go to the Workspace **[!UICONTROL Project]** menu. Additionally, Adobe auto-saves projects in certain cases. 
+To save your changes to a project, go to the Workspace **[!UICONTROL Project]** menu. Workspace also auto-saves projects in certain cases. 
 
 ## Save project options {#Save} 
 
@@ -15,8 +15,8 @@ There are different save actions you can take under the **[!UICONTROL Project]**
 
 | Action | Description | 
 |---|---| 
-| **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and (optional) add tags. | 
-| **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes will be stored with the project version and are available to all editors under Project > Open previous version. | 
+| **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and add (optional) tags. | 
+| **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes are stored with the project version and are available to all editors under [!UICONTROL Project] > [!UICONTROL Open previous version]. | 
 | **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
 | **[!UICONTROL Save as template]** | Save your project as a [custom template](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 
@@ -42,7 +42,7 @@ The browser warns that unsaved changes will be lost. You can choose to leave or 
 
 ### Browser crashes or session times out 
 
-For **existing** projects, upon returning to Workspace, the user will see a **Project recovery** modal. Selecting “Yes” will restore the project from the auto-saved local copy. “No” deletes the auto-saved local copy and opens the last user-saved version of the project. 
+For **existing** projects, upon returning to Workspace, you will see a **Project recovery** modal. Selecting “Yes” restores the project from the auto-saved local copy. “No” deletes the auto-saved local copy and opens the last user-saved version of the project. 
 
 ![](assets/project-recovery.png)
 

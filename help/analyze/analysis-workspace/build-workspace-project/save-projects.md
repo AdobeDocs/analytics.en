@@ -16,6 +16,7 @@ There are different save actions you can take under the **[!UICONTROL Project]**
 | Action | Description | 
 |---|---| 
 | **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and (optional) add tags. | 
+| **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes will be stored with the project version and are available to all editors under Project > Open previous version. | 
 | **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
 | **[!UICONTROL Save as template]** | Save your project as a [custom template](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 
@@ -46,3 +47,12 @@ For **existing** projects, upon returning to Workspace, the user will see a **Pr
 ![](assets/project-recovery.png)
 
 For **new** projects that have never been saved, unsaved changes are not recoverable.
+
+## Open previous version {#previous-version}
+
+To open a previous version of a project:
+
+1. Go to Project > Open previous version
+1. Review the list of prior versions available. Timestamp and editor are provided, in addition to notes if they were added when the editor saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
+1. Select a previous version and click Load.
+1. The previous version will load with a notification. The previous version will not become the current saved version of your project until you click Save. If you navigate away from the loaded version, when you return, you will see the last saved version of the project. 

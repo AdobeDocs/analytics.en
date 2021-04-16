@@ -109,7 +109,7 @@ When extracted, each data file contains a single `hit_data.tsv` that contains ap
 
 After data is collected for an hour, you receive a single compressed data file and a manifest file. The data file is named:
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 When extracted, the data file contains a single `hit_data.tsv` file with all data for that hour, as well as lookup files for any required columns.
 
@@ -117,7 +117,7 @@ When extracted, the data file contains a single `hit_data.tsv` file with all dat
 
 After data is collected for an hour, you receive one or more compressed data files and a manifest file. The data file is named:
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 When extracted, each data file contains a single `hit_data.tsv` that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
 

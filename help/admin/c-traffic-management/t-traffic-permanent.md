@@ -1,7 +1,7 @@
 ---
 description: The Permanent Traffic sections lets you change expected traffic levels so Adobe can reassign resources to handle the new traffic level.
 title: Specify permanent traffic increase
-topic: Admin tools
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 ---

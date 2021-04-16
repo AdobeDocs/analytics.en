@@ -2,7 +2,7 @@
 description: Use the importer to upload classifications into Adobe Analytics. You can also export the data for updating prior to an import.
 subtopic: Classifications
 title: Classifications importer - overview
-topic: Admin tools
+feature: Admin Tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 ---

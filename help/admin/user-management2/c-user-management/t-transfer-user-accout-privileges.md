@@ -2,7 +2,7 @@
 description: Steps that describe how to assign user account items (dashboards, calculated metrics, calendar events, alerts, bookmarks, segments, Analysis Workspace projects, and scheduled projects) from one user account to that of another user.
 subtopic: Users and groups
 title: Transfer user account items
-topic: Admin tools
+feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 ---

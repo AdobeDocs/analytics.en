@@ -2,7 +2,7 @@
 description: When visitor profiles are merged after being associated with the same visitor ID variable, attribution is not changed in the historical data set.
 keywords: Analytics Implementation
 title: Attribution and persistence
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 ---

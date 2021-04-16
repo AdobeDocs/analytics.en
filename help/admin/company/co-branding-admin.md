@@ -1,7 +1,7 @@
 ---
 description: The Manage Co-Branding Image page lets you display your company logo in downloaded reports.
 title: Co-Branding
-topic: Admin tools
+feature: Admin Tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 ---

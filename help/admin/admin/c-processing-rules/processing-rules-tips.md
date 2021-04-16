@@ -2,7 +2,7 @@
 description: This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
 subtopic: Processing rules
 title: Processing rules tips and tricks
-topic: Admin tools
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 ---

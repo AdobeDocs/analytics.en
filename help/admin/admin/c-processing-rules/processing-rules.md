@@ -2,7 +2,7 @@
 description: Processing rules simplify data collection and manage content as it is sent to reporting.
 subtopic: Processing rules
 title: Processing rules overview
-topic: Admin tools
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 ---

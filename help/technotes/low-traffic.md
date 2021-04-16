@@ -1,7 +1,7 @@
 ---
 description: When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report.
 title: Low-traffic value in Adobe Analytics
-topic: Metrics
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---

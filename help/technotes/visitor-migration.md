@@ -2,7 +2,7 @@
 description: Visitor migration is a process where the visitor ID cookie is migrated from one domain to another.
 keywords: Analytics Implementation
 title: Visitor migration
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 ---

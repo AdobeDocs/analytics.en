@@ -2,7 +2,7 @@
 description: Field descriptions for the General settings in dynamic tag manager, for deploying Adobe Analytics.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 title: General
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 ---

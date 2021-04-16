@@ -1,7 +1,7 @@
 ---
 description: Create a basic container for data collection in Adobe Analytics
 title: Create a report suite
-topic: Admin tools
+feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 ---
 # Create a report suite

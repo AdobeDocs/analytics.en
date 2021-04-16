@@ -2,7 +2,7 @@
 description: Processing rules are used to move values from Context Data variables to props and eVars.
 subtopic: Processing rules
 title: Copy a context data variable to an eVar
-topic: Admin tools
+feature: Admin Tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
 ---

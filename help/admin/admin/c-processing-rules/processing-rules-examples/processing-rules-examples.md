@@ -2,7 +2,7 @@
 description: Common uses cases for processing rules.
 subtopic: Processing rules
 title: Examples of processing rules
-topic: Admin tools
+feature: Admin Tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 ---

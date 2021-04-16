@@ -2,7 +2,7 @@
 description: You can use the concatenate option to populate values by combining other values.
 subtopic: Processing rules
 title: Add a subcategory by concatenating the category and page name
-topic: Admin tools
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 ---

@@ -3,7 +3,7 @@ description: Customize user access at a granular level, including eVars, traffic
 keywords: groups;permissions
 subtopic: Users and groups
 title: Customize dimension permissions
-topic: Admin tools
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 ---

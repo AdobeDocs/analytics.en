@@ -2,7 +2,7 @@
 description: Manage report users and groups on the User Management page lets you manage users and groups, and control access to reports, tools and report suites.
 subtopic: Users and groups
 title: User management overview
-topic: Admin tools
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 ---

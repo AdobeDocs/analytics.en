@@ -3,7 +3,7 @@ description: Redirects point the browser to a new location without user interact
 keywords: Analytics Implementation
 subtopic: Redirects
 title: Redirects and aliases
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 ---

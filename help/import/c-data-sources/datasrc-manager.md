@@ -2,7 +2,7 @@
 description: Create, manage, and view the use of data sources in a report suite.
 subtopic: Data sources
 title: Data Sources Manager
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 ---

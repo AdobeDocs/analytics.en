@@ -1,7 +1,7 @@
 ---
 description: Internal URL filters identify the referrers that you consider internal to your site. They help traffic sources reports populate data and help filter internal traffic.
 title: Internal URL Filters
-topic: Admin tools
+feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 ---

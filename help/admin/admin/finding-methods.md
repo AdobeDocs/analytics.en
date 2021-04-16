@@ -1,7 +1,7 @@
 ---
 description: The Finding Methods page identifies how various finding methods reports receive credit for conversion success events on your site. For example, if a search engine refers a visitor to your site who makes a purchase, Finding Methods specify how the search engine receives credit for the referral.
 title: Finding Methods
-topic: Admin tools
+feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 ---

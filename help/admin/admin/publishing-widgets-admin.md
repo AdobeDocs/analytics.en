@@ -1,7 +1,7 @@
 ---
 description: A Publishing Widget is a container that lets you embed marketing reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to marketing reports can view pertinent data.
 title: Publishing Widget
-topic: Admin tools
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 ---

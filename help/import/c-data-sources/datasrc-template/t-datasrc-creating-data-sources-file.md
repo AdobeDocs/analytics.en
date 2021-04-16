@@ -2,7 +2,7 @@
 description: The import template file is designed to get you started with the import.
 subtopic: Data sources
 title: Generate an import file template
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 ---

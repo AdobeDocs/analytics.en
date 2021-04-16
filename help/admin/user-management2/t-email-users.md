@@ -2,7 +2,7 @@
 description: Steps that describe how to send an email message to all users in your company.
 subtopic: Users and groups
 title: Email users
-topic: Admin tools
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 ---

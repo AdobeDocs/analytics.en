@@ -1,7 +1,7 @@
 ---
 description: Field descriptions for report suite General Account Settings in Admin.
 title: General Account Settings
-topic: Admin tools
+feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 ---

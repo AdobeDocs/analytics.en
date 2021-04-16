@@ -2,7 +2,7 @@
 description: Steps that describe how to add, edit, or delete ad hoc analysis users.
 subtopic: Users and groups
 title: Manage Ad Hoc Analysis users
-topic: Admin tools
+feature: Admin Tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 ---
 

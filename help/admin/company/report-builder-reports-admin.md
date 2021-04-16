@@ -1,7 +1,7 @@
 ---
 description: Manage license assigned to report builder users.
 title: Report Builder reports
-topic: Admin tools
+feature: Admin Tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 ---

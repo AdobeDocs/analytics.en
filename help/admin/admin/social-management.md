@@ -1,7 +1,7 @@
 ---
 description: If you have Adobe Social enabled, this option allows you to classify Social variables.
 title: Social Management
-topic: Admin tools
+feature: Admin Tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 ---

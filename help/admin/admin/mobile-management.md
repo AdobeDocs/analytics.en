@@ -1,7 +1,7 @@
 ---
 description: Enabling app management activates the mobile solution variables that capture lifecyle and other metrics from mobile applications.
 title: App Management
-topic: Admin tools
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 ---
 # App Management

@@ -2,7 +2,7 @@
 description: After the deployment is complete, you can begin using the additional capabilities that this integration provides.
 subtopic: Qualtrics
 title: Using the Integration
-topic: Data connectors
+feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
 ---

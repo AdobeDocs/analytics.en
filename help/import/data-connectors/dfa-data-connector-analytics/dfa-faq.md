@@ -2,7 +2,7 @@
 description: Frequently asked questions around the DFA data connector.
 keywords: DFA
 title: Frequently Asked Questions
-topic: Data connectors
+feature: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 ---

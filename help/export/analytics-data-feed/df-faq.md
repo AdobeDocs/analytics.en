@@ -29,3 +29,9 @@ Data feeds do not include bots filtered by [Admin console bot rules](https://doc
 Some spreadsheet editors, especially Microsoft Excel, automatically round very large numbers. The `event_list` column contains many comma-delimited numbers, sometimes causing Excel to treat it as a large number. It rounds the last several digits to `000`.
 
 Adobe recommends against automatically opening `hit_data.tsv` files in Microsoft Excel. Instead, use Excel's Import Data dialog box and make sure that all fields are treated as text.
+
+## Why can't I extract "Hourly" files from data that is more than 7 days old?
+
+For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file. 
+
+Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files prior to March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.

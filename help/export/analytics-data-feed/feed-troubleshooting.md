@@ -65,3 +65,9 @@ Some mobile carriers (such as T-Mobile and O1) are no longer providing domain in
 ## Data Processing Overview {#section_6346328F8D8848A7B81474229481D404}
 
 Before processing hourly or daily data, data feeds waits until all the hits that entered data collection within the timeframe (day or hour) have been written out to data warehouse. After that occurs, data feeds collects the data with timestamps that fall within the timeframe, compresses it, and sends it via FTP. For hourly feeds, files are typically written out to data warehouse within 15-30 min after the hour, but there is no set time period. If there was no data with timestamps that fall within the timeframe, then the process tries again the next timeframe. The current data feed process uses the `date_time` field to determine which hits belong to the hour. This field is based on the time zone of the report suite.
+
+## "Hourly" vs "Daily" data feed formats
+
+For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file. 
+
+Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files prior to March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.

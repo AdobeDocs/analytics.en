@@ -2,7 +2,7 @@
 description: The Virtual Report Suite Manager lets Administrators edit, add, tag, delete, rename, approve, copy, export, and filter virtual report suites. It is not visible to non-Admin users.
 keywords: Virtual Report Suite
 title: Manage virtual report suites
-topic: Reports and analytics
+feature: Reports & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 ---

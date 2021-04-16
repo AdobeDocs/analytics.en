@@ -2,7 +2,7 @@
 description: Processing rules can trigger events based on Context Data variables.
 subtopic: Processing rules
 title: Set an event using a context data variable
-topic: Admin tools
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 ---

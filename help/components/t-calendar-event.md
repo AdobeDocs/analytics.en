@@ -1,7 +1,7 @@
 ---
 description: Steps to add calendar events, and to manage shared events.
 title: Calendar events
-topic: Reports and analytics
+feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 ---

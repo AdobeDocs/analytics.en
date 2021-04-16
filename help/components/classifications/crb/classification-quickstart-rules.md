@@ -2,7 +2,7 @@
 description: Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
 subtopic: Classifications
 title: Classification rules
-topic: Admin tools
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 ---
 

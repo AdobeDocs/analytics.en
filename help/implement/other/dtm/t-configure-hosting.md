@@ -2,7 +2,7 @@
 description: You can deploy Dynamic Tag Management using one or more of the available hosting options.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
 title: Configure hosting options
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 exl-id: cef5205e-bb21-4d8d-862b-33dc800e1118
 ---

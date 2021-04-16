@@ -3,7 +3,7 @@ description: Legacy permissions content
 keywords: groups;permissions
 subtopic: Users and groups
 title: User and Group permission changes
-topic: Admin tools
+feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 ---
 

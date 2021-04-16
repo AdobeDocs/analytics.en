@@ -2,7 +2,7 @@
 description: This integration combines the customer research capabilities of the Qualtrics Research Suite with the rich data you are collecting within Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 subtopic: Qualtrics
 title: Qualtrics Data Connector for Adobe Analytics
-topic: Data connectors
+feature: Data Connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 exl-id: 5c1234b1-bca8-4e7a-981e-1379e88821b8
 ---

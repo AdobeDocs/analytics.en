@@ -2,7 +2,7 @@
 description: A token is required to complete the integration wizard. To find this ID, complete the following.
 subtopic: Qualtrics
 title: Generating your Qualtrics Adobe Analytics Token
-topic: Data connectors
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 ---

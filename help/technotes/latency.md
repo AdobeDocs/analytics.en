@@ -3,7 +3,7 @@ description: The following information can help troubleshoot report suite latenc
 keywords: missing data;slow
 subtopic: Current data
 title: Data availability and latency
-topic: Reports
+topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 ---

@@ -2,7 +2,7 @@
 description: Information about the Data Source .txt template.
 subtopic: Data sources
 title: Import file reference
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
 ---

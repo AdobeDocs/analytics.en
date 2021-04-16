@@ -2,7 +2,7 @@
 description: Traffic classifications allow you to classify traffic variables (props). Traffic classifications can use only text classifications.
 subtopic: Classifications
 title: Traffic classifications
-topic: Admin tools
+feature: Admin Tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 ---

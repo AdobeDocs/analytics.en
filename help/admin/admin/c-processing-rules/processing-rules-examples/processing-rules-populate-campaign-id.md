@@ -2,7 +2,7 @@
 description: You can populate a variable using a query string parameter.
 subtopic: Processing rules
 title: Populate a campaign ID from a query string parameter
-topic: Admin tools
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 ---

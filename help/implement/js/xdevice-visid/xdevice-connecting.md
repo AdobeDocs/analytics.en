@@ -3,7 +3,7 @@ description: Cross-device visitor identification helps you connect visitors acro
 keywords: Analytics Implementation
 subtopic: Visitors
 title: Connect users across devices
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 ---

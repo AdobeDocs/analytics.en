@@ -1,7 +1,7 @@
 ---
 description: Descriptions of report suite types and comparison of global report suites and rollup report suites.
 title: Report suite approaches
-topic: Admin tools
+feature: Admin Tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 ---

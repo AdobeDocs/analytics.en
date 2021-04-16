@@ -2,7 +2,7 @@
 description: Use Dynamic Tag Management to add header and footer code that determines the loading of JavaScript and page content on your site. You must install both the header and footer code on every page of your site, regardless of the hosting option used.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 title: Add header and footer code
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
 ---

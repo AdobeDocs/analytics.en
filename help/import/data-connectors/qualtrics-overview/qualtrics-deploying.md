@@ -2,7 +2,7 @@
 description: Deploying this integration is a simple process that requires the following actions.
 subtopic: Qualtrics
 title: Deploying the Integration
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 ---

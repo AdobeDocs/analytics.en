@@ -1,7 +1,7 @@
 ---
 description: Marking segments as favorites is another way to organize them for ease of use.
 title: Mark segments as favorites
-topic: Segments
+feature: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 ---

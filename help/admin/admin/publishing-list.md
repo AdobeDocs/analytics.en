@@ -1,7 +1,7 @@
 ---
 description: Publishing lists provide an easy way to send various reports specific to different groups of your organization without creating several separate scheduled reports. Publishing lists are useful if you have location-specific report suites and would like to provide each respective department a copy of a specific dashboard. Alternatively, you can use publishing lists to send data to many people without having to separately type in their email addresses, if you work with a single report suite.
 title: Publishing Lists
-topic: Admin tools
+feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 ---

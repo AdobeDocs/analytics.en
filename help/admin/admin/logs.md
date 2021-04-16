@@ -1,7 +1,7 @@
 ---
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 title: Logs
-topic: Admin tools
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 ---
 # Logs

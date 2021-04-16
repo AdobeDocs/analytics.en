@@ -2,7 +2,7 @@
 description: Information about the requirements for your report suite before using Data Sources.
 subtopic: Data sources
 title: Requirements and upload limits
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 ---

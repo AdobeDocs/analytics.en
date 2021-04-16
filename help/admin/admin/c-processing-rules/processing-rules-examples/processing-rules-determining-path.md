@@ -2,7 +2,7 @@
 description: You can copy the value of an eVar to a prop to enable pathing.
 subtopic: Processing rules
 title: Determine a path by copying an eVar value to a prop
-topic: Admin tools
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 ---

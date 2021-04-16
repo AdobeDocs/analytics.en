@@ -1,7 +1,7 @@
 ---
 description: Variables for privacy reporting in Data Privacy.
 title: Privacy Reporting Variables
-topic: Admin tools
+feature: Admin Tools
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 ---
 # Privacy Reporting Variables

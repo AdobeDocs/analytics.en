@@ -2,7 +2,7 @@
 description: Data source categories identify different data source types that provide similar functionality.
 subtopic: Data sources
 title: Overview of data types and categories
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 ---

@@ -2,7 +2,7 @@
 description: The Organization ID is required to complete the integration wizard. To find this ID you must do the following.
 subtopic: Qualtrics
 title: Looking up your Qualtrics Organization ID
-topic: Data connectors
+feature: Data Connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 exl-id: 52078b10-0067-468f-9ec6-05ca91aeb8fd
 ---

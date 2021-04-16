@@ -2,7 +2,7 @@
 description: A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
 subtopic: Classifications
 title: Classification rule sets
-topic: Admin tools
+feature: Admin Tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 ---
 

@@ -57,6 +57,9 @@ For **new** projects that have never been saved, unsaved changes are not recover
 To open a previous version of a project:
 
 1. Go to **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
+
+   ![](assets/previous-versions.png)
+   
 1. Review the list of prior versions available. 
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.

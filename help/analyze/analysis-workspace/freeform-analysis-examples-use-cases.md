@@ -2,7 +2,7 @@
 description: Examples of how to use data tables, segments, and uses case ideas for Analysis Workspace.
 keywords: Analysis Workspace
 title: Analysis Workspace use cases
-feature: Reports & Analytics Basics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 ---
 

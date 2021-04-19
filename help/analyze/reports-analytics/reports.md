@@ -1,7 +1,7 @@
 ---
 title: Reports
 description: The dimensions and metrics that Reports & Analytics uses for each report.
-feature: Reports & Analytics Basics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 ---

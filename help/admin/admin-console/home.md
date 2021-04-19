@@ -1,5 +1,6 @@
 ---
-
+title: Analytics in the Adobe Admin Console
+description: Learn to use the Adobe Admin Console to manage Analytics products and users.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 ---
 # Analytics in the Adobe Admin Console

@@ -2,7 +2,7 @@
 description: Filters allow you to narrow the report to include or exclude line items that match a filter.
 title: Filtering Report Data
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analytics Basics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 ---

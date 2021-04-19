@@ -1,5 +1,6 @@
 ---
-
+title: Product profiles for Adobe Analytics
+description: Learn how product profiles can be used as permission presets that product admins can assign to users within an organization.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 ---
 # Product profiles for Adobe Analytics

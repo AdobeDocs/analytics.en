@@ -2,7 +2,7 @@
 description: Click the i (Info) icon next to the report suite name to get info about it.
 keywords: Virtual Report Suite
 title: View virtual report suite information
-feature: Reports & Analytics Basics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 ---

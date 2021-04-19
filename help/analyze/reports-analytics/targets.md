@@ -2,7 +2,7 @@
 description: Targets let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer.
 title: Targets
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 ---

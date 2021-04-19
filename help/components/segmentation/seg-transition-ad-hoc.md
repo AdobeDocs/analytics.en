@@ -2,7 +2,7 @@
 description: If you are used to working with the Segment Builder in Ad Hoc Analysis, this FAQ explains what happens to existing segments and folders and what actions you need to take.
 keywords: segmentation;segments
 title: Transition Guide for Ad Hoc Analysis
-feature: Segments
+feature: Segmentation
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 ---
 

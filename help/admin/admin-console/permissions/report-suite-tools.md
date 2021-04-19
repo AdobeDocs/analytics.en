@@ -1,5 +1,6 @@
 ---
-
+title: Product profile permissions for Report Suite Tools
+description: Understand each permission item under Report Suite Tools.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 ---
 # Product profile permissions for Report Suite Tools

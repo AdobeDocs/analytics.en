@@ -12,7 +12,7 @@ This page describes how to use Adobe Analytics with Progressive Web Apps (PWAs).
 
 PWAs can provide a native app experience, as well as offline capabilities, for a website. Usually PWAs include a service worker, caching provisions, and a manifest file, all of which can help with faster load times, easier navigation, and responsive behavior.
 
-Adobe Analytics works just as seamlessly with PWAs as it does with traditional websites. Although PWAs have a few more requirements to behave progressively in and of themselves, they do not create any barriers or limitations on how Analytics gathers or reports data from them any differently than traditional websites. In fact, because Analytics already includes offline tracking capabilities, PWAs can help you leverage this built-in feature more easily than with traditional websites.
+Adobe Analytics works as seamlessly with PWAs as it does with traditional websites. Although PWAs have a few more requirements to behave progressively in and of themselves, they do not create any barriers or limitations on how Analytics gathers or reports data from them any differently than traditional websites. In fact, because Analytics already includes offline tracking capabilities, PWAs can help you leverage this built-in feature more easily than with traditional websites.
 
 ## Get your PWA Analytics data
 
@@ -44,4 +44,4 @@ For more information on editing the AppMeasurement.js file, see [Insert core App
 
 For more information about configuring the AppMeasurement.js file, see [Configuration variables overview](/help/implement/vars/config-vars/configuration-variables.md) and the individual variable-specific pages in the same subchapter.
 
-For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](/help/implement/js/overview.md).
+For more information on the characteristics of the AppMeasurement.js file, see the [JavaScript implementation overview](/help/implement/js/overview.md).

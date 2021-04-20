@@ -20,7 +20,7 @@ To collect and analyze your PWA data with [!UICONTROL Analytics], you do not nee
 
 ## Add offline tracking to increase PWA effectiveness
 
-You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) with it. By default, this feature is turned off, but you can add the following property to the AppMeasurement.js file to turn it on: `s.trackOffline=true;`.
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](/help/implement/vars/config-vars/trackoffline.md) with it. By default, this feature is turned off, but you can add the following property to the AppMeasurement.js file to turn it on: `s.trackOffline=true;`.
 
 For example, in the following AppMeasurement.js file, the property is added to the end of the `CONFIG SECTION`:
 
@@ -40,8 +40,8 @@ s.trackOffline=true
 *** 
 ```
 
-For more information on editing the AppMeasurement.js file, see [Inserting code into the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
+For more information on editing the AppMeasurement.js file, see [Insert core AppMeasurement code](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md).
 
-For examples of configurations in the AppMeasurement.js file, see [Configuring the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7).
+For more information about configuring the AppMeasurement.js file, see [Configuration variables overview](/help/implement/vars/config-vars/configuration-variables.md) and the individual variable-specific pages in the same subchapter.
 
-For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](/help/implement/js/overview.md).

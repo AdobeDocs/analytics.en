@@ -2,7 +2,7 @@
 description: Conversion ratios usually measure conversion between the starting, ending, and milestone events or points of a conversion process. After you code the success events onto your site, the report creates the ratios between these different success events and show them in a Conversion Funnel Report.
 title: Conversion Funnel
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 ---

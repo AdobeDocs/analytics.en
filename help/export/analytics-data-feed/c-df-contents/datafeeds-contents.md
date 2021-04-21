@@ -3,7 +3,7 @@ description: This section describes the files found in a data feed delivery.
 keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 subtopic: data feeds
 title: Data Feed contents - overview
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 ---

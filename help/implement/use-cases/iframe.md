@@ -9,7 +9,7 @@ You can reference AppMeasurement variables from both child and parent iframes. I
 
 If you use Adobe Experience Platform Launch, make sure that the tracker object is globally accessible. See [Adobe Analytics extension overview](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in the Launch user guide.
 
->![CAUTION]
+>[!CAUTION]
 >
 >Avoid including AppMeasurement libraries on both a parent page and iframe. Doing so introduces risks to sending multiple image requests, inflating reports and increasing billable server calls.
 

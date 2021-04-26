@@ -163,7 +163,6 @@ user-guide-description: Help organize your data using components such as segment
   + [Best practices](segmentation/best-practices.md)
 + Calculated Metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
-  + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
   + Calculated Metrics Workflow {#calcmetric-workflow}
     + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)

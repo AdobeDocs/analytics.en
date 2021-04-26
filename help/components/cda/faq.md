@@ -7,7 +7,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 
 ## How can I use CDA to see how people move from one device type to another?
 
-You can use a Flow visualization with the Mobile Device Type dimension.
+You can use a [!UICONTROL Flow] visualization with the Mobile Device Type dimension.
 
 1. Log in to Adobe Analytics and create a new blank Workspace project.
 2. Click the Visualizations tab on the left, and drag a Flow visualization to the canvas on the right.
@@ -98,3 +98,9 @@ Multiple report suites may be enabled, however each additional report suite will
 ## If my Experience Cloud org (a.k.a IMS org) has multiple companies in different regions, can I enable CDA for all of them?
 
 No. For the same org, only one region can have CDA enabled.
+
+## What are the advantages and disadvantages of a 7-day replay versus a 1-day replay?
+
+The advantage of the 7-day replay lookback window is that CDA is able to go back further in time to try to associate previously anonymous events with some person who later logged in within those 7 days. The disadvantages of the 7-day lookback window are 1) replay only runs once per week, and 2) the most recent 7 days are subject to change.
+
+The advantages of using the 1-day replay lookback window are 1) replay runs every day and 2) only yesterday is subject to change. The disadvantage of the 1-day lookback window is that CDA is only able to go back 1 day to try to associate previously anonymous events with a person who logged in yesterday.

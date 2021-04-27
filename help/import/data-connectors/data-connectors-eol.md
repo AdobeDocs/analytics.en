@@ -23,6 +23,12 @@ Each company providing an integration was given the option to migrate their inte
 
 For additional questions or support, please reach out to Adobe Customer Care.
 
+## Exception: Adobe Campaign Classic
+
+The ONE exception to the August 1, 2021 date is the Adobe Campaign Classic integration. This integration will officially be deprecated on March 1, 2022. 
+
+On August 1, 2021, Adobe Campaign Classic will be removed from the Data Connectors UI along with all other integrations; however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. Adobe Campaign is building a new integration on Adobe Exchange to replace the current Data Connectors Integration. Adobe Campaign anticipates finishing this new integration in time to give customers to migrate to the new integration before the deprecation date in March 2022.
+
 ## Data Connector Partner status
 
 | Partner | Status |
@@ -30,7 +36,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Acxiom | Deprecating |
 | Adform | Deprecating |
 | Adjust | Migrating to Adobe Exchange |
-| Adobe Campaign | Migrating to Adobe Exchange |
+| Adobe Campaign | Migrating to Adobe Exchange (see Note above) |
 | Appfigures | Migrating to Adobe Exchange |
 | Appsee | Deprecating |
 | AppsFlyer | Migrating to Adobe Exchange | 

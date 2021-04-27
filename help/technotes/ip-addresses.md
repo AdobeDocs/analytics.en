@@ -26,23 +26,6 @@ Adobe Analytics uses the following hosts to improve performance and product expe
 | Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## All Adobe Analytics IP address blocks
-
-The following table covers all standard data collection servers and regional data collection servers for Adobe Analytics. They do not include individual AWS hosts.
-
-| IP Block (CIDR Notation) |
-| --- |
-| `63.140.32.0/19` |
-| `66.117.16.0/20` |
-| `66.235.128.0/19` |
-| `130.248.0.0/16` |
-| `172.82.192.0/18` |
-| `185.34.188.0/22` |
-| `192.243.224.0/19` |
-| `205.219.231.0/24` |
-| `208.67.40.0/22` |
-| `208.77.136.0/22` |
-
 ## Data collection and FTP IP address blocks
 
 If your organization prefers to allow specific IP address ranges you can use the following table. All of the ranges in this section are included in the above table.

@@ -17,19 +17,31 @@ Since Marketing Channel dimensions depend on a traditional Visit definition (as 
 
 We recommend using [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) instead of the existing Marketing Channel attribution to fine tune your Marketing Channel analysis. Follow the other best practices to ensure consistency and robust controls over your analysis with Attribution IQ.
 
+![](assets/attribution.png)
+
+* Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresonding to each Marketing Channel Instance.
+* For metric analysis, your organization should align on one or more attribution model/s. Save custom metrics with this model for easy reuse.
+* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution IQ metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+
 ## Best Practice #2: No Direct and Session Refresh channel definitions
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models (Attribution IQ).
 
 What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you create a classification for your Marketing Channels and leave those two channels unclassified. The classified dimension will yield the same Attribution IQ results as if those channels were never configured.
 
+![](assets/direct-session-refresh.png)
+
 ## Best Practice #3: Enable Override Last-Touch Channel for all channels
 
 Custom attribution models used with the Marketing Channel dimension in Workspace work best when this setting is enabled. Enabling this setting causes a Marketing Channel Instance to count when a new channel/detail is encountered. You should enable this for all channels except for Direct or Internal/Session Refresh, which we no longer recommend for use with custom attribution models (Attribution IQ).
 
+![](assets/override.png)
+
 ## Best Practice #4: Minimize Visitor Engagement period
 
 Setting the Visitor Engagement period to the minimum of “1 Day” minimizes the likelihood of persisting values. Because custom attribution models (AIQ) allow flexible lookback windows, we recommend setting the minimum value to minimize the impact of this setting.
+
+![](assets/expiration.png)
 
 ## Best Practice #5: Marketing Channels Processing Rules should exist only for enabled channels
 

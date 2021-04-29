@@ -5,6 +5,10 @@ exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 ---
 # Classifications in Marketing Channels
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
 Use classifications to categorize values into related groups and to report at the group level. For example, you can classify all Paid Search campaigns into a category like Video Cards. Then you can report on the success of that category relative to metrics like Instances (or click-throughs).
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. Channel Values are unclassified values in the channel detail.

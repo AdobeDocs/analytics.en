@@ -5,6 +5,10 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 ---
 # Processing rules for Marketing Channels
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
 Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel by processing every hit a visitor makes on your site. The rules are processed in the order you specify, and when a rule is met, the system stops processing the remaining rules. 
 
 ![](assets/buckets_2.png)

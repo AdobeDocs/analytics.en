@@ -5,6 +5,10 @@ description: Frequently asked questions for Marketing channels.
 
 # Marketing Channels FAQ
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
 Frequently asked questions for Marketing channels.
 
 ## My tracking codes do not follow a pattern, and I have thousands that must be specified for my Affiliates channel.

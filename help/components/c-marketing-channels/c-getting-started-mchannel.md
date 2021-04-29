@@ -5,6 +5,10 @@ description: Learn about the Marketing Channels workflow, the automatic setup, a
 
 # Get Started with Marketing Channels
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
 Marketing Channels are commonly used to provide insight on how visitors arrive on your site. You can customize your Marketing Channel Processing Rules based on what channels you want to track, and how you want to track them.
 
 Marketing Channels revolve around First and Last Touch metrics, which are components of standard conversion metrics.

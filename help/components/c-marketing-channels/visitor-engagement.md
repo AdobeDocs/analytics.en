@@ -8,6 +8,10 @@ exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 ---
 # Marketing channel expiration
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
 Learn how to specify the expiration, or visitor engagement period, for Marketing Channels.
 
 Visitor engagement is how much time you want to allow for the visitor's previous activity on your site to be attributed to the first touch channel. The default expiration setting is 30 days. 

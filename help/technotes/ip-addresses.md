@@ -26,7 +26,7 @@ Adobe Analytics uses the following hosts to improve performance and product expe
 | Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## All Adobe Analytics IP address blocks
+## All Adobe Analytics Data Collection IP address blocks
 
 The following table covers all standard data collection servers and regional data collection servers for Adobe Analytics. They do not include individual AWS hosts.
 

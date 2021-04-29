@@ -242,6 +242,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
   + [Get Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
+  + [Attribution IQ with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)
   + [Manage marketing channels](c-marketing-channels/c-channels.md)
   + [Processing rules for Marketing Channels](c-marketing-channels/c-rules.md)
   + [Classifications in Marketing Channels](c-marketing-channels/classifictions-mchannel.md)

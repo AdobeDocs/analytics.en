@@ -31,6 +31,6 @@ Custom attribution models used with the Marketing Channel dimension in Workspace
 
 Setting the Visitor Engagement period to the minimum of “1 Day” minimizes the likelihood of persisting values. Because custom attribution models (AIQ) allow flexible lookback windows, we recommend setting the minimum value to minimize the impact of this setting.
 
-## Best Practice #5: Marketing Channels Processing Rules exist only for enabled channels
+## Best Practice #5: Marketing Channels Processing Rules should exist only for enabled channels
 
 Ensure that you remove any Marketing Channel Processing Rules for disabled channels. Rules should exist only for Marketing Channels that are checked as enabled.

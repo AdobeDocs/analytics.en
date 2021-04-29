@@ -10,7 +10,8 @@ Marketing Channel processing rules determine if a visitor hit meets the criteria
 ![](assets/buckets_2.png)
 
 Additional notes about processing :
-* Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+
+* Data collected with these rules are 100% permanent, and rules altered after data is collected is not retroactive. We strongly recommend that you review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
 * The report can process up to 25 channels at a time.
 * Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted.
 * Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event).
@@ -20,6 +21,7 @@ Additional notes about processing :
 
 * Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Create one or more channels so that you can assign rules to them. See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
+* Review the best practices for using [!UICONTROL Marketing Channels] with [!UICONTROL Attribution IQ].
 
 ## Create Marketing Channel processing rules
 

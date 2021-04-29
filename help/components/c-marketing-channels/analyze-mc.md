@@ -9,13 +9,13 @@ You probably want to know which of your marketing channels is the most effective
 
 ![](assets/mc-dims.png)
 
-|Dimension/Metric| Definition|
-|---|---|
-|Marketing Channel|This is the recommended Marketing Channels dimension to use. Attribution IQ models can be applied to it at run-time. This dimension behaves identically to Last Touch Channel dimension, but is labeled differently to prevent confusion when using it with a different attribution model.|
-|Last Touch Channel|Legacy dimension, with last touch attribution model pre-applied and unchangeable.|
-|First Touch Channel|Legacy dimension, with first touch attribution model pre-applied and unchangeable.|
-|Marketing Channel Instances|This metric measures the number of times a marketing channel was defined in an image request, including standard page views and custom link calls. Does not include persisted values.|
-|New engagements|This metric is similar to Instances, but is only incremented when first touch marketing channel is defined in an image request.|
+| Dimension/Metric | Definition |
+| --- | --- |
+| Marketing Channel |This is the recommended Marketing Channels dimension to use. Attribution IQ models can be applied to it at run-time. This dimension behaves identically to Last Touch Channel dimension, but is labeled differently to prevent confusion when using it with a different attribution model.|
+| Last Touch Channel | Legacy dimension, with last touch attribution model pre-applied and unchangeable. |
+| First Touch Channel | Legacy dimension, with first touch attribution model pre-applied and unchangeable. |
+| Marketing Channel Instances | This metric measures the number of times a marketing channel was defined in an image request, including standard page views and custom link calls. Does not include persisted values. |
+| New engagements | This metric is similar to Instances, but is only incremented when first-touch marketing channel is defined in an image request. |
 
 ## Basic analysis
 
@@ -47,7 +47,7 @@ Notice how the same metric (Online Orders) generates different results when you 
 
 ## Cross-tab marketing analysis
 
-Using the legacy First Touch Channel and Last Touch Channel, you can get a helpful view into channel interactions:
+Using the legacy First-Touch Channel and Last-Touch Channel, you can get a helpful view into channel interactions:
 
 ![](assets/mc-viz6.png)
 

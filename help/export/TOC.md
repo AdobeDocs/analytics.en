@@ -24,7 +24,6 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md)
   + [Data feed best practices](analytics-data-feed/data-feeds-best-practices.md)
-  + [Troubleshoot data feeds](analytics-data-feed/feed-troubleshooting.md)
   + [Troubleshoot jobs](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)

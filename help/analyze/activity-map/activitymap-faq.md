@@ -14,6 +14,15 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 Organizations with a contract for Adobe Analytics Standard, Premium, and Ultimate have access to Activity Map.
 
+## How does Activity Map support Single-Page Applications (SPA)?
+
+Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
+
+* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the Links On Page table's Present column for that link updates with [!UICONTROL Displayed] or [!UICONTROL Hidden].
+
+* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the [!UICONTROL Links On Page] table. Activity Map sends a new data request that includes these new links. The new links should appear in the [!UICONTROL Links On Page] table when the data request is handled by the UI.
+
+
 ## Does Activity Map provide data on "views"?
 
 No, Adobe does not track links that were viewed.
@@ -24,7 +33,7 @@ Activity Map supports the latest version of most modern browsers.
 
 ## Does Activity Map increase server calls?
 
-Activity Map does not send server calls by itself. Instead, Activity Map context data variables are included with Analytics page view calls on the subsequent page. 
+Activity Map does not send server calls by itself. Instead, Activity Map context data variables are included with Analytics page view calls on the subsequent page.
 
 ## Why are some ranked item overlays missing?**
 

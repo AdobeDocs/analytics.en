@@ -29,7 +29,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](/help/components/cda/setup.md) and [FAQ](/help/components/cda/faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](/help/implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies.md). |
+| January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |
 | November 21, 2019 | New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |

@@ -31,7 +31,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Compare dates to previous ranges](event/compare-dates.md)
   + [Derive data impacted by events](event/calcmetrics.md)
   + [Communicate events to users](event/communicate.md)
-+ [Cookies] {#cookies}
++ Cookies {#cookies}
   + [Browser cookies](cookies/cookies.md)
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
 + [Data retention](data-retention.md)

@@ -85,7 +85,7 @@ Both of these identifiers are calculated by Adobe at the time the report is run,
 
 ## How can I move from the device graph to field-based stitching, or vice versa?
 
-If you would like to switch CDA identifying methods, talk to your organization's Account Manager. The Account Manager can provision your report suite to the desired method to identify people. *Historical stitched data from the previous method is lost.*
+Switching from device graph to field-based stitching or vice versa can be requested via Customer Care. However, making such a switch can take a couple of weeks or more to complete and *historical stitched data from the previous method is lost.*
 
 ## How does Adobe handle unique limits for an eVar used in field-based stitching?
 

@@ -7,17 +7,17 @@ exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
 # Low-traffic value in Adobe Analytics
 
-When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
+When a report has many unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
 
 ## How low-traffic works
 
 * Reporting is not affected if the variable does not reach 500,000 unique values in a given month.
 * When a variable reaches this first threshold of 500,000, data begins to be bucketed under low-traffic. Each value beyond this threshold goes through the following logic:
   * If a value is already in reports, add to that value as usual.
-  * If a value is not yet in reporting, check to see if that value was seen more than approximately ten times today. If it has, add this value to reporting. If it hasn't been counted more than about ten times, leave it under low-traffic.
+  * If a value is not yet in reporting, the "number values seen" thresholds are dependent upon backend configurations. They do not constitute precise "10" or "100" times seen.
 * If a report suite reaches more than 1,000,000 unique values, more aggressive filtering is applied:
   * If a value is already in reports, add to that value as usual.
-  * If a value is not yet in reporting, check to see if that value was seen more than approximately 100 times today. If it has, add the value to reporting. If it hasn't, leave it under low-traffic.
+  * If a value is not yet in reporting, the "number values seen" thresholds are dependent upon backend configurations. They do not constitute precise "10" or "100" times seen.
 
 >[!NOTE]
 >

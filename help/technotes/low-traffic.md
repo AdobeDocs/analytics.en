@@ -7,7 +7,7 @@ exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
 # Low-traffic value in Adobe Analytics
 
-When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
+When a report has many unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
 
 ## How low-traffic works
 

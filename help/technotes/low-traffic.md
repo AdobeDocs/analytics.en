@@ -19,7 +19,7 @@ When a report has many unique values, Adobe provides functionality to ensure tha
   * If a value is already seen in reports, add to that value as usual.
   * If a value is not yet seen in reports, it will appear in the [!UICONTROL Low-Traffic] line item. If a value that has been included in the [!UICONTROL Low-Traffic] line item is seen a significant number of times within a short time, it will start being recognized as its own line item. The significant number of times that an item has to be seen has many dependencies, such as the number of processing servers and daemons that are processing data for that particular report suite.
 
-Why does Adobe move an item from the [!UICONTROL Low Traffic] line item to its own line item? For example, this move might recognize a popular new page or new item that was added later in the month (after uniques were exceeded) and gets a lot of hits/views. The move is not intended to catch everything that gets a certain number of hits/views per day or per month.
+Why does Adobe move an item from the [!UICONTROL Low Traffic] line item to its own line item? For example, this move might recognize a popular new page or new item that was added later in the month (after uniques were exceeded) and that gets a lot of hits/views. The move is not intended to catch everything that gets a certain number of hits/views per day or per month.
 
 ## Changing unique limit thresholds
 

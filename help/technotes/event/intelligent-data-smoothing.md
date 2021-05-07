@@ -22,7 +22,7 @@ Intelligent Data Smoothing is a prototype in [Analytics Labs](/help/analyze/tech
    ![Date range](assets/date-range.png)
 1. Click the gear icon for the metric in the Freeform table.
    ![Gear icon](assets/gear-icon.png)
-1. Under {!UICONTROL Data Settings}, select the [!UICONTROL Data smoothing] option.
+1. Under [!UICONTROL Data Settings], select the [!UICONTROL Data smoothing] option.
    ![Data smoothing](assets/column-setting.png)
 1. Select the date/date range corresponding to the event and click [!UICONTROL Apply]. 
    Ensure that the data range for Data smoothing is a subset of the date range selected for the panel. The metric in the table and graph are replaced by the predicted values. 

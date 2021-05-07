@@ -18,6 +18,17 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 
 For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rules.md).
 
+## Use the [!UICONTROL websiteBot] plug-in to identify bots
+
+The websiteBot plug-in allows you to dynamically identify if desktop visitors are bots. You can use this data to drive greater accuracy in all types of reporting, which gives you a better way to measure legitimate site traffic.
+
+This plug-in performs two checks:
+
+* First, it determines whether the device is a desktop or mobile device using the navigator.UserAgent variable. Mobile devices are ignored.
+* If it is a desktop device, it adds an event listener for mouse movement.
+
+For more information, see the [Adobe Analytics Implementation Guide](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
+
 ## Use a combination of Adobe Tools
 
 In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can leverage these tools.

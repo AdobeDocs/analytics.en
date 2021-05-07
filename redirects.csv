@@ -44,3 +44,8 @@ source,destination
 /docs/analytics/components/marketing-channels/c-overview.html,/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html
 https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/feed-troubleshooting.html,https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html
 https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html,https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html
+https://experienceleague.adobe.com/docs/analytics/technotes/event-impacted.html,https://experienceleague.adobe.com/docs/analytics/technotes/event/overview.html
+https://experienceleague.adobe.com/docs/analytics/components/segmentation/use-cases/exclude-date-range.html,https://experienceleague.adobe.com/docs/analytics/technotes/event/segments.html
+https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.html,https://experienceleague.adobe.com/docs/analytics/technotes/event/compare-dates.html
+https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-events.html,https://experienceleague.adobe.com/docs/analytics/technotes/event/calcmetrics.html
+https://experienceleague.adobe.com/docs/analytics/technotes/event/event-communicate.html,https://experienceleague.adobe.com/docs/analytics/technotes/event/communicate.html

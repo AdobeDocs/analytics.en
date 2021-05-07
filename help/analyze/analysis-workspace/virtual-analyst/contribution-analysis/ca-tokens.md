@@ -55,7 +55,7 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
 
 >[!IMPORTANT]
 >
->Anomaly Detection and Contribution Analysis have been removed from the Reports & Analytics feature set and are now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace.
+>Anomaly Detection and Contribution Analysis were removed from the Reports & Analytics feature set and are now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 

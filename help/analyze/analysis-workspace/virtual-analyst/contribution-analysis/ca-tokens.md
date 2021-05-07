@@ -40,41 +40,14 @@ The number of runs per company is limited by monthly tokens that are granted bas
 
 ## Frequently asked questions {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Question </th> 
-   <th colname="col2" class="entry"> Answer </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Why did Adobe introduce tokens? </b> </p> </td> 
-   <td colname="col2"> <p>Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>How does tokening in Contribution Analysis work? Does it cost a token to load a project with an existing Contribution Analysis, or only when running a brand new one?</b> </p> </td> 
-   <td colname="col2"> <p>Each login company (not each user) gets a certain number of tokens per month, which allow you to run "complete" Contribution Analysis in Analysis Workspace. </p> <p>Each time you generate a new Contribution Analysis, you pay one token. Loading projects with pre-run Contribution Analyses does not cost a token. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Do tokens apply to Contribution Analysis in Reports &amp; Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>No. Contribution Analysis is no longer offered in Reports &amp; Analytics as of the April 2018 release. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>If my company is out of tokens and wants to run additional Contribution Analyses, what can we do?</b> </p> </td> 
-   <td colname="col2"> <p>You can upgrade to another Adobe Analytics product, for example from Standard (2 tokens/month) to Ultimate (20 tokens/month). You cannot buy just more tokens—you must upgrade within the existing packaging framework. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>How do I restrict access to Contribution Analysis?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a>. You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. </p> <p>The permission is called "Contribution Analysis" under <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Edit Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span>  &gt; <span class="uicontrol"> Tools And Reports</span></span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>How do I know how many tokens my company is entitled to per month, and how many we have used in the current month?</b> </p> </td> 
-   <td colname="col2"> <p>Go to <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <span class="uicontrol"> View Feature Access Levels</span></span>. There are 2 new items on this page: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Question | Answer |
+| --- | --- |
+| Why did Adobe introduce tokens? | Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. |
+| How does tokening in Contribution Analysis work? Does it cost a token to load a project with an existing Contribution Analysis, or only when running a brand new one? | Each login company (not each user) gets a certain number of tokens per month, which allow you to run "complete" Contribution Analysis in Analysis Workspace.  Each time you generate a new Contribution Analysis, you pay one token. Loading projects with pre-run Contribution Analyses does not cost a token. |
+| Do tokens apply to Contribution Analysis in Reports & Analytics? | No. Contribution Analysis is no longer offered in Reports & Analytics as of April 2018. |
+| If my company is out of tokens and wants to run additional Contribution Analyses, what can we do? | You can upgrade to another Adobe Analytics product, for example from Standard (2 tokens/month) to Ultimate (20 tokens/month). You cannot buy just more tokens—you must upgrade within the existing packaging framework. |
+| How do I restrict access to Contribution Analysis? | By default, only admins have access to run Contribution Analyses. However, admins can grant access to other users by creating a permission group in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. The permission is called [!UICONTROL Contribution Analysis] under [!UICONTROL Report Suite Tools]. [Learn more](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| How do I know how many tokens my company is entitled to per month, and how many we have used in the current month? | Go to  [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Company Settings Home] >[!UICONTROL View Feature Access Levels]. Look under<ul><li>Contribution Analysis: Number of Monthly Usage Tokens</li><li>Contribution Analysis: Number of Usage Tokens used this month</li></ul> |
 
 ## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 

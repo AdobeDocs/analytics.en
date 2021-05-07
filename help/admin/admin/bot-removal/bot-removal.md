@@ -20,7 +20,7 @@ For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rule
 
 ## Use the [!UICONTROL websiteBot] plug-in to identify bots
 
-The websiteBot plug-in allows you to dynamically identify if desktop visitors are bots. You can use this data to drive greater accuracy in all types of reporting, which gives you a better way to measure legitimate site traffic.
+The [!UICONTROL websiteBot] plug-in allows you to dynamically identify if desktop visitors are bots. You can use this data to drive greater accuracy in all types of reporting, which gives you a better way to measure legitimate site traffic.
 
 This plug-in performs two checks:
 

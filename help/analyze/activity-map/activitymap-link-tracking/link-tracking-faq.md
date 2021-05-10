@@ -36,10 +36,14 @@ If a click event occurs on an element, the element has to pass some checks to de
 * Is this a `BUTTON`? 
     
 If the answer is Yes to any of the questions above, then the element is treated as a link and will be tracked. 
-     
-Important:  Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing type="button" on the button tags and adding role="button" or submit="button" instead. 
-     
-Important: An anchor tags with an "href" that starts with "#" is considered an internal target location by AppMeasurement, not a link (since you do not leave the page.) By default, Activity Map does not track these internal target locations. It tracks only links that navigate the user to a new page.
+
+>[!IMPORTANT]
+>
+>Button tags with the attribute type="button" are not considered to be links by AppMeasurement. Consider removing type="button" on the button tags and adding role="button" or submit="button" instead. 
+
+>[!IMPORTANT]
+>
+>An anchor tag with an "href" that starts with "#" is considered an internal target location by AppMeasurement, not a link (since you do not leave the page.) By default, Activity Map does not track these internal target locations. It tracks only links that navigate the user to a new page.
 
 ## How does Activity Map track other visual HTML elements?
 
@@ -48,7 +52,7 @@ a. Via the `s.tl()` function.
   If the click occurred via an `s.tl()` invocation, then Activity Map will also receive this click event and determine if a `linkName` string variable was found. During `s.tl()` execution, that linkName will be set as the Activity Map Link ID. The element clicked that originated the `s.tl()` call will be used to determine the region. Example:
 
   ```   
-      
+  
   <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 
   ```
@@ -64,7 +68,9 @@ b. Via the `s_objectID` variable. Example:
 
     ```
 
-Important:  Note that a trailing semicolon (;) is required when using `s_objectID` in Activity Map.
+>[!IMPORTANT]
+>
+>A trailing semicolon (;) is required when using `s_objectID` in Activity Map.
 
 ## Can you give me some examples of links that will be tracked?
 

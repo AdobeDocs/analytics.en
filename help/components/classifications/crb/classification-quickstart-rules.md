@@ -12,7 +12,7 @@ Classification rules regularly look for unclassified terms. If a rule match is f
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. A rule matches criteria you specify, then performs an action.
+The Rule Builder lets you create a *classification rule set*, which is a list of *classification rules*. A rule matches criteria you specify, then performs an action.
 
 Classification rules are convenient for:
 
@@ -259,7 +259,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `a{3,}`  | 3 or more of a  |
 |  `a{3,6}`  | Between 3 and 6 of a  |
 
-A good resource for testing regular expression validity is https://rubular.com/.
+A good resource for testing regular expression validity is [https://rubular.com/](https://rubular.com/).
 
 ## About Rule Priority 
 
@@ -397,7 +397,7 @@ Steps that describe how to validate and activate classification rules.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** <*selection*>.
 
    This option lets you overwrite existing classifications for affected keys.
 

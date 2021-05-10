@@ -72,6 +72,7 @@ Important:  Note that a trailing semicolon (;) is required when using `s_objectI
 * `<input type="submit" value="Submit"/>`
 * `<input type="image" src="submit-button.png"/>`
 * 
+
   ```
 
       <p onclick="var s_objectID='custom link id';">
@@ -80,8 +81,9 @@ Important:  Note that a trailing semicolon (;) is required when using `s_objectI
       </p>
 
   ```
-  
+
 * 
+
   ```
       <div onclick="s.tl(true,'o','custom link id')">
         <span class="title">Current Market Rates</span>

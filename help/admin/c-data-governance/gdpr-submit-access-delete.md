@@ -6,16 +6,13 @@ exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 ---
 # Submit Access and Delete Requests
 
-
-## Overview {#section_BD70882995894C1CA19C205C49FEC23C}
-
 If your customers (consumers/data subjects) want to know what data you maintain about them or decide they want to be deleted from your Analytics properties, you as the data controller are responsible for responding to those requests. The data controller determines how your organization will interact with data subjects (e.g., through a data subject user portal) and manages interactions with the data subject. It also is the controller's responsibility to close the loop with the data subject when the request is fulfilled. In other words, Adobe Experience Cloud, as the data processor, will not accept requests directly from data subjects or return data directly to them. Rather, Adobe will receive requests from and return data to only you as the data controller.
 
 You also may want to ensure your mobile apps and websites will have relevant pop-up notices and supporting materials about data subjects' rights regarding their directly identifiable or indirectly identifiable data, and other data you collect.
 
 ## Manage Consumer Consent {#section_3012015E7E8942519FB9279CF7057EAB}
 
-You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for [implementing an opt-out mechanism](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
+You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for implementing an [opt-out mechanism](https://www.adobe.com/privacy/opt-out.html#customeruse) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
 
 ## Validate Users and Their Data {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 

@@ -43,7 +43,6 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Data sources:** Allows a user to upload data from a file into Adobe Analytics. The file is typically pulled from an FTP site. See [Data Sources](/help/import/c-data-sources/datasrc-home.md) in the Import user guide.
 * **Data Warehouse:** A feature in Adobe Analytics that allows you to request larger reports. See [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in the Export user guide.
 * **Dimension:** A component type that contains variable values, like text. Examples include Page Name, Tracking Code, or Referring Domain. A metric is typically its counterpart.
-* **Dynamic Tag Management:** Adobe's former tag management solution. See [DTM implementation overview](/help/implement/other/dtm/dtm-implementation-overview.md) in the Implement user guide. Adobe recommends using Adobe Experience Platform Launch instead.
 * **Event serialization:** The process of implementing measures to prevent the collection of duplicate events. See [Event serialization](../implement/vars/page-vars/events/event-serialization.md) in the Implement user guide.
 * **eVar:** See Conversion variable.
 * **Event:** See Success event.

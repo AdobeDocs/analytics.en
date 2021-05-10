@@ -53,7 +53,7 @@ a. Via the `s.tl()` function.
 
   ```
 
-b. Via the s_objectID variable. Example: 
+b. Via the `s_objectID` variable. Example: 
   
   ```     
 
@@ -73,12 +73,14 @@ Important:  Note that a trailing semicolon (;) is required when using `s_objectI
 * `<input type="image" src="submit-button.png"/>`
 * 
   ```
+
       <p onclick="var s_objectID='custom link id';">
         <span class="title">Current Market Rates</span>
         <span class="subtitle">1.45USD</span>
       </p>
 
   ```
+  
 * 
   ```
       <div onclick="s.tl(true,'o','custom link id')">

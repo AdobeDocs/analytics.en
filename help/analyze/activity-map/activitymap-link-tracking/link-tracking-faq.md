@@ -55,14 +55,14 @@ a. Via the `s.tl()` function.
 
 b. Via the `s_objectID` variable. Example: 
   
-  ``` 
+    ``` 
 
   <img onclick="s_objectID='abc';" src="someimageurl.png"/>
       <a href="some-url.html" onclick="s_objectID='abc';" >
         Link Text Here
       </a> 
 
-  ```
+    ```
 
 Important:  Note that a trailing semicolon (;) is required when using `s_objectID` in Activity Map.
 

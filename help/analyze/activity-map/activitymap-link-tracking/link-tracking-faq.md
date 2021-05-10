@@ -74,10 +74,31 @@ b. Via the `s_objectID` variable. Example:
 
 ## Can you give me some examples of links that will be tracked?
 
-* `<a hef="/home?lang=en>Home</a>`
-* `<input type="submit" value="Submit"/>`
-* `<input type="image" src="submit-button.png"/>`
-* 
+### Example 1
+
+  ```
+
+    <a hef="/home?lang=en>Home</a>
+
+  ```
+
+### Example 2
+
+  ```
+
+   <input type="submit" value="Submit"/>
+
+  ```
+
+### Example 3
+
+  ```
+
+    <input type="image" src="submit-button.png"/>
+
+  ```
+
+### Example 4
 
   ```
 
@@ -88,7 +109,7 @@ b. Via the `s_objectID` variable. Example:
 
   ```
 
-* 
+### Example 5
 
   ```
       <div onclick="s.tl(true,'o','custom link id')">

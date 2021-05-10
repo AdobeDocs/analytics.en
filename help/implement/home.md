@@ -23,7 +23,7 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
 Adobe Analytics requires code within your website, mobile app, or other application to send data to data collection servers. There are several methods to implement this code, depending on platform and your organization's needs.
 
 * **Adobe Experience Platform Launch**: The standardized and recommended method to implement Adobe Analytics. Place a loader tag on each page, and use Launch's interface to determine how each variable is defined.
-* **Dynamic Tag Management**: The predecessor to Launch. DTM uses a similar interface to implement Analytics, but is no longer updated and is not as flexible. Adobe recommends using Launch for implementing Adobe Analytics.
+* **Dynamic Tag Management**: Dynamic Tag Management has been end-of-lifed.
 * **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Outlines variables and settings used in an implementation, which can be useful for Launch implementations using rules with custom code.
 * **Mobile SDK**: Dedicated libraries to easily send data to Adobe from within your mobile app.
 

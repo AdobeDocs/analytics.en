@@ -319,11 +319,11 @@ Add rules by matching a condition to a classification, and specifying the action
 
    >[!NOTE]
    >
-   >Report suites display on this page *`only`* when the following conditions are met:
+   >Report suites display on this page *only* when the following conditions are met:
    >
    >* The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
    >
-   >   (See *`Variable`* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   >   (See *Variable* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.)
    >
    >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/classifications/crb/classification-rule-set.md) to create the rule set.
 

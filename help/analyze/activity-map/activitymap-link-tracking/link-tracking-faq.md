@@ -197,17 +197,22 @@ Important:  Note that a trailing semicolon (;) is required when using `s_objectI
   `<a name="innerAnchor">Section header</a>`
 
 1. Reason: Neither `s_ObjectID` nor `s.tl()` present:
+
       ```
       <p onclick="showPanel('market rates')">
         <span class="title">Current Market Rates</span>
         <span class="subtitle">1.45USD</span>
       </p>
+
       ```
+
 1. Reason: Neither `s_ObjectID` nor `s.tl()` present:
+
       ```     
       <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
       <input type="radio" onclick="changeState(this)" name="group1" value="B"/>
       <input type="radio" onclick="changeState(this)" name="group1" value="C"/>
+
       ```  
      
 1. Reason: "src" property is missing a form input element:

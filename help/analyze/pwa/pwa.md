@@ -40,8 +40,6 @@ s.trackOffline=true
 *** 
 ```
 
-For more information on editing the AppMeasurement.js file, see [Insert core AppMeasurement code](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md).
-
 For more information about configuring the AppMeasurement.js file, see [Configuration variables overview](/help/implement/vars/config-vars/configuration-variables.md) and the individual variable-specific pages in the same subchapter.
 
 For more information on the characteristics of the AppMeasurement.js file, see the [JavaScript implementation overview](/help/implement/js/overview.md).

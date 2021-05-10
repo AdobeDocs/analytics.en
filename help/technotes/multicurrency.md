@@ -424,8 +424,6 @@ s.linkTrackEvents="None"
     
 ```
 
-For more information on editing the AppMeasurement.js file, see [Inserting code into the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
-
 ## Additional Implementation Notes
 
 * Keep in mind that while currency codes can change between pages, all conversion line items defined on a given page request must use the same currency (for example, you can't have Euro, British Pounds, and US Dollars defined on the same page view). If you do not want to do any currency conversion, you should leave the currencyCode value blank. This causes the values sent to be passed directly through to reports with no conversion.

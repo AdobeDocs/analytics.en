@@ -10,7 +10,7 @@ exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Descriptions of elements on the Define User Group page.
 
@@ -103,14 +103,7 @@ Descriptions of elements on the Define User Group page.
   <tr> 
    <td colname="col1"><b>All Report Suites</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>Permissions are supported for customers who have active <span class="keyword"> TagManager</span> containers. Not available for new users. </p> <p>Adobe recommends <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> for deployment. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>Assign User Logins</b> </td> 
    <td colname="col2"> </td> 

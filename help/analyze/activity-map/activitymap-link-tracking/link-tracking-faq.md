@@ -58,9 +58,9 @@ b. Via the `s_objectID` variable. Example:
     ``` 
 
   <img onclick="s_objectID='abc';" src="someimageurl.png"/>
-      <a href="some-url.html" onclick="s_objectID='abc';" >
-        Link Text Here
-      </a> 
+  <a href="some-url.html" onclick="s_objectID='abc';" >
+  Link Text Here
+  </a> 
 
     ```
 

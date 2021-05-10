@@ -239,7 +239,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + Get started {#getting-started}
     + Get started for admins {#get-started-admins}
       + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-      + [Sample Implementation Code](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + [Implement Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
     + Get started for users {#get-started-users}
       + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
       + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)

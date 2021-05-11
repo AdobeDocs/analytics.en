@@ -12,7 +12,7 @@ Classification rules regularly look for unclassified terms. If a rule match is f
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. A rule matches criteria you specify, then performs an action.
+The Rule Builder lets you create a *classification rule set*, which is a list of *classification rules*. A rule matches criteria you specify, then performs an action.
 
 Classification rules are convenient for:
 
@@ -259,7 +259,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `a{3,}`  | 3 or more of a  |
 |  `a{3,6}`  | Between 3 and 6 of a  |
 
-A good resource for testing regular expression validity is https://rubular.com/.
+A good resource for testing regular expression validity is [https://rubular.com/](https://rubular.com/).
 
 ## About Rule Priority 
 
@@ -319,11 +319,11 @@ Add rules by matching a condition to a classification, and specifying the action
 
    >[!NOTE]
    >
-   >Report suites display on this page *`only`* when the following conditions are met:
+   >Report suites display on this page *only* when the following conditions are met:
    >
    >* The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
    >
-   >   (See *`Variable`* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   >   (See *Variable* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.)
    >
    >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/classifications/crb/classification-rule-set.md) to create the rule set.
 
@@ -397,7 +397,7 @@ Steps that describe how to validate and activate classification rules.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** <*selection*>.
 
    This option lets you overwrite existing classifications for affected keys.
 

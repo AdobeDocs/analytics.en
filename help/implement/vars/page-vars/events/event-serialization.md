@@ -36,7 +36,7 @@ You can set the event ID field either while configuring the Analytics extension 
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Events] section, where each event contains an [!UICONTROL Event ID] field.
 
-Valid values are alpha-numeric characters up to 20 bytes in length.
+Valid values are alpha-numeric characters up to 20 bytes in length. If you enter a value that is longer than 20 bytes, then the system truncates it to the first 20 bytes.
 
 ## Use event IDs in AppMeasurement and Launch custom code editor
 

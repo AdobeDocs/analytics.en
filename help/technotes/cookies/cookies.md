@@ -9,6 +9,9 @@ This document explains how major browsers' tracking prevention measures affect t
 
 ## How have browsers limited the usage of cookies?
 
+>[!NOTE]
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) and [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) can stitch across cookies using a person ID, such as a hashed login ID, if one is available.
+
 ### Third-party cookie limitations
 
 Cookies used in a third-party context are being widely deprecated. Firefox and Safari started blocking third-party cookies by default starting in 2019 and 2020, respectively. Chrome has announced plans to stop supporting third-party cookies sometime in 2022. When they do, third-party cookies will effectively be unusable.
@@ -17,23 +20,25 @@ Additionally, Chrome currently only allows cookies to function in a third-party 
 
 #### Which Adobe third-party cookies are affected?
 
-The Visitor ID service uses the [`demdex.net`](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) cookie to provide a persistent identifier for visitors across different customer domains. On browsers where third-party cookies are blocked, cross-domain tracking is not available.
+The Visitor ID service uses the [`demdex.net`](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) cookie to provide a persistent identifier for visitors across different customer domains. The legacy Analytics ID service, the "s_vi" cookie, is set as a third-party cookie for implementations not using a custom CNAME collection domain. 
+
+On browsers where third-party cookies are blocked, cross-domain tracking is not available.
 
 ### First-party cookie limitations {#limitations-first-party-cookies}
 
-First-party cookies are permitted on all major browsers. However, Apple limits the lifespan of first-party cookies set by Adobe through their Intelligent Tracking Program (ITP). This includes Safari on MacOS and all browsers on iOS and iPadOS.
+First-party cookies are permitted on all major browsers. However, Apple limits the lifespan of first-party cookies set by Adobe through their Intelligent Tracking Program (ITP). This includes Safari as well as all browsers on iOS and iPadOS.
 
-Adobe's first-party cookies are limited to a 7-day expiry or a 24-hour expiry for click-throughs that Apple determines are coming from trackers. In the case of a 7-day expiry, if a user visits your site and then returns within those seven days, then the cookie's expiration date is extended by another seven days. However, if a user visits your site and then returns in eight days, they are treated as a new user on the second visit.
+Adobe's first-party cookies are limited to a 7-day expiry or, for click-throughs that Apple determines are coming from trackers, a 24-hour expiry. In the case of a 7-day expiry, if a user visits your site and returns within seven days, then the cookie's expiration date is extended by another seven days. However, if a user visits your site and returns in eight days, then they are treated as a new user on the second visit.
 
 Currently, ITP policies apply to all first-party cookies set by Adobe, whether you're using the Visitor ID service or the legacy Analytics ID ("s_vi" cookie). At one point, these policies applied only to cookies set client-side and not to cookies set server-side via a CNAME implementation. In November of 2020, however, ITP was updated to apply to CNAME implementations as well.
 
-#### Timeline of major changes to ITP policy
+#### Timeline of major changes to ITP policy (#ITP-timeline)
 
 * February 2019 with [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/): Client-side cookies were limited to a seven-day expiry
 * April 2019 with [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/): Client-side cookies were limited to 24 hours for ad clicks when the referring domain was a) involved in cross-site tracking and b) the final URL contained a query string and/or a fragment identifier.
 * November 2020 with [CNAME Cloaking and Bounce Tracking Defense](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/): ITP limitations were extended to CNAME implementations.
    
-ITP policies are frequently evolving. For the latest policies, see [Tracking Prevention in Webkit](https://webkit.org/tracking-prevention).
+ITP policies are frequently evolving. For the latest policies, see Apple's [Tracking Prevention in Webkit](https://webkit.org/tracking-prevention).
 
 #### Which Adobe first-party cookies are affected?
 
@@ -43,14 +48,14 @@ All first-party cookies set by Adobe, and the related JavaScript libraries, are 
 * The Analytics legacy [`s_vi` cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) when it is configured with first-party data collection using a CNAME
 * The Analytics legacy [`s_fid` cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), which is the fallback cookie used when `s_vi` cannot be set
 
-#### What is the impact of ITP to Safari for Analytics?
+#### What is the impact of ITP to Safari for Analytics? 
 
-The impact of the ITP limitations will vary significantly, depending on your users' behavior. Only visitors who use an ITP-impacted browser (that is, Safari) and return after a seven-day absence are affected. If visitors do not use an ITP browser or return within seven days, they are unaffected. It is important to review your own data in Analytics to understand the extent of the impact of this limitation. For tips on how to measure the impact to your sites, see "[How can I determine if Safari changes affect my business?](#measure-itp-effect)"
+The impact of the ITP limitations will vary significantly, depending on your users' behavior. Only visitors who use an ITP-impacted browser (for example Safari) and return after a seven-day absence are affected. If visitors do not use an ITP browser or return within seven days, they are unaffected. It is important to review your own data in Analytics to understand the extent of the impact of this limitation. For tips on how to measure the impact to your sites, see "[How can I determine if Safari changes affect my business?](#measure-itp-effect)"
 
 If these limitations do impact your data, you will see:
 
 1. Increased Visitor counts as returning visitors are treated as new visitors because their cookies have expired. Any metrics based on the Visitor metric (such as Sales per Visitor) are also impacted.
-2. Changes to attribution. Conversion events are tied to preceding activities by the same visitor. Once a cookie expires, future events are associated with a new visitor, and conversions can't be tied back to the original visitor.
+2. Changes to attribution. Attribition relies on tying conversion events to preceding activities by the same visitor. Once a cookie expires, subsequent events are associated with a new visitor. The activities of the new visitor can not be tied to the activities of the previous visitor.
 
 >[!NOTE]
 >
@@ -78,7 +83,7 @@ For more information, see [About first-party cookies](https://experienceleague.a
 
 ## What is the SameSite cookie attribute, and how does it affect Analytics cookies? {#samesite-effect}
 
-With the release of the Chrome 80 browser in February 2020 &mdash; and successive versions of Firefox and Edge browsers &mdash; the SameSite cookie attribute enforces the specification for three different values to control the behavior of cross-site requesting:
+With the release of the Chrome 80 browser in February 2020 &mdash; and successive versions of Firefox and Edge browsers &mdash; the SameSite cookie attribute enforces the specification for three different values which govern whether cookies can be used in a third-party context:
 
 * `None`: This setting enables cross-site access and enables cookies to be passed in a third-party context. To specify this attribute, you must also specify `Secure` and all browser requests must follow HTTPS. For example, when setting the cookie, you pair the values of the attribute as follows: `Set-Cookie: example_session=test12; SameSite=None; Secure`. If not labelled properly, the cookies are unusable to the newer browsers and are rejected.
 
@@ -90,9 +95,11 @@ The default behavior in these browser versions is to treat cookies that have no 
 
 ### How does Analytics manage SameSite cookie attributes?
 
-All Adobe cookie updates are handled via Adobe servers, and Adobe edge servers set the appropriate cookie attributes. All third-party cookies were updated on the server side with the appropriate attributes. No JavaScript updates are required for your sites.
+For customers using the Visitor ID Service, cookies will have the properties samesite=None and secure set by default. This will allow these cookies to support third-party use cases.
 
-This upgrade by Adobe edge servers happened automatically as users visited any website where the cookie was used. For most Adobe products, cookies had the appropriate flags when Chrome 80 was released in 2020. The exception was Adobe Analytics implementations that use third-party data collection and do not use the Experience Cloud Visitor ID service. For that type of implementation, you must ask Customer Care to change the flags; see "[Change the SameSite value when you use one CNAME for multiple domains](#samesite-one-cname)" in the next section for more information. Until the flag is changed, these customers can experience a small, temporary increase in new visitors that otherwise would be tagged as returning visitors.
+For customers using Adobe Analytics legacy identifiers (i.e. "s_vi" and "s_fid" cookies) cookies will also be set to enable third-party use cases when using standard collection domains: adobedc.net, 2o7.net, and omtrdc.net. For customers using a CNAME implementation Analytics will set SameSite = Lax.  
+
+Note that if you own multiple domains and use the same CNAME for data collection across all your domains, then the cookie is treated as a third-party cookie on those other domains. If you are using the legacy Analytics identifiers then you may want to update your setting to have SameSite = None so that these cookies can be shared across your sites. See "[Change the SameSite value when you use one CNAME for multiple domains](#samesite-one-cname)" in the next section for more information. 
 
 For browsers that Google has identified as mishandling cookies when `SameSite` is set to `None`, `SameSite` is instead left unset.
 
@@ -124,7 +131,7 @@ Adobe recommends that customers measure the impact within their own company befo
 
 * Measure the percentage of your traffic from ITP-governed browsers:
 
-   1. Create a segment to see how many visitors are using an ITP platform.
+   1. Create a segment to see how many visitors are using an ITP platform. Note that the specific browsers impacted by ITP will depend on whether you were using a CNAME implementation. See [Timeline of major changes to ITP policy](#ITP-timeline) for more detail.
 
        ![Segment for ITP visitors](/help/technotes/assets/itp-visitor-segment.png)
 

@@ -38,25 +38,25 @@ Virtual report suites help:
 
 Virtual report suites have the following limitations:
 
-* Any limitations of segments apply to virtual report suites
+* Any limitations of segments also apply to virtual report suites
 
-  A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own data warehouse and its own data feed, using multiple report suites results in some benefits that segments do not provide.
+  A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own Data Warehouse and its own Data Feed, using multiple report suites results in some benefits that segments do not provide.
 * Real-time report 
-* Settings and variable names can't be customized like in a full report suite
+* Settings and variable names cannot be customized like in a full report suite
 
-## Virtual Report Suites vs. Multisuite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multi-suite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Capability  | Virtual Report Suite  | Multisuite Tagging  |
+| Capability  | Virtual Report Suite  | Multi-suite Tagging  |
 |--- |--- |--- |
-|Offers real-time or "Current Data" reporting|No|Yes|
-|Works in all Analytics Tools (Analysis Workspace, Report Builder, etc.)|Yes. **Note:** You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools.|Yes|
-|Can upload data to it (via classifications, data feeds, etc.)|No|Yes|
-|Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics...|Yes|Yes|
-|Can be individually added to Permissions Groups|Yes|Yes|
-|Can use Admin functions to modify individual settings on this report suite (Admin > Report Suites)|No (Settings are inherited from parent)|Yes|
+| Offers real-time or "Current Data" reporting| No | Yes |
+|Works in all Analytics Tools (Analysis Workspace, Report Builder, etc.)|Yes. **Note:** You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools. | Yes |
+| Can upload data to it (via classifications, data feeds, etc.) | No | Yes |
+| Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics... | Yes | Yes |
+| Can be individually added to Permissions Groups | Yes | Yes |
+| Can use Admin functions to modify individual settings on this report suite (Admin > Report Suites) | No (Settings are inherited from parent) | Yes |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combine Virtual Report Suites and Multi-suite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
-In some cases, there are benefits to using both virtual report suites and multisuite tagging.
+In some cases, there are benefits to using both virtual report suites and multi-suite tagging.
 
 For example, a retailer might use a report suite for each brand, and virtual report suites for each brand to break data out by region. Similarly, an athletic organization might use a report suite for each team, then virtual report suites to divide fans in the team's region from those outside the region.

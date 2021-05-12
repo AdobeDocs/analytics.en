@@ -17,13 +17,11 @@ For access to the Adobe Experience Cloud Release Notes as a whole, go [here](htt
 |[!UICONTROL Components] > [!UICONTROL User preferences] | March 25, 2021 | The [!UICONTROL Components] > [!UICONTROL User preferences] page enables you to manage [!UICONTROL Analysis Workspace] settings and its related components for your user. [!UICONTROL User preferences] applies to all new projects and panels. <br>**Note:** the following settings have moved to the [!UICONTROL User preferences] page:<ul><li>Report Settings: Thousands separator (now called _Number format_)</li><li>Report Settings: CSV separator</li><li>Workspace projects: Help > Enable tips</li><li>Workspace projects: Blank panel _Start new projects with this panel_ option</li></ul> |
 | [!UICONTROL Histogram Smart Bucket Prediction] | March 25, 2021 | [!UICONTROL Histogram Smart Bucket Prediction] helps with high-cardinality-metrics histograms by automatically identifying the right width and number of buckets for your data spread. For low-cardinality metrics, the visualization behaves the same as it did previously. |
 
-
 ## February 2021
 
 | Feature | Target Date | Description |
 | --- | --- | --- |
 | Component Selection | February 4, 2021 | The drop-down/drop zone component found in [!UICONTROL Quick Insights] will be added to all drop zones in [!UICONTROL Workspace]. This enhancement allows you to pick from a drop-down list of compatible components or continue to use the space as a drop zone. |
-
 
 ## January 2021
 

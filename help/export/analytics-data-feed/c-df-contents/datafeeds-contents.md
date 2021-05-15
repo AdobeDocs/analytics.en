@@ -11,7 +11,7 @@ exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 
 This section describes the files found in a data feed delivery.
 
-## Manifest file
+## Manifest file {#feed-manifest}
 
 The manifest file contains the following details about each file that is part of the uploaded data set:
 

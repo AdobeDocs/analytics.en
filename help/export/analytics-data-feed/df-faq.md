@@ -64,17 +64,6 @@ When making STD -> DST time transitions ("Spring Forward"), the customer receive
 
 When making DST -> STD transitions, ("Fall Back"), the customer gets 24 files. However, the hour of transition actually includes two hours' worth of data. For example, if the transition occurs at 2:00 am, the file for 1:00 is delayed by one hour, but it contains data for two hours. It contains data from 1:00 DST to 2:00 STD (which would have been 3:00 DST). The next file begins at 2:00 STD.
 
-## Will I receive manifest files when no data is collected? {#section_72510794694D42A9A75C966B812AEB0F}
-
-You can optionally configure a data feed to deliver a manifest file if no data is collected for a specific period. If you enable this option, you'll receive a manifest file similar to the following:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
-
 ## How does Analytics handle FTP transfer failures? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
 In the event of an FTP transfer failure (login denied, lost connection, out of quota, etc.), Adobe attempts to automatically connect and send the data up to three separate times. If the failures persist, the feed is marked as failed and an email notification is sent.

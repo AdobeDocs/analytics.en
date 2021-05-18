@@ -8,7 +8,7 @@ exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
 
 The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
 
-1. Log in to the [!DNL Adobe Experience Cloud].
+1. Log in to [!DNL Adobe Experience Cloud].
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suite access]** and make that the desired report suite is active.
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 

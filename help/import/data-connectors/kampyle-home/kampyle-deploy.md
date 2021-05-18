@@ -12,7 +12,7 @@ Deploying this integration is a simple process consists of completing the Adobe 
 
 To activate the integration, complete the configuration wizard in the Data Connectors interface.
 
-1. Log in to the Adobe Experience Cloud.
+1. Log in to [!DNL Adobe Experience Cloud].
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Launch the Kampyle integration wizard.
 1. Select the desired report suite and provide a name for the integration.

@@ -10,22 +10,22 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Analytics Tools Permission Item | Description |
 |----|----|
 | Server Call Usage| Grants access to Admin > Server Call Usage. |
-| Code Manager | Kept around for legacy purposes. Grants access to Admin > Code Manager. In most cases, use the libraries included in Adobe Experience Platform Launch instead. |
+| Code Manager | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in Adobe Experience Platform Launch instead. |
 | Code Manager - Web Services| Grants access to the Code Manager via the 1.4 API. |
-| Logs | Grants access to Admin > Logs. |
+| Logs | Grants access to Admin > All admin > Logs. |
 | Logs - Web Services| Grants access to pull logs via the 1.4 API. |
-| Traffic Management | Grants access to Admin > Traffic Management. |
-| Permission Management| No longer used. Grants access to the legacy user management interface under Admin > User Management. |
+| Traffic Management | Grants access to Admin > All admin > Traffic management. |
+| Permission Management| No longer used. Grants access to the legacy user management interface under Admin > All admin > User management. |
 | Permissions (Read) - Web Services| No longer used. Allows the user to view legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
 | Permissions (Write) - Web Services | No longer used. Allows the user to edit legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
-| Security | Grants access to Admin > Company Settings > Security Manager. |
-| Support| Grants access to Admin > Company Settings > Support Information. |
-| Web Services | Grants access to Admin > Company Settings > Web Services. |
+| Security | Grants access to Admin > All admin > Company settings > Security Manager. |
+| Support| Grants access to Admin > All admin > Company settings > Support Information. |
+| Web Services | Grants access to Admin > All admin > Company settings > Web Services. |
 | Single Sign-On | No longer used. Grants access to the deprecated Single Sign-On Service. |
-| Pending Actions| Grants access to Admin > Company Settings > Pending Actions. |
-| Co-Branding| No longer used. Grants access to Admin > Company Settings > Co-Branding. |
+| Pending Actions| Grants access to Admin > All admin > Company settings > Pending Actions. |
+| Co-Branding| No longer used. Grants access to Admin > All admin > Company settings > Co-Branding. |
 | Preferences| Not used. |
-| Hide Report Suites | Grants access to Admin > Company Settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
+| Hide Report Suites | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
 | Excel License Users| Not used. |
 | Activity Map | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Current Data | Enables the option to see current data in Reports & Analytics reports. |
@@ -41,6 +41,6 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Segment Creation | Grants the ability to create and share segments across all Analytics capabilities. |
 | Advertising Analytics Management | Not used. |
 | Segment Publishing | Grants the ability to make a segment an Experience Cloud audience when creating or editing a segment. |
-| Integrations (Create)| Grants access to Admin > Data Connectors, and allows the user to create data connectors. |
-| Integrations (Update)| Grants access to Admin > Data Connectors, and allows the user to modify existing connector configurations. |
-| Integrations (Delete)| Grants access to Admin > Data Connectors, and allows the user to delete data connectors. |
+| Integrations (Create)| Grants access to Admin > All admin > Data connectors, and allows the user to create data connectors. |
+| Integrations (Update)| Grants access to Admin > All admin > Data connectors, and allows the user to modify existing connector configurations. |
+| Integrations (Delete)| Grants access to Admin > All admin > Data connectors, and allows the user to delete data connectors. |

@@ -11,7 +11,7 @@ exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 
 >[!IMPORTANT]
 >
->User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** will be retired.
 
 Customize group permission to Analytics tools, report suite tools, metrics, and dimensions.
 

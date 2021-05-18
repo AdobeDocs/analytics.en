@@ -43,7 +43,7 @@ Before you start creating virtual report suites, here are a few things to keep i
   </tr> 
   <tr> 
    <td colname="col1"> Groups </td> 
-   <td colname="col2"> <p>Select the permission groups that you want to have access to this VRS. (You can also manage group permissions from <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span></span>.) </p> </td> 
+   <td colname="col2"> <p>Select the permission groups that you want to have access to this VRS. (You can also manage group permissions from <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management</span> &gt; <span class="uicontrol"> Groups</span></span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Parent Report Suite </td> 

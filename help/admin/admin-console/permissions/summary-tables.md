@@ -17,9 +17,9 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Conversion Variables | x |  |  |  | Grants access to Conversion > Conversion Variables in the Report Suite Manager. |
 | Costs | x |  |  |  | Grants access to Marketing Channels > Marketing Channel Costs in the Report Suite Manager. |
 | Custom Calendar | x |  |  |  | Grants access to General > Customize Calendar in the Report Suite Manager. |
-| Data Feeds Manager | x |  |  |  | Grants access to Admin > Data Feeds in the Analytics top navigation. |
+| Data Feeds Manager | x |  |  |  | Grants access to Admin > Data feeds in the Analytics top navigation. |
 | Data Repair API | x |  |  |  | Grants access to the Data Repair API |
-| Data Sources Manager  | x |  |  |  | Grants access to Admin > Data Sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
+| Data Sources Manager  | x |  |  |  | Grants access to Admin > All admin > Data sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
 | Default Metrics | x |  |  |  | Grants access to Individual Report Suite Settings > Default Metrics in the Report Suite Manager.      |
 | Exclude By IP Address | x |  |  |  | Grants access to Admin > Exclude By IP in the Analytics top navigation. |
 | Finding Methods | x |  |  |  | Grants access to Conversion > Finding Methods in the Report Suite Manager. |
@@ -67,20 +67,20 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 
 | Analytics Tool | Administration | Access Controls | Reports-only Features | Deprecated | Description |
 | --- | --- | --- | --- | --- | --- |
-| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > Code Manager. In most cases, use the libraries included in Adobe Experience Platform Launch instead. |
+| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in Adobe Experience Platform Launch instead. |
 | Code Manager - Web Services | x |  |  |  | Grants access to the Code Manager via the 1.4 API. |
-| Hide Report Suites | x |  |  |  | Grants access to Admin > Company Settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
-| Integrations (Create) | x |  |  |  | Grants access to Admin > Data Connectors, and allows the user to create data connectors. |
-| Integrations (Delete) | x |  |  |  | Grants access to Admin > Data Connectors, and allows the user to delete data connectors. |
-| Integrations (Update) | x |  |  |  | Grants access to Admin > Data Connectors, and allows the user to modify existing connector configurations. |
-| Logs | x |  |  |  | Grants access to Admin > Logs. |
+| Hide Report Suites | x |  |  |  | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
+| Integrations (Create) | x |  |  |  | Grants access to Admin > All admin > Data connectors, and allows the user to create data connectors. |
+| Integrations (Delete) | x |  |  |  | Grants access to Admin > All admin > Data connectors, and allows the user to delete data connectors. |
+| Integrations (Update) | x |  |  |  | Grants access to Admin > All admin > Data connectors, and allows the user to modify existing connector configurations. |
+| Logs | x |  |  |  | Grants access to Admin > All admin > Logs. |
 | Logs - Web Services | x |  |  |  | Grants access to pull logs via the 1.4 API. |
-| Pending Actions | x |  |  |  | Grants access to Admin > Company Settings > Pending Actions.  |
-| Security  | x |  |  |  | Grants access to Admin > Company Settings > Security Manager. |
-| Server Call Usage | x |  |  |  | Grants access to Admin > Server Call Usage. |
-| Support | x |  |  |  | Grants access to Admin > Company Settings > Support Information. |
-| Traffic Management | x |  |  |  | Grants access to Admin > Traffic Management.  |
-| Web Services  | x |  |  |  | Grants access to Admin > Company Settings > Web Services.  |
+| Pending Actions | x |  |  |  | Grants access to Admin > All admin > Company settings > Pending Actions.  |
+| Security  | x |  |  |  | Grants access to Admin > All admin > Company settings > Security Manager. |
+| Server Call Usage | x |  |  |  | Grants access to Admin > Server call usage. |
+| Support | x |  |  |  | Grants access to Admin > All admin > Company settings > Support Information. |
+| Traffic Management | x |  |  |  | Grants access to Admin > All admin > Traffic management.  |
+| Web Services  | x |  |  |  | Grants access to Admin > All admin > Company settings > Web Services.  |
 | Activity Map |  | x |  |  | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Ad Hoc Analysis License Users |  | x |  |  | Ad Hoc Analysis has been end-of-lifed. [More info](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
@@ -94,10 +94,10 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Current Data |  |  | x |  | Enables the option to see current data in Reports & Analytics reports. |
 | Reports & Analytics Access |  |  | x |  | Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics. |
 | Advertising Analytics Management |  |  |  | x | Not used. |
-| Co-Branding |  |  |  | x | No longer used. Grants access to Admin > Company Settings > Co-Branding. |
+| Co-Branding |  |  |  | x | No longer used. Grants access to Admin > All admin > Company settings > Co-Branding. |
 | Excel License Users |  |  |  | x | Not used. |
 | Mobile App Admin |  |  |  | x | Not used. |
-| Permission Management |  |  |  | x | No longer used. Grants access to the legacy user management interface under Admin > User Management. |
+| Permission Management |  |  |  | x | No longer used. Grants access to the legacy user management interface under Admin > All admin > User management. |
 | Permissions (Read) - Web Services |  |  |  | x | No longer used. Allows the user to view legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
 | Permissions (Write) - Web Services |  |  |  | x | No longer used. Allows the user to edit legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
 | Preferences |  |  |  | x | Not used. |

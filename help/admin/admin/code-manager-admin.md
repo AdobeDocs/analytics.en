@@ -9,7 +9,7 @@ exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 
 Code manager lets you download data collection code for web and mobile platforms.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
 
 After you download the library, you must configure the code to send data to the correct tracking server and report suite. Additional implementation resources are available in the [Implement](/help/implement/home.md) user guide.
 

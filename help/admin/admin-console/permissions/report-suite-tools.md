@@ -42,7 +42,7 @@ Use this page to understand each permission item under Report Suite Tools.
 | Data Feeds Manager | Grants access to Admin > Data Feeds in the Analytics top navigation. |
 | Custom Data Warehouse Report| Grants access to Tools > Data Warehouse in the Analytics top navigation. |
 | Daily Return Visits | Grants access to Visitor Retention > Daily Return Visits in Reports & Analytics. |
-| Data Sources Manager | Grants access to Admin > Data Sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
+| Data Sources Manager | Grants access to Admin > All admin > Data Sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
 | Exclude By IP Address | Grants access to Admin > Exclude By IP in the Analytics top navigation. |
 | Last 100 Visitors | Not used. |
 | Legacy ClickMap | Not used. Use Activity Map under Analytics Tools instead. |

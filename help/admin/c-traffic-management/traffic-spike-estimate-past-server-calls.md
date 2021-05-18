@@ -8,7 +8,7 @@ exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 
 You can get, say, last year's daily server call average during a specific time frame, plus an expected increase in server call volume for this year. You can then schedule a traffic spike based on this multiplication factor.
 
-1. Log in to Analytics as an Admin and go to **[!UICONTROL Admin]** > **[!UICONTROL Traffic Management]**.
+1. Log in to Analytics as an Admin and go to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Traffic management]**.
 
 1. Click **[!UICONTROL Expand]** to expanding the report suite list and click **[!UICONTROL Select Report Suites]** to select multiple report suites.
 

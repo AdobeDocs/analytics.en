@@ -41,7 +41,7 @@ Before configuring a data connectors integration for your product, do the follow
 You must have a current account to access the [!UICONTROL Data Connectors] landing page (console). It is also recommended that you are familiar with Adobe Analytics.
 
 1. Log into the Adobe Experience Cloud.
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Click **[!UICONTROL Add New]**.
 1. Step through the **[!UICONTROL Add Integration]** interface.
 

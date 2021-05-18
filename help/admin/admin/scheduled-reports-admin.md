@@ -9,7 +9,7 @@ exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 
 Lets Admin-level users see and manage scheduled reports across the organization.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled Reports]**
 
 Admin-level capabilities in the Scheduled Reports Manager include:
 

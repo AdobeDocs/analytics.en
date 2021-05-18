@@ -9,7 +9,7 @@ exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
 
 Steps that describe how administrators can enable Data Warehouse reporting access to a group of users.
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL Add New User Group]**.
 1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. provide the following group information:

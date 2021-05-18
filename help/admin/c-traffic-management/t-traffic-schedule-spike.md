@@ -11,7 +11,7 @@ Advanced server-side data balancing with several dedicated personnel are used to
 
 Please read the information about [Required Lead Time for Traffic Increases](/help/admin/c-traffic-management/traffic-lead-time.md) before you schedule a traffic spike.
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Select a report suite.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Schedule Spike]**.
 1. In the **[!UICONTROL Spike Start Date]** field, specify the date when you expect the traffic spike to start.

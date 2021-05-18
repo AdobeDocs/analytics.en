@@ -11,6 +11,6 @@ The Traffic Management page lets you specify expected traffic volume changes. Th
 
 To access [!UICONTROL Traffic Management]:
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, then select a report suite.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**, then select a report suite.
 
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>`*.

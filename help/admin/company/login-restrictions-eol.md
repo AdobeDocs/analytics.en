@@ -21,7 +21,7 @@ Finally, Adobe has a functioning and far superior alternative solution via Singl
 
 For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. At that time, any IP login restrictions still in place will no longer be enforced. If you still need to restrict login by IP address, you should review and implement the recommended solution of Single-Sign-On and Federated IDs (more info and resources below). 
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin] > [!UICONTROL Company Settings] > [!UICONTROL Security Manager]** in the Analytics UI (as shown below). 
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin] > [!UICONTROL All admin] > [!UICONTROL Company settings] > [!UICONTROL Security Manager]** in the Analytics UI (as shown below). 
 
 ![](assets/sec-manager2.png)
 

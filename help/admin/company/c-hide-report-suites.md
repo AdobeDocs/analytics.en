@@ -18,7 +18,7 @@ Hiding a report suite prevents it from being shown in the report suite selector 
 >
 >Data that is sent to a hidden report suite from your site continues to be collected, processes, and billed. In other words, a report suite is never fully deleted.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Hide Report Suites]**. Check the **[!UICONTROL Hidden]** checkbox to the left of the report suite name.
+To hide the report suite, go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Hide Report Suites]**. Check the **[!UICONTROL Hidden]** checkbox to the left of the report suite name.
 
 To unhide the report suite, uncheck the **[!UICONTROL Hidden]** checkbox.
 

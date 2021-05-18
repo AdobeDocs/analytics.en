@@ -16,8 +16,8 @@ Step through the DFA Data Connectors Integration.
 
 The configuration pages provide an overview of the integration, along with helpful links for more information. There are both Adobe and DoubleClick fees associated with this integration. Contact your appropriate Sales Representatives for both organizations and make sure you understand the fee structure.
 
-1. Log in to the [!DNL Adobe Analytics].
-1. Click **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Log in to [!DNL Adobe Analytics].
+1. Click **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 
    ![](assets/data_connectors.png)
 

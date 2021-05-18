@@ -16,7 +16,7 @@ The Activity Map module is part of the AppMeasurement.js file (located at the to
 
 Activity Map data cannot be collected unless you update to this version (or higher) of AppMeasurement.
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** and [implement it](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html).
+1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html).
 
    We have included some [sample implementation code](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) to help you visualize the changes that have been made to the code by including the Activity Map module.
 

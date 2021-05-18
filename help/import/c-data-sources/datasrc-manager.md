@@ -10,7 +10,7 @@ exl-id: a63137b8-deeb-4865-9be9-322416b00186
 
 Create, manage, and view the use of data sources in a report suite.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ## Create Tab {#section_74603FDA3D8842E49F1A51624A06DE20}
 

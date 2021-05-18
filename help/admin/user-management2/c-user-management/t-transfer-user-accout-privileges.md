@@ -10,11 +10,11 @@ exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** will be retired.
 
 Steps that describe how to assign user account items (dashboards, calculated metrics, calendar events, alerts, bookmarks, segments, Analysis Workspace projects, and scheduled projects) from one user account to that of another user.
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
 1. Click **[!UICONTROL Edit Users]**.
 1. Find the user that you wish to transfer assets from and select the checkbox next to this user's row.
 1. Select **[!UICONTROL Transfer Assets]** from the actions bar at the top.

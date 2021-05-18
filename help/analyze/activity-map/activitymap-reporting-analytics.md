@@ -15,7 +15,7 @@ Describes how to set permissions and which dimensions are available in Analytics
 Before users can report on Activity Map dimensions, you as the Admin need to
 
 * [Add users to the Activity Map Access Group](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Add report suites you would like to have access to this group. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
+* Add report suites you would like to have access to this group. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
 * Customize user access to dimensions. See the section below.
 
 ## Analytics Activity Map dimensions {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

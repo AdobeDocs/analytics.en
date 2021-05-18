@@ -32,7 +32,7 @@ Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report su
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 

@@ -22,17 +22,8 @@ Once created, a virtual report suite is treated just like a base report suite th
 
 Click the Info icon next to the report suite name to [view information about it](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Set up [Group permissions](/help/components/vrs/c-workflow-vrs/vrs-create.md) for it.
+![](assets/step3_icon.png) Open a project or report and select a virtual report suite to provide a segmented view of the data.
 
-You add group permissions as part of the creating a virtual report suite.
-
-You can edit group permissions in two ways:
-
-*   Edit the virtual report suite in the Virtual Report Suite Manager.
-*   Go to Admin > User Management > Groups, then select the group that has permissions to the virtual report suite and click Edit.
-
-![](assets/step4_icon.png) Open a project or report and select a virtual report suite to provide a segmented view of the data.
-
-![](assets/step5_icon.png) [Manage](/help/components/vrs/c-workflow-vrs/vrs-manage.md) the virtual report suite.
+![](assets/step4_icon.png) [Manage](/help/components/vrs/c-workflow-vrs/vrs-manage.md) the virtual report suite.
 
 The Virtual Report Suite Manager lets you edit, add, tag, delete, rename, approve, copy, export, and filter virtual report suites. It is not visible to non-Admin users.
